@@ -596,6 +596,10 @@
    "modern": "bukuh",
    "tier": "A"
   },
+  "boro": {
+   "modern": "boro",
+   "tier": "M"
+  },
   "bosi": {
    "modern": "busi",
    "tier": "T"
@@ -1856,6 +1860,10 @@
    "modern": "gmiya",
    "tier": "id"
   },
+  "gmlaqa": {
+   "modern": "gmraka",
+   "tier": "M"
+  },
   "gmoto": {
    "modern": "gmutu",
    "tier": "B"
@@ -2912,6 +2920,10 @@
    "modern": "knrdanan",
    "tier": "B"
   },
+  "knleqo": {
+   "modern": "qnriqu",
+   "tier": "M"
+  },
   "knlikit": {
    "modern": "knrikit",
    "tier": "B"
@@ -3115,6 +3127,10 @@
   "ko": {
    "modern": "ku",
    "tier": "B"
+  },
+  "kodox": {
+   "modern": "kuduh",
+   "tier": "M"
   },
   "kokox": {
    "modern": "kukuh",
@@ -3360,6 +3376,10 @@
    "modern": "qwarux",
    "tier": "L"
   },
+  "kwaxe": {
+   "modern": "kwaxi",
+   "tier": "M"
+  },
   "kwaxi": {
    "modern": "kwaxi",
    "tier": "id"
@@ -3583,6 +3603,10 @@
   "l'xlax": {
    "modern": "l'xlax",
    "tier": "id"
+  },
+  "l'xlaxon": {
+   "modern": "rhrhun",
+   "tier": "M"
   },
   "l'xluk": {
    "modern": "rhluk",
@@ -4352,6 +4376,10 @@
    "modern": "rqun",
    "tier": "L"
   },
+  "losok": {
+   "modern": "losok",
+   "tier": "M"
+  },
   "lowan": {
    "modern": "ruwan",
    "tier": "B"
@@ -4572,6 +4600,10 @@
    "modern": "lhlahi",
    "tier": "B"
   },
+  "lxlaxon": {
+   "modern": "rhrhun",
+   "tier": "M"
+  },
   "lxluk": {
    "modern": "rhluk",
    "tier": "A"
@@ -4583,6 +4615,10 @@
   "lämil": {
    "modern": "ramil",
    "tier": "B"
+  },
+  "m'akai": {
+   "modern": "m'akai",
+   "tier": "M"
   },
   "m'alax": {
    "modern": "m'alax",
@@ -4636,6 +4672,10 @@
    "modern": "mkan",
    "tier": "L"
   },
+  "m'ulae": {
+   "modern": "muray",
+   "tier": "M"
+  },
   "m'ulus": {
    "modern": "murus",
    "tier": "B"
@@ -4667,6 +4707,10 @@
   "ma'boax": {
    "modern": "mbuwax",
    "tier": "L"
+  },
+  "ma'gul": {
+   "modern": "mgul",
+   "tier": "M"
   },
   "ma'idao": {
    "modern": "midaw",
@@ -4743,6 +4787,10 @@
   "malukus": {
    "modern": "mlukus",
    "tier": "A"
+  },
+  "malun": {
+   "modern": "malun",
+   "tier": "M"
   },
   "mami": {
    "modern": "mami",
@@ -5267,6 +5315,10 @@
   "mknaqex": {
    "modern": "mqnaqih",
    "tier": "L"
+  },
+  "mknaxal": {
+   "modern": "mknaxal",
+   "tier": "M"
   },
   "mknxal": {
    "modern": "mknxal",
@@ -12552,6 +12604,10 @@
    "modern": "tmalang",
    "tier": "id"
   },
+  "tmapak": {
+   "modern": "tmapaq",
+   "tier": "M"
+  },
   "tmaq": {
    "modern": "tmaq",
    "tier": "id"
@@ -12647,6 +12703,10 @@
   "tmksoloç": {
    "modern": "tmqsurux",
    "tier": "T"
+  },
+  "tmkuli": {
+   "modern": "tmquri",
+   "tier": "M"
   },
   "tmlia": {
    "modern": "tmriya",
@@ -13175,6 +13235,10 @@
   "usik": {
    "modern": "usik",
    "tier": "id"
+  },
+  "usiq": {
+   "modern": "usik",
+   "tier": "M"
   },
   "usuk": {
    "modern": "usuk",
@@ -14352,10 +14416,6 @@
    "modern": "knrdaxan",
    "tier": "P"
   },
-  "knleqo": {
-   "modern": "knriqu",
-   "tier": "P"
-  },
   "knlisao": {
    "modern": "knrisaw",
    "tier": "P"
@@ -14468,10 +14528,6 @@
    "modern": "knhlpisan",
    "tier": "P"
   },
-  "kodox": {
-   "modern": "kuduh",
-   "tier": "P"
-  },
   "kpaux": {
    "modern": "kpaux",
    "tier": "P"
@@ -14560,16 +14616,8 @@
    "modern": "lhangan",
    "tier": "P"
   },
-  "lxlaxon": {
-   "modern": "l'xlaxun",
-   "tier": "P"
-  },
   "m'adi": {
    "modern": "maji",
-   "tier": "P"
-  },
-  "m'akai": {
-   "modern": "makay",
    "tier": "P"
   },
   "m'aleq": {
@@ -14584,16 +14632,8 @@
    "modern": "mrdu",
    "tier": "P"
   },
-  "m'ulae": {
-   "modern": "mulay",
-   "tier": "P"
-  },
   "m'ulat": {
    "modern": "murat",
-   "tier": "P"
-  },
-  "ma'gul": {
-   "modern": "magur",
    "tier": "P"
   },
   "mabaga": {
@@ -16001,7 +16041,7 @@
    "tier": "P"
   },
   "mulae": {
-   "modern": "mulay",
+   "modern": "muray",
    "tier": "P"
   },
   "mxalös": {
@@ -16569,7 +16609,7 @@
    "tier": "P"
   },
   "plxlaxon": {
-   "modern": "plhlahun",
+   "modern": "prhrhun",
    "tier": "P"
   },
   "pnalu": {
@@ -18044,10 +18084,6 @@
    "modern": "tmgakat",
    "tier": "P"
   },
-  "tmkuli": {
-   "modern": "tmkuri",
-   "tier": "P"
-  },
   "tmkumax": {
    "modern": "tmkumax",
    "tier": "P"
@@ -18307,19 +18343,6 @@
     }
    ]
   },
-  "boro": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "bru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "bubao": {
    "freq": 1,
    "pec_gloss": [
@@ -18364,21 +18387,6 @@
      "words": false,
      "gloss": 0,
      "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "gmlaqa": {
-   "freq": 2,
-   "pec_gloss": [
-    "同上之動詞形"
-   ],
-   "cands": [
-    {
-     "cand": "gmraka",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
      "agg": true
     }
    ]
@@ -18452,21 +18460,6 @@
     }
    ]
   },
-  "knleqo": {
-   "freq": 2,
-   "pec_gloss": [
-    "憎恨厭惡"
-   ],
-   "cands": [
-    {
-     "cand": "qnriqu",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "knusa": {
    "freq": 1,
    "pec_gloss": [],
@@ -18476,28 +18469,6 @@
      "words": false,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "kodox": {
-   "freq": 2,
-   "pec_gloss": [
-    "的否定形"
-   ],
-   "cands": [
-    {
-     "cand": "kduh",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    },
-    {
-     "cand": "quduh",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -18592,39 +18563,6 @@
     }
    ]
   },
-  "kwaxe": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kwaxi",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": false
-    },
-    {
-     "cand": "kwahi",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": false
-    }
-   ]
-  },
-  "l'xlaxon": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "rhrhun",
-     "words": false,
-     "gloss": 0,
-     "dist": 7,
-     "agg": true
-    }
-   ]
-  },
   "llongai": {
    "freq": 1,
    "pec_gloss": [],
@@ -18666,28 +18604,6 @@
     }
    ]
   },
-  "losok": {
-   "freq": 2,
-   "pec_gloss": [
-    "蠟燭"
-   ],
-   "cands": [
-    {
-     "cand": "rusuq",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    },
-    {
-     "cand": "rsuk",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
   "lowai": {
    "freq": 1,
    "pec_gloss": [],
@@ -18708,79 +18624,12 @@
     }
    ]
   },
-  "lxlaxon": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "rhrhun",
-     "words": false,
-     "gloss": 0,
-     "dist": 7,
-     "agg": true
-    }
-   ]
-  },
   "lübak": {
    "freq": 1,
    "pec_gloss": [],
    "cands": [
     {
      "cand": "lbak",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "m'akai": {
-   "freq": 2,
-   "pec_gloss": [
-    "呻吟喊痛的人"
-   ],
-   "cands": [
-    {
-     "cand": "mkay",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "m'ulae": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mray",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "ma'gul": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mgul",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "malun": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mrun",
      "words": true,
      "gloss": 0,
      "dist": 4,
@@ -18797,21 +18646,6 @@
      "words": false,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "mknaxal": {
-   "freq": 2,
-   "pec_gloss": [
-    "歷時十天十個時段"
-   ],
-   "cands": [
-    {
-     "cand": "mknxal",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -19873,41 +19707,6 @@
     }
    ]
   },
-  "tmapak": {
-   "freq": 3,
-   "pec_gloss": [
-    "在若干表達中聽到其中包括見例句是否與下一詞條有關扁平被壓扁"
-   ],
-   "cands": [
-    {
-     "cand": "tmapaq",
-     "words": false,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "tmkuli": {
-   "freq": 3,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "tmquli",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    },
-    {
-     "cand": "tmquri",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
   "tnoxoi": {
    "freq": 1,
    "pec_gloss": [],
@@ -19932,19 +19731,6 @@
      "words": false,
      "gloss": 0,
      "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "usiq": {
-   "freq": 3,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "usik",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
      "agg": true
     }
    ]
