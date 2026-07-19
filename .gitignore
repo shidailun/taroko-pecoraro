@@ -4,3 +4,6 @@
 # Raw page scans (huge; archive/pecoraro_taroko_scan.pdf is the compressed backup we keep)
 scans/
 
+
+__pycache__/
+scratch_ui_entries.json

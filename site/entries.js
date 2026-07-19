@@ -23444,7 +23444,7 @@ window.ENTRIES = [
         "zh": "發起者－自始即存在的人或物。",
         "examples": [
           {
-            "t": "Suyang bi ka gnluban ta sayang; yn bi ina ka tnlading ?",
+            "t": "Suyang bi ka gnluban ta sayang; yn bi ima ka tnlading ?",
             "fr": "Notre communauté est aujourd'hui très bonne; qui est-ce donc qui a bien pu la faire naître (commencer) ?",
             "en": "Our community is very good today; who then could have brought it into being (started it)?",
             "zh": "我們的社群如今很好；究竟是誰使它誕生（開始）的呢？"
@@ -24269,7 +24269,7 @@ window.ENTRIES = [
             "zh": "你真像個不會說話的大笨蛋！"
           },
           {
-            "t": "nlangi bi mmalox kana baga mo",
+            "t": "nlangi bi nnalox kana baga mo",
             "fr": "La plaie (le mal) de ma main ne se guérit pas.",
             "en": "The wound (the sore) on my hand does not heal.",
             "zh": "我手上的傷口（毛病）好不了。"
@@ -25199,7 +25199,7 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Mpklbagan (mplbagan)",
+        "form": "Npklbagan (nplbagan)",
         "fr": "Vers l'été - ce qui prépare l'été - printemps.",
         "en": "Toward summer - that which prepares summer - spring.",
         "zh": "接近夏季－為夏季作準備者－春季。",
@@ -25356,7 +25356,7 @@ window.ENTRIES = [
             "zh": "條件是竹子要嫩（幼嫩）。"
           },
           {
-            "t": "Miyax ko mlb'bao (mplb'bao ?) sunan",
+            "t": "Miyax ko mlb'bao (nplb'bao ?) sunan",
             "fr": "Je viens te demander une faveur (Je viens faire l'enfant gâté près de toi).",
             "en": "I come to ask you a favor (I come to act the spoiled child with you).",
             "zh": "我來求你幫個忙（我來在你面前撒嬌）。"
@@ -25916,7 +25916,7 @@ window.ENTRIES = [
     "examples": [],
     "subs": [
       {
-        "form": "L'ndo",
+        "form": "L'mdo",
         "fr": "Arrêter - s'arrêter.",
         "en": "To stop - to come to a halt.",
         "zh": "停止－停下來。",
@@ -32039,13 +32039,13 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Sknalu",
+        "form": "Skmalu",
         "fr": "(moyen, instrument) pour que soit bon, bonifié.",
         "en": "(means, instrument) so that (something) be good, improved.",
         "zh": "（方法、工具）使之變好、改善。",
         "examples": [
           {
-            "t": "Miyax so sknalu lnglongan na xo",
+            "t": "Miyax so skmalu lnglongan na xo",
             "fr": "Est ce que tu viens le consoler (vl. le remettre un peu sur la bonne route) ?",
             "en": "Are you coming to comfort him (var. to set him back a bit on the right path)?",
             "zh": "你是來安慰他（或：把他稍微導回正途）嗎？"
@@ -32257,13 +32257,13 @@ window.ENTRIES = [
     ],
     "subs": [
       {
-        "form": "Mmaspat",
+        "form": "Mnnaspat",
         "fr": "Huit fois.",
         "en": "Eight times.",
         "zh": "八次。",
         "examples": [
           {
-            "t": "Mnpia so mnqan sapax no? ... Mmaspat",
+            "t": "Mnpia so mnqan sapax mo? ... Mnnaspat",
             "fr": "Combien de fois as tu mangé chez moi ? ... Huit fois !",
             "en": "How many times have you eaten at my place? ... Eight times!",
             "zh": "你在我家吃過幾次飯？……八次！"
@@ -51822,7 +51822,7 @@ window.ENTRIES = [
         "zh": "將成為丈夫－將變得有男子氣概。",
         "examples": [
           {
-            "t": "Mpasnao so Kimai",
+            "t": "Mpasnao so Kinai",
             "fr": "Tu seras un jour le mari de Kimai.",
             "en": "You will one day be Kimai's husband.",
             "zh": "你有一天會成為Kimai的丈夫。"
@@ -54118,7 +54118,7 @@ window.ENTRIES = [
     "examples": [],
     "subs": [
       {
-        "form": "Mst'naq",
+        "form": "Mst'maq",
         "fr": "Ecraser - qui est écrasé.",
         "en": "To crush - that which is crushed.",
         "zh": "壓碎－被壓碎者。",
@@ -54130,13 +54130,13 @@ window.ENTRIES = [
             "zh": "我稍後會把你的李子壓碎。"
           },
           {
-            "t": "Mnda ko pk'kax kating ni mst'naq kana ka isil baga no",
+            "t": "Mnda ko pk'kax kating ni mst'maq kana ka isil baga no",
             "fr": "Je ne suis fait marcher dessus par le buffle et j'ai toute une main écrasée.",
             "en": "I got walked on by the buffalo and one whole hand is crushed.",
             "zh": "我被水牛踩到，一整隻手都被壓碎了。"
           },
           {
-            "t": "Mnda pliyax daolas ka Tunun; asi st'naq ka xei na",
+            "t": "Mnda pliyax daolas ka Tunun; asi st'maq ka xei na",
             "fr": "Tounounne est tombé des rochers et tout son corps est en bouillie!",
             "en": "Tounounne fell off the rocks and his whole body is pulp!",
             "zh": "杜農從岩石上摔下來，全身都成了肉糊！"
@@ -54144,7 +54144,7 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Tit'naq (Ti tnaq ?) (R. = ??)",
+        "form": "Tit'maq (Ti tmaq ?) (R. = ??)",
         "fr": "Aplati contre terre - écrasé au sol. (nb. D'autres, dans le même contexte et avec le même sens disent TGTMAQ au lieu de TITMAQ, donc comme une mutation de TKTMAQ qui pourrait être un dérivé d'une base: TMAQ .).",
         "en": "Flattened against the ground - crushed on the ground. (n.b. Others, in the same context and with the same meaning, say TGTMAQ instead of TITMAQ, thus as a mutation of TKTMAQ, which could be a derivative of a base: TMAQ.)",
         "zh": "被壓平貼地－在地面被壓碎。（註：其他人在相同語境、相同意思下說 TGTMAQ 而非 TITMAQ，即像是 TKTMAQ 的變體，而 TKTMAQ 可能衍生自詞根：TMAQ。）",
@@ -69205,7 +69205,7 @@ window.ENTRIES = [
     "examples": [],
     "subs": [
       {
-        "form": "Xmubao",
+        "form": "Xnubao",
         "fr": "d° forme verbale.",
         "en": "ditto, verbal form (of the preceding).",
         "zh": "同上之動詞形。",
@@ -69229,7 +69229,7 @@ window.ENTRIES = [
     "examples": [],
     "subs": [
       {
-        "form": "Xmugut",
+        "form": "Xnugut",
         "fr": "d° forme verbale.",
         "en": "ditto, verbal form (of the preceding).",
         "zh": "同上之動詞形。",
@@ -69241,7 +69241,7 @@ window.ENTRIES = [
             "zh": "(1°) 他們一邊經過田地，一邊隨意地把稻穗上的穀粒捋下來。"
           },
           {
-            "t": "Xmugut bi daolyaq ka mbanax tasil gaga",
+            "t": "Xnugut bi daolyaq ka mbanax tasil gaga",
             "fr": "Cette pierre rouge là attire vraiment les yeux. = (2°) Cette pierre rouge là tire vraiment les yeux.",
             "en": "That red stone there really attracts the eyes. = (2°) That red stone there really draws the eyes.",
             "zh": "那塊紅色的石頭真吸引人的目光。＝(2°) 那塊紅色的石頭真的很吸睛。"

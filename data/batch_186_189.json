@@ -184,13 +184,13 @@
           ]
         },
         {
-          "form": "Sknalu",
+          "form": "Skmalu",
           "fr": "(moyen, instrument) pour que soit bon, bonifié.",
           "en": "(means, instrument) so that (something) be good, improved.",
           "zh": "（方法、工具）使之變好、改善。",
           "examples": [
             {
-              "t": "Miyax so sknalu lnglongan na xo",
+              "t": "Miyax so skmalu lnglongan na xo",
               "fr": "Est ce que tu viens le consoler (vl. le remettre un peu sur la bonne route) ?",
               "en": "Are you coming to comfort him (var. to set him back a bit on the right path)?",
               "zh": "你是來安慰他（或：把他稍微導回正途）嗎？"
@@ -334,13 +334,13 @@
       ],
       "subs": [
         {
-          "form": "Mmaspat",
+          "form": "Mnnaspat",
           "fr": "Huit fois.",
           "en": "Eight times.",
           "zh": "八次。",
           "examples": [
             {
-              "t": "Mnpia so mnqan sapax no? ... Mmaspat",
+              "t": "Mnpia so mnqan sapax mo? ... Mnnaspat",
               "fr": "Combien de fois as tu mangé chez moi ? ... Huit fois !",
               "en": "How many times have you eaten at my place? ... Eight times!",
               "zh": "你在我家吃過幾次飯？……八次！"

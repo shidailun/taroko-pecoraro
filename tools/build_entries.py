@@ -12,6 +12,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = ROOT / "site" / "entries.js"
 
+# Pages with no dictionary content (section dividers, blank pages) that are
+# legitimately absent from every batch. Checked against scans/full/page_NNN.png
+# before being added here — don't add a page just to silence a warning.
+KNOWN_EMPTY_PAGES = {389}  # "APPENDICES" title page + table of contents, no entries
+
 HEADER = """\
 // Pecoraro Taroko dictionary — full digitization.
 // Source: Ferdinando Pecoraro, Essai de dictionnaire taroko-français (SECMI, Paris, 1977).
@@ -44,7 +49,10 @@ def main():
 
     # coverage check
     for a, b in zip(batches, batches[1:]):
-        if b["pages"][0] != a["pages"][1] + 1:
+        missing = set(range(a["pages"][1] + 1, b["pages"][0]))
+        if missing and missing <= KNOWN_EMPTY_PAGES:
+            print(f"NOTE: {a['_file']}/{b['_file']} skip known-empty page(s) {sorted(missing)}")
+        elif b["pages"][0] != a["pages"][1] + 1:
             print(f"WARNING: gap/overlap between {a['_file']} (ends {a['pages'][1]}) "
                   f"and {b['_file']} (starts {b['pages'][0]})")
 
