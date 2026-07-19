@@ -6736,6 +6736,10 @@
    "modern": "narux",
    "tier": "B"
   },
+  "nalu": {
+   "modern": "malu",
+   "tier": "M"
+  },
   "nama": {
    "modern": "nama",
    "tier": "id"
@@ -6755,6 +6759,10 @@
   "nangal": {
    "modern": "nangal",
    "tier": "id"
+  },
+  "nani": {
+   "modern": "nami",
+   "tier": "M"
   },
   "napa": {
    "modern": "napa",
@@ -11408,6 +11416,10 @@
    "modern": "sqtul",
    "tier": "B"
   },
+  "sqaan": {
+   "modern": "sqaan",
+   "tier": "M"
+  },
   "sqada": {
    "modern": "sqada",
    "tier": "id"
@@ -13292,9 +13304,13 @@
    "modern": "hjiyal",
    "tier": "A"
   },
+  "xdolan": {
+   "modern": "hduran",
+   "tier": "M"
+  },
   "xdoli": {
-   "modern": "hdli",
-   "tier": "L"
+   "modern": "hduri",
+   "tier": "M"
   },
   "xdolun": {
    "modern": "hdlun",
@@ -14308,6 +14324,10 @@
    "modern": "knspahung",
    "tier": "P"
   },
+  "knsqaan": {
+   "modern": "knsqaan",
+   "tier": "P"
+  },
   "knstmaan": {
    "modern": "knstmaan",
    "tier": "P"
@@ -14878,10 +14898,6 @@
   },
   "mmiyax": {
    "modern": "mmiyah",
-   "tier": "P"
-  },
-  "mnalu": {
-   "modern": "mnalu",
    "tier": "P"
   },
   "mnama": {
@@ -16446,6 +16462,10 @@
   },
   "plxlaxon": {
    "modern": "plhlahun",
+   "tier": "P"
+  },
+  "pnalu": {
+   "modern": "pmalu",
    "tier": "P"
   },
   "pnanak": {
@@ -19083,41 +19103,6 @@
     }
    ]
   },
-  "nalu": {
-   "freq": 8,
-   "pec_gloss": [
-    "代替頂替某人的位置"
-   ],
-   "cands": [
-    {
-     "cand": "nlu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "nru",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "nani": {
-   "freq": 9,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "nni",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "naqe": {
    "freq": 1,
    "pec_gloss": [],
@@ -20044,22 +20029,6 @@
     }
    ]
   },
-  "sqaan": {
-   "freq": 7,
-   "pec_gloss": [
-    "失聲聲音沙啞嗓子啞了",
-    "所感到的羞恥羞愧的時刻參見"
-   ],
-   "cands": [
-    {
-     "cand": "skaan",
-     "words": false,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
   "stalil": {
    "freq": 3,
    "pec_gloss": [
@@ -20353,28 +20322,6 @@
     {
      "cand": "hbraw",
      "words": false,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "xdolan": {
-   "freq": 10,
-   "pec_gloss": [
-    "獻祭的時間地點祭壇註太魯閣人的祭壇從不固定是用石頭木頭竹子臨時為該場合搭建的高台相當罕見"
-   ],
-   "cands": [
-    {
-     "cand": "hdlan",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    },
-    {
-     "cand": "hdran",
-     "words": true,
      "gloss": 0,
      "dist": 5,
      "agg": true
@@ -22227,13 +22174,6 @@
    ]
   ],
   [
-   "knsqaan",
-   3,
-   [
-    "羞恥難為情這些情緒的強烈程度"
-   ]
-  ],
-  [
    "knsyangan",
    3,
    [
@@ -22890,6 +22830,13 @@
    3,
    [
     "弄濕澆水"
+   ]
+  ],
+  [
+   "pyasan",
+   3,
+   [
+    "唱歌的時間地點對象"
    ]
   ]
  ]
