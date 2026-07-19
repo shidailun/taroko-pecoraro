@@ -9140,6 +9140,10 @@
    "modern": "ptqiri",
    "tier": "B"
   },
+  "ptqoan": {
+   "modern": "ptquwan",
+   "tier": "M"
+  },
   "pttama": {
    "modern": "pttama",
    "tier": "id"
@@ -9595,6 +9599,10 @@
   "qlaao": {
    "modern": "kraaw",
    "tier": "L"
+  },
+  "qlabwi": {
+   "modern": "klabi",
+   "tier": "M"
   },
   "qlagan": {
    "modern": "kragan",
@@ -11048,6 +11056,10 @@
    "modern": "smsik",
    "tier": "M"
   },
+  "smtana": {
+   "modern": "smtama",
+   "tier": "M"
+  },
   "smudal": {
    "modern": "smudal",
    "tier": "id"
@@ -11351,6 +11363,10 @@
   "spadao": {
    "modern": "spadaw",
    "tier": "B"
+  },
+  "spagan": {
+   "modern": "spagan",
+   "tier": "M"
   },
   "spangan": {
    "modern": "spangan",
@@ -19261,21 +19277,6 @@
     }
    ]
   },
-  "ptqoan": {
-   "freq": 4,
-   "pec_gloss": [
-    "所加諸的委屈所造成的侮辱冒犯"
-   ],
-   "cands": [
-    {
-     "cand": "ptkuan",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
   "ptqoon": {
    "freq": 2,
    "pec_gloss": [],
@@ -19328,22 +19329,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "qlabwi": {
-   "freq": 3,
-   "pec_gloss": [
-    "眼瞼眼皮",
-    "蝙蝠"
-   ],
-   "cands": [
-    {
-     "cand": "klabuy",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -19660,21 +19645,6 @@
     }
    ]
   },
-  "smtana": {
-   "freq": 3,
-   "pec_gloss": [
-    "同上之動詞形"
-   ],
-   "cands": [
-    {
-     "cand": "smtna",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "snkleqe": {
    "freq": 1,
    "pec_gloss": [],
@@ -19725,21 +19695,6 @@
      "words": true,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "spagan": {
-   "freq": 3,
-   "pec_gloss": [
-    "鋪設床鋪的動作地點或時間用來當鋪蓋墊子或蓆子的東西"
-   ],
-   "cands": [
-    {
-     "cand": "spgan",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
