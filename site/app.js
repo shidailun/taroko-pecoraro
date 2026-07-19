@@ -405,8 +405,8 @@
       "<p>「太魯閣」（Taroko）源自日治時期的羅馬拼音，是東台灣（花蓮）太魯閣族自稱「Truku」的另一種轉寫方式。貝科拉羅神父原文寫作「T'roko」。</p>" +
       "<p>This is a root-word dictionary: entries are organized by root (racine), not by every inflected or derived form. Grammatical particles and verb-conjugated forms appearing in example sentences may not have their own headword.</p>" +
       "<p>本辭典以詞根（root word）為主要條目，並非收錄每一個詞形變化。例句中出現的語法助詞或動詞變位形式，可能沒有獨立詞條。</p>" +
-      "<p>Cross-referencing against a modern-orthography Truku corpus surfaced roughly 227 further candidate words that appear in Pecoraro's example sentences but don't yet have their own headword; these await review before being added.</p>" +
-      "<p>經與現代太魯閣語語料庫比對，另發現約227個出現於貝科拉羅神父例句中、但尚無獨立詞條的候選詞彙，尚待核實後才會收錄。</p>" +
+      "<p>Cross-referencing against a modern-orthography Truku corpus confirmed that the example-sentence words without their own headword are almost entirely inflected or derived forms of roots already in the dictionary (as noted above), or the same word under a different spelling; genuine lexical gaps are very few.</p>" +
+      "<p>經與現代太魯閣語語料庫比對，證實例句中未設獨立詞條的詞彙，絕大多數為已收錄詞根的屈折或派生形式（如上所述），或同詞的不同拼寫；真正的詞彙缺口極少。</p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages</p>"
     );
