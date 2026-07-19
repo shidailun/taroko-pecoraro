@@ -300,6 +300,10 @@
    "modern": "bbilan",
    "tier": "T"
   },
+  "bboai": {
+   "modern": "bboai",
+   "tier": "M"
+  },
   "bboax": {
    "modern": "bbuwax",
    "tier": "B"
@@ -415,6 +419,10 @@
   "bl'xoa": {
    "modern": "brhuwa",
    "tier": "B"
+  },
+  "blaeq": {
+   "modern": "blaiq",
+   "tier": "M"
   },
   "blaqo": {
    "modern": "braqu",
@@ -576,6 +584,10 @@
    "modern": "bukuh",
    "tier": "B"
   },
+  "bolong": {
+   "modern": "bolong",
+   "tier": "M"
+  },
   "boloq": {
    "modern": "buluq",
    "tier": "B"
@@ -583,6 +595,10 @@
   "bolox": {
    "modern": "burux",
    "tier": "B"
+  },
+  "bolu": {
+   "modern": "bolu",
+   "tier": "M"
   },
   "bonga": {
    "modern": "bunga",
@@ -703,6 +719,10 @@
   "buan": {
    "modern": "buan",
    "tier": "id"
+  },
+  "bubao": {
+   "modern": "bubao",
+   "tier": "M"
   },
   "budi": {
    "modern": "buji",
@@ -1063,6 +1083,10 @@
   "ddima": {
    "modern": "djima",
    "tier": "A"
+  },
+  "ddiun": {
+   "modern": "djiyun",
+   "tier": "M"
   },
   "ddiyan": {
    "modern": "djiyan",
@@ -1739,6 +1763,10 @@
   "gl'mun": {
    "modern": "grmun",
    "tier": "B"
+  },
+  "gl'qan": {
+   "modern": "gl'qan",
+   "tier": "M"
   },
   "gl'qani": {
    "modern": "gl'qani",
@@ -8544,6 +8572,10 @@
    "modern": "pkan",
    "tier": "L"
   },
+  "pqatai": {
+   "modern": "pqatai",
+   "tier": "M"
+  },
   "pqaya": {
    "modern": "pqaya",
    "tier": "id"
@@ -10228,6 +10260,10 @@
    "modern": "sapah",
    "tier": "B"
   },
+  "sape": {
+   "modern": "sape",
+   "tier": "M"
+  },
   "sapox": {
    "modern": "sapuh",
    "tier": "A"
@@ -10639,6 +10675,10 @@
   "skingal": {
    "modern": "skingal",
    "tier": "id"
+  },
+  "skl'bai": {
+   "modern": "skl'bai",
+   "tier": "M"
   },
   "skl'buk": {
    "modern": "skrbuk",
@@ -11348,6 +11388,10 @@
    "modern": "snmanu",
    "tier": "id"
   },
+  "snola": {
+   "modern": "snola",
+   "tier": "M"
+  },
   "snpgan": {
    "modern": "snpgan",
    "tier": "id"
@@ -11835,6 +11879,10 @@
   "su": {
    "modern": "su",
    "tier": "id"
+  },
+  "suai": {
+   "modern": "swayi",
+   "tier": "M"
   },
   "sugun": {
    "modern": "sgun",
@@ -12904,6 +12952,10 @@
    "modern": "tnpngan",
    "tier": "id"
   },
+  "tnpongan": {
+   "modern": "tnpngan",
+   "tier": "M"
+  },
   "tnpusu": {
    "modern": "tnpusu",
    "tier": "id"
@@ -13504,6 +13556,10 @@
    "modern": "hbragan",
    "tier": "B"
   },
+  "xbugi": {
+   "modern": "hbugi",
+   "tier": "M"
+  },
   "xbukan": {
    "modern": "hbkan",
    "tier": "L"
@@ -13515,6 +13571,10 @@
   "xbukun": {
    "modern": "hbkun",
    "tier": "L"
+  },
+  "xbulao": {
+   "modern": "hbraw",
+   "tier": "M"
   },
   "xdayo": {
    "modern": "hdayu",
@@ -14818,6 +14878,10 @@
   },
   "mbslat": {
    "modern": "mbsrat",
+   "tier": "P"
+  },
+  "mbubao": {
+   "modern": "mbubao",
    "tier": "P"
   },
   "mbudo": {
@@ -16276,6 +16340,10 @@
    "modern": "pbuway",
    "tier": "P"
   },
+  "pbubao": {
+   "modern": "pbubao",
+   "tier": "P"
+  },
   "pbulang": {
    "modern": "pbulang",
    "tier": "P"
@@ -16878,10 +16946,6 @@
   },
   "pqapax": {
    "modern": "pqapah",
-   "tier": "P"
-  },
-  "pqatai": {
-   "modern": "pkatay",
    "tier": "P"
   },
   "pqblingi": {
@@ -17506,10 +17570,6 @@
   },
   "skkoyox": {
    "modern": "skkuyuh",
-   "tier": "P"
-  },
-  "skl'bai": {
-   "modern": "sklbay",
    "tier": "P"
   },
   "skliwaq": {
@@ -18314,119 +18374,6 @@
   }
  },
  "review": {
-  "bboai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "bbwai",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    },
-    {
-     "cand": "bbui",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "blaeq": {
-   "freq": 1,
-   "pec_gloss": [
-    "享受幸福"
-   ],
-   "cands": [
-    {
-     "cand": "blaq",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "bolong": {
-   "freq": 1,
-   "pec_gloss": [
-    "收割"
-   ],
-   "cands": [
-    {
-     "cand": "blung",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "bolu": {
-   "freq": 1,
-   "pec_gloss": [
-    "球玩耍用"
-   ],
-   "cands": [
-    {
-     "cand": "bru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "bubao": {
-   "freq": 1,
-   "pec_gloss": [
-    "劈開裂開爆裂而開木頭石頭"
-   ],
-   "cands": [
-    {
-     "cand": "bubu",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "ddiun": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "djiyun",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": false
-    },
-    {
-     "cand": "djiun",
-     "words": false,
-     "gloss": 0,
-     "dist": 1,
-     "agg": false
-    }
-   ]
-  },
-  "gl'qan": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "glkan",
-     "words": false,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
   "k'aon": {
    "freq": 1,
    "pec_gloss": [],
@@ -18956,21 +18903,6 @@
     }
    ]
   },
-  "pqatai": {
-   "freq": 2,
-   "pec_gloss": [
-    "拆毀弄成碎片損壞"
-   ],
-   "cands": [
-    {
-     "cand": "pqtai",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "pslangi": {
    "freq": 1,
    "pec_gloss": [
@@ -19168,21 +19100,6 @@
     }
    ]
   },
-  "sape": {
-   "freq": 2,
-   "pec_gloss": [
-    "小鋤頭柄長約或公分主要用來鬆土或除草"
-   ],
-   "cands": [
-    {
-     "cand": "spi",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "sbaan": {
    "freq": 1,
    "pec_gloss": [
@@ -19222,21 +19139,6 @@
      "words": true,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "skl'bai": {
-   "freq": 2,
-   "pec_gloss": [
-    "使之虛弱的方式手段機會"
-   ],
-   "cands": [
-    {
-     "cand": "sklbi",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
      "agg": true
     }
    ]
@@ -19341,19 +19243,6 @@
     }
    ]
   },
-  "snola": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "snra",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "snulu": {
    "freq": 1,
    "pec_gloss": [
@@ -19414,26 +19303,6 @@
    "cands": [
     {
      "cand": "stna",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "suai": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "suy",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    },
-    {
-     "cand": "sai",
      "words": true,
      "gloss": 0,
      "dist": 3,
@@ -19556,21 +19425,6 @@
     }
    ]
   },
-  "tnpongan": {
-   "freq": 2,
-   "pec_gloss": [
-    "這個詞也許是的變體而後者可能源自山頂山峰海浪的湧動波浪"
-   ],
-   "cands": [
-    {
-     "cand": "tnpngan",
-     "words": false,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
   "xalo": {
    "freq": 1,
    "pec_gloss": [],
@@ -19595,36 +19449,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "xbugi": {
-   "freq": 2,
-   "pec_gloss": [
-    "吸舔食名詞命令形"
-   ],
-   "cands": [
-    {
-     "cand": "hbgi",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "xbulao": {
-   "freq": 2,
-   "pec_gloss": [
-    "人體的骨盆尤指女性的骨盆恥骨部位"
-   ],
-   "cands": [
-    {
-     "cand": "hbraw",
-     "words": false,
-     "gloss": 0,
-     "dist": 5,
      "agg": true
     }
    ]
