@@ -10128,6 +10128,10 @@
    "modern": "qowlit",
    "tier": "L"
   },
+  "qoumi": {
+   "modern": "qumi",
+   "tier": "M"
+  },
   "qouni": {
    "modern": "qhuni",
    "tier": "M"
@@ -10316,6 +10320,10 @@
    "modern": "sa",
    "tier": "id"
   },
+  "sa'mul": {
+   "modern": "sa'mul",
+   "tier": "M"
+  },
   "sa'so": {
    "modern": "sa'so",
    "tier": "M"
@@ -10363,6 +10371,10 @@
   "sai": {
    "modern": "sai",
    "tier": "id"
+  },
+  "saida": {
+   "modern": "saida",
+   "tier": "M"
   },
   "sais": {
    "modern": "sais",
@@ -10420,6 +10432,10 @@
    "modern": "saw",
    "tier": "B"
   },
+  "sao'le": {
+   "modern": "sao'le",
+   "tier": "M"
+  },
   "saoke": {
    "modern": "sowki",
    "tier": "B"
@@ -10476,6 +10492,10 @@
    "modern": "sb'ngux",
    "tier": "id"
   },
+  "sbaan": {
+   "modern": "sbaan",
+   "tier": "M"
+  },
   "sbaang": {
    "modern": "sbaang",
    "tier": "id"
@@ -10520,6 +10540,10 @@
    "modern": "sbiyaw",
    "tier": "A"
   },
+  "sbiyoq": {
+   "modern": "sbiyuq",
+   "tier": "M"
+  },
   "sblaeq": {
    "modern": "sblaiq",
    "tier": "A"
@@ -10563,6 +10587,10 @@
   "sbu": {
    "modern": "sbu",
    "tier": "id"
+  },
+  "sbuan": {
+   "modern": "sbuan",
+   "tier": "M"
   },
   "sbulao": {
    "modern": "sburaw",
@@ -10960,6 +10988,14 @@
    "modern": "skuy",
    "tier": "B"
   },
+  "skulan": {
+   "modern": "skulan",
+   "tier": "M"
+  },
+  "skuli": {
+   "modern": "skuli",
+   "tier": "M"
+  },
   "skuon": {
    "modern": "skuun",
    "tier": "B"
@@ -11116,6 +11152,14 @@
    "modern": "srwai",
    "tier": "T"
   },
+  "sloaon": {
+   "modern": "sloaon",
+   "tier": "M"
+  },
+  "sloong": {
+   "modern": "sloong",
+   "tier": "M"
+  },
   "sloxao": {
    "modern": "sruhaw",
    "tier": "B"
@@ -11135,6 +11179,10 @@
   "sludan": {
    "modern": "srudan",
    "tier": "T"
+  },
+  "slui": {
+   "modern": "slui",
+   "tier": "M"
   },
   "sluon": {
    "modern": "sluun",
@@ -11528,6 +11576,10 @@
    "modern": "snkingal",
    "tier": "T"
   },
+  "snkleqe": {
+   "modern": "snqriqi",
+   "tier": "M"
+  },
   "snkukul": {
    "modern": "snkukul",
    "tier": "T"
@@ -11551,6 +11603,10 @@
   "snloan": {
    "modern": "snluan",
    "tier": "B"
+  },
+  "snloi": {
+   "modern": "snloi",
+   "tier": "M"
   },
   "snloon": {
    "modern": "snluun",
@@ -11627,6 +11683,10 @@
   "sntunuç": {
    "modern": "sntunuç",
    "tier": "id"
+  },
+  "snulu": {
+   "modern": "snulu",
+   "tier": "M"
   },
   "snunux": {
    "modern": "snunux",
@@ -16188,6 +16248,10 @@
    "modern": "msndngux",
    "tier": "P"
   },
+  "msnulu": {
+   "modern": "msnulu",
+   "tier": "P"
+  },
   "msnxei": {
    "modern": "msnhiyi",
    "tier": "P"
@@ -17353,7 +17417,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "pspngan",
+   "modern": "psp'ngan",
    "tier": "P"
   },
   "pspuan": {
@@ -17680,16 +17744,8 @@
    "modern": "sagur",
    "tier": "P"
   },
-  "sbiyoq": {
-   "modern": "sbiyuq",
-   "tier": "P"
-  },
   "sblenux": {
    "modern": "sbreenux",
-   "tier": "P"
-  },
-  "sbuan": {
-   "modern": "sbuan",
    "tier": "P"
   },
   "sbui": {
@@ -17776,16 +17832,16 @@
    "modern": "sl'buun",
    "tier": "P"
   },
-  "sloaon": {
-   "modern": "sruwaun",
-   "tier": "P"
-  },
   "slpian": {
    "modern": "sl'pian",
    "tier": "P"
   },
   "slutut": {
    "modern": "slutut",
+   "tier": "P"
+  },
+  "sma'mul": {
+   "modern": "sma'mul",
    "tier": "P"
   },
   "smawit": {
@@ -18526,227 +18582,6 @@
   }
  },
  "review": {
-  "qoumi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "qumi",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "sa'mul": {
-   "freq": 1,
-   "pec_gloss": [
-    "把嬰兒抱在懷裡抱著孩子"
-   ],
-   "cands": [
-    {
-     "cand": "smur",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "saida": {
-   "freq": 1,
-   "pec_gloss": [
-    "汽水"
-   ],
-   "cands": [
-    {
-     "cand": "sida",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "sao'le": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "sari",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "suri",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "sbaan": {
-   "freq": 1,
-   "pec_gloss": [
-    "打盹午睡休息"
-   ],
-   "cands": [
-    {
-     "cand": "sban",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "sbiyoq": {
-   "freq": 1,
-   "pec_gloss": [
-    "分泌液體"
-   ],
-   "cands": [
-    {
-     "cand": "sbiyuk",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "sbuan": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "sban",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "skulan": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "skran",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "skuli": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "squri",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "sloaon": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "sluun",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    },
-    {
-     "cand": "sruwan",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "sloong": {
-   "freq": 1,
-   "pec_gloss": [
-    "眼皮沉重睏得快睡著"
-   ],
-   "cands": [
-    {
-     "cand": "slung",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "slui": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "sli",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "snkleqe": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "snqriqi",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "snloi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "snli",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "snulu": {
-   "freq": 1,
-   "pec_gloss": [
-    "恰好發生同時存在"
-   ],
-   "cands": [
-    {
-     "cand": "snru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "spagun": {
    "freq": 1,
    "pec_gloss": [],
