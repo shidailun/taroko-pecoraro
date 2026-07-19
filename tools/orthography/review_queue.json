@@ -1,0 +1,5038 @@
+[
+ {
+  "token": "xdolan",
+  "freq": 10,
+  "contexts": [
+   {
+    "raw": "xdolan",
+    "kind": "example",
+    "entry": "KIYUX",
+    "en": "On days of great celebration, we are really packed very tightly in our church.",
+    "zh": "每逢大節慶的日子，我們的教堂裡真的擠得水洩不通。",
+    "sent": "Paro qlasun diyax do, mkiyux ta balae kska sapax xdolan."
+   },
+   {
+    "raw": "xdolan",
+    "kind": "example",
+    "entry": "LAWA",
+    "en": "It is not permitted to make a racket in this place where we offer sacrifices (in this church).",
+    "zh": "在這個我們獻祭的場所（在這座教堂裡）不准喧鬧。",
+    "sent": "Ini tdoa nllawa ska sapax ta xdolan nii !"
+   },
+   {
+    "raw": "xdolan",
+    "kind": "example",
+    "entry": "SAPAX",
+    "en": "Temple (house where sacrifices are performed)",
+    "zh": "廟宇（舉行祭祀的房屋）",
+    "sent": "sapax xdolan"
+   },
+   {
+    "raw": "xdolan",
+    "kind": "example",
+    "entry": "SIYUS",
+    "en": "He entered the temple (the house of sacrifice) and took the cakes reserved for the Spirit (= consecrated, as having beco",
+    "zh": "他進入聖殿（獻祭之屋），取了保留給神靈的餅（＝經過奉獻、如同已成禁忌之物）。",
+    "sent": "Mntmai sapax xdolan ka xea ni mnangal bawa snyusan"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hdlan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "把移走"
+    ],
+    "dist": 5
+   },
+   {
+    "cand": "hdran",
+    "attested": "Words",
+    "omnibus_zh": [
+     "反對"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nani",
+  "freq": 9,
+  "contexts": [
+   {
+    "raw": "nani",
+    "kind": "example",
+    "entry": "L'NGAO (LNGAO)",
+    "en": "We (without you) have gathered to discuss what we (with you) will do tomorrow.",
+    "zh": "我們（不包括你）聚在一起，討論我們（連你一起）明天要做的事。",
+    "sent": "Mnssli nani ppl'ngao sao ddaon ta saman"
+   },
+   {
+    "raw": "nani",
+    "kind": "example",
+    "entry": "L'NGAO (LNGAO)",
+    "en": "Don't worry; we've already discussed it.",
+    "zh": "別擔心；我們已經討論過了。",
+    "sent": "Ya sl'xbun; nyeqan plngagan nani"
+   },
+   {
+    "raw": "nani",
+    "kind": "example",
+    "entry": "L'PONG",
+    "en": "It has already been a very long time since Laotan and I formed our friendship.",
+    "zh": "勞丹和我結交友誼已經很久了。",
+    "sent": "Ida mnssl'pong nani pax sbiyao ka yani Laotan"
+   },
+   {
+    "raw": "nani",
+    "kind": "example",
+    "entry": "LUTUT",
+    "en": "It has been for a very long time that we consider ourselves (behave as) relatives.",
+    "zh": "我們很久以來就把彼此當作（表現得像）親屬。",
+    "sent": "Pax sbiyao ka pnlutut nani da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "nni",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nalu",
+  "freq": 8,
+  "contexts": [
+   {
+    "raw": "nalu",
+    "kind": "example",
+    "entry": "LBAGAN",
+    "en": "It is during summer that it is good to bathe (var. that it is easy to bathe).",
+    "zh": "夏天正是適合洗澡的時候（或：容易下水洗澡）。",
+    "sent": "Mklbagan ka nalu bi tlmaan !"
+   },
+   {
+    "raw": "nalu",
+    "kind": "example",
+    "entry": "LENAX",
+    "en": "I will give (say to) him even more good words.",
+    "zh": "我會給他（對他說）更多好話。",
+    "sent": "Lnaxon no moai nalu kari"
+   },
+   {
+    "raw": "nalu",
+    "kind": "example",
+    "entry": "MXA",
+    "en": "That will turn out well.",
+    "zh": "那會變好。",
+    "sent": "Mxa nalu"
+   },
+   {
+    "raw": "nalu",
+    "kind": "example",
+    "entry": "MXA",
+    "en": "It will be fine weather tomorrow.",
+    "zh": "明天會是好天氣。",
+    "sent": "Mxa nalu kalat saman"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "nlu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "從省下"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "nru",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mlubu",
+  "freq": 7,
+  "contexts": [
+   {
+    "raw": "mlubu",
+    "kind": "example",
+    "entry": "KDADAX",
+    "en": "Where did you set out from this morning?",
+    "zh": "你今天早上是從哪裡出發的?",
+    "sent": "Kndadax so ino ka mlubu suni?"
+   },
+   {
+    "raw": "mlubu",
+    "kind": "example",
+    "entry": "KNDADAX",
+    "en": "I left Tagarhan this morning.",
+    "zh": "我今天早上從Tagarhan出發。",
+    "sent": "Kndadax ko Tagaxan mlubu suni"
+   },
+   {
+    "raw": "Mlubu",
+    "kind": "sub-form",
+    "entry": "LUBU",
+    "en": "One who plays this instrument.",
+    "zh": "吹奏這件樂器的人。",
+    "sent": null
+   },
+   {
+    "raw": "MLUBU",
+    "kind": "headword",
+    "entry": "ML'BU (MLUBU ?)",
+    "en": "Morning - early.",
+    "zh": "早晨—清早。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mrbu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sqaan",
+  "freq": 7,
+  "contexts": [
+   {
+    "raw": "sqaan",
+    "kind": "paradigm",
+    "entry": "SIQA",
+    "en": "One who is ashamed - who is shy - who is modest.",
+    "zh": "會害羞的－膽怯的－知恥的（人）。",
+    "sent": null
+   },
+   {
+    "raw": "Sqaan",
+    "kind": "sub-form",
+    "entry": "SIQA",
+    "en": "Shame felt - actual shyness - a moment of shame - a form of reserve, of politeness.",
+    "zh": "所感受到的羞恥－實際的膽怯－羞愧的時刻－一種矜持、禮貌的表現。",
+    "sent": null
+   },
+   {
+    "raw": "sqaan",
+    "kind": "example",
+    "entry": "SIQA",
+    "en": "It seems you're embarrassed, (that you're ashamed)!",
+    "zh": "看起來你在難為情，（好像很羞愧）！",
+    "sent": "Ma\" sqaan so !"
+   },
+   {
+    "raw": "sqaan",
+    "kind": "example",
+    "entry": "SIQA",
+    "en": "What are you ashamed of? (n.b. This term also means: hoarse - loss of voice; from which root does it derive? What relati",
+    "zh": "你在羞恥什麼？（註：此詞也有「嘶啞－失聲」之意；它源自哪個詞根？與羞恥、膽怯、矜持有何關聯？？）。",
+    "sent": "Manu ka sqaan so ?"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "skaan",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nugul",
+  "freq": 6,
+  "contexts": [
+   {
+    "raw": "nugul",
+    "kind": "example",
+    "entry": "LUTUT",
+    "en": "When did you lengthen your cord?",
+    "zh": "你什麼時候把你的細繩接長的？",
+    "sent": "Pnlutut so sknuan ka nugul no ?"
+   },
+   {
+    "raw": "NUGUL",
+    "kind": "headword",
+    "entry": "NUGUL",
+    "en": "Cord / string - fastening - tie / bond - line.",
+    "zh": "細繩——繫繩——連結——線。",
+    "sent": null
+   },
+   {
+    "raw": "nugul",
+    "kind": "example",
+    "entry": "NUGUL",
+    "en": "I am not worthy (= I am ill at ease - I am embarrassed - I am ashamed) even to untie the strap of his sandals.",
+    "zh": "我連解他涼鞋的帶子都不配（＝我感到不自在——尷尬——羞愧）。",
+    "sent": "Ana l'xlax (pl'xlax (?)) nugul lamil nia ida no sqaon"
+   },
+   {
+    "raw": "NUGUL",
+    "kind": "sub-form",
+    "entry": "NUGUL",
+    "en": "To follow - to be one behind the other - to come one after the other (like a rope, like people roped together!).",
+    "zh": "跟隨——一個接一個——一個跟著一個（像一條繩子，像用繩子連在一起的人！）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "ngur",
+    "attested": "Words",
+    "omnibus_zh": [
+     "石頭堆積狀"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "bnlaxan",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "Bnlaxan",
+    "kind": "sub-form",
+    "entry": "BALAX",
+    "en": "That which is recent - that which has just been produced.",
+    "zh": "新近的事物；剛剛產生的事物。",
+    "sent": null
+   },
+   {
+    "raw": "bnlaxan",
+    "kind": "example",
+    "entry": "BALAX",
+    "en": "Just at the moment when he had made the agreement.",
+    "zh": "正當他剛達成協議之時。",
+    "sent": "Xana bnlaxan na sndxgan sida"
+   },
+   {
+    "raw": "Bnlaxan",
+    "kind": "example",
+    "entry": "BALAX",
+    "en": "New Testament (Bible).",
+    "zh": "新約（聖經）。",
+    "sent": "Bnlaxan sndxgan"
+   },
+   {
+    "raw": "Bnlaxan",
+    "kind": "example",
+    "entry": "BLENAX",
+    "en": "More and more they have abandoned the old customs for the new ones.",
+    "zh": "他們愈來愈拋棄舊俗而改從新俗。",
+    "sent": "Wada wada ka bnlnaxan (Bnlaxan ?) daxa sao ggaya bulax"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "bnlxan",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mnalu",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "Mnalu",
+    "kind": "sub-form",
+    "entry": "MALU",
+    "en": "To be close / well together - to love one another. (n.b. One often finds MKMALU with the same meaning).",
+    "zh": "和睦相處——彼此相愛。（註：常見同義詞 MKMALU。）",
+    "sent": null
+   },
+   {
+    "raw": "Mnalu",
+    "kind": "example",
+    "entry": "MALU",
+    "en": "Mikatz and Ingai get along well together.",
+    "zh": "Mikatz 和 Ingai 很和睦。",
+    "sent": "Mnalu bi ka Mikat ni Ingai"
+   },
+   {
+    "raw": "Mnalu",
+    "kind": "sub-form",
+    "entry": "NALU",
+    "en": "Who takes the place - to replace - in the name of.",
+    "zh": "頂替的 - 代替 - 以…之名。",
+    "sent": null
+   },
+   {
+    "raw": "Mnalu",
+    "kind": "example",
+    "entry": "NALU",
+    "en": "In whose name do you come?",
+    "zh": "你以誰的名義前來？",
+    "sent": "Mnalu so ima miyax"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mnlu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "一直節省"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "mnru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "弄"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "molo",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "molo",
+    "kind": "example",
+    "entry": "BYOTOç",
+    "en": "They went to offer a sacrifice to the Spirit according to the law, with the offering of two young pigeons or two turtled",
+    "zh": "他們照著律法前去向靈獻祭，獻上兩隻雛鴿或兩隻斑鳩。",
+    "sent": "Mnsa xxadol daxa tuxan molo gaya, puda daxa wawa byotoç adi ole o daxa pgago (pg'go)."
+   },
+   {
+    "raw": "molo",
+    "kind": "example",
+    "entry": "DUNGUS",
+    "en": "The father will distribute the wages equitably according to each one's conduct.",
+    "zh": "父親將按每個人的行為公平地分配工資。",
+    "sent": "Mpsdungus bi sida smado knkingal xei ka tama molo ndaan daxa"
+   },
+   {
+    "raw": "molo",
+    "kind": "example",
+    "entry": "GAYA",
+    "en": "They came, following the custom, to bow and greet the father.",
+    "zh": "他們依照習俗前來向父親鞠躬請安。",
+    "sent": "Mniyax molo pngyaan ka dxea ttxmoqo kmdamat tmaan"
+   },
+   {
+    "raw": "Molo",
+    "kind": "sub-form",
+    "entry": "POLO",
+    "en": "ditto, verbal form (verbal form of the preceding).",
+    "zh": "同上之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mlu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "節省"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "mru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "沾到"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "msnoxel",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "msnoxel",
+    "kind": "example",
+    "entry": "SNOXEL",
+    "en": "Where did you see that I am jealous (var. Who said that I am a jealous person?)! I am not jealous, me!",
+    "zh": "你在哪裡見到我嫉妒了（或：誰說我是嫉妒的人？）！我才不嫉妒呢！",
+    "sent": "Ima msnoxel ka yako ?(vl. ima msa msnoxel ko ka yako ?)! Ini ko snoxel ka yako !"
+   },
+   {
+    "raw": "msnoxel",
+    "kind": "example",
+    "entry": "SNOXEL",
+    "en": "Where did you see that I am jealous (var. Who said that I am a jealous person?)! I am not jealous, me!",
+    "zh": "你在哪裡見到我嫉妒了（或：誰說我是嫉妒的人？）！我才不嫉妒呢！",
+    "sent": "Ima msnoxel ka yako ?(vl. ima msa msnoxel ko ka yako ?)! Ini ko snoxel ka yako !"
+   },
+   {
+    "raw": "Msnoxel",
+    "kind": "sub-form",
+    "entry": "SNOXEL",
+    "en": "One who is jealous - who is envious.",
+    "zh": "嫉妒的人－懷有妒意的人。",
+    "sent": null
+   },
+   {
+    "raw": "msnoxel",
+    "kind": "example",
+    "entry": "SNOXEL",
+    "en": "Perhaps Liwis's friends are jealous!",
+    "zh": "或許Liwis的朋友們在嫉妒吧！",
+    "sent": "Ida bi msnoxel ka ddLiwis!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "msnhir",
+    "attested": "Words",
+    "omnibus_zh": [
+     "為了氣喘爭執"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sa'so",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "Sa'so",
+    "kind": "example",
+    "entry": "Sl'xeq",
+    "en": "Yuck! Your dog even licks the kids' poop!",
+    "zh": "呸！你的狗連小孩的糞便都舔！",
+    "sent": "Sa'so bi ! Ana quti laqe ida na sl'xqon ka xeuling so !"
+   },
+   {
+    "raw": "SA'SO",
+    "kind": "headword",
+    "entry": "SA'SO",
+    "en": "Calm - shyness - modesty (sense of shame).",
+    "zh": "沉靜－羞怯－羞恥心。",
+    "sent": null
+   },
+   {
+    "raw": "Sa'so",
+    "kind": "example",
+    "entry": "SA'SO",
+    "en": "He covered his mother with spittle! It is shameful!",
+    "zh": "他朝母親吐了滿臉口水！真丟臉！",
+    "sent": "Wada na kxdoon kyoqan ka bobo na! Sa'so bi !"
+   },
+   {
+    "raw": "Sa'so",
+    "kind": "example",
+    "entry": "SA'SO",
+    "en": "Don't eat that! Ugh!",
+    "zh": "別吃那個！呸！",
+    "sent": "Ya \"qan da! Sa'so bi!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "ssu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tgagox",
+  "freq": 5,
+  "contexts": [
+   {
+    "raw": "tgagox",
+    "kind": "example",
+    "entry": "LIXAO",
+    "en": "However much we hurry, we have to wait until they have finished admiring themselves!",
+    "zh": "我們再怎麼趕，也得等她們照完鏡子（打扮完）才行！",
+    "sent": "Ana ta tgaox (tgagox) o, asi ka mxdo pslxagan daxa"
+   },
+   {
+    "raw": "tgagox",
+    "kind": "example",
+    "entry": "TAGA",
+    "en": "Why are you in such a hurry? Do wait a bit!",
+    "zh": "你急什麼？等一下嘛！",
+    "sent": "Ma\" so tgaox (tgagox) bi ! Taga tityex !"
+   },
+   {
+    "raw": "Tgagox",
+    "kind": "sub-form",
+    "entry": "TGAOX",
+    "en": "Var. of TGAOX with the same meaning.",
+    "zh": "TGAOX 的變體，意思相同。",
+    "sent": null
+   },
+   {
+    "raw": "tgagox",
+    "kind": "example",
+    "entry": "TGAOX",
+    "en": "Lirhang set out and passed hurriedly through the mountains.",
+    "zh": "Lirhang 動身，匆匆穿過山區。",
+    "sent": "Mntutwi ka Lixang tgagox muda mkdgiyaq"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tgguh",
+    "attested": "Words",
+    "omnibus_zh": [
+     "都發出的磨擦聲"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kayao",
+  "freq": 4,
+  "contexts": [
+   {
+    "raw": "KAYAO",
+    "kind": "headword",
+    "entry": "KAYAO",
+    "en": "Be awake! - keep watch! - to stay awake.",
+    "zh": "要醒著！－要警醒！－守夜、保持清醒。",
+    "sent": null
+   },
+   {
+    "raw": "Kayao",
+    "kind": "example",
+    "entry": "KAYAO",
+    "en": "Stay awake so as not to let yourselves be deceived (so that no one makes you lose your head). (Root: EYAO unlikely!)",
+    "zh": "你們要保持警醒，免得受騙（免得被人弄昏了頭）。（詞根：EYAO不太可能！）",
+    "sent": "Kayao bi aadi namo tdiyal pntuxan"
+   },
+   {
+    "raw": "kayao",
+    "kind": "paradigm",
+    "entry": "KAYAO",
+    "en": "To keep watch - to stay awake.",
+    "zh": "守夜－保持清醒。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kayu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "木製湯碗"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "liwak",
+  "freq": 4,
+  "contexts": [
+   {
+    "raw": "LIWAK",
+    "kind": "headword",
+    "entry": "LIWAK",
+    "en": "To drive away - to make (something) leave.",
+    "zh": "驅趕－使離開。",
+    "sent": null
+   },
+   {
+    "raw": "liwak",
+    "kind": "example",
+    "entry": "LIWAK",
+    "en": "But, how come! You don't drive away the flies?",
+    "zh": "咦，怎麼回事！你不趕蒼蠅嗎？",
+    "sent": "Ma, ini so liwak lngdi !"
+   },
+   {
+    "raw": "liwak",
+    "kind": "paradigm",
+    "entry": "LIWAK",
+    "en": "To drive away - to make leave - to keep at a distance.",
+    "zh": "驅趕－使離開－使遠離。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "liwaq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "化妝"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pkusa",
+  "freq": 4,
+  "contexts": [
+   {
+    "raw": "Pkusa",
+    "kind": "sub-form",
+    "entry": "KUSA",
+    "en": "To run up debts - to contract debts - to buy/sell on credit.",
+    "zh": "欠債－舉債－賒帳。",
+    "sent": null
+   },
+   {
+    "raw": "pkusa",
+    "kind": "example",
+    "entry": "KUSA",
+    "en": "In the shop (the store), sale on credit is not accepted.",
+    "zh": "這家店（商店）不接受賒帳買賣。",
+    "sent": "Ini bi sloa pkusa ka sapax bligan"
+   },
+   {
+    "raw": "pkusa",
+    "kind": "example",
+    "entry": "KUSA",
+    "en": "Sitan is riddled with debts everywhere.",
+    "zh": "錫丹到處負債累累。",
+    "sent": "Mxdo pkusa ana ino ka Sitang"
+   },
+   {
+    "raw": "pkusa",
+    "kind": "example",
+    "entry": "PLILYEX",
+    "en": "Many come to take on credit; those who repay are very few!",
+    "zh": "來賒帳的人很多，還債的人卻很少！",
+    "sent": "Xbalao bi ka miyax pkusa , ongat xali ka mplilyex!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pksa",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ptqoan",
+  "freq": 4,
+  "contexts": [
+   {
+    "raw": "ptqoan",
+    "kind": "paradigm",
+    "entry": "TOOQO",
+    "en": "To vex – to hurt (morally) – to offend.",
+    "zh": "使…生氣－（在精神上）傷害－冒犯。",
+    "sent": null
+   },
+   {
+    "raw": "Ptqoan",
+    "kind": "sub-form",
+    "entry": "TOOQO",
+    "en": "Vexation (inflicted) – Insult, offense (committed).",
+    "zh": "所加諸的委屈－所造成的侮辱、冒犯。",
+    "sent": null
+   },
+   {
+    "raw": "Ptqoan",
+    "kind": "example",
+    "entry": "TOOQO",
+    "en": "There! You have ended up offending all the young men and all the young women.",
+    "zh": "你看！你終於冒犯了所有的年輕男女。",
+    "sent": "Kia ! Ptqoan so kana (vl. wada ptqoan so kana) ka d'lisao ni d'ua da!"
+   },
+   {
+    "raw": "ptqoan",
+    "kind": "example",
+    "entry": "TOOQO",
+    "en": "There! You have ended up offending all the young men and all the young women.",
+    "zh": "你看！你終於冒犯了所有的年輕男女。",
+    "sent": "Kia ! Ptqoan so kana (vl. wada ptqoan so kana) ka d'lisao ni d'ua da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "ptkuan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "給足夠"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qmapax",
+  "freq": 4,
+  "contexts": [
+   {
+    "raw": "Qmapax",
+    "kind": "sub-form",
+    "entry": "QAPAX",
+    "en": "To spread - to spread out - to cover.",
+    "zh": "塗抹、鋪開、覆蓋。",
+    "sent": null
+   },
+   {
+    "raw": "Qmapax",
+    "kind": "paradigm",
+    "entry": "QAPAX",
+    "en": "To spread - to spread out - to cover.",
+    "zh": "塗抹、鋪開、覆蓋。",
+    "sent": null
+   },
+   {
+    "raw": "Qmapax",
+    "kind": "example",
+    "entry": "QAPAX",
+    "en": "I spread cow dung over the whole surface of your courtyard to make of it a fine drying-floor (for grain).",
+    "zh": "我把牛糞塗抹在你院子的整個地面上，好把它做成一塊很好的曬穀場（曬穀物）。",
+    "sent": "Qmapax ko quti kating kana d'xgal ngangot so ssalu no malu bi pxdagan"
+   },
+   {
+    "raw": "Qmapax",
+    "kind": "example",
+    "entry": "QAPAX",
+    "en": "I cover (the walls) with newspaper all around the place where I sleep, and in this way it will be nice and warm.",
+    "zh": "我在睡覺的地方四周（牆壁）都糊上報紙，這樣就會很暖和。",
+    "sent": "Qmapax ko sinbong kana mtqeli tqean no kika npamuxul da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qmpah",
+    "attested": "Words",
+    "omnibus_zh": [
+     "工作"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "gaqat",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "GAQAT",
+    "kind": "headword",
+    "entry": "GAQAT",
+    "en": "Icicle — piece of ice.",
+    "zh": "冰塊、冰柱。",
+    "sent": null
+   },
+   {
+    "raw": "gaqat",
+    "kind": "example",
+    "entry": "GAQAT",
+    "en": "The children of this generation do not even know what an icicle is (they have never seen ice, which occurs only in the h",
+    "zh": "這一代的孩子連冰塊是什麼都不知道(他們從未見過只有高山上才有的冰)。",
+    "sent": "Lqlaqe mbalax sayang o, ini k'la ya bi manu ka gaqat"
+   },
+   {
+    "raw": "gaqat",
+    "kind": "example",
+    "entry": "TDOLOI",
+    "en": "Bicycle.",
+    "zh": "腳踏車。",
+    "sent": "Tdoloi gakat (gaqat)"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "gakat",
+    "attested": "Words",
+    "omnibus_zh": [
+     "起身爲站立"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "loai",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "LOAI",
+    "kind": "headword",
+    "entry": "LOAI (LOWAI ?)",
+    "en": "Exterior - except. (n.b. in the sense of exterior for a physical place one preferably says: NGANGOT).",
+    "zh": "外部－除…之外。（註：在指具體場所的「外部」意義時，較常說：NGANGOT。）",
+    "sent": null
+   },
+   {
+    "raw": "loai",
+    "kind": "example",
+    "entry": "LOAI (LOWAI ?)",
+    "en": "Only Laokeng; the others (as for those outside of him) it is not possible.",
+    "zh": "只有勞肯（Laokeng），其他人（對於他以外的人）是不行的。",
+    "sent": "Wana Laokeng, loai na do, ini tdoa"
+   },
+   {
+    "raw": "Loai",
+    "kind": "example",
+    "entry": "LOAI (LOWAI ?)",
+    "en": "People from outside - the uninitiated - the incompetent.",
+    "zh": "外來的人－未入門者－不內行的人。",
+    "sent": "Loai sadyaq"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "luay",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要節省"
+    ],
+    "dist": 2
+   },
+   {
+    "cand": "ruay",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓傳染"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "luway",
+    "attested": "Words",
+    "omnibus_zh": [
+     "軟弱"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "ruway",
+    "attested": "Words",
+    "omnibus_zh": [
+     "不是很近的親戚"
+    ],
+    "dist": 5
+   },
+   {
+    "cand": "lui",
+    "attested": "Words",
+    "omnibus_zh": [
+     "省著用"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mkala",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Mkala",
+    "kind": "sub-form",
+    "entry": "KALA",
+    "en": "To go up - to exceed.",
+    "zh": "上升——超過。",
+    "sent": null
+   },
+   {
+    "raw": "mkala",
+    "kind": "example",
+    "entry": "KALA",
+    "en": "Kadi has left to go up to upper Tagaxan.",
+    "zh": "Kadi 已動身要上到上方的 Tagaxan。",
+    "sent": "Wada mkala Tagaxan balao ka Kadi"
+   },
+   {
+    "raw": "mkala",
+    "kind": "example",
+    "entry": "LIKAO",
+    "en": "My days are faster (pass more quickly) than the speed of the weaver's shuttle.",
+    "zh": "我的日子比織布者的梭子還要快（過得更快）。",
+    "sent": "Diyax no o, mkala (mgkala?) knslkagan ksudan walae ka likao na musa"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mkla",
+    "attested": "Words",
+    "omnibus_zh": [
+     "會知道",
+     "知道"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mqapax",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Mqapax",
+    "kind": "sub-form",
+    "entry": "QAPAX",
+    "en": "That adheres - that takes the shape - that is spread out.",
+    "zh": "黏附的－順應形狀的－攤開鋪平的。",
+    "sent": null
+   },
+   {
+    "raw": "mqapax",
+    "kind": "example",
+    "entry": "QAPAX",
+    "en": "All your papers are thrown on (strewn over) the ground.",
+    "zh": "你所有的紙都散落鋪在地上。",
+    "sent": "Ga mqapax d'xgal kana ka lb'laq so da"
+   },
+   {
+    "raw": "mqapax",
+    "kind": "example",
+    "entry": "TK'MU",
+    "en": "After closing his book, he gives it (to be put back) to the servant who was there.",
+    "zh": "他闔上書後，把書交給（好放回原處）在旁的僕人。",
+    "sent": "M'xdo tnk'mu (tmk'mu) patas do, sboai na mqapax xea"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mqpah",
+    "attested": "Words",
+    "omnibus_zh": [
+     "工作",
+     "科員"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pbulax",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Pbulax",
+    "kind": "sub-form",
+    "entry": "BULAX",
+    "en": "To renew - to make new.",
+    "zh": "更新——使成為新的。",
+    "sent": null
+   },
+   {
+    "raw": "Pbulax",
+    "kind": "paradigm",
+    "entry": "BULAX",
+    "en": "To renew - to make new.",
+    "zh": "更新——使成為新的。",
+    "sent": null
+   },
+   {
+    "raw": "pbulax",
+    "kind": "paradigm",
+    "entry": "BULAX",
+    "en": "To renew - to make new.",
+    "zh": "更新——使成為新的。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pbrah",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓坐前面"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qadi",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "QADI",
+    "kind": "headword",
+    "entry": "QADI",
+    "en": "Trellis - that which is plaited, woven.",
+    "zh": "格子架、編織物－編紮、編織而成之物。",
+    "sent": null
+   },
+   {
+    "raw": "Qadi",
+    "kind": "example",
+    "entry": "QADI",
+    "en": "Spider's web.",
+    "zh": "蜘蛛網。",
+    "sent": "Qadi klobao"
+   },
+   {
+    "raw": "Qadi",
+    "kind": "example",
+    "entry": "QADI",
+    "en": "Crown of thorns.",
+    "zh": "荊棘冠冕。",
+    "sent": "Qadi paqao"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kaji",
+    "attested": "Words",
+    "omnibus_zh": [
+     "流浪遊蕩"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qlabwi",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "QLABWI",
+    "kind": "headword",
+    "entry": "QLABWI",
+    "en": "Eyelids.",
+    "zh": "眼瞼、眼皮。",
+    "sent": null
+   },
+   {
+    "raw": "Qlabwi",
+    "kind": "example",
+    "entry": "QLABWI",
+    "en": "Eyelids.",
+    "zh": "眼瞼。",
+    "sent": "Qlabwi daolyaq"
+   },
+   {
+    "raw": "QLABWI",
+    "kind": "headword",
+    "entry": "QLABWI",
+    "en": "Bat.",
+    "zh": "蝙蝠。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "klabuy",
+    "attested": "Words",
+    "omnibus_zh": [
+     "肚皮"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ska'nan",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "ska'nan",
+    "kind": "example",
+    "entry": "NALOX",
+    "en": "You drank cold water last night, that is what is hurting your stomach.",
+    "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。",
+    "sent": "Mninax so tla'to ksia ska'nan o, kia ka sknalox l'xbun so"
+   },
+   {
+    "raw": "ska'nan",
+    "kind": "example",
+    "entry": "XOLAX",
+    "en": "Are you going to completely undo everything you wove last night?",
+    "zh": "你要把昨晚織的全部都拆掉嗎？",
+    "sent": "Xlaxon so kana ka wada so tnunan ska'nan?"
+   },
+   {
+    "raw": "ska'nan",
+    "kind": "example",
+    "entry": "XOLIT",
+    "en": "How is your leg? ... The pain was very throbbing last night!",
+    "zh": "你的腿怎麼樣了？……昨晚痛得直抽痛！",
+    "sent": "Ga nxoya ka papaq so da? ... Ax! Paro bi xlitan na ska'nan ka mnalox!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sknan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "一直不停地說"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "slösi",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Slösi",
+    "kind": "example",
+    "entry": "BALAX",
+    "en": "Wipe out what is old (of the past) in you and, with all your heart, you will be able to rebuild a new life!",
+    "zh": "抹去你身上舊的(過去的)一切,全心全意,你就能重建新的人生!",
+    "sent": "Slösi ka nsmudal ni pax bi ksaxol mptdoa so malax kingal kkdusan dole"
+   },
+   {
+    "raw": "slösi",
+    "kind": "example",
+    "entry": "M'LING",
+    "en": "But your eyes are all full of sweat! Wipe them, then.",
+    "zh": "可是你的眼睛全是汗！那就擦一擦吧。",
+    "sent": "Ma\" m'ling kana daolyaq so ! Sl'si (slösi) binao"
+   },
+   {
+    "raw": "Slösi",
+    "kind": "example",
+    "entry": "SLöS",
+    "en": "Your face is covered in soot! So wipe it off!",
+    "zh": "你滿臉都是煤灰！快擦掉吧！",
+    "sent": "Q'loq kana dqalas so ! Slösi (sl'si) xan ="
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "srsi",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "smsik",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Smsik",
+    "kind": "sub-form",
+    "entry": "SSIK",
+    "en": "To sweep.",
+    "zh": "掃地。",
+    "sent": null
+   },
+   {
+    "raw": "Smsik",
+    "kind": "paradigm",
+    "entry": "SSIK",
+    "en": "To sweep.",
+    "zh": "掃地。",
+    "sent": null
+   },
+   {
+    "raw": "smsik",
+    "kind": "example",
+    "entry": "SSIK",
+    "en": "Try to sweep the whole courtyard well; they will soon come to dance here.",
+    "zh": "要好好把整個院子掃乾淨；他們快要來這裡跳舞了。",
+    "sent": "Ndoa bi smsik kana ka xlpasan; yaxan daxa ng'li kia"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "smsiq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "與同義複數尖物硬擠刺入尖物硬擠著射發出複數的聲音"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "smtana",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Smtana",
+    "kind": "sub-form",
+    "entry": "STAMA",
+    "en": "ditto, verbal form (verbal form of the preceding).",
+    "zh": "同上之動詞形。",
+    "sent": null
+   },
+   {
+    "raw": "Smtana",
+    "kind": "paradigm",
+    "entry": "STAMA",
+    "en": "ditto, verbal form (verbal form of the preceding).",
+    "zh": "同上之動詞形。",
+    "sent": null
+   },
+   {
+    "raw": "Smtana",
+    "kind": "example",
+    "entry": "STAMA",
+    "en": "Mama! I count on you (I trust you)! Don't forget me!",
+    "zh": "媽媽！我依靠你（我信任你）！別忘了我！",
+    "sent": "Bobo ! Smtana ko sunan ! Ya ko bi sx'ngii!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "smtna",
+    "attested": "Words",
+    "omnibus_zh": [
+     "挖最後結成的地瓜"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "spagan",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "spagan",
+    "kind": "paradigm",
+    "entry": "SAPAO",
+    "en": "Ditto: verbal form of the preceding.",
+    "zh": "同上：前項之動詞形。",
+    "sent": null
+   },
+   {
+    "raw": "Spagan",
+    "kind": "sub-form",
+    "entry": "SAPAO",
+    "en": "The act, place, or time of spreading out the bedding - that which serves as bedding, mattress, or mat.",
+    "zh": "鋪設床鋪的動作、地點或時間－用來當鋪蓋、墊子或蓆子的東西。",
+    "sent": null
+   },
+   {
+    "raw": "spagan",
+    "kind": "example",
+    "entry": "SAPAO",
+    "en": "As soon as you (all) have finished making the bed, I will lie down.",
+    "zh": "你們一鋪好床，我就去睡。",
+    "sent": "M'xdo namo spagan do, mxa ko ntaqe ka yako da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "spgan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "號"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "stalil",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "stalil",
+    "kind": "example",
+    "entry": "DKA",
+    "en": "The race, the jump, the throw; there is everything; It is tomorrow that the events will take place.",
+    "zh": "賽跑、跳躍、投擲,樣樣都有;比賽項目明天舉行。",
+    "sent": "Ana tmalang, ana stalil, ana qmada, nyeqan kana; saman ka psdkaan daxa"
+   },
+   {
+    "raw": "Stalil",
+    "kind": "example",
+    "entry": "GNAMA",
+    "en": "Jump, don't be afraid! They are holding out their hands to you (they are getting their hands ready for you?) so that you",
+    "zh": "跳吧，別怕！他們向你伸出手（為你把手準備好？），免得你的腳撞到石頭。",
+    "sent": "Stalil binao, ya kiso ! Gnama so daxa aadi so tisbut btunuç ka qaqai so!"
+   },
+   {
+    "raw": "Stalil",
+    "kind": "sub-form",
+    "entry": "TALIL",
+    "en": "To jump - to make a jump.",
+    "zh": "跳－跳一下。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "stril",
+    "attested": "Words",
+    "omnibus_zh": [
+     "為跛腳"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tmapak",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Tmapak",
+    "kind": "sub-form",
+    "entry": "TAPAK",
+    "en": "?? = Heard in several expressions, among which: [see examples] (might there be a relation with the following term: TAPAQ",
+    "zh": "？？＝在若干表達中聽到，其中包括：〔見例句〕（是否與下一詞條有關：TAPAQ＝扁平──被壓扁？？）。",
+    "sent": null
+   },
+   {
+    "raw": "Tmapak",
+    "kind": "example",
+    "entry": "TAPAK",
+    "en": "To clap the hands.",
+    "zh": "拍手。",
+    "sent": "Tmapak baga"
+   },
+   {
+    "raw": "Tmapak",
+    "kind": "example",
+    "entry": "TAPAK",
+    "en": "To swim.",
+    "zh": "游泳。",
+    "sent": "Tmapak ksia"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tmapaq",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tmkuli",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "Tmkuli",
+    "kind": "sub-form",
+    "entry": "TKULI",
+    "en": "To pour into; to make contain.",
+    "zh": "倒入；使容納。",
+    "sent": null
+   },
+   {
+    "raw": "Tmkuli",
+    "kind": "paradigm",
+    "entry": "TKULI",
+    "en": "To pour into; to make contain.",
+    "zh": "倒入；使容納。",
+    "sent": null
+   },
+   {
+    "raw": "tmkuli",
+    "kind": "example",
+    "entry": "TKULI",
+    "en": "No one thinks of pouring new wine into old wineskins!",
+    "zh": "沒有人會想把新酒倒入舊皮袋裡！",
+    "sent": "Ongat bi ka tmkuli xana snalu sinao klulu(kska) smudal bi lubwi qlaqel"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tmquli",
+    "attested": "Words",
+    "omnibus_zh": [
+     "撫養"
+    ],
+    "dist": 1
+   },
+   {
+    "cand": "tmquri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "已裝倒"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "usiq",
+  "freq": 3,
+  "contexts": [
+   {
+    "raw": "usiq",
+    "kind": "example",
+    "entry": "USIK",
+    "en": "Your chili is far too strong (spicy)! I don't care to (have no desire to) eat any.",
+    "zh": "你的辣椒太辣了！我不想吃。",
+    "sent": "Soqe nixol ka usiq so! Ini ko kmkan!"
+   },
+   {
+    "raw": "Usiq",
+    "kind": "example",
+    "entry": "USIK",
+    "en": "Ginger.",
+    "zh": "薑。",
+    "sent": "Usiq qapal"
+   },
+   {
+    "raw": "usiq",
+    "kind": "example",
+    "entry": "USIK",
+    "en": "The Taroko have only recently begun to cultivate ginger.",
+    "zh": "太魯閣人是近來才開始種薑的。",
+    "sent": "Mxoma usiq qapal pax snii bi ka dTroko"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "usik",
+    "attested": "Words",
+    "omnibus_zh": [
+     "辣椒通稱"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "boro",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Boro",
+    "kind": "example",
+    "entry": "LIING",
+    "en": "It is deliberately that Boro (Bolo) hides the reason for their quarrel.",
+    "zh": "Boro（Bolo）是故意隱瞞他們爭吵的原因。",
+    "sent": "Splang bi lniing pusu qqan daxa ka Boro"
+   },
+   {
+    "raw": "BORO",
+    "kind": "headword",
+    "entry": "BORO",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "bru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "豬仔"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "gmlaqa",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Gmlaqa",
+    "kind": "sub-form",
+    "entry": "GLAQA",
+    "en": "verbal form of the preceding.",
+    "zh": "同上之動詞形。",
+    "sent": null
+   },
+   {
+    "raw": "gmlaqa",
+    "kind": "example",
+    "entry": "GLAQA",
+    "en": "Tato is there spying (snooping) to see whether Djiro is not going to give them a hand.",
+    "zh": "Tato 在那裡窺伺（偵察），要看 Djiro 是否會去幫他們一把。",
+    "sent": "Tato o , gmlaqa xea adi mxa dmayao dxeaan ka Diro xo"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "gmraka",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "knleqo",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Knleqo",
+    "kind": "sub-form",
+    "entry": "LEQO",
+    "en": "To hate - to detest.",
+    "zh": "憎恨－厭惡。",
+    "sent": null
+   },
+   {
+    "raw": "knleqo",
+    "kind": "example",
+    "entry": "LEQO",
+    "en": "As for those who listen to the word (command) of the Spirit on high (God), they are not allowed to hate others.",
+    "zh": "至於那些聽從上天之靈（上帝）話語（命令）的人，他們不可憎恨別人。",
+    "sent": "Tai ka dmsnxei kari Otoç Balao o, ini tdoa knleqo sadyaq (sdyaqon)"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qnriqu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kodox",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Kodox",
+    "kind": "sub-form",
+    "entry": "ODOX",
+    "en": "Negative form of MODOX.",
+    "zh": "MODOX 的否定形。",
+    "sent": null
+   },
+   {
+    "raw": "kodox",
+    "kind": "example",
+    "entry": "ODOX",
+    "en": "Who said it's grilled? The meat isn't grilled!",
+    "zh": "誰說烤好了？肉還沒烤熟呢！",
+    "sent": "Ima msa modox! ini kodox ka siyam!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kduh",
+    "attested": "Words",
+    "omnibus_zh": [
+     "來去匆匆"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "quduh",
+    "attested": "Words",
+    "omnibus_zh": [
+     "小腿肚"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kwaxe",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "kwaxe",
+    "kind": "paradigm",
+    "entry": "KYUWAX",
+    "en": "One who withdraws - who moves away - to withdraw.",
+    "zh": "退避者－遠離者－退避。",
+    "sent": null
+   },
+   {
+    "raw": "kwaxe",
+    "kind": "example",
+    "entry": "KYUWAX",
+    "en": "Take these sufferings a little away from me (make these sufferings move a little away from me!).",
+    "zh": "讓這些苦難稍微離我遠一點（使這些苦難稍微遠離我！）。",
+    "sent": "Kwaxi (kwaxe) ko xaya ka qlqelan nii xo?"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kwaxi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要挪開"
+    ],
+    "dist": 1
+   },
+   {
+    "cand": "kwahi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓開闊"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "losok",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "losok",
+    "kind": "example",
+    "entry": "IYUP",
+    "en": "I will blow out the candle in a moment.",
+    "zh": "我待會兒會把蠟燭吹熄。",
+    "sent": "Yupun mo kia ka losok"
+   },
+   {
+    "raw": "LOSOK",
+    "kind": "headword",
+    "entry": "LOSOK",
+    "en": "Candle.",
+    "zh": "蠟燭。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rusuq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "卵子"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "rsuk",
+    "attested": "Words",
+    "omnibus_zh": [
+     "陰天"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "lxlaxon",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "lxlaxon",
+    "kind": "paradigm",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "To detach - to untie - to undo.",
+    "zh": "解開－鬆開－拆開。",
+    "sent": null
+   },
+   {
+    "raw": "l'xlaxon",
+    "kind": "example",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
+    "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。",
+    "sent": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) no lm'xlax (vl; Knxoai ida no l'xlaxon (lxlaxon)."
+   },
+   {
+    "raw": "lxlaxon",
+    "kind": "example",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
+    "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。",
+    "sent": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) no lm'xlax (vl; Knxoai ida no l'xlaxon (lxlaxon)."
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rhrhun",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 7
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "m'akai",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "M'akai",
+    "kind": "sub-form",
+    "entry": "AKAI",
+    "en": "To complain - to be the one crying out in pain.",
+    "zh": "呻吟-喊痛的人。",
+    "sent": null
+   },
+   {
+    "raw": "m'akai",
+    "kind": "example",
+    "entry": "AKAI",
+    "en": "The child has been crying out in pain since last night.",
+    "zh": "孩子從昨晚起就一直喊痛。",
+    "sent": "Ida m'akai pax ska'man ka laqe"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mkay",
+    "attested": "Words",
+    "omnibus_zh": [
+     "為整理家事要整理家事應該做家事的詞根"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "m'ulae",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "m'ulae",
+    "kind": "example",
+    "entry": "QALO",
+    "en": "Those who are hungry are glad to eat even lard.",
+    "zh": "飢餓的人很樂意連豬油也吃。",
+    "sent": "Tai ka m'ulae (mkulae (?)) sadyaq o, mqalas bi mqan ana qalo"
+   },
+   {
+    "raw": "M'ulae",
+    "kind": "sub-form",
+    "entry": "ULAE",
+    "en": "To be hungry - who is hungry - who is famished.",
+    "zh": "肚子餓－飢餓的－挨餓的。",
+    "sent": null
+   },
+   {
+    "raw": "mulae",
+    "kind": "sub-form",
+    "entry": "ULAE",
+    "en": "To be hungry - who is hungry - who is famished.",
+    "zh": "肚子餓－飢餓的－挨餓的。",
+    "sent": null
+   },
+   {
+    "raw": "Mulae",
+    "kind": "example",
+    "entry": "ULAE",
+    "en": "I'm going to eat quickly! I'm really hungry!",
+    "zh": "我要趕快吃！我真的好餓！",
+    "sent": "Mxa ko mkan n'xali! Mulae ko bi da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mray",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓兩腿交叉擁抱"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ma'gul",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "MA'GUL",
+    "kind": "headword",
+    "entry": "MA'GUL (M\"GUL ?)",
+    "en": "Inseparable - that one drags along with oneself - one's own (personal).",
+    "zh": "不可分離的－隨身拖帶的－自身的（個人的）。",
+    "sent": null
+   },
+   {
+    "raw": "ma'gul",
+    "kind": "example",
+    "entry": "MA'GUL (M\"GUL ?)",
+    "en": "That is indeed his old (incurable, inseparable) illness.",
+    "zh": "那正是他那老（不治的、擺脫不掉的）毛病。",
+    "sent": "M\"gul (ma'gul) na mnalox ka kia"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mgul",
+    "attested": "Words",
+    "omnibus_zh": [
+     "栓住"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "malun",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "malun",
+    "kind": "example",
+    "entry": "SB'LÖS",
+    "en": "If it is water you are adding, you will make the whole broth insipid! ... Who is adding water? I'm not adding any!",
+    "zh": "你若加的是水，會把整鍋湯弄得淡而無味！……誰在加水？我可沒加！",
+    "sent": "Nasi ksia ka malun so do, psbl'sun so kana ka bugo da! ... Ima ka mumal ksia? Ini ko umal ka yako !"
+   },
+   {
+    "raw": "malun",
+    "kind": "paradigm",
+    "entry": "UMAL",
+    "en": "verbal form of the preceding. (n.b. The phoneme L is here realized as a dorso-palatal lateral fricative (ł), which one c",
+    "zh": "同上之動詞形。（註：此處音位 L 實現為舌背－硬顎－邊音－擦音（ł），可表記為：Ma'li、ma'lan、ma'lun。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mrun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "原來要共寢"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mknaxal",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Mknaxal",
+    "kind": "sub-form",
+    "entry": "MAXAL",
+    "en": "For ten days, ten units of time.",
+    "zh": "歷時十天、十個時段。",
+    "sent": null
+   },
+   {
+    "raw": "Mknaxal",
+    "kind": "example",
+    "entry": "MAXAL",
+    "en": "We have just spent ten days up there.",
+    "zh": "我們剛在上面（山上）待了十天。",
+    "sent": "Mknaxal nami daya"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mknxal",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mql'xao",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Mql'xao",
+    "kind": "sub-form",
+    "entry": "QL'XAO",
+    "en": "To cross a torrent, a body of water, by going through the water.",
+    "zh": "涉水穿越溪流或水域。",
+    "sent": null
+   },
+   {
+    "raw": "mql'xao",
+    "kind": "example",
+    "entry": "QL'XAO",
+    "en": "The bridges are in more or less poor condition; to go to school, the children have to cross the torrent through the wate",
+    "zh": "橋樑或多或少都損壞了；孩子們要上學，只能涉水過溪！",
+    "sent": "Xmut ppotox xali ka xakao da; Musa matas ka laqe o, ida muda mql'xao yayong da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mqrhu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "因固執"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "msamao",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Msamao",
+    "kind": "sub-form",
+    "entry": "SAMAO",
+    "en": "To use a lantern, a lamp.",
+    "zh": "使用燈籠、油燈。",
+    "sent": null
+   },
+   {
+    "raw": "msamao",
+    "kind": "example",
+    "entry": "SAMAO",
+    "en": "At Wilang's house it is lit up.",
+    "zh": "瓦浪家裡點著燈。",
+    "sent": "Ga msamao ka sapax Wilang"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "msamu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mulae",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "m'ulae",
+    "kind": "example",
+    "entry": "QALO",
+    "en": "Those who are hungry are glad to eat even lard.",
+    "zh": "飢餓的人很樂意連豬油也吃。",
+    "sent": "Tai ka m'ulae (mkulae (?)) sadyaq o, mqalas bi mqan ana qalo"
+   },
+   {
+    "raw": "M'ulae",
+    "kind": "sub-form",
+    "entry": "ULAE",
+    "en": "To be hungry - who is hungry - who is famished.",
+    "zh": "肚子餓－飢餓的－挨餓的。",
+    "sent": null
+   },
+   {
+    "raw": "mulae",
+    "kind": "sub-form",
+    "entry": "ULAE",
+    "en": "To be hungry - who is hungry - who is famished.",
+    "zh": "肚子餓－飢餓的－挨餓的。",
+    "sent": null
+   },
+   {
+    "raw": "Mulae",
+    "kind": "example",
+    "entry": "ULAE",
+    "en": "I'm going to eat quickly! I'm really hungry!",
+    "zh": "我要趕快吃！我真的好餓！",
+    "sent": "Mxa ko mkan n'xali! Mulae ko bi da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mray",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓兩腿交叉擁抱"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mulun",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Mulun",
+    "kind": "sub-form",
+    "entry": "UMUL",
+    "en": "To be sucked - to be let melt (made to melt) in the mouth.",
+    "zh": "可吸吮的－可（使其）在口中融化的。",
+    "sent": null
+   },
+   {
+    "raw": "mulun",
+    "kind": "example",
+    "entry": "UMUL",
+    "en": "Although this medicine is not sweet, it is nevertheless a medicine to be sucked!",
+    "zh": "雖然這種藥不甜，但它仍是含著吸的藥！",
+    "sent": "Ana ini ksibus ka sapox nii o, ida sapox mulun"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mrun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "原來要共寢"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mxei",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Mxei",
+    "kind": "sub-form",
+    "entry": "XEI",
+    "en": "To become fruit - which has fruit.",
+    "zh": "結果實－有果實的。",
+    "sent": null
+   },
+   {
+    "raw": "Mxei",
+    "kind": "example",
+    "entry": "XEI",
+    "en": "There we are, my peanuts have grains (fruits).",
+    "zh": "好啦，我的花生結果實（結莢）了。",
+    "sent": "Mxei ka trabus mo da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mhi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "毒打聲"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pkalo",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Pkalo",
+    "kind": "sub-form",
+    "entry": "KALO",
+    "en": "To have (someone) combed - to get one's hair combed.",
+    "zh": "使人梳－讓人給自己梳頭。",
+    "sent": null
+   },
+   {
+    "raw": "pkalo",
+    "kind": "example",
+    "entry": "KALO",
+    "en": "Go quickly and get your hair combed! You are covered in lice!",
+    "zh": "快去讓人幫你梳頭！你滿頭都是蝨子！",
+    "sent": "Usa n'xali pkalo tunux so ! Kuxeng so kana da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pklu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "剛好"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pnbalae",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Pnbalae",
+    "kind": "sub-form",
+    "entry": "BALAE",
+    "en": "To act in earnest - to conduct oneself in truth.",
+    "zh": "認真行事-以真誠處世。",
+    "sent": null
+   },
+   {
+    "raw": "Pnbalae",
+    "kind": "example",
+    "entry": "BALAE",
+    "en": "I go about it honestly, I do, and not as a liar.",
+    "zh": "我是真心誠意去做的,不是騙子。",
+    "sent": "Pnbalae ko bi ka yako, uxai ko pnqbiling"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pnbali",
+    "attested": "Words",
+    "omnibus_zh": [
+     "做子彈"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pnbalao",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Pnbalao",
+    "kind": "sub-form",
+    "entry": "BALAO",
+    "en": "Superficially = at the surface.",
+    "zh": "表面地=在表層。",
+    "sent": null
+   },
+   {
+    "raw": "pnbalao",
+    "kind": "example",
+    "entry": "BALAO",
+    "en": "Many are those who till their land only superficially.",
+    "zh": "只把田地耕得很淺的人很多。",
+    "sent": "Xbalao bi sadyaq ka muda pnbalao nanak kmpax"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pnbraw",
+    "attested": "Words",
+    "omnibus_zh": [
+     "蠕動過的樣子"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pqatai",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Pqatai",
+    "kind": "sub-form",
+    "entry": "QATAI",
+    "en": "To demolish - to reduce to pieces - to damage/ruin.",
+    "zh": "拆毀－弄成碎片－損壞。",
+    "sent": null
+   },
+   {
+    "raw": "pqatai",
+    "kind": "example",
+    "entry": "QATAI",
+    "en": "It was the typhoon that passed by here and demolished all our houses.",
+    "zh": "是颱風從這裡經過，把我們所有的房子都摧毀了。",
+    "sent": "Boxo ka mnda xeni pqatai kana ssapax nami"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pqtai",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "psukan",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "PSUKAN",
+    "kind": "headword",
+    "entry": "PSUKAN",
+    "en": "Drunk - staggering. See BUSUK. BSUKAN.",
+    "zh": "醉的－踉蹌的。參見 BUSUK。BSUKAN。",
+    "sent": null
+   },
+   {
+    "raw": "psukan",
+    "kind": "example",
+    "entry": "PSUKAN",
+    "en": "Wilang is drunk all the time.",
+    "zh": "Wilang 隨時都在醉。",
+    "sent": "Knta'to psukan (bsukan) ka Wilang"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pskan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "咀嚼"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ptqoon",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "ptqoon",
+    "kind": "paradigm",
+    "entry": "TOOQO",
+    "en": "To vex – to hurt (morally) – to offend.",
+    "zh": "使…生氣－（在精神上）傷害－冒犯。",
+    "sent": null
+   },
+   {
+    "raw": "ptqoon",
+    "kind": "example",
+    "entry": "TOOQO",
+    "en": "If you act in this way, (then) you will offend all the young people!",
+    "zh": "你若這樣做，（那麼）你會冒犯所有的年輕人！",
+    "sent": "Nasi so msxaya do, na, so ptqoon kana ka llisao da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "ptkuun",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "q'lxan",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Qlxan",
+    "kind": "sub-form",
+    "entry": "QOLOX",
+    "en": "? (meaning uncertain).",
+    "zh": "？（意義不詳）。",
+    "sent": null
+   },
+   {
+    "raw": "Q'lxan",
+    "kind": "sub-form",
+    "entry": "QOLOX",
+    "en": "? (meaning uncertain).",
+    "zh": "？（意義不詳）。",
+    "sent": null
+   },
+   {
+    "raw": "Qlxan",
+    "kind": "example",
+    "entry": "QOLOX",
+    "en": "Drought (Is it QOLOX?, var. QALOX? which is the root of Qlxan (klxan)?)",
+    "zh": "乾旱（是 QOLOX 嗎？或 QALOX？何者是 Qlxan（klxan）的詞根？）",
+    "sent": "Qlxan kalat"
+   },
+   {
+    "raw": "q'lxan",
+    "kind": "example",
+    "entry": "QOLOX",
+    "en": "It was then just at the moment when there was the drought (= The black sky? - The sky like a skull?) for three years, an",
+    "zh": "那正是發生乾旱的時候（＝黑色的天空？－像頭骨一樣的天空？），持續了三年，到處都鬧大饑荒。",
+    "sent": "P\"lu bi t'lo xnkawas iyax nia ka k'lxan (q'lxan (?)) kalat ni paro bi kalayan kana mtqeli siida"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "krhan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "烤乾"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qlagun",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "qlagun",
+    "kind": "paradigm",
+    "entry": "QALAO",
+    "en": "To purify - to justify - to put in order.",
+    "zh": "潔淨、使正當、整理。",
+    "sent": null
+   },
+   {
+    "raw": "qlagun",
+    "kind": "example",
+    "entry": "QALAO",
+    "en": "You put your house in order (you do the housework in your home), that is good, but your heart, that is what truly needs ",
+    "zh": "你整理你的房子（你打掃你的家），這很好，但你的心，才是真正需要整理（潔淨）的。",
+    "sent": "Qmalao so sapax so o, malu ka kia ni, Ksaxol so kika balae bi qlagun"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kragun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "很煩"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qlaq",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "QLAQ",
+    "kind": "headword",
+    "entry": "QLAQ",
+    "en": "Itching - pruritus.",
+    "zh": "發癢 — 搔癢。",
+    "sent": null
+   },
+   {
+    "raw": "qlaq",
+    "kind": "example",
+    "entry": "QLAQ",
+    "en": "What an itch in my feet! (= How my feet itch!)",
+    "zh": "我的腳好癢！（＝我的腳癢死了！）",
+    "sent": "Tayal qlaq papaq mo !"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qrak",
+    "attested": "Words",
+    "omnibus_zh": [
+     "抓"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qlxan",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Qlxan",
+    "kind": "sub-form",
+    "entry": "QOLOX",
+    "en": "? (meaning uncertain).",
+    "zh": "？（意義不詳）。",
+    "sent": null
+   },
+   {
+    "raw": "Q'lxan",
+    "kind": "sub-form",
+    "entry": "QOLOX",
+    "en": "? (meaning uncertain).",
+    "zh": "？（意義不詳）。",
+    "sent": null
+   },
+   {
+    "raw": "Qlxan",
+    "kind": "example",
+    "entry": "QOLOX",
+    "en": "Drought (Is it QOLOX?, var. QALOX? which is the root of Qlxan (klxan)?)",
+    "zh": "乾旱（是 QOLOX 嗎？或 QALOX？何者是 Qlxan（klxan）的詞根？）",
+    "sent": "Qlxan kalat"
+   },
+   {
+    "raw": "q'lxan",
+    "kind": "example",
+    "entry": "QOLOX",
+    "en": "It was then just at the moment when there was the drought (= The black sky? - The sky like a skull?) for three years, an",
+    "zh": "那正是發生乾旱的時候（＝黑色的天空？－像頭骨一樣的天空？），持續了三年，到處都鬧大饑荒。",
+    "sent": "P\"lu bi t'lo xnkawas iyax nia ka k'lxan (q'lxan (?)) kalat ni paro bi kalayan kana mtqeli siida"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "krhan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "烤乾"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sape",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "SAPE",
+    "kind": "headword",
+    "entry": "SAPE",
+    "en": "A small mattock/hoe (with a handle of 50 or 60 cm) used mainly for hoeing or for weeding.",
+    "zh": "小鋤頭（柄長約50或60公分），主要用來鬆土或除草。",
+    "sent": null
+   },
+   {
+    "raw": "sape",
+    "kind": "example",
+    "entry": "TOTING",
+    "en": "Tain is busy forging pickaxes, hoes and knives.",
+    "zh": "Tain 正忙著打鐵，製作鎬、鋤和刀。",
+    "sent": "Ga tmoting sape ni palex ni poting ka Tain"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "spi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "夢"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "skl'bai",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Skl'bai",
+    "kind": "sub-form",
+    "entry": "L'BAI",
+    "en": "means of making weak (means - occasion).",
+    "zh": "使之虛弱的方式（手段－機會）。",
+    "sent": null
+   },
+   {
+    "raw": "skl'bai",
+    "kind": "example",
+    "entry": "L'BAI",
+    "en": "It is the heat that weakens people.",
+    "zh": "是這炎熱使人虛弱。",
+    "sent": "Kntl'çan sayang ka skl'bai bi sdyaqon"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sklbi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "常垂掛"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "snola",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "Snola",
+    "kind": "example",
+    "entry": "LALA",
+    "en": "Are you jealous to see how much money others have?",
+    "zh": "你嫉妒看到別人有那麼多錢嗎？",
+    "sent": "Snola so nita knlala pila daxa xo ?"
+   },
+   {
+    "raw": "Snola",
+    "kind": "example",
+    "entry": "LUUS",
+    "en": "I envy you (it makes me envious) to see you living alone.",
+    "zh": "看到你獨自生活，我很羨慕你（讓我心生羨慕）。",
+    "sent": "Snola ko bi mita knluus so nyeqan"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "snra",
+    "attested": "Words",
+    "omnibus_zh": [
+     "銀合歡樹樹木名"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "suai",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "suai",
+    "kind": "example",
+    "entry": "DUI",
+    "en": "Your little brother was holding you by the hand.",
+    "zh": "你的弟弟牽著你的手。",
+    "sent": "Dian so na baga ka swai ( suai) so"
+   },
+   {
+    "raw": "suai",
+    "kind": "example",
+    "entry": "PAXONG",
+    "en": "Your little brother has a very irascible temperament.",
+    "zh": "你弟弟的脾氣非常暴躁。",
+    "sent": "Mspaxong balae ka suai (swai) so"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "suy",
+    "attested": "Words",
+    "omnibus_zh": [
+     "被電到"
+    ],
+    "dist": 2
+   },
+   {
+    "cand": "sai",
+    "attested": "Words",
+    "omnibus_zh": [
+     "去"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tnpongan",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "TNPONGAN",
+    "kind": "headword",
+    "entry": "TNPONGAN",
+    "en": "(This term is perhaps a corruption of PNPONGAN, PNPNGAN, which would come from PNPONG = Summit – mountain – peak). = Sea",
+    "zh": "（這個詞也許是 PNPONGAN、PNPNGAN 的變體，而後者可能源自 PNPONG＝山頂－山－峰）。＝海浪的湧動－波",
+    "sent": null
+   },
+   {
+    "raw": "tnpongan",
+    "kind": "example",
+    "entry": "TNPONGAN",
+    "en": "I took the boat just at the moment when the sea was very rough.",
+    "zh": "我正好在海浪很大的時候上了船。",
+    "sent": "Pnapa ko aso pida bi paro tnpongan silong siida!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tnpngan",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "xbugi",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "XBUGI",
+    "kind": "headword",
+    "entry": "XBUGI",
+    "en": "Suck up! - lap up! (Nominal-imperative form).",
+    "zh": "吸！－舔食！（名詞－命令形）。",
+    "sent": null
+   },
+   {
+    "raw": "xbugi",
+    "kind": "example",
+    "entry": "XBUGI",
+    "en": "I gave the broth to the dog; it didn't touch it (= It didn't lap up even a little!).",
+    "zh": "我把湯給了狗；牠碰都沒碰（＝牠連一點都沒舔！）。",
+    "sent": "Wada mo byeqon xeuling ka bugo; ina na xbugi ana bilaq!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hbgi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要加水"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "xbulao",
+  "freq": 2,
+  "contexts": [
+   {
+    "raw": "XBULAO",
+    "kind": "headword",
+    "entry": "XBULAO",
+    "en": "Pelvis of the human body (and especially: the woman's pelvis - pubis.)",
+    "zh": "人體的骨盆（尤指女性的骨盆－恥骨部位）。",
+    "sent": null
+   },
+   {
+    "raw": "Xbulao",
+    "kind": "example",
+    "entry": "XBULAO",
+    "en": "Is it really your lower abdomen that hurts you?",
+    "zh": "真的是你的下腹（骨盆部位）在痛嗎？",
+    "sent": "Xbulao so bi ka mnalox?"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hbraw",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "bboai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "bboai",
+    "kind": "example",
+    "entry": "LABU",
+    "en": "take good care to wrap this book so as to give it to Ibanne.",
+    "zh": "好好把這本書包起來，好交給伊班。",
+    "sent": "Ndoa bi lmabu patas nii bboai so Banan"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "bbwai",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓之上"
+    ],
+    "dist": 1
+   },
+   {
+    "cand": "bbui",
+    "attested": "Words",
+    "omnibus_zh": [
+     "毒打"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "blaeq",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "BLAEQ",
+    "kind": "headword",
+    "entry": "BLAEQ",
+    "en": "Enjoyment - being happy.",
+    "zh": "享受——幸福。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "blaq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "松鼠老鼠飛鼠及鋸東西所留下的碎粒"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "bolong",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "BOLONG",
+    "kind": "headword",
+    "entry": "BOLONG",
+    "en": "To harvest.",
+    "zh": "收割。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "blung",
+    "attested": "Words",
+    "omnibus_zh": [
+     "掉落海中的聲音"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "bolu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "BOLU",
+    "kind": "headword",
+    "entry": "BOLU",
+    "en": "Ball (for playing).",
+    "zh": "球（玩耍用）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "bru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "豬仔"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "bubao",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "BUBAO",
+    "kind": "headword",
+    "entry": "BUBAO",
+    "en": "To split - to split apart - to burst open (wood, stone...).",
+    "zh": "劈開——裂開——爆裂而開（木頭、石頭……）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "bubu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "母親"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ddiun",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "ddiun",
+    "kind": "example",
+    "entry": "DUI",
+    "en": "Is this of any use?",
+    "zh": "這個有什麼用處嗎？",
+    "sent": "Adi nyeqan ddiun ka nii xo?"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "djiyun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "使用",
+     "用途"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "djiun",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "gl'qan",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "gl'qan",
+    "kind": "paradigm",
+    "entry": "G'LOQ",
+    "en": "verbal form of the preceding.",
+    "zh": "同上之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "glkan",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "k'aon",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "k'aon",
+    "kind": "example",
+    "entry": "QNOQO",
+    "en": "We know perfectly well the faults that children can commit (all a child's faults).",
+    "zh": "我們非常清楚孩子們可能犯的過錯（一切孩童會犯的過錯）。",
+    "sent": "Ida ta k'aon balae ka ana manu knqnqoan lqlaqe"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kan",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kaya",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "KAYA",
+    "kind": "headword",
+    "entry": "KAYA",
+    "en": "Mosquito net.",
+    "zh": "蚊帳。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qaya",
+    "attested": "Words",
+    "omnibus_zh": [
+     "工具財物"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kbulax",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "kbulax",
+    "kind": "example",
+    "entry": "BULAX",
+    "en": "My clothes are not new.",
+    "zh": "我的衣服不是新的。",
+    "sent": "Ini kbulax ka lukus mo"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kbrah",
+    "attested": "Words",
+    "omnibus_zh": [
+     "肺病因"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "keto",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "KETO",
+    "kind": "headword",
+    "entry": "KETO",
+    "en": "Knitwear - pullover (sweater).",
+    "zh": "毛衣－套頭衫。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "ktu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "切東西的聲音擬聲詞"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "klwaai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "klwaai",
+    "kind": "paradigm",
+    "entry": "KLAWA",
+    "en": "To take care of - to brood.",
+    "zh": "照顧——孵蛋。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "klway",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "knusa",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "knusa",
+    "kind": "example",
+    "entry": "NASI",
+    "en": "If you really intend to go hunting, then you must set off quickly.",
+    "zh": "如果你真的打算去打獵，那你就得趕快出發。",
+    "sent": "Nasi so knusa nadok o, kasi so usa n'xali da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "knsa",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "komu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Komù",
+    "kind": "example",
+    "entry": "KAGOX",
+    "en": "I want to go and invite Komù so that she may come take part in (eat at) my son's wedding.",
+    "zh": "我要去邀請 Komù，請她來參加（吃）我兒子的婚宴。",
+    "sent": "Saon mo kmagox Ka Komù yyax na mqan lae laqe mo"
+   },
+   {
+    "raw": "KOMU",
+    "kind": "headword",
+    "entry": "KOMU",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kmu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "komù",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Komù",
+    "kind": "example",
+    "entry": "KAGOX",
+    "en": "I want to go and invite Komù so that she may come take part in (eat at) my son's wedding.",
+    "zh": "我要去邀請 Komù，請她來參加（吃）我兒子的婚宴。",
+    "sent": "Saon mo kmagox Ka Komù yyax na mqan lae laqe mo"
+   },
+   {
+    "raw": "KOMU",
+    "kind": "headword",
+    "entry": "KOMU",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kmu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "koulae",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "koulae",
+    "kind": "example",
+    "entry": "B\"LO",
+    "en": "When did your sow farrow? ... Before long she will have another litter!",
+    "zh": "你的母豬什麼時候生的？……不久牠又會再生一窩！",
+    "sent": "Tnb\"lo sknuan ka koulae so ? ... Adi biyao mtb\"lo dole da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kuray",
+    "attested": "Words",
+    "omnibus_zh": [
+     "母豬"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kpoling",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "KPOLING",
+    "kind": "headword",
+    "entry": "KPOLING",
+    "en": "To surround - encircle.",
+    "zh": "包圍—圍困。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qpuring",
+    "attested": "Words",
+    "omnibus_zh": [
+     "一群",
+     "群"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "kuli",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "KULI",
+    "kind": "headword",
+    "entry": "KULI",
+    "en": "Wage-earning manual labourer.",
+    "zh": "領薪的體力勞工。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "quri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "有關"
+    ],
+    "dist": 2
+   },
+   {
+    "cand": "kli",
+    "attested": "Words",
+    "omnibus_zh": [
+     "嚇到驚訝狀"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "kri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "掙扎跳動"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "quli",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "l'xlaxon",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "lxlaxon",
+    "kind": "paradigm",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "To detach - to untie - to undo.",
+    "zh": "解開－鬆開－拆開。",
+    "sent": null
+   },
+   {
+    "raw": "l'xlaxon",
+    "kind": "example",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
+    "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。",
+    "sent": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) no lm'xlax (vl; Knxoai ida no l'xlaxon (lxlaxon)."
+   },
+   {
+    "raw": "lxlaxon",
+    "kind": "example",
+    "entry": "L'XLAX (LEXLAX)",
+    "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
+    "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。",
+    "sent": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) no lm'xlax (vl; Knxoai ida no l'xlaxon (lxlaxon)."
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rhrhun",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 7
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "llongai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "llongai",
+    "kind": "example",
+    "entry": "LONGAI",
+    "en": "But where have they all gone, the monkeys? There are none left!",
+    "zh": "猴子們到底都跑哪去了？一隻也不剩了！",
+    "sent": "Ya wada bi ino kana llongai da! Ongat da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rlungi",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "lmobo",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "lmobo",
+    "kind": "example",
+    "entry": "LODO",
+    "en": "It is on the mulberry tree behind my house that the birds love to come and build their nests.",
+    "zh": "鳥兒最喜歡到我家後面的桑樹上築巢。",
+    "sent": "Pusu qliyut bukwi sapax no,kika yaxan bi lmobo kana ka qbxni"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rmbu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "形容很晚回家"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "lmubu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Lmubu",
+    "kind": "sub-form",
+    "entry": "LUBU",
+    "en": "To play this instrument.",
+    "zh": "吹奏這件樂器。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "rmbu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "形容很晚回家"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "lowai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "LOWAI",
+    "kind": "headword",
+    "entry": "LOAI (LOWAI ?)",
+    "en": "Exterior - except. (n.b. in the sense of exterior for a physical place one preferably says: NGANGOT).",
+    "zh": "外部－除…之外。（註：在指具體場所的「外部」意義時，較常說：NGANGOT。）",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "luway",
+    "attested": "Words",
+    "omnibus_zh": [
+     "軟弱"
+    ],
+    "dist": 2
+   },
+   {
+    "cand": "ruway",
+    "attested": "Words",
+    "omnibus_zh": [
+     "不是很近的親戚"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "lübak",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "LüBAK",
+    "kind": "headword",
+    "entry": "LüBAK",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "lbak",
+    "attested": "Words",
+    "omnibus_zh": [
+     "人名男"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mdludao",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "mdludao",
+    "kind": "example",
+    "entry": "KALIP",
+    "en": "What a disheveled head of hair you have! ... Wait a bit! I am soon going to go get my hair (my head) cut.",
+    "zh": "你的頭髮真是亂蓬蓬的！……等一下！我很快就要去剪頭髮（剪頭）了。",
+    "sent": "Ma mdludao (mludao) kana ka tunux so! ... Ya xan! Saon mo pkalip tunux kia"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mdrudu",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mkuli",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Mkuli",
+    "kind": "sub-form",
+    "entry": "KULI",
+    "en": "To be a wage-earner.",
+    "zh": "當領薪者。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mquri",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mnaxal",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Mnaxal",
+    "kind": "sub-form",
+    "entry": "MAXAL",
+    "en": "Tenth time.",
+    "zh": "第十次。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mnxal",
+    "attested": "Words",
+    "omnibus_zh": [
+     "一次"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mori",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "MORI",
+    "kind": "headword",
+    "entry": "MORI",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要去共寢"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "moxoi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "MOXOI",
+    "kind": "headword",
+    "entry": "MOXOI",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "muxi",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "muli",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Muli",
+    "kind": "example",
+    "entry": "UMUL",
+    "en": "Just let it melt in your mouth! It's very good!",
+    "zh": "就讓它在你口中融化吧！很好吃！",
+    "sent": "Muli binao! Malu bi oqon!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要去共寢"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "mulu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "mulu",
+    "kind": "example",
+    "entry": "BNAQE",
+    "en": "Sandy ground is the right kind for planting peanuts.",
+    "zh": "沙質地最適合種花生。",
+    "sent": "Mkbnaqe ka mulu xmaan trabus"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "mlu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "節省"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "mru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "沾到"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nagui",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "nagui",
+    "kind": "example",
+    "entry": "SLAP",
+    "en": "If you start stealing again, I'll cut off your hand, you'll see!",
+    "zh": "你要是再偷竊，我就把你的手砍掉，你等著瞧！",
+    "sent": "Nasi so pnpusal nagui (n'gui) o, slapun miso baga kia, kawai binao!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "nguy",
+    "attested": "Words",
+    "omnibus_zh": [
+     "哭聲"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nagwi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "nagwi",
+    "kind": "example",
+    "entry": "GAGWI",
+    "en": "Shall I hand back to you what I have stolen, will you take it?",
+    "zh": "我把偷的東西還你，好嗎？",
+    "sent": "Byeqon miso ka ngguyan mo xo? (vl. ka nagwi mo)"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "nguy",
+    "attested": "Words",
+    "omnibus_zh": [
+     "哭聲"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "naqe",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Naqe",
+    "kind": "example",
+    "entry": "YUP",
+    "en": "It is not easy to blow on the fire of your stove (your cooker).",
+    "zh": "在你的爐灶（你的炊具）的火上吹並不容易。",
+    "sent": "Naqe bi yupan ka taxot xpuyan so"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "naki",
+    "attested": "Words",
+    "omnibus_zh": [
+     "另外取"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "nuni",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "NUNI",
+    "kind": "headword",
+    "entry": "NUNI",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "nni",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "paotoç",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Paotoç",
+    "kind": "sub-form",
+    "entry": "OTOç",
+    "en": "To deceive - to mystify (in the future).",
+    "zh": "欺騙－愚弄（未來式）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "putuh",
+    "attested": "Words",
+    "omnibus_zh": [
+     "人名男女"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pblexe",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "pblexe",
+    "kind": "example",
+    "entry": "BLEX",
+    "en": "Those fields there did not bring me in a single penny!",
+    "zh": "那些田沒讓我賺到一毛錢！",
+    "sent": "Ini ko na pblexe ana bilaq pila ka kmpaxan kia"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pblxi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "使清理讓使清理"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pboai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pboai",
+    "kind": "sub-form",
+    "entry": "BOAI",
+    "en": "To make give - to make give back.",
+    "zh": "使人給——使人歸還。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pbai",
+    "attested": "Words",
+    "omnibus_zh": [
+     "長多頭膿瘡"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pkbulax",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pkbulax",
+    "kind": "sub-form",
+    "entry": "BULAX",
+    "en": "To bring it about that it be new (?)",
+    "zh": "使之成為新的（？）",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pkbrax",
+    "attested": "Words",
+    "omnibus_zh": [
+     "使有力量"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pnalu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pnalu",
+    "kind": "sub-form",
+    "entry": "NALU",
+    "en": "To have (someone) replace - to have (someone) take the place.",
+    "zh": "使人代替 - 使人頂替。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pnru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "傳話敘述人說的"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pnlak",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "pnlak",
+    "kind": "example",
+    "entry": "TMIAI",
+    "en": "At the seaside (on the shore of the sea) it is all full of shellfish.",
+    "zh": "在海邊（在海岸上）滿是貝殼。",
+    "sent": "Tmiai kana ka pnlak \"silong (gsilong) (vl. ka siao \"silong) ."
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pnlaq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "海邊"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pnsamao",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pnsamao",
+    "kind": "example",
+    "entry": "AYANG",
+    "en": "I lit the lamp at Perho's house and my hands smell of kerosene.",
+    "zh": "「我在Perho家點了燈,弄得滿手都是煤油味!」",
+    "sent": "Pnsamao ko sapax Pexo ni s'ayang kana baga mo da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pnsamu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "釘釘子"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "poling",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "POLING",
+    "kind": "headword",
+    "entry": "POLING",
+    "en": "( = root of KMPOLING = To surround ?). See KMPOLING.",
+    "zh": "（＝KMPOLING 的詞根＝環繞？）。參見 KMPOLING。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pring",
+    "attested": "Words",
+    "omnibus_zh": [
+     "把柄"
+    ],
+    "dist": 5
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pqapax",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pqapax",
+    "kind": "sub-form",
+    "entry": "QAPAX",
+    "en": "To have (something) spread out - to have (a surface) lined/covered.",
+    "zh": "使攤鋪－使鋪墊。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pqpah",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pslangi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pslangi",
+    "kind": "sub-form",
+    "entry": "SLANGI",
+    "en": "To act so that there is something left over.",
+    "zh": "使之有剩餘。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pslngi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "讓打瞌睡"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pslbui",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pslbui",
+    "kind": "example",
+    "entry": "L'BU",
+    "en": "shorten the sleeves of your garment a little.",
+    "zh": "把你衣服的袖子稍微改短一點。",
+    "sent": "Pslbui xali ka usuk lukus so"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pslbi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "使拉扯"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "pstana",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Pstana",
+    "kind": "sub-form",
+    "entry": "STAMA",
+    "en": "To make (someone) place their trust in - to make (someone) lean on.",
+    "zh": "使人信賴於－使人倚靠。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "pstna",
+    "attested": "Words",
+    "omnibus_zh": [
+     "採最後結的地瓜"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "q'mux",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Q'MUX",
+    "kind": "headword",
+    "entry": "Q'MUX",
+    "en": "Darnel (ryegrass weed).",
+    "zh": "毒麥(雜草)。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kmux",
+    "attested": "Words",
+    "omnibus_zh": [
+     "握拳"
+    ],
+    "dist": 1
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "ql'xao",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "QL'XAO",
+    "kind": "headword",
+    "entry": "QL'XAO",
+    "en": "To cross a torrent by walking through the water.",
+    "zh": "涉水過溪。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qrhu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "固執"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qlagi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "qlagi",
+    "kind": "paradigm",
+    "entry": "QALAO",
+    "en": "To purify - to justify - to put in order.",
+    "zh": "潔淨、使正當、整理。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kragi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "整理"
+    ],
+    "dist": 2
+   },
+   {
+    "cand": "qrgi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "卡魯給地名部落名舊部落在今花蓮縣秀林鄉境內"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qliun",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "qliun",
+    "kind": "paradigm",
+    "entry": "QALI",
+    "en": "To dig - to unearth.",
+    "zh": "挖掘、掘出。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kriun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要挖的"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qmalit",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Qmalit",
+    "kind": "sub-form",
+    "entry": "QALIT",
+    "en": "To cut with scissors - to trim.",
+    "zh": "用剪刀剪、裁。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "kmarit",
+    "attested": "Words",
+    "omnibus_zh": [
+     "抓緊的"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qnali",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "qnali",
+    "kind": "example",
+    "entry": "SLAGO",
+    "en": "One day I want to straighten out the trench that they made.",
+    "zh": "我想有一天把他們挖的溝渠弄直。",
+    "sent": "Pslguon mo nxal ka qnliyan daxa (qnali daxa)"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "knari",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "qoumi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "qoumi",
+    "kind": "example",
+    "entry": "GIIN",
+    "en": "Hand me my glasses; (they will serve me) to look for my needle.",
+    "zh": "把我的眼鏡遞給我,(我要用它)找我的針。",
+    "sent": "Ita lixao daolyaq mo sgiin mo qoumi"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "qumi",
+    "attested": "Words",
+    "omnibus_zh": [
+     "仔細找及觀察"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sa'mul",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SA'MUL",
+    "kind": "headword",
+    "entry": "SA'MUL",
+    "en": "To hold in one's arms (a baby) - to carry a child.",
+    "zh": "把（嬰兒）抱在懷裡－抱著孩子。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "smur",
+    "attested": "Words",
+    "omnibus_zh": [
+     "濕冷"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "saida",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SAIDA",
+    "kind": "headword",
+    "entry": "SAIDA",
+    "en": "Lemonade (soda).",
+    "zh": "汽水。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sida",
+    "attested": "Words",
+    "omnibus_zh": [
+     "樹枝"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sao'le",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SAO'LE",
+    "kind": "example",
+    "entry": "N",
+    "en": "That person's boat.",
+    "zh": "那個人的船。",
+    "sent": "ASO NA SAO'LE XANE"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sari",
+    "attested": "Words",
+    "omnibus_zh": [
+     "芋頭"
+    ],
+    "dist": 3
+   },
+   {
+    "cand": "suri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "人名男女"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sbaan",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SBAAN",
+    "kind": "headword",
+    "entry": "SBAAN",
+    "en": "To doze - to take a nap - to rest.",
+    "zh": "打盹－午睡－休息。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sban",
+    "attested": "Words",
+    "omnibus_zh": [
+     "是很蔭涼蔭涼處的詞根"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sbiyoq",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Sbiyoq",
+    "kind": "sub-form",
+    "entry": "BIYOQ",
+    "en": "To secrete liquid.",
+    "zh": "分泌液體。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sbiyuk",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sbuan",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "sbuan",
+    "kind": "paradigm",
+    "entry": "SBU\"",
+    "en": "To throw - to shoot - to point with the finger - to beat down (sun).",
+    "zh": "投擲－射擊－用手指指向－（陽光）強烈照射。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sban",
+    "attested": "Words",
+    "omnibus_zh": [
+     "是很蔭涼蔭涼處的詞根"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "skulan",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "skulan",
+    "kind": "paradigm",
+    "entry": "SIKUL",
+    "en": "To jostle — to push — to bump into.",
+    "zh": "推擠—推—撞。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "skran",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "skuli",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "skuli",
+    "kind": "paradigm",
+    "entry": "SIKUL",
+    "en": "To jostle — to push — to bump into.",
+    "zh": "推擠—推—撞。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "squri",
+    "attested": "Words",
+    "omnibus_zh": [
+     "削木頭"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sloaon",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "sloaon",
+    "kind": "paradigm",
+    "entry": "SLOA",
+    "en": "Ditto, verbal form (verbal form of the preceding).",
+    "zh": "同上之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sluun",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要被製作"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "sruwan",
+    "attested": "Words",
+    "omnibus_zh": [
+     "在裡面的"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sloong",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SLOONG",
+    "kind": "headword",
+    "entry": "SLOONG",
+    "en": "Heavy eyelids - to be overcome by sleep.",
+    "zh": "眼皮沉重；睏得快睡著。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "slung",
+    "attested": "Words",
+    "omnibus_zh": [
+     "毛線"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "slui",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "slui",
+    "kind": "paradigm",
+    "entry": "SALU",
+    "en": "ditto — verbal form of the preceding.",
+    "zh": "同上之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sli",
+    "attested": "Words",
+    "omnibus_zh": [
+     "堆積"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "snkleqe",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "snkleqe",
+    "kind": "example",
+    "entry": "LEQE",
+    "en": "It was on the very day I was doing the jump that I dislocated my hand.",
+    "zh": "正是我跳躍的那天，我把手扭脫臼了。",
+    "sent": "Pida bi sntlilan mo sndurai o, asi bi snkleqe ka baga mo da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "snqriqi",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "snloi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "snloi",
+    "kind": "paradigm",
+    "entry": "Sn\"lo",
+    "en": "= To transmit (something immaterial) - to announce - to make known. (n.b. Perhaps this N of SN\"LO is only the infix N, m",
+    "zh": "＝傳達（無形之物）—宣告—告知。（註：也許SN\"LO裡的這個N只是中綴N，是過去式、完成貌的標記？！）",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "snli",
+    "attested": "Words",
+    "omnibus_zh": [
+     "物囊"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "snulu",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SNULU",
+    "kind": "headword",
+    "entry": "SNULU",
+    "en": "To happen that - to be simultaneously.",
+    "zh": "恰好發生－同時存在。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "snru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "敘述所聽到的"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "spagun",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "spagun",
+    "kind": "paradigm",
+    "entry": "SAPAO",
+    "en": "Ditto: verbal form of the preceding.",
+    "zh": "同上：前項之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "spgun",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "spgao",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Spgao",
+    "kind": "example",
+    "entry": "LADING",
+    "en": "Let's count (very imperative) quickly from the beginning.",
+    "zh": "我們（強烈命令）快從頭數起吧。",
+    "sent": "Spgao ta n'xali pax lading da"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "spgu",
+    "attested": "Words",
+    "omnibus_zh": [
+     "藜味"
+    ],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sqaai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "sqaai",
+    "kind": "paradigm",
+    "entry": "SIQA",
+    "en": "One who is ashamed - who is shy - who is modest.",
+    "zh": "會害羞的－膽怯的－知恥的（人）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "skaay",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "stana",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "stana",
+    "kind": "paradigm",
+    "entry": "STAMA",
+    "en": "ditto, verbal form (verbal form of the preceding).",
+    "zh": "同上之動詞形。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "stna",
+    "attested": "Words",
+    "omnibus_zh": [
+     "挖過後沒被挖走遺留的地瓜"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "sueq",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SÜEQ",
+    "kind": "headword",
+    "entry": "SÜEQ",
+    "en": "To spill / tip over (a contents) - to overflow.",
+    "zh": "倒出（內容物）－溢出。",
+    "sent": null
+   },
+   {
+    "raw": "Sueq",
+    "kind": "example",
+    "entry": "SÜEQ",
+    "en": "Pour it out!",
+    "zh": "倒吧！",
+    "sent": "Sueq da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "siq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "刺的聲音"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "suil",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SUIL",
+    "kind": "headword",
+    "entry": "SUIL",
+    "en": "From time to time - intermittently. See MSUIL.",
+    "zh": "偶爾－斷斷續續。參見 MSUIL。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "sir",
+    "attested": "Words",
+    "omnibus_zh": [
+     "噴噴血及小便"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "syukai",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "syukai",
+    "kind": "example",
+    "entry": "LUBWI",
+    "en": "Will you let me borrow two bags of your peanuts?",
+    "zh": "你讓我借兩袋你的花生好嗎？",
+    "sent": "syukai ta daxa lubwi trabus so xo ?"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "syuki",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 2
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "süeq",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "SÜEQ",
+    "kind": "headword",
+    "entry": "SÜEQ",
+    "en": "To spill / tip over (a contents) - to overflow.",
+    "zh": "倒出（內容物）－溢出。",
+    "sent": null
+   },
+   {
+    "raw": "Sueq",
+    "kind": "example",
+    "entry": "SÜEQ",
+    "en": "Pour it out!",
+    "zh": "倒吧！",
+    "sent": "Sueq da!"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "siq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "刺的聲音"
+    ],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "taoke",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "TAOKE",
+    "kind": "headword",
+    "entry": "TAOKE",
+    "en": "Foreman - boss.",
+    "zh": "工頭－老闆。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tuki",
+    "attested": "Words",
+    "omnibus_zh": [
+     "抵銷"
+    ],
+    "dist": 4
+   },
+   {
+    "cand": "taki",
+    "attested": "Sentences",
+    "omnibus_zh": [],
+    "dist": 3
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tapak",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "TAPAK",
+    "kind": "headword",
+    "entry": "TAPAK",
+    "en": "(TAPAQ?) = To strike (?), to crush (?).",
+    "zh": "（TAPAQ？）＝打（？）、壓碎（？）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tapaq",
+    "attested": "Words",
+    "omnibus_zh": [
+     "臀部"
+    ],
+    "dist": 1
+   },
+   {
+    "cand": "tpak",
+    "attested": "Words",
+    "omnibus_zh": [
+     "拍翅聲"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "tnoxoi",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "Tnoxoi",
+    "kind": "example",
+    "entry": "K'LAP",
+    "en": "I was with you yesterday; why did you not capture me at that moment?",
+    "zh": "我昨天和你們在一起，你們為什麼不在那時候抓我？",
+    "sent": "Tnoxoi ko munan s'xiga, ma ko namo ini klapi sida"
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "tnhui",
+    "attested": "Words",
+    "omnibus_zh": [
+     "要讚美"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "xalo",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "XALO",
+    "kind": "headword",
+    "entry": "XALO",
+    "en": "",
+    "zh": "",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hru",
+    "attested": "Words",
+    "omnibus_zh": [
+     "水源頭"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "xama",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "XAMA",
+    "kind": "headword",
+    "entry": "XAMA",
+    "en": "Sledgehammer (tool).",
+    "zh": "大槌（工具）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hma",
+    "attested": "Words",
+    "omnibus_zh": [
+     "刀鋒"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ },
+ {
+  "token": "xoil",
+  "freq": 1,
+  "contexts": [
+   {
+    "raw": "XOIL",
+    "kind": "headword",
+    "entry": "XOIL (XOWIL ?)",
+    "en": "Ladle for scooping up millet beer (an implement generally made from a section of bamboo between two nodes).",
+    "zh": "舀小米酒的杓子（通常以竹子兩節之間的一段製成的器具）。",
+    "sent": null
+   }
+  ],
+  "candidates": [
+   {
+    "cand": "hir",
+    "attested": "Words",
+    "omnibus_zh": [
+     "氣喘聲"
+    ],
+    "dist": 4
+   }
+  ],
+  "status": "pending",
+  "decision": null
+ }
+]
