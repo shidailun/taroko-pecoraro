@@ -1,0 +1,774 @@
+{
+  "pages": [46, 49],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Sblnaxe bi mita pnspdagan nami",
+        "fr": "Accepte avec bienveillance notre offrande.",
+        "en": "Accept our offering with kindness.",
+        "zh": "請惠然接納我們的奉獻。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Msblenax",
+        "fr": "Qui se retracte - pas rancunier.",
+        "en": "Who retracts - not resentful.",
+        "zh": "會收回前言的——不記仇的。",
+        "examples": [
+          {
+            "t": "Ana naqex qoaq na o, ini biyao msblenax ka lnglongan nia",
+            "fr": "Même s'il a une sale langue, il se rétracte (repent) vite.",
+            "en": "Even if he has a foul tongue, he retracts (repents) quickly.",
+            "zh": "即使他口出惡言，他也很快收回（悔改）。"
+          }
+        ]
+      },
+      {
+        "form": "Psblenax",
+        "fr": "Faire repentir - faire rétracter.",
+        "en": "To make repent - to make retract.",
+        "zh": "使人悔改——使人收回前言。",
+        "examples": [
+          {
+            "t": "Pnsblenax lnglongan na ka Liwis, kika yaxan na sayang pblenax moai nguyan na pila",
+            "fr": "Liwis s'est repenti (a fait faire demi tour à sa conscience), voilà pourquoi il vient aujourd'hui donner en retour (rendre) l'argent qu'il avait volé.",
+            "en": "Liwis has repented (has made his conscience turn about); that is why today he comes to give back (return) the money he had stolen.",
+            "zh": "Liwis 悔改了（讓良心回轉），所以他今天來歸還（退還）他偷的錢。"
+          }
+        ]
+      },
+      {
+        "form": "Tblenax",
+        "fr": "Qui est ingrat - qui est tourné en arrière - à reculons.",
+        "en": "Who is ungrateful - who is turned backwards - backwards (in reverse).",
+        "zh": "忘恩負義的——向後轉的——倒退的。",
+        "examples": [
+          {
+            "t": "Ma so tblenax bi mksa?",
+            "fr": "Qu'est ce qui te prend de marcher à reculons ?",
+            "en": "What has got into you, walking backwards?",
+            "zh": "你怎麼倒著走路？"
+          },
+          {
+            "t": "Mtblenax bi ludan ka dndoma laqe sayang",
+            "fr": "Il y a des enfants aujourd'hui pleins d'ingratitude pour leurs parents.",
+            "en": "There are children today full of ingratitude toward their parents.",
+            "zh": "如今有些孩子對父母滿是忘恩負義。"
+          }
+        ]
+      },
+      {
+        "form": "Kntblnaxan",
+        "fr": "Ingratitude.",
+        "en": "Ingratitude.",
+        "zh": "忘恩負義。",
+        "examples": [
+          {
+            "t": "Wana kntblnaxan daxa ka leqo mo balae!",
+            "fr": "Ce n'est que leur ingratitude que je déteste vraiment.",
+            "en": "It is only their ingratitude that I truly detest.",
+            "zh": "我真正憎惡的只是他們的忘恩負義。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "BLENUX (BL'NUX)",
+      "tag": "(R)",
+      "fr": "Plaine - terrain plat.",
+      "en": "Plain - flat ground.",
+      "zh": "平原——平地。",
+      "examples": [
+        {
+          "t": "Ga mnyaq bl'nux ka dbsnawan",
+          "fr": "La tribu des AMI habite la plaine. (nb. Pour les Taroko, la plaine est l'habitat des AMI, des formosans et des chinois. Quand ils disent de quelqu'un: § Wada blenux ka kia = Celui là est descendu dans la plaine, ils signifient un peu qu'il s'est expatrié.)",
+          "en": "The AMI tribe lives on the plain. (n.b. For the Taroko, the plain is the habitat of the AMI, of the Formosans and of the Chinese. When they say of someone: § Wada blenux ka kia = That one has gone down to the plain, they mean, in a way, that he has expatriated himself.)",
+          "zh": "阿美族住在平原。（註：對太魯閣人而言，平原是阿美族、台灣本地人和中國人居住的地方。當他們說某人：§ Wada blenux ka kia＝那個人下到平原去了，多少意味著他離鄉背井了。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sblenux",
+          "fr": "Faire, former une plaine.",
+          "en": "To make, to form a plain.",
+          "zh": "造成、形成平原。",
+          "examples": []
+        },
+        {
+          "form": "Msblenux",
+          "fr": "Qui s'étale comme une plaine - qui est tout plat.",
+          "en": "That spreads out like a plain - that is completely flat.",
+          "zh": "像平原般開展的——十分平坦的。",
+          "examples": [
+            {
+              "t": "Msblenux balae kana ka kmpaxan mo",
+              "fr": "Tous mes champs sont bien plats.",
+              "en": "All my fields are quite flat.",
+              "zh": "我的田全都很平坦。"
+            },
+            {
+              "t": "Ga blenux kana ka kmpaxan mo",
+              "fr": "Tous mes champs sont dans la plaine.",
+              "en": "All my fields are on the plain.",
+              "zh": "我的田全都在平原上。"
+            }
+          ]
+        },
+        {
+          "form": "Psblenux",
+          "paradigm": "Psblenux, psblenux, psblnuxe, psblnuxan, psblnuxun.",
+          "fr": "Rendre plat.",
+          "en": "To make flat.",
+          "zh": "使平坦。",
+          "examples": [
+            {
+              "t": "Psblnuxun mo xeti ka ngangot sapax da",
+              "fr": "J'aplanirai plus tard les abords de la maison.",
+              "en": "I will later level the surroundings of the house.",
+              "zh": "我以後會把房子四周整平。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLEX",
+      "tag": "(R)",
+      "fr": "Produire - rapporter - restituer.",
+      "en": "To produce - to yield - to give back.",
+      "zh": "生產——帶來收益——歸還。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mblex",
+          "paradigm": "Mblex, blex, ( ;?; ) blexan, blexon.",
+          "fr": "qui rapporte - qui revient - qui produit.",
+          "en": "that yields - that comes back - that produces.",
+          "zh": "有收益的——回來的——有出產的。",
+          "examples": [
+            {
+              "t": "Manu ka blexon so musa matas ?",
+              "fr": "Quel avantage espères tu en allant étudier ?",
+              "en": "What advantage do you hope for by going to study?",
+              "zh": "你去讀書指望得到什麼好處？"
+            },
+            {
+              "t": "Paro bi blexan (= mblex balae) ka musa matas",
+              "fr": "C'est très utile d'aller étudier.",
+              "en": "It is very useful to go and study.",
+              "zh": "去讀書非常有用。"
+            }
+          ]
+        },
+        {
+          "form": "Blexan",
+          "fr": "Rapport - utilité - avantage.",
+          "en": "Yield - usefulness - advantage.",
+          "zh": "收益——用處——好處。",
+          "examples": [
+            {
+              "t": "Ongat bi blexan ka nsaan mo psapox xeaan",
+              "fr": "Celà n'a servi à rien que d'être allé me faire soigner chez lui.",
+              "en": "It was of no use at all that I went to get treated at his place.",
+              "zh": "我到他那裡去看病根本沒有用。"
+            }
+          ]
+        },
+        {
+          "form": "Blexon",
+          "fr": "L'utilité, l'avantage qu'on attend.",
+          "en": "The usefulness, the advantage one expects.",
+          "zh": "所期待的用處、好處。",
+          "examples": [
+            {
+              "t": "Ya manu bi blexon sapox ni?",
+              "fr": "Je me demande bien quelle peut être l'éfficacité de ce médicament!",
+              "en": "I really wonder what the efficacy of this medicine can be!",
+              "zh": "我真想知道這藥能有什麼效用！"
+            },
+            {
+              "t": "Pusu so bi mbaxeng! Stok ko dmayao sunan ni, manu bi ka blexon so ?",
+              "fr": "Quel fameux paresseux tu es! Je fais tout pour t'aider et quels résultats vas tu me rapporter ?",
+              "en": "What a famous lazybones you are! I do everything to help you, and what results are you going to bring me back?",
+              "zh": "你真是個大懶蟲！我盡力幫你，你又會給我帶來什麼成果？"
+            }
+          ]
+        },
+        {
+          "form": "Pblex",
+          "paradigm": "Pblex, pblex, pbl'xe (?), pblexan, pblexon.",
+          "fr": "Faire fructifier - faire restituer - vômir.",
+          "en": "To make fruitful - to make give back - to vomit.",
+          "zh": "使有收成——使歸還——嘔吐。",
+          "examples": [
+            {
+              "t": "Ini ko na pblexe ana bilaq pila ka kmpaxan kia",
+              "fr": "Ces champs là ne m'ont pas fait rapporter un sou!",
+              "en": "Those fields there did not bring me in a single penny!",
+              "zh": "那些田沒讓我賺到一毛錢！"
+            },
+            {
+              "t": "Nasi so d'xok pblex o, na mpamalu lqto su (so) da!",
+              "fr": "Si tu arrives à vômir, du coup ton estomac ira mieux.",
+              "en": "If you manage to vomit, your stomach will feel better right away.",
+              "zh": "你要是吐得出來，胃馬上就會舒服些。"
+            }
+          ]
+        },
+        {
+          "form": "Sblex",
+          "fr": "Vider son sac - dire ses raisons - s'expliquer.",
+          "en": "To get things off one's chest - to state one's reasons - to explain oneself.",
+          "zh": "一吐為快——說明理由——把話說清楚。",
+          "examples": [
+            {
+              "t": "Wada na smblex daxa koyox Talo ka Sabak da",
+              "fr": "Sabak est allée s'expliquer avec la femme de Talo.",
+              "en": "Sabak went to have it out with Talo's wife.",
+              "zh": "Sabak 去找 Talo 的妻子把話說清楚了。"
+            }
+          ]
+        },
+        {
+          "form": "Tblex",
+          "fr": "Qui est de retour.",
+          "en": "Who is back.",
+          "zh": "回來了的。",
+          "examples": [
+            {
+              "t": "Miyax ko tblex! Sxngiyan mo ka lawa",
+              "fr": "Me revoici de retour, j'avais oublié le panier.",
+              "en": "Here I am back again; I had forgotten the basket.",
+              "zh": "我又回來了，我忘了拿籃子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLEXOT",
+      "tag": "(R)",
+      "fr": "Ecureuil.",
+      "en": "Squirrel.",
+      "zh": "松鼠。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BLIKU",
+      "tag": "(R)",
+      "fr": "Pendentifs pour les oreilles - Boucles d'oreille. (nb. Les taroko ne semblent pas faire, et avoir fait, grand usage de bijoux, pendentifs, anneaux, bagues.. mais la plupart des anciens avaient un trou dans le lobe des oreilles où ils suspendaient le plus souvent un bout de bambou)",
+      "en": "Ear pendants - earrings. (n.b. The Taroko do not seem to make, or to have made, great use of jewels, pendants, rings, finger-rings.. but most of the elders had a hole in the earlobe in which they most often hung a piece of bamboo)",
+      "zh": "耳墜——耳環。（註：太魯閣人現在和過去似乎都不常使用首飾、墜子、環子、戒指……但多數老人耳垂上有孔，最常在孔中掛一小段竹管。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BLISAN",
+      "tag": "(R)",
+      "fr": "Sorgho.",
+      "en": "Sorghum.",
+      "zh": "高粱。",
+      "examples": [
+        {
+          "t": "Betak bi bonga ni maso ni blisan ka ooqon nami sida",
+          "fr": "Nos plats (notre nourriture) en ce temps là se réduisaient à des patates douces, du millet, du sorgho.",
+          "en": "Our dishes (our food) in those days came down to sweet potatoes, millet, and sorghum.",
+          "zh": "那時我們的飯食（食物）不外乎地瓜、小米和高粱。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BL'NGA",
+      "tag": "(R)",
+      "fr": "Echo.",
+      "en": "Echo.",
+      "zh": "回聲。",
+      "examples": [
+        {
+          "t": "Smiyuk nanak ka nqoaq so ka bl'nga",
+          "fr": "L'écho ne fait que répondre à ta voix (ce qui vient de ta bouche).",
+          "en": "The echo only answers your voice (what comes out of your mouth).",
+          "zh": "回聲只是回應你的聲音（從你口中發出的話）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "B\"LO",
+      "tag": "(R)",
+      "fr": "Porcelet - petit du cochon, du sanglier.",
+      "en": "Piglet - young of the pig, of the wild boar.",
+      "zh": "小豬——豬或山豬的幼崽。",
+      "examples": [
+        {
+          "t": "Pia b\"lo ka tnbugan so?",
+          "fr": "Combien de porcelets as tu élevés?",
+          "en": "How many piglets have you raised?",
+          "zh": "你養了幾隻小豬？"
+        },
+        {
+          "t": "Ga ko miin pito b\"lo ttabu mo sapax daya",
+          "fr": "Je suis en train de chercher sept porcelets pour les élever chez moi à la montagne.",
+          "en": "I am looking for seven piglets to raise at my home in the mountains.",
+          "zh": "我正在找七隻小豬，要帶回山上家裡養。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmb\"lo",
+          "fr": "Mettre bas la nichée de petits cochons.",
+          "en": "To give birth to a litter of piglets.",
+          "zh": "產下一窩小豬。",
+          "examples": [
+            {
+              "t": "Tnb\"lo sknuan ka koulae so ? ... Adi biyao mtb\"lo dole da",
+              "fr": "Quand est ce qu'elle a mis bas ta truie? ... Avant peu elle aura une autre nichée !",
+              "en": "When did your sow farrow? ... Before long she will have another litter!",
+              "zh": "你的母豬什麼時候生的？……不久牠又會再生一窩！"
+            }
+          ]
+        },
+        {
+          "form": "Tnb\"lo",
+          "fr": "1) Avoir mis bas des porcelets. 2) Propriétaire des petits cochons.",
+          "en": "1) To have farrowed piglets. 2) Owner of the piglets.",
+          "zh": "1）已產下小豬。2）小豬的主人。",
+          "examples": [
+            {
+              "t": "Yamo tama so o, ima ka tnb\"lo?",
+              "fr": "De toi et de ton père, qui est le propriétaire des petits cochons ?",
+              "en": "Of you and your father, who is the owner of the piglets?",
+              "zh": "你和你父親，誰是這些小豬的主人？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLOA",
+      "tag": "(R)",
+      "fr": "Tonnerre.",
+      "en": "Thunder.",
+      "zh": "雷。",
+      "examples": [
+        {
+          "t": "Xnang bloa ka nii",
+          "fr": "Ceci est le bruit du tonnerre.",
+          "en": "This is the sound of thunder.",
+          "zh": "這是雷聲。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbloa",
+          "fr": "Tonner - Il fait du tonnerre.",
+          "en": "To thunder - it is thundering.",
+          "zh": "打雷——正在打雷。",
+          "examples": [
+            {
+              "t": "Tai ka mbloa toxoi boxo do, knliwa bi da",
+              "fr": "Quand il tonne pendant le typhon, c'est très mauvais.",
+              "en": "When it thunders during a typhoon, it is very bad.",
+              "zh": "颱風時打雷，非常不妙。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "B\"LOQ",
+      "tag": "(R.LOQ ?)",
+      "fr": "Ampoule provoquée aux pieds, aux mains par frottement, ou à la suite de brûlures etc..",
+      "en": "Blister caused on the feet or hands by rubbing, or as a result of burns etc.",
+      "zh": "腳上、手上因摩擦或燒燙傷等而起的水泡。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mb\"loq",
+          "fr": "Devenir ampoule - se former une ampoule.",
+          "en": "To become a blister - for a blister to form.",
+          "zh": "起水泡——形成水泡。",
+          "examples": [
+            {
+              "t": "Adi ko mksa da, ga mb\"loq kana papaq mo da!",
+              "fr": "Je ne veux plus marcher, mes pieds sont pleins d'ampoules.",
+              "en": "I do not want to walk any more; my feet are covered in blisters.",
+              "zh": "我不想再走了，我的腳全是水泡！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLONGOI",
+      "tag": "(R)",
+      "fr": "Hotte. Tressée le plus souvent en bambou, parfois en rotin, de taille et de formes differentes, munie de deux bretelles si elle est portée par le hommes sur les épaules, ou d'une sangle pour être portée sur le front (par les femmes surtout).",
+      "en": "Carrying basket. Most often woven of bamboo, sometimes of rattan, of different sizes and shapes, fitted with two shoulder straps if it is carried by the men on the shoulders, or with a single strap for carrying on the forehead (mainly by the women).",
+      "zh": "背簍。多以竹編成，有時用藤，大小形狀不一；若由男人揹則配兩條肩帶負於肩上，或（多為婦女）以一條帶子頂在額頭上背負。",
+      "examples": [
+        {
+          "t": "Mapa blongoi",
+          "fr": "porter la hotte. (= aussi forme familière pour dire: Bossu).",
+          "en": "to carry the basket. (= also a familiar way of saying: hunchback).",
+          "zh": "背背簍。（＝也是「駝背的人」的俗稱說法。）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BLUBUL",
+      "tag": "(R)",
+      "fr": "Banane.",
+      "en": "Banana.",
+      "zh": "香蕉。",
+      "examples": [
+        {
+          "t": "Pusu blubul",
+          "fr": "1) Un pied de banane, un bananier; 2) Une plantation de bananes.",
+          "en": "1) A banana plant, a banana tree; 2) A banana plantation.",
+          "zh": "1）一株香蕉、一棵香蕉樹；2）香蕉園。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BLUXENG",
+      "tag": "(R)",
+      "fr": "Van. Panier circulaire et très plat finement tressé qui sert à séparer la balle du grain par un mouvement simultané, giratoire et de haut en bas.",
+      "en": "Winnowing tray. A circular, very flat, finely woven basket used to separate the chaff from the grain by a simultaneous movement, rotating and up-and-down.",
+      "zh": "簸箕。圓形、極扁平且編織細密的籃子，用同時旋轉並上下搖動的動作把穀粒和糠殼分開。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BL'XO",
+      "tag": "(R)",
+      "fr": "Cadenas - Clé - ce qui sert pour fermer.",
+      "en": "Padlock - key - what serves for locking.",
+      "zh": "掛鎖——鑰匙——用來鎖閉的東西。",
+      "examples": [
+        {
+          "t": "Xoya mo ksun? wada mo pdangun ka bl'xo sapax da!",
+          "fr": "Comment dois je faire? J'ai perdu la clé de la maison! (nb. MBL'XO désigne aussi: Personnage - chef.)",
+          "en": "What am I to do? I have lost the key to the house! (n.b. MBL'XO also means: personage - chief.)",
+          "zh": "我該怎麼辦？我把家裡的鑰匙弄丟了！（註：MBL'XO 也指：要人——首領。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbl'xo",
+          "fr": "Qui est fermé à clé.",
+          "en": "That is locked.",
+          "zh": "上了鎖的。",
+          "examples": [
+            {
+              "t": "Ya sl'xbun! ga mbl'xo ka sapax so da !",
+              "fr": "Ne te fais pas de souci! Ta maison est bien fermée.",
+              "en": "Don't worry! Your house is well locked.",
+              "zh": "別擔心！你的房子鎖得好好的。"
+            }
+          ]
+        },
+        {
+          "form": "Bxgan",
+          "fr": "(R. BL'XO ? contraction de Blxgan ?) = Qui se trouve en situation fermée - ce qu'on a, qui a été fermé.",
+          "en": "(root BL'XO? contraction of Blxgan?) = That is in a closed state - what one has closed, what has been closed.",
+          "zh": "（詞根 BL'XO？Blxgan 的縮略？）＝處於關閉狀態的——已被人關上的東西。",
+          "examples": [
+            {
+              "t": "Ga bxgan ka nduk sapax Temi",
+              "fr": "La porte de la maison de Temi est fermée.",
+              "en": "The door of Temi's house is closed.",
+              "zh": "Temi 家的門是關著的。"
+            },
+            {
+              "t": "Wada mo bxgan ka sapax",
+              "fr": "Je l'ai fermée, la maison.",
+              "en": "I closed it, the house.",
+              "zh": "我把房子關上了。"
+            }
+          ]
+        },
+        {
+          "form": "Pmbl'xo",
+          "fr": "Fermer à clé - faire que ce soit fermé.",
+          "en": "To lock - to see that it is locked.",
+          "zh": "上鎖——使之鎖上。",
+          "examples": [
+            {
+              "t": "Ima ka xniti pnbl'xo sapax ? Ga ino ka bl'xo da?",
+              "fr": "Qui est ce qui a fermé la maison en partant (en dernier?) ?",
+              "en": "Who was it that locked the house on leaving (last?)?",
+              "zh": "是誰（最後）離開時把房子鎖上的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BL'XOA",
+      "tag": "",
+      "fr": "Boisseau - instrument, récipient qui sert aux taroko pour mesurer les céréales; environ dix à douze kilos.",
+      "en": "Bushel - instrument, container used by the Taroko to measure grain; about ten to twelve kilos.",
+      "zh": "斗——太魯閣人用來量穀物的器具、容器；約十到十二公斤。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BMBANG",
+      "tag": "(var. BENGBANG)",
+      "fr": "Tôle - touque - mesure pour les céréales.",
+      "en": "Sheet metal - tin - a measure for grain.",
+      "zh": "鐵皮——鐵桶——量穀物的量器。",
+      "examples": [
+        {
+          "t": "Miyax ko mali t'lo bmbang boax",
+          "fr": "Je viens acheter trois touques (boisseaux) de riz. (vr. BENGBANG).",
+          "en": "I have come to buy three tins (bushels) of rice. (var. BENGBANG).",
+          "zh": "我來買三桶（斗）米。（或：BENGBANG）"
+        },
+        {
+          "t": "Plyuxun mo kana bmbang dnamux da, mxdo mslangan kana da",
+          "fr": "Je veux changer les tôles du toit, elles sont totalement rouillées.",
+          "en": "I want to change the metal sheets of the roof; they are totally rusted.",
+          "zh": "我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BNAQE",
+      "tag": "(R)",
+      "fr": "Sable - Poussière.",
+      "en": "Sand - dust.",
+      "zh": "沙——塵土。",
+      "examples": [
+        {
+          "t": "Mkbnaqe ka mulu xmaan trabus",
+          "fr": "Un terrain sablonneux c'est le bon pour planter des arachides.",
+          "en": "Sandy ground is the right kind for planting peanuts.",
+          "zh": "沙質地最適合種花生。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BNG'LUX",
+      "tag": "(R)",
+      "fr": "Jonc - Roseau.",
+      "en": "Rush - reed.",
+      "zh": "燈心草——蘆葦。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BNLNAXAN",
+      "tag": "(R. = ? - BLENAX ? - BULAX ?",
+      "fr": "",
+      "en": "",
+      "zh": "",
+      "examples": [
+        {
+          "t": "Ida wada wada ka bnlnaxan daxa sao ggaya bulax da",
+          "fr": "Cependant l'adaptation (la mise à jour ? - la rénovation ? la résignation ?) de ces gens (taroko) aux nouvelles coutumes (lois), est allée en s'amplifiant.",
+          "en": "However, the adaptation (the updating? - the renovation? the resignation?) of these people (Taroko) to the new customs (laws) has kept on growing.",
+          "zh": "然而這些人（太魯閣人）對新習俗（法令）的適應（更新？革新？順從？）愈來愈深。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BNUöL",
+      "tag": "(R)",
+      "fr": "Prune (fruit).",
+      "en": "Plum (fruit).",
+      "zh": "李子（水果）。",
+      "examples": [
+        {
+          "t": "Tbasi bi ka bnuöl so! soqe miloq (?) da!",
+          "fr": "Tes prunes sont très acides! Elles sont bien trop vertes.",
+          "en": "Your plums are very sour! They are far too green.",
+          "zh": "你的李子好酸！它們實在太生了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOAI",
+      "tag": "(R)",
+      "fr": "Donner - offrir - produire - porter du fruit.",
+      "en": "To give - to offer - to produce - to bear fruit.",
+      "zh": "給——贈送——出產——結果實。",
+      "examples": [
+        {
+          "t": "Ini boai pila ka tnpusu, kia ka yaxan mo sapax",
+          "fr": "Le responsable ne paye pas (ne donne pas d'argent), voilà pourquoi je suis revenu à la maison.",
+          "en": "The person in charge does not pay (does not give money); that is why I came back home.",
+          "zh": "負責人不付錢（不給錢），所以我就回家了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Moai",
+          "paradigm": "Moai, boai, byeqe, byeqan, byeqon.",
+          "fr": "Donner - faire cadeau - remettre - produire.",
+          "en": "To give - to make a gift - to hand over - to produce.",
+          "zh": "給——送禮——交付——出產。",
+          "examples": [
+            {
+              "t": "Byeqe ko patas kika saon mo mita ka tnd'xgal",
+              "fr": "Donne moi une lettre et alors j'irai voir le propriétaire du terrain.",
+              "en": "Give me a letter and then I will go see the owner of the land.",
+              "zh": "給我一封信，然後我就去見地主。"
+            },
+            {
+              "t": "Ma moai otoç!",
+              "fr": "ça, c'est de la chance (ça alors! l'esprit donne!)",
+              "en": "now that's luck (well now! the spirit gives!)",
+              "zh": "真是走運（哎呀！神靈賜予！）"
+            },
+            {
+              "t": "Moai blax .. Moai bukwi",
+              "fr": "se présenter de face .. de dos.",
+              "en": "to present oneself facing forward .. with one's back.",
+              "zh": "正面朝人……背對著人。"
+            },
+            {
+              "t": "Ini ko na byeqe",
+              "fr": "Il ne me l'a pas donné.",
+              "en": "He did not give it to me.",
+              "zh": "他沒有把它給我。"
+            }
+          ]
+        },
+        {
+          "form": "Mboai",
+          "fr": "Celui qui donne - celui qui produit (du fruit).",
+          "en": "The one who gives - the one that produces (fruit).",
+          "zh": "給予的人——出產（果實）者。",
+          "examples": [
+            {
+              "t": "Ima ka mboai ka ida ta byeqon?",
+              "fr": "Qui est ce qui donnera ce que de toute façon nous donnerons ? ( nous devons donner) ?",
+              "en": "Who is it that will give what in any case we shall give? (we must give)?",
+              "zh": "反正我們終究要給的東西，到底由誰來給？（我們必須給）？"
+            }
+          ]
+        },
+        {
+          "form": "Bnoai",
+          "fr": "Ce qui à été donné - fruit - don fait.",
+          "en": "What has been given - fruit - a gift made.",
+          "zh": "已給出的東西——果實——已完成的餽贈。",
+          "examples": [
+            {
+              "t": "Tai ka bnoai pusu blubul o, bilaq balae",
+              "fr": "Pour ce qui est du produit des bananiers, il est bien réduit (Les bananiers ont bien peu rendu).",
+              "en": "As for the yield of the banana trees, it is quite meager (the banana trees have yielded very little).",
+              "zh": "至於香蕉樹的收成，實在很少（香蕉樹結得很少）。"
+            },
+            {
+              "t": "Yako ka bnoai patas xeaan",
+              "fr": "C'est moi qui lui ai donné le livre.",
+              "en": "It is I who gave him the book.",
+              "zh": "書是我給他的。"
+            }
+          ]
+        },
+        {
+          "form": "Kmboai",
+          "fr": "Désirer donner.",
+          "en": "To desire to give.",
+          "zh": "想要給。",
+          "examples": [
+            {
+              "t": "Kmboai ko bi pila xeaan ka yako ole",
+              "fr": "J'aimerais bien lui donner de l'argent moi aussi.",
+              "en": "I too would very much like to give him money.",
+              "zh": "我也很想給他錢。"
+            }
+          ]
+        },
+        {
+          "form": "Mbboai",
+          "fr": "se donner mutuellement.",
+          "en": "to give to each other.",
+          "zh": "互相贈與。",
+          "examples": [
+            {
+              "t": "Mbboai balae ka ddxea",
+              "fr": "Ils sont très généreux l'un pour l'autre (ils se donnent mutuellement).",
+              "en": "They are very generous to each other (they give to each other).",
+              "zh": "他們彼此非常慷慨（互相贈與）。"
+            }
+          ]
+        },
+        {
+          "form": "Pboai",
+          "fr": "Faire donner - faire rendre.",
+          "en": "To make give - to make give back.",
+          "zh": "使人給——使人歸還。",
+          "examples": [
+            {
+              "t": "Xmuya ka pbyeqon so bukwi?",
+              "fr": "Pourquoi lui fais tu tourner le dos ?",
+              "en": "Why do you make him turn his back?",
+              "zh": "你為什麼讓他背過身去？"
+            }
+          ]
+        },
+        {
+          "form": "Byeqan",
+          "fr": "Objet du don fait - Temps du donner.",
+          "en": "Object of the gift made - time of giving.",
+          "zh": "所贈之物——給予的時間。",
+          "examples": [
+            {
+              "t": "Byeqan so ima ka nii ?",
+              "fr": "Qui t'a donné celà ?",
+              "en": "Who gave you that?",
+              "zh": "這是誰給你的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BOAX",
+      "tag": "(R)",
+      "fr": "Riz décortiqué - graine - grain.",
+      "en": "Husked rice - seed - grain.",
+      "zh": "去殼的米——種子——穀粒。",
+      "examples": [
+        {
+          "t": "Boax daolyaq",
+          "fr": "Pupille de l'oeil",
+          "en": "Pupil of the eye",
+          "zh": "眼睛的瞳孔"
+        },
+        {
+          "t": "Boax trabus",
+          "fr": "grain d'arachide.",
+          "en": "peanut kernel.",
+          "zh": "花生仁。"
+        },
+        {
+          "t": "Msngali kingal lubwi ni",
+          "fr": "",
+          "en": "",
+          "zh": ""
+        }
+      ],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

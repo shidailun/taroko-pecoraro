@@ -1,0 +1,541 @@
+{
+  "pages": [82, 85],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Knd'xyaq",
+        "fr": "Mesure de la distance.",
+        "en": "Measure of the distance.",
+        "zh": "距離的度量。",
+        "examples": [
+          {
+            "t": "Ya lnglong knd'xyaq! malu bi ksaan",
+            "fr": "Ne pense pas combien c'est loin! C'est une route aisée (à marcher).",
+            "en": "Do not think about how far it is! It is an easy road (to walk).",
+            "zh": "別去想有多遠！這是一條好走的路（走起來輕鬆）。"
+          }
+        ]
+      },
+      {
+        "form": "Kndxyaqan",
+        "fr": "Distance - éloignement.",
+        "en": "Distance - remoteness.",
+        "zh": "距離——遠近。",
+        "examples": [
+          {
+            "t": "Q'xnu kndxyaqan na ka \"lu uusa ta sapax so?",
+            "fr": "Quelle est la longueur (la distance) de la route pour aller chez toi?",
+            "en": "What is the length (the distance) of the road to go to your house?",
+            "zh": "到你家去的路有多長（多遠）？"
+          }
+        ]
+      },
+      {
+        "form": "Sd'xyaq",
+        "paradigm": "° Msd'xyaq, sd'xyaq, sdxyaqe, sdxyaqan, sdxyaqon.",
+        "fr": "Mettre une distance entre.. - S'éloigner.",
+        "en": "To put a distance between.. - To move away.",
+        "zh": "使……之間有距離——遠離。",
+        "examples": [
+          {
+            "t": "Sdxyaqe tityex! Ssakus kana ka lukus so",
+            "fr": "Eloigne toi un peu! Tous tes habits sentent le camphre.",
+            "en": "Move away a little! All your clothes smell of camphor.",
+            "zh": "你稍微離遠一點！你的衣服全是樟腦味。"
+          }
+        ]
+      },
+      {
+        "form": "Msd'xyaq",
+        "fr": "Qui met une distance entre.. - Qui s'éloigne.",
+        "en": "One who puts a distance between.. - one who moves away.",
+        "zh": "使……之間有距離者——正在遠離者。",
+        "examples": [
+          {
+            "t": "Msd'xyaq ko da! Soqe sqeulit kana ka xei so",
+            "fr": "Je m'éloigne un peu! Tu sens trop fort le rat !",
+            "en": "I am moving away a little! You smell too strongly of rat!",
+            "zh": "我離遠一點！你身上的老鼠味太重了！"
+          }
+        ]
+      },
+      {
+        "form": "Psd'xyaq",
+        "fr": "Faire que ce soit éloigné - éloigner.",
+        "en": "To cause it to be far away - to move (something) away.",
+        "zh": "使其遠離——移開。",
+        "examples": [
+          {
+            "t": "Psdxyaqon mo ka tlangan kika mpnyeqon so uda da",
+            "fr": "Je veux éloigner la chaise, ainsi tu auras un passage.",
+            "en": "I want to move the chair away, so you will have a way through.",
+            "zh": "我要把椅子挪開，這樣你就有路可走了。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "DYAX",
+      "tag": "(R)",
+      "fr": "(Plus probablement: DIYAX) = Jour - espace de temps. Voici quelques divisions du jour: 1) Qnqogo lodoç = 02 H. (chant du coq), 2) Tsmanan = 03 H. 3) Plpao = 04 H. 4) S'mkao = 05 H. 6) Ml'bu = 06 H. (matin). 7) Sdangan xedao = matinée. 8) Ska xedao = Midi (le milieu du soleil). 9) Mlibak xedao = Après midi. 10) Mpliyax xedao = Soirée. 11) Gbiyan = Soir. 12) Lmuxan xedao = Coucher du soleil. Ka'man = Nuit. Labé = Espace de la nuit. 15) Ska labe = Minuit. Et il y a d'autres termes pour spécifier le moment du jour; par ex. Xedao pada = Premières lueurs. (= soleil du chamoix).",
+      "en": "(More probably: DIYAX) = Day - span of time. Here are some divisions of the day: 1) Qnqogo lodoç = 2 a.m. (cockcrow), 2) Tsmanan = 3 a.m. 3) Plpao = 4 a.m. 4) S'mkao = 5 a.m. 6) Ml'bu = 6 a.m. (morning). 7) Sdangan xedao = morning. 8) Ska xedao = noon (the middle of the sun). 9) Mlibak xedao = afternoon. 10) Mpliyax xedao = early evening. 11) Gbiyan = evening. 12) Lmuxan xedao = sunset. Ka'man = night. Labé = the span of the night. 15) Ska labe = midnight. And there are other terms to specify the moment of the day; e.g. Xedao pada = first light (= sun of the chamois).",
+      "zh": "（更可能作：DIYAX）＝日——一段時間。以下是一天的若干時段：1) Qnqogo lodoç＝凌晨二時（雞鳴）；2) Tsmanan＝凌晨三時；3) Plpao＝凌晨四時；4) S'mkao＝凌晨五時；6) Ml'bu＝清晨六時（早晨）；7) Sdangan xedao＝上午；8) Ska xedao＝正午（太陽的正中）；9) Mlibak xedao＝下午；10) Mpliyax xedao＝傍晚；11) Gbiyan＝晚上；12) Lmuxan xedao＝日落；Ka'man＝夜；Labé＝夜間時段；15) Ska labe＝午夜。另有其他詞語可指明一天中的時刻，例如 Xedao pada＝第一道曙光（＝岩羚羊的太陽）。",
+      "examples": [
+        {
+          "t": "Ongat diyax mo da",
+          "fr": "Je n'ai pas le temps.",
+          "en": "I have no time.",
+          "zh": "我沒有時間了。"
+        },
+        {
+          "t": "Ini k'la diyax ka xea",
+          "fr": "Il ne trouve pas le temps long, lui (vl. Il n'est pas pressé, il ne voit pas le temps passer.).",
+          "en": "He does not find the time long (var. He is not in a hurry, he does not see the time pass).",
+          "zh": "他不覺得時間漫長（或：他不著急，不覺得時間流逝）。"
+        },
+        {
+          "t": "Kingal iyax diyax",
+          "fr": "L'espace d'un jour.",
+          "en": "The space of one day.",
+          "zh": "一天的時間。"
+        },
+        {
+          "t": "Mnsa ko mkt'lo",
+          "fr": "J'y suis allé pour trois jours.",
+          "en": "I went there for three days.",
+          "zh": "我去了那裡三天。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kdyax",
+          "fr": "(kdiyax) = Chaque jour - toujours - sans arrêt.",
+          "en": "(kdiyax) = Every day - always - without stopping.",
+          "zh": "（kdiyax）＝每天——總是——不停地。",
+          "examples": [
+            {
+              "t": "Ini so bi stimu kdiyax ka iso",
+              "fr": "Toi tu ne sales jamais (toujours tu ne sales pas).",
+              "en": "You never add salt (you always do not salt).",
+              "zh": "你從來不加鹽（你總是不放鹽）。"
+            }
+          ]
+        },
+        {
+          "form": "Kddyax",
+          "fr": "(Intensité plus grande que: Kdyax). = Absolument tous les jours.",
+          "en": "(Greater intensity than: Kdyax.) = Absolutely every day.",
+          "zh": "（語氣比 Kdyax 更強。）＝每一天都、天天如此。",
+          "examples": [
+            {
+              "t": "Ma so msaang kddyax!",
+              "fr": "Pourquoi disputes tu toujours !",
+              "en": "Why are you always quarreling!",
+              "zh": "你為什麼老是在吵架！"
+            },
+            {
+              "t": "Dyax dyax",
+              "fr": "Tous les jours = Jour après jour.",
+              "en": "Every day = day after day.",
+              "zh": "每天＝日復一日。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "EIDANG",
+      "tag": "( = R. ? )",
+      "crossRef": "PEIDANG",
+      "fr": "Vr. PEIDANG.",
+      "en": "See PEIDANG.",
+      "zh": "參見 PEIDANG。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "EQ",
+      "tag": "(R)",
+      "fr": "Oui ! (Surtout en réponse à un ordre, à une recommandation). Quand il s'agit du consentement à une affirmation, OUI se dit : 1) Kia! = C'est celà; 2) Balae ! (balae bi - balae bi kia) = c'est vrai (c'est bien vrai - cela est bien vrai !).",
+      "en": "Yes! (Especially in answer to an order or a recommendation). When it is a matter of assenting to a statement, YES is said: 1) Kia! = That's it; 2) Balae! (balae bi - balae bi kia) = it is true (it is quite true - that is quite true!).",
+      "zh": "是！（尤用於回應命令或囑咐）。若是對一項陳述表示同意，『是』則說：1) Kia！＝正是如此；2) Balae！（balae bi——balae bi kia）＝是真的（確實是真的——那確實是真的！）。",
+      "examples": [
+        {
+          "t": "Dyagi ko matas kingal patas nii xo ! ... Eq !",
+          "fr": "Veux tu m'aider à écrire cette lettre ? ... Oui !",
+          "en": "Will you help me write this letter? ... Yes!",
+          "zh": "你要幫我寫這封信嗎？……是！"
+        },
+        {
+          "t": "Usa sapax n'xali da! ... Eq !",
+          "fr": "Va vite à la maison! ... Oui !",
+          "en": "Go home quickly! ... Yes!",
+          "zh": "快回家去！……是！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'eq",
+          "fr": "Dire oui - consentir - être celui qui dit oui.",
+          "en": "To say yes - to consent - to be the one who says yes.",
+          "zh": "說是——同意——是那個說『是』的人。",
+          "examples": [
+            {
+              "t": "Ana manu ida m'eq ka xea",
+              "fr": "Pour tout, lui c'est toujours Oui!",
+              "en": "To everything, with him it is always Yes!",
+              "zh": "無論什麼事，他總是說『是』！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ESA",
+      "tag": "( = R. ? )",
+      "crossRef": "PESA",
+      "fr": "Vr. PESA.",
+      "en": "See PESA.",
+      "zh": "參見 PESA。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "EYAO",
+      "tag": "( = R. ? )",
+      "crossRef": "KAYAO",
+      "fr": "Vr. KAYAO.",
+      "en": "See KAYAO.",
+      "zh": "參見 KAYAO。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G",
+      "tag": "",
+      "fr": "Consonne dont la présence dans la langue semble remplir des fonctions diverses, d'apparence complexe et capricieuse. 1) Elle se rencontre avec sa valeur phonologique: § Aga = flèche; Gaga = voilà - là; Tmaga = attendre; Giso = voici. 2) Dans un phénomène de neutralisation ne dépendant pas d'un choix : § Sminao = Laver, et: Snagan = Objets lavés; Lmngao = parler, et : Lngagan = Ce qui a été dit; Knbalao = Mesure de la hauteur, et : Knblagan = La longueur, la hauteur; S'mpu = Compter, et: Spugun = Ce que je dois compter; Lisao = Jeune homme, et: Lsagan = au Jeune homme; Polo = faire imiter, et: Pl'gun = Qu'on fera imiter. Dans ces exemples, le O et le U en finale, se réalisent G losqu'interviennent les suffixes; Mais ce n'est pas le cas pour tous les termes finissant par O ou par U ! § Snao = Homme, et: Snawan = à l'homme; Sopu = ensemble, et: Spuan = mélange; Sado = Salaire, et : Sdoan = Travail fait par un salarié; Sta'to = grimper une côte, et: Sttuun = Moment ou lieu où je dois monter. 3) Dans un phénomène de neutralisation facultatif; il s'agit toujours des voyelles O et U qui peuvent se réaliser: G (au gré du locuteur semble t il !!). § Bwixol, et: Bgixol = Vent; Tbuan, et: Tbgan = (les animaux) qu'on élève; Muai, et: Mgai = donner. 4) Dans une intervention à la manière d'un Infixe, et qui semble bien modifier le sens du mot dérivé. § Mkala = Monter - celui qui monte, et: Mgkala = qui dépasse; Mxei = Qui (est en train de) produire des fruits, et: Mgxei = Qui (de fait) porte du fruit. 5) Produisant le préfixe: GN (= le prix de) où le N de GN pourrait n'être que l'indicatif d'un fait accompli, du passé.",
+      "en": "A consonant whose presence in the language seems to fulfil various functions, complex and capricious in appearance. 1) It occurs with its phonological value: § Aga = arrow; Gaga = there it is - there; Tmaga = to wait; Giso = here it is. 2) In a phenomenon of neutralization that does not depend on a choice: § Sminao = to wash, and: Snagan = washed objects; Lmngao = to speak, and: Lngagan = what has been said; Knbalao = measure of height, and: Knblagan = length, height; S'mpu = to count, and: Spugun = what I must count; Lisao = young man, and: Lsagan = to the young man; Polo = to make imitate, and: Pl'gun = what will be made to be imitated. In these examples, final O and U are realized as G when the suffixes intervene; but this is not the case for all terms ending in O or in U! § Snao = man, and: Snawan = to the man; Sopu = together, and: Spuan = mixture; Sado = wages, and: Sdoan = work done by a wage earner; Sta'to = to climb a slope, and: Sttuun = the moment or place where I must climb. 3) In an optional neutralization phenomenon; it always involves the vowels O and U, which may be realized as G (at the speaker's whim, it would seem!!). § Bwixol, and: Bgixol = wind; Tbuan, and: Tbgan = (the animals) that one raises; Muai, and: Mgai = to give. 4) In an intervention in the manner of an infix, which does seem to modify the meaning of the derived word. § Mkala = to climb - one who climbs, and: Mgkala = one who surpasses; Mxei = which is (in the process of) producing fruit, and: Mgxei = which (in fact) bears fruit. 5) Producing the prefix GN (= the price of), where the N of GN may be nothing more than the marker of an accomplished fact, of the past.",
+      "zh": "此輔音在語言中的出現似乎具有多種功能，外觀複雜而多變。1) 它以其音位價值出現：§ Aga＝箭；Gaga＝在那裡——那裡；Tmaga＝等待；Giso＝在這裡。2) 出現於一種不取決於選擇的中和現象：§ Sminao＝洗，而 Snagan＝洗過的東西；Lmngao＝說話，而 Lngagan＝已說過的話；Knbalao＝高度的度量，而 Knblagan＝長度、高度；S'mpu＝數，而 Spugun＝我該數的東西；Lisao＝年輕人，而 Lsagan＝給年輕人；Polo＝使模仿，而 Pl'gun＝將被模仿的。在這些例子中，詞尾的 O 和 U 在後綴加入時實現為 G；但並非所有以 O 或 U 結尾的詞都如此！§ Snao＝人（男人），而 Snawan＝給那人；Sopu＝一起，而 Spuan＝混合；Sado＝工資，而 Sdoan＝受薪者做的工作；Sta'to＝爬坡，而 Sttuun＝我該上去的時刻或地點。3) 出現於一種任意的中和現象；總是涉及元音 O 和 U，它們可以實現為 G（似乎全憑說話者的意願！！）。§ Bwixol，或 Bgixol＝風；Tbuan，或 Tbgan＝飼養的（動物）；Muai，或 Mgai＝給。4) 以類似中綴的方式介入，並似乎確實改變衍生詞的意義。§ Mkala＝上去——上去的人，而 Mgkala＝超過的；Mxei＝（正在）結果實的，而 Mgxei＝（實際）結有果實的。5) 產生前綴 GN（＝……的價格），其中 GN 的 N 可能只是表示已完成之事、過去之事的標記。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GA",
+      "tag": "",
+      "fr": "Paticule: 1) Démonstrative = Là - celui là - celle là. (Dans ce sens GA est toujours postposé au terme qu'il affecte). 2) = Se trouver. (Parfois 1) et 2) sont associés). 3) = En train de. 4) Interrogatif (= s'agit il ?).",
+      "en": "Particle: 1) Demonstrative = there - that one (m.) - that one (f.). (In this sense GA is always placed after the term it affects). 2) = To be located. (Sometimes 1) and 2) are associated). 3) = In the process of. 4) Interrogative (= is it a matter of?).",
+      "zh": "助詞：1) 指示＝那裡——那一個（男）——那一個（女）。（此義中 GA 總是後置於其所修飾的詞）。2)＝位於、在。（有時 1) 與 2) 兩義並用）。3)＝正在。4) 疑問（＝是……嗎？）。",
+      "examples": [
+        {
+          "t": "Sapax ga ka malu",
+          "fr": "C'est cette maison là qui est bien.",
+          "en": "It is that house there that is good.",
+          "zh": "好的是那邊那棟房子。"
+        },
+        {
+          "t": "Ga ino ka sapax so ?",
+          "fr": "Où est ta maison ?",
+          "en": "Where is your house?",
+          "zh": "你的家在哪裡？"
+        },
+        {
+          "t": "Ga so kmpax ino ?",
+          "fr": "Où travailles tu ?",
+          "en": "Where do you work?",
+          "zh": "你在哪裡工作？"
+        },
+        {
+          "t": "Ga Silin ka Lixang",
+          "fr": "Lirhan est à Silin.",
+          "en": "Lirhan is at Silin.",
+          "zh": "Lirhan 在 Silin。"
+        },
+        {
+          "t": "Ga sapax ka pila mo",
+          "fr": "Mon argent est à la maison.",
+          "en": "My money is at home.",
+          "zh": "我的錢在家裡。"
+        },
+        {
+          "t": "Gaga (Ga ga) ka malu",
+          "fr": "Il se trouve là celui qui est bon (= voilà le bon).",
+          "en": "There is the one that is good (= there's the good one).",
+          "zh": "好的那個就在那裡（＝那就是好的）。"
+        },
+        {
+          "t": "Ga matas ka laqe",
+          "fr": "L'enfant est en train d'écrire (vl. d'étudier).",
+          "en": "The child is writing (var. studying).",
+          "zh": "孩子正在寫字（或：讀書）。"
+        },
+        {
+          "t": "Ga mqan ka tama",
+          "fr": "Papa est en train de manger.",
+          "en": "Papa is eating.",
+          "zh": "爸爸正在吃飯。"
+        },
+        {
+          "t": "Ga so mita laqe ga?",
+          "fr": "Tu es en train de voir cet enfant là ?",
+          "en": "Are you looking at that child there?",
+          "zh": "你正在看那邊那個孩子嗎？"
+        },
+        {
+          "t": "Yako ga ?",
+          "fr": "C'est à moi ? (vl. Il s'agit de moi ?), (Vous demandez à moi ?).",
+          "en": "Is it mine? (var. Is it about me?), (Are you asking me?).",
+          "zh": "是我的嗎？（或：是在說我嗎？）（您是在問我嗎？）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GABAL",
+      "tag": "(R)",
+      "fr": "Arracher - déraciner.",
+      "en": "To pull up - to uproot.",
+      "zh": "拔出——連根拔起。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mabal",
+          "paradigm": "° Mabal, gabal, gbali, gbalan, gbalun.",
+          "fr": "Arracher - déraciner.",
+          "en": "To pull up - to uproot.",
+          "zh": "拔出——連根拔起。",
+          "examples": [
+            {
+              "t": "Mxa nami mabal trabus",
+              "fr": "Nous allons arracher les arachides.",
+              "en": "We are going to pull up the peanuts.",
+              "zh": "我們要去拔花生。"
+            },
+            {
+              "t": "Mabal gupun",
+              "fr": "arracher les dents.",
+              "en": "to pull teeth.",
+              "zh": "拔牙。"
+            },
+            {
+              "t": "Mabal spleq",
+              "fr": "Arracher l'herbe. (Mais on dit: § Qmali bonga = creuser les patates douces).",
+              "en": "To pull up grass. (But one says: § Qmali bonga = to dig up sweet potatoes).",
+              "zh": "拔草。（但人們說：§ Qmali bonga＝挖地瓜。）"
+            }
+          ]
+        },
+        {
+          "form": "Mkgabal",
+          "fr": "Qui se déracine - peu fixe - facile à arracher.",
+          "en": "That which comes uprooted - not firmly fixed - easy to pull up.",
+          "zh": "容易連根鬆脫的——不牢固的——容易拔起的。",
+          "examples": [
+            {
+              "t": "Mkgabal ka pusu tlaxe nii, adi bi mptgamil",
+              "fr": "Ce pamplemoussier est mal planté (se déracine), il ne pourra certainement pas prendre racine.",
+              "en": "This pomelo tree is badly planted (it comes uprooted); it certainly will not be able to take root.",
+              "zh": "這棵柚子樹種得不穩（會連根鬆脫），肯定無法生根。"
+            }
+          ]
+        },
+        {
+          "form": "Tkgabal",
+          "fr": "Qui est arraché.",
+          "en": "That which is pulled up.",
+          "zh": "已被拔起的。",
+          "examples": []
+        },
+        {
+          "form": "Mgabal",
+          "fr": "Qui arrache.",
+          "en": "One who pulls up.",
+          "zh": "拔取者。",
+          "examples": [
+            {
+              "t": "Kmpax so manu ka iso",
+              "fr": "Quel est le travail que tu fais?",
+              "en": "What is the work that you do?",
+              "zh": "你做的是什麼工作？"
+            },
+            {
+              "t": "Mgabal ko gupun ka yako, kika (kia ka) kmpaxan mo",
+              "fr": "Je suis arracheur de dents, moi, voilà mon travail.",
+              "en": "I am a puller of teeth; that is my work.",
+              "zh": "我是拔牙的，那就是我的工作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GABUL",
+      "tag": "(R)",
+      "fr": "Ramasser en enveloppant.",
+      "en": "To gather up by wrapping.",
+      "zh": "包裹著收集。",
+      "examples": [
+        {
+          "t": "Gmabul nami maso apa daxa ni miyax ka dsnao dmayao pnkala xelang daxa",
+          "fr": "Nous recueillons le millet qu'ils portent et les hommes viennent aider à mettre (les charges) sur les épaules des gens.",
+          "en": "We gather up the millet that they carry, and the men come to help put (the loads) on people's shoulders.",
+          "zh": "我們把他們背的小米收攏，男人們過來幫忙把（擔子）放到人們的肩上。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gmabul",
+          "fr": "Ramasser - recueillir. (nb. Pour porter la récolte de millet, et en général ce qui est léger et volumineux, les taroko se servent d'une de leur toiles de chanvre de dimension plus ou moins carré, qui enveloppe la charge et dont ils nouent ensemble les quatre coins.",
+          "en": "To gather - to collect. (n.b. To carry the millet harvest, and in general whatever is light and bulky, the Taroko use one of their hemp cloths, more or less square in size, which wraps the load and whose four corners they knot together.)",
+          "zh": "收攏——收集。（註：為了搬運小米收成，以及一般又輕又佔體積的東西，太魯閣人會用他們的一塊大致方形的麻布，把貨物包起來，再把四個角綁在一起。）",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "GAGA",
+      "tag": "",
+      "fr": "Voilà - être en train de - se trouver (Le même sens que GA mais avec plus d'insistance; peut se décomposer --sans doute !?-- en deux éléments: 1) GA = se trouver - être, + 2) GA = là - à cet endroit qui est visible.",
+      "en": "There it is - to be in the process of - to be located (The same meaning as GA but with more insistence; it can be broken down --no doubt!?-- into two elements: 1) GA = to be located - to be, + 2) GA = there - at that place which is visible.",
+      "zh": "在那裡——正在——位於（意義與 GA 相同，但語氣更強；或許！？可以分解為兩個成分：1) GA＝位於——在，＋2) GA＝那裡——在那個看得見的地方。",
+      "examples": [
+        {
+          "t": "GA ga ka malu (Gaga ka malu)",
+          "fr": "Il se trouve là le bon.",
+          "en": "There is the good one.",
+          "zh": "好的那個就在那裡。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GAGWI",
+      "tag": "(R)",
+      "fr": "Voler (dérober) - Frauder. (var. G'GUI).",
+      "en": "To steal (to rob) - to cheat. (var. G'GUI).",
+      "zh": "偷（竊取）——詐欺。（變體 G'GUI）。",
+      "examples": [
+        {
+          "t": "Suxal o, ini gagwi ka dtroko",
+          "fr": "Autrefois, les taroko ne volaient pas.",
+          "en": "In former times, the Taroko did not steal.",
+          "zh": "從前，太魯閣人不偷竊。"
+        },
+        {
+          "t": "Ana so mxoya o, ya bi g'gui",
+          "fr": "Dans quelque situation que tu te trouves, surtout ne vole pas!",
+          "en": "Whatever situation you find yourself in, above all do not steal!",
+          "zh": "無論你處於什麼境地，千萬不要偷！"
+        },
+        {
+          "t": "Ini ta gagwi ka ita",
+          "fr": "Nous, nous ne volons pas!",
+          "en": "As for us, we do not steal!",
+          "zh": "我們啊，我們不偷竊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Magwi",
+          "paradigm": "° Magwi, gagwi, g'gui, gguyan, gguyun.",
+          "fr": "(M'gui) = d° forme verbale.",
+          "en": "(M'gui) = ditto, verbal form of the preceding.",
+          "zh": "（M'gui）＝同上之動詞形。",
+          "examples": [
+            {
+              "t": "Mk'la bi magwi oqon ka niyao nii !",
+              "fr": "Ce chat est très adroit pour voler la nourriture.",
+              "en": "This cat is very clever at stealing food.",
+              "zh": "這隻貓很會偷食物。"
+            },
+            {
+              "t": "Mnagwi koyox ka snao nii",
+              "fr": "Cet homme a commis un adultère (a volé une femme).",
+              "en": "This man has committed adultery (has stolen a woman).",
+              "zh": "這個男人犯了姦淫（偷了人家的女人）。"
+            },
+            {
+              "t": "Ma so xmut magwi (m'gui) mita?",
+              "fr": "Pourquoi te permets tu d'espionner? (dérober le regarder).",
+              "en": "Why do you allow yourself to spy? (to steal a look).",
+              "zh": "你為什麼隨便偷看？（偷取目光）。"
+            },
+            {
+              "t": "Ga miin guyun (= gguyun) ka laqe so",
+              "fr": "Ton fils est en quête de quelque chose à voler.",
+              "en": "Your son is on the lookout for something to steal.",
+              "zh": "你兒子正在找東西下手偷。"
+            }
+          ]
+        },
+        {
+          "form": "Gnagwi",
+          "fr": "Etre dans l'état de voler = être sur le fait de tricher, voler.",
+          "en": "To be in the state of stealing = to be in the act of cheating, stealing.",
+          "zh": "處於偷竊的狀態＝正在作弊、偷竊。",
+          "examples": [
+            {
+              "t": "Gmagwi bi mita ddaon sadyaq ka ayong daxa nii",
+              "fr": "Le serviteur des autres que voilà a l'habitude d'espionner ce que les autres font.",
+              "en": "That servant of others there has the habit of spying on what the others do.",
+              "zh": "那個給人幫傭的老愛窺探別人做的事。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmagwi",
+          "fr": "Qui désire voler - furtivement - à la sauvette.",
+          "en": "One who wants to steal - furtively - on the sly.",
+          "zh": "想偷的——偷偷地——趁人不備。",
+          "examples": [
+            {
+              "t": "Mkmagwi ko bi mbaxang",
+              "fr": "Je voudrais bien (pouvoir) écouter en cachette!",
+              "en": "I would really like (to be able) to listen in secret!",
+              "zh": "我真想（能）偷偷地聽！"
+            }
+          ]
+        },
+        {
+          "form": "Gguyan",
+          "fr": "Ce qui a été volé - lieu, temps du vol.",
+          "en": "What has been stolen - the place or time of the theft.",
+          "zh": "被偷的東西——偷竊的地點、時間。",
+          "examples": [
+            {
+              "t": "Meidang ku da (= ko da)! Ya bi manu ka gguyan so dole ?",
+              "fr": "Je n'y comprends rien! Qu'est ce que tu voles encore?",
+              "en": "I understand nothing of it! What are you stealing now?",
+              "zh": "我完全搞不懂！你又在偷什麼？"
+            },
+            {
+              "t": "Byeqon miso ka ngguyan mo xo? (vl. ka nagwi mo)",
+              "fr": "Je te remets ce que j'ai volé, veux tu ?",
+              "en": "Shall I hand back to you what I have stolen, will you take it?",
+              "zh": "我把偷的東西還你，好嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mpgagwi",
+          "fr": "(vl. mpg'gui) = Voleur - celui qui volera.",
+          "en": "(var. mpg'gui) = Thief - one who will steal.",
+          "zh": "（或：mpg'gui）＝小偷——將要偷竊的人。",
+          "examples": [
+            {
+              "t": "Mpg'gui ko xo ka sdui namo poting ni sbut miynx knan?",
+              "fr": "Suis je un voleur, que vous soyez armés de couteaux et de bâtons pour venir vers moi ?",
+              "en": "Am I a thief, that you should come to me armed with knives and sticks?",
+              "zh": "難道我是強盜嗎，你們竟帶著刀棒到我這裡來？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

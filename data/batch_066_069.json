@@ -1,0 +1,797 @@
+{
+  "pages": [66, 69],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "DAWIN",
+      "tag": "(R)",
+      "fr": "Ami. (nb. Dans certains groupes de Taroko, ce terme est réservé à l'ami de l'autre sexe, celui que d'autres nomment: DANGI. De toute façon c'est un terme d'affection. Le plus souvent, dans certains groupes il est réservé comme terme vocatif:)",
+      "en": "Friend. (n.b. In certain Taroko groups, this term is reserved for a friend of the opposite sex, the one whom others call DANGI. In any case it is a term of affection. Most often, in certain groups it is reserved as a vocative term:)",
+      "zh": "朋友。（註：在某些太魯閣族群中，此詞專指異性朋友，即其他人所稱的 DANGI。無論如何，這是一個表示親暱的詞。在某些族群中，它最常保留作稱呼語使用：）",
+      "examples": [
+        {
+          "t": "Mxa so ino, win(dawin)",
+          "fr": "Où vas tu, l'ami ?",
+          "en": "Where are you going, friend?",
+          "zh": "朋友，你要去哪裡？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msdawin",
+          "fr": "Se tenir serrés (par le bras, par le cou) - se donner des marques d'amitié.",
+          "en": "To hold each other close (by the arm, by the neck) - to show one another signs of friendship.",
+          "zh": "（挽著手臂、摟著脖子）緊靠在一起——互相表示友好。",
+          "examples": [
+            {
+              "t": "Msdawin kddiyax muda alang ka Wilang ni Labai",
+              "fr": "Labai et Ouilang se donnent toujours le bras en passant par le village.",
+              "en": "Labai and Wilang always walk arm in arm when passing through the village.",
+              "zh": "Labai 和 Wilang 經過部落時總是手挽著手。"
+            }
+          ]
+        },
+        {
+          "form": "Mtdawin",
+          "fr": "Enlacés - qui se tiennent familièrement.",
+          "en": "Entwined - who hold on to each other familiarly.",
+          "zh": "相互摟抱——親暱地依偎在一起的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "DAXA",
+      "tag": "(R)",
+      "fr": "Deux.",
+      "en": "Two.",
+      "zh": "二。",
+      "examples": [
+        {
+          "t": "Maxal daxa",
+          "fr": "Douze",
+          "en": "Twelve",
+          "zh": "十二"
+        },
+        {
+          "t": "Daxa kbukwi",
+          "fr": "Deux cent",
+          "en": "Two hundred",
+          "zh": "兩百"
+        },
+        {
+          "t": "Pousal",
+          "fr": "vingt.",
+          "en": "twenty.",
+          "zh": "二十。"
+        },
+        {
+          "t": "Daxa balae ka lodoç daxa",
+          "fr": "Ils n'ont que deux poules.",
+          "en": "They have only two chickens.",
+          "zh": "他們只有兩隻雞。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdaxa",
+          "fr": "Deuxième fois.",
+          "en": "Second time.",
+          "zh": "第二次。",
+          "examples": [
+            {
+              "t": "Mdaxa ko sayang da",
+              "fr": "C'est ma deuxième fois maintenant.",
+              "en": "This is now my second time.",
+              "zh": "這是我現在第二次了。"
+            }
+          ]
+        },
+        {
+          "form": "Mndaxa",
+          "fr": "Deux fois ( dans le passé).",
+          "en": "Twice (in the past).",
+          "zh": "（過去）兩次。",
+          "examples": [
+            {
+              "t": "Mndaxa ko papa aso skawas",
+              "fr": "L'an passé j'ai pris deux fois le bateau.",
+              "en": "Last year I took the boat twice.",
+              "zh": "去年我搭了兩次船。"
+            }
+          ]
+        },
+        {
+          "form": "Pndaxa",
+          "fr": "Deux à la fois - deux à chacun.",
+          "en": "Two at a time - two to each.",
+          "zh": "一次兩個——每人兩個。",
+          "examples": [
+            {
+              "t": "Maso so bnuöl o, byeqe bi pndaxa nanak",
+              "fr": "Quand tu partageras ( en partageant) les prunes, tu veilleras à en donner deux à chacun.( n'en donner que deux à la fois.",
+              "en": "When you share out the plums, take care to give two to each. (To give only two at a time.)",
+              "zh": "你分李子的時候，要注意每人給兩個。（一次只給兩個。）"
+            }
+          ]
+        },
+        {
+          "form": "Mkdaxa",
+          "fr": "Pendant deux jours.",
+          "en": "For two days.",
+          "zh": "為期兩天。",
+          "examples": [
+            {
+              "t": "Mdaxa ko sayang ka musa ko mkdaxa",
+              "fr": "Voilà la deuxième fois (c'est la deuxième fois maintenant) que je vais pour deux jours.",
+              "en": "This is the second time (it is now the second time) that I am going for two days.",
+              "zh": "這是我第二次（現在是第二次）去兩天了。"
+            }
+          ]
+        },
+        {
+          "form": "Mtdaxa",
+          "fr": "Etre réellement deux - partagé en deux.- se diviser en 2.",
+          "en": "To really be two - divided in two - to divide into 2.",
+          "zh": "實為兩個——被分成兩半——分為二。",
+          "examples": []
+        },
+        {
+          "form": "Tmdaxa",
+          "paradigm": "Tmdaxa, tdaxa, tdxai, tdxaan, tdxaon.",
+          "fr": "Partager en deux.",
+          "en": "To divide in two.",
+          "zh": "分成兩半。",
+          "examples": [
+            {
+              "t": "Ita binao! Tdxaon mo ka tlaxe so",
+              "fr": "Passe voir un peu! Je vais partager ton pamplemousse en deux.",
+              "en": "Come over here a moment! I am going to split your pomelo in two.",
+              "zh": "過來一下！我要把你的柚子切成兩半。"
+            }
+          ]
+        },
+        {
+          "form": "Msdaxa",
+          "fr": "Qui devient double.",
+          "en": "Which becomes double.",
+          "zh": "變成兩個的。",
+          "examples": [
+            {
+              "t": "Ya bi ki ino ka msdaxa \"lu namo musa daya?",
+              "fr": "Où est ce donc que bifurque votre route qui va là haut?",
+              "en": "Where exactly does your road that goes up there fork in two?",
+              "zh": "你們往上去的那條路究竟在哪裡分岔？"
+            }
+          ]
+        },
+        {
+          "form": "Sdxaon",
+          "fr": "Vouloir doubler - mettre par couple.",
+          "en": "To want to double - to put in pairs.",
+          "zh": "想使成雙——使成對。",
+          "examples": [
+            {
+              "t": "Knagox na kana ka ddxea ssdxaon na skagul",
+              "fr": "Il fit venir tous les siens pour les envoyer deux par deux.",
+              "en": "He summoned all his people in order to send them out two by two.",
+              "zh": "他召集所有族人，要把他們兩個兩個地派出去。"
+            }
+          ]
+        },
+        {
+          "form": "Sndaxa",
+          "fr": "En double - qui a été mis par deux.",
+          "en": "Doubled - which has been put in twos.",
+          "zh": "雙重的——已被成對放置的。",
+          "examples": [
+            {
+              "t": "Sndaxa kö xnalwi mo lukus kika muxul ko bi da",
+              "fr": "J'ai revêtu mes habits en double, c'est pourquoi maintenant je suis bien au chaud.",
+              "en": "I have put on my clothes in double layers, which is why I am now nice and warm.",
+              "zh": "我把衣服穿了兩層，所以現在很暖和。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAXA",
+      "tag": "(R)",
+      "fr": "Avec - en compagnie.",
+      "en": "With - in the company of.",
+      "zh": "和——與……同行。",
+      "examples": [
+        {
+          "t": "Mnsa ko daya daxa lqlaqe matas",
+          "fr": "Je suis monté avec les enfants des écoles.",
+          "en": "I went up with the schoolchildren.",
+          "zh": "我和學童們一起上去了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DAXA",
+      "tag": "(R)",
+      "fr": "Eux - Leur - les autres.",
+      "en": "They - their - the others.",
+      "zh": "他們——他們的——別人。",
+      "examples": [
+        {
+          "t": "N'ima ka laqe nii ? ... Laqe daxa!",
+          "fr": "A qui est cet enfant ? ... C'est l'enfant des autres (=pas le mien).",
+          "en": "Whose child is this? ... It is the others' child (= not mine).",
+          "zh": "這是誰的孩子？……是別人的孩子（＝不是我的）。"
+        },
+        {
+          "t": "Wada daxa dmulun taxa xei dole",
+          "fr": "Ils (daxa) ont demandé une autre (taxa) personne en plus.",
+          "en": "They (daxa) asked for one other (taxa) person in addition.",
+          "zh": "他們（daxa）又要求多加另一（taxa）個人。"
+        },
+        {
+          "t": "Ya usa! Oqon so daxa!",
+          "fr": "Ne va pas!  Ils vont t'en faire voir (te manger) !",
+          "en": "Don't go! They will give you a hard time (eat you)!",
+          "zh": "別去！他們會給你好看（把你吃掉）！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DAXAL",
+      "tag": "",
+      "crossRef": "SDAXAL",
+      "fr": "(Est ce la R. de SDAXAL = s'appuyer ?.. Vr. SDAXAL.",
+      "en": "(Is this the root of SDAXAL = to lean on?).. See SDAXAL.",
+      "zh": "（這是 SDAXAL＝倚靠 的詞根嗎？……見 SDAXAL。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DAXO",
+      "tag": "(R)",
+      "fr": "Renommée - Honneur - gloire.",
+      "en": "Renown - honor - glory.",
+      "zh": "名聲——榮譽——榮耀。",
+      "examples": [
+        {
+          "t": "Txngayan daxo so ka kana l'alang ta",
+          "fr": "Tous nos villages sont pleins de ta gloire.",
+          "en": "All our villages are full of your glory.",
+          "zh": "我們所有的部落都充滿了你的榮耀。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmdaxo",
+          "paradigm": "Tmdaxo, tdaxo, tdxoe, tdxoan, tdxoon.",
+          "fr": "Glorifier - honorer - exalter. (nb. On entend souvent TNDXOE au lieu de TDXOE, sans doute en variante déformée, comme si la base dérivéé était: TNDAXO !)",
+          "en": "To glorify - to honor - to exalt. (n.b. One often hears TNDXOE instead of TDXOE, no doubt as a distorted variant, as if the derived base were: TNDAXO!)",
+          "zh": "頌揚——尊敬——讚美。（註：常聽到 TNDXOE 而非 TDXOE，想必是變形的變體，彷彿派生詞基是 TNDAXO！）",
+          "examples": [
+            {
+              "t": "Tmdaxo ko bi sunan",
+              "fr": "Je t'honore sincèrement.",
+              "en": "I honor you sincerely.",
+              "zh": "我真誠地尊敬你。"
+            }
+          ]
+        },
+        {
+          "form": "Mtdaxo",
+          "fr": "Celui qui honore - admirateur.",
+          "en": "One who honors - an admirer.",
+          "zh": "尊敬者——仰慕者。",
+          "examples": [
+            {
+              "t": "Xbalao bi troko ka mtdaxo sunan",
+              "fr": "Ils sont nombreux les taroko qui t'admirent.",
+              "en": "Many are the Taroko who admire you.",
+              "zh": "仰慕你的太魯閣人很多。"
+            }
+          ]
+        },
+        {
+          "form": "Dxoan",
+          "fr": "Gloire - honneur.",
+          "en": "Glory - honor.",
+          "zh": "榮耀——榮譽。",
+          "examples": [
+            {
+              "t": "Ana ima ida smparo dxoan so",
+              "fr": "Qui que ce soit admire ta renommée.",
+              "en": "Whoever it may be admires your renown.",
+              "zh": "無論是誰都仰慕你的名聲。"
+            }
+          ]
+        },
+        {
+          "form": "Tdxoon",
+          "fr": "Digne d'être glorifié - qui doit être glorifié.",
+          "en": "Worthy of being glorified - who must be glorified.",
+          "zh": "值得受頌揚的——應受頌揚的。",
+          "examples": [
+            {
+              "t": "Tdxoon so bi ka iso ole",
+              "fr": "Toi aussi tu es digne d'être glorifié.",
+              "en": "You too are worthy of being glorified.",
+              "zh": "你也值得受頌揚。"
+            }
+          ]
+        },
+        {
+          "form": "Tdxoan",
+          "fr": "Honneur, gloire effectivement existants - manière de glorifier.",
+          "en": "Honor, glory actually existing - manner of glorifying.",
+          "zh": "實際存在的榮譽、榮耀——頌揚的方式。",
+          "examples": [
+            {
+              "t": "Balae bi tndxoan daxa tuxan ka kia",
+              "fr": "A vrai dire, c'est là  leur façon de glorifier l'Esprit.",
+              "en": "In truth, that is their way of glorifying the Spirit.",
+              "zh": "說實在的，那就是他們頌揚神靈的方式。"
+            }
+          ]
+        },
+        {
+          "form": "Ptdaxo",
+          "fr": "Faire que soit honoré, glorifié.",
+          "en": "To cause to be honored, glorified.",
+          "zh": "使受尊敬、受頌揚。",
+          "examples": [
+            {
+              "t": "Mntutwi kana ssadyaq iyux ptdaxo xeaan",
+              "fr": "Tout le monde s'est levé avec le désir de le faire honorer.",
+              "en": "Everyone stood up with the desire to have him honored.",
+              "zh": "大家都起身，想使他受尊崇。"
+            },
+            {
+              "t": "Mntutwi kana ttdaxo xeaan",
+              "fr": "Tous se sont levés pour le glorifier.",
+              "en": "All rose to glorify him.",
+              "zh": "眾人都起來頌揚他。"
+            }
+          ]
+        },
+        {
+          "form": "Kntdxoan",
+          "fr": "Glorification - qualité de l'honneur offert.",
+          "en": "Glorification - the quality of the honor offered.",
+          "zh": "頌揚——所獻敬意的程度。",
+          "examples": [
+            {
+              "t": "Ida so bi mqalas mita kntdxoan daxa sunan",
+              "fr": "Tu te réjouis sans doute en voyant combien ils t'honorent !",
+              "en": "You surely rejoice to see how much they honor you!",
+              "zh": "看到他們如此尊崇你，你想必很高興！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAXONG",
+      "tag": "(R)",
+      "fr": "Ecchymose - un bleu.",
+      "en": "Bruise - a black-and-blue mark.",
+      "zh": "瘀傷——瘀青。",
+      "examples": [
+        {
+          "t": "D'xok sapax ka laqe o, daxong kana xei na!",
+          "fr": "En arrivant à la maison, l'enfant était (est) tout plein d'ecchymoses.(Tout son corps était une écchymose).",
+          "en": "On arriving home, the child was (is) all covered in bruises. (His whole body was one bruise.)",
+          "zh": "孩子一到家，就已滿身（滿身都是）瘀傷。（全身都是一片瘀青。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtdaxong",
+          "fr": "Qui porte des écchymoses = qui devient écchymose.",
+          "en": "Bearing bruises = becoming bruised.",
+          "zh": "帶有瘀傷的＝變得瘀青的。",
+          "examples": [
+            {
+              "t": "Asi bi mtdaxong kana baga mo da",
+              "fr": "A tel point que ma main se couvre d'écchymoses.",
+              "en": "So much so that my hand is covered in bruises.",
+              "zh": "以致我的手上滿是瘀傷。"
+            }
+          ]
+        },
+        {
+          "form": "Msdaxong",
+          "fr": "Qui se recouvre d'écchymoses.",
+          "en": "Which becomes covered in bruises.",
+          "zh": "布滿瘀傷的。",
+          "examples": [
+            {
+              "t": "Msdaxong kana dgiyaq qaqai so muda so daolas",
+              "fr": "En passant dans les rochers tes tibias se couvriront (se couvrent) d'écchymoses.",
+              "en": "Going through the rocks, your shins will get (get) covered in bruises.",
+              "zh": "走過岩石時，你的小腿會（就會）滿是瘀傷。"
+            }
+          ]
+        },
+        {
+          "form": "Psdaxong",
+          "fr": "Provoquer des écchymoses.",
+          "en": "To cause bruises.",
+          "zh": "造成瘀傷。",
+          "examples": [
+            {
+              "t": "Balae bi laqe so nanak ka Pnsdaxong dq'las laqe mo",
+              "fr": "C'est vraiment ton (propre) fils qui a provoqué ces écchymoses sur la figure de mon fils.",
+              "en": "It really is your (own) son who caused these bruises on my son's face.",
+              "zh": "在我兒子臉上造成這些瘀傷的，正是你（自己）的兒子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAYA",
+      "tag": "(R)",
+      "fr": "En haut (par rapport à l'endroit où se trouve le locuteur), en amont.",
+      "en": "Up above (relative to the place where the speaker is), upstream/uphill.",
+      "zh": "上方（相對於說話者所在之處）——上游、上坡處。",
+      "examples": [
+        {
+          "t": "Ga kmpax daya \"bi mo ka Aman",
+          "fr": "Aman est en train de travailler au dessus (plus haut) que ma cabane.",
+          "en": "Aman is working above (higher up than) my hut.",
+          "zh": "Aman 正在我的工寮上方（更高處）工作。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkdaya",
+          "fr": "Qui se trouve, qui habite en amont, dans un endroit plus élevé.",
+          "en": "Who is located, who lives uphill, in a higher place.",
+          "zh": "位於、居住在上方或較高處的。",
+          "examples": [
+            {
+              "t": "Mkdaya ka dxea",
+              "fr": "Eux, ils habitent plus haut, en haut.",
+              "en": "They live higher up, up above.",
+              "zh": "他們住在更高的地方，住在上面。"
+            }
+          ]
+        },
+        {
+          "form": "Dmkdaya",
+          "fr": "Partie de ceux qui habitent en haut.",
+          "en": "The group of those who live up above.",
+          "zh": "住在高處的那些人。",
+          "examples": [
+            {
+              "t": "Dmkblenux ka sayang , saman ka dmkdaya",
+              "fr": "Aujourd'hui, ce sont ceux de la plaine, c'est demain le tour de ceux des hauteurs (ceux d'en haut).",
+              "en": "Today it is the people of the plain; tomorrow it is the turn of those of the heights (those from up above).",
+              "zh": "今天是平地的人，明天輪到高處的人（上面的人）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAYAK",
+      "tag": "(R. = ?)",
+      "fr": "Se mêler de quelque chose pour faire obstacle.",
+      "en": "To meddle in something so as to obstruct.",
+      "zh": "插手某事以妨礙。",
+      "examples": [
+        {
+          "t": "Ya bi dayak knsuyang bi sadyaq nii",
+          "fr": "Ne te mêle pas des (n'interviens pas dans les) affaires de cet homme de bien.",
+          "en": "Do not meddle in (do not interfere with) the affairs of this good man.",
+          "zh": "不要插手（不要干涉）這位善人的事務。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DAYAO",
+      "tag": "(R)",
+      "fr": "Aide.",
+      "en": "Help.",
+      "zh": "幫助。",
+      "examples": [
+        {
+          "t": "Paro bi dayao na tmaan",
+          "fr": "Il aide beaucoup son père.",
+          "en": "He helps his father a great deal.",
+          "zh": "他很幫他父親的忙。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dmayao",
+          "paradigm": "Dmayao, dayao, dyagi, dyagan, dyagun.",
+          "fr": "Aider.",
+          "en": "To help.",
+          "zh": "幫忙。",
+          "examples": [
+            {
+              "t": "Ini ko usa dmayao xeaan s'xiga",
+              "fr": "Hier, je ne suis pas allé l'aider.",
+              "en": "Yesterday I did not go to help him.",
+              "zh": "昨天我沒有去幫他。"
+            },
+            {
+              "t": "Dyagun miso kia",
+              "fr": "Je vais t'aider tout à l'heure.",
+              "en": "I will help you in a little while.",
+              "zh": "我等一下就去幫你。"
+            }
+          ]
+        },
+        {
+          "form": "Mdayao",
+          "fr": "Un auxiliaire - un  aide - un adjoint.",
+          "en": "An auxiliary - a helper - an assistant.",
+          "zh": "助手——幫手——副手。",
+          "examples": [
+            {
+              "t": "Ongat ka mdayao mo",
+              "fr": "Il n'y a personne qui m'aide.",
+              "en": "There is no one who helps me.",
+              "zh": "沒有人幫我。"
+            },
+            {
+              "t": "Ongat ka mdayao knan",
+              "fr": "Il n'y a pas quelqu'un qui m'aide.",
+              "en": "There is not anyone who helps me.",
+              "zh": "沒有任何人幫我。"
+            },
+            {
+              "t": "Ongat ka dmayao knan",
+              "fr": "Personne ne m'aide.",
+              "en": "Nobody helps me.",
+              "zh": "沒有人幫助我。"
+            }
+          ]
+        },
+        {
+          "form": "Mddayao",
+          "fr": "S'aider mutuellement.",
+          "en": "To help one another.",
+          "zh": "互相幫助。",
+          "examples": [
+            {
+              "t": "Mddayao bi ka dqqlinut",
+              "fr": "Les  pauvres s'entraident véritablement.",
+              "en": "The poor truly help one another.",
+              "zh": "窮人們確實互相幫助。"
+            }
+          ]
+        },
+        {
+          "form": "Pdayao",
+          "fr": "Faire aider - se faire aider.",
+          "en": "To have (someone) help - to let oneself be helped.",
+          "zh": "使人幫忙——讓人幫忙。",
+          "examples": [
+            {
+              "t": "Ana mklbuk bi o, ini bi soa (sloa) pdayao ka ata mo",
+              "fr": "Elle a beau être très fatiguée, ma belle soeur n'accepte pas de se faire aider.",
+              "en": "However tired she may be, my sister-in-law will not accept being helped.",
+              "zh": "我的嫂子再怎麼累，也不肯讓人幫忙。"
+            }
+          ]
+        },
+        {
+          "form": "Dyagan",
+          "fr": "Aide apportée - Temps d'aider.",
+          "en": "Help given - time to help.",
+          "zh": "所提供的幫助——幫忙的時候。",
+          "examples": [
+            {
+              "t": "Baka bi dyagan ka sayang da",
+              "fr": "Il est maintenant temps d'aider.",
+              "en": "Now is just the time to help.",
+              "zh": "現在正是幫忙的時候。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DD",
+      "tag": "",
+      "fr": "Double préfixe signifiant : Tous ceux du groupe. § Qoyo = serpent ; Qqoyo = Les serpents; Dqoyo = ceux qui sont apparentés, assimilés , aux serpents; Ddqoyo = Tous ceux du type serpent.",
+      "en": "Double prefix meaning: all those of the group. § Qoyo = snake; Qqoyo = the snakes; Dqoyo = those who are related, assimilated, to snakes; Ddqoyo = all those of the snake type.",
+      "zh": "雙重前綴，意為：該群體的所有成員。§ Qoyo＝蛇；Qqoyo＝眾蛇；Dqoyo＝與蛇相類、被歸於蛇類者；Ddqoyo＝所有蛇這一類的。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DDIMA",
+      "tag": "(R. = DIMA ?)",
+      "fr": "Bambous - bambou ( de 6 à 8 cm.de diamètre).",
+      "en": "Bamboos - bamboo (6 to 8 cm in diameter).",
+      "zh": "竹——竹子（直徑六至八公分）。",
+      "examples": [
+        {
+          "t": "Kmbali ko bi kingal pusu ddima (dima ?) mo",
+          "fr": "Je voudrais bien vendre une de mes bambouseraies (plantation de bambous).",
+          "en": "I would really like to sell one of my bamboo groves (bamboo plantation).",
+          "zh": "我很想賣掉我的一片竹林（竹子種植地）。"
+        },
+        {
+          "t": "Gamil, l'xi, xei, kulao, pongo, dudux: nyeqan kana kia ka kingal pusu ddima (dima)",
+          "fr": "Racines, jeunes pousses, la tige, l'entre-noeuds, les noeuds, la cime: un pied de bambou possède tout celà.",
+          "en": "Roots, young shoots, the stem, the internodes, the nodes, the top: a bamboo plant possesses all of that.",
+          "zh": "根、嫩筍、莖、節間、節、梢：一株竹子這些全都具備。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DDIYAL",
+      "tag": "(R)",
+      "fr": "(var. = DGIYAL) = Vaincre - avoir le dessus.",
+      "en": "(var. DGIYAL) = To vanquish - to have the upper hand.",
+      "zh": "（或：DGIYAL）＝戰勝——佔上風。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmdiyal",
+          "paradigm": "Dmdiyal , ddiyal, ddyali, ddyalan, ddyalun.",
+          "fr": "Vaincre - gagner un combat - être le plus fort.",
+          "en": "To vanquish - to win a fight - to be the strongest.",
+          "zh": "戰勝——打贏一場戰鬥——最強。",
+          "examples": [
+            {
+              "t": "Tnxeti bi tndyalan paro do, Amerika ka dndiyal Nixong",
+              "fr": "Lors de la dernière grande guerre, c'est l'Amérique qui a vaincu le Japon.",
+              "en": "In the last great war, it was America that defeated Japan.",
+              "zh": "上次大戰時，是美國戰勝了日本。"
+            }
+          ]
+        },
+        {
+          "form": "Mddiyal",
+          "fr": "Vainqueur - celui qui a le dessus.",
+          "en": "Victor - the one who has the upper hand.",
+          "zh": "勝利者——佔上風的人。",
+          "examples": [
+            {
+              "t": "Mqqan namo snii do, ima ka balae bi mddiyal?",
+              "fr": "Lorsque vous vous êtes affrontés tout dernièrement, quel est celui qui a vraiment gagné ?",
+              "en": "When you fought each other just recently, who is the one who really won?",
+              "zh": "你們最近交手時，到底是誰真的贏了？"
+            },
+            {
+              "t": "Ima bi ka ini baka ?",
+              "fr": "Quel est en fait celui qui a perdu ?",
+              "en": "Who in fact is the one who lost?",
+              "zh": "究竟是誰輸了？"
+            }
+          ]
+        },
+        {
+          "form": "Dndyalan",
+          "fr": "Victoire (remportée) - Temps, lieu de la victoire.",
+          "en": "Victory (won) - time, place of the victory.",
+          "zh": "（贏得的）勝利——勝利的時間、地點。",
+          "examples": [
+            {
+              "t": "Ini ko k'la smpu (= Ini mo k'lae smpu) knlala dndyalan mo xeaan",
+              "fr": "Je n'arrive pas à compter le nombre de fois où je l'ai vaincu.",
+              "en": "I cannot manage to count the number of times I have beaten him.",
+              "zh": "我數不清我贏過他多少次。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DENGDANG",
+      "tag": "(R)",
+      "fr": "(parfois entendu: DNGDANG) = Qui est très chaud, bouillant - eau bouillante (par extension . réservé aux liquides).",
+      "en": "(sometimes heard: DNGDANG) = Which is very hot, boiling - boiling water (by extension; reserved for liquids).",
+      "zh": "（有時聽作：DNGDANG）＝很燙的、滾燙的——滾水（引申義；僅用於液體）。",
+      "examples": [
+        {
+          "t": "Dengdang bi ka malu maxon",
+          "fr": "C'est très bouillant que c'est bon à boire!",
+          "en": "It is when it is really boiling that it is good to drink!",
+          "zh": "要滾燙的才好喝！"
+        },
+        {
+          "t": "Mxoao ko bi; adi nyeqan dengdang so xo ?",
+          "fr": "J'ai bien soif; N'aurais tu pas de l'eau chaude?",
+          "en": "I am very thirsty; wouldn't you have some hot water?",
+          "zh": "我好渴；你沒有熱水嗎？"
+        },
+        {
+          "t": "Dengdang ni sinao o, dengdang ka malu, asi ka mdengdang balae",
+          "fr": "De l'eau bouillante et de l'alcool, je préfère l'eau bouillante, à condition qu'elle soit bien bouillante.",
+          "en": "Between boiling water and alcohol, I prefer the boiling water, provided that it is really boiling.",
+          "zh": "滾水和酒之間，我比較喜歡滾水，但必須是真正滾燙的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdengdang",
+          "fr": "Qui est bouillant.",
+          "en": "Which is boiling.",
+          "zh": "滾燙的。",
+          "examples": [
+            {
+              "t": "Mdengdang  ka bugo padyaq nii; oqe n'xali",
+              "fr": "Ce bouillon de légumes est bien chaud (bouillant); mange le vite !",
+              "en": "This vegetable broth is nice and hot (boiling); eat it quickly!",
+              "zh": "這鍋菜湯很熱（滾燙）；快趁熱吃！"
+            }
+          ]
+        },
+        {
+          "form": "Pdengdang",
+          "fr": "Faire faire bouillir - faire faire chauffer.",
+          "en": "To have (someone) boil - to have (someone) heat up.",
+          "zh": "叫人燒開——叫人加熱。",
+          "examples": [
+            {
+              "t": "Ana ongat bi diyax so o, pkdgdangi tityex laqe so xo?",
+              "fr": "Même si tu n'as vraiment pas le temps, veux tu faire réchauffer un peu (d'eau)par ta fille ?",
+              "en": "Even if you really do not have time, will you have your daughter heat up a little (water)?",
+              "zh": "就算你真的沒空，可以請你女兒稍微熱一點（水）嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pkdengdang",
+          "fr": "Faire que celà soit bouillant(?).",
+          "en": "To make it be boiling(?).",
+          "zh": "使其滾燙（？）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "DGA",
+      "tag": "",
+      "fr": "Particule finale de phrase avec un peu le sens de: Vois tu ! - N'est ce pas ? ( Un peu comme on dit dans certaines régions de France: Tu l'as vu, pas ?)",
+      "en": "Sentence-final particle with somewhat the sense of: You see! - Isn't that so? (A bit like people say in certain regions of France: \"Tu l'as vu, pas ?\")",
+      "zh": "句末助詞，略帶「你看吧！——不是嗎？」的意思。（有點像法國某些地區的說法：Tu l'as vu, pas ?）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DGIYAL",
+      "tag": "",
+      "crossRef": "DDIYAL",
+      "fr": "(Sans doute variante de: DDIYAL ?) = Vaincre - avoir le dessus. (vr.var.DDIYAL).",
+      "en": "(No doubt a variant of DDIYAL?) = To vanquish - to have the upper hand. (See var. DDIYAL.)",
+      "zh": "（想必是 DDIYAL 的變體？）＝戰勝——佔上風。（見變體 DDIYAL。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DGIYAQ",
+      "tag": "(R)",
+      "fr": "Montagne.",
+      "en": "Mountain.",
+      "zh": "山。",
+      "examples": [
+        {
+          "t": "Mnsa nami toxoi pngpong dgiyaq",
+          "fr": "Nous sommes allés nous promener au sommet de la montagne.",
+          "en": "We went for a walk to the top of the mountain.",
+          "zh": "我們去山頂上散步了。"
+        },
+        {
+          "t": "Klaon mo kana ka ddgiyaq mkbukwi sapax",
+          "fr": "Je connais toutes les montagnes derrière chez nous.",
+          "en": "I know all the mountains behind our home.",
+          "zh": "我認識我們家後面所有的山。"
+        }
+      ],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "pages": [270, 273],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "SI",
+      "tag": "",
+      "fr": "(= R. ?? — = R. de ASI, NASI.. ?) Si — au cas où.",
+      "en": "(= a root ?? — or = root of ASI, NASI.. ?) If — in case.",
+      "zh": "（＝詞根??—或為 ASI、NASI.. 之詞根?）若、如果—萬一。",
+      "examples": [
+        {
+          "t": "Ana mo si lngagi o, adi na qbxangun !",
+          "fr": "J'ai beau le lui dire (même si je le lui disais) il n'en tiendra pas compte (il n'écoutera pas).",
+          "en": "No matter how I tell him (even if I told him so), he will pay no heed to it (he will not listen).",
+          "zh": "我怎麼跟他說（即使我這樣跟他說）他也不會理會（他不會聽）。"
+        }
+      ]
+    },
+    {
+      "hw": "SIBA",
+      "tag": "(R)",
+      "fr": "Gazon (terme japonais).",
+      "en": "Lawn, turf (Japanese term).",
+      "zh": "草坪（日語詞）。",
+      "examples": []
+    },
+    {
+      "hw": "SIBUS",
+      "tag": "(R)",
+      "fr": "Canne à sucre.",
+      "en": "Sugar cane.",
+      "zh": "甘蔗。",
+      "examples": [
+        {
+          "t": "Xmaon mo trabus kana ka smudal mo",
+          "fr": "Je veux planter de la canne à sucre dans tous mes (champs) épuisés (= usagés, usés, vieux). (nb. Avant l'introduction des engrais, et la limitation des terrains laissés à leur disposition, les taroko avaient l'habitude de travailler un terrain deux ou trois ans, puis, épuisé, de le laisser reposer plusieurs années).",
+          "en": "I want to plant sugar cane in all my exhausted (fields) (= used up, worn out, old). (n.b. Before the introduction of fertilizers and the limitation of the lands left at their disposal, the Taroko used to work a plot for two or three years, then, once it was exhausted, to let it rest for several years.)",
+          "zh": "我想在我所有貧瘠的（田地）裡種甘蔗（＝用過的、耗盡的、老舊的）。（註：在引進肥料以及可用土地受限之前，太魯閣人習慣耕作一塊地兩三年，等地力耗盡後，便讓它休耕數年。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msibus",
+          "fr": "Qui est sucré (= qui devient canne à sucre (?)).",
+          "en": "That is sweet (= that becomes sugar cane (?)).",
+          "zh": "甜的（＝變成甘蔗的(?)）。",
+          "examples": [
+            {
+              "t": "Apo ni boqox o, apo ka msibus",
+              "fr": "Des kakis et des papayes, les kakis sont sucrés (= Les kakis sont plus sucrés que les papayes).",
+              "en": "Of persimmons and papayas, the persimmons are the sweet ones (= Persimmons are sweeter than papayas).",
+              "zh": "柿子和木瓜當中，柿子是甜的（＝柿子比木瓜甜）。"
+            }
+          ]
+        },
+        {
+          "form": "Ksibus",
+          "fr": "Forme négative de: MSIBUS.",
+          "en": "Negative form of: MSIBUS.",
+          "zh": "MSIBUS 的否定形。",
+          "examples": [
+            {
+              "t": "Apo ni boqox o, ini ksibus ka boqox",
+              "fr": "Des kakis et des papayes, les papayes ne sont pas sucrées (= Les papayes sont moins sucrées que les kakis).",
+              "en": "Of persimmons and papayas, the papayas are not sweet (= Papayas are less sweet than persimmons).",
+              "zh": "柿子和木瓜當中，木瓜不甜（＝木瓜沒有柿子甜）。"
+            }
+          ]
+        },
+        {
+          "form": "Psibus",
+          "paradigm": "°Mpsibus, psibus, psbusi, psbusan, psbusun.",
+          "fr": "(Pksibus ?) Sucrer — mettre du sucre dans — (et, parfois: saler).",
+          "en": "(Pksibus ?) To sweeten — to put sugar in — (and, sometimes: to salt).",
+          "zh": "（Pksibus?）加糖—在…裡加糖—（有時亦指：加鹽）。",
+          "examples": [
+            {
+              "t": "Psbusun mo kia ka idao",
+              "fr": "Je le sucrerai tout à l'heure, le riz.",
+              "en": "I will sweeten it in a moment, the rice.",
+              "zh": "我等一下會把飯加糖。"
+            }
+          ]
+        },
+        {
+          "form": "Ssibus",
+          "fr": "1) Très sucré; 2) pour sucrer (servant à sucrer).",
+          "en": "1) Very sweet; 2) for sweetening (used to sweeten).",
+          "zh": "1) 很甜；2) 用來加糖（用以加糖的）。",
+          "examples": [
+            {
+              "t": "Tayal ssibus na!",
+              "fr": "Comme c'est sucré !",
+              "en": "How sweet it is!",
+              "zh": "真甜啊！"
+            },
+            {
+              "t": "Ssbusun mo idao ka kia (vl. Spsbusun mo idao ka kia)",
+              "fr": "Cela me servira à sucrer le riz.",
+              "en": "This will serve me to sweeten the rice.",
+              "zh": "這個我會用來給飯加糖。"
+            }
+          ]
+        },
+        {
+          "form": "Pksibus",
+          "fr": "Faire que ce soit dans un état sucré (?). Vr. Psibus.",
+          "en": "To bring it into a sweetened state (?). Cf. Psibus.",
+          "zh": "使之處於加糖的狀態（?）。參見 Psibus。",
+          "examples": []
+        },
+        {
+          "form": "Knsibus",
+          "fr": "Le degré de sucré (de douceur).",
+          "en": "The degree of sweetness.",
+          "zh": "甜度（甜的程度）。",
+          "examples": [
+            {
+              "t": "Kmbali so apo xo ? ... Tai ta nanak knsibus nia",
+              "fr": "Désires tu acheter des kakis? ... Cela dépend de leur douceur.",
+              "en": "Do you want to buy persimmons? ... That depends on their sweetness.",
+              "zh": "你想買柿子嗎？…那要看它們甜不甜。"
+            }
+          ]
+        },
+        {
+          "form": "Knsbusan",
+          "fr": "La douceur — le sucré — la qualité de sucré, de salé.",
+          "en": "Sweetness — the sweet — the quality of being sweet or salty.",
+          "zh": "甜味—甜—甜或鹹的品質。",
+          "examples": [
+            {
+              "t": "Tai ka mbali sibus o, pusu na bi, knsbusan na ka qtaon daxa",
+              "fr": "L'essentiel pour les marchands (les commerçants) de canne à sucre, c'est (de contrôler) de savoir sa teneur en sucre.",
+              "en": "The essential thing for the merchants (traders) of sugar cane is (to check and) to know its sugar content.",
+              "zh": "對甘蔗商人（商販）而言，最要緊的是（查明並）知道它的含糖量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIDA",
+      "tag": "(R)",
+      "fr": "Branche — séparation.",
+      "en": "Branch — division, forking.",
+      "zh": "樹枝—分岔、分開。",
+      "examples": [
+        {
+          "t": "Pssli kana sida (vl. psli kana ssida) mntöting",
+          "fr": "Ramasse toutes les branches qui sont tombées.",
+          "en": "Gather up all the branches that have fallen.",
+          "zh": "把所有掉落的樹枝都撿起來。"
+        },
+        {
+          "t": "Daxa bi sida na ka pusu qouni nii",
+          "fr": "Cet arbre n'a que deux branches seulement.",
+          "en": "This tree has only two branches.",
+          "zh": "這棵樹只有兩根樹枝而已。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msida",
+          "fr": "Bifurquer — devenir branche — porter des branches.",
+          "en": "To fork — to become a branch — to bear branches.",
+          "zh": "分岔—變成樹枝—長出樹枝。",
+          "examples": [
+            {
+              "t": "Ga plading msida ka pusu bnuöl so da",
+              "fr": "Ton prunier commence à émettre des branches.",
+              "en": "Your plum tree is starting to put out branches.",
+              "zh": "你的梅樹開始長出樹枝了。"
+            },
+            {
+              "t": "Wada so mtalil yayong do, msida ka \"lu so da",
+              "fr": "Quand tu auras traversé le torrent, ta route a une bifurcation.",
+              "en": "Once you have crossed the torrent, your road forks.",
+              "zh": "你渡過溪流後，你的路就有一個分岔。"
+            }
+          ]
+        },
+        {
+          "form": "Mssida",
+          "fr": "Se séparer.",
+          "en": "To separate, to part ways.",
+          "zh": "分開、分道。",
+          "examples": [
+            {
+              "t": "Mssida daya nii ka \"lu namo da",
+              "fr": "Vos routes se séparent ici un peu plus haut.",
+              "en": "Your roads part a little higher up here.",
+              "zh": "你們的路就在這上面一點的地方分開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIIDA",
+      "tag": "(R)",
+      "fr": "Alors — en ce temps là (… passé, futur).",
+      "en": "Then — at that time (… past, future).",
+      "zh": "那時、當時（…過去、未來）。",
+      "examples": [
+        {
+          "t": "Laqe ko siida",
+          "fr": "Quand j'étais enfant.",
+          "en": "When I was a child.",
+          "zh": "當我還是小孩的時候。"
+        },
+        {
+          "t": "Mniyax so siida",
+          "fr": "Quand tu venais.",
+          "en": "When you used to come.",
+          "zh": "當你來的時候。"
+        },
+        {
+          "t": "Yaxon miso lmngao ka siida",
+          "fr": "Je viendrai te le dire en ce moment là. (nb. Entre SIIDA = Alors et SIDA = branche, la différence est loin d'être unanimement et uniformément réalisée par les locuteurs (et c'est ce qui explique (sans l'excuser !) l'omission de cette différence dans une partie des exemples de ce travail !); Mais il semble bien que les plus nombreux des locuteurs, les anciens surtout, réalisent une longue: SIIDA, pour dire: Alors, et une brève: SIDA, pour dire: branche !).",
+          "en": "I will come to tell you at that moment. (n.b. Between SIIDA = Then and SIDA = branch, the difference is far from being unanimously and uniformly made by the speakers (and this is what explains — without excusing it! — the omission of this distinction in a part of the examples in this work!); but it does seem that most of the speakers, the elders especially, produce a long SIIDA to mean 'Then,' and a short SIDA to mean 'branch'!)",
+          "zh": "到那時候我會來告訴你。（註：在 SIIDA＝那時 與 SIDA＝樹枝 之間，說話者遠未一致而統一地區分這兩者（這也說明了—雖不能因此開脫！—本書部分例句中省略此區別的原因！）；但看來多數說話者、尤其是長者，會以長音 SIIDA 表示「那時」，以短音 SIDA 表示「樹枝」！）"
+        }
+      ]
+    },
+    {
+      "hw": "SIKUL",
+      "tag": "(R)",
+      "fr": "Pousser — Heurter ..",
+      "en": "To push — to bump into ..",
+      "zh": "推—撞…",
+      "examples": [
+        {
+          "t": "Ya sikul da!",
+          "fr": "Ne poussez donc pas !",
+          "en": "Do stop pushing!",
+          "zh": "別推啦！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smikul",
+          "paradigm": "°Smikul, sikul, skuli, skulan, skulun.",
+          "fr": "Bousculer — pousser — Heurter.",
+          "en": "To jostle — to push — to bump into.",
+          "zh": "推擠—推—撞。",
+          "examples": [
+            {
+              "t": "Smikul namo do, adi mo d'xqon lmawax da!",
+              "fr": "Si vous poussez, je n'arriverai pas à ouvrir.",
+              "en": "If you push, I won't manage to open (it).",
+              "zh": "你們一推，我就打不開了。"
+            },
+            {
+              "t": "Yaxe ko dmayao smikul tdoloi mo",
+              "fr": "Viens m'aider à pousser ma voiture.",
+              "en": "Come help me push my car.",
+              "zh": "來幫我推我的車。"
+            }
+          ]
+        },
+        {
+          "form": "Msikul",
+          "fr": "Celui qui pousse — être en train de pousser.",
+          "en": "The one who pushes — to be in the act of pushing.",
+          "zh": "推的人—正在推。",
+          "examples": [
+            {
+              "t": "Ima ka msikul didensya tloma xea?",
+              "fr": "Quel est celui qui pousse le vélo là-bas ?",
+              "en": "Who is that pushing the bicycle over there?",
+              "zh": "在那邊推腳踏車的是誰？"
+            }
+          ]
+        },
+        {
+          "form": "Mssikul",
+          "fr": "Se bousculer mutuellement.",
+          "en": "To jostle one another.",
+          "zh": "互相推擠。",
+          "examples": [
+            {
+              "t": "Asi ka mssikul xo?",
+              "fr": "Est-ce indispensable de vous bousculer ?",
+              "en": "Is it really necessary for you to jostle each other?",
+              "zh": "你們非得互相推擠不可嗎？"
+            },
+            {
+              "t": "Mssikul musa kana spsinao daxa daolyaq (?)",
+              "fr": "Ils vont tous en se bousculant pour voir le cinéma (= pour se faire laver les yeux !).",
+              "en": "They all go jostling one another to see the cinema (= to have their eyes washed!).",
+              "zh": "他們全都推推擠擠地去看電影（＝去把眼睛洗一洗！）。"
+            }
+          ]
+        },
+        {
+          "form": "Sskulan",
+          "fr": "Mêlée — bousculade.",
+          "en": "Scuffle — a crush, a jostling crowd.",
+          "zh": "混戰—推擠、擁擠。",
+          "examples": [
+            {
+              "t": "Balae bi mniyax pplngao nanak ka dxea ni wada mksao bi paro sskulan",
+              "fr": "Ils sont venus simplement pour discuter et voilà que c'est devenu comme une grande bousculade!",
+              "en": "They came simply to talk things over, and there it turned into a great scuffle!",
+              "zh": "他們原本只是來商量，結果卻演變成一場大混亂推擠！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SILAQ",
+      "tag": "(R)",
+      "fr": "Détacher en arrachant.",
+      "en": "To detach by tearing off.",
+      "zh": "扯下、拔下。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smilaq",
+          "fr": "Détacher en arrachant, en cassant.",
+          "en": "To detach by tearing off, by breaking.",
+          "zh": "扯斷、折下。",
+          "examples": [
+            {
+              "t": "Xmut namo smilaq sida qouni muda \"lu",
+              "fr": "Vous ne faites que casser (arracher) des branches d'arbre (sans raison) en passant par la route !",
+              "en": "You do nothing but break off (tear off) tree branches (for no reason) as you go along the road!",
+              "zh": "你們一路上只顧著（無緣無故地）折斷（扯下）樹枝！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SILING",
+      "tag": "(R)",
+      "fr": "Demander — interroger.",
+      "en": "To ask — to question.",
+      "zh": "詢問—質問。",
+      "examples": [
+        {
+          "t": "Manu bi ka siling so kddiyax!",
+          "fr": "Qu'est ce que tu as à toujours interroger ?",
+          "en": "What is it with you always asking questions?",
+          "zh": "你怎麼老是在問東問西？"
+        },
+        {
+          "t": "Ini ko siling ana maan ka yako",
+          "fr": "Moi, je n'ai interrogé personne!",
+          "en": "As for me, I have not questioned anyone!",
+          "zh": "我可沒有質問任何人！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smiling",
+          "paradigm": "°Smiling, siling, slingi, slingan, slingun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ana ko smiling sunan o, ini so bi siyuk ana manu",
+              "fr": "Même si je te fais une demande, tu ne réponds rien !",
+              "en": "Even if I put a question to you, you answer nothing at all!",
+              "zh": "即使我向你提問，你也什麼都不回答！"
+            },
+            {
+              "t": "Slingun mo ka tama, ya mxa mk'la ka xea!",
+              "fr": "Je demanderai à papa, j'espère que lui saura!",
+              "en": "I'll ask dad, I hope he will know!",
+              "zh": "我會問爸爸，希望他會知道！"
+            }
+          ]
+        },
+        {
+          "form": "Msiling",
+          "fr": "Celui qui demande, qui interroge.",
+          "en": "The one who asks, who questions.",
+          "zh": "發問者、詢問者。",
+          "examples": [
+            {
+              "t": "Muda ta psiling o, ima ka msiling ?",
+              "fr": "Nous allons passer l'examen; qui est l'examinateur ?",
+              "en": "We are going to take the examination; who is the examiner?",
+              "zh": "我們要參加考試；主考人是誰？"
+            }
+          ]
+        },
+        {
+          "form": "Slingan",
+          "fr": "Demande — ce qui est demandé — temps, lieu, manière de demander.",
+          "en": "Request — what is asked — the time, place, manner of asking.",
+          "zh": "請求—所詢問之事—發問的時間、地點、方式。",
+          "examples": [
+            {
+              "t": "Lala bi ka slingan daxa kman",
+              "fr": "Ils m'ont fait de nombreuses demandes.",
+              "en": "They made many requests of me.",
+              "zh": "他們向我提出了許多請求。"
+            },
+            {
+              "t": "Ima bi ka slingan so s'xiga ?",
+              "fr": "Qui as tu interrogé hier?",
+              "en": "Whom did you question yesterday?",
+              "zh": "你昨天質問了誰？"
+            },
+            {
+              "t": "Naqex bi slingan ka nkari so suni",
+              "fr": "Ce que tu viens de dire n'est pas facile à demander!",
+              "en": "What you have just said is not easy to ask about!",
+              "zh": "你剛才所說的可不容易問啊！"
+            }
+          ]
+        },
+        {
+          "form": "Psilin",
+          "paradigm": "°Mpsiling, psiling, pslingi, pslingan, pslingun.",
+          "fr": "Faire interroger — se faire interroger — aller au tribunal.",
+          "en": "To have (someone) questioned — to be questioned — to go to court.",
+          "zh": "使人受審—受質問—上法庭。",
+          "examples": [
+            {
+              "t": "Nasi nyeqan ndaan ta sqlibut o, ida ta muda psiling sapax knsat!",
+              "fr": "Si nous avons fait des bêtises (des fautes), bien entendu nous passerons en jugement à la (maison de) police!",
+              "en": "If we have done foolish things (offences), of course we will be brought to judgement at the (house of) police!",
+              "zh": "如果我們做了蠢事（犯了錯），我們當然要在警察（局）受審！"
+            }
+          ]
+        },
+        {
+          "form": "Pslingan",
+          "fr": "Interrogatoire — interrogation.",
+          "en": "Interrogation — questioning (session).",
+          "zh": "訊問—審問。",
+          "examples": [
+            {
+              "t": "Saman ka diyax pslingan so sapax kensat",
+              "fr": "C'est demain ton interrogatoire à la police.",
+              "en": "Your interrogation at the police is tomorrow.",
+              "zh": "你在警察局的訊問是明天。"
+            },
+            {
+              "t": "Sapax pslingan",
+              "fr": "Maison du tribunal.",
+              "en": "Courthouse.",
+              "zh": "法院。"
+            }
+          ]
+        },
+        {
+          "form": "Mssiling",
+          "fr": "S'interroger l'un l'autre (les uns les autres).",
+          "en": "To question one another (one another mutually).",
+          "zh": "互相詢問（彼此質問）。",
+          "examples": [
+            {
+              "t": "Ya sadyaq bi manu ka xea mkksa mssiling ka kana dxea",
+              "fr": "Qui peut-il donc bien être celui-ci, se disaient ils tous en s'interrogeant les uns les autres ?",
+              "en": "Who on earth can this one be, they all said to themselves, questioning one another?",
+              "zh": "這個人究竟會是誰呢，他們全都彼此互相詢問著這麼想。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SILWI",
+      "tag": "(R)",
+      "fr": "(vl. XILWI ?) Fer — fil de fer.",
+      "en": "(var. XILWI ?) Iron — iron wire.",
+      "zh": "（或：XILWI?）鐵—鐵絲。",
+      "examples": []
+    },
+    {
+      "hw": "SINAO",
+      "tag": "(R)",
+      "fr": "Lavage — laver (pour vaisselle, surfaces, objets solides).",
+      "en": "Washing — to wash (for dishes, surfaces, solid objects).",
+      "zh": "洗滌—洗（用於碗盤、表面、固體物品）。",
+      "examples": [
+        {
+          "t": "Ini so sinao plato do, adi so maxa mg'li da",
+          "fr": "Si (tant que) tu n'as pas lavé les bols (= fait la vaisselle), tu n'iras pas danser !",
+          "en": "As long as you have not washed the bowls (= done the dishes), you will not go dancing!",
+          "zh": "只要你還沒洗好碗（＝洗好餐具），你就別想去跳舞！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sminao",
+          "paradigm": "°Sminao, sinao, snagi (snawi), snagan (snawan), snagun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Sangai da! Yaxon mo sminao plato so ka kia!",
+              "fr": "Repose toi ! Je viendrai tout à l'heure laver tes bols.",
+              "en": "Rest! I'll come in a while to wash your bowls.",
+              "zh": "你休息吧！我等一下會來洗你的碗。"
+            },
+            {
+              "t": "Dyagi ko sminao llixao (vl. lxlixao) sapax mo ptasan xo?",
+              "fr": "Veux tu s'il te plaît me laver (= m'aider à laver) les vitres de mon bureau ?",
+              "en": "Would you please wash (= help me wash) the windows of my office?",
+              "zh": "可以請你幫我洗（＝幫我洗）我辦公室的玻璃窗嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Snagan",
+          "fr": "Endroit où l'on lave, où se fait la vaisselle — eau de vaisselle.",
+          "en": "The place where one washes, where the dishes are done — dishwater.",
+          "zh": "洗滌處、洗碗的地方—洗碗水。",
+          "examples": [
+            {
+              "t": "Malu bi ka snagan nii; ya qdani!",
+              "fr": "Elle est utile, cette eau de vaisselle, ne la jette pas !",
+              "en": "It is useful, this dishwater; do not throw it out!",
+              "zh": "這洗碗水很有用，別倒掉！"
+            }
+          ]
+        },
+        {
+          "form": "Psinao",
+          "paradigm": "°Mpsinao, psinao, psnagi, psnagan, psnagun.",
+          "fr": "Faire laver — se faire laver quelque chose — faire nettoyer.",
+          "en": "To have (something) washed — to have something washed for oneself — to have (something) cleaned.",
+          "zh": "使人洗—請人替自己洗某物—使人清洗。",
+          "examples": [
+            {
+              "t": "Mxa ko psinao xaya mo alang paro",
+              "fr": "Je vais en ville faire laver ma voiture.",
+              "en": "I'm going into town to have my car washed.",
+              "zh": "我要進城去洗車。"
+            },
+            {
+              "t": "Nta da psinao daolyaq",
+              "fr": "1) Allons nous faire soigner les yeux; 2) (= récent) Allons au cinéma.",
+              "en": "1) Let's go have our eyes treated; 2) (= recent) Let's go to the cinema.",
+              "zh": "1) 我們去治療眼睛吧；2)（＝近義）我們去看電影吧。"
+            },
+            {
+              "t": "Lmnglong ko musa psinao toke mo sapax Kuni",
+              "fr": "Je compte aller chez Kouni faire nettoyer (réparer) ma montre.",
+              "en": "I intend to go to Kouni's to have my watch cleaned (repaired).",
+              "zh": "我打算去 Kouni 那裡把我的手錶清洗（修理）一下。"
+            }
+          ]
+        },
+        {
+          "form": "Ssinao",
+          "fr": "Afin de laver — se servir pour laver.",
+          "en": "In order to wash — to use for washing.",
+          "zh": "為了洗—用來洗。",
+          "examples": [
+            {
+              "t": "Xeaon so ka galyeq? ... Ssinao mo xaya!",
+              "fr": "Que veux tu faire du chiffon? ... M'en servir pour laver la voiture!",
+              "en": "What do you want to do with the rag? ... Use it to wash the car!",
+              "zh": "你要拿那塊抹布做什麼？…拿來洗車！"
+            },
+            {
+              "t": "Adi maxon ka nii! Ksia ssinao mo plato ka kia !",
+              "fr": "Ce n'est pas à boire, ça ! Cette eau, c'est pour laver mes assiettes !",
+              "en": "This isn't for drinking! This water is for washing my dishes!",
+              "zh": "這個不是用來喝的！這水是拿來洗我的盤子的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SINAO",
+      "tag": "",
+      "fr": "(Est-ce une R. distincte de SINAO = Laver ?) Espèce de bière faite à partir de céréales, et surtout de millet; par extension, désigne tout vin ou alcool.",
+      "en": "(Is it a root distinct from SINAO = To wash ?) A kind of beer made from cereals, and especially from millet; by extension, denotes any wine or alcohol.",
+      "zh": "（是否為有別於 SINAO＝洗 的另一詞根?）一種以穀物、尤其是小米釀成的酒；引申用來泛指任何酒類。",
+      "examples": [
+        {
+          "t": "Sinao maso",
+          "fr": "Bière de millet.",
+          "en": "Millet beer.",
+          "zh": "小米酒。"
+        },
+        {
+          "t": "Mimax sinao",
+          "fr": "Boire de la bière (nb. mais: § Mqan sinao = manger de la bière, est bien plus courant!).",
+          "en": "To drink beer (n.b. but: § Mqan sinao = to eat beer, is far more common!).",
+          "zh": "喝酒（註：但 § Mqan sinao＝吃酒，這種說法更為常見！）。"
+        },
+        {
+          "t": "Sinao ka sp'otoç ni spsqlinut dtroko",
+          "fr": "C'est l'alcool qui fait perdre la tête aux taroko et les appauvrit!",
+          "en": "It is alcohol that makes the Taroko lose their heads and impoverishes them!",
+          "zh": "正是酒讓太魯閣人失去理智並使他們變窮！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Masinao",
+          "fr": "Va devenir bière, alcool — (parfois = faire de la bière, ce qui se dit normalement: MSALU SINAO).",
+          "en": "Is going to become beer, alcohol — (sometimes = to make beer, which is normally said: MSALU SINAO).",
+          "zh": "將要變成酒—（有時＝釀酒，通常說法為 MSALU SINAO）。",
+          "examples": [
+            {
+              "t": "Adi biyao masinao ka maso da",
+              "fr": "Avant peu le millet va donner, va devenir bière.",
+              "en": "Before long the millet will yield, will become beer.",
+              "zh": "不久小米就會出產、就會變成酒了。"
+            }
+          ]
+        },
+        {
+          "form": "Ssinao",
+          "fr": "Qui sent le vin, la bière, l'alcool.",
+          "en": "That smells of wine, beer, alcohol.",
+          "zh": "散發酒味的。",
+          "examples": [
+            {
+              "t": "Ssinao kana ka sapax mo da",
+              "fr": "Toute ma maison pue (sent) le vin!",
+              "en": "My whole house reeks (smells) of wine!",
+              "zh": "我整間屋子都是酒味！"
+            }
+          ]
+        },
+        {
+          "form": "Snsinao",
+          "fr": "A propos de vin — il est question de vin.",
+          "en": "About wine — it is a matter of wine.",
+          "zh": "關於酒—與酒有關的事。",
+          "examples": [
+            {
+              "t": "Diyax diyax o, snsinao (msnsinao (?)) ka Masak ni Sabak",
+              "fr": "Massak et Sabak se querellent tous les jours à propos de vin.",
+              "en": "Massak and Sabak quarrel every day about wine.",
+              "zh": "Massak 和 Sabak 每天都為了酒而爭吵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIPA",
+      "tag": "(R)",
+      "fr": "Jeune plant de riz à repiquer — (parfois) toute jeune plante à transplanter.",
+      "en": "Young rice seedling to be transplanted — (sometimes) any young plant to be transplanted.",
+      "zh": "待移植的稻秧—（有時）任何待移植的幼苗。",
+      "examples": [
+        {
+          "t": "Adi matoko ka sipa mo da",
+          "fr": "Mes plants de riz ne suffiront pas (Je n'aurais pas assez de..).",
+          "en": "My rice seedlings will not be enough (I would not have enough of..).",
+          "zh": "我的稻秧不夠（我會不夠…）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Psipa",
+          "fr": "Faire des plants — semer pour avoir des jeunes plants à repiquer.",
+          "en": "To raise seedlings — to sow in order to have young plants to transplant.",
+          "zh": "育苗—播種以取得待移植的秧苗。",
+          "examples": [
+            {
+              "t": "Tai ka ini psipa o, adi bi mpxoma ole!",
+              "fr": "Celui qui ne prépare pas des semis, ne plantera pas (ne pourra pas planter) non plus.",
+              "en": "He who does not prepare seedlings will not plant (will not be able to plant) either.",
+              "zh": "不育苗的人，也就無法種植（種不成）。"
+            }
+          ]
+        },
+        {
+          "form": "Pspaan",
+          "fr": "Lieu, temps des semis.",
+          "en": "Place, time of the sowing / seedbed.",
+          "zh": "播種、育苗的地點與時節。",
+          "examples": [
+            {
+              "t": "Ngalun so ino ka pspaan so ?",
+              "fr": "Quel coin prendras tu pour faire tes semis ?",
+              "en": "Which spot will you take to make your seedbed?",
+              "zh": "你要選哪塊地方來育苗？"
+            }
+          ]
+        },
+        {
+          "form": "Pnspaan",
+          "fr": "Endroit où les semis ont été faits — Le semis déjà fait.",
+          "en": "The place where the sowing has been done — the seedbed already made.",
+          "zh": "已完成育苗的地方—已育好的秧苗。",
+          "examples": [
+            {
+              "t": "Mnda pnspaan mo s'xiga ka kating so",
+              "fr": "Ton buffle est passé hier à travers mes semis !",
+              "en": "Your buffalo went through my seedbed yesterday!",
+              "zh": "你的水牛昨天踩過了我的秧田！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIPA",
+      "tag": "",
+      "fr": "(SIIPA ?) Gelée blanche — Transi de froid.",
+      "en": "(SIIPA ?) White frost (hoarfrost) — chilled to the bone.",
+      "zh": "（SIIPA?）白霜—凍僵、冷得發抖。",
+      "examples": [
+        {
+          "t": "Mnda so paqan kyoxan ni, siipa kana xei so da",
+          "fr": "Tu as reçu toute la pluie sur le dos (tu es allé te faire manger par la pluie) et te voilà tout transi de froid!",
+          "en": "You took all the rain on your back (you went and let the rain devour you) and now here you are chilled through and through!",
+          "zh": "你全身都淋了雨（你去讓雨把你「吃」了），結果現在冷得直發抖！"
+        }
+      ]
+    },
+    {
+      "hw": "SIPAO",
+      "tag": "",
+      "fr": "(= R. ?) En face — de l'autre côté (de la vallée, du torrent..).",
+      "en": "(= a root ?) Opposite, facing — on the other side (of the valley, of the torrent..).",
+      "zh": "（＝詞根?）對面—另一邊（山谷、溪流…的另一側）。",
+      "examples": [
+        {
+          "t": "Ga sipao alang ka slaan mo sapax",
+          "fr": "C'est en face du (faisant face au) village qu'est mon terrain à bâtir. (nb. parfois pris dans le sens figuré: § Kusa ka balae bi plngagan nami ni, ma\" sipao ka kari so ! = Nous sommes en train de discuter de dettes, et voilà que ton parler est en face (et toi tu te défiles !)).",
+          "en": "It is opposite the (facing the) village that my building plot lies. (n.b. sometimes taken figuratively: § Kusa ka balae bi plngagan nami ni, ma\" sipao ka kari so ! = We are discussing debts, and here your talk is 'on the opposite side' (and you slip away / dodge the issue!)).",
+          "zh": "我的建地就在村子的對面（正對著村子）。（註：有時作比喻義用：§ Kusa ka balae bi plngagan nami ni, ma\" sipao ka kari so !＝我們正在談債務，你的話卻扯到「對面」去了（你在迴避、閃躲！））。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mksipao",
+          "fr": "Habitant en face, de l'autre côté — être, se trouver, sis en face.",
+          "en": "Dweller on the opposite side, on the other side — to be, to be located, situated opposite.",
+          "zh": "住在對面、另一邊的人—位於、坐落於對面。",
+          "examples": [
+            {
+              "t": "Mksipao ka dTome",
+              "fr": "Tomé et les siens habitent en face.",
+              "en": "Tomé and his family live opposite.",
+              "zh": "Tomé 和他的家人住在對面。"
+            },
+            {
+              "t": "Mksipao ka balae bi nnyeqan skbaki mo sbiyao",
+              "fr": "À dire vrai, c'est en face qu'habitait autrefois feu mon grand-père.",
+              "en": "To tell the truth, it was opposite that my late grandfather used to live long ago.",
+              "zh": "說實在的，我已故的祖父從前就住在對面。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

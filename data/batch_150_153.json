@@ -1,0 +1,793 @@
+{
+  "pages": [150, 153],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "LAXOK",
+      "tag": "(R)",
+      "crossRef": "LAXOQ",
+      "fr": "Excepté - omis - oublié - omettre - manquer. (Pour cette base et tous ses dérivés: VR. LAXOQ.)",
+      "en": "Excepted - omitted - forgotten - to omit - to miss/lack. (For this root and all its derivatives: see LAXOQ.)",
+      "zh": "例外－遺漏－忘記－省略－缺少。（此詞根及其所有衍生詞：參見 LAXOQ。）",
+      "examples": [
+        {
+          "t": "Laxok na do, ongat ana nanu",
+          "fr": "En dehors de celà il n'y a rien d'autre.",
+          "en": "Apart from that there is nothing else.",
+          "zh": "除此之外別無他物。"
+        }
+      ]
+    },
+    {
+      "hw": "LAXOL",
+      "tag": "(R)",
+      "fr": "Foule - attroupement.",
+      "en": "Crowd - throng, gathering.",
+      "zh": "人群－聚集。",
+      "examples": [
+        {
+          "t": "Tutwi ta kana, mnsa lnngao laxol xea ka Pilin",
+          "fr": "Levons nous tous, dit Pirinne à la foule qui était là.",
+          "en": "Let us all get up, said Pirinne to the crowd that was there.",
+          "zh": "「我們大家都站起來吧」，皮林對在場的人群說。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mglaxol (mlaxol)",
+          "fr": "S'attrouper - s'agglutiner - se rassembler de façon désordonnée.",
+          "en": "To crowd together - to cluster - to gather in a disorderly way.",
+          "zh": "聚集－群集－雜亂地聚攏。",
+          "examples": [
+            {
+              "t": "Mniyax mglaxol sapax xlpasan kana",
+              "fr": "Ils sont tous venus en foule dans la salle de jeux.",
+              "en": "They all came in a crowd into the games room.",
+              "zh": "他們全都成群湧入遊戲室。"
+            }
+          ]
+        },
+        {
+          "form": "Mlaxol (?)",
+          "fr": "devenir foule - prendre les proportions de foule.",
+          "en": "to become a crowd - to grow to the proportions of a crowd.",
+          "zh": "變成人群－發展成人群的規模。",
+          "examples": [
+            {
+              "t": "niyax miyax ka sadyaq o, nxa mlaxol xeti da",
+              "fr": "(Si) les gens continuent à venir, celà fera bientôt une foule.",
+              "en": "(If) people keep coming, it will soon make a crowd.",
+              "zh": "（若）人們繼續前來，很快就會形成一群人。"
+            }
+          ]
+        },
+        {
+          "form": "Pglaxol",
+          "paradigm": "°Mpglaxol, pglaxol, pglxoli, pglxolan, pglxolun.",
+          "fr": "Attrouper - Faire venir une foule.",
+          "en": "To assemble - to bring a crowd together.",
+          "zh": "使聚集－召集一群人。",
+          "examples": [
+            {
+              "t": "Dyagi ko pglaxol kana ka ssadyaq nkMorisaka",
+              "fr": "Aides moi à rassembler tous les gens de Morisaka",
+              "en": "Help me gather all the people of Morisaka",
+              "zh": "幫我把 Morisaka 的所有人聚集起來。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlxolan",
+          "fr": "Attroupement (provoqué) - foule (rassemblée).",
+          "en": "Gathering (provoked) - crowd (assembled).",
+          "zh": "（引發的）聚集－（集合起來的）人群。",
+          "examples": [
+            {
+              "t": "Pnlxolan o, ida mllawa, ongat içan da",
+              "fr": "De toute façon une foule fait du bruit (provoque un brouhaha), inutile d'insister.",
+              "en": "In any case a crowd makes noise (causes a hubbub), no use insisting.",
+              "zh": "無論如何，人群總會喧鬧（引起吵雜聲），不必堅持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAXOQ",
+      "tag": "(R)",
+      "fr": "Hormis - excepté - mis à part - manque.",
+      "en": "Except - excepted - set apart - lack.",
+      "zh": "除了－例外－除外－缺少。",
+      "examples": [
+        {
+          "t": "Wana daxa bi xei, laxoq na do o, k'laon no kana da",
+          "fr": "Seulement deux personnes, en dehors de ces deux (mis à part ces deux), je connais tout le monde.",
+          "en": "Only two people, apart from those two (setting those two aside), I know everyone.",
+          "zh": "只有兩個人除外，除了這兩個人之外，我認識所有人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlaxoq",
+          "fr": "Qui manque.",
+          "en": "That which is missing / lacking.",
+          "zh": "所缺少者。",
+          "examples": [
+            {
+              "t": "Adi tdoa pstutwi xeaan, nlaxoq kingal xei",
+              "fr": "Ce n'est pas possible de le soulever, il nous manque une personne.",
+              "en": "It's not possible to lift it, we are one person short.",
+              "zh": "這抬不起來，我們少了一個人。"
+            },
+            {
+              "t": "Giso kana da; wana kingal ka nlaxoq",
+              "fr": "Ils sont tous là, il n'en manque qu'un seul.",
+              "en": "They are all here, only one is missing.",
+              "zh": "他們全都在了，只少一個人。"
+            }
+          ]
+        },
+        {
+          "form": "Lxoqan",
+          "fr": "Manque - absence - déficience.",
+          "en": "Lack - absence - deficiency.",
+          "zh": "缺乏－缺席－不足。",
+          "examples": [
+            {
+              "t": "Ana lxoqan kingal xei, ida ta tnklaon",
+              "fr": "Même s'il en manque un, nous y arriverons.",
+              "en": "Even if one is missing, we will manage.",
+              "zh": "即使少了一個，我們也能辦到。"
+            }
+          ]
+        },
+        {
+          "form": "Slaxoq",
+          "fr": "Laisser de côté - omettre - manquer.",
+          "en": "To leave aside - to omit - to miss.",
+          "zh": "擱置一旁－省略－遺漏。",
+          "examples": [
+            {
+              "t": "Ini ko snlaxoq ana kingal",
+              "fr": "Je n'en ai pas omis un seul.",
+              "en": "I have not omitted a single one.",
+              "zh": "我一個都沒漏掉。"
+            },
+            {
+              "t": "Ini no slxoqe ana kingal",
+              "fr": "Je n'en ai omis aucun.",
+              "en": "I have omitted none of them.",
+              "zh": "我一個都沒省略。"
+            }
+          ]
+        },
+        {
+          "form": "Snlaxoq",
+          "paradigm": "° Snlaxoq, slaxoq, .?., slxoqan, slxoqon.",
+          "fr": "Omettre - manquer - oublier.",
+          "en": "To omit - to miss - to forget.",
+          "zh": "省略－遺漏－忘記。",
+          "examples": [
+            {
+              "t": "Knta'to so snlaxoq pusa timu",
+              "fr": "Tu oublies toujours (tu omets) de mettre du sel.",
+              "en": "You always forget (omit) to add salt.",
+              "zh": "你老是忘記（漏掉）放鹽。"
+            },
+            {
+              "t": "Wada so buan ka pada xo ? ... Smnlaxoq ko da (= wada no slxoqan da)",
+              "fr": "As tu tiré le Chamois ? ... Je l'ai manqué !",
+              "en": "Did you shoot the chamois? ... I missed it!",
+              "zh": "你打到那隻山羌了嗎？……我沒打中！"
+            },
+            {
+              "t": "Snlaxoq ko kingal papaq ni mntaqol ko da",
+              "fr": "J'ai fait un faux pas (j'ai manqué un pied) et je suis tombé.",
+              "en": "I made a misstep (missed a foothold) and I fell.",
+              "zh": "我踏空了一步（失足）而摔倒了。"
+            }
+          ]
+        },
+        {
+          "form": "Mslaxoq",
+          "fr": "Qui oublie - qui omet.",
+          "en": "One who forgets - who omits.",
+          "zh": "健忘者－愛漏掉者。",
+          "examples": [
+            {
+              "t": "Pusu so bi nslaxoq ka iso",
+              "fr": "tu es un champion de l'oubli.",
+              "en": "you are a champion of forgetfulness.",
+              "zh": "你真是個健忘冠軍。"
+            }
+          ]
+        },
+        {
+          "form": "Slxoqan",
+          "fr": "Omission - manquement.",
+          "en": "Omission - failing/lapse.",
+          "zh": "疏漏－過失。",
+          "examples": [
+            {
+              "t": "Ana manu ka ndaan so qnoqo, ana sao nkmpaxan so, ana nslxoqan so, ndaan so kana da",
+              "fr": "Tu as fauté de toutes les façons, tant dans ce que tu as fait que dans ce que tu as omis de faire, partout !",
+              "en": "You have been at fault in every way, both in what you did and in what you omitted to do, everywhere!",
+              "zh": "你在各方面都有過失，無論是你所做的，還是你該做而未做的，處處皆然！"
+            }
+          ]
+        },
+        {
+          "form": "Pslaxoq",
+          "fr": "Faire omettre - faire laisser de côté.",
+          "en": "To cause to omit - to cause to leave aside.",
+          "zh": "使省略－使擱置一旁。",
+          "examples": [
+            {
+              "t": "Wada so pslaxoq kingal kari da",
+              "fr": "1) Tu as omis de dire une parole; 2)Tu as laissé tomber un mot (comme pour insinuer, laisser entendre) 3) Tu as dit un mot (qui t'as trahi).",
+              "en": "1) You omitted to say a word; 2) You let a word slip (as if to insinuate, to hint) 3) You said a word (that betrayed you).",
+              "zh": "1）你漏說了一句話；2）你不經意說溜了一個字（像是暗示、透露）；3）你說了一個字（洩露了你自己）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LBAGAN",
+      "tag": "",
+      "fr": "Eté (saison). (nb. Les taroko ne connaissent que deux saisons bien déterminées: L'hiver et l'été; ).",
+      "en": "Summer (season). (n.b. The Taroko recognize only two clearly defined seasons: winter and summer.)",
+      "zh": "夏季（季節）。（註：太魯閣人只分明確的兩季：冬季與夏季。）",
+      "examples": [
+        {
+          "t": "Lbagan da",
+          "fr": "Et voilà l'été !",
+          "en": "And here is summer!",
+          "zh": "夏天到了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mklbagan",
+          "fr": "Pendant l'été - temps d'été.",
+          "en": "During summer - summertime.",
+          "zh": "夏季期間－夏日時節。",
+          "examples": [
+            {
+              "t": "Mklbagan ka nalu bi tlmaan !",
+              "fr": "C'est pendant l'été qu'il fait bon se baigner (vL. qu'il est facile de se baigner).",
+              "en": "It is during summer that it is good to bathe (var. that it is easy to bathe).",
+              "zh": "夏天正是適合洗澡的時候（或：容易下水洗澡）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpklbagan (mplbagan)",
+          "fr": "Vers l'été - ce qui prépare l'été - printemps.",
+          "en": "Toward summer - that which prepares summer - spring.",
+          "zh": "接近夏季－為夏季作準備者－春季。",
+          "examples": [
+            {
+              "t": "Mpslnabao kana ka qouni do, npklbagan da",
+              "fr": "Quand les arbres commencent à émettre des feuilles, c'est le printemps (l'été va venir !).",
+              "en": "When the trees begin to put out leaves, it is spring (summer is coming!).",
+              "zh": "當樹木開始長出葉子時，就是春天了（夏天將至！）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'BAI",
+      "tag": "(R)",
+      "fr": "Faible - faiblesse - être faible.",
+      "en": "Weak - weakness - to be weak.",
+      "zh": "虛弱－軟弱－虛弱。",
+      "subs": [
+        {
+          "form": "Ml'bai",
+          "fr": "Qui est faible.",
+          "en": "That which is weak.",
+          "zh": "虛弱者。",
+          "examples": [
+            {
+              "t": "Soqe ml'bai ka \"löt so",
+              "fr": "Ta poutre est bien trop faible.",
+              "en": "Your beam is far too weak.",
+              "zh": "你的樑太不牢固了。"
+            },
+            {
+              "t": "Ml'bai bi lnglongan",
+              "fr": "Caractère faible.",
+              "en": "Weak character.",
+              "zh": "性格軟弱。"
+            }
+          ]
+        },
+        {
+          "form": "Mkl'bai (Ml'bai ?)",
+          "fr": "Qui vacille",
+          "en": "That which wobbles / totters.",
+          "zh": "搖晃不穩者。",
+          "examples": [
+            {
+              "t": "Mkl'bai ka papaq no da",
+              "fr": "Mes jambes vacillent (sont désormais devenues faibles).",
+              "en": "My legs are wobbling (have now become weak).",
+              "zh": "我的腿在發軟（如今已變得無力）。"
+            }
+          ]
+        },
+        {
+          "form": "Knlbayan",
+          "fr": "Faiblesse.",
+          "en": "Weakness.",
+          "zh": "軟弱。",
+          "examples": [
+            {
+              "t": "Ini ko sklui ka yako! Klaon no balae ka knlbayan daxa",
+              "fr": "Je ne suis pas étonné ! Je connais parfaitement leur faiblesse.",
+              "en": "I am not surprised! I know their weakness perfectly well.",
+              "zh": "我一點也不驚訝！我很清楚他們的弱點。"
+            }
+          ]
+        },
+        {
+          "form": "Pkl'bai",
+          "fr": "Affaiblir.",
+          "en": "To weaken.",
+          "zh": "使虛弱－削弱。",
+          "examples": [
+            {
+              "t": "Ppkl'bai lumul ta, kika yaxon na tnan",
+              "fr": "Pour affaiblir notre courage, voilà pourquoi il est venu chez nous !",
+              "en": "To weaken our courage, that is why he has come to us!",
+              "zh": "為了削弱我們的勇氣，這就是他來我們這裡的原因！"
+            },
+            {
+              "t": "Usa nanak pkl'bai lnglongan nia",
+              "fr": "Va donc l'amadouer (affaiblir ses sentiments.).",
+              "en": "Go and coax him (soften his feelings).",
+              "zh": "你自己去哄他吧（軟化他的情緒）。"
+            }
+          ]
+        },
+        {
+          "form": "Skl'bai",
+          "fr": "pour rendre faible (moyen - occasion).",
+          "en": "means of making weak (means - occasion).",
+          "zh": "使之虛弱的方式（手段－機會）。",
+          "examples": [
+            {
+              "t": "Kntl'çan sayang ka skl'bai bi sdyaqon",
+              "fr": "C'est la chaleur qu'il fait qui affaiblit les gens.",
+              "en": "It is the heat that weakens people.",
+              "zh": "是這炎熱使人虛弱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LB'LAK",
+      "tag": "(R)",
+      "fr": "Papier.",
+      "en": "Paper.",
+      "zh": "紙。",
+      "examples": [
+        {
+          "t": "Sao bi lb'lak ka knxlpisan nia",
+          "fr": "Mince comme du papier (sa minceur est comme celle du papier).",
+          "en": "Thin as paper (its thinness is like that of paper).",
+          "zh": "薄如紙（它的薄度像紙一樣）。"
+        }
+      ]
+    },
+    {
+      "hw": "LB'NAO",
+      "tag": "(R)",
+      "fr": "Délicat - fragile - tendre.",
+      "en": "Delicate - fragile - tender.",
+      "zh": "嬌弱－脆弱－柔嫩。",
+      "examples": [
+        {
+          "t": "Laqe lb'nao",
+          "fr": "Bébé = enfant qui vient de naître.",
+          "en": "Baby = child just born.",
+          "zh": "嬰兒＝剛出生的孩子。"
+        },
+        {
+          "t": "Lb'nao bi ka ddina so; ya bi sq'ti",
+          "fr": "Tes bambous sont jeunes (tendres); ne les coupe pas !",
+          "en": "Your bamboos are young (tender); do not cut them!",
+          "zh": "你的竹子還嫩（幼嫩）；別砍它們！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlb'nao",
+          "fr": "Qui est tendre, jeune, pas mûr.",
+          "en": "That which is tender, young, not ripe.",
+          "zh": "柔嫩、年幼、未成熟者。",
+          "examples": [
+            {
+              "t": "Asi ka mlb'nao ka dima",
+              "fr": "A condition que le bambou soit jeune (tendre).",
+              "en": "On condition that the bamboo be young (tender).",
+              "zh": "條件是竹子要嫩（幼嫩）。"
+            },
+            {
+              "t": "Miyax ko mlb'bao (mplb'bao ?) sunan",
+              "fr": "Je viens te demander une faveur (Je viens faire l'enfant gâté près de toi).",
+              "en": "I come to ask you a favor (I come to act the spoiled child with you).",
+              "zh": "我來求你幫個忙（我來在你面前撒嬌）。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlb'nao",
+          "fr": "Se comporter comme un enfant.",
+          "en": "To behave like a child.",
+          "zh": "像小孩一樣舉止。",
+          "examples": [
+            {
+              "t": "Motoç namo kana da! Pnbaga ka kingal, pnngangax ka kingal, pnlb'nao ka iso ! Pnnano nanu dole ?",
+              "fr": "Vous êtes tous un peu dérangés ! Un parle par gestes (avec les mains) un autre fait l'idiot et toi tu fais le bébé ! Quelle autre attitude allez vous encore prendre?",
+              "en": "You are all a bit deranged! One talks with gestures (with his hands), another plays the fool, and you act the baby! What other attitude are you going to take on next?",
+              "zh": "你們全都有點不正常！一個用手勢比劃，一個裝傻，你則像個嬰兒撒嬌！你們還要擺出什麼別的樣子？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'BONG",
+      "tag": "(R)",
+      "fr": "Recouvrir - enfouir - enterrer.",
+      "en": "To cover over - to bury - to inter.",
+      "zh": "覆蓋－掩埋－埋葬。",
+      "examples": [
+        {
+          "t": "L'bong n'xali ka qnada daxa! nsknux da !",
+          "fr": "Enfouis vite ce qu'ils ont jeté ! celà sent mauvais !",
+          "en": "Quickly bury what they threw away! it smells bad!",
+          "zh": "快把他們丟棄的東西埋掉！好臭！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "L'mbong",
+          "paradigm": "°Lm'bong, l'bong, lbongi (lb'ngi), lbongan, lbongun.",
+          "fr": "Enterrer - ensevelir - recouvrir.",
+          "en": "To bury - to entomb - to cover over.",
+          "zh": "埋葬－掩埋－覆蓋。",
+          "examples": [
+            {
+              "t": "Lb'ngun so knuan ka Pexo ?",
+              "fr": "Quand enterreras tu Perho ?",
+              "en": "When will you bury Perho?",
+              "zh": "你什麼時候埋葬 Perho？"
+            },
+            {
+              "t": "Mnpuno nxoqel ka lodoç so; naqex oqon da! Lb'ngi da!",
+              "fr": "Ta poule est morte du choléra, elle n'est plus bonne à manger ! Il te faut l'enfouir.",
+              "en": "Your hen died of cholera, it is no longer good to eat! You must bury it.",
+              "zh": "你的雞得霍亂死了，不能再吃了！你得把牠埋掉。"
+            },
+            {
+              "t": "Lbongi bi qabang",
+              "fr": "Couvre le d'une couverture.",
+              "en": "Cover it with a blanket.",
+              "zh": "用毯子把它蓋上。"
+            }
+          ]
+        },
+        {
+          "form": "Lbongan (Lb'ngan)",
+          "fr": "Enterrement - temps, lieu de l'enterrement - ce qui a été recouvert, enseveli, enterré.",
+          "en": "Burial - the time, place of the burial - that which has been covered over, entombed, buried.",
+          "zh": "埋葬－埋葬的時間、地點－被覆蓋、掩埋、埋葬之物。",
+          "examples": [
+            {
+              "t": "Ga ino ka lb'ngan so Pexo ?",
+              "fr": "Où as tu enterré Perho ?",
+              "en": "Where did you bury Perho?",
+              "zh": "你把 Perho 埋在哪裡？"
+            },
+            {
+              "t": "Manu ka wada so lbongan kii tasil paro?",
+              "fr": "Qu'as tu enterré près de la grosse pierre?",
+              "en": "What did you bury near the big stone?",
+              "zh": "你在那塊大石頭旁邊埋了什麼？"
+            }
+          ]
+        },
+        {
+          "form": "Pl'bong",
+          "fr": "Faire enterrer - faire recouvrir.",
+          "en": "To have buried - to have covered over.",
+          "zh": "使埋葬－使覆蓋。",
+          "examples": [
+            {
+              "t": "Pxqelun miso ni plbongun (pklbongun ?) miso tasil",
+              "fr": "Je te tuerai et te ferai recouvrir d'un tas de pierres.",
+              "en": "I will kill you and have you covered over with a heap of stones.",
+              "zh": "我要殺了你，並用一堆石頭把你蓋住。"
+            }
+          ]
+        },
+        {
+          "form": "Tl'bong",
+          "fr": "Enterré, enfoui.",
+          "en": "Buried, interred.",
+          "zh": "被埋葬、被掩埋。",
+          "examples": [
+            {
+              "t": "Ini tl'bong balae",
+              "fr": "Il n'est pas vraiment (sérieusement) enfoui.",
+              "en": "He is not really (properly) buried.",
+              "zh": "他並沒有真正（好好地）埋起來。"
+            }
+          ]
+        },
+        {
+          "form": "Mtl'bong",
+          "fr": "Qui est enfoui, recouvert, enterré.",
+          "en": "That which is buried, covered over, interred.",
+          "zh": "被掩埋、覆蓋、埋葬者。",
+          "examples": [
+            {
+              "t": "Sao bi mtl'bong ka aso daxa",
+              "fr": "Leur bateau est comme s'il était recouvert (par l'eau).",
+              "en": "Their boat is as if it were covered over (by the water).",
+              "zh": "他們的船好像被（水）淹沒了一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Tlb'ngan",
+          "fr": "Le fait d'être enterré, enfoui profondément.",
+          "en": "The state of being buried, deeply interred.",
+          "zh": "被深深埋葬、掩埋的狀態。",
+          "examples": [
+            {
+              "t": "Ga tlb'ngan silong (gsilong) ka aso so da",
+              "fr": "Et voilà ton bateau recouvert par la mer !",
+              "en": "And there is your boat covered over by the sea!",
+              "zh": "你的船就這樣被海水淹沒了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'BOQ",
+      "tag": "(R)",
+      "fr": "Trou - cavité - ornière.",
+      "en": "Hole - cavity - rut.",
+      "zh": "洞－凹穴－車轍溝痕。",
+      "examples": [
+        {
+          "t": "Xlii kana l'boq ni tblae kana nbq'lo",
+          "fr": "Bouche tous les trous et nivelle toutes les bosses.",
+          "en": "Plug all the holes and level all the bumps.",
+          "zh": "把所有的洞都填上，把所有的凸起都弄平。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ml'boq",
+          "fr": "Se trouver en creux - former cavité.",
+          "en": "To be hollow - to form a cavity.",
+          "zh": "呈凹陷－形成凹穴。",
+          "examples": [
+            {
+              "t": "Ga ml'boq tityex ka nii",
+              "fr": "Ici c'est un peu bas (un peu en creux).(celà fait un creux, ici !°)",
+              "en": "Here it is a bit low (a bit hollow). (it makes a hollow here!)",
+              "zh": "這裡有點低（有點凹）。（這裡形成一個凹坑！）"
+            }
+          ]
+        },
+        {
+          "form": "Tl'boq",
+          "paradigm": "°Mtl'boq, tl'boq, tlboqe, tlboqan, tlboqon.",
+          "fr": "Qui est enfoncé - Excaver - creuser une cavité.",
+          "en": "That which is sunken - to excavate - to dig out a cavity.",
+          "zh": "凹陷者－挖掘－挖出凹穴。",
+          "examples": [
+            {
+              "t": "Ana nuda ksia o, ini bi tl'boq ka xea",
+              "fr": "Même dans l'eau il ne s'enfonce pas !",
+              "en": "Even in the water it does not sink!",
+              "zh": "即使在水裡它也不下沉！"
+            },
+            {
+              "t": "Tlboqe xali nalat gain kika mxa ntbalae kana da",
+              "fr": "Enfonce un peu là bas à droite et ce sera tout plat.",
+              "en": "Press down a little over there on the right and it will be all flat.",
+              "zh": "往右邊那裡稍微壓下去，就會全部變平了。"
+            }
+          ]
+        },
+        {
+          "form": "Mtl'boq",
+          "fr": "Qui est excavé, en creux - qui est enfoncé - profond.",
+          "en": "That which is excavated, hollow - which is sunken - deep.",
+          "zh": "被挖空、凹陷者－下陷者－深。",
+          "examples": [
+            {
+              "t": "Wada mtl'boq tlona gain",
+              "fr": "Il s'est enfoncé tout là bas au fond.",
+              "en": "It sank right down there at the bottom.",
+              "zh": "它一直沉到底下那邊去了。"
+            }
+          ]
+        },
+        {
+          "form": "Ptlboqon",
+          "fr": "Ce qu'on veut, doit rendre encore plus profond.",
+          "en": "That which one wants, or must make even deeper.",
+          "zh": "想要、或必須挖得更深之物。",
+          "examples": [
+            {
+              "t": "Ptlboqon no dole ka knliyan Pisao",
+              "fr": "Je veux rendre encore plus profond ce que Pissao a creusé.",
+              "en": "I want to make even deeper what Pissao dug.",
+              "zh": "我想把 Pissao 挖的地方挖得更深。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LBOQEL",
+      "tag": "(R)",
+      "fr": "?? Arbre au bois très léger, poussant très vite, avec une moelle très importante (comme celle du sureau); bois très apprécié. ( = Aleurites (dryandra, Elaeococca) cordata (?)).",
+      "en": "?? A tree with very light wood, growing very fast, with a very large pith (like that of the elder); wood much prized. ( = Aleurites (dryandra, Elaeococca) cordata (?)).",
+      "zh": "?? 一種木質極輕、生長極快的樹，髓心很大（像接骨木的髓）；木材非常受青睞。（＝ Aleurites (dryandra, Elaeococca) cordata (?)）。"
+    },
+    {
+      "hw": "L'BU",
+      "tag": "(R)",
+      "fr": "Court - bref - pas haut.",
+      "en": "Short - brief - not tall.",
+      "zh": "短－簡短－不高。",
+      "examples": [
+        {
+          "t": "L'bu bi ka lidil na",
+          "fr": "Son manche est court.",
+          "en": "Its handle is short.",
+          "zh": "它的柄很短。"
+        },
+        {
+          "t": "L'bu bi diyax na",
+          "fr": "Ses jours sont comptés.",
+          "en": "His days are numbered.",
+          "zh": "他的日子屈指可數了。"
+        },
+        {
+          "t": "L'bu bi xngaq ka Taosen",
+          "fr": "Taossen est moribond (son souffle est court).",
+          "en": "Taossen is dying (his breath is short).",
+          "zh": "Taossen 快死了（他的氣息短促）。"
+        },
+        {
+          "t": "L'bu bi biyax no",
+          "fr": "Je suis au bout de mes forces.",
+          "en": "I am at the end of my strength.",
+          "zh": "我已精疲力盡。"
+        },
+        {
+          "t": "L'bu bi pila na",
+          "fr": "Il est à court d'argent.",
+          "en": "He is short of money.",
+          "zh": "他缺錢。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knlbuan",
+          "fr": "Qualité d'être court (nb. semble même réalisation que: KNLBUAN = le fait d'être matinal).",
+          "en": "The quality of being short (n.b. seems to have the same realization as: KNLBUAN = the fact of being an early riser).",
+          "zh": "短的特質（註：似乎與 KNLBUAN＝早起之意，讀法相同）。",
+          "examples": [
+            {
+              "t": "Kxnu ka knlbuan na da ? ... Ya d'xok lima qatal xo ?",
+              "fr": "Quelle est sa dimension (combien est ce court)? ...Celà fait peut être cinq pas. VR. ML'BU.",
+              "en": "What is its size (how short is it)? ...That is perhaps five paces. See ML'BU.",
+              "zh": "它有多長（有多短）？……大概五步吧。參見 ML'BU。"
+            }
+          ]
+        },
+        {
+          "form": "Ml'bu (M'lbu ?) (R. = L'BU ?)",
+          "fr": "Matin. VR. ML'BU.",
+          "en": "Morning. See ML'BU.",
+          "zh": "早晨。參見 ML'BU。"
+        },
+        {
+          "form": "Sl'bu",
+          "fr": "rendre plus court - raccourcir.",
+          "en": "to make shorter - to shorten.",
+          "zh": "使更短－縮短。",
+          "examples": [
+            {
+              "t": "Sl'bu tityex ka gasil da",
+              "fr": "raccourcis un peu ta ficelle.",
+              "en": "shorten your string a little.",
+              "zh": "把你的繩子稍微剪短一點。"
+            }
+          ]
+        },
+        {
+          "form": "Msl'bu",
+          "paradigm": "° .?., Sl'bu, slbui, slbuan, slbuon.",
+          "fr": "Qui devient court - qui raccourcit - raccourcir.",
+          "en": "That which becomes short - which shrinks - to shorten.",
+          "zh": "變短者－縮水者－縮短。",
+          "examples": [
+            {
+              "t": "Wada nsl'bu pax bnxoan mo dngdang ka lukus",
+              "fr": "L'habit s'est rétréci depuis que je l'ai lavé à l'eau bouillante.",
+              "en": "The garment has shrunk since I washed it in boiling water.",
+              "zh": "這件衣服自從我用滾水洗過後就縮水了。"
+            },
+            {
+              "t": "Mxa mpsl'bu ka n'iso ole nasi so bxoon dngdang",
+              "fr": "Le tien aussi se rétrécira si tu le laves à l'eau bouillante.",
+              "en": "Yours too will shrink if you wash it in boiling water.",
+              "zh": "你的那件如果用滾水洗也會縮水。"
+            }
+          ]
+        },
+        {
+          "form": "Psl'bu",
+          "fr": "Raccourcir - rendre plus court.",
+          "en": "To shorten - to make shorter.",
+          "zh": "縮短－使更短。",
+          "examples": [
+            {
+              "t": "Pslbui xali ka usuk lukus so",
+              "fr": "raccourcis un peu les manches de ton habit.",
+              "en": "shorten the sleeves of your garment a little.",
+              "zh": "把你衣服的袖子稍微改短一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'BUK",
+      "tag": "(R)",
+      "fr": "Fatigue.",
+      "en": "Fatigue - tiredness.",
+      "zh": "疲勞。",
+      "examples": [
+        {
+          "t": "Kana kmpaxan no nii o, lbuk no kana !",
+          "fr": "Tous mes champs que voilà, c'est toute ma fatigue (ce sont tous des fruits de ma fatigue).",
+          "en": "All these fields of mine, they are all my toil (they are all the fruits of my labor).",
+          "zh": "我這些田地，全都是我辛勞的結果（都是我勞累的成果）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkl'buk",
+          "fr": "Qui est fatigué - éreinté.",
+          "en": "That which is tired - worn out.",
+          "zh": "疲累者－精疲力竭者。",
+          "examples": [
+            {
+              "t": "Ya xan ! Mkl'buk balae ka tana so sayang",
+              "fr": "Attends un peu ! Ton père est vraiment très fatigué en ce moment !",
+              "en": "Wait a moment! Your father is really very tired right now!",
+              "zh": "等一下！你父親現在真的很累！"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Local Netlify folder
+.netlify
+
+# Raw page scans (huge; archive/pecoraro_taroko_scan.pdf is the compressed backup we keep)
+scans/
+

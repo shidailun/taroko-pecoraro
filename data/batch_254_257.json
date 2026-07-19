@@ -1,0 +1,750 @@
+{
+  "pages": [254, 257],
+  "leadin": {
+    "fr": "maison. 3) Partant de bases indiquant un être concret, un pronom, ce préfixe leur donne une forme verbale, d'état ou d'action, indiquant une expression, une réalisation du message de la base : Ita = Nous ; Sd'ita = qui se fait nous (= qui s'intègre, être solidaire, être sociable). Bgixol = vent ; Sbgixol = souffler. L'xbun = Le creux de l'estomac ; Sl'xbun = se faire du souci. nb.) D'autres réalisations semblent pouvoir se réduire à l'une de ces trois formes ci-dessus ; par exemple : Tbako = tabac ; Stbako = sentir le tabac. Sakus = Camphre ; Ssakus = sentir le camphre. Sinao = vin ; Ssinao = sentir le vin. etc....",
+    "en": "…house. 3) Starting from bases indicating a concrete being, a pronoun, this prefix gives them a verbal form, of state or of action, indicating an expression, a realization of the message of the base: Ita = We; Sd'ita = that which makes itself \"us\" (= that integrates, that is united, that is sociable). Bgixol = wind; Sbgixol = to blow. L'xbun = The hollow of the stomach; Sl'xbun = to worry oneself. n.b.) Other realizations seem reducible to one of these three forms above; for example: Tbako = tobacco; Stbako = to smell of tobacco. Sakus = Camphor; Ssakus = to smell of camphor. Sinao = wine; Ssinao = to smell of wine. etc....",
+    "zh": "……房子。3) 從表示具體事物的詞根、代名詞出發，這個前綴賦予它們動詞形式（狀態或動作），表達一種展現、詞根意義的實現：Ita ＝ 我們；Sd'ita ＝ 使自己成為「我們」的一員（＝融入、團結、合群）。Bgixol ＝ 風；Sbgixol ＝ 吹。L'xbun ＝ 胃的凹處；Sl'xbun ＝ 擔憂。註）其他的實現形式似乎都可歸結為上述三種形式之一；例如：Tbako ＝ 菸草；Stbako ＝ 聞到菸味。Sakus ＝ 樟腦；Ssakus ＝ 聞到樟腦味。Sinao ＝ 酒；Ssinao ＝ 聞到酒味。等等……",
+    "examples": [
+      {
+        "t": "Mnsa mali padyaq spxapwi na txlangan ka xea",
+        "fr": "Elle est allée acheter des légumes pour faire à manger aux autorités.",
+        "en": "She has gone to buy vegetables to cook a meal for the authorities.",
+        "zh": "她去買菜為當局做飯了。"
+      },
+      {
+        "t": "Biyoq onoç milit ka balae bi sq'tol sdyaqon",
+        "fr": "C'est le lait de chèvre qui engraisse vraiment les gens (qui est un très bon fortifiant).",
+        "en": "It is goat's milk that really fattens people up (which is a very good tonic).",
+        "zh": "羊奶最能讓人長胖（是很好的補品）。"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "SAANG",
+      "tag": "(R)",
+      "fr": "Réprimander - gronder - blâmer - crier (en colère).",
+      "en": "To reprimand - to scold - to blame - to shout (in anger).",
+      "zh": "責備－斥責－責怪－（生氣地）喊叫。",
+      "subs": [
+        {
+          "form": "Msaang",
+          "paradigm": "° Msaang, saang, sngi, sngan, sngun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ini k'la msaang ka tama",
+              "fr": "Ce n'est pas dans la nature de papa de crier (de gronder).",
+              "en": "It is not in papa's nature to shout (to scold).",
+              "zh": "爸爸生性不會喊叫（斥責）。"
+            },
+            {
+              "t": "Adi ko bi da ! Sngun ko na dole ka bobo",
+              "fr": "C'est fini, je ne veux plus ! Je vais (j'irais) encore me faire disputer par maman.",
+              "en": "That's it, I don't want to any more! I'll get told off by mum again.",
+              "zh": "夠了，我不要了！我又要被媽媽罵了。"
+            }
+          ]
+        },
+        {
+          "form": "Sngan (S'ngan ?)",
+          "fr": "Blâme (infligé) - temps, lieu de la réprimande.",
+          "en": "Blame (inflicted) - the time, place of the reprimand.",
+          "zh": "（施加的）責備－責備的時間、地點。",
+          "examples": [
+            {
+              "t": "Manu bi ka tndlasan so suni? ... Sngan ko na bobo ka kia!",
+              "fr": "Qu'est-ce que tu avais à crier tout à l'heure? ... C'est maman qui m'a disputé !",
+              "en": "What did you have to shout about just now? ... It's mum who told me off!",
+              "zh": "你剛才在喊什麼？……是媽媽罵了我！"
+            }
+          ]
+        },
+        {
+          "form": "Knsngan",
+          "fr": "La semonce - la réprimande (abstrait). (nb.1) Knsngan = réprimande (R. = SAANG) et 2) Kns'gan = Peur (R. = KISO).",
+          "en": "The admonition - the reprimand (abstract). (n.b. 1) Knsngan = reprimand (root = SAANG) and 2) Kns'gan = Fear (root = KISO).",
+          "zh": "訓誡－責備（抽象）。（註一）Knsngan ＝ 責備（詞根＝SAANG），（二）Kns'gan ＝ 害怕（詞根＝KISO）。",
+          "examples": [
+            {
+              "t": "Miso ko bi lmnglong knsngan daxa",
+              "fr": "J'ai peur de me faire disputer ( J'ai peur en pensant à leur semonce).",
+              "en": "I am afraid of being told off (I am afraid when I think of their admonition).",
+              "zh": "我怕被罵（一想到他們的訓斥就害怕）。"
+            }
+          ]
+        },
+        {
+          "form": "Psaang",
+          "fr": "Faire disputer, blâmer..",
+          "en": "To give cause for scolding, to blame.",
+          "zh": "招致責罵、責怪。",
+          "examples": [
+            {
+              "t": "Ini psaang bobo na kddiyax ka Umao",
+              "fr": "Oumao ne fait jamais disputer sa mère.",
+              "en": "Oumao never gives his mother cause to scold.",
+              "zh": "Oumao 從不惹他母親生氣責罵。"
+            },
+            {
+              "t": "Ini muda psaang bobo kddiyax ka Umao",
+              "fr": "Oumao ne se fait jamais disputer par sa mère.",
+              "en": "Oumao never gets told off by his mother.",
+              "zh": "Oumao 從不被他母親責罵。"
+            }
+          ]
+        },
+        {
+          "form": "Spsaang",
+          "fr": "Prétexte pour blâmer.",
+          "en": "Pretext for blaming.",
+          "zh": "責怪的藉口。",
+          "examples": [
+            {
+              "t": "Ya manu bi ka spsaang daolyaq so",
+              "fr": "Qu'est-ce qui te donne (toujours) ce regard courroucé ? (fait que tes yeux blâment).",
+              "en": "What gives you that (constantly) angry look? (makes your eyes reproachful).",
+              "zh": "是什麼讓你（總是）這副怒目而視的樣子？（讓你的眼神帶著責怪）。"
+            }
+          ]
+        },
+        {
+          "form": "Tgksaang (= Tisaang ?)",
+          "fr": "Dans un état très courroucé (de fait).",
+          "en": "In a very angry state (as a fact).",
+          "zh": "處於非常憤怒的狀態（實際上）。",
+          "examples": [
+            {
+              "t": "Xmut tgksaang ka Tadao",
+              "fr": "Tadao s'est mis dans une colère noire sans raison.",
+              "en": "Tadao flew into a black rage for no reason.",
+              "zh": "Tadao 無緣無故大發雷霆。"
+            }
+          ]
+        },
+        {
+          "form": "Tisaang",
+          "fr": "Mal tourné - de mauvaise humeur.",
+          "en": "Ill-disposed - in a bad mood.",
+          "zh": "心情不佳－脾氣壞。",
+          "examples": [
+            {
+              "t": "Sao tisaang xali ka qnita so!",
+              "fr": "Ton regard semble montrer que tu es de mauvaise humeur.",
+              "en": "Your expression seems to show that you are in a bad mood.",
+              "zh": "你的神情似乎顯示你心情不好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SABAK",
+      "tag": "(R)",
+      "fr": "Petit récipient servant de mesure pour une charge de poudre que les taroko mettent dans leur fusil par l'extrémité du canon.",
+      "en": "Small container used as a measure for a charge of powder that the Taroko put into their gun through the end of the barrel.",
+      "zh": "一種小容器，用作量取火藥的量具，太魯閣人由槍管末端把火藥裝入槍中。"
+    },
+    {
+      "hw": "SADO",
+      "tag": "(R)",
+      "fr": "Travail fait contre une rétribution - salaire.",
+      "en": "Work done for a payment - wage.",
+      "zh": "有酬勞的工作－工資。",
+      "subs": [
+        {
+          "form": "Smado",
+          "paradigm": "° Smado, sado, sdui, sdoan, sdoon.",
+          "fr": "Embaucher - engager des salariés - payer un salaire.",
+          "en": "To hire - to take on wage-earners - to pay a wage.",
+          "zh": "僱用－聘請雇工－支付工資。",
+          "examples": [
+            {
+              "t": "Lmnglong ko smado sadyaq pqali kingal litoq slaq mo",
+              "fr": "Je pense embaucher des ouvriers et creuser (faire) une (pièce) de rizière.",
+              "en": "I am thinking of hiring workers and digging (making) a paddy field.",
+              "zh": "我打算僱工開墾一塊水田。"
+            },
+            {
+              "t": "Ongat ka smado sadyaq",
+              "fr": "Il n'y a personne qui embauche.",
+              "en": "There is no one who hires.",
+              "zh": "沒有人僱工。"
+            }
+          ]
+        },
+        {
+          "form": "Msado",
+          "fr": "S'embaucher pour un salaire.",
+          "en": "To hire oneself out for a wage.",
+          "zh": "受僱賺取工資。",
+          "examples": [
+            {
+              "t": "Mxa ko msado daya",
+              "fr": "Je vais m'embaucher là-haut.",
+              "en": "I am going to hire myself out up there.",
+              "zh": "我要上去那裡打工。"
+            }
+          ]
+        },
+        {
+          "form": "Sdoan",
+          "fr": "Salaire (donné) - embauche (temps, lieu, circonstances de l').",
+          "en": "Wage (given) - the hiring (its time, place, circumstances).",
+          "zh": "（給付的）工資－僱用（的時間、地點、情況）。",
+          "examples": [
+            {
+              "t": "Naqex bi sdoan sadyaq ka sayang",
+              "fr": "De nos jours, il n'est pas facile de trouver des ouvriers (vl. Il n'est pas facile d'employer des ouvriers).",
+              "en": "Nowadays it is not easy to find workers (var. It is not easy to employ workers).",
+              "zh": "如今不容易找到工人（或：不容易僱到工人）。"
+            }
+          ]
+        },
+        {
+          "form": "Psado",
+          "fr": "Donner un salaire - se faire donner un salaire.",
+          "en": "To give a wage - to get oneself given a wage.",
+          "zh": "給付工資－讓人付給自己工資。",
+          "examples": []
+        },
+        {
+          "form": "Mpsado",
+          "fr": "Ouvier - salarié - embaucher (au futur).",
+          "en": "Worker [Ouvier, for Ouvrier] - wage-earner - to hire (in the future).",
+          "zh": "工人－受薪者－僱用（未來式）。",
+          "examples": [
+            {
+              "t": "Uxai nami ndmpatas ka yami; dmpsado yami ka yani",
+              "fr": "Nous ne sommes pas des intellectuels, nous autres, nous ne sommes que des salariés (manuels).",
+              "en": "We are not intellectuals, we others; we are only (manual) wage-earners.",
+              "zh": "我們不是讀書人，我們只是（勞力）受薪者而已。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SADYAQ",
+      "tag": "(R)",
+      "crossRef": "VR. SADYAQ (2)",
+      "fr": "Personne (humaine) - Les autres ( étrangers à nous, à moi) - on.",
+      "en": "Person (human) - The others (strangers to us, to me) - one / people.",
+      "zh": "人（人類）－別人（與我們、與我無關的外人）－人家。",
+      "examples": [
+        {
+          "t": "Kari sadyaq o,",
+          "fr": "On dit que..",
+          "en": "People say that…",
+          "zh": "人家說……"
+        },
+        {
+          "t": "Nyeqan ka kari sadyaq",
+          "fr": "Il-y-a des qu'en-dira-t-on.",
+          "en": "There is gossip (talk from others).",
+          "zh": "有閒言閒語。"
+        },
+        {
+          "t": "Nyeqan kari ka sadyaq",
+          "fr": "la personne a (il-y-en a qui ont) quelque chose à dire.",
+          "en": "the person has (there are those who have) something to say.",
+          "zh": "那個人有（有些人有）話要說。"
+        },
+        {
+          "t": "Sadyaq bi ka xea",
+          "fr": "Lui, c'est un vrai taroko !",
+          "en": "Him — he is a true Taroko!",
+          "zh": "他是個真正的太魯閣人！"
+        },
+        {
+          "t": "Sadyaq bi manu ka nii?",
+          "fr": "Quelle sorte d'homme est-il celui-ci ?",
+          "en": "What sort of man is this one?",
+          "zh": "這是個什麼樣的人？"
+        },
+        {
+          "t": "Laqe so bi nanak ka kia ? ... Uxai laqe mo! Laqe sadyaq!",
+          "fr": "Celui dont on parle est-ce ton propre fils? ... Non, ce n'est pas mon fils, c'est un enfant des autres !",
+          "en": "The one being spoken of — is he your own son? ... No, he is not my son, he is someone else's child!",
+          "zh": "所說的那個人是你親生的兒子嗎？……不，不是我兒子，是別人家的孩子！"
+        },
+        {
+          "t": "Kari sadyaq o, mpg'gui so ka iso",
+          "fr": "Les gens disent que tu es un voleur !",
+          "en": "People say that you are a thief!",
+          "zh": "人家說你是小偷！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msadyaq",
+          "fr": "Devenir, être devenu personne - se comporter comme une personne humaine.",
+          "en": "To become, to have become a person - to behave like a human being.",
+          "zh": "成為、變成一個人－表現得像個人。",
+          "examples": [
+            {
+              "t": "Mnotoç suxal ka laqe nii ni, wada wada malu ni, msadyaq bi da!",
+              "fr": "Ce gosse était un vaurien, autrefois et, petit à petit il s'est bonifié et le voilà devenu normal (un homme vrai).",
+              "en": "This kid was a good-for-nothing before, and little by little he improved, and now he has become normal (a true man).",
+              "zh": "這孩子以前是個無賴，後來漸漸變好，如今成了正常人（一個真正的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Sdyaqon",
+          "fr": "(Avec le verbe \"aller\" =) prendre mari.",
+          "en": "(With the verb \"to go\" =) to take a husband (to marry, of a woman).",
+          "zh": "（與動詞「去」連用＝）出嫁、嫁人。",
+          "examples": [
+            {
+              "t": "Wada sdyaqon sknuwan ka Diko ?",
+              "fr": "Quand est-ce que Djiko s'est mariée ?",
+              "en": "When did Djiko get married?",
+              "zh": "Djiko 什麼時候出嫁的？"
+            },
+            {
+              "t": "Lngagi sdyaqon ka kia!",
+              "fr": "Dis le aux gens, cela ! (nb. Exemple, sans doute unique, où le suffixe ON intervient dans un cas (oblique) où est attendu le suffixe: AN ! Pourquoi cette anomalie ?).",
+              "en": "Tell that to people! (n.b. An example, no doubt unique, where the suffix ON occurs in an (oblique) case where the suffix AN is expected! Why this anomaly?).",
+              "zh": "把這事告訴大家！（註：這大概是唯一一個例子，後綴 ON 出現在本該用後綴 AN 的（間接）格位上！為何有此異常？）"
+            }
+          ]
+        },
+        {
+          "form": "Ssadyaq",
+          "fr": "Les gens - les personnes (pluriel) - Les hommes (en général).",
+          "en": "People - persons (plural) - human beings (in general).",
+          "zh": "人們－眾人（複數）－人類（泛指）。",
+          "examples": [
+            {
+              "t": "Kana ssadyaq nbabao d'xgal",
+              "fr": "Tous les hommes du monde - L'humanité.",
+              "en": "All the people of the world - Humanity.",
+              "zh": "世上所有的人－人類。"
+            }
+          ]
+        },
+        {
+          "form": "Knsadyaq",
+          "fr": "Intensité de beau - très beau - très ressemblant à une personne humaine - un vrai type de personne.",
+          "en": "Intensity of beauty - very beautiful - very like a human person - a real type of a person.",
+          "zh": "美的程度－非常美－非常像人－一個真正的人樣。",
+          "examples": [
+            {
+              "t": "Tayai knsadyaq bi taan!",
+              "fr": "Comme c'est vraiment beau (= surtout en parlant de personnes humaines mais souvent employé aussi pour tout autre spectacle).",
+              "en": "How truly beautiful it is! (= especially when speaking of human persons, but often used too for any other sight).",
+              "zh": "真是太美了！（＝尤其用於形容人，但也常用於任何其他景象）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SADYAQ",
+      "tag": "(2)",
+      "fr": "\"Les hommes\" = Appellation par laquelle les taroko désignent l'une des trois branches de la famille TAYAL, celle dont ils font partie en même temps que les TUDA, les TAOSAI, et surtout les BLIBAO. Les deux autres branches sont: 1) les SQOLYEQ, 2) Les SAO'LE.",
+      "en": "\"The people/men\" = The name by which the Taroko designate one of the three branches of the TAYAL family, the one to which they belong together with the TUDA, the TAOSAI, and above all the BLIBAO. The two other branches are: 1) the SQOLYEQ, 2) the SAO'LE.",
+      "zh": "「人／人們」＝太魯閣人用以稱呼 TAYAL（泰雅）族三大分支之一的名稱，即他們與 TUDA、TAOSAI，尤其是 BLIBAO 共同所屬的那一支。另外兩支是：1) SQOLYEQ，2) SAO'LE。"
+    },
+    {
+      "hw": "SAGAS",
+      "tag": "(R)",
+      "fr": "Pastèque.",
+      "en": "Watermelon.",
+      "zh": "西瓜。",
+      "examples": [
+        {
+          "t": "Msksia balae ni msibus ole ka sagas so",
+          "fr": "Ta (tes) pastèque est très juteuse et sucrée.",
+          "en": "Your watermelon is very juicy and sweet.",
+          "zh": "你的西瓜很多汁又很甜。"
+        }
+      ]
+    },
+    {
+      "hw": "SAGO",
+      "tag": "(R)",
+      "fr": "Grain de millet.",
+      "en": "Grain of millet.",
+      "zh": "小米粒。"
+    },
+    {
+      "hw": "SA'GUL",
+      "tag": "(S\"GUL ?) (R. = MA'GUL ?)",
+      "fr": "Etre attaché.",
+      "en": "To be tied / attached.",
+      "zh": "被綁住、被拴住。",
+      "examples": [
+        {
+          "t": "Mqeta namo kingal wawa loba s\"gul",
+          "fr": "Vous verrez un petit d'âne attaché (?).",
+          "en": "You will see a young donkey tied up (?).",
+          "zh": "你們會看到一頭拴著的小驢（?）。"
+        }
+      ]
+    },
+    {
+      "hw": "SAIS",
+      "tag": "(R)",
+      "fr": "Le coudre.",
+      "en": "Sewing (the act of sewing).",
+      "zh": "縫紉（縫的動作）。",
+      "examples": [
+        {
+          "t": "Ma\" ini so sais ka sayang ?",
+          "fr": "Pourquoi (comment se fait-il que) tu ne couds pas aujourd'hui ?",
+          "en": "Why (how is it that) you are not sewing today?",
+          "zh": "為什麼（怎麼會）你今天不縫？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smais",
+          "paradigm": "° Smais, sais, sisi, sisan, sisun.",
+          "fr": "Coudre.",
+          "en": "To sew.",
+          "zh": "縫。",
+          "examples": [
+            {
+              "t": "Smais ko kingal lukus so ni kia da!",
+              "fr": "Je couds encore ton habit et ce sera tout.",
+              "en": "I'll just sew your garment and that will be all.",
+              "zh": "我再縫你的衣服，就這樣了。"
+            },
+            {
+              "t": "Xmut lala bi ka sisun mo",
+              "fr": "J'ai énormément à coudre !",
+              "en": "I have an enormous amount to sew!",
+              "zh": "我要縫的東西多得很！"
+            },
+            {
+              "t": "Ini no sisi sayang ka lukus nii o, ongat bi diyax mo da, adi mo sisun betak n'xal !",
+              "fr": "Si je ne me force pas à coudre cet habit maintenant, je n'aurai plus le temps, je ne pourrai plus le coudre (jusqu'à la saint-glinglin).",
+              "en": "If I don't force myself to sew this garment now, I won't have time any more, I won't be able to sew it (till kingdom come).",
+              "zh": "如果我現在不逼自己縫這件衣服，我就再沒空了，就永遠縫不成了。"
+            }
+          ]
+        },
+        {
+          "form": "Msais",
+          "fr": "Couturier - la personne qui coud.",
+          "en": "Tailor - the person who sews.",
+          "zh": "裁縫－縫紉的人。",
+          "examples": [
+            {
+              "t": "Tai ka msais nii o, mk'la bi snais!",
+              "fr": "Ce couturier est très expert en couture.",
+              "en": "This tailor is very expert at sewing.",
+              "zh": "這位裁縫縫紉技術很精。"
+            }
+          ]
+        },
+        {
+          "form": "Sisan",
+          "fr": "Manière de coudre - lieu, temps de couture - objet qu'on coud.",
+          "en": "Manner of sewing - place, time of sewing - the object one sews.",
+          "zh": "縫法－縫紉的地點、時間－所縫的物件。",
+          "examples": [
+            {
+              "t": "Usa nanak sapax sisan",
+              "fr": "Tu n'as qu'à aller à la salle de couture.",
+              "en": "Just go to the sewing room.",
+              "zh": "你去縫紉室就是了。"
+            },
+            {
+              "t": "Malu bi sisan na ka Aki",
+              "fr": "Aki est très bonne couturière (sa manière de coudre est très bonne).",
+              "en": "Aki is a very good seamstress (her way of sewing is very good).",
+              "zh": "Aki 是很好的裁縫（她的縫法很好）。"
+            },
+            {
+              "t": "Mxa daxa sisan ka tlona",
+              "fr": "Il faudra deux coutures dans le bas.",
+              "en": "Two seams will be needed at the bottom.",
+              "zh": "下擺需要縫兩道。"
+            }
+          ]
+        },
+        {
+          "form": "Snisan",
+          "fr": "Ce qui a été cousu - L'endroit où il-y-a la couture (faite).",
+          "en": "What has been sewn - the place where there is the (finished) seam.",
+          "zh": "已縫好的東西－有（縫好的）縫線之處。",
+          "examples": [
+            {
+              "t": "Ini xali tai (ktai(?)) ka snisan lukus so",
+              "fr": "On ne voit presque pas les coutures de ton habit.",
+              "en": "One can hardly see the seams of your garment.",
+              "zh": "幾乎看不出你衣服的縫線。"
+            }
+          ]
+        },
+        {
+          "form": "Smnais",
+          "fr": "L'action de coudre dans le passé.",
+          "en": "The act of sewing in the past.",
+          "zh": "過去縫紉的動作。",
+          "examples": [
+            {
+              "t": "Smnais ko kingal diyax s'xiga",
+              "fr": "Hier, j'ai cousu tout un jour.",
+              "en": "Yesterday I sewed all day long.",
+              "zh": "昨天我縫了一整天。"
+            }
+          ]
+        },
+        {
+          "form": "Snais",
+          "fr": "Ce qui a été cousu.",
+          "en": "What has been sewn.",
+          "zh": "已縫成的東西。",
+          "examples": [
+            {
+              "t": "Ga ino ka snais so lukus tbilan",
+              "fr": "Où sont ils donc les habits de fête que tu as faits (cousus) ?",
+              "en": "Where then are the festival garments that you made (sewed)?",
+              "zh": "你做（縫）的節慶衣服到底在哪裡？"
+            }
+          ]
+        },
+        {
+          "form": "Knsais",
+          "fr": "Désirer coudre.",
+          "en": "To wish to sew.",
+          "zh": "想縫。",
+          "examples": [
+            {
+              "t": "Knsais ko bi lukus tama mo",
+              "fr": "Je voudrais bien faire (coudre) les habits de papa.",
+              "en": "I would really like to make (sew) papa's clothes.",
+              "zh": "我很想做（縫）爸爸的衣服。"
+            }
+          ]
+        },
+        {
+          "form": "Knpsais",
+          "fr": "Désirer faire coudre.",
+          "en": "To wish to have (something) sewn.",
+          "zh": "想請人縫。",
+          "examples": [
+            {
+              "t": "Knpsais ko bi kingal lukus kmpaxan",
+              "fr": "J'aimerais bien faire faire (coudre) un habit de travail.",
+              "en": "I would really like to have a work garment made (sewn).",
+              "zh": "我很想請人做（縫）一件工作服。"
+            }
+          ]
+        },
+        {
+          "form": "Psais",
+          "paradigm": "° Mpsais, psais, psisi, psisan, psisun.",
+          "fr": "Faire coudre - faire faire un habit.",
+          "en": "To have (something) sewn - to have a garment made.",
+          "zh": "請人縫－請人做衣服。",
+          "examples": [
+            {
+              "t": "Psisun miso kia kingal libul laqe",
+              "fr": "Je vais (tout à l'heure) te faire faire une culotte pour mon fils.",
+              "en": "I am going (shortly) to have you make a pair of shorts for my son.",
+              "zh": "我等一下要請你替我兒子做一條褲子。"
+            }
+          ]
+        },
+        {
+          "form": "Psisan",
+          "fr": "La couture qu'on fait faire - L'action de faire coudre.",
+          "en": "The sewing one has done by another - the act of having (something) sewn.",
+          "zh": "請人代縫的縫紉活兒－請人縫的動作。",
+          "examples": [
+            {
+              "t": "Smais ko nanak lukus mo ka yako! Mklae bi ka psisan!",
+              "fr": "Je couds moi même mes habits ! C'est très cher de les faire coudre !",
+              "en": "I sew my own clothes myself! It is very expensive to have them sewn!",
+              "zh": "我自己縫我的衣服！請人縫太貴了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAISAI",
+      "tag": "(R)",
+      "fr": "Epi.",
+      "en": "Ear (of grain).",
+      "zh": "穗。",
+      "examples": [
+        {
+          "t": "Saisai maso",
+          "fr": "Un épi de millet.",
+          "en": "An ear of millet.",
+          "zh": "一支小米穗。"
+        }
+      ]
+    },
+    {
+      "hw": "SAKUS",
+      "tag": "(R)",
+      "fr": "Camphre.",
+      "en": "Camphor.",
+      "zh": "樟腦。",
+      "examples": [
+        {
+          "t": "Ida bi mxa mlinal pusu ka xmaon mo sakus bukwi sapax Lixang",
+          "fr": "Les camphriers que je veux planter derrière chez Lirhang, je pense qu'ils tourneront autour de cinquante pieds (il-y-en aura dans les cinquante pieds).",
+          "en": "The camphor trees I want to plant behind Lirhang's place — I think there will be around fifty of them (there will be about fifty plants).",
+          "zh": "我想種在 Lirhang 家後面的樟樹，我想大約會有五十棵（差不多五十棵）。"
+        },
+        {
+          "t": "Pusu sakus",
+          "fr": "Un camphrier.",
+          "en": "A camphor tree.",
+          "zh": "一棵樟樹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ssakus",
+          "fr": "Exhaler une odeur de camphre - qui sent le camphre.",
+          "en": "To give off a smell of camphor - that smells of camphor.",
+          "zh": "散發樟腦味－有樟腦味。",
+          "examples": [
+            {
+              "t": "Ssakus kana baga mo da",
+              "fr": "Et voilà que mes mains sont tout imprégnées de camphre (sentent le camphre).",
+              "en": "And now my hands are all impregnated with camphor (they smell of camphor).",
+              "zh": "我的手都沾滿了樟腦味（都是樟腦味）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SALI",
+      "tag": "(R)",
+      "fr": "Taro (comestible).",
+      "en": "Taro (edible).",
+      "zh": "芋頭（可食）。",
+      "examples": [
+        {
+          "t": "Maso ni, bonga ni, sali, Kia ka oqon bi troko suxal!",
+          "fr": "Du millet, des patates douces, des taro, voilà la nourriture ordinaire des taroko autrefois.",
+          "en": "Millet, sweet potatoes, taro — that was the ordinary food of the Taroko in the old days.",
+          "zh": "小米、地瓜、芋頭，這就是從前太魯閣人的日常食物。"
+        }
+      ]
+    },
+    {
+      "hw": "SALU",
+      "tag": "(R)",
+      "fr": "Construire - réparer - cuire - préparer.",
+      "en": "To build - to repair - to cook - to prepare.",
+      "zh": "建造－修理－煮－準備。",
+      "examples": [
+        {
+          "t": "Ini ko salu sapax ka yako!",
+          "fr": "Moi, je ne construis pas de maison.",
+          "en": "As for me, I don't build houses.",
+          "zh": "我啊，我不蓋房子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smalu",
+          "paradigm": "° Smalu, salu, slui, sluan, sluon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Adi: smalu lukus! Smais lukus, msa ta ka ita",
+              "fr": "Nous, nous ne disons pas: smalu lukus (= construire des habits), mais: smais lukus (=coudre des habits).",
+              "en": "We do not say: smalu lukus (= to build clothes), but: smais lukus (= to sew clothes).",
+              "zh": "我們不說 smalu lukus（＝建造衣服），而說 smais lukus（＝縫衣服）。"
+            }
+          ]
+        },
+        {
+          "form": "Msalu",
+          "fr": "Constructeur - celui qui construit.",
+          "en": "Builder - the one who builds.",
+          "zh": "建造者－蓋房子的人。",
+          "examples": [
+            {
+              "t": "Yako ka msalu sapax",
+              "fr": "C'est moi qui construit une maison.",
+              "en": "It is I who build a house.",
+              "zh": "是我在蓋房子。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsalu",
+          "fr": "Construire (au futur) - Celui qui fait construire.",
+          "en": "To build (in the future) - the one who has (something) built.",
+          "zh": "建造（未來式）－請人建造的人。",
+          "examples": [
+            {
+              "t": "Ima ka mpsalu sapax nii?",
+              "fr": "Qui est-ce qui fait construire cette maison ?",
+              "en": "Who is having this house built?",
+              "zh": "這房子是誰在請人蓋的？"
+            },
+            {
+              "t": "Adi ko biyao mpsalu (ko) sapax",
+              "fr": "Je vais bientôt construire une maison.",
+              "en": "I am going to build a house soon.",
+              "zh": "我很快要蓋一棟房子。"
+            }
+          ]
+        },
+        {
+          "form": "MSALU",
+          "fr": "Faire - préparer - tout spécialement la cérémonie très festive qui consiste à faire fermenter la bierre de millet (= SINAO MASO) qui est indispensable pour toute fête et tout spécialement pour le mariage d'un fils.",
+          "en": "To make - to prepare - most especially the very festive ceremony that consists in fermenting millet beer (= SINAO MASO), which is indispensable for any feast and most especially for the marriage of a son.",
+          "zh": "製作－準備－特別是指釀造小米酒（＝SINAO MASO）這項極為喜慶的儀式；小米酒是任何節慶所不可或缺的，尤其是兒子的婚禮。",
+          "examples": [
+            {
+              "t": "Ga msalu ka dxea da; adi biyao ka pntlyaan laqe na da!",
+              "fr": "Ils sont occupés à fabriquer la bierre; c'est bientôt le mariage de leur garçon !",
+              "en": "They are busy making the beer; their boy's wedding is coming soon!",
+              "zh": "他們正忙著釀酒；他們兒子的婚禮快到了！"
+            }
+          ]
+        },
+        {
+          "form": "Sluan",
+          "fr": "Ce qui a été construit, temps, mode de construction.",
+          "en": "What has been built, the time, the manner of construction.",
+          "zh": "已建成之物、建造的時間、方式。",
+          "examples": [
+            {
+              "t": "Pida bi sluan so sapax siida",
+              "fr": "Juste au moment (dans la période) où tu construisais la maison.",
+              "en": "Just at the moment (in the period) when you were building the house.",
+              "zh": "正當你蓋房子的那個時候（那段期間）。"
+            }
+          ]
+        },
+        {
+          "form": "Slaan",
+          "fr": "(Pourquoi ces deux formes d'affixation du AN -- qu'on retrouve d'ailleurs en quelques autres cas -- SLUAN et SLAAN ?) = Endroit où se fera la construction.",
+          "en": "(Why these two forms of AN-affixation -- found moreover in a few other cases -- SLUAN and SLAAN?) = Place where the building will be done.",
+          "zh": "（為什麼 AN 的附加會有這兩種形式——在其他若干情況中也可見到——SLUAN 與 SLAAN？）＝將要進行建造的地點。",
+          "examples": [
+            {
+              "t": "Knsalu so sapax o, nyeqan ka slaan so?",
+              "fr": "Tu voudrais construire une maison, est-ce que tu as le terrain pour la bâtir ?",
+              "en": "You would like to build a house — do you have the land to build it on?",
+              "zh": "你想蓋房子，你有蓋房子的地嗎？"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

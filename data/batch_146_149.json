@@ -1,0 +1,792 @@
+{
+  "pages": [146, 149],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pplana",
+        "fr": "Pour augmenter - pour étendre - pour multiplier.",
+        "en": "To increase - to extend - to multiply.",
+        "zh": "為了增加－為了擴展－為了增多。",
+        "examples": [
+          {
+            "t": "Mnali ko kingal litok kmpaxan daxa pplana kmpaxan mo bonga",
+            "fr": "J'ai acheté aux autres un coin de terrain pour agrandir mon champ de patates douces.",
+            "en": "I bought a plot of land from others to enlarge my sweet-potato field.",
+            "zh": "我向別人買了一塊地，以擴大我的地瓜田。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "LANAQ",
+      "tag": "(R)",
+      "fr": "Flamme.",
+      "en": "Flame.",
+      "zh": "火焰。",
+      "examples": [
+        {
+          "t": "Snqama ka sapax so sida do, sao bi smiso taan ka paro llanaq",
+          "fr": "Quand ta maison brûlait les grandes flammes faisaient vraiment peur.",
+          "en": "When your house was burning, the great flames were truly frightening to see.",
+          "zh": "當你的房子燃燒時，那巨大的火焰看起來真的很可怕。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlanaq",
+          "fr": "S'enflammer.",
+          "en": "To catch fire - to burst into flame.",
+          "zh": "起火、燃燒起來。",
+          "examples": [
+            {
+              "t": "Ana mkmpxeng ka taxot so o, yupi binao, ida mxa nlanaq dole",
+              "fr": "Même si ton feu semble s'éteindre, souffle donc un peu, et il y aura de nouveau des flammes.",
+              "en": "Even if your fire seems to be going out, blow on it a little and there will be flames again.",
+              "zh": "即使你的火看起來快熄滅了，就吹一下，火焰又會再燃起來。"
+            }
+          ]
+        },
+        {
+          "form": "Slanaq",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            {
+              "t": "Wada so psaon manu slanaq so taxot ?",
+              "fr": "Qu'est ce que tu as mis dans le feu qui a fait monter la flamme ?",
+              "en": "What did you put in the fire that made the flame rise up?",
+              "zh": "你在火裡放了什麼，使得火焰竄了起來？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LANGAX",
+      "tag": "(R)",
+      "fr": "Ouverture béante.",
+      "en": "Gaping opening.",
+      "zh": "敞開的裂口／大口。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlangax",
+          "fr": "Grand ouvert - béant.",
+          "en": "Wide open - gaping.",
+          "zh": "大開的、敞開的。",
+          "examples": [
+            {
+              "t": "Mlangax bi ka l'xngun sapax na",
+              "fr": "La porte de sa maison est grand-ouverte.",
+              "en": "The door of his house is wide open.",
+              "zh": "他家的門大開著。"
+            },
+            {
+              "t": "Ida nlangax ka npaqan daxa baga mo",
+              "fr": "Elle est encore grand-ouverte la blessure qu'ils m'ont fait à la main.",
+              "en": "The wound they gave me on my hand is still wide open.",
+              "zh": "他們在我手上弄出的傷口還敞開著。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LANGI",
+      "tag": "( R. = ?)",
+      "fr": "?? Ebêté ? Sans vigueur ?",
+      "en": "?? Stupefied? Without vigour?",
+      "zh": "？？呆滯？沒有活力？",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlangi",
+          "fr": "Ebêté - sans vigueur - plaie atone.",
+          "en": "Stupefied - without vigour - sluggish (non-healing) wound.",
+          "zh": "呆滯的－沒有活力的－不易癒合的傷口。",
+          "examples": [
+            {
+              "t": "Sao so bi mlangi ini k'la kari",
+              "fr": "Tu es vraiment comme un gros bêta qui ne sait pas parler !",
+              "en": "You are really like a big fool who does not know how to speak!",
+              "zh": "你真像個不會說話的大笨蛋！"
+            },
+            {
+              "t": "nlangi bi mmalox kana baga mo",
+              "fr": "La plaie (le mal) de ma main ne se guérit pas.",
+              "en": "The wound (the sore) on my hand does not heal.",
+              "zh": "我手上的傷口（毛病）好不了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LANGI",
+      "tag": "( = R. ? - R. = SLANGI ?)",
+      "fr": "De reste - en plus - en trop.",
+      "en": "Left over - in addition - in excess.",
+      "zh": "剩下的－額外的－過多的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Lngiyan",
+          "fr": "Ce qui est laissé en reste.",
+          "en": "What is left over.",
+          "zh": "剩下來的東西。",
+          "examples": [
+            {
+              "t": "Oqe nanak; mxdo mqan kana da! lngiyan daxa ka nii",
+              "fr": "Mange seulement; tous ont déjà mangé et celà est leur reste.",
+              "en": "Just eat; everyone has already eaten and this is what they left over.",
+              "zh": "你就吃吧；大家都吃過了，這是他們剩下的。"
+            }
+          ]
+        },
+        {
+          "form": "Slangi",
+          "fr": "( = R. ? - R. = LANGI ?) = Et un peu plus - qui fait le reste - en plus.",
+          "en": "(= root? - root = LANGI?) = And a little more - which makes up the remainder - in addition.",
+          "zh": "（＝詞根？－詞根＝LANGI？）＝再多一點－構成剩餘的部分－額外的。",
+          "examples": [
+            {
+              "t": "Wana bi kingal lubwi slangi ka trabus no",
+              "fr": "Je n'ai qu'un sac et un peu plus d'arachides. (nb. A peu près le même sens et le même emploi que SNGALI). VR. SLANGI .",
+              "en": "I have only one bag and a little more of peanuts. (n.b. Roughly the same meaning and use as SNGALI). See SLANGI.",
+              "zh": "我只有一袋多一點的花生。（註：意義和用法與 SNGALI 大致相同。）參見 SLANGI。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAPIT",
+      "tag": "(R)",
+      "fr": "Ecureuil volant (dont la peau, et surtout la queue sont très prisées.",
+      "en": "Flying squirrel (whose skin, and especially the tail, are highly prized.",
+      "zh": "飛鼠（其皮，尤其是尾巴，非常珍貴。",
+      "examples": [
+        {
+          "t": "Mxa so smbu lapit ka'man kia ?",
+          "fr": "Tu vas chasser l'écureuil volant ce soir ? (nb. La chasse à cet écureuil ne se fait que de nuit, ou bien à l'aide de pièges).",
+          "en": "Are you going to hunt the flying squirrel this evening? (n.b. This squirrel is hunted only at night, or else with the help of traps).",
+          "zh": "你今晚要去獵飛鼠嗎？（註：這種飛鼠只在夜間獵捕，或者藉助陷阱捕捉。）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LAQAT",
+      "tag": "(R)",
+      "fr": "Herse. (nb. Actuellement en fer, au moins rudimentaire, cet instrument était le plus souvent composé de branches d'arbre disposées en éventail; outil par ailleurs rarement utilisé autrefois).",
+      "en": "Harrow. (n.b. Nowadays made of iron, at least in a rudimentary form; this instrument was most often composed of tree branches arranged in a fan; a tool otherwise rarely used in the past).",
+      "zh": "耙。（註：如今至少是用鐵做的簡陋工具；這種器具過去多半由呈扇形排列的樹枝製成；此外，這種工具從前很少使用。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Plaqat",
+          "fr": "traîner la herse - écraser les mottes avec quelque chose qu'on traîne dans l'eau de la rizière.",
+          "en": "To drag the harrow - to crush the clods with something dragged through the water of the paddy field.",
+          "zh": "拖耙－用在水田水中拖曳的東西把土塊壓碎。",
+          "examples": []
+        },
+        {
+          "form": "Mplaqat",
+          "fr": "Celui qui conduit l'opération de herser - herser (au futur).",
+          "en": "The one who carries out the harrowing - to harrow (future).",
+          "zh": "進行耙田工作的人－耙田（將來式）。",
+          "examples": [
+            {
+              "t": "Ya adi so mplaqat ka xmaan so trabus!",
+              "fr": "Je suppose que tu ne vas pas herser le terrain où tu vas planter des arachides !",
+              "en": "I suppose you are not going to harrow the land where you are going to plant peanuts!",
+              "zh": "我想你不會去耙那塊你要種花生的地吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAQE",
+      "tag": "(R)",
+      "fr": "Enfant - fils, fille - Petit d'homme.",
+      "en": "Child - son, daughter - human offspring.",
+      "zh": "孩子－兒子、女兒－人的孩子。",
+      "examples": [
+        {
+          "t": "Laqe so bi nksaxol mo!",
+          "fr": "Tu es bien l'enfant de mon sein (Tu es vraiment mon enfant).",
+          "en": "You are truly the child of my womb (You are really my child).",
+          "zh": "你真是我親生的孩子（你真的是我的孩子）。"
+        },
+        {
+          "t": "Laqe lbnao",
+          "fr": "bébé.",
+          "en": "baby.",
+          "zh": "嬰兒。"
+        },
+        {
+          "t": "Laqe mneidang",
+          "fr": "Enfant naturel (enfant qui a été perdu).",
+          "en": "Natural child (a child who has been lost).",
+          "zh": "私生子（失散／被遺失的孩子）。"
+        },
+        {
+          "t": "Laqe laqe",
+          "fr": "Petit fils.",
+          "en": "Grandchild.",
+          "zh": "孫子。"
+        },
+        {
+          "t": "Lqlaqe (vl. llaqe)",
+          "fr": "Les enfants.",
+          "en": "The children. (var. llaqe)",
+          "zh": "孩子們。（或：llaqe）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lqean",
+          "fr": "A l'enfant - pour l'enfant.",
+          "en": "To the child - for the child.",
+          "zh": "給孩子－為了孩子。",
+          "examples": [
+            {
+              "t": "Byeqon mo lqean ka l'xluk",
+              "fr": "Je les donnerai à mon enfant les framboises (espèce de framboises).",
+              "en": "I will give the raspberries (a kind of raspberry) to my child.",
+              "zh": "我會把這些覆盆子（一種覆盆子）給我的孩子。"
+            },
+            {
+              "t": "Ini so bi p'iyax pssli lqlqean so",
+              "fr": "Tu ne cesses pas de rassembler tes enfants.",
+              "en": "You never stop gathering your children together.",
+              "zh": "你不停地把你的孩子聚集起來。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlaqe",
+          "fr": "Se comporter comme un enfant.",
+          "en": "To behave like a child.",
+          "zh": "表現得像個孩子。",
+          "examples": [
+            {
+              "t": "Ya bi lingis! Ma so bi pnlaqe!",
+              "fr": "ne pleure pas ! Qu'est ce qui te prend de faire l'enfant ?",
+              "en": "Don't cry! What has got into you, behaving like a child?",
+              "zh": "別哭！你是怎麼了，這樣孩子氣？"
+            }
+          ]
+        },
+        {
+          "form": "Mpalaqe",
+          "fr": "Deviendra fils (par adoption, mariage, héritage..).",
+          "en": "Will become a son (by adoption, marriage, inheritance..).",
+          "zh": "將成為兒子（透過收養、婚姻、繼承……）。",
+          "examples": [
+            {
+              "t": "Adi biyao npalaqe mo ka iso da",
+              "fr": "Tu vas bientôt devenir mon fils.",
+              "en": "You will soon become my son.",
+              "zh": "你很快就會成為我的兒子。"
+            }
+          ]
+        },
+        {
+          "form": "Tnlaqe",
+          "fr": "A mis au monde - a enfanté - responsable de l'enfant.",
+          "en": "Has brought into the world - has given birth - responsible for the child.",
+          "zh": "生下了－生育了－對孩子負責的人。",
+          "examples": [
+            {
+              "t": "Ga dmui laqe dole ka Sitang ... Tnlaqe sknuan? ... Wada na diyun ska'man!",
+              "fr": "Sitang porte de nouveau (dans ses bras) un enfant (pouponne) ... Quand a t elle enfanté? ... Elle l'a eu hier soir.",
+              "en": "Sitang is again carrying (in her arms) a child (cradling a baby) ... When did she give birth? ... She had it last night.",
+              "zh": "希淡又（抱著）帶著一個孩子（哄著嬰兒）……她什麼時候生的？……她昨晚生的。"
+            },
+            {
+              "t": "Ida yako ka tnlaqe",
+              "fr": "Mais c'est moi le responsable de l'enfant.",
+              "en": "But I am the one responsible for the child.",
+              "zh": "但是我才是這孩子的負責人。"
+            }
+          ]
+        },
+        {
+          "form": "Snlaqe",
+          "fr": "A propos d'enfant.",
+          "en": "Concerning a child.",
+          "zh": "關於孩子。",
+          "examples": [
+            {
+              "t": "Knta'to snlaqe ka sapax nia",
+              "fr": "Chez eux, on se dispute toujours à propos des enfants.",
+              "en": "In their house, people are always quarrelling about the children.",
+              "zh": "在他們家，總是為了孩子爭吵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LATAT",
+      "tag": "(R)",
+      "fr": "Sortir - sortie.",
+      "en": "To go out - a going out / exit.",
+      "zh": "出去－出去（動作）。",
+      "examples": [
+        {
+          "t": "Ana malu kalat ini so latat o, mpxoya su da?",
+          "fr": "Si même quand il fait beau tu ne sors pas, qu'est ce que tu vas devenir ?",
+          "en": "If you don't go out even when the weather is fine, what will become of you?",
+          "zh": "如果連天氣好的時候你都不出門，你將來會變成什麼樣子？"
+        },
+        {
+          "t": "Latat n'xali da!",
+          "fr": "Sors vite !",
+          "en": "Come out quickly!",
+          "zh": "快出來！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlatat",
+          "paradigm": "°Mlatat, latat, ltadi, ltadan, Ltadun.",
+          "fr": "Sortir (d'un endroit clos) - qui sort.",
+          "en": "To go out (from an enclosed place) - the one that goes out.",
+          "zh": "出去（從封閉的地方）－出去的（那個）。",
+          "examples": [
+            {
+              "t": "Wada mlatat kana ka nlmilit (nmilit) so da, Bal!",
+              "fr": "Sibal, toutes tes chèvres se sont sauvées (sont sorties)!",
+              "en": "Sibal, all your goats have run off (have got out)!",
+              "zh": "希巴爾，你的羊全都跑出去了！"
+            }
+          ]
+        },
+        {
+          "form": "Lntadan",
+          "fr": "Ce qui est sorti - le mode, lieu, temps de sortir - émission.",
+          "en": "What has come out - the manner, place, time of going out - emission/utterance.",
+          "zh": "出來的東西－出去的方式、地點、時間－發出（聲音等）。",
+          "examples": [
+            {
+              "t": "Klaon mo bi ka Lntadan kari nia",
+              "fr": "Je connais bien l'accent de son parler.",
+              "en": "I know well his accent (the way his speech comes out).",
+              "zh": "我很熟悉他說話的口音。"
+            },
+            {
+              "t": "Ga tloong sapax sxnkan ka Iboq; xkawas nanak ka Lntadan na",
+              "fr": "Iboq est en prison; ce n'est que l'an prochain qu'aura lieu sa sortie .(sa libération).",
+              "en": "Iboq is in prison; only next year will his release take place. (his liberation).",
+              "zh": "伊博在監獄裡；要到明年他才會出獄（獲釋）。"
+            }
+          ]
+        },
+        {
+          "form": "Platat",
+          "fr": "Faire sortir - mettre dehors.",
+          "en": "To make (something) go out - to put outside.",
+          "zh": "使……出去－放到外面。",
+          "examples": [
+            {
+              "t": "Mxa ko platat tityex lodoç mo",
+              "fr": "Je vais lâcher (mettre dehors) un peu mes poules.",
+              "en": "I am going to let out (put outside) my hens for a while.",
+              "zh": "我要把我的雞放出去一下。"
+            }
+          ]
+        },
+        {
+          "form": "Mplatat",
+          "fr": "1) qui fait sortir; 2) qui sortira.",
+          "en": "1) the one who makes (someone) go out; 2) the one who will go out.",
+          "zh": "1) 使……出去的人；2) 將出去的（人）。",
+          "examples": [
+            {
+              "t": "Mplatat knuan ka lqlaqe matas ?",
+              "fr": "Quand est ce que les écoliers sortiront ?",
+              "en": "When will the schoolchildren come out?",
+              "zh": "學童什麼時候放學（出來）？"
+            },
+            {
+              "t": "Ya iso nanak ka mnplatat lqlaqe ta da",
+              "fr": "Je suppose que c'est bien toi (toi seul) qui a fait sortir les enfants !",
+              "en": "I suppose it was indeed you (you alone) who let the children out!",
+              "zh": "我想正是你（就你一個人）把孩子們放出去的！"
+            }
+          ]
+        },
+        {
+          "form": "Pltadun",
+          "fr": "Etre celui (ce) qu'on fera, qu'on veut, qu'on doit faire sortir.",
+          "en": "To be the one (the thing) that will be, that one wants, that one must make go out.",
+          "zh": "成為將要被、想要被、必須被弄出去的人（或物）。",
+          "examples": [
+            {
+              "t": "Bsiyaq ko bi sapax spoxan da! Ya bi knuan ka pltadun ko daxa ?",
+              "fr": "Voilà bien longtemps que je suis à l'hôpital ! Quand est ce donc qu'ils me feront sortir ?",
+              "en": "I have been in the hospital for a very long time! When will they finally let me out?",
+              "zh": "我住院已經很久了！他們到底什麼時候才會讓我出院？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAWA",
+      "tag": "(R)",
+      "fr": "Appel - cri.",
+      "en": "A call - a shout.",
+      "zh": "呼喚－叫喊。",
+      "examples": [
+        {
+          "t": "Ini so lawa ana maan, kika ini ko iyax",
+          "fr": "Tu n'appelles personne, c'est pourquoi je ne viens pas.",
+          "en": "You call no one, that is why I do not come.",
+          "zh": "你沒有呼喚任何人，所以我不來。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlawa",
+          "fr": "Appeler - crier - faire venir - chahuter. - qui appelle.",
+          "en": "To call - to shout - to summon - to make a racket. - the one who calls.",
+          "zh": "呼喚－叫喊－叫來－喧鬧。－呼喚的（人）。",
+          "examples": [
+            {
+              "t": "Sai mlawa sadyaq (sdyaqon) miyax dmayao",
+              "fr": "Appelle (fais venir) du monde pour venir aider.",
+              "en": "Call (bring) people to come and help.",
+              "zh": "叫（找）人來幫忙。"
+            },
+            {
+              "t": "Nyeqan ka mlawa mksipao",
+              "fr": "Il y a quelqu'un qui appelle, là bas en face.",
+              "en": "There is someone calling, over there across the way.",
+              "zh": "對面那邊有人在呼喚。"
+            }
+          ]
+        },
+        {
+          "form": "Mllawa",
+          "fr": "Parler tous ensemble - crier de tous côtés - faire du chahut.",
+          "en": "To all talk at once - to shout from all sides - to make an uproar.",
+          "zh": "大家一起說話－四處叫喊－起鬨吵鬧。",
+          "examples": [
+            {
+              "t": "D'xok so ka iso o, asi nllawa kana da",
+              "fr": "A peine tu arrives, les voilà tous dans un grand brouhaha.",
+              "en": "No sooner do you arrive than they are all in a great hubbub.",
+              "zh": "你才剛到，他們就全都吵成一團了。"
+            },
+            {
+              "t": "Ini tdoa nllawa ska sapax ta xdolan nii !",
+              "fr": "Il n'est pas permis de chahuter dans ce local où nous offrons des sacrifices (dans cette église).",
+              "en": "It is not permitted to make a racket in this place where we offer sacrifices (in this church).",
+              "zh": "在這個我們獻祭的場所（在這座教堂裡）不准喧鬧。"
+            }
+          ]
+        },
+        {
+          "form": "Plawa",
+          "paradigm": "°Mplawa, plawa, plwaai, plwaan, plwaon.",
+          "fr": "Faire appeler - envoyer chercher - mettre sens dessus dessous - dissiper.",
+          "en": "To have (someone) called - to send for - to turn upside down - to scatter/disperse.",
+          "zh": "派人去叫－差人去請－弄得亂七八糟－驅散。",
+          "examples": [
+            {
+              "t": "Dyagi ko plawa tnpusu sapax",
+              "fr": "Envoie moi (aide moi à) chercher le maitre de maison.",
+              "en": "Send me (help me) to fetch the master of the house.",
+              "zh": "派我（幫我）去找一家之主。"
+            },
+            {
+              "t": "Ana ini so plawa boan so ! Nii ka tama so!",
+              "fr": "Ce n'est pas nécessaire de faire venir ta maman, ton papa est ici !",
+              "en": "There is no need to send for your mother, your father is here!",
+              "zh": "不必去把你媽媽找來，你爸爸就在這裡！"
+            }
+          ]
+        },
+        {
+          "form": "Pllawa",
+          "fr": "Dissiper - provoquer du chahut (souvent entendu: PLAWA).",
+          "en": "To scatter/disperse - to stir up an uproar (often heard as: PLAWA).",
+          "zh": "驅散－引起喧鬧（常聽作：PLAWA）。",
+          "examples": [
+            {
+              "t": "Iso bi kddiyax ka nusa pllawa lqlaqe ta matas",
+              "fr": "C'est toujours toi qui vas provoquer le chahut chez nos écoliers.",
+              "en": "It is always you who go and stir up an uproar among our schoolchildren.",
+              "zh": "總是你去在我們的學童中間起鬨吵鬧。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlwaan (pnloaan)",
+          "fr": "Appel - cri (accompli).",
+          "en": "A call - a shout (completed/accomplished aspect).",
+          "zh": "呼喚－叫喊（完成貌）。",
+          "examples": [
+            {
+              "t": "Pnlwaan sako ska xedao, kika yaxan mo nita",
+              "fr": "Tu m'as fait appeler à midi et voilà pourquoi je suis venu voir. (nb. Pnllwaan = Chahut).",
+              "en": "You had me called at noon, and that is why I have come to see. (n.b. Pnllwaan = uproar/racket).",
+              "zh": "你在中午叫人來找我，所以我就來看看。（註：Pnllwaan＝喧鬧。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAWA",
+      "tag": "(R)",
+      "fr": "Panier - corbeille.",
+      "en": "Basket - wicker basket.",
+      "zh": "籃子－筐子。",
+      "examples": [
+        {
+          "t": "Psai lawa so ka balong lodoç kika adi mpglong da",
+          "fr": "Mets tes oeufs dans le panier, de la sorte il ne se casseront pas !",
+          "en": "Put your eggs in the basket, that way they will not break!",
+          "zh": "把你的蛋放進籃子裡，這樣它們就不會破了！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LAWAX",
+      "tag": "(R)",
+      "fr": "Ouvrir - libérer.",
+      "en": "To open - to free/release.",
+      "zh": "打開－釋放。",
+      "examples": [
+        {
+          "t": "Ini so lawax do, ima bi ka mpd'xok mtmai !",
+          "fr": "Si tu n'ouvres pas, qui est ce bien qui parviendra à entrer ?",
+          "en": "If you do not open, who then will manage to get in?",
+          "zh": "如果你不開門，究竟有誰能進得來呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmawax",
+          "paradigm": "°Lmawax, lawax, lwaxe, lwaxan, lwaxon.",
+          "fr": "Ouvrir - libérer.",
+          "en": "To open - to free.",
+          "zh": "打開－釋放。",
+          "examples": [
+            {
+              "t": "Xana ko lmawax daolyaq mo",
+              "fr": "Je viens à peine d'ouvrir mes yeux.",
+              "en": "I have only just opened my eyes.",
+              "zh": "我才剛睜開眼睛。"
+            },
+            {
+              "t": "Lmawax ko totox qalat",
+              "fr": "J'ouvre une boîte d'ananas.",
+              "en": "I am opening a can of pineapple.",
+              "zh": "我在打開一罐鳳梨。"
+            },
+            {
+              "t": "Lwaxon so knuan ka nduk sapax so ?",
+              "fr": "Quand est ce que tu ouvriras la porte de ta maison?",
+              "en": "When will you open the door of your house?",
+              "zh": "你什麼時候會打開你家的門？"
+            }
+          ]
+        },
+        {
+          "form": "Mlawax",
+          "fr": "Qui est en position ouverte.",
+          "en": "That is in an open position.",
+          "zh": "處於打開狀態的。",
+          "examples": [
+            {
+              "t": "Mlawax ka sapax mo, ini klawax ka sapax Sikat",
+              "fr": "Ma maison est ouverte, celle de Sikat ne l'est pas.",
+              "en": "My house is open, Sikat's is not.",
+              "zh": "我的房子是開著的，希卡特的沒開。"
+            }
+          ]
+        },
+        {
+          "form": "Lwaxan",
+          "fr": "Temps d'ouvrir - endroit pour ouvrir - ce qui a été ouvert.",
+          "en": "Time to open - place to open - what has been opened.",
+          "zh": "開的時間－開的地方－已被打開的東西。",
+          "examples": [
+            {
+              "t": "Lwaxe binao ka totox nii ... Ga lwaxan da!",
+              "fr": "Ouvre donc un peu cette boîte ... Elle est déjà ouverte !",
+              "en": "Do open this can a little ... It is already open!",
+              "zh": "把這個罐子稍微打開一下……它已經開了！"
+            },
+            {
+              "t": "Ga ino ka lwaxan na ?",
+              "fr": "Où est donc l'endroit pour ouvrir ?",
+              "en": "Where then is the place to open it?",
+              "zh": "那麼開的地方在哪裡呢？"
+            }
+          ]
+        },
+        {
+          "form": "Waxan",
+          "fr": "(Réduction fréquente de: LWAXAN).",
+          "en": "(Frequent reduction of: LWAXAN).",
+          "zh": "（LWAXAN 的常見縮略形。）",
+          "examples": [
+            {
+              "t": "Ya bi spat toke (ka) waxan na ka sapax",
+              "fr": "Il était environ quatre heures quand il a ouvert sa maison.",
+              "en": "It was about four o'clock when he opened his house.",
+              "zh": "他開家門的時候大約是四點鐘。"
+            },
+            {
+              "t": "Spat iyax toke waxan na ka sapax",
+              "fr": "Sa maison est restée ouverte pendant quatre heures.",
+              "en": "His house stayed open for four hours.",
+              "zh": "他的房子開著有四個小時。"
+            }
+          ]
+        },
+        {
+          "form": "Waxe",
+          "fr": "(Simplification fréquente de: LWAXE) = Ouvrez !",
+          "en": "(Frequent simplification of: LWAXE) = Open (it)!",
+          "zh": "（LWAXE 的常見簡化形）＝打開！",
+          "examples": [
+            {
+              "t": "Waxe binao",
+              "fr": "Ouvre donc !",
+              "en": "Do open it!",
+              "zh": "就打開吧！"
+            },
+            {
+              "t": "Ini mo waxe ka lubwi so",
+              "fr": "Je n'ai pas ouvert ton sac.",
+              "en": "I have not opened your bag.",
+              "zh": "我沒有打開你的袋子。"
+            }
+          ]
+        },
+        {
+          "form": "Llawax",
+          "fr": "Pour libérer - pour ouvrir - clé.",
+          "en": "For freeing - for opening - key.",
+          "zh": "用來釋放的－用來打開的－鑰匙。",
+          "examples": [
+            {
+              "t": "Ima ka kuxul namo llawax mo xö?",
+              "fr": "Qui désirez vous que je libère ?",
+              "en": "Whom do you want me to release?",
+              "zh": "你們要我釋放誰？"
+            },
+            {
+              "t": "Xoya mo ksun lmawax ka ini ko dui llawax",
+              "fr": "Comment puis je faire pour ouvrir moi qui n'ai pas de clé ?",
+              "en": "How can I open it, I who have no key?",
+              "zh": "我沒有鑰匙，要怎麼打開呢？"
+            }
+          ]
+        },
+        {
+          "form": "Plawax",
+          "fr": "Faire ouvrir - libérer.",
+          "en": "To have (something) opened - to free.",
+          "zh": "使……被打開－釋放。",
+          "examples": [
+            {
+              "t": "Dudu bi pnlxolan pllawax so Dloan!",
+              "fr": "Entraîne donc la foule pour libérer Djiro.",
+              "en": "Lead the crowd, then, to free Djiro.",
+              "zh": "那就帶領群眾去釋放吉羅吧。"
+            },
+            {
+              "t": "Dyagi ko plawax ksia",
+              "fr": "Fais moi ouvrir (aide moi à faire ouvrir) (les vannes) de l'eau.",
+              "en": "Have me open (help me to open) the (sluice gates) of the water.",
+              "zh": "讓我去打開（幫我打開）水（的閘門）。"
+            }
+          ]
+        },
+        {
+          "form": "Mplawax",
+          "fr": "Libérateur - celui qui fait ouvrir - ouvrir (futur).",
+          "en": "Liberator - the one who has (something) opened - to open (future).",
+          "zh": "解放者－使……被打開的人－打開（將來式）。",
+          "examples": [
+            {
+              "t": "Babao bnkiyan ko daxa do, Diyan ka mnplawax knan da",
+              "fr": "Après avoir été enchaîné, c'est Djian qui m'a fait libérer.",
+              "en": "After I had been put in chains, it was Djian who had me freed.",
+              "zh": "在我被鎖上鏈條之後，是吉安讓我獲釋的。"
+            }
+          ]
+        },
+        {
+          "form": "Tlawax",
+          "fr": "Grand ouvert - libre - au grand air.",
+          "en": "Wide open - free - in the open air.",
+          "zh": "大開的－自由的－在露天。",
+          "examples": [
+            {
+              "t": "Ga tlawax kddiyax ka blbiling sapax nia",
+              "fr": "Les fenêtres (les trous) de sa maison sont toujours grands ouverts.",
+              "en": "The windows (the openings) of his house are always wide open.",
+              "zh": "他家的窗戶（洞口）總是大開著。"
+            }
+          ]
+        },
+        {
+          "form": "Mptlawax",
+          "fr": "Sera en liberté - sera grand ouvert.",
+          "en": "Will be at liberty - will be wide open.",
+          "zh": "將獲得自由－將大開。",
+          "examples": [
+            {
+              "t": "Mptlawax kana ka knlap daxa",
+              "fr": "Tous leurs prisonniers seront libérés.",
+              "en": "All their prisoners will be freed.",
+              "zh": "他們所有的囚犯都將獲釋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAWEQ",
+      "tag": "(R)",
+      "fr": "?? - Passer par (?) - Passer par hasard par (?).",
+      "en": "?? - To pass by (?) - To pass by chance through (?).",
+      "zh": "？？－經過（？）－偶然經過（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Lmaweq",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Lmaweq na \"lu xe (=xea) ka sadyaq o, gmqoaq tunuç ini pnsbut lmngao xeaan",
+              "fr": "Des gens qui passaient par là branlaient la tête (?) et l'insultaient (se moquaient) en lui disant .",
+              "en": "People who were passing by there were shaking their heads (?) and insulting him (mocking him), saying to him .",
+              "zh": "從那裡經過的人搖著頭（？），辱罵他（嘲笑他），對他說著。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

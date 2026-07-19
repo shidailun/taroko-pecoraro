@@ -1,0 +1,772 @@
+{
+  "pages": [58, 61],
+  "leadin": {
+    "fr": "son père.",
+    "en": "his father.",
+    "zh": "他的父親。",
+    "examples": [
+      {
+        "t": "Miso ko bwixol",
+        "fr": "J'ai peur du vent.",
+        "en": "I am afraid of the wind.",
+        "zh": "我怕風。"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "B'XGAI",
+      "tag": "(R)",
+      "fr": "(vr. BAXGAI) Blanc - propre.",
+      "en": "(var. BAXGAI) White - clean.",
+      "zh": "（或：BAXGAI）白色的——乾淨的。",
+      "examples": [
+        {
+          "t": "Nb'xgai o, wada mlutyaq kana ka llukus so",
+          "fr": "De blancs (propres) qu'ils étaient, les voilà tout sales tes habits.",
+          "en": "From white (clean) as they were, your clothes are now all dirty.",
+          "zh": "你的衣服原本潔白（乾淨），如今全都髒了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "B'XGAN",
+      "tag": "(R. = ? - = BL'XO ?)",
+      "fr": "Qui est fermé à clé.",
+      "en": "That is locked (with a key).",
+      "zh": "上了鎖的。",
+      "examples": [
+        {
+          "t": "Ma ga b'xgan kana ka ssapax daxa!",
+          "fr": "C'est curieux! Toutes leurs maisons sont fermées !",
+          "en": "How strange! All their houses are locked!",
+          "zh": "真奇怪！他們的房子全都鎖上了！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BXLAO",
+      "tag": "(R)",
+      "fr": "La poursuite - pourchasser. ( var. B'XLAO)",
+      "en": "Pursuit - to chase. (var. B'XLAO)",
+      "zh": "追逐——追趕。（或：B'XLAO）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxlao",
+          "paradigm": "° Mxlao, bxlao, bxlagi, bxlagan, bxlagun.",
+          "fr": "Poursuivre - pourchasser.",
+          "en": "To pursue - to chase.",
+          "zh": "追逐——追趕。",
+          "examples": [
+            {
+              "t": "Pxqelun mo kia ka xeuling naqex nii! Knta'to ga mxlao kating mo da!",
+              "fr": "Je veux le tuer ce sale chien! Il n'arrête pas de poursuivre mon buffle.",
+              "en": "I want to kill that filthy dog! It never stops chasing my buffalo.",
+              "zh": "我要殺了這隻髒狗！牠不停地追趕我的水牛。"
+            }
+          ]
+        },
+        {
+          "form": "Pbxlao",
+          "fr": "Faire poursuivre.",
+          "en": "To have (something) pursued.",
+          "zh": "使被追逐。",
+          "examples": [
+            {
+              "t": "Mnda pbxlao xeuling ka samat",
+              "fr": "Le gibier a été poursuivi (s'est fait pousuivre) par le chien.",
+              "en": "The game was pursued (got itself chased) by the dog.",
+              "zh": "獵物被狗追趕（遭到追逐）。"
+            }
+          ]
+        },
+        {
+          "form": "Bxlagan",
+          "fr": "La poursuite - ce qui a été pousuivi.",
+          "en": "The pursuit - that which has been pursued.",
+          "zh": "追逐——被追逐之物。",
+          "examples": [
+            {
+              "t": "Wada nami bxlagun kingal diyax ka lqnux kia ni, diyax bxlagan do, ka'man da !",
+              "fr": "Nous l'avons poursuivi (il a été l'objet de notre poursuite) tout un jour ce cerf et, le temps de le poursuivre, la nuit est tombée.",
+              "en": "We pursued that deer a whole day (it was the object of our pursuit), and by the time we had chased it, night had fallen.",
+              "zh": "那頭鹿我們追了一整天（牠成了我們追逐的對象），追著追著，天就黑了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BXNGIL",
+      "tag": "(R)",
+      "fr": "Herbe très haute, coupante, résistente, avec fortes racines, et pouvant servir à couvrir les maisons (faute de chaume) ou à nourrir les buffles.",
+      "en": "Very tall, sharp-edged, tough grass with strong roots, which can serve to roof houses (for lack of thatch) or to feed buffalo.",
+      "zh": "一種很高的草，鋒利、堅韌、根系強壯，可用來蓋屋頂（缺茅草時）或餵水牛。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BXNI",
+      "tag": "(QBXNI ?) (R)",
+      "fr": "Oiseau.",
+      "en": "Bird.",
+      "zh": "鳥。",
+      "examples": [
+        {
+          "t": "Manu ka saon so smbu bxni!",
+          "fr": "Qu'est ce qui te prend d'aller tuer (tirer) des oiseaux ?",
+          "en": "What has got into you, going off to kill (shoot) birds?",
+          "zh": "你怎麼會想去殺（射）鳥呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qbxni",
+          "fr": "(Pl. de BXNI ? - Autre racine pour dire: Oiseau ?).",
+          "en": "(Plural of BXNI? - Another root meaning: bird?).",
+          "zh": "（BXNI 的複數？——表示「鳥」的另一詞根？）",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BXNYAQ",
+      "tag": "(R)",
+      "fr": "Arc.",
+      "en": "Bow.",
+      "zh": "弓。",
+      "examples": [
+        {
+          "t": "Tai ka ongat budi o, ongat blexan ka bxnyaq ole",
+          "fr": "Pour celui qui n'a pas de flèche, l'arc est (également) sans utilité.",
+          "en": "For one who has no arrow, the bow is (likewise) useless.",
+          "zh": "對沒有箭的人來說，弓（也）毫無用處。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BYOTOç",
+      "tag": "(R)",
+      "fr": "Pigeon - colombe.",
+      "en": "Pigeon - dove.",
+      "zh": "鴿子——白鴿。",
+      "examples": [
+        {
+          "t": "Mnsa xxadol daxa tuxan molo gaya, puda daxa wawa byotoç adi ole o daxa pgago (pg'go).",
+          "fr": "Ils sont allés offrir un sacrifice à l'Esprit selon la loi, par l'offrande de deux petits de pigeon ou de deux tourterelles.",
+          "en": "They went to offer a sacrifice to the Spirit according to the law, with the offering of two young pigeons or two turtledoves.",
+          "zh": "他們照著律法前去向靈獻祭，獻上兩隻雛鴿或兩隻斑鳩。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "D",
+      "tag": "",
+      "fr": "Préfixe indiquant l'appartenance au groupe, à la série désignée par le mot préfixé.",
+      "en": "Prefix indicating membership in the group or series designated by the prefixed word.",
+      "zh": "前綴，表示屬於由所附之詞指稱的群體或類別。",
+      "examples": [
+        {
+          "t": "Dsnao (d'snao)",
+          "fr": "Du groupe des hommes.",
+          "en": "Of the group of men.",
+          "zh": "屬於男人的群體。"
+        },
+        {
+          "t": "Dmkpax",
+          "fr": "Les travailleurs (en général).",
+          "en": "Workers (in general).",
+          "zh": "工人（泛指）。"
+        },
+        {
+          "t": "D'yami",
+          "fr": "de notre clan.",
+          "en": "of our clan.",
+          "zh": "我們氏族的。"
+        },
+        {
+          "t": "Dmpgdadak",
+          "fr": "Les gardes (les gorilles).",
+          "en": "The guards (the \"gorillas\", i.e. bodyguards).",
+          "zh": "守衛（保鏢）。"
+        },
+        {
+          "t": "Dd'yami",
+          "fr": "Tous les membres de notre groupe, de notre clan.",
+          "en": "All the members of our group, of our clan.",
+          "zh": "我們群體、我們氏族的全體成員。"
+        },
+        {
+          "t": "Dxea",
+          "fr": "De leur clan, l'un d'eux.",
+          "en": "Of their clan, one of them.",
+          "zh": "他們氏族的，他們當中的一個。"
+        },
+        {
+          "t": "Ddxea",
+          "fr": "Tous ceux de son groupe.",
+          "en": "All those of his group.",
+          "zh": "他那群體的所有人。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DA",
+      "tag": "",
+      "fr": "Particule, suivant le, ou les, termes qu'elle détermine, pour indiquer l'accompli, le fini de l'action ou de l'état indiqué par ces termes.",
+      "en": "Particle, following the term(s) it modifies, indicating the completed, finished character of the action or state expressed by those terms.",
+      "zh": "助詞，置於其所修飾的詞語之後，表示該詞語所指的動作或狀態已經完成、結束。",
+      "examples": [
+        {
+          "t": "Wada da",
+          "fr": "Ca y est, il est parti.",
+          "en": "That's it, he has left.",
+          "zh": "就這樣，他走了。"
+        },
+        {
+          "t": "Mxa ku (ko) da",
+          "fr": "Je pars (celà est décidé).",
+          "en": "I am leaving (it is decided).",
+          "zh": "我要走了（已經決定了）。"
+        },
+        {
+          "t": "Wada kmpax da",
+          "fr": "Il est effectivement parti au travail.",
+          "en": "He has indeed gone off to work.",
+          "zh": "他確實已經去工作了。"
+        },
+        {
+          "t": "Yako da",
+          "fr": "C'est mon tour.",
+          "en": "It is my turn.",
+          "zh": "輪到我了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DADAK",
+      "tag": "(R.? - R. = GDADAK ?)",
+      "fr": "Veille - garde - veiller - sur ses gardes.",
+      "en": "Watch - guard - to keep watch - on one's guard.",
+      "zh": "警戒——看守——守望——提高警覺。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdadak",
+          "fr": "(Mgdadak ?) Etre sur ses gardes - veiller sur - protéger.",
+          "en": "(Mgdadak?) To be on one's guard - to watch over - to protect.",
+          "zh": "（Mgdadak？）提防——看守——保護。",
+          "examples": [
+            {
+              "t": "Mbiyax bi mdadak ka ddxea",
+              "fr": "Ils sont fortement sur leurs gardes.",
+              "en": "They are strongly on their guard.",
+              "zh": "他們戒備森嚴。"
+            }
+          ]
+        },
+        {
+          "form": "Mgdadak",
+          "fr": "Veilleur - gardien - qui veille sur. ( en action ).",
+          "en": "Watchman - guardian - one who watches over (in action).",
+          "zh": "守望者——看守人——正在看守者（進行中）。",
+          "examples": []
+        },
+        {
+          "form": "Gmdadak",
+          "fr": "Veiller - protéger - veiller sur.",
+          "en": "To keep watch - to protect - to watch over.",
+          "zh": "守望——保護——看守。",
+          "examples": [
+            {
+              "t": "Mpdxok so ino, sapax nia! Ga gmdadak ka tnsapax",
+              "fr": "Comment veux tu arriver jusqu'à sa maison ? Le maitre de maison veille!",
+              "en": "How do you expect to get to his house? The master of the house is keeping watch!",
+              "zh": "你怎麼到得了他家？屋主正在看守呢！"
+            }
+          ]
+        },
+        {
+          "form": "Knddakan",
+          "fr": "(kngddakan ?) La veille - la garde - la protection.",
+          "en": "(kngddakan?) The watch - the guarding - the protection.",
+          "zh": "（kngddakan？）警戒——看守——保護。",
+          "examples": []
+        },
+        {
+          "form": "Mpgdadak",
+          "fr": "Celui qui a la profession de garde - de gardien.",
+          "en": "One whose profession is guard - watchman.",
+          "zh": "以看守、守衛為職業的人。",
+          "examples": []
+        },
+        {
+          "form": "Dmpgdadak",
+          "fr": "Les gardes - les veilleurs.",
+          "en": "The guards - the watchmen.",
+          "zh": "守衛們——守望者們。",
+          "examples": [
+            {
+              "t": "Xbalao bi dmpgdadak smnugul xeaan",
+              "fr": "De nombreux gardes le suivaient.",
+              "en": "Many guards were following him.",
+              "zh": "許多守衛跟隨著他。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DADAX",
+      "tag": "(R)",
+      "fr": "Partir de - prendre pour point de départ.",
+      "en": "To set out from - to take as a starting point.",
+      "zh": "從……出發——以……為起點。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kndadax",
+          "fr": "Partir de (temps ou lieu).",
+          "en": "To set out from (time or place).",
+          "zh": "從（某時或某地）出發。",
+          "examples": [
+            {
+              "t": "Kndadax so sknuan ?",
+              "fr": "Quand es tu parti ? (quand t'es tu mis en route ?).",
+              "en": "When did you leave? (when did you set out?).",
+              "zh": "你是什麼時候出發的？（什麼時候上路的？）"
+            }
+          ]
+        },
+        {
+          "form": "Knddaxan",
+          "fr": "Le point de départ - l'heure de départ.",
+          "en": "The starting point - the time of departure.",
+          "zh": "出發點——出發時刻。",
+          "examples": [
+            {
+              "t": "Mlbu balae ka knddaxan daxa",
+              "fr": "C'est très tôt qu'a eu lieu leur départ.",
+              "en": "Their departure took place very early.",
+              "zh": "他們出發得很早。"
+            }
+          ]
+        },
+        {
+          "form": "Sndadax",
+          "fr": "Ce qui a été choisi comme point de départ.",
+          "en": "That which has been chosen as the starting point.",
+          "zh": "被選作起點之處。",
+          "examples": [
+            {
+              "t": "Sndadax ta xeni musa betak alang so o, ida bi mxa mkdaxa ka ksaan ta qaqai",
+              "fr": "Depuis ici jusque chez toi, il y a près de deux jours de marche à pied.",
+              "en": "From here to your home, it is nearly two days' walk on foot.",
+              "zh": "從這裡到你家，步行將近兩天的路程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAKIL",
+      "tag": "(R)",
+      "fr": "Grandir - pousser - croître.",
+      "en": "To grow up - to grow - to increase.",
+      "zh": "長大——生長——增長。",
+      "examples": [
+        {
+          "t": "Tayai bi ka dakil wawa lodoç so!",
+          "fr": "Comme tes petits poussins grandissent !",
+          "en": "How your little chicks are growing!",
+          "zh": "你的小雞長得真快！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdakil",
+          "fr": "Qui pousse - qui croît - qui grandit.",
+          "en": "That grows - that increases - that grows up.",
+          "zh": "生長的——增長的——長大的。",
+          "examples": [
+            {
+              "t": "Mdakil balae ka ana manu tnbugan so, ini xali kdakil ka nako",
+              "fr": "Tout le bétail que tu élèves pousse bien, (mais) ce que j'élève ne pousse guère !",
+              "en": "All the livestock you raise thrives, (but) what I raise hardly grows at all!",
+              "zh": "你養的牲畜都長得很好，（可是）我養的卻長不大！"
+            },
+            {
+              "t": "Ini biyao mdakil ka laqe so",
+              "fr": "Il grandit vite ton enfant.",
+              "en": "Your child is growing fast.",
+              "zh": "你的孩子長得真快。"
+            }
+          ]
+        },
+        {
+          "form": "Kndkilan",
+          "fr": "Croissance - poussée.",
+          "en": "Growth - growth spurt.",
+          "zh": "成長——發育。",
+          "examples": [
+            {
+              "t": "Msklui ko mita kndkilan laqe so!",
+              "fr": "Je suis surpris de constater la croissance de ton enfant (combien (?) ton enfant grandit vite!).",
+              "en": "I am surprised to see your child's growth (how fast your child is growing!).",
+              "zh": "看到你孩子的成長我很吃驚（你的孩子長得真快！）。"
+            },
+            {
+              "t": "Wada wada ka kndkilan na xei",
+              "fr": "Et son corps continue continue de grandir.",
+              "en": "And his body keeps on and on growing.",
+              "zh": "他的身體不斷不斷地長大。"
+            }
+          ]
+        },
+        {
+          "form": "Pdakil",
+          "fr": "Faire grandir - faire pousser.",
+          "en": "To make grow - to make increase.",
+          "zh": "使長大——使生長。",
+          "examples": [
+            {
+              "t": "Mpdxok so nanak pdakil ana bilaq ka sao xnigan so nanak xo ?",
+              "fr": "Est ce que tu arriveras seulement à faire grandir même un petit peu ton propre corps ?",
+              "en": "Will you even manage to make your own body grow just a little?",
+              "zh": "你連讓自己的身體長大一點點都做得到嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pkdakil",
+          "fr": "(?) Faire en sorte que celà grandisse (?).",
+          "en": "(?) To cause it to grow (?).",
+          "zh": "（？）設法使其生長（？）。",
+          "examples": [
+            {
+              "t": "Adi so kmpkdakil nxoma so trabus xo ?",
+              "fr": "Est ce que tu désires faire en sorte que les arachides que tu as plantées poussent bien ?",
+              "en": "Do you wish to make the peanuts you have planted grow well?",
+              "zh": "你是不是想讓你種的花生長得好？"
+            }
+          ]
+        },
+        {
+          "form": "Skdakil",
+          "fr": "(Instrument, moyen) pour faire pousser.",
+          "en": "(Instrument, means) for making grow.",
+          "zh": "（工具、方法）用以使生長者。",
+          "examples": [
+            {
+              "t": "Biyoq onoç milit ka mskdakil (skdakil ?) balae lqlaqe (lqlqean) lbnao.",
+              "fr": "C'est le lait de chêvre qui fait vraiment grandir les petits enfants.",
+              "en": "It is goat's milk that truly makes little children grow.",
+              "zh": "真正使小孩子長大的是羊奶。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DALA",
+      "tag": "(R)",
+      "fr": "Sang.",
+      "en": "Blood.",
+      "zh": "血。",
+      "examples": [
+        {
+          "t": "Mawit dala na kika sknalox xeaan",
+          "fr": "Son sang est anémié, voilà ce qui le rend malade.",
+          "en": "His blood is anemic; that is what makes him ill.",
+          "zh": "他的血貧弱（貧血），這就是使他生病的原因。"
+        },
+        {
+          "t": "Ulat dala",
+          "fr": "les veines.",
+          "en": "the veins.",
+          "zh": "血管（靜脈）。"
+        },
+        {
+          "t": "Biyoq (vl. biyoq dala)",
+          "fr": "Lymphe.",
+          "en": "Lymph.",
+          "zh": "淋巴液。"
+        },
+        {
+          "t": "Otoç baga",
+          "fr": "Pouls.",
+          "en": "Pulse.",
+          "zh": "脈搏。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Madala",
+          "fr": "Se changer en sang - devenir du sang.",
+          "en": "To turn into blood - to become blood.",
+          "zh": "化為血——變成血。",
+          "examples": [
+            {
+              "t": "Ini biyao madala bi ka oqon so sayang",
+              "fr": "Avant peu ce que tu manges maintenant deviendra du vrai sang.",
+              "en": "Before long what you are eating now will become real blood.",
+              "zh": "不久之後，你現在吃的東西就會變成真正的血。"
+            }
+          ]
+        },
+        {
+          "form": "Gndala",
+          "fr": "Prix du sang ( par ex. prix tiré d'un meurtre).",
+          "en": "Blood price (e.g. the price obtained from a murder).",
+          "zh": "血價（例如因命案而得的錢）。",
+          "examples": [
+            {
+              "t": "Pila gndala ka nii, adi ta bi tdoa pspuon pila laqe",
+              "fr": "Cet argent est le prix du sang, on ne peut vraiment pas le mélanger (le joindre à) avec l'argent de notre fils.",
+              "en": "This money is blood money; it really cannot be mixed (joined) with our son's money.",
+              "zh": "這錢是血錢，絕不可把它和我們兒子的錢混在一起（放在一起）。"
+            }
+          ]
+        },
+        {
+          "form": "Sdala",
+          "fr": "Saigner.",
+          "en": "To bleed.",
+          "zh": "流血。",
+          "examples": [
+            {
+              "t": "Ini xali sdala ka npaqan na poting",
+              "fr": "La blessure du coup de couteau ne saigne pas beaucoup.",
+              "en": "The knife wound is not bleeding much.",
+              "zh": "刀傷流血不多。"
+            }
+          ]
+        },
+        {
+          "form": "Msdala",
+          "fr": "Qui saigne - saignant - viande.",
+          "en": "That bleeds - bleeding - meat.",
+          "zh": "流血的——出血的——肉。",
+          "examples": [
+            {
+              "t": "Msdala pax ska'man ka loqex mo nii naqex!",
+              "fr": "Cette saleté de plaie que j'ai là saigne depuis hier soir!",
+              "en": "This wretched wound of mine has been bleeding since last night!",
+              "zh": "我這該死的傷口從昨晚就一直在流血！"
+            },
+            {
+              "t": "Manu bi ka msdala tloma lukus so?",
+              "fr": "Qu'est ce donc qui saigne sous tes habits?",
+              "en": "What on earth is bleeding under your clothes?",
+              "zh": "你衣服底下究竟是什麼在流血？"
+            },
+            {
+              "t": "Ini \"qan msdala ka Pisao",
+              "fr": "Pissao ne mange pas de viande.",
+              "en": "Pissao does not eat meat.",
+              "zh": "Pissao 不吃肉。"
+            },
+            {
+              "t": "Msdala xelao na",
+              "fr": "Phtisie - Hémoptysie. (Il souffre de..)",
+              "en": "Phthisis - hemoptysis. (He suffers from...)",
+              "zh": "肺癆——咯血。（他患有……）"
+            }
+          ]
+        },
+        {
+          "form": "Psdala",
+          "paradigm": "° Psdala, psdala, psdlai, psdlaan, psdlaon.",
+          "fr": "Saigner (actif) - faire saigner - Tuer.",
+          "en": "To bleed (active) - to make bleed - to kill.",
+          "zh": "放血（主動）——使流血——宰殺。",
+          "examples": [
+            {
+              "t": "Psdlaon mo ka bilat nia",
+              "fr": "Je veux lui faire une saignée à l'oreille.",
+              "en": "I want to bleed his ear (make an incision to let blood).",
+              "zh": "我要在他的耳朵上放血。"
+            },
+            {
+              "t": "Ya xan! Saon mo psdala kingal lodoç ooqon ta ka'man kia",
+              "fr": "Attends un peu! Je vais aller tuer une poule pour notre repas de ce soir.",
+              "en": "Wait a moment! I am going to go kill a chicken for our supper this evening.",
+              "zh": "等一下！我去殺一隻雞當我們今晚的晚餐。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsdala",
+          "fr": "Saigneur - saignera (futur).",
+          "en": "Slaughterer (one who bleeds animals) - will bleed (future).",
+          "zh": "屠宰者（放血者）——將宰殺（未來式）。",
+          "examples": [
+            {
+              "t": "Mpsdala babwi ka anai mo; n'xea bi ka kpaxon kia",
+              "fr": "Mon beau frère est saigneur de porcs; ce travail est vraiment sa spécialité.",
+              "en": "My brother-in-law is a pig slaughterer; that work is truly his specialty.",
+              "zh": "我的姻兄弟是殺豬的；那工作真是他的專長。"
+            },
+            {
+              "t": "Mpsdala ko xeti ka babwi mo (sy.= Psdlaon mo xeti ka babwi mo)",
+              "fr": "Je tuerai mon cochon plus tard (sy.= Je veux le tuer plus tard mon cochon).",
+              "en": "I will slaughter my pig later (syn.: I want to kill my pig later).",
+              "zh": "我稍後會宰我的豬（同義：我想稍後再殺我的豬）。"
+            }
+          ]
+        },
+        {
+          "form": "Sdlaan",
+          "fr": "Saignement (spontané).",
+          "en": "Bleeding (spontaneous).",
+          "zh": "出血（自發的）。",
+          "examples": [
+            {
+              "t": "Ini ko dxok mita sdlaan (vl. knsdlaan) loqex so",
+              "fr": "Je n'arrive pas (vl. je ne suis pas capable de) à voir le saignement de ta plaie.",
+              "en": "I cannot manage (var.: I am not able) to look at the bleeding of your wound.",
+              "zh": "我無法（或：我不忍）看你傷口的出血。"
+            }
+          ]
+        },
+        {
+          "form": "Psdlaan",
+          "fr": "Saignement (provoqué) - action (réalisée) de faire saigner.",
+          "en": "Bleeding (induced) - the (accomplished) act of making bleed.",
+          "zh": "出血（人為引起的）——使之流血的（已完成之）行為。",
+          "examples": [
+            {
+              "t": "Adi mpkxoai ka loqex so, ya sa pnsdlaan so kddiyax",
+              "fr": "Elle ne guérira pas ta blessure du moment que tu la fais saigner sans cesse!",
+              "en": "Your wound will not heal so long as you keep making it bleed constantly!",
+              "zh": "你要是不停地讓傷口流血，它就不會癒合！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DALEX",
+      "tag": "(R)",
+      "fr": "Proche - peu éloigné (espace, temps).",
+      "en": "Near - not far off (space, time).",
+      "zh": "近的——不遠的（空間、時間）。",
+      "examples": [
+        {
+          "t": "Dalex bi sapax so",
+          "fr": "Tout près de chez toi.",
+          "en": "Very close to your house.",
+          "zh": "就在你家附近。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dlalex (?) - Tdalex (?)",
+          "fr": "Qui est très proche.",
+          "en": "That is very near.",
+          "zh": "非常近的。",
+          "examples": []
+        },
+        {
+          "form": "Tdalex",
+          "fr": "Qui de fait est tout proche, juste à côté, dans le voisinage.",
+          "en": "That is in fact quite near, right beside, in the vicinity.",
+          "zh": "實際上非常近的，就在旁邊、在附近的。",
+          "examples": [
+            {
+              "t": "Ga tdalex (dlalex) bi ka iyaxan na",
+              "fr": "Sa venue est tout proche.",
+              "en": "His coming is very near.",
+              "zh": "他的到來已近在眼前。"
+            }
+          ]
+        },
+        {
+          "form": "Mdalex",
+          "fr": "Qui est proche - qui est voisin.",
+          "en": "That is near - that is neighboring.",
+          "zh": "近的——相鄰的。",
+          "examples": [
+            {
+              "t": "Ma mdxyaq ! Mdalex nami bi ka yami",
+              "fr": "Comment: éloignés! Nous nous sommes vraiment tout proches (voisins, ou: parents).",
+              "en": "What do you mean, far apart! We are really very close (neighbors, or: relatives).",
+              "zh": "怎麼會遠！我們其實非常親近（是鄰居，或：是親戚）。"
+            }
+          ]
+        },
+        {
+          "form": "Sdalex",
+          "fr": "Se rapprocher.",
+          "en": "To draw near.",
+          "zh": "靠近。",
+          "examples": [
+            {
+              "t": "Ini bi sdalex ka xea! mk'la!",
+              "fr": "Il ne s'approche (?) pas! Il sait bien (pourquoi)!",
+              "en": "He does not come near at all! He well knows (why)!",
+              "zh": "他根本不靠近！他心裡清楚（為什麼）！"
+            }
+          ]
+        },
+        {
+          "form": "Smdalex",
+          "fr": "Se rapprocher (actif).",
+          "en": "To draw near (active).",
+          "zh": "靠近（主動）。",
+          "examples": [
+            {
+              "t": "Miyax smdalex knan ka laqe so",
+              "fr": "Ton enfant se rapproche de moi.",
+              "en": "Your child is drawing near to me.",
+              "zh": "你的孩子正向我靠近。"
+            }
+          ]
+        },
+        {
+          "form": "Msdalex",
+          "fr": "Celui qui se rapproche.",
+          "en": "The one who draws near.",
+          "zh": "正在靠近的人。",
+          "examples": [
+            {
+              "t": "Ima ka msdalex sunan?",
+              "fr": "Qui est ce qui se rapproche de toi?",
+              "en": "Who is it that is drawing near to you?",
+              "zh": "是誰在靠近你？"
+            },
+            {
+              "t": "Ini ko kskwi (kskui ?), ya sa mdalex ko taxot ka yako, ga msdalex ka pai so ole",
+              "fr": "Je n'ai pas froid, je suis près du feu, et ta belle mère aussi se rapproche.",
+              "en": "I am not cold, I am near the fire, and your mother-in-law is drawing near too.",
+              "zh": "我不冷，我就在火邊，而且你的岳母也正靠過來。"
+            }
+          ]
+        },
+        {
+          "form": "Psdalex",
+          "paradigm": "° Psdalex, psdalex, psdlxi, psdlxan, psdlxun.",
+          "fr": "Rapprocher (qque ch. ou qqu'un).",
+          "en": "To bring near (something or someone).",
+          "zh": "使靠近（某物或某人）。",
+          "examples": [
+            {
+              "t": "Psdlxun mo tityex ka xalong kketa so (qqeta so ?) patas pnatas sktama so",
+              "fr": "Je vais approcher un peu la lampe (Le falot) pour que tu puisses voir (lire) la lettre écrite par feu ton père.",
+              "en": "I am going to bring the lamp (the lantern) a little closer so that you can see (read) the letter written by your late father.",
+              "zh": "我把燈（提燈）移近一點，好讓你能看（讀）你先父寫的信。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

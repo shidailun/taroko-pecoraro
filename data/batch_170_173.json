@@ -1,0 +1,742 @@
+{
+  "pages": [170, 173],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "LNGSUX", "tag": "(R)",
+      "fr": "Crue des eaux - inondation - déluge.",
+      "en": "Flood waters - inundation - deluge.",
+      "zh": "洪水－氾濫－大洪水。",
+      "examples": [
+        {
+          "t": "Miyax ka lngsux paro ni snbu sapax ka yayong do, ini na llgani ka sapax, ya sa mgdxo ka smnlaan na",
+          "fr": "Une crue survient et le torrent vient se jeter contre la maison, mais la maison ne bouge pas car elle est solidement bâtie.",
+          "en": "A flood comes and the torrent hurls itself against the house, but the house does not budge because it is solidly built.",
+          "zh": "洪水來襲，急流衝向房屋，但房屋紋絲不動，因為它建得很牢固。"
+        }
+      ]
+    },
+    {
+      "hw": "L'NGUT (LNGUT)", "tag": "(R)",
+      "fr": "Féconder (pour les humains) - fécondation.",
+      "en": "To impregnate (of humans) - impregnation.",
+      "zh": "使受孕（用於人類）－受孕。",
+      "subs": [
+        {
+          "form": "Lmngut",
+          "paradigm": "°Lmngut, lngut, lnguti (?), lngutan, lngutun.",
+          "fr": "Féconder - devenir féconde.",
+          "en": "To impregnate - to become fertile.",
+          "zh": "使受孕－變得能受孕。",
+          "examples": [
+            {
+              "t": "Ya lmngut so pax sknuan ?",
+              "fr": "Depuis quand es tu enceinte?",
+              "en": "Since when have you been pregnant?",
+              "zh": "你懷孕多久了？"
+            }
+          ]
+        },
+        {
+          "form": "Lngutan",
+          "fr": "Être fécondée - être enceinte.",
+          "en": "To be impregnated - to be pregnant.",
+          "zh": "被受孕－懷孕。",
+          "examples": [
+            {
+              "t": "Ana msludan o, balae bi lngutan ka koyox na",
+              "fr": "Malgré son grand âge voilà que sa femme est vraiment enceinte.",
+              "en": "Despite her advanced age, his wife is now truly pregnant.",
+              "zh": "儘管年事已高，他的妻子如今卻真的懷孕了。"
+            }
+          ]
+        },
+        {
+          "form": "Plngut",
+          "fr": "Féconder - rendre enceinte.",
+          "en": "To impregnate - to make pregnant.",
+          "zh": "使受孕－使懷孕。",
+          "examples": [
+            {
+              "t": "Uxai snao daxa ka pnlngut knan",
+              "fr": "Je n'ai pas été rendue enceinte par le mari d'une autre!",
+              "en": "I was not made pregnant by another woman's husband!",
+              "zh": "我不是被別人的丈夫弄懷孕的！"
+            },
+            {
+              "t": "Klxangi bi adi so muda plngut mk'alang paro",
+              "fr": "Fais attention en ville de ne pas aller te faire mettre enceinte.",
+              "en": "Be careful in the city not to go and get yourself made pregnant.",
+              "zh": "在城裡要小心，別讓自己懷了孕。"
+            }
+          ]
+        },
+        {
+          "form": "Mplngut",
+          "fr": "1) Sera enceinte; 2) Celui qui féconde.",
+          "en": "1) Will be pregnant; 2) The one who impregnates.",
+          "zh": "1）將會懷孕；2）使人受孕者。"
+        }
+      ]
+    },
+    {
+      "hw": "LOAI (LOWAI ?)", "tag": "(R)",
+      "fr": "Extérieur - excepté. (nb. dans le sens d'extérieur pour un lieu matériel on dit de préférence: NGANGOT).",
+      "en": "Exterior - except. (n.b. in the sense of exterior for a physical place one preferably says: NGANGOT).",
+      "zh": "外部－除…之外。（註：在指具體場所的「外部」意義時，較常說：NGANGOT。）",
+      "examples": [
+        {
+          "t": "Wana Laokeng, loai na do, ini tdoa",
+          "fr": "Laokenne seulement, les autres (pour les en dehors de lui)ce n'est pas possible.",
+          "en": "Only Laokeng; the others (as for those outside of him) it is not possible.",
+          "zh": "只有勞肯（Laokeng），其他人（對於他以外的人）是不行的。"
+        },
+        {
+          "t": "Loai sadyaq",
+          "fr": "Les gens de l'extérieur - les non initiés - les non compétents.",
+          "en": "People from outside - the uninitiated - the incompetent.",
+          "zh": "外來的人－未入門者－不內行的人。"
+        }
+      ]
+    },
+    {
+      "hw": "LOAN (LOWAN ?)", "tag": "(R)",
+      "fr": "Intérieur - dans - dedans.",
+      "en": "Interior - in - inside.",
+      "zh": "內部－在…裡－裡面。",
+      "examples": [
+        {
+          "t": "Loan ka mnalox bi",
+          "fr": "C'est à l'intérieur que cela fait vraiment mal.",
+          "en": "It is inside that it really hurts.",
+          "zh": "真正痛的是在裡面。"
+        },
+        {
+          "t": "Nta da tsasao loan da ! knoyoç bi ka ngangot nii",
+          "fr": "Allons à l'abri à l'intérieur (de la maison)! Il pleut ici dehors.",
+          "en": "Let's take shelter inside (the house)! It's raining out here.",
+          "zh": "我們進（屋）裡躲一躲吧！外面在下雨。"
+        },
+        {
+          "t": "Kingal loan sapax",
+          "fr": "Une famille (une maisonnée).",
+          "en": "A family (a household).",
+          "zh": "一個家庭（一戶人家）。"
+        }
+      ]
+    },
+    {
+      "hw": "LOBANG", "tag": "( = R. ? - R. = ? )",
+      "fr": "Compter faire - projeter.",
+      "en": "To plan to do - to intend.",
+      "zh": "打算做－計劃。",
+      "examples": [
+        {
+          "t": "Lobang no musa madok (madop)",
+          "fr": "En fait je compte aller à la chasse.",
+          "en": "In fact I intend to go hunting.",
+          "zh": "其實我打算去打獵。"
+        }
+      ]
+    },
+    {
+      "hw": "LOBONG", "tag": "(R)",
+      "fr": "Couvrir - recouvrir. (nb. souvent confondu, surtout dans des formes dérivées, avec l'bong (L'BONG) = ensevelir.).",
+      "en": "To cover - to cover over. (n.b. often confused, especially in derived forms, with l'bong (L'BONG) = to bury.).",
+      "zh": "覆蓋－蓋住。（註：尤其在派生形式中，常與 l'bong（L'BONG）＝掩埋 相混淆。）",
+      "subs": [
+        {
+          "form": "Lmobong",
+          "paradigm": "°Lmobong, lobong, lbongi, lbongan, lbongun.",
+          "fr": "Recouvrir - couvrir - mettre à l'abri.",
+          "en": "To cover over - to cover - to shelter.",
+          "zh": "蓋住－覆蓋－遮蔽。",
+          "examples": [
+            {
+              "t": "Lmobong ko payai no sayang, iso ka (isoka) npkoyoç",
+              "fr": "Je recouvre mon paddy maintenant puisqu'on dirait qu'il va pleuvoir !",
+              "en": "I am covering my rice paddy now since it looks like it's going to rain!",
+              "zh": "我現在把稻穀蓋起來，因為看起來要下雨了！"
+            }
+          ]
+        },
+        {
+          "form": "Lbongan",
+          "fr": "Couverture - ce qui est recouvert.",
+          "en": "A cover - that which is covered.",
+          "zh": "覆蓋物－被蓋住的東西。",
+          "examples": [
+            {
+              "t": "Xeaon so ka qabang ? Lbongun so nanu ? ... Lobang no lmobong trabus, ongat ka lbongan no",
+              "fr": "Pourquoi cette couverture? Que vas tu en faire? ... Je pensais en recouvrir mes arachides; je n'ai rien pour les couvrir !",
+              "en": "Why this cover? What will you do with it? ... I was thinking of covering my peanuts with it; I have nothing to cover them with!",
+              "zh": "這塊蓋布做什麼用？你要拿它做什麼？……我本想用它蓋我的花生；我沒有東西可以蓋它們！"
+            },
+            {
+              "t": "Wada no lbongan s'xiga ka bonga",
+              "fr": "Je les ai recouvertes hier, les patates douces.",
+              "en": "I covered them yesterday, the sweet potatoes.",
+              "zh": "我昨天把地瓜蓋好了。"
+            },
+            {
+              "t": "Wada no l'bngan (lb'ngan) s'xiga ka bonga",
+              "fr": "Je les ai enterrées hier, les patates douces.",
+              "en": "I buried them yesterday, the sweet potatoes.",
+              "zh": "我昨天把地瓜埋起來了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LOBONG", "tag": "(R)",
+      "fr": "Piège (pour prendre des animaux: sanglier, cheveuil, rats, oiseaux etc..)",
+      "en": "Trap (for catching animals: wild boar, roe deer, rats, birds etc..)",
+      "zh": "陷阱（用來捕捉動物：野豬、鹿、老鼠、鳥等等……）",
+      "subs": [
+        {
+          "form": "Mlobong",
+          "fr": "Poser des pièges, des collets. ( = Mklobong ?) Devient piège ?",
+          "en": "To set traps, snares. ( = Mklobong ?) Becomes a trap?",
+          "zh": "設下陷阱、圈套。（＝Mklobong？）變成陷阱？"
+        },
+        {
+          "form": "Mklobong",
+          "fr": "Poser des pièges - tendre des collets.",
+          "en": "To set traps - to lay snares.",
+          "zh": "設下陷阱－張設圈套。",
+          "examples": [
+            {
+              "t": "Ini ko k'la snbu punyaq ka yako, xmut ko musa mklobong dgiyaq",
+              "fr": "Je ne sais pas me servir de fusil, moi, je vais tout simplement poser des pièges en montagne.",
+              "en": "I don't know how to use a gun; I'll just go and set traps in the mountains.",
+              "zh": "我不會用槍，我就乾脆去山上設陷阱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LODO", "tag": "(R)",
+      "fr": "Nid - repère - germe - gaine - fourreau.",
+      "en": "Nest - lair/den - core (germ) - sheath - scabbard.",
+      "zh": "巢－窩（藏身處）－核（膿栓）－鞘－刀鞘。",
+      "examples": [
+        { "t": "Lodo lodoç", "fr": "nid des poules.", "en": "hens' nest.", "zh": "雞窩。" },
+        { "t": "Lodo poting", "fr": "Fourreau du coutelas.", "en": "Sheath of the machete.", "zh": "山刀的刀鞘。" },
+        { "t": "Lodo \"sig (\"siu)", "fr": "Germe (bourbillon) du furoncle.", "en": "Core (pus-plug) of the boil.", "zh": "癤子的膿栓。" },
+        { "t": "Lodo xelao", "fr": "Crachat (nid de la toux).", "en": "Sputum (nest of the cough).", "zh": "痰（咳嗽之窩）。" },
+        { "t": "Lodo doxe", "fr": "Repère (nid) de brigands.", "en": "Lair (nest) of brigands.", "zh": "盜匪的巢穴（窩）。" }
+      ],
+      "subs": [
+        {
+          "form": "Lmodo",
+          "fr": "Faire le nid - faire son nid.",
+          "en": "To make the nest - to build one's nest.",
+          "zh": "築巢－築自己的巢。",
+          "examples": [
+            {
+              "t": "Pusu qliyut bukwi sapax no,kika yaxan bi lmobo kana ka qbxni",
+              "fr": "C'est sur le mûrier qui est derrière chez moi que les oiseaux aiment bien venir faire leur nid.",
+              "en": "It is on the mulberry tree behind my house that the birds love to come and build their nests.",
+              "zh": "鳥兒最喜歡到我家後面的桑樹上築巢。"
+            }
+          ]
+        },
+        {
+          "form": "Mlodo (R. = ?)",
+          "fr": "Etre en désordre - devenir nid(?).",
+          "en": "To be in disorder - to become a nest(?).",
+          "zh": "凌亂－變成鳥窩（？）。",
+          "examples": [
+            {
+              "t": "Ida mlodo kddiyax ka tqean no",
+              "fr": "C'est tous les jours que mon lit est en désordre !",
+              "en": "My bed is in a mess every single day!",
+              "zh": "我的床每天都亂七八糟！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LODOç", "tag": "(R)",
+      "fr": "Poule - volaille.",
+      "en": "Hen - poultry.",
+      "zh": "母雞－家禽。",
+      "examples": [
+        {
+          "t": "Naqex bi tbugan lodoç ka sayang! Muda ka mpuno do, asi bi kxdo musa kana da",
+          "fr": "Ce n'est pas facile (avantageux) d'élever des poules aujourd'hui! Que vienne une épidémie de choléra et elles y passent toutes les unes après les autres.",
+          "en": "It is not easy (profitable) to raise chickens these days! Let a cholera epidemic come and they all die off one after another.",
+          "zh": "如今養雞不容易（不划算）！一旦來了瘟疫，牠們就一隻接一隻全死光。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Llodoç",
+          "fr": "Les poules (pluriel).",
+          "en": "The hens (plural).",
+          "zh": "母雞們（複數）。"
+        },
+        {
+          "form": "Dlodoç",
+          "fr": "Les poules (en général) - La volaille.",
+          "en": "Hens (in general) - poultry.",
+          "zh": "雞（泛指）－家禽。"
+        }
+      ]
+    },
+    {
+      "hw": "LOLO", "tag": "(R)",
+      "fr": "Canard.",
+      "en": "Duck.",
+      "zh": "鴨子。",
+      "examples": [
+        { "t": "Lolo paro", "fr": "Oie (grand canard).", "en": "Goose (big duck).", "zh": "鵝（大鴨）。" },
+        {
+          "t": "Malu bi tbugan ka dlolo",
+          "fr": "Les canards sont très faciles à élever.",
+          "en": "Ducks are very easy to raise.",
+          "zh": "鴨子很好養。"
+        }
+      ]
+    },
+    {
+      "hw": "LOLONG", "tag": "(R)",
+      "fr": "Nuage.",
+      "en": "Cloud.",
+      "zh": "雲。",
+      "examples": [
+        {
+          "t": "Ka smliyu paro bi lolong mqalox pax xlaan xedao",
+          "fr": "Un gros nuage noir dépasse (sort) de l'Est.",
+          "en": "A big black cloud is emerging (rising) from the East.",
+          "zh": "一大片烏雲從東方冒出（升起）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlolong",
+          "fr": "Devenir nuage - nuageux - se couvrir de nuages.",
+          "en": "To become cloud - cloudy - to become covered with clouds.",
+          "zh": "變成雲－多雲－佈滿雲。",
+          "examples": [
+            {
+              "t": "Mlolong kana ka kalat da",
+              "fr": "Voilà que le ciel se couvre (de nuages).",
+              "en": "Now the sky is clouding over.",
+              "zh": "天空佈滿了雲。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LONGAI", "tag": "(R)",
+      "fr": "Singe.",
+      "en": "Monkey.",
+      "zh": "猴子。",
+      "examples": [
+        {
+          "t": "Ya wada bi ino kana llongai da! Ongat da!",
+          "fr": "Mais où sont ils donc tous allés,les singes? Il n'y en a plus !",
+          "en": "But where have they all gone, the monkeys? There are none left!",
+          "zh": "猴子們到底都跑哪去了？一隻也不剩了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlongai (R. = LONGAI ?)",
+          "fr": "S'évanouir.",
+          "en": "To faint.",
+          "zh": "昏倒。",
+          "examples": [
+            {
+              "t": "Ya adi nxoqel xo? ... Adi ! Ga mlongai nanak!",
+              "fr": "Serait il mort? ... Non, seulement évanoui !",
+              "en": "Could he be dead? ... No, only fainted!",
+              "zh": "他死了嗎？……沒有，只是昏過去了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LONGAO", "tag": "(R)",
+      "fr": "Bouteille.",
+      "en": "Bottle.",
+      "zh": "瓶子。",
+      "examples": [
+        {
+          "t": "Ongat sinao sapax no; ana kingal bi longao o, ngat.",
+          "fr": "Il n'y a pas d'alcool chez moi, même pas une seule bouteille",
+          "en": "There is no alcohol at my place, not even a single bottle.",
+          "zh": "我家沒有酒，連一瓶也沒有。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tnlongao",
+          "fr": "Spécialiste de la bouteille - habitué de la bouteille - qui aime la bouteille - ivrogne.",
+          "en": "Bottle specialist - regular of the bottle - one who loves the bottle - drunkard.",
+          "zh": "酒瓶專家－酒瓶常客－愛喝酒的人－酒鬼。",
+          "examples": [
+            {
+              "t": "Tnlongao balae ka Liwis ni Iboq",
+              "fr": "Liwis et Iboqh sont des ivrognes.",
+              "en": "Liwis and Iboqh are drunkards.",
+              "zh": "Liwis 和 Iboqh 是酒鬼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LOQ", "tag": "( = R. ?)",
+      "fr": "Trou - percé - brisé.",
+      "en": "Hole - pierced - broken.",
+      "zh": "洞－被刺穿的－破裂的。",
+      "subs": [
+        {
+          "form": "Mloq",
+          "fr": "Se percer - se casser.",
+          "en": "To get pierced - to break.",
+          "zh": "被刺穿－破裂。",
+          "examples": [
+            {
+              "t": "Mxdo mloq kana maxal daxa balong lodoç",
+              "fr": "Les douze oeufs de la poule sont tous éclos.",
+              "en": "All twelve of the hen's eggs have hatched.",
+              "zh": "母雞的十二顆蛋全都孵化了。"
+            },
+            {
+              "t": "Ga mloq muxeng ka kating no",
+              "fr": "Mon buffle a le nez percé (trou dans le museau dans lequel doit passer un anneau par lequel le buffle est attaché,conduit)",
+              "en": "My buffalo has its nose pierced (a hole in the muzzle through which a ring must pass, by which the buffalo is tethered and led).",
+              "zh": "我的水牛鼻子穿了孔（口鼻上有個洞，要穿過一個環，用來拴住並牽引水牛）。"
+            }
+          ]
+        },
+        {
+          "form": "Ploq",
+          "paradigm": "°Mploq, ploq, plqe(pl'qe), plqan (pl'qan), plqon (pl'qon).",
+          "fr": "Percer - trouer.",
+          "en": "To pierce - to make a hole.",
+          "zh": "刺穿－打洞。",
+          "examples": [
+            {
+              "t": "Ya bi plqe (pl'qe) ka sxnoan babwi so; ddiyun no",
+              "fr": "Ne perce pas cette vessie de cochon; j'en ferai usage.",
+              "en": "Don't pierce this pig's bladder; I'll make use of it.",
+              "zh": "別刺破這個豬膀胱；我還要用它。"
+            },
+            {
+              "t": "Ya ksxaya ! pl'qon so kia ka lubwi",
+              "fr": "Ne fais pas ainsi! Tu vas finir par le percer,ce sac.",
+              "en": "Don't do that! You'll end up piercing it, that sack.",
+              "zh": "別這樣做！你會把那個袋子弄破的。"
+            }
+          ]
+        },
+        {
+          "form": "Mploq",
+          "fr": "Percé - troué.",
+          "en": "Pierced - holed.",
+          "zh": "被刺穿的－有洞的。",
+          "examples": [
+            {
+              "t": "Ida bi mploq ka lubwi so, na xmbui!",
+              "fr": "Ton sac est sans doute percé, il perd (de la graine) !",
+              "en": "Your sack must be holed, it's leaking (grain)!",
+              "zh": "你的袋子一定破了，正在漏（穀粒）！"
+            },
+            {
+              "t": "Ga mploq kingal boax daolyaq na ka Pido",
+              "fr": "Pido a le globe d'un oeil crevé.",
+              "en": "Pido has one eyeball burst.",
+              "zh": "Pido 有一隻眼球破了。"
+            }
+          ]
+        },
+        {
+          "form": "Sploq",
+          "fr": "éclater - pour faire crever - pour percer.",
+          "en": "To burst - (a means) to make burst - to pierce.",
+          "zh": "爆裂－用以使爆破－用以刺穿。"
+        },
+        {
+          "form": "Msploq",
+          "fr": "qui éclate - qui explose - éclater - exploser.",
+          "en": "That bursts - that explodes - to burst - to explode.",
+          "zh": "會爆裂的－會爆炸的－爆裂－爆炸。",
+          "examples": [
+            {
+              "t": "Mnsploq s'xiga ka txoan no",
+              "fr": "Mon fourneau a explosé hier.",
+              "en": "My stove exploded yesterday.",
+              "zh": "我的爐灶昨天爆炸了。"
+            },
+            {
+              "t": "Nasi msploq ka punyaq so do, npxoqel so ka iso da",
+              "fr": "Si ton fusil éclate tu seras tué (toi tu mourras).",
+              "en": "If your gun bursts you will be killed (you yourself will die).",
+              "zh": "如果你的槍膛炸了，你就會被炸死（你自己會死）。"
+            }
+          ]
+        },
+        {
+          "form": "Psploq",
+          "paradigm": "°Mpsploq, psploq, psplqe, psplqan,psplqon.",
+          "fr": "Faire éclater - faire exploser.",
+          "en": "To make burst - to make explode.",
+          "zh": "使爆裂－使爆炸。",
+          "examples": [
+            {
+              "t": "Motoç ka laqe! Mxlapas psploq bale da",
+              "fr": "Il est fou ce gosse! Il s'amuse à faire sauter des balles (de fusil).",
+              "en": "That kid is crazy! He amuses himself setting off (gun) cartridges.",
+              "zh": "這孩子瘋了！他拿（槍的）子彈來玩爆破取樂。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmpsploq",
+          "fr": "Celui qui désire faire exploser.",
+          "en": "One who wishes to make (things) explode.",
+          "zh": "想要引爆東西的人。",
+          "examples": [
+            {
+              "t": "Knpsploq bakutiku kana ka lqlaqe; mkmpsploq ko bi ka yako ole",
+              "fr": "Tous les enfants aiment faire sauter des pétards; moi aussi j'aimerais bien en faire sauter.",
+              "en": "All children love setting off firecrackers; I too would love to set some off.",
+              "zh": "所有孩子都愛放鞭炮；我也很想放。"
+            }
+          ]
+        },
+        {
+          "form": "Tploq",
+          "fr": "Etre celui (ou ce) qui éclate, qui explose.",
+          "en": "To be the one (or the thing) that bursts, that explodes.",
+          "zh": "成為爆裂、爆炸的那個（人或物）。",
+          "examples": [
+            {
+              "t": "Asi tploq msaang ka tama",
+              "fr": "Et soudain papa éclate en disputant.",
+              "en": "And suddenly papa bursts out, quarrelling.",
+              "zh": "爸爸突然發火吵了起來。"
+            }
+          ]
+        },
+        {
+          "form": "G'loq (R. = LOQ ? - = R. ?)",
+          "fr": "Engainer - avoir des rapports sexuels avec une femme . VR. G'LOQ .",
+          "en": "To sheathe - to have sexual relations with a woman. See G'LOQ.",
+          "zh": "入鞘－與女子發生性關係。參見 G'LOQ。"
+        },
+        {
+          "form": "Gnloq",
+          "fr": "Engainer - mettre dans un étui,",
+          "en": "To sheathe - to put into a case,",
+          "zh": "入鞘－放入套中，",
+          "examples": [
+            {
+              "t": "Pnsloan kari tama ka lisao nii a sao gnlqan na koyox daxa",
+              "fr": "Ce garçon a été réprimandé par son père pour avoir eu des rapports sexuels avec la femme d'un autre.",
+              "en": "This boy was reprimanded by his father for having had sexual relations with another man's wife.",
+              "zh": "這男孩因與別人的妻子發生性關係而被父親責備。"
+            }
+          ]
+        },
+        {
+          "form": "Xmgloq",
+          "fr": "Dégainer - sortir d'un étui. VR. G'LOQ .",
+          "en": "To unsheathe - to take out of a case. See G'LOQ.",
+          "zh": "出鞘－從套中取出。參見 G'LOQ。"
+        }
+      ]
+    },
+    {
+      "hw": "LOQE", "tag": "(R)",
+      "fr": "Cervelle - moelle des os.",
+      "en": "Brain - bone marrow.",
+      "zh": "腦髓－骨髓。",
+      "examples": [
+        { "t": "Loqe tunuç", "fr": "Cerveau.", "en": "Brain.", "zh": "腦。" },
+        {
+          "t": "Oqon ludan nanak ka loqe",
+          "fr": "La cervelle est un plat réservé aux anciens.",
+          "en": "Brains are a dish reserved for the elders.",
+          "zh": "腦髓是專門留給長者的一道菜。"
+        },
+        {
+          "t": "Ngalun daxa sapox ka loqe tunuç pais",
+          "fr": "Ils considéraient la cervelle des ennemis comme un remède.",
+          "en": "They regarded the brains of enemies as a remedy.",
+          "zh": "他們把敵人的腦髓視為一種藥。"
+        }
+      ]
+    },
+    {
+      "hw": "LOQEX", "tag": "(R)",
+      "fr": "Plaie - blessure (nb. surtout en parlant de vivants, plantes ou animaux, mais parfois pour des êtres inanimés: pierre, planche ..",
+      "en": "Sore - wound (n.b. especially when speaking of living things, plants or animals, but sometimes for inanimate things: stone, plank ..",
+      "zh": "傷口－創傷（註：尤指有生命者、植物或動物，但有時也用於無生命之物：石頭、木板……",
+      "examples": [
+        {
+          "t": "Mpanalu xeti ka loqe papaq so",
+          "fr": "La blessure de ton pied guerira plus tard.",
+          "en": "The wound on your foot will heal later.",
+          "zh": "你腳上的傷以後會好。"
+        },
+        {
+          "t": "Mangal loqex",
+          "fr": "Se blesser.",
+          "en": "To injure oneself.",
+          "zh": "使自己受傷。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mloqex",
+          "fr": "Devenir plaie - se couvrir de plaies - être blessé.",
+          "en": "To become a sore - to become covered with sores - to be wounded.",
+          "zh": "變成傷口－長滿瘡－受傷。",
+          "examples": [
+            {
+              "t": "Ana mqlaq o, ya bi kgusi ! Mxa mloqex kana xei so",
+              "fr": "Même si cela démange, ne gratte pas, sutout; tout ton corps deviendrait une plaie !",
+              "en": "Even if it itches, don't scratch, above all; your whole body would become one sore!",
+              "zh": "就算癢，也千萬別抓；否則你全身都會潰爛成傷！"
+            }
+          ]
+        },
+        {
+          "form": "Ploqex",
+          "paradigm": "° Mploqex,ploqex, plqexe, plqexan, plqexon.",
+          "fr": "Provoquer une plaie - infliger une blessure.",
+          "en": "To cause a sore - to inflict a wound.",
+          "zh": "造成傷口－加以創傷。",
+          "examples": [
+            {
+              "t": "Kumai xo ? daolas xo ? paqao xo ? Ya bi manu ka pnloqex tudo so sao nii ?",
+              "fr": "Est ce l'ours, les rochers, les épines qui t'ont blessé le dos de la sorte ?",
+              "en": "Is it the bear, the rocks, the thorns that wounded your back like this?",
+              "zh": "是熊、岩石，還是荊棘把你的背弄成這樣的傷？"
+            }
+          ]
+        },
+        {
+          "form": "Pkloqex",
+          "fr": "( ?? , faire que quelqu'un soit blessé (?)).",
+          "en": "( ?? , to cause someone to be wounded (?)).",
+          "zh": "（？？，使某人受傷（？））。",
+          "examples": [
+            {
+              "t": "Kari na nii o , ini pnsbut pkloqex tmaan",
+              "fr": "Les paroles qu'il vient de dire, ce sont des blasphèmes contre son père ( = Il ne se gêne pas pour blesser (?).",
+              "en": "The words he has just spoken are blasphemies against his father ( = He does not hold back from wounding (?)).",
+              "zh": "他剛才說的話是對他父親的褻瀆（＝他毫不顧忌地傷人（？））。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LOQON", "tag": "(R)",
+      "fr": "Avaler. ( = L'qon ?).",
+      "en": "To swallow. ( = L'qon ?).",
+      "zh": "吞嚥。（＝L'qon？）",
+      "subs": [
+        {
+          "form": "Lmoqon",
+          "paradigm": "°Lmoqon, loqon, lqni (lq'ni), lqnan (lq'nan), lqnun.",
+          "fr": "Avaler.",
+          "en": "To swallow.",
+          "zh": "吞嚥。",
+          "examples": [
+            {
+              "t": "Lqni n'xali ka sapox nii, balae bi sapox lqnun",
+              "fr": "Avale vite ce médicament; c'est bien un médicament à avaler.",
+              "en": "Swallow this medicine quickly; it is indeed a medicine to be swallowed.",
+              "zh": "快把這藥吞下去；這確實是要吞服的藥。"
+            }
+          ]
+        },
+        {
+          "form": "Lqnun (lq'nun)",
+          "fr": "A avaler - qu'il faut avaler.",
+          "en": "To be swallowed - that must be swallowed.",
+          "zh": "該吞服的－必須吞下的。",
+          "examples": [
+            {
+              "t": "Sapox nmulun ka b'xgai, sapox lqnun ka mbanax",
+              "fr": "Le blanc est un médicament à sucer, le rouge est à avaler.",
+              "en": "The white one is a medicine to suck, the red one is to be swallowed.",
+              "zh": "白色的藥是含服的，紅色的是吞服的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LOSO", "tag": "(R)",
+      "fr": "Larmes - écoulement, chuintement, comme pour la résine des arbres,",
+      "en": "Tears - oozing, seeping, as with the resin of trees,",
+      "zh": "淚水－滲流、滲出，如同樹脂一般，",
+      "examples": [
+        { "t": "Loso daolyaq", "fr": "Larmes (des yeux).", "en": "Tears (of the eyes).", "zh": "（眼）淚。" },
+        {
+          "t": "Mntöting kana loso daolyaq na",
+          "fr": "Toutes les larmes de ses yeux sont tombées.",
+          "en": "All the tears of his eyes have fallen.",
+          "zh": "他眼中的淚水都流盡（落下）了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sloso",
+          "fr": "Larmoyant - qui chuinte comme des larmes.",
+          "en": "Tearful - that seeps like tears.",
+          "zh": "淚汪汪的－像淚水般滲流的。",
+          "examples": [
+            {
+              "t": "Asi bi sloso kana daolyaq no",
+              "fr": "A tel point que mes yeux sont pleins de larmes.",
+              "en": "To such a point that my eyes are full of tears.",
+              "zh": "以致於我雙眼滿是淚水。"
+            }
+          ]
+        },
+        {
+          "form": "Psloso",
+          "fr": "Provoquer des larmes - émouvoir.",
+          "en": "To cause tears - to move (emotionally).",
+          "zh": "使人流淚－令人動容。",
+          "examples": [
+            {
+              "t": "Manu bi ka yaxan so psloso kana daolyaq lqlaqe ?",
+              "fr": "Qu'est ce qui te prend de venir faire pleurer tous les (yeux des) enfants ?",
+              "en": "What has got into you, coming to make all the children('s eyes) cry?",
+              "zh": "你是怎麼了，跑來把所有孩子（的眼睛）都弄哭？"
+            }
+          ]
+        },
+        {
+          "form": "Spsloso",
+          "fr": "(moyen) pour faire pleurer, pour émouvoir.",
+          "en": "(a means) to make (someone) cry, to move (emotionally).",
+          "zh": "（用以）使人哭泣、令人動容的（方法）。",
+          "examples": [
+            {
+              "t": "Manu bi ka pusu spsloso daolyaq namo",
+              "fr": "Qu'est ce donc bien qui vous fait pleurer ?",
+              "en": "What on earth is it that makes you (all) cry?",
+              "zh": "究竟是什麼讓你們流淚？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

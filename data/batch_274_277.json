@@ -1,0 +1,665 @@
+{
+  "pages": [274, 277],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "SIPAQ",
+      "tag": "(= R. ? - R. = PAQ ?)",
+      "fr": "Donner un coup de couteau - frapper (spécialement avec un instrument tranchant).",
+      "en": "To give a knife blow - to strike (especially with a cutting instrument).",
+      "zh": "用刀砍一下－打擊（尤指用利器）。",
+      "examples": [
+        {
+          "t": "Asi bi sipaq ka xea!",
+          "fr": "Il frappe avec son couteau, lui (=Il n'y va pas par quatre chemins).",
+          "en": "He strikes with his knife (= He doesn't beat around the bush).",
+          "zh": "他直接就拿刀砍下去（＝他做事乾脆，不拐彎抹角）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smipaq",
+          "paradigm": "° Smipaq, Sipaq, paqe, paqan, paqon",
+          "fr": "Frapper - battre (spécialement: faire usage du couteau). (nb. A noter la disparition du préfixe S, aux formes qui traduisent notre passif: 1) PAQE = que soit frappé; 2) PAQAN = Ce qui a été frappé, temps, lieu où est reçu le coup; 3) PAQON = Ce qui sera, qui doit être frappé. Ce cas n'est pas unique; par ex. SMBU = °Smbu, sbu, bui, buan, buon = Tirer, lancer (pour atteindre!).)",
+          "en": "To strike - to beat (especially: to make use of the knife). (n.b. Note the disappearance of the prefix S in the forms that render our passive: 1) PAQE = that which is to be struck; 2) PAQAN = that which has been struck, the time, the place where the blow is received; 3) PAQON = that which will be, which must be struck. This case is not unique; e.g. SMBU = °Smbu, sbu, bui, buan, buon = To shoot, to hurl (in order to hit!).)",
+          "zh": "打擊－毆打（尤指：使用刀）。（註：注意在表達我們〔法語〕被動式的那些形式中，前綴 S 消失了：1) PAQE ＝願被砍者；2) PAQAN ＝已被砍者、被砍的時間、受到打擊的地點；3) PAQON ＝將被砍、應被砍者。此情形並非個例；例如 SMBU ＝°Smbu, sbu, bui, buan, buon ＝射、投擲（為擊中！）。）",
+          "examples": [
+            {
+              "t": "Smipaq baga",
+              "fr": "Battre des mains (applaudir).",
+              "en": "To clap the hands (to applaud).",
+              "zh": "拍手（鼓掌）。"
+            },
+            {
+              "t": "Smipaq poting",
+              "fr": "Frapper du couteau.",
+              "en": "To strike with the knife.",
+              "zh": "用刀砍。"
+            },
+            {
+              "t": "Paqon ko na kia ka Pisao",
+              "fr": "Pissao veut me donner un coup de couteau plus tard.",
+              "en": "Pissao wants to give me a knife blow later.",
+              "zh": "Pisao 以後想拿刀砍我。"
+            },
+            {
+              "t": "Ida ko na paqon kia ka Pisao",
+              "fr": "De toute façon je sais que Pissao cherche à me donner un coup de couteau !",
+              "en": "In any case I know that Pissao is looking to give me a knife blow!",
+              "zh": "無論如何我知道 Pisao 想拿刀砍我！"
+            }
+          ]
+        },
+        {
+          "form": "Paqan",
+          "fr": "L'endroit où est reçu le coup - action réalisée de porter un coup.",
+          "en": "The place where the blow is received - the completed action of striking a blow.",
+          "zh": "受到打擊的地點－打擊此一已完成的動作。",
+          "examples": [
+            {
+              "t": "Wada ko na paqan",
+              "fr": "Il m'a frappé (= Je suis devenu celui qui a reçu le coup que lui a donné).",
+              "en": "He struck me (= I became the one who received the blow he gave).",
+              "zh": "他打了我（＝我成了承受他所給打擊的人）。"
+            },
+            {
+              "t": "Adi aleq ka nii xo? ... Npaqan Pisao ka nii",
+              "fr": "N'est-ce pas une cicatrice que tu as là? ... C'est là où Pissao m'a frappé !",
+              "en": "Isn't that a scar you have there? ... That's where Pissao struck me!",
+              "zh": "你那裡不是有個疤嗎？……那就是 Pisao 打我的地方！"
+            }
+          ]
+        },
+        {
+          "form": "Paqon",
+          "fr": "Ce, celui qu'on veut, qu'on doit frapper (et souvent: Tuer!).",
+          "en": "That, the one whom one wants, whom one must strike (and often: to kill!).",
+          "zh": "想要、必須打擊（且往往是：殺！）的那個（人或物）。",
+          "examples": [
+            {
+              "t": "Klaon mo balae, ida ko na paqon!",
+              "fr": "J'en suis certain, il veut absolument me frapper (me tuer).",
+              "en": "I'm certain of it, he absolutely wants to strike me (to kill me).",
+              "zh": "我很確定，他一定要打我（殺我）。"
+            }
+          ]
+        },
+        {
+          "form": "Mssipaq",
+          "fr": "Se taper dessus mutuellement",
+          "en": "To hit each other mutually.",
+          "zh": "互相毆打。",
+          "examples": [
+            {
+              "t": "Knliwa bi ka qqan däxa! Asi bi mssipaq (ssipaq) ka dxea",
+              "fr": "Leur lutte est acharnée, ils en sont à se frapper (avec le couteau).",
+              "en": "Their struggle is fierce, they have come to striking each other (with the knife).",
+              "zh": "他們的爭鬥非常激烈，已經到了互相（用刀）砍殺的地步。"
+            }
+          ]
+        },
+        {
+          "form": "Ssipaq",
+          "fr": "1) Pour frapper. 2) Se frapper mutuellement.",
+          "en": "1) In order to strike. 2) To strike each other mutually.",
+          "zh": "1) 用以打擊。2) 互相打擊。",
+          "examples": [
+            {
+              "t": "Ngali ka poting ssipaq so wwaxel ni ssida muda ta \"lu kia",
+              "fr": "Prends donc ton coutelas pour couper (pour frapper) les lianes et les branches le long de notre route tout à l'heure.",
+              "en": "Take your machete then to cut (to strike) the vines and branches along our path in a little while.",
+              "zh": "那就拿你的番刀，待會兒好沿路砍（打）藤蔓和枝條。"
+            },
+            {
+              "t": "Ini nami ssipaq ! Ima msa: mssipaq?",
+              "fr": "Nous ne nous frappons pas! Qui dit se frapper mutuellement ?",
+              "en": "We are not hitting each other! Who says [we are] hitting each other?",
+              "zh": "我們並沒有互相打！誰說要互相打了？"
+            }
+          ]
+        },
+        {
+          "form": "Psipaq",
+          "fr": "Se faire battre - recevoir des coups.",
+          "en": "To get oneself beaten - to receive blows.",
+          "zh": "挨打－遭受打擊。",
+          "examples": [
+            {
+              "t": "Ya adi so splang mnda psipaq baga aadi so mpkpax (mpqapax) xo?",
+              "fr": "Est-ce que tu n'aurais pas fait exprès d'aller te faire donner un coup (de couteau) à la main pour ne plus avoir à travailler ?",
+              "en": "Wouldn't you have deliberately gone to get yourself given a (knife) blow to the hand so as to no longer have to work?",
+              "zh": "你該不會是故意去讓人（用刀）砍傷手，好讓自己不用再工作吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIQA",
+      "tag": "(SYEQA - SYAQA) (R)",
+      "fr": "Honte - pudeur - réserve.",
+      "en": "Shame - modesty - reserve.",
+      "zh": "羞恥－羞怯－矜持。",
+      "examples": [
+        {
+          "t": "Siqa bi",
+          "fr": "Honte à toi! - C'est honteux !",
+          "en": "Shame on you! - That's shameful!",
+          "zh": "你真丟臉！－真可恥！"
+        },
+        {
+          "t": "Siqa xali o!",
+          "fr": "Dis donc! Sois un peu poli! - C'est un peu prétentieux de ta part !",
+          "en": "Come on! Be a bit polite! - That's a bit presumptuous of you!",
+          "zh": "喂！客氣一點！－你這樣有點自大了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msiqa",
+          "paradigm": "°Msiqa, siqa, sqaai (?), sqaan, sqaon",
+          "fr": "Qui a honte - qui est timide - qui est pudique.",
+          "en": "One who is ashamed - who is shy - who is modest.",
+          "zh": "會害羞的－膽怯的－知恥的（人）。",
+          "examples": [
+            {
+              "t": "MSiqa ko bi lmngao sunan!",
+              "fr": "J'ai honte (je suis gêné, embarrassé) de te le dire!",
+              "en": "I'm ashamed (I'm awkward, embarrassed) to tell you it!",
+              "zh": "我不好意思（我很尷尬、難為情）跟你說這件事！"
+            },
+            {
+              "t": "Lngagi n'xali da! Manu bi ka sqaon so?",
+              "fr": "Dis le simplement (dis le vite)! Pourquoi tu te gênes (Qu'est-ce qui te fait honte - de quoi as tu honte)?",
+              "en": "Just say it (say it quickly)! Why are you embarrassed (What makes you ashamed - what are you ashamed of)?",
+              "zh": "你就直說吧（快說）！你在難為情什麼（什麼事讓你覺得羞恥－你在羞恥什麼）？"
+            }
+          ]
+        },
+        {
+          "form": "Ksiqa",
+          "fr": "Impératif et négatif de MSIQA.",
+          "en": "Imperative and negative of MSIQA.",
+          "zh": "MSIQA 的命令式與否定式。",
+          "examples": [
+            {
+              "t": "Ini ko ksiqa lmngao ka yako!",
+              "fr": "Moi je n'ai pas honte de parler (de le dire).",
+              "en": "As for me, I'm not ashamed to speak (to say it).",
+              "zh": "我可不會羞於說話（羞於說出來）。"
+            },
+            {
+              "t": "Ksiqa (vl. Siqa) xali kbsulan so",
+              "fr": "Ne sois pas effronté (sois un peu déférent) devant ton aîné !",
+              "en": "(var. Siqa) Don't be brazen (be a bit deferential) before your elder!",
+              "zh": "（或：Siqa）在你的長輩面前不要放肆（要恭敬一點）！"
+            }
+          ]
+        },
+        {
+          "form": "Sqaan",
+          "fr": "Honte ressentie - timidité de fait - moment de honte - forme de réserve, de politesse.",
+          "en": "Shame felt - actual shyness - a moment of shame - a form of reserve, of politeness.",
+          "zh": "所感受到的羞恥－實際的膽怯－羞愧的時刻－一種矜持、禮貌的表現。",
+          "examples": [
+            {
+              "t": "Ma\" sqaan so !",
+              "fr": "On dirait que tu te gênes, (que tu as honte) !",
+              "en": "It seems you're embarrassed, (that you're ashamed)!",
+              "zh": "看起來你在難為情，（好像很羞愧）！"
+            },
+            {
+              "t": "Manu ka sqaan so ?",
+              "fr": "De quoi as tu honte ? (nb. Ce terme signifie aussi: Enroué - extinction de voix; de quelle R. dérive-t-il? Quelle relation avec: Honte, timidité, réserve ??).",
+              "en": "What are you ashamed of? (n.b. This term also means: hoarse - loss of voice; from which root does it derive? What relation with: shame, shyness, reserve??).",
+              "zh": "你在羞恥什麼？（註：此詞也有「嘶啞－失聲」之意；它源自哪個詞根？與羞恥、膽怯、矜持有何關聯？？）。"
+            }
+          ]
+        },
+        {
+          "form": "Knsqaan",
+          "fr": "Honte - gêne - Intensité de ces sentiments.",
+          "en": "Shame - embarrassment - the intensity of these feelings.",
+          "zh": "羞恥－難為情－這些情緒的強烈程度。",
+          "examples": [
+            {
+              "t": "Knqdolyaq ko ka yako siida a sao knsqaan mo sadyaq",
+              "fr": "J'avais alors envie de me sauver tellement j'avais honte (je me gênais) des gens.",
+              "en": "At that moment I wanted to run away, I was so ashamed (embarrassed) in front of people.",
+              "zh": "那時候我羞愧（難為情）得想在眾人面前逃走。"
+            }
+          ]
+        },
+        {
+          "form": "Pksiqa",
+          "fr": "Faire honte - faire rougir - mettre dans l'embarras.",
+          "en": "To shame - to make [someone] blush - to put in an embarrassing situation.",
+          "zh": "使人羞愧－使人臉紅－使人難堪。",
+          "examples": [
+            {
+              "t": "Uxai ko miyax pksiqa sunan",
+              "fr": "Je ne viens pas du tout pour te mettre dans l'embarras (vl. pour te faire honte).",
+              "en": "I'm not coming at all to embarrass you (var. to shame you).",
+              "zh": "我來完全不是為了讓你難堪（或：讓你丟臉）。"
+            }
+          ]
+        },
+        {
+          "form": "Snsiqa",
+          "fr": "Qui fait rougir - qui fait honte.",
+          "en": "That which makes one blush - that which brings shame.",
+          "zh": "使人臉紅的－使人羞愧的。",
+          "examples": [
+            {
+              "t": "Sao bi snsiqa ka slngao so sapax daxa !",
+              "fr": "Elles étaient comme pour faire honte les paroles dont tu t'es servi chez les autres (Ce que tu as dit chez les autres était de nature à mettre les gens mal à l'aise).",
+              "en": "The words you used at other people's homes were as if meant to shame them (What you said at others' homes was of a nature to make people uncomfortable).",
+              "zh": "你在別人家所說的那些話簡直像是要讓人難堪（你在別人家說的話讓人很不自在）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SISIL",
+      "tag": "(R)",
+      "fr": "Oiseau de petite taille, partenaire privilégié de l'ornithomancie taroko, indicateur de chance ou malchance, par son vol ou son chant, dans toute démarche qui comporte un déplacement, une expédition.",
+      "en": "A small bird, the privileged partner of Taroko ornithomancy, an indicator of good or bad luck, through its flight or its song, in any undertaking that involves a journey, an expedition.",
+      "zh": "一種小鳥，太魯閣鳥占的重要夥伴，在任何涉及移動、遠行的行動中，藉其飛行或鳴叫而作為吉凶的徵兆。",
+      "examples": [
+        {
+          "t": "Taya knsuyang (= tayal knsuyang) sisil ta ! Ilil xa, sisil ta ! Smx'nge so ?",
+          "fr": "Oh! Combien il nous était favorable notre SISIL ! Il était à gauche, n'est-ce pas, notre SISIL ! Tu t'en souviens (= Tu as oublié)?",
+          "en": "Oh! How favorable to us was our SISIL! It was on the left, wasn't it, our SISIL! Do you remember (= Have you forgotten)?",
+          "zh": "啊！我們的 SISIL 對我們多麼有利啊！牠在左邊，對吧，我們的 SISIL！你還記得嗎（＝你忘了嗎）？"
+        }
+      ]
+    },
+    {
+      "hw": "SIXAL",
+      "tag": "(= Siçal) (R)",
+      "fr": "?? - Insister - illégal - contre les coutumes.",
+      "en": "?? - To insist - illegal - against the customs.",
+      "zh": "？？－堅持－不合法－違反習俗。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msiçal (Msixal)",
+          "fr": "Indûment - illégalement (selon les coutumes, les lois tribales.)",
+          "en": "Unduly - illegally (according to the customs, the tribal laws).",
+          "zh": "不當地－非法地（依部落習俗與律法而言）。",
+          "examples": [
+            {
+              "t": "Msiçal mqan",
+              "fr": "Manger non pas selon les rites, sans avoir accompli les rites).",
+              "en": "To eat not according to the rites, without having performed the rites).",
+              "zh": "不按儀式而吃、未行禮儀就吃）。"
+            }
+          ]
+        },
+        {
+          "form": "Psiçal",
+          "fr": "Faire passer outre les rites, le permi.",
+          "en": "To override the rites, what is permitted.",
+          "zh": "跳過儀式與規範。",
+          "examples": [
+            {
+              "t": "Ya bi psiçal mqan ana ini soa ka sadyaq",
+              "fr": "Ne force pas les gens à manger même quand ils ne veulent pas (quand ils ne sont pas décidés).",
+              "en": "Don't force people to eat even when they don't want to (when they haven't made up their minds).",
+              "zh": "就算別人不願意（還沒下定決心）也不要強迫他們吃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIYAM",
+      "tag": "(SIYANG) (R)",
+      "fr": "Graisse - viande de porc - lard. (nb. Pour les taroko, après la viande de gibier, c'est la graisse de tout animal, mais de porc spécialement, qui est la viande par excellence.)",
+      "en": "Fat - pork - lard. (n.b. For the Taroko, after game meat, it is the fat of any animal, but pork especially, that is the meat par excellence.)",
+      "zh": "脂肪－豬肉－肥肉。（註：對太魯閣人而言，僅次於獵物的肉，任何動物的脂肪、尤其是豬的脂肪，才是最上等的肉。）",
+      "examples": [
+        {
+          "t": "Mk'lae bi bligan ka siyam sapax bligan nii",
+          "fr": "La viande de porc de ce magasin est très chère.",
+          "en": "The pork at this shop is very expensive.",
+          "zh": "這家店的豬肉很貴。"
+        },
+        {
+          "t": "Mk'lae bi bligan siyam ka sapax bligan nii",
+          "fr": "Ce magasin vend très cher la viande de porc.",
+          "en": "This shop sells pork very dear.",
+          "zh": "這家店的豬肉賣得很貴。"
+        },
+        {
+          "t": "Ax! Mxa ta mqan siyam da !",
+          "fr": "Ah! On va faire un bon repas.",
+          "en": "Ah! We're going to have a good meal.",
+          "zh": "啊！我們要好好吃一頓了。"
+        },
+        {
+          "t": "Oqon ta knuwan ka siyam so ?",
+          "fr": "Quand est-ce que tu invites à tes noces? (= Quand est-ce que nous mangerons ta viande de porc)?",
+          "en": "When are you inviting us to your wedding? (= When will we eat your pork?)",
+          "zh": "你什麼時候請我們喝喜酒？（＝我們什麼時候能吃到你的豬肉？）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msiyam",
+          "fr": "Qui est gras - qui s'engraisse - s'engraisser.",
+          "en": "That which is fat - that which fattens up - to become fat.",
+          "zh": "肥的－漸漸長肥的－變肥。",
+          "examples": [
+            {
+              "t": "Kingal nanak ka babwi nii; ini biyao msiyam ka xea!",
+              "fr": "Il est spécial (il est extraordinaire) ce cochon; en rien de temps il s'engraisse!",
+              "en": "This pig is special (it's extraordinary); in no time at all it fattens up!",
+              "zh": "這頭豬很特別（不尋常）；沒多久就長肥了！"
+            },
+            {
+              "t": "Msiyam kana baga mo da",
+              "fr": "Mes mains sont tout graisseuses.",
+              "en": "My hands are all greasy.",
+              "zh": "我的手全是油。"
+            }
+          ]
+        },
+        {
+          "form": "Ssiyam",
+          "fr": "Sentir la graisse - avoir l'apparence de la graisse.",
+          "en": "To smell of fat - to have the appearance of fat.",
+          "zh": "有油脂味－看起來油膩。",
+          "examples": [
+            {
+              "t": "Mnsa so ino ? Ssiyam kana lukus so da!",
+              "fr": "Où es tu allé ? Tous tes habits sentent la graisse !",
+              "en": "Where have you been? All your clothes smell of grease!",
+              "zh": "你去哪裡了？你的衣服全都是油味！"
+            }
+          ]
+        },
+        {
+          "form": "Psiyam (pksiyam)",
+          "paradigm": "°Mpsiyam, psiyam, psyangi, psyangan, psyangun",
+          "fr": "Engraisser.",
+          "en": "To fatten [up].",
+          "zh": "使變肥－養肥。",
+          "examples": [
+            {
+              "t": "Baka bi kndkilan na ; psyangi pax sayang ka babwi so da!",
+              "fr": "Sa carcasse est assez grande; à partir de maintenant il te faut l'engraisser, ton cochon !",
+              "en": "Its frame is big enough; from now on you must fatten it up, your pig!",
+              "zh": "牠的骨架夠大了；從現在起你得把你的豬養肥！"
+            }
+          ]
+        },
+        {
+          "form": "Psyangun (Pksyangun)",
+          "fr": "Qu'on veut, qui doit être engraissé.",
+          "en": "That which one wants, which must be fattened.",
+          "zh": "想要、必須養肥的（豬）。",
+          "examples": [
+            {
+              "t": "Psyangun so pax knuwan ka babwi laqe so ?",
+              "fr": "Quand penses tu commencer à engraisser les cochons de ton fils (= pour le mariage de ton fils)? (Ce terme est ambigu, pouvant être confondu avec PKSYANGUN (vl. PSYANGUN) (R. = SUYANG) = Qui doit être rendu beau.).",
+              "en": "When do you plan to start fattening your son's pigs (= for your son's wedding)? (This term is ambiguous, being confusable with PKSYANGUN (var. PSYANGUN) (R. = SUYANG) = that which must be made beautiful.).",
+              "zh": "你打算什麼時候開始養肥你兒子的豬（＝為了你兒子的婚事）？（此詞有歧義，可能與 PKSYANGUN（或：PSYANGUN）（詞根＝SUYANG）＝應被使其變美者－混淆。）。"
+            }
+          ]
+        },
+        {
+          "form": "Knsyangan",
+          "fr": "L'être gras - la qualité: gras (idée abstraite). (nb. peut aussi avoir le sens de: Beauté - Bonté (de la R. SUYANG)).",
+          "en": "The state of being fat - the quality: fat (abstract idea). (n.b. can also have the sense of: beauty - goodness (from the root SUYANG)).",
+          "zh": "肥胖的狀態－「肥」這個性質（抽象概念）。（註：也可有「美麗－良善」之意（源自詞根 SUYANG））。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SIYAO",
+      "tag": "(SIAO ?) (R)",
+      "fr": "Le long de - tout près - à côté de.",
+      "en": "Along - very near - beside.",
+      "zh": "沿著－非常靠近－在……旁邊。",
+      "examples": [
+        {
+          "t": "Siyao bi \"lu ka sapax nia",
+          "fr": "Sa maison est juste à côté de la route.",
+          "en": "His house is right next to the road.",
+          "zh": "他的房子就在路邊。"
+        },
+        {
+          "t": "Siyao xali \"lu ka xlpasan laqe",
+          "fr": "Le terrain de jeux des enfants est relativement près de la route.",
+          "en": "The children's playground is relatively near the road.",
+          "zh": "兒童遊戲場離路相當近。"
+        },
+        {
+          "t": "Ga tloong siyao tama mo ka Akit",
+          "fr": "Akitz est assis à côté de papa.",
+          "en": "Akitz is sitting beside papa.",
+          "zh": "Akit 坐在爸爸旁邊。"
+        },
+        {
+          "t": "Usa tmataq kana mtqeli siyao kmpaxan mo",
+          "fr": "Va débroussailler (= couper l'herbe, ou les buissons, ou les arbres, généralement pour préparer un brûlis) tous les terrains en bordure de mes champs.",
+          "en": "Go clear (= cut the grass, or the bushes, or the trees, generally to prepare a burn-clearing) all the land bordering my fields.",
+          "zh": "去把我田地邊緣的所有土地清理乾淨（＝割草、砍灌木或砍樹，通常是為了準備火耕）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mksiyao",
+          "fr": "Ce qui se trouve en bordure (lieu, objets, etc.).",
+          "en": "That which is located at the edge (place, objects, etc.).",
+          "zh": "位於邊緣的（地點、物品等）。",
+          "examples": [
+            {
+              "t": "Mksiyao yayong ka malu bi sbxolan",
+              "fr": "C'est sur les bords du torrent qu'il est plus facile de trouver la fraicheur (un peu de vent).",
+              "en": "It's on the banks of the torrent that it's easiest to find coolness (a little breeze).",
+              "zh": "在溪流的岸邊最容易找到涼爽（一點風）。"
+            },
+            {
+              "t": "Mksiyao bi ayo ka \"lu daxa",
+              "fr": "Leur route suit exactement les bords du ruisseau.",
+              "en": "Their road follows exactly the banks of the stream.",
+              "zh": "他們的路正好沿著溪流的岸邊。"
+            },
+            {
+              "t": "Ini ko bi soa smalu sapax mksiyao daolas",
+              "fr": "Je n'accepte pas de construire (ma) maison aux pieds de la falaise.",
+              "en": "I refuse to build (my) house at the foot of the cliff.",
+              "zh": "我不願意把（我的）房子蓋在懸崖腳下。"
+            }
+          ]
+        },
+        {
+          "form": "Pksiyao",
+          "fr": "Faire passer le long de - établir tout près de - mettre à côté.",
+          "en": "To route along - to establish very near - to place beside.",
+          "zh": "使沿著通過－在旁邊建立－放在旁邊。",
+          "examples": [
+            {
+              "t": "Ma\" ini so pksiyao sapax gluban ka sapax laqe so ?",
+              "fr": "Comment se fait il que tu ne construises pas tout près de la maison de communauté la maison de ton fils ?",
+              "en": "How is it that you don't build your son's house right next to the community house?",
+              "zh": "你怎麼不把你兒子的房子蓋在部落集會所旁邊呢？"
+            },
+            {
+              "t": "Pksiyao xali,o !",
+              "fr": "1) approchez vous un peu ! 2) Eloignez vous un peu (mettez vous un peu sur le côté)!",
+              "en": "1) Come a bit closer! 2) Move away a little (put yourselves a bit to the side)!",
+              "zh": "1) 靠近一點！2) 離遠一點（往旁邊挪一點）！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIYUK",
+      "tag": "(R)",
+      "fr": "Répondre - riposter - réponse.",
+      "en": "To answer - to retort - answer.",
+      "zh": "回答－回嘴／反擊－回應。",
+      "examples": [
+        {
+          "t": "Ini so siyuk do, ida iso da!",
+          "fr": "Si tu ne réponds pas c'est que c'est toi!",
+          "en": "If you don't answer, it means it's you!",
+          "zh": "如果你不回答，那就表示是你！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smiyuk",
+          "paradigm": "°Smiyuk, siyuk, syuki, syukan, syukun",
+          "fr": "Répondre - riposter - récompenser.",
+          "en": "To answer - to retort - to reward/repay.",
+          "zh": "回答－回嘴－回報。",
+          "examples": [
+            {
+              "t": "Smiyuk bi kari ka naqex nii",
+              "fr": "Ce polisson réplique facilement!",
+              "en": "This rascal answers back easily!",
+              "zh": "這個小淘氣很會頂嘴！"
+            },
+            {
+              "t": "Smiling so ana manu o, ida ko smiyuk ka yako",
+              "fr": "Tu demandes n'importe quoi et moi je réponds.",
+              "en": "You ask anything at all and I answer.",
+              "zh": "你問什麼我都回答。"
+            },
+            {
+              "t": "Ana manu ka slingan mo o, ini ko na bi syuki ana kingal",
+              "fr": "Quoi que je lui demande il ne veut absolument rien (me) répondre !",
+              "en": "Whatever I ask him, he absolutely refuses to answer (me) anything!",
+              "zh": "不管我問他什麼，他一句話都不肯（回）我！"
+            },
+            {
+              "t": "Nasi so dmayao sayang o, nyeqan lnglongan mo da (vl. nyeqan lnglongan mo smiyuk )",
+              "fr": "Si tu m'aides maintenant, je ne suis pas un ingrat (J'ai une pensée, j'ai mon idée, je pense te revaloir cela).",
+              "en": "If you help me now, I'm not an ingrate (I have a thought, I have my idea, I intend to repay you for it).",
+              "zh": "如果你現在幫我，我不是個忘恩負義的人（我有我的想法、我的打算，我會報答你的）。"
+            }
+          ]
+        },
+        {
+          "form": "Msiyuk",
+          "fr": "Celui qui répond - qui réplique - qui est reconnaissant.",
+          "en": "The one who answers - who replies - who is grateful.",
+          "zh": "回答者－回應者－懂得感恩的人。",
+          "examples": [
+            {
+              "t": "Ima ka msiyuk ?",
+              "fr": "Qui est-ce qui réplique ?",
+              "en": "Who is it that replies?",
+              "zh": "是誰在回嘴？"
+            }
+          ]
+        },
+        {
+          "form": "Mssiyuk",
+          "fr": "Se répondre, se rendre mutuellement.",
+          "en": "To answer each other, to render to each other mutually.",
+          "zh": "互相回答、互相回報。",
+          "examples": [
+            {
+              "t": "Mssiling ni mssiyuk dole ka dxea",
+              "fr": "Ils se font mutuellement les demandes et les réponses.",
+              "en": "They put the questions and the answers to each other.",
+              "zh": "他們彼此一問一答。"
+            }
+          ]
+        },
+        {
+          "form": "Sniyuk",
+          "fr": "Réponse (faite) - récompense.",
+          "en": "Answer (given) - reward.",
+          "zh": "（已作的）回答－回報。",
+          "examples": [
+            {
+              "t": "Mntutwi ko lmngao ka yako do, ongat ana manu sniyuk daxa",
+              "fr": "Quand je me suis levé pour parler, ils n'ont pas eu un mot de réponse (ils n'ont rien osé dire!).",
+              "en": "When I stood up to speak, they hadn't a word of answer (they didn't dare say anything!).",
+              "zh": "當我站起來說話時，他們一句話都答不上來（他們什麼都不敢說！）。"
+            },
+            {
+              "t": "Ida so pnyeqon paro bi sniyuk da",
+              "fr": "Tu auras bien sûr une grande récompense !",
+              "en": "You will surely have a great reward!",
+              "zh": "你當然會得到豐厚的回報！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SIYUS",
+      "tag": "(R)",
+      "fr": "Offrir à l'esprit - mettre à part pour l'Esprit - rendre tabou - jeter un sort.",
+      "en": "To offer to the spirit - to set apart for the Spirit - to make taboo - to cast a spell.",
+      "zh": "獻給神靈－為神靈分別保留－使成禁忌－下咒。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smiyus",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (i.e. the verbal form of the preceding).",
+          "zh": "同上，動詞形（即前一詞條的動詞形式）。",
+          "examples": []
+        },
+        {
+          "form": "Snyusan",
+          "fr": "Ce qui a été rendu tabou, réservé à l'Esprit.",
+          "en": "That which has been made taboo, reserved for the Spirit.",
+          "zh": "已被列為禁忌、保留給神靈之物。",
+          "examples": [
+            {
+              "t": "Mntmai sapax xdolan ka xea ni mnangal bawa snyusan",
+              "fr": "Il entra dans le temple (la maison du sacrifice) et prit les galettes réservées à l'Esprit ( = consacrées, comme devenues tabou).",
+              "en": "He entered the temple (the house of sacrifice) and took the cakes reserved for the Spirit (= consecrated, as having become taboo).",
+              "zh": "他進入聖殿（獻祭之屋），取了保留給神靈的餅（＝經過奉獻、如同已成禁忌之物）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SK",
+      "tag": "",
+      "fr": "Préfixe composé; 1) (= S, instrumental + K, impératif) = Pour que ce soit - pour faire que ce soit - pour rendre. 2) = Correspond au terme français: Feu.",
+      "en": "Compound prefix; 1) (= S, instrumental + K, imperative) = so that it may be - to make it be - to render. 2) = Corresponds to the French term: 'feu' (the late, deceased).",
+      "zh": "複合前綴；1)（＝ S 工具格 ＋ K 命令式）＝為了使其成為－使之成為－使變成。2)＝相當於法文的「feu」（已故的）。",
+      "examples": [
+        {
+          "t": "Skparo (S.+ K + PARO)",
+          "fr": "pour que ce soit grand, faire grandir.",
+          "en": "so that it may be big, to make grow.",
+          "zh": "為了使其變大、使之長大。"
+        },
+        {
+          "t": "Sknaqex",
+          "fr": "ce qui détériore, qui rend mauvais.",
+          "en": "that which spoils, which makes bad.",
+          "zh": "使變壞、使敗壞之物。"
+        },
+        {
+          "t": "Sktama mo",
+          "fr": "feu mon père.",
+          "en": "my late father.",
+          "zh": "我已故的父親。"
+        },
+        {
+          "t": "SkTadao",
+          "fr": "Le défunt Tadao. (nb. Ce deuxième sens semble réservé aux humains désignés par leurs noms ou leurs titres).",
+          "en": "The late Tadao. (n.b. This second sense seems reserved for humans designated by their names or their titles).",
+          "zh": "已故的 Tadao。（註：此第二個意思似乎僅用於以姓名或頭銜稱呼的人。）"
+        }
+      ]
+    }
+  ]
+}

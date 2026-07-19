@@ -1,0 +1,813 @@
+{
+  "pages": [330, 333],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "TL'BONG",
+      "tag": "(R. = L'BONG)",
+      "crossRef": "Vr. L'BONG",
+      "fr": "Enterré - enfoui - immergé. Vr. L'BONG .",
+      "en": "Buried - hidden away - submerged. See L'BONG.",
+      "zh": "被埋葬－被藏匿－被淹沒。參見 L'BONG。"
+    },
+    {
+      "hw": "TLIA (TLIYA)",
+      "tag": "(R)",
+      "fr": "Roue - ce qui tourne - tourner.",
+      "en": "Wheel - that which turns - to turn.",
+      "zh": "輪子－旋轉之物－旋轉。",
+      "subs": [
+        {
+          "form": "Mtlia (Mtliya)",
+          "fr": "Qui roule - qui tourne.",
+          "en": "That which rolls - that which turns.",
+          "zh": "滾動的－旋轉的。",
+          "examples": [
+            {
+              "t": "Ini tlia ka tdoloi mo, mtlia bi ka n'iso; tai! Ga tmlia sayang da!",
+              "fr": "Ma voiture ne roule pas, la tienne roule; tiens! la voilà maintenant qui tourne!",
+              "en": "My car doesn't roll, yours rolls; look! there it is now turning!",
+              "zh": "我的車不會轉，你的會轉；看！它現在轉起來了！"
+            }
+          ]
+        },
+        {
+          "form": "Ptlia (Ptliya)",
+          "fr": "Faire rouler (en tournant) - faire tourner.",
+          "en": "To make roll (by turning) - to make turn.",
+          "zh": "使滾動（旋轉）－使旋轉。",
+          "examples": [
+            {
+              "t": "Ana naqex ka tdoloi so o, ida no ptlyaon sayang",
+              "fr": "Ta voiture à beau être en panne (mauvaise), je vais la faire tourner tout de suite !",
+              "en": "Even though your car is broken down (bad), I'm going to make it turn right away!",
+              "zh": "雖然你的車拋錨了（壞了），我馬上讓它轉起來！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLIMA",
+      "tag": "(R)",
+      "paradigm": "°Tlima, tlima, tl'nai, tl'maan, tl'maon.",
+      "fr": "Se baigner - se laver.",
+      "en": "To bathe - to wash oneself.",
+      "zh": "洗澡－洗滌自己。",
+      "examples": [
+        {
+          "t": "Tlima dqalas ... baga ... papaq",
+          "fr": "Se laver la figure ... les mains ... les pieds. (nb. Laver, pour la vaisselle, les surfaces, ce qui est dur, on dit: SMINAO ; Pour les habits, on dit: MAXO ).",
+          "en": "To wash one's face ... the hands ... the feet. (n.b. To wash, for dishes, surfaces, and things that are hard, one says: SMINAO; for clothes, one says: MAXO).",
+          "zh": "洗臉……洗手……洗腳。（註：洗餐具、洗表面、洗堅硬之物時，說 SMINAO；洗衣服時，說 MAXO。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtlima",
+          "fr": "Celui qui se lave, se baigne - baigneur.",
+          "en": "One who washes, bathes himself - bather.",
+          "zh": "洗滌、洗澡的人－沐浴者。",
+          "examples": [
+            {
+              "t": "Xbalao bi snax isil alang ka mtlima siyao gsilong",
+              "fr": "Ils sont nombreux venus d'ailleurs qui se baignent au bord de la mer.",
+              "en": "There are many who have come from elsewhere who bathe at the seaside.",
+              "zh": "有許多從別處來的人在海邊洗澡。"
+            }
+          ]
+        },
+        {
+          "form": "Matlima",
+          "fr": "Se baignera - se lavera.",
+          "en": "Will bathe - will wash oneself.",
+          "zh": "將洗澡－將洗滌自己。",
+          "examples": [
+            {
+              "t": "Matlima ko saman ka yako",
+              "fr": "Moi, je me laverai demain.",
+              "en": "As for me, I will wash myself tomorrow.",
+              "zh": "我呢，我明天要洗澡。"
+            }
+          ]
+        },
+        {
+          "form": "Tl'maan",
+          "fr": "Endroit, temps où l'on se baigne - baignoire.",
+          "en": "Place, time where one bathes - bathtub.",
+          "zh": "洗澡的地方、時間－浴缸。",
+          "examples": [
+            {
+              "t": "Ongat tl'maan sapax mo ! ... Manu ongat ! Adi sapax tl'maan ka gaga xo ?",
+              "fr": "Chez moi il n'y a pas d'endroit pour se baigner! ... Comment il n'y en a pas ! N'est-ce pas une salle de bains que voilà ?",
+              "en": "At my house there's no place to bathe! ... What do you mean there isn't! Isn't that a bathroom right there?",
+              "zh": "我家沒有洗澡的地方！……怎麼會沒有！那不就是一間浴室嗎？"
+            },
+            {
+              "t": "Naqex bi tl'maan ka tunuç mo",
+              "fr": "Ma tête est très difficile à laver.",
+              "en": "My head is very difficult to wash.",
+              "zh": "我的頭很難洗。"
+            }
+          ]
+        },
+        {
+          "form": "Ptlima",
+          "fr": "Se faire laver - faire laver (le corps, les membres).",
+          "en": "To have oneself washed - to have washed (the body, the limbs).",
+          "zh": "讓人洗－使洗（身體、四肢）。",
+          "examples": [
+            {
+              "t": "M'mxa ko alang paro o, ptlmaon no kana tunuç no ni tunuç laqe",
+              "fr": "Quand j'irai en ville, je ferai laver ma tête et celle de mon enfant.",
+              "en": "When I go to town, I'll have my head washed and my child's too.",
+              "zh": "我進城時，要讓人洗我的頭，也洗我孩子的頭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLIYA",
+      "tag": "(R)",
+      "crossRef": "TLIA",
+      "fr": "Forme sans doute plus correcte du terme TLIA ci dessus.",
+      "en": "No doubt a more correct form of the term TLIA above.",
+      "zh": "此形式無疑比上面的 TLIA 更為正確。"
+    },
+    {
+      "hw": "TLLUUS",
+      "tag": "(R. = LUUS ?)",
+      "fr": "Sage - qui n'est pas instable (?) - qui est conséquent - qui a du bon sens (?).",
+      "en": "Wise - who is not unstable (?) - who is consistent - who has good sense (?).",
+      "zh": "明智的－不浮躁的（？）－言行一致的－有判斷力的（？）。"
+    },
+    {
+      "hw": "T'LO",
+      "tag": "(R)",
+      "fr": "Trois .",
+      "en": "Three.",
+      "zh": "三。",
+      "examples": [
+        {
+          "t": "T'lo ni maxal t'lo o, maxal mataro (mat'lo(?)) da",
+          "fr": "Trois et treize, celà fait seize.",
+          "en": "Three and thirteen, that makes sixteen.",
+          "zh": "三加十三，就是十六。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mt'lo",
+          "fr": "Troisième fois (présent).",
+          "en": "Third time (present).",
+          "zh": "第三次（現在）。",
+          "examples": [
+            {
+              "t": "Mt'lo sayang da; adi ko bi da!",
+              "fr": "C'est maintenant la troisième fois; je n'accepte vraiment plus !",
+              "en": "This is now the third time; I really won't accept it anymore!",
+              "zh": "現在已經是第三次了；我真的不能再接受了！"
+            }
+          ]
+        },
+        {
+          "form": "Mnt'lo",
+          "fr": "Trois fois (dans le passé).",
+          "en": "Three times (in the past).",
+          "zh": "三次（過去）。",
+          "examples": [
+            {
+              "t": "Mnt'lo ka nsaan no txmoqo xeaan!",
+              "fr": "Trois fois que je suis allé le saluer (m'incliner devant lui!). ( nb. T'lo ka saon mo txmoqo xeaan = J'ai trois motifs pour aller le saluer ; vl. J'ai trois faveurs à lui demander).",
+              "en": "Three times that I went to greet him (to bow before him!). (n.b. T'lo ka saon mo txmoqo xeaan = I have three reasons to go greet him; var. I have three favours to ask of him).",
+              "zh": "我去問候他（向他鞠躬）三次了！（註：T'lo ka saon mo txmoqo xeaan＝我有三個理由去問候他；或：我有三個請求要向他提出。）"
+            }
+          ]
+        },
+        {
+          "form": "Tit'lo (Ti t'lo ?)",
+          "fr": "Le troisième.",
+          "en": "The third one.",
+          "zh": "第三個。",
+          "examples": [
+            {
+              "t": "Ti t'lo nanak ka ngalun mo",
+              "fr": "Je ne prendrai (je ne veux prendre) que le troisième.",
+              "en": "I will take (I want to take) only the third one.",
+              "zh": "我只要拿第三個。"
+            }
+          ]
+        },
+        {
+          "form": "Tmt'lo",
+          "fr": "Partager en trois.",
+          "en": "To divide into three.",
+          "zh": "分成三份。",
+          "examples": [
+            {
+              "t": "Ttloi bi naso pila gaga",
+              "fr": "Distribue cet argent là en trois parts égales (fais trois parts justes).",
+              "en": "Divide that money there into three equal parts (make three fair parts).",
+              "zh": "把那筆錢分成三等份（分成公平的三份）。"
+            }
+          ]
+        },
+        {
+          "form": "Mkt'lo",
+          "fr": "Pendant la durée de trois jours (mois, nuits).",
+          "en": "For the span of three days (months, nights).",
+          "zh": "為期三天（月、夜）。",
+          "examples": [
+            {
+              "t": "Mxa ko mkt'lo sapax tama da",
+              "fr": "Je vais passer trois jours chez mon père.",
+              "en": "I'm going to spend three days at my father's.",
+              "zh": "我要在父親家住三天。"
+            },
+            {
+              "t": "Mnktlo ko labe sapax na",
+              "fr": "Je n'ai passé que trois nuits dans sa maison.",
+              "en": "I only spent three nights in his house.",
+              "zh": "我只在他家住了三夜。"
+            }
+          ]
+        },
+        {
+          "form": "Pnt'lo",
+          "fr": "Trois par trois - trois à chaque part - trois à la fois.",
+          "en": "Three by three - three to each portion - three at a time.",
+          "zh": "三個三個地－每份三個－一次三個。",
+          "examples": [
+            {
+              "t": "Pnt'lo nami bi blubul",
+              "fr": "Trois bananes seulement chacun (à recevoir, à donner)",
+              "en": "Three bananas only for each (to receive, to give)",
+              "zh": "每人只有三根香蕉（要收、要給）"
+            },
+            {
+              "t": "Pntloi (?) bi lqlaqe muda \"lu",
+              "fr": "Tu mettras les enfants par trois pour voyager sur la route.",
+              "en": "You will put the children in threes to travel on the road.",
+              "zh": "你要讓孩子們三個一組在路上行走。"
+            }
+          ]
+        },
+        {
+          "form": "Snt'lo",
+          "fr": "En triple.",
+          "en": "Triple / threefold.",
+          "zh": "三倍－三層。",
+          "examples": [
+            {
+              "t": "Ida ko snt'lo mxelao ka yako, miso ko bi knskiyan!",
+              "fr": "Comme qu'il en soit je me couvre de trois épaisseurs, je suis très frileux (j'ai très peur du froid).",
+              "en": "Whatever the case, I cover myself with three layers, I am very sensitive to cold (I'm very afraid of the cold).",
+              "zh": "無論如何我都蓋三層，我很怕冷（我非常怕冷）。"
+            }
+          ]
+        },
+        {
+          "form": "Sntloan",
+          "fr": "Il-y-a trois jours.",
+          "en": "Three days ago.",
+          "zh": "三天前。",
+          "examples": [
+            {
+              "t": "Mnxoqel sntloan ka tama baki mo",
+              "fr": "Le père de mon beau-père (vl; mon arrière grand père) mourrait il-y-a trois jours.",
+              "en": "My father-in-law's father (var. my great-grandfather) died three days ago.",
+              "zh": "我岳父的父親（或：我的曾祖父）三天前去世了。"
+            }
+          ]
+        },
+        {
+          "form": "Kntloan",
+          "fr": "dans trois jours.",
+          "en": "in three days.",
+          "zh": "三天後。",
+          "examples": [
+            {
+              "t": "Miyax so knuwan? ... Ima k'la ( vl. ima mk'la) ! Adi saman xo ? adi kntloan xo ?",
+              "fr": "Quand viendras tu ? ... Qui sait? Demain ? Dans trois jours ?",
+              "en": "When will you come? ... Who knows? Tomorrow? In three days?",
+              "zh": "你什麼時候來？……誰知道呢？明天？三天後？"
+            },
+            {
+              "t": "Yaxon miso dmayao mkaxa ni kntloan",
+              "fr": "Je veux venir t'aider après demain et le jour suivant.",
+              "en": "I want to come help you the day after tomorrow and the following day.",
+              "zh": "我想後天和接下來那天來幫你。"
+            }
+          ]
+        },
+        {
+          "form": "Mt'lol",
+          "fr": "Trente.",
+          "en": "Thirty.",
+          "zh": "三十。",
+          "examples": [
+            {
+              "t": "Mt'lol ko lima xnkawas",
+              "fr": "J'ai trente cinq ans.",
+              "en": "I am thirty-five years old.",
+              "zh": "我三十五歲。"
+            }
+          ]
+        },
+        {
+          "form": "Pnt'lol",
+          "fr": "Trente à la fois.",
+          "en": "Thirty at a time.",
+          "zh": "一次三十。"
+        },
+        {
+          "form": "Tkt'lol",
+          "fr": "Pour la troisième fois.",
+          "en": "For the third time.",
+          "zh": "第三次。",
+          "examples": [
+            {
+              "t": "Mnsa tkt'lol dmulun",
+              "fr": "Il est allé prier (demander) pour la troisième fois.",
+              "en": "He went to pray (to ask) for the third time.",
+              "zh": "他第三次去祈求（請求）。"
+            }
+          ]
+        },
+        {
+          "form": "Mataro ( Matalo (?) Mat'lo (?)) (R. = T'LO ?)",
+          "fr": "Six. (nb. Dans: MATARO, MASPAT, Mangali , Le MA semble bien un préfixe en composition avec T'LO, SPAT, NGALI (= Trois, quatre, enlève) pour former: Six, Huit , neuf ...)",
+          "en": "Six. (n.b. In: MATARO, MASPAT, Mangali, the MA does indeed seem to be a prefix in composition with T'LO, SPAT, NGALI (= Three, four, remove) to form: Six, Eight, nine ...)",
+          "zh": "六。（註：在 MATARO、MASPAT、Mangali 中，MA 似乎確實是一個前綴，與 T'LO、SPAT、NGALI（＝三、四、拿走）組合，構成：六、八、九……）"
+        }
+      ]
+    },
+    {
+      "hw": "TLOMA",
+      "tag": "(R)",
+      "fr": "Dessous - en bas.",
+      "en": "Underneath - below.",
+      "zh": "下面－在下方。",
+      "examples": [
+        {
+          "t": "Sai bi mita tloma tskoe mo",
+          "fr": "Va donc voir sous ma table !",
+          "en": "Go look under my table!",
+          "zh": "去看看我桌子底下！"
+        },
+        {
+          "t": "Tloma xo ? daya xo ? Ino bi ka saon so ?",
+          "fr": "En bas ? En haut ? Où est-ce donc que tu veux aller ?",
+          "en": "Below? Above? Where on earth do you want to go?",
+          "zh": "下面？上面？你到底要去哪裡？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ntloma",
+          "fr": "Ce qui est en dessous, en bas.",
+          "en": "That which is underneath, below.",
+          "zh": "在下面、在下方之物。",
+          "examples": [
+            {
+              "t": "Ana manu nbalao ni ntloma",
+              "fr": "Tout ce qui est en haut et tout ce qui est en bas.",
+              "en": "All that is above and all that is below.",
+              "zh": "上面的一切和下面的一切。"
+            },
+            {
+              "t": "Ana manu nbabao ni ntloma d'xgal",
+              "fr": "Tout ce qui est sur terre et sous la terre.",
+              "en": "All that is on the earth and under the earth.",
+              "zh": "地上的一切和地下的一切。"
+            }
+          ]
+        },
+        {
+          "form": "Sntloma",
+          "fr": "Habits de dessous - ce qui est fait pour être sous.",
+          "en": "Undergarments - that which is made to be worn underneath.",
+          "zh": "內衣－用來穿在裡面的衣物。",
+          "examples": [
+            {
+              "t": "Ana ongat sntloma so o, plkusi bi ana libul so nanak",
+              "fr": "Même si tu n'as pas de caleçon, enfiles au moins ton pantalon !",
+              "en": "Even if you have no underpants, at least put on your trousers!",
+              "zh": "就算你沒有內褲，至少也把褲子穿上！"
+            }
+          ]
+        },
+        {
+          "form": "Pstloma",
+          "fr": "Faire que ce soit plus bas, en dessous.",
+          "en": "To make it lower, underneath.",
+          "zh": "使之更低、在下面。",
+          "examples": [
+            {
+              "t": "Pstlmai tityex ka xalong so!",
+              "fr": "Baisse un peu ton falot.",
+              "en": "Lower your lamp a bit.",
+              "zh": "把你的燈調低一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "T'LONG",
+      "tag": "(R)",
+      "fr": "Toucher (avec la main) - prendre en main - commencer.",
+      "en": "To touch (with the hand) - to take in hand - to begin.",
+      "zh": "觸摸（用手）－著手拿取－開始。",
+      "examples": [
+        {
+          "t": "Ya bi t'long baga ka iso ! T'mlong so do, mxa naqex da!",
+          "fr": "Surtout ne touche pas avec ta main ! Si tu le touches, il sera abîmé.",
+          "en": "Above all don't touch it with your hand! If you touch it, it will be damaged.",
+          "zh": "千萬別用手碰！你一碰它就會壞掉。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "T'mlong",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上，動詞形（前一詞條的動詞形）。",
+          "examples": [
+            {
+              "t": "Pax ka tmnlong so baga laqe mo do, wada malu da!",
+              "fr": "Depuis que tu as touché mon enfant avec ta main, il a été mieux.",
+              "en": "Since you touched my child with your hand, he has gotten better.",
+              "zh": "自從你用手摸了我的孩子，他就好轉了。"
+            },
+            {
+              "t": "Smalu so sapax knuwan ? ... Ax ! T'mlong ko saman da !",
+              "fr": "Quand construis tu la maison ? ... Oh ! Je commence demain !",
+              "en": "When are you building the house? ... Oh! I'm starting tomorrow!",
+              "zh": "你什麼時候蓋房子？……喔！我明天開始！"
+            }
+          ]
+        },
+        {
+          "form": "Tl'ngun",
+          "fr": "Ce qu'on touchera, qu'on veut, doit toucher, empoigner.",
+          "en": "That which one will touch, wants to, must touch, grasp.",
+          "zh": "將要、想要、必須觸摸、抓住之物。",
+          "examples": [
+            {
+              "t": "Ini ko kngongo kntl'xan ka yako, ana mbanax bi taxot o, ida mo tl'ngun",
+              "fr": "Moi, je ne crains pas la chaleur, même des braises bien rouges; je veux les empoigner (les prendre dans mes mains).",
+              "en": "As for me, I don't fear heat, even bright-red embers; I want to grasp them (take them in my hands).",
+              "zh": "我呢，我不怕熱，就算是燒得通紅的炭火，我也想抓住它們（用手拿）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLOOLOL",
+      "tag": "(R. = ??)",
+      "fr": "Jumeaux.",
+      "en": "Twins.",
+      "zh": "雙胞胎。",
+      "examples": [
+        {
+          "t": "Snao ? Koyox ka laqe na ? ... Dnui laqe na o asi tloolol ka xea da!",
+          "fr": "Son enfant, c'est un garçon ? une fille ? ... Ce sont des jumeaux qu'elle a mis au monde !",
+          "en": "Her child, is it a boy? a girl? ... She gave birth to twins!",
+          "zh": "她的孩子是男孩？還是女孩？……她生的是雙胞胎！"
+        }
+      ]
+    },
+    {
+      "hw": "TLOONG",
+      "tag": "(R)",
+      "paradigm": "°Tloong , tloong , tlngi (tl'ngi), tl'ngan, tl'ngun.",
+      "fr": "S'asseoir.",
+      "en": "To sit down.",
+      "zh": "坐下。",
+      "examples": [
+        {
+          "t": "Miyax su da (= so da) ? Sapax ! Tloong !",
+          "fr": "Te voilà ? Entre (dans la maison) ! Assied-toi !",
+          "en": "There you are? Come in (into the house)! Sit down!",
+          "zh": "你來了？進來（進屋）吧！坐下！"
+        },
+        {
+          "t": "Bsiyaq ta bi tloong do, sknalox (vl. mnalox) xwinuk da!",
+          "fr": "Quand on reste longtemps assis, cela fait mal aux reins (vl. les reins font mal).",
+          "en": "When one stays sitting for a long time, it hurts the lower back (var. the lower back aches).",
+          "zh": "久坐時，腰會痛（或：腰部疼痛）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tl'ngan (souvent entendu: TLANGAN et: KLANGAN)",
+          "fr": "Chaise.",
+          "en": "Chair.",
+          "zh": "椅子。",
+          "examples": [
+            {
+              "t": "Ita kingal tl'ngan so da!",
+              "fr": "Passe moi donc une de tes chaises !",
+              "en": "Pass me one of your chairs then!",
+              "zh": "那就遞給我一張你的椅子吧！"
+            }
+          ]
+        },
+        {
+          "form": "Ptloong",
+          "paradigm": "°Ptloong, ptloong, ptl'ngi, ptl'ngan, ptl'ngun.",
+          "fr": "Faire asseoir.",
+          "en": "To make (someone) sit down.",
+          "zh": "使坐下。",
+          "examples": [
+            {
+              "t": "Ptl'ngi tityex ka baki ta da",
+              "fr": "Fais donc un peu s'asseoir notre grand père !",
+              "en": "Do have our grandfather sit down a bit!",
+              "zh": "讓我們的爺爺坐一下吧！"
+            },
+            {
+              "t": "Mnsa ko sapax na o, ana tloong ini bi ptloong !",
+              "fr": "Je suis allé chez lui et, même s'asseoir il ne m'a pas fait asseoir (= Il ne m'a même pas fait asseoir).",
+              "en": "I went to his house and, even as for sitting, he didn't make me sit (= He didn't even have me sit down).",
+              "zh": "我去了他家，他連讓我坐都沒讓（＝他甚至沒讓我坐下）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TL\"TO",
+      "tag": "(R)",
+      "crossRef": "TLA'TO",
+      "fr": "(nb. = Sans doute forme plus juste pour TLA'TO) . Vr. TLA'TO .",
+      "en": "(n.b. = No doubt a more correct form for TLA'TO). See TLA'TO.",
+      "zh": "（註：無疑是 TLA'TO 更正確的形式）。參見 TLA'TO。"
+    },
+    {
+      "hw": "TLUULA",
+      "tag": "(R. = LUULA ?)",
+      "crossRef": "Vr. LUULA",
+      "fr": "Publiquement - connu - au vu et au su de tout le monde.",
+      "en": "Publicly - known - in full view and knowledge of everyone.",
+      "zh": "公開地－眾所周知－在眾人的眼前與知悉之下。",
+      "examples": [
+        {
+          "t": "Manu ka saan so ngangot ? Ya bi tluula mksa da!",
+          "fr": "Qu'est-ce qui te prend d'aller dehors ? Il ne faut absolument plus que tu marches en public !",
+          "en": "What's gotten into you to go outside? You absolutely must not walk in public anymore!",
+          "zh": "你怎麼會想到要出門？你絕對不能再在公開場合走動了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtluula",
+          "fr": "Qui se manifeste - qui est évident, clair - qui est connu.",
+          "en": "That which reveals itself - which is evident, clear - which is known.",
+          "zh": "顯現的－明顯、清楚的－眾所周知的。",
+          "examples": [
+            {
+              "t": "Ini ko tdoa pnpusal mtluula mtmai alang daxa (d'xa) da !",
+              "fr": "Il ne faut plus que je recommence à m'aventurer ouvertement dans leur village !",
+              "en": "I must not venture openly into their village again!",
+              "zh": "我不能再公然冒險進入他們的村子了！"
+            }
+          ]
+        },
+        {
+          "form": "Ptllaon",
+          "fr": "Sera manifesté - sera rendu public.",
+          "en": "Will be revealed - will be made public.",
+          "zh": "將被顯明－將被公開。",
+          "examples": [
+            {
+              "t": "Ana so lmiing ka sayang o, ongat bi ka ini ptllaon",
+              "fr": "Tu as beau cacher maintenant, il n'y a rien qui ne soit (un jour) manifesté (rendu public).",
+              "en": "You may hide it now, but there is nothing that will not (one day) be revealed (made public).",
+              "zh": "你現在儘管隱藏，但沒有什麼是（有朝一日）不會被顯明（公開）的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TMAGO",
+      "tag": "(R)",
+      "fr": "Superbe - orgueilleux - fier - Hautain .",
+      "en": "Superb - proud - haughty - arrogant.",
+      "zh": "自負的－驕傲的－高傲的－傲慢的。",
+      "subs": [
+        {
+          "form": "Mtmago",
+          "fr": "Qui est fier - qui est prétentieux - qui est orgueilleux.",
+          "en": "One who is proud - who is pretentious - who is arrogant.",
+          "zh": "驕傲的－自命不凡的－傲慢的人。",
+          "examples": [
+            {
+              "t": "Mtmago o, ida mo ptingun",
+              "fr": "Les prétentieux (orgueilleux), je veux les faire tomber (les humilier).",
+              "en": "The pretentious (arrogant) ones, I want to bring them down (humiliate them).",
+              "zh": "那些自命不凡（傲慢）的人，我想把他們扳倒（羞辱他們）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TMAI",
+      "tag": "(R)",
+      "fr": "Entrer - pénétrer .",
+      "en": "To enter - to penetrate.",
+      "zh": "進入－穿入。",
+      "examples": [
+        {
+          "t": "Xmuya bi ka ini so tmai sapax da !",
+          "fr": "Pourquoi ne rentres tu plus dans la maison (Ne viens tu plus chez moi) ?",
+          "en": "Why do you no longer come into the house (Do you no longer come to my place)?",
+          "zh": "你為什麼不再進屋了（不再來我家了）？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtmai",
+          "paradigm": "°Mtmai, tmai, tmayi, tmayan, tmayun.",
+          "fr": "Entrer - s'introduire - pénétrer.",
+          "en": "To enter - to get in - to penetrate.",
+          "zh": "進入－闖入－穿入。",
+          "examples": [
+            {
+              "t": "Ini tdoa xmut mtmai sapax d'xa",
+              "fr": "Il n'est pas permi de s'introduire comme on veut dans la maison des autres.",
+              "en": "It is not permitted to enter as one pleases into other people's houses.",
+              "zh": "不可隨意闖入別人的家。"
+            }
+          ]
+        },
+        {
+          "form": "Tmayan",
+          "fr": "Porte - Lieu, temps, manière d'entrer.- l'entrée.",
+          "en": "Door - Place, time, manner of entering - the entrance.",
+          "zh": "門－進入的地點、時間、方式－入口。",
+          "examples": [
+            {
+              "t": "Naqex bi tmayan ka gnluban d'xa",
+              "fr": "Ce n'est pas facile de s'introduire dans leur communauté.",
+              "en": "It is not easy to get into their community.",
+              "zh": "要進入他們的群體並不容易。"
+            }
+          ]
+        },
+        {
+          "form": "Ptmai",
+          "fr": "Faire entrer - faire aller dedans.",
+          "en": "To make (something) enter - to make (it) go inside.",
+          "zh": "使進入－使進到裡面。",
+          "examples": [
+            {
+              "t": "Adi so bi d'xqon ptmai \"bi lodoç so ka knparo kating so nii",
+              "fr": "Tu n'arriveras certainement pas à faire entrer dans le poulailler cet énorme buffle que tu as là !",
+              "en": "You certainly won't manage to get that enormous buffalo you have there into the henhouse!",
+              "zh": "你肯定沒辦法把你那頭巨大的水牛趕進雞舍！"
+            }
+          ]
+        },
+        {
+          "form": "Pstmai",
+          "fr": "Permettre d'entrer - introduire.",
+          "en": "To allow to enter - to let in.",
+          "zh": "允許進入－引入。",
+          "examples": [
+            {
+              "t": "Ini na bi tdoai pstmai sapax na ana kingal snao ka Labai, ya sa wada bbuyo ka snao na nanak",
+              "fr": "Labai n'a pas le droit de laisser entrer chez elle un seul homme, vu que son propre mari est parti à la chasse.",
+              "en": "Labai has no right to let a single man into her house, seeing that her own husband has gone hunting.",
+              "zh": "拉拜無權讓任何一個男人進她家，因為她自己的丈夫去打獵了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TMAMuX",
+      "tag": "(R. = TAMUX ?)",
+      "fr": "S'accoupler (surtout pour les animaux).",
+      "en": "To mate (especially for animals).",
+      "zh": "交配（尤指動物）。"
+    },
+    {
+      "hw": "TMAQ",
+      "tag": "(= R. ?)",
+      "fr": "Ecrasé - aplati.",
+      "en": "Crushed - flattened.",
+      "zh": "被壓碎－被壓扁。",
+      "subs": [
+        {
+          "form": "Tgtmaq (vR. TGTMAQ)",
+          "fr": "Etendu au sol - aplati complètement - écrasé.",
+          "en": "Spread out on the ground - completely flattened - crushed.",
+          "zh": "攤在地上－完全被壓扁－被壓碎。",
+          "examples": [
+            {
+              "t": "Kingal kari so ni mxa mtgtmaq d'xgal kana da",
+              "fr": "Que tu dises un mot et ils seront tous aplatis au sol.",
+              "en": "Just say one word and they will all be flattened on the ground.",
+              "zh": "你只要說一句話，他們就會全都趴倒在地。"
+            }
+          ]
+        },
+        {
+          "form": "Titmaq (Ti tmaq ?)",
+          "fr": "presque le même sens que TGTMAQ . Vr. STMAQ .",
+          "en": "almost the same meaning as TGTMAQ. See STMAQ.",
+          "zh": "與 TGTMAQ 意義幾乎相同。參見 STMAQ。"
+        },
+        {
+          "form": "Stmaq",
+          "fr": "(R. TMAQ ?) = Ecrasé - réduit en bouillie .",
+          "en": "(R. TMAQ?) = Crushed - reduced to pulp.",
+          "zh": "（詞根 TMAQ？）＝被壓碎－被搗成糊。",
+          "examples": [
+            {
+              "t": "Ya bi psai kukul so ka qlopas nii ! Mxa mstmaq kana da!",
+              "fr": "Ne mets pas ces pêches dans ta poche ! Elles vont toutes s'écraser ! Vr. STMAQ .",
+              "en": "Don't put those peaches in your pocket! They're all going to get crushed! See STMAQ.",
+              "zh": "別把那些桃子放進口袋！它們全都會被壓爛！參見 STMAQ。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TMAQO",
+      "tag": "(R)",
+      "fr": "Puce .",
+      "en": "Flea.",
+      "zh": "跳蚤。",
+      "examples": [
+        {
+          "t": "Miso ko bi musa mtaqe xeaan! Knliwa bi tmaqo sapax na !",
+          "fr": "J'ai peur d'aller coucher chez lui ! Sa maison est pleine de puces!",
+          "en": "I'm afraid to go sleep at his place! His house is full of fleas!",
+          "zh": "我怕去他家過夜！他家滿是跳蚤！"
+        }
+      ]
+    },
+    {
+      "hw": "TMIAI",
+      "tag": "(R)",
+      "fr": "Coquillages.",
+      "en": "Shellfish / seashells.",
+      "zh": "貝殼（貝類）。",
+      "examples": [
+        {
+          "t": "Tmiai kana ka pnlak \"silong (gsilong) (vl. ka siao \"silong) .",
+          "fr": "Au bord de la mer (sur le rivage de la mer) c'est tout plein de coquillages.",
+          "en": "At the seaside (on the shore of the sea) it is all full of shellfish.",
+          "zh": "在海邊（在海岸上）滿是貝殼。"
+        }
+      ]
+    },
+    {
+      "hw": "TN",
+      "tag": "",
+      "fr": "Préfixe composé: T + N . N indiquant l'action accomplie , un fait acquis, ou bien: le passé. T signifiant l'identification avec le terme qu'il affecte.",
+      "en": "Compound prefix: T + N. N indicating completed action, an accomplished fact, or else: the past. T signifying identification with the term it affects.",
+      "zh": "複合前綴：T ＋ N。N 表示已完成的動作、既成的事實，或表過去。T 表示與其所作用之詞的認同（歸屬）。",
+      "examples": [
+        {
+          "t": "Tnsapax",
+          "fr": "De la maison - qui est de la maison, propriétaire de la maison.",
+          "en": "Of the house - who belongs to the house, owner of the house.",
+          "zh": "屬於這房子的－房子的主人。"
+        },
+        {
+          "t": "Tnpusu",
+          "fr": "Autochtone - propriétaire.",
+          "en": "Native / indigenous - owner.",
+          "zh": "原住者－所有者。"
+        },
+        {
+          "t": "Tnwawa",
+          "fr": "Mettre bas ( pour certains animaux : buffle, chèvre etc.)",
+          "en": "To give birth (for certain animals: buffalo, goat etc.)",
+          "zh": "生產（某些動物：水牛、山羊等）。"
+        },
+        {
+          "t": "Tnbalong",
+          "fr": "Pondre.",
+          "en": "To lay eggs.",
+          "zh": "產卵（下蛋）。"
+        },
+        {
+          "t": "Tnb\"lo",
+          "fr": "avoir mis bas (truie).",
+          "en": "to have given birth (sow).",
+          "zh": "已生產（母豬）。"
+        }
+      ]
+    }
+  ]
+}

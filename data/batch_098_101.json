@@ -1,0 +1,810 @@
+{
+  "pages": [98, 101],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "GQOAQ",
+      "tag": "(R. = QOAQ ?)",
+      "fr": "Branler la tête - tourner la tête de côté et d'autre.",
+      "en": "To shake the head - to turn the head from side to side.",
+      "zh": "搖頭——把頭轉來轉去。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmqoaq",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ana kxaya ka qoaq daxa, ga so gmqoaq tunuç ka iso ino sqoaq",
+              "fr": "Pendant que les autres parlent (les autres ont beau parler) haut et fort, toi tu branles la tête et ne dis rien !",
+              "en": "While the others talk (however much the others may talk) loud and strong, you shake your head and say nothing!",
+              "zh": "當別人高聲大談（任憑別人講得再大聲），你只是搖著頭，一句話也不說！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GMUK",
+      "tag": "(R. ? - R. = ?)",
+      "paradigm": "Gmuk (g'muk), gmuk, gmuki, gmukan, gmukun",
+      "fr": "Bouchon - couvercle - couvrir - fermer.",
+      "en": "Stopper - lid - to cover - to close.",
+      "zh": "塞子——蓋子——蓋上——關閉。",
+      "examples": [
+        {
+          "t": "Ga ino ka gmuk empit mo da?",
+          "fr": "Où est le capuchon de mon crayon ?",
+          "en": "Where is the cap of my pencil?",
+          "zh": "我鉛筆的筆帽在哪裡？"
+        },
+        {
+          "t": "Gmuki balae aadi na psueq",
+          "fr": "Ferme (couvre, bouche) soigneusement pour que celà ne se renverse pas.",
+          "en": "Close (cover, stop) it carefully so that it does not spill over.",
+          "zh": "仔細蓋好（封好、塞好），免得它翻倒出來。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tgmuk",
+          "fr": "Qui est bien bouché (couvert).",
+          "en": "Which is well stoppered (covered).",
+          "zh": "封得嚴實（蓋得嚴實）的。",
+          "examples": [
+            {
+              "t": "Adi mxoya! ga tgmuk balae ka longao so",
+              "fr": "Tu ne risques rien! Ta bouteille est bien bouchée !",
+              "en": "You risk nothing! Your bottle is well stoppered!",
+              "zh": "你不用擔心！你的瓶子塞得好好的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GN",
+      "tag": "",
+      "fr": "Préfixe indiquant que c'est grâce - au prix de l'objet, ou la démarche signifiée par la base affixée que quelque chose arrive ou est possédée.",
+      "en": "Prefix indicating that it is thanks to - at the price of the object, or the action signified by the affixed base, that something happens or is possessed.",
+      "zh": "前綴，表示某事之發生或某物之獲得，是憑藉——以所附詞基指稱的物品或行動為代價。",
+      "examples": [
+        {
+          "t": "Gndala",
+          "fr": "au prix du sang;",
+          "en": "at the price of blood;",
+          "zh": "以血為代價；"
+        },
+        {
+          "t": "Gndlyeqan",
+          "fr": "Au prix de (grâce à) un regard (indiscret).",
+          "en": "At the price of (thanks to) an (indiscreet) glance.",
+          "zh": "以（憑藉）一瞥（冒失的目光）為代價。"
+        },
+        {
+          "t": "Gntrabus",
+          "fr": "Grâce au prix retiré de la vente des arachides.",
+          "en": "Thanks to the money got from the sale of the peanuts.",
+          "zh": "憑藉賣花生所得的錢。"
+        },
+        {
+          "t": "Gnxei",
+          "fr": "Grâce au montant de la dot payée par le garçon quand il épouse la fille = Au prix du corps (vendu).",
+          "en": "Thanks to the amount of the bride-price paid by the boy when he marries the girl = At the price of the (sold) body.",
+          "zh": "憑藉男方娶女方時所付的聘金＝以（被賣出的）身體為代價。"
+        },
+        {
+          "t": "gnk'laan",
+          "fr": "Connaissance (= ce qui est acquis par le fait de connaitre)",
+          "en": "Knowledge (= what is acquired by the fact of knowing)",
+          "zh": "知識（＝因認識而獲得的東西）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GNAMA",
+      "tag": "(R. = NAMA ? (vr. NAMA)",
+      "fr": "Qui est tenu prêt - tenir prêt.",
+      "en": "Which is held ready - to hold ready.",
+      "zh": "備妥的——使備妥。",
+      "examples": [
+        {
+          "t": "Stalil binao, ya kiso ! Gnama so daxa aadi so tisbut btunuç ka qaqai so!",
+          "fr": "Saute, n'aie pas peur ! Ils te tendent les mains (ils te préparent les mains ?) pour que tes pieds ne heurtent pas les pierres.",
+          "en": "Jump, don't be afraid! They are holding out their hands to you (they are getting their hands ready for you?) so that your feet do not strike the stones.",
+          "zh": "跳吧，別怕！他們向你伸出手（為你把手準備好？），免得你的腳撞到石頭。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GOTO",
+      "tag": "(R)",
+      "fr": "Tas - amoncellement - entasser.",
+      "en": "Heap - pile - to heap up.",
+      "zh": "堆——堆積——堆起來。",
+      "examples": [
+        {
+          "t": "Paro bi goto na trabus ngangot sapax nia",
+          "fr": "Il y a un gros tas d'arachides devant sa maison.",
+          "en": "There is a big heap of peanuts in front of his house.",
+          "zh": "他家門前有一大堆花生。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gmoto",
+          "paradigm": "Gmoto, goto, gtui, gtuan, gtuun",
+          "fr": "Amonceler - entasser.",
+          "en": "To pile up - to heap up.",
+          "zh": "堆積——堆起。",
+          "examples": [
+            {
+              "t": "Mnssli dmayao kana kingal loan sapax sgoto daxa payai",
+              "fr": "Toute la famille s'est réunie pour aider afin de mettre le riz en tas.",
+              "en": "The whole family gathered to help put the rice in heaps.",
+              "zh": "全家人聚在一起幫忙把稻穀堆成堆。"
+            },
+            {
+              "t": "Xmut gmoto babao sxakao kana lukus nia ka koyox",
+              "fr": "Ma femme entasse n'importe comment tous ses habits sur le lit (estrade qui en sert).",
+              "en": "My wife piles up all her clothes any which way on the bed (the platform that serves as one).",
+              "zh": "我妻子把她所有的衣服隨便堆在床（充當床的台子）上。"
+            }
+          ]
+        },
+        {
+          "form": "Gtuun",
+          "fr": "Qui est à mettre en tas.",
+          "en": "Which is to be put in a heap.",
+          "zh": "該堆起來的。",
+          "examples": [
+            {
+              "t": "Gtuun so knuan ka bnaqe so?",
+              "fr": "Quand penses tu mettre en tas ton sable ?",
+              "en": "When do you plan to heap up your sand?",
+              "zh": "你打算什麼時候把你的沙子堆起來？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GQANI",
+      "tag": "(GL'QANI ?) (R. = G'LOQ ?)",
+      "fr": "Remets dans son étui - prendre quelque chose pour le mettre dans un étui.",
+      "en": "Put back in its case - to take something in order to put it in a case.",
+      "zh": "放回套子裡——拿東西放進套子裡。",
+      "examples": [
+        {
+          "t": "Gqani ludo ka poting so",
+          "fr": "Remets ton couteau dans son fourreau.",
+          "en": "Put your knife back in its sheath.",
+          "zh": "把你的刀放回刀鞘裡。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GQGOQ",
+      "tag": "( = R. ? - R. = ?)",
+      "fr": "Etouffer - suffoquer - se noyer.",
+      "en": "To choke - to suffocate - to drown.",
+      "zh": "窒息——悶死——溺水。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mgqgoq",
+          "fr": "Qui étouffe - qui se noie.",
+          "en": "Who is choking - who is drowning.",
+          "zh": "窒息的人——溺水的人。",
+          "examples": [
+            {
+              "t": "Mnda kluli yayong ka S'goq ni mngqgoq nxoqel",
+              "fr": "Segoc est mort étouffé emporté par le torrent.",
+              "en": "Segoc died suffocated, carried away by the torrent.",
+              "zh": "Segoc 被激流沖走，窒息而死。"
+            }
+          ]
+        },
+        {
+          "form": "Tgqgoq",
+          "fr": "Qui est étouffé - qui est noyé.",
+          "en": "Who is choked - who is drowned.",
+          "zh": "已窒息的——已溺斃的。",
+          "examples": [
+            {
+              "t": "Ini ko d'xok ka yako o, dima tngqgoq ka tato",
+              "fr": "Avant que j'arrive (je n'étais pas encore arrivé qu' ) il était déjà étouffé.",
+              "en": "Before I arrived (I had not yet arrived when) he had already choked.",
+              "zh": "我還沒到（我尚未抵達之時），他就已經窒息了。"
+            }
+          ]
+        },
+        {
+          "form": "Sgqgoq",
+          "fr": "Pour étouffer - le moyen pour s'étouffer.",
+          "en": "For choking - the means of choking oneself.",
+          "zh": "用以窒息——使自己窒息的方法。",
+          "examples": [
+            {
+              "t": "Mnsa ttl'boq ksia sgqgoq na mxoqel",
+              "fr": "Il est allé pour se jeter dans l'eau (s'enfoncer dans l'eau) pour (faisant de celà le moyen pour) mourir noyé.",
+              "en": "He went to throw himself into the water (to sink into the water) in order (making that the means) to die by drowning.",
+              "zh": "他去投水（沒入水中），以此作為溺死的方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GTGUT",
+      "tag": "(R. = GUT ? (inconnue !)",
+      "fr": "Adjacent - proche - voisin.",
+      "en": "Adjacent - near - neighboring.",
+      "zh": "毗鄰的——鄰近的——相鄰的。",
+      "examples": [
+        {
+          "t": "Gtgut sapax mo ka sapax spoxan",
+          "fr": "L'infirmerie est juste à côté de ma maison.",
+          "en": "The clinic is right next to my house.",
+          "zh": "醫務室就在我家旁邊。"
+        },
+        {
+          "t": "Gtgut sapax Labai kana ka ssapax daxa",
+          "fr": "Toutes leurs maisons sont dans le secteur (voisines) de la maison de Labai.",
+          "en": "All their houses are in the area of (neighbors of) Labai's house.",
+          "zh": "他們的房子全都在 Labai 家附近（與之相鄰）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ggtgut",
+          "fr": "1) Très proche; 2) Les voisins.",
+          "en": "1) Very near; 2) The neighbors.",
+          "zh": "1）非常近；2）鄰居們。",
+          "examples": [
+            {
+              "t": "Ggtgut bi sapax Pexo",
+              "fr": "C'est tout à fait à côté de la maison de Perho.",
+              "en": "It is right next to Perho's house.",
+              "zh": "就在 Perho 家的旁邊。"
+            }
+          ]
+        },
+        {
+          "form": "Stgtgut",
+          "fr": "Dans le but d'être effectivement proche de.",
+          "en": "With the aim of being effectively close to.",
+          "zh": "為了真正靠近……。",
+          "examples": [
+            {
+              "t": "Xqelan na miin \"lu stgtgut na sapax Liyax",
+              "fr": "Il cherche tous les moyens (il meurt à force de chercher une route) pour être proche voisin de Liarh.",
+              "en": "He seeks every means (he is dying from searching for a way) to be a close neighbor of Liarh.",
+              "zh": "他想盡辦法（為找一條路快要累死）要成為 Liarh 的近鄰。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GUPUN",
+      "tag": "(R)",
+      "fr": "Dent - cran - croc.",
+      "en": "Tooth - notch - fang.",
+      "zh": "牙齒——齒口——尖牙。",
+      "examples": [
+        {
+          "t": "Sibus ka sknalox bi gupun mo",
+          "fr": "Ce sont les cannes à sucre qui me font mal aux dents.",
+          "en": "It is the sugar cane that makes my teeth hurt.",
+          "zh": "就是甘蔗讓我牙疼。"
+        },
+        {
+          "t": "Mnalox gupun",
+          "fr": "Avoir mal aux dents.",
+          "en": "To have a toothache.",
+          "zh": "牙痛。"
+        },
+        {
+          "t": "Mngasyex gupun",
+          "fr": "Edenté - avoir les dents en très mauvais état.",
+          "en": "Toothless - to have teeth in very bad condition.",
+          "zh": "缺牙——牙齒狀況很差。"
+        },
+        {
+          "t": "Gupun kikai",
+          "fr": "les crans de la machine.",
+          "en": "the teeth (notches) of the machine.",
+          "zh": "機器的齒。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GUT",
+      "tag": "( = R. de GTGUT ? )",
+      "crossRef": "GTGUT",
+      "fr": "Près (?) - Proche (?).",
+      "en": "Near (?) - Close (?).",
+      "zh": "近（？）——鄰近（？）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G'XAL",
+      "tag": "(R. ? - R. = XAL ?)",
+      "fr": "Compagnon (de route, de travail, de jeu..).",
+      "en": "Companion (in travel, in work, in play...).",
+      "zh": "同伴（旅途、工作、遊戲的夥伴……）。",
+      "examples": [
+        {
+          "t": "Yami g'xal mo",
+          "fr": "Mon compagnon et moi (= nous mon compagnon).",
+          "en": "My companion and I (= we, my companion).",
+          "zh": "我的同伴和我（＝我們，我的同伴）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mg'xal",
+          "fr": "Qui est proche - associé.",
+          "en": "Who is close - associated.",
+          "zh": "親近的——結交的。",
+          "examples": [
+            {
+              "t": "Tai ka alang kia o, mgxal alang nami",
+              "fr": "Ce pays là est allié du nôtre. (nb. Le plus souvent l'on entend: Mtg'xal, dans le même sens, encore que Mtg'xal indique une démarche).",
+              "en": "That village is allied with ours. (n.b. Most often one hears Mtg'xal, in the same sense, although Mtg'xal indicates an action.)",
+              "zh": "那個部落與我們的部落結盟。（註：最常聽到的是 Mtg'xal，意思相同，儘管 Mtg'xal 表示一種行動。）"
+            }
+          ]
+        },
+        {
+          "form": "Tg'xal",
+          "fr": "Le fait d'être associés, de faire équipe.",
+          "en": "The fact of being associates, of forming a team.",
+          "zh": "結為夥伴、組隊之事。",
+          "examples": [
+            {
+              "t": "Tgxalun so ima ?",
+              "fr": "Avec qui veux tu (dois tu) faire équipe ?",
+              "en": "With whom do you want (must you) team up?",
+              "zh": "你想（該）跟誰組隊？"
+            }
+          ]
+        },
+        {
+          "form": "Mtg'xal",
+          "fr": "Celui qui fait équipe - qui est sociable.",
+          "en": "One who teams up - who is sociable.",
+          "zh": "組隊的人——善於交際的人。",
+          "examples": [
+            {
+              "t": "Ida pax suxal ka mtg'xal nami",
+              "fr": "C'est déjà depuis autrefois que nous nous fréquentons.",
+              "en": "We have been keeping company since long ago.",
+              "zh": "我們從很久以前就有來往了。"
+            }
+          ]
+        },
+        {
+          "form": "Tngxalan",
+          "fr": "Association - équipe.",
+          "en": "Association - team.",
+          "zh": "團體——隊伍。",
+          "examples": [
+            {
+              "t": "Smola ko bi mita knsuyang bi tngxalan daxa",
+              "fr": "Leur belle équipe me fait envie.",
+              "en": "Their fine team makes me envious.",
+              "zh": "他們那麼好的隊伍讓我羨慕。"
+            }
+          ]
+        },
+        {
+          "form": "Ptg'xal",
+          "paradigm": "Mptg'xal, ptg'xal, ptgxali, ptgxalan, ptgxalun",
+          "fr": "Joindre comme compagnon - faire faire équipe.",
+          "en": "To join as a companion - to make (people) team up.",
+          "zh": "使結為同伴——使組隊。",
+          "examples": [
+            {
+              "t": "Kmptgxalun mo snawan (snao) so ka laqe mo paro",
+              "fr": "J'aimerais bien associer mon grand garçon à ton mari.",
+              "en": "I would very much like to pair my eldest boy with your husband.",
+              "zh": "我很想讓我的大兒子跟你丈夫作伴。"
+            }
+          ]
+        },
+        {
+          "form": "Stg'xal",
+          "fr": "Dans le but d'être compagnon, associé.",
+          "en": "With the aim of being a companion, an associate.",
+          "zh": "為了成為同伴、夥伴。",
+          "examples": [
+            {
+              "t": "Snax na gain miyax ka xea stg'xal tnan",
+              "fr": "Il est venu de loin pour s'associer à nous.",
+              "en": "He came from afar to join with us.",
+              "zh": "他從遠方來與我們結交。"
+            }
+          ]
+        },
+        {
+          "form": "Kmtg'xal",
+          "fr": "Désirer faire équipe avec.",
+          "en": "To desire to team up with.",
+          "zh": "想與……組隊。",
+          "examples": [
+            {
+              "t": "Kmtg'xal ko bi gnluban namo!",
+              "fr": "Je voudrais bien devenir membre de votre communauté.",
+              "en": "I would very much like to become a member of your community.",
+              "zh": "我很想成為你們群體的一員。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmptg'xal",
+          "fr": "Etre celui qui désire faire entrer dans une équipe.",
+          "en": "To be the one who wishes to bring (someone) into a team.",
+          "zh": "想使人加入隊伍的人。",
+          "examples": [
+            {
+              "t": "Mkmptg'xal bi laqe na tnan ka Iban",
+              "fr": "Iban aimerait bien faire entrer son fils dans notre groupe.",
+              "en": "Iban would very much like to bring his son into our group.",
+              "zh": "Iban 很想讓他的兒子加入我們的團體。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'XAK",
+      "tag": "(G'XAQ ?) (R. = G'XAP ?)",
+      "crossRef": "G'XAP",
+      "fr": "Semence. vr. G'XAP.",
+      "en": "Seed. See G'XAP.",
+      "zh": "種子。見 G'XAP。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G'XAP",
+      "tag": "(R)",
+      "fr": "Semence - graine.",
+      "en": "Seed - grain.",
+      "zh": "種子——籽粒。",
+      "examples": [
+        {
+          "t": "Ga sapax mo kana ka gg'xap",
+          "fr": "Toutes les semences sont chez (il y a beaucoup de semences chez) moi.",
+          "en": "All the seeds are at my place (there are many seeds at my place).",
+          "zh": "所有的種子都在我家（我家有很多種子）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gm'xap",
+          "paradigm": "Gm'xap, g'xap, .?., G'xpan, g'xpun",
+          "fr": "Semer.",
+          "en": "To sow.",
+          "zh": "播種。",
+          "examples": [
+            {
+              "t": "Mxa nami gm'xap trabus ka sayang",
+              "fr": "Aujourd'hui nous allons planter les arachides.",
+              "en": "Today we are going to plant the peanuts.",
+              "zh": "今天我們要去種花生。"
+            }
+          ]
+        },
+        {
+          "form": "Mg'xap",
+          "fr": "Semeur - qui sème.",
+          "en": "Sower - one who sows.",
+          "zh": "播種者——播種的人。",
+          "examples": [
+            {
+              "t": "Musa gm'xap ml'bu ka mg'xap",
+              "fr": "Le semeur va semer le matin.",
+              "en": "The sower goes to sow in the morning.",
+              "zh": "播種的人早上去播種。"
+            }
+          ]
+        },
+        {
+          "form": "Sg'xap",
+          "fr": "pour semer - s'en servir pour semer.",
+          "en": "for sowing - to use it for sowing.",
+          "zh": "用來播種——拿它作播種之用。",
+          "examples": [
+            {
+              "t": "Saon mo kmsyuk kingal lubwi trabus sg'xap mo kmpaxan mo tloma",
+              "fr": "Je veux aller emprunter un sac d'arachides pour planter mon champ du bas.",
+              "en": "I want to go borrow a sack of peanuts to plant my lower field.",
+              "zh": "我要去借一袋花生，好種我下方的田。"
+            }
+          ]
+        },
+        {
+          "form": "Gn'xpan",
+          "fr": "Terrain qui a été semé - les semences qui ont été semées.",
+          "en": "Land that has been sown - the seeds that have been sown.",
+          "zh": "已播種的田地——已播下的種子。",
+          "examples": [
+            {
+              "t": "ya bi manu ka gn'xpan so daya kmpaxan mo?",
+              "fr": "Qu'est ce donc que tu as semé dans le champ qui est plus haut que le mien ?",
+              "en": "What on earth have you sown in the field that is above mine?",
+              "zh": "你在我上方那塊田裡到底種了什麼？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'XAQ",
+      "tag": "( G'XAK ?)",
+      "crossRef": "G'XAP",
+      "fr": "semence. Vr. G'XAP.",
+      "en": "seed. See G'XAP.",
+      "zh": "種子。見 G'XAP。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "I",
+      "tag": "",
+      "fr": "Terme uniquement rencontré dans l'expression : I TYEX ; expression qui pourrait être la réduction de l'expression: ITA TITYEX qui a le même sens.",
+      "en": "Term met only in the expression: I TYEX; an expression which could be the reduction of the expression ITA TITYEX, which has the same meaning.",
+      "zh": "僅見於 I TYEX 一語的詞；此語可能是意義相同的 ITA TITYEX 一語之縮略。",
+      "examples": [
+        {
+          "t": "I tyex pila so xo ?",
+          "fr": "Veux tu me donner un peu d'argent?",
+          "en": "Will you give me a little money?",
+          "zh": "你要給我一點錢嗎？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IDA",
+      "tag": "",
+      "fr": "Particule invariable, très employée, avec des sens extensibles et divers. = Aussi - même - et pourtant - de toute façon.",
+      "en": "Invariable particle, much used, with extensible and varied meanings. = Also - even - and yet - in any case.",
+      "zh": "不變化的助詞，使用頻繁，語義寬泛多樣。＝也——甚至——然而——無論如何。",
+      "examples": [
+        {
+          "t": "Ana so adi msa so, ida kia ka kari mo",
+          "fr": "Même si tu dis non, ma parole (mon ordre) reste la même.",
+          "en": "Even if you say no, my word (my order) remains the same.",
+          "zh": "即使你說不，我的話（我的命令）依然不變。"
+        },
+        {
+          "t": "Ana so uxai (ana so msa uxai), ida iso",
+          "fr": "Même si tu dis que ce n'est pas vrai, c'est quand même toi.",
+          "en": "Even if you say it is not true, it is still you.",
+          "zh": "即使你說不是真的，還是你。"
+        },
+        {
+          "t": "Ida kia",
+          "fr": "C'est justement celà.",
+          "en": "That is just it.",
+          "zh": "正是那樣。"
+        },
+        {
+          "t": "Ida nkia",
+          "fr": "C'est comme avant.",
+          "en": "It is as before.",
+          "zh": "跟從前一樣。"
+        },
+        {
+          "t": "Ida bi",
+          "fr": "peut être.",
+          "en": "perhaps.",
+          "zh": "或許。"
+        },
+        {
+          "t": "Ida bi iso",
+          "fr": "C'est peut être toi.",
+          "en": "It is perhaps you.",
+          "zh": "或許就是你。"
+        },
+        {
+          "t": "Ida ita ka tnpusu",
+          "fr": "De toute façon c'est nous qui sommes responsables.",
+          "en": "In any case it is we who are responsible.",
+          "zh": "無論如何，負責的是我們。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IDAO",
+      "tag": "(R)",
+      "fr": "Riz cuit - (par extension =) nourriture.",
+      "en": "Cooked rice - (by extension =) food.",
+      "zh": "煮熟的飯——（引申＝）食物。",
+      "examples": [
+        {
+          "t": "Klaon so mqan idao xo?",
+          "fr": "Es tu habitué à (sais tu) manger du riz?",
+          "en": "Are you used to (do you know how to) eat rice?",
+          "zh": "你習慣（會）吃米飯嗎？"
+        },
+        {
+          "t": "Sdmatun so manu ka idao so ?",
+          "fr": "Quels condiments (plats, légumes) vas tu préparer pour accompagner ton riz ?",
+          "en": "What side dishes (dishes, vegetables) are you going to prepare to go with your rice?",
+          "zh": "你要準備什麼配菜（菜餚、蔬菜）來配你的飯？"
+        },
+        {
+          "t": "Idau maso",
+          "fr": "Millet cuit.",
+          "en": "Cooked millet.",
+          "zh": "煮熟的小米。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'idao",
+          "fr": "Cuire le riz - préparer la nourriture (sy. = M'xapwi).",
+          "en": "To cook rice - to prepare food (syn. = M'xapwi).",
+          "zh": "煮飯——準備食物（同義詞＝M'xapwi）。",
+          "examples": [
+            {
+              "t": "Ga m'idao ka bobo so",
+              "fr": "Ta maman est en train de cuire le riz ( ou: de préparer le repas).",
+              "en": "Your mother is cooking the rice (or: preparing the meal).",
+              "zh": "你媽媽正在煮飯（或：正在做飯菜）。"
+            }
+          ]
+        },
+        {
+          "form": "Ma'idao",
+          "fr": "va devenir riz cuit.",
+          "en": "will become cooked rice.",
+          "zh": "將變成熟飯。",
+          "examples": [
+            {
+              "t": "Nasi so puda tkanan ka payai o, ma'boax ka xea ni m'xapwi so boax do, ma'idao da",
+              "fr": "Si tu décortiques le paddy (payai), il devient du BOAX (riz cru), et si tu cuis ce BOAX il deviendra du IDAO (riz cuit).",
+              "en": "If you husk the paddy (payai), it becomes BOAX (raw rice), and if you cook this BOAX it will become IDAO (cooked rice).",
+              "zh": "如果你把稻穀（payai）去殼，它就變成 BOAX（生米）；如果你把這 BOAX 煮熟，它就會變成 IDAO（熟飯）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "IDAS",
+      "tag": "(R)",
+      "fr": "Lune - Mois.",
+      "en": "Moon - Month.",
+      "zh": "月亮——月份。",
+      "examples": [
+        {
+          "t": "Idas nii o, paro bi ka idas",
+          "fr": "Ce mois ci la lune est pleine.",
+          "en": "This month the moon is full.",
+          "zh": "這個月月亮很圓。"
+        },
+        {
+          "t": "Nasi miyax t'lo idas o, kia da",
+          "fr": "Dans trois mois (s'il passe encore trois mois, c'est alors).",
+          "en": "In three months (if three more months pass, it will be then).",
+          "zh": "三個月後（再過三個月，就是那時候）。"
+        },
+        {
+          "t": "Wada daxa idas da (vl. daxa idas sndurai)",
+          "fr": "Il y a deux mois.",
+          "en": "Two months ago.",
+          "zh": "兩個月前。"
+        },
+        {
+          "t": "Mnsa ko daxa idas (vl. mnsa ko mkdaxa idas)",
+          "fr": "Je suis allé pour deux mois.",
+          "en": "I went for two months.",
+          "zh": "我去了兩個月。"
+        },
+        {
+          "t": "T'lo xnkawas ni lima idas",
+          "fr": "Trois ans et cinq mois.",
+          "en": "Three years and five months.",
+          "zh": "三年又五個月。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dasan",
+          "fr": "Clair de lune.",
+          "en": "Moonlight.",
+          "zh": "月光。",
+          "examples": [
+            {
+              "t": "Paro bi dasan ka'man kia, nta smbu lapit xo ?",
+              "fr": "Grand clair de lune la nuit prochaine! Allons tirer (chasser) l'écureuil volant, d'accord ?",
+              "en": "Bright moonlight tomorrow night! Let's go shoot (hunt) the flying squirrel, all right?",
+              "zh": "明晚月色很亮！我們去射（獵）飛鼠，好嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "IING",
+      "tag": "( = R. ?)",
+      "crossRef": "GIING",
+      "fr": "Chercher (?).",
+      "en": "To seek (?).",
+      "zh": "尋找（？）。",
+      "examples": [
+        {
+          "t": "Tayal bi ka iing so !",
+          "fr": "(nb. serait ce: GIING entendu - ou réduit à: IING?) = Avec quel souci tu cherches !",
+          "en": "(n.b. could this be GIING as heard - or reduced to IING?) = With what anxiety you search!",
+          "zh": "（註:這會不會是聽成的 GIING——或縮略為 IING？）＝你找得多麼心焦啊！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ILAQ",
+      "tag": "(R)",
+      "fr": "Boyau - Tripe - viscère.",
+      "en": "Gut - tripe - viscera.",
+      "zh": "腸子——內臟——臟腑。",
+      "examples": [
+        {
+          "t": "Tai ka smbu lapit o, kia ka mqan ilaq nia ole",
+          "fr": "C'est celui qui tue l'écureuil volant qui en mange les viscères (nb. Celui qui tue l'écureuil, l'ouvre de suite et en mange les viscères toutes chaudes).",
+          "en": "It is the one who kills the flying squirrel who eats its viscera (n.b. The one who kills the squirrel opens it at once and eats the viscera while still warm).",
+          "zh": "打到飛鼠的人才吃牠的內臟（註:打到飛鼠的人立刻剖開，趁熱吃下全部內臟）。"
+        },
+        {
+          "t": "Ilaq paro",
+          "fr": "Gros intestin.",
+          "en": "Large intestine.",
+          "zh": "大腸。"
+        },
+        {
+          "t": "Ilaq q'ling",
+          "fr": "Intestin grèle.",
+          "en": "Small intestine.",
+          "zh": "小腸。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ILIL",
+      "tag": "(R)",
+      "fr": "Gauche - côté gauche.",
+      "en": "Left - left side.",
+      "zh": "左——左邊。",
+      "examples": [
+        {
+          "t": "Ilil ni nalat, nalat ka malu",
+          "fr": "A gauche ou à droite, je préfère la droite.",
+          "en": "On the left or on the right, I prefer the right.",
+          "zh": "左邊或右邊，我比較喜歡右邊。"
+        },
+        {
+          "t": "Taya knsuyang sisil ta ! Ilil xa sisil ta, msa ko; Sng'xe ( sx'nge !) so?",
+          "fr": "Oh! comme il nous est favorable notre SISIL; regarde! ils est à gauche, notre SISIL, je t'ai dit! Tu t'en souviens ? (nb. Avec les rêves (=SPI), cet oiseau (=Moineau ?) SISIL est l'un des moyens privilégiés de divination; il prédit d'une façon incontestée la chance, l'avenir de tout ce qui a trait à la vie de l'individu ou du groupe, surtout pour la chasse.).",
+          "en": "Oh! how favorable our SISIL is to us; look! it is on the left, our SISIL, I told you! Do you remember? (n.b. Along with dreams (=SPI), this bird (=sparrow?) SISIL is one of the privileged means of divination; it predicts in an uncontested way luck and the future of everything that concerns the life of the individual or of the group, above all for hunting.).",
+          "zh": "哦！我們的 SISIL 對我們多麼有利；你看！我們的 SISIL 在左邊，我跟你說過！你還記得嗎？（註:與夢（＝SPI）並列，這種鳥（＝麻雀？）SISIL 是最重要的占卜方式之一；牠對運氣以及個人或群體生活中一切事務——尤其是打獵——的前景所作的預示，是無可置疑的。）"
+        }
+      ],
+      "subs": []
+    }
+  ]
+}

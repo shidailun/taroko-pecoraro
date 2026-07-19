@@ -1,0 +1,837 @@
+{
+  "pages": [346, 349],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Smulus",
+        "fr": "(Est-ce bien la R. ULUS ?) = Traîner - tirer en faisant glisser.",
+        "en": "(Is this really the root ULUS?) = To drag - to pull by sliding.",
+        "zh": "（這是否為詞根 ULUS？）＝拖拉－以滑動方式拉動。",
+        "examples": [
+          {
+            "t": "Ana naqex slusan o, ida mo slusun kia ka ladax gaga",
+            "fr": "Bien qu'elle soit malaisée (à traîner), il faut que j'arrive à tirer cette grume!",
+            "en": "Even though it is hard (to drag), I must manage to pull that log!",
+            "zh": "雖然那根木頭很難拖，我還是得把它拉動！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "UMAL",
+      "tag": "(R)",
+      "fr": "Augmenter - additionner.",
+      "en": "To increase - to add.",
+      "zh": "增加－添加。",
+      "examples": [
+        {
+          "t": "Qbiling ! T'lo bi pada ka buan so! Ma so umal!",
+          "fr": "Blagueur! Tu n'as tiré (tué) que trois chamois; Pourquoi en rajouter ?",
+          "en": "Braggart! You only shot (killed) three chamois; why add more?",
+          "zh": "吹牛的人！你只打（殺）了三隻羚羊，何必再多說（多加）？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mumal (M'umal)",
+          "paradigm": "Mumal, umal, mali (=Małi), malan (małan) malun (małun)",
+          "fr": "d° forme verbale. (nb. Le phonème L est ici réalisé comme une Dorso-palatale-latérale-fricative (ł), qu'on pourrait représenter: Ma'li, ma'lan, ma'lun).",
+          "en": "verbal form of the preceding. (n.b. The phoneme L is here realized as a dorso-palatal lateral fricative (ł), which one could represent as: Ma'li, ma'lan, ma'lun.)",
+          "zh": "同上之動詞形。（註：此處音位 L 實現為舌背－硬顎－邊音－擦音（ł），可表記為：Ma'li、ma'lan、ma'lun。）",
+          "examples": [
+            {
+              "t": "Nasi so mumal knqlnutan so o (vl. Nasi mlana ka knqlinut so o), na, yaxon miso dmayao da!",
+              "fr": "Au cas où tu augmenterais ton état de pauvreté (vL. tu deviendrais plus pauvre) alors je viendrais t'aider.",
+              "en": "In case you should increase your state of poverty (var. you should become poorer), then I would come to help you.",
+              "zh": "萬一你的貧困加劇（或：你變得更窮），那我就會來幫你。"
+            }
+          ]
+        },
+        {
+          "form": "N'umal",
+          "fr": "L'acte d'avoir ajouté - ce qui a été ajouté.",
+          "en": "The act of having added - that which has been added.",
+          "zh": "已添加之行為－被添加之物。",
+          "examples": [
+            {
+              "t": "N'umal mo nanak ka t'lo nii",
+              "fr": "Ces trois, c'est moi qui les ai ajoutés de moi-même.",
+              "en": "These three, it is I who added them myself.",
+              "zh": "這三個，是我自己加上去的。"
+            }
+          ]
+        },
+        {
+          "form": "Malan (Ma'lan)",
+          "fr": "Augmentation - action d'ajouter.",
+          "en": "Increase - the action of adding.",
+          "zh": "增加－添加之動作。",
+          "examples": []
+        },
+        {
+          "form": "Nma'lan",
+          "fr": "Augmentation (faite).",
+          "en": "Increase (accomplished).",
+          "zh": "（已完成的）增加。",
+          "examples": [
+            {
+              "t": "Adi mlana knlala ka mesa so pila? ... Uxai nma'lan so nanak s'xiga!",
+              "fr": "Est-ce que la somme d'argent que tu demandes n'augmente pas .... Mais (tu sais bien que) c'est toi même qui en a ajouté hier !",
+              "en": "Doesn't the sum of money you are asking for keep increasing? ... But (you know very well that) it is you yourself who added to it yesterday!",
+              "zh": "你要求的錢數不是一直在增加嗎？……可是（你明明知道）昨天是你自己加上去的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "UMUL",
+      "tag": "(= R. ?)",
+      "fr": "Sucer en gardant dans la bouche.",
+      "en": "To suck while keeping in the mouth.",
+      "zh": "含在口中吸吮。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mumul",
+          "fr": "Sucer - faire fondre dans la bouche.",
+          "en": "To suck - to let melt in the mouth.",
+          "zh": "吸吮－使其在口中融化。",
+          "examples": [
+            {
+              "t": "Asi na bsqani ka xea, sao bi ini k'la mumul",
+              "fr": "Il faut qu'il le mâche, lui, comme s'il n'arrivait pas à (le) sucer!",
+              "en": "He has to chew it, as if he couldn't manage to suck it!",
+              "zh": "他得把它嚼碎，好像他吸不動似的！"
+            },
+            {
+              "t": "Muli binao! Malu bi oqon!",
+              "fr": "Laisse (le) donc fondre dans ta bouche! C'est très bon!",
+              "en": "Just let it melt in your mouth! It's very good!",
+              "zh": "就讓它在你口中融化吧！很好吃！"
+            }
+          ]
+        },
+        {
+          "form": "Mulun",
+          "fr": "A sucer - à laisser fondre (faire fondre) dans la bouche.",
+          "en": "To be sucked - to be let melt (made to melt) in the mouth.",
+          "zh": "可吸吮的－可（使其）在口中融化的。",
+          "examples": [
+            {
+              "t": "Ana ini ksibus ka sapox nii o, ida sapox mulun",
+              "fr": "Bien que ce médicament ne soit pas sucré, c'est pourtant un médicament à sucer!",
+              "en": "Although this medicine is not sweet, it is nevertheless a medicine to be sucked!",
+              "zh": "雖然這種藥不甜，但它仍是含著吸的藥！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "UN",
+      "tag": "",
+      "fr": "(vl. ON) = Affixe postposé à une base (simple ou composée) d'action qui lui donne une forme nominale avec un sens de réalisation future, obligatoire, ou nécessaire, ou voulue. Sa réalisation ON est déterminée par son environnement vocalique ou consonnantique. Vr. ON.",
+      "en": "(var. ON) = Suffix appended to an action base (simple or compound) which gives it a nominal form with a sense of future realization — obligatory, or necessary, or desired. Its realization as ON is determined by its vocalic or consonantal environment. See ON.",
+      "zh": "（或：ON）＝後綴，附加於（單一或複合的）動作詞根，賦予其名詞形式，帶有未來實現、義務性、必要性或意願之意。其實現為 ON 取決於其元音或輔音環境。參見 ON。",
+      "examples": []
+    },
+    {
+      "hw": "USA",
+      "tag": "(R)",
+      "fr": "Aller.",
+      "en": "To go.",
+      "zh": "去。",
+      "examples": [
+        {
+          "t": "Ini usa ka tama o, usa n'xali ka iso da!",
+          "fr": "(Si) papa ne va pas, va donc vite, toi!",
+          "en": "(If) dad doesn't go, then you go quickly!",
+          "zh": "（如果）爸爸不去，那你就快去吧！"
+        },
+        {
+          "t": "Ongat usa ka sayang da!",
+          "fr": "Aujourd'hui il n'est plus question d'aller ( Il n'y a plus d'aller, aujourd'hui!).",
+          "en": "Today there is no more question of going (there is no more going, today!).",
+          "zh": "今天已經不必去了（今天已經沒有要去了！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Musa",
+          "fr": "Aller. (Vr. ausii: MXA !).",
+          "en": "To go. (See also: MXA!).",
+          "zh": "去。（亦參見：MXA！）。",
+          "examples": [
+            {
+              "t": "Musa ko tmaan",
+              "fr": "Je vais auprès (chez) mon père.",
+              "en": "I am going to (my) father's.",
+              "zh": "我去我父親那裡。"
+            },
+            {
+              "t": "Musa s'dyaqon (sadyaqon)",
+              "fr": "Se marier.",
+              "en": "To get married.",
+              "zh": "結婚。"
+            },
+            {
+              "t": "Ini usa ka oqon",
+              "fr": "la nourriture ne descend pas (Je n'ai pas d'appétit).",
+              "en": "the food doesn't go down (I have no appetite).",
+              "zh": "食物下不去（我沒有食慾）。"
+            }
+          ]
+        },
+        {
+          "form": "Saan",
+          "fr": "Lieu, temps, objet de l'aller.",
+          "en": "Place, time, object of the going.",
+          "zh": "去的地點、時間、對象。",
+          "examples": [
+            {
+              "t": "Manu bi ka saan so toxoi sapax d'xa kddiyax?",
+              "fr": "Quelle est la raison pour laquelle tu vas toujours chez eux (chez les autres)?",
+              "en": "What is the reason you always go to their place (to others' places)?",
+              "zh": "你為什麼總是去他們家（別人家）呢？"
+            },
+            {
+              "t": "Kia ka saan mo nangal",
+              "fr": "C'est cela que je vais (de fait) chercher.",
+              "en": "That is what I am (indeed) going to fetch.",
+              "zh": "那就是我（確實）要去拿的。"
+            }
+          ]
+        },
+        {
+          "form": "Saon",
+          "fr": "But voulu, obligatoire, de l'aller.",
+          "en": "The desired, obligatory goal of the going.",
+          "zh": "去的目標，意願的、必須的。",
+          "examples": [
+            {
+              "t": "Kia ka saon mo nangal",
+              "fr": "C'est cela que je veux aller chercher.",
+              "en": "That is what I want to go and fetch.",
+              "zh": "那就是我想去拿的。"
+            },
+            {
+              "t": "Sao kia o, saon miso nita saman da!",
+              "fr": "S'il en est ainsi, j'irai te voir demain!",
+              "en": "If that's how it is, I will go to see you tomorrow!",
+              "zh": "如果是這樣，我明天就去看你！"
+            }
+          ]
+        },
+        {
+          "form": "Ssaon",
+          "fr": "(nb. redoublement de la consonne initiale indiquant l'intensité, le pluriel; ou bien: S préfixe instrumental). = Pour que ce soit un but d'aller - Les buts voulus de l'aller.",
+          "en": "(n.b. reduplication of the initial consonant indicating intensity, the plural; or else: S instrumental prefix). = So that it be a goal to go to - the desired goals of the going.",
+          "zh": "（註：首輔音重疊表示強調、複數；或者：S 為工具前綴）。＝為使其成為去的目標－去的意願目標。",
+          "examples": [
+            {
+              "t": "Usa nanak ssaon so",
+              "fr": "Va seulement (les chemins, les buts) où tu dois aller.",
+              "en": "Go only (the paths, the goals) where you must go.",
+              "zh": "只去你該去的（路、目標）。"
+            }
+          ]
+        },
+        {
+          "form": "Mnsa",
+          "fr": "Etre allé.",
+          "en": "To have gone.",
+          "zh": "已去過。",
+          "examples": [
+            {
+              "t": "Mnsa so ino ?",
+              "fr": "Où es tu allé (dans quels lieux) ?",
+              "en": "Where have you been (to what places)?",
+              "zh": "你去過哪裡（哪些地方）？"
+            }
+          ]
+        },
+        {
+          "form": "Mnusa",
+          "fr": "Avoir fait l'action d'aller.",
+          "en": "To have done the action of going.",
+          "zh": "曾做過去的動作。",
+          "examples": [
+            {
+              "t": "Mnusa so ino ?",
+              "fr": "Où allais tu ? (vgr.dans telles circonstances).",
+              "en": "Where were you going? (e.g. in such circumstances).",
+              "zh": "你當時要去哪裡？（例如：在某些情況下）。"
+            },
+            {
+              "t": "Mnusa ko sapax so s'xiga o, paro bi kmoyoç",
+              "fr": "Hier quand j'allais chez toi il pleuvait à torrents.",
+              "en": "Yesterday when I was going to your place it was pouring rain.",
+              "zh": "昨天我去你家時，下著傾盆大雨。"
+            }
+          ]
+        },
+        {
+          "form": "Uusa",
+          "fr": "Pour aller - dans le but d'aller.",
+          "en": "In order to go - for the purpose of going.",
+          "zh": "為了去－以去為目的。",
+          "examples": [
+            {
+              "t": "Tayal knlbuan so! Xeaon so? ... Uusa mo bbuyo!",
+              "fr": "Oh la! Comme tu es matinal! Comment cela se fait-il ? ... (C'est) pour aller à la chasse!",
+              "en": "Oh my! How early you are up! How come? ... (It's) to go hunting!",
+              "zh": "哎呀！你起得真早！怎麼會這樣？……（是）為了去打獵！"
+            }
+          ]
+        },
+        {
+          "form": "Kmusa",
+          "fr": "Désirer aller.",
+          "en": "To desire to go.",
+          "zh": "想要去。",
+          "examples": [
+            {
+              "t": "Kmusa ko bi psinao daolyaq (= Mita ega)",
+              "fr": "J'ai bien envie d'aller au cinéma(me faire laver les yeux).",
+              "en": "I really want to go to the cinema (to have my eyes washed).",
+              "zh": "我很想去看電影（讓眼睛洗個澡）。"
+            },
+            {
+              "t": "Mkmusa ko bi ka yako ole",
+              "fr": "Moi aussi je suis celui qui désire aller.",
+              "en": "I too am one who desires to go.",
+              "zh": "我也是想去的人。"
+            }
+          ]
+        },
+        {
+          "form": "Pusa",
+          "paradigm": "Mpusa, pusa psai, psaan, psaon.",
+          "fr": "Envoyer - congédier - placer - poser.",
+          "en": "To send - to dismiss - to place - to put down.",
+          "zh": "派遣－遣送－放置－擺放。",
+          "examples": [
+            {
+              "t": "Psai sapax n'xali ka baki so",
+              "fr": "Renvoie vite ton beau père à la maison.",
+              "en": "Send your father-in-law back home quickly.",
+              "zh": "快把你岳父（公公）送回家。"
+            },
+            {
+              "t": "Psaon mo babao dnamux sapax ka lubwi so",
+              "fr": "Je mettrai (je veux mettre) ton sac sur le toit de la maison.",
+              "en": "I will put (I want to put) your bag on the roof of the house.",
+              "zh": "我要把你的袋子放到屋頂上。"
+            },
+            {
+              "t": "Ongat sapax sxm'kan ka Lixao da, wada d'xa psaan da!",
+              "fr": "Lirhao n'est plus dans la prison, Ils l'ont déjà relâché",
+              "en": "Lirhao is no longer in prison, they have already released him.",
+              "zh": "Lirhao 已經不在監獄裡了，他們已經把他放出來了。"
+            }
+          ]
+        },
+        {
+          "form": "Kmpusa",
+          "fr": "Désirer faire aller, envoyer, expédier, libérer.",
+          "en": "To desire to make go, to send, to dispatch, to free.",
+          "zh": "想要使去、派遣、寄送、釋放。",
+          "examples": [
+            {
+              "t": "Kmpusa ko bi laqe mo musa paro ptasan",
+              "fr": "J'ai bien envie d'envoyer mon garçon à l'université.",
+              "en": "I really want to send my boy to the university.",
+              "zh": "我很想把我兒子送去大學。"
+            }
+          ]
+        },
+        {
+          "form": "S'usa (Suusa)",
+          "fr": "Moyen pour aller.",
+          "en": "Means for going.",
+          "zh": "去的方法（工具）。",
+          "examples": [
+            {
+              "t": "Mnsa ko kmsyuk kating d'xa s'usa mo bbil ladax",
+              "fr": "Je suis allé emprunter un buffle pour aller tirer des grumes (des troncs de bois).",
+              "en": "I went to borrow a buffalo in order to go and haul logs (tree trunks).",
+              "zh": "我去借了一頭水牛，好去拖木頭（樹幹）。"
+            },
+            {
+              "t": "Manu bi ka s'usa na ?",
+              "fr": "Quelle est la raison qui le fait aller ?",
+              "en": "What is the reason that makes it go?",
+              "zh": "是什麼原因讓它去的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "USIK",
+      "tag": "(R)",
+      "fr": "Piment.",
+      "en": "Chili pepper.",
+      "zh": "辣椒。",
+      "examples": [
+        {
+          "t": "Soqe nixol ka usiq so! Ini ko kmkan!",
+          "fr": "Ton piment est bien trop fort (piquant)! Je ne tiens pas (je n'ai pas envie) d'en manger.",
+          "en": "Your chili is far too strong (spicy)! I don't care to (have no desire to) eat any.",
+          "zh": "你的辣椒太辣了！我不想吃。"
+        },
+        {
+          "t": "Usiq qapal",
+          "fr": "Gingembre.",
+          "en": "Ginger.",
+          "zh": "薑。"
+        },
+        {
+          "t": "Mxoma usiq qapal pax snii bi ka dTroko",
+          "fr": "Les Taroko ne cultivent le gingembre que depuis peu.",
+          "en": "The Taroko have only recently begun to cultivate ginger.",
+          "zh": "太魯閣人是近來才開始種薑的。"
+        }
+      ]
+    },
+    {
+      "hw": "USUK",
+      "tag": "(R)",
+      "fr": "Manche d'un habit.",
+      "en": "Sleeve of a garment.",
+      "zh": "衣服的袖子。",
+      "examples": [
+        {
+          "t": "Ini na psai usuk ka baga na",
+          "fr": "Il n'enfile pas (il ne veut pas enfiler) ses bras dans les manches.",
+          "en": "He does not put (does not want to put) his arms through the sleeves.",
+          "zh": "他不把（不願把）手臂穿進袖子裡。"
+        }
+      ]
+    },
+    {
+      "hw": "UTAQ",
+      "tag": "(R)",
+      "fr": "Rejeter - vomir.",
+      "en": "To reject - to vomit.",
+      "zh": "排出－嘔吐。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mutaq",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Knta'to mutaq ka laqe mo; ya sao bi manu ka sknalox xeaan ?",
+              "fr": "Mon enfant ne cesse pas de vomir; qu'est-ce qui peut bien l'avoir rendu malade ?",
+              "en": "My child won't stop vomiting; what on earth could have made him sick?",
+              "zh": "我的孩子一直嘔吐不停；到底是什麼讓他生病的呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "UXAI",
+      "tag": "(R)",
+      "fr": "Négation, le plus souvent contredisant une affirmation - Interrogation signifiant: Est-ce que ne pas ?",
+      "en": "Negation, most often contradicting an affirmation - Interrogation meaning: Is it not (that)...?",
+      "zh": "否定，最常用來反駁一個肯定句－疑問，意為：難道不是……嗎？",
+      "examples": [
+        {
+          "t": "Uxai iso ka tama \"Laon.?",
+          "fr": "N'est-ce pas toi le père de Hlaon ?",
+          "en": "Aren't you Hlaon's father?",
+          "zh": "你不就是 Hlaon 的父親嗎？"
+        },
+        {
+          "t": "Uxai yako!",
+          "fr": "Ce n'est pas moi!",
+          "en": "It's not me!",
+          "zh": "不是我！"
+        },
+        {
+          "t": "Iso ka mniyax sapax no ska'man ? ... Uxai!",
+          "fr": "C'est toi qui es venu chez moi la nuit dernière ? ... Non!",
+          "en": "Is it you who came to my house last night? ... No!",
+          "zh": "昨晚是你來我家嗎？……不是！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "N'uxai",
+          "fr": "Si cela n'avait pas été.",
+          "en": "If it had not been (the case).",
+          "zh": "若非如此。",
+          "examples": [
+            {
+              "t": "N'uxai biyax tama o, qani ko usa!",
+              "fr": "S'il n'y avait pas eu la force (l'insistance) de mon père, je ne serais pas allé.",
+              "en": "If it hadn't been for the strength (insistence) of my father, I would not have gone.",
+              "zh": "若不是我父親的力量（堅持），我就不會去了。"
+            },
+            {
+              "t": "N'uxai iso o, na, ini na sai matas ka laqe!",
+              "fr": "Si tu n'étais pas intervenu, mon fils ne serait pas allé à l'école.",
+              "en": "If you had not intervened, my son would not have gone to school.",
+              "zh": "若不是你出面，我兒子就不會去上學了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "UXUL",
+      "tag": "",
+      "crossRef": "MUXUL",
+      "fr": "(Est-ce la R. de MUXUL = Chaud - moelleux ?). Vr. MUXUL.",
+      "en": "(Is this the root of MUXUL = Warm - soft/tender?). See MUXUL.",
+      "zh": "（這是否為 MUXUL 的詞根？＝溫暖－柔軟？）。參見 MUXUL。",
+      "examples": []
+    },
+    {
+      "hw": "WA",
+      "tag": "",
+      "fr": "Particule exclamative finale.",
+      "en": "Final exclamatory particle.",
+      "zh": "句末感嘆詞。",
+      "examples": [
+        {
+          "t": "Akai wa!",
+          "fr": "Aïe !",
+          "en": "Ouch!",
+          "zh": "哎唷！"
+        },
+        {
+          "t": "A tyex, wa!",
+          "fr": "Eh bien! Il s'en est fallu de peu!",
+          "en": "Well! It was a close call!",
+          "zh": "唉呀！好險！"
+        },
+        {
+          "t": "N'xali wa!",
+          "fr": "Dépêche toi donc !",
+          "en": "Hurry up then!",
+          "zh": "那就快點吧！"
+        }
+      ]
+    },
+    {
+      "hw": "WADA",
+      "tag": "",
+      "fr": "Mot outil invariable signifiant: Etre parti - le passé, l'accompli d'un état, d'une action - la disparition d'un être.",
+      "en": "Invariable function word meaning: to be gone - the past, the completed aspect of a state or an action - the disappearance of a being.",
+      "zh": "不變的虛詞，意為：已離去－過去、狀態或動作的完成貌－某存在物的消失。",
+      "examples": [
+        {
+          "t": "Wada ka tama no da",
+          "fr": "Mo père est déjà parti.",
+          "en": "My father has already left.",
+          "zh": "我父親已經走了。"
+        },
+        {
+          "t": "Wada kmpaxan ka tama mo",
+          "fr": "Mo père est allé aux champs (il y est en ce moment).",
+          "en": "My father has gone to the fields (he is there right now).",
+          "zh": "我父親去田裡了（他現在在那裡）。"
+        },
+        {
+          "t": "Wada na ngalun ka xukut so",
+          "fr": "Il a déjà pris ton bâton.",
+          "en": "He has already taken your stick.",
+          "zh": "他已經拿走你的拐杖了。"
+        },
+        {
+          "t": "Wada wada ka xnkawas da !",
+          "fr": "Et les années passaient , passaient (ont passé sans interruption).",
+          "en": "And the years passed, passed (went by without interruption).",
+          "zh": "歲月就這樣一年又一年地過去（不間斷地流逝）。"
+        }
+      ]
+    },
+    {
+      "hw": "WA'LA",
+      "tag": "(R)",
+      "fr": "Précéder - guider - aller devant.",
+      "en": "To precede - to guide - to go ahead.",
+      "zh": "在前－引導－走在前面。",
+      "examples": [
+        {
+          "t": "Usa wa'la (wa\"la) ka iso , niyax ko kia da",
+          "fr": "Toi, va en avant; je viendrai plus tard.",
+          "en": "You, go on ahead; I will come later.",
+          "zh": "你先走在前面吧；我晚點來。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'wa'la (M'wa\"la)",
+          "fr": "Qui est devant - qui précède (?).",
+          "en": "One who is in front - who precedes (?).",
+          "zh": "在前者－引領者（？）。",
+          "examples": [
+            {
+              "t": "Manu ka sgiin so xeaan! Ga m'wa'la ka xea!",
+              "fr": "Qu'est-ce que tu as à le chercher? Il est devant, lui!",
+              "en": "Why are you looking for him? He's up ahead!",
+              "zh": "你找他做什麼？他在前面呢！"
+            }
+          ]
+        },
+        {
+          "form": "Pwa'la",
+          "fr": "Conduire - guider - précéder.",
+          "en": "To lead - to guide - to precede.",
+          "zh": "帶領－引導－在前。",
+          "examples": [
+            {
+              "t": "Mnsa ko pwa'la (mpwa'la ?) dxeaan kkalao d'xa daolas daya",
+              "fr": "Je suis allé les guider pour qu'ils grimpent les rochers qui sont là plus haut.",
+              "en": "I went to guide them so that they could climb the rocks that are higher up there.",
+              "zh": "我去帶領他們，好讓他們攀上那更高處的岩石。"
+            }
+          ]
+        },
+        {
+          "form": "Mpwa'la (Mpwa\"la)",
+          "fr": "Qui guide, conduit, précède.",
+          "en": "One who guides, leads, precedes.",
+          "zh": "引導、帶領、在前者。",
+          "examples": [
+            {
+              "t": "Ima ka mpwa'la dxeaan",
+              "fr": "Qui est-ce qui les conduit (qui est leur guide?)?",
+              "en": "Who is it that leads them (who is their guide)?",
+              "zh": "是誰帶領他們（誰是他們的嚮導）？"
+            }
+          ]
+        },
+        {
+          "form": "Twa'la (Twa\"la)",
+          "fr": "Premier - principal - celui qui (de fait) est en tête.",
+          "en": "First - principal - the one who (in fact) is at the head.",
+          "zh": "第一－主要的－（實際上）居首者。",
+          "examples": [
+            {
+              "t": "Usa twa'la ka iso ni mpsnugul sunan kana ka dxea da!",
+              "fr": "Toi va devant et tous les autres te suivront.",
+              "en": "You go in front and all the others will follow you.",
+              "zh": "你走在前面，其他所有人都會跟著你。"
+            }
+          ]
+        },
+        {
+          "form": "Mtwa'la",
+          "fr": "Qui de fait est devant, en tête - Précurseur.",
+          "en": "One who in fact is in front, at the head - forerunner.",
+          "zh": "實際上在前、居首者－先驅。",
+          "examples": [
+            {
+              "t": "Musa ka xea do nyeqan ka mtwa'la ni nyeqan ka msnugul ole",
+              "fr": "Quand il se déplace, il y-en a qui marchent devant et il-y-en a qui (le) suivent.",
+              "en": "When he moves about, there are some who walk in front and some who follow (him).",
+              "zh": "他移動時，有些人走在前面，有些人跟在（他）後面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "WALAE",
+      "tag": "(R)",
+      "fr": "Fil. (Sans doute ,par extension = Vermicelles - pâtes chinoises.).",
+      "en": "Thread. (Doubtless, by extension = vermicelli - Chinese noodles.)",
+      "zh": "線。（大概引申為＝細麵－中式麵條。）",
+      "examples": [
+        {
+          "t": "Ita walae so binao; sisun mo kingal botang",
+          "fr": "Passe moi un peu ton fil; je veux coudre un bouton.",
+          "en": "Pass me a bit of your thread; I want to sew on a button.",
+          "zh": "把你的線遞給我一點；我想縫一顆鈕扣。"
+        },
+        {
+          "t": "Nta mqan walae xo ?",
+          "fr": "Alors, On va manger des vermicelles ?",
+          "en": "So, are we going to eat vermicelli?",
+          "zh": "那麼，我們要吃細麵嗎？"
+        },
+        {
+          "t": "Ksudan walae",
+          "fr": "Navette de tisserand .",
+          "en": "Weaver's shuttle.",
+          "zh": "織布用的梭子。"
+        }
+      ]
+    },
+    {
+      "hw": "WALO",
+      "tag": "(R)",
+      "fr": "Cou.",
+      "en": "Neck.",
+      "zh": "脖子。",
+      "examples": [
+        {
+          "t": "Ya adi sako bsklun (bsqlun) walo xo!",
+          "fr": "J'espère que tu ne vas (veux) pas m'étrangler (me serrer le cou) ! (nb. à noter la différence avec: Wa\"lo = abeille !).",
+          "en": "I hope you're not going to (don't want to) strangle me (squeeze my neck)! (n.b. note the difference from: Wa\"lo = bee!).",
+          "zh": "我希望你不會（不想）勒死我（掐我脖子）！（註：請注意與 Wa\"lo＝蜜蜂 之區別！）。"
+        }
+      ]
+    },
+    {
+      "hw": "WANA",
+      "tag": "(R)",
+      "fr": "Mot outil très fréquent. = Seulement - uniquement.",
+      "en": "Very frequent function word. = Only - solely.",
+      "zh": "很常用的虛詞。＝只－僅僅。",
+      "examples": [
+        {
+          "t": "Wana mqan ka klaon so!",
+          "fr": "Tu ne sais que manger!",
+          "en": "All you know how to do is eat!",
+          "zh": "你只會吃！"
+        },
+        {
+          "t": "Wana spat bi xei ka mniyax",
+          "fr": "Il n'y a que quatre personnes qui sont venues.",
+          "en": "Only four people have come.",
+          "zh": "只有四個人來了。"
+        },
+        {
+          "t": "Nyeqan lukus kana; wana iso ka ongat",
+          "fr": "Ils ont tous des habits; tu es le seul à ne pas en avoir.",
+          "en": "They all have clothes; you are the only one who has none.",
+          "zh": "他們都有衣服；只有你沒有。"
+        },
+        {
+          "t": "Ga kmpax kana, wana iso ka ini",
+          "fr": "Ils travaillent tous, sauf toi (tu es le seul à ne pas (travailler).",
+          "en": "They are all working, except you (you are the only one who does not (work)).",
+          "zh": "他們都在工作，只有你不（工作）。"
+        }
+      ]
+    },
+    {
+      "hw": "WAKAT",
+      "tag": "(R)",
+      "fr": "Canines (dents). (nb. Avec le tatouage, c'était pour les taroko un artifice de toilette que de se faire casser volontairement les deux canines supérieures).",
+      "en": "Canines (teeth). (n.b. Along with tattooing, it was for the Taroko a grooming device to have one's two upper canines deliberately broken off.)",
+      "zh": "犬齒（牙齒）。（註：連同紋面，對太魯閣人而言，故意敲斷上排兩顆犬齒是一種修飾裝扮的手法。）",
+      "examples": [
+        {
+          "t": "Waqat (wakat) boyaq",
+          "fr": "Défense de sanglier. ( = nom donné à l'ivoire, inconnu par ailleurs).",
+          "en": "Wild boar's tusk. ( = the name given to ivory, otherwise unknown).",
+          "zh": "山豬的獠牙。（＝用來稱象牙之詞，此外別無他稱）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mwakat",
+          "fr": "Qui a des canines - Qui porte des jeunes pousses.",
+          "en": "Which has canines - which bears young shoots.",
+          "zh": "有犬齒的－長出嫩芽的。",
+          "examples": []
+        },
+        {
+          "form": "Snwakat",
+          "fr": "Emettre des canines - Emettre des boutures (par assimilation).",
+          "en": "To put forth canines - to put forth cuttings/shoots (by assimilation).",
+          "zh": "長出犬齒－長出插枝（嫩芽）（由類比而來）。",
+          "examples": [
+            {
+              "t": "Ga snwakat ka d'xgal da",
+              "fr": "La terre est en train de faire sortir de jeunes pousses.",
+              "en": "The earth is in the process of sending out young shoots.",
+              "zh": "土地正在冒出嫩芽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "WAWA",
+      "tag": "(R. = le terme chinois: WA-WA = Bébé ?)",
+      "fr": "Petit de certains animaux. (nb. Pour d'autres animaux, il-y-a (il reste ?) des termes particuliers pour indiquer les petits.)",
+      "en": "Young of certain animals. (n.b. For other animals, there are (there remain?) particular terms to designate the young.)",
+      "zh": "某些動物的幼崽。（註：對於其他動物，另有（尚存？）專門的詞來指稱幼崽。）",
+      "examples": [
+        {
+          "t": "Wawa kating",
+          "fr": "Veau",
+          "en": "Calf",
+          "zh": "小牛"
+        },
+        {
+          "t": "Wawa milit",
+          "fr": "Cabri",
+          "en": "Kid (young goat)",
+          "zh": "小山羊"
+        },
+        {
+          "t": "Wawa lodoç",
+          "fr": "Poussin",
+          "en": "Chick",
+          "zh": "小雞"
+        },
+        {
+          "t": "Wawa qoyo",
+          "fr": "Petit du serpent",
+          "en": "Young of the snake",
+          "zh": "小蛇"
+        },
+        {
+          "t": "Tatat",
+          "fr": "Le petit du chien - chiot",
+          "en": "The young of the dog - puppy",
+          "zh": "狗的幼崽－小狗"
+        },
+        {
+          "t": "B\"lo",
+          "fr": "Le petit du cochon",
+          "en": "The young of the pig - piglet",
+          "zh": "豬的幼崽－小豬"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Twawa",
+          "fr": "Mettre bas - faire ses petits.",
+          "en": "To give birth (of animals) - to have young.",
+          "zh": "（動物）產仔－生下幼崽。",
+          "examples": [
+            {
+              "t": "Mxa twawa knuan (knuwan) ka kating so ?",
+              "fr": "Quand est-ce que ta bufflonne va mettre bas ?",
+              "en": "When is your buffalo cow going to give birth?",
+              "zh": "你的母水牛什麼時候生產？"
+            }
+          ]
+        },
+        {
+          "form": "Tnwawa",
+          "fr": "Avoir mis bas - Possesseur (?) des petits.",
+          "en": "To have given birth - possessor (?) of the young.",
+          "zh": "已產仔－幼崽的擁有者（？）。",
+          "examples": [
+            {
+              "t": "Tnwawa sknuan ka kating so ?",
+              "fr": "Quand est-ce que ta bufflonne à mis bas ?",
+              "en": "When did your buffalo cow give birth?",
+              "zh": "你的母水牛什麼時候生的？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

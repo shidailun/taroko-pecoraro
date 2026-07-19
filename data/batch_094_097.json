@@ -1,0 +1,765 @@
+{
+  "pages": [94, 97],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Wada gmaxan ksia ka sinao",
+        "fr": "Ce vin a été mélangé d'eau.",
+        "en": "This wine has been mixed with water.",
+        "zh": "這酒摻了水。"
+      },
+      {
+        "t": "Pnmaxan daxa sinao gnmaxan paxong",
+        "fr": "Ils ont fait boire du vin qui avait été mélangé de fiel.",
+        "en": "They made (him) drink wine that had been mixed with gall.",
+        "zh": "他們給人喝了摻膽汁的酒。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Mgimax",
+        "fr": "Etre mélangé - qui se mélange.",
+        "en": "To be mixed - that which mixes.",
+        "zh": "被混合——會混合者。",
+        "examples": [
+          {
+            "t": "Mgimax bi sinao ka ksia, ini kgimax ka ayang",
+            "fr": "L'eau se mélange bien au vin mais pas l'huile.",
+            "en": "Water mixes well with wine, but oil does not.",
+            "zh": "水與酒能充分混合，油則不能。"
+          }
+        ]
+      },
+      {
+        "form": "Gmaxan",
+        "fr": "Mélange - lieu, temps du mélange.",
+        "en": "Mixture - place or time of mixing.",
+        "zh": "混合物——混合之地點、時間。",
+        "examples": [
+          {
+            "t": "Wada na gmaxan maxal sngali klgan p'xpax xxoma na ngangot sapax",
+            "fr": "Il a fait un mélange de plus de dix sortes de fleurs pour planter devant sa maison.",
+            "en": "He made a mixture of more than ten kinds of flowers to plant in front of his house.",
+            "zh": "他混種了十多種花，種在屋前。"
+          },
+          {
+            "t": "Gnmaxan so manu ka ppadyaq nii?",
+            "fr": "Qu'est ce que tu as mélangé à ces légumes ?",
+            "en": "What have you mixed into these vegetables?",
+            "zh": "你在這些菜裡摻了什麼？"
+          }
+        ]
+      },
+      {
+        "form": "Pgimax",
+        "fr": "Mélanger - remuer pour mélanger.",
+        "en": "To mix - to stir in order to mix.",
+        "zh": "混合——攪拌使混合。",
+        "examples": [
+          {
+            "t": "Sai pgimax bugo aadi na bsqlol",
+            "fr": "Va remuer le bouillon pour qu'il ne brûle pas !",
+            "en": "Go stir the broth so that it does not burn!",
+            "zh": "去攪一攪湯，免得燒焦！"
+          },
+          {
+            "t": "Pgmaxon mo sato (=sksia) ka \"mu basao ppsxada mo ooqon laqe",
+            "fr": "Je veux mélanger du sucre à cette farine de BASAO pour préparer à manger aux enfants.",
+            "en": "I want to mix sugar into this BASAO flour to prepare food for the children.",
+            "zh": "我要把糖摻進這 BASAO 粉裡，給孩子們做吃的。"
+          }
+        ]
+      },
+      {
+        "form": "Tgimax",
+        "fr": "Qui est tout mélangé.",
+        "en": "That which is all mixed up.",
+        "zh": "全然混雜者。",
+        "examples": [
+          {
+            "t": "Mtgimax kana ka ppatas mo da",
+            "fr": "Tous mes livres (vl. mes lettres) sont mélangés.",
+            "en": "All my books (var. my letters) are mixed up.",
+            "zh": "我的書（或：我的信件）全都混在一起了。"
+          },
+          {
+            "t": "Mnsa ko mtgimax kska laxol xea",
+            "fr": "Je suis allé me mêler à la foule (me mélanger au milieu de la foule).",
+            "en": "I went to mingle with the crowd (to mix myself into the middle of the crowd).",
+            "zh": "我去混入人群（混進人群之中）。"
+          }
+        ]
+      },
+      {
+        "form": "Ptgimax",
+        "fr": "Faire en sorte que ce soit mélangé.",
+        "en": "To cause it to be mixed.",
+        "zh": "使其混合。",
+        "examples": [
+          {
+            "t": "Wada so ptgmaxan kana ka llukus nami da! Ya xan! Mptgmaxon mo ka nniso ole!",
+            "fr": "Tu as mélangé tous nos habits à nous! Tu ne perds rien pour attendre! Je mélangerai (je veux mélanger) les tiens aussi !",
+            "en": "You have mixed up all our clothes! Just you wait! I will mix up (I want to mix up) yours too!",
+            "zh": "你把我們的衣服全弄混了！你等著瞧！我也要（我很想）把你的弄混！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "GIPU",
+      "tag": "(R)",
+      "fr": "Femelle (des animaux).",
+      "en": "Female (of animals).",
+      "zh": "雌性（指動物）。",
+      "examples": [
+        {
+          "t": "Kntxoq ni gipu, kntxoq ka mbiyax",
+          "fr": "(Du mâle et de la femelle, le mâle est fort ) Le mâle est plus fort que la femelle.",
+          "en": "(Of the male and the female, the male is strong) The male is stronger than the female.",
+          "zh": "（公與母之中，公者強壯）公的比母的強壯。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GISO",
+      "tag": "(R)",
+      "fr": "Voici - sur le point d'être là.",
+      "en": "Here is - on the point of being there.",
+      "zh": "看哪——即將到來。",
+      "examples": [
+        {
+          "t": "Ga ino ka dmtabu kui ? ... Giso da !",
+          "fr": "Où sont les éleveurs de vers à soie ? ... Ils arrivent (ils sont sur le point d'être là).",
+          "en": "Where are the silkworm raisers? ... They are coming (they are on the point of being there).",
+          "zh": "養蠶的人在哪裡？……他們就到了（即將到來）。"
+        },
+        {
+          "t": "Giso xeni ka sadyaq da!",
+          "fr": "Ils (les personnes) sont déjà ici, les voici!",
+          "en": "They (the people) are already here — here they are!",
+          "zh": "他們（那些人）已經在這裡了，看哪！"
+        },
+        {
+          "t": "Giso ka mnpkudao bqlos sktama so da",
+          "fr": "Et voilà qu'arrivent ceux qui ont porté le cadavre de ton père.",
+          "en": "And here come those who carried your father's corpse.",
+          "zh": "看哪，抬你父親屍體的人來了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GIYAS",
+      "tag": "(R)",
+      "fr": "(vr. GIAS) Jeune femelle d'un animal, non saillie.",
+      "en": "(var. GIAS) Young female of an animal, not yet mated.",
+      "zh": "（或：GIAS）動物之年輕雌性，尚未交配。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GLAAO",
+      "tag": "(R)",
+      "fr": "Futile - vain - à vide.",
+      "en": "Futile - vain - to no purpose.",
+      "zh": "無益——徒然——落空。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mglaao",
+          "fr": "Qui est vain, futile - en vain - inutilement.",
+          "en": "That which is vain, futile - in vain - uselessly.",
+          "zh": "徒然、無益者——枉然——徒勞地。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "G'LAQ",
+      "tag": "(R. = ?)",
+      "fr": "Prendre - s'emparer de (Serait ce une forme de k'lap ou: K'lak ??) .",
+      "en": "To take - to seize (Could this be a form of k'lap, or K'lak??).",
+      "zh": "拿取——奪取（此或為 k'lap 或 K'lak 之一種形式？？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gm'laq",
+          "fr": "Capturer - attraper.",
+          "en": "To capture - to catch.",
+          "zh": "捕捉——抓住。",
+          "examples": [
+            {
+              "t": "Klxangi bi aadi na glaqon lqlit ka milit so da !",
+              "fr": "Fais bien attention que le léopard n'attrape pas ta chèvre.",
+              "en": "Take good care that the leopard does not catch your goat.",
+              "zh": "千萬小心，別讓雲豹抓走你的山羊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GLAQA",
+      "tag": "( = R. ? )",
+      "fr": "Observer - espionner - surveiller (péjoratif).",
+      "en": "To observe - to spy on - to watch (pejorative).",
+      "zh": "觀察——窺探——監視（貶義）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmlaqa",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Tato o , gmlaqa xea adi mxa dmayao dxeaan ka Diro xo",
+              "fr": "Tato est là qui épie (espionne) pour voir si Djiro ne va pas leur donner un coup de main.",
+              "en": "Tato is there spying (snooping) to see whether Djiro is not going to give them a hand.",
+              "zh": "Tato 在那裡窺伺（偵察），要看 Djiro 是否會去幫他們一把。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'LEQ",
+      "tag": "( = R. ? - R. = LEQ ? - Vr. LEQE = De travers - tordu)",
+      "fr": "Tourner.",
+      "en": "To turn. (Root? — root = LEQ? — var. LEQE = askew — twisted.)",
+      "zh": "轉動。（詞根？——詞根＝LEQ？——或：LEQE＝歪斜——扭曲。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gm'leq",
+          "paradigm": "°Gmleq, g'leq, gleqe, gleqan, gleqon.",
+          "fr": "Tourner - retourner.",
+          "en": "To turn - to turn back.",
+          "zh": "轉——回轉。",
+          "examples": [
+            {
+              "t": "Gmleq (gm'leq) nalat daya sapax so ka \"lu nami",
+              "fr": "Notre route tourne à droite plus haut que votre maison.",
+              "en": "Our road turns to the right higher up than your house.",
+              "zh": "我們的路在你家上方向右轉。"
+            }
+          ]
+        },
+        {
+          "form": "Mg'leq",
+          "fr": "Qui tourne - qui roule.",
+          "en": "That which turns - that which rolls.",
+          "zh": "轉動者——滾動者。",
+          "examples": [
+            {
+              "t": "Akai ! Wada mgleq baga mo da !",
+              "fr": "Aie ! Ma main s'est tordue !",
+              "en": "Ouch! My hand got twisted!",
+              "zh": "唉呀！我的手扭到了！"
+            },
+            {
+              "t": "Adi mg'leq ka tlia so xo ?",
+              "fr": "Est ce que ta roue n'est pas en train de tourner ?",
+              "en": "Isn't your wheel turning?",
+              "zh": "你的輪子不是正在轉嗎？"
+            },
+            {
+              "t": "Ini kg'leq",
+              "fr": "elle ne tourne pas !",
+              "en": "it does not turn!",
+              "zh": "它不轉！"
+            },
+            {
+              "t": "Ga mg'leq sayang ka dq'las na",
+              "fr": "Sa figure est tournée (de l'autre côté) juste en ce moment.",
+              "en": "His face is turned (to the other side) at this very moment.",
+              "zh": "此刻他的臉正轉向（另一邊）。"
+            }
+          ]
+        },
+        {
+          "form": "Gleqan",
+          "fr": "Tournant - le fait de tourner - le mode de tourner.",
+          "en": "Turning - the act of turning - the manner of turning.",
+          "zh": "轉彎處——轉動一事——轉動之方式。",
+          "examples": [
+            {
+              "t": "Naqex bi gleqan na ka tdoloi mo",
+              "fr": "Ma voiture tourne difficilement (sa direction est dure).",
+              "en": "My car turns with difficulty (its steering is stiff).",
+              "zh": "我的車很難轉彎（方向盤很緊）。"
+            },
+            {
+              "t": "Tai nyeqan gleqan \"lu do, kia da!",
+              "fr": "Quand tu trouveras le tournant de la route, c'est là.",
+              "en": "When you find the turn in the road, that is the place.",
+              "zh": "等你看到路的轉彎處，就是那裡了。"
+            }
+          ]
+        },
+        {
+          "form": "Pg'leq",
+          "fr": "Faire tourner - renverser - faire rouler.",
+          "en": "To make turn - to overturn - to make roll.",
+          "zh": "使轉動——翻轉——使滾動。",
+          "examples": [
+            {
+              "t": "Pgleqe binao ka tasil ! Taon mo ka bukwi nia",
+              "fr": "Retourne un peu cette pierre, je veux voir son autre face.",
+              "en": "Turn this stone over a little; I want to see its other side.",
+              "zh": "把這塊石頭翻一下，我要看它的另一面。"
+            },
+            {
+              "t": "Pgleqon mo ka xandolu (=Volant), kika mxa tdoa",
+              "fr": "Je vais tourner le volant et celà ira.",
+              "en": "I will turn the steering wheel (xandolu = steering wheel) and then it will go.",
+              "zh": "我來轉方向盤（xandolu＝方向盤），這樣就行了。"
+            }
+          ]
+        },
+        {
+          "form": "Mpg'leq",
+          "fr": "Qui fait tourner - tournera.",
+          "en": "That which makes turn - will turn.",
+          "zh": "使轉動者——將會轉動。",
+          "examples": [
+            {
+              "t": "Ana ini klilu sayang ka tdoloi o, mpgleq kia, tai binao!",
+              "fr": "Même si pour le moment la voiture ne se meut pas, elle va tourner tout à l'heure, tu vas voir !",
+              "en": "Even if for the moment the car does not move, it will turn in a little while, you will see!",
+              "zh": "就算車子現在不動，等一下它就會轉了，你看著吧！"
+            }
+          ]
+        },
+        {
+          "form": "Pspg'leq",
+          "fr": "Faire que se détourne (?).",
+          "en": "To cause to turn away (?).",
+          "zh": "使轉離（？）。",
+          "examples": [
+            {
+              "t": "Mniyax smalu kari ka tama nia ppspg'leq lnglongan laqe",
+              "fr": "Son père est venu parlementer ( réconcilier - construire le dialogue) pour faire que l'enfant se repente .",
+              "en": "His father came to parley (to reconcile - to build up the dialogue) so as to make the child repent.",
+              "zh": "他的父親前來談判（調解——建立對話），好使孩子回心轉意。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'LI\"",
+      "tag": "(R)",
+      "fr": "Danse - le danser.",
+      "en": "Dance - the act of dancing.",
+      "zh": "舞蹈——跳舞一事。",
+      "examples": [
+        {
+          "t": "Ongat g'li\", ongat oyes (oyas) o, mpamanu ta da ?",
+          "fr": "Il n'y a pas de danse, il ny a pas de chant, qu'est ce qu'on va faire ?",
+          "en": "There is no dancing, there is no singing — what are we going to do?",
+          "zh": "沒有舞，也沒有歌，我們要做什麼呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mg'li\"",
+          "paradigm": "°Mg'li\", g'li\", g'lii, gligan, gligun.",
+          "fr": "Danser - sauter de joie.",
+          "en": "To dance - to jump for joy.",
+          "zh": "跳舞——高興得跳起來。",
+          "examples": [
+            {
+              "t": "Mxa namo mg'li\" ino xkawas ?",
+              "fr": "Où allez vous danser l'an prochain ?",
+              "en": "Where are you going to dance next year?",
+              "zh": "明年你們要去哪裡跳舞？"
+            }
+          ]
+        },
+        {
+          "form": "Lmg'li\"",
+          "fr": "Danser intensément, avec entrain, - gesticuler - se tordre.",
+          "en": "To dance intensely, with spirit - to gesticulate - to writhe.",
+          "zh": "熱烈起勁地跳舞——手舞足蹈——扭動身體。",
+          "examples": [
+            {
+              "t": "Mnsa ko mlata do, sao bobo mo o, wada lmg'li\" lmingis da!",
+              "fr": "Quand je suis parti soldat, ma mère se tordait (dansait) en pleurant.",
+              "en": "When I left to be a soldier, my mother writhed (danced) as she wept.",
+              "zh": "我去當兵時，我母親邊哭邊扭動（舞動）身體。"
+            }
+          ]
+        },
+        {
+          "form": "Gligan",
+          "fr": "Estrade, terrain de danse - Temps de danse.",
+          "en": "Stage, dancing ground - time of dancing.",
+          "zh": "舞台、舞場——跳舞之時。",
+          "examples": [
+            {
+              "t": "Plading knuan ka gligan namo? ... Ga tlading babao gligan da !",
+              "fr": "Quand est ce que commence votre séance de danse? ... Elle est déjà commencée sur l'estrade !",
+              "en": "When does your dance session begin? ... It has already begun on the stage!",
+              "zh": "你們的舞會什麼時候開始？……已經在台上開始了！"
+            },
+            {
+              "t": "Malu bi gligan imai (= malu bi gligan na ka Imai!)",
+              "fr": "La manière de danser de (vl. les danses faites par) Imai est très belle.",
+              "en": "Imai's way of dancing (var. the dances performed by Imai) is very beautiful.",
+              "zh": "Imai 跳舞的樣子（或：Imai 所跳的舞）非常優美。"
+            }
+          ]
+        },
+        {
+          "form": "Gligon (gligun)",
+          "fr": "Danse à faire.",
+          "en": "Dance to be performed.",
+          "zh": "待跳之舞。",
+          "examples": [
+            {
+              "t": "Xmut lala ka gligun nami",
+              "fr": "Nos danses (nos numéros de danse) sont très nombreuses.",
+              "en": "Our dances (our dance numbers) are very numerous.",
+              "zh": "我們的舞（舞碼）非常多。"
+            }
+          ]
+        },
+        {
+          "form": "Pg'li\"",
+          "fr": "Faire danser.",
+          "en": "To make dance.",
+          "zh": "使跳舞。",
+          "examples": [
+            {
+              "t": "Mk'la pg'li\" ana kkumai ka sadyaq ga",
+              "fr": "Cet homme là sait faire danser même les ours.",
+              "en": "That man knows how to make even bears dance.",
+              "zh": "那個人連熊都能使之起舞。"
+            }
+          ]
+        },
+        {
+          "form": "TLg'li\"",
+          "fr": "Danser de joie - jubiler - sautiller.",
+          "en": "To dance for joy - to exult - to hop about.",
+          "zh": "歡欣起舞——雀躍——蹦跳。",
+          "examples": [
+            {
+              "t": "Asi bi tlg'li\" kana mbaxang",
+              "fr": "A tel point qu'en entendant tous dansaient (de joie).",
+              "en": "So much so that on hearing it everyone danced (for joy).",
+              "zh": "以致大家一聽見就（高興得）跳起舞來。"
+            },
+            {
+              "t": "Mxa bi ptlg'li\" kana dludan ka pnqbxangan so kari",
+              "fr": "La nouvelle que tu rapportes (que tu as fait entendre) va faire sauter de joie tous les anciens.",
+              "en": "The news you bring (that you have made heard) will make all the elders jump for joy.",
+              "zh": "你帶來（你使人聽見）的消息，會讓所有長老高興得跳起來。"
+            }
+          ]
+        },
+        {
+          "form": "Tglgligun",
+          "fr": "Exultera - jubilera.",
+          "en": "Will exult - will jubilate.",
+          "zh": "將歡騰——將雀躍。",
+          "examples": [
+            {
+              "t": "Ida tglgligun so mqalas sida",
+              "fr": "En ce moment là tu vas sauter en dansant de joie.",
+              "en": "At that moment you will leap, dancing for joy.",
+              "zh": "到那時你必歡喜跳躍起舞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GLIXO",
+      "tag": "(R)",
+      "fr": "Traverser de part en part - transpercer.",
+      "en": "To pass through from side to side - to pierce through.",
+      "zh": "穿透——刺穿。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmlixo",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Gmlixo pusu kalat",
+              "fr": "Traverser le fondement des cieux (= à l'infini).",
+              "en": "To pass through the foundation of the heavens (= to infinity).",
+              "zh": "穿越諸天之根基（＝至於無窮）。"
+            }
+          ]
+        },
+        {
+          "form": "Pglixo",
+          "fr": "Faire que ce soit transpercé - se faire transpercer.",
+          "en": "To cause to be pierced through - to get oneself pierced through.",
+          "zh": "使被刺穿——使自己被刺穿。",
+          "examples": []
+        },
+        {
+          "form": "Plxgun (Plx'gun ? Pglxgun ?)",
+          "fr": "Qui sera, doit être transpercé.",
+          "en": "That which will be, must be, pierced through.",
+          "zh": "將被、當被刺穿者。",
+          "examples": [
+            {
+              "t": "Tai ka iso o, plx'gun poting ksaxol",
+              "fr": "Toi, tu auras le coeur (tu devras avoir le coeur) transpercé. (....,Plx'gun so poting ksaxol).",
+              "en": "You — you will have (you must have) your heart pierced through. (...., Plx'gun so poting ksaxol.)",
+              "zh": "你呢，你的心將（必）被刺穿。（……，Plx'gun so poting ksaxol。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G\"LO",
+      "tag": "(R)",
+      "fr": "Gorge - oesophage .",
+      "en": "Throat - oesophagus.",
+      "zh": "咽喉——食道。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G'LONG",
+      "tag": "(R)",
+      "fr": "Brisure - le fait de briser.",
+      "en": "Breakage - the act of breaking.",
+      "zh": "破裂——打破一事。",
+      "examples": [
+        {
+          "t": "Wada na psaan blongoi aadi na g'long muda \"lu",
+          "fr": "Il l'a placé dans la hotte pour qu'il ne se casse pas en route.",
+          "en": "He placed it in the carrying basket so that it would not break on the way.",
+          "zh": "他把它放進背簍，免得路上打破。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gm'long",
+          "paradigm": "°Gm'long, g'long, gl'mi, gl'man, gl'mun .",
+          "fr": "Briser - casser.",
+          "en": "To break - to smash.",
+          "zh": "打破——弄壞。",
+          "examples": [
+            {
+              "t": "Gl'mun mo kia kana ka qnqaya sapax so",
+              "fr": "Je vais (je veux) les briser toutes les affaires qui sont dans ta maison (= Je vais tout casser chez toi.).",
+              "en": "I am going to (I want to) break all the things that are in your house (= I am going to smash everything at your place).",
+              "zh": "我要（我想）把你家裡的東西全打破（＝我要砸了你家所有東西）。"
+            }
+          ]
+        },
+        {
+          "form": "Mg'long",
+          "fr": "Qui est cassé - qui est brisé - en mauvais état de marche.",
+          "en": "That which is broken - which is shattered - out of working order.",
+          "zh": "壞了的——破碎的——無法運轉的。",
+          "examples": [
+            {
+              "t": "Ga mg'long ka toke mo, ini kg'long ka n'iso",
+              "fr": "Ma montre est cassée (= ne marche plus), la tienne n'est pas cassée.",
+              "en": "My watch is broken (= no longer runs); yours is not broken.",
+              "zh": "我的錶壞了（＝不走了），你的沒壞。"
+            }
+          ]
+        },
+        {
+          "form": "Gl'man",
+          "fr": "Cassure - ce qui est cassé - temps, lieu où se fait la cassure.",
+          "en": "Break - that which is broken - the time or place where the break occurs.",
+          "zh": "裂口——破損之物——破裂之時間、地點。",
+          "examples": [
+            {
+              "t": "Taan balae ka gl'man",
+              "fr": "La cassure est très visible.",
+              "en": "The break is very visible.",
+              "zh": "裂口清晰可見。"
+            }
+          ]
+        },
+        {
+          "form": "Pg'long",
+          "fr": "Faire que se casse - faire briser .",
+          "en": "To cause to break - to have (something) broken.",
+          "zh": "使破裂——使人打破。",
+          "examples": []
+        },
+        {
+          "form": "Mpg'long",
+          "fr": "1) Se brisera; 2) Celui qui brise.",
+          "en": "1) Will break; 2) The one who breaks.",
+          "zh": "1）將破裂；2）打破者。",
+          "examples": [
+            {
+              "t": "Klxangi aadi mpg'long ka toke so",
+              "fr": "Fais bien attention que ta montre ne se casse pas.",
+              "en": "Take good care that your watch does not break.",
+              "zh": "小心別讓你的錶摔壞了。"
+            },
+            {
+              "t": "Ima ka mpg'long lixao daolyaq mo ?",
+              "fr": "Qui est ce qui brise mes lunettes ?",
+              "en": "Who is it that breaks my glasses?",
+              "zh": "是誰打破我的眼鏡？"
+            }
+          ]
+        },
+        {
+          "form": "Tkg'long",
+          "fr": "Fragile.",
+          "en": "Fragile.",
+          "zh": "易碎的。",
+          "examples": [
+            {
+              "t": "Tkg'long balae ka longao, psai bngbang ka malu",
+              "fr": "Une bouteille c'est trop fragile, mets celà dans un récipient en tôle",
+              "en": "A bottle is too fragile; better put it in a sheet-metal container.",
+              "zh": "瓶子太容易破，把它裝進鐵皮容器才好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'LOQ",
+      "tag": "(R. = LOQ ?)",
+      "fr": "(nb. y 'aurait il relation avec: G'LUK = tirer hors de ?) Mettre dans un étui - percer - avoir des rapports sexuels.",
+      "en": "(n.b. might there be a connection with G'LUK = to pull out of?) To put into a sheath - to pierce - to have sexual intercourse.",
+      "zh": "（註：或與 G'LUK＝抽出 有關？）放入鞘中——刺入——性交。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gm'loq",
+          "paradigm": "°Gm'loq, g'loq, gl'qe, gl'qan, gl'qon.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Gnl'qan so sknuan ka ua nii ?",
+              "fr": "Quand est ce que tu as violé (tu as eu des rapports sexuels) cette fille ?",
+              "en": "When did you violate (have sexual relations with) this girl?",
+              "zh": "你是什麼時候侵犯（與之發生關係）這個女孩的？"
+            }
+          ]
+        },
+        {
+          "form": "G'qani",
+          "fr": "Rengaine! ( se servir de..pour engainer, enfoncer, enfiler .",
+          "en": "Sheathe it! (to use ... for sheathing, thrusting in, slipping in.",
+          "zh": "收刀入鞘！（用……來入鞘、插入、套入。",
+          "examples": [
+            {
+              "t": "G'qani (Gl'qani ?) ludo ka poting so! Tai ka dnui poting o, mpxoqel pax npoting",
+              "fr": "Mets ton couteau dans le fourreau; celui qui se sera servi du couteau (pour tuer), mourra par le couteau.",
+              "en": "Put your knife into its sheath; he who has used the knife (to kill) will die by the knife.",
+              "zh": "把你的刀收進鞘裡；動刀（殺人）的，必死於刀下。"
+            }
+          ]
+        },
+        {
+          "form": "Xg'loq",
+          "fr": "Tirer de son étui - dégainer. (nb. Le X préfixé à G'LOQ serait il un préfixe régulier ? Peu fréquent, on le rencontre par ex: dans: XKawas ( X + Kawas) = L'an prochain; Xnkawas = l'âge de quelqu'un; Txksao ( T + X + K + sao ) : Txksao malu = Hypochrite.).",
+          "en": "To draw from its sheath - to unsheathe. (n.b. Could the X prefixed to G'LOQ be a regular prefix? Infrequent; it is met with, for example, in XKawas (X + Kawas) = next year; Xnkawas = someone's age; Txksao (T + X + K + sao): Txksao malu = hypocrite.)",
+          "zh": "從鞘中抽出——拔刀。（註：加在 G'LOQ 前的 X 是否為規則性前綴？不常見，例如見於：XKawas（X＋Kawas）＝明年；Xnkawas＝某人之年歲；Txksao（T＋X＋K＋sao）：Txksao malu＝偽善者。）",
+          "examples": [
+            {
+              "t": "Nyeqan kingal tnxeyax Tanax ka xmg'loq poting na ni smipaq dloan .",
+              "fr": "Il y a un de ceux qui suivent Tanax qui tire son couteau et frappe Diro (Dloan = oblique de: Diro).",
+              "en": "There is one of those who follow Tanax who draws his knife and strikes Diro (Dloan = oblique form of Diro).",
+              "zh": "跟隨 Tanax 的人中，有一人拔出刀來擊打 Diro（Dloan＝Diro 之斜格）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "G'LU",
+      "tag": "(R)",
+      "fr": "Roseau - jonc.",
+      "en": "Reed - rush.",
+      "zh": "蘆葦——燈心草。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G'LUK",
+      "tag": "(R)",
+      "fr": "Tirer hors de - rassembler en choisissant et tirant de...",
+      "en": "To pull out of - to gather by choosing and drawing from...",
+      "zh": "從中拉出——經挑選、抽取而聚集……",
+      "examples": [
+        {
+          "t": "Mniyax so suxal kska xlpasan nami ni gn'luk so mkMorisaka nanak",
+          "fr": "Tu es venu autrefois sur notre cour de jeu et tu n'as rassemblé ( en les tirant de la foule) que ceux de Morisaka.",
+          "en": "You came once to our playground and gathered (drawing them out of the crowd) only those of Morisaka.",
+          "zh": "你從前來到我們的遊戲場，卻只（從人群中）挑選聚集了 Morisaka 的人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpg'luk",
+          "fr": "Retirera - délivrera - Celui qui retire, délivre.",
+          "en": "Will withdraw - will deliver - the one who withdraws, delivers.",
+          "zh": "將取出——將拯救——取出、拯救者。",
+          "examples": [
+            {
+              "t": "Ya bi ima ka mkmiyax mpg'luk tnan pnax baga pais ?",
+              "fr": "Qui est ce qui acceptera de venir nous délivrer (arracher) des mains des ennemis ?",
+              "en": "Who is it that will agree to come and deliver (snatch) us from the hands of the enemies?",
+              "zh": "究竟有誰肯來把我們從仇敵手中拯救（奪回）？"
+            }
+          ]
+        },
+        {
+          "form": "Gm'luk (Gm'lup ?)",
+          "fr": "Réunir - tirer hors de - délivrer.",
+          "en": "To gather - to pull out of - to deliver.",
+          "zh": "聚集——從中拉出——拯救。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "GMALYEQ",
+      "tag": "( .?. - = R. ? - R. = GALYEQ ? - R. = SM'LYEQ ?)",
+      "fr": "",
+      "en": "(Root uncertain — root = GALYEQ? — root = SM'LYEQ?)",
+      "zh": "（詞根不明——詞根＝GALYEQ？——詞根＝SM'LYEQ？）",
+      "examples": [
+        {
+          "t": "Mniyax ska sapax sxmqan ka ddxea ni gmnalyeq psagan",
+          "fr": "Ils sont rentrés dans la prison et ont coupé la tête de Pissao. (nb = seule phrase entendue avec cette(?) forme: GMA'LYEQ).",
+          "en": "They went into the prison and cut off Pissao's head. (n.b. = the only sentence heard with this(?) form: GMA'LYEQ.)",
+          "zh": "他們進了監獄，砍下 Pissao 的頭。（註＝聽到此（？）形 GMA'LYEQ 之唯一句子。）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GMIA",
+      "tag": "(GMIYA ?) (R)",
+      "fr": "Châume - Herbe plus résistante pour couvrir les maisons",
+      "en": "Thatch - a more resistant grass for covering houses",
+      "zh": "茅草——較耐久之草，用以覆蓋房屋",
+      "examples": [],
+      "subs": []
+    }
+  ]
+}

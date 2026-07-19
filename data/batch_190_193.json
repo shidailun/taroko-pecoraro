@@ -1,0 +1,727 @@
+{
+  "pages": [190, 193],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "MISUX", "tag": "(R)",
+      "fr": "Tempête (sur l'eau).",
+      "en": "Storm (on the water).",
+      "zh": "（水上的）暴風雨。",
+      "examples": [
+        {
+          "t": "Mstlong kmpaux bgixol do, kika misux ksun ta",
+          "fr": "Quand des vents contraires se rencontrent (sur l'eau), on dit qu'il y a tempête. (vl. c'est ce que nous appelons tempête).",
+          "en": "When contrary winds meet (on the water), one says there is a storm. (var. this is what we call a storm).",
+          "zh": "當逆向的風（在水上）相遇時，就說起了暴風雨。（或：這就是我們所謂的暴風雨。）"
+        }
+      ]
+    },
+    {
+      "hw": "MK", "tag": "",
+      "fr": "Préfixe indiquant: 1) Habitant de, qui se trouve à... 2) Pendant la durée de... 3) Etre celui qui désire.",
+      "en": "Prefix indicating: 1) Inhabitant of, one who is at... 2) During the span of... 3) To be the one who wishes.",
+      "zh": "表示以下意義的前綴：1）住在…的人、位於…的人；2）在…期間；3）想要…的人。",
+      "examples": [
+        {
+          "t": "Mkmorisaka ka yako",
+          "fr": "Je suis de Morisaka.",
+          "en": "I am from Morisaka.",
+          "zh": "我是森坂人。"
+        },
+        {
+          "t": "Mkdgiyaq ka lala bi p'xpax",
+          "fr": "C'est en montagne qu'il y a beaucoup de fleurs.",
+          "en": "It is in the mountains that there are many flowers.",
+          "zh": "山上花很多。"
+        },
+        {
+          "t": "Mxa nami nkt'lo bi",
+          "fr": "Nous n'allons que pour trois jours.",
+          "en": "We are going for only three days.",
+          "zh": "我們只去三天。"
+        },
+        {
+          "t": "Mklabe namo ino ?",
+          "fr": "Où passez vous la nuit ?",
+          "en": "Where do you spend the night?",
+          "zh": "你們在哪裡過夜？"
+        },
+        {
+          "t": "Mkmusa ko bi ka yako",
+          "fr": "Moi, je voudrais bien aller.",
+          "en": "As for me, I would really like to go.",
+          "zh": "我嘛，我很想去。"
+        }
+      ]
+    },
+    {
+      "hw": "M'KAI (MUKAI ?)", "tag": "(R)",
+      "fr": "Faire les menus travaux du ménage.",
+      "en": "To do the minor household chores.",
+      "zh": "做家中的瑣碎雜務。",
+      "examples": [
+        {
+          "t": "Ongat ana manu paro tbyaxon no, wana n'kai sapax",
+          "fr": "Je ne suis pas surchargée de travail, je n'ai que les travaux de la maison.",
+          "en": "I am not overloaded with work; I only have the housework.",
+          "zh": "我的工作並不繁重，我只做家事。"
+        }
+      ]
+    },
+    {
+      "hw": "MKAXA", "tag": "(R. ?)",
+      "fr": "Après demain.",
+      "en": "The day after tomorrow.",
+      "zh": "後天。",
+      "examples": [
+        {
+          "t": "Adi ko mxa saman, mxa ko mkaxa da",
+          "fr": "Je n'irai pas demain, j'irai après demain.",
+          "en": "I will not go tomorrow; I will go the day after tomorrow.",
+          "zh": "我明天不去，我後天去。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snkaxa (Snkaxa ?)",
+          "fr": "Avant hier.",
+          "en": "The day before yesterday.",
+          "zh": "前天。",
+          "examples": [
+            {
+              "t": "Sayang, s'xiga, snkaxa, nkt'lo so sayang xeni da",
+              "fr": "Aujourd'hui, hier, avant hier, voilà trois jours que tu es ici.",
+              "en": "Today, yesterday, the day before yesterday — that makes three days that you have been here.",
+              "zh": "今天、昨天、前天，你來這裡已經三天了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MKNXAL", "tag": "(R. = XAL ?)",
+      "crossRef": "VR. XAL",
+      "fr": "Contemporain - de la même époque.",
+      "en": "Contemporary - of the same era.",
+      "zh": "同時代的—同一時期的。"
+    },
+    {
+      "hw": "MLAMU", "tag": "(R. = LAMU ?)",
+      "crossRef": "VR. LAMU",
+      "fr": "??",
+      "en": "?? (meaning uncertain)",
+      "zh": "??（意義不明）",
+      "examples": [
+        {
+          "t": "Ana mlamu ka iso",
+          "fr": "Tu n'es pas ordinaire, toi - Tu es drôle, toi! - tu es curieux, toi!",
+          "en": "You are not ordinary! - You are funny! - you are odd!",
+          "zh": "你這人真不一般！—你這人真有趣！—你這人真古怪！"
+        }
+      ]
+    },
+    {
+      "hw": "ML'BU (MLUBU ?)", "tag": "(R. = L'BU ?)",
+      "fr": "Matin - tôt.",
+      "en": "Morning - early.",
+      "zh": "早晨—清早。",
+      "examples": [
+        {
+          "t": "Malu ko bi ka ml'bu, babao (baba) ska xedao ka mmalox ko bi",
+          "fr": "Je suis très bien le matin; c'est l'après midi que j'ai vraiment mal.",
+          "en": "I feel very well in the morning; it is in the afternoon that I really feel bad.",
+          "zh": "我早上很好；到了下午才真的不舒服。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lbuan",
+          "fr": "Du matin - Pendant le matin.",
+          "en": "Of the morning - during the morning.",
+          "zh": "早晨的—在早晨期間。",
+          "examples": [
+            {
+              "t": "Sao ttalang o, lbuan bi ka malu tlaman",
+              "fr": "Pour ceux qui veulent courir, c'est tôt le matin que c'est préférable (de faire la course).",
+              "en": "For those who want to run, it is early in the morning that it is best (to race).",
+              "zh": "對想跑步的人來說，清早跑最好。"
+            }
+          ]
+        },
+        {
+          "form": "Knlbuan",
+          "fr": "\"matinalité\" (?) - Le fait, la qualité d'être très matinal.",
+          "en": "\"morningness\" (?) - the fact or quality of being very much a morning person.",
+          "zh": "「早起的特性」(?)—非常早起這件事、這種特質。",
+          "examples": [
+            {
+              "t": "Tayal knlbuan so !",
+              "fr": "Oh la ! Ce que tu es matinal !",
+              "en": "Oh my! What an early riser you are!",
+              "zh": "哎呀！你真是個早起的人啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "M'LING", "tag": "(R)",
+      "fr": "Sueur - buée - suintement.",
+      "en": "Sweat - mist/condensation - seeping.",
+      "zh": "汗—霧氣—滲出。",
+      "examples": [
+        {
+          "t": "Ma\" m'ling kana daolyaq so ! Sl'si (slösi) binao",
+          "fr": "Mais tes yeux sont tout pleins de sueur ! Essuie les donc.",
+          "en": "But your eyes are all full of sweat! Wipe them, then.",
+          "zh": "可是你的眼睛全是汗！那就擦一擦吧。"
+        },
+        {
+          "t": "M'ling nanak ka sxolyaq lukus mo",
+          "fr": "Ce n'est que la sueur qui mouille mes habits.",
+          "en": "It is only sweat that wets my clothes.",
+          "zh": "弄濕我衣服的只是汗水而已。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "T'nling",
+          "fr": "Se couvrir de sueur - produire de la sueur - exsuder.",
+          "en": "To become covered in sweat - to produce sweat - to exude.",
+          "zh": "渾身是汗—出汗—滲出。",
+          "examples": []
+        },
+        {
+          "form": "Mt'nling",
+          "fr": "Qui transpire - tout en sueur - qui suinte.",
+          "en": "That perspires - all in sweat - that seeps.",
+          "zh": "流汗的—滿身大汗的—滲出的。",
+          "examples": [
+            {
+              "t": "kxaya ka kntl'xan sayang o, ana ima ida ntnling (mt'nling) da",
+              "fr": "Par une telle chaleur aujourd'hui, qui que ce soit transpire abondamment.",
+              "en": "In such heat today, whoever it may be perspires profusely.",
+              "zh": "今天這麼熱，不管是誰都會大量流汗。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'LU", "tag": "( = R. ?)",
+      "fr": "Economiser - mettre de côté - mettre en réserve.",
+      "en": "To save - to set aside - to put in reserve.",
+      "zh": "節省—擱置一旁—留作儲備。",
+      "subs": [
+        {
+          "form": "Ml'lu",
+          "fr": "Etre celui qui économise.",
+          "en": "To be the one who saves.",
+          "zh": "節省的人。",
+          "examples": [
+            {
+              "t": "L'luon mo ka pila nii",
+              "fr": "Cet argent je vais (je veux) le mettre de côté.",
+              "en": "This money — I am going to (I want to) set it aside.",
+              "zh": "這筆錢，我要（我想）把它存起來。"
+            }
+          ]
+        },
+        {
+          "form": "Mnl'lu",
+          "fr": "Economisait - mettait de côté.",
+          "en": "Was saving - was setting aside.",
+          "zh": "（過去）在節省—在存放。",
+          "examples": [
+            {
+              "t": "Mnl'lu ko dnka sado mo skawas, kika xea da",
+              "fr": "L'an passé j'économisais la moitié de mon salaire, le voilà !(C'est celui là, dont on parle).",
+              "en": "Last year I was saving half my salary — there it is! (That is the one being talked about).",
+              "zh": "去年我把薪水的一半存起來，就是它！（就是所說的那個。）"
+            }
+          ]
+        },
+        {
+          "form": "Nlluan",
+          "fr": "Ce qui a été mis de côté - les économies.",
+          "en": "What has been set aside - savings.",
+          "zh": "被存起來的—積蓄。",
+          "examples": [
+            {
+              "t": "Nlluan mo suxal ka pila kia",
+              "fr": "Cet argent là ce sont mes économies d'autrefois.",
+              "en": "That money there, those are my savings from long ago.",
+              "zh": "那筆錢是我以前的積蓄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "M'LUX (M'LUç)", "tag": "(R)",
+      "fr": "Conscient - éveillé - attentif - silencieux.",
+      "en": "Conscious - awake - attentive - silent.",
+      "zh": "清醒的—警覺的—專注的—安靜的。",
+      "subs": [
+        {
+          "form": "Mm'lux",
+          "fr": "Conscient - avec tous ses esprits - éveillé.",
+          "en": "Conscious - with all one's wits - awake.",
+          "zh": "清醒—神智清楚—醒著。",
+          "examples": [
+            {
+              "t": "Adi so bsukan xo ... Ini ! (vl. Adi !) Mn'lux ko bi",
+              "fr": "Tu ne serais pas ivre par hasard? ... Non ! Je suis parfaitement éveillé.",
+              "en": "You wouldn't be drunk by any chance? ... No! I am perfectly awake.",
+              "zh": "你該不會是醉了吧？…不！我完全清醒。"
+            }
+          ]
+        },
+        {
+          "form": "Gn'lux",
+          "fr": "Attentif - éveillé - touché - paisible.",
+          "en": "Attentive - awake - moved - peaceful.",
+          "zh": "專注—清醒—受感動—安詳。",
+          "examples": [
+            {
+              "t": "Asi gn'lux kana mbaxang",
+              "fr": "A tel point que tous étaient bouche bée à l'entendre (écouter...",
+              "en": "To such a point that all were open-mouthed on hearing it (listening...",
+              "zh": "以致於所有人聽到時都目瞪口呆（聽…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MNAIS", "tag": "(R. = NAIS ?)",
+      "fr": "En passant - prendre en passant (?).",
+      "en": "In passing - to pick up in passing (?).",
+      "zh": "順道—順道帶走 (?)。",
+      "examples": [
+        {
+          "t": "Mnsa ko mnais baki mo, kika tnglaan mo",
+          "fr": "Je suis passé prendre mon beau père, c'est pourquoi j'ai tardé.(C'est la raison de mon retard).",
+          "en": "I stopped by to pick up my father-in-law; that is why I was late. (That is the reason for my delay).",
+          "zh": "我順道去接我岳父，所以我遲到了。（這就是我遲到的原因。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pnais (R. = NAIS ? - = MNAIS ?)",
+          "fr": "Brièvement - en passant - passagèrement.",
+          "en": "Briefly - in passing - fleetingly.",
+          "zh": "短暫地—順道—轉瞬即逝地。",
+          "examples": [
+            {
+              "t": "Mxa ko pnais tlima baga mo xo ?",
+              "fr": "Je vais juste me laver un petit coup les mains, n'est ce pas ?",
+              "en": "I am just going to give my hands a quick wash, right?",
+              "zh": "我只是稍微洗一下手，對吧？"
+            },
+            {
+              "t": "Pnais ta bi mudus babao d'xgal",
+              "fr": "Nous ne vivons que passagèrement sur la terre.",
+              "en": "We live only fleetingly on this earth.",
+              "zh": "我們在世上只是短暫地活著。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MANGALI", "tag": "(R. = ??)",
+      "fr": "MA + NGALI (= impératif de MANGAL = prendre; Celà pourrait signifier qu'aux dix doigts des mains on en aurait enlevé ?)",
+      "en": "MA + NGALI (= imperative of MANGAL = to take; this could mean that, of the ten fingers of the hands, one has been taken away ?)",
+      "zh": "MA + NGALI（＝ MANGAL「拿、取」的命令式；這也許意味著：從雙手的十根手指中拿掉了一根 ?）",
+      "examples": [
+        {
+          "t": "Maxal mangali",
+          "fr": "Dix neuf.",
+          "en": "Nineteen.",
+          "zh": "十九。"
+        },
+        {
+          "t": "Mangali m'xalan",
+          "fr": "Quatre-vingt-dix.",
+          "en": "Ninety.",
+          "zh": "九十。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mmangali (Mmngali)",
+          "fr": "Neuvième fois.",
+          "en": "Ninth time.",
+          "zh": "第九次。",
+          "examples": []
+        },
+        {
+          "form": "Mnmangali (Mnmngali)",
+          "fr": "Neuf fois.",
+          "en": "Nine times.",
+          "zh": "九次。",
+          "examples": []
+        },
+        {
+          "form": "Pnmangali (Pnmngali)",
+          "fr": "Neuf à la fois - par groupe de neuf - neuf à chacun.",
+          "en": "Nine at a time - in groups of nine - nine to each.",
+          "zh": "一次九個—每組九個—每人九個。",
+          "examples": [
+            {
+              "t": "Taon mo pnmangali kana ka laqe",
+              "fr": "Je veux voir (rencontrer) tous les enfants par groupes de neuf.",
+              "en": "I want to see (meet) all the children in groups of nine.",
+              "zh": "我想以九個一組的方式見到所有的孩子。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmangali",
+          "fr": "Neuvaine - pendant la durée de neuf jours, de neuf espaces de temps.",
+          "en": "A period of nine - for the span of nine days, of nine periods of time.",
+          "zh": "九日之期—持續九天、九段時間。",
+          "examples": []
+        },
+        {
+          "form": "Timangali (Ti mangali)",
+          "fr": "Neuvième - le neuvième.",
+          "en": "Ninth - the ninth one.",
+          "zh": "第九—第九個。",
+          "examples": [
+            {
+              "t": "Ti spat ka yako ni, ti mangali ka iso",
+              "fr": "Je suis le quatrième et tu es le neuvième.",
+              "en": "I am the fourth and you are the ninth.",
+              "zh": "我是第四個，你是第九個。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MO", "tag": "",
+      "fr": "Adjectif possessif de la première personne du singulier. = Mien, mon, mes.",
+      "en": "Possessive adjective of the first person singular. = Mine, my.",
+      "zh": "第一人稱單數的所有格。＝我的。",
+      "examples": [
+        {
+          "t": "Tama mo",
+          "fr": "Mon père.",
+          "en": "My father.",
+          "zh": "我的父親。"
+        },
+        {
+          "t": "Byeqon mo",
+          "fr": "Je donnerai (mon objet devant être donné).",
+          "en": "I will give (my object that is to be given).",
+          "zh": "我要給（我那要被給出去的東西）。"
+        },
+        {
+          "t": "Ndaan mo",
+          "fr": "Ce par quoi je suis passé.",
+          "en": "That by which I have passed.",
+          "zh": "我所經過的（路徑）。"
+        }
+      ]
+    },
+    {
+      "hw": "MOBOX", "tag": "(R. = ?)",
+      "fr": "Souffler dans (?) - Jouer (?).",
+      "en": "To blow into (?) - to play (?).",
+      "zh": "吹（?）—吹奏（?）。",
+      "examples": [
+        {
+          "t": "Mobox armoni",
+          "fr": "Jouer de l'harmonica.",
+          "en": "To play the harmonica.",
+          "zh": "吹口琴。"
+        }
+      ]
+    },
+    {
+      "hw": "MOLONG", "tag": "(R. = ? - = OLONG ?)",
+      "fr": "Faire serment (?) - jurer (?) (nb. Ce terme n'a été rencontré qu'en association avec un terme impliquant des paroles dites).",
+      "en": "To swear an oath (?) - to swear (?) (n.b. This term has only been encountered in association with a term implying spoken words).",
+      "zh": "發誓（?）—起誓（?）（註：此詞僅見於與含「說話」之意的詞語連用。）",
+      "examples": [
+        {
+          "t": "Molong kari",
+          "fr": "faire serment (= dire des paroles avec force (?), avec solennité (?)).",
+          "en": "to swear an oath (= to say words with force (?), with solemnity (?)).",
+          "zh": "發誓（＝ 用力地（?）、莊嚴地（?）說出話語）。"
+        },
+        {
+          "t": "Tploq msaang ni molong kari ka xea",
+          "fr": "Il explose en vitupérant et en jurant.",
+          "en": "He bursts out, ranting and swearing.",
+          "zh": "他破口大罵並發誓，怒氣爆發。"
+        }
+      ]
+    },
+    {
+      "hw": "MOXONG", "tag": "(R)",
+      "fr": "Bourgeon (des plantes).",
+      "en": "Bud (of plants).",
+      "zh": "（植物的）芽、花苞。",
+      "subs": [
+        {
+          "form": "Tmoxong",
+          "fr": "Emettre des bourgeons - se couvrir de bourgeons.",
+          "en": "To put out buds - to become covered with buds.",
+          "zh": "發芽—長滿花苞。",
+          "examples": []
+        },
+        {
+          "form": "Mtmoxong",
+          "fr": "Qui bourgeonne - qui est chargé de bourgeons.",
+          "en": "That is budding - that is laden with buds.",
+          "zh": "正在發芽的—長滿花苞的。",
+          "examples": [
+            {
+              "t": "Mtmoxong do, d'xok ka diyax xxoma trabus da",
+              "fr": "Quand la végétation commence à partir (bourgeonner), c'est le moment de planter les arachides.(nb. Ce terme est aussi employé pour désigner la période du printemps, le temps qui prépare l'été, dans le même sens que: MPSLNABAO = (les arbres) sont sur le point d'émettre des feuilles; et: MPKLBAGAN = ce sera bientôt l'été).",
+              "en": "When the vegetation begins to come out (to bud), it is time to plant the peanuts. (n.b. This term is also used to designate the springtime, the season that prepares summer, in the same sense as: MPSLNABAO = (the trees) are about to put out leaves; and: MPKLBAGAN = it will soon be summer).",
+              "zh": "當植物開始萌發（發芽）時，就是種花生的時候。（註：此詞也用來指春季，即為夏天做準備的時節，意義同：MPSLNABAO ＝（樹木）即將長出葉子；以及 MPKLBAGAN ＝ 快要到夏天了。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MP", "tag": "",
+      "fr": "préfixe porteur d'une double signification (qu'il est peut-être possible de réduire à une seule (?)). 1) Indique une action ou un état futurs; 2) L'agent qui fait produire l'action ou réaliser l'état.",
+      "en": "prefix bearing a double meaning (which it is perhaps possible to reduce to a single one (?)). 1) Indicates a future action or state; 2) The agent who causes the action to be produced or the state to be realized.",
+      "zh": "帶有雙重意義的前綴（也許有可能歸結為單一意義（?））。1）表示未來的動作或狀態；2）促成該動作或實現該狀態的施事者。",
+      "examples": [
+        {
+          "t": "Mpxoqel so",
+          "fr": "1) Tu mourras; 2) Tu fais mourir (mais dans ce deuxième sens, un terme de l'action est généralement nécessaire = Mpxoqel so Banan = Tu es celui (= M) qui va faire (= P) mourir ( XOQEL) Ibanne).",
+          "en": "1) You will die; 2) You cause (someone) to die (but in this second sense, a term for the action is generally required = Mpxoqel so Banan = You are the one (= M) who will make (= P) Ibanne die (XOQEL)).",
+          "zh": "1）你將死去；2）你使（人）死（但在第二種意義中，通常需要一個表示動作的詞＝ Mpxoqel so Banan ＝ 你就是那個（＝ M）將使 Ibanne 死（＝ P，XOQEL）的人）。"
+        }
+      ]
+    },
+    {
+      "hw": "MPA", "tag": "",
+      "fr": "Préfixe (parfois réalisé: MP' , = MP suivi d'un bref arrêt de la voix) toujours porteur d'une note de futur lointain ou proche (grâce aux éléments PA) mais indiquant en même temps (par le préfixe M) le sujet de l'action ou de l'état. Ce préfixe composé MPA semble parfois fonctionner comme une particule autonome, une espèce de \"verbe auxiliaire\" (ce qui préserverait l'exigeance - ou la tendance (?) - du bissyllabisme de la langue comme maximum !).",
+      "en": "Prefix (sometimes realized: MP', = MP followed by a brief stop of the voice) always carrying a note of distant or near future (thanks to the PA elements) but at the same time indicating (through the prefix M) the subject of the action or state. This compound prefix MPA sometimes seems to function as an autonomous particle, a kind of \"auxiliary verb\" (which would preserve the requirement - or the tendency (?) - of the language's dissyllabism as a maximum!).",
+      "zh": "前綴（有時發成 MP'，＝ MP 之後帶短暫的停頓）總是帶有遠或近未來的意味（藉由 PA 這些成分），但同時（藉由前綴 M）指出動作或狀態的主體。這個複合前綴 MPA 有時似乎作為一個獨立的小品詞運作，是一種「助動詞」（這會維持該語言以雙音節為上限的要求—或傾向（?）！）。",
+      "examples": [
+        {
+          "t": "Mpaso manu ? (vl. mpamanu so)",
+          "fr": "Que deviendras tu ? (Tu es celui qui deviendra quoi ?).(nb. Chacun des trois éléments de MPA ( M + P + A ) prédomine différemment selon les cas mais semble toujours enrichir l'ensemble de sa valeur propre).",
+          "en": "What will you become? (You are the one who will become what?). (var. mpamanu so) (n.b. Each of the three elements of MPA (M + P + A) predominates differently according to the case but always seems to enrich the whole with its own value).",
+          "zh": "你將會變成什麼？（你是那個將變成什麼的人？）（或：mpamanu so）（註：MPA（M + P + A）三個成分依情況各有側重，但似乎總能以其固有的價值豐富整體。）"
+        },
+        {
+          "t": "Mpa-laqe ko Iban",
+          "fr": "Je deviendrai (insistance sur le futur) le fils (adoptif) de Iban (= Je serai fait (= P) le fils de Ibanne).",
+          "en": "I will become (emphasis on the future) the (adopted) son of Iban (= I will be made (= P) the son of Ibanne).",
+          "zh": "我將成為（強調未來）Iban 的（養）子（＝ 我將被使成為（＝ P）Ibanne 的兒子）。"
+        },
+        {
+          "t": "Mpa-salu ko sapax",
+          "fr": "Je ferai construire (Insistance sur le Faire-faire = P) une maison.",
+          "en": "I will have a house built (emphasis on the causative Make-do = P).",
+          "zh": "我將使人蓋（強調使役「使…做」＝ P）一間房子。"
+        }
+      ]
+    },
+    {
+      "hw": "MSA", "tag": "(R. = ??)",
+      "fr": "La citation de la parole que quelqu'un dit.",
+      "en": "The quoting of the words that someone says.",
+      "zh": "引述某人所說的話。",
+      "examples": [
+        {
+          "t": "Yako ka paro, msa ko",
+          "fr": "Je dis: C'est moi qui suis grand (celui qui est grand c'est moi!).",
+          "en": "I say: It is I who am great (the one who is great is me!).",
+          "zh": "我說：是我最大（那個大的人就是我！）。"
+        },
+        {
+          "t": "Yako ka paro, msa ka tama",
+          "fr": "Papa dit: Celui qui est grand c'est moi.",
+          "en": "Papa says: The one who is great is me.",
+          "zh": "爸爸說：那個大的人就是我。"
+        },
+        {
+          "t": "Manu msa ka kari na",
+          "fr": "Son parler dit: Quoi ?",
+          "en": "His speech says: What?",
+          "zh": "他的話說：什麼？"
+        },
+        {
+          "t": "Mk'lae bi bligan, msa ka kari daxa",
+          "fr": "C'est très cher à acheter (à vendre) dit ce qu'ils disent (=Ils disent que c'est très cher).",
+          "en": "It is very expensive to buy (to sell), so their words say (= They say that it is very expensive).",
+          "zh": "這買（賣）起來很貴，他們的話這麼說（＝ 他們說這很貴）。"
+        },
+        {
+          "t": "Mxa ko sapax msa ka tama ksa",
+          "fr": "Dis leur: Papa a dit: Je vais à la maison.",
+          "en": "Tell them: Papa said: I am going home.",
+          "zh": "你告訴他們：爸爸說：我要回家。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mnsa",
+          "fr": "d° au passé.",
+          "en": "ditto, in the past tense (verbal form of the preceding, past).",
+          "zh": "同上之過去式。",
+          "examples": [
+            {
+              "t": "Iyax bi kana, mnsa ko s'xiga",
+              "fr": "Venez bien tous, j'ai dit hier (= Je vous dit hier de venir tous!).",
+              "en": "Do come, all of you, I said yesterday (= I told you yesterday to all come!).",
+              "zh": "你們全都來吧，我昨天說了（＝ 我昨天叫你們全都來！）。"
+            }
+          ]
+        },
+        {
+          "form": "Ksa",
+          "fr": "d° forme impérative.",
+          "en": "ditto, imperative form.",
+          "zh": "同上之命令式。",
+          "examples": [
+            {
+              "t": "Mxa ko kmpax ksa",
+              "fr": "Dis leur: Je vais travailler.",
+              "en": "Tell them: I am going to work.",
+              "zh": "你告訴他們：我要去工作。"
+            }
+          ]
+        },
+        {
+          "form": "Mkksa",
+          "fr": "Se dire les uns les autres.",
+          "en": "To say to one another.",
+          "zh": "彼此互相說。",
+          "examples": [
+            {
+              "t": "Mpamanu ta ka ita mkksa ka dxea",
+              "fr": "Ils se disent les uns les autres: Qu'allons nous devenir ?(nb. A ne pas confondre avec: Mkksa = errant, qui vient de: KSA = marcher).",
+              "en": "They say to one another: What is to become of us? (n.b. Not to be confused with: Mkksa = wandering, which comes from: KSA = to walk).",
+              "zh": "他們彼此互相說：我們將會怎麼樣？（註：勿與 Mkksa ＝「流浪的」混淆，後者源自 KSA ＝ 走路。）"
+            }
+          ]
+        },
+        {
+          "form": "Ksun ( = même R. ?)",
+          "fr": "d° forme future, obligatoire, voulue , avec très souvent le sens particulier -quelque fois vrai aussi pour MSA et ses dérivés- de:faire, se comporter.",
+          "en": "ditto, future, obligatory, volitional form, very often with the particular sense - sometimes also true for MSA and its derivatives - of: to do, to behave.",
+          "zh": "同上之未來、義務、意願形式，常帶有特別的意義—有時對 MSA 及其派生詞也成立—即「做、行事、表現」之意。",
+          "examples": [
+            {
+              "t": "Xoya mo ksun",
+              "fr": "Comment dois je me comporter (que dire ? que faire ?)?",
+              "en": "How should I behave (what to say? what to do?)?",
+              "zh": "我該怎麼做（該說什麼？該做什麼？）？"
+            }
+          ]
+        },
+        {
+          "form": "Sun",
+          "fr": "semble une simplification du précédent KSUN.",
+          "en": "seems to be a simplification of the preceding KSUN.",
+          "zh": "似乎是前述 KSUN 的簡化形式。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "MSDNGUX", "tag": "(R. = DNGUX ? - SDNGUX ?)",
+      "fr": "Qui est profondément, paisiblement.",
+      "en": "That is (asleep) deeply, peacefully.",
+      "zh": "深沉地、安詳地（沉睡）的。",
+      "examples": [
+        {
+          "t": "Ga msdngux bi ntaqe, ini k'la diyax ka xea",
+          "fr": "Lui, il dort comme un loir, il n'est pas pressé, il ne voit pas le temps passer.",
+          "en": "As for him, he sleeps like a dormouse; he is in no hurry; he does not notice the time passing.",
+          "zh": "至於他，他睡得像睡鼠一樣沉，他不急，也不覺得時間流逝。"
+        }
+      ]
+    },
+    {
+      "hw": "MSUIL (MSUWIL)", "tag": "(R. = ?)",
+      "fr": "De temps en temps - sporadiquement - par intermittence.",
+      "en": "From time to time - sporadically - intermittently.",
+      "zh": "時不時—零星地—斷斷續續地。",
+      "examples": [
+        {
+          "t": "Msuil malu, msuil naqex xei na ka tama mo",
+          "fr": "Tantôt mon père est en bonne santé, tantôt il est malade.",
+          "en": "Sometimes my father is in good health, sometimes he is ill.",
+          "zh": "我父親有時健康，有時生病。"
+        }
+      ]
+    },
+    {
+      "hw": "MUDA", "tag": "(R. = UDA = passer; MUDA = qui passe ?)",
+      "fr": "",
+      "en": "",
+      "zh": "",
+      "examples": [
+        {
+          "t": "Ga mmalox muda ka laqe mo",
+          "fr": "Mon enfant a un rhume (= est malade de l'épidémie (?)).",
+          "en": "My child has a cold (= is sick with the epidemic (?)).",
+          "zh": "我的孩子感冒了（＝ 得了流行病（?））。"
+        }
+      ]
+    },
+    {
+      "hw": "MUK", "tag": "",
+      "crossRef": "VR. ces mots.",
+      "fr": "Serait-ce la R. de SMUK = Clou (pour fixer, immobiliser), de G'MUK = couvercle (pour boucher, fixer), de S'XMUK = Enfermer, immobiliser (?).",
+      "en": "Could this be the root of SMUK = nail (for fixing, immobilizing), of G'MUK = lid/cover (for stopping up, fixing), of S'XMUK = to shut in, to immobilize (?).",
+      "zh": "這會不會是以下詞的詞根：SMUK ＝ 釘子（用來固定、使不動），G'MUK ＝ 蓋子（用來封住、固定），S'XMUK ＝ 關住、使不動 (?)。"
+    },
+    {
+      "hw": "MUKAI", "tag": "",
+      "crossRef": "VR. M'KAI",
+      "fr": "Variante, rare, de la forme M'KAI = Faire les travaux du ménage.",
+      "en": "A rare variant of the form M'KAI = to do the household work.",
+      "zh": "M'KAI 這個形式的罕見變體 ＝ 做家事。"
+    },
+    {
+      "hw": "MUTAQ", "tag": "(R. = UTAQ ?)",
+      "fr": "Vômir.",
+      "en": "To vomit.",
+      "zh": "嘔吐。",
+      "examples": [
+        {
+          "t": "Tai mutaq ka laqe o, kika malu",
+          "fr": "Si l'enfant arrive à vômir, c'est bon.",
+          "en": "If the child manages to vomit, that is good.",
+          "zh": "如果孩子能吐出來，那就好了。"
+        },
+        {
+          "t": "Tayal bi ka utaq mo ska'man !",
+          "fr": "Ce que j'ai pu vômir la nuit dernière !",
+          "en": "How much I threw up last night!",
+          "zh": "我昨晚吐得好厲害！"
+        }
+      ]
+    },
+    {
+      "hw": "MUXENG", "tag": "(R)",
+      "fr": "Nez - coin - extrémité - bout.",
+      "en": "Nose - corner - extremity - tip.",
+      "zh": "鼻子—角—末端—尖端。",
+      "examples": [
+        {
+          "t": "Bbalao bi muxeng na ka dyamo",
+          "fr": "",
+          "en": "",
+          "zh": ""
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

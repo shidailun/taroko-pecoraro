@@ -1,0 +1,495 @@
+{
+  "pages": [166, 169],
+  "leadin": {
+    "fr": "véritable.",
+    "en": "genuine.",
+    "zh": "真正的。",
+    "examples": [],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "LIXAO",
+      "tag": "(R)",
+      "fr": "Verre - vitre - glace.",
+      "en": "Glass - windowpane - mirror.",
+      "zh": "玻璃－窗玻璃－鏡子。",
+      "examples": [
+        { "t": "Lixao daolyaq", "fr": "Lunettes.", "en": "Eyeglasses.", "zh": "眼鏡。" },
+        { "t": "Dyagi ko sninao llixao biling sapax mo", "fr": "S'il te plaît, (aide moi) lave moi les vitres de mes fenêtres.", "en": "Please, (help me) wash the panes of my windows for me.", "zh": "拜託（幫我）把我家窗戶的玻璃洗一洗。" },
+        { "t": "Pnspadao na knan Apai ka lixao paro ga tqean mo", "fr": "La grande glace qui est dans ma chambre à coucher est un cadeau que m'a fait Apai.", "en": "The big mirror in my bedroom is a gift that Apai gave me.", "zh": "我臥室裡那面大鏡子是Apai送給我的禮物。" }
+      ],
+      "subs": [
+        {
+          "form": "Pslixao",
+          "paradigm": "°npslixao, pslixao, pslxagi, pslxagan, pslxagun",
+          "fr": "Se regarder dans une glace.",
+          "en": "To look at oneself in a mirror.",
+          "zh": "照鏡子（看自己）。",
+          "examples": [
+            { "t": "Kuxul bi dkoyox ana ino ka muda pslixao", "fr": "Se regarder dans une glace est bien un plaisir des femmes de partout.", "en": "Looking at oneself in a mirror is indeed a pleasure of women everywhere.", "zh": "照鏡子確實是各地女人的一種樂趣。" }
+          ]
+        },
+        {
+          "form": "Pslxagan",
+          "fr": "Acte de se regarder dans une glace - Temps, lieu pour se regarder dans la glace.",
+          "en": "The act of looking at oneself in a mirror - time, place for looking at oneself in the mirror.",
+          "zh": "照鏡子的行為－照鏡子的時間、地點。",
+          "examples": [
+            { "t": "Ana ta tgaox (tgagox) o, asi ka mxdo pslxagan daxa", "fr": "Nous avons beau être pressés, il faut attendre qu'elles aient fini de se mirer !", "en": "However much we hurry, we have to wait until they have finished admiring themselves!", "zh": "我們再怎麼趕，也得等她們照完鏡子（打扮完）才行！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIYUS (Lius)",
+      "tag": "(R)",
+      "fr": "Sillage - traces de passage dans l'herbe, la rosée.",
+      "en": "Trail - traces of passage in the grass, in the dew.",
+      "zh": "行跡－在草叢、露水中經過留下的痕跡。",
+      "examples": [
+        { "t": "Ma nyeqan liyus ! Ndaan bi manu da ? Pada xo ? boyaq xo ? ... Adi ! Sadyaq ! Taan bi ka dapil", "fr": "Tu vois ces traces dans l'herbe ! Qu'est ce qui a bien pu passer par là ? Un chamois ? Un sanglier ? ... Non ! On voit bien les empreintes (des pieds)! C'est un homme !", "en": "You see these traces in the grass! What could have passed this way? A chamois (mountain goat)? A wild boar? ... No! You can clearly see the (foot)prints! It's a man!", "zh": "你看草叢裡這些痕跡！到底是什麼經過這裡呢？是羚羊嗎？是山豬嗎？……不是！看得很清楚是（腳）印！是人啊！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LMAGUN",
+      "tag": "(R. = ??)",
+      "fr": "État qui précède l'ivresse - éméché.",
+      "en": "The state preceding drunkenness - tipsy.",
+      "zh": "醉酒前的狀態－微醺。",
+      "examples": [
+        { "t": "Wada so pmaxan ka xmut bi sinao ni, lmagun ka ssadyaq do, kika pnyaxan so tinalu da!", "fr": "Tu as fait boire du vin tout ordinaire et, quand les gens commencèrent à être un peu gais, voilà que tu as apporté le bon (vin) !", "en": "You served everyone quite ordinary wine and, when people began to get a little merry, that's when you brought out the good (wine)!", "zh": "你先讓大家喝很普通的酒，等到人們開始有點微醺的時候，你才把好（酒）端出來！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LMBU (LMBUG ?)",
+      "tag": "(R. = ?? - R. = L'BUG ? - L'BU\" ?)",
+      "fr": "Tremper(dans l'eau.)",
+      "en": "To soak (in water).",
+      "zh": "浸泡（在水裡）。",
+      "examples": [
+        { "t": "Saon no lnbu ksia ka lukus no", "fr": "Je vais tremper mes habits dans l'eau", "en": "I'm going to soak my clothes in the water.", "zh": "我要把我的衣服泡在水裡。" }
+      ],
+      "subs": [
+        {
+          "form": "Lbugun",
+          "fr": "Ce qu'on veut, doit tremper(dans l'eau.)",
+          "en": "What one wants or must soak (in water).",
+          "zh": "想要、必須浸泡（在水裡）的東西。",
+          "examples": [
+            { "t": "Lb'ngun (lbongun) mo qbulit ka yayo ni lbugun mo ksia ka galyeq", "fr": "Je veux enfouir le couteau dans la cendre et tremper le chiffon dans l'eau.", "en": "I want to bury the knife in the ashes and soak the rag in the water.", "zh": "我想把刀子埋進灰裡，把抹布泡在水裡。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LMLONG",
+      "tag": "(R. = LNGLONG)",
+      "crossRef": "LNGLONG",
+      "fr": "Penser - réfléchir. VR. LNGLONG .",
+      "en": "To think - to reflect. See LNGLONG.",
+      "zh": "思考－反省。參見 LNGLONG。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LMUN (L'MUN)",
+      "tag": "",
+      "fr": "Endurance - courage - patience, (- et: Force (d'un remède.. qui se fait sentir).",
+      "en": "Endurance - courage - patience, (- and: the strength (of a remedy.. that makes itself felt).",
+      "zh": "耐力－勇氣－耐心，（－以及：藥效（藥物…開始發揮的效力）。",
+      "examples": [
+        { "t": "Tayal ka l'mun so", "fr": "Quelle audace !(tu as) !", "en": "What audacity (you have)!", "zh": "你（真有）膽量啊！" }
+      ],
+      "subs": [
+        {
+          "form": "Mlmun",
+          "fr": "Etre brave, patient, courageux, endurant.",
+          "en": "To be brave, patient, courageous, enduring.",
+          "zh": "勇敢、有耐心、有勇氣、能忍耐。",
+          "examples": [
+            { "t": "Mlmun bi mnda pk'löt xei na ka laqe so", "fr": "Ton gosse a courageusement subi l'opération(s'est fait couper le corps).", "en": "Your kid courageously underwent the operation (had his body cut open).", "zh": "你的孩子勇敢地接受了手術（讓人開刀切開身體）。" }
+          ]
+        },
+        {
+          "form": "Knlmun",
+          "fr": "Intensité d'endurance, de patience, de courage - Sois fort, courageux, endurant.",
+          "en": "Intensity of endurance, patience, courage - Be strong, courageous, enduring.",
+          "zh": "耐力、耐心、勇氣的強度－要堅強、勇敢、能忍耐。",
+          "examples": [
+            { "t": "Taon so knlmun lnglongan laqe mo", "fr": "Tu verras comme mon gosse est courageux!", "en": "You'll see how brave my kid is!", "zh": "你會看到我的孩子有多勇敢！" },
+            { "t": "Knlmun da!", "fr": "Sois courageux !", "en": "Be brave!", "zh": "要勇敢！" }
+          ]
+        },
+        {
+          "form": "Knlmnan",
+          "fr": "Bravoure - patience - constance.",
+          "en": "Bravery - patience - constancy.",
+          "zh": "勇敢－耐心－堅定。",
+          "examples": [
+            { "t": "Uxai xmut ka knlmnan nia", "fr": "Son endurance n'est pas ordinaire.", "en": "His endurance is not ordinary.", "zh": "他的耐力不同尋常。" },
+            { "t": "Mnda knlmun paqan ulae ni knskiyan ole", "fr": "Il est allé courageusement se faire manger par la faim et par le froid (= Il a supporté courageusement la faim et le froid).", "en": "He courageously went to be devoured by hunger and cold (= He courageously endured hunger and cold).", "zh": "他勇敢地去讓飢餓和寒冷折磨（＝他勇敢地忍受了飢餓和寒冷）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'MUX (L'MUç)",
+      "tag": "(R)",
+      "fr": "Entrer(pour être dedans) - Entrée - pénétration.",
+      "en": "To enter (in order to be inside) - Entrance - penetration.",
+      "zh": "進入（為了在裡面）－入口－進入。",
+      "examples": [
+        { "t": "Q'ling bi ka lmuxan qeuni (qouni), ini mo d'xqe pl'mux ka walae", "fr": "Le trou de l'aiguille est très fin, je n'arrive pas à y faire entrer (enfiler) le fil.", "en": "The eye of the needle is very fine; I can't manage to get the thread through (thread it).", "zh": "針的孔很細，我沒辦法把線穿進去（穿線）。" }
+      ],
+      "subs": [
+        {
+          "form": "Ml'mux",
+          "paradigm": "°Ml'mux, l'mux, lmuxi, lmuxan, lmuxun.",
+          "fr": "Entrer dedans - pénétrer.",
+          "en": "To enter inside - to penetrate.",
+          "zh": "進到裡面－穿入。",
+          "examples": [
+            { "t": "Xana nl'mux sapax so sayang ka xea", "fr": "Il vient tout juste de pénétrer dans ta maison.", "en": "He has just entered your house.", "zh": "他剛剛進到你家裡。" }
+          ]
+        },
+        {
+          "form": "Lmuxan",
+          "fr": "Passage - entrée - lieu, temps de pénétrer.",
+          "en": "Passage - entrance - place, time of entering.",
+          "zh": "通道－入口－進入的地點、時間。",
+          "examples": [
+            { "t": "Ga ntaqe lmuxan bi l'xngao ka lq'lit", "fr": "Le léopard est couché juste à l'entrée de la grotte.", "en": "The leopard is lying right at the entrance of the cave.", "zh": "豹就躺在洞穴的入口處。" },
+            { "t": "Lmuxan xedao", "fr": "1) Le coucher du soleil; 2) L'Ouest (où le soleil se couche).", "en": "1) Sunset; 2) The West (where the sun sets).", "zh": "1）日落；2）西方（太陽落下的地方）。" }
+          ]
+        },
+        {
+          "form": "Pl'mux",
+          "fr": "Faire pénétrer - mettre dedans.",
+          "en": "To make penetrate - to put inside.",
+          "zh": "使穿入－放進裡面。",
+          "examples": [
+            { "t": "Plmuxun mo biling qeulit ka baga mo", "fr": "J'enfilerai ma main dans le trou de souris.", "en": "I'll slip my hand into the mouse hole.", "zh": "我要把手伸進老鼠洞裡。" }
+          ]
+        },
+        {
+          "form": "Plmuxan",
+          "fr": "Endroit par où faire passer, faire pénétrer.",
+          "en": "The place through which to pass or make something enter.",
+          "zh": "讓東西通過、穿入的地方。",
+          "examples": [
+            { "t": "Stok(stoq) ko niing plmuxan uusa no pglaxol laxol daxa ka laqe mo.", "fr": "Je me casse la tête pour trouver le moyen (le passage) pour faire pénétrer mon gosse dans leur assemblée.", "en": "I'm racking my brains to find the means (the way) to get my kid into their group.", "zh": "我絞盡腦汁，想找到辦法（門路）讓我的孩子進入他們的圈子。" },
+            { "t": "Ana no si sp'ngi o, soqe paro ka ddima nii,ini toko ka plmuxan", "fr": "J'ai beau mesurer, ce bambou est bien trop gros, le trou (l'ouverture) ne suffit pas.", "en": "No matter how I measure it, this bamboo is far too big; the hole (opening) isn't big enough.", "zh": "我怎麼量，這根竹子都太粗了，孔（開口）不夠大。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LNABAO",
+      "tag": "(R)",
+      "crossRef": "NABAO",
+      "fr": "Feuille d'arbre. (nb. Le plus souvent, ce terme est simplifié et réduit à: NABAO). VR. NABAO .",
+      "en": "Tree leaf. (n.b. Most often, this term is simplified and reduced to: NABAO). See NABAO.",
+      "zh": "樹葉。（註：這個詞最常被簡化縮減為：NABAO。）參見 NABAO。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "L'NAO",
+      "tag": "(R)",
+      "fr": "Jeu - taquinerie.",
+      "en": "Play - teasing.",
+      "zh": "玩笑－戲弄。",
+      "examples": [
+        { "t": "Uxai no lnao", "fr": "Je ne plaisante pas (ce n'est pas ma taquinerie, ma plaisanterie).", "en": "I'm not joking (this isn't my teasing, my joke).", "zh": "我不是在開玩笑（這不是我的戲弄、我的玩笑）。" }
+      ],
+      "subs": [
+        {
+          "form": "L'nnao",
+          "fr": "Pour rire - plaisanter - taquiner.",
+          "en": "To have fun - to joke - to tease.",
+          "zh": "為了好玩－開玩笑－戲弄。",
+          "examples": [
+            { "t": "Mk'la bi l'nnao ka Palas", "fr": "Palas aime (sait) bien plaisanter.", "en": "Palas really likes (knows how) to joke.", "zh": "Palas很喜歡（很會）開玩笑。" }
+          ]
+        },
+        {
+          "form": "Ml'nao",
+          "fr": "Taquin - qui plaisante.",
+          "en": "Teasing - one who jokes.",
+          "zh": "愛戲弄的－愛開玩笑的人。",
+          "examples": [
+            { "t": "Ml'nao kddiyax ka Sibal", "fr": "Sibal plaisante (taquine) toujours.", "en": "Sibal is always joking (teasing).", "zh": "Sibal總是在開玩笑（戲弄人）。" }
+          ]
+        },
+        {
+          "form": "Sl'nao",
+          "fr": "Pour taquiner - pour rire - pour plaisanter.",
+          "en": "For teasing - for fun - for joking.",
+          "zh": "用來戲弄－用來取樂－用來開玩笑。",
+          "examples": [
+            { "t": "Ya tooqo! Sl'nao no nanak ka kia", "fr": "Ne te vexe pas ! Cela était pour plaisanter !", "en": "Don't take offense! That was just for a joke!", "zh": "別生氣！那只是開玩笑而已！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'NDAX (LNDAX)",
+      "tag": "R. = L'DAX ?)",
+      "fr": "Empirer - de plus belle - plus intensément .",
+      "en": "To worsen - all the more - more intensely.",
+      "zh": "變本加厲－更加厲害－更強烈。",
+      "examples": [
+        { "t": "Ya sqoaq, nsa ko lmngao do, asi bi lndax ka xea da!", "fr": "Il suffit que je lui dise (en parlant): Tais toi !pour qu'il s'y mette de plus belle", "en": "I only have to say to him (in speaking): Be quiet! for him to go at it all the more.", "zh": "我只要（開口）對他說：閉嘴！他就更加變本加厲。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "L'NGAO (LNGAO)",
+      "tag": "(R)",
+      "fr": "Parler - dire des paroles.",
+      "en": "To speak - to say words.",
+      "zh": "說話－講話。",
+      "examples": [
+        { "t": "Ana ini so si l'ngao", "fr": "Même si tu ne parles pas.", "en": "Even if you don't speak.", "zh": "即使你不說話。" },
+        { "t": "Ana ini so l'ngao", "fr": "Ce n'est pas nécessaire que tu parles (que tu le dises).", "en": "It's not necessary for you to speak (to say it).", "zh": "你不必說話（不必說出來）。" },
+        { "t": "Lngao n'xali", "fr": "Parle vite!", "en": "Speak quickly!", "zh": "快說！" }
+      ],
+      "subs": [
+        {
+          "form": "L'mngao",
+          "paradigm": "°L'mngao, l'ngao, lngagi, lngagan, lngagun .",
+          "fr": "Parler - dire.",
+          "en": "To speak - to say.",
+          "zh": "說話－說。",
+          "examples": [
+            { "t": "L'mngao so o, spat xei nsa so; balae xo ?", "fr": "Tu parles, quatre personnes,dis tu; est ce vrai? (Est ce bien vrai que tu as dit: quatre personnes )?", "en": "You say, four people, you say; is it true? (Is it really true that you said: four people)?", "zh": "你說，四個人，你說；是真的嗎？（你真的說了：四個人嗎？）" },
+            { "t": "Ini so lngao ka iso; lngagi bi!", "fr": "Toi tu ne parles pas; Parle donc !", "en": "You, you're not talking; So speak up!", "zh": "你都不說話；那就說啊！" }
+          ]
+        },
+        {
+          "form": "Ml'ngao",
+          "fr": "Le parleur - l'orateur.",
+          "en": "The speaker - the orator.",
+          "zh": "說話者－演說者。",
+          "examples": [
+            { "t": "Yako nanak ka ml'ngao, ya sqoaq ka yano!", "fr": "C'est moi seul qui parle, vous autres taisez vous.", "en": "I'm the only one who speaks; the rest of you, be quiet.", "zh": "只有我一個人說話，你們其他人安靜！" }
+          ]
+        },
+        {
+          "form": "Lngagan",
+          "fr": "Chose dite - temps, lieu du parler.",
+          "en": "The thing said - time, place of speaking.",
+          "zh": "所說的話－說話的時間、地點。",
+          "examples": [
+            { "t": "Kia ka lngagan no", "fr": "C'est ce que je dis.", "en": "That's what I say.", "zh": "那就是我說的話。" },
+            { "t": "Lnngagan ko na ka Pisao", "fr": "C'est Pissao qui me l'a dit.", "en": "It was Pisao who told me.", "zh": "是Pisao告訴我的。" }
+          ]
+        },
+        {
+          "form": "Lngagai",
+          "fr": "Il faut que je dise - (j')aimerais dire.",
+          "en": "I must say - (I) would like to say.",
+          "zh": "我必須說－（我）想說。",
+          "examples": [
+            { "t": "Balae bi lngagai mako munan", "fr": "Je vous le dis très sincèrement.", "en": "I say it to you very sincerely.", "zh": "我非常誠懇地對你們說。" }
+          ]
+        },
+        {
+          "form": "Pl'ngao",
+          "fr": "Discuter - faire parler - échanger des paroles.",
+          "en": "To discuss - to make talk - to exchange words.",
+          "zh": "討論－使人說話－交換意見。",
+          "examples": [
+            { "t": "Mnssli nani ppl'ngao sao ddaon ta saman", "fr": "Nous(sans toi)nous sommes réunis pour discuter ce que nous (avec toi) ferons demain.", "en": "We (without you) have gathered to discuss what we (with you) will do tomorrow.", "zh": "我們（不包括你）聚在一起，討論我們（連你一起）明天要做的事。" },
+            { "t": "Ya sl'xbun; nyeqan plngagan nani", "fr": "Sois sans souci; nous en avons déjà discuté.", "en": "Don't worry; we've already discussed it.", "zh": "別擔心；我們已經討論過了。" }
+          ]
+        },
+        {
+          "form": "Mppl'ngao",
+          "fr": "Ceux qui (en) discutent mutuellement.",
+          "en": "Those who discuss it among themselves.",
+          "zh": "彼此互相討論的人。",
+          "examples": [
+            { "t": "Mppl'ngao ka ddxea nanak", "fr": "Il en discutent entre eux (ceux du même clan).", "en": "They discuss it among themselves (those of the same clan).", "zh": "他們自己人（同一氏族的人）之間討論。" }
+          ]
+        },
+        {
+          "form": "Plngagan",
+          "fr": "Discussion - chose discutée.",
+          "en": "Discussion - the thing discussed.",
+          "zh": "討論－討論的事情。",
+          "examples": [
+            { "t": "Nyeqan plngagan sayang o, asi l'ngao kana da!", "fr": "(Puisque) nous en discutons maintenant, il faut que chacun (tous) s'exprime.", "en": "(Since) we are discussing it now, everyone (all) must express themselves.", "zh": "（既然）我們現在正在討論，那就每個人（大家）都要發表意見！" }
+          ]
+        },
+        {
+          "form": "Sl'ngao",
+          "fr": "Pour dire - pour en parler.",
+          "en": "To say - to talk about it.",
+          "zh": "用來說－用來談論。",
+          "examples": [
+            { "t": "Manu bi ka slngao (sl'ngao) na dole ?", "fr": "Qu'est ce qu'il a encore bien à dire ?", "en": "What else could he possibly have to say?", "zh": "他還能有什麼好說的呢？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'NGAT (LNGAT)",
+      "tag": "(R)",
+      "fr": "Gémir - se plaindre.",
+      "en": "To moan - to complain.",
+      "zh": "呻吟－抱怨。",
+      "examples": [
+        { "t": "Ima ka lnnngat ! Ini ko lnngat ka yako!", "fr": "Qui (t'as dit) que je génissais ? Moi je n'ai pas gémi !", "en": "Who (told you) that I was moaning? I didn't moan!", "zh": "誰（跟你說）我在呻吟？我沒有呻吟啊！" }
+      ],
+      "subs": [
+        {
+          "form": "L'mngat (Lmngat)",
+          "fr": "Geindre - gémir - se plaindre.",
+          "en": "To whine - to moan - to complain.",
+          "zh": "哼叫－呻吟－抱怨。",
+          "examples": [
+            { "t": "Paro bi mnalox na ! Nbaxang bi bilat no o (bnaxang bi bilat no o), lmnngat kingal labe ska'man ka xea", "fr": "Il est gravement malade! D'après ce que mes oreilles ont entendu, il a gémi tout au long de la nuit passée.", "en": "He is gravely ill! From what my ears have heard, he moaned all through last night.", "zh": "他病得很重！據我耳朵所聽到的，他昨晚整夜都在呻吟。" }
+          ]
+        },
+        {
+          "form": "Sl'ngat",
+          "fr": "Cause du gémir, du geindre - qui fait gémir.",
+          "en": "The cause of the moaning, the whining - what makes one moan.",
+          "zh": "呻吟、哼叫的原因－使人呻吟的東西。",
+          "examples": [
+            { "t": "Asi papaq na ka sl'ngat xeaan", "fr": "C'est bien son pied qui le fait gémir.", "en": "It's indeed his foot that makes him moan.", "zh": "確實是他的腳讓他呻吟。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LNGDI",
+      "tag": "(R)",
+      "fr": "Mouche.",
+      "en": "Fly (insect).",
+      "zh": "蒼蠅。",
+      "examples": [
+        { "t": "Sapax xpuyan ka lala bi (knliwa bi) lngdi", "fr": "C'est dans la cuisine qu'il y a beaucoup (énormément) de mouches.", "en": "It's in the kitchen that there are many (an enormous number of) flies.", "zh": "廚房裡有很多（非常多）蒼蠅。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "L'NGLONG (LNGLONG)",
+      "tag": "(R)",
+      "fr": "Penser - réfléchir.",
+      "en": "To think - to reflect.",
+      "zh": "思考－反省。",
+      "examples": [
+        { "t": "Lnglong bi ka ndaan so blax sida", "fr": "Pense bien à ce que tu as fait(vl. à ce que tu as été) avant ce moment là.", "en": "Think carefully about what you have done (var. what you have been) before that moment.", "zh": "好好想想你在那一刻之前所做的事（或：你曾經是什麼樣的人）。" }
+      ],
+      "subs": [
+        {
+          "form": "L'mlong",
+          "fr": "(Sans doute forme abrégée de Lmnglong) Penser - réfléchir.",
+          "en": "(Probably an abbreviated form of Lmnglong) To think - to reflect.",
+          "zh": "（大概是 Lmnglong 的縮略形式）思考－反省。",
+          "examples": []
+        },
+        {
+          "form": "Lmnglong (l'mnglong)",
+          "paradigm": "°Lmnglong, lnglong, lnglongi, lnglongan, lnglongun.",
+          "fr": "Penser - réfléchir.",
+          "en": "To think - to reflect.",
+          "zh": "思考－反省。",
+          "examples": [
+            { "t": "Lmnglong ko o, uxai saman ka diyax sngayan ?", "fr": "(Mais) j'y pense: Ce n'est pas demain, dimanche ?", "en": "(But) come to think of it: isn't tomorrow Sunday?", "zh": "（不過）我想起來了：明天不就是星期日嗎？" },
+            { "t": "Musa o,ini usa o, lnglongun no xeti", "fr": "Aller ne pas aller: je verrai plus tard ( Je réfléchirai pour savoir si je vais ou ne vais pas).", "en": "To go or not to go: I'll see later (I'll think about whether I'm going or not).", "zh": "去還是不去：我以後再看（我會考慮要不要去）。" },
+            { "t": "Lnglong balae ! Uxai yako ka naqex", "fr": "Réfléchis bien, ce n'est pas moi qui ai tort(qui suis méchant).", "en": "Think it over well; I'm not the one who is at fault (who is wicked).", "zh": "好好想想，錯的不是我（壞的不是我）。" }
+          ]
+        },
+        {
+          "form": "L'lnglong (ll'nglong)",
+          "fr": "Pour penser - pour réfléchir.",
+          "en": "For thinking - for reflecting.",
+          "zh": "用來思考－用來反省。",
+          "examples": [
+            { "t": "Ini toko diyax no ll'nglong ddaon", "fr": "Je n'ai pas assez de temps pour penser à l'avenir", "en": "I don't have enough time to think about the future.", "zh": "我沒有足夠的時間思考未來。" }
+          ]
+        },
+        {
+          "form": "Lnglongan",
+          "fr": "Temps ,lieu, circonstances du penser,du réfléchir - Pensée - coeur - idée - caractère .",
+          "en": "Time, place, circumstances of thinking, of reflecting - Thought - heart - idea - character.",
+          "zh": "思考、反省的時間、地點、情境－思想－心－想法－性格。",
+          "examples": [
+            { "t": "Malu lnglongan ka sadyaq nii", "fr": "Cette personne est une brave personne.", "en": "This person is a good person.", "zh": "這個人是個好人。" },
+            { "t": "Naqex lnglongan", "fr": "méchant, mal intentionné", "en": "wicked, ill-intentioned", "zh": "壞心、居心不良" },
+            { "t": "Mslago lnglongan", "fr": "Loyal, fidèle", "en": "loyal, faithful", "zh": "忠誠、忠實" },
+            { "t": "Mklae lnglongan", "fr": "persévérant solide", "en": "persevering, steadfast", "zh": "堅持不懈、堅定" },
+            { "t": "Msbalae lnglongan", "fr": "d'égale humeur, pacifique", "en": "even-tempered, peaceable", "zh": "情緒平穩、平和" },
+            { "t": "Mawit lnglongan", "fr": "découragé, faible", "en": "discouraged, weak", "zh": "灰心、軟弱" },
+            { "t": "Meïdang lnglongan", "fr": "désemparé", "en": "distraught, at a loss", "zh": "手足無措、不知所措" },
+            { "t": "Motoç lnglongan", "fr": "déraisonnable", "en": "unreasonable", "zh": "不講理" },
+            { "t": "Daxa lnglongan", "fr": "Déloyal, plein de duplicité", "en": "disloyal, full of duplicity", "zh": "不忠、充滿欺詐" },
+            { "t": "Ongat lnglongan", "fr": "Insensible, ingrat, indécis.", "en": "unfeeling, ungrateful, indecisive.", "zh": "冷漠、忘恩負義、優柔寡斷。" }
+          ]
+        },
+        {
+          "form": "Nlnglongan",
+          "fr": "Ce qui fait partie de la pensée, d'un projet.",
+          "en": "That which is part of one's thought, of a plan.",
+          "zh": "屬於思想、計畫的一部分。",
+          "examples": [
+            { "t": "Ida na plgun nlnglongan na nanak", "fr": "De toute façon il ne suivra que ce qu'il a décidé (il n'en fera qu'a sa tête).", "en": "In any case he will only follow what he has decided (he'll do just as he pleases).", "zh": "反正他只會照自己決定的去做（他只會一意孤行）。" }
+          ]
+        },
+        {
+          "form": "Plnglong",
+          "fr": "Faire penser - rappeler - faire souvenir.",
+          "en": "To make think - to remind - to bring to mind.",
+          "zh": "使人想起－提醒－使人記起。",
+          "examples": [
+            { "t": "Ya kiso!Plnglngun (plnglongun) miso ka kia", "fr": "Sais sans crainte, celà je te le rappellerai .", "en": "Have no fear, I'll remind you of that.", "zh": "別擔心，那件事我會提醒你的。" },
+            { "t": "Ima ka pnlnglong sunan da", "fr": "Qui est ce qui te l'a rappelé ?", "en": "Who reminded you of it?", "zh": "是誰提醒你的？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'NGO",
+      "tag": "(R)",
+      "fr": "Vis à vis - d'aplomb sur - juste en face - dans la mire.",
+      "en": "Opposite - directly in line above - right in front - in the line of aim.",
+      "zh": "正對面－正上方對準－正前方－在瞄準線上。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Ml'ngo",
+          "fr": "Qui est vis à vis - qui est juste en face.",
+          "en": "That which is opposite - that which is right in front.",
+          "zh": "位於對面的－位於正前方的。",
+          "examples": [
+            { "t": "Ml'ngo bi sapax no ka sapax spoxan", "fr": "L'infirmerie est juste vis à vis de ma maison.", "en": "The infirmary is right opposite my house.", "zh": "醫務室就在我家正對面。" }
+          ]
+        },
+        {
+          "form": "Mgl'ngo (Mgl'ngu)",
+          "fr": "Viser - mire.",
+          "en": "To aim - to sight.",
+          "zh": "瞄準－對準。",
+          "examples": [
+            { "t": "Adi mo buon ka pada; ga ko ngl'ngu lqnux (L'qnux) da", "fr": "Je ne veux pas tirer le chamois; je suis en train de viser le cerf.", "en": "I don't want to shoot the chamois; I'm in the middle of aiming at the deer.", "zh": "我不想射那隻羚羊；我正在瞄準那隻鹿。" }
+          ]
+        },
+        {
+          "form": "Kl'ngo",
+          "fr": "Vis à vis - juste en face (forme négat.? Impérative ?).",
+          "en": "Opposite - right in front (negative form? imperative?).",
+          "zh": "正對面－正前方（否定形？命令形？）。",
+          "examples": [
+            { "t": "Ma so niyax n'loq dnamux kl'ngo bi babao tqean no ?", "fr": "Pourquoi (qu'est ce qui te prend de)venir percer le toit juste au dessus de mon lit ?", "en": "Why (what's gotten into you) to come and pierce the roof right above my bed?", "zh": "你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？" }
+          ]
+        }
+      ]
+    }
+  ]
+}

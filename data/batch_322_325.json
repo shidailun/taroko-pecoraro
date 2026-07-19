@@ -1,0 +1,759 @@
+{
+  "pages": [322, 325],
+  "leadin": {
+    "fr": "A peine eurent-ils jeté les filets qu'une énorme quantité de poissons s'y est fait prendre à tel point que les filets menaçaient de se rompre.",
+    "en": "Scarcely had they cast the nets when such an enormous quantity of fish got caught in them that the nets threatened to break.",
+    "zh": "他們才剛撒下網，就有極大量的魚落網，多到漁網幾乎要撐破了。",
+    "examples": [],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "TDOA",
+      "tag": "(= R. ? - R. = DOA ?)",
+      "paradigm": "° Tdoa, Tdoa, tdoai, tdoaan, tdoaon.",
+      "fr": "Pouvoir -(être capable)- être permis - être en état de - avoir les moyens de.",
+      "en": "To be able (to be capable) - to be permitted - to be in a state to - to have the means to.",
+      "zh": "能夠（有能力）－被允許－有條件－有辦法。",
+      "examples": [
+        {
+          "t": "Ini ko tdoa matas; tdoa so ka iso xo ?",
+          "fr": "Je n'ai pas le droit (vl. je n'ai pas les moyens) d'écrire ; toi, as-tu le droit (la possibilité, le temps..) de le faire ?",
+          "en": "I have no right (var.: I have not the means) to write; you, do you have the right (the possibility, the time..) to do it?",
+          "zh": "我沒有權利（或：我沒有辦法）寫字；你呢，你有權利（有可能、有時間……）做嗎？"
+        },
+        {
+          "t": "Ini ko k'la matas; mk'la so ka iso xo ?",
+          "fr": "Je ne sais pas écrire; sais-tu, toi ?",
+          "en": "I don't know how to write; do you know how, you?",
+          "zh": "我不會寫字；你呢，你會嗎？"
+        },
+        {
+          "t": "Mxa ko ngangot, tdoa xo ?",
+          "fr": "Je vais dehors, est-ce permis?",
+          "en": "I'm going outside, is it permitted?",
+          "zh": "我要出去，可以嗎？"
+        },
+        {
+          "t": "Ini tdoa m'gui (magwi)",
+          "fr": "Il n'est pas permis de voler.",
+          "en": "It is not permitted to steal.",
+          "zh": "偷竊是不被允許的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtdoa",
+          "fr": "Qui a la possibilité, la permission.",
+          "en": "One who has the possibility, the permission.",
+          "zh": "有可能、有許可的人。",
+          "examples": [
+            {
+              "t": "Ana ima ida mtdoa",
+              "fr": "N'importe qui a le droit.",
+              "en": "Anyone has the right.",
+              "zh": "任何人都有權利。"
+            },
+            {
+              "t": "Ana ima ida tdoa",
+              "fr": "N'importe qui, c'est égal (qui que ce soit ce sera bien).",
+              "en": "Anyone, it makes no difference (whoever it is, it will be fine).",
+              "zh": "任何人都行，都一樣（不論是誰都可以）。"
+            }
+          ]
+        },
+        {
+          "form": "Ptdoa",
+          "fr": "Faire en sorte que ce soit possible, permis.",
+          "en": "To make it so that it is possible, permitted.",
+          "zh": "設法使其成為可能、被允許。",
+          "examples": [
+            {
+              "t": "Ana ini tdoa kmpax qaxol xea ka sayang o, ida no ptdoaon xeti",
+              "fr": "Même s'il n'est pas permis aujourd'hui de travailler là dans cette rocaille, je ferai en sorte que ce soit possible plus tard.",
+              "en": "Even if it is not permitted today to work there in that stony ground, I will make it so that it becomes possible later.",
+              "zh": "即使今天不准在那片碎石地上耕作，我也會設法讓它日後成為可能。"
+            }
+          ]
+        },
+        {
+          "form": "Kntdoa",
+          "fr": "Le degré de possibilité.",
+          "en": "The degree of possibility.",
+          "zh": "可能性的程度。",
+          "examples": [
+            {
+              "t": "K'laon so bi kntdoa na xo ?",
+              "fr": "T'es-tu bien assuré de ses possibilités (de ses capacités)?",
+              "en": "Have you made sure of his possibilities (of his capacities)?",
+              "zh": "你確定了他的能耐（能力）了嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TDOLING",
+      "tag": "(R)",
+      "fr": "Doigt (des mains et des pieds).",
+      "en": "Finger (of the hands and toes of the feet).",
+      "zh": "指頭（手指與腳趾）。",
+      "examples": [
+        {
+          "t": "Kana dtdoling o, tama ka mq'tol (q'tol) balae",
+          "fr": "De tous les doigts, c'est le pouce qui est le plus gros.",
+          "en": "Of all the fingers, it is the thumb that is the biggest.",
+          "zh": "在所有手指當中，拇指最粗。"
+        },
+        {
+          "t": "Q'ling balae ka tdoling so",
+          "fr": "Tes doigts sont très minces.",
+          "en": "Your fingers are very slender.",
+          "zh": "你的手指很細。"
+        },
+        {
+          "t": "Tdoling q'ling ka mnalox",
+          "fr": "C'est le petit doigt qui fait mal.",
+          "en": "It is the little finger that hurts.",
+          "zh": "疼的是小指。"
+        }
+      ]
+    },
+    {
+      "hw": "TDOLOI",
+      "tag": "(R)",
+      "fr": "Voiture.",
+      "en": "Vehicle (cart, car).",
+      "zh": "車輛。",
+      "examples": [
+        {
+          "t": "Tdoloi kating",
+          "fr": "Voiture à buffle.",
+          "en": "Buffalo cart.",
+          "zh": "水牛車。"
+        },
+        {
+          "t": "Tdoloi gakat (gaqat)",
+          "fr": "Bicyclette.",
+          "en": "Bicycle.",
+          "zh": "腳踏車。"
+        },
+        {
+          "t": "Tdoloi kl'ngun",
+          "fr": "Train (= voiture à fumée).",
+          "en": "Train (= smoke vehicle).",
+          "zh": "火車（＝冒煙的車）。"
+        },
+        {
+          "t": "Papa tdoloi",
+          "fr": "Monter en voiture.",
+          "en": "To board / get into a vehicle.",
+          "zh": "上車。"
+        },
+        {
+          "t": "Mnsa ko papa tdoloi",
+          "fr": "J'y suis allé en voiture.",
+          "en": "I went there by vehicle.",
+          "zh": "我搭車去的。"
+        }
+      ]
+    },
+    {
+      "hw": "TEPYAQ",
+      "tag": "(R)",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Kui tepyaq",
+          "fr": "Oxyures - vers intestinaux.",
+          "en": "Pinworms - intestinal worms.",
+          "zh": "蟯蟲－腸道寄生蟲。"
+        }
+      ]
+    },
+    {
+      "hw": "TEUMUK",
+      "tag": "(= R. ? - R. = Chinois ?)",
+      "fr": "Chef - responsable - roitelet.",
+      "en": "Chief - person in charge - petty king.",
+      "zh": "首領－負責人－小王。",
+      "examples": [
+        {
+          "t": "Qole sao teumuk dga, kika pusu balae sao ngalan ta kari da",
+          "fr": "Quant au TEUMUK, vois-tu, c'est vraiment la racine où nous prenons la parole (= celui qui a autorité, à qui nous obéissons).",
+          "en": "As for the TEUMUK, you see, he is truly the root from which we take our word (= the one who has authority, whom we obey).",
+          "zh": "至於 TEUMUK，你看，他真的是我們一切話語的根本（＝有權威、我們所服從的人）。"
+        }
+      ]
+    },
+    {
+      "hw": "TGAOX",
+      "tag": "(R)",
+      "fr": "Pressé - rapidement - en vitesse.",
+      "en": "In a hurry - quickly - at speed.",
+      "zh": "匆忙－迅速－趕緊。",
+      "examples": [
+        {
+          "t": "Ma so tgaox bi musa da !",
+          "fr": "Qu'est-ce qui te prend d'être pressé d'aller ?",
+          "en": "What's got into you that you're in such a hurry to go?",
+          "zh": "你這麼急著要走是怎麼了？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tgagox",
+          "fr": "Var. de TGAOX avec le même sens.",
+          "en": "Var. of TGAOX with the same meaning.",
+          "zh": "TGAOX 的變體，意思相同。",
+          "examples": [
+            {
+              "t": "Mntutwi ka Lixang tgagox muda mkdgiyaq",
+              "fr": "Lirhang se mit en route et passa en hâte dans la montagne.",
+              "en": "Lirhang set out and passed hurriedly through the mountains.",
+              "zh": "Lirhang 動身，匆匆穿過山區。"
+            },
+            {
+              "t": "Wana sayang ka tgagox so balae n'xapwi",
+              "fr": "Il n'y a qu'aujourd'hui que tu sois vraiment pressé de cuire la soupe !",
+              "en": "It is only today that you are really in a hurry to cook the soup!",
+              "zh": "偏偏就今天你才真的急著要煮湯！"
+            }
+          ]
+        },
+        {
+          "form": "Mtgaox (Mtgagox)",
+          "fr": "Qui a hâte - qui est pressé - qui est rapide.",
+          "en": "One who is in haste - who is in a hurry - who is quick.",
+          "zh": "急切的－匆忙的－迅速的（人）。",
+          "examples": [
+            {
+              "t": "Ana so mtgaox balae ka sayang o, dyagi ko tityex!",
+              "fr": "Bien que tu sois très pressé en ce moment, aide-moi donc un peu !",
+              "en": "Even though you are in a great hurry right now, do help me a little!",
+              "zh": "雖然你現在很趕，還是幫我一下吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TGILA",
+      "tag": "(R)",
+      "fr": "Levain (qui est constitué par un morceau de TAMUL, soit la lie obtenue après la macération des céréales pour la production de bierre (= SINAO) et qui est introduit dans le mélange d'eau et de céréales pour les faire fermenter et produire la bierre; Cette opération se dit : MASINAO (M'SINAO).).",
+      "en": "Leaven / yeast (which consists of a piece of TAMUL, that is, the lees obtained after the maceration of cereals for the production of beer (= SINAO), and which is introduced into the mixture of water and cereals to make them ferment and produce beer; this operation is called MASINAO (M'SINAO).).",
+      "zh": "酵母（由一塊 TAMUL 構成，即穀物浸泡釀酒（＝SINAO）後所得的酒渣，把它加進水與穀物的混合物中，使其發酵並釀出酒；此一過程稱為 MASINAO（M'SINAO）。）。",
+      "examples": []
+    },
+    {
+      "hw": "TGIYA",
+      "tag": "(R)",
+      "fr": "?? - fuseau, quenouille -(métier à tisser?).",
+      "en": "?? - spindle, distaff -(loom?).",
+      "zh": "？？－紡錘、紡桿－（織布機？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tngiya",
+          "fr": "Filer - (tisser ?).",
+          "en": "To spin - (to weave?).",
+          "zh": "紡（紗）－（織？）。",
+          "examples": [
+            {
+              "t": "Ga tngiya ubal milit ka koyox mo",
+              "fr": "Ma femme est en train de filer du poil de chêvre (de la laine ?).(nb. Pour le chanvre, filer se dit: MNOQEX).",
+              "en": "My wife is spinning goat hair (wool?). (n.b. For hemp, 'to spin' is said: MNOQEX).",
+              "zh": "我太太正在紡山羊毛（羊毛？）。（註：麻的紡則稱為 MNOQEX。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TG'LA",
+      "tag": "(R)",
+      "fr": "S'attarder - prendre son temps. (nb. Certains locuteurs font nettement entendre: TGILA mais avec l'accent sur la finale).",
+      "en": "To linger - to take one's time. (n.b. Some speakers distinctly pronounce it TGILA but with the stress on the final syllable).",
+      "zh": "逗留－慢慢來。（註：某些說話者清楚地讀成 TGILA，但重音落在末音節。）",
+      "examples": [
+        {
+          "t": "Leqo mo bi mita ini so tg'la sapax mo; ida bi ini so skila xeni!",
+          "fr": "Je suis furieux (je déteste) de voir que tu ne t'attardes pas chez moi; peut-être tu ne te plais pas ici !",
+          "en": "I am furious (I hate) to see that you don't linger at my house; perhaps you don't like it here!",
+          "zh": "我很惱火（很討厭）看到你不肯在我家多待；也許你不喜歡這裡吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmg'la (tngila)",
+          "fr": "S'attarder.",
+          "en": "To linger.",
+          "zh": "逗留。",
+          "examples": [
+            {
+              "t": "Uxai bi luxai llaqe ka tmg'la sapax ptasan",
+              "fr": "Ce n'est pas l'habitude des enfants de traîner dans la maison d'école (de s'y attarder).",
+              "en": "It is not the habit of children to dawdle in the schoolhouse (to linger there).",
+              "zh": "孩子們不習慣在校舍裡拖拉（在那裡逗留）。"
+            }
+          ]
+        },
+        {
+          "form": "Mtg'la (Mtgila)",
+          "fr": "Celui qui traîne - qui s'attarde.",
+          "en": "One who dawdles - who lingers.",
+          "zh": "愛拖拉、愛逗留的人。",
+          "examples": [
+            {
+              "t": "Ida nyeqan doma ka mtg'la sapax oqan",
+              "fr": "Il y en a certains qui s'attardent dans les restaurants.",
+              "en": "There are some who linger in restaurants.",
+              "zh": "有些人會在餐館裡逗留。"
+            }
+          ]
+        },
+        {
+          "form": "Tnglaan",
+          "fr": "Le temps qu'on s'attarde.",
+          "en": "The length of time one lingers.",
+          "zh": "逗留的時間。",
+          "examples": [
+            {
+              "t": "Kana ssadyaq o, mnklui tngaan daxa (d'xa) diyax tnglaan na sapax xdolan",
+              "fr": "Tous les gens s'étonnaient en attendant pendant qu'il s'attardait dans le temple.",
+              "en": "All the people were astonished as they waited while he lingered in the temple.",
+              "zh": "眾人一邊等候，一邊對他在聖殿裡遲遲不出來感到驚訝。"
+            }
+          ]
+        },
+        {
+          "form": "Kntglaan",
+          "fr": "La mesure du fait de s'attarder.",
+          "en": "The measure of how long one lingers.",
+          "zh": "逗留久暫的量度。",
+          "examples": [
+            {
+              "t": "Ongat klaan ka kntglaan na sapax Labai",
+              "fr": "On ne peut pas savoir (pas dire) combien de temps il s'attarde chez Labai.",
+              "en": "One cannot know (cannot say) how long he lingers at Labai's.",
+              "zh": "無法知道（無法說出）他在 Labai 家逗留多久。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TGTMAQ",
+      "tag": "(R. = TMAQ ?)",
+      "fr": "Aplati - écrasé.",
+      "en": "Flattened - crushed.",
+      "zh": "被壓平的－被壓碎的。",
+      "examples": [
+        {
+          "t": "Asi bi tgtmaq d'xgal ka ddxea da",
+          "fr": "A tel point que (vl. aussitôt) tous s'aplatissent (se couchent) par terre. (nb. On trouve aussi, dans le même sens: TITMAQ ). Vr. TMAQ.",
+          "en": "To such a point that (var.: as soon as) they all flatten themselves (lie down) on the ground. (n.b. One also finds, with the same meaning: TITMAQ). See TMAQ.",
+          "zh": "以致（或：隨即）眾人全都趴平（躺）在地上。（註：同義亦作 TITMAQ。）參見 TMAQ。"
+        }
+      ]
+    },
+    {
+      "hw": "TI",
+      "tag": "",
+      "fr": "Préfixe ?? - = Particule invariable, amorce ou relique d'un article ?? En fait, on trouve ce TI le plus souvent avec des verbes d'état avec le sens de: Celui qui - Le.",
+      "en": "Prefix ?? - = Invariable particle, the beginning or relic of an article ?? In fact, one most often finds this TI with stative verbs, with the sense of: The one who - The.",
+      "zh": "前綴？？－＝不變化的助詞，某冠詞的開端或殘留？？其實這個 TI 最常與狀態動詞連用，意思是：那位……的－那個。",
+      "examples": [
+        {
+          "t": "Ti malu (TIMALU (?))",
+          "fr": "Le bon (Celui qui est bon, pas l'autre).",
+          "en": "The good one (the one that is good, not the other).",
+          "zh": "那個好的（好的那位，不是另一個）。"
+        },
+        {
+          "t": "Ti b'xgai",
+          "fr": "Le blanc, celui qui est blanc.",
+          "en": "The white one, the one that is white.",
+          "zh": "白的那個，白色的那個。"
+        },
+        {
+          "t": "Ti basi",
+          "fr": "Celui, ce qui est amer. (nb. Le parler des AMIS qui est depuis des siècles le peuple voisin des Taroko, cette particule TI est toujours préposée aux noms propres de personne ou assimilés; Vg. TI Panai = Panai.",
+          "en": "The one, the thing that is bitter. (n.b. In the speech of the AMIS, who have for centuries been the people neighboring the Taroko, this particle TI is always placed before proper names of persons or the like; e.g. TI Panai = Panai.",
+          "zh": "苦的那個、那東西。（註：阿美族數百年來一直是太魯閣族的鄰族，在他們的語言裡，這個助詞 TI 總是置於人名或類似專名之前；例如 TI Panai ＝ Panai。"
+        },
+        {
+          "t": "TI Longat",
+          "fr": "Longatz...? Ou bien, en certains cas au moins, ce TI pourrait s'expliquer comme un préfixe T indiquant l'intensité, l'assimilation avec le terme préfixé ??",
+          "en": "Longatz...? Or else, in certain cases at least, this TI could be explained as a prefix T indicating intensity, assimilated with the prefixed term ??",
+          "zh": "Longatz……？又或者，至少在某些情況下，這個 TI 或可解釋為表示強調的前綴 T，與其所加的詞同化？？"
+        }
+      ]
+    },
+    {
+      "hw": "TIBASYAQ",
+      "tag": "(R. = BASYAQ ?)",
+      "fr": "Celui qui se comporte en goinfre = Outrancier ? exagérément ?",
+      "en": "One who behaves like a glutton = excessive one? To excess?",
+      "zh": "行為像貪吃鬼的人＝過分的人？過度地？",
+      "examples": [
+        {
+          "t": "Tibasyaq mqan ni minax",
+          "fr": "Qui se gave - qui mange et boit comme un goinfre.",
+          "en": "Who gorges himself - who eats and drinks like a glutton.",
+          "zh": "狼吞虎嚥的人－像貪吃鬼一樣又吃又喝的人。"
+        }
+      ]
+    },
+    {
+      "hw": "TIKAN",
+      "tag": "(R)",
+      "fr": "Décortiquer - piler (les céréales).",
+      "en": "To husk - to pound (cereals).",
+      "zh": "去殼－舂（穀物）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmikan",
+          "fr": "d° forme verbale. (nb. Action depuis toujours réalisée dans le DOXONG = tronc de bois creusé, et maintenant par les machines à décortiquer.).",
+          "en": "verbal form of the preceding. (n.b. An action always carried out in the DOXONG = a hollowed-out tree trunk, and nowadays by husking machines.).",
+          "zh": "同上之動詞形。（註：這個動作自古都在 DOXONG＝挖空的木幹中進行，如今則用去殼機。）",
+          "examples": [
+            {
+              "t": "Dyagi ko tmikan tityex maso ooqon ta idao maso ka ska xedao kia",
+              "fr": "Aide-moi à décortiquer un peu de millet pour que nous mangions du millet (cuit en grains) tout à l'heure à midi.",
+              "en": "Help me husk a little millet so that we may eat millet (cooked in the grain) presently at midday.",
+              "zh": "幫我舂一點小米，好讓我們待會兒中午吃小米（整粒煮的）。"
+            }
+          ]
+        },
+        {
+          "form": "Tkanan",
+          "fr": "Lieu, temps où l'on décortique - ce qui est décortiqué.",
+          "en": "Place, time where/when one husks - that which is husked.",
+          "zh": "去殼的地點、時間－被去殼之物。",
+          "examples": [
+            {
+              "t": "Sapax tkanan",
+              "fr": "Local où l'on décortique.",
+              "en": "The place where one husks.",
+              "zh": "去殼的場所。"
+            },
+            {
+              "t": "Sao bi snawit sadyaq ka tkanan boax maso kdiyax",
+              "fr": "C'est fatiguant de piler du millet (des grains de millet) tous les jours !",
+              "en": "It is tiring to pound millet (millet grains) every day!",
+              "zh": "每天舂小米（小米粒）真累人！"
+            }
+          ]
+        },
+        {
+          "form": "Tnkanan",
+          "fr": "Ce qui a été décortiqué.",
+          "en": "That which has been husked.",
+          "zh": "已被去殼之物。",
+          "examples": [
+            {
+              "t": "Lala bi boax ka tnkanan mo snii bi",
+              "fr": "J'ai décortiqué une très grande quantité de paddy tout dernièrement.",
+              "en": "I husked a very large quantity of paddy quite recently.",
+              "zh": "我最近去殼了非常大量的稻穀。"
+            }
+          ]
+        },
+        {
+          "form": "Ptikan",
+          "paradigm": "° Mptikan, ptikan, ptkani, ptkanan, ptkanun.",
+          "fr": "Faire décortiquer.",
+          "en": "To have (something) husked.",
+          "zh": "使去殼／叫人去殼。",
+          "examples": [
+            {
+              "t": "Ptkanun so knuan (knuwan) ka payai so l'xqoi ?",
+              "fr": "Quand feras-tu donc décortiquer ton riz gluant ?",
+              "en": "When will you have your glutinous rice husked, then?",
+              "zh": "那你到底什麼時候要把你的糯米去殼呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TIKOX",
+      "tag": "(R)",
+      "fr": "Un peu - pas beaucoup - petit. (syn. = TIMIN, TIPYAQ, TITYEX.)",
+      "en": "A little - not much - small. (syn. = TIMIN, TIPYAQ, TITYEX.)",
+      "zh": "一點點－不多－小。（同義詞＝TIMIN、TIPYAQ、TITYEX。）",
+      "examples": []
+    },
+    {
+      "hw": "TILUX",
+      "tag": "(R)",
+      "fr": "(TILUç) = Chaud - chaleur (surtout quand il est question de température).",
+      "en": "(var. TILUç) Hot - heat (especially when it is a matter of temperature).",
+      "zh": "（或作 TILUç）熱－熱度（尤指與氣溫有關時）。",
+      "examples": [
+        {
+          "t": "Ana lbagan o, ini ktilux ka sayang",
+          "fr": "Bien que ce soit l'été, en ce moment il ne fait pas chaud.",
+          "en": "Although it is summer, right now it isn't hot.",
+          "zh": "雖然是夏天，此刻卻不熱。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtilux",
+          "fr": "Qui est chaud - qui dégage de la chaleur.",
+          "en": "Which is hot - which gives off heat.",
+          "zh": "熱的－散發熱氣的。",
+          "examples": [
+            {
+              "t": "Mtilux ka xedao",
+              "fr": "Le soleil est chaud (vl. Le soleil chauffe).",
+              "en": "The sun is hot (var. The sun gives warmth).",
+              "zh": "太陽很熱（或：太陽在放熱）。"
+            },
+            {
+              "t": "Mtilux xedao ka sayang",
+              "fr": "Aujourd'hui le soleil brille (= le soleil chaud).",
+              "en": "Today the sun is shining (= the hot sun).",
+              "zh": "今天太陽很烈（＝炎熱的太陽）。"
+            }
+          ]
+        },
+        {
+          "form": "Ktilux",
+          "fr": "Forme négative et impérative de MTILUX.",
+          "en": "Negative and imperative form of MTILUX.",
+          "zh": "MTILUX 的否定與命令形。",
+          "examples": [
+            {
+              "t": "Ini ktilux xedao ka misan",
+              "fr": "En hiver le soleil ne chauffe pas.",
+              "en": "In winter the sun does not give warmth.",
+              "zh": "冬天太陽不放熱。"
+            }
+          ]
+        },
+        {
+          "form": "Kntilux",
+          "fr": "Intensité de chaleur.",
+          "en": "Intensity of heat.",
+          "zh": "熱度的強度。",
+          "examples": [
+            {
+              "t": "Sao ska xedao ka balae bi mlana ka kntilux xedao",
+              "fr": "C'est à midi que la chaleur du soleil augmente vraiment.",
+              "en": "It is at midday that the sun's heat really increases.",
+              "zh": "正午時分太陽的熱度才真正增強。"
+            },
+            {
+              "t": "Ida kia ka kntilux na",
+              "fr": "Il a toujours la même chaleur.",
+              "en": "It always has the same heat.",
+              "zh": "它的熱度始終如一。"
+            }
+          ]
+        },
+        {
+          "form": "Kntl'xan (kntl'çan)",
+          "fr": "La chaleur (idée abstraite).",
+          "en": "Heat (abstract idea).",
+          "zh": "熱（抽象概念）。",
+          "examples": [
+            {
+              "t": "Mqleqo bi s'mpong ka kntl'xan xedao",
+              "fr": "La chaleur du soleil est bien difficile à mesurer.",
+              "en": "The sun's heat is very difficult to measure.",
+              "zh": "太陽的熱度很難測量。"
+            },
+            {
+              "t": "Tayal bi kntl'xan na ka diyax siida",
+              "fr": "Quelle chaleur ce jour-là !!",
+              "en": "What heat that day!!",
+              "zh": "那一天好熱啊！！"
+            }
+          ]
+        },
+        {
+          "form": "Pstilux",
+          "paradigm": "° Mpstilux, pstilux, pstl'xi (pstl'çi), pstl'xan, pstl'xun.",
+          "fr": "Réchauffer - chauffer.",
+          "en": "To reheat - to heat.",
+          "zh": "加熱－使熱。",
+          "examples": [
+            {
+              "t": "Xedao ka mpstilux ana manu nbabao d'xgal",
+              "fr": "C'est le soleil qui réchauffe toute chose sur la terre.",
+              "en": "It is the sun that warms everything upon the earth.",
+              "zh": "是太陽使地上萬物溫暖。"
+            }
+          ]
+        },
+        {
+          "form": "Pstl'xun",
+          "fr": "Ce qui va être, peut être, doit être chauffé, réchauffé.",
+          "en": "That which will be, can be, must be heated, reheated.",
+          "zh": "將要、可以、應該被加熱、重新加熱之物。",
+          "examples": [
+            {
+              "t": "Pstl'xun mo idao kia ooqon so kia",
+              "fr": "Je vais réchauffer ce riz-là (= kia) pour que tu le manges tout à l'heure (=kia).",
+              "en": "I am going to reheat that rice (= kia) so that you eat it presently (= kia).",
+              "zh": "我要把那飯（＝kia）加熱，好讓你待會兒（＝kia）吃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TIMIN",
+      "tag": "(R)",
+      "fr": "Petit - peu. (syn. = Bilaq - tipyaq - tityex).",
+      "en": "Small - little. (syn. = Bilaq - tipyaq - tityex).",
+      "zh": "小－少。（同義詞＝Bilaq、tipyaq、tityex。）",
+      "examples": [
+        {
+          "t": "Timin balae ka wada ko na byeqon",
+          "fr": "Il ne m'en a donné qu'un tout petit peu.",
+          "en": "He gave me only a very tiny bit of it.",
+          "zh": "他只給了我一丁點兒。"
+        }
+      ]
+    },
+    {
+      "hw": "TIMU",
+      "tag": "(R)",
+      "fr": "Sel.",
+      "en": "Salt.",
+      "zh": "鹽。",
+      "examples": [
+        {
+          "t": "Diyax diyax o, wana timu ni ppadyaq bbuyo ka sndmatan mo bonga",
+          "fr": "Jour après jour, je (ne me suis servi) que de sel et de légumes sauvages comme condiments pour manger mes patates douces.",
+          "en": "Day after day, I used only salt and wild vegetables as condiments to eat my sweet potatoes.",
+          "zh": "日復一日，我只用鹽和野菜當佐料來配我的地瓜吃。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Stimu",
+          "fr": "1° Sentir le sel - avoir le goût du sel. 2° Saler - mettre du sel.",
+          "en": "1° To taste of salt - to have the taste of salt. 2° To salt - to put salt.",
+          "zh": "1° 帶鹹味－有鹽的味道。2° 加鹽－放鹽。",
+          "examples": [
+            {
+              "t": "Mstimu nanak (vl. stimu nanak) ka samat so",
+              "fr": "Ton gibier n'a que le goût du sel.",
+              "en": "Your game meat tastes only of salt.",
+              "zh": "你的獵物只有鹹味。"
+            },
+            {
+              "t": "Ini ko stimu sali ka yako; naqex xali oqon toxoi timu.",
+              "fr": "Moi je ne sale pas les taros; avec du sel ils ne sont pas très bons à manger.",
+              "en": "As for me, I don't salt taros; with salt they are not very good to eat.",
+              "zh": "我不給芋頭加鹽；加了鹽反而不太好吃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TINUN",
+      "tag": "(R)",
+      "fr": "Tisser - créer - tresser.",
+      "en": "To weave - to create - to plait.",
+      "zh": "織－創造－編。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tminun",
+          "paradigm": "° Tminun, tinun, tnuni, tnunan, tnunun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ana manu tnunan o, Otoç mtinun ka tninun",
+              "fr": "Tout ce qui existe (a été créé - a été tissé) c'est Dieu (L'esprit tisserand) qui l'a créé (tissé).",
+              "en": "Everything that exists (has been created - has been woven), it is God (the weaving Spirit) who created (wove) it.",
+              "zh": "凡存在之物（被創造－被織成），都是上帝（織造之靈）所創造（織成）的。"
+            },
+            {
+              "t": "Kana kkoyox o, Lobyaq ka mk'la bi tminun pala",
+              "fr": "Parmi toutes les femmes, c'est Lobyaq qui est la plus habile à tisser les PALA (jupes).",
+              "en": "Among all the women, it is Lobyaq who is the most skilled at weaving PALA (skirts).",
+              "zh": "在所有女人當中，Lobyaq 最擅長織 PALA（裙子）。"
+            }
+          ]
+        },
+        {
+          "form": "Mtinun",
+          "fr": "Qui tisse - qui fabrique - créateur.",
+          "en": "One who weaves - who makes - creator.",
+          "zh": "織的人－製造者－創造者。",
+          "examples": [
+            {
+              "t": "Mtabu milit ka snao ni mtinun pala ka koyox",
+              "fr": "Le mari est berger (de chêvres) et la femme est tisserande (de jupes).",
+              "en": "The husband is a herdsman (of goats) and the wife is a weaver (of skirts).",
+              "zh": "丈夫是（山羊的）牧人，妻子是（裙子的）織女。"
+            }
+          ]
+        },
+        {
+          "form": "Tnunan",
+          "fr": "Ce qui est tissé, fabriqué - circonstances du tissage.",
+          "en": "That which is woven, made - the circumstances of the weaving.",
+          "zh": "被織、被製之物－織造的情境。",
+          "examples": [
+            {
+              "t": "Tnunan sadyaq ka nii, uxai xmut nyeqan nanak",
+              "fr": "Ceci est fabriqué (fait de main d'homme), cela ne s'est pas fait (tissé) tout seul !",
+              "en": "This is manufactured (made by human hand); it did not make (weave) itself all by itself!",
+              "zh": "這是人工製造的（出自人手），它不是自己憑空織成的！"
+            },
+            {
+              "t": "Tnunan ima ka pala ni qabang nii ?",
+              "fr": "Par qui ont-elles été tissées cette jupe et cette couverture ?",
+              "en": "By whom were this skirt and this blanket woven?",
+              "zh": "這條裙子和這條被子是誰織的？"
+            }
+          ]
+        },
+        {
+          "form": "Tnnunan",
+          "fr": "Ce qui a été tissé, créé, fabriqué (dans le passé).",
+          "en": "That which was woven, created, made (in the past).",
+          "zh": "（過去）被織、被造、被製之物。",
+          "examples": [
+            {
+              "t": "Uxai tnnunan pai no sbiyao ka qabang so",
+              "fr": "(selon intonation); 1° Ta couverture n'a pas été tissée par ma grand-mère autrefois. 2° Ta couverture n'aurait-elle pas été tissée par ma grand-mère autrefois? 3° Tu sais bien que c'est ma grand-mère qui a tissé ta couverture dans le temps !",
+              "en": "(according to intonation): 1° Your blanket was not woven by my grandmother long ago. 2° Would your blanket not have been woven by my grandmother long ago? 3° You know very well that it was my grandmother who wove your blanket in the old days!",
+              "zh": "（依語調而定）：1° 你的被子從前不是我祖母織的。2° 你的被子從前難道不是我祖母織的嗎？3° 你明明知道你的被子是我祖母從前織的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TIPYAQ",
+      "tag": "(R)",
+      "fr": "Peu - petite quantité - petit de taille.",
+      "en": "Little - small quantity - small in size.",
+      "zh": "少－小量－身材小。",
+      "examples": [
+        {
+          "t": "Ya imax sinao, msa ko! ... Ana qoqo! Tipyaq balae ka maxon no!",
+          "fr": "Ne bois pas de vin, que…",
+          "en": "Don't drink wine, [said I]! … Not even a drop! Only a very little is what you may…",
+          "zh": "別喝酒，我說！……一滴也不行！你頂多只能……"
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "pages": [258, 261],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Snlaan",
+        "fr": "L'action (faite) de construire - ce qui a été construit, fabriqué.",
+        "en": "The action (completed) of building - that which has been built, manufactured.",
+        "zh": "建造（已完成）的動作－被建造、被製造出來的東西。",
+        "examples": [
+          {
+            "t": "Ana kalat ana d'xgal o, uxai snlaan sadyaq ka kia, tnunan Otoç Balao !",
+            "fr": "Que ce soit le ciel ou la terre, ils ne sont pas faits de main d'homme! Ils ont été tissés par Dieu (L'Esprit d'en haut).",
+            "en": "Whether it be the heavens or the earth, they are not made by human hands! They were woven by God (the Spirit from on high).",
+            "zh": "無論是天還是地，都不是人手所造的！它們是由神（天上的靈）所編織的。"
+          }
+        ]
+      },
+      {
+        "form": "Psalu",
+        "fr": "Faire construire - faire réparer.",
+        "en": "To have (something) built - to have (something) repaired.",
+        "zh": "使人建造－使人修理。",
+        "examples": [
+          {
+            "t": "Naqex ka toke mo, saon mo psalu sapax Kuni",
+            "fr": "Ma montre est détraquée, je veux aller la faire réparer chez Kouni.",
+            "en": "My watch is broken, I want to go have it repaired at Kuni's place.",
+            "zh": "我的手錶壞了，我想拿去昆尼那裡修理。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SAMAN", "tag": "(R)",
+      "fr": "Demain.",
+      "en": "Tomorrow.",
+      "zh": "明天。",
+      "examples": [
+        {
+          "t": "Mxa so ino ka saman ?",
+          "fr": "Où vas tu demain ?",
+          "en": "Where are you going tomorrow?",
+          "zh": "你明天要去哪裡？"
+        },
+        {
+          "t": "Saman, saman, msa so o, Knuwan ka saman da xo!",
+          "fr": "Tu dis: demain, demain ! Mais, quand est-ce donc demain ?",
+          "en": "You say: tomorrow, tomorrow! But when then is tomorrow?",
+          "zh": "你說：明天、明天！可是，明天到底是什麼時候呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nsaman",
+          "fr": "De demain - qui est la part de demain.",
+          "en": "Of tomorrow - that which is tomorrow's portion.",
+          "zh": "屬於明天的－明天那一份的。",
+          "examples": [
+            {
+              "t": "Ga ino ka xdayo ta ? Nii xo? ... Nsaman ka kia; nii ka nsayang!",
+              "fr": "Où est il notre casse-croûte ? Est-ce ceci? ... Non! Cela c'est pour demain ! Voici celui d'aujourd'hui.",
+              "en": "Where is our snack? Is it this one? ... No! That one is for tomorrow! Here is today's.",
+              "zh": "我們的點心在哪裡？是這個嗎？……不！那個是明天的！這才是今天的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAMAO", "tag": "(R)",
+      "fr": "Lampe alimentée par l'huile - lanterne - tout ce qui peut servir à éclairer.",
+      "en": "An oil-fed lamp - lantern - anything that can serve to give light.",
+      "zh": "以油點燃的燈－燈籠－任何可用來照明的東西。",
+      "examples": [
+        {
+          "t": "Miyax ka dxea dmui samao ni xalong",
+          "fr": "Ils viennent avec (en tenant) des lanternes et des torches (de bois de pin).",
+          "en": "They come (holding) lanterns and torches (of pinewood).",
+          "zh": "他們手持燈籠和（松木）火把前來。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msamao",
+          "fr": "Se servir de lanterne, de lampe.",
+          "en": "To use a lantern, a lamp.",
+          "zh": "使用燈籠、油燈。",
+          "examples": [
+            {
+              "t": "Ga msamao ka sapax Wilang",
+              "fr": "Chez Wilang c'est éclairé.",
+              "en": "At Wilang's house it is lit up.",
+              "zh": "瓦浪家裡點著燈。"
+            }
+          ]
+        },
+        {
+          "form": "Psamao",
+          "paradigm": "°Mpsamao, psamao, psmagi, psmagan, psmagun.",
+          "fr": "Allumer (une lampe) - éclairer - donner de la lumière.",
+          "en": "To light (a lamp) - to illuminate - to give light.",
+          "zh": "點燃（燈）－照明－發光。",
+          "examples": [
+            {
+              "t": "Usa psamao da, na\" ka'man da!",
+              "fr": "Va donc allumer (la lampe), c'est drôle! il fait déjà nuit !",
+              "en": "Go and light (the lamp), how odd! it is already night!",
+              "zh": "去把（燈）點上吧，真奇怪！天都已經黑了！"
+            }
+          ]
+        },
+        {
+          "form": "Psnagan",
+          "fr": "Temps, lieu d'allumer une lampe - ce qui a été allumé - Lieu où est déposée la lampe (?).",
+          "en": "Time or place for lighting a lamp - that which has been lit - place where the lamp is set down (?).",
+          "zh": "點燈的時間、地點－被點燃的東西－放置燈的地方（？）。",
+          "examples": [
+            {
+              "t": "Misan ka bsiyaq bi psnagan",
+              "fr": "C'est en hiver qu'il faut allumer la lampe pendant plus longtemps.",
+              "en": "It is in winter that one must keep the lamp lit for longer.",
+              "zh": "冬天必須把燈點得更久。"
+            },
+            {
+              "t": "Psai babao psnagan ka samao so",
+              "fr": "Dépose ta lampe sur l'étagère prévue pour la lampe.",
+              "en": "Put your lamp on the shelf meant for the lamp.",
+              "zh": "把你的燈放在專為放燈準備的架子上。"
+            }
+          ]
+        },
+        {
+          "form": "Spsamao",
+          "fr": "Moyen qui va servir à éclairer.",
+          "en": "A means that will serve to give light.",
+          "zh": "用來照明的工具。",
+          "examples": [
+            {
+              "t": "Sai kmsyuk ayang spsamao ta ka'man kia",
+              "fr": "Voudrais tu aller emprunter de l'huile pour nous éclairer ce soir ?",
+              "en": "Would you go and borrow some oil to give us light this evening?",
+              "zh": "你願意去借點油讓我們今晚照明嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAMAT", "tag": "(R)",
+      "fr": "Gibier (vu surtout dans son rôle de nourriture).",
+      "en": "Game (wild animals hunted for food, seen especially in their role as food).",
+      "zh": "獵物（尤指作為食物的野味）。",
+      "examples": [
+        {
+          "t": "Msxea bi ka xei samat so",
+          "fr": "Ton plat de gibier est vraiment savoureux.",
+          "en": "Your dish of game is really delicious.",
+          "zh": "你的野味料理真好吃。"
+        },
+        {
+          "t": "Wada ongat xali ka ssamat da!",
+          "fr": "Le gibier est devenu bien rare !",
+          "en": "Game has become quite scarce!",
+          "zh": "獵物已經變得很稀少了！"
+        }
+      ]
+    },
+    {
+      "hw": "SANGAI", "tag": "(R)",
+      "fr": "Se reposer - s'arrêter de.",
+      "en": "To rest - to stop (doing something).",
+      "zh": "休息－停止（做某事）。",
+      "examples": [
+        {
+          "t": "Akai wit ! Bsiyaq ta bi ini sangai",
+          "fr": "Oh la ! Quelle fatigue! Il-y-a longtemps que nous ne nous reposons pas !",
+          "en": "Oh my! How tiring! It has been a long time since we last rested!",
+          "zh": "唉呀！真累！我們已經好久沒休息了！"
+        },
+        {
+          "t": "Sao kia do, sangai da!",
+          "fr": "Si c'est comme cela, reposez vous, alors !",
+          "en": "If that's how it is, then rest!",
+          "zh": "既然這樣，那就休息吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msangai",
+          "paradigm": "°Msangai, sangai, sngaii, sngayan, sngayun.",
+          "fr": "Se reposer - qui se repose - qui s'arrête de - dormir.",
+          "en": "To rest - one who rests - one who stops (doing something) - to sleep.",
+          "zh": "休息－休息的人－停止（做某事）的人－睡覺。",
+          "examples": [
+            {
+              "t": "Ga ko msangai n'qan tbako da",
+              "fr": "Je me suis arrêté de fumer (de manger du tabac).",
+              "en": "I have stopped smoking (\"eating\" tobacco).",
+              "zh": "我已經戒菸（不再「吃」菸）了。"
+            },
+            {
+              "t": "Msangai ka laqe matas pax saman",
+              "fr": "Les écoliers sont en vacance à partir de demain.",
+              "en": "The schoolchildren are on holiday starting tomorrow.",
+              "zh": "學生們從明天起放假。"
+            },
+            {
+              "t": "Ya sqoaq ! Ga msangai ka tama so!",
+              "fr": "Ne fais pas de bruit (tais-toi!)! Ton papa se repose (dort) !",
+              "en": "Don't make noise (be quiet!)! Your father is resting (sleeping)!",
+              "zh": "別出聲（安靜！）！你爸爸在休息（睡覺）！"
+            },
+            {
+              "t": "Msangai ko da!",
+              "fr": "Je m'arrête !",
+              "en": "I'm stopping!",
+              "zh": "我不做了（我停下來了）！"
+            }
+          ]
+        },
+        {
+          "form": "Sngayan",
+          "fr": "Halte - repos - temps, lieu d'arrêt - dimanche.",
+          "en": "A halt - rest - the time or place of stopping - Sunday.",
+          "zh": "停歇－休息－停止的時間或地點－星期日。",
+          "examples": [
+            {
+              "t": "Malu bi sngayan ka pngpong dgiyaq",
+              "fr": "Il fait bon se reposer (vl. s'arrêter) au sommet de la montagne (sur la cime).",
+              "en": "It is pleasant to rest (var. to stop) at the summit of the mountain (on the peak).",
+              "zh": "在山頂（山巔）休息（或：停歇）很舒服。"
+            },
+            {
+              "t": "Diyax sngayan ka sayang",
+              "fr": "Aujourd'hui c'est dimanche (le jour de repos).",
+              "en": "Today is Sunday (the day of rest).",
+              "zh": "今天是星期日（休息日）。"
+            }
+          ]
+        },
+        {
+          "form": "Psangai",
+          "paradigm": "°Mpsangai, psangai, psngaii, psngayan, psngayun.",
+          "fr": "Faire reposer - faire arrêter de - mettre au repos.",
+          "en": "To make (someone/something) rest - to make (someone) stop - to put at rest.",
+          "zh": "使休息－使停止－讓其休息。",
+          "examples": [
+            {
+              "t": "Ini so psangai ka kating da !",
+              "fr": "Tu ne fais pas reposer ton buffle ?",
+              "en": "Aren't you going to let your buffalo rest?",
+              "zh": "你不讓你的水牛休息嗎？"
+            },
+            {
+              "t": "Ima ka mpsangai laqe na sayang",
+              "fr": "Qui est-ce qui met son fils en vacance en ce moment?",
+              "en": "Who is it that is giving his son a holiday at this moment?",
+              "zh": "現在是誰讓自己的兒子放假呢？"
+            },
+            {
+              "t": "Psngayun mo pax saman ka dmkpax da!",
+              "fr": "Je licencierai (je mettrai au chômage) les ouvriers à partir de demain.",
+              "en": "I will lay off (put out of work) the workers starting tomorrow.",
+              "zh": "我從明天起要解雇（使失業）這些工人！"
+            }
+          ]
+        },
+        {
+          "form": "Spsangai",
+          "fr": "Raison, motif, prétexte, moyen pour faire arrêter, pour faire reposer, pour mettre au repos.",
+          "en": "A reason, motive, pretext, or means to make (someone) stop, to make (them) rest, to put (them) at rest.",
+          "zh": "讓人停止、休息、歇息的理由、動機、藉口或方法。",
+          "examples": [
+            {
+              "t": "Adi manu ka nsaan mo mg'li, spsangai mo tityex lqlaqe",
+              "fr": "La raison pour laquelle je suis allé danser, c'est pour laisser un peu souffler (pour faire reposer) les enfants.",
+              "en": "The reason I went dancing is to let the children catch their breath a little (to give them some rest).",
+              "zh": "我去跳舞的原因，是為了讓孩子們稍微喘口氣（讓他們休息一下）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SANGI", "tag": "(R)",
+      "fr": "Calebasse.",
+      "en": "Calabash (gourd).",
+      "zh": "葫蘆。",
+      "examples": [
+        {
+          "t": "Wixe sangi",
+          "fr": "Cuillère, coupe, récipient faits dans une calebasse.",
+          "en": "A spoon, cup, or container made from a calabash.",
+          "zh": "用葫蘆製成的湯匙、杯子或容器。"
+        }
+      ]
+    },
+    {
+      "hw": "SANYAQ", "tag": "(Est-ce R. de PSANYAQ ?)",
+      "fr": "Tabou ? - défendu par la tradition (?).",
+      "en": "Taboo? - forbidden by tradition (?).",
+      "zh": "禁忌？－傳統所禁止的（？）。",
+      "examples": []
+    },
+    {
+      "hw": "SAO", "tag": "",
+      "fr": "(Fonctionnel) Comme - à la manière de.",
+      "en": "(Functional word) Like - in the manner of.",
+      "zh": "（功能詞）像－以……的方式。",
+      "examples": [
+        {
+          "t": "Sao kia do",
+          "fr": "Puisque c'est ainsi!",
+          "en": "Since it is so!",
+          "zh": "既然如此！"
+        },
+        {
+          "t": "Sao kia ka malu",
+          "fr": "C'est comme cela que c'est bien.",
+          "en": "It is like this that it is good.",
+          "zh": "就是要像這樣才好。"
+        },
+        {
+          "t": "Sao paro bi taan",
+          "fr": "A le voir, on le dirait très grand.",
+          "en": "To see it, one would say it is very big.",
+          "zh": "看它一眼，會覺得它很大。"
+        },
+        {
+          "t": "Sao bi paro taan",
+          "fr": "En le voyant, il paraît grand;",
+          "en": "On seeing it, it appears big;",
+          "zh": "一看之下，它顯得很大；"
+        },
+        {
+          "t": "Sao bi kluyun ka nii",
+          "fr": "Cela est étonnant (vraiment comme surprenant).",
+          "en": "This is astonishing (really quite surprising).",
+          "zh": "這真令人驚訝（實在像是很出人意料）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msao",
+          "fr": "Etre comme.",
+          "en": "To be like.",
+          "zh": "像是、如同。",
+          "examples": [
+            {
+              "t": "Balae bi msao nkari mo",
+              "fr": "C'est vraiment comme j'ai dit!",
+              "en": "It is truly just as I said!",
+              "zh": "真的就跟我說的一樣！"
+            },
+            {
+              "t": "Ida msao suxal",
+              "fr": "C'est bien comme autrefois !",
+              "en": "It is indeed just like in the old days!",
+              "zh": "就跟從前一樣！"
+            }
+          ]
+        },
+        {
+          "form": "Ksao",
+          "fr": "Fais comme! (ordre!) - comme (négatif).",
+          "en": "Do it like (this)! (a command!) - like (in the negative).",
+          "zh": "照著做！（命令！）－像（否定用法）。",
+          "examples": [
+            {
+              "t": "Ini ko ksao sao nkari so",
+              "fr": "Je ne fais pas comme tu as dit.",
+              "en": "I am not doing as you said.",
+              "zh": "我沒有照你說的做。"
+            },
+            {
+              "t": "Ksao nanak sao nkari mo",
+              "fr": "Fais seulement comme je t'ai dit.",
+              "en": "Just do as I told you.",
+              "zh": "就照我跟你說的做就好。"
+            }
+          ]
+        },
+        {
+          "form": "Mksao",
+          "fr": "Etre celui qui fait comme - obeir.",
+          "en": "To be one who does likewise - to obey.",
+          "zh": "做出相同行為的人－順從、聽話。",
+          "examples": [
+            {
+              "t": "Ndoa bi! Pl'gi bi ndaan swai so! Mnksao bi sao nkari ludan ka xea",
+              "fr": "Comporte toi bien Imite ton petit frère; il a toujours suivi (il suivait toujours) ce que disaient les parents (vl. Il a toujours obéi aux parents).",
+              "en": "Behave well! Imitate your little brother; he has always followed (he always used to follow) what the parents said (var. He has always obeyed the parents).",
+              "zh": "要乖！學學你弟弟；他一向聽從（總是聽從）父母所說的話（或：他一向順從父母）。"
+            }
+          ]
+        },
+        {
+          "form": "Pksao",
+          "fr": "Faire pour que ce soit comme - réaliser selon.",
+          "en": "To act so that it be like (it) - to carry out according to.",
+          "zh": "使其成為那樣去做－依照……去實現。",
+          "examples": [
+            {
+              "t": "Pksao nanak sao nkari mo",
+              "fr": "Tu n'as qu'à réaliser ce que je t'ai dit (comme je t'ai dit)",
+              "en": "You need only carry out what I told you (just as I told you).",
+              "zh": "你只要照我跟你說的去做（就照我說的）就好。"
+            }
+          ]
+        },
+        {
+          "form": "Tksao",
+          "fr": "Imiter - faire semblant - faire comme.",
+          "en": "To imitate - to pretend - to act like.",
+          "zh": "模仿－假裝－裝作。",
+          "examples": [
+            {
+              "t": "Ana mn'luç bi o, tksao balae bsukan ka xea",
+              "fr": "Même quand il est très conscient, il imite parfaitement un ivrogne (celui qui est ivre).",
+              "en": "Even when he is fully sober (aware), he perfectly imitates a drunkard (one who is drunk).",
+              "zh": "即使他非常清醒，他也能完美地模仿一個醉漢（喝醉的人）。"
+            },
+            {
+              "t": "Kmpax namo do, ya bi tksao nanak",
+              "fr": "Quand vous travaillez, ne faites pas seulement semblant",
+              "en": "When you (all) work, don't merely pretend.",
+              "zh": "你們工作時，不要只是裝樣子。"
+            },
+            {
+              "t": "Tksao motoç",
+              "fr": "Faire le fou (donner l'illusion de la folie.).",
+              "en": "To play the madman (to give the illusion of madness).",
+              "zh": "裝瘋（製造出瘋狂的假象）。"
+            }
+          ]
+        },
+        {
+          "form": "Xksao",
+          "fr": "Faux (?) - trompeur (?) - vouloir injustement passer pour (?).",
+          "en": "False (?) - deceitful (?) - to want unjustly to pass for (something) (?).",
+          "zh": "虛假的（？）－欺騙的（？）－不當地想冒充為（某物）（？）。",
+          "examples": []
+        },
+        {
+          "form": "Txksao",
+          "fr": "Qui est hypocrite - qui est faux. (?)",
+          "en": "One who is hypocritical - one who is false. (?)",
+          "zh": "虛偽的人－虛假的人。（？）",
+          "examples": [
+            {
+              "t": "Txksao malu ! Wada so sxngiyan ka ana manu dnyagan nami xo!",
+              "fr": "Hypocrite! As tu oublié de combien de façons nous t'avons aidé ?",
+              "en": "Hypocrite! Have you forgotten in how many ways we have helped you?",
+              "zh": "偽君子！你難道忘了我們用多少方式幫助過你嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAOKE", "tag": "(R)",
+      "fr": "Faucille - petite serpette (de 15 à 20 cm. de long) un peu recourbée et dont la lame est dentelée.",
+      "en": "A sickle - a small billhook (15 to 20 cm long), slightly curved and with a serrated blade.",
+      "zh": "鐮刀－小型鉤鐮刀（長約15至20公分），略為彎曲，刀刃帶鋸齒。",
+      "examples": []
+    },
+    {
+      "hw": "SAPANG", "tag": "(R)",
+      "fr": "Rapiecer - mettre une pièce sur un habit, sur une etoffe.",
+      "en": "To patch - to put a patch on a garment, on a cloth.",
+      "zh": "打補丁－在衣服或布料上縫上補丁。",
+      "examples": [
+        {
+          "t": "Ini ko sapang libul snao no ka sayang",
+          "fr": "Maintenant je ne rapièce pas les pantalons de mon mari.",
+          "en": "Right now I am not patching my husband's trousers.",
+          "zh": "我現在沒有在補我丈夫的褲子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snapang",
+          "paradigm": "°Snapang, sapang, spangi, spangan, spangun.",
+          "fr": "d° forme verbale.",
+          "en": "Ditto: verbal form of the preceding.",
+          "zh": "同上：前項之動詞形。",
+          "examples": [
+            {
+              "t": "Ndoa bi snapang llubwi tqlyaan payai",
+              "fr": "tache de bien raccommoder les sacs pour y mettre le paddy.",
+              "en": "Make an effort to mend the sacks well so as to put the paddy (unhusked rice) in them.",
+              "zh": "要好好把袋子補好，用來裝稻穀。"
+            },
+            {
+              "t": "Ga ko snapang dnamux Iwal; xmut xnbui da!",
+              "fr": "Je suis en train de rafistoler le toit de Iwal; il coule de partout!",
+              "en": "I am patching up Iwal's roof; it leaks everywhere!",
+              "zh": "我正在修補伊瓦爾的屋頂；它到處漏水！"
+            }
+          ]
+        },
+        {
+          "form": "Msapang",
+          "fr": "Celui qui rapièce - ce qui est rapiècé.",
+          "en": "One who patches - that which is patched.",
+          "zh": "打補丁的人－被補過的東西。",
+          "examples": []
+        },
+        {
+          "form": "Ssapang",
+          "fr": "Pour rapiècer.",
+          "en": "For patching.",
+          "zh": "用來打補丁的。",
+          "examples": [
+            {
+              "t": "Ongat bi ana ina ka xnglyeq bulax lukus ssapang na kingal smudal",
+              "fr": "Il n'y a personne qui se mette à déchirer un habit neuf pour mettre une pièce à un vieux !",
+              "en": "There is no one who would set about tearing up a new garment to put a patch on an old one!",
+              "zh": "沒有人會去撕破一件新衣服，只為了拿來補一件舊衣服！"
+            }
+          ]
+        },
+        {
+          "form": "Spangan",
+          "fr": "Endroit où il y a une pièce rapportée. - ce qui a été raccomodé.",
+          "en": "The spot where there is an added patch - that which has been mended.",
+          "zh": "縫有補丁的地方－被縫補過的東西。",
+          "examples": [
+            {
+              "t": "Ma\" nbanax ka spangan so libul !",
+              "fr": "Qu'est-ce qui t'a pris de mettre une pièce rouge pour réparer mon pantalon ?",
+              "en": "What got into you, putting a red patch to mend my trousers?",
+              "zh": "你是怎麼回事，竟拿一塊紅布來補我的褲子？"
+            },
+            {
+              "t": "Wada so spangan ka libul no xo?",
+              "fr": "As tu rapiècé mes pantalons ?",
+              "en": "Have you patched my trousers?",
+              "zh": "你把我的褲子補好了嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAPAO", "tag": "(R)",
+      "fr": "Etaler - étendre par terre - faire un lit de.",
+      "en": "To spread out - to lay out on the ground - to make a bed of.",
+      "zh": "鋪開－鋪在地上－用……鋪成床。",
+      "examples": [
+        {
+          "t": "Ini so sapao da?",
+          "fr": "Tu n'as pas encore fait le lit ?",
+          "en": "Haven't you made the bed yet?",
+          "zh": "你還沒鋪床嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snapao",
+          "paradigm": "°Snapao, sapao, spagi, spagan, spagun.",
+          "fr": "d° forme verbale.",
+          "en": "Ditto: verbal form of the preceding.",
+          "zh": "同上：前項之動詞形。",
+          "examples": [
+            {
+              "t": "Ya xan! Ga ko snapao pttaqe laqe da !",
+              "fr": "Attends un peu, je suis en train de faire le lit pour mettre l'enfant dormir.",
+              "en": "Wait a moment, I am making the bed to put the child to sleep.",
+              "zh": "等一下，我正在鋪床好讓孩子睡覺。"
+            }
+          ]
+        },
+        {
+          "form": "Ssapao",
+          "fr": "Pour servir de matelas - pour étendre sous quelque chose.",
+          "en": "To serve as a mattress - to spread under something.",
+          "zh": "用來當墊子－鋪在某物下面。",
+          "examples": [
+            {
+              "t": "Ngalun so manu ssapao so Labai",
+              "fr": "Que prendras tu pour servir de matelas à Labai ?",
+              "en": "What will you take to serve as a mattress for Labai?",
+              "zh": "你要拿什麼來給拉拜當墊子？"
+            }
+          ]
+        },
+        {
+          "form": "Spagan",
+          "fr": "L'action, le lieu, le temps d'étendre la couche - Ce qui sert de couche, de matelas, de tapis.",
+          "en": "The act, place, or time of spreading out the bedding - that which serves as bedding, mattress, or mat.",
+          "zh": "鋪設床鋪的動作、地點或時間－用來當鋪蓋、墊子或蓆子的東西。",
+          "examples": [
+            {
+              "t": "M'xdo namo spagan do, mxa ko ntaqe ka yako da",
+              "fr": "Dès que vous aurez fini de faire le lit, moi je me couche.",
+              "en": "As soon as you (all) have finished making the bed, I will lie down.",
+              "zh": "你們一鋪好床，我就去睡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAPAT", "tag": "(R)",
+      "fr": "Se mal conduire - vivre en débauché.",
+      "en": "To behave badly - to live a dissolute life.",
+      "zh": "行為不檢－過著放蕩的生活。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msapat",
+          "fr": "Qui est dans la débauche - qui se conduit mal.",
+          "en": "One who is in debauchery - one who behaves badly.",
+          "zh": "沉溺於放蕩的人－品行不端的人。",
+          "examples": [
+            {
+              "t": "Ya bi pl'gi ka sao dmsapat adi ole o, sao dmbasyaq mqan ni mimax!",
+              "fr": "N'imitez pas ceux qui vivent en débauchés ou bien qui mangent et boivent comme des goinfres !",
+              "en": "Do not imitate those who live dissolutely, or who eat and drink like gluttons!",
+              "zh": "不要模仿那些生活放蕩的人，或那些像饕餮之徒般大吃大喝的人！"
+            }
+          ]
+        },
+        {
+          "form": "Ssapat (Ssgsapat (?) - T'sapat (?) - Tisapat (?))",
+          "fr": "Qui est dans, qui vit une débauche intense.",
+          "en": "One who is in, who lives in intense debauchery.",
+          "zh": "處於、過著極度放蕩生活的人。",
+          "examples": []
+        },
+        {
+          "form": "T'sapat (Tisapat (?))",
+          "fr": "Vraiment débauché.",
+          "en": "Truly debauched.",
+          "zh": "真正放蕩的。",
+          "examples": [
+            {
+              "t": "Tai ka dmt'sapat ni sao dmt'basyaq mqan ni mimax o, kmttg'xal balae",
+              "fr": "Les débauchés et les goinfres (qui s'empiffrent), (ils) aiment bien aller ensemble.",
+              "en": "The debauched and the gluttons (who stuff themselves), they much like to keep company together.",
+              "zh": "放蕩之徒與饕餮之徒（大吃大喝的人），他們很喜歡湊在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAPAX", "tag": "(R)",
+      "fr": "Construction qui sert de séjour à l'homme - maison - salle.",
+      "en": "A structure that serves as a dwelling for people - house - room/hall.",
+      "zh": "供人居住的建築物－房屋－廳室。",
+      "examples": [
+        { "t": "Sapax xpuyan", "fr": "Cuisine", "en": "Kitchen", "zh": "廚房" },
+        { "t": "Sapax tqean", "fr": "Chambre à coucher", "en": "Bedroom", "zh": "臥室" },
+        { "t": "Sapax tlmaan", "fr": "Salle de bain", "en": "Bathroom", "zh": "浴室" },
+        { "t": "Sapax qtiyan", "fr": "Toilettes, W.C.", "en": "Toilet, W.C.", "zh": "廁所、洗手間" },
+        { "t": "Sapax bligan", "fr": "Magasin", "en": "Shop, store", "zh": "商店" },
+        { "t": "Sapax spoxan", "fr": "Infirmerie (hopital)", "en": "Infirmary (hospital)", "zh": "醫務室（醫院）" },
+        { "t": "Sapax ppyaan", "fr": "Gare (maison, salle où l'on prend les billets)", "en": "Station (the building or hall where one buys tickets)", "zh": "車站（購票的房屋或大廳）" },
+        { "t": "Sapax ptasan", "fr": "Ecole (maison d'école)", "en": "School (schoolhouse)", "zh": "學校（校舍）" },
+        { "t": "Sapax pslyaan", "fr": "Salle de réunion", "en": "Meeting hall", "zh": "會議廳" },
+        { "t": "Sapax txmqoan", "fr": "Oratoire", "en": "Oratory (place of prayer)", "zh": "祈禱室" },
+        { "t": "sapax xdolan", "fr": "Temple (maison où se font les sacrifices)", "en": "Temple (house where sacrifices are performed)", "zh": "廟宇（舉行祭祀的房屋）" },
+        { "t": "Sapax xlpasan", "fr": "Maison de jeu, salle de jeu; etc..", "en": "Gambling house, game room; etc.", "zh": "賭場、遊戲廳；等等。" }
+      ],
+      "subs": [
+        {
+          "form": "Tnsapax",
+          "fr": "De la maison - maitre de maison.",
+          "en": "Of the house - master of the house.",
+          "zh": "屬於這房子的－一家之主。",
+          "examples": [
+            {
+              "t": "Siqa xali o ! Uxai so tnsapax ka iso",
+              "fr": "Sois un peu réservé (poli) ! Tu n'es pas chez toi , ici !",
+              "en": "Be a bit reserved (polite)! You are not at your own home here!",
+              "zh": "要稍微收斂（有禮貌）一點！你在這裡可不是在自己家！"
+            },
+            {
+              "t": "Ima ka tnsapax ?",
+              "fr": "Qui est le maître de maison ? (vl. qui est ce qui est de la maison ?).",
+              "en": "Who is the master of the house? (var. who is the one belonging to the house?).",
+              "zh": "誰是這家的主人？（或：誰是屬於這個家的人？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAPAX", "tag": "",
+      "fr": "Entre, entrez! (= impératif); (nb. c'est l'invitation ordinaire pour demander (ou obliger) à quelqu'un de rentrer dans la maison).",
+      "en": "Come in, enter! (= imperative); (n.b. this is the ordinary invitation to ask (or oblige) someone to come into the house).",
+      "zh": "進來、請進！（＝命令式）；（註：這是請（或要求）某人進屋的一般用語。）",
+      "examples": [
+        {
+          "t": "Sapax n'xali da! Mskwi (mskui(?)) bi ka sayang!",
+          "fr": "Entrez vite! Il fait vraiment froid, aujourd'hui !",
+          "en": "Come in quickly! It is really cold today!",
+          "zh": "快進來！今天真的很冷！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpasapax (mp'sapax)",
+          "fr": "Deviendra maison.",
+          "en": "Will become a house.",
+          "zh": "將會變成房子。",
+          "examples": [
+            {
+              "t": "Mpasapax mo xeti ka sapax Pido",
+              "fr": "La maison de Pido sera plus tard ma maison.",
+              "en": "Pido's house will later be my house.",
+              "zh": "皮多的房子以後會是我的房子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAPE", "tag": "(R)",
+      "fr": "Petite pioche (avec un manche de 50 ou 60 cm.) dont on se sert surtout pour biner ou pour désherber).",
+      "en": "A small mattock/hoe (with a handle of 50 or 60 cm) used mainly for hoeing or for weeding.",
+      "zh": "小鋤頭（柄長約50或60公分），主要用來鬆土或除草。",
+      "examples": []
+    },
+    {
+      "hw": "SAPOX", "tag": "(R)",
+      "fr": "1) Acte liturgique de purification et de sacrifice (= SMAPOX) le plus souvent pour obtenir une guérison, d'où : 2) Médicament; 3) Par extension = Engrais chimiques, produits chimiques, poisons..",
+      "en": "1) A liturgical act of purification and sacrifice (= SMAPOX), most often to obtain a healing, hence: 2) Medicine; 3) By extension = chemical fertilizers, chemical products, poisons.",
+      "zh": "1) 淨化與獻祭的祭儀行為（＝SMAPOX），最常見的目的是求得痊癒，由此引申為：2) 藥物；3) 引申為＝化學肥料、化學製品、毒藥。",
+      "examples": [
+        {
+          "t": "Dii Sapox sapax spoxan so nanak ssapox so qaqai mo",
+          "fr": "Sers toi uniquement des médicaments de ta pharmacie pour soigner mon pied.",
+          "en": "Use only the medicines from your own medicine cabinet (dispensary) to treat my foot.",
+          "zh": "只用你藥箱（藥房）裡的藥來醫治我的腳。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smapox",
+          "fr": "1) Rite liturgique, comportant le plus souvent un sacrifice, pour se rendre favorables les esprits, avant la chasse, la guerre, les semailles, toute démarche importante dans la vie. 2) Pour procurer",
+          "en": "1) A liturgical rite, most often involving a sacrifice, to make the spirits favorable, before the hunt, war, sowing, any important undertaking in life. 2) To procure",
+          "zh": "1) 一種祭儀，最常包含一次獻祭，目的是使神靈眷顧，在狩獵、戰爭、播種等人生中任何重要行動之前舉行。2) 為了取得",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

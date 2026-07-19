@@ -1,0 +1,717 @@
+{
+  "pages": [326, 329],
+  "leadin": {
+    "fr": "je t'ai dit! ... C'est sans importance! Je n'en boirai que très peu!",
+    "en": "I told you! ... It's of no importance! I'll only drink very little of it!",
+    "zh": "我告訴過你了！……沒關係！我只會喝一點點！",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pntipyaq",
+        "fr": "Un petit peu à la fois - à chacun une petite part.",
+        "en": "A little bit at a time - to each a small share.",
+        "zh": "每次一點點－每人分到一小份。",
+        "examples": [
+          {
+            "t": "Sapox nii o, asi ka pntipyaq mqan",
+            "fr": "Ce médicament, il s'agit de le prendre (de le manger) à petites doses.",
+            "en": "This medicine must be taken (eaten) in small doses.",
+            "zh": "這種藥必須少量服用（食用）。"
+          },
+          {
+            "t": "Bilaq bi ka nadas mo ! Ana qoqo ta pntipyaq !",
+            "fr": "Je n'en ai apporté que très peu ! Tant pis! on partagera (Tant pis si on en a une toute petite part chacun).",
+            "en": "I brought only very little of it! Never mind! we'll share it (Never mind if each of us gets only a tiny share).",
+            "zh": "我只帶了一點點來！沒辦法！大家分著用（就算每人只分到一小份也沒辦法）。"
+          }
+        ]
+      },
+      {
+        "form": "Stipyaq",
+        "fr": "Rendre plus petit - rapetisser - pour que ce soit plus petit, diminuer la quantité.",
+        "en": "To make smaller - to reduce in size - so that it be smaller, to diminish the quantity.",
+        "zh": "使變小－縮小－為使其變小，減少數量。",
+        "examples": [
+          {
+            "t": "Ndoa bi stipyaq mqan; stpyeqon mo nimax sinao ole",
+            "fr": "Tâche de réduire la quantité de nourriture et moi je boirai une plus petite dose de vin.",
+            "en": "Try to reduce the amount of food and I will drink a smaller dose of wine.",
+            "zh": "你設法減少食物的份量，我則會少喝一點酒。"
+          }
+        ]
+      },
+      {
+        "form": "Sptipyaq",
+        "fr": "Pour faire que ce soit plus petit, une moins grande quantité",
+        "en": "In order to make it smaller, a lesser quantity",
+        "zh": "為了使其變小，數量減少",
+        "examples": [
+          {
+            "t": "Kdloxun mo tasil kana siyao. na iyux mo sptipyaq uda da",
+            "fr": "Je construirai (je veux construire) un (petit) mur de pierre tout autour ( sur tout le bord) pour rendre le passage plus étroit.",
+            "en": "I will build (I want to build) a (small) stone wall all around (along the whole edge) to make the passage narrower.",
+            "zh": "我要（想要）沿著四周（整個邊緣）築一道（小）石牆，好讓通道變得更窄。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "TISA", "tag": "(R)",
+      "fr": "Enseigner - faire savoir - informer.",
+      "en": "To teach - to make known - to inform.",
+      "zh": "教導－使知曉－告知。",
+      "examples": [
+        {
+          "t": "Ana so mxoya o, ya bi tisa ana nanu ka iso",
+          "fr": "Quoi qu'il t'arrive, garde toi bien de révéler la moindre chose!",
+          "en": "Whatever happens to you, take good care not to reveal the slightest thing!",
+          "zh": "無論你遭遇什麼，都要小心切勿透露一絲一毫！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmisa",
+          "paradigm": "Tmisa, tisa, tsai, tsaan, tsaon",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Malu bi ka tmisa kari ta nanak; kmtisa ko bi ka yako ole; xoya mo ksun ka ongat ka mptisa !",
+              "fr": "C'est une bonne chose d'enseigner notre propre langue; et j'aimerais bien l'enseigner moi aussi; (mais) que puis-je faire (comment faire) puisqu'il n'y a personne qui veuille apprendre (se fasse enseigner).",
+              "en": "It is a good thing to teach our own language; and I would very much like to teach it too; (but) what can I do (how can I go about it) since there is no one who wants to learn (to be taught).",
+              "zh": "教導我們自己的語言是件好事；我也很想教；（但是）既然沒有人願意學習（接受教導），我又能怎麼辦（如何是好）呢。"
+            }
+          ]
+        },
+        {
+          "form": "Mtisa (vr. Mtgisa)",
+          "fr": "Celui qui enseigne - maître - professeur.",
+          "en": "One who teaches - master - teacher.",
+          "zh": "教導者－師傅－老師。",
+          "examples": [
+            {
+              "t": "Mssli sayang sapax mo pnax l'alang ka kana ntgisa",
+              "fr": "Aujourd'hui tous les maîtres des divers villages se réunissent chez moi.",
+              "en": "Today all the teachers of the various villages are gathering at my house.",
+              "zh": "今天各村的老師都聚集在我家。"
+            },
+            {
+              "t": "Yako ka mtisa lqlaqe daxa",
+              "fr": "C'est moi qui enseigne les (fais l'école à leurs) enfants.",
+              "en": "It is I who teach the (run the school for their) children.",
+              "zh": "是我在教（為他們的）孩子（辦學）。"
+            }
+          ]
+        },
+        {
+          "form": "Mtgisa",
+          "fr": "Maître - professeur - enseignant. (nb. MTGISA semble employé de préférence pour désigner celui qui exerce la profession d'enseignant et MTISA celui qui de fait enseigne; en pratique, l'emploi d'un terme ou de l'autre dépend souvent du locuteur).",
+          "en": "Master - teacher - instructor. (n.b. MTGISA seems used preferably to designate one who practices the profession of teaching and MTISA one who in fact teaches; in practice, the use of one term or the other often depends on the speaker).",
+          "zh": "師傅－老師－教師。（註：MTGISA 似乎較常用來指從事教職者，而 MTISA 則指實際在教導者；實際上，用哪個詞往往取決於說話者。）",
+          "examples": []
+        },
+        {
+          "form": "Tnsaan",
+          "fr": "Ce qui a été enseigné -(souvent:Elève, qui semble devoir se dire: Tngsaan).",
+          "en": "That which has been taught -(often: Pupil, which seems it ought to be said: Tngsaan).",
+          "zh": "所教導的內容－（常指：學生，似乎應說作 Tngsaan）。",
+          "examples": [
+            {
+              "t": "Ya so wada psaan tunuç kana ka tnsaan mo ?",
+              "fr": "J'espère (je suppose) que tu as bien enregistré (mis dans ta tête) tout ce que j'ai enseigné !",
+              "en": "I hope (I suppose) that you have well recorded (put in your head) everything I have taught!",
+              "zh": "我希望（我想）你已把我所教的一切都好好記住（記在腦中）了！"
+            }
+          ]
+        },
+        {
+          "form": "Tngsaan",
+          "fr": "Elève - disciple - ceux qui ont été enseignés.",
+          "en": "Pupil - disciple - those who have been taught.",
+          "zh": "學生－門徒－受過教導的人。",
+          "examples": [
+            {
+              "t": "Kingal ntngsaan mo ka Iban",
+              "fr": "Ibanne est l'un de mes anciens élèves(disciple).",
+              "en": "Ibanne is one of my former pupils (disciples).",
+              "zh": "以班是我從前的學生（門徒）之一。"
+            }
+          ]
+        },
+        {
+          "form": "Mttisa",
+          "fr": "S'enseigner, s'apprendre mutuellement.",
+          "en": "To teach one another, to learn mutually.",
+          "zh": "互相教導、互相學習。",
+          "examples": [
+            {
+              "t": "Ana ongat ka mtgisa ta da o, ndoai bi mttisa nanak ka yamo",
+              "fr": "Bien que nous n'ayons plus notre professeur, vous autres efforcez vous de vous enseigner mutuellement.",
+              "en": "Although we no longer have our teacher, you others make an effort to teach one another.",
+              "zh": "雖然我們已經沒有老師了，你們要努力互相教導。"
+            }
+          ]
+        },
+        {
+          "form": "Ptisa",
+          "fr": "Acte de se faire enseigner, de se faire expliquer.",
+          "en": "The act of getting oneself taught, of getting something explained to oneself.",
+          "zh": "使自己受教導、使人為自己講解的行為。",
+          "examples": [
+            {
+              "t": "Suyang bi ka mtgisa nii ! kmusa ko bi ptisa smais lukus ka yako ole!",
+              "fr": "Il (elle) est vraiment bien ce professeur; J'ai bien envie d'aller apprendre ( me faire enseigner) la couture moi aussi !",
+              "en": "This teacher is really good; I really feel like going to learn (to get myself taught) sewing too!",
+              "zh": "這位老師真的很好；我也很想去學（讓人教我）縫紉！"
+            }
+          ]
+        },
+        {
+          "form": "Ptgisa (= Var. de PTISA ?)",
+          "fr": "Se faire enseigner - apprendre (peut-être comme une démarche permanente, un état, et non un acte concret ?).",
+          "en": "To get oneself taught - to learn (perhaps as a permanent process, a state, and not a concrete act ?).",
+          "zh": "使自己受教導－學習（也許是一種持續的過程、一種狀態，而非具體的行為？）。",
+          "examples": [
+            {
+              "t": "Kk'la so balae bi ptpusu ka ndaan so ptgisa",
+              "fr": "Pour que tu saches que c'est vraiment authentique, fondé, tout ce que tu as appris (tu t'es fait enseigner).",
+              "en": "So that you may know that everything you have learned (had yourself taught) is truly authentic, well-founded.",
+              "zh": "好讓你知道你所學到的（你讓人教你的）一切都是真正可靠、有根據的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TITYEX", "tag": "(= R. ?)",
+      "crossRef": "VR. TYEX",
+      "fr": "Un peu - très peu.",
+      "en": "A little - very little.",
+      "zh": "一點－很少。",
+      "examples": [
+        {
+          "t": "Maxai ta tityex ksia so xo ?",
+          "fr": "Nous boirions bien un peu de ton eau.",
+          "en": "We would gladly drink a little of your water.",
+          "zh": "我們很想喝一點你的水。"
+        }
+      ]
+    },
+    {
+      "hw": "TIU (TIYU ?)", "tag": "(R)",
+      "fr": "Montrer du doigt - désigner à vue.",
+      "en": "To point at with the finger - to point out by sight.",
+      "zh": "用手指指－指出（看得見的東西）。",
+      "examples": [
+        {
+          "t": "Ya bi tiu (tiyu) sadyaq; naqex taan (qtaan ?) ka kia!",
+          "fr": "Ne montre pas les gens du doigt Ce n'est pas beau (à voir)!",
+          "en": "Don't point at people with your finger It's not nice (to look at)!",
+          "zh": "不要用手指指著別人，這樣不好看！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmiu (tmiyu)",
+          "paradigm": "Tmiu, tiu, (tii (?) - Tiani (?), tiyan (Tyuan ?), ?",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Xmut so tmiu sadyaq o, siqa bi !",
+              "fr": "Tu montres les gens du doigt sans façon, c'est honteux !",
+              "en": "You point at people with your finger without any manners, it's shameful!",
+              "zh": "你毫不客氣地用手指指著別人，真丟臉！"
+            }
+          ]
+        },
+        {
+          "form": "Tian (Tiyan)",
+          "fr": "Lieu .. temps .. objet du montrer.",
+          "en": "Place .. time .. object of the pointing.",
+          "zh": "指示的地點……時間……對象。",
+          "examples": [
+            {
+              "t": "Manu bi ka tiyan na?",
+              "fr": "Qu'est-ce qu'il montre du doigt ?",
+              "en": "What is he pointing at with his finger?",
+              "zh": "他用手指指著什麼？"
+            }
+          ]
+        },
+        {
+          "form": "Tyaani",
+          "fr": "Moyen (?) pour montrer.",
+          "en": "Means (?) for pointing.",
+          "zh": "指示的方法（？）。",
+          "examples": [
+            {
+              "t": "Ki do, dsun na balao ni asi na tyaani kana l'alang mtqoli",
+              "fr": "Aussitôt il l'à conduit (porté) tout en haut et lui montra (pour lui montrer à partir de là) tout le pays environnant",
+              "en": "At once he led (carried) him right up to the top and showed him (in order to show him from there) all the surrounding country.",
+              "zh": "他隨即把他帶（帶）到最高處，指給他看（好從那裡讓他看）周圍所有的地方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TIXONG", "tag": "(R)",
+      "fr": "Fétu de paille.",
+      "en": "Wisp of straw.",
+      "zh": "一根麥稈（草屑）。",
+      "examples": [
+        {
+          "t": "Ma so taan bi tixong ka ga daolyaq mnswai ni ini so klaxang bnaang ka ga daolyaq so ?",
+          "fr": "Pourquoi vois tu parfaitement le brin de paille dans l'oeil de ton frère sans faire attention au tronc d'arbre qui est dans ton oeil ?",
+          "en": "Why do you see perfectly the wisp of straw in your brother's eye without paying attention to the tree trunk that is in your own eye?",
+          "zh": "為什麼你能清楚看見你弟兄眼中的草屑，卻不留意自己眼中的樹幹呢？"
+        }
+      ]
+    },
+    {
+      "hw": "TIYU", "tag": "",
+      "crossRef": "TIU",
+      "fr": "Sans doute forme plus vrai de TIU ci-dessus.",
+      "en": "Doubtless a truer form of TIU above.",
+      "zh": "無疑是上文 TIU 的較正確形式。",
+      "examples": []
+    },
+    {
+      "hw": "TKLANG (TK'LANG)", "tag": "(R)",
+      "fr": "Côtes - flanc.",
+      "en": "Ribs - flank.",
+      "zh": "肋骨－脅側。",
+      "examples": [
+        {
+          "t": "Soqe knliwang na o, msliyu kana ka tk'lang nia",
+          "fr": "A force d'être maigre (il est tellement maigre que)toutes ses côtes sont saillantes.",
+          "en": "From being so thin (he is so thin that) all his ribs stick out.",
+          "zh": "由於太瘦（他瘦到）所有的肋骨都突出來了。"
+        }
+      ]
+    },
+    {
+      "hw": "TK'MU", "tag": "(R)",
+      "fr": "Plier - enrouler - ranger - mettre en ordre.",
+      "en": "To fold - to roll up - to put away - to put in order.",
+      "zh": "摺疊－捲起－收拾－整理。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tnk'mu",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Yaxe ko dmayao tnk'mu (ttk'mu) llukus mo",
+              "fr": "Il faut que tu viennes m'aider à plier (à ranger) mes habits.",
+              "en": "You must come help me fold (put away) my clothes.",
+              "zh": "你得來幫我摺（收拾）衣服。"
+            },
+            {
+              "t": "M'xdo tnk'mu (tmk'mu) patas do, sboai na mqapax xea",
+              "fr": "Après avoir fermé son livre, il le donne (pour le remettre) au serviteur qui était là.",
+              "en": "After closing his book, he gives it (to be put back) to the servant who was there.",
+              "zh": "他闔上書後，把書交給（好放回原處）在旁的僕人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TK'NAI", "tag": "(R)",
+      "fr": "En compagnie de .",
+      "en": "In the company of.",
+      "zh": "與……作伴／同行。",
+      "examples": [
+        {
+          "t": "Tk'nai ta da xo ?",
+          "fr": "Allons ensemble, veux-tu ?",
+          "en": "Let's go together, shall we?",
+          "zh": "我們一起去，好嗎？"
+        },
+        {
+          "t": "Mnsa ko tknai laqe Diyan",
+          "fr": "J'y suis allé en compagnie du fils de Djian.",
+          "en": "I went there in the company of Djian's son.",
+          "zh": "我和迪揚的兒子一起去了那裡。"
+        },
+        {
+          "t": "Tknai ta kana kika malu",
+          "fr": "Allons tous ensemble, ce sera bien mieux !",
+          "en": "Let's all go together, it will be much better!",
+          "zh": "我們大家一起去，這樣會好得多！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtk'nai",
+          "fr": "Qui accompagne - qui est en compagnie - qui va avec.",
+          "en": "One who accompanies - who is in company - who goes along with.",
+          "zh": "陪伴的人－同行的人－一起去的人。",
+          "examples": [
+            {
+              "t": "Wada mtk'nai ka dxea",
+              "fr": "Ils sont partis ensemble.",
+              "en": "They left together.",
+              "zh": "他們一起出發了。"
+            }
+          ]
+        },
+        {
+          "form": "Tknayun",
+          "fr": "Compagnon (voulu, normal).",
+          "en": "Companion (intended, normal).",
+          "zh": "同伴（所期望的、正常的）。",
+          "examples": [
+            {
+              "t": "Ima ka tknayun so ?",
+              "fr": "Qui est-ce qui doit (veut, sera) t'accompagner ?",
+              "en": "Who is to (wants to, will) accompany you?",
+              "zh": "誰要（想、將）陪你去？"
+            },
+            {
+              "t": "Ongat tknayun mo",
+              "fr": "Je suis seul (Je n'ai pas de compagnon).",
+              "en": "I am alone (I have no companion).",
+              "zh": "我獨自一人（我沒有同伴）。"
+            }
+          ]
+        },
+        {
+          "form": "Tknayan",
+          "fr": "En compagnie (de fait) ;",
+          "en": "In company (in fact);",
+          "zh": "（實際上）作伴；",
+          "examples": [
+            {
+              "t": "Wana bi Mikat ka tknayan mo kdiyax",
+              "fr": "Mikatz est chaque fois ma seule compagnie .",
+              "en": "Mikatz is each time my only company.",
+              "zh": "每次都只有米卡特陪伴我。"
+            }
+          ]
+        },
+        {
+          "form": "Stk'nai",
+          "fr": "Pour être en compagnie de.",
+          "en": "In order to be in the company of.",
+          "zh": "為了與……作伴。",
+          "examples": [
+            {
+              "t": "Wada stk'nai dMikat ka laqe no",
+              "fr": "Ma fille est partie pour être en compagnie du groupe de Mikatz.",
+              "en": "My daughter left to be in the company of Mikatz's group.",
+              "zh": "我女兒去和米卡特那群人作伴了。"
+            },
+            {
+              "t": "Tmnabwi ka xea stk'nai na llisao d'xa musa ng'li",
+              "fr": "Il (elle) est descendu pour aller danser en compagnie des autres garçons.",
+              "en": "He (she) went down to go dance in the company of the other boys.",
+              "zh": "他（她）下去和其他男孩一起跳舞了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TKULI", "tag": "(= R. ?)",
+      "fr": "Verser - mettre dans (récipient). (Peut-être : TQULI ?)",
+      "en": "To pour - to put into (a container). (Perhaps: TQULI ?)",
+      "zh": "倒－裝入（容器）。（也許是 TQULI？）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmkuli (Tmquli ?)",
+          "paradigm": "Tmkuli, tkuli, tklii, tkliyan, tkliyun",
+          "fr": "Verser dans; faire contenir.",
+          "en": "To pour into; to make contain.",
+          "zh": "倒入；使容納。",
+          "examples": [
+            {
+              "t": "Ongat bi ka tmkuli xana snalu sinao klulu(kska) smudal bi lubwi qlaqel",
+              "fr": "Personne ne s'avise de verser du vin nouveau dans de vieilles outres !",
+              "en": "No one thinks of pouring new wine into old wineskins!",
+              "zh": "沒有人會想把新酒倒入舊皮袋裡！"
+            },
+            {
+              "t": "Tklii liwas ka dengdang (dngdang) so",
+              "fr": "Verse ton eau bouillante dans la marmite (dans la jarre).",
+              "en": "Pour your boiling water into the pot (into the jar).",
+              "zh": "把你的滾水倒進鍋裡（罐裡）。"
+            }
+          ]
+        },
+        {
+          "form": "Tkleun (vl.Tkliyun)",
+          "fr": "Ce qu'on doit verser, mettre dans.",
+          "en": "That which one is to pour, to put into.",
+          "zh": "要倒入、要裝入的東西。",
+          "examples": [
+            {
+              "t": "Tkleun so manu ka ttrabus so ?",
+              "fr": "Dans quoi vas-tu mettre tes arachides ?",
+              "en": "What are you going to put your peanuts into?",
+              "zh": "你要把花生裝進什麼裡面？"
+            }
+          ]
+        },
+        {
+          "form": "Tklean (vl.Tkliyan)",
+          "fr": "Récipient ( Jarre - sac - caisse) .",
+          "en": "Container (jar - sack - crate).",
+          "zh": "容器（罐－袋－箱）。",
+          "examples": [
+            {
+              "t": "Balae bi bulax lubwi qlaqel ka balae bi tklean (tqlean) xana snalu sinao klulu",
+              "fr": "Naturellement c'est dans une outre neuve qu'on peut vraiment mettre le vin nouveau !",
+              "en": "Naturally it is in a new wineskin that one can really put the new wine!",
+              "zh": "自然，只有在新皮袋裡才能真正裝新酒！"
+            }
+          ]
+        },
+        {
+          "form": "Tnklean",
+          "fr": "Contenance - récipient servi dans le passé.",
+          "en": "Capacity - a container that was used in the past.",
+          "zh": "容量－過去用過的容器。",
+          "examples": [
+            {
+              "t": "Daxa baket sn'gali ka tnklean (tklean ?) liwas mo",
+              "fr": "Ma jarre contient plus de deux seaux.",
+              "en": "My jar holds more than two buckets.",
+              "zh": "我的罐子可裝兩桶以上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TKUMAX", "tag": "(R)",
+      "fr": "Mettre sens dessus dessous - renversé . en désarroi .",
+      "en": "To turn upside down - overturned. in disarray.",
+      "zh": "翻天覆地－翻倒－陷入混亂。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmkumax (?)",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Ma so miyax tmkumax (tkumax ?) kana lnglongan d'xa ?",
+              "fr": "Qu'est-ce qui te prend de venir tout bouleverser leurs esprits ? (nb. En ce cas, PTKUMAX est plus indiqué !).",
+              "en": "What gets into you to come and completely upset their minds? (n.b. In this case, PTKUMAX is more appropriate!).",
+              "zh": "你是怎麼了，竟來把他們的心思攪得天翻地覆？（註：這種情況下，用 PTKUMAX 更為恰當！）"
+            }
+          ]
+        },
+        {
+          "form": "Mtkumax",
+          "fr": "Qui est tout à l'envers.",
+          "en": "Which is all upside down.",
+          "zh": "完全顛倒的。",
+          "examples": [
+            {
+              "t": "Mtkumax kana lnglongan mo da",
+              "fr": "Je suis tout déconcerté (tout sens dessus dessous).",
+              "en": "I am all bewildered (all topsy-turvy).",
+              "zh": "我完全不知所措（心緒全亂了）。"
+            }
+          ]
+        },
+        {
+          "form": "Ptkumax",
+          "fr": "Mettre en désarroi - déconcerter, bouleverser.",
+          "en": "To throw into disarray - to disconcert, to upset.",
+          "zh": "使陷入混亂－使困惑、使煩亂。",
+          "examples": [
+            {
+              "t": "Bnxangan mo kari d'xa ka pntkumax lnglongan no",
+              "fr": "C'est ce que j'ai entendu dire par les autres qui n'a tout retourné !",
+              "en": "It is what I heard others say that has completely upset me!",
+              "zh": "正是我聽別人說的話把我攪得心煩意亂！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TKWINI", "tag": "(R)",
+      "fr": "Avoir des étourdissements.",
+      "en": "To have dizzy spells.",
+      "zh": "頭暈。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtkwini",
+          "fr": "Qui a des étourdissements - qui tourne.",
+          "en": "One who has dizzy spells - who is spinning.",
+          "zh": "頭暈的－天旋地轉的。",
+          "examples": [
+            {
+              "t": "Mtkwini kana ka tunuç mo!",
+              "fr": "J'ai toute la tête qui tourne - Je suis tout étourdi !",
+              "en": "My whole head is spinning - I am all dizzy!",
+              "zh": "我整個頭都在轉－我頭暈目眩！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLALAE", "tag": "(R. = LALAE)",
+      "crossRef": "Vr.LALAE",
+      "fr": "D'abord - qui est avant - qui est le premier.",
+      "en": "First - that which is before - that which is first.",
+      "zh": "首先－在前的－最先的。",
+      "examples": []
+    },
+    {
+      "hw": "T'LAP (TLAP)", "tag": "(R)",
+      "fr": "Bandeau spécial aux taroko, large de 4 à 6 cm. ,noué sur la tête du dessus du front au bas de la nuque.",
+      "en": "Headband special to the Taroko, 4 to 6 cm wide, tied on the head from above the forehead to the base of the nape.",
+      "zh": "太魯閣族特有的頭帶，寬 4 至 6 公分，繫於頭上，自前額上方繞至後頸底部。",
+      "examples": []
+    },
+    {
+      "hw": "TLAQEL", "tag": "(R)",
+      "fr": "Nuire à quelqu'un - Etre en mauvaise condition - (se battre ?).",
+      "en": "To harm someone - to be in bad condition - (to fight?).",
+      "zh": "傷害某人－處於惡劣狀況－（打鬥？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtlaqel",
+          "fr": "Se faire la guerre - se faire mutuellement du mal (?) - se trouver dans des conditions douloureuses (?). (nb. MQLAQEL a constamment le sens de souffrir, d'être en mauvais état; MTLAQEL semble bien employé le plus souvent avec un sens de réciprocité dans la souffrance provoquée, mais bien des locuteurs semblent confondre ces deux formes).",
+          "en": "To make war on one another - to do each other harm (?) - to find oneself in painful conditions (?). (n.b. MQLAQEL constantly has the sense of suffering, of being in a bad state; MTLAQEL seems indeed used most often with a sense of reciprocity in the suffering caused, but many speakers seem to confuse these two forms).",
+          "zh": "互相征戰－互相傷害（？）－身處痛苦的境況（？）。（註：MQLAQEL 始終帶有受苦、處於惡劣狀態的意思；MTLAQEL 則似乎最常用於表達所造成痛苦的相互性，但許多說話者似乎混淆了這兩種形式。）",
+          "examples": [
+            {
+              "t": "Mntlaqel (Mnttlaqel?) bi suxal ka dSbnawan ni dTroko",
+              "fr": "Les Ani et les Taroko se faisaient durement la guerre (se faisaient mutuellement souffrir) autrefois.",
+              "en": "The Ani and the Taroko used to wage bitter war on each other (made each other suffer) in the old days.",
+              "zh": "從前，阿尼人與太魯閣人彼此激烈交戰（互相使對方受苦）。"
+            }
+          ]
+        },
+        {
+          "form": "Tlqelan",
+          "fr": "Cruauté mutuelle - souffrances mutuellement provoquées. (nb. QLQELAN indique toujours les souffrances subies).",
+          "en": "Mutual cruelty - mutually inflicted sufferings. (n.b. QLQELAN always indicates the sufferings undergone).",
+          "zh": "彼此殘酷相待－互相造成的痛苦。（註：QLQELAN 始終指所承受的痛苦。）",
+          "examples": [
+            {
+              "t": "Paro bi tnlqelan dTroko ka suxal",
+              "fr": "Autrefois les Taroko se faisaient durement souffrir entre eux.",
+              "en": "In the old days the Taroko made each other suffer bitterly.",
+              "zh": "從前太魯閣人彼此使對方深受痛苦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLAWA", "tag": "(R. ?)",
+      "fr": "Eau profonde - de couleur bleue. (nb. Sans doute dans son sens primitif, ceterme désigne un endroit d'eau profonde où l'eau a une coloration bleue et, par extension, désigne cette couleur bleue elle même.).",
+      "en": "Deep water - of blue color. (n.b. Doubtless in its primitive sense, this term designates a place of deep water where the water has a blue coloration and, by extension, designates that blue color itself.).",
+      "zh": "深水－藍色的。（註：此詞原本的意思無疑是指水呈藍色的深水處，並引申指這種藍色本身。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtlawa",
+          "fr": "1° Endroit où l'eau est profonde. 2° Qui est de couleur bleue, violette.",
+          "en": "1° Place where the water is deep. 2° Which is of blue, violet color.",
+          "zh": "1° 水深之處。 2° 呈藍色、紫色的。",
+          "examples": [
+            {
+              "t": "Usa ntlawa gsilong pslaxo ksoloç da",
+              "fr": "Va donc en haute mer jeter tes filets pour prendre des poissons.",
+              "en": "Go then out to the deep sea to cast your nets to catch fish.",
+              "zh": "那就到深海去撒網捕魚吧。"
+            },
+            {
+              "t": "Ini iyax ka ng'xaq na; asi bi ntlawa kana ka dqalas nia!",
+              "fr": "Son souffle ne vient plus, à tel point que sa face est toute bleue (violette) !",
+              "en": "His breath no longer comes, to the point that his face is all blue (violet)!",
+              "zh": "他已經沒了氣息，臉都發青（發紫）了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TLAWAI", "tag": "(Vr. KLAWAI)",
+      "crossRef": "VR. KLAWAI",
+      "fr": "Papillon (nb. Formose en possède de très nombreuses et riches variétés).",
+      "en": "Butterfly (n.b. Formosa possesses very numerous and rich varieties of them).",
+      "zh": "蝴蝶（註：福爾摩沙擁有非常多樣而豐富的品種）。",
+      "examples": []
+    },
+    {
+      "hw": "TLAXE", "tag": "(R)",
+      "fr": "Pamplemousse.",
+      "en": "Pomelo (grapefruit).",
+      "zh": "柚子。",
+      "examples": [
+        {
+          "t": "Pusu tlaxe",
+          "fr": "Pamplemoussier.",
+          "en": "Pomelo tree.",
+          "zh": "柚子樹。"
+        }
+      ]
+    },
+    {
+      "hw": "TLA'TO (TL\"TO)", "tag": "(R)",
+      "fr": "Froid - refroidi (ce qui devrait être chaud).",
+      "en": "Cold - cooled down (that which ought to be hot).",
+      "zh": "冷的－變冷的（本應是熱的東西）。",
+      "examples": [
+        {
+          "t": "Dndangi ni tla'to do, imax da!",
+          "fr": "Fais bouillir et quand ce sera froid, bois !",
+          "en": "Boil it and when it is cold, drink!",
+          "zh": "把它煮沸，等它冷了就喝！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Matla'to",
+          "fr": "Deviendra froid - se refroidira.",
+          "en": "Will become cold - will cool down.",
+          "zh": "會變冷－會冷卻。",
+          "examples": [
+            {
+              "t": "Oqe n'xali ! Matla'to kia ka danat so!",
+              "fr": "Mange vite! Tes légumes vont devenir froids !",
+              "en": "Eat quickly! Your vegetables are going to get cold!",
+              "zh": "快吃！你的菜要涼了！"
+            }
+          ]
+        },
+        {
+          "form": "Pktla'to (ptla'to ?)",
+          "fr": "Refroidir - rafraîchir .",
+          "en": "To cool - to refresh.",
+          "zh": "使冷卻－使涼快。",
+          "examples": [
+            {
+              "t": "Pktltoon mo tityex ka dndangan so ksia",
+              "fr": "Je vais refroidir un peu l'eau que tu as bouilli.",
+              "en": "I am going to cool a little the water that you have boiled.",
+              "zh": "我要把你煮沸的水弄涼一點。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

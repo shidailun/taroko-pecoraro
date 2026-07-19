@@ -1,0 +1,689 @@
+{
+  "pages": [182, 185],
+  "leadin": {
+    "fr": "…celle de la lune.",
+    "en": "…that of the moon.",
+    "zh": "……以及月亮的（光）。",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Lmxang",
+        "fr": "Éclairer - illuminer.",
+        "en": "To light up - to illuminate.",
+        "zh": "照亮－照明。",
+        "examples": [
+          {
+            "t": "Pasi bi lmxang dxeaan ka l'dax pnax ska sapax",
+            "fr": "Et du coup la lumière (le rayon) venue de l'intérieur de la maison les illumine, les éclaire.",
+            "en": "And at once the light (the ray) coming from inside the house illuminates them, lights them up.",
+            "zh": "於是從屋內射出的光（光線）便照亮了他們。"
+          }
+        ]
+      },
+      {
+        "form": "Lxangan",
+        "fr": "Éclairage.",
+        "en": "Lighting - illumination.",
+        "zh": "照明－光亮。",
+        "examples": [
+          {
+            "t": "Paro bi lxangan na ka xalong so nii",
+            "fr": "Ton falot donne une grande lumière (éclaire beaucoup).",
+            "en": "Your lantern gives a great deal of light (lights up a lot).",
+            "zh": "你這盞燈很亮（照得很亮）。"
+          }
+        ]
+      },
+      {
+        "form": "Mpl'xang",
+        "paradigm": "° Mpl'xang, pl'xang, plxangi, plxangan, plxangun.",
+        "fr": "Qui rend clair, lumineux - qui illumine.",
+        "en": "That which makes bright, luminous - that which illuminates.",
+        "zh": "使明亮、發光的－照亮的。",
+        "examples": [
+          {
+            "t": "Mpl'xang tnan pax balao ka xedao ppl'dax na tntana mnkuong",
+            "fr": "Le soleil nous éclaire d'en haut pour illuminer ceux qui se trouvent dans l'ombre.",
+            "en": "The sun lights us from above to illuminate those who are in the shadow.",
+            "zh": "太陽從上方照耀我們，照亮那些身處陰影中的人。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "L'XBUN",
+      "tag": "(R)",
+      "fr": "Creux de l'estomac - partie centrale inférieure d'un objet - siège de la maîtrise de soi.",
+      "en": "Pit of the stomach - the central lower part of an object - seat of self-control.",
+      "zh": "胃窩（心窩）－物體的中下部位－自制力之所在。",
+      "examples": [
+        {
+          "t": "Mnalox l'xbun",
+          "fr": "Avoir des nausées - avoir mal à l'estomac.",
+          "en": "To feel nauseous - to have a stomach ache.",
+          "zh": "噁心－胃痛。"
+        },
+        {
+          "t": "Nasi so kmbibil ladax nii o, bbili pax l'xbun nia",
+          "fr": "Si tu veux tirer (traîner) cette grume, tire-la par son ventre (son milieu).",
+          "en": "If you want to drag (haul) this log, pull it by its belly (its middle).",
+          "zh": "如果你要拖動這根原木，就從它的腹部（中段）拖。"
+        },
+        {
+          "t": "L'xbun baga",
+          "fr": "Creux de la main.",
+          "en": "Hollow of the hand.",
+          "zh": "手心。"
+        },
+        {
+          "t": "Mangal l'xbun",
+          "fr": "Couper le souffle.",
+          "en": "To take one's breath away.",
+          "zh": "使人喘不過氣。"
+        },
+        {
+          "t": "Bilaq bi l'xbun",
+          "fr": "Irascible - nerveux - émotif.",
+          "en": "Irascible - nervous - emotional.",
+          "zh": "易怒－神經質－情緒化。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sl'xbun",
+          "fr": "Se faire du souci.",
+          "en": "To worry oneself.",
+          "zh": "擔憂。",
+          "examples": [
+            {
+              "t": "Ya sl'xbun, giso ka msapox da!",
+              "fr": "Calme-toi (sois sans souci), voici le médecin qui arrive !",
+              "en": "Calm down (don't worry), here comes the doctor!",
+              "zh": "別擔心（放寬心），醫生來了！"
+            }
+          ]
+        },
+        {
+          "form": "Msl'xbun",
+          "fr": "Qui se fait du souci.",
+          "en": "One who worries.",
+          "zh": "會擔憂的（人）。",
+          "examples": [
+            {
+              "t": "Msl'xbun ko balae! Wada sapax spoxan ka snao mo",
+              "fr": "Je me fais bien du souci, mon mari est entré à l'hôpital.",
+              "en": "I am very worried, my husband has been admitted to the hospital.",
+              "zh": "我很擔心，我丈夫住院了。"
+            }
+          ]
+        },
+        {
+          "form": "Slxbnan (Slxb'nan, vl. sl'xbnan)",
+          "fr": "Souci - motif d'angoisse.",
+          "en": "Worry - cause of anguish.",
+          "zh": "憂慮－焦慮的緣由。",
+          "examples": [
+            {
+              "t": "Ma nako kana ka sl'xbnan",
+              "fr": "On dirait que tous les soucis sont pour moi !",
+              "en": "It's as if all the worries are for me!",
+              "zh": "好像所有的煩惱都落在我身上！"
+            }
+          ]
+        },
+        {
+          "form": "Psl'xbun",
+          "fr": "Donner du souci.",
+          "en": "To cause worry.",
+          "zh": "使人擔憂。",
+          "examples": [
+            {
+              "t": "Ana qoqo so mpsl'xbun bi ldanan so xo ?",
+              "fr": "Est-ce que celà t'est égal de donner tant de soucis à tes parents ?",
+              "en": "Doesn't it matter to you to cause your parents so much worry?",
+              "zh": "讓父母如此擔憂，你都不在乎嗎？"
+            },
+            {
+              "t": "Ana ini xoya o, ida mpsl'xbun ka dbobo",
+              "fr": "Même s'il n'y a rien (s'il n'y a pas lieu), une maman se fait naturellement du souci !",
+              "en": "Even when there is nothing (no reason), a mother naturally worries!",
+              "zh": "即使沒有什麼事（沒有理由），母親自然也會擔憂！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XEQ",
+      "tag": "(R)",
+      "fr": "Écorce - croûte - peau.",
+      "en": "Bark - crust - skin.",
+      "zh": "樹皮－外殼－皮。",
+      "examples": [
+        {
+          "t": "L'xeq qouni",
+          "fr": "Écorce d'arbre (plus spécialement, désigne la cannelle).",
+          "en": "Tree bark (more specifically, denotes cinnamon).",
+          "zh": "樹皮（尤指肉桂）。"
+        },
+        {
+          "t": "L'xeq blubul",
+          "fr": "Peau de banane.",
+          "en": "Banana peel.",
+          "zh": "香蕉皮。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ml'xeq",
+          "fr": "Devenir peau - devenir écorce.",
+          "en": "To become skin - to become bark.",
+          "zh": "變成皮－變成外殼。",
+          "examples": []
+        },
+        {
+          "form": "Kl'xeq",
+          "fr": "S'enlever comme une écorce (?) - se peler (?) - être pelé (?).",
+          "en": "To come off like bark (?) - to peel (?) - to be peeled (?).",
+          "zh": "像樹皮般剝落（？）－脫皮（？）－被剝皮（？）。",
+          "examples": []
+        },
+        {
+          "form": "Mkl'xeq",
+          "paradigm": "° nkl'xeq, kl'xeq, kl'xqe (ql'xqe), kl'xqan (ql'xqan), kl'xqon (ql'xqon).",
+          "fr": "Se peler - muer.",
+          "en": "To peel - to moult.",
+          "zh": "脫皮－蛻皮。",
+          "examples": [
+            {
+              "t": "Ya uda daolas, kl'xqon so kana ka papaq so",
+              "fr": "Ne va pas dans les rochers (ne passe pas par les rochers), tu vas écorcher tous tes pieds.",
+              "en": "Don't go into the rocks (don't pass through the rocks), you'll scrape all your feet.",
+              "zh": "別走進岩石裡（別經過岩石），你會把整雙腳都磨破。"
+            },
+            {
+              "t": "Pax ka ndaan no mnalox o, nkl'xeq kana baga no da",
+              "fr": "Depuis ma maladie, toute ma main s'écaille.",
+              "en": "Since my illness, all my hand is peeling.",
+              "zh": "自從我生病以來，我整隻手都在脫皮。"
+            }
+          ]
+        },
+        {
+          "form": "Kl'xqan (Ql'xqan)",
+          "fr": "La mue - la perte de toute l'écorce.",
+          "en": "The moult - the loss of all the bark.",
+          "zh": "蛻皮－整片外皮的脫落。",
+          "examples": [
+            {
+              "t": "Mxa ta ql'xqan kana da",
+              "fr": "Nous allons tous faire peau neuve.",
+              "en": "We are all going to make new skin.",
+              "zh": "我們都將脫胎換新皮。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Sl'xeq",
+      "tag": "(R. = L'XEQ ?)",
+      "fr": "Lécher.",
+      "en": "To lick.",
+      "zh": "舔。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sml'xeq",
+          "paradigm": "° Sml'xeq, sl'xeq, sl'xqe, sl'xqan, sl'xqon.",
+          "fr": "Lécher.",
+          "en": "To lick.",
+          "zh": "舔。",
+          "examples": [
+            {
+              "t": "Sa'so bi ! Ana quti laqe ida na sl'xqon ka xeuling so !",
+              "fr": "Pouah ! Ton chien lèche même les cacas des gosses !",
+              "en": "Yuck! Your dog even licks the kids' poop!",
+              "zh": "呸！你的狗連小孩的糞便都舔！"
+            },
+            {
+              "t": "Soqe suyang bi ka knsbusan na o, sml'xeq ko baga ka yako ole",
+              "fr": "C'est tellement sucré que je m'en lèche les mains moi aussi !",
+              "en": "It's so sweet that I lick my hands too!",
+              "zh": "太甜了，我也忍不住舔自己的手！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XI (L'çI)",
+      "tag": "(R)",
+      "fr": "Pousse de bambou, tendre, comestible.",
+      "en": "Bamboo shoot, tender, edible.",
+      "zh": "竹筍，鮮嫩可食。",
+      "examples": [
+        {
+          "t": "Adi so kuxul ka l'xi nii xo?",
+          "fr": "Est-ce que tu accepterais (celà est ton plaisir) ces jeunes pousses de bambou?",
+          "en": "Would you accept (is it to your liking) these young bamboo shoots?",
+          "zh": "你會想要（合你口味嗎）這些嫩竹筍嗎？"
+        },
+        {
+          "t": "Kmqan ko bi l'xi",
+          "fr": "J'aimerais bien manger des pousses de bambou.",
+          "en": "I would really like to eat bamboo shoots.",
+          "zh": "我很想吃竹筍。"
+        }
+      ]
+    },
+    {
+      "hw": "L'XKAX (L'XQAX)",
+      "tag": "(R)",
+      "fr": "Léger.",
+      "en": "Light (in weight).",
+      "zh": "輕。",
+      "examples": [
+        {
+          "t": "L'xkan bi napa na ka laqe",
+          "fr": "L'enfant a porté une charge très légère.",
+          "en": "The child carried a very light load.",
+          "zh": "這孩子背了很輕的擔子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ml'xkax (?)",
+          "fr": "Qui est léger, sans importance.",
+          "en": "That which is light, unimportant.",
+          "zh": "輕的、不重要的。",
+          "examples": [
+            {
+              "t": "L'pi nanak, ml'xkax balae",
+              "fr": "Ce n'est que de la balle (de graine), c'est très léger.",
+              "en": "It's only chaff (of grain), it's very light.",
+              "zh": "那只是（穀物的）稻殼，非常輕。"
+            }
+          ]
+        },
+        {
+          "form": "Kl'xkax",
+          "fr": "(Forme négative de ML'XKAX - sois léger (?)).",
+          "en": "(Negative form of ML'XKAX - be light (?)).",
+          "zh": "（ML'XKAX 的否定形－要輕（？））。",
+          "examples": [
+            {
+              "t": "Ana ml'xkax ka gensal o, ini kl'xkax ka payai bi",
+              "fr": "Si la paille (de riz) est légère, la graine elle-même (le paddy) ne l'est pas.",
+              "en": "Though the (rice) straw is light, the grain itself (the paddy) is not.",
+              "zh": "稻稈雖然輕，穀粒本身（稻穀）卻不輕。"
+            }
+          ]
+        },
+        {
+          "form": "Knl'xkaxan (knlxkaxan)",
+          "fr": "Légèreté.",
+          "en": "Lightness.",
+          "zh": "輕盈。",
+          "examples": [
+            {
+              "t": "Nasi kxaya ka knlxkaxan nia o, mpd'xok napa ka ana laqe",
+              "fr": "Si sa légèreté est telle, même un enfant arrivera à la porter.",
+              "en": "If its lightness is such, even a child will manage to carry it.",
+              "zh": "若它如此之輕，連小孩都能背得動。"
+            }
+          ]
+        },
+        {
+          "form": "Sl'xkax",
+          "fr": "Déconsidérer - mépriser.",
+          "en": "To disregard - to despise.",
+          "zh": "輕視－鄙視。",
+          "examples": [
+            {
+              "t": "Ma so sl'xkax ka nkari tana ta",
+              "fr": "Tu considères donc sans importance les paroles (passées) de notre père ?",
+              "en": "So you consider our father's (past) words unimportant?",
+              "zh": "你竟把我們父親（從前）的話當作無足輕重嗎？"
+            },
+            {
+              "t": "Ini ko sl'xkax ana manu",
+              "fr": "Je ne prends rien à la légère.",
+              "en": "I take nothing lightly.",
+              "zh": "我對任何事都不掉以輕心。"
+            }
+          ]
+        },
+        {
+          "form": "Snl'xkax",
+          "fr": "Mépriser. (nb. Le N du préfixe SN, certainement signe aussi du passé, n'est-il que signe du passé ? Ou partie intégrante d'un préfixe SN = Il est question de - à propos de ?)",
+          "en": "To despise. (n.b. The N of the prefix SN, certainly also a marker of the past — is it only a marker of the past? Or an integral part of a prefix SN = it is a matter of - concerning?)",
+          "zh": "鄙視。（註：字首 SN 中的 N，肯定也是過去時的標記——它是否僅為過去時標記？抑或是字首 SN 的一部分＝關於、涉及？）",
+          "examples": []
+        },
+        {
+          "form": "Snl'xkaxan (Snlxkaxan)",
+          "fr": "Ce qui a été déconsidéré, méprisé, pris à la légère.",
+          "en": "That which has been disregarded, despised, taken lightly.",
+          "zh": "被輕視、鄙視、輕率對待之物。",
+          "examples": [
+            {
+              "t": "Nii sadyaq ka snlxkaxan namo nita (vl. nii ka sadyaq snlxkaxan namo nita (?))",
+              "fr": "Voici la (une ?) personne que vous avez méprisée.",
+              "en": "Here is the (a?) person whom you have despised.",
+              "zh": "這就是你們所鄙視的那個（一個？）人。"
+            }
+          ]
+        },
+        {
+          "form": "Pl'xkax",
+          "fr": "Alléger - soulager.",
+          "en": "To lighten - to relieve.",
+          "zh": "減輕－舒緩。",
+          "examples": []
+        },
+        {
+          "form": "Pkl'xkax",
+          "fr": "Faire pour que ce soit léger, sans importance.",
+          "en": "To make so that it is light, unimportant.",
+          "zh": "使之變輕、變得不重要。",
+          "examples": [
+            {
+              "t": "Txdagun mo tityex ka payai ppkl'xkax xeaan",
+              "fr": "Je vais faire un peu sécher au soleil mon paddy pour qu'il soit un peu plus léger.",
+              "en": "I'm going to dry my paddy a little in the sun so it will be a bit lighter.",
+              "zh": "我要把我的稻穀稍微曬一曬，讓它輕一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XLAX (LEXLAX)",
+      "tag": "(R)",
+      "fr": "Détacher - dénouer - défaire - enlever (habits).",
+      "en": "To detach - to untie - to undo - to take off (clothes).",
+      "zh": "解開－鬆開－拆開－脫（衣）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Ml'xlax",
+          "fr": "Qui est dénoué, défait, détaché - qui se dénoue, se détache.",
+          "en": "That which is untied, undone, detached - which comes untied, comes loose.",
+          "zh": "被解開、拆開、鬆脫的－會自行鬆開的。",
+          "examples": [
+            {
+              "t": "Xmut ml'xlax kdiyax ka pnngoan so",
+              "fr": "Les noeuds que tu as faits se défont toujours, (tout seuls, d'eux-mêmes).",
+              "en": "The knots you have made always come undone, (all by themselves).",
+              "zh": "你打的結總是（自己）鬆開。"
+            }
+          ]
+        },
+        {
+          "form": "Lm'xlax (l'nxlax ?)",
+          "paradigm": "° Lm'xlax, l'xlax, lxlaxe, lxlaxan, lxlaxon.",
+          "fr": "Détacher - dénouer - défaire.",
+          "en": "To detach - to untie - to undo.",
+          "zh": "解開－鬆開－拆開。",
+          "examples": [
+            {
+              "t": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) no lm'xlax (vl; Knxoai ida no l'xlaxon (lxlaxon).",
+              "fr": "Ne jette pas ta ficelle même si elle est emmêlée (si elle a des noeuds); lentement je la dénouerai (démêlerai).",
+              "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
+              "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。"
+            }
+          ]
+        },
+        {
+          "form": "Pl'xlax",
+          "paradigm": "° Mpl'xlax, pl'xlax, plxlaxe, plxlaxan, plxlaxon.",
+          "fr": "Faire détacher - faire enlever - libérer.",
+          "en": "To have detached - to have removed - to free.",
+          "zh": "使解開－使脫下－釋放。",
+          "examples": [
+            {
+              "t": "Mpl'xlax ta sayang ka bnkiyan ssadyaq xo?",
+              "fr": "Allons-nous libérer maintenant ces gens qui sont enchaînés ?",
+              "en": "Are we now going to free these people who are chained up?",
+              "zh": "我們現在要釋放這些被鎖住的人嗎？"
+            },
+            {
+              "t": "K'la bi sao kia ka biyax na pl'xlax (ppl'xlax) knsqaan no sdyaqon (sadyaq)",
+              "fr": "Elle est donc ainsi sa force pour se libérer de sa timidité devant les gens (Je ne pensais pas qu'il aurait une telle force pour cela).",
+              "en": "So this is his strength for freeing himself from his shyness before people (I didn't think he would have such strength for it).",
+              "zh": "原來他有這樣的力量能克服在眾人面前的膽怯（我沒想到他會有這樣的力量）。"
+            },
+            {
+              "t": "Pl'xlaxe (plxlaxe) lukus so binao, nlutyaq bi da",
+              "fr": "Brosse un peu (époussette un peu) tes habits, ils sont tout sales.",
+              "en": "Brush off (dust off) your clothes a bit, they are all dirty.",
+              "zh": "把你的衣服稍微刷一刷（撢一撢），都髒了。"
+            }
+          ]
+        },
+        {
+          "form": "Plxlaxan",
+          "fr": "Ce qui a été défait, détaché, brossé.",
+          "en": "That which has been undone, detached, brushed off.",
+          "zh": "被拆開、鬆脫、刷過之物。",
+          "examples": [
+            {
+              "t": "Wada no plxlaxan ka llukus so da (su da)",
+              "fr": "Je les ai tous époussetés, tes habits.",
+              "en": "I have dusted them all off, your clothes.",
+              "zh": "你的衣服我全都撢過了。"
+            }
+          ]
+        },
+        {
+          "form": "Pkl'xlax",
+          "fr": "Faire que soit détaché, dénoué - faire avorter.",
+          "en": "To cause to be detached, untied - to cause to abort.",
+          "zh": "使之鬆脫、解開－使流產。",
+          "examples": [
+            {
+              "t": "Ini ta tdoa pkl'xlax kyoxan da",
+              "fr": "Il ne nous est pas permis de faire avorter la femme.",
+              "en": "We are not permitted to make the woman abort.",
+              "zh": "我們不可使婦人墮胎。"
+            }
+          ]
+        },
+        {
+          "form": "Sl'xlax",
+          "fr": "Moyen pour être dénoué, détaché, défait.",
+          "en": "Means for being untied, detached, undone.",
+          "zh": "使之鬆開、脫落、拆開的方式。",
+          "examples": [
+            {
+              "t": "Ya bi manu ka sl'xlax na kdiyax?",
+              "fr": "Comment peut-il bien se délier sans arrêt ?",
+              "en": "How can it keep coming undone without stopping?",
+              "zh": "它怎麼會不停地自行鬆開呢？"
+            }
+          ]
+        },
+        {
+          "form": "Tl'xlax",
+          "fr": "Libre - dénoué - détaché.",
+          "en": "Free - untied - detached.",
+          "zh": "自由的－鬆開的－脫離的。",
+          "examples": []
+        },
+        {
+          "form": "Mtl'xlax",
+          "fr": "Qui est libre, dénoué, détaché.",
+          "en": "That which is free, untied, detached.",
+          "zh": "自由的、鬆開的、脫離的。",
+          "examples": [
+            {
+              "t": "sai nita adi ga mtl'xlax ka kating ta da xo",
+              "fr": "Va voir si notre buffle n'est pas détaché.",
+              "en": "Go and see whether our buffalo hasn't come loose.",
+              "zh": "去看看我們的水牛是不是掙脫了。"
+            },
+            {
+              "t": "Ga mtl'xlax kana ka dp'xpax da",
+              "fr": "Toutes les fleurs s'ouvrent (s'épanouissent).",
+              "en": "All the flowers open up (bloom).",
+              "zh": "所有的花都綻放了。"
+            },
+            {
+              "t": "Ga so mtl'xlax da",
+              "fr": "Te voilà libre !",
+              "en": "There you are, free!",
+              "zh": "你自由了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XLUK (LXLUK)",
+      "tag": "(R)",
+      "fr": "Airelle - espèce de framboise, couleur orangé qui pousse sur une plante rampante épineuse.",
+      "en": "Bilberry - a kind of raspberry, orange-coloured, which grows on a thorny creeping plant.",
+      "zh": "越橘－一種橙色的樹莓，生長於帶刺的匍匐植物上。",
+      "examples": []
+    },
+    {
+      "hw": "L'XNGAO",
+      "tag": "(R)",
+      "fr": "Caverne - abri sous le porte-à-faux d'un rocher.",
+      "en": "Cave - shelter under the overhang of a rock.",
+      "zh": "洞穴－岩石突出處下的遮蔽處。",
+      "examples": [
+        {
+          "t": "Mntaqe l'xngao nkdaxa xnkawas ka Liwis",
+          "fr": "Liwis a dormi deux ans dans une caverne.",
+          "en": "Liwis slept two years in a cave.",
+          "zh": "Liwis 在洞穴裡睡了兩年。"
+        },
+        {
+          "t": "L'xngao paro ka kia",
+          "fr": "Voilà une bien grande caverne !",
+          "en": "What a big cave that is!",
+          "zh": "那真是個大洞穴！"
+        }
+      ]
+    },
+    {
+      "hw": "L'XNGUN",
+      "tag": "(R)",
+      "fr": "Porte - entrée.",
+      "en": "Door - entrance.",
+      "zh": "門－入口。",
+      "examples": [
+        {
+          "t": "Ini ko k'la lnawax l'xngun sapax so",
+          "fr": "Je suis incapable d'ouvrir la porte de ta maison.",
+          "en": "I am unable to open the door of your house.",
+          "zh": "我打不開你家的門。"
+        }
+      ]
+    },
+    {
+      "hw": "L'XO",
+      "tag": "(R)",
+      "fr": "Épervier.",
+      "en": "Sparrowhawk.",
+      "zh": "雀鷹。",
+      "examples": []
+    },
+    {
+      "hw": "L'XQOI",
+      "tag": "(R)",
+      "fr": "Variété de riz, devenant gluant à la cuisson et employé pour des préparations culinaires autres que le plat de résistance de tous les jours.",
+      "en": "A variety of rice that becomes glutinous when cooked and is used for culinary preparations other than the everyday main dish.",
+      "zh": "一種稻米，煮熟後變得黏糯，用於製作日常主食以外的菜餚。",
+      "examples": [
+        {
+          "t": "Xmaon so manu ka slaq so? ... Payai l'xqoi!",
+          "fr": "Que veux-tu planter dans ta rizière ? ... Du riz gluant.",
+          "en": "What do you want to plant in your paddy field? ... Glutinous rice.",
+          "zh": "你想在你的水田裡種什麼？……糯米。"
+        }
+      ]
+    },
+    {
+      "hw": "M",
+      "tag": "",
+      "fr": "Préfixe ou infixe, essentiellement productif de formes verbales d'état ou d'action, soit qu'il fonctionne seul, soit qu'il se trouve en composition avec d'autres affixes. Il peut pratiquement être affixé à la presque totalité des bases de la langue, bases simples ou déjà dérivées, et même composées de plusieurs termes.",
+      "en": "Prefix or infix, essentially productive of verbal forms of state or action, whether it functions alone or occurs in combination with other affixes. It can be affixed to practically the near-totality of the language's bases, whether simple bases or already derived ones, and even ones composed of several terms.",
+      "zh": "前綴或中綴，主要用於構成表狀態或動作的動詞形式，可單獨使用，也可與其他詞綴結合。它幾乎能附加於本語言的所有詞根，無論是簡單詞根、已派生的詞根，甚至是由數個詞項組成的複合詞根。",
+      "examples": [
+        {
+          "t": "Ida m'adi ko mxa (=: M + ADI-KO-MXA) kddiyax ka xea",
+          "fr": "De toute façon lui, c'est un « je ne veux pas aller » permanent.",
+          "en": "In any case he is a permanent \"I don't want to go\".",
+          "zh": "反正他就是一個永遠的「我不想去」。"
+        }
+      ]
+    },
+    {
+      "hw": "MA",
+      "tag": "",
+      "fr": "Préfixe fréquent comportant l'idée d'un futur indéterminé, s'il peut toujours être réalisé : MA, certains, et en certains cas, le réduisent à un M suivi d'un coup de glotte ; Usa = Aller ; Musa = aller (de fait) ou : être celui qui va ; MAUSA (vl. M\"USA) = Ira (un jour).",
+      "en": "Frequent prefix carrying the idea of an indeterminate future, though it can always be realized: MA — some people, and in certain cases, reduce it to an M followed by a glottal stop; Usa = to go; Musa = to go (in fact) or: to be the one who goes; MAUSA (var. M\"USA) = will go (one day).",
+      "zh": "常見前綴，含有不確定未來之意，但總能實現：MA，有些人在某些情況下將其簡化為 M 加上一個喉塞音；Usa＝去；Musa＝（實際地）去，或：正在去的人；MAUSA（或：M\"USA）＝（將來某日）將去。",
+      "examples": []
+    },
+    {
+      "hw": "MA'GUL (M\"GUL ?)",
+      "tag": "",
+      "fr": "Inséparable - qu'on traîne avec soi - propre (personnel).",
+      "en": "Inseparable - that one drags along with oneself - one's own (personal).",
+      "zh": "不可分離的－隨身拖帶的－自身的（個人的）。",
+      "examples": [
+        {
+          "t": "M\"gul (ma'gul) na mnalox ka kia",
+          "fr": "C'est bien là sa vieille (incurable, inséparable) maladie.",
+          "en": "That is indeed his old (incurable, inseparable) illness.",
+          "zh": "那正是他那老（不治的、擺脫不掉的）毛病。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sa'gul (S\"gul ?) (R. = ??)",
+          "fr": "Attaché - entraînant avec soi.",
+          "en": "Tied - dragging along with itself.",
+          "zh": "拴住的－牽帶著的。",
+          "examples": [
+            {
+              "t": "Ga sa'gul siyao \"lu ka kating namo",
+              "fr": "Votre buffle est attaché au bord de la route.",
+              "en": "Your buffalo is tied up at the edge of the road.",
+              "zh": "你們的水牛拴在路邊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MALAN",
+      "tag": "(R)",
+      "fr": "Chauve.",
+      "en": "Bald.",
+      "zh": "禿頭的。",
+      "examples": [
+        {
+          "t": "Ongat xali sao malan tunuç ka nk'alang troko",
+          "fr": "Il n'y a pas beaucoup de chauves chez les taroko.",
+          "en": "There are not many bald people among the Taroko.",
+          "zh": "太魯閣族中禿頭的人不多。"
+        }
+      ]
+    },
+    {
+      "hw": "MALONG",
+      "tag": "(R)",
+      "fr": "Décoration (?). (nb. Le MALONG est en fait une rondelle d'ivoire rare et très prisée, généralement portée sur le T'LAP (espèce de turban porté par les hommes) et marquant le mérite - et donc l'autorité - suite à un acte de bravoure, surtout après un fructueux coupage de tête. Le bénéficiaire ne pouvait léguer à personne cet insigne (le MALONG) qu'il se devait d'emporter dans sa tombe.)",
+      "en": "Decoration (?). (n.b. The MALONG is in fact a rare and highly prized ivory disc, usually worn on the T'LAP (a kind of turban worn by men) and marking merit - and thus authority - following an act of bravery, especially after a successful head-taking. The recipient could bequeath this insignia (the MALONG) to no one and had to carry it with him into his grave.)",
+      "zh": "裝飾品（？）。（註：MALONG 其實是一種罕見且極受珍視的象牙圓片，通常配戴於 T'LAP（男子所戴的一種頭巾）上，用以標誌功績——因而也標誌權威——授予對象為立下英勇之舉者，尤其是成功獵首之後。受贈者不得將此徽章（MALONG）遺贈他人，而必須將其帶進墳墓。）",
+      "examples": []
+    }
+  ]
+}

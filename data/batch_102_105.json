@@ -1,0 +1,961 @@
+{
+  "pages": [102, 105],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mk'ilil",
+        "fr": "Qui se trouve sur le côté gauche.",
+        "en": "That which is on the left side.",
+        "zh": "位於左邊的。",
+        "examples": [
+          {
+            "t": "Mk'ilil ka kingal, mknalat ka kingal, mgska ka yako",
+            "fr": "Un à gauche, un à droite, moi au milieu.",
+            "en": "One on the left, one on the right, me in the middle.",
+            "zh": "一個在左,一個在右,我在中間。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "IMA",
+      "tag": "(R)",
+      "fr": "Qui (pour personnes, le plus souvent interrogatif).",
+      "en": "Who (for persons, most often interrogative).",
+      "zh": "誰(用於人,多為疑問)。",
+      "examples": [
+        {
+          "t": "Ima ka iso?",
+          "fr": "Qui est tu ?",
+          "en": "Who are you?",
+          "zh": "你是誰?"
+        },
+        {
+          "t": "Iso o, ima",
+          "fr": "Toi, qui est ce ?",
+          "en": "You, who is it?",
+          "zh": "你,是誰?"
+        },
+        {
+          "t": "Ana ima",
+          "fr": "N'importe qui (tous).",
+          "en": "Anyone (everyone).",
+          "zh": "任何人(所有人)。"
+        },
+        {
+          "t": "Yamo ima",
+          "fr": "Toi avec qui ?",
+          "en": "You with whom?",
+          "zh": "你和誰?"
+        },
+        {
+          "t": "Ida mk'la ana ima ka kia",
+          "fr": "Celà, tout le monde le sait !",
+          "en": "That, everyone knows it!",
+          "zh": "那件事,人人都知道!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "N'ima",
+          "fr": "Possession de qui? - de qui?",
+          "en": "Whose possession? - whose?",
+          "zh": "誰的所有物?——誰的?",
+          "examples": [
+            {
+              "t": "N'ima ka patas nii ?",
+              "fr": "A qui est ce livre ?",
+              "en": "Whose book is this?",
+              "zh": "這本書是誰的?"
+            }
+          ]
+        },
+        {
+          "form": "Nn'ima",
+          "fr": "Part de ce qui est à qui ?",
+          "en": "Part of what belongs to whom?",
+          "zh": "屬於誰的東西的一部分?",
+          "examples": [
+            {
+              "t": "Nn'ima ka kating ga ?",
+              "fr": "Ce buffle là fait partie du troupeau de qui ?",
+              "en": "That buffalo there belongs to whose herd?",
+              "zh": "那頭水牛是誰的牛群裡的?"
+            },
+            {
+              "t": "Nnako",
+              "fr": "c'était à moi !",
+              "en": "it was mine!",
+              "zh": "那本來是我的!"
+            }
+          ]
+        },
+        {
+          "form": "Maan",
+          "fr": "Oblique de IMA - à qui? - pour qui ?",
+          "en": "Oblique form of IMA - to whom? - for whom?",
+          "zh": "IMA 的斜格——給誰?——為誰?",
+          "examples": [
+            {
+              "t": "Wada so byeqon maan ka patas?",
+              "fr": "A qui as tu donné le livre ?",
+              "en": "To whom did you give the book?",
+              "zh": "你把書給了誰?"
+            },
+            {
+              "t": "Adi mo lngagun ana maan ka kia",
+              "fr": "Celà, je ne le dirai certainement à personne !",
+              "en": "That, I will certainly not tell anyone!",
+              "zh": "那件事,我肯定不會告訴任何人!"
+            }
+          ]
+        },
+        {
+          "form": "Ki'ima",
+          "fr": "( = kii ima = près de qui? (?)) = Lequel ?",
+          "en": "( = kii ima = near whom? (?)) = Which one?",
+          "zh": "(= kii ima = 在誰旁邊?(?))= 哪一個?",
+          "examples": [
+            {
+              "t": "Ki'ima ka malu ?",
+              "fr": "C'est lequel qui est bien ?",
+              "en": "Which one is the good one?",
+              "zh": "哪一個是好的?"
+            },
+            {
+              "t": "Ti ima ka malu (vl. Ti malu o, ima)?",
+              "fr": "Lequel est le bon ?",
+              "en": "Which is the good one?",
+              "zh": "哪個是好的?"
+            }
+          ]
+        },
+        {
+          "form": "D'ima",
+          "fr": "De quel clan - de quel groupe - partenaire de qui?",
+          "en": "Of which clan - of which group - whose partner?",
+          "zh": "屬於哪個氏族——哪個群體——誰的夥伴?",
+          "examples": [
+            {
+              "t": "D'ima ka iso?",
+              "fr": "De qui es tu partisan, toi ?",
+              "en": "Whose supporter are you?",
+              "zh": "你是站在誰那一邊的?"
+            }
+          ]
+        },
+        {
+          "form": "Sk'ima",
+          "fr": "Feu qui ?",
+          "en": "The late who? (whose deceased?)",
+          "zh": "已故的誰?",
+          "examples": [
+            {
+              "t": "Sk'ima ka bqlos siyao (mksiyao) yayong?",
+              "fr": "De qui est ce cadavre (vl. cette tombe) au bord du torrent ?",
+              "en": "Whose is this corpse (var.: this grave) at the edge of the stream?",
+              "zh": "溪邊這具屍體(或:這座墳)是誰的?"
+            }
+          ]
+        },
+        {
+          "form": "Mpa'ima",
+          "fr": "Deviendra qui ?",
+          "en": "Will become who?",
+          "zh": "將成為誰?",
+          "examples": [
+            {
+              "t": "Ya bi mpa'ima ka laqe mo o, ini mo k'lae!",
+              "fr": "Je me demande (je ne sais pas) qui mon enfant deviendra !",
+              "en": "I wonder (I do not know) who my child will become!",
+              "zh": "我不知道(心裡想著)我的孩子將來會成為什麼樣的人!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "IMAX",
+      "tag": "(R)",
+      "fr": "Boire.",
+      "en": "To drink.",
+      "zh": "喝。",
+      "examples": [
+        {
+          "t": "Imax n'xali! Mxa tla'to kia",
+          "fr": "Bois vite! Celà va devenir froid.",
+          "en": "Drink quickly! That is going to get cold.",
+          "zh": "快喝!那要涼了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mimax",
+          "paradigm": "° Mimax, imax, maxe, maxan, maxon.",
+          "fr": "Boire.",
+          "en": "To drink.",
+          "zh": "喝。",
+          "examples": [
+            {
+              "t": "Ksia nanak ka maxon mo, ana malu maxon ka sinao, ini ko xali kmimax",
+              "fr": "Je ne bois que de l'eau, même si le vin est bon à boire, je n'en ai pas très envie (je ne désire pas beaucoup en boire).",
+              "en": "I drink only water; even if the wine is good to drink, I do not much feel like it (I do not much want to drink any).",
+              "zh": "我只喝水,即使酒好喝,我也不太想喝(不太想多喝)。"
+            }
+          ]
+        },
+        {
+          "form": "Pimax",
+          "fr": "Faire boire - abreuver.",
+          "en": "To make (someone) drink - to give to drink.",
+          "zh": "使人喝——給……喝。",
+          "examples": [
+            {
+              "t": "Pmaxe ko tityex ka sinao so maso !",
+              "fr": "Fais moi boire un peu de ta bierre de millet.",
+              "en": "Let me drink a little of your millet beer.",
+              "zh": "讓我喝一點你的小米酒吧!"
+            }
+          ]
+        },
+        {
+          "form": "Mpimax",
+          "fr": "1) Celui qui fait boire 2) Faire boire plus tard.",
+          "en": "1) The one who gives to drink 2) To give to drink later.",
+          "zh": "1)請人喝的人 2)稍後將請人喝。",
+          "examples": [
+            {
+              "t": "Mpimax ko sinao munan kia",
+              "fr": "Tout à l'heure je vous ferai boire du vin.",
+              "en": "In a little while I will give you wine to drink.",
+              "zh": "等一下我會請你們喝酒。"
+            }
+          ]
+        },
+        {
+          "form": "Spimax",
+          "fr": "Pour faire boire - utilisé pour faire boire.",
+          "en": "For giving to drink - used to give to drink.",
+          "zh": "用來給人喝——供飲用之物。",
+          "examples": [
+            {
+              "t": "Dsun mo spat longao sinao spimax mo kyoxan",
+              "fr": "Je veux emporter quatre bouteilles de vin pour donner à boire aux femmes.",
+              "en": "I want to take along four bottles of wine to give the women to drink.",
+              "zh": "我要帶四瓶酒去給婦女們喝。"
+            }
+          ]
+        },
+        {
+          "form": "Maxon",
+          "fr": "Boisson - ce qu'on boira - ce qu'on veut, doit boire.",
+          "en": "Drink - what will be drunk - what one wants or must drink.",
+          "zh": "飲料——將要喝的——想喝、該喝的。",
+          "examples": [
+            {
+              "t": "Ana mixol bi, ida mo maxon ka sinao so",
+              "fr": "Bien qu'il soit très fort (même s'il est très fort), je le boirai quand même ton vin.",
+              "en": "Although it is very strong (even if it is very strong), I will still drink your wine.",
+              "zh": "雖然很烈(就算它很烈),你的酒我還是會喝。"
+            }
+          ]
+        },
+        {
+          "form": "Maxan",
+          "fr": "Tasse - bol - récipient pour boire - ce qui est bu - temps, lieu du boire.",
+          "en": "Cup - bowl - vessel for drinking - what is drunk - time or place of drinking.",
+          "zh": "杯——碗——飲器——所喝之物——喝的時間、地點。",
+          "examples": [
+            {
+              "t": "Nmaxan so sinao ka sknalox l'xbun so",
+              "fr": "C'est le vin que tu as bu qui te fait mal à l'estomac.",
+              "en": "It is the wine you drank that makes your stomach hurt.",
+              "zh": "是你喝下的酒讓你胃痛。"
+            },
+            {
+              "t": "Baka bi maxan sinao da",
+              "fr": "Il est temps de boire (du vin).",
+              "en": "It is time to drink (wine).",
+              "zh": "該喝(酒)了。"
+            }
+          ]
+        },
+        {
+          "form": "Maxai",
+          "fr": "Que nous buvions (donne l'ordre que.. offre l'invitation à ..(?))",
+          "en": "That we may drink (gives the order that.., offers the invitation to.. (?))",
+          "zh": "願我們喝(表示命令……或發出邀請……(?))",
+          "examples": [
+            {
+              "t": "Maxai ta ksia so xo, msa namo: ga ino ka maxan da ?",
+              "fr": "Nous aimerions bien boire ton eau, me dites vous: où sont donc les récipients (pour boire) ?",
+              "en": "We would very much like to drink your water, you tell me: where then are the vessels (for drinking)?",
+              "zh": "你們對我說:我們很想喝你的水,那麼喝水的器皿到底在哪裡呢?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "INA",
+      "tag": "(R)",
+      "fr": "Bru - belle fille.",
+      "en": "Daughter-in-law.",
+      "zh": "媳婦——兒媳。",
+      "examples": [
+        {
+          "t": "Mkmalu bi daxa ina na ka Tadao",
+          "fr": "Tadao est en très bons termes avec sa belle fille.",
+          "en": "Tadao is on very good terms with his daughter-in-law.",
+          "zh": "Tadao 和他的媳婦相處得非常好。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sk'ina",
+          "fr": "Feu la belle fille.",
+          "en": "The late daughter-in-law.",
+          "zh": "已故的媳婦。",
+          "examples": [
+            {
+              "t": "Wana sk'ina mo Iwal ka malu bi lnglongan",
+              "fr": "Seule ma belle fille qui est morte avait un très bon caractère (= elle avait le meilleur caractère).",
+              "en": "Only my daughter-in-law who died had a very good character (= she had the best character).",
+              "zh": "唯有我已過世的媳婦性情非常好(=她的性情最好)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "INI",
+      "tag": "(R)",
+      "fr": "Ne pas. (nb. Simple négation d'un énoncé positif contraire. Cette forme de négation ne peut pas affecter un terme autre que ceux du groupe verbal et toujours dans la forme qu'il exige dans une déclaration impérative).",
+      "en": "Not. (n.b. Simple negation of a contrary positive statement. This form of negation cannot affect any term other than those of the verbal group, and always in the form it requires in an imperative declaration.)",
+      "zh": "不——沒有。(註:對相反肯定語句的單純否定。這種否定形式只能作用於動詞組的詞項,而且必須採用祈使句所要求的形式。)",
+      "examples": [
+        {
+          "t": "Ini ko kbanax",
+          "fr": "Je ne suis pas rouge.",
+          "en": "I am not red.",
+          "zh": "我不是紅的。"
+        },
+        {
+          "t": "Ini ko usa",
+          "fr": "Je ne vais pas.",
+          "en": "I am not going.",
+          "zh": "我不去。"
+        },
+        {
+          "t": "Ini ko kawit",
+          "fr": "Je ne suis pas fatigué.",
+          "en": "I am not tired.",
+          "zh": "我不累。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "INO",
+      "tag": "(R)",
+      "fr": "Où (surtout interrogatif) - En quel endroit.",
+      "en": "Where (mostly interrogative) - In what place.",
+      "zh": "哪裡(多為疑問)——在什麼地方。",
+      "examples": [
+        {
+          "t": "Ga ino ka sapax so?",
+          "fr": "Où habites tu? (où se trouve ta maison?).",
+          "en": "Where do you live? (where is your house?).",
+          "zh": "你住在哪裡?(你的家在哪裡?)"
+        },
+        {
+          "t": "Ana ino ka daan so, ida ko muda",
+          "fr": "Quel que soit ton passage, j'y passe aussi.",
+          "en": "Wherever you pass, I pass there too.",
+          "zh": "無論你走哪條路,我也照樣走。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ki'ino",
+          "fr": "(Kii ino ?) = Celui qui est où? - lequel ? - où ?",
+          "en": "(Kii ino?) = The one who is where? - which one? - where?",
+          "zh": "(Kii ino?)= 在哪裡的那個?——哪一個?——哪裡?",
+          "examples": [
+            {
+              "t": "Ki'ino ka naqex bi?",
+              "fr": "Où est il celui qui est vraiment mauvais ?",
+              "en": "Where is he, the one who is really bad?",
+              "zh": "那個真正壞的人在哪裡?"
+            }
+          ]
+        },
+        {
+          "form": "Mk'ino",
+          "fr": "se trouver en quel endroit?",
+          "en": "to be located in what place?",
+          "zh": "位於什麼地方?",
+          "examples": [
+            {
+              "t": "Mk'ino ka sapax so",
+              "fr": "Ta maison se trouve de quel côté (en quel endroit, dans quelle position)?",
+              "en": "On which side is your house (in what place, in what position)?",
+              "zh": "你的家在哪一邊(在什麼地方、什麼位置)?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ISIL",
+      "tag": "(R)",
+      "fr": "Ailleurs - à l'écart.",
+      "en": "Elsewhere - apart, out of the way.",
+      "zh": "別處——在一旁。",
+      "examples": [
+        {
+          "t": "Isil alang",
+          "fr": "De l'autre côté du village.",
+          "en": "On the other side of the village.",
+          "zh": "在村子的另一邊。"
+        },
+        {
+          "t": "alang isil",
+          "fr": "Dans un autre village (un village d'ailleurs).",
+          "en": "In another village (a village elsewhere).",
+          "zh": "在另一個村子(別處的村子)。"
+        },
+        {
+          "t": "wada isil",
+          "fr": "Il a déménagé (est allé ailleurs).",
+          "en": "He has moved away (has gone elsewhere).",
+          "zh": "他搬走了(去了別處)。"
+        },
+        {
+          "t": "Isil baga",
+          "fr": "d'une seule main.",
+          "en": "with one hand only.",
+          "zh": "只用一隻手。"
+        },
+        {
+          "t": "mita isil",
+          "fr": "Etre distrait (vl. se détourner pour ne pas voir)",
+          "en": "To be distracted (var.: to turn away so as not to see)",
+          "zh": "分心(或:轉頭不看)"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mk'isil",
+          "fr": "Habitant ailleurs, en un autre endroit.",
+          "en": "Living elsewhere, in another place.",
+          "zh": "住在別處、住在另一個地方的人。",
+          "examples": [
+            {
+              "t": "MkMorisaka namo kana ka yamo xo ? ... Adi! Mk'isil ka doma",
+              "fr": "Vous êtes tous des gens de Morisaka? ... Non! Certains sont d'ailleurs.",
+              "en": "Are you all people from Morisaka? ... No! Some are from elsewhere.",
+              "zh": "你們都是 Morisaka 人嗎?……不!有些人是別處來的。"
+            }
+          ]
+        },
+        {
+          "form": "Mksiisil",
+          "fr": "Dispersés aux quatre vents.",
+          "en": "Scattered to the four winds.",
+          "zh": "四散各方。",
+          "examples": [
+            {
+              "t": "Ga mksiisil kana ka lqlaqe mo",
+              "fr": "Tous mes enfants sont dispersés un peu partout.",
+              "en": "All my children are scattered all over.",
+              "zh": "我的孩子們都四散在各地。"
+            }
+          ]
+        },
+        {
+          "form": "Ssiisil",
+          "fr": "De tous les côtés.",
+          "en": "From all sides.",
+          "zh": "來自四面八方。",
+          "examples": [
+            {
+              "t": "Ssiisil (vl. Pnax ssiisil) miyax mssli sapax mo",
+              "fr": "Ils viennent de nombreux endroits (de partout) et se rassemblent chez moi.",
+              "en": "They come from many places (from everywhere) and gather at my house.",
+              "zh": "他們從許多地方(從各處)來,聚集在我家。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ISO",
+      "tag": "",
+      "crossRef": "KISO",
+      "fr": "( Serait ce la R. de MISO, KISO ?) - Voir: KISO.",
+      "en": "(Could this be the root of MISO, KISO?) - See: KISO.",
+      "zh": "(這會是 MISO、KISO 的詞根嗎?)——見:KISO。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ISO",
+      "tag": "",
+      "fr": "Puisque (?) - Connu seulement dans l'expression: ISO KA = puisque - étant donné que.",
+      "en": "Since (?) - Known only in the expression: ISO KA = since - given that.",
+      "zh": "既然(?)——僅見於 ISO KA 一語:既然——鑑於。",
+      "examples": [
+        {
+          "t": "Wada ka xea iso ka ini so iyax ka iso",
+          "fr": "Il est parti, lui, puisque tu ne venais pas !",
+          "en": "He left, he did, since you were not coming!",
+          "zh": "既然你不來,他就走了!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ISO",
+      "tag": "(R)",
+      "fr": "Tu - toi.",
+      "en": "You (singular).",
+      "zh": "你。",
+      "examples": [
+        {
+          "t": "Mxa so ino ka iso",
+          "fr": "Toi, où vas tu ?",
+          "en": "You, where are you going?",
+          "zh": "你,你要去哪裡?"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Iiso",
+          "fr": "A toi - pour toi - pour être tien.",
+          "en": "To you - for you - to be yours.",
+          "zh": "給你——為你——將屬於你。",
+          "examples": [
+            {
+              "t": "Nasi so musa sadyaqon o, na iiso kana ka kmpaxan mo",
+              "fr": "Si tu acceptes de prendre un mari, alors toutes mes terres seront à toi.",
+              "en": "If you agree to take a husband, then all my lands will be yours.",
+              "zh": "如果你願意嫁人,那我所有的田地都會歸你。"
+            }
+          ]
+        },
+        {
+          "form": "Niso",
+          "fr": "Le tien - à toi (emphatique).",
+          "en": "Yours - to you (emphatic).",
+          "zh": "你的——屬於你(強調)。",
+          "examples": [
+            {
+              "t": "Niso ka pala nii",
+              "fr": "Cette jupe (ce pagne) est à toi.",
+              "en": "This skirt (this loincloth) is yours.",
+              "zh": "這條裙子(這塊布裙)是你的。"
+            }
+          ]
+        },
+        {
+          "form": "N'iso",
+          "fr": "Insistence plus grande que dans: NISO = Le tien - à toi.",
+          "en": "Greater insistence than in NISO = Yours - to you.",
+          "zh": "比 NISO 語氣更強 = 你的——屬於你。",
+          "examples": [
+            {
+              "t": "Uxai nako ka nii, n'iso nanak",
+              "fr": "Ceci n'est pas à moi, c'est bien à toi.",
+              "en": "This is not mine, it is indeed yours.",
+              "zh": "這不是我的,確實是你的。"
+            }
+          ]
+        },
+        {
+          "form": "Nniso",
+          "fr": "Parmi ce qui est tien.",
+          "en": "Among what is yours.",
+          "zh": "屬於你的東西當中的。",
+          "examples": [
+            {
+              "t": "Adi nniso ka kating nii xo?",
+              "fr": "Ce buffle ne serait il pas l'un des tiens ?",
+              "en": "Would this buffalo not be one of yours?",
+              "zh": "這頭水牛難道不是你的其中一頭嗎?"
+            }
+          ]
+        },
+        {
+          "form": "So",
+          "fr": "1) Tu - toi ( forme enclitique). 2) Ton - ta - tes.",
+          "en": "1) You (enclitic form). 2) Your.",
+          "zh": "1)你(附著形式)。2)你的。",
+          "examples": [
+            {
+              "t": "Mxa so ino ka iso?",
+              "fr": "Où vas tu, toi?",
+              "en": "Where are you going, you?",
+              "zh": "你要去哪裡,你?"
+            },
+            {
+              "t": "Tama so ka Masa",
+              "fr": "Masa est ton père.",
+              "en": "Masa is your father.",
+              "zh": "Masa 是你的父親。"
+            },
+            {
+              "t": "Mpaso (Mpa + So) malu kuxul kia",
+              "fr": "Avant peu tu seras de bonne humeur.",
+              "en": "Before long you will be in a good mood.",
+              "zh": "不久你的心情就會好起來。"
+            }
+          ]
+        },
+        {
+          "form": "Sunan",
+          "fr": "Forme oblique de ISO.",
+          "en": "Oblique form of ISO.",
+          "zh": "ISO 的斜格。",
+          "examples": [
+            {
+              "t": "Mxa ko sunan",
+              "fr": "Je vais chez toi (vers toi).",
+              "en": "I am going to your place (toward you).",
+              "zh": "我到你那裡去(向你去)。"
+            },
+            {
+              "t": "Ima ka lmnngao sunan! Ongat kari mo sao kia !",
+              "fr": "Qui est ce qui t'a dit (celà) ? Je n'ai rien dit de semblable !",
+              "en": "Who is it that told you (that)? I said nothing of the sort!",
+              "zh": "是誰對你說(那話)的?我沒說過那樣的話!"
+            },
+            {
+              "t": "Nyeqan kari na sunan ka bobo",
+              "fr": "Maman a quelque chose à te dire.",
+              "en": "Mother has something to tell you.",
+              "zh": "媽媽有話要對你說。"
+            }
+          ]
+        },
+        {
+          "form": "Sako",
+          "fr": "Tien-moi - pron.pers. double (= SO + YAKO).",
+          "en": "Your-me - double personal pronoun (= SO + YAKO).",
+          "zh": "你的-我——雙重人稱代詞(= SO + YAKO)。",
+          "examples": [
+            {
+              "t": "Tama sako",
+              "fr": "Je suis ton père.",
+              "en": "I am your father.",
+              "zh": "我是你的父親。"
+            },
+            {
+              "t": "Byeqon sako pila",
+              "fr": "Tu dois (tu veux) me donner le l'argent (Je sui ton-celui à qui tu donneras..).",
+              "en": "You must (you want to) give me the money (I am your-one to whom you will give..).",
+              "zh": "你要(你想)給我錢(我是你要給的那個「你的人」……)。"
+            },
+            {
+              "t": "Byeqon sako ka pila",
+              "fr": "L'argent, c'est ce que tu dois me donner.",
+              "en": "The money is what you must give me.",
+              "zh": "錢,就是你該給我的。"
+            }
+          ]
+        },
+        {
+          "form": "Miso",
+          "fr": "Mien-Toi - Pron.pers. double ( MO + ISO ).",
+          "en": "My-You - double personal pronoun (MO + ISO).",
+          "zh": "我的-你——雙重人稱代詞(MO + ISO)。",
+          "examples": [
+            {
+              "t": "Tama miso",
+              "fr": "Tu es mon père.",
+              "en": "You are my father.",
+              "zh": "你是我的父親。"
+            },
+            {
+              "t": "Byeqon miso pila",
+              "fr": "Je te donnerai de l'argent.",
+              "en": "I will give you money.",
+              "zh": "我會給你錢。"
+            },
+            {
+              "t": "Byeqon miso ka pila",
+              "fr": "L'argent, je te le donnerai.",
+              "en": "The money, I will give it to you.",
+              "zh": "錢,我會給你。"
+            }
+          ]
+        },
+        {
+          "form": "D'yamo",
+          "fr": "(R. YAMO) = Du nombre des tiens - de ton clan.",
+          "en": "(root YAMO) = One of your people - of your clan.",
+          "zh": "(詞根 YAMO)= 你的族人之一——你氏族的。",
+          "examples": [
+            {
+              "t": "D'yamo nanak ka Labai",
+              "fr": "Labai est ta parente.",
+              "en": "Labai is your relative.",
+              "zh": "Labai 是你的親屬。"
+            }
+          ]
+        },
+        {
+          "form": "Dd'yamo",
+          "fr": "Tous ceux de ton clan, de ton groupe.",
+          "en": "All those of your clan, of your group.",
+          "zh": "你氏族、你群體的所有人。",
+          "examples": [
+            {
+              "t": "Mniyax mglaxol xeni kana ka dd'yamo",
+              "fr": "Tous les tiens sont venus se rassembler ici.",
+              "en": "All your people have come to gather here.",
+              "zh": "你的族人全都來聚集在這裡了。"
+            }
+          ]
+        },
+        {
+          "form": "Ndd'yamo",
+          "fr": "L'un d'entre les tiens - Appartenant à l'un des tiens.",
+          "en": "One from among your people - Belonging to one of yours.",
+          "zh": "你族人中的一個——屬於你族人之一的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "ISUX (Isuç)",
+      "tag": "(R)",
+      "fr": "Spatule (palette) pour retourner les légumes en cours de cuisson, pour servir légumes et riz cuit.",
+      "en": "Spatula (paddle) for turning vegetables while they cook, for serving vegetables and cooked rice.",
+      "zh": "翻炒烹煮中蔬菜、盛菜與盛熟飯用的鍋鏟(木鏟)。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ITA",
+      "tag": "(R)",
+      "fr": "Voir (nb. Il semble bien qu'on puisse retenir ITA R. de MITA = voir, puisque dans les composés nous rencontrons: TAI, TAAN, NITA ; se reporter tout de même à: KETA.).",
+      "en": "To see (n.b. It seems quite possible to take ITA as the root of MITA = to see, since in the compounds we find: TAI, TAAN, NITA; refer all the same to: KETA.).",
+      "zh": "看(註:似乎可以把 ITA 視為 MITA「看」的詞根,因為在複合詞中我們見到 TAI、TAAN、NITA;仍請參見:KETA。)",
+      "examples": [
+        {
+          "t": "Taan balae pax daya ka sapax so",
+          "fr": "Ta maison est très visible de là haut.",
+          "en": "Your house is very visible from up there.",
+          "zh": "從上面那裡,你的家看得非常清楚。"
+        },
+        {
+          "t": "Ita pila so",
+          "fr": "Donne moi ton argent (nb. peut on traduire: Il faut que je voie ton argent(?)!",
+          "en": "Give me your money (n.b. can one translate: I must see your money(?)!",
+          "zh": "把你的錢給我(註:或可譯為:我得看看你的錢(?)!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Keta",
+          "fr": "Employé pour la forme impérative: Vois! - et dans les compositions négatives. Vr. KETA.",
+          "en": "Used for the imperative form: See! - and in negative constructions. See KETA.",
+          "zh": "用於命令式:看!——以及否定結構中。參見 KETA。",
+          "examples": [
+            {
+              "t": "Ini ko keta",
+              "fr": "Je ne vois pas.",
+              "en": "I do not see.",
+              "zh": "我看不見。"
+            }
+          ]
+        },
+        {
+          "form": "Taai",
+          "fr": "Que je voie - pour que je voie.",
+          "en": "That I may see - so that I may see.",
+          "zh": "讓我看——好讓我看。",
+          "examples": [
+            {
+              "t": "Dsi ko kinal boxo taai mo",
+              "fr": "Apporte moi une pièce de monnaie que je voie.",
+              "en": "Bring me a coin so that I may see it.",
+              "zh": "拿一枚錢幣來給我看看。"
+            }
+          ]
+        },
+        {
+          "form": "Taon",
+          "fr": "Ce qu'on veut, doit voir.",
+          "en": "What one wants or must see.",
+          "zh": "想看、該看的。",
+          "examples": [
+            {
+              "t": "Taon mo saman ka sadyaq kia",
+              "fr": "Je la verrai demain cette personne dont tu parles.",
+              "en": "I will see tomorrow that person you are speaking of.",
+              "zh": "你說的那個人,我明天會見到。"
+            },
+            {
+              "t": "Ita ka pila so, taon so sida ka qnqaya",
+              "fr": "Fais moi voir (passe moi) ton argent, tu verras alors ta marchandise (nb. Ce ITA serait il R. en étant vraiment l'impératif du verbe: MITA = Voir .)",
+              "en": "Show me (hand me) your money, then you will see your goods (n.b. Could this ITA be the root, being really the imperative of the verb MITA = to see.)",
+              "zh": "讓我看看(遞給我)你的錢,然後你就會看到你的貨物(註:這個 ITA 是否就是詞根,實為動詞 MITA「看」的命令式。)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ITA",
+      "tag": "(R)",
+      "fr": "Nous inclusif (toi avec nous) dans la forme emphatique.",
+      "en": "We inclusive (you with us) in the emphatic form.",
+      "zh": "包含式的「我們」(你和我們),強調形式。",
+      "examples": [
+        {
+          "t": "Kana ita mnsuai",
+          "fr": "Vous tous avec qui je suis frère (terme fréquent d'adresse quand on parle au clan, au groupe, à la communauté).",
+          "en": "All of you with whom I am brother (a frequent term of address when speaking to the clan, the group, the community).",
+          "zh": "你們所有與我為弟兄的人(對氏族、群體、社群講話時常用的稱呼)。"
+        },
+        {
+          "t": "Kana ita troko",
+          "fr": "Nous les taroko. ( Nous tous les taroko).",
+          "en": "We the Taroko. (All of us Taroko.)",
+          "zh": "我們太魯閣人。(我們全體太魯閣人。)"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ta",
+          "fr": "Nous inclusif (forme enclitique). = Notre (adj. poss.).",
+          "en": "We inclusive (enclitic form). = Our (possessive adjective).",
+          "zh": "包含式的「我們」(附著形式)。= 我們的(所有格形容詞)。",
+          "examples": [
+            {
+              "t": "Mxa ta ino ka sayang",
+              "fr": "Où allons nous maintenant ?",
+              "en": "Where are we going now?",
+              "zh": "我們現在要去哪裡?"
+            },
+            {
+              "t": "Malu ta ka ita",
+              "fr": "Nous, nous sommes bien.",
+              "en": "We, we are well.",
+              "zh": "我們,我們很好。"
+            },
+            {
+              "t": "Sapax ta ka malu",
+              "fr": "C'est notre maison qui est bien (que nous aimons).",
+              "en": "It is our house that is good (that we love).",
+              "zh": "好的(我們所愛的)是我們的家。"
+            },
+            {
+              "t": "Tama ta",
+              "fr": "Notre père (les enfants parlent entre eux.",
+              "en": "Our father (the children speaking among themselves).",
+              "zh": "我們的父親(孩子們彼此交談時說)。"
+            },
+            {
+              "t": "Tama nami",
+              "fr": "Notre père (les enfants parlent au père",
+              "en": "Our father (the children speaking to the father).",
+              "zh": "我們的父親(孩子們對父親說)。"
+            }
+          ]
+        },
+        {
+          "form": "Iita",
+          "fr": "A nous - pour nous - sera nôtre.",
+          "en": "To us - for us - will be ours.",
+          "zh": "給我們——為我們——將屬於我們。",
+          "examples": [
+            {
+              "t": "Nasi ta kndlmut o, iita kana ka d'xgal nii",
+              "fr": "Si nous sommes travailleurs, cette terre sera toute à nous.",
+              "en": "If we are hard-working, this land will be all ours.",
+              "zh": "如果我們勤勞,這塊地就會全都是我們的。"
+            }
+          ]
+        },
+        {
+          "form": "Tnan",
+          "fr": "Forme oblique de ITA = nous.",
+          "en": "Oblique form of ITA = we, us.",
+          "zh": "ITA(我們)的斜格。",
+          "examples": [
+            {
+              "t": "Byeqon na tnan ka d'xgal",
+              "fr": "Il nous donnera la terre. ( C'est à nous qu'il donnera la terre).",
+              "en": "He will give us the land. (It is to us that he will give the land.)",
+              "zh": "他會把土地給我們。(他要給土地的正是我們。)"
+            },
+            {
+              "t": "Byeqon ta na ka d'xgal",
+              "fr": "C'est la terre qu'il nous donnera.",
+              "en": "It is the land that he will give us.",
+              "zh": "他要給我們的就是這塊土地。"
+            }
+          ]
+        },
+        {
+          "form": "Nita",
+          "fr": "Le (la) nôtre.",
+          "en": "Ours.",
+          "zh": "我們的(那個)。",
+          "examples": [
+            {
+              "t": "Nita ka d'xgal nii",
+              "fr": "Cette terre est à nous.",
+              "en": "This land is ours.",
+              "zh": "這塊地是我們的。"
+            },
+            {
+              "t": "Paro ka nxea, malu ka nita",
+              "fr": "Le sien est grand, le nôtre est bon.",
+              "en": "His is big, ours is good.",
+              "zh": "他的大,我們的好。"
+            }
+          ]
+        },
+        {
+          "form": "N'ita",
+          "fr": "Le (la, les) nôtre (avec plus d'insistence, plus d'emphase).",
+          "en": "Ours (with more insistence, more emphasis).",
+          "zh": "我們的(語氣更強、更強調)。",
+          "examples": [
+            {
+              "t": "N'ita ka sapax nii",
+              "fr": "Elle est tout à fait à nous cette maison.",
+              "en": "It is entirely ours, this house.",
+              "zh": "這棟房子完完全全是我們的。"
+            }
+          ]
+        },
+        {
+          "form": "Nn'ita",
+          "fr": "1) Parmi les nôtres, 2) C'était nôtre.",
+          "en": "1) Among ours, 2) It was ours.",
+          "zh": "1)我們的當中之一 2)那本是我們的。",
+          "examples": [
+            {
+              "t": "Kingal nn'ita ka patas",
+              "fr": "",
+              "en": "",
+              "zh": ""
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

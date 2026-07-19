@@ -1,0 +1,756 @@
+{
+  "pages": [266, 269],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "…ni knsbl'san maso !",
+        "fr": "Comment peux tu comparer la fadeur du riz et celle du millet !",
+        "en": "How can you compare the blandness of rice with that of millet!",
+        "zh": "你怎能拿米飯的淡而無味和小米的相比呢！"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "SBNAWAN",
+      "tag": "(R. = ??)",
+      "fr": "Nom que les taroko du Nord donnent aux membres du peuple AMI (ceux du Sud les nomment plus facilement : KSUYANG ) dont ils sont maintenant les voisins.",
+      "en": "Name that the northern Taroko give to members of the AMI people (those of the South more readily call them: KSUYANG ), of whom they are now the neighbours.",
+      "zh": "北部太魯閣人對阿美族人的稱呼（南部的人則較常稱他們為：KSUYANG），如今他們是鄰居。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SB'NGUX",
+      "tag": "(R.)",
+      "fr": "Aigre ( se dit des aliments, surtout bouillon, légumes..).",
+      "en": "Sour ( said of foods, especially broth, vegetables..).",
+      "zh": "酸的（用於食物，尤其是湯、蔬菜等）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msb'ngux",
+          "fr": "Qui devient aigre.",
+          "en": "Which turns sour.",
+          "zh": "變酸的（東西）。",
+          "examples": []
+        },
+        {
+          "form": "Mpsb'ngux",
+          "fr": "Deviendra aigre.",
+          "en": "Will turn sour.",
+          "zh": "將會變酸。",
+          "examples": [
+            {
+              "t": "Kl'xangi bi! Lbagan ka sayang; ini biyao mpsb'ngux ka pnsxada so!",
+              "fr": "Fais bien attention! C'est l'été et tout ce que tu as cuisiné devient facilement et vite aigre.",
+              "en": "Be very careful! It is summer and everything you have cooked turns sour easily and quickly.",
+              "zh": "要非常小心！現在是夏天，你煮的東西很容易很快就變酸。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBSUK",
+      "tag": "(R)",
+      "fr": "Avant toit - abri que procure cet avant toit - seuil.",
+      "en": "Eaves - the shelter that these eaves provide - threshold.",
+      "zh": "屋簷－此屋簷所提供的遮蔽－門檻。",
+      "examples": [
+        {
+          "t": "Ga tloong sbsuk l'xngun ka Yudao",
+          "fr": "Yudao est assis sur le seuil de sa porte.",
+          "en": "Yudao is sitting on the threshold of his door.",
+          "zh": "Yudao 坐在他家的門檻上。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SBU\"",
+      "tag": "(R. = BU ? - = BU\" ?)",
+      "fr": "Jeter - tirer (arme, projectile) - Montrer du doigt - attraper (jeter) une maladie. (nb. SBU\" est aussi employé pour dire que quelqu'un a contracté une maladie, avec l'idée sousjacente que la maladie a été tirée, jetée.. comme on jette un sort ou un projectile).",
+      "en": "To throw - to shoot (weapon, projectile) - to point with the finger - to catch (be struck by) an illness. (n.b. SBU\" is also used to say that someone has contracted an illness, with the underlying idea that the illness has been shot, thrown.. as one casts a spell or a projectile).",
+      "zh": "投擲－射擊（武器、投射物）－用手指指向－染上（招來）疾病。（註：SBU\" 也用來表示某人染上疾病，其背後的概念是疾病被射出、擲出，就像施下咒語或投擲武器一般。）",
+      "examples": [
+        {
+          "t": "Ini so sbu\" punyaq n'xali do, na, mmqdolyaq ka boyaq da!",
+          "fr": "Si tu ne te dépêches pas de tirer (du fusil), le sanglier est tout près de se sauver.",
+          "en": "If you do not hurry to shoot (the rifle), the wild boar is on the verge of escaping.",
+          "zh": "你要是不趕快開槍，山豬就快逃走了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smbu\"",
+          "paradigm": "°Smbu\", sbu\", sbui, sbuan, sbuon.",
+          "fr": "Jeter - tirer - montrer di doigt - darder (soleil).",
+          "en": "To throw - to shoot - to point with the finger - to beat down (sun).",
+          "zh": "投擲－射擊－用手指指向－（陽光）強烈照射。",
+          "examples": [
+            {
+              "t": "Ini tdoa xmut smbu\" tasil",
+              "fr": "C'est défendu de jeter des pierres à tort et à travers.",
+              "en": "It is forbidden to throw stones recklessly.",
+              "zh": "不可以亂丟石頭。"
+            },
+            {
+              "t": "Tai smbu\" xedao do, malu bi nyeqan ka sapax so!",
+              "fr": "Quand le soleil brille (darde ses feux), ta maison est un endroit merveilleux pour habiter.",
+              "en": "When the sun shines (beats down its rays), your house is a wonderful place to live.",
+              "zh": "太陽照耀（灑下光芒）的時候，你的家是個很棒的居住之處。"
+            },
+            {
+              "t": "Ini ko k'la smbu\" punyaq ka yako",
+              "fr": "Moi, je ne sais pas tirer du fusil.",
+              "en": "As for me, I do not know how to shoot a rifle.",
+              "zh": "至於我，我不會用槍射擊。"
+            }
+          ]
+        },
+        {
+          "form": "Snbu",
+          "fr": "(Qui) a lancé , tiré, jeté..",
+          "en": "(That which) has thrown, shot, cast..",
+          "zh": "（已經）投擲、射擊、拋出的。",
+          "examples": [
+            {
+              "t": "Smbu xedao ka sayang",
+              "fr": "Maintenant le soleil brille.",
+              "en": "Now the sun is shining.",
+              "zh": "現在太陽在照耀。"
+            },
+            {
+              "t": "Wada snbu xedao",
+              "fr": "Un coup de soleil.",
+              "en": "A touch of sunstroke.",
+              "zh": "中暑（曬傷）。"
+            },
+            {
+              "t": "Manu ka snbu\" so baga s'xiga o..",
+              "fr": "A propos du fait que tu montrais hier du doigt..",
+              "en": "Concerning the fact that you were pointing with your finger yesterday..",
+              "zh": "關於你昨天用手指指的那件事……"
+            },
+            {
+              "t": "Snbu\" so manu babao (baba) ska xedao",
+              "fr": "Qu'est-ce que tu as tiré l'après midi ?",
+              "en": "What did you shoot in the afternoon?",
+              "zh": "你下午射了什麼？"
+            }
+          ]
+        },
+        {
+          "form": "Msbu\"",
+          "fr": "Celui qui tire, qui jette, qui lance.",
+          "en": "The one who shoots, who throws, who casts.",
+          "zh": "射擊、投擲、拋出的人。",
+          "examples": [
+            {
+              "t": "Pusu bi msbu\" tasil ka Yosi",
+              "fr": "Yoshi est très adroit (vl. a la sale habitude de ) pour lancer des pierres!",
+              "en": "Yoshi is very skilful (var. has the nasty habit of) throwing stones!",
+              "zh": "Yoshi 很擅長（或：有亂丟的壞習慣）丟石頭！"
+            }
+          ]
+        },
+        {
+          "form": "Mssbu\"",
+          "fr": "Se jeter mutuellement - se tirer dessus mutuellement - se faire face.",
+          "en": "To throw at one another - to shoot at one another - to face off.",
+          "zh": "互相投擲－互相射擊－彼此對峙。",
+          "examples": [
+            {
+              "t": "Pax ml'bu (mlubu) ini bi alex mssbu\" ka dmtdiyal",
+              "fr": "Les combattants n'ont pas cessé de se tirer dessus (vl. Les adversaires n'ont pas cessé de se battre.",
+              "en": "The combatants did not stop shooting at each other (var. The adversaries did not stop fighting.",
+              "zh": "戰士們不停地互相射擊（或：對手們不停地互相打鬥）。"
+            },
+            {
+              "t": "Stok mssbu\" tasil ka daxa naqex nii!",
+              "fr": "Ces deux sales garnements n'arrêtent pas de se lancer des pierres!",
+              "en": "These two nasty little rascals won't stop throwing stones at each other!",
+              "zh": "這兩個討厭的小壞蛋不停地互相丟石頭！"
+            }
+          ]
+        },
+        {
+          "form": "Psbu (Psbu\")",
+          "paradigm": "°Mpsbu, psbu, psbui, psbuan, psbuon.",
+          "fr": "Se faire jeter - se faire lancer - s'exposer à.",
+          "en": "To get oneself thrown - to get oneself flung - to expose oneself to.",
+          "zh": "使自己被投擲－使自己被拋出－使自己暴露於。",
+          "examples": [
+            {
+              "t": "Manu bi ka saon so psbu xedao ?",
+              "fr": "Qu'est-ce qui te prend ( qu'est-ce que tu as à) d'aller t'exposer au soleil ?",
+              "en": "What has got into you (what makes you) go and expose yourself to the sun?",
+              "zh": "你是怎麼了（有什麼理由）要跑去曬太陽？"
+            },
+            {
+              "t": "Ya usa xea! Mxa so psbu tasil kia, kawai binao !",
+              "fr": "Ne va pas là bas ! Tu vas recevoir une pierre tout à l'heure, tu vas voir !",
+              "en": "Don't go over there! You'll get hit by a stone any moment now, you'll see!",
+              "zh": "別去那邊！你等一下就會被石頭砸中，你等著瞧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUAN",
+      "tag": "",
+      "fr": "(nb. La R. BU n'a jamais été rencontré, mais les anciens se servent des termes: BUI, BUAN, BUON où théoriquement on pourrait attendre: SBUI, SBUAN, SBUON ; Le préfixe S , Présent dans les forme : SMBU, et SBU, disparaît dans les autres, et semble bien être un préfixe affixé à une R.: BU ( BU\" ?, 'BU ?) avec le sens de finalité: = pour atteindre, alors que sans le préfixe S nous avons les sens indiqués ci-après:)",
+      "en": "(n.b. The root BU has never been encountered, but the elders use the terms: BUI, BUAN, BUON where theoretically one would expect: SBUI, SBUAN, SBUON ; The prefix S , present in the forms: SMBU, and SBU, disappears in the others, and does indeed seem to be a prefix affixed to a root: BU ( BU\" ?, 'BU ?) with the sense of purpose: = in order to reach/hit, whereas without the prefix S we have the meanings given below:)",
+      "zh": "（註：從未遇見過詞根 BU，但長者們使用 BUI、BUAN、BUON 等詞，照理應為：SBUI、SBUAN、SBUON；出現在 SMBU 和 SBU 等形式中的前綴 S，在其他形式中消失了，看來確實是加在詞根 BU（BU\"？、'BU？）上的前綴，帶有目的之意：＝為了擊中；而沒有前綴 S 時，則有以下所列的意思：）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Buan",
+          "fr": "Cible - Lieu où est atteint, est frappé.",
+          "en": "Target - the place where one is hit, is struck.",
+          "zh": "目標－被擊中、被打中的地方。",
+          "examples": [
+            {
+              "t": "Malu bi slaan sapax ka nii ! Sbxolan(sbgxolan) ole ni buan bi xedao ole!",
+              "fr": "Voici un merveilleux endroit pour bâtir; c'est bien aéré et c'est aussi bien exposé au soleil.",
+              "en": "Here is a wonderful spot to build; it is well ventilated and is also well exposed to the sun.",
+              "zh": "這是個很棒的建屋地點；通風良好，也很向陽。"
+            }
+          ]
+        },
+        {
+          "form": "Buon",
+          "fr": "Ce, celui qui sera frappé, atteint.",
+          "en": "That, the one who will be struck, hit.",
+          "zh": "將被打中、被擊中的（人或物）。",
+          "examples": [
+            {
+              "t": "Qdolyaq n'xali! Buon so daxa!",
+              "fr": "Sauve toi vite! Ils vont (ils veulent) te tirer dessus (vl.Tu seras atteint par leur tir).",
+              "en": "Flee quickly! They are going to (they want to) shoot at you (var. You will be hit by their fire).",
+              "zh": "快逃！他們要（想）朝你開槍（或：你會被他們的射擊擊中）。"
+            }
+          ]
+        },
+        {
+          "form": "Bui",
+          "fr": "(impératif) Que telle cible soit atteinte par toi.",
+          "en": "(imperative) May such a target be hit by you.",
+          "zh": "（祈使）願你擊中該目標。",
+          "examples": [
+            {
+              "t": "Ma\" ini so bui n'xali ka pada",
+              "fr": "Pourquoi n'as tu pas tiré le chamois (Pourquoi le chamois n'a-t-il pas été une cible que tu devais tirer ?)?",
+              "en": "Why did you not shoot the chamois (Why was the chamois not a target you should have shot?)?",
+              "zh": "你為什麼沒射那隻羚羊（山羌）（為什麼那隻羚羊沒成為你該射的目標？）？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBULAO",
+      "tag": "(R. = BULAO ?)",
+      "crossRef": "BULAO",
+      "fr": "Pourri - avarié. VR. BULAO .",
+      "en": "Rotten - spoiled. See BULAO .",
+      "zh": "腐爛的－敗壞的。參見 BULAO。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msbulao",
+          "fr": "Qui se gâte - pourrit.- qui est avarié - qui est pourri.",
+          "en": "Which goes bad - rots - which is spoiled - which is rotten.",
+          "zh": "腐壞的－腐爛的－敗壞的－腐敗的。",
+          "examples": [
+            {
+              "t": "Msbulao kana ka baga mo da",
+              "fr": "Toute ma main se nécrose - toute ma main est nécrosée (purulente).",
+              "en": "My whole hand is becoming necrotic - my whole hand is necrotic (suppurating).",
+              "zh": "我整隻手都在壞死－我整隻手都壞死了（化膿）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsbulao",
+          "fr": "D° au futur.",
+          "en": "Ditto in the future (verbal form of the preceding, future tense).",
+          "zh": "同上，未來式。",
+          "examples": [
+            {
+              "t": "Adi mpsbulao ka bonga so da ? ... Ya ksa : Mpsbulao! Mxdo bi msbulao kana da!",
+              "fr": "Tu ne crois pas que tes patates douces vont pourrir? ... Ne dis pas: Vont pourrir ! Elles sont bien déjà toutes pourries !",
+              "en": "Don't you think your sweet potatoes are going to rot? ... Don't say: They will rot! They are indeed already all rotten!",
+              "zh": "你不覺得你的地瓜要爛了嗎？……別說：要爛了！它們其實早就全爛了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBUT",
+      "tag": "(R)",
+      "fr": "Bâton - verge pour frapper - frapper avec un bâton.",
+      "en": "Stick - rod for striking - to strike with a stick.",
+      "zh": "棍子－用來打的棒子－用棍子打。",
+      "examples": [
+        {
+          "t": "Miing ko sbut ssbut mo kating",
+          "fr": "Je cherche un bâton pour frapper le buffle.",
+          "en": "I am looking for a stick to strike the buffalo.",
+          "zh": "我在找一根棍子來打水牛。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smbut",
+          "paradigm": "°Smbut, sbut, sbti, sbtan, sbtun.",
+          "fr": "Frapper(avec un bâton - avec les mains)- gifler.",
+          "en": "To strike (with a stick - with the hands) - to slap.",
+          "zh": "（用棍子－用手）打－打耳光。",
+          "examples": [
+            {
+              "t": "Smbut baga",
+              "fr": "1) Gifler, taper avec les mains; 2) applaudir.",
+              "en": "1) To slap, to hit with the hands; 2) to applaud.",
+              "zh": "1）用手打、拍打；2）鼓掌。"
+            },
+            {
+              "t": "Smbut dqalas",
+              "fr": "Donner une gifle.",
+              "en": "To give a slap.",
+              "zh": "打一個耳光。"
+            },
+            {
+              "t": "Ya ko bi sbti",
+              "fr": "Ne me frappe pas.",
+              "en": "Do not hit me.",
+              "zh": "別打我。"
+            },
+            {
+              "t": "Ida miso sbtun",
+              "fr": "Il faut absolument que je te frappe!",
+              "en": "I absolutely must hit you!",
+              "zh": "我非打你不可！"
+            },
+            {
+              "t": "Mxa nami smbut payai da",
+              "fr": "Nous allons battre le riz (moissonner).",
+              "en": "We are going to thresh the rice (harvest).",
+              "zh": "我們要打稻穀（收割）。"
+            }
+          ]
+        },
+        {
+          "form": "Ssbut",
+          "fr": "Pour frapper - pour battre.",
+          "en": "For striking - for threshing.",
+          "zh": "用來打的－用來擊打／脫粒的。",
+          "examples": [
+            {
+              "t": "Ngalun so ima ssbut so payai?",
+              "fr": "Qui prendras tu pour moissonner (battre) ton riz ?",
+              "en": "Whom will you take to harvest (thresh) your rice?",
+              "zh": "你要找誰來收割（脫粒）你的稻子？"
+            }
+          ]
+        },
+        {
+          "form": "Sbtan",
+          "fr": "Action defrapper - ce qui a été frappé - lieu, temps du frapper",
+          "en": "The act of striking - that which has been struck - the place, time of striking.",
+          "zh": "打的動作－被打的東西－打的地點、時間。",
+          "examples": [
+            {
+              "t": "Mndaxa ka sbtan ko na dqalas",
+              "fr": "Par deux fois il m'a giflé.",
+              "en": "Twice he slapped me.",
+              "zh": "他打了我兩次耳光。"
+            }
+          ]
+        },
+        {
+          "form": "Psbut",
+          "fr": "Se faire frapper - se faire taper dessus. - faire battre.",
+          "en": "To get oneself struck - to get oneself beaten. - to have (grain) threshed.",
+          "zh": "使自己被打－使自己挨打－使（穀物）被脫粒。",
+          "examples": [
+            {
+              "t": "Adi ko mxa sapax ka sayang! Miso ko muda psbut qaqai!",
+              "fr": "Je ne veux pas aller à la maison maintenant! J'ai peur de me faire recevoir à coups de pieds ( J'ai peur d'avoir à subir des coups de pieds).",
+              "en": "I don't want to go home now! I'm afraid of getting kicked ( I'm afraid of having to suffer kicks).",
+              "zh": "我現在不想回家！我怕被踢（我怕挨腳踢）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PNSBUT",
+      "tag": "(R. = SBUT ?)",
+      "fr": "??",
+      "en": "?? (meaning uncertain)",
+      "zh": "？？（詞義不明）",
+      "examples": [
+        {
+          "t": "Ini pnsbut",
+          "fr": "sans ménagements - outrager - insulter (?).",
+          "en": "without restraint - to outrage - to insult (?).",
+          "zh": "毫不留情地－侮辱－辱罵（？）。"
+        },
+        {
+          "t": "Ini pnsbut pkloqex tmaan",
+          "fr": "Il offense sans ménagements (impunément (?)) son père.",
+          "en": "He offends his father without any restraint (with impunity (?)).",
+          "zh": "他毫不留情地（肆無忌憚地（？））冒犯他的父親。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SDAMAT",
+      "tag": "(= R. ? - R. = DAMAT ?)",
+      "crossRef": "DAMAT, KDAMAT",
+      "fr": "Nostalgique(?) - triste(?) - déprimé (?) - ému (?). (nb. Ici encore, si ce terme ne vient pas de la R. DAMAT il peut y avoir amphibologie (VR. DAMAT, KDAMAT).",
+      "en": "Nostalgic(?) - sad(?) - depressed (?) - moved (?). (n.b. Here again, if this term does not come from the root DAMAT there may be ambiguity (see DAMAT, KDAMAT).",
+      "zh": "思念的（？）－悲傷的（？）－沮喪的（？）－感動的（？）。（註：這裡同樣地，若此詞並非源自詞根 DAMAT，則可能有歧義（參見 DAMAT、KDAMAT）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msdamat",
+          "fr": "Qui est triste, déprimé, nostalgique, ému.",
+          "en": "Who is sad, depressed, nostalgic, moved.",
+          "zh": "悲傷、沮喪、思念、感動的（人）。",
+          "examples": [
+            {
+              "t": "Msdamat nami balae kana ka sayang",
+              "fr": "Aujourd'hui, nous sommes tous tout tristes (nous nous ennuyons tous).",
+              "en": "Today, we are all quite sad (we are all melancholy).",
+              "zh": "今天我們大家都很悲傷（我們都很鬱悶）。"
+            }
+          ]
+        },
+        {
+          "form": "Sndamat",
+          "fr": "Avoir été triste, nostalgique (?)",
+          "en": "To have been sad, nostalgic (?)",
+          "zh": "曾經悲傷、思念（？）。",
+          "examples": [
+            {
+              "t": "Ma\" so sao bi sndamat!",
+              "fr": "Comme tu nous manquais (?) (nb. correspond à: Comme nous sommes contents de te voir!).",
+              "en": "How we missed you (?) (n.b. corresponds to: How glad we are to see you!).",
+              "zh": "我們多麼想念你啊（？）（註：相當於：我們見到你多麼高興！）。"
+            },
+            {
+              "t": "Sao bi sndamat ka kari so",
+              "fr": "Les paroles que tu nous dis vont droit au coeur.",
+              "en": "The words you say to us go straight to the heart.",
+              "zh": "你對我們說的話直達心坎。"
+            }
+          ]
+        },
+        {
+          "form": "Sdmatan",
+          "fr": "Lieu, temps de tristesse , d'ennui, de nostalgie.",
+          "en": "Place, time of sadness, of boredom, of nostalgia.",
+          "zh": "悲傷、鬱悶、思念的地點、時間。",
+          "examples": [
+            {
+              "t": "Wada paro bi sdmatan ka skawas",
+              "fr": "L'année passée a été une année de grande tristesse.",
+              "en": "Last year was a year of great sadness.",
+              "zh": "去年是非常悲傷的一年。"
+            }
+          ]
+        },
+        {
+          "form": "Knsdmatan",
+          "fr": "Tristesse - nostalgie - dépression.",
+          "en": "Sadness - nostalgia - depression.",
+          "zh": "悲傷－思念－憂鬱。",
+          "examples": [
+            {
+              "t": "K'la sao kia knplaan na ka knsdmatan so sayang",
+              "fr": "Elle est donc si grande que cela ta tristesse en ce jour !.",
+              "en": "So your sadness on this day is really that great!",
+              "zh": "原來你今天的悲傷竟這麼深啊！"
+            }
+          ]
+        },
+        {
+          "form": "Psdamat",
+          "paradigm": "°Mpsdamat, psdamat, psdmati, psdmatan ; psdmatun.",
+          "fr": "Attrister - donner le cafard - faire de la peine.",
+          "en": "To sadden - to give the blues - to cause grief.",
+          "zh": "使悲傷－使人鬱悶－使人難過。",
+          "examples": [
+            {
+              "t": "Ya lngao da ! Psdmatun so kana ka lqlaqe ta da!",
+              "fr": "Ne parle pas ! Tu vas donner la cafard à tous nos enfants !",
+              "en": "Don't speak! You are going to give all our children the blues!",
+              "zh": "別說了！你會讓我們所有的孩子都難過的！"
+            }
+          ]
+        },
+        {
+          "form": "Tsdamat",
+          "fr": "Qui est très triste , très nostalgique.",
+          "en": "Who is very sad, very nostalgic.",
+          "zh": "非常悲傷、非常思念的（人）。",
+          "examples": [
+            {
+              "t": "Tsdamat tloong kana ka dxea",
+              "fr": "Ils sont tous assis abattus.",
+              "en": "They are all sitting dejected.",
+              "zh": "他們全都垂頭喪氣地坐著。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SDANGAN",
+      "tag": "(R. = ??)",
+      "fr": "??",
+      "en": "?? (meaning uncertain)",
+      "zh": "？？（詞義不明）",
+      "examples": [
+        {
+          "t": "Sdangan xedao",
+          "fr": "Milieu de la matinée.",
+          "en": "Mid-morning.",
+          "zh": "上午當中（近中午時分）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SDAXAL",
+      "tag": "(R. = DAXAL ?)",
+      "fr": "S'appuyer sur - s'adosser.",
+      "en": "To lean on - to lean back against.",
+      "zh": "倚靠著－背靠著。",
+      "examples": [
+        {
+          "t": "Ana ini so sdaxal!",
+          "fr": "Tu peux te dispenser de t'appuyer - tu n'es pas obligé de t'appuyer.",
+          "en": "You can do without leaning - you are not obliged to lean.",
+          "zh": "你可以不用倚靠－你不必倚靠。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smdaxal",
+          "paradigm": "°Smdaxal, sdaxal, sdxali, sdxalan, sdxalun .",
+          "fr": "s'appuyer - s'adosser.",
+          "en": "to lean - to lean back against.",
+          "zh": "倚靠－背靠。",
+          "examples": [
+            {
+              "t": "Miyax ko smdaxal sunan; tqwini kana tunuç mo da!",
+              "fr": "Je viens m'appuyer à toi, la tête me tourne .",
+              "en": "I come to lean on you, my head is spinning.",
+              "zh": "我來靠著你，我頭好暈。"
+            },
+            {
+              "t": "Ya ko sdxali!",
+              "fr": "Ne t'appuye pas sur moi ( ne me prends pas pour un dossier !).",
+              "en": "Don't lean on me ( don't take me for a backrest!).",
+              "zh": "別靠在我身上（別把我當椅背！）。"
+            }
+          ]
+        },
+        {
+          "form": "Msdaxal",
+          "fr": "Etre dans l'état appuyé, adossé - qui s'appuie.",
+          "en": "To be in the leaning, propped state - who leans.",
+          "zh": "處於倚靠、背靠的狀態－倚靠著的（人）。",
+          "examples": [
+            {
+              "t": "Luxai na bi musa msdaxal kndlxan (kndl'xan) ka Pido; Luda bi (= Ludan bi) ka xea!",
+              "fr": "Pido à l'habitute d'aller s'appuyer au mur; il est très vieux !",
+              "en": "Pido has the habit of going to lean against the wall; he is very old!",
+              "zh": "Pido 習慣去靠著牆；他非常老了！"
+            },
+            {
+              "t": "Ana qoqo so msdaxal; ludan ka iso",
+              "fr": "Appuye toi seulement (cela ne fait rien que tu sois appuyé); toi tu es âgé.",
+              "en": "Just lean (it doesn't matter that you are leaning); you are elderly.",
+              "zh": "你儘管靠著（你靠著也沒關係）；你上了年紀。"
+            }
+          ]
+        },
+        {
+          "form": "Psdaxal",
+          "paradigm": "°Mpsdaxal, psdaxal, psdxali , psdxalan, psdxalun.",
+          "fr": "Adosser - appuyer.",
+          "en": "To lean (something) back against - to prop.",
+          "zh": "使背靠－使倚靠。",
+          "examples": [
+            {
+              "t": "Psdxali nanak pusu qouni ka napa so",
+              "fr": "Appuye seulement ton fardeau contre le tronc de l'arbre.",
+              "en": "Just lean your load against the trunk of the tree.",
+              "zh": "把你的擔子靠在樹幹上就好。"
+            },
+            {
+              "t": "Adi so psdxalun daolas ka \"bi ta da ?",
+              "fr": "N'appuyeras tu pas(n'adosseras tu pas) notre cabane au rocher ?",
+              "en": "Won't you prop (lean) our hut against the rock?",
+              "zh": "你不把我們的小屋靠在岩石上嗎？"
+            },
+            {
+              "t": "Ita tlangan so binao,spsdxalun mo tityex ka baki ta da",
+              "fr": "Passe moi donc ta chaise,(elle me servira ) pour adosser un peu notre grand père!",
+              "en": "Pass me your chair then, (it will serve me) to prop our grandfather up a little!",
+              "zh": "把你的椅子遞給我吧，（它可以讓我）稍微讓我們的祖父靠一下！"
+            }
+          ]
+        },
+        {
+          "form": "Sdxalan",
+          "fr": "Dossier - accoudoir - appui - support.",
+          "en": "Backrest - armrest - support - prop.",
+          "zh": "椅背－扶手－倚靠處－支撐物。",
+          "examples": [
+            {
+              "t": "Nyeqan sdxalan na ka tlangan so xo?",
+              "fr": "Est-ce que ta chaise a un dossier ?",
+              "en": "Does your chair have a backrest?",
+              "zh": "你的椅子有椅背嗎？"
+            },
+            {
+              "t": "Ongat sdxalan na ka pnpaan nami, kia ka snknalox bi xwinuk sadyaq",
+              "fr": "Le véhicule que nous avons pris n'avait pas de quoi s'appuyer, et c'est cela qui a provoqué le mal de reins pour les gens (passagers).",
+              "en": "The vehicle we took had nothing to lean against, and that is what caused the back pain for the people (passengers).",
+              "zh": "我們搭的車沒有可以倚靠的地方，這就是害乘客們腰痛的原因。"
+            }
+          ]
+        },
+        {
+          "form": "Tsdaxal",
+          "fr": "Qui est de fait bien appuyé.",
+          "en": "Who is in fact well propped up.",
+          "zh": "實際上靠得很穩的（人）。",
+          "examples": [
+            {
+              "t": "Pax mlubu ida mtsdaxal pusu qolit ka Talan",
+              "fr": "Depuis le matin, Talanne reste là appuyé au cyprès.",
+              "en": "Since morning, Talan has stayed there leaning against the cypress.",
+              "zh": "從早上起，Talan 就一直靠在檜木上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SDNGUX",
+      "tag": "(R. = DNGUX ?)",
+      "fr": "Profondément.",
+      "en": "Deeply.",
+      "zh": "深深地。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msndngux",
+          "fr": "Qui est très intensément, très profondément.",
+          "en": "Who/which is very intensely, very deeply.",
+          "zh": "非常強烈、非常深沉的。",
+          "examples": [
+            {
+              "t": "Taan na ida msdngux bi mtade kana ini na ttui",
+              "fr": "En voyant qu'ils étaient encore tous profondément endormis, il ne les réveille pas.(il ne veut pas les réveiller).",
+              "en": "Seeing that they were all still deeply asleep, he does not wake them.(he does not want to wake them).",
+              "zh": "看到他們都還沉睡著，他就不叫醒他們。（他不想叫醒他們。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SDOMAN",
+      "tag": "(R. = ??)",
+      "fr": "Support - étagère.",
+      "en": "Support - shelf.",
+      "zh": "支架－架子。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SDONGAN",
+      "tag": "(R. = ??)",
+      "fr": "Etagère.",
+      "en": "Shelf.",
+      "zh": "架子。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SDUI",
+      "tag": "(R. = DUI)",
+      "crossRef": "DUI",
+      "fr": "Se tenir à - pour tenir - armé de. VR. DUI .",
+      "en": "To hold on to - in order to hold - armed with. See DUI .",
+      "zh": "抓住－用以握持－以……為武裝。參見 DUI。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SD'XO",
+      "tag": "(R.)",
+      "crossRef": "D'XO",
+      "fr": "(R. = ) Pour renforcer, affermir. VR. D'XO .",
+      "en": "(R. = ) To reinforce, to strengthen. See D'XO .",
+      "zh": "（R. ＝）用以加強、鞏固。參見 D'XO。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SD'MA",
+      "tag": "(= R. ?)",
+      "fr": "Cauchemar.- faire des cauchemars.",
+      "en": "Nightmare. - to have nightmares.",
+      "zh": "惡夢－做惡夢。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msd'ma",
+          "fr": "Avoir des cauchemars - qui a des cauchemars.",
+          "en": "To have nightmares - who has nightmares.",
+          "zh": "做惡夢－做惡夢的（人）。",
+          "examples": [
+            {
+              "t": "Mbiyax so,Bai? ... Naqex ! Wada ko msd'ma (mnsd'ma) kingal labe ska'man!",
+              "fr": "Bonjour, Labai (= Es tu en bonne santé, Labai?), ... Cela ne va pas ! Toute la nuit dernière je n'ai fait que des cauchemars !",
+              "en": "Hello, Labai (= Are you in good health, Labai?), ... Things are not well! All last night I did nothing but have nightmares!",
+              "zh": "你好，Labai（＝你身體好嗎，Labai？）……不太好！我昨晚整夜都在做惡夢！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SGQGOQ",
+      "tag": "(R. = ?? - = R. GQGOQ ?)",
+      "fr": "Etouffé - noyé - pour étouffer.",
+      "en": "Suffocated - drowned - to suffocate.",
+      "zh": "窒息的－溺斃的－使窒息。",
+      "examples": [
+        {
+          "t": "Mnsa mtlboq ksia ni mnsgqgoq mxoqel kana da",
+          "fr": "Ils sont tombés dans l'eau et sont tous morts noyés (étouffés).",
+          "en": "They fell into the water and all died drowned (suffocated).",
+          "zh": "他們掉進水裡，全都溺死（窒息而死）了。"
+        }
+      ],
+      "subs": []
+    }
+  ]
+}

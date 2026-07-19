@@ -1,0 +1,638 @@
+{
+  "pages": [210, 213],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "OYONG",
+      "tag": "(R)",
+      "fr": "L'espace tout proche derrière la maison (nb. Ngangot désigne de préférence le devant).",
+      "en": "The space right behind the house (n.b. Ngangot preferably designates the front).",
+      "zh": "房屋正後方最靠近的空間（註：Ngangot 則多指前方）。",
+      "examples": [
+        {
+          "t": "Ga oyong sapax mo ka kmpaxan trabus",
+          "fr": "Le champ d'arachides se là tout près derrière la maison.",
+          "en": "The peanut field is right there, close behind the house.",
+          "zh": "花生田就在房屋後方最近之處。"
+        }
+      ]
+    },
+    {
+      "hw": "P",
+      "tag": "",
+      "fr": "Préfixe très productif; joint à une base simple, ou déjà dérivée, il lui ajoute le sens de faire réaliser l'état ou l'action que la base suggère. Dans cette affixation, ce P est immédiatement préfixé à la base dans sa forme impérative simple - ou négative - et peut à son tour être précédé d'autres préfixes.",
+      "en": "Very productive prefix; joined to a simple base, or an already derived one, it adds the sense of causing the state or action that the base suggests to be realized. In this affixation, this P is immediately prefixed to the base in its simple imperative form - or negative - and can in turn be preceded by other prefixes.",
+      "zh": "非常能產的前綴；接在簡單詞根或已派生的詞根上，賦予「使實現該詞根所指之狀態或動作」之意。在此構詞中，此 P 直接前綴於詞根的簡單命令式（或否定式）之前，且本身還可再被其他前綴所前綴。",
+      "examples": [
+        { "t": "Smalu ko", "fr": "Je construis.", "en": "I build.", "zh": "我建造。" },
+        { "t": "Salu!", "fr": "Construis !", "en": "Build!", "zh": "建造吧！" },
+        { "t": "Psalu (P + SALU) ko", "fr": "Je fais construire.", "en": "I have (something) built.", "zh": "我叫人建造。" },
+        { "t": "Kmpsalu ko ( K + M + P + SALU)", "fr": "Je désire faire faire construire (?)", "en": "I wish to have (it) built (?)", "zh": "我想要叫人建造（?）。" },
+        { "t": "Mapa", "fr": "porter.", "en": "to carry.", "zh": "背負／攜帶。" },
+        { "t": "Apa", "fr": "porte!", "en": "carry!", "zh": "背吧！" },
+        { "t": "papa", "fr": "Faire (se faire) porter.", "en": "To have (oneself) carried.", "zh": "使（自己）被背負。" },
+        { "t": "PPPaon", "fr": "Ce qu'on veut faire porter - pour faire porter.", "en": "What one wants to have carried - in order to have (it) carried.", "zh": "想要讓人背負之物——用以使人背負。" }
+      ]
+    },
+    {
+      "hw": "PA",
+      "tag": "",
+      "fr": "Préfixe, conservant la valeur du précédent, mais avec en plus le sens de futur.",
+      "en": "Prefix, keeping the value of the preceding one, but with in addition the sense of the future.",
+      "zh": "前綴，保留前一前綴之義，但另加未來時之意。",
+      "examples": [
+        { "t": "Musa ko", "fr": "Je vais.", "en": "I go.", "zh": "我去。" },
+        { "t": "Mausa ko", "fr": "J'irai (ça y est, je vais aller.)", "en": "I will go (there it is, I'm about to go.)", "zh": "我將去（就是了，我要去了）。" },
+        { "t": "Pusa ko", "fr": "J'envoie.", "en": "I send.", "zh": "我派遣／寄送。" },
+        { "t": "Pausa ko", "fr": "J'enverrai.", "en": "I will send.", "zh": "我將派遣／寄送。" }
+      ]
+    },
+    {
+      "hw": "PADA",
+      "tag": "(R)",
+      "fr": "Chamois. (L'un des gibiers les plus communs pour les taroko.",
+      "en": "Chamois (Formosan serow). (One of the most common game animals for the Taroko.",
+      "zh": "臺灣長鬃山羊。（太魯閣人最常獵取的獵物之一。",
+      "examples": []
+    },
+    {
+      "hw": "PADYAQ",
+      "tag": "(R)",
+      "fr": "Légumes (surtout verdure) - Plats servis avec la nourriture de base (riz, millet, patates douces..), sans doute par extension du sens de légumes.",
+      "en": "Vegetables (especially greens) - Dishes served with the staple food (rice, millet, sweet potatoes..), no doubt by extension of the sense of vegetables.",
+      "zh": "蔬菜（尤指綠色蔬菜）——與主食（米、小米、地瓜等）一同食用的菜餚，無疑是由「蔬菜」之義引申而來。",
+      "examples": [
+        {
+          "t": "Xmaon mo kingal pusu tlaxe ka siyao xmaan padyaq oyong bi sapax mo",
+          "fr": "Je veux planter un pied de Pamplemoussier au bord du jardin à légumes tout près de ma maison.",
+          "en": "I want to plant a pomelo tree at the edge of the vegetable garden right next to my house.",
+          "zh": "我想在我家旁邊的菜園邊種一棵柚子樹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ppadyaq",
+          "fr": "Les légumes (Pluriel)",
+          "en": "The vegetables (plural).",
+          "zh": "蔬菜（複數）。",
+          "examples": [
+            {
+              "t": "Mk'lae bi ka ana manu ppadyaq sayang",
+              "fr": "Les légumes de n'importe quelle sorte sont très chers aujourd'hui.",
+              "en": "Vegetables of any kind are very expensive today.",
+              "zh": "如今任何一種蔬菜都非常昂貴。"
+            }
+          ]
+        },
+        {
+          "form": "Spadyaq ( Sppadyaq )",
+          "fr": "Qui sent l'odeur de légumes (vl. pour que ce soit de couleur verte. -vr.suivant MPADYAQ).",
+          "en": "That smells of vegetables (var. so that it be green in colour. - see following MPADYAQ).",
+          "zh": "帶有蔬菜氣味的（或：使呈綠色。——參見下條 MPADYAQ）。",
+          "examples": [
+            {
+              "t": "Uxai sknux, sppadyaq nanak ka baga mo",
+              "fr": "Elle ne sentent pas mauvais, mes mains, mais les légumes",
+              "en": "My hands don't smell bad — only of vegetables.",
+              "zh": "我的手並不臭，只是有蔬菜味。"
+            }
+          ]
+        },
+        {
+          "form": "Mpadyaq",
+          "fr": "Généralement employé pour désigner la couleur verte.",
+          "en": "Generally used to designate the green colour.",
+          "zh": "一般用來表示綠色。",
+          "examples": [
+            {
+              "t": "Mpadyaq bi ka lukus mo bulax",
+              "fr": "Mon habit neuf est de souleur bien verte.",
+              "en": "My new garment is a nice green colour.",
+              "zh": "我的新衣服是很漂亮的綠色。"
+            },
+            {
+              "t": "Ini kpadyaq ka n'iso",
+              "fr": "Le tien n'est pas vert.",
+              "en": "Yours is not green.",
+              "zh": "你的不是綠色。"
+            },
+            {
+              "t": "Ngalun so manu spkpadyaq (sppadyaq !) galyeq so",
+              "fr": "De quoi te sers tu pour colorer ton étoffe en vert ( en couleur verte.)",
+              "en": "What do you use to colour your cloth green (in green colour.)",
+              "zh": "你用什麼把你的布染成綠色（染成綠色）？"
+            },
+            {
+              "t": "Taan ta ilnabao qouni dgiyaq o, lala bi ini kdka knpadyaq daxa",
+              "fr": "En voyant les feuilles des arbres en montagne la qualité de leur couleur verte est très différente.",
+              "en": "When we look at the leaves of the trees in the mountains, the quality of their green colour is very different.",
+              "zh": "觀看山上樹木的葉子時，其綠色的色調差異很大。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAGA",
+      "tag": "(R)",
+      "fr": "Espèce de hotte formée de deux montants de bois, solidaires l'un de l'autre grâce à plusieurs traverses les reliant, dans lesquels sont plantés à la partie inférieure deux autres bois faisant un angle de 70° avec les montants; deux bretelles permettent aux hommes de la porter sur les épaules, ou une courroie pour que les femmes la portent sur le front.",
+      "en": "A kind of back-carrier (pannier) formed of two wooden uprights, joined to one another by several crosspieces linking them, into which are set at the lower part two other pieces of wood forming a 70° angle with the uprights; two shoulder-straps let the men carry it on their shoulders, or a strap so that the women carry it on the forehead.",
+      "zh": "一種背架，由兩根木製立柱構成，兩柱之間以數根橫木相連而固定，立柱下端插入另兩根與立柱成 70 度角的木頭；兩條背帶讓男子背在肩上，或用一條額帶讓婦女頂在額前背負。",
+      "examples": []
+    },
+    {
+      "hw": "PAI",
+      "tag": "(R)",
+      "fr": "1) Grand-mère. 2) Belle-mère. 3) Terme de respect pour désigner une femme âgée.",
+      "en": "1) Grandmother. 2) Mother-in-law. 3) Respectful term to designate an elderly woman.",
+      "zh": "1) 祖母／外婆。2) 岳母／婆婆。3) 對年長婦女的尊稱。",
+      "examples": [
+        {
+          "t": "Bobo tama adi ole bobo bobo o, kia ka ksun ta Pai",
+          "fr": "La maman du papa ou la maman de la maman, c'est ce que nous appelons: PAI (grand mère).",
+          "en": "The father's mother or the mother's mother, that is what we call: PAI (grandmother).",
+          "zh": "父親的母親或母親的母親，就是我們所稱的 PAI（祖母）。"
+        },
+        {
+          "t": "Ana bobo pai ni bobo baki o, ida Pai msa ka kari troko",
+          "fr": "Et la maman du grand père ou de la gran mère, en taroko se dit aussi: PAI .",
+          "en": "And the mother of the grandfather or of the grandmother, in Taroko is also called: PAI.",
+          "zh": "而祖父或祖母的母親，在太魯閣語中也稱為 PAI。"
+        },
+        {
+          "t": "Bobo koyox, adi ole o , bobo snao ta o, ida pai ksun ta",
+          "fr": "La maman de notre femme ou celle de notre mari s'appellent aussi: PAI .",
+          "en": "Our wife's mother or our husband's mother are also called: PAI.",
+          "zh": "我們妻子的母親或丈夫的母親，也都稱為 PAI。"
+        }
+      ]
+    },
+    {
+      "hw": "PAIS",
+      "tag": "(R)",
+      "fr": "Ennemi - adversaire.",
+      "en": "Enemy - adversary.",
+      "zh": "敵人——對手。",
+      "examples": [
+        {
+          "t": "Yamo ppais o, kawai namo!",
+          "fr": "Vous les ennemis, vous allez voir !(menace).",
+          "en": "You enemies, you'll see! (threat).",
+          "zh": "你們這些敵人，你們等著瞧！（威脅語）。"
+        },
+        {
+          "t": "Pais bi troko ka mksao kia",
+          "fr": "Ceux qui agissent ainsi sont vraiment les ennemis des taroko.",
+          "en": "Those who act like that are truly the enemies of the Taroko.",
+          "zh": "那樣行事的人真的是太魯閣人的敵人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ppais",
+          "fr": "Les ennemis (pluriel).",
+          "en": "The enemies (plural).",
+          "zh": "敵人（複數）。",
+          "examples": []
+        },
+        {
+          "form": "Dpais",
+          "fr": "Les ennemis (en général).",
+          "en": "The enemies (in general).",
+          "zh": "敵人（泛指）。",
+          "examples": []
+        },
+        {
+          "form": "Mkpais",
+          "fr": "Ennemi - mal disposé envers.",
+          "en": "Enemy - ill-disposed towards.",
+          "zh": "敵對的——對……懷有惡意。",
+          "examples": [
+            {
+              "t": "Mkpais bi ka lnglongan nia",
+              "fr": "Son coeur (sa pensée) est très mal disposé = Ennemi de coeur.",
+              "en": "His heart (his thought) is very ill-disposed = Enemy at heart.",
+              "zh": "他的心（他的想法）非常懷有惡意＝內心的敵人。"
+            }
+          ]
+        },
+        {
+          "form": "Kmpais",
+          "fr": "Disposé à être ennemi - désirer être ennemi.",
+          "en": "Disposed to be an enemy - to wish to be an enemy.",
+          "zh": "傾向於為敵——想要為敵。",
+          "examples": [
+            {
+              "t": "Ya bi snxei ana kingal kari nia; Kmpais bi tama so ka xea",
+              "fr": "Ne crois pas un mot de ce qu'il dit; il en veut à ton père.",
+              "en": "Don't believe a word of what he says; he bears a grudge against your father.",
+              "zh": "他說的話一個字都別信；他對你父親懷恨在心。"
+            }
+          ]
+        },
+        {
+          "form": "Mapais",
+          "fr": "en train de devenir ennemi - deviendra ennemi.",
+          "en": "In the process of becoming an enemy - will become an enemy.",
+          "zh": "正在變成敵人——將成為敵人。",
+          "examples": [
+            {
+              "t": "Klaon mo bi ! Ga mapais ta ka Tunun",
+              "fr": "J'en suis persuadé, Tounoun est en train de devenir notre ennemi.",
+              "en": "I'm convinced of it, Tounoun is becoming our enemy.",
+              "zh": "我確信，Tunun 正在變成我們的敵人。"
+            }
+          ]
+        },
+        {
+          "form": "Paisan",
+          "fr": "Forme oblique de PAIS.",
+          "en": "Oblique form of PAIS.",
+          "zh": "PAIS 的斜格形式。",
+          "examples": [
+            {
+              "t": "Lngagi bi paisan: Ini ko kngongo, ksa",
+              "fr": "Parle pour de bon aux ennemis; dis leur: Je n'ai pas peur.",
+              "en": "Speak in earnest to the enemies; tell them: I am not afraid.",
+              "zh": "認真地對敵人說話；告訴他們：我不害怕。"
+            }
+          ]
+        },
+        {
+          "form": "Mppais",
+          "fr": "Qui sont mutuellement ennemis.",
+          "en": "Who are mutually enemies.",
+          "zh": "彼此為敵的。",
+          "examples": [
+            {
+              "t": "Snmanu namo bi ka mppais namo da?",
+              "fr": "Qu'est ce que vous avez donc pour être ainsi ennemis ?",
+              "en": "What is the matter with you that you are enemies like this?",
+              "zh": "你們到底是怎麼了，竟然如此彼此為敵？"
+            }
+          ]
+        },
+        {
+          "form": "Pnpais",
+          "fr": "Se conduire à la manière des ennemis.",
+          "en": "To behave in the manner of enemies.",
+          "zh": "以敵人的方式行事。",
+          "examples": [
+            {
+              "t": "Ana nkingal bi bobo ka dxea o, ida pnpais daxa kddiyax",
+              "fr": "Bien qu'ils soient fils de la même mère, ils sont toujours comme chien et chat (ils se conduisent comme des ennemis l'un pour l'autre.",
+              "en": "Although they are sons of the same mother, they are always like cat and dog (they behave like enemies towards one another.",
+              "zh": "儘管他們是同一個母親所生，卻總是像貓狗一樣（彼此像敵人般相待。"
+            }
+          ]
+        },
+        {
+          "form": "Knpais",
+          "fr": "Intensité d'inimitié, d'hostilité.",
+          "en": "Intensity of enmity, of hostility.",
+          "zh": "敵意、仇恨的強烈程度。",
+          "examples": [
+            {
+              "t": "K'la sao kia ka knpais lnglongan so",
+              "fr": "Voilà donc combien ton coeur est ennemi !",
+              "en": "So that's how much your heart is hostile!",
+              "zh": "原來你的心竟如此充滿敵意！"
+            }
+          ]
+        },
+        {
+          "form": "Knpaisan",
+          "fr": "Inimitié - hostilité.",
+          "en": "Enmity - hostility.",
+          "zh": "仇恨——敵意。",
+          "examples": [
+            {
+              "t": "Knpaisan daxa nanak ka sp'otoç tunuç daxa",
+              "fr": "Ce n'est que leur inimitié qui leur fait perdre la tête.",
+              "en": "It is only their enmity that makes them lose their heads.",
+              "zh": "正是他們的仇恨使他們失去理智。"
+            }
+          ]
+        },
+        {
+          "form": "Smpais",
+          "fr": "Agir en ennemi - Faire en sorte d'être ennemi.",
+          "en": "To act as an enemy - to make oneself an enemy.",
+          "zh": "做出敵對行為——設法為敵。",
+          "examples": [
+            {
+              "t": "Ongat içan ! Sao bi smpais ka dxea",
+              "fr": "Inutile d'insister! On dirait qu'ils font tout pour être ennemis.",
+              "en": "No use insisting! It seems they do everything to be enemies.",
+              "zh": "不必再堅持了！看來他們竭盡所能地與人為敵。"
+            }
+          ]
+        },
+        {
+          "form": "Pkpais",
+          "fr": "Rendre ennemis.",
+          "en": "To make (people) enemies.",
+          "zh": "使（人）成為敵人。",
+          "examples": [
+            {
+              "t": "Naqex bi qoaq so ka pnkpais lludan ta da",
+              "fr": "C'est ta sale langue qui a mis nos parents l'un contre l'autre.",
+              "en": "It's your foul tongue that has set our relatives against one another.",
+              "zh": "是你那張惡毒的嘴使我們的親人彼此反目。"
+            }
+          ]
+        },
+        {
+          "form": "Spkpais",
+          "fr": "Pour rendre ennemis.",
+          "en": "In order to make (people) enemies.",
+          "zh": "用以使（人）為敵。",
+          "examples": [
+            {
+              "t": "Balac bi pila nanak ka ngalun so pusu spkpais so xxmadan nami xo?",
+              "fr": "Est ce vraiment l'argent seulement dont tu fais l'arme (la racine) pour rendre nos alliés mutuellement ennemis? 'Cest donc de l'argent dont tu te sers pour semer l'inimitié (la discorde) parmi nos parents par alliance ?).",
+              "en": "Is it really money alone that you make into a weapon (the root cause) to make our allies enemies of one another? So it is money you use to sow enmity (discord) among our relatives by marriage?).",
+              "zh": "難道你真的只是拿金錢當作武器（禍根），來使我們的盟友彼此為敵嗎？原來你是用金錢在姻親之間散播仇恨（不和）啊？）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAKAO",
+      "tag": "(R)",
+      "fr": "Épine - ronce.",
+      "en": "Thorn - bramble.",
+      "zh": "刺——荊棘。",
+      "examples": [
+        {
+          "t": "Xoya mo ksun muda xeni! Pakao nanak!",
+          "fr": "Comment puis je passer par ici? Ce ne sont qu'épines!",
+          "en": "How can I get through here? It's nothing but thorns!",
+          "zh": "我怎麼能從這裡通過？這裡全是刺！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkpakao",
+          "fr": "Qui se trouve au milieu des épines.",
+          "en": "Which is located in the midst of thorns.",
+          "zh": "位於荊棘叢中的。",
+          "examples": [
+            {
+              "t": "Ga mkpakao ka \"bi nia",
+              "fr": "sa cabane se trouve au milieu des ronces.",
+              "en": "his hut is in the middle of the brambles.",
+              "zh": "他的小屋位在荊棘叢中。"
+            },
+            {
+              "t": "Adi mpk'udus ka qliyut so mkpakao",
+              "fr": "Ton mûrier ne vivra pas au milieu des ronces.",
+              "en": "Your mulberry tree will not survive in the midst of the brambles.",
+              "zh": "你的桑樹在荊棘叢中活不了。"
+            }
+          ]
+        },
+        {
+          "form": "Pkpakao (ppakao)",
+          "fr": "Les épines - les ronces.",
+          "en": "The thorns - the brambles.",
+          "zh": "刺——荊棘（名詞）。",
+          "examples": []
+        },
+        {
+          "form": "Pkpakao",
+          "fr": "mettre au milieu des épines.",
+          "en": "To put in the midst of thorns.",
+          "zh": "置於荊棘叢中。",
+          "examples": [
+            {
+              "t": "Pdaon so pkpakao (vl.mkpakao) ka kating so?",
+              "fr": "Tu veux faire passer ton buffle au milieu des ronces?",
+              "en": "Do you want to drive your buffalo through the middle of the brambles?",
+              "zh": "你想讓你的水牛穿過荊棘叢嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAKOX",
+      "tag": "(R)",
+      "fr": "Se retourner - se renverser - sens dessus dessous.",
+      "en": "To turn over - to overturn - upside down.",
+      "zh": "翻轉——翻倒——顛倒過來。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Makox",
+          "paradigm": "Makox, pakox, pkoxe , pkoxan, pkoxon",
+          "fr": "d° forme verbale.",
+          "en": "ditto (same as above), verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Wada na pkoxon (pkoxun) ka lnglongan",
+              "fr": "Tous ses sentiments sont sens dessus dessous.",
+              "en": "All his feelings are turned upside down.",
+              "zh": "他所有的情緒都被攪得天翻地覆。"
+            }
+          ]
+        },
+        {
+          "form": "Mpakox",
+          "fr": "Qui est à l'envers (surtout dans le sens du haut en bas).",
+          "en": "Which is inside out / upside down (especially in the top-to-bottom sense).",
+          "zh": "翻反的（尤指上下顛倒）。",
+          "examples": [
+            {
+              "t": "Ga mpakox ka pnta'to so btunuç",
+              "fr": "La pierre que tu as dressée est à l'envers.",
+              "en": "The stone you set up is upside down.",
+              "zh": "你豎立的那塊石頭上下顛倒了。"
+            },
+            {
+              "t": "Ga mpakox lnglongan na",
+              "fr": "Il est dérouté - Il est désemparé.",
+              "en": "He is bewildered - He is at a loss.",
+              "zh": "他不知所措——他慌了手腳。"
+            }
+          ]
+        },
+        {
+          "form": "Pkpakox",
+          "paradigm": "Mpkpakox, pkpakox, pkpkoxe, pkpkoxan, pkpkoxon (pkpkoxun)",
+          "fr": "Retourner - mettre sens dessus dessous.",
+          "en": "To turn over - to put upside down.",
+          "zh": "翻轉——弄得顛倒。",
+          "examples": [
+            {
+              "t": "Lnglong ko pkpakox lukus mo ni; mlutyaq bi da",
+              "fr": "Je pense retourner mon habit, il est tout sale",
+              "en": "I'm thinking of turning my garment inside out, it's all dirty.",
+              "zh": "我想把我的衣服翻過來，它全髒了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PALA",
+      "tag": "(R)",
+      "fr": "Pagne des femmes - jupe. (nb. Faite de deux pièces de toile ( de chanvre), souvent ornées, posées sur chacune des hanches, se croisant par devant et par derrière, retenues aux reins par une ceinture.)",
+      "en": "Women's wrap - skirt. (n.b. Made of two pieces of cloth (of hemp), often decorated, placed over each of the hips, crossing in front and behind, held at the waist by a belt.)",
+      "zh": "婦女的圍裙——裙子。（註：由兩片（麻）布製成，常有裝飾，分別披在兩側臀部上，於前後交叉，並以腰帶固定於腰間。）",
+      "examples": [
+        {
+          "t": "Lobyaq ka pusu bi mk'la tminun pala",
+          "fr": "C'est Lobyaq qui est spécialiste du tissage de jupes.",
+          "en": "It's Lobyaq who is the specialist in weaving skirts.",
+          "zh": "Lobyaq 才是織裙的專家。"
+        }
+      ]
+    },
+    {
+      "hw": "PALA",
+      "tag": "",
+      "fr": "( Peut-être par assimilation, déduit de la couleur de la PALA = jupe) = pâleur du visage.",
+      "en": "(Perhaps by assimilation, derived from the colour of the PALA = skirt) = paleness of the face.",
+      "zh": "（或許是由類比而來，取自 PALA＝裙子的顏色）＝臉色蒼白。",
+      "examples": [
+        {
+          "t": "Mapala kana ka dqalas so",
+          "fr": "Ton visage est livide !",
+          "en": "Your face is livid (deathly pale)!",
+          "zh": "你的臉色慘白！"
+        },
+        {
+          "t": "Xmuya mpspala namo kana kngongo",
+          "fr": "Qu'est ce qui vous arrive d'être ainsi tout blancs de peur ?",
+          "en": "What's happening to you, to be all white with fear like this?",
+          "zh": "你們是怎麼了，竟嚇得如此面無血色？"
+        }
+      ]
+    },
+    {
+      "hw": "PALAS",
+      "tag": "(R)",
+      "fr": "Plante arborescente aux feuilles assez larges (10 cm. X 15cm.) et dont le contact provoque des démangeaisons très douloureuses et parfois des brûlures de la peau.",
+      "en": "A tree-like plant with fairly broad leaves (10 cm. X 15 cm.) whose contact causes very painful itching and sometimes burns to the skin.",
+      "zh": "一種樹狀植物，葉片相當寬大（10 公分 × 15 公分），觸碰會引起極為疼痛的搔癢，有時還會灼傷皮膚。",
+      "examples": []
+    },
+    {
+      "hw": "PALEX",
+      "tag": "(R)",
+      "fr": "Petite pioche au manche très court (de 15 à 20 cm.) dont les taroko se servent le plus souvent pour les travaux des champs, surtout pour désherber.",
+      "en": "Small hoe / mattock with a very short handle (from 15 to 20 cm.) which the Taroko most often use for fieldwork, especially for weeding.",
+      "zh": "一種柄極短（15 至 20 公分）的小鋤，太魯閣人最常用於田間工作，尤其是除草。",
+      "examples": []
+    },
+    {
+      "hw": "PALIT",
+      "tag": "(R)",
+      "fr": "Franges - plumes des oiseaux (nb. on dit plus souvent: Ubal=Poil § Ubal lodoç = Plumes de poule).",
+      "en": "Fringes - feathers of birds (n.b. one more often says: Ubal = Hair/fur § Ubal lodoç = Chicken feathers).",
+      "zh": "流蘇——鳥的羽毛（註：更常說 Ubal＝毛 § Ubal lodoç＝雞毛）。",
+      "examples": [
+        {
+          "t": "Suyang bi ka palit mpswiwil mtqeli pala so",
+          "fr": "Elles sont très jolies les franges qui pendent tout autour de ta jupe.",
+          "en": "The fringes that hang all around your skirt are very pretty.",
+          "zh": "垂在你裙子四周的流蘇很漂亮。"
+        }
+      ]
+    },
+    {
+      "hw": "PAPAQ",
+      "tag": "(R)",
+      "fr": "Jambes - pieds d'un objet.",
+      "en": "Legs - feet of an object.",
+      "zh": "腿——物體的腳（支腳）。",
+      "examples": [
+        {
+          "t": "Mksa ko papaq",
+          "fr": "Je marche à pieds.",
+          "en": "I go on foot.",
+          "zh": "我步行。"
+        },
+        {
+          "t": "L'bu bi papaq na kika ini na d'xqe tmalang",
+          "fr": "Ses jambes sont trop courtes c'est pourquoi il n'arrive pas à courir.",
+          "en": "His legs are too short, that's why he can't manage to run.",
+          "zh": "他的腿太短，所以跑不動。"
+        },
+        {
+          "t": "Spat papaq na ka L'pun so da",
+          "fr": "Ton grenier a (est construit sur) quatre pieds.",
+          "en": "Your granary has (is built on) four legs.",
+          "zh": "你的穀倉有（建在）四支腳上。"
+        }
+      ]
+    },
+    {
+      "hw": "PAQAX",
+      "tag": "(R)",
+      "fr": "Arête de poisson.",
+      "en": "Fish bone.",
+      "zh": "魚刺（魚骨）。",
+      "examples": []
+    },
+    {
+      "hw": "PARO",
+      "tag": "(R)",
+      "fr": "Grand - de grande dimension (au propre et au figuré).",
+      "en": "Big - of great size (literally and figuratively).",
+      "zh": "大——體積龐大（本義與引申義皆有）。",
+      "examples": [
+        { "t": "Paro sapax ka sapax so", "fr": "Ta maison est une grande maison.", "en": "Your house is a big house.", "zh": "你的房子是一棟大房子。" },
+        { "t": "Sapax paro ka sapax so", "fr": "C'est la maison qui est grande qui est ta maison.", "en": "It's the house that is big that is your house.", "zh": "你的房子是那棟大的房子。" },
+        { "t": "Paro tunuç", "fr": "Personnage important - grand savant - prétentieux.", "en": "An important personage - great scholar - pretentious person.", "zh": "重要人物——大學者——自負的人。" },
+        { "t": "Kalat paro da", "fr": "Et nous voilà au grand beau temps.", "en": "And here we are in the height of fine weather.", "zh": "我們正逢大好晴天。" },
+        { "t": "Adi paro ka libul so xo", "fr": "Est ce que tes pantalons ne sont pas trop grands?", "en": "Aren't your trousers too big?", "zh": "你的褲子是不是太大了？" },
+        { "t": "Paro mbuyas", "fr": "1) Qui est enceinte; 2) qui est obèse.", "en": "1) Who is pregnant; 2) who is obese.", "zh": "1) 懷孕的；2) 肥胖的。" },
+        { "t": "Paro qoaq", "fr": "A haute voix.", "en": "In a loud voice.", "zh": "大聲地。" },
+        { "t": "daxa ta o, ima ka paro", "fr": "1) Quel est le plus grand de nous deux ? 2) Quel est le plus âgé de nous deux.", "en": "1) Which of us two is the bigger (taller)? 2) Which of us two is the older.", "zh": "1) 我們兩人誰比較大（高）？2) 我們兩人誰比較年長？" },
+        { "t": "Paro bi ka ini pndka", "fr": "C'est très different.", "en": "It is very different.", "zh": "差別很大。" },
+        { "t": "Paro bi mnalox na", "fr": "Il est très malade (gravement).", "en": "He is very ill (gravely).", "zh": "他病得很重（危急）。" }
+      ],
+      "subs": [
+        {
+          "form": "Mkparo",
+          "fr": "Grandir - se faire grand.",
+          "en": "To grow - to make oneself big.",
+          "zh": "長大——使自己變大。",
+          "examples": [
+            {
+              "t": "Paro ka laqe so da, mkparo ka laqe mo ole",
+              "fr": "Ton fils est déjà grand, le mien aussi grandit.",
+              "en": "Your son is already big, mine is growing too.",
+              "zh": "你的兒子已經長大了，我的也在長大。"
+            }
+          ]
+        },
+        {
+          "form": "Kparo",
+          "fr": "Sois grand! - Forme négative de PARO.",
+          "en": "Be big (loud)! - Negative form of PARO.",
+          "zh": "要大聲！——PARO 的否定式。",
+          "examples": [
+            {
+              "t": "Kparo xali qoaq namo da!",
+              "fr": "Parlez donc un peu plus fort !",
+              "en": "Do speak a bit louder!",
+              "zh": "你們說話大聲一點吧！"
+            },
+            {
+              "t": "Ini kparo ka muxeng na!",
+              "fr": "Son…",
+              "en": "His…",
+              "zh": "他的……"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "pages": [90, 93],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Gn'gan daxa o, daxa t'lo bi xei",
+        "fr": "Ils n'ont choisi que deux ou trois personnes.",
+        "en": "They chose only two or three people.",
+        "zh": "他們只挑選了兩三個人。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Psgao",
+        "paradigm": "° Mpsgao, psgao, psg'gi, psg'gan, psg'gun.",
+        "fr": "Faire que ce soit choisi - mettre à part - tenir pour agréable.",
+        "en": "To cause to be chosen — to set apart — to hold as acceptable (pleasing).",
+        "zh": "使被揀選——分別出來——視為悅納。",
+        "examples": [
+          {
+            "t": "Mdulun ko sunan ppsgao so pnspadao mo nii",
+            "fr": "Je te prie pour que tu tiennes pour agréable (pour que tu acceptes avec bienveillance) ce don que je t'ai fait.",
+            "en": "I beg you to hold as acceptable (to accept with kindness) this gift that I have given you.",
+            "zh": "我求你悅納(懷著善意接受)我所獻給你的這份禮物。"
+          }
+        ]
+      },
+      {
+        "form": "Psgagan (psg'gan)",
+        "fr": "Ce qui a été choisi, mis à part, élu, consacré.",
+        "en": "That which has been chosen, set apart, elected, consecrated.",
+        "zh": "被揀選、分別出來、蒙選、被奉獻之物。",
+        "examples": [
+          {
+            "t": "Ngali pnsgagan otoç balao ka ana ima kmbslanan namo laqe snao",
+            "fr": "Considérez comme consacrés au Seigneur (l'Esprit d'en haut) tous les aînés (les premiers nés) de vos enfants mâles.",
+            "en": "Consider as consecrated to the Lord (the Spirit on high) all the eldest (the firstborn) of your male children.",
+            "zh": "要把你們男孩中所有的長子(頭生的)都視為奉獻給主(在上之靈)的。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "GAQAT",
+      "tag": "(R)",
+      "fr": "Glaçon.",
+      "en": "Icicle — piece of ice.",
+      "zh": "冰塊、冰柱。",
+      "examples": [
+        {
+          "t": "Lqlaqe mbalax sayang o, ini k'la ya bi manu ka gaqat",
+          "fr": "Les enfants de cette génération ne savent même pas ce que c'est qu'un glaçon (ils n'ont jamais vu la glace qui ne vient qu'en haute montagne).",
+          "en": "The children of this generation do not even know what an icicle is (they have never seen ice, which occurs only in the high mountains).",
+          "zh": "這一代的孩子連冰塊是什麼都不知道(他們從未見過只有高山上才有的冰)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GASIL",
+      "tag": "(R)",
+      "fr": "Corde - lien.",
+      "en": "Rope — tie, bond.",
+      "zh": "繩子——繫帶。",
+      "examples": [
+        {
+          "t": "Nyeqan btudan ka gasil so xo ?",
+          "fr": "Est ce que ta ficelle est d'une seule pièce (faite de plusieurs morceaux rapportés) ? (sy. Nugul (rare)).",
+          "en": "Is your string all of one piece (made of several joined-together bits)? (syn. Nugul (rare)).",
+          "zh": "你的繩子是一整條的嗎(還是由好幾段接起來的)?(同義詞:Nugul(罕用))。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GASUT",
+      "tag": "(R)",
+      "fr": "Ligne - file - raie - voie - suite continue.",
+      "en": "Line — row — stripe — way — continuous sequence.",
+      "zh": "行列——排——條紋——路徑——連續的順序。",
+      "examples": [
+        {
+          "t": "Kmpax ko ino msa so o, nyeqan nanak ka gasut so",
+          "fr": "Où dois je travailler, dis tu; mais tu as ta propre file (la suite) toute tracée. (nb. Travaillant dans les champs, chacun prend une file de maïs, ou deux de patates douces, ou quatre d'arachides, ou huit de riz, et chacun doit travailler cet espace jusqu'au bout du champ — c'est ce que les taroko appellent: Gasut, qui par extension désigne toute suite logique de quelque ch.)",
+          "en": "Where should I work, you say; but you have your own row (the sequence) all laid out. (n.b. When working in the fields, each person takes one row of maize, or two of sweet potatoes, or four of peanuts, or eight of rice, and each must work that space to the end of the field — this is what the Taroko call Gasut, which by extension designates any logical sequence of something.)",
+          "zh": "你說:我該在哪裡工作?但你自己的那一行(順序)早已畫好了。(註:在田裡工作時,每人負責一行玉米,或兩行地瓜,或四行花生,或八行稻子,而且每人必須把這片範圍一直做到田的盡頭——太魯閣人稱之為 Gasut,引申指任何事物的邏輯順序。)"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sgasut",
+          "fr": "S'en tenir au programme, au déroulement normal - programmer.",
+          "en": "To keep to the program, to the normal course of things — to plan, to program.",
+          "zh": "照計畫、照正常程序進行——規劃安排。",
+          "examples": []
+        },
+        {
+          "form": "Msgasut bi lnglongan",
+          "fr": "Conséquent - conscience qui ne dévie pas - personne intègre.",
+          "en": "Consistent — a conscience that does not deviate — a person of integrity.",
+          "zh": "言行一致——不偏離正道的良心——正直的人。",
+          "examples": [
+            {
+              "t": "Msgasut bi matas ka laqe mpatas nii",
+              "fr": "Cet élève travaille avec persévérance.",
+              "en": "This pupil works with perseverance.",
+              "zh": "這個學生讀書很有恆心。"
+            },
+            {
+              "t": "Mnsgasut ko bi muda \"lu",
+              "fr": "J'ai suivi tout droit mon chemin.",
+              "en": "I followed my path straight ahead.",
+              "zh": "我一直沿著我的路直走。"
+            }
+          ]
+        },
+        {
+          "form": "Tsgasut",
+          "fr": "Avec constance, persévérance - fidèlement.",
+          "en": "With constancy, perseverance — faithfully.",
+          "zh": "持之以恆、堅持不懈——忠實地。",
+          "examples": [
+            {
+              "t": "Sao mtsgasut kmpax ka mpdxok",
+              "fr": "Ce sont ceux qui travaillent avec grande persévérance qui arrivent.",
+              "en": "It is those who work with great perseverance who succeed.",
+              "zh": "唯有極有恆心工作的人才會成功。"
+            }
+          ]
+        },
+        {
+          "form": "Psgasut",
+          "fr": "Faire qu'on se tienne au programme - faire persévérer - faire suivre, réaliser un projet.",
+          "en": "To make someone keep to the program — to make persevere — to have a plan followed and carried out.",
+          "zh": "使人遵照計畫——使人堅持——使計畫得以依循、實現。",
+          "examples": [
+            {
+              "t": "Sai bi psgasut kmpax ka dmkpax tnan da",
+              "fr": "Va donc demander à nos ouvriers (travaillant pour nous) de continuer le travail commencé (vl. de travailler avec ordre, bon sens, logique)",
+              "en": "Go then and ask our workers (those working for us) to continue the work they have begun (var. to work with order, good sense, logic).",
+              "zh": "去請我們的工人(為我們工作的人)繼續已開始的工作(或:有條理、合情理、合邏輯地工作)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GAYA",
+      "tag": "(R)",
+      "fr": "Coutume - règle - tradition - tabou - la LITURGIE de la chasse et du coupage de têtes. (nb. Effectivement, la GAYA est au centre de la vie des taroko, la source, le critère, le juge de toute leur vie personnelle ou sociale, de la naissance à la mort - et après ! - que ce soit dans leurs travaux ou leurs relations, dans leur vie religieuse ou familiale. GAYA est certainement la réalité la plus sacrée pour les taroko).",
+      "en": "Custom — rule — tradition — taboo — the LITURGY of hunting and of head-taking. (n.b. Indeed, GAYA is at the center of Taroko life: the source, the criterion, the judge of their whole personal and social life, from birth to death — and beyond! — whether in their work or their relationships, in their religious or family life. GAYA is certainly the most sacred reality for the Taroko.)",
+      "zh": "習俗——規範——傳統——禁忌——狩獵與獵首的「禮儀」。(註:GAYA 確實是太魯閣人生活的核心,是他們整個個人與社會生活——從出生到死亡,甚至死後!——的泉源、準則與裁判,無論在勞動或人際關係中,在宗教或家庭生活裡皆然。GAYA 無疑是太魯閣人最神聖的事物。)",
+      "examples": [
+        {
+          "t": "Muda gaya",
+          "fr": "suivre la GAYA (loi etc.).",
+          "en": "to follow the GAYA (law, etc.).",
+          "zh": "遵行 GAYA(法律等)。"
+        },
+        {
+          "t": "Dmui gaya",
+          "fr": "avoir, tenir la GAYA.",
+          "en": "to have, to hold the GAYA.",
+          "zh": "持有、持守 GAYA。"
+        },
+        {
+          "t": "Smlyeq gaya",
+          "fr": "violer la GAYA.",
+          "en": "to violate the GAYA.",
+          "zh": "違犯 GAYA。"
+        },
+        {
+          "t": "Ggaya",
+          "fr": "les coutumes.",
+          "en": "the customs.",
+          "zh": "各種習俗。"
+        },
+        {
+          "t": "Ida ta nyeqan gaya pax suxal",
+          "fr": "Cest bien depuis autrefois que nous avons la loi.",
+          "en": "It is indeed since olden times that we have had the law.",
+          "zh": "我們確實自古以來就有這法律。"
+        },
+        {
+          "t": "Gaya ta sbiyao",
+          "fr": "suivant notre loi des anciens temps.",
+          "en": "according to our law of ancient times.",
+          "zh": "按照我們古時的法律。"
+        },
+        {
+          "t": "Nsbiyao ka gaya nii",
+          "fr": "Cette coutume date de la nuit des temps.",
+          "en": "This custom dates from time immemorial.",
+          "zh": "這習俗源自遠古。"
+        },
+        {
+          "t": "Maxal gaya Tama ta balao",
+          "fr": "Les dix commandements de Dieu.",
+          "en": "The Ten Commandments of God.",
+          "zh": "上帝的十誡。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mgaya",
+          "fr": "Observer la loi - superstitieux.",
+          "en": "To observe the law — superstitious.",
+          "zh": "遵守法規——迷信的。",
+          "examples": [
+            {
+              "t": "Mgaya bi ka dxea",
+              "fr": "Eux, ils observent la loi (vl. ils considèrent comme tabou, en s'y conformant)",
+              "en": "They observe the law (var. they treat it as taboo, conforming to it).",
+              "zh": "他們很遵守 GAYA(或:他們視之為禁忌而謹守之)。"
+            }
+          ]
+        },
+        {
+          "form": "Magaya",
+          "fr": "Va devenir loi.",
+          "en": "Will become law.",
+          "zh": "將成為法規。",
+          "examples": [
+            {
+              "t": "Mluxai ta sao nii do, ma mxa magaya n'xal !",
+              "fr": "Si nous nous habituons (à faire) ainsi, mais alors, un jour celà deviendra loi !",
+              "en": "If we get used to (doing) it this way, why then, one day it will become law!",
+              "zh": "如果我們習慣了這樣(做),那麼有一天這就會變成規矩!"
+            }
+          ]
+        },
+        {
+          "form": "Pgaya",
+          "paradigm": "° Mpgaya, pgaya, pgiai, pgyaan, pgyaon.",
+          "fr": "Faire que ce soit loi, coutume.",
+          "en": "To make it be law, custom.",
+          "zh": "使之成為法規、習俗。",
+          "examples": [
+            {
+              "t": "Lmnglong so pgaya sao nkuxul so nanak xo ?",
+              "fr": "Voudrais tu faire loi de ce qui n'est que ton bon plaisir ? (vl. faire une loi à ta guise ?).",
+              "en": "Would you make a law out of what is merely your own good pleasure? (var. make a law to suit yourself?)",
+              "zh": "你想把只是你個人喜好的事定為法規嗎?(或:隨你的意思立一條法?)"
+            }
+          ]
+        },
+        {
+          "form": "Mpgaya",
+          "fr": "Celui qui fait les loi - législateur.",
+          "en": "He who makes the laws — legislator.",
+          "zh": "制定法律者——立法者。",
+          "examples": [
+            {
+              "t": "Uxai ita ! Pusu ta ludan sbiyao ka mnpgaya!",
+              "fr": "Ce n'est pas nous, mais nos ancêtres ( la souche de nos vieux du temps jadis) qui ont établi les loi.",
+              "en": "It is not we, but our ancestors (the stock of our elders of former times) who established the laws.",
+              "zh": "不是我們,而是我們的祖先(古時長者的根源)訂立了這些法律。"
+            },
+            {
+              "t": "Mssli xea ole kana ka dpusu mpgaya",
+              "fr": "Tous les docteurs de la loi se réunissent là également.",
+              "en": "All the doctors of the law gather there as well.",
+              "zh": "所有的律法師也都聚集在那裡。"
+            }
+          ]
+        },
+        {
+          "form": "Pgyaon",
+          "fr": "Ce dont on veut faire une loi - ce qu'on tient (est obligé de) à considérer comme loi.",
+          "en": "That which one wants to make into a law — that which one holds oneself (is obliged) to consider as law.",
+          "zh": "想要定為法規的事——人所堅持(必須)視為法規的事。",
+          "examples": [
+            {
+              "t": "Ida na (daxa ?) pgyaon balae ka sao sklibut ni sisil ni spi ka'man",
+              "fr": "Bien sur, il considèrent comme tabou inviolable, soit le fait de trébucher, ou (et) l'oiseau SISIL et les rêves pendant la nuit. ( Trébucher en se rendant quelque part ou rencontrer sur sa route une position néfaste du SISIL, ou avoir fait de mauvais rêves la nuit précédente ce sont des avertissements indiscutés que la loi (GAYA) oblige à observer.).",
+              "en": "Of course, they consider as inviolable taboo the fact of stumbling, or (and) the SISIL bird and dreams during the night. (Stumbling on the way somewhere, or meeting on one's path an ill-omened position of the SISIL, or having had bad dreams the previous night — these are unquestioned warnings that the law (GAYA) obliges one to heed.)",
+              "zh": "當然,他們把絆倒、SISIL 鳥以及夜裡的夢都視為不可違犯的禁忌。(前往某處時絆倒、途中遇見 SISIL 鳥處於不祥的方位,或前一夜做了惡夢——這些都是 GAYA(律法)要求必須遵從、不容置疑的警兆。)"
+            }
+          ]
+        },
+        {
+          "form": "Ngaya",
+          "fr": "1) Qui fait partie des lois, des coutumes; 2) Coutume qui date d'autrefois.",
+          "en": "1) What forms part of the laws, the customs; 2) a custom dating from former times.",
+          "zh": "1)屬於法規、習俗的事物;2)源自古時的習俗。",
+          "examples": [
+            {
+              "t": "Ana ngaya ta suxal ka kia o, ini na sloani pdui gaya ka nixong",
+              "fr": "Celà avait beau faire partie de notre GAYA (de nos lois), les japonais ne nous permettaient pas de suivre nos coutumes.",
+              "en": "Even though that was part of our GAYA (of our laws), the Japanese did not allow us to follow our customs.",
+              "zh": "那雖然屬於我們的 GAYA(我們的法規),日本人卻不准我們遵行自己的習俗。"
+            }
+          ]
+        },
+        {
+          "form": "Pngyaan",
+          "fr": "Tradition - rubrique - loi - tabou.",
+          "en": "Tradition — rubric — law — taboo.",
+          "zh": "傳統——儀節條目——法規——禁忌。",
+          "examples": [
+            {
+              "t": "Mniyax molo pngyaan ka dxea ttxmoqo kmdamat tmaan",
+              "fr": "Ils sont venus suivant la coutume pour s'incliner et saluer le papa.",
+              "en": "They came, following the custom, to bow and greet the father.",
+              "zh": "他們依照習俗前來向父親鞠躬請安。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GBING",
+      "tag": "(R)",
+      "fr": "Casser, briser volontairement - casser pour faire des parts.",
+      "en": "To break, to break deliberately — to break into portions.",
+      "zh": "打破、故意折斷——掰開以分成幾份。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmbing",
+          "paradigm": "° Gmbing, gbing, gbingi, gbingan, gbingun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Wada na gbingun ka pang (bawa) mpaaso na lqean",
+              "fr": "Il a brisé son morceau de pain pour le partager aux enfants.",
+              "en": "He broke his piece of bread to share it among the children.",
+              "zh": "他把他的麵包掰開,分給孩子們。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GBIYAN",
+      "tag": "(vl. KBIYAN ?)",
+      "fr": "Soir - soirée - de 16 h. à la tombée de la nuit.",
+      "en": "Evening — the evening hours — from 4 p.m. to nightfall.",
+      "zh": "傍晚——晚間——自下午四時至夜幕低垂。",
+      "examples": [
+        {
+          "t": "Nasi gbiyan do, na, pnyeqon mo sapax ka laqe",
+          "fr": "Si c'est le soir, alors, je ferai rester les enfants à la maison.",
+          "en": "If it is evening, then I will have the children stay at home.",
+          "zh": "如果到了傍晚,那麼我就會讓孩子們留在家裡。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sgbiyan",
+          "fr": "Un soir (antérieur) - Hier dans la soirée.",
+          "en": "An evening (previous) — yesterday in the evening.",
+          "zh": "(先前的)某個傍晚——昨天傍晚。",
+          "examples": []
+        },
+        {
+          "form": "Skbiyan (= Sgbiyan ?)",
+          "fr": "soir (dans le passé).",
+          "en": "evening (in the past).",
+          "zh": "(過去的)傍晚。",
+          "examples": []
+        },
+        {
+          "form": "Sbiyan",
+          "fr": "Un soir passé (Forme plus fréquente, et employée dans le même sens, que les deux précédentes: SGBIYAN et SKBIYAN.)",
+          "en": "A past evening (a more frequent form, used in the same sense as the two preceding ones: SGBIYAN and SKBIYAN).",
+          "zh": "過去的某個傍晚(較常用的形式,意義與前兩者 SGBIYAN、SKBIYAN 相同)。",
+          "examples": [
+            {
+              "t": "Sbiyan s'xiga",
+              "fr": "Hier soir.",
+              "en": "Yesterday evening.",
+              "zh": "昨天傍晚。"
+            },
+            {
+              "t": "Sbiyan suxal",
+              "fr": "Un soir d'autrefois.",
+              "en": "An evening long ago.",
+              "zh": "昔日的一個傍晚。"
+            },
+            {
+              "t": "Gbiyan kia",
+              "fr": "Ce soir (qui vient).",
+              "en": "This (coming) evening.",
+              "zh": "今晚(將到來的)。"
+            },
+            {
+              "t": "Ida pax sbiyan s'xiga ka mnalox gupun mo",
+              "fr": "Et c'est déjà depuis hier soir que j'ai mal aux dents.",
+              "en": "And it is already since yesterday evening that my teeth have been aching.",
+              "zh": "我從昨天傍晚就開始牙痛了。"
+            }
+          ]
+        },
+        {
+          "form": "Knbyanan",
+          "fr": "Le soir ( le soir étant tombé).",
+          "en": "The evening (evening having fallen).",
+          "zh": "傍晚(夜幕已垂之時)。",
+          "examples": [
+            {
+              "t": "Kmbyanan na sida",
+              "fr": "A ce moment là où le soir était tombé.",
+              "en": "At that moment when evening had fallen.",
+              "zh": "在天色已晚的那個時刻。"
+            }
+          ]
+        },
+        {
+          "form": "Knkbyanan",
+          "fr": "( Intensité de soir ? de temps vesperal ?).",
+          "en": "(Intensity of evening? of evening time?)",
+          "zh": "(傍晚之甚?黃昏時分之意?)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "GDADAK",
+      "tag": "(R. = DADAK ?)",
+      "crossRef": "DADAK",
+      "fr": "Vr. DADAK.",
+      "en": "See DADAK.",
+      "zh": "見 DADAK。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GDGDAN",
+      "tag": "(R. = GDGUT ?)",
+      "fr": "Pierre meulière - Ce qui écrase en frottant, moulin.",
+      "en": "Millstone — that which crushes by rubbing; mill.",
+      "zh": "磨石——藉磨擦碾碎之物;磨。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GDGIT",
+      "tag": "( = R. ? - R. = GDGUT ?)",
+      "fr": "Grincer (des dents).",
+      "en": "To grind (one's teeth).",
+      "zh": "磨(牙)、咬牙作響。",
+      "examples": [
+        {
+          "t": "Ga mgdgit kana ka gupun mo",
+          "fr": "Mes dents grincent.",
+          "en": "My teeth are grinding.",
+          "zh": "我的牙齒在打顫作響。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pgdgit",
+          "fr": "Faire grincer les dents = grincer des dents.",
+          "en": "To make the teeth grind = to grind one's teeth.",
+          "zh": "使牙齒作響=磨牙、咬牙。",
+          "examples": [
+            {
+              "t": "Ga ko mpgdgit gupun a sao knskiyan",
+              "fr": "Je grince des dents à cause du froid. (nb. Il est bien probable que GDGIT et PGDGIT soit une réalisation à peine differente de GDGUT et PGDGUT = Ecraser, moudre en frottant, qui en fait pourraient s'écrire G'DG'T et PG'DG'T, tellement les sons vocaliques sont éscamotés !).",
+              "en": "I am grinding my teeth because of the cold. (n.b. It is quite likely that GDGIT and PGDGIT are a barely different realization of GDGUT and PGDGUT = to crush, to grind by rubbing, which in fact could be written G'DG'T and PG'DG'T, so thoroughly are the vowel sounds swallowed!)",
+              "zh": "我因為冷而牙齒打顫。(註:GDGIT 和 PGDGIT 很可能只是 GDGUT 和 PGDGUT(壓碎、藉磨擦碾磨)略微不同的讀法,實際上大可寫作 G'DG'T 和 PG'DG'T,可見其母音被省略到什麼程度!)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GDGUT",
+      "tag": "( G'DGUT) (R)",
+      "fr": "Moudre, user, écraser en frottant. (serait ce l'intensité marquée par la réduplication d'une R. GUT inconnue ?)",
+      "en": "To grind, to wear down, to crush by rubbing. (Could this be intensity marked by the reduplication of an unknown root GUT?)",
+      "zh": "碾磨、磨損、藉磨擦壓碎。(這會不會是以重疊一個不明詞根 GUT 來表示的加強語氣?)",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmdgut",
+          "fr": "Moudre - tourner une meule.",
+          "en": "To grind — to turn a millstone.",
+          "zh": "碾磨——轉動磨石。",
+          "examples": [
+            {
+              "t": "Msopu gmdgut gdgdan ka daxa xei koyox",
+              "fr": "Deux femmes sont simultanément en train de moudre au moulin.",
+              "en": "Two women are grinding at the mill at the same time.",
+              "zh": "兩個女人正同時在磨上磨東西。"
+            }
+          ]
+        },
+        {
+          "form": "Pg'dgut",
+          "fr": "Faire moudre - faire tourner la meule - faire écraser.",
+          "en": "To have (something) ground — to make the millstone turn — to have (something) crushed.",
+          "zh": "使碾磨——使磨石轉動——使壓碎。",
+          "examples": []
+        },
+        {
+          "form": "G'dgdan",
+          "fr": "Lieu, temps où se fait la mouture - ce qui de fait est moulu - instrument pour moudre.",
+          "en": "Place or time where the grinding is done — that which is in fact ground — instrument for grinding.",
+          "zh": "碾磨的地點或時間——實際被磨碎之物——碾磨的器具。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "GENSAL",
+      "tag": "(R)",
+      "fr": "Paille ( surtout de riz ).",
+      "en": "Straw (especially rice straw).",
+      "zh": "稈草(尤指稻草)。",
+      "examples": [
+        {
+          "t": "Xeaon so ka gensal so ? ... Sqmaon mo!",
+          "fr": "Que feras tu de ta paille ? ... Je la brûlerai!",
+          "en": "What will you do with your straw? ... I will burn it!",
+          "zh": "你要拿你的稻草怎麼辦?……我要把它燒掉!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GGGAL",
+      "tag": "( R. = ? - Sans doute pluriel de GGAL)",
+      "fr": "Les galets du torrent.",
+      "en": "(Root = ? — doubtless the plural of GGAL) The pebbles of the torrent.",
+      "zh": "(詞根=?——想必是 GGAL 的複數)溪流中的卵石。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GIAS",
+      "tag": "(R)",
+      "fr": "Jeune femelle d'un animal non saillie. Vr. GIYAS.",
+      "en": "Young female animal that has not yet been mated. See GIYAS.",
+      "zh": "尚未交配的年輕雌性動物。見 GIYAS。",
+      "examples": [
+        {
+          "t": "Knqmi ko bi miing kingal malu bi gias (giyas) kating",
+          "fr": "Je cherche très attentivement une très belle génisse.",
+          "en": "I am searching very attentively for a very fine heifer.",
+          "zh": "我正非常仔細地尋找一頭很漂亮的小母牛。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GIDI",
+      "tag": "(R)",
+      "fr": "Bijoux - ornements divers.",
+      "en": "Jewels — various ornaments.",
+      "zh": "珠寶——各式飾品。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GIGIT",
+      "tag": "(R. ?)",
+      "fr": "??",
+      "en": "?? (meaning not given)",
+      "zh": "??(未註明詞義)",
+      "examples": [
+        {
+          "t": "Sao bi gigit ka Tomon",
+          "fr": "Tomon est vraiment casse-pieds.",
+          "en": "Tomon is a real pest.",
+          "zh": "Tomon 真是煩人。"
+        },
+        {
+          "t": "Tayai bi ka g'gitan so!",
+          "fr": "Ce que tu peux être importun (GIGIT implique une idée d'intervention souvent répétée pour demander).",
+          "en": "How importunate you can be! (GIGIT implies the idea of repeatedly stepping in to ask for something.)",
+          "zh": "你真是纏人!(GIGIT 含有為了要求某事而一再介入、糾纏的意思。)"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GIIN",
+      "tag": "(R) (R. = IIN ?)",
+      "fr": "Recherche - Chercher.",
+      "en": "Search — to seek.",
+      "zh": "尋找——搜尋。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Miin",
+          "paradigm": "° Miin, giin, gimi, giman, gimun.",
+          "fr": "Chercher. (Noter le N final de MIIN qui est devenu M en composition !).",
+          "en": "To seek. (Note the final N of MIIN, which has become M in composition!)",
+          "zh": "尋找。(請注意 MIIN 的字尾 N 在構詞中變成了 M!)",
+          "examples": [
+            {
+              "t": "Nta (vl. nta da) miin g'xap (g'xak) ppsipa ta n'xali",
+              "fr": "Allons chercher des semences pour préparer vite les pépinières (pour les rizières).",
+              "en": "Let us go look for seeds so as to prepare the seedbeds (for the paddy fields) quickly.",
+              "zh": "我們去找種子,好快點準備(水田用的)秧圃吧。"
+            },
+            {
+              "t": "Ana mo si knqmi bi miin o, ini mo xlai!",
+              "fr": "J'ai beau chercher très attentivement, je n'arrive pas à trouver!",
+              "en": "However attentively I search, I cannot find it!",
+              "zh": "我再怎麼仔細找,還是找不到!"
+            },
+            {
+              "t": "Miin pusu",
+              "fr": "1) Chercher la raison; 2) Chercher la petite bête ( être tatillon).",
+              "en": "1) To seek the reason; 2) to nit-pick (to be finicky).",
+              "zh": "1)尋找原因;2)吹毛求疵(過分挑剔)。"
+            },
+            {
+              "t": "Miin kari",
+              "fr": "Chercher noise.",
+              "en": "To pick a quarrel.",
+              "zh": "尋釁、找碴。"
+            },
+            {
+              "t": "Miin pila",
+              "fr": "s'embaucher - Chercher une source de revenus.",
+              "en": "To hire oneself out — to look for a source of income.",
+              "zh": "受僱工作——尋找收入來源。"
+            }
+          ]
+        },
+        {
+          "form": "Mgiin",
+          "fr": "Chercheur - celui qui cherche;",
+          "en": "Searcher — one who seeks.",
+          "zh": "尋找者——尋找的人。",
+          "examples": [
+            {
+              "t": "Ga meidang ka kating so o, ya bi pia xei ka mgiin?",
+              "fr": "Ton buffle est perdu; il y a à peu près combien de personnes qui le cherchent?",
+              "en": "Your buffalo is lost; roughly how many people are searching for it?",
+              "zh": "你的水牛走失了;大約有多少人在找牠?"
+            }
+          ]
+        },
+        {
+          "form": "Gimun",
+          "fr": "Ce qu'on cherche - ce qu'on doit, veut chercher.",
+          "en": "That which is sought — what one must or wants to seek.",
+          "zh": "所尋找之物——該找、想找的東西。",
+          "examples": [
+            {
+              "t": "Manu bi ka pusu gimun namo?",
+              "fr": "Au fond, qu'est ce que vous cherchez (Quel est véritablement l'essentiel de votre recherche )?",
+              "en": "At bottom, what are you looking for (what is truly the essence of your search)?",
+              "zh": "說到底,你們在找什麼(你們所尋求的核心究竟是什麼)?"
+            }
+          ]
+        },
+        {
+          "form": "Sgiin",
+          "fr": "Pour chercher - servant à chercher.",
+          "en": "For seeking — serving to seek with.",
+          "zh": "用以尋找——供尋找之用。",
+          "examples": [
+            {
+              "t": "Ita lixao daolyaq mo sgiin mo qoumi",
+              "fr": "Passe moi mes lunettes (elles me serviront) à chercher mon aiguille.",
+              "en": "Hand me my glasses; (they will serve me) to look for my needle.",
+              "zh": "把我的眼鏡遞給我,(我要用它)找我的針。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GILA",
+      "tag": "( = R. de TGILA ? - Vr. TGILA)",
+      "crossRef": "TGILA",
+      "fr": "s'attarder (?).",
+      "en": "To linger, to tarry (?). (= root of TGILA? See TGILA.)",
+      "zh": "耽擱、逗留(?)。(=TGILA 之詞根?見 TGILA。)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GIMAX",
+      "tag": "(R)",
+      "fr": "Mélanger - mettre ensemble.",
+      "en": "To mix — to put together.",
+      "zh": "混合——放在一起。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmimax",
+          "paradigm": "° Gmimax, gimax, gmaxe, gmaxan, gmaxon.",
+          "fr": "Se mélanger - se mêler.",
+          "en": "To mix together — to mingle.",
+          "zh": "相混——摻雜在一起。",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

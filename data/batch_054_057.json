@@ -1,0 +1,782 @@
+{
+  "pages": [54, 57],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "BTULUK",
+      "tag": "(R.? - R. = PTULUK ?)",
+      "paradigm": "° .?. , Btuluk, btluki, btlukan, btlukun.",
+      "fr": "Frapper - taper sans instruments.",
+      "en": "To strike - to hit without instruments.",
+      "zh": "打——不用器具地敲打。",
+      "examples": [
+        {
+          "t": "Uxai yako ka bntuluk (pntuluk ?) xeaan,",
+          "fr": "Ce n'est pas moi qui l'ai frappé.",
+          "en": "It is not I who struck him.",
+          "zh": "打他的人不是我。"
+        },
+        {
+          "t": "Tlukan (btlukan ? - ptlukan ?) so ima da ?",
+          "fr": "Mais qui est ce donc qui t'a frappé ?",
+          "en": "But who is it, then, who struck you?",
+          "zh": "那到底是誰打了你？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pnbtuluk",
+          "fr": "Qui rouait de coups. (nb. Pmbtuluk = rouer de coups).",
+          "en": "Who was showering blows. (n.b. Pmbtuluk = to shower with blows).",
+          "zh": "痛打（人）者。（註：Pmbtuluk＝痛打一頓。）",
+          "examples": []
+        },
+        {
+          "form": "Pntlukan (Pnbtlukan ?)",
+          "fr": "Personne, objet qui a été roué de coups.",
+          "en": "Person or object that has been showered with blows.",
+          "zh": "被痛打過的人或物。",
+          "examples": [
+            {
+              "t": "Mxdo pntlukan daxa o, wada daxa xtiyun siyao \"lu da!",
+              "fr": "Après l'avoir roué de coups ils l'ont abandonné au bord du chemin.",
+              "en": "After beating him black and blue they abandoned him at the side of the road.",
+              "zh": "他們把他痛打一頓之後，就把他丟棄在路旁。"
+            }
+          ]
+        },
+        {
+          "form": "Tlukun",
+          "fr": "Celui (ce) qu'on frappera, qu'on veut frapper. (nb. à noter la tendance à omettre le B; Tlukun = Btlukun ?)",
+          "en": "The one (that) which will be struck, which one wants to strike. (n.b. note the tendency to omit the B; Tlukun = Btlukun?)",
+          "zh": "將被打的、想要打的人（物）。（註：注意有省略 B 的傾向；Tlukun＝Btlukun？）",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BTUNUX",
+      "tag": "(R)",
+      "fr": "Pierre (surtout pour désigner la substance-pierre, mais pas exclusivement).",
+      "en": "Stone (especially to designate the substance stone, but not exclusively).",
+      "zh": "石頭（尤指石頭這種物質，但不限於此）。",
+      "examples": [
+        {
+          "t": "Snalu btunux ka taikong nii",
+          "fr": "Cette statue à été faite avec de la pierre, en pierre.",
+          "en": "This statue was made with stone, of stone.",
+          "zh": "這尊像是用石頭做的，是石造的。"
+        },
+        {
+          "t": "Ntaan so ka paro btunux pngpong (pnpong) dgiyaq ?",
+          "fr": "L'as tu vue la très grosse pierre au sommet de la montagne?",
+          "en": "Have you seen it, the very big stone at the top of the mountain?",
+          "zh": "山頂上那塊很大的石頭，你看見了嗎？"
+        },
+        {
+          "t": "Ga smbu tasil (et plus rarement: Ga smbu btunux) ka laqe nii",
+          "fr": "Cet enfant est en train de lancer des pierres.",
+          "en": "This child is throwing stones.",
+          "zh": "這個孩子正在丟石頭。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BUA",
+      "tag": "(R)",
+      "fr": "Le fait de bouillonner.",
+      "en": "The act of bubbling up (boiling).",
+      "zh": "沸騰、冒泡之狀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbua",
+          "fr": "Qui bout - qui bouillonne.",
+          "en": "Which boils - which bubbles.",
+          "zh": "沸騰的——冒泡的。",
+          "examples": [
+            {
+              "t": "Mbua o, ini kbua, ida toko kndngdang na ka ksia so",
+              "fr": "C'est vrai qu'elle ne bout pas (pour ce qui est de bouillir, elle ne bout pas) mais ton eau est quand même assez chaude.",
+              "en": "It is true that it is not boiling (as far as boiling goes, it does not boil), but your water is still hot enough.",
+              "zh": "它確實沒有滾（就沸騰而言，它並沒有滾），但你的水還是夠熱了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUBAO",
+      "tag": "(R)",
+      "fr": "Fendre - se fendre - s'ouvrir en éclatant (bois, pierre..)",
+      "en": "To split - to split apart - to burst open (wood, stone...).",
+      "zh": "劈開——裂開——爆裂而開（木頭、石頭……）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbubao",
+          "fr": "Qui s'ouvre - qui se fend - qui est fendu.",
+          "en": "Which opens - which splits - which is split.",
+          "zh": "會裂開的——會劈開的——已裂開的。",
+          "examples": [
+            {
+              "t": "Malu bi bbagun ka btakan so",
+              "fr": "Tes gros bambous sont très faciles à fendre (dans le sens de leur longueur).",
+              "en": "Your big bamboos are very easy to split (lengthwise).",
+              "zh": "你的大竹子很容易（順著長度）劈開。"
+            }
+          ]
+        },
+        {
+          "form": "Pbubao",
+          "fr": "Fendre - faire éclater.",
+          "en": "To split - to make burst.",
+          "zh": "劈開——使爆裂。",
+          "examples": [
+            {
+              "t": "Pbbagi binao ka ddima so",
+              "fr": "Fends donc un peu tes bambous!",
+              "en": "Go on, split your bamboos a little!",
+              "zh": "你就把你的竹子劈一劈吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUDI",
+      "tag": "(R)",
+      "fr": "Flèche ( à une seule pointe).",
+      "en": "Arrow (with a single point).",
+      "zh": "（單尖的）箭。",
+      "examples": [
+        {
+          "t": "Adi so bi dxkon smbu budi ka lngdi",
+          "fr": "Ce n'est vraiment pas possible que tu arrives à atteindre une mouche en lui tirant une flèche!",
+          "en": "It is really not possible for you to manage to hit a fly by shooting an arrow at it!",
+          "zh": "你真不可能用射箭射中一隻蒼蠅！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BUDO",
+      "tag": "(R)",
+      "fr": "aveugle.",
+      "en": "blind.",
+      "zh": "盲的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbudo",
+          "fr": "Qui a très mauvaise vue - qui est aveugle.",
+          "en": "Who has very poor sight - who is blind.",
+          "zh": "視力很差的——失明的。",
+          "examples": [
+            {
+              "t": "Ana mbudo daolyaq na ka Xeni, mk'la bi muda \"lu alang",
+              "fr": "Même si ses yeux sont aveugles, Rhéini se débrouille très bien pour prendre les chemins du village.",
+              "en": "Even though her eyes are blind, Rheini manages very well to take the village paths.",
+              "zh": "即使眼睛看不見，Rhéini 仍然很會走村裡的路。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUGO",
+      "tag": "(R)",
+      "fr": "Bouillon - sauce - soupe.",
+      "en": "Broth - sauce - soup.",
+      "zh": "湯汁——醬汁——湯。",
+      "examples": [
+        {
+          "t": "Manu ka oqon ta kia ? ... Nyeqan bugo ni padyaq olong ni xei samat",
+          "fr": "Qu'est ce qu'il y aura à manger tout à l'heure? ... Du bouillon, des Padjac olong (espèce de légume sauvage) et du gibier (de la viande de gibier!).",
+          "en": "What will there be to eat later on? ... Broth, Padjac olong (a kind of wild vegetable) and game (game meat!).",
+          "zh": "等一下有什麼可吃的？……有湯、有 Padjac olong（一種野菜），還有獵物（野味的肉！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mabugo",
+          "fr": "Sur le point de devenir soupe.",
+          "en": "On the point of becoming soup.",
+          "zh": "快要變成湯（粥）的。",
+          "examples": [
+            {
+              "t": "Adi mabugo ka kmpsxada so idao xo ?",
+              "fr": "N'est il pas en train de se transformer en soupe le riz que tu aimerais préparer?",
+              "en": "Is the rice you would like to cook not turning into soup?",
+              "zh": "你想煮的飯不是正在變成粥了嗎？"
+            },
+            {
+              "t": "Ana qoqo mpabugo!",
+              "fr": "Celà ne fait rien (qu'il devienne soupe).",
+              "en": "It does not matter (that it becomes soup).",
+              "zh": "（就算變成粥）也沒關係！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BU",
+      "tag": "( = R.? - vr.SBU)",
+      "crossRef": "SBU",
+      "fr": "Atteindre (avec un projectile). (nb. BU, jamais rencontré sous cette forme, se retrouve sous la forme: BUI = touche avec un projectile; BUAN, = endroit où l'on atteint; BUON = Objet qu'il faut, ou qu'on veut atteindre)",
+      "en": "To hit (with a projectile). (n.b. BU, never encountered in this form, is found in the forms: BUI = hit with a projectile; BUAN = place where one hits; BUON = object that must be, or that one wants to be, hit)",
+      "zh": "（以投射物）擊中。（註：BU 從未以此形出現，而見於下列形式：BUI＝被投射物擊中；BUAN＝擊中之處；BUON＝必須擊中或想要擊中的對象。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BUKAO",
+      "tag": "(R)",
+      "fr": "La courbe - courbé - bossu.",
+      "en": "The curve - curved - hunchbacked.",
+      "zh": "彎曲——彎的——駝背的。",
+      "examples": [
+        {
+          "t": "Xtii ka bukao nia, mxa malu taan",
+          "fr": "Conserve lui sa bosse (sa courbe), ce sera beau à voir.",
+          "en": "Keep its hump (its curve); it will be nice to look at.",
+          "zh": "保留它的駝峰（弧度），看起來會很好看。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbukao",
+          "fr": "Qui est courbé, vouté, bossu.",
+          "en": "Who is bent, stooped, hunchbacked.",
+          "zh": "彎腰的、駝背的、佝僂的。",
+          "examples": [
+            {
+              "t": "Pgaalu so bi! Knliwa ka knbukao so da! ... Mbukao bi ka tama mo ole!",
+              "fr": "Mon pauvre! Te voilà de plus en plus vouté! ... Mon père aussi est vouté pour de bon !",
+              "en": "You poor thing! There you are, more and more stooped! ... My father too is stooped for good!",
+              "zh": "可憐的你！你越來越駝了！……我父親也是真的駝背了！"
+            },
+            {
+              "t": "Mapa blongoi (porter la hotte)",
+              "fr": "expression familière pour dire de quelqu'un qu'il est bossu",
+              "en": "familiar expression to say of someone that he is hunchbacked",
+              "zh": "（背背簍）用來說某人駝背的通俗說法"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUKONG",
+      "tag": "(R)",
+      "fr": "Joug. ( Une pièce de bois en forme de V arrondi placée sur le cou du buffle et qui lui sert à tirer les charges).",
+      "en": "Yoke. (A piece of wood in the shape of a rounded V placed on the buffalo's neck, which it uses to pull loads.)",
+      "zh": "軛。（一塊呈圓弧 V 形的木頭，放在水牛頸上，供其拉曳重物。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BUKOX",
+      "tag": "(R. ? - vr. BOQOX)",
+      "crossRef": "BOQOX",
+      "fr": "Bosse. (nb. rencontré dans la seule expression : § Kating bukox = Chameau (Buffle à bosse); BUKOX serait ce une variante de BOQOX = Papaye ?).",
+      "en": "Hump. (n.b. encountered only in the single expression: § Kating bukox = Camel (humped buffalo); could BUKOX be a variant of BOQOX = papaya?)",
+      "zh": "駝峰。（註：僅見於一個語式：§ Kating bukox＝駱駝（有駝峰的水牛）；BUKOX 會不會是 BOQOX（木瓜）的變體？）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BUKWI",
+      "tag": "(R)",
+      "fr": "Derrière - en arrière - après - le dos - l'envers.",
+      "en": "Behind - backwards - after - the back - the reverse side.",
+      "zh": "後面——向後——之後——背——反面。",
+      "examples": [
+        {
+          "t": "Mnalox kana bukwi mo da",
+          "fr": "Tout mon dos me fait mal.",
+          "en": "My whole back hurts.",
+          "zh": "我整個背都痛。"
+        },
+        {
+          "t": "Wada bukwi ka xea",
+          "fr": "Il est allé derrière (souvent pour dire: Il est allé aux toilettes).",
+          "en": "He went behind (often meaning: he went to the toilet).",
+          "zh": "他到後面去了（常用來說：他上廁所去了）。"
+        },
+        {
+          "t": "Snax ko bukwi mnksa ko kingal iyax diyax betak xeni",
+          "fr": "Parti de l'Ouest(de l'autre côté de la montagne) j'ai marché toute une journée pour venir ici.",
+          "en": "Having set out from the west (from the other side of the mountain), I walked a whole day to come here.",
+          "zh": "我從西邊（山的另一側）出發，走了一整天才來到這裡。"
+        },
+        {
+          "t": "Pllayun mo Iban, bukwi ka iso",
+          "fr": "Je commencerai par Iban , Toi tu viendras après.",
+          "en": "I will begin with Iban; you will come after.",
+          "zh": "我先從 Iban 開始，你排在後面。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkbukwi",
+          "fr": "Qui se trouve derrière - qui habite derrière - sis derrière .",
+          "en": "Which is located behind - who lives behind - situated behind.",
+          "zh": "位於後面的——住在後面的——坐落於後面的。",
+          "examples": [
+            {
+              "t": "Mkbukwi ka sapax ina mo",
+              "fr": "La famille de ma bru habite derrière ( la montagne).",
+              "en": "My daughter-in-law's family lives behind (the mountain).",
+              "zh": "我媳婦的家住在（山）後面。"
+            }
+          ]
+        },
+        {
+          "form": "Knbukwi (kmbukwi)",
+          "fr": "Tourner le dos - désirer tourner le dos.",
+          "en": "To turn one's back - to wish to turn one's back.",
+          "zh": "轉身背對——想要背對。",
+          "examples": [
+            {
+              "t": "Ini ko xoya ka yako, iso nanak ka xmut knbukwi knan!",
+              "fr": "Moi je n'ai rien contre, c'est toi qui sans raison me tournes le dos!",
+              "en": "I have nothing against you; it is you who for no reason turn your back on me!",
+              "zh": "我並沒有反對你什麼，是你自己無緣無故對我轉過身去！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUKUI",
+      "tag": "( BKUI) (R)",
+      "fr": "Lier - attacher - nouer.",
+      "en": "To bind - to tie - to knot.",
+      "zh": "綁——繫——打結。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mukui (mkui)",
+          "paradigm": "°Mkui(mukui), bkui, bkii, bkiyan, bkiyun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Saon mo mkui (mukui) kating pusu qouni",
+              "fr": "J'irai attacher le buffle au pied (à un pied) d'un arbre.",
+              "en": "I will go and tie the buffalo to the foot (to a foot) of a tree.",
+              "zh": "我要去把水牛拴在一棵樹的根部（樹腳）。"
+            },
+            {
+              "t": "Bkii balae aadi na qdolyaq",
+              "fr": "Attache (le) bien pour qu'il ne se sauve pas.",
+              "en": "Tie (it) up well so that it does not run away.",
+              "zh": "把（牠）綁好，免得牠逃跑。"
+            }
+          ]
+        },
+        {
+          "form": "Bnkiyan (bnkian ?)",
+          "fr": "Ce qui a été lié - gerbe - fagot - captif.",
+          "en": "That which has been bound - sheaf - bundle - captive.",
+          "zh": "被綁起來之物——捆——柴束——俘虜。",
+          "examples": [
+            {
+              "t": "Ga bnkiyan ka Taolan",
+              "fr": "Taolan est aux fers (il a été attaché).",
+              "en": "Taolan is in irons (he has been tied up).",
+              "zh": "Taolan 被上了枷鎖（他被綁起來了）。"
+            },
+            {
+              "t": "Bnkiyan ima ka gensal nii ?",
+              "fr": "Qui est ce qui a lié ces gerbes de paille?",
+              "en": "Who is it that bound these sheaves of straw?",
+              "zh": "這些稻草捆是誰綁的？"
+            }
+          ]
+        },
+        {
+          "form": "Knbkiyan (R. = BKUI ? - = KBUKWI ?)",
+          "fr": "Centaine ? Millier ? (Les Taroko ne sont pas très fixés !)- Gerbe - tout ce qui est lié ensemble.",
+          "en": "A hundred? A thousand? (The Taroko are not very settled on it!) - Sheaf - anything that is bound together.",
+          "zh": "一百？一千？（太魯閣人並不太確定！）——捆——凡綁在一起之物。",
+          "examples": [
+            {
+              "t": "Kingal knbkiyan mngali kbukwi (vl.maxal mangali knbkiyan) pito m'xalan mataro",
+              "fr": "1976.",
+              "en": "1976.",
+              "zh": "一九七六。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BULANG",
+      "tag": "(R)",
+      "fr": "L'être nu - nudité.",
+      "en": "Being naked - nudity.",
+      "zh": "赤裸——裸體。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbulang",
+          "fr": "Qui est nu.",
+          "en": "Who is naked.",
+          "zh": "赤裸的。",
+          "examples": [
+            {
+              "t": "Mbbulang mkksa alang ka Iyus",
+              "fr": "Ius vagabonde tout nu dans le village.",
+              "en": "Ius wanders around stark naked in the village.",
+              "zh": "Ius 光著身子在村裡遊蕩。"
+            }
+          ]
+        },
+        {
+          "form": "Pbulang",
+          "paradigm": "°Pbulang, pbulang, pb'langi, pblangan, pblangun.",
+          "fr": "Dénuder - mettre à nu.",
+          "en": "To strip bare - to lay bare.",
+          "zh": "剝光——使赤裸。",
+          "examples": [
+            {
+              "t": "Pblangun so daxa, kawai binao!",
+              "fr": "Prends bien garde! Ils vont te mettre tout à nu!",
+              "en": "Watch out! They are going to strip you completely naked!",
+              "zh": "當心！他們會把你剝得精光！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BULANG",
+      "tag": "(R)",
+      "fr": "Gros ver blanc (larve du hanneton). (Sans doute nom tiré de son apparence de nudité).",
+      "en": "Big white grub (cockchafer larva). (No doubt a name taken from its naked appearance.)",
+      "zh": "大白蟲（金龜子的幼蟲）。（此名想必得自其裸露的外觀。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BULAO",
+      "tag": "(R.?)",
+      "crossRef": "SBULAO",
+      "fr": "Pourriture. (vr. SBULAO)",
+      "en": "Rot. (see SBULAO)",
+      "zh": "腐爛。（見 SBULAO）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BULAX",
+      "tag": "(R)",
+      "fr": "Neuf - frais - nouveau.",
+      "en": "New - fresh - novel.",
+      "zh": "新的——新鮮的——嶄新的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbulax",
+          "fr": "Qui est à l'état neuf - qui est nouveau.",
+          "en": "Which is in new condition - which is new.",
+          "zh": "還是新的——新的。",
+          "examples": [
+            {
+              "t": "Ini kbulax ka lukus mo",
+              "fr": "Mes habits ne sont pas neufs.",
+              "en": "My clothes are not new.",
+              "zh": "我的衣服不是新的。"
+            },
+            {
+              "t": "Uxai mbulax (bulax) ka lukus mo",
+              "fr": "Non! Ils ne sont pas neufs, mes habits.",
+              "en": "No! They are not new, my clothes.",
+              "zh": "不！我的衣服不是新的。"
+            }
+          ]
+        },
+        {
+          "form": "Pbulax",
+          "paradigm": "°Pbulax, pbulax, pblaxe, pblaxan, pblaxon.",
+          "fr": "Renouveler - rendre neuf.",
+          "en": "To renew - to make new.",
+          "zh": "更新——使成為新的。",
+          "examples": [
+            {
+              "t": "Ida nsuxal kana ka ooyes so, pblaxe tityex!",
+              "fr": "Tous tes chants datent d'autrefois, renouvelles les un peu!",
+              "en": "All your songs date from long ago; renew them a little!",
+              "zh": "你的歌全是從前的了，稍微翻新一下吧！"
+            }
+          ]
+        },
+        {
+          "form": "Pkbulax",
+          "fr": "Faire en sorte que ce soit neuf (?)",
+          "en": "To bring it about that it be new (?)",
+          "zh": "使之成為新的（？）",
+          "examples": []
+        },
+        {
+          "form": "Pnblaxan",
+          "fr": "Renouvellement (provoqué).",
+          "en": "Renewal (brought about).",
+          "zh": "（人為促成的）更新。",
+          "examples": [
+            {
+              "t": "Uxai so wada pnblaxan s'xiga ka lukus so ?",
+              "fr": "Ne les as tu pas changés hier, tes habits ?",
+              "en": "Did you not change them yesterday, your clothes?",
+              "zh": "你的衣服昨天不是換過了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Bnlaxan",
+          "fr": "Renouvellement (déjà subi).",
+          "en": "Renewal (already undergone).",
+          "zh": "（已經完成的）更新。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BUSOK",
+      "tag": "(R) (sy. BNUöL)",
+      "fr": "Prune (fruit).",
+      "en": "Plum (fruit).",
+      "zh": "李子（果實）。",
+      "examples": [
+        {
+          "t": "Pblaxon kana ka pusu busok kpaxan mo mkyayong (mk'yayong)",
+          "fr": "Je veux renouveller tous mes plants de pruniers dans mon champ le long du torrent.",
+          "en": "I want to renew all my plum-tree plants in my field along the torrent.",
+          "zh": "我想把沿溪田裡的李樹苗全部更新。"
+        },
+        {
+          "t": "Bnuöl msa ka mkMorisaka ni, busok msa ka mkEfunang",
+          "fr": "On dit: Bnuöl (prune) à Morisaka et : Busok (prune) à Efunang.",
+          "en": "They say Bnuöl (plum) in Morisaka, and Busok (plum) in Efunang.",
+          "zh": "在 Morisaka 說 Bnuöl（李子），在 Efunang 則說 Busok（李子）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BUSUK",
+      "tag": "(R)",
+      "crossRef": "BSUKAN",
+      "fr": "Ivre? (nb. Employé comme surnom de personne (soûlard ?) il est aussi entendu dans le sens de: ivre.",
+      "en": "Drunk? (n.b. Used as a person's nickname (drunkard?), it is also heard in the sense of: drunk.",
+      "zh": "醉？（註：用作人的綽號（酒鬼？），也有「醉」的意思。",
+      "examples": [
+        {
+          "t": "Stok busuk bi ka tama na",
+          "fr": "Son père ne dessoule pas. (vr.BSUKAN).",
+          "en": "His father never sobers up. (see BSUKAN).",
+          "zh": "他父親醉個不停。（見 BSUKAN）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BUTUL",
+      "tag": "(R)",
+      "fr": "Boutons d'acné.",
+      "en": "Acne pimples.",
+      "zh": "青春痘。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbutul",
+          "fr": "Couvert de boutons d'acné.",
+          "en": "Covered with acne pimples.",
+          "zh": "長滿青春痘的。",
+          "examples": [
+            {
+              "t": "Wada mbutul kana dq'las nia",
+              "fr": "Son visage s'est couvert de boutons d'acné.",
+              "en": "His face has become covered with acne pimples.",
+              "zh": "他的臉上長滿了青春痘。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUYAS",
+      "tag": "(R)",
+      "fr": "Ventre - sein (nb. Souvent entendu: MBUYAS).",
+      "en": "Belly - womb (n.b. often heard: MBUYAS).",
+      "zh": "肚子——腹（註：常聽作 MBUYAS）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbuyas",
+          "fr": "1) Avoir du ventre - mettre du ventre. 2) Ventre - abdomen - sein.",
+          "en": "1) To have a belly - to put on a belly. 2) Belly - abdomen - womb.",
+          "zh": "一）有肚子——長出肚子。二）肚子——腹部——腹。",
+          "examples": [
+            {
+              "t": "Mbuyas! mxa so ino ?",
+              "fr": "(Toi) le ventru! Où vas tu?",
+              "en": "(You) potbelly! Where are you going?",
+              "zh": "（你這）大肚子！你要去哪裡？"
+            },
+            {
+              "t": "Paro mbuyas",
+              "fr": "1) qui a un gros ventre. 2) qui est enceinte.",
+              "en": "1) who has a big belly. 2) who is pregnant.",
+              "zh": "一）大肚子的。二）懷孕的。"
+            },
+            {
+              "t": "Paro mbuyas na ka Labai",
+              "fr": "Labai est enceinte.",
+              "en": "Labai is pregnant.",
+              "zh": "Labai 懷孕了。"
+            }
+          ]
+        },
+        {
+          "form": "Smbuyas",
+          "fr": "Avoir la diarrhée - avoir des coliques.",
+          "en": "To have diarrhoea - to have colic.",
+          "zh": "腹瀉——腹絞痛。",
+          "examples": [
+            {
+              "t": "Pax nsaan mo tados ka smbuyas ko kddiyax",
+              "fr": "C'est depuis que je suis allé en haute montagne que j'ai la diarrhée tous les jours.",
+              "en": "It is ever since I went into the high mountains that I have had diarrhoea every day.",
+              "zh": "自從我上高山之後，我每天都拉肚子。"
+            }
+          ]
+        },
+        {
+          "form": "Msbuyas",
+          "fr": "Qui a la diarrhée - qui menace de crouler (mur, pile d'objets, talus..).",
+          "en": "Who has diarrhoea - which threatens to collapse (a wall, a pile of objects, an embankment...).",
+          "zh": "拉肚子的——快要倒塌的（牆、成堆的東西、坡坎……）。",
+          "examples": [
+            {
+              "t": "Ga msbuyas ka kndlxan so ngangot sapax da",
+              "fr": "Le mur que tu as élevé devant la maison menace de s'écrouler (prend du ventre!).",
+              "en": "The wall you put up in front of the house is threatening to collapse (it is getting a belly!).",
+              "zh": "你在屋前砌的牆快要倒了（鼓起肚子了！）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BUYO",
+      "tag": "(R)",
+      "fr": "Touffu - plein de mauvaises herbes - sauvage - inculte.",
+      "en": "Overgrown - full of weeds - wild - uncultivated.",
+      "zh": "草木叢生的——長滿雜草的——荒野的——未開墾的。",
+      "examples": [
+        {
+          "t": "Buyo kana ka kmpaxan mo",
+          "fr": "Tous mes champs sont en friche.",
+          "en": "All my fields lie fallow.",
+          "zh": "我所有的田都荒廢了。"
+        },
+        {
+          "t": "Mnsa ko bbuyo smalu kmpaxan",
+          "fr": "Je suis allé créer des champs dans la forêt .",
+          "en": "I went to make fields in the forest.",
+          "zh": "我到森林裡去開墾田地。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "BBuyo",
+          "fr": "Maquis - savanne - forêt vierge.",
+          "en": "Bush - savanna - virgin forest.",
+          "zh": "灌叢——草原——原始森林。",
+          "examples": [
+            {
+              "t": "Bukwi wada bbuyo ka tama mo o, bbuyo bi kana ka kmpaxan mo ole",
+              "fr": "Depuis que papa est parti à la chasse (est allé en forêt, en montagne), tous mes champs sont tout pleins de mauvaises herbes (aussi).",
+              "en": "Since dad left for the hunt (went into the forest, into the mountains), all my fields are completely full of weeds (too).",
+              "zh": "自從爸爸去打獵（進了森林、上了山），我的田（也）全都長滿了雜草。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbuyo",
+          "paradigm": "°Pkbuyo, .?. , pkbuyan, pkbuyun.",
+          "fr": "Mettre en friche - faire ombrage - étouffer.",
+          "en": "To let go fallow - to cast shade - to smother.",
+          "zh": "使荒蕪——遮蔭——悶住（使窒息）。",
+          "examples": [
+            {
+              "t": "Sai bi pskmux aadi na pkbuyun blisan ka kmux da",
+              "fr": "Va vite arracher l'ivraie pour qu'elle n'étouffe pas le sorgho.",
+              "en": "Go quickly and pull up the weeds so that they do not smother the sorghum.",
+              "zh": "快去拔除稗草，免得它悶死高粱。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbuyan",
+          "fr": "Endroit ombragé - lieu qui est dans l'ombre.",
+          "en": "Shaded spot - place that is in the shade.",
+          "zh": "有蔭之處——在陰影中的地方。",
+          "examples": [
+            {
+              "t": "Adi mpgxei nii ka payai so, ya sa tnbuyan pusu ddima ka nii",
+              "fr": "Ton riz ne produira rien ici étant donné qu'ici c'est ombragé (étouffé) par le bosquet de bambous.",
+              "en": "Your rice will produce nothing here, given that this spot is shaded (smothered) by the bamboo grove.",
+              "zh": "你的稻子在這裡不會有收成，因為這裡被竹叢遮蔭（悶住）了。"
+            }
+          ]
+        },
+        {
+          "form": "Kmubui (kmbui ?)",
+          "fr": "étouffer - obscurcir.",
+          "en": "to smother - to darken.",
+          "zh": "悶住——使昏暗。",
+          "examples": [
+            {
+              "t": "Yaxan na kmubui ksaxol nia ka ana manu slxbnan da",
+              "fr": "Toutes sortes de soucis sont venues troubler son coeur.",
+              "en": "All kinds of worries have come to trouble his heart.",
+              "zh": "各種憂愁前來攪擾他的心。"
+            }
+          ]
+        },
+        {
+          "form": "Bbuyo",
+          "fr": "Obscurité (sans doute par assimilation). (sy. ka'man = nuit).",
+          "en": "Darkness (no doubt by assimilation). (syn. ka'man = night).",
+          "zh": "黑暗（想必是由引申同化而來）。（同義詞 ka'man＝夜）",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BWIXOL",
+      "tag": "(R) (vr.BGIXOL)",
+      "crossRef": "BGIXOL",
+      "fr": "Esprit - revenant - souffle - vent.",
+      "en": "Spirit - ghost - breath - wind.",
+      "zh": "靈——鬼魂——氣息——風。",
+      "examples": [
+        {
+          "t": "Ida bi sntlong bwixol tama ka xea",
+          "fr": "Il a sans doute rencontré l'esprit de",
+          "en": "He has no doubt met the spirit of (cut off at page end)",
+          "zh": "他想必是遇見了……的靈（頁末中斷）"
+        }
+      ],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

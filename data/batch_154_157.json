@@ -1,0 +1,791 @@
+{
+  "pages": [154, 157],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Skl'buk",
+        "fr": "Fatiguant - qui entraîne la fatigue.",
+        "en": "Tiring - which brings on fatigue.",
+        "zh": "使人疲累的－會引起疲勞的。",
+        "examples": [
+          {
+            "t": "Tmabun ka skl'buk bi sadyaq (sdyaqon),",
+            "fr": "C'est travailler à défoncer (retourner, piocher) un terrain vierge qui est vraiment fatiguant.",
+            "en": "It is working to break up (turn over, dig) virgin ground that is really tiring.",
+            "zh": "開墾（翻土、挖掘）處女地是很累人的工作。"
+          }
+        ]
+      },
+      {
+        "form": "Gnl'buk",
+        "fr": "Fruit de la fatigue.",
+        "en": "Fruit of fatigue.",
+        "zh": "疲勞的成果。",
+        "examples": [
+          {
+            "t": "Nyeqan namo sapax malu ka sayang o, Gnl'buk no ka kia",
+            "fr": "Vous avez aujourd'hui une belle maison, c'est à ma fatigue que vous le devez.",
+            "en": "You have a fine house today; it is to my toil that you owe it.",
+            "zh": "你們今天有一間漂亮的房子，這都要歸功於我的辛勞。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "L'DAX",
+      "tag": "(R)",
+      "fr": "Rayonnement - lumière - éclairage.",
+      "en": "Radiance - light - lighting.",
+      "zh": "光芒－光線－照明。",
+      "examples": [
+        {
+          "t": "Paro bi l'dax na ka xedao",
+          "fr": "Le soleil a un rayonnement très puissant.",
+          "en": "The sun has a very powerful radiance.",
+          "zh": "太陽的光芒非常強烈。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ml'dax",
+          "fr": "Qui est lumineux - qui est éclairé.",
+          "en": "Which is luminous - which is lit.",
+          "zh": "明亮的－被照亮的。",
+          "examples": [
+            {
+              "t": "Tutwi da! Ml'dax bi da !",
+              "fr": "Levez vous ! Voilà qu'il fait grand jour!",
+              "en": "Get up! It is broad daylight now!",
+              "zh": "起來吧！天已經大亮了！"
+            },
+            {
+              "t": "Denki ni ayang do, ini kl'dax ka ayang",
+              "fr": "(Comparer) l'électricité au pétrole, le pétrole n'est pas lumineux (= L'électricité éclaire beaucoup plus que le pétrole).",
+              "en": "(Comparing) electricity to lamp-oil, the oil is not luminous (= Electricity gives much more light than the oil).",
+              "zh": "（比較）電與煤油，煤油並不明亮（＝電比煤油亮得多）。"
+            }
+          ]
+        },
+        {
+          "form": "L'ndax",
+          "fr": "Éclairer - illuminer.",
+          "en": "To light up - to illuminate.",
+          "zh": "照亮－使發光。",
+          "examples": [
+            {
+              "t": "Qnqogo (knqogo) ka lodoç do, adi biyao l'ndax kana mtqéli da",
+              "fr": "Quand le coq chante, avant peu tout est lumineux (Tout s'illumine).",
+              "en": "When the cock crows, before long everything is lit up (Everything grows bright).",
+              "zh": "公雞啼叫時，不久一切都亮了起來（萬物皆明）。"
+            }
+          ]
+        },
+        {
+          "form": "L'ndax ( = R. L'DAX ??)",
+          "fr": "De plus belle - empirer.",
+          "en": "All the more - to worsen.",
+          "zh": "變本加厲－惡化。",
+          "examples": [
+            {
+              "t": "Ya ksxaya, ksun mo o, l'ndax ka xea da",
+              "fr": "Je dis: Ne fais pas comme cela, et lui continue de plus belle.",
+              "en": "I say: Don't do that, and he keeps on all the more.",
+              "zh": "我說：別那樣做，他卻變本加厲地繼續。"
+            }
+          ]
+        },
+        {
+          "form": "Knldaxan",
+          "fr": "Luminosité - Rayonnement.",
+          "en": "Luminosity - radiance.",
+          "zh": "亮度－光芒。",
+          "examples": [
+            {
+              "t": "Wana knldaxan xedao ka ksugun na balae",
+              "fr": "C'est de la luminosité du soleil dont il a le plus peur.",
+              "en": "It is the brightness of the sun that he fears most.",
+              "zh": "他最怕的就是太陽的亮光。"
+            }
+          ]
+        },
+        {
+          "form": "Pl'dax",
+          "paradigm": "° Mpl'dax, pl'dax, pldaxe, pldaxan, pldaxon.",
+          "fr": "Éclairer - donner de la lumière.",
+          "en": "To light - to give light.",
+          "zh": "照明－給予光線。",
+          "examples": [
+            {
+              "t": "Xedao ka mpl'dax ana manu mbabao d'xgal",
+              "fr": "C'est le soleil qui éclaire tout ce qui est sur la terre.",
+              "en": "It is the sun that lights up everything on the earth.",
+              "zh": "是太陽照亮地上的一切。"
+            }
+          ]
+        },
+        {
+          "form": "Pldaxan",
+          "fr": "Éclairage.",
+          "en": "Lighting.",
+          "zh": "照明。",
+          "examples": [
+            {
+              "t": "Bsiyaq bi pldaxan xedao ka mklbagan",
+              "fr": "En été le soleil éclaire (brille) pendant longtemps.",
+              "en": "In summer the sun gives light (shines) for a long time.",
+              "zh": "夏天太陽照耀（發光）的時間很長。"
+            }
+          ]
+        },
+        {
+          "form": "Mpkl'dax",
+          "fr": "il fera jour - ce sera lumineux.",
+          "en": "It will be daylight - it will be bright.",
+          "zh": "天將亮－將會明亮。",
+          "examples": [
+            {
+              "t": "Mpkl'dax knuan da xo !",
+              "fr": "Quand va t il donc faire jour ?",
+              "en": "When on earth will day break?",
+              "zh": "天究竟什麼時候才亮呢？"
+            }
+          ]
+        },
+        {
+          "form": "Tl'dax",
+          "fr": "Dans l'état lumineux.",
+          "en": "In the lit-up state.",
+          "zh": "處於明亮的狀態。",
+          "examples": [
+            {
+              "t": "Tai ka tl'dax do, ini bi latat ka lapit",
+              "fr": "Dans la journée (quand il fait jour), l'écureuil volant ne sort pas.",
+              "en": "During the daytime (when it is light), the flying squirrel does not come out.",
+              "zh": "白天（天亮時），飛鼠不出來。"
+            }
+          ]
+        },
+        {
+          "form": "Kmpkl'dax",
+          "fr": "Désirer éclairer.",
+          "en": "To wish to light up.",
+          "zh": "想要照亮。",
+          "examples": [
+            {
+              "t": "Kmpkl'dax ko bi tqean tama mo",
+              "fr": "J'aimerais bien éclairer un peu l'endroit ou papa dort.(= Rendre lumineux, éclairé, l'endroit où papa dort (?))",
+              "en": "I would very much like to light up a bit the place where papa sleeps.(= To make bright, lit, the place where papa sleeps (?))",
+              "zh": "我很想把爸爸睡覺的地方照亮一點。（＝使爸爸睡覺的地方明亮、被照亮（？））"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'DO",
+      "tag": "(R)",
+      "fr": "Arrêté - arrêter.",
+      "en": "Stopped - to stop.",
+      "zh": "停下的－停止。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "L'ndo",
+          "fr": "Arrêter - s'arrêter.",
+          "en": "To stop - to come to a halt.",
+          "zh": "停止－停下來。",
+          "examples": [
+            {
+              "t": "Ya sl'xbun, pnais ko bi l'mdo siyao \"lu",
+              "fr": "Sois sans souci, je ne m'arrête qu'un moment au bord de la route.",
+              "en": "Don't worry, I am only stopping for a moment by the roadside.",
+              "zh": "別擔心，我只在路邊停一會兒。"
+            }
+          ]
+        },
+        {
+          "form": "Ml'do (M'ldo ?)",
+          "fr": "Qui est arrêté - qui est stoppé.",
+          "en": "Which is stopped - which is halted.",
+          "zh": "停下的－被停住的。",
+          "examples": [
+            {
+              "t": "Knta'to ml'do ka tdoloi kl'ngun nii",
+              "fr": "Ce train est sans cesse arrêté.",
+              "en": "This train is constantly stopping.",
+              "zh": "這班火車不停地停下來。"
+            },
+            {
+              "t": "Nasi ta ml'do kia o, oqon mo tbako",
+              "fr": "Si on s'arrête tout à l'heure, je veux fumer une pipe (cigarette).",
+              "en": "If we stop shortly, I want to smoke a pipe (cigarette).",
+              "zh": "如果我們待會兒停下來，我想抽根菸（菸斗）。"
+            }
+          ]
+        },
+        {
+          "form": "Ldoan",
+          "fr": "Lieu, temps de l'arrêt - station.",
+          "en": "Place or time of stopping - station.",
+          "zh": "停靠的地點、時間－車站。",
+          "examples": [
+            {
+              "t": "Mxa ko betak ldoan tdoloi",
+              "fr": "je vais jusqu'à la gare.",
+              "en": "I am going as far as the station.",
+              "zh": "我要去到火車站。"
+            },
+            {
+              "t": "Nyeqan sldoan na kii sapax so?",
+              "fr": "Est ce qu'il y a un endroit (prévu) pour s'arrêter, près de chez toi?",
+              "en": "Is there a place (set aside) for stopping, near your house?",
+              "zh": "你家附近有（設置的）停靠處嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pl'do",
+          "fr": "Arrêter - stopper.",
+          "en": "To stop - to halt (something).",
+          "zh": "使停止－攔停。",
+          "examples": [
+            {
+              "t": "Sai n'xali pl'do sao dmpwa'la dxeaan",
+              "fr": "Va vite stopper leurs guides.",
+              "en": "Go quickly and stop their guides.",
+              "zh": "快去把他們的嚮導攔下來。"
+            }
+          ]
+        },
+        {
+          "form": "Sl'do",
+          "fr": "Pour s'arrêter - pour stopper.",
+          "en": "In order to stop - in order to halt.",
+          "zh": "為了停下－為了停止。",
+          "examples": []
+        },
+        {
+          "form": "Tl'do",
+          "fr": "Qui est bel et bien arrêté.",
+          "en": "Which is well and truly stopped.",
+          "zh": "確確實實停住的。",
+          "examples": [
+            {
+              "t": "Bsiyaq bi ga mtl'do ka dDiyan",
+              "fr": "Il y a longtemps que le groupe de Djian est arrêté.",
+              "en": "It has been a long time since Djian's group stopped.",
+              "zh": "Djian（迪讓）的隊伍停下來已經很久了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LENAX",
+      "tag": "(R. ?)",
+      "fr": "Plus intensément - de plus belle - encore plus (VR. LN'DAX.)",
+      "en": "More intensely - all the more - even more (see LN'DAX.)",
+      "zh": "更強烈地－變本加厲地－更加（參見 LN'DAX。）",
+      "examples": [
+        {
+          "t": "Musa ko msaang do, lenax tdilas ka xea da",
+          "fr": "Si je vais le disputer, il se met à crier de plus belle.",
+          "en": "If I go to scold him, he starts to shout all the more.",
+          "zh": "如果我去責備他，他反而叫得更兇。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lnaxon",
+          "fr": "Sera encore plus - sera encore plus intese.",
+          "en": "Will be even more - will be even more intense.",
+          "zh": "會更加－會更加強烈。",
+          "examples": [
+            {
+              "t": "Lnaxon no moai nalu kari",
+              "fr": "Je lui donnerai (dirai) encore plus de bonnes paroles.",
+              "en": "I will give (say to) him even more good words.",
+              "zh": "我會給他（對他說）更多好話。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LEQE",
+      "tag": "(R)",
+      "fr": "De travers - tordu. (nb.serait ce en relation avec: MGLEQ = tourner ?).",
+      "en": "Askew - crooked. (n.b. could this be related to: MGLEQ = to turn ?).",
+      "zh": "歪的－彎曲的。（註：這會不會與 MGLEQ ＝轉動 有關？）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mleqe",
+          "fr": "Qui est de travers - qui est tordu - qui est sinueux.",
+          "en": "Which is askew - which is crooked - which is winding.",
+          "zh": "歪的－彎曲的－蜿蜒的。",
+          "examples": [
+            {
+              "t": "Mleqe kana ka \"lu Tagaxan",
+              "fr": "La route de Tagarhan est toute en courbes.",
+              "en": "The road to Tagarhan is all curves.",
+              "zh": "Tagarhan（塔加罕）的路全是彎道。"
+            },
+            {
+              "t": "Mleqe xali ka pnta'to so ddina",
+              "fr": "Les bambous que tu as dressés sont un peu de travers.",
+              "en": "The bamboos you have set up are a bit crooked.",
+              "zh": "你立起來的竹子有點歪。"
+            }
+          ]
+        },
+        {
+          "form": "Gmleqe ( = de R. G'LEQ ?)",
+          "fr": "Se mettre de travers.",
+          "en": "To set oneself askew.",
+          "zh": "使自己歪斜。",
+          "examples": [
+            {
+              "t": "Gmleqe mita",
+              "fr": "jeter un coup d'oeil (voir du coin de l'oeil (?)).",
+              "en": "to cast a glance (to look out of the corner of the eye (?)).",
+              "zh": "瞥一眼（用眼角餘光看（？））。"
+            }
+          ]
+        },
+        {
+          "form": "Pleqe",
+          "fr": "Faire que ce soit de travers - tordre - tourner de côté.",
+          "en": "To make it askew - to twist - to turn to the side.",
+          "zh": "使之歪斜－扭轉－轉向一邊。",
+          "examples": [
+            {
+              "t": "Pleqe binao ka tasil paro gaga",
+              "fr": "Tourne un peu de travers la grande pierre qui est là.",
+              "en": "Turn the big stone over there a bit askew.",
+              "zh": "把那邊那塊大石頭稍微轉歪一點。"
+            }
+          ]
+        },
+        {
+          "form": "Skleqe (Sqleqe) (R. = LEQE ?)",
+          "fr": "Se faire une entorse - se tordre",
+          "en": "To sprain oneself - to twist (a joint).",
+          "zh": "扭傷－扭到（關節）。",
+          "examples": [
+            {
+              "t": "Pida bi sntlilan mo sndurai o, asi bi snkleqe ka baga mo da",
+              "fr": "C'est juste le jour où je faisais le saut que je me suis démis la main.",
+              "en": "It was on the very day I was doing the jump that I dislocated my hand.",
+              "zh": "正是我跳躍的那天，我把手扭脫臼了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LEQO",
+      "tag": "(R)",
+      "fr": "Haine - haïr - détester.",
+      "en": "Hatred - to hate - to detest.",
+      "zh": "仇恨－憎恨－厭惡。",
+      "examples": [
+        {
+          "t": "Wana bi kia ka leqo daxa balae",
+          "fr": "C'est uniquement cela qu'ils détestent vraiment.",
+          "en": "That is the only thing they really detest.",
+          "zh": "那是他們唯一真正厭惡的事。"
+        },
+        {
+          "t": "Leqo mo bi mita bsukan sadyaq",
+          "fr": "Je déteste absolument voir des gens ivres.",
+          "en": "I absolutely detest seeing drunken people.",
+          "zh": "我極度厭惡看到喝醉的人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knleqo",
+          "fr": "Haïr - détester.",
+          "en": "To hate - to detest.",
+          "zh": "憎恨－厭惡。",
+          "examples": [
+            {
+              "t": "Tai ka dmsnxei kari Otoç Balao o, ini tdoa knleqo sadyaq (sdyaqon)",
+              "fr": "Quant à ceux qui écoutent la parole (ordre) de l'Esprit d'en haut (Dieu), il ne leur est pas permis de haïr les autres.",
+              "en": "As for those who listen to the word (command) of the Spirit on high (God), they are not allowed to hate others.",
+              "zh": "至於那些聽從上天之靈（上帝）話語（命令）的人，他們不可憎恨別人。"
+            }
+          ]
+        },
+        {
+          "form": "Mkleqo (Mqleqo)",
+          "fr": "Difficile - compliqué (de R. LEQO ? avec le sens de : haïssable - détestable ?).",
+          "en": "Difficult - complicated (from root LEQO ? with the sense of: hateful - detestable ?).",
+          "zh": "困難的－複雜的（源自詞根 LEQO？帶有：可恨的－討厭的 之意？）",
+          "examples": [
+            {
+              "t": "Mkleqo bi ka smluxai kari troko",
+              "fr": "C'est bien difficile d'apprendre à parler taroko.",
+              "en": "It is quite difficult to learn to speak Taroko.",
+              "zh": "學說太魯閣語相當困難。"
+            },
+            {
+              "t": "Mkleqo bi lnglong ka nii",
+              "fr": "C'est bien compliqué (C'est bien difficile à penser).",
+              "en": "This is quite complicated (It is quite hard to think through).",
+              "zh": "這相當複雜（很難思考）。"
+            }
+          ]
+        },
+        {
+          "form": "Qnlqani (Knlqani ?)",
+          "fr": "à haïr - pour haïr.",
+          "en": "to be hated - in order to hate.",
+          "zh": "該被憎恨的－為了憎恨。",
+          "examples": [
+            {
+              "t": "Qnlqani bi ka knnaqex namo",
+              "fr": "Détestez bien vos torts, (le mal qui est en vous).",
+              "en": "Thoroughly detest your faults, (the evil that is in you).",
+              "zh": "好好厭惡你們的過錯，（你們心中的惡）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LEX",
+      "tag": "(R)",
+      "fr": "Presque - proche de - environ - un peu comme.",
+      "en": "Almost - close to - about - a bit like.",
+      "zh": "幾乎－接近－大約－有點像。",
+      "examples": [
+        {
+          "t": "Lex mo sapax ka \"bi nii",
+          "fr": "cette cabane est un peu comme ma maison.",
+          "en": "this hut is a bit like my house.",
+          "zh": "這間小屋有點像我的房子。"
+        },
+        {
+          "t": "Lex mo tama",
+          "fr": "C'est comme mon père (= mon oncle)",
+          "en": "He is like my father (= my uncle).",
+          "zh": "他像我的父親（＝我的叔伯）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LEXBUN",
+      "tag": "(L'XBUN ?)",
+      "crossRef": "L'XBUN",
+      "fr": "Creux de l'estomac. VR. L'XBUN .",
+      "en": "Pit of the stomach. See L'XBUN.",
+      "zh": "胃窩（心窩）。參見 L'XBUN。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LEXKAX",
+      "tag": "(L'XKAX ?)",
+      "crossRef": "L'XKAX",
+      "fr": "Léger. VR. L'XKAX .",
+      "en": "Light (in weight). See L'XKAX.",
+      "zh": "輕的。參見 L'XKAX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LG'LOQ",
+      "tag": "(R)",
+      "fr": "Résine.",
+      "en": "Resin.",
+      "zh": "樹脂。",
+      "examples": [
+        {
+          "t": "Uxai xmut qouni ka nyeqan lg'loq; asi ka sao xalong ni qolit",
+          "fr": "Ce n'est pas n'importe quel arbre qui a de la résine, il faut que ce soit par exemple: le pin, le cyprès.",
+          "en": "It is not just any tree that has resin; it has to be, for example, the pine, the cypress.",
+          "zh": "並非隨便哪種樹都有樹脂；必須是像松樹、柏樹之類的樹。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LIBAQ",
+      "tag": "(R)",
+      "fr": "Derrière un obstacle (une montagne par ex.) - allusion - Insinuer",
+      "en": "Behind an obstacle (a mountain, for example) - allusion - to insinuate.",
+      "zh": "在障礙物（例如一座山）後面－暗示－影射。",
+      "examples": [
+        {
+          "t": "Wada libaq ka tama mo",
+          "fr": "Mon père est allé derrière la montagne.",
+          "en": "My father has gone behind the mountain.",
+          "zh": "我父親到山後面去了。"
+        },
+        {
+          "t": "Asi ko lngao bi, ini ko k'la libaq ka yako",
+          "fr": "Je vais le dire tout droit, je ne sais pas prendre des gants, moi (je ne sais pas le dire par sous-entendus). ( parfois employé dans le sens de: Ironie).",
+          "en": "I will say it straight out; I don't know how to handle things with kid gloves, myself (I don't know how to say it by innuendo). (sometimes used in the sense of: irony).",
+          "zh": "我會直說，我不懂得拐彎抹角（我不會用暗示的方式說）。（有時用於：諷刺 之意。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmibaq",
+          "paradigm": "°Lmibaq, libaq, lbaqe, lbaqan, .?. .",
+          "fr": "Insinuer - faire allusion - parler par sous-entendus.",
+          "en": "To insinuate - to allude - to speak by innuendo.",
+          "zh": "暗示－影射－旁敲側擊地說。",
+          "examples": [
+            {
+              "t": "Ya adi so lmibaq",
+              "fr": "Je suppose que tu n'insinues rien (en parlant).",
+              "en": "I suppose you are not insinuating anything (in what you say).",
+              "zh": "我想你（說話時）沒有在暗示什麼吧。"
+            },
+            {
+              "t": "Ini ko libaq kddiyax",
+              "fr": "Je ne parle jamais par images (par sous-entendus) .",
+              "en": "I never speak in figures (by innuendo).",
+              "zh": "我從不用比喻（暗示）說話。"
+            }
+          ]
+        },
+        {
+          "form": "Mlibaq",
+          "fr": "Qui insinue - qui fait allusion - qui passe derrière. - Qui parle à la colonne de droite pour se faire entendre de celle de gauche!",
+          "en": "Who insinuates - who alludes - who passes behind. - Who speaks to the right-hand column so as to be heard by the left-hand one!",
+          "zh": "暗示的人－影射的人－從後面經過的人。－對著右邊那一列說話好讓左邊那列聽見的人！",
+          "examples": [
+            {
+              "t": "Tai ka mlibaq o, asi ka ini na ptqoe sdyaqon",
+              "fr": "Que celui qui parle par allusions (par sous-entendus) prenne bien soin de n'offenser personne.",
+              "en": "Let him who speaks by allusion (by innuendo) take good care not to offend anyone.",
+              "zh": "用暗示（旁敲側擊）說話的人，要小心別冒犯任何人。"
+            },
+            {
+              "t": "Mlibaq xedao do",
+              "fr": "Quand le soleil passe de l'autre côté (derrière) (= Fin d'après midi - soir).",
+              "en": "When the sun passes to the other side (behind) (= late afternoon - evening).",
+              "zh": "當太陽轉到另一邊（後面）時（＝下午稍晚－傍晚）。"
+            }
+          ]
+        },
+        {
+          "form": "Lbaqan",
+          "fr": "Manière de parler par allusions.",
+          "en": "A way of speaking by allusion.",
+          "zh": "用暗示說話的方式。",
+          "examples": [
+            {
+              "t": "Tayal ka nk'la so lbaqan!",
+              "fr": "Comme tu sais dire (vl.comprendre) les allusions (vl.l'ironie).",
+              "en": "How well you know how to say (var. understand) allusions (var. irony).",
+              "zh": "你多麼會說（或：理解）暗示（或：諷刺）啊！"
+            }
+          ]
+        },
+        {
+          "form": "Lnbaqan",
+          "fr": "Allusion - sous entendu - ironie (dans le sens de passé accompli).",
+          "en": "Allusion - innuendo - irony (in the sense of completed past).",
+          "zh": "暗示－言外之意－諷刺（表完成的過去之意）。",
+          "examples": [
+            {
+              "t": "Ana manu ka kari na o, ida na pdaon lnbaqan kana",
+              "fr": "Tout ce qu'il a à dire, il le dit par images,(paraboles, sous-entendus).",
+              "en": "Whatever he has to say, he says it all in figures, (parables, innuendo).",
+              "zh": "無論他要說什麼，他都用比喻（寓言、暗示）來說。"
+            }
+          ]
+        },
+        {
+          "form": "Mklibaq",
+          "fr": "Tout ce qui habite, ou se trouve, du côté caché de l'obstacle (surtout de la chaîne de montagne). Pour les Taroko de l'Est ce terme désigne l'Ouest, tout ce qui est derrière les montagnes centrales .",
+          "en": "Everything that dwells or is found on the hidden side of the obstacle (especially of the mountain range). For the Taroko of the East this term designates the West, everything that is behind the central mountains.",
+          "zh": "一切居住或位於障礙物（尤其是山脈）隱蔽那一側的事物。對東部的太魯閣人而言，此詞指西方，即中央山脈後方的一切。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "LIBU",
+      "tag": "(R)",
+      "fr": "Enceinte - espace, souvent couvert, toujours fermé, pour parquer certains animaux.",
+      "en": "Enclosure - a space, often covered, always closed, for penning certain animals.",
+      "zh": "圍欄－一塊常有頂蓋、總是封閉的空間，用來圈養某些動物。",
+      "examples": [
+        {
+          "t": "Libu babwi",
+          "fr": "porcherie.",
+          "en": "pigsty.",
+          "zh": "豬圈。"
+        },
+        {
+          "t": "Libu lodoç",
+          "fr": "Poulailler.",
+          "en": "henhouse.",
+          "zh": "雞舍。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mklibu (Mlibu ?)",
+          "fr": "Former enceinte.",
+          "en": "To form an enclosure.",
+          "zh": "形成圍欄。",
+          "examples": [
+            {
+              "t": "Sao bi mklibu alang ta ka dgiyaq paro",
+              "fr": "De hautes montagnes forment comme une enceinte autour de notre village.",
+              "en": "High mountains form a kind of enclosure around our village.",
+              "zh": "高山像圍欄一樣環繞著我們的部落。"
+            }
+          ]
+        },
+        {
+          "form": "Lbuan (R. = LIBU ? - R. = LABU ?)",
+          "fr": "enveloppe. VR. LABU .",
+          "en": "wrapper - covering. See LABU.",
+          "zh": "包裹物－外皮。參見 LABU。",
+          "examples": []
+        },
+        {
+          "form": "Pklibu",
+          "fr": "Faire que ce soit une enceinte - réaliser un enclos.",
+          "en": "To make it into an enclosure - to build a pen.",
+          "zh": "使之成為圍欄－做成一個圈欄。",
+          "examples": [
+            {
+              "t": "Mxoma so pusu sakus kana mtqeli sapax mo o, ma so lmnglong pklibu nyeqan mo!",
+              "fr": "Tu viens planter des camphriers tout autour de ma maison, on dirait que tu veux enclore mon habitation !",
+              "en": "You come and plant camphor trees all around my house; it looks as if you want to fence in my dwelling!",
+              "zh": "你來把樟樹種在我房子四周，好像你想把我的住處圍起來似的！"
+            }
+          ]
+        },
+        {
+          "form": "Tlibu",
+          "fr": "Renfermer - contenir - entourer (de fait).",
+          "en": "To shut in - to contain - to surround (in fact).",
+          "zh": "關閉－容納－（實際上）環繞。",
+          "examples": []
+        },
+        {
+          "form": "Tnlibu",
+          "paradigm": "°Tnlibu, tlibu, .?. , tlbuan, tlbuon.",
+          "fr": "Démarche pour entourer, contenir, enclore.",
+          "en": "The act of surrounding, containing, enclosing.",
+          "zh": "圍住、容納、圈圍的作法。",
+          "examples": [
+            {
+              "t": "Nta da tnlibu dxeaan aadi daxa qdolyaq",
+              "fr": "Allons les entourer pour qu'ils ne se sauvent pas !",
+              "en": "Let us go surround them so that they do not escape!",
+              "zh": "我們去把牠們圍起來，免得牠們逃走！"
+            }
+          ]
+        },
+        {
+          "form": "Mtlibu",
+          "fr": "Qui (de fait) entoure, contient, fait une clôture.",
+          "en": "Which (in fact) surrounds, contains, forms a fence.",
+          "zh": "（實際上）環繞、圍住、形成圍籬的。",
+          "examples": [
+            {
+              "t": "M'xdo mtlibu suyang bi nyeqan nia ka ana manu k'lgan pxpax",
+              "fr": "Sa merveilleuse habitation est complètement entourée par toute sorte de fleurs.",
+              "en": "His marvelous dwelling is completely surrounded by all sorts of flowers.",
+              "zh": "他那美麗的住處四周完全被各式各樣的花圍繞著。"
+            },
+            {
+              "t": "Mniyax mtlibu xeaan tloong",
+              "fr": "Ils sont venus s'asseoir en faisant cercle autour de lui.",
+              "en": "They came and sat down forming a circle around him.",
+              "zh": "他們過來圍成一圈坐在他周圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIBUL",
+      "tag": "(R)",
+      "fr": "Pantalon. (nb. Habit connu des anciens, surtout pour la toilette festive, mais le plus souvent remplacé par un cache-sexe ou par un simple pagne).",
+      "en": "Trousers. (n.b. A garment known to the ancients, especially for festive dress, but most often replaced by a loincloth or a simple wrap).",
+      "zh": "褲子。（註：古人所知的一種服飾，尤用於節慶盛裝，但多半以遮陰布或簡單的腰布取代。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlibul (?)",
+          "fr": "Enfiler un pantalon.",
+          "en": "To put on trousers.",
+          "zh": "穿上褲子。",
+          "examples": []
+        },
+        {
+          "form": "Mklibul",
+          "fr": "Porter un pantalon (se trouver dans un pantalon ?). (nb.Pour les femmes, le même habit se dit: MONPE (terme sans doute japonais).",
+          "en": "To wear trousers (to be in trousers ?). (n.b. For women, the same garment is called: MONPE (a term doubtless Japanese).",
+          "zh": "穿著褲子（處於褲子之中？）。（註：對女性而言，同樣的服飾稱作 MONPE（此詞無疑源自日語）。）",
+          "examples": [
+            {
+              "t": "Asi ka mklibul tdoa ta muda alang paro",
+              "fr": "Il faut porter un pantalon si nous voulons aller en ville.",
+              "en": "One must wear trousers if we want to go to town.",
+              "zh": "如果我們要進城，就必須穿褲子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIBUT",
+      "tag": "(R.)",
+      "fr": "Obstacle - faute.",
+      "en": "Obstacle - fault.",
+      "zh": "障礙－過錯。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sklibut",
+          "fr": "Buter contre quelque chose - heurter un obstacle - se tromper.",
+          "en": "To stumble against something - to hit an obstacle - to make a mistake.",
+          "zh": "絆到某物－撞上障礙－犯錯。",
+          "examples": [
+            {
+              "t": "Ya ana pxal si so uda sklibut so ka iso !",
+              "fr": "Peut être que toi tu ne t'es jamais trompé !",
+              "en": "Perhaps you have never made a mistake!",
+              "zh": "也許你從來沒犯過錯吧！"
+            }
+          ]
+        },
+        {
+          "form": "Smklibut",
+          "fr": "Buter contre, heurter un obstacle - commettre une faute.",
+          "en": "To stumble against, to hit an obstacle - to commit a fault.",
+          "zh": "絆到、撞上障礙－犯下過錯。",
+          "examples": [
+            {
+              "t": "Ya bi usa smklibut muda \"lu",
+              "fr": "Ne va pas trébucher le long de la route !",
+              "en": "Do not go stumbling along the road!",
+              "zh": "別在路上絆倒了！"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

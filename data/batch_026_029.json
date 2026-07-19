@@ -1,0 +1,542 @@
+{
+  "pages": [26, 29],
+  "leadin": {
+    "fr": "jourd'hui ?",
+    "en": "…today?",
+    "zh": "「……今天?」",
+    "examples": [
+      { "t": "Ngalun sako manu?", "fr": "Tu me prends pour quoi?", "en": "What do you take me for?", "zh": "「你把我當成什麼?」" }
+    ],
+    "subs": [
+      {
+        "form": "P'angal (paangal)",
+        "fr": "Faire prendre - faire emporter.",
+        "en": "To make take - to make carry away.",
+        "zh": "「使拿取——使帶走。」",
+        "examples": [
+          { "t": "Miyax ko p'angal maso mo", "fr": "Je viens faire emporter mon millet.", "en": "I have come to have my millet carried away.", "zh": "「我來讓人把我的小米帶走。」" },
+          { "t": "Pngalun so knuan ka boax?", "fr": "Quand feras tu prendre ton riz?", "en": "When will you have your rice taken?", "zh": "「你什麼時候要讓人來拿你的米?」" }
+        ]
+      },
+      {
+        "form": "Mk'angal",
+        "fr": "Détachable.",
+        "en": "Detachable.",
+        "zh": "「可拆卸的。」",
+        "examples": []
+      },
+      {
+        "form": "Pk'angal",
+        "fr": "Faire que se détache - décoller - enlever.",
+        "en": "To make come off - to unstick - to remove.",
+        "zh": "「使脫落——使剝離——除去。」",
+        "examples": [
+          { "t": "Ya xan ! ita poting so, pkngalun mo lxeq qouni ka tlalae", "fr": "Attends un peu, passe moi ton couteau, je veux d'abord faire décoller l'écorce de l'arbre.", "en": "Wait a moment, hand me your knife; I first want to get the bark off the tree.", "zh": "「等一下,把你的刀遞給我,我要先把樹皮剝下來。」" }
+        ]
+      },
+      {
+        "form": "Tk'angal",
+        "fr": "Qui se détache - Qui n'est pas bien collé.",
+        "en": "That comes off - that is not well stuck on.",
+        "zh": "「會脫落的——黏得不牢的。」",
+        "examples": [
+          { "t": "tk'angal balae ka lutyaq baga mo", "fr": "La saleté de mes mains s'en va très bien.", "en": "The dirt on my hands comes off very well.", "zh": "「我手上的髒污很容易脫落。」" },
+          { "t": "Ini tk'angal ka pntasan so dqalas", "fr": "Le tatouage sur ton visage est indélébile.", "en": "The tattoo on your face is indelible.", "zh": "「你臉上的刺青是擦不掉的。」" }
+        ]
+      },
+      {
+        "form": "S'angal",
+        "fr": "Pour prendre - pour emporter.",
+        "en": "For taking - for carrying away.",
+        "zh": "「用以拿取——用以帶走。」",
+        "examples": [
+          { "t": "Adi manu ka yaxan mo, s'angal mo koyox", "fr": "Je ne suis venu que pour prendre (trouver) femme.", "en": "I have come only to take (find) a wife.", "zh": "「我來只是為了娶(找)妻子。」" }
+        ]
+      },
+      {
+        "form": "Spaangal",
+        "fr": "pour prendre - se servir de.",
+        "en": "for taking - to make use of.",
+        "zh": "「用以拿取——加以利用。」",
+        "examples": [
+          { "t": "Kuluk ka spaangal mo lmngao.", "fr": "C'est la tortue qui me servira d'exemple pour parler.", "en": "It is the tortoise that I shall use as an example in speaking.", "zh": "「我說話時要拿烏龜作例子。」" }
+        ]
+      },
+      {
+        "form": "Pkngalan",
+        "fr": "Ce qui a été enlevé - circonstances de l'enlèvement.",
+        "en": "What has been removed - the circumstances of the removal.",
+        "zh": "「被除去之物——除去時的情形。」",
+        "examples": [
+          { "t": "Xngloq poting na ka Tato ni smnipaq Dloan pkngalan na bilat", "fr": "Tato dégaina son coutelas et frappa Djiro en lui décollant une oreille.", "en": "Tato drew his knife and struck Djiro, taking off one of his ears.", "zh": "「達陶拔出他的刀砍向吉羅,削下了他的一隻耳朵。」" }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "ANGO", "tag": "(R)",
+      "fr": "Les femmes de deux frères.",
+      "en": "The wives of two brothers.",
+      "zh": "「兩兄弟的妻子(妯娌)。」",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "APA", "tag": "(R)",
+      "paradigm": "° Mapa, apa, pai, paan, paon.",
+      "fr": "Charge - le fait de porter.",
+      "en": "Load - the act of carrying.",
+      "zh": "「負載——背負這件事。」",
+      "examples": [
+        { "t": "Ini ko apa ana manu ka yako", "fr": "Moi je ne porte rien.", "en": "As for me, I am carrying nothing.", "zh": "「我什麼都沒有背。」" }
+      ],
+      "subs": [
+        {
+          "form": "Mapa",
+          "fr": "Porter (sur les épaules, le dos, la tête) - porter un épi (maïs, riz, millet..).",
+          "en": "To carry (on the shoulders, the back, the head) - to bear an ear of grain (maize, rice, millet…).",
+          "zh": "「背負(用肩、背、頭)——結穗(玉米、稻、小米……)。」",
+          "examples": [
+            { "t": "Mnapa ko bonga sbiyan o, mnda ko kmpaxan mo sqmo ; ga plading mapa da", "fr": "Hier soir en portant mes patates douces je suis passé par mon champ de maïs; il commence à mettre des épis.", "en": "Last night, while carrying my sweet potatoes, I passed by my maize field; it is beginning to put out ears.", "zh": "「昨晚我背著地瓜經過我的玉米田;玉米開始結穗了。」" },
+            { "t": "Mawit ko bi da! pani (ppani ?) ko xo ?", "fr": "Je suis bien fatigué; pourrais tu me porter ?", "en": "I am very tired; could you carry me?", "zh": "「我好累;你能背我嗎?」" }
+          ]
+        },
+        {
+          "form": "Napa",
+          "fr": "charge portée - fruit produit.",
+          "en": "load carried - fruit produced.",
+          "zh": "「所背的東西——所結的果實。」",
+          "examples": [
+            { "t": "Ga ino ka napa so?", "fr": "Où est elle la charge que tu as portée ?", "en": "Where is the load that you carried?", "zh": "「你背來的東西在哪裡?」" },
+            { "t": "Manu ka nii? ... Napa sqmo ka kia!", "fr": "Qu'est ce que celà ? ... C'est un épi de maïs.", "en": "What is this? … That is an ear of maize.", "zh": "「這是什麼?……那是玉米穗。」" }
+          ]
+        },
+        {
+          "form": "Papa",
+          "paradigm": "°Papa, papa, ppai, ppaan, ppaon.",
+          "fr": "Faire porter - monter sur qqch. ou quelqu'un.",
+          "en": "To make carry - to get up onto something or someone.",
+          "zh": "「使背負——登上某物或騎上某人。」",
+          "examples": [
+            { "t": "Ini bi ksa ka papaq mo da; ppai ko tdoloi so xo ?", "fr": "Mes pieds ne veulent plus marcher; fais moi monter sur ta voiture , veux tu?", "en": "My feet will not walk any more; let me get into your car, will you?", "zh": "「我的腳走不動了;讓我搭你的車,好嗎?」" },
+            { "t": "Mxa ko papa tdoloi da", "fr": "J'y vais en voiture .", "en": "I am going there by car.", "zh": "「我要坐車去了。」" }
+          ]
+        },
+        {
+          "form": "Pnpaan",
+          "fr": "ce sur quoi l'on était monté.",
+          "en": "that on which one had ridden.",
+          "zh": "「曾乘坐(騎乘)之物。」",
+          "examples": [
+            { "t": "Tama mo nanak ka pnpaan mo ska'man", "fr": "C'est mon propre père qui m'a porté hier soir !", "en": "It was my own father who carried me last night!", "zh": "「昨晚背我的正是我自己的父親!」" }
+          ]
+        },
+        {
+          "form": "Ppapa",
+          "fr": "Pour faire porter - faire monter sur.",
+          "en": "For making carry - to make get up onto.",
+          "zh": "「用以使背負——使乘上。」",
+          "examples": [
+            { "t": "Pppaon mo tdoloi ka lqlaqe mo", "fr": "Je veux faire monter mes enfants dans la voiture.", "en": "I want to put my children into the car.", "zh": "「我要讓我的孩子們上車。」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "APIX", "tag": "(R)",
+      "paradigm": "°Mapix, apix, pixi, pixan, pixun .",
+      "fr": "Peser sur - presser sur.",
+      "en": "To weigh on - to press on.",
+      "zh": "「壓在其上——按壓。」",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mapix",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "「同上之動詞形。」",
+          "examples": [
+            { "t": "Pixi balae", "fr": "Presse fort!", "en": "Press hard!", "zh": "「用力壓!」" }
+          ]
+        },
+        {
+          "form": "Pixun",
+          "fr": "Ce qui sera, qui doit être pressé.",
+          "en": "What will be, what must be pressed.",
+          "zh": "「將被、應被壓之物。」",
+          "examples": [
+            { "t": "Wada ko na pixun papaq ka swai so", "fr": "Ton frère m'a écrasé le pied.", "en": "Your brother crushed my foot.", "zh": "「你弟弟壓到了我的腳。」" }
+          ]
+        },
+        {
+          "form": "p'apix",
+          "fr": "se faire écraser, comprimer.",
+          "en": "to get oneself crushed, squeezed.",
+          "zh": "「被壓、被擠壓。」",
+          "examples": [
+            { "t": "Ya so splan muda p'apix tdoloi da?", "fr": "On dirait que tu fais exprès d'aller te faire écraser sous la voiture !", "en": "One would think you were deliberately going to get yourself run over by the car!", "zh": "「你好像是故意要去被車子壓!」" }
+          ]
+        },
+        {
+          "form": "Mpapix",
+          "fr": "Qui est écrasé, écroulé.",
+          "en": "That is crushed, collapsed.",
+          "zh": "「被壓垮、倒塌的。」",
+          "examples": [
+            { "t": "Dxok ka pais do, asi mxdo mpapix kana ssapax alang da", "fr": "A peine les annemis arrivés et toutes les maisons du village sont détruites.", "en": "Hardly had the enemies arrived when all the houses of the village were destroyed.", "zh": "「敵人一到,村裡的房屋就全都毀了。」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "APO", "tag": "(R)",
+      "fr": "Kaki (fruit).",
+      "en": "Persimmon (fruit).",
+      "zh": "「柿子(水果)。」",
+      "examples": [
+        { "t": "Suyang bi oqon ka apo", "fr": "Les kakis sont délicieux.", "en": "Persimmons are delicious.", "zh": "「柿子很好吃。」" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ASI", "tag": "(R.?)",
+      "fr": "A condition que - si. (nb) = Pourrait à la rigueur être la forme: A SI (A + SI) comme l'on a: A SAO et A TYEX. (vr) A.",
+      "en": "On condition that - if. (n.b.) Could conceivably be the form A SI (A + SI), just as one has A SAO and A TYEX. (see) A.",
+      "zh": "「只要——如果。(註:或許也可視為 A SI(A + SI)的形式,如同 A SAO 與 A TYEX。)(參見)A。」",
+      "examples": [
+        { "t": "Asi ka malu kika ngalun mo", "fr": "Je le prendrai s'il est bon.", "en": "I will take it if it is good.", "zh": "「如果是好的我就拿。」" },
+        { "t": "Asi ka mbiyax kika tdoa", "fr": "A condition d'être fort (jeune) alors c'est possible .", "en": "Provided one is strong (young), then it is possible.", "zh": "「只要夠強壯(年輕),那就有可能。」" }
+      ],
+      "subs": [
+        {
+          "form": "Kasi",
+          "fr": "d° comportant une idée d'ordre, de souhait.",
+          "en": "same as above, carrying an idea of command or wish.",
+          "zh": "「同上,帶有命令、願望之意。」",
+          "examples": [
+            { "t": "Sao kia do, kasi ko usa da!", "fr": "Celà étant, je n'ai plus qu'à m'en aller!", "en": "That being so, all I can do is leave!", "zh": "「既然如此,我只好走了!」" }
+          ]
+        },
+        {
+          "form": "Nasi",
+          "fr": "d° avec une idée de condition accomplie.",
+          "en": "same as above, with an idea of a fulfilled condition.",
+          "zh": "「同上,帶有條件實現之意。」",
+          "examples": [
+            { "t": "Nasi so musa do, tsai ko n'xali", "fr": "Si tu vas (quand tu iras), fais moi le savoir.", "en": "If you go (when you go), let me know.", "zh": "「你若要去(當你去時),要讓我知道。」" }
+          ]
+        },
+        {
+          "form": "Pasi",
+          "fr": "Pour que - faire que ce soit la condition de.",
+          "en": "So that - to make it be the condition of.",
+          "zh": "「為使——使之成為條件。」",
+          "examples": [
+            { "t": "Tmalang ko pasi ko dxok n'xali da", "fr": "Je cours pour arriver vite .", "en": "I run so as to arrive quickly.", "zh": "「我跑步好快點到達。」" }
+          ]
+        },
+        {
+          "form": "Asi do",
+          "fr": "Aussitôt .",
+          "en": "At once.",
+          "zh": "「立刻。」",
+          "examples": [
+            { "t": "Asi do, wada ka xea da", "fr": "Brusquement, le voilà qui s'en va!", "en": "Suddenly, off he goes!", "zh": "「突然間,他就走了!」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ASO", "tag": "",
+      "fr": "Tronc d'arbre évidé (souvent partie extérieure d'un camphrier dont le coeur a pourri) qu'on traîne pour transporter des matériaux lourds . Par extension = Barque - bateau.",
+      "en": "Hollowed-out tree trunk (often the outer part of a camphor tree whose heart has rotted) that is dragged along to transport heavy materials. By extension = boat - ship.",
+      "zh": "「挖空的樹幹(常是樹心已腐朽的樟樹外層),拖行用來搬運重物。引申為:小舟——船。」",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Aso skaya",
+          "fr": "Avion (bateau qui vole).",
+          "en": "Aeroplane (boat that flies).",
+          "zh": "「飛機(會飛的船)。」",
+          "examples": []
+        },
+        {
+          "form": "Aso oqan kating",
+          "fr": "Crêche (où mangent les buffles).",
+          "en": "Manger (where the buffalo eat).",
+          "zh": "「牛槽(水牛吃食之處)。」",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "ASO", "tag": "(R)",
+      "paradigm": "°Maso, aso, sgi, sgan, sgun .",
+      "fr": "Partage - Partager - distribuer.",
+      "en": "Sharing - to share - to distribute.",
+      "zh": "「分配——分享——分發。」",
+      "examples": [
+        { "t": "Malu bi aso daxa", "fr": "Leur partage (façon de partager) est juste.", "en": "Their sharing (way of sharing) is fair.", "zh": "「他們的分法(分配方式)很公平。」" }
+      ],
+      "subs": [
+        {
+          "form": "Maso",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "「同上之動詞形。」",
+          "examples": [
+            { "t": "Saon mo maso kpaxon namo kia aadi namo musa isil", "fr": "J'irai tout à l'heure vous distribuer le travail pour que vous ne partiez pas ailleurs.", "en": "In a little while I will go and share out the work to you, so that you do not go off elsewhere.", "zh": "「待會兒我會去把工作分派給你們,免得你們跑到別處去。」" }
+          ]
+        },
+        {
+          "form": "P'aso",
+          "fr": "Faire partager - Faire distribuer.",
+          "en": "To make share - to have distributed.",
+          "zh": "「使分享——使分發。」",
+          "examples": [
+            { "t": "Xmuya ka ini so p'aso n'xali ka nxoai daxa ?", "fr": "Pourquoi ne fais tu pas distribuer rapidement ce qui à été offert ?", "en": "Why do you not have what has been offered distributed quickly?", "zh": "「你為什麼不快點把人家送的東西分下去?」" },
+            { "t": "Kmp'aso ko bi pila mo nanak ka yako !", "fr": "Moi je voudrais bien partager mon argent personnel !", "en": "As for me, I would really like to share out my own money!", "zh": "「我很想把我自己的錢分給大家!」" }
+          ]
+        },
+        {
+          "form": "Pp'aso",
+          "fr": "Pour faire distribuer.",
+          "en": "For having distributed.",
+          "zh": "「用以使分發。」",
+          "examples": [
+            { "t": "Xeaon so oqon ? ... Pp'aso mo ldanan saman", "fr": "Que veux tu faire de la nourriture ? ... La partager demain aux anciens.", "en": "What do you want to do with the food? … Share it out tomorrow to the elders.", "zh": "「你要拿這些食物做什麼?……明天分給老人家。」" }
+          ]
+        },
+        {
+          "form": "Mp'paso",
+          "fr": "Celui qui fera partager.",
+          "en": "The one who will have (things) shared out.",
+          "zh": "「將使人分配者。」",
+          "examples": [
+            { "t": "Mp'paso ko saman ka payai mo", "fr": "Je ferai distribuer mon riz demain.", "en": "I will have my rice distributed tomorrow.", "zh": "「明天我要把我的稻米分發出去。」" }
+          ]
+        },
+        {
+          "form": "Sgan",
+          "fr": "Temps, lieu de partage - Objet de partage fait.",
+          "en": "Time or place of sharing - thing already shared out.",
+          "zh": "「分配的時間、地點——已分配之物。」",
+          "examples": [
+            { "t": "Saman ka sgan kpaxan; tama ta nanak ka mp'aso", "fr": "C'est demain la distribution des champs; c'est papa lui même qui la fera.", "en": "The distribution of the fields is tomorrow; it is father himself who will do it.", "zh": "「明天分配田地;由爸爸親自來分。」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ATA", "tag": "(R)",
+      "fr": "Femme du frère - belle soeur.",
+      "en": "Brother's wife - sister-in-law.",
+      "zh": "「兄弟之妻——嫂子、弟媳。」",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ATAS", "tag": "(R.?)",
+      "crossRef": "PATAS",
+      "fr": "Serait ce la racine de: Patas ? (vr) PATAS.",
+      "en": "Could this be the root of Patas? (see) PATAS.",
+      "zh": "「這會是 Patas 的詞根嗎?(參見)PATAS。」",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ATYEX", "tag": "",
+      "crossRef": "TYEX",
+      "fr": "S'en falloir de peu. (nb) Plus probablement: A + TYEX. (vr) TYEX.",
+      "en": "To fall just short; to be very nearly so. (n.b.) More probably: A + TYEX. (see) TYEX.",
+      "zh": "「差一點。(註:更可能是 A + TYEX。)(參見)TYEX。」",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "AX", "tag": "",
+      "fr": "Ah! Esclamation.",
+      "en": "Ah! Exclamation.",
+      "zh": "「啊!感嘆詞。」",
+      "examples": [
+        { "t": "Ax! Gndala sadyaq ka nii!", "fr": "Ah! Ceci est le prix du sang !", "en": "Ah! This is the price of blood!", "zh": "「啊!這是血的代價!」" },
+        { "t": "Ax! Nii ka baki ta da!", "fr": "Ah! Voilà notre grand père !", "en": "Ah! Here is our grandfather!", "zh": "「啊!我們的祖父來了!」" },
+        { "t": "Ax! Pgalu bi ka laqe nii, msa", "fr": "Ah! Pauvre petit gosse, dit il !", "en": "Ah! Poor little child, he said!", "zh": "「啊!可憐的小孩子,他說!」" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "AYANG", "tag": "(R)",
+      "fr": "Liquide huileux - pétrole - huile. (nb) Ce sens de pétrole est sans doute par assimilation puisque les Taroko ne le connaissent que depuis fort peu de temps.",
+      "en": "Oily liquid - kerosene - oil. (n.b.) This sense of 'kerosene' is doubtless by assimilation, since the Taroko have known it only for a very short time.",
+      "zh": "「油狀液體——煤油——油。(註:『煤油』一義想必是引申而來,因為太魯閣族認識煤油的時間還很短。)」",
+      "examples": [
+        { "t": "Ayang trabus", "fr": "Huile d'arachide.", "en": "Peanut oil.", "zh": "「花生油。」" },
+        { "t": "Saon mo mali ayang spsamao mo ka'man kia", "fr": "Je dois aller acheter du pétrole pour m'éclairer ce soir.", "en": "I must go and buy kerosene to light my house this evening.", "zh": "「我今晚得去買煤油來照明。」" }
+      ],
+      "subs": [
+        {
+          "form": "S'ayang",
+          "fr": "Sentir le pétrole.",
+          "en": "To smell of kerosene.",
+          "zh": "「有煤油味。」",
+          "examples": [
+            { "t": "Pnsamao ko sapax Pexo ni s'ayang kana baga mo da!", "fr": "J'ai allumé la lampe chez Perho et j'ai les mains qui sentent le pétrole.", "en": "I lit the lamp at Perho's house and my hands smell of kerosene.", "zh": "「我在Perho家點了燈,弄得滿手都是煤油味!」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "AYO", "tag": "(R)",
+      "fr": "Ruisseau - rigole - canal.",
+      "en": "Stream - ditch - canal.",
+      "zh": "「小溪——水溝——水道。」",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mpa'ayo",
+          "fr": "Deviendra ruisseau.",
+          "en": "Will become a stream.",
+          "zh": "「將變成溪流。」",
+          "examples": [
+            { "t": "M'ayo \"lu kmpaxan ni ida bi mpa'ayo ka \"lu alang ole", "fr": "Le chemin des champs est devenu ruisseau et sans doute les chemins du village le deviendront aussi.", "en": "The field path has become a stream, and no doubt the village paths will become so too.", "zh": "「田間的路已變成了溪流,村裡的路想必也會如此。」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "AYONG", "tag": "(R)",
+      "fr": "Commis - servant.",
+      "en": "Clerk - servant.",
+      "zh": "「雇員——僕人。」",
+      "examples": [
+        { "t": "Uxai gaya bi Troko ka ana m'ayong adi ole p'ayong", "fr": "Ce n'est guère la coutume des Taroko ni d'être serviteur ni de rendre serviteur.", "en": "It is hardly the custom of the Taroko either to be a servant or to make anyone a servant.", "zh": "「當僕人或使人為僕,都不是太魯閣族的習俗。」" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "AYOQ", "tag": "(R)",
+      "fr": "Glandes dans le corps humain, spécialement sous les aisselles, au pli de l'aine ou les amygdales .",
+      "en": "Glands in the human body, especially under the armpits, in the fold of the groin, or the tonsils.",
+      "zh": "「人體內的腺體,尤指腋下、鼠蹊部皺褶處的淋巴腺或扁桃腺。」",
+      "examples": [
+        { "t": "Adi manu ka sknalox ayoq so , \"sig nbaga so", "fr": "Ce n'est rien d'autre que le furoncle de ta main qui te fait mal aux glandes de l'aisselle.", "en": "It is nothing other than the boil on your hand that is making the glands in your armpit hurt.", "zh": "「不過就是你手上的癤子,害你腋下的腺體疼痛。」" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "AYUS", "tag": "(R)",
+      "fr": "Limite - bord - bordure.",
+      "en": "Boundary - edge - border.",
+      "zh": "「界線——邊——邊緣。」",
+      "examples": [
+        { "t": "Ya ga bi ino ka ayus kmpaxan mo?", "fr": "Où sont elles donc les limites de mon champ ?", "en": "Where then are the boundaries of my field?", "zh": "「我田地的界線到底在哪裡?」" }
+      ],
+      "subs": [
+        {
+          "form": "M'ayus",
+          "fr": "Qui fait limite - qui est frontière.",
+          "en": "That forms a boundary - that is a frontier.",
+          "zh": "「作為界線的——構成邊界的。」",
+          "examples": [
+            { "t": "Ayo pnax daya ka balae bi m'ayus kmpaxan ta", "fr": "C'est le ruisseau venu d'en haut qui est vraiment devenu limite de nos champs.", "en": "It is the stream coming down from above that has truly become the boundary of our fields.", "zh": "「從上方流下來的那條溪,才真正成了我們田地的界線。」" }
+          ]
+        },
+        {
+          "form": "P'ayus",
+          "fr": "Délimiter - mettre des bornes.",
+          "en": "To mark out - to set boundary markers.",
+          "zh": "「劃界——設立界標。」",
+          "examples": [
+            { "t": "Skbaki mo suxal ka pn'ayus pusu dima mo", "fr": "C'est feu mon grand père autrefois qui a délimité ma plantation de bambous.", "en": "It was my late grandfather who long ago marked out my bamboo plantation.", "zh": "「從前是我已故的祖父為我的竹林劃定界線的。」" }
+          ]
+        },
+        {
+          "form": "Pt'ayus",
+          "fr": "Pour être effectivement séparation - Faire que ce soit une limite.",
+          "en": "To be effectively a separation - to make it be a boundary.",
+          "zh": "「使確實成為分隔——使之成為界線。」",
+          "examples": [
+            { "t": "Xmaon mo dima ppt'ayus daxa kmpaxan ta", "fr": "Je planterai des bambous pour qu'ils servent de limite entre nos champs.", "en": "I will plant bamboos so that they serve as the boundary between our fields.", "zh": "「我要種竹子,讓它們作我們田地之間的界線。」" }
+          ]
+        },
+        {
+          "form": "Pntyusan",
+          "fr": "Ce qui a été établi comme limite.",
+          "en": "What has been established as a boundary.",
+          "zh": "「已被立為界線之物。」",
+          "examples": [
+            { "t": "Adi so mpqnoqo! pl'gi nanak pntyusan, kia da", "fr": "Tu ne pourras pas te tromper; tu n'as qu'à suivre les bornes et voilà .", "en": "You cannot go wrong; you have only to follow the markers, and there you are.", "zh": "「你不會弄錯的;只要沿著界標走就行了。」" }
+          ]
+        },
+        {
+          "form": "Sn'ayus",
+          "fr": "A propos de limites.",
+          "en": "Concerning boundaries.",
+          "zh": "「關於界線。」",
+          "examples": [
+            { "t": "Ongat bi ka d'xea ! Asi knta\"to sn'ayus mqqan!", "fr": "Ce n'est pas possible (Ils n'existent pas, eux) ! Ils se chamaillent continuellement à propos de limites !", "en": "They are impossible (people like them do not exist)! They squabble continually about boundaries!", "zh": "「他們真是不可理喻(天下沒有像他們這樣的人)!為了地界爭吵不休!」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BA\"BA", "tag": "(R)",
+      "fr": "Anthrax.",
+      "en": "Carbuncle (anthrax).",
+      "zh": "「癰(炭疽瘡)。」",
+      "examples": [
+        { "t": "Ya ksxaya! mpaba\"ba xeti ka loqex so!", "fr": "Ne fais pas ainsi! Ta plaie va devenir un anthrax !", "en": "Do not do that! Your wound is going to turn into a carbuncle!", "zh": "「別這樣!你的傷口會變成癰的!」" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BABAO", "tag": "(R)",
+      "fr": "Après - Sur - au dessus.",
+      "en": "After - on - above.",
+      "zh": "「之後——在上——上方。」",
+      "examples": [
+        { "t": "Babao na sida", "fr": "après celà", "en": "after that", "zh": "「在那之後」" },
+        { "t": "Babao (baba) ska xedao", "fr": "Après midi", "en": "afternoon", "zh": "「午後」" },
+        { "t": "Babao na do", "fr": "ensuite", "en": "then, next", "zh": "「接著」" },
+        { "t": "Babao spat xnkawas", "fr": "Après quatre ans", "en": "after four years", "zh": "「四年之後」" },
+        { "t": "Babao spat iyax (yax) xnkawas", "fr": "après l'espace de quatre années", "en": "after the space of four years", "zh": "「經過四年的時間之後」" },
+        { "t": "Babao dnamux", "fr": "Sur le toit", "en": "on the roof", "zh": "「在屋頂上」" },
+        { "t": "Babao d'xgal", "fr": "Sur terre - au monde", "en": "on earth - in the world", "zh": "「在地上——在世上」" }
+      ],
+      "subs": [
+        {
+          "form": "Nbabao",
+          "fr": "Postérieur - de ce qui vient après - de ce qui est dessus.",
+          "en": "Later - of what comes after - of what is above.",
+          "zh": "「在後的——屬於其後之事的——屬於上方之物的。」",
+          "examples": [
+            { "t": "Lnglongan nbabao d'xgal ka kia", "fr": "Celà est une préoccupation mondaine.", "en": "That is a worldly concern.", "zh": "「那是屬世的掛慮。」" },
+            { "t": "Kana ssadyaq nbabao d'xgal", "fr": "Tous les hommes du monde.", "en": "All the people of the world.", "zh": "「世上所有的人。」" }
+          ]
+        },
+        {
+          "form": "Psbabao",
+          "fr": "Faire que ce soit (pour) après.",
+          "en": "To make it be (for) afterwards; to put off until later.",
+          "zh": "「使延到之後。」",
+          "examples": [
+            { "t": "Wada na pnsbabao pntliyan ka slaq nia", "fr": "Il a remis (le travail de) sa rizière après les noces.", "en": "He has put off (the work of) his rice paddy until after the wedding.", "zh": "「他把水田(的工作)延到婚禮之後。」" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BABWI", "tag": "(R)",
+      "fr": "Cochon. (Cochon noir très proche du sanglier)",
+      "en": "Pig. (A black pig very close to the wild boar)",
+      "zh": "「豬。(一種很接近山豬的黑豬)」",
+      "examples": [
+        { "t": "Tmabu babwi", "fr": "", "en": "", "zh": "" }
+      ],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

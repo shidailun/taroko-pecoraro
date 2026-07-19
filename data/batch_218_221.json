@@ -1,0 +1,868 @@
+{
+  "pages": [218, 221],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mspaxong",
+        "fr": "Qui est en colère - qui est colèreux.",
+        "en": "One who is angry - who is irascible.",
+        "zh": "發怒的人－易怒的人。",
+        "examples": [
+          {
+            "t": "Mspaxong balae ka suai (swai) so",
+            "fr": "Ton petit frère a un caractère très colèreux.",
+            "en": "Your little brother has a very irascible temperament.",
+            "zh": "你弟弟的脾氣非常暴躁。"
+          }
+        ]
+      },
+      {
+        "form": "Knspaxong",
+        "fr": "Intensité d'irascibilité.",
+        "en": "Intensity of irascibility.",
+        "zh": "易怒的程度。",
+        "examples": []
+      },
+      {
+        "form": "Kmspaxong",
+        "fr": "Désirer se mettre en colère - désirer déverser sa bile.",
+        "en": "To wish to get angry - to wish to vent one's spleen.",
+        "zh": "想要發怒－想要發洩怒氣。",
+        "examples": []
+      },
+      {
+        "form": "Kmkspaxong",
+        "fr": "Désirer être colèreux.",
+        "en": "To wish to be irascible.",
+        "zh": "想要成為易怒的人。",
+        "examples": []
+      },
+      {
+        "form": "Pspaxong",
+        "fr": "Mettre en colère - provoquer la colère.",
+        "en": "To make angry - to provoke anger.",
+        "zh": "使人發怒－激怒。",
+        "examples": [
+          {
+            "t": "Nxea bi ka pspaxong sadyaq (sdyaqon)",
+            "fr": "C'est sa spécialité de faire mettre les gens en colère.",
+            "en": "It is his specialty to make people angry.",
+            "zh": "惹人生氣是他的拿手好戲。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "PAYA",
+      "tag": "(R)",
+      "fr": "Ticket - billet (de train, decinéma, de tombola ....).",
+      "en": "Ticket - ticket (for a train, cinema, raffle ....).",
+      "zh": "票－券（火車票、電影票、抽獎券……）。",
+      "examples": [
+        {
+          "t": "Lmnglong so papa tdoloi (Tdoloi kl'ngun) o, Nyeqan ka paya so xo?",
+          "fr": "Tu penses prendre le train, est-ce que tu as le billet?",
+          "en": "You are thinking of taking the train, do you have your ticket?",
+          "zh": "你打算搭火車，你有票嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ppaya",
+          "paradigm": "° Mppaya, ppaya, .?., ppyaan, ppyaon.",
+          "fr": "Faire faire un billet - prendre un billet - payer le billet à un autre.",
+          "en": "To have a ticket made - to get a ticket - to pay for someone else's ticket.",
+          "zh": "代辦車票－買票－替別人付票錢。",
+          "examples": [
+            {
+              "t": "Usa ppaya n'xali da",
+              "fr": "Allez vite prendre votre billet !",
+              "en": "Go quickly and get your ticket!",
+              "zh": "快去買你的票！"
+            },
+            {
+              "t": "Nasi ongat pila so o, ppyaon miso xo?",
+              "fr": "Si tu n'as pas d'argent, Je te payerai un billet, veux tu?",
+              "en": "If you have no money, I will pay for a ticket for you, would you like that?",
+              "zh": "如果你沒有錢，我幫你付票錢，好嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Ppyaan",
+          "fr": "Gare - guichet - lieu,temps pour prendre les billets - l'action (révolue) de prendre les billets.",
+          "en": "Station - ticket window - the place and time for getting tickets - the (past, completed) action of getting tickets.",
+          "zh": "車站－售票口－買票的地點與時間－（過去、已完成的）買票動作。",
+          "examples": [
+            {
+              "t": "Usa nama ppyaan; mpsnugul ko kia ka yako",
+              "fr": "Va te préparer (en avance) à la gare; je suivrai tout à l'heure.",
+              "en": "Go and get ready (in advance) at the station; I will follow shortly.",
+              "zh": "你先去車站準備（提前）；我等一下就跟上。"
+            }
+          ]
+        },
+        {
+          "form": "Pyaan",
+          "fr": "gare - guichet...(sans doute contraction de PPYAAN).",
+          "en": "station - ticket window...(no doubt a contraction of PPYAAN).",
+          "zh": "車站－售票口……（無疑是 PPYAAN 的縮略）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "PAYAI",
+      "tag": "(R)",
+      "fr": "Riz (le plant lui même et le grain brut récolté) -paddy.",
+      "en": "Rice (the plant itself and the unhusked harvested grain) - paddy.",
+      "zh": "稻（稻株本身以及收穫的未去殼穀粒）－稻穀。",
+      "examples": [
+        {
+          "t": "Saon mo mita ka payai mo da.",
+          "fr": "Je veux aller voir mon (champ de) riz.",
+          "en": "I want to go and see my (field of) rice.",
+          "zh": "我想去看我的稻田。"
+        },
+        {
+          "t": "Ongat ka pxdagan so o, pxdagun so ino ka payai so?",
+          "fr": "Puisque tu n'as pas d'aire pour sécher ton paddy au soleil, où vas tu le faire sécher ?",
+          "en": "Since you have no yard for drying your paddy in the sun, where are you going to dry it?",
+          "zh": "既然你沒有曬穀場可以在陽光下曬稻穀，你要在哪裡曬呢？"
+        },
+        {
+          "t": "Payai l'xqoi",
+          "fr": "Espèce de riz gluant.",
+          "en": "A kind of glutinous rice.",
+          "zh": "一種糯稻。"
+        }
+      ]
+    },
+    {
+      "hw": "PDAXONG",
+      "tag": "(R)",
+      "fr": "Lèvres . (nb. Y aurait-il relation avec: DAXONG = Ecchymose?)",
+      "en": "Lips. (n.b. Might there be a relation with: DAXONG = Bruise / ecchymosis?)",
+      "zh": "嘴唇。（註：是否與 DAXONG＝瘀傷 有關？）",
+      "examples": [
+        {
+          "t": "Mloqex kana ka pdaxong qoaq so",
+          "fr": "Tes lèvres sont toutes couvertes de plaies.",
+          "en": "Your lips are all covered with sores.",
+          "zh": "你的嘴唇上滿是瘡。"
+        }
+      ]
+    },
+    {
+      "hw": "P'DO",
+      "tag": "( = R. ? )",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Ubai p'do",
+          "fr": "Amadou.(nb. matière végétale cotonneuse dont les taroko se servaient avec la pierre ( QLARI) frappée par la pièce de fer (XILWI) pour obtenir du feu.",
+          "en": "Amadou / tinder. (n.b. a cottony plant material that the Taroko used together with the stone (QLARI) struck by the piece of iron (XILWI) to make fire.)",
+          "zh": "火絨。（註：一種棉絮狀的植物材料，太魯閣人以鐵片（XILWI）敲擊石頭（QLARI）取火時所用。）"
+        }
+      ]
+    },
+    {
+      "hw": "PEIDANG",
+      "tag": "( = R. ? - R. = EIDANG ?)",
+      "fr": "Perdre - égarer.",
+      "en": "To lose - to mislay.",
+      "zh": "遺失－弄丟。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Meidang",
+          "paradigm": "° Meidang, peidang, pgdangi, pgdangan, pgdangun.",
+          "fr": "Qui est perdu, égaré.",
+          "en": "That which is lost, mislaid.",
+          "zh": "遺失的、迷失的。",
+          "examples": [
+            {
+              "t": "Ya bi usa meidang muda \"lu",
+              "fr": "Ne va pas te perdre en route.",
+              "en": "Don't get lost on the way.",
+              "zh": "別在路上迷路。"
+            },
+            {
+              "t": "Laqe mneidang",
+              "fr": "Enfant naturel.",
+              "en": "Illegitimate (natural) child.",
+              "zh": "私生子。"
+            },
+            {
+              "t": "Maidang tunuç",
+              "fr": "distrait.",
+              "en": "Absent-minded / distracted.",
+              "zh": "心不在焉。"
+            },
+            {
+              "t": "Meidang lnglongan",
+              "fr": "Désemparé - perdu (figuré).",
+              "en": "At a loss - lost (figuratively).",
+              "zh": "不知所措－迷惘（比喻）。"
+            },
+            {
+              "t": "Xmut lala ka kari namo! Meidang kana tunuç mo da",
+              "fr": "Vous parlez tellement ! Ma tête s'embrouille complètement !",
+              "en": "You talk so much! My head is getting completely muddled!",
+              "zh": "你們話那麼多！我的頭都亂成一團了！"
+            },
+            {
+              "t": "Ya bi pgdangi ka pila so",
+              "fr": "Ne perds pas ton argent.",
+              "en": "Don't lose your money.",
+              "zh": "別弄丟你的錢。"
+            }
+          ]
+        },
+        {
+          "form": "Pgdangun",
+          "fr": "( serait-ce pour: PKDANGUN ?) = Etre celui (ce) qu'on doit perdre (qui doit être perdu).",
+          "en": "(could this be for: PKDANGUN?) = To be the one (thing) that one is bound to lose (that is to be lost).",
+          "zh": "（是否為 PKDANGUN？）＝ 那個注定要遺失的人（物）（該被弄丟的）。",
+          "examples": [
+            {
+              "t": "Pgdangun so na kia ka Liwis",
+              "fr": "Liwis va finir par t'égarer !",
+              "en": "Liwis will end up losing you (getting you lost)!",
+              "zh": "利威斯最後會把你弄丟！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PESA",
+      "tag": "( = R. ? - R. = ESA ?)",
+      "fr": "Demander - quémander.",
+      "en": "To ask - to beg for.",
+      "zh": "請求－乞求。",
+      "examples": [
+        {
+          "t": "Ana ini so adas ka mtboax so! Ini pesa ka k'ulae mo na!",
+          "fr": "Ce n'est pas nécessaire d'amener ton verrat ! Ma truie n'est pas encore en chaleur (ne demande pas le mâle).",
+          "en": "There's no need to bring your boar! My sow is not yet in heat (is not asking for the male).",
+          "zh": "不必把你的公豬牽來！我的母豬還沒發情（還不需要公豬）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mesa",
+          "paradigm": "° Mesa, pesa, pgsai, pgsaan, pgsaon.",
+          "fr": "Demander - qui demande.",
+          "en": "To ask - one who asks.",
+          "zh": "請求－請求的人。",
+          "examples": [
+            {
+              "t": "Ana qoqo, mxa ko mesa oqon da",
+              "fr": "Cela ne fait rien ! Je vais mendier (demander) de la nourriture (à manger).",
+              "en": "Never mind! I will go and beg (ask) for food (to eat).",
+              "zh": "沒關係！我要去乞討（要）食物（來吃）。"
+            },
+            {
+              "t": "Miyax ko mesa potong so, nyeqan xo?",
+              "fr": "Je viens te demander des allumettes; tu en as ?",
+              "en": "I come to ask you for matches; do you have any?",
+              "zh": "我來向你要火柴；你有嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mpesa",
+          "fr": "Demandeur - quémandeur - mendiant.",
+          "en": "Asker - beggar - mendicant.",
+          "zh": "請求者－乞求者－乞丐。",
+          "examples": [
+            {
+              "t": "Mpesa oqon",
+              "fr": "mendiant.",
+              "en": "beggar for food (mendicant).",
+              "zh": "乞食者（乞丐）。"
+            },
+            {
+              "t": "Ga mpesa bi ka milit mo da",
+              "fr": "Ma chèvre est vraiment en chaleur.",
+              "en": "My goat is really in heat.",
+              "zh": "我的母山羊真的發情了。"
+            }
+          ]
+        },
+        {
+          "form": "Pngsaan",
+          "fr": "Pétition - demande - prière - temps, lieu, forme, objet de la demande,(dans le passé - révolus).",
+          "en": "Petition - request - prayer - the time, place, form, object of the request (in the past - completed).",
+          "zh": "請願－請求－祈求－請求的時間、地點、形式、對象（過去、已完成）。",
+          "examples": [
+            {
+              "t": "Ana manu ka pngsaan mo o, ida wada ko na byeqon",
+              "fr": "Quoi que j'aie demandé, il a voulu (il a tenu) à me l'accorder (nb. ..Ida wada ko na byeqan = ..Il me l'a en fait accordé).",
+              "en": "Whatever I asked for, he insisted (was determined) to grant it to me (n.b. ..Ida wada ko na byeqan = ..He did in fact grant it to me).",
+              "zh": "無論我求什麼，他都堅持要答應我（註：..Ida wada ko na byeqan＝..他確實答應了我）。"
+            },
+            {
+              "t": "Manu bi ka pngsaan so ?",
+              "fr": "Qu'est-ce que tu as demandé ?",
+              "en": "What did you ask for?",
+              "zh": "你求了什麼？"
+            }
+          ]
+        },
+        {
+          "form": "Kmpesa",
+          "fr": "Avoir envie de demander.",
+          "en": "To feel like asking.",
+          "zh": "想要請求。",
+          "examples": [
+            {
+              "t": "Kmpesa ko bi kingal boqox",
+              "fr": "J'ai bien envie de (lui) demander s'il me donne (qu'il me donne) un papaye.",
+              "en": "I really feel like asking (him) whether he will give me a papaya.",
+              "zh": "我很想向（他）要一顆木瓜。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PGAGO",
+      "tag": "(R)",
+      "fr": "Tourterelle - pigeon.",
+      "en": "Turtledove - pigeon.",
+      "zh": "斑鳩－鴿子。",
+      "examples": []
+    },
+    {
+      "hw": "PGDGIT",
+      "tag": "(PG'DGIT)",
+      "fr": "Faire grincer les dents - faire grincer des dents.(nb. il est probable que la R. soit: G'DGIT ,peut être: G'DGUT ! =moudre).",
+      "en": "To make the teeth grind - to grind the teeth. (n.b. it is probable that the root is: G'DGIT, perhaps: G'DGUT! = to grind / mill.)",
+      "zh": "使牙齒磨動－磨牙。（註：詞根很可能是 G'DGIT，或許是 G'DGUT！＝磨碎。）",
+      "examples": []
+    },
+    {
+      "hw": "PIA",
+      "tag": "(PIYA ?) (R)",
+      "fr": "Combien nombreux.",
+      "en": "How many, how numerous.",
+      "zh": "多少、多寡。",
+      "examples": [
+        {
+          "t": "Pia namo xei",
+          "fr": "Combien de personnes êtes vous?",
+          "en": "How many people are you?",
+          "zh": "你們有多少人？"
+        },
+        {
+          "t": "Pia xei namo (= Pia ka xei namo)",
+          "fr": "Combien comptez vous de personnes (dans votre groupe)?",
+          "en": "How many people do you count (in your group)?",
+          "zh": "你們（一群）算起來有多少人？"
+        },
+        {
+          "t": "Ana pia",
+          "fr": "Peu importe combien.",
+          "en": "No matter how many.",
+          "zh": "無論多少。"
+        },
+        {
+          "t": "Pia pusu ka blubul namo",
+          "fr": "Vos bananiers sont combien de pieds?",
+          "en": "How many banana plants do you have?",
+          "zh": "你們的香蕉有幾株？"
+        },
+        {
+          "t": "Pia ka pusu blubul namo",
+          "fr": "Combien de pieds de bananiers avez vous ?",
+          "en": "How many banana plants do you have?",
+          "zh": "你們有幾株香蕉？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpia",
+          "fr": "Quantième fois.",
+          "en": "Which time in order (the how-manieth time).",
+          "zh": "第幾次。",
+          "examples": [
+            {
+              "t": "Mpia namo ka sayang?",
+              "fr": "Cette fois-ci c'est la quantième (fois) ?",
+              "en": "This time, which time is it (in sequence)?",
+              "zh": "這一次是第幾次？"
+            }
+          ]
+        },
+        {
+          "form": "Mnpia",
+          "fr": "Combien de fois ?",
+          "en": "How many times?",
+          "zh": "幾次？",
+          "examples": [
+            {
+              "t": "Mnpia namo mqan s'xiga",
+              "fr": "Combien de fois avez vous mangé hier ?",
+              "en": "How many times did you eat yesterday?",
+              "zh": "你們昨天吃了幾次？"
+            }
+          ]
+        },
+        {
+          "form": "Mapia",
+          "fr": "Va devenir combien.",
+          "en": "Will become how many.",
+          "zh": "將會變成多少。",
+          "examples": [
+            {
+              "t": "Sao kia do, mapia namo xei da?",
+              "fr": "Ainsi donc vous allez être combien de personnes ?",
+              "en": "So then, how many people will you be?",
+              "zh": "那麼，你們會有多少人？"
+            }
+          ]
+        },
+        {
+          "form": "Mpapia",
+          "fr": "Seront combien.",
+          "en": "Will be how many.",
+          "zh": "將會是多少。",
+          "examples": [
+            {
+              "t": "Musa namo xkawas do, mpapia namo xei?",
+              "fr": "Si (puisque) vous allez l'an prochain, Vous aurez combien de personnes?",
+              "en": "If (since) you are going next year, how many people will you have?",
+              "zh": "如果（既然）你們明年要去，你們會有多少人？"
+            },
+            {
+              "t": "Mpanamo pia xei ?",
+              "fr": "Vous serz combien de personnes ?",
+              "en": "How many people will you be?",
+              "zh": "你們會有多少人？"
+            }
+          ]
+        },
+        {
+          "form": "Pnpia",
+          "fr": "Combien à la fois?",
+          "en": "How many at a time?",
+          "zh": "一次多少？",
+          "examples": [
+            {
+              "t": "Pnpia namo ?",
+              "fr": "Combien êtes vous à la fois?",
+              "en": "How many are you at a time?",
+              "zh": "你們一次有多少人？"
+            }
+          ]
+        },
+        {
+          "form": "Mkpia",
+          "fr": "Pendant combien (de jours)?",
+          "en": "For how many (days)?",
+          "zh": "（住）幾天？",
+          "examples": [
+            {
+              "t": "Mkpia namo xeni?",
+              "fr": "Combien de jours restez vous ici ?",
+              "en": "How many days are you staying here?",
+              "zh": "你們要在這裡待幾天？"
+            }
+          ]
+        },
+        {
+          "form": "Mnkpia",
+          "fr": "Combien de jours (dans le passé)?",
+          "en": "How many days (in the past)?",
+          "zh": "（過去）待了幾天？",
+          "examples": [
+            {
+              "t": "Mnkpia namo xeni sida ?",
+              "fr": "Cette fois là, combien de jours êtes vous restés ici ?",
+              "en": "That time, how many days did you stay here?",
+              "zh": "那一次，你們在這裡待了幾天？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PIDA",
+      "tag": "(R. ?)",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Pida bi sida (siida)",
+          "fr": "Juste à ce moment là.",
+          "en": "Just at that moment.",
+          "zh": "正是那個時候。"
+        },
+        {
+          "t": "Pida bi mnatas ko siida",
+          "fr": "Juste au moment où j'étudiais (Juste pendant le temps où je faisais mes études).",
+          "en": "Just at the moment when I was studying (just during the time when I was doing my studies).",
+          "zh": "正當我讀書的時候（正當我求學那段時間）。"
+        }
+      ]
+    },
+    {
+      "hw": "PIKA",
+      "tag": "(R)",
+      "fr": "Boitement - Boiteux - instable.",
+      "en": "Limping - lame - unstable.",
+      "zh": "跛行－瘸的－不穩。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mpika",
+          "fr": "Qui boite - boiter.",
+          "en": "One who limps - to limp.",
+          "zh": "跛行的人－跛行。",
+          "examples": [
+            {
+              "t": "Wada mpika ka xea",
+              "fr": "Il est parti en boitant.",
+              "en": "He went off limping.",
+              "zh": "他一瘸一拐地走了。"
+            },
+            {
+              "t": "mpika bi ka tlangan mo",
+              "fr": "Mon siège est boiteux (instable).",
+              "en": "My seat is wobbly (unstable).",
+              "zh": "我的椅子搖晃（不穩）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PILA",
+      "tag": "(R)",
+      "fr": "(nb. La langue Ami voisine ( la tribu des AMI) a peut être donné ce terme aux taroko qui ne semblent pas l'avoir connu; Aurait il eu comme signification première: le metal argent, qu'ils désignent aujourd'hui par le terme sino-japonais GIN ?) = Monnaie (aussi bien la pièce de monnaie que l'unité de base pour compter l'argent que l'argent lui même.)",
+      "en": "(n.b. The neighboring Ami language (the Ami tribe) may have given this term to the Taroko, who do not seem to have known it; might it have had as its original meaning: the metal silver, which they designate today by the Sino-Japanese term GIN?) = Money (both the coin, and the base unit for counting money, and money itself).",
+      "zh": "（註：鄰近的阿美語（阿美族）可能把這個詞給了原本似乎不認識它的太魯閣人；它最初的意思是否為：白銀這種金屬，也就是他們今天用日語漢字詞 GIN（銀）所指稱的？）＝ 錢（既指錢幣，也指計算金錢的基本單位，也指金錢本身）。",
+      "examples": [
+        {
+          "t": "Ongat pila mo da",
+          "fr": "Je n'ai plus d'argent.",
+          "en": "I have no more money.",
+          "zh": "我沒錢了。"
+        },
+        {
+          "t": "Ya pia pila ka kingal lubwi so",
+          "fr": "Combien coûte un de tes sacs ?",
+          "en": "How much does one of your sacks cost?",
+          "zh": "你的一袋多少錢？"
+        },
+        {
+          "t": "Lima pila lima boxo",
+          "fr": "Cinq dollars cinquante.",
+          "en": "Five dollars fifty.",
+          "zh": "五元五角。"
+        }
+      ]
+    },
+    {
+      "hw": "PIPI",
+      "tag": "(R)",
+      "fr": "Vulva - appareil génital féminin.",
+      "en": "Vulva - female genitalia.",
+      "zh": "陰戶－女性生殖器。",
+      "examples": []
+    },
+    {
+      "hw": "PISAO",
+      "tag": "(R)",
+      "fr": "Moineau .",
+      "en": "Sparrow.",
+      "zh": "麻雀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Ppisao",
+          "fr": "Les moineaux (pluriel).",
+          "en": "The sparrows (plural).",
+          "zh": "麻雀（複數）。",
+          "examples": [
+            {
+              "t": "M'xdo oqon ppisao ka maso mo",
+              "fr": "Mon millet jusqu'au dernier grain est la pâture des moineaux !",
+              "en": "My millet, down to the last grain, is fodder for the sparrows!",
+              "zh": "我的小米連最後一粒都成了麻雀的食物！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PISUX",
+      "tag": "(R)",
+      "fr": "Espèce de guêpe au corps très mince et allongé.",
+      "en": "A kind of wasp with a very thin and elongated body.",
+      "zh": "一種身體極為細長的胡蜂。",
+      "examples": []
+    },
+    {
+      "hw": "PITAI",
+      "tag": "(R)",
+      "fr": "Punaise.",
+      "en": "Bedbug.",
+      "zh": "臭蟲。",
+      "examples": [
+        {
+          "t": "Ppitai kana sxakao so da",
+          "fr": "Tout votre lit (=estrade en bambous ou en planches servant de lit) est plein de punaises.",
+          "en": "Your whole bed (=a bamboo or plank platform used as a bed) is full of bedbugs.",
+          "zh": "你們整張床（＝當作床用的竹製或木板搭的台子）都是臭蟲。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Spitai",
+          "fr": "Sentir la punaise - sentir mauvais.",
+          "en": "To smell of bedbugs - to smell bad.",
+          "zh": "有臭蟲味－發臭。",
+          "examples": []
+        },
+        {
+          "form": "Mspitai",
+          "fr": "Qui sent mauvais - qui sent la punaise.",
+          "en": "That which smells bad - which smells of bedbugs.",
+          "zh": "發臭的－有臭蟲味的。",
+          "examples": [
+            {
+              "t": "Ya ini so k'la k'nux ka iso! Mspitai bi kana ka sapax!",
+              "fr": "Je suppose que tu ne perçois pas les odeurs! Toute la maison sent vraiment mauvais !",
+              "en": "I suppose you can't smell odors! The whole house really stinks!",
+              "zh": "我想你聞不到氣味吧！整間屋子真的很臭！"
+            },
+            {
+              "t": "Ya oqe ka balong lodoç; mspitai da!",
+              "fr": "Ne mange pas ces oeufs; ils sont avariés.",
+              "en": "Don't eat these eggs; they are rotten.",
+              "zh": "別吃這些蛋；都壞了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PITO",
+      "tag": "(R)",
+      "fr": "Sept.",
+      "en": "Seven.",
+      "zh": "七。",
+      "examples": [
+        {
+          "t": "Maxal pito",
+          "fr": "Dix-sept.",
+          "en": "Seventeen.",
+          "zh": "十七。"
+        },
+        {
+          "t": "Pito m'xalan pito",
+          "fr": "Soixante-dix-sept.",
+          "en": "Seventy-seven.",
+          "zh": "七十七。"
+        },
+        {
+          "t": "Pito kbukwi",
+          "fr": "Sept cents.",
+          "en": "Seven hundred.",
+          "zh": "七百。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpito",
+          "fr": "Septième fois.",
+          "en": "Seventh time.",
+          "zh": "第七次。",
+          "examples": [
+            {
+              "t": "Mpito bi sayang da",
+              "fr": "Celle-ci est exactement la septième fois.",
+              "en": "This is exactly the seventh time.",
+              "zh": "這正好是第七次。"
+            },
+            {
+              "t": "Mnpito ka xea ole",
+              "fr": "Lui aussi (compte) déjà sept fois.",
+              "en": "He too has (counted) seven times already.",
+              "zh": "他也已經（數到）七次了。"
+            }
+          ]
+        },
+        {
+          "form": "Mkpito",
+          "fr": "Pendant sept jours - Cela fait sept fois.",
+          "en": "For seven days - that makes seven times.",
+          "zh": "七天－那算七次。",
+          "examples": [
+            {
+              "t": "Mnkpia so sapax Watan?",
+              "fr": "Combien de jours as tu passé chez Watan?",
+              "en": "How many days did you spend at Watan's?",
+              "zh": "你在瓦旦家住了幾天？"
+            },
+            {
+              "t": "Mnkpito ko balae",
+              "fr": "Je n'y suis resté que sept jours.",
+              "en": "I only stayed there seven days.",
+              "zh": "我只在那裡待了七天。"
+            }
+          ]
+        },
+        {
+          "form": "Kmpito",
+          "fr": "Sept jours de temps(dans le futur)(?).",
+          "en": "Seven days' time (in the future)(?).",
+          "zh": "七天的時間（未來）（？）。",
+          "examples": [
+            {
+              "t": "Mxa kmpito bi",
+              "fr": "Il ne reste plus que sept jours de temps.",
+              "en": "There are only seven days' time left.",
+              "zh": "只剩下七天的時間了。"
+            }
+          ]
+        },
+        {
+          "form": "Pnpito",
+          "fr": "Sept à chacun - par séries de sept.",
+          "en": "Seven to each - in series of seven.",
+          "zh": "每人七個－每七個一組。",
+          "examples": [
+            {
+              "t": "Asi ta pnpito spngan ka mxa toko da",
+              "fr": "A condition que nous acceptions (de fournir, de porter de recevoir..) sept mesures chacun, cela suffira.",
+              "en": "Provided that we agree (to supply, to carry, to receive..) seven measures each, that will suffice.",
+              "zh": "只要我們同意（提供、搬運、領取……）每人七份，就夠了。"
+            }
+          ]
+        },
+        {
+          "form": "Tipito",
+          "fr": "(Ti pito) = Le septième (dans la série).",
+          "en": "(Ti pito) = The seventh (in the series).",
+          "zh": "（Ti pito）＝ 第七個（在序列中）。",
+          "examples": [
+            {
+              "t": "Uxai iso ka tnlalae ! tipito nanak ka iso!",
+              "fr": "Tu n'es pas le premier, tu n'es que le septième !",
+              "en": "You are not the first, you are only the seventh!",
+              "zh": "你不是第一，你只是第七！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PKD'LA",
+      "tag": "( = R. ? - R. = DALA ?)",
+      "fr": "Torturer - faire souffrir.",
+      "en": "To torture - to make suffer.",
+      "zh": "折磨－使受苦。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mpkd'la",
+          "paradigm": "° Mpkd'la, pkd'la, Pkdlai, pkdlaan, pkdlaon.",
+          "fr": "Tortionnaire - Celui qui fait souffrir.",
+          "en": "Torturer - one who makes others suffer.",
+          "zh": "施虐者－使人受苦的人。",
+          "examples": [
+            {
+              "t": "Gaga kia ka mnpkd'la tmaan mo",
+              "fr": "Le voilà bien celui qui a torturé mon père (celui qui a fait souffrir mon père !)",
+              "en": "There he is, the very one who tortured my father (the one who made my father suffer!).",
+              "zh": "他就在那裡，正是折磨我父親的人（使我父親受苦的人！）。"
+            },
+            {
+              "t": "Ma\" so pkdlaon ka ludan so?",
+              "fr": "Pourquoi fais tu souffrir tes parents?",
+              "en": "Why do you make your parents suffer?",
+              "zh": "你為什麼讓你的父母受苦？"
+            },
+            {
+              "t": "Ma\" so pkdlaon ludan ka iso!",
+              "fr": "Ainsi donc tu es le souffre-douleur de tes parents ( celui que les parents font souffrir).",
+              "en": "So then you are the whipping-boy of your parents (the one whom the parents make suffer).",
+              "zh": "這麼說來你是父母的出氣筒（被父母折磨的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Kmpkd'la",
+          "fr": "Avoir l'intention de faire souffrir.",
+          "en": "To intend to make suffer.",
+          "zh": "有意使人受苦。",
+          "examples": [
+            {
+              "t": "Ima ka kmpkd'la sunan",
+              "fr": "Qui est ce qui prend plaisir à te faire souffrir !",
+              "en": "Who is it that takes pleasure in making you suffer!",
+              "zh": "是誰以折磨你為樂！"
+            }
+          ]
+        },
+        {
+          "form": "Pnkdlaan",
+          "fr": "Souffrances, tortures subies.",
+          "en": "Sufferings, tortures endured.",
+          "zh": "所受的苦難、折磨。",
+          "examples": [
+            {
+              "t": "Ini ta k'la smpu ka ndaan mo ana manu pnkdlaan",
+              "fr": "Elles sont innombrables les souffrances que j'ai subies.",
+              "en": "The sufferings I have endured are innumerable.",
+              "zh": "我所受的苦難不計其數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PLAQAT",
+      "tag": "(R. = LAQAT)",
+      "fr": "Herser. (nb. Consiste à délayer les mottes dans l'eau de la rizière ou à effriter celles des champs ordinaires, mais ce dernier cas ne se produit presque jamais chez les taroko, étant donné que leurs champs sont en pente raide en général.",
+      "en": "To harrow. (n.b. It consists of breaking up the clods in the water of the paddy field, or of crumbling those of ordinary fields, but this latter case almost never occurs among the Taroko, given that their fields are generally on steep slopes.)",
+      "zh": "耙田。（註：即在水田的水中把土塊化開，或把旱田的土塊弄碎，但後者在太魯閣人中幾乎從不發生，因為他們的田一般都在陡坡上。）",
+      "examples": []
+    },
+    {
+      "hw": "PLILYEX",
+      "tag": "( = R. ? - R. = LILYEX ? - R. = LILEX ? )",
+      "fr": "Redonner - restituer - rendre.",
+      "en": "To give back - to return - to hand back.",
+      "zh": "歸還－償還－交還。",
+      "examples": [
+        {
+          "t": "Naqex ka didensya no ! Saon no plilyes!",
+          "fr": "Ma bicyclette ne marche pas, je veux aller la rendre (à celui qui me l'a vendue, ou prêtée)",
+          "en": "My bicycle doesn't work, I want to go and return it (to the one who sold or lent it to me).",
+          "zh": "我的腳踏車壞了，我想去把它還（給賣給我或借給我的人）。"
+        },
+        {
+          "t": "Miyax ko plilyex kusa no",
+          "fr": "Je viens rendre mes dettes .",
+          "en": "I come to repay my debts.",
+          "zh": "我來償還我的債。"
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

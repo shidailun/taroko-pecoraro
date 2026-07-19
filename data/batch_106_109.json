@@ -1,0 +1,793 @@
+{
+  "pages": [106, 109],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "... nii",
+        "fr": "Ce livre est l'un des nôtres.",
+        "en": "This book is one of ours.",
+        "zh": "這本書是我們的其中一本。"
+      },
+      {
+        "t": "Nn'ita suxal ka kmpaxan kia",
+        "fr": "Les champs dont tu parles étaient à nous autrefois.",
+        "en": "The fields you speak of used to belong to us.",
+        "zh": "你所說的那些田地從前是我們的。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Dita (D'ita)",
+        "fr": "Des nôtres - de notre groupe.",
+        "en": "One of ours - of our group.",
+        "zh": "我們的人——我們群體的。",
+        "examples": [
+          {
+            "t": "D'ita nanak ka Timing",
+            "fr": "Tchiminu est bien notre parente.",
+            "en": "Timing is indeed our relative.",
+            "zh": "Timing 確實是我們的親人。"
+          }
+        ]
+      },
+      {
+        "form": "Ddita",
+        "fr": "Tous les nôtres.",
+        "en": "All of our own people.",
+        "zh": "我們全體自己人。",
+        "examples": [
+          {
+            "t": "Ddita nanak ka kgoxon mo",
+            "fr": "Je ne veux inviter que les nôtres.",
+            "en": "I want to invite only our own people.",
+            "zh": "我只想邀請我們自己的人。"
+          }
+        ]
+      },
+      {
+        "form": "Sdita",
+        "fr": "Faire pour être de notre groupe.",
+        "en": "To act so as to be part of our group.",
+        "zh": "設法成為我們群體的一員。",
+        "examples": [
+          {
+            "t": "Ini sdita ka Liqao",
+            "fr": "Liqao ne me (ne nous) fréquente pas.",
+            "en": "Liqao does not associate with me (with us).",
+            "zh": "Liqao 不與我（我們）來往。"
+          }
+        ]
+      },
+      {
+        "form": "Msdita",
+        "fr": "Qui est sociable - qui est sympathisant - qui nous fréquente.",
+        "en": "Sociable - friendly - one who associates with us.",
+        "zh": "善於交際的——友好的——與我們來往的。",
+        "examples": [
+          {
+            "t": "Msdita balae ka Pixan, Pinang ka ini xali sdita",
+            "fr": "Pirhanne est très sociable; c'est Pinang qui ne l'est pas.",
+            "en": "Pirhanne is very sociable; it is Pinang who is not.",
+            "zh": "Pirhanne 非常善於交際；不合群的是 Pinang。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "ITYEX",
+      "tag": "",
+      "fr": "Donne un peu - un peu - un tout petit peu. Vr. TYEX.",
+      "en": "Give a little - a little - a tiny little bit. See TYEX.",
+      "zh": "給一點——一點——一點點。參見 TYEX。",
+      "examples": [
+        {
+          "t": "I tyex pila so",
+          "fr": "Tu me donne un peu de ton argent ! ?",
+          "en": "You give me a little of your money!?",
+          "zh": "你給我一點你的錢！？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IXAN",
+      "tag": "(IçAN)",
+      "fr": "Insistance. Vr. IYUX.",
+      "en": "Insistence. See IYUX.",
+      "zh": "堅持。參見 IYUX。",
+      "examples": [
+        {
+          "t": "Ini bi soa ! Ongat içan !",
+          "fr": "Il ne veut absolument pas, inutile d'insister.",
+          "en": "He absolutely refuses; there is no point insisting.",
+          "zh": "他絕對不肯，再堅持也沒有用。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IXOL",
+      "tag": "(R. très peu probable de: MIXOL.)",
+      "fr": "Amer. Vr. NIXOL.",
+      "en": "(Very improbable root of: MIXOL.) Bitter. See NIXOL.",
+      "zh": "（不太可能是 MIXOL 的詞根。）苦的。參見 NIXOL。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "IYAQ",
+      "tag": "(Serait ce la R. de MIYAQ ?)",
+      "fr": "Travail des champs. Vr. MIYAQ.",
+      "en": "(Could this be the root of MIYAQ?) Field work. See MIYAQ.",
+      "zh": "（這會是 MIYAQ 的詞根嗎？）田裡的工作。參見 MIYAQ。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "IYAX",
+      "tag": "(R)",
+      "fr": "Venir - venez - viens - ressource, - interstice.",
+      "en": "To come - come (you all) - come - resource, - gap.",
+      "zh": "來——你們來——你來——資源——間隙。",
+      "examples": [
+        {
+          "t": "Iyax sapax n'xali da",
+          "fr": "Viens vite à la maison.",
+          "en": "Come quickly to the house.",
+          "zh": "快來家裡。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Miyax",
+          "paradigm": "°Miyax, iyax, yaxe, yaxan, yaxon.",
+          "fr": "Venir - être celui qui vient.",
+          "en": "To come - to be the one who comes.",
+          "zh": "來——是前來的那個人。",
+          "examples": [
+            {
+              "t": "Miyax ko toxoi nanak",
+              "fr": "Je viens seulement en visite (me promener).",
+              "en": "I am only coming for a visit (for a stroll).",
+              "zh": "我只是來走走（散步）而已。"
+            },
+            {
+              "t": "Yaxe ko bi dmayao",
+              "fr": "Il faut absolument que tu viennes m'aider.",
+              "en": "You absolutely must come and help me.",
+              "zh": "你一定要來幫我。"
+            },
+            {
+              "t": "Miyax daxa pila da",
+              "fr": "Il manque encore deux pièces (d'argent).",
+              "en": "Two coins (of money) are still missing.",
+              "zh": "還差兩枚錢幣。"
+            }
+          ]
+        },
+        {
+          "form": "Mmiyax (mmayax)",
+          "fr": "Au moment du venir - sur le point de venir.",
+          "en": "At the moment of coming - about to come.",
+          "zh": "正要來的時候——即將到來。",
+          "examples": [
+            {
+              "t": "Pida bi mmiyax ko dole sida",
+              "fr": "Juste au moment de mon voyage de retour.",
+              "en": "Just at the moment of my return journey.",
+              "zh": "正當我踏上回程的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Yaxan",
+          "fr": "La venue - le temps de la venue.",
+          "en": "The coming - the time of the coming.",
+          "zh": "到來——到來的時間。",
+          "examples": [
+            {
+              "t": "Manu bi ka yaxan so miin kari",
+              "fr": "Qu'est ce qui t'a pris de venir chercher querelle (chercher un motif de discorde).",
+              "en": "What got into you, coming to pick a quarrel (to look for a cause of discord)?",
+              "zh": "你怎麼會來尋釁（來找爭端的理由）？"
+            },
+            {
+              "t": "Apai, kika yaxan mo mita",
+              "fr": "Apai, voilà celle que je suis venu voir. (que je viens voir).",
+              "en": "Apai, there is the one I have come to see (whom I am coming to see).",
+              "zh": "Apai，那就是我來看的人（我要來看的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Nyaxan",
+          "fr": "La venue (but, temps) dans le passé.",
+          "en": "The coming (purpose, time) in the past.",
+          "zh": "（過去的）到來（目的、時間）。",
+          "examples": [
+            {
+              "t": "Labai ka nyaxan mo mita sndurai",
+              "fr": "C'est Labai que je suis venu voir dernièrement.",
+              "en": "It is Labai whom I came to see recently.",
+              "zh": "我最近來看的是 Labai。"
+            }
+          ]
+        },
+        {
+          "form": "Yiaxan (Yeyaxan)",
+          "fr": "La venue, l'arrivée (future).",
+          "en": "The (future) coming, arrival.",
+          "zh": "（未來的）到來、抵達。",
+          "examples": [
+            {
+              "t": "Smiyax nami balae ka yiaxan tama ta",
+              "fr": "Nous attendons avec impatience la venue de papa.",
+              "en": "We are eagerly awaiting Dad's coming.",
+              "zh": "我們熱切等待爸爸的到來。"
+            }
+          ]
+        },
+        {
+          "form": "Yiaxon",
+          "fr": "Le futur - ce qui doit venir - l'avenir - l'à venir.",
+          "en": "The future - what is to come - the time to come - the hereafter.",
+          "zh": "未來——將要來的事——將來——未來之事。",
+          "examples": [
+            {
+              "t": "Ya bi manu ka yiaxon da o, ini ta k'lae",
+              "fr": "Qu'est ce que peut bien être ce qui arrivera, nous ne le savons pas.",
+              "en": "What may come to pass, we do not know.",
+              "zh": "將來會發生什麼，我們無從知道。"
+            }
+          ]
+        },
+        {
+          "form": "Mmaiyax",
+          "fr": "Etre sur le point de venir.",
+          "en": "To be about to come.",
+          "zh": "即將到來。",
+          "examples": []
+        },
+        {
+          "form": "P'iyax",
+          "paradigm": "°Mp'iyax, p'iyax, pyaxe, pyaxan, pyaxon.",
+          "fr": "Faire venir.",
+          "en": "To make come - to send for.",
+          "zh": "使前來——叫人來。",
+          "examples": [
+            {
+              "t": "Pyaxe ko lima xei ka saman",
+              "fr": "Demain, fais moi venir cinq personnes.",
+              "en": "Tomorrow, have five people come to me.",
+              "zh": "明天給我叫五個人來。"
+            },
+            {
+              "t": "pyaxon miso saman ka laqe",
+              "fr": "Je ferai venir les enfants demain.",
+              "en": "I will have the children come tomorrow.",
+              "zh": "我明天會叫孩子們來。"
+            },
+            {
+              "t": "Psaon miso saman ka patas",
+              "fr": "Je te ferai parvenir le livre demain (il ne marche pas, donc: non pas PYAXON mais: PSAON.",
+              "en": "I will have the book delivered to you tomorrow (it does not work here, so: not PYAXON but: PSAON).",
+              "zh": "我明天會把書送到你那裡（此處不能用 PYAXON，而要用 PSAON）。"
+            },
+            {
+              "t": "Kia ka pnyaxan ko na ka tama",
+              "fr": "Voilà la raison pourquoi mon père m'a fait venir.",
+              "en": "That is the reason why my father sent for me.",
+              "zh": "那就是我父親叫我來的原因。"
+            }
+          ]
+        },
+        {
+          "form": "Smiyax",
+          "fr": "Faire pour que vienne - attendre - désirer la venue.",
+          "en": "To act so that someone comes - to wait for - to long for someone's coming.",
+          "zh": "設法使人前來——等候——盼望到來。",
+          "examples": [
+            {
+              "t": "Ma so sao sndamat ! Smiyax nami balae sunan",
+              "fr": "Quelle joie (vraiment tu nous a rendus comme nostalgiques) ! Nous t'attendons vraiment.",
+              "en": "What joy (you have truly made us long for you)! We are really waiting for you.",
+              "zh": "多麼高興（你真使我們想念你）！我們真的在等你。"
+            }
+          ]
+        },
+        {
+          "form": "Smyaxan",
+          "fr": "Attente.",
+          "en": "Waiting - expectation.",
+          "zh": "等待。",
+          "examples": [
+            {
+              "t": "Pida bi smyaxan daxa Sibal sida",
+              "fr": "Juste au moment où ils attendaient Sibal.",
+              "en": "Just at the moment when they were waiting for Sibal.",
+              "zh": "正當他們在等 Sibal 的時候。"
+            },
+            {
+              "t": "Smyaxon so daxa balae",
+              "fr": "Tu es vraiment très attendu par eux.",
+              "en": "You are truly much awaited by them.",
+              "zh": "他們真的非常期待你來。"
+            }
+          ]
+        },
+        {
+          "form": "Psmiyax",
+          "fr": "Se faire attendre - se faire désirer.",
+          "en": "To keep people waiting - to make oneself longed for.",
+          "zh": "讓人久等——讓人想念。",
+          "examples": [
+            {
+              "t": "Bsiyaq so bi pnsmiyax mnan",
+              "fr": "Tu t'es fait longtemps désirer par nous !",
+              "en": "You kept us longing for you for a long time!",
+              "zh": "你讓我們想念了好久！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "IYAX",
+      "tag": "",
+      "fr": "1) Entrée - revenu - ressources. 2) Espace libre entre deux points. (nb. Sans doute ces deux sens dérivent directement de IYAX = Venir). Vr. YAX.",
+      "en": "1) Income - revenue - resources. 2) Free space between two points. (n.b. No doubt these two senses derive directly from IYAX = to come). See YAX.",
+      "zh": "1）收入——收益——資源。2）兩點之間的空隙。（註：這兩個意思無疑都直接源自 IYAX＝來。）參見 YAX。",
+      "examples": [
+        {
+          "t": "Ongat bi iyax na sayang",
+          "fr": "Pour le moment il n'a pas du tout de ressources.",
+          "en": "For the moment he has no resources at all.",
+          "zh": "目前他毫無資財。"
+        },
+        {
+          "t": "Nyeqan paro bi iyax ka pnsmukan so ktinox",
+          "fr": "Il y a un bien grand espace (une fente) entre les planches que tu as clouées.",
+          "en": "There is a very large gap (a crack) between the boards you nailed.",
+          "zh": "你釘的木板之間有一道很大的縫隙。"
+        },
+        {
+          "t": "Sai mxoma beilox ka iyax sqmo",
+          "fr": "Va planter des haricots dans l'espace entre les pieds de maïs.",
+          "en": "Go plant beans in the space between the maize plants.",
+          "zh": "去玉米株之間的空地種豆子。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IYUP",
+      "tag": "(YUP ?) (R)",
+      "paradigm": "° Miyup, iyup, yupi, yupan, yupun.",
+      "fr": "Souffler. (nb. par extension = éteindre). Vr. YUP.",
+      "en": "To blow. (n.b. by extension = to extinguish). See YUP.",
+      "zh": "吹。（註：引申為「熄滅」。）參見 YUP。",
+      "examples": [
+        {
+          "t": "Mkp'xeng ka taxot; yupi binao",
+          "fr": "Le feu est en train de s'éteindre, souffle donc un peu!",
+          "en": "The fire is going out; blow on it a little!",
+          "zh": "火快熄了，快吹一吹！"
+        },
+        {
+          "t": "Yupun mo kia ka losok",
+          "fr": "J'éteindrai la bougie tout à l'heure.",
+          "en": "I will blow out the candle in a moment.",
+          "zh": "我待會兒會把蠟燭吹熄。"
+        },
+        {
+          "t": "Baka bi yupan da",
+          "fr": "Il est temps d'éteindre.",
+          "en": "It is time to put it out.",
+          "zh": "該熄滅了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "IYUX",
+      "tag": "(R)",
+      "fr": "Insister pour - avec le grand désir de.",
+      "en": "To insist on - with the great desire to.",
+      "zh": "堅持要——極其渴望。",
+      "examples": [
+        {
+          "t": "Kmstloon ko bi ka yako",
+          "fr": "Moi, je voudrais bien me marier.",
+          "en": "As for me, I would really like to get married.",
+          "zh": "我啊，很想結婚。"
+        },
+        {
+          "t": "Kmpstlngun na bi laqe na ka Iwal",
+          "fr": "Ioual aimerait bien marier son fils.",
+          "en": "Ioual would very much like to marry off his son.",
+          "zh": "Iwal 很想讓兒子成婚。"
+        },
+        {
+          "t": "Iyux saangal na mkpax",
+          "fr": "pour pouvoir prendre una ouvrière (à son profit).",
+          "en": "in order to be able to take a working woman (for his own benefit).",
+          "zh": "為了能娶到一個（為他）做工的女子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Içan",
+          "fr": "Insistance.",
+          "en": "Insistence.",
+          "zh": "堅持。",
+          "examples": [
+            {
+              "t": "Ana ko kmpstloong laqe o , ongat içan",
+              "fr": "J'ai beau vouloir (désirer) marier mon fils, mais c'est inutile de trop insister (de l'obliger).",
+              "en": "However much I want (desire) to marry off my son, it is useless to insist too much (to force him).",
+              "zh": "儘管我想（希望）讓兒子成婚，但過分堅持（強迫他）是沒有用的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K",
+      "tag": "",
+      "fr": "Affixe, préfixé ou infixé à une base verbale d'état ou d'action, pour la charger d'une idée de tendance, de disposition à être ou à réaliser le message de la base; de souhait, de désir d'être ou d'agir. Cette affixation intervient dans deux cas apparemment divers. 1) K indique le désir de, la tendance à; le plus souvent conjugué avec l'affixe M ; § Musa = aller; Kmusa = désirer aller; mkmusa = être celui qui désire aller. § Smalu = construire; Kmsalu = désirer construire; mkmsalu = être celui qui désire construire. 2) K prend la place du préfixe M dans les bases verbales d'état qui le comportent, ou est préfixé à la base simple qui ne le demande pas, Et cela pour rendre impérative la base verbale d'état, ou dans le cas où elle est niée par la négation INI qui la précède. § Paro = grand Kparo = sois grand; ini kparo = n'est pas grand. (nb. Pour plus d'explications, voir l'index grammatical.).",
+      "en": "Affix, prefixed or infixed to a verbal base of state or action, to charge it with an idea of tendency, of disposition to be or to carry out the message of the base; of wish, of desire to be or to act. This affixation occurs in two apparently distinct cases. 1) K indicates the desire to, the tendency to; most often conjugated with the affix M; § Musa = to go; Kmusa = to want to go; mkmusa = to be the one who wants to go. § Smalu = to build; Kmsalu = to want to build; mkmsalu = to be the one who wants to build. 2) K takes the place of the prefix M in verbal bases of state that have it, or is prefixed to the simple base that does not require it, and this in order to make the verbal base of state imperative, or in the case where it is negated by the negation INI which precedes it. § Paro = big; Kparo = be big; ini kparo = is not big. (n.b. For more explanations, see the grammatical index.).",
+      "zh": "詞綴，加於表狀態或動作的動詞詞基之前或之中，使其帶有傾向、意欲成為或實現詞基所表意義的意思；即願望、想要成為或想要行動的意思。這種加綴出現在兩種看似不同的情況。1）K 表示想要、傾向於；最常與詞綴 M 一起變位；§ Musa＝去；Kmusa＝想去；mkmusa＝是想去的人。§ Smalu＝建造；Kmsalu＝想建造；mkmsalu＝是想建造的人。2）在帶有前綴 M 的狀態動詞詞基中，K 取代 M；或加在本不需要它的單純詞基之前，以使狀態動詞詞基成為命令式，或用於其前有否定詞 INI 加以否定的情況。§ Paro＝大；Kparo＝要大；ini kparo＝不大。（註：詳見文法索引。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KA",
+      "tag": "",
+      "fr": "Particule invariable, très usitée, précédant le groupe sujet en le mettant en évidence ( ou: Suivant le groupe prédicat ?).",
+      "en": "Invariable particle, very widely used, preceding the subject group and putting it in relief (or: following the predicate group?).",
+      "zh": "不變化的助詞，使用極廣，置於主語詞組之前以突顯之（或說：跟在謂語詞組之後？）。",
+      "examples": [
+        {
+          "t": "Yako ka malu",
+          "fr": "Le bon, c'est moi.",
+          "en": "The good one is me.",
+          "zh": "好的（人）是我。"
+        },
+        {
+          "t": "Malu ka yako",
+          "fr": "Moi, je suis bien.",
+          "en": "As for me, I am well.",
+          "zh": "我呢，我很好。"
+        },
+        {
+          "t": "Kia o, mbanax",
+          "fr": "Celà, c'est rouge.",
+          "en": "That is red.",
+          "zh": "那個是紅的。"
+        },
+        {
+          "t": "Kia ka mbanax",
+          "fr": "C'est celui là, le rouge.",
+          "en": "It is that one, the red one.",
+          "zh": "紅的是那一個。"
+        },
+        {
+          "t": "Saon miso mangal ka saman",
+          "fr": "Demain c'est le jour où je veux aller te chercher.",
+          "en": "Tomorrow is the day I want to go and fetch you.",
+          "zh": "明天就是我要去接你的日子。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KAGOX",
+      "tag": "(R)",
+      "fr": "Inviter - faire venir - appeler.",
+      "en": "To invite - to make come - to call.",
+      "zh": "邀請——使前來——呼喚。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmagox",
+          "paradigm": "°Kmagox, kagox, kgoxe, kgoxan, kgoxon.",
+          "fr": "Inviter.",
+          "en": "To invite.",
+          "zh": "邀請。",
+          "examples": [
+            {
+              "t": "Saon mo kmagox Ka Komù yyax na mqan lae laqe mo",
+              "fr": "Je veux aller inviter Comou pour qu'elle vienne prendre part (manger) aux noces de mon fils.",
+              "en": "I want to go and invite Komù so that she may come take part in (eat at) my son's wedding.",
+              "zh": "我要去邀請 Komù，請她來參加（吃）我兒子的婚宴。"
+            }
+          ]
+        },
+        {
+          "form": "Kgoxan",
+          "fr": "Invitation - invité (en fait) - Temps de l'invitation.",
+          "en": "Invitation - (actually) invited - time of the invitation.",
+          "zh": "邀請——（實際）受邀——邀請的時間。",
+          "examples": [
+            {
+              "t": "Pia xei ka kngoxan so?",
+              "fr": "Combien de personnes as tu invité ?",
+              "en": "How many people have you invited?",
+              "zh": "你邀請了幾個人？"
+            }
+          ]
+        },
+        {
+          "form": "Kgoxon",
+          "fr": "Invités (futurs).",
+          "en": "(Future) invitees.",
+          "zh": "（將受邀的）客人。",
+          "examples": [
+            {
+              "t": "Kgoxon miso saman msoopu dxeaan",
+              "fr": "Je t'inviterai demain en même temps qu'eux.",
+              "en": "I will invite you tomorrow at the same time as them.",
+              "zh": "我明天會和他們一起邀請你。"
+            }
+          ]
+        },
+        {
+          "form": "Knagox",
+          "fr": "Celui (ceux) qui a été invité.",
+          "en": "The one(s) who has been invited.",
+          "zh": "已受邀的人。",
+          "examples": [
+            {
+              "t": "Kmnagox ko maxal daxa xei ni, maspat bi miyax ka knagox mo",
+              "fr": "J'ai invité douze personnes et huit de ceux que j'avais invités (huit de mes invités) sont venus.",
+              "en": "I invited twelve people, and eight of those I had invited (eight of my guests) came.",
+              "zh": "我邀請了十二個人，受邀的人當中來了八位（我的八位客人來了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KAKOX",
+      "tag": "(R)",
+      "fr": "Espèce de Zoccoli à l'italienne: semelle en bois plus ceinture.",
+      "en": "A kind of Italian-style zoccoli (clogs): wooden sole plus a strap.",
+      "zh": "一種義大利式木屐（Zoccoli）：木底加繫帶。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KALA",
+      "tag": "(R)",
+      "fr": "Monter - dépasser - surpasser.",
+      "en": "To go up - to exceed - to surpass.",
+      "zh": "上升——超過——勝過。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkala",
+          "fr": "Monter - dépasser.",
+          "en": "To go up - to exceed.",
+          "zh": "上升——超過。",
+          "examples": [
+            {
+              "t": "Wada mkala Tagaxan balao ka Kadi",
+              "fr": "Cadji est partie pour monter à Tagaxan du haut.",
+              "en": "Kadi has left to go up to upper Tagaxan.",
+              "zh": "Kadi 已動身要上到上方的 Tagaxan。"
+            }
+          ]
+        },
+        {
+          "form": "Mgkala",
+          "fr": "qui dépasse - qui surpasse.",
+          "en": "that exceeds - that surpasses.",
+          "zh": "超過的——勝過的。",
+          "examples": [
+            {
+              "t": "Sao paro tunux o, mgkala ka Pixan",
+              "fr": "Comme savant, Pirhanne (le) dépasse.",
+              "en": "As a scholar, Pirhanne surpasses (him).",
+              "zh": "論學識，Pirhanne 勝過（他）。"
+            }
+          ]
+        },
+        {
+          "form": "Pgkala",
+          "fr": "Faire dépasser - faire que celà dépasse (en hauteur).",
+          "en": "To make exceed - to make it go beyond (in height).",
+          "zh": "使超過——使其（在高度上）超出。",
+          "examples": []
+        },
+        {
+          "form": "Nklaan (N'gk'laan ?)",
+          "fr": "La montée (faite).",
+          "en": "The (completed) climb.",
+          "zh": "（已完成的）攀登。",
+          "examples": []
+        },
+        {
+          "form": "Knklaan (Knk'laan)",
+          "fr": "Montée - dépassement - ascension.",
+          "en": "Climb - overtaking - ascent.",
+          "zh": "攀登——超越——登高。",
+          "examples": [
+            {
+              "t": "Tayal kmalu ka knk'laan ta pnpong dgiyaq suxal",
+              "fr": "Comme elle était merveilleuse no ascension (notre montée au sommet) de la montagne autrefois !",
+              "en": "How marvelous our ascent (our climb to the summit) of the mountain was in the old days!",
+              "zh": "從前我們攀登（登上山頂）那座山是多麼美妙啊！"
+            }
+          ]
+        },
+        {
+          "form": "Pgklaan",
+          "fr": "dépassement, surpassement (provoqués).",
+          "en": "overtaking, surpassing (brought about).",
+          "zh": "（被促成的）超越、勝過。",
+          "examples": [
+            {
+              "t": "Ongat pgklaan",
+              "fr": "Non dépassé (non dépassable) - Le très haut - le supérieur (incontesté).",
+              "en": "Not surpassed (unsurpassable) - the Most High - the (uncontested) superior.",
+              "zh": "未被超越（不可超越）——至高者——（無可爭議的）在上者。"
+            },
+            {
+              "t": "Laqe balae ongat pgklaan Tama ka Yesu",
+              "fr": "Jesus est le vrai fils du Père qui est au dessus de tout.",
+              "en": "Jesus is the true son of the Father who is above all.",
+              "zh": "耶穌是超乎萬有之上的父的真兒子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KALAO",
+      "tag": "(R)",
+      "fr": "Grimper sur - monter sur.",
+      "en": "To climb on - to get up on.",
+      "zh": "攀上——爬上。",
+      "examples": [
+        {
+          "t": "Ini ko kalao pusu sosidyu so",
+          "fr": "Je ne grimpe pas sur ton mimosa.",
+          "en": "I will not climb your mimosa tree.",
+          "zh": "我不爬你的相思樹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmalao",
+          "paradigm": "°Kmalao, kalao, klagi, klagan, klagun.",
+          "fr": "grimper sur.",
+          "en": "to climb on.",
+          "zh": "攀上。",
+          "examples": [
+            {
+              "t": "Dyagi ko kmalao qouni nii ssilaq so sîda nia",
+              "fr": "Rend moi le service de grimper sur cet arbre pour couper ses branches.",
+              "en": "Do me the favor of climbing this tree to cut off its branches.",
+              "zh": "請幫我爬上這棵樹砍下它的枝條。"
+            }
+          ]
+        },
+        {
+          "form": "Mkalao",
+          "fr": "Monté sur - grimpé sur.",
+          "en": "Climbed up on - perched on.",
+          "zh": "爬上了——攀在上面。",
+          "examples": [
+            {
+              "t": "Diyax diyax ida mkalao pusu qouni ka laqe so",
+              "fr": "Jour après jours ton fils est grimpé sur les arbres.",
+              "en": "Day after day your son is up in the trees.",
+              "zh": "你兒子天天爬在樹上。"
+            }
+          ]
+        },
+        {
+          "form": "Pkalao",
+          "fr": "Faire monter sur (en grimpant).",
+          "en": "To make (someone) climb up on.",
+          "zh": "使攀爬上去。",
+          "examples": [
+            {
+              "t": "Pklagun mo dnamux sapax ka kana lqlaqe matas",
+              "fr": "Je ferai grimper sur le toit de la maison tous les élèves.",
+              "en": "I will have all the pupils climb onto the roof of the house.",
+              "zh": "我會讓所有學生爬上屋頂。"
+            }
+          ]
+        },
+        {
+          "form": "Klagan",
+          "fr": "La montée sur - Temps, lieu de montée.",
+          "en": "The climbing on - time, place of climbing.",
+          "zh": "攀登——攀登的時間、地點。",
+          "examples": [
+            {
+              "t": "Malu bi klagan ka pusu sbeki",
+              "fr": "L'aréquier est (un arbre) facile à escalader.",
+              "en": "The areca palm is (a tree that is) easy to climb.",
+              "zh": "檳榔樹是容易攀爬的（樹）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KALAO",
+      "tag": "(QALAO est plus probable)",
+      "crossRef": "QALAO",
+      "fr": "Purifier - mettre en ordre. Vr. QALAO.",
+      "en": "(QALAO is more probable.) To purify - to put in order. See QALAO.",
+      "zh": "（更可能是 QALAO。）淨化——整理。參見 QALAO。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KALAT",
+      "tag": "(R)",
+      "fr": "Ciel - atmosphère.",
+      "en": "Sky - atmosphere.",
+      "zh": "天空——大氣。",
+      "examples": [
+        {
+          "t": "Ana d'xgal, ana kalat, ana manu bi o, ida tnunan Otoç balao kana",
+          "fr": "Que ce soit la terre, que ce soit le ciel, que ce soit absolument tout, tout a été tissé (crée) par l'Esprit d'en haut.",
+          "en": "Whether it be the earth, whether it be the sky, whether it be absolutely everything, all was woven (created) by the Spirit on high.",
+          "zh": "無論是地，無論是天，無論是一切萬有，都是上天之靈所織成（創造）的。"
+        },
+        {
+          "t": "Kana d'xgal ni kalat o, txngayan daxo so",
+          "fr": "Toute la terre et tout le ciel sont remplis de ta gloire.",
+          "en": "All the earth and all the sky are filled with your glory.",
+          "zh": "整個大地和整個天空都充滿你的榮耀。"
+        },
+        {
+          "t": "Malu kalat",
+          "fr": "Beau temps.",
+          "en": "Fine weather.",
+          "zh": "好天氣。"
+        },
+        {
+          "t": "Naqex kalat",
+          "fr": "Mauvais temps.",
+          "en": "Bad weather.",
+          "zh": "壞天氣。"
+        },
+        {
+          "t": "Kalat bi ka sayang",
+          "fr": "Aujourd'hui il fait chaud.",
+          "en": "Today it is hot.",
+          "zh": "今天天氣熱。"
+        },
+        {
+          "t": "Paro kalat da",
+          "fr": "Il fait grand beau temps.",
+          "en": "The weather is very fine.",
+          "zh": "天氣非常晴朗。"
+        },
+        {
+          "t": "Miyax so saman? ... Asi ka kalat",
+          "fr": "Tu viens demain ? ... Cela dépend du temps",
+          "en": "Are you coming tomorrow? ... That depends on the weather.",
+          "zh": "你明天來嗎？……那要看天氣。"
+        },
+        {
+          "t": "Ida pax kalat ka oqon",
+          "fr": "Notre récolte est tributaire du temps.",
+          "en": "Our harvest depends on the weather.",
+          "zh": "我們的收成取決於天氣。"
+        }
+      ],
+      "subs": []
+    }
+  ]
+}

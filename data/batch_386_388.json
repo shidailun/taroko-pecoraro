@@ -1,0 +1,551 @@
+{
+  "pages": [386, 388],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Smn\"lo",
+        "fr": "Qui de fait transmet, annonce, fait part.",
+        "en": "Who in fact transmits, announces, makes (something) known.",
+        "zh": "確實傳達、宣布、告知者。",
+        "examples": [
+          {
+            "t": "Ima ka smn\"lo sunan kana ndaan d'xa?",
+            "fr": "Qui est-ce donc qui t'a appris tout ce qu'ils ont fait (tous leurs faits et gestes!)?",
+            "en": "Who then is it that told you all that they did (all their deeds and doings!)?",
+            "zh": "那麼是誰把他們所做的一切（他們的一舉一動！）都告訴你的呢？"
+          }
+        ]
+      },
+      {
+        "form": "P\"lo",
+        "fr": "Provoquer la contamination - se faire contaminer.",
+        "en": "To cause contamination - to get oneself infected.",
+        "zh": "引起傳染－使自己受到傳染。",
+        "examples": [
+          {
+            "t": "Ya usa sapax d'xa aadi so muda p\"lo naqex bi mnalox d'xa",
+            "fr": "Ne va pas chez eux pour ne pas te faire contaminer par leur grave maladie.",
+            "en": "Do not go to their house, so as not to be infected by their serious illness.",
+            "zh": "不要去他們家，以免被他們的重病傳染。"
+          }
+        ]
+      },
+      {
+        "form": "Psn\"lo",
+        "fr": "Faire annoncer - faire transmettre - faire savoir.",
+        "en": "To have (something) announced - to have (it) transmitted - to make (it) known.",
+        "zh": "使人宣布－使人傳達－使人知曉。",
+        "examples": [
+          {
+            "t": "Mxa ko xeaan psn\"lo tityex sao nkari d'xa",
+            "fr": "Je vais chez lui, ne faire mettre au courant de ce qu'ils ont dit.",
+            "en": "I am going to his place to have (myself) informed of what they said.",
+            "zh": "我要去他那裡，讓人把他們所說的話告知（我）。"
+          },
+          {
+            "t": "Psn\"loon (psnloon ?) mo kana l'alang ka suyang bi kari nii",
+            "fr": "Je veux faire annoncer partout cette bonne nouvelle.",
+            "en": "I want to have this good news announced everywhere.",
+            "zh": "我想把這個好消息傳遍各處。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "\"LÖT",
+      "tag": "(R)",
+      "fr": "Poutre - traverse - colonne.",
+      "en": "Beam - crossbeam - column (pillar).",
+      "zh": "梁－橫梁－柱子。",
+      "examples": [
+        {
+          "t": "Mnsa ko psnama kingal q'löt malu qq'löt no kana \"löt sapax no bulax",
+          "fr": "Je suis allé préparer une bonne scie pour scier toutes les poutres de ma nouvelle maison.",
+          "en": "I went to prepare a good saw to saw all the beams of my new house.",
+          "zh": "我去準備了一把好鋸子，好鋸開我新房子的所有梁木。"
+        }
+      ]
+    },
+    {
+      "hw": "\"LU",
+      "tag": "(R)",
+      "fr": "Route - passage - sens - méthode.",
+      "en": "Road - passage - sense (meaning) - method.",
+      "zh": "路－通道－道理（意義）－方法。",
+      "examples": [
+        {
+          "t": "Muda ko \"lu daya ka yako",
+          "fr": "Moi je passe par la route du haut.",
+          "en": "As for me, I go by the upper road.",
+          "zh": "我走上面那條路。"
+        },
+        {
+          "t": "Llabang bi ka \"lu ta da!",
+          "fr": "Notre route (celle que nous marchons - celle qui va chez nous - celle que nous avons construite) est très large.",
+          "en": "Our road (the one we walk - the one that goes to our home - the one we built) is very wide.",
+          "zh": "我們的路（我們所走的－通往我們家的－我們所修築的）非常寬。"
+        },
+        {
+          "t": "Nyeqan bi \"lu ka kari nia",
+          "fr": "Ce qu'il dit est vraiment sensé (cela se tient).",
+          "en": "What he says is really sensible (it holds together).",
+          "zh": "他說的話真的很有道理（站得住腳）。"
+        },
+        {
+          "t": "Ini ko k'la \"lu ssalu no toke nii, xoya no ksun?",
+          "fr": "Je ne sais pas la méthode pour réparer (fabriquer) cette montre, comment faire ?",
+          "en": "I do not know the method to repair (make) this watch, how is it done?",
+          "zh": "我不知道修理（製作）這只錶的方法，該怎麼做呢？"
+        },
+        {
+          "t": "Uda nanak \"lu ddaon so",
+          "fr": "Tu n'as qu'à suivre le chemin (la vocation) par où tu dois passer (Tu n'as qu'à suivre ta route!).",
+          "en": "You have only to follow the path (the vocation) by which you must pass (You have only to follow your road!).",
+          "zh": "你只需沿著你該走的道路（使命）前行（你只需走你自己的路！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ma\"lu",
+          "fr": "Devenir route.",
+          "en": "To become a road.",
+          "zh": "變成路。",
+          "examples": [
+            {
+              "t": "Ida ma\"lu ka qnliyan mo qaxol nii!",
+              "fr": "Cette rocaille que je creuse est en train de devenir une route.",
+              "en": "This rocky ground that I am digging is turning into a road.",
+              "zh": "我正在挖的這片碎石地正在變成一條路。"
+            }
+          ]
+        },
+        {
+          "form": "Gm\"lu",
+          "fr": "Faire, ouvrir une route, un passage. (nb. Gm\"lu se dit très couramment pour l'action de celui qui passe devant dans une forêt coupant lianes, branches ou herbes pour ouvrir un passage).",
+          "en": "To make, to open a road, a passage. (n.b. Gm\"lu is very commonly used of the action of the one who goes ahead in a forest, cutting vines, branches or grasses to open a passage.)",
+          "zh": "開闢道路、通道。（註：Gm\"lu 很常用來指走在前面的人，在森林中砍斷藤蔓、樹枝或草叢以開出通道的動作。）",
+          "examples": [
+            {
+              "t": "Pslmali gn\"lu \"lu ddaon tama so",
+              "fr": "Il faut que tu te prennes à l'avance pour préparer (ouvrir) la route que suivra ton père.",
+              "en": "You must set about it in advance to prepare (open) the road that your father will follow.",
+              "zh": "你必須提前著手準備（開闢）你父親將要走的路。"
+            }
+          ]
+        },
+        {
+          "form": "P\"lu",
+          "fr": "Juste au moment où - en même temps - simultanément.",
+          "en": "Just at the moment when - at the same time - simultaneously.",
+          "zh": "正當…之時－同時－同時地。",
+          "examples": [
+            {
+              "t": "P\"lu musa ko nita mnalox siida",
+              "fr": "Juste à ce moment là (sur la même route) où j'allais voir les malades.",
+              "en": "Just at that moment (on the same road) when I was going to see the sick.",
+              "zh": "正當我去探望病人的那個時刻（在同一條路上）。"
+            }
+          ]
+        },
+        {
+          "form": "Pk\"lu",
+          "fr": "Pendant que.",
+          "en": "While - during the time that.",
+          "zh": "當…的時候。",
+          "examples": [
+            {
+              "t": "Pk\"lu namo bi ntaqe",
+              "fr": "Pendant que vous dormez.",
+              "en": "While you are sleeping.",
+              "zh": "在你們睡覺的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Mkl\"lu",
+          "fr": "Le long de la route - passer par là - suivre la route.",
+          "en": "Along the road - to pass by there - to follow the road.",
+          "zh": "沿著路－從那裡經過－沿路走。",
+          "examples": [
+            {
+              "t": "Ga mkl\"lu xea ka Kulas",
+              "fr": "Koulas est en train de passer par là.",
+              "en": "Koulas is passing by there.",
+              "zh": "Koulas 正從那裡經過。"
+            },
+            {
+              "t": "Mnkl\"lu ko \"lu xea siida",
+              "fr": "Au moment où je passais par cette route là.",
+              "en": "At the moment when I was passing along that road.",
+              "zh": "當我經過那條路的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Pn\"lu",
+          "fr": "Tout en suivant la route - tout en marchant.",
+          "en": "While following the road - while walking along.",
+          "zh": "一邊沿路走－一邊行走。",
+          "examples": [
+            {
+              "t": "Kuxul bi lludan ka oyes (oyas) pn\"lu sbiyaq",
+              "fr": "(Nos) Les anciens aiment beaucoup les vieilles cantilènes de marche d'autrefois. (nb. Oyes pn\"lu, ce sont les ritournelles, les cantilènes, un peu comme nos psaumes, qui se chantent (chantaient ?!) en marchant.).",
+              "en": "(Our) elders greatly love the old walking-songs of former times. (n.b. Oyes pn\"lu are the refrains, the cantilenas, a little like our psalms, which are sung (were sung ?!) while walking.)",
+              "zh": "（我們的）長輩非常喜愛從前那些古老的行路歌謠。（註：Oyes pn\"lu 是一種疊句、吟唱，有點像我們的聖詠，是一邊行走一邊唱（從前唱？！）的。）"
+            }
+          ]
+        },
+        {
+          "form": "Ps\"lu (Psl\"lu ?)",
+          "fr": "Suivre la route - progresser normalement - aller droit son chemin.",
+          "en": "To follow the road - to progress normally - to go straight on one's way.",
+          "zh": "沿路前行－正常前進－直行己路。",
+          "examples": [
+            {
+              "t": "Ini ps\"lu ka ndaan no, msa namo! Ida ms\"lu (nsl\"lu) ko bi ka yako!",
+              "fr": "Ma conduite est étrange (n'est pas conforme à la route), dites-vous! Et pourtant ma conduite est normale (je suis la route, moi!).",
+              "en": "My conduct is strange (not in keeping with the road), you say! And yet my conduct is normal (I do follow the road!).",
+              "zh": "你們說我的行為很奇怪（不合乎正道）！然而我的行為是正常的（我可是循規蹈矩的！）。"
+            }
+          ]
+        },
+        {
+          "form": "Psl'lu",
+          "fr": "Qui continue - être suite logique.",
+          "en": "That which continues - to be a logical continuation.",
+          "zh": "延續者－合乎邏輯的後續。",
+          "examples": [
+            {
+              "t": "Waxan na siida ka patas, asi psl\"lu sao nii kari:",
+              "fr": "Ayant alors ouvert le livre, voici comment disait la suite (= Il est tombé sur ce passage).",
+              "en": "Having then opened the book, here is how the continuation went (= He came upon this passage).",
+              "zh": "於是打開書本，接下來是這樣寫的（＝他翻到了這一段）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "\"MA",
+      "tag": "(R)",
+      "fr": "Langue (organe). (nb. La transcription \"MA ne rend pas la façon dont les plus nombreux locuteurs rendent ce terme! Seul cas connu dans la langue taroko, du moins le seul assez explicite, il est réalisé par une expiration très forte, produite par le nez, bouche fermée, suivie d'une forme de stop glottal précédant le MA).",
+      "en": "Tongue (organ). (n.b. The transcription \"MA does not render the way in which the majority of speakers render this term! The only known case in the Taroko language, at least the only fairly explicit one, it is realized by a very strong exhalation produced through the nose, mouth closed, followed by a kind of glottal stop preceding the MA.)",
+      "zh": "舌頭（器官）。（註：拼寫 \"MA 並未反映大多數說話者發此詞的方式！這是太魯閣語中唯一已知的例子，至少是唯一相當明確的例子；其發音方式為：閉口、以鼻腔發出很強的呼氣，隨後在 MA 之前帶一個喉塞音。）",
+      "examples": []
+    },
+    {
+      "hw": "\"MU",
+      "tag": "(R)",
+      "fr": "Farine très fine - fine poussière.",
+      "en": "Very fine flour - fine dust.",
+      "zh": "極細的粉－細塵。",
+      "examples": [
+        {
+          "t": "Kana ooqon sbiyao o, \"mu basao ka suyang bi",
+          "fr": "De tous les plats (nourritures) d'autrefois, c'est la farine de BASAO (graminée comestible) qui est le plat de choix !",
+          "en": "Of all the dishes (foods) of former times, it is the flour of BASAO (an edible grass/grain) that is the choicest dish!",
+          "zh": "在從前所有的菜餚（食物）中，BASAO（一種可食用的禾本科穀物）的粉才是首選佳餚！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M\"mu",
+          "fr": "Tomber en poussière - être poussière (farine).",
+          "en": "To fall to dust (crumble) - to be dust (flour).",
+          "zh": "化為粉塵－成為粉塵（粉）。",
+          "examples": []
+        },
+        {
+          "form": "N\"mu",
+          "fr": "Ce qui a été réduit en poussière.",
+          "en": "That which has been reduced to dust.",
+          "zh": "已被磨成粉塵之物。",
+          "examples": [
+            {
+              "t": "Nn\"mu so d'xgal ka iso ni mpn\"mu so (mpnmuon so) dole",
+              "fr": "(N = origine + N = passé = Nn\"mu) Tu viens de la poussière et tu retourneras en poussière.",
+              "en": "(N = origin + N = past = Nn\"mu) You come from the dust and you will return to the dust.",
+              "zh": "（N＝來源＋N＝過去＝Nn\"mu）你來自塵土，也將歸於塵土。"
+            }
+          ]
+        },
+        {
+          "form": "Pn\"mu",
+          "fr": "Effriter - réduire en poussière - moudre.",
+          "en": "To crumble - to reduce to dust (powder) - to grind.",
+          "zh": "弄碎－磨成粉－研磨。",
+          "examples": [
+            {
+              "t": "Pnmuon mo kana ka klari gaga",
+              "fr": "Je veux réduire en poussière toutes ces pierres de silex qui sont là.",
+              "en": "I want to reduce to powder all those flint stones that are there.",
+              "zh": "我想把那裡所有的燧石都磨成粉。"
+            }
+          ]
+        },
+        {
+          "form": "Mpn\"mu",
+          "fr": "Deviendra poussière",
+          "en": "Will become dust.",
+          "zh": "將化為塵土。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "\"QAN",
+      "tag": "(R)",
+      "fr": "Manger - agressif - tranchant - alimentation.",
+      "en": "To eat - aggressive - sharp (cutting) - nourishment (food).",
+      "zh": "吃－有攻擊性的－鋒利的－食物（飲食）。",
+      "examples": [
+        {
+          "t": "Ini xali \"qan ka laqe no",
+          "fr": "Mon enfant ne mange guère!",
+          "en": "My child hardly eats!",
+          "zh": "我的孩子幾乎不吃東西！"
+        },
+        {
+          "t": "Ini xali kn\"qan ka laqe no!",
+          "fr": "Mon enfant n'a pas beaucoup d'appétit.",
+          "en": "My child does not have much appetite.",
+          "zh": "我的孩子胃口不大。"
+        },
+        {
+          "t": "\"qan n'xali da!",
+          "fr": "Mange vite",
+          "en": "Eat quickly!",
+          "zh": "快點吃！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M\"qan",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "M\"qan bi tlaxe ka nkMorisaka",
+              "fr": "Les gens de Morisaka aiment manger (mangent beaucoup de) des pamplemousses",
+              "en": "The people of Morisaka love to eat (eat a lot of) pomelos (grapefruits).",
+              "zh": "Morisaka 的人愛吃（吃很多）柚子。"
+            },
+            {
+              "t": "Ida m\"qan bobo ka xea",
+              "fr": "Il tète encore sa mère.",
+              "en": "He still suckles at his mother's breast.",
+              "zh": "他還在吃母親的奶。"
+            },
+            {
+              "t": "M\"qan bi ayang (vl. gasolin) ka tdoloi so",
+              "fr": "Ta voiture consomme beaucoup d'essence.",
+              "en": "Your car consumes a lot of petrol (gasoline).",
+              "zh": "你的車很耗油（汽油）。"
+            },
+            {
+              "t": "m\"qan bi sadyaq ka Unin",
+              "fr": "Ouminne est très querelleur (mange les gens",
+              "en": "Ouminne is very quarrelsome (he devours people).",
+              "zh": "Ouminne 非常好爭吵（愛「吃」人）。"
+            },
+            {
+              "t": "M\"qan balae ka poting so",
+              "fr": "Ton coutelas est très tranchant. (nb. Le stop glottal de \"QAN, dans la pratique reste évident chez tous dans cette forme de base: \"QAN ; dans les formes dérivées par la préfixation, le stop tend à disparaître ou du moins à être fortement escamoté: M\"QA = nqan = n'qan; PS\"QAN = psqan = ps'qan..).",
+              "en": "Your machete (cutlass) is very sharp. (n.b. The glottal stop of \"QAN in practice remains evident in everyone in this base form: \"QAN; in the forms derived by prefixation, the stop tends to disappear, or at least to be strongly elided: M\"QA = nqan = n'qan; PS\"QAN = psqan = ps'qan..)",
+              "zh": "你的番刀非常鋒利。（註：\"QAN 的喉塞音在實際發音中，於此基本形 \"QAN 中人人都仍清楚保留；但在透過前綴衍生的形式中，喉塞音往往消失，或至少被大幅省略：M\"QA＝nqan＝n'qan；PS\"QAN＝psqan＝ps'qan…。）"
+            }
+          ]
+        },
+        {
+          "form": "P\"qan (= Pqan = p'qan = paqan)",
+          "paradigm": "° Mp\"qan, p\"qan, poqe, poqan, poqon.",
+          "fr": "Faire manger - offrir à manger.",
+          "en": "To feed (make eat) - to offer (something) to eat.",
+          "zh": "餵食（使吃）－請人吃。",
+          "examples": [
+            {
+              "t": "Adi so p\"qan (paqan) kingal lodoç so xo",
+              "fr": "Ne nous prépares tu pas une poule à manger?",
+              "en": "Won't you prepare us a chicken to eat?",
+              "zh": "你不給我們準備一隻雞吃嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Kmpoqon",
+          "fr": "Ce qu'on désire faire manger.",
+          "en": "That which one wishes to have (someone) eat.",
+          "zh": "想要拿來餵人（請人吃）的東西。",
+          "examples": [
+            {
+              "t": "Kmpoqon miso kia ka sali",
+              "fr": "Je voudrais bien te faire manger des taros tout à l'heure!",
+              "en": "I would quite like to feed you some taros in a little while!",
+              "zh": "我等一下很想請你吃些芋頭！"
+            }
+          ]
+        },
+        {
+          "form": "Oqon",
+          "fr": "Nourriture - aliment - ce qu'on mangera, qu'on veut, doit manger.",
+          "en": "Food - nourishment - that which one will eat, wants to, must eat.",
+          "zh": "食物－糧食－將要吃、想吃、該吃之物。",
+          "examples": [
+            {
+              "t": "Malu oqon ka l'xluq xo?",
+              "fr": "Les framboises sont elles bonnes à manger",
+              "en": "Are raspberries good to eat?",
+              "zh": "覆盆子好吃嗎？"
+            },
+            {
+              "t": "Ongat oqon nami da!",
+              "fr": "Nous n'avons plus à manger!",
+              "en": "We have nothing left to eat!",
+              "zh": "我們沒有東西可吃了！"
+            },
+            {
+              "t": "Oqon mo kia ka siyan",
+              "fr": "Je mangerai la viande (de porc) après.",
+              "en": "I will eat the (pork) meat afterwards.",
+              "zh": "我待會兒再吃（豬）肉。"
+            },
+            {
+              "t": "Oqon so d'xa",
+              "fr": "Ils veulent t'agresser (te manger).",
+              "en": "They want to attack you (to eat you / devour you).",
+              "zh": "他們想攻擊你（把你吃掉）。"
+            },
+            {
+              "t": "Adi mo oqon kana",
+              "fr": "Je ne mangerai pas tout.",
+              "en": "I will not eat everything.",
+              "zh": "我不會全部吃光。"
+            },
+            {
+              "t": "Adi oqon mo kana",
+              "fr": "Toute la nourriture n'est pas pour moi",
+              "en": "Not all the food is for me.",
+              "zh": "並非所有食物都是給我的。"
+            }
+          ]
+        },
+        {
+          "form": "Oqan",
+          "fr": "Lieu, temps où l'on mange - récipient pour manger.",
+          "en": "Place, time where one eats - vessel (container) for eating.",
+          "zh": "用餐的場所、時間－用餐的器皿。",
+          "examples": [
+            {
+              "t": "Sapax oqan",
+              "fr": "restaurant - réfectoire.",
+              "en": "restaurant - refectory (dining hall).",
+              "zh": "餐廳－食堂。"
+            },
+            {
+              "t": "Oqe n'xali, msa soo, nyeqan ka oqon, oqan ka ongat",
+              "fr": "Mange vite, dis-tu! Il-y-a bien de quoi manger mais, ce sont les récipients pour manger (bols, assiettes..) qui manquent !",
+              "en": "Eat quickly, you say! There is indeed plenty to eat, but it is the vessels for eating (bowls, plates..) that are lacking!",
+              "zh": "你說快點吃！其實有的是吃的，但缺的是用餐的器皿（碗、盤子…）！"
+            }
+          ]
+        },
+        {
+          "form": "Q\"qan",
+          "fr": "Bagarre - lutte - bataille (= Se manger mutuellement (?)).",
+          "en": "Brawl - fight - battle (= To eat one another (?)).",
+          "zh": "打鬥－爭鬥－戰鬥（＝互相「吃」對方（？））。",
+          "examples": [
+            {
+              "t": "Knliwa bi q\"qan d'xa",
+              "fr": "Leur bagarre est terrible!",
+              "en": "Their brawl is terrible!",
+              "zh": "他們打得很兇！"
+            }
+          ]
+        },
+        {
+          "form": "Mq\"qan",
+          "fr": "Se disputer - se bagarrer - se battre.",
+          "en": "To quarrel - to brawl - to fight.",
+          "zh": "爭吵－打鬥－打架。",
+          "examples": [
+            {
+              "t": "Ga mq\"qan qoaq ka d'xea",
+              "fr": "Elles sont en train de se disputer (se bagarrer en paroles).",
+              "en": "They (fem.) are quarrelling (fighting with words).",
+              "zh": "她們正在爭吵（用言語爭鬥）。"
+            }
+          ]
+        },
+        {
+          "form": "Ps\"qan (= Psqan ? = Bsqan ?) (= R. \"QAN ?)",
+          "crossRef": "PSKAN",
+          "fr": "Mastiquer - ruminer - mâcher. Vr. PSKAN.",
+          "en": "To masticate - to ruminate - to chew. See PSKAN.",
+          "zh": "咀嚼－反芻－嚼。參見 PSKAN。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "\"SIG",
+      "tag": "",
+      "fr": "(\"SYU = GSIG) Furoncle.",
+      "en": "(\"SYU = GSIG) Boil (furuncle).",
+      "zh": "（\"SYU = GSIG）癤子（癰）。",
+      "examples": []
+    },
+    {
+      "hw": "\"SILONG",
+      "tag": "(R)",
+      "fr": "(= GSILONG) Mer - océan - lac - flaque d'eau. (nb. Il est surprenant de voir combien les Taroko, des insulaires, sont si pauvres en vocabulaire pour tout ce qui regarde la mer, ses habitudes, ses habitants, ses ressources, ses menaces !!).",
+      "en": "(= GSILONG) Sea - ocean - lake - puddle (pool) of water. (n.b. It is surprising to see how the Taroko, islanders, are so poor in vocabulary for everything concerning the sea, its habits (moods), its inhabitants, its resources, its threats !!)",
+      "zh": "（＝GSILONG）海－海洋－湖－水窪（水塘）。（註：令人驚訝的是，身為島嶼居民的太魯閣人，對於一切與海洋相關的事物——海的習性、海中的生物、海的資源、海的威脅——詞彙竟如此貧乏！！）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "M\"silong (= Msilong)",
+          "fr": "Devenir flaque d'eau, mare.",
+          "en": "To become a puddle of water, a pond (pool).",
+          "zh": "變成水窪、水塘。",
+          "examples": [
+            {
+              "t": "Usa smqet ksia n'xali da! Mxa msilong kana ka sapax mo da!",
+              "fr": "Va donc vite couper l'eau! (sinon) toute ma maison va devenir un lac (être inondée) !",
+              "en": "Go quickly then and cut off the water! (otherwise) my whole house is going to become a lake (be flooded)!",
+              "zh": "那就快去把水切斷！（否則）我整間房子都要變成一片水了（被淹沒）！"
+            }
+          ]
+        },
+        {
+          "form": "Psilong (P\"silong ?)",
+          "fr": "Innonder.",
+          "en": "To flood (inundate).",
+          "zh": "淹沒（使氾濫）。",
+          "examples": [
+            {
+              "t": "Ya iso ka pnsilong kana ka nxmaan mo padyaq?",
+              "fr": "C'est sans doute toi qui a inondé tout mon jardin ?",
+              "en": "It is no doubt you who flooded my whole garden?",
+              "zh": "把我整片菜園都淹了的，八成就是你吧？"
+            }
+          ]
+        },
+        {
+          "form": "Pslongan",
+          "fr": "Endroit, temps où sera formé, doit être formé une mare, une flaque d'eau - une inondation.",
+          "en": "Place, time where a pond, a puddle of water - a flood - will be formed, must be formed.",
+          "zh": "將要、應當形成水塘、水窪－氾濫之處或之時。",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

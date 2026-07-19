@@ -1,0 +1,778 @@
+{
+  "pages": [42, 45],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "BIYAO",
+      "tag": "(R)",
+      "fr": "Long laps de temps - longtemps.",
+      "en": "A long lapse of time - a long time.",
+      "zh": "一段長時間——很久。",
+      "examples": [
+        {
+          "t": "Ma biyao so bi da",
+          "fr": "Tu en as mis du temps !",
+          "en": "You certainly took your time!",
+          "zh": "你花了好久的時間!"
+        },
+        {
+          "t": "Ini ko biyao",
+          "fr": "Je ne suis pas long.",
+          "en": "I won't be long.",
+          "zh": "我不會很久。"
+        },
+        {
+          "t": "Adi ko biyao",
+          "fr": "Je ne veux pas être long.",
+          "en": "I don't want to be long.",
+          "zh": "我不想拖太久。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sbiyao",
+          "fr": "Autrefois - il y a longtemps.",
+          "en": "Formerly - a long time ago.",
+          "zh": "從前——很久以前。",
+          "examples": [
+            {
+              "t": "Pusu ta ludan sbiyao",
+              "fr": "Nos ancêtres d'autrefois.",
+              "en": "Our ancestors of former times.",
+              "zh": "我們昔日的祖先。"
+            }
+          ]
+        },
+        {
+          "form": "Nsbiyao",
+          "fr": "D'autrefois - de l'ancien temps.",
+          "en": "Of former times - of the old days.",
+          "zh": "昔日的——古時的。",
+          "examples": [
+            {
+              "t": "Gaya ta nsbiyao",
+              "fr": "Nos coutumes d'autrefois.",
+              "en": "Our customs of former times.",
+              "zh": "我們昔日的習俗。"
+            },
+            {
+              "t": "Ngaya ta sbiyao",
+              "fr": "Part de nos coutumes d'autrefois.",
+              "en": "Part of our customs of former times.",
+              "zh": "我們昔日習俗的一部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BIYAX",
+      "tag": "(R)",
+      "fr": "Force. (var. BLAç).",
+      "en": "Strength. (var. BLAç).",
+      "zh": "力量。(或:BLAç)。",
+      "examples": [
+        {
+          "t": "Wada kana biyax mo da!",
+          "fr": "Toutes mes forces sont parties!",
+          "en": "All my strength is gone!",
+          "zh": "我的力氣全沒了!"
+        },
+        {
+          "t": "Ana so musa lmngao txlangan o, ongat biyax ka xea!",
+          "fr": "Même si tu vas le dire (parler) au chef, il n'y peut rien ! (il n'a pas de force).",
+          "en": "Even if you go and tell (speak to) the chief, he can do nothing about it! (he has no power).",
+          "zh": "就算你去告訴(稟告)頭目,他也無能為力!(他沒有力量)。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbiyax",
+          "fr": "Fort - adolescent - dans la force de l'âge.",
+          "en": "Strong - adolescent - in the prime of life.",
+          "zh": "強壯——青少年——正值壯年。",
+          "examples": [
+            {
+              "t": "Mbiyax balae ka Wilang",
+              "fr": "Wilang est très fort; et: Wilang est en très bonne santé.",
+              "en": "Wilang is very strong; also: Wilang is in very good health.",
+              "zh": "Wilang 很強壯;也可指:Wilang 身體非常健康。"
+            },
+            {
+              "t": "Mbiyax ko bi mqan (m'qan) ka yako",
+              "fr": "Moi, je mange tout ce que je peux.",
+              "en": "As for me, I eat all I can.",
+              "zh": "我呢,能吃的我都盡量吃。"
+            },
+            {
+              "t": "Mbiyax so ka iso: msludan ko ka yako da",
+              "fr": "Tu es plein de santé, toi: moi, voilà que je deviens vieux!",
+              "en": "You are full of health; as for me, I am getting old!",
+              "zh": "你身體硬朗;而我呢,已經漸漸老了!"
+            },
+            {
+              "t": "Pax tnkulan mo o, ini ko kbiyax kddiyax da",
+              "fr": "Depuis ma chute, je suis toujours sans force !",
+              "en": "Ever since my fall, I have been without strength!",
+              "zh": "自從跌倒以後,我一直渾身無力!"
+            }
+          ]
+        },
+        {
+          "form": "Dmbiyax",
+          "fr": "Le groupe des forts, de ceux qui sont dans la force de l'âge.",
+          "en": "The group of the strong, of those who are in the prime of life.",
+          "zh": "壯年人的群體,正值壯年者。",
+          "examples": [
+            {
+              "t": "Iyax kana saman, sao yamo dmbiyax nanak",
+              "fr": "Venez tous demain, seulement vous qui êtes dans la force de l'âge.",
+              "en": "All of you come tomorrow, only you who are in the prime of life.",
+              "zh": "你們明天都來,但只限你們正值壯年的人。"
+            }
+          ]
+        },
+        {
+          "form": "Kmbiyax",
+          "fr": "Avec force - courage! - faire des efforts.",
+          "en": "With strength - courage! - to make efforts.",
+          "zh": "用力——加油!——努力。",
+          "examples": [
+            {
+              "t": "Ya bi töting lnglongan! Kmbiyax!",
+              "fr": "Ne te laisse pas aller! Courage!",
+              "en": "Don't let yourself go! Courage!",
+              "zh": "別鬆懈!加油!"
+            },
+            {
+              "t": "Ana mo si kmbiyax o",
+              "fr": "J'ai beau y mettre tous mes efforts, (je n'y peux rien !)",
+              "en": "No matter how hard I try, (I can do nothing about it!)",
+              "zh": "儘管我竭盡全力,(還是無能為力!)"
+            }
+          ]
+        },
+        {
+          "form": "Knbyaxan (?)",
+          "fr": "Force (morale, spirituelle, intellectuelle).",
+          "en": "Strength (moral, spiritual, intellectual).",
+          "zh": "力量(道德上、精神上、智力上的)。",
+          "examples": [
+            {
+              "t": "Mqalas bi mita knbiyaxan laqe mo matas ka mtgisa",
+              "fr": "Le professeur est content de voir les efforts de mon fils dans les études.",
+              "en": "The teacher is glad to see my son's efforts in his studies.",
+              "zh": "老師很高興看到我兒子在學業上的努力。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbiyax",
+          "fr": "Faire être fort (?).",
+          "en": "To make (someone) be strong (?).",
+          "zh": "使強壯(?)。",
+          "examples": [
+            {
+              "t": "Sipwi ka mniyax pkbiyax xeaan",
+              "fr": "C'est Sipui qui est venue lui demander d'être fort. (= réconforter).",
+              "en": "It was Sipui who came to ask him to be strong. (= to comfort).",
+              "zh": "是 Sipui 來勸他要堅強。(=安慰)。"
+            }
+          ]
+        },
+        {
+          "form": "Skbiyax",
+          "fr": "Qui rend fort - qui donne des forces.",
+          "en": "That which makes strong - which gives strength.",
+          "zh": "使人強壯的——給人力量的。",
+          "examples": [
+            {
+              "t": "Xei siyam ka skbiyax bi xei",
+              "fr": "C'est la viande de porc (le lard) qui fortifie vraiment.",
+              "en": "It is pork (the fat/lard) that truly strengthens.",
+              "zh": "真正補身強體的是豬肉(肥肉)。"
+            }
+          ]
+        },
+        {
+          "form": "Psbiyax",
+          "paradigm": "Psbiyax, psbiyax, psbyaxe, psbyaxan, psbyaxon",
+          "fr": "Insister - pousser quelqu'un.",
+          "en": "To insist - to push someone.",
+          "zh": "堅持——催促某人。",
+          "examples": [
+            {
+              "t": "Ini kxdo smalu toke mo ka Lixan; saon mo psbiyax xeaan tityex",
+              "fr": "Lirhan n'a pas encore fini de réparer ma montre; je veux aller le pousser un peu.",
+              "en": "Lirhan has not yet finished repairing my watch; I want to go and push him a little.",
+              "zh": "Lirhan 還沒修好我的錶;我想去催他一下。"
+            }
+          ]
+        },
+        {
+          "form": "Psbyaxan",
+          "fr": "Insistence - encouragement.",
+          "en": "Insistence - encouragement.",
+          "zh": "堅持——鼓勵。",
+          "examples": [
+            {
+              "t": "Mita ko pnsbyaxan tama o miyax k... (?)",
+              "fr": "Voyant l'insistance de papa, je viens travailler a rizière.",
+              "en": "Seeing papa's insistence, I come to work in the paddy field.",
+              "zh": "看到爸爸的堅持,我就來田裡工作。"
+            }
+          ]
+        },
+        {
+          "form": "Tmbiyax",
+          "paradigm": "Tmbiyax, tbiyax, tbyaxe, tbyaxan, Tbyaxon",
+          "fr": "Qui presse - urger - activer.",
+          "en": "That presses - to urge - to hurry along.",
+          "zh": "催促的——敦促——加緊。",
+          "examples": [
+            {
+              "t": "Tbyaxe tityex ka dmkpax ! Ma mdawi kana!",
+              "fr": "Presse un peu les ouvriers! Ils sont tous là à ne rien faire!",
+              "en": "Urge the workers on a little! They are all standing there doing nothing!",
+              "zh": "去催一下工人!他們全都在那裡閒著!"
+            },
+            {
+              "t": "Ya usa! Manu bi ka tbyaxon so ?",
+              "fr": "Ne pars pas (encore)! Qu'est ce qui te presse ?",
+              "en": "Don't leave (yet)! What is your hurry?",
+              "zh": "先別走!你急什麼?"
+            }
+          ]
+        },
+        {
+          "form": "Mtbiyax",
+          "fr": "Qui est pressé - Qui est très occupé.",
+          "en": "Who is in a hurry - who is very busy.",
+          "zh": "匆忙的——非常忙碌的。",
+          "examples": [
+            {
+              "t": "Sloai ko bi! Mtbiyax ko balae kika ini ko usa",
+              "fr": "Excuse moi! Je suis vraiment pressé (occupé), c'est pourquoi je ne vais pas.",
+              "en": "Excuse me! I am really in a hurry (busy); that is why I am not going.",
+              "zh": "請原諒我!我真的很忙(趕時間),所以我不去。"
+            }
+          ]
+        },
+        {
+          "form": "Tbyaxon",
+          "fr": "Ce qui presse - ce qui donne beaucoup de travail.",
+          "en": "What is pressing - what gives a lot of work.",
+          "zh": "急迫的事——帶來大量工作的事。",
+          "examples": [
+            {
+              "t": "Pusu bi tbyaxon daxa sayang o, ida oqon",
+              "fr": "Ce qui les préoccupe le plus aujourd'hui c'est la nourriture.",
+              "en": "What preoccupies them most today is food.",
+              "zh": "如今他們最操心的就是糧食。"
+            }
+          ]
+        },
+        {
+          "form": "Tbyaxan",
+          "fr": "Temps où l'on est très occupé - Ce qui a donné beaucoup de travail, de souci.",
+          "en": "A time when one is very busy - what has given much work and worry.",
+          "zh": "非常忙碌的時節——曾帶來許多工作與煩憂的事。",
+          "examples": [
+            {
+              "t": "Giso ka smiyan, kika paro bi tbyaxan koyox",
+              "fr": "Voici le nouvel an qui arrive (le jour de fête), c'est un temps où les femmes sont très occupées.",
+              "en": "Here comes the new year (the feast day); it is a time when the women are very busy.",
+              "zh": "新年(節日)就要到了,這是婦女們非常忙碌的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Kntbyaxan",
+          "fr": "La presse - le fait d'être trés pressé, très occupé.",
+          "en": "The rush - the fact of being very hurried, very busy.",
+          "zh": "繁忙——非常匆忙、非常忙碌的狀態。",
+          "examples": [
+            {
+              "t": "Lnglong tityex kntbyaxan sadyaq",
+              "fr": "Pense un peu combien les autres sont occupés!",
+              "en": "Just think how busy the others are!",
+              "zh": "想想看別人有多忙!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BIYOQ",
+      "tag": "(R)",
+      "fr": "Jus - sécrétion.",
+      "en": "Juice - secretion.",
+      "zh": "汁液——分泌物。",
+      "examples": [
+        {
+          "t": "Biyoq qouni (var. qoni)",
+          "fr": "Sève - résine.",
+          "en": "Sap - resin.",
+          "zh": "樹液——樹脂。"
+        },
+        {
+          "t": "Biyoq wa\"lo",
+          "fr": "Miel.",
+          "en": "Honey.",
+          "zh": "蜂蜜。"
+        },
+        {
+          "t": "Biyoq onoç",
+          "fr": "Lait, sécrétion des mamelles.",
+          "en": "Milk, secretion of the breasts.",
+          "zh": "乳汁,乳房的分泌物。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msbiyoq",
+          "fr": "Qui suinte - qui produit du jus.",
+          "en": "That oozes - that produces juice.",
+          "zh": "滲出液體的——出汁的。",
+          "examples": [
+            {
+              "t": "Msbiyoq kana ka daolyaq mo",
+              "fr": "Mes yeux sont tout embués.",
+              "en": "My eyes are all misty.",
+              "zh": "我的眼睛都濕潤模糊了。"
+            }
+          ]
+        },
+        {
+          "form": "Psbiyoq",
+          "fr": "Faire suinter - faire couler lentement.",
+          "en": "To make ooze - to make flow slowly.",
+          "zh": "使滲出——使緩緩流出。",
+          "examples": [
+            {
+              "t": "Naqex bi ka qnao, mpsbiyoq kana daolyaq",
+              "fr": "Je n'aime pas l'ail (l'ail est méchant), il remplit les yeux de larmes.",
+              "en": "I don't like garlic (garlic is nasty); it fills the eyes with tears.",
+              "zh": "我不喜歡蒜(蒜很嗆人),它讓人淚流滿眼。"
+            }
+          ]
+        },
+        {
+          "form": "Sbiyoq",
+          "fr": "Sécréter du liquide.",
+          "en": "To secrete liquid.",
+          "zh": "分泌液體。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BKALOX",
+      "tag": "(R)",
+      "fr": "Grande pioche (qui sert à défoncer le terrain ou à travailler en profondeur dans un terrain meuble.). PALEX étant la petite pioche, au manche très court, servant surtout à travailler le terrain en surface;",
+      "en": "Large pick/mattock (used to break up the ground or to work deep in loose soil). PALEX being the small hoe, with a very short handle, used above all to work the surface of the ground;",
+      "zh": "大鋤(用於掘開土地,或在鬆軟的土地上深耕)。PALEX 則是小鋤,柄很短,主要用於土地的表層耕作;",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BKLUI",
+      "tag": "(R)",
+      "fr": "Menton.",
+      "en": "Chin.",
+      "zh": "下巴。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BKUI",
+      "tag": "(R)",
+      "crossRef": "BUKUI",
+      "fr": "Lier attacher - nouer. (vr. BUKUI)",
+      "en": "To bind, attach - to knot. (see BUKUI)",
+      "zh": "綑綁——打結。(見 BUKUI)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BLAEQ",
+      "tag": "(R)",
+      "fr": "Le jouir - l'être heureux.",
+      "en": "Enjoyment - being happy.",
+      "zh": "享受——幸福。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mblaeq",
+          "fr": "Qui est heureux - qui jouit - qui est riche.",
+          "en": "Who is happy - who enjoys - who is rich.",
+          "zh": "幸福的——享福的——富有的。",
+          "examples": [
+            {
+              "t": "Mblaeq kingal loan sapax na ka Taolan",
+              "fr": "La famille de Taolan est riche.",
+              "en": "Taolan's family is rich.",
+              "zh": "Taolan 一家很富有。"
+            },
+            {
+              "t": "Ndmblaeq so ka iso",
+              "fr": "Toi tu fais partie des riches (des heureux).",
+              "en": "You are one of the rich (the happy).",
+              "zh": "你是有錢人(有福的人)之一。"
+            },
+            {
+              "t": "Mblaeq namo do o, ya sxngi ka d'ini kblaeq",
+              "fr": "Quand vous êtes heureux (riches) n'oubliez pas ceux qui ne le sont pas !",
+              "en": "When you are happy (rich), do not forget those who are not!",
+              "zh": "當你們富足(幸福)時,別忘了那些不幸福的人!"
+            }
+          ]
+        },
+        {
+          "form": "Mblyeqan",
+          "fr": "Temps, lieu, objet du jouir.",
+          "en": "Time, place, object of enjoyment.",
+          "zh": "享福的時間、地點、對象。",
+          "examples": [
+            {
+              "t": "Sapax mblyeqan ka sapax namo",
+              "fr": "Votre maison est un lieu de bonheur.",
+              "en": "Your house is a place of happiness.",
+              "zh": "你們的家是幸福之地。"
+            },
+            {
+              "t": "Ini ko bi sola mita mblyeqan so",
+              "fr": "Je ne suis pas jaloux en voyant (les circonstances de) ton bonheur !",
+              "en": "I am not jealous when I see (the circumstances of) your happiness!",
+              "zh": "看到你幸福(的光景),我一點也不嫉妒!"
+            }
+          ]
+        },
+        {
+          "form": "Knblaeq",
+          "fr": "Quantité, densité de bonheur.",
+          "en": "Quantity, density of happiness.",
+          "zh": "幸福的多寡、濃度。",
+          "examples": [
+            {
+              "t": "Ini ko sola mita knblaeq so",
+              "fr": "Je ne suis pas jaloux en voyant combien tu es heureux.",
+              "en": "I am not jealous when I see how happy you are.",
+              "zh": "看到你如此幸福,我並不嫉妒。"
+            },
+            {
+              "t": "Tayal knblaeq so !",
+              "fr": "Comme tu es heureux !",
+              "en": "How happy you are!",
+              "zh": "你多麼幸福啊!"
+            }
+          ]
+        },
+        {
+          "form": "Knblyeqan",
+          "fr": "Le bonheur - la jouissance - la richesse.",
+          "en": "Happiness - enjoyment - wealth.",
+          "zh": "幸福——享受——財富。",
+          "examples": [
+            {
+              "t": "Ana so bsiyaq mudus o, lbu bi ka knblyeqan nbabao d'xgal",
+              "fr": "Même si tu vis longtemps, il est bien court le bonheur terrestre.",
+              "en": "Even if you live a long time, earthly happiness is very short.",
+              "zh": "即使你活得長久,世上的幸福也十分短暫。"
+            }
+          ]
+        },
+        {
+          "form": "Sblaeq",
+          "fr": "Produire le bonheur - rendre heureux.",
+          "en": "To produce happiness - to make happy.",
+          "zh": "帶來幸福——使人幸福。",
+          "examples": []
+        },
+        {
+          "form": "Smblaeq",
+          "fr": "Se comporter agréablement - rendre heureux.",
+          "en": "To behave agreeably - to make happy.",
+          "zh": "舉止和悅——使人快樂。",
+          "examples": [
+            {
+              "t": "Mk'la so bi smblaeq luda (ldanan) so ka iso",
+              "fr": "toi tu sais être agréable avec tes parents.",
+              "en": "you know how to be agreeable with your parents.",
+              "zh": "你很懂得如何善待你的父母。"
+            }
+          ]
+        },
+        {
+          "form": "Msblaeq",
+          "fr": "Celui qui rend heureux.",
+          "en": "One who makes others happy.",
+          "zh": "使人幸福的人。",
+          "examples": [
+            {
+              "t": "Msblaeq bi boan nia ka laqe nii",
+              "fr": "Cet enfant est plein d'égards pour sa maman.",
+              "en": "This child is full of consideration for his mother.",
+              "zh": "這孩子對媽媽非常體貼。"
+            }
+          ]
+        },
+        {
+          "form": "Mssblaeq",
+          "fr": "Qui s'aiment - qui se rendent mutuellement heureux - qui se veulent mutuellement du bien.",
+          "en": "Who love one another - who make each other happy - who wish each other well.",
+          "zh": "彼此相愛的——使彼此幸福的——彼此心懷善意的。",
+          "examples": [
+            {
+              "t": "Ga mssblaeq pax suxal ka daxa pai ni baki nii",
+              "fr": "Ces deux grand père et grand mère sont pleins d'attentions l'un pour l'autre depuis autrefois.",
+              "en": "These two, grandfather and grandmother, have been full of attentions for each other since long ago.",
+              "zh": "這對祖父祖母自古以來就彼此關懷備至。"
+            }
+          ]
+        },
+        {
+          "form": "Psblaeq",
+          "paradigm": "Psblaeq, psblaeq, psblyeqe, psblyeqan, psblyeqon",
+          "fr": "Faire produire le bonheur.",
+          "en": "To cause happiness to be produced.",
+          "zh": "使產生幸福。",
+          "examples": [
+            {
+              "t": "Ini bi dxok psblaeq sdyaqon (sadyaq) ka pila",
+              "fr": "L'argent ne suffit pas (n'arrive pas) à rendre les gens heureux.",
+              "en": "Money does not suffice (does not manage) to make people happy.",
+              "zh": "金錢並不足以(無法)使人幸福。"
+            }
+          ]
+        },
+        {
+          "form": "Knsblyeqan",
+          "fr": "Qualité de ce qui peut procurer le bonheur.",
+          "en": "The quality of what can procure happiness.",
+          "zh": "能帶來幸福之物的特質。",
+          "examples": []
+        },
+        {
+          "form": "Tblaeq",
+          "fr": "Qui est dans le bonheur (qui s'identifie au bonheur).",
+          "en": "Who is in happiness (who is identified with happiness).",
+          "zh": "處於幸福之中的(與幸福融為一體的)。",
+          "examples": [
+            {
+              "t": "Ya sqoaq! Tnblaeq so bi ka iso",
+              "fr": "Tais toi ! Toi tu es parfaitement heureux !",
+              "en": "Be quiet! You are perfectly happy!",
+              "zh": "你別說了!你可是十足幸福的人!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLAQO",
+      "tag": "(R)",
+      "fr": "Oiseau noir avec un large bec jaune. (Genre étourneau ?)",
+      "en": "Black bird with a broad yellow beak. (A kind of starling?)",
+      "zh": "黑色的鳥,有寬大的黃喙。(類似椋鳥/八哥?)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BLATANG",
+      "tag": "(R)",
+      "fr": "Irritation cutanée en grosses plaques rouges.",
+      "en": "Skin irritation in large red patches.",
+      "zh": "皮膚出現大片紅斑的刺激症狀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mblatang",
+          "fr": "Qui se couvre, qui est couvert de plaques rouges ( par piqûres d'insectes, eczéma ..).",
+          "en": "Who breaks out in, who is covered with red patches (from insect bites, eczema ..).",
+          "zh": "身上起、佈滿紅斑的(因蟲咬、濕疹等)。",
+          "examples": [
+            {
+              "t": "Knta'to mtblatang kana xei nia, ya bi xmuya?",
+              "fr": "Son corps n'arrête pas de se couvrir de plaques rouges, quelle pourrait elle bien en être la cause ?",
+              "en": "His body keeps breaking out in red patches; what could the cause possibly be?",
+              "zh": "他全身不斷冒出紅斑,到底會是什麼原因呢?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BLAX",
+      "tag": "(R)",
+      "fr": "1) Devant - avant. 2) Poitrine.",
+      "en": "1) In front - before. 2) Chest.",
+      "zh": "1)前面——之前。2)胸部。",
+      "examples": [
+        {
+          "t": "Usa blax ka iso, ana qoqo kia ka yako da",
+          "fr": "Toi, va devant, je viendrai après, moi, celà ne fait rien.",
+          "en": "You go ahead; I will come after — as for me, it does not matter.",
+          "zh": "你先走,我隨後就到,我沒關係。"
+        },
+        {
+          "t": "Blax xali sntlngan laqe so o, mnda alang ka paro bi boxo",
+          "fr": "Un peu avant le mariage (vl. rencontre) de ton fils, un grand typhon est passé par le village.",
+          "en": "A little before your son's wedding (var.: meeting), a great typhoon passed through the village.",
+          "zh": "在你兒子婚禮(或:相會)前不久,一場強颱經過了村子。"
+        },
+        {
+          "t": "Qeta blax da",
+          "fr": "Regarde devant toi!",
+          "en": "Look in front of you!",
+          "zh": "看你前面!"
+        },
+        {
+          "t": "Taan mo o, ga mnalox blax ka laqe so",
+          "fr": "D'apres ce que je vois, ton enfant a mal à la poitrine (=: est tuberculeux; a une bronchite; a quelque blessure sur la poitrine ..)",
+          "en": "From what I see, your child has trouble in the chest (i.e.: is tubercular; has bronchitis; has some wound on the chest ..).",
+          "zh": "依我看,你的孩子胸部有毛病(即:患肺結核;患支氣管炎;或胸部有某種傷處……)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BLAX (BLAç)",
+      "tag": "(R)",
+      "fr": "(var. de Biyax) = Force( plus facilement, mais pas exclusivement) physique.",
+      "en": "(var. of Biyax) = Strength — more readily, but not exclusively, physical.",
+      "zh": "(Biyax 的變體)=力量(多指身體的力量,但不限於此)。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BLAXAO",
+      "tag": "(R.? - R. = ?)",
+      "fr": "S'il vous plait!",
+      "en": "Please!",
+      "zh": "拜託!請!",
+      "examples": [
+        {
+          "t": "Blaxao so balae",
+          "fr": "S'il te plait!",
+          "en": "Please (I beg you)!",
+          "zh": "拜託你!"
+        },
+        {
+          "t": "Blaxao miso balae",
+          "fr": "Je te supplie très fort.",
+          "en": "I beg you very earnestly.",
+          "zh": "我懇切地求你。"
+        },
+        {
+          "t": "Blaxao so bi! usa n'xali tmaan",
+          "fr": "Je t'en prie! va vite chez papa.",
+          "en": "I beg you! Go quickly to papa's.",
+          "zh": "求你了!快去爸爸那裡。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BLENAX",
+      "tag": "(R)",
+      "fr": "Reculer - revenir en arrière.",
+      "en": "To move back - to come back.",
+      "zh": "後退——折返。",
+      "examples": [
+        {
+          "t": "Ndoa bi mslago musa; ya bi blenax da",
+          "fr": "Tâche d'aller tout droit; surtout ne recule pas ( ne reviens pas sur tes pas).",
+          "en": "Try to go straight on; above all do not turn back (do not retrace your steps).",
+          "zh": "務必一直往前走;千萬別往回走(別走回頭路)。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mblenax",
+          "fr": "Reculer - revenir en arrière.",
+          "en": "To go back - to come back.",
+          "zh": "後退——返回。",
+          "examples": [
+            {
+              "t": "Mxa so bsiyaq da ? ... Adi ! mxa ko mblenax da",
+              "fr": "Tu seras long ? ... Non! Je fais l'aller retour.",
+              "en": "Will you be long? ... No! I am just going there and back.",
+              "zh": "你會去很久嗎?……不會!我去了就回來。"
+            },
+            {
+              "t": "P\"lu ko bi musa dopan sntlong ko Diyan ni asi ko mblenax da",
+              "fr": "En route pour la chasse j'ai rencontré Djian et du coup je suis revenu sur mes pas.",
+              "en": "On the way to the hunting ground I met Djian, and so I turned back.",
+              "zh": "去獵場的路上我遇到了 Djian,於是就折返了。"
+            }
+          ]
+        },
+        {
+          "form": "Pblenax",
+          "paradigm": "Pblenax, pblenax, pblnaxe, pblnaxan, pblnaxon",
+          "fr": "Faire revenir - faire reculer.",
+          "en": "To make return - to make go back.",
+          "zh": "使返回——使後退。",
+          "examples": [
+            {
+              "t": "Sao kia do, pblnaxon miso kana ka pnspadao so knan",
+              "fr": "Du coup, je veux te restituer (te retourner) tous les cadeaux que tu m'as faits.",
+              "en": "In that case, I want to give you back (return to you) all the gifts you gave me.",
+              "zh": "這樣的話,我要把你送我的所有禮物都還給你(退還你)。"
+            },
+            {
+              "t": "Saon mo pnais pblenax kating mo da",
+              "fr": "Je veux juste aller détourner (faire faire demi tour à) mon buffle.",
+              "en": "I just want to go and turn my buffalo around (make it turn back).",
+              "zh": "我只是要去把我的水牛趕回頭(讓牠掉頭)。"
+            }
+          ]
+        },
+        {
+          "form": "Blnaxan",
+          "fr": "Le recul - Lieu, temps, mode du recul.",
+          "en": "The going back - place, time, manner of retreat.",
+          "zh": "後退——後退的地點、時間、方式。",
+          "examples": [
+            {
+              "t": "Ongat blnaxan nami da",
+              "fr": "Nous n'avons plus de possibilité de retour.",
+              "en": "We no longer have any possibility of turning back.",
+              "zh": "我們已無退路。"
+            },
+            {
+              "t": "Wada wada ka bnlnaxan (Bnlaxan ?) daxa sao ggaya bulax",
+              "fr": "De plus en plus ils ont abandonné les anciennes coutumes pour les nouvelles.",
+              "en": "More and more they have abandoned the old customs for the new ones.",
+              "zh": "他們愈來愈拋棄舊俗而改從新俗。"
+            }
+          ]
+        },
+        {
+          "form": "Sblenax",
+          "paradigm": "smblenax, sblenax, sblnaxe, sblnaxan, sblnaxon",
+          "fr": "produire, causer le retour - se repentir - être favorable.",
+          "en": "to produce, to cause a return - to repent - to be favorable.",
+          "zh": "促成、導致返回——悔改——有利。",
+          "examples": []
+        },
+        {
+          "form": "Smblenax",
+          "fr": "Se réconcilier - se repentir - revenir sur ses positions.",
+          "en": "To be reconciled - to repent - to go back on one's positions.",
+          "zh": "和解——悔改——改變立場。",
+          "examples": [
+            {
+              "t": "Mtdiyal nami qoaq s'xiga (s'iga) kika yaxan na smblenax sayang da",
+              "fr": "Nous nous sommes pris de bec hier et il vient se réconcilier.",
+              "en": "We had a quarrel yesterday, and now he comes to make up.",
+              "zh": "我們昨天吵了一架,現在他來和解了。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

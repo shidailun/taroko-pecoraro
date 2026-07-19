@@ -1,0 +1,685 @@
+{
+  "pages": [86, 89],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "GAIN",
+      "tag": "(R)",
+      "fr": "Très loin - lointain.",
+      "en": "Very far - distant.",
+      "zh": "很遠——遙遠。",
+      "examples": [
+        {
+          "t": "Ga ino ka Sibal ?...Wada gain da !",
+          "fr": "Où est Sibal ? ... Il est parti au diable vauvert.",
+          "en": "Where is Sibal? ... He has gone off to the back of beyond.",
+          "zh": "Sibal 在哪裡?……他跑到天涯海角去了。"
+        },
+        {
+          "t": "Pnax ko gain bi ka yako",
+          "fr": "Je viens de vraiment très loin.",
+          "en": "I come from really very far away.",
+          "zh": "我來自非常遙遠的地方。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GAKAT",
+      "tag": "(R)",
+      "fr": "Accroupi - courbé - plié.",
+      "en": "Squatting - bent - folded.",
+      "zh": "蹲著——彎著——屈著。",
+      "examples": [
+        {
+          "t": "Tdloi gakat",
+          "fr": "Bicyclette ( voiture où l'on se tient accroupi).",
+          "en": "Bicycle (a vehicle on which one sits crouched).",
+          "zh": "腳踏車(人蹲坐其上的車)。"
+        },
+        {
+          "t": "Mgakat mksa",
+          "fr": "Marcher courbé.",
+          "en": "To walk bent over.",
+          "zh": "彎著身子走路。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tgakat",
+          "fr": "De fait accroupi.",
+          "en": "In fact squatting.",
+          "zh": "實際上蹲著。",
+          "examples": []
+        },
+        {
+          "form": "Tmgakat",
+          "paradigm": "° Tmgakat, tgakat, tgkati, tgkatan, tgkatun",
+          "fr": "S'accroupir - se mettre à quatre pattes.",
+          "en": "To squat down - to get down on all fours.",
+          "zh": "蹲下——趴成四肢著地。",
+          "examples": [
+            {
+              "t": "Ana namo tmgakat da",
+              "fr": "Vous pouvez vous asseoir.",
+              "en": "You may sit down.",
+              "zh": "你們可以坐下了。"
+            },
+            {
+              "t": "Iyax tmgakat siyao taxot",
+              "fr": "Viens t'asseoir auprès du feu.",
+              "en": "Come and sit down by the fire.",
+              "zh": "來坐在火邊。"
+            },
+            {
+              "t": "Tmgakat ko ka yako",
+              "fr": "Moi, je m'accroupis.",
+              "en": "Me, I squat down.",
+              "zh": "我呢,我蹲下來。"
+            }
+          ]
+        },
+        {
+          "form": "Tngakat",
+          "fr": "S'accroupissait .",
+          "en": "Was squatting down.",
+          "zh": "(過去)蹲著。",
+          "examples": []
+        },
+        {
+          "form": "Pngakat",
+          "fr": "A la manière accroupie.",
+          "en": "In the squatting manner.",
+          "zh": "以蹲踞的方式。",
+          "examples": [
+            {
+              "t": "Pngakat tloong ka baki, ini k'la xmut tloong ka xea",
+              "fr": "Grand père s'assied dans la position accroupie, Il n'est pas habitué (il ne sait pas) à s'asseoir simplement.",
+              "en": "Grandfather sits in the squatting position; he is not used (does not know how) to sitting in the ordinary way.",
+              "zh": "祖父以蹲踞的姿勢坐著;他不習慣(不會)就那樣普通地坐。"
+            }
+          ]
+        },
+        {
+          "form": "Mtgakat",
+          "fr": "Etre celui qui est en position accroupie.",
+          "en": "To be the one who is in a squatting position.",
+          "zh": "是處於蹲踞姿勢的那個人。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "GALANG",
+      "tag": "(R)",
+      "fr": "S'étendre - se répandre - innonder.",
+      "en": "To spread out - to spread - to flood.",
+      "zh": "延展——蔓延——氾濫。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmalang",
+          "paradigm": "°Gmalang, galang, glangi (?), glangan, glangun",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Gmalang kari",
+              "fr": "Diffuser une nouvelle.",
+              "en": "To spread a piece of news.",
+              "zh": "散布消息。"
+            },
+            {
+              "t": "Taan mo ka balae bi do, mnsa ko gmalang bnxangan mo kari a sao laqe kia",
+              "fr": "Voyant que c'était sur, je suis allé annoncer (répandre) ce que j'avais ententu dire à propos de l'enfant.",
+              "en": "Seeing that it was certain, I went to announce (spread) what I had heard said about that child.",
+              "zh": "見那是確實的,我便去傳布(散播)我所聽到關於那孩子的話。"
+            },
+            {
+              "t": "Paro bi glangan ksia sndurai ka mk'yayong",
+              "fr": "Il y a eu dernièrement une grande innondation (par la crue) du fleuve dans la vallée.",
+              "en": "There was recently a great flooding (through the rising) of the river in the valley.",
+              "zh": "最近山谷裡發生了河水(暴漲造成的)大氾濫。"
+            }
+          ]
+        },
+        {
+          "form": "Mgalang",
+          "fr": "Qui se répand - qui se disperse - qui s'étale.",
+          "en": "That spreads - that disperses - that spreads out.",
+          "zh": "蔓延的——散開的——攤開的。",
+          "examples": [
+            {
+              "t": "Klxangi bi ! Xmut mgalang ka ksia",
+              "fr": "Fais attention! L'eau s'étale sans crier gare!",
+              "en": "Watch out! The water spreads without any warning!",
+              "zh": "小心!水會毫無預警地漫開!"
+            }
+          ]
+        },
+        {
+          "form": "Pgalang",
+          "paradigm": "°Pgalang, pgalang, pglangi. pglangan, pglangun",
+          "fr": "Répandre - étendre - étaler.",
+          "en": "To spread - to extend - to spread out.",
+          "zh": "散布——鋪開——攤開。",
+          "examples": [
+            {
+              "t": "Mpgalang so xei trabus so kana pxdagan so o, giso ka koyoç da!",
+              "fr": "(pendant que) toi tu étales tes graines d'arachides sur ton aire, voici la pluie qui vient.",
+              "en": "(While) you are spreading out your peanut seeds on your drying ground, here comes the rain!",
+              "zh": "(正當)你在曬場上攤開你的花生種子時,雨就來了!"
+            }
+          ]
+        },
+        {
+          "form": "Glangan",
+          "fr": "Diffusion - dispersion - innondation.",
+          "en": "Diffusion - dispersion - flooding.",
+          "zh": "散布——分散——氾濫。",
+          "examples": [
+            {
+              "t": "Glangan ksia",
+              "fr": "Innontation.",
+              "en": "Flooding (sic, \"Innontation\").",
+              "zh": "水患(氾濫)。"
+            }
+          ]
+        },
+        {
+          "form": "Mkgalang",
+          "fr": "Avoir tendance à s'étendre - disposé à s'étaler.",
+          "en": "To tend to spread - inclined to spread out.",
+          "zh": "有蔓延的傾向——容易攤開。",
+          "examples": [
+            {
+              "t": "Mkgalang balae ka ayang",
+              "fr": "Le pétrole (vl.l'huile) s'étale facilement.",
+              "en": "Petroleum (var. oil) spreads easily.",
+              "zh": "石油(或:油)很容易漫開。"
+            }
+          ]
+        },
+        {
+          "form": "Glngani",
+          "fr": "Fais en sorte que s'étende, que s'élargisse.",
+          "en": "Make it spread, make it widen.",
+          "zh": "使其擴展、使其擴大。",
+          "examples": [
+            {
+              "t": "Glngani bi ka kloaan (klwaan) so",
+              "fr": "Prends les moyens pour que ta domination s'étende.",
+              "en": "Take the means so that your dominion may spread.",
+              "zh": "設法使你的統治得以擴展。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GALU",
+      "tag": "(R)",
+      "fr": "Sentiment de tendresse, de pitié, d'affection.",
+      "en": "Feeling of tenderness, of pity, of affection.",
+      "zh": "溫柔、憐憫、關愛之情。",
+      "examples": [
+        {
+          "t": "Paro bi galu na ka Aman",
+          "fr": "Aman a un coeur d'or.",
+          "en": "Aman has a heart of gold.",
+          "zh": "Aman 有一顆金子般的心。"
+        },
+        {
+          "t": "Ini so galu ana ima ka iso",
+          "fr": "Toi tu n'es aimé par personne (vl.Personne n'a pitié de toi).",
+          "en": "You are loved by no one (var. No one has pity on you).",
+          "zh": "沒有人愛你(或:沒有人憐憫你)。"
+        },
+        {
+          "t": "Ini so gmalu ana maan ka iso",
+          "fr": "Toi, tu n'aimes personne!",
+          "en": "You, you love no one!",
+          "zh": "你啊,你誰也不愛!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gmalu",
+          "paradigm": "°Gmalu, galu, Glani (glui ?) , glaan, gluon",
+          "fr": "Donner sa faveur, sa bienveillance, sa grâce à quelqu'un.(Pratiquement réservé aux vivants, spécialement les personnes, sauf le cas de choses personnalisées).",
+          "en": "To give one's favour, one's kindness, one's grace to someone. (Practically reserved for the living, especially persons, except in the case of personified things.)",
+          "zh": "將自己的恩惠、善意、恩典給予某人。(實際上僅用於活物,特別是人,擬人化的事物除外。)",
+          "examples": [
+            {
+              "t": "Gmalu ko bi sunan kika yaxon miso psapox",
+              "fr": "Je t'aime bien (j'ai vraiment pitié de toi) c'est pourquoi je viendrai te soigner.",
+              "en": "I am fond of you (I truly have pity on you), that is why I will come to care for you.",
+              "zh": "我很喜歡你(我真的很憐惜你),所以我會來照顧你。"
+            },
+            {
+              "t": "Gmalu s'dyaqon (Sadyaq) kika balae!",
+              "fr": "Aimer les autres, voilà l'important !",
+              "en": "To love others, that is what matters!",
+              "zh": "愛別人,這才是最重要的!"
+            }
+          ]
+        },
+        {
+          "form": "Mgalu",
+          "fr": "Miséricordieux - aimant - Celui qui aime, qui a pitié.",
+          "en": "Merciful - loving - one who loves, who has pity.",
+          "zh": "慈悲的——有愛心的——愛人、憐憫人的人。",
+          "examples": [
+            {
+              "t": "Mgalu ko bi lqlaqe ka yako",
+              "fr": "Moi j'aime beaucoup les enfants (On entend plus souvent et dans le même sens: Snkuxul ko bi lqlaqe (lqlqean ?) ka yako. - et encore: Kuxul mo balae ka lqlaqe.).",
+              "en": "Me, I love children very much. (One hears more often, and in the same sense: Snkuxul ko bi lqlaqe (lqlqean ?) ka yako. - and also: Kuxul mo balae ka lqlaqe.)",
+              "zh": "我很愛孩子們。(更常聽到、意思相同的說法是:Snkuxul ko bi lqlaqe (lqlqean ?) ka yako。——還有:Kuxul mo balae ka lqlaqe。)"
+            }
+          ]
+        },
+        {
+          "form": "Mggalu",
+          "fr": "Affection réciproque.",
+          "en": "Mutual affection.",
+          "zh": "彼此相愛。",
+          "examples": [
+            {
+              "t": "Mggalu pax suxal bi ka dxea",
+              "fr": "Il y a très longtemps qu'ils s'aiment.",
+              "en": "They have loved each other for a very long time.",
+              "zh": "他們相愛已經很久了。"
+            },
+            {
+              "t": "Balai mggalu ka Atox ni Tixong , ana qoqo mstlong da",
+              "fr": "Atorh et Tchirhong s'aiment depuis longtemps , rien ne les empêche plus de se marier.",
+              "en": "Atorh and Tchirhong have loved each other for a long time; nothing prevents them from marrying any more.",
+              "zh": "Atox 與 Tixong 相愛已久,再沒有什麼能阻止他們結婚了。"
+            }
+          ]
+        },
+        {
+          "form": "Gnalu",
+          "fr": "L'affection - la faveur - la bonté - la grâce.",
+          "en": "Affection - favour - goodness - grace.",
+          "zh": "關愛——恩惠——良善——恩典。",
+          "examples": [
+            {
+              "t": "Ngnalu tama mo nanak ka sapax mo nii",
+              "fr": "Cette maison je la dois (me vient de) au seul amour de mon père (vL. à l'amour de mon propre père).",
+              "en": "This house I owe (it comes to me) to my father's love alone (var. to the love of my own father).",
+              "zh": "這棟房子我全靠父親的愛而得(或:出於我親生父親的愛)。"
+            },
+            {
+              "t": "Gngnalu sktama ka dnamux sapax ta",
+              "fr": "C'est à l'amour de feu notre père que nous devons le toit (construit) de notre maison.",
+              "en": "It is to the love of our late father that we owe the (built) roof of our house.",
+              "zh": "我們家(蓋好的)屋頂,是靠先父的愛才有的。"
+            },
+            {
+              "t": "Paro gnalu na tnan ka Tama ta balao",
+              "fr": "Notre père d'en haut à un grand amour pour nous.",
+              "en": "Our Father above has a great love for us.",
+              "zh": "我們在上的父對我們有極大的愛。"
+            }
+          ]
+        },
+        {
+          "form": "Glani",
+          "fr": "Aie pitié - montre nous ta bonté.",
+          "en": "Have pity - show us your goodness.",
+          "zh": "求你憐憫——向我們顯出你的良善。",
+          "examples": [
+            {
+              "t": "Sao mpxoqel ka knnaqex kuxul nami! Glaani nami wax!",
+              "fr": "Nous sommes tristes jusqu'à en mourir! Aie pitié de nous !",
+              "en": "We are sad to the point of dying! Have pity on us!",
+              "zh": "我們憂傷得快要死了!求你憐憫我們!"
+            }
+          ]
+        },
+        {
+          "form": "Gnlaan",
+          "fr": "Affection démontrée.",
+          "en": "Affection shown.",
+          "zh": "已顯明的關愛。",
+          "examples": [
+            {
+              "t": "A sao gnlaan na tnan",
+              "fr": "Par l'amour qu'il a eu pour nous .",
+              "en": "By the love he has had for us.",
+              "zh": "因他曾對我們所懷的愛。"
+            }
+          ]
+        },
+        {
+          "form": "Pgalu",
+          "fr": "Faire aimer - provoquer la pitié, l'affection.",
+          "en": "To make loved - to arouse pity, affection.",
+          "zh": "使人愛——引起憐憫、關愛。",
+          "examples": [
+            {
+              "t": "Pgalu bi laqe nii !",
+              "fr": "Pauvre gosse (cet enfant fait pitié).",
+              "en": "Poor kid (this child arouses pity).",
+              "zh": "可憐的孩子(這孩子令人憐惜)。"
+            },
+            {
+              "t": "Ini so alex ka sinao o, pgalu so bi wis!",
+              "fr": "Si tu ne quittes pas le (boire du) vin, comme tu es à plaindre, Liwis ( Wis = vocatif).",
+              "en": "If you do not give up (drinking) wine, how much you are to be pitied, Liwis (Wis = vocative).",
+              "zh": "如果你不戒(喝)酒,你多麼可憐啊,Liwis(Wis 為呼格)。"
+            }
+          ]
+        },
+        {
+          "form": "Sgalu",
+          "fr": "Ce qui porte à la pitié, à la tendresse (instrument).",
+          "en": "That which moves one to pity, to tenderness (instrument).",
+          "zh": "令人生憐憫、生溫情之物(工具形)。",
+          "examples": [
+            {
+              "t": "Sao bi sgalu ka laqe mo nii !",
+              "fr": "Il est vraiment touchant (celui qui vraiment porte à la tendresse) mon petit que voilà !",
+              "en": "He is truly touching (one who truly moves one to tenderness), this little one of mine!",
+              "zh": "我這個小傢伙真是惹人疼愛(真正令人生出溫情的人)!"
+            },
+            {
+              "t": "Sao sgalu so bi, Put! wada ongat ka bobo so da !",
+              "fr": "Ma pauvre petite Aputs (pouts)! Tu as perdu ta maman !(Ta maman est devenue ne pas être).(nb. Pour ce terme: GALU et ses dérivés tout spécialement, mais c'est également vrai pour de nombreux termes de la langue, l'intensité, la vérité du message est signifiée par l'allongement de la voyelle (la première en général) de la base: § Pgaaalu bi = Très très digne de pitié.)",
+              "en": "My poor little Aputs (pouts)! You have lost your mummy! (Your mummy has become not-being.) (n.b. For this term — GALU and its derivatives quite especially, but it is equally true for many terms of the language — intensity, the truth of the message, is signified by the lengthening of the vowel (generally the first one) of the base: § Pgaaalu bi = Very, very worthy of pity.)",
+              "zh": "我可憐的小 Aputs(pouts)!你失去媽媽了!(你的媽媽已經不在了。)(註:就這個詞而言——尤其是 GALU 及其衍生詞,但對本語言的許多詞也同樣如此——語氣的強度、話語的真切,是以拉長詞基的母音(通常是第一個)來表示的:§ Pgaaalu bi = 非常非常值得憐憫。)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GALUK",
+      "tag": "(R)",
+      "crossRef": "GALUP",
+      "fr": "Vr. GALUP . (nb.Alors que dans les composés la réalisation est constante en P ou en B , un certain nombre de bases acceptent l'interchangeabilité de fait du P et du K , et celà suivant les locuteurs. Par ex. : Madok et: MADOP = Aller à la chasse; G'XAP et G'XAK (G'XAQ) = Semence; GALUP et: GALUK = Mettre en contact ; MDUP et: MDUK (?) = Fermer ).",
+      "en": "See GALUP. (n.b. While in compounds the realization is constant in P or in B, a certain number of bases in fact allow the interchangeability of P and K, and this depending on the speakers. E.g.: Madok and MADOP = to go hunting; G'XAP and G'XAK (G'XAQ) = seed; GALUP and GALUK = to put in contact; MDUP and MDUK (?) = to close.)",
+      "zh": "見 GALUP。(註:雖然在複合詞中的實現固定為 P 或 B,但相當多的詞基實際上容許 P 與 K 互換,視說話者而定。例如:Madok 與 MADOP = 去打獵;G'XAP 與 G'XAK(G'XAQ)= 種子;GALUP 與 GALUK = 使接觸;MDUP 與 MDUK (?) = 關閉。)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GALUP",
+      "tag": "(R)",
+      "fr": "Faire la jonction - mettre en contact - réunir.",
+      "en": "To make a junction - to put in contact - to bring together.",
+      "zh": "連接——使接觸——使聚合。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Gmalup",
+          "fr": "Unir - s'unir - s'accorder.",
+          "en": "To unite - to unite with one another - to agree.",
+          "zh": "結合——聯合——和諧一致。",
+          "examples": []
+        },
+        {
+          "form": "Mgalup",
+          "fr": "Qui adhère - qui est en union - qui est uni.",
+          "en": "That adheres - that is in union - that is united.",
+          "zh": "附著的——處於聯合中的——聯合的。",
+          "examples": [
+            {
+              "t": "Ana ini so lngagi! Mggalup balae ka ddxea",
+              "fr": "Ce n'est pas nécessaire que tu (en) parles (que tu leur parles)! De toute façon ils sont de connivence.",
+              "en": "There is no need for you to speak (of it) (to speak to them)! In any case they are in collusion.",
+              "zh": "你不必(對此)開口(不必對他們說)!反正他們是串通一氣的。"
+            }
+          ]
+        },
+        {
+          "form": "Mggalup",
+          "fr": "S'associer - adhérer l'un à l'autre - se réunir pour former une communauté.",
+          "en": "To associate - to adhere to one another - to gather to form a community.",
+          "zh": "結社——彼此相合——聚集組成團體。",
+          "examples": [
+            {
+              "t": "Kingal iyax sngayan o, ida miyax mggalup kana ka ddCristo mkMorisaka",
+              "fr": "Une fois par semaine (dans l'espace entre deux temps de repos (= dimanche)) tous les chrétiens de Morisaka viennent se retrouver.",
+              "en": "Once a week (in the interval between two times of rest (= Sunday)) all the Christians of Morisaka come together.",
+              "zh": "每週一次(在兩個休息日之間的間隔(=星期日)),Morisaka 的所有基督徒都來聚在一起。"
+            }
+          ]
+        },
+        {
+          "form": "Gluban",
+          "fr": "Réunion de fait de membres solidaires. ( association religieuse culturelle, sociale, économique..).",
+          "en": "De facto union of members in solidarity. (Religious, cultural, social, economic association…)",
+          "zh": "團結成員的實際結合。(宗教、文化、社會、經濟性的協會等)。",
+          "examples": [
+            {
+              "t": "Txei balae ka gnluban daxa",
+              "fr": "Leur association est très efficace.",
+              "en": "Their association is very effective.",
+              "zh": "他們的協會非常有效。"
+            }
+          ]
+        },
+        {
+          "form": "Pngluban",
+          "fr": "Association - communauté (résultat des efforts faits pour la constituer).",
+          "en": "Association - community (the result of the efforts made to form it).",
+          "zh": "協會——團體(為組成它所作努力的成果)。",
+          "examples": [
+            {
+              "t": "Pngluban Sibal ka malu balae",
+              "fr": "C'est la communauté créée par Sibal qui est très unie.",
+              "en": "It is the community created by Sibal that is very united.",
+              "zh": "由 Sibal 建立的團體非常團結。"
+            }
+          ]
+        },
+        {
+          "form": "Pgalup (pgaluk)",
+          "fr": "Unir - réconcilier - associer.",
+          "en": "To unite - to reconcile - to associate.",
+          "zh": "使結合——使和好——使聯合。",
+          "examples": [
+            {
+              "t": "Ndoa bi pgalup dxeaan ppskngalun so lnglongan daxa",
+              "fr": "Fais de ton mieux pour les réconcilier afin qu'ils ne fassent qu'un seul coeur.",
+              "en": "Do your best to reconcile them so that they may be of one heart.",
+              "zh": "盡你所能使他們和好,好叫他們同心合一。"
+            }
+          ]
+        },
+        {
+          "form": "Mpgaluk (mpgalup)",
+          "fr": "Celui qui fait le trait d'union - celui qui travaille pour faire l'union, la communauté.",
+          "en": "The one who acts as the link - the one who works to bring about union, community.",
+          "zh": "作為橋樑的人——致力促成合一、建立團體的人。",
+          "examples": [
+            {
+              "t": "Diyan ka mnpgalup dxeaan",
+              "fr": "C'est Djian qui les a réconcilié.(Terme employé pour désigner un prêtre catholique. Ce terme, très bien compris par les anciens, est souvent, et surtout par les jeunes, remplacé par le terme sino-japonais: Simpu = Père spirituel).",
+              "en": "It is Djian who reconciled them. (Term used to designate a Catholic priest. This term, very well understood by the elders, is often — and above all by the young — replaced by the Sino-Japanese term: Simpu = spiritual father.)",
+              "zh": "是 Djian 使他們和好的。(此詞用來指天主教神父。老一輩的人很懂這個詞,但它常被——尤其是年輕人——換成漢日語詞:Simpu = 神父(靈性之父)。)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GALYEQ",
+      "tag": "(R)",
+      "fr": "Etoffe - toile - chiffon.",
+      "en": "Fabric - cloth - rag.",
+      "zh": "布料——布——抹布。",
+      "examples": [
+        {
+          "t": "Tnlaqe kmbslanan na snao ka Maria ni, wada na lbuong galyeq ni ptqeon (ptqeun) aso oqan kating.",
+          "fr": "Marie mit au monde son fils ainé, l'enveloppa de langes et le fit coucher dans une mangeoire.",
+          "en": "Mary gave birth to her firstborn son, wrapped him in swaddling cloths and laid him in a manger.",
+          "zh": "馬利亞生了她的頭生子,用布包起來,放在馬槽裡。"
+        },
+        {
+          "t": "Ita galyeq so! Slsun mo ka klangan (tlangan) !",
+          "fr": "Passe moi ton chiffon! Je veux essuyer la chaise.",
+          "en": "Hand me your rag! I want to wipe the chair.",
+          "zh": "把你的抹布遞給我!我要擦椅子。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "GAMIL",
+      "tag": "(R)",
+      "fr": "Racine.",
+      "en": "Root.",
+      "zh": "根。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tgamil",
+          "fr": "Enraciner.",
+          "en": "To take root.",
+          "zh": "生根。",
+          "examples": [
+            {
+              "t": "Ini tgamil sayang ka nxoma so qliyut; bsiyaq bi ka kalat da!",
+              "fr": "Les mûriers que tu as plantés ne prennent pas racine en ce moment; Il y a trop longtemps qu'il fait sec (le ciel dure trop).",
+              "en": "The mulberry trees you planted are not taking root at the moment; it has been dry for too long (the sky lasts too long).",
+              "zh": "你種的桑樹現在長不出根來;天旱太久了(天持續得太久)。"
+            }
+          ]
+        },
+        {
+          "form": "Mtgamil",
+          "fr": "Qui s'enracine - qui émet des racines.",
+          "en": "That takes root - that puts out roots.",
+          "zh": "會扎根的——會長出根的。",
+          "examples": [
+            {
+              "t": "Mtgamil balae ka kmux",
+              "fr": "L'ivraie prend très facilement racine.",
+              "en": "The tares (darnel) take root very easily.",
+              "zh": "稗子很容易生根。"
+            }
+          ]
+        },
+        {
+          "form": "Tngamil",
+          "fr": "Enraciné - installé - avoir fait souche.",
+          "en": "Rooted - settled - having established a stock.",
+          "zh": "已生根——已定居——已立下根基。",
+          "examples": [
+            {
+              "t": "Wada tngamil ka pusu blubul da",
+              "fr": "Le bananier est enraciné.",
+              "en": "The banana tree has taken root.",
+              "zh": "香蕉樹已經生根了。"
+            }
+          ]
+        },
+        {
+          "form": "Tgmilan",
+          "fr": "Le fait, le lieu, le temps de prendre racine.",
+          "en": "The fact, the place, the time of taking root.",
+          "zh": "生根的事實、地點、時間。",
+          "examples": [
+            {
+              "t": "Adi mxoya ka lboqel ta da; malu bi tgmilan na!",
+              "fr": "Pas de problème pour notre lboqel (arbre au bois très léger (=Aleurites cordata ?)); il prend bien racine (sa façon de prendre racine est bonne).",
+              "en": "No problem for our lboqel (a tree with very light wood (= Aleurites cordata?)); it takes root well (its way of taking root is good).",
+              "zh": "我們的 lboqel(木質極輕的樹(=光桐 Aleurites cordata?))沒有問題;它很會生根(它生根的情形很好)。"
+            }
+          ]
+        },
+        {
+          "form": "Ptgamil",
+          "fr": "Enraciner - faire prendre racine.",
+          "en": "To root - to make take root.",
+          "zh": "使生根——使扎根。",
+          "examples": [
+            {
+              "t": "Adi so bi d'xkon ptgamil ka pusu pxpax kia",
+              "fr": "Tu n'arriveras certainement pas à faire prendre racine à ce pied de fleurs.",
+              "en": "You will certainly not manage to make that flower plant take root.",
+              "zh": "你肯定沒辦法讓那株花生根。"
+            }
+          ]
+        },
+        {
+          "form": "Kntgmilan",
+          "fr": "Enracinement.",
+          "en": "Rootedness (the taking of root).",
+          "zh": "根深蒂固(生根之狀)。",
+          "examples": [
+            {
+              "t": "Mklae (mk'lae) bi kntgmilan na ka kmux !",
+              "fr": "Les racines (l'enracinement) de l'ivraie sont tenaces (très dures , très fortes).",
+              "en": "The roots (the rooting) of the tares are tenacious (very hard, very strong).",
+              "zh": "稗子的根(根系)非常頑強(很硬、很牢)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "GAO",
+      "tag": "(R)",
+      "fr": "Choix - choisir.",
+      "en": "Choice - to choose.",
+      "zh": "選擇——挑選。",
+      "examples": [
+        {
+          "t": "Ongat bi k'laan ka gao so sayang!",
+          "fr": "Il est incompréhensible ton choix de maintenant (le choix que tu fais).",
+          "en": "Your choice of now (the choice you are making) is incomprehensible!",
+          "zh": "你現在的選擇(你所做的選擇)真令人費解!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gmao",
+          "paradigm": "°Gmao; gao, g'gi, g'gan, g'gun",
+          "fr": "Choisir - trier.",
+          "en": "To choose - to sort.",
+          "zh": "挑選——揀選。",
+          "examples": [
+            {
+              "t": "Ini tdoa xmut gmao oqon",
+              "fr": "Ce n'est pas bien (permi) de choisir arbitrairement la nourriture (dans les plats).",
+              "en": "It is not right (permitted) to pick out food arbitrarily (from the dishes).",
+              "zh": "隨意挑揀(盤中)食物是不好的(不被允許的)。"
+            },
+            {
+              "t": "Gmao bi oqon ka xea",
+              "fr": "Il est bien difficile (pour la nourriture).",
+              "en": "He is very picky (about food).",
+              "zh": "他(對食物)非常挑剔。"
+            },
+            {
+              "t": "G'gi bi bboax trabus so aangal so mmalu (vl.ti malu) nanak",
+              "fr": "Choisis bien tes graines d'arachides pour ne prendre que les bonnes.",
+              "en": "Choose your peanut seeds carefully so as to take only the good ones.",
+              "zh": "好好挑選你的花生種子,只取好的。"
+            }
+          ]
+        },
+        {
+          "form": "Gn'gan",
+          "fr": "Choix fait - ce qui a été choisi.",
+          "en": "Choice made - what has been chosen.",
+          "zh": "已做的選擇——被選中之物。",
+          "examples": [
+            {
+              "t": "Gn'gan so nanak ka dtxeyan ta kmpax",
+              "fr": "C'est toi seul qui les as choisis nos camarades de travail",
+              "en": "It is you alone who chose them, our work companions",
+              "zh": "我們的工作夥伴是你獨自挑選的"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "pages": [174, 177],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "L'PAN",
+      "tag": "(R. = DUK ??)",
+      "paradigm": "° Mduk (Mdup), Duk (dup), L'pi (d'pi), l'pan (d'pan), l'pun (d'pun).",
+      "fr": "Qui est en situation fermée. (nb. Il semble bien que cette réalisation soit une variation de: DPAN, dérivé de: DUP qui est le plus souvent réalisé: DUK).",
+      "en": "That which is in a closed position. (n.b. It seems quite likely that this realization is a variant of: DPAN, derived from: DUP, which is most often realized as: DUK).",
+      "zh": "處於關閉狀態的。（註：此形式似乎是 DPAN 的變體，源自 DUP，而 DUP 最常實現為 DUK。）",
+      "examples": [
+        {
+          "t": "Ga l'pan (d'pan) ka nduk ( N + DUP (DUK))",
+          "fr": "La porte est fermée.",
+          "en": "The door is closed.",
+          "zh": "門關著。"
+        }
+      ]
+    },
+    {
+      "hw": "L'PAX",
+      "tag": "(R)",
+      "fr": "Aiguiser - affûter.",
+      "en": "To sharpen - to whet.",
+      "zh": "磨利－磨（刀）。",
+      "subs": [
+        {
+          "form": "Lnpax",
+          "paradigm": "° Lnpax, l'pax, lpaxe, lpaxan, lpaxon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Saon niso lnpax ka poting",
+              "fr": "J'irai affûter ton coutelas.",
+              "en": "I will go sharpen your machete.",
+              "zh": "我會去磨你的山刀。"
+            }
+          ]
+        },
+        {
+          "form": "Lpaxan",
+          "fr": "Affûtage - Pierre à affûter.",
+          "en": "Sharpening - whetstone.",
+          "zh": "磨（利）－磨刀石。",
+          "examples": [
+            {
+              "t": "Miing ko lpaxan ll'pax no yayo so",
+              "fr": "Je cherche une pierre sur laquelle aiguiser ton couteau.",
+              "en": "I am looking for a stone on which to sharpen your knife.",
+              "zh": "我在找一塊可以磨你刀子的石頭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'PI",
+      "tag": "(D'PI ?) (R. = DUP = DUK ?)",
+      "fr": "Ferme ! (ordre). (nb. même remarque que pour: L'PAN, VR. plus haut.)",
+      "en": "Close! (order). (n.b. same remark as for: L'PAN, see above.)",
+      "zh": "關！（命令語氣）。（註：與 L'PAN 同樣的註解，見上文。）",
+      "examples": [
+        {
+          "t": "Ini so usa do, l'pi balae ka sapax so",
+          "fr": "Avant de partir ferme ta maison comme il faut !",
+          "en": "Before you leave, close your house properly!",
+          "zh": "你出門前，把家關好！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Slpian (R. = L'PI ?)",
+          "fr": "Qui est fermé, obturé - ce qui ferme, qui bouche.",
+          "en": "That which is closed, blocked - that which closes, which stops up.",
+          "zh": "被關閉、被堵住的－用來關閉、堵塞之物。",
+          "examples": [
+            {
+              "t": "Ga slpian kana nuxeng mo da",
+              "fr": "Mon nez est complètement bouché.",
+              "en": "My nose is completely blocked.",
+              "zh": "我的鼻子完全堵住了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'PI",
+      "tag": "(R. ?)",
+      "fr": "Balle du grain - Epi, ou partie de l'épi qui ne contient pas de grain.",
+      "en": "Chaff of the grain - ear (of grain), or part of the ear that contains no grain.",
+      "zh": "穀糠－穀穗，或穗上不含穀粒的部分。",
+      "examples": [
+        {
+          "t": "Ongat bi ka payai ta sayang ! L'pi nanak",
+          "fr": "Il n'est vraiment pas beau notre riz cette année ! Ce n'est que balle (qu'épis vides…)",
+          "en": "Our rice really isn't good this year! It's nothing but chaff (only empty ears…)",
+          "zh": "我們今年的稻子真的不好！只有穀糠（盡是空穗……）"
+        }
+      ]
+    },
+    {
+      "hw": "L'PONG",
+      "tag": "(R)",
+      "fr": "Ami - camarade - fiancé. (nb. souvent ce terme indique une famille, un foyer.)",
+      "en": "Friend - companion - fiancé. (n.b. this term often indicates a family, a household.)",
+      "zh": "朋友－同伴－未婚夫（妻）。（註：此詞常指一個家庭、一戶人家。）",
+      "examples": [
+        {
+          "t": "Xbalao l'pong no ka yako",
+          "fr": "Moi j'ai beaucoup d'amis.",
+          "en": "I have many friends.",
+          "zh": "我有很多朋友。"
+        },
+        {
+          "t": "Adi nyeqan l'pong na ka Mikat xo?",
+          "fr": "Est-ce que Micatz n'aurait pas un fiancé ?",
+          "en": "Wouldn't Micatz have a fiancé?",
+          "zh": "難道米卡特沒有未婚夫嗎？"
+        },
+        {
+          "t": "Pia namo xei ka daya",
+          "fr": "Combien de personnes êtes-vous là-haut ?",
+          "en": "How many of you are there up there?",
+          "zh": "你們在上面那裡有幾個人？"
+        },
+        {
+          "t": "Spat nami l'pong",
+          "fr": "Nous sommes quatre familles.",
+          "en": "We are four families.",
+          "zh": "我們是四戶人家。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sl'pong",
+          "fr": "Lier amitié - se fiancer - se fréquenter en vue du mariage.",
+          "en": "To form a friendship - to become engaged - to court with a view to marriage.",
+          "zh": "結交友誼－訂婚－以結婚為目的交往。"
+        },
+        {
+          "form": "Msl'pong",
+          "paradigm": "° Msl'pong, sl'pong, slpongi, slpongan, slpongun",
+          "fr": "Lier amitié - se fiancer - se fréquenter. (nb. Le rite signifiant ce partage d'amitié entre hommes, consiste à boire en même temps à la même coupe remplie d'alcool et ce, complètement. S'il s'agit de fiançailles, les parents des deux jeunes boivent ensemble une quantité d'alcool et mangent un repas de viande, le tout offert par la famille du garçon.)",
+          "en": "To form a friendship - to become engaged - to court. (n.b. The rite signifying this sharing of friendship between men consists of drinking at the same time from the same cup filled with alcohol, and doing so completely. In the case of an engagement, the parents of the two young people drink a quantity of alcohol together and eat a meal of meat, all offered by the boy's family.)",
+          "zh": "結交友誼－訂婚－交往。（註：象徵男子間分享友誼的儀式，是同時就著同一只盛滿酒的杯子喝，而且要喝乾。若是訂婚，兩位年輕人的父母一起喝一定量的酒並吃一頓肉食，全部由男方家庭提供。）",
+          "examples": [
+            {
+              "t": "Ga nsl'pong alang sipao ka anai mo",
+              "fr": "Mon beau frère fréquente du côté de Sipao (= en face).",
+              "en": "My brother-in-law is courting on the Sipao side (= across the way).",
+              "zh": "我的姊夫（妹夫）在希保那邊（＝對面）交往。"
+            }
+          ]
+        },
+        {
+          "form": "Mssl'pong",
+          "fr": "faire mutuellement une démarche pour se lier d'amitié.",
+          "en": "To take mutual steps to form a friendship with one another.",
+          "zh": "彼此採取行動以結交友誼。",
+          "examples": [
+            {
+              "t": "Ida mnssl'pong nani pax sbiyao ka yani Laotan",
+              "fr": "Il y a déjà très longtemps que Laotanne et moi nous nous sommes liés d'amitié.",
+              "en": "It has already been a very long time since Laotan and I formed our friendship.",
+              "zh": "勞丹和我結交友誼已經很久了。"
+            },
+            {
+              "t": "Ga nssl'pong ka Nati ni Sibal",
+              "fr": "Natchi et Sibal se fiancent en ce moment.",
+              "en": "Natchi and Sibal are getting engaged right now.",
+              "zh": "納提和希巴目前正在訂婚。"
+            }
+          ]
+        },
+        {
+          "form": "Slpongan",
+          "fr": "Fiançailles - durée d'une amitié. (nb. Pour ce terme, deux réalisations selon les locuteurs: SLPONGAN et SL'PNGAN.)",
+          "en": "Engagement - duration of a friendship. (n.b. For this term, two realizations according to speakers: SLPONGAN and SL'PNGAN.)",
+          "zh": "訂婚－友誼的期間。（註：此詞依講話者不同有兩種讀法：SLPONGAN 與 SL'PNGAN。）",
+          "examples": [
+            {
+              "t": "Bsiyaq bi ka slpongan daxa",
+              "fr": "Il y a bien longtemps qu'ils se fréquentent.",
+              "en": "They have been courting for a very long time.",
+              "zh": "他們交往已經很久了。"
+            },
+            {
+              "t": "Mxdo ka slpongan laqe do, kika yaxan mo",
+              "fr": "Après les fiançailles de mon fils, c'est alors que je viendrai.",
+              "en": "After my son's engagement, that is when I will come.",
+              "zh": "等我兒子訂婚之後，我才會來。"
+            }
+          ]
+        },
+        {
+          "form": "Psl'pong",
+          "fr": "Fiancer - rendre amis. (nb. Pour les fiançailles, la démarche est le plus souvent faite par les parents du garçon qui se rendent chez les parents de la fille.)",
+          "en": "To betroth - to make (people) friends. (n.b. For engagements, the approach is most often made by the boy's parents, who go to the home of the girl's parents.)",
+          "zh": "使訂婚－使結為朋友。（註：訂婚時，通常由男方父母主動前往女方父母家中提親。）"
+        }
+      ]
+    },
+    {
+      "hw": "L'PUN",
+      "tag": "( = R. ? - R. = DUK = DUP (fermer) ?)",
+      "fr": "Grenier - construction isolée de la maison, sur pilotis, où est entreposée la récolte.",
+      "en": "Granary - a structure separate from the house, on stilts, where the harvest is stored.",
+      "zh": "穀倉－與住屋分開、建於樁柱上、用來存放收成的建築。",
+      "examples": [
+        {
+          "t": "Ga Txngai bi betak qoaq ka l'pun nia",
+          "fr": "Son grenier est plein jusqu'au bord.",
+          "en": "His granary is full to the brim.",
+          "zh": "他的穀倉裝得滿到邊緣。"
+        }
+      ]
+    },
+    {
+      "hw": "LQBUX",
+      "tag": "(L'QBUç)",
+      "fr": "Pangolin.",
+      "en": "Pangolin.",
+      "zh": "穿山甲。"
+    },
+    {
+      "hw": "LQDO",
+      "tag": "(R)",
+      "fr": "Tromper - mystifier - attraper - attrape.",
+      "en": "To deceive - to mystify - to trick - trickery.",
+      "zh": "欺騙－迷惑－誆騙－騙局。",
+      "subs": [
+        {
+          "form": "Lmqdo",
+          "paradigm": "° Lmqdo, lqdo, lqdgi, lqdgan, lqdgun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Pusu lmqdo ka naqex nii",
+              "fr": "Ce vaurien est un fieffé menteur.",
+              "en": "This good-for-nothing is an out-and-out liar.",
+              "zh": "這個無賴是個十足的騙子。"
+            },
+            {
+              "t": "Ya bi lqdo, xo!",
+              "fr": "Et surtout ne trompe pas, hein !",
+              "en": "And above all, don't deceive, hey!",
+              "zh": "還有，千萬別騙人，喂！"
+            }
+          ]
+        },
+        {
+          "form": "Lqdgan",
+          "fr": "Rouerie - tromperie - piège.",
+          "en": "Cunning - deceit - trap.",
+          "zh": "詭計－欺詐－圈套。",
+          "examples": [
+            {
+              "t": "Musa ta madok (madop) o, asi ka mk'la lnqdo dopun! Ini biyao mtdiyal lqdgan ka samat",
+              "fr": "Pour aller à la chasse, il nous faut savoir feindre (ruser) avec les animaux qu'on veut chasser; le gibier se laisse facilement prendre aux ruses.",
+              "en": "To go hunting, we must know how to feign (to use cunning) with the animals we want to hunt; game is easily caught by trickery.",
+              "zh": "打獵時，我們必須懂得對想獵捕的動物使詐（用計）；獵物很容易中計被捕。"
+            }
+          ]
+        },
+        {
+          "form": "Tnqdo",
+          "fr": "Fieffé menteur - accusateur - celui qui dénonce (?). (nb. est-ce de la R. Lqdo ? - d'une R. QDO ? - TQDO ?).",
+          "en": "Out-and-out liar - accuser - one who denounces (?). (n.b. is it from the root Lqdo? - from a root QDO? - TQDO?).",
+          "zh": "十足的騙子－控告者－告發者(?)。（註：是源自詞根 Lqdo？－源自詞根 QDO？－TQDO？）"
+        },
+        {
+          "form": "Sqdo (Slqdo ? de R. Lqdo ?)",
+          "fr": "Accuser. VR. SQDO.",
+          "en": "To accuse. See SQDO.",
+          "zh": "控告。參見 SQDO。"
+        }
+      ]
+    },
+    {
+      "hw": "LQLIT",
+      "tag": "",
+      "fr": "Léopard.",
+      "en": "Leopard.",
+      "zh": "豹。",
+      "examples": [
+        {
+          "t": "Adi manu, lqlit ka ksugun no balae",
+          "fr": "Ce n'est rien d'autre (il n'y a aucune autre raison), c'est du léopard dont j'ai une peur bleue.",
+          "en": "It's nothing else (there is no other reason), it's the leopard that I am terribly afraid of.",
+          "zh": "沒有別的（沒有其他原因），我極其害怕的正是豹。"
+        }
+      ]
+    },
+    {
+      "hw": "LQLOQ",
+      "tag": "(R. = Q'LOQ = suie ?) (Lq'loq)",
+      "fr": "Encre. (Les taroko n'en connaissaient pas l'usage et l'auraient ainsi désigné par analogie avec la suie).",
+      "en": "Ink. (The Taroko did not know its use and would thus have named it by analogy with soot).",
+      "zh": "墨。（太魯閣人不知其用途，故似以與煤灰類比而如此命名。）"
+    },
+    {
+      "hw": "L'QNUX",
+      "tag": "(R)",
+      "fr": "Cerf (aujourd'hui la plus noble cible du chasseur). (nb. Les jeunes pousses de la ramure des cerfs est vendue un très beau prix, plusieurs honoraires mensuels d'un maître d'école pour une seule paire, employé par les chinois comme reconstituant ou aphrodisiaque).",
+      "en": "Deer (today the noblest quarry of the hunter). (n.b. The young shoots of deer antlers are sold at a very fine price, several months' salary of a schoolteacher for a single pair, used by the Chinese as a restorative or aphrodisiac).",
+      "zh": "鹿（今日獵人最高貴的獵物）。（註：鹿茸的嫩芽賣得很好的價錢，一對就值一名小學教師數個月的薪水，中國人用作補品或壯陽藥。）",
+      "examples": [
+        {
+          "t": "L'qnux ka pusu bi dopon troko",
+          "fr": "C'est le cerf qui est le gibier de choix des taroko.",
+          "en": "It is the deer that is the game of choice of the Taroko.",
+          "zh": "鹿正是太魯閣人首選的獵物。"
+        }
+      ]
+    },
+    {
+      "hw": "L'QTI",
+      "tag": "(R)",
+      "fr": "Roseau - sert pour tirer au sort (à la courte paille).",
+      "en": "Reed - used for drawing lots (drawing straws).",
+      "zh": "蘆葦－用來抽籤（抽短籤）。",
+      "examples": [
+        {
+          "t": "Spngun daxa lqti (vl. otoç) ima ka maangal",
+          "fr": "Ils veulent tirer au sort pour savoir qui (l')obtiendra.",
+          "en": "They want to draw lots to find out who will get it.",
+          "zh": "他們想抽籤來決定誰會得到（它）。"
+        }
+      ]
+    },
+    {
+      "hw": "LQTO",
+      "tag": "(R)",
+      "fr": "Creux de l'estomac - estomac.",
+      "en": "Pit of the stomach - stomach.",
+      "zh": "心窩－胃。",
+      "examples": [
+        {
+          "t": "Naqex bi lqto na",
+          "fr": "Il a mauvais estomac.",
+          "en": "He has a bad stomach.",
+          "zh": "他的胃不好。"
+        }
+      ]
+    },
+    {
+      "hw": "L'SONG",
+      "tag": "(R)",
+      "fr": "Anéantir - effacer - annihiler.",
+      "en": "To annihilate - to erase - to wipe out.",
+      "zh": "消滅－抹去－殲滅。",
+      "subs": [
+        {
+          "form": "Lmsong",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Miyax so lmsong kana ddyami ni kana ka ssapax nami xo ?",
+              "fr": "Viens-tu nous détruire tous et détruire toutes nos maisons ?",
+              "en": "Have you come to destroy us all and to destroy all our houses?",
+              "zh": "你是來把我們全部消滅、把我們所有的房子都毀掉嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUBU",
+      "tag": "(R)",
+      "fr": "Instrument de musique, sans doute le seul spécifiquement taroko conservé à ce jour. (nb. Fait d'un quart d'entre-noeuds de bambou, sur dix ou douze cm. de long, portant en son milieu de quatre à six anches amincies, une ficelle à chaque extrémité, l'une, à gauche, pour maintenir le tout devant la bouche et l'autre pour tirer par saccades et faire vibrer les anches par inspiration d'air).",
+      "en": "Musical instrument, doubtless the only specifically Taroko one preserved to this day. (n.b. Made from a quarter of a bamboo internode, ten or twelve cm long, bearing in its middle four to six thinned reeds, a string at each end, one, on the left, to hold the whole thing in front of the mouth and the other to pull in jerks and make the reeds vibrate by breathing in air).",
+      "zh": "樂器，無疑是至今保存下來唯一屬於太魯閣特有的樂器。（註：以四分之一節竹管製成，長約十至十二公分，中段有四至六片削薄的簧片，兩端各有一條繩，左邊那條用來把整件樂器固定在嘴前，另一條用來一頓一頓地拉動，藉吸氣使簧片振動。）",
+      "subs": [
+        {
+          "form": "Lmubu",
+          "fr": "Jouer de cet instrument.",
+          "en": "To play this instrument.",
+          "zh": "吹奏這件樂器。"
+        },
+        {
+          "form": "Mlubu",
+          "fr": "Celui qui joue de cet instrument.",
+          "en": "One who plays this instrument.",
+          "zh": "吹奏這件樂器的人。"
+        }
+      ]
+    },
+    {
+      "hw": "LUBWI",
+      "tag": "(LUBUI) (R)",
+      "fr": "Sac - sacoche - poche.",
+      "en": "Bag - satchel - pouch.",
+      "zh": "袋子－背包－口袋。",
+      "examples": [
+        {
+          "t": "syukai ta daxa lubwi trabus so xo ?",
+          "fr": "Tu permets que j'emprunte deux sacs de tes arachides ?",
+          "en": "Will you let me borrow two bags of your peanuts?",
+          "zh": "你讓我借兩袋你的花生好嗎？"
+        },
+        {
+          "t": "Lubwi poti",
+          "fr": "Sac en jute.",
+          "en": "Jute bag.",
+          "zh": "麻布袋。"
+        },
+        {
+          "t": "Kating lubwi",
+          "fr": "vache laitière (buffle qui porte un sac (?)).",
+          "en": "Dairy cow (buffalo that carries a bag (?)).",
+          "zh": "乳牛（帶著袋子的牛(?)）。"
+        },
+        {
+          "t": "Pax snii nanak ka nyeqan kating lubwi alang ta Taiwan",
+          "fr": "Ce n'est que depuis tout dernièrement qu'il y a des vaches laitières dans notre pays de Taiwan.",
+          "en": "It is only very recently that there have been dairy cows in our country of Taiwan.",
+          "zh": "直到最近，我們台灣才有乳牛。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Slubwi",
+          "fr": "pour être sac - prendre l'apparence de sac. (nb. distinguer de: SL'BUI = raccourcis (impératif), L'BU).",
+          "en": "To be a bag - to take on the appearance of a bag. (n.b. to be distinguished from: SL'BUI = shorten (imperative), L'BU).",
+          "zh": "成為袋子－呈現袋子的外形。（註：須與 SL'BUI＝縮短（命令語氣）、L'BU 區別。）"
+        },
+        {
+          "form": "Mslubwi",
+          "fr": "Devenir flasque (comme un sac) - se rider - prendre du ventre (un mur, une paroi).",
+          "en": "To become flabby (like a bag) - to wrinkle - to bulge (a wall, a partition).",
+          "zh": "變得鬆垮（像袋子）－起皺－鼓出（指牆、隔牆）。",
+          "examples": [
+            {
+              "t": "Mslubwi ka kndl'xan so",
+              "fr": "Le mur que tu as construit prend du ventre (menace de s'écrouler).",
+              "en": "The wall you built is bulging (threatening to collapse).",
+              "zh": "你砌的牆鼓出來了（有倒塌之虞）。"
+            },
+            {
+              "t": "ga plading mslubwi ka dq'las pai no",
+              "fr": "Le visage de grand mère commence à devenir flasque.",
+              "en": "Grandmother's face is beginning to become flabby.",
+              "zh": "祖母的臉開始變得鬆垮了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUBUX",
+      "tag": "(R)",
+      "fr": "Trompette. (nb. La seule jamais rencontrée est la corne de buffle qui en tient lieu.).",
+      "en": "Trumpet. (n.b. The only one ever encountered is the buffalo horn that serves as one).",
+      "zh": "喇叭。（註：所見過的唯一一種是充當喇叭的水牛角。）"
+    },
+    {
+      "hw": "LUDAN",
+      "tag": "(R)",
+      "fr": "Ancien - parents (géniteurs) - vieux - mûr.",
+      "en": "Elder - parents (progenitors) - old - ripe/mature.",
+      "zh": "長者－父母（生身父母）－年老的－成熟的。",
+      "examples": [
+        {
+          "t": "Balae bi ludan ka ddina no",
+          "fr": "Mes bambous sont vraiment mûrs.",
+          "en": "My bamboos are really mature.",
+          "zh": "我的竹子真的成熟了。"
+        },
+        {
+          "t": "Ludan bi (vl.: Luuda bi)",
+          "fr": "Très vieux.",
+          "en": "Very old.",
+          "zh": "很老。"
+        },
+        {
+          "t": "Ludan sbiyao",
+          "fr": "Les aïeux - les ancêtres.",
+          "en": "The forebears - the ancestors.",
+          "zh": "先人－祖先。"
+        },
+        {
+          "t": "Ludan suxal",
+          "fr": "Les anciens d'autrefois.",
+          "en": "The elders of former times.",
+          "zh": "昔日的長者。"
+        },
+        {
+          "t": "Ludan knxalan",
+          "fr": "Les sages, les vénérables anciens (Les vieux du même âge (?)).",
+          "en": "The wise ones, the venerable elders (the old people of the same age (?)).",
+          "zh": "智者、可敬的長者（同齡的老人(?)）。"
+        },
+        {
+          "t": "Mssli kana lludan (ldludan) knxalan npplngao ppxoqel daxa Banan",
+          "fr": "Tous les respectables anciens se réunissent pour discuter de la mise à mort de Ibanne.",
+          "en": "All the respectable elders gather to discuss the putting to death of Ibanne.",
+          "zh": "所有可敬的長者聚集起來商議處死伊班內之事。"
+        },
+        {
+          "t": "Ongat pax suxal ka ludan no",
+          "fr": "Papa et maman ne sont plus depuis longtemps !",
+          "en": "Papa and Mama have been gone for a long time!",
+          "zh": "爸爸和媽媽已經過世很久了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lludan (vl. Ldludan)",
+          "fr": "Les anciens (pluriel).",
+          "en": "The elders (plural).",
+          "zh": "長者們（複數）。",
+          "examples": [
+            {
+              "t": "Dludan",
+              "fr": "Les anciens (en général).",
+              "en": "The elders (in general).",
+              "zh": "長者們（泛指）。"
+            },
+            {
+              "t": "Dludan ni drbiyax",
+              "fr": "Les anciens et les jeunes (dans la force de l'âge).",
+              "en": "The elders and the young (in the prime of life).",
+              "zh": "長者與年輕人（正值壯年者）。"
+            }
+          ]
+        },
+        {
+          "form": "Sludan",
+          "fr": "Vieilli - vieux d'apparence.",
+          "en": "Aged - old in appearance.",
+          "zh": "顯老的－外表蒼老的。"
+        },
+        {
+          "form": "Msludan",
+          "fr": "Devenir vieux - paraître vieux - vieillir.",
+          "en": "To grow old - to look old - to age.",
+          "zh": "變老－顯得老－衰老。",
+          "examples": [
+            {
+              "t": "Sao bi snqlawax ka dxea! Kdngaan ka Atwi ni msludan bi ongat laqe daxa !",
+              "fr": "Ils étaient bien défavorisés, Atwi est stérile et ils ont vieilli sans avoir eu d'enfants.",
+              "en": "They were quite unfortunate; Atwi is barren and they grew old without having had children.",
+              "zh": "他們很不幸，阿推不孕，他們就這樣沒有孩子地老去了。"
+            }
+          ]
+        },
+        {
+          "form": "Knludan",
+          "fr": "Intensité de vieillissement.",
+          "en": "Intensity of ageing.",
+          "zh": "衰老的程度。",
+          "examples": [
+            {
+              "t": "Ma qudi kana ka tunuç so! ... Adi! Knludan nanak",
+              "fr": "Dis donc! Mais, ta tête est tout poivre et sel ! ... (pas étonnant !), c'est l'âge ! (Ce n'est que l'âge !).",
+              "en": "Say now! Why, your hair is all salt-and-pepper! ... (no wonder!), it's old age! (It's nothing but age!).",
+              "zh": "哎呀！你的頭髮都花白了！……（難怪！），是年紀啦！（不過是上了年紀罷了！）"
+            }
+          ]
+        },
+        {
+          "form": "Knldanan",
+          "fr": "La vieillesse - Temps, état de la vieillesse.",
+          "en": "Old age - the time, the state of old age.",
+          "zh": "老年－年老的時期、狀態。",
+          "examples": [
+            {
+              "t": "Bbalao bi knldanan na ka tama no",
+              "fr": "Mon père a une bien longue vieillesse.",
+              "en": "My father has a very long old age.",
+              "zh": "我父親的晚年很長。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUDAO",
+      "tag": "(R)",
+      "fr": "Sens dessus dessous - en désordre.",
+      "en": "Topsy-turvy - in disorder.",
+      "zh": "亂七八糟－雜亂無章。",
+      "subs": [
+        {
+          "form": "Mludao",
+          "fr": "Qui est tout en désordre. (nb. parfois réalisé: MLUDO = qui est sous l'aspect d'un nid).",
+          "en": "That which is all in disorder. (n.b. sometimes realized: MLUDO = which has the appearance of a nest).",
+          "zh": "一片凌亂的。（註：有時讀作 MLUDO＝呈鳥巢狀的）。",
+          "examples": [
+            {
+              "t": "Ongat bi ka iso! Xmut mludao kddiyax ka sapax so!",
+              "fr": "Tu es pécial, toi ! (tu n'existes pas, toi !) ; ta maison est toujours tout en l'air (tout en désordre !).",
+              "en": "You are something special! (you're impossible, you!); your house is always all over the place (all in disorder!).",
+              "zh": "你真是個怪人！（你這人真沒法說！）；你的家總是亂糟糟的（一片凌亂！）。"
+            }
+          ]
+        },
+        {
+          "form": "Pludao",
+          "fr": "Mettre en désordre - déranger tout.",
+          "en": "To throw into disorder - to disturb everything.",
+          "zh": "弄亂－把一切攪亂。",
+          "examples": [
+            {
+              "t": "Manu ka yaxan so pludao kana sapax laqe da !",
+              "fr": "Qu'est-ce qui te prend de venir mettre sens dessus dessous toute la maison du fils (de la fille) ?",
+              "en": "What has got into you, coming to turn the whole house of the son (of the daughter) upside down?",
+              "zh": "你是怎麼了，竟來把兒子（女兒）整個家翻得天翻地覆？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUKUS",
+      "tag": "(LOKUS) (R)",
+      "fr": "Habit.",
+      "en": "Garment - clothing.",
+      "zh": "衣服。",
+      "examples": [
+        {
+          "t": "Mxolyaq kana ka lukus no da",
+          "fr": "Tous mes habits sont mouillés.",
+          "en": "All my clothes are wet.",
+          "zh": "我所有的衣服都濕了。"
+        },
+        {
+          "t": "Lukus bi manu ka nii?",
+          "fr": "Quelle sorte (espèce) d'habit est-ce là ?",
+          "en": "What kind (sort) of garment is this?",
+          "zh": "這是哪種（哪類）衣服？"
+        },
+        {
+          "t": "Lukus knpaxan",
+          "fr": "Habits de travail.",
+          "en": "Work clothes.",
+          "zh": "工作服。"
+        },
+        {
+          "t": "Lukus tbilan (vl. lukus pspingan)",
+          "fr": "Habits de fête, toilette.",
+          "en": "Festive clothes, finery.",
+          "zh": "節慶盛裝、禮服。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlukus",
+          "fr": "Être habillé - s'habiller - mettre un habit.",
+          "en": "To be dressed - to dress oneself - to put on a garment.",
+          "zh": "穿著衣服－穿衣－穿上一件衣服。",
+          "examples": [
+            {
+              "t": "Ya xan ! Ga ko mlukus",
+              "fr": "Attends un peu ; je m'habille (je suis en train de m'habiller).",
+              "en": "Wait a moment; I'm getting dressed (I'm in the middle of dressing).",
+              "zh": "等一下；我在穿衣服（我正在著裝）。"
+            }
+          ]
+        },
+        {
+          "form": "Malukus",
+          "fr": "Deviendra habit.",
+          "en": "Will become a garment.",
+          "zh": "將成為衣服。",
+          "examples": [
+            {
+              "t": "Malukus n'xal kana ka tnunan so sdurai",
+              "fr": "Tout ce que tu as tissé dernièrement deviendra habits plus tard.",
+              "en": "Everything you have woven lately will become clothes later on.",
+              "zh": "你最近織的一切日後都會做成衣服。"
+            }
+          ]
+        },
+        {
+          "form": "Plukus",
+          "paradigm": "° Mplukus, plukus, plkusi, plkusan, plkusun.",
+          "fr": "Mettre sur soi un habit - faire porter un habit - habiller.",
+          "en": "To put a garment on oneself - to have (someone) wear a garment - to dress (someone).",
+          "zh": "給自己穿上衣服－讓人穿衣－給人穿衣。",
+          "examples": [
+            {
+              "t": "Plkusi nuxul xali ka laqe so; ga msxelao bi",
+              "fr": "Habille donc un peu plus chaudement ton gosse; il tousse beaucoup.",
+              "en": "Do dress your kid a bit more warmly; he coughs a lot.",
+              "zh": "給你的孩子穿暖和一點吧；他咳得很厲害。"
+            }
+          ]
+        },
+        {
+          "form": "Plkusun",
+          "fr": "Habit à mettre - qu'on veut, doit habiller.",
+          "en": "Garment to be put on - that one wants, must wear.",
+          "zh": "要穿的衣服－想穿、須穿的衣服。",
+          "examples": [
+            {
+              "t": "Plkusun no manu uusa no alang?",
+              "fr": "Quel habit dois-je mettre pour aller au village ?",
+              "en": "Which garment must I put on to go to the village?",
+              "zh": "我該穿哪件衣服去村子？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "pages": [130, 133],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "KOYOX", "tag": "(R)",
+      "fr": "Femme - épouse - femelle.",
+      "en": "Woman - wife - female.",
+      "zh": "女人—妻子—雌性。",
+      "examples": [
+        { "t": "Kingal loan sapax nami o, spat snao ni lima koyox",
+          "fr": "Ma famille (compte) quatre hommes et cinq femmes.",
+          "en": "My family (numbers) four men and five women.",
+          "zh": "我家（共）有四個男人和五個女人。" },
+        { "t": "Uxai koyox mo ka Labai",
+          "fr": "Labai n'est pas ma femme.",
+          "en": "Labai is not my wife.",
+          "zh": "Labai不是我的妻子。" },
+        { "t": "Adi koyox mo ka Labai",
+          "fr": "Je ne prétends pas que Labai est ma femme.",
+          "en": "I do not claim that Labai is my wife.",
+          "zh": "我並不聲稱Labai是我的妻子。" },
+        { "t": "Adi koyox mo da ka Labai",
+          "fr": "Je ne veux plus que Labai soit ma femme.",
+          "en": "I no longer want Labai to be my wife.",
+          "zh": "我不要Labai再作我的妻子了。" }
+      ],
+      "subs": [
+        { "form": "Kkoyox",
+          "fr": "(var. Kikoyox) Les femmes. (Pluriel, plusieurs..)",
+          "en": "(var. Kikoyox) The women. (Plural, several..)",
+          "zh": "（或：Kikoyox）女人們。（複數、多人……）",
+          "examples": [] },
+        { "form": "Dkoyox",
+          "fr": "Les femmes (en général) - du groupe des femmes - du sexe féminin.",
+          "en": "Women (in general) - of the group of women - of the female sex.",
+          "zh": "女人（泛指）—女人群體的—女性的。",
+          "examples": [
+            { "t": "Ini k'la mapa ka dkoyox",
+              "fr": "Les Femmes ne sont pas faites pour porter (de lourdes charges !!).",
+              "en": "Women are not made for carrying (heavy loads!!).",
+              "zh": "女人不是生來背負（重物！！）的。" }
+          ] },
+        { "form": "Kyoxan",
+          "fr": "Aux femmes - à la femme - pour la femme.",
+          "en": "To the women - to the woman - for the woman.",
+          "zh": "對女人們—對女人—為女人。",
+          "examples": [
+            { "t": "Lngagi nak (=nanak) kyoxan",
+              "fr": "Tu n'as qu'à le dire à la (aux) femme (s).",
+              "en": "Just say it to the woman (women).",
+              "zh": "你只管對那（些）女人說。" }
+          ] },
+        { "form": "Skkoyox",
+          "fr": "Feu ma (la) femme - défunte.",
+          "en": "My (the) late wife - deceased.",
+          "zh": "亡妻—已故的（妻子）。",
+          "examples": [
+            { "t": "Nskkoyox mo ka lukus gaga",
+              "fr": "Ces habits là sont ceux de ma défunte femme.",
+              "en": "Those clothes there are my late wife's.",
+              "zh": "那些衣服是我亡妻的。" }
+          ] },
+        { "form": "Nkoyox",
+          "fr": "De la femme - propriété de la femme - féminin.",
+          "en": "Of the woman - the woman's property - feminine.",
+          "zh": "女人的—女人的所有物—女性的。",
+          "examples": [
+            { "t": "Nkoyox Akit ka pala",
+              "fr": "La jupe (le pagne) est à la femme de Akits. (Très souvent ce terme est une expression courante et polie pour désigner les organes génitaux de la femme; mais dit aussi: ce qui appartient, ce qui est propre de la femme, des femmes).",
+              "en": "The skirt (the loincloth) belongs to Akits's wife. (Very often this term is a common and polite expression for the woman's genitals; but it also means: what belongs to, what is proper to the woman, to women.)",
+              "zh": "這裙子（腰布）是Akits妻子的。（此詞常作為指稱女性生殖器的通行而委婉的說法；但也指屬於女人、女人特有的東西。）" }
+          ] },
+        { "form": "Snkoyox",
+          "fr": "A propos de femmes , ou: de la femme.",
+          "en": "About women, or: about the woman.",
+          "zh": "關於女人們，或：關於女人。",
+          "examples": [
+            { "t": "daxa mnsuwai nii o , diyax diyax ida snkoyox mqqan",
+              "fr": "Ces deux frères (cousins), chaque jour se disputent à propos de femme.",
+              "en": "These two brothers (cousins) quarrel every day over a woman.",
+              "zh": "這兩兄弟（堂表兄弟）天天為了女人爭吵。" }
+          ] },
+        { "form": "Tnkoyox",
+          "fr": "Le propriétaire de la femme - le responsable,le géniteur de la femme.",
+          "en": "The owner of the woman - the one responsible for, the begetter of the woman.",
+          "zh": "女人的所有者—女人的負責人、生身之父。",
+          "examples": [
+            { "t": "Ima namo ka tnkoyox",
+              "fr": "Quel est celui d'entre vous qui est le mari (de cette femme).",
+              "en": "Which one of you is the husband (of this woman)?",
+              "zh": "你們當中誰是（這女人的）丈夫？" }
+          ] },
+        { "form": "Mpakoyox",
+          "fr": "Deviendra l'épouse.",
+          "en": "Will become the wife.",
+          "zh": "將成為妻子。",
+          "examples": [
+            { "t": "Ana so m'adi o, ida so mpakoyox mo!",
+              "fr": "Bien que tu dises non (que tu refuses), tu deviendras certainement ma femme.",
+              "en": "Even though you say no (refuse), you will certainly become my wife.",
+              "zh": "即使你說不（你拒絕），你也一定會成為我的妻子。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KPAUX", "tag": "(R. PAUX ?)",
+      "crossRef": "VR. PAUX",
+      "fr": "Tourner - retourner - renverser.",
+      "en": "To turn - turn over - overturn.",
+      "zh": "轉動—翻轉—翻倒。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "K'PAX", "tag": "(KPAX ?) (R)",
+      "fr": "Travail - travailler.",
+      "en": "Work - to work.",
+      "zh": "工作—做工。",
+      "examples": [
+        { "t": "Ana ini ko k'pax ka yako o , usa n'xali km'pax ni, k'pax n'xali da",
+          "fr": "Même si je travaille pas, va vite travailler toi et travaille vite!",
+          "en": "Even if I don't work, you go quickly and work, and work fast!",
+          "zh": "就算我不工作，你也快去工作，快點做！" }
+      ],
+      "subs": [
+        { "form": "Kmpax",
+          "paradigm": "°Kmpax, k'pax, kpaxe, kpaxan, kpaxon.",
+          "fr": "(km'pax) Travailler.",
+          "en": "(km'pax) To work.",
+          "zh": "（km'pax）工作。",
+          "examples": [
+            { "t": "Ini kila (k'la) kmpax ka lisao",
+              "fr": "Le jeune homme ne sait pas travailler.",
+              "en": "The young man does not know how to work.",
+              "zh": "這個年輕人不會工作。" },
+            { "t": "Kmpax trabus",
+              "fr": "travailler (désherber, piocher) les arachides.",
+              "en": "to work (weed, hoe) the peanuts.",
+              "zh": "整理（除草、鋤）花生。" },
+            { "t": "Kpaxe tityex ngangot sapax",
+              "fr": "Nettoie ( balayer, piocher, mettre en ordre) un peu devant la maison .",
+              "en": "Clean up (sweep, hoe, put in order) a little in front of the house.",
+              "zh": "把屋子前面稍微整理一下（打掃、鋤地、收拾）。" }
+          ] },
+        { "form": "Mk'pax",
+          "fr": "Ouvrier - artisan - celui qui travaille.",
+          "en": "Worker - artisan - one who works.",
+          "zh": "工人—工匠—做工的人。",
+          "examples": [
+            { "t": "Xmut ko mk'pax kmpaxan ka yako",
+              "fr": "Je ne suis qu'un ouvrier agricole.",
+              "en": "I am only a farm laborer.",
+              "zh": "我只是個農工。" }
+          ] },
+        { "form": "Dmk'pax",
+          "fr": "(dmqapax) Les ouvriers en général.",
+          "en": "(dmqapax) Workers in general.",
+          "zh": "（dmqapax）泛指工人們。",
+          "examples": [
+            { "t": "Mluxai mnyeq alang paro ka dmk'pax kodyo",
+              "fr": "Les ouvriers d'usine d'ordinaire habitent les villes.",
+              "en": "Factory workers usually live in the cities.",
+              "zh": "工廠的工人通常住在城市裡。" }
+          ] },
+        { "form": "Knpaxan",
+          "fr": "(knpaxan - kpaxan) Endroit (ou:temps) où il a été fait un travail.",
+          "en": "(knpaxan - kpaxan) Place (or: time) where work has been done.",
+          "zh": "（knpaxan－kpaxan）已做過工作的地方（或：時間）。",
+          "examples": [
+            { "t": "Ongat kpaxan mo da! Knpaxan daxa kana",
+              "fr": "Je n'ai plus où travailler, tout est déjà travaillé par d'autres.",
+              "en": "I have nowhere left to work; everything has already been worked by others.",
+              "zh": "我沒有地方可以工作了，全都已被別人做過了。" }
+          ] },
+        { "form": "Pkpax",
+          "paradigm": "°Mpkpax, pkpax, pkpaxe, pkpaxan, pkpaxon.",
+          "fr": "Faire travailler - donner du travail.",
+          "en": "To make (someone) work - to give work.",
+          "zh": "使人工作—給人工作。",
+          "examples": [
+            { "t": "Pkpaxe lqlaqe so da",
+              "fr": "Tu n'as qu'à faire travailler tes enfants.",
+              "en": "Just make your children work.",
+              "zh": "你只管讓你的孩子們去工作。" },
+            { "t": "Pkpaxon mo dludan ka ttrabus mo",
+              "fr": "Je veux faire piocher toutes mes arachides par les anciens.",
+              "en": "I want to have all my peanuts hoed by the elders.",
+              "zh": "我要讓老人們把我所有的花生都鋤好。" }
+          ] },
+        { "form": "Skpax",
+          "fr": "(sk'pax - skapax) (moyen) pour travailler.",
+          "en": "(sk'pax - skapax) (Means) for working.",
+          "zh": "（sk'pax－skapax）用來工作的（工具、方法）。",
+          "examples": [
+            { "t": "Mnsa mali bqalox ka Liwis skpax na knpaxan",
+              "fr": "Liwis est allé acheter une pioche pour travailler dans ses champs.",
+              "en": "Liwis went to buy a hoe to work in his fields.",
+              "zh": "Liwis去買了一把鋤頭，好在他的田裡工作。" }
+          ] },
+        { "form": "Spkpax",
+          "fr": "Pour donner du travail - pour faire travailler.",
+          "en": "For giving work - for making (someone) work.",
+          "zh": "為了給人工作—為了使人工作。",
+          "examples": [
+            { "t": "Mnangal na tntaqan baki nia spkpax na laqe",
+              "fr": "Il a pris le brûlis déjà fait par son beau-père pour donner du travail à son fils.",
+              "en": "He took the burned-over clearing already made by his father-in-law to give work to his son.",
+              "zh": "他把岳父已燒墾好的地拿來，好給他兒子工作做。" }
+          ] },
+        { "form": "Kpaxon",
+          "fr": "Travail (à faire) - occupation - fonction - action.",
+          "en": "Work (to be done) - occupation - function - action.",
+          "zh": "（待做的）工作—職業—職務—行動。",
+          "examples": [
+            { "t": "Manu bi ka kpaxon so?",
+              "fr": "Quel est donc ton emploi ?",
+              "en": "What then is your job?",
+              "zh": "你的職業到底是什麼？" },
+            { "t": "Kpaxon mo kia ka nii",
+              "fr": "Je le ferai plus tard ce travail.",
+              "en": "I will do this work later.",
+              "zh": "這件工作我以後再做。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KPOLING", "tag": "(R. = POLING ?)",
+      "fr": "Entourer - cerner.",
+      "en": "To surround - encircle.",
+      "zh": "包圍—圍困。",
+      "examples": [],
+      "subs": [
+        { "form": "Kmpoling",
+          "fr": "Entourer - assièger.",
+          "en": "To surround - besiege.",
+          "zh": "包圍—圍攻。",
+          "examples": [
+            { "t": "Mniyax kmpoling alang ta ka dpais",
+              "fr": "Les ennemis sont venus encercler notre territoire. VR. KMPOLING .",
+              "en": "The enemies came to encircle our territory. See KMPOLING.",
+              "zh": "敵人來包圍我們的地域了。參見KMPOLING。" }
+          ] },
+        { "form": "Knplingan",
+          "fr": "Foule - rassemblement - troupeau.",
+          "en": "Crowd - gathering - herd.",
+          "zh": "人群—集會—畜群。",
+          "examples": [] }
+      ]
+    },
+    {
+      "hw": "KPOXEL", "tag": "(R. ? - R. = POXEL ?)",
+      "fr": "Dur d'oreille - sourd.",
+      "en": "Hard of hearing - deaf.",
+      "zh": "重聽—耳聾。",
+      "examples": [
+        { "t": "Kpoxel xali ka bilat mo",
+          "fr": "Mes oreilles sont un peu sourdes.",
+          "en": "My ears are a little deaf.",
+          "zh": "我的耳朵有點聾。" }
+      ],
+      "subs": [
+        { "form": "Mkpoxel",
+          "fr": "Qui est dur d'oreille - qui est sourd.",
+          "en": "Who is hard of hearing - who is deaf.",
+          "zh": "重聽的—耳聾的。",
+          "examples": [
+            { "t": "Pax tnkulan mo daya o, mkpoxel ka isil bilat mo da",
+              "fr": "Depuis ma chute,là haut, une de mes oreilles est sourde.",
+              "en": "Since my fall, up there, one of my ears has been deaf.",
+              "zh": "自從我在上面那裡跌倒之後，我的一隻耳朵就聾了。" }
+          ] },
+        { "form": "Pnkpoxel",
+          "fr": "Faire le sourd - se comporter comme un sourd.",
+          "en": "To play deaf - behave like a deaf person.",
+          "zh": "裝聾—表現得像聾子。",
+          "examples": [
+            { "t": "Ya bi kiso ! tksao nanak sao ini k'la, kia da! Adi ole o, ana qoqo pnkpoxel so",
+              "fr": "N'aie pas peu! Tu n'as qu'à faire comme si tu ne savais pas, voilà ! Ou bien alors, tu n'as qu'à faire le sourd!",
+              "en": "Don't be afraid! Just act as if you didn't know, there! Or else, just play deaf!",
+              "zh": "別怕！你只管裝作不知道就好了！要不然，你就裝聾好了！" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KPTOXAN", "tag": "(R. = POTOX ?)",
+      "fr": "Veuve - veuf.",
+      "en": "Widow - widower.",
+      "zh": "寡婦—鰥夫。",
+      "examples": [
+        { "t": "Xbalao bi knptoxan alang ta Morisaka sayang",
+          "fr": "Il y a beaucoup de veuves chez nous à Morisaka aujourd'hui!",
+          "en": "There are many widows in our village at Morisaka today!",
+          "zh": "如今我們Morisaka部落裡有很多寡婦！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KSA", "tag": "(R)",
+      "fr": "La marche - le fait de marcher.",
+      "en": "Walking - the act of walking.",
+      "zh": "行走—走路這件事。",
+      "examples": [
+        { "t": "Ini ksa ka laqe so xo? ... Ini na!",
+          "fr": "Ton enfant ne marche pas encore? ... Pas encore.",
+          "en": "Doesn't your child walk yet? ... Not yet.",
+          "zh": "你的孩子還不會走路嗎？……還不會！" }
+      ],
+      "subs": [
+        { "form": "Mksa",
+          "paradigm": "°Mksa, ksa, .?. , ksaan, ksaon.",
+          "fr": "Marcher (à pieds) - Fonctionner, rouler (machine, voiture..).",
+          "en": "To walk (on foot) - to function, to run (machine, car..).",
+          "zh": "（徒步）行走—運轉、行駛（機器、汽車……）。",
+          "examples": [
+            { "t": "Mksa so xo? Papa so kating xo?",
+              "fr": "Tu vas à pieds? Tu montes sur le buffle?",
+              "en": "Are you going on foot? Are you riding the buffalo?",
+              "zh": "你走路去嗎？還是騎水牛去？" },
+            { "t": "Mnksa betak mkdaxa ka toke mo ni mnxoqel da!",
+              "fr": "Ma montre a marché pendant deux jours puis elle s'est arrêtée (elle est morte).",
+              "en": "My watch ran for two days and then it stopped (it died).",
+              "zh": "我的錶走了兩天然後就停了（它死了）。" },
+            { "t": "Xmut mksa ka mnalox mo",
+              "fr": "Sans raison mon mal se déplace (ce n'est jamais à la même place que celà me fait mal).",
+              "en": "For no reason my pain moves about (it is never in the same place that it hurts me).",
+              "zh": "我的病痛無緣無故到處移動（痛的地方從來不在同一處）。" },
+            { "t": "Mksa papaq = Mksa qaqai",
+              "fr": "Marcher à pieds.",
+              "en": "To walk on foot.",
+              "zh": "徒步行走。" }
+          ] },
+        { "form": "Mkksa",
+          "fr": "Errant - ambulant - vagabond.",
+          "en": "Wandering - itinerant - vagabond.",
+          "zh": "流浪的—遊走的—流浪漢。",
+          "examples": [
+            { "t": "Mkksa bi ka Talan; adi motoç xo?",
+              "fr": "Talanne n'arrête pas d'errer; serait il fou?",
+              "en": "Talanne never stops wandering; could he be mad?",
+              "zh": "Talanne不停地遊蕩；他是不是瘋了？" }
+          ] },
+        { "form": "Ksaan",
+          "fr": "Espace (de temps ou de lieu) où se fait la marche.",
+          "en": "Span (of time or place) in which the walking is done.",
+          "zh": "行走所經的（時間或地點的）範圍。",
+          "examples": [
+            { "t": "Mkdaxa ka knsaan mo muda \"lu",
+              "fr": "C'est pendant deux jours que j'ai marché pour faire le chemin.",
+              "en": "It was for two days that I walked to cover the road.",
+              "zh": "我走那條路走了兩天。" }
+          ] },
+        { "form": "Ksaon",
+          "fr": "La route à faire en marchant.",
+          "en": "The road to be covered on foot.",
+          "zh": "要步行走完的路。",
+          "examples": [
+            { "t": "Ksaon mo kana saman ka \"lu nii",
+              "fr": "Cette route, je dois la faire toute à pieds demain.",
+              "en": "This road — I must do it all on foot tomorrow.",
+              "zh": "這條路，明天我得全程步行走完。" }
+          ] },
+        { "form": "Pksa",
+          "fr": "Faire marcher - faire faire de la marche.",
+          "en": "To make (someone) walk - have (someone) do some walking.",
+          "zh": "使行走—讓人走路。",
+          "examples": [
+            { "t": "Naqex bi ka knta'to papa; pksa tityex papaq,kika mxa malu ka laqe so",
+              "fr": "C'est mauvais de toujours voyager monté; Fais le donc un peu marcher à pieds, ton gosse, celà lui fera du bien.",
+              "en": "It is bad always to travel riding; so make him walk a little on foot, your kid — it will do him good.",
+              "zh": "老是騎著出門不好；讓你的小孩稍微走走路吧，這對他有好處。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KSA", "tag": "(R. ? - R. = MSA ?)",
+      "fr": "Dis! - dites!",
+      "en": "Say! (singular) - say! (plural)",
+      "zh": "（你）說！—（你們）說！",
+      "examples": [
+        { "t": "Miyax ko saman, msa ka tama,ksa",
+          "fr": "Dis : Je viens demain, a dit papa.",
+          "en": "Say: 'I am coming tomorrow,' said father.",
+          "zh": "你去說：「我明天來」，爸爸這麼說了。" },
+        { "t": "Ya bi ksa lnglong: Laqe ko mtgisa",
+          "fr": "Ne dis pas au fond de toi: Je suis fils du professeur!",
+          "en": "Do not say within yourself: I am the teacher's son!",
+          "zh": "不要在心裡說：我是老師的兒子！" }
+      ],
+      "subs": [
+        { "form": "Mkksa",
+          "fr": "Se dire mutuellement.",
+          "en": "To say to one another.",
+          "zh": "互相說。",
+          "examples": [
+            { "t": "Malu bi kia, mkksa kana",
+              "fr": "Ils se disent les uns aux autres: Celà est bien.",
+              "en": "They all say to one another: That is good.",
+              "zh": "他們彼此都說：那很好。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KSAXOL", "tag": "(R)",
+      "fr": "Terme très employé, et très vague, indiquant le coeur, l'intérieur, l'essentiel, la conscience.",
+      "en": "A very frequently used and very vague term, indicating the heart, the inside, the essence, the conscience.",
+      "zh": "非常常用而含義甚廣的詞，指心、內部、本質、良心。",
+      "examples": [
+        { "t": "Ksaxol ladax",
+          "fr": "Le coeur d'une grume.",
+          "en": "The heart of a log.",
+          "zh": "原木的芯。" },
+        { "t": "Naqex ksaxol na",
+          "fr": "Son fond est mauvais - Son interieur est pourri.",
+          "en": "Its core is bad - its inside is rotten.",
+          "zh": "它的內心是壞的—它的內部爛了。" },
+        { "t": "Pax bi ksaxol ka lngao mo",
+          "fr": "Je parle du fond du coeur.",
+          "en": "I speak from the bottom of my heart.",
+          "zh": "我是發自內心說的。" },
+        { "t": "Sao bi mangal ksaxol ka nkari so",
+          "fr": "C'est effrayant (enlève le coeur) ce que tu dis.",
+          "en": "What you say is frightening (it takes the heart away).",
+          "zh": "你說的話真嚇人（把心都奪走了）。" }
+      ],
+      "subs": [
+        { "form": "Gksaxol",
+          "fr": "Qui touche le coeur.",
+          "en": "That touches the heart.",
+          "zh": "觸動人心的。",
+          "examples": [
+            { "t": "Asi gksaxol ka lntadan qoaq nia",
+              "fr": "Ses paroles (le son de sa bouche) vont droit au coeur.",
+              "en": "His words (the sound of his mouth) go straight to the heart.",
+              "zh": "他的話（他口中的聲音）直入人心。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KSIA", "tag": "(R)",
+      "fr": "Eau - liquide.",
+      "en": "Water - liquid.",
+      "zh": "水—液體。",
+      "examples": [
+        { "t": "Malu bi maxon ka ksia",
+          "fr": "L'eau est bonne à boire.",
+          "en": "The water is good to drink.",
+          "zh": "這水好喝。" },
+        { "t": "Malu bi maxan ka sia",
+          "fr": "L'eau est facile à boire.",
+          "en": "The water is easy to drink.",
+          "zh": "這水容易入口。" },
+        { "t": "Kmimax ko bi; adi nyeqan dengdang so xo?",
+          "fr": "J'aimerais bien boire; aurais tu de l'eau bouillante ?",
+          "en": "I would very much like to drink; would you have some boiling water?",
+          "zh": "我很想喝；你有開水嗎？" },
+        { "t": "Mdui ksia",
+          "fr": "Chef (?). Celui qui, du bout de sa main trempée dans une certaine eau rituelle, touche les guerriers et les chasseurs, avant leur départ, pour leur donner mission et protection. Ce rite devient de plus en plus rare.",
+          "en": "Chief (?). The one who, with the tip of his hand dipped in a certain ritual water, touches the warriors and the hunters before their departure, to give them mission and protection. This rite is becoming rarer and rarer.",
+          "zh": "首領（？）。此人以蘸過某種儀式用水的指尖，在戰士和獵人出發前碰觸他們，賦予他們使命與庇佑。這種儀式已越來越少見。" }
+      ],
+      "subs": [
+        { "form": "Kmsia",
+          "fr": "Sucre ( = Kmksia ?) - Ce qui fond (?) - ce qui fait saliver (?).",
+          "en": "Sugar ( = Kmksia ?) - what melts (?) - what makes one salivate (?).",
+          "zh": "糖（＝Kmksia？）—會融化之物（？）—令人流口水之物（？）。",
+          "examples": [] },
+        { "form": "Mksia",
+          "fr": "Devenir eau - se liquéfier.",
+          "en": "To become water - liquefy.",
+          "zh": "變成水—液化。",
+          "examples": [
+            { "t": "Nasi so m'xapui (mapui - mapwi) xei qouni nii do, mpaksia kana da",
+              "fr": "Si tu fais bouillir les fruits de cet arbre, ils vont se liquéfier.",
+              "en": "If you boil the fruits of this tree, they will liquefy.",
+              "zh": "如果你把這棵樹的果實煮沸，它們就會化成水。" }
+          ] },
+        { "form": "Pksyaon",
+          "fr": "Ce qu'on veut liquéfier.",
+          "en": "What one wants to liquefy.",
+          "zh": "想要液化之物。",
+          "examples": [
+            { "t": "pksyaon so kana ka xoda so nii xo?",
+              "fr": "Veux tu réduire en eau toute ta glace ?",
+              "en": "Do you want to turn all your ice into water?",
+              "zh": "你要把你所有的冰都化成水嗎？" }
+          ] },
+        { "form": "Sksia",
+          "fr": "(Sksiya) Juteux - aqueux.",
+          "en": "(Sksiya) Juicy - watery.",
+          "zh": "（Sksiya）多汁的—水分多的。",
+          "examples": [
+            { "t": "sksia kana ka bonga so",
+              "fr": "Toutes tes patates douces sont pleines d'eau.",
+              "en": "All your sweet potatoes are full of water.",
+              "zh": "你的地瓜全都水汪汪的。" }
+          ] }
+      ]
+    },
+    {
+      "hw": "KSIYUK", "tag": "(R)",
+      "fr": "(Est ce en relation avec: SMIYUK = répondre ?) Emprunt - prêt .",
+      "en": "(Is this related to SMIYUK = to answer?) Borrowing - loan.",
+      "zh": "（是否與SMIYUK＝回答有關？）借入—借出。",
+      "examples": [],
+      "subs": [
+        { "form": "Kmsiyuk",
+          "paradigm": "°Kmsiyuk, ksiyuk, ksyuki, ksyukan, ksyukun.",
+          "fr": "Emprunter - prêter.",
+          "en": "To borrow - to lend.",
+          "zh": "借入—借出。",
+          "examples": [
+            { "t": "Miyax so kmsiyuk pila, msa so o, ma wana kksiyuk pila ka yaxan so knan?",
+              "fr": "Tu viens emprunter de l'argent,me dis tu; Ainsi donc, tu ne viens chez moi que pour emprunter de l'argent?",
+              "en": "You come to borrow money, you tell me; so then, you only come to my place to borrow money?",
+              "zh": "你說你是來借錢的；這麼說，你來我這裡就只是為了借錢？" }
+          ] },
+        { "form": "Mksiyuk",
+          "fr": "Emprunteur - prêteur.",
+          "en": "Borrower - lender.",
+          "zh": "借入者—出借者。",
+          "examples": [
+            { "t": "Adi namo mksiyuk g'xap trabus kana xo?",
+              "fr": "Seriez vous tous des emprunteurs de semences d'arachides ?",
+              "en": "Would you all be borrowers of peanut seeds?",
+              "zh": "你們全都是來借花生種子的嗎？" }
+          ] },
+        { "form": "Mkksiyuk",
+          "fr": "Se prêter mutuellement.",
+          "en": "To lend to one another.",
+          "zh": "互相出借。",
+          "examples": [] },
+        { "form": "Pksiyuk",
+          "fr": "Faire prêter - faire emprunter.",
+          "en": "To have (something) lent - have (something) borrowed.",
+          "zh": "使出借—使借入。",
+          "examples": [
+            { "t": "Baka da! Adi ko bi mxa pksiyuk oqon dole!",
+              "fr": "Celà suffit (j'en ai assez)! Je ne veux plus aller me faire prêter de la nourriture.",
+              "en": "That's enough (I've had enough)! I no longer want to go and have food lent to me.",
+              "zh": "夠了（我受夠了）！我再也不要去向人借糧了。" }
+          ] },
+        { "form": "Ksyukai",
+          "fr": "Optatif (?) - Permission demandée pour emprunter.",
+          "en": "Optative (?) - permission asked in order to borrow.",
+          "zh": "祈願式（？）—請求准許借用。",
+          "examples": [
+            { "t": "Ksyukai ta pila so xo?",
+              "fr": "Permettrais tu que nous empruntions ton argent ?",
+              "en": "Would you allow us to borrow your money?",
+              "zh": "你允許我們借你的錢嗎？" }
+          ] },
+        { "form": "Knsyukan",
+          "fr": "Objet déjà emprunté.",
+          "en": "Object already borrowed.",
+          "zh": "已借入之物。",
+          "examples": [
+            { "t": "Ini ko k'la smpu kana ka knsyukan mo sunan da; adi mo ksyukun dole",
+              "fr": "Je n'arrive pas à compter tout ce que je t'ai emprunté, je ne veux pas en emprunter d'autre.",
+              "en": "I cannot count all that I have borrowed from you; I do not want to borrow any more.",
+              "zh": "我已數不清向你借過多少了；我不想再借了。" }
+          ] },
+        { "form": "Tksiyuk",
+          "fr": "Terme courant pour désigner la forme de mariage qui consiste, pour l'homme, à rentrer dans la famille de sa femme, ce qui est une déchéance sauf dans le cas où la femme,riche,n'a pas de frère. En général chez les taroko l'homme se procure une femme en fournissant une dot au père de la fille; s'il en est incapable, il va se prêter à cette famille jusqu'à ce qu'il soit capable de s'affranchir en versant la dot requise.",
+          "en": "Common term for the form of marriage in which the man enters his wife's family, which is a comedown except in the case where the wife, being rich, has no brother. In general, among the Taroko the man obtains a wife by providing a bride-price to the girl's father; if he is unable to, he goes and lends himself to that family until he is able to free himself by paying the required bride-price.",
+          "zh": "常用語，指一種婚姻形式：男方入贅妻家，這是一種降格，除非妻子富有而沒有兄弟。一般而言，太魯閣人的男子以向女方父親提供聘禮來娶妻；若無力提供，他便到那家去出借自己（做工），直到能付清所需聘禮而恢復自由之身。",
+          "examples": [
+            { "t": "Wada tksiyuk sapax Pixan ka Pilin",
+              "fr": "Pirinne est allé prendre femme dans la maison de Pirhanne.",
+              "en": "Pirinne went to take a wife in Pirhanne's house.",
+              "zh": "Pirinne到Pirhanne家入贅娶妻了。" }
+          ] }
+      ]
+    }
+  ]
+}

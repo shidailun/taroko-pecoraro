@@ -1,0 +1,884 @@
+{
+  "pages": [30, 33],
+  "leadin": {
+    "fr": "Élever des cochons; Knilao babwi = Nourriture (préparée) pour les cochons; B\"lo babwi = porcelet; Libu babwi = Soue à cochons; Xei babwi = xei siyam = viande de porc; k'ulae (koulae) babwi = vieille truie; Kntxoq babwi = verrat; mptboax = reproducteur.",
+    "en": "To raise pigs; Knilao babwi = (prepared) food for the pigs; B\"lo babwi = piglet; Libu babwi = pigsty; Xei babwi = xei siyam = pork; k'ulae (koulae) babwi = old sow; Kntxoq babwi = boar; mptboax = breeding animal.",
+    "zh": "養豬;Knilao babwi=(調製好的)豬食;B\"lo babwi=小豬;Libu babwi=豬圈;Xei babwi=xei siyam=豬肉;k'ulae(koulae)babwi=老母豬;Kntxoq babwi=公豬;mptboax=種豬。",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pnbabwi",
+        "fr": "A la manière d'un cochon = se conduire comme un cochon.",
+        "en": "In the manner of a pig = to behave like a pig.",
+        "zh": "像豬的樣子=舉止像一頭豬。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "BAGA",
+      "tag": "(R)",
+      "fr": "Main - bras.",
+      "en": "Hand - arm.",
+      "zh": "手-手臂。",
+      "examples": [
+        {
+          "t": "Mnalox kana baga mo",
+          "fr": "Toute ma main (vl. tout mon bras) me fait mal.",
+          "en": "My whole hand (var. my whole arm) hurts.",
+          "zh": "我整隻手(或:整條手臂)都在痛。"
+        },
+        {
+          "t": "Mdui baga",
+          "fr": "Celui qui tient par la main (= un guide).",
+          "en": "One who holds by the hand (= a guide).",
+          "zh": "牽著手的人(=嚮導)。"
+        },
+        {
+          "t": "Mpotox baga",
+          "fr": "manchot.",
+          "en": "One-armed person.",
+          "zh": "獨臂的人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbaga",
+          "fr": "Avoir la main - être expert.",
+          "en": "To have the hand (a knack) - to be an expert.",
+          "zh": "有一手-是行家。",
+          "examples": [
+            {
+              "t": "Kpaxan nii o, asi ka mbaga!",
+              "fr": "(pour) ce travail, il faut être expert.",
+              "en": "(For) this work, one must be an expert.",
+              "zh": "(做)這件工作,非得是行家不可!"
+            }
+          ]
+        },
+        {
+          "form": "Mabaga",
+          "fr": "Deviendra main.",
+          "en": "Will become a hand (again).",
+          "zh": "將復原成手。",
+          "examples": [
+            {
+              "t": "Ana wada so na paqan ka baga o, ya kiso! ida mxa mabaga dole.",
+              "fr": "Même s'il t'a fait une entaille à la main, n'aie pas peur! ta main veut se refaire.",
+              "en": "Even if he has cut a gash in your hand, do not be afraid! Your hand is set on mending itself.",
+              "zh": "就算他在你手上砍了一道口子,也別怕!你的手會自己復原的。"
+            }
+          ]
+        },
+        {
+          "form": "Pnbaga",
+          "fr": "1) Parler avec les mains - faire des gestes pour s'exprimer. 2) En venir aux mains. 3) Remettre entre les mains.",
+          "en": "1) To speak with the hands - to make gestures to express oneself. 2) To come to blows. 3) To hand over into someone's hands.",
+          "zh": "1)用手說話-以手勢表達。2)動手打起來。3)交到……手中。",
+          "examples": [
+            {
+              "t": "Pnbaga nanak ka xea, ya sa mngangax",
+              "fr": "Lui ne parle qu'avec les mains: Il est muet!",
+              "en": "He speaks only with his hands: he is mute!",
+              "zh": "他只用手說話:他是啞巴!"
+            },
+            {
+              "t": "Ma so pnbaga lmngao",
+              "fr": "Qu'est ce qui te prend de gesticuler en parlant ?",
+              "en": "What has got into you, gesticulating while you talk?",
+              "zh": "你怎麼一邊講話一邊比手畫腳?"
+            },
+            {
+              "t": "Mqqan qoaq ka tlalae ni ini biyao pnbaga (pmbaga) ka d'xea",
+              "fr": "Ils ont commencé par des paroles et en sont vite venus aux mains.",
+              "en": "They began with words and quickly came to blows.",
+              "zh": "他們先是口角,很快就動起手來了。"
+            },
+            {
+              "t": "Pbgaon miso baga pais",
+              "fr": "Je te livrerai aux ennemis.",
+              "en": "I will deliver you into the hands of the enemies.",
+              "zh": "我要把你交到敵人手中。"
+            }
+          ]
+        },
+        {
+          "form": "Pnbgaon",
+          "fr": "Celui (ce) qu'on a voulu livrer entre les mains.",
+          "en": "The one (that) which was meant to be delivered into someone's hands.",
+          "zh": "被交付到人手中的人(物)。",
+          "examples": [
+            {
+              "t": "Wada na Pnbgaon naqex sadyaq",
+              "fr": "Il a été livré entre les mains des méchants.",
+              "en": "He was delivered into the hands of the wicked.",
+              "zh": "他被交在惡人的手中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BAIS",
+      "tag": "(R)",
+      "fr": "pl. Bbais. = Celui (ce) qui fait la paire - mari - épouse - camarade.",
+      "en": "pl. Bbais. = The one (that) which makes up the pair - husband - wife - comrade.",
+      "zh": "複數Bbais。=成對的另一方-丈夫-妻子-同伴。",
+      "examples": [
+        {
+          "t": "Luus ko bi! Ongat bais mo da!",
+          "fr": "Je suis bien seul! Je n'ai plus d'amis!",
+          "en": "I am all alone! I have no friends any more!",
+          "zh": "我好孤單!我再也沒有朋友了!"
+        },
+        {
+          "t": "Wada ongat suxal ka bais Longai",
+          "fr": "Le mari de Longai n'est plus depuis longtemps.",
+          "en": "Longai's husband passed away long ago.",
+          "zh": "Longai的丈夫早已不在人世了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbbais",
+          "fr": "Se vouloir mutuellement camarades - Bien s'entendre.",
+          "en": "To want each other as comrades - to get along well.",
+          "zh": "彼此願結為同伴-相處融洽。",
+          "examples": []
+        },
+        {
+          "form": "Baisan",
+          "fr": "Forme oblique de Bais.",
+          "en": "Oblique form of Bais.",
+          "zh": "Bais的斜格形式。",
+          "examples": [
+            {
+              "t": "Byeqe baisan so",
+              "fr": "Donne à ton mari.",
+              "en": "Give (it) to your husband.",
+              "zh": "拿去給你的丈夫。"
+            }
+          ]
+        },
+        {
+          "form": "Mabais",
+          "fr": "Vont devenir camarades - Sur le point de faire une paire, un couple.",
+          "en": "Are going to become comrades - on the point of forming a pair, a couple.",
+          "zh": "即將結為同伴-快要結成一對、一對佳偶。",
+          "examples": [
+            {
+              "t": "Adi biyao mabais ka ua ni lisao nii",
+              "fr": "Cette fille et ce garçon ne vont pas tarder à se fiancer (à former un couple).",
+              "en": "This girl and this boy will soon be engaged (form a couple).",
+              "zh": "這個女孩和這個男孩不久就要訂婚(結成一對)了。"
+            }
+          ]
+        },
+        {
+          "form": "Pbais",
+          "fr": "Fabriquer la paire - construire un couple.",
+          "en": "To make up the pair - to put together a couple.",
+          "zh": "配成一對-撮合一對。",
+          "examples": [
+            {
+              "t": "Ndoa bi pbais kkakox nami",
+              "fr": "Efforce toi d'assortir nos sabots (par paire).",
+              "en": "Do your best to match up our clogs (in pairs).",
+              "zh": "你要設法把我們的木屐配成雙。"
+            },
+            {
+              "t": "Mpbais ko kia ka laqe mo ni laqe lixan",
+              "fr": "Je fiancerai bientôt mon fils (ma fille) et la fille (le fils) de Lirhan.",
+              "en": "I shall soon betroth my son (my daughter) to Lirhan's daughter (son).",
+              "zh": "我不久就要讓我的兒子(女兒)和Lirhan的女兒(兒子)訂婚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BAKA",
+      "tag": "(R)",
+      "fr": "Suffisant - suffire - assez.",
+      "en": "Sufficient - to suffice - enough.",
+      "zh": "足夠的-足夠-夠了。",
+      "examples": [
+        {
+          "t": "Kia ni baka da",
+          "fr": "Encore celà et ce sera tout.",
+          "en": "That one more and that will be all.",
+          "zh": "再加上那個就夠了。"
+        },
+        {
+          "t": "Ini ko na baka",
+          "fr": "Je suis plus fort que lui (Il n'est pas de taille pour moi).",
+          "en": "I am stronger than he is (he is no match for me).",
+          "zh": "我比他強(他不是我的對手)。"
+        },
+        {
+          "t": "Baka bi ttuyan",
+          "fr": "Il est temps de se lever.",
+          "en": "It is time to get up.",
+          "zh": "該起床了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BAKET",
+      "tag": "(J.?)",
+      "fr": "seau - récipient pour transporter un liquide.",
+      "en": "Bucket - container for carrying a liquid.",
+      "zh": "水桶-運送液體的容器。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BAKI",
+      "tag": "(R)",
+      "fr": "1) Grand père. 2) Beau père. 3) Ancien (terme de respect).",
+      "en": "1) Grandfather. 2) Father-in-law. 3) Elder (term of respect).",
+      "zh": "1)祖父。2)岳父/公公。3)長者(尊稱)。",
+      "examples": [
+        {
+          "t": "Arin ka tama baki mo",
+          "fr": "Mon arrière grand père c'est Arin.",
+          "en": "My great-grandfather is Arin.",
+          "zh": "我的曾祖父是Arin。"
+        },
+        {
+          "t": "Nkari baki mo nanak",
+          "fr": "Ce sont les propres paroles de mon beau père.",
+          "en": "Those are my father-in-law's very own words.",
+          "zh": "這是我岳父親口說的話。"
+        },
+        {
+          "t": "Mxa so ino ki (=baki) ?",
+          "fr": "Où vas tu grand père ?",
+          "en": "Where are you going, grandfather?",
+          "zh": "祖父,您要去哪裡?"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Bbaki",
+          "fr": "Les grands pères - les anciens - les beaux pères.",
+          "en": "The grandfathers - the elders - the fathers-in-law.",
+          "zh": "祖父們-長老們-岳父們。",
+          "examples": []
+        },
+        {
+          "form": "Dbaki",
+          "fr": "Du groupe des anciens.",
+          "en": "Of the group of the elders.",
+          "zh": "屬於長老一輩的。",
+          "examples": []
+        },
+        {
+          "form": "Mpabaki (mp'baki)",
+          "fr": "Le papa du, et de la fiancé(e).",
+          "en": "The father of the fiancé, and of the fiancée.",
+          "zh": "未婚夫、未婚妻的父親。",
+          "examples": []
+        },
+        {
+          "form": "Skbaki",
+          "fr": "Feu grand père - Feu le beau père.",
+          "en": "The late grandfather - the late father-in-law.",
+          "zh": "已故的祖父-已故的岳父。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BALAE",
+      "tag": "(R)",
+      "fr": "Vrai - très.",
+      "en": "True - very.",
+      "zh": "真的-非常。",
+      "examples": [
+        {
+          "t": "Balae bi",
+          "fr": "Vraiment.",
+          "en": "Truly.",
+          "zh": "真的;確實。"
+        },
+        {
+          "t": "Bilaq balae",
+          "fr": "Très petit.",
+          "en": "Very small.",
+          "zh": "很小。"
+        },
+        {
+          "t": "Balae bi kia",
+          "fr": "Celà est bien vrai.",
+          "en": "That is quite true.",
+          "zh": "那是千真萬確的。"
+        },
+        {
+          "t": "Mqan balae",
+          "fr": "Il mange beaucoup.",
+          "en": "He eats a great deal.",
+          "zh": "他吃得很多。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Blbalae",
+          "fr": "Tout ce qui est vrai - la vérité - Très vrai.",
+          "en": "All that is true - the truth - very true.",
+          "zh": "一切真實的事-真理-非常真實。",
+          "examples": [
+            {
+              "t": "Wana blbalae ka slngao mo",
+              "fr": "Tout ce que je dis est vrai (Je ne me sers que de vérité pour parler).",
+              "en": "Everything I say is true (I use nothing but truth when I speak).",
+              "zh": "我所說的全是真話(我說話只講真理)。"
+            }
+          ]
+        },
+        {
+          "form": "Mbalae",
+          "fr": "Etre celui qui est vrai.",
+          "en": "To be one who is true.",
+          "zh": "做一個誠實的人。",
+          "examples": [
+            {
+              "t": "Mbalae kddiyax ka Iban, ini bi soa kmxmut ka xea",
+              "fr": "Iban est toujours vrai, il ne se permet pas d'agir n'importe comment.",
+              "en": "Iban is always true; he does not allow himself to act carelessly.",
+              "zh": "Iban一向誠實,絕不容許自己胡亂行事。"
+            }
+          ]
+        },
+        {
+          "form": "Mpabalae",
+          "fr": "Deviendra vrai.",
+          "en": "Will come true.",
+          "zh": "將會成真。",
+          "examples": [
+            {
+              "t": "Ida so taon; mpabalae bi ka nkari mo",
+              "fr": "Et tu le verras; celà sera comme je t'ai dit.",
+              "en": "And you will see it; it will be just as I told you.",
+              "zh": "你等著瞧;事情將如我所說的實現。"
+            }
+          ]
+        },
+        {
+          "form": "Kbalae",
+          "fr": "Forme négative de Balae.",
+          "en": "Negative form of Balae.",
+          "zh": "Balae的否定形式。",
+          "examples": [
+            {
+              "t": "Ini kbalae ka kari na nii",
+              "fr": "Ce n'est pas vrai ce qu'il dit là.",
+              "en": "What he says there is not true.",
+              "zh": "他這話不是真的。"
+            }
+          ]
+        },
+        {
+          "form": "Nbalae",
+          "fr": "Partie de ce qui est vrai - de ce qui est vrai.",
+          "en": "Part of what is true - belonging to what is true.",
+          "zh": "屬於真實之物的部分-真實之物的。",
+          "examples": [
+            {
+              "t": "Kana ttasil nii o, balae bi ka doma, xmut ka doma; nbalae ka kingal nii",
+              "fr": "De ces pierres, certaines sont vraies et d'autres fausses; celle ci est une vraie.",
+              "en": "Of these stones, some are real and others false; this one is a real one.",
+              "zh": "這些石頭當中,有些是真的,有些是假的;這一顆是真的。"
+            }
+          ]
+        },
+        {
+          "form": "Pbalae",
+          "fr": "Rendre vrai - réaliser.",
+          "en": "To make true - to bring about.",
+          "zh": "使成真-實現。",
+          "examples": [
+            {
+              "t": "Tlalae o, ndoa bi pbalae ka nqoaq so",
+              "fr": "Tout d'abord fais en sorte que se réalise ce qu'a dit ta bouche.",
+              "en": "First of all, see to it that what your mouth has said comes true.",
+              "zh": "首先,要設法讓你嘴裡說過的話成真。"
+            }
+          ]
+        },
+        {
+          "form": "Pnbalae",
+          "fr": "Agir pour de bon - se comporter en vérité.",
+          "en": "To act in earnest - to conduct oneself in truth.",
+          "zh": "認真行事-以真誠處世。",
+          "examples": [
+            {
+              "t": "Pnbalae ko bi ka yako, uxai ko pnqbiling",
+              "fr": "J'y vais franchement, moi, et non en menteur.",
+              "en": "I go about it honestly, I do, and not as a liar.",
+              "zh": "我是真心誠意去做的,不是騙子。"
+            }
+          ]
+        },
+        {
+          "form": "Sbalae",
+          "fr": "Tranquille - paix - calme.",
+          "en": "Tranquil - peace - calm.",
+          "zh": "安寧-和平-平靜。",
+          "examples": []
+        },
+        {
+          "form": "Msbalae",
+          "fr": "Qui est paisible - calme.",
+          "en": "That is peaceful - calm.",
+          "zh": "平和的-安靜的。",
+          "examples": [
+            {
+              "t": "Msbalae kddiyax ka lnglongan nia",
+              "fr": "Sa pensée (son coeur) est toujours d'égale humeur.",
+              "en": "His mind (his heart) is always even-tempered.",
+              "zh": "他的心思(心)始終平和安穩。"
+            },
+            {
+              "t": "Msbalae balae ka kari na",
+              "fr": "Ses paroles sont très sereines.",
+              "en": "His words are very serene.",
+              "zh": "他的話語十分平和。"
+            }
+          ]
+        },
+        {
+          "form": "Smblayan",
+          "fr": "Temps, lieu calmes, de bonne entente.",
+          "en": "Calm times or places, of good mutual understanding.",
+          "zh": "平靜和睦的時光、地方。",
+          "examples": [
+            {
+              "t": "Suyang bi smblayan ka nnyeqan ta suxal!",
+              "fr": "Quel merveilleux endroit paisible que celui où nous habitions autrefois !",
+              "en": "What a wonderfully peaceful place it was where we used to live!",
+              "zh": "我們從前住的地方是多麼美好安寧啊!"
+            }
+          ]
+        },
+        {
+          "form": "Psbalae",
+          "paradigm": "Psbalae, psbalae, psblai, psblayan, psblayun",
+          "fr": "Pacifier - calmer.",
+          "en": "To pacify - to calm.",
+          "zh": "平定-安撫。",
+          "examples": [
+            {
+              "t": "Splang bi mniyax ka Aman spsbalae na lnglongan daxa",
+              "fr": "C'est tout exprès que Aman est venu pour calmer leurs esprits.",
+              "en": "It is quite on purpose that Aman came, to calm their spirits.",
+              "zh": "Aman正是特地前來安撫他們的心。"
+            },
+            {
+              "t": "Pyaxon daxa mlata ppsbalae sao qqan daxa",
+              "fr": "Ils feront venir les soldats pour pacifier leurs querelles.",
+              "en": "They will bring in the soldiers to pacify their quarrels.",
+              "zh": "他們會叫士兵來平息他們的爭吵。"
+            },
+            {
+              "t": "Ida mo psblayun ka alang ga!",
+              "fr": "Et je veux le pacifier ce village là !",
+              "en": "And I do mean to pacify that village!",
+              "zh": "我一定要平定那個村子!"
+            }
+          ]
+        },
+        {
+          "form": "Mpsbalae",
+          "fr": "Pacificateur. (nb = aussi: pacifier, au futur).",
+          "en": "Peacemaker. (n.b. also: to pacify, in the future tense).",
+          "zh": "調解者。(註:也可指「將要平定」,即未來式。)",
+          "examples": []
+        },
+        {
+          "form": "Psblayan",
+          "fr": "Pacification - apaisement.",
+          "en": "Pacification - appeasement.",
+          "zh": "綏靖-平息。",
+          "examples": [
+            {
+              "t": "Mpnais bi ka pnsblayan daxa mk'alang troko",
+              "fr": "Elle est vraiment éphémère leur pacification chez les taroko !",
+              "en": "Their pacification among the Taroko is truly short-lived!",
+              "zh": "他們在太魯閣人那裡的綏靖實在短暫!"
+            }
+          ]
+        },
+        {
+          "form": "Knsblayan",
+          "fr": "Paix - Calme.",
+          "en": "Peace - calm.",
+          "zh": "和平-平靜。",
+          "examples": [
+            {
+              "t": "Ana ima ka mskuxul knsblayan!",
+              "fr": "C'est tout le monde qui est amoureux de la paix!",
+              "en": "Absolutely everyone is in love with peace!",
+              "zh": "人人都熱愛和平!"
+            }
+          ]
+        },
+        {
+          "form": "Tbalae",
+          "fr": "Plat - uni - égal.",
+          "en": "Flat - even - level.",
+          "zh": "平的-平整的-均平的。",
+          "examples": [
+            {
+              "t": "Balae bi ini tbalae balae ka slaan so nii.",
+              "fr": "A dire vrai il n'est pas vraiment plat ton terrain à bâtir qui se trouve là !",
+              "en": "To tell the truth, that building plot of yours over there is not really flat!",
+              "zh": "說實話,你那塊建地其實並不怎麼平坦!"
+            }
+          ]
+        },
+        {
+          "form": "Mtbalae",
+          "fr": "Qui est plat - plaine - qui devient plat.",
+          "en": "That is flat - a plain - that becomes flat.",
+          "zh": "平坦的-平原-變得平坦的。",
+          "examples": [
+            {
+              "t": "Mtbalae balae ka xlpasan daxa",
+              "fr": "Leur terrain de jeux est parfaitement plat (uni).",
+              "en": "Their playground is perfectly flat (even).",
+              "zh": "他們的遊戲場地非常平坦(平整)。"
+            },
+            {
+              "t": "PTblai kana mbqlo, xlii kana lboq",
+              "fr": "Aplanis les bosses, bouche les trous !",
+              "en": "Flatten the bumps, fill in the holes!",
+              "zh": "把凸起的地方鏟平,把坑洞填起來!"
+            }
+          ]
+        },
+        {
+          "form": "Tblayan",
+          "fr": "Plaine - lieu plat, uni.",
+          "en": "Plain - flat, even place.",
+          "zh": "平原-平坦均整之地。",
+          "examples": [
+            {
+              "t": "Paro bi tblayan ka bukwi sapax mo",
+              "fr": "Il y a un grand terrain plat derrière chez moi.",
+              "en": "There is a large flat piece of ground behind my house.",
+              "zh": "我家後面有一大片平地。"
+            }
+          ]
+        },
+        {
+          "form": "Ptbalae",
+          "paradigm": "Ptbalae, ptbalae, ptblai, ptblayan, ptblayun",
+          "fr": "Rendre plat - aplanir.",
+          "en": "To make flat - to level.",
+          "zh": "使平坦-整平。",
+          "examples": [
+            {
+              "t": "Ptblayun mo ka pxdagan anai mo",
+              "fr": "Je veux aplanir l'aire (de séchage) de mon beau frère.",
+              "en": "I want to level my brother-in-law's (drying) yard.",
+              "zh": "我要把我姻親兄弟的曬場整平。"
+            }
+          ]
+        },
+        {
+          "form": "Ptblayan",
+          "fr": "Plaine (artificielle) - Endroit aplani.",
+          "en": "(Artificial) plain - levelled place.",
+          "zh": "(人工開出的)平地-整平過的地方。",
+          "examples": [
+            {
+              "t": "Paro bi pntblayan daxa mk'yayong",
+              "fr": "Ils ont créé une grande plaine dans le lit du torrent (le long du torrent).",
+              "en": "They have made a big flat expanse in the bed of the torrent (along the torrent).",
+              "zh": "他們在溪床上(沿著溪流)開出了一大片平地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BALAO",
+      "tag": "(R)",
+      "fr": "Haut - en haut - au dessus.",
+      "en": "High - up above - on top.",
+      "zh": "高-在上面-在上方。",
+      "examples": [
+        {
+          "t": "Muda balao ka lolong",
+          "fr": "Les nuages passent en haut (passent par dessus).",
+          "en": "The clouds pass overhead (pass over).",
+          "zh": "雲從上方飄過(從頭頂掠過)。"
+        },
+        {
+          "t": "Tama balao",
+          "fr": "Le Père d'en haut = Dieu le Père.",
+          "en": "The Father on high = God the Father.",
+          "zh": "在上的父=天主聖父。"
+        },
+        {
+          "t": "Nyeqan kari pax balao",
+          "fr": "Il y a des ordres venus d'en haut.",
+          "en": "There are orders come from on high.",
+          "zh": "有來自上面的命令。"
+        },
+        {
+          "t": "Ma so pax balao!",
+          "fr": "Dis donc! Mais tu le prends de haut !",
+          "en": "I say! You are really getting high and mighty!",
+          "zh": "喂!你的態度也太高傲了吧!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nbalao",
+          "fr": "de ce qui est d'en haut.",
+          "en": "Of what is from above.",
+          "zh": "屬於上面之物的。",
+          "examples": [
+            {
+              "t": "Ana nbalao ana nbabao dxgal",
+              "fr": "Que ce soit ce qui est en haut (au ciel) ou ce qui est sur terre.",
+              "en": "Whether it be what is above (in heaven) or what is on the earth.",
+              "zh": "無論是在上(天上)的,還是在地上的。"
+            }
+          ]
+        },
+        {
+          "form": "Bbalao",
+          "fr": "Très haut - très long - les longs.",
+          "en": "Very high - very long - the long ones.",
+          "zh": "很高的-很長的-長的那些。",
+          "examples": [
+            {
+              "t": "Ya bi qouni manu ka bbalao balae ?",
+              "fr": "1) que peut bien être l'arbre qui est très haut ? 2) Quel peut bien être le plus grand des arbres ?",
+              "en": "1) What can that very tall tree be? 2) Which can be the tallest of the trees?",
+              "zh": "1)那棵很高的樹究竟是什麼樹?2)最高的樹究竟是哪一棵?"
+            },
+            {
+              "t": "Ini kbalao ka pusu qliyut",
+              "fr": "Le mûrier n'est pas haut.",
+              "en": "The mulberry tree is not tall.",
+              "zh": "桑樹不高。"
+            }
+          ]
+        },
+        {
+          "form": "Mkbalao",
+          "fr": "Qui se trouve en haut - qui habite en haut.",
+          "en": "That is situated up high - who lives up high.",
+          "zh": "位於高處的-住在高處的。",
+          "examples": []
+        },
+        {
+          "form": "Knbalao",
+          "fr": "Dimension de la hauteur.",
+          "en": "The dimension of height.",
+          "zh": "高度。",
+          "examples": [
+            {
+              "t": "Tayal knbalao ka sntlilan so!",
+              "fr": "Oh la! comme tu as sauté haut !",
+              "en": "My word! How high you jumped!",
+              "zh": "哇!你跳得好高!"
+            }
+          ]
+        },
+        {
+          "form": "Knblagan",
+          "fr": "Hauteur - longueur.",
+          "en": "Height - length.",
+          "zh": "高度-長度。",
+          "examples": [
+            {
+              "t": "Klaon so ka knblagan knolox sapax so xo ?",
+              "fr": "Sais tu la hauteur (la longueur) du faîte de ta maison ?",
+              "en": "Do you know the height (the length) of the ridge of your house?",
+              "zh": "你知道你家屋脊的高度(長度)嗎?"
+            }
+          ]
+        },
+        {
+          "form": "Pnbalao",
+          "fr": "Superficiellement = à la surface.",
+          "en": "Superficially = at the surface.",
+          "zh": "表面地=在表層。",
+          "examples": [
+            {
+              "t": "Xbalao bi sadyaq ka muda pnbalao nanak kmpax",
+              "fr": "Ils sont nombreux ceux qui ne travaillent que superficiellement leur terre.",
+              "en": "Many are those who till their land only superficially.",
+              "zh": "只把田地耕得很淺的人很多。"
+            }
+          ]
+        },
+        {
+          "form": "Snbalao",
+          "fr": "Pour être par dessus = Qui est en surface.",
+          "en": "Meant to be on top = that is on the surface.",
+          "zh": "位於上層的=在表面的。",
+          "examples": [
+            {
+              "t": "Malu bi kana ka trabus mo, wana snbalao (smbalao) ka naqex",
+              "fr": "Elles sont toutes de bonne qualité, mes arachides, il n'y a que celles par dessus qui sont mauvaises !",
+              "en": "My peanuts are all of good quality; only the ones on top are bad!",
+              "zh": "我的花生全都很好,只有最上面那些是壞的!"
+            },
+            {
+              "t": "Lukus snbalao",
+              "fr": "Les habits de dessus.",
+              "en": "Outer garments.",
+              "zh": "外衣。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbalao",
+          "fr": "Rehausser - Placer plus haut.",
+          "en": "To raise - to place higher up.",
+          "zh": "加高-放到更高處。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BALAQ",
+      "tag": "(R)",
+      "fr": "Poumons.",
+      "en": "Lungs.",
+      "zh": "肺。",
+      "examples": [
+        {
+          "t": "Balaq na ka mnalox",
+          "fr": "C'est son poumon qui est malade!",
+          "en": "It is his lung that is diseased!",
+          "zh": "是他的肺生病了!"
+        },
+        {
+          "t": "Balaq na ka sknalox xeaan",
+          "fr": "C'est son poumon qui lui fait mal.",
+          "en": "It is his lung that is hurting him.",
+          "zh": "是他的肺讓他疼痛。"
+        },
+        {
+          "t": "Tama balaq",
+          "fr": "Le coeur (le père des poumons).",
+          "en": "The heart (the father of the lungs).",
+          "zh": "心臟(肺之父)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BALAS",
+      "tag": "(R)",
+      "fr": "Mâle - masculin.",
+      "en": "Male - masculine.",
+      "zh": "雄性-男性。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BALAX",
+      "tag": "(R)",
+      "fr": "Récent - jeune - nouveau. (vr. BULAX = neuf - nouveau).",
+      "en": "Recent - young - new. (see BULAX = brand-new - new).",
+      "zh": "新近的-年輕的-新的。(參見BULAX=嶄新-新。)",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Malax",
+          "fr": "Renouveler - rendre neufn jeune.",
+          "en": "To renew - to make new, young.",
+          "zh": "更新-使變新、變年輕。",
+          "examples": [
+            {
+              "t": "Slösi ka nsmudal ni pax bi ksaxol mptdoa so malax kingal kkdusan dole",
+              "fr": "Efface ce qui est vieux (du passé) en toi et, de tout coeur, tu pourras rebâtir une nouvelle vie!",
+              "en": "Wipe out what is old (of the past) in you and, with all your heart, you will be able to rebuild a new life!",
+              "zh": "抹去你身上舊的(過去的)一切,全心全意,你就能重建新的人生!"
+            }
+          ]
+        },
+        {
+          "form": "Mbalax",
+          "fr": "Qui est nouveau - qui est récent - qui est tout frais.",
+          "en": "That is new - that is recent - that is quite fresh.",
+          "zh": "新的-新近的-剛出現的。",
+          "examples": [
+            {
+              "t": "Laqe mbalax",
+              "fr": "La nouvelle génération.",
+              "en": "The new generation.",
+              "zh": "新生代。"
+            },
+            {
+              "t": "Ini xali plui gaya ka lqlaqe mbalax",
+              "fr": "Les jeunes de maintenant n'observent plus guère les coutumes.",
+              "en": "The young people of today hardly observe the customs any more.",
+              "zh": "現在的年輕人幾乎不再遵守傳統習俗了。"
+            },
+            {
+              "t": "Miyax ko mbalax alang namo",
+              "fr": "Je viens tout nouveau chez vous.",
+              "en": "I come to your village as a complete newcomer.",
+              "zh": "我初來乍到你們的村子。"
+            }
+          ]
+        },
+        {
+          "form": "Mnbalax",
+          "fr": "Avoir été débutant.",
+          "en": "To have been a beginner.",
+          "zh": "曾是新手。",
+          "examples": [
+            {
+              "t": "Mnbalax ko sida ska sapax ptasan namo",
+              "fr": "J'étais alors tout nouveau dans votre école.",
+              "en": "I was quite new then in your school.",
+              "zh": "那時我在你們學校還是個新人。"
+            }
+          ]
+        },
+        {
+          "form": "Tmbalax",
+          "paradigm": "Tmbalax, tbalax, .?. , tblaxan, tblaxon",
+          "fr": "Action de se faire tout nouveau (dans un lieu, une profession).",
+          "en": "The act of making oneself quite new (in a place, a profession).",
+          "zh": "使自己成為新來者(在某地、某行業)的行為。",
+          "examples": [
+            {
+              "t": "Tmbalax ko xeni sayang",
+              "fr": "Je m'installe ici (Je me fais tout récent ici) aujourd'hui.",
+              "en": "I am settling here (making myself quite new here) today.",
+              "zh": "我今天在此落腳(在這裡重新開始)。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbalax",
+          "fr": "Nouveau.",
+          "en": "New; a newcomer.",
+          "zh": "新的;新來的人。",
+          "examples": [
+            {
+              "t": "Tnpusu ka yako, tnbalax ka iso",
+              "fr": "Je suis du pays et",
+              "en": "I am a native of this place, and (text cut off at page end)",
+              "zh": "我是本地人,而(頁末中斷)"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

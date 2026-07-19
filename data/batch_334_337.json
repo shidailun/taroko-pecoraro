@@ -1,0 +1,722 @@
+{
+  "pages": [334, 337],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "TNABWI",
+      "tag": "(= R. ? – R. = TABWI ?)",
+      "fr": "Le résidu de l'action de décortiquer le riz (ou d'autres céréales). – Mélange de balle et de son.",
+      "en": "The residue from the action of husking rice (or other cereals). – A mixture of chaff and bran.",
+      "zh": "舂米（或其他穀物）之後剩下的殘餘物。－穀殼與米糠的混合物。"
+    },
+    {
+      "hw": "TNGI",
+      "tag": "(TNG'I – T'NGI) (R)",
+      "fr": "Rassasié – plein.",
+      "en": "Satiated – full.",
+      "zh": "吃飽的－飽足的。",
+      "subs": [
+        {
+          "form": "Ktngi",
+          "fr": "(Forme usitée pour le négatif, l'impératif..).",
+          "en": "(Form used for the negative, the imperative..).",
+          "zh": "（用於否定式、命令式等的形式。）",
+          "examples": [
+            {
+              "t": "Ini ktngi ka mlmilit so",
+              "fr": "Tes chèvres n'ont pas assez mangé.",
+              "en": "Your goats have not eaten enough.",
+              "zh": "你的羊沒有吃飽。"
+            }
+          ]
+        },
+        {
+          "form": "Mtngi",
+          "fr": "(mtng'i) Qui est rassasié.",
+          "en": "(mtng'i) One who is satiated.",
+          "zh": "（mtng'i）吃飽的（人）。",
+          "examples": [
+            {
+              "t": "Mtngi su da (=so da) ? ... Ini na!",
+              "fr": "Es-tu rassasié ? ... Pas encore !",
+              "en": "Are you full? ... Not yet!",
+              "zh": "你飽了嗎？……還沒！"
+            }
+          ]
+        },
+        {
+          "form": "Pktngi",
+          "paradigm": "°Pktngi, pktngi, pktngii, pktngiyan, pktngiyun.",
+          "fr": "Rassasier.",
+          "en": "To satiate – to satisfy (with food).",
+          "zh": "使…吃飽。",
+          "examples": [
+            {
+              "t": "Pktngiyun mo kating ka tlalae (= Tlalae o, Kating ka pktngiyun mo, vl. Tlalae o, pktngiyun mo ka kating)",
+              "fr": "Je veux d'abord rassasier le buffle.",
+              "en": "I want to feed the buffalo to satiety first. (var. of the sentence order.)",
+              "zh": "我想先讓水牛吃飽。（或：句序調換。）"
+            }
+          ]
+        },
+        {
+          "form": "Sktngi",
+          "fr": "Qui rassasie – nourrissant.",
+          "en": "That which satiates – nourishing.",
+          "zh": "使人吃飽的－有營養的。",
+          "examples": [
+            {
+              "t": "Ini xali sktngi sdyaqon (s'dyaqon) ka pang",
+              "fr": "Le pain n'est pas très nourrissant (ne rassasie pas beaucoup les gens).",
+              "en": "Bread is not very nourishing (does not satiate people much).",
+              "zh": "麵包不太營養（不太能讓人吃飽）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TNK'LA",
+      "tag": "(R. = K'LA)",
+      "crossRef": "K'LA",
+      "fr": "En venir à bout – avoir le dessus – être plus fort. Vr. K'LA.",
+      "en": "To overcome – to get the upper hand – to be stronger. See K'LA.",
+      "zh": "克服－佔上風－更為強大。參見 K'LA。"
+    },
+    {
+      "hw": "TNOXOL",
+      "tag": "(= R. ?)",
+      "fr": "Orage, brusque et violent, survenant pendant une période de beau temps.",
+      "en": "A storm, sudden and violent, occurring during a spell of fine weather.",
+      "zh": "在好天氣期間突然發生的猛烈暴風雨。",
+      "subs": [
+        {
+          "form": "Mtnoxol",
+          "fr": "(??) Faire cette sorte d'orages.",
+          "en": "(??) To make this kind of storms.",
+          "zh": "（？？）發生這種暴風雨。"
+        }
+      ]
+    },
+    {
+      "hw": "TNPONGAN",
+      "tag": "(R. = ??)",
+      "fr": "(Ce terme est peut-être une déformation de PNPONGAN, PNPNGAN qui viendrait de PNPONG = Sommet – mont – cime). = Houle de la mer – vagues.",
+      "en": "(This term is perhaps a corruption of PNPONGAN, PNPNGAN, which would come from PNPONG = Summit – mountain – peak). = Sea swell – waves.",
+      "zh": "（這個詞也許是 PNPONGAN、PNPNGAN 的變體，而後者可能源自 PNPONG＝山頂－山－峰）。＝海浪的湧動－波浪。",
+      "examples": [
+        {
+          "t": "Pnapa ko aso pida bi paro tnpongan silong siida!",
+          "fr": "J'ai pris le bateau juste au moment où la mer était très houleuse.",
+          "en": "I took the boat just at the moment when the sea was very rough.",
+          "zh": "我正好在海浪很大的時候上了船。"
+        }
+      ]
+    },
+    {
+      "hw": "TNQDO",
+      "tag": "(= R. ? – R. = L'QDO ?)",
+      "crossRef": "LQDO",
+      "fr": "Fieffé menteur – (mentir effrontément ?). Vr. LQDO.",
+      "en": "An arrant liar – (to lie brazenly?). See LQDO.",
+      "zh": "十足的騙子－（厚顏無恥地說謊？）。參見 LQDO。"
+    },
+    {
+      "hw": "TOKO",
+      "tag": "(R)",
+      "fr": "Assez – suffisant.",
+      "en": "Enough – sufficient.",
+      "zh": "足夠的－充足的。",
+      "examples": [
+        {
+          "t": "Kmsalu ko bi sapax ni, ini xali toko ka pila mo !",
+          "fr": "J'aimerais bien construire une maison et (voilà) que je n'ai pas tout à fait assez d'argent.",
+          "en": "I'd really like to build a house and (there it is) I don't have quite enough money.",
+          "zh": "我很想蓋一間房子，可是（偏偏）我的錢不太夠。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtoko",
+          "fr": "Faire le complément – être ce qui manque.",
+          "en": "To make up the complement – to be what is lacking.",
+          "zh": "補足－成為所欠缺的部分。",
+          "examples": [
+            {
+              "t": "Nasi miyax maxal bnkiyan gensal o, mxa mtoko ddiyan ssalu mo sapax",
+              "fr": "Si je trouve encore (si on ajoute) dix gerbes de paille j'aurai les matériaux suffisants pour construire la maison.",
+              "en": "If I find ten more sheaves of straw (if one adds them), I'll have enough materials to build the house.",
+              "zh": "如果我再找到（再加上）十捆稻草，我就有足夠的材料蓋房子了。"
+            }
+          ]
+        },
+        {
+          "form": "Mttoko",
+          "fr": "Être plein, complet – qui remplit tout.",
+          "en": "To be full, complete – that which fills everything.",
+          "zh": "充滿的、完整的－充滿一切的。",
+          "examples": [
+            {
+              "t": "Mttoko kana l'alang ka xangan nia",
+              "fr": "Son nom remplit partout (est connu partout).",
+              "en": "His name fills everywhere (is known everywhere).",
+              "zh": "他的名聲傳遍各處（到處都知道）。"
+            }
+          ]
+        },
+        {
+          "form": "Sntoko",
+          "fr": "Terme spécialement employé pour désigner le temps de travail qu'on va faire chez un autre en contrepartie du même travail rendu (= SMBALOX) par les autres. (nb. = pratique courante chez les taroko)",
+          "en": "A term specially used to designate the period of work one will do at another's place in return for the same work rendered (= SMBALOX) by the others. (n.b. = a common practice among the Taroko.)",
+          "zh": "專門用來指稱到別人家去做工的時段，以回報別人為自己所做的同樣工作（＝SMBALOX）。（註：這是太魯閣人常見的習俗。）"
+        },
+        {
+          "form": "Ptoko",
+          "paradigm": "°Ptoko, ptoko, ptkui, ptkoan, ptkoon.",
+          "fr": "Faire que ce soit suffisant – combler le manque.",
+          "en": "To make it be sufficient – to fill the shortfall.",
+          "zh": "使之足夠－彌補不足。",
+          "examples": [
+            {
+              "t": "Miyax ko ptoko xei mpxoma slaq so",
+              "fr": "Je viens faire le complément du nombre de ceux qui vont planter ta rizière (= Je viens pour qu'il-y-ait assez de monde pour planter ta rizière).",
+              "en": "I come to make up the number of those who are going to plant your rice field (= I come so that there will be enough people to plant your rice field).",
+              "zh": "我來補足要幫你插秧的人數（＝我來讓插你秧田的人手足夠）。"
+            }
+          ]
+        },
+        {
+          "form": "Ptkui",
+          "fr": "Faire en sorte que ce soit assez – se contenter (impératif).",
+          "en": "To bring it about that it be enough – to be content (imperative).",
+          "zh": "使之足夠－知足（命令式）。",
+          "examples": [
+            {
+              "t": "Ptkui bi (ka) nnamo nanak",
+              "fr": "Contentez-vous (faites que ce soit assez) de ce que vous avez.",
+              "en": "Be content (make it enough) with what you have.",
+              "zh": "你們要滿足於（讓它足夠）自己所擁有的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TONGOX",
+      "tag": "(R)",
+      "fr": "Goûter – donner un baiser.",
+      "en": "To taste – to give a kiss.",
+      "zh": "品嚐－親吻。",
+      "examples": [
+        {
+          "t": "Xmuya so bi ? Ana tmongox ini so tongox!",
+          "fr": "Qu'est-ce qu'il t'arrive donc ? Même goûter tu ne veux pas goûter !",
+          "en": "What on earth is the matter with you? You don't even want to taste a taste!",
+          "zh": "你到底是怎麼了？連嚐一口都不肯嚐！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmongox",
+          "paradigm": "°Tmongox, tongox, tngoxe, tngoxan, tngoxon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Tai ka mpxapwi o, ida luxai na bi tmongox ana manu psxdaan na oqon",
+              "fr": "Pour un cuisinier (une cuisinière), c'est une habitude de goûter la nourriture qu'il prépare.",
+              "en": "For a cook (male or female), it is a habit to taste whatever food he/she prepares.",
+              "zh": "對廚師（無論男女）而言，嚐一嚐自己準備的食物是一種習慣。"
+            }
+          ]
+        },
+        {
+          "form": "Tngoxe",
+          "fr": "Goûte ! – Goûtez !",
+          "en": "Taste! (sg.) – Taste! (pl.)",
+          "zh": "嚐嚐看！（單數／複數命令式）",
+          "examples": [
+            {
+              "t": "Msibus balae ka nii; tngoxe binao !",
+              "fr": "Ceci est très sucré; goûte voir un peu !",
+              "en": "This is very sweet; just have a taste!",
+              "zh": "這個很甜；嚐一點看看！"
+            }
+          ]
+        },
+        {
+          "form": "Tngoxan",
+          "fr": "Ce qu'on prend pour goûter – l'action faite de goûter – la dégustation – ce qui est goûté – endroit, temps où l'on donne le baiser.",
+          "en": "What one takes in order to taste – the action of tasting – the tasting – what is tasted – the place, the time where one gives the kiss.",
+          "zh": "用來品嚐的東西－品嚐的動作－品嚐（的行為）－被嚐的東西－給予親吻的地點與時間。",
+          "examples": [
+            {
+              "t": "Tngoxan mo o, kika xea; Qlap ! Ni tngoxan na qoaq",
+              "fr": "Celui à qui je donne (donnerai) un baiser, c'est celui-là; attrapez-le ! Et il le baisa avec la bouche.",
+              "en": "The one to whom I give (will give) a kiss, that is the one; seize him! And he kissed him with his mouth.",
+              "zh": "我要親的人就是那一個；抓住他！於是他用嘴親了他。"
+            },
+            {
+              "t": "Tmongox ka tmongox; bilaq balae ka tngoxan nia!",
+              "fr": "Il l'a goûté (pour goûter il a goûté), mais il n'en goûte qu'un tout petit peu !",
+              "en": "He did taste it (as for tasting, he tasted), but he tastes only a tiny little bit of it!",
+              "zh": "他是嚐了（要嚐是嚐了），但他只嚐了一點點！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TOOQO",
+      "tag": "(R)",
+      "fr": "Se vexer – être offensé.",
+      "en": "To take offense – to be offended.",
+      "zh": "生氣、動怒－被冒犯。",
+      "examples": [
+        {
+          "t": "Ini biyao tooqo ka Sikat ! Bilaq bi l'xbun na!",
+          "fr": "Sicatz se vexe facilement! Elle est très prompte !",
+          "en": "Sikat takes offense easily! She is very quick(-tempered)!",
+          "zh": "Sikat 很容易生氣！她的脾氣非常急！"
+        },
+        {
+          "t": "pax ksaxol bi ka kari mo; ya bi tooqo!",
+          "fr": "Mes paroles viennent du coeur; il ne faut pas te vexer (te formaliser).",
+          "en": "My words come from the heart; you must not take offense (be affronted).",
+          "zh": "我的話發自內心；你不要生氣（不要見怪）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tqoan",
+          "fr": "(T'qoan) Offense, vexation (subies).",
+          "en": "(T'qoan) Offense, vexation (suffered).",
+          "zh": "（T'qoan）所受的冒犯、委屈。",
+          "examples": [
+            {
+              "t": "Ini bi sxongi ana kingal tnqoan na ka baki",
+              "fr": "Grand-père n'oublie pas une seule offense reçue!",
+              "en": "Grandfather does not forget a single offense he has received!",
+              "zh": "祖父連一次所受的冒犯都不會忘記！"
+            },
+            {
+              "t": "Ya manu bi ka tqoan so ?",
+              "fr": "Quelle est donc l'offense que tu as subie ?",
+              "en": "What then is the offense that you have suffered?",
+              "zh": "你究竟受了什麼冒犯？"
+            },
+            {
+              "t": "Paro bi tqoan ka kia!",
+              "fr": "Cela est une offense grave !",
+              "en": "That is a serious offense!",
+              "zh": "那是很嚴重的冒犯！"
+            }
+          ]
+        },
+        {
+          "form": "Ptooqo",
+          "paradigm": "°Ptooqo, ptooqo, ptqoe (pt'qoe), ptqoan, ptqoon.",
+          "fr": "Vexer – blesser (moralement) – offenser.",
+          "en": "To vex – to hurt (morally) – to offend.",
+          "zh": "使…生氣－（在精神上）傷害－冒犯。",
+          "examples": [
+            {
+              "t": "Nasi so msxaya do, na, so ptqoon kana ka llisao da!",
+              "fr": "Si tu agis de la sorte, (alors) tu vexeras tous les jeunes gens !",
+              "en": "If you act in this way, (then) you will offend all the young people!",
+              "zh": "你若這樣做，（那麼）你會冒犯所有的年輕人！"
+            },
+            {
+              "t": "Kawai so! mxa so bi ptooqo xeaan da!",
+              "fr": "Prends garde! Tu vas finir par le vexer !",
+              "en": "Watch out! You'll end up offending him!",
+              "zh": "小心！你最後會惹他生氣的！"
+            }
+          ]
+        },
+        {
+          "form": "Ptqoan",
+          "fr": "Vexation (portée) – Injure, offense (faites).",
+          "en": "Vexation (inflicted) – Insult, offense (committed).",
+          "zh": "所加諸的委屈－所造成的侮辱、冒犯。",
+          "examples": [
+            {
+              "t": "Kia ! Ptqoan so kana (vl. wada ptqoan so kana) ka d'lisao ni d'ua da!",
+              "fr": "Voilà! Tu as fini par vexer tous les jeunes gens et toutes les jeunes filles.",
+              "en": "There! You have ended up offending all the young men and all the young women.",
+              "zh": "你看！你終於冒犯了所有的年輕男女。"
+            },
+            {
+              "t": "Paro bi pntqoan so sadyaq ka s'xiga!",
+              "fr": "Hier tu as très profondément vexé les gens.",
+              "en": "Yesterday you deeply offended people.",
+              "zh": "昨天你深深地冒犯了眾人。"
+            }
+          ]
+        },
+        {
+          "form": "Sptooqo",
+          "fr": "Ce qui sert à offenser, à vexer.",
+          "en": "That which serves to offend, to vex.",
+          "zh": "用來冒犯、惹人生氣的（東西／方式）。",
+          "examples": [
+            {
+              "t": "Ya splang wada so lmngao sao kia sptooqo so ludan so ?",
+              "fr": "Je suppose que tu as fait exprès de parler ainsi pour offenser (vexer) tes parents ?",
+              "en": "I suppose you spoke like that on purpose to offend (vex) your parents?",
+              "zh": "我猜你是故意這樣說話來冒犯（惹惱）你的父母吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TÖTING",
+      "tag": "(R)",
+      "fr": "Tomber – descendre – naître (tomber au monde).",
+      "en": "To fall – to descend – to be born (to fall into the world).",
+      "zh": "掉落－下來－出生（落到世上）。",
+      "examples": [
+        {
+          "t": "Töting n'xali!",
+          "fr": "Descends vite !",
+          "en": "Come down quickly!",
+          "zh": "快下來！"
+        },
+        {
+          "t": "Ana ini töting ka xea",
+          "fr": "Il n'est pas nécessaire que lui descende.",
+          "en": "It is not necessary that he come down.",
+          "zh": "他不必下來。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtöting",
+          "paradigm": "°Mtöting, töting, ttingi, ttingan, ttingun.",
+          "fr": "Tomber – descendre – déchoir – naître.",
+          "en": "To fall – to descend – to decline (morally) – to be born.",
+          "zh": "掉落－下降－墮落－出生。",
+          "examples": [
+            {
+              "t": "Mntöting s'xiga ka laqe na",
+              "fr": "Son enfant est né (est tombé) hier.",
+              "en": "His child was born (fell) yesterday.",
+              "zh": "他的孩子昨天出生了（落地了）。"
+            },
+            {
+              "t": "Xmut so mqalao qouni o, mptöting so kia da!",
+              "fr": "Avec ta manie (sans raison) de grimper aux arbres, tu vas finir par tomber (tu tomberas tout à l'heure)!",
+              "en": "With your habit (for no reason) of climbing trees, you'll end up falling (you'll fall any moment now)!",
+              "zh": "你（毫無理由地）老愛爬樹，最後會摔下來的（你等一下就會摔下來）！"
+            },
+            {
+              "t": "Sao bi mtöting kana kalat da !",
+              "fr": "C'est comme si tout le ciel tombait !",
+              "en": "It is as if the whole sky were falling!",
+              "zh": "彷彿整個天都要塌下來了！"
+            }
+          ]
+        },
+        {
+          "form": "Ttingan",
+          "fr": "Lieu, temps, manière de descendre, de tomber – la chute – l'endroit d'où l'on descend.",
+          "en": "Place, time, manner of descending, of falling – the fall – the place from which one descends.",
+          "zh": "下降、掉落的地點、時間與方式－墜落－下來的地方。",
+          "examples": [
+            {
+              "t": "Kmtöting ko bi ka yako ni ongat ttingan !",
+              "fr": "Moi, je voudrais bien descendre mais il n'y a pas d'endroit pour (par où) descendre !",
+              "en": "As for me, I'd really like to come down but there's no place to (by which to) come down!",
+              "zh": "我很想下去，可是沒有地方（沒有路）可以下去！"
+            },
+            {
+              "t": "Ttingan lnabao ka sayang",
+              "fr": "C'est maintenant le temps de la chute des feuilles.",
+              "en": "It is now the season of the falling of the leaves.",
+              "zh": "現在是落葉的時節。"
+            }
+          ]
+        },
+        {
+          "form": "Ptöting",
+          "paradigm": "°Mptöting, ptöting, pttingi, pttingan, pttingun.",
+          "fr": "Faire descendre – faire tomber (d'un endroit élevé) – mettre au monde.",
+          "en": "To make (something) descend – to make (something) fall (from a high place) – to bring into the world (give birth).",
+          "zh": "使…下來－使…掉落（從高處）－生下（孩子）。",
+          "examples": [
+            {
+              "t": "Pttingi bi kana ka bnuöl, saon mo lmamu kia",
+              "fr": "Abats bien toutes les prunes, j'irai les ramasser ensuite.",
+              "en": "Knock down all the plums thoroughly, I'll go and gather them afterwards.",
+              "zh": "把所有的李子都打下來，我隨後去撿。"
+            },
+            {
+              "t": "Ga ptöting kingal laqe koyox ka Labai",
+              "fr": "Labai est en train de donner naissance à une petite fille.",
+              "en": "Labai is in the process of giving birth to a little girl.",
+              "zh": "Labai 正在生一個小女孩。"
+            }
+          ]
+        },
+        {
+          "form": "Pttingan",
+          "fr": "Naissance, descente (provoquées).",
+          "en": "Birth, descent (caused / brought about).",
+          "zh": "（所引致的）出生、下降。",
+          "examples": [
+            {
+              "t": "Adi pax pnttingan na laqe ka mnalox bi Potox ?",
+              "fr": "N'est-ce pas depuis son accouchement que Potorh est vraiment malade ?",
+              "en": "Isn't it since her childbirth that Potox (Potorh) has been really ill?",
+              "zh": "Potox 不是從生產之後才真的病了嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TOTING",
+      "tag": "(R)",
+      "fr": "Marteau.",
+      "en": "Hammer.",
+      "zh": "鐵鎚。",
+      "examples": [
+        {
+          "t": "Ita toting so binao; spngun mo tmoting pax xeini !",
+          "fr": "Passe-moi voir ton marteau; je vais essayer de m'en servir (pour taper) depuis ici.",
+          "en": "Pass me your hammer to have a look; I'm going to try to use it (to hammer) from here.",
+          "zh": "把你的鐵鎚遞給我看看；我要試著從這裡用它（來敲打）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmoting",
+          "paradigm": "°Tmoting, toting, ttingi (?), ttingan (?), ttingun (?).",
+          "fr": "Frapper du marteau – Frapper quelque chose avec un instrument.",
+          "en": "To strike with a hammer – to strike something with an instrument.",
+          "zh": "用鐵鎚敲打－用工具敲打某物。",
+          "examples": [
+            {
+              "t": "Usa tmoting kane n'xali",
+              "fr": "Va vite sonner la cloche.",
+              "en": "Go quickly and ring the bell.",
+              "zh": "快去敲鐘。"
+            },
+            {
+              "t": "Ga tmoting sape ni palex ni poting ka Tain",
+              "fr": "Tainne est occupé à forger des pioches, des binettes et des couteaux.",
+              "en": "Tain is busy forging pickaxes, hoes and knives.",
+              "zh": "Tain 正忙著打鐵，製作鎬、鋤和刀。"
+            }
+          ]
+        },
+        {
+          "form": "Mtoting",
+          "fr": "Celui qui frappe du marteau, – forgeron (= Mtoting xilui).",
+          "en": "One who strikes with a hammer, – blacksmith (= Mtoting xilui).",
+          "zh": "用鐵鎚敲打的人，－鐵匠（＝Mtoting xilui）。"
+        }
+      ]
+    },
+    {
+      "hw": "TOTOX",
+      "tag": "(R)",
+      "fr": "Boîte, récipient fait d'un bout de bambou dont un noeud sert de fond et, par extension, la pipe pour fumer (fabriquée de la même façon), et aussi bon nombre de contenants. (Pipe se dit plus souvent : POQAN).",
+      "en": "Box, a container made from a length of bamboo one node of which serves as its bottom and, by extension, the pipe for smoking (made the same way), and also a good number of containers. (A pipe is more often called: POQAN).",
+      "zh": "盒子，用一段竹子做成的容器，以竹節作底；引申指菸斗（以同樣方式製作），也泛指許多容器。（菸斗更常稱為：POQAN。）",
+      "examples": [
+        {
+          "t": "Totox qalat",
+          "fr": "Boîte (de conserve) d'ananas.",
+          "en": "A (tin) can of pineapple.",
+          "zh": "鳳梨（罐頭）罐。"
+        }
+      ]
+    },
+    {
+      "hw": "TOXOI",
+      "tag": "(R)",
+      "paradigm": "°Toxoi, toxoi, ?, txeyan, txeyun.",
+      "fr": "Se promener – être avec – être en même temps – avec – rendre visite.",
+      "en": "To go for a walk – to be with – to be at the same time – along with – to pay a visit.",
+      "zh": "散步、遊逛－與…在一起－同時－伴隨－拜訪。",
+      "examples": [
+        {
+          "t": "Toxoi qoyoç miyax ka bgixol ole",
+          "fr": "Avec la pluie vient aussi le vent.",
+          "en": "With the rain comes the wind as well.",
+          "zh": "隨著雨，風也一起來了。"
+        },
+        {
+          "t": "Mxa ko toxoi alang",
+          "fr": "Je vais faire un tour au village.",
+          "en": "I'm going to take a stroll around the village.",
+          "zh": "我要去村子裡逛一圈。"
+        },
+        {
+          "t": "Ya sl'xbun ! Ga ko toxoi sapax Segoq",
+          "fr": "Sois sans soucis! Je suis en visite chez Segoq.",
+          "en": "Don't worry! I'm visiting at Segoq's place.",
+          "zh": "別擔心！我在 Segoq 家作客。"
+        },
+        {
+          "t": "Toxoi ko tama musa bbuyo",
+          "fr": "Je vais dans la forêt (à la chasse) en compagnie de mon père.",
+          "en": "I'm going into the forest (hunting) in the company of my father.",
+          "zh": "我和父親一起去森林（打獵）。"
+        },
+        {
+          "t": "Toxoi ta xan!",
+          "fr": "1° Reste encore un peu avec moi ! 2° Attends-moi, allons ensemble. (MTTOXOI = se fréquenter).",
+          "en": "1° Stay with me a little longer! 2° Wait for me, let's go together. (MTTOXOI = to keep company with / associate with one another).",
+          "zh": "1°再陪我一會兒！2°等我，我們一起去。（MTTOXOI＝彼此往來、交往）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tgoxoi",
+          "fr": "Celui qui va avec, en compagnie.",
+          "en": "The one who goes with, in company.",
+          "zh": "同行、作伴的人。",
+          "examples": [
+            {
+              "t": "Ima ka tgoxoi Lübaq ?",
+              "fr": "Qui est-ce qui est (qui va) avec Lubaq ? (nb. Le plus souvent certains locuteurs ne font pas de distinction entre : TOXOI et TGOXOI).",
+              "en": "Who is it that is (who goes) with Lubaq? (n.b. Most often certain speakers make no distinction between: TOXOI and TGOXOI).",
+              "zh": "誰和 Lubaq 一起（同行）？（註：某些說話者通常不區分 TOXOI 與 TGOXOI。）"
+            }
+          ]
+        },
+        {
+          "form": "Txeyan",
+          "fr": "Compagnie – camarade – le fait, le temps, le lieu d'être avec, de se promener.",
+          "en": "Company – companion – the fact, the time, the place of being with, of walking about together.",
+          "zh": "陪伴－同伴－與人相處、同遊的事實、時間與地點。",
+          "examples": [
+            {
+              "t": "Pgaalu ko bi! Ongat txeyan mo da!",
+              "fr": "Pauvre de moi ! Je n'ai plus de camarade (de compagnie).",
+              "en": "Poor me! I no longer have a companion (any company).",
+              "zh": "我好可憐！我再也沒有同伴（沒人作伴）了。"
+            },
+            {
+              "t": "Naqex xali txeyan ka dbsukan",
+              "fr": "Il ne fait pas très bon être en compagnie d'ivrognes.",
+              "en": "It is not very good to be in the company of drunkards.",
+              "zh": "與醉漢為伍不是好事。"
+            },
+            {
+              "t": "Malu bi txeyan ka Mikat",
+              "fr": "Mikatz est de joyeuse compagnie.",
+              "en": "Mikat is cheerful company.",
+              "zh": "Mikat 是個令人愉快的同伴。"
+            }
+          ]
+        },
+        {
+          "form": "Ttgoxoi",
+          "fr": "Être tous ensemble – être assemblés.",
+          "en": "To be all together – to be gathered.",
+          "zh": "全部在一起－聚集在一起。",
+          "examples": [
+            {
+              "t": "Ttgoxoi nami mqan",
+              "fr": "Nous mangeons tous ensemble.",
+              "en": "We all eat together.",
+              "zh": "我們大家一起吃飯。"
+            }
+          ]
+        },
+        {
+          "form": "Stgoxoi",
+          "fr": "Pour (?) être en compagnie de.",
+          "en": "In order (?) to be in the company of.",
+          "zh": "為了（？）與…作伴。",
+          "examples": [
+            {
+              "t": "Lnglongan d'xa: Ongat xeni o, ga stgoxoi ssdyaqon, msa ka dxea",
+              "fr": "En pensée : Il n'est pas ici, c'est qu'il est (a voulu être) en compagnie des autres gens, se disent-ils.",
+              "en": "In their thoughts: 'He isn't here; it's because he is (wanted to be) in the company of the other people,' they say to themselves.",
+              "zh": "他們心裡想：「他不在這裡，是因為他（想要）跟別人在一起」，他們這樣自忖。"
+            }
+          ]
+        },
+        {
+          "form": "Ptoxoi",
+          "paradigm": "°Ptoxoi, ptoxoi, ?, ptxeyan, ptxeyun.",
+          "fr": "Faire être avec – Faire promener.",
+          "en": "To make (someone) be with – to make (someone) go about / take for a walk.",
+          "zh": "使…與…在一起－帶…去走走。",
+          "examples": [
+            {
+              "t": "Ptxeyun mo laqe so Watan ka Wili mo",
+              "fr": "Je veux que mon fils Wili fréquente ton fils Watan.",
+              "en": "I want my son Wili to keep company with your son Watan.",
+              "zh": "我希望我的兒子 Wili 和你的兒子 Watan 來往。"
+            },
+            {
+              "t": "Ini bi ptoxoi laqe na ana ino ka Laotan",
+              "fr": "Laotanne ne permet pas à son fils d'aller se promener où que ce soit.",
+              "en": "Laotan does not allow his son to go walking anywhere at all.",
+              "zh": "Laotan 不准他的兒子到任何地方去閒逛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TQELI",
+      "tag": "(R. = QELI ?)",
+      "crossRef": "QELI",
+      "fr": "Qui est autour – qui entoure. Vr. QELI.",
+      "en": "That which is around – that which surrounds. See QELI.",
+      "zh": "在周圍的－環繞的。參見 QELI。",
+      "subs": [
+        {
+          "form": "Tqliyan",
+          "fr": "Lieu, temps, manière d'entourer.",
+          "en": "Place, time, manner of surrounding.",
+          "zh": "環繞的地點、時間與方式。",
+          "examples": [
+            {
+              "t": "Pida bi tqliyan d'xa alang pais ka siida",
+              "fr": "C'était juste le moment où ils entouraient le territoire des ennemis.",
+              "en": "It was just the moment when they were surrounding the enemies' territory.",
+              "zh": "那正是他們包圍敵人領地的時刻。"
+            }
+          ]
+        },
+        {
+          "form": "Tnqliyan",
+          "fr": "Encerclement (passé) – palissade.",
+          "en": "Encirclement (past) – palisade / stockade.",
+          "zh": "（過去的）包圍－柵欄。",
+          "examples": [
+            {
+              "t": "Malu bi tnqliyan so ka kana mtqeli xlpasan laqe",
+              "fr": "Tu as fait une belle palissade tout autour de la cour de récréation (des enfants).",
+              "en": "You've made a fine palisade all around the (children's) playground.",
+              "zh": "你在（孩子們的）遊戲場四周築了一道漂亮的柵欄。"
+            }
+          ]
+        },
+        {
+          "form": "Ptqeli",
+          "fr": "Entourer – encercler.",
+          "en": "To surround – to encircle.",
+          "zh": "圍住－包圍。",
+          "examples": [
+            {
+              "t": "Adi so ptqliyun ka tbugan so lodoç xo ?",
+              "fr": "Ne penses-tu pas entourer ton parc à poules ?",
+              "en": "Don't you intend to fence in your chicken pen?",
+              "zh": "你不打算把你的雞舍圍起來嗎？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

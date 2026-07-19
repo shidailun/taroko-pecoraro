@@ -1,0 +1,785 @@
+{
+  "pages": [178, 181],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "LULUL",
+      "tag": "( = R. ?)",
+      "fr": "En réserve (?) - en abondance (?) - en trop (?) .",
+      "en": "In reserve (?) - in abundance (?) - in excess (?).",
+      "zh": "備用（？）－充裕（？）－過多（？）。",
+      "subs": [
+        {
+          "form": "Lmulul",
+          "fr": "?? .",
+          "en": "?? (meaning uncertain).",
+          "zh": "？？（意義不明）。",
+          "examples": [
+            {
+              "t": "Tai ka lmulul lukus o, sgani sao ini dui",
+              "fr": "Que celui qui a plusieurs habits, partage (s'en serve pour partager) avec celui qui n'en a pas .",
+              "en": "Let the one who has several garments share (use them to share) with the one who has none.",
+              "zh": "有多件衣服的人，應與沒有衣服的人分享（用來分享）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUMUL",
+      "tag": "(R)",
+      "fr": "Foie . (nb. Siège du courage chez les taroko).",
+      "en": "Liver. (n.b. Seat of courage among the Taroko.)",
+      "zh": "肝臟。（註：太魯閣人視之為勇氣之所在。）",
+      "examples": [
+        {
+          "t": "kmqan ko bi lumul babwi ka yako",
+          "fr": "J'aimerais bien manger du foie de cochon.",
+          "en": "I would really like to eat pork liver.",
+          "zh": "我很想吃豬肝。"
+        },
+        {
+          "t": "Tao ta adi nyeqan lumul na xo",
+          "fr": "Voyons (attendons pour voir) s'il est courageux.",
+          "en": "Let us see (let us wait and see) whether he is courageous.",
+          "zh": "我們看看（等著瞧）他是否勇敢。"
+        }
+      ]
+    },
+    {
+      "hw": "LUNGUT",
+      "tag": "",
+      "crossRef": "L'NGUT",
+      "fr": "Féconder - Etre enceinte. var. de L'ngut (lngut). VR. L'NGUT .",
+      "en": "To fertilize - to be pregnant. var. of L'ngut (lngut). See L'NGUT.",
+      "zh": "使受孕－懷孕。L'ngut（lngut）之或體。參見 L'NGUT。"
+    },
+    {
+      "hw": "LUNO",
+      "tag": "(R)",
+      "fr": "Tremblement de terre.",
+      "en": "Earthquake.",
+      "zh": "地震。",
+      "subs": [
+        {
+          "form": "Mluno",
+          "fr": "La terre tremble - il y a un tremblement de terre.",
+          "en": "The earth shakes - there is an earthquake.",
+          "zh": "大地震動－發生地震。",
+          "examples": [
+            {
+              "t": "Mluno do, asi msska ka ana bbtunuç da",
+              "fr": "Quand il y a un tremblement de terre, même les rochers se fendent.",
+              "en": "When there is an earthquake, even the rocks split apart.",
+              "zh": "發生地震時，連岩石都會裂開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUT",
+      "tag": "(R. ?)",
+      "fr": "Peser lourd sur - qui presse - qui fait pression sur.(?).",
+      "en": "To weigh heavily upon - which presses - which exerts pressure upon. (?)",
+      "zh": "重壓於上－按壓者－施壓者。（？）",
+      "subs": [
+        {
+          "form": "Mlut",
+          "fr": "(R. = P'LUT ?) = Qui pèse lourd sur - qui fait pression sur - qui fait taire (?).",
+          "en": "(R. = P'LUT ?) Which weighs heavily upon - which exerts pressure upon - which silences (?).",
+          "zh": "（詞根＝P'LUT？）重壓於上者－施壓者－使人噤聲者（？）。",
+          "examples": [
+            {
+              "t": "Asi nlut (m'lut ?) xeaan ka Awi adi na bi sqoaqe",
+              "fr": "Il a fallu qu'intervienne Awi (en faisant pression sur lui) pour qu'il ne parle pas. VR. P'LUT .",
+              "en": "Awi had to intervene (by putting pressure on him) so that he would not speak. See P'LUT.",
+              "zh": "必須由 Awi 出面（對他施壓），他才不會說話。參見 P'LUT。"
+            }
+          ]
+        },
+        {
+          "form": "Slut",
+          "fr": "adhérer.- pour adhérer. (R. = LUT ? - = LöT ? - = S'LUT ?). VR. SLUT (S'LUT) .",
+          "en": "to adhere - for adhering. (R. = LUT ? - = LöT ? - = S'LUT ?). See SLUT (S'LUT).",
+          "zh": "黏附－用以黏附。（詞根＝LUT？－＝LöT？－＝S'LUT？）。參見 SLUT（S'LUT）。"
+        },
+        {
+          "form": "P'lut",
+          "fr": "Presser sur - s'appuyer sur. (R. = LUT ?) VR. P'LUT.",
+          "en": "To press upon - to lean upon. (R. = LUT ?) See P'LUT.",
+          "zh": "按壓於上－倚靠於上。（詞根＝LUT？）參見 P'LUT。"
+        }
+      ]
+    },
+    {
+      "hw": "LUTUT",
+      "tag": "(R)",
+      "fr": "Parent (la parentée) - en relation - rattachés.",
+      "en": "Relative (kinship) - related - connected.",
+      "zh": "親屬（親戚關係）－有關聯－相連。",
+      "examples": [
+        {
+          "t": "Xbalao bi ka llutut no",
+          "fr": "Mes parents (directs) sont très nombreux.",
+          "en": "My (direct) relatives are very numerous.",
+          "zh": "我的（直系）親屬非常多。"
+        },
+        {
+          "t": "Xbalao bi lutut no ka ini usa",
+          "fr": "Bon nombre de mes parents ne sont pas allés (ne vont pas).",
+          "en": "A good number of my relatives did not go (are not going).",
+          "zh": "我有不少親屬沒有去（不去）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlutut",
+          "fr": "Qui est parent - qui sont apparentés.",
+          "en": "Who is a relative - who are related.",
+          "zh": "是親屬者－彼此有親戚關係者。",
+          "examples": [
+            {
+              "t": "Ida ta mlutut ka ita",
+              "fr": "Bien entendu nous, nous sommes apparentés.",
+              "en": "Of course we, we are related.",
+              "zh": "我們當然是有親戚關係的。"
+            },
+            {
+              "t": "nxa mlutut xeti ka ssapax daxa",
+              "fr": "Toutes leurs maisons vont un jour se toucher les unes les autres (comme si elles étaient parentes !).",
+              "en": "All their houses will one day touch one another (as if they were related!).",
+              "zh": "他們所有的房子總有一天會彼此相連（彷彿它們是親戚一般！）。"
+            }
+          ]
+        },
+        {
+          "form": "Lmutut",
+          "paradigm": "° Lmutut, lutut, ltudi, ltudan, ltudun.",
+          "fr": "Mettre en contact - mettre l'un au bout de l'autre - mettre à la suite;",
+          "en": "To put in contact - to put one at the end of the other - to place in succession;",
+          "zh": "使接觸－首尾相接－接續排列；",
+          "examples": [
+            {
+              "t": "Mxdo ka kari na do, asi lmutut lmngao ka Taikong",
+              "fr": "A peine a-t-il fini de parler, c'est Taikong qui prend la suite (enchaîne) en disant (en prenant la parole).",
+              "en": "Scarcely had he finished speaking when Taikong takes over (continues), speaking up (taking the floor).",
+              "zh": "他一說完，Taikong 便接著（承接）發言（接過話頭）。"
+            }
+          ]
+        },
+        {
+          "form": "Ltudan",
+          "fr": "Au parent, pour le (les) parent.",
+          "en": "To the relative, for the relative(s).",
+          "zh": "對親屬，為（該等）親屬。",
+          "examples": [
+            {
+              "t": "Kia bi ka lnngagan mo ltudan ska'man",
+              "fr": "C'est bien celà que j'ai dit aux parents hier soir.",
+              "en": "That is exactly what I said to the relatives last night.",
+              "zh": "那正是我昨晚對親屬們說的話。"
+            },
+            {
+              "t": "Ongat ssaon so o, usa ltudan da",
+              "fr": "Si tu ne sais pas où aller, va chez des parents.",
+              "en": "If you don't know where to go, go to relatives.",
+              "zh": "如果你不知道要去哪裡，就去投靠親屬吧。"
+            }
+          ]
+        },
+        {
+          "form": "Plutut",
+          "paradigm": "° Mplutut, plutut, pltudi, pltudan, pltudun.",
+          "fr": "Joindre - attacher l'un à l'autre - souder.",
+          "en": "To join - to fasten one to the other - to weld.",
+          "zh": "連接－將一物繫於另一物－焊接。",
+          "examples": [
+            {
+              "t": "Plutut binao ka daxa knawal so, kika mxa toko knblagan da",
+              "fr": "Attache bout à bout tes deux fils de fer, ainsi leur longueur suffira.",
+              "en": "Fasten your two iron wires end to end, that way their length will be enough.",
+              "zh": "把你的兩條鐵絲首尾接起來，這樣長度就夠了。"
+            },
+            {
+              "t": "Adi so pltudun ka gasil so xo?",
+              "fr": "Ne veux tu pas rallonger ta ficelle ?",
+              "en": "Don't you want to lengthen your string?",
+              "zh": "你不想把你的繩子接長嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mplutut",
+          "fr": "Attacher (au futur) - celui qui attache.",
+          "en": "To fasten (future) - the one who fastens.",
+          "zh": "繫（未來式）－繫者。",
+          "examples": [
+            {
+              "t": "Mplutut ko kia ka gasil so",
+              "fr": "j'attacherai tout à l'heure tes bouts de ficelle.",
+              "en": "I will fasten your pieces of string shortly.",
+              "zh": "我等一下會把你的繩頭接起來。"
+            },
+            {
+              "t": "Ima ka mplutut ?",
+              "fr": "1) Qui est celui qui attache ? 2) Qui est ce qui attachera ?",
+              "en": "1) Who is the one fastening? 2) Who is the one who will fasten?",
+              "zh": "1）誰在繫？2）誰將要繫？"
+            },
+            {
+              "t": "Pnlutut ko s'xiga",
+              "fr": "Je (l')ai rallongé hier.",
+              "en": "I lengthened it yesterday.",
+              "zh": "我昨天把它接長了。"
+            }
+          ]
+        },
+        {
+          "form": "Pltudan",
+          "fr": "Jonction - jointure - épissure.",
+          "en": "Junction - joint - splice.",
+          "zh": "接合－接頭－接續處。",
+          "examples": [
+            {
+              "t": "Ini xali tai ka pnltudan so",
+              "fr": "On voit à peine l'endroit où tu as fait la jointure.",
+              "en": "One can barely see the place where you made the joint.",
+              "zh": "幾乎看不出你接合的地方。"
+            }
+          ]
+        },
+        {
+          "form": "Bntudan",
+          "fr": "(=var. de Pltudan ?) = Jonction - épissure.",
+          "en": "(= var. of Pltudan ?) Junction - splice.",
+          "zh": "（＝Pltudan 之或體？）接合－接續處。",
+          "examples": [
+            {
+              "t": "Xea bi nanak ka knawal nii, ongat bi btudan",
+              "fr": "Il est d'une seule pièce (il est uniquement lui) ce fil de fer, vraiment sans jointures.",
+              "en": "It is all one piece (it is just itself), this iron wire, truly without joints.",
+              "zh": "這條鐵絲是一整條的（就只是它本身），確實沒有接頭。"
+            },
+            {
+              "t": "Mnalox kana btudan papaq no",
+              "fr": "toutes les jointures de mes jambes me font mal.",
+              "en": "all the joints of my legs hurt.",
+              "zh": "我腿上所有的關節都在痛。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlutut",
+          "fr": "1) joignait; 2) Agir en parents.",
+          "en": "1) was joining; 2) to act as relatives.",
+          "zh": "1）曾連接；2）以親屬相待。",
+          "examples": [
+            {
+              "t": "Pnlutut so sknuan ka nugul no ?",
+              "fr": "Quand as tu rallongé na cordelette ?",
+              "en": "When did you lengthen your cord?",
+              "zh": "你什麼時候把你的細繩接長的？"
+            },
+            {
+              "t": "Pax sbiyao ka pnlutut nani da",
+              "fr": "C'est depuis très longtemps que nous nous considérons(nous nous comportons comme des) parents.",
+              "en": "It has been for a very long time that we consider ourselves (behave as) relatives.",
+              "zh": "我們很久以來就把彼此當作（表現得像）親屬。"
+            }
+          ]
+        },
+        {
+          "form": "Pklutut",
+          "fr": "Réconforter - fortifier.",
+          "en": "To comfort - to strengthen.",
+          "zh": "慰藉－強身。",
+          "examples": [
+            {
+              "t": "Biyoq onoç nilit ka pnklutut knan da",
+              "fr": "C'est le lait de chèvre qui m'a revigoré.",
+              "en": "It is goat's milk that revived me.",
+              "zh": "是羊奶讓我恢復了元氣。"
+            },
+            {
+              "t": "Asi ka pklutut so ( pnklutut so (?)) pusu denki mxa mpldax ka tama denki so",
+              "fr": "Ta lampe ne pourra éclairer que si tu fais qu'elle soit en contact avec la dynamo (avec la source de l'électicité).",
+              "en": "Your lamp will only be able to shine if you make it be in contact with the dynamo (with the source of electricity).",
+              "zh": "只有讓你的燈與發電機（與電源）接觸，它才能發光。"
+            }
+          ]
+        },
+        {
+          "form": "Mpklutut",
+          "fr": "Qui fortifie, réconforte - celui qui réconforte.",
+          "en": "Which strengthens, comforts - the one who comforts.",
+          "zh": "使人強壯、恢復元氣者－給人慰藉者。",
+          "examples": [
+            {
+              "t": "Oqe bi siyam boyaq, kika mpklutut sunan",
+              "fr": "Mange donc de la viande de sanglier, c'est celà qui va te donner des forces.",
+              "en": "Do eat some wild boar meat, that is what will give you strength.",
+              "zh": "你就吃點山豬肉吧，那才會給你力氣。"
+            }
+          ]
+        },
+        {
+          "form": "Pkltudan (Pnkltudan ?)",
+          "fr": "Le fait d'être réconforté, ravigoté.",
+          "en": "The state of being comforted, revived.",
+          "zh": "被慰藉、恢復元氣的狀態。",
+          "examples": [
+            {
+              "t": "Biyoq onoç nilit ka suyang bi pnkltudan (pkltudan ?)",
+              "fr": "C'est le lait de chèvre qui est un excellent reconstituant.",
+              "en": "It is goat's milk that is an excellent restorative.",
+              "zh": "羊奶是極佳的補品。"
+            },
+            {
+              "t": "Sinao ! Kia ka ngalun daxa pnkltudan",
+              "fr": "L'alcool ! Voilà où ils cherchent le réconfort !",
+              "en": "Alcohol! That is where they seek comfort!",
+              "zh": "酒！那就是他們尋求慰藉的地方！"
+            }
+          ]
+        },
+        {
+          "form": "Slutut",
+          "fr": "Apparenté - unis par des liens de parenté.",
+          "en": "Related - united by ties of kinship.",
+          "zh": "有親戚關係－以親屬紐帶相連。",
+          "examples": [
+            {
+              "t": "Ini bi slutut pax suxal ka dxea; mslutut nani ka yani",
+              "fr": "Depuis longtemps ils ne se considèrent pas parents, eux; nous, nous conservons les relations de parentée .",
+              "en": "For a long time they, they do not consider themselves relatives; we, we keep up the kinship ties.",
+              "zh": "他們很久以來就不把彼此當親屬了；而我們則保持著親戚關係。"
+            }
+          ]
+        },
+        {
+          "form": "Mslutut",
+          "fr": "Qui se considère comme parent - qui a une parentée.",
+          "en": "Who considers himself a relative - who has kinship.",
+          "zh": "自認為是親屬者－有親戚關係者。",
+          "examples": [
+            {
+              "t": "Mslutut nani balae ka yani Iban",
+              "fr": "Ibanne et moi sommes vraiment parents.",
+              "en": "Iban and I are truly relatives.",
+              "zh": "Iban 和我確實是親屬。"
+            }
+          ]
+        },
+        {
+          "form": "Pslutut",
+          "fr": "Qui provoque la parentée - rendre parents.",
+          "en": "Which brings about kinship - to make into relatives.",
+          "zh": "促成親戚關係者－使成為親屬。",
+          "examples": [
+            {
+              "t": "Sibal ka pusu ta ludan sbiyao; xea bi ka pnslutut tnan da !",
+              "fr": "C'est Sibal qui est notre souche (notre ancêtre), et c'est par lui que nous sommes parents(qui nous a fait parents).",
+              "en": "It is Sibal who is our stock (our ancestor), and it is through him that we are relatives (who made us relatives).",
+              "zh": "Sibal 是我們的本源（我們的祖先），我們是透過他才成為親屬的（是他使我們成為親屬）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUTYAQ",
+      "tag": "(R)",
+      "fr": "Saleté - faute - péché.",
+      "en": "Dirt - fault - sin.",
+      "zh": "污穢－過錯－罪。",
+      "examples": [
+        {
+          "t": "Iso nanak ka napa lutyaq",
+          "fr": "C'est toi seul qui portes la faute.",
+          "en": "It is you alone who bears the fault.",
+          "zh": "承擔過錯的只有你一個人。"
+        },
+        {
+          "t": "Lutyaq kana lukus so da",
+          "fr": "Voilà tes habits tout sales (pleins de saleté).",
+          "en": "There are your clothes all dirty (full of dirt).",
+          "zh": "你的衣服都髒了（滿是污垢）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlutyaq",
+          "fr": "Qui est sale - sali.",
+          "en": "Which is dirty - soiled.",
+          "zh": "髒的－被弄髒的。",
+          "examples": [
+            {
+              "t": "Mlutyaq kana baga so da, sai tlima !",
+              "fr": "Tes mains sont toutes sales, va te laver !",
+              "en": "Your hands are all dirty, go wash yourself!",
+              "zh": "你的手都髒了，去洗一洗！"
+            }
+          ]
+        },
+        {
+          "form": "Plutyaq",
+          "fr": "Salir - troubler.",
+          "en": "To dirty - to make turbid.",
+          "zh": "弄髒－攪濁。",
+          "examples": [
+            {
+              "t": "Ksia naxon ka nii! lalao bi xmut plutyaq!",
+              "fr": "Cette eau est de l'eau pour boire, évite de la salir inconsidérément.",
+              "en": "This water is drinking water, avoid dirtying it carelessly.",
+              "zh": "這水是飲用水，別隨便把它弄髒。"
+            },
+            {
+              "t": "Ya xmut plutyaq tlangan daxa",
+              "fr": "Ne t'amuse pas à salir les places où ils vont s'asseoir (leurs chaises).",
+              "en": "Don't go dirtying the places where they will sit (their seats).",
+              "zh": "別去弄髒他們要坐的地方（他們的座位）。"
+            }
+          ]
+        },
+        {
+          "form": "Slutyaq",
+          "fr": "pour souiller - pour salir.",
+          "en": "for soiling - for dirtying.",
+          "zh": "用以玷污－用以弄髒。",
+          "examples": [
+            {
+              "t": "Ma slaq bi ka ddaon so slutyaq so kana lukus da",
+              "fr": "Pourquoi passes tu justement par la rizière pour salir tes habits ?",
+              "en": "Why do you go right through the paddy field, dirtying your clothes?",
+              "zh": "你為什麼偏偏要走過稻田，把衣服都弄髒了？"
+            }
+          ]
+        },
+        {
+          "form": "Sltyqon",
+          "fr": "Moyen voulu (vl.futur) pour salir.",
+          "en": "Desired means (var., future) for dirtying.",
+          "zh": "用以弄髒的（欲用之）方法（或：未來式）。",
+          "examples": [
+            {
+              "t": "Ini daxa sloaani pstnai sapax aadi daxa sltyqon",
+              "fr": "Il ne leur était pas permis d'entrer dans la maison pour ne pas être souillés (impurs).",
+              "en": "They were not permitted to enter the house so as not to be soiled (impure).",
+              "zh": "他們不被允許進屋，以免被玷污（成為不潔）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUUL",
+      "tag": "(R)",
+      "fr": "Aboyer.",
+      "en": "To bark.",
+      "zh": "吠叫。",
+      "subs": [
+        {
+          "form": "Mluul",
+          "fr": "qui aboie.",
+          "en": "which barks.",
+          "zh": "吠叫的。",
+          "examples": [
+            {
+              "t": "Ga nluul pax ska'man ka xeuling Wilang",
+              "fr": "Le chien de Wilan aboie depuis hier soir.",
+              "en": "Wilang's dog has been barking since last night.",
+              "zh": "Wilang 的狗從昨晚就一直在吠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUULA",
+      "tag": "(R)",
+      "crossRef": "TLUULA",
+      "fr": "En public - ouvertement. (nb. Est ce bien une R. ? , ou bien une simplification de TLUULA ?). VR. TLUULA .",
+      "en": "In public - openly. (n.b. Is this really a root?, or rather a simplification of TLUULA?) See TLUULA.",
+      "zh": "公開地－公然地。（註：這真的是詞根嗎？還是 TLUULA 的簡化形？）參見 TLUULA。",
+      "subs": [
+        {
+          "form": "Tluula",
+          "fr": "Publiquement - connu - au vu et au su de tout le monde.",
+          "en": "Publicly - known - in full view and knowledge of everyone.",
+          "zh": "公開地－眾所周知－在眾人目睹與知悉之下。",
+          "examples": [
+            {
+              "t": "Miyax ntluula bi tqeta nkl\"lu ka xea",
+              "fr": "Il est ouvertement venu se montrer le long de la route. VR. TLUULA .",
+              "en": "He openly came to show himself along the road. See TLUULA.",
+              "zh": "他公然沿路現身。參見 TLUULA。"
+            }
+          ]
+        },
+        {
+          "form": "Pluula",
+          "fr": "Clairement - d'une façon évidente.",
+          "en": "Clearly - in an obvious manner.",
+          "zh": "清楚地－以顯而易見的方式。",
+          "examples": [
+            {
+              "t": "Wada pluula bi lnngao dole",
+              "fr": "Il a de nouveau dit clairement.",
+              "en": "He again spoke clearly.",
+              "zh": "他又清楚地說了一遍。"
+            }
+          ]
+        },
+        {
+          "form": "Ptluula",
+          "fr": "Manifester - révéler - faire connaitre.",
+          "en": "To manifest - to reveal - to make known.",
+          "zh": "顯明－揭示－使人知曉。",
+          "examples": [
+            {
+              "t": "Ongat bi ka ini na ptllaon",
+              "fr": "Il n'y a rien qu'il ne soit décidé à manifester (à faire connaître) publiquement.",
+              "en": "There is nothing he is not determined to manifest (to make known) publicly.",
+              "zh": "沒有什麼是他不決心公開顯明（使人知曉）的。"
+            }
+          ]
+        },
+        {
+          "form": "Ptllaani",
+          "fr": "A manifester, à faire connaître (impératif).",
+          "en": "To manifest, to make known (imperative).",
+          "zh": "去顯明、去使人知曉（命令式）。",
+          "examples": [
+            {
+              "t": "Ya ko bi ptllaani sadyaq",
+              "fr": "Ne le faites pas connaître aux gens.",
+              "en": "Do not make it known to people.",
+              "zh": "別讓大家知道這件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUUS",
+      "tag": "(R)",
+      "fr": "Seul - solitaire - célibataire.",
+      "en": "Alone - solitary - unmarried.",
+      "zh": "獨自－孤獨－單身。",
+      "examples": [
+        {
+          "t": "Luus so bi kddiyax ka iso o , uxai so mbasi bi xo?",
+          "fr": "Toi qui es toujours seul (célibataire), est ce que tu ne t'ennuies pas (n'es pas triste) ?",
+          "en": "You who are always alone (unmarried), don't you get bored (aren't you sad)?",
+          "zh": "你總是獨自一人（單身），你不會覺得無聊（不會難過）嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knluus",
+          "fr": "Intensité de solitude.",
+          "en": "Intensity of solitude.",
+          "zh": "孤獨的程度。",
+          "examples": [
+            {
+              "t": "Snola ko bi mita knluus so nyeqan",
+              "fr": "Je t'envie (celà me fait envie) de te voir vivre seul.",
+              "en": "I envy you (it makes me envious) to see you living alone.",
+              "zh": "看到你獨自生活，我很羨慕你（讓我心生羨慕）。"
+            }
+          ]
+        },
+        {
+          "form": "Knlsan (knl'san)",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            {
+              "t": "Pax knl'san so nanak ka ongat ana manu sl'xbnan so",
+              "fr": "C'est par ce que tu n'es pas marié que tu n'as aucune sorte de souci",
+              "en": "It is because you are not married that you have no worries of any kind.",
+              "zh": "正因為你沒有結婚，你才毫無任何煩惱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LUXAI",
+      "tag": "(R)",
+      "fr": "Habitude - entraînement - vertu.",
+      "en": "Habit - training - virtue.",
+      "zh": "習慣－訓練－德行。",
+      "examples": [
+        {
+          "t": "Luxai na nanak ka kia",
+          "fr": "Celà c'est bien son habitude (sa manie).",
+          "en": "That is indeed his habit (his quirk).",
+          "zh": "那確實是他的習慣（他的癖好）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mluxai",
+          "fr": "Devenir habitude - être entraîné - avoir l'habitude.",
+          "en": "To become a habit - to be trained - to have the habit.",
+          "zh": "成為習慣－受過訓練－養成習慣。",
+          "examples": [
+            {
+              "t": "",
+              "fr": "Est ce qu'il en aurait pris l'habitude, ce fou ?",
+              "en": "Could he have taken up the habit of it, that fool?",
+              "zh": "那個瘋子難道養成這習慣了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Lxayan",
+          "fr": "Temps, lieu où l'on apprend, s'entraîne - habitude acquise.",
+          "en": "Time, place where one learns, trains - acquired habit.",
+          "zh": "學習、訓練的時間或場所－養成的習慣。",
+          "examples": [
+            {
+              "t": "Naqex bi lxayan sayang laqe ka n'qan t'bako",
+              "fr": "C'est une mauvaise habitude (vice) des enfants aujourd'hui de fumer.",
+              "en": "It is a bad habit (vice) of children nowadays to smoke.",
+              "zh": "抽菸是當今孩子們的壞習慣（惡習）。"
+            }
+          ]
+        },
+        {
+          "form": "Smluxai",
+          "paradigm": "° Smluxai, sluxai, slxaii, slxayan, slxayun.",
+          "fr": "pour faire devenir habitude - apprendre - étudier.",
+          "en": "to cause to become a habit - to learn - to study.",
+          "zh": "使之成為習慣－學習－研讀。",
+          "examples": [
+            {
+              "t": "Ana ndludan ka ga plading smluxai matas",
+              "fr": "Il y en a même parmi les vieux qui apprennent à écrire.",
+              "en": "There are even some among the old people who are learning to write.",
+              "zh": "甚至有些老人也在學寫字。"
+            },
+            {
+              "t": "Ya bi sluxai mimax sinao",
+              "fr": "Ne t'habitue pas à boire du vin!",
+              "en": "Don't get into the habit of drinking wine!",
+              "zh": "別養成喝酒的習慣！"
+            }
+          ]
+        },
+        {
+          "form": "Slxayan",
+          "fr": "Entrainement - étude.",
+          "en": "Training - study.",
+          "zh": "訓練－學習。",
+          "examples": [
+            {
+              "t": "Naqex bi slxayan ka kari troko",
+              "fr": "Le taroko est une langue difficile à apprendre.",
+              "en": "Taroko is a difficult language to learn.",
+              "zh": "太魯閣語是很難學的語言。"
+            }
+          ]
+        },
+        {
+          "form": "Psluxai",
+          "fr": "Faire apprendre - habituer - entraîner.",
+          "en": "To have someone learn - to accustom - to train.",
+          "zh": "使人學習－使習慣－訓練。",
+          "examples": [
+            {
+              "t": "Pslxayun niso matas xo? ... Ana ini! ... Ana nia!",
+              "fr": "Je vais t'apprendre à écrire, veux tu? ... Ce n'est pas nécessaire! ... Comme tu voudras !",
+              "en": "I'll teach you to write, all right? ... It's not necessary! ... As you wish!",
+              "zh": "我來教你寫字，好嗎？……不必了！……隨你的便！"
+            }
+          ]
+        },
+        {
+          "form": "Ssluxai",
+          "fr": "pour apprendre - pour s'entraîner (moyen).",
+          "en": "for learning - for training oneself (means).",
+          "zh": "用以學習－用以自我訓練（工具）。",
+          "examples": [
+            {
+              "t": "Saon no mali ka patas ssluxai no kari ego",
+              "fr": "Je veux aller acheter les livres pour apprendre l'anglais.",
+              "en": "I want to go buy the books for learning English.",
+              "zh": "我想去買學英語的書。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XAN (L'çAN)",
+      "tag": "(R)",
+      "fr": "Aisé - facile - clair.",
+      "en": "Easy - simple - clear.",
+      "zh": "容易－簡單－清楚。",
+      "examples": [
+        {
+          "t": "L'çan bi kari ka nii",
+          "fr": "Ceci est facile à dire.",
+          "en": "This is easy to say.",
+          "zh": "這很容易說。"
+        },
+        {
+          "t": "L'çan bi ka kari nii",
+          "fr": "Cette parole,(ce parler, ce langage)est facile,(compréhensible).",
+          "en": "This speech, (this way of speaking, this language) is easy, (understandable).",
+          "zh": "這句話（這種說法、這種語言）很容易，（好懂）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ml'çan",
+          "fr": "Qui est aisé, facile, clair.",
+          "en": "Which is easy, simple, clear.",
+          "zh": "容易、簡單、清楚的。",
+          "examples": [
+            {
+              "t": "Ml'çan balae ka nkari so troko",
+              "fr": "ton parler taroko est très clair (tu parles bien le taroko).",
+              "en": "your Taroko speech is very clear (you speak Taroko well).",
+              "zh": "你的太魯閣語說得很清楚（你太魯閣語說得好）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpl'çan",
+          "fr": "Celui qui rend facile - compréhensible - aisé.",
+          "en": "The one who makes easy - understandable - simple.",
+          "zh": "使之容易－好懂－簡單者。",
+          "examples": [
+            {
+              "t": "Mpl'çan bi kari ka slngao so sayang",
+              "fr": "Ce que tu dis maintenant sont des paroles vraiment compréhensibles.(Tu emploies de paroles faciles pour parler",
+              "en": "What you are saying now are truly understandable words. (You use easy words to speak",
+              "zh": "你現在說的話真的很好懂。（你用簡單的詞語來說話"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "L'XANG",
+      "tag": "(R)",
+      "fr": "Lumière - clarté.",
+      "en": "Light - brightness.",
+      "zh": "光－光亮。",
+      "examples": [
+        {
+          "t": "L'xang xedao ni l'xang idas o, paro ka ini pndka",
+          "fr": "Il y a une grande différence entre la lumière du soleil et",
+          "en": "There is a great difference between the light of the sun and",
+          "zh": "太陽的光和月亮的光之間有很大的差別"
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

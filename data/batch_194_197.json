@@ -1,0 +1,530 @@
+{
+  "pages": [194, 197],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "... anerika",
+        "fr": "Vous autres les étrangers (américains (!!)), vous avez un long nez.",
+        "en": "You foreigners (Americans (!!)), you have a long nose.",
+        "zh": "你們這些外國人（美國人（！！）），你們的鼻子很長。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Smuxeng",
+        "fr": "Espèce de souris des champs, mulot.",
+        "en": "A kind of field mouse, a vole.",
+        "zh": "一種田鼠、田鼷鼠。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "MUXUL",
+      "tag": "(MUÇUL) (R. = UXUL ?)",
+      "fr": "Bon chaud - tiède - moelleux (se dit surtout d'un habit, d'un habitat, d'une couverture).",
+      "en": "Nicely warm - lukewarm - soft and cozy (said especially of a garment, a dwelling, a blanket).",
+      "zh": "溫暖 - 溫熱 - 柔軟舒適（尤指衣物、住所、被子）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MXA",
+      "tag": "(R. = ?? - uniquement connu dans cette forme et la suivante: PXA)",
+      "fr": "aller - devenir (pour former des futurs).",
+      "en": "to go - to become (used to form futures).",
+      "zh": "去 - 變成（用以構成未來式）。",
+      "examples": [
+        { "t": "Mxa nalu", "fr": "Cela deviendra bien.", "en": "That will turn out well.", "zh": "那會變好。" },
+        { "t": "Mxa nlata", "fr": "Aller soldat.", "en": "To go (become) a soldier.", "zh": "去當兵。" },
+        { "t": "Mxa nqan", "fr": "Va manger.", "en": "Is going to eat.", "zh": "要去吃飯。" },
+        { "t": "Mxa ko sapax", "fr": "Je vais à la maison.", "en": "I am going home.", "zh": "我要回家。" },
+        { "t": "Mxa nalu kalat saman", "fr": "Il va faire beau demain.", "en": "It will be fine weather tomorrow.", "zh": "明天會是好天氣。" }
+      ],
+      "subs": [
+        {
+          "form": "Pxa",
+          "fr": "Faire aller - mettre dans.",
+          "en": "To make go - to put into.",
+          "zh": "使去 - 放入。",
+          "examples": [
+            { "t": "Pxa bi tunuç so ka kia", "fr": "Mets toi bien cela dans la tête.", "en": "Put that well into your head.", "zh": "把那件事牢記在腦中。" },
+            { "t": "Pxa bi lnglongan", "fr": "Mets bien cela dans ton coeur = souviens toi bien !", "en": "Put that well into your heart = remember it well!", "zh": "把那放進心裡＝好好記住！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MXEBONG",
+      "tag": "(R. = XEBONG ?)",
+      "fr": "Jaune (couleur). (nb. A propos de couleurs, les taroko ne sont pas très fixés. Ils ont bien: B'xgai = blanc, et: Mqalox = noir; mais déjà avec: Mbanax = rouge, on recouvre toute la gamme du rose pale au violet foncé; et pour les autres couleurs c'est encore moins précis!)",
+      "en": "Yellow (colour). (n.b. Regarding colours, the Taroko are not very settled. They do have: B'xgai = white, and: Mqalox = black; but already with Mbanax = red, one covers the whole range from pale pink to deep violet; and for the other colours it is even less precise!)",
+      "zh": "黃色（顏色）。（註：關於顏色，太魯閣人並不很固定。他們確有：B'xgai＝白，Mqalox＝黑；但一到 Mbanax＝紅，就涵蓋了從淺粉紅到深紫的整個範圍；至於其他顏色就更不精確了！）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MXENG",
+      "tag": "(R. = PXENG ?)",
+      "crossRef": "VR. PXENG",
+      "fr": "Eteint - qui s'éteint.",
+      "en": "Extinguished - which goes out.",
+      "zh": "熄滅的 - 正在熄滅的。",
+      "examples": [
+        { "t": "Ga mxeng ka samao da", "fr": "Voilà la lampe éteinte - la lampe se trouve éteinte.", "en": "There, the lamp is out - the lamp is extinguished.", "zh": "燈熄了 - 燈已經熄滅了。" }
+      ],
+      "subs": [
+        {
+          "form": "Pxeng",
+          "fr": "Eteindre",
+          "en": "To extinguish.",
+          "zh": "熄滅（使熄滅）。",
+          "examples": [
+            { "t": "Pxngi ka xalong namo da", "fr": "Eteignez vos falots.", "en": "Put out your lanterns.", "zh": "把你們的燈籠熄掉。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "M'XLAO",
+      "tag": "(R.?)",
+      "crossRef": "VR. BXLAO",
+      "fr": "Poursuivre - pourchasser.",
+      "en": "To pursue - to chase.",
+      "zh": "追趕 - 追逐。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MXOUNI",
+      "tag": "(R. = ?)",
+      "fr": "Ensorcelé - victime d'un ésprit mauvais.",
+      "en": "Bewitched - victim of an evil spirit.",
+      "zh": "被施法的 - 惡靈的受害者。",
+      "examples": [
+        { "t": "Kingal nanak ka laqe no ! Ida bi ga mxouni", "fr": "Mon gosse est tout drôle! Peut-être est il ensorcelé !", "en": "My kid is acting all strange! Perhaps he is bewitched!", "zh": "我的孩子很不對勁！也許他被下了咒！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "N",
+      "tag": "(1)",
+      "fr": "Préfixe marquant la possession, l'appartenance. D'autres langues tayal, le SAO'LE par ex., conserve un NA très fréquent pour marquer la possession; alors que dans le même sens les taroko disent: ASO SADYAQ NII. Mais on retrouve ce NA sous la forme simplifié et préfixée N quand le possesseur doit être mis en évidence (forme emphatique); Avec l'exemple ci-dessus, on aura une forme où le N est devenu préfixe.",
+      "en": "Prefix marking possession, belonging. Other Tayal languages, SAO'LE for example, keep a very frequent NA to mark possession; whereas in the same sense the Taroko say: ASO SADYAQ NII. But this NA reappears in the simplified, prefixed form N when the possessor must be made prominent (emphatic form); with the example above, one obtains a form in which the N has become a prefix.",
+      "zh": "表示所有、歸屬的前綴。其他泰雅語系語言，例如 SAO'LE，保留一個很常用的 NA 來標記所有；而太魯閣人在相同意義上則說：ASO SADYAQ NII。但當需要突顯所有者時（強調形式），這個 NA 會以簡化並前綴化的 N 形式重新出現；就上面的例子而言，會得到一個 N 已成為前綴的形式。",
+      "examples": [
+        { "t": "ASO NA SAO'LE XANE", "fr": "Le bateau de cette personne là.", "en": "That person's boat.", "zh": "那個人的船。" },
+        { "t": "NSADYAQ NII KA ASO", "fr": "Le bateau est à cette personne; le N est devenu préfixe.", "en": "The boat belongs to this person; the N has become a prefix.", "zh": "這艘船是這個人的；N 已成為前綴。" },
+        { "t": "Nxea (n'xea)", "fr": "A lui.", "en": "His / to him.", "zh": "他的／屬於他。" },
+        { "t": "Ntama", "fr": "au père.", "en": "The father's / to the father.", "zh": "父親的／屬於父親。" },
+        { "t": "Nbalao", "fr": "Ce qui est d'en haut.", "en": "That which is from above.", "zh": "來自上面的東西。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "N",
+      "tag": "(2)",
+      "fr": "Préfixe, ou In-fixe, marquant le passé. Cet affixe ne change pas la nature du terme qu'il affecte, qu'il soit verbal, nominal ou autre; il ne fait qu'indiquer le passé de l'action ou de l'état.",
+      "en": "Prefix, or infix, marking the past. This affix does not change the nature of the term it affects, whether verbal, nominal or other; it only indicates the past of the action or of the state.",
+      "zh": "表示過去的前綴或中綴。此詞綴不改變它所附著詞語的性質，無論是動詞、名詞或其他；它只表示動作或狀態的過去。",
+      "examples": [
+        { "t": "Mnita ko", "fr": "Je voyais;", "en": "I was seeing / I used to see;", "zh": "我在看／我以前看；" },
+        { "t": "Ntaan mo", "fr": "Ce que j'ai vu;", "en": "What I saw;", "zh": "我所看見的；" },
+        { "t": "Musa ko", "fr": "Je vais;", "en": "I go / I am going;", "zh": "我去；" },
+        { "t": "Mnusa ko", "fr": "J'allais;", "en": "I was going / I went;", "zh": "我以前去／我去過；" },
+        { "t": "Nusa no", "fr": "Mon aller, passé, réalisé;", "en": "My going, past, accomplished;", "zh": "我的行程，過去、已完成；" },
+        { "t": "Pnsaan no", "fr": "L'envoi que j'ai fait.", "en": "The sending that I made.", "zh": "我所做的差遣。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NA",
+      "tag": "",
+      "fr": "Personnel de la 3me personne du singulier dans sa forme d'adjectif possessif.",
+      "en": "Third person singular personal pronoun in its possessive adjective form.",
+      "zh": "第三人稱單數人稱代詞的所有格形容詞形式。",
+      "examples": [
+        { "t": "Tama na", "fr": "Son père;", "en": "His/her father;", "zh": "他的父親；" },
+        { "t": "Tama ko na", "fr": "Je suis son père;", "en": "I am his father;", "zh": "我是他的父親；" },
+        { "t": "Byeqon ta na", "fr": "Il nous donnera (nous sommes pour lui ceux à qui il doit (veut) donner.", "en": "He will give to us (we are for him those to whom he must (wants to) give).", "zh": "他會給我們（對他而言，我們是他應該（想要）給予的對象）。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NA",
+      "tag": "",
+      "fr": "Particule outil employée dans des sens divers:",
+      "en": "A functional particle used in various senses:",
+      "zh": "用於多種意義的功能虛詞：",
+      "examples": [
+        { "t": "Ini na", "fr": "Pas encore.", "en": "Not yet.", "zh": "還沒有。" },
+        { "t": "Na, ini so k'la da", "fr": "Ainsi! tu ne sais pas !", "en": "So! you don't know!", "zh": "原來如此！你不知道！" },
+        { "t": "Ini so salu na", "fr": "Tu n'as pas encore bâti ?", "en": "You haven't built yet?", "zh": "你還沒蓋好嗎？" },
+        { "t": "Nasi motoç tunuç na o, na, ini na k'lae ka \"lu da", "fr": "Si sa tête est dérangée, alors, il a perdu le bon sens ( il ne sait plus la route)!", "en": "If his head is disturbed, then he has lost his good sense (he no longer knows the way)!", "zh": "如果他的頭腦錯亂了，那麼他就失去了理智（他不再認得路了）！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NABAO",
+      "tag": "",
+      "crossRef": "VR. LNABAO",
+      "fr": "Simplification courante de: LNABAO = Feuille (d'arbre).",
+      "en": "Common simplification of: LNABAO = Leaf (of a tree).",
+      "zh": "LNABAO 的常見簡化形：（樹）葉。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mpsnabao (=Mpslnabao)",
+          "fr": "Printemps - temps où les arbres commencent à porter des feuilles.",
+          "en": "Spring - the time when the trees begin to bear leaves.",
+          "zh": "春天 - 樹木開始長葉的時節。",
+          "examples": []
+        },
+        {
+          "form": "Snabao (Slnabao)",
+          "fr": "Pour être feuille (?).",
+          "en": "To be(come) leaf (?).",
+          "zh": "成為葉子（？）。",
+          "examples": []
+        },
+        {
+          "form": "Psnabao (pslnabao)",
+          "fr": "Faire pour qu'il y ait des feuilles (?).",
+          "en": "To act so that there are leaves (?).",
+          "zh": "使長出葉子（？）。",
+          "examples": [
+            { "t": "Ini psnabao ka qouni", "fr": "Les arbres n'émettent pas de feuilles.", "en": "The trees are not putting out leaves.", "zh": "樹木沒有長出葉子。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NAIS",
+      "tag": "( = R. de MNAIS ?)",
+      "crossRef": "VR. MNAIS",
+      "fr": "Passager (?) - bref (?).",
+      "en": "Fleeting (?) - brief (?).",
+      "zh": "短暫的（？）- 簡短的（？）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NALAQ",
+      "tag": "(R)",
+      "fr": "Pus.",
+      "en": "Pus.",
+      "zh": "膿。",
+      "examples": [
+        { "t": "Mxdo so slsun (sl'sun) ka nalaq o, lsoxe ka sapox nii da", "fr": "Après avoir épongé le pus, tu mettras ce médicament.", "en": "After sponging off the pus, you will apply this medicine.", "zh": "把膿擦拭乾淨後，你就塗上這個藥。" }
+      ],
+      "subs": [
+        {
+          "form": "Mnalaq",
+          "fr": "Etre purulent - s'infecter - sécréter du pus.",
+          "en": "To be purulent - to become infected - to secrete pus.",
+          "zh": "化膿 - 受感染 - 分泌膿液。",
+          "examples": [
+            { "t": "Adi mnalaq ka nangal so loqex xo?", "fr": "Est ce que la blessure que tu t'es faite ne s'infecte pas ?", "en": "Isn't the wound you gave yourself getting infected?", "zh": "你受的傷沒有化膿嗎？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NALAT",
+      "tag": "(R)",
+      "fr": "La droite - main droite.",
+      "en": "The right - right hand.",
+      "zh": "右邊 - 右手。",
+      "examples": [
+        { "t": "Nalat baga", "fr": "La main droite.", "en": "The right hand.", "zh": "右手。" },
+        { "t": "Usa nqole nalat", "fr": "Va vers la droite.", "en": "Go to the right.", "zh": "往右邊走。" }
+      ],
+      "subs": [
+        {
+          "form": "Mknalat",
+          "fr": "Sur la droite - situé à droite.",
+          "en": "On the right - located to the right.",
+          "zh": "在右邊 - 位於右側。",
+          "examples": [
+            { "t": "Mknalat ka d'yamo ni mk'ilil ka yami da", "fr": "Vous êtes (habitez) sur la droite et nous nous habitons sur la gauche.", "en": "You live on the right and we live on the left.", "zh": "你們住在右邊，我們住在左邊。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NALOX",
+      "tag": "( = R. ? - R. = KNALOX ?)",
+      "fr": "Maladie - malade.",
+      "en": "Illness - sick.",
+      "zh": "疾病 - 生病的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mnalox",
+          "fr": "Qui est malade - qui souffre.",
+          "en": "Who is sick - who suffers.",
+          "zh": "生病的 - 受苦的。",
+          "examples": [
+            { "t": "Mnalox tunuç mo da", "fr": "Je suis en souci - j'ai mal à la tête (ma tête à mal (?)).", "en": "I am worried - I have a headache (my head hurts (?)).", "zh": "我很憂心 - 我頭痛（我的頭痛（？））。" }
+          ]
+        },
+        {
+          "form": "Knalox",
+          "fr": "Forme impérative ou négative de MNALOX.",
+          "en": "Imperative or negative form of MNALOX.",
+          "zh": "MNALOX 的命令式或否定形。",
+          "examples": [
+            { "t": "Ini knalox ka baga, xmut msdala nanak", "fr": "La main ne me fait pas mal, elle ne fait que saigner !", "en": "The hand doesn't hurt me, it only bleeds!", "zh": "手不痛，只是流血而已！" }
+          ]
+        },
+        {
+          "form": "Knnalox",
+          "fr": "Intensité du souffir - gravité de la maladie.",
+          "en": "Intensity of the suffering - gravity of the illness.",
+          "zh": "痛苦的強度 - 疾病的嚴重程度。",
+          "examples": [
+            { "t": "Wada mo sxngiyan ka knnalox mo", "fr": "J'ai oublié combien j'avais mal !", "en": "I have forgotten how much I was hurting!", "zh": "我已忘記自己當時有多痛了！" }
+          ]
+        },
+        {
+          "form": "Pknalox",
+          "fr": "Faire que cela fasse mal - faire qu'on soit malade.",
+          "en": "To make it hurt - to make someone sick.",
+          "zh": "使之疼痛 - 使人生病。",
+          "examples": [
+            { "t": "Ana so miyax pknalox tunuç mo o, adi ko bi alex", "fr": "Même si tu viens me faire mal à la tête (me troubler), je ne lâcherai pas.", "en": "Even if you come to give me a headache (to trouble me), I will not give up.", "zh": "即使你來讓我頭痛（打擾我），我也不會放棄。" }
+          ]
+        },
+        {
+          "form": "Sknalox",
+          "fr": "(moyen) qui provoque le mal, la maladie.",
+          "en": "(the means) that causes the harm, the illness.",
+          "zh": "引起病痛、疾病的（媒介）。",
+          "examples": [
+            { "t": "Mninax so tla'to ksia ska'nan o, kia ka sknalox l'xbun so", "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.", "en": "You drank cold water last night, that is what is hurting your stomach.", "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NALU",
+      "tag": "( = R. ?)",
+      "fr": "Tenir la place.",
+      "en": "To take the place (of).",
+      "zh": "代替、頂替（某人的位置）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mnalu",
+          "fr": "Qui tient la place - remplacer - au nom de.",
+          "en": "Who takes the place - to replace - in the name of.",
+          "zh": "頂替的 - 代替 - 以…之名。",
+          "examples": [
+            { "t": "Mnalu so ima miyax", "fr": "Tu viens au nom de qui ?", "en": "In whose name do you come?", "zh": "你以誰的名義前來？" },
+            { "t": "Mnalu ko laqe so dmayao", "fr": "Je remplace ton fils pour travailler.", "en": "I am replacing your son to work.", "zh": "我代替你的兒子來工作。" }
+          ]
+        },
+        {
+          "form": "Pnalu",
+          "fr": "Faire remplacer - faire tenir la place.",
+          "en": "To have (someone) replace - to have (someone) take the place.",
+          "zh": "使人代替 - 使人頂替。",
+          "examples": [
+            { "t": "Skgulun mo daxa xei npnalu kman musa", "fr": "J'enverrai deux personnes qui iront à ma place.", "en": "I will send two people who will go in my place.", "zh": "我會派兩個人代替我去。" }
+          ]
+        },
+        {
+          "form": "Nluan",
+          "fr": "Ce qui remplace - ce qui tient la place.",
+          "en": "That which replaces - that which takes the place.",
+          "zh": "代替者 - 頂替的人／物。",
+          "examples": [
+            { "t": "Nluan so sadyaq snii o, nxoqel da", "fr": "La personne qui t'a remplacé dernièrement, elle est morte.", "en": "The person who replaced you recently, he has died.", "zh": "最近代替你的那個人，他死了。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NAMA",
+      "tag": "(R)",
+      "fr": "Préparé - en avant - précédant.",
+      "en": "Prepared - ahead - preceding.",
+      "zh": "預備好的 - 在前的 - 先行的。",
+      "examples": [
+        { "t": "Usa nama ka iso, miyax ko kia", "fr": "Toi, va devant; je viendrai ensuite.", "en": "You, go ahead; I will come afterwards.", "zh": "你先走；我隨後就來。" }
+      ],
+      "subs": [
+        {
+          "form": "Mnama",
+          "fr": "Qui est en avance - qui est devant.",
+          "en": "Who is ahead - who is in front.",
+          "zh": "在前的 - 領先的。",
+          "examples": [
+            { "t": "Iso bi nanak, ongat ka mnama sunan", "fr": "Tu est bien le seul, il n'y a personne qui te précède.", "en": "You really are the only one, there is no one ahead of you.", "zh": "你確實是唯一的一個，沒有人在你前面。" }
+          ]
+        },
+        {
+          "form": "Snama",
+          "fr": "Pour être prêt - pour être à temps.",
+          "en": "In order to be ready - in order to be on time.",
+          "zh": "為了做好準備 - 為了及時。",
+          "examples": []
+        },
+        {
+          "form": "Msnama",
+          "fr": "qui se prépare - qui s'apprête.",
+          "en": "who prepares himself - who gets ready.",
+          "zh": "做準備的 - 整裝待發的。",
+          "examples": [
+            { "t": "Ga msnama daya kana ka lqlaqe", "fr": "Tous les enfants se préparent là haut.", "en": "All the children are getting ready up there.", "zh": "所有的孩子都在上面做準備。" }
+          ]
+        },
+        {
+          "form": "Psnama",
+          "paradigm": "°Mpsnama, psnama, psnnai (?), psnmaan, psnmaon.",
+          "fr": "Préparer - faire avant - aller en avant.",
+          "en": "To prepare - to do beforehand - to go ahead.",
+          "zh": "準備 - 事先做 - 先行。",
+          "examples": [
+            { "t": "Ndoa bi psnama kana ppadyaq, ongat diyax ta kia", "fr": "Prépare bien tous les légumes en avance nous n'aurons pas le temps tout à l'heure.", "en": "Prepare all the vegetables well in advance, we won't have time later.", "zh": "把所有的菜好好地事先準備好，待會兒我們就沒時間了。" },
+            { "t": "Wada psnama \"bi dgiyaq ka tama so", "fr": "Ton père est allé préparer la hutte en montagne.", "en": "Your father has gone to prepare the hut in the mountains.", "zh": "你父親上山去準備山中的小屋了。" }
+          ]
+        },
+        {
+          "form": "Mpsnama",
+          "fr": "Celui qui prépare - préparera.",
+          "en": "The one who prepares - will prepare.",
+          "zh": "準備者 - 將準備的人。",
+          "examples": [
+            { "t": "Dmorisaka ka mpsnama ooqon daxa", "fr": "Ce sont ceux de Morisaca qui sont chargés de préparer la nourriture des autres.", "en": "It is the people of Morisaca who are in charge of preparing the others' food.", "zh": "由 Morisaca 的人負責準備其他人的食物。" }
+          ]
+        },
+        {
+          "form": "Psnmaan",
+          "fr": "Ce qu'on prépare - préparatifs - temps de préparation.",
+          "en": "What one prepares - preparations - time of preparation.",
+          "zh": "所準備之物 - 準備工作 - 準備的時間。",
+          "examples": [
+            { "t": "Pida bi psnmaan yyaxan (yeyaxan) Cristo ka sida.", "fr": "C'était justement alors la préparation de la venue du Christ (l'avent).", "en": "It was precisely then the preparation for the coming of Christ (Advent).", "zh": "那正是預備基督降臨的時期（將臨期）。" }
+          ]
+        },
+        {
+          "form": "Knnama",
+          "fr": "En avance - en prévision.",
+          "en": "In advance - in anticipation.",
+          "zh": "預先 - 事先預備。",
+          "examples": [
+            { "t": "Tai ka napais nii o, wada knnama pgk'la dxeaan", "fr": "Quant à cet ennemi, il les avait prévenus d'avance ( il s'était mis d'accord avec eux d'avance.", "en": "As for this enemy, he had warned them in advance (he had come to an agreement with them beforehand).", "zh": "至於這個敵人，他事先已通知他們（他事先已與他們達成協議）。" }
+          ]
+        },
+        {
+          "form": "Gnama",
+          "fr": "Préparer - tenir prêt.",
+          "en": "To prepare - to hold ready.",
+          "zh": "準備 - 使準備妥當。",
+          "examples": [
+            { "t": "Gnama so daxa baga aadi so tisbut btunuç ka qaqai so", "fr": "Ils tiendront prêtes leurs mains pour que ton pied ne heurte pas les pierres. (ils te recevront dans leurs mains..)", "en": "They will hold their hands ready so that your foot does not strike the stones. (they will receive you in their hands..)", "zh": "他們會伸出雙手準備接住，好使你的腳不致撞到石頭。（他們會用手接住你……）" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NANAK",
+      "tag": "(R)",
+      "fr": "Seul - seulement - uniquement.",
+      "en": "Alone - only - solely.",
+      "zh": "獨自 - 只 - 唯獨。",
+      "examples": [
+        { "t": "Kingal nanak", "fr": "1) un seul - rien qu'un; 2) Spécial - étrange.", "en": "1) a single one - just one; 2) special - strange.", "zh": "1) 單獨一個 - 只有一個；2) 特別的 - 奇怪的。" },
+        { "t": "Kuxul (no, so, na, ta) nanak", "fr": "A (ma, ta, sa, notre,) guise.", "en": "As (my, your, his, our) own liking.", "zh": "隨（我的、你的、他的、我們的）意。" },
+        { "t": "Lnglongan so nanak", "fr": "comme tu voudras.", "en": "as you wish.", "zh": "隨你所願。" },
+        { "t": "Usa nanak", "fr": "Va seulement - tu n'as qu'à aller. - Va toi même.", "en": "Just go - you only have to go. - Go yourself.", "zh": "只管去 - 你儘管去就是。 - 你自己去。" }
+      ],
+      "subs": [
+        {
+          "form": "Nak",
+          "fr": "Simplification fréquente du précédent.",
+          "en": "Frequent simplification of the preceding.",
+          "zh": "前一詞的常見簡化形。",
+          "examples": [
+            { "t": "Tai nak lnglongan daxa", "fr": "Cela dépend de ce qu'ils pensent. - comme ils voudrot.", "en": "That depends on what they think. - as they will want.", "zh": "那要看他們怎麼想。 - 隨他們的意。" }
+          ]
+        },
+        {
+          "form": "Mnanak",
+          "fr": "Solitaire - se trouver seul - vivre seul.",
+          "en": "Solitary - to find oneself alone - to live alone.",
+          "zh": "孤獨的 - 獨處 - 獨居。",
+          "examples": [
+            { "t": "Mnanak kddiyax mksa ka xea", "fr": "Il marche toujours tout seul.", "en": "He always walks all alone.", "zh": "他總是獨自一人走。" }
+          ]
+        },
+        {
+          "form": "Knnakan",
+          "fr": "Solitude - état de celui qui est seul.",
+          "en": "Solitude - the state of one who is alone.",
+          "zh": "孤獨 - 獨自一人的狀態。",
+          "examples": [
+            { "t": "Knnakan na nanak ka sp'otoç xeaan", "fr": "Ce n'est que sa solitude qui le rend fou !", "en": "It is only his solitude that drives him mad!", "zh": "使他發瘋的正是他的孤獨！" }
+          ]
+        },
+        {
+          "form": "Pnanak",
+          "paradigm": "°Mpnanak, pnanak, pnnake, pnnakan, pnnakon.",
+          "fr": "Laisser seul - se séparer de. (nb; serait ce: Pknanak (?)).",
+          "en": "To leave alone - to separate from. (n.b.: could it be: Pknanak (?)).",
+          "zh": "留下獨自一人 - 與…分離。（註：會不會是 Pknanak（？））",
+          "examples": [
+            { "t": "Ya adi so pnnakan ka lludan so?", "fr": "J'espère que tu n'as pas laissé tes parents tout seuls ?", "en": "I hope you haven't left your parents all alone?", "zh": "但願你沒有把父母獨自留下吧？" }
+          ]
+        },
+        {
+          "form": "Pnnanak",
+          "fr": "(PN + NANAK) — A la manière d'un seul - seul - chacun pour soi.",
+          "en": "(PN + NANAK) — In the manner of a single one - alone - each for himself.",
+          "zh": "（PN + NANAK）像單獨一人那樣 - 獨自 - 各自為己。",
+          "examples": [
+            { "t": "Usa nanak pnnanak ka yano llisao", "fr": "Vous les jeunes gens allez donc chacun pour votre compte (sans compter sur les autres - sans la compagnie des autres.).", "en": "You young people, go each on your own account (without counting on others - without the company of others).", "zh": "你們年輕人各自去吧（別依靠他人 - 別要他人作伴）。" }
+          ]
+        },
+        {
+          "form": "Pgnnakan",
+          "fr": "Séparation - moment où chacun est pour soi.",
+          "en": "Separation - the moment when each is for himself.",
+          "zh": "分離 - 各自為己的時刻。",
+          "examples": [
+            { "t": "Ya bi sknuan ka pngnnakan namo yano Iban?", "fr": "Mais quand est ce donc que vous vous êtes séparés Ibanne et toi ?", "en": "But when did you and Iban actually separate?", "zh": "那你和 Iban 到底是什麼時候分開的？" }
+          ]
+        },
+        {
+          "form": "Snanak",
+          "fr": "Se désolidariser - s'isoler.",
+          "en": "To dissociate oneself - to isolate oneself.",
+          "zh": "脫離團體 - 孤立自己。",
+          "examples": []
+        },
+        {
+          "form": "Msnanak",
+          "fr": "Qui se désolidarise - qui s'isole.",
+          "en": "Who dissociates himself - who isolates himself.",
+          "zh": "脫離群體的 - 自我孤立的。",
+          "examples": [
+            { "t": "Ga plading msnanak kmpax ka Yudao ta", "fr": "Notre Yudao commence à travailler en solitaire (pour son compte).", "en": "Our Yudao is starting to work on his own (for his own account).", "zh": "我們的 Yudao 開始獨自工作（為自己）。" }
+          ]
+        },
+        {
+          "form": "Psnanak",
+          "fr": "Faire que ce soit chacun pour soi - isoler - mettre de côté.",
+          "en": "To make it each for himself - to isolate - to set aside.",
+          "zh": "使各自為己 - 隔離 - 擱置一旁。",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

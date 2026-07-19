@@ -1,0 +1,717 @@
+{
+  "pages": [202, 205],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pnng'laq (?)",
+        "fr": "Faire l'imbécile - bêtement - niaisement.",
+        "en": "To act the fool - stupidly - foolishly.",
+        "zh": "裝傻——愚蠢地——傻氣地。",
+        "examples": [
+          {
+            "t": "Ya bi png'laq",
+            "fr": "Ne fais pas l'idiot (= Ya bi pnng'laq !).",
+            "en": "Don't act the idiot (= Ya bi pnng'laq !).",
+            "zh": "別裝傻（＝Ya bi pnng'laq！）。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "NGOLOQ",
+      "tag": "(R)",
+      "fr": "Saignement du nez.",
+      "en": "Nosebleed.",
+      "zh": "流鼻血。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sngoloq",
+          "fr": "saigner du nez.",
+          "en": "To bleed from the nose.",
+          "zh": "流鼻血。",
+          "examples": [
+            {
+              "t": "Ini bi alex sngoloq ka muxeng no",
+              "fr": "Mon nez n'arrête pas de saigner.",
+              "en": "My nose won't stop bleeding.",
+              "zh": "我的鼻子流血不止。"
+            }
+          ]
+        },
+        {
+          "form": "Msngoloq",
+          "fr": "Qui saigne du nez.",
+          "en": "One whose nose is bleeding.",
+          "zh": "流著鼻血的人。",
+          "examples": [
+            {
+              "t": "Msngoloq pax nl'bu ka laqe",
+              "fr": "Le gosse saigne du nez depuis ce matin.",
+              "en": "The kid has had a nosebleed since this morning.",
+              "zh": "這孩子從今早就開始流鼻血。"
+            }
+          ]
+        },
+        {
+          "form": "Psngoloq",
+          "fr": "Faire saigner du nez.",
+          "en": "To make (someone's) nose bleed.",
+          "zh": "使流鼻血。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "NGONGO",
+      "tag": "(R)",
+      "fr": "Queue - extrémité.",
+      "en": "Tail - tip / extremity.",
+      "zh": "尾巴——末端。",
+      "examples": [
+        {
+          "t": "Ngongo kating",
+          "fr": "queue du buffle.",
+          "en": "buffalo's tail.",
+          "zh": "水牛的尾巴。"
+        },
+        {
+          "t": "Ngongo longai",
+          "fr": "queue de singe.",
+          "en": "monkey's tail.",
+          "zh": "猴子的尾巴。"
+        },
+        {
+          "t": "Ngongo daolyaq",
+          "fr": "Le coin de l'oeil.",
+          "en": "The corner of the eye.",
+          "zh": "眼角。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NGONGO",
+      "tag": "(Est ce un sens dérivé du précédent ?)",
+      "fr": "Pusillanime - peur.",
+      "en": "Faint-hearted - fear.",
+      "zh": "膽小的——恐懼。",
+      "examples": [
+        {
+          "t": "Tayal bi ngongo so",
+          "fr": "Quelle peur tu as !",
+          "en": "How frightened you are!",
+          "zh": "你多麼膽小啊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mngongo",
+          "fr": "Qui est paralysé de peur - qui est pusillanime, craintif.",
+          "en": "One paralyzed by fear - who is faint-hearted, timorous.",
+          "zh": "嚇得動彈不得的人——膽小、怯懦的人。",
+          "examples": [
+            {
+              "t": "Mngongo ko bi muda bqxos (bqlos) ka'man",
+              "fr": "J'ai la chair de poule en passant la nuit par le cimetière.",
+              "en": "I get goosebumps passing by the cemetery at night.",
+              "zh": "夜裡經過墓地時我起雞皮疙瘩。"
+            },
+            {
+              "t": "Ya lngao ! Mngongo namo kana da",
+              "fr": "Taisez vous ! Vous êtes tous des peureux !",
+              "en": "Be quiet! You're all cowards!",
+              "zh": "住口！你們都是膽小鬼！"
+            }
+          ]
+        },
+        {
+          "form": "Kngongo",
+          "fr": "L'intensité de peur , de pusillanimité.",
+          "en": "The intensity of fear, of faint-heartedness.",
+          "zh": "恐懼、膽怯的程度。",
+          "examples": [
+            {
+              "t": "Sao kia ka kngongo so da !",
+              "fr": "C'est comme cela que tu es peureux ?",
+              "en": "Is that how frightened you are?",
+              "zh": "你就這麼膽小嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Knngngoan",
+          "fr": "Pusillanimité - crainte - peur.",
+          "en": "Faint-heartedness - dread - fear.",
+          "zh": "膽怯——畏懼——恐懼。",
+          "examples": [
+            {
+              "t": "Ongat ka mpxlenas sao bi knngngoan nia",
+              "fr": "Personne ne pourra dépasser sa pusillanimité (personne ne peut être plus peureux que lui).",
+              "en": "No one could surpass his faint-heartedness (no one can be more fearful than he).",
+              "zh": "沒有人能超過他的膽怯（沒有人比他更膽小）。"
+            }
+          ]
+        },
+        {
+          "form": "Pkngongo",
+          "fr": "faire être peureux.",
+          "en": "To make (someone) fearful.",
+          "zh": "使人膽怯。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "NGUDUS",
+      "tag": "(R)",
+      "fr": "Barbe - moustache.",
+      "en": "Beard - moustache.",
+      "zh": "鬍鬚——鬍子。",
+      "examples": [
+        {
+          "t": "Kgusi tityex ka ngudus so da kika npamalu so taan",
+          "fr": "Coupe donc un peu ta barbe et tu seras (plus) beau .",
+          "en": "Do trim your beard a little and you'll be (more) handsome.",
+          "zh": "把你的鬍子修短一點，你會（更）好看。"
+        },
+        {
+          "t": "Ngudus sqno (sq'mo)",
+          "fr": "barbe de maïs.",
+          "en": "corn silk (lit. beard of maize).",
+          "zh": "玉米鬚。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NGUSUL",
+      "tag": "(R)",
+      "fr": "Nique.",
+      "en": "Snot / nasal mucus.",
+      "zh": "鼻涕。",
+      "examples": [
+        {
+          "t": "Ngusul kana muxeng so da, sa\"so bi !",
+          "fr": "C'est honteux! Tu as tout le nez plein de nique ! Pouah !",
+          "en": "It's disgraceful! Your nose is all full of snot! Yuck!",
+          "zh": "真丟臉！你滿鼻子都是鼻涕！呸！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sngusul",
+          "fr": "Qui produit, sécréte de la nique - qui a l'apparence de la nique.",
+          "en": "That which produces, secretes snot - that which has the appearance of snot.",
+          "zh": "會產生、分泌鼻涕的——外觀像鼻涕的。",
+          "examples": [
+            {
+              "t": "Tai muda ka muda o, msngusul kddiyax ka muxeng",
+              "fr": "quand passe le (une épidémie de) rhume, le nez n'arrête pas de couler.",
+              "en": "when a cold (an epidemic of colds) is going around, the nose runs endlessly.",
+              "zh": "感冒（流行性感冒）流行時，鼻子流個不停。"
+            }
+          ]
+        },
+        {
+          "form": "Pngusul (R. = NGUSUL ? = qui produit de la nique ?)",
+          "fr": "Escargot. (nb. Les japonais -d'après les taroko- ayant introduit à Taiwan la culture de l'escargot, il a depuis, énormément proliféré et les taroko s'en servent un peu comme nourriture et beaucoup pour nourrir les canards et les cochons).",
+          "en": "Snail. (n.b. The Japanese -according to the taroko- having introduced snail farming to Taiwan, it has since proliferated enormously, and the taroko use it a little as food and much for feeding the ducks and the pigs).",
+          "zh": "蝸牛。（註：據太魯閣人說，日本人把養蝸牛引進臺灣後，蝸牛此後大量繁殖，太魯閣人稍微拿來當食物，多半用來餵鴨和豬。）",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "NGUSYEX",
+      "tag": "(R)",
+      "fr": "Bec de lièvre.",
+      "en": "Harelip (cleft lip).",
+      "zh": "兔唇（唇裂）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mngusyex",
+          "fr": "Qui a un bec de lièvre.",
+          "en": "One who has a harelip.",
+          "zh": "有兔唇的人。",
+          "examples": [
+            {
+              "t": "Mngusyex ka qoaq laqe so o, sai pk'lut n'xali da",
+              "fr": "Ton petit a un bec de lièvre, va donc vite le faire opérer;",
+              "en": "Your little one has a harelip, so go quickly and have it operated on;",
+              "zh": "你的孩子有兔唇，快去給他動手術吧；"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NGXAQ",
+      "tag": "(= Variante de XNGAQ)",
+      "crossRef": "VR. XNGAQ",
+      "fr": "Souffle - haleine - respiration.",
+      "en": "Breath - breathing - respiration.",
+      "zh": "氣息——呼吸。",
+      "examples": [
+        {
+          "t": "L'bu bi ngxaq na ka bobo",
+          "fr": "Le souffle de maman est bien court (= elle est agonisante).",
+          "en": "Mother's breath is very short (= she is dying).",
+          "zh": "媽媽的氣息很短促（＝她快嚥氣了）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NI",
+      "tag": "",
+      "fr": "Particule invariable indiquant la simultanéité ou la solidarité des termes ou des énoncés entre lesquels elle se place; un peu avec la fonction de notre ET français, mais au lieu d'un possible arrêt de la voix le précédant, en taroko ce NI est rattaché au terme qui le précède et entraine un arrêt de la voix, parfois très marqué entre lui et le terme qui suit ).",
+      "en": "Invariable particle indicating the simultaneity or the solidarity of the terms or statements between which it is placed; somewhat with the function of our French ET (and), but instead of a possible pause of the voice before it, in taroko this NI is attached to the term preceding it and brings about a pause of the voice, sometimes very marked, between it and the term that follows ).",
+      "zh": "不變化的虛詞，表示它所置於其間的詞語或語句之間的同時性或連帶關係；有點像法語 ET（和）的功能，但在太魯閣語中，這個 NI 不是在它前面停頓，而是連在前面的詞上，並在它與後面的詞之間造成停頓，有時停頓得很明顯）。",
+      "examples": [
+        {
+          "t": "Mtutwi ka xea ni .. Adi ko da, msa",
+          "fr": "Il se lève et il dit: Je ne veux pas !",
+          "en": "He gets up and says: I don't want to!",
+          "zh": "他起身說：我不要！"
+        },
+        {
+          "t": "Yako ni .. Tama mo",
+          "fr": "Moi et mon père.",
+          "en": "Me and my father.",
+          "zh": "我和我父親。"
+        },
+        {
+          "t": "Mxeulis ni.. lmingis ole",
+          "fr": "Il rit et il pleure.",
+          "en": "He laughs and he cries.",
+          "zh": "他又笑又哭。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NIA",
+      "tag": "(R. ?)",
+      "fr": "Sien. (nb. souvent fait double emploi, dans la pratique, avec NA ; Ce terme semble devoir se rapporter à un possesseur plus éloigné ou auquel on veut donner plus d'emphase.).",
+      "en": "His / hers (the possessive 'sien'). (n.b. in practice often overlaps in use with NA; this term seems to refer to a more remote possessor, or to one to whom one wishes to give more emphasis.).",
+      "zh": "他／她的（所有格「sien」）。（註：實際上常與 NA 通用；此詞似乎指較遠的所有者，或想加以強調的所有者。）",
+      "examples": [
+        {
+          "t": "Tama na",
+          "fr": "Son père.",
+          "en": "His / her father.",
+          "zh": "他（她）的父親。"
+        },
+        {
+          "t": "Tama nia",
+          "fr": "Son père à lui.",
+          "en": "His own father.",
+          "zh": "他自己的父親。"
+        },
+        {
+          "t": "Ini iyax ka Diyan; Iban ka mnadas laqe nia",
+          "fr": "Djian n'est pas venu, c'est Ibanne qui a amené son enfant (le fils de Djian).",
+          "en": "Djian didn't come; it's Ibanne who brought his child (Djian's son).",
+          "zh": "Djian 沒來，是 Ibanne 帶了他的孩子（Djian 的兒子）來。"
+        },
+        {
+          "t": "Miloq xali ka xei samat ... Ana nia!",
+          "fr": "Ce plat de gibier n'est pas très cuit ... Cela ne fait rien!",
+          "en": "This dish of game isn't very well cooked ... Never mind!",
+          "zh": "這道野味沒煮得很熟……沒關係！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NII",
+      "tag": "(R)",
+      "fr": "Ici - maintenant - ceci - celui ci. (nb. indique la proximité dans le temps ou l'espace).",
+      "en": "Here - now - this - this one. (n.b. indicates proximity in time or space).",
+      "zh": "這裡——現在——這個——這一個。（註：表示時間或空間上的接近。）",
+      "examples": [
+        {
+          "t": "Nii ka tama mo da",
+          "fr": "Voici mon père (qui vient",
+          "en": "Here is my father (who is coming",
+          "zh": "這是我父親（他來了"
+        },
+        {
+          "t": "Ga so ino, Ban? ... Nii ko xeni da",
+          "fr": "Où est tu, Ibanne? ... Je suis ici - me voici ici!",
+          "en": "Where are you, Ibanne? ... I'm here - here I am!",
+          "zh": "你在哪裡，Ibanne？……我在這裡——我就在這裡！"
+        },
+        {
+          "t": "NII xeni kana ka xmadan namo",
+          "fr": "Voici tous vos parents (par alliance).",
+          "en": "Here are all your relatives (by marriage).",
+          "zh": "這都是你們的（姻親）親戚。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snii",
+          "fr": "dernièrement - tout dernièrement - il n'y a pas longtemps.",
+          "en": "recently - very recently - not long ago.",
+          "zh": "最近——不久前——沒多久以前。",
+          "examples": [
+            {
+              "t": "Mniyax so smuwan ? ... Snii bi !",
+              "fr": "Quand es tu venu? ... Tout dernièrement - il n'y a pas longtemps .",
+              "en": "When did you come? ... Very recently - not long ago.",
+              "zh": "你什麼時候來的？……剛剛——不久前。"
+            }
+          ]
+        },
+        {
+          "form": "Dnii",
+          "fr": "Le groupe d'ici., le groupe de vous , de ceux qui sont ici (qu'on montre).",
+          "en": "The group from here, your group, of those who are here (whom one points to).",
+          "zh": "這裡的一群人、你們這一群、在這裡的（所指的）這些人。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "NILAQ",
+      "tag": "(ñilao) (R)",
+      "fr": "Champignon comestible, à l'état nature ou cultivé , poussant sur des troncs d'arbres abattus. Ce champignon rappelle les algues. ( Le champignon de Paris est appelé: QEXONG)",
+      "en": "Edible mushroom, either wild or cultivated, growing on the trunks of felled trees. This mushroom is reminiscent of seaweed. (The button/Paris mushroom is called: QEXONG)",
+      "zh": "可食用的菇類，野生或栽培的，生長在砍倒的樹幹上。這種菇類令人想起海藻。（洋菇稱為：QEXONG）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NIXOL",
+      "tag": "(KNIXOL ?)",
+      "crossRef": "VR. KNIXOL",
+      "fr": "Amer - l'amer de quelque chose.",
+      "en": "Bitter - the bitterness of something.",
+      "zh": "苦的——某物的苦味。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NONOX",
+      "tag": "(R. = ONOç ?)",
+      "fr": "Figue.",
+      "en": "Fig.",
+      "zh": "無花果。",
+      "examples": [
+        {
+          "t": "Pusu onoç",
+          "fr": "Figuier.",
+          "en": "Fig tree.",
+          "zh": "無花果樹。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NOQAO",
+      "tag": "(R)",
+      "fr": "Pois (légumes).",
+      "en": "Pea (vegetable).",
+      "zh": "豌豆（蔬菜）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NOQEX",
+      "tag": "(R)",
+      "fr": "Chanvre. (nb. cette fibre tenait une grande place chez les taroko; c'est d'elle qu'il tiraient pratiquement tout ce qui était habillement ou couvertures; c'est le chanvre qui était la spécialité , presque l'emblème des femmes qui étaient les seules à le filer et à le tisser; et il entrait dans un certain nombre de tabous).",
+      "en": "Hemp. (n.b. this fibre held a great place among the taroko; from it they drew practically everything that was clothing or blankets; hemp was the specialty, almost the emblem of the women, who were the only ones to spin it and to weave it; and it was involved in a certain number of taboos).",
+      "zh": "大麻（苧麻纖維）。（註：這種纖維在太魯閣人中佔有重要地位；他們幾乎所有的衣物或被褥都取自它；大麻是婦女的專長，幾乎是她們的象徵，只有婦女才紡它、織它；而且它牽涉到若干禁忌。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mnoqex",
+          "fr": "Filer (le chanvre) - (par extension) filer toute autre matière.",
+          "en": "To spin (hemp) - (by extension) to spin any other material.",
+          "zh": "紡（大麻）——（引申）紡任何其他材料。",
+          "examples": [
+            {
+              "t": "Dpai ka mk'la bi mnoqex ni ini xali daxa tsai duua sayang",
+              "fr": "Les anciennes (les grand-mères) sont très habiles à filer et elles n'enseignent pas beaucoup les filles d'aujourd'hui.",
+              "en": "The old women (the grandmothers) are very skilled at spinning, and they don't teach the girls of today much.",
+              "zh": "老一輩的婦女（祖母們）很擅長紡織，卻不太教導今天的女孩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NOQO",
+      "tag": "( = R. ?)",
+      "fr": "?? . C'est une particule - invariable ? - qui sert à faire des comparatifs avec le sens: C'est plus - c'est préférable - c'est mieux.",
+      "en": "?? . It's a particle - invariable? - used to form comparatives, with the sense: it's more - it's preferable - it's better.",
+      "zh": "？？。這是一個虛詞——不變化的？——用來構成比較，意思是：更……——比較好——更好。",
+      "examples": [
+        {
+          "t": "Mg'gui (ngagwi) ni npotox baga o, noqo malu ka npotox baga",
+          "fr": "Etre un voleur ou avoir une main coupée (manchot), il vaut encore mieux avoir une main coupée. (nb. dans le même sens on peut dire: ANA QOQO à la place de: NOQO ; NOQO parait être la contraction de: ANA QOQO = C'est égal - cela ne fait rien - c'est sans importance - comme on veut .",
+          "en": "To be a thief or to have a cut-off hand (one-handed), it's still better to have a cut-off hand. (n.b. in the same sense one can say ANA QOQO in place of NOQO; NOQO seems to be the contraction of ANA QOQO = it's all the same - it doesn't matter - it's unimportant - as one likes .",
+          "zh": "當小偷還是斷一隻手（獨臂），寧可斷一隻手。（註：同樣意思也可以用 ANA QOQO 代替 NOQO；NOQO 似乎是 ANA QOQO 的縮寫＝都一樣——沒關係——無所謂——隨便。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NTA",
+      "tag": "(R. = ?)",
+      "fr": "Invitation à aller (seule forme usitée avec: LITA .",
+      "en": "Invitation to go (the only form in use, together with LITA.",
+      "zh": "邀請前往（唯一使用的形式，與 LITA 並用。",
+      "examples": [
+        {
+          "t": "Nta da ! ... Kia! Lita da !",
+          "fr": "Allez, viens ! ... D'accord! Allons y !",
+          "en": "Come on, come! ... All right! Let's go!",
+          "zh": "來吧，來！……好！我們走吧！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NUGUL",
+      "tag": "(R)",
+      "fr": "Cordelette - attache - lien - ligne.",
+      "en": "Cord / string - fastening - tie / bond - line.",
+      "zh": "細繩——繫繩——連結——線。",
+      "examples": [
+        {
+          "t": "Ana l'xlax (pl'xlax (?)) nugul lamil nia ida no sqaon",
+          "fr": "Je ne suis pas digne (=je suis mal à l'aise - je suis gêné - j'ai honte) même de délier le lacet de ses sandales.",
+          "en": "I am not worthy (= I am ill at ease - I am embarrassed - I am ashamed) even to untie the strap of his sandals.",
+          "zh": "我連解他涼鞋的帶子都不配（＝我感到不自在——尷尬——羞愧）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mnugul",
+          "fr": "Lier - attacher une ficelle.",
+          "en": "To tie - to fasten a string.",
+          "zh": "綁——繫上一條繩子。",
+          "examples": [
+            {
+              "t": "Dyagi ko mnugul lubwi no trabus",
+              "fr": "Donne moi un coup de main pour fermer (lier) mon sac d'arachides.",
+              "en": "Give me a hand to close (tie) my sack of peanuts.",
+              "zh": "幫我把我的花生袋綁（封）起來。"
+            },
+            {
+              "t": "Usa mnugul kating da",
+              "fr": "Va attacher le buffle.",
+              "en": "Go tie up the buffalo.",
+              "zh": "去把水牛拴起來。"
+            }
+          ]
+        },
+        {
+          "form": "Snugul (R. = NUGUL ?)",
+          "fr": "Suivre - être l'un derrière l'autre - venir l'un après l'autre (comme une corde, comme encordés !).",
+          "en": "To follow - to be one behind the other - to come one after the other (like a rope, like people roped together!).",
+          "zh": "跟隨——一個接一個——一個跟著一個（像一條繩子，像用繩子連在一起的人！）。",
+          "examples": [
+            {
+              "t": "Xmuya ka ini so snugul tmaan (ini so snguli ka tama)?",
+              "fr": "Pourquoi ne suis tu pas ton père (au physique ou au moral)? VR. SNUGUL .",
+              "en": "Why don't you follow (take after) your father (physically or morally)? See SNUGUL.",
+              "zh": "你為什麼不像（跟隨）你父親（在外表或品行上）？參見 SNUGUL。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NYAO",
+      "tag": "(NIYAO ?) (R)",
+      "fr": "Chat .",
+      "en": "Cat.",
+      "zh": "貓。",
+      "examples": [
+        {
+          "t": "Knliwa bi qeulit sapax no, kmtabu ko bi nyao",
+          "fr": "Il y a énormément de souris chez moi, j'ai bien envie de nourrir(d'élever) un chat.",
+          "en": "There are a huge number of mice at my place; I really feel like feeding (raising) a cat.",
+          "zh": "我家老鼠很多，我很想養一隻貓。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NYAQ",
+      "tag": "(R) (var. = NYEQ)",
+      "fr": "exister - habiter - posseder - avoir. (nb. Ce terme est très flou dans sa réalisation phonétique; suivant les locuteurs, et surtout dans les dérivés, on peut trouver: NYAQAN - NYEQAN - NIQAN . La signification de ce terme est aussi étendue que son emploi fréquent; mais tous les sens de ce terme peuvent se réduire à celui de: EXISTER; le dérivé: NYAQAN ci dessous semble figé et constant pour traduire une bonne partie des sens de notre verbe AVOIR ).",
+      "en": "to exist - to dwell - to possess - to have. (n.b. This term is very vague in its phonetic realization; depending on the speaker, and especially in the derived forms, one may find: NYAQAN - NYEQAN - NIQAN. The meaning of this term is as broad as its use is frequent; but all the senses of this term can be reduced to that of: TO EXIST; the derived form NYAQAN below seems fixed and constant for translating a good part of the senses of our verb TO HAVE ).",
+      "zh": "存在——居住——擁有——有。（註：此詞的語音實現很不固定；因說話者而異，尤其在派生形式中，可能出現：NYAQAN－NYEQAN－NIQAN。此詞的意義如同它的使用一樣廣泛而頻繁；但此詞的一切意義都可歸結為「存在」；下面的派生形式 NYAQAN 似乎已固定不變，用來翻譯我們動詞「有」的大部分意義。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Nyaqan",
+          "fr": "Avoir - posseder - exister.",
+          "en": "To have - to possess - to exist.",
+          "zh": "有——擁有——存在。",
+          "examples": [
+            {
+              "t": "Nyaqan pila no (il faudrait : nyaqan ka pila no !)",
+              "fr": "J'ai de l'argent (mon argent existe).",
+              "en": "I have money (my money exists).",
+              "zh": "我有錢（我的錢存在）。"
+            },
+            {
+              "t": "Nyaqan gupun ka laqe so xo? (= Nyaqan ka gupun laqe so xo ?) (vl. Nyaqan gupun na ka laqe so xo?)",
+              "fr": "Est ce que ton fils a des dents ?",
+              "en": "Does your son have teeth?",
+              "zh": "你兒子長牙了嗎？"
+            },
+            {
+              "t": "Nyaqan Diyax so?",
+              "fr": "Es tu libre ? - As tu le temps ?",
+              "en": "Are you free? - Do you have time?",
+              "zh": "你有空嗎？——你有時間嗎？"
+            },
+            {
+              "t": "Nyaqan ngaxan na ?",
+              "fr": "A t il un nom (= est il connu, célèbre)?",
+              "en": "Does he have a name (= is he known, famous)?",
+              "zh": "他有名嗎（＝他有名氣、出名嗎）？"
+            },
+            {
+              "t": "Nyaqan xangan na ?",
+              "fr": "Est ce qu'il a un nom (= Comment le nomme t on ?)? VR. NYEQ .",
+              "en": "Does he have a name (= What is he called?)? See NYEQ.",
+              "zh": "他有名字嗎（＝人們怎麼稱呼他？）？參見 NYEQ。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NYEQ",
+      "tag": "(NYAQ) (R)",
+      "fr": "Exister - être - avoir .",
+      "en": "To exist - to be - to have.",
+      "zh": "存在——是——有。",
+      "examples": [
+        {
+          "t": "Nyeq xeni ka iso, mxa ko pnais niing bonga",
+          "fr": "Toi reste ici, je vais juste chercher des patates douces.",
+          "en": "You stay here, I'm just going to fetch some sweet potatoes.",
+          "zh": "你待在這裡，我只是去拿些地瓜。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mnyeq (mnyaq)",
+          "paradigm": "° Mnyeq, nyeq, nyeqe, nyeqan, nyeqon.",
+          "fr": "Habiter - se trouver.",
+          "en": "To dwell - to be located.",
+          "zh": "居住——位於。",
+          "examples": [
+            {
+              "t": "Mnyeq so ino ?",
+              "fr": "Où habites tu?",
+              "en": "Where do you live?",
+              "zh": "你住在哪裡？"
+            },
+            {
+              "t": "Ana so mnyeq xeni betak ska xedao",
+              "fr": "Tu peux (tu pourrais) rester ici jusqu'à midi.",
+              "en": "You can (you could) stay here until noon.",
+              "zh": "你可以（你不妨）待在這裡到中午。"
+            },
+            {
+              "t": "Ida mnyeq kdiyax ka xea",
+              "fr": "Cela (celui là) restera - existera - toujours.",
+              "en": "That (that one) will remain - will exist - always.",
+              "zh": "那個（那位）會永遠留下——存在。"
+            }
+          ]
+        },
+        {
+          "form": "Nyeqan",
+          "fr": "Endroit, temps, où l'on se trouve.",
+          "en": "Place, time, where one is located.",
+          "zh": "所在的地點、時間。",
+          "examples": [
+            {
+              "t": "Usa xngali ka iso, ida nyeqan no xeni pax suxal (ka yako)",
+              "fr": "Va un peu plus loin, toi; ici c'est ma place (moi, j'habite ici) depuis longtemps.",
+              "en": "You, go a bit further off; here is my place (I live here) since long ago.",
+              "zh": "你走遠一點；這裡是我的地方（我住在這裡）很久了。"
+            },
+            {
+              "t": "Nyeqan ka laqe so xo",
+              "fr": "Est ce que ton fils est vivant?",
+              "en": "Is your son alive?",
+              "zh": "你兒子還活著嗎？"
+            },
+            {
+              "t": "Nyeqan laqe so xo",
+              "fr": "As tu des enfants ?",
+              "en": "Do you have children?",
+              "zh": "你有孩子嗎？"
+            },
+            {
+              "t": "Malu bi ka nyeqan ta xeni",
+              "fr": "C'est agréable (c'est commode - c'est utile) pour nous d'abiter ici (= notre habitat ici est très commode -utile - agréable..).",
+              "en": "It's pleasant (it's convenient - it's useful) for us to live here (= our dwelling here is very convenient - useful - pleasant..).",
+              "zh": "我們住在這裡很舒適（很方便——很有用）（＝我們在這裡的居所很方便——有用——舒適……）。"
+            }
+          ]
+        },
+        {
+          "form": "Nyeqon",
+          "fr": "Endroit où l'on fait le projet de rester, d'habiter (- et: Ce qu'on possèdera, ce qu'il y aura !!).",
+          "en": "Place where one plans to stay, to dwell (- and: what one will possess, what there will be !!).",
+          "zh": "打算留下、居住的地方（——以及：將擁有什麼、將會有什麼！！）。",
+          "examples": [
+            {
+              "t": "Ya sl'xbun! Nyeqon so pila xeti o, ida sako byeqon!",
+              "fr": "Ne t'en fais pas! Tu auras de l'argent plus tard et certainement tu ne le donneras.",
+              "en": "Don't worry! You'll have money later and surely you won't give it away.",
+              "zh": "別擔心！你以後會有錢，而且你一定不會把它給出去。"
+            },
+            {
+              "t": "Ana knuan ka yaxan so o, ida no nyeqon Efunang",
+              "fr": "Que tu viennes n'importe quand, je serai toujours à Efunan.",
+              "en": "Whenever you come, I'll always be at Efunan.",
+              "zh": "無論你什麼時候來，我都會一直在 Efunan。"
+            }
+          ]
+        },
+        {
+          "form": "Nnyeqan",
+          "fr": "1) Endroit où l'on habitait - où l'on se trouvait. 2) Circonstances d'un avoir passé.",
+          "en": "1) Place where one used to live - where one used to be. 2) Circumstances of a past having / possession.",
+          "zh": "1) 從前居住的地方——從前所在的地方。2) 過去某種擁有的情況。",
+          "examples": [
+            {
+              "t": "Daya , mkdaolas ka nnyeqan no suxal",
+              "fr": "C'est là haut, parmi les rochers que j'habitais autrefois (que je me trouvais autrefois).",
+              "en": "It's up there, among the rocks, that I used to live long ago (where I used to be).",
+              "zh": "就在那上頭，在岩石之間，是我從前居住（從前所在）的地方。"
+            },
+            {
+              "t": "Nnyeqan so gupun ka sida o,",
+              "fr": "En ce temps là où",
+              "en": "In that time when",
+              "zh": "在那個……的時候"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

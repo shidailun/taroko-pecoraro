@@ -1,0 +1,728 @@
+{
+  "pages": [286, 289],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "SLOONG", "tag": "(= R. ?)",
+      "fr": "Paupières lourdes - tomber de sommeil.",
+      "en": "Heavy eyelids - to be overcome by sleep.",
+      "zh": "眼皮沉重；睏得快睡著。",
+      "subs": [
+        {
+          "form": "Msloong",
+          "fr": "Qui est assoupi - qui est somnolent - qui a les paupières lourdes.",
+          "en": "One who is drowsy - who is sleepy - who has heavy eyelids.",
+          "zh": "昏昏欲睡的；睏倦的；眼皮沉重的。",
+          "examples": [
+            {
+              "t": "Naqox kuxul mo! Lmnngao ka yako o, msloong (mnsloong) namo kana ka yamo !",
+              "fr": "Je suis vexé! Quand je parlais, vous, vous étiez tous à moitié endormis !",
+              "en": "I'm annoyed! When I was speaking, you were all half asleep!",
+              "zh": "我很生氣！我在講話的時候，你們全都半睡半醒！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLöS", "tag": "(SL'S) (R)",
+      "fr": "Effacer - essuyer.",
+      "en": "To erase - to wipe.",
+      "zh": "擦除；擦拭。",
+      "subs": [
+        {
+          "form": "Smlös",
+          "paradigm": "Smlös, slös, sl'si, sl'san, sl'sun",
+          "fr": "d° forme verbale.",
+          "en": "ditto (same as above) — verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Q'loq kana dqalas so ! Slösi (sl'si) xan =",
+              "fr": "Tu as la figure pleine de suie! Essuie la donc !",
+              "en": "Your face is covered in soot! So wipe it off!",
+              "zh": "你滿臉都是煤灰！快擦掉吧！"
+            },
+            {
+              "t": "Sl'sun mo nanak ka sxnoan laqe mo =",
+              "fr": "Je veux bien l'éponger toute seule le pipi de mon petit.",
+              "en": "I'm quite willing to mop up my little one's pee all by myself.",
+              "zh": "我願意自己一個人擦掉我孩子的尿。"
+            },
+            {
+              "t": "Ngusul kana muxeng so ! Sl'si binao ! =",
+              "fr": "Tu as le nez plein de nique! Mouche toi un peu !",
+              "en": "Your nose is full of snot! Blow it a bit!",
+              "zh": "你鼻子都是鼻涕！擤一擤吧！"
+            }
+          ]
+        },
+        {
+          "form": "Sl'san",
+          "fr": "Effacement - ce qui a été effacé, essuyé.",
+          "en": "Erasure - that which has been erased, wiped.",
+          "zh": "擦除；被擦掉、被擦拭之物。",
+          "examples": [
+            {
+              "t": "Ndoa xali,o ! Adi sl'san ka nii! =",
+              "fr": "Sois un peu sérieux! Cela (ce que tu as fait) ce n'est pas essuyer !",
+              "en": "Be a bit serious! That (what you did) is not wiping!",
+              "zh": "認真一點！你做的這個根本不算擦拭！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLOWEQ", "tag": "(R. = ??)",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Sayang o, ini xali pdui gaya ka sadyaq! Sloweq xali ka lnglongan daxa!.",
+          "fr": "Aujourd'hui, les gens (taroko) ne suivent plus tellement les coutumes ! Leur coeur est...(un peu indifférent ? - un peu relâché ? - un peu dégradé ?).",
+          "en": "Nowadays, people (the Taroko) no longer follow the customs so much! Their heart is... (a bit indifferent? - a bit slack? - a bit degraded?).",
+          "zh": "如今，（太魯閣）人已經不太遵守習俗了！他們的心……（有點冷漠？有點鬆懈？有點墮落？）。"
+        }
+      ]
+    },
+    {
+      "hw": "SLOXAO", "tag": "(R)",
+      "fr": "Lâche - pas tendu - pas serré. ( pour: noeuds, ceinture, etc..)",
+      "en": "Loose - not taut - not tight. (for: knots, belts, etc.)",
+      "zh": "鬆的；不緊繃的；不緊的。（用於：繩結、腰帶等。）",
+      "subs": [
+        {
+          "form": "Msloxao",
+          "fr": "Qui est lâche - qui est peu serré, peu tendu.",
+          "en": "That which is loose - not very tight, not very taut.",
+          "zh": "鬆的；不太緊、不太繃的。",
+          "examples": [
+            {
+              "t": "Msloxao balae ka bnkiyan so pongo nii (vl. ..ka pngoan so nii) =",
+              "fr": "Il n'est pas serré du tout le noeud que tu as fait.",
+              "en": "The knot you made isn't tight at all.",
+              "zh": "你打的這個結一點都不緊。"
+            },
+            {
+              "t": "Sai mita ka kating s\"gulan adi msloxao xo =",
+              "fr": "Va voir si le lien (qui attache le) du buffle n'est pas défait.",
+              "en": "Go and see whether the tether (that ties) the buffalo hasn't come loose.",
+              "zh": "去看看綁水牛的繩子有沒有鬆掉。"
+            }
+          ]
+        },
+        {
+          "form": "Psloxao",
+          "paradigm": "Mpsloxao psloxao, pslxagi, pslxagan, pslxagun",
+          "fr": "Relâcher - desserrer - défaire. (nb. Amphibologie possible entre ces dérivés de PSLOXAO et ceux dérivés de PSLIXAO (= se regarder dans une glace!) vr. LIXAO.)",
+          "en": "To loosen - to slacken - to undo. (n.b. There may be ambiguity between these derivatives of PSLOXAO and those derived from PSLIXAO (= to look at oneself in a mirror!) see LIXAO.)",
+          "zh": "放鬆；鬆開；解開。（註：PSLOXAO 的這些衍生形與 PSLIXAO（＝照鏡子！）的衍生形之間可能有歧義；參見 LIXAO。）",
+          "examples": [
+            {
+              "t": "Tbsq'lun sako kia ! Pslxagi tityex ka gasil so! =",
+              "fr": "Tu vas n'étrangler ! Desserre donc un peu ta corde !",
+              "en": "You're going to strangle me! So loosen your rope a bit!",
+              "zh": "你要把我勒死了！把你的繩子鬆開一點吧！"
+            },
+            {
+              "t": "Adi mo bi d'xkon (d'xqon) psloxao ka pngoan so da! =",
+              "fr": "Je n'arriverai vraiment pas à défaire le noeud que tu as fait !",
+              "en": "I really won't manage to undo the knot you've made!",
+              "zh": "我實在解不開你打的這個結！"
+            }
+          ]
+        },
+        {
+          "form": "Knslxagan",
+          "fr": "La qualité d'être lâche, desserré.",
+          "en": "The quality of being loose, slack.",
+          "zh": "鬆弛、鬆開的狀態（性質）。",
+          "examples": [
+            {
+              "t": "Ntaan mo ka knslxagan gasil so do., =",
+              "fr": "Quand j'ai vu combien ta corde était lâche...",
+              "en": "When I saw how loose your rope was...",
+              "zh": "當我看到你的繩子有多鬆時……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S'LUT", "tag": "(= R. ? - R. = LUT ?)",
+      "fr": "Adhérer - se coller à - prendre la forme de.",
+      "en": "To adhere - to stick to - to take the shape of.",
+      "zh": "黏附；黏著於；順著……的形狀。",
+      "subs": [
+        {
+          "form": "Ms'lut",
+          "fr": "Qui est collé à - qui est intimement attaché à - qui est tout près de.",
+          "en": "That which is stuck to - intimately attached to - very close to.",
+          "zh": "黏著於……的；緊密貼附於……的；緊靠著……的。",
+          "examples": [
+            {
+              "t": "Soqe bi ms'lut sapax xpuyan ka \"bi lodoç so =",
+              "fr": "Ton poulailler est vraiment trop collé à la cuisine.",
+              "en": "Your henhouse is really stuck too close to the kitchen.",
+              "zh": "你的雞舍實在太貼近廚房了。"
+            },
+            {
+              "t": "Mslut bi baga ka xlama =",
+              "fr": "Le gâteau de riz gluant se colle facilement aux mains.",
+              "en": "Glutinous rice cake sticks easily to the hands.",
+              "zh": "糯米糕很容易黏手。"
+            }
+          ]
+        },
+        {
+          "form": "Ps'lut",
+          "fr": "Coller à - faire adhérer à.",
+          "en": "To stick to - to make adhere to.",
+          "zh": "使黏附於；使貼合於。",
+          "examples": [
+            {
+              "t": "Manu bi ka saon so pslut daolas ka sapax so ? =",
+              "fr": "Qu'est-ce qui te prend de vouloir aller coller ta maison aux rochers (à la falaise).",
+              "en": "What's got into you, wanting to go and stick your house to the rocks (to the cliff)?",
+              "zh": "你是怎麼了，竟想把你的房子貼在岩石（懸崖）上。"
+            }
+          ]
+        },
+        {
+          "form": "Sl'dan",
+          "fr": "Adhésion - ce qui a été collé à.",
+          "en": "Adhesion - that which has been stuck to.",
+          "zh": "黏附；被黏合之物。",
+          "examples": [
+            {
+              "t": "Wada mo sl'dan bi sapax paro ka \"bi mo tlmaan =",
+              "fr": "J'ai parfaitement joint ma salle de bain à la maison principale.",
+              "en": "I have joined my bathroom perfectly to the main house.",
+              "zh": "我把我的浴室完美地接合到主屋上了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SL'XEQ", "tag": "( = R. ? - R. = L'XEQ ?)",
+      "fr": "Lécher.",
+      "en": "To lick.",
+      "zh": "舔。",
+      "subs": [
+        {
+          "form": "Sml'xeq",
+          "fr": "Lécher.",
+          "en": "To lick.",
+          "zh": "舔。",
+          "examples": [
+            {
+              "t": "Diyax diyax sml'xeq pusu qouni ka mlmilit , kia ka balae bi skliwang dxeaan =",
+              "fr": "Jour après jours les chèvres passent leur temps à lécher les troncs d'arbres; C'est bien cela qui les fait maigrir.",
+              "en": "Day after day the goats spend their time licking tree trunks; that is exactly what makes them thin.",
+              "zh": "山羊日復一日地舔樹幹，這正是牠們變瘦的原因。"
+            },
+            {
+              "t": "K'la bi kia ka slx'qon na kddiyax =",
+              "fr": "C'est donc cela qu'il lèche tous les jours !",
+              "en": "So that's what it licks every day!",
+              "zh": "原來牠每天舔的就是這個！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S'LYEQ", "tag": "( = R. ? )",
+      "fr": "Gaspiller - violer - dilapider.",
+      "en": "To waste - to violate - to squander.",
+      "zh": "浪費；違犯；揮霍。",
+      "subs": [
+        {
+          "form": "Sm'lyeq",
+          "paradigm": "Sm'lyeq , s'lyeq, slyeqe, slyeqan, slyeqon",
+          "fr": "Gaspiller - mésuser - violer .",
+          "en": "To waste - to misuse - to violate.",
+          "zh": "浪費；濫用；違犯。",
+          "examples": [
+            {
+              "t": "Gnl'buk tama so nanak ka pila nii! Adi bi slyeqon ! =",
+              "fr": "Cet argent est le fruit de la fatigue de ton propre père! Il n'est pas à gaspiller !",
+              "en": "This money is the fruit of your own father's toil! It's not to be wasted!",
+              "zh": "這筆錢是你父親辛勞的成果！不可以浪費！"
+            },
+            {
+              "t": "Sm'lyeq bi ggaya ka lqlaqe ta sayang =",
+              "fr": "La génération actuelle (Ceux d'aujourd'hui qui sont plus jeunes que nous) viole facilement les coutumes (=les lois, les tabous)",
+              "en": "The present generation (those younger than us today) readily violates the customs (= the laws, the taboos).",
+              "zh": "當今這一代（今日比我們年輕的人）很容易違犯習俗（＝律法、禁忌）。"
+            },
+            {
+              "t": "Sn'lyeq (smalyeq ?) tunux =",
+              "fr": "Couper la tête à quelqu'un.",
+              "en": "To cut off someone's head.",
+              "zh": "砍某人的頭。"
+            }
+          ]
+        },
+        {
+          "form": "Ms'lyeq",
+          "fr": "Dilapideur - gaspilleur.",
+          "en": "Squanderer - waster.",
+          "zh": "揮霍者；浪費者。",
+          "examples": [
+            {
+              "t": "Ya bi byeqe lqean ka pila! Pusu bi ms'lyeq pila ka xea =",
+              "fr": "Ne donne pas l'argent à ton fils; il est champion pour gaspiller l'argent.",
+              "en": "Don't give money to your son; he's a champion at wasting money.",
+              "zh": "別給你兒子錢；他是揮霍金錢的能手。"
+            }
+          ]
+        },
+        {
+          "form": "Slyeqan",
+          "fr": "Gaspillage - violation - ce qui est gaspillé.",
+          "en": "Wasting - violation - that which is wasted.",
+          "zh": "浪費；違犯；被浪費之物。",
+          "examples": [
+            {
+              "t": "Nasi wana pila ka slyeqan so o, na, malu xali! =",
+              "fr": "Si tu ne faisais que gaspiller de l'argent, ce serait un moindre mal !",
+              "en": "If you were only wasting money, that would be the lesser evil!",
+              "zh": "如果你只是浪費錢，那還算是小事！"
+            }
+          ]
+        },
+        {
+          "form": "Knslyeqan",
+          "fr": "(Intensité de) violation, gaspillage.",
+          "en": "(Intensity of) violation, wasting.",
+          "zh": "（強烈程度的）違犯、浪費。",
+          "examples": [
+            {
+              "t": "Ongat pndkaan ka knslyeqan na gaya =",
+              "fr": "C'est d'une façon incomparable qu'il viole les lois (les coutumes).",
+              "en": "It is in an incomparable way that he violates the laws (the customs).",
+              "zh": "他違犯律法（習俗）的程度無與倫比。"
+            }
+          ]
+        },
+        {
+          "form": "Gmalyeq",
+          "crossRef": "GMALYEQ",
+          "fr": "(Est-ce une déformation de SM'LYEQ ?) VR. GMALYEQ .",
+          "en": "(Is this a distortion of SM'LYEQ?) See GMALYEQ.",
+          "zh": "（這是否是 SM'LYEQ 的變形？）參見 GMALYEQ。",
+          "examples": [
+            {
+              "t": "Gn'lyeq mo ka Iboq=",
+              "fr": "Iboq est celui que j'ai décapité.",
+              "en": "Iboq is the one I beheaded.",
+              "zh": "Iboq 就是我砍頭的那個人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S'MAI", "tag": "(SMAI ?) (R)",
+      "fr": "Soucieux - diligent - avec diligence.",
+      "en": "Anxious - diligent - with diligence.",
+      "zh": "憂心的；勤奮的；勤勉地。",
+      "subs": [
+        {
+          "form": "Ms'mai (msmai)",
+          "fr": "Qui est en souci - qui est diligent.",
+          "en": "One who is worried - who is diligent.",
+          "zh": "憂心的；勤奮的。",
+          "examples": [
+            {
+              "t": "Tai binao: Tama so ni yako o, msmai nami bi miing sunan =",
+              "fr": "Regarde un peu! Ton père et moi nous te cherchons tout-angoissés.",
+              "en": "Look here! Your father and I have been searching for you full of anguish.",
+              "zh": "你看！你父親和我一直焦急地找你。"
+            },
+            {
+              "t": "Ana nami nsmai bi kingal labe ini nami angal ana manu =",
+              "fr": "Nous avons pourtant peiné (fait tous les efforts possibles) toute une nuit mais nous n'avons absolument rien pris (à la chasse ou à la pêche).",
+              "en": "Yet we toiled (made every possible effort) all night long, but we caught absolutely nothing (hunting or fishing).",
+              "zh": "我們整夜辛勤努力（盡了一切努力），卻什麼都沒抓到（打獵或捕魚）。"
+            }
+          ]
+        },
+        {
+          "form": "Knsmayan",
+          "fr": "Intensité de diligence - casse-tête.",
+          "en": "Intensity of diligence - a brain-teaser.",
+          "zh": "勤奮的強度；傷腦筋之事。",
+          "examples": [
+            {
+              "t": "Adi xmut ka knsmayan daxa =",
+              "fr": "Ils n'ont pas été avares dans les efforts qu'ils ont mis en oeuvre.",
+              "en": "They were not sparing in the efforts they put in.",
+              "zh": "他們在付出的努力上毫不吝惜。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SMIYAN", "tag": "(R. = ??)",
+      "fr": "Fête (de nouvel an ?) - Fête en général.",
+      "en": "Festival (new year's?) - festival in general.",
+      "zh": "節慶（新年？）；泛指節日。",
+      "subs": [
+        {
+          "form": "Psmiyan",
+          "fr": "Fêter - faire une fête - faire un jour de fête.",
+          "en": "To celebrate - to hold a festival - to make a feast day.",
+          "zh": "慶祝；舉辦節慶；過節。",
+          "examples": [
+            {
+              "t": "Ida mluxai psmiyan diyax ktiyan ka dxea =",
+              "fr": "Ils sont habitués à faire une fête pour la moisson.",
+              "en": "They are used to holding a festival for the harvest.",
+              "zh": "他們習慣為收割舉辦節慶。"
+            }
+          ]
+        },
+        {
+          "form": "Psmyanan",
+          "fr": "Ce qui est fêté - le temps dont on fait une fête.",
+          "en": "That which is celebrated - the time one makes a festival of.",
+          "zh": "被慶祝之事；舉辦節慶的時節。",
+          "examples": [
+            {
+              "t": "Knkingal psmyanan daxa o, ida sinao ka naxon daxa balae =",
+              "fr": "A chacune de leurs fêtes, c'est surtout du vin qu'ils boivent.",
+              "en": "At each of their festivals, it is above all wine that they drink.",
+              "zh": "他們每逢節慶，主要就是喝酒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SMIYAX", "tag": "(R. = IYAX)",
+      "fr": "Désirer la venue - attendre.",
+      "en": "To desire the coming of - to await.",
+      "zh": "盼望……的到來；等待。",
+      "examples": [
+        {
+          "t": "Smiyax nami bi sunan =",
+          "fr": "Nous t'attendons de tout coeur.",
+          "en": "We await you with all our heart.",
+          "zh": "我們全心全意地等你。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smyaxan",
+          "fr": "Temps de l'attente.",
+          "en": "Time of waiting.",
+          "zh": "等待的時期。",
+          "examples": [
+            {
+              "t": "Pax skawas ka smyaxan namo Psagan, msa ka bnxangan kari o, adi Ingai ka balae bi smyaxon namo ? =",
+              "fr": "D'après ce que j'ai entendu dire, c'est depuis l'an passé que vous osperez la venue de Pissao; (mais) n'est-ce pas Ingai que vous attendez, en fait?",
+              "en": "From what I have heard said, it is since last year that you have been hoping for Pissao's coming; (but) isn't it Ingai that you are actually waiting for?",
+              "zh": "據我所聽說的，你們從去年就盼望 Pissao 的到來；（但）你們其實等的不是 Ingai 嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psmiyax",
+          "fr": "Faire que quelqu'un soit attendu, désiré .",
+          "en": "To cause someone to be awaited, desired.",
+          "zh": "使某人被期待、被盼望。",
+          "examples": [
+            {
+              "t": "Adi namo balae bi psmiyax ldanan namo xo? =",
+              "fr": "Est-ce que vraiment vous faites en sorte que vos parents viennent (= est-ce que vous désirez vraiment leur venue ?).",
+              "en": "Do you really see to it that your parents come (= do you really desire their coming?)?",
+              "zh": "你們真的有讓你們的父母前來嗎（＝你們真的盼望他們來嗎？）。"
+            }
+          ]
+        },
+        {
+          "form": "Psmyaxan",
+          "fr": "Activité (ou: attitude) mise en oeuvre pour attendre , pour hater la venue - temps de cette attente. (nb. C'est par ce terme que les chrétiens (= NDKRISTO) traduisent notre AVENT .).",
+          "en": "Activity (or: attitude) undertaken to wait, to hasten the coming - the time of that waiting. (n.b. It is by this term that Christians (= NDKRISTO) translate our ADVENT.)",
+          "zh": "為等待、為促使到來所付出的活動（或態度）；此等待的時期。（註：基督徒（＝NDKRISTO）就是用這個詞來翻譯我們的「將臨期」（AVENT）。）"
+        }
+      ]
+    },
+    {
+      "hw": "SMKAO", "tag": "(= R. ?)",
+      "fr": "Aube - aurore.",
+      "en": "Dawn - daybreak.",
+      "zh": "黎明；破曉。"
+    },
+    {
+      "hw": "SMKAWAI", "tag": "(R. = SKAWAI ?)",
+      "fr": "Prendre congé de quelqu'un qui s'en va.",
+      "en": "To take leave of someone who is departing.",
+      "zh": "向即將離去的人道別。",
+      "subs": [
+        {
+          "form": "Snkawai",
+          "fr": "Avoir pris congé - avoir fait un bout d'accompagnement.",
+          "en": "To have taken leave - to have accompanied part of the way.",
+          "zh": "已道別；已陪走了一段路。",
+          "examples": [
+            {
+              "t": "Mxa ko snkawai (snkawai ?) llisao pnax alang daxa =",
+              "fr": "Je vais faire un bout d'accompagnement aux jeunes gens venus d'ailleurs.",
+              "en": "I'm going to accompany part of the way the young people who came from elsewhere.",
+              "zh": "我要陪從外地來的年輕人走一段路。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SMKUL", "tag": "(R. = ??)",
+      "fr": "Sauver - mettre à l'abrit. (Serait-ce une variante, une déformation, de SKU (= déposer, mettre en réserve) ??",
+      "en": "To save - to put in shelter. (Could this be a variant, a distortion, of SKU (= to deposit, to put in reserve)??)",
+      "zh": "拯救；使安置於庇護處。（這會不會是 SKU（＝存放、儲備）的變體或變形？？）"
+    },
+    {
+      "hw": "SM\"LU", "tag": "(R. = \"LU ?)",
+      "crossRef": "\"LU, S\"LU",
+      "fr": "Obtenir (?) - décider - Tomber sur qui.",
+      "en": "To obtain (?) - to decide - to fall to whom (whose lot it is).",
+      "zh": "獲得（？）；決定；落到誰身上。",
+      "examples": [
+        {
+          "t": "Spngao ta otoç (vl. spngao ta lqti) kketa ta (qqeta ta) ima ka sn\"lu kmpaxan nii ! =",
+          "fr": "Tirons au sort (vl. à la courte paille) pour savoir qui obtiendra ce champ. VR. \"LU, S\"LU .",
+          "en": "Let's draw lots (var. draw straws) to find out who will get this field. See \"LU, S\"LU.",
+          "zh": "我們來抽籤（或：抽稻草）看看這塊田會歸誰。參見 \"LU、S\"LU。"
+        }
+      ]
+    },
+    {
+      "hw": "SMUDAL", "tag": "(R. = ?)",
+      "fr": "Usagé - vieux - démodé - ancien.",
+      "en": "Worn - old - outdated - ancient.",
+      "zh": "用舊的；老舊的；過時的；古老的。",
+      "examples": [
+        {
+          "t": "Smudal bi ka lukus mo =",
+          "fr": "Mes habits sont très usagés.",
+          "en": "My clothes are very worn.",
+          "zh": "我的衣服很破舊。"
+        },
+        {
+          "t": "Kmpaxan smudal =",
+          "fr": "Champs déjà travaillés et mis en friche.",
+          "en": "Fields already worked and left fallow.",
+          "zh": "已耕作過並任其休耕的田地。"
+        },
+        {
+          "t": "Ongat bi ka tnqoli smudal bi lubwi qlaqel(ka) xana snalu sinao klulu. =",
+          "fr": "Il n'y a vraiment personne qui mette dans des sacs en cuir usé (des outres) du vin de vigne qui vient à peine d'être fait.",
+          "en": "There is really no one who would put into worn leather sacks (wineskins) grape wine that has only just been made.",
+          "zh": "真的沒有人會把剛釀好的葡萄酒裝進破舊的皮袋（皮囊）裡。"
+        }
+      ]
+    },
+    {
+      "hw": "SMUK", "tag": "(R)",
+      "fr": "Clou - fiche (en bois ou autre matière) servant à fixer un objet à un autre.",
+      "en": "Nail - peg (of wood or other material) serving to fix one object to another.",
+      "zh": "釘子；（木製或其他材質的）榫、栓，用來把一物固定於另一物。",
+      "examples": [
+        {
+          "t": "Adi nyeqan bligan smuk ka sapax bligan so? =",
+          "fr": "Est-ce qu'on vend des clous dans ton magasin ?",
+          "en": "Do they sell nails in your shop?",
+          "zh": "你的店裡有賣釘子嗎？"
+        },
+        {
+          "t": "Smuk paro nanak =",
+          "fr": "Seulement de grands clous.",
+          "en": "Only big nails.",
+          "zh": "只有大釘子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Psmuk",
+          "fr": "Clouer- planter des fiches.",
+          "en": "To nail - to drive in pegs.",
+          "zh": "釘；打入榫栓。",
+          "examples": [
+            {
+              "t": "Pnsmuk ko daxa ktinox lex xxtlan no bgixol =",
+              "fr": "J'ai cloué deux planches pour en faire une protection (pour arrêter le vent) contre le vent.",
+              "en": "I nailed two planks to make a protection (to stop the wind) against the wind.",
+              "zh": "我釘了兩塊木板做擋風的屏障（擋住風）。"
+            },
+            {
+              "t": "Ini toko! Psm'kun no kingal dole =",
+              "fr": "cela ne suffit pas; je veux en clouer une autre.",
+              "en": "that's not enough; I want to nail another one.",
+              "zh": "這不夠；我還要再釘一塊。"
+            }
+          ]
+        },
+        {
+          "form": "Sm'kan",
+          "fr": "Ce qui est cloué (état).",
+          "en": "That which is nailed (state).",
+          "zh": "被釘住的狀態之物。",
+          "examples": [
+            {
+              "t": "Ini tdoa lmawax, ga sm'kan ka nduk daxa =",
+              "fr": "Ce n'est pas possible d'ouvrir; leur porte est clouée.",
+              "en": "It's not possible to open; their door is nailed shut.",
+              "zh": "打不開；他們的門被釘死了。"
+            }
+          ]
+        },
+        {
+          "form": "Pnsm'kan",
+          "fr": "Ce qu'on a cloué - l'action faite de clouer.",
+          "en": "That which has been nailed - the completed action of nailing.",
+          "zh": "已釘之物；釘的動作（已完成）。",
+          "examples": [
+            {
+              "t": "Ptdx'gun mo (ptd'xgun ?) dole ka pnsm'kan so s'xiga =",
+              "fr": "Je veux encore renforcer le piquet que tu as planté hier (vl. les planches que tu as clouées hier).",
+              "en": "I want to further reinforce the stake you drove in yesterday (var. the planks you nailed yesterday).",
+              "zh": "我想再加固你昨天打下的木樁（或：你昨天釘的木板）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SMULAX", "tag": "(R. = SULAX ?)",
+      "crossRef": "SULAX",
+      "fr": "Consoler. VR. SULAX.",
+      "en": "To console. See SULAX.",
+      "zh": "安慰。參見 SULAX。"
+    },
+    {
+      "hw": "SMUSYAQ", "tag": "(R. = ??)",
+      "fr": "Trouble (eau) - Eau fangeuse.",
+      "en": "Turbid (water) - muddy water.",
+      "zh": "混濁的（水）；泥濘的水。",
+      "examples": [
+        {
+          "t": "Ida smusyaq ka yayong babao ndaan bgixol paro =",
+          "fr": "Bien sur que le fleuve est tout fangeux après le passage d'un grand typhon.",
+          "en": "Of course the river is all muddy after the passing of a big typhoon.",
+          "zh": "大颱風過境後，河水當然全都混濁了。"
+        }
+      ]
+    },
+    {
+      "hw": "SN", "tag": "",
+      "fr": "Préfixe composé indiquant le plus souvent: à propos de quoi - de quoi il est question. (D'autres fois ce préfixe SN correspond au S qui est porteur du sens de cause, d'instrument, de but, suivi du N qui indique le passé, le révolu de l'action.)",
+      "en": "Compound prefix most often indicating: about what - what it is a question of. (At other times this prefix SN corresponds to the S which carries the sense of cause, of instrument, of purpose, followed by the N which indicates the past, the completed aspect of the action.)",
+      "zh": "複合前綴，最常表示：關於什麼、所談論的是什麼。（其他時候，這個前綴 SN 相當於帶有原因、工具、目的之義的 S，後接表示過去、動作已完成的 N。）",
+      "examples": [
+        {
+          "t": "Snmanu namo da =",
+          "fr": "De quoi discutez vous?",
+          "en": "What are you discussing?",
+          "zh": "你們在討論什麼？"
+        },
+        {
+          "t": "Snkia =",
+          "fr": "A propos de cela.",
+          "en": "About that.",
+          "zh": "關於那件事。"
+        },
+        {
+          "t": "Snpila =",
+          "fr": "à propos d'argent.",
+          "en": "about money.",
+          "zh": "關於錢。"
+        },
+        {
+          "t": "Snkoyox =",
+          "fr": "à propos de femme (nb. dans ce cas, SN implique une idée de dispute, de différend).",
+          "en": "about a woman (n.b. in this case, SN implies an idea of quarrel, of dispute).",
+          "zh": "關於女人（註：此時 SN 隱含爭吵、爭執之意）。"
+        },
+        {
+          "t": "Malu =",
+          "fr": "bien, en bonne santé.",
+          "en": "well, in good health.",
+          "zh": "好，健康。"
+        },
+        {
+          "t": "Skmalu =",
+          "fr": "Qui guérit - faire que ce soit bien.",
+          "en": "That which heals - to make it be well.",
+          "zh": "使痊癒；使變好。"
+        },
+        {
+          "t": "Snkmalu =",
+          "fr": "Avoir guéri - avoir fait pour que ce soit en bon état.",
+          "en": "To have healed - to have acted so that it be in good condition.",
+          "zh": "已痊癒；已使其恢復良好狀態。"
+        }
+      ]
+    },
+    {
+      "hw": "SNAO", "tag": "(R)",
+      "fr": "Homme - mâle - mari.",
+      "en": "Man - male - husband.",
+      "zh": "男人；雄性；丈夫。",
+      "examples": [
+        {
+          "t": "Snao so bi =",
+          "fr": "Toi, tu es un homme ( tu es un type!)",
+          "en": "You, you're a man (you're a real guy!)",
+          "zh": "你，你是個男子漢（你真是個漢子！）"
+        },
+        {
+          "t": "Spat ka laqe mo: Snao ka daxa, koyox ka daxa =",
+          "fr": "J'ai quatre enfants: deux garçons et deux filles.",
+          "en": "I have four children: two boys and two girls.",
+          "zh": "我有四個孩子：兩個男孩、兩個女孩。"
+        },
+        {
+          "t": "Diyan ka snao Labai =",
+          "fr": "C'est Djian qui est le mari de Labai.",
+          "en": "It is Djian who is Labai's husband.",
+          "zh": "是 Djian 當 Labai 的丈夫。"
+        },
+        {
+          "t": "Yaxe ko bi stlong kana ka yamo snao =",
+          "fr": "Vous viendrez tous à ma rencontre, vous les hommes.",
+          "en": "You will all come to meet me, you men.",
+          "zh": "你們男人都要來迎接我。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snawan",
+          "fr": "Oblique de SNAO.",
+          "en": "Oblique (case) of SNAO.",
+          "zh": "SNAO 的斜格形。",
+          "examples": [
+            {
+              "t": "Ga ino ka Kimi da? ... Wada snawan suxal ka xea da! =",
+              "fr": "Mais où est donc Kimi ? ... Elle est mariée depuis longtemps (autre forme = Wada sdyaqon ka kimi da = Kimi est déjà mariée).",
+              "en": "But where on earth is Kimi? ... She's been married for a long time (another form = Wada sdyaqon ka kimi da = Kimi is already married).",
+              "zh": "Kimi 到底在哪裡呢？……她早就嫁人了（另一種說法＝Wada sdyaqon ka kimi da＝Kimi 已經結婚了）。"
+            }
+          ]
+        },
+        {
+          "form": "Dsnao (d'snao)",
+          "fr": "Les hommes en général(masculin).",
+          "en": "Men in general (masculine).",
+          "zh": "泛指男人（陽性）。"
+        }
+      ]
+    }
+  ]
+}

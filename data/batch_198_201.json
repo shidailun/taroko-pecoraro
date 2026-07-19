@@ -1,0 +1,514 @@
+{
+  "pages": [198, 201],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Naqex bi ntgisa ta da! Xnut mpsnanak sdyaqon ka xea",
+        "fr": "Il est injuste, notre professeur; Il met de côté des personnes - il fait des différences entre personnes.",
+        "en": "He is unjust, our teacher; He sets certain people aside - he makes distinctions between people.",
+        "zh": "我們的老師不公平；他偏袒某些人——他對人有差別待遇。"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "NAQEX",
+      "tag": "(R)",
+      "fr": "Mauvais - méchant - le mal.",
+      "en": "Bad - wicked - evil.",
+      "zh": "壞的——惡毒的——邪惡。",
+      "examples": [
+        { "t": "Naqex kuxul", "fr": "Triste", "en": "Sad", "zh": "悲傷" },
+        { "t": "Naqex qoaq", "fr": "grossier - mauvaise langue", "en": "coarse - foul-mouthed", "zh": "粗俗——出言不遜" },
+        { "t": "Naqex lnglongan", "fr": "Pervers - méchant", "en": "perverse - wicked", "zh": "邪惡——惡毒" },
+        { "t": "Naqex daolyaq", "fr": "Mauvaise vue - Menaçant - en colère", "en": "Bad look - Threatening - angry", "zh": "凶惡的眼神——具威脅性——生氣" },
+        { "t": "Naqex tunuç", "fr": "peu intelligent - têtu", "en": "not very intelligent - stubborn", "zh": "不太聰明——固執" },
+        { "t": "Naqex baga", "fr": "Main estropiée - voleur", "en": "Crippled hand - thief", "zh": "殘廢的手——小偷" },
+        { "t": "Naqex otoç", "fr": "Malchance.", "en": "Bad luck.", "zh": "厄運。" }
+      ],
+      "subs": [
+        {
+          "form": "Mnaqex (Mknaqex)",
+          "fr": "Qui est mauvais - qui fait le mal.",
+          "en": "One who is bad - one who does evil.",
+          "zh": "壞的人——作惡的人。",
+          "examples": [
+            { "t": "Wada mnaqex da!", "fr": "le voilà devenu mauvais.", "en": "there he is, become bad.", "zh": "他變壞了。" }
+          ]
+        },
+        {
+          "form": "Mknaqex (Mnaqex ?)",
+          "fr": "être dans un état de mal.",
+          "en": "to be in a state of evil.",
+          "zh": "處於惡的狀態。",
+          "examples": [
+            { "t": "Mknaqex ka kuxul na", "fr": "Il est dans un état de tristesse.", "en": "He is in a state of sadness.", "zh": "他處於悲傷的狀態。" }
+          ]
+        },
+        {
+          "form": "Nnaqex",
+          "fr": "A partir de mauvais.",
+          "en": "Starting from bad.",
+          "zh": "從壞的（狀態）而來。",
+          "examples": [
+            { "t": "Nnaqex tunuç na suxal o, wada malu da", "fr": "De mauvaise tête qu'il était autrefois, le voilà devenu bien.", "en": "From the bad-headed person he once was, there he is, become good.", "zh": "他以前是個壞腦袋的人，如今變好了。" }
+          ]
+        },
+        {
+          "form": "Knaqex",
+          "fr": "Forme négative -et impérative- de NAQEX.",
+          "en": "Negative -and imperative- form of NAQEX.",
+          "zh": "NAQEX 的否定式（及命令式）。",
+          "examples": [
+            { "t": "Ini knaqex ka lisao", "fr": "Le garçon n'est pas mauvais.", "en": "The boy is not bad.", "zh": "這男孩不壞。" }
+          ]
+        },
+        {
+          "form": "Knnaqex",
+          "fr": "Intensité de mauvais, de méchanceté.",
+          "en": "Intensity of badness, of wickedness.",
+          "zh": "壞、惡毒的強烈程度。",
+          "examples": [
+            { "t": "Taan no knnaqex na ka blubul so o, adi mo bligun", "fr": "Voyant comme tes bananes sont mauvaises je ne les achéterai pas.", "en": "Seeing how bad your bananas are, I won't buy them.", "zh": "看你的香蕉這麼爛，我不會買。" },
+            { "t": "Tayal knnaqex (knnaqex na) ka laqe nii", "fr": "Oh la! ce qu'il peut être mauvais ce gosse!", "en": "Oh my! how bad this kid can be!", "zh": "哎呀！這孩子怎麼這麼壞！" }
+          ]
+        },
+        {
+          "form": "Knqexan",
+          "fr": "Le mal - la méchanceté - le mal commis, produit.",
+          "en": "The evil - the wickedness - the evil committed, produced.",
+          "zh": "惡——惡毒——所犯下、所造成的惡。",
+          "examples": [
+            { "t": "A sao knqexan na nanak", "fr": "Cela n'est dû qu'à sa méchanceté.", "en": "That is due only to his own wickedness.", "zh": "那只是因為他自己的惡毒。" },
+            { "t": "Ini so qeta ka knqexan na kuxul xo (vl. ..qeta knnaqex kuxul na xo)?", "fr": "Tu n'as pas vu (tu ne vois pas) sa tristesse?", "en": "Haven't you seen (don't you see) his sadness?", "zh": "你沒看到（你看不到）他的悲傷嗎？" }
+          ]
+        },
+        {
+          "form": "Manaqex",
+          "fr": "Devenir mal - devenir mauvais - en train de devenir mauvais.",
+          "en": "To become bad - to become evil - in the process of becoming bad.",
+          "zh": "變壞——變惡——正在變壞。",
+          "examples": [
+            { "t": "Mksa nksa o, adi biyao manaqex ka ua so", "fr": "Rouler, rouler; avant peu ta fille va devenir mauvaise (va se pervertir).", "en": "Roaming and roaming; before long your daughter will become bad (will go astray).", "zh": "到處遊蕩；不久你的女兒就會變壞（會學壞）。" }
+          ]
+        },
+        {
+          "form": "Pnaqex (?)",
+          "paradigm": "° Mpnaqex, pnaqex, pnqexe, pnqexan, pnqexon.",
+          "fr": "détériorer (?)",
+          "en": "to spoil / to make worse (?)",
+          "zh": "使變壞（？）",
+          "examples": []
+        },
+        {
+          "form": "Pknaqex (?)",
+          "fr": "Faire que ce soit mauvais - installer dans un état mauvais",
+          "en": "To cause it to be bad - to install into a bad state",
+          "zh": "使之變壞——使處於壞的狀態",
+          "examples": []
+        },
+        {
+          "form": "Pknnaqex",
+          "fr": "avoir mis dans un mauvais état.",
+          "en": "to have put into a bad state.",
+          "zh": "已使（某物）處於壞的狀態。",
+          "examples": [
+            { "t": "Ndyano nanak ka pknnaqex toke mo da", "fr": "C'est quelqu'un d'entre vous qui à fait que ma montre soit détériorée.", "en": "It is one of you who made my watch be damaged.", "zh": "是你們當中的某個人弄壞了我的手錶。" },
+            { "t": "Pknnaqex so ka kuxul ludan", "fr": "Tu as rendu nos parents tristes (nb. Distinguer de: §Pnnaqex so kuxul ludan = tu attristais (en actio !) nos parents).", "en": "You have made our parents sad (n.b. Distinguish from: §Pnnaqex so kuxul ludan = you were saddening (in the act!) our parents).", "zh": "你讓我們的父母傷心了（註：須與下列區別：§Pnnaqex so kuxul ludan ＝ 你（當時正在）使我們的父母傷心）。" }
+          ]
+        },
+        {
+          "form": "Pnqexan",
+          "fr": "Lieu, temps du mal fait - le mal fait.",
+          "en": "Place, time of the evil done - the evil done.",
+          "zh": "作惡的地點、時間——所做的惡。",
+          "examples": [
+            { "t": "Wada so pnqexan kuxul ludan ka sida", "fr": "C'est alors que tu as attristé les parents.", "en": "That was when you saddened your parents.", "zh": "那就是你讓父母傷心的時候。" }
+          ]
+        },
+        {
+          "form": "Sknaqex",
+          "fr": "Ce qui détériore - ce qui rend mauvais.",
+          "en": "That which spoils - that which makes bad.",
+          "zh": "使之損壞的——使之變壞的。",
+          "examples": [
+            { "t": "Sao bi sknaqex kuxul ka bnxangan ta snii", "fr": "C'est bien fait comme pour attrister ce que nous avons entendu dernièrement.", "en": "It is just right for saddening [us] — what we heard recently.", "zh": "我們最近聽到的消息，恰好足以令人難過。" }
+          ]
+        },
+        {
+          "form": "Spknaqex",
+          "fr": "Ce qui permet de rendre mauvais.",
+          "en": "That which serves to make bad.",
+          "zh": "用以使之變壞的（手段）。",
+          "examples": [
+            { "t": "Wana bi spknaqex so kuxul ludan ka yaxan so toxoi", "fr": "Tu n'es venu nous voir que dans l'intention de faire de la peine à nos parents.", "en": "You came to see us only with the intention of causing grief to our parents.", "zh": "你來看我們只是為了讓我們的父母難過。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NASI",
+      "tag": "(R. = ASI ?)",
+      "fr": "Si (conditionnel). VR. ASI.",
+      "en": "If (conditional). See ASI.",
+      "zh": "如果（條件連接詞）。參見 ASI。",
+      "examples": [
+        { "t": "Nasi so knusa nadok o, kasi so usa n'xali da", "fr": "Si vraiment tu penses aller à la chasse, alors il te faut partir vite.", "en": "If you really intend to go hunting, then you must set off quickly.", "zh": "如果你真的打算去打獵，那你就得趕快出發。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NDOA",
+      "tag": "(R. = DOA ? - = ??)",
+      "fr": "Fidèle - capable - valable - docile. (nb. est ce une forme de: MDOA ?) VR. DOA - TDOA.",
+      "en": "Faithful - capable - worthy - docile. (n.b. is this a form of: MDOA ?) See DOA - TDOA.",
+      "zh": "忠實的——有能力的——可靠的——順從的。（註：這是否為 MDOA 的一種形式？）參見 DOA、TDOA。",
+      "examples": [
+        { "t": "Ndoa bi kari ludan", "fr": "Suis bien les conseils des anciens - Obeis aux parents.", "en": "Follow the advice of the elders well - Obey your parents.", "zh": "好好聽從長輩的勸告——順從父母。" }
+      ],
+      "subs": [
+        {
+          "form": "Mdoa",
+          "fr": "Qui est fidèle, capable, docile.",
+          "en": "One who is faithful, capable, docile.",
+          "zh": "忠實、有能力、順從的人。",
+          "examples": [
+            { "t": "Mdoa bi ka laqe no koyox, laqe no snao ka ini doa (Ndoa (?))", "fr": "Ma fille donne vraiment satisfaction mais mon garçon pas du tout.", "en": "My daughter really gives satisfaction but my son not at all.", "zh": "我女兒真的很令人滿意，但我兒子則完全不然。" }
+          ]
+        },
+        {
+          "form": "Mndoa",
+          "fr": "Qui a donné satisfaction.",
+          "en": "One who has given satisfaction.",
+          "zh": "曾令人滿意的人。",
+          "examples": [
+            { "t": "Mndoa so bi laqe so sida ni, ya xnuya so bi sayang da?", "fr": "Tu étais vraiment bien quand tu étais gosse (=tu donnais pleine satisfaction); qu'est ce qui t'arrive donc en ce moment?", "en": "You were really good when you were a child (=you gave full satisfaction); so what is happening to you now?", "zh": "你小時候真的很乖（＝很令人滿意）；那你現在到底怎麼了？" }
+          ]
+        },
+        {
+          "form": "Mddoa (Nddoa ?)",
+          "fr": "Pour être docile, capable, fidèle.",
+          "en": "In order to be docile, capable, faithful.",
+          "zh": "為了做到順從、有能力、忠實。",
+          "examples": [
+            { "t": "Pdai bi kana biyax lnglongan so mddoa so bi ana ino", "fr": "Tâche d'y mettre toute la force de ton coeur pour donner satisfaction partout.", "en": "Try to put all the strength of your heart into it to give satisfaction everywhere.", "zh": "盡你全心的力量，好在各方面都令人滿意。" }
+          ]
+        },
+        {
+          "form": "Kndoaan (Kndwaan)",
+          "fr": "Valeur - docilité - capacité.",
+          "en": "Worth - docility - capacity.",
+          "zh": "價值——順從——能力。",
+          "examples": [
+            { "t": "Ya so nk'la mita kndoaan nia!", "fr": "Je pense que tu as remarqué sa valeur - sa bonne volonté - sa docilité.", "en": "I think you have noticed his worth - his good will - his docility.", "zh": "我想你已經注意到他的價值——他的善意——他的順從。" }
+          ]
+        },
+        {
+          "form": "Knddoaan",
+          "fr": "Qualité de l'effort pour être obeissant, docile, capable.",
+          "en": "Quality of the effort to be obedient, docile, capable.",
+          "zh": "為了做到服從、順從、有能力所付出努力的品質。",
+          "examples": [
+            { "t": "Ana ini na d'xqe o, adi xnut ka knddoaan nia", "fr": "Même s'il n'y arrive pas, il y met vraiment tout son coeur (son effort n'est pas négligeable !).", "en": "Even if he doesn't succeed, he really puts his whole heart into it (his effort is not negligible!).", "zh": "即使他沒有成功，他也真的全心投入（他的努力不容小覷！）。" }
+          ]
+        },
+        {
+          "form": "Pndoa",
+          "fr": "Faire donner satisfaction - rendre docile, valable.",
+          "en": "To make [someone] give satisfaction - to render docile, worthy.",
+          "zh": "使人令人滿意——使之順從、可靠。",
+          "examples": [
+            { "t": "Pndoa bi tunuç so", "fr": "Fais en sorte que ta tête donne satisfaction (= fais un effort !).", "en": "See to it that your head gives satisfaction (= make an effort!).", "zh": "設法讓你的腦袋令人滿意（＝努力一點！）。" }
+          ]
+        },
+        {
+          "form": "Tdoa ( = R. Ndoa ? - Doa ?)",
+          "fr": "Pouvoir - être capable. VR. TDOA.",
+          "en": "To be able - to be capable. See TDOA.",
+          "zh": "能夠——有能力。參見 TDOA。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "NDUK",
+      "tag": "(R. DUK ? - DUP ? - NDUK ?)",
+      "fr": "Porte - fermé.",
+      "en": "Door - closed.",
+      "zh": "門——關閉的。",
+      "examples": [
+        { "t": "Nduk n'xali", "fr": "Ferme vite", "en": "Close quickly", "zh": "快關門" },
+        { "t": "Ga ino ka nduk sapax so ?", "fr": "Où est la porte de ta maison ?", "en": "Where is the door of your house?", "zh": "你家的門在哪裡？" }
+      ],
+      "subs": [
+        {
+          "form": "Mduk",
+          "fr": "Fermer - celui qui ferme.",
+          "en": "To close - the one who closes.",
+          "zh": "關——關門的人。",
+          "examples": [
+            { "t": "Ina ka nduk", "fr": "Qui ferme ?", "en": "Who is closing?", "zh": "誰在關（門）？" }
+          ]
+        },
+        {
+          "form": "Mnduk",
+          "fr": "Qui a été fermé, bouché.",
+          "en": "That which has been closed, blocked up.",
+          "zh": "已被關上、堵住的。",
+          "examples": [
+            { "t": "Ongat içan! Ida mnduk pax suxal ka sapax nia", "fr": "Inutile d'insister; elle est fermée depuis longtemps sa maison.", "en": "No use insisting; his house has been closed for a long time.", "zh": "不必堅持了；他的房子早就關閉很久了。" }
+          ]
+        },
+        {
+          "form": "Pnduk",
+          "fr": "Faire que ce soit fermé - Se comporter comme étant fermé (?).",
+          "en": "To make it be closed - To behave as if closed (?).",
+          "zh": "使之關閉——表現得像是關閉的（？）。",
+          "examples": [
+            { "t": "Sao bi pnduk ka sapax na", "fr": "On dirait que sa maison est fermée !", "en": "One would say his house is closed!", "zh": "他的房子看起來像是關著的！" }
+          ]
+        },
+        {
+          "form": "D'pan",
+          "fr": "Ce qui est fermé - fermé.",
+          "en": "That which is closed - closed.",
+          "zh": "被關閉的——關閉的。",
+          "examples": [
+            { "t": "Ga dpan ka nduk sapax na", "fr": "La porte de sa maison est fermée.", "en": "The door of his house is closed.", "zh": "他家的門是關著的。" }
+          ]
+        },
+        {
+          "form": "L'pan",
+          "fr": "variation de: D'PAN.",
+          "en": "variant of: D'PAN.",
+          "zh": "D'PAN 的變體。",
+          "examples": []
+        },
+        {
+          "form": "L'pi",
+          "fr": "D'pi = Ferme! (impératif).",
+          "en": "D'pi = Close! (imperative).",
+          "zh": "D'pi ＝ 關！（命令式）。",
+          "examples": [
+            { "t": "L'pi (vl. D'pi) n'xali ! Mskwi bi da!", "fr": "Fermez vite! Il fait vraiment froid!", "en": "Close quickly! It is really cold!", "zh": "快關門！真的很冷！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NDUP",
+      "tag": "",
+      "fr": "Variation de NDUK ( Le P final est réalisé: K = Phénomène fréquent de mutation). VR. NDUK. DUK. DUP.",
+      "en": "Variant of NDUK (The final P is realized as: K = A frequent phenomenon of mutation). See NDUK. DUK. DUP.",
+      "zh": "NDUK 的變體（詞尾的 P 實現為 K ＝ 常見的音變現象）。參見 NDUK、DUK、DUP。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NGALI",
+      "tag": "(R)",
+      "fr": "Reste - en trop - en plus.",
+      "en": "Remainder - in excess - in addition.",
+      "zh": "剩餘——多出的——額外的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Nngali",
+          "fr": "Ce qui a été laissé - ce qui est resté.",
+          "en": "What has been left - what remains.",
+          "zh": "被留下的——剩下的。",
+          "examples": [
+            { "t": "Ana qoqo so oqon da, nngali daxa ka nii", "fr": "Tu peux le manger si tu veux, c'est ce que les autres ont laissé.", "en": "You can eat it if you want, it's what the others left.", "zh": "你想吃就吃吧，這是別人留下的。" }
+          ]
+        },
+        {
+          "form": "Sngali (R. = NGALI ?)",
+          "fr": "En plus - et plus - pour être en surplus. VR. SNGALI.",
+          "en": "In addition - and more - to be in surplus. See SNGALI.",
+          "zh": "額外——更多——成為多餘的部分。參見 SNGALI。",
+          "examples": [
+            { "t": "Wana bi maxal xei sngali ka nniyax", "fr": "Il n'y a que dix et quelques personnes qui sont venues.", "en": "There are only ten-odd people who came.", "zh": "只來了十幾個人。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NGANGAX",
+      "tag": "(R)",
+      "fr": "Idiot - bêta - simplet - muet.",
+      "en": "Idiot - dolt - simpleton - mute.",
+      "zh": "白痴——笨蛋——傻子——啞巴。",
+      "examples": [
+        { "t": "Tayal ngangax so", "fr": "Ce que tu es bête !", "en": "How stupid you are!", "zh": "你真笨！" }
+      ],
+      "subs": [
+        {
+          "form": "Mngangax",
+          "fr": "Qui est d°.",
+          "en": "One who is the aforesaid (idiot, mute).",
+          "zh": "同上（之人，白痴、啞巴）。",
+          "examples": [
+            { "t": "Mgangax so bi da! Ma\" ini so syuki ana kingal kari!", "fr": "Tu es vraiment simplet! Comment se fait il que tu ne lui aies par répondu (répliqué) un seul mot?", "en": "You are really a simpleton! How is it that you did not answer (reply to) him a single word?", "zh": "你真是個傻子！你怎麼會連一個字都沒回（答）他？" }
+          ]
+        },
+        {
+          "form": "Mnngangax",
+          "fr": "Qui était d°.",
+          "en": "One who was the aforesaid.",
+          "zh": "曾為如上所述者。",
+          "examples": [
+            { "t": "Balae bi mnngangax ko sida", "fr": "C'est bien vrai, j'étais idiot (vl. muet) de ce temps là !", "en": "It's quite true, I was an idiot (var. mute) at that time!", "zh": "確實如此，我那時是個白痴（或：啞巴）！" }
+          ]
+        },
+        {
+          "form": "Nngangax",
+          "fr": "A partir du fait d'être muet, idiot.",
+          "en": "Starting from being mute, idiot.",
+          "zh": "從（原本）啞、痴的狀態而來。",
+          "examples": [
+            { "t": "Nngangax no suxal o, Knxoai knxoai wada ko nalu da", "fr": "De muet que j'étais dans le temps, petit à petit ne voilà guéri.", "en": "From the mute that I was in the past, little by little here I am, cured.", "zh": "我以前是個啞巴，漸漸地如今痊癒了。" }
+          ]
+        },
+        {
+          "form": "Pnngangax (pngangax)",
+          "fr": "Se comporter comme un muet, un idiot - parler par gestes.",
+          "en": "To behave like a mute, an idiot - to speak by gestures.",
+          "zh": "表現得像啞巴、像白痴——以手勢說話。",
+          "examples": [
+            { "t": "Pnngangax nanak ka xea, ini k'la kari", "fr": "Il ne s'exprima que par gestes, il ne sait pas parler.", "en": "He expressed himself only by gestures, he does not know how to speak.", "zh": "他只能靠手勢表達，他不會說話。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NGANGOT",
+      "tag": "(R)",
+      "fr": "Dehors - l'espace qui est immédiatement autour, et spécialement devant une maison - forme polie pour dire: Cabinets.",
+      "en": "Outside - the space immediately around, and especially in front of a house - polite form for saying: toilet (privy).",
+      "zh": "外面——緊鄰周圍的空間，尤指屋前的空地——委婉語，用以指：廁所。",
+      "examples": [
+        { "t": "Snt'long ko Dloan (= DIRO) ngangot sapax p: (ppyaan)", "fr": "J'ai rencontré Djiro devant la gare (la maison des billets, pour prendre les billets).", "en": "I met Djiro in front of the station (the ticket house, for taking tickets).", "zh": "我在車站前遇到了 Djiro（售票的房子，用來領票的地方）。" },
+        { "t": "Ya xan! Mxa ko ngangot", "fr": "Attends un peu, je vais aux toilettes (dans la nature, bien entendu !).", "en": "Wait a moment, I'm going to the toilet (in the open, of course!).", "zh": "等一下，我去上廁所（當然是在野外囉！）。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NGASYEX",
+      "tag": "(R)",
+      "fr": "Ebréché - édenté.",
+      "en": "Chipped - toothless.",
+      "zh": "有缺口的——缺牙的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mngasyex",
+          "fr": "Qui est édenté - qui est ébréché.",
+          "en": "One who is toothless - that which is chipped.",
+          "zh": "缺牙的——有缺口的。",
+          "examples": [
+            { "t": "Siqa bi! Mngasyex kana ka gupun so", "fr": "Tu devrais avoir honte! Tu es tout édenté!", "en": "You should be ashamed! You are all toothless!", "zh": "你該感到羞愧！你的牙全掉光了！" },
+            { "t": "Ana mngasyex ka plato nii o, ida malu", "fr": "Encore qu'il soit ébréché, ce bol est encore bon (utilisable).", "en": "Although it is chipped, this bowl is still good (usable).", "zh": "這個碗雖然有缺口，卻還是好的（能用）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NGAXA",
+      "tag": "(R)",
+      "fr": "Bouche béé - ouvrir la bouche - bouche ouverte.",
+      "en": "Gaping mouth - to open the mouth - open mouth.",
+      "zh": "張大的嘴——張嘴——嘴巴張開。",
+      "examples": [
+        { "t": "Ngaxa binao ! Taon no ka g\"lo so", "fr": "Ouvre voir la bouche, je veux voir ta gorge.", "en": "Open your mouth, let's see, I want to see your throat.", "zh": "張開嘴看看，我想看你的喉嚨。" }
+      ],
+      "subs": [
+        {
+          "form": "Mngaxa",
+          "fr": "Qui a la bouche ouverte - qui est bouche béé.",
+          "en": "One who has the mouth open - one who is open-mouthed.",
+          "zh": "嘴巴張開的——張著嘴的。",
+          "examples": [
+            { "t": "Spoxon miso, asi ka mngaxa so", "fr": "Je veux bien te soigner, à condition que tu ouvres la bouche!", "en": "I am willing to treat you, on condition that you open your mouth!", "zh": "我願意替你治療，條件是你要張開嘴！" },
+            { "t": "Mnngaxa ko nita sao knklaan nia", "fr": "J'ai été stupéfié de voir sa science.", "en": "I was astounded to see his knowledge.", "zh": "看到他的學識，我驚呆了。" }
+          ]
+        },
+        {
+          "form": "Tngaxa",
+          "fr": "Qui est la bouche ouverte - qui reste ouvert.",
+          "en": "One who is open-mouthed - that which stays open.",
+          "zh": "張著嘴的——保持張開的。",
+          "examples": [
+            { "t": "Pgalu bi ka laqe nii ! Diyax diyax o, ida tngaxa ka xea", "fr": "Ce pauvre gosse! Jour après jours il reste là la bouche ouverte.", "en": "This poor kid! Day after day he stays there with his mouth open.", "zh": "這可憐的孩子！日復一日他就張著嘴待在那裡。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NGAXAN",
+      "tag": "(R)",
+      "fr": "s'appeler - nom. (nb. NGAXAN et XANGAN, avec les consonnes interverties, ont pratiquement le même sens, encore que: Xangan soit plus usité pour dire: le nom, et: Ngaxan pour : s'appeler.). VR. XANGAN.",
+      "en": "to be called - name. (n.b. NGAXAN and XANGAN, with the consonants transposed, have practically the same meaning, although: Xangan is more used to say: the name, and: Ngaxan for: to be called.). See XANGAN.",
+      "zh": "叫作——名字。（註：NGAXAN 與 XANGAN 子音互換，意義幾乎相同，不過：Xangan 較常用來指「名字」，而 Ngaxan 用於「叫作」。）參見 XANGAN。",
+      "examples": [
+        { "t": "Mngaxan so maan", "fr": "Qui appelles tu ?", "en": "Whom are you calling?", "zh": "你在叫誰？" },
+        { "t": "Usa ngaxan sadyaq", "fr": "Va appeler les gens.", "en": "Go call the people.", "zh": "去叫人來。" },
+        { "t": "Xangan so o, ima", "fr": "Comment t'appelles tu ? (nb. Il est possible que XANGAN soit la simplification de NGXANGAN = NG-XAN+GAN).", "en": "What is your name? (n.b. It is possible that XANGAN is the simplification of NGXANGAN = NG-XAN+GAN).", "zh": "你叫什麼名字？（註：XANGAN 有可能是 NGXANGAN ＝ NG-XAN+GAN 的簡化。）" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "NGAXE",
+      "tag": "(R)",
+      "fr": "Crochet (avec amorce(?)) - Amorce ( sur crochet (?)).",
+      "en": "Hook (with bait(?)) - Bait (on hook (?)).",
+      "zh": "鉤子（帶餌（？））——魚餌（在鉤上（？））。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pngaxe",
+          "fr": "Pêcher (avec hameçon et amorce, au propre ou au figuré)-Attraper quelqu'un ou quelque chose.",
+          "en": "To fish (with hook and bait, literally or figuratively) - To catch someone or something.",
+          "zh": "釣魚（用魚鉤和餌，字面或比喻）——抓住某人或某物。",
+          "examples": [
+            { "t": "Ini xali k'la pngaxe ksoloç ka dtroko", "fr": "Les taroko ne sont pas très habiles à la pêche.", "en": "The Taroko are not very skilled at fishing.", "zh": "太魯閣人不太擅長釣魚。" },
+            { "t": "Pngaxe tuil (tuwil)", "fr": "prendre des anguilles.", "en": "to catch eels.", "zh": "抓鰻魚。" },
+            { "t": "Pngaxe sadyaq (sdyaqon)", "fr": "Attraper des gens.", "en": "To catch people.", "zh": "抓人。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "NG'LAQ",
+      "tag": "(R)",
+      "fr": "Niais - sot - benêt - insensé - imbécile.",
+      "en": "Silly - foolish - simpleton - senseless - imbecile.",
+      "zh": "愚蠢的——傻的——呆子——沒頭腦的——白痴。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mng'laq",
+          "fr": "Qui est d°.",
+          "en": "One who is the aforesaid.",
+          "zh": "同上（之人）。",
+          "examples": [
+            { "t": "Xea nanak ka mng'laq ni, sadyaq ka ngalun na mng'laq!", "fr": "C'est un niais et (c'est lui) qui prend les autres pour des niais!", "en": "He himself is a fool and (it is he) who takes others for fools!", "zh": "他自己是個傻瓜，卻（就是他）把別人當傻瓜！" }
+          ]
+        },
+        {
+          "form": "Png'laq",
+          "fr": "rendre niais (?) - faire tourner en bourrique (?) - prendre pour des imbéciles.",
+          "en": "to make silly (?) - to drive up the wall (?) - to take for imbeciles.",
+          "zh": "使人變傻（？）——把人耍得團團轉（？）——把人當白痴。",
+          "examples": [
+            { "t": "Ma\" so motoç nuda png'laq sadyaq?", "fr": "Tu es fou d'aller te faire prendre pour un imbécile (?).", "en": "You are crazy to go and let yourself be taken for an imbecile (?).", "zh": "你真是瘋了，竟去讓自己被當成白痴（？）。" }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

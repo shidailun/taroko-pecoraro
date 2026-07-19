@@ -1,0 +1,798 @@
+{
+  "pages": [250, 253],
+  "leadin": {
+    "fr": "...[four]mis blanches (termites).",
+    "en": "...white ants (termites).",
+    "zh": "……白蟻。",
+    "examples": [],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "QOLO", "tag": "(R)",
+      "fr": "Rond - massif - boule.",
+      "en": "Round - solid/massive - ball.",
+      "zh": "圓的－厚實的－球。",
+      "subs": [
+        {
+          "form": "Mqolo",
+          "fr": "Qui est de forme ronde, trapue.",
+          "en": "That is round in shape, squat.",
+          "zh": "形狀圓而矮胖的。",
+          "examples": [
+            {
+              "t": "Soqe mqolo ka tasil gaga , ongat diyun da!",
+              "fr": "Cette pierre est trop arrondie, elle n'a pas d'emploi (elle est inutilisable).(vl.Il n'y a pas de prise pour la tenir)",
+              "en": "This stone is too rounded, it has no use (it is unusable). (var. There is no grip to hold it.)",
+              "zh": "這塊石頭太圓了，沒有用處（無法使用）。（或：沒有地方可以握住它。）"
+            }
+          ]
+        },
+        {
+          "form": "Qqolo",
+          "fr": "1) Très rond (intensité). 2) Pour que ce soit rond (finalité). 3) Les ronds, les boules, les cercles (Pluriel).",
+          "en": "1) Very round (intensity). 2) So that it be round (purpose). 3) The round things, the balls, the circles (Plural).",
+          "zh": "1) 很圓（強調）。2) 為了使其變圓（目的）。3) 圓形物、球、圓圈（複數）。",
+          "examples": []
+        },
+        {
+          "form": "Pqolo",
+          "fr": "Rendre rond.-arrondir.",
+          "en": "To make round - to round off.",
+          "zh": "使變圓－弄圓。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "QOLOX", "tag": "(R)",
+      "fr": "Le crâne (os de la tête).",
+      "en": "The skull (bone of the head).",
+      "zh": "頭骨（頭部的骨頭）。",
+      "subs": [
+        {
+          "form": "Qlxan (Q'lxan (?), Kl'xan (?))",
+          "fr": "? .",
+          "en": "? (meaning uncertain).",
+          "zh": "？（意義不詳）。",
+          "examples": [
+            {
+              "t": "Qlxan kalat",
+              "fr": "Sécheresse (Est-ce QOLOX ? , vl. QALOX ? qui est racine de Qlxan (klxan))?",
+              "en": "Drought (Is it QOLOX?, var. QALOX? which is the root of Qlxan (klxan)?)",
+              "zh": "乾旱（是 QOLOX 嗎？或 QALOX？何者是 Qlxan（klxan）的詞根？）"
+            },
+            {
+              "t": "P\"lu bi t'lo xnkawas iyax nia ka k'lxan (q'lxan (?)) kalat ni paro bi kalayan kana mtqeli siida",
+              "fr": "C'était alors juste au moment où il-y-a eu la sécheresse (= Le ciel noir ? - Le ciel comme un crâne ?) pendant trois ans et une grande famine partout.",
+              "en": "It was then just at the moment when there was the drought (= The black sky? - The sky like a skull?) for three years, and a great famine everywhere.",
+              "zh": "那正是發生乾旱的時候（＝黑色的天空？－像頭骨一樣的天空？），持續了三年，到處都鬧大饑荒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QOQO", "tag": "(R)",
+      "fr": "?? .",
+      "en": "?? (meaning uncertain).",
+      "zh": "？？（意義不詳）。",
+      "examples": [
+        {
+          "t": "Ana qoqo",
+          "fr": "Cela ne fait rien - tant pis - c'est sans importance.",
+          "en": "It doesn't matter - never mind - it is of no importance.",
+          "zh": "沒關係－算了－無所謂。"
+        },
+        {
+          "t": "Tai miyax ini iyax o, ana qoqo",
+          "fr": "Qu'il vienne ou ne vienne pas, cela ne fait rien.",
+          "en": "Whether he comes or not, it doesn't matter.",
+          "zh": "他來不來都沒關係。"
+        },
+        {
+          "t": "Ana qoqo ini so \"qan",
+          "fr": "Aucune importance si tu ne manges pas (vl. tu n'es pas obligé de manger).",
+          "en": "It doesn't matter if you don't eat (var. you are not obliged to eat).",
+          "zh": "你不吃也無所謂（或：你不一定要吃）。"
+        },
+        {
+          "t": "Ana namo qoqo msangai mtaqe da!",
+          "fr": "Maintenant vous pouvez dormir et vous reposer si vous voulez.",
+          "en": "Now you can sleep and rest if you wish.",
+          "zh": "現在你們想睡覺休息就可以了。"
+        }
+      ]
+    },
+    {
+      "hw": "QOUNI", "tag": "(R)",
+      "fr": "Bois (matière).",
+      "en": "Wood (material).",
+      "zh": "木頭（材料）。",
+      "examples": [
+        {
+          "t": "Pusu qouni",
+          "fr": "1)Un arbre; 2) Un coin de forêt.",
+          "en": "1) A tree; 2) A corner of forest.",
+          "zh": "1) 一棵樹；2) 一片林地。"
+        },
+        {
+          "t": "Nyeqan lima pusu sakus ka bukwi sapax mo",
+          "fr": "Derrière chez moi il-y-a cinq camphriers.",
+          "en": "Behind my house there are five camphor trees.",
+          "zh": "我家後面有五棵樟樹。"
+        },
+        {
+          "t": "Qouni bi manu ka lidil poting so?",
+          "fr": "En quelle sorte de bois est-il donc fait le manche de ton coutelas ?",
+          "en": "What kind of wood is the handle of your machete made of?",
+          "zh": "你那把刀的刀柄是用什麼木頭做的？"
+        }
+      ]
+    },
+    {
+      "hw": "QOXAT", "tag": "(R)",
+      "fr": "Rayons de miel (avec toutes les alvéoles en cire qui contiennent le miel. (nb. Les taroko semblent ne jamais avoir fait l'élevage des abeilles; Ils se contentent de se procurer les rayons des abeilles sauvages,avec leur miel et leurs couvains, après avoir enfumé, et souvent exterminé la colonie d'abeilles).",
+      "en": "Honeycombs (with all the wax cells that contain the honey. (n.b. The Taroko seem never to have practised beekeeping; They content themselves with obtaining the combs of wild bees, with their honey and their brood, after having smoked out, and often exterminated, the colony of bees).",
+      "zh": "蜂巢（連同所有裝著蜂蜜的蠟製巢室。（註：太魯閣人似乎從未養過蜂；他們只滿足於取得野蜂的蜂巢，連同蜂蜜和蜂幼蟲，先用煙燻，往往還把整群蜂消滅掉）。",
+      "examples": []
+    },
+    {
+      "hw": "QOYO", "tag": "(R)",
+      "fr": "Serpent.",
+      "en": "Snake.",
+      "zh": "蛇。",
+      "examples": [
+        {
+          "t": "Qoyo xös",
+          "fr": "Naja (=serpent qui fait:XöS =le bruit que ce serpent émet).",
+          "en": "Cobra (= snake that makes: XöS = the sound this snake emits).",
+          "zh": "眼鏡蛇（＝發出 XöS 聲的蛇＝這種蛇所發出的聲音）。"
+        },
+        {
+          "t": "Qoyo qoulit",
+          "fr": "Espèce de serpent qui chasse les souris. (nb. Les éspèces de serpents sont nombreuses à Taiwan et les morsures graves très fréquentes chez les taroko).",
+          "en": "A species of snake that hunts mice. (n.b. Snake species are numerous in Taiwan and serious bites very frequent among the Taroko).",
+          "zh": "一種會獵捕老鼠的蛇。（註：台灣的蛇種類繁多，太魯閣人被嚴重咬傷的情況很常見）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ddqoyo",
+          "fr": "De la famille des serpents - insulte et malédiction fréquente.",
+          "en": "Of the family of snakes - a frequent insult and curse.",
+          "zh": "蛇類的一員－常用作辱罵與詛咒。",
+          "examples": [
+            {
+              "t": "Ddqoyo! Ini namo qsiqa lmngao sao nii!",
+              "fr": "Race de serpents! Vous n'avez pas honte de parler ainsi ?",
+              "en": "Race of snakes! Are you not ashamed to speak like this?",
+              "zh": "蛇族！你們這樣說話不覺得羞恥嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QPATOL", "tag": "(R)",
+      "fr": "Grenouille. (nb.Peu nombreuses chez eux, ils en mangent;).",
+      "en": "Frog. (n.b. Not numerous in their territory, they eat them;).",
+      "zh": "青蛙。（註：在他們那裡不多，他們會吃青蛙；）。",
+      "examples": []
+    },
+    {
+      "hw": "Q'PAX", "tag": "(K'PAX) (R)",
+      "fr": "Travail - travailler. (Il est des locuteurs qui font entendre ce terme: Q'PAX , mais les plus nombreux le réalisent K'PAX). VR. K'PAX et tous les dérivés .",
+      "en": "Work - to work. (There are speakers who pronounce this term: Q'PAX, but the majority realize it as K'PAX). See K'PAX and all its derivatives.",
+      "zh": "工作－做工。（有些人把這個詞唸作 Q'PAX，但多數人唸成 K'PAX）。參見 K'PAX 及其所有衍生詞。",
+      "examples": []
+    },
+    {
+      "hw": "Q'QAN", "tag": "(R. = \"QAN ?)",
+      "fr": "Dispute - lutte - bagarre.",
+      "en": "Quarrel - fight - brawl.",
+      "zh": "爭吵－打鬥－鬥毆。",
+      "examples": [
+        {
+          "t": "Tayal q'qan daxa!",
+          "fr": "Ce n'est pas croyable ce qu'ils se bagarrent!",
+          "en": "It is unbelievable how they fight!",
+          "zh": "他們吵鬧打架的程度真令人難以置信！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mq'qan",
+          "fr": "Se disputer - se battre - se bagarrer.",
+          "en": "To quarrel - to fight - to brawl.",
+          "zh": "爭吵－打架－鬥毆。",
+          "examples": [
+            {
+              "t": "Ana so stok miing q'qan o, ini ko k'la mq'qan ka yako",
+              "fr": "Tu as beau tout faire pour rechercher la bagarre, je ne suis pas batailleur,moi.",
+              "en": "However hard you try to pick a fight, I am no brawler, myself.",
+              "zh": "你再怎麼想找架吵，我可不是好鬥的人。"
+            },
+            {
+              "t": "Mq'qan qoaq",
+              "fr": "Se disputer (se bagarrer avec la bouche).",
+              "en": "To quarrel (to fight with the mouth).",
+              "zh": "口角（用嘴巴爭吵）。"
+            },
+            {
+              "t": "Miing m'qan",
+              "fr": "chercher la bagarre(= chercher l'occasion de \"manger\" quelqu'un).",
+              "en": "to look for a fight (= to seek the chance to \"devour\" someone).",
+              "zh": "找架吵（＝尋找「吃掉」某人的機會）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Q'QOL", "tag": "(R)",
+      "fr": "Creuser (terre, bois, pierre).,-Sculpter.",
+      "en": "To dig / hollow out (earth, wood, stone). - To carve/sculpt.",
+      "zh": "挖鑿（泥土、木頭、石頭）。－雕刻。",
+      "subs": [
+        {
+          "form": "Q'mqol",
+          "paradigm": "° Q'mqol, q'qol, qqoli, qqolan, qqolun.",
+          "fr": "Creuser - sculpter.",
+          "en": "To dig - to carve.",
+          "zh": "挖鑿－雕刻。",
+          "examples": [
+            {
+              "t": "Mtbiyax ko bi q'mqol suyang bi gamil nii ssalu mo poqan (p'oqan(?)).",
+              "fr": "Je suis très occupé à creuser cette racine pour en faire une pipe.",
+              "en": "I am very busy hollowing out this root to make a pipe of it.",
+              "zh": "我正忙著挖鑿這個樹根，要拿它做一支菸斗。"
+            },
+            {
+              "t": "Qqolun so betak ino",
+              "fr": "Tu penses creuser jusqu'où ?",
+              "en": "How far do you intend to dig?",
+              "zh": "你打算挖到多深（多遠）？"
+            }
+          ]
+        },
+        {
+          "form": "Qnqolan",
+          "fr": "Ce qui a été creusé,taillé, sculpté - Endroit, temps où est faite cette action.",
+          "en": "That which has been dug, cut, carved - The place, the time where this action is done.",
+          "zh": "被挖鑿、切削、雕刻之物－進行此動作的地點、時間。",
+          "examples": [
+            {
+              "t": "Diyax so qnqolan poqan so, wada ka xea",
+              "fr": "Pendant que tu creusais (sculptais) ta pipe, lui il est parti.",
+              "en": "While you were hollowing out (carving) your pipe, he left.",
+              "zh": "在你挖鑿（雕刻）你的菸斗時，他離開了。"
+            },
+            {
+              "t": "Qnqolan qeulit kana ka nii",
+              "fr": "Tous ces trous ont été creusés par des souris.",
+              "en": "All these holes have been dug by mice.",
+              "zh": "這些洞全是老鼠挖出來的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QP'LAS", "tag": "(R. = ??)",
+      "fr": "Mot employé par les taroko pour désigner une construction faite en dur: Maison, sol, mur en ciment...",
+      "en": "A word used by the Taroko to designate a construction made of hard material: House, floor, wall of cement...",
+      "zh": "太魯閣人用來指以硬質材料建成之構造物的詞：房屋、地面、水泥牆……",
+      "examples": [
+        {
+          "t": "Sluon mo xeti ka kingal sapax qp'las",
+          "fr": "Une maison en dur, c'est ce que je veux construire plus tard.",
+          "en": "A house of hard material, that is what I want to build later on.",
+          "zh": "一棟硬材料蓋的房子，就是我以後想蓋的。"
+        }
+      ]
+    },
+    {
+      "hw": "QQ'LANG", "tag": "( KK'LANG ?)",
+      "fr": "Trembler - tremblement. VR. KK'LANG .",
+      "en": "To tremble - trembling. See KK'LANG.",
+      "zh": "顫抖－顫抖（名詞）。參見 KK'LANG。",
+      "subs": [
+        {
+          "form": "Mqq'lang",
+          "fr": "Tremblant - qui tremble - qui chancelle.",
+          "en": "Trembling - who trembles - who staggers.",
+          "zh": "顫抖的－發抖的－搖晃的。",
+          "examples": [
+            {
+              "t": "Tploq msaang ka mtgisa do, asi bi mqq'lang kns'gan kana ka laqe da",
+              "fr": "Dés que le maître dispute dans un éclat de colère, tous les enfants se mettent à trembler de peur.",
+              "en": "As soon as the master scolds in a burst of anger, all the children begin to tremble with fear.",
+              "zh": "老師一發怒斥責，所有的孩子都嚇得發抖。"
+            }
+          ]
+        },
+        {
+          "form": "Tqq'lang",
+          "fr": "Qui est tout tremblant.",
+          "en": "Who is all a-tremble.",
+          "zh": "渾身顫抖不已的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "QQOGO", "tag": "(R)",
+      "fr": "Chant du coq.",
+      "en": "The crowing of the rooster.",
+      "zh": "公雞的啼叫。",
+      "subs": [
+        {
+          "form": "Qnqogo",
+          "fr": "Chanter (pour les volailles, et spécialement le coq).",
+          "en": "To crow/sing (of poultry, and especially the rooster).",
+          "zh": "啼叫（指家禽，尤指公雞）。",
+          "examples": [
+            {
+              "t": "Paro ka lodoç so? Adi wawa ? ... Ma\" wawa! Qnqogo da!",
+              "fr": "Il est grand ton poulet? Ce n'est pas un poussin, non? ... Un poussin ? Il chante déjà !",
+              "en": "Is your chicken big? It is not a chick, is it? ... A chick? It already crows!",
+              "zh": "你的雞大了嗎？牠不是小雞了吧？……小雞？牠已經會啼了！"
+            },
+            {
+              "t": "Qnqogo lodoç da",
+              "fr": "Et voilà le premier chant du coq (mesure de temps marquant la fin de la nuit).",
+              "en": "And there is the first crow of the rooster (a measure of time marking the end of the night).",
+              "zh": "這是公雞的第一聲啼叫（標示夜晚結束的計時方式）。"
+            }
+          ]
+        },
+        {
+          "form": "Qnqgoan",
+          "fr": "Le chant poussé par le coq - moment de ce chant.",
+          "en": "The crow uttered by the rooster - the moment of this crowing.",
+          "zh": "公雞發出的啼聲－此啼叫的時刻。",
+          "examples": [
+            {
+              "t": "Malu bxangan ka qnqgoan lodoç.",
+              "fr": "Le chant du coq est agréable à entendre (vl.Le coq chante bien).",
+              "en": "The rooster's crow is pleasant to hear (var. The rooster crows well).",
+              "zh": "公雞的啼聲很悅耳（或：公雞啼得好）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QTAXE", "tag": "(R)",
+      "fr": "Fourmi.",
+      "en": "Ant.",
+      "zh": "螞蟻。",
+      "examples": []
+    },
+    {
+      "hw": "Q'TOL", "tag": "(R)",
+      "fr": "Gras - épais - gros - obèse.",
+      "en": "Fat - thick - big - obese.",
+      "zh": "肥的－粗的－胖的－肥胖的。",
+      "subs": [
+        {
+          "form": "Mq'tol",
+          "fr": "Qui est gras, gros ,épais, obèse.",
+          "en": "That is fat, big, thick, obese.",
+          "zh": "肥、胖、粗、肥胖的。",
+          "examples": [
+            {
+              "t": "Mq'tol balae ka Laoken",
+              "fr": "Laoken est vraiment obèse.",
+              "en": "Laoken is really obese.",
+              "zh": "Laoken 真的很胖。"
+            },
+            {
+              "t": "Mq'tol nanak ka ngalun mo; soqe q'ling bi ka btakan so, adi ko da",
+              "fr": "Je ne veux prendre que les gros; tes bambous sont trop fins, je n'en veux pas.",
+              "en": "I only want to take the thick ones; your bamboos are too thin, I don't want them.",
+              "zh": "我只要粗的；你的竹子太細了，我不要。"
+            }
+          ]
+        },
+        {
+          "form": "Qnt'lan",
+          "fr": "=(Simplification de: Knqt'lan ?) Grosseur - épaisseur.",
+          "en": "= (Simplification of: Knqt'lan?) Bigness - thickness.",
+          "zh": "＝（Knqt'lan 的簡化形式？）粗大－厚度。",
+          "examples": []
+        },
+        {
+          "form": "Knqt'lan",
+          "fr": "Grosseur - épaisseur - obésité.",
+          "en": "Bigness - thickness - obesity.",
+          "zh": "粗大－厚度－肥胖。",
+          "examples": [
+            {
+              "t": "Ini toko ka knqt'lan ddima so",
+              "fr": "Tes bambous ne sont pas assez gros.",
+              "en": "Your bamboos are not big enough.",
+              "zh": "你的竹子不夠粗。"
+            },
+            {
+              "t": "Knqt'lan na nanak ka balae bi sknalox xeaan",
+              "fr": "Ce n'est que son obésité qui le rend malade.",
+              "en": "It is only his obesity that makes him ill.",
+              "zh": "正是他的肥胖使他生病。"
+            }
+          ]
+        },
+        {
+          "form": "Sq'tol",
+          "fr": "Pour engraisser - pour faire grossir.",
+          "en": "To fatten - to make grow fat.",
+          "zh": "使增肥－使變胖。",
+          "examples": [
+            {
+              "t": "Sapox sq'tol ka kia",
+              "fr": "C'est là un reconstituant, un fortifiant (= un médicament pour faire grossir (pour engraisser).",
+              "en": "That is a tonic, a fortifier (= a medicine to make one grow fat (to fatten).",
+              "zh": "那是一種補品、滋補劑（＝一種使人增肥（增胖）的藥）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Q'TQOT", "tag": "(= R. ?)",
+      "fr": "Menottes - Liens pour attacher un prisonnier.",
+      "en": "Handcuffs - bonds for tying up a prisoner.",
+      "zh": "手銬－捆綁犯人的繩索。",
+      "examples": [
+        {
+          "t": "Kana loqex baga nia o, kika pnsaan daxa q'tqot",
+          "fr": "Toutes ces plaies qu'il a aux mains, c'est l'endroit où ils ont mis les menottes (les liens, les fers).",
+          "en": "All these wounds he has on his hands, that is where they put the handcuffs (the bonds, the irons).",
+          "zh": "他手上那些傷口，正是他們上手銬（繩索、鐵鐐）的地方。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qdq'dan (Qtq'dan)",
+          "fr": "Attache - lieu où on met les liens à quelqu'un.",
+          "en": "Fastening - the place where one puts the bonds on someone.",
+          "zh": "捆綁處－在某人身上上綁縛之處。",
+          "examples": [
+            {
+              "t": "Wada mnlala bi qntq'dan daxa ka baga ni qaqai na",
+              "fr": "C'est à bien des reprises qu'ils lui ont enchaîné les mains et les pieds.",
+              "en": "It was on many occasions that they chained his hands and feet.",
+              "zh": "他們曾多次把他的手腳都鎖起來。"
+            }
+          ]
+        },
+        {
+          "form": "Sq'tqot",
+          "fr": "Pour attacher - chaîne - liens - entraves.",
+          "en": "To tie up - chain - bonds - shackles.",
+          "zh": "用來捆綁－鏈條－繩索－束縛。",
+          "examples": [
+            {
+              "t": "Ita qwalox so sq'tqot mo bbaga na",
+              "fr": "Passe moi ton rotin pour que j'attache ses mains.",
+              "en": "Pass me your rattan so that I may tie his hands.",
+              "zh": "把你的藤條遞給我，好讓我綁住他的手。"
+            },
+            {
+              "t": "Ngalun mo sq'tqot ka xilwi nii",
+              "fr": "Je vais me servir de ce fil de fer pour l'enchaîner.(pour en faire des menottes).",
+              "en": "I am going to use this iron wire to bind him. (to make handcuffs of it).",
+              "zh": "我要用這條鐵絲來把他銬起來。（拿它做手銬）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QUDI", "tag": "(R)",
+      "fr": "Cheveux poivre et sel - cheveux gris.",
+      "en": "Salt-and-pepper hair - grey hair.",
+      "zh": "花白的頭髮－灰白的頭髮。",
+      "examples": [
+        {
+          "t": "Mlana mlana ka knqudi (qudi) tunuç na",
+          "fr": "Sa tête grisonne de plus en plus.",
+          "en": "His head grows greyer and greyer.",
+          "zh": "他的頭髮越來越花白。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqudi",
+          "fr": "Qui est gris de cheveux - devenir gris.",
+          "en": "Who is grey-haired - to turn grey.",
+          "zh": "頭髮花白的－變得花白。",
+          "examples": [
+            {
+              "t": "Mqudi ko pax skawas ka yako",
+              "fr": "Moi j'ai les cheveux gris depuis l'an passé.",
+              "en": "As for me, I have had grey hair since last year.",
+              "zh": "我從去年起頭髮就白了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QULI", "tag": "(R)",
+      "fr": "Enfant adopté.",
+      "en": "Adopted child.",
+      "zh": "被領養的孩子。",
+      "examples": [
+        {
+          "t": "Laqe so ka nii ? ... Quli mo ka xea",
+          "fr": "Est-ce ton enfant,celui ci? ... Il est mon enfant adopté.",
+          "en": "Is this your child, this one? ... He is my adopted child.",
+          "zh": "這是你的孩子嗎？……他是我領養的孩子。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmquli",
+          "paradigm": "° Tmquli, tquli, tqlii, tqliyan, tqliyun.",
+          "fr": "Adopter un enfant (nb.Le plus souvent, quand les taroko n'ont pas d'enfants, ils s'adressent ,de préférence à un membre du clan,de la parentée pour en adopter un des leurs; ce terme: TMQULI est aussi employer pour dire qu'une maman à eu une naissance:",
+          "en": "To adopt a child (n.b. Most often, when the Taroko have no children, they turn, preferably to a member of the clan, of the kindred, to adopt one of theirs; this term: TMQULI is also used to say that a mother has had a birth:",
+          "zh": "領養一個孩子（註：太魯閣人沒有孩子時，通常會優先向氏族、親族中的成員求助，領養他們的孩子；這個詞 TMQULI 也用來表示某位母親生了孩子：",
+          "examples": [
+            {
+              "t": "Ga tmquli laqe ka Lobyaq",
+              "fr": "1)Lobyaq vient d'avoir un enfant; 2) Lobyaq vient d'adopter un enfant.",
+              "en": "1) Lobyaq has just had a child; 2) Lobyaq has just adopted a child.",
+              "zh": "1) Lobyaq 剛生了一個孩子；2) Lobyaq 剛領養了一個孩子。"
+            }
+          ]
+        },
+        {
+          "form": "Mtquli",
+          "fr": "Qui adopte un enfant.",
+          "en": "Who adopts a child.",
+          "zh": "領養孩子的人。",
+          "examples": [
+            {
+              "t": "Mtquli so laqe sadyaq dole?",
+              "fr": "Tu vas encore adopter un enfant(des autres) ?",
+              "en": "Are you going to adopt yet another child (someone else's)?",
+              "zh": "你還要再領養一個（別人的）孩子嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mquli",
+          "fr": "Etre un enfant adopté.",
+          "en": "To be an adopted child.",
+          "zh": "身為被領養的孩子。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "QUTI", "tag": "(R)",
+      "fr": "Excréments (de l'homme et des animaux) - pet.",
+      "en": "Excrement (of man and animals) - fart.",
+      "zh": "糞便（人與動物的）－屁。",
+      "examples": [
+        {
+          "t": "Quti q'löt",
+          "fr": "sciure",
+          "en": "sawdust",
+          "zh": "鋸屑"
+        },
+        {
+          "t": "Quti daolyaq",
+          "fr": "Chassie (syn.= Pusyaq)",
+          "en": "eye discharge / rheum (syn. = Pusyaq)",
+          "zh": "眼屎（同義詞＝Pusyaq）"
+        },
+        {
+          "t": "Quti tbako",
+          "fr": "Mégot - culot de pipe",
+          "en": "cigarette butt - dottle of a pipe",
+          "zh": "菸蒂－菸斗殘渣"
+        },
+        {
+          "t": "Quti kating",
+          "fr": "Bouse de vache",
+          "en": "cow dung",
+          "zh": "牛糞"
+        },
+        {
+          "t": "Quti lngdi",
+          "fr": "Chiure de mouche",
+          "en": "fly droppings / fly-speck",
+          "zh": "蒼蠅屎"
+        },
+        {
+          "t": "Biling quti",
+          "fr": "Anus (trou de l'anus). (= employé comme injure)",
+          "en": "Anus (the hole of the anus). (= used as an insult)",
+          "zh": "肛門（肛門口）。（＝用作辱罵）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qmuti",
+          "fr": "Déféquer - péter.",
+          "en": "To defecate - to fart.",
+          "zh": "排便－放屁。",
+          "examples": [
+            {
+              "t": "Ini xali qmuti ka laqe mo snao",
+              "fr": "Mon fils est un peu constipé (ne va pas beaucoup à selle).",
+              "en": "My son is a little constipated (does not go much to stool).",
+              "zh": "我兒子有點便秘（排便不多）。"
+            }
+          ]
+        },
+        {
+          "form": "Qtiyan (Qtian)",
+          "fr": "Temps, lieu où l'on va déféquer - W.C. - Anus.",
+          "en": "The time, the place where one goes to defecate - W.C. - Anus.",
+          "zh": "排便的時間、地點－廁所－肛門。",
+          "examples": [
+            {
+              "t": "Ga ino ka qtiyan namo da ?",
+              "fr": "Où sont vos W.C. ?",
+              "en": "Where are your toilets?",
+              "zh": "你們的廁所在哪裡？"
+            },
+            {
+              "t": "Bxoon mo saman ka qtiyan laqe",
+              "fr": "Je laverai demain les langes du petit",
+              "en": "Tomorrow I will wash the little one's nappies",
+              "zh": "我明天要洗小孩的尿布"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QWALOX", "tag": "(R)",
+      "fr": "Rotin (parfois = Liane).",
+      "en": "Rattan (sometimes = liana/creeper).",
+      "zh": "藤（有時＝藤蔓）。",
+      "examples": [
+        {
+          "t": "Naqex bi bligan sayang ka qwalox",
+          "fr": "Le rotin n'est pas facile à vendre ces temps ci (vl.Le rotin est bien peu payé aujourd'hui).",
+          "en": "Rattan is not easy to sell these days (var. Rattan is very poorly paid today).",
+          "zh": "這陣子藤不好賣（或：如今藤的價錢很低）。"
+        }
+      ]
+    },
+    {
+      "hw": "QX'NGA", "tag": "(R)",
+      "fr": "Excité - plein de vie - très actif.",
+      "en": "Excited - full of life - very active.",
+      "zh": "興奮的－充滿活力的－非常好動的。",
+      "subs": [
+        {
+          "form": "Mqx'nga",
+          "fr": "Qui est excité - qui est très actif, plein de vie.",
+          "en": "That is excited - that is very active, full of life.",
+          "zh": "興奮的－非常好動、充滿活力的。",
+          "examples": [
+            {
+              "t": "Sao bi mqx'nga ka laqe nii",
+              "fr": "Ce gosse est débordant de vitalité.",
+              "en": "This kid is overflowing with vitality.",
+              "zh": "這個小孩活力充沛。"
+            },
+            {
+              "t": "Mqx'nga bi d'xok sapax mo ka xea",
+              "fr": "Il est arrivé chez moi tout éssoufflé.",
+              "en": "He arrived at my house all out of breath.",
+              "zh": "他氣喘吁吁地跑到我家。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Q'XNU", "tag": "( = Kxnu ?)",
+      "fr": "Combien (surtout pour indiquer la quantité, la masse).",
+      "en": "How much / how many (especially to indicate quantity, mass).",
+      "zh": "多少（尤其用於表示數量、份量）。",
+      "examples": [
+        {
+          "t": "Q'xnu ka knqt'lan na?",
+          "fr": "Comment (combien) est il gras ?",
+          "en": "How (how much) fat is he?",
+          "zh": "他有多胖？"
+        },
+        {
+          "t": "Q'xnu ka kntl'xan",
+          "fr": "Comment fait il chaud?",
+          "en": "How hot is it?",
+          "zh": "有多熱？"
+        },
+        {
+          "t": "Q'xnu ka knlala na",
+          "fr": "Combien beaucoup (quelle quantité) ?",
+          "en": "How much (what quantity)?",
+          "zh": "有多少（多大的量）？"
+        }
+      ]
+    },
+    {
+      "hw": "S", "tag": "",
+      "fr": "Préfixe (parfois infixe), très productif, avec au moins trois sens divers: Il peut être en certains cas,suivi ou -et- précédé d'un ou de plusieurs autres affixes et concourrir avec un suffixe. 1) Il donne le sens de passé, avec certains termes indiquant le temps. 2) Indique que l'action (ou l'état) est produite par un instrument ,",
+      "en": "Prefix (sometimes infix), very productive, with at least three different senses: It can in certain cases be followed or -and- preceded by one or several other affixes and co-occur with a suffix. 1) It gives the sense of the past, with certain terms indicating time. 2) Indicates that the action (or state) is produced by an instrument,",
+      "zh": "前綴（有時為中綴），構詞力很強，至少有三種不同的意義：在某些情況下，它前後可以帶有一個或數個其他詞綴，並可與後綴同時出現。1) 與某些表示時間的詞連用時，賦予過去的意義。2) 表示動作（或狀態）是由某種工具產生的，",
+      "examples": [
+        {
+          "t": "Mkaxa",
+          "fr": "Après demain",
+          "en": "the day after tomorrow",
+          "zh": "後天"
+        },
+        {
+          "t": "Smkaxa (snkaxa)",
+          "fr": "Avant hier",
+          "en": "the day before yesterday",
+          "zh": "前天"
+        },
+        {
+          "t": "Nii",
+          "fr": "ici,-maintenant",
+          "en": "here, - now",
+          "zh": "這裡－現在"
+        },
+        {
+          "t": "Snii",
+          "fr": "dernièrement",
+          "en": "recently / lately",
+          "zh": "最近"
+        },
+        {
+          "t": "Knuwan",
+          "fr": "Quand ?",
+          "en": "When?",
+          "zh": "什麼時候？"
+        },
+        {
+          "t": "Sknuwan",
+          "fr": "Quand (dans le passé)",
+          "en": "When (in the past)?",
+          "zh": "（過去）什麼時候？"
+        },
+        {
+          "t": "Xkawas",
+          "fr": "L'an prochain",
+          "en": "next year",
+          "zh": "明年"
+        },
+        {
+          "t": "Skawas",
+          "fr": "L'an passé",
+          "en": "last year",
+          "zh": "去年"
+        },
+        {
+          "t": "Ka'man",
+          "fr": "La nuit, le soir",
+          "en": "the night, the evening",
+          "zh": "夜晚、傍晚"
+        },
+        {
+          "t": "Ska'man",
+          "fr": "Hier soir",
+          "en": "last night / yesterday evening",
+          "zh": "昨晚"
+        },
+        {
+          "t": "Bligun mo ka kingal pusu knpaxan ssalu mo sapax",
+          "fr": "Je veux vendre une pièce de terrain (champ) pour (que le produit serve à)construire une [maison...]",
+          "en": "I want to sell a piece of land (a field) so that (the proceeds serve to) build a [house...]",
+          "zh": "我想賣掉一塊地（田），好（用那筆錢）蓋一棟[房子……]"
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

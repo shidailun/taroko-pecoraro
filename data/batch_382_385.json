@@ -1,0 +1,479 @@
+{
+  "pages": [382, 385],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Ko",
+        "fr": "Forme enclitique du pronom personnel singulier de la première personne ; il est obligatoirement postposé au prédicat dont il est sujet, en principe soudé à lui comme s'il lui était suffixé.",
+        "en": "Enclitic form of the first-person singular personal pronoun; it is obligatorily placed after the predicate of which it is the subject, in principle fused to it as if suffixed to it.",
+        "zh": "第一人稱單數人稱代名詞的附著（後接）形式；必須後置於它作主語的謂語之後，原則上與之緊密結合，宛如後綴。",
+        "examples": [
+          { "t": "Tama ko Xoyo", "fr": "Je suis le père de Rhoyo.", "en": "I am Rhoyo's father.", "zh": "我是Rhoyo的父親。" },
+          { "t": "Mxa ko sapax", "fr": "Je vais à la maison.", "en": "I am going home.", "zh": "我要回家。" },
+          { "t": "Mbanax ko", "fr": "je suis rouge.", "en": "I am red.", "zh": "我是紅的。" },
+          { "t": "Adi ko", "fr": "Je ne veux pas.", "en": "I don't want to.", "zh": "我不要。" }
+        ]
+      },
+      {
+        "form": "N'yako",
+        "fr": "Personnel possessif, forme emphatique.",
+        "en": "Possessive personal (pronoun), emphatic form.",
+        "zh": "所有格人稱代名詞，強調形式。",
+        "examples": [
+          { "t": "N'ima ka libul nii ? NDiyan xo? ... Adi ! N'yako!", "fr": "De qui sont ces pantalons ? De Djian ? ... Non ! De moi ! (On pourrait dire : NAKO = Les miens.)", "en": "Whose are these trousers? Djian's? ... No! Mine! (One could say: NAKO = mine.)", "zh": "這些褲子是誰的？是Djian的嗎？……不！是我的！（也可以說：NAKO＝我的。）" }
+        ]
+      },
+      {
+        "form": "Nako",
+        "fr": "(= contraction de n'yako ?) = À moi - le mien – les miens.",
+        "en": "(= a contraction of n'yako?) = mine - mine (sg.) - mine (pl.).",
+        "zh": "（＝n'yako的縮略？）＝我的—我的（單數）—我的（複數）。",
+        "examples": [
+          { "t": "Nako ka ppatas nii", "fr": "Ces livres sont à moi (nb. on peut encore dire, dans le même sens : Patas mo ka nii = ce sont là mes livres = forme moins emphatique).", "en": "These books are mine (n.b. one can also say, in the same sense: Patas mo ka nii = these are my books = a less emphatic form).", "zh": "這些書是我的（註：也可以用同義的說法：Patas mo ka nii＝這些是我的書＝較不強調的形式）。" }
+        ]
+      },
+      {
+        "form": "Nnako",
+        "fr": "1° Était à moi (N, préfixe du passé). 2° L'un des miens, partie de ce qui est à moi.",
+        "en": "1° Was mine (N, prefix of the past). 2° One of mine, part of what is mine.",
+        "zh": "①（曾）是我的（N為過去式前綴）。②我的其中之一，屬於我的一部分。",
+        "examples": [
+          { "t": "Nnako ka patas nii", "fr": "Il était à moi ce livre.", "en": "This book was mine.", "zh": "這本書（曾）是我的。" },
+          { "t": "Nnako ka patas nii", "fr": "Ce livre est l'un des miens (N, signe de l'appartenance = De ce qui est de moi).", "en": "This book is one of mine (N, marker of belonging = of what is mine).", "zh": "這本書是我的其中之一（N為所屬標記＝屬於我的）。" }
+        ]
+      },
+      {
+        "form": "Knan",
+        "fr": "Forme oblique (complément) de KO, Yako. = à moi - vers moi - pour moi.",
+        "en": "Oblique form (object) of KO, Yako. = to me - toward me - for me.",
+        "zh": "KO、Yako的斜格（受格）形式。＝給我—向我—為我。",
+        "examples": [
+          { "t": "Kari na knan o, mdka bi kari so", "fr": "Ce qu'il m'a dit est semblable à ce que tu m'as dit.", "en": "What he told me is similar to what you told me.", "zh": "他對我說的話和你對我說的話很相似。" },
+          { "t": "Xmut niyax knan ka xea", "fr": "Il vient à moi sans raisons (nb. Comme d'autres formes obliques similaires, celle-ci peut avoir un sens consacré.", "en": "He comes to me for no reason (n.b. Like other similar oblique forms, this one can have an established meaning.", "zh": "他無緣無故地來找我（註：如同其他類似的斜格形式，這一形式可有固定的含意。" },
+          { "t": "Adi so niyax knan?", "fr": "Ne veux-tu pas venir habiter chez moi ?)", "en": "Don't you want to come and live at my place?)", "zh": "你不想來我這裡住嗎？）" }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "MO",
+      "tag": "(R)",
+      "fr": "Adjectif possessif de cette première personne du singulier.",
+      "en": "Possessive adjective of this first person singular.",
+      "zh": "此第一人稱單數的所有格形容詞。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Miso",
+          "fr": "(MO + ISO) = Avec les trois suivantes, celle-ci est une forme spéciale de pronoms pers. doubles, propre aux Taroko = Tu es mon.",
+          "en": "(MO + ISO) = Together with the three following ones, this is a special form of double personal pronouns, peculiar to the Taroko = you are mine.",
+          "zh": "（MO＋ISO）＝與後面三個一樣，這是太魯閣語特有的一種雙重人稱代名詞的特殊形式＝你是我的。",
+          "examples": [
+            { "t": "Tama niso", "fr": "Tu es mon père.", "en": "You are my father.", "zh": "你是我的父親。" },
+            { "t": "Byeqon niso (= Byeqon mo ka iso (?))", "fr": "Je te donnerai (= Tu es mon celui à qui il faut donner (?)).", "en": "I will give to you (= you are the one of mine to whom it must be given (?)).", "zh": "我會給你（＝你是我要給的那個人（？））。" }
+          ]
+        },
+        {
+          "form": "Sako",
+          "fr": "(SO + YAKO) = Je suis ton.",
+          "en": "(SO + YAKO) = I am yours.",
+          "zh": "（SO＋YAKO）＝我是你的。",
+          "examples": [
+            { "t": "Paqon sako kia", "fr": "Tu vas me frapper (Je suis celui que tu veux frapper).", "en": "You are going to hit me (I am the one you want to hit).", "zh": "你要打我（我是你要打的那個人）。" },
+            { "t": "Paqon niso kia", "fr": "Je vais te frapper.", "en": "I am going to hit you.", "zh": "我要打你。" },
+            { "t": "Paqon kona kia", "fr": "Il va me frapper.", "en": "He is going to hit me.", "zh": "他要打我。" },
+            { "t": "Tama sako (= Tama so ka yako)", "fr": "Je suis ton père.", "en": "I am your father.", "zh": "我是你的父親。" }
+          ]
+        },
+        {
+          "form": "Kona",
+          "fr": "(Ko na (?)) = Moi de lui.",
+          "en": "(Ko na (?)) = me, his.",
+          "zh": "（Ko na（？））＝他的我。",
+          "examples": [
+            { "t": "Byeqon ko na", "fr": "Moi je suis celui sien à qui il faut donner = Il ne donnera. (nb. peut-être serait-il préférable d'écrire KONA en deux mots = KO NA ?).", "en": "I am the one of his to whom it must be given = he will not give. (n.b. perhaps it would be preferable to write KONA as two words = KO NA?).", "zh": "我是他要給的那個人＝他不會給。（註：也許把KONA寫成兩個字比較好＝KO NA？）" }
+          ]
+        },
+        {
+          "form": "Mako",
+          "fr": "(MO + YAKO ??) = Moi-mien (?).",
+          "en": "(MO + YAKO ??) = me-mine (?).",
+          "zh": "（MO＋YAKO？？）＝我—我的（？）。",
+          "examples": [
+            { "t": "Lngagai nako munan", "fr": "Je veux (il faut que je vous dise) vous dire. (= Moi je suis celui à qui je donne l'ordre de parler à vous (?!?))", "en": "I want to tell you (I must tell you). (= I am the one to whom I give the order to speak to you (?!?))", "zh": "我要（我必須）告訴你們。（＝我是我命令去對你們說話的那個人（？！？））" },
+            { "t": "Byeqai nako munan (= Byeqai mo munan ka yako ??)", "fr": "J'aimerais bien vous donner. (= Je dois vous donner.)", "en": "I would very much like to give to you. (= I must give to you.)", "zh": "我很想給你們。（＝我必須給你們。）" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YAMI",
+      "tag": "(R)",
+      "fr": "Pron. pers. Pron. pers. plur. exclusif (= excluant la personne à qui l'on parle), dans sa forme emphatique.",
+      "en": "Personal pron. Exclusive plural personal pronoun (= excluding the person to whom one is speaking), in its emphatic form.",
+      "zh": "人稱代名詞。排除式複數人稱代名詞（＝排除說話對象），其強調形式。",
+      "examples": [
+        { "t": "Yami ka mbiyax", "fr": "Nous sommes les plus forts (= C'est nous les plus forts).", "en": "We are the strongest (= it is we who are the strongest).", "zh": "我們是最強的（＝最強的是我們）。" },
+        { "t": "Mxa nami yami Diyan", "fr": "Nous allons, Djian et moi.", "en": "We are going, Djian and I.", "zh": "我們要去，Djian和我。" }
+      ],
+      "subs": [
+        {
+          "form": "N'yami",
+          "fr": "De nous (forme emphatique).",
+          "en": "Of us / ours (emphatic form).",
+          "zh": "我們的（強調形式）。",
+          "examples": [
+            { "t": "Balae bi n'yami ka nii", "fr": "Vraiment ceci est à nous.", "en": "This really is ours.", "zh": "這真的是我們的。" },
+            { "t": "N'yami ka tama", "fr": "Il est à nous, le papa !", "en": "He belongs to us, the father!", "zh": "父親是我們的！" },
+            { "t": "Tama nami", "fr": "Notre père.", "en": "Our father.", "zh": "我們的父親。" }
+          ]
+        },
+        {
+          "form": "Nami",
+          "fr": "1° Pr. pers. dans sa forme enclitique. 2° Adj. poss. dans sa forme simple.",
+          "en": "1° Personal pron. in its enclitic form. 2° Possessive adj. in its simple form.",
+          "zh": "①附著形式的人稱代名詞。②單純形式的所有格形容詞。",
+          "examples": [
+            { "t": "Mxa nami sayang da!", "fr": "Nous allons partir (nous partons) maintenant.", "en": "We are about to leave (we are leaving) now.", "zh": "我們現在要走了（我們要出發了）。" },
+            { "t": "Mawit nami kana", "fr": "Nous sommes tous fatigués.", "en": "We are all tired.", "zh": "我們都累了。" },
+            { "t": "Tama nami ka ga mblyeqan", "fr": "Notre père qui es au ciel.", "en": "Our father who art in heaven.", "zh": "我們在天上的父。" }
+          ]
+        },
+        {
+          "form": "Dyani",
+          "fr": "(Préfixe D) = Des nôtres - part de notre groupe.",
+          "en": "(Prefix D) = of ours - part of our group.",
+          "zh": "（前綴D）＝我們的人—我們群體的一份子。",
+          "examples": [
+            { "t": "Dyani nanak ka Sibal", "fr": "Sibal est un des nôtres (parent.. ami.. associé..).", "en": "Sibal is one of ours (relative.. friend.. associate..).", "zh": "Sibal是我們的人之一（親戚……朋友……夥伴……）。" }
+          ]
+        },
+        {
+          "form": "Ndyani",
+          "fr": "1° Était des nôtres (Préfixe N du passé). 2° Parmi les nôtres.",
+          "en": "1° Was one of ours (Prefix N of the past). 2° Among ours.",
+          "zh": "①（曾）是我們的人（N為過去式前綴）。②在我們之中。",
+          "examples": [
+            { "t": "Ndyami suxal ka Pis.", "fr": "Pissao était autrefois des nôtres.", "en": "Pissao was formerly one of ours.", "zh": "Pissao從前是我們的人。" },
+            { "t": "Ida kingal ndyani ka Pisao", "fr": "Pissao reste encore l'un des nôtres !", "en": "Pissao is still one of ours!", "zh": "Pissao仍然是我們的人之一！" }
+          ]
+        },
+        {
+          "form": "Mnan",
+          "fr": "Forme oblique de YAMI.",
+          "en": "Oblique form of YAMI.",
+          "zh": "YAMI的斜格形式。",
+          "examples": [
+            { "t": "Mniyax lmngao mnan ka Mbl'xo", "fr": "Le chef est venu nous parler.", "en": "The chief came to speak to us.", "zh": "頭目來對我們說話。" },
+            { "t": "Toxoi mnan xo.", "fr": "Viens avec nous, veux-tu ?", "en": "Come with us, won't you?", "zh": "跟我們一起來，好嗎？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YAMO",
+      "tag": "(R)",
+      "fr": "Pron. pers. deux. pers. plur. forme emphatique.",
+      "en": "Personal pron. Second person plural, emphatic form.",
+      "zh": "人稱代名詞。第二人稱複數，強調形式。",
+      "examples": [
+        { "t": "Yamo ka ini bi k'la", "fr": "C'est vous qui ne savez vraiment pas !", "en": "It is you who really do not know!", "zh": "真正不知道的是你們！" },
+        { "t": "Yamo o, ini namo k'la!", "fr": "Vous, vous ne savez pas.", "en": "You, you do not know.", "zh": "你們，你們不知道。" },
+        { "t": "Ini namo k'la ka yamo", "fr": "Vous ne savez pas, vous autres.", "en": "You don't know, you people.", "zh": "你們這些人不知道。" }
+      ],
+      "subs": [
+        {
+          "form": "N'yano",
+          "fr": "De vous (forme emphatique, rare).",
+          "en": "Of you / yours (emphatic form, rare).",
+          "zh": "你們的（強調形式，罕見）。",
+          "examples": [
+            { "t": "Balae bi n'yano ka kusa kia", "fr": "À vrai dire, elle est vôtre cette dette !", "en": "To tell the truth, this debt is yours!", "zh": "說真的，這筆債是你們的！" }
+          ]
+        },
+        {
+          "form": "Nano",
+          "fr": "1° Pron. pers. dans sa forme enclitique = Vous. 2° = Adj. poss. = Votre - vos.",
+          "en": "1° Personal pron. in its enclitic form = you. 2° = possessive adj. = your.",
+          "zh": "①附著形式的人稱代名詞＝你們。②＝所有格形容詞＝你們的。",
+          "examples": [
+            { "t": "Mxa nano ino?", "fr": "Où allez-vous ?", "en": "Where are you going?", "zh": "你們要去哪裡？" },
+            { "t": "Mxolyaq namo kana", "fr": "Vous êtes tous mouillés !", "en": "You are all wet!", "zh": "你們都濕透了！" },
+            { "t": "Tama nano ka malu", "fr": "C'est votre père qui est bien !", "en": "It is your father who is good!", "zh": "好的是你們的父親！" },
+            { "t": "Sapax namo ka nii", "fr": "Celle-ci est votre maison.", "en": "This is your house.", "zh": "這是你們的家。" }
+          ]
+        },
+        {
+          "form": "Nnano",
+          "fr": "1° Était vôtre. 2° Partie de vos.",
+          "en": "1° Was yours. 2° Part of yours.",
+          "zh": "①（曾）是你們的。②你們的一部分。",
+          "examples": [
+            { "t": "Nnano ka sapax nii", "fr": "Cette maison était à vous.", "en": "This house was yours.", "zh": "這間房子（曾）是你們的。" },
+            { "t": "Nnamao ka sapax nii", "fr": "Cette maison est l'une de vos maisons.", "en": "This house is one of your houses.", "zh": "這間房子是你們的房子之一。" }
+          ]
+        },
+        {
+          "form": "D'yano",
+          "fr": "Les vôtres - de votre groupe - ceux de votre clan.",
+          "en": "Yours (people) - of your group - those of your clan.",
+          "zh": "你們的人—你們群體的—你們氏族的人。",
+          "examples": [
+            { "t": "D'yano nanak ka Atox", "fr": "Atorh est bien des vôtres (votre parenté, ami..).", "en": "Atorh is indeed one of yours (your kin, friend..).", "zh": "Atorh確實是你們的人（你們的親屬、朋友……）。" }
+          ]
+        },
+        {
+          "form": "DD'yano",
+          "fr": "Ceux des vôtres - tous les vôtres.",
+          "en": "Those of yours - all of yours.",
+          "zh": "你們的那些人—你們所有的人。",
+          "examples": [
+            { "t": "Ida sao kia kana ka dd'yano", "fr": "Vous et les vôtres (toi et les tiens) vous êtes tous ainsi.", "en": "You and yours (you and your people) are all like this.", "zh": "你們和你們的人（你和你的人）都是這樣。" }
+          ]
+        },
+        {
+          "form": "Nd'yano",
+          "fr": "L'un (partie) des tiens (des vôtres).",
+          "en": "One (part) of yours.",
+          "zh": "你們的其中之一（一部分）。",
+          "examples": [
+            { "t": "Kingal nd'yano nanak ka sadyaq nii", "fr": "Cet homme est bien l'un des tiens !", "en": "This man is indeed one of yours!", "zh": "這個人確實是你們的其中之一！" }
+          ]
+        },
+        {
+          "form": "Yiano",
+          "fr": "Pour vous - à vous - qu'il soit à vous, vôtre.",
+          "en": "For you - to you - may it be yours, yours.",
+          "zh": "為你們—給你們—願它歸你們所有，你們的。",
+          "examples": [
+            { "t": "Nasi namo kuxul o, Yiano kana da!", "fr": "Si cela vous fait plaisir, que tout cela soit à vous (prenez tout).", "en": "If it pleases you, let all of it be yours (take everything).", "zh": "如果你們喜歡，就讓這一切都歸你們（全部拿去）。" }
+          ]
+        },
+        {
+          "form": "Munan",
+          "fr": "Forme oblique ; = à vous, pour vous, vers vous.",
+          "en": "Oblique form; = to you, for you, toward you.",
+          "zh": "斜格形式；＝給你們、為你們、向你們。",
+          "examples": [
+            { "t": "Kusa mo munan ka kia", "fr": "Cela est une dette que j'ai à votre égard.", "en": "This is a debt that I owe to you.", "zh": "這是我欠你們的債。" },
+            { "t": "Byeqon mo munan", "fr": "Je veux vous (le) donner.", "en": "I want to give it to you.", "zh": "我想把它給你們。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YAQ",
+      "tag": "(R . + IYAQ ?)",
+      "fr": "= Travail dans les champs en dehors des gros travaux, par exemple : désherber, piocher, butter.. Vr. MIYAQ. IYAQ.",
+      "en": "= Field work apart from the heavy labor, for example: weeding, hoeing, earthing up.. See MIYAQ. IYAQ.",
+      "zh": "＝田裡除粗重工作以外的活，例如：除草、鋤地、培土……參見MIYAQ、IYAQ。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Miyaq",
+          "fr": "(Myaq ?) = d° forme verbale.",
+          "en": "(Myaq?) = ditto, the verbal form (verbal form of the preceding).",
+          "zh": "（Myaq？）＝同上，動詞形（前項的動詞形）。",
+          "examples": [
+            { "t": "Mtbiyax so ka iso xo? ... Malu xali sayang da! Wana musa niyaq tityex ska kmpaxan beilox da!", "fr": "Es-tu très occupée en ce moment ? ... Cela va mieux ! Je n'ai plus que de menus travaux dans mon champ de haricots.", "en": "Are you very busy right now? ... Things are better! I have only minor tasks left in my bean field.", "zh": "你現在很忙嗎？……好多了！我在豆田裡只剩下一些零星的活了。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YAX",
+      "tag": "",
+      "crossRef": "IYAX",
+      "fr": "(nb. Malgré la réalisation générale en une seule syllabe : YAX, ce terme est la racine de l'idée de \"ALLER\" qui semble bien comporter deux syllabes, si on en juge par les dérivés surtout !). Vr. IYAX.",
+      "en": "(n.b. Despite the general realization in a single syllable: YAX, this term is the root of the idea of \"TO GO\", which does seem to comprise two syllables, judging especially by the derivatives!). See IYAX.",
+      "zh": "（註：儘管一般讀成單音節YAX，此詞是「去」這一概念的字根，尤其從其衍生形看來，它似乎確實含兩個音節！）參見IYAX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "YAX",
+      "tag": "(R)",
+      "fr": "= Espace (de temps et de lieu) entre deux limites.",
+      "en": "= Space (of time and place) between two limits.",
+      "zh": "＝兩個界限之間的（時間與空間的）間隔。",
+      "examples": [
+        { "t": "Kingal yax toke", "fr": "Une heure de temps (= Un espace de montre).", "en": "One hour of time (= one span of the watch).", "zh": "一個鐘頭（＝錶上的一段間隔）。" },
+        { "t": "Kingal yax xnkawas", "fr": "L'espace d'une année.", "en": "The span of one year.", "zh": "一年的時間。" },
+        { "t": "Xmuya ka ini so tnai sapax! ... Ongat bi ana kingal yax ka loan da!", "fr": "Pourquoi ne rentres-tu pas dans la maison ... Il n'y a plus la moindre petite place, à l'intérieur !", "en": "Why don't you go into the house ... There is not the least little space left inside!", "zh": "你為什麼不進屋裡……裡面連一點點空位都沒有了！" }
+      ],
+      "subs": [
+        {
+          "form": "P'yax",
+          "fr": "(Pe'yax ?) = Laisser un espace (entre deux objets, entre deux moments du temps).",
+          "en": "(Pe'yax?) = to leave a space (between two objects, between two moments in time).",
+          "zh": "（Pe'yax？）＝留一個間隔（兩個物體之間、兩個時間點之間）。",
+          "examples": [
+            { "t": "Pusu ni pusu o, qx'nu ka mp'yax so kmblagan?", "fr": "D'un pied à l'autre, quel espace (un espace combien long) laisses-tu ?", "en": "From one foot to the other, how much space (how long a space) do you leave?", "zh": "從一腳到另一腳，你留多大的間隔（多長的間隔）？" },
+            { "t": "Knlmun so bi p'yax nqan ni nimax", "fr": "Tu es très courageux pour \"sauter\" de temps en temps le manger et le boire (Courageusement, tu jeûnes de temps en temps !). (YAX 1° et YAX 2° semblent bien parents !)", "en": "You are very brave to \"skip\" eating and drinking from time to time (Courageously, you fast from time to time!). (YAX 1° and YAX 2° do seem closely related!)", "zh": "你很勇敢，能不時「跳過」吃喝（你勇敢地不時禁食！）。（YAX①與YAX②看來確實相關！）" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YAYO",
+      "tag": "(R)",
+      "fr": "= Petit couteau - couteau de cuisine - canif.",
+      "en": "= Small knife - kitchen knife - penknife.",
+      "zh": "＝小刀—廚房用刀—折疊小刀。",
+      "examples": [
+        { "t": "Ita yayo so binao ! Ttuyun mo ka xei lodoç da", "fr": "Passe-moi donc ton couteau ; je dois découper le poulet (en petits morceaux).", "en": "Pass me your knife then; I have to cut up the chicken (into small pieces).", "zh": "把你的刀遞給我吧；我得把雞（切成小塊）。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "YAYONG",
+      "tag": "(R)",
+      "fr": "= Torrent - fleuve.",
+      "en": "= Torrent - river.",
+      "zh": "＝激流—河流。",
+      "examples": [
+        { "t": "Smusyaq bi sayang ka yayong!", "fr": "En ce moment le (l'eau du) torrent est très sale.", "en": "At the moment the torrent (its water) is very dirty.", "zh": "此刻激流（的水）很髒。" }
+      ],
+      "subs": [
+        {
+          "form": "Mkyayong",
+          "fr": "= Le long du torrent.",
+          "en": "= Along the torrent.",
+          "zh": "＝沿著激流。",
+          "examples": [
+            { "t": "Mnkyayong ko betak pngpong dgiyaq.", "fr": "J'ai suivi le torrent jusqu'au sommet de la montagne.", "en": "I followed the torrent up to the summit of the mountain.", "zh": "我沿著激流一直到山頂。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YÖS",
+      "tag": "",
+      "fr": "= Exclamation marquant la décision, souvent menaçante, d'entreprendre quelque chose à l'instant même ; elle indique que la personne est prête, qu'elle est d'attaque.",
+      "en": "= Exclamation marking the decision, often threatening, to undertake something at that very moment; it indicates that the person is ready, that they are set to go / on the attack.",
+      "zh": "＝表示當下就要著手做某事的決定的感嘆詞，常帶威脅意味；它表明此人已準備好、正要出擊。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "YUP",
+      "tag": "(R. IYUP semble plus vraie !)",
+      "fr": "= Souffler (les personnes, bêtes, vent).",
+      "en": "= To blow (people, animals, wind).",
+      "zh": "＝吹（人、動物、風）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Miyup",
+          "fr": "(Myup ??!) = d° forme verbale.",
+          "en": "(Myup??!) = ditto, the verbal form (verbal form of the preceding).",
+          "zh": "（Myup？？！）＝同上，動詞形（前項的動詞形）。",
+          "examples": [
+            { "t": "Paro bi yupan bgixol ka slaan so sapax nii!", "fr": "C'est un endroit où le vent souffle très fort, ici où tu veux construire ta maison.", "en": "This is a place where the wind blows very hard, here where you want to build your house.", "zh": "這是個風吹得很猛的地方，就在你想蓋房子的這裡。" },
+            { "t": "Yupi binao ka sanao so, diyan bi da!", "fr": "Souffle donc (éteins donc ton falot ! Il fait grand jour maintenant !)", "en": "Blow then (put out your lantern! It is broad daylight now!)", "zh": "那就吹吧（把你的燈熄了吧！現在已經大白天了！）" }
+          ]
+        },
+        {
+          "form": "Yupan",
+          "fr": "= Lieu, temps du souffler - ce qui a été soufflé.",
+          "en": "= Place, time of blowing - what has been blown.",
+          "zh": "＝吹的地點、時間—被吹的東西。",
+          "examples": [
+            { "t": "Naqe bi yupan ka taxot xpuyan so", "fr": "Il n'est pas facile de souffler sur le feu de ta cuisinière (ton fourneau).", "en": "It is not easy to blow on the fire of your stove (your cooker).", "zh": "在你的爐灶（你的炊具）的火上吹並不容易。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "YUX",
+      "tag": "",
+      "crossRef": "IYUX",
+      "fr": "(Vr. IYUX sans doute plus juste) = Insister pour. Vr. IYUX.",
+      "en": "(See IYUX, undoubtedly more correct) = to insist on. See IYUX.",
+      "zh": "（參見IYUX，無疑更正確）＝堅持要（做某事）。參見IYUX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "\"BAON",
+      "tag": "(R)",
+      "fr": "= Citrouille - potiron ..",
+      "en": "= Pumpkin - squash ..",
+      "zh": "＝南瓜—番瓜……",
+      "examples": [
+        { "t": "Nnyeqan ta daya o, betak bi naso, bonga, sali, \"baon, blisan ka txnao balae!", "fr": "Quand nous étions là-haut (dans notre ancien territoire), nous étions réduits à ne planter que du millet, des patates douces, des taros, des citrouilles, du sorgho !", "en": "When we were up there (in our former territory), we were reduced to planting only millet, sweet potatoes, taros, pumpkins, sorghum!", "zh": "當我們在上面（在我們的舊領地）時，我們只能種小米、地瓜、芋頭、南瓜、高粱！" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "\"BI",
+      "tag": "(R)",
+      "fr": "= Abri (fabriqué) - cabane (dans les champs, la forêt) - construction provisoire, sommaire.",
+      "en": "= Shelter (made by hand) - hut (in the fields, the forest) - temporary, rough construction.",
+      "zh": "＝（搭建的）遮蔽處—（田裡、森林裡的）小屋—臨時、簡陋的建物。",
+      "examples": [
+        { "t": "Sluon mo kingal \"bi lodoç ka saman", "fr": "Demain, je construirai un poulailler (= cabane des poules).", "en": "Tomorrow I will build a henhouse (= hut for the hens).", "zh": "明天我要蓋一個雞舍（＝雞的小屋）。" },
+        { "t": "Mntaqe ko \"bi kmpaxan ka ska'man", "fr": "La nuit dernière j'ai dormi dans la cabane au milieu de mes champs.", "en": "Last night I slept in the hut in the middle of my fields.", "zh": "昨晚我睡在我田地中央的小屋裡。" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "\"LO",
+      "tag": "(R)",
+      "fr": "= Contaminer - transmettre - contagion.",
+      "en": "= To contaminate - to transmit - contagion.",
+      "zh": "＝傳染—傳播—傳染（病）。",
+      "examples": [
+        { "t": "Paro bi \"lo ka nalox ( mnalox ?) na kia", "fr": "La maladie qu'il a là est très contagieuse (et mieux : § Paro bi \"lo na ka nalox na kia !).", "en": "The illness he has there is very contagious (and better: Paro bi \"lo na ka nalox na kia!).", "zh": "他得的那個病很會傳染（更好的說法：Paro bi \"lo na ka nalox na kia！）。" }
+      ],
+      "subs": [
+        {
+          "form": "M\"lo",
+          "paradigm": "M\"LO, \"lo, \"loy, \"loan, \"loon.",
+          "fr": "= d° forme verbale.",
+          "en": "= ditto, the verbal form (verbal form of the preceding).",
+          "zh": "＝同上，動詞形（前項的動詞形）。",
+          "examples": [
+            { "t": "Ga muda alang ta sayang ka kingal n\"lo mnalox", "fr": "En ce moment une épidémie est en train de passer par notre village.", "en": "At the moment an epidemic is passing through our village.", "zh": "此刻有一場流行病正在我們的部落蔓延。" },
+            { "t": "Adi n\"lo balae ka kmnalox so xo?", "fr": "Est-ce que ta maladie n'est pas très contagieuse ?", "en": "Isn't your illness very contagious?", "zh": "你的病不是很會傳染嗎？" }
+          ]
+        },
+        {
+          "form": "\"loan",
+          "fr": "= Temps, lieu de la contagion - être, personne, chose contaminée.",
+          "en": "= Time, place of contagion - being, person, thing contaminated.",
+          "zh": "＝傳染的時間、地點—被傳染的生物、人、物。",
+          "examples": [
+            { "t": "Manalox no sayang o, n\"loan ko d'xa ka kia", "fr": "Ma maladie actuelle, je l'ai attrapée par contagion.", "en": "My present illness, I caught it by contagion.", "zh": "我現在的病，是被傳染來的。" }
+          ]
+        },
+        {
+          "form": "Sm\"lo",
+          "fr": "= Contaminer.",
+          "en": "= To contaminate.",
+          "zh": "＝傳染（給別人）。",
+          "examples": [
+            { "t": "Ya bi iyax sm\"lo kana ddyami xeni", "fr": "Ne viens pas contaminer tous les miens ici !", "en": "Don't come and contaminate all my people here!", "zh": "別來把我這裡所有的人都傳染了！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Sn\"lo",
+      "tag": "(R. = \"LO ?)",
+      "paradigm": "Snn\"lo, sn\"lo, snloi, snloan (sn\"loan) sn\"loon (snloon).",
+      "fr": "= Transmettre (qqch. d'immatériel) - annoncer - faire part. (nb. Peut-être ce N de SN\"LO n'est que l'infixe N, signe du passé, de l'accompli ?!).",
+      "en": "= To transmit (something immaterial) - to announce - to make known. (n.b. Perhaps this N of SN\"LO is only the infix N, marker of the past, of the completed aspect?!).",
+      "zh": "＝傳達（無形之物）—宣告—告知。（註：也許SN\"LO裡的這個N只是中綴N，是過去式、完成貌的標記？！）",
+      "examples": [
+        { "t": "Xmuya ka ini so sn\"lo ka nkari d'xa?", "fr": "Pourquoi ne nous dis-tu pas ce qu'ils ont dit ?", "en": "Why don't you tell us what they said?", "zh": "你為什麼不把他們說的話告訴我們？" }
+      ],
+      "subs": []
+    }
+  ]
+}

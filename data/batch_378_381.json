@@ -1,0 +1,790 @@
+{
+  "pages": [378, 381],
+  "leadin": {
+    "fr": "…De toute façon nous mourons tous. °Mxoqel, xoqel, xqeli(?), xqelan, xqelun.",
+    "en": "…In any case we all die. °Mxoqel, xoqel, xqeli(?), xqelan, xqelun.",
+    "zh": "……反正我們都會死。°Mxoqel、xoqel、xqeli(?)、xqelan、xqelun。",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Kmxoqel",
+        "fr": "Désirer mourir.",
+        "en": "To wish to die.",
+        "zh": "想死、渴望死去。",
+        "examples": [
+          {
+            "t": "Balae bi kmxoqel so ?",
+            "fr": "Tu as vraiment envie de mourir? (C'est bien vrai que tu veux mourir ?).",
+            "en": "Do you really want to die? (Is it really true that you want to die?).",
+            "zh": "你真的想死嗎？（你真的想死，是真的嗎？）。"
+          }
+        ]
+      },
+      {
+        "form": "Xqelan",
+        "fr": "La mort - le temps de la mort.",
+        "en": "Death - the time of death.",
+        "zh": "死亡－死亡的時刻。",
+        "examples": [
+          {
+            "t": "D'xok ka xqelan ta o, ida ta (nxa)mngongo kana da",
+            "fr": "Quand notre mort arrivera, c'est normal que nous ayons tous peur.",
+            "en": "When our death comes, it is normal that we should all be afraid.",
+            "zh": "當我們的死亡來臨時，我們大家都害怕是很正常的。"
+          },
+          {
+            "t": "Diyax xqelan",
+            "fr": "Le moment de mourir.",
+            "en": "The moment of dying.",
+            "zh": "死亡的時刻。"
+          },
+          {
+            "t": "Sao smiso bi ka xnqelan sktama so",
+            "fr": "Elle faisait peur la mort de feu ton père!",
+            "en": "The death of your late father was frightening!",
+            "zh": "你已故父親的死很令人害怕！"
+          }
+        ]
+      },
+      {
+        "form": "Xxoqel",
+        "fr": "Pour mourir.",
+        "en": "In order to die.",
+        "zh": "為了死。",
+        "examples": [
+          {
+            "t": "Ya so splang mqan sapox xxoqel so n'xali ?",
+            "fr": "Tu prends sans doute exprès cette médecine (ce poison) pour mourir vite?",
+            "en": "No doubt you are taking this medicine (this poison) on purpose in order to die quickly?",
+            "zh": "你大概是故意吃這個藥（這個毒）好快點死吧？"
+          }
+        ]
+      },
+      {
+        "form": "Pxoqel",
+        "paradigm": "°Mpxoqel pxoqel, pxqeli, pxqelan, pxqelun.",
+        "fr": "Tuer - faire mourir.",
+        "en": "To kill - to put to death.",
+        "zh": "殺－使……死。",
+        "examples": [
+          {
+            "t": "Pxqeli ka kating so ooqon ta saman!",
+            "fr": "Tue (il faut que tu tues) ton buffle pour que nous le mangions demain",
+            "en": "Kill (you must kill) your buffalo so that we may eat it tomorrow",
+            "zh": "把你的水牛殺了（你得殺了牠），好讓我們明天吃！"
+          },
+          {
+            "t": "Ya usa da! Pxqelun so d'xa!",
+            "fr": "Ne va pas, ils vont te tuer!",
+            "en": "Don't go, they are going to kill you!",
+            "zh": "別去，他們會殺了你！"
+          }
+        ]
+      },
+      {
+        "form": "Pxqelun",
+        "fr": "Ce(celui) qu'on veut tuer, qu'on doit tuer - qu'on tuera.",
+        "en": "The one that is to be killed, that must be killed - that will be killed.",
+        "zh": "想殺的、該殺的、將被殺的（那一個）。",
+        "examples": [
+          {
+            "t": "Tbugun so ka babwi ni xo? Pxqelun so xo ?",
+            "fr": "Ce cochon(tien), Penses tu l'élever? veux tu le tuer ?",
+            "en": "This pig (of yours), do you intend to raise it? Do you want to kill it?",
+            "zh": "這頭（你的）豬，你打算養牠嗎？你想殺牠嗎？"
+          }
+        ]
+      },
+      {
+        "form": "Mpxoqel",
+        "fr": "1° Celui qui tue - tueur - assassin. 2° Qui va mourir.",
+        "en": "1° The one who kills - killer - murderer. 2° The one who is going to die.",
+        "zh": "1° 殺人者－兇手－殺手。2° 快要死的人。",
+        "examples": [
+          {
+            "t": "Ima ka mpxoqel kating ta da!",
+            "fr": "Qui est-ce qui va tuer notre buffle?",
+            "en": "Who is going to kill our buffalo?",
+            "zh": "誰要殺我們的水牛？"
+          },
+          {
+            "t": "Sao bi mpxoqel ka kmnaqex kuxul no!",
+            "fr": "Je suis triste à en mourir (= Ma tristesse est telle qu'on dirait qu'elle veut me tuer)!",
+            "en": "I am sad enough to die of it (= My sadness is such that one would say it wants to kill me)!",
+            "zh": "我傷心得要死（＝我的悲傷之深，彷彿要殺了我一樣）！"
+          },
+          {
+            "t": "Taan no o, mpxoqel saman ka anai ta da!",
+            "fr": "D'après moi (à ce que je vois), notre beau frère mourra demain.",
+            "en": "In my opinion (as far as I can see), our brother-in-law will die tomorrow.",
+            "zh": "依我看（就我所見），我們的姊夫（妹夫）明天就會死。"
+          }
+        ]
+      },
+      {
+        "form": "Kmpxoqel",
+        "fr": "Désirer tuer.",
+        "en": "To wish to kill.",
+        "zh": "想殺、渴望殺。",
+        "examples": [
+          {
+            "t": "Kmpxoqel ko bi kingal lodoç",
+            "fr": "J'ai vraiment envie de tuer une poule.",
+            "en": "I really feel like killing a chicken.",
+            "zh": "我真的很想殺一隻雞。"
+          },
+          {
+            "t": "Psdlaon so knuwan ? ... Adi no pxqelun ka sayang!",
+            "fr": "Quand est-ce que tu la tueras (tu la feras saigner)? ... Je ne veux pas la tuer maintenant.",
+            "en": "When will you kill it (make it bleed)? ... I don't want to kill it now.",
+            "zh": "你什麼時候要殺牠（放牠的血）？……我現在不想殺牠。"
+          }
+        ]
+      },
+      {
+        "form": "Mkmpxoqel",
+        "fr": "Celui qui désire tuer.",
+        "en": "One who wishes to kill.",
+        "zh": "想殺人的人。",
+        "examples": [
+          {
+            "t": "Sao so bi mkmpxoqel sadyaq (sdyaqon) ka iso !",
+            "fr": "On dirait vraiment que tu es quelqu'un qui veut tuer quelque personne, toi!",
+            "en": "One would really say that you are someone who wants to kill somebody, you!",
+            "zh": "你真像個想殺人的人，你！"
+          }
+        ]
+      },
+      {
+        "form": "Sxoqel",
+        "fr": "Moyen pour mourir - s'en servir pour mourir.",
+        "en": "Means for dying - to use it in order to die.",
+        "zh": "尋死的手段－用它來尋死。",
+        "examples": [
+          {
+            "t": "Soqe mnalox tunuç na ka xea, mnsa oyong sapax mqan sapox sxoqel na n'xali da.",
+            "fr": "Sa tête lui faisait tellement mal qu'il est allé derrière la maison prendre du poison pour mourir plus vite. (= se sert du poison pour mourir..).",
+            "en": "His head hurt him so much that he went behind the house to take poison in order to die faster. (= uses the poison in order to die..).",
+            "zh": "他的頭痛得厲害，於是跑到屋後去拿毒藥好快點死。（＝用毒藥來尋死……）。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "XÖS", "tag": "",
+      "fr": "Onomatopée, exclamation pour désigner une explosion de sentiments.",
+      "en": "Onomatopoeia, exclamation to designate an outburst of feelings.",
+      "zh": "擬聲詞，用來表示情感爆發的感嘆詞。",
+      "examples": [
+        {
+          "t": "Asi: Xös! nsa ka lnglongan no!",
+          "fr": "Du coup, mon sang n'a fait qu'un tour! (Du coup, ma pensée, mes sentiments ont fait: Xös !).",
+          "en": "All of a sudden, I gave a start (my blood made but a single turn)! (Suddenly, my thoughts, my feelings went: Xös!).",
+          "zh": "頓時，我心頭一驚！（頓時，我的思緒、我的情感發出：Xös！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sxös",
+          "fr": "Emettre ce son: Xös (= Rheus !).",
+          "en": "To emit this sound: Xös (= Hiss!).",
+          "zh": "發出這個聲音：Xös（＝嘶！）。",
+          "examples": [
+            {
+              "t": "Qoyo sxös",
+              "fr": "Naja (onomatopée désignant ce serpent par le son qu'il émet).",
+              "en": "Cobra (onomatopoeia designating this snake by the sound it emits).",
+              "zh": "眼鏡蛇（以其發出的聲音來指稱這種蛇的擬聲詞）。"
+            }
+          ]
+        },
+        {
+          "form": "Msxös",
+          "fr": "Qui produit ce bruit: Xös ; (Un peu comme le français: HAN ! mais avec une nuance de menace, de provocation, d'effort. Pour traduire la provocation menaçante, les taroko disent: YÖS !).",
+          "en": "That produces this sound: Xös; (A bit like the French: HAN! but with a nuance of threat, of provocation, of effort. To render the menacing provocation, the Taroko say: YÖS!).",
+          "zh": "發出這種聲音者：Xös；（有點像法語的：HAN！但帶有威脅、挑釁、使勁的意味。為了表達威脅性的挑釁，太魯閣人會說：YÖS！）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XOUNI", "tag": "(R. = ?)",
+      "fr": "Ensorcelé (?), Sortilège (?).",
+      "en": "Bewitched (?), Spell/sorcery (?).",
+      "zh": "被施法者(?)、巫術／咒語(?)。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxouni",
+          "fr": "Qui est ensorcelé (?) - sorcier - devin - celui qui a des pouvoirs occultes.",
+          "en": "One who is bewitched (?) - sorcerer - diviner - one who has occult powers.",
+          "zh": "被施法者(?)－巫師－占卜者－擁有神祕力量的人。",
+          "examples": [
+            {
+              "t": "Sao bi mxouni ka laqe mo!",
+              "fr": "On dirait que mon enfant a été ensorcelé (a été victime d'un sort).",
+              "en": "It seems my child has been bewitched (has been the victim of a spell).",
+              "zh": "我的孩子好像被下了咒（中了邪）。"
+            }
+          ]
+        },
+        {
+          "form": "Smxouni",
+          "fr": "Jeter un sort - ensorceler.",
+          "en": "To cast a spell - to bewitch.",
+          "zh": "施咒－下法術。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XOYA", "tag": "(R)",
+      "fr": "Que - quoi.",
+      "en": "What.",
+      "zh": "什麼。",
+      "examples": [
+        {
+          "t": "Xoya no ksun ?",
+          "fr": "Que dois-je dire? (vl. que dois-je faire.)",
+          "en": "What must I say? (var. what must I do.)",
+          "zh": "我該說什麼？（或：我該做什麼。）"
+        },
+        {
+          "t": "Xoya nsa ka tama so?",
+          "fr": "Qu'est-ce que ton père a dit ? (vl. Qu'est-ce que ton père en dit ?).",
+          "en": "What did your father say? (var. What does your father say about it?).",
+          "zh": "你父親說了什麼？（或：你父親對此怎麼說？）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxoya",
+          "fr": "Etre quoi - être comment (état, situation).",
+          "en": "To be what - to be how (state, situation).",
+          "zh": "是什麼－是怎樣（狀態、情況）。",
+          "examples": [
+            {
+              "t": "Mxoya so da!",
+              "fr": "Comment fais tu ? - Comment es tu ?",
+              "en": "How are you doing? - How are you?",
+              "zh": "你怎麼樣？－你如何？"
+            },
+            {
+              "t": "Adi mxoya da!",
+              "fr": "Il n'y a pas de difficulté (il n'y a aucune question).",
+              "en": "There is no difficulty (there is no problem at all).",
+              "zh": "沒有困難（完全沒問題）。"
+            },
+            {
+              "t": "Mxoya ka smalu kingal \"bi ?",
+              "fr": "Bâtir une cabane, qu'en pensez vous? (= Y a-t-il des objections?).",
+              "en": "Building a hut, what do you think of it? (= Are there any objections?).",
+              "zh": "蓋一間小屋，你們覺得如何？（＝有什麼異議嗎？）。"
+            }
+          ]
+        },
+        {
+          "form": "Kxoya",
+          "fr": "Forme négative. (nb. le préfixe K, devant surtout des verbes d'état, indique, semble-t-il, une capacité d'être, l'être en devenir, et trouverait ainsi sa parentée avec le préfixe K indiquant l'optatif, le désir, la tendence, l'aptitude à réaliser l'action, l'état!)",
+          "en": "Negative form. (n.b. the prefix K, especially before stative verbs, seems to indicate a capacity of being, a being in the making, and would thus find its kinship with the prefix K indicating the optative, desire, tendency, the aptitude to realize the action, the state!)",
+          "zh": "否定形式。（註：前綴 K，尤其用在狀態動詞之前，似乎表示一種「存在的能力」、「生成中的存在」，因而與表示祈願、慾望、傾向、實現動作或狀態之能力的前綴 K 有親緣關係！）",
+          "examples": [
+            {
+              "t": "Ini kxoya ka tama",
+              "fr": "Il n'y a pas de question (d'obstacle) à propos du père.",
+              "en": "There is no problem (no obstacle) concerning the father.",
+              "zh": "關於父親沒有問題（沒有阻礙）。"
+            },
+            {
+              "t": "Ini xoya ka tama",
+              "fr": "Papa n'a rien fait (il ne met pas d'obstacle d'aucune sorte). (XOYA = faire quoi; KXOYA = disposé à être quoi",
+              "en": "Papa has done nothing (he puts up no obstacle of any kind). (XOYA = to do what; KXOYA = disposed to be what",
+              "zh": "爸爸什麼也沒做（他沒有設下任何阻礙）。（XOYA＝做什麼；KXOYA＝準備成為什麼"
+            }
+          ]
+        },
+        {
+          "form": "Mpxoya",
+          "fr": "Sera quoi ? - fera quoi ?.",
+          "en": "Will be what? - will do what?.",
+          "zh": "會是什麼？－會做什麼？。",
+          "examples": [
+            {
+              "t": "Mpxoya nani da",
+              "fr": "Et nous, qu'allons nous devenir ? (vl. qu'allons nous faire ?).",
+              "en": "And us, what will become of us? (var. what are we going to do?).",
+              "zh": "那我們呢，我們會變成怎樣？（或：我們要怎麼辦？）。"
+            }
+          ]
+        },
+        {
+          "form": "Xmuya",
+          "fr": "Pourquoi ? - motif. (nb. XMUYA semble bien une forme verbale = faire quoi? faire comment.).",
+          "en": "Why? - reason/motive. (n.b. XMUYA does seem to be a verbal form = to do what? to do how.).",
+          "zh": "為什麼？－原因、動機。（註：XMUYA 看來確實是一個動詞形式＝做什麼？怎麼做。）。",
+          "examples": [
+            {
+              "t": "Miyax so xmuya",
+              "fr": "Tu viens pour quoi?( pour quoi faire ?).",
+              "en": "What are you coming for? (to do what?).",
+              "zh": "你來做什麼？（來幹嘛？）。"
+            },
+            {
+              "t": "Xmuya ka ini so iyax?",
+              "fr": "Pourquoi ne viens tu pas ?",
+              "en": "Why don't you come?",
+              "zh": "你為什麼不來？"
+            },
+            {
+              "t": "Xmuya so ? ... Ini xoya!(Ini kxoya (?))",
+              "fr": "Pourquoi (fais-tu ainsi?)? ... Il n'y a aucune raison (pour rien!)!",
+              "en": "Why (do you act this way)? ... There is no reason at all (for nothing!)!",
+              "zh": "為什麼（你這樣做）？……沒有任何理由（沒事、白白地！）！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XOYOQ", "tag": "(R)",
+      "fr": "En pointe - acéré _ pointu (aiguille, pieu etc..).",
+      "en": "Pointed - sharp _ pointy (needle, stake, etc.).",
+      "zh": "尖的－銳利的＿尖銳的（針、樁等）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxoyoq",
+          "fr": "Qui est pointu, acéré.",
+          "en": "Which is pointy, sharp.",
+          "zh": "尖的、銳利的。",
+          "examples": [
+            {
+              "t": "Mpotox ka qouni so nii! Gini kingal mxoyoq bi",
+              "fr": "L'aiguille que tu as est émoussée! Il te faut en chercher une acérée (bien pointue).",
+              "en": "The needle you have is blunt! You must look for a sharp one (nice and pointy).",
+              "zh": "你那根針鈍了！你得找一根銳利的（很尖的）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'QLI", "tag": "(XQ'LI ?) (R. ?)",
+      "fr": "Jalouser - regarder d'un mauvais oeil.",
+      "en": "To be jealous of - to look upon with an evil eye.",
+      "zh": "嫉妒－以惡意的眼光看待。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmq'li",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ga xmq'li kman ka dxea, kika xadun ko d'xa sapax slingan da!",
+              "fr": "Ils me jalousent, eux, c'est pourquoi ils m'ont amené au tribunal (= la maison où se font les interrogations).",
+              "en": "They are jealous of me, that is why they took me to the court (= the house where interrogations are held).",
+              "zh": "他們嫉妒我，所以他們把我帶到法庭（＝進行審問的房子）去了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'TOL", "tag": "(R)",
+      "fr": "Faire obstacle - retenir - empêcher.",
+      "en": "To obstruct - to hold back - to prevent.",
+      "zh": "阻礙－攔阻－阻止。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "X'ntol",
+          "paradigm": "°X'ntol, X'tol, xt'li, xt'lan, xt'lun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Nyeqan ka x'ntol kman kika ini ko usa!",
+              "fr": "Il y en a qui me retiennent (me font obstacle), c'est pourquoi je ne vais pas.",
+              "en": "There are some who hold me back (put obstacles in my way), that is why I am not going.",
+              "zh": "有些人攔著我（阻礙我），所以我不去。"
+            },
+            {
+              "t": "Ya bi xt'lani lqlaqe ka yamo",
+              "fr": "Vous autres, ne retenez pas (n'empêchez pas de venir) les enfants!",
+              "en": "You there, do not hold back (do not prevent from coming) the children!",
+              "zh": "你們啊，別攔住（別阻止……來）那些孩子！"
+            }
+          ]
+        },
+        {
+          "form": "Xt'lan",
+          "fr": "Obstacle - empêchement - opposition.",
+          "en": "Obstacle - hindrance - opposition.",
+          "zh": "障礙－阻礙－對抗。",
+          "examples": [
+            {
+              "t": "Wada mo stl'ngan ana manu xnt'lan muda \"lu",
+              "fr": "J'ai rencontré en chemin toute sorte d'obstacles.",
+              "en": "I encountered all sorts of obstacles along the way.",
+              "zh": "我在路上遇到各種各樣的障礙。"
+            },
+            {
+              "t": "Xnt'lan ko d'xa ska'man",
+              "fr": "Hier soir, ils m'ont retenu.",
+              "en": "Last night, they held me back.",
+              "zh": "昨晚，他們把我留住了。"
+            }
+          ]
+        },
+        {
+          "form": "Mx'tol",
+          "fr": "Qui retient - qui empêche - qui fait obstacle.",
+          "en": "One who holds back - who prevents - who obstructs.",
+          "zh": "攔阻者－阻止者－設下障礙者。",
+          "examples": [
+            {
+              "t": "Ongat ana ima mx'tol sunan ka sayang!",
+              "fr": "Aujourd'hui il n'y a personne qui te retienne (qui te fasse obstacle).",
+              "en": "Today there is no one who holds you back (who obstructs you).",
+              "zh": "今天沒有人攔著你（給你設障礙）。"
+            }
+          ]
+        },
+        {
+          "form": "Tx'tol",
+          "fr": "Qui est retenu - qui est empêché.",
+          "en": "One who is held back - who is prevented.",
+          "zh": "被攔住者－被阻止者。",
+          "examples": [
+            {
+              "t": "Wada ko tx'tol muda \"lu a sao mnsuno pax dgiyaq",
+              "fr": "J'ai été stoppé sur ma route par un éboulement de la montagne.",
+              "en": "I was stopped on my way by a landslide from the mountain.",
+              "zh": "我在路上被山上的坍方擋住了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XUBAO", "tag": "(= R. ? - R. = BUBAO ?)",
+      "fr": "couper - déchirer (avec un instrument non tranchant) - égratigner profondément.",
+      "en": "to cut - to tear (with a non-sharp instrument) - to scratch deeply.",
+      "zh": "割－撕裂（用不鋒利的工具）－深深地抓傷。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmubao",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Klxangi bi aadi na xbagun btunuç ka xei na!",
+              "fr": "Fais bien attention pour qu'il n'aille pas se déchirer le corps sur les pierres!",
+              "en": "Be very careful so that he does not go and tear his body on the stones!",
+              "zh": "要小心，別讓他在石頭上把身體割破了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XUGUT", "tag": "(R)",
+      "fr": "Arracher - attirer - aspirer (un liquide, une poudre).",
+      "en": "To pull out - to attract/draw - to suck up (a liquid, a powder).",
+      "zh": "拔出－吸引－吸取（液體、粉末）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmugut",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ga xmut xmugut boax payai ka dxea muda d'xa \"lu kmpaxan.",
+              "fr": "(1°) Ils sont en train d'égrener sans façon des épis de riz en passant dans les champs.",
+              "en": "(1°) They are casually stripping the grains from ears of rice as they pass through the fields.",
+              "zh": "(1°) 他們一邊經過田地，一邊隨意地把稻穗上的穀粒捋下來。"
+            },
+            {
+              "t": "Xmugut bi daolyaq ka mbanax tasil gaga",
+              "fr": "Cette pierre rouge là attire vraiment les yeux. = (2°) Cette pierre rouge là tire vraiment les yeux.",
+              "en": "That red stone there really attracts the eyes. = (2°) That red stone there really draws the eyes.",
+              "zh": "那塊紅色的石頭真吸引人的目光。＝(2°) 那塊紅色的石頭真的很吸睛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XUKUT", "tag": "(R)",
+      "fr": "Bâton - canne pour marcher (Bâton, canne pour frapper se dit: SBUT).",
+      "en": "Stick - walking cane (a stick or cane for striking is called: SBUT).",
+      "zh": "手杖－走路用的拐杖（用來打人的棍子、拐杖叫做：SBUT）。",
+      "examples": [
+        {
+          "t": "Ludan ko da! Dmui ko xokut mksa",
+          "fr": "Me voilà vieux! Je marche avec un bâton.",
+          "en": "Here I am, old! I walk with a stick.",
+          "zh": "我老啦！我拄著拐杖走路。"
+        },
+        {
+          "t": "Ngalun mo xukut ka ssik so da!",
+          "fr": "Je prendrai ton balai pour me servir de bâton.",
+          "en": "I will take your broom to use as a stick.",
+          "zh": "我要拿你的掃帚來當拐杖用。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxukut",
+          "fr": "Marcher avec une canne, un bâton.",
+          "en": "To walk with a cane, a stick.",
+          "zh": "拄著拐杖、手杖走路。",
+          "examples": [
+            {
+              "t": "Mxukut ka Diyán, ya sa snqleqe ka papaq nia",
+              "fr": "Djian marche avec un bâton, étant donné qu'il s'est fait une entorse au pied. (= que son pied est tordu).",
+              "en": "Djian walks with a stick, since he has sprained his foot. (= that his foot is twisted).",
+              "zh": "Djian（吉揚）拄著拐杖走路，因為他的腳扭傷了。（＝他的腳扭到了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XUNGUL", "tag": "(R)",
+      "fr": "Coupant - tranchant.",
+      "en": "Cutting - sharp.",
+      "zh": "鋒利的－銳利的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxungul",
+          "fr": "Affilée (lame) - aiguisé - tranchant (syn. = Mkan).",
+          "en": "Sharpened (blade) - honed - cutting (syn. = Mkan).",
+          "zh": "鋒利的（刀刃）－磨利的－銳利的（同義詞＝Mkan）。",
+          "examples": [
+            {
+              "t": "Mxungul bi ka \"ma yayo so, Mkan (mqan) balae",
+              "fr": "La lame de ton couteau est bien aiguisée, elle coupe vraiment.",
+              "en": "The blade of your knife is well sharpened, it really cuts.",
+              "zh": "你刀子的刀刃磨得很利，真的很會切。"
+            }
+          ]
+        },
+        {
+          "form": "Kxungul",
+          "fr": "Forme négative.",
+          "en": "Negative form.",
+          "zh": "否定形式。",
+          "examples": [
+            {
+              "t": "Ini kxungul ka \"ma nia",
+              "fr": "sa lame (sa langue) ne coupe pas (n'est pas affilée).",
+              "en": "its blade (its tongue) does not cut (is not sharpened).",
+              "zh": "它的刀刃（它的舌頭）切不動（不鋒利）。"
+            }
+          ]
+        },
+        {
+          "form": "Txungul",
+          "fr": "Qui est très aiguisé, affilé.",
+          "en": "Which is very sharpened, honed.",
+          "zh": "很鋒利、很銳利的。",
+          "examples": []
+        },
+        {
+          "form": "Ptxungul",
+          "fr": "Aiguiser - faire que ce soit très affilé.",
+          "en": "To sharpen - to make it very sharp.",
+          "zh": "磨利－使之變得很鋒利。",
+          "examples": [
+            {
+              "t": "Ptxnguli tityex ka \"ma ( \"hma ?) poting so",
+              "fr": "Aiguise un peu (sérieusement) la lame de ton couteau !",
+              "en": "Sharpen the blade of your knife a bit (seriously)!",
+              "zh": "把你刀子的刀刃磨一磨（好好地磨）！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XWILAS", "tag": "(R)",
+      "fr": "Pancréas (?) - rate (?) (nb. ce terme désigne plus généralement la partie du corps située entre les hanches et les côtes.).",
+      "en": "Pancreas (?) - spleen (?) (n.b. this term more generally designates the part of the body located between the hips and the ribs.).",
+      "zh": "胰臟(?)－脾臟(?)（註：此詞更常泛指身體位於髖部與肋骨之間的部位。）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XWINUK", "tag": "(R)",
+      "fr": "Reins - Partie du corps sur le dos à hauteur de la ceinture - la taille.",
+      "en": "Loins - part of the body on the back at the level of the belt - the waist.",
+      "zh": "腰部－身體背部腰帶高度的部位－腰。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "YA", "tag": "",
+      "fr": "1° Particule indiquant la défense, donc toujours précédant une forme verbale à l'impératif.",
+      "en": "1° Particle indicating prohibition, thus always preceding a verbal form in the imperative.",
+      "zh": "1° 表示禁止的助詞，因此總是置於命令式動詞形之前。",
+      "examples": [
+        {
+          "t": "Ya usa!",
+          "fr": "Ne va pas!",
+          "en": "Don't go!",
+          "zh": "別去！"
+        },
+        {
+          "t": "Ya \"qan",
+          "fr": "Ne mange pas!",
+          "en": "Don't eat!",
+          "zh": "別吃！"
+        },
+        {
+          "t": "Ya sqoaq (qoaq = bouche)",
+          "fr": "tais-toi.",
+          "en": "be quiet (qoaq = mouth).",
+          "zh": "閉嘴（qoaq＝嘴巴）。"
+        },
+        {
+          "t": "Ya kbanax (Banax = rouge)",
+          "fr": "Ne rougis pas (ne sois pas rouge).",
+          "en": "Don't blush (don't be red) (Banax = red).",
+          "zh": "別臉紅（別發紅）（Banax＝紅）。"
+        },
+        {
+          "t": "Ya adi (Adi = ne pas vouloir - non!)",
+          "fr": "Ne refuse pas!",
+          "en": "Don't refuse! (Adi = to not want - no!).",
+          "zh": "別拒絕！（Adi＝不願意－不！）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "YA", "tag": "",
+      "fr": "2° Particule entrant dans plusieurs expression, souvent avec le sens de doute, de supposition, mais souvent employée avec toutes les bases de la langue, simples ou composées, quelle que soit leur fonction.",
+      "en": "2° Particle occurring in several expressions, often with the sense of doubt, of supposition, but often used with all the bases of the language, simple or compound, whatever their function.",
+      "zh": "2° 出現於多種表達中的助詞，常帶有懷疑、假設的意味，但也常與語言中所有的詞根（無論簡單或複合、無論其功能為何）連用。",
+      "examples": [
+        {
+          "t": "Ya bi",
+          "fr": "Environ - à peu près.",
+          "en": "About - approximately.",
+          "zh": "大約－差不多。"
+        },
+        {
+          "t": "Ya ini",
+          "fr": "Je suppose que ce n'est pas!",
+          "en": "I suppose it is not!",
+          "zh": "我想大概不是！"
+        },
+        {
+          "t": "Ya ongat",
+          "fr": "Je suppose qu'il n'y en a pas.",
+          "en": "I suppose there is none.",
+          "zh": "我想大概沒有。"
+        },
+        {
+          "t": "Ya uxai",
+          "fr": "Je suppose que ce n'est pas vrai.",
+          "en": "I suppose it is not true.",
+          "zh": "我想大概不是真的。"
+        },
+        {
+          "t": "Ya adi",
+          "fr": "Je suppose que tu ne veux pas (vr. plus haut N° 1°!).",
+          "en": "I suppose you do not want to (see above No. 1°!).",
+          "zh": "我想你大概不願意（見上面第 1° ！）。"
+        },
+        {
+          "t": "Ya iso xo?",
+          "fr": "C'est sans doute toi?",
+          "en": "It's no doubt you?",
+          "zh": "大概是你吧？"
+        },
+        {
+          "t": "Ya sapax xo",
+          "fr": "Peut-être une maison.",
+          "en": "Maybe a house.",
+          "zh": "也許是一間房子。"
+        },
+        {
+          "t": "Ya kia xo?",
+          "fr": "Peut-être que c'est ainsi (c'est cela).",
+          "en": "Maybe it is so (that's it).",
+          "zh": "也許是這樣（就是這個）。"
+        },
+        {
+          "t": "Ya malu xo !",
+          "fr": "C'est peut-être bon! etc...",
+          "en": "Maybe it's good! etc...",
+          "zh": "也許不錯！等等……"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "YA SA", "tag": "",
+      "fr": "Etant donné que - puisque - du moment que.",
+      "en": "Given that - since - seeing that.",
+      "zh": "既然－因為－既然如此。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "YABAS", "tag": "(R)",
+      "fr": "grenade (fruit).",
+      "en": "pomegranate (fruit).",
+      "zh": "石榴（水果）。",
+      "examples": [
+        {
+          "t": "Pusu yabas",
+          "fr": "Grenadier.",
+          "en": "Pomegranate tree.",
+          "zh": "石榴樹。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "YAKO", "tag": "(R)",
+      "fr": "Pronom personnel première personne singulier dans sa forme emphatique, demande toujours une particule (KA vel O) pour être relié au prédicat dont il est sujet.",
+      "en": "First-person singular personal pronoun in its emphatic form; it always requires a particle (KA or O) to be linked to the predicate of which it is the subject.",
+      "zh": "第一人稱單數人稱代名詞的強調形式，總是需要一個助詞（KA 或 O）才能與其作為主語的謂語連接。",
+      "examples": [
+        {
+          "t": "Yako o, malu",
+          "fr": "Moi, (je suis) bien. (Il supporte une apposition sans intervention de particule pour former un tout suivant les mêmes règles que plus haut.)",
+          "en": "Me, (I am) well. (It admits an apposition without any particle, to form a whole following the same rules as above.)",
+          "zh": "我，（我）很好。（它可以不藉助任何助詞而帶一個同位語，構成一個整體，規則與上述相同。）"
+        },
+        {
+          "t": "Yako tama o, malu!",
+          "fr": "Moi le papa, (je suis) bien!",
+          "en": "Me the father, (I am) well!",
+          "zh": "我這個當爸爸的，（我）很好！"
+        },
+        {
+          "t": "Mbiyax so xo? ... Ida sao yako!",
+          "fr": "Quelques exceptions: Cela va bien? ... C'est toujours moi !",
+          "en": "Some exceptions: Is all well? ... It's always me!",
+          "zh": "一些例外：一切都好嗎？……永遠是我！"
+        }
+      ],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

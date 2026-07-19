@@ -1,0 +1,743 @@
+{
+  "pages": [290, 293],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mpasnao",
+        "fr": "Deviendra mari - deviendra viril.",
+        "en": "Will become a husband - will become virile.",
+        "zh": "將成為丈夫－將變得有男子氣概。",
+        "examples": [
+          {
+            "t": "Mpasnao so Kimai",
+            "fr": "Tu seras un jour le mari de Kimai.",
+            "en": "You will one day be Kimai's husband.",
+            "zh": "你有一天會成為Kimai的丈夫。"
+          }
+        ]
+      },
+      {
+        "form": "Ssnao",
+        "fr": "Les hommes (pluriel).",
+        "en": "The men (plural).",
+        "zh": "男人們（複數）。",
+        "examples": [
+          {
+            "t": "Yano kana ssnao mkmorisaka , dayao xali kyoxan namo, o!",
+            "fr": "Vous tous les hommes de Morisaka, aidez donc un peu vos femmes !",
+            "en": "All you men of Morisaka, do help your wives a little!",
+            "zh": "Morisaka的所有男人們，多少幫一下你們的妻子吧！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SNAX",
+      "tag": "(= R. ? - R. = PAX ?)",
+      "fr": "Origine d'une action, d'une démarche qui est en cours ou qui est terminée - L'endroit qui est pris, volontairement comme point de départ, dans le temps mais surtout dans l'espace.",
+      "en": "Origin of an action, of an undertaking that is under way or that is finished - The place that is taken, deliberately, as a point of departure, in time but above all in space.",
+      "zh": "一個動作、一項行動的起點，無論是正在進行還是已經結束－被刻意選作出發點的地方，可指時間，但尤指空間。",
+      "examples": [
+        {
+          "t": "Snax nano ino miyax xeni?",
+          "fr": "D'où êtes vous partis en venant (pour venir) ici ?",
+          "en": "Where did you set out from in coming (to come) here?",
+          "zh": "你們是從哪裡出發來到（為了來到）這裡的？"
+        },
+        {
+          "t": "Snax so mlbu (ml'bu) betak sayang o, q'xnu (k'xnu) ka knbsyaqan ksaan so ?",
+          "fr": "A partir de ce matin jusqu'à maintenant, combien de temps as tu marché ?",
+          "en": "From this morning until now, how long have you walked?",
+          "zh": "從今天早上到現在，你走了多久？"
+        }
+      ]
+    },
+    {
+      "hw": "SNDURAI",
+      "tag": "(= R. ?)",
+      "fr": "Dernièrement - il n'y a pas longtemps.",
+      "en": "Recently - not long ago.",
+      "zh": "最近－不久前。",
+      "examples": [
+        {
+          "t": "Sndurai bi ka yaxan mo",
+          "fr": "C'est tout dernièrement que je suis venu.",
+          "en": "It was very recently that I came.",
+          "zh": "我是最近才來的。"
+        }
+      ]
+    },
+    {
+      "hw": "SNGALI",
+      "tag": "(= R. ? - R. = NGALI ?)",
+      "crossRef": "VR. NGALI",
+      "fr": "En plus - en surplus. VR. NGALI .",
+      "en": "In addition - in surplus. See NGALI.",
+      "zh": "額外－剩餘。參見NGALI。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Nngali",
+          "fr": "Le reste fait - ce qui est resté. (R. = NGALI ?)",
+          "en": "The remainder made - what is left over. (root = NGALI?)",
+          "zh": "所留下的－剩餘的部分。（詞根＝NGALI？）",
+          "examples": []
+        },
+        {
+          "form": "Msngali",
+          "fr": "Qui est en trop - qui est de reste - qui dépasse.",
+          "en": "That which is in excess - that which is left over - that which exceeds.",
+          "zh": "多出來的－剩下的－超出的。",
+          "examples": [
+            {
+              "t": "Ndaxa kbukwi mlimal pila sngali ka dnui mo o, maxal bi lima ka msngali da !",
+              "fr": "Des 250 pièces d'argent et plus que j'avais, il n'en reste que juste quinze !",
+              "en": "Of the 250-odd pieces of silver that I had, only just fifteen are left!",
+              "zh": "我原有的兩百五十多枚銀錢，如今只剩下十五枚了！"
+            }
+          ]
+        },
+        {
+          "form": "Psngali",
+          "paradigm": "°Mpsngali, psngali, pslngii (?), pslngiyan, pslngiyun. (VR. LANGI .)",
+          "fr": "Faire un reste - faire qu'il en reste - en laisser.",
+          "en": "To make a remainder - to make some be left over - to leave some.",
+          "zh": "留下剩餘－使有所剩餘－留一些下來。",
+          "examples": [
+            {
+              "t": "Ana bilaq ka pila so o, ndoa bi psngali tityex",
+              "fr": "Même si l'argent que tu as est bien peu, tâche de faire qu'il en reste un peu !",
+              "en": "Even if the money you have is very little, try to make a little of it be left over!",
+              "zh": "即使你的錢很少，也要設法留下一點！"
+            }
+          ]
+        },
+        {
+          "form": "Pslngiyun",
+          "fr": "Le reste qu'on veut faire, qu'on doit faire.",
+          "en": "The remainder that one wants to make, that one must make.",
+          "zh": "想要留下、應該留下的剩餘部分。",
+          "examples": [
+            {
+              "t": "Wada pslngiyun tityex ka swai so, pslngii doma ka mn'iso ole!",
+              "fr": "Ton petit frère a fait pour qu'il en reste, Fais donc qu'il en reste un peu des tiens aussi !",
+              "en": "Your little brother has made some be left over; so make a little of yours be left over too!",
+              "zh": "你弟弟已經留下了一些，你也把你的留一點下來吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNKAXA",
+      "tag": "(R. = IKAXA)",
+      "fr": "Avant hier.",
+      "en": "The day before yesterday.",
+      "zh": "前天。",
+      "examples": [
+        {
+          "t": "Snkaxa ka mnxoqel Lobao",
+          "fr": "C'est avant-hier que Lobao est morte.",
+          "en": "It was the day before yesterday that Lobao died.",
+          "zh": "Lobao是前天過世的。"
+        }
+      ]
+    },
+    {
+      "hw": "SN'LO",
+      "tag": "(SN\"LO ?) (R. = \"LO ?)",
+      "fr": "Transmettre (un message) - raconter - annoncer",
+      "en": "To transmit (a message) - to recount - to announce.",
+      "zh": "傳達（訊息）－講述－宣告。",
+      "examples": [
+        {
+          "t": "Xmuya bi ka ini so sn'lo ka bnxangan so da?",
+          "fr": "Pourquoi ne nous fais tu pas part de ce que tu as entendu ?",
+          "en": "Why don't you tell us what you have heard?",
+          "zh": "你為什麼不把你聽到的告訴我們呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smn'lo",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形（前一詞條的動詞形）。",
+          "examples": [
+            {
+              "t": "Ya xan ! Saon mo smn'lo dxeaan ka suyang bi kari so nii!",
+              "fr": "Attends un peu ! Je veux aller leur faire part (leur annoncer) la merveilleuse nouvelle que tu nous as annoncé.",
+              "en": "Wait a moment! I want to go and tell them (announce to them) the wonderful news that you have announced to us.",
+              "zh": "等一下！我想去把你告訴我們的這個好消息傳達（宣告）給他們。"
+            }
+          ]
+        },
+        {
+          "form": "Snloan",
+          "fr": "Ce qui a été transmis, annoncé, rapporté de bouche à oreille.",
+          "en": "What has been transmitted, announced, reported by word of mouth.",
+          "zh": "被口耳相傳、宣告、傳達的內容。",
+          "examples": [
+            {
+              "t": "Snloan(snluan)bi ima ka kari nii?",
+              "fr": "Qui est-ce qui a annoncé cela ?",
+              "en": "Who is it that announced this?",
+              "zh": "這件事是誰宣告的？"
+            }
+          ]
+        },
+        {
+          "form": "Psn'lo",
+          "fr": "Faire savoir - faire annoncer.",
+          "en": "To make known - to have (something) announced.",
+          "zh": "使人知曉－使人宣告。",
+          "examples": [
+            {
+              "t": "Uxai xmut kari ka nii! Balae bi pslnoon (pslno'on) kana mnswai ka xniti kari tama ta !",
+              "fr": "Ce ne sont pas des paroles en l'air! Les dernières paroles de notre père doivent être partagées (il faut en faire part) à tous les frères (et cousins et parentée).",
+              "en": "These are not idle words! Our father's last words must be shared (must be made known) to all the brothers (and cousins and kin).",
+              "zh": "這些不是隨口說說的話！我們父親的遺言必須讓所有兄弟（以及堂表親與親族）都知道（必須傳達出去）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNOQO",
+      "tag": "(R. = ??)",
+      "fr": "Espiègle (?) - boute-en-train - plaisantin.",
+      "en": "Mischievous (?) - life of the party - joker.",
+      "zh": "頑皮（？）－開心果－愛開玩笑的人。",
+      "examples": [
+        {
+          "t": "Sao bi snoqo ka laqe so nii",
+          "fr": "Ton fils est très amusant (plaisantin, espiègle..).",
+          "en": "Your son is very amusing (a joker, mischievous..).",
+          "zh": "你的兒子很逗趣（愛開玩笑、頑皮…）。"
+        }
+      ]
+    },
+    {
+      "hw": "SNOXEL",
+      "tag": "(= R. ?)",
+      "fr": "Jalouser - être envieux.",
+      "en": "To be jealous of - to be envious.",
+      "zh": "嫉妒－羨慕。",
+      "examples": [
+        {
+          "t": "Ima msnoxel ka yako ?(vl. ima msa msnoxel ko ka yako ?)! Ini ko snoxel ka yako !",
+          "fr": "Où avez vous vu que je suis jaloux (Qui a dit que je suis un jaloux ?)! Je ne suis pas jaloux, moi !",
+          "en": "Where did you see that I am jealous (var. Who said that I am a jealous person?)! I am not jealous, me!",
+          "zh": "你在哪裡見到我嫉妒了（或：誰說我是嫉妒的人？）！我才不嫉妒呢！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msnoxel",
+          "fr": "Qui jalouse - qui est jaloux.",
+          "en": "One who is jealous - who is envious.",
+          "zh": "嫉妒的人－懷有妒意的人。",
+          "examples": [
+            {
+              "t": "Ida bi msnoxel ka ddLiwis!",
+              "fr": "Peut-être que les amis de Liwis sont jaloux !",
+              "en": "Perhaps Liwis's friends are jealous!",
+              "zh": "或許Liwis的朋友們在嫉妒吧！"
+            }
+          ]
+        },
+        {
+          "form": "Snxelan",
+          "fr": "Objet de jalousie - jalousie.",
+          "en": "Object of jealousy - jealousy.",
+          "zh": "嫉妒的對象－妒忌。",
+          "examples": [
+            {
+              "t": "Adi manu! Snxelan nanak ka pnstutwi dxeaan",
+              "fr": "Ce n'est rien d'autre que la jalousie qui les a mis en mouvement (qui est leur mobile).",
+              "en": "It is nothing other than jealousy that set them in motion (that is their motive).",
+              "zh": "這無非就是嫉妒在驅使他們（那正是他們的動機）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNQLAWAX",
+      "tag": "(SNKLAWAX) (R. = ??)",
+      "fr": "?? - Triste (?) - solitaire (?) - digne de pitié (?).",
+      "en": "?? - Sad (?) - lonely (?) - pitiable (?).",
+      "zh": "？？－悲傷（？）－孤獨（？）－可憐（？）。",
+      "examples": [
+        {
+          "t": "Sao bi snklawax ka dxea! Kdngaan ka koyox ni msludan bi ongat laqe daxa",
+          "fr": "Ils étaient comme tristes(??); la femme était stérile et ils étaient vieux sans enfants.",
+          "en": "They were as if sad(??); the wife was barren and they were old without children.",
+          "zh": "他們彷彿很悲傷（？？）；妻子不孕，而他們年老又無子女。"
+        }
+      ]
+    },
+    {
+      "hw": "SNTO",
+      "tag": "(R)",
+      "fr": "Causer de - parler de - palabrer.",
+      "en": "To chat about - to talk about - to palaver.",
+      "zh": "談論－談及－閒談。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msnto (n'snto)",
+          "fr": "S'entretenir de - parler de.",
+          "en": "To converse about - to talk about.",
+          "zh": "談論－交談。",
+          "examples": [
+            {
+              "t": "Ga nami msnto sao nkari pusu ta ndudul",
+              "fr": "Nous sommes en train de parler de ce qua dit notre responsable (notre grand chef).",
+              "en": "We are talking about what our leader (our great chief) said.",
+              "zh": "我們正在談論我們的負責人（我們的大首領）所說的話。"
+            }
+          ]
+        },
+        {
+          "form": "Sntgan",
+          "fr": "Objet de conversation - temps de papotage.",
+          "en": "Subject of conversation - time spent chatting.",
+          "zh": "談話的話題－閒聊的時光。",
+          "examples": [
+            {
+              "t": "Manu bi ka sntgan namo ?",
+              "fr": "De quoi donc parlez vous ?",
+              "en": "What on earth are you talking about?",
+              "zh": "你們到底在談論什麼？"
+            },
+            {
+              "t": "Tayal bi ka diyax sntgan namo!",
+              "fr": "Ce que vous en passez du temps à vous raconter des histoires !",
+              "en": "How much time you spend telling one another stories!",
+              "zh": "你們花在彼此講故事上的時間可真多！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNUGUL",
+      "tag": "(R. = NUGUL ?)",
+      "crossRef": "VR. NUGUL",
+      "fr": "Suivre - accompagner - aller à la suite. VR. NUGUL.",
+      "en": "To follow - to accompany - to go along after. See NUGUL.",
+      "zh": "跟隨－陪伴－隨後而行。參見NUGUL。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smnugul",
+          "fr": "Marcher en file indienne - suivre - imiter.",
+          "en": "To walk in single file - to follow - to imitate.",
+          "zh": "排成一列行走－跟隨－模仿。",
+          "examples": [
+            {
+              "t": "Nasi so smnugul Dloan o , adi so bi mpeidang",
+              "fr": "Si tu suis (les traces) (si tu vas avec) Djiro, Tu ne te perdras pas.",
+              "en": "If you follow (the tracks of) (if you go with) Djiro, you will not get lost.",
+              "zh": "如果你跟隨（Djiro的足跡）（跟著Djiro走），你就不會迷路。"
+            },
+            {
+              "t": "Usa nanak ka iso, ya sl'xbun ! mpsnugul nami kia ka yani!",
+              "fr": "Tu n'as qu'à aller, toi! Sois sans souci ! Nous, nous te suivrons sous peu.",
+              "en": "You just go on ahead, you! Don't worry! We will follow you shortly.",
+              "zh": "你自己先走吧！別擔心！我們待會兒就跟上你。"
+            }
+          ]
+        },
+        {
+          "form": "Msnugul",
+          "fr": "Qui suit - qui vient l'un derrière l'autre - qui va avec.",
+          "en": "One who follows - who comes one behind another - who goes along with.",
+          "zh": "跟隨者－一個接一個而來的－同行的。",
+          "examples": [
+            {
+              "t": "Ya bi lnglong ! Ida msnugul ga dxea, klaon mo balae!",
+              "fr": "Ne te tracasse pas (Ne pense pas)! Ils viennent après (ils suivent), j'en suis certain !",
+              "en": "Don't fret (don't worry)! They are coming behind (they are following), I am sure of it!",
+              "zh": "別煩惱（別多想）！他們在後面（跟著來），我很確定！"
+            }
+          ]
+        },
+        {
+          "form": "Mssnugul",
+          "fr": "Se suivre mutuellement - être toujours ensemble .",
+          "en": "To follow one another - to be always together.",
+          "zh": "彼此跟隨－總是在一起。",
+          "examples": [
+            {
+              "t": "Nato ni Yosi ni diro o, ida mssnugul kddiyax",
+              "fr": "Nato et Yoshi et Djiro sont toujours ensemble.",
+              "en": "Nato and Yoshi and Djiro are always together.",
+              "zh": "Nato、Yoshi和Djiro總是在一起。"
+            },
+            {
+              "t": "Msnugul kana ka lqlaqe nia",
+              "fr": "Tous ses enfants se suivent (sont nés à peu de distance l'un de l'autre).",
+              "en": "All her children follow one another (were born close together in time).",
+              "zh": "她的孩子們一個接一個（出生的時間相隔不遠）。"
+            }
+          ]
+        },
+        {
+          "form": "Psnugul",
+          "paradigm": "°Mpsnugul, psnugul, psn'guli, psn'gulan, psn'gulun.",
+          "fr": "Faire suivre - faire aller l'un après l'autre.",
+          "en": "To make follow - to make go one after another.",
+          "zh": "使跟隨－使一個接一個地走。",
+          "examples": [
+            {
+              "t": "Balae bi psn'gulun so Dloan kana ka lqlaqe matas xo?",
+              "fr": "Est-ce que vraiment tu comptes envoyer tous les écoliers à la suite de Djiro ?",
+              "en": "Do you really intend to send all the schoolchildren after Djiro?",
+              "zh": "你真的打算讓所有學童都跟在Djiro後面嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNULU",
+      "tag": "(R. = SULU ?)",
+      "fr": "Se trouver que - être simultanément.",
+      "en": "To happen that - to be simultaneously.",
+      "zh": "恰好發生－同時存在。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msnulu",
+          "fr": "Qui se trouve en même temps - qui est simultané.",
+          "en": "Which occurs at the same time - which is simultaneous.",
+          "zh": "同時發生的－同時的。",
+          "examples": [
+            {
+              "t": "Msnulu bi mstlong xea ludan ka sn'mul madas laqe na",
+              "fr": "Juste à ce moment là ils ont rencontré là des parents qui apportaient leur enfant dans les bras.",
+              "en": "Just at that moment they met there some parents who were carrying their child in their arms.",
+              "zh": "就在那一刻，他們在那裡遇見了抱著孩子的父母。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SNUNUX",
+      "tag": "(R)",
+      "fr": "Cheveux - chevelure - corde - tresse.",
+      "en": "Hair - head of hair - rope - braid.",
+      "zh": "頭髮－髮絲－繩子－辮子。",
+      "examples": [
+        {
+          "t": "Ubal snunux",
+          "fr": "Poil de cheveu - les cheveux.",
+          "en": "A strand of hair - the hair.",
+          "zh": "髮絲－頭髮。"
+        },
+        {
+          "t": "Ubal tunux",
+          "fr": "Cheveux.",
+          "en": "Hair.",
+          "zh": "頭髮。"
+        },
+        {
+          "t": "Bbalao bi snunux",
+          "fr": "Cheveux longs (= Bbalao tunux = longue tête !).",
+          "en": "Long hair (= Bbalao tunux = long head!).",
+          "zh": "長髮（＝Bbalao tunux＝長頭！）。"
+        },
+        {
+          "t": "Ita kingal snunux so bkiyun mo ka gensal",
+          "fr": "Passe moi une corde (une tresse) je veux lier la paille.",
+          "en": "Pass me a rope (a braid), I want to tie up the straw.",
+          "zh": "遞給我一條繩子（一條辮繩），我想綑紮稻草。"
+        }
+      ]
+    },
+    {
+      "hw": "SOA",
+      "tag": "",
+      "crossRef": "VR. SLOA",
+      "fr": "( Sans doute variante de SLOA = Permettre; en tous cas, si presque toujours l'un est employé pour l'autre, il semble bien que SOA indique surtout la permission alors que SLOA implique surtout l'idée de pardon !). VR. SLOA .",
+      "en": "(Doubtless a variant of SLOA = to permit; in any case, since almost always one is used for the other, it does seem that SOA indicates above all permission whereas SLOA implies above all the idea of pardon!). See SLOA.",
+      "zh": "（無疑是SLOA＝允許的變體；無論如何，既然這兩個詞幾乎總是可以互相替用，看來SOA主要表示允許，而SLOA主要含有寬恕之意！）。參見SLOA。",
+      "examples": []
+    },
+    {
+      "hw": "SOLA",
+      "tag": "(R)",
+      "fr": "Etre envieux (sans méchanceté) - avoir envie.",
+      "en": "To be envious (without malice) - to feel a longing.",
+      "zh": "羨慕（無惡意）－想要。",
+      "examples": [
+        {
+          "t": "Ana so mqan ka kasi ! Ini bi sola ana bilaq ka laqe mo",
+          "fr": "Tu peux manger tranquille ces biscuits! Cela ne fait pas le moins du monde envie à mon fils(il n'en est pas du tout envieux).",
+          "en": "You can eat these biscuits in peace! It does not make my son the least bit envious (he is not at all envious of them).",
+          "zh": "你可以安心吃這些餅乾！我兒子一點也不會眼饞（他完全不會羨慕）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smola",
+          "fr": "Avoir envie de (en voyant quelque chose).",
+          "en": "To feel a longing for (upon seeing something).",
+          "zh": "（看到某物而）想要。",
+          "examples": [
+            {
+              "t": "Smola ko bi mita knklaan daxa",
+              "fr": "Cela me fait envie en voyant leur science !",
+              "en": "It makes me envious to see their knowledge!",
+              "zh": "看到他們的學問，真讓我羨慕！"
+            },
+            {
+              "t": "Pixan ka lnngagan na: Iso o, snugul ko, msa ni, smola ko bi ka yako",
+              "fr": "C'est à Pirhanne qu'il a dit: Toi, suis moi! dit il, et, à moi, cela me fait envie (= j'aurais voulu qu'il ne le dise à moi !).",
+              "en": "It was to Pirhanne that he said: You, follow me! he said, and, as for me, it makes me envious (= I would have wished he had said it to me!).",
+              "zh": "他是對Pirhanne說的：你，跟我來！他說；而對我來說，這讓我羨慕（＝我真希望他是對我說的！）。"
+            }
+          ]
+        },
+        {
+          "form": "Msola",
+          "fr": "Celui qui envie - celui à qui cela fait envie.",
+          "en": "One who envies - one to whom it gives a longing.",
+          "zh": "羨慕者－感到眼饞的人。",
+          "examples": [
+            {
+              "t": "Msola kana ka dxea mita knmalu sapax mo",
+              "fr": "La beauté de ma maison leur met l'eau à la bouche (= leur fait envie à tous).",
+              "en": "The beauty of my house makes their mouths water (= makes them all envious).",
+              "zh": "我家的美讓他們垂涎（＝讓大家都羨慕）。"
+            }
+          ]
+        },
+        {
+          "form": "Psola",
+          "fr": "Faire envie.",
+          "en": "To make (others) envious.",
+          "zh": "引人羨慕。",
+          "examples": [
+            {
+              "t": "\"qan n'xali ! Ma\" so psola sadyaq!",
+              "fr": "Mange vite! Tu ne vois pas que tu fais envie aux autres ? (= pourquoi faire envie aux autres ?).",
+              "en": "Eat quickly! Don't you see that you are making others envious? (= why make others envious?).",
+              "zh": "快點吃！你沒看到你讓別人眼饞嗎？（＝何必引人羨慕呢？）"
+            }
+          ]
+        },
+        {
+          "form": "Knsola",
+          "fr": "Intensité de l'envie , du désir qu'on a de quelque chose.",
+          "en": "The intensity of the envy, of the desire one has for something.",
+          "zh": "羨慕、渴望某物的強烈程度。",
+          "examples": [
+            {
+              "t": "Msklui ko mita knsola daxa",
+              "fr": "Je suis étonné de voir combien ils sont envieux ( combien cela leur fait envie).",
+              "en": "I am astonished to see how envious they are (how much it makes them long for it).",
+              "zh": "我很驚訝地看到他們如此羨慕（這讓他們多麼眼饞）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SOOPU",
+      "tag": "(R)",
+      "fr": "Cancrelat.",
+      "en": "Cockroach.",
+      "zh": "蟑螂。",
+      "examples": [
+        {
+          "t": "Sapax xpuyan ka kuxul bi soopu",
+          "fr": "C'est la cuisine qui est le lieu de prédilection des cancrelats (qui est leur plaisir)",
+          "en": "It is the kitchen that is the cockroaches' favourite place (that is their delight).",
+          "zh": "廚房是蟑螂最愛的地方（是牠們的樂園）。"
+        }
+      ]
+    },
+    {
+      "hw": "SOPU",
+      "tag": "(R)",
+      "fr": "Avec - ensemble - en même temps.",
+      "en": "With - together - at the same time.",
+      "zh": "一起－共同－同時。",
+      "examples": [
+        {
+          "t": "Sopu ta kana",
+          "fr": "(Nous) tous ensemble (= impératif).",
+          "en": "(We) all together (= imperative).",
+          "zh": "（我們）全部一起（＝祈使）。"
+        },
+        {
+          "t": "Yano ima ka mxa? ... Sopu ko tama mo",
+          "fr": "(Toi et qui ceux qui vont ?) Avec qui vas-tu? ... Je vais avec mon père.",
+          "en": "(You and who are the ones going?) Who are you going with? ... I am going with my father.",
+          "zh": "（你和誰要去？）你和誰一起去？…我和我父親一起去。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msopu",
+          "paradigm": "°Msopu, sopu, spui, spuan, spuon.",
+          "fr": "Etre avec - être unis, ensemble - se réunir.",
+          "en": "To be with - to be united, together - to gather.",
+          "zh": "與…在一起－團結、共處－聚集。",
+          "examples": [
+            {
+              "t": "Msopu kmpax o , nyeqan ka smbalox ni, nyeqan ka sntoko; kia ka xea da!",
+              "fr": "Travailler en commun, (cela veut dire :) Il-y-a des journées prêtées et il-y-a des journées rendues; voilà ce que c'est.",
+              "en": "Working in common, (that means:) There are days lent and there are days returned; that's what it is.",
+              "zh": "共同勞動，（意思是：）有借出的工作日，也有償還的工作日；就是這麼回事。"
+            },
+            {
+              "t": "Msopu balae ka dxea",
+              "fr": "Ils sont très unis.",
+              "en": "They are very united.",
+              "zh": "他們非常團結。"
+            },
+            {
+              "t": "Msopu bi kmpax ka Imin ni \"Laon",
+              "fr": "Iminne et Hlaon travaillent vraiment la main dans la main (vl. font caisse commune).",
+              "en": "Iminne and Hlaon really work hand in hand (var. they pool their funds).",
+              "zh": "Iminne和Hlaon真的攜手合作（或：他們共用公款）。"
+            },
+            {
+              "t": "Nasi ta msopu o, ida ta mxa mbiyax",
+              "fr": "Si nous sommes unis, alors nous serons forts.",
+              "en": "If we are united, then we will be strong.",
+              "zh": "如果我們團結，我們就會強大。"
+            }
+          ]
+        },
+        {
+          "form": "Spuao",
+          "fr": "Mettons ensemble (impératif absolu).",
+          "en": "Let us put together (absolute imperative).",
+          "zh": "讓我們合在一起（絕對祈使）。",
+          "examples": [
+            {
+              "t": "Spuao ta biyax binao! Ida ta dxkon (dx'qon)",
+              "fr": "Unissons donc nos forces! Il faut absolument qu'on y arrive!",
+              "en": "Let us then unite our strength! We absolutely must succeed at it!",
+              "zh": "那就讓我們齊心協力吧！我們一定要成功！"
+            }
+          ]
+        },
+        {
+          "form": "Spuon",
+          "fr": "Ce qu'on veut mettre ensemble.",
+          "en": "What one wants to put together.",
+          "zh": "想要合在一起的東西。",
+          "examples": [
+            {
+              "t": "Spuon so ka beylox ni blayan ?",
+              "fr": "Veux tu mettre ensemble les haricots et les lentilles ?",
+              "en": "Do you want to put together the beans and the lentils?",
+              "zh": "你要把豆子和扁豆放在一起嗎？"
+            },
+            {
+              "t": "Waxel ni bonga o, spuon so mapa xo?",
+              "fr": "Les tiges des patates et les patates douces, tu projettes de les porter toutes en une seule fois ?",
+              "en": "The sweet-potato vines and the sweet potatoes, do you intend to carry them all in one go?",
+              "zh": "地瓜藤和地瓜，你打算一次全部搬完嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psopu",
+          "paradigm": "°Mpsopu, psopu, pspui, pspuan, pspuon.",
+          "fr": "Mettre ensemble - unir.",
+          "en": "To put together - to unite.",
+          "zh": "合在一起－使結合。",
+          "examples": [
+            {
+              "t": "Dyagi ko bi psopu lnglongan daxa xo!",
+              "fr": "Aide moi à les mettre d'accord, s'il te plaît !",
+              "en": "Help me to bring them to agreement, please!",
+              "zh": "請幫我讓他們達成共識！"
+            }
+          ]
+        },
+        {
+          "form": "Pspuan",
+          "fr": "Mélange - le produit de la mise en commun - temps, lieu de cette démarche.",
+          "en": "Mixture - the product of the pooling together - the time and place of this undertaking.",
+          "zh": "混合物－共同集資的成果－此舉的時間與地點。",
+          "examples": [
+            {
+              "t": "Knuan (knuwan) ka pspuan namo pila ? ... M'xdo ka kia da! Nii kana ka pnspuan nani da!",
+              "fr": "Quand est-ce que vous récoltez l'argent ? ... Mais c'est déjà fini ! Regarde ce que nous avons récolté ! (Regarde le produit de notre collecte !).",
+              "en": "When are you collecting the money? ... But it's already done! Look at what we have collected! (Look at the product of our collection!).",
+              "zh": "你們什麼時候募集這筆錢？…但已經募完了！看看我們募到的成果！（看看我們募集的成果！）"
+            }
+          ]
+        },
+        {
+          "form": "Pnsopu",
+          "fr": "Agir en équipe - d'un commun accord.",
+          "en": "To act as a team - by common agreement.",
+          "zh": "團隊行事－達成共識地行動。",
+          "examples": []
+        },
+        {
+          "form": "Knsopu",
+          "fr": "Intensité d'unité, d'intimité, de bonne entente.",
+          "en": "The intensity of unity, of intimacy, of good understanding.",
+          "zh": "團結、親密、和睦的強烈程度。",
+          "examples": [
+            {
+              "t": "Ana ima ida msola bi mita knsopu daxa",
+              "fr": "Cela fait envie à n'importe qui de voir combien ils s'entendent !",
+              "en": "It makes anyone envious to see how well they get along!",
+              "zh": "看到他們如此融洽，任誰都會羨慕！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SOQE",
+      "tag": "(R)",
+      "fr": "Trop - exagéré - dépasser la mesure.",
+      "en": "Too much - excessive - to go beyond measure.",
+      "zh": "過度－誇張－超過限度。",
+      "examples": [
+        {
+          "t": "Soqe mk'lae ka xei siyan sayang",
+          "fr": "Aujourd'hui la viande de porc est vraiment trop (exagéré = ment) chère.",
+          "en": "Today pork is really too (excessively) expensive.",
+          "zh": "今天豬肉真的太（過分地）貴了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msoqe",
+          "fr": "D'une façon excessive - dépasser la mesure - être en retard.",
+          "en": "In an excessive way - to go beyond measure - to be late.",
+          "zh": "以過度的方式－超過限度－遲到。",
+          "examples": [
+            {
+              "t": "Ga msoqe bi ka sadyaq kia",
+              "fr": "Cette personne là exagère!",
+              "en": "That person there goes too far!",
+              "zh": "那個人太過分了！"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

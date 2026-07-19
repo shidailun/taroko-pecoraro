@@ -1,0 +1,720 @@
+{
+  "pages": [122, 125],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "KLAWAI",
+      "tag": "(vl. TLAWAI) (R)",
+      "fr": "Papillon.",
+      "en": "Butterfly.",
+      "zh": "蝴蝶。",
+      "examples": [
+        {
+          "t": "Xmut lala bi klgan klawai ka mk'alang Taiwan",
+          "fr": "A Taiwan, un très grand nombre de papillons différents.",
+          "en": "In Taiwan, a very great number of different butterflies.",
+          "zh": "在台灣，有非常多種不同的蝴蝶。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KLAWAX",
+      "tag": "(R. ?)",
+      "fr": "Avare - tenir à - être soucieux de.",
+      "en": "Miserly - to be attached to - to be concerned about.",
+      "zh": "吝嗇——執著於——掛慮。",
+      "examples": [
+        {
+          "t": "Ini so klawax xei so ka iso",
+          "fr": "Toi, tu te sacrifies (tu n'es pas regardant de ton corps).",
+          "en": "You, you sacrifice yourself (you are not sparing of your body).",
+          "zh": "你，你犧牲自己（你不吝惜自己的身體）。"
+        },
+        {
+          "t": "Ini na klwaxe pdka sunan",
+          "fr": "Il ne refuse pas d'être ton égal (il ne se sent pas gêné d'être comparé à toi).",
+          "en": "He does not refuse to be your equal (he does not feel embarrassed at being compared to you).",
+          "zh": "他不拒絕與你平起平坐（他不覺得被拿來和你相比有何難堪）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mklawax",
+          "paradigm": "°Mklawax, klawax, klwaxe, klwaxan (?), klwaxon.",
+          "fr": "qui est regardant - qui tient à.",
+          "en": "who is sparing - who is attached to.",
+          "zh": "吝惜的——執著的。",
+          "examples": [
+            {
+              "t": "Mklawax bi pila na ka Laoken",
+              "fr": "Laoken est bien regardant de ses sous.",
+              "en": "Laoken is very careful with his money.",
+              "zh": "Laoken非常吝惜他的錢。"
+            }
+          ]
+        },
+        {
+          "form": "Snklawax",
+          "fr": "Etre défavorisé - être sacrifié.",
+          "en": "To be disadvantaged - to be sacrificed.",
+          "zh": "處於不利——被犧牲。",
+          "examples": [
+            {
+              "t": "Sao bi snklawax ka kingal loan sapax so",
+              "fr": "Ta famille est vraiment défavorisée (comme si elle était sacrifiée).",
+              "en": "Your family is truly disadvantaged (as if it were sacrificed).",
+              "zh": "你的家實在吃虧（彷彿被犧牲了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLAXANG",
+      "tag": "(R)",
+      "fr": "Faire attention - veiller sur - prendre garde.",
+      "en": "To pay attention - to watch over - to be on one's guard.",
+      "zh": "注意——看守——當心。",
+      "examples": [
+        {
+          "t": "Klaxang bi muda \"lu",
+          "fr": "Sois vigilant sur la route.",
+          "en": "Be vigilant on the road.",
+          "zh": "在路上要警覺。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmlaxang",
+          "paradigm": "°Kmlaxang, klaxang, klxangi, klxangan, klxangun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Muda daolas o, asi ka kmlaxang",
+              "fr": "En passant dans les rochers, il s'agit d'être attentifs.",
+              "en": "When passing through the rocks, one must be attentive.",
+              "zh": "經過岩石地帶時，必須小心留神。"
+            },
+            {
+              "t": "Ini so klaxang muda dgiyaq o, mklaxang bi ka ppais",
+              "fr": "Si toi tu n'es pas attentif pour voyager dans la montagne, les ennemis, eux, sont vigilants.",
+              "en": "If you are not attentive when travelling in the mountains, the enemies, for their part, are vigilant.",
+              "zh": "你在山中行走若不留神，敵人可是很警覺的。"
+            }
+          ]
+        },
+        {
+          "form": "Mklaxang",
+          "fr": "Surveillant - responsable - celui qui est attentif.",
+          "en": "Supervisor - person in charge - the one who is attentive.",
+          "zh": "監督者——負責人——留心的人。",
+          "examples": [
+            {
+              "t": "Pirin ka mklaxang nami; xea ka kmlaxang mnan",
+              "fr": "C'est Pirinne notre responsable; c'est lui qui nous contrôle.",
+              "en": "Pirinne is our person in charge; he is the one who oversees us.",
+              "zh": "Pirinne是我們的負責人；是他在管我們。"
+            }
+          ]
+        },
+        {
+          "form": "Klxangi",
+          "fr": "Fais attention - Attention! - prends bien garde.",
+          "en": "Pay attention - Watch out! - take good care.",
+          "zh": "注意——小心！——多加提防。",
+          "examples": [
+            {
+              "t": "Klxangi bi, naqex bi daan ka daolas",
+              "fr": "Fais bien attention! Le passage n'est pas facile dans les rochers !",
+              "en": "Be very careful! The passage through the rocks is not easy!",
+              "zh": "千萬小心！岩石間的路很不好走！"
+            }
+          ]
+        },
+        {
+          "form": "Klxngani",
+          "fr": "Prends garde.. veille.. par personne interposée, ou par le moyen de quelque chose.",
+          "en": "Take care.. keep watch.. through an intermediary person, or by means of something.",
+          "zh": "藉由他人、或藉某物來看守、提防。",
+          "examples": [
+            {
+              "t": "Klxngani Tadao ka lqlaqe so matas",
+              "fr": "Fais surveiller par Tadao les enfants de ton école.",
+              "en": "Have Tadao watch over the children of your school.",
+              "zh": "讓Tadao替你看管你學校的孩子們。"
+            }
+          ]
+        },
+        {
+          "form": "Klxangan",
+          "fr": "Territoire, temps, où se fait la surveillance.",
+          "en": "Territory, or time, in which the watching is done.",
+          "zh": "進行看守的地域、時間。",
+          "examples": [
+            {
+              "t": "Mqleqo bi kmpax; ya sa llabang bi ka klxangan mo",
+              "fr": "Ce n'est pas facile à faire! Il est vraiment vaste le territoire que je dois surveiller.",
+              "en": "It is not easy to do! The territory I have to watch over is truly vast.",
+              "zh": "這事真不容易！我要看守的範圍實在遼闊。"
+            }
+          ]
+        },
+        {
+          "form": "Knklxangan",
+          "fr": "Tutelle - surveillance.",
+          "en": "Guardianship - supervision.",
+          "zh": "管轄——監督。",
+          "examples": [
+            {
+              "t": "Naqex bi ka knklxangan na ka dkensat suxal",
+              "fr": "Elle était vraiment dure l'administration (la discipline imposée par les japonais) des japonais autrefois.",
+              "en": "The administration (the discipline imposed by the Japanese) of the Japanese in former times was truly harsh.",
+              "zh": "從前日本人的統治（日本人強加的紀律）實在嚴苛。"
+            }
+          ]
+        },
+        {
+          "form": "Tklaxang",
+          "fr": "Qui est sur ses gardes - Soyez sur vos gardes.",
+          "en": "Who is on his guard - Be on your guard.",
+          "zh": "保持警戒的——你們要提高警覺。",
+          "examples": [
+            {
+              "t": "Tklaxang bi meyao ka yamo",
+              "fr": "Vous, restez éveillés et vigilants.",
+              "en": "You, stay awake and vigilant.",
+              "zh": "你們要保持清醒、警醒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K'LGAN",
+      "tag": "(R. = ?)",
+      "fr": "Sorte - type - aspect.",
+      "en": "Sort - type - aspect.",
+      "zh": "種類——類型——樣子。",
+      "examples": [
+        {
+          "t": "Kingal k'lgan payai ka nii ni kingal nanak ka ga",
+          "fr": "Ici c'est une sorte (variété) de riz et là c'en est une autre (différente).",
+          "en": "Here is one sort (variety) of rice, and there is another (different) one.",
+          "zh": "這裡是一種（品種的）稻米，那裡又是另一種（不同的）。"
+        },
+        {
+          "t": "Ma spaxong bi ka Tiing ! ... Kia ka k'lgan na",
+          "fr": "Mais! Elle est bien coléreuse, Tchiinne! ... Elle est comme cela !",
+          "en": "My! She is really quick-tempered, Tchiinne! ... That is how she is!",
+          "zh": "哎呀！Tchiinne脾氣真大！……她就是那個樣子！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KL'NGUN",
+      "tag": "(R)",
+      "fr": "Fumée.",
+      "en": "Smoke.",
+      "zh": "煙。",
+      "examples": [
+        {
+          "t": "Kl'ngun kana ka sapax mo",
+          "fr": "Ma maison est toute pleine(?) de fumée. (Il y a de la fumée partout).",
+          "en": "My house is all full of smoke. (There is smoke everywhere.)",
+          "zh": "我的房子滿是煙。（到處都是煙。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkl'ngun",
+          "fr": "Fumeux - enfumé.",
+          "en": "Smoky - filled with smoke.",
+          "zh": "多煙的——被煙燻滿的。",
+          "examples": [
+            {
+              "t": "mkl'ngun kana ka sapax mo",
+              "fr": "Ma maison est tout enfumée.",
+              "en": "My house is completely filled with smoke.",
+              "zh": "我的房子整個被煙燻滿了。"
+            }
+          ]
+        },
+        {
+          "form": "Pkl'ngun",
+          "fr": "Enfumer - faire fumer - remplir de fumée.",
+          "en": "To smoke out - to make smoke - to fill with smoke.",
+          "zh": "使冒煙——燻——使充滿煙。",
+          "examples": [
+            {
+              "t": "Yupi tityex ! Ma so pkl'ngun kana sapax",
+              "fr": "Souffle donc un peu (sur le feu) ! Tu ne vois pas que tu enfumes toute la maison ?",
+              "en": "Blow a little (on the fire)! Don't you see that you are filling the whole house with smoke?",
+              "zh": "（對著火）吹一吹吧！你沒看到你把整間屋子都燻滿了煙嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLOBAO",
+      "tag": "(R)",
+      "fr": "Araignée.",
+      "en": "Spider.",
+      "zh": "蜘蛛。",
+      "examples": [
+        {
+          "t": "Soqe lala bi ka klobao sapax so",
+          "fr": "Il y a vraiment trop d'araignées chez toi!",
+          "en": "There really are too many spiders at your house!",
+          "zh": "你家的蜘蛛實在太多了！"
+        },
+        {
+          "t": "Kadi klobao, ksun ta o, sao tnunan klobao kana mtqeli, kia",
+          "fr": "Nous disons: Kadi klobao (toile d'araignée) C'est ce que les araignées tissent partout, voilà.",
+          "en": "We say: Kadi klobao (spider's web). It is what the spiders weave everywhere, that's it.",
+          "zh": "我們說：Kadi klobao（蜘蛛網），就是蜘蛛到處織的東西，就是這樣。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "K'LONG",
+      "tag": "(Q'LONG ?) (R)",
+      "fr": "Rides sur le visage.",
+      "en": "Wrinkles on the face.",
+      "zh": "臉上的皺紋。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mk'long",
+          "fr": "Qui est ridé.",
+          "en": "Who is wrinkled.",
+          "zh": "有皺紋的。",
+          "examples": [
+            {
+              "t": "Ida mk'long kana dqalas na ka dpai ni baki",
+              "fr": "Naturellement le visage des grand-mères et des grand pères est tout ridé. (..ont le visage tout plein de rides).",
+              "en": "Naturally the faces of the grandmothers and grandfathers are all wrinkled. (..have faces all full of wrinkles).",
+              "zh": "祖母和祖父的臉自然都布滿皺紋。（……臉上滿是皺紋。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K'LOX",
+      "tag": "(Q'LOX ? - Y aurait il parentée avec QOLOX = crâne ?)",
+      "fr": "Sec - aride - désertique.",
+      "en": "(Q'LOX? — Could it be related to QOLOX = skull?) Dry - arid - desert-like.",
+      "zh": "（Q'LOX？——是否與 QOLOX＝頭顱有關？）乾——乾旱——荒漠般的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "K'lxan",
+          "fr": "Sécheresse - stérilité.",
+          "en": "Drought - sterility.",
+          "zh": "乾旱——貧瘠。",
+          "examples": [
+            {
+              "t": "T'lo iyax xnkawas ka k'lxan kalat da kika paro bi k'layan da!",
+              "fr": "Voilà trois ans de temps que le ciel est sec (stérile); et c'est pour cela que c'est maintenant la famine.",
+              "en": "For three years now the sky has been dry (sterile); and that is why there is now famine.",
+              "zh": "天空乾旱（貧瘠）已經三年了；正因如此，現在才鬧饑荒。"
+            }
+          ]
+        },
+        {
+          "form": "K'lxon",
+          "fr": "Ce qui sera, qui doit être rendu aride, vide, stérile.",
+          "en": "That which will be, which is to be made arid, empty, sterile.",
+          "zh": "將要、應要被弄得乾涸、空虛、貧瘠者。",
+          "examples": [
+            {
+              "t": "Mblaeq do o, k'lxon na skagul",
+              "fr": "Les riches, il les renvera les mains vides (..après avoir vidé leurs mains).",
+              "en": "The rich — he will send them away empty-handed (..after emptying their hands).",
+              "zh": "富人——他要叫他們空手回去（……把他們的手掏空之後）。"
+            }
+          ]
+        },
+        {
+          "form": "Mk'lox",
+          "fr": "Qui est aride - qui est sec.",
+          "en": "Which is arid - which is dry.",
+          "zh": "乾旱的——乾燥的。",
+          "examples": [
+            {
+              "t": "Smiyax balae d'lmul pax balao ka mk'lox bi d'xgal",
+              "fr": "Un terrain aride désire voir venir la rosée (venue d'en haut).",
+              "en": "An arid piece of land longs to see the dew come (coming down from above).",
+              "zh": "乾旱的土地渴望露水降臨（自上而降）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLPOXAN",
+      "tag": "(R. = ??)",
+      "fr": "Automne ( Les taroko ont deux saisons bien déterminées: L'hiver ( = Misan) et l'été (=Lbagan), cela peut être à cause du type de climat ? Pour ce qui est de l'Automne (appelé aussi :Mpkmisan = ce sera l'hiver (?), préparation de l'hiver (?); et pour le printemps (mplbagan) Ils ne semblent pas avoir des termes bien fixes.",
+      "en": "Autumn. (The Taroko have two well-defined seasons: winter (= Misan) and summer (= Lbagan); this may be because of the type of climate? As for autumn (also called: Mpkmisan = it will be winter (?), preparation for winter (?)); and for spring (mplbagan) they do not seem to have well-fixed terms.",
+      "zh": "秋天。（太魯閣人有兩個明確的季節：冬天（＝Misan）與夏天（＝Lbagan），這或許與氣候型態有關？至於秋天（又稱：Mpkmisan＝將是冬天（？）、備冬（？））；至於春天（mplbagan），他們似乎沒有十分固定的說法。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KLUI",
+      "tag": "(R)",
+      "fr": "Surprise - étonnement.",
+      "en": "Surprise - astonishment.",
+      "zh": "驚訝——詫異。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mklui",
+          "fr": "Qui est étonné - qui s'étonne, s'émerveille.",
+          "en": "Who is astonished - who is amazed, marvels.",
+          "zh": "感到驚訝的——驚嘆、讚嘆的。",
+          "examples": [
+            {
+              "t": "Mklui kana ka lqlaqe mita knslikao tlaman nia",
+              "fr": "Tous les enfants s'étonnent (en admirant) en voyant la vitesse de sa course.",
+              "en": "All the children are amazed (in admiration) at seeing the speed of his running.",
+              "zh": "所有孩子看到他跑得那麼快，都（帶著讚賞）驚嘆不已。"
+            }
+          ]
+        },
+        {
+          "form": "Nklui",
+          "fr": "Etre étonné, surpris (dans le passé).",
+          "en": "To be astonished, surprised (in the past).",
+          "zh": "（過去）感到驚訝、吃驚。",
+          "examples": [
+            {
+              "t": "Asi nklui mbaxang kari na nii a sao laqe ka tama",
+              "fr": "Le père fut tout étonné en entendant ses paroles à propos de l'enfant.",
+              "en": "The father was quite astonished on hearing his words about the child.",
+              "zh": "父親聽到他關於孩子的那些話，非常吃驚。"
+            }
+          ]
+        },
+        {
+          "form": "Kluyun",
+          "fr": "Merveillex ( qui doit émerveiller) - surprenant.",
+          "en": "Marvellous (that which is bound to amaze) - surprising.",
+          "zh": "奇妙的（令人驚嘆的）——出人意料的。",
+          "examples": [
+            {
+              "t": "Sao paro bi kluyun ka sao sn'lo so suni",
+              "fr": "C'est vraiment merveilleux ce que tu viens de nous raconter (nous faire part).",
+              "en": "What you have just told us (shared with us) is truly marvellous.",
+              "zh": "你剛才對我們講的（告訴我們的）真是奇妙。"
+            }
+          ]
+        },
+        {
+          "form": "Tklui",
+          "fr": "Etre dans l'état d'étonnement, de surprise, d'admiration.",
+          "en": "To be in a state of astonishment, surprise, admiration.",
+          "zh": "處於驚訝、詫異、讚嘆的狀態。",
+          "examples": [
+            {
+              "t": "Asi tklui kana da ni mpplngao daxa sao ddaon",
+              "fr": "Ils sont tout étonnés et se mettent à discuter entre eux de ce qu'il fallait faire.",
+              "en": "They are all astonished and begin to discuss among themselves what had to be done.",
+              "zh": "他們都十分驚訝，開始彼此商量該怎麼辦。"
+            }
+          ]
+        },
+        {
+          "form": "Sklui",
+          "fr": "Sursauter - être surpris, appeuré.",
+          "en": "To be startled - to be surprised, frightened.",
+          "zh": "嚇一跳——受驚、害怕。",
+          "examples": [
+            {
+              "t": "Snbu so punyaq sayang o , ini ko snklui ka yako",
+              "fr": "Tu viens de tirer du fusil; moi, je n'ai pas sursauté (celà ne m'a pas étonné).",
+              "en": "You have just fired the gun; as for me, I did not jump (it did not startle me).",
+              "zh": "你剛才開了槍；而我，我沒有被嚇到（那並沒有讓我吃驚）。"
+            }
+          ]
+        },
+        {
+          "form": "Msklui",
+          "fr": "Sursauter - qui sursaute, est surpris.",
+          "en": "To be startled - who starts, is surprised.",
+          "zh": "嚇一跳——會被嚇到、吃驚的。",
+          "examples": [
+            {
+              "t": "Msklui ko mbaxang nkari so",
+              "fr": "Je sursaute en entendant ce que tu viens de dire.",
+              "en": "I am startled on hearing what you have just said.",
+              "zh": "聽到你剛才說的話，我嚇了一跳。"
+            }
+          ]
+        },
+        {
+          "form": "Skluyun",
+          "fr": "Surprise - Ce qui doit rendre étonné, surpris, apeuré.",
+          "en": "Surprise - That which is bound to make one astonished, surprised, frightened.",
+          "zh": "驚嚇——令人驚訝、吃驚、害怕的事物。",
+          "examples": [
+            {
+              "t": "Sao bi skluyun ka bnxangan mo kari",
+              "fr": "C'est affolant ce que j'ai entendu dire.",
+              "en": "What I have heard said is alarming.",
+              "zh": "我所聽到的話真令人心驚。"
+            }
+          ]
+        },
+        {
+          "form": "Psklui",
+          "fr": "Faire sursauter - provoquer l'étonnement - épater.",
+          "en": "To startle - to provoke astonishment - to impress.",
+          "zh": "使人嚇一跳——引起驚訝——語驚四座。",
+          "examples": [
+            {
+              "t": "Motoç so! Ma so xmut psklui sadyaqon (s'dyaqon)!",
+              "fr": "Tu es fou (tu es sonné!)! Qu'est ce qui te prend de faire peur aux gens ?",
+              "en": "You are mad (you are cracked!)! What has got into you, frightening people?",
+              "zh": "你瘋了（你腦子壞了！）！你是怎麼回事，竟去嚇人？"
+            },
+            {
+              "t": "Ma so mngangax muda psklui sapax daxa!",
+              "fr": "Tu n'es pas malin d'aller te faire effrayer chez les autres !",
+              "en": "It is not clever of you to go and cause fright at other people's houses!",
+              "zh": "你跑去別人家嚇人，實在不聰明！"
+            }
+          ]
+        },
+        {
+          "form": "Pskluyun",
+          "fr": "Ce qui est de nature à faire sursauter, à effrayer. - celui qu'on fera, qui est à faire sursauter.",
+          "en": "That which is apt to startle, to frighten. - the one whom one will startle, who is to be startled.",
+          "zh": "會令人嚇一跳、令人害怕的事物。——將被驚嚇、要被嚇到的人。",
+          "examples": [
+            {
+              "t": "Uxai bi pskluyun ka Tadao sayang; ga knliwa bi mnalox",
+              "fr": "Ce n'est pas le moment d'aller faire peur à Tadao (il n'est pas à faire sursauter); Il est très gravement malade.",
+              "en": "This is not the time to go and frighten Tadao (he is not to be startled); he is very seriously ill.",
+              "zh": "現在不是去嚇Tadao的時候（不可驚嚇他）；他病得很重。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLULI",
+      "tag": "(R)",
+      "fr": "Couler (fleuve) - être emporté par le torrent - se noyer.",
+      "en": "To flow (river) - to be carried away by the torrent - to drown.",
+      "zh": "（河水）流動——被急流沖走——溺水。",
+      "examples": [
+        {
+          "t": "Wada kluli yayong ka snao na",
+          "fr": "Son mari est mort emporté par le torrent.",
+          "en": "Her husband died carried away by the torrent.",
+          "zh": "她的丈夫被急流沖走而死。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pkluli",
+          "fr": "Faire flotter dans le courant - faire couler.",
+          "en": "To float (something) on the current - to send floating downstream.",
+          "zh": "使在水流中漂流——使漂下。",
+          "examples": [
+            {
+              "t": "Pkluli ko sayang ka ladax mo ni mppkluli ko (pklluyun mo) saman ka nn'iso",
+              "fr": "Je fais maintenant le flottage de mes grumes, demain je ferai celui des tiennes.",
+              "en": "I am now floating my logs downstream; tomorrow I will do yours.",
+              "zh": "我現在放流我的原木，明天再放流你的。"
+            },
+            {
+              "t": "Saon miso pkluli yayong",
+              "fr": "J'irai te noyer dans le torrent.",
+              "en": "I will go and drown you in the torrent.",
+              "zh": "我要把你丟進急流裡淹死。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLULU",
+      "tag": "(R)",
+      "fr": "Vigne vierge ( Employé pour désigner la vigne de nos vignobles).",
+      "en": "Virginia creeper (Used to designate the vine of our vineyards).",
+      "zh": "爬牆虎（用來指我們葡萄園的葡萄藤）。",
+      "examples": [
+        {
+          "t": "Kingal pusu klulu",
+          "fr": "Un cep de vigne - un vignoble.",
+          "en": "A vine stock - a vineyard.",
+          "zh": "一株葡萄藤——一座葡萄園。"
+        },
+        {
+          "t": "Sinao klulu",
+          "fr": "Vin de vigne.",
+          "en": "Wine of the vine.",
+          "zh": "葡萄酒。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "K'LUT",
+      "tag": "(R) (Est-ce en relation avec: Q'LöT =scie ?)",
+      "fr": "Trancher - couper - Inciser. (Ce terme est spécialement employé pour : Couper la moisson, Couper dans le corps humain, ou sur un vivant.",
+      "en": "(Is it related to Q'LöT = saw?) To slice - to cut - to incise. (This term is specially used for: cutting the harvest, cutting into the human body, or on a living being.",
+      "zh": "（是否與 Q'LöT＝鋸子有關？）切斷——切割——切開。（此詞特別用於：收割莊稼、在人體上或活體上下刀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Km'lut",
+          "paradigm": "°Km'lut, k'lut, kl'ti, kl'tan, kl'tun.",
+          "fr": "Couper - charcuter - inciser - faire une opération chirurgicale.",
+          "en": "To cut - to butcher - to incise - to perform a surgical operation.",
+          "zh": "切割——宰割——切開——動外科手術。",
+          "examples": [
+            {
+              "t": "Ga km'lut babwi sapax Unang na ka Diyan",
+              "fr": "Djian est en train de tuer un cochon chez son fils Unag (Ounang).",
+              "en": "Djian is killing a pig at the house of his son Unag (Ounang).",
+              "zh": "Djian正在他兒子Unag（Ounang）家殺豬。"
+            },
+            {
+              "t": "Nta da! Mxa ta km'lut payai kana da",
+              "fr": "Allons! Nous allons tous moissonner le riz.",
+              "en": "Come on! We are all going to harvest the rice.",
+              "zh": "走吧！我們都去割稻。"
+            }
+          ]
+        },
+        {
+          "form": "Pk'lut",
+          "fr": "Faire couper - faire inciser - se faire opérer.",
+          "en": "To have (something) cut - to have incised - to have an operation.",
+          "zh": "使切割——使切開——去動手術。",
+          "examples": [
+            {
+              "t": "Saon mo saman pk'lut baga mo",
+              "fr": "J'irai demain me faire opérer la main.",
+              "en": "Tomorrow I will go and have my hand operated on.",
+              "zh": "我明天要去動手部的手術。"
+            }
+          ]
+        },
+        {
+          "form": "Kl'tan",
+          "fr": "Temps où l'on coupe, - coupure - entaille.",
+          "en": "Time when one cuts - cut - incision.",
+          "zh": "切割的時節——切口——傷口。",
+          "examples": [
+            {
+              "t": "Kl'tan babwi ka kia , ongat bi diyax ta",
+              "fr": "Celà va être le moment de tuer le cochon; nous n'avons vraiment pas le temps.",
+              "en": "It is going to be the time to kill the pig; we really have no time.",
+              "zh": "殺豬的時候快到了；我們實在沒有時間。"
+            },
+            {
+              "t": "Mnsa so pk'lut xei o, ya paro bi ka knltan da ?",
+              "fr": "Tu es allé te faire opérer, je suppose que l'entaille est très grande ?",
+              "en": "You went to have an operation; I suppose the incision is very large?",
+              "zh": "你去動了手術，我想切口很大吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLUULUS",
+      "tag": "(KL'ULUS ? - R. = ULUS ?)",
+      "fr": "Dispersé - éparpillé. (nb. C'est sans doute le redoublement de l'intensité de: ULUS = Répandre (?).)",
+      "en": "Dispersed - scattered. (n.b. This is doubtless the intensity reduplication of: ULUS = to spread (?).)",
+      "zh": "分散的——四散的。（註：這無疑是 ULUS＝散布（？）的加強重疊形。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkluulus",
+          "fr": "Etre dispersé - être répandu partout.",
+          "en": "To be dispersed - to be spread everywhere.",
+          "zh": "分散——散布各處。",
+          "examples": [
+            {
+              "t": "Mkluulus namo mksa kika ini tdoa",
+              "fr": "Vous marchez chacun de votre côté, c'est pour celà que celà ne va pas !",
+              "en": "You each walk your own way; that is why it does not work!",
+              "zh": "你們各走各的，所以事情才不順！"
+            }
+          ]
+        },
+        {
+          "form": "Pkluulus (Pkl'ulus)",
+          "paradigm": "°Mpkluulus, pkluulus, pkllusi, pkllusan, pkllusun.",
+          "fr": "Disperser.",
+          "en": "To disperse.",
+          "zh": "使分散。",
+          "examples": [
+            {
+              "t": "Ana ko mpiaka mpkluulus ko dxeaan o, ida lndax miyax mglaxol ka dxea",
+              "fr": "Autant de fois que je les disperse autant de fois ils reviennent de plus belle.",
+              "en": "However many times I disperse them, just as many times they come back all the more.",
+              "zh": "無論我驅散他們多少次，他們每次都變本加厲地回來。"
+            }
+          ]
+        },
+        {
+          "form": "Tkluulus",
+          "fr": "Se trouver tous (tout à fait) dispersés.",
+          "en": "To find themselves all (completely) dispersed.",
+          "zh": "全都（完全）四散。",
+          "examples": [
+            {
+              "t": "Ga tkluulus kana ka dxea, xoya mo ksun pssli dxeaan?",
+              "fr": "Les voilà tous dispersés aux quatre coins, que puis je faire pour les rassembler ?",
+              "en": "There they are, all scattered to the four corners; what can I do to gather them together?",
+              "zh": "他們全都四散在各處，我要怎麼把他們聚集起來？"
+            }
+          ]
+        },
+        {
+          "form": "Pkllusan",
+          "fr": "Dispersion.",
+          "en": "Dispersion.",
+          "zh": "驅散——分散。",
+          "examples": [
+            {
+              "t": "Babao pnkllusan na lqlaqe ka kumai do, wada sao bi mbasi kana ka mk'alang ta",
+              "fr": "Après que l'ours eut dispersé tous les enfants, tous dans notre village étaient comme en deuil (tristes..).",
+              "en": "After the bear had scattered all the children, everyone in our village was as if in mourning (sad..).",
+              "zh": "熊把孩子們全都驅散之後，我們村裡人人如喪親般（悲傷……）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLUXENG",
+      "tag": "(R. ?)",
+      "fr": "Casser une dent (canine), volontairement, pour l'esthétique souvent pratiqué par les taroko jusqu'à ces dernières années.",
+      "en": "To break a tooth (canine), deliberately, for aesthetics; often practised by the Taroko until recent years.",
+      "zh": "為了美觀而刻意敲斷（犬）齒；直到近年太魯閣人仍常行此俗。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkluxeng",
+          "fr": "Avoir ces dents (ou d'autres) cassées.",
+          "en": "To have these teeth (or others) broken.",
+          "zh": "這些牙齒（或其他牙齒）被敲斷。",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

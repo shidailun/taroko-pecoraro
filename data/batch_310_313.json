@@ -1,0 +1,722 @@
+{
+  "pages": [310, 313],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Milit bi manu ka gaga ? Milit bbuyo xo ? ... Adi ! Tnb'gan !",
+        "fr": "Quelle sorte de chèvres est-ce là-bas ? Des chèvres sauvages? ... Non! (des) chèvres domestiques !",
+        "en": "What kind of goats are those over there? Wild goats? ... No! Domestic goats!",
+        "zh": "那邊是什麼樣的羊？是野山羊嗎？……不是！是家養的羊！"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Ptabu",
+        "fr": "Donner à nourrir - faire nourrir - faire élever.",
+        "en": "To put out to be fed - to have (someone) feed - to have (someone) raise.",
+        "zh": "託人餵養－使人餵養－使人飼養。",
+        "paradigm": "°Mptabu, ptabu, ptb'gi, ptb'gan (ptbuan ?), ptb'gun (ptbuon).",
+        "examples": [
+          {
+            "t": "Ptbuon mo sadyaq kana ka b\"lo nii",
+            "fr": "Je veux les faire (je les ferai) nourrir par les autres ( pour mon compte), tous ces porcelets.",
+            "en": "I want to have them all fed (I will have them fed) by others (on my behalf), all these piglets.",
+            "zh": "我想請別人（替我）餵養這些小豬，全部都要。"
+          },
+          {
+            "t": "Ma\" ini so ptb'gi sadyaq ka wawa kating so?",
+            "fr": "Pourquoi ne le mettrais tu pas (ne veux tu pas le mettre) en pension chez quelqu'un ton petit buffle ?",
+            "en": "Why wouldn't you put it (don't you want to put it) in someone's keeping, your little buffalo?",
+            "zh": "你為什麼不把你的小水牛寄養在別人家呢？"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "TABWI",
+      "tag": "(R)",
+      "fr": "Déscendre (une pente) - être en pente.",
+      "en": "To descend (a slope) - to be on a slope.",
+      "zh": "下坡－位於斜坡上。",
+      "examples": [
+        {
+          "t": "Nusa so daya o, Tabwi n'xali, ksa lmngao tmaan so!",
+          "fr": "Si tu vas (puisque tu vas) là haut , Parle et dis (en disant) à ton père: Descends vite !",
+          "en": "If you go (since you're going) up there, speak and say to your father: Come down quickly!",
+          "zh": "你既然要上去，就跟你父親說：快下來！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmabwi (tmabui)",
+          "fr": "Descendre - dévaler.",
+          "en": "To descend - to rush down.",
+          "zh": "下去－奔下。",
+          "paradigm": "°Tmabwi, tabwi, tbui (?) Tbwii (?), tbuyan,(tbwian ?), Tbwiun.",
+          "examples": [
+            {
+              "t": "Mnkyayong ko kddiyax tmabwi",
+              "fr": "Je suis descendu en suivant toujours le torrent.",
+              "en": "I came down following the torrent the whole way.",
+              "zh": "我一路沿著溪流下來。"
+            }
+          ]
+        },
+        {
+          "form": "Tbwiun",
+          "fr": "La pente qui est à déscendre - Temps, lieu de déscente - celui qui veut, doit déscendre.",
+          "en": "The slope that is to be descended - the time, place of descent - the one who wants to, must descend.",
+          "zh": "要下的坡－下坡的時間、地點－想下、該下坡的人。",
+          "examples": [
+            {
+              "t": "Naqex bi tbwiun ka \"lu Tagaxan",
+              "fr": "La route de Tagarhan est difficile à déscendre.",
+              "en": "The road of Tagarhan is difficult to descend.",
+              "zh": "塔加罕的路很難下。"
+            },
+            {
+              "t": "Tbwiun mo saman ka dgiyaq gaga",
+              "fr": "Je la déscendrai demain cette montagne là.",
+              "en": "I will descend that mountain tomorrow.",
+              "zh": "我明天要下那座山。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbwian",
+          "fr": "La déscente réalisée - temps, lieu de cette déscente.",
+          "en": "The descent accomplished - time, place of that descent.",
+          "zh": "已完成的下坡－那次下坡的時間、地點。",
+          "examples": [
+            {
+              "t": "Pax tnbwian mo dgiyaq suni ka mnalox qaqai mo",
+              "fr": "C'est depuis ma déscente de tout à l'heure que mon pied me fait mal.",
+              "en": "It's since my descent a little while ago that my foot has been hurting.",
+              "zh": "自從我剛才下山之後，我的腳就一直痛。"
+            },
+            {
+              "t": "Xea o, knxgun kska daxa ni wada da ni, tnbwian na dgiyaq betak alang o, mnsa tnisa xea.",
+              "fr": "Lui passant au milieu d'eux, alla son chemin et, déscendant la montagne (de la montagne) jusqu'au village, il alla y enseigner.",
+              "en": "He, passing through their midst, went on his way and, descending the mountain (from the mountain) as far as the village, went to teach there.",
+              "zh": "他從他們中間穿過，走了自己的路，下山（從山上）到村莊，去那裡教導。"
+            }
+          ]
+        },
+        {
+          "form": "Ptabwi",
+          "fr": "Faire déscendre.",
+          "en": "To make (someone) descend.",
+          "zh": "使下坡－使下去。",
+          "paradigm": "°Mptabwi, ptabwi, ptbwii, ptbwian, ptbwiun.",
+          "examples": [
+            {
+              "t": "Ma\"iso ka tmabwi! Ya xan ! Ptbwiun mo ka laqe da!",
+              "fr": "Pas question que ce soit toi qui déscende! Attends un peu! Je veux envoyer (faire déscendre) mon fils (un enfant).",
+              "en": "No way is it going to be you who goes down! Wait a bit! I want to send (make descend) my son (a child).",
+              "zh": "絕不能是你下去！等一下！我要派（讓）我的兒子（孩子）下去。"
+            }
+          ]
+        },
+        {
+          "form": "Pntabwi",
+          "fr": "(A la manière d'une déscente ?) - Tout en déscendant.",
+          "en": "(In the manner of a descent?) - All the while descending.",
+          "zh": "（像下坡那樣？）－一路下坡。",
+          "examples": [
+            {
+              "t": "Pntabwi nami pax dgiyaq",
+              "fr": "Tout en déscendant de la montagne (pendant que nous déscendions de la montagne).",
+              "en": "All the while descending the mountain (while we were coming down the mountain).",
+              "zh": "我們一路下山的時候（當我們下山時）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TABUN",
+      "tag": "(= R. ? - R. = ??)",
+      "fr": "Défricher -piocher profondément.",
+      "en": "To clear land - to dig deeply.",
+      "zh": "開墾－深掘。",
+      "subs": [
+        {
+          "form": "Tmabun",
+          "fr": "Piocher profondément, défoncer le terrain (pour l'ameublir et enlever racines de tout genre avant les semailles).",
+          "en": "To dig deeply, to break up the ground (to loosen it and remove roots of all kinds before sowing).",
+          "zh": "深掘、翻鬆土地（在播種前使土鬆軟並清除各種根）。",
+          "examples": [
+            {
+              "t": "Nxa ko tmabun dx'leq sipao",
+              "fr": "Je vais défricher le terrain en pente juste en face.",
+              "en": "I'm going to clear the sloping land right opposite.",
+              "zh": "我要去開墾正對面的坡地。"
+            }
+          ]
+        },
+        {
+          "form": "Tnabun",
+          "fr": "d° au passé.",
+          "en": "Same as the preceding, in the past tense.",
+          "zh": "同上，過去式。",
+          "examples": [
+            {
+              "t": "Tnabun tama mo kana ka ga",
+              "fr": "Tout ce coin là c'est mon père qui l'a défriché.",
+              "en": "This whole spot here was cleared by my father.",
+              "zh": "這整塊地都是我父親開墾的。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbunan",
+          "fr": "Ce qui a été défriché.",
+          "en": "That which has been cleared.",
+          "zh": "已開墾的地方。",
+          "examples": [
+            {
+              "t": "Qxnu ka tnbunan so sndurai ?",
+              "fr": "Quelle est la surface que tu as défriché dernièrement ?",
+              "en": "How large an area have you cleared recently?",
+              "zh": "你最近開墾的面積有多大？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TADOS",
+      "tag": "(R)",
+      "fr": "Terrain de haute montagne (au dessus de 2500 m. à Taiwan) où la forêt a disparu remplacée par une végétation plus ou moins rabougrie; C'est ce qui correspond le moins mal pour les taroko à l'idée de désert ! (= Terrain où rien ne semble cultivable !).",
+      "en": "High-mountain terrain (above 2500 m. in Taiwan) where the forest has disappeared, replaced by more or less stunted vegetation; it is what comes closest, for the Taroko, to the idea of desert! (= Terrain where nothing seems cultivable!).",
+      "zh": "高山地帶（在台灣海拔2500公尺以上），森林已消失，代之以或多或少矮小的植被；這對太魯閣人而言，最接近「沙漠」的概念！（＝似乎什麼都無法耕種的土地！）。"
+    },
+    {
+      "hw": "TAGA",
+      "tag": "(R)",
+      "fr": "Attendre.",
+      "en": "To wait.",
+      "zh": "等待。",
+      "examples": [
+        {
+          "t": "Ma\" so tgaox (tgagox) bi ! Taga tityex !",
+          "fr": "Quas tu à être si pressé ? Attends donc un peu !",
+          "en": "Why are you in such a hurry? Do wait a bit!",
+          "zh": "你急什麼？等一下嘛！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmaga",
+          "fr": "Attendre.",
+          "en": "To wait.",
+          "zh": "等待。",
+          "paradigm": "°Tmaga, taga, tgai, tgaan, tgaon .",
+          "examples": [
+            {
+              "t": "Tnaga ko kalat uusa mo kmpax",
+              "fr": "J'attends le ciel (le beau temps) pour aller travailler.",
+              "en": "I'm waiting for the sky (fine weather) so I can go and work.",
+              "zh": "我在等天氣（好天氣）好去工作。"
+            },
+            {
+              "t": "Tgai ko tityex! Adi ko bi biyao!",
+              "fr": "Attends moi un peu! Je ne serai vraiment pas long!",
+              "en": "Wait for me a bit! I really won't be long!",
+              "zh": "等我一下！我真的不會很久！"
+            },
+            {
+              "t": "Tgaon miso botak ska xedao",
+              "fr": "Je t'attendrai jusqu'à midi.",
+              "en": "I will wait for you until noon.",
+              "zh": "我會等你到中午。"
+            }
+          ]
+        },
+        {
+          "form": "Mtaga",
+          "fr": "Etre celui qui attend -(pouvant aussi avoir le sens de futur).",
+          "en": "To be the one who waits - (may also carry a future sense).",
+          "zh": "作等待的人－（也可帶有將來的意思）。",
+          "examples": [
+            {
+              "t": "Xbalao bi mnswai (mnsuai) ka mtaga sunan",
+              "fr": "Il y a beaucoup de frères qui t'attendent.",
+              "en": "There are many brothers who are waiting for you.",
+              "zh": "有很多弟兄在等你。"
+            },
+            {
+              "t": "Mtaga nami bi sunan",
+              "fr": "Nous t'attendons (nous t'attendrons) fidèlement.",
+              "en": "We are waiting for you (we will wait for you) faithfully.",
+              "zh": "我們忠誠地等你（將會等你）。"
+            },
+            {
+              "t": "Ana betak knuwan ida ko ntaga sunan",
+              "fr": "Je t'attendrai le temps qu'il faudra (même jusqu'à n'importe quand, je t'attendrai).",
+              "en": "I will wait for you as long as it takes (even until whenever, I will wait for you).",
+              "zh": "我會等你等到需要的時候（即使等到任何時候，我都會等你）。"
+            }
+          ]
+        },
+        {
+          "form": "Tgaan",
+          "fr": "Endroit, temps d'attente.",
+          "en": "Place, time of waiting.",
+          "zh": "等待的地點、時間。",
+          "examples": [
+            {
+              "t": "Bsiyaq ka tgaan namo xo?",
+              "fr": "Y a-t-il longtemps que vous attendez ?",
+              "en": "Have you been waiting long?",
+              "zh": "你們等很久了嗎？"
+            },
+            {
+              "t": "Malu bi tgaan ka xeni! Nyeqan (ka) xlpasan ni nyeqan (ka) tssagan (vl. tbsagan) ole",
+              "fr": "C'est ici un beau coin (une place agréable) pour attendre: Il y a de quoi s'ammuser et il y a de quoi se mettre à l'abri.",
+              "en": "This is a fine spot (a pleasant place) to wait: there's something to amuse oneself with and something to shelter under.",
+              "zh": "這是個等待的好地方（舒適的地方）：既有可消遣的，也有可遮蔽的。"
+            }
+          ]
+        },
+        {
+          "form": "Ptaga",
+          "fr": "Se faire attendre - faire attendre.",
+          "en": "To keep others waiting - to make (someone) wait.",
+          "zh": "讓人等自己－使人等待。",
+          "paradigm": "°Mptaga, ptaga, ptgai, ptgaan, ptgaon.",
+          "examples": [
+            {
+              "t": "Sao kia kddiyax ka iso ! Xmut so ptaga sadyaq",
+              "fr": "Voilà comment tu es toujours, toi! Tu fais toujours attendre les gens!",
+              "en": "That's how you always are! You always keep people waiting!",
+              "zh": "你總是這樣！你老是讓人家等！"
+            },
+            {
+              "t": "Ana so mtbiyax ka iso o, sai bi ptaga tityex dxcaan xo?",
+              "fr": "Même si toi tu es pressé, va donc les faire attendre un peu, s'il te plaît !",
+              "en": "Even if you're in a hurry, do go and make them wait a bit, please!",
+              "zh": "即使你很趕，也請去讓他們稍等一下吧！"
+            }
+          ]
+        },
+        {
+          "form": "Staga",
+          "fr": "Pour attendre (moyen pour..).",
+          "en": "For waiting (the means to..).",
+          "zh": "用來等待（等待的方法）。",
+          "examples": [
+            {
+              "t": "Wada t'alex (= Ts'alex) staga na iyax ka Patong",
+              "fr": "Paton s'écarta (se retira) pour attendre la suite (ce qui allait venir).",
+              "en": "Paton drew aside (withdrew) to wait for what followed (what was to come).",
+              "zh": "巴東退到一旁（退開），等待接下來（將要發生）的事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAIKONG",
+      "tag": "(= R. ?)",
+      "fr": "Effigie - statue - image - idole.",
+      "en": "Effigy - statue - image - idol.",
+      "zh": "肖像－雕像－圖像－偶像。",
+      "examples": [
+        {
+          "t": "Sayang o, ini xali tai (ktai ?) ana manu taikong mk'alang troko",
+          "fr": "De nos jours, en milieu taroko on ne voit guère de statues de quelque genre que ce soit",
+          "en": "Nowadays, in Taroko society one hardly sees statues of any kind whatsoever.",
+          "zh": "如今，在太魯閣人當中幾乎看不到任何種類的雕像。"
+        }
+      ]
+    },
+    {
+      "hw": "TAKOL",
+      "tag": "(R)",
+      "fr": "Faire une chute - tomber.",
+      "en": "To have a fall - to fall.",
+      "zh": "跌倒－摔落。",
+      "examples": [
+        {
+          "t": "Ya bi takol muda xakno",
+          "fr": "Ne va pas tomber en passant le pont.",
+          "en": "Don't go and fall while crossing the bridge.",
+          "zh": "過橋時別摔下去。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtakol",
+          "fr": "Ne pas être debout - tomber - faire une chute - faire faillite.",
+          "en": "To not be standing - to fall - to have a fall - to go bankrupt.",
+          "zh": "站不住－倒下－跌倒－破產。",
+          "paradigm": "°Mtakol, takol, tkuli, tkulan, tkulun.",
+          "examples": [
+            {
+              "t": "Ya bi uda ntakol daloas",
+              "fr": "Ne va pas tomber dans les rochers (vl. tomber des rochers).",
+              "en": "Don't go and fall into the rocks (var.: fall from the rocks).",
+              "zh": "別摔進岩石裡（或：從岩石上摔下）。"
+            },
+            {
+              "t": "Mntakol kana ka kndl'xan so",
+              "fr": "Tout le mur que tu as construit s'est renversé.",
+              "en": "The whole wall you built has collapsed.",
+              "zh": "你砌的整堵牆都倒了。"
+            },
+            {
+              "t": "Manu bi ka sknalox baga so ?",
+              "fr": "Qu'est-ce donc qui provoque ton mal à la main ?",
+              "en": "What is it that's causing the pain in your hand?",
+              "zh": "到底是什麼讓你的手痛？"
+            },
+            {
+              "t": "Tnkulan mo s'xiga!",
+              "fr": "C'est ma chute de hier.",
+              "en": "It's my fall from yesterday.",
+              "zh": "是我昨天跌的那一跤。"
+            }
+          ]
+        },
+        {
+          "form": "Ktakol",
+          "fr": "Forme de MTAKOL pour l'énoncé négatif.",
+          "en": "Form of MTAKOL for the negative statement.",
+          "zh": "MTAKOL 的否定句形式。",
+          "examples": [
+            {
+              "t": "Ana mnda xeni paro bi ka boxo o, ini ktakol ka sapax mo",
+              "fr": "Bien qu'un violent typhon soit passé par ici, ma maison n'est pas tombée.",
+              "en": "Although a violent typhoon passed through here, my house did not fall.",
+              "zh": "雖然強烈颱風經過這裡，我的房子卻沒有倒。"
+            }
+          ]
+        },
+        {
+          "form": "Tnkulan",
+          "fr": "Chute (faite).",
+          "en": "Fall (accomplished).",
+          "zh": "（已發生的）跌倒。",
+          "examples": [
+            {
+              "t": "Tnkulan no skawas; kia ka sknalox tudo mo sayang!",
+              "fr": "C'est ma chute de l'an passé qui provoque mon mal de reins aujourd'hui !",
+              "en": "It's my fall from last year that's causing my lower-back pain today!",
+              "zh": "是我去年跌的那一跤造成我今天的腰痛！"
+            }
+          ]
+        },
+        {
+          "form": "Ptakol",
+          "fr": "Faire tomber - renverser.",
+          "en": "To make (something) fall - to knock over.",
+          "zh": "使跌倒－推倒。",
+          "examples": [
+            {
+              "t": "Ana so ptakol ka pnxeyu mo o, ida mo pxyugun dole",
+              "fr": "Même si tu renverses ce que j'ai dressé, je veux certainement le dresser de nouveau.",
+              "en": "Even if you knock over what I've set up, I will certainly set it up again.",
+              "zh": "即使你推倒我立起來的東西，我也一定會再把它立起來。"
+            },
+            {
+              "t": "Ida na ptkulun kana sqmo ka paro bgixol sayang",
+              "fr": "Ce grand vent d'aujourd'hui (ce typhon) va certainement renverser tout le maïs.",
+              "en": "This strong wind today (this typhoon) will certainly flatten all the maize.",
+              "zh": "今天這場大風（這場颱風）一定會把所有玉米都吹倒。"
+            },
+            {
+              "t": "Msnoxel so ka iso, kika mlnglong so ptakol knan, klaon no balae!",
+              "fr": "Toi, tu es jaloux, et c'est pour cela que tu penses me ruiner, je le sais très bien !",
+              "en": "You are jealous, and that's why you're thinking of ruining me - I know it very well!",
+              "zh": "你嫉妒，所以才想害我破產，我很清楚！"
+            }
+          ]
+        },
+        {
+          "form": "Kmtakol",
+          "fr": "Désirer tomber - menacer de tomber .",
+          "en": "To be about to fall - to threaten to fall.",
+          "zh": "快要倒下－有倒下之虞。",
+          "examples": [
+            {
+              "t": "Taan mo o, sao bi kmtakol ka kndl'xan so",
+              "fr": "A le voir, on dirait que ton mur menace de tomber.",
+              "en": "To look at it, it seems your wall is about to fall.",
+              "zh": "看起來，你的牆好像快倒了。"
+            },
+            {
+              "t": "Ya adi so splang kmtakol, o!",
+              "fr": "Je suppose que tu ne fais pas exprès de vouloir tomber ?",
+              "en": "I suppose you're not falling on purpose?",
+              "zh": "我想你不是故意要跌倒的吧？"
+            }
+          ]
+        },
+        {
+          "form": "Ttakol",
+          "fr": "Pour tomber - complètement renversé.",
+          "en": "For falling - completely overturned.",
+          "zh": "用以倒下－完全傾覆。",
+          "examples": [
+            {
+              "t": "Mnlglu d'xgal sndurai o, asi bi ttakol kana ssapax nami da",
+              "fr": "Quand la terre a tremblé tout dernièrement, c'était à tel point que toutes nos maisons sont complètement par terre.",
+              "en": "When the earth shook very recently, it was to such a degree that all our houses are completely flattened.",
+              "zh": "最近地震的時候，程度之烈，我們所有的房子都全塌在地上了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TALANG",
+      "tag": "(R)",
+      "fr": "Courir - course.",
+      "en": "To run - a run / race.",
+      "zh": "跑－賽跑。",
+      "examples": [
+        {
+          "t": "Ma\" so mtq!lal ! Talang tityex!",
+          "fr": "On dirait que tu es endormi! Va donc un peu plus vite!",
+          "en": "You look half-asleep! Go a bit faster!",
+          "zh": "你好像睡著了似的！快一點吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmalang",
+          "fr": "Courir - marcher vite.",
+          "en": "To run - to walk fast.",
+          "zh": "跑－快走。",
+          "paradigm": "°Tmalang, talang, tlami(?), tlaman, tlamun(?).",
+          "examples": [
+            {
+              "t": "Knlbuan balae ka saan no tnalang",
+              "fr": "C'est très tôt le matin que je vais courir( faire un bout de course).",
+              "en": "It's very early in the morning that I go running (do a bit of a run).",
+              "zh": "我大清早就去跑步（跑一小段）。"
+            },
+            {
+              "t": "Talang binao! Adi ta sklaon ka tdoloi da",
+              "fr": "Cours donc! Nous allons manquer le train !",
+              "en": "Run then! We're going to miss the train!",
+              "zh": "快跑啊！我們要趕不上火車了！"
+            }
+          ]
+        },
+        {
+          "form": "Tlaman",
+          "fr": "Course - temps, lieu de course.",
+          "en": "Race - time, place of the race.",
+          "zh": "賽跑－賽跑的時間、地點。",
+          "examples": [
+            {
+              "t": "Malu bi tlaman na s'xiga!",
+              "fr": "Il a bien courru, hier (sa course était belle).",
+              "en": "He ran well yesterday (his run was a fine one).",
+              "zh": "他昨天跑得很好（他那場跑得很漂亮）。"
+            },
+            {
+              "t": "Llabang balae ka tlaman blax sapax ptasan daxa",
+              "fr": "La piste de course devant leur école est très grande.",
+              "en": "The running track in front of their school is very large.",
+              "zh": "他們學校前面的跑道非常大。"
+            }
+          ]
+        },
+        {
+          "form": "Ptalang",
+          "fr": "Faire courir - faire marcher - faire aller vite.",
+          "en": "To make (someone/something) run - to make go - to make go fast.",
+          "zh": "使跑－使行走－使快行。",
+          "examples": [
+            {
+              "t": "Ptalang xali papaq so",
+              "fr": "Fais donc marcher tes jambes un peu plus vite !",
+              "en": "Do make your legs move a bit faster!",
+              "zh": "讓你的腿走快一點吧！"
+            },
+            {
+              "t": "Dyagi ko ptalang xaya no xo ? Ini ksa da!",
+              "fr": "Veux tu n'aider à faire marcher ma voiture ? Elle ne marche plus!",
+              "en": "Will you help me get my car going? It won't run anymore!",
+              "zh": "你願意幫我把車發動起來嗎？它動不了了！"
+            },
+            {
+              "t": "Ptalang tityex kating so binao!",
+              "fr": "Fais voir un peu courir ton buffle !",
+              "en": "Let's see your buffalo run a bit!",
+              "zh": "讓你的水牛跑一下看看吧！"
+            }
+          ]
+        },
+        {
+          "form": "Ttalang",
+          "fr": "Courir très vite.",
+          "en": "To run very fast.",
+          "zh": "跑得非常快。",
+          "examples": [
+            {
+              "t": "Mxa ko ttalang",
+              "fr": "Je vais à toute vitesse",
+              "en": "I'm going at top speed.",
+              "zh": "我全速前進。"
+            },
+            {
+              "t": "Asi ka ttalang so bi , upsk'la so kia ka tdoloi !",
+              "fr": "A condition de courir très vite, tu arriveras à temps pour le train (la voiture).",
+              "en": "Provided you run very fast, you'll arrive in time for the train (the vehicle).",
+              "zh": "只要你跑得非常快，就能趕上火車（車子）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TALIL",
+      "tag": "(R)",
+      "fr": "Traverser - passer par dessus.",
+      "en": "To cross - to pass over.",
+      "zh": "橫越－從上方越過。",
+      "subs": [
+        {
+          "form": "Mtalil",
+          "fr": "Passer de l'autre côté - traverser.",
+          "en": "To pass to the other side - to cross.",
+          "zh": "越到對岸－橫越。",
+          "paradigm": "°Mtalil, talil, tlili, tlilan , tlilun.",
+          "examples": [
+            {
+              "t": "Msxdil siida ka koyox o, ini bi tdoa mtalil gasil bnkiyan kating",
+              "fr": "Quand une femme est enceinte, elle n'a pas le droit d'enjamber la corde qui attache un buffle (par ce que le buffle pourrait tirer sur la corde pendant que la femme passe et provoquer un avortement, dit la coutume des taroko).",
+              "en": "When a woman is pregnant, she is not allowed to step over the rope that ties a buffalo (because the buffalo might pull on the rope while the woman is crossing and cause a miscarriage, says Taroko custom).",
+              "zh": "婦女懷孕時，不可跨過拴水牛的繩子（因為據太魯閣習俗，水牛可能在婦女跨越時拉扯繩子，導致流產）。"
+            },
+            {
+              "t": "Mntalil nami yayong ska'man do..",
+              "fr": "Quand nous passions le fleuve hier soir (la nuit dernière...).",
+              "en": "When we were crossing the river last night (last evening...).",
+              "zh": "我們昨晚（昨天夜裡……）渡河的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Tlilan",
+          "fr": "Le passage - le lieu, temps du passage.",
+          "en": "The crossing - the place, time of the crossing.",
+          "zh": "渡處／通道－渡越的地點、時間。",
+          "examples": [
+            {
+              "t": "Daya xali ka malu bi tlilan yayong",
+              "fr": "C'est un peu plus haut qu'il est facile de passer le torrent (qu'il y a un passage facile).",
+              "en": "It's a little higher up that the torrent is easy to cross (that there's an easy crossing).",
+              "zh": "再往上一點，溪流較容易渡過（有個好渡處）。"
+            },
+            {
+              "t": "Paro bi psmyanan ka ntlilan",
+              "fr": "C'est un jour très fêté que le \"passage\". (nb. TLILAN , PNTLILAN, NTLILAN peuvent être des traductions de notre \"PâQUES\").",
+              "en": "The \"passage\" is a much-celebrated day. (n.b. TLILAN, PNTLILAN, NTLILAN may be translations of our \"EASTER\".)",
+              "zh": "「渡越」是個非常隆重的節日。（註：TLILAN、PNTLILAN、NTLILAN 可能是我們「復活節」的譯詞。）"
+            }
+          ]
+        },
+        {
+          "form": "Ptalil",
+          "fr": "Faire passer par dessus - faire passer de l'autre côté.",
+          "en": "To make (someone) pass over - to make pass to the other side.",
+          "zh": "使從上方越過－使越到對岸。",
+          "paradigm": "°Mptalil, ptalil, ptlili, ptlilan, ptlilun.",
+          "examples": [
+            {
+              "t": "Ma\" so mngongo bi ! Ya xan ! Yaxon miso ptalil sayang",
+              "fr": "Mais! on dirait que tu as peur! Attends un peu! Je vais venir tout de suite t'aider à passer de l'autre côté.",
+              "en": "Well! it seems you're afraid! Wait a bit! I'll come right away to help you cross to the other side.",
+              "zh": "咦！你好像害怕了！等一下！我馬上過來幫你渡到對岸。"
+            }
+          ]
+        },
+        {
+          "form": "Pntlilun",
+          "fr": "Qui a été ce qu'on devait faire passer.",
+          "en": "That which was to be made to pass across.",
+          "zh": "本應被使之渡過的東西。",
+          "examples": [
+            {
+              "t": "Kia do, pntlilun daxa siyao pnlaq ka aso ni, asi xeti malex ana manu snugul Esuan da!",
+              "fr": "Alors, ayant amené leur barque sur le rivage, ils abandonnent tout et suivent Jésus aussitôt.",
+              "en": "Then, having brought their boat to the shore, they leave everything and follow Jesus at once.",
+              "zh": "於是，他們把船拖到岸上，撇下一切，立刻跟從耶穌。"
+            }
+          ]
+        },
+        {
+          "form": "Stalil",
+          "fr": "Sauter - faire un saut.",
+          "en": "To jump - to make a jump.",
+          "zh": "跳－跳一下。"
+        },
+        {
+          "form": "Mstalil",
+          "fr": "Sauter - bondir.",
+          "en": "To jump - to leap.",
+          "zh": "跳躍－蹦跳。",
+          "examples": [
+            {
+              "t": "Mstalil ko kddiyax ttlilun mo ka knalang ga",
+              "fr": "Je saute toujours pour passer de l'autre côté de cette barrière.",
+              "en": "I always jump to get to the other side of this fence.",
+              "zh": "我總是用跳的越過這道柵欄到對面。"
+            }
+          ]
+        },
+        {
+          "form": "Stlilan",
+          "fr": "Saut - endroit où se fait le saut.",
+          "en": "Jump - the place where the jumping is done.",
+          "zh": "跳躍－跳躍的地點。",
+          "examples": [
+            {
+              "t": "Uxai iso ka mpsdka stlilan daxa kia",
+              "fr": "Ce n'est pas toi qui fait l'arbitre pour leur ( concours de) saut tout à l'heure.",
+              "en": "It's not you who acts as referee for their jumping (contest) in a little while.",
+              "zh": "待會兒不是由你來當他們跳躍（比賽）的裁判。"
+            },
+            {
+              "t": "Yako ka tnpusu smpong sntlilan daxa",
+              "fr": "C'est moi qui ai la charge de mesurer (la hauteur, la longueur de)leur sauts .",
+              "en": "It's I who am in charge of measuring (the height, the length of) their jumps.",
+              "zh": "由我負責測量他們跳躍的（高度、長度）。"
+            }
+          ]
+        },
+        {
+          "form": "Pstalil",
+          "fr": "Faire sauter - sauter(?).",
+          "en": "To make (someone) jump - to jump(?).",
+          "zh": "使跳躍－跳躍（？）。",
+          "examples": [
+            {
+              "t": "Pstlilun mo ayo kia ka kana llaqe",
+              "fr": "Je veux faire sauter ce ruisseau là à tous les enfants.",
+              "en": "I want to make all the children jump over that stream.",
+              "zh": "我想讓所有孩子跳過那條小溪。"
+            },
+            {
+              "t": "Mpd'xok",
+              "fr": "(texte coupé en bas de page)",
+              "en": "(text cut off at the bottom of the page)",
+              "zh": "（頁末文字被截斷）"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

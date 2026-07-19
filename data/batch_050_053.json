@@ -1,0 +1,793 @@
+{
+  "pages": [50, 53],
+  "leadin": {
+    "fr": "smka ka boax mo = Il me reste un sac et demi de riz. (var. BGAX).",
+    "en": "smka ka boax mo = I have a sack and a half of rice left. (var. BGAX).",
+    "zh": "smka ka boax mo＝我還剩下一袋半的米。（或：BGAX）。",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Kmboax",
+        "fr": "Egrener des arachides - des haricots - les enlever de leur cosse.",
+        "en": "To shell peanuts - beans - to take them out of their pods.",
+        "zh": "剝花生、剝豆子——把它們從莢殼中取出。",
+        "examples": [
+          {
+            "t": "Nta kmboax trabus sapax mo xo?",
+            "fr": "Tu viens écosser des arachides chez moi ?",
+            "en": "Will you come shell peanuts at my house?",
+            "zh": "你要來我家剝花生嗎？"
+          }
+        ]
+      },
+      {
+        "form": "Tmboax",
+        "fr": "Inséminer, féconder (pour les animaux).",
+        "en": "To inseminate, to impregnate (of animals).",
+        "zh": "使受精、配種（用於動物）。",
+        "examples": []
+      },
+      {
+        "form": "Mtboax",
+        "fr": "Reproducteur.",
+        "en": "Breeder (breeding animal).",
+        "zh": "種畜。",
+        "examples": [
+          {
+            "t": "Suyang bi ka b\"lo nii! Ngalun mo mtboax",
+            "fr": "Ce porcelet est très beau! Je veux en faire un reproducteur.",
+            "en": "This piglet is very fine! I want to make it a breeder.",
+            "zh": "這隻小豬真漂亮！我要把牠留作種豬。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "BOBO",
+      "tag": "(R)",
+      "fr": "Maman - mère - souche - pièce maitresse.",
+      "en": "Mama - mother - stock (source) - main piece (mainstay).",
+      "zh": "媽媽——母親——本源——主要構件。",
+      "examples": [
+        {
+          "t": "Bobo laqe ka nii",
+          "fr": "voilà la mère des enfants (= ma femme).",
+          "en": "this is the children's mother (= my wife).",
+          "zh": "這是孩子們的母親（＝我的妻子）。"
+        },
+        {
+          "t": "Ini mo sxngii ka nkari skbobo ta suxal",
+          "fr": "Pas de danger que j'oublie les paroles de feu notre maman!",
+          "en": "There is no danger of my forgetting the words of our late mother!",
+          "zh": "我絕不會忘記我們已故母親的話！"
+        },
+        {
+          "t": "Mxa so ino,bo",
+          "fr": "Où vas tu, maman ?",
+          "en": "Where are you going, mama?",
+          "zh": "媽媽，妳要去哪裡？"
+        },
+        {
+          "t": "Ana malu ka bobo o naqex bi ka napa na sqmo",
+          "fr": "Les pieds de mais peuvent être beaux, ses épis sont mauvais.",
+          "en": "The maize stalks may be fine, but their ears are bad.",
+          "zh": "玉米的植株雖然好，果穗卻很差。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Boan",
+          "fr": "Oblique de BOBO.",
+          "en": "Oblique form of BOBO.",
+          "zh": "BOBO 的間接格。",
+          "examples": [
+            {
+              "t": "Usa n'xali boan so da",
+              "fr": "Va vite près de ta maman.",
+              "en": "Go quickly to your mother.",
+              "zh": "快到你媽媽身邊去。"
+            },
+            {
+              "t": "Ima ka ini snkuxul boan nia ?",
+              "fr": "Qui n'aime pas sa mère ?",
+              "en": "Who does not love his mother?",
+              "zh": "誰不愛自己的母親呢？"
+            }
+          ]
+        },
+        {
+          "form": "Mabobo",
+          "fr": "En passe de devenir mère.",
+          "en": "About to become a mother.",
+          "zh": "即將成為母親。",
+          "examples": [
+            {
+              "t": "Adi so biyao mabobo da; ida mpabobo kana ka d'ua",
+              "fr": "Tu vas bientôt être maman; c'est comme celà, les filles sont faites pour devenir mères.",
+              "en": "You will soon be a mother; that is how it is, girls are made to become mothers.",
+              "zh": "妳很快就要當媽媽了；就是這樣，女孩子生來就是要做母親的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BOBONG",
+      "tag": "(R)",
+      "fr": "Couvrir - mettre à l'abri - habiller.",
+      "en": "To cover - to shelter - to clothe.",
+      "zh": "覆蓋——遮蔽——給人穿衣。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mobong",
+          "paradigm": "°Mobong, bobong, bbongi, bbongan, bbongun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ga mobong payai ka trasi",
+              "fr": "Le trasi (natte) est là qui sert à couvrir le paddy.",
+              "en": "The trasi (mat) is there, serving to cover the paddy.",
+              "zh": "那張 trasi（草蓆）就在那裡，用來蓋稻穀。"
+            },
+            {
+              "t": "Ini so kskwi? Bbongi xali xelang so aadi so muda paqan knskiyan",
+              "fr": "Tu n'as pas froid? Couvre donc un peu tes épaules pour ne pas avoir froid (ne pas te faire manger par la froidure).",
+              "en": "Aren't you cold? Do cover your shoulders a little so as not to be cold (not to let yourself be eaten by the cold).",
+              "zh": "你不冷嗎？把肩膀稍微蓋一下，免得著涼（免得被寒氣「吃掉」）。"
+            }
+          ]
+        },
+        {
+          "form": "Mbobong",
+          "fr": "qui couvre - qui habille.",
+          "en": "that covers - that clothes.",
+          "zh": "覆蓋的——給人穿衣的。",
+          "examples": [
+            {
+              "t": "sayang o,mbobong xnigan ka dtroko ole",
+              "fr": "Aujourd'hui, les taroko aussi s'habillent (couvrent leur corps, (leur nudité).",
+              "en": "Today the Taroko also clothe themselves (cover their bodies, (their nakedness).",
+              "zh": "如今太魯閣人也穿衣服了（遮蓋身體、（遮蓋裸體）。"
+            }
+          ]
+        },
+        {
+          "form": "Kbobong",
+          "fr": "d° au négatif.",
+          "en": "ditto, in the negative.",
+          "zh": "同上之否定形。",
+          "examples": [
+            {
+              "t": "Ini xali kbobong maso ka nabao blubul",
+              "fr": "Les feuilles de banane ne couvrent pas bien le millet.",
+              "en": "Banana leaves do not cover the millet well.",
+              "zh": "香蕉葉蓋不好小米。"
+            }
+          ]
+        },
+        {
+          "form": "Kbobo",
+          "fr": "(Qbobo ?) ( = R.? - R. = BOBONG ?) = Chapeau - couvre chef. (nb. En général les taroko vont tête nue, au plus portent un bandeau, le: Tlap, surtout les femmes. (vr. QBOBO).",
+          "en": "(Qbobo?) (= root? - root = BOBONG?) = Hat - headgear. (n.b. In general the Taroko go bareheaded; at most they wear a headband, the Tlap, especially the women. (see QBOBO).",
+          "zh": "（Qbobo？）（＝詞根？——詞根＝BOBONG？）＝帽子——頭部覆蓋物。（註：太魯閣人一般不戴帽子，至多戴一條頭帶，即 Tlap，婦女尤其如此。（參見 QBOBO）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BOLONG",
+      "tag": "( = R.?) (vr. KBOLONG)",
+      "fr": "Moissonner.",
+      "en": "To harvest.",
+      "zh": "收割。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BOLOX",
+      "tag": "(R)",
+      "fr": "Se séparer - se détacher. (nb. Le garçon marié se sépare de la famille des parents pour s'établir à son compte; souvent, seul le dernier qui se marie, normalement le plus jeune, reste avec les parents.",
+      "en": "To separate - to detach oneself. (n.b. A married son separates from his parents' family to set up on his own; often only the last one to marry, normally the youngest, stays with the parents.",
+      "zh": "分離——脫離。（註：結了婚的兒子會離開父母的家庭自立門戶；通常只有最後結婚的、一般是最年幼的兒子留在父母身邊。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbolox",
+          "fr": "Qui se sépare de la famille pour fonder un foyer autonome.",
+          "en": "One who separates from the family to found an independent household.",
+          "zh": "離開家庭、另立自主門戶的人。",
+          "examples": [
+            {
+              "t": "Ana xbalao bi nami xei o, adi biyao mpbolox ka doma",
+              "fr": "même si nous sommes nombreux, certains vont se mettre prochainement à leur compte.",
+              "en": "even though we are many, some are soon going to set up on their own.",
+              "zh": "即使我們人數眾多，有些人不久就要自立門戶了。"
+            }
+          ]
+        },
+        {
+          "form": "Pbolox",
+          "fr": "Faire que les nouvelles familles des garçons se séparent de la souche familiale.",
+          "en": "To cause the sons' new families to separate from the family stock.",
+          "zh": "使兒子們的新家庭從本家分出去。",
+          "examples": [
+            {
+              "t": "Pblxun (pbl'xun)mo xkawas ka laqe mo kbsulan",
+              "fr": "C'est l'an prochain que je ferai mettre à son compte(le ménage de) mon fils ainé.",
+              "en": "It is next year that I will have my eldest son('s household) set up on its own.",
+              "zh": "明年我就要讓我長子（的家庭）自立門戶。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbolox",
+          "fr": "Qui est autonome - qui est séparé de sa souche (nb. se dit très certainement pour le foyer des enfants séparé de celui des parents, peut être aussi de l'enfants qui vient de se séparer du sein de la mère; vr. ci après:Tnblxan).",
+          "en": "One who is independent - who is separated from his stock (n.b. most certainly said of the children's household separated from that of the parents; perhaps also of the child who has just been separated from its mother's breast; see below: Tnblxan).",
+          "zh": "已自立的人——已與本家分開的人（註：此語確定是指與父母分開的子女家庭，或許也指剛離開母親懷抱的孩子；參見下文 Tnblxan）。",
+          "examples": [
+            {
+              "t": "Adi ga msoopu ludan ka Sasak xo?",
+              "fr": "Est ce que Sasak vit avec ses parents?",
+              "en": "Does Sasak live with his parents?",
+              "zh": "Sasak 和父母同住嗎？"
+            },
+            {
+              "t": "Adi! Ga tnbolox da!",
+              "fr": "Non Il s'est mis à son compte.",
+              "en": "No! He has set up on his own.",
+              "zh": "沒有！他已經自立門戶了。"
+            }
+          ]
+        },
+        {
+          "form": "Tnblxan",
+          "fr": "(Tnbl'xan) = Qui est tout neuf? - Tout récent? - Ainé ? - Qui vient de naître?",
+          "en": "(Tnbl'xan) = That which is brand new? - Quite recent? - Eldest? - Newly born?",
+          "zh": "（Tnbl'xan）＝全新的？——剛出現的？——長子？——剛出生的？",
+          "examples": [
+            {
+              "t": "Kia ka tnbl'xan na laqe",
+              "fr": "Voilà son fils ainé, (son fils nouveau né ?). (vr. R.BALAX? - R.BULAX ?)",
+              "en": "There is his eldest son, (his newborn son?). (see root BALAX? - root BULAX?)",
+              "zh": "那是他的長子（他新生的兒子？）。（參見詞根 BALAX？——詞根 BULAX？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BONGA",
+      "tag": "(R)",
+      "fr": "Patate douce - Tout ce qui est tubercule.",
+      "en": "Sweet potato - anything that is a tuber.",
+      "zh": "甘藷——凡屬塊莖之物。",
+      "examples": [
+        {
+          "t": "Bonga ka pusu bi oqon troko",
+          "fr": "Ce sont les patates douces qui constituent l'essentiel de la nourriture taroko.",
+          "en": "It is sweet potatoes that make up the staple of Taroko food.",
+          "zh": "甘藷是太魯閣人飲食的主要部分。"
+        },
+        {
+          "t": "Nasi so kmpxoma bauxi nii o, adas ka bonga nia ole",
+          "fr": "Si tu projettes de planter ces lys, emporte donc les bulbes",
+          "en": "If you plan to plant these lilies, then take the bulbs along",
+          "zh": "如果你打算種這些百合，就把球莖帶去吧"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOOT",
+      "tag": "(R)",
+      "fr": "Os - ossements - noyaux de fruits - armature(ciment;..).",
+      "en": "Bone - bones (remains) - fruit stones - framework (concrete;..).",
+      "zh": "骨頭——骸骨——果核——骨架（混凝土；……）。",
+      "examples": [
+        {
+          "t": "Pax snbtan ko daxa o, mnalox kana bboot mo",
+          "fr": "Tous mes os me font mal depuis qu'ils m'ont frappé.",
+          "en": "All my bones have been hurting ever since they beat me.",
+          "zh": "自從他們打了我，我全身的骨頭都在痛。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOQOX",
+      "tag": "(R)",
+      "fr": "Papaya - Papaye.",
+      "en": "Papaya.",
+      "zh": "木瓜。",
+      "examples": [
+        {
+          "t": "Xmaon mo kingal pusu boqox ngangot sapax mo",
+          "fr": "Je veux planter un pied de papye devant ma maison.",
+          "en": "I want to plant a papaya tree in front of my house.",
+          "zh": "我想在我家門前種一棵木瓜樹。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOXO",
+      "tag": "(R)",
+      "fr": "Monnaie - Petits sous? Sapêques?",
+      "en": "Money - small coins? Sapeques (cash coins)?",
+      "zh": "錢幣——小錢？銅錢？",
+      "examples": [
+        {
+          "t": "Ongat ana kingal boxo mo da!",
+          "fr": "Je n'ai plus même un radis.",
+          "en": "I no longer have even a penny.",
+          "zh": "我連一毛錢都不剩了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOXO",
+      "tag": "(R.?)",
+      "fr": "Typhon.",
+      "en": "Typhoon.",
+      "zh": "颱風。",
+      "examples": [
+        {
+          "t": "Nasi muda kmpaxan ka boxo da, ida na pkngatun kana ka oqon",
+          "fr": "Si le typhon passe par les champs, il détruira toute notre récolte(notre nourriture).",
+          "en": "If the typhoon passes through the fields, it will destroy our whole harvest (our food).",
+          "zh": "颱風若掃過田地，會毀掉我們全部的收成（我們的糧食）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BOYAQ",
+      "tag": "(R)",
+      "fr": "Sanglier.",
+      "en": "Wild boar.",
+      "zh": "山豬。",
+      "examples": [
+        {
+          "t": "Tayai knsxea bi ka pnsnmaan so xei boyaq!",
+          "fr": "Comme elle est savoureuse cette viande de sanglier que tu as préparée !",
+          "en": "How tasty this boar meat you have prepared is!",
+          "zh": "你煮的這山豬肉真是美味！"
+        },
+        {
+          "t": "B\"lo boyaq",
+          "fr": "Les petits du sanglier.",
+          "en": "The wild boar's young.",
+          "zh": "山豬的幼崽。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tboyaq",
+          "fr": "(R.BOYAQ ?) = Se tordre de douleur - se vautrer par terre.",
+          "en": "(root BOYAQ?) = To writhe in pain - to wallow on the ground.",
+          "zh": "（詞根 BOYAQ？）＝痛得打滾——在地上翻滾。",
+          "examples": [
+            {
+              "t": "Ini bi taqe! Xmut mtboyaq sxakao ka Tenong",
+              "fr": "Ténong n'arrive pas à dormir il ne fait que se rouler sur le lit (sur sa couche).",
+              "en": "Tenong cannot get to sleep; he does nothing but roll about on the bed (on his couch).",
+              "zh": "Tenong 睡不著，只是在床上（在他的臥榻上）翻來覆去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BQLI",
+      "tag": "(BQ'LI) (R)",
+      "fr": "Echarde - obstacle.",
+      "en": "Splinter - obstacle.",
+      "zh": "尖刺——障礙物。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BQLIT",
+      "tag": "(BQ'LIT) (R)",
+      "fr": "Jambe.",
+      "en": "Leg.",
+      "zh": "腿。",
+      "examples": [
+        {
+          "t": "Mnalox kana bq'lit mo pax nksaan mo s'xiga",
+          "fr": "Toute ma jambe (mes jambes) me fait mal depuis ma marche de hier.",
+          "en": "My whole leg (my legs) has been hurting since my walk yesterday.",
+          "zh": "自從昨天走了路，我的整條腿（雙腿）都在痛。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmbq'lit",
+          "paradigm": "°Tmbq'lit, tbq'lit, tbqliti, tbqlitan, tbqlitun",
+          "fr": "Se mettre à genoux = s'agenouiller.",
+          "en": "To go down on one's knees = to kneel.",
+          "zh": "跪下＝下跪。",
+          "examples": [
+            {
+              "t": "Ana so tmbq'lit ttxmoqo knan o, ida ini soa ka lnglongan mo",
+              "fr": "même si tu te mets à genoux pour me prier (vénérer), Je ne puis pas accepter (mon coeur ne se décide pas à accepter).",
+              "en": "even if you go down on your knees to beg (venerate) me, I cannot accept (my heart cannot bring itself to accept).",
+              "zh": "即使你跪下來求我（敬拜我），我也無法接受（我的心下不了決心接受）。"
+            }
+          ]
+        },
+        {
+          "form": "Tbqlitan",
+          "fr": "Agenouilloir - Lieu, temps pour se mettre à genoux.",
+          "en": "Kneeler - place or time for kneeling.",
+          "zh": "跪凳——下跪的地方、時刻。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BQ'LO",
+      "tag": "(R)",
+      "fr": "Bosse - aspérité (de terrain).",
+      "en": "Bump - unevenness (of the ground).",
+      "zh": "隆起——（地面的）凹凸不平。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbq'lo",
+          "fr": "Plein d'aspérités, de dénivellations - raboteux.",
+          "en": "Full of bumps and uneven spots - rough.",
+          "zh": "滿是凹凸與高低不平——崎嶇不平。",
+          "examples": [
+            {
+              "t": "Pslgui bi ka \"lu ni tblai kana mbq'lo",
+              "fr": "Redresse la route et égalise ses aspérités",
+              "en": "Straighten the road and level out its bumps",
+              "zh": "把路修直，並把凹凸不平之處整平"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BQ'LUI",
+      "tag": "(R)",
+      "fr": "Menton (du visage humain).",
+      "en": "Chin (of the human face).",
+      "zh": "（人臉的）下巴。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BQLOS",
+      "tag": "(BQXOS) (R)",
+      "fr": "Cadavre - cimetière - tombe.",
+      "en": "Corpse - cemetery - grave.",
+      "zh": "屍體——墓地——墳墓。",
+      "examples": [
+        {
+          "t": "Wada mo psaan sapax xpuyan ka bqlos nia",
+          "fr": "J'ai déposé son cadavre à la cuisine. (nb. Les taroko n'avaient pas du tout l'habitude d'avoir des cimetières; leurs morts étaient enterrés sous l'estrade servant de lit à la maisonnée accroupis la tête en haut, enveloppés dans une toile de chanvre, ou à l'extérieur,dans la nature, s'ils étaient morts de mort violente.",
+          "en": "I laid his corpse in the kitchen. (n.b. The Taroko had no custom at all of having cemeteries; their dead were buried under the platform serving as the household's bed, crouched with the head upright, wrapped in a hemp cloth, or outside, in the wild, if they had died a violent death.",
+          "zh": "我把他的遺體安放在廚房裡。（註：太魯閣人完全沒有設墓地的習俗；死者被葬在充當全家床鋪的臺架之下，蹲踞而頭朝上，裹以麻布；若是死於非命，則葬在屋外野地裡。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BSIYAQ",
+      "tag": "(R)",
+      "fr": "Longtemps - pendant une longue durée.",
+      "en": "A long time - for a long duration.",
+      "zh": "長久——很長的一段時間。",
+      "examples": [
+        {
+          "t": "Mxa so bsiyaq da?",
+          "fr": "Tu seras long ?, Tu pars pour longtemps ?",
+          "en": "Will you be long? Are you going away for a long time?",
+          "zh": "你會去很久嗎？你要離開很久嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kbsiyaq",
+          "fr": "forme négative de: BSIYAQ.",
+          "en": "negative form of BSIYAQ.",
+          "zh": "BSIYAQ 的否定形。",
+          "examples": [
+            {
+              "t": "Ini kbsiyaq do, nii dole ka xea",
+              "fr": "Pas longtemps après, le revoilà de nouveau.",
+              "en": "Not long after, here he is again.",
+              "zh": "沒過多久，他又回來了。"
+            }
+          ]
+        },
+        {
+          "form": "Knbsyaqan",
+          "fr": "Durée - la quantité de temps.",
+          "en": "Duration - the amount of time.",
+          "zh": "期間——時間的長短。",
+          "examples": [
+            {
+              "t": "Mtaga ko ka mtaga; qxnu ka knbsyaqan?",
+              "fr": "Pour attendre, je veux bien attendre; ce sera pour combien de temps ?",
+              "en": "As for waiting, I am quite willing to wait; but for how long will it be?",
+              "zh": "等是可以等；但要等多久呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BSKOL",
+      "tag": "(BSQOL) (R)",
+      "paradigm": "°Bskol, bskol, bskli, bsklan, bsklun.",
+      "fr": "Lier très fort - serrer très fort tout autour - resserrer.",
+      "en": "To bind very tightly - to squeeze very tightly all around - to tighten.",
+      "zh": "緊緊綁住——四周緊緊勒住——收緊。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbskol",
+          "fr": "Qui est serré - qui est lié très fort.",
+          "en": "That is tight - that is bound very tightly.",
+          "zh": "緊的——綁得很緊的。",
+          "examples": [
+            {
+              "t": "Mbskol bi ka gasil kingal lubwi nii, ini kbskol ka kingal ga; ya xan, bsklun mo tityex ka gasil nia",
+              "fr": "Ce sac est bien lié (fortement), celui là non; attends un peu, je vais resserrer la ficelle.",
+              "en": "This sack is well tied (tightly), that one is not; wait a moment, I will tighten its string.",
+              "zh": "這個袋子綁得很緊，那個沒有；等一下，我來把它的繩子勒緊。"
+            }
+          ]
+        },
+        {
+          "form": "Tbskol",
+          "fr": "Qui est étranglé - qui est serré très fort.",
+          "en": "Who is strangled - that is squeezed very tightly.",
+          "zh": "被勒住的——被勒得很緊的。",
+          "examples": [
+            {
+              "t": "Xtian na mulus pila kska \"lu xea mnsa tbskol da",
+              "fr": "Après avoir jeté son argent là au milieu de la route, il est allé se pendre.",
+              "en": "After throwing his money down there in the middle of the road, he went and hanged himself.",
+              "zh": "他把錢丟在路中央之後，就去上吊了。"
+            }
+          ]
+        },
+        {
+          "form": "Bsklan",
+          "fr": "ligature - étranglement - lieu du resserrement.",
+          "en": "ligature - strangulation - place of tightening.",
+          "zh": "綁紮處——勒緊——收緊之處。",
+          "examples": [
+            {
+              "t": "klxangi bi ka bsklan aadi na mpslxlax (mpslexlax)",
+              "fr": "Surveille bien la ligature pour qu'elle ne se desserre pas.",
+              "en": "Keep a close watch on the ligature so that it does not come loose.",
+              "zh": "好好留意那綁紮處，別讓它鬆脫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BSLAT",
+      "tag": "(R)",
+      "fr": "Avare - peu généreux.",
+      "en": "Miserly - not very generous.",
+      "zh": "吝嗇——不大方。",
+      "examples": [
+        {
+          "t": "Tayai bi bslat so",
+          "fr": "Oh la! Quelle avarice la tienne!",
+          "en": "Oh my! What miserliness yours is!",
+          "zh": "哎呀！你怎麼這麼吝嗇！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knbslat",
+          "fr": "Intensité d'avarice.",
+          "en": "Intensity of miserliness.",
+          "zh": "吝嗇的程度。",
+          "examples": [
+            {
+              "t": "Tayai bi knbslat so!",
+              "fr": "Oh la! Comme tu es avare!",
+              "en": "Oh my! How stingy you are!",
+              "zh": "哎呀！你真吝嗇！"
+            },
+            {
+              "t": "Ini kbslat ka tama mo",
+              "fr": "Mon père n'est pas avare.",
+              "en": "My father is not stingy.",
+              "zh": "我父親並不吝嗇。"
+            }
+          ]
+        },
+        {
+          "form": "Mbslat",
+          "fr": "Celui qui est avare = un radin.",
+          "en": "One who is miserly = a skinflint.",
+          "zh": "吝嗇的人＝小氣鬼。",
+          "examples": [
+            {
+              "t": "Naqex bi txeyan ka dmbslat",
+              "fr": "Il ne fait pas bon vivre avec des avares. (var. = Mb'so)",
+              "en": "It is not pleasant living with misers. (var. Mb'so)",
+              "zh": "和吝嗇鬼一起生活很不好受。（或：Mb'so）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "B'SO",
+      "tag": "(R)",
+      "fr": "Avare - radin - pas généreux. ( syn. BSLAT).",
+      "en": "Miserly - stingy - not generous. (syn. BSLAT).",
+      "zh": "吝嗇——小氣——不大方。（同義詞：BSLAT）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mb'so",
+          "fr": "Près de ses sous - avare.",
+          "en": "Tight with his money - miserly.",
+          "zh": "捨不得花錢——吝嗇。",
+          "examples": [
+            {
+              "t": "Uxai ko mb'so (vl.uxai ko ka mb'so) Ongat pila mo!",
+              "fr": "Ce n'est pas que je sois avare! c'est que je n'ai pas d'argent!",
+              "en": "It is not that I am stingy! It is that I have no money!",
+              "zh": "不是我吝嗇！是我沒有錢！"
+            },
+            {
+              "t": "Ana manu ka saon so mesa o, adi so na byeqon! Mb'so bi ka sadyaq kia!",
+              "fr": "Quoi que tu ailles demander il te le refusera(il ne te le donnera pas)! cette personne là est un avare!",
+              "en": "Whatever you go and ask for, he will refuse you (he will not give it to you)! That person is a miser!",
+              "zh": "無論你去要什麼，他都會拒絕你（不會給你）！那個人是個吝嗇鬼！"
+            }
+          ]
+        },
+        {
+          "form": "Knb'so",
+          "fr": "Intensité d'avarice.",
+          "en": "Intensity of miserliness.",
+          "zh": "吝嗇的程度。",
+          "examples": [
+            {
+              "t": "Taan mo do o, ida so xlnasun ka knb'so daxa",
+              "fr": "D'après ce que je vois, en fait d'avarice tu dépasses les autres.",
+              "en": "From what I see, in miserliness you surpass the others.",
+              "zh": "依我看，論吝嗇你勝過其他人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BSQLOL",
+      "tag": "(BSQ'LOL) (R.= ?)",
+      "fr": "Les aliments qui brûlent dans la marmite.",
+      "en": "Food that burns in the pot.",
+      "zh": "在鍋裡燒焦的食物。",
+      "examples": [
+        {
+          "t": "Tai bi aadi mbsqlol ka idao so da",
+          "fr": "Fais attention que ton riz ne brûle pas !",
+          "en": "Take care that your rice does not burn!",
+          "zh": "小心別讓你的飯燒焦了！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BSUKAN",
+      "tag": "(R. = BUSUK ?)",
+      "fr": "Ivre - titubant.",
+      "en": "Drunk - staggering.",
+      "zh": "醉——步履蹣跚。",
+      "examples": [
+        {
+          "t": "Ana smxangan o, ya skui lnglongan! Bsukan ka xea!",
+          "fr": "Même s'il t'injurie, ne prends pas celà à coeur; il est ivre!",
+          "en": "Even if he insults you, do not take it to heart; he is drunk!",
+          "zh": "即使他辱罵你，也別放在心上；他喝醉了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sbsukan",
+          "fr": "Enivrant - qui enivre.",
+          "en": "Intoxicating - that makes one drunk.",
+          "zh": "使人醉的——令人醺醉的。",
+          "examples": [
+            {
+              "t": "Sbsukan bi sadyaq (sadyaqon) ka maxon nii",
+              "fr": "cette boisson enivre vraiment les gens.",
+              "en": "this drink really makes people drunk.",
+              "zh": "這種酒真會醉人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BTAKAN",
+      "tag": "( BTAQAN ?) (R)",
+      "fr": "Très grosse éspèce de bambou (10 et 15 cm. de diamètre).",
+      "en": "Very large species of bamboo (10 to 15 cm in diameter).",
+      "zh": "非常粗大的竹子品種（直徑 10 至 15 公分）。",
+      "examples": [
+        {
+          "t": "Kingal pusu btakan",
+          "fr": "Un pied de ces bambous; vl. Une plantation de ces bambous.",
+          "en": "One of these bamboo plants; var. a stand (plantation) of these bamboos.",
+          "zh": "一株這種竹子；或：一片這種竹林。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BTAQAN",
+      "tag": "(R)",
+      "fr": "Jambe (surtout la partie haute).",
+      "en": "Leg (especially the upper part).",
+      "zh": "腿（尤指大腿部分）。",
+      "examples": [
+        {
+          "t": "Pusu btaqan",
+          "fr": "Col du fémur.",
+          "en": "Neck of the femur.",
+          "zh": "股骨頸。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BTELYAQ",
+      "tag": "(R)",
+      "fr": "Cuisse - partie de la jambe du genou à la hanche.",
+      "en": "Thigh - the part of the leg from the knee to the hip.",
+      "zh": "大腿——腿部從膝蓋到髖部的部分。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BTUDAN",
+      "tag": "",
+      "fr": "(R. LUTUT ? et BTUDAN serait contraction de PLTUDAN signifiant l'endroit où est faite la jonction ?).",
+      "en": "(Root LUTUT? And BTUDAN would be a contraction of PLTUDAN, meaning the place where the join is made?).",
+      "zh": "（詞根為 LUTUT？而 BTUDAN 或為 PLTUDAN 之縮略，意指接合之處？）。",
+      "examples": [
+        {
+          "t": "Akai wit! Mnalox kana btudan xei mo!",
+          "fr": "Ce que je puis être fatigué! Toutes les jointures de mon corps me font mal!",
+          "en": "How tired I am! All the joints of my body ache!",
+          "zh": "我怎麼這麼累！我全身的關節都在痛！"
+        },
+        {
+          "t": "Ini toko ka gasil mo, adi nyeqan btudun so xo ?",
+          "fr": "Ma corde n'est pas assez longue; en aurais tu un morceau pour la rallonger ?",
+          "en": "My rope is not long enough; would you have a piece to lengthen it?",
+          "zh": "我的繩子不夠長；你有沒有一段可以把它接長？"
+        },
+        {
+          "t": "Ma msloxao ka nii! Ya bi pntudan (bntudan ?)(pnltudan ?)ima ?",
+          "fr": "Cette ligature est bien lâche! Qui est donc bien qui l'a faite ?",
+          "en": "This ligature is quite loose! Who on earth made it?",
+          "zh": "這個綁紮處真鬆！到底是誰綁的？"
+        }
+      ],
+      "subs": []
+    }
+  ]
+}

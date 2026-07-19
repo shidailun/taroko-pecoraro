@@ -1,0 +1,655 @@
+{
+  "pages": [186, 189],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "MALU",
+      "tag": "(R)",
+      "fr": "Bon - bien - beau.",
+      "en": "Good - well - beautiful.",
+      "zh": "好、良善、美。",
+      "examples": [
+        {
+          "t": "Malu bi taan ka malu bi sadyaq kia",
+          "fr": "Cette très bonne personne est très belle à voir (Cette brave personne fait plaisir à voir).",
+          "en": "This very good person is very beautiful to look at (This fine person is a pleasure to behold).",
+          "zh": "這位很善良的人看起來很美（這位好人令人賞心悅目）。"
+        },
+        { "t": "Malu taan", "fr": "Beau (à voir).", "en": "Handsome (to look at).", "zh": "好看（美觀）。" },
+        { "t": "Malu bxangan", "fr": "Beau à entendre.", "en": "Pleasant to hear.", "zh": "好聽。" },
+        { "t": "Malu oqon", "fr": "Bon (facile) à manger - Gourmand.", "en": "Good (easy) to eat - gluttonous.", "zh": "好吃（容易入口）——貪吃。" },
+        { "t": "Malu kalat", "fr": "beau temps.", "en": "fine weather.", "zh": "好天氣。" },
+        { "t": "Malu lnglongan", "fr": "Qui a du cœur, bien intentionné.", "en": "Kind-hearted, well-meaning.", "zh": "有心腸的、好意的。" },
+        { "t": "Malu kuxul", "fr": "Joyeux.", "en": "Joyful.", "zh": "快樂的。" },
+        { "t": "Malu tunuç", "fr": "Intelligent.", "en": "Intelligent.", "zh": "聰明的。" },
+        { "t": "Malu sadyaq", "fr": "brave personne.", "en": "a fine person.", "zh": "好人。" },
+        { "t": "Malu qnita", "fr": "Bien disposé.", "en": "Well-disposed.", "zh": "心地好的。" }
+      ],
+      "subs": [
+        {
+          "form": "Mnalu",
+          "fr": "Etre bien ensemble - s'entr'aimer. (nb. On trouve souvent dans le même sens : MKMALU).",
+          "en": "To be close / well together - to love one another. (n.b. One often finds MKMALU with the same meaning).",
+          "zh": "和睦相處——彼此相愛。（註：常見同義詞 MKMALU。）",
+          "examples": [
+            {
+              "t": "Mnalu bi ka Mikat ni Ingai",
+              "fr": "Mikatz et Ingai sont bien ensemble.",
+              "en": "Mikatz and Ingai get along well together.",
+              "zh": "Mikatz 和 Ingai 很和睦。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmalu",
+          "fr": "Désirer être bien, en bonne santé - (parfois = être bien ensemble.)",
+          "en": "To wish to be well, in good health - (sometimes = to be well together.)",
+          "zh": "希望安好、健康——（有時＝和睦相處。）",
+          "examples": [
+            {
+              "t": "Mkmalu so bi ka iso o, ini ko kmkmalu ka yako",
+              "fr": "Toi tu aimerais bien guérir, moi pas !",
+              "en": "You would really like to get better, but not me!",
+              "zh": "你很想康復，我卻不想！"
+            }
+          ]
+        },
+        {
+          "form": "Nnalu",
+          "fr": "1) A partir du bien, du beau, du bon ; 2) Bien, bon (dans le passé) ; 3) Parmi ce qui est bon, bien, beau.",
+          "en": "1) Starting from what is good, beautiful; 2) Well, good (in the past); 3) Among what is good, well, beautiful.",
+          "zh": "1) 從好的、美的、良善的事物而來；2) 好、良善（過去式）；3) 在好的、良善的、美的事物之中。",
+          "examples": [
+            {
+              "t": "Nnalu s'xiga o, wada naqex dole",
+              "fr": "De bien qu'il était hier, le voilà de nouveau mal.",
+              "en": "Well as he was yesterday, here he is unwell again.",
+              "zh": "他昨天還好好的，如今又不舒服了。"
+            },
+            {
+              "t": "Kingal so nnalu sadyaq ka iso",
+              "fr": "Toi tu es l'une parmi les bonnes personnes.",
+              "en": "You are one of the good people.",
+              "zh": "你是好人之一。"
+            },
+            {
+              "t": "Nnalu suxal ka xea",
+              "fr": "Il était bien autrefois.",
+              "en": "He was well in the past.",
+              "zh": "他從前是好的。"
+            }
+          ]
+        },
+        {
+          "form": "Knalu",
+          "fr": "Sois bien ! - guéris (ordre) ! - Forme négative de MALU.",
+          "en": "Be well! - get better (imperative)! - Negative form of MALU.",
+          "zh": "要好起來！——康復吧（命令式）！——MALU 的否定形。",
+          "examples": [
+            {
+              "t": "Knalu n'xali da! Paro ta bi tbyaxan ka sayang",
+              "fr": "Dépêche toi de guérir ! Nous avons beaucoup de travail maintenant.",
+              "en": "Hurry up and get well! We have a lot of work now.",
+              "zh": "快點康復！我們現在有很多工作。"
+            },
+            {
+              "t": "Ana no si spoxe o, ini kmalu ka tunuç no",
+              "fr": "J'ai beau me soigner, ma tête ne guérit pas !",
+              "en": "No matter how I treat myself, my head won't get better!",
+              "zh": "我再怎麼醫治，我的頭還是不好！"
+            }
+          ]
+        },
+        {
+          "form": "Knmalu",
+          "fr": "Intensité de bon, de bien.",
+          "en": "Intensity of good, of well.",
+          "zh": "「好、良善」的強調（程度）。",
+          "examples": [
+            {
+              "t": "Smola ko bi nita knmalu lnglongan nia",
+              "fr": "Celà ne fait envie en voyant combien il est bon !",
+              "en": "It makes one envious to see how good he is!",
+              "zh": "看到他多麼善良，真讓人羨慕！"
+            }
+          ]
+        },
+        {
+          "form": "Knmlaan",
+          "fr": "La bonté - la valeur - la beauté.",
+          "en": "Goodness - worth - beauty.",
+          "zh": "良善——價值——美。",
+          "examples": [
+            {
+              "t": "A sao knmlaan Aki ka wada malu ka papaq mo da",
+              "fr": "C'est grâce à la bonté de Aki que mon pied est guéri.",
+              "en": "It is thanks to Aki's goodness that my foot has healed.",
+              "zh": "多虧了 Aki 的善良，我的腳才康復了。"
+            }
+          ]
+        },
+        {
+          "form": "Mpanalu (mp'nalu)",
+          "fr": "Deviendra bon, bien, sain.",
+          "en": "Will become good, well, healthy.",
+          "zh": "將會變好、康復、健康。",
+          "examples": [
+            {
+              "t": "Ya kiso (kiiso), adi biyao mpanalu ka papaq so",
+              "fr": "N'aie pas peur ! Ton pied guérira très vite !",
+              "en": "Don't be afraid! Your foot will heal very quickly!",
+              "zh": "別怕！你的腳很快就會好！"
+            },
+            {
+              "t": "Mpanalu so maxon",
+              "fr": "Ce sera une bonne boisson pour toi.",
+              "en": "It will be a good drink for you.",
+              "zh": "這對你會是好喝的飲料。"
+            }
+          ]
+        },
+        {
+          "form": "Pkmalu",
+          "paradigm": "° Mpkmalu, pkmalu, pkmloe (?), pknluan, pknluon.",
+          "fr": "Guérir - remettre en état - bonifier - réparer.",
+          "en": "To heal - to restore - to improve - to repair.",
+          "zh": "治好——修復——改善——修理。",
+          "examples": [
+            {
+              "t": "Uxai yako ka pnkmalu sunan?",
+              "fr": "N'est ce pas moi qui t'ai guéri ?",
+              "en": "Wasn't it I who healed you?",
+              "zh": "不是我把你治好的嗎？"
+            },
+            {
+              "t": "Psaon niso natas ppkmalu no ka tunuç so",
+              "fr": "Je veux t'envoyer un peu étudier pour te remettre un peu la tête en place (pour rendre ta tête bonne).",
+              "en": "I want to send you to study a little to set your head straight (to make your head good).",
+              "zh": "我想送你去讀點書，好讓你的頭腦清醒一點（讓你的頭腦變好）。"
+            }
+          ]
+        },
+        {
+          "form": "Pknluon",
+          "fr": "Ce qu'on veut, doit améliorer.",
+          "en": "What one wants to, or must, improve.",
+          "zh": "想要、應當改善的事物。",
+          "examples": [
+            {
+              "t": "Wada so pknluon sknuan ka sapax so?",
+              "fr": "Quand est ce que tu t'es mis à réparer ta maison ?",
+              "en": "When did you start repairing your house?",
+              "zh": "你什麼時候開始修理你的房子？"
+            }
+          ]
+        },
+        {
+          "form": "Sknalu",
+          "fr": "(moyen, instrument) pour que soit bon, bonifié.",
+          "en": "(means, instrument) so that (something) be good, improved.",
+          "zh": "（方法、工具）使之變好、改善。",
+          "examples": [
+            {
+              "t": "Miyax so sknalu lnglongan na xo",
+              "fr": "Est ce que tu viens le consoler (vl. le remettre un peu sur la bonne route) ?",
+              "en": "Are you coming to comfort him (var. to set him back a bit on the right path)?",
+              "zh": "你是來安慰他（或：把他稍微導回正途）嗎？"
+            },
+            {
+              "t": "Ya manu bi ka snkmalu kuxul na sndurai",
+              "fr": "Qu'est ce qui a bien pu le mettre de bonne humeur ces derniers temps ?",
+              "en": "What could have put him in such a good mood lately?",
+              "zh": "最近是什麼讓他心情這麼好？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MAMI",
+      "tag": "",
+      "fr": "(Est-ce bien une racine taroko ?) = Orange.",
+      "en": "(Is this really a Taroko root?) = Orange (the fruit).",
+      "zh": "（這真的是太魯閣語詞根嗎？）＝ 橘子。",
+      "examples": [
+        {
+          "t": "Nxmaan sktana no ka pusu mami bukwi sapax so",
+          "fr": "C'est feu mon père qui a planté l'oranger qui est derrière ta maison.",
+          "en": "It was my late father who planted the orange tree behind your house.",
+          "zh": "是我已故的父親種下你家後面的橘子樹。"
+        }
+      ]
+    },
+    {
+      "hw": "MANU",
+      "tag": "(R)",
+      "fr": "Que - quoi. (Relatif ou interrogatif très usités).",
+      "en": "That - what. (Relative or interrogative, very much in use).",
+      "zh": "什麼——何（關係詞或疑問詞，極常用）。",
+      "examples": [
+        { "t": "Manu bi ka kari so", "fr": "Qu'est ce donc que tu dis ?", "en": "What on earth are you saying?", "zh": "你到底在說什麼？" },
+        { "t": "Ongat ana manu", "fr": "Il n'y a rien !", "en": "There is nothing!", "zh": "什麼都沒有！" },
+        { "t": "Ana manu", "fr": "Tout - quoi que ce soit.", "en": "Anything - whatever it may be.", "zh": "任何——無論什麼。" },
+        {
+          "t": "Manu ka tama so o, ga ino ka sayang?",
+          "fr": "A propos de ton père ; où est il maintenant ?",
+          "en": "As for your father; where is he now?",
+          "zh": "說到你父親；他現在在哪裡？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mmanu",
+          "fr": "devenir quoi ?",
+          "en": "to become what?",
+          "zh": "變成什麼？",
+          "examples": [
+            { "t": "Mmanu nano bi da", "fr": "Qu'est ce que vous êtes devenus ?", "en": "What have you become?", "zh": "你們變成怎樣了？" }
+          ]
+        },
+        {
+          "form": "Mpananu",
+          "fr": "Deviendra quoi ?",
+          "en": "will become what?",
+          "zh": "將變成什麼？",
+          "examples": [
+            {
+              "t": "Ini namo matas sayang do, mpananu namo xeti da?",
+              "fr": "Si vous n'étudiez pas aujourd'hui, que deviendrez vous plus tard ?",
+              "en": "If you don't study today, what will become of you later on?",
+              "zh": "你們今天若不讀書，將來會變成怎樣？"
+            },
+            { "t": "Mpanamo manu", "fr": "Que deviendrez vous ?", "en": "What will you become?", "zh": "你們會變成什麼？" }
+          ]
+        },
+        {
+          "form": "Snanu (?)",
+          "fr": "Pour être quoi ?",
+          "en": "To be what for?",
+          "zh": "為了成為什麼？"
+        },
+        {
+          "form": "Snmanu",
+          "fr": "C'est à propos de quoi ? (Interr. ou non).",
+          "en": "What is it about? (Interrogative or not).",
+          "zh": "是關於什麼？（疑問或非疑問）。",
+          "examples": [
+            { "t": "Snmanu namo da", "fr": "Quelle est la cause de votre différend ?", "en": "What is the cause of your quarrel?", "zh": "你們爭執的原因是什麼？" },
+            {
+              "t": "Mntdiyal nami s'xiga o, uxai nami snmanu; wana bi pila!",
+              "fr": "Nous nous sommes attrapés hier, ce n'était pour rien d'autre que l'argent.",
+              "en": "We came to blows yesterday, it was over nothing but money.",
+              "zh": "我們昨天吵起來，不為別的，就為了錢。"
+            }
+          ]
+        },
+        {
+          "form": "Msnanu",
+          "fr": "Quelle relation réciproque - être reliés à propos de quoi ?",
+          "en": "What reciprocal relationship - to be connected about what?",
+          "zh": "有什麼相互關係——因何而彼此相關？",
+          "examples": [
+            { "t": "Msnanu ta ka ita ?", "fr": "Qu'est ce qu'il y a de commun entre nous ?", "en": "What do we have in common?", "zh": "我們之間有什麼共同點？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MASAK",
+      "tag": "(R)",
+      "fr": "Arbre à savon - Savon - nom propre.",
+      "en": "Soap tree - Soap - proper name.",
+      "zh": "肥皂樹——肥皂——專有名詞。",
+      "examples": [
+        {
+          "t": "Bulax bi s'xiga ka masak no ni, ongat da! Ya wada ino? ... Wada no ddiyun sbaxo no lukus da",
+          "fr": "Il était neuf hier, mon morceau de savon et il n'y en a plus ! Où est il donc passé ? ... Je m'en suis servi pour laver les habits.",
+          "en": "It was new yesterday, my bar of soap, and now there's none left! Where has it gone? ... I used it to wash the clothes.",
+          "zh": "我的肥皂昨天還是新的，現在卻沒了！它到哪去了？……我拿去洗衣服了。"
+        }
+      ]
+    },
+    {
+      "hw": "MASO",
+      "tag": "(R)",
+      "fr": "Millet. (nb. C'est la nourriture principale traditionnelle des taroko ; c'est avec le MASO qu'ils font leur \"bierre\" ; c'est le MASO qui entre dans nombre de leurs légendes ou traditions).",
+      "en": "Millet. (n.b. It is the traditional staple food of the Taroko; it is with MASO that they make their \"beer\"; it is MASO that figures in many of their legends or traditions).",
+      "zh": "小米。（註：這是太魯閣人傳統的主食；他們用小米（MASO）釀「酒」；小米也出現在他們許多傳說或傳統中。）",
+      "examples": [
+        { "t": "Sinao maso", "fr": "vin (bierre) de millet.", "en": "millet wine (beer).", "zh": "小米酒。" },
+        { "t": "Idao maso", "fr": "millet cuit.", "en": "cooked millet.", "zh": "煮熟的小米。" },
+        { "t": "Tmukwi maso", "fr": "semer du millet.", "en": "to sow millet.", "zh": "播種小米。" },
+        { "t": "Knpax maso", "fr": "Travailler le millet (le champ de..).", "en": "to work the millet (the field of..).", "zh": "耕作小米（小米田……）。" }
+      ]
+    },
+    {
+      "hw": "MASPAT",
+      "tag": "(R)",
+      "fr": "Huit. (Étymologie : R. = SPAT = quatre ? - MA + SPAT ?)",
+      "en": "Eight. (Etymology: root = SPAT = four? - MA + SPAT?)",
+      "zh": "八。（詞源：詞根 ＝ SPAT ＝ 四？——MA ＋ SPAT？）",
+      "examples": [
+        { "t": "Maxal maspat", "fr": "Dixhuit.", "en": "Eighteen.", "zh": "十八。" },
+        { "t": "Maspat n'xalan", "fr": "Quatre-vingt.", "en": "Eighty.", "zh": "八十。" }
+      ],
+      "subs": [
+        {
+          "form": "Mmaspat",
+          "fr": "Huit fois.",
+          "en": "Eight times.",
+          "zh": "八次。",
+          "examples": [
+            {
+              "t": "Mnpia so mnqan sapax no? ... Mmaspat",
+              "fr": "Combien de fois as tu mangé chez moi ? ... Huit fois !",
+              "en": "How many times have you eaten at my place? ... Eight times!",
+              "zh": "你在我家吃過幾次飯？……八次！"
+            }
+          ]
+        },
+        {
+          "form": "Mkmaspat",
+          "fr": "Pendant huit jours (nuits) - âgé de huit jours (mois, ans).",
+          "en": "For eight days (nights) - aged eight days (months, years).",
+          "zh": "歷時八天（八夜）——八天（八個月、八歲）大。",
+          "examples": [
+            { "t": "Mkmaspat ko da xeni", "fr": "Voilà déjà huit jours que je suis là.", "en": "I have already been here eight days.", "zh": "我已經在這裡八天了。" },
+            { "t": "Mkmaspat diyax sida ka laqe", "fr": "L'enfant était âgé de huit jours à ce moment là.", "en": "The child was eight days old at that time.", "zh": "那時孩子八天大。" },
+            {
+              "t": "Mkmaspat idas ka nsaan no bbuyo",
+              "fr": "C'est pendant huit mois que je suis allé (resté) à la chasse.",
+              "en": "It was for eight months that I went (stayed) hunting.",
+              "zh": "我去（待在）山上打獵有八個月之久。"
+            }
+          ]
+        },
+        {
+          "form": "Snmaspat",
+          "fr": "Huit d'un seul coup - huit épaisseurs.",
+          "en": "Eight at once - eight layers/thicknesses.",
+          "zh": "一次八個——八層（厚度）。"
+        },
+        {
+          "form": "Pnmaspat",
+          "fr": "Huit à chacun - par groupes de huit - par tranches de huit.",
+          "en": "Eight to each - in groups of eight - in batches of eight.",
+          "zh": "每人八個——每組八個——每批八個。",
+          "examples": [
+            {
+              "t": "Pnpia namo xei papa",
+              "fr": "Vous êtes à combien par voyage ? (combien de personnes montent (dans le vehicule) à la fois ?)",
+              "en": "How many of you per trip? (how many people get on (the vehicle) at a time?)",
+              "zh": "你們每趟幾個人？（一次有多少人上（車）？）"
+            },
+            { "t": "Pnmaspat nami da", "fr": "Nous sommes huit à la fois.", "en": "We are eight at a time.", "zh": "我們一次八個人。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MATALO (M'TALO)",
+      "tag": "(R)",
+      "fr": "Six. (Étymologie : R. = T'LO = trois ? - = MA + T'LO ?)",
+      "en": "Six. (Etymology: root = T'LO = three? - = MA + T'LO?)",
+      "zh": "六。（詞源：詞根 ＝ T'LO ＝ 三？——＝ MA ＋ T'LO？）",
+      "examples": [
+        { "t": "Maxal matalo", "fr": "Seize.", "en": "Sixteen.", "zh": "十六。" },
+        { "t": "Mataro n'xalan matalo", "fr": "Soixante six.", "en": "Sixty-six.", "zh": "六十六。" }
+      ],
+      "subs": [
+        {
+          "form": "Mnatalo",
+          "fr": "Sixième fois.",
+          "en": "Sixth time.",
+          "zh": "第六次。",
+          "examples": [
+            {
+              "t": "Mnatalo sayang ka yaxan mo nita tlaman nia",
+              "fr": "C'est aujourd'hui la sixième fois que je viens le voir courir (voir sa course).",
+              "en": "Today is the sixth time I have come to watch him run (to watch his race).",
+              "zh": "今天是我第六次來看他跑步（看他賽跑）。"
+            }
+          ]
+        },
+        {
+          "form": "Mnmatalo",
+          "fr": "Six fois (effectives).",
+          "en": "Six times (actual/completed).",
+          "zh": "六次（實際完成）。",
+          "examples": [
+            { "t": "Mnmatalo ka nyaxan no skawas", "fr": "L'an passé je suis venu six fois.", "en": "Last year I came six times.", "zh": "去年我來了六次。" }
+          ]
+        },
+        {
+          "form": "Pnmatalo",
+          "fr": "Par groupes de six - Six à chacun.",
+          "en": "In groups of six - six to each.",
+          "zh": "每組六個——每人六個。",
+          "examples": [
+            {
+              "t": "Pnmatalo namo pila da",
+              "fr": "Vous recevez (avez, donnez, prenez) six pièces (à) chacun.",
+              "en": "You each receive (have, give, take) six coins.",
+              "zh": "你們每人領（有、給、拿）六枚錢幣。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmatalo",
+          "fr": "Pendant six espaces de temps.",
+          "en": "For six units of time.",
+          "zh": "歷時六個時段。",
+          "examples": [
+            {
+              "t": "Mnda alang ka paro bi sbxolan betak nkmatalo = Paro bi sbxolan nk'alang nami betak nkmatalo",
+              "fr": "Pendant six jours il y a eu (est passé) un grand vent chez nous.",
+              "en": "For six days there was (there passed) a great wind at our village.",
+              "zh": "我們部落颳了六天的大風。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MA'TONG",
+      "tag": "(R)",
+      "fr": "Aveugle - (éteint).",
+      "en": "Blind - (extinguished).",
+      "zh": "瞎的——（熄滅的）。",
+      "examples": [
+        {
+          "t": "Pax pnttingan (pntingan) na ka na'tong bi daolyaq na",
+          "fr": "C'est depuis sa naissance que ses yeux sont aveugles.",
+          "en": "His eyes have been blind since his birth.",
+          "zh": "他的眼睛自出生起就瞎了。"
+        }
+      ]
+    },
+    {
+      "hw": "MAWAN",
+      "tag": "(R)",
+      "fr": "Les maris de sœurs - Beaux-frères - Terme affectueux donné à un ami.",
+      "en": "The husbands of (two) sisters - brothers-in-law - an affectionate term given to a friend.",
+      "zh": "姊妹的丈夫（連襟）——姊夫、妹夫——對朋友的親暱稱呼。",
+      "examples": [
+        { "t": "Mxa so ino, wan?", "fr": "Où vas tu, beau frère ?", "en": "Where are you going, brother-in-law?", "zh": "你要去哪裡，連襟？" }
+      ]
+    },
+    {
+      "hw": "MAXAL",
+      "tag": "(R)",
+      "fr": "Dix.",
+      "en": "Ten.",
+      "zh": "十。",
+      "examples": [
+        {
+          "t": "Maxal kingal ni maxal maspat ni maxal lima o, spat n'xalan spat da",
+          "fr": "Onze et dixhuit et quinze, cela fait quarante quatre.",
+          "en": "Eleven and eighteen and fifteen, that makes forty-four.",
+          "zh": "十一加十八加十五，等於四十四。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'xalan",
+          "fr": "Dizaine (nb. est employé à la suite de chiffres simples : DAXA = Deux, spat = quatre etc... pour indiquer les dizaines.)",
+          "en": "A ten / decade (n.b. used after simple digits: DAXA = two, spat = four, etc... to indicate the tens.)",
+          "zh": "十（數位）（註：接在個位數之後使用：DAXA ＝ 二、spat ＝ 四……，用以表示「幾十」。）",
+          "examples": [
+            { "t": "Spat bi n'xalan", "fr": "Quarante seulement.", "en": "Forty only.", "zh": "只有四十。" },
+            { "t": "Spat n'xalan spat", "fr": "Quarante quatre.", "en": "Forty-four.", "zh": "四十四。" }
+          ]
+        },
+        {
+          "form": "Mnaxal",
+          "fr": "Dixième fois.",
+          "en": "Tenth time.",
+          "zh": "第十次。"
+        },
+        {
+          "form": "Mnnaxal",
+          "fr": "Dix fois accomplies.",
+          "en": "Ten times completed.",
+          "zh": "完成十次。",
+          "examples": [
+            { "t": "Mnnaxal ko sayang da! Baka bi da!", "fr": "Voilà déjà dix fois, cela suffit.", "en": "That's ten times already, that's enough.", "zh": "已經十次了，夠了。" }
+          ]
+        },
+        {
+          "form": "Mknaxal",
+          "fr": "Pendant dix jours, dix espaces de temps.",
+          "en": "For ten days, ten units of time.",
+          "zh": "歷時十天、十個時段。",
+          "examples": [
+            { "t": "Mknaxal nami daya", "fr": "Nous venons de passer dix jours là haut.", "en": "We have just spent ten days up there.", "zh": "我們剛在上面（山上）待了十天。" }
+          ]
+        },
+        {
+          "form": "Pnnaxal",
+          "fr": "Par groupes de dix - dix à chacun.",
+          "en": "In groups of ten - ten to each.",
+          "zh": "每組十個——每人十個。"
+        }
+      ]
+    },
+    {
+      "hw": "MA\"",
+      "tag": "",
+      "fr": "Particule très fréquente, préposée à une sentence lui donnant le sens d'interrogation mêlée de surprise, d'étonnement, de regret, de doute, de pourquoi etc.. (nb. Dans les pages précédentes, ce terme a été transcrit MA sans aucun signe pour indiquer le stop glottal réel qui suit l'émission de voix ; cette particule pourrait être orthographiée : MA\", et comporte en plus du stop glottal, presque toujours un arrêt de la voix, presque le temps d'une virgule).",
+      "en": "A very frequent particle, placed before a sentence to give it a sense of questioning mixed with surprise, astonishment, regret, doubt, of 'why', etc. (n.b. In the preceding pages this term was transcribed MA with no sign to indicate the real glottal stop that follows the emission of voice; this particle could be spelled MA\", and involves, besides the glottal stop, almost always a pause of the voice, nearly the length of a comma).",
+      "zh": "極常用的虛詞，置於句首，賦予該句帶有驚訝、詫異、遺憾、懷疑、「為何」等意味的疑問語氣。（註：在前面幾頁中，此詞被記作 MA，未加任何符號標示發聲後真正的喉塞音；此虛詞可拼作 MA\"，除喉塞音外，幾乎總伴隨語音的停頓，約一個逗號的長度。）",
+      "examples": [
+        {
+          "t": "Ma\" ini iyax !",
+          "fr": "1) Comment se fait-il qu'il ne soit pas venu ? 2) Tiens ! Il n'est pas venu ? 3) Alors ! C'est qu'il ne vient pas ? 4) Pourquoi n'est-il pas venu ? Etc..",
+          "en": "1) How come he hasn't come? 2) Well! He hasn't come? 3) So! He's not coming then? 4) Why hasn't he come? Etc.",
+          "zh": "1) 他怎麼會沒來？ 2) 咦！他沒來？ 3) 那麼！他是不來了？ 4) 他為什麼沒來？ 等等。"
+        }
+      ]
+    },
+    {
+      "hw": "MBL'XO (MBLXO)",
+      "tag": "(R)",
+      "crossRef": "BL'XO",
+      "fr": "Chef. (Ce terme existe encore parmi les anciens mais la plupart des jeunes ne le savent même pas !) VR. BL'XO.",
+      "en": "Chief. (This term still exists among the elders but most of the young people don't even know it!) See BL'XO.",
+      "zh": "首領。（此詞在長者中仍存在，但大多數年輕人甚至不知道！）參見 BL'XO。"
+    },
+    {
+      "hw": "MBUYAS",
+      "tag": "(R)",
+      "crossRef": "BUYAS",
+      "fr": "Ventre - qui a du ventre. VR. BUYAS.",
+      "en": "Belly - one who has a (big) belly. See BUYAS.",
+      "zh": "肚子——大腹便便的人。參見 BUYAS。"
+    },
+    {
+      "hw": "MILIT",
+      "tag": "(R)",
+      "fr": "Chèvre (et surtout : Chevreuil. Les taroko ne semblent pas avoir connu la chèvre domestique jusqu'à une époque très récente).",
+      "en": "Goat (and especially: roe deer / wild deer. The Taroko do not seem to have known the domestic goat until very recently).",
+      "zh": "山羊（尤指山羌／野生鹿科動物。太魯閣人似乎直到很近代才認識家山羊）。",
+      "examples": [
+        { "t": "Naqex bi tbugan ka milit", "fr": "Elever des chèvres n'est pas aisé.", "en": "Raising goats is not easy.", "zh": "養山羊並不容易。" },
+        { "t": "Milit Bbuyo", "fr": "Chèvres sauvages.", "en": "Wild goats.", "zh": "野生山羊。" },
+        { "t": "Tnabu milit", "fr": "Elever des chèvres.", "en": "To raise goats.", "zh": "飼養山羊。" },
+        { "t": "Mtabu milit", "fr": "Chevrier - pasteur.", "en": "Goatherd - herdsman.", "zh": "牧羊人——牧人。" }
+      ],
+      "subs": [
+        {
+          "form": "Mlitan",
+          "fr": "Oblique de MILIT.",
+          "en": "Oblique (case) of MILIT.",
+          "zh": "MILIT 的斜格形。",
+          "examples": [
+            {
+              "t": "Byeqon no mlitan ka qliyut",
+              "fr": "Ces feuilles de mûrier je veux les donner aux chèvres.",
+              "en": "These mulberry leaves, I want to give them to the goats.",
+              "zh": "這些桑葉，我想拿給山羊吃。"
+            }
+          ]
+        },
+        {
+          "form": "Mmilit",
+          "fr": "Les chèvres (pluriel) (vl. Mlnilit).",
+          "en": "The goats (plural) (var. Mlnilit).",
+          "zh": "（複數）山羊們（或：Mlnilit）。"
+        }
+      ]
+    },
+    {
+      "hw": "MILOQ",
+      "tag": "(R)",
+      "fr": "Cru - pas mûr.",
+      "en": "Raw - not ripe.",
+      "zh": "生的——未熟的。",
+      "examples": [
+        {
+          "t": "Sao balong lodoç o, miloq ka kuxul mo balae",
+          "fr": "Pour ce qui est des œufs, c'est non cuits que je les aime !",
+          "en": "As for eggs, it's raw that I really like them!",
+          "zh": "至於蛋，我最喜歡生的！"
+        }
+      ]
+    },
+    {
+      "hw": "MISAN",
+      "tag": "(R)",
+      "fr": "Hiver.",
+      "en": "Winter.",
+      "zh": "冬天。",
+      "examples": [
+        {
+          "t": "Misan da! Pasi ta nqalas malax taxot da",
+          "fr": "C'est l'hiver ! On est tout contents de se chauffer au feu.",
+          "en": "It's winter! We are all glad to warm ourselves at the fire.",
+          "zh": "冬天到了！我們都樂於在火邊取暖。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkmisan",
+          "fr": "Pendant l'hiver. (nb. On entend parfois ce terme employé pour désigner l'automne (saison pratiquement inconnue des taroko), peut-être à la place de : MPMISAN qui voudrait dire : L'hiver est en route).",
+          "en": "During the winter. (n.b. This term is sometimes heard used to designate autumn (a season practically unknown to the Taroko), perhaps in place of MPMISAN, which would mean: winter is on its way).",
+          "zh": "在冬天期間。（註：有時聽到此詞用來指秋天（太魯閣人幾乎不知的季節），或許是代替 MPMISAN，意為：冬天將至。）"
+        }
+      ]
+    },
+    {
+      "hw": "MIYAQ",
+      "tag": "(R)",
+      "fr": "Travail dans les champs en dehors des semailles et de la moisson. (= désherber, piocher, recueillir la menue récolte..). (Étymologie : R. ? - R. = IYAQ ?)",
+      "en": "Work in the fields apart from sowing and harvest. (= to weed, to hoe, to gather the minor produce..). (Etymology: root? - root = IYAQ?)",
+      "zh": "田間播種與收割以外的農活。（＝ 除草、鋤地、收集零星的作物……）（詞源：詞根？——詞根 ＝ IYAQ？）",
+      "examples": [
+        {
+          "t": "Iyux s'angal na ina mniyaq kmpaxan ka bobo",
+          "fr": "Ma mère est très pressée (de me voir marié) pour avoir une bru qui travaille dans les champs.",
+          "en": "My mother is in a great hurry (to see me married) to get a daughter-in-law who works in the fields.",
+          "zh": "我母親很急著（看我娶親），好有個能下田工作的媳婦。"
+        }
+      ]
+    }
+  ]
+}

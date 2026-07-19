@@ -1,0 +1,871 @@
+{
+  "pages": [370, 373],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pxlenas",
+        "paradigm": "°Mpxlenas, pxlenas, pxlnasi, pxlnasan, pxlnasun.",
+        "fr": "Faire dépasser.",
+        "en": "To make (something) go beyond, to make (it) exceed.",
+        "zh": "使超過。",
+        "examples": [
+          {
+            "t": "Glaani bi ka knldanan mo! Ya bi pxlnasi ka biyax mo knsx'dil mapa",
+            "fr": "Prends pitié de ma vieillesse! Ne me fais pas porter une charge au délà de mes forces (ne fais pas dépasser mes forces).",
+            "en": "Take pity on my old age! Do not make me carry a load beyond my strength (do not make me exceed my strength).",
+            "zh": "憐憫我的年老吧！不要讓我背負超過我體力的重擔（不要使我超出我的力量）。"
+          }
+        ]
+      },
+      {
+        "form": "Pxlnasan",
+        "fr": "Dépassement voulu, provoqué - un objet, ou un mobile, qu'on fait dépasser.",
+        "en": "A deliberate, deliberately caused overshooting — an object, or something movable, that one makes go too far.",
+        "zh": "刻意造成的超過——被人使其超出（界線）的物體或可移動之物。",
+        "examples": [
+          {
+            "t": "Ya so splang wada pxlnasan ka kingal \"löt gaga ?",
+            "fr": "Je suppose que tu as fait exprès de faire dépasser cette poutre ?",
+            "en": "I suppose you made this beam stick out too far on purpose?",
+            "zh": "我猜你是故意讓那根樑木超出（伸出太多）的吧？"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "X'LI",
+      "tag": "(XILI ?) (= R. ?)",
+      "fr": "Verser (liquide , grains, sable) - mettre dans.",
+      "en": "To pour (liquid, grain, sand) - to put into.",
+      "zh": "倒入（液體、穀粒、沙子）——放進去。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xm'li",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form (of the preceding).",
+          "zh": "同上——動詞形（前項之動詞形）。",
+          "examples": [
+            {
+              "t": "Sai xm'li kayo tlmaan ka ksia so",
+              "fr": "Va verser ton eau dans la cuvette (pour se laver).",
+              "en": "Go pour your water into the basin (to wash).",
+              "zh": "去把你的水倒進盆裡（以便洗滌）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'LO",
+      "tag": "(R)",
+      "fr": "Germer - poindre - sortir.",
+      "en": "To sprout - to shoot up - to come out.",
+      "zh": "發芽——冒出——長出。",
+      "examples": [
+        {
+          "t": "Ini x'lo ka nadas so bonga p'xpax!",
+          "fr": "Les tubercules de fleurs que tu as apportées ne germent pas.",
+          "en": "The flower tubers you brought do not sprout.",
+          "zh": "你帶來的花的塊莖不發芽。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "X'mlo",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form.",
+          "zh": "同上——動詞形。",
+          "examples": [
+            {
+              "t": "Xmlo balae ka nxmaan so g'xap",
+              "fr": "Les semences que tu avais semé germent très bien.",
+              "en": "The seeds you had sown are germinating very well.",
+              "zh": "你所播下的種子發芽得很好。"
+            }
+          ]
+        },
+        {
+          "form": "Xloan (?)",
+          "fr": "(nb. est-ce même forme que XLOAN de R. XELO = source de lumière ??) = Germination. (Faut-il écrire: Xlo'an ? Xlo\"an ? dans ce dérivé de X'LO (XLO\" ?) qui le distinguerait de Xloan dérivé de XELO?).",
+          "en": "(n.b. is this the same form as XLOAN from the root XELO = source of light??) = Germination. (Should one write: Xlo'an? Xlo\"an? in this derivative of X'LO (XLO\"?) which would distinguish it from Xloan derived from XELO?).",
+          "zh": "（註：這是否與源自詞根 XELO＝光源 的 XLOAN 為同一形式？？）＝發芽。（在 X'LO（XLO\"？）的這個派生詞中，是否應寫作 Xlo'an？Xlo\"an？以便和源自 XELO 的 Xloan 區分開來？）",
+          "examples": []
+        },
+        {
+          "form": "Px'lo",
+          "fr": "Faire germer - faire poindre.",
+          "en": "To make (something) sprout - to make it shoot up.",
+          "zh": "使發芽——使冒出。",
+          "examples": [
+            {
+              "t": "Smiyax nami bi koyoç ppx'lo nxmaan ta sndurai",
+              "fr": "Nous attendons (désirons) la pluie pour faire germer ce que nous avons semé dernièrement.",
+              "en": "We are waiting for (longing for) the rain to make what we sowed recently sprout.",
+              "zh": "我們正等待（渴望）雨水，好讓我們最近所播種的發芽。"
+            }
+          ]
+        },
+        {
+          "form": "Xlaan (Xlwaan ?)",
+          "fr": "(R. = X'LO ? - R. = X'LO ?) = Endroit, temps où germe? Vr. XELO.",
+          "en": "(root = X'LO? - root = X'LO?) = The place, the time where/when (something) germinates? Cf. XELO.",
+          "zh": "（詞根＝X'LO？——詞根＝X'LO？）＝發芽的地點、時間？參見 XELO。",
+          "examples": [
+            {
+              "t": "Xlaan xedao",
+              "fr": "(= Est), pourrait signifier: L'endroit où se lève le soleil (où germe le soleil).",
+              "en": "(= East), could mean: the place where the sun rises (where the sun sprouts).",
+              "zh": "（＝東方），可能意指：太陽升起的地方（太陽發芽之處）。"
+            }
+          ]
+        },
+        {
+          "form": "Mx'lo",
+          "fr": "Qui germe - qui sort - qui pousse.",
+          "en": "That which sprouts - which comes out - which grows.",
+          "zh": "發芽的——長出的——生長的。",
+          "examples": [
+            {
+              "t": "Xana mx'lo sayang ka maso!",
+              "fr": "Le millet germe tout juste en ce moment.",
+              "en": "The millet is just now sprouting.",
+              "zh": "小米此刻剛剛發芽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XLöS",
+      "tag": "(R)",
+      "fr": "En pente - abrupte - terrain en coteau.",
+      "en": "On a slope - steep - hillside terrain.",
+      "zh": "傾斜的——陡峭的——山坡地形。",
+      "examples": [
+        {
+          "t": "Soqe bi xlös ka \"lu kmpaxan ta!",
+          "fr": "Elle est vraiment trop abrupte la route qui va dans nos champs!",
+          "en": "The road that goes to our fields is really too steep!",
+          "zh": "通往我們田地的那條路實在太陡了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxlös (?)",
+          "fr": "Qui est en pente, abrupte, en coteau.",
+          "en": "That which is on a slope, steep, on a hillside.",
+          "zh": "位於斜坡上的、陡峭的、在山坡上的。",
+          "examples": [
+            {
+              "t": "Mxlös o, msbalae o ka kmpaxan so trabus?",
+              "fr": "Tes champs d'arachides sont ils plats? ou en coteau ?",
+              "en": "Are your peanut fields flat? or on a hillside?",
+              "zh": "你的花生田是平的？還是在山坡上的？"
+            }
+          ]
+        },
+        {
+          "form": "Knxlsan",
+          "fr": "Le degré de pente.",
+          "en": "The degree of slope.",
+          "zh": "傾斜的程度。",
+          "examples": [
+            {
+              "t": "Uxai so mk'la ka knxlsan \"lu nami. !",
+              "fr": "Est-ce que tu ne saurais pas combien notre route est en pente ?",
+              "en": "Don't you know how steep our road is?",
+              "zh": "難道你不知道我們的路有多陡嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Msxlös (?)",
+          "fr": "??",
+          "en": "??",
+          "zh": "？？",
+          "examples": [
+            {
+              "t": "Kana msxlös kmpaxan o, psblnuxi bi!",
+              "fr": "Tous les champs qui sont en pente, rends les plats.",
+              "en": "All the fields that are on a slope, make them flat.",
+              "zh": "所有位於斜坡上的田地，把它們弄平吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'LPIS",
+      "tag": "(R)",
+      "fr": "Mince.",
+      "en": "Thin.",
+      "zh": "薄。",
+      "examples": [
+        {
+          "t": "X'lpis xali ka malu",
+          "fr": "Un peu mince c'est mieux.",
+          "en": "A little thin is better.",
+          "zh": "稍微薄一點比較好。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xlpisan",
+          "fr": "Minceur.",
+          "en": "Thinness.",
+          "zh": "薄（的性質）。",
+          "examples": [
+            {
+              "t": "Xlpisan na ka ksugun mo balae",
+              "fr": "C'est à cause de sa minceur que j'ai peur.",
+              "en": "It is because of its thinness that I am afraid.",
+              "zh": "正是因為它薄，我才害怕。"
+            }
+          ]
+        },
+        {
+          "form": "Knxlpisan",
+          "fr": "Degré de minceur.",
+          "en": "Degree of thinness.",
+          "zh": "薄的程度。",
+          "examples": [
+            {
+              "t": "Ini pndka knxlpisan d'xa!",
+              "fr": "Leur degré de minceur n'est pas le même.",
+              "en": "Their degree of thinness is not the same.",
+              "zh": "它們的薄的程度並不相同。"
+            }
+          ]
+        },
+        {
+          "form": "Px'lpis",
+          "paradigm": "°Mpx'lpis, px'lpis, pxlpisi, pxlpisan, pxlpisun.",
+          "fr": "Amincir - rendre plus mince.",
+          "en": "To thin - to make thinner.",
+          "zh": "使變薄——弄得更薄。",
+          "examples": [
+            {
+              "t": "Pxlpisun so ka ktinox so xo ?",
+              "fr": "Est-ce que tu penses les amincir un peu tes planches ?",
+              "en": "Are you thinking of thinning your planks a bit?",
+              "zh": "你打算把你的木板削薄一點嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'LYEQ",
+      "tag": "(= R. ?)",
+      "crossRef": "XG'LYEQ",
+      "fr": "Déchiré - lacéré. Vr. XG'LYEQ et dérivés (même sens).",
+      "en": "Torn - lacerated. Cf. XG'LYEQ and its derivatives (same meaning).",
+      "zh": "撕裂的——撕碎的。參見 XG'LYEQ 及其派生詞（意義相同）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "X'LYEX",
+      "tag": "",
+      "fr": "Calomnier - vouloir du mal - nuire à quelqu'un.",
+      "en": "To slander - to wish (someone) ill - to harm someone.",
+      "zh": "誹謗——希望某人遭殃——傷害某人。",
+      "examples": [
+        {
+          "t": "Tayal bi ka x'lyex so sadyaq!",
+          "fr": "Qu'est-ce que tu peux dire du mal des gens (vl. avoir les gens en grippe!).",
+          "en": "How you keep speaking ill of people (var. having a grudge against people!).",
+          "zh": "你怎麼這麼會說人壞話（或：對人懷恨在心！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xm'lyex",
+          "paradigm": "°Xm'lyex, x'lyex, ? , xlyexan, xlyexon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form.",
+          "zh": "同上——動詞形。",
+          "examples": [
+            {
+              "t": "Wana bi iso ka xm'lyex knan kdiyax!",
+              "fr": "Il n'y a que toi qui m'en veuille (qui ne puisse pas me sentir)(chaque fois!).",
+              "en": "There is only you who bears me a grudge (who can't stand me)(every time!).",
+              "zh": "只有你老是恨我（受不了我）（每一次！）。"
+            }
+          ]
+        },
+        {
+          "form": "Mx'lyex",
+          "fr": "Qui calomnie - qui veut du mal.",
+          "en": "One who slanders - who wishes ill.",
+          "zh": "誹謗者——心懷惡意者。",
+          "examples": [
+            {
+              "t": "Klaon mo balae, ida so pusu mx'lyex ka iso!",
+              "fr": "Je le sais parfaitement, tu es un fieffé calomniateur !",
+              "en": "I know it perfectly well, you are an out-and-out slanderer!",
+              "zh": "我很清楚，你是個十足的誹謗者！"
+            },
+            {
+              "t": "Xbalao bi sadyaq ka mx'lyex knan da !",
+              "fr": "Ils sont nombreux à (il y a beaucoup de gens qui) me calomnient, qui me veulent du mal.",
+              "en": "They are numerous (there are many people) who slander me, who wish me ill.",
+              "zh": "有很多人誹謗我、對我心懷惡意。"
+            }
+          ]
+        },
+        {
+          "form": "Xlyexan",
+          "fr": "Calomnie faite.",
+          "en": "A slander that has been committed.",
+          "zh": "已造成的誹謗。",
+          "examples": [
+            {
+              "t": "Ana manu ka xlyexan d'xa o, ya bi sku lnglongan ka iso!",
+              "fr": "Quelles que soient les calomnies (faites par les autres), toi, ne garde pas cela dans ton coeur. (n'y prête pas attention!).",
+              "en": "Whatever the slanders (made by others), you, do not keep that in your heart (pay no attention to it!).",
+              "zh": "無論（別人所造的）誹謗是什麼，你都不要把它放在心裡（別去理會！）。"
+            },
+            {
+              "t": "Xlyexan so d'xa",
+              "fr": "Tu es l'objet de leur calomnies.",
+              "en": "You are the object of their slanders.",
+              "zh": "你是他們誹謗的對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XMADAN",
+      "tag": "(R)",
+      "fr": "Parents par alliance.",
+      "en": "Relatives by marriage (in-laws).",
+      "zh": "姻親。",
+      "examples": [
+        {
+          "t": "Xbalao balae ka xxmadan mo, ini mo klae smpu (smpu\") kana",
+          "fr": "Ma parentée (par alliance) est très nombreuse; Je n'arrive pas à les compter tous !",
+          "en": "My (in-law) kin are very numerous; I can't manage to count them all!",
+          "zh": "我的姻親非常多；我沒辦法把他們全都數清！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxmadan",
+          "fr": "Etre parents - devenir parents.",
+          "en": "To be relatives - to become relatives.",
+          "zh": "成為親戚——變成親戚。",
+          "examples": [
+            {
+              "t": "Mxmadan namo xo?",
+              "fr": "Est-ce que vous êtes parents (mutuellement) ?",
+              "en": "Are you (mutually) related?",
+              "zh": "你們（彼此）是親戚嗎？"
+            },
+            {
+              "t": "Ya bi piya xnkawas ka mnxmadan nami yami dAman?",
+              "fr": "Combien d'années peut il bien y avoir que nous sommes apparentés avec la famille d'Aman ?",
+              "en": "How many years can it be that we have been related to Aman's family?",
+              "zh": "我們和 Aman 一家結為親戚到底有多少年了呢？"
+            }
+          ]
+        },
+        {
+          "form": "Pnxmadan",
+          "fr": "Se comporter comme des parents par alliance.",
+          "en": "To behave like relatives by marriage.",
+          "zh": "表現得像姻親一樣。",
+          "examples": [
+            {
+              "t": "Ana msdxyaq bi ka dxea o, ida mpnxmadan pax suxal ka dxea.",
+              "fr": "Biens qu'ils soient très éloignés (de lignée), c'est depuis autrefois qu'ils se comportent comme parents.",
+              "en": "Although they are very distant (in lineage), it is from long ago that they have behaved as relatives.",
+              "zh": "儘管他們（血緣）很疏遠，但他們自古以來就以親戚相待。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XMALWI",
+      "tag": "(R. = XALWI)",
+      "crossRef": "XALWI",
+      "fr": "Revêtir - mettre sur soi. Vr. XALWI.",
+      "en": "To put on - to don (on oneself). Cf. XALWI.",
+      "zh": "穿上——披在身上。參見 XALWI。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XMAQOL",
+      "tag": "(R. = XAQOL)",
+      "crossRef": "XAQOL",
+      "paradigm": "°Xmaqol, xaqol, xqoli, xqolan, xqolun.",
+      "fr": "Transporter des objets lourds, surtout avec un véhicule.",
+      "en": "To transport heavy objects, especially with a vehicle.",
+      "zh": "搬運重物，尤其是用車輛。",
+      "examples": [
+        {
+          "t": "Saon xo xmaqol tasil kia",
+          "fr": "Tout à l'heure j'irai transporter des pierres.",
+          "en": "In a little while I will go transport stones.",
+          "zh": "等一下我要去搬運石頭。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xqolun",
+          "fr": "Ce qu'on veut, doit transporter.",
+          "en": "What one wants, must transport.",
+          "zh": "想要、必須搬運之物。",
+          "examples": [
+            {
+              "t": "Xqolun so knuwan ka taixe so?",
+              "fr": "Quand est-ce que tu transporteras ton fumier ?",
+              "en": "When will you transport your manure?",
+              "zh": "你什麼時候要搬運你的肥料？"
+            }
+          ]
+        },
+        {
+          "form": "Xqolan",
+          "fr": "Transport. § Naqex xqolan ka tasil = Le transport de la pierre est très pénible (très malaisé).",
+          "en": "Transport (haulage).",
+          "zh": "搬運。",
+          "examples": [
+            {
+              "t": "Naqex xqolan ka tasil",
+              "fr": "Le transport de la pierre est très pénible (très malaisé).",
+              "en": "The transport of stone is very laborious (very difficult).",
+              "zh": "石頭的搬運非常辛苦（非常費力）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XM'QLI",
+      "tag": "(R. = ??)",
+      "fr": "Etre envieux de quelqu'un - Vouloir du mal.",
+      "en": "To be envious of someone - to wish (them) ill.",
+      "zh": "嫉妒某人——心懷惡意。",
+      "examples": [
+        {
+          "t": "Balae bi xm'qli Banan ka xea; kika kmptöting na xeaan",
+          "fr": "Il est vraiment envieux de Ibannne, c'est pourquoi il voudrait le faire tomber (déchoir).",
+          "en": "He is truly envious of Ibannne, that is why he would like to bring him down (make him fall).",
+          "zh": "他真的很嫉妒 Ibannne，所以他想要把他扳倒（使他墮落）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XMUK",
+      "tag": "(= R. ? - R. = MUK ?)",
+      "crossRef": "SX'muk",
+      "fr": "enfermé - clos - fermé. Vr. SX'muk.",
+      "en": "shut in - closed - shut. Cf. SX'muk.",
+      "zh": "被關住的——封閉的——關閉的。參見 SX'muk。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmkan",
+          "fr": "Fermeture (?) - qui a été fermé.",
+          "en": "Closure (?) - that which has been closed.",
+          "zh": "關閉（？）——被關閉之物。",
+          "examples": [
+            {
+              "t": "Ga sapax xmkan (= Ga tloong sapax xmkan)",
+              "fr": "Dans la prison (la maison fermée ?) (= Il est (assis) dans la prison.).",
+              "en": "In the prison (the closed house?) (= He is (sitting) in the prison.).",
+              "zh": "在監獄裡（關閉的房子？）（＝他（坐）在監獄裡。）"
+            }
+          ]
+        },
+        {
+          "form": "Txmuk",
+          "fr": "Qui est enfermé.",
+          "en": "That which is shut in.",
+          "zh": "被關在裡面的。",
+          "examples": [
+            {
+              "t": "Ga txmuk sapax xea betak knklaan xedao pada",
+              "fr": "Il se tient (se tiennent) enfermé là dans la maison jusqu'au lever du soleil des chamoix (jusqu'aux premières lueurs du jour).",
+              "en": "He stays (they stay) shut in there in the house until the sunrise of the chamois (until the first light of day).",
+              "zh": "他（他們）待在那房子裡關著，直到山羊的日出（直到破曉的第一道光）。"
+            }
+          ]
+        },
+        {
+          "form": "Sxmuk (S'xmuk ?)",
+          "fr": "Pour être fermé (?), enfermé (?). Vr. SX'MUK.",
+          "en": "In order to be closed (?), shut in (?). Cf. SX'MUK.",
+          "zh": "為了被關閉（？）、被關住（？）。參見 SX'MUK。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XMUT",
+      "tag": "(R)",
+      "fr": "Peu importe - n'importe - seulement - arbitrairement.",
+      "en": "No matter - any (whatever) - only (merely) - arbitrarily.",
+      "zh": "無所謂——隨便——只是——任意地。",
+      "examples": [
+        {
+          "t": "Ana kia, ana b'xgai (baxgai), ana nqalox, ana mbanax, xmut ka yako.",
+          "fr": "Que ce soit celà, ou blanc, ou noir, ou rouge; peu m'importe !",
+          "en": "Whether it be that, or white, or black, or red; it matters little to me!",
+          "zh": "無論是那個、或白的、或黑的、或紅的；我都無所謂！"
+        },
+        {
+          "t": "Xmut kmpax o, ini toko",
+          "fr": "Simplement travailler (sans but), cela ne suffit pas!",
+          "en": "Merely working (aimlessly), that is not enough!",
+          "zh": "只是（漫無目的地）工作，這樣是不夠的！"
+        },
+        {
+          "t": "Ini ko xmut lmngao ka yako!",
+          "fr": "Moi, je ne parle pas pour parler (je ne dis pas des paroles en l'air).",
+          "en": "Me, I do not speak just to speak (I do not utter idle words).",
+          "zh": "我不會為說而說（我不會說空話）。"
+        },
+        {
+          "t": "Adi xmut nyeqan ka xedao ni idas ni ana manu xo?",
+          "fr": "Est-ce que le soleil et la lune et toutes les choses existeraient spontanément ?",
+          "en": "Would the sun and the moon and all things exist spontaneously (of their own accord)?",
+          "zh": "太陽、月亮以及萬物難道會自然而然地存在嗎？"
+        },
+        {
+          "t": "Xmut miyax ka knnalox mo",
+          "fr": "Mon mal est venu tout seul.",
+          "en": "My illness came all by itself.",
+          "zh": "我的病是自己來的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxmut",
+          "fr": "Fantaisiste - qui agit n'importe comment.",
+          "en": "Whimsical - one who acts any which way.",
+          "zh": "隨心所欲的——胡亂行事的人。",
+          "examples": [
+            {
+              "t": "Mxmut so bi ka iso",
+              "fr": "Toi tu es quelqu'un qui s'en fiche !",
+              "en": "You are someone who doesn't care about anything!",
+              "zh": "你是個什麼都不在乎的人！"
+            },
+            {
+              "t": "Xmut bi kmpax ka xea",
+              "fr": "Il se contente de travailler, lui.",
+              "en": "He, for his part, just contents himself with working.",
+              "zh": "他呢，只滿足於工作。"
+            },
+            {
+              "t": "Mxmut bi kmpax ka xea",
+              "fr": "Il travaille n'importe comment, lui.",
+              "en": "He, for his part, works any which way.",
+              "zh": "他呢，胡亂地工作。"
+            }
+          ]
+        },
+        {
+          "form": "Kmxmut",
+          "fr": "Agir n'importe comment - se mal conduire.",
+          "en": "To act any which way - to misbehave.",
+          "zh": "胡亂行事——行為不端。",
+          "examples": [
+            {
+              "t": "Soqe bi kmxmut ka laqe so nii!",
+              "fr": "Ton enfant (ci) en prend vraiment trop à son aise !",
+              "en": "This child of yours really takes far too many liberties!",
+              "zh": "你這個孩子實在太放肆了！"
+            },
+            {
+              "t": "Manu ka saan so kmxmut sapax d'xa?",
+              "fr": "Qu'est-ce que tu as à aller te conduire n'importe comment chez les gens ?",
+              "en": "What business have you going and behaving any which way at other people's houses?",
+              "zh": "你憑什麼跑去別人家裡胡作非為？"
+            }
+          ]
+        },
+        {
+          "form": "Knxmutan (Kmxmutan ?)",
+          "fr": "Désinvolture - l'agir n'importe comment.",
+          "en": "Offhandedness (casualness) - acting any which way.",
+          "zh": "隨便——胡亂行事。",
+          "examples": [
+            {
+              "t": "Wana bi knxmutan na nanak ka sknalox xeaan",
+              "fr": "Ce n'est que sa négligence (sa désinvolture) qui l'a rendu malade.",
+              "en": "It is only his own carelessness (his casualness) that made him ill.",
+              "zh": "正是他自己的疏忽（他的隨便）使他生了病。"
+            },
+            {
+              "t": "Adi bi a sao knxmutan ka qbobol ta!",
+              "fr": "Notre corps n'est pas fait pour (destiné à) la mauvaise conduite !",
+              "en": "Our body is not made for (destined for) misconduct!",
+              "zh": "我們的身體不是為了（用於）不端的行為而生的！"
+            },
+            {
+              "t": "Baka bi ka knxmutan da",
+              "fr": "La fantaisie, ça suffit !",
+              "en": "Enough of this caprice!",
+              "zh": "胡鬧夠了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XMUYA",
+      "tag": "(R. = XOYA ?)",
+      "crossRef": "XOYA",
+      "fr": "Pourquoi ?",
+      "en": "Why?",
+      "zh": "為什麼？",
+      "examples": [
+        {
+          "t": "Xmuya bi ka ini so matas!",
+          "fr": "Mais pourquoi donc n'étudies tu pas ?",
+          "en": "But why on earth don't you study?",
+          "zh": "那你到底為什麼不讀書呢？"
+        },
+        {
+          "t": "Xmuya so?... Ini xoya (vl. ini ko xoya)",
+          "fr": "Qu'est-ce qui te prend?...Rien! (Je n'ai rien!).",
+          "en": "What's the matter with you?...Nothing! (I have nothing wrong!). (var. ini ko xoya)",
+          "zh": "你怎麼了？……沒事！（我沒什麼！）（或：ini ko xoya）"
+        },
+        {
+          "t": "Xoya mo ksun ? ... Xmuya ?",
+          "fr": "Qu'est-ce que je fais (comment je fais) ? ... Pourquoi ? (de quoi s'agit-il ?).",
+          "en": "What am I doing (how do I do it)? ... Why? (what is it about?).",
+          "zh": "我在做什麼（我怎麼做）？……為什麼？（這是怎麼回事？）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XNANG",
+      "tag": "(R)",
+      "fr": "Bruit - ce qui résonne - le fait de résonner.",
+      "en": "Noise - that which resounds - the fact of resounding.",
+      "zh": "聲響——會發出響聲之物——發出響聲這件事。",
+      "examples": [
+        {
+          "t": "Soqe paro bi ka xnang toke mo",
+          "fr": "Il est bien trop fort le bruit que fait ma montre !",
+          "en": "The noise my watch makes is far too loud!",
+          "zh": "我的錶所發出的聲響實在太大了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxnang",
+          "fr": "Résonnant - qui résonne.",
+          "en": "Resonant - which resounds.",
+          "zh": "響亮的——會發出響聲的。",
+          "examples": [
+            {
+              "t": "Mxnang balae ka limuk Opiç ni malu bi bxangan ole ka xnang nia.",
+              "fr": "Il est très sonore le LIMUK (bassine, marmite) de Opish, et il fait un bruit agréable à entendre !",
+              "en": "The LIMUK (basin, pot) of Opish is very resonant, and it makes a sound pleasant to hear!",
+              "zh": "Opish 的 LIMUK（盆、鍋）非常響亮，它發出的聲音很悅耳！"
+            }
+          ]
+        },
+        {
+          "form": "Pxnang",
+          "fr": "Faire vibrer - faire résonner.",
+          "en": "To make vibrate - to make resound.",
+          "zh": "使震動——使發出響聲。",
+          "examples": [
+            {
+              "t": "Ini ta tdoa pxnang lapa ( = p'lapa) ka ka'man!",
+              "fr": "La nuit il n'est pas permi de jouer de la trompette !",
+              "en": "At night one is not permitted to play the trumpet!",
+              "zh": "夜裡不准吹喇叭！"
+            },
+            {
+              "t": "Ya bi nniyax manu pxnang bilat mo suni",
+              "fr": "Qu'est-ce qui a bien pu frapper (faire résonner) mes oreilles tout à l'heure ?",
+              "en": "What on earth could have struck (made resound in) my ears just now?",
+              "zh": "剛才到底是什麼敲響了（使……作響）我的耳朵？"
+            }
+          ]
+        },
+        {
+          "form": "Mpxnang",
+          "fr": "Celui qui fait résonner - ce qui fait résonner.",
+          "en": "One who makes (things) resound - that which makes (things) resound.",
+          "zh": "使……發出響聲的人——使……發出響聲之物。",
+          "examples": [
+            {
+              "t": "Nyeqan ka xmut mpxnang bengbang (bngbang) dnamux libu babwi ska bi labe",
+              "fr": "Il y en a qui se permettent de faire résonner les tôles de la soue à cochons en pleine nuit !",
+              "en": "There are those who take the liberty of making the sheet-metal of the pig-sty clang in the middle of the night!",
+              "zh": "有些人竟敢在深夜裡把豬圈的鐵皮弄得叮噹作響！"
+            },
+            {
+              "t": "Ana sayang ida mpxnang bilat mo ka lntadan qoaq so!",
+              "fr": "Même en ce moment (même aujourd'hui) le son de ta voix résonne à mes oreilles !",
+              "en": "Even now (even today) the sound of your voice resounds in my ears!",
+              "zh": "即使此刻（即使今天）你的聲音仍在我耳邊迴響！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XNGALI",
+      "tag": "(R)",
+      "fr": "Un peu éloigné - à l'écart.",
+      "en": "A little way off - apart (aside).",
+      "zh": "稍微遠一點——在一旁。",
+      "examples": [
+        {
+          "t": "Wada tnlingis xngali ka Temi",
+          "fr": "Témi s'est un peu retirée à l'écart pleurant à chaudes larmes.",
+          "en": "Témi withdrew a little apart, weeping hot tears.",
+          "zh": "Témi 稍微退到一旁，痛哭流涕。"
+        },
+        {
+          "t": "Usa xngali xali ka iso",
+          "fr": "Toi, va donc un peu plus loin.",
+          "en": "You, go a bit further off then.",
+          "zh": "你嘛，就走遠一點吧。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Txngali",
+          "fr": "Qui se trouve au delà , un peu plus loin.",
+          "en": "That which lies beyond, a little further off.",
+          "zh": "位於更遠處、稍遠一點的。",
+          "examples": [
+            {
+              "t": "Txngali xali sapax Apwi, kika sapax mo",
+              "fr": "Celle qui est un peu plus loin que la maison de Apoui, c'est celle là ma maison.",
+              "en": "The one a little further off than Apoui's house, that one is my house.",
+              "zh": "比 Apoui 的房子再遠一點的那一間，就是我的房子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XNGAQ",
+      "tag": "(R)",
+      "fr": "Souffle - haleine - air - esprit - vie.",
+      "en": "Breath - (mouth) breath - air - spirit - life.",
+      "zh": "氣息——呼吸——氣——靈——生命。",
+      "examples": [
+        {
+          "t": "Msknuç bi ka xngaq so",
+          "fr": "Ton haleine est fétide.",
+          "en": "Your breath is foul.",
+          "zh": "你的口氣很臭。"
+        },
+        {
+          "t": "Mstok (Mstoq ?) xngaq nia da",
+          "fr": "Il est mort (sa respiration a cessé).",
+          "en": "He is dead (his breathing has stopped).",
+          "zh": "他死了（他的呼吸停止了）。"
+        },
+        {
+          "t": "Wada ka xngaq na",
+          "fr": "Sa vie est partie",
+          "en": "His life has gone.",
+          "zh": "他的生命離去了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msxngaq (Mxngaq ?)",
+          "fr": "Qui respire - qui tire le souffle.",
+          "en": "One who breathes - who draws breath.",
+          "zh": "呼吸的——吸氣的。",
+          "examples": [
+            {
+              "t": "Tai bi, adi msxngaq xo",
+              "fr": "Regarde bien, est-ce qu'il respire ?",
+              "en": "Look closely, is he breathing?",
+              "zh": "仔細看，他還有呼吸嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psxngaq",
+          "fr": "Souffler - faire respirer.",
+          "en": "To blow (breathe) - to make (someone) breathe.",
+          "zh": "吹氣——使（某人）呼吸。",
+          "examples": [
+            {
+              "t": "Uxai mxoqel! Mlongai da ! Dyagi n'xali psxngaq da!",
+              "fr": "Non! Il n'est pas mort! Il n'est qu'évanoui ! Vite! Aide le à respirer (à le faire respirer).",
+              "en": "No! He is not dead! He has only fainted! Quick! Help him to breathe (to make him breathe).",
+              "zh": "不！他沒死！他只是昏過去了！快！幫他呼吸（使他能呼吸）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XNIGAN",
+      "tag": "(R. = XEI ?)",
+      "crossRef": "XEI",
+      "fr": "Aspect, formes du corps - silhouette - apparence - ce qui n'est pas décent dans le corps. Vr. XEI.",
+      "en": "Aspect, forms of the body - silhouette - appearance - that which is not decent about the body. Cf. XEI.",
+      "zh": "外貌、身體的形態——輪廓——外觀——身體不雅之處。參見 XEI。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XNU",
+      "tag": "(X'NU ?)",
+      "fr": "Particule indiquant l'hésitation, un peu comme le \"EUH\" du français.",
+      "en": "A particle indicating hesitation, a bit like the French \"EUH\" (uh/er).",
+      "zh": "表示遲疑的助詞，有點像法語的「EUH」（呃）。",
+      "examples": [
+        {
+          "t": "Xei bi manu ka nii ? ... Nii o,... Xnu.. L'xluk msa ka kari ta",
+          "fr": "Quelle sorte de fruit est-ce donc que ceci ? ... Ceci c'est .. Euh! .. Des framboises, comme dit notre langue.",
+          "en": "What sort of fruit is this, then? ... This is .. Uh! .. Raspberries, as our language says.",
+          "zh": "這到底是哪種水果？……這是……呃！……是懸鉤子（覆盆子），我們的語言是這麼說的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qxnu (Qx'nu)",
+          "fr": "Combien - quelle quantité - quelle dimension.",
+          "en": "How much (how many) - what quantity - what dimension.",
+          "zh": "多少——什麼數量——什麼尺寸。",
+          "examples": [
+            {
+              "t": "Qxnu ka mxa toko ooqon so",
+              "fr": "Combien faut il pour que tu aies assez à manger?",
+              "en": "How much is needed for you to have enough to eat?",
+              "zh": "要多少你才有足夠的東西吃？"
+            },
+            {
+              "t": "Qxnu knblagan na ka lidil so",
+              "fr": "Quelle est la longueur de ton manche?",
+              "en": "What is the length of your handle?",
+              "zh": "你的柄有多長？"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

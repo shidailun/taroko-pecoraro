@@ -1,0 +1,905 @@
+{
+  "pages": [22, 25],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "A",
+      "tag": "",
+      "fr": "Particule rencontrée dans quelques rares expressions d'usage courant.",
+      "en": "Particle found in a few rare expressions in common use.",
+      "zh": "出現於少數常用語中的助詞。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "A sao",
+          "fr": "Grâce à - par l'entremise de - par la faute de.",
+          "en": "Thanks to - through the agency of - through the fault of.",
+          "zh": "多虧-經由-由於……的過錯。",
+          "examples": [
+            {
+              "t": "A sao bi iso",
+              "fr": "C'est bien grâce à toi (vl. C'est bien par ta faute).",
+              "en": "It is indeed thanks to you (var. It is indeed your fault).",
+              "zh": "這都多虧了你(或:這都是你的錯)。"
+            },
+            {
+              "t": "Ida a sao dnyagan so ka mkudus (mk'udus) nami",
+              "fr": "C'est bien grâce à toi que nous sommes en vie.",
+              "en": "It is truly thanks to you that we are alive.",
+              "zh": "我們能活著,真是多虧了你。"
+            }
+          ]
+        },
+        {
+          "form": "A tyex",
+          "fr": "S'en falloir de peu - presque.",
+          "en": "To come very close to - almost.",
+          "zh": "差一點-幾乎。",
+          "examples": [
+            {
+              "t": "Siida o, a tyex ko bi ini usa",
+              "fr": "A ce moment là j'ai bien failli ne pas aller.",
+              "en": "At that moment I very nearly did not go.",
+              "zh": "那時我差一點就沒去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ADAS",
+      "tag": "(R)",
+      "paradigm": "Madas, adas, d'si, d'san, d'sun",
+      "fr": "Apporter - emporter - prendre avec soi.",
+      "en": "To bring - to take away - to take along with oneself.",
+      "zh": "帶來-帶走-隨身攜帶。",
+      "examples": [
+        {
+          "t": "Adas n'xali pila",
+          "fr": "Apporte vite (de) l'argent (nb. D'si n'xali ka pila = Apporte vite l'argent = l'argent c'est ce que je t'ordonne d'apporter de suite.)",
+          "en": "Bring money quickly (n.b. D'si n'xali ka pila = Bring the money quickly = the money is what I order you to bring at once.)",
+          "zh": "快帶錢來(註:D'si n'xali ka pila=快把錢帶來=錢就是我命令你立刻帶來的東西。)"
+        },
+        {
+          "t": "Ini ko adas punyaq mo",
+          "fr": "Je n'ai pas emporté mon fusil avec moi.",
+          "en": "I did not bring my gun with me.",
+          "zh": "我沒有隨身帶槍。"
+        },
+        {
+          "t": "Kuxul so ka nii ? ... Adas da !",
+          "fr": "Cela te fait plaisir? ... Prends le !",
+          "en": "Do you like it? ... Take it!",
+          "zh": "你喜歡這個嗎?……拿去吧!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Madas",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Madas ko tityex samat ooqon so saman",
+              "fr": "Je t'apporte un peu de gibier pour ton repas de demain.",
+              "en": "I am bringing you a little game for your meal tomorrow.",
+              "zh": "我帶一點獵物給你,當你明天的飯菜。"
+            }
+          ]
+        },
+        {
+          "form": "Mnadas",
+          "fr": "d° passé.",
+          "en": "Past form of the preceding.",
+          "zh": "同上之過去式。",
+          "examples": [
+            {
+              "t": "Mnadas ko samat kia ssgxoai mo sunan",
+              "fr": "Je t'apportais ce gibier là (Je t'ai apporté ce gibier là) pour te remercier.",
+              "en": "I was bringing you that game (I brought you that game) to thank you.",
+              "zh": "我帶那獵物來(我帶了那獵物來),是為了感謝你。"
+            },
+            {
+              "t": "Mnadas ko laqe spsapox mo sunan",
+              "fr": "J'ai amené mon fils pour le faire soigner par toi.",
+              "en": "I brought my son so that you could treat him.",
+              "zh": "我帶兒子來,讓你為他醫治。"
+            }
+          ]
+        },
+        {
+          "form": "Nadas",
+          "fr": "Ce qui a été apporté. (nb. Ce terme: nadas, est souvent employé pour désigner ce qui est apporté en dot.)",
+          "en": "What has been brought. (n.b. This term, nadas, is often used to designate what is brought as a dowry.)",
+          "zh": "被帶來的東西。(註:nadas 一詞常指陪嫁帶來之物。)",
+          "examples": [
+            {
+              "t": "Nadas ima ka samat nii ?",
+              "fr": "Qui est-ce qui a apporté ce gibier ?",
+              "en": "Who brought this game?",
+              "zh": "這獵物是誰帶來的?"
+            },
+            {
+              "t": "Laqe so nanak ka nii xo ? ... Adi ! Nadas koyox mo !",
+              "fr": "Est-ce là ton propre fils? ... Non ! C'est celui de ma femme (apporté par elle lors de notre mariage).",
+              "en": "Is this your own son? ... No! He is my wife's (brought by her at our marriage).",
+              "zh": "這是你親生的兒子嗎?……不是!是我妻子的(結婚時她帶過來的)。"
+            }
+          ]
+        },
+        {
+          "form": "P'adas",
+          "paradigm": "Mp'adas, p'adas, pd'si, pd'san, pd'sun",
+          "fr": "Envoyer - faire porter.",
+          "en": "To send - to have something carried.",
+          "zh": "寄送-託帶。",
+          "examples": [
+            {
+              "t": "Pd'si ko saman ka patas",
+              "fr": "Ecris-moi demain ta lettre.",
+              "en": "Write me your letter tomorrow.",
+              "zh": "明天把你的信寫來給我。"
+            }
+          ]
+        },
+        {
+          "form": "Mp'adas",
+          "fr": "Etre celui qui envoye.",
+          "en": "To be the one who sends.",
+          "zh": "寄送的人。",
+          "examples": [
+            {
+              "t": "Yako ka mp'adas patas",
+              "fr": "C'est moi qui expédie la lettre.",
+              "en": "I am the one sending the letter.",
+              "zh": "寄信的人是我。"
+            }
+          ]
+        },
+        {
+          "form": "Mpaadas",
+          "fr": "Etre celui qui enverra - fera porter.",
+          "en": "To be the one who will send - will have carried.",
+          "zh": "將要寄送、託帶的人。",
+          "examples": [
+            {
+              "t": "Mpaadas ko patas saman",
+              "fr": "J'enverrai (je ferai parvenir) une lettre demain.",
+              "en": "I will send (I will have delivered) a letter tomorrow.",
+              "zh": "我明天會寄(送達)一封信。"
+            }
+          ]
+        },
+        {
+          "form": "Pp'adas",
+          "fr": "Pour envoyer.",
+          "en": "For sending.",
+          "zh": "用來寄送之物。",
+          "examples": [
+            {
+              "t": "Ongat ko bi ana manu ppd'sun mo tmaan diyan",
+              "fr": "Je n'ai vraiment rien à faire porter (offrir) au père de Djian.",
+              "en": "I really have nothing to have carried (to offer) to Djian's father.",
+              "zh": "我實在沒有任何東西可以捎給(送給)Djian 的父親。"
+            }
+          ]
+        },
+        {
+          "form": "Sp'adas",
+          "fr": "qui servira à offrir, à faire porter.",
+          "en": "what will serve as a gift, to be carried.",
+          "zh": "將用來餽贈、託帶的東西。",
+          "examples": [
+            {
+              "t": "Mnali ko siyam s'xiga sp'adas mo lqean mo daya",
+              "fr": "J'ai acheté hier de la viande pour (avoir quelque chose à) porter la haut à mon fils.",
+              "en": "Yesterday I bought meat so as (to have something) to take up there to my son.",
+              "zh": "我昨天買了肉,好帶上山給我兒子。"
+            }
+          ]
+        },
+        {
+          "form": "Knd'san",
+          "fr": "(R. = ADAS ? - = UDUS ?) Nature - sorte - en propre.",
+          "en": "(root = ADAS? - or UDUS?) Nature - kind - what is one's own.",
+          "zh": "(詞根=ADAS?-或=UDUS?)本性-種類-特質。",
+          "examples": [
+            {
+              "t": "Xeuling ni milito, ini pndka knd'san",
+              "fr": "Chien et chèvre n'ont rien en commun.",
+              "en": "Dog and goat have nothing in common.",
+              "zh": "狗和羊毫無共同之處。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ADI",
+      "tag": "(R)",
+      "fr": "Négation exprimant le refus d'une affirmation précédente au moins implicite.",
+      "en": "Negation expressing refusal of a preceding, at least implicit, affirmation.",
+      "zh": "否定詞,表示對先前(至少是暗示的)說法的拒絕。",
+      "examples": [
+        {
+          "t": "Adi ko mxa ka yako",
+          "fr": "Moi, je ne veux pas aller.",
+          "en": "As for me, I do not want to go.",
+          "zh": "我啊,我不想去。"
+        },
+        {
+          "t": "Manu ka kuxul so? B'xgai xo? Banax xo? ... Adi ko ka mbanax !",
+          "fr": "Que préfères tu? Blanc? Rouge? ... Je ne veux pas du rouge !",
+          "en": "Which do you prefer? White? Red? ... I don't want the red one!",
+          "zh": "你喜歡哪個?白的?紅的?……我不要紅的!"
+        },
+        {
+          "t": "Adi bi ki da !",
+          "fr": "Cela non! plus jamais !",
+          "en": "Not that! Never again!",
+          "zh": "那可不行!再也不要了!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'adi",
+          "fr": "Dire non - être celui qui dit non.",
+          "en": "To say no - to be the one who says no.",
+          "zh": "說「不」-拒絕的人。",
+          "examples": [
+            {
+              "t": "M'adi so ka iso do o, ya adi mpaadi kana ka dxea da !",
+              "fr": "Si toi tu dis non, est-ce-que les autres ne vont pas tous refuser ? (=j'espère que ne ... pas !).",
+              "en": "If you say no, won't all the others refuse too? (= I do hope not!)",
+              "zh": "要是你說不,其他人不就全都會拒絕了嗎?(但願不會!)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ADOK",
+      "tag": "",
+      "crossRef": "ADOP",
+      "fr": "Vr. ADOP = Chasser - aller à la chasse.",
+      "en": "See ADOP = To hunt - to go hunting.",
+      "zh": "見 ADOP=打獵-去打獵。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ADOP",
+      "tag": "(R)",
+      "paradigm": "Madop, adop, dopi (?), dopan, dopun",
+      "fr": "Chasse - le fait de chesser.",
+      "en": "Hunting - the act of hunting.",
+      "zh": "打獵-狩獵之事。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Madop",
+          "fr": "(vl. Madok) d° forme verbale.",
+          "en": "(var. Madok) Verbal form of the preceding.",
+          "zh": "(或:Madok)同上之動詞形。",
+          "examples": [
+            {
+              "t": "Mxa so madok? Tknai ta xo?",
+              "fr": "Tu vas à la chsse? Allons ensemble, veux tu?",
+              "en": "Are you going hunting? Shall we go together?",
+              "zh": "你要去打獵嗎?我們一起去,好嗎?"
+            },
+            {
+              "t": "Pusu bi madok ka dtroko",
+              "fr": "Les taroko sont des spécialistes de la chasse.",
+              "en": "The Taroko are expert hunters.",
+              "zh": "太魯閣族人是打獵的行家。"
+            }
+          ]
+        },
+        {
+          "form": "Dopan",
+          "fr": "(nb. Cette forme affixée par le suffixe AN, très productive en Taroko, désigne le plus souvent l'action en tant que réalisée, ou le lieu, le temps, les circonstances ou les modalités de cette action).",
+          "en": "(n.b. This form affixed with the suffix AN, very productive in Taroko, most often denotes the action as realized, or the place, time, circumstances or manner of that action.)",
+          "zh": "(註:這種加後綴 AN 的形式在太魯閣語中能產性極高,多指已實現的動作,或該動作的地點、時間、情況與方式。)",
+          "examples": [
+            {
+              "t": "Malu bi ka dopan namo! Mkdopan nami o, ongat bi ana manu samat da! (..ana manu dopun da!)",
+              "fr": "Votre territoire de chasse est très bon! Dans le nôtre il n'y a vraiment plus de gibier!",
+              "en": "Your hunting grounds are very good! In ours there is really no game left!",
+              "zh": "你們的獵場真好!我們的獵場已經完全沒有獵物了!"
+            }
+          ]
+        },
+        {
+          "form": "Dopon",
+          "fr": "(vl. dopun) Ce qui est chassé, qu'on veut, qu'on doit chasser, qu'on chassera - gibier (sy. = samat).",
+          "en": "(var. dopun) What is hunted, what one wants to, must or will hunt - game (syn. = samat).",
+          "zh": "(或:dopun)所獵取、想獵、該獵、將獵之物-獵物(同義詞:samat)。",
+          "examples": [
+            {
+              "t": "Manu ka dopon so? Pada xo? Boyaq xo? Kumai xo?",
+              "fr": "Que vas tu chasser? Le chamoix? Le sanglier ? L'ours ?",
+              "en": "What are you going to hunt? The serow? The wild boar? The bear?",
+              "zh": "你要獵什麼?山羌?山豬?還是熊?"
+            }
+          ]
+        },
+        {
+          "form": "P'adop",
+          "fr": "Faire chasser - se faire chasser, poursuivre.",
+          "en": "To make someone hunt - to be chased, pursued.",
+          "zh": "使人追獵-被追捕、追趕。",
+          "examples": [
+            {
+              "t": "Mmuda namo pkleqo ni p'adop ni psxangan ni ps'lyeq xangan",
+              "fr": "Vous allez être haïs, pourchassées, ridiculisés, et votre nom sera vilipendé.",
+              "en": "You will be hated, hunted down, ridiculed, and your name will be reviled.",
+              "zh": "你們將被憎恨、被追捕、被譏笑,你們的名聲將被詆毀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "AGA",
+      "tag": "(R)",
+      "fr": "Flèche à trois pointes, surtout pour la chasse aux oiseaux.",
+      "en": "Three-pronged arrow, used mainly for hunting birds.",
+      "zh": "三叉箭,主要用於獵鳥。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "AKAI",
+      "tag": "(R)",
+      "fr": "Aïe! - Interjection de douleur.",
+      "en": "Ouch! - Interjection of pain.",
+      "zh": "哎呀!-表示疼痛的感嘆詞。",
+      "examples": [
+        {
+          "t": "Akai bo !",
+          "fr": "Aïe maman !",
+          "en": "Ouch, mother!",
+          "zh": "哎呀,媽呀!"
+        },
+        {
+          "t": "Akai wit !",
+          "fr": "Oh la! Quelle fatigue !",
+          "en": "Oh my! How tiring!",
+          "zh": "唉呀!好累啊!"
+        },
+        {
+          "t": "Akai tunuç !",
+          "fr": "Oh ma tête !",
+          "en": "Oh, my head!",
+          "zh": "唉呀,我的頭!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'akai",
+          "fr": "Se plaindre - être celui qui crie de douleur.",
+          "en": "To complain - to be the one crying out in pain.",
+          "zh": "呻吟-喊痛的人。",
+          "examples": [
+            {
+              "t": "Ida m'akai pax ska'man ka laqe",
+              "fr": "C'est depuis hier soir que l'enfant crie de douleur.",
+              "en": "The child has been crying out in pain since last night.",
+              "zh": "孩子從昨晚起就一直喊痛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ALANG",
+      "tag": "(R)",
+      "fr": "Lieu habité - endroit.",
+      "en": "Inhabited place - place.",
+      "zh": "聚落-地方。",
+      "examples": [
+        {
+          "t": "Alang bi manu ka nii?",
+          "fr": "1° Quel est cet endroit? 2° Quel drôle d'endroit que celui-ci !",
+          "en": "1. What place is this? 2. What a strange place this is!",
+          "zh": "1、這是什麼地方?2、這地方真怪!"
+        },
+        {
+          "t": "Muda ll'alang daxa ggalang suyang bi kari, kika snkgulan so",
+          "fr": "Aller dans tous les villages répandre la Bonne nouvelle, voilà pourquoi tu as été envoyé.",
+          "en": "To go through all the villages spreading the Good News - that is why you were sent.",
+          "zh": "走遍各部落傳揚福音,這就是你被差遣的緣故。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tn'alang",
+          "fr": "Qui est du terroir - indigène.",
+          "en": "Native of the place - indigenous.",
+          "zh": "當地人-本地的、土生土長的。",
+          "examples": [
+            {
+              "t": "Balae bi tn'alang ka yako ole",
+              "fr": "Je suis véritablement du pays moi aussi !",
+              "en": "I too am truly a native of this place!",
+              "zh": "我也是道道地地的本地人!"
+            }
+          ]
+        },
+        {
+          "form": "Kn'alang",
+          "fr": "(= R. ? - R. = ALANG ?) Palissade - clôture.",
+          "en": "(root? - root = ALANG?) Palisade - fence.",
+          "zh": "(詞根?-詞根=ALANG?)柵欄-圍籬。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "ALAX",
+      "tag": "(R)",
+      "fr": "Se réchauffer autour d'un feu.",
+      "en": "To warm oneself around a fire.",
+      "zh": "圍火取暖。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "M'alax",
+          "fr": "(vl. malax) d° forme verbale.",
+          "en": "(var. malax) Verbal form of the preceding.",
+          "zh": "(或:malax)同上之動詞形。",
+          "examples": [
+            {
+              "t": "Miyax nami malax taxot so ya sa mskui bi da !",
+              "fr": "Nous venons nous réchauffer à ton feu, vu qu'il fait très froid.",
+              "en": "We have come to warm ourselves at your fire, since it is very cold!",
+              "zh": "天氣很冷,我們來你的火邊取暖!"
+            }
+          ]
+        },
+        {
+          "form": "P'alax",
+          "fr": "Faire se réchauffer.",
+          "en": "To let or make someone warm themselves.",
+          "zh": "使人取暖。",
+          "examples": [
+            {
+              "t": "Ya xan! saon mo pnais p'alax baga mo da !",
+              "fr": "Attends un peu! Je veux juste aller réchauffer un peu mes mains !",
+              "en": "Wait a moment! I just want to go and warm my hands a little!",
+              "zh": "等一下!我只是要去暖一暖手!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ALEQ",
+      "tag": "(R)",
+      "fr": "Cicatrice.",
+      "en": "Scar.",
+      "zh": "疤痕。",
+      "examples": [
+        {
+          "t": "Ida mpnyeqon aleq ka dqalas so",
+          "fr": "De toute façon la cicatrice restera sur ta figure !",
+          "en": "In any case the scar will remain on your face!",
+          "zh": "無論如何,疤痕會留在你臉上!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'aleq",
+          "fr": "Se cicatriser - se former une croûte - porter des cicatrices.",
+          "en": "To scar over - to form a scab - to bear scars.",
+          "zh": "結疤-結痂-帶有疤痕。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "ALEX",
+      "tag": "(R)",
+      "fr": "Abandonner - cesser - laisser tomber.",
+      "en": "To abandon - to stop - to give up.",
+      "zh": "放棄-停止-丟下。",
+      "examples": [
+        {
+          "t": "Ini bi alex mimax sinao ka xea",
+          "fr": "Lui n'arrête pas de boire de l'alcool !",
+          "en": "He never stops drinking alcohol!",
+          "zh": "他喝酒喝個不停!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Malex",
+          "paradigm": "Malex, alex, laxe, laxan, laxon",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Mxa so msado dole? ... Adi! Mnalex ko da !",
+              "fr": "Vas tu t'embaucher de nouveau? ... Non ! J'ai déjà abandonné !",
+              "en": "Are you going to hire yourself out again? ... No! I have already quit!",
+              "zh": "你要再去做工嗎?……不!我已經不做了!"
+            },
+            {
+              "t": "Ida mo laxon ka sinao",
+              "fr": "Je veux absolument laisser tomber l'alcool !",
+              "en": "I absolutely want to give up alcohol!",
+              "zh": "我一定要戒酒!"
+            }
+          ]
+        },
+        {
+          "form": "M'alex",
+          "fr": "Celui qui est dégoûté, qui se désolidarise, qui fait le difficile.",
+          "en": "One who is fed up, who pulls away from the group, who is hard to please.",
+          "zh": "心生厭倦、鬧彆扭、不合群的人。",
+          "examples": [
+            {
+              "t": "Taxoi ta xan! Ma so m'alex !",
+              "fr": "Restons ensemble! Pourquoi me laisses tu tomber (est-ce que tu me bouderais !).",
+              "en": "Let's stay together! Why are you dropping me (are you sulking at me)?",
+              "zh": "我們待在一起吧!你為什麼丟下我(你是在跟我賭氣嗎)?"
+            }
+          ]
+        },
+        {
+          "form": "P'alex",
+          "fr": "Dégoûter - faire quitter.",
+          "en": "To disgust - to make someone quit.",
+          "zh": "使人厭煩-使人放棄。",
+          "examples": [
+            {
+              "t": "Lngao nanak! Adi so bi mpd'xok p'alex knan !",
+              "fr": "Parle toujours! Tu n'arrives pas à me faire quitter !",
+              "en": "Talk all you want! You will not manage to make me quit!",
+              "zh": "隨你怎麼說!你別想讓我放棄!"
+            }
+          ]
+        },
+        {
+          "form": "Laxe",
+          "fr": "d° impératif. (nb. très employé pour prohiber.)",
+          "en": "Imperative of the preceding. (n.b. much used for prohibitions.)",
+          "zh": "同上之命令式。(註:常用於禁止。)",
+          "examples": [
+            {
+              "t": "Laxe bi mimax sinao !",
+              "fr": "Arrête toi donc de boire !",
+              "en": "Do stop drinking!",
+              "zh": "你別再喝酒了!"
+            }
+          ]
+        },
+        {
+          "form": "Plaxan",
+          "fr": "Temps, circonstances, objet du faire quitter.",
+          "en": "Time, circumstances or object of the making-quit.",
+          "zh": "使放棄的時間、情況或對象。",
+          "examples": [
+            {
+              "t": "Wada mo plaxan ka koyox mo da !",
+              "fr": "J'ai renvoyé (fait quitter) ma femme (c'est fait !).",
+              "en": "I have sent my wife away (made her leave) (it is done!).",
+              "zh": "我已經把妻子休了(木已成舟)!"
+            }
+          ]
+        },
+        {
+          "form": "T'alex",
+          "fr": "(= Ts'alex) Misanthrope - pas sociable.",
+          "en": "(= Ts'alex) Misanthrope - unsociable.",
+          "zh": "(=Ts'alex)孤僻-不合群。",
+          "examples": [
+            {
+              "t": "Laxe da! Xmut t'alex ka xea",
+              "fr": "Laisse tomber! Sans raison il veut faire bande à part, lui !",
+              "en": "Forget it! For no reason he insists on keeping to himself!",
+              "zh": "算了吧!他無緣無故就是要自己一個人!"
+            }
+          ]
+        },
+        {
+          "form": "Lxani",
+          "fr": "(l'xani) Motif, instrument du laisser tomber.",
+          "en": "(l'xani) Motive or instrument of abandoning.",
+          "zh": "(l'xani)放棄的原因或憑藉。",
+          "examples": [
+            {
+              "t": "Kia ni, asi daxa lxani ka slaxo daxa",
+              "fr": "Et voilà qu'ils quittent aussitôt leurs filets.",
+              "en": "And at once they left their nets.",
+              "zh": "於是他們立刻撇下他們的漁網。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "AMA",
+      "tag": "(R)",
+      "fr": "Gendre.",
+      "en": "Son-in-law.",
+      "zh": "女婿。",
+      "examples": [
+        {
+          "t": "Snao laqe mo koyox o, kika ama mo",
+          "fr": "Le mari de ma fille c'est mon gendre.",
+          "en": "My daughter's husband is my son-in-law.",
+          "zh": "我女兒的丈夫就是我的女婿。"
+        },
+        {
+          "t": "Ingai ka mp'ama mo",
+          "fr": "C'est Ingai qui deviendra mon gendre.",
+          "en": "It is Ingai who will become my son-in-law.",
+          "zh": "將成為我女婿的人是 Ingai。"
+        },
+        {
+          "t": "Kmp'ama ko \"Laon",
+          "fr": "J'aimerais devenir le gendre de \"Laon.",
+          "en": "I would like to become \"Laon's son-in-law.",
+          "zh": "我想成為 \"Laon 的女婿。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "AN",
+      "tag": "",
+      "fr": "Suffixe très fréquent et d'un usage très large avec plusieurs sens:",
+      "en": "Very frequent suffix in very wide use, with several senses:",
+      "zh": "極常見的後綴,用法廣泛,有多種意義:",
+      "examples": [],
+      "subs": [
+        {
+          "form": "An (1)",
+          "fr": "Suffixe indiquant la fonction complément. (nb. Ce suffixe grammatical semble aujourd'hui limité aux termes qui désignent une personne ou un être personnalisé: § Boan = à la maman; Sunan = à toi; Xlingan = au chien (Xeuling = chien); Snpuan = au prêtre (Sinpu = prêtre).)",
+          "en": "Suffix marking the complement function. (n.b. This grammatical suffix now seems limited to terms designating a person or a personified being: § Boan = to mother; Sunan = to you; Xlingan = to the dog (Xeuling = dog); Snpuan = to the priest (Sinpu = priest).)",
+          "zh": "表示補語功能的後綴。(註:此語法後綴今日似乎僅限於指人或擬人化對象的詞:§ Boan=給媽媽;Sunan=給你;Xlingan=對狗(Xeuling=狗);Snpuan=對神父(Sinpu=神父)。)",
+          "examples": [
+            {
+              "t": "Lngagi bi Banan",
+              "fr": "Dis le donc (dis le vite, dis le vraiment) à Iban.",
+              "en": "Do say it (say it quickly, say it truly) to Iban.",
+              "zh": "快對 Iban 說吧(趕快說、真的說)。"
+            },
+            {
+              "t": "Mxa ko tmaan",
+              "fr": "Je vais chez mon père (je vais vers mon père).",
+              "en": "I am going to my father's (going toward my father).",
+              "zh": "我要去我父親那裡(我朝父親那裡去)。"
+            },
+            {
+              "t": "Byeqon mo xeaan ka pila",
+              "fr": "C'est à lui (elle) que je donnerai l'argent.",
+              "en": "It is to him (her) that I will give the money.",
+              "zh": "我要把錢給他(她)。"
+            },
+            {
+              "t": "Ma so lmngao slongan !",
+              "fr": "Qu'est-ce qui te prend de parler à la mer (Silong = mer).",
+              "en": "What has come over you, talking to the sea (Silong = sea)?",
+              "zh": "你怎麼對著大海說話呢?(Silong=海)"
+            }
+          ]
+        },
+        {
+          "form": "An (2)",
+          "fr": "Suffixe nominalisant une base verbale d'état ou d'action pour indiquer: 1° Lieu, temps, mode de réalisation de la base. § Mg'li = danser; Gligan = 1) Estrade, lieu de danse; 2) Temps de la danse; 3) manière, style de la danse. 2° Résultat, réalisation de la base. § Lmngao = Parler; Lngagan = Ce qui a été dit - les paroles considérées comme dites;",
+          "en": "Suffix nominalizing a stative or action verb base to indicate: 1. Place, time, mode of realization of the base. § Mg'li = to dance; Gligan = 1) platform, place of dancing; 2) time of the dance; 3) manner, style of dancing. 2. Result, realization of the base. § Lmngao = to speak; Lngagan = what has been said - the words considered as spoken;",
+          "zh": "將表狀態或動作的動詞詞基名物化的後綴,表示:1、詞基實現的地點、時間、方式。§ Mg'li=跳舞;Gligan=1) 舞台、跳舞的場所;2) 跳舞的時間;3) 舞步、舞風。2、詞基的結果、實現。§ Lmngao=說話;Lngagan=所說過的話-被視為已說出的話;",
+          "examples": [
+            {
+              "t": "Wada mo lngagan da! ... Ima ka lngagan so?",
+              "fr": "Je l'ai dit (de fait)! ... A qui l'as tu dit ?",
+              "en": "I did say it (in fact)! ... To whom did you say it?",
+              "zh": "我(確實)說了!……你是對誰說的?"
+            }
+          ]
+        },
+        {
+          "form": "An (3)",
+          "fr": "Partie suffixée des circonfixes: K...AN, KN...AN, très productifs avec divers types de bases (surtout verbales d'état ou d'action) pour former des termes abstraits correspondant à la base.",
+          "en": "The suffixal part of the circumfixes K...AN, KN...AN, very productive with various types of bases (mainly stative or action verb bases) to form abstract terms corresponding to the base.",
+          "zh": "環綴 K...AN、KN...AN 的後綴部分;此類環綴能與多種詞基(多為狀態或動作動詞)構成對應於詞基的抽象名詞,能產性極高。",
+          "examples": [
+            {
+              "t": "Malu = Beau, bien; Knmlaan = beauté, bonté",
+              "fr": "Malu = Beau, bien; Knmlaan = beauté, bonté.",
+              "en": "Malu = beautiful, good; Knmlaan = beauty, goodness.",
+              "zh": "Malu=美、好;Knmlaan=美、善。"
+            },
+            {
+              "t": "Paro = Grand; Knplaan = Grandeur",
+              "fr": "Paro = Grand; Knplaan = Grandeur.",
+              "en": "Paro = big; Knplaan = greatness.",
+              "zh": "Paro=大;Knplaan=偉大。"
+            },
+            {
+              "t": "Mk'la = Savoir; Knklaan = Connaissance",
+              "fr": "Mk'la = Savoir; Knklaan = Connaissance.",
+              "en": "Mk'la = to know; Knklaan = knowledge.",
+              "zh": "Mk'la=知道;Knklaan=知識。"
+            },
+            {
+              "t": "Mbanax = Rouge; Knbnaxan = Rougeur",
+              "fr": "Mbanax = Rouge; Knbnaxan = Rougeur.",
+              "en": "Mbanax = red; Knbnaxan = redness.",
+              "zh": "Mbanax=紅;Knbnaxan=紅色。"
+            },
+            {
+              "t": "Mudus = Vivant; Kndusan = La vie",
+              "fr": "Mudus = Vivant; Kndusan = La vie.",
+              "en": "Mudus = alive; Kndusan = life.",
+              "zh": "Mudus=活著;Kndusan=生命。"
+            },
+            {
+              "t": "Ml'bu = Le matin; Knlbuan = \"matinalité\"",
+              "fr": "Ml'bu = Le matin; Knlbuan = \"matinalité\".",
+              "en": "Ml'bu = morning; Knlbuan = \"morning-ness\".",
+              "zh": "Ml'bu=早晨;Knlbuan=「晨性」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ANA",
+      "tag": "",
+      "fr": "Même - aussi. Mot-outil employé dans de multiples expressions d'usage courant.",
+      "en": "Even - also. Function word used in many common expressions.",
+      "zh": "即使-也。用於許多常用語的虛詞。",
+      "examples": [
+        {
+          "t": "Ana ino",
+          "fr": "partout - n'importe où.",
+          "en": "everywhere - anywhere.",
+          "zh": "到處-任何地方。"
+        },
+        {
+          "t": "Ana yako ana iso",
+          "fr": "Et moi et toi - Aussi bien moi que toi.",
+          "en": "Both I and you - me as well as you.",
+          "zh": "你和我都一樣-不論是我還是你。"
+        },
+        {
+          "t": "Ana ini",
+          "fr": "Ce n'est pas indispensable.",
+          "en": "It is not indispensable.",
+          "zh": "不是非要不可。"
+        },
+        {
+          "t": "Ana mxoya",
+          "fr": "Quoi qu'il en soit - de toute façon.",
+          "en": "Be that as it may - in any case.",
+          "zh": "無論如何-反正。"
+        },
+        {
+          "t": "Ana nia",
+          "fr": "Tant pis! - celà ne fait rien.",
+          "en": "Too bad! - it doesn't matter.",
+          "zh": "沒關係!-不要緊。"
+        },
+        {
+          "t": "Ana qoqo",
+          "fr": "Aucune importance.",
+          "en": "Of no importance.",
+          "zh": "無所謂。"
+        },
+        {
+          "t": "ana xmut",
+          "fr": "peu importe comment.",
+          "en": "no matter how.",
+          "zh": "隨便怎樣都行。"
+        },
+        {
+          "t": "Ana knuwan",
+          "fr": "N'importe quand - toujours.",
+          "en": "Anytime - always.",
+          "zh": "任何時候-總是。"
+        },
+        {
+          "t": "Ana so paro o, ida miso laqe",
+          "fr": "Tu as beau être grand tu restes mon fils.",
+          "en": "However big you may be, you are still my child.",
+          "zh": "就算你長大了,你仍然是我的孩子。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ANAI",
+      "tag": "(R)",
+      "fr": "Les maris des soeurs - les frères de la femme (nb. Terme très fréquent exprimant l'amitié.)",
+      "en": "The sisters' husbands - the wife's brothers (n.b. A very frequent term expressing friendship.)",
+      "zh": "姊妹的丈夫-妻子的兄弟(註:常用來表達友誼的稱呼。)",
+      "examples": [
+        {
+          "t": "Mxa so ino, nai?",
+          "fr": "Où vas-tu, l'ami?",
+          "en": "Where are you going, friend?",
+          "zh": "朋友,你要去哪裡?"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'anai",
+          "fr": "être beaux-frères.",
+          "en": "to be brothers-in-law.",
+          "zh": "互為姻親兄弟。",
+          "examples": [
+            {
+              "t": "M'anai ta ka ita",
+              "fr": "Nous, nous sommes beaux-frères.",
+              "en": "We two are brothers-in-law.",
+              "zh": "我們倆是姻親兄弟。"
+            },
+            {
+              "t": "Mp'anai",
+              "fr": "Deviendra beau-frère.",
+              "en": "Will become a brother-in-law.",
+              "zh": "將成為姻親兄弟。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ANGAL",
+      "tag": "(R)",
+      "paradigm": "Mangal, angal, ngali, ngalan, ngalun",
+      "fr": "Prendre - enlever - emporter.",
+      "en": "To take - to remove - to carry off.",
+      "zh": "拿取-取走-帶走。",
+      "examples": [
+        {
+          "t": "Ini ko angal koyox ka yako",
+          "fr": "Moi je ne prends pas femme.",
+          "en": "As for me, I am not taking a wife.",
+          "zh": "我啊,我不娶妻。"
+        },
+        {
+          "t": "Miyax ko bbuyo ni ini ko angal",
+          "fr": "Je viens à la chasse et je ne prends rien !",
+          "en": "I come hunting and I catch nothing!",
+          "zh": "我來打獵,卻一無所獲!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mangal",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ngali bi ka pila",
+              "fr": "Prends bien l'argent.",
+              "en": "Be sure to take the money.",
+              "zh": "把錢好好拿著。"
+            },
+            {
+              "t": "Mnangal ko g'xap trabus tama",
+              "fr": "J'ai pris les graines d'arachides de papa.",
+              "en": "I took Dad's peanut seeds.",
+              "zh": "我拿了爸爸的花生種子。"
+            },
+            {
+              "t": "Ima ka nangal koyox sayang?",
+              "fr": "Qui est-ce qui prend femme au",
+              "en": "Who is it that takes a wife now... (cut off at the end of the page)",
+              "zh": "現在娶妻的是誰……(頁末中斷)"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

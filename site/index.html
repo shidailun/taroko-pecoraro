@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taroko Dictionary</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="title-block">
+      <h1>Taroko Dictionary</h1>
+      <p class="subtitle">太魯閣語辭典</p>
+    </div>
+    <div class="header-buttons">
+      <button id="btn-random" class="icon-btn" title="Random word / 隨機詞條" aria-label="Random word">🎲</button>
+      <button id="btn-intro" class="icon-btn" title="Introduction / 導言" aria-label="Introduction">📖</button>
+      <button id="btn-settings" class="icon-btn" title="Languages / 語言" aria-label="Settings">⚙</button>
+      <button id="btn-about" class="icon-btn" title="About / 關於" aria-label="About">ⓘ</button>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search Truku, Français, English, 中文…" autocomplete="off" autofocus>
+  </div>
+</header>
+
+<main id="results"></main>
+
+<footer>
+  <p>Pecoraro, <em>Essai de dictionnaire taroko-français</em> (1977) · <span id="entry-count"></span> entries</p>
+</footer>
+
+<div id="sheet-backdrop" class="hidden">
+  <div id="sheet" role="dialog" aria-modal="true">
+    <button id="sheet-close" class="icon-btn" aria-label="Close">✕</button>
+    <div id="sheet-content"></div>
+  </div>
+</div>
+
+<script src="entries.js"></script>
+<script src="intro.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

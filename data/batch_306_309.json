@@ -1,0 +1,735 @@
+{
+  "pages": [306, 309],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Msxea",
+        "fr": "Savoureux - (qui a bien son goût (?)).",
+        "en": "Tasty - (which has a good taste (?)).",
+        "zh": "美味的－（味道很好（?））。",
+        "examples": [
+          {
+            "t": "Msxea balae ka pnsnmaan so samat",
+            "fr": "Il est vraiment savoureux le gibier que tu as préparé !",
+            "en": "The game you have prepared is really tasty!",
+            "zh": "你準備的野味真美味！"
+          }
+        ]
+      },
+      {
+        "form": "Ksxea",
+        "fr": "Forme pour le négatif, de MSXEA.",
+        "en": "Negative form of MSXEA.",
+        "zh": "MSXEA 的否定形式。",
+        "examples": [
+          {
+            "t": "Balae bi o, nalu bi oqon ka qeulit ! Ya xmuya bi sayang ka ini ksxea !",
+            "fr": "Théoriquement, les rats (des champs) sont délicieux à manger! Comment se fait il qu'aujourd'hui ils n'ont pas de goût (ils ne sont pas savoureux)?",
+            "en": "Theoretically, (field) rats are delicious to eat! How is it that today they have no taste (they are not tasty)?",
+            "zh": "照理說，（田裡的）老鼠很好吃！為什麼今天牠們沒有味道（不美味）呢？"
+          }
+        ]
+      },
+      {
+        "form": "Knsxea",
+        "fr": "La densité, la qualité de saveur.",
+        "en": "The density, the quality of the flavour.",
+        "zh": "味道的濃度、品質。",
+        "examples": [
+          {
+            "t": "Tayal knsxea ka xei lodoç so!",
+            "fr": "Comme elle est savoureuse ta viande de poule !",
+            "en": "How tasty your chicken meat is!",
+            "zh": "你的雞肉真美味！"
+          }
+        ]
+      },
+      {
+        "form": "Knsxeaan",
+        "fr": "Saveur - parfum - fumet.",
+        "en": "Flavour - aroma - savour.",
+        "zh": "味道－香氣－風味。",
+        "examples": [
+          {
+            "t": "Adi kingal nanak ka knux ppadyaq so xo? ... Ida kia ka knsxeaan na, o!",
+            "fr": "Est-ce que tes légumes n'auraient pas un petit goût spécial? ... Ce n'est que leur goût naturel !",
+            "en": "Wouldn't your vegetables have a little special taste? ... It is only their natural flavour!",
+            "zh": "你的菜是不是有一點特別的味道？……那只是它們天然的味道罷了！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SXELAO",
+      "tag": "(R. = XELAO ?)",
+      "fr": "Tousser.",
+      "en": "To cough.",
+      "zh": "咳嗽。",
+      "examples": [
+        {
+          "t": "Mnalox xelao ka laqe mo koyox; ini sxelao ka laqe snao",
+          "fr": "Ma fille a une bronchite (souffre de toux), mon garçon ne tousse pas !",
+          "en": "My daughter has bronchitis (suffers from a cough), my boy does not cough!",
+          "zh": "我女兒得了支氣管炎（受咳嗽之苦），我兒子不咳嗽！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msxelao",
+          "fr": "Tousser - qui tousse.",
+          "en": "To cough - one who coughs.",
+          "zh": "咳嗽－咳嗽的人。",
+          "examples": [
+            {
+              "t": "Knliwa bi msxelao ka Otun mo",
+              "fr": "Ma (fille, soeur, femme) Otounne tousse terriblement.",
+              "en": "My (daughter, sister, wife) Otoun coughs terribly.",
+              "zh": "我的（女兒、姊妹、妻子）Otoun 咳嗽得很厲害。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SX'MO",
+      "tag": "(R)",
+      "fr": "Urine - uriner.",
+      "en": "Urine - to urinate.",
+      "zh": "尿－小便。",
+      "examples": [
+        {
+          "t": "S\"so (Sa'so - sa\"so ?) bi ! Mxolyaq dole kana qaban so! ... Uxai sx'mo ka kia ! Pnxbiyan dnamux nanak!",
+          "fr": "C'est honteux! Voilà tes draps (ta couverture) tout mouillés une nouvelle fois ... Mais ce n'est pas de l'urine ! C'est le toit qui a eu une gouttière.",
+          "en": "It is shameful! Here are your sheets (your blanket) all wet once again ... But it is not urine! It is the roof that has had a leak.",
+          "zh": "真丟臉！你的被單（被子）又全濕了……但這不是尿！是屋頂漏水了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smx'mo",
+          "fr": "Uriner.",
+          "en": "To urinate.",
+          "zh": "小便。",
+          "examples": [
+            {
+              "t": "Tgai ko tityex; mxa ko smx'mo da",
+              "fr": "Attends moi un peu; ja vais uriner.",
+              "en": "Wait for me a bit; I am going to urinate.",
+              "zh": "等我一下；我要去小便了。"
+            }
+          ]
+        },
+        {
+          "form": "Msx'mo",
+          "fr": "Celui qui urine - qui devient urine.",
+          "en": "One who urinates - that which becomes urine.",
+          "zh": "小便者－變成尿的東西。",
+          "examples": [
+            {
+              "t": "Msx'mo kana llukus so",
+              "fr": "Tous tes habits sont imbibés d'urine.",
+              "en": "All your clothes are soaked with urine.",
+              "zh": "你所有的衣服都被尿浸濕了。"
+            }
+          ]
+        },
+        {
+          "form": "Ssx'mo",
+          "fr": "Qui sent l'urine.",
+          "en": "Which smells of urine.",
+          "zh": "有尿味的。",
+          "examples": [
+            {
+              "t": "Manu ka saon so tloong xea ! Ssx'mo nanak!",
+              "fr": "Pourquoi tiens tu à aller t'asseoir dans ce coin là ? Cela ne sent que l'urine !",
+              "en": "Why do you insist on going to sit in that corner? It smells of nothing but urine!",
+              "zh": "你為什麼堅持要去那個角落坐？那裡只有尿味！"
+            }
+          ]
+        },
+        {
+          "form": "Sxmoan",
+          "fr": "Urinoir - organe évacuant l'urine.",
+          "en": "Urinal - the organ that discharges urine.",
+          "zh": "尿桶（廁所）－排尿的器官。",
+          "examples": [
+            {
+              "t": "Ana sapax ana sxmoan o, wada na sluan qp'las kana",
+              "fr": "Que ce soit la maison ou l'urinoir, il a tout construit en dur (en ciment).",
+              "en": "Whether the house or the urinal, he built everything solidly (in cement).",
+              "zh": "無論是房子還是尿桶，他全都用堅固的材料（水泥）建造。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SX'MUK",
+      "tag": "(R. = XMUK ? - = MUK ?)",
+      "fr": "(nb. Il est tentant de rapprocher SMUK = le clou; G'MUK = Couvercle, bouchon (pour fermer); XMUK = Enfermé; SX'MUK = Enfermer, emprisonner !). = Enfermer - emprisonner.",
+      "en": "(n.b. It is tempting to relate this to SMUK = the nail; G'MUK = lid, stopper (for closing); XMUK = shut in; SX'MUK = to shut in, to imprison!). = To shut in - to imprison.",
+      "zh": "（註：容易讓人聯想到 SMUK＝釘子；G'MUK＝蓋子、塞子（用來封閉）；XMUK＝被關住的；SX'MUK＝關押、監禁！）。＝關押－監禁。",
+      "subs": [
+        {
+          "form": "Msx'muk",
+          "fr": "Qui a été enfermé.",
+          "en": "One who has been shut in / imprisoned.",
+          "zh": "被關押過的人。",
+          "examples": [
+            {
+              "t": "Ga msx'muk sapax xm'kan (sxm'kan ?) pax skawas ka Taotyex",
+              "fr": "Taotchierh est enfermé dans une prison depuis l'année passée.",
+              "en": "Taotchierh has been shut in a prison since last year.",
+              "zh": "Taotchierh 從去年起就被關在監獄裡。"
+            }
+          ]
+        },
+        {
+          "form": "Psx'muk",
+          "paradigm": "°Mpsx'muk, psx'muk, psxm'ki, psxm'kan(psxm'qan) psxm'kun (psxm'qun).",
+          "fr": "Faire enfermer.",
+          "en": "To have (someone) shut in / imprisoned.",
+          "zh": "使人被關押。",
+          "examples": [
+            {
+              "t": "Nasi so mpgagwi (vl.mpg'gui) o, ida miso psxm'kun (psxmukun) kia",
+              "fr": "Si tu te mets à voler (si tu es un voleur) Je te ferai enfermer.",
+              "en": "If you take to stealing (if you are a thief) I will have you imprisoned.",
+              "zh": "如果你去偷竊（如果你是小偷），我會叫人把你關起來。"
+            }
+          ]
+        },
+        {
+          "form": "Sxm'kan",
+          "fr": "Temps, lieu pour être enfermé - celui qui est enfermé.",
+          "en": "Time, place for being shut in - the one who is shut in.",
+          "zh": "被關押的時間、地點－被關押的人。",
+          "examples": [
+            {
+              "t": "Ga sxm'kan kulu ka Liwis",
+              "fr": "Liwice est enfermé en prison.",
+              "en": "Liwice is shut in prison.",
+              "zh": "Liwice 被關在監獄裡。"
+            },
+            {
+              "t": "Mxa t'lo xnkawas ka sxm'kan na kulu",
+              "fr": "Son temps de prison va durer trois ans",
+              "en": "His prison term will last three years.",
+              "zh": "他的刑期將持續三年。"
+            }
+          ]
+        },
+        {
+          "form": "Psxm'kan",
+          "fr": "Lieu pour enfermer.",
+          "en": "Place for shutting (people) in.",
+          "zh": "用來關押（人）的地方。",
+          "examples": [
+            {
+              "t": "Sapax psxm'kan naqex sadyaq ka nii",
+              "fr": "Ici c'est l'endroit où l'on enferme les malfaiteurs (les mauvais).",
+              "en": "Here is the place where malefactors (the bad ones) are shut in.",
+              "zh": "這裡是關押壞人（惡人）的地方。"
+            }
+          ]
+        },
+        {
+          "form": "Tx'muk",
+          "fr": "Etre effectivement et solidement enfermé.",
+          "en": "To be effectively and solidly shut in.",
+          "zh": "確實而牢固地被關住。",
+          "examples": [
+            {
+              "t": "Ga tx'muk sapax sxm'kan alang paro ka xea, adi bi mpkdolyaq",
+              "fr": "Il est bien enfermé dans la prison de la ville, il ne se sauvera pas !",
+              "en": "He is securely shut in the town prison, he will not escape!",
+              "zh": "他被牢牢地關在城裡的監獄，逃不掉的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SXONGI",
+      "tag": "(R)",
+      "fr": "Oublie ! - Oublier.",
+      "en": "Forget! - To forget.",
+      "zh": "忘記！－遺忘。",
+      "examples": [
+        {
+          "t": "Ini ko sxongi ka ndaan so dmayao lqean (vl.laqe) mo",
+          "fr": "Je n'oublie pas ce que tu as fait pour aider mon fils.",
+          "en": "I do not forget what you did to help my son.",
+          "zh": "我不會忘記你為幫助我兒子所做的事。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smxongi",
+          "paradigm": "°Smxongi; sxongi, sxngii, sxngiyan, sxngiyun.",
+          "fr": "Oublier - ne plus se souvenir.",
+          "en": "To forget - to no longer remember.",
+          "zh": "忘記－不再記得。",
+          "examples": [
+            {
+              "t": "Smxongi ko ya bi sknuan ka pnllayan so miyax Morisaka",
+              "fr": "J'ai oublié quand est-ce que tu as commencé à venir à Morisaka.",
+              "en": "I have forgotten when you started coming to Morisaka.",
+              "zh": "我忘記你是什麼時候開始來 Morisaka 的了。"
+            },
+            {
+              "t": "Psai bi tunuç! Uxai bi sxngiyun ka kia",
+              "fr": "Mets bien celà dans ta tête ! Cela n'est vraiment pas à oublier !",
+              "en": "Put this firmly in your head! This is really not to be forgotten!",
+              "zh": "把這件事牢牢記在腦子裡！這件事真的不能忘記！"
+            }
+          ]
+        },
+        {
+          "form": "Smngoxe",
+          "fr": "( Variation de SMXONGI par mutation des consonnes mais avec le même sens).",
+          "en": "(Variation of SMXONGI by mutation of the consonants but with the same meaning).",
+          "zh": "（SMXONGI 因子音變化而形成的變體，但意思相同）。",
+          "examples": [
+            {
+              "t": "Ini ko biyao smngoxe ka yako",
+              "fr": "Moi j'oublie très vite.",
+              "en": "I forget very quickly.",
+              "zh": "我忘得很快。"
+            }
+          ]
+        },
+        {
+          "form": "Snngoxe",
+          "fr": "Avoir oublié.",
+          "en": "To have forgotten.",
+          "zh": "已經忘記。",
+          "examples": [
+            {
+              "t": "Ndaan ta lmigao Boloq sapax Tixong: snngoxe so?",
+              "fr": "Le voyage-promenade que nous avons fait à Boloq (par ce terme les taroko désignent la chaîne de montagnes côtière à l'est de l'île et de leur territoire dont ils sont séparés par la grande vallée de Hwalien à Taitung) Chez Tchirhong : Tu as oublié ?",
+              "en": "The excursion we made to Boloq (by this term the Taroko designate the coastal mountain range to the east of the island and of their territory, from which they are separated by the great valley running from Hwalien to Taitung) At Tchirhong's place: Have you forgotten?",
+              "zh": "我們去 Boloq 的那趟郊遊（太魯閣人用這個詞指島嶼與他們領域以東的海岸山脈，兩者之間隔著從花蓮延伸到台東的大縱谷）在 Tchirhong 那裡：你忘了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Msxongi",
+          "fr": "Qui oublie - étourdi - qui ne se souvient pas.",
+          "en": "One who forgets - scatterbrained - who does not remember.",
+          "zh": "健忘的人－糊塗的－記不住的。",
+          "examples": [
+            {
+              "t": "Pusu ko bi msxongi ka yako! Ini ko k'la pxa lnglongan",
+              "fr": "Je suis une souche qui oublie (je suis champion pour oublier!), moi! Je ne suis pas capable de me mettre (quelque chose) dans la tête.",
+              "en": "I am a stump that forgets (I am a champion at forgetting!), me! I am not able to get (anything) into my head.",
+              "zh": "我是個健忘的樹樁（我是遺忘冠軍！）！我沒辦法把（任何東西）記進腦子裡。"
+            }
+          ]
+        },
+        {
+          "form": "Sxngiyan",
+          "fr": "Ce qu'on oublie.",
+          "en": "That which one forgets.",
+          "zh": "所遺忘的事物。",
+          "examples": [
+            {
+              "t": "Sxngiyan sako xo?",
+              "fr": "Tu m'oublies ? (tu ne te souviens plus de moi ?).",
+              "en": "Are you forgetting me? (do you no longer remember me?).",
+              "zh": "你把我忘了嗎？（你不再記得我了嗎？）。"
+            },
+            {
+              "t": "Sxngiyun sako xo?",
+              "fr": "Tu veux m'oublier? (Tu m'oublieras ?).",
+              "en": "Do you want to forget me? (Will you forget me?).",
+              "zh": "你想把我忘了嗎？（你會忘記我嗎？）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SXÖS",
+      "tag": "(SX'S)",
+      "fr": "(Onomatopée) = Faire XÖS (le sifflement du serpent naja).",
+      "en": "(Onomatopoeia) = To make XÖS (the hiss of the naja / cobra snake).",
+      "zh": "（擬聲詞）＝發出 XÖS 聲（眼鏡蛇的嘶嘶聲）。",
+      "examples": [
+        {
+          "t": "Qoyo sxös",
+          "fr": "Cobra.",
+          "en": "Cobra.",
+          "zh": "眼鏡蛇。"
+        }
+      ]
+    },
+    {
+      "hw": "S'YEX",
+      "tag": "",
+      "crossRef": "TS'YEX",
+      "fr": "( Sans doute variante de TS'YEX ( T'YEX ?)). = Plaisanter - par jeu. VR. TS'YEX .",
+      "en": "(No doubt a variant of TS'YEX (T'YEX ?)). = To joke - in play / for fun. See TS'YEX.",
+      "zh": "（無疑是 TS'YEX（T'YEX ?）的變體）。＝開玩笑－玩笑地。參見 TS'YEX。"
+    },
+    {
+      "hw": "SYUDO",
+      "tag": "(= R. ?)",
+      "fr": "Mauvaise herbe dans les champs - saleté - balayures - Rebut",
+      "en": "Weeds in the fields - dirt - sweepings - refuse.",
+      "zh": "田裡的雜草－髒物－掃出的垃圾－廢棄物。",
+      "examples": [
+        {
+          "t": "Syudo ! Uxai payai ka nii!",
+          "fr": "Ce sont des mauvaises herbes ! Cela n'est pas du (un plant de) riz !",
+          "en": "These are weeds! This is not (a plant of) rice!",
+          "zh": "這些是雜草！這不是稻子（稻苗）！"
+        },
+        {
+          "t": "Saon mo qmada ino ka syudo ?",
+          "fr": "Où me faut il aller jeter les balayures (les branchages, les feuilles mortes, les mauvaises herbes).",
+          "en": "Where must I go to throw the sweepings (the branches, the dead leaves, the weeds)?",
+          "zh": "我該把掃出的垃圾（樹枝、枯葉、雜草）拿到哪裡去丟？"
+        }
+      ]
+    },
+    {
+      "hw": "SYULAE",
+      "tag": "(R)",
+      "fr": "Fesses.- fond de quelque chose.",
+      "en": "Buttocks - the bottom of something.",
+      "zh": "臀部－某物的底部。",
+      "examples": [
+        {
+          "t": "Ga mploq syulae na ka lubwi",
+          "fr": "Le sac a son fond percé.",
+          "en": "The bag has its bottom pierced.",
+          "zh": "袋子的底部破了。"
+        },
+        {
+          "t": "Syulae liwas",
+          "fr": "Le fond de la marmite.",
+          "en": "The bottom of the pot.",
+          "zh": "鍋子的底部。"
+        },
+        {
+          "t": "Wada ko na qyutun syulae ka xeuling so",
+          "fr": "Ton chien m'a mordu les (vl. dans les) fesses.",
+          "en": "Your dog bit me on the (var. in the) buttocks.",
+          "zh": "你的狗咬了我的臀部（或：咬進臀部）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pnssyulae",
+          "fr": "Se traîner sur les fesses.",
+          "en": "To drag oneself along on the buttocks.",
+          "zh": "用臀部拖行。",
+          "examples": [
+            {
+              "t": "Pnssyulae nami muda xakao",
+              "fr": "On se traînait sur les fesses pour passer le pont.",
+              "en": "We dragged ourselves along on our buttocks to cross the bridge.",
+              "zh": "我們用臀部拖行著過橋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SYULING",
+      "tag": "(= R. ?)",
+      "fr": "?? .",
+      "en": "?? (meaning uncertain).",
+      "zh": "??（意義不明）。",
+      "examples": [
+        {
+          "t": "Syuling otoç",
+          "fr": "Dartre - eczéma - urticaire.",
+          "en": "Skin rash - eczema - hives.",
+          "zh": "皮癬－濕疹－蕁麻疹。"
+        },
+        {
+          "t": "Msyuling otoç kana xei mo nasi ko mqan bnuöl",
+          "fr": "Tout mon corps se couvre d'urticaire si je mange des prunes.",
+          "en": "My whole body breaks out in hives if I eat plums.",
+          "zh": "我一吃李子全身就起蕁麻疹。"
+        }
+      ]
+    },
+    {
+      "hw": "S'XIGA",
+      "tag": "(R)",
+      "fr": "Hier.",
+      "en": "Yesterday.",
+      "zh": "昨天。",
+      "examples": [
+        {
+          "t": "Sao s'xiga",
+          "fr": "La veille.",
+          "en": "The day before.",
+          "zh": "前一天。"
+        },
+        {
+          "t": "Mniyax ko s'xiga",
+          "fr": "Je suis venu hier.",
+          "en": "I came yesterday.",
+          "zh": "我昨天來了。"
+        },
+        {
+          "t": "Mniyax ko sao s'xiga",
+          "fr": "Je suis venu la veille.",
+          "en": "I came the day before.",
+          "zh": "我前一天來了。"
+        },
+        {
+          "t": "Ana sayang ana s'xiga ana sknuan o, ini mo bi sai ka sapax so",
+          "fr": "Que ce soit aujourd'hui, ou hier, ou n'importe quand, il n'a jamais été question pour moi d'aller chez toi.",
+          "en": "Whether today, or yesterday, or at any time, there has never been any question of my going to your house.",
+          "zh": "無論是今天、昨天，還是任何時候，我從來都不會去你家。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ns'xiga",
+          "fr": "De hier. ( Nsao s'xiga = de la veille).",
+          "en": "From yesterday. (Nsao s'xiga = from the day before).",
+          "zh": "昨天的。（Nsao s'xiga＝前一天的）。",
+          "examples": [
+            {
+              "t": "Ns'xiga ka oqon nii! Ida bi mnsb'ngux da",
+              "fr": "Elle est de hier, cette nourriture; elle est sans doute tournée (aigre).",
+              "en": "This food is from yesterday; it has no doubt gone off (turned sour).",
+              "zh": "這食物是昨天的；大概已經壞了（變酸了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "T",
+      "tag": "",
+      "fr": "Préfixe très productif, susceptible d'entrer en composition avec presque toutes les bases de la langue et n'excluant aucun autre affixe ; Les dérivés qu'il produit sont parfois déconcertants par la diversité apparente de leur signification, mais il semble possible de dire que tous portent une idée d'intensité, ou d'assimilation avec la base de possession ou de production de la base.",
+      "en": "A very productive prefix, able to combine with almost all the bases of the language and excluding no other affix; the derivatives it produces are sometimes disconcerting by the apparent diversity of their meaning, but it seems possible to say that they all carry an idea of intensity, or of assimilation with the base, of possession or of production of the base.",
+      "zh": "一個非常多產的前綴，幾乎可以與語言中所有的詞根結合，且不排斥任何其他詞綴；它所產生的衍生詞有時因意義表面上的多樣性而令人困惑，但似乎可以說它們都帶有一種強化的意涵，或與詞根同化、擁有或產出詞根的意涵。",
+      "examples": [
+        {
+          "t": "Mqeta / Tqeta",
+          "fr": "Mqeta = celui qui regarde; Tqeta = se faire voir, apparaître.",
+          "en": "Mqeta = the one who looks; Tqeta = to make oneself seen, to appear.",
+          "zh": "Mqeta＝觀看的人；Tqeta＝使自己被看見、出現。"
+        },
+        {
+          "t": "Lalae / Plalae / Tlalae",
+          "fr": "Lalae = Avant, devant; Plalae = Faire commencer; Tlalae = qui est effectivement devant.",
+          "en": "Lalae = before, in front; Plalae = to make (something) begin; Tlalae = that which is actually in front.",
+          "zh": "Lalae＝之前、前面；Plalae＝使開始；Tlalae＝實際上在前面的。"
+        },
+        {
+          "t": "Pusu / Tpusu / Ptpusu",
+          "fr": "Pusu = Souche, origine; Tpusu = qui fait part de la souche = partie intégrante; Ptpusu = Faire être partie intégrante, assimiler, stabiliser.",
+          "en": "Pusu = stump, origin; Tpusu = which is part of the stock = integral part; Ptpusu = to make (something) an integral part, to assimilate, to stabilize.",
+          "zh": "Pusu＝樹樁、根源；Tpusu＝屬於根源的＝不可分割的一部分；Ptpusu＝使成為不可分割的一部分、同化、使穩定。"
+        },
+        {
+          "t": "Balong / Tbalong",
+          "fr": "Balong = oeuf; Tbalong = pondre.",
+          "en": "Balong = egg; Tbalong = to lay eggs.",
+          "zh": "Balong＝蛋；Tbalong＝下蛋。"
+        }
+      ]
+    },
+    {
+      "hw": "TA",
+      "tag": "(R. = ITA)",
+      "fr": "Forme enclitique du pronom personnel inclusif de la première personne du pluriel: Nous.",
+      "en": "Enclitic form of the inclusive first-person plural personal pronoun: We / us.",
+      "zh": "第一人稱複數包含式人稱代名詞的附著形式：我們（含聽話者）。",
+      "examples": [
+        {
+          "t": "Mxa ta ino ?",
+          "fr": "Où alllons nous ?",
+          "en": "Where are we going?",
+          "zh": "我們要去哪裡？"
+        },
+        {
+          "t": "Tama ta",
+          "fr": "Notre père (nous avec toi).",
+          "en": "Our father (we, including you).",
+          "zh": "我們的父親（我們與你）。"
+        },
+        {
+          "t": "Ini ta sai ka sapax na",
+          "fr": "Nous n'avons pas à aller chez lui (C'est pour nous un endroit à ne pas fréquenter).",
+          "en": "We do not have to go to his house (For us it is a place not to frequent).",
+          "zh": "我們不必去他家（對我們來說那是個不該去的地方）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tana (TA NA)",
+          "fr": "Pron.pers. composé = Nous-de-lui.",
+          "en": "Compound personal pronoun = us-of-him (we and him).",
+          "zh": "複合人稱代名詞＝我們與他。",
+          "examples": [
+            {
+              "t": "Byeqon ta na pila",
+              "fr": "Il nous donnera de l'argent.",
+              "en": "He will give us money.",
+              "zh": "他會給我們錢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TABE",
+      "tag": "(R)",
+      "fr": "Charrue (syn. = SAKOL). (nb. Outil très simple fait d'un pieu, maintenant ferré, planté avec un angle de 60 degrés dans un bois plus long que le buffle, ou les hommes tirent.)",
+      "en": "Plough (syn. = SAKOL). (n.b. A very simple tool made of a stake, now iron-tipped, set at an angle of 60 degrees into a piece of wood longer than the buffalo, which the men pull.)",
+      "zh": "犁（同義詞＝SAKOL）。（註：一種非常簡單的工具，用一根木樁製成，如今裝上鐵頭，以 60 度角插在一根比水牛還長的木頭上，由人拉動。）",
+      "subs": [
+        {
+          "form": "Tbian (Tbiyan)",
+          "fr": "arable - où l'on peut labourer - action de labourer.",
+          "en": "arable - where one can plough - the action of ploughing.",
+          "zh": "可耕的－可以犁田的地方－犁田的動作。"
+        },
+        {
+          "form": "Tnbiyan",
+          "fr": "Champ labouré;",
+          "en": "Ploughed field.",
+          "zh": "犁過的田。",
+          "examples": [
+            {
+              "t": "Ya bi pdai tnbian ka kating",
+              "fr": "Ne fais pas passer ton buffle à travers les champs labourés.",
+              "en": "Do not let your buffalo pass through the ploughed fields.",
+              "zh": "不要讓你的水牛穿過犁過的田。"
+            }
+          ]
+        },
+        {
+          "form": "Ptabe",
+          "paradigm": "°Mptabe, ptabe, Tbii (ptbii ?), Tbian (ptbian ?), tbiun(tbiyun) (ptbiun ?).",
+          "fr": "Labourer - se servir de la charrue. (nb. Se trouverait-il une parentée avec TMABUN = défoncer le sol, piocher profondément le sol pour l'ameublir ?).",
+          "en": "To plough - to use the plough. (n.b. Might there be a kinship with TMABUN = to break up the ground, to dig deeply into the soil to loosen it?).",
+          "zh": "犁田－使用犁。（註：是否與 TMABUN＝翻鬆土地、深掘土壤使其鬆軟 有親屬關係？）。",
+          "examples": [
+            {
+              "t": "Mxa ko ptabe kmpaxan mo trabus",
+              "fr": "Je vais labourer mon champ pour les arachides.",
+              "en": "I am going to plough my field for the peanuts.",
+              "zh": "我要犁我的田來種花生。"
+            },
+            {
+              "t": "Tbiyun mo xeti ka slaq",
+              "fr": "Je labourerai la rizière plus tard.",
+              "en": "I will plough the paddy field later.",
+              "zh": "我稍後會犁水田。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TABU",
+      "tag": "(R)",
+      "fr": "Action de nourrir, d'élever le betail - mener paître - conduire.",
+      "en": "The act of feeding, of raising livestock - to lead to pasture - to drive / lead.",
+      "zh": "餵養、飼養牲畜的行為－帶去放牧－驅趕／引導。",
+      "examples": [
+        {
+          "t": "Wana lodoç; ini ko tabu ana manu ka yako",
+          "fr": "A part celui de poules, je ne fais aucun élevage (je n'ai aucun animal domestique).",
+          "en": "Apart from that of chickens, I do no livestock raising (I have no domestic animals).",
+          "zh": "除了養雞以外，我不從事任何畜牧（我沒有任何家畜）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmabu",
+          "paradigm": "°Tmabu, tabu, tbui, tbuan, tbuon (vl; Tb'gi, tb'gan, tb'gun).",
+          "fr": "Nourrir, élever des animaux - mener paître - conduire.",
+          "en": "To feed, to raise animals - to lead to pasture - to drive / lead.",
+          "zh": "餵養、飼養動物－帶去放牧－驅趕／引導。",
+          "examples": [
+            {
+              "t": "Ana so tmabu lodoç o, ongat bi blexan",
+              "fr": "Même si tu élèves des poules, il n'y a vraiment aucun profit.",
+              "en": "Even if you raise chickens, there is really no profit.",
+              "zh": "就算你養雞，也真的沒有任何利潤。"
+            },
+            {
+              "t": "Tmabu babwi o, asi ka mbaga",
+              "fr": "pour élever des porcs, il faut être expert (il faut avoir la main).",
+              "en": "to raise pigs, one must be an expert (one must have the knack).",
+              "zh": "要養豬，必須是行家（必須有一手）。"
+            }
+          ]
+        },
+        {
+          "form": "Mtabu",
+          "fr": "Celui qui nourrit, qui mène paître - berger - pasteur.",
+          "en": "One who feeds, who leads to pasture - shepherd - herdsman.",
+          "zh": "餵養者、放牧者－牧人－牧者。",
+          "examples": [
+            {
+              "t": "Ongat ka mtabu kating no",
+              "fr": "Celui qui garde mon buffle n'est pas là.",
+              "en": "The one who tends my buffalo is not here.",
+              "zh": "看管我水牛的人不在。"
+            },
+            {
+              "t": "Ongat ka tmabu kating mo",
+              "fr": "Il n'y a personne pour mener paître mon buffle.",
+              "en": "There is no one to lead my buffalo to pasture.",
+              "zh": "沒有人可以帶我的水牛去放牧。"
+            }
+          ]
+        },
+        {
+          "form": "Tbuan",
+          "fr": "Temps, lieu, manière d'élever du bétail - le bétail qu'on élève.",
+          "en": "Time, place, manner of raising livestock - the livestock one raises.",
+          "zh": "飼養牲畜的時間、地點、方式－所飼養的牲畜。",
+          "examples": [
+            {
+              "t": "Ngalun mo tbuan lodoç ka \"bi siyao sapax paro",
+              "fr": "La cabane proche de la maison principale, je m'en servirai pour faire un élevage de volailles.",
+              "en": "The hut near the main house, I will use it to raise poultry.",
+              "zh": "主屋旁邊的小屋，我會用它來養家禽。"
+            }
+          ]
+        },
+        {
+          "form": "Tb'gan (Tbgan)",
+          "fr": "Variante du précédent TBUAN, plus spécialement employée dans le sens du bétail qui est élevé.",
+          "en": "Variant of the preceding TBUAN, more specifically used in the sense of the livestock that is raised.",
+          "zh": "前一詞 TBUAN 的變體，更特別用於指所飼養的牲畜。",
+          "examples": [
+            {
+              "t": "Naqex bi tbgan ka milit",
+              "fr": "Les chèvres ne sont pas faciles à élever?",
+              "en": "Aren't goats hard to raise?",
+              "zh": "山羊不容易飼養吧？"
+            }
+          ]
+        },
+        {
+          "form": "Tnbgan (Tnb'gan, tnbugan)",
+          "fr": "Animaux domestiques - animal qu'on a nourri",
+          "en": "Domestic animals - an animal one has fed / raised",
+          "zh": "家畜－人所飼養過的動物"
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

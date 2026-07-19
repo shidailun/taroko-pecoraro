@@ -1,0 +1,725 @@
+{
+  "pages": [158, 161],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Msklibut",
+        "fr": "Qui se trompe - qui bute contre un obstacle - qui heurte.",
+        "en": "One who makes a mistake - who stumbles against an obstacle - who bumps into (something).",
+        "zh": "弄錯的人－絆到障礙物的人－碰撞的人。",
+        "examples": [
+          {
+            "t": "Ana ima ida msklibut ppxal",
+            "fr": "tout le monde se trompe une fois ou l'autre.",
+            "en": "everyone makes a mistake one time or another.",
+            "zh": "每個人都難免會犯錯一兩次。"
+          }
+        ]
+      },
+      {
+        "form": "Sklbutan",
+        "fr": "Heurt - faute - péché.",
+        "en": "Collision - fault - sin.",
+        "zh": "碰撞－過錯－罪。",
+        "examples": [
+          {
+            "t": "Plxlaxe bi kana ka snklbutan so",
+            "fr": "Débarrasse toi de toutes tes fautes passées.",
+            "en": "Rid yourself of all your past faults.",
+            "zh": "拋開你過去所有的過錯。"
+          }
+        ]
+      },
+      {
+        "form": "Psklibut",
+        "fr": "Faire un croc en jambe - provoquer une chute - entraîner au mal.",
+        "en": "To trip (someone) up - to cause a fall - to lead into evil.",
+        "zh": "使人絆倒－使人跌倒－引人為惡。",
+        "examples": [
+          {
+            "t": "Ya bi ima ka pnsklibut sunan ?",
+            "fr": "Qui est ce qui t'a fait tomber?",
+            "en": "Who is it that made you fall?",
+            "zh": "是誰把你絆倒的？"
+          },
+          {
+            "t": "Mnda so psklibut ino da",
+            "fr": "Où es tu allé te faire faire un croc en jambe?",
+            "en": "Where did you go to get tripped up?",
+            "zh": "你去哪裡讓人把你絆倒了？"
+          },
+          {
+            "t": "Mnda so psklibut ima da?",
+            "fr": "Par qui es tu allé te faire entraîner au mal?",
+            "en": "By whom did you go to be led into evil?",
+            "zh": "你去被誰引去做壞事了？"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "LIDIL",
+      "tag": "(R)",
+      "fr": "Manche d'outil. (nb. LIDIL est surtout, spécialement employé pour désigner le manche de la petite pioche = PALEX, de celle un peu plus grande = SAPE , et de la très grande (inconnue autrefois ?) = BKALOX ; Toutes trois ont un manche qui fait 60° ou 70° avec l'outil lui même; est ce de là qu'est dérivé le sens de: Tordu, de travers - penché, également exprimé par ce terme? VR. LIDIL ci après ).",
+      "en": "Tool handle. (n.b. LIDIL is above all, especially used to designate the handle of the small pick = PALEX, of the slightly larger one = SAPE, and of the very large one (unknown in former times?) = BKALOX; all three have a handle that makes a 60° or 70° angle with the tool itself; is it from this that the meaning of: Twisted, crooked - leaning, also expressed by this term, is derived? See LIDIL below.)",
+      "zh": "工具的柄。（註：LIDIL 尤其專門用來指小鋤頭 PALEX 的柄、稍大一點的 SAPE 的柄，以及很大的 BKALOX 的柄（以前不曾見過？）；這三種柄與工具本身都成 60 度或 70 度角；「歪的、斜的－傾斜的」這個同樣以本詞表達的意思，是否由此衍生而來？參見下文 LIDIL。）",
+      "examples": [
+        {
+          "t": "Malu bi \"ma poting no; lidil na ka naqex",
+          "fr": "La lame de mon coutelas est bonne; c'est le manche qui n'est pas bon .",
+          "en": "The blade of my machete is good; it's the handle that is not good.",
+          "zh": "我的刀刃很好，是刀柄不好。"
+        }
+      ]
+    },
+    {
+      "hw": "LIDIL",
+      "tag": "(R)",
+      "fr": "Penché - de travers - tordu - faisant angle avec la verticale ou l'horizontale.",
+      "en": "Leaning - crooked - twisted - making an angle with the vertical or the horizontal.",
+      "zh": "傾斜的－歪的－扭曲的－與垂直或水平方向成角度。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlidil",
+          "fr": "Qui est tordu, de travers.",
+          "en": "Which is twisted, crooked.",
+          "zh": "扭曲的、歪斜的。",
+          "examples": [
+            {
+              "t": "Ga mlidil ga pnt'toan so m'lbu suni",
+              "fr": "C'est de travers (c'est penché) ce que tu as dressé ce matin.",
+              "en": "What you set up this morning is crooked (it's leaning).",
+              "zh": "你今天早上立起來的東西是歪的（斜的）。"
+            },
+            {
+              "t": "Mnalox so? Ma nlidil ka tunuç so!",
+              "fr": "Tu es malade? C'est curieux,ta tête est de travers !",
+              "en": "Are you sick? It's odd, your head is crooked!",
+              "zh": "你生病了嗎？真奇怪，你的頭是歪的！"
+            }
+          ]
+        },
+        {
+          "form": "Plidil (pklidil?)",
+          "paradigm": "°Mplidil, plidil, pldili, pldilan pldilun.",
+          "fr": "Courber - tordre.",
+          "en": "To bend - to twist.",
+          "zh": "使彎曲－扭。",
+          "examples": [
+            {
+              "t": "Pldilun mo qole sunan ka sida qouni",
+              "fr": "Je veux la courber dans ta direction cette branche d'arbre.",
+              "en": "I want to bend this tree branch in your direction.",
+              "zh": "我想把這根樹枝往你的方向彎過去。"
+            }
+          ]
+        },
+        {
+          "form": "Pklidil (Plidil?)",
+          "fr": "Faire que ce soit penché.",
+          "en": "To make it lean / be crooked.",
+          "zh": "使之傾斜。",
+          "examples": [
+            {
+              "t": "Ma ini so pklidil xali?",
+              "fr": "Pourquoi ne (le) places tu pas un peu de travers ?",
+              "en": "Why don't you place it a bit crooked?",
+              "zh": "你為什麼不把它擺得稍微斜一點呢？"
+            }
+          ]
+        },
+        {
+          "form": "Slidil",
+          "fr": "Pour être de travers.- se tenir de travers.",
+          "en": "To be crooked. - to hold oneself crooked.",
+          "zh": "處於歪斜的狀態－歪斜地站著。",
+          "examples": []
+        },
+        {
+          "form": "Mslidil",
+          "fr": "Qui se tient de travers - qui se met de travers.",
+          "en": "One who holds himself crooked - who puts himself crooked.",
+          "zh": "歪斜地站著的人－把自己擺歪的人。",
+          "examples": [
+            {
+              "t": "Ma so nslidil tloong?",
+              "fr": "Pourquoi t'assieds tu de travers ?",
+              "en": "Why do you sit crooked?",
+              "zh": "你為什麼歪著身子坐？"
+            }
+          ]
+        },
+        {
+          "form": "Pslidil",
+          "fr": "Faire pour que ce soit de travers, que ce soit tordu.",
+          "en": "To make it be crooked, be twisted.",
+          "zh": "使之變歪、變扭曲。",
+          "examples": [
+            {
+              "t": "Xnuya bi ka pnslidil so \"löt gaga?",
+              "fr": "Pourquoi (pour quel motif) as tu voulu cette poutre de travers?",
+              "en": "Why (for what reason) did you want this beam crooked?",
+              "zh": "你（為了什麼原因）要把這根樑弄歪呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIGAO",
+      "tag": "(R)",
+      "fr": "Flâner -Courir les rues - Vadrouiller.",
+      "en": "To stroll idly - to roam the streets - to wander about.",
+      "zh": "閒逛－在街上遊蕩－到處遊蕩。",
+      "examples": [
+        {
+          "t": "Tayal bi ligao ka ua ni ( = Tayal bi ligao na ka ua nii !)",
+          "fr": "Ce qu'elle peut vadrouiller, cette fille !",
+          "en": "How this girl can wander about!",
+          "zh": "這女孩真會到處遊蕩！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmigao",
+          "fr": "Vadrouiller - se promener - flâner.",
+          "en": "To wander about - to go for a walk - to stroll.",
+          "zh": "到處遊蕩－散步－閒逛。",
+          "examples": [
+            {
+              "t": "Mxa ko lnigao tityex , nawit ko da",
+              "fr": "Je vais faire un tour, je suis fatigué.",
+              "en": "I'm going to take a walk, I'm tired.",
+              "zh": "我去走一走，我累了。"
+            }
+          ]
+        },
+        {
+          "form": "Pligao",
+          "fr": "Faire vadrouiller - faire faire une promenade - débaucher.",
+          "en": "To make (someone) wander about - to take (someone) for a walk - to lead astray.",
+          "zh": "帶人去遊蕩－帶人去散步－使人放蕩。",
+          "examples": [
+            {
+              "t": "Iso bi nanak ka nniyax suxal pligao mnan mkdgiyaq",
+              "fr": "C'est bien toi qui es venu autrefois nous faire faire une promenade en montagne!",
+              "en": "It was indeed you who came in the past to take us for a walk in the mountains!",
+              "zh": "以前就是你來帶我們去山上散步的！"
+            },
+            {
+              "t": "Ini xali nksa ka Imin no, wana bi Libiç ka pligao xeaan ppxal",
+              "fr": "Ma fille (ma femme, soeur,cousine) Iminne ne sort pas beaucoup, il n'y a que Libish qui l'emmène parfois rouler.",
+              "en": "My daughter (my wife, sister, cousin) Imin doesn't go out much, only Libish sometimes takes her out for a ride.",
+              "zh": "我的女兒（妻子、姊妹、表親）Imin 不太出門，只有 Libish 偶爾帶她出去兜風。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIING",
+      "tag": "(R)",
+      "fr": "Cacher - soustraire à la vue.",
+      "en": "To hide - to remove from sight.",
+      "zh": "藏－使隱藏不見。",
+      "examples": [
+        {
+          "t": "Splang bi lniing pusu qqan daxa ka Boro",
+          "fr": "C'est volontairement que Boro (Bolo) cache le motif de leur dispute.",
+          "en": "It is deliberately that Boro (Bolo) hides the reason for their quarrel.",
+          "zh": "Boro（Bolo）是故意隱瞞他們爭吵的原因。"
+        },
+        {
+          "t": "Lingun no ka punyaq aadi na dmui",
+          "fr": "Je veux cacher le fusil pour qu'il ne s'en serve pas.",
+          "en": "I want to hide the gun so that he won't use it.",
+          "zh": "我要把槍藏起來，好讓他不能用。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmiing",
+          "paradigm": "°Lmiing, liing, .?. , Lingan, lingun.",
+          "fr": "Cacher - soustraire à la vue.",
+          "en": "To hide - to remove from sight.",
+          "zh": "藏－使隱藏不見。",
+          "examples": [
+            {
+              "t": "Lmiing so bi lnglongan ka iso, ini ko liing ka yako",
+              "fr": "Toi tu caches tes pensées, moi je ne les cache pas !",
+              "en": "You hide your thoughts, I don't hide them!",
+              "zh": "你把你的想法藏起來，我可不藏！"
+            }
+          ]
+        },
+        {
+          "form": "Lingan",
+          "fr": "Cachette - Endroit, temps,objet de l'action de cacher.",
+          "en": "Hiding place - place, time, object of the action of hiding.",
+          "zh": "藏匿處－藏這個動作的地點、時間、對象。",
+          "examples": []
+        },
+        {
+          "form": "Tliing",
+          "paradigm": "°Mtliing, tliing, tliingi, tliingan, tliingun.",
+          "fr": "Faire une démarche pour se cacher - se trouver en position cachée.",
+          "en": "To take steps to hide oneself - to be in a hidden position.",
+          "zh": "採取行動躲藏－處於隱蔽的位置。",
+          "examples": [
+            {
+              "t": "Wada bi tliing ino ka Xide ,",
+              "fr": "Où est elle bien cachée,Rhidé?",
+              "en": "Where is she well hidden, Rhidé?",
+              "zh": "Rhidé 到底藏在哪裡呢？"
+            }
+          ]
+        },
+        {
+          "form": "Mtliing",
+          "fr": "Qui est en position cachée.",
+          "en": "Who is in a hidden position.",
+          "zh": "處於隱蔽位置的人。",
+          "examples": [
+            {
+              "t": "Ga mtliing ka Bika; ana so gimun o, adi so bi xlayun!",
+              "fr": "Bica est bien cachée; tu auras beau la chercher, tu ne la trouveras certainement pas .",
+              "en": "Bica is well hidden; however much you search for her, you certainly won't find her.",
+              "zh": "Bica 藏得很好；你再怎麼找，也一定找不到她。"
+            }
+          ]
+        },
+        {
+          "form": "Tliingan",
+          "fr": "Cachette - temps où l'on se cache - manière de se cacher.",
+          "en": "Hiding place - time when one hides - manner of hiding.",
+          "zh": "藏匿處－躲藏的時間－躲藏的方式。",
+          "examples": [
+            {
+              "t": "Lima idas ka tnliingan na da",
+              "fr": "Il y avait cinq mois qu'elle se cachait.",
+              "en": "She had been hiding for five months.",
+              "zh": "她已經躲藏五個月了。"
+            },
+            {
+              "t": "Klaon mo kingal suyang bi tliingan",
+              "fr": "Je connais une fameuse cachette.",
+              "en": "I know a great hiding place.",
+              "zh": "我知道一個很棒的藏身處。"
+            }
+          ]
+        },
+        {
+          "form": "Ptliing",
+          "fr": "Se faire cacher.",
+          "en": "To get oneself hidden.",
+          "zh": "讓自己被藏起來。",
+          "examples": [
+            {
+              "t": "Usa n'xali ptliing sapax Awi",
+              "fr": "Va vite te faire cacher dans la maison de Awi.",
+              "en": "Go quickly hide yourself in Awi's house.",
+              "zh": "快去 Awi 的家裡躲起來。"
+            },
+            {
+              "t": "Adi mo ptliingun ka sapax nia",
+              "fr": "Je ne veux pas de sa maison pour me cacher.",
+              "en": "I don't want his house to hide in.",
+              "zh": "我不想用他的家來躲藏。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIKAO",
+      "tag": "(R)",
+      "fr": "Rapidité - vitesse.",
+      "en": "Quickness - speed.",
+      "zh": "快速－速度。",
+      "examples": [
+        {
+          "t": "N'xali n'xali msa so o, ki bi ka (kia bi ka) likao mo da",
+          "fr": "Plus vite, plus vite, dis tu.. voilà bien toute ma vélocité (= je fais tout ce que je peux!).",
+          "en": "Faster, faster, you say.. well, this is my full speed (= I'm doing all I can!).",
+          "zh": "你說快一點、快一點……這已經是我全部的速度了（＝我盡力了！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Slikao",
+          "fr": "Pour être rapide (?) - Prompt - vite.",
+          "en": "To be fast (?) - prompt - quick.",
+          "zh": "為了迅速（？）－敏捷－快。",
+          "examples": [
+            {
+              "t": "Ini so slikao tmalang",
+              "fr": "Tu ne cours pas vite.",
+              "en": "You don't run fast.",
+              "zh": "你跑得不快。"
+            }
+          ]
+        },
+        {
+          "form": "Mslikao",
+          "fr": "Qui est rapide - devenir rapide.",
+          "en": "Who is fast - to become fast.",
+          "zh": "快的人－變快。",
+          "examples": [
+            {
+              "t": "Kana d'ua do, Tome ka nslikao bi; ini ko kslikao ka yako",
+              "fr": "De toutes les filles c'est Tomé qui est vraiment la plus rapide; moi, je ne suis pas rapide.",
+              "en": "Of all the girls it's Tomé who is really the fastest; me, I'm not fast.",
+              "zh": "所有女孩當中，Tomé 真的是最快的；我呢，不快。"
+            }
+          ]
+        },
+        {
+          "form": "Knslkagan",
+          "fr": "Vitesse - vélocité - rapidité.",
+          "en": "Speed - velocity - quickness.",
+          "zh": "速度－速率－快速。",
+          "examples": [
+            {
+              "t": "Diyax no o, mkala (mgkala?) knslkagan ksudan walae ka likao na musa",
+              "fr": "Mes jours sont plus rapides (passent plus vite) que la vitesse de la navette du tisserand",
+              "en": "My days are faster (pass more quickly) than the speed of the weaver's shuttle.",
+              "zh": "我的日子比織布者的梭子還要快（過得更快）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIKIT",
+      "tag": "(R)",
+      "fr": "Estropié -difforme - Polio.",
+      "en": "Crippled - deformed - polio.",
+      "zh": "殘廢的－畸形的－小兒麻痺。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlikit",
+          "fr": "Qui est estropié - qui a un membre difforme.",
+          "en": "Who is crippled - who has a deformed limb.",
+          "zh": "殘廢的人－肢體畸形的人。",
+          "examples": [
+            {
+              "t": "Ini klikit ka baga na; papaq na isil ka mlikit balae",
+              "fr": "Ses mains ne sont pas estropiées; c'est son autre jambe qui l'est gravement.",
+              "en": "His hands are not crippled; it's his other leg that is severely so.",
+              "zh": "他的手沒有殘廢；殘廢得嚴重的是他的另一條腿。"
+            }
+          ]
+        },
+        {
+          "form": "Knlikit",
+          "fr": "Mesure de la difformité.",
+          "en": "Measure of the deformity.",
+          "zh": "畸形的程度。",
+          "examples": [
+            {
+              "t": "Qxnu (k'xnu ?) ka knlikit na",
+              "fr": "A quel point (dans quelle quantité) est il estropié ?",
+              "en": "To what extent (in what degree) is he crippled?",
+              "zh": "他殘廢到什麼程度（多嚴重）？"
+            }
+          ]
+        },
+        {
+          "form": "Pklikit",
+          "fr": "Rendre infirme - estropier.",
+          "en": "To make disabled - to cripple.",
+          "zh": "使殘障－使殘廢。",
+          "examples": [
+            {
+              "t": "Qnyutan qoyo suxal ka pnklikit papaq na",
+              "fr": "C'est la morsure de serpent dont il a été la victime dans le temps qui lui a estropié le pied. (qui a rendu son pied estropié).",
+              "en": "It's the snakebite he fell victim to in the past that crippled his foot. (that made his foot crippled).",
+              "zh": "是他以前被蛇咬傷才使他的腳殘廢的。（使他的腳變殘廢）。"
+            }
+          ]
+        },
+        {
+          "form": "Pnlikit",
+          "fr": "Se comporter à la manière d'un estropié - singer l'infirmité.",
+          "en": "To behave in the manner of a cripple - to mimic infirmity.",
+          "zh": "表現得像殘廢者－模仿殘疾。",
+          "examples": [
+            {
+              "t": "Xmuya so bi pnlikit nksa da! Ndoa xali o !",
+              "fr": "Pourquoi marches tu comme un estropié? Sois sensé !",
+              "en": "Why are you walking like a cripple? Be sensible!",
+              "zh": "你為什麼走路像個殘廢的人？放明智點！"
+            },
+            {
+              "t": "( Ksao nlikit nksa",
+              "fr": "Simule (pour tromper) un membre estropié pour marcher).",
+              "en": "Fakes (in order to deceive) a crippled limb in order to walk.",
+              "zh": "（假裝（為了欺騙）肢體殘廢來走路）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIKUT",
+      "tag": "(R)",
+      "fr": "Prétexte - ruse.",
+      "en": "Pretext - trick.",
+      "zh": "藉口－詭計。",
+      "examples": [
+        {
+          "t": "Ana no si lngagi o, ida nyeqan likut na ka xea!",
+          "fr": "J'ai beau lui parler (le lui dire), Il a toujours quelque prétexte (quelque ruse pour tromper).",
+          "en": "However much I speak to him (tell him), he always has some pretext (some trick to deceive).",
+          "zh": "我再怎麼跟他說（告訴他），他總是有些藉口（一些欺騙的詭計）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlikut",
+          "fr": "Qui cherche des prétextes.",
+          "en": "Who looks for pretexts.",
+          "zh": "找藉口的人。",
+          "examples": [
+            {
+              "t": "Ma so nlikut ! Syuki ko balae bi kari! ... Ini ko klikut ka yako!",
+              "fr": "Te voilà encore avec des prétextes (des faux fuyants)! Réponds moi par des paroles vraies! ... Je ne cherche pas des excuses (de fausses raisons).",
+              "en": "There you are again with pretexts (evasions)! Answer me with true words! ... I'm not looking for excuses (false reasons).",
+              "zh": "你又在找藉口（推託之詞）了！用真話回答我！……我可不找藉口（虛假的理由）。"
+            }
+          ]
+        },
+        {
+          "form": "Mplikut",
+          "fr": "Menteur - qui cherche à s'excuser, à tromper.",
+          "en": "Liar - who seeks to excuse himself, to deceive.",
+          "zh": "說謊者－設法找藉口、欺騙的人。",
+          "examples": [
+            {
+              "t": "Ana ini so siling xeaan da! Ida nplikut ka xea!",
+              "fr": "Tu peux te dispenser de l'interroger! De toute façon il te racontera des histoires !",
+              "en": "You can spare yourself from questioning him! In any case he'll tell you tall tales!",
+              "zh": "你不必問他了！反正他會跟你編故事的！"
+            }
+          ]
+        },
+        {
+          "form": "Tnlikut",
+          "fr": "Habile à chercher des prétextes, des faux-fuyants.",
+          "en": "Skilled at finding pretexts, evasions.",
+          "zh": "擅長找藉口、推託之詞的人。",
+          "examples": [
+            {
+              "t": "Pusu so bi tnlikut ka iso",
+              "fr": "Tu es passé maître à mentir (trouver des prétextes,)toi !",
+              "en": "You've become a master at lying (finding pretexts), you!",
+              "zh": "你已經是說謊（找藉口）的高手了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LILEX",
+      "tag": "( = R. ? - R. = LEX ?)",
+      "fr": "Tenir la place - Proche - voisin - presque.",
+      "en": "To hold the place - close - neighboring - almost.",
+      "zh": "頂替位置－相近的－鄰近的－幾乎。",
+      "examples": [
+        {
+          "t": "Lilex tana",
+          "fr": "Oncle (presque père ?).",
+          "en": "Uncle (almost father?).",
+          "zh": "叔伯（幾乎等於父親？）。"
+        },
+        {
+          "t": "Lilex mo bobo",
+          "fr": "Ma tante.",
+          "en": "My aunt.",
+          "zh": "我的姑姨。"
+        },
+        {
+          "t": "Lilex mnswai",
+          "fr": "cousins germains.",
+          "en": "first cousins.",
+          "zh": "堂（表）兄弟姊妹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lnilex",
+          "paradigm": "°Lnilex, lilex, .?. , Llexan , llexon.",
+          "fr": "Prendre la place de - hériter.",
+          "en": "To take the place of - to inherit.",
+          "zh": "頂替……的位置－繼承。",
+          "examples": [
+            {
+              "t": "Swai na nanak ka miyax lnilex Tadao ttmisa lqlaqe",
+              "fr": "C'est son propre petit frère qui vient remplacer Tadao pour enseigner les enfants.",
+              "en": "It's his own younger brother who comes to replace Tadao in teaching the children.",
+              "zh": "是他自己的弟弟來頂替 Tadao 教孩子們。"
+            },
+            {
+              "t": "Ida ta lnilex nxal kana ka mblyeqan tana ta",
+              "fr": "Aussi bien nous hériterons de toutes les richesses (les objets qui rendent heureux) de notre papa, un jour .",
+              "en": "We will indeed inherit one day all the riches (the things that make one happy) of our father.",
+              "zh": "總有一天我們也會繼承父親所有的財富（讓人快樂的東西）。"
+            }
+          ]
+        },
+        {
+          "form": "Mlilex",
+          "fr": "Héritier - qui prend la place - qui tient la place.",
+          "en": "Heir - who takes the place - who holds the place.",
+          "zh": "繼承人－頂替位置的人－佔據位置的人。",
+          "examples": [
+            {
+              "t": "Ana namo mlilex kana ana manu ka nbabao d'xgal o, ya bi manu ka blexon namo ? (ya bi npamanu ka blexan namo)?",
+              "fr": "Même si vous obtenez (héritez de ) tout ce qu'il y a dans le monde, à quoi celà pourra t il vous servir?",
+              "en": "Even if you obtain (inherit) all there is in the world, what use will it be to you?",
+              "zh": "即使你們得到（繼承）世上所有的一切，對你們又有什麼用呢？"
+            }
+          ]
+        },
+        {
+          "form": "Llexon",
+          "fr": "Celui qui sera (dont on veut faire) l'héritier - l'héritage promis, attendu.",
+          "en": "The one who will be (whom one wants to make) the heir - the promised, awaited inheritance.",
+          "zh": "將要成為（人們想立為）繼承人的人－所應許、所期待的產業。",
+          "examples": [
+            {
+              "t": "Llexon ana betak knuan (knuwan) sao mndoa bi lqlaqe ka gnalu nia",
+              "fr": "Sa bonté sera toujours assurée aux enfants fidèles ( qui se conduiront bien).",
+              "en": "His goodness will always be assured to faithful children (who will behave well).",
+              "zh": "他的良善必永遠賜給忠實的孩子們（那些行為端正的孩子）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LILU",
+      "tag": "(R)",
+      "fr": "Mouvement - bouger - se mouvoir.",
+      "en": "Movement - to move - to move oneself.",
+      "zh": "動作－移動－移動自身。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mlilu",
+          "paradigm": "°Mlilu, lilu, llgi, llgan, llgun.",
+          "fr": "Bouger - se mouvoir - mobile.",
+          "en": "To move - to move oneself - mobile.",
+          "zh": "移動－活動－會動的。",
+          "examples": [
+            {
+              "t": "Mlilu ka kingal qadang mo kika saon mo mita ngabal gupun",
+              "fr": "Une de mes molaires bouge c'est pourquoi je veux aller voir un dentiste (celui qui arrache les dents).",
+              "en": "One of my molars is loose, that's why I want to go see a dentist (the one who pulls teeth).",
+              "zh": "我的一顆臼齒在動，所以我想去看牙醫（拔牙的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Mlglu (Mlg'lu - m'l'g'lu)",
+          "fr": "Qui est en mouvement - qui bouge intensément.",
+          "en": "Which is in motion - which moves intensely.",
+          "zh": "在動的－劇烈晃動的。",
+          "examples": [
+            {
+              "t": "Ya xmuya bi mlg'lu kddiyax ka qling bi tdoling baga mo?",
+              "fr": "Pourquoi est ce donc que le petit doigt de ma main est toujours en mouvement ?",
+              "en": "Why on earth is the little finger of my hand always in motion?",
+              "zh": "我這隻手的小指頭到底為什麼老是在動？"
+            }
+          ]
+        },
+        {
+          "form": "Klilu",
+          "fr": "Forme impérative et négative de MLILU = bouger.",
+          "en": "Imperative and negative form of MLILU = to move.",
+          "zh": "MLILU（移動）的命令式與否定式。",
+          "examples": [
+            {
+              "t": "Ya klilu!",
+              "fr": "Ne bouge pas !",
+              "en": "Don't move!",
+              "zh": "別動！"
+            },
+            {
+              "t": "Ini klilu ka tdoloi so",
+              "fr": "ta voiture ne bouge pas de place.",
+              "en": "your car doesn't move from its spot.",
+              "zh": "你的車一動也不動。"
+            }
+          ]
+        },
+        {
+          "form": "Llgan",
+          "fr": "L'action de bouger - mouvement.",
+          "en": "The action of moving - movement.",
+          "zh": "移動的動作－動作。",
+          "examples": [
+            {
+              "t": "Ini so tai ka llgan na xo ?",
+              "fr": "Tu ne vois pas son mouvement (le fait que celà bouge) ?",
+              "en": "Don't you see its movement (the fact that it moves)?",
+              "zh": "你沒看到它在動嗎（它會動這件事）？"
+            }
+          ]
+        },
+        {
+          "form": "Mnlg'lu",
+          "fr": "Bougeait - était en mouvement - qui a tremblé, vibré.",
+          "en": "Was moving - was in motion - which trembled, vibrated.",
+          "zh": "曾在動－曾在移動－顫動、震動過的。",
+          "examples": [
+            {
+              "t": "Sao sniso bi! Mnlg'lu kana ana ddgiyaq ole",
+              "fr": "Celà faisait peur! Tout bougeait, même les montagnes !",
+              "en": "It was frightening! Everything was moving, even the mountains!",
+              "zh": "真可怕！一切都在動，連山都在動！"
+            }
+          ]
+        },
+        {
+          "form": "Plilu",
+          "paradigm": "°Mplilu , plilu, pllgi, pllgan, pllgun.",
+          "fr": "Faire bouger - faire mouvoir.",
+          "en": "To make move - to set in motion.",
+          "zh": "使移動－使活動。",
+          "examples": [
+            {
+              "t": "Ana so pllgun o, ida mo d'xkon",
+              "fr": "Tu as beau (le) faire bouger, j'y arriverai quand même.",
+              "en": "However much you (try to) move it, I'll manage all the same.",
+              "zh": "你再怎麼想推動它，我還是會辦到的。"
+            }
+          ]
+        },
+        {
+          "form": "Pklilu (Plilu ?)",
+          "fr": "Faire que celà bouge, que ce soit en mouvement.",
+          "en": "To make it move, to make it be in motion.",
+          "zh": "使它動、使它處於運動中。",
+          "examples": [
+            {
+              "t": "Dyagi ko pklilu tdoloi mo nii",
+              "fr": "Aide moi à faire bouger (à déplacer, à mettre en route) ma voiture qui est là.",
+              "en": "Help me to move (to shift, to get going) my car that's here.",
+              "zh": "幫我推動（挪動、發動）我這輛在這裡的車。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

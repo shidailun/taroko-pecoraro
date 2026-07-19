@@ -1,0 +1,1230 @@
+{
+  "pages": [
+    390,
+    392
+  ],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "ABURA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "1° Huile (comestible ou non). 2° Essence (et tout ce qui fait tourner un moteur).",
+      "en": "1° Oil (edible or not). 2° Gasoline (and anything that makes a motor run).",
+      "zh": "1° 油（食用或非食用）。 2° 汽油（以及任何驅動馬達的燃料）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BAKET",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Seau (en métal ou bois).",
+      "en": "Bucket (metal or wooden).",
+      "zh": "水桶（金屬或木製）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BAKU-TIKU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pétard chinois.",
+      "en": "Chinese firecracker.",
+      "zh": "中式鞭炮。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BALA-NO-XANA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "ROSE (fleur) - Rosier",
+      "en": "ROSE (flower) - rosebush",
+      "zh": "玫瑰（花）－玫瑰花叢",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BALAS",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Gravier (du torrent - pour faire le béton).",
+      "en": "Gravel (from the torrent - for making concrete).",
+      "zh": "礫石（取自溪流－用來製作混凝土）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BALE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Balle de fusil.",
+      "en": "Rifle bullet.",
+      "zh": "步槍子彈。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BETO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Lit (à la mode occident.).",
+      "en": "Bed (Western style).",
+      "zh": "床（西式）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BIRU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bière.",
+      "en": "Beer.",
+      "zh": "啤酒。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BOLU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Ballon (à jouer).",
+      "en": "Ball (for playing).",
+      "zh": "球（玩耍用）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BOSI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Chapeau - casquette.",
+      "en": "Hat - cap.",
+      "zh": "帽子－鴨舌帽。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbosi",
+          "fr": "Porter un Chapeau.",
+          "en": "To wear a hat.",
+          "zh": "戴帽子。"
+        },
+        {
+          "form": "Snbosi",
+          "fr": "\" à propos de chapeau.",
+          "en": "\" (idem) concerning a hat / occasion of wearing a hat.",
+          "zh": "\"（同上）關於帽子（之事）。"
+        }
+      ]
+    },
+    {
+      "hw": "BOTANG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bouton (occidental).",
+      "en": "Button (Western).",
+      "zh": "鈕扣（西式）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pbotang",
+          "fr": "Boutonner.",
+          "en": "To button.",
+          "zh": "扣上鈕扣。"
+        }
+      ]
+    },
+    {
+      "hw": "BUDO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Raisin.",
+      "en": "Grape.",
+      "zh": "葡萄。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Budosyu",
+          "fr": "Vin (de raisin).",
+          "en": "Wine (from grapes).",
+          "zh": "（葡萄）酒。"
+        }
+      ]
+    },
+    {
+      "hw": "DALYA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Dahlia (fleur).",
+      "en": "Dahlia (flower).",
+      "zh": "大理花（花）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DENKI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Electricité.",
+      "en": "Electricity.",
+      "zh": "電。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tama denki",
+          "fr": "Ampoule électrique.",
+          "en": "Electric light bulb.",
+          "zh": "電燈泡。"
+        }
+      ]
+    },
+    {
+      "hw": "DIDENSYA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bicyclette (En Taroko se dit: TDOLOI GAQAT ,",
+      "en": "Bicycle (In Taroko it is said: TDOLOI GAQAT , [gloss runs to foot of column, parenthesis left open]",
+      "zh": "腳踏車（太魯閣語稱作：TDOLOI GAQAT，〔句末在欄底處中斷，括號未閉合〕",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOKU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Poison - Venin.",
+      "en": "Poison - venom.",
+      "zh": "毒藥－毒液。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOLI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Doctrine - sens.",
+      "en": "Doctrine - meaning.",
+      "zh": "教義－意義。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOLU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Route importante.",
+      "en": "Major road.",
+      "zh": "重要道路。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOMBOLI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Grand bol.",
+      "en": "Large bowl.",
+      "zh": "大碗。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOXE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Brigant - bandit.",
+      "en": "Brigand - bandit.",
+      "zh": "強盜－土匪。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "EGO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Anglais.",
+      "en": "English (language).",
+      "zh": "英語。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "EMPI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pelle en fer.",
+      "en": "Iron shovel.",
+      "zh": "鐵鏟。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "EMPIT",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Crayon - Stylo.",
+      "en": "Pencil - pen.",
+      "zh": "鉛筆－鋼筆。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ENTOT",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Cheminée - Tuyau de fourneau",
+      "en": "Chimney - stove pipe.",
+      "zh": "煙囪－爐管。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GAKO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Ecole (Tr.= Sapax ptasan).",
+      "en": "School (Taroko: Sapax ptasan).",
+      "zh": "學校（太魯閣語：Sapax ptasan）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GASOLIN",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Essence - Automotrice.",
+      "en": "Gasoline - motor vehicle.",
+      "zh": "汽油－機動車。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GASYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "OIE.",
+      "en": "Goose.",
+      "zh": "鵝。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "G'LAS",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "1° Vitre - verre (matière). 2° Lunettes.",
+      "en": "1° Window pane - glass (the material). 2° Eyeglasses.",
+      "zh": "1° 窗玻璃－玻璃（材質）。 2° 眼鏡。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "GOTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Chef civil d'un canton.",
+      "en": "Civil head of a township/canton.",
+      "zh": "鄉鎮的行政首長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ISING",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Docteur (médecin).",
+      "en": "Doctor (physician).",
+      "zh": "醫生。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KAGI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Clé (Tr.= Bl'xo).",
+      "en": "Key (Taroko: Bl'xo).",
+      "zh": "鑰匙（太魯閣語：Bl'xo）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pkagi",
+          "fr": "Fermer à clé.",
+          "en": "To lock.",
+          "zh": "上鎖。"
+        }
+      ]
+    },
+    {
+      "hw": "KAITYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Président d'une communauté, d'une société.",
+      "en": "President of a community or a society.",
+      "zh": "社群或社團的會長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KAISYA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Fabrique - usine.",
+      "en": "Factory - plant.",
+      "zh": "工廠。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KANE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "CLOCHE - Argent (monnaie).",
+      "en": "Bell - money (currency).",
+      "zh": "鐘－錢（貨幣）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KASI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Biscuits - Croûtes des aliments dans la marmite.",
+      "en": "Biscuits - crusts of food (stuck) in the cooking pot.",
+      "zh": "餅乾－鍋中食物的鍋巴。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KAIKO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Ver à soie.",
+      "en": "Silkworm.",
+      "zh": "蠶。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KAWALA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tuile (en ciment ou terre)",
+      "en": "Tile (of cement or earthenware).",
+      "zh": "瓦片（水泥或陶土製）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KAYA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Moustiquaire.",
+      "en": "Mosquito net.",
+      "zh": "蚊帳。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KEGA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Blessure - plaie.",
+      "en": "Wound - injury.",
+      "zh": "傷口－創傷。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pkega",
+          "fr": "Infliger une blessure.",
+          "en": "To inflict a wound.",
+          "zh": "使受傷。"
+        }
+      ]
+    },
+    {
+      "hw": "KENSAT",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Policier - Japonais.",
+      "en": "Policeman - Japanese (police).",
+      "zh": "警察－日本（警察）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sapax kensat",
+          "fr": "Maison de police.",
+          "en": "Police station.",
+          "zh": "警察局。"
+        },
+        {
+          "form": "Mkensat",
+          "fr": "Devenir policier.",
+          "en": "To become a policeman.",
+          "zh": "當警察。"
+        }
+      ]
+    },
+    {
+      "hw": "KENGTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Préfet.",
+      "en": "Prefect.",
+      "zh": "縣長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KETO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tricot - pull-over.",
+      "en": "Knitwear - pullover (sweater).",
+      "zh": "毛衣－套頭衫。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KIKAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Machine.",
+      "en": "Machine.",
+      "zh": "機器。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KYOKAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Temple - Eglise (bâtiment). Eglise (communauté).",
+      "en": "Temple - church (the building). Church (the community).",
+      "zh": "寺廟－教堂（建築）。教會（團體）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KODYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Fabrique - chantier.",
+      "en": "Factory - worksite.",
+      "zh": "工廠－工地。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KONGLENG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Préparation militaire - Entrainement - exercice.",
+      "en": "Military preparation - training - drill.",
+      "zh": "軍事準備－訓練－演習。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KOSWI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Citronelle (Herbe à parfum)",
+      "en": "Citronella (fragrant herb).",
+      "zh": "香茅（芳香草本）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KOTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Directeur d'école.",
+      "en": "School principal.",
+      "zh": "校長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KULI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Travailleur manuel salarié.",
+      "en": "Wage-earning manual labourer.",
+      "zh": "領薪的體力勞工。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mskuli",
+          "fr": "S'embaucher pour un salaire.",
+          "en": "To hire oneself out for wages.",
+          "zh": "受僱領薪。"
+        },
+        {
+          "form": "Pskuli",
+          "fr": "Embaucher.",
+          "en": "To hire (someone).",
+          "zh": "僱用（人）。"
+        },
+        {
+          "form": "Mkuli",
+          "fr": "Etre un salarié.",
+          "en": "To be a wage-earner.",
+          "zh": "當領薪者。"
+        }
+      ]
+    },
+    {
+      "hw": "KUTSESTA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Chaussette - Bas.",
+      "en": "Sock - stocking.",
+      "zh": "襪子－長襪。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LANTYU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Basket-ball (= Chinois).",
+      "en": "Basketball (= Chinese word).",
+      "zh": "籃球（＝華語詞）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LAPA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Trompette (tous les Cuivres en général).",
+      "en": "Trumpet (brass instruments in general).",
+      "zh": "小號（泛指銅管樂器）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Plapa",
+          "fr": "Sonner de la trompette.",
+          "en": "To sound the trumpet.",
+          "zh": "吹小號。"
+        },
+        {
+          "form": "Plpaan",
+          "fr": "Le fait de jouer (concret) de cet instrument.",
+          "en": "The (concrete) act of playing this instrument.",
+          "zh": "（具體地）演奏此樂器一事。"
+        }
+      ]
+    },
+    {
+      "hw": "LEMON",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Citron.",
+      "en": "Lemon.",
+      "zh": "檸檬。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LENGA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Brique.",
+      "en": "Brick.",
+      "zh": "磚。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LINTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Chef de quartier.",
+      "en": "Neighbourhood chief.",
+      "zh": "鄰長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LOPU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "1° Raves - Radis (Chinois). 2° Stérilet.",
+      "en": "1° Turnips - radish (Chinese word). 2° Intrauterine device (IUD).",
+      "zh": "1° 蕪菁－蘿蔔（華語詞）。 2° 子宮內避孕器。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "LOSOK",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bougie - chandelle.",
+      "en": "Candle.",
+      "zh": "蠟燭。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MAKURA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Coussin.",
+      "en": "Cushion - pillow.",
+      "zh": "枕頭。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MATSE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "PIN (Arbre).",
+      "en": "Pine (tree).",
+      "zh": "松樹。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MAYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Cocon de ver à soie.",
+      "en": "Silkworm cocoon.",
+      "zh": "蠶繭。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MIL'KU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Lait (surtout en poudre).",
+      "en": "Milk (especially powdered).",
+      "zh": "牛奶（尤指奶粉）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MISO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Mixture de blé, haricots, soja, épicée, servant de condiment pour le riz.",
+      "en": "A spiced mixture of wheat, beans and soya, used as a condiment for rice.",
+      "zh": "由小麥、豆類、大豆製成的辛香混合物，用作米飯的調味品。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "MLATA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Soldat (porteur du fusil : Murata ?).",
+      "en": "Soldier (bearer of the rifle: Murata?).",
+      "zh": "士兵（持步槍者：村田槍？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smlata",
+          "fr": "Entrainement militaire.",
+          "en": "Military training.",
+          "zh": "軍事訓練。"
+        }
+      ]
+    },
+    {
+      "hw": "MONGPE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pantalon de femme.",
+      "en": "Women's trousers.",
+      "zh": "女褲。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NABE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Marmite - petite casserole.",
+      "en": "Pot - small saucepan.",
+      "zh": "鍋子－小燉鍋。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NEGI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Oignon.",
+      "en": "Onion.",
+      "zh": "洋蔥。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NINGDING",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Carotte",
+      "en": "Carrot.",
+      "zh": "胡蘿蔔。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "NULI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Colle.",
+      "en": "Glue.",
+      "zh": "膠水。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "OBA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Manteau.",
+      "en": "Coat - overcoat.",
+      "zh": "外套。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "OMMA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Cheval.",
+      "en": "Horse.",
+      "zh": "馬。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PAIPU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tube (pour conduite d'eau, Les taroko s'en servent pour fabriquer des fusils !!).",
+      "en": "Pipe/tube (for water conduits; the Taroko use it to make rifles!!).",
+      "zh": "管子（用於輸水管道；太魯閣人用它來製造步槍！！）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PANG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pain.",
+      "en": "Bread.",
+      "zh": "麵包。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PENKI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Peinture (matière).",
+      "en": "Paint (the material).",
+      "zh": "油漆（材料）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PENTI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pinces - tenailles.",
+      "en": "Pliers - pincers.",
+      "zh": "鉗子－老虎鉗。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "OTOBAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Moto.",
+      "en": "Motorcycle.",
+      "zh": "摩托車。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PETYU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Volley-ball. (Chinois).",
+      "en": "Volleyball. (Chinese word).",
+      "zh": "排球。（華語詞）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PLATO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bol - tasse.",
+      "en": "Bowl - cup.",
+      "zh": "碗－杯。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "PONKI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Petit panier chinois avec 3 anses pour porter au fléau.",
+      "en": "Small Chinese basket with 3 handles for carrying on a shoulder-pole.",
+      "zh": "有三個提把的小型中式籃子，用扁擔挑運。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "POPU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Hache.",
+      "en": "Axe.",
+      "zh": "斧頭。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "QOAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bâtonnets chinois.",
+      "en": "Chinese chopsticks.",
+      "zh": "中式筷子。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "RADYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Radio.",
+      "en": "Radio.",
+      "zh": "收音機。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SABONG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Savon.",
+      "en": "Soap.",
+      "zh": "肥皂。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SAIDA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Limonade.",
+      "en": "Lemonade (soda).",
+      "zh": "汽水。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SATO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Sucre.",
+      "en": "Sugar.",
+      "zh": "糖。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SÖGI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Conifère non précieux.",
+      "en": "A conifer of no great value.",
+      "zh": "不值錢的針葉樹。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SEMENTO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Ciment.",
+      "en": "Cement.",
+      "zh": "水泥。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SENENG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Les jeunes en général.",
+      "en": "Young people in general.",
+      "zh": "泛指年輕人。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SENGSE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Maître - professeur.",
+      "en": "Master - teacher.",
+      "zh": "師傅－老師。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SINGBONG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Journal - papier journal. (= très employé pour roules les cigarettes !).",
+      "en": "Newspaper - newsprint. (= much used for rolling cigarettes!).",
+      "zh": "報紙－新聞紙。（＝常用來捲香菸！）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SINPU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Prêtre catholique.",
+      "en": "Catholic priest.",
+      "zh": "天主教神父。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msimpu",
+          "fr": "Devenir, se faire prêtre.",
+          "en": "To become, to be ordained a priest.",
+          "zh": "成為、被立為神父。"
+        },
+        {
+          "form": "Mpasimpu",
+          "fr": "Deviendra prêtre.",
+          "en": "Will become a priest.",
+          "zh": "將成為神父。"
+        },
+        {
+          "form": "PU !",
+          "fr": "Vocatif de SINPU.",
+          "en": "Vocative of SINPU.",
+          "zh": "SINPU 的呼格。"
+        },
+        {
+          "form": "Snpuan",
+          "fr": "Oblique de SIMPU.",
+          "en": "Oblique (case) of SIMPU.",
+          "zh": "SIMPU 的斜格。"
+        }
+      ]
+    },
+    {
+      "hw": "SONGTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Maire (du village).",
+      "en": "Mayor (of the village).",
+      "zh": "村長。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SOSIDYU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Mimosa (arbre).",
+      "en": "Mimosa / acacia (tree).",
+      "zh": "相思樹（樹）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SOYU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Assaisonnement liquide à base de soja.",
+      "en": "Liquid seasoning made from soya (soy sauce).",
+      "zh": "以大豆製成的液體調味料（醬油）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "STIMENTYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Dinde - dindon.",
+      "en": "Turkey.",
+      "zh": "火雞。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TABU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Bois feuillu peu éstimé pour le travail.",
+      "en": "A broad-leaved wood little valued for woodworking.",
+      "zh": "不太適合加工的闊葉木材。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TAIXE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Engrais - fumier.",
+      "en": "Fertilizer - manure.",
+      "zh": "肥料－糞肥。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TAMANA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Choux.",
+      "en": "Cabbage.",
+      "zh": "高麗菜。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TANKA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Civière - brancard.",
+      "en": "Stretcher - litter.",
+      "zh": "擔架。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TANSÖ",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Armoire (à linge).",
+      "en": "Wardrobe (for linen/clothes).",
+      "zh": "衣櫃（放衣物）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TATAMI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tapis épais, 5, vel 6 cm., en paille de riz pressée, recouvrant l'estrade sur laquelle on dort.",
+      "en": "Thick mat, 5 or 6 cm, of pressed rice straw, covering the raised platform on which one sleeps.",
+      "zh": "厚墊，5 或 6 公分，以壓製的稻草製成，鋪在睡覺的高台上。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TEUXU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Fromage de soja. (Chinois)",
+      "en": "Bean curd / tofu. (Chinese word).",
+      "zh": "豆腐。（華語詞）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TOKE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Montre - orloge.",
+      "en": "Watch - clock.",
+      "zh": "手錶－時鐘。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TAOKE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Contremaître - patron.",
+      "en": "Foreman - boss.",
+      "zh": "工頭－老闆。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TOMATO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tomate.",
+      "en": "Tomato.",
+      "zh": "番茄。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TRASI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Natte (en paille ou en rotin)",
+      "en": "Mat (of straw or rattan).",
+      "zh": "蓆子（稻草或藤製）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TSKOE",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Table - bureau.",
+      "en": "Table - desk.",
+      "zh": "桌子－書桌。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "USAGI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Lapin (Tr.= Sbilat).",
+      "en": "Rabbit (Taroko: Sbilat).",
+      "zh": "兔子（太魯閣語：Sbilat）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "WAGI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Maillot de corps.",
+      "en": "Undershirt (vest).",
+      "zh": "汗衫（內衣）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "WAKAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Dans la force de l'âge.",
+      "en": "In the prime of life.",
+      "zh": "正值壯年。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Knwakai",
+          "fr": "Degré de jeunesse, de santé",
+          "en": "Degree of youthfulness, of health.",
+          "zh": "年輕、健康的程度。"
+        }
+      ]
+    },
+    {
+      "hw": "WANA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Piège.",
+      "en": "Trap.",
+      "zh": "陷阱。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XAIBYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Tuberculose.",
+      "en": "Tuberculosis.",
+      "zh": "肺結核。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XAKU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Caisse - coffre - malle.",
+      "en": "Crate - chest - trunk.",
+      "zh": "箱子－櫃子－大衣箱。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XANA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Fleur (en général).",
+      "en": "Flower (in general).",
+      "zh": "花（泛稱）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XAMA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Masse (Outil).",
+      "en": "Sledgehammer (tool).",
+      "zh": "大槌（工具）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XAYA",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Automobile -",
+      "en": "Automobile -",
+      "zh": "汽車－",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XELYO",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Engrais chimiques.",
+      "en": "Chemical fertilizers.",
+      "zh": "化學肥料。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XETAI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Militaire.",
+      "en": "Military / soldier.",
+      "zh": "軍人／軍事。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XINOKI",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Cyprès du Japon.",
+      "en": "Japanese cypress (hinoki).",
+      "zh": "日本扁柏（檜木）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "XONG",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Livre (Pour lire).",
+      "en": "Book (for reading).",
+      "zh": "書（供閱讀）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SIMISÖ",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Chemise de femme (exclusif).",
+      "en": "Woman's blouse/chemise (exclusively).",
+      "zh": "女性襯衫（專指女性）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SAGAIMU",
+      "tag": "[emprunt jap./chin.]",
+      "fr": "Pomme de terre.",
+      "en": "Potato.",
+      "zh": "馬鈴薯。",
+      "examples": [],
+      "subs": []
+    }
+  ]
+}

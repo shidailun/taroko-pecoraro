@@ -1,0 +1,382 @@
+{
+  "pages": [214, 217],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      { "t": "… (suite de la page précédente)", "fr": "…nez n'est pas grand.", "en": "…nose is not big.", "zh": "……鼻子不大。" },
+      { "t": "Mkparo bi blax ssadyaq ka laqe so, ini kparo ka nako", "fr": "Ton fils est considéré (regardé comme grand) par les gens, le mien non!", "en": "Your son is regarded (looked upon as big) by people, mine is not!", "zh": "你的兒子被人看重（視為了不起），我的則不然！" }
+    ],
+    "subs": [
+      {
+        "form": "Knparo",
+        "fr": "La dimension de la grandeur - de la taille.",
+        "en": "The dimension of bigness - of size.",
+        "zh": "大小的尺寸——身材（高矮）。",
+        "examples": [
+          { "t": "Qxnu (Kxnu ?) knparo na ka laqe so?", "fr": "Comment est il grand ton fils?", "en": "How big is your son?", "zh": "你的兒子有多大（高）？" }
+        ]
+      },
+      {
+        "form": "Knplaan",
+        "fr": "(nb. Pourquoi pas: Knploan ?) La grandeur.",
+        "en": "(n.b. Why not: Knploan?) Bigness / greatness.",
+        "zh": "（註：為何不寫 Knploan？）大、尺寸。",
+        "examples": [
+          { "t": "Adi xmut ka knplaan sapax so!", "fr": "La grandeur de ta maison n'est pas quelconque!", "en": "The size of your house is no ordinary thing!", "zh": "你家的大小可不一般！" },
+          { "t": "Ana ima mk'la knplaan (na ka) kmpaxan Pilin.", "fr": "Chacun sait l'extension des champs de Pilinne (= chacun connait leur taille).", "en": "Everyone knows the extent of Pilinne's fields (= everyone knows their size).", "zh": "人人都知道 Pilinne 田地的範圍（＝人人都知其大小）。" }
+        ]
+      },
+      {
+        "form": "Pparo",
+        "fr": "Les grands (personnages) - les grands de taille - très grand.",
+        "en": "The great (personages) - the tall ones - very big.",
+        "zh": "大人物——身材高大者——非常大。",
+        "examples": [
+          { "t": "Sao pparo sadyaq o, ida bi ini k'la l'buk", "fr": "Peut être que les grands personnages ne savent pas ce que c'est que de trimer.", "en": "Perhaps great personages do not know what it is to toil.", "zh": "或許大人物不知道辛苦勞作是怎麼回事。" },
+          { "t": "Pparo balae ka sapax na", "fr": "Sa maison est très grande.", "en": "His house is very big.", "zh": "他的房子非常大。" }
+        ]
+      },
+      {
+        "form": "Pkparo",
+        "paradigm": "Mpkparo, pkparo, pkloi, pkploan, pkploon.",
+        "fr": "Faire grandir - développer - donner de l'importance.",
+        "en": "To make grow - to develop - to give importance to.",
+        "zh": "使…成長——發展——賦予重要性。",
+        "examples": [
+          { "t": "Wada paro na bi pkploon ka dnui na pax lading", "fr": "Il a vraiment beaucoup développé le patrimoine (la richesse, les possessions) qu'il avait au début.", "en": "He has really greatly developed the patrimony (the wealth, the possessions) he had at the start.", "zh": "他把最初擁有的家業（財富、財產）發展得非常大。" },
+          { "t": "Ima bi ka pnkparo sao knklaan so", "fr": "Qui est donc qui a fait grandir ta science?", "en": "Who then is it that made your knowledge grow?", "zh": "究竟是誰使你的學問增長的？" }
+        ]
+      },
+      {
+        "form": "Skparo",
+        "fr": "Pour faire grandir - pour développer.",
+        "en": "To make grow (means for) - to develop.",
+        "zh": "用以使…長大——用以發展。",
+        "examples": [
+          { "t": "Ida bi ooqon sayang ka skparo xxei lqlaqe ta da", "fr": "C'est sans doute la (les) nourriture de maintenant qui fait grandir (le corps) la taille de nos enfants.", "en": "It is surely today's food that makes our children grow (the body), their height.", "zh": "無疑是現今的食物使我們孩子的身體（身高）長大。" },
+          { "t": "Ngalun so manu skparo so iyax nia", "fr": "Que penses tu prendre (de quoi penses tu te servir) pour agrandir la fente (l'espace entre deux)?", "en": "What are you thinking of taking (what will you use) to enlarge the gap (the space between the two)?", "zh": "你想拿什麼（用什麼）來加大那條縫（兩者之間的空隙）？" }
+        ]
+      },
+      {
+        "form": "Sparo",
+        "fr": "Estimer - honorer - (s'éstiner - s'enorgueillir. (?)).",
+        "en": "To esteem - to honor - (to esteem oneself - to be proud. (?)).",
+        "zh": "尊重——尊敬——（自重——自豪。（？））。",
+        "examples": [
+          { "t": "Sploi tityex ka dpai ni dbaki namo", "fr": "Honorez donc un peu vos grands parents (les anciens).", "en": "So honor your grandparents (the elders) a little.", "zh": "你們就尊敬一下你們的祖父母（長輩）吧。" }
+        ]
+      },
+      {
+        "form": "Smparo",
+        "paradigm": "Smparo, sparo, sploi, sploan, sploon.",
+        "fr": "Honorer - vénérer - tenir pour grand.",
+        "en": "To honor - to venerate - to hold as great.",
+        "zh": "尊敬——崇敬——視為偉大。",
+        "examples": [
+          { "t": "Smparo bi ldanan na ka laqe no", "fr": "Mon enfant a une grande considération pour ses parents.", "en": "My child has great consideration for his parents.", "zh": "我的孩子非常尊重他的父母。" }
+        ]
+      },
+      {
+        "form": "Msparo",
+        "fr": "Celui qui honore, vénère - (souvent employé - à tort (?) - pour traduire l'idée de: Orgueilleux, qui se dit aussi (qui devrait se dire (?)) Mpsparo).",
+        "en": "The one who honors, venerates - (often used - wrongly (?) - to translate the idea of: Proud, which is also said (which should be said (?)) Mpsparo).",
+        "zh": "尊敬、崇敬者——（常被（誤（？））用來表達「驕傲」之意，此意亦作（應作（？））Mpsparo）。",
+        "examples": []
+      },
+      {
+        "form": "Psparo",
+        "fr": "Pour faire grand - pour se faire grand - s'enorgueillir.",
+        "en": "To make great - to make oneself great - to be proud.",
+        "zh": "使…變大——使自己顯大——自豪、驕傲。",
+        "examples": [
+          { "t": "Ida na pkllusun ka sao psparo bi ssadyaq", "fr": "Il dispersera certainement les gens qui sont orgueilleux", "en": "He will surely scatter the people who are proud", "zh": "他必定會驅散那些驕傲的人。" },
+          { "t": "Mpsparo bi ka xea", "fr": "Il se prend vraiment pour quelqu'un!", "en": "He really thinks he is somebody!", "zh": "他真把自己當回事！" },
+          { "t": "Ya bi psparo ka iso", "fr": "Ne sois pas orgueilleux.", "en": "Do not be proud.", "zh": "你不要驕傲。" }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "PASI", "tag": "(R. = ASI ?)",
+      "fr": "Faire que ce soit la condition de,",
+      "en": "To make it be the condition of,",
+      "zh": "使…成為…的條件（狀態），",
+      "examples": [
+        { "t": "Lngagi bi pasi miyax n'xali ka xea", "fr": "Parle lui pour qu'il vienne vite.", "en": "Speak to him so that he comes quickly.", "zh": "你跟他說，好讓他快點來。" },
+        { "t": "Ktutwi ka xea do, pasi nsaang kana ka ksaxol mo", "fr": "Dès qu'il s'est levé, tous mes sentiments se sont révoltés (dès qu'il se lève, je deviens furieux!).", "en": "As soon as he got up, all my feelings rose up in revolt (as soon as he gets up, I become furious!).", "zh": "他一起身，我所有的情緒都翻騰起來（他一起來，我就火大！）。" }
+      ]
+    },
+    {
+      "hw": "PATAS", "tag": "(R)",
+      "crossRef": "ATAS",
+      "fr": "Originairement signifiait: Tatouage - signe quelconque fait avec un couteau, une pierre, une couleur.. Aujourd'hui = Livre - écrire - étudier - écriture - missive.",
+      "en": "Originally meant: Tattoo - any mark made with a knife, a stone, a color.. Today = Book - to write - to study - writing - missive.",
+      "zh": "原意為：紋身——用刀、石頭或顏料所作的任何記號……今義＝書、寫、讀書、文字、書信。",
+      "examples": [
+        { "t": "Wana bi dtayal ka nyeqan patas na dq'las", "fr": "Il n'y a que les Tayals qui ont des tatouages sur la figure.", "en": "Only the Tayals have tattoos on their faces.", "zh": "只有泰雅人臉上有紋面。" },
+        { "t": "Patas ana ino ka sapax simpu", "fr": "Chez le père (le prêtre) ce sont des livres partout (il y a des livres partout).", "en": "At the father's (the priest's) place there are books everywhere (there are books all over).", "zh": "神父家裡到處都是書（到處都是書）。" },
+        { "t": "Pdsi ko patas n'xali", "fr": "Ecris moi vite (une lettre). (R. = ATAS ? ) VR. ATAS.", "en": "Write to me quickly (a letter). (R. = ATAS?) See ATAS.", "zh": "快寫（信）給我。（詞根＝ATAS？）參見 ATAS。" }
+      ],
+      "subs": [
+        {
+          "form": "Matas",
+          "paradigm": "Matas, patas, ptasi, ptasan, ptasun.",
+          "fr": "Ecrire - peindre - tatouer - qui écrit.",
+          "en": "To write - to paint - to tattoo - one who writes.",
+          "zh": "寫——畫——紋身——書寫者。",
+          "examples": [
+            { "t": "Psaon mo n'xali ka patas pntasan mo s'xiga", "fr": "Je veux vite expédier la lettre que j'ai écrite hier.", "en": "I want to quickly send off the letter I wrote yesterday.", "zh": "我想趕快把昨天寫的信寄出去。" },
+            { "t": "Usa n'xali matas", "fr": "Va vite à l'école (va vite écrire).", "en": "Go quickly to school (go quickly to write).", "zh": "快去上學（快去寫字）。" },
+            { "t": "Nyeqan ka ptasun mo dole", "fr": "J'ai encore d'autres choses à écrire.", "en": "I still have other things to write.", "zh": "我還有別的東西要寫。" },
+            { "t": "Laqe matas", "fr": "écolier - élève - étudiant.", "en": "schoolchild - pupil - student.", "zh": "學童——學生——求學者。" },
+            { "t": "Ptasi ka patas so", "fr": "Ecris ta lettre.", "en": "Write your letter.", "zh": "寫你的信。" }
+          ]
+        },
+        {
+          "form": "Natas",
+          "fr": "(Si ce n'est pas une contraction de: Pnatas, ou de: Npatas, celà pourrait signifier que la R. de PATAS serait: ATAS (?).) = Ce qui a été écrit par..",
+          "en": "(If it is not a contraction of: Pnatas, or of: Npatas, this could mean that the R. of PATAS would be: ATAS (?).) = That which has been written by..",
+          "zh": "（若非 Pnatas 或 Npatas 的縮略，這或許意味著 PATAS 的詞根為：ATAS（？）。）＝由…所寫之物。",
+          "examples": [
+            { "t": "Ima ka pnatas patas nii?... Natas tama mo ka nii!", "fr": "Qui a écrit cette lettre?... C'est l'écriture de mon père.", "en": "Who wrote this letter?... It's my father's writing.", "zh": "這封信是誰寫的？……這是我父親的筆跡！" }
+          ]
+        },
+        {
+          "form": "Mnatas",
+          "fr": "Ecrire (au passé) - étudier (au passé).",
+          "en": "To write (past) - to study (past).",
+          "zh": "寫（過去式）——讀書（過去式）。",
+          "examples": [
+            { "t": "Mnatas ka xea o, ini patas xo?", "fr": "Il a étudié lui ou n'a-t-il pas étudié?", "en": "Did he study, or did he not study?", "zh": "他到底讀了書沒有？" }
+          ]
+        },
+        {
+          "form": "Mpatas",
+          "fr": "Celui qui écrit - ecrivain - scribe.",
+          "en": "The one who writes - writer - scribe.",
+          "zh": "書寫者——作家——文書。",
+          "examples": [
+            { "t": "Ini ko sao dmpatas ka yako; kmpax ko bi baga ka yako", "fr": "Moi je ne suis pas comme ceux qui écrivent (les bureaucrates)! Je travaille de mes mains, moi (je suis un travailleur manuel).", "en": "As for me, I am not like those who write (the bureaucrats)! I work with my hands (I am a manual laborer).", "zh": "我可不像那些舞文弄墨的人（官僚）！我是靠雙手做工的（我是勞力者）。" }
+          ]
+        },
+        {
+          "form": "Ptasan",
+          "fr": "Lieu, instrument, meuble pour écrire, étudier - Ce qui est écrit ou matières de l'étude.",
+          "en": "Place, instrument, furniture for writing, studying - That which is written or subjects of study.",
+          "zh": "書寫、讀書的場所、工具、傢俱——所寫之物或學習的科目。",
+          "examples": [
+            { "t": "Sapax ptasan", "fr": "Ecole.", "en": "School.", "zh": "學校。" },
+            { "t": "Paro ptasan", "fr": "Ecole supérieure - études supérieures (Université).", "en": "Higher school - higher studies (University).", "zh": "高等學校——高等教育（大學）。" },
+            { "t": "Kmpatas ko bi ni, ongat ka ptasan mo!", "fr": "Je suis tout disposé à écrire mais je n'ai rien à écrire (vl. mais je n'ai rien pour écrire: stylo, papier, table...que peut être on devrait écrire: Ongat ka spatas mo (?)).", "en": "I am quite ready to write but I have nothing to write (var. but I have nothing to write with: pen, paper, table... which perhaps one should say: Ongat ka spatas mo (?)).", "zh": "我很想寫，但沒有東西可寫（或：但我沒有可用來寫的東西：筆、紙、桌子……也許應該說：Ongat ka spatas mo（？））。" }
+          ]
+        },
+        {
+          "form": "Pntasan",
+          "fr": "Ce qui a été écrit - ce sur quoi on a écrit - Lieu, temps où l'on a écrit.",
+          "en": "That which has been written - that on which one has written - Place, time when one wrote.",
+          "zh": "已寫成之物——書寫所憑之物——書寫的地點、時間。",
+          "examples": [
+            { "t": "Pntasan ima ka patas nii?", "fr": "Qui a écrit cette lettre?", "en": "Who wrote this letter?", "zh": "這封信是誰寫的？" },
+            { "t": "Pia xnkawas ka pntasan so alang paro?", "fr": "Combien d'années as tu étudié en ville?", "en": "How many years did you study in the city?", "zh": "你在城裡讀了幾年書？" },
+            { "t": "Pia xnkawas so ka diyax pntasan so alang paro sida?", "fr": "Tu avais quel âge quand tu étudiais en ville?", "en": "How old were you when you were studying in the city?", "zh": "你在城裡讀書時幾歲？" }
+          ]
+        },
+        {
+          "form": "Ppatas",
+          "paradigm": "Mppatas, ppatas, pptasi, pptasan, pptasun.",
+          "fr": "Faire étudier - faire écrire - afin d'étudier - afin d'écrire.",
+          "en": "To make (someone) study - to make (someone) write - in order to study - in order to write.",
+          "zh": "使…讀書——使…寫——為了讀書——為了寫。",
+          "examples": [
+            { "t": "Pptasun so ima ka patas so?", "fr": "Par qui feras tu écrire ta lettre?", "en": "By whom will you have your letter written?", "zh": "你要讓誰替你寫信？" },
+            { "t": "Xkawas ka pptasun mo laqe mo", "fr": "C'est l'an prochain que je ferai étudier mon gosse.", "en": "It's next year that I will have my kid study.", "zh": "我要明年才讓我的孩子去讀書。" }
+          ]
+        },
+        {
+          "form": "Spatas",
+          "fr": "(instrument) pour écrire.",
+          "en": "(instrument) for writing.",
+          "zh": "（工具）用以書寫。",
+          "examples": [
+            { "t": "Mntutwi ko n'xali spatas mo ooyes namo da", "fr": "Je me suis levé de bonne heure pour être à même de pouvoir écrire vos chants.", "en": "I got up early so as to be able to write down your songs.", "zh": "我一早就起床，好能寫下你們的歌。" },
+            { "t": "Mnangal ko lb'laq spatas mo ana manu kari", "fr": "J'ai pris du papier pour écrire tout ce qu'on a dit.", "en": "I took some paper to write down everything that was said.", "zh": "我拿了紙來寫下所說的一切。" }
+          ]
+        },
+        {
+          "form": "Sppatas",
+          "fr": "Pour (moyen pour) faire écrire, faire étudier.",
+          "en": "For (a means to) have (someone) write, have (someone) study.",
+          "zh": "用以（作為手段）使…寫、使…讀書。",
+          "examples": [
+            { "t": "Mxa ko mskuli sppatas mo laqe", "fr": "Je vais m'embaucher pour (avoir le moyen de) faire étudier mon fils.", "en": "I'm going to hire myself out to (have the means to) put my son through school.", "zh": "我要去打工，好（有辦法）讓我兒子讀書。" }
+          ]
+        },
+        {
+          "form": "Kmpatas",
+          "fr": "Désirer écrire - désirer étudier.",
+          "en": "To desire to write - to desire to study.",
+          "zh": "想寫——想讀書。",
+          "examples": [
+            { "t": "Kmpatas ko bi ka yako ole", "fr": "J'aimerais bien étudier moi aussi!", "en": "I would really like to study too!", "zh": "我也很想讀書呢！" }
+          ]
+        },
+        {
+          "form": "Mkmppatas",
+          "fr": "(Mkppatas (?)) Je suis quelqu'un qui aimerait bien faire étudier.",
+          "en": "(Mkppatas (?)) I am someone who would really like to have (others) study.",
+          "zh": "（Mkppatas（？））我是那種很想使人讀書的人。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "PAUX", "tag": "( = R. de KMPAUX ? - R. = KPAUX ?)",
+      "fr": "renverser (devant derrière, alors que: PAKOX = renverser sens dessus dessous).",
+      "en": "to turn round / reverse (front to back, whereas: PAKOX = to turn upside down).",
+      "zh": "翻轉（前後顛倒，而 PAKOX＝上下顛倒）。",
+      "subs": [
+        {
+          "form": "Kmpaux",
+          "paradigm": "Kmpaux, kpaux, kpauxi, .?. , kpauxun.",
+          "fr": "Retourner (devant derrière) - Changer mutuellement de côté.",
+          "en": "To turn round (front to back) - to switch sides with one another.",
+          "zh": "翻轉（前後）——互換位置（方向）。",
+          "examples": [
+            { "t": "Kpauxi (kpauçi) ka tlangan so binao", "fr": "Mets donc un peu ta chaise à l'endroit (si elle est à l'envers) - mets ta chaise dans l'autre sens.", "en": "Do put your chair the right way round (if it's the wrong way) - turn your chair the other way.", "zh": "把你的椅子擺正吧（若它擺反了）——把椅子轉到另一個方向。" }
+          ]
+        },
+        {
+          "form": "Pauxun",
+          "fr": "( est-ce pour: KPAUXUN ?) ce qui doit être tourné dans l'autre sens.",
+          "en": "(is this for: KPAUXUN?) that which must be turned the other way.",
+          "zh": "（是否為 KPAUXUN？）應被轉到另一方向之物。",
+          "examples": [
+            { "t": "Ya xan! Pauxun mo tityex ka tasil sspong mo adi malu xali xo!", "fr": "Attends un peu, je vais retourner un peu la pierre pour voir si c'est un peu mieux!", "en": "Wait a moment, I'll turn the stone over a little to see if it's a bit better!", "zh": "等一下，我把石頭翻一下，看看是不是好一點！" },
+            { "t": "Adi kmpaux (mkmpaux) ka pala so?", "fr": "Est ce que ta jupe ne serait pas à l'envers?", "en": "Wouldn't your skirt be on inside out (the wrong way)?", "zh": "你的裙子是不是穿反了？" }
+          ]
+        },
+        {
+          "form": "Pkpaux",
+          "fr": "Faire que ce soit renversé - faire mettre l'endroit à l'envers.",
+          "en": "To make it be turned round - to make the right side be put the wrong way.",
+          "zh": "使…被翻轉——使正面變成反面。",
+          "examples": [
+            { "t": "Xmut so miyax pkpaux kana ka Inglongan daxa", "fr": "Tu viens sans raison retourner tous les esprits (les faire changer de côté).", "en": "You come for no reason to turn everyone's minds around (to make them change sides).", "zh": "你無緣無故來把大家的心思都攪亂（使他們改變立場）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAX", "tag": "( = R. ?)",
+      "fr": "De - depuis - à partir de - origine de temps, de lieu.",
+      "en": "From - since - starting from - origin of time, of place.",
+      "zh": "從——自——由…起——時間、地點的起點。",
+      "examples": [
+        { "t": "Pax Morisaka betak Tyakang (Silin) o, ida bi mxa daxa iyax toke ka ksaan ta muda \"lu", "fr": "De Morisaka jusqu'à Tsiakang (Silin) il faut sans doute deux heures de marche (nb. Iyax toke = espace de montre).", "en": "From Morisaka as far as Tsiakang (Silin) it surely takes two hours' walk (n.b. Iyax toke = span of a watch).", "zh": "從 Morisaka 到 Tsiakang（Silin），大概要走兩個小時（註：Iyax toke＝一段錶上的時間）。" }
+      ],
+      "subs": [
+        {
+          "form": "Pnax",
+          "fr": "d° dans le passé.",
+          "en": "same as the preceding, in the past.",
+          "zh": "同上，過去式。",
+          "examples": [
+            { "t": "Pnax so ino ka sayang", "fr": "D'où viens tu en ce moment (d'où es tu parti..).", "en": "Where do you come from right now (where did you set out from..).", "zh": "你這會兒是從哪裡來的（你是從哪裡出發的……）？" },
+            { "t": "Pnax so ino ka iso", "fr": "D'où est tu, (= D'où viens tu?).", "en": "Where are you from, (= Where do you come from?).", "zh": "你是哪裡人（＝你從哪裡來？）？" },
+            { "t": "Pnax ko ml'bu ida ko kmpax trabus", "fr": "C'est depuis ce matin que je continue à travailler les arachides. (nb. En fait, PNAX veut dire un point de départ - une origine éloignés dans l'espace ou le temps).", "en": "It's since this morning that I keep working on the peanuts. (n.b. In fact, PNAX means a point of departure - an origin far off in space or time).", "zh": "我從今早起就一直在弄花生。（註：其實 PNAX 指的是出發點——在空間或時間上遙遠的起源。）" }
+          ]
+        },
+        {
+          "form": "Npax",
+          "fr": "Partie de ce qui est originaire de ..(?).",
+          "en": "Part of that which originates from ..(?).",
+          "zh": "源自…之物的一部分……（？）。",
+          "examples": [
+            { "t": "Npax ddyamo nanak ka kingal", "fr": "L'un vient du milieu de vous = L'un est de votre groupe.", "en": "One of them comes from among you = one is of your group.", "zh": "其中一人出自你們當中＝有一位是你們這群人的。" }
+          ]
+        },
+        {
+          "form": "Snax",
+          "fr": "(R. = PAX ? ) Faire, vouloir son point de départ - considérer, choisir comme point de départ.",
+          "en": "(R. = PAX?) To make, to want one's point of departure - to consider, to choose as point of departure.",
+          "zh": "（詞根＝PAX？）以…為（想以…為）出發點——視、選作出發點。",
+          "examples": [
+            { "t": "Snax ko sapax miyax ko txmoqo sunan", "fr": "J'ai quitté la maison (je suis parti de la maison) et je viens te saluer (te faire une inclination).", "en": "I left the house (I set out from the house) and I come to greet you (to bow to you).", "zh": "我離開了家（從家裡出發），來向你問安（向你行禮）。" },
+            { "t": "Snax so ino ka s'xiga?", "fr": "Où as tu pris le départ, hier?", "en": "Where did you set out from, yesterday?", "zh": "你昨天是從哪裡出發的？" },
+            { "t": "Snax na Yordan (yayong Yordan) mnsa tados ka Yesu", "fr": "Partant du Jourdain (prenant le Jourdain comme base de départ), Jésus s'en alla dans un endroit désert (Tados = sommet denudé d'une montagne).", "en": "Setting out from the Jordan (taking the Jordan as his base of departure), Jesus went off into a deserted place (Tados = bare summit of a mountain).", "zh": "耶穌以約旦（河）為起點出發，去到一處曠野（Tados＝光禿的山頂）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAX", "tag": "( = R. ? - Est-ce un dérivé du PAX précédent ? - Une contraction de P'IYAX = faire venir ?)",
+      "fr": "Donne!",
+      "en": "Give! / Bring (out)!",
+      "zh": "拿來！給！",
+      "examples": [
+        { "t": "Nasi so kuxul ka lukus nii do, Pax pila so da", "fr": "Si tu tiens à avoir cet habit, alors amène ton argent (sors ton argent !).", "en": "If you insist on having this garment, then bring your money (take out your money!).", "zh": "你若真想要這件衣服，就把你的錢拿來（把錢掏出來！）。" },
+        { "t": "Pax n'xali laqe so da", "fr": "Amène moi ton fils tout de suite (?).", "en": "Bring me your son at once (?).", "zh": "馬上把你的兒子帶來給我（？）。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpax",
+          "fr": "Qui amène - qui part de. (nb. Ce terme semble correspondre aux deux sens de PAX!).",
+          "en": "One who brings - one who sets out from. (n.b. This term seems to correspond to both senses of PAX!).",
+          "zh": "帶來者——由…出發者。（註：此詞似乎同時對應 PAX 的兩種意思！）",
+          "examples": [
+            { "t": "Mpax so ino ka iso?", "fr": "D'où penses tu partir, toi?", "en": "Where do you think you'll set out from, you?", "zh": "你呢，你想從哪裡出發？" },
+            { "t": "Ima namo ka mpax pila", "fr": "Quel est celui d'entre vous qui amène l'argent?", "en": "Which of you is the one who brings the money?", "zh": "你們當中誰帶錢來？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PAXENG", "tag": "(R)",
+      "fr": "Aile - nageoire de poisson.",
+      "en": "Wing - fin of a fish.",
+      "zh": "翅膀——魚鰭。"
+    },
+    {
+      "hw": "PAXONG", "tag": "(R)",
+      "fr": "Fiel - irascibilité.",
+      "en": "Bile / gall - irascibility.",
+      "zh": "膽汁——易怒。",
+      "examples": [
+        { "t": "Mixol bi ka paxong", "fr": "Le fiel est très amer.", "en": "Bile is very bitter.", "zh": "膽汁很苦。" },
+        { "t": "Lbuan paxong", "fr": "Vésicule biliaire.", "en": "Gall bladder.", "zh": "膽囊。" },
+        { "t": "Paxong so bi da!", "fr": "Tu es vraiment coléreux! (vl. Tu es devenu vraiment coléreux!).", "en": "You are really quick-tempered! (var. You have become really quick-tempered!).", "zh": "你真是易怒！（或：你變得真的很易怒！）" }
+      ],
+      "subs": [
+        {
+          "form": "Tpaxong",
+          "fr": "Qui est la colère même - très coléreux.",
+          "en": "Who is anger itself - very quick-tempered.",
+          "zh": "怒氣本身——非常易怒。",
+          "examples": []
+        },
+        {
+          "form": "Spaxong",
+          "fr": "Se mettre en colère - le fait d'être prompt. - faire sortir sa bile (au figuré).",
+          "en": "To get angry - the fact of being quick-tempered - to let out one's bile (figuratively).",
+          "zh": "發怒——性情急躁——（比喻）發洩怒氣。",
+          "examples": [
+            { "t": "Paxong so bi ka iso ni, ana so spaxong o, ini ko bi kiso", "fr": "(Je sais que) tu es très coléreux, mais même si tu te mets en colère (si tu craches ta bile), je n'ai pas peur.", "en": "(I know that) you are very quick-tempered, but even if you get angry (if you spit out your bile), I am not afraid.", "zh": "（我知道）你很易怒，但即使你發火（發洩怒氣），我也不怕。" }
+          ]
+        },
+        {
+          "form": "Smpaxong",
+          "fr": "(?) d° forme verbale - se mettre, de fait, en colère.",
+          "en": "(?) verbal form of the preceding - to actually get angry.",
+          "zh": "（？）同上之動詞形——（實際上）發怒。",
+          "examples": [
+            { "t": "Nasi smpaxong ka xea o, mxa ta mngongo kana da", "fr": "S'il sort de ses gonds, ...", "en": "If he flies off the handle, ...", "zh": "他若大發雷霆，……" }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

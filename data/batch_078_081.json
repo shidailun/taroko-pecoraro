@@ -1,0 +1,762 @@
+{
+  "pages": [78, 81],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Dlunan",
+        "fr": "Demande - prière - objet de la demande.",
+        "en": "Request - prayer - the object of the request.",
+        "zh": "請求——祈禱——所請求的事物。",
+        "examples": [
+          {
+            "t": "Bnxangan so bi nanak ka dnlunan daxa xo ?",
+            "fr": "As tu bien entendu personnellement ce qu'ils ont demandé ?",
+            "en": "Did you clearly hear for yourself what they asked for?",
+            "zh": "你有親耳聽清楚他們所請求的事嗎?"
+          }
+        ]
+      },
+      {
+        "form": "Dlnani",
+        "fr": "Demander par un intermédiaire.",
+        "en": "To ask through an intermediary.",
+        "zh": "透過中間人請求。",
+        "examples": [
+          {
+            "t": "Dlnani bi Banan ka nkuxul so",
+            "fr": "Fais demander par Iban ce que tu désires.",
+            "en": "Have Iban ask for what you desire.",
+            "zh": "你想要的東西,請託伊班(Iban)代為請求。"
+          }
+        ]
+      },
+      {
+        "form": "Sdulun",
+        "fr": "Pour demander - qui sert à demander.",
+        "en": "For asking - that which serves for asking.",
+        "zh": "用以請求——供請求之用。",
+        "examples": [
+          {
+            "t": "Mtutui ko sdulun mo Tmaan",
+            "fr": "Me voici (je me lève) pour prier le Père.",
+            "en": "Here I am (I rise) to pray to the Father.",
+            "zh": "我在這裡(我起身)向天父祈求。"
+          },
+          {
+            "t": "Manu bi ka sdulun so kddiyax?",
+            "fr": "Qu'est ce qui te prend pour demander sans cesse",
+            "en": "What has got into you, that you keep asking without cease?",
+            "zh": "你到底是怎麼了,竟不停地請求?"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "DUNGUS",
+      "tag": "(R)",
+      "fr": "Aller de soi - être normal, digne - convenable - s'accordant.",
+      "en": "To go without saying - to be normal, fitting - suitable - in accord.",
+      "zh": "理所當然——正常、相稱——合宜——相合。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdungus",
+          "fr": "C'est digne - c'est convenable.",
+          "en": "It is fitting - it is suitable.",
+          "zh": "是相稱的——是合宜的。",
+          "examples": [
+            {
+              "t": "Mdungus bi ka dmayao sunan",
+              "fr": "C'est tout à fait normal qu'on t'aide.",
+              "en": "It is entirely normal that you should be helped.",
+              "zh": "有人幫助你是完全理所當然的。"
+            }
+          ]
+        },
+        {
+          "form": "DDngusun",
+          "fr": "Ce qu'on considère comme allant de soi.",
+          "en": "What is considered as going without saying.",
+          "zh": "被視為理所當然的事。",
+          "examples": [
+            {
+              "t": "Balae bi ddngusun ka smxoai sunan",
+              "fr": "C'est tout à fait normal (tu es tout à fait digne de notre merci) qu'on te remercie.",
+              "en": "It is entirely normal (you are entirely worthy of our thanks) that you should be thanked.",
+              "zh": "向你道謝是完全理所當然的(你完全配得我們的感謝)。"
+            }
+          ]
+        },
+        {
+          "form": "Msdungus",
+          "fr": "Bien en accord - Dignement - Consciencieusement - Bien harmonisé.",
+          "en": "Well in accord - worthily - conscientiously - well harmonized.",
+          "zh": "十分相合——得體地——盡心盡力地——十分協調。",
+          "examples": [
+            {
+              "t": "Msdungus bi kmpaxan nia ka xea",
+              "fr": "Il est vraiment fait pour son travail (vl. Il travaille consciencieusement).",
+              "en": "He is truly made for his work (var. He works conscientiously).",
+              "zh": "他真是為他的工作而生(或:他工作得很盡心)。"
+            },
+            {
+              "t": "Yako ni Iwal balae bi msdungus nami",
+              "fr": "Iwal et moi nous nous accordons parfaitement.",
+              "en": "Iwal and I get along perfectly.",
+              "zh": "伊瓦爾(Iwal)和我彼此十分相合。"
+            },
+            {
+              "t": "Xmglyeq so bulax lukus ssapang so kingal smudal o, adi bi mpsdungus smudal ka pnax bulax",
+              "fr": "Si tu déchires un habit neuf pour mettre une pièce sur un vieux, la pièce du neuf ne s'harmonisera pas avec le vieil habit.",
+              "en": "If you tear a new garment to put a patch on an old one, the patch from the new will not match the old garment.",
+              "zh": "若你撕破新衣,拿去補舊衣,從新衣撕下的補丁與舊衣並不相稱。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsdungus",
+          "fr": "Sera juste - sera équitable - sera convenable.",
+          "en": "Will be just - will be equitable - will be fitting.",
+          "zh": "將是公正的——將是公平的——將是合宜的。",
+          "examples": [
+            {
+              "t": "Mpsdungus bi sida smado knkingal xei ka tama molo ndaan daxa",
+              "fr": "Le père répartira équitablement le salaire selon le comportement de chacun.",
+              "en": "The father will distribute the wages equitably according to each one's conduct.",
+              "zh": "父親將按每個人的行為公平地分配工資。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DUP",
+      "tag": "(= R. ?)",
+      "fr": "Fermer (une porte, etc.). Vr. NDUK. et: DUK",
+      "en": "To close (a door, etc.). See NDUK. and: DUK",
+      "zh": "關閉(門等)。參見NDUK。及:DUK",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DUX",
+      "tag": "(= R. de KNDUX ?)",
+      "crossRef": "KNDUX",
+      "fr": "Vr. KNDUX.",
+      "en": "See KNDUX.",
+      "zh": "參見KNDUX。",
+      "examples": [
+        {
+          "t": "Kndux bi ka lukus mo",
+          "fr": "Mes habits sont bien épais.",
+          "en": "My clothes are very thick.",
+          "zh": "我的衣服很厚。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DXDYEQ",
+      "tag": "(R. ?)",
+      "fr": "Eloigné - distant.",
+      "en": "Far away - distant.",
+      "zh": "遙遠——相距很遠。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pdxdyeq",
+          "fr": "Mettre une distance entre deux points.",
+          "en": "To put a distance between two points.",
+          "zh": "使兩點之間拉開距離。",
+          "examples": [
+            {
+              "t": "Dmulun lqean na ka Taikong pdxdyeq xngali xali",
+              "fr": "Taicong demande à ses enfants de s'éloigner un peu.",
+              "en": "Taicong asks his children to move away a little.",
+              "zh": "Taicong要他的孩子們稍微走遠一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "D'XGAL",
+      "tag": "(R)",
+      "fr": "Terre - boue - terrain.",
+      "en": "Earth - mud - land.",
+      "zh": "土——泥土——土地。",
+      "examples": [
+        {
+          "t": "D'xgal o, nyeqan malu, nyeqan naqex balae bi kia, ida kana asi ka dlmut sadyaq ka mboai oqon",
+          "fr": "Du terrain il y en a du bon, il y en a du mauvais, c'est vrai! Mais, pour tous, c'est par l'ardeur laborieuse qu'ils donneront la nourriture.",
+          "en": "As for land, there is good and there is bad, it is true! But for all of them, it is through hard-working diligence that they will yield food.",
+          "zh": "土地確實有好有壞!但無論哪一塊,都要靠勤奮努力才能出產糧食。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Md'xgal",
+          "fr": "Qui est devenu terre - qui est couvert de terre.",
+          "en": "That has become earth - that is covered with earth.",
+          "zh": "已化為泥土的——被泥土覆蓋的。",
+          "examples": [
+            {
+              "t": "Mxdo md'xgal kana syudo so da",
+              "fr": "Toutes tes mauvaises herbes, les voilà devenues terre.",
+              "en": "All your weeds, there they are, turned into earth.",
+              "zh": "你的雜草全都已化成泥土了。"
+            }
+          ]
+        },
+        {
+          "form": "Mpad'xgal",
+          "fr": "Ce qui deviendra terre.",
+          "en": "What will become earth.",
+          "zh": "將化為塵土之物。",
+          "examples": [
+            {
+              "t": "Ida ta mpad'gal kana",
+              "fr": "Qu'on le veuille ou non, nous deviendrons tous terre.",
+              "en": "Whether we like it or not, we shall all become earth.",
+              "zh": "無論願不願意,我們終將全部歸於塵土。"
+            }
+          ]
+        },
+        {
+          "form": "Tnd'xgal",
+          "fr": "Propriétaire de la terre - originaire de la terre - qui fait partie de la terre.",
+          "en": "Owner of the land - native of the land - who belongs to the land.",
+          "zh": "土地的主人——本地出身者——屬於這片土地的人。",
+          "examples": [
+            {
+              "t": "Balae bi yako ka tnd'xgal",
+              "fr": "C'est vraiment moi le propriétaire du terrain.",
+              "en": "It is truly I who am the owner of the land.",
+              "zh": "這塊地的主人確實是我。"
+            },
+            {
+              "t": "Balae bi, yako ka tnd'xgal",
+              "fr": "A dire vrai, c'est moi le propriétaire.",
+              "en": "To tell the truth, I am the owner.",
+              "zh": "說實在的,地主就是我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DXIYAQ",
+      "tag": "(R. ?)",
+      "crossRef": "D'XYAQ",
+      "fr": "Eloigné - distant. Vr. D'XYAQ",
+      "en": "Far away - distant. See D'XYAQ",
+      "zh": "遙遠——相距很遠。參見D'XYAQ",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "D'XLEQ",
+      "tag": "(R)",
+      "fr": "Poli (non rugueux) - Uni - brillant.",
+      "en": "Smooth (not rough) - even - shiny.",
+      "zh": "光滑(不粗糙)——平整——光亮。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Md'xleq",
+          "fr": "Qui est lisse - qui est uni - qui est brillant.",
+          "en": "That is smooth - that is even - that is shiny.",
+          "zh": "光滑的——平整的——光亮的。",
+          "examples": [
+            {
+              "t": "Md'xleq balae ka pxdagan so",
+              "fr": "Ton aire (pour exposer au soleil, pour sècher) est très unie.",
+              "en": "Your drying ground (for exposing things to the sun, for drying) is very even.",
+              "zh": "你的曬場(用來曝曬、晾乾東西的地方)非常平整。"
+            },
+            {
+              "t": "Md'xleq balae ka dqalas (dq'las) ua so",
+              "fr": "Le visage de ta fille est radieux (brillant, respirant la santé).",
+              "en": "Your daughter's face is radiant (shining, glowing with health).",
+              "zh": "你女兒的臉容光煥發(亮麗,洋溢著健康)。"
+            }
+          ]
+        },
+        {
+          "form": "Pd'xleq",
+          "paradigm": "° Mpd'xleq, pd'xleq, pd'xleqe, (pdxleqe), pdxleqan, pdxleqon.",
+          "fr": "Polir - nettoyer - rendre brillant.",
+          "en": "To polish - to clean - to make shiny.",
+          "zh": "磨光——清潔——使發亮。",
+          "examples": [
+            {
+              "t": "Pdxleqe binao ka tskoe so",
+              "fr": "Nettoie donc un peu ta table.",
+              "en": "Come on, clean your table a little.",
+              "zh": "把你的桌子稍微擦乾淨吧。"
+            },
+            {
+              "t": "Pdxleqon so knuan ka nksaxol so?",
+              "fr": "Quand penses tu purifier ton coeur ? (Ce qu'il y a dans ton coeur).",
+              "en": "When do you intend to purify your heart? (What is in your heart).",
+              "zh": "你打算何時潔淨你的心?(你心裡所存的)。"
+            }
+          ]
+        },
+        {
+          "form": "Pdxleqan",
+          "fr": "Temps, moyen, lieu de purification.",
+          "en": "Time, means, or place of purification.",
+          "zh": "潔淨的時間、方法、場所。",
+          "examples": [
+            {
+              "t": "Dxok diyax pdxleqan daxa da",
+              "fr": "Et voilà qu'est arrivé le temps de leur purification.",
+              "en": "And now the time of their purification has arrived.",
+              "zh": "他們潔淨的時刻已經來到。"
+            }
+          ]
+        },
+        {
+          "form": "Mpd'xleq",
+          "fr": "1) Celui qui purifie, qui rend brillant; 2) Deviendra pur, uni, brillant.",
+          "en": "1) The one who purifies, who makes shiny; 2) Will become pure, even, shiny.",
+          "zh": "1)使潔淨、使發亮的人;2)將變得潔淨、平整、光亮。",
+          "examples": [
+            {
+              "t": "Tai ta ima ka mpd'xleq sapax na xpuyan !",
+              "fr": "Je me demande bien qui va lui faire briller sa cuisine !",
+              "en": "I really wonder who is going to make her kitchen shine for her!",
+              "zh": "真不知道誰會去替她把廚房擦得發亮!"
+            }
+          ]
+        },
+        {
+          "form": "Kndxleqan",
+          "fr": "Propreté - la brillance - la pureté.",
+          "en": "Cleanliness - shininess - purity.",
+          "zh": "潔淨——光亮——純淨。",
+          "examples": [
+            {
+              "t": "Ntaan so ka suyang bi kndxleqan na xo ?",
+              "fr": "Tu as vu sa merveilleuse propreté (son merveilleux poli).",
+              "en": "Have you seen its marvelous cleanliness (its marvelous polish)?",
+              "zh": "你看到它那令人讚嘆的潔淨(那絕佳的光澤)了嗎?"
+            }
+          ]
+        },
+        {
+          "form": "Sd'xleq",
+          "fr": "(vl. sdx'leq) = Glissant - graisseux - poli.",
+          "en": "(var. sdx'leq) = Slippery - greasy - polished.",
+          "zh": "(或:sdx'leq)=滑的——油膩的——光滑的。",
+          "examples": []
+        },
+        {
+          "form": "Msd'xleq (msdx'leq)",
+          "fr": "1) qui est glissant (= Msd'xleq ?). 2) Qui glisse glisser (= msdx'leq ?).",
+          "en": "1) that is slippery (= Msd'xleq ?). 2) That slides, to slide (= msdx'leq ?).",
+          "zh": "1)滑的(= Msd'xleq?);2)滑動的、滑行(= msdx'leq?)。",
+          "examples": [
+            {
+              "t": "Msd'xleq bi s'xiga ka \"lu; ini ksd'xleq ka sayang",
+              "fr": "Hier la route était glissante; aujourd'hui elle ne l'est pas.",
+              "en": "Yesterday the road was slippery; today it is not.",
+              "zh": "昨天路很滑;今天不滑了。"
+            }
+          ]
+        },
+        {
+          "form": "Psd'xleq",
+          "fr": "Rendre glissant.",
+          "en": "To make slippery.",
+          "zh": "使滑溜。",
+          "examples": [
+            {
+              "t": "Qdaan so d'xgal ka ayang so o, psdxleqon so kana ka uda daxa",
+              "fr": "En jetant par terre ta graisse, tu vas rendre tout glissant leur chemin (leur passage).",
+              "en": "By throwing your grease on the ground, you will make their path (their way through) all slippery.",
+              "zh": "你把你的油脂倒在地上,會把他們走的路(通道)弄得整個滑溜溜的。"
+            }
+          ]
+        },
+        {
+          "form": "Knsdxleqan",
+          "fr": "l'état glissant - la qualité d'être glissant.",
+          "en": "the slippery state - the quality of being slippery.",
+          "zh": "濕滑的狀態——滑的性質。",
+          "examples": [
+            {
+              "t": "Uxai manu, knsdxleqan \"lu ka ksugun mo",
+              "fr": "Ce qui me fait peur ce n'est que l'état glissant de la route.",
+              "en": "What frightens me is nothing but the slippery state of the road.",
+              "zh": "令我害怕的,不過是路面濕滑罷了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "D'XO",
+      "tag": "(R)",
+      "fr": "(nb. Peut être faut il écrire: D'XOG ? , ou bien: D'XO\" ?. DAXO (= Lumière, gloire, rayon lumineux,) qui comporte deux syllabes, devient DXOAN; D'XO (une syllabe et un arrêt de la voix) devient: DXGAN ou mieux: D'XGAN). = Fort - solide - résistent.",
+      "en": "(n.b. Perhaps it should be written D'XOG?, or else D'XO\"?. DAXO (= light, glory, ray of light,) which has two syllables, becomes DXOAN; D'XO (one syllable and a stop of the voice) becomes DXGAN, or better D'XGAN). = Strong - solid - resistant.",
+      "zh": "(註:或許應寫作D'XOG?或者D'XO\"?DAXO(=光、榮耀、光線)有兩個音節,變為DXOAN;D'XO(單音節,帶一個喉塞頓音)則變為DXGAN,或更好寫作D'XGAN)。=強壯——堅固——耐久。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Md'xo (= mgd'xo ?)",
+          "fr": "Qui est fort, solide.",
+          "en": "That is strong, solid.",
+          "zh": "強壯的、堅固的。",
+          "examples": [
+            {
+              "t": "Md'xo bi ka lnglongan",
+              "fr": "D'un coeur décidé, persévérant, résolu.",
+              "en": "Of a determined, persevering, resolute heart.",
+              "zh": "心志堅定、有毅力、果決。"
+            }
+          ]
+        },
+        {
+          "form": "Mgd'xo (Md'xo ?)",
+          "fr": "Qui est robuste, solide - qui a été fortifié (?).",
+          "en": "That is sturdy, solid - that has been fortified (?).",
+          "zh": "結實的、堅固的——已被加固的(?)。",
+          "examples": [
+            {
+              "t": "Adi mxoya ka \"löt gaga; mgd'xo balae",
+              "fr": "Cette colonne là ne risque rien, elle est très solide (elle a été bien fortifiée ?).",
+              "en": "That column there is in no danger; it is very solid (it has been well fortified?).",
+              "zh": "那根柱子毫無危險,它非常堅固(已被好好加固了?)。"
+            }
+          ]
+        },
+        {
+          "form": "Tmd'xo",
+          "paradigm": "° Tmd'xo, td'xo, td'xgi, td'xgan, td'xgun.",
+          "fr": "qui devient très résistant.",
+          "en": "that becomes very resistant.",
+          "zh": "變得非常堅韌的。",
+          "examples": []
+        },
+        {
+          "form": "Tnd'xgan",
+          "fr": "renforcement - qui s'est consolidé.",
+          "en": "reinforcement - that has become consolidated.",
+          "zh": "加固——已然鞏固者。",
+          "examples": [
+            {
+              "t": "Nglaun mo tnd'xgan sapax ka tasil nii",
+              "fr": "Je prendrai cette pierre comme consolidation de la maison (pour rendre la maison plus résistante..au typhon p.ex.)",
+              "en": "I will take this stone as a consolidation for the house (to make the house more resistant.. to typhoons, for example.)",
+              "zh": "我要拿這塊石頭來加固房子(使房子更耐得住……例如颱風)。"
+            }
+          ]
+        },
+        {
+          "form": "Ptd'xo",
+          "paradigm": "° Mptd'xo, ptd'xo, ptd'xgi, ptd'xgan, ptd'xgun.",
+          "fr": "Faire que ce soit solide, robuste.",
+          "en": "To make it solid, sturdy.",
+          "zh": "使之堅固、結實。",
+          "examples": []
+        },
+        {
+          "form": "Ptd'xgun",
+          "fr": "Ce qui doit être rendu solide, fortifié.",
+          "en": "What must be made solid, fortified.",
+          "zh": "必須使之堅固、加固之物。",
+          "examples": [
+            {
+              "t": "Ptd'xgun mo kia ka pnsmkan so",
+              "fr": "Je consoliderai après ce que tu as planté (pieu, fiche), ce que tu as cloué.",
+              "en": "I will afterwards consolidate what you have planted (stake, picket), what you have nailed.",
+              "zh": "你所立的(木樁、插樁)、你所釘的,我隨後會加固。"
+            }
+          ]
+        },
+        {
+          "form": "Sd'xo",
+          "fr": "Pour renforcer - pour affermir.",
+          "en": "For reinforcing - for strengthening.",
+          "zh": "用以加固——用以堅固。",
+          "examples": []
+        },
+        {
+          "form": "Smd'xo",
+          "fr": "Consolider - affermir.",
+          "en": "To consolidate - to strengthen.",
+          "zh": "鞏固——堅固。",
+          "examples": [
+            {
+              "t": "Smd'xo kari",
+              "fr": "promettre.",
+              "en": "to promise.",
+              "zh": "承諾。"
+            }
+          ]
+        },
+        {
+          "form": "Msd'xo",
+          "fr": "Qui renforce - qui fortifie - qui consolide.",
+          "en": "That reinforces - that fortifies - that consolidates.",
+          "zh": "加強的——強化的——鞏固的。",
+          "examples": []
+        },
+        {
+          "form": "Snd'xgan",
+          "fr": "Consolidation - affermissement. (nb. Snd'xgan = Consolidation donnée; Tnd'xgan = Consolidation interne, possédée).",
+          "en": "Consolidation - strengthening. (n.b. Snd'xgan = consolidation given; Tnd'xgan = internal consolidation, possessed).",
+          "zh": "鞏固——堅固。(註:Snd'xgan=所給予的鞏固;Tnd'xgan=內在的、自身擁有的鞏固)。",
+          "examples": [
+            {
+              "t": "Snd'xgan kari Pasang mo ka kia",
+              "fr": "Cela était la recommandation (le commandement) de mon frère Passan.",
+              "en": "That was the recommendation (the command) of my brother Passan.",
+              "zh": "那是我兄弟帕桑(Passan)的囑咐(命令)。"
+            }
+          ]
+        },
+        {
+          "form": "Psd'xo",
+          "paradigm": "° Mpsd'xo, psd'xo, psd'xgi, psd'xgan, psd'xgun.",
+          "fr": "Faire en sorte que ce soit fortifié, affermi.",
+          "en": "To see to it that it is fortified, strengthened.",
+          "zh": "設法使之得到強化、堅固。",
+          "examples": [
+            {
+              "t": "Ongat ka mpsd'xo (mppsd'xo ?) lnglongan nami",
+              "fr": "Il n'y a personne pour fortifier notre courage.",
+              "en": "There is no one to fortify our courage.",
+              "zh": "沒有人來堅固我們的心志。"
+            },
+            {
+              "t": "Giso ka boxo da! Psd'xgi n'xali ka sapax so",
+              "fr": "Voici le typhon! Renforce vite (mets vite des contreforts à) ta maison.",
+              "en": "Here comes the typhoon! Quickly reinforce (quickly put buttresses on) your house.",
+              "zh": "颱風來了!快加固你的房子(快替你的房子加上支撐)。"
+            }
+          ]
+        },
+        {
+          "form": "Psd'xgan",
+          "fr": "Renforcement (donné) = contract.",
+          "en": "Reinforcement (given) = contract.",
+          "zh": "(所施加的)加固=契約。",
+          "examples": [
+            {
+              "t": "Pnsd'xgan mo ka sapax da!",
+              "fr": "J'ai ajouté des contreforts à la maison (J'ai employé des moyens pour rendre la maison plus solide, plus résistante.",
+              "en": "I have added buttresses to the house (I have used means to make the house more solid, more resistant.",
+              "zh": "我已為房子加了支撐(我用了辦法使房子更堅固、更耐久)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "D'XOK",
+      "tag": "(D'XOQ ?) (R)",
+      "fr": "Arriver - atteindre - être capable.",
+      "en": "To arrive - to reach - to be capable.",
+      "zh": "到達——達到——能夠。",
+      "examples": [
+        {
+          "t": "Ini d'xok papaq mo",
+          "fr": "celà n'arrive pas jusqu'à mes pieds.",
+          "en": "that does not reach as far as my feet.",
+          "zh": "那到不了我的腳邊。"
+        },
+        {
+          "t": "Ini d'xok ka papaq mo",
+          "fr": "Mes pieds n'y arrivent pas (pas assez longs, vl. pas assez forts.",
+          "en": "My feet do not reach it (not long enough, var. not strong enough.",
+          "zh": "我的腳搆不到(不夠長,或:不夠有力)。"
+        },
+        {
+          "t": "D'xok so sknuan ?",
+          "fr": "Quand es tu arrivé?",
+          "en": "When did you arrive?",
+          "zh": "你是什麼時候到的?"
+        },
+        {
+          "t": "D'xok ini d'xok o, tao ta xeti",
+          "fr": "Arriver ou pas, nous verrons (très impératif) à la fin.",
+          "en": "Arrive or not, we shall see (very imperative) at the end.",
+          "zh": "到得了或到不了,(語氣非常強)到最後便見分曉。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Md'xok (Md'xoq ?)",
+          "paradigm": "° Md'xok, d'xok, d'xqe, d'xqan, d'xqon.",
+          "fr": "Celui qui arrive - celui qui est capable.",
+          "en": "The one who arrives - the one who is capable.",
+          "zh": "到達的人——有能力的人。",
+          "examples": [
+            {
+              "t": "D'xqon mo pusu kmpaxan ni kia da!",
+              "fr": "Je veux (d'abord) arriver (atteindre) le bout du champ et ce sera fini.",
+              "en": "I want (first) to arrive at (reach) the end of the field, and that will be it.",
+              "zh": "我要(先)到達(抵達)田的盡頭,那樣就完了。"
+            },
+            {
+              "t": "D'xqe bi alang paro ni sai mita mklawa",
+              "fr": "Tâche d'aller jusqu'à la ville et va voir le chef.",
+              "en": "Try to get as far as the town, and go see the chief.",
+              "zh": "設法走到城裡,去見首長。"
+            }
+          ]
+        },
+        {
+          "form": "D'xqan",
+          "fr": "Moment de l'arrivée - lieu de l'arrivée - but atteint.",
+          "en": "Moment of arrival - place of arrival - goal attained.",
+          "zh": "到達的時刻——到達的地點——達成的目標。",
+          "examples": [
+            {
+              "t": "Giso mglaxol kana pusu bi \"lu xea qqeta daxa ka d'xqan sao mtalang",
+              "fr": "Voilà qu'ils s'attroupent tous à l'entrée de la route pour voir l'arrivée des coureurs.",
+              "en": "There they all are, crowding at the very entrance of the road to see the arrival of the runners.",
+              "zh": "瞧,他們全都聚集在路口,要看賽跑者抵達。"
+            }
+          ]
+        },
+        {
+          "form": "Knd'xok",
+          "fr": "(Parvenir - arriveràà ?).",
+          "en": "(To manage to reach - will arrive at (?)).",
+          "zh": "(達到——將到達?)。",
+          "examples": [
+            {
+              "t": "Ini ko knd'xok lmngao",
+              "fr": "Je n'arrivais pas a parler. (vl. Je ne suis pas capable de dire ?).",
+              "en": "I could not manage to speak. (var. I am not capable of saying?).",
+              "zh": "我(當時)說不出話來。(或:我沒有能力說?)。"
+            }
+          ]
+        },
+        {
+          "form": "Kmd'xok",
+          "fr": "désirer (de fait) parvenir.",
+          "en": "to desire (in fact) to get there.",
+          "zh": "(確實)想要到達。",
+          "examples": [
+            {
+              "t": "Kmd'xok ko bi alang namo",
+              "fr": "Je désire (effectivement) arriver jusqu'à votre pays.",
+              "en": "I (truly) desire to get all the way to your country.",
+              "zh": "我(確實)想要一直到你們的地方去。"
+            },
+            {
+              "t": "Mkmd'xok ko bi alang namo",
+              "fr": "J'aimerais vraiment aller jusque dans votre pays !",
+              "en": "I would really like to go all the way to your country!",
+              "zh": "我真想去到你們的地方!"
+            }
+          ]
+        },
+        {
+          "form": "Pd'xok",
+          "paradigm": "° Mpd'xok, pd'xok, pd'xqe, pd'xqan, pd'xqon.",
+          "fr": "Faire atteindre = Faire parvenir.",
+          "en": "To make reach = to cause to arrive.",
+          "zh": "使達到=使送達。",
+          "examples": [
+            {
+              "t": "Ida mo pd'xqon alang namo ka laqe",
+              "fr": "Certainement je ferai pervenir chez vous l'enfant.",
+              "en": "Certainly I will have the child conveyed to your place.",
+              "zh": "我一定會把孩子送到你們那裡。"
+            },
+            {
+              "t": "Pd'xqon miso patas",
+              "fr": "Je te ferai atteindre par la lettre (je t'enverrai une lettre, je ferai en sorte que la lettre te parvienne).",
+              "en": "I will reach you by letter (I will send you a letter, I will see to it that the letter reaches you).",
+              "zh": "我會用書信與你聯繫(我會寄信給你,我會設法讓信送到你手中)。"
+            }
+          ]
+        },
+        {
+          "form": "Mpd'xok",
+          "fr": "1) arriver, parvenir (au futur). 2) Celui qui fait parvenir.",
+          "en": "1) to arrive, to get there (in the future). 2) The one who causes something to arrive.",
+          "zh": "1)(未來)到達、抵達;2)使物送達的人。",
+          "examples": [
+            {
+              "t": "Mpd'xok knuan ka tama so",
+              "fr": "Quand arrivera t il ton père?",
+              "en": "When will your father arrive?",
+              "zh": "你父親什麼時候會到?"
+            },
+            {
+              "t": "Mpd'xok so sapax baki?",
+              "fr": "Est ce que tu arriveras jusque chez grand père?",
+              "en": "Will you get as far as grandfather's house?",
+              "zh": "你到得了祖父家嗎?"
+            },
+            {
+              "t": "Ima namo ka mpd'xok knan xdayo mo saman?",
+              "fr": "Quel est celui d'entre vous qui me fera parvenir mon casse croûte de demain ?",
+              "en": "Which one of you will get my lunch to me tomorrow?",
+              "zh": "你們當中誰明天會把我的便當送來給我?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "D'XYAQ",
+      "tag": "(vl. DXEYAQ) (R)",
+      "fr": "Loin - éloigné.",
+      "en": "Far - distant.",
+      "zh": "遠——遙遠。",
+      "examples": [
+        {
+          "t": "D'xyaq balae ka saan mo madok!",
+          "fr": "C'est très loin où je vais chasser.",
+          "en": "The place where I go hunting is very far away.",
+          "zh": "我去打獵的地方非常遠!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Md'xyaq",
+          "fr": "Etre éloigné - mutuellement distants.",
+          "en": "To be far apart - mutually distant.",
+          "zh": "相距遙遠——彼此距離很遠。",
+          "examples": [
+            {
+              "t": "Md'xyaq balae ka ssapax daxa",
+              "fr": "Leurs maisons sont très éloignées l'une de l'autre.",
+              "en": "Their houses are very far from one another.",
+              "zh": "他們的房子彼此相距很遠。"
+            }
+          ]
+        },
+        {
+          "form": "Mkd'xyaq",
+          "fr": "Qui se trouve, qui habite dans un lieu très éloigné.",
+          "en": "Who is located, who lives in a very distant place.",
+          "zh": "位於、居住在非常遙遠之處的。",
+          "examples": [
+            {
+              "t": "Mk'ino ka dxea ? ... Mkd'xyaq balae!",
+              "fr": "D'où sont ils? (où habitent ils?) ... Leur habitation se trouve dans un lieu très éloigné.",
+              "en": "Where are they from? (where do they live?) ... Their dwelling is in a very distant place.",
+              "zh": "他們是哪裡人?(他們住在哪裡?)……他們的住處在非常遙遠的地方。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

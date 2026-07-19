@@ -1,0 +1,782 @@
+{
+  "pages": [114, 117],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "Tnlaqe knbslanan na snao ka Eco",
+        "fr": "Eco mit au monde son aîné (son premier né).",
+        "en": "Eco brought into the world her eldest (her first-born).",
+        "zh": "艾可生下了她的長子(她的頭一胎)。"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "KBUKWI",
+      "tag": "( R.? - R. = BUKWI ?)",
+      "fr": "Cent - centaine.",
+      "en": "Hundred - a hundred (a group of one hundred).",
+      "zh": "百—一百(百位數)。",
+      "examples": [
+        {
+          "t": "Spat kbukwi ni mlimal spat",
+          "fr": "Quatre cent cinquante quatre.",
+          "en": "Four hundred fifty-four.",
+          "zh": "四百五十四。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmbkiyan",
+          "fr": "(R. = KBUKWI ? - R. = BUKWI ?) = 1) Ligature faite - fagot - Botte. 2) Centaine. (nb. Parfois (de façon indue ?), ce terme est employé dans le sens de mille.)",
+          "en": "(R. = KBUKWI? - R. = BUKWI?) = 1) A tie that has been made - faggot - bundle. 2) A hundred. (n.b. Sometimes (improperly?), this term is used in the sense of a thousand.)",
+          "zh": "(詞根=KBUKWI?—詞根=BUKWI?)=1) 紮好的捆—柴捆—一束。2) 一百。(註:有時(或屬誤用?)此詞被用作「一千」之意。)",
+          "examples": [
+            {
+              "t": "Maxal spat kmbkiyan",
+              "fr": "quatorze centaines.",
+              "en": "fourteen hundreds.",
+              "zh": "十四個百。"
+            },
+            {
+              "t": "Kingal knbkiyan, ni kingal kbukwi ni maxal kingal",
+              "fr": "Mille cent onze.",
+              "en": "One thousand one hundred eleven.",
+              "zh": "一千一百一十一。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KDAYO",
+      "tag": "(R)",
+      "fr": "Mante religieuse.",
+      "en": "Praying mantis.",
+      "zh": "螳螂。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KDADAX",
+      "tag": "(R. = DADAX ?)",
+      "fr": "Partir de - faire commencer sa route à (temps ou lieu de ce qui est pris pour point de départ).",
+      "en": "To set out from - to have one's journey begin at (the time or place taken as the point of departure).",
+      "zh": "從……出發—使行程開始於(被當作出發點的時間或地點)。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmdadax",
+          "fr": "Prendre pour point de départ.",
+          "en": "To take as one's point of departure.",
+          "zh": "以……為出發點。",
+          "examples": [
+            {
+              "t": "Kndadax so ino ka mlubu suni?",
+              "fr": "D'où es tu parti ce matin ?",
+              "en": "Where did you set out from this morning?",
+              "zh": "你今天早上是從哪裡出發的?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KDAMAT",
+      "tag": "(R. = DAMAT ?)",
+      "fr": "Saluer - féliciter.",
+      "en": "To greet - to congratulate.",
+      "zh": "問候—祝賀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmdamat",
+          "fr": "Saluer - féliciter.",
+          "en": "To greet - to congratulate.",
+          "zh": "問候—祝賀。",
+          "examples": [
+            {
+              "t": "Kmdamat nami sunan, mtgisa",
+              "fr": "Nous vous saluons (félicitons), professeur.",
+              "en": "We greet (congratulate) you, teacher.",
+              "zh": "老師,我們向您問候(祝賀)。"
+            }
+          ]
+        },
+        {
+          "form": "Kndmatan",
+          "fr": "Félicitations - salutations.",
+          "en": "Congratulations - greetings.",
+          "zh": "祝賀—問候。",
+          "examples": [
+            {
+              "t": "Mbaxang kndmatan daxa ka Iban o, ..",
+              "fr": "Quand Ibanne eut entendu leurs salutations..",
+              "en": "When Ibanne had heard their greetings..",
+              "zh": "伊班聽到他們的問候之後……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KDAPAN",
+      "tag": "(R. = QODAP ?)",
+      "fr": "Veuf - veuve.",
+      "en": "Widower - widow.",
+      "zh": "鰥夫—寡婦。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KDAX",
+      "tag": "(R. = ? )",
+      "fr": "rencontré dans la seule expression:",
+      "en": "found only in the single expression:",
+      "zh": "僅見於下列唯一詞組:",
+      "examples": [
+        {
+          "t": "Potong kdax",
+          "fr": "Le briquet à silex et fer et amadou.",
+          "en": "The fire-striker with flint, steel and tinder.",
+          "zh": "以燧石、鐵和火絨取火的打火器。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KDIYAI",
+      "tag": "(R. ?)",
+      "fr": "Charnière - gond.",
+      "en": "Hinge - pivot hinge.",
+      "zh": "鉸鏈—門樞。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KDIYONG",
+      "tag": "(R)",
+      "fr": "Frelon.",
+      "en": "Hornet.",
+      "zh": "虎頭蜂。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KDOLO",
+      "tag": "(R. = DOLO ??)",
+      "fr": "Mettre au monde - délivrance (en donnant naissance).",
+      "en": "To bring into the world - delivery (in giving birth).",
+      "zh": "生產—分娩(生孩子)。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdolo",
+          "fr": "Enfanter - mettre au monde.",
+          "en": "To give birth - to bring into the world.",
+          "zh": "生育—生下孩子。",
+          "examples": [
+            {
+              "t": "Apai do, dxkan diyax kdlgan na, mndolo kingal laqe snao.",
+              "fr": "Quant à Apai, son temps d'enfanter étant arrivé, elle mit au monde un enfant mâle.",
+              "en": "As for Apai, her time to give birth having come, she brought a male child into the world.",
+              "zh": "至於阿拜,她臨盆的日子到了,便生下一個男孩。"
+            }
+          ]
+        },
+        {
+          "form": "Kdlgan",
+          "fr": "(Kd'lgan) = Temps, lieu, circonstances de l'accouchement.",
+          "en": "(Kd'lgan) = Time, place, circumstances of the delivery.",
+          "zh": "(Kd'lgan)=分娩的時間、地點、情況。",
+          "examples": [
+            {
+              "t": "Miyax bi mkpia betak diyax so kdlgan?",
+              "fr": "Il manque encore combien de jours pour arriver au jour de ton accouchement ?",
+              "en": "How many days are still left before the day of your delivery?",
+              "zh": "距離你分娩的日子還差幾天?"
+            }
+          ]
+        },
+        {
+          "form": "Mpkdolo",
+          "fr": "Enfanter, accoucher (au futur).",
+          "en": "To give birth, to be delivered (in the future).",
+          "zh": "(將來)生產、分娩。",
+          "examples": [
+            {
+              "t": "Mpsxdil so ni mpkdolo so kingal laqe snao ni ptxnganun so Yesu",
+              "fr": "Tu concevras et tu enfanteras un garçon (que) tu appelleras ( tu mettras nom) Jesus.",
+              "en": "You will conceive and you will bear a boy (whom) you will call (you will give the name) Jesus.",
+              "zh": "你將懷孕並生下一個男孩,(你)要給他起名(叫)耶穌。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KDOLOX",
+      "tag": "(R)",
+      "fr": "Mur - entassement régulier, - alligné.",
+      "en": "Wall - a regular, aligned stacking.",
+      "zh": "牆—整齊排列的堆疊。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkdolox",
+          "fr": "Bien allignés - bien rangés",
+          "en": "Well aligned - well arranged",
+          "zh": "排列整齊—擺放整齊",
+          "examples": [
+            {
+              "t": "Ga mkdoloç xea kana llubwi sqmo",
+              "fr": "Tous les sacs de maïs sont bien empilés là bas.",
+              "en": "All the sacks of maize are well stacked over there.",
+              "zh": "所有的玉米袋都整齊地堆放在那邊。"
+            }
+          ]
+        },
+        {
+          "form": "Kndolox",
+          "fr": "(nb. Est ce: KDOLOX + N du passé ? - vl.: KN (intensité,qualité) + DOLOX ?) = Mur - muraille.",
+          "en": "(n.b. Is it: KDOLOX + past-tense N? - var.: KN (intensity, quality) + DOLOX?) = Wall - rampart.",
+          "zh": "(註:這是 KDOLOX + 過去式的 N 嗎?或:KN(強度、性質)+ DOLOX?)=牆—牆垣。",
+          "examples": [
+            {
+              "t": "Ana qoqo so tloong babao kndolox!",
+              "fr": "Tu peux très bien t'asseoir sur le mur.",
+              "en": "You may very well sit on the wall.",
+              "zh": "你大可以坐在牆上。"
+            }
+          ]
+        },
+        {
+          "form": "Kndlxan",
+          "fr": "(kndlçan) = Lieu, temps où est fait le mur - la manière de construire le mur - le mur construit.",
+          "en": "(kndlçan) = Place or time where the wall is made - the way of building the wall - the wall once built.",
+          "zh": "(kndlçan)=築牆的地點、時間—築牆的方式—築成的牆。",
+          "examples": [
+            {
+              "t": "Kingal nanak kndlxan na ka Wilang",
+              "fr": "Ouilang a une façon toute spéciale de construire un mur.",
+              "en": "Wilang has an entirely special way of building a wall.",
+              "zh": "維朗築牆有一套非常特別的方法。"
+            },
+            {
+              "t": "Kndlxan tama ni kndlxan laqe o, mgkala bi knsuyang ka ntama",
+              "fr": "Du mur construit par le père et de celui construit pas le fils, c'est celui du père qui est plus beau ( il dépasse en beauté)",
+              "en": "Of the wall built by the father and the one built by the son, it is the father's that is the more beautiful (it surpasses in beauty).",
+              "zh": "父親築的牆和兒子築的牆,還是父親那道更美(美得勝過一籌)。"
+            }
+          ]
+        },
+        {
+          "form": "Pkdolox",
+          "paradigm": "° Mpkdolox, pkdolox, pkdl'xi, pkdl'xan, pkdl'xun.",
+          "fr": "(pkdoloç) = Construire un mur - empiler - alligner.",
+          "en": "(pkdoloç) = To build a wall - to stack - to align.",
+          "zh": "(pkdoloç)=築牆—堆疊—排整齊。",
+          "examples": [
+            {
+              "t": "Pkdlxun (pkdl'xun) mo kana ka mtqeli kmpaxan mo",
+              "fr": "Je veux construire un mur tout autour de mon champ.",
+              "en": "I want to build a wall all around my field.",
+              "zh": "我要在我的田地四周築一道牆。"
+            }
+          ]
+        },
+        {
+          "form": "Skdolox",
+          "fr": "(Skdoloç) = Droit (propre et figuré) - sincère - honnête.",
+          "en": "(Skdoloç) = Straight (literally and figuratively) - sincere - honest.",
+          "zh": "(Skdoloç)=直(本義與引申義)—真誠—誠實。",
+          "examples": []
+        },
+        {
+          "form": "Mskdoloç",
+          "fr": "Qui est droit, alligné - qui est honnête, sincère.",
+          "en": "That which is straight, aligned - one who is honest, sincere.",
+          "zh": "正直的、排列整齊的—誠實、真誠的人。",
+          "examples": [
+            {
+              "t": "Mskdoloç balae lnglongan na ka mbl'xo nami",
+              "fr": "Notre chef a un coeur vraiment intègre, loyal.",
+              "en": "Our chief has a truly upright, loyal heart.",
+              "zh": "我們的頭目有一顆真正正直、忠誠的心。"
+            },
+            {
+              "t": "Pskdlxi ka lnglongan",
+              "fr": "Redresse ta conscience.",
+              "en": "Straighten your conscience.",
+              "zh": "把你的良心導正。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KENSAT",
+      "tag": "(J)",
+      "fr": "Police - japonais. (nb. Nom commun par lequel les taroko désignent les japonais - aussi bien que les policiers! - justement du terme japonais: KEISATSE qui veut dire: police.)",
+      "en": "Police - Japanese. (n.b. Common noun by which the Taroko designate the Japanese - as well as policemen! - coming precisely from the Japanese term KEISATSE, which means: police.)",
+      "zh": "警察—日本人。(註:太魯閣人用來稱呼日本人—也用來稱呼警察!—的通稱,正是來自日語詞 KEISATSE,意思是:警察。)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KETA",
+      "tag": "(R; = ITA ?)",
+      "fr": "Voir - La vue. (nb. KETA - ITA, ce sont des termes dont la distinction n'est pas évidente; De fait: Voir, et: regarder; comme Entendre, et: écouter; acheter, et: vendre.. semblent bien se confonfre, encore que: TAI (Ktai ?) = vois, le plus souvent est bien distinct de: QETA = regarde. Pour ce terme: KETA, se reporter à: ITA et à: QETA).",
+      "en": "To see - sight. (n.b. KETA - ITA are terms whose distinction is not obvious; in fact 'to see' and 'to look at', like 'to hear' and 'to listen', 'to buy' and 'to sell'.. seem quite confused with one another, although TAI (Ktai?) = see, is most often clearly distinct from QETA = look. For this term KETA, refer to ITA and to QETA.)",
+      "zh": "看見—視覺。(註:KETA 與 ITA 這兩個詞的區別並不明顯;事實上「看見」與「注視」,正如「聽見」與「聆聽」、「買」與「賣」……似乎常相混淆,不過 TAI(Ktai?)=「看」,在大多數情況下與 QETA=「注視」區分得很清楚。關於 KETA 一詞,請參見 ITA 及 QETA。)",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mita",
+          "paradigm": "° 1) Mita, ita, tai, taan, taon. 2) Mita, keta, (k)tai, (k)taan, (k)taon. (?)",
+          "fr": "Voir.",
+          "en": "To see.",
+          "zh": "看見。",
+          "examples": [
+            {
+              "t": "Ini kila mita ana manu ka sao matong daolyaq",
+              "fr": "Ceux qui ont les yeux aveugles ne peuvent pas voir quoi que ce soit.",
+              "en": "Those whose eyes are blind cannot see anything at all.",
+              "zh": "眼睛失明的人什麼也看不見。"
+            },
+            {
+              "t": "Mnita so ka tnbugan daxa kumai?",
+              "fr": "L'as tu vu l'ours qu'ils élèvent ?",
+              "en": "Have you seen the bear they are raising?",
+              "zh": "他們養的那頭熊,你看過了嗎?"
+            },
+            {
+              "t": "Taon so xeti",
+              "fr": "Tu verras plus tard.",
+              "en": "You will see later.",
+              "zh": "你以後就會看到。"
+            }
+          ]
+        },
+        {
+          "form": "Nita",
+          "fr": "Ma vision passée - le fait ( et non l'acte) d'avoir vu.",
+          "en": "My past seeing - the fact (and not the act) of having seen.",
+          "zh": "我過去之所見—(非動作,而是)曾經看見這一事實。",
+          "examples": [
+            {
+              "t": "Nita mo balae",
+              "fr": "J'ai vraiment vu - je voyais vraiment.",
+              "en": "I really saw - I was really seeing.",
+              "zh": "我真的看見了—我確實看見。"
+            },
+            {
+              "t": "Ntaan mo balae",
+              "fr": "C'est vraiment ce que j'ai vu.",
+              "en": "It is truly what I saw.",
+              "zh": "這確實是我所看見的。"
+            }
+          ]
+        },
+        {
+          "form": "Taan",
+          "fr": "L'objet du voir - visible.",
+          "en": "The object of seeing - visible.",
+          "zh": "所見之物—看得見的。",
+          "examples": [
+            {
+              "t": "Taan mo o, xmut qouni, uxai sadyaq ka gaga",
+              "fr": "D'après ce que je vois, ce n'est que du bois, là bas, et non pas une personne.",
+              "en": "From what I see, that over there is only wood, and not a person.",
+              "zh": "就我所見,那邊只是木頭,不是人。"
+            },
+            {
+              "t": "Malu bi taan",
+              "fr": "C'est beau à voir.",
+              "en": "It is beautiful to see.",
+              "zh": "很好看。"
+            },
+            {
+              "t": "Ntaan mo s'xiga ka sadyaq kia",
+              "fr": "Je l'ai vue hier, la personne dont tu parles.",
+              "en": "I saw her yesterday, the person you are speaking of.",
+              "zh": "你說的那個人,我昨天見過了。"
+            },
+            {
+              "t": "Pax xeni o, taan balae ka sapax so",
+              "fr": "Depuis ici, ta maison est bien visible.",
+              "en": "From here, your house is quite visible.",
+              "zh": "從這裡可以清楚看見你的家。"
+            }
+          ]
+        },
+        {
+          "form": "Pketa",
+          "fr": "Faire qu'on voie - laisser voir. (nb. vr. la différence avec: PQETA = Se faire regarder - se pavaner !)",
+          "en": "To make someone see - to let see. (n.b. see the difference with PQETA = to get oneself looked at - to strut about!)",
+          "zh": "使人看見—讓人看。(註:參較與 PQETA=引人注目—炫耀!之差異。)",
+          "examples": [
+            {
+              "t": "Tloong kana ka d'yamo blax, spketa namo sao mkbukwi",
+              "fr": "Asseyez vous, tous ceux qui sont devant pour permettre à ceux qui sont derrière de voir (aussi).",
+              "en": "Sit down, all you who are in front, so as to allow those who are behind to see (too).",
+              "zh": "前面的各位都請坐下,好讓後面的人(也)看得見。"
+            }
+          ]
+        },
+        {
+          "form": "Mketa",
+          "fr": "Celui qui voit - spectateur.",
+          "en": "The one who sees - spectator.",
+          "zh": "看的人—觀眾。",
+          "examples": [
+            {
+              "t": "Mkmita ko bi ka yako ole ! Ini ta keta ka ita o, xbalao bi ka mketa",
+              "fr": "Je voudrais bien voir moi aussi ! Nous ne voyons pas (mais) ils sont nombreux ceux qui voient.",
+              "en": "I too would really like to see! We do not see, (but) those who see are many.",
+              "zh": "我也好想看看!我們看不到,(可是)看得到的人真多。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KI",
+      "tag": "",
+      "fr": "Particule (sans doute abréviation de KIA ), employée souvent devant: DO, ou DA, ou BI.",
+      "en": "Particle (doubtless an abbreviation of KIA), often used before DO, or DA, or BI.",
+      "zh": "助詞(想必是 KIA 的縮略),常用於 DO、DA 或 BI 之前。",
+      "examples": [
+        {
+          "t": "Ki do, saon mo mangal",
+          "fr": "S'il en est ainsi, je veux aller le prendre.",
+          "en": "If that is so, I want to go take it.",
+          "zh": "既然如此,我要去把它拿來。"
+        },
+        {
+          "t": "Mskwi bi ki da",
+          "fr": "Décidément il fait bien froid!",
+          "en": "It is decidedly very cold!",
+          "zh": "天氣實在冷得很!"
+        },
+        {
+          "t": "Ki bi ka biyax mo",
+          "fr": "Voilà bien tout ce que je peux ( mes forces ne vont pas plus loin!)",
+          "en": "That is really all I can do (my strength goes no further!)",
+          "zh": "我的能耐就只有這樣了(我的力氣到此為止!)"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KIA",
+      "tag": "(R)",
+      "fr": "1) Tout à l'heure - après - ensuite. 2) Celà - celui là (dont on parle - qu'on voit). 3) Oui - d'accord - c'est vrai - voilà. Voici qques expressions:",
+      "en": "1) In a little while - afterwards - then. 2) That - that one (which is spoken of - which is seen). 3) Yes - agreed - it is true - there you are. Here are some expressions:",
+      "zh": "1) 待會兒—之後—然後。2) 那個—那一個(所談到的—所看到的)。3) 是—同意—沒錯—就是這樣。以下是若干用語:",
+      "examples": [
+        {
+          "t": "Miyax ko kia ka yako",
+          "fr": "Je viens plus tard, moi.",
+          "en": "I am coming later, myself.",
+          "zh": "我嘛,待會兒再來。"
+        },
+        {
+          "t": "Uxai patas nii! Patas kia",
+          "fr": "Non pas ce livre ci! Le livre dont il a été question.",
+          "en": "Not this book here! The book that was spoken of.",
+          "zh": "不是這本書!是先前說到的那本書。"
+        },
+        {
+          "t": "Mxa so kmpax? ... Kia!",
+          "fr": "Tu vas travailler? ... Oui !",
+          "en": "Are you going to work? ... Yes!",
+          "zh": "你要去工作嗎?……是啊!"
+        },
+        {
+          "t": "Kia ka kia",
+          "fr": "D'accord mais .. - Celà étant.",
+          "en": "Agreed, but.. - That being so.",
+          "zh": "話是這麼說,但是……—既然如此。"
+        },
+        {
+          "t": "Kia do",
+          "fr": "S'il en est ainsi - ensuite.",
+          "en": "If that is so - then.",
+          "zh": "既然這樣—接著。"
+        },
+        {
+          "t": "Kia da",
+          "fr": "Celà suffit - c'est fini.",
+          "en": "That is enough - it is finished.",
+          "zh": "那就夠了—結束了。"
+        },
+        {
+          "t": "Kia binao",
+          "fr": "Ah oui ! - Il y a encore celà.",
+          "en": "Ah yes! - There is still that.",
+          "zh": "啊,對了!—還有那件事。"
+        },
+        {
+          "t": "Kia ni..",
+          "fr": "Et aussi.",
+          "en": "And also.",
+          "zh": "還有……。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nkia",
+          "fr": "Même sens que KIA 2), dans le sens de passé, d'antérieur.",
+          "en": "Same meaning as KIA 2), in a past, anterior sense.",
+          "zh": "與 KIA 第 2 義相同,帶有過去、先前的意味。",
+          "examples": [
+            {
+              "t": "Malu so xo? ... Ida kia",
+              "fr": "Tu vas bien? ... C'est toujours la même chose!",
+              "en": "Are you well? ... It is still the same thing!",
+              "zh": "你好嗎?……還是老樣子!"
+            },
+            {
+              "t": "Malu so xo? ... Ida nkia",
+              "fr": "Tu vas bien? ... C'est comme avant.",
+              "en": "Are you well? ... It is the same as before.",
+              "zh": "你好嗎?……跟從前一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Snkia",
+          "fr": "A propos de la même chose.",
+          "en": "Concerning the same thing.",
+          "zh": "關於同一件事。",
+          "examples": [
+            {
+              "t": "Snmanu ka dxea? Uxai snkoyox ? ... Ida snkia!",
+              "fr": "A propos de quoi se disputent ils ? Ne serait ce pas à propos de femme? ... C'est encore à propos de celà.",
+              "en": "What are they quarreling about? Might it not be about a woman? ... It is still about that same thing.",
+              "zh": "他們在爭什麼?該不會是為了女人吧?……還是為了那件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KIDA",
+      "tag": "",
+      "fr": "Mot invariable; serait il contraction de: KI + da ?, de: KIA + DA ? C'est une espèce de démonstratif comportant une idée de révolu, de fini.",
+      "en": "Invariable word; could it be a contraction of KI + da?, of KIA + DA? It is a kind of demonstrative carrying an idea of something over and done with, finished.",
+      "zh": "不變化詞;會是 KI + da 的縮合,或 KIA + DA 的縮合嗎?這是一種指示詞,帶有已成過去、已了結的意味。",
+      "examples": [
+        {
+          "t": "Adi bi ki da = Adi bi kida",
+          "fr": "Non! Celà n'est pas possible !",
+          "en": "No! That is not possible!",
+          "zh": "不!那不可能!"
+        },
+        {
+          "t": "Adi bi kia da",
+          "fr": "Ce ne peut absolument pas être celà, celui là !",
+          "en": "It absolutely cannot be that, that one there!",
+          "zh": "那絕不可能是那個、那一位!"
+        },
+        {
+          "t": "Ima kida ?",
+          "fr": "Qui doc? - De qui peut il bien s'agir ?",
+          "en": "Who then? - Whoever can it be?",
+          "zh": "到底是誰?—究竟會是誰呢?"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KII",
+      "tag": "",
+      "fr": "A côté - tout proche - Celui qui est près de.",
+      "en": "Beside - very near - the one who is near.",
+      "zh": "旁邊—非常近—靠近……的那個。",
+      "examples": [
+        {
+          "t": "Kii ino ka malu ?",
+          "fr": "C'est lequel qui est bon ? (Celui qui est près de où, qui est bon ?).",
+          "en": "Which one is good? (The one near where is it that is good?).",
+          "zh": "是哪一個好?(靠近哪裡的那個才好?)"
+        },
+        {
+          "t": "Ga kmpax kii bi sapax mo ka xea",
+          "fr": "Il est en train de travailler tout près de ma maison.",
+          "en": "He is working right next to my house.",
+          "zh": "他正在我家附近工作。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KILA",
+      "tag": "(KILâ)",
+      "crossRef": "K'LA",
+      "fr": "Savoir. (nb. Parfois entendu sous cette forme bisyllabique, ce terme: KILA semble bien être variante anormale de: K'LA, ne serait ce que par le fait que l'accent est sur la deuxième syllabe). Dans la très grande majorité des cas, et chez presque tous les locuteurs, on trouve ce mot: savoir, sous la forme: K'LA. Vr. K'LA.",
+      "en": "To know. (n.b. Sometimes heard in this bisyllabic form, this term KILA does seem to be an abnormal variant of K'LA, if only because the stress is on the second syllable). In the very great majority of cases, and with almost all speakers, this word 'to know' is found in the form K'LA. See K'LA.",
+      "zh": "知道。(註:此詞有時以這種雙音節形式 KILA 出現,似乎確是 K'LA 的異常變體,單從重音落在第二音節這一點便可看出)。在絕大多數情況下,幾乎所有發音人都以 K'LA 的形式使用這個表「知道」的詞。參見 K'LA。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KINGAL",
+      "tag": "(R)",
+      "fr": "Un - unité.",
+      "en": "One - unit.",
+      "zh": "一—單位。",
+      "examples": [
+        {
+          "t": "Maxal kingal",
+          "fr": "Onze.",
+          "en": "Eleven.",
+          "zh": "十一。"
+        },
+        {
+          "t": "Kingal balae",
+          "fr": "Un seul.",
+          "en": "Only one.",
+          "zh": "僅僅一個。"
+        },
+        {
+          "t": "Kingal nanak",
+          "fr": "1) Un seul = Seulement un. 2) Bizarre - pas ordinaire.",
+          "en": "1) Only one = just one. 2) Odd - not ordinary.",
+          "zh": "1) 僅一個=只有一個。2) 奇特—不尋常。"
+        },
+        {
+          "t": "Kingal nanak ka kating mo",
+          "fr": "Je n'ai qu'un buffle.",
+          "en": "I have only one buffalo.",
+          "zh": "我只有一頭水牛。"
+        },
+        {
+          "t": "Kingal nanak ka kating mo",
+          "fr": "Il est spécial mon buffle - Il est bizarre, mon buffle.",
+          "en": "My buffalo is special - my buffalo is odd.",
+          "zh": "我的水牛很特別—我的水牛很奇特。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkingal",
+          "fr": "(sy. = Mpxal) = Une seule fois.",
+          "en": "(syn. = Mpxal) = A single time.",
+          "zh": "(同義詞=Mpxal)=僅僅一次。",
+          "examples": [
+            {
+              "t": "Mnkingal ko bi mn'gui pila",
+              "fr": "Je n'ai volé de l'argent qu'une seule fois.",
+              "en": "I stole money only once.",
+              "zh": "我只偷過一次錢。"
+            }
+          ]
+        },
+        {
+          "form": "Pnkingal",
+          "fr": "Un à la fois - à chacun un.",
+          "en": "One at a time - one to each.",
+          "zh": "一次一個—每人一個。",
+          "examples": [
+            {
+              "t": "Ma namo mssikul ! Ida pnkingal ka mpnyeqon namo",
+              "fr": "Qu'est ce que vous avez à vous bousculer ? De toute façon vous en aurez chacun un.",
+              "en": "Why are you jostling one another? In any case you will each get one.",
+              "zh": "你們擠什麼擠?反正每人都會有一份。"
+            },
+            {
+              "t": "Pnkingal ta bi tasil kana",
+              "fr": "Prenons chacun une pierre.",
+              "en": "Let each of us take a stone.",
+              "zh": "我們每人各拿一塊石頭吧。"
+            },
+            {
+              "t": "Ongat bi xei ka payai mo! wana bi knkingal",
+              "fr": "Mes plants de riz n'ont pas de grains, à peine l'un ou l'autre, par ci par là.",
+              "en": "My rice plants have no grain, barely one here and there.",
+              "zh": "我的稻子都不結穗,只零零星星、東一株西一株。"
+            }
+          ]
+        },
+        {
+          "form": "Knkingal",
+          "fr": "Un de temps en temps - rares - clairsemés.",
+          "en": "One from time to time - rare - scattered.",
+          "zh": "偶爾一個—稀少—零零落落。",
+          "examples": [
+            {
+              "t": "Knkingal namo bi ka mniyax plilyex kusa na",
+              "fr": "A peine l'un ou l'autre d'entre vous est venu payer (rendre) ses dettes.",
+              "en": "Barely one or another of you has come to pay (back) his debts.",
+              "zh": "你們當中只有寥寥幾人來還債。"
+            }
+          ]
+        },
+        {
+          "form": "Skingal",
+          "fr": "Unifier - faire que ce soit un.",
+          "en": "To unify - to make it be one.",
+          "zh": "使合一—使成為一個。",
+          "examples": []
+        },
+        {
+          "form": "Mskingal",
+          "fr": "Se tenir les coudes - être unis - être un.",
+          "en": "To stand shoulder to shoulder - to be united - to be one.",
+          "zh": "同心協力—團結—合而為一。",
+          "examples": [
+            {
+              "t": "Mskingal bi lnglongan kana ka dxea",
+              "fr": "Ils sont tous solidaires (ils n'ont qu'un seul coeur).",
+              "en": "They all stand together (they have but one heart).",
+              "zh": "他們全都同心(他們只有一顆心)。"
+            }
+          ]
+        },
+        {
+          "form": "Pskingal",
+          "paradigm": "° Mpskingal, pskingal, pskngali, pskngalan, pskngalu.",
+          "fr": "Rendre un - Unifier.",
+          "en": "To make one - to unify.",
+          "zh": "使成為一—使合一。",
+          "examples": [
+            {
+              "t": "Ndoa bi pskingal lnglongan so",
+              "fr": "Fais en sorte d'unifier ta pensée, ton projet ( de ne pas avoir plusieurs projets à la fois).",
+              "en": "See to it that you unify your thought, your plan (so as not to have several plans at once).",
+              "zh": "務要使你的心思、你的計畫合一(不要同時懷著好幾個計畫)。"
+            }
+          ]
+        },
+        {
+          "form": "Pskngalan",
+          "fr": "Réunification(provoquée) - ce qui a été réuni ( Snkngalan = réunification spontanée).",
+          "en": "Reunification (brought about) - what has been brought together (Snkngalan = spontaneous reunification).",
+          "zh": "(促成的)重新合一—被聚合起來的事物(Snkngalan=自發的重新合一)。",
+          "examples": [
+            {
+              "t": "Pnskngalan Pexo ka kana xxei alang ta",
+              "fr": "Tous les individus de notre village ont été soudés ensemble par Perho.",
+              "en": "All the individuals of our village have been welded together by Perho.",
+              "zh": "我們村裡所有的人都被佩霍凝聚在一起。"
+            }
+          ]
+        },
+        {
+          "form": "Skngalun",
+          "fr": "Ce qui doit rester un - ce qu'on veut réduit à un - ce qu'on",
+          "en": "That which must remain one - what one wants reduced to one - what one",
+          "zh": "應當保持為一的—人想使之歸一的—人所……",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

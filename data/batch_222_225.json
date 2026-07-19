@@ -1,0 +1,710 @@
+{
+  "pages": [222, 225],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mplilyex",
+        "fr": "Celui qui restitue.",
+        "en": "The one who repays / gives back.",
+        "zh": "償還者；還債的人。",
+        "examples": [
+          {
+            "t": "Xbalao bi ka miyax pkusa , ongat xali ka mplilyex!",
+            "fr": "Ils sont nombreux à venir prendre à crédit, ceux qui remboursent sont bien peu!",
+            "en": "Many come to take on credit; those who repay are very few!",
+            "zh": "來賒帳的人很多，還債的人卻很少！"
+          }
+        ]
+      },
+      {
+        "form": "Pplilyex",
+        "fr": "Pour restituer - pour rendre une dette.",
+        "en": "To repay with - to pay back a debt.",
+        "zh": "用以償還；用來還債。",
+        "examples": [
+          {
+            "t": "Mxa so ino miing pila pplilyex so kusa so?",
+            "fr": "Où vas tu (où veux tu aller) chercher de l'argent pour payer tes dettes?",
+            "en": "Where are you going (where do you want to go) to look for money to pay your debts?",
+            "zh": "你要去哪裡（你想去哪裡）找錢還你的債？"
+          }
+        ]
+      },
+      {
+        "form": "Pllyexon",
+        "fr": "Ce qu'on doit, qu'on veut rendre.",
+        "en": "What one owes, what one wants to give back.",
+        "zh": "所欠的、想要償還的（東西）。",
+        "examples": [
+          {
+            "t": "Ida mo pllyexon kana ka knsyukan mo pila",
+            "fr": "L'argent que j'ai emprunté je suis bien décidé à le rendre jusqu'au dernier sou !",
+            "en": "The money I have borrowed, I am quite determined to pay it back down to the last penny!",
+            "zh": "我借來的錢，我下定決心要一分不差地全部還清！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "PLIYAX",
+      "tag": "(R. = ?)",
+      "fr": "Tomber (?) - passer derrière (?).",
+      "en": "To fall (?) - to pass behind (?).",
+      "zh": "掉落（？）－經過後面（？）。",
+      "examples": [
+        {
+          "t": "Pliyax xedao",
+          "fr": "coucher du soleil (temps et lieu).",
+          "en": "sunset (time and place).",
+          "zh": "日落（時間與地點）。"
+        },
+        {
+          "t": "Pliyax daolas",
+          "fr": "Tomber dans un précipice.",
+          "en": "To fall into a precipice.",
+          "zh": "掉入懸崖。"
+        },
+        {
+          "t": "Kmbyanan na do, pida bi pliyax xedao siida, wada pliyax daolas muda \"lu ka Pexo",
+          "fr": "Le soir , juste au moment où le soleil se couchait, Perho en marchant est tombé des rochers.",
+          "en": "In the evening, just at the moment when the sun was setting, Perho, while walking, fell off the rocks.",
+          "zh": "傍晚，正當太陽下山的時候，佩爾侯（Perho）走著走著從岩石上摔了下來。"
+        }
+      ]
+    },
+    {
+      "hw": "PLIYUX",
+      "tag": "(R)",
+      "fr": "Echanger - interchanger - renouveler - changer. (R. = LIYUX ?)",
+      "en": "To exchange - to interchange - to renew - to change. (root = LIYUX ?)",
+      "zh": "交換－互換－更新－改變。（詞根＝LIYUX？）",
+      "subs": [
+        {
+          "form": "Mpliyux",
+          "paradigm": "Mpliyux, pliyux, plyuxi, plyuxan, plyuxun.",
+          "fr": "Echanger - qui échange - qui prend la suite, le tour.",
+          "en": "To exchange - one who exchanges - who takes over, takes his turn.",
+          "zh": "交換－交換者－接替、輪替的人。",
+          "examples": [
+            {
+              "t": "Ga mpliyux lnglongan na ka Tanax",
+              "fr": "Tanarh est en train de changer son coeur (de se corriger - de se convertir).",
+              "en": "Tanarh is changing his heart (correcting himself - converting).",
+              "zh": "塔納赫（Tanarh）正在改變他的心（改正自己－悔改）。"
+            },
+            {
+              "t": "Plyuxun so knuwan ka dnamux sapax xpuyan so?",
+              "fr": "Quand est-ce que tu changeras la toiture de ta cuisine?",
+              "en": "When will you change the roof of your kitchen?",
+              "zh": "你什麼時候要換你廚房的屋頂？"
+            },
+            {
+              "t": "Plyuxai ta maxal pila so xo?",
+              "fr": "Fais moi la monnaie de dix dollars, s'il te plait.",
+              "en": "Give me change for ten dollars, please.",
+              "zh": "請幫我把十元找開，好嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Kmpliyux",
+          "fr": "Faire un échange.",
+          "en": "To make an exchange.",
+          "zh": "進行交換。",
+          "examples": [
+            {
+              "t": "Lmnglong ko kmpliyux lukus yami laqe Tanax (vl. Kmpliyux lukus daxa laqe Tanax)",
+              "fr": "Je compte faire un échange d'habit avec le fils de Tanarh.",
+              "en": "I intend to exchange clothes with Tanarh's son. (var. of the sentence given in parentheses)",
+              "zh": "我打算和塔納赫的兒子交換衣服。（括號內為此句的另一種說法）"
+            }
+          ]
+        },
+        {
+          "form": "Kmplyuxan",
+          "fr": "Le changement - la transformation - le renouvellement.",
+          "en": "The change - the transformation - the renewal.",
+          "zh": "改變－轉變－更新。",
+          "examples": [
+            {
+              "t": "Pax suxal betak sayang o, paro bi kmplyuxan na alang taan",
+              "fr": "Depuis alors jusqu'à maintenant, en regardant, le changement du village est très grand !",
+              "en": "From then until now, looking at it, the change in the village is very great!",
+              "zh": "從那時到現在，看起來，村子的變化非常大！"
+            },
+            {
+              "t": "Ini ko xali skuxul mita sao kmplyuxan bi gaya ta sbiyao",
+              "fr": "Je ne me réjouis pas spécialement de voir le changement de nos vieilles coutumes d'autrefois.",
+              "en": "I am not especially glad to see the change in our old customs of former times.",
+              "zh": "看到我們昔日古老習俗的改變，我並不特別高興。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "P'LKOX",
+      "tag": "( = R. ?)",
+      "fr": "Fortifier pour protéger - s'abriter contre un danger (?). = renforcer (?). (est-ce une variante de: PND'KOX ?).",
+      "en": "To fortify in order to protect - to shelter oneself against a danger (?). = to reinforce (?). (is it a variant of: PND'KOX ?).",
+      "zh": "築防以保護－躲避危險（？）。＝加強（？）。（這是否為 PND'KOX 的變體？）"
+    },
+    {
+      "hw": "PLMUKAN",
+      "tag": "",
+      "fr": "Nom par lequel sont désignés les Taiwannais, qu'ils ne connaissaient que par de rares relations commerciales (sel, armes, outils,) ou dans la collaborations qu'ils apportaient aux policiers japonais.",
+      "en": "Name by which the Taiwanese (Chinese) are designated, whom they knew only through rare commercial dealings (salt, weapons, tools) or in the collaboration they gave to the Japanese police.",
+      "zh": "用來稱呼台灣（漢）人的名稱，他們只透過少數的商業往來（鹽、武器、工具），或在協助日本警察時，才認識這些人。"
+    },
+    {
+      "hw": "P'LPAO",
+      "tag": "(R)",
+      "fr": "Aurore - aube.",
+      "en": "Dawn - daybreak.",
+      "zh": "黎明－破曉。"
+    },
+    {
+      "hw": "P'LUT",
+      "tag": "(P'LöT ?) ( = R. ? - R. = LUT ? )",
+      "fr": "Peser sur - presser sur - humilier.",
+      "en": "To press down on - to press on - to humiliate.",
+      "zh": "壓在…上－按壓－羞辱。",
+      "subs": [
+        {
+          "form": "M'lut",
+          "paradigm": "M'lut, P'lut, pl'ti, pl'tan, pl'tun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Mnda m'lut qaqai mo ka tlia tdoloi so",
+              "fr": "La roue de ta voiture est passée sur mon pied.",
+              "en": "The wheel of your car ran over my foot.",
+              "zh": "你車子的輪子輾過了我的腳。"
+            }
+          ]
+        },
+        {
+          "form": "Mp'lut",
+          "fr": "Qui presse sur - qui s'appesantit sur - qui exploite.",
+          "en": "One who presses on - who weighs down on - who exploits.",
+          "zh": "壓迫者－加重壓迫者－剝削者。",
+          "examples": [
+            {
+              "t": "Luxai bi dmblaeq ka mangal balao; Mp'lut bi sao knqlinut (qqlinut) ka dndoma daxa",
+              "fr": "C'est souvent que les riches sont fiers, et certains d'entre eux écrasent les pauvres.",
+              "en": "It is often the case that the rich are proud, and some of them crush the poor.",
+              "zh": "有錢人常常驕傲，其中有些人還欺壓窮人。"
+            }
+          ]
+        },
+        {
+          "form": "Pl'tan",
+          "fr": "Pression - écrasement -lieu où s'exerce la pression.",
+          "en": "Pressure - crushing - the place where the pressure is applied.",
+          "zh": "壓力－擠壓－施壓之處。",
+          "examples": [
+            {
+              "t": "Babao tnkulan mo sndurai o, naqex bi pl'tan ka xelang mo",
+              "fr": "Depuis ma chute de ces temps derniers, mon épaule me fait mal quand on presse dessus.",
+              "en": "Since my fall of late, my shoulder hurts when someone presses on it.",
+              "zh": "自從我最近跌倒後，一按我的肩膀就會痛。"
+            },
+            {
+              "t": "Ma\" ns'xdil bi, msa ko..k'la ka pl'tan so nanak!",
+              "fr": "Je me disais : Mais! C'est bien lourd!...Je ne savais pas que tu pressais dessus !",
+              "en": "I was saying to myself: But! It's really heavy!...I didn't know that you were pressing on it!",
+              "zh": "我心想：咦！好重啊！……我不知道原來是你在壓著它！"
+            }
+          ]
+        },
+        {
+          "form": "Tp'lut",
+          "fr": "Ecrasé - humilié - qui rentre sa tête dans ses épaules.",
+          "en": "Crushed - humiliated - who draws his head into his shoulders (cowers).",
+          "zh": "被壓垮的－受辱的－縮頭縮腦（畏縮）的。",
+          "examples": [
+            {
+              "t": "Asi bi tp'lut d'xgal kana ka dxea",
+              "fr": "Ils se sont tous aplatis au sol (ils se sont couchés au sol).",
+              "en": "They all flattened themselves on the ground (they lay down on the ground).",
+              "zh": "他們全都趴在地上（他們都躺在地上）。"
+            },
+            {
+              "t": "Lmngao ka tama do, asi tp'lut kana ka dxea da!",
+              "fr": "Quand le papa parle, ils se font tout petits.",
+              "en": "When the father speaks, they all make themselves very small.",
+              "zh": "爸爸一說話，他們全都變得畏縮起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PNAIS",
+      "tag": "( = R. ? - R. = NAIS ?)",
+      "fr": "Brièvement - passagèrement.",
+      "en": "Briefly - fleetingly / in passing.",
+      "zh": "短暫地－匆匆地。",
+      "examples": [
+        {
+          "t": "Miyax ko pnais bi toxoi sunan",
+          "fr": "Je viens te faire un tout petit bout de visite.",
+          "en": "I have come to pay you a very short little visit.",
+          "zh": "我來稍微拜訪你一下。"
+        },
+        {
+          "t": "Ma\" so pnais bi sapax mo!",
+          "fr": "Tu ne fais donc que passer chez moi ( en courant ) !",
+          "en": "So you are only just passing by my house (in a hurry)!",
+          "zh": "你只是（匆匆地）路過我家而已！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pnisun",
+          "fr": "Ce qu'on veut très bref.",
+          "en": "What one wants to be very brief.",
+          "zh": "想要非常短暫（進行）的事。",
+          "examples": [
+            {
+              "t": "Xmiti pnisun mo pg'li laqe mo tityex",
+              "fr": "Avant que ce soit fini (avant de partir) je veux faire faire un petit bout de danse (brièvement) à ma fille.",
+              "en": "Before it is over (before leaving) I want to have my daughter do a little bit of dancing (briefly).",
+              "zh": "在結束之前（在離開之前），我想讓我女兒稍微跳一小段舞。"
+            }
+          ]
+        },
+        {
+          "form": "Mnais",
+          "fr": "( = R. ? - R. = NAIS ? , PNAIS ?) Prendre en passant (?).",
+          "en": "( = root ? - root = NAIS ?, PNAIS ?) To take in passing (?).",
+          "zh": "（＝詞根？－詞根＝NAIS？、PNAIS？）順道取走（？）。"
+        }
+      ]
+    },
+    {
+      "hw": "PNDKOX",
+      "tag": "( = var. de PLKOX , P'DKOX ?)",
+      "fr": "Renforcer - fortifier - s'abriter contre un danger.",
+      "en": "To reinforce - to fortify - to shelter oneself against a danger.",
+      "zh": "加強－鞏固－躲避危險。"
+    },
+    {
+      "hw": "PNG'LAX",
+      "tag": "(R)",
+      "fr": "Etoile.",
+      "en": "Star.",
+      "zh": "星星。",
+      "examples": [
+        {
+          "t": "Ima ka mk'la smpu kana png'lax kska kalat ?",
+          "fr": "Qui est-ce qui peut compter toutes les étoiles qui sont dans le ciel ?",
+          "en": "Who can count all the stars that are in the sky?",
+          "zh": "有誰能數盡天上所有的星星呢？"
+        }
+      ]
+    },
+    {
+      "hw": "PNG'LUX",
+      "tag": "(R)",
+      "fr": "Le front du visage humain.",
+      "en": "The forehead of the human face.",
+      "zh": "人臉的額頭。",
+      "examples": [
+        {
+          "t": "Msxaya so do (da o), mpdaxong kana ka png'lux so da.",
+          "fr": "Si tu fais comme cela, ton front va tout se couvrir d'ecchymoses (tu vas avoir le front plein d'ecchymoses).",
+          "en": "If you do that, your forehead will become all covered with bruises (you will have your forehead full of bruises).",
+          "zh": "你要是那樣做，你的額頭會佈滿瘀青（你的額頭會滿是瘀傷）。"
+        }
+      ]
+    },
+    {
+      "hw": "PNLAQ",
+      "tag": "(PNLAK ?) ( R. = ??)",
+      "fr": "Partie d'une étendue d'eau où viennent mourir, buter, les vagues - rivage.",
+      "en": "The part of a body of water where the waves come to die, to break - the shore.",
+      "zh": "水域中波浪拍打、消退之處－岸邊。",
+      "examples": [
+        {
+          "t": "Kia da, pntlilun daxa siyao pnlaq ka aso da",
+          "fr": "Puis ils ont tiré leur barque sur le rivage(faire passer sur …",
+          "en": "Then they pulled their boat up onto the shore (to make it pass over … [gloss cut off at page break]",
+          "zh": "然後他們把船拉上了岸（使之越過……〔頁末截斷〕"
+        }
+      ]
+    },
+    {
+      "hw": "PNPONG",
+      "tag": "(PNGPONG ?) ( = R. ? - R. = PONG ?)",
+      "fr": "Sommet d'un mont = faire une bosse.",
+      "en": "Summit of a mountain = to make a bump / hump.",
+      "zh": "山頂＝隆起一個包（凸起）。",
+      "examples": [
+        {
+          "t": "Pnpong dgiyaq",
+          "fr": "Sommet de la montagne.",
+          "en": "Mountain summit.",
+          "zh": "山的頂峰。"
+        },
+        {
+          "t": "Mnkala so bi betak pnpong gain balao xo?",
+          "fr": "Est-ce que tu es vraiment monté jusqu'au sommet très loin tout là-haut ?",
+          "en": "Did you really climb all the way up to the summit far up there?",
+          "zh": "你真的一路爬到了那高高遠遠的山頂嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpnpong (mpngpong)",
+          "fr": "Ondulé - s'arrondir en faisant un monticule, une bosse.",
+          "en": "Undulating - to round off forming a mound, a hump.",
+          "zh": "起伏的－隆起成小丘、成包。",
+          "examples": [
+            {
+              "t": "Ini biyao mpnpong ka bnaqe siyao gsilong (\"silong)",
+              "fr": "Le long de la mer (sur le rivage) le sable forme très vite des ondulations.",
+              "en": "Along the sea (on the shore) the sand very quickly forms ripples.",
+              "zh": "沿著海邊（在岸上），沙子很快就形成了波紋。"
+            }
+          ]
+        },
+        {
+          "form": "Pkpnpong (?)",
+          "fr": "Faire faire des ondulations.",
+          "en": "To cause ripples to be made.",
+          "zh": "使產生波紋。",
+          "examples": [
+            {
+              "t": "Bgixol nanak ka pnkpnpong kana bnaqe nii",
+              "fr": "C'est uniquement le vent qui a produit toutes ces ondulations du sable.",
+              "en": "It is only the wind that produced all these ripples in the sand.",
+              "zh": "這些沙子上的波紋全都是風造成的。"
+            }
+          ]
+        },
+        {
+          "form": "Tnpngan ( = Tnppngan ?)",
+          "fr": "Lieu, temps où se produisent des vagues, des ondulations - . Ces vagues produites.",
+          "en": "Place, time where waves, ripples occur - . These waves produced.",
+          "zh": "產生波浪、波紋的地點、時間－。所產生的這些波浪。",
+          "examples": [
+            {
+              "t": "Pnapa ko aso pida bi tnppngan na ka gsilong siida",
+              "fr": "J'ai pris le bateau (j'ai voyagé par bateau) justement quand la mer était soulevée par les vagues.",
+              "en": "I took the boat (I traveled by boat) just when the sea was heaved up by the waves.",
+              "zh": "我正好在海面波濤洶湧的時候搭了船（乘船旅行）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PNSBUT",
+      "tag": "(R. = ? - R. = SBUT ?)",
+      "fr": "Avoir des égards (?) - respecter (?).",
+      "en": "To show consideration (?) - to respect (?).",
+      "zh": "有所顧忌（？）－尊重（？）。",
+      "examples": [
+        {
+          "t": "Ini Pnsbut",
+          "fr": "Insulter -outrager - sans égards.",
+          "en": "To insult - to outrage - without consideration.",
+          "zh": "侮辱－冒犯－毫無顧忌。"
+        },
+        {
+          "t": "Ini pnsbut pkloqex tmaan",
+          "fr": "Il offense son père sans ménagements (?).",
+          "en": "He offends his father without any restraint (?).",
+          "zh": "他毫無顧忌地冒犯自己的父親（？）。"
+        }
+      ]
+    },
+    {
+      "hw": "PNTLYAAN",
+      "tag": "(R. = LAE)",
+      "fr": "Mariage (?) - Noces (?).",
+      "en": "Marriage (?) - Wedding (?).",
+      "zh": "婚姻（？）－婚禮（？）。",
+      "examples": [
+        {
+          "t": "Mqan lae",
+          "fr": "Manger le repas de noces.",
+          "en": "To eat the wedding meal.",
+          "zh": "吃喜宴。"
+        },
+        {
+          "t": "Diyax pntlyaan na siida o, xbalao bi lisao ni ua ka mniyax psqalas Mkatan",
+          "fr": "Au moment de ses noces, les garçons et les filles sont venus très nombreux fêter Mikat.",
+          "en": "At the time of his wedding, the boys and girls came in great numbers to celebrate Mikat.",
+          "zh": "在他婚禮的時候，許多男男女女都來為米卡特（Mikat）慶賀。"
+        }
+      ]
+    },
+    {
+      "hw": "POLING",
+      "tag": "( = R. de KMPOLING = Entourer ?)",
+      "crossRef": "KMPOLING",
+      "fr": "( = R. de KMPOLING = Entourer ?). VR. KMPOLING .",
+      "en": "( = root of KMPOLING = To surround ?). See KMPOLING.",
+      "zh": "（＝KMPOLING 的詞根＝環繞？）。參見 KMPOLING。"
+    },
+    {
+      "hw": "POLO",
+      "tag": "(R)",
+      "fr": "Imiter - imitation.",
+      "en": "To imitate - imitation.",
+      "zh": "模仿－仿效。",
+      "examples": [
+        {
+          "t": "Polo ta kana da",
+          "fr": "Imitons tous ensemble (répétons tous ensemble (ce que quelqu'un à fait, à dit).",
+          "en": "Let us all imitate together (let us all repeat together what someone did, said).",
+          "zh": "我們大家一起模仿吧（大家一起重複別人所做、所說的）。"
+        },
+        {
+          "t": "Ana ini so k'la matas o, pl'gi nanak ka pntasan mo",
+          "fr": "Même si tu ne sais pas écrire, tu n'as qu'à recopier (à reproduire, à décalquer) ce que j'ai moi même écrit.",
+          "en": "Even if you don't know how to write, you only have to copy (reproduce, trace) what I myself have written.",
+          "zh": "即使你不會寫字，你只要照抄（複製、描摹）我親手寫的就好。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Molo",
+          "paradigm": "Molo, polo, pl'gi, pl'gan, pl'gun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Uxai so pl'gun ka ndaan mo",
+              "fr": "Tu n'es pas obligé d'imiter ce que j'ai fait !",
+              "en": "You are not obliged to imitate what I have done!",
+              "zh": "你沒有義務要模仿我所做的！"
+            },
+            {
+              "t": "Pl'gi ko ni, kia da",
+              "fr": "Imite moi et c'est tout.",
+              "en": "Just imitate me, and that's all.",
+              "zh": "模仿我就好，就這樣。"
+            }
+          ]
+        },
+        {
+          "form": "Mpolo",
+          "fr": "Initateur.",
+          "en": "Initiator (i.e. imitator; the example glosses it as \"imitateur\").",
+          "zh": "發起者（依例句意為「模仿者」）。",
+          "examples": [
+            {
+              "t": "Nasi so mpolo ldanan ta sbiyao do, adi so bi mpeidang da!",
+              "fr": "Si tu imites (tu es un imitateur de) nos ancêtres, tu ne pourras pas te perdre (faire fausse route) !",
+              "en": "If you imitate (you are an imitator of) our ancestors, you will not be able to go astray (take the wrong path)!",
+              "zh": "如果你模仿（效法）我們的祖先，你就不會迷失（走錯路）！"
+            }
+          ]
+        },
+        {
+          "form": "Pl'gan",
+          "fr": "Ce qui est imité, reproduit.",
+          "en": "What is imitated, reproduced.",
+          "zh": "被模仿、被複製的東西。",
+          "examples": [
+            {
+              "t": "Ida bi pl'gan so daxa nanak",
+              "fr": "C'est bien possible qu'ils n'aient fait que t'imiter !",
+              "en": "It is quite possible that they did nothing but imitate you!",
+              "zh": "他們很可能只是模仿了你而已！"
+            },
+            {
+              "t": "Malu bi pl'gan ka ndaan so",
+              "fr": "Ce que tu as fait est facile à imiter.",
+              "en": "What you have done is easy to imitate.",
+              "zh": "你所做的很容易模仿。"
+            }
+          ]
+        },
+        {
+          "form": "Pl'gun",
+          "fr": "Exemple qu'il faut, qui est à imiter - modèle.",
+          "en": "The example to follow, which is to be imitated - a model.",
+          "zh": "應當效法、值得模仿的榜樣－典範。",
+          "examples": [
+            {
+              "t": "Adi pl'gun so ka knngongoan daxa",
+              "fr": "Leur couardise n'est pas un exemple à suivre pour toi.",
+              "en": "Their cowardice is not an example for you to follow.",
+              "zh": "他們的懦弱不是你該效法的榜樣。"
+            }
+          ]
+        },
+        {
+          "form": "Ppolo",
+          "fr": "Pour imiter - s'imiter mutuellement.",
+          "en": "For imitating - to imitate one another.",
+          "zh": "用以模仿－互相模仿。"
+        }
+      ]
+    },
+    {
+      "hw": "POLO",
+      "tag": "( = R. ? )",
+      "fr": "Goutte - rhumatisme.",
+      "en": "Gout - rheumatism.",
+      "zh": "痛風－風濕。",
+      "subs": [
+        {
+          "form": "Mpolo",
+          "fr": "Qui souffre de rhumatisme, de goutte.",
+          "en": "One who suffers from rheumatism, from gout.",
+          "zh": "患風濕、痛風的人。",
+          "examples": [
+            {
+              "t": "Ini ko d'xok mksa da ! mpolo kana papaq mo!",
+              "fr": "Je n'arrive plus à marcher! Mes pieds sont pleins de rhumatismes !",
+              "en": "I can no longer walk! My feet are full of rheumatism!",
+              "zh": "我再也走不動了！我的腳滿是風濕！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PONGAO",
+      "tag": "(P'NGAO) (R)",
+      "fr": "Scarabé - hanneton - coléoptères.",
+      "en": "Beetle - cockchafer - beetles (coleoptera).",
+      "zh": "甲蟲－金龜子－鞘翅類昆蟲。"
+    },
+    {
+      "hw": "PONGO",
+      "tag": "(R)",
+      "fr": "Noeud - articulation.",
+      "en": "Knot - joint (articulation).",
+      "zh": "結－關節。",
+      "examples": [
+        {
+          "t": "Pongo papaq",
+          "fr": "Cheville.",
+          "en": "Ankle.",
+          "zh": "腳踝。"
+        },
+        {
+          "t": "Pongo bq'lit",
+          "fr": "Genoux.",
+          "en": "Knee(s).",
+          "zh": "膝蓋。"
+        },
+        {
+          "t": "Pongo baga",
+          "fr": "Poignet - coude.",
+          "en": "Wrist - elbow.",
+          "zh": "手腕－手肘。"
+        },
+        {
+          "t": "Pongo kana ka gasil so ongat blexan da!",
+          "fr": "Ta ficelle est toute pleine de noeuds, elle est inutilisable !",
+          "en": "Your string is all full of knots, it is unusable!",
+          "zh": "你的繩子滿是結，沒法用了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ppongo",
+          "paradigm": "Mppongo, ppongo, ppngoe, ppngoan, ppngoon.",
+          "fr": "Nouer - faire un noeud.",
+          "en": "To knot - to make a knot.",
+          "zh": "打結－繫一個結。",
+          "examples": [
+            {
+              "t": "Ya bi pnpngoan ima ka nii?",
+              "fr": "Qui est-ce donc qui a bien pu faire ce noeud ?",
+              "en": "Who on earth could have made this knot?",
+              "zh": "這個結到底是誰打的呢？"
+            }
+          ]
+        },
+        {
+          "form": "Pngoan",
+          "fr": "ligature - noeud qui est fait.",
+          "en": "A tie / binding - a knot that has been made.",
+          "zh": "綁紮－已打好的結。",
+          "examples": [
+            {
+              "t": "Pngoan b'xngil",
+              "fr": "Herbes nouées (nb. Nouer des herbes à l'extrémité d'un champ est une coutume ancienne; elle indique que le champ va être moissonné dans peu de temps et signifie l'interdiction pour un étranger d'avoir à passer par là .Un peu la même signification que les deux branches ,ou roseaux,croisés au dessus de la porte d'une maison pour indiquer que le mari est parti (à la chasse, à la guerre ou ailleurs) et que l'entré est interdite à tout homme).",
+              "en": "Knotted grasses (n.b. Tying grasses at the edge of a field is an ancient custom; it indicates that the field is going to be harvested shortly and signifies the prohibition for a stranger to pass by there. Somewhat the same meaning as the two branches, or reeds, crossed above the door of a house to indicate that the husband is away (hunting, at war, or elsewhere) and that entry is forbidden to any man).",
+              "zh": "打結的草（註：在田地邊緣把草打結是一種古老的習俗；它表示這塊田不久將要收割，並意味著禁止外人經過此地。這與交叉架在屋門上方的兩根枝條或蘆葦意義相近，用以表明丈夫外出了（去打獵、打仗或去別處），並且禁止任何男人進入）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpongo",
+          "fr": "Qui est noué - qui est emmêlé.",
+          "en": "Which is knotted - which is tangled.",
+          "zh": "打結的－糾纏在一起的。",
+          "examples": [
+            {
+              "t": "Mpongo kana ksaxol mo",
+              "fr": "tout mon coeur se noue (=je suis ému).",
+              "en": "my whole heart ties up in knots (= I am moved).",
+              "zh": "我整顆心都糾結起來（＝我很感動）。"
+            },
+            {
+              "t": "Ga mpongo kana noqex nia",
+              "fr": "Tout son chanvre s'est emmêlé.",
+              "en": "All his hemp has become tangled.",
+              "zh": "他的麻線全都纏在一起了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "POQAN",
+      "tag": "( = R. ? - R. = \"QAN ? )",
+      "fr": "Pipe. (syn. = Totox). (nb. La pipe taroko est faite d'un fourneau creusé dans une racine de bambou et emmanchée d'un bout de roseau.).",
+      "en": "Pipe (for smoking). (syn. = Totox). (n.b. The Taroko pipe is made of a bowl hollowed out in a bamboo root and fitted with a piece of reed.).",
+      "zh": "菸斗。（同義詞＝Totox）。（註：太魯閣的菸斗是用挖空的竹根做成斗缽，再接上一段蘆葦桿。）"
+    },
+    {
+      "hw": "POTI",
+      "tag": "( = R. ? )",
+      "fr": "?? .",
+      "en": "?? (meaning uncertain).",
+      "zh": "？？（意義不明）。",
+      "examples": [
+        {
+          "t": "Lubwi poti",
+          "fr": "Sac grossier - sac en toile de jute.",
+          "en": "Coarse sack - sack of jute cloth (burlap).",
+          "zh": "粗布袋－麻布袋。"
+        }
+      ]
+    },
+    {
+      "hw": "POTING",
+      "tag": "(R)",
+      "fr": "Coutelas. ( L'outil inséparable de tout taroko qui est aussi dans ses mains une arme redoutable, toujours supendue à sa ceinture dans un fourreau en bois, parfois ouvragé; sa lame est longue de 30 à 50 cm. au bout d'un manche de 20 - 25 cm.).",
+      "en": "Cutlass / machete (bush knife). (The tool inseparable from every Taroko, which in his hands is also a formidable weapon, always hung at his belt in a wooden sheath, sometimes ornately worked; its blade is 30 to 50 cm long, at the end of a handle of 20 - 25 cm.).",
+      "zh": "番刀（開山刀）。（每個太魯閣人形影不離的工具，在他手中也是一件可怕的武器，總是掛在腰帶上，裝在木製、有時雕飾過的刀鞘裡；刀刃長三十至五十公分，接在一支二十至二十五公分的刀柄末端。）",
+      "examples": [
+        {
+          "t": "Tai ka dmui poting o, npxoqel pax npoting(?)",
+          "fr": "Qui fait usage du coutelas, mourra par le couteau",
+          "en": "Whoever makes use of the cutlass will die by the knife",
+          "zh": "動刀的人，必死於刀下"
+        }
+      ]
+    }
+  ]
+}

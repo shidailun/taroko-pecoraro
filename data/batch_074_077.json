@@ -1,0 +1,700 @@
+{
+  "pages": [74, 77],
+  "leadin": {
+    "fr": "pkdngoan, pkdngoon.",
+    "en": "pkdngoan, pkdngoon (end of a verb-paradigm list continued from the previous page).",
+    "zh": "pkdngoan、pkdngoon（承上頁動詞變化表之末尾）。",
+    "examples": [
+      {
+        "t": "Pkdngoon so knuan ka sqmo so?",
+        "fr": "Quand feras tu sècher ton maïs ?",
+        "en": "When will you dry your maize?",
+        "zh": "你什麼時候要曬你的玉米？"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Kdngaan",
+        "fr": "Sècheresse - stérilité - siccité.",
+        "en": "Drought - sterility - dryness.",
+        "zh": "乾旱——不孕——乾涸。",
+        "examples": [
+          {
+            "t": "Tai ka Labai o, ana daxa ksun kdngaan, mataro idas ka xndilan na da",
+            "fr": "Quant à Labai, même s'ils la disaient stérile, voilà six mois qu'elle est enceinte (elle date déjà de six mois sa pesanteur). (nb. Pourquoi n'est ce pas la forme: Kdngoan ? Y aurait il une différence dans l'affixation de AN? par ex. avec SALU = construire; on obtient 1) Sluan = ce qu'on construit; 2) slaan = L'endroit où l'on construit. ??).",
+            "en": "As for Labai, even though they said she was sterile, she has now been pregnant for six months (her pregnancy already dates back six months). (n.b. Why is the form not Kdngoan? Might there be a difference in the affixation of AN? E.g. with SALU = to build, one gets 1) Sluan = what is built; 2) slaan = the place where one builds. ??).",
+            "zh": "至於Labai，儘管他們說她不孕，如今她已懷孕六個月了（她的身孕已有六個月）。（註：為何形式不是Kdngoan？AN的附加方式是否有所不同？例如SALU＝建造，可得1) Sluan＝所建之物；2) slaan＝建造之處。？？）"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "DNGUX",
+      "tag": "",
+      "crossRef": "SDNGUX",
+      "fr": "( Serait ce la R. de SDNGUX ?)-- vr. SDNGUX.",
+      "en": "(Could this be the root of SDNGUX?) — see SDNGUX.",
+      "zh": "（此或為SDNGUX之詞根？）——見SDNGUX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DO",
+      "tag": "",
+      "fr": "Particule postposée ( serait ce la contraction de DA + O ?) mettant en relief ce qui précède, impliquant ( à cause du O ?) une suite au discours, alors que: DA termine le discours en spécifiant que ce qui précède est accompli. On rencontre pourtant le: DO qui est encore suivi de: O.",
+      "en": "Postposed particle (could it be the contraction of DA + O?) that emphasizes what precedes, implying (because of the O?) a continuation of the discourse, whereas DA ends the discourse, specifying that what precedes is accomplished. One nevertheless encounters DO still followed by O.",
+      "zh": "後置助詞（或為DA＋O之縮合？），強調其前之語，並（因O之故？）暗示話語尚有下文；而DA則結束話語，表明前述之事已完成。然而仍可見DO之後再接O之用法。",
+      "examples": [
+        {
+          "t": "Yako do (vl.Yako do o), ini mo k'lae",
+          "fr": "Pour ce qui est de moi (en arrivant à ce qui me regarde), ce n'est pas de mon savoir (je ne sais pas).",
+          "en": "As for me (coming to what concerns me), it is not within my knowledge (I do not know).",
+          "zh": "至於我（說到與我有關的事），那非我所知（我不知道）。"
+        },
+        {
+          "t": "Yako o, ini ko k'la",
+          "fr": "Moi, je ne sais pas!",
+          "en": "Me, I do not know!",
+          "zh": "我呀，我不知道！"
+        },
+        {
+          "t": "Asi do",
+          "fr": "Soudain - aussitôt - sur l'heure.",
+          "en": "Suddenly - at once - immediately.",
+          "zh": "突然——立刻——馬上。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DOA",
+      "tag": "(R. de: TDOA ?)",
+      "crossRef": "TDOA",
+      "fr": "(Jamais entendu sous cette forme nue, mais il y a : MDOA - NDOA ). Vr. TDOA.",
+      "en": "(Never heard in this bare form, but there are: MDOA - NDOA). See TDOA.",
+      "zh": "（從未聽過此裸形式，但有MDOA——NDOA）。見TDOA。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOBUT",
+      "tag": "(R)",
+      "fr": "Bouteille. (Sy; = LONGAO).",
+      "en": "Bottle. (Syn. = LONGAO).",
+      "zh": "瓶子。（同義詞＝LONGAO。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOLE",
+      "tag": "(R)",
+      "fr": "Encore - de nouveau - en plus.",
+      "en": "Again - anew - in addition.",
+      "zh": "還——再次——另外。",
+      "examples": [
+        {
+          "t": "Miyax ko dole",
+          "fr": "1) Je reviens; 2) Je viens de nouveau.",
+          "en": "1) I am coming back; 2) I am coming again.",
+          "zh": "1) 我回來了；2) 我再次前來。"
+        },
+        {
+          "t": "Ita dole",
+          "fr": "1) Passe (le) moi de nouveau; 2) Donne m'en un peu plus; 3) C'est encore nous.",
+          "en": "1) Pass it to me again; 2) Give me a little more of it; 3) It is us again.",
+          "zh": "1) 再把它遞給我；2) 再多給我一點；3) 又是我們。"
+        },
+        {
+          "t": "Dole o",
+          "fr": "En outre.",
+          "en": "Besides.",
+          "zh": "此外。"
+        },
+        {
+          "t": "Dole ni",
+          "fr": "Et en plus.",
+          "en": "And in addition.",
+          "zh": "而且還有。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DOLO",
+      "tag": "",
+      "crossRef": "KDOLO",
+      "fr": "( Pourrait paraître R. de MDOLO = Mettre au monde; Voir: KDOLO).",
+      "en": "(Might appear to be the root of MDOLO = to bring into the world; see: KDOLO).",
+      "zh": "（或似MDOLO之詞根＝生育；見KDOLO。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DOMA",
+      "tag": "(R)",
+      "fr": "Quelques uns - parfois - plusieurs.",
+      "en": "Some - sometimes - several.",
+      "zh": "一些人——有時——好幾個。",
+      "examples": [
+        {
+          "t": "Mniyax ka doma, ini iyax ka doma",
+          "fr": "Certains sont venus, d'autres non.",
+          "en": "Some came, others did not.",
+          "zh": "有些人來了，有些人沒來。"
+        },
+        {
+          "t": "Uxai kana ka bnoai pila, doma nanak",
+          "fr": "Ce n'est pas tout le monde qui a donné l'argent (vl.Tout le monde n'a pas donné l'argent), quelques uns seulement.",
+          "en": "It is not everyone who gave money (var.: not everyone gave money), only a few.",
+          "zh": "並不是所有人都出了錢（或：不是人人都出了錢），只有少數幾個。"
+        },
+        {
+          "t": "Doma na",
+          "fr": "Une partie (de celà).",
+          "en": "A part (of that).",
+          "zh": "（其中的）一部分。"
+        },
+        {
+          "t": "Ga ino ka Aman? ... Ima mk'la ! Doma miyax doma ini iyax ka xea",
+          "fr": "Où est Aman ? ... Qui sait? Parfois il vient, parfois il ne vient pas, lui.",
+          "en": "Where is Aman? ... Who knows? Sometimes he comes, sometimes he does not come, that one.",
+          "zh": "Aman在哪裡？……誰知道？他這個人有時來，有時不來。"
+        },
+        {
+          "t": "Doma daxa",
+          "fr": "Certains d'entre eux.",
+          "en": "Some of them.",
+          "zh": "他們當中的一些人。"
+        },
+        {
+          "t": "Malu bi ka doma daxa",
+          "fr": "Certains d'entr'eux sont bien.",
+          "en": "Some of them are good.",
+          "zh": "他們當中有些人很好。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dndoma",
+          "fr": "Parfois - l'un ou l'autre - certains.",
+          "en": "Sometimes - one or the other - some.",
+          "zh": "有時——這個或那個——某些人。",
+          "examples": [
+            {
+              "t": "Uxai ko msa:kana! Dndoma ka ini tdoa",
+              "fr": "Je n'ai pas dit:Tous! Quelques uns seulement qui ne font pas leur devoir (qui ne valent rien).",
+              "en": "I did not say: All! Only a few who do not do their duty (who are worthless).",
+              "zh": "我沒有說：全部！只是少數幾個不盡本分（一無是處）的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DOXONG",
+      "tag": "(R)",
+      "fr": "Mortier (pour piler le riz, le millet..).",
+      "en": "Mortar (for pounding rice, millet...).",
+      "zh": "臼（用來舂米、舂小米……）。",
+      "examples": [
+        {
+          "t": "Qnliyan so sknuar ka doxong so nii?",
+          "fr": "Quand l'as tu creusé ton mortier que voilà ?",
+          "en": "When did you hollow out this mortar of yours here?",
+          "zh": "你這個臼是什麼時候鑿的？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DQ'LAS",
+      "tag": "(R)",
+      "fr": "Visage - face - façade - partie apparente.",
+      "en": "Face - visage - façade - visible part.",
+      "zh": "臉——面孔——正面——外露的部分。",
+      "examples": [
+        {
+          "t": "Sbtan daxa dq'las nia ka s'xiga",
+          "fr": "Hier c'est le jour où ils l'ont frappé au visage.",
+          "en": "Yesterday is the day they struck him in the face.",
+          "zh": "昨天就是他們打他臉的日子。"
+        },
+        {
+          "t": "Sbtan daxa ka dq'las nia",
+          "fr": "C'est au visage qu'ils l'ont frappé.",
+          "en": "It was in the face that they struck him.",
+          "zh": "他們打的正是他的臉。"
+        },
+        {
+          "t": "Dq'las sapax na o, malu! Tai(ta)manu ka bukwi na do o, ini ta k'lae",
+          "fr": "La façade de sa maison est bien! Quant à sa partie arrière, on ne le sait pas!",
+          "en": "The front of his house is fine! As for its rear part, nobody knows!",
+          "zh": "他房子的正面很好！至於後面如何，就不得而知了！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DUDU",
+      "tag": "(R)",
+      "fr": "Conduire (au sens physique).",
+      "en": "To lead (in the physical sense).",
+      "zh": "帶領（具體意義）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmudu",
+          "paradigm": "°Dmudu, dudu, .?., .?.,",
+          "fr": "Conduire - montrer la direction.",
+          "en": "To lead - to show the way.",
+          "zh": "帶領——指示方向。",
+          "examples": [
+            {
+              "t": "Ini nami xali tai (ktai ?)! Yaxe nami bi dmudu ka iso kika mpdxok nami mxaal kdagun nii",
+              "fr": "Nous ne voyons pas très bien; viens donc nous conduire ainsi nous arriverons à porter ce poids lourd.",
+              "en": "We cannot see very well; so come lead us and we will manage to carry this heavy load.",
+              "zh": "我們看不太清楚；你來帶領我們吧，這樣我們才能扛得動這重擔。"
+            }
+          ]
+        },
+        {
+          "form": "Mdudu",
+          "fr": "Celui qui conduit.",
+          "en": "The one who leads.",
+          "zh": "帶領的人。",
+          "examples": [
+            {
+              "t": "Nyeqan ka mdudu o, na, l'xan (l'çan) da",
+              "fr": "S'il y a quelqu'un qui nous conduit, alors ce sera facile.",
+              "en": "If there is someone to lead us, then it will be easy.",
+              "zh": "如果有人帶領我們，那就容易了。"
+            }
+          ]
+        },
+        {
+          "form": "Pdudu",
+          "fr": "Se faire conduire (?) - faire conduire(?).",
+          "en": "To have oneself led (?) - to have (someone) led (?).",
+          "zh": "讓人帶領（？）——使人帶領（？）。",
+          "examples": [
+            {
+              "t": "Yaxon miso pdudu",
+              "fr": "Je viendrai me faire conduire par toi.",
+              "en": "I will come and have you lead me.",
+              "zh": "我會來讓你帶領我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DUDUL",
+      "tag": "(R)",
+      "fr": "Conduire (au figuré) - exorter.",
+      "en": "To lead (figuratively) - to exhort.",
+      "zh": "帶領（引申義）——勸勉。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmudul",
+          "paradigm": "°Dmudul, dudul, dduli, ddulan, ddulun.",
+          "fr": "Conduire - gouverner - diriger - conseiller.",
+          "en": "To lead - to govern - to direct - to advise.",
+          "zh": "帶領——治理——指導——勸告。",
+          "examples": [
+            {
+              "t": "Asi ka dudul ka laqe; tsgsutun (tsgasut)mo dmudul ka nako",
+              "fr": "Les enfants ont besoin d'être éduqués (conduits) ; Je veux persévérer à diriger le mien.",
+              "en": "Children need to be educated (led); I want to persevere in guiding mine.",
+              "zh": "孩子需要受教導（被帶領）；我要堅持引導我自己的孩子。"
+            },
+            {
+              "t": "Tixong ka dmudul gnluban dCristo alang Mixalasi",
+              "fr": "C'est Tchirhong qui dirige la communauté chrétienne à Mihalashi.",
+              "en": "It is Tchirhong who leads the Christian community at Mihalashi.",
+              "zh": "在Mihalashi帶領基督徒團體的是Tchirhong。"
+            }
+          ]
+        },
+        {
+          "form": "Mdudul",
+          "fr": "Le chef - celui qui dirige, conduit, exhorte.",
+          "en": "The chief - the one who directs, leads, exhorts.",
+          "zh": "首領——指揮、帶領、勸勉的人。",
+          "examples": [
+            {
+              "t": "Kmpg'li namo lqlaqe o, ima ka ngalun namo mdudul daxa?",
+              "fr": "Vous aimeriez faire danser vos enfants; qui prendrez vous comme maître de danse ?",
+              "en": "You would like to have your children dance; whom will you take as dance master?",
+              "zh": "你們想讓孩子們跳舞；你們要請誰來當舞蹈老師？"
+            }
+          ]
+        },
+        {
+          "form": "Ddulan",
+          "fr": "La conduite (menée par quelqu'un) - la direction.",
+          "en": "The leading (carried out by someone) - the direction.",
+          "zh": "（由某人施行的）帶領——指揮。",
+          "examples": [
+            {
+              "t": "Ini daxa xali snxei ddulan so! .. ana qoqo so malex xo ?",
+              "fr": "Elle n'est pas très efficace (ils ne sont pas très dociles à) ta direction; celà ne te ferait rien de laisser la place ?",
+              "en": "Your leadership is not very effective (they are not very docile to it); would you mind stepping aside?",
+              "zh": "你的領導不太有效（他們不太聽從你的指揮）；讓出位子你不介意吧？"
+            }
+          ]
+        },
+        {
+          "form": "Dndulan",
+          "fr": "Sous la conduite de..(passé) - objet de la conduite, circonstances de la conduite.",
+          "en": "Under the leadership of... (past) - object of the leading, circumstances of the leading.",
+          "zh": "在……的帶領之下（過去）——帶領的對象、帶領的情形。",
+          "examples": [
+            {
+              "t": "Dndulan Aput suxal suxal ka malu",
+              "fr": "C'est la methode de direction d'Aputs autrefois qui était bonne.",
+              "en": "It was Aput's way of leading in the old days that was good.",
+              "zh": "從前Aput的領導方式才是好的。"
+            },
+            {
+              "t": "A sao dndulan daxa",
+              "fr": "C'est grâce aux bons conseils des autres.",
+              "en": "It is thanks to the good guidance of others.",
+              "zh": "這是多虧了別人的好指導。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DUDUX",
+      "tag": "(R)",
+      "fr": "La cime d'un bois - l'extrémité de qqch qui est haut, long.-( Chef, guide (?) par analogie).",
+      "en": "The top of a tree - the tip of something tall or long. - (Chief, guide (?) by analogy).",
+      "zh": "樹梢——高而長之物的末端。——（引申（？）為首領、嚮導。）",
+      "examples": [
+        {
+          "t": "Kingal pusu qouni o, qtol ka pusu ni qling bi ka dudux nia",
+          "fr": "Dans un arbre, la souche est grosse et la cime est fine.",
+          "en": "In a tree, the base is thick and the top is slender.",
+          "zh": "一棵樹，底部粗大，樹梢細小。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DUI",
+      "tag": "(R)",
+      "fr": "Posséder - tenir à la main - être armé.",
+      "en": "To possess - to hold in the hand - to be armed.",
+      "zh": "擁有——拿在手裡——持有武器。",
+      "examples": [
+        {
+          "t": "Ini ko dui ana manu ka yako",
+          "fr": "J'ai les mains completement vides (je n'ai rien).",
+          "en": "My hands are completely empty (I have nothing).",
+          "zh": "我兩手空空（我一無所有）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dmui",
+          "paradigm": "°Dmui, dui, dii, dian (diyan ?), diun (diyun ?).",
+          "fr": "Tenir à la main - avoir sur soi - être armé.",
+          "en": "To hold in the hand - to have on oneself - to be armed.",
+          "zh": "拿在手裡——隨身攜帶——持有武器。",
+          "examples": [
+            {
+              "t": "Ita saoke so, ongat diyun mo",
+              "fr": "Passe moi ta petite faucille, je n'ai aucun outil.",
+              "en": "Pass me your little sickle, I have no tool at all.",
+              "zh": "把你的小鐮刀遞給我，我沒有任何工具。"
+            },
+            {
+              "t": "Ya kiso, yaxon miso dmui baga",
+              "fr": "N'aie pas peur, je viendrai t'aider (te tenir par la main).",
+              "en": "Don't be afraid, I will come help you (hold you by the hand).",
+              "zh": "別怕，我會來幫你（牽著你的手）。"
+            },
+            {
+              "t": "Yaxe ko bi dmui baga",
+              "fr": "Viens me sauver (me tirer de ce mauvais pas).",
+              "en": "Come save me (pull me out of this predicament).",
+              "zh": "來救我（把我從困境中拉出來）。"
+            },
+            {
+              "t": "Ya usa sdalex da! Ini so tai? Ga dmui poting ka gaga!",
+              "fr": "Ne va pas t'approcher! Tu ne vois pas? Il est armé d'un couteau celui là !",
+              "en": "Don't go near! Don't you see? That one there is armed with a knife!",
+              "zh": "別靠近！你沒看見嗎？那個人手裡拿著刀！"
+            },
+            {
+              "t": "Ga dmui laqe ka Libiç",
+              "fr": "Libish a un enfant,(vient d'avoir un enfant).",
+              "en": "Libish has a child (has just had a child).",
+              "zh": "Libish有了孩子（剛生了孩子）。"
+            },
+            {
+              "t": "Ini ta k'la smpu ka ana manu dmui na",
+              "fr": "On n'arrive pas à compter tout ce qu'il possède.",
+              "en": "One cannot manage to count everything he possesses.",
+              "zh": "他所擁有的東西多得數不清。"
+            },
+            {
+              "t": "K'laon so dmui punyaq xo",
+              "fr": "Sais tu te servir d'un fusil ?",
+              "en": "Do you know how to use a gun?",
+              "zh": "你會用槍嗎？"
+            },
+            {
+              "t": "Mxa lala bi ddiyun ta ka musa ta alang paro",
+              "fr": "Il va nous falloir beaucoup d'argent si nous allons en ville.",
+              "en": "We are going to need a lot of money if we go to town.",
+              "zh": "如果我們進城，就需要很多錢。"
+            }
+          ]
+        },
+        {
+          "form": "Mdui",
+          "fr": "Qui tient en main - qui possède.",
+          "en": "Who holds in hand - who possesses.",
+          "zh": "手裡拿著的人——擁有的人。",
+          "examples": [
+            {
+              "t": "Ana ta kxaya knqlinut, ana ta knliwa mnalox, ana ta sao sgaalu bi, ongat bi ka mdui baga",
+              "fr": "On a beau être pauvre comme ça, on a beau être gravement malade, on a beau être misérable (comme digne de pitié), il n'y a personne qui vienne donner une main (aider).",
+              "en": "However poor one may be, however gravely ill, however wretched (as if worthy of pity), there is nobody who comes to lend a hand (to help).",
+              "zh": "任憑再怎麼貧窮、再怎麼重病、再怎麼可憐（值得憐憫），也沒有人來伸出援手（幫忙）。"
+            },
+            {
+              "t": "Mdui baga",
+              "fr": "Aider - sauver - réconforter.",
+              "en": "To help - to save - to comfort.",
+              "zh": "幫助——拯救——安慰。"
+            }
+          ]
+        },
+        {
+          "form": "Mddui",
+          "fr": "Se tenir l'un l'autre.",
+          "en": "To hold one another.",
+          "zh": "彼此相扶持。",
+          "examples": [
+            {
+              "t": "Mddui baga",
+              "fr": "Se donner la main - la main dans la main(propre et figuré).",
+              "en": "To join hands - hand in hand (literal and figurative).",
+              "zh": "彼此牽手——手牽著手（本義與引申義）。"
+            },
+            {
+              "t": "Nasi ta balae bi mnsuwai o, kasi ta mddui baga da",
+              "fr": "Si nous sommes vraiment frères, il faut alors que nous nous entr'aidions.",
+              "en": "If we are truly brothers, then we must help one another.",
+              "zh": "如果我們真是弟兄，那我們就必須互相幫助。"
+            }
+          ]
+        },
+        {
+          "form": "Pdui",
+          "paradigm": "°Mpdui, pdui, pdii, pdian, pdiun.",
+          "fr": "Faire tenir - mettre en main à quelqu'un - mettre à la disposition de.",
+          "en": "To make hold - to put into someone's hand - to place at the disposal of.",
+          "zh": "使拿著——交到某人手中——供……使用。",
+          "examples": [
+            {
+              "t": "Pdii ko ana wana poting so",
+              "fr": "Donne moi quelque chose (entre les mains), ne serait ce que ton coutelas.",
+              "en": "Give me something (into my hands), even if only your machete.",
+              "zh": "給我點東西（放在我手裡），哪怕只是你的刀。"
+            },
+            {
+              "t": "Ana so pdiun laqe ka pxpax so",
+              "fr": "Tu pourrais bien les faire (?) tenir (porter) par l'enfant ces fleurs.",
+              "en": "You could well have the child hold (carry) these flowers of yours.",
+              "zh": "這些花你大可讓孩子拿著（拿去）。"
+            },
+            {
+              "t": "Pdii laqe ka pxpax so",
+              "fr": "Passe les fleurs au gosse.",
+              "en": "Pass the flowers to the kid.",
+              "zh": "把花遞給小孩。"
+            },
+            {
+              "t": "Ini xali soa (sloa) pdui gaya nami ka dnixong",
+              "fr": "Les japonais ne tenaient guère à nous laisser suivre nos coutumes!",
+              "en": "The Japanese hardly cared to let us follow our customs!",
+              "zh": "日本人根本不願讓我們遵行我們的習俗！"
+            }
+          ]
+        },
+        {
+          "form": "Dian",
+          "fr": "En tenant, en portant à la main - ce qui est tenu, porté.",
+          "en": "Holding, carrying in the hand - what is held, carried.",
+          "zh": "拿著、提在手裡——被拿著、被攜帶之物。",
+          "examples": [
+            {
+              "t": "Dian so na baga ka swai ( suai) so",
+              "fr": "Ton petit frère te tenait par la main.",
+              "en": "Your little brother was holding you by the hand.",
+              "zh": "你的弟弟牽著你的手。"
+            }
+          ]
+        },
+        {
+          "form": "Diun (diyun)",
+          "fr": "Arme - outil - bagage -(ce qu'il faut tenir, posseder).",
+          "en": "Weapon - tool - luggage - (what one must hold, possess).",
+          "zh": "武器——工具——行李——（須持有、擁有之物）。",
+          "examples": [
+            {
+              "t": "Adi nyeqan ddiun ka nii xo?",
+              "fr": "Est ce que ceci est de quelque utilité ?",
+              "en": "Is this of any use?",
+              "zh": "這個有什麼用處嗎？"
+            },
+            {
+              "t": "Mmxa sida ka tama o, ongat ana manu diun na",
+              "fr": "Quand papa se préparait à partir, il n'avait rien en main (ni arme, ni outil, ni bagages (selon le contexte)).",
+              "en": "When father was getting ready to leave, he had nothing in hand (no weapon, no tool, no luggage (depending on the context)).",
+              "zh": "爸爸準備出發時，手上什麼都沒有（沒有武器、工具或行李（視上下文而定））。"
+            }
+          ]
+        },
+        {
+          "form": "Sdui (R. DUI ?)",
+          "fr": "Pour se tenir - se tenir à.",
+          "en": "For holding oneself - to hold on to.",
+          "zh": "供扶持之用——抓住、扶著。",
+          "examples": [
+            {
+              "t": "Mbiyax ko bi sayang da, ana ini ko sdui ana manu da!",
+              "fr": "Me voilà maintenant en bonne forme , je puis me dispenser de me tenir à quoi que ce soit.",
+              "en": "Here I am now in good shape; I can do without holding on to anything at all.",
+              "zh": "我現在身體好了，不必再扶著任何東西了！"
+            },
+            {
+              "t": "Wada sdui poting ka Wilang da",
+              "fr": "Ouilang est allé s'armer de (vl.la main sur) son coutelas.",
+              "en": "Ouilang went and armed himself with (var.: laid his hand on) his machete.",
+              "zh": "Ouilang去拿了（或：手按上了）他的刀。"
+            },
+            {
+              "t": "Mpg'gui ko xo ka sdui namo poting ni sbut?",
+              "fr": "Suis je un voleur (au point) que je vous voie armés de coutelas et de bâtons?",
+              "en": "Am I a thief (to the point) that I should see you armed with machetes and sticks?",
+              "zh": "我是強盜嗎，竟讓我看見你們拿著刀棒？"
+            }
+          ]
+        },
+        {
+          "form": "Sdian (sdiyan ?)",
+          "fr": "Rampe - parapet.",
+          "en": "Railing - parapet.",
+          "zh": "欄杆——護欄。",
+          "examples": [
+            {
+              "t": "Miso ko muda xakao! ongat ka sdian",
+              "fr": "J'ai peur de passer sur le pont! Il n'y a pas de parapet !",
+              "en": "I am afraid to cross the bridge! There is no parapet!",
+              "zh": "我不敢過橋！沒有護欄！"
+            },
+            {
+              "t": "Xbalao sadyaq wada sdian otoç naqex",
+              "fr": "De nombreuses personnes étaient possédées par un ésprit méchant. Vr. SDUI .",
+              "en": "Many people were possessed by an evil spirit. See SDUI.",
+              "zh": "許多人被惡靈附身。見SDUI。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DUK",
+      "tag": "( = R.? - R. = DUP ? - R. = NDUK ?)",
+      "fr": "Fermer. (nb. à noter la mutation fréquente des consonnes finales: P et K; alors que les dérivés conservent le P ,la base est souvent en K; § Mduk = fermer; Dpan = qui est en état fermé. § Madok = chasser; Dopan = terrain de chasse. § Mgaluk = Faire le trait d'union; Gluban = Communauté, assemblée. Noter également la tendance du D de DUK (DUP) à devenir: L. § Dpi = Ferme, souvent entendu: LPI. Vr. DUP et NDUK.",
+      "en": "To close. (n.b. note the frequent mutation of the final consonants P and K; while the derivatives keep the P, the base is often in K; § Mduk = to close; Dpan = what is in a closed state. § Madok = to hunt; Dopan = hunting ground. § Mgaluk = to make the link; Gluban = community, assembly. Note also the tendency of the D of DUK (DUP) to become L. § Dpi = closed, often heard as: LPI. See DUP and NDUK.",
+      "zh": "關閉。（註：請注意詞尾輔音P與K之間常見的變換；派生詞保留P，而詞基往往作K；§ Mduk＝關閉；Dpan＝處於關閉狀態者。§ Madok＝打獵；Dopan＝獵場。§ Mgaluk＝連結；Gluban＝團體、集會。另請注意DUK（DUP）之D有變為L的傾向。§ Dpi＝關閉的，常聽作LPI。見DUP與NDUK。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DULUN",
+      "tag": "(R)",
+      "fr": "Demander en priant - Prier pour qqchose.",
+      "en": "To ask beseechingly - to pray for something.",
+      "zh": "懇求——為某事祈求。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmulun",
+          "paradigm": "°Dmulun, dulun, dluni, dlunan dlunun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Manu ka yaxan so dmulun sayang?",
+              "fr": "Que viens tu demander maintenant ?",
+              "en": "What have you come to ask for now?",
+              "zh": "你現在來要求什麼？"
+            },
+            {
+              "t": "Manu ka sqaon so dmulun",
+              "fr": "Pourquoi as tu honte de demander?",
+              "en": "Why are you ashamed to ask?",
+              "zh": "你為什麼不好意思開口要求？"
+            },
+            {
+              "t": "Dlnai ta tmaan xo ?",
+              "fr": "Accepte que nous demandions à papa, veux tu?",
+              "en": "Agree that we ask father, will you?",
+              "zh": "我們去求爸爸，你同意嗎？"
+            },
+            {
+              "t": "Dlnani Banan xo?",
+              "fr": "Fais le demander par Iban, veux tu ?",
+              "en": "Have Iban ask for it, will you?",
+              "zh": "讓Iban去要求，好嗎？"
+            },
+            {
+              "t": "Naqex bi dlunun ka nii!",
+              "fr": "1) Ceci est une chose difficile à demander; 2) Celui ci n'est pas facile à prier (il est dur, il n'accepte pas facilement).",
+              "en": "1) This is a difficult thing to ask for; 2) This person is not easy to entreat (he is hard, he does not accept easily).",
+              "zh": "1) 這是件難以開口要求的事；2) 這個人不容易求（他很硬，不輕易答應）。"
+            }
+          ]
+        },
+        {
+          "form": "Mdulun",
+          "fr": "Demandeur.",
+          "en": "One who asks.",
+          "zh": "求索者。",
+          "examples": [
+            {
+              "t": "Pyasi tityex! Xbalao bi xei ka mdulun",
+              "fr": "Chante un peu ! Il y en a beaucoup qui le demandent.",
+              "en": "Sing a little! There are many who ask for it.",
+              "zh": "唱一下吧！有很多人求著要聽呢。"
+            },
+            {
+              "t": "Mdulun ko sunan",
+              "fr": "Je suis celui qui te demande.",
+              "en": "I am the one who asks you.",
+              "zh": "我就是求你的人。"
+            },
+            {
+              "t": "Dmulun ko sunan",
+              "fr": "Je te demande.",
+              "en": "I ask you.",
+              "zh": "我求你。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

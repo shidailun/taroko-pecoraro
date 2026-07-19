@@ -1,0 +1,717 @@
+{
+  "pages": [314, 317],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "so pstalil xeuling so xo?",
+        "fr": "Arriveras tu à faire sauter ton chien?",
+        "en": "Will you manage to make your dog jump?",
+        "zh": "你能讓你的狗跳起來嗎？"
+      },
+      {
+        "t": "Nasi so Laqe bi otoç o, pstalil pax xeni binao!",
+        "fr": "Si tu es vraiment le fils de l'Esprit (Fils de Dieu), Fais donc un saut depuis ici !",
+        "en": "If you are truly the Son of the Spirit (Son of God), then take a leap from here!",
+        "zh": "你若真是靈（上帝之子）的兒子，就從這裡跳下去吧！"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Ttalil",
+        "fr": "Sautiller - sauter d'un endroit à un autre.",
+        "en": "To hop about - to jump from one place to another.",
+        "zh": "蹦跳──從一處跳到另一處。",
+        "examples": [
+          {
+            "t": "Soqe mqalas o , asi bi ttalil kana papaq na",
+            "fr": "Tellement il est haureux , ses pieds sautent d'un endroit à un autre.",
+            "en": "He is so happy that his feet leap from one spot to another.",
+            "zh": "他高興得雙腳從一處蹦到另一處。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "TALOX",
+      "tag": "(R)",
+      "fr": "Chaud - chaleur - chauffer. VR. aussi: TILUX. (nb. Il semble que MTILUX est plus facilement employé pour parler de température et MTALOX pour indiquer le degré de chaleur d'un objet).",
+      "en": "Hot - heat - to heat. See also: TILUX. (n.b. It seems that MTILUX is more readily used to speak of temperature, and MTALOX to indicate the degree of heat of an object).",
+      "zh": "熱──熱度──加熱。另見：TILUX。（註：似乎 MTILUX 較常用於指氣溫，而 MTALOX 則用於指某物體的熱度。）",
+      "subs": [
+        {
+          "form": "Mtalox",
+          "fr": "Qui est chaud - qui a la fièvre.",
+          "en": "That is hot - who has a fever.",
+          "zh": "熱的──發燒的。",
+          "examples": [
+            {
+              "t": "Mtalox kana xei na",
+              "fr": "Tout son corps est brûlant (il a la fièvre).",
+              "en": "His whole body is burning (he has a fever).",
+              "zh": "他全身滾燙（他發燒了）。"
+            },
+            {
+              "t": "Mtalox bi ka xedao sayang",
+              "fr": "Le soleil d'aujourd'hui est vraiment chaud.",
+              "en": "Today's sun is really hot.",
+              "zh": "今天的太陽真熱。"
+            },
+            {
+              "t": "Mtilux bi ka sayang",
+              "fr": "Aujourd'hui il fait vraiment chaud.",
+              "en": "Today it is really hot.",
+              "zh": "今天真熱。"
+            }
+          ]
+        },
+        {
+          "form": "Ktalox",
+          "fr": "Forme de Mtalox pour l'énoncé négatif (ou l'impératif!).",
+          "en": "Form of Mtalox for the negative statement (or the imperative!).",
+          "zh": "Mtalox 用於否定句（或命令句！）的形式。",
+          "examples": [
+            {
+              "t": "Ini ktalox ka dngdang so",
+              "fr": "Ton \"eau bouillante\" n'est pas chaude (= L'eau bouillie pour boire).",
+              "en": "Your \"boiling water\" is not hot (= the water boiled for drinking).",
+              "zh": "你的「開水」不熱（＝供飲用而煮沸的水）。"
+            }
+          ]
+        },
+        {
+          "form": "Pktalox",
+          "fr": "Faire que ce soit chaud (un objet).",
+          "en": "To make something (an object) be hot.",
+          "zh": "使某物變熱。",
+          "examples": []
+        },
+        {
+          "form": "Sktalox",
+          "fr": "Moyen pour que ce soit chaud,-ce qui provoque la fièvre.",
+          "en": "Means by which something becomes hot,-that which causes fever.",
+          "zh": "使某物變熱的方法──引起發燒的東西。",
+          "examples": []
+        },
+        {
+          "form": "Pstalox",
+          "paradigm": "° Mpstalox, pstalox, pstl'xi, pstl'xan, pstl'xun.",
+          "fr": "Réchauffer(quelque chose), - faire pour que ce soit chaud.",
+          "en": "To reheat (something), - to make it be hot.",
+          "zh": "把（某物）加熱──使其變熱。",
+          "examples": [
+            {
+              "t": "Miyax ko sunan pstalox tityex qaqai mo",
+              "fr": "Je viens chez toi me faire un peu réchauffer les pieds.",
+              "en": "I come to your place to warm my feet a little.",
+              "zh": "我到你家把腳稍微暖一下。"
+            },
+            {
+              "t": "Adi so tdoa pstalox tityex (ka) idao mo nii xo?",
+              "fr": "Est-ce que tu pourrais me faire chauffer un peu ce riz, s'il te plaît ?",
+              "en": "Could you please heat up this rice for me a little?",
+              "zh": "你可以幫我把這飯稍微熱一下嗎，拜託？"
+            }
+          ]
+        },
+        {
+          "form": "Pstl'xun",
+          "fr": "Ce qu'on veut, qu'on doit réchauffer .",
+          "en": "That which one wants, or must, reheat.",
+          "zh": "所要、所須加熱之物。",
+          "examples": [
+            {
+              "t": "Nndaxa, mnt'lo wada mo pstl'xun (pnstl'xun) ka idao nii!",
+              "fr": "Il m'a déjà fallu le réchauffer deux trois fois ce riz!.",
+              "en": "I've already had to reheat this rice two or three times!",
+              "zh": "這飯我已經熱過兩三次了！"
+            }
+          ]
+        },
+        {
+          "form": "Kntl'xan",
+          "fr": "La chaleur (d'un objet ou d'un climat).",
+          "en": "The heat (of an object or of a climate).",
+          "zh": "（某物體或氣候的）熱度。",
+          "examples": [
+            {
+              "t": "Soqe paro bi ka kntl'xan xei na sayang",
+              "fr": "La température de son corps est vraiment trop grande aujourd'hui!",
+              "en": "His body temperature is really too high today!",
+              "zh": "他今天的體溫真的太高了！"
+            },
+            {
+              "t": "Ya ksa mawit! Kntl'xan ka ksugun mo balae!",
+              "fr": "Ne parle pas de fatigue ! C'est surtout la chaleur que je crains !",
+              "en": "Don't talk about tiredness! It's above all the heat that I dread!",
+              "zh": "別提累了！我最怕的其實是熱！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAMA",
+      "tag": "(R)",
+      "fr": "Père - papa - chef - appui.",
+      "en": "Father - papa - chief - support.",
+      "zh": "父親──爸爸──首領──依靠。",
+      "examples": [
+        {
+          "t": "Tama tama o, kia ka ksun nami baki",
+          "fr": "Le père du père, voilà celui que nous appelons BAKI (Grand-père).",
+          "en": "The father's father, that is the one we call BAKI (grandfather).",
+          "zh": "父親的父親，就是我們稱為 BAKI（祖父）的人。"
+        },
+        {
+          "t": "Tama balao",
+          "fr": "Dieu le Père.",
+          "en": "God the Father.",
+          "zh": "天父上帝。"
+        },
+        {
+          "t": "Tama nami ka ga mblyeqan",
+          "fr": "Notre Père qui es aux cieux (= début de la prière chrétienne: Notre Père).",
+          "en": "Our Father who art in heaven (= the beginning of the Christian prayer: Our Father).",
+          "zh": "我們在天上的父（＝基督宗教主禱文的開頭：我們的天父）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmaan",
+          "fr": "Forme oblique de TAMA, = Au père, vers le père, pour le père.",
+          "en": "Oblique form of TAMA, = to the father, toward the father, for the father.",
+          "zh": "TAMA 的斜格形式，＝對父親、朝向父親、為了父親。",
+          "examples": [
+            {
+              "t": "Nasi so knta'to (knt\"to) bsukan o, mra ko tmaan mo ka yako da!",
+              "fr": "Si tu continues d'être toujours ivre (de t'enivre), moi je retourne chez mon père (c'est l'épouse qui parle).",
+              "en": "If you keep on always being drunk (getting drunk), I'm going back to my father's house (it is the wife speaking).",
+              "zh": "你若一直繼續酗酒（喝醉），我就要回我父親家了（這是妻子說的話）。"
+            },
+            {
+              "t": "Byeqe tmaan so ka pila",
+              "fr": "Donne … [la fin de la glose est coupée au bas de la p. 293 ; sens probable : « Donne de l'argent à ton père » (?)]",
+              "en": "Give … [the end of the gloss is cut off at the bottom of p. 293; probable sense: \"Give money to your father\" (?)]",
+              "zh": "給……〔釋義在第293頁頁尾被截斷；可能意為「把錢給你父親」(?)〕"
+            }
+          ]
+        },
+        {
+          "form": "Mtama",
+          "fr": "Qui devient père.",
+          "en": "Who becomes a father.",
+          "zh": "當上父親的人。",
+          "examples": [
+            {
+              "t": "Ga ko mtama sayang da",
+              "fr": "Et voilà qu'aujourd'hui je deviens père (je deviens papa).",
+              "en": "And now today I become a father (I become a dad).",
+              "zh": "看啊，今天我當上父親了（我做爸爸了）。"
+            }
+          ]
+        },
+        {
+          "form": "Matama",
+          "fr": "Deviendra père.",
+          "en": "Will become a father.",
+          "zh": "將要當父親。",
+          "examples": [
+            {
+              "t": "Adi biyao matama ka Wilang mo olo",
+              "fr": "Avant peu mon fils Wilang deviendra papa lui aussi.",
+              "en": "Before long my son Wilang too will become a dad.",
+              "zh": "不久我兒子 Wilang 也要當爸爸了。"
+            }
+          ]
+        },
+        {
+          "form": "Sktama",
+          "fr": "Feu le père.",
+          "en": "The late father (the deceased father).",
+          "zh": "已故的父親。",
+          "examples": [
+            {
+              "t": "Nkari nanak sktama mo ka nii",
+              "fr": "Ce sont là les paroles (parmi les paroles) de feu mon père.",
+              "en": "These are the words (among the words) of my late father.",
+              "zh": "這些是我已故父親（所說）的話。"
+            }
+          ]
+        },
+        {
+          "form": "Kntmaan",
+          "fr": "(sans doute altération de KNSTMAAN (VR. STAMA)) = employé dans le sens religieux pour dire: Foi, Espérance.",
+          "en": "(no doubt an alteration of KNSTMAAN (see STAMA)) = used in the religious sense to mean: Faith, Hope.",
+          "zh": "（無疑是 KNSTMAAN 的變體（見 STAMA））＝用於宗教意義，表示：信、望。",
+          "examples": []
+        },
+        {
+          "form": "Stama",
+          "fr": "(R. = TAMA ?) = Compter sur, se reposer sur. VR. STAMA .",
+          "en": "(root = TAMA?) = To count on, to rely on. See STAMA.",
+          "zh": "（詞根＝TAMA？）＝指望、依靠。見 STAMA。",
+          "examples": []
+        },
+        {
+          "form": "Ttama",
+          "fr": "(R. = TAMA ?) = S'asseoir, mettre sa confiance en. VR. TTAMA .",
+          "en": "(root = TAMA?) = To sit down, to place one's trust in. See TTAMA.",
+          "zh": "（詞根＝TAMA？）＝坐下、把信任寄託於。見 TTAMA。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "TAMUL",
+      "tag": "(R)",
+      "fr": "Lie (résidu) des céréales fermentées qui reste après avoir soutiré la bière (= SINAO) produite.",
+      "en": "The lees (residue) of fermented grain that remains after the beer (= SINAO) produced has been drawn off.",
+      "zh": "釀成的酒（＝SINAO）被抽取後，殘留下來的發酵穀物渣滓（沉澱物）。",
+      "subs": []
+    },
+    {
+      "hw": "TANAX",
+      "tag": "(= R. ?)",
+      "fr": "?? (nb. Peut-on rapprocher ce mot de: BANAX = Rouge ?).",
+      "en": "?? (n.b. Might this word be related to: BANAX = Red?).",
+      "zh": "？？（註：這個詞是否可與 BANAX＝紅 相聯繫？）",
+      "examples": [
+        {
+          "t": "Tanax tunuç",
+          "fr": "Les étrangers (Les têtes rouges ?) .",
+          "en": "The foreigners (the red heads?).",
+          "zh": "外族人（紅頭之人？）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TANGO",
+      "tag": "(R)",
+      "fr": "Jeune pousse (d'une plante) - Gourmand - bouture. ( Ce terme désigne les jeunes pousses sur une plante; pour les Boutures ou les jeunes pousses sortant de terre, les taroko parlent plus facilement de WAQAT = les dents canines).",
+      "en": "Young shoot (of a plant) - sucker - cutting. (This term designates the young shoots on a plant; for cuttings or the young shoots coming out of the ground, the Taroko more readily speak of WAQAT = the canine teeth).",
+      "zh": "（植物的）嫩芽──徒長枝──插枝。（此詞指植物上的嫩芽；至於插枝或從地裡冒出的嫩芽，太魯閣人較習慣說 WAQAT＝犬齒。）",
+      "subs": [
+        {
+          "form": "Tmango",
+          "fr": "Emettre une jeune pousse (pour une plante).",
+          "en": "To put out a young shoot (of a plant).",
+          "zh": "（植物）長出嫩芽。",
+          "examples": [
+            {
+              "t": "Ga tmango ka nxoma mo qouni da!",
+              "fr": "L'arbre que j'ai planté porte déjà de jeunes pousses.",
+              "en": "The tree I planted already bears young shoots.",
+              "zh": "我種的樹已經長出嫩芽了。"
+            }
+          ]
+        },
+        {
+          "form": "Mtango",
+          "fr": "Qui porte de jeunes pousses - une plante en pleine germination.",
+          "en": "That bears young shoots - a plant in full germination.",
+          "zh": "長著嫩芽的──正在旺盛萌發的植物。",
+          "examples": [
+            {
+              "t": "Tai ka nxmaan mo qouni o, mudus bi da! Ga mtango da!",
+              "fr": "(Tu sais) l'arbre que j'ai planté.. Il a bien pris (il est bien vivant)! Il a déjà de jeunes pousses.",
+              "en": "(You know) the tree I planted.. It has taken well (it is truly alive)! It already has young shoots.",
+              "zh": "（你知道）我種的那棵樹……它活得很好（生機盎然）！已經長出嫩芽了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAOKAN",
+      "tag": "(= R. ?)",
+      "fr": "Moyen de transport typique des taroko; Un filet, très léger, en chanvre, très extensible, avec deux bretelles prolongées par deux cordelettes torsadées, qui leur permet de porter de très lourdes charges tout en étant peu encombrant. Si c'est aujourd'hui moins fréquent, depuis qu'il commence à y avoir des cravattes! Les hommes taroko le portent à chaque déplacement mais tout spécialement pour aller à la chasse ou du moins en montagne. Quand on dit de quelqu'un :",
+      "en": "The typical means of transport of the Taroko; a net, very light, of hemp, very stretchable, with two straps extended by two twisted cords, which allows them to carry very heavy loads while being little cumbersome. If today it is less frequent, since neckties (cravattes) have begun to appear! The Taroko men carry it at every trip but most especially to go hunting, or at least into the mountains. When one says of someone:",
+      "zh": "太魯閣人典型的運輸工具；一種以苧麻製成、非常輕、伸縮性極強的網袋，配有兩條肩帶，肩帶末端各接一條搓成的細繩，使他們能背負極重的貨物而又不佔空間。如今較少見了，因為開始有了「領帶」（cravattes）！太魯閣男子每次出行都背著它，尤其是去打獵、或至少上山時。當人們談到某人說：",
+      "examples": [
+        {
+          "t": "Wada mapa taokan",
+          "fr": "(=Il est parti en portant le TAOKAN), cela signifie, presque à coup sur: Il est allé à la chasse.",
+          "en": "(= He has left carrying the TAOKAN), this means, almost for certain: He has gone hunting.",
+          "zh": "（＝他背著 TAOKAN 出門了），這幾乎肯定意味著：他去打獵了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TAPAK",
+      "tag": "(R)",
+      "fr": "(TAPAQ ?) = Frapper (?), Ecraser (?).",
+      "en": "(TAPAQ?) = To strike (?), to crush (?).",
+      "zh": "（TAPAQ？）＝打（？）、壓碎（？）。",
+      "subs": [
+        {
+          "form": "Tmapak",
+          "fr": "?? = Entendu dans plusieurs expressions dont: [voir exemples] ( y aurait-il une relation avec le terme suivant: TAPAQ = Plat - aplati ??).",
+          "en": "?? = Heard in several expressions, among which: [see examples] (might there be a relation with the following term: TAPAQ = flat - flattened??).",
+          "zh": "？？＝在若干表達中聽到，其中包括：〔見例句〕（是否與下一詞條有關：TAPAQ＝扁平──被壓扁？？）。",
+          "examples": [
+            {
+              "t": "Tmapak baga",
+              "fr": "Frapper des mains.",
+              "en": "To clap the hands.",
+              "zh": "拍手。"
+            },
+            {
+              "t": "Tmapak ksia",
+              "fr": "Nager.",
+              "en": "To swim.",
+              "zh": "游泳。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAPAQ",
+      "tag": "(R)",
+      "fr": "Aplati - plat - mince - étendu et mince.",
+      "en": "Flattened - flat - thin - spread out and thin.",
+      "zh": "被壓扁的──扁平的──薄的──攤開而薄的。",
+      "subs": [
+        {
+          "form": "Mtapaq",
+          "fr": "Qui est aplati - qui est étendu et mince.",
+          "en": "That is flattened - that is spread out and thin.",
+          "zh": "被壓扁的──攤開而薄的。",
+          "examples": [
+            {
+              "t": "Babao boxo do , wada mtapaq kana pnxoma daxa",
+              "fr": "Après le typhon toutes les plantations des gens sont aplaties au sol.",
+              "en": "After the typhoon all the people's crops are flattened to the ground.",
+              "zh": "颱風過後，人們所有的作物都被壓倒在地上。"
+            },
+            {
+              "t": "Byeqe ko kingal mtapaq bi qtinox!",
+              "fr": "Donne moi une planche bien plate (large et mince).",
+              "en": "Give me a good flat board (wide and thin).",
+              "zh": "給我一塊很扁平的板子（又寬又薄）。"
+            },
+            {
+              "t": "Lala bi tasil mtapaq (ska) kmpaxan mo",
+              "fr": "Dans mon champ il y a beaucoup de pierres plates.",
+              "en": "In my field there are many flat stones.",
+              "zh": "我的田裡有很多扁平的石頭。"
+            }
+          ]
+        },
+        {
+          "form": "Ptapaq",
+          "fr": "Aplatir - laminer.",
+          "en": "To flatten - to roll out / laminate.",
+          "zh": "壓扁──碾薄。",
+          "examples": [
+            {
+              "t": "Ptpaqe tityex ka \"ma poting so",
+              "fr": "Aplatis un peu la lame de ton couteau.",
+              "en": "Flatten out the blade of your knife a little.",
+              "zh": "把你刀子的刀刃稍微壓扁一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAQE",
+      "tag": "(R)",
+      "fr": "Dormir - sommeil.",
+      "en": "To sleep - sleep.",
+      "zh": "睡覺──睡眠。",
+      "examples": [
+        {
+          "t": "Taqe n'xali da! Ma\" so smawit bi sadyaq!",
+          "fr": "Dépêche toi de dormir! Qu'est-ce qui te prend de fatiguer le monde ?",
+          "en": "Hurry up and sleep! What's got into you, wearing everyone out?",
+          "zh": "快去睡覺！你是怎麼了，把大家都累壞？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtaqe",
+          "fr": "Dormir - être couché - être endormi.",
+          "en": "To sleep - to be lying down - to be asleep.",
+          "zh": "睡覺──躺著──熟睡。",
+          "examples": [
+            {
+              "t": "Malu ka malu xali! Ida mtaqe mqan ka xea!",
+              "fr": "Oui! Il est un peu mieux! Mais il mange encore couché (il doit encore rester couché pour manger).",
+              "en": "Yes! He's a bit better! But he still eats lying down (he must still stay lying down to eat).",
+              "zh": "是啊！他好一點了！但他還是躺著吃（他還得躺著吃飯）。"
+            },
+            {
+              "t": "Mtaqe ko tnqean mo sndurai dole",
+              "fr": "Je dors encore où j'ai dormi dernièrement.",
+              "en": "I still sleep where I slept recently.",
+              "zh": "我還是睡在我最近睡的地方。"
+            }
+          ]
+        },
+        {
+          "form": "Ktaqe",
+          "fr": "Forme de l'énoncé négatif = Etre dans l'état de dormir (?) (nb. KTAQE est-ce seulement la forme négative de MTAQE = être couché, dormir ? ou bien simplement la base préfixée par KM qui indique le desir ? KMTAQE = J'ai envie d'aller dormir, de me coucher ?)",
+          "en": "Form of the negative statement = to be in the state of sleeping (?) (n.b. Is KTAQE only the negative form of MTAQE = to be lying down, to sleep? or simply the base prefixed by KM, which indicates desire? KMTAQE = I feel like going to sleep, to lie down?)",
+          "zh": "否定句的形式＝處於睡眠的狀態（？）（註：KTAQE 是否僅是 MTAQE＝躺著、睡覺 的否定形式？還是只是加了表示願望的前綴 KM 的詞根？KMTAQE＝我想去睡覺、去躺下？）",
+          "examples": [
+            {
+              "t": "Ini ktaqe ka laqe mo",
+              "fr": "Mon enfant n'a pas envie de dormir (vl. n'est pas endormi).",
+              "en": "My child does not feel like sleeping (var. is not asleep).",
+              "zh": "我的孩子不想睡（或：沒睡著）。"
+            },
+            {
+              "t": "Ini taqe ka laqe mo",
+              "fr": "Mon enfant n'est pas allé se coucher.",
+              "en": "My child has not gone to bed.",
+              "zh": "我的孩子沒去睡覺。"
+            }
+          ]
+        },
+        {
+          "form": "Tnaqe",
+          "fr": "Le sommeil (passé) - Le dormir qu'on a fait.",
+          "en": "The sleep (past) - the sleeping one has done.",
+          "zh": "（過去的）睡眠──已睡過的覺。",
+          "examples": [
+            {
+              "t": "Suyang bi ka tnaqe mo ska'man",
+              "fr": "Mon dormir de cette nuit passée a été merveilleux!",
+              "en": "My sleep last night was wonderful!",
+              "zh": "我昨晚睡得好極了！"
+            }
+          ]
+        },
+        {
+          "form": "Tnqean",
+          "fr": "L'endroit où j'ai dormi - le temps passé à dormir.",
+          "en": "The place where I slept - the time spent sleeping.",
+          "zh": "我睡覺的地方──睡覺所花的時間。",
+          "examples": [
+            {
+              "t": "Malu balae ka tnqean mo ska'man",
+              "fr": "J'avais vraiment un bon lit, la nuit dernière.",
+              "en": "I really had a good bed last night.",
+              "zh": "昨晚我睡的地方真好。"
+            },
+            {
+              "t": "Adi soqe bsiyaq ka tnqean so ska'man xo?",
+              "fr": "N'aurais tu pas dormi trop longtemps la nuit dernière ?",
+              "en": "Wouldn't you have slept too long last night?",
+              "zh": "你昨晚是不是睡得太久了？"
+            }
+          ]
+        },
+        {
+          "form": "Tqean",
+          "fr": "Lit - endroit où l'on dort.- manière de dormir.",
+          "en": "Bed - the place where one sleeps.- the manner of sleeping.",
+          "zh": "床──睡覺的地方──睡覺的方式。",
+          "examples": [
+            {
+              "t": "Sapax tqean",
+              "fr": "Local (chambre) où l'on dort.",
+              "en": "The room (bedroom) where one sleeps.",
+              "zh": "睡覺的房間（臥室）。"
+            },
+            {
+              "t": "Kingal nanak ka tqean daxa",
+              "fr": "Ils ont une façon spéciale de dormir (de se coucher).",
+              "en": "They have a special way of sleeping (of lying down).",
+              "zh": "他們有一種特別的睡覺（就寢）方式。"
+            }
+          ]
+        },
+        {
+          "form": "Ptaqe",
+          "paradigm": "° Mptaqe, ptaqe, .?. , Ptqean, ptqeon.",
+          "fr": "Faire dormir - coucher - mettre au lit.",
+          "en": "To make sleep - to put to bed - to lay down.",
+          "zh": "使睡覺──哄睡──放到床上。",
+          "examples": [
+            {
+              "t": "Pllayun mo musa ptaqe laqe mo",
+              "fr": "Je commencerai par aller mettre au lit mon gosse.",
+              "en": "I'll start by going to put my kid to bed.",
+              "zh": "我先去把我的孩子哄睡。"
+            },
+            {
+              "t": "Ptqeon so knuwan ka lbnao so",
+              "fr": "Quand est-ce que tu feras dormir (tu mettras au lit) ton bébé ?",
+              "en": "When are you going to put your baby to sleep (to bed)?",
+              "zh": "你什麼時候要哄你的寶寶睡覺（放上床）？"
+            }
+          ]
+        },
+        {
+          "form": "Sktaqe",
+          "fr": "Soporifique - qui fait dormir.",
+          "en": "Soporific - that which makes one sleep.",
+          "zh": "安眠的──使人入睡的。",
+          "examples": [
+            {
+              "t": "Adi sapox nii ka sktaqe sadyaq ?(=..nii ka sapox sktaqe sadyaq)",
+              "fr": "N'est-ce pas ce médicament ci qui est fait pour endormir les gens ?",
+              "en": "Isn't it this medicine here that is made to put people to sleep?",
+              "zh": "難道不就是這個藥是用來讓人入睡的嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Sptaqe",
+          "fr": "Pour faire coucher - servant pour faire dormir(faire coucher).",
+          "en": "For putting to bed - serving to make one sleep (to make one lie down).",
+          "zh": "用來哄睡的──用以使人入睡（就寢）的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "TASAO",
+      "tag": "(R)",
+      "fr": "Propre - pur - décanté.",
+      "en": "Clean - pure - decanted (settled clear).",
+      "zh": "乾淨的──純淨的──經沉澱澄清的。",
+      "subs": [
+        {
+          "form": "Mtasao",
+          "fr": "Qui est propre, pur - qui est décanté (comme l'eau boueuse des torrents).",
+          "en": "That is clean, pure - that is decanted/settled clear (like the muddy water of the torrents).",
+          "zh": "乾淨、純淨的──經沉澱澄清的（如溪流的濁水澄清後）。",
+          "examples": [
+            {
+              "t": "Mtasao sayang ka ksia yayong da",
+              "fr": "Aujourd'hui, l'eau du torrent est limpide.",
+              "en": "Today the water of the torrent is clear.",
+              "zh": "今天溪水很清澈。"
+            },
+            {
+              "t": "Malu bi saan ta tlima ka mtasao bi yayong",
+              "fr": "Le torrent (avec une eau bien) claire est un bel endroit pour aller se baigner.(C'est agréable d'aller se baigner dans un torrent..)",
+              "en": "A torrent with really clear water is a fine place to go bathing. (It is pleasant to go bathing in a torrent..)",
+              "zh": "水很清澈的溪流是個很適合去洗澡的好地方。（在溪裡洗澡很舒服……）"
+            }
+          ]
+        },
+        {
+          "form": "Ptasao",
+          "fr": "Décanter - purifier.",
+          "en": "To decant - to purify.",
+          "zh": "使沉澱澄清──淨化。",
+          "examples": [
+            {
+              "t": "Sinao so nii o, asi ka ptasao kika mxa suyang bi",
+              "fr": "Ton vin que voici, il deviendra merveilleux a condition de le faire décanter.",
+              "en": "This wine of yours here will become wonderful on condition that you let it settle/decant.",
+              "zh": "你這酒，只要讓它沉澱澄清，就會變得非常好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TASIL",
+      "tag": "(R)",
+      "fr": "Pierre - caillou. (nb. Le plus souvent interchangeable dans la pratique avec BTUNUX (BTUNUç), TASIL semble désigner plus spécialement les cailloux (dans les champs, le torrent, sur les routes), et BTUNUX désigner la substance-pierre.).",
+      "en": "Stone - pebble. (n.b. Most often interchangeable in practice with BTUNUX (BTUNUç), TASIL seems to designate more specifically the pebbles/stones (in the fields, the torrent, on the roads), and BTUNUX to designate the substance stone.).",
+      "zh": "石頭──石子。（註：實際使用中多與 BTUNUX（BTUNUç）通用，TASIL 似乎較特指（田裡、溪中、路上的）石子，而 BTUNUX 則指石頭這種物質。）",
+      "subs": []
+    },
+    {
+      "hw": "TATAK",
+      "tag": "(R)",
+      "fr": "Onomatopée pour désigner: L'éventail. (nb. Les taroko ne semblent pas avoir connu cet instrument avant la toute récente venue des japonais et des chinois),",
+      "en": "Onomatopoeia designating: the fan. (n.b. The Taroko do not seem to have known this instrument before the very recent arrival of the Japanese and the Chinese),",
+      "zh": "擬聲詞，用以指：扇子。（註：太魯閣人似乎在日本人與漢人晚近到來之前並不認識這種器物），",
+      "subs": []
+    },
+    {
+      "hw": "TATAQ",
+      "tag": "(R)",
+      "fr": "Débroussailler. (nb. désigne tout spécialement l'opération qui consiste à abattre un coin de forêt pour préparer le brûlis qui était jusqu'à tout récemment la façon taroko de préparer les champs.).",
+      "en": "To clear brush/scrub. (n.b. designates most especially the operation that consists in felling a corner of forest to prepare the slash-and-burn that was, until quite recently, the Taroko way of preparing the fields.).",
+      "zh": "砍伐清理草木（開墾）。（註：特指砍倒一片森林角落以準備火耕的作業，這直到不久前都還是太魯閣人整理田地的方式。）",
+      "subs": [
+        {
+          "form": "Tmataq",
+          "paradigm": "Tmataq, tataq, ttaqe, ttaqan , ttaqon.",
+          "fr": "D° forme verbale.",
+          "en": "Ditto — the verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ttaqon mo kana ka sao msblenux daya kmpaxan mo",
+              "fr": "Je veux débroussailler tout le coin plat qui est plus haut que mon (mes) champ.",
+              "en": "I want to clear all the flat patch that is higher up than my field(s).",
+              "zh": "我想把我田地上方那整片平坦的角落都清理乾淨。"
+            },
+            {
+              "t": "Adi so tdoa miyax sntoko saman xo? Lmnglong ko musa tmataq",
+              "fr": "Ne pourrais tu pas venir me rendre une journée de travail demain? J'ai envie d'aller débroussailler.",
+              "en": "Couldn't you come and give me a day's work tomorrow? I feel like going to clear brush.",
+              "zh": "你明天能不能來幫我做一天工？我想去開墾清理草木。"
+            },
+            {
+              "t": "Mxa ko tmataq tudo kmpaxan pai mo",
+              "fr": "Je vais couper l'herbe sur les diguettes qui sont autour des champs de ma belle mère.",
+              "en": "I'm going to cut the grass on the little ridges/dikes around my mother-in-law's fields.",
+              "zh": "我要去割我岳母（婆婆）田地四周田埂上的草。"
+            }
+          ]
+        },
+        {
+          "form": "Ttaqan",
+          "fr": "Endroit où l'on déboise - action de déboiser.",
+          "en": "The place where one clears/deforests - the action of clearing.",
+          "zh": "伐除林木的地方──伐林的動作。",
+          "examples": [
+            {
+              "t": "Baka bi ttaqan ka sayang da !",
+              "fr": "Il est temps d'aller faire les abattis (qu'il faudra ensuite brûler).(= C'est la saison).",
+              "en": "It's just the time to go do the clearing (which will then have to be burned). (= It's the season).",
+              "zh": "正是時候去開墾伐林了（之後還要燒墾）。（＝正是季節。）"
+            }
+          ]
+        },
+        {
+          "form": "Tntaqan",
+          "fr": "Lieu où le défricheage, l'abattis a été réalisé.",
+          "en": "The place where the clearing, the slash was carried out.",
+          "zh": "已完成開墾伐林之處。",
+          "examples": [
+            {
+              "t": "Nsaan mo mita ka tntaqan so; malu balae!",
+              "fr": "Je suis allé voir comment tu avais fait ton abattis (vl.l'endroit où tu as débroussaillé); c'est très bien fait (vl. c'est un coin excellent).",
+              "en": "I went to see how you had done your clearing (var. the place where you cleared the brush); it's very well done (var. it's an excellent patch).",
+              "zh": "我去看了你開墾伐林的成果（或：你清理草木的地方）；做得很好（或：那是塊很好的地）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TATAT",
+      "tag": "(R)",
+      "fr": "Les chiots - les petis du chien.",
+      "en": "The puppies - the young of the dog.",
+      "zh": "小狗──狗的幼崽。",
+      "examples": [
+        {
+          "t": "Ya bi rqeli ka tatat so! Nasi so smoa (vl. smloa) o, tb'gun (tbugun)mo kingal, ana daxa!",
+          "fr": "Il ne te faut pas tuer tes petits chiens! Si tu me permets, j'en élèverai un, et même deux !",
+          "en": "You must not kill your puppies! If you allow me, I'll raise one, and even two!",
+          "zh": "你不可以殺你的小狗！你若允許我，我會養一隻，甚至兩隻！"
+        }
+      ],
+      "subs": []
+    }
+  ]
+}

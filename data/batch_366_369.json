@@ -1,0 +1,744 @@
+{
+  "pages": [366, 369],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pxculis",
+        "paradigm": "°Mpxculis, pxculis, pxlisi, pxlisan, pxlisun.",
+        "fr": "Faire rire - provoquer le rire - forcer à rire.",
+        "en": "To make laugh - to provoke laughter - to force to laugh.",
+        "zh": "使發笑－引人發笑－強使發笑。",
+        "examples": [
+          {
+            "t": "Ya ko bi pxlisi! S'ngun ko na kia ka mtgisa!",
+            "fr": "Ne me fais pas rire! Je vais me faire disputer par le maître!",
+            "en": "Don't make me laugh! I'm going to get scolded by the teacher!",
+            "zh": "別逗我笑！我會被老師罵的！"
+          }
+        ]
+      },
+      {
+        "form": "Pxlisan",
+        "fr": "Temps, lieu, mode de faire rire - action et objet du faire rire.",
+        "en": "Time, place, manner of making laugh - the action and object of making laugh.",
+        "zh": "使人發笑的時間、地點、方式－發笑的動作與對象。",
+        "examples": [
+          {
+            "t": "Bsiyaq bi pnxlisan d'xa ka lqlaqe",
+            "fr": "C'est pendant très longtemps qu'ils ont amusé (fait rire) les enfants.",
+            "en": "It was for a very long time that they amused (made laugh) the children.",
+            "zh": "他們逗孩子們笑（使孩子們發笑）逗了很長的時間。"
+          }
+        ]
+      },
+      {
+        "form": "Sxeulis",
+        "fr": "Faire rire - ridicule - qui porte à rire.",
+        "en": "To make laugh - ridiculous - that which is laughable.",
+        "zh": "使發笑－滑稽可笑－令人發笑的。",
+        "examples": [
+          {
+            "t": "Sao bi sxeulis (msxeulis?) ka kari na nii",
+            "fr": "C'est vraiment ridicule ce qu'il dit actuellement.",
+            "en": "What he is saying right now is really ridiculous.",
+            "zh": "他現在說的話真是可笑。"
+          }
+        ]
+      },
+      {
+        "form": "Snxeulis",
+        "paradigm": "°Snxeulis, sxeulis, sxlisi, sxlisan, sxlisun.",
+        "fr": "Se moquer de - rire de - faire honte.",
+        "en": "To mock - to laugh at - to shame.",
+        "zh": "嘲笑－譏笑－使蒙羞。",
+        "examples": [
+          {
+            "t": "Wana snxeulis sadyaq ka klaon so!",
+            "fr": "Tu ne sais que te moquer des gens!",
+            "en": "You only know how to mock people!",
+            "zh": "你只會嘲笑別人！"
+          }
+        ]
+      },
+      {
+        "form": "Psxeulis",
+        "fr": "Provoquer, pousser les gens à se moquer.",
+        "en": "To provoke, to push people to mock.",
+        "zh": "挑動、慫恿他人嘲笑。",
+        "examples": [
+          {
+            "t": "Ya ko bi psxlisi sdyaqon (sadyaq)",
+            "fr": "Ne va pas me rendre ridicule devant les gens!",
+            "en": "Don't go making me ridiculous in front of people!",
+            "zh": "別讓我在眾人面前出醜！"
+          },
+          {
+            "t": "Nyeqan lngao mo o, ida no lngagun! Ana qoqo muda ko psxeulis sadyaq!",
+            "fr": "Ayant quelque chose à dire, je veux le dire à tout prix; tant pis si je m'attire leurs moqueries! (des gens).",
+            "en": "Having something to say, I want to say it at all costs; too bad if I bring their mockery (people's) upon myself!",
+            "zh": "我有話要說，無論如何都要說出來；就算招來眾人的嘲笑也無所謂！"
+          }
+        ]
+      },
+      {
+        "form": "Psxlisan",
+        "fr": "Lieu, temps, prétexte pour rendre ridicule.",
+        "en": "Place, time, pretext for making ridiculous.",
+        "zh": "使人出醜的地點、時間、藉口。",
+        "examples": [
+          {
+            "t": "Kia ka nangal d'xa pusu psxlisan ( ka pusu psxlisan ?) tana no!",
+            "fr": "Voilà le moyen qu'ils ont pris pour rendre mon père ridicule.",
+            "en": "That is the means they took to make my father ridiculous.",
+            "zh": "這就是他們用來使我父親出醜的手段。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "XEYU",
+      "tag": "(R)",
+      "fr": "Debout - se tenir debout.",
+      "en": "Standing - to stand up.",
+      "zh": "站立－站著。",
+      "examples": [
+        {
+          "t": "Tutwi kana! Xeyu da!",
+          "fr": "Levez vous tous! mettez vous debout!",
+          "en": "All of you get up! Stand up!",
+          "zh": "大家都起來！站起來！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxeyu",
+          "fr": "Qui est debout - qui se dresse.",
+          "en": "One who is standing - who stands upright.",
+          "zh": "站著的人－挺立的人。",
+          "examples": [
+            {
+              "t": "Xea nanak ka mxeyu kska kingal knplingan sadyaq",
+              "fr": "Il est debout tout seul, au milieu d'une foule de gens.",
+              "en": "He is standing all alone, in the middle of a crowd of people.",
+              "zh": "他獨自一人站在人群中間。"
+            },
+            {
+              "t": "Mngongo ko bi musa mxeyu blax kana d'xa!",
+              "fr": "J'ai le trac d'aller me mettre debout devant eux tous!",
+              "en": "I have stage fright about going to stand up in front of all of them!",
+              "zh": "我很怕在他們所有人面前站起來！"
+            }
+          ]
+        },
+        {
+          "form": "Pxeyu",
+          "paradigm": "°Mpxeyu, pxeyu, pxyugi, pxyugan, pxyugun.",
+          "fr": "Mettre debout - élever - construire - fonder.",
+          "en": "To set upright - to raise - to build - to found.",
+          "zh": "使站立－豎立－建造－創立。",
+          "examples": [
+            {
+              "t": "Ina ka pxeyu sapax so xdolan?",
+              "fr": "Qui est-ce qui a construit ton église?",
+              "en": "Who built your church?",
+              "zh": "是誰建造了你的教堂？"
+            },
+            {
+              "t": "Pxyugun ta knuwan ka kaityo ta da",
+              "fr": "Quand est-ce que nous élirons (établirons) notre président?",
+              "en": "When will we elect (establish) our president?",
+              "zh": "我們什麼時候選出（設立）我們的主席呢？"
+            },
+            {
+              "t": "Pxyugun no xeti ka l'pun no da!",
+              "fr": "Je construirai mon grenier plus tard.",
+              "en": "I will build my granary later.",
+              "zh": "我以後再建我的穀倉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XG'LOQ",
+      "tag": "(R. = LOQ ?)",
+      "crossRef": "G'LOQ",
+      "fr": "Sortir de son fourreau - dégainer - sortir de son enveloppe naturelle. Vr. G'LOQ.",
+      "en": "To come out of its sheath - to unsheathe - to come out of its natural covering. Cf. G'LOQ.",
+      "zh": "出鞘－拔出（刀）－脫離其天然外殼。參見 G'LOQ。",
+      "subs": [
+        {
+          "form": "Xmg'loq",
+          "paradigm": "°Xng'loq, xg'loq, xgl'qe, xgl'qan, xgl'qon.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Xng'loq poting na ka Diyan ssipaq na boyaq",
+              "fr": "Djian tira son couteau (du fourreau) pour en frapper le sanglier.",
+              "en": "Djian drew his knife (from its sheath) to strike the wild boar with it.",
+              "zh": "Djian 拔出他的刀（出鞘），以刺殺野豬。"
+            },
+            {
+              "t": "Ya adi so xgl'qon ka poting so! Mngongo ko bi da!",
+              "fr": "J'espère que tu ne vas pas dégainer ton coutelas! J'ai peur!",
+              "en": "I hope you're not going to draw your cutlass! I'm afraid!",
+              "zh": "我希望你不要拔出你的刀！我很害怕！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XG'LYEQ",
+      "tag": "(= R. ? - R. = G'LYEQ ? = LYEQ ?)",
+      "fr": "Déchirer (pour étoffe, papier, écorce..) - Lacérer.",
+      "en": "To tear (for cloth, paper, bark..) - to lacerate.",
+      "zh": "撕裂（用於布、紙、樹皮…）－撕破。",
+      "subs": [
+        {
+          "form": "Xmg'lyeq",
+          "paradigm": "°Xmg'lyeq, xg'lyeq, xglyeqe, xglyeqan, xglyeqon.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ya adi so xglyeqon ka lukus so bulax da!",
+              "fr": "J'espère que tu ne tiens pas (que tu ne veux pas) à réduire en lambeaux ton habit neuf!",
+              "en": "I hope you don't insist (don't want) on reducing your new clothes to shreds!",
+              "zh": "我希望你不會（不想）把你的新衣服撕成碎片！"
+            }
+          ]
+        },
+        {
+          "form": "Mxg'lyeq",
+          "fr": "Qui est déchiré, lacéré.",
+          "en": "That which is torn, lacerated.",
+          "zh": "被撕裂、撕破的。",
+          "examples": [
+            {
+              "t": "Babao nsaan no bbuyo o, ida mxg'lyeq kdiyax ka llukus no!",
+              "fr": "Après un voyage en forêt, mes habits sont toujours tout déchirés.",
+              "en": "After a trip into the forest, my clothes are always all torn.",
+              "zh": "每次進森林之後，我的衣服總是全都撕破了。"
+            }
+          ]
+        },
+        {
+          "form": "Txg'lyeq",
+          "fr": "Complètement déchiré.",
+          "en": "Completely torn.",
+          "zh": "完全撕裂。",
+          "examples": [
+            {
+              "t": "Txg'lyeq lukus nia nanak lnngao ka mdudul",
+              "fr": "Ayant déchiré ses propres habits (ses propres habits étant complètement déchirés), le chef dit:",
+              "en": "Having torn his own clothes (his own clothes being completely torn), the chief said:",
+              "zh": "首領撕裂了自己的衣服（他自己的衣服已完全撕破）後說："
+            }
+          ]
+        },
+        {
+          "form": "Knxglyeqan",
+          "fr": "Déchirure - déchirement.",
+          "en": "A tear - tearing.",
+          "zh": "裂縫－撕裂（之處）。",
+          "examples": [
+            {
+              "t": "Nasi sao kia do na mplenax nlana ka knxglyeqan lukus so da!",
+              "fr": "Si c'est comme cela, la déchirure (le fait d'être déchiré) de tes habits ne pourra qu'empirer de plus en plus! (vl...nlana knxglyeqan na ka lukus so da!).",
+              "en": "If it's like that, the tear (the state of being torn) of your clothes can only get worse and worse! (var...nlana knxglyeqan na ka lukus so da!).",
+              "zh": "若是那樣，你衣服的裂縫（撕破的狀況）只會越來越糟！（或：nlana knxglyeqan na ka lukus so da!）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XGUT",
+      "tag": "(X'GUT ?) (R. = ??)",
+      "fr": "??",
+      "en": "?? (meaning uncertain)",
+      "zh": "？？（意義不明）",
+      "examples": [
+        {
+          "t": "Asi usa smasao xeaan ka Yesu ni nsaang lnngao kntl'xan do, asi tx'gut da!",
+          "fr": "Aussitôt Jésus lui impose les mains et, menaçant, commande à la fièvre (la chaleur): et la fièvre se retire aussitôt!",
+          "en": "At once Jesus laid his hands on him and, threateningly, commanded the fever (the heat): and the fever withdrew at once!",
+          "zh": "耶穌立刻按手在他身上，並嚴厲地斥責那熱病（高熱）：熱病便立刻退了！"
+        }
+      ]
+    },
+    {
+      "hw": "XG'XAO",
+      "tag": "(R. = ??)",
+      "fr": "Murmurer = ronchonner.",
+      "en": "To murmur = to grumble.",
+      "zh": "低聲抱怨＝嘟囔發牢騷。",
+      "subs": [
+        {
+          "form": "Xmg'xao",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Leqo no bi nita sao nsaang daolyaq tloong isil xng'xao ka dxea!",
+              "fr": "Je déteste les voir assis à l'écart et parler à voix basse avec des yeux méchants!",
+              "en": "I hate to see them sitting apart and speaking in low voices with malicious eyes!",
+              "zh": "我最討厭看見他們坐在一旁，眼神惡毒地低聲說話！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XG'XO",
+      "tag": "(= R. ? - R. = ??)",
+      "fr": "Source (?) - pièce d'eau (?)",
+      "en": "Spring (?) - body of water (?)",
+      "zh": "泉源（？）－水塘（？）",
+      "subs": [
+        {
+          "form": "Xgx'gan",
+          "fr": "Endroit où l'eau sourd (?) - Endroit où puiser l'eau (?).",
+          "en": "Place where water springs up (?) - Place to draw water (?).",
+          "zh": "水湧出之處（？）－取水之處（？）。",
+          "examples": [
+            {
+              "t": "Usa snaxo ksia bukwi sapax, nyeqan xg'xgan (xgx'gan) ksia xea da!",
+              "fr": "Va puiser de l'eau derrière la maison, il-y-a là une source (nb. Le plus souvent, source se dit: PUSU KSIA = Origine de l'eau).",
+              "en": "Go draw water behind the house, there is a spring there (n.b. Most often, spring is said: PUSU KSIA = Source of the water).",
+              "zh": "到屋後去取水，那裡有一處泉源（註：泉源最常說作 PUSU KSIA＝水的源頭）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XILI",
+      "tag": "(= R. ?)",
+      "fr": "Montrer du doigt.",
+      "en": "To point at with the finger.",
+      "zh": "用手指指人（指指點點）。",
+      "examples": [
+        {
+          "t": "Ini ko xili sadyaq ni, xnuya so nsaang?",
+          "fr": "Je ne montre pas les gens du doigt (pour me moquer); pourquoi donc ne disputes tu?",
+          "en": "I'm not pointing at people with my finger (to mock them); why then are you scolding?",
+          "zh": "我沒有（嘲弄地）用手指指人；那你為什麼還要責罵呢？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xmili",
+          "fr": "Montrer du doigt, (en se moquant).",
+          "en": "To point with the finger, (mockingly).",
+          "zh": "用手指指人（帶嘲弄之意）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XILWI",
+      "tag": "(SILWI) (R)",
+      "fr": "Fer - fil de fer.",
+      "en": "Iron - iron wire.",
+      "zh": "鐵－鐵絲。",
+      "examples": [
+        {
+          "t": "Bkiyun so xilwi ni qwalox o, lnglngan (lnglongan) no, qwalox ka malu",
+          "fr": "Si tu veux l'attacher avec du fil de fer ou avec du rotin, d'après moi le rotin c'est mieux! (= Je pense qu'il est préférable que tu attaches avec le rotin, de préférence au fil de fer).",
+          "en": "If you want to tie it with iron wire or with rattan, in my opinion rattan is better! (= I think it's preferable that you tie it with rattan, rather than with iron wire).",
+          "zh": "如果你要用鐵絲或藤來綁它，依我看藤比較好！（＝我認為你最好用藤來綁，勝過用鐵絲）。"
+        }
+      ]
+    },
+    {
+      "hw": "XKAWAS",
+      "tag": "(R. = KAWAS ?)",
+      "fr": "An - année - année à venir.",
+      "en": "Year - year - year to come.",
+      "zh": "年－年份－來年。",
+      "examples": [
+        {
+          "t": "Xkawas ka saon mo msangai",
+          "fr": "C'est l'an prochain que j'irai en vacances!",
+          "en": "It's next year that I'll go on vacation!",
+          "zh": "我要到明年才去度假！"
+        },
+        {
+          "t": "Xkawas xkawas",
+          "fr": "D'année en année - d'âge en âge (à partir de maintenant).",
+          "en": "From year to year - from age to age (from now on).",
+          "zh": "一年又一年－一代又一代（從現在起）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xnkawas",
+          "fr": "L'âge (d'une personne surtout) -(le nombre d'années écoulées, vécues).",
+          "en": "Age (of a person especially) - (the number of years elapsed, lived).",
+          "zh": "年齡（尤指人的）－（度過、活過的年數）。",
+          "examples": [
+            {
+              "t": "Pia xnkawas so?",
+              "fr": "Quel âge as-tu?",
+              "en": "How old are you?",
+              "zh": "你幾歲？"
+            },
+            {
+              "t": "Ya bi maxal spat xnkawas da",
+              "fr": "Il doit bien y avoir quatorze ans!",
+              "en": "He must be a good fourteen years old!",
+              "zh": "他一定有十四歲了！"
+            },
+            {
+              "t": "Ya bi so maxal spat xnkawas da",
+              "fr": "Tu dois bien avoir quatorze ans!",
+              "en": "You must be a good fourteen years old!",
+              "zh": "你一定有十四歲了！"
+            },
+            {
+              "t": "Wada wada ka xnkawas da!",
+              "fr": "Et les années passent, passent! (vl. et les années augmentent, augmentent (s'ajoutent..)!",
+              "en": "And the years pass, pass! (var. and the years increase, increase (add up..)!",
+              "zh": "歲月一年一年地過去！（或：歲月一年一年地增加、累積…）！"
+            },
+            {
+              "t": "T'lo iyax xnkawas ka nnyeqan mo xeni!",
+              "fr": "J'ai habité ici pendant (l'espace de) trois ans.",
+              "en": "I lived here for (a span of) three years.",
+              "zh": "我在這裡住了（前後）三年。"
+            }
+          ]
+        },
+        {
+          "form": "Sxkawas",
+          "fr": "L'année passée.",
+          "en": "Last year.",
+          "zh": "去年。",
+          "examples": [
+            {
+              "t": "Sxkawas suxal",
+              "fr": "L'année passée autrefois (= il y a bien des années). (nb. Le plus souvent les taroko disent (ou semblent dire: SKAWAS, au lieu de SXKAWAS ; Y mettent-ils une nuance?",
+              "en": "The year long ago (= many years back). (n.b. Most often the Taroko say (or seem to say): SKAWAS, instead of SXKAWAS; do they intend a nuance by it?",
+              "zh": "從前的那一年（＝很多年以前）。（註：太魯閣人最常說（或似乎說）SKAWAS，而非 SXKAWAS；他們是否藉此表達某種細微差別？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XKE",
+      "tag": "(X KE)",
+      "fr": "Finale de phrase avec un peu le sens de: \"N'est-ce pas\".",
+      "en": "End-of-sentence particle with somewhat the sense of: \"Isn't it\".",
+      "zh": "句末語助詞，略帶「不是嗎」之意。",
+      "examples": [
+        {
+          "t": "Mngongo ka dtanax tunuç! Nasi mk'la tunuç ka llisao troko dga, giso ka mpakox dxeaan xeti ka dxea xke!",
+          "fr": "Les japonais ne sont pas tranquilles (ont peur)! Si les jeunes taroko deviennent instruits (= si leur tête sait), voilà qu'ils vont être capables de prendre le dessus sur eux (les japonais) n'est-ce pas!.",
+          "en": "The Japanese are uneasy (afraid)! If the young Taroko become educated (= if their heads know), there they'll be able to get the upper hand over them (the Japanese), won't they!",
+          "zh": "日本人心裡不安（害怕）！若太魯閣的年輕人受了教育（＝他們腦袋開了竅），他們便能勝過他們（日本人），不是嗎！"
+        }
+      ]
+    },
+    {
+      "hw": "XK'LAO",
+      "tag": "(XQ'LAO ?)",
+      "fr": "Etendre les mains à l'horizontale - se raidir.",
+      "en": "To extend the hands horizontally - to stiffen.",
+      "zh": "將雙手水平伸展－變得僵直。",
+      "subs": [
+        {
+          "form": "Xmk'lao",
+          "paradigm": "°Xmk'lao, xk'lao, xklagi, xklagan, xklagun.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Knliwa ko bi mnalox! Ana xmk'lao baga ini ko bi d'xok!",
+              "fr": "Je suis vraiment malade! Je n'arrive même pas à étendre les mains!",
+              "en": "I'm really sick! I can't even manage to stretch out my hands!",
+              "zh": "我病得很重！我連伸手都做不到！"
+            },
+            {
+              "t": "Diyax qlqelan na siida o, Xmk'lao baga na ka Yesu ddgiyal na xnqelan ni ppqeta na pnblexan mudus;",
+              "fr": "Au moment de Sa passion, Jésus étendit les mains pour vaincre la mort et manifester la résurection.",
+              "en": "At the time of His passion, Jesus extended his hands to conquer death and manifest the resurrection.",
+              "zh": "在祂受難之時，耶穌伸出雙手，以戰勝死亡並彰顯復活。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XLAE",
+      "tag": "(R)",
+      "fr": "Trouver - découvrir - retrouver.",
+      "en": "To find - to discover - to find again.",
+      "zh": "找到－發現－重新找到。",
+      "examples": [
+        {
+          "t": "Ini d'xa bi xlae ana maan!",
+          "fr": "Ils n'ont vraiment trouvé personne!",
+          "en": "They really didn't find anyone!",
+          "zh": "他們真的沒找到任何人！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xmlae",
+          "paradigm": "°Xmlae, xlae, xlay, xlayan, xlayun.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ana so tgliing (ana so musa tliing) o ida miso xlayun.",
+              "fr": "Même si tu es caché (même si tu vas te cacher), je te trouverai bien!",
+              "en": "Even if you are hidden (even if you go and hide), I will surely find you!",
+              "zh": "就算你藏起來（就算你去躲藏），我一定會找到你！"
+            }
+          ]
+        },
+        {
+          "form": "Xlayan",
+          "fr": "Ce qu'on a découvert, trouvé - découverte - temps, lieu de la découverte.",
+          "en": "What one has discovered, found - a discovery - the time, place of the discovery.",
+          "zh": "所發現、找到之物－發現（物）－發現的時間、地點。",
+          "examples": [
+            {
+              "t": "Xlayan so ino ka lamil so?",
+              "fr": "Où les as tu trouvées tes souliers?",
+              "en": "Where did you find your shoes?",
+              "zh": "你的鞋子是在哪裡找到的？"
+            },
+            {
+              "t": "Gimi binao! Xlayan so da do, byeqon miso pila da!",
+              "fr": "Cherche donc un peu! Quand tu l'auras trouvé, je te donnerai de l'argent!",
+              "en": "Go on, look a bit! When you've found it, I'll give you money!",
+              "zh": "你就找一找吧！等你找到了，我就給你錢！"
+            },
+            {
+              "t": "Wada miso xlayan da!",
+              "fr": "Je t'ai retrouvé (trouvé).",
+              "en": "I've found you (found you again).",
+              "zh": "我找到你了（重新找到你了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XLAKUX",
+      "tag": "(R)",
+      "fr": "Bouclier - ce qui protège, renforce, fortifie.",
+      "en": "Shield - that which protects, reinforces, fortifies.",
+      "zh": "盾牌－保護、加強、鞏固之物。",
+      "examples": [
+        {
+          "t": "Sao bi manu ka ngalun so xlakux?",
+          "fr": "Que veux tu prendre comme bouclier?",
+          "en": "What do you want to take as a shield?",
+          "zh": "你想拿什麼當盾牌？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpxlakux",
+          "fr": "Qui sera fortifiant - qui sera bouclier, protection.",
+          "en": "That which will be fortifying - which will be a shield, protection.",
+          "zh": "將能強身之物－將成為盾牌、保護之物。",
+          "examples": [
+            {
+              "t": "Xei samat ka mpxlakux qbobol namo!",
+              "fr": "C'est la viande de gibier qui donnera des forces (qui protègera) à votre corps.",
+              "en": "It's game meat that will give strength (that will protect) to your body.",
+              "zh": "是野味的肉會使你們的身體有力氣（會保護你們的身體）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XLAMA",
+      "tag": "(R)",
+      "fr": "Espèce de pâte de riz gluant (= Payai l'xqoi), d'abord moulu mélangé à l'eau, puis pressé dans un sac, une toile, mélangé avec du sucre brun (vl. cassonade) et cuit à la vapeur. Une autre recette, plus particulière aux taroko, se passe du sucre;).",
+      "en": "A kind of glutinous rice paste (= Payai l'xqoi), first ground and mixed with water, then pressed in a sack, a cloth, mixed with brown sugar (var. cassonade) and steamed. Another recipe, more particular to the Taroko, does without sugar;).",
+      "zh": "一種糯米糕（＝Payai l'xqoi），先磨碎後與水混合，再放入袋子、布中壓榨，加入紅糖（或：黃砂糖）後蒸熟。另有一種較為太魯閣人特有的做法，不加糖；）。"
+    },
+    {
+      "hw": "XLAPAS",
+      "tag": "(R)",
+      "fr": "S'amuser - jouer - se distraire.",
+      "en": "To amuse oneself - to play - to have fun.",
+      "zh": "玩樂－遊戲－消遣。",
+      "examples": [
+        {
+          "t": "Ya xlapas da! Mnalox tunuç mo!",
+          "fr": "Ne t'amuse pas; j'ai mal à la tête!",
+          "en": "Don't fool around; I have a headache!",
+          "zh": "別玩了；我頭痛！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xmlapas",
+          "paradigm": "°Xmlapas, xlapas, xlpasi, xlpasan, xlpasun.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ma so sao sntunuç! Xmlapas so do, ini ko d'xok matas da!",
+              "fr": "Oh! ce que tu me casses la tête! Quand tu joues, je n'arrive pas à écrire!.",
+              "en": "Oh! how you're driving me crazy! When you play, I can't manage to write!",
+              "zh": "唉！你真吵得我頭疼！你一玩耍，我就沒法寫字了！"
+            },
+            {
+              "t": "Ya psai ksaxol ka nkari mo! Lnnglong ko xmlapas nanak ka yako",
+              "fr": "Ne prends pas mes paroles au sérieux! Je pensais seulement m'amuser!",
+              "en": "Don't take my words seriously! I was only thinking of having fun!",
+              "zh": "別把我的話當真！我只是想玩鬧一下！"
+            }
+          ]
+        },
+        {
+          "form": "Mxlapas",
+          "fr": "Qui s'amuse, joue, plaisante, se distrait.",
+          "en": "One who amuses himself, plays, jokes, has fun.",
+          "zh": "玩樂、遊戲、開玩笑、消遣的人。",
+          "examples": [
+            {
+              "t": "Ya bi tooqo! mxlapas ko nanak",
+              "fr": "Ne te vexe pas! Je plaisante seulement!",
+              "en": "Don't be offended! I'm only joking!",
+              "zh": "別生氣！我只是開玩笑！"
+            },
+            {
+              "t": "Mxlapas da do, ini k'la diyax ka xea!",
+              "fr": "Quand il s'amuse, il ne voit pas le temps passer (il ne s'ennuie pas).",
+              "en": "When he's having fun, he doesn't notice time passing (he doesn't get bored).",
+              "zh": "他玩樂時，感覺不到時間流逝（不覺得無聊）。"
+            }
+          ]
+        },
+        {
+          "form": "Xlpasan",
+          "fr": "Cour - endroit pour jouer - instruments de jeu - jeu.",
+          "en": "Courtyard - place to play - playthings - game.",
+          "zh": "場地－遊戲之處－遊戲器具－遊戲。",
+          "examples": [
+            {
+              "t": "Ngalun mo xlpasan laqe ka ssagan xea",
+              "fr": "Je vais en faire un terrain de jeux pour les enfants de cet endroit ombragé qui est là.",
+              "en": "I'll make a playground for the children out of that shady spot over there.",
+              "zh": "我要把那邊那塊陰涼的地方闢成孩子們的遊戲場。"
+            },
+            {
+              "t": "Mnsa ko mdawi xlpasan sapax ptasan",
+              "fr": "Je suis allé flâner sur la cour de l'école.",
+              "en": "I went strolling in the schoolyard.",
+              "zh": "我去學校的操場閒逛。"
+            },
+            {
+              "t": "Malu bi xlpasan ka kia",
+              "fr": "Cela est un jeu intéressant!",
+              "en": "That is an interesting game!",
+              "zh": "那是個有趣的遊戲！"
+            }
+          ]
+        },
+        {
+          "form": "Pxlapas",
+          "paradigm": "°Mpxlapas, pxlapas, pxlpasi, pxlpasan, pxlpasun.",
+          "fr": "Amuser - faire jouer - divertir.",
+          "en": "To amuse - to make play - to entertain.",
+          "zh": "逗樂－使遊戲－娛樂。",
+          "examples": [
+            {
+              "t": "Snkuxul ko bi pxlapas laqe (lqlqean) ka yako.",
+              "fr": "Moi j'aime bien faire jouer les enfants.",
+              "en": "As for me, I really like making children play.",
+              "zh": "我自己很喜歡逗孩子們玩。"
+            }
+          ]
+        },
+        {
+          "form": "Pxlpasan",
+          "fr": "Instruments de jeu - temps, moyens, lieu pour faire jouer.",
+          "en": "Playthings - time, means, place for making play.",
+          "zh": "遊戲器具－使人遊戲的時間、方法、地點。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XLENAS",
+      "tag": "(R)",
+      "fr": "Dépasser - en trop - supérieur.",
+      "en": "To surpass - in excess - superior.",
+      "zh": "超過－過多－更勝一籌。",
+      "subs": [
+        {
+          "form": "Xmlenas",
+          "paradigm": "°Xmlenas, xlenas, xlnasi, xlnasan, xlnasun.",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Xmlenas knplaan tama nia ka xea",
+              "fr": "Il dépasse son père en taille (en grandeur).",
+              "en": "He surpasses his father in height (in size).",
+              "zh": "他的身高（個頭）超過他父親。"
+            },
+            {
+              "t": "Wada xmlenas ka diyax da!",
+              "fr": "Le jour (le temps, l'heure) est passé.",
+              "en": "The day (the time, the hour) has passed.",
+              "zh": "日子（時間、時辰）已經過了。"
+            },
+            {
+              "t": "Adi so bi xlnasun ka knklaan nia",
+              "fr": "Tu n'arriveras certainement pas à dépasser son savoir!",
+              "en": "You certainly won't manage to surpass his knowledge!",
+              "zh": "你肯定無法超越他的學識！"
+            },
+            {
+              "t": "Wada mo xlnasan kii yayong ka laqe so",
+              "fr": "J'ai dépassé ton fils près du torrent.",
+              "en": "I overtook your son near the torrent.",
+              "zh": "我在溪流旁超過了你的兒子。"
+            }
+          ]
+        },
+        {
+          "form": "Mxlenas",
+          "fr": "Qui dépasse - qui est plus long, supérieur.",
+          "en": "That which sticks out - which is longer, superior.",
+          "zh": "突出的－較長、更高的。",
+          "examples": [
+            {
+              "t": "Malu ka malu ka kndl'xan so ni, ida nyeqan pnkingal tasil ka mxlenas da!",
+              "fr": "Le mur que tu as fait n'est pas mal; cependant il y a une pierre ou l'autre qui dépasse (qui n'est pas allignée).",
+              "en": "The wall you made isn't bad; however there's a stone here or there that sticks out (that isn't aligned).",
+              "zh": "你砌的牆還不錯；不過有一兩塊石頭突出來（沒有對齊）。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

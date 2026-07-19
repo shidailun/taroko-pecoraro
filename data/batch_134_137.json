@@ -1,0 +1,841 @@
+{
+  "pages": [134, 137],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "KSLAAN",
+      "tag": "(R. = KSUL ?)",
+      "fr": "Inanition - être à bout de forces.",
+      "en": "Starvation - to be at the end of one's strength.",
+      "zh": "饑餓虛脫－精疲力竭。",
+      "examples": [
+        {
+          "t": "Angal tityex xdayo so aadi so mpkslaan muda \"lu da",
+          "fr": "Prends donc un casse-croûte pour ne pas tomber d'inanition en cours de route.",
+          "en": "Take along a snack so that you don't collapse from starvation along the way.",
+          "zh": "帶點點心吧，免得半路上餓昏了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knslaan",
+          "fr": "d° dans la forme accomplie.",
+          "en": "ditto, in the completed (perfective) form.",
+          "zh": "同上，完成式形式。",
+          "examples": [
+            {
+              "t": "Ida bi uxai so mnalox, knslaan so nuda \"lu",
+              "fr": "Tu n'es sans doute pas malade mais affaibli par la faim le long de ta route.",
+              "en": "You are surely not ill, but weakened by hunger along your way.",
+              "zh": "你大概不是生病，只是一路上餓得沒力氣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KSOLOÇ",
+      "tag": "(R)",
+      "fr": "Poisson.",
+      "en": "Fish.",
+      "zh": "魚。",
+      "examples": [
+        {
+          "t": "Ana malu oqon ka ksoloç o, ini ko xali snkuxul",
+          "fr": "Le poisson à beau être bon (à manger), je ne l'aime pas spécialement.",
+          "en": "Even though fish is good (to eat), I am not particularly fond of it.",
+          "zh": "魚雖然好吃，我卻不特別喜歡。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmksoloç",
+          "fr": "Pêcher.",
+          "en": "To fish.",
+          "zh": "捕魚。",
+          "examples": [
+            {
+              "t": "Uxai bi lxayan troko ka musa tmksoloç",
+              "fr": "Ce n'est pas spécialement l'habitude des taroko d'aller à la pêche.",
+              "en": "Going fishing is not particularly a habit of the Taroko.",
+              "zh": "去捕魚並不是太魯閣人特別的習慣。"
+            },
+            {
+              "t": "Ini ko tksoloç kdiyax ka yako",
+              "fr": "Moi, je ne pêche jamais.",
+              "en": "As for me, I never fish.",
+              "zh": "我呢，我從不捕魚。"
+            }
+          ]
+        },
+        {
+          "form": "Mtksoloç",
+          "fr": "Celui qui pêche (de fait).",
+          "en": "The one who fishes (in fact).",
+          "zh": "（實際上）捕魚的人。",
+          "examples": [
+            {
+              "t": "Iyax xeni,ksa; lngagi bi kana ka dmtksoloç gaga",
+              "fr": "Dis leur: venez ici; dis le bien à tous ces gens là qui sont occupés à pêcher.",
+              "en": "Tell them: come here; say it clearly to all those people over there who are busy fishing.",
+              "zh": "跟他們說：過來這裡；好好告訴那邊所有正在忙著捕魚的人。"
+            }
+          ]
+        },
+        {
+          "form": "Mptksoloç",
+          "fr": "Pêcheur (professionnel).",
+          "en": "Fisherman (professional).",
+          "zh": "（職業）漁夫。",
+          "examples": [
+            {
+              "t": "Mntöting pax aso ka mptksoloç ssinao daxa slaxo nia",
+              "fr": "Les pêcheurs descendirent de la barque pour laver leurs filets.",
+              "en": "The fishermen got down from the boat to wash their nets.",
+              "zh": "漁夫們下了船去洗他們的網。"
+            },
+            {
+              "t": "Mptksoloç ka iso; pax sayang do, mptsadyaq so da",
+              "fr": "Tu es pêcheur (de poissons); à partir de ce moment tu sera pêcheur d'hommes.",
+              "en": "You are a fisherman (of fish); from this moment on you will be a fisher of men.",
+              "zh": "你是（捕魚的）漁夫；從此刻起你要成為得人的漁夫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KSUDAN",
+      "tag": "(R. = ?)",
+      "fr": "",
+      "en": "",
+      "zh": "",
+      "examples": [
+        {
+          "t": "Ksudan walae",
+          "fr": "Navette de tisserand.",
+          "en": "Weaver's shuttle.",
+          "zh": "織布用的梭子。"
+        }
+      ]
+    },
+    {
+      "hw": "KSUL",
+      "tag": "(R)",
+      "fr": "Pincer - Réaliser le rite d'offrande aux esprits avant un repas.",
+      "en": "To pinch - to perform the rite of offering to the spirits before a meal.",
+      "zh": "捏、掐－在用餐前向祖靈獻祭的儀式。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmsul",
+          "fr": "Pincer.",
+          "en": "To pinch.",
+          "zh": "捏、掐。",
+          "examples": [
+            {
+              "t": "Laxe bi ka kmsul sadyaq (sadyaqon)! naqex taan!",
+              "fr": "Cesse de pincer les gens; ce n'est pas beau à voir!",
+              "en": "Stop pinching people; it is not nice to look at!",
+              "zh": "別再捏人了；那樣子很難看！"
+            }
+          ]
+        },
+        {
+          "form": "Knslan",
+          "fr": "Pincement - endroit où l'on pince, - Consacré - réservé - tabou",
+          "en": "Pinching - the place where one pinches; - consecrated - reserved - taboo.",
+          "zh": "捏、掐之處－受捏的地方；－神聖的－保留的－禁忌的。",
+          "examples": [
+            {
+              "t": "Knslan ko daxa baga",
+              "fr": "Ils m'ont pincé la main. VR. KNSLAN.",
+              "en": "They pinched my hand. See KNSLAN.",
+              "zh": "他們捏了我的手。參見 KNSLAN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KSUN",
+      "tag": "(R. = ??) (nb. souvent réduit à: SUN)",
+      "fr": "Faire - dire - se comporter.",
+      "en": "To do - to say - to behave.",
+      "zh": "做－說－行事為人。",
+      "examples": [
+        {
+          "t": "Xoya mo ksun",
+          "fr": "Que dois je faire? - Que dois je dire? - Comment faut il me comporter?",
+          "en": "What should I do? - What should I say? - How should I behave?",
+          "zh": "我該怎麼做？－我該怎麼說？－我該怎麼做人？"
+        },
+        {
+          "t": "Xoya mo ksun? ... L'çan balae! Tai msa ni msa ka xea o, ksa ni ksa ka iso ole",
+          "fr": "Que dois je faire? ... C'est très facile! Quand il fait comme ça et comme ça, tois aussi, fais comme ça et comme ça!",
+          "en": "What should I do? ... It's very easy! When he does this and that, you too, do this and that!",
+          "zh": "我該怎麼做？……很簡單！他這樣那樣做的時候，你也一樣，這樣那樣做就是了！"
+        }
+      ]
+    },
+    {
+      "hw": "KTINOX",
+      "tag": "(R)",
+      "fr": "Planche.",
+      "en": "Board - plank.",
+      "zh": "木板。",
+      "examples": [
+        {
+          "t": "Tqean so nanu ka iso? Dina (ddima)xo? Ktinox xo?",
+          "fr": "Sur quoi dors tu,toi? Sur des bambous? sur des planches?",
+          "en": "What do you sleep on, you? On bamboo? On planks?",
+          "zh": "你呢，你睡在什麼上面？睡在竹子上？睡在木板上？"
+        }
+      ]
+    },
+    {
+      "hw": "KTUI",
+      "tag": "(R)",
+      "fr": "Couper - moissonner - couper avec une serpette.",
+      "en": "To cut - to harvest - to cut with a billhook.",
+      "zh": "割－收割－用鐮刀割。",
+      "examples": [
+        {
+          "t": "Ino so ktui payai so na?",
+          "fr": "Tu ne moissonnes pas encore ton riz?",
+          "en": "Are you not yet harvesting your rice?",
+          "zh": "你還沒收割你的稻子嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmtui",
+          "paradigm": "Kmtui, ktui, ktii, ktian, ktiun.",
+          "fr": "Couper la récolte - moissonner.",
+          "en": "To cut the crop - to harvest.",
+          "zh": "割收成－收割。",
+          "examples": [
+            {
+              "t": "Ga kmtui payai na ka Diyan",
+              "fr": "Djian est occupé à moissonner son riz.",
+              "en": "Djian is busy harvesting his rice.",
+              "zh": "迪揚正忙著收割他的稻子。"
+            }
+          ]
+        },
+        {
+          "form": "Mktui",
+          "fr": "Celui qui moissonne.",
+          "en": "The one who harvests.",
+          "zh": "收割的人。",
+          "examples": [
+            {
+              "t": "Mktui saman ka dxea",
+              "fr": "C'est demain qu'ils font la moisson.",
+              "en": "It is tomorrow that they do the harvesting.",
+              "zh": "他們明天收割。"
+            }
+          ]
+        },
+        {
+          "form": "Ktian",
+          "paradigm": "",
+          "fr": "(ktiyan) = Récolte - moisson.",
+          "en": "(ktiyan) = Harvest - harvest time.",
+          "zh": "（ktiyan）＝收成－收穫。",
+          "examples": [
+            {
+              "t": "Babao ktian ka mtlgli bi mglaxol kana ka ssadyaq",
+              "fr": "C'est après la moisson que tout le monde se rassemble joyeux (en dansant de joie).",
+              "en": "It is after the harvest that everyone gathers joyfully (dancing for joy).",
+              "zh": "收成之後大家才歡欣地聚在一起（跳舞慶祝）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUBWI",
+      "tag": "(KBUI ?) (R. = BUYO ?)",
+      "fr": "Ombrager - étouffer (la végétation).",
+      "en": "To shade over - to smother (of vegetation).",
+      "zh": "遮蔽－（植物）悶死、壓過。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Knubwi",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ana ini so xoma ddima pusu knpaxan so, kbuyun na kana ka oqon so.",
+              "fr": "Tu peux te dispenser de planter des bambous au bout de ton champ, ils étoufferont toutes tes céréales.",
+              "en": "You can do without planting bamboo at the edge of your field; they would smother all your grain.",
+              "zh": "你不用在田邊種竹子，它們會把你所有的穀物都壓死。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUDAO",
+      "tag": "(R)",
+      "fr": "Le portage à plusieurs d'un poids lourd.",
+      "en": "The carrying of a heavy load by several people.",
+      "zh": "多人合力搬運重物。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmudao",
+          "paradigm": "Kmudao, kudao, kdagi, kdagan, kdagun.",
+          "fr": "Porter à plusieurs.",
+          "en": "To carry as a group.",
+          "zh": "多人合力扛抬。",
+          "examples": [
+            {
+              "t": "Mpdxok namo kmudao ladax kia xo?",
+              "fr": "Arriverez vous à porter la grume dont il est question?",
+              "en": "Will you manage to carry the log in question?",
+              "zh": "你們扛得動說的那根原木嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mkudao",
+          "fr": "Le porteur (de fait).",
+          "en": "The carrier (in fact).",
+          "zh": "（實際上）搬運者。",
+          "examples": [
+            {
+              "t": "Mkudao tasil ka spat xei",
+              "fr": "Quatre hommes portent la pierre.",
+              "en": "Four men carry the stone.",
+              "zh": "四個人扛著那塊石頭。"
+            }
+          ]
+        },
+        {
+          "form": "Pkudao",
+          "fr": "Faire porter (à plusieurs).",
+          "en": "To have (something) carried (by several people).",
+          "zh": "使（多人）搬運。",
+          "examples": [
+            {
+              "t": "Pkdagun no llisao ka qnqaya so",
+              "fr": "Je ferai porter tes affaires (tes caisses) par les jeunes.",
+              "en": "I will have your things (your crates) carried by the young people.",
+              "zh": "我會叫年輕人來搬你的東西（你的箱子）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpkudaʔ",
+          "fr": "1) Porter(au futur); 2) Porteurs (de profession).",
+          "en": "1) To carry (future); 2) Carriers (by profession).",
+          "zh": "1)搬運（未來式）；2)（職業）搬運工。",
+          "examples": [
+            {
+              "t": "D'xok ka mpkudao da",
+              "fr": "Voici les porteurs (ceux qui vont porter).",
+              "en": "Here are the carriers (those who are going to carry).",
+              "zh": "搬運工（要來搬的人）來了。"
+            }
+          ]
+        },
+        {
+          "form": "Kdagun",
+          "fr": "Objet lourd (qu'il faut porter à plusieurs) - Caisse, pierre - litière etc..",
+          "en": "Heavy object (that must be carried by several people) - crate, stone - litter, etc.",
+          "zh": "重物（須多人合抬者）－箱子、石頭－擔架等。",
+          "examples": [
+            {
+              "t": "Kdagun ka nii, adi ta bi tdoa mapa",
+              "fr": "Ceci est à porter à plusieurs (sur les épaules, à la main), nous ne pourrons pas le porter à un seul.",
+              "en": "This is to be carried by several people (on the shoulders, by hand); we could not carry it alone.",
+              "zh": "這個要多人來抬（扛在肩上、用手提），一個人是抬不動的。"
+            }
+          ]
+        },
+        {
+          "form": "Kdagan",
+          "fr": "Civière - ce qui sert à porter à plusieurs - objet porté de la sorte.",
+          "en": "Stretcher - that which serves to carry as a group - an object carried in this way.",
+          "zh": "擔架－供多人合抬之物－以此方式搬運之物。",
+          "examples": [
+            {
+              "t": "Knktmai bi sapax ka knudao daxa kdagan mpolo sadyaq",
+              "fr": "L'infirme porté sur la civière aurait bien voulu rentrer dans la maison.",
+              "en": "The invalid carried on the stretcher would have very much liked to go back into the house.",
+              "zh": "被擔架抬著的病人很想回到屋裡去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUDUS",
+      "tag": "(R. = UDUS)",
+      "fr": "Vivant - mobile - en mouvement.",
+      "en": "Alive - mobile - in movement.",
+      "zh": "活的－會動的－在動的。",
+      "examples": [
+        {
+          "t": "Ini kudus ka tlangan, adi tdoa pklilu",
+          "fr": "La chaise est fixe (non mobile), on ne peut pas la bouger.",
+          "en": "The chair is fixed (not movable); one cannot move it.",
+          "zh": "椅子是固定的（不會動），沒辦法搬動它。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mudus",
+          "paradigm": "Mudus, kudus, kdusi, kdusan, kdusun.",
+          "fr": "Vivant - tout être qui peut bouger: personne, végétal, montre..",
+          "en": "Alive - any being that can move: a person, a plant, a watch..",
+          "zh": "活的－任何會動的東西：人、植物、手錶……",
+          "examples": [
+            {
+              "t": "Mudus xo? Mxoqel xo? Nta mita da",
+              "fr": "(Est ce) vivant? Mort? Allons voir!",
+              "en": "Is it alive? Dead? Let's go and see!",
+              "zh": "是活的嗎？死的嗎？我們去看看吧！"
+            }
+          ]
+        },
+        {
+          "form": "Kdusan",
+          "fr": "La vie - le fait de vivre - circonstances de la vie.",
+          "en": "Life - the fact of living - the circumstances of life.",
+          "zh": "生命－活著這件事－生活的境況。",
+          "examples": [
+            {
+              "t": "Slyeqon so kdusan so ka sayang o, xeaon so da?",
+              "fr": "Si tu acceptes (veux) gaspiller ta vie aujourd'hui, à quoi cela te servira t il?",
+              "en": "If you agree (want) to waste your life today, what good will it do you?",
+              "zh": "如果你今天甘願（想要）糟蹋自己的生命，那對你有什麼用呢？"
+            }
+          ]
+        },
+        {
+          "form": "Kndusan",
+          "fr": "La vie vécue - l'espace d'une vie.",
+          "en": "The life one has lived - the span of a life.",
+          "zh": "所度過的一生－一生的歲月。",
+          "examples": [
+            {
+              "t": "Bsiyaq bi ka kndusan na mk'alang ta",
+              "fr": "Il a longtemps vécu au milieu de nous (dans notre village).",
+              "en": "He lived a long time among us (in our village).",
+              "zh": "他在我們當中（在我們部落裡）住了很久。"
+            },
+            {
+              "t": "Kingal nanak ka kndusan ta mkdaya suxal",
+              "fr": "Notre vie là haut dans la montagne autrefois était toute différente.",
+              "en": "Our life up there in the mountains in the old days was quite different.",
+              "zh": "從前我們在山上那裡的生活是完全不同的。"
+            }
+          ]
+        },
+        {
+          "form": "Kn'udus",
+          "fr": "(knoudus) = Principe de vie - vie - âme.",
+          "en": "(knoudus) = Life-principle - life - soul.",
+          "zh": "（knoudus）＝生命的本源－生命－靈魂。",
+          "examples": [
+            {
+              "t": "Uxai ta \"mu d'xgal nanak, ida ta nyeqan knoudus (kn'udus) ole",
+              "fr": "Nous ne sommes pas que de la poussière, nous avons aussi un principe vital.",
+              "en": "We are not merely dust; we also have a vital principle.",
+              "zh": "我們不只是塵土，我們也有生命的本源。"
+            }
+          ]
+        },
+        {
+          "form": "Kkudus",
+          "fr": "Pour vivre - qui fait vivre.",
+          "en": "For living - that which makes one live.",
+          "zh": "用以維生的－使人得以存活的。",
+          "examples": [
+            {
+              "t": "Bonga ni naso ka kkudus nami",
+              "fr": "Ce sont les patates douces et le millet qui nous aident à vivre.",
+              "en": "It is sweet potatoes and millet that help us to live.",
+              "zh": "是地瓜和小米幫助我們活下去。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmudus",
+          "fr": "être celui qui désire vivre.",
+          "en": "to be one who desires to live.",
+          "zh": "是渴望活下去的人。",
+          "examples": [
+            {
+              "t": "Spoxe ko n'xali! Mkmudus ko ka yako",
+              "fr": "Soignez moi vite! Je voudrais vivre, moi!",
+              "en": "Treat me quickly! I want to live, I do!",
+              "zh": "快點醫治我！我呢，我想活下去！"
+            }
+          ]
+        },
+        {
+          "form": "Pk'udus",
+          "paradigm": "Mpk'udus, pk'udus, pkdusi, pkdusan, pkdusun.",
+          "fr": "(pkoudus) = Faire vivre - donner la vie - conserver en vie.",
+          "en": "(pkoudus) = To make live - to give life - to keep alive.",
+          "zh": "（pkoudus）＝使活著－賜予生命－使存活。",
+          "examples": [
+            {
+              "t": "Mudus ko o, uxai iso ka pnk'udus knan",
+              "fr": "Si je suis vivant, ce n'est pas toi qui m'a fait vivre.",
+              "en": "If I am alive, it is not you who kept me alive.",
+              "zh": "我若還活著，讓我活下來的並不是你。"
+            },
+            {
+              "t": "Pkdusi bi ka qbxni nii",
+              "fr": "Laisse les vivre ces oiseaux!",
+              "en": "Let these birds live!",
+              "zh": "讓這些鳥兒活下去吧！"
+            },
+            {
+              "t": "Lnglong bi! Bobo so ka pnkoudus (pnk'udus) sunan",
+              "fr": "Réflechis bien! C'est ta maman qui t'a donné la vie (fait vivre).",
+              "en": "Think hard! It is your mother who gave you life (made you live).",
+              "zh": "好好想想！是你母親給了你生命（讓你活著）。"
+            }
+          ]
+        },
+        {
+          "form": "Pkdusun",
+          "fr": "Qu'on veut, doit faire vivre.",
+          "en": "Whom one wants, must keep alive.",
+          "zh": "想要、必須使其活下去的（對象）。",
+          "examples": [
+            {
+              "t": "Mnalox ka mnalox laqe so, ida mo pkdusun",
+              "fr": "Il est réellement malade, ton fils (pour être malade,il est malade), et pourtant je veux le faire vivre ( vl.je le ferai vivre.).",
+              "en": "He is really ill, your son (to be ill, he is ill indeed), and yet I want to make him live (var. I will make him live).",
+              "zh": "你的兒子病得很重（要說病，他真的病了），可是我還是想讓他活下去（或：我會讓他活下去）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpk'udus",
+          "fr": "1) Celui qui fait vivre; 2) Vivra.",
+          "en": "1) The one who makes (someone) live; 2) Will live.",
+          "zh": "1)使人存活者；2)將會活。",
+          "examples": [
+            {
+              "t": "Ya ima bi ka mpk'udus sunan",
+              "fr": "Qui est ce donc qui va te sauver?(te fera vivre).",
+              "en": "Who then is it that is going to save you? (make you live).",
+              "zh": "那麼到底是誰要來救你呢？（使你活下去）"
+            },
+            {
+              "t": "Adi bi mpk'udus ka laqe so",
+              "fr": "Ton enfant ne vivra certainement pas!",
+              "en": "Your child will certainly not survive!",
+              "zh": "你的孩子肯定活不了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUGUS",
+      "tag": "(R)",
+      "fr": "Racler - raser - griffer.",
+      "en": "To scrape - to shave - to scratch.",
+      "zh": "刮－剃－抓。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmugus",
+          "paradigm": "Kmugus, kugus, kgusi, kgusan, kgusun.",
+          "fr": "D° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ya xmuya bi! Knta'to kmugus blax na ka laqe mo!",
+              "fr": "Que peut il bien avoir? Mon enfant n'arrête pas de se gratter la poitrine!",
+              "en": "What can be the matter with him? My child won't stop scratching his chest!",
+              "zh": "他到底是怎麼了？我的孩子一直不停地抓胸口！"
+            }
+          ]
+        },
+        {
+          "form": "Kgusan",
+          "fr": "Endroit, résultat, temps du rasage, du grattage.",
+          "en": "The place, result, or time of the shaving, of the scratching.",
+          "zh": "刮、抓的地方、結果或時間。",
+          "examples": [
+            {
+              "t": "Adi manu ka kia; kngusan ko daxa nanak suni",
+              "fr": "Cela n'est rien (d'autre que) le fait du grattage, (du rasage) de tout à l'heure.",
+              "en": "That is nothing (other than) the result of the scratching (the shaving) just now.",
+              "zh": "那沒什麼，只不過是剛才抓（刮）的結果罷了。"
+            },
+            {
+              "t": "Wada kngusan ima ka ngudus so?",
+              "fr": "Qui est ce qui a rasé ta barbe?",
+              "en": "Who was it that shaved your beard?",
+              "zh": "是誰把你的鬍子刮掉的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUI",
+      "tag": "(R)",
+      "fr": "Insecte - ver à soie - ver de fumier - mouches.",
+      "en": "Insect - silkworm - dung-worm - flies.",
+      "zh": "昆蟲－蠶－糞蟲－蒼蠅。",
+      "examples": [
+        {
+          "t": "Mluxai ko pax suxal tnabu kui",
+          "fr": "Je suis entrainé depuis longtemps à élever des vers à soie.",
+          "en": "I have long been practised at raising silkworms.",
+          "zh": "我養蠶已經很久，很有經驗了。"
+        },
+        {
+          "t": "Bisol, ksun ta o, kika kui mbuyas",
+          "fr": "Ce que nous appelons Bisol, ce sont les vers du ventre.",
+          "en": "What we call Bisol are the worms of the belly.",
+          "zh": "我們所稱的 Bisol，就是肚子裡的蟲。"
+        },
+        {
+          "t": "Kui Tepyaq",
+          "fr": "Oxyures.",
+          "en": "Pinworms.",
+          "zh": "蟯蟲。"
+        }
+      ]
+    },
+    {
+      "hw": "KUKUL",
+      "tag": "(R)",
+      "fr": "Poche.",
+      "en": "Pocket.",
+      "zh": "口袋。",
+      "examples": [
+        {
+          "t": "Ongat kukul ka libul mo da",
+          "fr": "Mes pantalons n'ont plus de poches.",
+          "en": "My trousers no longer have pockets.",
+          "zh": "我的褲子沒有口袋了。"
+        },
+        {
+          "t": "Nyeqan kukul so?",
+          "fr": "As tu des poches?",
+          "en": "Do you have pockets?",
+          "zh": "你有口袋嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snkukul",
+          "paradigm": "Snkukul, skukul, skkuli, skkulan, skkulun.",
+          "fr": "Mettre en poche.",
+          "en": "To put in one's pocket.",
+          "zh": "放進口袋。",
+          "examples": [
+            {
+              "t": "Snkukul so pila mo ni, Yako, msa so! Ini mo skkuli ana manu ka yako!",
+              "fr": "Tu mets mon argent en poche et tu dis que c'est moi! Je n'ai rien empoché, moi!",
+              "en": "You pocket my money and you say it's me! I pocketed nothing, I did!",
+              "zh": "你把我的錢放進口袋，卻說是我！我可什麼都沒放進口袋！"
+            },
+            {
+              "t": "Snkukul ko tbako ka s'xiga, ini ko skukul ka sayang da",
+              "fr": "Hier j'avais du tabac sur moi (en poche) (mais) je n'en ai pas maintenant.",
+              "en": "Yesterday I had tobacco on me (in my pocket), (but) I have none now.",
+              "zh": "昨天我身上（口袋裡）有菸草，可是現在沒有了。"
+            }
+          ]
+        },
+        {
+          "form": "Mskukul",
+          "fr": "Qui porte sur soi, qui a en poche.",
+          "en": "One who carries on himself, who has in his pocket.",
+          "zh": "隨身帶著的、放在口袋裡的人。",
+          "examples": [
+            {
+              "t": "Ida mskukul sapox xelao kddiyax ka tana",
+              "fr": "Naturellement papa porte toujours des médicaments pour la toux sur lui.",
+              "en": "Of course papa always carries cough medicine on him.",
+              "zh": "爸爸當然總是隨身帶著咳嗽的藥。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KULAE",
+      "tag": "(R)",
+      "fr": "Vieille truie qui a déjà eu pas mal de portées.",
+      "en": "An old sow that has already had quite a few litters.",
+      "zh": "已生產過多胎的老母豬。",
+      "examples": [
+        {
+          "t": "Mx'nuk bi bligan ka xei kulae",
+          "fr": "La viande de vieille truie est bon marché.",
+          "en": "The meat of an old sow is cheap.",
+          "zh": "老母豬的肉很便宜。"
+        }
+      ]
+    },
+    {
+      "hw": "KULAO",
+      "tag": "(R)",
+      "fr": "Partie du bambou entre deux noeuds - Tibia (partie de la jambe entre deux articulations.",
+      "en": "The part of the bamboo between two nodes - the shin/tibia (the part of the leg between two joints).",
+      "zh": "竹子兩節之間的部分－脛骨（腿部兩關節之間的部分）。",
+      "examples": [
+        {
+          "t": "Wada ko na gl'nun kulao isil papaq da",
+          "fr": "Il m'a brisé le tibia d'une de mes jambes.",
+          "en": "He broke the shin of one of my legs.",
+          "zh": "他把我一條腿的脛骨打斷了。"
+        }
+      ]
+    },
+    {
+      "hw": "KULU",
+      "tag": "(R. ?)",
+      "fr": "Caisse - boîte.",
+      "en": "Crate - box.",
+      "zh": "箱子－盒子。",
+      "examples": []
+    },
+    {
+      "hw": "KULUK",
+      "tag": "(R)",
+      "fr": "Tortue.",
+      "en": "Turtle - tortoise.",
+      "zh": "龜。",
+      "examples": [
+        {
+          "t": "Ongat kuluk paro ka mkdngo",
+          "fr": "Il n'y a pas de grandes tortues sur la terre ferme.",
+          "en": "There are no large tortoises on dry land.",
+          "zh": "陸地上沒有大龜。"
+        }
+      ]
+    },
+    {
+      "hw": "KUMAI",
+      "tag": "(R)",
+      "fr": "Ours (Il y en a encore à Taiwan).",
+      "en": "Bear (there are still some in Taiwan).",
+      "zh": "熊（台灣還有）。",
+      "examples": [
+        {
+          "t": "Kawai so! Oqon so na ka kumai!",
+          "fr": "Gare à toi! L'ours va te manger.",
+          "en": "Watch out! The bear will eat you.",
+          "zh": "你小心！熊會吃掉你。"
+        }
+      ]
+    },
+    {
+      "hw": "KUONG",
+      "tag": "(R)",
+      "fr": "Obscurité - sombre.",
+      "en": "Darkness - dark.",
+      "zh": "黑暗－昏暗的。",
+      "examples": [
+        {
+          "t": "Kuong bi ka ksugun mo",
+          "fr": "C'est de l'obscurité que j'ai peur.",
+          "en": "It is the dark that I am afraid of.",
+          "zh": "我怕的就是黑暗。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkuong",
+          "fr": "Qui est obscur - qui est sombre.",
+          "en": "That which is dark - that which is gloomy.",
+          "zh": "黑暗的－昏暗的。",
+          "examples": [
+            {
+              "t": "Mkuong ka sayang, ini k'la snpu",
+              "fr": "Il fait sombre, maintenant; il n'est pas possible de compter.",
+              "en": "It is dark now; it is not possible to count.",
+              "zh": "現在天黑了，沒辦法數了。"
+            }
+          ]
+        },
+        {
+          "form": "Mkkuong",
+          "fr": "Qui se trouve dans l'ombre, dans le noir, dans l'obscurité.",
+          "en": "That which is in the shadow, in the dark, in the obscurity.",
+          "zh": "位於陰影中、黑暗中、暗處的。",
+          "examples": [
+            {
+              "t": "Mkkuong bi ka lala soopu",
+              "fr": "C'est dans l'obscurité qu'il y a beaucoup de cancrelas.",
+              "en": "It is in the dark that there are lots of cockroaches.",
+              "zh": "蟑螂多的地方就是在暗處。"
+            }
+          ]
+        },
+        {
+          "form": "Pkuong",
+          "fr": "Obscurcir - assombrir.",
+          "en": "To darken - to make gloomy.",
+          "zh": "使變暗－使昏暗。",
+          "examples": [
+            {
+              "t": "Uxai balae bi mkuong, llolong nanak ka pkuong sayang sapax no",
+              "fr": "Elle n'est pas vraiment sombre en fait, ce sont les nuages qui l'assombrissent en ce moment.",
+              "en": "It is not really dark in fact; it is the clouds that are darkening it at the moment.",
+              "zh": "其實並不是真的暗，是這會兒的雲把它遮暗了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KUSA",
+      "tag": "(R)",
+      "fr": "Dette.",
+      "en": "Debt.",
+      "zh": "債。",
+      "examples": [
+        {
+          "t": "Ana ino nyeqan kusa na ka Iwal",
+          "fr": "Iwal a des dettes partout.",
+          "en": "Iwal has debts everywhere.",
+          "zh": "伊瓦到處都有債。"
+        },
+        {
+          "t": "Pllyexon so knuwan ka kusa so?",
+          "fr": "Quand comptes tu rembourser tes dettes?",
+          "en": "When do you intend to pay back your debts?",
+          "zh": "你打算什麼時候還你的債？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nkusa",
+          "fr": "Faisant partie de la dette.",
+          "en": "Being part of the debt.",
+          "zh": "屬於債務的一部分。",
+          "examples": [
+            {
+              "t": "Pila manu ka nii? ... Ida Nkusa no suxal",
+              "fr": "Qu'est ce que cet argent? ...Partie de mes dettes passées",
+              "en": "What is this money? ...Part of my past debts",
+              "zh": "這是什麼錢？……是我過去債務的一部分"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

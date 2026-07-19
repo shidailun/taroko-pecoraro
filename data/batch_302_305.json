@@ -1,0 +1,812 @@
+{
+  "pages": [302, 305],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "ST'MAQ",
+      "tag": "(STMAQ) (R. = TMAQ ?)",
+      "fr": "Ecrasé - réduit en bouillie.",
+      "en": "Crushed - reduced to a pulp.",
+      "zh": "壓碎－搗成糊狀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mst'naq",
+          "fr": "Ecraser - qui est écrasé.",
+          "en": "To crush - that which is crushed.",
+          "zh": "壓碎－被壓碎者。",
+          "examples": [
+            {
+              "t": "Stmaqun no (stmaqon mo) kia ka bnuöl so",
+              "fr": "J'écraserai tes prunes plus tard.",
+              "en": "I will crush your plums later.",
+              "zh": "我稍後會把你的李子壓碎。"
+            },
+            {
+              "t": "Mnda ko pk'kax kating ni mst'naq kana ka isil baga no",
+              "fr": "Je ne suis fait marcher dessus par le buffle et j'ai toute une main écrasée.",
+              "en": "I got walked on by the buffalo and one whole hand is crushed.",
+              "zh": "我被水牛踩到，一整隻手都被壓碎了。"
+            },
+            {
+              "t": "Mnda pliyax daolas ka Tunun; asi st'naq ka xei na",
+              "fr": "Tounounne est tombé des rochers et tout son corps est en bouillie!",
+              "en": "Tounounne fell off the rocks and his whole body is pulp!",
+              "zh": "杜農從岩石上摔下來，全身都成了肉糊！"
+            }
+          ]
+        },
+        {
+          "form": "Tit'naq (Ti tnaq ?) (R. = ??)",
+          "fr": "Aplati contre terre - écrasé au sol. (nb. D'autres, dans le même contexte et avec le même sens disent TGTMAQ au lieu de TITMAQ, donc comme une mutation de TKTMAQ qui pourrait être un dérivé d'une base: TMAQ .).",
+          "en": "Flattened against the ground - crushed on the ground. (n.b. Others, in the same context and with the same meaning, say TGTMAQ instead of TITMAQ, thus as a mutation of TKTMAQ, which could be a derivative of a base: TMAQ.)",
+          "zh": "被壓平貼地－在地面被壓碎。（註：其他人在相同語境、相同意思下說 TGTMAQ 而非 TITMAQ，即像是 TKTMAQ 的變體，而 TKTMAQ 可能衍生自詞根：TMAQ。）",
+          "examples": [
+            {
+              "t": "Yako ka kia, nsa pnkari ka Kalao do, asi ssapa tgtmaq d'xgal ka dxea da!",
+              "fr": "Aussitôt que Calao eut dit: C'est moi, ils se sont tous étalés aplatis contre le sol!",
+              "en": "As soon as Calao said: It's me, they all sprawled out flat against the ground!",
+              "zh": "卡勞一說「是我」，他們全都趴倒在地、緊貼地面！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "STOQ",
+      "tag": "(STOK ?) (R)",
+      "fr": "Casser - détaché - mourir.",
+      "en": "To break - detached - to die.",
+      "zh": "折斷－脫落－死亡。",
+      "examples": [
+        {
+          "t": "Mstoq lmingis ka sadyaq do, Ya bi stoq xeulis ka iso, o!",
+          "fr": "Quand les autres sont en train de pleurer tout ce qu'ils savent, tâche, toi, de ne pas te tordre (te casser de rire ?) de rire, au moins !",
+          "en": "When the others are crying their hearts out, you at least, try not to double up (break ? ) with laughter!",
+          "zh": "當別人哭得死去活來時，你至少要盡量別笑到前俯後仰（笑破肚皮？）！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mstoq",
+          "fr": "Se casser - être cassé - mourir - mort.",
+          "en": "To break - to be broken - to die - dead.",
+          "zh": "斷裂－被折斷－死去－死亡。",
+          "examples": [
+            {
+              "t": "Klxangi bi! ini biyao nstoq ka gasil",
+              "fr": "Fais bien attention! la corde se casse facilement.",
+              "en": "Be very careful! the rope breaks easily.",
+              "zh": "務必小心！繩子很容易斷。"
+            },
+            {
+              "t": "Akai bo! nsa ka xniti na kari ni, mstoq da !",
+              "fr": "Aie nanan ! Disaient ses dernières paroles et..il meurt !(le voilà mort).",
+              "en": "Ouch, mummy! were his last words and.. he dies! (there he is, dead).",
+              "zh": "「哎喲，媽呀！」是他最後的遺言，接著……他就死了！（他就這樣死了。）"
+            },
+            {
+              "t": "Paro ka laqe so ? ... Xana nstoq pua na da!",
+              "fr": "Il est grand ton fils ? ... Son nombril vient à peine de se détacher (à peine cassé).",
+              "en": "Is your son big? ... His umbilical cord has only just fallen off (barely broken).",
+              "zh": "你兒子長大了嗎？……他的臍帶才剛脫落（才剛斷）。"
+            }
+          ]
+        },
+        {
+          "form": "Pstoq",
+          "fr": "Casser - couper (activement).",
+          "en": "To break - to cut (actively).",
+          "zh": "折斷－切斷（主動地）。",
+          "paradigm": "°mpstoq, pstoq, pstqe, pstqan, pstqon.",
+          "examples": [
+            {
+              "t": "Adi xmut nstoq ka gasil; nyeqan ka pnstoq xeaan da",
+              "fr": "La ficelle ne se casse pas d'elle même; il y en a qui l'ont cassée (exprès).",
+              "en": "The string does not break by itself; there are those who broke it (on purpose).",
+              "zh": "這條繩子不會自己斷；是有人（故意）把它弄斷的。"
+            }
+          ]
+        },
+        {
+          "form": "Pstqan",
+          "fr": "Rupture - cassure - lieu, temps de cette rupture, cassure.",
+          "en": "Rupture - break - place, time of that rupture, break.",
+          "zh": "斷裂－裂口－此斷裂、裂口的地點與時間。",
+          "examples": [
+            {
+              "t": "Ongat pstqan nblyeqan ka kia",
+              "fr": "Celui là est un bonheur qui ne cesse pas (qui n'a pas de cassure). (= qui est incassable).",
+              "en": "That is a happiness that never ceases (that has no break). (= that is unbreakable).",
+              "zh": "那是一種永不止息的幸福（沒有裂口）。（＝不會斷裂的。）"
+            }
+          ]
+        },
+        {
+          "form": "Pstqon",
+          "fr": "Qu'il faut casser, interrompre.",
+          "en": "That which must be broken, interrupted.",
+          "zh": "必須折斷、中斷者。",
+          "examples": [
+            {
+              "t": "Wada nstoq ka idao da ni, ya adi so pstqon ka sinao dole ?",
+              "fr": "Nous manquons déjà de riz (notre riz cuit est épuisé,(cassé?)), j'espère que tu ne vas pas nous couper encore le vin !",
+              "en": "We are already out of rice (our cooked rice is used up, (broken?)), I hope you're not going to cut off our wine as well!",
+              "zh": "我們已經沒飯了（煮好的飯吃光了，（斷了？）），希望你別把酒也給我們斷掉！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "STPONG",
+      "tag": "(ST'PONG) (= R. ?)",
+      "fr": "Moisir - moisi.",
+      "en": "To go mouldy - mouldy.",
+      "zh": "發霉－發霉的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mstpong",
+          "fr": "Qui est moisi - qui est humide.",
+          "en": "That which is mouldy - that which is damp.",
+          "zh": "發霉的－潮濕的。",
+          "examples": []
+        },
+        {
+          "form": "Stp'ngan",
+          "fr": "Moisissure.",
+          "en": "Mould / mildew.",
+          "zh": "黴／霉斑。",
+          "examples": [
+            {
+              "t": "Stp'ngan paro bi ka sapax no!",
+              "fr": "Ma maison est toute pleine de moisissure !(Ma maison est très sujette à moisissure)",
+              "en": "My house is all full of mould! (My house is very prone to mould.)",
+              "zh": "我的房子到處都是霉！（我的房子很容易發霉。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SÜEQ",
+      "tag": "(SÜEQ ?) (R)",
+      "fr": "Renverser (un contenu) - déborder.",
+      "en": "To spill / tip over (a contents) - to overflow.",
+      "zh": "倒出（內容物）－溢出。",
+      "examples": [
+        {
+          "t": "Sueq da!",
+          "fr": "Verse !",
+          "en": "Pour it out!",
+          "zh": "倒吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smueq",
+          "fr": "Renverser - déborder.",
+          "en": "To spill - to overflow.",
+          "zh": "倒出－溢出。",
+          "examples": [
+            {
+              "t": "Ntaan mo bi nanak, wada smueq nanak ka liwas ksia so",
+              "fr": "Je l'ai vu de mes propres yeux, ta jarre d'eau s'est renversée toute seule.",
+              "en": "I saw it with my own eyes, your water jar tipped over all by itself.",
+              "zh": "我親眼看見，你那甕水自己翻倒了。"
+            }
+          ]
+        },
+        {
+          "form": "Msueq",
+          "fr": "qui est renversé - qui se renverse - qui déborde.",
+          "en": "that which is spilled - that which tips over - that which overflows.",
+          "zh": "被翻倒的－會翻倒的－會溢出的。",
+          "examples": [
+            {
+              "t": "Ga nsueq d'xgal kana sinao so da",
+              "fr": "Voilà ton vin (ta bierre) tout renversé par terre.",
+              "en": "There's your wine (your beer) all spilled on the ground.",
+              "zh": "你的酒（你的啤酒）全灑在地上了。"
+            },
+            {
+              "t": "Msueq ka lubwi so da",
+              "fr": "Ton sac renverse son contenu.",
+              "en": "Your bag is spilling its contents.",
+              "zh": "你的袋子把裡面的東西灑出來了。"
+            }
+          ]
+        },
+        {
+          "form": "Psueq",
+          "fr": "Renverser - faire déborder - faire couler - baptiser.",
+          "en": "To spill - to make overflow - to make flow - to baptize.",
+          "zh": "倒出－使溢出－使流出－施洗。",
+          "examples": [
+            {
+              "t": "Dii bi baga! Ya bi uda psueq \"lu",
+              "fr": "Tiens bien dans ta main (avec ta main) ne va pas le faire renverser en route.",
+              "en": "Hold it firmly in your hand (with your hand), don't go spilling it on the way.",
+              "zh": "用你的手好好拿著，別在路上把它灑了。"
+            },
+            {
+              "t": "Muda psueq ksia",
+              "fr": "Se faire verser de l'eau (= Terme retenu par les chrétiens pour désigner le Baptême).",
+              "en": "To have water poured over oneself (= Term adopted by Christians to designate Baptism).",
+              "zh": "讓水澆在自己身上（＝基督徒用來指稱洗禮的用語）。"
+            },
+            {
+              "t": "Mnda so psueq ksia sknuwan ?",
+              "fr": "Quand est-ce que tu as été baptisé ?",
+              "en": "When were you baptized?",
+              "zh": "你是什麼時候受洗的？"
+            },
+            {
+              "t": "Tloong ka iso; psueqon no nanak ka ksia nii",
+              "fr": "Assieds toi ! J'irai jeter (renverser) l'eau moi même !",
+              "en": "Sit down! I'll go and throw out (spill) the water myself!",
+              "zh": "你坐下！我自己去把這水倒掉！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SUIL",
+      "tag": "(SUWIL ?) (= R. ?)",
+      "fr": "De temps en temps - par intermittence. VR. MSUIL.",
+      "en": "From time to time - intermittently. See MSUIL.",
+      "zh": "偶爾－斷斷續續。參見 MSUIL。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msuil",
+          "fr": "De temps en temps - Tantôt...tantôt.",
+          "en": "From time to time - Sometimes... sometimes.",
+          "zh": "偶爾－時而……時而。",
+          "examples": [
+            {
+              "t": "Msuil malu, msuil naqex ka tama mo",
+              "fr": "Mon père tantôt est bien, tantôt mal.",
+              "en": "My father is sometimes well, sometimes unwell.",
+              "zh": "我父親時而好，時而不好。"
+            }
+          ]
+        },
+        {
+          "form": "Nsuil",
+          "fr": "d° dans le passé.",
+          "en": "ditto (as above), in the past.",
+          "zh": "同上之動詞形，指過去。",
+          "examples": [
+            {
+              "t": "Sao kia ka sktama mo ole; nsuil mqan, nsuil ini \"qan !",
+              "fr": "Feu mon père était déjà comme cela: parfois il mangeait parfois il ne mangeait pas !",
+              "en": "My late father was already like that: sometimes he ate, sometimes he didn't eat!",
+              "zh": "我已故的父親早就是那樣：有時吃，有時不吃！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SULAX",
+      "tag": "(R)",
+      "fr": "Consoler.",
+      "en": "To console.",
+      "zh": "安慰。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smulax",
+          "fr": "Consoler .",
+          "en": "To console.",
+          "zh": "安慰。",
+          "examples": [
+            {
+              "t": "Tdilas lmingis ka laqe ! Saon mo pnais smulax xeaan",
+              "fr": "L'enfant est en train de pleurer avec des cris; je veux aller le calmer (le consoler) un peu.",
+              "en": "The child is crying and screaming; I want to go and calm (console) him a little.",
+              "zh": "孩子正在哭喊；我想去稍微安撫（安慰）他。"
+            }
+          ]
+        },
+        {
+          "form": "Msulax",
+          "fr": "Celui qui console, qui apaise.",
+          "en": "The one who consoles, who soothes.",
+          "zh": "安慰人、使人平靜的人。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SUMYAQ",
+      "tag": "(R)",
+      "fr": "Pou de corps.",
+      "en": "Body louse.",
+      "zh": "體蝨。",
+      "examples": [
+        {
+          "t": "Kuxeng ni sumyaq o, sumyaq ka naqex",
+          "fr": "Les poux de corps sont plus mauvais que ceux de tête (=Poux de tête et poux de corps, les poux de corps sont mauvais).",
+          "en": "Body lice are worse than head lice (= Head lice and body lice, the body lice are the bad ones).",
+          "zh": "體蝨比頭蝨更糟（＝頭蝨與體蝨相比，體蝨是壞的）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SUNI",
+      "tag": "(R)",
+      "fr": "Tout à l'heure (dans le passé) - Il n'y a pas longtemps .",
+      "en": "A little while ago (in the past) - Not long ago.",
+      "zh": "剛才（指過去）－不久前。",
+      "examples": [
+        {
+          "t": "Suni ka malu bi taan",
+          "fr": "C'est tout à l'heure que c'était beau (à voir).",
+          "en": "It was just a little while ago that it was beautiful (to look at).",
+          "zh": "剛才它還很美（好看）。"
+        },
+        {
+          "t": "Mnsa ko suni ka yako",
+          "fr": "Moi, j'y suis allé il y a un moment.",
+          "en": "Me, I went there a moment ago.",
+          "zh": "我，我剛才去過那裡。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SUNO",
+      "tag": "(R)",
+      "fr": "Eboulement - glissement de terrain.",
+      "en": "Landslide - land slippage.",
+      "zh": "崩塌－山崩、土石滑動。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msuno",
+          "fr": "s'ébouler - s'écrouler.",
+          "en": "to collapse - to crumble down.",
+          "zh": "崩塌－崩落。",
+          "examples": [
+            {
+              "t": "Mnsuno ka dgiyaq ni wada sqtun ka \"lu ta da",
+              "fr": "La montagne s'est éboulée et la route que nous devions suivre est coupée.",
+              "en": "The mountain collapsed and the road we were to take is cut off.",
+              "zh": "山崩塌了，我們原本要走的路被切斷了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SUPYEX",
+      "tag": "(R)",
+      "fr": "Chaudron - grosse marmite.",
+      "en": "Cauldron - large cooking pot.",
+      "zh": "大鍋－大煮鍋。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SUSU",
+      "tag": "(R)",
+      "fr": "Ornements pendus aux habits - franges .",
+      "en": "Ornaments hung from clothing - fringes.",
+      "zh": "掛在衣服上的裝飾物－流蘇。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SUXAL",
+      "tag": "(R)",
+      "fr": "Autrefois (=moins éloigné dans le passé que SBIYAO).",
+      "en": "Formerly, in the past (= less far back in the past than SBIYAO).",
+      "zh": "從前（＝比 SBIYAO 距今較近的過去）。",
+      "examples": [
+        {
+          "t": "Ludan ta suxal",
+          "fr": "Nos anciens d'autrefois.",
+          "en": "Our elders of former times.",
+          "zh": "我們從前的先人。"
+        },
+        {
+          "t": "Ludan ta sbiyao",
+          "fr": "Nos ancêtres.",
+          "en": "Our ancestors.",
+          "zh": "我們的祖先。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nsuxal",
+          "fr": "D'autrefois - de l'ancien temps.",
+          "en": "Of former times - of olden days.",
+          "zh": "從前的－古時候的。",
+          "examples": [
+            {
+              "t": "Nsuxal ka gaya nii",
+              "fr": "Cette coutume est de l'ancien temps.",
+              "en": "This custom is from olden times.",
+              "zh": "這個習俗是古時候傳下來的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SUYANG",
+      "tag": "(R)",
+      "fr": "Très beau - très bon - délicieux;",
+      "en": "Very beautiful - very good - delicious;",
+      "zh": "很美－很好－美味；",
+      "examples": [
+        {
+          "t": "Suyang balae ka snalu so sapax!",
+          "fr": "Elle est très belle la maison que tu as construite.",
+          "en": "The house you built is very beautiful.",
+          "zh": "你蓋的房子非常漂亮。"
+        },
+        {
+          "t": "Ana suyang bi oqon ka pnsxada so o, ini ko bi sola !",
+          "fr": "Si bons que puissent être les mets que tu as préparés, ils ne me font pas envie !",
+          "en": "However good the dishes you have prepared may be, they don't tempt me at all!",
+          "zh": "無論你準備的菜餚多麼美味，都引不起我的食慾！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knsuyang",
+          "fr": "Intensité de beau, de bon.",
+          "en": "Intensity of beauty, of goodness.",
+          "zh": "美、好的程度。",
+          "examples": [
+            {
+              "t": "Ngaxa bi mita knsuyang sapax so ka dxea",
+              "fr": "Ils en restent bouche bée en voyant comme ta maison est belle.",
+              "en": "They are left open-mouthed on seeing how beautiful your house is.",
+              "zh": "他們看到你的房子如此漂亮，都看得目瞪口呆。"
+            }
+          ]
+        },
+        {
+          "form": "Knsyangan",
+          "fr": "La beauté - la bonté - la perfection.",
+          "en": "Beauty - goodness - perfection.",
+          "zh": "美－善－完美。",
+          "examples": [
+            {
+              "t": "Ongat pndkaan(na)ka knsyangan nia",
+              "fr": "Sa beauté est incomparable.",
+              "en": "Her beauty is incomparable.",
+              "zh": "她的美無可比擬。"
+            }
+          ]
+        },
+        {
+          "form": "Pksuyang",
+          "fr": "Rendre beau - rendre bon.",
+          "en": "To make beautiful - to make good.",
+          "zh": "使變美－使變好。",
+          "paradigm": "°Mpksuyang, pksuyang, pksyangi, pksyangan, pksyangun.",
+          "examples": [
+            {
+              "t": "Pksyangi xali ka sapax so ptasan",
+              "fr": "Embellis donc un peu ton bureau!",
+              "en": "Do embellish your office a bit!",
+              "zh": "把你的辦公室稍微美化一下吧！"
+            },
+            {
+              "t": "Pksyangun mo pax saman ka sapax nyeqon ina mo",
+              "fr": "A partir de demain je veux me mettre à rendre plus agréable la chambre où habitera ma bru !",
+              "en": "Starting tomorrow I want to set about making nicer the room where my daughter-in-law will live!",
+              "zh": "從明天起，我要著手把我媳婦要住的房間弄得更舒適！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SWAI",
+      "tag": "(SUAI) (R)",
+      "fr": "Plus jeune - cadet - cadette.",
+      "en": "Younger - younger brother - younger sister.",
+      "zh": "較年幼者－弟－妹。",
+      "examples": [
+        {
+          "t": "Daxa ta o, swai ka iso",
+          "fr": "Tu es plus jeune que moi (= de nous deux, tu es le jeune).",
+          "en": "You are younger than me (= of the two of us, you are the young one).",
+          "zh": "你比我年輕（＝我們兩人中，你是年幼的那個）。"
+        },
+        {
+          "t": "Swai mo koyox",
+          "fr": "Ma soeur cadette.",
+          "en": "My younger sister.",
+          "zh": "我的妹妹。"
+        },
+        {
+          "t": "Swai koyox mo",
+          "fr": "La petite soeur (le petit frère)de ma femme .",
+          "en": "My wife's younger sister (younger brother).",
+          "zh": "我妻子的妹妹（弟弟）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mnswai",
+          "fr": "Frères et soeurs (sans distiction d'âge) - toute la parenté directe proche, spécialement les cousins,cousines.",
+          "en": "Brothers and sisters (without distinction of age) - all close direct kin, especially cousins.",
+          "zh": "兄弟姊妹（不分長幼）－所有近親直系，尤指堂、表兄弟姊妹。",
+          "examples": [
+            {
+              "t": "Mnswai ta ka ita",
+              "fr": "Nous, nous sommes frères (vl. cousins).",
+              "en": "We, we are brothers (var. cousins).",
+              "zh": "我們，我們是兄弟（或：堂、表兄弟）。"
+            },
+            {
+              "t": "Kana ita mnswai",
+              "fr": "Nous tous frères (nous sommes tous frères; = Terme consacré pour s'adresser à un groupe du clan, comme nous dirions: Concitoyens !; Camarades Frères !)",
+              "en": "All of us brothers (we are all brothers; = the set expression for addressing a group of the clan, as we would say: Fellow citizens!; Comrades, Brothers!)",
+              "zh": "我們全是兄弟（我們都是兄弟；＝用來稱呼同氏族群體的固定用語，就像我們會說：同胞們！弟兄們！）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SWATAN",
+      "tag": "",
+      "fr": "Nom que les taroko donnent aux membres de la tribu des BUNUN, leurs voisins à l'extrémité sud de leur territoire dans le massif montagneux de l'île.",
+      "en": "Name that the Taroko give to the members of the BUNUN tribe, their neighbours at the southern extremity of their territory in the mountainous massif of the island.",
+      "zh": "太魯閣人對布農（BUNUN）部族成員的稱呼；布農人是他們在島上山地領域南端的鄰族。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SWAYAI",
+      "tag": "(= R. ?)",
+      "fr": "L'acte de se séparer.",
+      "en": "The act of parting / separating.",
+      "zh": "分開、告別的行為。",
+      "examples": [
+        {
+          "t": "Swayai ta da",
+          "fr": "Séparons nous ( = la formule consacrée quand on se sépare et qui correspond à notre : Au revoir !).",
+          "en": "Let us part (= the set expression when people part, corresponding to our: Goodbye!).",
+          "zh": "我們就此別過吧（＝人們分別時的固定用語，相當於我們的：再見！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smwayai(?)",
+          "fr": "Quitter quelqu'un - se séparer de quelqu'un.",
+          "en": "To leave someone - to part from someone.",
+          "zh": "離開某人－與某人分別。",
+          "examples": []
+        },
+        {
+          "form": "Mswayai",
+          "fr": "Qui se séparent - qui bifurquent.",
+          "en": "Those who separate - which fork / diverge.",
+          "zh": "分開者－分岔者。",
+          "examples": [
+            {
+              "t": "Adi biyao mswayai ka \"lu nami da",
+              "fr": "Avant peu nos routes vont se séparer (bifurquer).",
+              "en": "Before long our roads are going to separate (fork).",
+              "zh": "不久我們的路就要分開（分岔）了。"
+            },
+            {
+              "t": "Sao kia do, mswayai ta da xo? ka'man da!",
+              "fr": "Alors, On se sépare ? Il fait déjà nuit !",
+              "en": "So, shall we part? It's already getting dark!",
+              "zh": "那麼，我們就此別過？天已經黑了！"
+            },
+            {
+              "t": "Mnswayai nami ska'man o, ini bi lngao ana manu ka xea!",
+              "fr": "Quand nous nous sommes séparés hier soir, il n'a rien dit du tout !",
+              "en": "When we parted last night, he didn't say anything at all!",
+              "zh": "昨晚我們分別時，他什麼都沒說！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SWIWIL",
+      "tag": "(R)",
+      "fr": "Pendre - être pendu, suspendu - suspendre.",
+      "en": "To hang - to be hung, suspended - to suspend.",
+      "zh": "懸掛－被吊著、被懸著－懸掛。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mswiwil",
+          "fr": "Qui pend - qui se balance.",
+          "en": "That which hangs - that which swings.",
+          "zh": "懸垂的－搖晃的。",
+          "examples": [
+            {
+              "t": "Ga mswiwil pax dnamux sao bi palit ka klobao",
+              "fr": "Les araignées pendent au plafond comme des plumes (comme des franges).",
+              "en": "The spiders hang from the ceiling like feathers (like fringes).",
+              "zh": "蜘蛛垂掛在天花板上，像羽毛（像流蘇）一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Pswiwil",
+          "fr": "Pendre - suspendre - se suspendre - s'accrocher.",
+          "en": "To hang - to suspend - to hang oneself up - to cling on.",
+          "zh": "懸掛－吊起－把自己掛上－攀附。",
+          "paradigm": "°Mpswiwil, pswiwil, pswwili (pswili ?), pswwilan, pswwilun.",
+          "examples": [
+            {
+              "t": "Malu bi ka px'pax nii ! saon mo pswiwil babao tqean so",
+              "fr": "Voilà une belle fleur! Je vais la suspendre au dessus de ton lit.",
+              "en": "What a beautiful flower! I'm going to hang it above your bed.",
+              "zh": "多美的一朵花！我要把它掛在你的床上方。"
+            }
+          ]
+        },
+        {
+          "form": "Mpswiwil",
+          "fr": "Qui est pendu, suspendu - celui qui suspendra.",
+          "en": "That which is hung, suspended - the one who will suspend.",
+          "zh": "被吊著、被懸著的－將要懸掛者。",
+          "examples": [
+            {
+              "t": "Ngusul kana ka mpswiwil muxeng so",
+              "fr": "C'est tout de la nique qui est suspendue à ton nez.",
+              "en": "It's all snot that is hanging from your nose.",
+              "zh": "你鼻子上掛著的全是鼻涕。"
+            },
+            {
+              "t": "Manu ka gimun so ? Ga mpswiwil xea ka poting so!",
+              "fr": "Qu'est ce que tu cherches ? Ton coutelas est pendu là bas !",
+              "en": "What are you looking for? Your machete is hanging over there!",
+              "zh": "你在找什麼？你的刀就掛在那邊！"
+            }
+          ]
+        },
+        {
+          "form": "Pswwilan (pswilan)",
+          "fr": "Crochet - lieu où peut être suspendu - ce qui est suspendu.",
+          "en": "Hook - place where something can be hung - that which is hung.",
+          "zh": "掛鉤－可懸掛之處－被懸掛之物。",
+          "examples": [
+            {
+              "t": "Bulax ka sapax mo; ongat na ka ana manu pswwilan na",
+              "fr": "Ma maison est toute neuve; elle n'a pas encore de quoi suspendre .",
+              "en": "My house is brand new; it doesn't yet have anything to hang things on.",
+              "zh": "我的房子是全新的；還沒有任何可以掛東西的地方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S'XDIL",
+      "tag": "(= R. ? - R. = XDIL ?)",
+      "fr": "Lourd - pesant.",
+      "en": "Heavy - weighty.",
+      "zh": "重－沉重。",
+      "examples": [
+        {
+          "t": "Stoq ini k'la s'xdil ka Pisao",
+          "fr": "Il n'y a rien de trop lourd pour Pissao (= Pissao ne connaît pas le lourd; même construction que: §Ini k'la mawit = Infatigable = ne connaît pas la fatigue).",
+          "en": "There is nothing too heavy for Pissao (= Pissao does not know heaviness; same construction as: §Ini k'la mawit = Tireless = does not know fatigue).",
+          "zh": "對比少（Pisao）而言沒有什麼太重（＝比少不識沉重；與此結構相同：§Ini k'la mawit＝不知疲倦＝不識疲勞）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ms'xdil",
+          "fr": "Qui est lourd, pesant.",
+          "en": "That which is heavy, weighty.",
+          "zh": "重的、沉重的。",
+          "examples": [
+            {
+              "t": "Gensal ni boax o, boax ka ms'xdil",
+              "fr": "Le grain est plus lourd que la paille.",
+              "en": "The grain is heavier than the straw.",
+              "zh": "穀粒比稻草重。"
+            },
+            {
+              "t": "Ms'xdil ka koyox Palas, ini usa tmalang da!",
+              "fr": "La femme de Palace est enceinte (lourde),elle ne participe plus aux courses.",
+              "en": "Palace's wife is pregnant (heavy), she no longer takes part in the races.",
+              "zh": "巴拉斯（Palas）的妻子懷孕了（身子重），她不再參加賽跑了。"
+            }
+          ]
+        },
+        {
+          "form": "Ks'xdil",
+          "fr": "Forme négative de MS'XDIL.",
+          "en": "Negative form of MS'XDIL.",
+          "zh": "MS'XDIL 的否定形。",
+          "examples": [
+            {
+              "t": "Ini ks'xdil ka lubwi so!",
+              "fr": "Ton sac n'est pas lourd.",
+              "en": "Your bag is not heavy.",
+              "zh": "你的袋子不重。"
+            }
+          ]
+        },
+        {
+          "form": "Kns'xdil",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            {
+              "t": "K'la sao kia ka kns'xdil napa so",
+              "fr": "Je ne l'aurais pas cru tel le poids de ta charge (que tu as portée).",
+              "en": "I would not have believed the weight of your load (that you carried) to be like that.",
+              "zh": "我沒想到你（背過的）那擔子竟這麼重。"
+            }
+          ]
+        },
+        {
+          "form": "Knsxdilan",
+          "fr": "Pesanteur - densité du poids.",
+          "en": "Heaviness - density of weight.",
+          "zh": "沉重－重量的密度。",
+          "examples": [
+            {
+              "t": "Ms'xdil bi, msa so,ida kia knsxdilan na ka payai",
+              "fr": "Tu dis que c'est lourd ! C'est la pesanteur même du riz.",
+              "en": "You say it's heavy! That's the very heaviness of the rice.",
+              "zh": "你說很重！那正是稻穀本身的重量。"
+            }
+          ]
+        },
+        {
+          "form": "S'xdilan",
+          "fr": "Le poids (quantité) - la pression.",
+          "en": "The weight (quantity) - the pressure.",
+          "zh": "重量（份量）－壓力。",
+          "examples": [
+            {
+              "t": "S'xdilan balae ka pnppaan mo tdoloi gakat",
+              "fr": "J'ai transporté une bien lourde charge sur ma bicyclette.",
+              "en": "I carried a really heavy load on my bicycle.",
+              "zh": "我用腳踏車載了很重的一車貨。"
+            }
+          ]
+        },
+        {
+          "form": "Xndilan (R. = S'XDIL ? - = R. XDIL ?)",
+          "fr": "(le lieu, le temps où se manifeste la pesanteur, la lourdeur?).",
+          "en": "(the place, the time where heaviness, weightiness manifests itself?).",
+          "zh": "（沉重、重量顯現的地點或時間？）。",
+          "examples": [
+            {
+              "t": "Xndilan na bi xei ka Labai",
+              "fr": "C'était au moment où Labai était enceinte (où son corps était lourd)",
+              "en": "It was at the time when Labai was pregnant (when her body was heavy).",
+              "zh": "那正是拉拜（Labai）懷孕（身子沉重）的時候。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SXEA",
+      "tag": "(R. = XEA ?)",
+      "fr": "Qui fait que la chose soit elle même (?) - réaliser son propre goût, son propre parfum.",
+      "en": "That which makes the thing be itself (?) - to realize its own taste, its own scent.",
+      "zh": "使事物成為其本身者（？）－實現其自身的味道、自身的香氣。",
+      "examples": [],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

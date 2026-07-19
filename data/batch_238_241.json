@@ -1,0 +1,692 @@
+{
+  "pages": [238, 241],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mqapax",
+        "fr": "Qui adhère - qui épouse la forme - qui est étalé.",
+        "en": "That adheres - that takes the shape - that is spread out.",
+        "zh": "黏附的－順應形狀的－攤開鋪平的。",
+        "examples": [
+          {
+            "t": "Ga mqapax d'xgal kana ka lb'laq so da",
+            "fr": "Tous tes papiers sont jetés sur (jonchent) le sol.",
+            "en": "All your papers are thrown on (strewn over) the ground.",
+            "zh": "你所有的紙都散落鋪在地上。"
+          }
+        ]
+      },
+      {
+        "form": "Qpaxan",
+        "fr": "Endroit où l'on étale - ce qu'on étale.",
+        "en": "The place where one spreads things out - what one spreads out.",
+        "zh": "攤鋪東西的地方－所攤鋪之物。",
+        "examples": [
+          {
+            "t": "Qpaxan so manu ka ntqeli tqean so?",
+            "fr": "Avec quoi vas tu tapisser le pourtout de ta chambre (!) à coucher ?",
+            "en": "What are you going to line the whole of your bedroom (!) with?",
+            "zh": "你要用什麼鋪滿你睡覺的房間（！）四周？"
+          }
+        ]
+      },
+      {
+        "form": "Pqapax",
+        "fr": "Faire étaler - faire tapisser.",
+        "en": "To have (something) spread out - to have (a surface) lined/covered.",
+        "zh": "使攤鋪－使鋪墊。",
+        "examples": [
+          {
+            "t": "Pqpaxon so manu ka d'xgal sapax so xpuyan?",
+            "fr": "Avec quoi vas tu faire recouvrir le sol de ta cuisine ?",
+            "en": "What are you going to have the floor of your kitchen covered with?",
+            "zh": "你要用什麼鋪蓋你廚房的地面？"
+          }
+        ]
+      },
+      {
+        "form": "Sqapax",
+        "fr": "Pour étaler - pour faire adhérer - pour épouser la forme.",
+        "en": "To spread out (with) - to make (something) adhere (with) - to make (it) take the shape (with).",
+        "zh": "用以攤鋪－用以使黏附－用以使順應形狀。",
+        "examples": [
+          {
+            "t": "Ini sqapax ka nuli so",
+            "fr": "Ta colle n'adhère pas (n'est pas bonne).",
+            "en": "Your glue does not stick (is no good).",
+            "zh": "你的膠水黏不住（不好用）。"
+          }
+        ]
+      },
+      {
+        "form": "Msqapax",
+        "fr": "Adhésif - collant.",
+        "en": "Adhesive - sticky.",
+        "zh": "有黏性的－黏黏的。",
+        "examples": [
+          {
+            "t": "Msqapax bi gupun ka \"xlama",
+            "fr": "Le gâteau de riz gluant colle vraiment aux dents.",
+            "en": "The sticky rice cake really sticks to the teeth.",
+            "zh": "糯米糕真的黏牙。"
+          },
+          {
+            "t": "Msqapax bi papaq no ka laqe nii",
+            "fr": "Cet enfant ne colle vraiment aux jambes.",
+            "en": "This child really clings to (one's) legs.",
+            "zh": "這個孩子真的黏在（人的）腿上。"
+          }
+        ]
+      },
+      {
+        "form": "Psqapax",
+        "paradigm": "°Mpsqapax, psqapax, psqpaxe, psqpaxan, psqpaxon.",
+        "fr": "Coller (activement) - Faire adhérer.",
+        "en": "To stick (actively) - to make adhere.",
+        "zh": "（主動地）黏貼－使黏附。",
+        "examples": [
+          {
+            "t": "Sai psqapax l'xngun sapax so ka lb'laq nii",
+            "fr": "Va coller ce papier à la porte de ta maison.",
+            "en": "Go stick this paper on the door of your house.",
+            "zh": "去把這張紙貼在你家的門上。"
+          }
+        ]
+      },
+      {
+        "form": "Tqapax",
+        "fr": "Qui est (de fait) collé.",
+        "en": "That is (in fact) stuck on.",
+        "zh": "（事實上）黏著的。",
+        "examples": [
+          {
+            "t": "Tqapax balae tunuç ka kúxeng da!",
+            "fr": "les poux s'incrustent vraiment sur la tête.",
+            "en": "the lice really embed themselves on the head.",
+            "zh": "蝨子真的緊附在頭上。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "QAPOL",
+      "tag": "( = R. ?)",
+      "fr": "s'agglutiner - entourer - se rassembler autour.",
+      "en": "to agglutinate/clump together - to surround - to gather round about.",
+      "zh": "聚結成團－圍繞－聚集環繞。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Qmapol",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Xbalao bi sadyaq nniyax qmapol xeaan snax ana ino",
+              "fr": "Ils sont venus nombreux de partout (de nombreuses personnes .. venues de tous les côtés) l'entourer ,",
+              "en": "They came in great numbers from everywhere (many people .. come from all sides) to surround him,",
+              "zh": "他們從四面八方大批前來（許多人……從各方而來）圍住他，"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAQAI",
+      "tag": "(R)",
+      "fr": "Pieds (spécialement du corps humain).",
+      "en": "Feet (especially of the human body).",
+      "zh": "腳（尤指人體的腳）。",
+      "examples": [
+        {
+          "t": "Mnsa ko qaqai",
+          "fr": "Je suis allé à pieds.",
+          "en": "I went on foot.",
+          "zh": "我走路去的。"
+        },
+        {
+          "t": "Mnksa ko qaqai",
+          "fr": "J'ai marché à pieds (et non pas monté).",
+          "en": "I went on foot (and did not ride).",
+          "zh": "我步行（沒有搭乘）。"
+        },
+        {
+          "t": "Malu bi kana btelyaq ni kulao nia; wana bi qaqai na ka naqex",
+          "fr": "Ses cuisses et ses jambes sont bonnes; il n'y a que les pieds qui sont mauvais.",
+          "en": "His thighs and his legs are fine; it is only the feet that are bad.",
+          "zh": "他的大腿和小腿都好，只有腳不好。"
+        }
+      ]
+    },
+    {
+      "hw": "QATAI",
+      "tag": "(R)",
+      "fr": "Le fait d'être en mauvais état, en pièces, en morceaux (se dit spécialement pour ce qui est étoffe et pour ce qui est construit).",
+      "en": "The state of being in bad condition, in pieces, in bits (said especially of what is fabric/cloth and of what is built/constructed).",
+      "zh": "處於破損、破碎、支離狀態（尤用於布料以及建造之物）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqatai",
+          "fr": "Qui est déchiré, démoli, en morceaux.",
+          "en": "That is torn, demolished, in pieces.",
+          "zh": "被撕破、拆毀、破碎的。",
+          "examples": [
+            {
+              "t": "Mqatai kana ka patas no da",
+              "fr": "Tous mes livres sont en mauvais état (= déchirés, décousus).",
+              "en": "All my books are in bad shape (= torn, coming apart).",
+              "zh": "我所有的書都破損了（＝撕破、散開）。"
+            },
+            {
+              "t": "Xeaon so ka libul kia ! ga nqatai betak tlona da",
+              "fr": "Que veux tu en faire de ces pantalons là! Ils sont en guenilles complètement (jusqu'au fond) !",
+              "en": "What do you want to do with those trousers! They are completely in rags (right through)!",
+              "zh": "你要那條褲子做什麼！它已經完全破成破布（徹底破爛）了！"
+            }
+          ]
+        },
+        {
+          "form": "Pqatai",
+          "fr": "Démolir - réduire en pièces - abîmer.",
+          "en": "To demolish - to reduce to pieces - to damage/ruin.",
+          "zh": "拆毀－弄成碎片－損壞。",
+          "examples": [
+            {
+              "t": "Boxo ka mnda xeni pqatai kana ssapax nami",
+              "fr": "C'est le typhon qui est passé par là et a démoli toutes nos maisons.",
+              "en": "It was the typhoon that passed by here and demolished all our houses.",
+              "zh": "是颱風從這裡經過，把我們所有的房子都摧毀了。"
+            }
+          ]
+        },
+        {
+          "form": "Tqatai",
+          "fr": "Qui est dans un état de décrépitude - qui est dévasté, démoli, abîmé.",
+          "en": "That is in a state of dilapidation - that is devastated, demolished, ruined.",
+          "zh": "處於破敗狀態的－殘破、拆毀、損壞的。",
+          "examples": [
+            {
+              "t": "Mxdo mqqan daxa o, asi bi tqatai kana llukus daxa ni kana knalang sapax mo ole",
+              "fr": "Après leur querelle, tous leurs habits étaient en lambeaux et la palissade de ma maison toute démolie.",
+              "en": "After their quarrel, all their clothes were in tatters and the palisade of my house all demolished.",
+              "zh": "他們爭吵之後，他們所有的衣服都成了破爛，我家的柵欄也全被拆毀了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QATAL",
+      "tag": "(R)",
+      "fr": "Enjambée - un pas.",
+      "en": "A stride - a step.",
+      "zh": "跨步－一步。",
+      "examples": [
+        {
+          "t": "Uxai d'xyaq ! Lima qatal ni d'xok so da!",
+          "fr": "Ce n'est pas loin! Cinq enjambées et tu y es.",
+          "en": "It's not far! Five strides and you're there.",
+          "zh": "不遠！跨五步你就到了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqatal",
+          "fr": "Faire un pas - enjamber.",
+          "en": "To take a step - to stride over.",
+          "zh": "邁一步－跨過。",
+          "examples": [
+            {
+              "t": "Adi mo bi dxkon nqátal ka kndlxan gaga",
+              "fr": "Je n'arriverai certainement pas à enjamber ce mur là.",
+              "en": "I will certainly not manage to step over that wall there.",
+              "zh": "我一定跨不過那道牆。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAXOL",
+      "tag": "(R)",
+      "fr": "Pierraille - terrain caillouteux.",
+      "en": "Loose stones/scree - stony ground.",
+      "zh": "碎石堆－多石的地。",
+      "examples": [
+        {
+          "t": "Balae bi mpakmpaxan xeti ka qaxol nii xo?",
+          "fr": "Est-ce que vraiment ce terrain caillouteux deviendra un jour un champ cultivable ?",
+          "en": "Will this stony ground really become a cultivable field one day?",
+          "zh": "這片多石的地真的有一天會變成可耕種的田嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkqaxol",
+          "fr": "Dans un terrain caillouteux - dans la pierraille.",
+          "en": "In stony ground - in the loose stones.",
+          "zh": "在多石的地裡－在碎石堆中。",
+          "examples": [
+            {
+              "t": "Manu ka saan so mxoma trabus mkqaxol,",
+              "fr": "Qu'est-ce qui te prend d'aller planter des arachides sur un tas de cailloux ?",
+              "en": "What possesses you to go planting peanuts on a heap of stones?",
+              "zh": "你是怎麼想的，竟跑去在一堆石頭上種花生？"
+            }
+          ]
+        },
+        {
+          "form": "Qqaxol (Kqaxol (?))",
+          "fr": "Très caillouteux. (nb. Est-ce dérivé de:MKQAXOL ? ou, c'est plus probable,la forme pluriel pour: QXQAXOL ?).",
+          "en": "Very stony. (n.b. Is it derived from MKQAXOL? or, more probably, the plural form for QXQAXOL?).",
+          "zh": "非常多石。（註：是衍生自 MKQAXOL 嗎？或者更可能是 QXQAXOL 的複數形？）",
+          "examples": [
+            {
+              "t": "Mntöting qqaxol (qxqaxol) ka doma g'xap nia",
+              "fr": "Une partie de ses semences est tombée dans un terrain rocailleux.",
+              "en": "Part of his seed fell on rocky ground.",
+              "zh": "他的一部分種子落在多石的地上。"
+            }
+          ]
+        },
+        {
+          "form": "Qxqaxol",
+          "fr": "(Forme pluriel (vl. désignant l'intensité) de QAXOL) = Très rocailleux - Les rocailles.",
+          "en": "(Plural form (var. denoting intensity) of QAXOL) = Very rocky - the rocky places/rubble.",
+          "zh": "（QAXOL 的複數形（或：表強度））＝非常多岩石的－亂石堆。",
+          "examples": []
+        },
+        {
+          "form": "Gmqaxol",
+          "fr": "Epierrer - Enlever les pierres d'un terrain.",
+          "en": "To clear of stones - to remove the stones from a piece of ground.",
+          "zh": "清除石頭－把地裡的石頭撿掉。",
+          "examples": [
+            {
+              "t": "Saon no pkxnuk ni gmqaxol ka xmaan padyaq",
+              "fr": "Je veux aller ameublir et épierrer le jardin (l'endroit où planter des légumes).",
+              "en": "I want to go loosen the soil and clear the stones from the garden (the place for planting vegetables).",
+              "zh": "我想去把菜園（種菜的地方）的土鬆一鬆並清掉石頭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAYA",
+      "tag": "(R)",
+      "fr": "Gêne - obstacle - gêner - empêcher.",
+      "en": "Hindrance - obstacle - to hinder - to prevent.",
+      "zh": "妨礙－障礙－阻礙－阻止。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Qmaya",
+          "paradigm": "°Qmaya, qaya, .?. , .?. , qyaan (?), qyaon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上，動詞形。",
+          "examples": [
+            {
+              "t": "Qmaya bi ddaan ka tdoloi so",
+              "fr": "Ta voiture gêne vraiment le passage.",
+              "en": "Your car really blocks the way.",
+              "zh": "你的車真的擋住了通道。"
+            }
+          ]
+        },
+        {
+          "form": "Pqaya",
+          "paradigm": "°Mpqaya, pqaya, pqyai, pqyaan, pqyaon.",
+          "fr": "Faire que ce soit un obstacle - s'opposer.",
+          "en": "To make it an obstacle - to oppose/stand in the way.",
+          "zh": "使其成為障礙－阻擋。",
+          "examples": [
+            {
+              "t": "Usa da! Ma\" so pqaya \"lu daxa",
+              "fr": "Va-t-en ! (Pourquoi est-ce que) tu obstrues le passage (des autres).",
+              "en": "Go away! (Why is it that) you obstruct (other people's) way.",
+              "zh": "走開！（你為什麼）擋住（別人的）路。"
+            }
+          ]
+        },
+        {
+          "form": "Pqaya (Est-ce de la R. QAYA ?)",
+          "fr": "Suspendre - accrocher quelque chose.",
+          "en": "(Is it from the root QAYA?) = To hang up - to hook/hang something.",
+          "zh": "（是否出自詞根 QAYA？）＝懸掛－把某物掛起。",
+          "examples": [
+            {
+              "t": "Nasi qnaya ka lukus no o, sai pqaya siyao l'xngun da",
+              "fr": "Si ton habit gêne, va donc le suspendre à côté de la porte.",
+              "en": "If your garment is in the way, then go and hang it up beside the door.",
+              "zh": "如果你的衣服礙事，就把它掛在門邊吧。"
+            }
+          ]
+        },
+        {
+          "form": "Qyaan",
+          "fr": "Obstacle - difficulté.",
+          "en": "Obstacle - difficulty.",
+          "zh": "障礙－困難。",
+          "examples": []
+        },
+        {
+          "form": "Spqaya",
+          "fr": "Pour faire obstacle - pour empêcher - pour accrocher.",
+          "en": "To serve as an obstacle - to prevent - to hang (something) on.",
+          "zh": "用以成為障礙－用以阻止－用以掛（東西）。",
+          "examples": [
+            {
+              "t": "Ngalun so manu ka pnta'to so qouni? ... Spqaya no lubwi maso da",
+              "fr": "Quel usage penses tu faire du bois que tu as planté? ... Il ne servira à accrocher (à suspendre) le sac de millet.",
+              "en": "What use do you think you'll make of the wood you planted? ... It will (only) serve to hang the millet sack on.",
+              "zh": "你打算把你種的那棵樹（木頭）做什麼用？……它只會用來掛小米袋。"
+            },
+            {
+              "t": "Ya so splang ptaqol pusu qouni nii spqaya so \"lu daxa",
+              "fr": "Je suppose que tu fais exprès d'abattre cet arbre pour faire obstacle à leur passage ?",
+              "en": "I suppose you are deliberately felling this tree to obstruct their passage?",
+              "zh": "我猜你是故意砍倒這棵樹來擋住他們的去路吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAYA",
+      "tag": "(R)",
+      "fr": "(nb. Est un sens dérivé du précédent ?) = Chose - objet - bagages. (En tous cas c'est au moins curieux, et certainement conforme à leur philosophie de la vie, de voir les taroko employer ce terme: QAYA pour désigner les objets, les possessions, les richesses dans le sens de ce qui encombre, de ce qui gêne, comme l'armée romaine parlait de \"Impedimenta\" !).",
+      "en": "(n.b. Is this a sense derived from the preceding one?) = Thing - object - baggage. (In any case it is at least curious, and certainly in keeping with their philosophy of life, to see the Taroko use this term QAYA to designate objects, possessions, riches in the sense of what encumbers, what hinders, just as the Roman army spoke of \"Impedimenta\"!).",
+      "zh": "（註：這是否是由前一個詞義衍生而來？）＝東西－物件－行李。（無論如何，看到太魯閣人用 QAYA 一詞來指稱物件、財物、財富，取其「累贅之物、妨礙之物」之意，就如同羅馬軍隊所說的「Impedimenta（輜重）」一般，至少是耐人尋味的，也確實符合他們的人生哲學！）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Qqaya",
+          "fr": "Forme pluriel de QAYA; = Les objets - meuble - possessions.",
+          "en": "Plural form of QAYA; = the objects - furniture/goods - possessions.",
+          "zh": "QAYA 的複數形；＝物件－家當－財物。",
+          "examples": [
+            {
+              "t": "Qdani bi ka doma qqaya sapax so",
+              "fr": "Débarrasse toi de quelques uns des objets (de ce qui encombre) de ta maison.",
+              "en": "Get rid of some of the objects (of what clutters) in your house.",
+              "zh": "把你家裡一些東西（那些累贅之物）處理掉吧。"
+            }
+          ]
+        },
+        {
+          "form": "Qnqaya",
+          "fr": "Objets - choses - bagages - richesses.",
+          "en": "Objects - things - baggage - riches.",
+          "zh": "物件－東西－行李－財富。",
+          "examples": [
+            {
+              "t": "Ida so pnyeqon babao d'xgal nii ka ana manu dnui so qnqaya (vl...d'xgal nii nxal ka ana manu qnqaya dnui so)",
+              "fr": "De toute façon (un jour) tu laisseras sur cette terre tout ce que tu possèdes .",
+              "en": "In any case (one day) you will leave behind on this earth everything that you possess.",
+              "zh": "無論如何，（有一天）你將把你所擁有的一切都留在這片土地上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAYO",
+      "tag": "(KAYO ?) (= R. ?)",
+      "fr": "Récipient - plat - assiette.",
+      "en": "Container - dish - plate.",
+      "zh": "容器－盤子－碟子。",
+      "examples": []
+    },
+    {
+      "hw": "QBAXANG",
+      "tag": "( = R. ? - R. = BAXANG ?)",
+      "crossRef": "VR. BAXANG",
+      "fr": "Écouter. (nb. Les taroko ne semblent pas faire une distinction nette comme nous entre: Écouter et entendre, comme pour: Voir et regarder, acheter et vendre. QBAXANG pourrait bien être la forme: KBAXANG, où le K est devenu Q (radico-pharyngale) à cause du voisinage de la radico-uvulaire X. Mbaxang = qui entend; Kbaxang = se mettre en état d'entendre = Écouter (!?).",
+      "en": "To listen. (n.b. The Taroko do not seem to make a clear distinction as we do between: to listen and to hear, as with: to see and to look, to buy and to sell. QBAXANG could well be the form KBAXANG, where the K has become Q (radico-pharyngeal) because of the proximity of the radico-uvular X. Mbaxang = one who hears; Kbaxang = to put oneself in a state to hear = to listen (!?).",
+      "zh": "聽。（註：太魯閣人似乎不像我們一樣在「傾聽」與「聽見」之間作明確區分，就如同「看」與「注視」、「買」與「賣」一樣。QBAXANG 很可能就是 KBAXANG 這個形式，其中 K 因鄰近小舌音 X（radico-uvular）而變成 Q（radico-pharyngeal，咽化音）。Mbaxang＝聽見的人；Kbaxang＝使自己進入能聽見的狀態＝傾聽（！？）。",
+      "examples": [
+        {
+          "t": "Ma\" ini so Qbaxang ( Kbaxang ?) kari?",
+          "fr": "Pourquoi n'obeis tu pas ? (Pourquoi n'écoutes tu pas la parole ?).",
+          "en": "Why do you not obey? (Why do you not listen to what is said?).",
+          "zh": "你為什麼不聽話？（你為什麼不聽別人的話？）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqbaxang (Mkbaxang ?)",
+          "fr": "Qui écoute (= qui est en état d'entendre (?)) ( Mbaxang = Qui est en train d'entendre; Mkbaxang (mqbaxang) = qui est en état, en condition pour entendre = Écouter ??).",
+          "en": "One who listens (= one who is in a state to hear (?)) (Mbaxang = one who is in the act of hearing; Mkbaxang (mqbaxang) = one who is in the state, in the condition to hear = to listen ??).",
+          "zh": "傾聽的人（＝處於能聽見狀態的人（？））（Mbaxang＝正在聽見的人；Mkbaxang（mqbaxang）＝處於能聽見的狀態、具備聽的條件的人＝傾聽？？）。",
+          "examples": [
+            {
+              "t": "Ya adi namo mxlapas ? ... Adi! Mqbaxang (mkbaxang) nami balae!",
+              "fr": "J'espère que vous n'êtes pas en train de vous dissiper! ... Non! Nous écoutons attentivement.",
+              "en": "I hope you are not letting your attention wander! ... No! We are listening attentively.",
+              "zh": "我希望你們不是在分心走神！……不！我們正在專心聽。"
+            }
+          ]
+        },
+        {
+          "form": "Pqbaxang",
+          "fr": "Faire écouter (faire qu'on entende !).",
+          "en": "To make (someone) listen (to make it so that one hears!).",
+          "zh": "使（人）聽－使人聽見！",
+          "examples": [
+            {
+              "t": "Sai pqbaxang tityex ka laqe",
+              "fr": "Va donc faire un peu écouter les enfants ! VR. BAXANG .",
+              "en": "Go on then and make the children listen a little! See BAXANG.",
+              "zh": "那就去讓孩子們稍微聽一聽吧！參見 BAXANG。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QBILING",
+      "tag": "( = R. ? - R. = BILING ?)",
+      "fr": "Menteur - mentir - tromper.",
+      "en": "Liar - to lie - to deceive.",
+      "zh": "說謊者－說謊－欺騙。",
+      "examples": [
+        {
+          "t": "Ini ko qbiling ka yako",
+          "fr": "Je ne suis pas menteur (Je ne mens pas, moi !).",
+          "en": "I am not a liar (I do not lie, me!).",
+          "zh": "我不是說謊的人（我才不說謊呢！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqbiling",
+          "paradigm": "°Mqbiling, qbiling, qblingi, qblingan, qblingun.",
+          "fr": "Qui est menteur - mentir - tromper.",
+          "en": "That is a liar - to lie - to deceive.",
+          "zh": "說謊的－說謊－欺騙。",
+          "examples": [
+            {
+              "t": "Mqbiling so balae!",
+              "fr": "Tu es un fieffé menteur.",
+              "en": "You are an out-and-out liar.",
+              "zh": "你是個十足的騙子。"
+            }
+          ]
+        },
+        {
+          "form": "Qblingan",
+          "fr": "Mensonge - tromperie - celui qui a été trompé.",
+          "en": "A lie - deceit - the one who has been deceived.",
+          "zh": "謊言－欺騙－被騙的人。",
+          "examples": [
+            {
+              "t": "Wada mo qblingan ka ludan",
+              "fr": "J'ai menti à mes parents (je leur ai raconté une histoire).",
+              "en": "I lied to my parents (I told them a tale).",
+              "zh": "我對我父母說了謊（我編了個故事騙他們）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpqbiling",
+          "paradigm": "°Mpqbiling, pqbiling, pqblingi, pqblingan, pqblingun.",
+          "fr": "Menteur - faire se tromper - faire être menteur.",
+          "en": "Liar - to make (someone) err - to make (someone) be a liar.",
+          "zh": "說謊者－使人受騙－使人成為說謊者。",
+          "examples": [
+            {
+              "t": "Ya adi so mpqbiling knan xo",
+              "fr": "J'espère que tu veux pas me tromper (faire que je sois dans le faux) !",
+              "en": "I hope you don't want to deceive me (to put me in the wrong/in error)!",
+              "zh": "我希望你不是想欺騙我（使我陷入謬誤）！"
+            }
+          ]
+        },
+        {
+          "form": "Pqblingun",
+          "fr": "Celui qu'on veut, doit, induire en erreur.",
+          "en": "The one whom one wants, or is bound, to lead into error.",
+          "zh": "想要、或勢必要去誤導的對象。",
+          "examples": [
+            {
+              "t": "Malu bi pqblingun ka lludan so",
+              "fr": "Tes parents sont faciles à rouler.",
+              "en": "Your parents are easy to fool.",
+              "zh": "你的父母很容易被騙。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QBOBO",
+      "tag": "( = R. ?)",
+      "fr": "Couvre-chef - chapeau.",
+      "en": "Headgear - hat.",
+      "zh": "頭飾－帽子。",
+      "examples": [
+        {
+          "t": "Ini so qtai ka qbobo mo xo?",
+          "fr": "N'as tu pas vu mon chapeau ?",
+          "en": "Have you not seen my hat?",
+          "zh": "你沒看到我的帽子嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqbobo",
+          "fr": "Porter un couvre-chef, un chapeau.",
+          "en": "To wear headgear, a hat.",
+          "zh": "戴頭飾、戴帽子。",
+          "examples": [
+            {
+              "t": "Xmut mnqbobo (mnkbobo ?) mtmai (vl. mqbobo mntmai) sapax no ka xea",
+              "fr": "Avec désinvolture il est rentré chez moi son chapeau sur la tête !",
+              "en": "Casually he came into my house with his hat on his head!",
+              "zh": "他一副滿不在乎的樣子，戴著帽子就進了我家！"
+            }
+          ]
+        },
+        {
+          "form": "Pqbobo",
+          "fr": "Faire porter un chapeau.",
+          "en": "To make (someone) wear a hat.",
+          "zh": "給（人）戴帽子。",
+          "examples": [
+            {
+              "t": "Ini xali pqbobo lqean na ka Akit",
+              "fr": "Le plus souvent Akitz ne met pas de chapeau à son enfant.",
+              "en": "Most often Akitz does not put a hat on his child.",
+              "zh": "阿吉（Akitz）多半不給他的孩子戴帽子。"
+            }
+          ]
+        },
+        {
+          "form": "Pqboan (= contraction pour: PQBBOAN ?)",
+          "fr": "Action passée de couvrir - celui qu'on a recouvert (d'un chapeau).",
+          "en": "Past action of covering - the one who/that which has been covered (with a hat).",
+          "zh": "過去的覆蓋動作－被（用帽子）蓋住之物／人。",
+          "examples": [
+            {
+              "t": "Tnninun daxa dole kingal qbobo paqao ni pqboan (na ?) xaya",
+              "fr": "Ils tressèrent encore (aussi) un chapeau d'épines et le lui mirent sur la tête.",
+              "en": "They wove yet another (also a) hat of thorns and put it on his head.",
+              "zh": "他們又編了一頂荊棘冠冕，戴在他的頭上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QBOBOL",
+      "tag": "(R)",
+      "fr": "Corps (humain) - enveloppe - l'ensemble.",
+      "en": "Body (human) - the outer covering/envelope - the whole.",
+      "zh": "（人的）身體－軀殼－整體。",
+      "examples": [
+        {
+          "t": "Ida mpn\"mu d'xgal n'xal ka qbobol ta",
+          "fr": "De toute façon notre corps sera un jour réduit sous forme de poussière (poudre de terre).",
+          "en": "In any case our body will one day be reduced to dust (powder of earth).",
+          "zh": "無論如何，我們的身體終有一天會化為塵土（泥土的粉末）。"
+        }
+      ]
+    },
+    {
+      "hw": "QBULIT",
+      "tag": "(R)",
+      "fr": "Cendre - poussière très fine.",
+      "en": "Ash - very fine dust.",
+      "zh": "灰燼－極細的粉塵。",
+      "examples": [
+        {
+          "t": "Ya qdani ana ino ka qbulit tbako so!",
+          "fr": "Ne jette pas partout les cendres de ta cigarette ( de ton tabac) !",
+          "en": "Don't throw the ash of your cigarette (of your tobacco) all over the place!",
+          "zh": "別到處亂彈你香菸（菸草）的菸灰！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqbulit",
+          "fr": "Etre dans l'état de cendres - s'effriter.",
+          "en": "To be in the state of ashes - to crumble away.",
+          "zh": "處於灰燼狀態－碎散、崩解。",
+          "examples": [
+            {
+              "t": "Malu bi xmaan trabus ka d'xgal nii! Ini biyao mqbulit da!",
+              "fr": "C'est un très bon endroit pour planter des arachides,ici! La terre s'effrite (devient poussière) très facilement.",
+              "en": "This is a very good spot for planting peanuts, here! The soil crumbles (turns to dust) very easily.",
+              "zh": "這裡是種花生的好地方！這土很容易碎散（化為粉塵）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QBXNI",
+      "tag": "( = R. ? - R. = BXNI ?)",
+      "fr": "Oiseau - les oiseaux.",
+      "en": "Bird - birds.",
+      "zh": "鳥－鳥類。",
+      "examples": [
+        {
+          "t": "Mnsa tdiyal lobong ka qbxni da",
+          "fr": "L'oiseau est allé se faire prendre au piège .",
+          "en": "The bird went and got itself caught in the trap.",
+          "zh": "鳥去自投羅網，被陷阱抓住了。"
+        }
+      ]
+    }
+  ]
+}

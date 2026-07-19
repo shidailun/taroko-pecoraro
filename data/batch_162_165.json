@@ -1,0 +1,493 @@
+{
+  "pages": [162, 165],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "LIMA",
+      "tag": "(R)",
+      "fr": "Cinq.",
+      "en": "Five.",
+      "zh": "五。",
+      "examples": [
+        { "t": "Maxal lima", "fr": "Quinze.", "en": "Fifteen.", "zh": "十五。" },
+        { "t": "Lima kbukwi", "fr": "Cinq cent.", "en": "Five hundred.", "zh": "五百。" },
+        { "t": "Lima ni lima o, maxal da", "fr": "Cinq et cinq font dix.", "en": "Five and five make ten.", "zh": "五加五等於十。" }
+      ],
+      "subs": [
+        {
+          "form": "Mlimal",
+          "fr": "Cinquante.",
+          "en": "Fifty.",
+          "zh": "五十。",
+          "examples": [
+            { "t": "Mlimal ko xnkawas sngali da", "fr": "Voilà que j'ai plus de cinquante ans.", "en": "Here I am now more than fifty years old.", "zh": "我如今已經超過五十歲了。" }
+          ]
+        },
+        {
+          "form": "Mlima",
+          "fr": "Cinquième fois.",
+          "en": "Fifth time.",
+          "zh": "第五次。",
+          "examples": [
+            { "t": "Mlima ko sayang da", "fr": "Aujourd'hui cela fait cinq fois (c'est aujourd'hui la cinquième fois).", "en": "Today makes five times (today is the fifth time).", "zh": "今天是第五次（今天已經是第五次了）。" }
+          ]
+        },
+        {
+          "form": "Mnlima",
+          "fr": "Cinq fois (dans le passé).",
+          "en": "Five times (in the past).",
+          "zh": "五次（過去）。",
+          "examples": [
+            { "t": "Mnlima ko bi mnqan apo", "fr": "Je n'ai mangé des kakis que cinq fois.", "en": "I have eaten persimmons only five times.", "zh": "我只吃過五次柿子。" }
+          ]
+        },
+        {
+          "form": "Pnlima",
+          "fr": "Cinq à la fois - cinq à chacun.",
+          "en": "Five at a time - five to each.",
+          "zh": "一次五個－每人五個。",
+          "examples": [
+            { "t": "Pnlima namo xei", "fr": "Mettez vous par cinq (vl. Vous êtes par cinq).", "en": "Arrange yourselves in fives (var. You are in fives).", "zh": "你們每五人一組（或：你們是五人一組）。" }
+          ]
+        },
+        {
+          "form": "Snlima",
+          "fr": "Quintupler - en cinq couches.",
+          "en": "To quintuple - in five layers.",
+          "zh": "使成五倍－五層。",
+          "examples": [
+            { "t": "Snlima ka wada no psaan penki", "fr": "J'en ai mis cinq couches de peinture.", "en": "I have put on five coats of paint.", "zh": "我塗了五層漆。" },
+            { "t": "Mskoto kana xei mo ana ko msnlima mxelao qabang", "fr": "J'ai la chair de poule (sur tout le corps) bien que je me sois couvert de cinq couvertures.", "en": "I have goosebumps (all over my body) even though I have covered myself with five blankets.", "zh": "雖然我蓋了五條被子，（全身）還是起雞皮疙瘩。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIMU",
+      "tag": "(R)",
+      "fr": "Prendre par la douceur - flatter - caresse.",
+      "en": "To win over with gentleness - to flatter - caress.",
+      "zh": "以溫柔取悅－奉承－愛撫。",
+      "subs": [
+        {
+          "form": "Lmimu",
+          "paradigm": "°Lmimu, limu, lmui, lmuan, lmuon.",
+          "fr": "Amadouer - caresser - flatter - s'y prendre par la douceur.",
+          "en": "To coax - to caress - to flatter - to go about it gently.",
+          "zh": "哄騙－愛撫－奉承－以溫柔的方式對待。",
+          "examples": [
+            { "t": "Ma so miyax lmimu knan da", "fr": "Qu'est ce qui te prend de venir me flatter (me caresser)?", "en": "What has got into you, coming to flatter me (to caress me)?", "zh": "你是怎麼了，跑來奉承我（愛撫我）？" },
+            { "t": "Ma so niyax mplimu knan da", "fr": "Qu'est ce qui te prend de venir te faire consoler par moi ?", "en": "What has got into you, coming to be consoled by me?", "zh": "你是怎麼了，跑來讓我安慰你？" }
+          ]
+        },
+        {
+          "form": "Lmuan",
+          "fr": "Caresse - tout ce qui peut toucher, attendrir, calmer.",
+          "en": "Caress - anything that can touch, soften, calm.",
+          "zh": "愛撫－一切能感動、軟化、撫慰的事物。",
+          "examples": [
+            { "t": "Ini ko k'la lmuan ka yako", "fr": "Je ne suis pas de ceux qui se laissent (vl. qui savent) attendrir, moi (Je ne suis pas sensible aux compliments, aux caresses).", "en": "I am not one of those who let themselves be (var. who know how to be) softened, me (I am not susceptible to compliments, to caresses).", "zh": "我不是那種會被打動（或：懂得被打動）的人（我對讚美、愛撫無動於衷）。" }
+          ]
+        },
+        {
+          "form": "Plimu",
+          "fr": "Chercher à s'attirer les faveurs, à attendrir.",
+          "en": "To seek to win favors, to soften (someone).",
+          "zh": "設法博取好感、打動人心。",
+          "examples": [
+            { "t": "Miyax ko mplimu sunan da", "fr": "Je viens me faire chouchouter par toi (= je viens te demander une faveur).", "en": "I come to be pampered by you (= I come to ask you a favor).", "zh": "我來讓你寵我（＝我來向你求一個人情）。" }
+          ]
+        },
+        {
+          "form": "Mplimu",
+          "fr": "Câlin - qui se fait gâter - qui aime les flatteries.",
+          "en": "Cuddly - who lets himself be spoiled - who likes flattery.",
+          "zh": "愛撒嬌的－愛被寵的－喜歡奉承的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "LIMUK",
+      "tag": "(R)",
+      "fr": "Récipient en cuivre, de forme arrondie, pouvant servir de marmite et qui entrait comme pièce importante dans la composition de la dot payée pour l'achat d'une bru.",
+      "en": "A copper vessel, of rounded shape, that could serve as a cooking pot and that was an important item in the dowry paid for the purchase of a daughter-in-law.",
+      "zh": "銅製圓形容器，可當鍋使用，是娶媳婦所付聘禮中的重要物件。",
+      "examples": []
+    },
+    {
+      "hw": "LINGAI",
+      "tag": "(R)",
+      "fr": "Voisins - ceux du voisinage.",
+      "en": "Neighbors - those of the neighborhood.",
+      "zh": "鄰居－鄰近的人。",
+      "examples": [
+        { "t": "Lingai bi sapax mo ka taolan", "fr": "Taolanne est voisin de chez moi.", "en": "Taolanne is a neighbor of mine.", "zh": "陶蘭是我家的鄰居。" }
+      ],
+      "subs": [
+        {
+          "form": "Llingai",
+          "fr": "Les voisins (pluriel), - Les environs - dans le voisinage.",
+          "en": "The neighbors (plural) - the surroundings - in the neighborhood.",
+          "zh": "鄰居們（複數）－周圍－在鄰近一帶。",
+          "examples": [
+            { "t": "K'laon na bi kana llingai ka Tasao", "fr": "Tassao connaît tous ses voisins.", "en": "Tassao knows all his neighbors.", "zh": "達少認識他所有的鄰居。" },
+            { "t": "Qqlang kngongo kana llingai", "fr": "Tous les voisins tremblaient de peur.", "en": "All the neighbors were trembling with fear.", "zh": "所有鄰居都嚇得發抖。" }
+          ]
+        },
+        {
+          "form": "Mlingai",
+          "fr": "Se quereller - se chamailler. (nb. Est ce bien la R. LINGAI ? et dans ce cas serait ce par ironie ? par Euphémisme ? que cette signification en est dérivée ?)",
+          "en": "To quarrel - to bicker. (n.b. Is this really the R. LINGAI? and in that case would it be by irony? by euphemism? that this meaning is derived from it?)",
+          "zh": "爭吵－鬥嘴。（註：這真的是詞根 LINGAI 嗎？若是，這個意思是否是透過反諷？委婉？而衍生出來的？）",
+          "examples": [
+            { "t": "Knta'to mlingai ka Tanax ni Talan", "fr": "Tanarh et Talanne sont toujours à se chamailler.", "en": "Tanarh and Talanne are always bickering.", "zh": "塔納和塔蘭老是在鬥嘴。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LINGIS",
+      "tag": "(R)",
+      "fr": "Le fait de pleurer.",
+      "en": "The act of crying.",
+      "zh": "哭泣一事。",
+      "examples": [
+        { "t": "Ya lingis! giso ka bobo so da", "fr": "Ne pleure pas, ta maman vient tout de suite.", "en": "Don't cry, your mommy is coming right away.", "zh": "別哭，你媽媽馬上就來。" }
+      ],
+      "subs": [
+        {
+          "form": "Lmingis",
+          "paradigm": "°Lmingis, lingis, .?., Lngisan, lngisun.",
+          "fr": "Pleurer.",
+          "en": "To cry.",
+          "zh": "哭。",
+          "examples": [
+            { "t": "Ana lmingis ka laqe o, laxe da! Adi mpxoya", "fr": "Même si l'enfant pleure, laisse le pleurer! cela ne sera rien (il n'y aura aucune suite fâcheuse).", "en": "Even if the child cries, let him cry! it will be nothing (there will be no unfortunate consequence).", "zh": "就算孩子哭，讓他哭吧！沒關係的（不會有什麼不好的後果）。" }
+          ]
+        },
+        {
+          "form": "Lngisan",
+          "fr": "Pleurs - Temps, manière, cause du pleurer.",
+          "en": "Weeping - the time, manner, cause of crying.",
+          "zh": "哭泣－哭的時間、方式、原因。",
+          "examples": [
+            { "t": "Manu bi ka pusu lngisan so", "fr": "Mais pourquoi donc pleures tu ?", "en": "But why on earth are you crying?", "zh": "你到底為什麼哭呢？" }
+          ]
+        },
+        {
+          "form": "Slngisan",
+          "fr": "Motif qui fait pleurer.",
+          "en": "The reason that makes (someone) cry.",
+          "zh": "使人哭泣的緣由。",
+          "examples": [
+            { "t": "Mnxoqel tama na, kika paro slngisan na", "fr": "Son père est mort, voilà ce le fait tant pleurer, (voilà le motif de toutes ses larmes).", "en": "His father died, that is what makes him cry so much (that is the cause of all his tears).", "zh": "他父親過世了，這就是他哭得如此傷心的原因（這就是他所有眼淚的緣由）。" }
+          ]
+        },
+        {
+          "form": "Plingis",
+          "fr": "Faire pleurer.",
+          "en": "To make (someone) cry.",
+          "zh": "使人哭泣。",
+          "examples": [
+            { "t": "Mplingis knan ka kbsulan so ni, ya adi so niyax plingis boan so !", "fr": "Déjà ton frère ainé me fait pleurer et, je suppose que tu ne viens pas aussi faire pleurer ta mère ?", "en": "Your elder brother already makes me cry and, I suppose you are not also coming to make your mother cry?", "zh": "你哥哥已經惹我哭了，我想你不會也來惹你媽哭吧？" },
+            { "t": "Adi ! Laqe mo neidang ka splingis knan", "fr": "Ce n'est pas cela, c'est mon fils dévoyé (perdu) qui me fait pleurer.", "en": "That's not it, it is my wayward (lost) son who makes me cry.", "zh": "不是這樣，是我那誤入歧途（迷失）的兒子讓我哭。" }
+          ]
+        },
+        {
+          "form": "Tnlingis.",
+          "fr": "Pleurer (de fait) à chaudes larmes.",
+          "en": "To cry (indeed) hot tears.",
+          "zh": "（確實）痛哭流涕。",
+          "examples": [
+            { "t": "Plading tsdanat ni tnlingis knnaqex kuxul ka xea", "fr": "Elle a commencé à être triste et à pleurer de tristesse.", "en": "She began to be sad and to cry from sadness.", "zh": "她開始傷心，並因悲傷而哭泣。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LISAO",
+      "tag": "",
+      "fr": "Jeune homme (non marié) - adolescent.",
+      "en": "Young man (unmarried) - adolescent.",
+      "zh": "年輕男子（未婚）－青少年。",
+      "examples": [
+        { "t": "Lisao so ka iso; sao kia do, usa toxoi dlisao da", "fr": "Tu es un jeune homme, va donc te joindre aux jeunes gens.", "en": "You are a young man, so go join the young people.", "zh": "你是個年輕人，去跟年輕人在一起吧。" },
+        { "t": "Yamo llisao o, taga tityex", "fr": "Vous les jeunes garçons, attendez un peu.", "en": "You young lads, wait a little.", "zh": "你們這些年輕小伙子，等一下。" }
+      ],
+      "subs": [
+        {
+          "form": "Lsagan",
+          "fr": "Forme oblique de LISAO.",
+          "en": "Oblique form of LISAO.",
+          "zh": "LISAO 的斜格形式。",
+          "examples": [
+            { "t": "Lngagun mo lsagan", "fr": "Je le dirai (je parlerai) au jeune garçon.", "en": "I will say it (I will speak) to the young lad.", "zh": "我會告訴（對）那年輕小伙子說。" },
+            { "t": "Tmalang ko musa lsagan", "fr": "Je cours chez (Je vais en courant chez) le jeune homme.", "en": "I run to (I go running to) the young man's place.", "zh": "我跑去（奔向）那年輕人那裡。" },
+            { "t": "Tmalang ko uusa mo lsagan", "fr": "Je cours pour aller chez le jeune homme.", "en": "I run in order to go to the young man's place.", "zh": "我為了去那年輕人那裡而奔跑。" }
+          ]
+        },
+        {
+          "form": "Knlisao",
+          "fr": "Mesure, qualité de jeunesse.",
+          "en": "Measure, quality of youth.",
+          "zh": "青春的程度、特質。",
+          "examples": [
+            { "t": "Tayal knlisao so!", "fr": "Oh la! Quel beau jeune homme tu fais !", "en": "Oh my! What a handsome young man you make!", "zh": "哎呀！你真是個俊俏的年輕人！" }
+          ]
+        },
+        {
+          "form": "Knlsagan",
+          "fr": "La jeunesse (de quelqu'un).",
+          "en": "The youth (of someone).",
+          "zh": "（某人的）青春。",
+          "examples": [
+            { "t": "A sao knlsagan so ka mpd'xok so mxlao (m'xlao) xeaan", "fr": "C'est grâce à ta jeunesse que tu arrives à le poursuivre.", "en": "It is thanks to your youth that you manage to pursue him.", "zh": "多虧你年輕，你才能追上他。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LISOX",
+      "tag": "(R)",
+      "fr": "Enduire - peindre - badigeonner.",
+      "en": "To coat - to paint - to daub.",
+      "zh": "塗抹－漆－塗刷。",
+      "subs": [
+        {
+          "form": "Lmisox",
+          "paradigm": "°Lmisox, lisox, lsoxe, lsoxan lsoxon.",
+          "fr": "Oindre, enduire de quelque chose.",
+          "en": "To anoint, to coat with something.",
+          "zh": "塗油、以某物塗抹。",
+          "examples": [
+            { "t": "Lsoxe ko tityex sapox so", "fr": "Voudrais tu m'appliquer un peu de ton médicament ?", "en": "Would you apply a little of your medicine on me?", "zh": "你願意幫我塗一點你的藥嗎？" },
+            { "t": "Lsoxai ta sapox so xo ?", "fr": "Puis je demander que nous mettions un peu de ton médicament?", "en": "May I ask that we put on a little of your medicine?", "zh": "我可以請求我們塗一點你的藥嗎？" }
+          ]
+        },
+        {
+          "form": "Lsoxan",
+          "fr": "Action d'oindre - onguent - lieu de l'onction.",
+          "en": "The act of anointing - ointment - place of anointing.",
+          "zh": "塗油的動作－藥膏－塗油之處。",
+          "examples": [
+            { "t": "Kmlisox ko qaqai so ni, ongal ka lsoxan no da (lsoxon no da ?)", "fr": "Je voudrais bien enduire ton pied (de médicament mais) je n'ai plus d'onguent.", "en": "I would like to coat your foot (with medicine but) I have no more ointment.", "zh": "我很想幫你的腳塗藥（但）我沒有藥膏了。" },
+            { "t": "Lnsoxan bi ima ka muxeng so?", "fr": "Qui est ce qui a badigeonné ton nez?", "en": "Who is it that daubed your nose?", "zh": "是誰在你鼻子上塗了東西？" }
+          ]
+        },
+        {
+          "form": "Plisox",
+          "fr": "Se faire enduire - se faire badigeonner.",
+          "en": "To have oneself coated - to have oneself daubed.",
+          "zh": "讓人替自己塗抹－讓人替自己塗刷。",
+          "examples": [
+            { "t": "Tmalang ko uusa mo Banan splisox no xwinuk", "fr": "Je cours pour aller chez Ibanne me faire mettre de la pommade sur les reins.", "en": "I run to go to Ibanne's place to have ointment put on my lower back.", "zh": "我跑去伊班那裡，讓人在我腰上塗藥膏。" },
+            { "t": "Ga snqleqe ka papaq no; miyax ko plisox (pslisox ?) tityeq", "fr": "Mon pied s'est tordu, je viens me faire mettre un peu de pommade.", "en": "My foot got twisted; I come to have a little ointment put on.", "zh": "我的腳扭到了，我來讓人塗一點藥膏。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LITA",
+      "tag": "(R. = ??)",
+      "fr": "Invitation à aller ensemble = Allons! (nb. seule forme connue avec: NTA = Viens (avec moi)!",
+      "en": "Invitation to go together = Let's go! (n.b. the only known form, along with: NTA = Come (with me)!",
+      "zh": "邀約一起去＝走吧！（註：唯一已知的形式，連同：NTA＝來（跟我來）！",
+      "examples": [
+        { "t": "Tutwi kana, lita da!", "fr": "Levez vous tous (et) allons !", "en": "All of you get up (and) let's go!", "zh": "你們大家起來，走吧！" }
+      ]
+    },
+    {
+      "hw": "LITOK",
+      "tag": "(R)",
+      "fr": "Pièce de terre - coin de terre, de champ, bien délimités.",
+      "en": "A plot of land - a corner of land, of field, clearly bounded.",
+      "zh": "一塊地－界線分明的一角土地、田地。",
+      "examples": [
+        { "t": "Daxa litok nii do, nbaki no ka kingal, nnako ka kingal", "fr": "(De) ces deux champs, l'un est à mon beau-père, l'autre est à moi.", "en": "Of these two fields, one belongs to my father-in-law, the other belongs to me.", "zh": "這兩塊田，一塊是我岳父的，另一塊是我的。" }
+      ]
+    },
+    {
+      "hw": "LIUS (LIYUS)",
+      "tag": "(R)",
+      "fr": "Traces laissées dans la rosée, dans l'herbe, dans la végétation, dans la mer (laissées par le passage de quelqu'un, qqch.)",
+      "en": "Traces left in the dew, in the grass, in the vegetation, in the sea (left by the passing of someone, something).",
+      "zh": "留在露水、草地、植被、海中的痕跡（因某人、某物經過而留下）。",
+      "examples": []
+    },
+    {
+      "hw": "LIWAK",
+      "tag": "(R)",
+      "fr": "Chasser - faire partir.",
+      "en": "To drive away - to make (something) leave.",
+      "zh": "驅趕－使離開。",
+      "examples": [
+        { "t": "Ma, ini so liwak lngdi !", "fr": "Mais, comment! Tu ne chasses pas les mouches ?", "en": "But, how come! You don't drive away the flies?", "zh": "咦，怎麼回事！你不趕蒼蠅嗎？" }
+      ],
+      "subs": [
+        {
+          "form": "Lmiwak",
+          "paradigm": "°Lmiwak, liwak, lwaqe (lwake ?), lwaqan, lwaqon.",
+          "fr": "Chasser - faire partir - éloigner.",
+          "en": "To drive away - to make leave - to keep at a distance.",
+          "zh": "驅趕－使離開－使遠離。",
+          "examples": [
+            { "t": "Taga xan ! Saon no pnais lmiwak kating da", "fr": "Attends un peu, je vais juste chasser le buffle.", "en": "Wait a bit, I'm just going to drive away the buffalo.", "zh": "等一下，我正要去趕水牛。" }
+          ]
+        },
+        {
+          "form": "Lwaqe (Lwake)",
+          "fr": "Chasse ! (nb. Ici, et dans bien d'autres cas similaires il semble bien qu'il y a une mutation constante du K de la base qui se réalise Q dans certains contextes !).",
+          "en": "Drive (it) away! (n.b. Here, and in many other similar cases, it does seem that there is a constant mutation of the K of the base which becomes Q in certain contexts!).",
+          "zh": "把牠趕走！（註：在此，以及許多其他類似情況中，詞根的 K 似乎確實有一個固定的音變，在某些語境中變成 Q！）",
+          "examples": [
+            { "t": "Lngdi kana dqalas baki; lwaqe binao ( = BI + NA + O ??)", "fr": "Le visage de grand père est couvert de mouches; chasse les donc un peu !", "en": "Grandfather's face is covered with flies; do drive them away a bit!", "zh": "爺爺的臉上滿是蒼蠅；把牠們趕走一點吧！" }
+          ]
+        },
+        {
+          "form": "Pliwak",
+          "fr": "Faire chasser - se faire chasser.",
+          "en": "To have (something) driven away - to have (them) driven away.",
+          "zh": "使人去驅趕－讓人替自己驅趕。",
+          "examples": [
+            { "t": "Psaon no laqe musa pliwak lngdi da", "fr": "Je vais envoyer le gosse pour aller chasser les mouches.", "en": "I'm going to send the kid to go drive away the flies.", "zh": "我要派那孩子去趕蒼蠅。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIWANG",
+      "tag": "(R)",
+      "fr": "Maigre - maigreur.",
+      "en": "Thin - thinness.",
+      "zh": "瘦－消瘦。",
+      "examples": [
+        { "t": "Pax liwang nia ka klaon no rinalox na", "fr": "C'est en regardant sa maigreur que je reconnais sa maladie.", "en": "It is by looking at his thinness that I recognize his illness.", "zh": "我是看他消瘦才認出他生病了。" }
+      ],
+      "subs": [
+        {
+          "form": "Mliwang",
+          "fr": "Etre maigre - être peu fertile.",
+          "en": "To be thin - to be barely fertile.",
+          "zh": "瘦－不太肥沃。",
+          "examples": [
+            { "t": "Ma so mliwang bi da!", "fr": "Que tu es maigre !", "en": "How thin you are!", "zh": "你好瘦啊！" }
+          ]
+        },
+        {
+          "form": "Knliwang",
+          "fr": "Intensité de maigreur.",
+          "en": "Degree of thinness.",
+          "zh": "消瘦的程度。",
+          "examples": [
+            { "t": "Ini so kliwang ka iso ! Tai bi knliwang no ka yako", "fr": "Toi, tu n'es pas maigre! Regarde un peu ma maigreur à moi !", "en": "You, you are not thin! Just look at my own thinness!", "zh": "你才不瘦呢！看看我這消瘦的樣子吧！" }
+          ]
+        },
+        {
+          "form": "Pkliwang",
+          "fr": "Faire devenir maigre - faire maigrir.",
+          "en": "To make (someone/something) become thin - to make (them) lose weight.",
+          "zh": "使變瘦－使消瘦。",
+          "examples": [
+            { "t": "Adi splangun so balae pkliwang mlitan no da !", "fr": "ne ferais tu pas exprès de faire maigrir mes chèvres ?", "en": "Wouldn't you be deliberately making my goats lose weight?", "zh": "你該不會是故意讓我的山羊變瘦吧？" }
+          ]
+        },
+        {
+          "form": "Skliwang",
+          "fr": "Amaigrissant - pour faire maigrir.",
+          "en": "Slimming - for making (someone) lose weight.",
+          "zh": "使人消瘦的－用來使人變瘦的。",
+          "examples": [
+            { "t": "Skliwang bi sdyaqon ka oqon na nii", "fr": "Elle fait vraiment maigrir les gens cette nourriture qu'il nous donne (vl. qu'il mange).", "en": "It really makes people lose weight, this food he gives us (var. that he eats).", "zh": "他給我們吃的這種食物真的讓人消瘦（或：他吃的這種食物）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIWAQ",
+      "tag": "(R)",
+      "fr": "Eclair - brillant - étinceler.",
+      "en": "Lightning - shining - to sparkle.",
+      "zh": "閃電－明亮的－閃爍。",
+      "examples": [
+        { "t": "Mnda blax no ka paro bi liwaq ! sao smiso bi!", "fr": "Un énorme éclair est passé juste devant moi; cela fait peur !", "en": "A huge flash of lightning passed right in front of me; it's frightening!", "zh": "一道巨大的閃電就從我面前掠過；真嚇人！" }
+      ],
+      "subs": [
+        {
+          "form": "Mliwaq",
+          "fr": "Faire des éclairs - briller - étinceler.",
+          "en": "To make lightning - to shine - to sparkle.",
+          "zh": "打閃電－發亮－閃爍。",
+          "examples": [
+            { "t": "Tai ka mliwaq do, mngongo ko, ongat ka yako da", "fr": "Quand il fait des éclairs, j'ai peur, je n'existe plus !", "en": "When there is lightning, I'm afraid, I no longer exist!", "zh": "打閃電的時候，我很害怕，我簡直魂飛魄散！" }
+          ]
+        },
+        {
+          "form": "Pliwaq (?)",
+          "fr": "Faire briller (en action ?)",
+          "en": "To make (something) shine (in action?)",
+          "zh": "使發亮（進行中？）",
+          "examples": [
+            { "t": "Ga ko mbiyax bi pliwak lixao sao saan pslixao laqe da", "fr": "J'y mets toutes mes forces pour polir (rendre brillant) la glace où vient se mirer ma fille.", "en": "I put all my strength into polishing (making shiny) the mirror where my daughter comes to look at herself.", "zh": "我竭盡全力擦亮（使發光）我女兒照鏡子用的那面鏡子。" }
+          ]
+        },
+        {
+          "form": "Pkliwaq",
+          "fr": "Faire que ce soit brillant.",
+          "en": "To make it be shiny.",
+          "zh": "使其變得明亮。",
+          "examples": [
+            { "t": "Lmnglong ko pkliwaq titiex toke no nii", "fr": "Je pense faire briller (rendre brillante) un peu ma montre.", "en": "I'm thinking of making my watch shine (making it shiny) a bit.", "zh": "我想把我的錶擦亮一點（使它發光）。" }
+          ]
+        },
+        {
+          "form": "Skliwaq",
+          "fr": "Faire que cela devienne brillant.",
+          "en": "To make it become shiny.",
+          "zh": "使其變得明亮。",
+          "examples": [
+            { "t": "Babao pnsaan na sapox do, asi skliwaq kana da", "fr": "Après qu'il eut mis son produit, c'est aussitôt devenu tout brillant.", "en": "After he put on his product, it immediately became all shiny.", "zh": "他塗上他的產品之後，立刻整個變得亮晶晶。" }
+          ]
+        },
+        {
+          "form": "Spkliwaq",
+          "fr": "se servir pour faire briller.",
+          "en": "To use (something) for making (something) shine.",
+          "zh": "用來使東西發亮。",
+          "examples": [
+            { "t": "Xeaon so ka galyeq gaga? ... spkliwaq no toke ina no", "fr": "Que veux tu faire de ce chiffon là? ... Je veux n'en servir pour faire briller la montre de ma bru.", "en": "What do you want to do with that rag? ... I want to use it to make my daughter-in-law's watch shine.", "zh": "你要那塊抹布做什麼？……我要用它來擦亮我媳婦的錶。" }
+          ]
+        },
+        {
+          "form": "Mtliwaq",
+          "fr": "Qui est devenu tout brillant, tout étincelant.",
+          "en": "Which has become all shiny, all sparkling.",
+          "zh": "變得亮晶晶、閃閃發光的。",
+          "examples": [
+            { "t": "Mtliwaq kana daolyaq na, ida bi ga mnalox", "fr": "Ses yeux sont tout brillants, il doit être malade ;", "en": "His eyes are all shiny, he must be ill;", "zh": "他的眼睛亮晶晶的，他一定是生病了；" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LIWAQ",
+      "tag": "(R. ?)",
+      "crossRef": "VR. LIWAK",
+      "fr": "Chasser - faire partir - éloigner. VR. LIWAK.",
+      "en": "To drive away - to make leave - to keep at a distance. See LIWAK.",
+      "zh": "驅趕－使離開－使遠離。參見 LIWAK。",
+      "examples": []
+    },
+    {
+      "hw": "LIWAS",
+      "tag": "(R)",
+      "fr": "Grand récipient en terre - grande marmite évasée en métal - espèce de très grande amphore (?) qui sert aux taroko de réservoir pour l'eau de la consomation familiale.",
+      "en": "Large earthen vessel - large flared metal pot - a kind of very large amphora (?) that serves the Taroko as a reservoir for the water of family consumption.",
+      "zh": "大型陶製容器－敞口的大型金屬鍋－一種極大的甕（？），太魯閣人用來當作家庭飲用水的儲水器。",
+      "examples": [
+        { "t": "Ntaan so ka liwas daxa bulax ? Uxai xmut d'xgal o, balae bi tasil balae", "fr": "Tu l'as vu leur nouveau réservoir pour l'eau? Il n'est pas en vulgaire terre, mais en pierre...", "en": "Have you seen their new water reservoir? It's not made of common earth, but of stone...", "zh": "你看過他們新的儲水器了嗎？它不是用普通的泥土做的，而是用石頭……" }
+      ],
+      "truncated": true
+    }
+  ]
+}

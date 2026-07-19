@@ -1,0 +1,786 @@
+{
+  "pages": [126, 129],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "KL'XEQ",
+      "tag": "(QL'XEQ ?) (R. = L'XEQ = Peau)",
+      "fr": "Ecorcher - Enlever l'écorce, la peau.",
+      "en": "To skin - to remove the bark, the skin.",
+      "zh": "剝皮——除去樹皮、外皮。",
+      "examples": [
+        {
+          "t": "Wada so kl'xqon ka loqex so dole",
+          "fr": "Tu as encore écorché tes plaies!",
+          "en": "You have scraped your wounds open again!",
+          "zh": "你又把你的傷口擦破了!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkl'xeq",
+          "fr": "S'écorcher - s'écorcer.",
+          "en": "To get skinned - to get scraped (lose its skin/bark).",
+          "zh": "被擦破皮——脫皮(剝落)。",
+          "examples": [
+            {
+              "t": "Mkl'xeq kana ka muxeng mo da!",
+              "fr": "Tout mon nez est écorché (perd sa peau). VR. L'XEQ.",
+              "en": "My whole nose is scraped raw (is losing its skin). See L'XEQ.",
+              "zh": "我的鼻子整個都破皮了(掉皮)。參見 L'XEQ。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KMALAO",
+      "tag": "(R. = KALAO ... Plus probablement: QALAO)",
+      "fr": "Mettre en ordre, purifier faire le ménage.",
+      "en": "To put in order, to purify, to do the housework.",
+      "zh": "整理、淨化,做家務打掃。",
+      "examples": [
+        {
+          "t": "Yaxon miso kmalao ka tqean so",
+          "fr": "Je veux venir mettre en ordre ton lit (ta chambre à coucher, l'endroit où tu dors). VR. QALAO.",
+          "en": "I want to come and put your bed in order (your bedroom, the place where you sleep). See QALAO.",
+          "zh": "我要來整理你的床(你的臥室,你睡覺的地方)。參見 QALAO。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KMDAMAT",
+      "tag": "(R. = DAMAT ? - = KDAMAT ?)",
+      "fr": "Saluer - féliciter.",
+      "en": "To greet - to congratulate.",
+      "zh": "問候——祝賀。",
+      "examples": [
+        {
+          "t": "Mnsa ko kmdamat Banan sndurai",
+          "fr": "Je suis allé dernièrement saluer Ibanne. VR. DAMAT.",
+          "en": "I recently went to greet Ibanne. See DAMAT.",
+          "zh": "我最近去問候了Ibanne。參見 DAMAT。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KMLNU\"",
+      "tag": "(R. = ??)",
+      "fr": "Restaurer (tout ce qui n'est pas en bon état).",
+      "en": "To restore (anything that is not in good condition).",
+      "zh": "修復(凡狀況不佳之物)。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KMOLOX",
+      "tag": "(R)",
+      "fr": "Ciseau à bois.",
+      "en": "Wood chisel.",
+      "zh": "木鑿。",
+      "examples": [
+        {
+          "t": "Kmolox tasil",
+          "fr": "Ciseau pour la taille des pierres.",
+          "en": "Chisel for cutting stone.",
+          "zh": "鑿石用的鑿子。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KMPAUX",
+      "tag": "(R. PAUX ?)",
+      "fr": "A l'envers - Sens dessus dessous. VR. PAUX.",
+      "en": "Inside out - upside down. See PAUX.",
+      "zh": "反著——顛倒。參見 PAUX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KMPOLING",
+      "tag": "(R. = POLING ?)",
+      "fr": "Entourer - presser de tous côtés.",
+      "en": "To surround - to press in from all sides.",
+      "zh": "包圍——四面進逼。",
+      "examples": [
+        {
+          "t": "Mntutwi kana ppais iyax daxa ( Yiyax daxa) kmpoling alang ta",
+          "fr": "Tous les ennemis se sont mis en route pour venir encercler notre village. VR. POLING.",
+          "en": "All the enemies have set out to come and encircle our village. See POLING.",
+          "zh": "所有的敵人都已出發前來包圍我們的村莊。參見 POLING。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knplingan",
+          "fr": "Foule - armée - troupeau (de R. KPOLING ? - POLING ?).",
+          "en": "Crowd - army - herd (from root KPOLING ? - POLING ?).",
+          "zh": "人群——軍隊——獸群(源自詞根 KPOLING?——POLING?)。",
+          "examples": [
+            {
+              "t": "Kingal paro bi knplingan swatan mniyax sntlong knan.",
+              "fr": "Une foule de Bununs ( = Peuple Bounoun) est venue à ma rencontre.",
+              "en": "A crowd of Bununs (= the Bunun people) came to meet me.",
+              "zh": "一大群布農人(=布農族)前來與我相遇。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KM'SUL",
+      "tag": "(R. K'SUL)",
+      "fr": "Pincer.",
+      "en": "To pinch.",
+      "zh": "捏;掐。",
+      "examples": [
+        {
+          "t": "Ongat ka km'sul sunan da",
+          "fr": "Il n'y a plus personne qui te pince. VR. K'SUL.",
+          "en": "There is no longer anyone who pinches you. See K'SUL.",
+          "zh": "再也沒有人捏你了。參見 K'SUL。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KMUPAN",
+      "tag": "(R. = ??)",
+      "fr": "Moisi - avarié.",
+      "en": "Moldy - spoiled.",
+      "zh": "發霉的——腐壞的。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "K'MUX",
+      "tag": "(R)",
+      "fr": "Ivraie.",
+      "en": "Tares (ryegrass, weeds).",
+      "zh": "稗草(莠草)。",
+      "examples": [
+        {
+          "t": "Adi bi mpgxei ka payai mo, kmux (k'mux) kana da",
+          "fr": "Ce n'est pas possible que mon riz puisse donner du fruit, c'est de l'ivraie partout.",
+          "en": "It is not possible for my rice to bear fruit; there are tares everywhere.",
+          "zh": "我的稻子不可能結實,到處都是稗草。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Psk'mux",
+          "fr": "Faire arracher l'ivraie.",
+          "en": "To have the tares pulled up.",
+          "zh": "使人拔除稗草。",
+          "examples": [
+            {
+              "t": "Saani n'xali psk'mux kmpaxan so",
+              "fr": "Va donc (par tierce personne, par quelque moyen) arracher l'ivraie dans ton champ.",
+              "en": "Go then (through a third person, by some means) and pull up the tares in your field.",
+              "zh": "去吧(託第三者、想個辦法)把你田裡的稗草拔掉。"
+            }
+          ]
+        },
+        {
+          "form": "Sk'mux",
+          "fr": "arracher l'ivraie.",
+          "en": "to pull up the tares.",
+          "zh": "拔除稗草。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "KN",
+      "tag": "",
+      "fr": "Affixe (nominalisant) très fréquent; 1) Préfixe, indique l'intensité, la qualité d'un état. 2) Circonfixe, simultanément avec le suffixe AN indique l'idée abstraite correspondante à la base: Paro = Grand ; Knplaan (KN + PLA (paro) + AN) = Grandeur - taille.",
+      "en": "Very frequent (nominalizing) affix; 1) As a prefix, it indicates the intensity, the quality of a state. 2) As a circumfix, together with the suffix AN, it indicates the abstract idea corresponding to the base: Paro = big; Knplaan (KN + PLA (paro) + AN) = size - stature.",
+      "zh": "非常常見的(名詞化)詞綴;1)作前綴,表示狀態的強度、性質。2)作環綴,與後綴 AN 同時使用,表示與詞基相對應的抽象概念:Paro=大;Knplaan(KN+PLA(paro)+AN)=大小——尺寸。",
+      "examples": [
+        { "t": "Lisao", "fr": "Jeune homme", "en": "Young man", "zh": "年輕人" },
+        { "t": "Knlisao", "fr": "La qualité de jeune homme", "en": "The quality of being a young man", "zh": "年輕人的特質" },
+        { "t": "Tayal ludan", "fr": "Oh! le vieux!", "en": "Oh! the old man!", "zh": "哦!這老人!" },
+        { "t": "Tayal knludan", "fr": "Oh! ce qu'il est vieux!", "en": "Oh! how old he is!", "zh": "哦!他多麼老啊!" },
+        { "t": "Sadyaq", "fr": "Personne", "en": "Person", "zh": "人" },
+        { "t": "Knsadyaq", "fr": "Densité de personne humaine = Beau", "en": "Density of human person = handsome", "zh": "為人之充實=俊美" }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNALANG",
+      "tag": "(KN'ALANG) (R. ALANG ?)",
+      "fr": "Barrière - palissade - Enceinte.",
+      "en": "Barrier - palisade - enclosure.",
+      "zh": "柵欄——圍籬——圍場。",
+      "examples": [
+        {
+          "t": "Sluon mo kingal knalang stabu mo lodoç",
+          "fr": "Je veux construire un enclos pour élever des poules. VR. ALANG.",
+          "en": "I want to build an enclosure to raise chickens. See ALANG.",
+          "zh": "我要建一個圍欄來養雞。參見 ALANG。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNAWAL",
+      "tag": "(R)",
+      "fr": "Fil de fer.",
+      "en": "Iron wire.",
+      "zh": "鐵絲。",
+      "examples": [
+        {
+          "t": "Soqe q'ling bi ka knawal mo, ini biyao mstok",
+          "fr": "Mon fil de fer est trop fin, il casse très vite.",
+          "en": "My iron wire is too thin; it breaks very quickly.",
+          "zh": "我的鐵絲太細,很快就斷。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNDADAX",
+      "tag": "(R. = DADAX ?)",
+      "fr": "Partir de - se mettre en route à partir de.",
+      "en": "To leave from - to set out from.",
+      "zh": "從……離開——從……啟程。",
+      "examples": [
+        {
+          "t": "Kndadax ko Tagaxan mlubu suni",
+          "fr": "Je suis parti de Tagarhan ce matin.",
+          "en": "I left Tagarhan this morning.",
+          "zh": "我今天早上從Tagarhan出發。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNDOTO",
+      "tag": "(R. ?)",
+      "fr": "Bracelet - ornement autour des bras.",
+      "en": "Bracelet - ornament worn around the arms.",
+      "zh": "手鐲——戴在手臂上的飾品。",
+      "examples": [
+        {
+          "t": "Uxai bi luxai Troko ka psping; knkingal nanak ka pxa Gidi adi ole o, kndoto",
+          "fr": "Ce n'est pas vraiment l'habitude des taroko de porter des ornements (de faire toilette); à peine l'un ou l'autre met des bijoux ou des bracelets.",
+          "en": "It is not really the custom of the Taroko to wear ornaments (to adorn themselves); hardly anyone puts on jewellery or bracelets.",
+          "zh": "佩戴飾品(打扮)其實不是太魯閣人的習慣;幾乎沒有人戴珠寶或手鐲。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KND'SAN",
+      "tag": "(R. = ADAS ?)",
+      "fr": "Nature - sorte - qualité propre.",
+      "en": "Nature - kind - inherent quality.",
+      "zh": "本性——種類——固有性質。",
+      "examples": [
+        {
+          "t": "Samat bi manu ka gaga? ... Ida bi knd'san milit",
+          "fr": "Quelle espèce de gibier peut bien être cette bête là ? ... Sans doute de la sorte des chèvres.",
+          "en": "What kind of game can that beast over there be? ... No doubt of the goat kind.",
+          "zh": "那隻野獸究竟是哪一種獵物?……大概是山羊之類。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNDUX",
+      "tag": "(R. = ?? - = DUX ?)",
+      "fr": "Epais (dans sens de dimension ; dans sens de densité on dit: MD'NGIL).",
+      "en": "Thick (in the sense of dimension; in the sense of density one says: MD'NGIL).",
+      "zh": "厚(指尺寸而言;若指密度則說:MD'NGIL)。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kndxan (kndçan)",
+          "fr": "Epaisseur.",
+          "en": "Thickness.",
+          "zh": "厚度。",
+          "examples": [
+            {
+              "t": "Klaon so smpong ka kndxan ktinox gaga xo?",
+              "fr": "Saurait tu mesurer l'épaisseur de cette planche là ?",
+              "en": "Could you measure the thickness of that plank over there?",
+              "zh": "你能量出那塊木板的厚度嗎?"
+            },
+            {
+              "t": "Muxul bi ka lukus mo, tai nanak ka kndxan nia",
+              "fr": "Mes habits sont bien chauds, regarde un peu leur épaisseur.",
+              "en": "My clothes are very warm; just look at their thickness.",
+              "zh": "我的衣服很暖和,你看看它們有多厚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KNILAO",
+      "tag": "(R)",
+      "fr": "Nourriture préparée pour les cochons.",
+      "en": "Food prepared for the pigs.",
+      "zh": "為豬準備的食物(豬食)。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KNIXOL",
+      "tag": "(R. ? - R. = NIXOL ?)",
+      "fr": "Acide - aigre - pimenté - épicé.",
+      "en": "Acid - sour - hot (peppery) - spicy.",
+      "zh": "酸——酸澀——辛辣——加了香料的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mnixol (Mixol ?)",
+          "fr": "Qui est amer, acide, épicé.",
+          "en": "That which is bitter, sour, spicy.",
+          "zh": "苦的、酸的、辣的。",
+          "examples": [
+            {
+              "t": "Ini knixol ka mami, tlaxe ka mnixol bi",
+              "fr": "Les oranges ne sont pas amères, c'est le pamplemousse qui l'est.",
+              "en": "Oranges are not bitter; it is the pomelo that is.",
+              "zh": "橘子不苦,苦的是柚子。"
+            }
+          ]
+        },
+        {
+          "form": "Mixol",
+          "fr": "Var. de MNIXOL.",
+          "en": "Var. of MNIXOL.",
+          "zh": "MNIXOL 之變體。",
+          "examples": []
+        },
+        {
+          "form": "Knnxolan",
+          "fr": "Acidité - amertume (de ce qui est amer).",
+          "en": "Acidity - bitterness (of that which is bitter).",
+          "zh": "酸度——(苦物之)苦味。",
+          "examples": [
+            {
+              "t": "Pax knnxolan lnglongan na nanak ka slngao na",
+              "fr": "Il parle (ainsi), ce n'est que par l'amertume de son coeur. (L'amertume ... qui le fait parler).",
+              "en": "He speaks (thus) only out of the bitterness of his heart. (It is the bitterness ... that makes him speak.)",
+              "zh": "他(這樣)說話,只是出於他內心的苦楚。(是那苦楚……使他說話。)"
+            }
+          ]
+        },
+        {
+          "form": "Pknixol",
+          "fr": "Rendre plus épicé - rendre amer.",
+          "en": "To make spicier - to make bitter.",
+          "zh": "使更辣——使變苦。",
+          "examples": [
+            {
+              "t": "Pknxoli tityex ka damat so",
+              "fr": "Il faut épicer un peu plus tes légumes.",
+              "en": "You should spice your vegetables a little more.",
+              "zh": "你的菜應該再加辣一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KNKAX",
+      "tag": "(R. = K'KAX ?)",
+      "fr": "Poser le pied sur - presser sur avec le pied.",
+      "en": "To set one's foot on - to press on with the foot.",
+      "zh": "把腳踩在……上——用腳踩壓。",
+      "examples": [
+        {
+          "t": "Ma so knkax (kmkax ?) papaq mo",
+          "fr": "Qu'est ce qui te prend de me marcher sur le pied ?",
+          "en": "What has got into you, stepping on my foot?",
+          "zh": "你是怎麼了,竟踩我的腳?"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knkaxan",
+          "fr": "Endroit où on pose le pied (ou quelque objet lourd) - L'action (passée, faite) de poser le pied.",
+          "en": "Place where one sets the foot (or some heavy object) - The (past, completed) action of setting the foot.",
+          "zh": "放腳(或重物)之處——踩腳的(已完成的)動作。",
+          "examples": [
+            {
+              "t": "Ongat knkaxan da; slaq ana ino !",
+              "fr": "Il n'y a pas où poser le pied! C'est de la boue partout !",
+              "en": "There is nowhere to set foot! There is mud everywhere!",
+              "zh": "沒有地方可以落腳!到處都是泥巴!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KNLIWA",
+      "tag": "(R)",
+      "fr": "Extrème - à outrance - empirer.",
+      "en": "Extreme - to excess - to get worse.",
+      "zh": "極端——過度——惡化。",
+      "examples": [
+        {
+          "t": "Malu mnalox na xo ? ... Knliwa da!",
+          "fr": "Son mal va mieux? ... Celà empire !",
+          "en": "Is his illness getting better? ... It is getting worse!",
+          "zh": "他的病好些了嗎?……反而更嚴重了!"
+        },
+        {
+          "t": "Knliwa bi ka papaq na",
+          "fr": "Son pied va de mal en pis!",
+          "en": "His foot is going from bad to worse!",
+          "zh": "他的腳越來越糟了!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNOLOX",
+      "tag": "(R)",
+      "fr": "Faîte d'un toit, d'une construction.",
+      "en": "Ridge of a roof, of a building.",
+      "zh": "屋頂、建築物的屋脊。",
+      "examples": [
+        {
+          "t": "Saon mo pxeyu knolox sapax",
+          "fr": "J'irai le dresser sur le faîte de la maison (vl. J'irai construire le sommet de laison (?)).",
+          "en": "I will go and set it up on the ridge of the house (var. I will go build the top of the house (?)).",
+          "zh": "我要去把它豎立在屋脊上(或:我要去建造房子的頂部(?))。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNPTOXAN",
+      "tag": "(R. = POTOX ?)",
+      "fr": "Veuve - veuf.",
+      "en": "Widow - widower.",
+      "zh": "寡婦——鰥夫。",
+      "examples": [
+        {
+          "t": "Pax knuaan na, pito bi xnkawas ka tnxeyan na snao ni knptoxan betak sayang da, ida ini pnaanak sapax",
+          "fr": "Depuis son mariage (depuis sa virginité), elle n'a vécu que sept ans avec son mari, et elle est restée veuve jusqu'à maintenant, mais elle n'a jamais quitté la maison. VR. POTOX.",
+          "en": "Since her marriage (since her virginity), she lived only seven years with her husband, and she has remained a widow until now, but she has never left the house. See POTOX.",
+          "zh": "自結婚(自處女之身)以來,她只與丈夫共同生活了七年,至今一直守寡,但她從未離開過家。參見 POTOX。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNS'LAN",
+      "tag": "(R. = K'SUL ?)",
+      "fr": "Action, et matière, du rite, presque disparu, qui consiste à jeter aux quatre coins de l'horizon, par une chiquenaude du pouce et de l'index, un peu de ce qu'on mange; l'acteur est le plus ancien du groupe, et ce qui est jeté devient tabou; Espèce de bénédicité ? En tous cas ce rite est voulu comme hommage aux dieux auteurs de la nourriture. VR. K'SUL.",
+      "en": "The action, and the material, of a nearly vanished rite which consists in flicking, with a snap of the thumb and index finger, a little of what one is eating toward the four corners of the horizon; the performer is the eldest of the group, and what is thrown becomes taboo; a kind of grace before meals? In any case this rite is intended as homage to the gods who are the givers of food. See K'SUL.",
+      "zh": "一種幾近消失的儀式之動作及其祭物:用拇指與食指彈指,將所吃食物的一小部分彈向天際四方;施行者為群體中最年長者,彈出之物即成禁忌;算是一種飯前祝謝?無論如何,此儀式旨在向賜予食物的諸神致敬。參見 K'SUL。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KNTA\"TO",
+      "tag": "(R. = TA\"TO ?)",
+      "fr": "Sans arrêt - fréquemment - qui revient sans cesse.",
+      "en": "Without stopping - frequently - who keeps coming back.",
+      "zh": "不停地——頻繁地——不斷回來的。",
+      "examples": [
+        {
+          "t": "Knta\"to miyax toxoi sapax mo ka xea",
+          "fr": "Il est toujours fourré chez moi (Il vient sans cesse chez moi). VR. TA\"TO.",
+          "en": "He is always hanging around my house (he comes to my place incessantly). See TA\"TO.",
+          "zh": "他老是泡在我家(他不停地到我家來)。參見 TA\"TO。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNTXOQ",
+      "tag": "(R)",
+      "fr": "Boeuf (mâle de la vache) - Verrat.",
+      "en": "Bull (male of the cow) - boar.",
+      "zh": "公牛(母牛之雄性)——公豬。",
+      "examples": [
+        {
+          "t": "Tai ka kating o, asi ka kntxoq nyeqan biyax",
+          "fr": "Pour ce qui est des buffles, c'est le mâle qui est fort (..est le plus fort).",
+          "en": "As for the buffaloes, it is the male that is strong (.. is the strongest).",
+          "zh": "至於水牛,強壯的是公的(……是最強壯的)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KNUAN",
+      "tag": "(KNUWAN ?)",
+      "fr": "Quand ? (interrogation indéterminée, mais seule possible pour le futur).",
+      "en": "When? (indeterminate interrogative, but the only one possible for the future).",
+      "zh": "何時?(不定疑問,但為將來時唯一可用者。)",
+      "examples": [
+        {
+          "t": "Oqon namo knuan ka idao?",
+          "fr": "Quand est ce que vous mangerez le riz ?",
+          "en": "When will you eat the rice?",
+          "zh": "你們什麼時候吃飯?"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sknuan",
+          "fr": "Quand (dans le passé).",
+          "en": "When (in the past).",
+          "zh": "何時(指過去)。",
+          "examples": [
+            {
+              "t": "Mnimax ko sinao, msa so o, ya sknuan bi na?",
+              "fr": "Tu dis que j'ai bu du vin! Mais quand est ce donc ?",
+              "en": "You say I drank wine! But when was that, then?",
+              "zh": "你說我喝了酒!但那到底是什麼時候?"
+            },
+            {
+              "t": "Ana knuan ana ino",
+              "fr": "N'importe quand, n'importe où !",
+              "en": "Anytime, anywhere!",
+              "zh": "無論何時,無論何地!"
+            }
+          ]
+        },
+        {
+          "form": "Snuan",
+          "fr": "(var. du précédent ?) Employé dans un sens indéterminé quant au temps, mais surtout pour le passé.",
+          "en": "(var. of the preceding?) Used in an indeterminate sense with regard to time, but chiefly for the past.",
+          "zh": "(前者之變體?)在時間上用於不定意義,但主要用於過去。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "KNUX",
+      "tag": "(K'NUX) (R)",
+      "fr": "Odeur - arôme - parfum.",
+      "en": "Smell - aroma - fragrance.",
+      "zh": "氣味——香氣——芳香。",
+      "examples": [
+        {
+          "t": "Malu bi knux na ka bauxi",
+          "fr": "L'odeur du lis est agréable.",
+          "en": "The scent of the lily is pleasant.",
+          "zh": "百合的香氣很宜人。"
+        },
+        {
+          "t": "Malu bi sknxan (sknçan) ka bauxi",
+          "fr": "Le lis est une fleur qu' (un lieu où) il fait bon respirer l'odeur.",
+          "en": "The lily is a flower whose scent it is good to breathe in (a place where it is good to breathe the scent).",
+          "zh": "百合是一種聞其香令人舒暢的花(一個聞香宜人的所在)。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sknux",
+          "fr": "Emaner une odeur - respirer une odeur - sentir une odeur (souvent mauvaise).",
+          "en": "To give off an odor - to breathe in an odor - to smell an odor (often a bad one).",
+          "zh": "散發氣味——吸入氣味——聞到氣味(常指臭味)。",
+          "examples": [
+            {
+              "t": "Ini xali sknux ka quti kating",
+              "fr": "La bouse de vache ne sent pas très mauvais.",
+              "en": "Cow dung does not smell very bad.",
+              "zh": "牛糞聞起來不太臭。"
+            }
+          ]
+        },
+        {
+          "form": "Msknux",
+          "fr": "Qui sent - qui a une odeur forte.",
+          "en": "That smells - that has a strong odor.",
+          "zh": "有氣味的——氣味濃烈的。",
+          "examples": [
+            {
+              "t": "Msknux balae ka xei longai so",
+              "fr": "ta viande de singe sent très mauvais.",
+              "en": "your monkey meat smells very bad.",
+              "zh": "你的猴子肉非常臭。"
+            }
+          ]
+        },
+        {
+          "form": "Smknux",
+          "paradigm": "° Smknux, sknux, sknxi, sknxan, sknxun.",
+          "fr": "Sentir, pirer (?) une odeur.",
+          "en": "To smell, to breathe in (?) an odor.",
+          "zh": "聞,吸入(?)氣味。",
+          "examples": [
+            {
+              "t": "kuxul mo balae ka musa smknux pxpax tlaxe",
+              "fr": "J'aime beaucoup aller sentir les fleurs de pamplemoussier.",
+              "en": "I very much like to go and smell the pomelo-tree flowers.",
+              "zh": "我很喜歡去聞柚子樹的花香。"
+            }
+          ]
+        },
+        {
+          "form": "Sknxan",
+          "fr": "Parfum - odeur.",
+          "en": "Fragrance - smell.",
+          "zh": "芳香——氣味。",
+          "examples": [
+            {
+              "t": "Lala bi ka nxmaan mo pxpax; malu bi ka sknxan nia ole",
+              "fr": "J'ai planté beaucoup de fleurs, elles sentent très bon (leur parfum est agréable).",
+              "en": "I have planted many flowers; they smell very good (their fragrance is pleasant).",
+              "zh": "我種了很多花,它們很香(香氣宜人)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KNXOAI",
+      "tag": "(R. = XOAI ?)",
+      "fr": "Lentement - petit à petit.",
+      "en": "Slowly - little by little.",
+      "zh": "慢慢地——一點一點地。",
+      "examples": [
+        {
+          "t": "Knxoai ko bi mksa, aadi mo tkulun",
+          "fr": "Je marche très lentement pour ne pas aller tomber.",
+          "en": "I walk very slowly so as not to fall.",
+          "zh": "我走得很慢,免得跌倒。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knxoayun",
+          "fr": "Vouloir faire en sorte que ce soit lent.",
+          "en": "To want to make it slow (to intend to do it slowly).",
+          "zh": "想要使之緩慢(打算慢慢做)。",
+          "examples": [
+            {
+              "t": "Ya sl'xbun, ida mo knxoayun mapa",
+              "fr": "Sois sans crainte ( Ne te fais pas de souci), petit à petit je porterai tout (je porterai tout petit à petit).",
+              "en": "Have no fear (do not worry); little by little I will carry everything (I will carry it all bit by bit).",
+              "zh": "別害怕(不要擔心),我會一點一點把全部背完(我會慢慢地全部背走)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KOKOX",
+      "tag": "(R)",
+      "fr": "Ongles - griffes.",
+      "en": "Nails - claws.",
+      "zh": "指甲——爪子。",
+      "examples": [
+        {
+          "t": "klibi tityex ka kokox so, naqex bi taan",
+          "fr": "coupe un peu tes ongles! Ce n'est pas beau à voir.",
+          "en": "trim your nails a little! They are not nice to look at.",
+          "zh": "把你的指甲剪一剪!很不好看。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KOOBU",
+      "tag": "(var. KAOBU)",
+      "fr": "Tente. (nb. Les taroko ne semblent pas connaître d'autres tentes que celles qu'ils font, très primitives, pour mettre à l'abri un enfant pendant leur travail dans les champs; elle est faite d'une simple couverture jetée sur quelques branches.).",
+      "en": "Tent. (n.b. The Taroko do not seem to know any tents other than the very primitive ones they make to shelter a child while they work in the fields; it is made of a simple blanket thrown over a few branches.)",
+      "zh": "帳篷。(註:太魯閣人似乎除了自己搭的那種非常簡陋的帳篷之外,不知道別種帳篷;那是他們在田裡工作時用來給孩子遮蔽的,只是把一條毯子往幾根樹枝上一搭而成。)",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KOXAT",
+      "tag": "(R)",
+      "fr": "Gâteau , rayon de miel.",
+      "en": "Cake, honeycomb.",
+      "zh": "糕餅;蜂巢(蜜脾)。",
+      "examples": [
+        {
+          "t": "Koxat wa\"lo",
+          "fr": "Rayon de miel (d'abeilles sauvages , ils n'en font pas l'élevage).",
+          "en": "Honeycomb (of wild bees; they do not keep bees).",
+          "zh": "蜂巢(野蜂的;他們不養蜂)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KOYOç",
+      "tag": "(KOYUX ?) (R)",
+      "fr": "Pluie.",
+      "en": "Rain.",
+      "zh": "雨。",
+      "examples": [
+        {
+          "t": "Paaaq, msa ka paro koyoç",
+          "fr": "Paaak, fait une très grosse pluie ( La pluie qui tombe dru ).",
+          "en": "\"Paaak\" goes the very heavy rain (rain that falls thick and fast).",
+          "zh": "「嘩啦啦」,大雨如注(雨下得又急又密)。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmoyoç",
+          "fr": "Pleuvoir - il pleut.",
+          "en": "To rain - it is raining.",
+          "zh": "下雨——正在下雨。",
+          "examples": [
+            {
+              "t": "Ana kmoyoç ana malu kalat ida mo saon",
+              "fr": "Qu'il pleuve ou qu'il fasse beau temps, de toute façon je veux aller.",
+              "en": "Whether it rains or the weather is fine, I want to go anyway.",
+              "zh": "無論下雨還是天晴,我反正都要去。"
+            }
+          ]
+        },
+        {
+          "form": "Mkmoyoç",
+          "fr": "Temps tourné à la pluie - sur le point de pleuvoir;",
+          "en": "Weather turned to rain - about to rain.",
+          "zh": "天氣轉雨——快要下雨。",
+          "examples": [
+            {
+              "t": "Mkmoyoç da! Usa n'xali gmoto payai so",
+              "fr": "On dirait qu'il va pleuvoir! Va vite mettre ton riz en tas.",
+              "en": "It looks like it is going to rain! Go quickly and heap up your rice.",
+              "zh": "看樣子要下雨了!快去把你的稻子堆起來。"
+            }
+          ]
+        },
+        {
+          "form": "Kyoxan",
+          "fr": "Temps de pluie.",
+          "en": "Rainy weather.",
+          "zh": "雨天。",
+          "examples": [
+            {
+              "t": "Pax ko sapax betak xeni, ida paro bi kyoxan",
+              "fr": "Depuis chez moi jusqu'ici, la pluie n'a pas cessé de tomber à flots.",
+              "en": "From my house all the way here, the rain has not stopped pouring down.",
+              "zh": "從我家一直到這裡,大雨一直下個不停。"
+            }
+          ]
+        },
+        {
+          "form": "Pskoyoç",
+          "fr": "S'exposer à la pluie, être exposé à la pluie.",
+          "en": "To expose oneself to the rain, to be exposed to the rain.",
+          "zh": "去淋雨,暴露在雨中。",
+          "examples": [
+            {
+              "t": "Manu ka saan so pskoyoç! Mpknalox so ki da!",
+              "fr": "Qu'est ce que tu vas t'exposer à la pluie! Celà va te faire tomber malade !",
+              "en": "Why on earth are you going out into the rain! That will make you fall ill!",
+              "zh": "你去淋什麼雨!那會讓你生病的!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

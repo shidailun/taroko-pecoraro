@@ -1,0 +1,844 @@
+{
+  "pages": [110, 113],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "KALIP",
+      "tag": "(parfois: QALIP) (R)",
+      "fr": "Couper - trancher (surtout avec ciseaux).",
+      "en": "To cut - to slice (especially with scissors).",
+      "zh": "剪、切－切斷（尤指用剪刀）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmalip",
+          "paradigm": "°Kmalip, kalip, klibi, kliban, klibun.",
+          "fr": "Couper (papier, étoffe, fil ..)",
+          "en": "To cut (paper, cloth, thread ...)",
+          "zh": "剪（紙、布、線……）",
+          "examples": [
+            {
+              "t": "Klibun mo sayang ana manu ka mswiwil",
+              "fr": "Je veux couper maintenant tout ce qui pend (franges..).",
+              "en": "I want to cut off now everything that hangs down (fringes, etc.).",
+              "zh": "我現在要把所有垂下來的東西（流蘇等）都剪掉。"
+            },
+            {
+              "t": "Naqex bi kliban ka galyeq so",
+              "fr": "Ton étoffe n'est pas facile à couper.",
+              "en": "Your cloth is not easy to cut.",
+              "zh": "你的布料不容易剪。"
+            },
+            {
+              "t": "Xawai bi ! Ma so klibun ka gasil",
+              "fr": "Dommage! Pourquoi coupes tu la ficelle ?",
+              "en": "What a pity! Why are you cutting the string?",
+              "zh": "可惜！你為什麼要剪斷繩子？"
+            }
+          ]
+        },
+        {
+          "form": "Mkalip",
+          "fr": "Celui qui coupe (Tailleur, coiffeur..)",
+          "en": "One who cuts (tailor, barber ...)",
+          "zh": "剪切的人（裁縫、理髮師……）",
+          "examples": [
+            {
+              "t": "Manu bi ka kpaxon so? ... Mkalip ko tunux ka yako",
+              "fr": "Quelle est ta profession? ... Moi, je suis coiffeur (Celui qui coupe la tête).",
+              "en": "What is your profession? ... Me, I am a barber (one who cuts the head).",
+              "zh": "你的職業是什麼？……我嘛，我是理髮師（剪頭的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Pkalip",
+          "fr": "Faire couper - se faire couper.",
+          "en": "To have (something) cut - to get oneself a cut.",
+          "zh": "使人剪－讓人給自己剪。",
+          "examples": [
+            {
+              "t": "Ma mdludao (mludao) kana ka tunux so! ... Ya xan! Saon mo pkalip tunux kia",
+              "fr": "Quelle tête ébouriffée tu as ! ... Attend un peu! Je vais bientôt aller me faire couper les cheveux (la tête).",
+              "en": "What a disheveled head of hair you have! ... Wait a bit! I am soon going to go get my hair (my head) cut.",
+              "zh": "你的頭髮真是亂蓬蓬的！……等一下！我很快就要去剪頭髮（剪頭）了。"
+            }
+          ]
+        },
+        {
+          "form": "Kliban",
+          "fr": "Lieu, temps où s'exerce l'action de couper - ce qui a été coupé - manière de couper.",
+          "en": "Place or time where the action of cutting takes place - what has been cut - manner of cutting.",
+          "zh": "進行剪切的地點、時間－被剪下的東西－剪法。",
+          "examples": [
+            {
+              "t": "Wada mo kliban ka tunux nia; malu bi kliban dole ka tunuç so",
+              "fr": "Je l'ai coiffé (j'ai coupé sa tête); Ta tête est encore plus facile à (couper) coiffer.",
+              "en": "I cut his hair (I cut his head); your head is even easier to cut (to trim).",
+              "zh": "我幫他理了髮（我剪了他的頭）；你的頭髮更容易剪（理）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KALO",
+      "tag": "(R)",
+      "fr": "Peigne (autrefois fabriqué dans un morceau de bambou).",
+      "en": "Comb (formerly made from a piece of bamboo).",
+      "zh": "梳子（從前用一段竹子製成）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmalo",
+          "fr": "Peigner.",
+          "en": "To comb.",
+          "zh": "梳理。",
+          "examples": [
+            {
+              "t": "ga kmalo tunux na ka bobo so",
+              "fr": "Ta maman est en train de peigner ses cheveux.",
+              "en": "Your mother is combing her hair.",
+              "zh": "你媽媽正在梳她的頭髮。"
+            }
+          ]
+        },
+        {
+          "form": "Pkalo",
+          "fr": "Faire peigner - se faire peigner.",
+          "en": "To have (someone) combed - to get one's hair combed.",
+          "zh": "使人梳－讓人給自己梳頭。",
+          "examples": [
+            {
+              "t": "Usa n'xali pkalo tunux so ! Kuxeng so kana da!",
+              "fr": "Va vite te faire peigner! Tu es plein de poux !",
+              "en": "Go quickly and get your hair combed! You are covered in lice!",
+              "zh": "快去讓人幫你梳頭！你滿頭都是蝨子！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KANA",
+      "tag": "(R)",
+      "fr": "Tout - tous - la totalité - Complètement.",
+      "en": "All - everyone - the totality - completely.",
+      "zh": "全部－所有－整體－完全地。",
+      "examples": [
+        {
+          "t": "Mxdo msbulao kana da",
+          "fr": "C'est complètement pourri.",
+          "en": "It is completely rotten.",
+          "zh": "完全爛掉了。"
+        },
+        {
+          "t": "Mnalox kana tunux mo",
+          "fr": "Toute ma tête me fait mal.",
+          "en": "My whole head hurts.",
+          "zh": "我整個頭都在痛。"
+        },
+        {
+          "t": "Ida mpxoqel kana ka ssadyaq",
+          "fr": "De toute façon, tous les humains doivent mourir.",
+          "en": "In any case, all human beings must die.",
+          "zh": "無論如何，所有的人都必須死。"
+        },
+        {
+          "t": "Kana ssadyaq (?) nbabao d'xgal",
+          "fr": "Toute l'humanité.",
+          "en": "All of humanity.",
+          "zh": "全人類。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KARI",
+      "tag": "(R)",
+      "fr": "Parole - ordre - langage - voix.",
+      "en": "Word - order - language - voice.",
+      "zh": "話語－命令－語言－聲音。",
+      "examples": [
+        {
+          "t": "Klaon so kana ka klkari nbabao d'xgal xo?",
+          "fr": "Connais tu toutes les langues de la terre?",
+          "en": "Do you know all the languages of the earth?",
+          "zh": "你認識地上所有的語言嗎？"
+        },
+        {
+          "t": "Pnuda kari tama mo s'xiga",
+          "fr": "Mon père l'a ordonné hier.",
+          "en": "My father ordered it yesterday.",
+          "zh": "我父親昨天下了這個命令。"
+        },
+        {
+          "t": "L'çan balae ka kari troko",
+          "fr": "La langue taroko est très facile.",
+          "en": "The Taroko language is very easy.",
+          "zh": "太魯閣語很容易。"
+        },
+        {
+          "t": "Nyeqan kari",
+          "fr": "On dit (il y a la rumeur que..).",
+          "en": "It is said (there is a rumor that...).",
+          "zh": "據說（有傳言說……）。"
+        },
+        {
+          "t": "Kari sadyaq",
+          "fr": "D'après ce que disent les gens.",
+          "en": "According to what people say.",
+          "zh": "根據人們所說。"
+        },
+        {
+          "t": "Smalu kari",
+          "fr": "Réconcilier - faire le conciliateur.",
+          "en": "To reconcile - to act as conciliator.",
+          "zh": "調解－充當和事佬。"
+        },
+        {
+          "t": "Ongat kari mo",
+          "fr": "Je n'ai rien à dire.",
+          "en": "I have nothing to say.",
+          "zh": "我無話可說。"
+        },
+        {
+          "t": "Ini iyax ka kari mo",
+          "fr": "Je n'ai plus de voix - Ne pas savoir trouver les mots.",
+          "en": "I have no voice left - not to know how to find the words.",
+          "zh": "我說不出話了－找不到話說。"
+        },
+        {
+          "t": "Balae bi kari o",
+          "fr": "Pour parler sincèrement.",
+          "en": "To speak sincerely.",
+          "zh": "老實說。"
+        },
+        {
+          "t": "Xmut kari",
+          "fr": "Paroles en l'air.",
+          "en": "Idle words (words in the air).",
+          "zh": "空話。"
+        },
+        {
+          "t": "Pusu kari",
+          "fr": "Le fond de la discussion - l'essentiel de ce dont on parle.",
+          "en": "The heart of the discussion - the essence of what is being talked about.",
+          "zh": "談話的核心－所談內容的要點。"
+        },
+        {
+          "t": "Manu bi ka pusu kari namo?",
+          "fr": "De quoi parlez vous?",
+          "en": "What are you talking about?",
+          "zh": "你們在談什麼？"
+        },
+        {
+          "t": "Ongat pusu ka kari namo",
+          "fr": "Votre discours n'a pas de sens.",
+          "en": "Your speech makes no sense.",
+          "zh": "你們的話沒有意義。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tnkari",
+          "fr": "L'auteur de la parole, de l'ordre.",
+          "en": "The author of the word, of the order.",
+          "zh": "說這話、下這命令的人。",
+          "examples": [
+            {
+              "t": "Mxa namo kmpax kana, msa so o, Ya ima ka tnkari?",
+              "fr": "Vous allez tous travailler, dis tu; qui est ce qui en a donné l'ordre ? (vl. qui est ce qui l'a dit ?).",
+              "en": "You are all going to work, you say; who is it that gave the order? (var.: who is it that said it?).",
+              "zh": "你說你們全都要去工作；是誰下的命令？（或：是誰說的？）"
+            }
+          ]
+        },
+        {
+          "form": "Pnkari",
+          "fr": "En se servant du parler - mode de parler.",
+          "en": "Using speech - way of speaking.",
+          "zh": "使用言語－說話的方式。",
+          "examples": [
+            {
+              "t": "Pnkari laqe ka kari so",
+              "fr": "Ton parler c'est un parler d'enfant.",
+              "en": "Your way of speaking is a child's way of speaking.",
+              "zh": "你的說話方式是小孩子的說話方式。"
+            },
+            {
+              "t": "Tsai bi pnkari troko kika mptdoa mbaxang kana dludan da",
+              "fr": "Il faut que tu enseignes en langue taroko, ainsi tous les anciens pourront comprendre.",
+              "en": "You must teach in the Taroko language, so that all the elders will be able to understand.",
+              "zh": "你必須用太魯閣語教學，這樣所有的長者才能聽懂。"
+            },
+            {
+              "t": "Balae bi pnbaga ka kari na",
+              "fr": "A vrai dire il parle avec les mains.",
+              "en": "To tell the truth, he speaks with his hands.",
+              "zh": "說實在的，他是用手在說話。"
+            }
+          ]
+        },
+        {
+          "form": "Pgkari",
+          "fr": "Promettre - donner sa parole.",
+          "en": "To promise - to give one's word.",
+          "zh": "承諾－許下諾言。",
+          "examples": [
+            {
+              "t": "Uxai pnmaxal ta lubwi msa ka pngkari so nanak ?",
+              "fr": "Ta promesse (ta parole) ne nous avait elle pas dit que ce serait dix sacs par personne ?",
+              "en": "Did your promise (your word) not tell us that it would be ten sacks per person?",
+              "zh": "你的承諾（你的話）不是告訴過我們每人十袋嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Smkari",
+          "fr": "Manquer à sa parole.",
+          "en": "To break one's word.",
+          "zh": "失信、食言。",
+          "examples": [
+            {
+              "t": "Luxai naqex sadyaq ka smkari",
+              "fr": "C'est l'habitude des vauriens que de manquer à leur parole.",
+              "en": "It is the habit of good-for-nothings to break their word.",
+              "zh": "失信是無賴之徒的習性。"
+            }
+          ]
+        },
+        {
+          "form": "Klkari",
+          "fr": "Les paroles (= forme du pluriel).",
+          "en": "Words (= plural form).",
+          "zh": "眾多話語（＝複數形）。",
+          "examples": [
+            {
+              "t": "Musa so pgalang kari o, ya bi tooqo mbaxang klkari daxa",
+              "fr": "Si tu vas ( quand tu vas) diffuser ce message (propager cette nouvelle), ne t'offense pas de ce que les autres peuvent dire.",
+              "en": "If you go (when you go) to spread this message (to propagate this news), do not take offense at what the others may say.",
+              "zh": "如果你去（當你去）傳播這個訊息（散布這個消息）時，不要因別人可能說的話而動怒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KATING",
+      "tag": "(R)",
+      "fr": "Buffle - bovins.",
+      "en": "Buffalo - cattle.",
+      "zh": "水牛－牛類。",
+      "examples": [
+        {
+          "t": "Kating lubwi",
+          "fr": "Vache laitière",
+          "en": "Dairy cow",
+          "zh": "乳牛"
+        },
+        {
+          "t": "Kating damai",
+          "fr": "cheval",
+          "en": "horse",
+          "zh": "馬"
+        },
+        {
+          "t": "kating bukox (bokox ?)",
+          "fr": "Chameau.",
+          "en": "Camel.",
+          "zh": "駱駝。"
+        },
+        {
+          "t": "Wawa kating",
+          "fr": "veau",
+          "en": "calf",
+          "zh": "小牛"
+        },
+        {
+          "t": "Giyas kating",
+          "fr": "Génisse",
+          "en": "Heifer",
+          "zh": "小母牛"
+        },
+        {
+          "t": "Biyoq onoç kating",
+          "fr": "Lait de vache",
+          "en": "Cow's milk",
+          "zh": "牛奶"
+        },
+        {
+          "t": "Quti kating",
+          "fr": "bouse.",
+          "en": "cow dung.",
+          "zh": "牛糞。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KASI",
+      "tag": "(R. = ASI)",
+      "crossRef": "ASI",
+      "fr": "Que ce soit la condition que (un ordre!) - aussitôt. Vr. ASI.",
+      "en": "May it be on the condition that (an order!) - immediately. See ASI.",
+      "zh": "但願如此、只要有此條件（一道命令！）－立刻。見ASI。",
+      "examples": [
+        {
+          "t": "Kingal kari so, kasi ko malu ka yako da",
+          "fr": "Un seul ordre de toi (fera) que je serai guéri.",
+          "en": "A single order from you (will make it so) that I shall be healed.",
+          "zh": "你只要一句命令，（就會使）我痊癒。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KASI",
+      "tag": "( = R. ? )",
+      "fr": "?? . Connu dans l'expression suivante:",
+      "en": "?? Known in the following expression:",
+      "zh": "？？僅見於下列語詞：",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kasi banasi",
+          "fr": "Se raconter des histoires - parler de rien.",
+          "en": "To tell each other stories - to talk about nothing.",
+          "zh": "彼此閒扯－說些無關緊要的話。",
+          "examples": []
+        },
+        {
+          "form": "Mkasi banasi",
+          "fr": "d° forme verbale - papoter.",
+          "en": "Verbal form of the preceding - to chatter.",
+          "zh": "同上之動詞形－閒聊。",
+          "examples": [
+            {
+              "t": "Ma namo mkasi banasi da ! Usa nanak kmpax da!",
+              "fr": "Qu'est ce qui vous prend d'être là à papoter ? Allez donc travailler !",
+              "en": "What has gotten into you, standing there chattering? Go and work!",
+              "zh": "你們怎麼在那裡閒聊起來了？快去工作！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KAWAI",
+      "tag": "(R)",
+      "fr": "Prends garde! - Sois sur tes gardes (sens de menace).",
+      "en": "Watch out! - Be on your guard (with a sense of threat).",
+      "zh": "當心！－你要提防（帶威脅之意）。",
+      "examples": [
+        {
+          "t": "Kawai bi mpstlong so lqlit muda dgiyaq da!",
+          "fr": "Tu vas voir (menace)! Tu vas rencontrer le léopard en passant par la montagne.",
+          "en": "You'll see (a threat)! You are going to meet the leopard as you pass through the mountains.",
+          "zh": "你等著瞧（威脅語）！你過山的時候會遇上雲豹。"
+        },
+        {
+          "t": "Btlukun miso kia ! kawai binao!",
+          "fr": "Je vais te donner une correction, Tu vas voir !",
+          "en": "I am going to give you a thrashing — you'll see!",
+          "zh": "我要教訓你一頓，你等著瞧！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SNKAWAI",
+      "tag": "( = R. ? - R. = KAWAI ?)",
+      "fr": "Accompagner - prendre congé.",
+      "en": "To accompany - to take one's leave.",
+      "zh": "陪送－送行道別。",
+      "examples": [
+        {
+          "t": "Nasi so musa do, mxa nami snkawai sunan kana",
+          "fr": "Si tu pars, nous allons tous t'accompagner ( pour te dire au revoir).",
+          "en": "If you leave, we will all go to accompany you (to say goodbye to you).",
+          "zh": "如果你要走，我們全都要去送你（向你道別）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KAWAS",
+      "tag": "(R)",
+      "fr": "Année (pratiquement pas employé).",
+      "en": "Year (practically never used).",
+      "zh": "年（實際上幾乎不用）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Skawas",
+          "fr": "L'an passé.",
+          "en": "Last year.",
+          "zh": "去年。",
+          "examples": [
+            {
+              "t": "Mntöting skawas ka laqe Libix",
+              "fr": "L'enfant de Libish est né (est tombé) l'an passé.",
+              "en": "Libish's child was born (fell) last year.",
+              "zh": "Libish的孩子去年出生（落地）。"
+            },
+            {
+              "t": "Skawas ka mntöting (ka) laqe Libix",
+              "fr": "C'est l'an passé qu'est né l'enfant de Libish.",
+              "en": "It was last year that Libish's child was born.",
+              "zh": "Libish的孩子是去年出生的。"
+            },
+            {
+              "t": "Skawas suxal",
+              "fr": "Les années d'autrefois.",
+              "en": "The years of long ago.",
+              "zh": "往昔的歲月。"
+            }
+          ]
+        },
+        {
+          "form": "Xkawas",
+          "fr": "L'année prochaine.",
+          "en": "Next year.",
+          "zh": "明年。",
+          "examples": [
+            {
+              "t": "Xkawas ka saon miso mita",
+              "fr": "C'est l'an prochain que j'irai te voir.",
+              "en": "It is next year that I will go to see you.",
+              "zh": "我明年才會去看你。"
+            },
+            {
+              "t": "Xkawas ni xkawas dole",
+              "fr": "L'année après celle ci (dans deux ans).",
+              "en": "The year after next (in two years).",
+              "zh": "後年（兩年後）。"
+            },
+            {
+              "t": "Kawas kawas o, ida kia",
+              "fr": "Chaque année (année après année) c'est la même chose.",
+              "en": "Every year (year after year) it is the same thing.",
+              "zh": "每年（年復一年）都是一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Xnkawas",
+          "fr": "Age - années vécues.",
+          "en": "Age - years lived.",
+          "zh": "年齡－活過的歲數。",
+          "examples": [
+            {
+              "t": "Ya pia xnkawas na ka tama mo o, ini mo k'lae! Xmut lala bi",
+              "fr": "Combien d'années pourrait avoir mon père, je ne le sais pas! Il en a tellement ! (nb. On entend parfois: SXKAWAS pour dire: L'an passé.).",
+              "en": "How many years old my father might be, I do not know! He has so many! (n.b. One sometimes hears SXKAWAS to say: last year.)",
+              "zh": "我父親可能有多少歲，我不知道！他的歲數太多了！（註：有時也聽到SXKAWAS用來表示「去年」。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KAXOI",
+      "tag": "( = R. Taroko ?)",
+      "fr": "Fille de joie - prostituée.",
+      "en": "Woman of pleasure - prostitute.",
+      "zh": "風塵女子－妓女。",
+      "examples": [
+        {
+          "t": "Smgaya bi ka dkoyox sayang! Knkingal alang o, nyeqan kaxoi",
+          "fr": "Les femmes aujourd'hui violent nos lois tribales! Dans chaque village il y a des prostituées !",
+          "en": "Women today violate our tribal laws! In every village there are prostitutes!",
+          "zh": "現在的女人違犯我們部族的規範！每個部落裡都有妓女！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkaxoi",
+          "fr": "Se faire prostituée.",
+          "en": "To become a prostitute.",
+          "zh": "淪為妓女。",
+          "examples": [
+            {
+              "t": "Ana mxoya o , ya bi usa mkaxoi",
+              "fr": "Quoi qu'il arrive, ne va surtout pas te prostituer (te faire prostituée).",
+              "en": "Whatever happens, above all do not go and prostitute yourself (become a prostitute).",
+              "zh": "無論發生什麼事，千萬不要去賣身（淪為妓女）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KAYAO",
+      "tag": "(R)",
+      "fr": "Sois éveillé! - veille! - veiller.",
+      "en": "Be awake! - keep watch! - to stay awake.",
+      "zh": "要醒著！－要警醒！－守夜、保持清醒。",
+      "examples": [
+        {
+          "t": "Kayao bi aadi namo tdiyal pntuxan",
+          "fr": "Restez éveillés pour ne pas vous laisser tromper (pour qu'on ne vous fasse pas perdre la tête). (R. : EYAO peu probable !).",
+          "en": "Stay awake so as not to let yourselves be deceived (so that no one makes you lose your head). (Root: EYAO unlikely!)",
+          "zh": "你們要保持警醒，免得受騙（免得被人弄昏了頭）。（詞根：EYAO不太可能！）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Meyao",
+          "paradigm": "°Meyao, kayao, k'yagi, k'yagan, k'yagun.",
+          "fr": "Veiller - rester éveillé.",
+          "en": "To keep watch - to stay awake.",
+          "zh": "守夜－保持清醒。",
+          "examples": [
+            {
+              "t": "Adi namo dxkon sopu knan meyao",
+              "fr": "Vous n'arriverez pas à veiller avec moi !",
+              "en": "You will not manage to stay awake with me!",
+              "zh": "你們沒辦法跟我一起守夜！"
+            }
+          ]
+        },
+        {
+          "form": "Pkayao",
+          "fr": "Faire veiller - réveiller.",
+          "en": "To make (someone) stay awake - to wake up.",
+          "zh": "使人警醒－喚醒。",
+          "examples": [
+            {
+              "t": "Pkayao blbilat mo kddiyax ka sbxolan da",
+              "fr": "Ce temps de vent me tient les oreilles toujours en éveil (ne me laisse pas dormir).",
+              "en": "This windy weather keeps my ears constantly on the alert (does not let me sleep).",
+              "zh": "這颳風的天氣讓我的耳朵一直保持警醒（讓我睡不著）。"
+            },
+            {
+              "t": "Xedao pada sida o, yaxe ko bi pkayao",
+              "fr": "Au moment du soleil du chamoix ( aux toutes premières lueurs sur les cimes), viens me réveiller sans faute !",
+              "en": "At the moment of the chamois' sun (at the very first light on the mountain tops), come and wake me without fail!",
+              "zh": "在「山羌的太陽」出現時（山頂剛露出第一道曙光時），一定要來叫醒我！"
+            }
+          ]
+        },
+        {
+          "form": "K'yagan",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            {
+              "t": "Diyax diyax o, bsiyaq bi k'yagan na ka xea",
+              "fr": "Chaque jour, il veille très longtemps.",
+              "en": "Every day, he stays awake for a very long time.",
+              "zh": "每天他都守夜守很久。"
+            },
+            {
+              "t": "Sai pstutwi lqlaqe da, baka bi k'yagan da",
+              "fr": "Va faire lever les enfants; il est temps de se lever (d'être réveillé) (nb. On entend aussi parfois: Kayagan au lieu de: k'yagan).",
+              "en": "Go get the children up; it is time to get up (to be awakened) (n.b. One also sometimes hears Kayagan instead of k'yagan).",
+              "zh": "去叫孩子們起床；該起床了（該被叫醒了）（註：有時也聽到Kayagan而非k'yagan）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KA'MAN",
+      "tag": "(R)",
+      "fr": "Nuit - ténèbres - obscur - touffu.",
+      "en": "Night - darkness - dark - dense (overgrown).",
+      "zh": "夜晚－黑暗－昏暗的－茂密的。",
+      "examples": [
+        {
+          "t": "Ka'man kia",
+          "fr": "ce soir, cette nuit qui vient.",
+          "en": "tonight, this coming night.",
+          "zh": "今晚，即將來臨的這個夜晚。"
+        },
+        {
+          "t": "Ka'man bi da! Nta sapax da",
+          "fr": "Il fait vraiment nuit maintenant, allons à la maison.",
+          "en": "It is really dark now; let us go home.",
+          "zh": "天真的黑了，我們回家吧。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mka'man",
+          "fr": "Qui est touffu (plein de mauvaises herbes, ou trop dru) - qui est devenu obscur - qui est dans l'obscurité.",
+          "en": "That which is overgrown (full of weeds, or too dense) - that which has become dark - that which is in darkness.",
+          "zh": "茂密的（長滿雜草或過於稠密）－變暗的－處於黑暗中的。",
+          "examples": [
+            {
+              "t": "Mka'man ka kmpaxan mo trabus",
+              "fr": "Mon champ d'arachides est plein de mauvaise herbe.",
+              "en": "My peanut field is full of weeds.",
+              "zh": "我的花生田長滿了雜草。"
+            }
+          ]
+        },
+        {
+          "form": "Mp'ka'man (mpaka'man)",
+          "fr": "Il fera nuit - ce sera touffu.",
+          "en": "It will be night - it will be overgrown.",
+          "zh": "天將黑－將會變得茂密。",
+          "examples": [
+            {
+              "t": "Mp'ka'man knuwan da xo !",
+              "fr": "Quand est ce donc qu'il va faire nuit !",
+              "en": "When on earth is it going to get dark!",
+              "zh": "到底什麼時候才會天黑！"
+            }
+          ]
+        },
+        {
+          "form": "Ska'man",
+          "fr": "La nuit passée.",
+          "en": "Last night.",
+          "zh": "昨夜。",
+          "examples": [
+            {
+              "t": "Ska'man suxal",
+              "fr": "Une nuit d'il y a longtemps.",
+              "en": "A night long ago.",
+              "zh": "很久以前的一個夜晚。"
+            },
+            {
+              "t": "Mntaqe so ino ska'man?",
+              "fr": "Où as tu dormi la nuit dernière ?",
+              "en": "Where did you sleep last night?",
+              "zh": "你昨晚睡在哪裡？"
+            }
+          ]
+        },
+        {
+          "form": "Knkmanan",
+          "fr": "Intensité de nuit, d'obscurité - densité du touffu.",
+          "en": "Intensity of night, of darkness - density of the overgrowth.",
+          "zh": "夜色、黑暗的深沉程度－草木的茂密程度。",
+          "examples": [
+            {
+              "t": "Naqex bi uda na ka \"lu ta s'xiga, ya sa paro knkmanan na sida",
+              "fr": "Elle n'était pas facile à marcher notre route de hier! Il faisait vraiment trop nuit !",
+              "en": "Our road yesterday was not easy to walk! It was really far too dark!",
+              "zh": "我們昨天的路真不好走！天實在太黑了！"
+            }
+          ]
+        },
+        {
+          "form": "Pnkmanun",
+          "fr": "Sera (devra être) assombri, obscurci.",
+          "en": "Will be (will have to be) darkened, obscured.",
+          "zh": "將被（必將被）遮暗、變得昏暗。",
+          "examples": [
+            {
+              "t": "Bnxangan mo kari o, ana xedao ida pnkmanun ka nxal, msa",
+              "fr": "Ce que j'ai entendu dire, assure que même le soleil sera obscurci, dans très longtemps.",
+              "en": "What I have heard said affirms that even the sun will be darkened, a very long time from now.",
+              "zh": "我聽人說過，據說在很久很久以後，連太陽也將變暗。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KBIYAN",
+      "tag": "",
+      "crossRef": "GBIYAN",
+      "fr": "( = var. de GBIYAN = Soir - soirée ). Vr. GBIYAN.",
+      "en": "(= var. of GBIYAN = evening.) See GBIYAN.",
+      "zh": "（＝GBIYAN之變體＝傍晚－晚間）。見GBIYAN。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KBOLONG",
+      "tag": "",
+      "fr": "Faire la moisson - faire la récolte. ( = R. ? - R. = BOLONG ?).",
+      "en": "To do the harvesting - to bring in the harvest. (= root? - root = BOLONG?)",
+      "zh": "收割－收成。（＝詞根？－詞根＝BOLONG？）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmbolong",
+          "paradigm": "°Kmbolong, kbolong, kblongi, kblongan, kblongun.",
+          "fr": "Faire la moisson (nb. dans le sens de récolter la graine , alors que: KMTUI c'est moissonner dans le sens de couper les céréales).",
+          "en": "To harvest (n.b. in the sense of gathering the grain, whereas KMTUI is to reap in the sense of cutting the cereals).",
+          "zh": "收割（註：指採收穀粒；而KMTUI則指割下穀類作物的那種收割）。",
+          "examples": [
+            {
+              "t": "Mnsa ko kmbolong payai sapax ama mo",
+              "fr": "Je suis aller récolter la graine de riz chez mon gendre.",
+              "en": "I went to harvest the rice grain at my son-in-law's house.",
+              "zh": "我去女婿家收割稻穀了。"
+            }
+          ]
+        },
+        {
+          "form": "Mkbolong",
+          "fr": "Qui fait la moisson.",
+          "en": "One who does the harvesting.",
+          "zh": "收割的人。",
+          "examples": [
+            {
+              "t": "Kingal loan sapax daxa o, ida bi ga mkbolong (Mbolong ?) payai kana",
+              "fr": "Leur maisonnée toute entière semble bien être occupée à la moisson du riz.",
+              "en": "Their entire household indeed seems to be busy with the rice harvest.",
+              "zh": "他們全家看來都在忙著收割稻子。"
+            }
+          ]
+        },
+        {
+          "form": "Kblongan",
+          "fr": "Temps de la moisson.",
+          "en": "Harvest time.",
+          "zh": "收割的季節。",
+          "examples": [
+            {
+              "t": "Adi biyao ka kblongan payai da, kika nyeqon ta oqon dole da",
+              "fr": "Avant peu ce sera la moisson du riz, et nous aurons alors de nouveau à manger.",
+              "en": "Before long it will be the rice harvest, and then we will again have something to eat.",
+              "zh": "不久就是收割稻子的時候，那時我們又有得吃了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KBSULAN",
+      "tag": "(R. ?)",
+      "fr": "Aîné - Plus âgé.",
+      "en": "Elder - older.",
+      "zh": "年長者－較年長的。",
+      "examples": [
+        {
+          "t": "Maxal nami mnsuwai, spat ka kbsulan mo lima ka suwai",
+          "fr": "Nous sommes dix frères et soeurs: quatre sont mes aînés et cinq mes cadets.",
+          "en": "We are ten brothers and sisters: four are older than I and five are younger.",
+          "zh": "我們兄弟姊妹十人：四個比我年長，五個比我年幼。"
+        },
+        {
+          "t": "Snao ? Koyox xo; Ima namo bi ka kbsulan ?",
+          "fr": "Le garçon? la fille qui de vous est vraiment l'ainé ?",
+          "en": "The boy? Or the girl? Which of you is really the eldest?",
+          "zh": "男孩？還是女孩？你們之中誰才真正是老大？"
+        },
+        {
+          "t": "Iso ni yako o, yako ka kbsulan",
+          "fr": "De toi et moi, c'est moi l'ainé.",
+          "en": "Of you and me, I am the elder.",
+          "zh": "你和我之間，我是年長的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knbslanan (Kmbslanan ?)",
+          "fr": "Aînesse (?) - Oblique de KBSULAN(?) .",
+          "en": "Seniority / eldership (?) - oblique form of KBSULAN (?).",
+          "zh": "長子身分（？）－KBSULAN的間接形（？）。",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

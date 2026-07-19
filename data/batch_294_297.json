@@ -1,0 +1,800 @@
+{
+  "pages": [294, 297],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "sapax Laotan kika iniko sk'la tdoloi da",
+        "fr": "Je suis resté bien trop longtemps chez Laotan, c'est pour cela que j'ai manqué le train.",
+        "en": "I stayed far too long at Laotan's, that is why I missed the train.",
+        "zh": "我在拉歐丹（Laotan）家待得太久了，所以錯過了火車。"
+      },
+      {
+        "t": "Taqe xeni da! Msoqe bi ka sayang!",
+        "fr": "Il te faut dormir ici ! Il est trop tard maintenant (pour t'en aller).",
+        "en": "You must sleep here! It is too late now (to leave).",
+        "zh": "你得睡在這裡！現在（要走）太晚了。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Psoqe",
+        "fr": "Faire que cela dépasse les bornes.",
+        "en": "To make something go beyond all bounds - to push to excess.",
+        "zh": "使某事超過限度、逼人過度。",
+        "examples": [
+          {
+            "t": "Ma\" so psoqe bi mimax sinao",
+            "fr": "Pourquoi pousses tu à boire exagérément (de l'alcool) !",
+            "en": "Why do you push (someone) to drink to excess (alcohol)!",
+            "zh": "你為什麼逼人過度飲（酒）呢！"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SPADAO",
+      "tag": "(= R. ? - R. = PADAO ?)",
+      "crossRef": "VR. PSPADAO",
+      "fr": "Don - offrande (?).",
+      "en": "Gift - offering (?).",
+      "zh": "禮物、贈禮（？）。",
+      "subs": [
+        {
+          "form": "Pspadao",
+          "paradigm": "°Mpspadao, pspadao, pspdagi, pspdagan, pspdagun.",
+          "fr": "Donner - faire un cadeau - offrir gratuitement.",
+          "en": "To give - to make a gift - to offer for free.",
+          "zh": "給予、送禮、免費贈送。",
+          "examples": [
+            {
+              "t": "Mxa ta mqan lae sapax Otun o, pspdagun so manu ka isò?",
+              "fr": "Nous allons à la noce (au repas de noces) chez Automne, qu'est-ce que tu offriras, toi ?",
+              "en": "We are going to the wedding (to the wedding feast) at Autumn's place; what will you offer, you?",
+              "zh": "我們要去參加秋（Otun）家的婚禮（婚宴），你要送什麼呢？"
+            }
+          ]
+        },
+        {
+          "form": "Pspdagan",
+          "fr": "Ce qu'on offre.",
+          "en": "That which one offers - a gift.",
+          "zh": "所贈之物。",
+          "examples": [
+            {
+              "t": "Ya ksa: Pia pila ! Bilaq bi pspdagan mo sunan ka kia!",
+              "fr": "Ne demande pas combien cela coûte ! C'est là un tout petit cadeau que je te fais !",
+              "en": "Do not ask how much it costs! This is just a tiny little gift I am giving you!",
+              "zh": "別問這要多少錢！這只是我送你的一份小小禮物！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPAT",
+      "tag": "(R)",
+      "fr": "Quatre (nombre).",
+      "en": "Four (number).",
+      "zh": "四（數字）。",
+      "examples": [
+        {
+          "t": "Spat nami xei",
+          "fr": "Nous quatre - Nous sommes quatre.",
+          "en": "We four - We are four.",
+          "zh": "我們四個－我們有四個人。"
+        },
+        {
+          "t": "Maxal spat",
+          "fr": "Quatorze.",
+          "en": "Fourteen.",
+          "zh": "十四。"
+        },
+        {
+          "t": "Spat m'xalan (vl. Spat'l = spatwil )",
+          "fr": "Quarante.",
+          "en": "Forty. (var. Spat'l = spatwil)",
+          "zh": "四十。（或：Spat'l ＝ spatwil）"
+        },
+        {
+          "t": "Spat ni spat o, maspat da",
+          "fr": "Quatre et quatre font huit.",
+          "en": "Four and four make eight.",
+          "zh": "四加四等於八。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Maspat",
+          "fr": "Huit. (nb. Quel est le sens de cette sorte de préfixe MA qui est affixé à la base SPAT (=quatre) pour former le nombre Huit ? On retrouve ce même préfixe pour la formation du nombre six : MATARO (= MA + T'LO) et du nombre neuf: MANGALI (MA + NGALI(= Prends!)).",
+          "en": "Eight. (n.b. What is the meaning of this sort of prefix MA which is affixed to the base SPAT (=four) to form the number Eight? One finds this same prefix in the formation of the number six: MATARO (= MA + T'LO) and of the number nine: MANGALI (MA + NGALI(= Take!)).",
+          "zh": "八。（註：附加在詞根 SPAT（＝四）上以構成數字「八」的這種 MA 前綴是什麼意思呢？在構成數字「六」MATARO（＝MA＋T'LO）以及數字「九」MANGALI（MA＋NGALI（＝拿！））時也可見到同一個前綴。）",
+          "examples": [
+            {
+              "t": "Maxal maspat",
+              "fr": "Dix-huit.",
+              "en": "Eighteen.",
+              "zh": "十八。"
+            },
+            {
+              "t": "Maspat m'xalan",
+              "fr": "Quatre-vingts.",
+              "en": "Eighty.",
+              "zh": "八十。"
+            }
+          ]
+        },
+        {
+          "form": "Mspat",
+          "fr": "Quatrième fois - quatre fois.",
+          "en": "The fourth time - four times.",
+          "zh": "第四次－四次。",
+          "examples": [
+            {
+              "t": "Mspat ko sayang da",
+              "fr": "C'est ma quatrième fois, celle-ci.",
+              "en": "This is my fourth time, this one.",
+              "zh": "這是我第四次了，這一次。"
+            }
+          ]
+        },
+        {
+          "form": "Mnspat",
+          "fr": "Quatre fois (dans le passé).",
+          "en": "Four times (in the past).",
+          "zh": "四次（過去）。",
+          "examples": [
+            {
+              "t": "Mnspat ko musa suxal",
+              "fr": "Je suis allé quatre fois dans le temps.",
+              "en": "I went four times in the past.",
+              "zh": "我以前去過四次。"
+            }
+          ]
+        },
+        {
+          "form": "Mkspat",
+          "fr": "Pendant quatre (jours).",
+          "en": "For four (days).",
+          "zh": "持續四（天）。",
+          "examples": [
+            {
+              "t": "Mkspat labe ka nsaan mo bbuyo",
+              "fr": "Mon séjour à la montagne (à la chasse) à duré cinq jours ( = pendant quatre nuits!).",
+              "en": "My stay in the mountains (hunting) lasted five days ( = for four nights!).",
+              "zh": "我在山上（打獵）待了五天（＝四夜！）。"
+            }
+          ]
+        },
+        {
+          "form": "Knspatan",
+          "fr": "Dans quatre jours.",
+          "en": "In four days.",
+          "zh": "四天後。",
+          "examples": [
+            {
+              "t": "Yaxon miso mangal knspatan",
+              "fr": "Je viendrai te chercher dans quatre jours. (vl. KSPATAN ?)",
+              "en": "I will come to fetch you in four days. (var. KSPATAN ?)",
+              "zh": "我四天後來接你。（或：KSPATAN？）"
+            }
+          ]
+        },
+        {
+          "form": "Snspatan",
+          "fr": "Il y a quatre jours.",
+          "en": "Four days ago.",
+          "zh": "四天前。",
+          "examples": [
+            {
+              "t": "Snspatan ka nsaan miso mangal",
+              "fr": "C'est il-y-a quatre jours que je suis allé te chercher.",
+              "en": "It was four days ago that I went to fetch you.",
+              "zh": "我是四天前去接你的。"
+            }
+          ]
+        },
+        {
+          "form": "Pnspat",
+          "fr": "Par quatre - quatre à la fois - quatre à chacun.",
+          "en": "By fours - four at a time - four to each.",
+          "zh": "每四個一組－一次四個－每人四個。",
+          "examples": [
+            {
+              "t": "Lngao nanak! pnpia ta pila?",
+              "fr": "Parle simplement! Nous devons mettre (vl.recevoir) chacun combien d'argent ?",
+              "en": "Just speak plainly! How much money must each of us put in (var. receive)?",
+              "zh": "直說吧！我們每人該出（或：收）多少錢呢？"
+            },
+            {
+              "t": "Pnspat ta nanak",
+              "fr": "Seulement quatre chacun.",
+              "en": "Only four each.",
+              "zh": "每人只有四個。"
+            }
+          ]
+        },
+        {
+          "form": "t'spat",
+          "paradigm": "°Tn'spat, t'spat, tspati, tspatan, tspatun",
+          "fr": "Partager en quatre (?).",
+          "en": "To divide into four (?).",
+          "zh": "分成四份（？）。",
+          "examples": [
+            {
+              "t": "Adi so tspatun?",
+              "fr": "Ne le partageras tu pas en quatre ?",
+              "en": "Won't you divide it into four?",
+              "zh": "你不把它分成四份嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Tispat",
+          "fr": "( Ti spat ?) = Le quatrième (dans une série). (Cest souvent que ce préfixe (?) TI (= peut-être particule, reste, ou amorce d'un article défini, ou mieux, d'un démonstratif ?) sert à spécifier celui (vl. ce) dont on parle:",
+          "en": "( Ti spat ?) = The fourth (in a series). (It is often that this prefix (?) TI (= perhaps a particle, a remnant, or the beginning of a definite article, or better, of a demonstrative?) serves to specify the one (var. the thing) being spoken of:",
+          "zh": "（Ti spat？）＝第四個（在一系列中）。（這個前綴（？）TI（＝也許是助詞、殘餘、或定冠詞的開頭，或更可能是指示詞的開頭？）常用來指明所談論的那一個（或：那個東西）：",
+          "examples": [
+            {
+              "t": "Tispat",
+              "fr": "Celui qui est à la quatrième place.",
+              "en": "The one that is in fourth place.",
+              "zh": "位於第四位的那一個。"
+            },
+            {
+              "t": "Timalu",
+              "fr": "Celui qui est bien (le mieux, le meilleur).",
+              "en": "The one that is good (the best, the finest).",
+              "zh": "好的那一個（最好的）。"
+            }
+          ]
+        },
+        {
+          "form": "Spatwil",
+          "fr": "(vl.Spat'l - spatul.).= Quarante.",
+          "en": "(var. Spat'l - spatul.) = Forty.",
+          "zh": "（或：Spat'l － spatul.）＝四十。",
+          "examples": [
+            {
+              "t": "Spatwil daxa (vl.spat m'xalan daxa)",
+              "fr": "Quanrante deux.",
+              "en": "Forty-two.",
+              "zh": "四十二。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPI",
+      "tag": "(R)",
+      "fr": "Rêve. (nb. Encore aujourd'hui, le rêve tient une grande place dans la vie des taroko; ils y trouvent des indications supranaturelles qui régissent une bonne part de leurs démarches et de leurs attitudes; Un signe pour eux richement prémonitoire).",
+      "en": "Dream. (n.b. Even today, the dream holds a great place in the life of the Taroko; in it they find supernatural indications that govern a good part of their undertakings and their attitudes; for them a richly premonitory sign).",
+      "zh": "夢。（註：即使在今日，夢在太魯閣人的生活中仍占有重要地位；他們在夢中尋得超自然的徵兆，這些徵兆主導著他們大部分的行動與態度；對他們而言，這是充滿預兆的訊號。）",
+      "examples": [
+        {
+          "t": "Suyang balae ka spi mo da! Wada ko na byeqon poting ka kingal ludan bi baki !",
+          "fr": "Mon rêve a été merveilleux! Un très vieux grand-père m'a donné un coutelas !",
+          "en": "My dream was wonderful! A very old grandfather gave me a machete!",
+          "zh": "我的夢真美妙！一位很老的爺爺給了我一把刀！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smpi",
+          "paradigm": "°Smpi, spi, .?. , spian(spiyan), spiun (spiyun).",
+          "fr": "Rêver - faire un rêve.",
+          "en": "To dream - to have a dream.",
+          "zh": "做夢。",
+          "examples": [
+            {
+              "t": "Snpi ( mnspi (?)) ko sunan ska'man",
+              "fr": "La nuit dernière j'ai rêvé de toi.",
+              "en": "Last night I dreamed of you.",
+              "zh": "昨夜我夢見了你。"
+            }
+          ]
+        },
+        {
+          "form": "Mspi",
+          "fr": "Etre celui qui rêve, qui fait un rêve.",
+          "en": "To be one who dreams, who has a dream.",
+          "zh": "是那個做夢的人。",
+          "examples": [
+            {
+              "t": "Mspi ko kddiyax ka yako",
+              "fr": "moi, je fais tous les jours des rêves.",
+              "en": "as for me, I have dreams every day.",
+              "zh": "我呢，我每天都做夢。"
+            }
+          ]
+        },
+        {
+          "form": "Spian (spiyan)",
+          "fr": "Ce dont on a rêvé - letemps du rêve.",
+          "en": "That which one has dreamed - the time of the dream.",
+          "zh": "所夢見之事－做夢的時刻。",
+          "examples": [
+            {
+              "t": "Manu bi ka snpiyan so ska'man? Malu xo ? naqex xo ?",
+              "fr": "Quel rêve as tu donc fait la nuit dernière ? Un beau rêve ? un mauvais ?",
+              "en": "What dream did you have last night, then? A good dream? A bad one?",
+              "zh": "你昨夜到底做了什麼夢？好夢嗎？壞夢嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPIAN",
+      "tag": "(R. = ?? - = R. L'PI ?)",
+      "crossRef": "VR. L'PAN (note)",
+      "fr": "(= peut être contraction de SL'PIAN ?). = Obstrué, bouché (nez, conduit, tuyau).- bouchon.",
+      "en": "(= perhaps a contraction of SL'PIAN?). = Obstructed, blocked (nose, duct, pipe).- a stopper/plug.",
+      "zh": "（＝或許是 SL'PIAN 的縮寫？）。＝阻塞、堵住（鼻子、管道、水管）。－塞子。",
+      "examples": [
+        {
+          "t": "Ga spian (slpian?) kana muxeng mo; ini ko tdoa muyes da!",
+          "fr": "Mon nez est tout bouché; je ne puis pas (je n'arrive pas à) chanter.",
+          "en": "My nose is all blocked up; I cannot (I am unable to) sing.",
+          "zh": "我的鼻子完全塞住了；我不能（無法）唱歌。"
+        }
+      ]
+    },
+    {
+      "hw": "SPING",
+      "tag": "(R)",
+      "fr": "Orner - décorer - faire toilette.",
+      "en": "To adorn - to decorate - to groom oneself / dress up.",
+      "zh": "裝飾、裝點、梳妝打扮。",
+      "subs": [
+        {
+          "form": "Snping (?)",
+          "fr": "Faire toilette - s'orner.",
+          "en": "To groom oneself - to adorn oneself.",
+          "zh": "梳妝、打扮自己。",
+          "examples": [
+            {
+              "t": "Asi ka snping ka koyox mo!",
+              "fr": "Il faut absolument qu'elle fasse toilette, ma femme (si non, elle n'est pas contente!)",
+              "en": "My wife absolutely must dress up (otherwise she is not happy!)",
+              "zh": "我的妻子非梳妝打扮不可（不然她會不高興！）"
+            }
+          ]
+        },
+        {
+          "form": "Msping",
+          "fr": "Qui est orné - qui est décoré - qui a fait toilette - qui s'est parée.",
+          "en": "One who is adorned - decorated - who has groomed - who has dressed up.",
+          "zh": "已裝飾的、已裝點的、已梳妝的、已盛裝打扮的（女子）。",
+          "examples": [
+            {
+              "t": "Mnxa so ino ? Ma\" so nsping bi da!",
+              "fr": "Où vas tu donc partir? Te voilà bien parée !",
+              "en": "Where are you off to, then? Look at you, all dressed up!",
+              "zh": "你到底要去哪裡？瞧你打扮得真漂亮！"
+            }
+          ]
+        },
+        {
+          "form": "Psping",
+          "paradigm": "°Mpsping, psping, pspingi, pspingan, pspingun.",
+          "fr": "Orner (quelque chose, quelque lieu) - décorer.",
+          "en": "To adorn (something, some place) - to decorate.",
+          "zh": "裝飾（某物、某地）、裝點。",
+          "examples": [
+            {
+              "t": "Pspingi tityex ka pala so spkmalu so taan!",
+              "fr": "Orne un peu (brode un peu sur)ta jupe pour que tu sois plus belle à voir.(pour qu'elle te rende plus belle)",
+              "en": "Adorn your skirt a little (embroider a bit on it) so that you look prettier. (so that it makes you more beautiful)",
+              "zh": "在你的裙子上稍加裝飾（繡一點），讓你看起來更美。（好讓它使你更漂亮）"
+            }
+          ]
+        },
+        {
+          "form": "Pspingan",
+          "fr": "Ornementation - décor - atours - action, temps de faire toilette.",
+          "en": "Ornamentation - decoration - finery - the act, the time of grooming/dressing up.",
+          "zh": "裝飾、裝點、盛裝、梳妝打扮的行為與時機。",
+          "examples": [
+            {
+              "t": "Klaon ta ino ka kuxul koyox ! Ida kia ka ngalun na pspingan!",
+              "fr": "Qui peut comprendre le goût des femmes ! C'est encore cela qu'elle considère des atours.",
+              "en": "Who can understand women's taste! This is yet another thing she counts as finery.",
+              "zh": "誰能懂女人的品味呢！這又是她視為盛裝打扮的東西。"
+            }
+          ]
+        },
+        {
+          "form": "Spsping",
+          "fr": "Pour orner - pour faire toilette.",
+          "en": "In order to adorn - in order to dress up.",
+          "zh": "為了裝飾、為了梳妝打扮。",
+          "examples": [
+            {
+              "t": "Mnsa kmsyuk pala Lobyaq ka Labai spsping na Bika nia",
+              "fr": "Labai est allée emprunter la jupe de Lobyaq pour en parer sa fille Bica.",
+              "en": "Labai went to borrow Lobyaq's skirt to dress up her daughter Bica in it.",
+              "zh": "拉拜（Labai）去向羅比雅（Lobyaq）借裙子，好給她的女兒碧卡（Bica）打扮。"
+            }
+          ]
+        },
+        {
+          "form": "Pnspingan",
+          "fr": "Moyens, façon de(de se) décorer, de faire toilette.",
+          "en": "Means, ways of decorating (oneself), of dressing up.",
+          "zh": "裝飾（自己）、梳妝打扮的方法、方式。",
+          "examples": [
+            {
+              "t": "Malu bi ka pnspingan so",
+              "fr": "Tu as eu du goût pour t'habiller!",
+              "en": "You had good taste in dressing yourself!",
+              "zh": "你很有穿著品味！"
+            },
+            {
+              "t": "Malu bi pnspingan so ka s'xiga",
+              "fr": "Hier, tu étais bien habillée.",
+              "en": "Yesterday, you were well dressed.",
+              "zh": "昨天你穿得很漂亮。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPLANG",
+      "tag": "(R)",
+      "fr": "Exprès - volontairement.",
+      "en": "On purpose - deliberately.",
+      "zh": "故意、刻意。",
+      "subs": [
+        {
+          "form": "Msplang",
+          "fr": "Qui fait exprès - qui agit volontairement.",
+          "en": "One who does it on purpose - who acts deliberately.",
+          "zh": "故意做的人－刻意行動的人。",
+          "examples": [
+            {
+              "t": "Uxai ko mqnoqo ! msplang ko balae!",
+              "fr": "Non! ce n'est pas par erreur!J'ai bien fait exprès",
+              "en": "No! it was not a mistake! I really did it on purpose",
+              "zh": "不！這不是失誤！我確實是故意的"
+            }
+          ]
+        },
+        {
+          "form": "Splangun",
+          "fr": "Qui sera fait, qui doit être fait exprès.",
+          "en": "That which will be done, which must be done on purpose.",
+          "zh": "將被刻意做、必須刻意做之事。",
+          "examples": [
+            {
+              "t": "Ya ksa: ini ko k'la! Wada splangun so balae!",
+              "fr": "Ne dis pas: Je ne savais pas! Tu as vraiment fait exprès!",
+              "en": "Do not say: I did not know! You really did it on purpose!",
+              "zh": "別說：我不知道！你確實是故意的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPLEQ",
+      "tag": "(R)",
+      "fr": "Herbe ( par opposition à ce qui est arbre, arbuste, plante cultivée, mauvais herbe.",
+      "en": "Grass/weed (as opposed to what is a tree, a shrub, a cultivated plant); a weed.",
+      "zh": "草（相對於樹、灌木、栽培植物而言）；雜草。"
+    },
+    {
+      "hw": "SPLOQ",
+      "tag": "(R. = LOQ ?)",
+      "crossRef": "VR. LOQ",
+      "fr": "Eclater - pour faire crever.",
+      "en": "To burst - to make (something) burst.",
+      "zh": "爆裂、使爆破。",
+      "subs": [
+        {
+          "form": "Msploq",
+          "fr": "Eclater - qui éclate.",
+          "en": "To burst - that which bursts.",
+          "zh": "爆裂－爆裂的東西。",
+          "examples": [
+            {
+              "t": "Msploq ka sxmoan mo babwi",
+              "fr": "Ma vessie de cochon (dont les enfants se servent comme d'un ballon) a éclaté!",
+              "en": "My pig's bladder (which the children use as a ball) has burst!",
+              "zh": "我的豬膀胱（孩子們拿來當球玩的）爆掉了！"
+            }
+          ]
+        },
+        {
+          "form": "Psploq",
+          "fr": "Faire sauter - faire crever - faire éclater.",
+          "en": "To blow up - to burst - to make (something) explode.",
+          "zh": "使爆炸、使破裂、使爆開。",
+          "examples": [
+            {
+              "t": "Mxlapas psploq llubwi lb'lak ka laqe mo",
+              "fr": "Mon gosse s'amuse à faire éclater des sacs en papier.",
+              "en": "My kid amuses himself bursting paper bags.",
+              "zh": "我的孩子喜歡玩把紙袋弄破（爆開）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPONG",
+      "tag": "(R)",
+      "fr": "Essayer - mesurer - peser - tester.",
+      "en": "To try - to measure - to weigh - to test.",
+      "zh": "嘗試、測量、稱重、測試。",
+      "examples": [
+        {
+          "t": "Nasi so kmpspong o, spong n'xali da!",
+          "fr": "Si tu veux contrôler, contrôle (pèse) vite !",
+          "en": "If you want to check, check (weigh) it quickly!",
+          "zh": "你若想查核，就快點查核（稱一下）吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smpong",
+          "paradigm": "°Smpong, spong, spngi (sp'ngi), sp'ngan, sp'ngun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto - the verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Smpong ko musa dmulun",
+              "fr": "J'essaye d'aller demander.",
+              "en": "I am trying to go and ask.",
+              "zh": "我試著去問。"
+            },
+            {
+              "t": "Spngai ta lubwi so xo?",
+              "fr": "Veux tu (acceptes tu) qu'on pèse ton sac?",
+              "en": "Do you want (do you agree) that we weigh your bag?",
+              "zh": "你要（你同意）我們秤你的袋子嗎？"
+            },
+            {
+              "t": "Smpong otoç",
+              "fr": "(essayer l'Esprit - demander à l'Esprit) Tirer au sort.",
+              "en": "(to try the Spirit - to ask the Spirit) To draw lots.",
+              "zh": "（試探神靈－求問神靈）抽籤、占卜。"
+            }
+          ]
+        },
+        {
+          "form": "Mspong",
+          "fr": "Celui qui mesure - celui qui fait la lutte (pour un concours).",
+          "en": "One who measures - one who wrestles (for a contest).",
+          "zh": "測量者－摔角比賽者（為了比賽）。",
+          "examples": [
+            {
+              "t": "Mxa mspong biyax ka xea",
+              "fr": "Il va faire un concours de lutte (= il va mesurer sa force).",
+              "en": "He is going to hold a wrestling contest (= he is going to measure his strength).",
+              "zh": "他要去比摔角（＝他要較量力氣）。"
+            }
+          ]
+        },
+        {
+          "form": "Mgspong",
+          "fr": "Implorer quelque chose de quelqu'un - demandeur.",
+          "en": "To implore something from someone - a petitioner.",
+          "zh": "向某人懇求某事－懇求者。",
+          "examples": [
+            {
+              "t": "Mp'uda ko xangan tama so mgspong gnalu so",
+              "fr": "C'est au nom de ton propre père que j'implore ta clémence.",
+              "en": "It is in the name of your own father that I implore your mercy.",
+              "zh": "我以你父親之名懇求你的寬恕。"
+            }
+          ]
+        },
+        {
+          "form": "Spngan (Sp'ngan)",
+          "fr": "Mesuré - circonstances du mesurer - ce qui a été mesuré.",
+          "en": "Measured - the circumstances of measuring - that which has been measured.",
+          "zh": "被測量的－測量的情況－已被測量之物。",
+          "examples": [
+            {
+              "t": "Pia spngan ka snpngan so",
+              "fr": "D'après ce que tu as mesuré, il-y-a combien de mesures ?",
+              "en": "According to what you have measured, how many measures are there?",
+              "zh": "照你所量的，共有多少量（度量單位）？"
+            },
+            {
+              "t": "T'lo bi spngan ni snka",
+              "fr": "Il n'y a que trois mesures et demie ( litres, mètres, kilogrammes, autres récipients..)",
+              "en": "There are only three and a half measures (litres, metres, kilograms, other containers..)",
+              "zh": "只有三量半（公升、公尺、公斤、其他容器…）。"
+            },
+            {
+              "t": "Ini k'xdo ka spngan no trabus",
+              "fr": "Je n'ai pas fini de peser les arachides.",
+              "en": "I have not finished weighing the peanuts.",
+              "zh": "我還沒稱完花生。"
+            },
+            {
+              "t": "Spngan otoç",
+              "fr": "Sort - chance (= Mesure de l'Esprit).",
+              "en": "Fate - luck (= Measure of the Spirit).",
+              "zh": "命運、運氣（＝神靈的度量）。"
+            }
+          ]
+        },
+        {
+          "form": "Pspong",
+          "fr": "Faire peser - contrôler - examiner.",
+          "en": "To have (something) weighed - to check - to examine.",
+          "zh": "使人稱重、查核、檢驗。",
+          "examples": [
+            {
+              "t": "Pspngun nano knuwan ka galyeq nano da!",
+              "fr": "Quand est-ce que vous ferez mesurer votre étoffe ?",
+              "en": "When will you have your cloth measured?",
+              "zh": "你們什麼時候要拿你們的布去量呢？"
+            },
+            {
+              "t": "Ya adi so miyax pspong knan xo?",
+              "fr": "J'espère que tu ne viens pas me tenter (ne contrôler, me faire passer un test, me soupeser)!",
+              "en": "I hope you are not coming to tempt me (to test me, to put me through a test, to size me up)!",
+              "zh": "我希望你不是來試探我（查核我、考驗我、掂量我）的吧！"
+            }
+          ]
+        },
+        {
+          "form": "Pspngan",
+          "fr": "Epreuve - tentation - examen.",
+          "en": "Trial - temptation - examination.",
+          "zh": "考驗、試探、考試。",
+          "examples": [
+            {
+              "t": "Ya nami bi pdaqi pspngan ni, pstui nami pax knnaqex",
+              "fr": "Ne me fais pas passer par la tentation et relève moi du mal.",
+              "en": "Do not lead me into temptation and deliver me from evil.",
+              "zh": "不要讓我陷入試探，救我脫離兇惡。"
+            }
+          ]
+        },
+        {
+          "form": "Sspong",
+          "fr": "Pour peser - pour mesurer - se mesurer mutuellement.",
+          "en": "In order to weigh - in order to measure - to measure oneself against another.",
+          "zh": "為了稱重、為了測量、彼此較量。",
+          "examples": [
+            {
+              "t": "Xeaon so ka tasil ? ... SSpong mo payai!",
+              "fr": "Que veux tu en faire de la pierre? ... pour peser le riz.",
+              "en": "What do you want to do with the stone? ... to weigh the rice.",
+              "zh": "你要那石頭做什麼？…用來稱米。"
+            }
+          ]
+        },
+        {
+          "form": "Msspong",
+          "fr": "Se mesurer mutuellement (dans la lutte, l'adresse, les connaissances..).",
+          "en": "To measure oneself against one another (in wrestling, skill, knowledge..).",
+          "zh": "彼此較量（在摔角、技藝、知識…方面）。",
+          "examples": [
+            {
+              "t": "Uxai mqqan! Msspong nanak ka dxea!",
+              "fr": "Non! Ils ne se bagarrent pas ! Ils ne font qu'un concours de lutte !",
+              "en": "No! They are not fighting! They are only holding a wrestling contest!",
+              "zh": "不！他們不是在打架！他們只是在比摔角！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SPU",
+      "tag": "(SPU\" - SPUG) (R)",
+      "fr": "Compter - dénombrer.",
+      "en": "To count - to enumerate.",
+      "zh": "數、計數、清點。",
+      "examples": [
+        {
+          "t": "Spu n'xali pila ka iso",
+          "fr": "Toi compte vite de l'argent.",
+          "en": "You, count the money quickly.",
+          "zh": "你快點數錢。"
+        },
+        {
+          "t": "Spu n'xali ka pila da!",
+          "fr": "Compte le vite l'argent !",
+          "en": "Count the money quickly!",
+          "zh": "快點數錢！"
+        },
+        {
+          "t": "Ya toko o, ini ko spu",
+          "fr": "(cela) suffira-t-il ? Je ne compte pas !",
+          "en": "Will (that) be enough? I am not counting!",
+          "zh": "（那）夠了嗎？我不數了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smpu",
+          "fr": "Compter.",
+          "en": "To count.",
+          "zh": "數、計數。",
+          "examples": [
+            {
+              "t": "Ini ko k'la smpu (smpu\") ka yako; xmut lala bi da!",
+              "fr": "Je n'arrive pas à (les) compter ! Tout ce que je sais c'est qu'il-y-en a beaucoup.",
+              "en": "I cannot count (them)! All I know is that there are a lot.",
+              "zh": "我數不清（它們）！我只知道數量很多。"
+            },
+            {
+              "t": "Ana mo si spgi ka kingal diyax o, adi mo tnklaon!",
+              "fr": "Même si je voulais compter pendant un jour entier, je n'en arriverais pas à bout !",
+              "en": "Even if I wanted to count for a whole day, I would never get to the end of it!",
+              "zh": "就算我想數上一整天，也數不完！"
+            },
+            {
+              "t": "Smpu ka ini xali k'la (ka) laqe mo !",
+              "fr": "C'est le calcul où mon fils n'est pas très fort!",
+              "en": "Arithmetic is what my son is not very good at!",
+              "zh": "算術是我兒子不太拿手的（科目）！"
+            }
+          ]
+        },
+        {
+          "form": "Spgan",
+          "fr": "La somme du compte fait - l'action faite de compter.",
+          "en": "The sum of the count made - the completed act of counting.",
+          "zh": "所數的總數－已完成的計數動作。",
+          "examples": [
+            {
+              "t": "Taan mo o, malu bi ka spgan so",
+              "fr": "D'après ce que je vois, tu comptes bien !",
+              "en": "From what I see, you count well!",
+              "zh": "照我看，你數得很好！"
+            },
+            {
+              "t": "Wada so spgan kana ka pila xo ?",
+              "fr": "Tu l'as tout compté, l'argent ?",
+              "en": "Have you counted all of it, the money?",
+              "zh": "錢你都數完了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Snpgan",
+          "fr": "La somme comptée - l'action de compter (dans le passé).",
+          "en": "The sum counted - the act of counting (in the past).",
+          "zh": "已數的總數－計數的動作（過去）。",
+          "examples": [
+            {
+              "t": "Snpgan so suni o, pia ta xei da!",
+              "fr": "D'après tes calculs de tout à l'heure, nous sommes combien de personnes ?",
+              "en": "According to your calculations a moment ago, how many of us are there?",
+              "zh": "照你剛才所算的，我們共有多少人？"
+            }
+          ]
+        },
+        {
+          "form": "Pspu (Pspu\")",
+          "fr": "Faire compter - faire dénombrer - recenser.",
+          "en": "To have (things) counted - to have (them) enumerated - to take a census.",
+          "zh": "使人清點、使人計數、進行普查。",
+          "examples": [
+            {
+              "t": "Ndoa bi pspu kana lqlaqe ta natas l'alang ta ana ino",
+              "fr": "Fais compter soigneusement tous les écoliers de tous nos villages. (nb. Comme dans bien d'autres cas, ici aussi il est facile de confondre des termes voisins phonétiquement comme en valeur sémantique: PSPU\" = faire compter ; PSOPU = faire être ensemble; PSPONG = faire mesurer ) !!",
+              "en": "Have all the schoolchildren of all our villages carefully counted. (n.b. As in many other cases, here too it is easy to confuse terms that are close both phonetically and in semantic value: PSPU\" = to have (things) counted; PSOPU = to bring together; PSPONG = to have (things) measured) !!",
+              "zh": "請仔細清點我們各村所有的學童。（註：如同許多其他情況，此處也很容易混淆語音與語義都相近的詞：PSPU\"＝使人清點；PSOPU＝使聚在一起；PSPONG＝使人測量）！！"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

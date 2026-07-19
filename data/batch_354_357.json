@@ -1,0 +1,764 @@
+{
+  "pages": [354, 357],
+  "leadin": {
+    "fr": "d'un bout de ce bois allumé comme une torche, qui servait (et parfois sert encore !) sur la route aussi bien qu'à la maison. Il servait, et sert encore, pour allumer le feu facilement.).",
+    "en": "with a piece of this wood lit like a torch, which was used (and is sometimes still used!) on the road as well as at home. It was used, and is still used, to light the fire easily.).",
+    "zh": "用一段像火把一樣點燃的這種木頭，過去在路上和在家裡都會使用（有時現在還在用！）。它過去用來、如今仍用來輕鬆地生火。）。",
+    "examples": [],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "XALÖS",
+      "tag": "(R)",
+      "fr": "Bave - baver.",
+      "en": "Drool (saliva) - to drool.",
+      "zh": "口水；流口水。",
+      "examples": [
+        {
+          "t": "Tai binao! Xalös kana lukus so! Sa\"so (s\"so) bi!",
+          "fr": "Vois un peu! Tous tes habits sont pleins de bave! C'est honteux !",
+          "en": "Just look! All your clothes are covered in drool! It's shameful!",
+          "zh": "你看看！你的衣服全是口水！真丟臉！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxalös",
+          "fr": "Baver (forme verbale).",
+          "en": "To drool (verbal form).",
+          "zh": "流口水（動詞形）。",
+          "examples": [
+            {
+              "t": "Pax bilaq ni, ana diyan ana ka'man o, ida nxalös kddiyax ka laqe nii!",
+              "fr": "Depuis tout petit, le jour comme la nuit, ce gosse n'arrête pas de baver.",
+              "en": "Since he was very small, day and night, this kid never stops drooling.",
+              "zh": "從很小的時候起，無論白天黑夜，這個孩子一直不停地流口水。"
+            }
+          ]
+        },
+        {
+          "form": "Sxalös",
+          "fr": "Qui sent la bave - qui a l'aspect, l'apparence de la bave - qui secrète de la bave - qui bave.",
+          "en": "That smells of drool - that has the look, the appearance of drool - that secretes drool - that drools.",
+          "zh": "有口水味的；看起來像口水、外觀像口水的；分泌口水的；會流口水的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XALWI",
+      "tag": "( = R. ??)",
+      "fr": "Habit (?) - porter sur soi (?) - endosser (?).",
+      "en": "Garment (?) - to wear on oneself (?) - to put on (?).",
+      "zh": "衣服（？）；穿在身上（？）；披上（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmalwi",
+          "fr": "S'habiller - avoir sur soi - être couvert par.",
+          "en": "To dress oneself - to have on oneself - to be covered by.",
+          "zh": "穿衣服；穿在身上；被……所覆蓋。",
+          "examples": [
+            {
+              "t": "Ya sa ga xmalwi biyax pkmalu mnalox ka xea",
+              "fr": "Etant donné qu'il est doué ( habillé) de la force (du pouvoir) de guérir les malades !",
+              "en": "Given that he is endowed (clothed) with the strength (the power) to heal the sick!",
+              "zh": "因為他被賦予（披上）了醫治病人的力量（能力）！"
+            }
+          ]
+        },
+        {
+          "form": "Xnalwi",
+          "fr": "Habits - couvertures - tout ce dont on peut se recouvrir.",
+          "en": "Garments - coverings - everything one can cover oneself with.",
+          "zh": "衣物；覆蓋物；一切可以用來遮蓋自己的東西。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XAN",
+      "tag": "",
+      "fr": "Exclamatif - signe d'un accord, d'un consentement.",
+      "en": "Exclamative - a sign of agreement, of consent.",
+      "zh": "感嘆詞；表示同意、贊成的記號。",
+      "examples": [
+        {
+          "t": "Iyax n'xali,nsa! ... xan !",
+          "fr": "Viens vite, dit-il! ... Ah! bon!",
+          "en": "Come quickly, he said! ... Ah! good!",
+          "zh": "他說：快來！……啊！好！"
+        },
+        {
+          "t": "Byeqe ko tityex xan xo?",
+          "fr": "Donne m'en un peu, veux tu ?",
+          "en": "Give me a little, will you?",
+          "zh": "給我一點，好嗎？"
+        },
+        {
+          "t": "Byeqe ko tityex xan!",
+          "fr": "Donne moi d'abord un peu !",
+          "en": "Give me a little first!",
+          "zh": "先給我一點！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XANA",
+      "tag": "",
+      "fr": "Mot outil = Seulement - à peine. (nb. Xana semble employé surtout avec des formes verbales, WANA le remplaçant le plus souvent avec les formes nominales).",
+      "en": "Function word = Only - barely. (n.b. Xana seems to be used mainly with verbal forms, WANA most often replacing it with the nominal forms).",
+      "zh": "虛詞＝只是；才剛。（註：Xana 似乎主要用於動詞形式，而在名詞形式中多以 WANA 取代。）",
+      "examples": [
+        {
+          "t": "Xana d'xok o, asi so msaang da !",
+          "fr": "Tu es à peine arrivé et voilà que tu disputes !",
+          "en": "You've barely arrived and here you are already quarrelling!",
+          "zh": "你才剛到就在吵架！"
+        },
+        {
+          "t": "Xana ko nk'la !",
+          "fr": "Je viens tout juste de l'apprendre!",
+          "en": "I've only just learned it!",
+          "zh": "我才剛剛知道！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XANGAN",
+      "tag": "(R)",
+      "crossRef": "VR. NGAXAN",
+      "fr": "Nom. (nb. avec quelque nuance, a le même sens que NGAXAN (les lettres étant renversées!).).",
+      "en": "Name. (n.b. with some nuance, has the same meaning as NGAXAN (the letters being reversed!).).",
+      "zh": "名字。（註：帶有些許差別，與 NGAXAN 意思相同（字母顛倒過來！）。）",
+      "examples": [
+        {
+          "t": "Ini ko k'la xangan pusu qouni nii!",
+          "fr": "Je ne sais pas le nom de cet arbre.",
+          "en": "I don't know the name of this tree.",
+          "zh": "我不知道這棵樹的名字。"
+        },
+        {
+          "t": "Nyeqan xangan",
+          "fr": "Célèbre (=avoir un nom).",
+          "en": "Famous (= to have a name).",
+          "zh": "有名的（＝有名氣）。"
+        },
+        {
+          "t": "Ima ka xangan so = xangan so o, ina",
+          "fr": "(semble plus grossier)",
+          "en": "(seems more coarse)",
+          "zh": "（似乎較為粗俗）"
+        },
+        {
+          "t": "Manu ka xangan so",
+          "fr": "Comment t'appelles tu ?",
+          "en": "What is your name?",
+          "zh": "你叫什麼名字？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmxangan",
+          "paradigm": "°Tmxangan, txangan, tx'ngani, txnganan, txnganun.",
+          "fr": "S'appeler - se nommer.",
+          "en": "To be called - to be named.",
+          "zh": "叫做；名為。",
+          "examples": [
+            {
+              "t": "Mptquli kingal laqe ka koyox so ni, Segok ka txnganun",
+              "fr": "Ta femme aura (enfantera - aura à soigner) un enfant et il s'appellera Segok.",
+              "en": "Your wife will have (will give birth to - will have to care for) a child, and he will be named Segok.",
+              "zh": "你的妻子將會有（生下、需要照顧）一個孩子，他將取名為 Segok。"
+            }
+          ]
+        },
+        {
+          "form": "Ptxangan",
+          "fr": "Mettre un nom - nommer - appeler.",
+          "en": "To give a name - to name - to call.",
+          "zh": "取名；命名；稱呼。",
+          "examples": [
+            {
+              "t": "Ptxnganun so nanu ka laqe so ?",
+              "fr": "Comment appelleras tu ton enfant?",
+              "en": "What will you name your child?",
+              "zh": "你要給你的孩子取什麼名字？"
+            },
+            {
+              "t": "Mpsx'dil so ni mpgdolo so kingal laqe snao ptxnganun so Yesu",
+              "fr": "Tu seras enceinte et tu enfanteras un enfant mâle et tu l'appelleras Jésus.",
+              "en": "You will conceive and will give birth to a male child, and you will name him Jesus.",
+              "zh": "你要懷孕，生下一個男孩，並給他取名叫耶穌。"
+            }
+          ]
+        },
+        {
+          "form": "Sxangan",
+          "fr": "Donner un sobriquet - dénigrer - se moquer.",
+          "en": "To give a nickname - to disparage - to mock.",
+          "zh": "取綽號；詆毀；嘲笑。",
+          "examples": [
+            {
+              "t": "Ya bi sxangan ka iso!",
+              "fr": "Toi, garde toi bien de donner des sobriquets (de te moquer).",
+              "en": "You, be careful not to give nicknames (not to mock).",
+              "zh": "你可要小心，別亂給人取綽號（別嘲笑人）。"
+            }
+          ]
+        },
+        {
+          "form": "Smxangan",
+          "paradigm": "°Smxangan, sxangan, sxngani, sxnganan, sxnganun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ma so smxangan sadyaq!",
+              "fr": "Qu'est-ce qui te prend de (pourquoi ? Comment!!) décrier, de donner des sobriquets aux gens !",
+              "en": "What has got into you to (why? how!!) run people down, to give people nicknames!",
+              "zh": "你是怎麼了（為什麼？怎麼會！！）要詆毀別人、給人取綽號！"
+            },
+            {
+              "t": "Nasi so sxnganun ka sadyaq dole o, ida miso psloon dole, kawai binao!",
+              "fr": "Si tu te moques (dis des sobriquets) encore des gens, je vais te punir à nouveau, tu vas voir!",
+              "en": "If you mock (give nicknames to) people again, I will punish you once more, you'll see!",
+              "zh": "如果你再嘲笑（給人取綽號）別人，我會再處罰你，你等著瞧！"
+            }
+          ]
+        },
+        {
+          "form": "Sxnganan",
+          "fr": "Sobriquet - médisance. (nb. Ce terme: SXANGAN et ses dérivés, comporte toujours une note de méchanceté, qui fait mal !).",
+          "en": "Nickname - slander. (n.b. This term: SXANGAN and its derivatives always carries a note of malice, which hurts!).",
+          "zh": "綽號；毀謗。（註：SXANGAN 這個詞及其衍生形總帶有惡意、令人受傷的意味！）",
+          "examples": [
+            {
+              "t": "Balae bi xangan na ka kia ? ... Adi! Sxnganan d'xa !",
+              "fr": "Est-ce bien là son vrai nom ? ... Non ! C'est le sobriquet (méchant) qui lui est donné !",
+              "en": "Is that really his real name? ... No! It's the (nasty) nickname that has been given to him!",
+              "zh": "那真的是他的本名嗎？……不是！那是別人給他取的（惡毒）綽號！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XAPWI",
+      "tag": "(= R. ?)",
+      "fr": "Le fait de cuire (surtout des aliments).",
+      "en": "The act of cooking (especially food).",
+      "zh": "烹煮（尤指食物）。",
+      "examples": [
+        {
+          "t": "Xapwi n'xali!",
+          "fr": "cuis vite.",
+          "en": "cook quickly.",
+          "zh": "快煮。"
+        },
+        {
+          "t": "Xpui n'xali ka noqao nii",
+          "fr": "Cuis vite ces petits pois !",
+          "en": "Cook these little peas quickly!",
+          "zh": "快把這些小豌豆煮了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'xapwi",
+          "paradigm": "°M'xapwi, xapwi, xpui (xpuy), xpuyan, xpuyun.",
+          "fr": "d° forme verbale - faire fermenter.",
+          "en": "ditto — verbal form of the preceding — to ferment.",
+          "zh": "同上之動詞形；使發酵。",
+          "examples": [
+            {
+              "t": "Ga ko n'xapwi idao!",
+              "fr": "Je suis en train de cuire du riz.",
+              "en": "I am cooking rice.",
+              "zh": "我正在煮飯。"
+            },
+            {
+              "t": "Miyax ko dnayao n'xapwi semento",
+              "fr": "Je viens aider à faire le mortier.",
+              "en": "I've come to help make the mortar.",
+              "zh": "我來幫忙攪拌水泥砂漿。"
+            },
+            {
+              "t": "Kmpax so nanu ka iso ? ... Ga ko n'xapwi koswi",
+              "fr": "Quel travail fais tu, toi? ... Je distille de la citronelle!",
+              "en": "What work do you do? ... I'm distilling citronella!",
+              "zh": "你在做什麼工作？……我在蒸餾香茅！"
+            }
+          ]
+        },
+        {
+          "form": "N'xapwi (nxapwi)",
+          "fr": "Ce qui a été cuit, préparé - Tous les aliments préparés.",
+          "en": "That which has been cooked, prepared - All prepared food.",
+          "zh": "已煮好、已備妥之物；一切備好的食物。",
+          "examples": [
+            {
+              "t": "N'xapwi so kana ka koswi so daya?",
+              "fr": "L'as tu toute distillée ( as tu fini de distiller) ta citronelle de là-haut?",
+              "en": "Have you distilled it all (have you finished distilling) your citronella from up there?",
+              "zh": "你把上面那些香茅都蒸餾完了嗎？"
+            },
+            {
+              "t": "Nta nqan n'xapwi da, tgaox ko balae!",
+              "fr": "Allons manger; je suis très pressé.",
+              "en": "Let's go eat; I'm in a great hurry.",
+              "zh": "我們去吃飯吧，我很趕。"
+            }
+          ]
+        },
+        {
+          "form": "Xpuyan",
+          "fr": "Cuisine - endroit, temps où l'on cuit.",
+          "en": "Kitchen - the place, the time where/when one cooks.",
+          "zh": "廚房；烹煮的地方、時間。",
+          "examples": [
+            {
+              "t": "Baka bi xpuyan da!",
+              "fr": "Il est temps de préparer la soupe (de cuire).",
+              "en": "It's time to prepare the soup (to cook).",
+              "zh": "該煮湯（做飯）了。"
+            },
+            {
+              "t": "Mkuong (mkuwong) bi ka sapax xpuyan no",
+              "fr": "Ma cuisine est très sombre.",
+              "en": "My kitchen is very dark.",
+              "zh": "我的廚房很暗。"
+            },
+            {
+              "t": "Mkuong bi ka xpuyan sapax mo",
+              "fr": "La cuisine de ma maison est très sombre.",
+              "en": "The kitchen of my house is very dark.",
+              "zh": "我家的廚房很暗。"
+            },
+            {
+              "t": "Malu bi xpuyan ka pngusul",
+              "fr": "Les escargots sont faciles à préparer (à cuire).",
+              "en": "Snails are easy to prepare (to cook).",
+              "zh": "蝸牛很容易料理（烹煮）。"
+            }
+          ]
+        },
+        {
+          "form": "P'xapwi",
+          "fr": "Faire cuire (par qq'un) - faire préparer.",
+          "en": "To have (someone) cook - to have (food) prepared.",
+          "zh": "叫（某人）煮；使人備飯。",
+          "examples": [
+            {
+              "t": "Miyax ko p'xapwi sunan; mawit ko bi da!",
+              "fr": "Je viens me faire faire à manger chez toi; je suis très fatigué.",
+              "en": "I've come to have a meal made for me at your place; I'm very tired.",
+              "zh": "我來你這裡讓你幫我做飯；我很累了。"
+            },
+            {
+              "t": "Ongat diyax so do, sai p'xapwi Dloan da!",
+              "fr": "Si tu n'as pas le temps, va te faire faire à manger chez Djiro !",
+              "en": "If you don't have time, go and have a meal made for you at Djiro's!",
+              "zh": "如果你沒空，就去 Djiro（吉羅）家讓人幫你做飯吧！"
+            }
+          ]
+        },
+        {
+          "form": "Sp'xapwi",
+          "fr": "Pour préparer à manger - pour faire (pour servir à faire) à manger.",
+          "en": "For preparing food - to make (to serve to make) food.",
+          "zh": "用來準備飯菜；用來（供）做飯。",
+          "examples": [
+            {
+              "t": "Mnsa mali ana manu sapax bligan sp'xapwi na dxeaan",
+              "fr": "Elle (il) est allée faire tous ses achats au marché pour leur faire à manger.",
+              "en": "She (he) went to do all her shopping at the market in order to make food for them.",
+              "zh": "她（他）去市場買齊了所有東西，為了給他們做飯。"
+            }
+          ]
+        },
+        {
+          "form": "Mp'xapwi",
+          "fr": "Cuire (au futur) - celui qui fait cuire.",
+          "en": "To cook (in the future) - the one who does the cooking.",
+          "zh": "（將要）煮；做飯的人。",
+          "examples": [
+            {
+              "t": "Ima ka mp'xapwi oqon lac sapax so ?",
+              "fr": "Qui est-ce qui préparera le repas (la nourriture) pour les hôtes de ta maison ?",
+              "en": "Who will prepare the meal (the food) for the guests of your house?",
+              "zh": "誰要為你家的客人準備飯菜（食物）？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XAWAI",
+      "tag": "",
+      "fr": "Exclamation = Quel dommage! (regret).",
+      "en": "Exclamation = What a pity! (regret).",
+      "zh": "感嘆詞＝真可惜！（表遺憾）。",
+      "examples": [
+        {
+          "t": "Xawai bi ka sapax mo!",
+          "fr": "Dommage pour ma maison) (perdue..détruite...).",
+          "en": "What a pity for my house) (lost..destroyed...).",
+          "zh": "我的家真可惜）（沒了……毀了……）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XAYA",
+      "tag": "(R)",
+      "fr": "Ainsi - de la sorte - cela.",
+      "en": "Thus - in that way - that.",
+      "zh": "這樣；如此；那個。",
+      "examples": [
+        {
+          "t": "Wana xaya ka biyax no!",
+          "fr": "C'est tout ce que je puis faire (= Voilà tout ce que j'ai comme forces!).",
+          "en": "That's all I can do (= That's all the strength I have!).",
+          "zh": "我只能做到這樣（＝我的力氣就只有這麼多！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kxaya",
+          "fr": "Qui est ainsi - qui est tel - qui est de cette façon.",
+          "en": "That is thus - that is such - that is in this way.",
+          "zh": "如此這般的；是那樣的；這個樣子的。",
+          "examples": [
+            {
+              "t": "Ana kxaya ka knnalox so o, ida niso pkdusun",
+              "fr": "Bien que tu sois aussi gravement malade, je veux quand même te guérir.",
+              "en": "Although you are so seriously ill, I still want to heal you.",
+              "zh": "儘管你病得這麼重，我還是想醫好你。"
+            },
+            {
+              "t": "Ana kxaya ka knnlaan so o, ini bi d'xa lnglongi!",
+              "fr": "Ta bonté à beau être telle, Ils n'y pensent pas (ils n'en tiennent pas compte!).",
+              "en": "However great your goodness may be, they give it no thought (they take no account of it!).",
+              "zh": "你的善良再怎麼大，他們也不放在心上（毫不理會！）。"
+            }
+          ]
+        },
+        {
+          "form": "Msxaya",
+          "fr": "Agir, se comporter, être, de la façon dont il est question.",
+          "en": "To act, to behave, to be, in the manner in question.",
+          "zh": "以所談論的那種方式行事、表現、存在。",
+          "examples": [
+            {
+              "t": "M'gwi (magwi ?) so ka iso o, mxa msxaya ka lqlaqe so ole!",
+              "fr": "(Si) tu voles, tes enfants deviendront aussi voleurs (voleront aussi)!",
+              "en": "(If) you steal, your children will also become thieves (will also steal)!",
+              "zh": "（如果）你偷竊，你的孩子也會變成小偷（也會偷）！"
+            },
+            {
+              "t": "Ma msxaya ka laqe nii!",
+              "fr": "Ah! c'est comme cela qu'il agit ce (sale)gosse!",
+              "en": "Ah! that's how this (nasty) kid behaves!",
+              "zh": "啊！這個（討厭的）孩子就是這樣行事！"
+            }
+          ]
+        },
+        {
+          "form": "Ksxaya",
+          "fr": "Forme Impérative et négative de MSXAYA.",
+          "en": "Imperative and negative form of MSXAYA.",
+          "zh": "MSXAYA 的命令式與否定式。",
+          "examples": [
+            {
+              "t": "Ksxaya nanak kika nalu!",
+              "fr": "Fais seulement comme cela et ce sera bien.",
+              "en": "Just do it like that and it will be fine.",
+              "zh": "你就這樣做就好了。"
+            },
+            {
+              "t": "Snloa so bi ana manu pntqoan d'xa! Ini bi ksxaya kana!",
+              "fr": "Toi tu pardonnes toutes les offenses (qui te sont faites)! Ce n'est pas ce que font les gens en général !",
+              "en": "You forgive all the offenses (done to you)! That's not what people generally do!",
+              "zh": "你饒恕一切（對你的）冒犯！這不是一般人會做的事！"
+            },
+            {
+              "t": "Ksnani xaya (= Ksi nami xaya !)",
+              "fr": "Fais nous être de même! (nb. Cet affixe (?!) séparé du terme qu'il affcte normalement n'est pas un fait unique: par.ex. Npa-so paro tunuç xeti = Tu deviendras plus tard un chef (une autorité, un \"monsieur\"); dans ces réalisations, le préfixe se comporte comme s'il était un monème autonome avec un message propre, ou du moins un affixe affectant un énoncé pris comme un tout.)",
+              "en": "Make us be the same! (n.b. This affix (?!) separated from the term it normally affects is not a unique occurrence: e.g. Npa-so paro tunuç xeti = You will later become a chief (an authority, a \"gentleman\"); in these realizations, the prefix behaves as if it were an autonomous moneme with its own message, or at least an affix affecting an utterance taken as a whole.)",
+              "zh": "使我們也一樣！（註：這個詞綴（？！）與它通常所影響的詞分開，並非獨一無二的現象：例如 Npa-so paro tunuç xeti＝你日後將成為一位首領（一位權威、一位「先生」）；在這些用法中，該前綴表現得彷彿是一個帶有自身訊息的獨立語素，或至少是一個影響整個語句的詞綴。）"
+            }
+          ]
+        },
+        {
+          "form": "Snxaya",
+          "fr": "Pour que ce soit comme avant - refaire comme dans le passé.",
+          "en": "So that it may be as before - to redo as in the past.",
+          "zh": "為了讓事情跟以前一樣；像過去那樣重做。",
+          "examples": [
+            {
+              "t": "Ana so mnpiya: adi ko bi da o, ini so bi alex snxaya ana pxal!",
+              "fr": "Tu as beau avoir dit tant de fois: (tu as dit tant de fois): Non! C'est fini! mais tu n'as pas cessé une seule fois de faire comme avant!",
+              "en": "No matter how many times you've said (you've said so many times): No! It's over! you have not once stopped doing as before!",
+              "zh": "你儘管說了那麼多次（你說了無數次）：不！結束了！但你卻一次也沒有停止像以前那樣做！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XBALAO",
+      "tag": "(= R. ? - R. = BALAO ?)",
+      "fr": "Nombreux -beaucoup (en nombre).",
+      "en": "Numerous - many (in number).",
+      "zh": "眾多；很多（數量上）。",
+      "examples": [
+        {
+          "t": "Ida xbalao bi sadyaq ka ini k'la snpu patas",
+          "fr": "Ils sont encore nombreux les gens qui ne savent pas lire.",
+          "en": "The people who cannot read are still numerous.",
+          "zh": "不識字的人仍然很多。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kxbalao",
+          "fr": "Dans les formes négatives.",
+          "en": "In the negative forms.",
+          "zh": "用於否定形式。",
+          "examples": [
+            {
+              "t": "Ini kxbalao mniyax s'xiga ka laqe (vl.lqlaqe) matas",
+              "fr": "Les élèves ne sont pas venus nombreux, hier.",
+              "en": "The pupils did not come in large numbers yesterday.",
+              "zh": "昨天學生來得不多。"
+            }
+          ]
+        },
+        {
+          "form": "Xblagan",
+          "fr": "La multitude.",
+          "en": "The multitude.",
+          "zh": "群眾；一大群。",
+          "examples": [
+            {
+              "t": "Mnsa ko ml'mux xblagan sadyaq",
+              "fr": "Je suis allé me mêler (m'introduire dans) à la multitude des gens.",
+              "en": "I went to mingle (to make my way into) the multitude of people.",
+              "zh": "我去混入（擠進）人群之中。"
+            }
+          ]
+        },
+        {
+          "form": "Knxblagan",
+          "fr": "Le nombre - la quantité - la multitude (idées abstraites).",
+          "en": "The number - the quantity - the multitude (abstract ideas).",
+          "zh": "數目；數量；群體（抽象概念）。",
+          "examples": [
+            {
+              "t": "Sao bi ini so k'la knxblagan na xei ka pais!",
+              "fr": "On dirait que tu ne sais pas combien les ennemis sont nombreux ( lamultitude des..).",
+              "en": "It seems you don't know how numerous the enemies are (the multitude of..).",
+              "zh": "看來你不知道敵人有多少（……的群體……）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XBANGAN",
+      "tag": "(R. = ??)",
+      "fr": "?? , - Argent(?)- monnaie (?).",
+      "en": "?? , - Money(?) - currency (?).",
+      "zh": "？？，－錢（？）－貨幣（？）。",
+      "examples": [
+        {
+          "t": "Snkukul so pila xo?... Ongat ana kingal xbangan mo!",
+          "fr": "As-tu de l'argent sur toi? ... Je n'ai pas un sou !",
+          "en": "Do you have any money on you? ... I don't have a penny!",
+          "zh": "你身上有錢嗎？……我一毛錢也沒有！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XBUGI",
+      "tag": "(R. = ??)",
+      "fr": "Aspire! - lape! (Forme nominale-impérative).",
+      "en": "Suck up! - lap up! (Nominal-imperative form).",
+      "zh": "吸！－舔食！（名詞－命令形）。",
+      "examples": [
+        {
+          "t": "Wada mo byeqon xeuling ka bugo; ina na xbugi ana bilaq!",
+          "fr": "J'ai donné le bouillon au chien; il n'y a pas touché (= Il n'en a pas lapé même un peu !).",
+          "en": "I gave the broth to the dog; it didn't touch it (= It didn't lap up even a little!).",
+          "zh": "我把湯給了狗；牠碰都沒碰（＝牠連一點都沒舔！）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XBUI",
+      "tag": "(R)",
+      "fr": "Le fait de couler (goutte à goutte) - perdre, couler.",
+      "en": "The act of dripping (drop by drop) - to leak, to flow.",
+      "zh": "滴漏（一滴一滴地流）；漏；流。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmbui",
+          "paradigm": "°Xmbui, xbui, xbiy, xbiyan, xbiyun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto — verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ga xmbui ka dnamux sapax no da!",
+              "fr": "Voilà que le toit de ma maison coule (a une gouttière).",
+              "en": "Now the roof of my house is leaking (has a leak).",
+              "zh": "我家的屋頂漏水了（有漏處）。"
+            },
+            {
+              "t": "Gini kingal lubwi dole; ga xmbui ka kingal nii!",
+              "fr": "Cherche un autre sac; celui-ci est percé.",
+              "en": "Look for another bag; this one is holed.",
+              "zh": "找另一個袋子；這個破了。"
+            }
+          ]
+        },
+        {
+          "form": "Xbiyan",
+          "fr": "Goutte - gouttière - action (de fait) de couler.",
+          "en": "Drop - leak/gutter - the (actual) action of flowing.",
+          "zh": "水滴；漏處；（實際）流動的動作。",
+          "examples": [
+            {
+              "t": "Ya bi ga ino ga xbiyan ?",
+              "fr": "Mais où donc peut bien être la gouttière ?",
+              "en": "But wherever can the leak be?",
+              "zh": "那漏水的地方到底在哪裡呢？"
+            }
+          ]
+        },
+        {
+          "form": "Xnbiyan",
+          "fr": "Goutte - gouttière - action de couler (passée).",
+          "en": "Drop - leak/gutter - the action of flowing (past).",
+          "zh": "水滴；漏處；流動的動作（過去）。",
+          "examples": [
+            {
+              "t": "Uxai nslubwi ka lubwi so nii? ... Balae bi ! Tai! Ga mploq syulae na! Ya lala bi xnbiyan na nuda \"lu ka pay i na!",
+              "fr": "Ne serait-il pas un peu flasque ton sac (là) ? ... Oh! c'est vrai! Regarde! Il est percé au fond!( ses fesses sont percées)! Sans doute beaucoup de son riz (paddy)s'est répandu en route!",
+              "en": "Isn't your bag (there) a bit slack? ... Oh! it's true! Look! It's holed at the bottom! (its bottom is pierced)! No doubt a lot of its rice (paddy) has spilled out along the way!",
+              "zh": "你那個袋子是不是有點軟塌塌的？……喔！真的！你看！底部破了！（底端穿孔了）！想必牠的稻穀（粟）一路上撒了不少出去！"
+            },
+            {
+              "t": "Ana kingal bi xnbiyan sinao ini ko bi tongox!",
+              "fr": "Je ne bois même pas une seule goutte d'alcool !",
+              "en": "I don't drink even a single drop of alcohol!",
+              "zh": "我連一滴酒都不喝！"
+            }
+          ]
+        },
+        {
+          "form": "Pxbui",
+          "paradigm": "°Pxbui, pxbui, pxbiy, pxbiyan , pxbiyun .",
+          "fr": "Faire couler goutte à goutte .",
+          "en": "To make (something) flow drop by drop.",
+          "zh": "使一滴一滴地流下。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XBULAO",
+      "tag": "(R)",
+      "fr": "Bassin du corps humain (et surtout: bassin de la femme -pubis.)",
+      "en": "Pelvis of the human body (and especially: the woman's pelvis - pubis.)",
+      "zh": "人體的骨盆（尤指女性的骨盆－恥骨部位）。",
+      "examples": [
+        {
+          "t": "Xbulao so bi ka mnalox?",
+          "fr": "C'est vraiment ton bas-ventre qui te fait mal ?",
+          "en": "Is it really your lower abdomen that hurts you?",
+          "zh": "真的是你的下腹（骨盆部位）在痛嗎？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XDAYO",
+      "tag": "(R)",
+      "fr": "Casse-croûte à emporter - provisions de route.",
+      "en": "Snack to take away - travel provisions.",
+      "zh": "帶著走的乾糧；路上的口糧。",
+      "examples": [
+        {
+          "t": "Adas tityex xdayo aadi so kslaan nuda \"lu",
+          "fr": "Emporte un casse-croûte pour ne pas avoir la fringale en cours de route !",
+          "en": "Take a snack so you won't get ravenous along the way!",
+          "zh": "帶點乾糧，免得路上肚子餓！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pxdayo",
+          "fr": "Préparer le casse-croûte à emporter.",
+          "en": "To prepare the snack to take away.",
+          "zh": "準備要帶走的乾糧。",
+          "examples": [
+            {
+              "t": "Dyagi ko pxdayo tama so nmxa bbuyo",
+              "fr": "Prépare-moi (aide-moi à préparer) le casse-croûte de ton père qui va partir en montagne (à la chasse)!",
+              "en": "Prepare for me (help me prepare) the snack for your father who is going to the mountains (hunting)!",
+              "zh": "幫我準備（幫我做）你父親的乾糧，他要上山（打獵）！"
+            }
+          ]
+        },
+        {
+          "form": "Mxdayo",
+          "fr": "Qui emporte un casse-croûte, un repas froid.",
+          "en": "One who takes along a snack, a cold meal.",
+          "zh": "帶著乾糧、冷食的人。",
+          "examples": [
+            {
+              "t": "Kmpax so kaisia do, mxa so nqan ino skaxedao ? ... Mxdayo ko ka yako!",
+              "fr": "Travaillant à l'usine, où vas-tu manger à midi ? ... J'emporte le casse-croûte!",
+              "en": "Working at the factory, where will you eat at midday? ... I take my snack along!",
+              "zh": "在工廠工作，你中午要去哪裡吃飯？……我自己帶乾糧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XDIL",
+      "tag": "(X'DIL ?) (R)",
+      "fr": "Déplacer - déménager - transporter.",
+      "en": "To move - to relocate - to transport.",
+      "zh": "移動；搬遷；搬運。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmdil (?)",
+          "fr": "Déplacer - enlever.",
+          "en": "To move - to remove.",
+          "zh": "移動；移走。",
+          "examples": [
+            {
+              "t": "Sai xmdil ttaxot! Ga nsk'lol ka idao da!",
+              "fr": "Va déplacer(retirer)le feu! Le riz est en train de brûler!",
+              "en": "Go move (take away) the fire! The rice is burning!",
+              "zh": "去把火移開（拿走）！飯要燒焦了！"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

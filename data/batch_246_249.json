@@ -1,0 +1,849 @@
+{
+  "pages": [246, 249],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "tqling gain tloma d'xgal",
+        "fr": "Qui est-ce qui peut arriver à pénétrer jusqu'à l'extrémité tout là-bas au fond de la terre ?",
+        "en": "Who could ever manage to penetrate all the way to the very end, far down at the bottom of the earth?",
+        "zh": "誰能夠一路鑽到最遠的盡頭、直達大地深處呢？"
+      }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "QLINUT",
+      "tag": "(R)",
+      "fr": "Pauvre - défavorisé.",
+      "en": "Poor - disadvantaged.",
+      "zh": "貧窮的－弱勢的。",
+      "examples": [
+        {
+          "t": "Dqlinut",
+          "fr": "La classe des pauvres, les pauvres.",
+          "en": "The class of the poor, the poor.",
+          "zh": "窮人階級、窮人們。"
+        },
+        {
+          "t": "Qqlinut",
+          "fr": "1) Les pauvres (pluriel); 2) Très pauvre.",
+          "en": "1) The poor (plural); 2) Very poor.",
+          "zh": "1) 窮人（複數）；2) 非常貧窮。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqlinut",
+          "fr": "Qui est pauvre - qui est défavorisé - qui a la vie dure.",
+          "en": "One who is poor - who is disadvantaged - who has a hard life.",
+          "zh": "貧窮的人－弱勢的人－生活艱苦的人。",
+          "examples": []
+        },
+        {
+          "form": "Mkqlinut (?)",
+          "fr": "Qui est en état de pauvreté.",
+          "en": "One who is in a state of poverty.",
+          "zh": "處於貧困狀態的人。",
+          "examples": [
+            {
+              "t": "Mkqlinut ko ka yako, ini so kqlinut ka iso",
+              "fr": "Je suis pauvre, moi, et tu ne l'es pas !",
+              "en": "I am poor, and you are not!",
+              "zh": "我很窮，而你並不窮！"
+            }
+          ]
+        },
+        {
+          "form": "Knqlinut",
+          "fr": "L'état, l'intensité de pauvreté.",
+          "en": "The state, the intensity of poverty.",
+          "zh": "貧窮的狀態、貧窮的程度。",
+          "examples": [
+            {
+              "t": "Ini so k'lai mita knqlinut laqe so xo ?",
+              "fr": "Tu n'arrives pas à voir combien ton enfant est pauvre?",
+              "en": "Can't you manage to see how poor your child is?",
+              "zh": "你難道看不出你的孩子有多窮嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Knqlnutan",
+          "fr": "Pauvreté - misère.",
+          "en": "Poverty - destitution.",
+          "zh": "貧窮－窮困。",
+          "examples": [
+            {
+              "t": "Adi so mpd'xok pstutwi knqlnutan mo",
+              "fr": "tu ne peux pas arriver à me relever de ma pauvreté.",
+              "en": "you cannot manage to lift me out of my poverty.",
+              "zh": "你無法使我脫離我的貧窮。"
+            }
+          ]
+        },
+        {
+          "form": "Sqlinut (Skqlinut ?)",
+          "fr": "Qui appauvrit.",
+          "en": "That which impoverishes.",
+          "zh": "使人變窮者。",
+          "examples": []
+        },
+        {
+          "form": "Snqlnutan",
+          "fr": "Celui, ceux qui sont devenus pauvres, qui ont été appauvris.",
+          "en": "The one, those who have become poor, who have been impoverished.",
+          "zh": "變窮的人、被弄窮的人（們）。",
+          "examples": [
+            {
+              "t": "Mlana mlana ka snqlnutan alang ta troko",
+              "fr": "Dans nos régions taroko, ils sont de plus en plus nombreux ceux qui s'appauvrissent.",
+              "en": "In our Taroko regions, those who are becoming poor are more and more numerous.",
+              "zh": "在我們太魯閣地區，變窮的人越來越多。"
+            }
+          ]
+        },
+        {
+          "form": "Psqlinut",
+          "fr": "Appauvrir - humilier - faire souffrir - rendre la vie difficile.",
+          "en": "To impoverish - to humiliate - to make suffer - to make life difficult.",
+          "zh": "使貧窮－羞辱－使受苦－使生活艱難。",
+          "examples": [
+            {
+              "t": "Nyeqan doma ka mpsparo ni xmut mpsqlinut dmnsuwai (dmnswai)",
+              "fr": "Il y en a qui s'enorgueillissent et font souffrir des frères avec désinvolture !",
+              "en": "There are those who become arrogant and make their brothers suffer with careless indifference!",
+              "zh": "有些人自高自大，任意地使弟兄們受苦！"
+            }
+          ]
+        },
+        {
+          "form": "Psqlnutan",
+          "fr": "Sévices - mauvais traitements - celui qui est maltraité.",
+          "en": "Abuse - ill-treatment - one who is mistreated.",
+          "zh": "虐待－惡待－被虐待的人。",
+          "examples": [
+            {
+              "t": "Paro ko bi pnsqlnutan ko daxa suxal",
+              "fr": "Je suis passé autrefois par les très mauvais traitements (vexations) des autres.",
+              "en": "In the past I went through the very harsh mistreatment (vexations) of others.",
+              "zh": "我從前受過別人非常惡劣的虐待（欺凌）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLIYANG",
+      "tag": "( = R. ?)",
+      "fr": "Couleur bleue(?).",
+      "en": "Blue colour (?).",
+      "zh": "藍色（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqliyang",
+          "fr": "souvent entendu dans des circonstances où nous parlons de couleur bleue, mais on entend:",
+          "en": "often heard in circumstances where we speak of the colour blue, but one hears:",
+          "zh": "常在我們談論藍色的場合聽到，但人們會說：",
+          "examples": [
+            {
+              "t": "Mpadyaq bi ka kalat sayang",
+              "fr": "Le ciel est tout vert (et il est splendidement bleu !).",
+              "en": "The sky is all green (and it is splendidly blue!).",
+              "zh": "天空一片碧綠（而且藍得燦爛！）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLIYUT",
+      "tag": "(R)",
+      "fr": "Mûrier (pour nourrir le ver à soie).",
+      "en": "Mulberry (for feeding the silkworm).",
+      "zh": "桑樹（用來餵蠶）。",
+      "examples": [
+        {
+          "t": "Kmxoma ko bi qliyut stabu mo kui xeti",
+          "fr": "J'ai envie de planter des mûriers qui me serviront à élever des vers à soie plus tard.",
+          "en": "I feel like planting mulberry trees that will later serve me to raise silkworms.",
+          "zh": "我很想種桑樹，以後可用來養蠶。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "QLOPAS",
+      "tag": "(R)",
+      "fr": "Pêche. (Entendu parfois: KLOPAS).",
+      "en": "Peach. (Sometimes heard: KLOPAS).",
+      "zh": "桃子。（有時聽作：KLOPAS）。",
+      "examples": [
+        {
+          "t": "Pusu qlopas",
+          "fr": "Un pêcher.",
+          "en": "A peach tree.",
+          "zh": "一棵桃樹。"
+        },
+        {
+          "t": "Ana ini kxada ka qlopas o, kuxul bi mqan troko",
+          "fr": "Même quand les pêches ne sont pas mûres, les taroko les aiment bien (manger).",
+          "en": "Even when the peaches are not ripe, the Taroko like to eat them.",
+          "zh": "即使桃子還沒成熟，太魯閣人也很愛吃。"
+        },
+        {
+          "t": "Tayal knsxea ka qlopas so",
+          "fr": "Comme tes pêches sont succulentes !",
+          "en": "How succulent your peaches are!",
+          "zh": "你的桃子多麼香甜可口！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "Q'LOQ",
+      "tag": "(R)",
+      "fr": "Suie ( Déposée par la fumée sur les marmites, les parois.",
+      "en": "Soot (deposited by the smoke on the pots and the walls).",
+      "zh": "煤煙（由煙霧沉積在鍋子、牆壁上）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Lqloq",
+          "fr": "Encre (C'est le terme employé aujourd'hui pour désigner l'encre Qu'ils ne connaissaient pas autrefois, sinon pour faire les tatouages",
+          "en": "Ink (this is the term used today to designate ink, which they did not know in the past, except for making tattoos",
+          "zh": "墨水（這是今天用來指墨水的詞，他們從前並不認識墨水，除非是用來刺青",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "Q'LöT",
+      "tag": "(R)",
+      "fr": "Scie.",
+      "en": "Saw.",
+      "zh": "鋸子。",
+      "examples": [
+        {
+          "t": "Ini \"qan ka q'löt mo, ini so adas ka niso xö?",
+          "fr": "Ma scie ne coupe plus; N'aurais tu pas apporté la tienne ?",
+          "en": "My saw no longer cuts; wouldn't you have brought yours?",
+          "zh": "我的鋸子鋸不動了；你難道沒帶你的來嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qmlöt (Q'mlöt)",
+          "paradigm": "° Qmlöt, q'löt, ql'ti, ql'tan, ql'tun.",
+          "fr": "Scier.",
+          "en": "To saw.",
+          "zh": "鋸（動詞）。",
+          "examples": [
+            {
+              "t": "Ql'ti ka dudux nia ni pnyeqe ka pusu da",
+              "fr": "Coupe (scie) sa cime et laisse la souche !",
+              "en": "Cut (saw) off its top and leave the stump!",
+              "zh": "把它的樹梢鋸掉，留下樹樁！"
+            },
+            {
+              "t": "Adi so ql'tun ka ktinox?",
+              "fr": "Tu ne scies pas la planche ?",
+              "en": "Aren't you going to saw the plank?",
+              "zh": "你不鋸這塊木板嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Ql'tan",
+          "fr": "Fil de scie - endroit où la scie a passé - ce qui a été scié.",
+          "en": "Saw line - the place where the saw has passed - what has been sawn.",
+          "zh": "鋸痕－鋸子經過的地方－被鋸過的部分。",
+          "examples": [
+            {
+              "t": "Ana t'lo bi ql'tan mxa toko da",
+              "fr": "Même trois fils de scie seulement suffiront.",
+              "en": "Even just three saw lines will be enough.",
+              "zh": "即使只有三道鋸痕也就夠了。"
+            },
+            {
+              "t": "Ga tloma ql'tan kana ka quti q'löt da.",
+              "fr": "Toute la sciure est juste en dessous du fil de scie.",
+              "en": "All the sawdust is right below the saw line.",
+              "zh": "所有的鋸屑都正落在鋸痕的正下方。"
+            }
+          ]
+        },
+        {
+          "form": "Pq'löt",
+          "paradigm": "° Mpq'löt, pq'löt, pql'ti, pql'tan, pql'tun.",
+          "fr": "Faire scier. (nb. Il reste la remarque faite à propos de K'LUT sur la parentée possible entre ces deux termes: Q'LöT et K'LUT ).",
+          "en": "To have (something) sawn. (n.b. The remark made regarding K'LUT still stands, about the possible kinship between these two terms: Q'LöT and K'LUT.)",
+          "zh": "使鋸、請人鋸。（註：關於 K'LUT 所作的評註仍然適用，即這兩個詞 Q'LöT 與 K'LUT 可能有親屬關係。）",
+          "examples": [
+            {
+              "t": "Tknai ta musa pq'löt ladax nangal mo yayong sndurai",
+              "fr": "Viens avec moi (allons ensemble) faire scier la grume que j'ai prise dernièrement dans le torrent.",
+              "en": "Come with me (let us go together) to have sawn the log that I recently took from the torrent.",
+              "zh": "跟我一起去（我們一起去）把我最近從溪裡撿到的原木請人鋸開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QL'XAO",
+      "tag": "( = R. ? - Serait ce une variante de QLAAO ?)",
+      "fr": "Passer un torrent en marchant dans l'eau.",
+      "en": "To cross a torrent by walking through the water.",
+      "zh": "涉水過溪。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mql'xao",
+          "fr": "Traverser un torrent, une pièce d'eau, en passant dans l'eau.",
+          "en": "To cross a torrent, a body of water, by going through the water.",
+          "zh": "涉水穿越溪流或水域。",
+          "examples": [
+            {
+              "t": "Xmut ppotox xali ka xakao da; Musa matas ka laqe o, ida muda mql'xao yayong da!",
+              "fr": "Les ponts sont en plus ou moins bon état; Pour aller à l'école, les enfants doivent passer le torrent dans l'eau.",
+              "en": "The bridges are in more or less poor condition; to go to school, the children have to cross the torrent through the water.",
+              "zh": "橋樑或多或少都損壞了；孩子們要上學，只能涉水過溪！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QMITWI",
+      "tag": "( R. = ? )",
+      "fr": "Signe avant-coureur (d'un tremblement de terre, d'un orage, d'un typhon..)",
+      "en": "A forewarning sign (of an earthquake, a storm, a typhoon..)",
+      "zh": "前兆（地震、暴風雨、颱風……的前兆）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "Q'MI",
+      "tag": "(QMI ?) (R)",
+      "fr": "Paupières fermées.",
+      "en": "Closed eyelids.",
+      "zh": "閉著的眼皮。",
+      "examples": [
+        {
+          "t": "Ini ko q'mi ana bilaq, ska'man",
+          "fr": "La nuit dernière je n'ai pas du tout fermé l'oeil.",
+          "en": "Last night I did not close my eyes at all.",
+          "zh": "昨晚我完全沒有闔眼。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mq'mi",
+          "fr": "Qui a les yeux fermés - fermer les yeux.",
+          "en": "One who has his eyes closed - to close the eyes.",
+          "zh": "閉著眼睛的人－閉眼。",
+          "examples": [
+            {
+              "t": "Xoya so ksun mq'mi daolyaq smpu patas?",
+              "fr": "Comment fais tu pour lire les yeux fermés ?",
+              "en": "How do you manage to read with your eyes closed?",
+              "zh": "你怎麼能閉著眼睛讀書？"
+            }
+          ]
+        },
+        {
+          "form": "Tnq'mi",
+          "fr": "Rester les yeux fermés.",
+          "en": "To keep the eyes closed.",
+          "zh": "一直閉著眼睛。",
+          "examples": [
+            {
+              "t": "Ana ta paro qoaq o, ida tnq'mi ini k'la diyax ka xea",
+              "fr": "Nous avons beau parler fort (grande bouche), il reste imperturbablement les yeux fermés .",
+              "en": "No matter how loudly we speak (big mouth), he remains imperturbably with his eyes closed.",
+              "zh": "無論我們如何大聲說話（大嗓門），他仍然不為所動地閉著眼睛。"
+            }
+          ]
+        },
+        {
+          "form": "Knq'mi (Qnq'mi)",
+          "fr": "Minutieusement ( est-ce dans le sens de fermer presque les yeux pour concentrer la vue ?).",
+          "en": "Meticulously (is it in the sense of nearly closing the eyes to concentrate the gaze?).",
+          "zh": "仔細地（是否指幾乎閉上眼睛以集中視線之意？）。",
+          "examples": [
+            {
+              "t": "Knq'mi bi miing",
+              "fr": "Chercher très attentivement.",
+              "en": "To search very attentively.",
+              "zh": "非常專注地尋找。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QMOLO",
+      "tag": "( = R. ?)",
+      "fr": "Le tronc de l'arbre (sans les branches = SIDA et ses racines = GAMIL).",
+      "en": "The trunk of the tree (without the branches = SIDA and its roots = GAMIL).",
+      "zh": "樹幹（不含樹枝＝SIDA 與樹根＝GAMIL）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "QMOQ",
+      "tag": "(R)",
+      "fr": "Bégaiement - bredouiller.",
+      "en": "Stammering - to mumble.",
+      "zh": "口吃－結巴。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqmoq",
+          "fr": "Qui bégaye - qui bredouille - bégayer.",
+          "en": "One who stammers - who mumbles - to stammer.",
+          "zh": "口吃的人－結巴的人－口吃。",
+          "examples": [
+            {
+              "t": "Mqmoq lmngao",
+              "fr": "Parler avec difficulté - bredouiller.",
+              "en": "To speak with difficulty - to mumble.",
+              "zh": "說話困難－結巴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "Q'NAO",
+      "tag": "(R)",
+      "fr": "Ail (plante potagère).",
+      "en": "Garlic (kitchen-garden plant).",
+      "zh": "大蒜（蔬菜）。",
+      "examples": [
+        {
+          "t": "Tai ka mqan bi q'nao o , ongat xali bisol mbuyan na ole",
+          "fr": "Ceux qui mangent beaucoup d'ail n'ont pas souvent des ascaris (dans le ventre).",
+          "en": "Those who eat a lot of garlic do not often have roundworms (in the belly).",
+          "zh": "常吃大蒜的人肚子裡不常有蛔蟲。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "QNAXOL",
+      "tag": "( = R. ? )",
+      "fr": "Ronces - buissons épineux.",
+      "en": "Brambles - thorny bushes.",
+      "zh": "荊棘－有刺的灌木叢。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "QNILAO",
+      "tag": "( = R. ? )",
+      "fr": "Nourriture (préparée) pour les cochons.",
+      "en": "Food (prepared) for the pigs.",
+      "zh": "（準備好的）餵豬飼料。",
+      "examples": [
+        {
+          "t": "Mxa ko qmilao(Qmilao (?)) babwi sayang",
+          "fr": "Maintenant je vais préparer la nourriture des cochons.",
+          "en": "Now I am going to prepare the pigs' food.",
+          "zh": "現在我要準備豬的飼料。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "QNOQO",
+      "tag": "(R)",
+      "fr": "Faute - erreur - se tromper.",
+      "en": "Fault - error - to be mistaken.",
+      "zh": "過錯－錯誤－犯錯。",
+      "examples": [
+        {
+          "t": "Paro bi ndaan mo qnoqo",
+          "fr": "Je me suis lourdement trompé = Mon péché (ma faute) est grave.",
+          "en": "I have made a serious mistake = My sin (my fault) is grave.",
+          "zh": "我犯了嚴重的錯＝我的罪（過錯）很嚴重。"
+        },
+        {
+          "t": "Ndaan mo paro bi qnoqo",
+          "fr": "Je me suis gravement trompé = J'ai commis une faute grave.(nb. De toute façon, pour les taroko, erreur et faute ne comportent pas de référence à une dimension morale ou, plutôt elles entraînent également la culpabilité).",
+          "en": "I have gravely erred = I have committed a serious fault. (n.b. In any case, for the Taroko, error and fault carry no reference to a moral dimension, or rather they also entail guilt.)",
+          "zh": "我嚴重地犯了錯＝我犯了嚴重的過失。（註：無論如何，對太魯閣人而言，錯誤與過失並不涉及道德層面，或者說，它們同樣帶有罪責。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqnoqo",
+          "fr": "Qui se trompe - qui commet une faute.",
+          "en": "One who errs - who commits a fault.",
+          "zh": "犯錯的人－犯過失的人。",
+          "examples": [
+            {
+              "t": "Paro bi ka ndaan mo qnoqo, kia ka kia ni, ida mqnoqo kana",
+              "fr": "J'ai commis une grosse faute, c'est vrai, mais tout le monde se trompe.",
+              "en": "I have committed a big fault, that's true, but everyone makes mistakes.",
+              "zh": "我犯了大錯，這是真的，但人人都會犯錯。"
+            },
+            {
+              "t": "Ana xangan mo nanak , ida mqnoqo ko matas",
+              "fr": "Même s'il s'agit de mon propre nom, je me trompe encore en l'écrivant.",
+              "en": "Even when it is my own name, I still make mistakes writing it.",
+              "zh": "即使是我自己的名字，我寫的時候還是會寫錯。"
+            }
+          ]
+        },
+        {
+          "form": "Qnqoan",
+          "fr": "Erreur, faute (commises).",
+          "en": "Error, fault (committed).",
+          "zh": "（已犯的）錯誤、過失。",
+          "examples": [
+            {
+              "t": "Paro bi qnqoan ka kia!",
+              "fr": "Cela c'est une faute grave!",
+              "en": "That is a serious fault!",
+              "zh": "那是嚴重的過錯！"
+            }
+          ]
+        },
+        {
+          "form": "Knqnqoan (?)",
+          "fr": "Erreur , faute (dans l'abstrait).",
+          "en": "Error, fault (in the abstract).",
+          "zh": "錯誤、過失（抽象意義）。",
+          "examples": [
+            {
+              "t": "Ida ta k'aon balae ka ana manu knqnqoan lqlaqe",
+              "fr": "Nous savons parfaitement les fautes que les enfants peuvent commettre (toutes les fautes d'enfant).",
+              "en": "We know perfectly well the faults that children can commit (all a child's faults).",
+              "zh": "我們非常清楚孩子們可能犯的過錯（一切孩童會犯的過錯）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QOAQ",
+      "tag": "(R)",
+      "fr": "Bouche - bec - ouverture - gueule.",
+      "en": "Mouth - beak - opening - maw.",
+      "zh": "嘴巴－鳥喙－開口－（動物的）口。",
+      "examples": [
+        {
+          "t": "Qoaq longao",
+          "fr": "Goulot d'une bouteille.",
+          "en": "The neck of a bottle.",
+          "zh": "瓶口。"
+        },
+        {
+          "t": "Qoaq lubwi",
+          "fr": "L'ouverture d'un sac.",
+          "en": "The opening of a sack.",
+          "zh": "袋口。"
+        },
+        {
+          "t": "Naqex qoaq daxa",
+          "fr": "Leur mauvaise bouche (= Dire des méchancetés - la calomnie - les méchancetés dites (par les autres).",
+          "en": "Their evil mouth (= to say malicious things - slander - the malicious things said (by others).",
+          "zh": "他們的惡口（＝說壞話－毀謗－別人說出的惡毒話語）。"
+        },
+        {
+          "t": "Paro qoaq",
+          "fr": "A haute voix.",
+          "en": "In a loud voice.",
+          "zh": "大聲地。"
+        },
+        {
+          "t": "Bilaq xali qoaq namo!",
+          "fr": "Parlez un peu moins fort!",
+          "en": "Speak a little less loudly!",
+          "zh": "你們說話小聲一點！"
+        },
+        {
+          "t": "Tayal qoaq namo!",
+          "fr": "Comme vous en dites (beaucoup) des paroles! (vl.Comme vous parlez fort!)",
+          "en": "How much you talk! (var. How loudly you speak!)",
+          "zh": "你們話真多！（或：你們說話真大聲！）"
+        },
+        {
+          "t": "Malu bi qoaq na",
+          "fr": "Il parle facilement (vl.Il dit de bonnes paroles)",
+          "en": "He speaks easily (var. He says good words).",
+          "zh": "他很會說話（或：他說好話）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nqoaq",
+          "fr": "De la propre bouche - venant de la bouche.",
+          "en": "From one's own mouth - coming from the mouth.",
+          "zh": "出自本人之口－從嘴裡說出的。",
+          "examples": [
+            {
+              "t": "Ya ima bi ka tnkari ... Nqoaq so bi nanak!",
+              "fr": "Qui est-ce qui l'a dit? ... Cela vient de ta propre bouche.",
+              "en": "Who is it that said it? ... That comes from your own mouth.",
+              "zh": "是誰說的？……那是出自你自己的口。"
+            },
+            {
+              "t": "Nqoaq bi tama mo ka kari mo sayang",
+              "fr": "Ce que je dis maintenant ce sont les propres paroles de mon père.",
+              "en": "What I am saying now are my father's own words.",
+              "zh": "我現在所說的正是我父親自己的話。"
+            }
+          ]
+        },
+        {
+          "form": "Sqoaq",
+          "fr": "Parler - bavarder.",
+          "en": "To speak - to chatter.",
+          "zh": "說話－閒聊。",
+          "examples": [
+            {
+              "t": "Nyeqan kari na ka dludan; ya ta sqoaq ka ita laqe",
+              "fr": "Les anciens ont (l'un des anciens a) quelque chose à dire, nous les moins âgés, taisons nous !",
+              "en": "The elders have (one of the elders has) something to say; we the younger ones, let us keep quiet!",
+              "zh": "長輩們有話要說（有位長輩要說話），我們年輕人就別出聲吧！"
+            },
+            {
+              "t": "Ana ini so sqoaq ka iso",
+              "fr": "Toi tu peux te taire, (vl. Toi, tu n'es pas obligé de parler).",
+              "en": "You may keep quiet (var. You are not obliged to speak).",
+              "zh": "你可以不說話（或：你不必說話）。"
+            }
+          ]
+        },
+        {
+          "form": "Msqoaq",
+          "fr": "Qui parle - qui bavarde.",
+          "en": "One who speaks - who chatters.",
+          "zh": "愛說話的人－愛閒聊的人。",
+          "examples": [
+            {
+              "t": "Ana sapax ptasan o, ida msqoaq balae ka laqe so",
+              "fr": "Même à l'école, ton enfant est très bavard.",
+              "en": "Even at school, your child is very talkative.",
+              "zh": "即使在學校，你的孩子也非常多話。"
+            }
+          ]
+        },
+        {
+          "form": "Gmqoaq (=R. QOAQ ?)",
+          "fr": "Branler la tête - faire des grimaces (?).",
+          "en": "To shake the head - to make grimaces (?).",
+          "zh": "搖頭－扮鬼臉（？）。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "QODAP",
+      "tag": "( = R. ?)",
+      "fr": "Eteindre (un feu, une vie).- s'éteindre.",
+      "en": "To extinguish (a fire, a life) - to go out.",
+      "zh": "熄滅（火、生命）－自行熄滅。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqodap",
+          "fr": "Qui s'éteint - éteint.",
+          "en": "That which goes out - extinguished.",
+          "zh": "熄滅中的－已熄滅的。",
+          "examples": []
+        },
+        {
+          "form": "Qdapan (Kdapan ?)",
+          "fr": "Extinction ( Y aurait il relation avec KDAPAN = Veuf, veuve ?).",
+          "en": "Extinction (might there be a relation with KDAPAN = widower, widow?).",
+          "zh": "熄滅（是否與 KDAPAN＝鰥夫、寡婦有關聯？）。",
+          "examples": []
+        },
+        {
+          "form": "Tqodap",
+          "fr": "Qui est tout à fait éteint - qui est fini.",
+          "en": "That which is completely extinguished - which is finished.",
+          "zh": "完全熄滅的－已了結的。",
+          "examples": []
+        },
+        {
+          "form": "Ptqodap",
+          "fr": "Eteindre - mettre un terme.",
+          "en": "To extinguish - to put an end to.",
+          "zh": "熄滅－終止。",
+          "examples": [
+            {
+              "t": "L'pi do, sqmaon na ini ptqodap taxot da",
+              "fr": "La balle (la partie de l'épi qui ne contient pas de grain) Il la fera brûler dans un feu qui ne sera pas éteint.",
+              "en": "The chaff (the part of the ear that contains no grain) he will burn in a fire that will not be extinguished.",
+              "zh": "穀殼（穗上不含穀粒的部分），他要在不滅的火中把它燒掉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QOLE",
+      "tag": "(R)",
+      "fr": "Vers - tourné vers - dans la direction - En ce qui concerne - pour ce qui est de.",
+      "en": "Toward - turned toward - in the direction of - as regards - as for.",
+      "zh": "朝向－轉向－在……方向－關於－至於。",
+      "examples": [
+        {
+          "t": "Qole ino ka nyeqan bligan padyaq?",
+          "fr": "Où est-ce qu'il-y-a (de quel côté est-il) le magasin de légumes ?",
+          "en": "Where is (on which side is) the vegetable shop?",
+          "zh": "賣菜的店在哪裡（在哪一邊）？"
+        },
+        {
+          "t": "Qole nkari so o, balae bi ini ko k'la!",
+          "fr": "Pour ce qui est de ce que tu as dit , vraiment je n'en sais rien!",
+          "en": "As for what you said, I really know nothing about it!",
+          "zh": "至於你所說的，我真的一無所知！"
+        },
+        {
+          "t": "Qole gain bi ka sapax na",
+          "fr": "Il habite tout là-bas au loin.",
+          "en": "He lives way over there in the distance.",
+          "zh": "他住在遠遠的那一頭。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqole",
+          "fr": "Qui est tourné vers - Qui est dans la direction de.",
+          "en": "That which is turned toward - which is in the direction of.",
+          "zh": "朝向……的－位於……方向的。",
+          "examples": [
+            {
+              "t": "Mqole so ino?",
+              "fr": "Où vas tu ? (Tu est dirigé dans quelle direction).",
+              "en": "Where are you going? (In which direction are you headed.)",
+              "zh": "你要去哪裡？（你朝哪個方向走？）"
+            },
+            {
+              "t": "Ga mqole sunan ka sapax na",
+              "fr": "Sa maison est dans ton secteur (vl. est tournée vers toi).",
+              "en": "His house is in your sector (var. is turned toward you).",
+              "zh": "他的家在你那一帶（或：朝向你那邊）。"
+            },
+            {
+              "t": "Ga mqole xlaan xedao ka ayo",
+              "fr": "Le ruisseau est du côté de l'Est (où le soleil germe).",
+              "en": "The stream is on the eastern side (where the sun sprouts).",
+              "zh": "溪流在東邊（太陽升起的那一側）。"
+            }
+          ]
+        },
+        {
+          "form": "Mkqole",
+          "fr": "Qui est situé dans la direction de.",
+          "en": "That which is situated in the direction of.",
+          "zh": "位於……方向的。",
+          "examples": [
+            {
+              "t": "Mkqole ino ka xmaon so qliyut",
+              "fr": "C'est dans quel coin que tu veux planter tes mûriers ?",
+              "en": "In which corner do you want to plant your mulberry trees?",
+              "zh": "你想在哪個角落種桑樹？"
+            },
+            {
+              "t": "Mkqole ino ka tnkulan so ?",
+              "fr": "Où se trouve-t-il l'endroit où tu es tombé (où tu as fait une chute).",
+              "en": "Where is the place where you fell (where you had a fall)?",
+              "zh": "你跌倒（摔跤）的地方在哪裡？"
+            }
+          ]
+        },
+        {
+          "form": "Pqole",
+          "paradigm": "° Mpqole, pqole, pqlii, pqlean, pqleun (pqleon).",
+          "fr": "Tourner vers - mettre dans la direction de.",
+          "en": "To turn toward - to put in the direction of.",
+          "zh": "轉向－朝某方向擺放。",
+          "examples": [
+            {
+              "t": "Pqleun so ino ka l'xngun sapax so ?",
+              "fr": "Tu la tourneras dans quelle direction, la porte de ta maison ?",
+              "en": "In which direction will you turn it, the door of your house?",
+              "zh": "你家的門，你要把它朝哪個方向轉？"
+            },
+            {
+              "t": "Pqole ilil binao! Ida bi mxa malu xali taan!",
+              "fr": "Tourne toi vers la gauche pour voir, peut être ce sera plus beau (à voir).",
+              "en": "Turn to the left to see; perhaps it will be nicer (to look at).",
+              "zh": "你轉向左邊看看，也許會更好看。"
+            }
+          ]
+        },
+        {
+          "form": "Tqole",
+          "fr": "Qui est fixement tourné vers, dans la direction de.",
+          "en": "That which is fixedly turned toward, in the direction of.",
+          "zh": "固定朝向……的。",
+          "examples": []
+        },
+        {
+          "form": "Spqole",
+          "fr": "Pour tourner vers.",
+          "en": "In order to turn toward.",
+          "zh": "為了轉向。",
+          "examples": [
+            {
+              "t": "Mnlatat ka xea spqole na dxeaan ka daolyaq na",
+              "fr": "Il sortit pour pouvoir tourner vers eux son regard.",
+              "en": "He went out so as to be able to turn his gaze toward them.",
+              "zh": "他出去，好把目光轉向他們。"
+            }
+          ]
+        },
+        {
+          "form": "Mpqole",
+          "fr": "Qui sera tourné vers.",
+          "en": "That which will be turned toward.",
+          "zh": "將要朝向……的。",
+          "examples": [
+            {
+              "t": "Mpqole lqlqean ka ksaxol na",
+              "fr": "Son coeur sera tourné (se tournera)vers les enfants.",
+              "en": "His heart will be turned (will turn) toward the children.",
+              "zh": "他的心將轉向孩子們。"
+            }
+          ]
+        },
+        {
+          "form": "Mppqole",
+          "fr": "Tournera vers.",
+          "en": "Will turn toward.",
+          "zh": "將轉向。",
+          "examples": [
+            {
+              "t": "Mppqole na lqlqean ka kksaxol daxa",
+              "fr": "Il tournera vers les enfants leurs coeurs.",
+              "en": "He will turn their hearts toward the children.",
+              "zh": "他將使他們的心轉向孩子們。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QOLIT",
+      "tag": "(R)",
+      "fr": "Conifère = Cyprès-japonais. (nb. malgré son nom, il en existe à à Taiwan de multiséculaires, en grande quantité et d'excellente qualité; Son bois est précieux, imputrescible, inattaquable par les four…",
+      "en": "Conifer = Japanese cypress. (n.b. despite its name, there exist in Taiwan some many-centuries-old ones, in great quantity and of excellent quality; its wood is precious, imputrescible, impervious to the [ants…",
+      "zh": "針葉樹＝日本柏（扁柏）。（註：儘管名稱如此，台灣有數百年之久的老樹，數量龐大且品質極佳；其木材珍貴、不會腐朽、不受〔螞蟻……",
+      "examples": [],
+      "subs": [],
+      "truncated": true
+    }
+  ]
+}

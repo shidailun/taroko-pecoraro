@@ -1,0 +1,499 @@
+{
+  "pages": [226, 229],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "POTONG",
+      "tag": "(R)",
+      "fr": "Allumette - feu.",
+      "en": "Match - fire.",
+      "zh": "火柴－火。",
+      "examples": [
+        { "t": "Nyeqan potong so xo?", "fr": "As tu du feu ?", "en": "Do you have a light (fire)?", "zh": "你有火（火柴）嗎？" }
+      ],
+      "subs": [
+        {
+          "form": "Motong",
+          "paradigm": "° Motong, potong, ptongi, ptongan, ptongun.",
+          "fr": "Frotter une allumette - frapper le briquet à amadou - allumer une flamme (et, par extension, l'électricité).",
+          "en": "To strike a match - to strike the tinder lighter - to light a flame (and, by extension, electricity).",
+          "zh": "擦火柴－敲打火絨打火器－點燃火焰（引申亦指電燈）。",
+          "examples": [
+            { "t": "Ini tdoa notong ka potong so nii; mxolyaq da !", "fr": "On ne peut pas allumer tes allumettes; elles sont mouillées !", "en": "One cannot light your matches; they are wet!", "zh": "你的火柴點不著，都濕了！" }
+          ]
+        },
+        {
+          "form": "Mpotong",
+          "fr": "Celui qui allume une flamme.- allumera.",
+          "en": "The one who lights a flame - will light.",
+          "zh": "點火的人－將點火的人。",
+          "examples": [
+            { "t": "Asi ssayang ka iso! ya xan! Mpotong ko kia!", "fr": "Pour toi, il faut que ce soit tout de suite! attends un peu! Je vais allumer dans un moment!", "en": "For you it has to be right away! wait a bit! I will light it in a moment!", "zh": "對你來說必須馬上就要！等一下！我馬上就點！" }
+          ]
+        },
+        {
+          "form": "Ptongan",
+          "fr": "Allumage - lieu, temps d'allumer.",
+          "en": "Lighting - place, time to light.",
+          "zh": "點火－點火的地點、時間。",
+          "examples": [
+            { "t": "Baka bi ptongan da!", "fr": "Il est temps d'allumer.", "en": "It is time to light up.", "zh": "該點火了！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "POTOX",
+      "tag": "(R)",
+      "fr": "Tronqué - amputé - cassé.",
+      "en": "Truncated - amputated - broken off.",
+      "zh": "截斷的－截肢的－折斷的。",
+      "subs": [
+        {
+          "form": "Mpotox",
+          "paradigm": "° Mpotox, potox, ptoxe, ptoxan, ptoxun.",
+          "fr": "Qui est tronqué - qui est amputé.- qui ampute, tronque.",
+          "en": "That which is truncated - that which is amputated - who amputates, truncates.",
+          "zh": "被截斷的－被截肢的－截肢、截斷（某物）的人。",
+          "examples": [
+            { "t": "Mpotox baga", "fr": "Manchot (main coupée, main qui manque).", "en": "One-handed person (a cut-off hand, a missing hand).", "zh": "斷手的人（被切斷的手、缺失的手）。" },
+            { "t": "Ptoxon (ptoxun) mo saman ka sao msliyu", "fr": "Je compte couper (raccourcir) demain ce qui dépasse.", "en": "I plan to cut (shorten) tomorrow whatever sticks out.", "zh": "我打算明天把多出來的部分剪短。" }
+          ]
+        },
+        {
+          "form": "Kptoxan",
+          "fr": "Veuf - veuve.",
+          "en": "Widower - widow.",
+          "zh": "鰥夫－寡婦。",
+          "examples": [
+            { "t": "Xbalao bi kptoxan nkmorisaka diyax na siida", "fr": "De son temps il y avait beaucoup de veuves à Morisaca.", "en": "In his time there were many widows at Morisaca.", "zh": "在他那個時代，Morisaca 有很多寡婦。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PQAYA",
+      "tag": "(R. = QAYA ?)",
+      "fr": "1) Gêner - faire obstacle. 2) Suspendre - Fixer quelque chose en le suspendant. VR. QAYA.",
+      "en": "1) To hinder - to obstruct. 2) To suspend - to fasten something by hanging it. See QAYA.",
+      "zh": "1) 妨礙－造成阻礙。2) 懸掛－把某物吊起固定。參見 QAYA。",
+      "examples": [
+        { "t": "Pqaya bi \"lu daxa ka tasil gaga", "fr": "Cette pierre là gêne beaucoup le passage des gens.", "en": "That stone there greatly hinders people's passage.", "zh": "那塊石頭很妨礙人們通行。" },
+        { "t": "Spqaya (spkaya (?)) no qouni ngangot ka siyam", "fr": "La viande (de porc) est faite pour être suspendue (par moi) sur un bois dehors.", "en": "The (pork) meat is meant to be hung (by me) on a piece of wood outside.", "zh": "（豬）肉是要（由我）掛在外面的木頭上的。" }
+      ]
+    },
+    {
+      "hw": "PP'LAQ",
+      "tag": "(R. = ??)",
+      "fr": "Gai - bon vivant - boute en train.",
+      "en": "Cheerful - a bon vivant - the life of the party.",
+      "zh": "開朗－愛享受生活的人－炒熱氣氛的人。",
+      "subs": [
+        {
+          "form": "Mpp'laq",
+          "fr": "Qui est gai, bon vivant.",
+          "en": "Who is cheerful, a bon vivant.",
+          "zh": "開朗、愛享受生活的人。",
+          "examples": [
+            { "t": "Kana llisao o, Yosi ka mpp'laq", "fr": "De tous les jeunes gens c'est Yoshi qui est le meilleur boute-en-train.", "en": "Of all the young people it is Yoshi who is the best life of the party.", "zh": "所有年輕人當中，Yoshi 最會炒熱氣氛。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSAANAK",
+      "tag": "(PSAANAQ ?) (R. = ?? - = R. PSANYAQ ?)",
+      "fr": "Mettre de côté - faire une discrimination, une ségrégation.",
+      "en": "To set aside - to make a discrimination, a segregation.",
+      "zh": "擱置一旁－歧視、隔離。",
+      "examples": [
+        { "t": "Balae bi ini so paaanak ana ima ka iso", "fr": "Toi au moins tu ne fais pas de discrimination de personnes.", "en": "You at least do not discriminate between persons.", "zh": "至少你不會因人而異地歧視別人。" }
+      ]
+    },
+    {
+      "hw": "PSANYAQ",
+      "tag": "(R. = SANYAQ ?)",
+      "fr": "Rendre tabou - jeter un mauvais sort - porter malheur. VR. SANYAQ.",
+      "en": "To make taboo - to cast an evil spell - to bring misfortune. See SANYAQ.",
+      "zh": "使成為禁忌－下惡咒－帶來厄運。參見 SANYAQ。"
+    },
+    {
+      "hw": "PSAQOL",
+      "tag": "(R. = ?)",
+      "fr": "Labourer la terre. (nb. Le plus souvent c'est le terme : PTABE (vl. PSTABE et même : PFTABE, à peu près la seule fois où le son F est presque réalisé).",
+      "en": "To plough the land. (n.b. Most often the term is: PTABE (var. PSTABE and even: PFTABE, about the only time the F sound is nearly realized).",
+      "zh": "耕地。（註：最常用的詞是 PTABE（或：PSTABE，甚至 PFTABE，這幾乎是唯一一次 F 音幾乎被發出來的情況）。",
+      "examples": [
+        { "t": "Mnsa ko psaqol kmpaxan mo mdngo", "fr": "Je suis allé labourer mon champ sec (autre que la rizière).", "en": "I went to plough my dry field (other than the paddy field).", "zh": "我去耕我的旱田（水田以外的田）。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpsaqol",
+          "fr": "Laboureur - celui qui laboure.",
+          "en": "Ploughman - the one who ploughs.",
+          "zh": "耕田者－耕田的人。"
+        }
+      ]
+    },
+    {
+      "hw": "PSAXO",
+      "tag": "(R)",
+      "paradigm": "° Mpsaxo, psaxo, ps'xgi (psxgi), ps'xgan, ps'xgun.",
+      "fr": "Punir - châtier.",
+      "en": "To punish - to chastise.",
+      "zh": "處罰－懲戒。",
+      "examples": [
+        { "t": "Ini ko xmut psaxo sadyaq ka yako", "fr": "Je ne punis pas quelqu'un sans raisons.", "en": "I do not punish someone without reasons.", "zh": "我不會無緣無故處罰人。" },
+        { "t": "Wada mo psxgun (ps'xgun) ka laqe so", "fr": "J'ai été obligé de punir ton fils.", "en": "I was obliged to punish your son.", "zh": "我不得不處罰你兒子。" },
+        { "t": "Wada mo psxgan ka laqe so da ni, ini txei", "fr": "Je l'ai bien puni ton fils mais cela ne sert de rien !", "en": "I punished your son well but it is of no use!", "zh": "我好好處罰了你兒子，但沒有用！" }
+      ],
+      "subs": [
+        {
+          "form": "Pnsaxo",
+          "fr": "Action de punir (dans le passé).",
+          "en": "The act of punishing (in the past).",
+          "zh": "處罰的行為（過去的）。",
+          "examples": [
+            { "t": "Pnsaxo xeaan sndurai ka tama nia", "fr": "Son père l'a puni dernièrement.", "en": "His father punished him recently.", "zh": "他父親最近處罰了他。" }
+          ]
+        },
+        {
+          "form": "Pns'xgan",
+          "fr": "Punition donnée, reçue - amende - celui qui a été puni.",
+          "en": "Punishment given, received - fine - the one who has been punished.",
+          "zh": "給予、承受的處罰－罰款－受罰的人。",
+          "examples": [
+            { "t": "Pns'xgan so daxa s'xiga", "fr": "Ils t'ont puni hier.", "en": "They punished you yesterday.", "zh": "他們昨天處罰了你。" }
+          ]
+        },
+        {
+          "form": "Spsaxo",
+          "fr": "(moyen, instrument) pour punir.",
+          "en": "(means, instrument) for punishing.",
+          "zh": "（用以）處罰的方法、工具。",
+          "examples": [
+            { "t": "Pdaon so manu spsaxo so dxeaan?", "fr": "Comment t'y prendras tu pour les punir ?", "en": "How will you go about punishing them?", "zh": "你要怎麼處罰他們？" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSGAO",
+      "tag": "(R. = GAO)",
+      "fr": "Choisir pour mettre à part - se réserver - consacrer. VR. GAO.",
+      "en": "To choose in order to set apart - to reserve for oneself - to consecrate. See GAO.",
+      "zh": "挑選出來另放－為自己保留－奉獻。參見 GAO。",
+      "examples": [
+        { "t": "Yaxe nanak psgao ka sao nkuxul so nanak", "fr": "Viens toi même choisir (te réserver) ce qui te plait.", "en": "Come yourself to choose (reserve for yourself) what you like.", "zh": "你自己來挑選（保留）你喜歡的東西。" }
+      ]
+    },
+    {
+      "hw": "PSKAN",
+      "tag": "(PDQAN ?) (R. = \"QAN = manger ?)",
+      "paradigm": "° Mpskan, pskan, pskani, pskanan, pskanun.",
+      "fr": "Mâcher - mastiquer - ruminer.",
+      "en": "To chew - to masticate - to ruminate.",
+      "zh": "咀嚼－嚼碎－反芻。",
+      "examples": [
+        { "t": "Ini xali pskan xei ana manu ka dtroko", "fr": "Les taroko ne mâchent pas vraiment une viande quelle qu'elle soit.", "en": "The Taroko do not really chew any meat whatsoever.", "zh": "太魯閣人其實不太咀嚼任何一種肉。" }
+      ],
+      "subs": [
+        {
+          "form": "Pskanan",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            { "t": "Naqex bi pskanan ka xei pngusul", "fr": "L'escargot est très difficile à mâcher.", "en": "The snail is very difficult to chew.", "zh": "蝸牛非常難咀嚼。" }
+          ]
+        },
+        {
+          "form": "PSkanun",
+          "fr": "Qui est à mâcher.",
+          "en": "That which is to be chewed.",
+          "zh": "該咀嚼的（東西）。",
+          "examples": [
+            { "t": "Sapox pskanun (bskanun) ka nii", "fr": "Ceci est un médicament qu'il faut mâcher. (nb. C'est très souvent que ce terme est réalisé : BSKANUN !)", "en": "This is a medicine that must be chewed. (n.b. Very often this term is realized: BSKANUN!)", "zh": "這是一種必須咀嚼的藥。（註：這個詞很常被發成 BSKANUN！）" }
+          ]
+        },
+        {
+          "form": "Tpskan (Tbskan)",
+          "fr": "Mâcher menu - mâcher soigneusement.",
+          "en": "To chew finely - to chew carefully.",
+          "zh": "細嚼－仔細咀嚼。",
+          "examples": [
+            { "t": "Wada na tpskanun kana ka ana qoaq longao", "fr": "Il a mâché menu même le goulot de la bouteille.", "en": "He chewed finely even the neck of the bottle.", "zh": "他連瓶口都細細嚼碎了。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSKLAYA",
+      "tag": "( = R. ?)",
+      "fr": "Signe - emblème - jalon - borne - marque.",
+      "en": "Sign - emblem - marker stake - boundary marker - mark.",
+      "zh": "記號－標誌－標樁－界標－標記。",
+      "examples": [
+        { "t": "Psaon mo psklaya siyao \"lu spqeta no ddaon daxa saman", "fr": "Je placerai des signalements (des jalons) le long du chemin pour leur indiquer la route qu'ils devront suivre demain.", "en": "I will place markers (stakes) along the path to show them the road they must follow tomorrow.", "zh": "我會沿路放置標記（標樁），好指示他們明天該走的路。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpsklaya",
+          "paradigm": "° Mpsklaya, psklaya, psklyaai, psklyaan, psklyaon.",
+          "fr": "Indiquer - signaler - celui qui montre.",
+          "en": "To indicate - to signal - the one who shows.",
+          "zh": "指示－標示－指出的人。",
+          "examples": [
+            { "t": "Miyax so mpsklaya nkuxul so nanak xo?", "fr": "Tu viens nous indiquer ce qui te fait plaisir (ton goût) ?", "en": "Are you coming to show us what pleases you (your taste)?", "zh": "你要來告訴我們你喜歡什麼（你的喜好）嗎？" }
+          ]
+        },
+        {
+          "form": "Spsklaya",
+          "fr": "Pour servir de signalement.",
+          "en": "To serve as a marker.",
+          "zh": "用作標記。",
+          "examples": [
+            { "t": "Ita galyeq so spsklyaon mo \"lu ddaon daxa", "fr": "Passe moi tes chiffons je veux m'en servir pour leur indiquer la route à suivre.", "en": "Pass me your rags, I want to use them to show them the road to follow.", "zh": "把你的破布遞給我，我要用它們來指示他們該走的路。" }
+          ]
+        },
+        {
+          "form": "Pnsklyaan",
+          "fr": "Ce qui a été signalé - signaux qui ont été donnés.",
+          "en": "That which has been signalled - signals that have been given.",
+          "zh": "被標示過的－已給出的信號。",
+          "examples": [
+            { "t": "Pl'gi nanak pnsklyaan daxani kia da", "fr": "Tu n'as qu'à suivre leur signalement (leurs indications données), et c'est tout.", "en": "You only have to follow their marking (the indications given), and that's all.", "zh": "你只要跟著他們的標記（他們給的指示）走就行了。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSLAMAL",
+      "tag": "(R. = LAMAL ?)",
+      "fr": "Préparer - prévoir. VR. LAMAL et SLAMAL.",
+      "en": "To prepare - to foresee. See LAMAL and SLAMAL.",
+      "zh": "準備－預先安排。參見 LAMAL 與 SLAMAL。"
+    },
+    {
+      "hw": "PSLISIG",
+      "tag": "(R. = ?)",
+      "fr": "Porter faux témoignage (?) - accuser injustement (?).",
+      "en": "To bear false witness (?) - to accuse unjustly (?).",
+      "zh": "作偽證（？）－不公正地控告（？）。"
+    },
+    {
+      "hw": "PS'LO",
+      "tag": "(R)",
+      "fr": "Frapper (en donnant une correction) - infliger une punition corporelle.",
+      "en": "To strike (in giving a correction) - to inflict corporal punishment.",
+      "zh": "打（施以體罰管教）－施加體罰。",
+      "examples": [
+        { "t": "Ana ini ko pslo xeaan", "fr": "Il n'est pas nécessaire que je lui donne une correction !", "en": "It is not necessary for me to give him a correction!", "zh": "我沒必要處罰他！" },
+        { "t": "Ana ini mo pslo ka laqe o, mk'la nanak kari", "fr": "Même si je ne punis pas mon fils (si je ne le corrige pas), il sait ce que j'ai dit (vl. il sait parler !).", "en": "Even if I do not punish my son (if I do not correct him), he knows what I said (var. he knows how to speak!).", "zh": "即使我不處罰兒子（不管教他），他也知道我說的話（或：他也會說話！）。" }
+      ],
+      "subs": [
+        {
+          "form": "Ms'lo",
+          "paradigm": "° Ms'lo, ps'lo, psloi, psloan, psloon.",
+          "fr": "Frapper - donner une correction.",
+          "en": "To strike - to give a correction.",
+          "zh": "打－施以管教。",
+          "examples": [
+            { "t": "Ida ms'lo ko laqe kddiyax", "fr": "Je lui donne une correction tous les jours à mon enfant (je le corrige toujours).", "en": "I give my child a correction every day (I always correct him).", "zh": "我每天都管教我的孩子（我總是糾正他）。" }
+          ]
+        },
+        {
+          "form": "Mps'lo",
+          "fr": "Corriger (au futur) - Celui qui donne la correction.",
+          "en": "To correct (in the future) - the one who gives the correction.",
+          "zh": "（將要）管教－施以管教的人。",
+          "examples": [
+            { "t": "Adi biyao mps'lo ko sunan", "fr": "Je te donnerai une correction avant peu !", "en": "I will give you a correction before long!", "zh": "我不久就會處罰你！" },
+            { "t": "Ongat ka mps'lo laqe!", "fr": "Il n'y a personne qui corrige cet enfant (vl. Personne ne corrige les enfants).", "en": "There is no one who corrects this child (var. No one corrects the children).", "zh": "沒有人管教這個孩子（或：沒有人管教孩子們）。" }
+          ]
+        },
+        {
+          "form": "Psloan",
+          "fr": "Punition, correction données - celui qui a été puni.",
+          "en": "Punishment, correction given - the one who has been punished.",
+          "zh": "給予的處罰、管教－受罰的人。",
+          "examples": [
+            { "t": "Adi manu ka naqex kuxul mo! Psloan ko daxa sayang!", "fr": "Si je suis triste ce n'est (pour rien d'autre) que le fait qu'ils viennent de me donner une raclée !", "en": "If I am sad it is (for no other reason) than the fact that they have just given me a thrashing!", "zh": "我如果難過，（別無他因）就是因為他們剛剛揍了我一頓！" }
+          ]
+        },
+        {
+          "form": "Psloon",
+          "fr": "Qui doit être frappé - qui recevra des coups.",
+          "en": "Who must be struck - who will receive blows.",
+          "zh": "該挨打的－將要挨打的人。",
+          "examples": [
+            { "t": "Ana ongat mps'lo sunan ka sayang o, psloon so tama kia", "fr": "Même s'il n'y a personne pour te rosser maintenant, papa va le faire plus tard !", "en": "Even if there is no one to thrash you now, papa will do it later!", "zh": "就算現在沒人揍你，爸爸晚點也會揍你！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSPADAO",
+      "tag": "(R. = SPADAO ? - = PADAO ?)",
+      "fr": "Offrir - donner gratuitement - faire un cadeau. VR. SPADAO.",
+      "en": "To offer - to give freely - to make a gift. See SPADAO.",
+      "zh": "贈送－無償給予－送禮。參見 SPADAO。",
+      "examples": [
+        { "t": "Pspdagun miso kingal milit", "fr": "Je te donnerai une chèvre.", "en": "I will give you a goat.", "zh": "我會送你一隻山羊。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpspadao",
+          "fr": "Celui qui offre, qui fait un cadeau.",
+          "en": "The one who offers, who gives a gift.",
+          "zh": "贈送者、送禮的人。"
+        },
+        {
+          "form": "Pnspadao",
+          "fr": "Offrait - avoir offert.",
+          "en": "Was offering - to have offered.",
+          "zh": "（過去）贈送－曾贈送。"
+        },
+        {
+          "form": "Pnspdagan",
+          "fr": "Ce qui a été offert - circonstances de l'offrir.",
+          "en": "That which has been offered - the circumstances of the giving.",
+          "zh": "所贈送之物－贈送的情境。",
+          "examples": [
+            { "t": "Daxa wawa lodoç ka pnspdagan daxa", "fr": "C'est deux poussins qu'ils ont offert (en cadeau).", "en": "It is two chicks that they offered (as a gift).", "zh": "他們送的（禮物）是兩隻小雞。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PSQEXAN",
+      "tag": "(R. = ?? - = PSOQEX ?)",
+      "fr": "Celui (ce) qui a été forcé, qui a été obligé.",
+      "en": "The one (that) which has been forced, which has been obliged.",
+      "zh": "被強迫、被迫（做某事）的人（或物）。",
+      "examples": [
+        { "t": "Pnsqexan so ima musa mapa tasil", "fr": "Qui donc t'a obligé à aller porter des cailloux ?", "en": "Who then forced you to go carry stones?", "zh": "到底是誰逼你去搬石頭的？" }
+      ]
+    },
+    {
+      "hw": "PSQEXON",
+      "tag": "(R. = ?? - = PSOQEX ?)",
+      "fr": "Celui qu'on force, qu'on oblige.",
+      "en": "The one whom one forces, whom one obliges.",
+      "zh": "被人強迫、被人強制的人。",
+      "examples": [
+        { "t": "Wada na psqexun (psqexon) daxa papa aso", "fr": "Ils l'ont obligé à monter dans le bateau.", "en": "They forced him to get into the boat.", "zh": "他們強迫他上船。" }
+      ]
+    },
+    {
+      "hw": "PSQGO",
+      "tag": "(R. = ??)",
+      "fr": "??.",
+      "en": "??.",
+      "zh": "？？。",
+      "examples": [
+        { "t": "Asi psqgo mxeyu ni miyax blax ka xea", "fr": "Il se lève d'un bond (subitement (?) - très vite (?)), et s'avance (vient devant).", "en": "He leaps up (suddenly (?) - very quickly (?)), and comes forward (comes to the front).", "zh": "他猛然跳起（突然（？）－非常快（？）），然後上前（走到前面）。" }
+      ]
+    },
+    {
+      "hw": "PSUKAN",
+      "tag": "(Bsukan) (R. = BUSUK)",
+      "fr": "Ivre - titubant. VR. BUSUK. BSUKAN.",
+      "en": "Drunk - staggering. See BUSUK. BSUKAN.",
+      "zh": "醉的－踉蹌的。參見 BUSUK。BSUKAN。",
+      "examples": [
+        { "t": "Knta'to psukan (bsukan) ka Wilang", "fr": "Wilang est ivre à tout moment.", "en": "Wilang is drunk all the time.", "zh": "Wilang 隨時都在醉。" }
+      ],
+      "subs": [
+        {
+          "form": "Spsukan",
+          "fr": "Enivrant.",
+          "en": "Intoxicating.",
+          "zh": "使人醉的。",
+          "examples": [
+            { "t": "Spsukan bi sadyaq ka knlala kari so", "fr": "La quantité de tes paroles saoule les gens !", "en": "The quantity of your words makes people drunk!", "zh": "你話那麼多，把人都說醉了！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PT\"TO",
+      "tag": "(PTA'TO ?) (R. = T\"TO ? - = TA'TO ?)",
+      "paradigm": "° Mpt\"to, pt\"to, pt\"tui, pt\"toan, pt\"toon.",
+      "fr": "Dresser - mettre debout. VR. T\"TO.",
+      "en": "To set up - to stand upright. See T\"TO.",
+      "zh": "豎立－使立起。參見 T\"TO。",
+      "examples": [
+        { "t": "Pnt\"to ko ddima kana mtqeli kmpaxan", "fr": "J'ai planté des bambous tout autour du champ.", "en": "I planted bamboos all around the field.", "zh": "我在田地四周都種了竹子。" },
+        { "t": "Pt\"to btunuç", "fr": "Dresser une pierre (nb. ce rite est sacré et sert à sceller la paix entre deux clans, ou à \"signer\" un contrat).", "en": "To set up a stone (n.b. this rite is sacred and serves to seal peace between two clans, or to \"sign\" a contract).", "zh": "豎立一塊石頭（註：此儀式神聖，用以締結兩個部族之間的和平，或「簽訂」契約）。" },
+        { "t": "Pt\"to b'xngil", "fr": "Placer des herbes nouées (pngoan b'xngil) à l'extrémité d'un champ pour indiquer qu'on va y faire la moisson.", "en": "To place knotted grasses (pngoan b'xngil) at the edge of a field to indicate that the harvest will be done there.", "zh": "在田地的一端放置打結的草（pngoan b'xngil），以表示將在此收割。" }
+      ]
+    },
+    {
+      "hw": "PUA",
+      "tag": "(PUGA) (R)",
+      "fr": "Nombril.",
+      "en": "Navel.",
+      "zh": "肚臍。",
+      "examples": [
+        { "t": "Xana mstok pua na ka laqe", "fr": "L'enfant vient à peine de casser son cordon ombilical. (nb. Se dit pour désigner un enfant dans les premiers jours de sa vie.).", "en": "The child has only just broken its umbilical cord. (n.b. Said to designate a child in the first days of its life.).", "zh": "這孩子才剛斷臍帶。（註：用來指出生頭幾天的嬰兒。）" }
+      ]
+    },
+    {
+      "hw": "PULAX",
+      "tag": "(R)",
+      "fr": "Jaune (?) - brillant (?) - parfois employé dans le sens et à la place de : BULAX = Neuf (Serait-ce dans le sens de : Flambant neuf ?).",
+      "en": "Yellow (?) - shiny (?) - sometimes used in the sense of and in place of: BULAX = New (Could it be in the sense of: Brand new?).",
+      "zh": "黃色（？）－光亮（？）－有時當作 BULAX 的意思並取代之：BULAX＝新的（是否為「嶄新」之意？）。",
+      "subs": [
+        {
+          "form": "Mpulax",
+          "fr": "Qui est jaune. (nb. Les taroko sont déconcertants pour leur imprécision dans la désignation des couleurs !) - Qui est neuf.",
+          "en": "That which is yellow. (n.b. The Taroko are disconcerting for their imprecision in naming colours!) - That which is new.",
+          "zh": "黃色的。（註：太魯閣人在指稱顏色上的不精確令人困惑！）－新的。",
+          "examples": [
+            { "t": "ga mpulax bi kana lukus na", "fr": "Tous ses habits sont vraiment neufs (Jaunes (?) - comme neufs (?) - brillants de propreté (?)).", "en": "All his clothes are really new (Yellow (?) - like new (?) - shining with cleanliness (?)).", "zh": "他所有的衣服都很新（黃色的（？）－像新的（？）－乾淨得發亮（？））。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PULUT",
+      "tag": "(R)",
+      "fr": "Passereau.",
+      "en": "Passerine (small perching bird).",
+      "zh": "雀鳥（燕雀類小鳥）。"
+    },
+    {
+      "hw": "PUNO",
+      "tag": "(R)",
+      "fr": "Choléra - esprit dérangé.",
+      "en": "Cholera - deranged mind.",
+      "zh": "霍亂－精神錯亂。",
+      "subs": [
+        {
+          "form": "Mpuno",
+          "fr": "1) Avoir le choléra. 2) Être enragé - avoir l'ésprit dérangé (sans doute par assimilation).",
+          "en": "1) To have cholera. 2) To be enraged - to have a deranged mind (probably by association).",
+          "zh": "1) 患霍亂。2) 發狂－精神錯亂（大概是由聯想而來）。",
+          "examples": [
+            { "t": "Mpuno kana ka lodoç no", "fr": "Toutes mes poules ont le choléra (maladie très fréquente et qui détruit régulièrement toutes les basses-cours).", "en": "All my hens have cholera (a very frequent disease that regularly wipes out all the poultry yards).", "zh": "我所有的雞都得了霍亂（一種很常見、會定期毀掉整個雞舍的疾病）。" },
+            { "t": "Mpuno ka xeuling mo", "fr": "Mon chien est enragé.", "en": "My dog is rabid.", "zh": "我的狗發狂了。" },
+            { "t": "Sao bi mpuno ka laqe mo", "fr": "Mon fils est comme fou (enragé - comme s'il avait le choléra des poules).", "en": "My son is like a madman (enraged - as if he had the hens' cholera).", "zh": "我兒子像瘋了一樣（發狂－好像得了雞的霍亂）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PUNYAQ",
+      "tag": "(R)",
+      "fr": "Feu (c'est le sens que tout contribue à retenir comme sens original) - (actuellement) = Fusil.",
+      "en": "Fire (this is the meaning that everything contributes to retaining as the original sense) - (currently) = Rifle.",
+      "zh": "火（各方面都傾向認為這是它的原義）－（現今）＝槍。",
+      "examples": [
+        { "t": "Manu ka sdui so uusa so madok? Poting xo? Budi xo? Sblangan xo? Manu? ... Adi! Punyaq bi!", "fr": "De quoi es tu armé pour aller à la chasse ? Coutelas ? Flèches ? Lance ? ...", "en": "What are you armed with to go hunting? A cutlass? Arrows? A spear? ...", "zh": "你要帶什麼武器去打獵？大刀嗎？箭嗎？矛嗎？……" }
+      ],
+      "truncated": true
+    }
+  ]
+}

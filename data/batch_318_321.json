@@ -1,0 +1,763 @@
+{
+  "pages": [318, 321],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "TA'TO",
+      "tag": "(T\"TO ?) (R.)",
+      "fr": "Couper en petits morceaux - découper.",
+      "en": "To cut into small pieces - to cut up.",
+      "zh": "切成小塊－切割。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tma'to",
+          "paradigm": "Tma'to (tm\"to), ta'to (t\"to), ttui, ttuan, ttuun (ttuon).",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Tma'to ko ppadyaq ka yako; Ttui xei lodoç ka iso.",
+              "fr": "Moi, je coupe (en petits morceaux) les légumes; toi, découpe la (viande de) poule.",
+              "en": "Me, I cut (into small pieces) the vegetables; you, cut up the (meat of the) chicken.",
+              "zh": "我把菜切成小塊；你把雞（肉）切開。"
+            }
+          ]
+        },
+        {
+          "form": "Ttuun",
+          "fr": "Ce qui est à (ce qu'on veut) découper.",
+          "en": "That which is to be (that which one wants to) cut up.",
+          "zh": "要（想要）切割的東西。",
+          "examples": [
+            {
+              "t": "Adi ttuun ka nadas so xei siyam xo ?",
+              "fr": "N'est-elle pas à (ne faut-il pas) découper la viande de porc que tu as apportée.",
+              "en": "Isn't the pork you brought to be cut up (mustn't it be cut up)?",
+              "zh": "你帶來的豬肉不是該切割（難道不用切割）嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TATOK",
+      "tag": "(R)",
+      "crossRef": "TATOQ",
+      "fr": "Frapper - Cogner - heurter. (Vr. TATOQ).",
+      "en": "To hit - to knock - to strike. (var. TATOQ).",
+      "zh": "打－敲－碰撞。（參 TATOQ。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TATOQ",
+      "tag": "(TATÖK ?) (R)",
+      "fr": "Frapper - cogner - heurter.",
+      "en": "To hit - to knock - to strike.",
+      "zh": "打－敲－碰撞。",
+      "examples": [
+        {
+          "t": "Ini ko tatok (tatoq) longao ka yako (= Ini mo ttoqe ka longao), xmut mg'long nanak",
+          "fr": "Je ne heurte (Je n'ai pas heurté) pas la bouteille, elle se casse (elle s'est cassée) toute seule.",
+          "en": "I do not strike (I did not strike) the bottle, it breaks (it broke) all by itself.",
+          "zh": "我沒碰撞瓶子，它自己（自行）破了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmatoq",
+          "paradigm": "Tmatoq (tmatok), tatoq (tatok), ttoqe, ttoqan, ttoqon.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Wada tmatoq kane ka Xide",
+              "fr": "Rhidé est allée sonner la cloche (Rhidé a sonné la cloche).",
+              "en": "Rhidé went to ring the bell (Rhidé rang the bell).",
+              "zh": "Rhidé 去敲鐘（Rhidé 敲了鐘）。"
+            },
+            {
+              "t": "Ga tmatoq poting ka Tain",
+              "fr": "Tainne est en train de forger un couteau (des couteaux).",
+              "en": "Tainne is forging a knife (some knives).",
+              "zh": "Tainne 正在鍛造一把刀（幾把刀）。"
+            }
+          ]
+        },
+        {
+          "form": "Mtatoq",
+          "fr": "Celui qui frappe - celui (ce) qui se heurte contre qqch. ou qq'un.",
+          "en": "The one who hits - the one (that) which strikes against something or someone.",
+          "zh": "打人者－撞到某物或某人者。",
+          "examples": [
+            {
+              "t": "Wada mtatoq tasil ka tunux nia",
+              "fr": "Sa tête a heurté une (la) pierre.",
+              "en": "His head struck a (the) stone.",
+              "zh": "他的頭撞到一塊（那塊）石頭。"
+            },
+            {
+              "t": "Mntatoq daxa poting paro s'xiga ka Tain (=Tmnoting daxa poting paro s'xiga ka Tain)",
+              "fr": "Tainne a forgé hier deux grands coutelas.",
+              "en": "Tainne forged two big cutlasses yesterday.",
+              "zh": "Tainne 昨天鍛造了兩把大砍刀。"
+            }
+          ]
+        },
+        {
+          "form": "Mttatoq",
+          "fr": "Se frapper, se heurter mutuellement.",
+          "en": "To hit each other, to strike one another.",
+          "zh": "互相打、互相碰撞。",
+          "examples": [
+            {
+              "t": "Mnttatoq ka tunux (ttunux) daxa",
+              "fr": "Leurs têtes se sont entrechoquées.",
+              "en": "Their heads knocked against each other.",
+              "zh": "他們的頭互相撞在一起。"
+            }
+          ]
+        },
+        {
+          "form": "Ptatoq",
+          "fr": "Faire heurter deux ou plusieurs choses entre elles.",
+          "en": "To make two or more things strike against each other.",
+          "zh": "使兩個或多個東西互相碰撞。",
+          "examples": [
+            {
+              "t": "Uxai sadyaq, bgixol nanak ka ptatoq ppusu ddima.",
+              "fr": "Non! Ce ne sont pas des personnes, ce n'est que le vent qui fait s'entrechoquer les bambous.(= qui frappe les bambous les uns contre les autres).",
+              "en": "No! It's not people, it's only the wind that makes the bamboos knock against each other.(= that strikes the bamboos one against the other).",
+              "zh": "不！那不是人，只是風使竹子互相碰撞。（＝使竹子彼此相擊。）"
+            }
+          ]
+        },
+        {
+          "form": "Pnttoqan",
+          "fr": "Ce qu'on a frappé l'un contre l'autre - Ce qui sert à frapper l'un contre l'autre (pour faire du bruit) - Cymballes.",
+          "en": "That which has been struck one against the other - That which serves to strike one against the other (to make noise) - Cymbals.",
+          "zh": "彼此相擊之物－用來彼此相擊（以製造聲響）之物－鈸。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "TATWI",
+      "tag": "( = R. ?? - = R. Chinoise ?)",
+      "fr": "Prendre une comparaison - Donner un exemple",
+      "en": "To draw a comparison - To give an example",
+      "zh": "作比喻－舉例。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Ptatwi",
+          "fr": "Faire servir de comparaison, d'exemple.",
+          "en": "To use as a comparison, as an example.",
+          "zh": "用作比喻、例子。",
+          "examples": [
+            {
+              "t": "Ngalun mo qbxni mpskaya balao ni dpx'pax bbuyo ptatwi ka sayang",
+              "fr": "Je vais prendre les oiseaux qui volent (en haut) et les fleurs sauvages pour donner une comparaison.",
+              "en": "I am going to take the birds that fly (up high) and the wild flowers to draw a comparison.",
+              "zh": "我要拿（高空）飛翔的鳥和野花來作比喻。"
+            },
+            {
+              "t": "Ngalun so manu dole ptatwi sayang da?",
+              "fr": "Quelle comparaison vas tu encore prendre? (Que vas tu encore prendre pour faire une comparaison?).",
+              "en": "What comparison are you going to draw next? (What else are you going to take to make a comparison?).",
+              "zh": "你還要再拿什麼來作比喻呢？（你還要拿什麼東西來作比喻？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAXA",
+      "tag": "(R)",
+      "fr": "Un seul - seul - un autre.",
+      "en": "A single one - alone - another.",
+      "zh": "一個－獨自－另一個。",
+      "examples": [
+        {
+          "t": "Ongat tknayun mo; yako bi taxa xei!",
+          "fr": "Je n'ai pas de compagnon (de route); je suis vraiment tout seul!",
+          "en": "I have no companion (fellow traveler); I am really all alone!",
+          "zh": "我沒有（旅途的）同伴；我真的完全孤單一人！"
+        },
+        {
+          "t": "Miyax taxa bi xei ni kia da!",
+          "fr": "Encore un seul et cela suffira (= et ce sera bien).",
+          "en": "One more single one and that will be enough (= and it will be fine).",
+          "zh": "再一個就夠了（＝就好了）。"
+        },
+        {
+          "t": "Ntaxa xei ka nii",
+          "fr": "Ceci est à une autre personne.",
+          "en": "This belongs to another person.",
+          "zh": "這是另一個人的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tntaxa",
+          "fr": "Un seul (?) - Quelque individu isolé(?).",
+          "en": "A single one (?) - Some isolated individual (?).",
+          "zh": "單獨一個（？）－某個孤立的個體（？）。",
+          "examples": [
+            {
+              "t": "Tntaxa namo xei ka naqex",
+              "fr": "C'est (Il-y-a) l'un d'entre vous qui est mauvais (= Il n'y a que l'un ou l'autre d'entre vous qui est mauvais).",
+              "en": "It is (There is) one among you who is bad (= There is only one or another among you who is bad).",
+              "zh": "你們當中有一個是壞的（＝你們當中只有一兩個是壞的）。"
+            }
+          ]
+        },
+        {
+          "form": "Txaon",
+          "fr": "Ce qui est à mettre (ce - ceux - qu'on veut disposer, (prendre, regarder etc,) unseul à la fois.",
+          "en": "That which is to be placed (that - those - which one wants to arrange, (take, look at, etc.) one at a time.",
+          "zh": "要放置的東西（想要一次一個地擺放（拿、看等）的東西）。",
+          "examples": [
+            {
+              "t": "Ida mo txaon pusa",
+              "fr": "Je (les) enverrai (je les laisserai partir) un par un.",
+              "en": "I will send (them) (I will let them go) one by one.",
+              "zh": "我會一個一個地送（讓他們一個一個離開）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAXO",
+      "tag": "(R)",
+      "fr": "Brûler - allumer un feu - Feu(?). (nb. Seules formes connues : Mtaxo, et: txoon).",
+      "en": "To burn - to light a fire - Fire(?). (n.b. Only known forms: Mtaxo, and: txoon).",
+      "zh": "燃燒－生火－火（？）。（註：僅知的形式：Mtaxo 及 txoon。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtaxo",
+          "fr": "Allumer un (le) feu = faire un feu.",
+          "en": "To light a (the) fire = to make a fire.",
+          "zh": "生（那）火＝生火。",
+          "examples": [
+            {
+              "t": "Mxa mtaxo ka koyox mo",
+              "fr": "Ma femme va allumer le feu. (nb. est-ce une déformation, un dérivé (?) de TAXOT = Braise ?).",
+              "en": "My wife is going to light the fire. (n.b. is it a distortion, a derivative (?) of TAXOT = Ember?).",
+              "zh": "我太太要去生火。（註：這是否是 TAXOT＝炭火 的變形或衍生形（？）？）"
+            }
+          ]
+        },
+        {
+          "form": "Txoon",
+          "fr": "à brûler (à devenir feu ?) - combustible.",
+          "en": "to be burned (to become fire?) - fuel.",
+          "zh": "待燃燒的（要變成火？）－燃料。",
+          "examples": [
+            {
+              "t": "Saai mo mangal txoon xo?",
+              "fr": "Veux tu que j'aille (j'aimerais bien aller) chercher du combustible?",
+              "en": "Do you want me to go (I would like to go) fetch some fuel?",
+              "zh": "你要我去（我很想去）撿柴火嗎？"
+            },
+            {
+              "t": "Sai ko mangal txoon xo?",
+              "fr": "Voudrais tu aller me chercher du combustible?",
+              "en": "Would you go fetch me some fuel?",
+              "zh": "你願意去幫我撿柴火嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TAXOT",
+      "tag": "(R)",
+      "fr": "Braise - feu.",
+      "en": "Ember - fire.",
+      "zh": "炭火－火。",
+      "examples": [
+        {
+          "t": "Mskwi (mskui (?)) bi ka sayang, nta malax taxot da!",
+          "fr": "Il fait bien froid aujourd'hui, viens donc te chauffer ( allons nous chauffer) au feu.",
+          "en": "It's really cold today, come and warm yourself (let's warm ourselves) by the fire.",
+          "zh": "今天很冷，來烤火取暖吧（我們來烤火取暖）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TAYAI",
+      "tag": "(R)",
+      "fr": "Interjection de surprise(admiration, incrédulité..).",
+      "en": "Interjection of surprise (admiration, incredulity..).",
+      "zh": "表示驚訝的感嘆詞（讚嘆、難以置信……）。",
+      "examples": [
+        {
+          "t": "Tayai knmalu (kmalu (?)) ka trabus so !",
+          "fr": "Comme elles sont belles (bonnes) tes arachides!",
+          "en": "How beautiful (good) your peanuts are!",
+          "zh": "你的花生多麼漂亮（好）啊！"
+        },
+        {
+          "t": "Tayai bi ka kmlaan trabus so !",
+          "fr": "Elle est extraordinaire la qualité (la bonté) de tes arachides ! (nb. Très souvent entendu: TAYAL !)",
+          "en": "The quality (goodness) of your peanuts is extraordinary! (n.b. Very often heard: TAYAL!)",
+          "zh": "你的花生品質（好處）真是非凡！（註：常聽到說成 TAYAL！）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TAYAL",
+      "tag": "(R)",
+      "fr": "Dénominateur commun que les Taroko reconnaissent aux trois familles du même peuple: 1° les SADYAQ dont ils font partie; 2° Les SAO'LE; 3° Les SQOLYEQ (nb. SADYAQ, SAO'LE, SQOLYEQ sont trois façons différentes, propres à chaque famille, pour désigner la PERSONNE humaine). - TAYAL est employé par certains locuteurs dans le même sens que TAYAI:",
+      "en": "Common denominator that the Taroko recognize among the three families of the same people: 1st the SADYAQ, of which they are part; 2nd the SAO'LE; 3rd the SQOLYEQ (n.b. SADYAQ, SAO'LE, SQOLYEQ are three different ways, particular to each family, of designating the human PERSON). - TAYAL is used by some speakers in the same sense as TAYAI:",
+      "zh": "太魯閣人所認定、同一民族三個家族共同的稱謂：第一是他們所屬的 SADYAQ；第二是 SAO'LE；第三是 SQOLYEQ（註：SADYAQ、SAO'LE、SQOLYEQ 是各家族各自用來指稱「人」的三種不同說法）。－有些說話者把 TAYAL 用作與 TAYAI 相同的意思：",
+      "examples": [
+        {
+          "t": "Tayal bi knmalu (kmalu (?)) taan!",
+          "fr": "Oh! comme c'est merveilleux à voir !",
+          "en": "Oh! how marvelous it is to see!",
+          "zh": "哦！看起來多麼美妙啊！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TBAGO",
+      "tag": "(R)",
+      "fr": "Réduit en cendres - brûlé.",
+      "en": "Reduced to ashes - burned.",
+      "zh": "化為灰燼－燒毀。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtbago",
+          "fr": "Qui est réduit en cendres (réduire en cendres (?)).",
+          "en": "Which is reduced to ashes (to reduce to ashes (?)).",
+          "zh": "化為灰燼的（化為灰燼（？））。",
+          "examples": [
+            {
+              "t": "Wada mtbago kana ka l'alang mtqeli",
+              "fr": "Tous les villages alentour ont été complètement brûlés.",
+              "en": "All the surrounding villages were completely burned.",
+              "zh": "周圍所有的村莊都被完全燒毀了。"
+            }
+          ]
+        },
+        {
+          "form": "Ptbago",
+          "fr": "Réduire en cendres - brûler complètement - détruire.",
+          "en": "To reduce to ashes - to burn completely - to destroy.",
+          "zh": "化為灰燼－完全燒毀－摧毀。",
+          "examples": [
+            {
+              "t": "Nasi mpd'xok alang ta ka pais do, na mptbagun daxa kana ka ssapax ta da!",
+              "fr": "Si les ennemis parviennent jusqu'à notre village, alors, ils brûleront toutes nos maisons.",
+              "en": "If the enemies reach our village, then they will burn down all our houses.",
+              "zh": "如果敵人打到我們的村子，他們就會把我們所有的房子都燒毀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TBAKO",
+      "tag": "(R)",
+      "fr": "Tabac - cigarette.",
+      "en": "Tobacco - cigarette.",
+      "zh": "菸草－香菸。",
+      "examples": [
+        {
+          "t": "Naqex xali ka mqan tbako",
+          "fr": "Fumer (=manger du tabac) c'est plutôt mauvais.",
+          "en": "Smoking (=eating tobacco) is rather bad.",
+          "zh": "抽菸（＝吃菸草）是相當不好的。"
+        },
+        {
+          "t": "Naqex xali ka sao mqan tbako",
+          "fr": "Ils sont (il est) plutôt mauvais (méchants) ceux qui fument.",
+          "en": "Those who smoke are rather bad (wicked).",
+          "zh": "抽菸的人是相當壞（惡劣）的。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Stbako",
+          "fr": "Sentir le tabac - empester le tabac.",
+          "en": "To smell of tobacco - to reek of tobacco.",
+          "zh": "有菸味－充滿菸臭味。",
+          "examples": [
+            {
+              "t": "Sapax Sibal o, ana manu ida stbako kana da!",
+              "fr": "Chez Sibal, tout sent le tabac.",
+              "en": "At Sibal's place, everything smells of tobacco.",
+              "zh": "在 Sibal 家，一切都有菸味。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TBALAE",
+      "tag": "(R. = BALAE)",
+      "crossRef": "BALAE",
+      "fr": "Plat - uni, en plaine, égal. VR. BALAE.",
+      "en": "Flat - even, on level ground, level. See BALAE.",
+      "zh": "平坦－平整、在平地、平的。參 BALAE。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TBILAN",
+      "tag": "(R. = ??)",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Lukus tbilan",
+          "fr": "Habits de fête - parure.",
+          "en": "Festival clothes - finery.",
+          "zh": "節慶服飾－盛裝。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TBNAO",
+      "tag": "( = R. ? - R. = LBNAO + Préfixe T , le L étant escamoté ? )",
+      "fr": "Dodu - potelé - tendre. (nb. LBNAO (LB'NAO) = Jeune - délicat - fragile).",
+      "en": "Plump - chubby - tender. (n.b. LBNAO (LB'NAO) = Young - delicate - fragile).",
+      "zh": "豐滿－胖嘟嘟－柔嫩。（註：LBNAO（LB'NAO）＝年輕－嬌嫩－脆弱。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mtbnao",
+          "fr": "Qui est potelé - qui est gras, bien à point - qui est dodu.",
+          "en": "Which is chubby - which is fat, just right - which is plump.",
+          "zh": "胖嘟嘟的－肥的、恰到好處－豐滿的。",
+          "examples": [
+            {
+              "t": "Asi ka mtbnao mbali ko babwi so",
+              "fr": "Je l'achète ton cochon, à condition qu'il soit gras (bien dodu).",
+              "en": "I'll buy your pig, provided it is fat (nice and plump).",
+              "zh": "我買你的豬，前提是牠要肥（很豐滿）。"
+            },
+            {
+              "t": "Mtbnao bi kana xei na",
+              "fr": "So corps est tout potelé.",
+              "en": "His body is all plump.",
+              "zh": "他的身體全都胖嘟嘟的。"
+            }
+          ]
+        },
+        {
+          "form": "Ktbnao",
+          "fr": "Forme négative de MTBNAO.",
+          "en": "Negative form of MTBNAO.",
+          "zh": "MTBNAO 的否定形。",
+          "examples": [
+            {
+              "t": "Ini ktbnao ka babwi mo",
+              "fr": "Mon cochon n'est pas gras.",
+              "en": "My pig is not fat.",
+              "zh": "我的豬不肥。"
+            }
+          ]
+        },
+        {
+          "form": "Kntbnao",
+          "fr": "Le degré de gras.",
+          "en": "The degree of fatness.",
+          "zh": "肥的程度。",
+          "examples": [
+            {
+              "t": "Taon mo nanak ka kntbnao na",
+              "fr": "Je veux me rendre compte personnellement combien (il) est gras (dodu).",
+              "en": "I want to see for myself how fat (plump) it is.",
+              "zh": "我想親自看看牠有多肥（豐滿）。"
+            }
+          ]
+        },
+        {
+          "form": "Ptbnao",
+          "fr": "Engraisser - rendre joufflu - rendre dodu.",
+          "en": "To fatten - to make chubby-cheeked - to make plump.",
+          "zh": "使肥胖－使臉頰豐潤－使豐滿。",
+          "examples": [
+            {
+              "t": "Xoya mo ksun ptbnao tityex laqe mo?",
+              "fr": "Que dois-je faire(comment m'y prendre) pour engraisser un peu mon enfant?",
+              "en": "What should I do (how should I go about it) to fatten up my child a little?",
+              "zh": "我該怎麼做（怎麼著手）才能讓我的孩子胖一點？"
+            },
+            {
+              "t": "Nasi so ptbuon Labai ka wawa lodoç so o, ida na ptbnuon balae",
+              "fr": "Si tu fais élever tes poussins par Labai, elle te les engraissera parfaitement.",
+              "en": "If you have Labai raise your chicks, she will fatten them up perfectly for you.",
+              "zh": "如果你讓 Labai 幫你養小雞，她會把牠們養得非常肥。"
+            },
+            {
+              "t": "Wada so ptbnuon ima ka nniso?",
+              "fr": "Par qui as tu fait engraisser les tiens?",
+              "en": "By whom did you have yours fattened?",
+              "zh": "你的是請誰幫你養肥的？"
+            }
+          ]
+        },
+        {
+          "form": "Sptbnao",
+          "fr": "Pour rendre potelé - pour engraisser.",
+          "en": "In order to make plump - in order to fatten.",
+          "zh": "為了使豐滿－為了使肥胖。",
+          "examples": [
+            {
+              "t": "Wada mo ngalun biyoq onoç milit sptbnao mo laqe",
+              "fr": "J'ai employé le lait de chèvre pour engraisser mon enfant.",
+              "en": "I used goat's milk to fatten up my child.",
+              "zh": "我用羊奶來把我的孩子養胖。"
+            }
+          ]
+        },
+        {
+          "form": "Sktbnao",
+          "fr": "Ce qui a servi (qui sert ) à engraisser, à rendre dodu.",
+          "en": "That which served (which serves) to fatten, to make plump.",
+          "zh": "用來（曾用來）使肥胖、使豐滿的東西。",
+          "examples": [
+            {
+              "t": "Biyoq onoç ka sktbnao bi llaqe",
+              "fr": "C'est le lait qui rend les enfants potelés.",
+              "en": "It is milk that makes children plump.",
+              "zh": "就是奶讓孩子們變得豐滿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TBUEL",
+      "tag": "(R)",
+      "fr": "Concombre.",
+      "en": "Cucumber.",
+      "zh": "黃瓜。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TBUS",
+      "tag": "(R)",
+      "fr": "Se servir du Van (= Bluxeng) pour séparer, dans un mélange, les parties plus légères de celles plus lourdes - Le fait de vanner.",
+      "en": "To use the winnowing basket (= Bluxeng) to separate, in a mixture, the lighter parts from the heavier ones - The act of winnowing.",
+      "zh": "使用簸箕（＝Bluxeng）在混合物中把較輕的部分與較重的部分分開－簸揚（篩穀）之事。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmbus",
+          "paradigm": "Tmbus, tbus, tbusi, tbusan, tbusun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ini k'la tmbus ka lqlaqe mbalax (mnbalax)",
+              "fr": "Les jeunes (de la nouvelle génération ne savent pas (se servir du van pour) vanner.",
+              "en": "Young people (of the new generation) do not know how to winnow (to use the winnowing basket for winnowing).",
+              "zh": "（新一代的）年輕人不會（用簸箕）簸揚。"
+            }
+          ]
+        },
+        {
+          "form": "Tnbusan",
+          "fr": "Objet, ou mode (dans le passé) du vanner.",
+          "en": "The object, or the manner (in the past) of winnowing.",
+          "zh": "簸揚的對象，或（過去的）方式。",
+          "examples": [
+            {
+              "t": "Tnbusan mo s'xiga ka payai gaga; nii ka ini mo tbusi",
+              "fr": "Je l'ai vanné hier ce paddy là, c'est celui-ci que je n'ai pas vanné.",
+              "en": "I winnowed that paddy yesterday; this is the one I did not winnow.",
+              "zh": "我昨天簸揚了那些稻穀；這一份是我沒簸揚的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TDIAL",
+      "tag": "",
+      "crossRef": "TDIYAL",
+      "fr": "Se battre - en venir aux mains - se faire prendre. Vr. TDIYAL.",
+      "en": "To fight - to come to blows - to get caught. See TDIYAL.",
+      "zh": "打架－動手打鬥－被抓。參 TDIYAL。",
+      "examples": [
+        {
+          "t": "Wana bi yako ka ini tdiyal wana daxa",
+          "fr": "Je suis vraiment le seul à ne pas me faire prendre à leurs pièges.",
+          "en": "I am truly the only one not to get caught in their traps.",
+          "zh": "我真的是唯一沒落入他們陷阱的人。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "TDILAS",
+      "tag": "(= R. ? - R. = DILAS ?)",
+      "fr": "Crier - Pleurer, parler à très haute voix.",
+      "en": "To shout - To cry, to speak in a very loud voice.",
+      "zh": "喊叫－哭喊、大聲說話。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmdilas",
+          "paradigm": "(Tmdilas (?)), Tdilas, tdlasi, tdlasan, tdlasun (?).",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": []
+        },
+        {
+          "form": "Mtdilas",
+          "fr": "Qui crie très fort - qui hurle.",
+          "en": "Who shouts very loudly - who howls.",
+          "zh": "大聲喊叫者－嚎叫者。",
+          "examples": [
+            {
+              "t": "Ga mtdilas bi lmingis pax mlubu ka laqe so",
+              "fr": "Ton enfant est en train de pleurer à chaudes larmes depuis ce matin.",
+              "en": "Your child has been crying his eyes out since this morning.",
+              "zh": "你的孩子從今天早上就一直在痛哭。"
+            },
+            {
+              "t": "Mtdilas (Tdilas (?)) bi msaang",
+              "fr": "Vociférer des menaces (vl.des reproches).",
+              "en": "To bawl out threats (var. reproaches).",
+              "zh": "大聲叫罵威脅（或：責備）。"
+            }
+          ]
+        },
+        {
+          "form": "Tdlasan",
+          "fr": "Cri - hurlement.",
+          "en": "Shout - howl.",
+          "zh": "喊叫－嚎叫。",
+          "examples": [
+            {
+              "t": "Ana mksipao ida bxangun daxa ka tdlasan so",
+              "fr": "Même ceux qui habitent sur la montagne en face doivent (peuvent) entendre tes cris!",
+              "en": "Even those who live on the mountain opposite must (can) hear your shouts!",
+              "zh": "連住在對面山上的人也一定（能）聽見你的喊叫！"
+            },
+            {
+              "t": "Ana mksipao ida bxangan daxa ka tdlasan (vl. Tndlasan) so",
+              "fr": "Même ceux qui habitent sur la montagne en face entendent (de fait) les cris que tu pousses (vl. que tu as poussés).",
+              "en": "Even those who live on the mountain opposite (actually) hear the shouts you let out (var. that you let out).",
+              "zh": "連住在對面山上的人也（確實）聽見你發出的喊叫（或：你發出過的喊叫）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TDIYAL",
+      "tag": "(R)",
+      "fr": "Se faire prendre - en venir aux mains - se battre.",
+      "en": "To get caught - to come to blows - to fight.",
+      "zh": "被抓－動手打鬥－打架。",
+      "examples": [
+        {
+          "t": "Ana mo psai wana o, ini bi tdiyal ka xeuling kia",
+          "fr": "J'ai beau tendre des pièges, ce chien là ne se fait (ne se laisse) pas prendre.",
+          "en": "No matter how many traps I set, that dog does not get (does not let itself be) caught.",
+          "zh": "不管我怎麼放陷阱，那隻狗就是抓不到（不肯落網）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmdiyal",
+          "paradigm": "Tmdiyal, tdiyal, Tdyali, tdyalan, tdyalun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Nasi namo tmdiyal o, na mpksaang balae ka dludan namo, kawai binao !",
+              "fr": "Si vous en venez aux mains (vl. si vous vous faites prendre), alors vos parents seront furieux, vous allez voir !",
+              "en": "If you come to blows (var. if you get caught), then your parents will be furious, you'll see!",
+              "zh": "如果你們動手打起來（或：如果你們被抓），你們的父母會很生氣，你們等著瞧！"
+            },
+            {
+              "t": "Tmdiyal ko wana mkdgiyaq ni, kia ka sknalox papaq mo da!",
+              "fr": "Je me suis fait prendre dans un piège en montagne et voilà ce qui a provoqué mon mal au pied.",
+              "en": "I got caught in a trap in the mountains and that is what caused my foot injury.",
+              "zh": "我在山上落入陷阱，這就是我腳受傷的原因。"
+            }
+          ]
+        },
+        {
+          "form": "Mtdiyal",
+          "fr": "Qui se bat - qui en vient aux mains - qui est pris.",
+          "en": "Who fights - who comes to blows - who is caught.",
+          "zh": "打架者－動手打鬥者－被抓者。",
+          "examples": [
+            {
+              "t": "Mntdiyal ko minax sinao tloma kika ini ko iyax n'xali",
+              "fr": "Je me suis laissé prendre à boire du vin là en bas c'est pourquoi j'ai tardé à venir.",
+              "en": "I let myself get drawn into drinking wine down there, that is why I was late in coming.",
+              "zh": "我在下面貪杯喝酒，所以才遲遲沒來。"
+            },
+            {
+              "t": "Sai nita adi mtdiyal daya ka boyaq xo",
+              "fr": "Va voir si le sanglier ne s'est pas fait prendre dans le piège là haut.",
+              "en": "Go see whether the wild boar hasn't got caught in the trap up there.",
+              "zh": "去看看那頭山豬是不是落入了上面的陷阱。"
+            }
+          ]
+        },
+        {
+          "form": "Tdyalan",
+          "fr": "Lieu, temps, circonstances de bataille, de capture - Bataille.",
+          "en": "Place, time, circumstances of a battle, of a capture - Battle.",
+          "zh": "戰鬥、捕獲的地點、時間、情況－戰役。",
+          "examples": []
+        },
+        {
+          "form": "Tndyalan",
+          "fr": "Guerre, bataille, capture (dans le passé).- Ce (celui) qui a été pris.",
+          "en": "War, battle, capture (in the past).- That (the one) which was taken.",
+          "zh": "戰爭、戰役、捕獲（過去）。－被擄獲的（人／物）。",
+          "examples": [
+            {
+              "t": "Mkyayong daya nii ka tndyalan daxa suxal",
+              "fr": "C'est ici plus haut, le long du torrent qu'ils se sont battus autrefois.",
+              "en": "It is here higher up, along the torrent, that they fought long ago.",
+              "zh": "就是在這上面、沿著溪流，他們從前在此打過仗。"
+            }
+          ]
+        },
+        {
+          "form": "Ttdiyal",
+          "fr": "Qui est bien pris.",
+          "en": "Which is well caught.",
+          "zh": "牢牢被抓住的。",
+          "examples": [
+            {
+              "t": "Tai ka xana daxa (d'xa) pnslxgan do, knliwa bi ksoloç ttdiyal (ttidyal) ni sao bi mpkatai ka slaxo da! =",
+              "fr": "",
+              "en": "",
+              "zh": ""
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

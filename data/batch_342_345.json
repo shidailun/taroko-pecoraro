@@ -1,0 +1,791 @@
+{
+  "pages": [342, 345],
+  "leadin": {
+    "fr": "Ils lui ont tous craché au visage.",
+    "en": "They all spat in his face.",
+    "zh": "他們全都朝他的臉吐了口水。",
+    "examples": [],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "TXMOQO",
+      "tag": "(R)",
+      "paradigm": "° Txmoqo, txmoqo, txmqoe, txmqoan, txmqoon.",
+      "fr": "Se prosterner - plier la tête - vénérer - saluer.",
+      "en": "To prostrate oneself - to bow the head - to venerate - to greet.",
+      "zh": "跪拜－低頭－敬仰－問候（行禮）。",
+      "examples": [
+        {
+          "t": "Manu bi ka yaxan so knan sayang ? ... Adi! Miyax nanak txmoqo sunan!",
+          "fr": "Qu'est-ce que veut bien dire ta venue chez moi aujourd'hui? ... Rien! Je venais simplement te saluer.",
+          "en": "What exactly does your coming to my house today mean? ... Nothing! I simply came to greet you.",
+          "zh": "你今天來我這裡到底是什麼意思？……沒什麼！我只是來向你問候而已。"
+        },
+        {
+          "t": "Txmoqo tityex! Bilaq bi ka uda!",
+          "fr": "Baisse un peu la tête (courbe toi un peu)! Le passage est petit!",
+          "en": "Lower your head a little (bend down a bit)! The passage is small!",
+          "zh": "頭低一點（彎一下腰）！通道很窄！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Txmqoan",
+          "fr": "Lieu, temps où l'on vénère - ce qu'on vénère.",
+          "en": "Place, time where one venerates - that which one venerates.",
+          "zh": "敬拜的地點、時間－所敬拜的對象。",
+          "examples": [
+            {
+              "t": "Balae bi pusu qouni nii ka txmqoan namo ?",
+              "fr": "Est-ce vraiment cet arbre que vous vénérez ?",
+              "en": "Is it really this tree that you venerate?",
+              "zh": "你們敬拜的真的是這棵樹嗎？"
+            },
+            {
+              "t": "Sapax txmqoan",
+              "fr": "Temple - oratoire - église (où l'on vénère)",
+              "en": "Temple - oratory - church (where one venerates)",
+              "zh": "廟宇－祈禱所－教堂（敬拜的場所）。"
+            }
+          ]
+        },
+        {
+          "form": "Txmqoon",
+          "fr": "Vénérable.",
+          "en": "Venerable.",
+          "zh": "可敬的；值得敬拜的。",
+          "examples": [
+            {
+              "t": "Balae bi txmqoon ka sadyaq kia",
+              "fr": "Il faut vraiment qu'on s'incline devant cette personne là !",
+              "en": "One really must bow before that person there!",
+              "zh": "真的必須向那個人行禮致敬！"
+            }
+          ]
+        },
+        {
+          "form": "Ptxmoqo",
+          "fr": "Faire baisser la tête - faire courber.",
+          "en": "To make (someone/something) lower the head - to make bend.",
+          "zh": "使低頭－使彎曲。",
+          "examples": [
+            {
+              "t": "Dyagi ko ptxmoqo sida qouni nii",
+              "fr": "Baisse moi un peu (aide moi à faire baisser) cette branche d'arbre.",
+              "en": "Lower this tree branch for me a little (help me to bend it down).",
+              "zh": "幫我把這根樹枝壓低一點（幫我使它彎下來）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "T'XNGAI",
+      "tag": "(R)",
+      "fr": "Plein - rempli.",
+      "en": "Full - filled.",
+      "zh": "滿－裝滿。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mt'xngai",
+          "fr": "Qui est plein, rempli.",
+          "en": "That which is full, filled.",
+          "zh": "滿的、裝滿的。",
+          "examples": [
+            {
+              "t": "Ga mt'xngai ka lubwi so da",
+              "fr": "Voilà que ton sac est plein.",
+              "en": "There now, your sack is full.",
+              "zh": "你的袋子已經滿了。"
+            },
+            {
+              "t": "Adi t'xngayun ka liwas so ?",
+              "fr": "Est-ce que ta jarre ne doit pas être pleine ?",
+              "en": "Shouldn't your jar be full?",
+              "zh": "你的甕不是應該裝滿嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Kt'xngai",
+          "fr": "Forme usitée pour la négation, l'impératif.",
+          "en": "Form used for the negative and the imperative.",
+          "zh": "用於否定與命令的形式。",
+          "examples": [
+            {
+              "t": "Mt'xngai ka L'pun so ? ... Ini kt'xngai sayang!",
+              "fr": "Ton grenier est-il rempli ? .... En ce moment il n'est pas plein.",
+              "en": "Is your granary full? .... At the moment it is not full.",
+              "zh": "你的穀倉裝滿了嗎？……目前還沒裝滿。"
+            }
+          ]
+        },
+        {
+          "form": "Pt'xngai",
+          "paradigm": "° Pt'xngai, pt'xngai, ptxngay, ptxngayan, ptxngayun.",
+          "fr": "Remplir ( PKT'XNGAI = faire en sorte que soit dans l'état de plein).",
+          "en": "To fill (PKT'XNGAI = to bring about that it be in a full state).",
+          "zh": "裝滿（PKT'XNGAI＝使其處於裝滿的狀態）。",
+          "examples": [
+            {
+              "t": "Ptxngayun mo kana ka spat blongoi so",
+              "fr": "Je veux les remplir toutes les quatre tes hottes.",
+              "en": "I want to fill all four of your carrying-baskets.",
+              "zh": "我想把你那四個背簍全都裝滿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TXOULANG",
+      "tag": "(R. = ??)",
+      "fr": "(nb. Ce terme semble bien être dérivé du chinois du Foukien: T'eou = tête; Lang = homme; = Homme de tête = chef. Il en est sans doute de même pour le terme TEUMUK que les japonais ont sans doute introduit pour désigner le responsable, le chef, le roitelet, et qui dérive (?) du terme chinois composé: T'eou = tête, et: muk = oeil; = tête-oeil = Responsable) = Autorités - les chefs - les fonctionnaires.",
+      "en": "(n.b. This term seems indeed to be derived from Fukien Chinese: T'eou = head; Lang = man; = head-man = chief. The same is doubtless true of the term TEUMUK, which the Japanese doubtless introduced to designate the person in charge, the chief, the petty king, and which derives (?) from the compound Chinese term: T'eou = head, and: muk = eye; = head-eye = the one in charge) = Authorities - the chiefs - the officials.",
+      "zh": "（註：此詞似確實源自福建話：T'eou＝頭；Lang＝人；＝頭人＝首領。TEUMUK 一詞想必也是如此，此詞應是由日本人引入，用以指稱負責人、首領、小頭目，並且（？）源自漢語複合詞：T'eou＝頭，muk＝目；＝頭目＝負責人）＝當局－首領們－官員們。",
+      "examples": [
+        {
+          "t": "Ma so txoulang!",
+          "fr": "Comme si c'était toi le chef !",
+          "en": "As if you were the chief!",
+          "zh": "好像你是首領一樣！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Txlangan",
+          "fr": "Forme oblique de d°.",
+          "en": "Oblique form of the same word.",
+          "zh": "同上詞的斜格形式。",
+          "examples": [
+            {
+              "t": "Lngagi bi txlangan",
+              "fr": "Dis le bien au chef, au responsable (vl. Parle en clairement au chef).",
+              "en": "Tell it clearly to the chief, to the person in charge (var. Speak clearly to the chief).",
+              "zh": "好好地告訴首領、負責人（或：清楚地向首領說明）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpatxoulang",
+          "fr": "Deviendra une autorité, un supérieur.",
+          "en": "Will become an authority, a superior.",
+          "zh": "將成為當權者、上位者。",
+          "examples": []
+        },
+        {
+          "form": "Stxoulang",
+          "fr": "Prétentieux - pour faire le chef, le supérieur.",
+          "en": "Pretentious - one who plays the chief, the superior.",
+          "zh": "自負的－裝作首領、上司的樣子。",
+          "examples": [
+            {
+              "t": "Xmut so mstxoulang ka iso",
+              "fr": "Toi tu n'es qu'un prétentieux (fais ton malin).",
+              "en": "You are nothing but a pretentious fellow (playing clever).",
+              "zh": "你只不過是個自負的人（愛逞能）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TYAPAN",
+      "tag": "(= R. ? )",
+      "fr": "Pot en terre - récipient pour liquides.",
+      "en": "Earthenware pot - container for liquids.",
+      "zh": "陶土鍋－盛裝液體的容器。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TYAQONG",
+      "tag": "(= R.?)",
+      "fr": "Faisan.",
+      "en": "Pheasant.",
+      "zh": "雉雞（山雞）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "TYEX",
+      "tag": "(= R. ?)",
+      "fr": "Un peu. (nb. Rencontré exclusivement dans les trois expressions qui suivent).",
+      "en": "A little. (n.b. Encountered exclusively in the three expressions that follow).",
+      "zh": "一點點。（註：僅見於以下三個表達方式中。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "A tyex (Atyex ?)",
+          "fr": "S'en falloir de peu.",
+          "en": "To come within a hair's breadth (to fall short by little).",
+          "zh": "差一點；險些。",
+          "examples": [
+            {
+              "t": "A tyex ko mxoqel siida (vl. a tyex ko xoqel siida)",
+              "fr": "J'ai bien failli mourir à ce moment là !",
+              "en": "I very nearly died at that moment!",
+              "zh": "我那時候差點就死了！"
+            }
+          ]
+        },
+        {
+          "form": "I tyex (Ityex ?)",
+          "fr": "Donne n'en un peu.",
+          "en": "Give a little of it.",
+          "zh": "給一點吧。",
+          "examples": [
+            {
+              "t": "I tyex pila so xo ?",
+              "fr": "Voudrais tu me donner un peu de ton argent, s'il te plaît ?",
+              "en": "Would you kindly give me a little of your money, please?",
+              "zh": "可以請你給我一點你的錢嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Tityex (Ti tyex ?)",
+          "fr": "Un petit peu.",
+          "en": "A tiny little bit.",
+          "zh": "一丁點。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "TYUSUN",
+      "tag": "(R. = ?? (TIYUS ??)",
+      "fr": "Rôtir - frire. (dans la forme nominale-futur)",
+      "en": "To roast - to fry. (in the nominal-future form)",
+      "zh": "烤－煎（炸）。（用於名詞化未來式）",
+      "examples": [
+        {
+          "t": "Xoya mo ksun ? Xpuyun mo xo ? Tyusun mo xo ka samat so ?",
+          "fr": "Que dois-je faire ? Ton gibier, dois-je le cuire (à l'eau)? Le rôtir ?",
+          "en": "What should I do? Your game, should I cook it (in water)? Roast it?",
+          "zh": "我該怎麼做？你的獵物，我該（用水）煮嗎？還是用烤的？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "UA",
+      "tag": "(R)",
+      "fr": "(nb. Les BLIBAO, cousins des TAROKO, dans le même sens, disent : WEWA ). = Fille - vierge - femme non mariée.",
+      "en": "(n.b. The BLIBAO, cousins of the TAROKO, say WEWA in the same sense). = Girl - virgin - unmarried woman.",
+      "zh": "（註：太魯閣人的親族 BLIBAO 人，以相同意義說 WEWA。）＝女孩－處女－未婚女子。",
+      "examples": [
+        {
+          "t": "Lisao ni ua",
+          "fr": "Garçons et filles.",
+          "en": "Boys and girls.",
+          "zh": "男孩與女孩。"
+        },
+        {
+          "t": "Malu bi txeyan ka ua nii",
+          "fr": "Il fait vraiment bon en compagnie de cette jeune fille.",
+          "en": "It is really pleasant in the company of this young girl.",
+          "zh": "和這位少女作伴真是愉快。"
+        },
+        {
+          "t": "Yamo dlisao ni d'ua o, yaxe bi kana saman",
+          "fr": "Vous autres le groupe des garçons et filles, il faut absolument que vous veniez tous demain !",
+          "en": "You there, the group of boys and girls, you absolutely must all come tomorrow!",
+          "zh": "你們這群男孩女孩，明天你們一定都要來！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ma'ua",
+          "fr": "Deviendra, va devenir jeune fille.",
+          "en": "Will become, is going to become a young girl.",
+          "zh": "將會成為少女。",
+          "examples": [
+            {
+              "t": "Adi biyao ma'ua ka laqe so",
+              "fr": "Avant peu ton enfant va devenir jeune fille!",
+              "en": "Before long your child will become a young girl!",
+              "zh": "你的孩子不久就會長成少女了！"
+            }
+          ]
+        },
+        {
+          "form": "Kn'ua",
+          "fr": "Intensité de l'état de jeune fille, de vièrge, de non mariée.",
+          "en": "The intensity of the state of being a young girl, a virgin, an unmarried woman.",
+          "zh": "少女、處女、未婚狀態的程度。",
+          "examples": [
+            {
+              "t": "Msklui ko nita kn'ua so bi da ka sayang",
+              "fr": "Je suis tout surpris de voir combien (comme) tu es aujourd'hui une jeune fille !",
+              "en": "I am quite surprised to see how much (how) you are a young girl today!",
+              "zh": "我很驚訝，看到你如今竟已是個大姑娘了！"
+            }
+          ]
+        },
+        {
+          "form": "Kn'uaan (Knwuaan)",
+          "fr": "L'état, la qualité de vièrge, de jeunesse - Virginité.",
+          "en": "The state, the quality of being a virgin, of youth - Virginity.",
+          "zh": "處女、青春的狀態與特質－貞潔（處女之身）。",
+          "examples": [
+            {
+              "t": "Ya bi slyeqe ka kn'uaan so",
+              "fr": "Ne gaspille pas ta virginité ( ta jeunesse).",
+              "en": "Do not squander your virginity (your youth).",
+              "zh": "不要浪費你的貞潔（你的青春）。"
+            },
+            {
+              "t": "Ini ko dui ana manu; wana kn'uaan mo",
+              "fr": "Moi, je ne possède rien (d'autre que) seulement ma virginité (ma jeunesse).",
+              "en": "As for me, I possess nothing (other than) only my virginity (my youth).",
+              "zh": "我一無所有，只有我的貞潔（我的青春）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "UBAL",
+      "tag": "(R)",
+      "fr": "Poil (en général).",
+      "en": "Body hair (in general).",
+      "zh": "毛（泛指）。",
+      "examples": [
+        {
+          "t": "Ubal tunuç",
+          "fr": "Poils de la tête = cheveux",
+          "en": "Hairs of the head = hair (of the head)",
+          "zh": "頭上的毛＝頭髮。"
+        },
+        {
+          "t": "Ubal snunux",
+          "fr": "Cheveux",
+          "en": "Hair (of the head)",
+          "zh": "頭髮。"
+        },
+        {
+          "t": "Ubal longai",
+          "fr": "Poils de singe = duvet ( qui est sur tout le corps)",
+          "en": "Monkey hair = down (which is over the whole body)",
+          "zh": "猴毛＝汗毛（遍布全身的細毛）。"
+        },
+        {
+          "t": "Ubal daolyaq",
+          "fr": "Cils, sourcils (poils des yeux)",
+          "en": "Eyelashes, eyebrows (hairs of the eyes)",
+          "zh": "睫毛、眉毛（眼睛的毛）。"
+        },
+        {
+          "t": "Ubal milit",
+          "fr": "Poils de chèvre (Laine ? = inconnue autrefois)",
+          "en": "Goat hair (Wool? = unknown in former times)",
+          "zh": "山羊毛（羊毛？＝以前不為人所知）。"
+        },
+        {
+          "t": "Ubal kating",
+          "fr": "Crin.(Le système pileux des taroko est pauvre).",
+          "en": "Horsehair / bristle. (The Taroko's system of hair terms is poor.)",
+          "zh": "馬鬃（鬃毛）。（太魯閣人的毛髮詞彙系統貧乏。）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "UDA",
+      "tag": "(R)",
+      "fr": "Passage - accès - le fait de passer.",
+      "en": "Passage - access - the act of passing.",
+      "zh": "通道－通行－經過（通過的行為）。",
+      "examples": [
+        {
+          "t": "Nyeqan uda betak sapax so ka sayang xo ?",
+          "fr": "Est-ce qu'en ce moment il-y-a un passage, une route, pour aller chez toi ?",
+          "en": "Is there at the moment a passage, a road, to go to your house?",
+          "zh": "現在有沒有通道、道路可以去你家？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Muda",
+          "paradigm": "° Muda, uda, dai, daan, daon.",
+          "fr": "Passer par.",
+          "en": "To pass by / through.",
+          "zh": "經過；通過。",
+          "examples": [
+            {
+              "t": "Muda so ino uusa so sipao ?",
+              "fr": "Par où passes tu pour aller de l'autre côté ?",
+              "en": "By which way do you pass to go to the other side?",
+              "zh": "你從哪裡經過到對岸去？"
+            },
+            {
+              "t": "Adi so muda sapax mo ?",
+              "fr": "Tu ne passes pas )faire un tour) chez moi ?",
+              "en": "Won't you pass by (drop in) at my house?",
+              "zh": "你不順道來我家（繞一下）嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Dai",
+          "fr": "Passer par, réaliser, faire (forme impérative).",
+          "en": "To pass by, to carry out, to do (imperative form).",
+          "zh": "經過、實行、做（命令形式）。",
+          "examples": [
+            {
+              "t": "Dai bi alang so xeni sao ana manu bnxangan nami ndaan so isil alang",
+              "fr": "Fais donc ici Chez toi tout ce que nous avons entendu dire que tu as fait ailleurs.",
+              "en": "Do here, at your own home, everything that we have heard you did elsewhere.",
+              "zh": "那就在你家這裡做出所有我們聽說你在別處做過的事吧。"
+            }
+          ]
+        },
+        {
+          "form": "Daan",
+          "fr": "Lieu, temps, manière de passer, de voyager ( déjà réalisé).",
+          "en": "Place, time, manner of passing, of travelling (already realized).",
+          "zh": "經過、旅行的地點、時間、方式（已實現）。",
+          "examples": [
+            {
+              "t": "Malu bi daan ka \"lu sapax so",
+              "fr": "La route qui va chez toi est très facile.",
+              "en": "The road that goes to your house is very easy.",
+              "zh": "通往你家的路很好走。"
+            }
+          ]
+        },
+        {
+          "form": "Ndaan",
+          "fr": "Le passé - ce qui a été vécu - lieu, temps par où l'on est passé.",
+          "en": "The past - that which has been lived through - place, time through which one has passed.",
+          "zh": "過去－所經歷的一切－經過的地點、時間。",
+          "examples": [
+            {
+              "t": "Lnglong bi ndaan d'xa suxal !",
+              "fr": "Pense bien à tout ce qu'ils ont vécu, (par où ils sont passés )!autrefois.",
+              "en": "Think carefully about all that they lived through, (where they passed) in the old days.",
+              "zh": "好好想想他們昔日所經歷的一切（他們走過的路）！"
+            },
+            {
+              "t": "Ana mo si lnglongi ka ndaan mo o, ongat bi ka naqex!",
+              "fr": "J'ai beau réflechir à tout mon passé, je n'y trouve rien (il n'y a rien) de mauvais (de mal).",
+              "en": "However much I reflect on all my past, I find nothing bad (there is nothing) wicked in it.",
+              "zh": "無論我怎麼回想我的過去，都找不到任何不好（邪惡）的事。"
+            }
+          ]
+        },
+        {
+          "form": "Ddaon",
+          "fr": "Les choses, le travail à faire - le futur.",
+          "en": "The things, the work to be done - the future.",
+          "zh": "該做的事、工作－未來。",
+          "examples": [
+            {
+              "t": "Mxa so ino ? ... nyeqan nanak ddaon mo!",
+              "fr": "Où vas tu ? ... J'ai mes propres buts (affaires à réaliser).",
+              "en": "Where are you going? ... I have my own goals (matters to accomplish).",
+              "zh": "你要去哪裡？……我有我自己的目標（要辦的事）。"
+            }
+          ]
+        },
+        {
+          "form": "P'uda",
+          "fr": "Faire passer par. (nb. C'est ce terme P'UDA que les Taroko emploient pour désigner la victime dans la liturgie du SMAPOX ou du XMADOL; il peut signifier l'intermédiaire par lequel on passe pour le sacrifice).",
+          "en": "To make (something) pass by / through. (n.b. It is this term P'UDA that the Taroko use to designate the victim in the liturgy of the SMAPOX or of the XMADOL; it can signify the intermediary through which one passes for the sacrifice).",
+          "zh": "使…經過；透過…而行。（註：太魯閣人正是用 P'UDA 這個詞來指稱 SMAPOX 或 XMADOL 祭儀中的犧牲；它可指獻祭時所經由的中介。）",
+          "examples": [
+            {
+              "t": "P'uda kari",
+              "fr": "Commander (= Faire passer par la parole ?).",
+              "en": "To command (= to make pass by the word?).",
+              "zh": "命令（＝透過話語傳達？）。"
+            },
+            {
+              "t": "P'uda xangan tama",
+              "fr": "Se recommander du papa (= passer par le nom du père - au nom du père).",
+              "en": "To invoke the father (= to pass by the father's name - in the father's name).",
+              "zh": "藉父之名（＝透過父親的名字－以父之名）。"
+            }
+          ]
+        },
+        {
+          "form": "Mp'uda",
+          "fr": "Etre celui qui agit par l'intermédiaire de..au nom de.. par l'autorité de.",
+          "en": "To be the one who acts through the intermediary of.. in the name of.. by the authority of.",
+          "zh": "作為透過…之中介、以…之名、憑…之權柄而行事的人。",
+          "examples": [
+            {
+              "t": "Mp'uda ko xangan tama..dmulun",
+              "fr": "Je demande..au nom du père ( Je passe par le nom du père..et demande (pour demander, pour te prier..).",
+              "en": "I ask.. in the name of the father (I pass by the father's name.. and ask (to ask, to pray to you..)).",
+              "zh": "我以父之名祈求……（我藉父親的名字……而祈求（為了祈求、為了向你祈禱……））。"
+            }
+          ]
+        },
+        {
+          "form": "Mntnuda",
+          "fr": "Passant - celui qui est de passage - pélerin - voyageur.",
+          "en": "Passer-by - one who is passing through - pilgrim - traveller.",
+          "zh": "過路人－路過者－朝聖者－旅人。",
+          "examples": []
+        },
+        {
+          "form": "Uuda",
+          "fr": "Pour passer par - pour être passage.",
+          "en": "For passing by - to serve as a passage.",
+          "zh": "用以通行的－作為通道的。",
+          "examples": [
+            {
+              "t": "Xeaon so ka xakao?... Uuda mo yayong dd'xok sipao",
+              "fr": "Que veux tu en faire du pont? ... Pour passer le torrent et arriver en face !",
+              "en": "What do you want to do with the bridge? ... To cross the torrent and reach the far side!",
+              "zh": "你要那座橋做什麼？……用來過激流、抵達對岸！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "MUDA",
+      "tag": "(R. = UDA ?)",
+      "fr": "Rhume - refroidissement - grippe. ( Ce terme MUDA , de plus en plus réservé à l'identification du rhume, semble bien signifier d'abord une épidémie, une vague de maladie qui passe).",
+      "en": "Cold - chill - flu. (This term MUDA, more and more reserved for identifying the common cold, seems indeed to signify first of all an epidemic, a wave of disease that passes by.)",
+      "zh": "感冒－著涼－流行性感冒。（MUDA 這個詞越來越專用於指稱感冒，但它似乎原本是指一場流行病、一波經過的疫病。）",
+      "examples": [
+        {
+          "t": "Mnalox muda ka Iwal",
+          "fr": "Iwal est grippée.",
+          "en": "Iwal has the flu.",
+          "zh": "Iwal 得了流感（感冒）了。"
+        },
+        {
+          "t": "Adi manu ka sknalox tunuç so: Muda nanak",
+          "fr": "Ce n'est rien d'autre que la grippe qui te fait mal à la tête.",
+          "en": "It is nothing other than the flu that makes your head hurt.",
+          "zh": "讓你頭痛的不過就是感冒罷了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "UDUS",
+      "tag": "(= R. ??)",
+      "crossRef": "KUDUS",
+      "fr": "Cette réalisation: UDUS n'a été rencontré que dans l'expression: Akai udus! = (à peu près!) Chienne de vie! Cette forme semble donc bien Racine, mais c'est au mot: KUDUS qu'ont été portés, indûment un certain nombre de formes dérivées! Vr. KUDUS .",
+      "en": "This realization, UDUS, has been encountered only in the expression: Akai udus! = (roughly!) What a dog's life! This form thus does seem indeed to be a Root, but it is to the word KUDUS that a certain number of derived forms have been (improperly) attached! See KUDUS.",
+      "zh": "此實現形式 UDUS 僅見於這個表達：Akai udus！＝（大致意為！）真是狗一般的命！因此這個形式看來確實是詞根，但有若干派生形式卻（不恰當地）被歸到 KUDUS 這個詞之下！參見 KUDUS。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "UIN",
+      "tag": "(R)",
+      "fr": "Un (dans une série).",
+      "en": "One (in a series / in counting).",
+      "zh": "一（用於數列、計數之中）。",
+      "examples": [
+        {
+          "t": "Uin, daxa, t'lo, spat..",
+          "fr": "Un, deux, trois.. quatre. (nb. Ce terme n'est employé que par les anciens; Les jeunes le remplacent par KINGAL qui désigne l'unité.).",
+          "en": "One, two, three.. four. (n.b. This term is used only by the elders; the young replace it with KINGAL, which denotes the unit 'one'.)",
+          "zh": "一、二、三……四。（註：此詞僅由老人使用；年輕人以表示「一」的 KINGAL 取代之。）"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "UKWI",
+      "tag": "( = R. de tous les dérivés placés sous le terme BUKUI ?)",
+      "crossRef": "BUKUI",
+      "fr": "(jamais rencontré seul, peut donner les dérivés: MUKWI, BNKIYAN, KMBKIYAN, KBUKWI.) Vr. BUKUI .",
+      "en": "(Root of all the derivatives placed under the term BUKUI?) (never encountered alone; can give the derivatives: MUKWI, BNKIYAN, KMBKIYAN, KBUKWI.) See BUKUI.",
+      "zh": "（BUKUI 詞條下所有派生形式的詞根？）（從未單獨出現；可衍生出：MUKWI、BNKIYAN、KMBKIYAN、KBUKWI。）參見 BUKUI。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "ULAE",
+      "tag": "(R)",
+      "fr": "Sources chaudes (très nombreuses dans la partie Est de Formose).",
+      "en": "Hot springs (very numerous in the eastern part of Formosa).",
+      "zh": "溫泉（在福爾摩沙東部非常多）。",
+      "examples": [
+        {
+          "t": "Nta Ulae da! Adi kiaka mxa skmalu kmnalox so xo ?",
+          "fr": "Allons aux sources chaudes! Peut être que c'est celà qui va guérir ta maladie ?",
+          "en": "Let's go to the hot springs! Perhaps that is what will cure your illness?",
+          "zh": "我們去泡溫泉吧！說不定那就是能治好你病的東西呢？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ULAE",
+      "tag": "(R)",
+      "fr": "Faim.",
+      "en": "Hunger.",
+      "zh": "飢餓。",
+      "examples": [
+        {
+          "t": "Akai ulae!",
+          "fr": "Oh la! Ce que j'ai faim !",
+          "en": "Oh my! How hungry I am!",
+          "zh": "哎呀！我好餓啊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'ulae (mulae)",
+          "fr": "Avoir faim - qui a faim - qui est affamé.",
+          "en": "To be hungry - who is hungry - who is famished.",
+          "zh": "肚子餓－飢餓的－挨餓的。",
+          "examples": [
+            {
+              "t": "Mxa ko mkan n'xali! Mulae ko bi da!",
+              "fr": "Je vais vite manger! J'ai vraiment faim!",
+              "en": "I'm going to eat quickly! I'm really hungry!",
+              "zh": "我要趕快吃！我真的好餓！"
+            }
+          ]
+        },
+        {
+          "form": "Kulae (K'ulae ?)",
+          "fr": "Forme usitée pour le négatif. (nb. KULAE , qui est employé pour désigner une vieille truie amaigrie par de nombreuses portées, viendrait-il de cette même R. ULAE ?)",
+          "en": "Form used for the negative. (n.b. KULAE, which is used to designate an old sow emaciated by numerous litters, might it come from this same Root ULAE?)",
+          "zh": "用於否定的形式。（註：KULAE 用來指稱因多次生產而消瘦的老母豬，它是否也源自同一詞根 ULAE 呢？）",
+          "examples": [
+            {
+              "t": "Ini ko kulae ka yako",
+              "fr": "Moi, je ne suis pas affamé. (vl. je n'ai pas faim).",
+              "en": "As for me, I am not famished. (var. I am not hungry).",
+              "zh": "我，我並不挨餓。（或：我不餓。）"
+            }
+          ]
+        },
+        {
+          "form": "Pk'ulae",
+          "fr": "Affamer.",
+          "en": "To starve (someone).",
+          "zh": "使挨餓；使某人挨餓。",
+          "examples": [
+            {
+              "t": "Ma so lnglong pk'ulae knan da!",
+              "fr": "Alors, on dirait que tu as l'intention de m'affamer !",
+              "en": "Well then, it seems you intend to starve me!",
+              "zh": "這樣看來，你是打算餓死我啊！"
+            }
+          ]
+        },
+        {
+          "form": "K'layan (Kalayan ?)",
+          "fr": "Famine - faim subie.",
+          "en": "Famine - hunger endured.",
+          "zh": "饑荒－所承受的飢餓。",
+          "examples": [
+            {
+              "t": "Paro bi k'layan alang nami ka skawas",
+              "fr": "L'an passé c'était chez nous grande famine !",
+              "en": "Last year there was great famine among us!",
+              "zh": "去年我們部落發生了大饑荒！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ULANG",
+      "tag": "(R)",
+      "fr": "Qui se répète (?) - Périodique (?) - Habituel (?).",
+      "en": "That which recurs (?) - Periodic (?) - Habitual (?).",
+      "zh": "反覆發生的（？）－週期性的（？）－慣常的（？）。",
+      "examples": [
+        {
+          "t": "Ulang mnalox",
+          "fr": "Maladie cyclique - maladie incurable - infirmité.",
+          "en": "Cyclical illness - incurable illness - infirmity.",
+          "zh": "週期性疾病－不治之症－殘疾。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "ULAT",
+      "tag": "(R)",
+      "fr": "Muscles - nerfs - veines - artères.",
+      "en": "Muscles - nerves/sinews - veins - arteries.",
+      "zh": "肌肉－神經（筋）－靜脈－動脈。",
+      "examples": [
+        {
+          "t": "Ulat kana ka xei boyaq nii",
+          "fr": "Cette viande de sanglier n'est que du nerf!",
+          "en": "This wild-boar meat is nothing but sinew!",
+          "zh": "這塊山豬肉全都是筋！"
+        },
+        {
+          "t": "Ulat dala",
+          "fr": "Veines.",
+          "en": "Veins (blood vessels).",
+          "zh": "靜脈（血管）。"
+        },
+        {
+          "t": "Ulat kating",
+          "fr": "Nerf de boeuf.",
+          "en": "Ox sinew (bull's pizzle).",
+          "zh": "牛筋。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'ulat",
+          "fr": "Crampe.",
+          "en": "Cramp.",
+          "zh": "抽筋；痙攣。",
+          "examples": [
+            {
+              "t": "Naqex bi ka n'ulat papaq pida muda ta daolas siida !",
+              "fr": "C'est très dangereux d'attraper une crampe quand on grimpe dans les rochers !",
+              "en": "It is very dangerous to get a cramp when one is climbing among the rocks!",
+              "zh": "攀爬岩石時抽筋是非常危險的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ULUS",
+      "tag": "(R)",
+      "crossRef": "KLUULUS",
+      "fr": "Disperser - épandre - répandre. ( C'est sans doute la R. de KL'ULUS (=disperser) et de ses dérivés !). Vr. KLUULUS",
+      "en": "To scatter - to spread - to strew. (This is doubtless the Root of KL'ULUS (= to scatter) and of its derivatives!). See KLUULUS.",
+      "zh": "散播－撒開－播撒。（這無疑是 KL'ULUS（＝散播）及其派生形式的詞根！）參見 KLUULUS。",
+      "examples": [
+        {
+          "t": "Ini so ulus sapox slaq ka iso?",
+          "fr": "Tu ne vas pas semer des engrais dans ta rizière, toi ?",
+          "en": "You're not going to spread fertilizer in your rice paddy, then?",
+          "zh": "你不打算在你的水田裡撒肥料嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mulus (M'ulus ?)",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上詞的動詞形式。",
+          "examples": [
+            {
+              "t": "Kia do, xtiyan na mulus kska sapax ka pila ni, qdolyaq, mnsa tbsqol da!",
+              "fr": "Puis, après avoir jeté (répandu) son argent au milieu de la maison, il se sauva et se pendit.",
+              "en": "Then, after having thrown (scattered) his money in the middle of the house, he fled and hanged himself.",
+              "zh": "然後，他把錢撒在屋子中央之後，就逃走並上吊自盡了。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

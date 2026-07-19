@@ -1,0 +1,731 @@
+{
+  "pages": [234, 237],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "QADI",
+      "tag": "(R)",
+      "fr": "Treillis - ce qui est tressé, tissé.",
+      "en": "Trellis - that which is plaited, woven.",
+      "zh": "格子架、編織物－編紮、編織而成之物。",
+      "examples": [
+        {
+          "t": "Qadi klobao",
+          "fr": "Toile d'araignée.",
+          "en": "Spider's web.",
+          "zh": "蜘蛛網。"
+        },
+        {
+          "t": "Qadi paqao",
+          "fr": "Couronne d'épines.",
+          "en": "Crown of thorns.",
+          "zh": "荊棘冠冕。"
+        },
+        {
+          "t": "Qnadi paqao",
+          "fr": "Tressé avec des épines, des ronces (vl.des ronces tressées).",
+          "en": "Plaited with thorns, with brambles (var. plaited brambles).",
+          "zh": "以荊棘、藤蔓編紮而成（或：編紮的藤蔓）。"
+        }
+      ]
+    },
+    {
+      "hw": "QAGOX",
+      "tag": "(R)",
+      "fr": "Gratter.",
+      "en": "To scratch.",
+      "zh": "抓、搔。",
+      "examples": [
+        {
+          "t": "Ini so qagox do, adi biyo npamalu ka loqex so da",
+          "fr": "Si tu ne grattes pas, ta plaie sera vite guérie.",
+          "en": "If you do not scratch, your wound will heal quickly.",
+          "zh": "你若不去抓，你的傷口很快就會痊癒。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qmagox",
+          "paradigm": "°Qmagox, qagox, qgoxe, qgoxan, qgoxon.",
+          "fr": "Gratter.",
+          "en": "To scratch.",
+          "zh": "抓、搔。",
+          "examples": [
+            {
+              "t": "Balae bi uxai qgoxon ka loqex papaq so",
+              "fr": "Sincèrement il ne te faut pas gratter les croûtes de ton pied ! (vl. les plaies, les blessures de tes pieds).",
+              "en": "Truly you must not scratch the scabs on your foot! (var. the sores, the wounds on your feet).",
+              "zh": "你真的不該去抓腳上的痂！（或：你腳上的瘡、傷口）。"
+            }
+          ]
+        },
+        {
+          "form": "Qgoxan",
+          "fr": "Action de gratter - temps, lieu où l'on gratte.",
+          "en": "The act of scratching - the time, the place where one scratches.",
+          "zh": "抓搔之動作－抓搔的時間、地點。",
+          "examples": [
+            {
+              "t": "Mlana mnalaq ka baga na, ya sa qgoxan na kddiyax",
+              "fr": "Sa main s'infecte de plus en plus! Cela se comprend puisqu'il n'arrête pas de se gratter !",
+              "en": "His hand is getting more and more infected! That is understandable since he never stops scratching it!",
+              "zh": "他的手越來越感染了！這也難怪，因為他不停地去抓！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALANG",
+      "tag": "(R)",
+      "fr": "Crabe.",
+      "en": "Crab.",
+      "zh": "螃蟹。",
+      "examples": [
+        {
+          "t": "Qalang ubal",
+          "fr": "Crabe velu (?) =une variété de crabes.",
+          "en": "Hairy crab (?) = a variety of crab.",
+          "zh": "毛蟹（?）＝一種螃蟹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqalang",
+          "fr": "A la manière du crabe - marcher comme un crabe - ramper.",
+          "en": "In the manner of a crab - to walk like a crab - to crawl.",
+          "zh": "像螃蟹一樣－像螃蟹般行走－爬行。",
+          "examples": [
+            {
+              "t": "T'lo xnkawas na sayang ka laqe mo ni ida mqqalang nksa",
+              "fr": "Mon enfant a trois ans maintenant et il marche encore comme un crabe (=il marche à quatre pattes).",
+              "en": "My child is three years old now and he still walks like a crab (= he goes on all fours).",
+              "zh": "我的孩子現在三歲了，他還像螃蟹一樣爬（＝他用四肢爬行）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALAO",
+      "tag": "(Kmalao ?) (R)",
+      "fr": "Purifier - mettre en ordre - ranger.",
+      "en": "To purify - to put in order - to tidy.",
+      "zh": "潔淨、整理、收拾。",
+      "subs": [
+        {
+          "form": "Qmalao",
+          "paradigm": "°Qmalao, qalao, qlagi, qlagan, qlagun.",
+          "fr": "Purifier - justifier - mettre en ordre.",
+          "en": "To purify - to justify - to put in order.",
+          "zh": "潔淨、使正當、整理。",
+          "examples": [
+            {
+              "t": "Qmalao so sapax so o, malu ka kia ni, Ksaxol so kika balae bi qlagun",
+              "fr": "Tu mets en ordre ta maison (tu fais le ménage dans ta maison), c'est bien mais, ton coeur, voilà ce qu'il faut vraiment mettre en ordre (purifier).",
+              "en": "You put your house in order (you do the housework in your home), that is good, but your heart, that is what truly needs to be put in order (purified).",
+              "zh": "你整理你的房子（你打掃你的家），這很好，但你的心，才是真正需要整理（潔淨）的。"
+            }
+          ]
+        },
+        {
+          "form": "Qlagan",
+          "fr": "Ce qui a été purifié, mis en ordre.",
+          "en": "That which has been purified, put in order.",
+          "zh": "已被潔淨、整理之物。",
+          "examples": [
+            {
+              "t": "Mxdo nami qlagan ka kksaxol nami da",
+              "fr": "Nous avons complètement purifié nos coeurs.",
+              "en": "We have completely purified our hearts.",
+              "zh": "我們已經完全潔淨了我們的心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALAS",
+      "tag": "(R)",
+      "fr": "Joie - se réjouir.",
+      "en": "Joy - to rejoice.",
+      "zh": "喜樂、歡喜。",
+      "examples": [
+        {
+          "t": "Tayal bi qalas daxa!",
+          "fr": "C'est fantastique (de voir) leur joie (vl.Comme ils sont contents !).",
+          "en": "It is wonderful (to see) their joy (var. How happy they are!).",
+          "zh": "（看見）他們的喜樂真是太美好了！（或：他們多麼高興啊！）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqalas",
+          "paradigm": "°Mqalas, qalas, qlasi, qlasan, qlasun.",
+          "fr": "Se réjouir - être heureux.",
+          "en": "To rejoice - to be happy.",
+          "zh": "歡喜、快樂。",
+          "examples": [
+            {
+              "t": "Babao ktiyan payai o, ida mqalas kana nita oqon da",
+              "fr": "Après la récolte c'est tout le monde qui se réjouit de voir (qu'il y a) de la nourriture.",
+              "en": "After the harvest everyone rejoices to see that there is food.",
+              "zh": "收成之後，大家看見（有）食物都很歡喜。"
+            },
+            {
+              "t": "Ima ka ini qalas mita sao nii kndoaan laqe?",
+              "fr": "Qui est-ce qui ne réjouirait pas en voyant des enfants si bien !(si obeissants, si studieux).",
+              "en": "Who would not rejoice at seeing children so good! (so obedient, so studious).",
+              "zh": "看見這麼乖的孩子，誰會不歡喜呢！（這麼聽話、這麼用功）。"
+            }
+          ]
+        },
+        {
+          "form": "Qlasan",
+          "fr": "Joie - bonheur - circonstances du bonheur, de la joie.",
+          "en": "Joy - happiness - the circumstances of happiness, of joy.",
+          "zh": "喜樂、幸福－幸福、喜樂的情境。",
+          "examples": [
+            {
+              "t": "Adi xmut ka qlasan namo sayang da",
+              "fr": "Elle n'est pas ordinaire votre joie aujourd'hui.",
+              "en": "Your joy today is not ordinary.",
+              "zh": "你們今天的喜樂非比尋常。"
+            },
+            {
+              "t": "Qlasan diyax daxa ka sayang",
+              "fr": "Aujourd'hui c'est leur jour de joie (leur jour de fête).",
+              "en": "Today is their day of joy (their day of celebration).",
+              "zh": "今天是他們喜樂的日子（他們慶祝的日子）。"
+            }
+          ]
+        },
+        {
+          "form": "Qlasun",
+          "fr": "Objet, source de joie (futur).",
+          "en": "Object, source of joy (future).",
+          "zh": "喜樂的對象、來源（未來式）。",
+          "examples": [
+            {
+              "t": "Qlasun daxa balae ka Aput",
+              "fr": "Ils aiment énormément Apoutz.",
+              "en": "They love Aput enormously.",
+              "zh": "他們非常喜愛 Aput。"
+            },
+            {
+              "t": "Ya bi manu ka pusu qlasun namo da",
+              "fr": "Mais quelle est donc la raison de votre joie ?",
+              "en": "But what then is the reason for your joy?",
+              "zh": "那麼，你們喜樂的緣由究竟是什麼呢？"
+            }
+          ]
+        },
+        {
+          "form": "Knqalas",
+          "fr": "Intensité de joie, de jouir.",
+          "en": "Intensity of joy, of rejoicing.",
+          "zh": "喜樂、歡喜的強烈程度。",
+          "examples": [
+            {
+              "t": "Ini so snxei ka kari mo do, tai nanak ka knqalasan daxa",
+              "fr": "Si tu ne crois pas à mes paroles, regarde (tu n'as qu'à regarder) leur joie.",
+              "en": "If you do not believe my words, look for yourself (you have only to look) at their joy.",
+              "zh": "你若不信我的話，就自己去看（你只需去看）他們的喜樂。"
+            },
+            {
+              "t": "Mdka bi ka knqalas daxa",
+              "fr": "Ils sont aussi heureux l'un (les uns) que (les) l'autre.",
+              "en": "They are just as happy as one another.",
+              "zh": "他們彼此一樣快樂。"
+            }
+          ]
+        },
+        {
+          "form": "Sqalas",
+          "fr": "Réjouir - qui rend heureux - rendre heureux - fêter.se réjouir",
+          "en": "To gladden - that which makes happy - to make happy - to celebrate. to rejoice",
+          "zh": "使喜樂、令人快樂之物、使人快樂、慶祝、歡喜。",
+          "examples": []
+        },
+        {
+          "form": "Sqlasan",
+          "fr": "Qui procure de la joie - qui rend heureux ( Objet, lieu, circonstance, temps).",
+          "en": "That which brings joy - that which makes happy (object, place, circumstance, time).",
+          "zh": "帶來喜樂之物－令人快樂之物（對象、地點、情境、時間）。",
+          "examples": [
+            {
+              "t": "Sqlasan diyax",
+              "fr": "Jour qui réjouit.",
+              "en": "A day that brings joy.",
+              "zh": "令人喜樂的日子。"
+            },
+            {
+              "t": "Diyax sqlasan",
+              "fr": "Jour (temps, occasion) qu'on fête.",
+              "en": "A day (time, occasion) that one celebrates.",
+              "zh": "所慶祝的日子（時刻、場合）。"
+            }
+          ]
+        },
+        {
+          "form": "Psqalas",
+          "paradigm": "°Mpsqalas, psqalas, psqlasi, psqlasan, psqlasun.",
+          "fr": "Faire pour réjouir - Célébrer - honorer quelqu'un.",
+          "en": "To act so as to gladden - to celebrate - to honour someone.",
+          "zh": "做使人喜樂之事、慶祝、款待某人。",
+          "examples": [
+            {
+              "t": "N'xali! Psqlasao ta tityex ka dpnax isil alang",
+              "fr": "Vite! Faisons un peu fête à nos (hôtes) venus d'ailleurs (étrangers).",
+              "en": "Quick! Let us celebrate a little for our (guests) who have come from elsewhere (strangers).",
+              "zh": "快！我們來稍微款待從外地來的（客人）（外人）。"
+            }
+          ]
+        },
+        {
+          "form": "Psqlasan",
+          "fr": "Temps, lieu, manière d'accueillir, d'honorer, de réjouir quelqu'un.",
+          "en": "The time, place, manner of welcoming, honouring, gladdening someone.",
+          "zh": "款待、款遇、使某人喜樂的時間、地點、方式。",
+          "examples": [
+            {
+              "t": "Wada paro bi pnsqlasan namo lludan ka ska'man",
+              "fr": "Hier soir vous avez merveilleusement fêté les anciens (vos parents).",
+              "en": "Last night you wonderfully feted the elders (your parents).",
+              "zh": "昨晚你們極美好地款待了長輩（你們的父母）。"
+            }
+          ]
+        },
+        {
+          "form": "Psqlasun",
+          "fr": "Qui est digne d'être fêté - qu'on doit, qu'on veut fêter .",
+          "en": "One who is worthy of being feted - whom one must, whom one wishes to fete.",
+          "zh": "值得款待之人－應當、想要款待之人。",
+          "examples": [
+            {
+              "t": "Ana knuwan ka yaxon so o, ida miso psqlasun",
+              "fr": "Quel que soit le jour où tu voudras venir, je veux absolument te fêter (vl.Je serai très heureux de t'accueillir).",
+              "en": "Whatever day you wish to come, I absolutely want to fete you (var. I shall be very happy to welcome you).",
+              "zh": "無論你哪一天想來，我一定要款待你（或：我會很高興接待你）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsqalas",
+          "fr": "Celui qui réjouit, qui fête - Réjouira - fêtera.",
+          "en": "One who gladdens, who fetes - will gladden - will fete.",
+          "zh": "使人喜樂、款待之人－將使人喜樂－將款待。",
+          "examples": [
+            {
+              "t": "Adi balae bi ongat ka mpsqalas sontyo ta bulax xo?",
+              "fr": "N'y aurait il vraiment personne pour fêter notre nouveau maire ?",
+              "en": "Would there really be no one to fete our new mayor?",
+              "zh": "難道真的沒有人來款待我們的新村長嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Tqqalas",
+          "fr": "Eprouver une joie intense, débordante.",
+          "en": "To feel an intense, overflowing joy.",
+          "zh": "感受到強烈、滿溢的喜樂。",
+          "examples": [
+            {
+              "t": "Mbaxang kari so do, asi tqqalas ni tglgli kana da",
+              "fr": "En entendant ce que tu as dit (tes paroles, ton message, la nouvelle que tu as annoncée), tous débordent et dansent de joie.",
+              "en": "On hearing what you said (your words, your message, the news you announced), everyone overflows and dances with joy.",
+              "zh": "聽到你所說的（你的話、你的信息、你所宣布的消息），眾人都喜樂滿溢、手舞足蹈。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALAT",
+      "tag": "(R)",
+      "fr": "Ananas. (QALAT = Ananas = R.)",
+      "en": "Pineapple. (QALAT = pineapple = R.)",
+      "zh": "鳳梨。（QALAT = 鳳梨 = 詞根。）",
+      "examples": [
+        {
+          "t": "Malu kalat ka sndurai o, kika mxa malu ka qalat ta ole",
+          "fr": "Nous venons d'avoir du vrai beau temps, aussi la récolte d'ananas sera également très bonne.",
+          "en": "We have just had really fine weather, so the pineapple harvest will also be very good.",
+          "zh": "我們剛遇到真正的好天氣，所以鳳梨的收成也會很好。"
+        },
+        {
+          "t": "Wana bi kingal totox qalat ka oqon mo ska xedao kia",
+          "fr": "Tout à l'heure à midi je ne mangerai qu'une boîte d'ananas.",
+          "en": "Later at noon I will eat only one tin of pineapple.",
+          "zh": "待會兒中午我只吃一罐鳳梨。"
+        },
+        {
+          "t": "Totox qalat ni qalat bi o, qalat bi ka malu oqon",
+          "fr": "Des ananas en boîte et des ananas nature, les ananas nature sont bien meilleures à manger.",
+          "en": "Tinned pineapple and fresh pineapple - fresh pineapple is much better to eat.",
+          "zh": "罐頭鳳梨與新鮮鳳梨，新鮮鳳梨吃起來好多了。"
+        }
+      ]
+    },
+    {
+      "hw": "QALI",
+      "tag": "(R)",
+      "fr": "Creuser, (pour faire un trou, une tranchée, spécialement dans la terre) - Creuser (pour trouver quelque chose sous terre, solide...)",
+      "en": "To dig, (to make a hole, a trench, especially in the ground) - to dig (to find something underground, solid...).",
+      "zh": "挖掘（挖洞、挖溝，特別是在土裡）－挖掘（為了在地下尋找某物、堅實之物……）。",
+      "subs": [
+        {
+          "form": "Qmali",
+          "paradigm": "°Qmali, qali, qlii, qlian (qliyan), qliun.",
+          "fr": "Creuser - déterrer.",
+          "en": "To dig - to unearth.",
+          "zh": "挖掘、掘出。",
+          "examples": [
+            {
+              "t": "Mxa ko qmali bonga ooqon laqe",
+              "fr": "Je vais arracher des patates douces pour donner à manger aux enfants.",
+              "en": "I am going to dig up some sweet potatoes to give the children to eat.",
+              "zh": "我要去挖地瓜給孩子們吃。"
+            },
+            {
+              "t": "Ini toko knlboq so (ini toko knlboq na), qlii tityex dole",
+              "fr": "Tu n'es pas assez profond (ce que tu as creusé n'est pas assez profond), creuse donc encore un peu.",
+              "en": "You are not deep enough (what you have dug is not deep enough), so dig a little more.",
+              "zh": "你挖得不夠深（你挖的還不夠深），所以再挖深一點。"
+            }
+          ]
+        },
+        {
+          "form": "Qlian (qliyan)",
+          "fr": "Ce qu'on creuse - temps, manière, lieu du creuser.",
+          "en": "That which one digs - the time, manner, place of digging.",
+          "zh": "所挖之物－挖掘的時間、方式、地點。",
+          "examples": [
+            {
+              "t": "Malu bi qliyan ka siyao \"lu",
+              "fr": "C'est facile de creuser le long de la route.",
+              "en": "It is easy to dig along the road.",
+              "zh": "沿著路邊挖很容易。"
+            },
+            {
+              "t": "Manu bi ka qliyan so nii?",
+              "fr": "Qu'est-ce que tu creuses là ?",
+              "en": "What are you digging there?",
+              "zh": "你在那裡挖什麼？"
+            }
+          ]
+        },
+        {
+          "form": "Qnliyan (qnlian)",
+          "fr": "Ce qui à été creusé - Temps, lieu du creusement.",
+          "en": "That which has been dug - the time, place of the digging.",
+          "zh": "已被挖掘之物－挖掘的時間、地點。",
+          "examples": [
+            {
+              "t": "Qnliyan ima ka lboq gaga ?",
+              "fr": "Qui est-ce qui a creusé ce trou là ?",
+              "en": "Who dug that hole there?",
+              "zh": "那個洞是誰挖的？"
+            }
+          ]
+        },
+        {
+          "form": "Pqali",
+          "fr": "Faire creuser.",
+          "en": "To have (something) dug.",
+          "zh": "使人挖掘、令挖。",
+          "examples": [
+            {
+              "t": "Ana yamo nanak xeni, mxa ko nama pqali sskuan Iboq ta kia.",
+              "fr": "Vous êtes assez forts ici, je vais devant faire creuser une place pour déposer(le cadavre) de notre Iboq tout à l'heure (nb. Ce terme: SMKU veut dire déposer, mettre en réserve, ranger, comme on dépose de l'argent en banque, du riz dans le grenier, un habit dans l'endroit où on les range).",
+              "en": "You are strong enough here; I will go ahead and have a place dug in which to lay (the body of) our Iboq shortly (n.b. this term SMKU means to lay down, to put in reserve, to store, as one deposits money in a bank, rice in the granary, a garment in the place where they are kept).",
+              "zh": "你們在這裡夠強壯，我先去叫人挖一個地方，好待會兒安放我們 Iboq 的（遺體）（註：SMKU 這詞意為安放、存放、收藏，就像把錢存進銀行、把米放進穀倉、把衣服放進收藏的地方）。"
+            },
+            {
+              "t": "Lmnglong pqali slaq na ka Pirin",
+              "fr": "Pilinne compte faire creuser sa rizière (= faire creuser son terrain pour en faire une rizière).",
+              "en": "Pirin plans to have his paddy field dug (= to have his land dug in order to make it into a paddy field).",
+              "zh": "Pirin 打算叫人挖他的水田（＝叫人挖他的地，好開成水田）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALIP",
+      "tag": "",
+      "crossRef": "KALIP",
+      "fr": "Couper - tailler. VR. KALIP.",
+      "en": "To cut - to trim. See KALIP.",
+      "zh": "剪、裁。參見 KALIP。",
+      "examples": []
+    },
+    {
+      "hw": "QALIT",
+      "tag": "(R)",
+      "fr": "Ciseaux (pour couper la toile, le fil). (nb. Comme souvent, le P final est réalisé: T ; c'est sans doute le cas ici, et QALIT serait tout simplement R. de tous les termes dérivés de QALIP (vl.KALIP).",
+      "en": "Scissors (for cutting cloth, thread). (n.b. As is often the case, the final P is realised as T; this is doubtless the case here, and QALIT would simply be the root of all the terms derived from QALIP (var. KALIP).",
+      "zh": "剪刀（用來剪布、剪線）。（註：如常見的情形，字尾的 P 讀作 T；此處無疑如此，QALIT 就只是所有由 QALIP 衍生之詞的詞根（或：KALIP）。",
+      "subs": [
+        {
+          "form": "Qmalit",
+          "fr": "Couper au ciseau - tailler.",
+          "en": "To cut with scissors - to trim.",
+          "zh": "用剪刀剪、裁。",
+          "examples": [
+            {
+              "t": "Mxdo ko qnalit do, sisun mo da",
+              "fr": "Dès que j'ai fini de couper (l'étoffe), je coudrai aussitôt.",
+              "en": "As soon as I have finished cutting (the cloth), I will sew straight away.",
+              "zh": "我一剪完（布），就馬上縫。"
+            }
+          ]
+        },
+        {
+          "form": "Mqalit",
+          "fr": "Celui qui coupe - tailleur.",
+          "en": "One who cuts - tailor.",
+          "zh": "剪裁的人－裁縫。",
+          "examples": [
+            {
+              "t": "Ya adi iso ka mnqalit lukus mo o ?",
+              "fr": "J'espère que ce n'est pas toi qui a coupé mon habit !",
+              "en": "I hope it was not you who cut my garment!",
+              "zh": "但願剪壞我衣服的不是你！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QALO",
+      "tag": "",
+      "crossRef": "KALO",
+      "fr": "= Peigne. (Très probablement variante de KALO). VR. KALO.",
+      "en": "= Comb. (Very probably a variant of KALO). See KALO.",
+      "zh": "＝梳子。（極可能是 KALO 的變體）。參見 KALO。",
+      "examples": []
+    },
+    {
+      "hw": "QALO",
+      "tag": "(R)",
+      "fr": "Saindoux - Graisse animale.",
+      "en": "Lard - animal fat.",
+      "zh": "豬油、動物油脂。",
+      "examples": [
+        {
+          "t": "Tai ka m'ulae (mkulae (?)) sadyaq o, mqalas bi mqan ana qalo",
+          "fr": "Ceux qui ont faim aiment (sont heureux de) manger même le saindoux.",
+          "en": "Those who are hungry are glad to eat even lard.",
+          "zh": "飢餓的人很樂意連豬油也吃。"
+        }
+      ]
+    },
+    {
+      "hw": "QALOX",
+      "tag": "(R)",
+      "fr": "Noir - mauvais - noirceur.",
+      "en": "Black - bad - blackness.",
+      "zh": "黑、壞、黑暗。",
+      "examples": [
+        {
+          "t": "Ini tk'angal ka qalox nia",
+          "fr": "Sa saleté (son noir) ne s'enlève pas.",
+          "en": "Its dirt (its blackness) will not come off.",
+          "zh": "它的髒污（它的黑）洗不掉。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqalox",
+          "fr": "Qui est noir - qui est mauvais.",
+          "en": "That which is black - that which is bad.",
+          "zh": "黑的、壞的。",
+          "examples": [
+            {
+              "t": "Mqalox bi ka kalat, sao bi knkmoyoç (nkmoyoç (?))",
+              "fr": "Le ciel est tout noir, comme s'il allait pleuvoir.",
+              "en": "The sky is all black, as if it were going to rain.",
+              "zh": "天空一片漆黑，好像要下雨了。"
+            },
+            {
+              "t": "Mqalox xali ka lukus mo; lukus so ka mqalox bi",
+              "fr": "Mes habits sont un peu noirs (gris, sombres, marron); Ce sont les tiens qui sont vraiment noirs.",
+              "en": "My clothes are a little black (grey, dark, brown); it is yours that are truly black.",
+              "zh": "我的衣服有點黑（灰、暗、褐）；真正黑的是你的。"
+            }
+          ]
+        },
+        {
+          "form": "Kqalox",
+          "fr": "Forme négative, impérative de: MQALOX.",
+          "en": "Negative, imperative form of: MQALOX.",
+          "zh": "MQALOX 的否定命令式。",
+          "examples": [
+            {
+              "t": "Sao kia do, ini kqalox balae ka lukus so",
+              "fr": "Ainsi donc tes habits ne sont pas vraiment noirs !",
+              "en": "So then your clothes are not really black!",
+              "zh": "這麼說來，你的衣服其實並不黑！"
+            },
+            {
+              "t": "Mqalox bi lnglongan na",
+              "fr": "Il a un coeur dépravé (noir).",
+              "en": "He has a depraved (black) heart.",
+              "zh": "他有一顆敗壞（漆黑）的心。"
+            }
+          ]
+        },
+        {
+          "form": "Knqalox",
+          "fr": "Intensité de noirceur.",
+          "en": "Intensity of blackness.",
+          "zh": "黑暗的強烈程度。",
+          "examples": [
+            {
+              "t": "Ini so k'lae mita knqalox daolyaq nia xo?",
+              "fr": "Tu ne t'aperçois pas (Tu ne sais pas voir) combien ses yeux sont noirs ?",
+              "en": "Do you not notice (do you not see) how black his eyes are?",
+              "zh": "你沒察覺（你看不出）他的眼睛有多黑嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAMAS",
+      "tag": "(R)",
+      "fr": "Confire (dans le sel) - faire macérer.",
+      "en": "To preserve (in salt) - to pickle / macerate.",
+      "zh": "（用鹽）醃漬、醃製。",
+      "subs": [
+        {
+          "form": "Qnamas",
+          "paradigm": "°Qnamas, qamas, qmasi, qmasan, qmasun.",
+          "fr": "Confire - macérer.",
+          "en": "To preserve - to macerate.",
+          "zh": "醃漬、醃製。",
+          "examples": [
+            {
+              "t": "Qmasi ka msngali ppadyaq so! Misan do, suyang bi oqon ka qnmasan ta lbagan",
+              "fr": "Mets donc à macérer le surplus de tes légumes! En hiver, c'est délicieux à manger ce qu'on a confi pendant l'été.",
+              "en": "So pickle the surplus of your vegetables! In winter, what one has preserved during the summer is delicious to eat.",
+              "zh": "把你多餘的蔬菜拿去醃吧！到了冬天，夏天醃的東西吃起來很美味。"
+            }
+          ]
+        },
+        {
+          "form": "Qmasan",
+          "fr": "Ce qui a été macéré - récipient pour macérer - temps pour macérer.",
+          "en": "That which has been macerated - vessel for macerating - time for macerating.",
+          "zh": "已醃製之物－醃製用的容器－醃製的時間。",
+          "examples": [
+            {
+              "t": "Malu bi qmasan padyaq ka liwas so",
+              "fr": "Ta jarre est très commode pour confire des légumes.",
+              "en": "Your jar is very convenient for preserving vegetables.",
+              "zh": "你的甕很適合用來醃蔬菜。"
+            }
+          ]
+        },
+        {
+          "form": "Pqamas",
+          "fr": "Faire confire, faire faire macérer.",
+          "en": "To have (something) preserved, to have (something) macerated.",
+          "zh": "使人醃漬、令人醃製。",
+          "examples": [
+            {
+              "t": "Miyax ko sunan pqamas mo tityex beilox no da",
+              "fr": "Je viens te (demander de me) faire macérer un peu de mes haricots.",
+              "en": "I come to (ask you to) pickle a few of my beans for me.",
+              "zh": "我來（請你）替我醃一點我的豆子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QANI",
+      "tag": "",
+      "fr": "?? - N'aurait pas (?).",
+      "en": "?? - Would not have (?).",
+      "zh": "??－不會有（?）。",
+      "examples": [
+        {
+          "t": "Nasi uxai naqex o, qani nami bqani sunan!",
+          "fr": "S'il n'était pas mauvais (coupable), nous ne te l'aurions pas livré!",
+          "en": "If he were not bad (guilty), we would not have handed him over to you!",
+          "zh": "他若不是壞人（有罪），我們就不會把他交給你！"
+        },
+        {
+          "t": "Nasi ko nk'la do, qani ko apa!",
+          "fr": "Si je savais, je ne le porterais pas !",
+          "en": "If I had known, I would not carry it!",
+          "zh": "我早知道的話，就不會背它了！"
+        }
+      ]
+    },
+    {
+      "hw": "QANU",
+      "tag": "(R)",
+      "fr": "Grêle.",
+      "en": "Hail.",
+      "zh": "冰雹。",
+      "examples": [
+        {
+          "t": "Qanu ka spk'ongat bi oqon",
+          "fr": "C'est la grêle qui détruit vraiment les récoltes.",
+          "en": "It is hail that really destroys the harvests.",
+          "zh": "真正毀壞莊稼的是冰雹。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sqanu",
+          "fr": "Produire la grêle.",
+          "en": "To produce hail.",
+          "zh": "產生冰雹。",
+          "examples": [
+            {
+              "t": "Paro bi lolong b'xgai gaga ka pusu bi sqanu",
+              "fr": "C'est ce grand nuage blanc là-bas qui produit la grêle.",
+              "en": "It is that big white cloud over there that produces the hail.",
+              "zh": "產生冰雹的正是那邊那大片白雲。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QAPAX",
+      "tag": "(R)",
+      "fr": "Adhérer - épouser la forme - coller à.",
+      "en": "To adhere - to conform to the shape - to stick to.",
+      "zh": "黏附、貼合其形、緊貼於。",
+      "subs": [
+        {
+          "form": "Qmapax",
+          "paradigm": "°Qmapax, qapax, qpaxe, qpaxan, qpaxon.",
+          "fr": "Etaler - étendre - recouvrir.",
+          "en": "To spread - to spread out - to cover.",
+          "zh": "塗抹、鋪開、覆蓋。",
+          "examples": [
+            {
+              "t": "Qmapax ko quti kating kana d'xgal ngangot so ssalu no malu bi pxdagan",
+              "fr": "J'étale de la bouse de vache sur tout la surface de ta cour pour en faire une belle aire de séchage (des céréales).",
+              "en": "I spread cow dung over the whole surface of your courtyard to make of it a fine drying-floor (for grain).",
+              "zh": "我把牛糞塗抹在你院子的整個地面上，好把它做成一塊很好的曬穀場（曬穀物）。"
+            },
+            {
+              "t": "Qmapax ko sinbong kana mtqeli tqean no kika npamuxul da",
+              "fr": "Je recouvre (les parois) de papier journal tout autour de l'endroit où je dors et de cette façon il fera bon chaud.",
+              "en": "I cover (the walls) with newspaper all around the place where I sleep, and in this way it will be nice and warm.",
+              "zh": "我在睡覺的地方四周（牆壁）都糊上報紙，這樣就會很暖和。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

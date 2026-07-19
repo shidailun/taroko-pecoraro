@@ -1,0 +1,832 @@
+{
+  "pages": [70, 73],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mkdgiyaq",
+        "fr": "En montagne - sur la montagne.",
+        "en": "In the mountains - on the mountain.",
+        "zh": "在山上——在山中。",
+        "examples": [
+          {
+            "t": "Ga ko psnama tityex xdayo uusa ta dgiyaq saman, ya sa ongat xali oqon ka mkdgiyaq",
+            "fr": "Je prépare un peu de casse croûte pour aller demain dans la montagne, car il n'y a pas beaucoup à manger en montagne !",
+            "en": "I am preparing a little snack for going into the mountains tomorrow, for there is not much to eat in the mountains!",
+            "zh": "我準備一點乾糧,好明天上山,因為山上沒有多少東西可吃!"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "DGIYAQ",
+      "tag": "(Image dérivée)",
+      "fr": "Le devant de la jambe - le tibia.",
+      "en": "The front of the leg - the shin (tibia).",
+      "zh": "小腿前側——脛骨。",
+      "examples": [
+        {
+          "t": "Wada ko na paqon dgiyaq papaq mo",
+          "fr": "Il m'a frappé (avec le coutelas) le devant des jambes (les tibias).",
+          "en": "He struck me (with the machete) on the front of the legs (the shins).",
+          "zh": "他(用刀)砍了我的小腿前側(脛骨)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DGLIL",
+      "tag": "(R)",
+      "fr": "Etroit.",
+      "en": "Narrow.",
+      "zh": "狹窄。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdglil",
+          "fr": "Qui est étroit, resserré.",
+          "en": "That which is narrow, constricted.",
+          "zh": "狹窄的、緊縮的。",
+          "examples": [
+            {
+              "t": "Uxai ddaan tdoloi ka \"lu ga, soqe mdglil da; nii ka ini xali kdglil",
+              "fr": "Cette route là n'est pas un passage pour voitures! elle bien trop étroite; Celle ci n'est pas étroite ! (n'est pas tout à fait , est moins étroite).",
+              "en": "That road there is no passage for cars! it is far too narrow; This one is not narrow! (is not entirely so, is less narrow).",
+              "zh": "那條路可不是汽車走的通道!它實在太窄了;這一條倒不窄!(並非完全狹窄,比較不窄)。"
+            }
+          ]
+        },
+        {
+          "form": "Pkdglil",
+          "paradigm": "°Mpkdglil, pkdglil, pkdglili, pkdglilan, pkdglilun",
+          "fr": "Faire que ce soit étroit, plus étroit.",
+          "en": "To make it narrow, narrower.",
+          "zh": "使變窄、更窄。",
+          "examples": [
+            {
+              "t": "Llabang bi ka qnlian so! Pkdglili tityex! ... Eq! Pkdglilun mo kia",
+              "fr": "Elle est bien large la tranchée que tu as creusée! Il te faut la rétrécir un peu! ... Je la rétrécirai tout à l'heure, d'accord !",
+              "en": "The trench you have dug is very wide! You must narrow it a little! ... All right! I will narrow it in a little while, agreed!",
+              "zh": "你挖的溝真寬!你得把它弄窄一點!……好!我待會兒就把它弄窄,行吧!"
+            }
+          ]
+        },
+        {
+          "form": "Kndglil",
+          "fr": "La dimension d'étroitesse.",
+          "en": "The dimension of narrowness.",
+          "zh": "狹窄的程度。",
+          "examples": [
+            {
+              "t": "Ini so tai ka kndglil na xo ?",
+              "fr": "Tu ne vois donc pas comme elle est étroite ?",
+              "en": "Do you not see, then, how narrow it is?",
+              "zh": "你難道沒看見它有多窄嗎?"
+            }
+          ]
+        },
+        {
+          "form": "Kndglilan (Kndgllan ?)",
+          "fr": "Etroitesse.",
+          "en": "Narrowness.",
+          "zh": "狹窄。",
+          "examples": [
+            {
+              "t": "Dxkon so smpong kndgllan nia xo?",
+              "fr": "Parviendras tu à mesurer son étroitesse ?",
+              "en": "Will you manage to measure its narrowness?",
+              "zh": "你量得出它有多窄嗎?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DIDIL",
+      "tag": "(R)",
+      "fr": "Porter à la main - tenir à la main.",
+      "en": "To carry in the hand - to hold in the hand.",
+      "zh": "用手提——用手拿。",
+      "examples": [
+        {
+          "t": "Nii ka samao, didil binao, mawit ko da",
+          "fr": "Voici la lanterne, tiens la un peu (à la main), je suis fatigué.",
+          "en": "Here is the lantern, hold it a moment (in your hand), I am tired.",
+          "zh": "燈籠在這裡,你(用手)拿一下,我累了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dmidil",
+          "paradigm": "°Dmidil, didil, ddili, ddilan, ddilun",
+          "fr": "Porter à la main, au bras.",
+          "en": "To carry in the hand, on the arm.",
+          "zh": "用手、用臂提著。",
+          "examples": [
+            {
+              "t": "Nyeqan ddilun so xo ?",
+              "fr": "As tu quelque chose à porter (à la main)?",
+              "en": "Have you something to carry (in your hand)?",
+              "zh": "你有什麼要(用手)提的東西嗎?"
+            },
+            {
+              "t": "Wada na xtiyun xeni kana ka dndilan na",
+              "fr": "Il a laissé ici tout ce qu'il portait à la main.",
+              "en": "He left here everything he was carrying in his hand.",
+              "zh": "他把手上提的東西全都留在這裡了。"
+            }
+          ]
+        },
+        {
+          "form": "Mdidil",
+          "fr": "Celui qui porte à la main - avoir à la main.",
+          "en": "The one who carries in the hand - to have in hand.",
+          "zh": "用手提東西的人——手上拿著。",
+          "examples": [
+            {
+              "t": "Miin ko sadyaq ka mdidil qnqaya mo",
+              "fr": "Je cherche la personne qui porte mes affaires.",
+              "en": "I am looking for the person who carries my things.",
+              "zh": "我在找幫我提東西的人。"
+            }
+          ]
+        },
+        {
+          "form": "Pdidil",
+          "paradigm": "° Mpdidil, pdidil, pddili, pddilan, ddilun",
+          "fr": "Faire porter à la main.",
+          "en": "To have (something) carried in the hand.",
+          "zh": "使人用手提。",
+          "examples": [
+            {
+              "t": "Klxangi balae! dddilun ka nii uxai ppaon",
+              "fr": "Sois bien attentif! Ceci est à porter à la main et non pas sur le dos.",
+              "en": "Pay close attention! This is to be carried in the hand and not on the back.",
+              "zh": "要特別小心!這個要用手提,不可背在背上。"
+            }
+          ]
+        },
+        {
+          "form": "Ddilan",
+          "fr": "Ce qui est tenu à la main -.",
+          "en": "That which is held in the hand -.",
+          "zh": "手中所拿之物——。",
+          "examples": [
+            {
+              "t": "Ini mo k'lae ima ka wada ddilan nadas mo s'xiga pax boloq",
+              "fr": "Je n'arrive pas à savoir qui a bien pu emporter ce que j'avais ramené de Boloq (=de l'autre côté du val).",
+              "en": "I cannot find out who could have carried off what I had brought back from Boloq (= from the other side of the valley).",
+              "zh": "我查不出到底是誰把我從Boloq(=山谷的另一邊)帶回來的東西拿走了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DILAM",
+      "tag": "(R)",
+      "fr": "Espèce de pigeon.",
+      "en": "A species of pigeon.",
+      "zh": "一種鴿子。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DIMA",
+      "tag": "(vr. DDIMA) ( = R. ?)",
+      "crossRef": "DDIMA",
+      "fr": "Bambou.",
+      "en": "Bamboo.",
+      "zh": "竹子。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DIMA",
+      "tag": "(R)",
+      "fr": "Avant celà - d'avance - déjà.",
+      "en": "Before that - in advance - already.",
+      "zh": "在那之前——預先——已經。",
+      "examples": [
+        {
+          "t": "Lmngao so ka iso o, dima wada ka xea da",
+          "fr": "Pendant que tu parles, lui est déjà parti.",
+          "en": "While you are talking, he has already left.",
+          "zh": "你還在說話的時候,他已經走了。"
+        },
+        {
+          "t": "Ana ini so lngao o, dima ko mk'la",
+          "fr": "Même si tu ne le dis pas, je le sais d'avance.",
+          "en": "Even if you do not say it, I know it in advance.",
+          "zh": "即使你不說,我也早就知道了。"
+        },
+        {
+          "t": "Ana ini so lmngao! Dima ko mk'la",
+          "fr": "Ce n'est pas la peine que tu parles! Je le sais d'avance.",
+          "en": "There is no need for you to speak! I know it in advance.",
+          "zh": "你不必說了!我早就知道了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DIYAN",
+      "tag": "(R)",
+      "fr": "Jour (dans le sens de clair, clarté).",
+      "en": "Day (in the sense of light, brightness).",
+      "zh": "白天(指明亮、光亮之意)。",
+      "examples": [
+        {
+          "t": "Diyan ka malu bi daan, uxai ka'man",
+          "fr": "C'est en plein jour que la route est facile (belle, bonne) et non pas la nuit.",
+          "en": "It is in broad daylight that the road is easy (fine, good), and not at night.",
+          "zh": "大白天路才好走(路況好),而不是夜裡。"
+        },
+        {
+          "t": "Tutwi! Diyan bi da!",
+          "fr": "Lève toi! Il fait déja grand jour.",
+          "en": "Get up! It is already broad daylight.",
+          "zh": "起來!天已經大亮了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kndyanan",
+          "fr": "Quantité, qualité de jour, de clarté.",
+          "en": "Quantity, quality of daylight, of brightness.",
+          "zh": "日光、亮度的多寡與程度。",
+          "examples": [
+            {
+              "t": "Sao kia kndyanan do, ida ini so k'la mita ?",
+              "fr": "Par un telle clarté, tu ne vois donc pas ?",
+              "en": "In such brightness, can you still not see?",
+              "zh": "這麼亮,你難道還看不見嗎?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DIYAX",
+      "tag": "(R)",
+      "crossRef": "DYAX",
+      "fr": "Jour - journée - espace de temps. Vr. DYAX.",
+      "en": "Day - daytime - span of time. See DYAX.",
+      "zh": "日——一天——一段時間。參見DYAX。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DKA",
+      "tag": "(R)",
+      "fr": "Ressemblance (comme les deux moitiés d'un tout) - comparable - même.",
+      "en": "Resemblance (like the two halves of a whole) - comparable - same.",
+      "zh": "相似(如同一物的兩半)——可比擬——相同。",
+      "examples": [
+        {
+          "t": "Dka balae ka nangal mo",
+          "fr": "Je n'ai pris que l'exacte moitié.",
+          "en": "I took only the exact half.",
+          "zh": "我只拿了剛好一半。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdka",
+          "fr": "Même - pareil - identique (comme deux moitiés).",
+          "en": "Same - alike - identical (like two halves).",
+          "zh": "相同——一樣——一模一樣(如兩半)。",
+          "examples": [
+            {
+              "t": "Mdka xali ka lukus nami",
+              "fr": "Nos habits sont presque les mêmes.",
+              "en": "Our clothes are almost the same.",
+              "zh": "我們的衣服幾乎一樣。"
+            },
+            {
+              "t": "Mdka bi nxeuling ka ndaan so",
+              "fr": "Ton agissement a été celui d'un chien (égal à celui d'un chien.",
+              "en": "Your behaviour was that of a dog (the same as a dog's).",
+              "zh": "你的行為就像狗一樣(與狗的行為相同)。"
+            },
+            {
+              "t": "Mdka ta balae ka ita",
+              "fr": "Nous sommes, nous, exactement les mêmes (au même point, à la même enseigne..).",
+              "en": "We, for our part, are exactly the same (at the same point, in the same boat..).",
+              "zh": "我們倆完全一樣(處境相同、同病相憐……)。"
+            },
+            {
+              "t": "Mdka so qbxni: ini so xali ttama",
+              "fr": "Tu es comme les oiseaux: tu ne restes pas souvent à la même place.",
+              "en": "You are like the birds: you do not often stay in the same place.",
+              "zh": "你就像鳥兒:很少待在同一個地方。"
+            }
+          ]
+        },
+        {
+          "form": "Kdka",
+          "fr": "Forme négative de: Mdka = Même - pareil.",
+          "en": "Negative form of: Mdka = same - alike.",
+          "zh": "Mdka(相同——一樣)的否定形。",
+          "examples": [
+            {
+              "t": "Nangal sadyaq ni nangal mo o, ini kdka",
+              "fr": "Ce que les autres ont reçu et ce que j'ai reçu, ce n'est pas la même chose.",
+              "en": "What the others received and what I received are not the same thing.",
+              "zh": "別人領到的和我領到的,並不一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Dmka",
+          "paradigm": "°Dmka, dka, dkai, dkaan, dkaon",
+          "fr": "Partager en deux - faire des parts égales.",
+          "en": "To divide in two - to make equal shares.",
+          "zh": "分成兩半——均分。",
+          "examples": [
+            {
+              "t": "Kingal ni dmka (vl. Kingal ni smka)",
+              "fr": "Un et demi.",
+              "en": "One and a half.",
+              "zh": "一個半。"
+            }
+          ]
+        },
+        {
+          "form": "Pdka",
+          "paradigm": "°Mpdka, pdka, pdkai, pdkaan, pdkaon",
+          "fr": "Faire que ce soit semblable - comparer.",
+          "en": "To make it alike - to compare.",
+          "zh": "使相同——比較。",
+          "examples": [
+            {
+              "t": "Pdkaon mo maso ka pila namo",
+              "fr": "Je partagerai votre argent en parts égales.",
+              "en": "I will divide your money into equal shares.",
+              "zh": "我會把你們的錢平分。"
+            },
+            {
+              "t": "Pdkai bi kana laqe so mita",
+              "fr": "Comporte toi d'une façon impartiale envers tous tes enfants.",
+              "en": "Behave impartially toward all your children.",
+              "zh": "對你所有的孩子要一視同仁。"
+            },
+            {
+              "t": "Pdkaon mo manu ka ntaan mo",
+              "fr": "A quoi vais je comparer ce que j'ai vu ?",
+              "en": "To what shall I compare what I have seen?",
+              "zh": "我該拿什麼來比擬我所見的呢?"
+            },
+            {
+              "t": "Ini tdoa pdka sadyaq ni longai",
+              "fr": "On ne peut comparer des personnes et des singes.",
+              "en": "One cannot compare people and monkeys.",
+              "zh": "人和猴子是不能相比的。"
+            }
+          ]
+        },
+        {
+          "form": "Pdkaan",
+          "fr": "Chose comparée.",
+          "en": "Thing compared.",
+          "zh": "被比較之物。",
+          "examples": [
+            {
+              "t": "Pdkaan so pila ni kdusan o, naqex!",
+              "fr": "Tu compares (mets sur le même pied) argent et vie.. Tu as tort.",
+              "en": "You are comparing (putting on the same footing) money and life.. You are wrong.",
+              "zh": "你把金錢和生命相提並論……你錯了。"
+            }
+          ]
+        },
+        {
+          "form": "Pndka",
+          "fr": "Se comporter de la même manière - être les mêmes.",
+          "en": "To behave in the same way - to be the same.",
+          "zh": "行為相同——彼此一樣。",
+          "examples": [
+            {
+              "t": "Lludan ni llaqe o, ini pndka",
+              "fr": "Les adultes et les enfants, ce n'est pas la même chose.",
+              "en": "Adults and children are not the same thing.",
+              "zh": "大人和小孩,並不一樣。"
+            },
+            {
+              "t": "Pndkaon mo ndaan so kmpax",
+              "fr": "Je ferai comme toi.",
+              "en": "I will do as you do.",
+              "zh": "我會照你的做法去做。"
+            }
+          ]
+        },
+        {
+          "form": "Pndkaan",
+          "fr": "Similitude - égalisation - impartialité.",
+          "en": "Similarity - equalization - impartiality.",
+          "zh": "相似——均等——公平。",
+          "examples": [
+            {
+              "t": "Malu ka pndkaan so ndaan daxa maso",
+              "fr": "Tu as bien eu raison d'imiter leur façon de procéder au partage ( de partager comme ils l'ont fait).",
+              "en": "You were quite right to imitate their way of carrying out the division (of sharing as they did).",
+              "zh": "你效法他們分配的方式(照他們那樣去分)是對的。"
+            }
+          ]
+        },
+        {
+          "form": "Kndkaan",
+          "fr": "Ressemblance - identité.",
+          "en": "Resemblance - identity.",
+          "zh": "相似——相同。",
+          "examples": [
+            {
+              "t": "Mqalas ko bi mita kndkaan namo matas",
+              "fr": "Je me réjouis beaucoup de voir combien vous travaillez avec la même ardeur.",
+              "en": "I greatly rejoice to see how you all work with the same zeal.",
+              "zh": "看到你們以同樣的熱忱用功,我非常高興。"
+            }
+          ]
+        },
+        {
+          "form": "Sdka",
+          "fr": "Départager - comparer.",
+          "en": "To decide between - to compare.",
+          "zh": "評定高下——比較。",
+          "examples": []
+        },
+        {
+          "form": "Msdka",
+          "fr": "Celui qui compare = qui se compare.",
+          "en": "The one who compares = who measures himself (against others).",
+          "zh": "比較者=互相較量者。",
+          "examples": [
+            {
+              "t": "Ga msdka tmalang ka dxea",
+              "fr": "Ils sont en train de se mesurer à la course.",
+              "en": "They are competing with each other in a race.",
+              "zh": "他們兩人正在賽跑較量。"
+            }
+          ]
+        },
+        {
+          "form": "Psdka",
+          "paradigm": "°Mpsdka, psdka, psdkai, psdkaan, psdkaon",
+          "fr": "Juger - départager - faire concourir.",
+          "en": "To judge - to decide between - to make compete.",
+          "zh": "評判——評定高下——使競賽。",
+          "examples": [
+            {
+              "t": "Mxa namo psdka knk'laan namo",
+              "fr": "Vous allez comparer vos connaissances.",
+              "en": "You are going to compare your knowledge.",
+              "zh": "你們要比一比你們的學識。"
+            },
+            {
+              "t": "Psdkaon mo kia ka tlaman daxa",
+              "fr": "Je vais aller arbitrer leur course.",
+              "en": "I am going to referee their race.",
+              "zh": "我要去為他們的賽跑當裁判。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsdka",
+          "fr": "Arbitre - juge - concurrent.",
+          "en": "Referee - judge - competitor.",
+          "zh": "裁判——評判者——參賽者。",
+          "examples": [
+            {
+              "t": "Ima ka mpsdka tlaman daxa?",
+              "fr": "Qui va arbitrer leur course ?",
+              "en": "Who will referee their race?",
+              "zh": "誰要為他們的賽跑當裁判?"
+            },
+            {
+              "t": "Giso ka mpsdka tmalang",
+              "fr": "Voilà les coureurs!",
+              "en": "There are the runners!",
+              "zh": "賽跑的選手來了!"
+            }
+          ]
+        },
+        {
+          "form": "Psdkaan",
+          "fr": "Concours - examen - jugement.",
+          "en": "Competition - examination - judgment.",
+          "zh": "競賽——考試——評判。",
+          "examples": [
+            {
+              "t": "Ana tmalang, ana stalil, ana qmada, nyeqan kana; saman ka psdkaan daxa",
+              "fr": "Et la course, et le saut, et le lancement; il y a tout; C'est demain qu'auront lieu les épreuves.",
+              "en": "The race, the jump, the throw; there is everything; It is tomorrow that the events will take place.",
+              "zh": "賽跑、跳躍、投擲,樣樣都有;比賽項目明天舉行。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DLMUL",
+      "tag": "(R.?)",
+      "fr": "Rosée - pluie fine.",
+      "en": "Dew - fine rain (drizzle).",
+      "zh": "露水——毛毛雨。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DLMUT",
+      "tag": "(R)",
+      "fr": "Ardeur - ferveur - assiduité.",
+      "en": "Zeal - fervour - diligence.",
+      "zh": "熱忱——熱心——勤奮。",
+      "examples": [
+        {
+          "t": "Tayal bi ka dlmut namo sayang da",
+          "fr": "Oh la! Quelle ardeur aujourd'hui!",
+          "en": "Oh my! What zeal today!",
+          "zh": "哎呀!今天多麼賣力呀!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdlmut",
+          "fr": "Qui est diligent, laborieux, assidu.",
+          "en": "Who is diligent, hard-working, assiduous.",
+          "zh": "勤勞、用功、勤奮的。",
+          "examples": [
+            {
+              "t": "Mdlmut bi matas ka laqe mo koyox, ini xali kdlmut ka snao",
+              "fr": "Ma fille est très appliquée dans ses études, mon fils non !",
+              "en": "My daughter is very diligent in her studies, my son is not!",
+              "zh": "我女兒讀書非常用功,我兒子卻不然!"
+            }
+          ]
+        },
+        {
+          "form": "Kdlmut",
+          "fr": "Forme négative de Mdlmut - Forme impérative.",
+          "en": "Negative form of Mdlmut - Imperative form.",
+          "zh": "Mdlmut的否定形——命令形。",
+          "examples": [
+            {
+              "t": "Kdlmut bi matas",
+              "fr": "Sois diligent dans ton travail d'étude !",
+              "en": "Be diligent in your study work!",
+              "zh": "要用功讀書!"
+            }
+          ]
+        },
+        {
+          "form": "Kndlmut",
+          "fr": "Avec assiduité - avec ferveur - agir avec diligence.",
+          "en": "With diligence - with fervour - to act diligently.",
+          "zh": "勤奮地——熱切地——勤勉行事。",
+          "examples": [
+            {
+              "t": "Lnglong nanak sao kndlmut bi kmpax swai so",
+              "fr": "Reflechis seulement combien ton petit frère travaille avec ardeur.",
+              "en": "Just think how hard your little brother works.",
+              "zh": "你只要想想你弟弟工作多麼賣力。"
+            },
+            {
+              "t": "Tayal kndlmut so!",
+              "fr": "Comme tu es diligent !",
+              "en": "How diligent you are!",
+              "zh": "你真勤奮!"
+            }
+          ]
+        },
+        {
+          "form": "Kndlmutan",
+          "fr": "Ferveur - acharnement - assiduité.",
+          "en": "Fervour - relentless effort - diligence.",
+          "zh": "熱忱——拚勁——勤奮。",
+          "examples": [
+            {
+              "t": "A sao kndlmutan laqe so ka mblyeqan namo kia",
+              "fr": "C'est à l'acharnement de votre fils que vous devez ce bonheur (cette richesse) là.",
+              "en": "It is to your son's relentless effort that you owe that good fortune (that wealth).",
+              "zh": "你們能有那樣的福氣(那份財富),全靠你們兒子的拚命努力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DLUT",
+      "tag": "(R)",
+      "fr": "Moudre - écraser en frottant - froisser.",
+      "en": "To grind - to crush by rubbing - to crumple.",
+      "zh": "磨碎——搓碾——揉皺。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmlut",
+          "paradigm": "° Dmlut, dlut, (dludi)dldi, dldan, dldun",
+          "fr": "d° forme verbale.",
+          "en": "Verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ya xan! Dldun mo kia ka sqmo so da",
+              "fr": "Attends un peu, je vais le moudre tout à l'heure ton maïs.",
+              "en": "Wait a moment, I will grind your maize in a little while.",
+              "zh": "等一下,我待會兒就磨你的玉米。"
+            }
+          ]
+        },
+        {
+          "form": "Mdlut",
+          "fr": "Qui moud, qui écrase - Moulu, froissé.",
+          "en": "Who grinds, who crushes - Ground, crumpled.",
+          "zh": "磨碎者、碾壓者——已磨碎的、揉皺的。",
+          "examples": [
+            {
+              "t": "Ima ka mdlut boax mo ?",
+              "fr": "Qui est celui qui moud mon riz ?",
+              "en": "Who is it that grinds my rice?",
+              "zh": "磨我的米的人是誰?"
+            }
+          ]
+        },
+        {
+          "form": "Dnlut",
+          "fr": "Qui a été froissé - qui a été moulu.",
+          "en": "That which has been crumpled - that which has been ground.",
+          "zh": "被揉皺的——被磨碎的。",
+          "examples": [
+            {
+              "t": "Ga ino ka dnlut mo maso?",
+              "fr": "Où est le millet que j'ai moulu? (vl. Où as tu vu que j'ai moulu du millet ?).",
+              "en": "Where is the millet I ground? (var.: Where did you see that I ground any millet?).",
+              "zh": "我磨好的小米在哪裡?(或:你哪裡見過我磨小米?)。"
+            }
+          ]
+        },
+        {
+          "form": "Dldan",
+          "fr": "Lieu, temps de moudre - objet moulu.",
+          "en": "Place or time of grinding - the thing ground.",
+          "zh": "磨碎的地點、時間——被磨之物。",
+          "examples": [
+            {
+              "t": "Saman ka diyax dldan payai so",
+              "fr": "C'est demain le jour de mouture de ton paddy.",
+              "en": "Tomorrow is the day for milling your paddy.",
+              "zh": "明天是碾你稻穀的日子。"
+            }
+          ]
+        },
+        {
+          "form": "Pdlut",
+          "fr": "Faire moudre.",
+          "en": "To have (something) ground.",
+          "zh": "使人碾磨;請人碾磨。",
+          "examples": [
+            {
+              "t": "Ongat diyax mo musa pdlut maso, usa ka iso xo!",
+              "fr": "Je n'ai pas le temps d'aller faire moudre le millet, pourrais tu y aller, toi ?",
+              "en": "I have no time to go and have the millet ground; could you go yourself?",
+              "zh": "我沒時間去請人磨小米,你能自己去一趟嗎?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DMUT",
+      "tag": "(R)",
+      "fr": "Mesure de base pour apprécier une valeur (?).",
+      "en": "Basic measure for assessing a value (?).",
+      "zh": "估量價值的基本單位(?)。",
+      "examples": [
+        {
+          "t": "Wada daxa bligun t'lo dmut",
+          "fr": "Ils l'ont vendu trente deniers.",
+          "en": "They sold it for thirty denarii.",
+          "zh": "他們把它賣了三十錢。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DMUX",
+      "tag": "(R)",
+      "fr": "Grain - quantité minuscule.",
+      "en": "Grain - a minute quantity.",
+      "zh": "穀粒——極小的數量。",
+      "examples": [
+        {
+          "t": "Ongat bi ana kingal dmux payai sapax mo",
+          "fr": "Il n'y a vraiment pas un grain de paddy chez moi !",
+          "en": "There is truly not a single grain of paddy in my house!",
+          "zh": "我家裡真的連一粒稻穀都沒有!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DNGIL",
+      "tag": "(R)",
+      "fr": "Etat visqueux - entre liquide et solide.",
+      "en": "Viscous state - between liquid and solid.",
+      "zh": "黏稠狀態——介於液體與固體之間。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdngil",
+          "fr": "Qui est à l'état visqueux.",
+          "en": "That which is in a viscous state.",
+          "zh": "呈黏稠狀的。",
+          "examples": [
+            {
+              "t": "Soqe mdngil ka idao maso so; ini kdngil ka ns'xiga",
+              "fr": "Ton millet cuit est trop visqueux; celui de hier ne l'était pas.",
+              "en": "Your cooked millet is too sticky; yesterday's was not.",
+              "zh": "你煮的小米飯太黏了;昨天的就不會。"
+            },
+            {
+              "t": "Nangal mo dala kating sapax so o, mdngil kana da!",
+              "fr": "Le sang de buffle que j'ai pris chez toi, le voilà tout coagulé.",
+              "en": "The buffalo blood I got at your house — there it is, all congealed.",
+              "zh": "我從你家拿來的水牛血,現在全都凝結了!"
+            }
+          ]
+        },
+        {
+          "form": "Kndngilan (kndng'lan)",
+          "fr": "Degré, qualité de fermeté, de viscosité.",
+          "en": "Degree, quality of firmness, of viscosity.",
+          "zh": "堅實、黏稠的程度與性質。",
+          "examples": [
+            {
+              "t": "Qeta bi kndngilan baga mo",
+              "fr": "Regarde un peu comme mes mains sont gluantes!",
+              "en": "Just look how sticky my hands are!",
+              "zh": "你看看我的手有多黏!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DNGO",
+      "tag": "(R)",
+      "fr": "Sec - éssuyé - stérile.",
+      "en": "Dry - wiped dry - sterile.",
+      "zh": "乾的——擦乾的——貧瘠(不孕)的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdngo",
+          "fr": "Qui est sec, éssuyé.",
+          "en": "That which is dry, wiped dry.",
+          "zh": "乾的、擦乾的。",
+          "examples": [
+            {
+              "t": "Mdngo ka payai ni, ini kdngo ka beilox",
+              "fr": "Mon paddy est sec et (mais) les haricots ne le sont pas.",
+              "en": "My paddy is dry and (but) the beans are not.",
+              "zh": "我的稻穀乾了,而(但)豆子還沒乾。"
+            },
+            {
+              "t": "Asi bi mndngo knsgan na ka laqe",
+              "fr": "A tel point que l'enfant (en) a sèché de peur !",
+              "en": "To such a point that the child dried up (froze) with fear!",
+              "zh": "以致那孩子嚇得都僵住(嚇乾)了!"
+            }
+          ]
+        },
+        {
+          "form": "Kdngo",
+          "fr": "Forme négative et impérative de d°.",
+          "en": "Negative and imperative form of the preceding.",
+          "zh": "同上之否定形與命令形。",
+          "examples": [
+            {
+              "t": "Pkdngo n'xali ka txoon so, ini kdngo do, ini sqama ole",
+              "fr": "Fais vite sècher ton bois de chauffage, s'il n'est pas sec il ne peut pas non plus brûler.",
+              "en": "Quickly dry your firewood; if it is not dry it cannot burn either.",
+              "zh": "快把你的柴火弄乾,不乾的話也燒不起來。"
+            }
+          ]
+        },
+        {
+          "form": "Pkdngo",
+          "paradigm": "°Mpkdngo, pkdngo, pkdngoi (?),",
+          "fr": "Faire sècher - éssuyer (actif).",
+          "en": "To make dry - to wipe (active).",
+          "zh": "使乾燥——擦乾(主動)。",
+          "examples": []
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

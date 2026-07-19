@@ -1,0 +1,818 @@
+{
+  "pages": [118, 121],
+  "leadin": {
+    "fr": "veut faire en une fois.",
+    "en": "wants to do in one go.",
+    "zh": "想要一次做完。",
+    "examples": [
+      {
+        "t": "Skngalun ta lnglongan n'xali",
+        "fr": "Mettons nous vite d'accord.",
+        "en": "Let us quickly come to an agreement.",
+        "zh": "我們趕快取得共識吧。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Snkingal",
+        "fr": "Simple - en une couche - en une seule fois.",
+        "en": "Single - in one layer - in one single go.",
+        "zh": "單一的——單層的——一次的。",
+        "examples": [
+          {
+            "t": "Sndaxa ka xelao ni snkingal bi ka sapao mo",
+            "fr": "J'ai une double couverture par dessus mais je n'en ai qu'une par dessous.",
+            "en": "I have a double blanket on top but only a single one underneath.",
+            "zh": "我上面蓋了兩層被子，但底下只鋪了一層。"
+          },
+          {
+            "t": "Snkingal ko mangal; skngali bi mapa ka iso ole",
+            "fr": "Je prends en une seule fois; porte tout en une fois toi aussi.",
+            "en": "I take it all in one go; you too, carry everything in one go.",
+            "zh": "我一次全拿走；你也一次把全部背走吧。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "KISO",
+      "tag": "(R)",
+      "fr": "Peur - Avoir peur - craindre.",
+      "en": "Fear - to be afraid - to fear.",
+      "zh": "恐懼——害怕——畏懼。",
+      "examples": [
+        {
+          "t": "Ya kiso! Ini ko \"qan sadyaq!",
+          "fr": "N'aie pas peur! Je ne mange personne! ( Vr. ISO = R. ?)",
+          "en": "Don't be afraid! I don't eat anyone! (See ISO = root?)",
+          "zh": "別怕！我不吃人！（參見 ISO＝詞根？）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Miso",
+          "paradigm": "° Miso, kiso, ks'gi, ks'gan, Ks'gun.",
+          "fr": "Avoir peur - craindre - qui a peur.",
+          "en": "To be afraid - to fear - one who is afraid.",
+          "zh": "害怕——畏懼——感到害怕的人。",
+          "examples": [
+            {
+              "t": "Miso ko musa sapax! Mksaang bi ka tama mo!",
+              "fr": "J'ai peur de rentrer (chez moi)! Papa est de mauvaise humeur!",
+              "en": "I am afraid to go home! Dad is in a bad mood!",
+              "zh": "我不敢回家！爸爸正在氣頭上！"
+            }
+          ]
+        },
+        {
+          "form": "Ks'gun",
+          "fr": "Ce qui sera source de peur.",
+          "en": "That which will be a source of fear.",
+          "zh": "將成為恐懼來源的事物。",
+          "examples": [
+            {
+              "t": "Manu bi ka ks'gun (ksugun) so ?",
+              "fr": "de quoi as tu peur (qu'est ce qui te fait peur?).",
+              "en": "what are you afraid of (what is it that frightens you?).",
+              "zh": "你到底怕什麼（是什麼讓你害怕？）。"
+            },
+            {
+              "t": "Iso bi kingal ka ks'gun mo balae",
+              "fr": "Tu es bien le seul que je craigne vraiment.",
+              "en": "You are truly the only one I really fear.",
+              "zh": "你確實是我唯一真正害怕的人。"
+            }
+          ]
+        },
+        {
+          "form": "Kns'gan",
+          "fr": "Lieu, situation de peur - peur subie.",
+          "en": "Place or situation of fear - fear undergone.",
+          "zh": "令人恐懼的地方、處境——所經歷的恐懼。",
+          "examples": [
+            {
+              "t": "Mnxoqel a sao kns'gan na ka Tunun",
+              "fr": "Tounoun est mort de peur.",
+              "en": "Tunun died of fright.",
+              "zh": "Tunun 嚇死了。"
+            }
+          ]
+        },
+        {
+          "form": "Tsiiso (Tsiso)",
+          "fr": "Être apeuré - avoir une peur intense.",
+          "en": "To be frightened - to feel intense fear.",
+          "zh": "受驚嚇——感到極度恐懼。",
+          "examples": [
+            {
+              "t": "Ya usa ! mxa so tsiso nanak",
+              "fr": "Ne va pas! Tu ne réussiras qu'à être apeuré.",
+              "en": "Don't go! You will only end up terrified.",
+              "zh": "別去！你只會嚇壞自己而已。"
+            }
+          ]
+        },
+        {
+          "form": "Smiso",
+          "fr": "Qui inspire la peur - Terrifiant.",
+          "en": "That which inspires fear - terrifying.",
+          "zh": "令人生畏的——恐怖的。",
+          "examples": [
+            {
+              "t": "Sao smiso bi taan ka daolyaq so!",
+              "fr": "Ton regard est effrayant à voir.",
+              "en": "Your gaze is frightening to look at.",
+              "zh": "你的眼神看起來很嚇人。"
+            }
+          ]
+        },
+        {
+          "form": "Knss'gan",
+          "fr": "La capacité de faire peur - l'intensité de peur provoquée.",
+          "en": "The capacity to cause fear - the intensity of the fear provoked.",
+          "zh": "令人害怕的能力——所引起的恐懼程度。",
+          "examples": [
+            {
+              "t": "Ongat pdkaan ka knss'gan nia",
+              "fr": "C'est incomparablement effrayant !",
+              "en": "It is incomparably frightening!",
+              "zh": "那可怕得無與倫比！"
+            }
+          ]
+        },
+        {
+          "form": "Psiso",
+          "fr": "Faire peur - intimider.",
+          "en": "To frighten - to intimidate.",
+          "zh": "使害怕——恐嚇。",
+          "examples": [
+            {
+              "t": "Uxai ps'gun ka laqe! Ini ta tdoa xmut psiso dxeaan",
+              "fr": "L'enfant n'est pas à effrayer! Il ne faut pas effrayer les enfants à la légère.",
+              "en": "A child is not to be frightened! One must not frighten children lightly.",
+              "zh": "小孩不是拿來嚇的！不可以隨便嚇唬小孩。"
+            }
+          ]
+        },
+        {
+          "form": "Pks'gun",
+          "fr": "(Ps'gun ?) = Rendre peureux (?) - à effrayer.",
+          "en": "(Ps'gun?) = To make fearful (?) - to be frightened.",
+          "zh": "（Ps'gun？）＝使人膽怯（？）——要加以驚嚇的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "KIYUX",
+      "tag": "(R)",
+      "fr": "Serré (l'un contre l'autre) - épais - touffu. ( = PKIYUX ?)",
+      "en": "Tight (pressed one against the other) - thick - dense. (= PKIYUX?)",
+      "zh": "（彼此）擁擠緊貼的——濃密的——茂密的。（＝PKIYUX？）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkiyux",
+          "fr": "Être entassées - pressés les uns contre les autres.",
+          "en": "To be crammed together - pressed one against another.",
+          "zh": "擠成一團——人挨著人。",
+          "examples": [
+            {
+              "t": "Paro qlasun diyax do, mkiyux ta balae kska sapax xdolan.",
+              "fr": "Aux jours de grande fête, nous sommes vraiment très serrés dans notre église.",
+              "en": "On days of great celebration, we are really packed very tightly in our church.",
+              "zh": "每逢大節慶的日子，我們的教堂裡真的擠得水洩不通。"
+            }
+          ]
+        },
+        {
+          "form": "Pkiyux",
+          "paradigm": "°Mpkiyux, pkiyux, pkyuxi, pkyuxan, pkyuxun.",
+          "fr": "Faire que ce soit serré, entassé.",
+          "en": "To make it tight, crammed together.",
+          "zh": "使變得擁擠、緊密。",
+          "examples": [
+            {
+              "t": "Pkiyux balae ka tqean ta",
+              "fr": "Nous sommes très à l'étroit (nous nous pressons les uns contre les autres) dans l'endroit où l'on dort.",
+              "en": "We are very cramped (we press against one another) in the place where we sleep.",
+              "zh": "我們睡覺的地方非常狹窄（我們彼此緊貼著擠在一起）。"
+            },
+            {
+              "t": "Pkyuxi tityex ka d'yamo blax, xbalao sadyaq ka ini tmai",
+              "fr": "Serrez vous un peu, ceux qui sont devant, il y a beaucoup de gens qui ne sont pas rentrés.",
+              "en": "Squeeze together a little, those of you in front; there are many people who have not yet come in.",
+              "zh": "前面的人稍微擠一擠，還有很多人沒進來。"
+            }
+          ]
+        },
+        {
+          "form": "Pkyuxan",
+          "fr": "Presse - foule très serrée, très dense.",
+          "en": "Crush - a very tight, very dense crowd.",
+          "zh": "擁擠——非常密集、擠得緊緊的人群。",
+          "examples": [
+            {
+              "t": "Tayal bi pkyuxan ka pnpaan ta tdoloi suni",
+              "fr": "Oh la la ! Quel monde il y avait sur le train que nous avons pris tout à l'heure !",
+              "en": "My goodness! What a crowd there was on the train we took just now!",
+              "zh": "哎呀！我們剛才搭的火車上人真是多得不得了！"
+            }
+          ]
+        },
+        {
+          "form": "Tkiyux",
+          "fr": "qui est très à l'étroit.",
+          "en": "which is very tight, cramped.",
+          "zh": "非常緊、狹窄的。",
+          "examples": [
+            {
+              "t": "Mklibul ko nii o, Soqe tkiyux bi da",
+              "fr": "Si je mets ces pantalons, c'est vraiment trop à l'étroit.",
+              "en": "If I put on these trousers, they are really far too tight.",
+              "zh": "我要是穿上這條褲子，實在是太緊了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K'KAX",
+      "tag": "(R)",
+      "fr": "Mettre le pied sur - marcher sur - fouler.",
+      "en": "To set foot on - to walk on - to tread upon.",
+      "zh": "把腳踏在……上——踩——踐踏。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmkax",
+          "paradigm": "° Kmkax, k'kax, kkaxe, kkaxan, kkaxon.",
+          "fr": "Marcher sur - fouler.",
+          "en": "To walk on - to tread upon.",
+          "zh": "踩——踐踏。",
+          "examples": [
+            {
+              "t": "Klxangi bi kmkax muda namo \"lu; nyeqan qoyo da",
+              "fr": "Faites bien attention où vous mettez les pieds en marchant, Il y a des serpents.",
+              "en": "Watch carefully where you put your feet as you walk; there are snakes.",
+              "zh": "走路時要小心腳下踩的地方，有蛇。"
+            }
+          ]
+        },
+        {
+          "form": "Mnkkax (mnk'kax)",
+          "fr": "avoir marché sur.",
+          "en": "to have walked on.",
+          "zh": "曾踩過。",
+          "examples": [
+            {
+              "t": "Ima ka mnk'kax pnspaan mo",
+              "fr": "Qui est ce qui a marché dans mon semis de riz ? Vr. KNKAX.",
+              "en": "Who is it that walked in my rice seedbed? See KNKAX.",
+              "zh": "是誰踩過我的稻苗田？參見 KNKAX。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KK'LANG",
+      "tag": "(R. ?)",
+      "fr": "Grelotter - frissonner.",
+      "en": "To shiver - to shudder.",
+      "zh": "發抖——打顫。",
+      "examples": [
+        {
+          "t": "Ini namo kk'lang knngongo ka yamo",
+          "fr": "Vous, vous ne tremblez pas de peur.",
+          "en": "You, you do not tremble with fear.",
+          "zh": "你們啊，你們不會怕得發抖。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mkk'lang",
+          "fr": "Qui grelotte - qui tremble de froid, de peur.",
+          "en": "One who shivers - who trembles from cold or fear.",
+          "zh": "發抖的——因寒冷或恐懼而顫抖的。",
+          "examples": [
+            {
+              "t": "Mnda nami mkk'lang pa'qan knskiyan mkdgiyaq",
+              "fr": "Nous grelottions de froid dans la montagne.",
+              "en": "We were shivering with cold in the mountains.",
+              "zh": "我們在山上凍得直發抖。"
+            }
+          ]
+        },
+        {
+          "form": "Tkk'lang",
+          "fr": "Qui est dans l'état de celui qui tremble - tout grelottant.",
+          "en": "One who is in the state of trembling - all shivering.",
+          "zh": "處於顫抖狀態的——全身發抖的。",
+          "examples": [
+            {
+              "t": "Mtkk'lang kana ka dxea miyax lmngao",
+              "fr": "Ils étaient tout tremblants en venant le dire (Ils sont venus le dire tout tremblants).",
+              "en": "They were all trembling when they came to say it (they came to say it trembling all over).",
+              "zh": "他們來說這件事時全身發抖（他們渾身顫抖地前來報告）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K'LA",
+      "tag": "(R)",
+      "fr": "Savoir - connaître. (var. = KILâ ).",
+      "en": "To know - to be acquainted with. (var. = KILâ).",
+      "zh": "知道——認識。（或：KILâ）。",
+      "examples": [
+        {
+          "t": "K'la sao kia ka knnaqex lnglongan so !",
+          "fr": "Ah c'est comme celà que tu as un coeur mauvais !",
+          "en": "Ah, so that is how it is — you have a wicked heart!",
+          "zh": "啊，原來你的心竟是這麼壞！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mk'la",
+          "paradigm": "°Mk'la, k'la, k'lae, klaan, klaon.",
+          "fr": "Savoir - connaitre.",
+          "en": "To know - to be acquainted with.",
+          "zh": "知道——認識。",
+          "examples": [
+            {
+              "t": "Mk'la so bi kari troko ka iso",
+              "fr": "Tu sais bien parler taroko, toi!",
+              "en": "You certainly know how to speak Taroko!",
+              "zh": "你太魯閣語說得真好！"
+            },
+            {
+              "t": "Mk'la so musa madok ?",
+              "fr": "Sais tu (es tu capable d' ) aller à la chasse ?",
+              "en": "Do you know how (are you able) to go hunting?",
+              "zh": "你會（有能力）去打獵嗎？"
+            },
+            {
+              "t": "Wada ? Ini xo ? Ima mk'la!",
+              "fr": "Il est parti ? Il n'est pas parti ? Qui le sait !",
+              "en": "Has he left? Has he not left? Who knows!",
+              "zh": "他走了嗎？還沒走嗎？誰知道呢！"
+            }
+          ]
+        },
+        {
+          "form": "Kk'la",
+          "fr": "Pour que tu (vous, ils) saches.",
+          "en": "So that you (you pl., they) may know.",
+          "zh": "為了讓你（你們、他們）知道。",
+          "examples": [
+            {
+              "t": "Kari na nii o, kk'la so \"lu ddaon",
+              "fr": "Ce qu'il vient de dire, c'est pour que tu saches bien la route à suivre.",
+              "en": "What he has just said is so that you may know well the road to follow.",
+              "zh": "他剛才說的話，是為了讓你清楚知道該走的路。"
+            }
+          ]
+        },
+        {
+          "form": "Klaon",
+          "fr": "Objet de la connaissance - ce qui est à savoir.",
+          "en": "Object of knowledge - that which is to be known.",
+          "zh": "認識的對象——當知道的事。",
+          "examples": [
+            {
+              "t": "Adi so klaon ka sadyaq kia",
+              "fr": "Tu ne dois pas connaître cette personne là.",
+              "en": "You must not know that person.",
+              "zh": "你不該認識那個人。"
+            },
+            {
+              "t": "Klaon so bi ka kari mo ?",
+              "fr": "Sais tu bien ce que je dis ?",
+              "en": "Do you understand well what I am saying?",
+              "zh": "你清楚明白我說的話嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Mnk'la",
+          "fr": "Savait - connaissait.",
+          "en": "Knew - was acquainted with.",
+          "zh": "曾知道——曾認識。",
+          "examples": [
+            {
+              "t": "Mnk'la ko bi kari troko suxal",
+              "fr": "Autrefois, dans le temps, je savais bien parler taroko.",
+              "en": "In the old days, once upon a time, I could speak Taroko well.",
+              "zh": "從前，在過去，我太魯閣語說得很好。"
+            }
+          ]
+        },
+        {
+          "form": "Nklaan",
+          "fr": "Partie de ce qui est connu.",
+          "en": "Part of what is known.",
+          "zh": "所知事物的一部分。",
+          "examples": [
+            {
+              "t": "Nklaan so ka Xea?",
+              "fr": "Tu le connaissais ? (Il faisait partie de ce que tu savais ?).",
+              "en": "Did you know him? (Was he part of what you knew?).",
+              "zh": "你以前認識他嗎？（他屬於你所知道的範圍嗎？）。"
+            }
+          ]
+        },
+        {
+          "form": "Pk'la",
+          "fr": "Apprendre (à quelqu'un) - informer.",
+          "en": "To make known (to someone) - to inform.",
+          "zh": "告知（某人）——通知。",
+          "examples": [
+            {
+              "t": "Miyax pk'la sunan ka sao nlnglongan sadyaq",
+              "fr": "Je viens te faire savoir ce que pensent les gens.",
+              "en": "I have come to let you know what people are thinking.",
+              "zh": "我來告訴你人們的想法。"
+            }
+          ]
+        },
+        {
+          "form": "Pgk'la",
+          "fr": "Faire qu'on sache - Faire connaitre.",
+          "en": "To cause someone to know - to make known.",
+          "zh": "使人知道——使人認識。",
+          "examples": [
+            {
+              "t": "Psaon miso matas iyux ko pgk'la sunan (so ?) kana ka knk'laan nbabao d'xgal",
+              "fr": "Je te ferai étudier voulant te faire connaitre toutes les sciences de la terre.",
+              "en": "I will have you study, wishing to make known to you all the sciences of the earth.",
+              "zh": "我要讓你讀書，想讓你認識世上所有的學問。"
+            }
+          ]
+        },
+        {
+          "form": "Pgklanai",
+          "fr": "afin de (instrument) vous faire savoir.",
+          "en": "in order to (instrumental) make you know.",
+          "zh": "為了（工具格）讓你們知道。",
+          "examples": [
+            {
+              "t": "Sao kia do , pgklanai mako munan ka balae bi do, saon mo mangal ka xea",
+              "fr": "Aussi (s'il en est ainsi), pour vous faire savoir que c'est vraiment vrai, je veux aller le chercher.",
+              "en": "So (if that is how it is), to let you know that it is really true, I want to go and fetch it.",
+              "zh": "既然如此，為了讓你們知道這是千真萬確的，我要去把它拿來。"
+            }
+          ]
+        },
+        {
+          "form": "Knk'la",
+          "fr": "extension, qualité du savoir.",
+          "en": "extent, quality of knowledge.",
+          "zh": "知識的廣度、程度。",
+          "examples": [
+            {
+              "t": "Tayal knk'la so",
+              "fr": "Comme tu sais bien! (vl. Comme tu en sais long !).",
+              "en": "How much you know! (var. How knowledgeable you are!).",
+              "zh": "你懂得真多！（或：你的見識真廣！）。"
+            }
+          ]
+        },
+        {
+          "form": "Knklaan",
+          "fr": "Connaissance - science. (Knk'laan (?)).",
+          "en": "Knowledge - science. (Knk'laan (?)).",
+          "zh": "知識——學問。（Knk'laan（？））。",
+          "examples": [
+            {
+              "t": "Ongat pdkaan ka knklaan (knk'laan) so",
+              "fr": "Ta science est exceptionnelle.",
+              "en": "Your knowledge is exceptional.",
+              "zh": "你的學問無與倫比。"
+            }
+          ]
+        },
+        {
+          "form": "Gnk'la",
+          "fr": "Les personnes connues.",
+          "en": "The people one knows; acquaintances.",
+          "zh": "認識的人——熟人。",
+          "examples": [
+            {
+              "t": "Mnssli sapax na kana ka llingai ni gnk'la na",
+              "fr": "Tous ses voisins et ses connaissances se sont réunis dans sa maison.",
+              "en": "All his neighbours and acquaintances gathered in his house.",
+              "zh": "他所有的鄰居和熟人都聚集在他家裡。"
+            }
+          ]
+        },
+        {
+          "form": "Sk'la",
+          "fr": "Etre à temps - arriver assez tôt - rattraper.",
+          "en": "To be in time - to arrive early enough - to catch up with.",
+          "zh": "來得及——及早到達——趕上。",
+          "examples": [
+            {
+              "t": "Snk'la ko xali tndyalan daxa",
+              "fr": "Je suis arrivé juste assez tôt pour (voir, participer à) leur combat.",
+              "en": "I arrived just in time to (see, take part in) their fight.",
+              "zh": "我剛好及時趕到，得以（看到、參與）他們的打鬥。"
+            },
+            {
+              "t": "Wada suni ka xea, adi so sklaon da",
+              "fr": "Il est parti tout à l'heure, lui; Tu n'arriveras pas à le rattraper. ( A distinguer : Smk'la, et: Smkila. Smk'la = rattraper; Smkila = S'habituer, se plaire;)",
+              "en": "He left just a moment ago; you will not manage to catch up with him. (To be distinguished: Smk'la and Smkila. Smk'la = to catch up; Smkila = to get used to, to feel at home;)",
+              "zh": "他剛剛才走；你追不上他了。（應區分：Smk'la 與 Smkila。Smk'la＝趕上；Smkila＝習慣、感到自在；）"
+            },
+            {
+              "t": "Smkila ko sapax so",
+              "fr": "Je me plais bien chez toi.",
+              "en": "I feel very much at home at your place.",
+              "zh": "我在你家覺得很自在。"
+            }
+          ]
+        },
+        {
+          "form": "Tnk'la",
+          "fr": "En venir à bout - avoir le dessus.",
+          "en": "To overcome - to get the upper hand.",
+          "zh": "克服——佔上風。",
+          "examples": [
+            {
+              "t": "Ongat bi ka ini na tnk'lae ka Tama ta",
+              "fr": "Il n'est rien qui soit impossible à notre Père.",
+              "en": "There is nothing that is impossible for our Father.",
+              "zh": "對我們的天父而言，沒有任何事是不可能的。"
+            },
+            {
+              "t": "Pani bi ka tasil nii xo? ... Adi mo tnk'laon (tnklaon).",
+              "fr": "Porte donc un peu cette pierre ... Je n'y arriverai pas (ce n'est pas possible pour moi ).",
+              "en": "Just try carrying this stone... I will not manage it (it is not possible for me).",
+              "zh": "你來搬搬看這塊石頭……我搬不動（這對我來說不可能）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLADAO",
+      "tag": "(R)",
+      "fr": "Guêpe.",
+      "en": "Wasp.",
+      "zh": "胡蜂。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "K'LAE",
+      "tag": "(R)",
+      "fr": "Dur - résistant - cher.",
+      "en": "Hard - resistant - expensive.",
+      "zh": "硬的——堅韌的——昂貴的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mk'lae",
+          "fr": "Qui est dur, cher, résitant.",
+          "en": "That which is hard, expensive, resistant.",
+          "zh": "硬的、貴的、堅韌的。",
+          "examples": [
+            {
+              "t": "Mk'lae bi ka tunux mo",
+              "fr": "1) ma tête est dure; 2) J'ai du mal d'apprendre.",
+              "en": "1) my head is hard; 2) I have trouble learning.",
+              "zh": "1）我的頭很硬；2）我學東西很吃力。"
+            },
+            {
+              "t": "Mk'lae bligan ka xei siyam",
+              "fr": "la viande de porc (le lard) est chère.",
+              "en": "pork (fat pork) is expensive.",
+              "zh": "豬肉（肥肉）很貴。"
+            },
+            {
+              "t": "Mk'lae bi lnglongan na",
+              "fr": "Il est persévérant - Il ne se laisse pas attendrir.",
+              "en": "He is persevering - he does not let himself be softened.",
+              "zh": "他很有毅力——他不會心軟。"
+            }
+          ]
+        },
+        {
+          "form": "Pk'lae",
+          "paradigm": "°Mpk'lae, pk'lae, pklay, pklayan, pklayun.",
+          "fr": "Fortifier - endurcir.",
+          "en": "To strengthen - to harden.",
+          "zh": "使堅固——使堅硬。",
+          "examples": [
+            {
+              "t": "Pk'lae tityex papaq so",
+              "fr": "Affermis un peu ton pied.",
+              "en": "Steady your foot a little.",
+              "zh": "把你的腳站穩一點。"
+            },
+            {
+              "t": "Pklayun mo kia",
+              "fr": "Je l'affermirai dans un moment.",
+              "en": "I will steady it in a moment.",
+              "zh": "我待會兒就把它弄穩固。"
+            }
+          ]
+        },
+        {
+          "form": "Knklayan",
+          "fr": "Dureté - Cherté - résistance.",
+          "en": "Hardness - costliness - resistance.",
+          "zh": "硬度——昂貴——堅韌。",
+          "examples": [
+            {
+              "t": "Wada wada ka knklayan xei siyam",
+              "fr": "La cherté de la viande de porc ne cesse pas d'augmenter.",
+              "en": "The price of pork keeps on rising.",
+              "zh": "豬肉的價格不斷上漲。"
+            },
+            {
+              "t": "Daxa tasil nii o, ini pndka ka knklayan daxa",
+              "fr": "Ces deux pierres n'ont pas la même dureté.",
+              "en": "These two stones do not have the same hardness.",
+              "zh": "這兩塊石頭的硬度不一樣。"
+            }
+          ]
+        },
+        {
+          "form": "Tkk'lae",
+          "fr": "Qui est dans un état très dur, très résistant. (vl. Fortifier très soigneusement ?).",
+          "en": "That which is in a very hard, very resistant state. (var. To strengthen very carefully?).",
+          "zh": "處於非常堅硬、非常堅韌狀態的。（或：非常細心地加固？）。",
+          "examples": [
+            {
+              "t": "Tkk'lae bi ka lnglongan namo",
+              "fr": "Votre coeur est très endurci.",
+              "en": "Your heart is very hardened.",
+              "zh": "你們的心非常剛硬。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "K'LAP",
+      "tag": "",
+      "fr": "Le fait de capturer - attrape!",
+      "en": "The act of capturing - catch him!",
+      "zh": "捕捉這件事——抓住！",
+      "examples": [
+        {
+          "t": "Lngagan mo o , kika (kia ka) xea ! K'lap!",
+          "fr": "Celui à qui j'aurai parlé, c'est celui là! attrapez le !",
+          "en": "The one I will have spoken to, that is the one! Seize him!",
+          "zh": "我對他說過話的那個人，就是他！抓住他！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kmlap",
+          "paradigm": "°Kmlap, k'lap, klapi, klapan, klapun.",
+          "fr": "Attraper - capturer.",
+          "en": "To catch - to capture.",
+          "zh": "抓住——捕捉。",
+          "examples": [
+            {
+              "t": "Klapun miso kia",
+              "fr": "Je t'attraperai bien !",
+              "en": "I will surely catch you!",
+              "zh": "我一定會抓到你！"
+            },
+            {
+              "t": "Tnoxoi ko munan s'xiga, ma ko namo ini klapi sida",
+              "fr": "J'étais avec vous hier, pourquoi ne m'avez vous pas capturé à ce moment là ?",
+              "en": "I was with you yesterday; why did you not capture me at that moment?",
+              "zh": "我昨天和你們在一起，你們為什麼不在那時候抓我？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "KLAQEL",
+      "tag": "(R)",
+      "fr": "( QLAQEL ?) Peau - cuir - fourrure.",
+      "en": "(QLAQEL?) Skin - leather - fur.",
+      "zh": "（QLAQEL？）皮膚——皮革——毛皮。",
+      "examples": [
+        {
+          "t": "Klaqel bi manu ka lukus so ?",
+          "fr": "Ton habit est en quelle sorte de peau ?",
+          "en": "What kind of skin is your garment made of?",
+          "zh": "你的衣服是用哪種皮做的？"
+        },
+        {
+          "t": "Ya qdani ka klaqel kating so; bligun mo.",
+          "fr": "Ne jette pas ta peau de buffle; je veux la vendre.",
+          "en": "Do not throw away your buffalo hide; I want to sell it.",
+          "zh": "別把你的水牛皮丟掉；我要拿去賣。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KLARI",
+      "tag": "",
+      "fr": "(QLARI ?) = Pierre de silex qui servait aux taroko pour taper leur briquet d'amadou.",
+      "en": "(QLARI?) = Flint stone that the Taroko used to strike their tinder lighter.",
+      "zh": "（QLARI？）＝太魯閣人從前用來敲擊火絨打火器的燧石。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "KLAWA",
+      "tag": "(R)",
+      "fr": "Prendre soin de - s'occuper de - couver.",
+      "en": "To take care of - to look after - to brood (sit on eggs).",
+      "zh": "照顧——照料——孵蛋。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Kmlawa",
+          "paradigm": "°Kmlawa, klawa, klwaai, klwaan, klwaon.",
+          "fr": "Prendre soin de - couver.",
+          "en": "To take care of - to brood.",
+          "zh": "照顧——孵蛋。",
+          "examples": [
+            {
+              "t": "Ga kmlawa ka lodoç mo",
+              "fr": "Ma poule couve.",
+              "en": "My hen is brooding.",
+              "zh": "我的母雞正在孵蛋。"
+            },
+            {
+              "t": "Kmlawa ko lqlaqe, xan; klwaon mo saman ka llisao ni uua da",
+              "fr": "Pour le moment je m'occupe des enfants; Je m'occuperai demain des garçons et des filles.",
+              "en": "For the moment I am looking after the children; tomorrow I will look after the boys and the girls.",
+              "zh": "目前我先照顧孩子們；明天我再照顧男孩和女孩。"
+            }
+          ]
+        },
+        {
+          "form": "Mklawa",
+          "fr": "Gérant - administrateur - surveillant.",
+          "en": "Manager - administrator - supervisor.",
+          "zh": "管理者——行政人員——監督者。",
+          "examples": [
+            {
+              "t": "Ima ka pusu bi mklawa sapax ptasan namo?",
+              "fr": "Qui est l'administrateur en chef de votre école?",
+              "en": "Who is the head administrator of your school?",
+              "zh": "你們學校的主要負責人是誰？"
+            }
+          ]
+        },
+        {
+          "form": "Klwaan",
+          "fr": "Lieu ou temps où l'on est responsable - Manière d'administrer.",
+          "en": "Place or time for which one is responsible - manner of administering.",
+          "zh": "所負責的地方或時期——管理的方式。",
+          "examples": [
+            {
+              "t": "Paro xali ka klwaan mo",
+              "fr": "Il est assez important le territoire dont je suis responsable.",
+              "en": "The territory I am responsible for is quite large.",
+              "zh": "我所管轄的地區相當大。"
+            }
+          ]
+        },
+        {
+          "form": "Knlwaan (knloaan)",
+          "fr": "Territoire administré dans le passé - Administration passée - couvée.",
+          "en": "Territory administered in the past - past administration - brood (of chicks).",
+          "zh": "過去管轄的地區——昔日的治理——一窩孵出的雛鳥。",
+          "examples": [
+            {
+              "t": "Knlwaan Pexo suxal ka suyang balae",
+              "fr": "C'est la conduite (l'administration) de Perho autrefois qui était excellente.",
+              "en": "It was Pexo's governance (administration) in the old days that was excellent.",
+              "zh": "從前 Pexo 的治理（管理）才是最出色的。"
+            }
+          ]
+        },
+        {
+          "form": "Pklawa",
+          "fr": "Faire gérer - faire administrer - faire prendre soin.",
+          "en": "To have managed - to have administered - to have taken care of.",
+          "zh": "使人管理——使人治理——託人照顧。",
+          "examples": [
+            {
+              "t": "saon mo pklawa laqe sapax Agil",
+              "fr": "Je veux aller mettre mon enfant chez Aguil pour le faire garder.",
+              "en": "I want to go and place my child at Agil's house to have her look after him.",
+              "zh": "我要把孩子送到 Agil 家請她照顧。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

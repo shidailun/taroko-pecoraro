@@ -1,0 +1,826 @@
+{
+  "pages": [278, 281],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "SKA",
+      "tag": "(R)",
+      "fr": "Au milieu - à l'intérieur - dans.",
+      "en": "In the middle - inside - within.",
+      "zh": "在中間－在裡面－在……之內。",
+      "examples": [
+        {
+          "t": "Ska xedao",
+          "fr": "Midi ( le milieu du soleil).",
+          "en": "Noon (the middle of the sun).",
+          "zh": "中午（太陽的正中）。"
+        },
+        {
+          "t": "Ska labe (skarabe)",
+          "fr": "Minuit (le milieu de la nuit).",
+          "en": "Midnight (the middle of the night).",
+          "zh": "午夜（夜的正中）。"
+        },
+        {
+          "t": "Nta da tloong ska sapax da",
+          "fr": "Allons nous asseoir dans la maison.",
+          "en": "Let's go and sit inside the house.",
+          "zh": "我們進屋裡坐吧。"
+        },
+        {
+          "t": "Psaon so ska totox nii ka pila so",
+          "fr": "Est-ce que tu comptes mettre ton argent dans cette boîte ?",
+          "en": "Do you intend to put your money inside this box?",
+          "zh": "你打算把你的錢放進這個盒子裡嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Kska",
+          "fr": "Qui est de fait situé à l'intérieur - qui est dedans.",
+          "en": "That which is in fact located inside - that which is within.",
+          "zh": "實際上位於裡面的－在其中的。",
+          "examples": [
+            {
+              "t": "Kska namo o, ongat ana kingal ka mk'la!",
+              "fr": "Parmi vous, il n'y a personne qui sache!",
+              "en": "Among you, there is no one who knows!",
+              "zh": "你們當中，沒有一個人知道！"
+            },
+            {
+              "t": "Mami o, l'xeq na ka mixol bi; kska na xea do, kika msïbus balae",
+              "fr": "Dans une orange, C'est sa peau qui est très amère; dans son intérieur (à l'intérieur d'elle), là c'est vraiment sucré.",
+              "en": "In an orange, it is its skin that is very bitter; in its interior (inside it), there it is really sweet.",
+              "zh": "橘子裡，很苦的是它的皮；在它的內部（在它裡面），那裡才真的是甜的。"
+            }
+          ]
+        },
+        {
+          "form": "Msska",
+          "fr": "Se craqueler - se fendiller.",
+          "en": "To crack - to split.",
+          "zh": "龜裂－裂開。",
+          "examples": [
+            {
+              "t": "Naqex bi ka tasil kia; ini biyao msska kana ka xea",
+              "fr": "Cette pierre là n'est vraiment pas bonne; elle se fendille toute très facilement.",
+              "en": "That stone there really isn't good; it all splits very easily.",
+              "zh": "那塊石頭真的不好；它整個都很容易裂開。"
+            },
+            {
+              "t": "Nasi tabu ka slaan so talngan o, ida msska ka xea",
+              "fr": "Si tu prends du bois blanc pour fabriquer tes chaises, naturellement il va tout se fendiller.",
+              "en": "If you take white wood to make your chairs, naturally it will all split.",
+              "zh": "如果你用白木來做你的椅子，它自然會整個裂開。"
+            }
+          ]
+        },
+        {
+          "form": "Mgska",
+          "fr": "Qui se trouve parmi - qui est au milieu de (nb. MGSKA semble bien n'être qu'une variante de MKSKA, qui a le même sens).",
+          "en": "That which is among - that which is in the middle of (n.b. MGSKA does indeed seem to be only a variant of MKSKA, which has the same meaning).",
+          "zh": "處於……之中的－位於……中間的（註：MGSKA 看來確實只是 MKSKA 的變體，兩者意思相同）。",
+          "examples": []
+        },
+        {
+          "form": "Pgska (pkska)",
+          "fr": "Mettre au milieu de.",
+          "en": "To put in the middle of.",
+          "zh": "放到……中間。",
+          "examples": [
+            {
+              "t": "Balae bi pgskaon so gnluban daxa ka laqe so xo?",
+              "fr": "Est-ce que vraiment tu veux faire entrer ton fils dans leur association ?",
+              "en": "Do you really want to bring your son into their association?",
+              "zh": "你真的想讓你兒子加入他們的團體嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Smka",
+          "fr": "Demi - moitié.",
+          "en": "Half.",
+          "zh": "一半－半。",
+          "examples": [
+            {
+              "t": "Kingal bi blubul ni smka ka wada mo oqon",
+              "fr": "Je n'ai mangé qu'une banane et demie.",
+              "en": "I only ate one and a half bananas.",
+              "zh": "我只吃了一根半的香蕉。"
+            },
+            {
+              "t": "Betak bi dmka plato ka maxon mo sinao",
+              "fr": "Je ne boirai pas plus d'une demi-tasse d'alcool. (nb. ces deux termes: SMKA et DMKA (sans doute deux variantes du même mot), doivent dériver de la base DKA).",
+              "en": "I will not drink more than half a cup of alcohol. (n.b. these two terms: SMKA and DMKA (no doubt two variants of the same word) must derive from the base DKA).",
+              "zh": "我喝酒不會超過半杯。（註：SMKA 與 DMKA 這兩個詞（無疑是同一個詞的兩個變體）想必都源自詞根 DKA。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKAGUL",
+      "tag": "(R)",
+      "fr": "Envoyer - donner mission - faire partir.",
+      "en": "To send - to give a mission - to send off.",
+      "zh": "派遣－交付任務－使出發。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smkagul",
+          "paradigm": "° Smkagul, skagul, skguli, skgulan, skgulun.",
+          "fr": "d° forme verbale.",
+          "en": "ditto (d°), verbal form of the preceding.",
+          "zh": "同上（d°），前項之動詞形。",
+          "examples": [
+            {
+              "t": "Balae bi Atwi ka skgulun so?",
+              "fr": "C'est bien Atoui que tu veux envoyer ?",
+              "en": "Is it really Atoui that you want to send?",
+              "zh": "你想派遣的真的是 Atoui 嗎？"
+            },
+            {
+              "t": "Ma\" ini so skguli ka laqe so?",
+              "fr": "Pourquoi ne demandes tu pas à ton fils d'aller ?",
+              "en": "Why don't you ask your son to go?",
+              "zh": "你為什麼不叫你兒子去呢？"
+            },
+            {
+              "t": "Lmnglong ko smkagul D'ua musa mita dludan (dldanan)",
+              "fr": "Je pense envoyer les jeunes filles faire une visite aux vieillards.",
+              "en": "I am thinking of sending the young girls to pay a visit to the old people.",
+              "zh": "我想派年輕女孩去探望老人家。"
+            }
+          ]
+        },
+        {
+          "form": "Smnkagul",
+          "fr": "Envoyais.",
+          "en": "Was sending / used to send.",
+          "zh": "（過去）在派遣。",
+          "examples": [
+            {
+              "t": "Smnkagul ko Banan s'xiga",
+              "fr": "J'envoyais Ibanne(j'ai envoyé Ibanne)hier.",
+              "en": "I was sending Ibanne (I sent Ibanne) yesterday.",
+              "zh": "我昨天在派遣 Ibanne（我昨天派了 Ibanne）。"
+            }
+          ]
+        },
+        {
+          "form": "Snkagul",
+          "fr": "Celui qui a été envoyé.",
+          "en": "The one who was sent.",
+          "zh": "被派遣的人。",
+          "examples": [
+            {
+              "t": "Wada mo snkagul s'xiga ka Iban",
+              "fr": "Je l'ai envoyé hier, Ibanne ( Ibanne est celui que j'ai envoyé hier).",
+              "en": "I sent him yesterday, Ibanne (Ibanne is the one I sent yesterday).",
+              "zh": "我昨天派了他，Ibanne（Ibanne 就是我昨天派去的人）。"
+            }
+          ]
+        },
+        {
+          "form": "Mpskagul",
+          "fr": "d° au futur.",
+          "en": "ditto (d°), in the future tense.",
+          "zh": "同上（d°），未來式。",
+          "examples": [
+            {
+              "t": "Mpskagul ko sadyaq saman ka yako",
+              "fr": "Moi, j'enverrai des gens demain.",
+              "en": "As for me, I will send people tomorrow.",
+              "zh": "我呢，明天會派人去。"
+            }
+          ]
+        },
+        {
+          "form": "Pskagul",
+          "fr": "Faire envoyer - faire donner mission.",
+          "en": "To have (someone) send - to have (someone) give a mission.",
+          "zh": "使人派遣－使人交付任務。",
+          "examples": [
+            {
+              "t": "Ma\" ini so pskagul kingal laqe musa mita?",
+              "fr": "Pourquoi ne fais tu pas envoyer un enfant qui aille voir ?",
+              "en": "Why don't you have a child sent to go and see?",
+              "zh": "你為什麼不派一個孩子去看看呢？"
+            }
+          ]
+        },
+        {
+          "form": "Kmpskgulun",
+          "fr": "Celui qu'on désire faire envoyer - Le temps où l'on désire faire envoyer quelqu'un.",
+          "en": "The one whom one wishes to have sent - The time at which one wishes to have someone sent.",
+          "zh": "想要派去的人－想要派人去的時候。",
+          "examples": [
+            {
+              "t": "Kmpskgulun mo saman ka laqe",
+              "fr": "L'enfant est celui que je désire faire envoyer demain.",
+              "en": "The child is the one I wish to have sent tomorrow.",
+              "zh": "這孩子就是我想在明天派去的人。"
+            },
+            {
+              "t": "Kmpskgulun mo laqe ka saman",
+              "fr": "Demain est le jour où je désire faire envoyer l'enfant.",
+              "en": "Tomorrow is the day on which I wish to have the child sent.",
+              "zh": "明天就是我想派這孩子去的日子。"
+            }
+          ]
+        },
+        {
+          "form": "Mskagul (vl. mpskagul)",
+          "fr": "Etre celui qui envoye, qui donne mission.",
+          "en": "To be the one who sends, who gives a mission. (var. mpskagul)",
+          "zh": "作那派遣、交付任務的人。（或：mpskagul）",
+          "examples": [
+            {
+              "t": "Tama nanak ka mskagul",
+              "fr": "Ce n'est que le père qui envoye.",
+              "en": "It is only the father who sends.",
+              "zh": "只有父親才派遣。"
+            },
+            {
+              "t": "Tama nanak ka mpskagul",
+              "fr": "C'est le père lui même qui enverra.",
+              "en": "It is the father himself who will send.",
+              "zh": "是父親本人要派遣。"
+            }
+          ]
+        },
+        {
+          "form": "Snkgulan",
+          "fr": "Celui qui a reçu mission - temps, lieu de l'envoi.",
+          "en": "The one who has received a mission - the time, the place of the sending.",
+          "zh": "受命的人－派遣的時間、地點。",
+          "examples": [
+            {
+              "t": "Giso kana ka snkgulan daxa",
+              "fr": "Voici qu'arrivent tous leurs envoyés.",
+              "en": "Here come all their envoys.",
+              "zh": "他們所有的使者都來了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKAYA",
+      "tag": "(R)",
+      "fr": "Voler (avion, oiseau..) - Emporté par le vent.",
+      "en": "To fly (airplane, bird..) - Carried off by the wind.",
+      "zh": "飛（飛機、鳥……）－被風吹走。",
+      "examples": [
+        {
+          "t": "Aso skaya",
+          "fr": "Avion (bateau qui vole).",
+          "en": "Airplane (a boat that flies).",
+          "zh": "飛機（會飛的船）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mskaya",
+          "fr": "Qui vole - qui s'envole.",
+          "en": "That which flies - that which takes flight.",
+          "zh": "在飛的－起飛的。",
+          "examples": [
+            {
+              "t": "Miyax mskaya babao pxdagan kana ka qbxni",
+              "fr": "Tous les oiseaux viennent voler au dessus de l'aire.",
+              "en": "All the birds come and fly above the threshing floor.",
+              "zh": "所有的鳥都飛來曬穀場上空。"
+            }
+          ]
+        },
+        {
+          "form": "Pskaya",
+          "fr": "Faire voler - faire s'envoler.",
+          "en": "To make fly - to make take flight.",
+          "zh": "使……飛－使……起飛。",
+          "examples": [
+            {
+              "t": "Ini so pskaya sayang ka aso so da (vl. aso skaya so da)?",
+              "fr": "Tu ve fais pas voler maintenant, ton avion ?",
+              "en": "Aren't you going to fly your airplane now? (var. aso skaya so da)",
+              "zh": "你現在不讓你的飛機飛嗎？（或：aso skaya so da）"
+            },
+            {
+              "t": "Ya sqoaq ! Pskyaon so kia ka qbxni da !",
+              "fr": "Ne fais pas de bruit (= ne parlez pas) ! Tu vas faire s'envoler l'oiseau !",
+              "en": "Don't make noise (= don't talk)! You are going to make the bird fly away!",
+              "zh": "別出聲（＝別說話）！你會把鳥嚇飛的！"
+            }
+          ]
+        },
+        {
+          "form": "Mpskaya",
+          "fr": "Capable de voler - qui s'envolera - celui qui fera voler.",
+          "en": "Capable of flying - that which will take flight - the one that will make (things) fly.",
+          "zh": "能飛的－將要起飛的－會使東西飛起來的。",
+          "examples": [
+            {
+              "t": "Psaon so sbxolan do, mpskaya kana ka lpi so da",
+              "fr": "Si tu le déposes dans un endroit où il-y-a du vent, toute ta balle (de riz) va s'envoler !",
+              "en": "If you put it down in a windy place, all your (rice) chaff will fly away!",
+              "zh": "如果你把它放在有風的地方，你的稻殼會全部飛走！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKILA",
+      "tag": "(R)",
+      "fr": "Se plaire (quelque part) - se trouver bien.",
+      "en": "To be happy (somewhere) - to feel at ease.",
+      "zh": "（在某處）感到愉快－覺得自在。",
+      "examples": [
+        {
+          "t": "Ini ko skila alang namo xeni !",
+          "fr": "Je suis dépaysé ( Je ne me trouve pas bien - je ne m'acclimate pas ) dans votre pays (ici).",
+          "en": "I feel out of place (I don't feel at ease - I can't acclimatize) in your country (here).",
+          "zh": "在你們的地方（這裡），我很不適應（我覺得不自在－我無法適應水土）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smkila",
+          "fr": "d° forme verbale.",
+          "en": "ditto (d°), verbal form of the preceding.",
+          "zh": "同上（d°），前項之動詞形。",
+          "examples": [
+            {
+              "t": "Smkila ko bi xeni ka yako",
+              "fr": "Moi, je me plais parfaitement ici.",
+              "en": "As for me, I am perfectly happy here.",
+              "zh": "我呢，我在這裡非常自在。"
+            }
+          ]
+        },
+        {
+          "form": "Snkila (snkiila)",
+          "fr": "Qui se plaît (quelque part) - qui est acclimaté - qui ne trouve pas le temps long.",
+          "en": "That which is happy (somewhere) - that which is acclimatized - that which does not find time dragging.",
+          "zh": "（在某處）感到愉快的－適應了水土的－不覺得時間難熬的。",
+          "examples": [
+            {
+              "t": "Snkila bi bbuyo ka bauxi",
+              "fr": "Le lys se plaît en montagne.",
+              "en": "The lily thrives in the mountains.",
+              "zh": "百合花在山上長得很好。"
+            },
+            {
+              "t": "Snkila bi alang paro ka laqe mo",
+              "fr": "Ma fille est très bien habituée à la ille (elle se trouve bien en ville).",
+              "en": "My daughter is very well used to the town (she is happy in town).",
+              "zh": "我女兒很習慣城裡的生活（她在城裡過得很自在）。"
+            },
+            {
+              "t": "Ma\" so sao snkila !",
+              "fr": "Ma parole ! On dirait que tu t'installes !",
+              "en": "My word! It looks like you're settling in!",
+              "zh": "我的天！看來你是要定居下來了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SK'LA",
+      "tag": "(R. = K'LA ?)",
+      "fr": "Etre à temps - arriver à l'heure - rattraper.",
+      "en": "To be on time - to arrive on time - to catch up.",
+      "zh": "準時－及時到達－趕上。",
+      "examples": [
+        {
+          "t": "Ini ko sk'la tdoloi da",
+          "fr": "Voilà que j'ai manqué mon train.",
+          "en": "There, I've missed my train.",
+          "zh": "這下我錯過了火車。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snk'la",
+          "fr": "d° forme verbale.",
+          "en": "ditto (d°), verbal form of the preceding.",
+          "zh": "同上（d°），前項之動詞形。",
+          "examples": [
+            {
+              "t": "Snk'la so nimax sinao xo?",
+              "fr": "Es tu arrivé assez tôt pour boire la bierre ?",
+              "en": "Did you arrive early enough to drink the beer?",
+              "zh": "你到得夠早，趕得上喝啤酒嗎？"
+            },
+            {
+              "t": "Wada so sklaon (sk'laon ?) tama ta ka s'xiga xo ?",
+              "fr": "Est-ce que hier tu es arrivé assez tôt pour voir notre papa ?",
+              "en": "Did you arrive early enough yesterday to see our father?",
+              "zh": "你昨天到得夠早，趕得上見我們的父親嗎？"
+            },
+            {
+              "t": "Ini no sklae s'xiga ka tdoloi kika yaxan mc sayang!",
+              "fr": "Je n'ai pas réussi à être à l'heure pour le train, hier, voilà pourquoi je viens maintenant.",
+              "en": "I didn't manage to be on time for the train yesterday, that's why I'm coming now.",
+              "zh": "我昨天沒能趕上火車，所以我現在才來。"
+            }
+          ]
+        },
+        {
+          "form": "Ssk'la",
+          "fr": "Pour être à l'heure.",
+          "en": "In order to be on time.",
+          "zh": "為了準時。",
+          "examples": [
+            {
+              "t": "Mntutwi ko qnqogo lodoç siida ssk'la mo knddaxan daxa",
+              "fr": "Je me suis levé au chant du coq pour être là lors de leur départ.",
+              "en": "I got up at cockcrow in order to be there at their departure.",
+              "zh": "我在雞鳴時就起床，為了在他們出發時趕到那裡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKLEQE",
+      "tag": "(R. = LEQE)",
+      "crossRef": "LEQE",
+      "fr": "Se faire une entorse. VR. LEQE.",
+      "en": "To sprain oneself. See LEQE.",
+      "zh": "扭傷。參見 LEQE。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SKLIBUT",
+      "tag": "(R. = LIBUT)",
+      "crossRef": "LIBUT",
+      "fr": "Heurter - trébucher - commettre une faute. VR. LIBUT.",
+      "en": "To bump - to stumble - to commit a fault. See LIBUT.",
+      "zh": "碰撞－絆倒－犯錯。參見 LIBUT。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SK'LOL",
+      "tag": "(= R. ?)",
+      "fr": "Sentir le brûlé - Aliments qui brûlent dans la cuisson.",
+      "en": "To smell of burning - Food that burns while cooking.",
+      "zh": "有燒焦味－烹煮時燒焦的食物。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msk'lol",
+          "fr": "Qui brûle - qui sent le brûlé.",
+          "en": "That which burns - that which smells burnt.",
+          "zh": "燒焦的－有焦味的。",
+          "examples": [
+            {
+              "t": "Mxa msk'lol kana ka qexöng da!",
+              "fr": "Tous les champignons vont brûler !(= vont sentir le brûlé).",
+              "en": "All the mushrooms are going to burn! (= are going to smell burnt).",
+              "zh": "所有的香菇都要燒焦了！（＝要有焦味了）。"
+            }
+          ]
+        },
+        {
+          "form": "Psk'lol",
+          "fr": "Brûler (des aliments).",
+          "en": "To burn (food).",
+          "zh": "（把食物）燒焦。",
+          "examples": [
+            {
+              "t": "Psklolun so ka idao do, adi mo oqon da!",
+              "fr": "Si tu brûles le riz, moi je ne le mangerai pas !",
+              "en": "If you burn the rice, I won't eat it!",
+              "zh": "如果你把飯燒焦了，我就不吃了！"
+            },
+            {
+              "t": "Ongat bi ka laqe ta da ! Xea bi ka pnsk'lol kana ppadyaq ta",
+              "fr": "Notre fille n'est vraiment bonne à rien! C'est elle qui a brûlé tous nos légumes!",
+              "en": "Our daughter really is good for nothing! It's she who burned all our vegetables!",
+              "zh": "我們的女兒真是一無是處！就是她把我們所有的菜都燒焦了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SK'LÖT",
+      "tag": "(SK'L'T) (R)",
+      "fr": "Serrer très fort - enserrer - étrangler.",
+      "en": "To tighten very hard - to grip tightly - to strangle.",
+      "zh": "勒得很緊－緊束－勒住（絞殺）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msk'löt",
+          "fr": "Qui est serré très fort.",
+          "en": "That which is very tightly bound.",
+          "zh": "勒得很緊的。",
+          "examples": [
+            {
+              "t": "Soqe msk'löt ka xabuk mo nä (da(?))",
+              "fr": "Ma ceinture est vraiment trop serrée.",
+              "en": "My belt is really too tight.",
+              "zh": "我的腰帶真的太緊了。"
+            }
+          ]
+        },
+        {
+          "form": "Psk'löt",
+          "paradigm": "° Mpsk'löt, psk'löt, pskl'ti, pskl'tan, pskl'tun.",
+          "fr": "Serrer très fort - Enlacer très fort - enserrer.",
+          "en": "To tighten very hard - to embrace very tightly - to grip.",
+          "zh": "勒得很緊－緊緊摟抱－束緊。",
+          "examples": [
+            {
+              "t": "Pskl'ti xali ka nugul lämil so!",
+              "fr": "Il te faut serrer un peu plus les lacets de tes chaussures !",
+              "en": "You need to tighten your shoelaces a bit more!",
+              "zh": "你得把鞋帶再繫緊一點！"
+            },
+            {
+              "t": "Pskl'tun sako walo do, mpxoqel ko da !",
+              "fr": "Si tu me serres fort le cou, je mourrai !",
+              "en": "If you squeeze my neck hard, I will die!",
+              "zh": "如果你用力勒我的脖子，我會死的！"
+            }
+          ]
+        },
+        {
+          "form": "Skl'tan",
+          "fr": "Le serrement - étreinte.",
+          "en": "The tightening - the grip / embrace.",
+          "zh": "勒緊－束緊（的方式）。",
+          "examples": [
+            {
+              "t": "Sloxao balae ka skl'tan so",
+              "fr": "Ta ligature (ta manière de serrer) est vraiment lâche.",
+              "en": "Your binding (your way of tightening) is really loose.",
+              "zh": "你綁的（你勒的方式）真的很鬆。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKLUI",
+      "tag": "(R. = KLUI)",
+      "crossRef": "KLUI",
+      "fr": "sursauter - être surpris. VR. KLUI.",
+      "en": "To start (with fright) - to be startled. See KLUI.",
+      "zh": "嚇一跳－受驚。參見 KLUI。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SKOTO",
+      "tag": "(= R. ?)",
+      "fr": "Transi - avoir des fourmis - avoir la chair de poule.",
+      "en": "Numb with cold - to have pins and needles - to have goose bumps.",
+      "zh": "凍僵－發麻－起雞皮疙瘩。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mskoto",
+          "fr": "Qui est engourdi - qui a la chair de poule - qui est transi.",
+          "en": "That which is numb - that which has goose bumps - that which is chilled through.",
+          "zh": "麻木的－起雞皮疙瘩的－凍僵的。",
+          "examples": [
+            {
+              "t": "Mnda pa'qan knskiyan ka dxea ni, mskoto kana xxei daxa da!",
+              "fr": "Ils ont été très exposés au froid (ils se sont faits manger par le froid) et Leurs corps à tous sont engourdis (tout transis).",
+              "en": "They were very exposed to the cold (they got eaten by the cold) and all their bodies are numb (all chilled through).",
+              "zh": "他們受了很多寒（被寒氣侵襲），他們每個人的身體都麻木了（全都凍僵了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKU",
+      "tag": "(R)",
+      "fr": "Ranger - déposer - mettre en réserve - ensevelir.",
+      "en": "To put away - to deposit - to store - to bury.",
+      "zh": "收放－存放－儲存－埋葬。",
+      "examples": [
+        {
+          "t": "Nasi ini so sku pila ka sayang do, adi miso dyagun xeti",
+          "fr": "Si Tu ne mets pas un peu d'argent de côté maintenant (à la caisse d'épargne), je ne veux certainement pas t'aider dans la suite.",
+          "en": "If you don't set aside a little money now (in the savings bank), I certainly won't want to help you later on.",
+          "zh": "如果你現在不存點錢（存到儲蓄銀行），以後我肯定不會想幫你。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smku",
+          "paradigm": "° Smku, sku, skui, skuan, skuon.",
+          "fr": "Mettre en réserve - ensevelir - déposer.",
+          "en": "To store - to bury - to deposit.",
+          "zh": "儲存－埋葬－存放。",
+          "examples": [
+            {
+              "t": "Ka smku lnglongan ka ua so",
+              "fr": "Ta fille (ta fiancée) est rancunière (est cachottière).",
+              "en": "Your girl (your fiancée) is spiteful (is secretive).",
+              "zh": "你的女孩（你的未婚妻）愛記仇（很會藏心事）。"
+            },
+            {
+              "t": "Sai smku n'xali ka pila so da",
+              "fr": "Va donc vite mettre ton argent à la caisse d'épargne.",
+              "en": "Go quickly and put your money in the savings bank.",
+              "zh": "快去把你的錢存進儲蓄銀行吧。"
+            },
+            {
+              "t": "Saon namo smku knuwan ka skBoxil?",
+              "fr": "Quand est-ce que vous irez (vous pensez aller, vous voulez aller) enterrer le cadavre de Borhil ?",
+              "en": "When will you go (do you plan to go, do you want to go) to bury Borhil's body?",
+              "zh": "你們什麼時候會去（打算去、想去）埋葬 Borhil 的遺體？"
+            }
+          ]
+        },
+        {
+          "form": "Psku",
+          "fr": "Faire mettre en réserve - faire enterrer - faire mettre en caisse.",
+          "en": "To have (something) stored - to have (something) buried - to have (something) put in the safe.",
+          "zh": "使人儲存－使人埋葬－使人存進錢櫃。",
+          "examples": [
+            {
+              "t": "Mxa ko Banan psku (ppsku) bilaq pila mo",
+              "fr": "Je vais chez Ibanne faire mettre (pour faire mettre) en lieu sûr le peu d'argent que j'ai.",
+              "en": "I am going to Ibanne's to have the little money I have put in a safe place.",
+              "zh": "我要去 Ibanne 家，把我僅有的一點錢存放在安全的地方。"
+            }
+          ]
+        },
+        {
+          "form": "Skuan",
+          "fr": "Endroit où l'on dépose - Objet que l'on dépose - temps de déposer",
+          "en": "Place where one deposits - Object that one deposits - time to deposit.",
+          "zh": "存放的地方－存放的物品－存放的時間。",
+          "examples": [
+            {
+              "t": "Ga ino ka skuan so payai",
+              "fr": "1) Où est l'endroit où tu as déposé ton riz ? 2) Où est le riz que tu as déposé? (Dans ce cas 2) il est plus courant d'entendre: § Ga ino ka snku so payai ?).",
+              "en": "1) Where is the place where you deposited your rice? 2) Where is the rice you deposited? (In this second case it is more common to hear: § Ga ino ka snku so payai?).",
+              "zh": "1）你放稻米的地方在哪裡？2）你放的稻米在哪裡？（在第 2 種情況下，更常聽到的是：§ Ga ino ka snku so payai ？）。"
+            },
+            {
+              "t": "Ngalun mo l'pun skuan mo payai ka \"bi so",
+              "fr": "Ta cabane me servira de grenier où entre = poser mon riz.",
+              "en": "Your hut will serve me as a granary in which to store my rice.",
+              "zh": "你的小屋可以當我的穀倉，讓我存放稻米。"
+            },
+            {
+              "t": "Ngalun mo l'pun ssku mo payai ka \"bi so",
+              "fr": "Je veux me servir de ta cabane comme grenier afin d'avoir où déposer mon riz.",
+              "en": "I want to use your hut as a granary so as to have somewhere to store my rice.",
+              "zh": "我想把你的小屋當作穀倉，好有地方存放我的稻米。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SKUI",
+      "tag": "(SKWI ?)",
+      "fr": "Bambou nain - (Roseau ?).",
+      "en": "Dwarf bamboo - (Reed?).",
+      "zh": "矮竹－（蘆葦？）。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SKUI",
+      "tag": "(R)",
+      "fr": "Froid - le froid.",
+      "en": "Cold - the cold.",
+      "zh": "冷－寒冷。",
+      "examples": [
+        {
+          "t": "Skui ni koyoç ka sknalox bi blax",
+          "fr": "Ce sont le froid et la pluie qui provoquent les maladies de poitrine. (nb. Ce terme pourrait être amphibologique sans le contexte puisqu'il peut être dérivé de: SKU et signifier: Dépose (impératif);)",
+          "en": "It is cold and rain that cause chest illnesses. (n.b. This term could be ambiguous without context since it may be derived from SKU and mean: Deposit (imperative);)",
+          "zh": "引發胸部疾病的正是寒冷與雨水。（註：這個詞若無上下文可能會有歧義，因為它也可能源自 SKU，意為「存放（命令式）」。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mskui (parfois = Mskwi !!)",
+          "fr": "Il fait froid - c'est froid - est froid.",
+          "en": "It is cold - it's cold - is cold. (sometimes = Mskwi !!)",
+          "zh": "天氣冷－很冷－是冷的。（有時作 Mskwi ！！）",
+          "examples": [
+            {
+              "t": "Mkmisan ka balae bi mskui",
+              "fr": "C'est en hiver qu'il fait vraiment froid.",
+              "en": "It is in winter that it is really cold.",
+              "zh": "真正寒冷是在冬天。"
+            },
+            {
+              "t": "Mskui bi ka sayang, plkusi muxul xali ! (vl. plkusi ka muxul xali)",
+              "fr": "Il fait vraiment froid aujourd'hui; il te faut revêtir quelque chose de chaud (d'un peu plus chaud).(t'habiller plus chaudement).",
+              "en": "It is really cold today; you need to put on something warm (a bit warmer). (dress more warmly). (var. plkusi ka muxul xali)",
+              "zh": "今天真的很冷；你得穿點暖和的（暖一點的）東西。（穿暖一點）。（或：plkusi ka muxul xali）"
+            }
+          ]
+        },
+        {
+          "form": "Kskui",
+          "fr": "Forme négative de MSKUI.",
+          "en": "Negative form of MSKUI.",
+          "zh": "MSKUI 的否定形。",
+          "examples": [
+            {
+              "t": "Mbulang so o, ini so kskui xo?",
+              "fr": "Te voilà nu ; Tu n'as donc pas froid ?",
+              "en": "There you are naked; aren't you cold then?",
+              "zh": "你光著身子；難道你不冷嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Knskiyan (Knskian)",
+          "fr": "Le froid - la froideur.",
+          "en": "The cold - coldness.",
+          "zh": "寒冷－冷冽。",
+          "examples": [
+            {
+              "t": "Mnda nami pa'qan knskian (knskiyan)",
+              "fr": "Nous avons souffert du froid.",
+              "en": "We suffered from the cold.",
+              "zh": "我們受了寒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLAGO",
+      "tag": "(= R. ?)",
+      "fr": "Droit - rectiligne - direct.",
+      "en": "Straight - rectilinear - direct.",
+      "zh": "直－筆直－直接。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mslago",
+          "fr": "Qui est droit, rectiligne, sans détours - qui va droit.",
+          "en": "That which is straight, rectilinear, without detours - that which goes straight.",
+          "zh": "筆直的、直線的、不繞彎的－一直向前的。",
+          "examples": [
+            {
+              "t": "Mslago lnglongan",
+              "fr": "Conscience droite - honnête.",
+              "en": "An upright conscience - honest.",
+              "zh": "正直的良心－誠實。"
+            },
+            {
+              "t": "Mslago bi ka kndl'xan so",
+              "fr": "Vraiment ton mur est bien alligné.",
+              "en": "Your wall is really well aligned.",
+              "zh": "你的牆真的排得很直。"
+            },
+            {
+              "t": "Mslago bi ka sadyaq nii",
+              "fr": "Cet homme est honnête (loyal).",
+              "en": "This man is honest (loyal).",
+              "zh": "這個人很誠實（忠實）。"
+            },
+            {
+              "t": "Mslago musa",
+              "fr": "Aller tout droit.",
+              "en": "To go straight ahead.",
+              "zh": "一直往前走。"
+            }
+          ]
+        },
+        {
+          "form": "Pslago",
+          "paradigm": "° Mpslago, pslago, pslgui, pslguan, pslguon.",
+          "fr": "Rectifier - redresser - amender.",
+          "en": "To rectify - to straighten - to amend.",
+          "zh": "矯正－扶正－改正。",
+          "examples": [
+            {
+              "t": "Baka bi pslguan lnglongan",
+              "fr": "Il est temps de s'amender un peu (de redresser la conscience).",
+              "en": "It is time to mend one's ways a little (to straighten one's conscience).",
+              "zh": "該稍微改過自新了（該把良心導正了）。"
+            },
+            {
+              "t": "Pslguon mo nxal ka qnliyan daxa (qnali daxa)",
+              "fr": "Je veux redresser un jour la tranchée qu'ils ont faite.",
+              "en": "One day I want to straighten out the trench that they made.",
+              "zh": "我想有一天把他們挖的溝渠弄直。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

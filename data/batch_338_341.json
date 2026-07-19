@@ -1,0 +1,819 @@
+{
+  "pages": [338, 341],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "TQ'LAL",
+      "tag": "(R)",
+      "fr": "Être somnolent - rempli de sommeil.",
+      "en": "To be drowsy - full of sleepiness.",
+      "zh": "昏昏欲睡－睡意濃厚。",
+      "examples": [
+        {
+          "t": "Tayai bi tq'lal so!",
+          "fr": "Oh la ! Ce que tu peux être somnolent !",
+          "en": "Oh my! How drowsy you can be!",
+          "zh": "哎呀！你怎麼這麼想睡覺！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtq'lal",
+          "fr": "Qui tombe de sommeil - qui est somnolent.",
+          "en": "One who is dropping off to sleep - who is drowsy.",
+          "zh": "快睡著的人－昏昏欲睡的人。",
+          "examples": [
+            {
+              "t": "Mxa ko sapax da ! mtq'lal ku da (=ko da)!",
+              "fr": "Je rentre chez moi ! J'ai sommeil !",
+              "en": "I'm going home! I'm sleepy!",
+              "zh": "我要回家了！我想睡覺了！"
+            }
+          ]
+        },
+        {
+          "form": "Stq'lal",
+          "fr": "Endormant - ennuyeux.",
+          "en": "Soporific - boring.",
+          "zh": "令人昏昏欲睡的－無聊的。",
+          "examples": [
+            {
+              "t": "Ma sao bi stq'lal ka sntgan d'xa!",
+              "fr": "Leurs conversations sont vraiment endormantes ( elles sont comme des somnifères !).",
+              "en": "Their conversations are really soporific (they are like sleeping pills!).",
+              "zh": "他們的談話實在令人昏昏欲睡（簡直像安眠藥！）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TQ'LANG",
+      "tag": "(R)",
+      "fr": "Les côtes du corps des vivants.",
+      "en": "The ribs of a living body.",
+      "zh": "活人身體的肋骨。",
+      "examples": [
+        {
+          "t": "Mnalox kana tq'lang mo da!",
+          "fr": "Toutes mes côtes me font mal.",
+          "en": "All my ribs hurt.",
+          "zh": "我全身的肋骨都痛。"
+        }
+      ]
+    },
+    {
+      "hw": "TQ'NAI",
+      "tag": "",
+      "crossRef": "TKNAI",
+      "fr": "Parfois entendu pour TKNAI . Vr. TKNAI .",
+      "en": "Sometimes heard for TKNAI. See TKNAI.",
+      "zh": "有時聽作 TKNAI。參見 TKNAI。",
+      "examples": []
+    },
+    {
+      "hw": "TQODAP",
+      "tag": "(R. = QODAP ?)",
+      "crossRef": "QODAP",
+      "fr": "Complètement éteint (feu). Vr. QODAP .",
+      "en": "Completely extinguished (fire). See QODAP.",
+      "zh": "完全熄滅（火）。參見 QODAP。",
+      "examples": [
+        {
+          "t": "Taxot ini tqodap",
+          "fr": "Un feu inextinguible.",
+          "en": "An inextinguishable fire.",
+          "zh": "撲不滅的火。"
+        }
+      ]
+    },
+    {
+      "hw": "TQULI",
+      "tag": "(R. = QULI)",
+      "crossRef": "QULI",
+      "fr": "Adopter un enfant. (nb. souvent employé pour parler d'une naissance, et même tout simplement pour désigner le fait d'avoir des enfants à charge. Vr. QULI .",
+      "en": "To adopt a child. (n.b. often used to speak of a birth, and even quite simply to designate the fact of having children in one's care. See QULI.",
+      "zh": "收養孩子。（註：常用來指生育，甚至僅僅用來指有孩子要照顧這件事。參見 QULI。",
+      "examples": [
+        {
+          "t": "Adi tmquli laqe ka Masa ?",
+          "fr": "Est ce que Massa n'a pas d'enfants (à soigner, à élever) ?",
+          "en": "Doesn't Massa have children (to care for, to raise)?",
+          "zh": "Massa 沒有孩子（要照顧、要撫養）嗎？"
+        }
+      ]
+    },
+    {
+      "hw": "TRABUS",
+      "tag": "(R)",
+      "fr": "Arachides.",
+      "en": "Peanuts.",
+      "zh": "花生。",
+      "examples": [
+        {
+          "t": "Ongat xei ka trabus mo (vl. Ongat xei na ka trabus mo)",
+          "fr": "Mes arachides n'ont pas de fruits.",
+          "en": "My peanut plants have no fruit (var. My peanut plants have no fruit yet).",
+          "zh": "我的花生沒有結果實（或：我的花生還沒有結果實）。"
+        },
+        {
+          "t": "Ongat xei (na) ka trabus mo na !",
+          "fr": "Mes arachides n'ont pas encore de fruits.",
+          "en": "My peanut plants have no fruit yet.",
+          "zh": "我的花生還沒有結果實。"
+        },
+        {
+          "t": "Malu bi oqon ka boax trabus",
+          "fr": "Les grains d'arachides sont délicieux à manger.",
+          "en": "Peanut kernels are delicious to eat.",
+          "zh": "花生仁很好吃。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Gntrabus",
+          "fr": "(Prix) produit par les arachides.",
+          "en": "(The value/yield) produced by the peanuts.",
+          "zh": "花生所帶來的（收益）。",
+          "examples": [
+            {
+              "t": "Gntrabus mo skawas ka dnamux sapax mo sayang",
+              "fr": "Le toit actuel de ma maison est le produit (= grâce à) de mes arachides de l'an passé.",
+              "en": "The current roof of my house is the product of (= thanks to) my peanuts from last year.",
+              "zh": "我家現在的屋頂是靠我去年的花生（換來的）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TSMANAN",
+      "tag": "(R. = SAMAN ?)",
+      "fr": "Pointe du jour - vers trois heures du matin ( nb. L'estimation de ces heures découpant la journée est plus ou moins arbitraire selon les locuteurs).",
+      "en": "Daybreak - around three o'clock in the morning (n.b. The estimation of these hours dividing up the day is more or less arbitrary depending on the speakers).",
+      "zh": "破曉－約清晨三點（註：這些劃分一天的時辰的估算，因說話者而多少有些隨意。）。",
+      "examples": []
+    },
+    {
+      "hw": "TS'NGIYA",
+      "tag": "(R. = ??)",
+      "fr": "??",
+      "en": "??",
+      "zh": "？？",
+      "examples": [
+        {
+          "t": "Mnlatat ka xea suusa na ts'ngiya tunuç bbuyo",
+          "fr": "Il est sorti pour aller prendre un peu l'air dans la nature .",
+          "en": "He went out to go get a bit of fresh air out in nature.",
+          "zh": "他出去到大自然中透透氣。"
+        }
+      ]
+    },
+    {
+      "hw": "TSULAO",
+      "tag": "(=R. ?) (Var.= TKSULAO)",
+      "fr": "Ahuri - qui divague - tituber.",
+      "en": "Dazed - who rambles/wanders in mind - to stagger.",
+      "zh": "昏頭的－胡言亂語的－搖搖晃晃。",
+      "examples": [
+        {
+          "t": "Babao snbtan ko d'xa o, wada ko tksulao bi mksa",
+          "fr": "Après avoir été battu par eux, je titubais en marchant.",
+          "en": "After being beaten by them, I staggered as I walked.",
+          "zh": "被他們打了之後，我走路搖搖晃晃。"
+        },
+        {
+          "t": "Pax kntl'xan xei mo ka tksulao ko mksa ska'man",
+          "fr": "C'est à cause de ma fièvre que je marchais en somnambule la nuit dernière.",
+          "en": "It was because of my fever that I walked about like a sleepwalker last night.",
+          "zh": "就是因為我發燒，昨晚我才像夢遊般走來走去。"
+        }
+      ]
+    },
+    {
+      "hw": "TS'YEX",
+      "tag": "(= R. ? - R. = S'YEX ?)",
+      "fr": "Par jeu - ne pas prendre au sérieux - plaisanter.",
+      "en": "In jest - to not take seriously - to joke.",
+      "zh": "開玩笑地－不當真－戲謔。",
+      "examples": [
+        {
+          "t": "Balae bi ka kari mo ! Uxai mo ts'yex!",
+          "fr": "C'est très sérieux, ce que je dis, ce n'est pas une plaisanterie!",
+          "en": "What I say is very serious, it is not a joke!",
+          "zh": "我說的話很認真，不是開玩笑！"
+        },
+        {
+          "t": "Ya so ts'yex nanak !",
+          "fr": "Tu veux rire !",
+          "en": "You must be joking!",
+          "zh": "你在開玩笑吧！"
+        },
+        {
+          "t": "Stok ko msaang ka yako o, asi mtutwi ts'yex ka xea da!",
+          "fr": "Je n'arrête pas de disputer et lui plaisante !",
+          "en": "I keep on quarrelling and he just jokes around!",
+          "zh": "我一直在爭吵，他卻只顧著開玩笑！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mts'yex",
+          "fr": "Qui plaisante - qui aime plaisanter - à la légère.",
+          "en": "One who jokes - who likes to joke - light-heartedly.",
+          "zh": "愛開玩笑的人－喜歡開玩笑的人－輕浮隨便的。",
+          "examples": [
+            {
+              "t": "Ma ini so k'la mita! Mts'yex ka Tome!",
+              "fr": "Comment ne sais tu pas voir! Tomé plaisante!(elle aime à plaisanter).",
+              "en": "How do you not see it! Tomé is joking! (she likes to joke).",
+              "zh": "你怎麼看不出來！Tomé 在開玩笑！（她愛開玩笑）。"
+            }
+          ]
+        },
+        {
+          "form": "Tsyaxan",
+          "fr": "Plaisanterie - ce qui est dit,ou fait, par jeu.",
+          "en": "A joke - what is said, or done, in jest.",
+          "zh": "玩笑－開玩笑地說或做的事。",
+          "examples": [
+            {
+              "t": "Ini snkuxul ana manu tsyaxan ka Aman",
+              "fr": "Amanne n'aime aucune sorte de plaisanterie",
+              "en": "Amanne doesn't like any kind of joking.",
+              "zh": "Aman 不喜歡任何一種玩笑。"
+            },
+            {
+              "t": "Naqex bi tsyaxan ka kia",
+              "fr": "Cela est une mauvaise plaisanterie (de mauvais goût).",
+              "en": "That is a bad joke (in poor taste).",
+              "zh": "那是個很糟糕的玩笑（低級趣味）。"
+            }
+          ]
+        },
+        {
+          "form": "Kntsyaxan",
+          "fr": "La jovialité - la qualité de plaisanter.",
+          "en": "Joviality - the quality of being one who jokes.",
+          "zh": "詼諧－愛開玩笑的特質。",
+          "examples": [
+            {
+              "t": "Leqo mo bi mita kntsyaxan na kddiyax",
+              "fr": "Je déteste de le voir toujours plaisanter!",
+              "en": "I hate seeing him joking around all the time!",
+              "zh": "我討厭看他老是開玩笑！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TTAMA",
+      "tag": "(= R. ? - R. = TAMA ?)",
+      "fr": "Se reposer sur - s'asseoir.",
+      "en": "To rest on - to sit down.",
+      "zh": "靠在…上休息－坐下。",
+      "examples": [
+        {
+          "t": "Ana pnais bi ! Ttama tityex, Ki!",
+          "fr": "Même si ce n'est que très brièvement, assieds toi donc un peu, Aki !",
+          "en": "Even if only very briefly, do sit down a little, Aki!",
+          "zh": "就算只是一下下，也坐一會兒吧，Aki！"
+        },
+        {
+          "t": "Mniyax ttama pusu qliyut ka qdilao",
+          "fr": "L'aigle vient se poser sur le mûrier.(= L'aigle est venu..)",
+          "en": "The eagle comes to perch on the mulberry tree. (= The eagle has come..)",
+          "zh": "老鷹飛來停在桑樹上。（＝老鷹來了…）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmtama",
+          "fr": "S'asseoir - se reposer sur - rester en place.",
+          "en": "To sit down - to rest on - to stay put.",
+          "zh": "坐下－靠著休息－待著不動。",
+          "examples": [
+            {
+              "t": "Ana qoqo! Ya sl'xbun! Mxa ko tmtama d'xgal ka yako",
+              "fr": "Cela ne fait rien; ne t'en fais pas! Je vais m'asseoir par terre!",
+              "en": "It doesn't matter; don't worry! I'll sit on the ground!",
+              "zh": "沒關係，別擔心！我坐在地上就好！"
+            },
+            {
+              "t": "Ini bi k'la ttama ka sinpu",
+              "fr": "Le père (prêtre) ne sait pas rester en place !",
+              "en": "The father (priest) can't stay put!",
+              "zh": "神父待不住！"
+            }
+          ]
+        },
+        {
+          "form": "Mttama",
+          "fr": "Qui est assis - qui se repose sur.",
+          "en": "One who is seated - who is resting on.",
+          "zh": "坐著的人－靠著休息的人。",
+          "examples": [
+            {
+              "t": "Bxangi bi kana ka yamo mttama (vl. kana yamo ka mttama) d'xgal",
+              "fr": "Ecoutez moi bien tous vous qui êtes assis par terre!",
+              "en": "Listen to me well, all of you who are sitting on the ground!",
+              "zh": "你們這些坐在地上的人，都好好聽我說！"
+            }
+          ]
+        },
+        {
+          "form": "Ttmaan",
+          "fr": "Siège - appui - Temps, manière de s'asseoir.",
+          "en": "A seat - a support - the time, the manner of sitting.",
+          "zh": "座位－支撐物－坐下的時間、方式。",
+          "examples": [
+            {
+              "t": "Adas nanak ka ttmaan namo nanak tttama namo kska sapax",
+              "fr": "Que chacun apporte son propre siège pour s'asseoir à l'intérieur de la maison.",
+              "en": "Let each one bring their own seat to sit on inside the house.",
+              "zh": "每個人都自己帶座位，好在屋裡坐下。"
+            }
+          ]
+        },
+        {
+          "form": "Tntmaan",
+          "fr": "Lieu où l'on était assis - le fait d'avoir été assis.",
+          "en": "The place where one was seated - the fact of having been seated.",
+          "zh": "曾經坐過的地方－曾坐過這件事。",
+          "examples": [
+            {
+              "t": "Bsiyaq bi ka tntmaan mo; mawit ko da",
+              "fr": "Je suis resté assis pendant longtemps je suis fatigué.",
+              "en": "I stayed seated for a long time, I am tired.",
+              "zh": "我坐了很久，累了。"
+            },
+            {
+              "t": "Wada sayang ka Palas; Nii ka tntmaan na betak sayang",
+              "fr": "Palas vient de partir; Voilà où il était assis jusqu'à maintenant.",
+              "en": "Palas has just left; This is where he was sitting until just now.",
+              "zh": "Palas 剛離開；這就是他剛才一直坐著的地方。"
+            }
+          ]
+        },
+        {
+          "form": "Pttama",
+          "fr": "Faire asseoir - faire rester en place.",
+          "en": "To make sit down - to make stay put.",
+          "zh": "使人坐下－使人待著不動。",
+          "examples": [
+            {
+              "t": "Knt\"to mkksa ka ua so; ndoa bi pttama xeaan tityex!",
+              "fr": "Ta fille n'arrête par de rouler; tâche de la faire rester un peu en place!",
+              "en": "Your daughter won't stop rolling about; try to make her stay put a little!",
+              "zh": "你女兒一直滾來滾去；設法讓她安分一下吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "T\"TO",
+      "tag": "",
+      "crossRef": "TA'TO",
+      "fr": "Façon plus juste d'écrire: TA'TO ?? Vr. TA'TO . = Découper.",
+      "en": "A more correct way to write it: TA'TO?? See TA'TO. = To cut up.",
+      "zh": "更正確的寫法：TA'TO？？參見 TA'TO。＝切割。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "T\"tuan",
+          "fr": "Les morceaux faits - les circonstances du découpage.",
+          "en": "The pieces made - the circumstances of the cutting up.",
+          "zh": "切成的塊－切割的情況。",
+          "examples": [
+            {
+              "t": "NMikat ka tn\"tuan (t\"ntuan ?) so lodoç sayang",
+              "fr": "Elle est à Mikatz la poule que tu viens de découper.",
+              "en": "The hen you have just cut up belongs to Mikatz.",
+              "zh": "你剛切好的那隻雞是 Mikat 的。"
+            },
+            {
+              "t": "Mqleqo bi t\"tuan ka xei babwi! Asi ka mbaga!",
+              "fr": "Un cochon ce n'est pas facile à découper; il y faut la main.",
+              "en": "A pig is not easy to cut up; it takes the hand (skill).",
+              "zh": "豬不容易切割；得靠手藝。"
+            }
+          ]
+        },
+        {
+          "form": "Tm\"to (Tma'to ?)",
+          "fr": "Couper en petits morceaux.",
+          "en": "To cut into small pieces.",
+          "zh": "切成小塊。",
+          "examples": [
+            {
+              "t": "Dyagi ko tm\"to (tma'to) ppadyaq xo?",
+              "fr": "Veux tu m'aider à couper les légumes ?",
+              "en": "Will you help me cut up the vegetables?",
+              "zh": "你願意幫我切菜嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Knta'to ( Knt\"to ?)",
+          "fr": "est-ce de la racine T\"TO ?, TA'TO ? = sans arrêt - fréquemment. Vr. Knta\"to.",
+          "en": "is it from the root T\"TO?, TA'TO? = without stopping - frequently. See Knta\"to.",
+          "zh": "是出自詞根 T\"TO？、TA'TO？＝不停地－頻繁地。參見 Knta\"to。",
+          "examples": []
+        },
+        {
+          "form": "Sta'to ( St\"to ?) (R. = T\"TO ? - R. = TA'TO ?)",
+          "fr": "En pente - monter . Vr. STA\"TO .",
+          "en": "On a slope - to go up/climb. See STA\"TO.",
+          "zh": "傾斜的－上坡。參見 STA\"TO。",
+          "examples": []
+        },
+        {
+          "form": "Pt\"to (Pta'to ?) (R. = T\"TO ? - R. =PTA\"TO ?)",
+          "fr": "Dresser - mettre debout. Vr. PT\"TO .",
+          "en": "To set up - to stand upright. See PT\"TO.",
+          "zh": "豎立－立起。參見 PT\"TO。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "TUDO",
+      "tag": "(R)",
+      "fr": "Dos du corps humain ou animal - Butte, sommet d'une montagne - diguette qui sépare les champs, les rizières - bosse.",
+      "en": "Back of the human or animal body - Knoll, summit of a mountain - the earthen ridge/dike that separates fields and rice paddies - bump/hump.",
+      "zh": "人或動物身體的背部－小丘、山頂－分隔田地與水田的田埂－隆起。",
+      "examples": [
+        {
+          "t": "Akai bo! Knliwa mnalox tudo mo da!",
+          "fr": "Aïe maman! J'ai très mal au dos!",
+          "en": "Ouch, mama! My back hurts so much!",
+          "zh": "哎喲媽呀！我的背好痛！"
+        },
+        {
+          "t": "Uda nanak tudo kmpaxan",
+          "fr": "Passe seulement par les (sur les) diguettes des champs !",
+          "en": "Just go along the (on the) ridges of the fields!",
+          "zh": "只走田埂（走在田埂上）！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtudo",
+          "fr": "Bosselé - devenir bosse.",
+          "en": "Bumpy/lumpy - to become a bump.",
+          "zh": "凹凸不平的－變成隆起。",
+          "examples": [
+            {
+              "t": "Uxai bi slaq ka kia! Ma mtudo kana ka d'xgal!",
+              "fr": "Cela n'est vraiment pas une rizière ! Tout le terrain est en bosses !",
+              "en": "That is really not a rice paddy! The whole ground is full of bumps!",
+              "zh": "那根本不是水田！整塊地都坑坑窪窪！"
+            }
+          ]
+        },
+        {
+          "form": "Ptudo",
+          "fr": "Butter - construire les diguettes.",
+          "en": "To earth up - to build the ridges/dikes.",
+          "zh": "培土－築田埂。",
+          "examples": [
+            {
+              "t": "Sai ptudo kmpaxan ka iso",
+              "fr": "Pour ta part, va construire les diguettes des champs.",
+              "en": "For your part, go build the field ridges.",
+              "zh": "你這邊，去築田埂。"
+            },
+            {
+              "t": "Mxa ko ptudo bonga ka yako",
+              "fr": "Moi, je vais butter les patates douces.",
+              "en": "As for me, I'm going to earth up the sweet potatoes.",
+              "zh": "我呢，我要去給地瓜培土。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TUIL",
+      "tag": "(TUWIL ?) (R)",
+      "fr": "Anguille: (nb. Nom donné souvent à un jeune très long et très maigre).",
+      "en": "Eel: (n.b. A name often given to a youth who is very long/tall and very thin).",
+      "zh": "鰻魚：（註：常用來稱呼又高又瘦的年輕人。）。",
+      "examples": []
+    },
+    {
+      "hw": "TUKWI",
+      "tag": "(R)",
+      "fr": "Semer à la volée.",
+      "en": "To broadcast-sow (scatter seed).",
+      "zh": "撒播。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmukwi",
+          "paradigm": "° Tmukwi, tukwi, tkui, tkuyan, tkuyun.",
+          "fr": "Semer (à la volée).",
+          "en": "To sow (by broadcasting).",
+          "zh": "撒播（種子）。",
+          "examples": [
+            {
+              "t": "Mntutwi ka Kawas uusa na tmukwi maso nia",
+              "fr": "Kawas s'est mis en route pour aller semer son millet.",
+              "en": "Kawas has set off to go sow his millet.",
+              "zh": "Kawas 出發去撒播他的小米。"
+            }
+          ]
+        },
+        {
+          "form": "Tkuyan",
+          "fr": "Temps des semailles - les semailles - terrain, graine qui servent aux semailles - semence employée.",
+          "en": "Sowing time - the sowing - the land and seed used for sowing - the seed employed.",
+          "zh": "播種的時節－播種－用於播種的土地與種子－所用的種子。",
+          "examples": [
+            {
+              "t": "Nta da ! Baka bi tkuyan maso ta da!",
+              "fr": "Viens (allons)! C'est la saison pour semer notre millet.",
+              "en": "Come (let's go)! It's the season to sow our millet.",
+              "zh": "來吧（走吧）！正是播種我們小米的季節。"
+            }
+          ]
+        },
+        {
+          "form": "Tnkuyan",
+          "fr": "Ce qui a été semé - ce qui a été ensemencé - l'action (passée) de semer.",
+          "en": "What has been sown - what has been seeded - the (past) action of sowing.",
+          "zh": "已播種的東西－已播下種子的地方－（過去）播種的動作。",
+          "examples": [
+            {
+              "t": "Tloma tnkuyan mo maso skawas kika kmpaxan nia da!",
+              "fr": "Plus bas que l'endroit où j'ai semé mon millet l'an passé, c'est là qu'est son champ .",
+              "en": "Lower down than the place where I sowed my millet last year, that's where his field is.",
+              "zh": "比我去年播種小米的地方更低處，就是他的田。"
+            }
+          ]
+        },
+        {
+          "form": "Stukwi",
+          "fr": "Pour semer - qui sert pour semer.",
+          "en": "For sowing - which serves for sowing.",
+          "zh": "用來播種的－供播種之用的。",
+          "examples": [
+            {
+              "t": "Mniyax kmsyuk g'xaq sapax mo stukwi na mnsngali kmpaxan na daya",
+              "fr": "Il est venu emprunter des semences chez moi pour les semer dans ce qui lui reste de champ là-haut.",
+              "en": "He came to borrow seed from me to sow it in what remains of his field up there.",
+              "zh": "他來向我借種子，好播種在他上面那塊剩下的田裡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TUNUÇ",
+      "tag": "(TUNUX) (R)",
+      "fr": "Tête - chef - cîme - gros bout d'un bois.",
+      "en": "Head - chief/leader - summit/treetop - the thick end of a piece of wood.",
+      "zh": "頭－首領－頂端／樹梢－木頭的粗端。",
+      "examples": [
+        {
+          "t": "Malu tunux",
+          "fr": "Intelligent.",
+          "en": "Intelligent.",
+          "zh": "聰明。"
+        },
+        {
+          "t": "Paro tunux",
+          "fr": "Savant.",
+          "en": "Learned / knowledgeable.",
+          "zh": "有學問。"
+        },
+        {
+          "t": "Naqex tunux",
+          "fr": "Peu doué - têtu.",
+          "en": "Not gifted - stubborn.",
+          "zh": "資質差－固執。"
+        },
+        {
+          "t": "Tunux tasil",
+          "fr": "Face de la pierre.",
+          "en": "The face of the stone.",
+          "zh": "石頭的表面。"
+        },
+        {
+          "t": "Tunux d'xa",
+          "fr": "Leur chef .",
+          "en": "Their chief.",
+          "zh": "他們的首領。"
+        },
+        {
+          "t": "Tunux onox",
+          "fr": "Mamelon du sein.",
+          "en": "The nipple of the breast.",
+          "zh": "乳頭。"
+        },
+        {
+          "t": "Mangal tunux",
+          "fr": "Couper (prendre) la tête (= Smlyeq tunux !).",
+          "en": "To cut off (take) the head (= Smlyeq tunux!).",
+          "zh": "砍下（取）頭顱（＝Smlyeq tunux！）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sntunuç",
+          "fr": "Qui casse les oreilles - assourdissant - importun .",
+          "en": "Ear-splitting - deafening - importunate/annoying.",
+          "zh": "震耳欲聾的－吵死人的－煩人的。",
+          "examples": [
+            {
+              "t": "Knta'to ida nkia ka kari so o, ma so sao bi sntunuç!",
+              "fr": "Tu n'arrêtes pas de dire toujours la même chose, tu me casses vraiment les oreilles! (= On dirait que tu en veux à mes oreilles ??).",
+              "en": "You never stop saying the same thing over and over, you really split my ears! (= It's as if you have a grudge against my ears??).",
+              "zh": "你老是說同樣的話，真是吵死我了！（＝好像你跟我的耳朵過不去似的？？）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TUSONG",
+      "tag": "(= R. ?)",
+      "fr": "Brume - ciel nuageux - atmosphère qui n'est pas claire .",
+      "en": "Mist/haze - cloudy sky - atmosphere that is not clear.",
+      "zh": "霧氣－多雲的天空－不清朗的天氣。",
+      "examples": []
+    },
+    {
+      "hw": "TUTWI",
+      "tag": "(R)",
+      "fr": "Se lever (au physique et au moral) - intervenir - entreprendre.",
+      "en": "To get up / rise (physically and morally) - to intervene - to undertake.",
+      "zh": "起身（身體上與精神上）－介入－著手進行。",
+      "examples": [
+        {
+          "t": "Tutwi n'xali da",
+          "fr": "Et maintenant, lève toi vite! (d'une position couchée, assise; d'une situation mauvaise, d'un état d'inactivité).",
+          "en": "And now, get up quickly! (from a lying or seated position; from a bad situation, from a state of inactivity).",
+          "zh": "現在，快起來！（從躺著、坐著的姿勢；從不好的處境、從無所事事的狀態。）"
+        },
+        {
+          "t": "Ini so tlalae tutwi ka iso o , ongat ka mpdayao sunan da!",
+          "fr": "Si tu ne commences pas (si tu ne t'y mets pas d'abord), il n'y aura personne pour t'aider!",
+          "en": "If you don't begin (if you don't set to it first), there will be no one to help you!",
+          "zh": "如果你不先開始（不先動手），就沒有人會幫你！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmutwi",
+          "paradigm": "° Tmutwi, tutwi, ttui, ttuyan, ttuyun.",
+          "fr": "Faire lever - réveiller - mettre en branle.",
+          "en": "To make get up - to wake - to set in motion.",
+          "zh": "使人起身－叫醒－發動。",
+          "examples": [
+            {
+              "t": "Ya lnglong ! saon miso tmutwi kia",
+              "fr": "N'y pense pas (ne te fais pas de souci)! Je viendrai (je veux venir) te réveiller.",
+              "en": "Don't think about it (don't worry)! I'll come (I want to come) to wake you.",
+              "zh": "別想了（別擔心）！我會來（我想來）叫醒你。"
+            }
+          ]
+        },
+        {
+          "form": "Mtutwi",
+          "fr": "Qui se lève (propre et figuré).",
+          "en": "One who rises (literal and figurative).",
+          "zh": "起身的（本義與引申義）。",
+          "examples": [
+            {
+              "t": "Mntutwi suni ka xedao",
+              "fr": "Le soleil s'est levé il-y-a un certain temps.",
+              "en": "The sun rose some time ago.",
+              "zh": "太陽已經升起一段時間了。"
+            },
+            {
+              "t": "Mtutwi lmngao ka Pexo do, asi mmlux kana da",
+              "fr": "Dès que Perho se met à parler (prend la parole - se lève pour parler), tout le monde prend conscience (dresse les oreilles - est attentif).",
+              "en": "As soon as Perho starts to speak (takes the floor - rises to speak), everyone takes notice (pricks up their ears - becomes attentive).",
+              "zh": "Perho 一開口說話（發言－起身講話），大家就都注意起來（豎起耳朵－專心聆聽）。"
+            }
+          ]
+        },
+        {
+          "form": "Ttuyan",
+          "fr": "Le moment du lever - le lever.",
+          "en": "The moment of rising - the getting up.",
+          "zh": "起身的時刻－起身。",
+          "examples": [
+            {
+              "t": "Ongat ttuyan mo da",
+              "fr": "Je n'ai plus le moyen de me lever.",
+              "en": "I no longer have the means to get up.",
+              "zh": "我再也起不來了。"
+            },
+            {
+              "t": "Baka bi ttuyan da!",
+              "fr": "Il est temps de se lever.",
+              "en": "It's time to get up.",
+              "zh": "該起床了。"
+            },
+            {
+              "t": "Pida bi ttuyan xedao sida",
+              "fr": "Juste au moment du lever du soleil.",
+              "en": "Right at the moment of sunrise.",
+              "zh": "正當日出的時刻。"
+            }
+          ]
+        },
+        {
+          "form": "Ptutwi",
+          "fr": "Relever - faire lever.",
+          "en": "To raise up again - to make get up.",
+          "zh": "扶起－使人起身。",
+          "examples": [
+            {
+              "t": "Ana so mtöting o, ida miso pttuyun",
+              "fr": "Même si tu fais une chute, je viendrai te relever (je te relèverai).",
+              "en": "Even if you take a fall, I will come to raise you up (I will lift you back up).",
+              "zh": "就算你跌倒，我也會來扶你起來（我會把你扶起來）。"
+            }
+          ]
+        },
+        {
+          "form": "Pstutwi",
+          "fr": "Entrainer quelqu'un - ameuter - soulever - mettre debout.",
+          "en": "To lead/drag someone along - to stir up (a crowd) - to rouse - to set on their feet.",
+          "zh": "帶動某人－煽動群眾－鼓動－使站起來。",
+          "examples": [
+            {
+              "t": "Ima ka pnstutwi mtgisa nii ?",
+              "fr": "Qui est-ce qui a découvert (soulevé, embauché) ce professeur ?",
+              "en": "Who is it that discovered (brought in, hired) this teacher?",
+              "zh": "是誰發掘（引進、聘用）這位老師的？"
+            },
+            {
+              "t": "Ya bi pstutwi pusu kari",
+              "fr": "Ne va pas provoquer (vl. réveiller) des motifs (de discorde).",
+              "en": "Don't go stirring up (var. reawakening) causes (of discord).",
+              "zh": "別去挑起（或：喚起）（爭端的）緣由。"
+            },
+            {
+              "t": "Ya bi psttui (= psttuy ?) ka pusu kari",
+              "fr": "Ne ramène pas le sujet de notre discussion!",
+              "en": "Don't bring back the subject of our discussion!",
+              "zh": "別再提起我們爭論的話題！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "TUYOQ",
+      "tag": "(R)",
+      "fr": "Salive - cracher.",
+      "en": "Saliva - to spit.",
+      "zh": "唾液－吐口水。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Tmuyoq",
+          "paradigm": "° Tmuyoq, tuyoq, tyoqe, Tyoqan, tyoqun .",
+          "fr": "Cracher.",
+          "en": "To spit.",
+          "zh": "吐口水。",
+          "examples": [
+            {
+              "t": "Ini tdoa xmut tmuyoq ana ino",
+              "fr": "Il n'est pas permi de cracher n'importe où !",
+              "en": "It is not permitted to spit just anywhere!",
+              "zh": "不可以隨便吐口水！"
+            }
+          ]
+        },
+        {
+          "form": "Tyoqan",
+          "fr": "Crachoir - crachat - action de cracher.",
+          "en": "Spittoon - sputum/spit - the act of spitting.",
+          "zh": "痰盂－唾沫－吐口水的動作。",
+          "examples": [
+            {
+              "t": "Knkingal sapax tmukan o, nyeqan kingal tyoqan; ongat bi ka sapax troko",
+              "fr": "Dans chaque maison taiwannaise il-y-a un récipient pour cracher ; chez les taroko il n'y en a pas du tout.",
+              "en": "In every Taiwanese house there is a receptacle for spitting; among the Taroko there are none at all.",
+              "zh": "每一戶台灣人家裡都有吐痰的容器；太魯閣人家裡則完全沒有。"
+            },
+            {
+              "t": "Tyoqan d'xa kana ka dqalas nia =",
+              "fr": "[gloss coupé en bas de la page 320]",
+              "en": "[gloss cut off at the bottom of page 320]",
+              "zh": "［頁面下方切斷，譯文從缺］"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

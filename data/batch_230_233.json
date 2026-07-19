@@ -1,0 +1,428 @@
+{
+  "pages": [230, 233],
+  "leadin": {
+    "fr": "... Non ! Un vrai fusil !",
+    "en": "... No! A real rifle!",
+    "zh": "……不！是真正的槍！",
+    "examples": [
+      { "t": "Dmui punyaq", "fr": "Armé d'un fusil.", "en": "Armed with a rifle.", "zh": "持槍武裝。" },
+      { "t": "Smbu punyaq", "fr": "Tirer du fusil.", "en": "To fire a rifle.", "zh": "開槍射擊。" }
+    ],
+    "subs": []
+  },
+  "entries": [
+    {
+      "hw": "PUSAL", "tag": "(R)",
+      "fr": "Vingt (sans doute: Deux fois les deux mains !) - Deux fois.",
+      "en": "Twenty (no doubt: Two times both hands!) - Twice.",
+      "zh": "二十（無疑是「兩隻手的兩倍」之意！）－兩次。",
+      "examples": [
+        { "t": "Pusal nami xei", "fr": "Nous sommes vingt personnes.", "en": "We are twenty people.", "zh": "我們有二十個人。" },
+        { "t": "Pusal kingal ni pusal daxa o, mspatuil t'lo da", "fr": "Vingt et un et vingt-deux, cela fait quarante-trois.", "en": "Twenty-one and twenty-two, that makes forty-three.", "zh": "二十一加二十二，就是四十三。" },
+        { "t": "Pusal nami spat xei", "fr": "Nous sommes vingt-quatre.", "en": "We are twenty-four.", "zh": "我們有二十四個人。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpusal",
+          "fr": "Une deuxième fois - qui sont vingt.",
+          "en": "A second time - which are twenty.",
+          "zh": "第二次－共二十。",
+          "examples": [
+            { "t": "Mpusal ko lima xnkawas", "fr": "J'ai vingt-cinq ans (Je suis de vingt-cinq ans).", "en": "I am twenty-five years old (I am of twenty-five years).", "zh": "我二十五歲（我是二十五歲的人）。" },
+            { "t": "Mpusal ko musa nita wana no da", "fr": "Voilà la deuxième fois que je vais visiter les pièges (mes pièges).(MPUSAL plus un chiffre signifie toujours : vingt.)", "en": "This is the second time I go to check the traps (my traps). (MPUSAL plus a number always means: twenty.)", "zh": "這是我第二次去查看陷阱（我的陷阱）。（MPUSAL 加上一個數字時，總是表示「二十」。）" }
+          ]
+        },
+        {
+          "form": "Mnpusal",
+          "fr": "Vingt fois (dans le passé).",
+          "en": "Twenty times (in the past).",
+          "zh": "二十次（過去發生的）。",
+          "examples": [
+            { "t": "Mnpusal ko musa sapax nia", "fr": "Je suis allé vingt foix chez lui.", "en": "I went to his house twenty times.", "zh": "我去過他家二十次。" }
+          ]
+        },
+        {
+          "form": "Pnpusal",
+          "fr": "Vingt à la fois - par vingt - deux à la fois.",
+          "en": "Twenty at a time - by twenties - two at a time.",
+          "zh": "一次二十－每次二十－一次兩份。",
+          "examples": [
+            { "t": "Ngalao ta pnpusal pila da", "fr": "Prenons vingt pièces d'argent chacun.", "en": "Let's each take twenty coins of money.", "zh": "我們每人拿二十枚錢幣吧。" },
+            { "t": "Pnpusal bi pusu ka bnkiyan (bnkian) mo", "fr": "Mes bottes sont faites de vingt pieds chacune.", "en": "My boots are each made of twenty feet.", "zh": "我的靴子每雙都用了二十尺料。" }
+          ]
+        },
+        {
+          "form": "Pnpusal",
+          "fr": "Recommencer - Faire pour la deuxième fois.",
+          "en": "To begin again - To do for the second time.",
+          "zh": "重新開始－做第二次。",
+          "examples": [
+            { "t": "Pnpusal ko mapa padyaq", "fr": "C'est la deuxième fois que je porte des légumes (vl. Je recommence à porter des légumes).", "en": "This is the second time I carry vegetables (var. I am starting to carry vegetables again).", "zh": "這是我第二次挑菜（或：我又開始挑菜了）。" }
+          ]
+        },
+        {
+          "form": "Pnpsalan",
+          "fr": "Une deuxième fois - une nouvelle fois - réitération.",
+          "en": "A second time - a fresh time - repetition.",
+          "zh": "第二次－又一次－重複。",
+          "examples": [
+            { "t": "Tnaga ko pnpsalan so miyax", "fr": "J'attends ta nouvelle venue (vl. j'attends que tu viennes une nouvelle fois).", "en": "I await your coming again (var. I wait for you to come once more).", "zh": "我等你再次到來（或：我等你再來一次）。" }
+          ]
+        },
+        {
+          "form": "Smpusal",
+          "paradigm": "°Snpusal, spusal, spsali, spsalan, spsalun.",
+          "fr": "Renouveler - recommencer - refaire.",
+          "en": "To renew - to begin again - to redo.",
+          "zh": "更新－重新開始－重做。",
+          "examples": [
+            { "t": "Snpsalan xnkawas", "fr": "Le recommencement de l'année - le nouvel an.", "en": "The renewal of the year - the new year.", "zh": "年的重新開始－新年。" }
+          ]
+        },
+        {
+          "form": "Snpusal",
+          "fr": "En double - doubler.",
+          "en": "In double - to double.",
+          "zh": "成雙－加倍（加一層）。",
+          "examples": [
+            { "t": "Snpsalun mo ka qabang xxelao, kika nxa muxul tityex", "fr": "Je veux doubler (mettre en double) ma couverture pour me couvrir, comme cela ce sera un peu plus chaud.", "en": "I want to double (fold in two) my blanket to cover myself, that way it will be a bit warmer.", "zh": "我要把被子摺成雙層來蓋，這樣會暖和一點。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PUSU", "tag": "(R)",
+      "fr": "Origine - fondations - tronc - base - motifs.",
+      "en": "Origin - foundations - trunk - base - motives.",
+      "zh": "起源－根基－樹幹－基礎－緣由。",
+      "examples": [
+        { "t": "Pusu qouni", "fr": "la base (le pied) d'un arbre.", "en": "the base (the foot) of a tree.", "zh": "樹的根部（樹腳）。" },
+        { "t": "Kingal pusu qouni", "fr": "Un pied d'arbre.", "en": "One tree (a single tree-base).", "zh": "一棵樹。" },
+        { "t": "Pusu ksia", "fr": "Source.", "en": "Spring (water source).", "zh": "水源。" },
+        { "t": "Pusu kari", "fr": "Le sens profond de ce qui est dit. (vl. Le motif du parler - le point de départ de la discussion - l'essentiel de ce qui est dit).", "en": "The deep meaning of what is said. (var. The motive of the speech - the starting point of the discussion - the essence of what is said).", "zh": "話語的深意。（或：說話的緣由－討論的起點－所言之要旨）。" },
+        { "t": "Pusu sl'xbnan", "fr": "Source de soucis - raison du souci.", "en": "Source of worries - reason for worry.", "zh": "煩惱的根源－憂慮的緣由。" },
+        { "t": "Sipao, kika pusu daxa", "fr": "C'est Sipao qui est leur lieu d'origine.", "en": "It is Sipao that is their place of origin.", "zh": "希保（Sipao）才是他們的原鄉。" },
+        { "t": "Pusu pila", "fr": "Capital (argent).", "en": "Capital (money).", "zh": "本金（錢財）。" },
+        { "t": "Pusu qbiling", "fr": "Fieffé menteur.", "en": "Consummate liar.", "zh": "十足的騙子。" },
+        { "t": "Ongat pusu", "fr": "Vagabond - qui n'a pas de sens.", "en": "Vagrant - one who has no sense.", "zh": "流浪漢－沒有道理（沒有根基）的人。" },
+        { "t": "Pusu kmpaxan", "fr": "Un champ.", "en": "A field.", "zh": "一塊田。" }
+      ],
+      "subs": [
+        {
+          "form": "Mapusu",
+          "fr": "Sur le point de devenir d° (source, base, essentiel, motif..).",
+          "en": "About to become ditto (source, base, essential, motive..).",
+          "zh": "即將成為同上者（源頭、基礎、要旨、緣由……）。",
+          "examples": [
+            { "t": "Adi biyao mapusu kmpaxan ka qaxol nii", "fr": "Avant peu cette rocaille va devenir un champ cultivable.", "en": "Before long this stony ground will become a cultivable field.", "zh": "不久這片石礫地就會變成可耕的田。" }
+          ]
+        },
+        {
+          "form": "Spusu",
+          "fr": "pour être source, origine, preuve, base etc..",
+          "en": "to be source, origin, proof, base, etc..",
+          "zh": "用以作為源頭、起源、憑證、基礎等等。",
+          "examples": []
+        },
+        {
+          "form": "Snpusu",
+          "fr": "Fonder - être source, souche, origine, fondement.",
+          "en": "To found - to be source, stock, origin, foundation.",
+          "zh": "奠立－作為源頭、根源、起源、根基。",
+          "examples": [
+            { "t": "Ga smpusu kingal bulax bi gluban", "fr": "Il se fait le centre, l'animateur d'une toute nouvelle équipe.", "en": "He makes himself the center, the driving force of a brand-new team.", "zh": "他使自己成為一支全新隊伍的核心與推動者。" },
+            { "t": "Adi so kmspusu (kmpspusu (?)) bulax kdusan ta xo?", "fr": "N'aimerais tu pas donner l'exemple (un exemple) de notre vie nouvelle ?", "en": "Wouldn't you like to give the example (an example) of our new life?", "zh": "你難道不願意樹立我們新生活的榜樣（一個榜樣）嗎？" }
+          ]
+        },
+        {
+          "form": "Smpsaan",
+          "fr": "Témoignage - preuve - pièce à conviction (données).",
+          "en": "Testimony - proof - evidence (data).",
+          "zh": "見證－證據－呈堂物證（憑據）。",
+          "examples": [
+            { "t": "Xdoli sao bi gaya aangal daxa smpsaan, ksun na", "fr": "Offre un sacrifice selon le véritable rite pour leur donner (pour qu'ils le prennent comme) un témoignage, dit il.", "en": "Offer a sacrifice according to the true rite to give them (so that they take it as) a testimony, he says.", "zh": "他說：要按真正的禮儀獻祭，好給他們（讓他們以此為）見證。" }
+          ]
+        },
+        {
+          "form": "Kpspusu",
+          "fr": "Celui qui rendra témoignage - qui sera fondamental - qui fera autorité.",
+          "en": "The one who will bear witness - who will be fundamental - who will be authoritative.",
+          "zh": "將要作見證者－將成為根本者－將具有權威者。",
+          "examples": []
+        },
+        {
+          "form": "Tpusu",
+          "fr": "Qui est partie intégrante - qui est base - qui est originaire - qui est souche - qui est vrai.",
+          "en": "Which is an integral part - which is a base - which is native/original - which is the stock - which is true.",
+          "zh": "屬於本體的一部分－是根基－是原生的－是根源－是真實的。",
+          "examples": [
+            { "t": "Iyax bi tpusu xeni da!", "fr": "Viens donc t'installer ici !", "en": "Come settle down here then!", "zh": "那就來這裡定居吧！" },
+            { "t": "Ini tpusu ka xea", "fr": "Ce n'est pas lui qui a autorité !", "en": "It is not he who has authority!", "zh": "有權威的不是他！" },
+            { "t": "Tpusu n'xali da", "fr": "Installe toi vite ! (prends une décision ferme!).", "en": "Settle down quickly! (make a firm decision!).", "zh": "快點定下來！（下定決心！）。" }
+          ]
+        },
+        {
+          "form": "Tnpusu",
+          "fr": "Qui est souche - Qui est partie intégrante du lieu, d'une affaire, d'une association - de droit.",
+          "en": "Which is the stock - Which is an integral part of the place, of an affair, of an association - by right.",
+          "zh": "是根源者－是某地、某事、某社團不可或缺的一員－依法（當然）如此。",
+          "examples": []
+        },
+        {
+          "form": "Ptpusu",
+          "fr": "Rendre souche - installer - rendre partie prenante - donner l'autorité.",
+          "en": "To make into stock - to install - to make a stakeholder - to give authority.",
+          "zh": "使成為根源－安置－使成為當事者－賦予權柄。",
+          "examples": [
+            { "t": "Ngalun daxa ka Laoken pptpusu xeaan gnluban daxa", "fr": "Ils veulent prendre Laokenne pour en faire le responsable de leur association.", "en": "They want to take Laoken to make him the head of their association.", "zh": "他們想推舉勞肯（Laoken）擔任他們社團的負責人。" },
+            { "t": "Mptpusu ko sunan mkalang nani", "fr": "Je t'intègre à notre village (je te fais membre de notre village).", "en": "I incorporate you into our village (I make you a member of our village).", "zh": "我把你納入我們的部落（讓你成為我們部落的一員）。" }
+          ]
+        },
+        {
+          "form": "Sptpusu",
+          "fr": "Pour servir de fondement - pour établir responsable.",
+          "en": "To serve as a foundation - to establish as person in charge.",
+          "zh": "用以作為根基－用以立為負責人。",
+          "examples": [
+            { "t": "Wada mo psgagan ka Sibal sptpusu mo sapax ptasan", "fr": "J'ai choisi (j'ai réservé) Sibal pour en faire le responsable de l'école.", "en": "I have chosen (reserved) Sibal to make him the head of the school.", "zh": "我已挑選（保留）希霸（Sibal）來擔任學校的負責人。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PUSYAQ", "tag": "(R)",
+      "fr": "Chassie - croûtes qui se forment parfois dans le coin des yeux.",
+      "en": "Rheum (eye-gum) - crusts that sometimes form in the corner of the eyes.",
+      "zh": "眼屎－有時在眼角結成的痂垢。",
+      "examples": []
+    },
+    {
+      "hw": "PUYAQ", "tag": "(R)",
+      "fr": "Coccyx - croupion - toute la région coccigienne - (nb. souvent employé pour désigner l'anus.).",
+      "en": "Coccyx - rump - the whole coccygeal region - (n.b. often used to designate the anus.).",
+      "zh": "尾骨－臀尖－整個尾骨區域－（註：常用來指肛門。）。",
+      "examples": []
+    },
+    {
+      "hw": "PUYES", "tag": "(R. = OYES)",
+      "crossRef": "OYES",
+      "fr": "Chante! (impératif). VR. OYES .",
+      "en": "Sing! (imperative). See OYES.",
+      "zh": "唱吧！（命令式）。參見 OYES。",
+      "examples": []
+    },
+    {
+      "hw": "PXA", "tag": "(R. = MXA ?)",
+      "fr": "Envoyer - poser - déposer.",
+      "en": "To send - to put down - to set down.",
+      "zh": "送出－放置－放下。",
+      "examples": [
+        { "t": "Ini ko pxa kakox mo", "fr": "Je n'ai pas mis mes galoches.", "en": "I have not put on my clogs.", "zh": "我沒有穿上我的木屐。" },
+        { "t": "Ma\" ini so pxa ka xeuling so?", "fr": "Pourquoi ne lâches tu pas ton chien.", "en": "Why don't you let your dog loose?", "zh": "你為什麼不把你的狗放開？" },
+        { "t": "Ana so pxa d'xgal ka ddiyun so", "fr": "Tu peux déposer par terre tes bagages (ce que tu tiens).", "en": "You may set your baggage down on the ground (what you are holding).", "zh": "你可以把你的行李（手上拿的東西）放在地上。" }
+      ]
+    },
+    {
+      "hw": "PXAAL", "tag": "(R.)",
+      "fr": "Porter avec un fléau.",
+      "en": "To carry with a shoulder-pole (flail).",
+      "zh": "用扁擔挑運。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxaal",
+          "paradigm": "°Mxaal, pxaal, p'xli, p'xlan, p'xlun.",
+          "fr": "Porter avec un fléau.",
+          "en": "To carry with a shoulder-pole.",
+          "zh": "用扁擔挑運。",
+          "examples": [
+            { "t": "Ini ko k'la mxaal tasil ka yako, mnalox kana xelang mo", "fr": "Je ne suis pas capable de porter des pierres (au fléau), mes épaules me font mal partout.", "en": "I am not able to carry stones (with the shoulder-pole), my shoulders ache all over.", "zh": "我沒辦法（用扁擔）挑石頭，我的肩膀到處都痛。" }
+          ]
+        },
+        {
+          "form": "P'xlan", "paradigm": "(p'xlaan)",
+          "fr": "Conditions, matière du portage.",
+          "en": "Conditions, the material/load of the carrying.",
+          "zh": "挑運的情形、所挑之物。",
+          "examples": [
+            { "t": "Wada mo p'xlaan kana yako nanak ka tasil gaga", "fr": "Toutes ces pierres là je les ai portées tout seul.", "en": "All those stones there I carried them all by myself.", "zh": "那邊那些石頭全都是我一個人挑的。" }
+          ]
+        },
+        {
+          "form": "Mpxaal",
+          "fr": "Porteur (au fléau) - porter sur les épaules.",
+          "en": "Carrier (with the shoulder-pole) - to carry on the shoulders.",
+          "zh": "挑夫（用扁擔者）－用肩挑運。",
+          "examples": [
+            { "t": "Ongat ka mpxaal do, xoya mo ksun?", "fr": "S'il n'y a personne pour porter, que dois-je faire?", "en": "If there is no one to carry, what am I to do?", "zh": "如果沒有人來挑，我該怎麼辦？" },
+            { "t": "Mpxaal ko kia, ana nia!", "fr": "Je les porterai ensuite, tant pis !", "en": "I will carry them later, never mind!", "zh": "我等一下再挑，算了吧！" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PXAL", "tag": "(R. = XAL ?)",
+      "crossRef": "XAL",
+      "fr": "Une seule fois. § Ana pxal balae, ini ko bi soa (sloa(?)) = Même une seule fois, je ne permets absolument pas! VR. XAL .",
+      "en": "A single time. See XAL.",
+      "zh": "只有一次。參見 XAL。",
+      "examples": [
+        { "t": "Ana pxal balae, ini ko bi soa (sloa(?))", "fr": "Même une seule fois, je ne permets absolument pas!", "en": "Even a single time, I absolutely do not permit it!", "zh": "即使只有一次，我也絕對不允許！" }
+      ],
+      "subs": [
+        {
+          "form": "Mpxal",
+          "fr": "(faire) une seule fois.",
+          "en": "(to do) a single time.",
+          "zh": "（做）只有一次。",
+          "examples": [
+            { "t": "Mpxal ko bi musa ni kia da", "fr": "Je ne vais qu'une fois et ce sera tout.", "en": "I will go only once and that will be all.", "zh": "我只去一次，就這樣了。" }
+          ]
+        },
+        {
+          "form": "Ppxal",
+          "fr": "De temps en temps.",
+          "en": "From time to time.",
+          "zh": "偶爾－不時。",
+          "examples": [
+            { "t": "Iyax toxoi sapax mo ppxal", "fr": "Viens donc une fois ou l'autre te promener chez moi (vl. me visiter, me rendre visite chez moi).", "en": "Do come now and then to visit at my house (var. to visit me, to pay me a visit at home).", "zh": "你不時來我家走走嘛（或：來看看我，來我家拜訪我）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PXENG", "tag": "( = R. ?)",
+      "fr": "Eteindre - disparaître - tarir.",
+      "en": "To extinguish - to vanish - to dry up.",
+      "zh": "熄滅－消失－枯竭。",
+      "examples": [
+        { "t": "Ima msa pxeng da!", "fr": "Qui a dit d'éteindre !", "en": "Who said to put it out!", "zh": "誰說要熄滅的！" }
+      ],
+      "subs": [
+        {
+          "form": "Mxeng", "paradigm": "(Mpxeng (?))",
+          "fr": "qui est éteint - évanoui - disparu (?).",
+          "en": "which is extinguished - faded away - vanished (?).",
+          "zh": "已熄滅的－消散的－消失的（？）。",
+          "examples": []
+        },
+        {
+          "form": "Mpxeng",
+          "fr": "Sur le point de s'éteindre, de tarir - Celui qui éteint.",
+          "en": "About to go out, to dry up - The one who extinguishes.",
+          "zh": "即將熄滅、即將枯竭的－使之熄滅者。",
+          "examples": [
+            { "t": "Ana ksia wada mpxeng sapax mo", "fr": "Même l'eau est tarie (coupée) chez moi !", "en": "Even the water is dried up (cut off) at my place!", "zh": "連我家的水都乾了（被切斷了）！" },
+            { "t": "Mpxeng ko taxot ni miyax ko da", "fr": "Je vais éteindre le feu et je viens.", "en": "I am going to put out the fire and then I come.", "zh": "我去把火熄掉就來。" }
+          ]
+        },
+        {
+          "form": "Pxngan", "paradigm": "(px'ngan)",
+          "fr": "Extinction - temps d'éteindre.",
+          "en": "Extinction - time to extinguish.",
+          "zh": "熄滅－該熄滅的時候。",
+          "examples": [
+            { "t": "Ongat pxngan na ka pusu ksia nii", "fr": "Cette source est intarissable.", "en": "This spring is inexhaustible.", "zh": "這處水源取之不竭。" },
+            { "t": "Baka bi pxngan da", "fr": "Il est temps d'éteindre.", "en": "It is time to put it out.", "zh": "該熄滅了。" },
+            { "t": "Wada mo pxngan kana kusa mo da", "fr": "J'ai éteint (payé) toutes mes dettes.", "en": "I have extinguished (paid off) all my debts.", "zh": "我已把所有的債都還清（結清）了。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "PX'PAX", "tag": "(R)",
+      "fr": "Fleur.",
+      "en": "Flower.",
+      "zh": "花。",
+      "examples": [
+        { "t": "Malu bi sknxan ka px'pax nii", "fr": "Cette fleur est très parfumée (très bonne à sentir).", "en": "This flower is very fragrant (very good to smell).", "zh": "這朵花很香（很好聞）。" }
+      ],
+      "subs": [
+        {
+          "form": "Mpx'pax",
+          "fr": "Fleurir - devenir fleur.",
+          "en": "To bloom - to become flower.",
+          "zh": "開花－成花。",
+          "examples": [
+            { "t": "Mpx'pax kana qouni ka sayang da", "fr": "En ce moment tous les arbres sont en fleurs (fleuris).", "en": "At this moment all the trees are in bloom (blossomed).", "zh": "此刻所有的樹都開花了（盛開）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QABANG", "tag": "(R)",
+      "fr": "Linceul - couverture - pièce de toile de chanvre tissée par les taroko en bandes de 30 cm. à 50 cm. de largeur et d'une longueur indéfinie d'où ils tirent la matière pour leurs habits, pour leur literie, pour leur linceul mortuaire, pour confectionner sacs ou sacoches de toutes dimensions.",
+      "en": "Shroud - blanket - piece of hemp cloth woven by the Taroko in strips 30 cm. to 50 cm. wide and of indefinite length, from which they draw the material for their clothes, for their bedding, for their burial shroud, and to make bags or pouches of all sizes.",
+      "zh": "殮布－被子－太魯閣人所織的麻布，寬約三十至五十公分、長度不定，他們用它取材製作衣服、寢具、殮布，以及各種尺寸的袋子或背袋。",
+      "examples": []
+    },
+    {
+      "hw": "QADA", "tag": "(R)",
+      "fr": "Jeter - se débarrasser de - abandonner.",
+      "en": "To throw away - to get rid of - to abandon.",
+      "zh": "丟棄－擺脫－遺棄。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Qmada",
+          "paradigm": "°Qmada, qada, (qdani)qdai (?), qdaan, qdaon (?).",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            { "t": "Balae bi qmada so kyoxan (koyox) so?", "fr": "Est-ce bien vrai que tu abandonnes ta femme?", "en": "Is it really true that you are abandoning your wife?", "zh": "你真的要拋棄你的妻子嗎？" },
+            { "t": "Qdani ka sinao da!", "fr": "Cesse de boire de l'alcool!", "en": "Stop drinking alcohol!", "zh": "別再喝酒了！" },
+            { "t": "Kmpax so sao nii do, lex so qmada pila so da!", "fr": "En travaillant comme cela c'est comme si tu jetais ton argent!", "en": "Working like that, it is as if you were throwing your money away!", "zh": "像這樣工作，就等於在把你的錢丟掉！" }
+          ]
+        },
+        {
+          "form": "Qnada",
+          "fr": "Rebut - ce qui a été dédaigné, jeté - sans valeur.",
+          "en": "Refuse - what has been scorned, thrown away - worthless.",
+          "zh": "廢棄之物－被鄙棄、被丟棄之物－沒有價值的。",
+          "examples": [
+            { "t": "Ana qnada daxa ka nii o, malu bi oqon", "fr": "Ceci a beau avoir été jeté (par les gens), c'est très bon à manger.", "en": "Even though this has been thrown away (by people), it is very good to eat.", "zh": "這東西雖然被（人）丟掉了，卻很好吃。" },
+            { "t": "Laqe qnada ka Tiwang", "fr": "Tchiwang est un enfant abandonné (vl. un rebut de la société).", "en": "Tiwang is an abandoned child (var. a reject of society).", "zh": "地旺（Tiwang）是個被遺棄的孩子（或：社會的棄兒）。" }
+          ]
+        },
+        {
+          "form": "Mqqada",
+          "fr": "S'abandonner mutuellement - se séparer - divorcer.",
+          "en": "To abandon one another - to separate - to divorce.",
+          "zh": "彼此拋棄－分開－離婚。",
+          "examples": [
+            { "t": "Sao bi mqqada ka Umin ni Imin", "fr": "Ouminne et Iminne sont sur le point (sont comme si) de se séparer (On dirait que Ouminne et Iminne vont divorcer).", "en": "Umin and Imin are on the verge of (are as if) separating (One would say that Umin and Imin are going to divorce).", "zh": "烏敏（Umin）和伊敏（Imin）快要（好像要）分開了（看來烏敏和伊敏要離婚了）。" },
+            { "t": "Sao bi kmqqada snii ka dxea", "fr": "On aurait dit ces derniers temps qu'ils allaient se séparer (dernièrement ils étaient comme s'ils divorçaient).", "en": "It seemed lately that they were going to separate (recently they were as though divorcing).", "zh": "最近看來他們好像要分開了（近來他們就像要離婚一樣）。" }
+          ]
+        },
+        {
+          "form": "Sqada",
+          "fr": "A jeter - inutilisable - laissé pour compte.",
+          "en": "To be thrown away - unusable - left aside / cast off.",
+          "zh": "該丟棄的－無法使用的－被棄置不顧的。",
+          "examples": [
+            { "t": "Mkmgui (mkmagwi) so xo ? ... Uxai ! Sqada daxa ka nii!", "fr": "Aurais tu l'intention de voler? ... Non! Ce sont (des choses) que les gens veulent jeter !", "en": "Would you have the intention to steal? ... No! These are (things) that people want to throw away!", "zh": "你是想偷嗎？……不是！這些是人家要丟掉的東西！" },
+            { "t": "Sao ko bi sqada daxa ka yako", "fr": "Moi, je suis un laissé pour compte (Je suis comme celui dont on n'a pas besoin!).", "en": "As for me, I am one cast aside (I am like someone no one needs!).", "zh": "至於我，我是被棄置不顧的人（我就像沒人需要的人！）。" }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QADAL", "tag": "( Est-ce R. de: QDALAN et QDALUN ?)",
+      "crossRef": "QDALAN, QDALUN",
+      "fr": "donner à manger - nourrir . VR. QDALAN , QDALUN .",
+      "en": "to give to eat - to feed. See QDALAN, QDALUN.",
+      "zh": "給食物－餵養。參見 QDALAN、QDALUN。",
+      "examples": []
+    },
+    {
+      "hw": "QADANG", "tag": "(R)",
+      "fr": "Dent molaire.",
+      "en": "Molar tooth.",
+      "zh": "臼齒。",
+      "examples": [
+        { "t": "Kmalox bi ka swai mo, ga plading mxlo ka qadang na pax sndurai", "fr": "Mon petit frère souffre beaucoup, depuis peu ses molaires commencent à pousser (à germer).", "en": "My little brother is in great pain, lately his molars are beginning to come through (to sprout).", "zh": "我弟弟很痛苦，最近他的臼齒開始長出來（冒出來）了。" }
+      ]
+    }
+  ]
+}

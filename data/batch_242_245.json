@@ -1,0 +1,832 @@
+{
+  "pages": [242, 245],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "QDALAN",
+      "tag": "(R. = ? - R. = QADAL ?)",
+      "fr": "Ce qu'on donne à manger.",
+      "en": "What one gives (to an animal) to eat; fodder, feed.",
+      "zh": "拿來餵食的東西；飼料。",
+      "examples": [
+        {
+          "t": "Qdalan so manu ka babwi so?",
+          "fr": "Que donnes tu à manger à tes cochons?",
+          "en": "What do you give your pigs to eat?",
+          "zh": "你拿什麼餵你的豬？"
+        }
+      ]
+    },
+    {
+      "hw": "QDALUN",
+      "tag": "(R. = ? - R. = QADAL ?)",
+      "fr": "Ceux à qui on donne à manger.",
+      "en": "Those to whom one gives food (those one feeds).",
+      "zh": "被餵食的對象；受餵養者。",
+      "examples": [
+        {
+          "t": "Qdalun so bi manu ka kana dxea?",
+          "fr": "Que veux tu leur donner à manger?",
+          "en": "What do you want to give them all to eat?",
+          "zh": "你想拿什麼餵他們大家？"
+        },
+        {
+          "t": "Qdalun so ima ka nii?",
+          "fr": "Qui veux tu nourrir avec ceci?",
+          "en": "Whom do you want to feed with this?",
+          "zh": "你想用這個餵誰？"
+        }
+      ]
+    },
+    {
+      "hw": "QDILAO",
+      "tag": "(R)",
+      "fr": "Aigle - épervier.",
+      "en": "Eagle - sparrowhawk.",
+      "zh": "鷹 — 雀鷹。",
+      "examples": [
+        {
+          "t": "Ongat xali qdilao alang taiwan ka sayang!",
+          "fr": "Actuellement il n'y a que peu d'aigles à Taïwan.",
+          "en": "Nowadays there are only a few eagles in Taiwan.",
+          "zh": "如今台灣的鷹已所剩無幾。"
+        }
+      ]
+    },
+    {
+      "hw": "QDOAN",
+      "tag": "(QDOWAN ?) (R)",
+      "fr": "Aisselle.",
+      "en": "Armpit.",
+      "zh": "腋下。",
+      "examples": [
+        {
+          "t": "Mnalaq ka loqex baga so kika sknalox kana qdoan so",
+          "fr": "C'est l'infection de la plaie de ta main qui rend douloureuse ton aisselle.",
+          "en": "It is the infection of the wound on your hand that makes your armpit painful.",
+          "zh": "是你手上傷口的感染，使你的腋下疼痛。"
+        }
+      ]
+    },
+    {
+      "hw": "QDOLYAQ",
+      "tag": "( = R. ? - R. = DAOLYAQ ?)",
+      "fr": "Se sauver - fuir - la fuite.",
+      "en": "To flee - to run away - flight.",
+      "zh": "逃跑 — 逃走 — 逃亡。",
+      "examples": [
+        {
+          "t": "Ya bi qdolyaq! Uxai ko pais da!",
+          "fr": "Ne te sauve surtout pas! Je ne suis pas un ennemi.",
+          "en": "Whatever you do, don't run away! I am not an enemy.",
+          "zh": "你千萬別逃！我不是敵人。"
+        },
+        {
+          "t": "Qdolyaq n'xali! Oqon su na (=so na)!",
+          "fr": "Sauve toi vite! Il va te manger (vl. Il veut te manger)!",
+          "en": "Flee quickly! It is going to eat you (var. it wants to eat you)!",
+          "zh": "快逃！牠要吃你了（或：牠想吃你）！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqdolyaq",
+          "paradigm": "Mqdolyaq, qdolyaq, qdlyeqe, qdlyeqan, qdlyeqon.",
+          "fr": "Celui qui s'enfuit - se sauver - fuir.",
+          "en": "One who flees - to run away - to flee.",
+          "zh": "逃跑的人 — 逃走 — 逃跑。",
+          "examples": [
+            {
+              "t": "Xoya mo ksun? Knta'to mqdolyaq ka xea !",
+              "fr": "Que puis-je faire? Il se sauve à tout bout de champ !",
+              "en": "What can I do? He runs off at every turn!",
+              "zh": "我能怎麼辦？他動不動就逃走！"
+            }
+          ]
+        },
+        {
+          "form": "Qndlyeqan",
+          "fr": "La fuite.",
+          "en": "The flight (act of fleeing).",
+          "zh": "逃亡。",
+          "examples": [
+            {
+              "t": "Mnsa so tliing ino babao qndlyeqan so ludan ?",
+              "fr": "Où es tu allé te cacher après t'être enfui de tes parents ?",
+              "en": "Where did you go to hide after running away from your parents?",
+              "zh": "你從父母身邊逃走後躲到哪裡去了？"
+            }
+          ]
+        },
+        {
+          "form": "Knqdlyeqan",
+          "fr": "La fuite (idée abstraite).- Intensité de fuite.",
+          "en": "Flight (as an abstract idea). - Intensity of fleeing.",
+          "zh": "逃亡（抽象概念）。— 逃跑的程度。",
+          "examples": [
+            {
+              "t": "Mnsklui kana mbaxang knqdlyeqan nia",
+              "fr": "Tous furent surpris d'apprendre comment il avait fui.",
+              "en": "Everyone was surprised to learn how he had fled.",
+              "zh": "大家都驚訝地得知他是怎麼逃走的。"
+            }
+          ]
+        },
+        {
+          "form": "Pqdolyaq",
+          "paradigm": "Mpqdolyaq, pqdolyaq, pqdlyeqe, pqdlyeqan, pqdlyeqon.",
+          "fr": "Chasser - faire fuir.",
+          "en": "To chase away - to put to flight.",
+          "zh": "驅趕 — 使之逃跑。",
+          "examples": [
+            {
+              "t": "Usa pqdolyaq kana ka qbxni! Xmut mqan kana oqon ta!",
+              "fr": "Va chasser tous les oiseaux; Ils ne font que manger notre nourriture (= nos céréales).",
+              "en": "Go and chase away all the birds; they do nothing but eat our food (= our grain).",
+              "zh": "去把所有的鳥趕走！牠們只會吃我們的糧食（＝我們的穀物）。"
+            },
+            {
+              "t": "Ana mo si sai mangal o, ida ko na pqdlyeqon!",
+              "fr": "Même si je voulais aller (le) prendre, il me chasserait certainement!",
+              "en": "Even if I wanted to go and take it, it would surely chase me away!",
+              "zh": "就算我想去抓牠，牠一定會把我趕跑！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QDQDAN",
+      "tag": "(R. = QTQOT ?)",
+      "crossRef": "QTQOT",
+      "fr": "Liens - fers - entraves - Celui (ce) qui est entravé. VR. QTQOT.",
+      "en": "Bonds - irons - shackles - the one (that) which is shackled. See QTQOT.",
+      "zh": "束縛 — 鐐銬 — 桎梏 — 被束縛者（物）。參見 QTQOT。",
+      "examples": []
+    },
+    {
+      "hw": "QEL",
+      "tag": "",
+      "fr": "Attrape! - bien fait! (Interjection indiquant l'approbation d'un châtiment.)",
+      "en": "Take that! - serves you right! (Interjection expressing approval of a punishment.)",
+      "zh": "活該！ — 好得很！（表示贊同某項懲罰的感嘆詞。）",
+      "examples": [
+        {
+          "t": "Qel! Qel! Kia ka ini so kbaxang kari!",
+          "fr": "C'est bien fait! C'est bien fait! Voilà ce que c'est que de ne pas obeir !",
+          "en": "Serves you right! Serves you right! That is what comes of not obeying!",
+          "zh": "活該！活該！這就是不聽話的下場！"
+        }
+      ]
+    },
+    {
+      "hw": "QELI",
+      "tag": "(R)",
+      "fr": "Qui entoure (?) - le tour (?).",
+      "en": "That which surrounds (?) - the circuit / going-around (?).",
+      "zh": "環繞之物（？）— 一圈、繞行（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Qmili",
+          "paradigm": "Qmili, qeli, qlii, qliyan, qliyun.",
+          "fr": "Enrouler - entourer.",
+          "en": "To wind - to wrap around - to surround.",
+          "zh": "纏繞 — 環繞。",
+          "examples": [
+            {
+              "t": "Ga ino ka galyeq qnliyan qbobol na?",
+              "fr": "Où est le linceul qui entourait son corps?",
+              "en": "Where is the shroud that wrapped his body?",
+              "zh": "裹住他遺體的殮布在哪裡？"
+            }
+          ]
+        },
+        {
+          "form": "Qqeli",
+          "fr": "Anneau ( qui entoure le doigt) - bracelet (qui entoure le bras).",
+          "en": "Ring (that encircles the finger) - bracelet (that encircles the arm).",
+          "zh": "戒指（環繞手指）— 手鐲（環繞手臂）。",
+          "examples": []
+        },
+        {
+          "form": "Tqeli",
+          "fr": "Qui est autour - qui fait le tour - qui entoure.",
+          "en": "That which is around - that which goes around - that which surrounds.",
+          "zh": "在周圍者 — 繞一圈者 — 環繞者。",
+          "examples": []
+        },
+        {
+          "form": "Mtqeli",
+          "fr": "Qui est tout autour - Qui entoure de partout.",
+          "en": "That which is all around - that which surrounds on every side.",
+          "zh": "在四周者 — 從各方環繞者。",
+          "examples": [
+            {
+              "t": "Siba nanak kana mtqeli sapax mo.",
+              "fr": "Tout autour de ma maison ce n'est que du gazon.",
+              "en": "All around my house there is nothing but grass.",
+              "zh": "我家四周全是草地。"
+            },
+            {
+              "t": "Mnsa ko pqbaxang nkari so kana alang mtqeli",
+              "fr": "Je suis allé annoncer tes ordres (vl.Faire entendre ce que tu avais dit) dans tous les villages alentour.",
+              "en": "I went to announce your orders (var. to make heard what you had said) in all the surrounding villages.",
+              "zh": "我到周圍所有的部落去宣布你的命令（或：傳達你所說的話）。"
+            }
+          ]
+        },
+        {
+          "form": "Tmqeli",
+          "paradigm": "Tmqeli, tqeli, tqlii, tqliyan, tqliyun.",
+          "fr": "Entourer - se mettre tout autour.",
+          "en": "To surround - to place oneself all around.",
+          "zh": "包圍 — 圍在四周。",
+          "examples": [
+            {
+              "t": "Klxangi bi! Tqliyun so na ka pais (vl.tqliyun so pais)",
+              "fr": "Prends garde! Les ennemis vont t'encercler !",
+              "en": "Watch out! The enemies are going to encircle you!",
+              "zh": "小心！敵人要包圍你了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QELO",
+      "tag": "(R)",
+      "fr": "Nuque.",
+      "en": "Nape (of the neck).",
+      "zh": "後頸、頸背。",
+      "examples": []
+    },
+    {
+      "hw": "QETA",
+      "tag": "( = R. ? - R. = ITA ? (MITA) ?)",
+      "fr": "Regarder - tourné vers.",
+      "en": "To look - turned toward.",
+      "zh": "看 — 朝向。",
+      "examples": [
+        {
+          "t": "Ntaan so ka baki ta da? ... Ini ko qeta (= Ini mo tai)",
+          "fr": "Tu l'as vu notre grand père ? ... Je n'ai pas regardé (vl. Je nel'ai pas vu).",
+          "en": "Have you seen our grandfather? ... I did not look (var. I did not see him).",
+          "zh": "你看到我們的祖父了嗎？……我沒看（或：我沒看見他）。"
+        },
+        {
+          "t": "Qeta binao!",
+          "fr": "Regarde donc un peu !",
+          "en": "Do take a look!",
+          "zh": "你倒是看一下嘛！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qmita",
+          "paradigm": "Qmita, qeta, qtai, qtaan, qyaon.",
+          "fr": "Regarder.",
+          "en": "To look.",
+          "zh": "看、注視。",
+          "examples": [
+            {
+              "t": "Qmita ka qmita ko ni, ini mo tai (ktai (?))",
+              "fr": "Je regarde bien (Pour regarder, je regarde) mais, je ne réussis pas à voir !",
+              "en": "I do look (as for looking, I look), but I cannot manage to see!",
+              "zh": "我是有看（要說看，我有看），可是我看不到！"
+            },
+            {
+              "t": "Qtai balae dd'xok so mpolo knan n'xal",
+              "fr": "Regarde bien attentivement pour arriver un jour à m'imiter.",
+              "en": "Look very carefully so that one day you can come to imitate me.",
+              "zh": "仔細看清楚，好讓你有一天能學會像我一樣。"
+            },
+            {
+              "t": "Musa so ka iso ? ... Taon mo! ... Manu ka qtaon so ? ... Kmqmita ko ddaon daxa!",
+              "fr": "Tu vas, toi? ... Je verrai ! ... Qu'est-ce que tu veux voir ? ... J'ai envie de voir ce que les autres feront.",
+              "en": "Are you going? ... I'll see! ... What do you want to see? ... I feel like seeing what the others will do.",
+              "zh": "你要去嗎？……我再看看！……你想看什麼？……我想看看別人會怎麼做。"
+            },
+            {
+              "t": "Malu bi qnita na!",
+              "fr": "Il a un beau regard !(Une belle apparence ?).",
+              "en": "He has a fine gaze! (A fine appearance?).",
+              "zh": "他的眼神很好看！（相貌俊美？）"
+            }
+          ]
+        },
+        {
+          "form": "Mqeta",
+          "fr": "Celui qui regarde - ce qui est tourné vers.",
+          "en": "One who looks - that which is turned toward.",
+          "zh": "注視者 — 朝向某方向者。",
+          "examples": [
+            {
+              "t": "Ga mqeta Sipao ka sapax Aput",
+              "fr": "La maison de Apoutz est tournée vers la pente opposée .",
+              "en": "Apoutz's house faces the opposite slope.",
+              "zh": "阿布茲的家朝向對面的山坡。"
+            },
+            {
+              "t": "Xbalao bi sadyaq ka mqeta gg'li daxa",
+              "fr": "Les spectateurs sont nombreux à regarder leurs danses.",
+              "en": "The spectators watching their dances are numerous.",
+              "zh": "觀看他們跳舞的人很多。"
+            }
+          ]
+        },
+        {
+          "form": "Mqqeta",
+          "fr": "Se regarder mutuellement - se plaire - s'aimer.",
+          "en": "To look at one another - to take a liking to each other - to love each other.",
+          "zh": "互相注視 — 互相傾心 — 相愛。",
+          "examples": [
+            {
+              "t": "Mnqqeta ida pax suxal ka Mikat ni Ingai",
+              "fr": "Micatz et Ingay se fréquentent (se faisaient de l'oeil (!)) depuis longtemps.",
+              "en": "Micatz and Ingay have been seeing each other (making eyes at each other (!)) for a long time.",
+              "zh": "米卡茲和英蓋早就在交往了（早就眉來眼去了（！））。"
+            },
+            {
+              "t": "Mqqeta ka ssapax daxa",
+              "fr": "Leurs maisons se font face.",
+              "en": "Their houses face each other.",
+              "zh": "他們的房子彼此相對。"
+            }
+          ]
+        },
+        {
+          "form": "Qtaan",
+          "fr": "Le temps, lieu, mode de regarder - ce qui est regardé.",
+          "en": "The time, place, or manner of looking - that which is looked at.",
+          "zh": "觀看的時間、地點、方式 — 被觀看之物。",
+          "examples": [
+            {
+              "t": "Malu bi qtaan ka pax xeni",
+              "fr": "C'est ici un beau point de vue (un belvédère).",
+              "en": "This is a fine viewpoint (a belvedere).",
+              "zh": "這裡是個很好的觀景點（瞭望台）。"
+            },
+            {
+              "t": "malu bi taan ka tloma gain",
+              "fr": "Tout là bas au fond c'est beau à voir (un beau spectacle).",
+              "en": "Way over there in the distance it is beautiful to look at (a fine sight).",
+              "zh": "那邊最遠處看起來很美（一片美景）。"
+            }
+          ]
+        },
+        {
+          "form": "Kmqeta",
+          "fr": "Désirer regarder.",
+          "en": "To wish to look.",
+          "zh": "想看。",
+          "examples": [
+            {
+              "t": "Usa xngali xali! Kmqeta ko bi ka yako ole!",
+              "fr": "Va un peu sur le côté! J'aimerais bien regarder moi aussi !",
+              "en": "Move aside a bit! I'd really like to look too!",
+              "zh": "你往旁邊挪一點！我也很想看啊！"
+            }
+          ]
+        },
+        {
+          "form": "Pqeta",
+          "fr": "Faire regarder - se faire regarder - se faire voir.",
+          "en": "To make (someone) look - to get oneself looked at - to show oneself off.",
+          "zh": "使人看 — 讓自己被看 — 炫耀展示自己。",
+          "examples": [
+            {
+              "t": "Pqtai ko xan ka snisan so lukus",
+              "fr": "Fais moi donc voir les habits que tu as cousus (que tu as faits).",
+              "en": "Do show me the clothes you have sewn (that you have made).",
+              "zh": "讓我看看你縫的（做的）衣服吧。"
+            },
+            {
+              "t": "Pnqeta ko boan kana ka loqex btelyaq mo",
+              "fr": "J'ai fait voir à maman toutes les plaies de ma cuisse.",
+              "en": "I showed mother all the sores on my thigh.",
+              "zh": "我把大腿上所有的傷口都給媽媽看了。"
+            },
+            {
+              "t": "Ma\" so pqeta, naqex bi!",
+              "fr": "Voilà que tu fais l'interessant (tu te fais voir), sale petit vaurien !",
+              "en": "There you go showing off (making yourself the center of attention), you dirty little rascal!",
+              "zh": "你又在賣弄了（愛出風頭），你這骯髒的小混蛋！"
+            }
+          ]
+        },
+        {
+          "form": "Mpqeta",
+          "fr": "Vaniteux - qui se met en évidence.",
+          "en": "Vain - one who puts himself forward.",
+          "zh": "愛虛榮的 — 愛出風頭的。",
+          "examples": [
+            {
+              "t": "Mpqeta bi ka Akin pax nsaan na paro ptasan",
+              "fr": "Akinne est très fièr (se croit) depuis qu'il est allé étudier à l'université.",
+              "en": "Akin has been very proud (full of himself) ever since he went to study at the university.",
+              "zh": "阿金自從上大學讀書後就很自負（自以為是）。"
+            },
+            {
+              "t": "Balae bi paro tunuç ka Longai xo? ... Adi ! Mpqeta nanak!",
+              "fr": "Est-ce vrai que Longai est très instruit ? ... Non ! Il se fait voir !",
+              "en": "Is it true that Longai is very learned? ... No! He is just showing off!",
+              "zh": "隆蓋真的很有學問嗎？……才不呢！他只是愛炫耀！"
+            }
+          ]
+        },
+        {
+          "form": "Pnqtaan",
+          "fr": "Ce qu'on a fait voir - circonstances du montrer.",
+          "en": "That which one has shown - the circumstances of the showing.",
+          "zh": "所展示之物 — 展示的情境。",
+          "examples": [
+            {
+              "t": "Pnqtaan ko na kana ka loqex nia",
+              "fr": "Il m'a montré toutes ses plaies.",
+              "en": "He showed me all his sores.",
+              "zh": "他把他所有的傷口都給我看了。"
+            }
+          ]
+        },
+        {
+          "form": "Spqeta",
+          "fr": "",
+          "en": "",
+          "zh": "",
+          "examples": [
+            {
+              "t": "Wada na pblangun (pkblangun (?)) ka kana baga na spqeta na boan",
+              "fr": "Il a dénudé tout son bras pour le faire voir à sa mère.",
+              "en": "He bared his whole arm to show it to his mother.",
+              "zh": "他把整條手臂露出來給母親看。"
+            }
+          ]
+        },
+        {
+          "form": "Tqeta",
+          "fr": "Apparaître - se manifester.",
+          "en": "To appear - to show oneself.",
+          "zh": "出現 — 現身。",
+          "examples": [
+            {
+              "t": "Ida bi mp'alex so! Ini so xali tqeta sapax nami da",
+              "fr": "Probablement que tu nous boudes ! Tu ne te fais plus guère voir chez nous !",
+              "en": "You're probably sulking with us! You hardly ever show yourself at our place anymore!",
+              "zh": "你大概在跟我們鬧彆扭吧！你幾乎都不到我們家露面了！"
+            }
+          ]
+        },
+        {
+          "form": "Tnqtaan",
+          "fr": "Apparition (faite).",
+          "en": "Appearance (that has taken place).",
+          "zh": "（已發生的）現身、出現。",
+          "examples": [
+            {
+              "t": "Pax tnqtaan so skawas o, wana bi sayang ka yaxan so tqeta dole",
+              "fr": "Depuis ton apparition de l'an passé, c'est la première fois maintenant que tu te laisses voir !",
+              "en": "Since your appearance last year, this is the first time now that you let yourself be seen!",
+              "zh": "自從你去年出現之後，這是你如今第一次讓人見到你！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QEULIT",
+      "tag": "(R)",
+      "fr": "Souris - rats .",
+      "en": "Mice - rats.",
+      "zh": "老鼠 — 鼠類。",
+      "examples": [
+        {
+          "t": "Knliwa bi qeulit sapax mo",
+          "fr": "Chez moi il y a une invasion de (énormément de) souris (de rats).",
+          "en": "At my place there is an invasion of (a huge number of) mice (rats).",
+          "zh": "我家鬧鼠患（老鼠多得不得了）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sqeulit",
+          "fr": "Sentir le rat - qui sent le rat (la souris).",
+          "en": "To smell of rat - that which smells of rat (mouse).",
+          "zh": "有老鼠味 — 帶有鼠味者。",
+          "examples": [
+            {
+              "t": "Balae bi sqeulit ka sapax mo !",
+              "fr": "C'est vrai! Chez moi cela sent la souris !",
+              "en": "It's true! At my place it smells of mice!",
+              "zh": "真的！我家有一股老鼠味！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QEUMI",
+      "tag": "(R)",
+      "fr": "Aiguille.",
+      "en": "Needle.",
+      "zh": "針。",
+      "examples": [
+        {
+          "t": "Mxa ko pbetaq qeumi sapax msapox",
+          "fr": "Je vais chez le docteur me faire faire une piqûre (me faire piquer d'une aiguille).",
+          "en": "I am going to the doctor's to get an injection (to be pricked with a needle).",
+          "zh": "我要去醫生那裡打針（讓針扎我）。"
+        },
+        {
+          "t": "Nyeqan qeumi so? Kmsais ko bi kingal botang",
+          "fr": "Aurais tu une aiguille ? J'aimerais bien coudre un bouton.",
+          "en": "Would you have a needle? I'd like to sew on a button.",
+          "zh": "你有針嗎？我想縫一顆鈕扣。"
+        }
+      ]
+    },
+    {
+      "hw": "QEXONG",
+      "tag": "(R)",
+      "fr": "Champignon cultivé sur une couche d'humus très humide et chaud (entre autre: Champignon de Paris !).",
+      "en": "Mushroom cultivated on a bed of very moist and warm humus (among others: the Paris/button mushroom!).",
+      "zh": "生長在非常潮濕溫暖腐植層上的栽培菇類（例如：巴黎蘑菇／洋菇！）。",
+      "examples": [
+        {
+          "t": "Msxea balae ka qexong so !",
+          "fr": "Tes champignons sont très savoureux !",
+          "en": "Your mushrooms are very tasty!",
+          "zh": "你的菇非常美味！"
+        }
+      ]
+    },
+    {
+      "hw": "QEYUT",
+      "tag": "(R)",
+      "fr": "Mordre - piquer(insectes) - morsure - piqûre.",
+      "en": "To bite - to sting (insects) - bite - sting.",
+      "zh": "咬 — 叮（昆蟲）— 咬傷 — 叮咬。",
+      "examples": [
+        {
+          "t": "Ini qeyut ka xeuling mo",
+          "fr": "Mon chien ne mord pas.",
+          "en": "My dog does not bite.",
+          "zh": "我的狗不咬人。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Qmiyut",
+          "paradigm": "Qmiyut, qeyut, qyuti, qyutan, qyutun.",
+          "fr": "Mordre - piquer - être caustique.",
+          "en": "To bite - to sting - to be caustic.",
+          "zh": "咬 — 叮 — 尖酸刻薄。",
+          "examples": [
+            {
+              "t": "Luxai bi laqe mo ka qmiyut tunux onox",
+              "fr": "Mon gosse a l'habitude de mordre le mamelon de mon sein.",
+              "en": "My kid has the habit of biting the nipple of my breast.",
+              "zh": "我的孩子習慣咬我的乳頭。"
+            },
+            {
+              "t": "Ya usa sdalex xeuling daxa, qyutun so na baga kia, kawai binao !",
+              "fr": "ne t'approche pas de leur chien, il va te mordre la main, tu vas voir!",
+              "en": "don't go near their dog, it will bite your hand, you'll see!",
+              "zh": "別靠近他們的狗，牠會咬你的手，你等著瞧！"
+            }
+          ]
+        },
+        {
+          "form": "Qnyutan",
+          "fr": "Morsure (déjà faite) - Piqûre (subie).",
+          "en": "Bite (already inflicted) - sting (suffered).",
+          "zh": "（已造成的）咬傷 — （所受的）叮咬。",
+          "examples": [
+            {
+              "t": "Paro bi qnyutan xeuling ka nii!",
+              "fr": "Ceci est une grosse morsure de chien !",
+              "en": "This is a big dog bite!",
+              "zh": "這是很大的一個狗咬傷！"
+            }
+          ]
+        },
+        {
+          "form": "Pqeyut",
+          "paradigm": ".?., pqeyut, pqyuti, pqyutan, pqyutun.",
+          "fr": "Se faire mordre - faire mordre.",
+          "en": "To get oneself bitten - to make (someone) get bitten.",
+          "zh": "讓自己被咬 — 使人被咬。",
+          "examples": [
+            {
+              "t": "Manu ka saon so pqeyut baga so!",
+              "fr": "Pourquoi es tu allé (qu'avais tu à aller) te faire mordre la main ?",
+              "en": "Why did you go (what business had you) getting your hand bitten?",
+              "zh": "你幹嘛去（有什麼必要去）讓手被咬？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLAAO",
+      "tag": "(R)",
+      "fr": "Patauger pour passer l'eau - Marcher dans l'eau _ nager(?).",
+      "en": "To wade in order to cross water - to walk through water _ to swim(?).",
+      "zh": "涉水過河 — 在水中行走 ＿ 游泳（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqlaao",
+          "fr": "Passer dans l'eau.",
+          "en": "To pass through the water.",
+          "zh": "涉水而過。",
+          "examples": [
+            {
+              "t": "Mnda ko mqlaao muda yayong",
+              "fr": "Je suis allé dans l'eau (en marchant (?), en nageant (?)) pour traverser le torrent.",
+              "en": "I went into the water (wading (?), swimming (?)) to cross the torrent.",
+              "zh": "我下水（步行（？）、游泳（？））去渡過激流。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLABWI",
+      "tag": "(R)",
+      "fr": "Paupières.",
+      "en": "Eyelids.",
+      "zh": "眼瞼、眼皮。",
+      "examples": [
+        {
+          "t": "Qlabwi daolyaq",
+          "fr": "Paupières.",
+          "en": "Eyelids.",
+          "zh": "眼瞼。"
+        }
+      ]
+    },
+    {
+      "hw": "QLAQ",
+      "tag": "(R)",
+      "fr": "Démangeaison - prurit.",
+      "en": "Itching - pruritus.",
+      "zh": "發癢 — 搔癢。",
+      "examples": [
+        {
+          "t": "Tayal qlaq papaq mo !",
+          "fr": "Quelle démangeaison dans mes pieds ! (= Comme mes pieds me démangent!",
+          "en": "What an itch in my feet! (= How my feet itch!)",
+          "zh": "我的腳好癢！（＝我的腳癢死了！）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mqlaq",
+          "fr": "Qui démange.",
+          "en": "That which itches.",
+          "zh": "發癢者。",
+          "examples": [
+            {
+              "t": "Mqlaq kana xei mo",
+              "fr": "Tout mon corps me démange.",
+              "en": "My whole body itches.",
+              "zh": "我全身發癢。"
+            },
+            {
+              "t": "Mnsa so psdaxal pusu palas, kia ka sqlaq kana xnigan so",
+              "fr": "Tu es allé t'adosser à un tronc de PALAS; voilà ce qui provoque ces démangeaisons sur tout le corps.",
+              "en": "You went and leaned against a PALAS trunk; that is what causes this itching all over your body.",
+              "zh": "你去靠著一棵 PALAS 樹的樹幹；這就是你全身發癢的原因。"
+            }
+          ]
+        },
+        {
+          "form": "Mqlaq",
+          "fr": "(R. = ??) Endommagé - détruit.",
+          "en": "(root = ??) Damaged - destroyed.",
+          "zh": "（詞根 = ??）受損 — 毀壞。",
+          "examples": [
+            {
+              "t": "Mnda xeni ka paro bgixol ni mqlaq kana ka ssapax nami da",
+              "fr": "Un grand vent (typhon) est passé par ici et toutes nos maisons sont détériorées.",
+              "en": "A great wind (typhoon) passed through here and all our houses are damaged.",
+              "zh": "一場強風（颱風）從這裡經過，我們所有的房子都受損了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLAQEL",
+      "tag": "(R)",
+      "fr": "Souffrir (Est-çe même R. que :CUIR, PEAU = KLAQEL ? (QLAQEL?)).",
+      "en": "To suffer (Is it the same root as: LEATHER, SKIN = KLAQEL? (QLAQEL?)).",
+      "zh": "受苦（與「皮革、皮膚 = KLAQEL」是同一詞根嗎？（QLAQEL？））。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mqlaqel",
+          "fr": "Souffrir - être misérable - Infortuné.",
+          "en": "To suffer - to be wretched - unfortunate.",
+          "zh": "受苦 — 悲慘 — 不幸。",
+          "examples": [
+            {
+              "t": "Laqe ko suxal o , paro bi ndaan mo mqlaqel",
+              "fr": "Dans mon enfance, j'en ai vu de toutes les couleurs (j'ai passé par de grandes souffrances, difficultés) !",
+              "en": "In my childhood I went through all sorts of hardships (I endured great sufferings, difficulties)!",
+              "zh": "我小時候受盡了各種苦頭（經歷過極大的痛苦與艱難）！"
+            },
+            {
+              "t": "Babao bgixol o, mxdo mqlaqel kana ka pusu blubul",
+              "fr": "Après le typhon tous le bananiers sont détruits complètement .",
+              "en": "After the typhoon all the banana plants are completely destroyed.",
+              "zh": "颱風過後，所有的香蕉樹都完全毀壞了。"
+            }
+          ]
+        },
+        {
+          "form": "Qlqelan",
+          "fr": "Souffrance - misère - difficulté.",
+          "en": "Suffering - misery - difficulty.",
+          "zh": "痛苦 — 悲慘 — 艱難。",
+          "examples": [
+            {
+              "t": "Mnda ko paro bi qlqelan ka yako ole",
+              "fr": "Moi aussi je suis passé par de grandes épreuves (difficultés, souffrances).",
+              "en": "I too have been through great ordeals (difficulties, sufferings).",
+              "zh": "我也經歷過極大的磨難（艱難、痛苦）。"
+            }
+          ]
+        },
+        {
+          "form": "Pqlaqel",
+          "paradigm": "mpqlaqel, pqlaqel, pqlqeli, pqlqelan, pqlqelun.",
+          "fr": "Faire souffrir - torturer - en faire voir.",
+          "en": "To make suffer - to torture - to give (someone) a hard time.",
+          "zh": "使人受苦 — 折磨 — 讓人吃苦頭。",
+          "examples": [
+            {
+              "t": "Naqex bi ka splang mpqlaqel ana qbxni ni ana manu",
+              "fr": "C'est méchant (c'est mal)de faire souffrir volontairement des oiseaux ou n'importe quoi !",
+              "en": "It is wicked (it is bad) to deliberately make birds or anything else suffer!",
+              "zh": "故意折磨鳥或任何東西是很壞的（是不對的）！"
+            },
+            {
+              "t": "Ida mo psaon ka laqe muda tityex pqlaqel sapax daxa",
+              "fr": "Je veux absolument envoyer mon gosse se faire un peu dresser (se faire souffrir) chez les autres !",
+              "en": "I absolutely want to send my kid to be toughened up a bit (to be made to suffer) at other people's homes!",
+              "zh": "我一定要把我的孩子送到別人家去磨練一下（吃點苦頭）！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "QLARI",
+      "tag": "(KLARI ?) (R)",
+      "fr": "Pierre de silex .",
+      "en": "Flint stone.",
+      "zh": "燧石。",
+      "examples": []
+    },
+    {
+      "hw": "Q'LING",
+      "tag": "(R)",
+      "fr": "Fin - ténu - grêle.",
+      "en": "Fine - slender - thin.",
+      "zh": "細 — 纖細 — 細瘦。",
+      "examples": [
+        {
+          "t": "Soqe q'ling bi ka baga na",
+          "fr": "Ses bras sont extrèmement (trop) fins.",
+          "en": "His arms are extremely (too) thin.",
+          "zh": "他的手臂極為（過於）纖細。"
+        },
+        {
+          "t": "Kingal pusu ddima o, q'ling bi ka dudux nia ni qtol bi ka pusu na",
+          "fr": "Un bambou est fin à la cime et gros à sa base.",
+          "en": "A bamboo is thin at the top and thick at its base.",
+          "zh": "竹子的頂端細，根部粗。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tqling",
+          "fr": "Très mince - extrémité.",
+          "en": "Very thin - the tip / extremity.",
+          "zh": "非常細 — 末端、尖端。",
+          "examples": [
+            {
+              "t": "Ima ka mpd'xok musa betak mlmux…",
+              "fr": "",
+              "en": "",
+              "zh": ""
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "pages": [142, 145],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Plading",
+        "paradigm": "°Mplading, plading, pldingi, pldingan, pldingun.",
+        "fr": "Faire commencer - commencer (qqch).",
+        "en": "To make begin - to begin (something).",
+        "zh": "使開始－開始（某事）。",
+        "examples": [
+          {
+            "t": "Plading namo knuan ?",
+            "fr": "Quand est-ce que vous commencez ?",
+            "en": "When do you begin?",
+            "zh": "你們什麼時候開始？"
+          },
+          {
+            "t": "Nta n'xali! Ga plading muyes ka dxea",
+            "fr": "Viens vite! Voilà qu'ils commencent de chanter !",
+            "en": "Come quickly! There they are, beginning to sing!",
+            "zh": "快來！他們正要開始唱歌了！"
+          }
+        ]
+      },
+      {
+        "form": "Tnlading",
+        "fr": "Initiateur - ce, celui qui est depuis le commencement.",
+        "en": "Initiator - that, the one who has existed since the beginning.",
+        "zh": "發起者－自始即存在的人或物。",
+        "examples": [
+          {
+            "t": "Suyang bi ka gnluban ta sayang; yn bi ina ka tnlading ?",
+            "fr": "Notre communauté est aujourd'hui très bonne; qui est-ce donc qui a bien pu la faire naître (commencer) ?",
+            "en": "Our community is very good today; who then could have brought it into being (started it)?",
+            "zh": "我們的社群如今很好；究竟是誰使它誕生（開始）的呢？"
+          }
+        ]
+      },
+      {
+        "form": "Tlading",
+        "fr": "Qui est au commencement - qui se trouve au début.",
+        "en": "Who is at the commencement - who is at the beginning.",
+        "zh": "位於起初者－處於開端者。",
+        "examples": [
+          {
+            "t": "Tlading sida o, ongat ana manu",
+            "fr": "Au moment du début, il n'y avait rien !",
+            "en": "At the moment of the beginning, there was nothing!",
+            "zh": "在起初的時候，什麼都沒有！"
+          }
+        ]
+      },
+      {
+        "form": "Nlading",
+        "fr": "Ce qui a été le début - avoir commencé.",
+        "en": "That which was the beginning - to have begun.",
+        "zh": "曾為開端者－已經開始。",
+        "examples": [
+          {
+            "t": "Asi nlading snxeulis xeaan ka d'Aman",
+            "fr": "Aussitôt le groupe de Amanne a commencé à le ridiculiser.",
+            "en": "At once Amanne's group began to ridicule him.",
+            "zh": "阿曼那一群人立刻開始嘲笑他。"
+          }
+        ]
+      },
+      {
+        "form": "Slading",
+        "fr": "Pour être commencement - ce qui sert à commencer.",
+        "en": "To be a commencement - that which serves to begin.",
+        "zh": "作為開端者－用以開始之物。",
+        "examples": [
+          {
+            "t": "Ts'yex namo do, kika slading namo mqqan",
+            "fr": "Vos plaisanteries de ce moment, voilà ce qui va provoquer (faire naître) une dispute entre vous !",
+            "en": "Your jokes just now, that is what will provoke (give rise to) a quarrel among you!",
+            "zh": "你們剛才的玩笑，正是那將在你們之間引起（產生）爭執的東西！"
+          }
+        ]
+      },
+      {
+        "form": "Pslading",
+        "fr": "Ce qu'on veut faire servir de commencement, de point de départ. (nb. entre autres sens, ce terme indique le menu bois, les brindilles, le bois de pin, qui serviront à faire allumer le feu).",
+        "en": "That which one wants to use as a commencement, as a starting point. (n.b. among other senses, this term denotes the small wood, the twigs, the pine wood, which will serve to light the fire).",
+        "zh": "想用作開端、起點之物。（註：此詞尚有他義，指用來生火的細柴、枝椏、松木。）",
+        "examples": [
+          {
+            "t": "Ngalun no pslading taxot ka ddima ndngo bukwi sapax so",
+            "fr": "Je veux me servir de tes bambous secs de derrière ta maison pour allumer le feu.",
+            "en": "I want to use your dry bamboo from behind your house to light the fire.",
+            "zh": "我想用你家後面的乾竹子來生火。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "LAE",
+      "tag": "(R)",
+      "fr": "Noces (?) - repas de noces (?).",
+      "en": "Wedding (?) - wedding feast (?).",
+      "zh": "婚禮（？）－婚宴（？）。",
+      "examples": [
+        {
+          "t": "Adi ta biyao mxa mqan lae dole",
+          "fr": "Nous ne serons pas longtemps avant d'aller de nouveau à un repas de noces (Nous irons de nouveau au repas de noces avant peu).",
+          "en": "It will not be long before we go again to a wedding feast (We will go to the wedding feast again before long).",
+          "zh": "不久我們就會再去參加婚宴（我們很快就會再去婚宴）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pntlyaan",
+          "fr": "Temps, lieu des noces - repas de noces.",
+          "en": "Time, place of the wedding - wedding feast.",
+          "zh": "婚禮的時間、地點－婚宴。",
+          "examples": [
+            {
+              "t": "Uxai diyax sayang ka pntlyaan laqe Diyan ?",
+              "fr": "N'est-ce pas aujourd'hui le jour des noces du fils de Djian ?",
+              "en": "Isn't today the wedding day of Djian's son?",
+              "zh": "今天不是迪央之子的婚禮之日嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAGAP",
+      "tag": "(R)",
+      "fr": "Pluie torrentielle, répétée, soudaine, sans orage.",
+      "en": "Torrential, repeated, sudden rain, without a storm.",
+      "zh": "傾盆、連續、驟然而至、無雷雨的大雨。",
+      "subs": [
+        {
+          "form": "Lmagap",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Idas nii o, knta'to lnagap; ini ta k'la nusa kmpax",
+              "fr": "Ce mois-ci, c'est une averse après l'autre; on n'arrive pas à aller travailler.",
+              "en": "This month, it's one downpour after another; we can't manage to go and work.",
+              "zh": "這個月一場大雨接著一場；我們無法去工作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LALA",
+      "tag": "(R)",
+      "fr": "Beaucoup - nombreux - fréquent.",
+      "en": "Much - numerous - frequent.",
+      "zh": "多－眾多－頻繁。",
+      "examples": [
+        {
+          "t": "Xmut lala",
+          "fr": "Un très grand nombre.",
+          "en": "A very great number.",
+          "zh": "非常大的數量。"
+        },
+        {
+          "t": "Lala bi xei ka trabus no da",
+          "fr": "Mes arachides ont vraiment porté beaucoup de fruits.",
+          "en": "My peanuts have really borne much fruit.",
+          "zh": "我的花生確實結了很多果實。"
+        },
+        {
+          "t": "Lala bi pila na",
+          "fr": "Il est très riche (il a beaucoup d'argent).",
+          "en": "He is very rich (he has a lot of money).",
+          "zh": "他很富有（他有很多錢）。"
+        },
+        {
+          "t": "Lala bi qoaq na ka Liwis",
+          "fr": "On ne peut pas se fier à ce que dit Liwis (il a beaucoup de bouches, dit n'importe quoi).",
+          "en": "One cannot rely on what Liwis says (he has many mouths, says anything at all).",
+          "zh": "不能相信里維斯所說的話（他嘴多，什麼都亂說）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlala",
+          "fr": "Souvent - de nombreuses fois (au présent).",
+          "en": "Often - many times (in the present).",
+          "zh": "常常－許多次（現在）。",
+          "examples": [
+            {
+              "t": "Wana bi yako ka mlala lmngao",
+              "fr": "Je suis le seul à parler souvent (à le répéter souvent).",
+              "en": "I am the only one who speaks often (who repeats it often).",
+              "zh": "只有我常常說（常常重複它）。"
+            }
+          ]
+        },
+        {
+          "form": "Mnlala",
+          "fr": "Souvent, de nombreuses fois (dans le passé).",
+          "en": "Often, many times (in the past).",
+          "zh": "常常、許多次（過去）。",
+          "examples": [
+            {
+              "t": "Ya ksa: mnspat, mnlima; mnlala bi da",
+              "fr": "Ne dis pas quatre fois, cinq fois ; c'est arrivé de nombreuses fois !",
+              "en": "Don't say four times, five times; it happened many times!",
+              "zh": "別說四次、五次；已經發生過很多次了！"
+            }
+          ]
+        },
+        {
+          "form": "Knlala",
+          "fr": "Combien nombreux - combien souvent - la quantité.",
+          "en": "How numerous - how often - the quantity.",
+          "zh": "多麼眾多－多麼頻繁－數量。",
+          "examples": [
+            {
+              "t": "Snola so nita knlala pila daxa xo ?",
+              "fr": "Es-tu jaloux de voir combien les autres ont beaucoup d'argent ?",
+              "en": "Are you jealous to see how much money others have?",
+              "zh": "你嫉妒看到別人有那麼多錢嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pnlala",
+          "fr": "Beaucoup à la fois - beaucoup à chacun.",
+          "en": "Much at a time - much to each.",
+          "zh": "一次很多－每人很多。",
+          "examples": [
+            {
+              "t": "Pnpia ta da ? ...Ini no k'lae; xmut pnlala ta!",
+              "fr": "Combien à chacun (combien à la fois) ? ... Je ne le sais pas; (mais) en tous cas c'est beaucoup !",
+              "en": "How much to each (how much at a time)? ... I don't know; (but) in any case it's a lot!",
+              "zh": "每人多少（一次多少）？……我不知道；（但）無論如何很多！"
+            }
+          ]
+        },
+        {
+          "form": "Nllaon (Mllaon ?)",
+          "fr": "Faire, vouloir que ce soit souvent. - Faire que ce soit en grande quantité.",
+          "en": "To make, to want it to be often. - To make it be in great quantity.",
+          "zh": "使、想要它常常發生。－使它大量發生。",
+          "examples": [
+            {
+              "t": "Nllaon na bi biyax lmngao",
+              "fr": "Il mettra beaucoup de force à parler (Il parlera avec insistance).",
+              "en": "He will put much force into speaking (He will speak insistently).",
+              "zh": "他會非常用力地說話（他會堅持地說）。"
+            },
+            {
+              "t": "Nllaon na bi lmngao",
+              "fr": "Il le répètera souvent.",
+              "en": "He will repeat it often.",
+              "zh": "他會常常重複它。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LALAE",
+      "tag": "(R)",
+      "fr": "Avant - devant - d'abord.",
+      "en": "Before - in front - first.",
+      "zh": "之前－前面－首先。",
+      "subs": [
+        {
+          "form": "Plalae",
+          "paradigm": "°Mplalae, plalae, pllai, pllayan, pllayun.",
+          "fr": "Commencer par - faire passer devant, d'abord.",
+          "en": "To begin with - to make (someone) go in front, first.",
+          "zh": "以……開始－使（某人）先走、先行。",
+          "examples": [
+            {
+              "t": "Plalae o, Yano lqlaqe; bukwi do, dmbiyax; bukwi na bi o, dludan",
+              "fr": "Vous les enfants, vous passerez devant, puis viendront les adultes, et enfin les anciens.",
+              "en": "You children, you will go in front, then will come the adults, and finally the elders.",
+              "zh": "你們孩子先走，然後是成人，最後才是長者。"
+            }
+          ]
+        },
+        {
+          "form": "Pllayun",
+          "fr": "Ce par quoi (ceux par qui) l'on veut commencer.",
+          "en": "That by which (those by whom) one wants to begin.",
+          "zh": "想以之（以之人）開始者。",
+          "examples": [
+            {
+              "t": "Ima bi ka pllayun no?",
+              "fr": "Par qui vais-je commencer? , Qui vais-je mettre devant?",
+              "en": "By whom shall I begin? , Whom shall I put in front?",
+              "zh": "我該從誰開始？我該把誰排在前面？"
+            },
+            {
+              "t": "Pllayun miso uusa so mpwa'la",
+              "fr": "Je commencerai par toi (je te mettrai devant) pour que tu sois leur guide.",
+              "en": "I will begin with you (I will put you in front) so that you may be their guide.",
+              "zh": "我會從你開始（把你排在前面），好讓你當他們的嚮導。"
+            }
+          ]
+        },
+        {
+          "form": "Pllai",
+          "fr": "Commence! (ordre).",
+          "en": "Begin! (order).",
+          "zh": "開始！（命令）。",
+          "examples": [
+            {
+              "t": "Ana ima ka ini na pllai tmukwi o, adi na bi d'xkon (d'xqon) kmtui ole",
+              "fr": "Celui qui ne commence pas par semer, ne pourra jamais récolter (non plus).",
+              "en": "Whoever does not begin by sowing will never be able to harvest (either).",
+              "zh": "凡不先播種的人，也永遠無法收穫。"
+            }
+          ]
+        },
+        {
+          "form": "Tlalae",
+          "fr": "Qui (de fait) est devant, est premier, est avant.",
+          "en": "Who (in fact) is in front, is first, is before.",
+          "zh": "（實際上）在前、居首、在先者。",
+          "examples": [
+            {
+              "t": "Ima namo ka tlalae mniyax ? ... Yako ka tnlalae!",
+              "fr": "Quel est celui d'entre vous qui est venu le premier ? ... C'est moi qui était avant!",
+              "en": "Which of you came first? ... It is I who was before!",
+              "zh": "你們當中誰先來的？……是我在先！"
+            },
+            {
+              "t": "Nasi so tlalae musa snluxai do, na, npd'xok so kmpax ole",
+              "fr": "Si tu vas d'abord faire l'apprentissage, alors tu arriveras aussi à travailler.",
+              "en": "If you first go to do the apprenticeship, then you too will manage to work.",
+              "zh": "如果你先去學習，那麼你也能夠工作。"
+            }
+          ]
+        },
+        {
+          "form": "Tnlalae",
+          "fr": "Premier - qui de fait est avant, devant.",
+          "en": "First - who in fact is before, in front.",
+          "zh": "首位－實際上在先、在前者。",
+          "examples": [
+            {
+              "t": "Ya xan ka iso, tnlalae ka xea",
+              "fr": "Attends un peu, toi ! Il était là avant toi.",
+              "en": "Wait a bit, you! He was here before you.",
+              "zh": "你等一下！他比你先在這裡。"
+            }
+          ]
+        },
+        {
+          "form": "Ntlalae",
+          "fr": "Partie de ce qui précède - Antérieur.",
+          "en": "Part of what precedes - Anterior.",
+          "zh": "先前部分之一－在先的。",
+          "examples": [
+            {
+              "t": "Kusa ntlalae ka kia, Pnkusa so snii o, kika slngao no sayang",
+              "fr": "Cela fait partie de la dette antérieure (du passé, d'avant); c'est de celle que tu as contracté dernièrement que je veux parler maintenant.",
+              "en": "That belongs to the earlier debt (of the past, of before); it is of the one you contracted recently that I want to speak now.",
+              "zh": "那屬於先前的債（過去的、以前的）；我現在要說的是你最近欠下的那筆。"
+            },
+            {
+              "t": "Tnlalae ka patas nii",
+              "fr": "Ce livre vient le premier.",
+              "en": "This book comes first.",
+              "zh": "這本書排第一。"
+            },
+            {
+              "t": "Ntlalae ka patas nii",
+              "fr": "Ce livre (cet écrit) est un livre d'autrefois.",
+              "en": "This book (this writing) is a book of former times.",
+              "zh": "這本書（這份文字）是從前的書。"
+            },
+            {
+              "t": "Ndtlalae ka patas nii",
+              "fr": "Ce livre fait partie de ceux du premier groupe.",
+              "en": "This book is part of those of the first group.",
+              "zh": "這本書屬於第一組的書。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LALAO",
+      "tag": "(R)",
+      "fr": "Éviter - passer à côté.",
+      "en": "To avoid - to pass by the side.",
+      "zh": "避開－從旁繞過。",
+      "examples": [
+        {
+          "t": "Lalao bi musa yayong",
+          "fr": "Évitez d'aller au torrent.",
+          "en": "Avoid going to the torrent.",
+          "zh": "避免去溪流（激流）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmalao",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Taan daxa ka bqlos do, kasi lmalao muda \"lu ka dxea",
+              "fr": "Quand ils virent le cadavre, ils firent un détour (un écart) pour passer leur chemin.",
+              "en": "When they saw the corpse, they made a detour (a swerve) to go on their way.",
+              "zh": "他們看見屍體時，就繞道（岔開）而行。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAMAL",
+      "tag": "( = R. ? )",
+      "fr": "Qui est devant - qui est en avance - qui précède.",
+      "en": "Who is in front - who is ahead - who precedes.",
+      "zh": "在前者－提前者－先行者。",
+      "subs": [
+        {
+          "form": "Slamal",
+          "fr": "Se préparer - faire pour être prêt, pour être en avant.",
+          "en": "To prepare oneself - to act so as to be ready, to be ahead.",
+          "zh": "準備自己－為做好準備、為搶先而做。",
+          "examples": [
+            {
+              "t": "Ini ko slamal (kslamal ?) ka yako, usa lamal ( usa nama ?) ka iso",
+              "fr": "Je ne suis pas préparé, toi, va devant.",
+              "en": "I am not prepared; you, go on ahead.",
+              "zh": "我還沒準備好，你先走吧。"
+            }
+          ]
+        },
+        {
+          "form": "Mslamal",
+          "paradigm": "°Mslamal, slamal, slmali, slmalan, .?. ,",
+          "fr": "Qui se tient prêt, en avance - se préparer. - préparer.",
+          "en": "Who keeps ready, ahead - to prepare oneself. - to prepare.",
+          "zh": "保持準備好、提前者－準備自己。－準備。",
+          "examples": [
+            {
+              "t": "Ga mslamal daya ka tama; mxa nami saman ka yami",
+              "fr": "Papa se prépare là-haut en avance; nous, nous y allons demain.",
+              "en": "Papa is preparing up there in advance; we, we are going there tomorrow.",
+              "zh": "爸爸在上面提前準備；我們則明天才去。"
+            }
+          ]
+        },
+        {
+          "form": "Pslamal",
+          "paradigm": "°Mpslamal; pslamal, pslmali, pslmalan, pslmalun.",
+          "fr": "Préparer - faire que quelque chose soit en avance, prévue.",
+          "en": "To prepare - to make something be ready in advance, foreseen.",
+          "zh": "準備－使某事提前備妥、預先安排。",
+          "examples": [
+            {
+              "t": "Ida ko pnslamal lmngao pax suxal",
+              "fr": "Je l'avais pourtant prédit depuis longtemps.",
+              "en": "Yet I had predicted it long ago.",
+              "zh": "然而我早就預言過了。"
+            }
+          ]
+        },
+        {
+          "form": "Pslmali",
+          "fr": "Préparez - tenez prêt.",
+          "en": "Prepare - keep ready.",
+          "zh": "你們要預備－保持準備好。",
+          "examples": [
+            {
+              "t": "Pslmali gm\"lu \"lu ddaon lqlaqe ta da",
+              "fr": "Préparez en avance le chemin que devront prendre nos enfants.",
+              "en": "Prepare in advance the road that our children will have to take.",
+              "zh": "預先準備好我們孩子將要走的路。"
+            }
+          ]
+        },
+        {
+          "form": "Pslmalan",
+          "fr": "Ce qui a été dit..fait .. prévu .. en avance.",
+          "en": "That which has been said..done .. foreseen .. in advance.",
+          "zh": "已預先說過……做過……安排過者。",
+          "examples": [
+            {
+              "t": "Nyeqan ka pnslmalan kari",
+              "fr": "Cela a déjà été prédit (prévu).",
+              "en": "That has already been predicted (foreseen).",
+              "zh": "那已經被預言（預見）過了。"
+            }
+          ]
+        },
+        {
+          "form": "Mpslamal",
+          "fr": "Celui qui prédit, qui prépare - prophète - celui qui fait en avance.",
+          "en": "The one who predicts, who prepares - prophet - the one who acts in advance.",
+          "zh": "預言者、準備者－先知－提前行事者。",
+          "examples": [
+            {
+              "t": "Ima nk'la ka ddaon na! Uxai ko mpslamal ka yako!",
+              "fr": "Qui peut savoir ce qu'il fera? Je ne suis pas prophète, moi !",
+              "en": "Who can know what he will do? I am not a prophet, me!",
+              "zh": "誰能知道他將做什麼？我又不是先知！"
+            }
+          ]
+        },
+        {
+          "form": "Dmpslamal",
+          "fr": "Les précurseurs - les prophètes.",
+          "en": "The forerunners - the prophets.",
+          "zh": "先驅者－先知們。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "LAMIL",
+      "tag": "(R)",
+      "fr": "Semelle (du pied, de la chaussure) - (par extension =) Chaussure.",
+      "en": "Sole (of the foot, of the shoe) - (by extension =) Shoe.",
+      "zh": "腳掌／鞋底－（引申＝）鞋子。",
+      "examples": [
+        {
+          "t": "Ana ini mbbais ka llamil mo da",
+          "fr": "Ce n'est pas nécessaire que mes chaussures soient appareillées (par paire).",
+          "en": "It is not necessary that my shoes be matched (in a pair).",
+          "zh": "我的鞋子不必成雙配對。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlamil",
+          "fr": "devient chaussure.",
+          "en": "becomes a shoe.",
+          "zh": "變成鞋子。",
+          "examples": [
+            {
+              "t": "Mxa mlamil xeti ka qlaqel kating so",
+              "fr": "La peau de ton buffle deviendra ensuite chaussure.",
+              "en": "The hide of your buffalo will then become a shoe.",
+              "zh": "你水牛的皮之後會變成鞋子。"
+            }
+          ]
+        },
+        {
+          "form": "Mklamil",
+          "fr": "Porter des chaussures.",
+          "en": "To wear shoes.",
+          "zh": "穿鞋子。",
+          "examples": [
+            {
+              "t": "Sao lqlaqe matas o, mklamil ka doma, ini klamil ka doma",
+              "fr": "Certains écoliers portent des chaussures, d'autres n'en portent pas.",
+              "en": "Some schoolchildren wear shoes, others do not.",
+              "zh": "有些學童穿鞋，有些則不穿。"
+            }
+          ]
+        },
+        {
+          "form": "Pklamil",
+          "paradigm": "°Mpklamil, pklamil, pklmili, pklmilan, pklmilun.",
+          "fr": "Faire porter des chaussures.",
+          "en": "To make (someone) wear shoes.",
+          "zh": "使（某人）穿鞋。",
+          "examples": [
+            {
+              "t": "Mskwi bi ka sayang; adi so pklmilun ka lqlaqe so xo?",
+              "fr": "Il fait bien froid aujourd'hui; Ne mettras-tu pas des souliers à tes enfants ?",
+              "en": "It is very cold today; Won't you put shoes on your children?",
+              "zh": "今天很冷；你不給你的孩子穿鞋嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LAMU",
+      "tag": "(R)",
+      "fr": "Recueillir - ramasser par le détail - glaner.",
+      "en": "To collect - to gather item by item - to glean.",
+      "zh": "收集－逐一撿拾－拾穗。",
+      "subs": [
+        {
+          "form": "Lmamu",
+          "paradigm": "°Lmamu, lamu, lmui, lmuan, lmuon.",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Sai lmamu pila ksia ka iso",
+              "fr": "Toi, va ramasser les redevances pour l'eau.",
+              "en": "You, go collect the water dues.",
+              "zh": "你去收水費（水的規費）。"
+            },
+            {
+              "t": "Iso ka pnsueq kana boax; lmui n'xali da!",
+              "fr": "C'est toi qui as renversé tout le riz; dépêche-toi de le ramasser !",
+              "en": "It is you who spilled all the rice; hurry up and gather it!",
+              "zh": "是你把米全打翻了；快點把它撿起來！"
+            }
+          ]
+        },
+        {
+          "form": "Mlamu",
+          "fr": "Celui qui recueille.",
+          "en": "The one who collects.",
+          "zh": "收集者。",
+          "examples": [
+            {
+              "t": "Mnlamu ko pila suxal ni, bilaq bi ka lnamu no",
+              "fr": "Autrefois je recueillais l'argent et je n'en recueillais que bien peu.",
+              "en": "In the past I collected the money and I collected only very little of it.",
+              "zh": "從前我收錢，卻只收到很少一點。"
+            },
+            {
+              "t": "Ana nlamu ka iso!",
+              "fr": "Tu es désespérant ! (= Il faut glaner pour en trouver un comme toi (?)).",
+              "en": "You are hopeless! (= One must glean to find one like you (?)).",
+              "zh": "你真令人絕望！（＝得拾穗才能找到一個像你這樣的（？））。"
+            }
+          ]
+        },
+        {
+          "form": "Lmuan",
+          "fr": "Cueillette - ramassage - ce qui est ramassé, glané.",
+          "en": "Gathering - collecting - that which is gathered, gleaned.",
+          "zh": "採集－收集－所收集、所拾之物。",
+          "examples": [
+            {
+              "t": "Wada so lmuan kana da ka pila ksia xo?",
+              "fr": "As-tu fini de ramasser (les as-tu toutes ramassées) les taxes pour l'eau ?",
+              "en": "Have you finished collecting (have you gathered all of) the water taxes?",
+              "zh": "你收完（全部收齊了嗎）水稅了嗎？"
+            },
+            {
+              "t": "Diyax so lmuan pila ka iso",
+              "fr": "Toi tu passes ton temps à ramasser l'argent.",
+              "en": "You spend your time collecting money.",
+              "zh": "你成天忙著收錢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LANA",
+      "tag": "(R)",
+      "fr": "Augmenter - multiplier.",
+      "en": "To increase - to multiply.",
+      "zh": "增加－增多。",
+      "examples": [
+        {
+          "t": "Tayal bi lana ka tbugan so!",
+          "fr": "Oh là ! Comme les têtes de ton bétail (ce que tu élèves) se multiplient !",
+          "en": "Oh my! How the heads of your livestock (what you raise) multiply!",
+          "zh": "哎呀！你養的牲口（你所畜養的）繁殖得真多！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mlana",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Mlana nlana ka knliwa mnalox nia",
+              "fr": "La gravité de sa maladie augmente sans cesse.",
+              "en": "The severity of his illness increases ceaselessly.",
+              "zh": "他病情的嚴重程度不斷加劇。"
+            },
+            {
+              "t": "Mlana balae ka kndkilan na xei ni knk'laan na lnglongan",
+              "fr": "Son corps grandit (la croissance de son corps augmente) et son esprit se développe (la connaissance de son esprit augmente).",
+              "en": "His body grows (the growth of his body increases) and his mind develops (the knowledge of his mind increases).",
+              "zh": "他的身體長大（身體的成長增加），心智也發展（心智的知識增加）。"
+            }
+          ]
+        },
+        {
+          "form": "Klana",
+          "fr": "forme nég. de: MLANA.",
+          "en": "negative form of: MLANA.",
+          "zh": "MLANA 的否定形。",
+          "examples": [
+            {
+              "t": "Ini klana ka knqt'lan xei nia",
+              "fr": "Il ne s'engraisse pas (L'engraissement de son corps n'augmente pas).",
+              "en": "He does not fatten (the fattening of his body does not increase).",
+              "zh": "他沒有變胖（他身體的增肥沒有增加）。"
+            }
+          ]
+        },
+        {
+          "form": "Knlnaan (knklnaan)",
+          "fr": "Augmentation - accroissement.",
+          "en": "Increase - growth.",
+          "zh": "增加－增長。",
+          "examples": [
+            {
+              "t": "Sspong mo knlnaan pila no, kika nyaxan no",
+              "fr": "Mesurer l'augmentation de mon capital, voilà pourquoi je suis venu (le pourquoi de ma venue).",
+              "en": "To measure the increase of my capital, that is why I came (the reason for my coming).",
+              "zh": "衡量我資本的增長，這就是我來的原因（我來的緣由）。"
+            }
+          ]
+        },
+        {
+          "form": "Plana",
+          "paradigm": "°Mplana, plana, plnai, plnaan, plnaon.",
+          "fr": "Faire augmenter - développer - faire croître.",
+          "en": "To make increase - to develop - to make grow.",
+          "zh": "使增加－發展－使成長。",
+          "examples": [
+            {
+              "t": "Plnai tityex ka pspaan so",
+              "fr": "Augmente un peu la surface (la quantité) de tes semis.",
+              "en": "Increase a little the area (the quantity) of your sowing.",
+              "zh": "把你播種的面積（數量）稍微增加一點。"
+            }
+          ]
+        },
+        {
+          "form": "Plnaan",
+          "fr": "L'action (révolue) d'augmenter - ce qui a été augmenté.",
+          "en": "The (completed) action of increasing - that which has been increased.",
+          "zh": "（已完成的）增加動作－已被增加者。",
+          "examples": [
+            {
+              "t": "Ga ino ka plnaan so kmpaxan ?",
+              "fr": "Où est-ce donc que tu as fait l'agrandissement de ton champ ?",
+              "en": "Where then is it that you enlarged your field?",
+              "zh": "你究竟是在哪裡擴大了你的田地？"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

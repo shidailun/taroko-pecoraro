@@ -1,0 +1,774 @@
+{
+  "pages": [138, 141],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pkusa",
+        "fr": "Faire des dettes - contracter des dettes - faire crédit.",
+        "en": "To run up debts - to contract debts - to buy/sell on credit.",
+        "zh": "欠債－舉債－賒帳。",
+        "examples": [
+          {
+            "t": "Ini bi sloa pkusa ka sapax bligan",
+            "fr": "Dans la boutique (le magasin) n'est pas acceptée la vente à crédit.",
+            "en": "In the shop (the store), sale on credit is not accepted.",
+            "zh": "這家店（商店）不接受賒帳買賣。"
+          },
+          {
+            "t": "Mxdo pkusa ana ino ka Sitang",
+            "fr": "Sitan est criblée de dettes partout.",
+            "en": "Sitan is riddled with debts everywhere.",
+            "zh": "錫丹到處負債累累。"
+          }
+        ]
+      },
+      {
+        "form": "Mpkusa",
+        "fr": "Débiteur - emprunter (au futur).",
+        "en": "Debtor - to borrow (future).",
+        "zh": "債務人－借（將來式）。",
+        "examples": [
+          {
+            "t": "Pusu bi npkusa ka Liwis ta da!",
+            "fr": "Notre Liwis est un invétéré débiteur.",
+            "en": "Our Liwis is an inveterate debtor.",
+            "zh": "我們的利維斯是個積習難改的欠債人。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "KUXENG",
+      "tag": "(R)",
+      "fr": "Pou de tête.",
+      "en": "Head louse.",
+      "zh": "頭蝨。",
+      "examples": [
+        {
+          "t": "Pgalu bi ka laqe nii! ... Balae bi! Kuxeng kana ka tunuç nia!",
+          "fr": "Pauvre gosse! ... C'est bien vrai! Sa tête est pleine de poux !",
+          "en": "Poor kid! ... It's quite true! His head is full of lice!",
+          "zh": "可憐的孩子！……真的！他滿頭都是蝨子！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "KUXUL",
+      "tag": "(R)",
+      "fr": "Sentiment - humeur - Plaisir - jouissance.",
+      "en": "Feeling - mood - Pleasure - enjoyment.",
+      "zh": "情感－心情－愉悅－享受。",
+      "examples": [
+        {
+          "t": "Malu kuxul",
+          "fr": "de bonne humeur - content.",
+          "en": "in a good mood - content.",
+          "zh": "心情好－滿足。"
+        },
+        {
+          "t": "Naqex kuxul",
+          "fr": "triste - mal tourné.",
+          "en": "sad - out of sorts.",
+          "zh": "悲傷－心情不佳。"
+        },
+        {
+          "t": "Ma so sknaqex (sqnaqex) kuxul ludan so!",
+          "fr": "Pourquoi fais tu de la peine à tes parents (pourquoi attristes tu les sentiments de tes parents?",
+          "en": "Why do you cause your parents pain (why do you sadden your parents' feelings)?",
+          "zh": "你為什麼讓父母傷心（為什麼讓父母的心情悲傷）？"
+        },
+        {
+          "t": "Ya bi nanu ka kuxul so?",
+          "fr": "Qu'est ce qui pourrait bien te faire plaisir?",
+          "en": "What could possibly give you pleasure?",
+          "zh": "什麼能讓你開心呢？"
+        },
+        {
+          "t": "Usa nanak smalu kuxul nbobo so",
+          "fr": "Va donc consoler ta maman.",
+          "en": "Go and console your mother, then.",
+          "zh": "那就去安慰你媽媽吧。"
+        },
+        {
+          "t": "Blubul ? Qlopas ? Tlaxe ? Kuxul so nanak; angal",
+          "fr": "Des bananes ? Des Pêches ? des pamplemousses ? A ton bon plaisir; prends !",
+          "en": "Bananas? Peaches? Grapefruits? As you please; take some!",
+          "zh": "香蕉？桃子？柚子？隨你喜歡，拿吧！"
+        },
+        {
+          "t": "Uxai balae bi mnalox; nknnaqex na kuxul nanak",
+          "fr": "Non! Ce n'est pas vraiment une maladie; Celà ne vient que de sa tristesse.",
+          "en": "No! It's not really an illness; it comes only from his sadness.",
+          "zh": "不！這其實不是病；只是源於他的憂傷。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Nkuxul",
+          "fr": "Parmi ce qui fait plaisir - part des sentiments.",
+          "en": "Among the things that give pleasure - a share of the feelings.",
+          "zh": "令人愉悅之物的一部分－情感的一份。",
+          "examples": [
+            {
+              "t": "Nkuxul na bi ka nangal so suni",
+              "fr": "C'est juste ce qui lui faisait plaisir que tu as pris tout à l'heure.",
+              "en": "What you took just now was exactly what gave him pleasure.",
+              "zh": "你剛才拿走的正是讓他開心的東西。"
+            },
+            {
+              "t": "Oyes nkuxul",
+              "fr": "Chanson d'amour. (nb. Aimer dans le sens d'amour gratuit est difficile à dire en taroko; KUXUL étant surtout: Plaisir; et GNALU, surtout: Pitié, miséricorde.).",
+              "en": "Love song. (n.b. To love in the sense of selfless love is hard to say in Taroko; KUXUL meaning above all: Pleasure; and GNALU above all: Pity, mercy.).",
+              "zh": "情歌。（註：塔羅閣語很難表達無私之愛的「愛」；KUXUL 主要指「愉悅」，而 GNALU 主要指「憐憫、慈悲」。）"
+            }
+          ]
+        },
+        {
+          "form": "Skuxul",
+          "fr": "Aimer - plaire - prendre plaisir à.",
+          "en": "To love - to please - to take pleasure in.",
+          "zh": "愛－討喜－樂於。",
+          "examples": [
+            {
+              "t": "Kuxul so ka sinao? ...Ini ko skuxul ka kia!",
+              "fr": "Tu aimes le vin ? ... Je n'aime pas celà!",
+              "en": "Do you like wine? ... I don't like that!",
+              "zh": "你喜歡酒嗎？……我不喜歡那個！"
+            }
+          ]
+        },
+        {
+          "form": "Smkuxul",
+          "paradigm": "Smkuxul, skuxul, skxuli, skxulan, skxulun.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Smkuxul bi ninax sinao ka tama; wana bi sinao ka kuxul nia",
+              "fr": "Papa n'aime que le vin; le vin seul est son plaisir.",
+              "en": "Father loves only wine; wine alone is his pleasure.",
+              "zh": "爸爸只愛酒；唯有酒是他的樂趣。"
+            },
+            {
+              "t": "Smkuxul ko bi lqlaqe ka yako",
+              "fr": "Moi, j'adore les enfants.",
+              "en": "As for me, I adore children.",
+              "zh": "至於我，我很喜愛孩子。"
+            }
+          ]
+        },
+        {
+          "form": "Mskuxul",
+          "fr": "Celui qui aime - à qui plait qque chose.",
+          "en": "One who loves - to whom something is pleasing.",
+          "zh": "愛人者－某物令其喜歡者。",
+          "examples": [
+            {
+              "t": "Mskuxul bi llisao ka ua no nii",
+              "fr": "Ma fille qui est là aime beaucoup les garçons.",
+              "en": "My daughter here loves boys very much.",
+              "zh": "我這個女兒很喜歡男孩子。"
+            }
+          ]
+        },
+        {
+          "form": "Msskuxul",
+          "fr": "S'aimer mutuellement - se plaire.",
+          "en": "To love one another - to please each other.",
+          "zh": "互相愛慕－彼此喜歡。",
+          "examples": [
+            {
+              "t": "Micat ni Ingai o, ida msskuxul pax suxal",
+              "fr": "Micats et Ingai s'aiment bien (se plaisent l'un l'autre) depuis déjà bien longtemps !",
+              "en": "Micat and Ingai are fond of each other (they please one another) and have been for a very long time already!",
+              "zh": "米查特和印愛彼此相愛（互相喜歡）已經很久了！"
+            },
+            {
+              "t": "Asi ka msskuxul ka lqlaqe ta da!",
+              "fr": "A condition que nos enfants s'aiment mutuellement !",
+              "en": "Provided that our children love one another!",
+              "zh": "只要我們的孩子彼此相愛就好！"
+            }
+          ]
+        },
+        {
+          "form": "Skxulan",
+          "fr": "Le plaisir - l'affection (?) - ce qui est désiré.",
+          "en": "The pleasure - affection (?) - that which is desired.",
+          "zh": "愉悅－情感（？）－被渴望之物。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "KYUWAX",
+      "tag": "(R)",
+      "fr": "Loin - lointain - à l'écart - retiré.",
+      "en": "Far - distant - apart - withdrawn.",
+      "zh": "遠－遙遠－在一旁－隱退的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mkyuwax",
+          "paradigm": "Mkyuwax, kyuwax, kwaxe (kwaxi), kwaxan, kwaxon.",
+          "fr": "Qui se retire - qui s'éloigne - se retirer.",
+          "en": "One who withdraws - who moves away - to withdraw.",
+          "zh": "退避者－遠離者－退避。",
+          "examples": [
+            {
+              "t": "Kwaxi (kwaxe) ko xaya ka qlqelan nii xo?",
+              "fr": "Éloigne un peu de moi ces souffrances (fais que ces souffrances s'éloignent un peu de moi!).",
+              "en": "Take these sufferings a little away from me (make these sufferings move a little away from me!).",
+              "zh": "讓這些苦難稍微離我遠一點（使這些苦難稍微遠離我！）。"
+            }
+          ]
+        },
+        {
+          "form": "Kwaxon",
+          "fr": "Qu'il faut, qu'on doit éloigner - qui sera chassé.",
+          "en": "That which must be removed - which will be driven away.",
+          "zh": "必須驅離的－將被趕走的。",
+          "examples": [
+            {
+              "t": "Nasi ini tdoa kwaxon ka qlqelan nii o, ida no daon",
+              "fr": "Si ces souffrances ne peuvent être éloignées (évitées), j'y passerai (je les affronterai) tout de même.",
+              "en": "If these sufferings cannot be removed (avoided), I will go through them (face them) all the same.",
+              "zh": "如果這些苦難無法被排除（避免），我仍然會承受（面對）它們。"
+            }
+          ]
+        },
+        {
+          "form": "Pkyuwax",
+          "fr": "Faire éloigner - chasser.",
+          "en": "To make go away - to drive off.",
+          "zh": "使遠離－驅趕。",
+          "examples": [
+            {
+              "t": "Dyagi ko pkyuwax kana lngdi xo?",
+              "fr": "Chasse moi (aide moi à chasser) toutes ces mouches!",
+              "en": "Drive away for me (help me drive off) all these flies!",
+              "zh": "幫我趕走（幫我驅趕）所有這些蒼蠅！"
+            }
+          ]
+        },
+        {
+          "form": "Tkyuwax",
+          "fr": "Se trouver éloigné - se trouver retiré.",
+          "en": "To find oneself distant - to find oneself withdrawn.",
+          "zh": "處於遠處－處於退避狀態。",
+          "examples": [
+            {
+              "t": "Tkyuwax xngali xali ka xea ni, asi bi txmoqo d'xgal",
+              "fr": "Lui s'est retiré à un peu de distance et s'est prosterné contre terre.",
+              "en": "He withdrew a little way off and prostrated himself on the ground.",
+              "zh": "他退到稍遠處，俯伏在地上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LABANG",
+      "tag": "(R)",
+      "fr": "Large - en trop.",
+      "en": "Wide - in excess / too much.",
+      "zh": "寬闊－過多。",
+      "examples": [
+        {
+          "t": "Ana labang kia",
+          "fr": "Ce serait trop beau !",
+          "en": "That would be too good!",
+          "zh": "那就太好了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Llabang",
+          "fr": "Très large - largeur.",
+          "en": "Very wide - width.",
+          "zh": "非常寬－寬度。",
+          "examples": [
+            {
+              "t": "Adi nxa toko tqean kana xxei nami xo ? ... Ax! Llabang bi ka sapax mo",
+              "fr": "Est ce que celà est une place assez grande pour que nous puissions tous coucher? ... Oh la! Ma maison est très grande!",
+              "en": "Is this a big enough space for us all to sleep? ... Oh my! My house is very big!",
+              "zh": "這個地方夠大讓我們大家都睡下嗎？……哎呀！我的房子很大！"
+            }
+          ]
+        },
+        {
+          "form": "Mlabang",
+          "fr": "Qui est large.",
+          "en": "That which is wide.",
+          "zh": "寬闊的。",
+          "examples": [
+            {
+              "t": "Mlabang balae ka \"lu ta da",
+              "fr": "La route que nous allons prendre (notre route) est large.",
+              "en": "The road we are going to take (our road) is wide.",
+              "zh": "我們要走的路（我們的路）很寬。"
+            }
+          ]
+        },
+        {
+          "form": "Lmabang",
+          "fr": "Augmenter - ajouter - élargir.",
+          "en": "To increase - to add - to widen.",
+          "zh": "增加－添加－加寬。",
+          "examples": [
+            {
+              "t": "Lmabang malu ka kia",
+              "fr": "Celà est bien meilleur (celà augmente la bonté).",
+              "en": "That is much better (it increases the goodness).",
+              "zh": "那樣好多了（那會增添好處）。"
+            }
+          ]
+        },
+        {
+          "form": "Lbangan",
+          "fr": "Largeur - dimension.",
+          "en": "Width - dimension.",
+          "zh": "寬度－尺寸。",
+          "examples": [
+            {
+              "t": "Toko bi ka kmblagan; lbangan na ka ini toko",
+              "fr": "La longueur (hauteur) suffit; c'est la largeur qui ne suffit pas !",
+              "en": "The length (height) is enough; it's the width that is not enough!",
+              "zh": "長度（高度）夠了；不夠的是寬度！"
+            }
+          ]
+        },
+        {
+          "form": "Knlbangan",
+          "fr": "L'amplitude - la largeur - qualité de ce qui est large.",
+          "en": "Breadth - width - the quality of what is wide.",
+          "zh": "幅度－寬度－寬闊之物的性質。",
+          "examples": [
+            {
+              "t": "Ndoa bi smpong adi toko ka knlbangan nia",
+              "fr": "Tâche de bien mesurer pour voir si sa largeur suffit.",
+              "en": "Try to measure carefully to see whether its width is sufficient.",
+              "zh": "要仔細量一量，看看它的寬度夠不夠。"
+            }
+          ]
+        },
+        {
+          "form": "Plabang",
+          "paradigm": "Mplabang, plabang, plbangi, plbangan, plbangun.",
+          "fr": "Élargir - augmenter - agrandir.",
+          "en": "To widen - to increase - to enlarge.",
+          "zh": "加寬－增大－擴建。",
+          "examples": [
+            {
+              "t": "Plbangun mo xeti ka sapax",
+              "fr": "Je l'agrandirai plus tard la maison.",
+              "en": "I will enlarge the house later.",
+              "zh": "我以後會把房子擴建。"
+            }
+          ]
+        },
+        {
+          "form": "Slabang",
+          "fr": "Dépasser la mesure - s'élargir.",
+          "en": "To exceed the measure - to widen out.",
+          "zh": "超出限度－變寬。",
+          "examples": []
+        },
+        {
+          "form": "Mslabang",
+          "fr": "Qui dépasse la mesure - qui s'élargit - qui s'étend.",
+          "en": "That which exceeds the measure - which widens - which spreads.",
+          "zh": "超出限度的－變寬的－擴展的。",
+          "examples": [
+            {
+              "t": "Ana mslabang lnglong ka dndoma o, ya bi kkslabang ka iso",
+              "fr": "Même si certains sont avides, toi, ne sois pas trop cupide.",
+              "en": "Even if some people are greedy, you, don't be too covetous.",
+              "zh": "即使有些人貪心，你也別太貪婪。"
+            }
+          ]
+        },
+        {
+          "form": "Pslabang",
+          "fr": "Exagérer - magnifier les faits.",
+          "en": "To exaggerate - to magnify the facts.",
+          "zh": "誇大－誇張事實。",
+          "examples": [
+            {
+              "t": "Luxai bi dmusa madok ka pslabang kari",
+              "fr": "C'est bien l'habitude des chasseurs que d'exagérer dans leurs discours.",
+              "en": "It's quite the habit of hunters to exaggerate in their talk.",
+              "zh": "獵人們說話誇大其詞是常有的習慣。"
+            }
+          ]
+        },
+        {
+          "form": "Tslabang",
+          "fr": "Qui est cupide, convoite - Convoiter, envier.- qui dépasse les bornes.",
+          "en": "One who is covetous, covets - To covet, to envy. - who goes beyond bounds.",
+          "zh": "貪婪者、覬覦者－覬覦、嫉妒。－逾越界限者。",
+          "examples": [
+            {
+              "t": "Ini mo tslbangi ka ana nanu dnui daxa",
+              "fr": "Je ne convoite rien de ce qui appartient aux autres.",
+              "en": "I covet nothing that belongs to others.",
+              "zh": "我不覬覦任何屬於別人的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LABE",
+      "tag": "(R)",
+      "fr": "Espace d'une nuit.",
+      "en": "The space of one night.",
+      "zh": "一夜的時間。",
+      "examples": [
+        {
+          "t": "Daxa bi labe ka nsaan mo bbuyo",
+          "fr": "Je ne suis allé en montagne (à la chasse) que deux nuits (l'espace de trois jours et deux nuits).",
+          "en": "I only went up to the mountains (hunting) for two nights (the span of three days and two nights).",
+          "zh": "我上山（打獵）只去了兩夜（三天兩夜的時間）。"
+        },
+        {
+          "t": "Ska labe (vl. Skarabe)",
+          "fr": "Minuit.",
+          "en": "Midnight. (var. Skarabe)",
+          "zh": "午夜。（或：Skarabe）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mklabe",
+          "fr": "Passer la nuit.",
+          "en": "To spend the night.",
+          "zh": "過夜。",
+          "examples": [
+            {
+              "t": "Mxa ko mklabe",
+              "fr": "Je vais pour une nuit (je reviens demain).",
+              "en": "I'm going for one night (I'll come back tomorrow).",
+              "zh": "我去過一夜（明天回來）。"
+            },
+            {
+              "t": "Mkpia so labe sapax Sibal",
+              "fr": "Combien de jours passes tu chez Sibal?",
+              "en": "How many days are you spending at Sibal's?",
+              "zh": "你在錫巴爾家住幾天？"
+            },
+            {
+              "t": "Mnklabe ko sapax swatan",
+              "fr": "J'ai passé une nuit chez des Bununs (Tribu voisine des Taroko.).",
+              "en": "I spent a night among the Bununs (a tribe neighbouring the Taroko).",
+              "zh": "我在布農人（塔羅閣族的鄰族）家過了一夜。"
+            }
+          ]
+        },
+        {
+          "form": "Klbiyun",
+          "fr": "Le temps où il fera nuit (?).",
+          "en": "The time when it will be night (?).",
+          "zh": "將要天黑的時候（？）。",
+          "examples": [
+            {
+              "t": "Adi ko biyao pliyax klbiyun ka yako",
+              "fr": "Personnellement je vais bientôt passer (tomber dans) à la nuit (Je vieillis, je vais bientôt mourir).",
+              "en": "Personally I shall soon pass into (fall into) the night (I am growing old, I shall soon die).",
+              "zh": "就我而言，我很快就要進入（墜入）黑夜（我漸漸老了，快要死了）。"
+            }
+          ]
+        },
+        {
+          "form": "Pklbiyan",
+          "fr": "Où faire passer la nuit - Temps de faire passer la nuit.",
+          "en": "Where to spend the night - the time to spend the night.",
+          "zh": "過夜的地點－過夜的時間。",
+          "examples": [
+            {
+              "t": "D'xok nami pklbiyan do..",
+              "fr": "Lorsque nous arrivâmes au temps (au lieu) prévu pour passer la nuit.(vl. = Lorsque la nuit fut tombée).",
+              "en": "When we reached the time (the place) planned for spending the night. (var. = When night had fallen).",
+              "zh": "當我們到了預定過夜的時間（地點）。（或：當夜幕降臨時）。"
+            }
+          ]
+        },
+        {
+          "form": "Pklbiyun",
+          "fr": "Ce qu'on veut, qu'on doit obscurcir.",
+          "en": "That which one wants, or must, darken.",
+          "zh": "想要、或必須使之變暗之物。",
+          "examples": [
+            {
+              "t": "Pklbiyun mo ka sapax spktaqe tityex laqe so",
+              "fr": "Je veux assombrir la chambre pour faire un peu endormir l'enfant.",
+              "en": "I want to darken the room to get the child to fall asleep a bit.",
+              "zh": "我想把房間弄暗一點，好讓孩子睡著。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LABIS",
+      "tag": "(R)",
+      "fr": "Moustique.",
+      "en": "Mosquito.",
+      "zh": "蚊子。",
+      "examples": [
+        {
+          "t": "Lbagan do, knliwa bi labis ka sapax Abis",
+          "fr": "En été chez Abis, c'est terrible ce qu'il peut y avoir de moustiques.",
+          "en": "In summer at Abis's place, it's terrible how many mosquitoes there can be.",
+          "zh": "夏天在阿比斯家，蚊子多得可怕。"
+        },
+        {
+          "t": "Ana Timing bi taan ka llabis, paro bi sknalox sadyaq (s'dyaqon) ka dxea",
+          "fr": "Même si à les voir les moustiques sont tout petits, ce sont eux qui provoquent chez les (qui donnent aux) hommes de graves maladies.",
+          "en": "Even though to look at them mosquitoes are tiny, it is they that cause in (that give to) people serious diseases.",
+          "zh": "儘管蚊子看起來很小，卻正是牠們使人們（帶給人們）罹患重病。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LABOX",
+      "tag": "(R)",
+      "fr": "Fiancée (Bonne-amie).",
+      "en": "Fiancée (girlfriend / sweetheart).",
+      "zh": "未婚妻（女朋友）。",
+      "examples": [
+        {
+          "t": "Adi nyeqan labox na ka Ixeng Cibi xo?",
+          "fr": "Est ce que Irhen fils de Cibi a une fiancée ?",
+          "en": "Does Irhen, son of Cibi, have a fiancée?",
+          "zh": "奇比的兒子伊亨有未婚妻嗎？"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LABU",
+      "tag": "(R)",
+      "fr": "Enflure - le fait d'enfler - envelopper.",
+      "en": "Swelling - the act of swelling - to wrap / envelop.",
+      "zh": "腫脹－腫起之事－包裹。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Lmabu",
+          "paradigm": "Lmabu, labu, lbui, lbuan, lbuon (lbuun).",
+          "fr": "Envelopper.",
+          "en": "To wrap - to envelop.",
+          "zh": "包裹。",
+          "examples": [
+            {
+              "t": "Ndoa bi lmabu patas nii bboai so Banan",
+              "fr": "prends bien soin d'envelopper ce livre pour le donner à Ibanne.",
+              "en": "take good care to wrap this book so as to give it to Ibanne.",
+              "zh": "好好把這本書包起來，好交給伊班。"
+            }
+          ]
+        },
+        {
+          "form": "Mlabu",
+          "fr": "Qui est enflé.",
+          "en": "That which is swollen.",
+          "zh": "腫脹的。",
+          "examples": [
+            {
+              "t": "Mlabu kana daolyaq na pax lngisan na suni",
+              "fr": "Ses yeux sont tout enflés depuis qu'il a pleuré tout à l'heure.",
+              "en": "His eyes are all swollen since he cried a little while ago.",
+              "zh": "他的眼睛全腫了，因為他剛才哭過。"
+            }
+          ]
+        },
+        {
+          "form": "Lbuan",
+          "fr": "Enveloppe - manière d'envelopper.",
+          "en": "Covering / wrapping - manner of wrapping.",
+          "zh": "外殼／包覆物－包裹的方式。",
+          "examples": [
+            {
+              "t": "Ini tk'angal ka lbuan nia",
+              "fr": "Son enveloppe ne se détache pas.",
+              "en": "Its covering does not come off.",
+              "zh": "它的外殼不會脫落。"
+            },
+            {
+              "t": "Lbuan laqe",
+              "fr": "Matrice (enveloppe de l'enfant).",
+              "en": "Womb (the covering of the child).",
+              "zh": "子宮（胎兒的包覆物）。"
+            },
+            {
+              "t": "Lbuan laqe",
+              "fr": "Pièce de linge, langes pour envelopper l'enfant.",
+              "en": "A piece of cloth, swaddling clothes for wrapping the child.",
+              "zh": "布片、包裹嬰兒的襁褓。"
+            },
+            {
+              "t": "Pgalu bi ka bobo nii ! Ida pax kndlgan nia ka ongat ana nanu lbuan na laqe",
+              "fr": "Elle est bien à plaindre cette maman! C'est depuis qu'elle a accouché qu'elle n'a pas de langes pour son petit !",
+              "en": "This mother is much to be pitied! Ever since she gave birth she has had no swaddling clothes for her little one!",
+              "zh": "這位母親真可憐！自從她生產以來，就沒有襁褓給她的孩子！"
+            }
+          ]
+        },
+        {
+          "form": "Pklabu",
+          "paradigm": "Mpklabu, pklabu, pklbui, pklbuan, pklbuon.",
+          "fr": "Faire enfler - faire envelopper.",
+          "en": "To make swell - to have (something) wrapped.",
+          "zh": "使腫脹－使包裹。",
+          "examples": [
+            {
+              "t": "Ida bi splangun so balae pklabu mbuyas so",
+              "fr": "Tu dois faire exprès de faire gonfler ton ventre!",
+              "en": "You must be deliberately making your belly swell up!",
+              "zh": "你一定是故意讓自己的肚子鼓起來的！"
+            }
+          ]
+        },
+        {
+          "form": "Sklabu",
+          "fr": "Servir de moyen, de prétexte pour faire enfler.",
+          "en": "To serve as a means, a pretext for making (something) swell.",
+          "zh": "作為使之腫脹的手段或藉口。",
+          "examples": [
+            {
+              "t": "Asi bi sklabu kana daolyaq na",
+              "fr": "Au point de faire enfler (tous)ses yeux.",
+              "en": "To the point of making (all) his eyes swell.",
+              "zh": "以致使他（雙）眼都腫了起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "LADAX",
+      "tag": "(R)",
+      "fr": "Grume - tronc de bois ébranché.",
+      "en": "Log - a tree trunk stripped of its branches.",
+      "zh": "原木－去枝的樹幹。",
+      "examples": [
+        {
+          "t": "Klxangi bi adi so na pixun ka ladax",
+          "fr": "Fais bien attention que la grume ne t'écrase pas !",
+          "en": "Be very careful that the log does not crush you!",
+          "zh": "小心別讓原木壓到你！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "LADING",
+      "tag": "(R)",
+      "fr": "Commencement - début.",
+      "en": "Beginning - start.",
+      "zh": "開始－起頭。",
+      "examples": [
+        {
+          "t": "Spgao ta n'xali pax lading da",
+          "fr": "Comptons (très impératif) vite depuis le commencement.",
+          "en": "Let's count (very imperative) quickly from the beginning.",
+          "zh": "我們（強烈命令）快從頭數起吧。"
+        },
+        {
+          "t": "Ida pax lading ka qnoqo so",
+          "fr": "C'est depuis le commencement (depuis le début) que tu t'es trompé.",
+          "en": "It's from the very beginning (from the start) that you went wrong.",
+          "zh": "你從一開始（從起頭）就錯了。"
+        },
+        {
+          "t": "Pax lading ta dole",
+          "fr": "Recommençons !",
+          "en": "Let's start over!",
+          "zh": "我們重新開始吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Lmading",
+          "paradigm": "Lmading, lading, ldingi, ldingan, ldingun.",
+          "fr": "Commencer.",
+          "en": "To begin.",
+          "zh": "開始。",
+          "examples": [
+            {
+              "t": "Ga ta mqqan do, ida iso ka lmading kdiyax",
+              "fr": "Nous nous querellons, et c'est toujours toi qui commences.",
+              "en": "We quarrel, and it's always you who starts.",
+              "zh": "我們吵架，總是你先挑起的。"
+            }
+          ]
+        },
+        {
+          "form": "Mlading",
+          "fr": "Celui qui commence.",
+          "en": "The one who begins.",
+          "zh": "開始者。",
+          "examples": [
+            {
+              "t": "xana ko nlading ka yako",
+              "fr": "Pour moi je suis tout juste un commençant - Je ne suis qu'un débutant.",
+              "en": "As for me, I am only just a beginner - I am only a novice.",
+              "zh": "至於我，我只是個初學者－我只是個新手。"
+            }
+          ]
+        },
+        {
+          "form": "Lndingan",
+          "fr": "(passé de: ldingan).",
+          "en": "(past of: ldingan).",
+          "zh": "（ldingan 的過去式）。",
+          "examples": [
+            {
+              "t": "Sknuan ka lndingan nyeqan namo xeni?",
+              "fr": "Depuis quand (quand est ce qu'a eu lieu votre installation ici)êtes vous installés ici?",
+              "en": "Since when (when did your settling here take place) have you been settled here?",
+              "zh": "你們從什麼時候（你們是何時在此定居的）在這裡定居的？"
+            },
+            {
+              "t": "Ida sao kia pax lndingan nia",
+              "fr": "Et c'est comme celà depuis le début.",
+              "en": "And it's been like that from the start.",
+              "zh": "而且從一開始就是這樣。"
+            }
+          ]
+        },
+        {
+          "form": "Plndingan",
+          "fr": "Commencement (provoqué, voulu). (nb. Lndingan = le début spontané, de fait, non provoqué).",
+          "en": "Beginning (brought about, intended). (n.b. Lndingan = the spontaneous, factual, unprovoked beginning).",
+          "zh": "開始（人為引起的、有意的）。（註：Lndingan＝自發的、實際發生的、非人為引起的開始）。",
+          "examples": [
+            {
+              "t": "Mklbuk pax plndingan na knpax ka xea",
+              "fr": "Il est fatigué depuis qu'il a commencé à travailler.",
+              "en": "He has been tired ever since he started working.",
+              "zh": "自從他開始工作以來就一直很累。"
+            },
+            {
+              "t": "Plndingan ptasan ka sayang",
+              "fr": "C'est aujourd'hui le début de l'école.",
+              "en": "Today is the start of school.",
+              "zh": "今天是開學日。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

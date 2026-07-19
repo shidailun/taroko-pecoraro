@@ -1,0 +1,787 @@
+{
+  "pages": [282, 285],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pslgui",
+        "fr": "Rendez droit - redressez.",
+        "en": "Make straight - straighten up.",
+        "zh": "弄直－矯正。",
+        "examples": [
+          {
+            "t": "Pslmali gm\"lu \"lu ddaon tana ta ni pslgui ni pdxleqi ole",
+            "fr": "Prenez vous à l'avance pour préparer la route par où passera notre papa, et rendez-la bien droite et bien propre.",
+            "en": "Set to work ahead of time to prepare the road our father will travel by, and make it nice and straight and clean.",
+            "zh": "要提前著手整理我們爸爸將要經過的路，把它弄得又直又乾淨。"
+          }
+        ]
+      },
+      {
+        "form": "Dmslago",
+        "fr": "Le groupe de ceux qui ont le coeur droit ( vl. de ceux qui ne sont pas bossus, tordus !).",
+        "en": "The group of those who have an upright heart (var. of those who are not hunchbacked, twisted!).",
+        "zh": "心地正直者的一群（或：不駝背、不歪曲的人！）。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SLAMAL",
+      "tag": "(R. = LAMAL)",
+      "crossRef": "LAMAL",
+      "fr": "Se préparer. VR. LAMAL .",
+      "en": "To get ready. See LAMAL.",
+      "zh": "準備；預備。參見 LAMAL。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SLANGAN",
+      "tag": "( R. = ??)",
+      "fr": "Rouille.",
+      "en": "Rust.",
+      "zh": "鏽。",
+      "examples": [
+        {
+          "t": "Manu bi ka sgutun namo pila! Adi biyao mpslangan ka kia!",
+          "fr": "A quoi cela vous sert-il (qu'est-ce qu'il vous prend)d'amasser de l'argent ! Cela (vos réserves) sera vite atteint par la rouille !",
+          "en": "What use is it to you (what has got into you) to hoard money! That (your savings) will soon be reached by rust!",
+          "zh": "你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SLANGI",
+      "tag": "(R. = LANGI ?)",
+      "crossRef": "LANGI",
+      "fr": "En reste - qui est de reste. VR. LANGI .",
+      "en": "Left over - what remains. See LANGI.",
+      "zh": "剩下的－剩餘之物。參見 LANGI。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mslangi",
+          "fr": "Qui est resté - les reliefs d'un repas - les restes .",
+          "en": "What has stayed behind - the leftovers of a meal - the remains.",
+          "zh": "剩下的東西－一餐的殘餚－剩菜。",
+          "examples": [
+            {
+              "t": "Mxdo mqan ka dxea ni, mslangi ka idao nii",
+              "fr": "Ils ont fini de manger et il reste ce riz (cuit).",
+              "en": "They have finished eating and this (cooked) rice is left over.",
+              "zh": "他們吃完了，剩下這些（煮好的）飯。"
+            },
+            {
+              "t": "Ya xan ! Ana manu ka slngiyun daxa o, ida mo oqon saman",
+              "fr": "Attends un peu ! Tout ce qu'il y aura en trop après leur repas, je le mangerai demain.",
+              "en": "Wait a bit! Whatever is left over after their meal, I will eat tomorrow.",
+              "zh": "等一下！他們用餐後剩下的一切，我明天吃。"
+            }
+          ]
+        },
+        {
+          "form": "Pslangi",
+          "fr": "Faire pour qu'il-y-ait un reste .",
+          "en": "To act so that there is something left over.",
+          "zh": "使之有剩餘。",
+          "examples": [
+            {
+              "t": "Ya ksxaya o ! Ida miso pslngiyun ka pila ppyaon so tdoloi da!",
+              "fr": "Ne fais pas comme cela (Ne te fâche pas!)! Je ferai certainement en sorte qu'il te reste l'argent qu'il te faut pour acheter ton billet (de voiture) !",
+              "en": "Don't act like that (Don't be angry!)! I will certainly see to it that you have left the money you need to buy your (bus) ticket!",
+              "zh": "別那樣（別生氣！）！我一定會設法讓你留下買（車）票所需的錢！"
+            }
+          ]
+        },
+        {
+          "form": "Pslngiyan",
+          "fr": "Ce qui a été laissé en reste.",
+          "en": "What has been left over.",
+          "zh": "被留作剩餘之物。",
+          "examples": [
+            {
+              "t": "Balae bi ongat kingal boxo ka pnslngiyan daxa pila xo?",
+              "fr": "Vraiment n'ont ils pas gardé un seul sou de reste ?",
+              "en": "Have they really not kept a single penny in reserve?",
+              "zh": "他們真的一分錢都沒留下嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLAP",
+      "tag": "(SILAP ?)",
+      "crossRef": "SILAQ",
+      "fr": "R. jamais rencontrée que dans les termes ci-dessous;il est possible, probable même, que ce terme SLAP est une variante de SLAK qui donc viendrait de la racine: SILAK (vl. SILAQ) VR. SILAQ .",
+      "en": "Root never encountered except in the terms below; it is possible, even probable, that this term SLAP is a variant of SLAK, which would therefore come from the root: SILAK (var. SILAQ). See SILAQ.",
+      "zh": "此詞根僅見於以下詞語；有可能、甚至很可能 SLAP 這個詞是 SLAK 的變體，因而源自詞根：SILAK（或：SILAQ）。參見 SILAQ。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Slapi",
+          "fr": "Coupe! tranche! ampute!(impératifs).",
+          "en": "Cut! slice! amputate! (imperatives).",
+          "zh": "切！割！截斷！（祈使式）。",
+          "examples": [
+            {
+              "t": "Nasi mpsklibut sunan ka isil baga so o, slapi da!",
+              "fr": "Si une de tes mains te porte au mal ,coupe la !",
+              "en": "If one of your hands leads you into evil, cut it off!",
+              "zh": "如果你的一隻手使你為惡，就把它砍掉！"
+            }
+          ]
+        },
+        {
+          "form": "Slapun",
+          "fr": "Qu'on doit, qu'on veut couper.",
+          "en": "What one must, what one wants to cut.",
+          "zh": "應該切、想要切之物。",
+          "examples": [
+            {
+              "t": "Nasi so pnpusal nagui (n'gui) o, slapun miso baga kia, kawai binao!",
+              "fr": "Si tu recommences à voler, je te couperai la main, tu verras !",
+              "en": "If you start stealing again, I'll cut off your hand, you'll see!",
+              "zh": "你要是再偷竊，我就把你的手砍掉，你等著瞧！"
+            }
+          ]
+        },
+        {
+          "form": "Smilap",
+          "fr": "( sans doute est-ce la variante de SMILAQ ?). VR. SILAQ !",
+          "en": "(no doubt this is the variant of SMILAQ?). See SILAQ!",
+          "zh": "（無疑這是 SMILAQ 的變體？）。參見 SILAQ！",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SLAPUT",
+      "tag": "(R)",
+      "fr": "Parler inconsidérément - cancaner.",
+      "en": "To speak thoughtlessly - to gossip.",
+      "zh": "輕率地說話－說閒話。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smlaput",
+          "fr": "(?) = Parler à tort et à travers - cancaner.",
+          "en": "(?) = To talk at random / wildly - to gossip.",
+          "zh": "（？）＝胡亂說話－說閒話。",
+          "examples": [
+            {
+              "t": "Ana mslaput ka sadyaq o, ya xmut smlaput ka iso",
+              "fr": "Même si les gens parlent à tort et à travers, toi,ne parle pas inconsidérément.",
+              "en": "Even if people talk wildly, you, do not speak thoughtlessly.",
+              "zh": "即使別人胡亂說話，你也不要輕率地說話。"
+            }
+          ]
+        },
+        {
+          "form": "Mslaput",
+          "fr": "Qui fait des cancans - qui parle pour ne rien dire.",
+          "en": "One who gossips - who talks just to say nothing.",
+          "zh": "說閒話的人－言之無物的人。",
+          "examples": [
+            {
+              "t": "Nyeqan kari da: kkoyox (vl. kikoyox) ka pusu bi mslaput, msa !",
+              "fr": "Il-y-a un dicton: Ce sont les femmes les spécialistes des cancans, dit-il !",
+              "en": "There is a saying: it is women who are the specialists in gossip, so it says!",
+              "zh": "有句諺語說：女人才是說閒話的高手！"
+            }
+          ]
+        },
+        {
+          "form": "Slputan",
+          "fr": "Cancans - médisances.",
+          "en": "Gossip - slander.",
+          "zh": "閒話－中傷。",
+          "examples": [
+            {
+              "t": "Ya ta psai l'xbun ka ana manu slputan daxa",
+              "fr": "Ne prenons pas à coeur tous les cancans des gens !",
+              "en": "Let us not take to heart all people's gossip!",
+              "zh": "我們別把別人所有的閒話放在心上！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLAQ",
+      "tag": "(R)",
+      "fr": "1) Boue; 2) Rizière.",
+      "en": "1) Mud; 2) Rice paddy.",
+      "zh": "１）泥巴；２）水田。",
+      "examples": [
+        {
+          "t": "Slaq kana \"lu da",
+          "fr": "Toute la route est boueuse.",
+          "en": "The whole road is muddy.",
+          "zh": "整條路都是泥濘。"
+        },
+        {
+          "t": "Ini xali kmpax slaq ka dtroko",
+          "fr": "Les taroko ne travaillent pas beaucoup la rizière (vl. n'ont pas beaucoup de rizières à travailler.",
+          "en": "The Taroko do not work the rice paddy much (var. do not have many paddies to work).",
+          "zh": "太魯閣人不太耕作水田（或：沒有多少水田可耕作）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SLAXO",
+      "tag": "(= R. ?)",
+      "fr": "Filet.",
+      "en": "Fishing net.",
+      "zh": "漁網。",
+      "examples": [
+        {
+          "t": "Ga sminao slaxo ka dxea",
+          "fr": "Ils sont en train de laver leurs filets.",
+          "en": "They are washing their nets.",
+          "zh": "他們正在洗漁網。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Pslaxo",
+          "fr": "Jeter les filets.",
+          "en": "To cast the nets.",
+          "zh": "撒網。",
+          "examples": [
+            {
+              "t": "Luxai daxa bi musa pslaxo babao \"silong ka dsbnawan",
+              "fr": "Les Ami (la tribu des ami)sont très habiles (experts) dans la pêche au filet sur la mer.",
+              "en": "The Ami (the Ami tribe) are very skilled (expert) at net-fishing on the sea.",
+              "zh": "阿美族（阿美部落）非常擅長（精於）在海上撒網捕魚。"
+            }
+          ]
+        },
+        {
+          "form": "Pslxgan",
+          "paradigm": "(psl'xgan)",
+          "fr": "Un coup de filet donné - Temps, lieu pour jeter les filets.",
+          "en": "A cast of the net - time, place for casting the nets.",
+          "zh": "撒一次網－撒網的時間、地點。",
+          "examples": [
+            {
+              "t": "Mnklui balae kana mita kxaya ka tndyalan daxa (ksoloç) pxal bi pnsl'xgan daxa",
+              "fr": "Ils ont tous admiré en voyant la quantité de la prise (de poissons) d'un seul coup de filet.",
+              "en": "They all marveled at seeing the quantity of the catch (of fish) from a single cast of the net.",
+              "zh": "看到他們撒一次網的漁獲（魚）數量，大家都讚嘆不已。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLAXOK",
+      "tag": "(SLAXOQ ?)",
+      "crossRef": "LAXOK",
+      "fr": "Oublier - omettre - manquer. VR. LAXOK .",
+      "en": "To forget - to omit - to miss. See LAXOK.",
+      "zh": "忘記－遺漏－錯過。參見 LAXOK。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SLI",
+      "tag": "(R)",
+      "fr": "Se réunir - se rassembler.",
+      "en": "To gather - to assemble.",
+      "zh": "聚集－集合。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smli",
+          "fr": "(?) = Réunir - rassembler.",
+          "en": "(?) = To gather - to assemble (something).",
+          "zh": "（？）＝聚集－集合（某物）。",
+          "examples": [
+            {
+              "t": "Smli ko tityex pila ssalu mo sapax laqe",
+              "fr": "Je réunis un peu d'argent qui me servira à construire une maison pour mon fils.",
+              "en": "I am putting together a little money that will serve me to build a house for my son.",
+              "zh": "我在籌集一點錢，用來為我兒子蓋房子。"
+            },
+            {
+              "t": "Smli ko tityex pila ni sluon mo sapax laqe",
+              "fr": "Je réunis un peu d'argent et je construirai la maison de mon fils.",
+              "en": "I am putting together a little money and I will build my son's house.",
+              "zh": "我在籌集一點錢，我要蓋我兒子的房子。"
+            }
+          ]
+        },
+        {
+          "form": "Msli",
+          "fr": "Réunis - rassemblés - se réunir.",
+          "en": "Gathered - assembled - to gather together.",
+          "zh": "聚集的－集合的－聚在一起。",
+          "examples": [
+            {
+              "t": "Ga msli (mssli (?)) sapax mo kana ka dlaqe matas",
+              "fr": "Tous les écoliers sont rassemblés chez moi.",
+              "en": "All the schoolchildren are gathered at my house.",
+              "zh": "所有學童都聚集在我家。"
+            }
+          ]
+        },
+        {
+          "form": "Mssli",
+          "fr": "Se réunir de partout - se rassembler de tous côtés.",
+          "en": "To gather from everywhere - to assemble from all sides.",
+          "zh": "從四面八方聚集－從各處集合。",
+          "examples": [
+            {
+              "t": "Snax daxa l'alang ana ino miyax mssli sapax mo kana da",
+              "fr": "Partis de partout ils viennent tous se rassembler chez moi.",
+              "en": "Setting out from everywhere, they all come to gather at my house.",
+              "zh": "他們從各村出發，全都來我家聚集。"
+            }
+          ]
+        },
+        {
+          "form": "Psli",
+          "paradigm": "°Mpsli, psli, pslii, psliyan (pslian), psliyun (psliun).",
+          "fr": "Réunir - rassembler - ramasser en tas.",
+          "en": "To gather - to assemble - to pile up in a heap.",
+          "zh": "聚集－集合－堆成一堆。",
+          "examples": [
+            {
+              "t": "Pslii nanak ka bonga ni saon mo mapa gbiyan (kbiyan)da",
+              "fr": "Mets seulement en tas les patates douces et j'irai les porter ce soir.",
+              "en": "Just pile up the sweet potatoes and I will go carry them this evening.",
+              "zh": "你只管把地瓜堆成一堆，今晚我去把它們搬走。"
+            },
+            {
+              "t": "Psliyun mo saman ka dmtgisa",
+              "fr": "Je réunirai demain tous les professeurs.",
+              "en": "I will gather all the teachers tomorrow.",
+              "zh": "我明天要召集所有老師。"
+            }
+          ]
+        },
+        {
+          "form": "Psliyan",
+          "fr": "Ce qui a été rassemblé, réuni.",
+          "en": "What has been gathered, assembled.",
+          "zh": "被聚集、集合之物。",
+          "examples": [
+            {
+              "t": "Manu bi ka paro psliyan sadyaq sapax wilang?",
+              "fr": "Qu'est-ce donc que ce grand attroupement de gens chez Wilang ?",
+              "en": "What is this great gathering of people at Wilang's place?",
+              "zh": "Wilang 家怎麼聚集了這麼一大群人？"
+            }
+          ]
+        },
+        {
+          "form": "Pslyaan",
+          "paradigm": "( = Psliyan ?)",
+          "fr": "Endroit pour réunir, pour rassembler.",
+          "en": "A place to gather, to assemble.",
+          "zh": "聚集、集合的地方。",
+          "examples": [
+            {
+              "t": "Blax sapax xdolan Morisaka ka malu bi pslyaan ssadyaq",
+              "fr": "C'est devant l'église de Morisaka qu'il-y-a un terrain commode pour rassembler les gens.",
+              "en": "It is in front of the church at Morisaka that there is a convenient ground for gathering people.",
+              "zh": "在 Morisaka 教堂前面有一塊便於聚集人群的空地。"
+            }
+          ]
+        },
+        {
+          "form": "Pnsliyan",
+          "fr": "Assemblée déjà constituée, déjà réunie.",
+          "en": "An assembly already constituted, already gathered.",
+          "zh": "已組成、已聚集的集會。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SLIYU",
+      "tag": "(R)",
+      "fr": "Sortir - dépasser.",
+      "en": "To come out - to protrude / go beyond.",
+      "zh": "出來－突出／超出。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smliyu",
+          "fr": "Sortir - dépasser - mettre, se mettre dehors.",
+          "en": "To come out - to protrude - to put, to place oneself outside.",
+          "zh": "出來－突出－放到外面、置身於外。",
+          "examples": [
+            {
+              "t": "Malu kasayang da; ma\" ga smliyu sayang ka xedao da",
+              "fr": "Voilà maintenant qu'il fait bon;(c'est vrai puisque)voilà le soleil qui sort (se lève) !",
+              "en": "Now the weather is fine; (it's true, since) here comes the sun coming out (rising)!",
+              "zh": "現在天氣好了；（確實如此，因為）看，太陽出來（升起）了！"
+            }
+          ]
+        },
+        {
+          "form": "Msliyu",
+          "fr": "Qui est sorti - qui dépasse.",
+          "en": "What has come out - what protrudes.",
+          "zh": "已出來的－突出的。",
+          "examples": [
+            {
+              "t": "Klxangi bi! Ga msliyu ka baga laqe so!",
+              "fr": "Fais attention! La main de ton enfant dépasse.",
+              "en": "Be careful! Your child's hand is sticking out.",
+              "zh": "小心！你孩子的手伸出去了。"
+            },
+            {
+              "t": "Pax suni ida msliyu ka xedao",
+              "fr": "Voilà un bon moment que le soleil est levé.",
+              "en": "The sun has been up for quite a while now.",
+              "zh": "太陽已經升起好一會兒了。"
+            }
+          ]
+        },
+        {
+          "form": "Slyuwan",
+          "fr": "Le dépassement - temps, lieu de sortie.",
+          "en": "The coming-out / protrusion - time, place of emergence.",
+          "zh": "超出－出來的時間、地點。",
+          "examples": [
+            {
+              "t": "Tmaga nami slyuwan xedao uuda nami daolas",
+              "fr": "Nous attendons le lever du soleil (vl. la sortie du soleil de derrière les nuages) pour passer dans les rochers",
+              "en": "We are waiting for the sunrise (var. the sun's emergence from behind the clouds) to pass through the rocks.",
+              "zh": "我們等著日出（或：太陽從雲後露出），好穿越岩石地帶。"
+            }
+          ]
+        },
+        {
+          "form": "Psliyu",
+          "paradigm": "°Mpsliyu, psliyu, pslyui(?), pslyuwan , pslyuwun (pslyuun ?).",
+          "fr": "Faire dépasser - mettre dehors - faire sortir.",
+          "en": "To make protrude - to put outside - to make come out.",
+          "zh": "使突出－放到外面－使出來。",
+          "examples": [
+            {
+              "t": "Papa ta tdoloi o, ini ta tdoa xmut psliyu baga",
+              "fr": "Quand on est dans le train, il est interdit de mettre la main dehors.",
+              "en": "When one is in the train, it is forbidden to put one's hand outside.",
+              "zh": "坐火車時，禁止把手伸到外面。"
+            },
+            {
+              "t": "Ga psliyu waqat na ka bonga p'xpax",
+              "fr": "Les tubercules des fleurs commencent à germer ( à faire sortir leurs dents (= germes)).",
+              "en": "The flower bulbs are beginning to sprout (to push out their teeth (= shoots)).",
+              "zh": "花的球莖開始發芽（長出它們的牙齒（＝嫩芽））。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLIYUX",
+      "tag": "(R)",
+      "fr": "Changer - échanger - prendre la place - intervertir - remplacer.",
+      "en": "To change - to exchange - to take the place of - to swap around - to replace.",
+      "zh": "改變－交換－取代其位－對調－替換。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msliyux",
+          "paradigm": "( Mssliyux)",
+          "fr": "Se remplacer mutuellement (?) - prendre le tour.",
+          "en": "To replace one another (?) - to take one's turn.",
+          "zh": "互相替換（？）－輪流。",
+          "examples": []
+        },
+        {
+          "form": "Mssliyux",
+          "fr": "Se remplacer l'un l'autre - prendre alternativement la place.",
+          "en": "To replace one another - to take each other's place alternately.",
+          "zh": "彼此替換－輪流接替位置。",
+          "examples": [
+            {
+              "t": "Snao ni koyox o, mssliyux kmlawa laqe",
+              "fr": "Le mari et la femme se remplacent pour garder l'enfant.",
+              "en": "The husband and wife take turns looking after the child.",
+              "zh": "丈夫和妻子輪流照顧孩子。"
+            },
+            {
+              "t": "Mssliyux kmlawa ksia ka dDiyan",
+              "fr": "Djian et les siens se donnent la relève pour surveiller l'eau.",
+              "en": "Djian and his people take turns to watch over the water.",
+              "zh": "Djian 和他的人輪流看守水源。"
+            }
+          ]
+        },
+        {
+          "form": "Slyuxan",
+          "fr": "Acte de remplacer - lieu, temps de l'échange.",
+          "en": "The act of replacing - place, time of the exchange.",
+          "zh": "替換的行為－交換的地點、時間。",
+          "examples": []
+        },
+        {
+          "form": "Psliyux",
+          "paradigm": "°mpsliyux, psliyux, pslyuxi, pslyuxan, pslyuxun.",
+          "fr": "Donner le change - prendre le tour - remplacer quelqu'un.",
+          "en": "To take over - to take one's turn - to replace someone.",
+          "zh": "接手－輪替－替換某人。",
+          "examples": [
+            {
+              "t": "Adi so pslyuxun ka Tato xo",
+              "fr": "Est-ce que tu ne veux pas faire remplacer Tato ?",
+              "en": "Don't you want to have Tato replaced?",
+              "zh": "你不想找人替換 Tato 嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pslyuxan",
+          "fr": "Le tour de rôle - jour, lieu de la relève.",
+          "en": "The turn of duty - day, place of the changing of the guard.",
+          "zh": "輪值－換班的日子、地點。",
+          "examples": [
+            {
+              "t": "D'xok ka pslyuxan diyax g'xal nia kklaxang sapax",
+              "fr": "Le jour (le moment) de prendre la relève de son camarade pour garder la maison est arrivé.(= Son tour de monter la garde de la maison est arrivé).",
+              "en": "The day (the moment) to take over from his comrade in guarding the house has come. (= His turn to stand guard over the house has come).",
+              "zh": "接替他同伴看守房子的日子（時刻）到了。（＝輪到他看守房子了）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S\"LU",
+      "tag": "(R. = \"LU ?)",
+      "crossRef": "\"LU",
+      "fr": "Projeter - préméditer. VR. \"LU .",
+      "en": "To plan - to premeditate. See \"LU.",
+      "zh": "計劃－預謀。參見 \"LU。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sm\"lu",
+          "paradigm": "(Sml\"lu ?)",
+          "fr": "Projeter.",
+          "en": "To plan.",
+          "zh": "計劃。",
+          "examples": [
+            {
+              "t": "Sm\"lu (sml'lu) ko musa saman da",
+              "fr": "J'ai décidé de partir demain.",
+              "en": "I have decided to leave tomorrow.",
+              "zh": "我已決定明天出發。"
+            }
+          ]
+        },
+        {
+          "form": "Snluwan",
+          "paradigm": "(snlluwan)",
+          "fr": "Ce qui a été projeté, décidé.",
+          "en": "What has been planned, decided.",
+          "zh": "已計劃、已決定之事。",
+          "examples": [
+            {
+              "t": "Manu ka saang so ? Uxai snlluwan so nanak ka kia?",
+              "fr": "Pourquoi te fâcher ? N'est-ce pas ce que tu as décidé toi même ?",
+              "en": "Why get angry? Isn't this what you yourself decided?",
+              "zh": "你為什麼生氣？這不是你自己決定的嗎？"
+            },
+            {
+              "t": "Iyux so bi ptoko kana ka snlluwan so",
+              "fr": "Pour réaliser complètement tout ce que tu avais prévu (décidé).",
+              "en": "So as to carry out completely everything you had planned (decided).",
+              "zh": "為了完全實現你所計劃（決定）的一切。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "S'LNO",
+      "tag": "(S\"LNO ?) (R. = \"LO ?)",
+      "fr": "Rapporter - faire part - partager.",
+      "en": "To report - to inform of - to share.",
+      "zh": "報告－告知－分享。",
+      "examples": [
+        {
+          "t": "Ana mk'la ka sadyaq o, ini bi s'lno ka dxea",
+          "fr": "Même quand les gens sont au courant, ils n'en font pas du tout part aux autres !(Ce qu'ils savent ne leur sert pas pour partager).",
+          "en": "Even when people are in the know, they do not share it with others at all! (What they know is of no use to them for sharing).",
+          "zh": "即使人們知道了，他們也完全不告訴別人！（他們所知道的對分享毫無用處）。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "S'LO",
+      "tag": "(= R. ? - R. = PS'LO ?)",
+      "fr": "Correction - réprimande - punition.",
+      "en": "Correction - reprimand - punishment.",
+      "zh": "懲戒－訓斥－處罰。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Ms'lo",
+          "fr": "Qui est puni - qui reçoit une correction.",
+          "en": "One who is punished - who receives a correction.",
+          "zh": "受罰者－受懲戒者。",
+          "examples": []
+        },
+        {
+          "form": "Ps'lo",
+          "paradigm": "° Mps'lo, ps'lo, psloi, psloan, psloon.",
+          "fr": "Donner une correction - punir.",
+          "en": "To give a correction - to punish.",
+          "zh": "施予懲戒－處罰。",
+          "examples": [
+            {
+              "t": "Ana ini ko ps'lo laqe ka yako",
+              "fr": "Pour moi, il ne m'est pas nécessaire de punir mon fils.",
+              "en": "As for me, it is not necessary for me to punish my son.",
+              "zh": "至於我，我沒有必要處罰我的兒子。"
+            },
+            {
+              "t": "Psloi pxal ka laqe so! Ma\" ini qbaxang (kbaxang) kari!",
+              "fr": "Punis le (corrige le) donc une bonne fois, ton gosse! Tu vois bien qu'il n'obéit pas !",
+              "en": "Punish him (correct him) once and for all, that kid of yours! You can see he doesn't obey!",
+              "zh": "好好懲罰（管教）你那孩子一次吧！你也看到他不聽話！"
+            }
+          ]
+        },
+        {
+          "form": "Psloan",
+          "fr": "Correction (de fait) , Celui qui reçoit la correction.",
+          "en": "Correction (as a fact), the one who receives the correction.",
+          "zh": "（實際的）懲戒，受懲戒的人。",
+          "examples": [
+            {
+              "t": "Wada mo psloan balae s'xiga ka laqe",
+              "fr": "Je lui ai donné une bonne correction hier au gosse!(= Il est celui qui a reçu une bonne correction).",
+              "en": "I gave the kid a good correction yesterday! (= He is the one who received a good correction).",
+              "zh": "我昨天好好懲戒了那孩子！（＝他就是那個受了好好懲戒的人）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SLOA",
+      "tag": "(R)",
+      "fr": "Permettre - pardonner - concéder.(nb. Le plus souvent entendu SOA)",
+      "en": "To permit - to forgive - to concede. (n.b. Most often heard as SOA)",
+      "zh": "允許－原諒－讓步。（註：最常聽到的形式為 SOA）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smloa",
+          "paradigm": "°Smloa, sloa, sloai, sloaan (slwaan), sloaon.",
+          "fr": "d° forme verbale.",
+          "en": "Ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Kmusa ko bi alang paro; smloa so xo?",
+              "fr": "Je voudrais bien aller à la ville; Tu permets ?",
+              "en": "I would very much like to go to the city; Do you permit it?",
+              "zh": "我很想去城裡；你允許嗎？"
+            },
+            {
+              "t": "Lala bi ka knnaqex mo ! Adi so d'xkon (d'xqon) smloa kana xo ?",
+              "fr": "Elles sont vraiment nombreuses mes fautes ! Arriveras tu à les pardonner toutes ?",
+              "en": "My faults are truly numerous! Will you manage to forgive them all?",
+              "zh": "我的過錯真多！你能全部原諒嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Sloai",
+          "fr": "Pardonne! - permets!",
+          "en": "Forgive! - permit!",
+          "zh": "原諒！－允許！",
+          "examples": [
+            {
+              "t": "Paro ko bi qnoqo! Sloai ko balae!",
+              "fr": "Je me suis gravement trompé! Pardonne-moi !",
+              "en": "I have made a serious mistake! Forgive me!",
+              "zh": "我犯了大錯！原諒我吧！"
+            },
+            {
+              "t": "Kmusa ko bi bbuyo, bo; blaxao so balae: sloai ko xan ?",
+              "fr": "Maman! Je voudrais bien aller en montagne (à la chasse); Sois gentille! Permets moi, veux tu ?(= Permets moi,je te prie !).",
+              "en": "Mother! I would really like to go to the mountains (hunting); Be kind! Allow me, will you? (= Allow me, I beg you!).",
+              "zh": "媽媽！我很想上山（打獵）；好心一點！允許我，好嗎？（＝求你允許我！）。"
+            }
+          ]
+        },
+        {
+          "form": "Sloaan",
+          "fr": "Le pardon - ce qui a été pardonné - ce qui a été permi.",
+          "en": "Forgiveness - what has been forgiven - what has been permitted.",
+          "zh": "寬恕－已被原諒之事－已被允許之事。",
+          "examples": [
+            {
+              "t": "Wada ko na sloaan kana ka knnaqex mo da!",
+              "fr": "Toutes mes fautes, il me les a toutes pardonnées.",
+              "en": "All my faults, he has forgiven me every one of them.",
+              "zh": "我所有的過錯，他全都原諒了我。"
+            }
+          ]
+        },
+        {
+          "form": "Psloa",
+          "fr": "Se faire pardonner - se faire donner la permission.",
+          "en": "To get oneself forgiven - to get permission granted to oneself.",
+          "zh": "使自己得到寬恕－使自己獲得允許。",
+          "examples": [
+            {
+              "t": "Miyax ko sunan ppsloa mo kana ka snklbutan mo",
+              "fr": "Je viens à toi pour me faire pardonner tous mes faux pas (toutes mes fautes).",
+              "en": "I come to you to get forgiveness for all my missteps (all my faults).",
+              "zh": "我來到你這裡，為求得寬恕我所有的過失（我所有的過錯）。"
+            }
+          ]
+        },
+        {
+          "form": "Spsloa",
+          "fr": "Dans le but de se faire pardonner - le moyen pour se faire pardonner.",
+          "en": "For the purpose of getting oneself forgiven - the means to get oneself forgiven.",
+          "zh": "為了使自己得到寬恕－使自己得到寬恕的方法。",
+          "examples": [
+            {
+              "t": "Adi manu ka yaxan mo xeni: spsloa no ana manu snlxoqan mo",
+              "fr": "Si je viens ici, c'est pour me faire pardonner toutes mes omissions.",
+              "en": "If I come here, it is to get forgiveness for all my omissions.",
+              "zh": "我來這裡，是為了求得寬恕我所有的疏漏。"
+            }
+          ]
+        },
+        {
+          "form": "Soa",
+          "fr": "Forme tres courante, contractée, pour: SLOA.",
+          "en": "Very common, contracted form, for: SLOA.",
+          "zh": "非常常見的縮略形式，用以表示：SLOA。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "S'LONG",
+      "tag": "(= R. ?)",
+      "fr": "Nom actuellement donné au fils de laine , ou à ce qui en a les apparences, et utilisés pour la décoration des habits, spécialement des jupes (= PALA) pour les jours de fête,(pour broder).",
+      "en": "Name currently given to woolen thread, or to what has the appearance of it, used for decorating clothes, especially skirts (= PALA) for feast days, (for embroidering).",
+      "zh": "現今用來稱呼毛線，或外觀類似毛線之物的名稱，用於裝飾衣服，尤其是節慶時穿的裙子（＝PALA）（用來刺繡）。",
+      "examples": [],
+      "subs": []
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "pages": [38, 41],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mbaxo",
+        "fr": "Blanchisseur - celui qui fait la lessive.",
+        "en": "Launderer - the one who does the washing.",
+        "zh": "洗衣者——做洗衣工作的人。",
+        "examples": [
+          {
+            "t": "Manu ka kpaxon so ? ... Mbaxo ko lukus",
+            "fr": "Quel est ton travail ? ... Je lave les habits.",
+            "en": "What is your work? ... I wash clothes.",
+            "zh": "你的工作是什麼?……我洗衣服。"
+          }
+        ]
+      },
+      {
+        "form": "Bxoon",
+        "fr": "A laver - linge sale.",
+        "en": "To be washed - dirty laundry.",
+        "zh": "待洗的——髒衣物。",
+        "examples": [
+          {
+            "t": "Bxoon kana ka nbabao sxakao(?) so",
+            "fr": "C'est tout du linge à laver celui qui se trouve sur ton lit (lit, ou: partie surélevée d'une pièce et qui sert de lit).",
+            "en": "What is on your bed is all laundry to be washed (bed, or: the raised part of a room that serves as a bed).",
+            "zh": "你床上放的全是待洗的衣物(床,或:房間裡加高、用來當床的部分)。"
+          },
+          {
+            "t": "Bxoon mo lukus ka saman",
+            "fr": "Demain c'est le moment où je dois laver les habits.",
+            "en": "Tomorrow is when I must wash the clothes.",
+            "zh": "明天就是我該洗衣服的時候。"
+          },
+          {
+            "t": "Bxoon mo saman ka lukus",
+            "fr": "Les habits c'est ce que je dois laver demain.",
+            "en": "The clothes are what I must wash tomorrow.",
+            "zh": "衣服就是我明天要洗的東西。"
+          }
+        ]
+      },
+      {
+        "form": "Bxoan",
+        "fr": "1) Matière de la laissive faite. 2) Lavoir - endroit où on lave.",
+        "en": "1) The washing that has been done. 2) Washing place - place where one washes.",
+        "zh": "1)已洗好的衣物。2)洗衣處——洗東西的地方。",
+        "examples": [
+          {
+            "t": "Naqex bi bxoan ka galyeq baxgai",
+            "fr": "Le linge blanc est difficile à laver.",
+            "en": "White linen is hard to wash.",
+            "zh": "白色衣物很難洗。"
+          },
+          {
+            "t": "Dyagi ko pxedao ka bnxoan mo suni",
+            "fr": "Aide moi à mettre sècher (exposer au soleil) ce que je viens de laver.",
+            "en": "Help me put out to dry (expose to the sun) what I have just washed.",
+            "zh": "幫我把我剛洗好的東西拿去曬乾(曝曬於陽光下)。"
+          },
+          {
+            "t": "Naqex bi bxoan ka mk'yayong",
+            "fr": "Il n'est pas facile de laver au bord du torrent.",
+            "en": "It is not easy to wash at the edge of the torrent.",
+            "zh": "在溪流邊洗衣並不容易。"
+          }
+        ]
+      },
+      {
+        "form": "Pbaxo",
+        "fr": "Faire laver - donner à laver.",
+        "en": "To have washed - to give out for washing.",
+        "zh": "使人洗——把東西交給人洗。",
+        "examples": [
+          {
+            "t": "Mlnglong ko pbaxo lukus mo sntloma",
+            "fr": "Je pense faire laver mon linge de corps.",
+            "en": "I am thinking of having my underclothes washed.",
+            "zh": "我想把我的貼身衣物拿去給人洗。"
+          },
+          {
+            "t": "Saon mo mangal libul mo spbaxo mo sadyaq",
+            "fr": "Je vais (veux aller) chercher mes pantalons pour les faire laver à quelqu'un.",
+            "en": "I am going (want to go) to fetch my trousers to have someone wash them.",
+            "zh": "我要去(想去)拿我的褲子,好請人洗。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "BBIL",
+      "tag": "(R. BIL ?)",
+      "paradigm": "° Mbbil, bbil, bbili, bbilan, bbilun.",
+      "fr": "Tirer - Attirer.",
+      "en": "To pull - to attract.",
+      "zh": "拉——吸引。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbbil",
+          "fr": "Qui tire - qui attire.",
+          "en": "That pulls - that attracts.",
+          "zh": "拉的——吸引的。",
+          "examples": [
+            {
+              "t": "Mbbil bi pongao ka ldax xalong",
+              "fr": "la lumière du falot (en bois de pin) attire facilement les scarabés.",
+              "en": "the light of the (pinewood) lantern easily attracts beetles.",
+              "zh": "(松木)燈籠的光很容易吸引甲蟲。"
+            },
+            {
+              "t": "Bbil ! bbil! msa so; ya bi manu ka bbilun mo ?",
+              "fr": "Tire ! tire! dis tu(?)! Mais qu'est ce donc que je dois tirer ?",
+              "en": "Pull! pull! you say; but what on earth am I supposed to pull?",
+              "zh": "拉!拉!你這麼說;但我到底該拉什麼呢?"
+            }
+          ]
+        },
+        {
+          "form": "Bbilan",
+          "fr": "Ce qu'on tire - Lieu où l'on tire - prise pour tirer.",
+          "en": "What one pulls - place where one pulls - grip for pulling.",
+          "zh": "所拉的東西——拉的地方——供拉的握把。",
+          "examples": [
+            {
+              "t": "Bbilan ko na bilat",
+              "fr": "Il m'a tiré les oreilles.",
+              "en": "He pulled my ears.",
+              "zh": "他拉了我的耳朵。"
+            },
+            {
+              "t": "Kmbibil ko bi ka yako , ongat ka bbilan!",
+              "fr": "Je voudrais bien tirer (mais) il n'y a pas de corde (ou: de prise) pour tirer.",
+              "en": "I would really like to pull, (but) there is no rope (or: grip) to pull.",
+              "zh": "我很想拉,(但)沒有可拉的繩子(或:握把)!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BBUYO",
+      "tag": "(R.= BUYO)",
+      "fr": "Lieu portant végétation non cultivée - Friche - la montagne.",
+      "en": "Place bearing uncultivated vegetation - wasteland - the mountain.",
+      "zh": "長著未經耕種植被之地——荒地——山野。",
+      "examples": [
+        {
+          "t": "Saman ka mxa nami bbuyo",
+          "fr": "C'est demain que nous allons à la montagne (à la chasse).",
+          "en": "It is tomorrow that we go to the mountain (hunting).",
+          "zh": "我們明天要上山(去打獵)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BEILOX",
+      "tag": "(R)",
+      "fr": "Haricots.",
+      "en": "Beans.",
+      "zh": "豆子。",
+      "examples": [
+        {
+          "t": "Msxea balae ka pnsnmaan so beilox",
+          "fr": "Ils sont délicieux les haricot que tu as préparés.",
+          "en": "The beans you prepared are delicious.",
+          "zh": "你煮的豆子真好吃。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BENGBANG",
+      "tag": "",
+      "fr": "(Onomatopée dérivant du bruit qu'elle fait ?) = Tôle en général - toute boite de conserve vide - Touque de 20 litres servant aux taroko à mesurer les céréales = Boisseau.",
+      "en": "(Onomatopoeia deriving from the noise it makes?) = Sheet metal in general - any empty tin can - 20-litre drum used by the Taroko to measure grain = bushel.",
+      "zh": "(由它發出的聲響而來的擬聲詞?)=泛指鐵皮——任何空罐頭——太魯閣人用來量穀物的二十公升鐵桶=斗。",
+      "examples": [
+        {
+          "t": "Adi toko kingal bengbang boax ooqon daxa xo ?",
+          "fr": "Est ce qu'un boisseau de riz suffira pour leur nourriture ? (vr.BMBANG).",
+          "en": "Will one bushel of rice be enough for their food? (cf. BMBANG).",
+          "zh": "一斗米夠他們吃嗎?(參見BMBANG)"
+        },
+        {
+          "t": "Dmuxun so(?) manu ka sapax so? Bengbang xo? Gmiya xo? ...Xmut ddima!",
+          "fr": "Avec quoi veux tu couvrir ta maison ? En tôle ? en chaume ? ... Simplement en bambous.",
+          "en": "With what do you want to roof your house? With sheet metal? with thatch? ... Simply with bamboo.",
+          "zh": "你要用什麼蓋你的屋頂?鐵皮?茅草?……就只用竹子!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BETAK",
+      "tag": "(R)",
+      "fr": "Jusqu'à.",
+      "en": "Until - as far as.",
+      "zh": "直到——到……為止。",
+      "examples": [
+        {
+          "t": "Betak so ino ka sayang ? ... Betak sapax nanak",
+          "fr": "Jusqu'où vas tu maintenant ? ... Seulement jusqu'à la maison.",
+          "en": "How far are you going now? ... Only as far as the house.",
+          "zh": "你現在要去到哪裡?……只到家裡而已。"
+        },
+        {
+          "t": "Mnatas so betak skhuan suxal ?",
+          "fr": "Jusqu'à quand as tu étudié autrefois?",
+          "en": "Until when did you study in the past?",
+          "zh": "你從前讀書讀到什麼時候?"
+        },
+        {
+          "t": "Betak so pia pila kingal diyax ?",
+          "fr": "Tu arrives à combien d'argent par jour ?",
+          "en": "How much money do you get up to per day?",
+          "zh": "你一天能賺到多少錢?"
+        },
+        {
+          "t": "Betak so paro o, mxa bsiyaq",
+          "fr": "Il en passera du temps avant que tu sois grand !",
+          "en": "A lot of time will pass before you are big!",
+          "zh": "要等到你長大,還得好一段時間呢!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mpbetak (Mp'betak)",
+          "fr": "Jusqu'à (au futur).",
+          "en": "Until (in the future).",
+          "zh": "直到(指未來)。",
+          "examples": [
+            {
+              "t": "Mp'betak so ino ka saman ?",
+              "fr": "Jusqu'où parviendras tu, demain ?",
+              "en": "How far will you get, tomorrow?",
+              "zh": "明天你將到達哪裡?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BETAQ",
+      "tag": "(R)",
+      "paradigm": "° Metaq, betaq, btaqe, btaqan, btaqon.",
+      "fr": "Pîquer (en enfonçant qqch.: épine, couteau, aiguille).",
+      "en": "To prick (by driving something in: thorn, knife, needle).",
+      "zh": "刺(將某物刺入:刺、刀、針)。",
+      "examples": [
+        {
+          "t": "Btaqe dyudika",
+          "fr": "Crucifiez!",
+          "en": "Crucify!",
+          "zh": "釘上十字架!"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Metaq",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Miyax ko metaq qomi lqean so",
+              "fr": "Je viens faire une piqûre à ton enfant.",
+              "en": "I have come to give your child an injection.",
+              "zh": "我來給你的孩子打針。"
+            },
+            {
+              "t": "Mniyax ka ddxea metaq Esuan babao qoni",
+              "fr": "Ils vinrent clouer Jésus sur le bois.",
+              "en": "They came to nail Jesus onto the wood.",
+              "zh": "他們前來把耶穌釘在木頭上。"
+            }
+          ]
+        },
+        {
+          "form": "Pbetaq",
+          "fr": "Faire piquer.",
+          "en": "To cause to be pricked.",
+          "zh": "使被刺。",
+          "examples": [
+            {
+              "t": "Klxangi bi knkax muda \"lu aadi so muda pbetaq pakao",
+              "fr": "Fais bien attention où tu mets le pied en marchant pour ne pas aller te faire piquer par les épines.",
+              "en": "Watch carefully where you set your foot when walking so as not to go and get yourself pricked by the thorns.",
+              "zh": "走路時要留意腳下,免得被荊棘刺到。"
+            },
+            {
+              "t": "Mnalox blax mo kika yaxan mo pbetaq qomi",
+              "fr": "J'ai une bronchite (vl.tuberculose) alors je viens me faire faire une piqûre.",
+              "en": "I have bronchitis (var. tuberculosis) so I have come to get an injection.",
+              "zh": "我得了支氣管炎(或:肺結核),所以來打針。"
+            }
+          ]
+        },
+        {
+          "form": "Btaqan",
+          "fr": "Endroit où se fait la piqûre.",
+          "en": "Place where the injection is given.",
+          "zh": "打針的部位。",
+          "examples": [
+            {
+              "t": "Wada ko na btaqan qomi xelang (..qomi ka xelang)",
+              "fr": "Il m'a fait une piqûre à l'épaule. (nb.ne pas confondre avec: BTAQAN qui désigne une espèce de gros bambou !).",
+              "en": "He gave me an injection in the shoulder. (n.b. not to be confused with BTAQAN, which designates a species of large bamboo!).",
+              "zh": "他在我的肩膀上打了一針。(註:勿與BTAQAN混淆,那是指一種大竹子!)"
+            }
+          ]
+        },
+        {
+          "form": "Bntaqan",
+          "fr": "Lieu ,moment où la piqûre a été faite.",
+          "en": "Place, moment where the pricking was done.",
+          "zh": "被刺的地方、時刻。",
+          "examples": [
+            {
+              "t": "Nii ka bntaqan ko na poting",
+              "fr": "Voici la place où il m'avait donné un coup de couteau.",
+              "en": "Here is the place where he had stabbed me with a knife.",
+              "zh": "這裡就是他曾用刀刺我的地方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BGIXOL",
+      "tag": "(R)",
+      "fr": "Vent - air - typhon. (vr. BWIXOL).",
+      "en": "Wind - air - typhoon. (cf. BWIXOL).",
+      "zh": "風——空氣——颱風。(參見BWIXOL)",
+      "examples": [
+        {
+          "t": "Mtutwi ka bgixol do , adi biyao mpqoyoç da",
+          "fr": "Quand le vent se lève la pluie n'est pas loin.",
+          "en": "When the wind rises, the rain is not far off.",
+          "zh": "起風時,雨就不遠了。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sbgixol",
+          "fr": "Souffler (le vent) - courant d'air.",
+          "en": "To blow (of the wind) - draught.",
+          "zh": "(風)吹——氣流。",
+          "examples": [
+            {
+              "t": "Msbgixol balae ka sayang",
+              "fr": "Aujourd'hui le vent souffle fort = Il y a beaucoup de vent aujourd'hui.",
+              "en": "Today the wind is blowing hard = There is a lot of wind today.",
+              "zh": "今天風吹得很強=今天風很大。"
+            }
+          ]
+        },
+        {
+          "form": "Sbxolan",
+          "fr": "Endroit où le vent souffle - Lieu où il y a du vent.",
+          "en": "Place where the wind blows - place where there is wind.",
+          "zh": "風吹之處——有風的地方。",
+          "examples": [
+            {
+              "t": "Manu ka saon so sbxolan mkbukui sapax ?",
+              "fr": "Que vas tu faire dans cet endroit derrière la maison où le vent souffle?",
+              "en": "What are you going to do in that spot behind the house where the wind blows?",
+              "zh": "你要去屋後那個風吹的地方做什麼?"
+            },
+            {
+              "t": "Malu bi sbxolan ka sapax so",
+              "fr": "Ta maison est un lieu bien frais (où il y a un bon petit vent).",
+              "en": "Your house is a nice cool place (where there is a pleasant little breeze).",
+              "zh": "你的家真是涼爽的地方(有舒服的微風)。"
+            }
+          ]
+        },
+        {
+          "form": "Psbgixol",
+          "fr": "S'exposer au vent = ventiler.",
+          "en": "To expose oneself to the wind = to ventilate.",
+          "zh": "讓自己吹風=通風。",
+          "examples": [
+            {
+              "t": "Ya usa psbgixol ! sknalox blax so ka kia!",
+              "fr": "Ne va pas t'exposer au vent! celà tenrhume !",
+              "en": "Don't go exposing yourself to the wind! that gives you a cold!",
+              "zh": "別去吹風!那會讓你感冒!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BGIXOL",
+      "tag": "(R)",
+      "fr": "L'esprit des morts - revenant.",
+      "en": "The spirit of the dead - ghost.",
+      "zh": "亡者之靈——鬼魂。",
+      "examples": [
+        {
+          "t": "Klapun so ka bgixol skbaki",
+          "fr": "Tu vas te faire attraper par l'esprit (le souffle) du beau père qui est mort! (nb.Les taroko sont persuadés que l'esprit des morts revient sur terre, pour nuire, et ils en ont peur.)",
+          "en": "You are going to get caught by the spirit (the breath) of the father-in-law who died! (n.b. The Taroko are convinced that the spirit of the dead comes back to earth to do harm, and they are afraid of it.)",
+          "zh": "你會被過世岳父的靈(氣息)抓住!(註:太魯閣人深信亡者之靈會回到人間作祟,他們對此十分害怕。)"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BI",
+      "tag": "",
+      "fr": "Particule invariable très fréquente, postposée, indiquant l'intensité l'authenticité.",
+      "en": "Very frequent invariable particle, postposed, indicating intensity, authenticity.",
+      "zh": "極常見的不變化質詞,後置,表示強度、真實性。",
+      "examples": [
+        {
+          "t": "Ana bi bilaq o, ini ko na byeqe",
+          "fr": "Il ne m'en a pas donné même un tout petit peu.",
+          "en": "He did not give me even a tiny little bit.",
+          "zh": "他連一丁點兒都沒給我。"
+        },
+        {
+          "t": "Kingal bi",
+          "fr": "Un seul",
+          "en": "One only",
+          "zh": "僅僅一個"
+        },
+        {
+          "t": "Balae bi",
+          "fr": "Vraiment",
+          "en": "Truly",
+          "zh": "真的"
+        },
+        {
+          "t": "Ida bi",
+          "fr": "Peut être",
+          "en": "Perhaps",
+          "zh": "也許"
+        },
+        {
+          "t": "Yako bi",
+          "fr": "Moi même",
+          "en": "I myself",
+          "zh": "我自己"
+        },
+        {
+          "t": "Lmngao bi",
+          "fr": "Parler franchement",
+          "en": "To speak frankly",
+          "zh": "坦率地說"
+        },
+        {
+          "t": "Tama bi nanak ka mk'la",
+          "fr": "Il n'y a vraiment que papa qui sache!",
+          "en": "Truly only papa knows!",
+          "zh": "真的只有爸爸才知道!"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BIKI",
+      "tag": "(R)",
+      "fr": "Courbé - tordu.",
+      "en": "Bent - twisted.",
+      "zh": "彎曲——扭曲。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbiki",
+          "fr": "Qui est courbé, tordu.",
+          "en": "That is bent, twisted.",
+          "zh": "彎曲、扭曲的。",
+          "examples": [
+            {
+              "t": "Mbiki kana ka ddima so: ongat bi blexan!",
+              "fr": "Tes bambous sont tout tordus: ils ne valent rien.",
+              "en": "Your bamboos are all twisted: they are worthless.",
+              "zh": "你的竹子全都彎彎曲曲:一點用都沒有!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BILAQ",
+      "tag": "(R)",
+      "fr": "Petit - peu - insignifiant.",
+      "en": "Small - little - insignificant.",
+      "zh": "小——少——微不足道。",
+      "examples": [
+        {
+          "t": "Bilaq ko bi sida",
+          "fr": "quand j'étais petit.",
+          "en": "when I was small.",
+          "zh": "當我小的時候。"
+        },
+        {
+          "t": "Bilaq bi ka pila mo",
+          "fr": "J'ai bien peu d'argent!",
+          "en": "I have very little money!",
+          "zh": "我的錢真少!"
+        },
+        {
+          "t": "Manu bi ka yaxan so sgxoai! Bilaq bi ka kia!",
+          "fr": "Qu'est ce qui te prend de venir remercier? C'est là vraiment bien peu de choses!",
+          "en": "What has come over you, coming to give thanks? That is really a very small thing!",
+          "zh": "你怎麼會特地來道謝?那實在只是小事一樁!"
+        },
+        {
+          "t": "Ana ko bilaq ka yako o..",
+          "fr": "Même si je suis quelqu'un sans importance..",
+          "en": "Even if I am someone of no importance..",
+          "zh": "即使我是個無足輕重的人……"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knbilaq",
+          "fr": "Intensité de petitesse.",
+          "en": "Intensity of smallness.",
+          "zh": "小的程度。",
+          "examples": [
+            {
+              "t": "Ya sa klaon so ka knbilaq pila nia",
+              "fr": "Vu que tu sais combien il a peu d'argent !",
+              "en": "Seeing that you know how little money he has!",
+              "zh": "既然你知道他的錢有多麼少!"
+            }
+          ]
+        },
+        {
+          "form": "Knblaqan",
+          "fr": "Petitesse - insignifiance.",
+          "en": "Smallness - insignificance.",
+          "zh": "渺小——微不足道。",
+          "examples": [
+            {
+              "t": "Ima mk'la sao kia ka knblaqan nia!",
+              "fr": "Qui pouvait savoir que sa petitesse était telle !",
+              "en": "Who could have known that his smallness was such!",
+              "zh": "誰能料到他竟如此渺小!"
+            }
+          ]
+        },
+        {
+          "form": "Pnbilaq",
+          "fr": "Peu à la fois.",
+          "en": "A little at a time.",
+          "zh": "一次一點點。",
+          "examples": [
+            {
+              "t": "Bilaq bi ka boax ta da: asi ka pnbilaq ta mqan",
+              "fr": "Et voilà qu'il n'y a plus beaucoup de riz: nous en sommes réduits à nous rationner!( à le manger par petites quantités).",
+              "en": "And now there is not much rice left: we are reduced to rationing ourselves! (to eating it in small quantities).",
+              "zh": "我們的米已所剩不多:只好省著吃!(一次只吃一點點)。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbilaq",
+          "fr": "Faire que ce soit petit.",
+          "en": "To make it be small.",
+          "zh": "使之變小。",
+          "examples": [
+            {
+              "t": "Lnglong ko (lmnglong ko) pkbilaq ka sao diyun mo pila",
+              "fr": "Je pense limiter (faire qu'il soit peu) l'argent que je dépenserai.",
+              "en": "I am thinking of limiting (making it be little) the money I will spend.",
+              "zh": "我打算節制(使之變少)我將花的錢。"
+            }
+          ]
+        },
+        {
+          "form": "Sbilaq",
+          "fr": "Diminuer - se faire petit.",
+          "en": "To diminish - to make oneself small.",
+          "zh": "減少——使自己變小。",
+          "examples": [
+            {
+              "t": "Ini ksbilaq ka lnglongan nia",
+              "fr": "Sa pensée (son ardeur, ses projets) n'a pas diminué.",
+              "en": "His thought (his ardour, his plans) has not diminished.",
+              "zh": "他的心思(熱忱、計畫)沒有減退。"
+            }
+          ]
+        },
+        {
+          "form": "Kmsbilaq",
+          "fr": "Désirer se faire petit - vouloir s'humilier.",
+          "en": "To desire to make oneself small - to want to humble oneself.",
+          "zh": "想使自己變小——想自謙。",
+          "examples": [
+            {
+              "t": "Ana so kmsbilaq o, mk'la bi sunan ka sadyaq",
+              "fr": "Même si tu essayes de t'éffacer, les gens te connaissent bien (savent ta valeur).",
+              "en": "Even if you try to efface yourself, people know you well (know your worth).",
+              "zh": "即使你想隱藏自己,人們也很了解你(知道你的價值)。"
+            }
+          ]
+        },
+        {
+          "form": "Msbilaq",
+          "fr": "Qui s'éfface - qui se fait petit.",
+          "en": "Who effaces himself - who makes himself small.",
+          "zh": "自我謙抑者——使自己變小者。",
+          "examples": [
+            {
+              "t": "Ana ima mskuxul ka sao msbilaq",
+              "fr": "Il est sympathique à tous celui qui n'est pas prétentieux.",
+              "en": "He who is not pretentious is liked by everyone.",
+              "zh": "不自大的人人人都喜歡。"
+            },
+            {
+              "t": "Msbilaq bi lmngao ka Otun",
+              "fr": "Otun parle avec humilité.",
+              "en": "Otun speaks with humility.",
+              "zh": "Otun說話很謙虛。"
+            }
+          ]
+        },
+        {
+          "form": "Psbilaq",
+          "paradigm": "° Psbilaq, psbilaq, psblaqe, psblaqan, psblaqon.",
+          "fr": "Humilier - s'humilier - faire que ce soit petit.",
+          "en": "To humble - to humble oneself - to make it be small.",
+          "zh": "使謙卑——自謙——使之變小。",
+          "examples": [
+            {
+              "t": "Psbilaq xali qoaq daxa",
+              "fr": "Fais qu'ils parlent un peu moins fort (fais faire leur bouche plus petite).",
+              "en": "Make them speak a little less loudly (make their mouths smaller).",
+              "zh": "叫他們說話小聲一點(使他們的嘴變小)。"
+            }
+          ]
+        },
+        {
+          "form": "Psblaqan",
+          "fr": "Humiliation - Rapetissement provoqué.",
+          "en": "Humiliation - belittling brought about.",
+          "zh": "屈辱——被造成的縮減。",
+          "examples": [
+            {
+              "t": "Mnda ko paqan pnsblaqan daxa",
+              "fr": "J'ai subi (je me suis fait manger par) leurs humiliations.",
+              "en": "I suffered (I got eaten by) their humiliations.",
+              "zh": "我遭受了(被吞吃了)他們的屈辱。"
+            },
+            {
+              "t": "Psblaqon mo tityex ka kmpaxan mo daya",
+              "fr": "Je veux réduire (les dimensions) de mon champ du haut.",
+              "en": "I want to reduce (the dimensions of) my upper field.",
+              "zh": "我想縮小我上方那塊田(的面積)。"
+            }
+          ]
+        },
+        {
+          "form": "Knsblaqan",
+          "fr": "Humilité.",
+          "en": "Humility.",
+          "zh": "謙遜。",
+          "examples": [
+            {
+              "t": "Mqalas ko bi mita knsblaqan so",
+              "fr": "Je me réjouis de voir que tu n'est pas prétentieux (arrogant, orgueilleux).",
+              "en": "I rejoice to see that you are not pretentious (arrogant, proud).",
+              "zh": "看到你不自負(不傲慢、不驕傲),我很高興。"
+            }
+          ]
+        },
+        {
+          "form": "Tbilaq",
+          "fr": "De fait petit - Très petit.",
+          "en": "In fact small - very small.",
+          "zh": "確實小——非常小。",
+          "examples": [
+            {
+              "t": "Tbilaq balae ka sapax so",
+              "fr": "Elle est réèllement petite, ta maison.",
+              "en": "It is really small, your house.",
+              "zh": "你的房子實在很小。"
+            }
+          ]
+        },
+        {
+          "form": "Ti bilaq",
+          "fr": "Ce (celui là) là qui est petit.",
+          "en": "That one (the one over there) which is small.",
+          "zh": "那個(那一個)小的。",
+          "examples": [
+            {
+              "t": "Ti bilaq balae ka sapax so",
+              "fr": "Ta maison est celle là qui est toute petite.",
+              "en": "Your house is the one there that is quite small.",
+              "zh": "你的房子就是那間很小的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BILAT",
+      "tag": "(R)",
+      "fr": "Oreille = anse.",
+      "en": "Ear = handle.",
+      "zh": "耳朵=把手(器耳)。",
+      "examples": [
+        {
+          "t": "Mkpoxel ka bilat mo da",
+          "fr": "Mes oreilles n'entendent pas = Je suis sourd.",
+          "en": "My ears do not hear = I am deaf.",
+          "zh": "我的耳朵聽不見=我聾了。"
+        },
+        {
+          "t": "Bbalao balae ka bilat xeuling so",
+          "fr": "Les oreilles de ton chien sont vraiment longues!",
+          "en": "Your dog's ears are really long!",
+          "zh": "你的狗耳朵真長!"
+        },
+        {
+          "t": "Naqex bi diyun ka liwas, ya sa ongat bilat nia",
+          "fr": "Elle est difficile à manier l'amphore cela se comprend puisqu'elle n'a pas de poignée ( anse, oreille).",
+          "en": "It is hard to handle, the amphora — which is understandable since it has no handle (ear).",
+          "zh": "這甕很難搬動,這可以理解,因為它沒有把手(甕耳)。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sbilat",
+          "fr": "1) Quelqu'un qui a de grandes oreilles. 2) Le lapin.",
+          "en": "1) Someone who has big ears. 2) The rabbit.",
+          "zh": "1)大耳朵的人。2)兔子。",
+          "examples": [
+            {
+              "t": "Sbilat bbuyo",
+              "fr": "Lièvre",
+              "en": "Hare",
+              "zh": "野兔"
+            },
+            {
+              "t": "Sbilat tnbugan",
+              "fr": "Lapin (lapin nourri, domestique).",
+              "en": "Rabbit (fed, domestic rabbit).",
+              "zh": "家兔(飼養的兔子)。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BILING",
+      "tag": "(R)",
+      "fr": "Trou - ouverture (fenêtre, porte, cheminée..).",
+      "en": "Hole - opening (window, door, chimney..).",
+      "zh": "洞——開口(窗、門、煙囪……)。",
+      "examples": [
+        {
+          "t": "Ma nyeqan xnbiyan kska sapax so! Lpi n'xali ka biling dnamux aadi na xmbui dole",
+          "fr": "Mais! il y a des gouttières chez toi! Bouche vite les trous du toit pour qu'il ne goutte pas de nouveau.",
+          "en": "Why! there are leaks in your house! Quickly plug the holes in the roof so that it does not drip again.",
+          "zh": "哎呀!你家在漏水!快把屋頂的洞堵住,免得又滴水。"
+        },
+        {
+          "t": "Biling muxeng",
+          "fr": "Trou du nez",
+          "en": "Nostril",
+          "zh": "鼻孔"
+        },
+        {
+          "t": "Biling quti",
+          "fr": "Anus (trou des excréments).",
+          "en": "Anus (hole of the excrement).",
+          "zh": "肛門(排泄物之孔)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BIRI",
+      "tag": "(R.?)",
+      "fr": "Dernier.",
+      "en": "Last.",
+      "zh": "最後的。",
+      "examples": [
+        {
+          "t": "Biri bi ka yako",
+          "fr": "Je suis vraiment le dernier.",
+          "en": "I am truly the last.",
+          "zh": "我真的是最後一個。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BIRI",
+      "tag": "(R.?)",
+      "fr": "Mouillé tout outre - trempé.",
+      "en": "Wet through and through - soaked.",
+      "zh": "濕透——浸濕。",
+      "examples": [
+        {
+          "t": "Mnda ko pskoyoç muda \"lu , Biri kana lukus mo da!",
+          "fr": "J'ai rencontré la pluie en route, tous mes habits sont trempés tout outre.(= de part en part).",
+          "en": "I met with rain on the way; all my clothes are soaked right through (= from side to side).",
+          "zh": "我在路上遇到雨,我的衣服全都濕透了(=裡外全濕)。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BISOL",
+      "tag": "(R)",
+      "fr": "Ver de terre - ascaride.",
+      "en": "Earthworm - roundworm.",
+      "zh": "蚯蚓——蛔蟲。",
+      "examples": [
+        {
+          "t": "Miyax ko mita adi nyeqan sapox bisol so ?",
+          "fr": "Je viens voir si tu as des médicaments pour les vers.",
+          "en": "I have come to see whether you have medicine for worms.",
+          "zh": "我來看看你有沒有驅蟲藥。"
+        },
+        {
+          "t": "Bisol kika oqon bi lolo",
+          "fr": "Des vers de terre, voilà ce qu'aiment les canards",
+          "en": "Earthworms — that is what ducks love",
+          "zh": "蚯蚓正是鴨子愛吃的東西"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mtbisol",
+          "fr": "Strié - marqué de coups de verges.",
+          "en": "Striped - marked by strokes of the rod.",
+          "zh": "有條痕的——被鞭打留下痕跡的。",
+          "examples": [
+            {
+              "t": "Mndui kwalox ssbut na knan ka tama, mtbisol kana syulae mo da!",
+              "fr": "Papa s'est servi d'un rotin pour me frapper, mes fesses sont striées de coups!",
+              "en": "Papa used a rattan cane to beat me; my buttocks are striped with blows!",
+              "zh": "爸爸用藤條打我,我的屁股滿是一條條的鞭痕!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

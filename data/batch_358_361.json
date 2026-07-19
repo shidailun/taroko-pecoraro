@@ -1,0 +1,802 @@
+{
+  "pages": [358, 361],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Mxdil",
+        "fr": "Qui se déplace.",
+        "en": "One who moves aside / shifts position.",
+        "zh": "移動的人、挪動位置的人。",
+        "examples": [
+          {
+            "t": "Usa mxdil tityex ka iso! Manu ka yaxan so tloma papaq mo!",
+            "fr": "Va donc un peu plus loin, toi! Pourquoi viens tu te mettre sous mes pieds?",
+            "en": "Move a bit further away, you! Why do you come and put yourself under my feet?",
+            "zh": "你往旁邊挪一點吧！你為什麼跑來擋在我腳下？"
+          }
+        ]
+      },
+      {
+        "form": "Pxdil",
+        "paradigm": "° Mpxdil, pxdil, pxdili, pxdilan, pxdilun.",
+        "fr": "Faire transporter - faire déplacer.",
+        "en": "To have (something) transported - to have (it) moved.",
+        "zh": "使搬運－使移動。",
+        "examples": [
+          {
+            "t": "Qmaya bi ddaan mo ka \"löt so gaga; pxdili tityex xo? ... Eq! Pxdilun mo saman!",
+            "fr": "Tes poutres (tes pièces de bois) entravent mon passage; fais les donc transporter un peu (plus loin), veux tu? ... Bien! Je les ferai transporter demain!",
+            "en": "Your beams (your pieces of wood) block my passage; have them moved a little (further away), will you? ... Fine! I'll have them moved tomorrow!",
+            "zh": "你的樑木（你的木料）擋住了我的路；把它們搬遠一點吧，好嗎？……好！我明天叫人把它們搬走！"
+          }
+        ]
+      },
+      {
+        "form": "T'xdil",
+        "fr": "Déménager.",
+        "en": "To move house / relocate.",
+        "zh": "搬家。",
+        "examples": [
+          {
+            "t": "Ongat xeni ka dBiyang da; wada tx'dil da!",
+            "fr": "Chez Biyang (la famille de Biyang) ne sont plus ici; ils ont déjà déménagé",
+            "en": "The Biyang household (Biyang's family) are no longer here; they have already moved away.",
+            "zh": "Biyang 家（Biyang 一家）不在這裡了；他們已經搬走了。"
+          }
+        ]
+      },
+      {
+        "form": "Txdilan",
+        "fr": "Déménagement.",
+        "en": "A move / relocation (the act of moving house).",
+        "zh": "搬家（遷移之事）。",
+        "examples": [
+          {
+            "t": "Sknuwan ka txdilan d'xa sipao?",
+            "fr": "Quand est-ce qu'ils ont déménagé (a eu lieu leur déménagement) (pour aller) en face",
+            "en": "When did they move (did their relocation take place) (to go) to the place opposite?",
+            "zh": "他們什麼時候搬（他們的搬遷是何時發生的）到對面去的？"
+          }
+        ]
+      },
+      {
+        "form": "Xndilan (R. = XDIL ? - vl. = contraction de SXNDILAN ?)",
+        "fr": "Temps de la gestation. Vr. S'XDIL.",
+        "en": "(R. = XDIL? - var. = contraction of SXNDILAN?) Time/period of gestation (pregnancy). See S'XDIL.",
+        "zh": "（R.＝XDIL？－或：＝SXNDILAN 之縮寫？）懷孕期。參見 S'XDIL。",
+        "examples": [
+          {
+            "t": "Xndilan na bi xei ka Labai",
+            "fr": "Labai était enceinte.",
+            "en": "Labai was pregnant.",
+            "zh": "Labai 懷孕了。"
+          }
+        ]
+      },
+      {
+        "form": "S'xdil (R. = XDIL ? - R. = S'XDIL ?)",
+        "fr": "Lourd. Vr. S'XDIL.",
+        "en": "(R. = XDIL? - R. = S'XDIL?) Heavy. See S'XDIL.",
+        "zh": "（R.＝XDIL？－R.＝S'XDIL？）重。參見 S'XDIL。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "XDIYAL",
+      "tag": "(R)",
+      "fr": "Découvrir - surprendre - trouver.",
+      "en": "To discover - to catch/surprise - to find.",
+      "zh": "發現－撞見（驚見）－找到。",
+      "examples": [
+        {
+          "t": "Mniyax ko ka mniyax ni ini ko xdiyal (vl. ini mo xdyali ka) ana manu",
+          "fr": "Je suis bien venu (pour ce qui est de venir, je suis venu) mais je ne trouve rien!",
+          "en": "I did indeed come (as for coming, I came) but I find nothing!",
+          "zh": "我確實來了（就來而言，我來了），可是我什麼都沒找到！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xndiyal",
+          "fr": "d° forme verbale.",
+          "en": "ditto - verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Wada so xndiyal ka pxeidang so pila xo?",
+              "fr": "as tu retrouvé l'argent que tu avais perdu? (et que tu recherchais)",
+              "en": "Did you find the money you had lost? (and that you were looking for)",
+              "zh": "你把弄丟的（並在尋找的）錢找回來了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Xdyalan",
+          "fr": "Ce qui est découvert (après recherche) - découverte.",
+          "en": "That which is discovered (after searching) - a discovery/find.",
+          "zh": "（尋找後）所發現之物－發現物。",
+          "examples": [
+            {
+              "t": "Ya uxai xndyalan so yayong ka tasil kia?",
+              "fr": "Ce n'est sans doute pas dans le torrent que tu as découvert cette pierre (dont tu parles)?",
+              "en": "Surely it wasn't in the torrent that you found that stone (the one you speak of)?",
+              "zh": "你發現（你所說的）那塊石頭，該不會是在溪流裡吧？"
+            }
+          ]
+        },
+        {
+          "form": "T'xdiyal (txdiyal)",
+          "fr": "Qui est découvert - qui est surpris.",
+          "en": "One who is discovered - one who is caught/surprised.",
+          "zh": "被發現的－被撞見的。",
+          "examples": [
+            {
+              "t": "Knqdolyaq ka xea ni wada txdiyal \"lu nk'yayong da!",
+              "fr": "Il pensait s'enfuir et il a été découvert sur le sentier le long du torrent.",
+              "en": "He thought he would escape and he was discovered on the path along the torrent.",
+              "zh": "他以為能逃走，結果在沿著溪流的小徑上被人發現了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XDO",
+      "tag": "(R)",
+      "fr": "Finir - terminer.",
+      "en": "To finish - to end.",
+      "zh": "完成－結束。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xndo",
+          "paradigm": "° Xmdo, Xdo (?) - Kxdo (?), kxdi, xdaan (kxdaan ?), kxdoon (xdoon ?).",
+          "fr": "Finir - terminer - achever.",
+          "en": "To finish - to end - to complete.",
+          "zh": "完成－結束－做完。",
+          "examples": [
+            {
+              "t": "Ya xan! Ga ko xndo kmpax kingal litok nii ka sayang",
+              "fr": "Attends un peu! Je suis en train de finir de travailler (piocher) ce champ (un coin (=LITOK) de terrain).",
+              "en": "Wait a moment! I am just finishing working (hoeing) this field (a plot (=LITOK) of land).",
+              "zh": "等一下！我正在把這塊田（一塊（＝LITOK）地）鋤完。"
+            }
+          ]
+        },
+        {
+          "form": "Mxdo",
+          "fr": "Qui est fini - qui est terminé - qui a fini.",
+          "en": "That which is finished - that which is completed - one who has finished.",
+          "zh": "已完成的－已結束的－做完了的。",
+          "examples": [
+            {
+              "t": "Kxdoon so knuwan ka pptasun so? ... Mxdo da! (vl. mxdo ku da!)",
+              "fr": "Quand finiras tu d'écrire tout ce que tu as à écrire? ... C'est fini (vl. J'ai fini!).",
+              "en": "When will you finish writing all that you have to write? ... It's done (var. I've finished!).",
+              "zh": "你什麼時候才會把要寫的都寫完？……寫完了！（或：我寫完了！）"
+            }
+          ]
+        },
+        {
+          "form": "Kxdo",
+          "fr": "Forme négative et impérative. (nb. Le préfixe (!?) K dans: KXDO, kxdi, KXDOON etc. semble intensifier la notion d'impératif, de voulu.)",
+          "en": "Negative and imperative form. (n.b. The prefix (!?) K in: KXDO, kxdi, KXDOON etc. seems to intensify the notion of the imperative, of intention/volition.)",
+          "zh": "否定與命令形。（註：KXDO、kxdi、KXDOON 等詞中的前綴（！？）K 似乎強化了命令、意願的概念。）",
+          "examples": [
+            {
+              "t": "Ini kxdo mqan ka dxea!",
+              "fr": "Ils n'ont pas fini de manger, eux!",
+              "en": "They haven't finished eating, those ones!",
+              "zh": "他們還沒吃完呢！"
+            }
+          ]
+        },
+        {
+          "form": "Xndo",
+          "fr": "Fini - qui a été fini.",
+          "en": "Finished - that which has been finished.",
+          "zh": "完成的－已被完成的。",
+          "examples": [
+            {
+              "t": "Xndo so kana ka kmpaxan trabus so?",
+              "fr": "Tout ton travail dans tes champs d'arachides est-il fini?",
+              "en": "Is all your work in your peanut fields finished?",
+              "zh": "你在花生田裡的活兒都做完了嗎？"
+            },
+            {
+              "t": "Xndo da!",
+              "fr": "C'est fini!",
+              "en": "It's finished!",
+              "zh": "完成了！"
+            },
+            {
+              "t": "Xndo ku da (= ko da)",
+              "fr": "J'ai fini.",
+              "en": "I have finished.",
+              "zh": "我做完了。"
+            },
+            {
+              "t": "Xndo so da do, yaxe ko dmayao da!",
+              "fr": "Puisque tu as fini, viens m'aider.",
+              "en": "Since you have finished, come and help me.",
+              "zh": "既然你做完了，就來幫我吧。"
+            }
+          ]
+        },
+        {
+          "form": "Nxdaan",
+          "fr": "La fin - ce qui est terminé.",
+          "en": "The end - that which is finished.",
+          "zh": "終結－已結束之物。",
+          "examples": [
+            {
+              "t": "Ongat plndingan ongat nxdaan",
+              "fr": "sans commencement sans fin = éternel.",
+              "en": "without beginning, without end = eternal.",
+              "zh": "無始無終＝永恆。"
+            }
+          ]
+        },
+        {
+          "form": "Txdo (?)",
+          "fr": "Qui est arrêté (?). (Très probablement déformation de T'LDO. Vr. L'DO.)",
+          "en": "One that is stopped (?). (Most probably a distortion of T'LDO. See L'DO.)",
+          "zh": "停住的（？）。（極可能是 T'LDO 的變體。參見 L'DO。）",
+          "examples": [
+            {
+              "t": "Ongat bi ka gasolin nii! Knta'to txdo (tx'ldo ?) ka xea",
+              "fr": "Elle est décevante cette automotrice! Elle est toujours arrêtée!",
+              "en": "This railcar is disappointing! It is always stopped!",
+              "zh": "這輛柴油車真讓人失望！它老是停著不動！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "X'DYEQ",
+      "tag": "(= R. ?)",
+      "fr": "Éloigner - rester à distance - éviter.",
+      "en": "To keep away - to stay at a distance - to avoid.",
+      "zh": "使遠離－保持距離－避開。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "X'mdyeq",
+          "fr": "d° forme verbale.",
+          "en": "ditto - verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "X'mdyeq namo ana manu kmxmutan (knxmutan ?) o, kisa (?) (ki sa (?)) balae!",
+              "fr": "Vous rejetez toute espèce de débauche, cela est très bien!",
+              "en": "You reject every kind of debauchery, that is very good!",
+              "zh": "你們摒棄各種淫亂邪行，這很好！"
+            }
+          ]
+        },
+        {
+          "form": "Mx'dyeq",
+          "fr": "qui est éloigné - qui est à distance.",
+          "en": "one who is far off - one who keeps at a distance.",
+          "zh": "遠離的－保持距離的。",
+          "examples": [
+            {
+              "t": "Ya xmuya so bi mx'dyeq tloon kddiyax!",
+              "fr": "Pourquoi donc restes tu toujours assis à part (retiré à l'écart)!",
+              "en": "Why then do you always sit apart (withdrawn, off to the side)!",
+              "zh": "你為什麼老是獨自坐在一旁（退到一邊）呢！"
+            }
+          ]
+        },
+        {
+          "form": "Pdx'dyeq",
+          "fr": "établir une distance entre - faire être éloigné.",
+          "en": "to set a distance between - to make (something) be at a distance.",
+          "zh": "使之間有距離－使遠離。",
+          "examples": [
+            {
+              "t": "Dmulun ko sunan pdx'dyeq (ptx'dyeq ?) xngali xali",
+              "fr": "Je te prie de te retirer un petit peu à l'écart.",
+              "en": "I beg you to withdraw a little bit to the side.",
+              "zh": "我請你稍微退到一旁去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XE",
+      "tag": "",
+      "fr": "(Contraction pour : XEA ?) = Ce lieu là - ce temps là.",
+      "en": "(Contraction for: XEA?) = That place there - that time there.",
+      "zh": "（XEA 的縮寫？）＝那個地方－那個時候。",
+      "examples": [
+        {
+          "t": "Lmaweq na \"lu xe ka (xea ka) sadyaq o, gmqoaq tumux (tunuç) ini pnsbut lmngao xeaan",
+          "fr": "Les personnes qui passaient là par cette route secouaient la tête et l'insultaient en disant:",
+          "en": "The people who passed by there along that road shook their heads and insulted him, saying:",
+          "zh": "那些從那條路經過的人搖著頭辱罵他，說："
+        }
+      ]
+    },
+    {
+      "hw": "XEA",
+      "tag": "(R)",
+      "fr": "1° Lui - elle - le - il. 2° Là-bas - là. (nb. En fait, les deux sens peuvent se réduire à la notion d'éloignement par rapport à la personne qui parle, que ce soit une personne, un lieu, un temps, un objet; en pratique le 1° (il-elle) est souvent réalisé plus doux (HEA) que le 2° (là, là bas) qui est toujours dur: XEA).",
+      "en": "1° Him - her - it - he. 2° Over there - there. (n.b. In fact, the two senses can both be reduced to the notion of distance relative to the speaker, whether it be a person, a place, a time, or an object; in practice the 1° (he/she) is often realized softer (HEA) than the 2° (there, over there), which is always hard: XEA).",
+      "zh": "一、他－她－它（受詞）。二、那裡－那邊。（註：其實這兩個意思都可歸結為相對於說話者的「遠」的概念，無論是人、地點、時間還是物體；實際上第一義（他／她）常發成較軟的（HEA），而第二義（那裡、那邊）則總是發成較硬的：XEA。）",
+      "examples": [
+        {
+          "t": "Xea o, ini usa",
+          "fr": "Lui, il ne va pas.",
+          "en": "Him, he isn't going.",
+          "zh": "他呀，他不去。"
+        },
+        {
+          "t": "Ga so xea?",
+          "fr": "Tu es là?",
+          "en": "Are you there?",
+          "zh": "你在那裡嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xeaan",
+          "fr": "Forme oblique (complément) de XEA. = A lui (elle) - pour lui - vers là.",
+          "en": "Oblique (object) form of XEA. = To him (her) - for him - toward there.",
+          "zh": "XEA 的斜格（受詞）形。＝給他（她）－為他－朝那裡。",
+          "examples": [
+            {
+              "t": "Ana no si byeqe xeaan o, ini na ngali ka xea (HEA ?).",
+              "fr": "même si je voulais le lui donner (vl. j'ai beau le lui donner), lui ne l'accepte pas!",
+              "en": "even if I wanted to give it to him (var. no matter how I try to give it to him), he does not accept it!",
+              "zh": "就算我想把它給他（或：我怎麼給他），他也不肯收！"
+            },
+            {
+              "t": "Mnsa ko xeaan",
+              "fr": "1° Je suis allé vers lui; 2° Je suis allé (vers) là-bas (= vl. Mnsa ko xea).",
+              "en": "1° I went to him; 2° I went (toward) over there (= var. Mnsa ko xea).",
+              "zh": "一、我到他那裡去了；二、我到那邊去了（＝或：Mnsa ko xea）。"
+            }
+          ]
+        },
+        {
+          "form": "Nxea",
+          "fr": "A lui (elle) - de lui - son - sa - ses.",
+          "en": "His (hers) - of him - his/her (possessive).",
+          "zh": "他（她）的－屬於他的。",
+          "examples": [
+            {
+              "t": "Nxea ka patas mbanax",
+              "fr": "Le livre rouge est à elle.",
+              "en": "The red book is hers.",
+              "zh": "那本紅書是她的。"
+            },
+            {
+              "t": "N'ima ka lukus? ... Nxea",
+              "fr": "A qui sont ces habits? ... A lui!",
+              "en": "Whose clothes are these? ... His!",
+              "zh": "這些衣服是誰的？……他的！"
+            }
+          ]
+        },
+        {
+          "form": "Ndxea",
+          "fr": "A eux - à elles - à ceux là - au groupe de lui.",
+          "en": "Theirs - to them - to those ones there - to his group.",
+          "zh": "他們的－屬於他們（那群人）的。",
+          "examples": [
+            {
+              "t": "Byeqe nanak dxeaan ka ndxea",
+              "fr": "Donnez leur donc ce qui est à eux!",
+              "en": "Give them what is theirs, then!",
+              "zh": "那就把屬於他們的東西給他們吧！"
+            }
+          ]
+        },
+        {
+          "form": "Dxea",
+          "fr": "Ils - elles - eux (= le groupe de ceux qui sont loin (?)).",
+          "en": "They - them (= the group of those who are far off (?)).",
+          "zh": "他們－她們（＝那群在遠處的人（？））。",
+          "examples": [
+            {
+              "t": "Mxa sapax knuwan (knuan) ka dxea?",
+              "fr": "Quand retournent-ils chez eux, (ceux là?).",
+              "en": "When do they return home, (those ones?).",
+              "zh": "他們（那些人？）什麼時候回自己家去？"
+            },
+            {
+              "t": "Wada xea ka dxea",
+              "fr": "Ils sont allés là (lieu qu'on montre ou dont il est question).",
+              "en": "They went there (a place one points to or that is being talked about).",
+              "zh": "他們到那裡去了（所指或所談論的地方）。"
+            }
+          ]
+        },
+        {
+          "form": "Ddxea",
+          "fr": "L'un de leur groupe - l'un d'eux (d'elles).",
+          "en": "One of their group - one of them.",
+          "zh": "他們群體中的一員－他們之一。",
+          "examples": [
+            {
+              "t": "Ddxea nanak ka Diyan",
+              "fr": "Djian est bien l'un des leurs.",
+              "en": "Djian is indeed one of them.",
+              "zh": "Djian 確實是他們中的一員。"
+            },
+            {
+              "t": "ddxea nanak ka dDiyan",
+              "fr": "Le groupe (la famille) de Djian fait partie de leur groupe.",
+              "en": "Djian's group (family) is part of their group.",
+              "zh": "Djian 的群體（家族）屬於他們那一群。"
+            }
+          ]
+        },
+        {
+          "form": "Dxeaan",
+          "fr": "Forme oblique de DXEA = A eux - pour eux.",
+          "en": "Oblique form of DXEA = To them - for them.",
+          "zh": "DXEA 的斜格形＝給他們－為他們。",
+          "examples": [
+            {
+              "t": "Usa dxeaan, ya sa dxea nanak ka lngagun so!",
+              "fr": "Va donc vers eux, puisque ce sont eux à qui tu veux (tu dois) parler!",
+              "en": "Go to them, then, since it is they to whom you want (you must) speak!",
+              "zh": "那就到他們那裡去吧，既然你想（你該）談話的對象正是他們！"
+            }
+          ]
+        },
+        {
+          "form": "Xeaon (R. = XEA ?)",
+          "fr": "Dans quel but? - pourquoi?",
+          "en": "For what purpose? - why?",
+          "zh": "為了什麼目的？－為什麼？",
+          "examples": [
+            {
+              "t": "Xeaon so ka laqe?",
+              "fr": "Que feras tu (que veux tu en faire) de l'enfant (que tu demandes..).",
+              "en": "What will you do (what do you want to do) with the child (that you are asking for..).",
+              "zh": "你要拿（你所要的）那孩子怎麼辦？"
+            },
+            {
+              "t": "Xeaon so ka qlopas? ... Ooqon mo!",
+              "fr": "Que veux tu en faire des pêches? ... Les manger!",
+              "en": "What do you want to do with the peaches? ... Eat them!",
+              "zh": "你要拿這些桃子做什麼？……吃掉！"
+            }
+          ]
+        },
+        {
+          "form": "Sxea",
+          "fr": "Authentique - qui a son goût - qui est bien lui même - savoureux. (Est-ce la R. XEA ? - Une R. autonome ?). Vr. SXEA et dérivés.",
+          "en": "Authentic - which has its own taste - which is truly itself - tasty. (Is it the root XEA? - An independent root?). See SXEA and its derivatives.",
+          "zh": "道地的－有自己味道的－純正的－美味的。（這是詞根 XEA 嗎？－還是獨立的詞根？）參見 SXEA 及其衍生形。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XEBONG",
+      "tag": "(R)",
+      "fr": "Jaune - couleur jaune. (nb. Toujours la même remarque pour les couleurs: les taroko ne sont pas très fixés dans ce domaine!).",
+      "en": "Yellow - the color yellow. (n.b. The same remark always applies to colors: the Taroko are not very fixed in this domain!).",
+      "zh": "黃色－黃的顏色。（註：對顏色總是同樣的評註：太魯閣人在這方面並不很固定！）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxebong",
+          "fr": "qui est jaune.",
+          "en": "which is yellow.",
+          "zh": "黃色的。",
+          "examples": [
+            {
+              "t": "Mxebong ka libul so; ini xali kxebong ka nako",
+              "fr": "Tes pantalons sont jaunes; les miens pas beaucoup!",
+              "en": "Your trousers are yellow; mine not very.",
+              "zh": "你的褲子是黃色的；我的沒那麼黃！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XEDAO",
+      "tag": "(R)",
+      "fr": "Soleil.",
+      "en": "Sun.",
+      "zh": "太陽。",
+      "examples": [
+        {
+          "t": "Kmoyoç kddiyax o, ya adi wada mpxeng ka xedao do!",
+          "fr": "Bien qu'il pleuve tous les jours, j'espère que ce n'est pas le soleil qui s'est éteint!",
+          "en": "Although it rains every day, I hope it is not the sun that has gone out!",
+          "zh": "雖然天天下雨，我希望熄滅的不是太陽！"
+        },
+        {
+          "t": "Ma so msxaya lnglong! Maxedao paro ka saman da!",
+          "fr": "Tu as une drôle d'idée! (vl. Qu'est-ce qui te prend de penser ainsi!) Demain il fera grand beau temps!",
+          "en": "You have a strange idea! (var. What has got into you to think like that!) Tomorrow the weather will be very fine!",
+          "zh": "你的想法真奇怪！（或：你怎麼會這麼想！）明天會是大晴天！"
+        },
+        {
+          "t": "Xedao pada",
+          "fr": "Soleil du chamois = Toute première lueur du soleil, quand les hautes cimes seules (où se tiennent les chamois!) commencent à rosir!.",
+          "en": "Chamois sun = the very first light of the sun, when only the high peaks (where the chamois stand!) begin to turn pink!.",
+          "zh": "羚羊的太陽＝日出最初的一縷光，此時唯有高峰（羚羊佇立之處！）開始泛紅！"
+        },
+        {
+          "t": "Ska xedao",
+          "fr": "Midi (au milieu du soleil).",
+          "en": "Noon (in the middle of the sun).",
+          "zh": "正午（太陽正中）。"
+        },
+        {
+          "t": "Baba skaxedao (= babao ska xedao)",
+          "fr": "Après midi.",
+          "en": "Afternoon.",
+          "zh": "下午。"
+        },
+        {
+          "t": "Lmuxan xedao",
+          "fr": "Le coucher du soleil (= temps et lieu (ouest)).",
+          "en": "Sunset (= time and place (west)).",
+          "zh": "日落（＝時間與地點（西方））。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxedao",
+          "fr": "Qui est exposé au soleil - ensoleillé.",
+          "en": "Which is exposed to the sun - sunny.",
+          "zh": "曬到太陽的－向陽的。",
+          "examples": [
+            {
+              "t": "Blax sapax ka mxedao bi! Ini kxedao ka oyong na",
+              "fr": "C'est devant la maison que c'est ensoleillé, (mais) pas derrière!",
+              "en": "It is in front of the house that it is sunny, (but) not behind!",
+              "zh": "屋子前面才曬得到太陽，後面（卻）曬不到！"
+            }
+          ]
+        },
+        {
+          "form": "Pxedao",
+          "paradigm": "° Mpxedao, pxedao, pxdagi, pxdagan, pxdagun.",
+          "fr": "Exposer quelque chose au soleil - mettre au soleil.",
+          "en": "To expose something to the sun - to put (it) out in the sun (to dry).",
+          "zh": "把東西曬太陽－放到太陽下。",
+          "examples": [
+            {
+              "t": "Xedao ka sayang do, sai n'xali pxedao payai da!",
+              "fr": "Puisqu'aujourd'hui il fait du soleil, va vite faire sécher le riz (mettre le riz au soleil)!",
+              "en": "Since it is sunny today, go quickly and dry the rice (put the rice out in the sun)!",
+              "zh": "既然今天出太陽，快去把稻子拿出去曬（把稻子放到太陽下）！"
+            },
+            {
+              "t": "npkoyoç do, kika saon so pxedao payai da?",
+              "fr": "C'est quand il va pleuvoir que tu veux faire sécher (mettre au soleil) ton paddy?",
+              "en": "Is it when it's about to rain that you want to dry (put out in the sun) your paddy?",
+              "zh": "偏偏要在快下雨的時候，你才想把稻穀拿去曬（放到太陽下）嗎？"
+            },
+            {
+              "t": "Pxdagi lukus bnxoan mo suni xo? Blaxao so balae!",
+              "fr": "Pourrais tu étendre au soleil (mettre sécher) les habits que j'ai lavé tout à l'heure, s'il te plaît?",
+              "en": "Could you please hang out in the sun (to dry) the clothes I washed a moment ago?",
+              "zh": "請你把我剛才洗的衣服拿去曬（晾乾），好嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pxdagan",
+          "fr": "Aire pour sécher le grain au soleil - endroit pour faire sécher les habits - Ce que (effectivement) on fait sécher.",
+          "en": "Yard/area for drying grain in the sun - place for drying clothes - what one (actually) dries.",
+          "zh": "曬穀場－曬衣服的地方－（實際上）拿去曬的東西。",
+          "examples": [
+            {
+              "t": "Ya so wada pxdagan ka lukus da?",
+              "fr": "J'espère que tu as mis sécher les habits?",
+              "en": "I hope you have put the clothes out to dry?",
+              "zh": "希望你已經把衣服拿去曬了吧？"
+            },
+            {
+              "t": "Paro bi pxdagan blax sapax mo ka yaxan d'xa kmsiyuk",
+              "fr": "C'est la grande aire (de séchage) devant chez moi qu'ils sont venus emprunter.",
+              "en": "It is the big (drying) yard in front of my house that they came to borrow.",
+              "zh": "他們來借的是我家門前那塊大（曬）場。"
+            }
+          ]
+        },
+        {
+          "form": "Txedao",
+          "fr": "Faire soleil - s'exposer au soleil.",
+          "en": "To be sunny - to expose oneself to the sun.",
+          "zh": "出太陽－曬太陽。",
+          "examples": [
+            {
+              "t": "Ma txedao sayang!",
+              "fr": "Tiens Il fait du soleil aujourd'hui!",
+              "en": "Look, it's sunny today!",
+              "zh": "瞧，今天出太陽了！"
+            },
+            {
+              "t": "Ya usa txedao da! Mpkmalox so kia!",
+              "fr": "Ne va plus au soleil! Tu vas te rendre malade!",
+              "en": "Don't go out in the sun any more! You'll make yourself ill!",
+              "zh": "別再去曬太陽了！你會把自己弄病的！"
+            }
+          ]
+        },
+        {
+          "form": "Dkmtxedao",
+          "fr": "Ceux qui désirent s'exposer (se faire bronzer) au soleil.",
+          "en": "Those who wish to expose themselves (to get a tan) to the sun.",
+          "zh": "想曬太陽（想曬黑）的人。",
+          "examples": [
+            {
+              "t": "Miyax nglaxol siyao gsilong nami kana ka dkmtxedao pnax alang paro",
+              "fr": "Tous ceux des villes qui veulent se faire bronzer viennent s'attrouper sur le rivage de notre mer.",
+              "en": "All the city folk who want to get a tan come and gather on the shore of our sea.",
+              "zh": "城裡所有想曬黑的人都來我們的海邊聚集。"
+            }
+          ]
+        },
+        {
+          "form": "Spxedao",
+          "fr": "(moyen, outil, occasion) pour étaler, étendre, sécher au soleil.",
+          "en": "(means, tool, occasion) for spreading out, laying out, drying in the sun.",
+          "zh": "用來（工具、手段、時機）攤開、晾曬、曬乾的（東西）。",
+          "examples": [
+            {
+              "t": "Miyax ko ppxedao payai",
+              "fr": "Je viens pour sécher le paddy.",
+              "en": "I come to dry the paddy.",
+              "zh": "我來曬稻穀。"
+            },
+            {
+              "t": "Miyax ko knsiyuk pxdagan so spxedao mo payai",
+              "fr": "Je viens emprunter ton aire pour (m'en servir pour) sécher mon paddy.",
+              "en": "I come to borrow your yard to (use it to) dry my paddy.",
+              "zh": "我來借你的曬場（用它）來曬我的稻穀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XEI",
+      "tag": "(R)",
+      "fr": "Corps - fruit - résultat - personne - vrai - viande.",
+      "en": "Body - fruit - result - person - true - meat/flesh.",
+      "zh": "身體－果實－結果－人－真實的－肉。",
+      "examples": [
+        {
+          "t": "Mnalox kana xei mo",
+          "fr": "Tout mon corps me fait mal.",
+          "en": "My whole body hurts.",
+          "zh": "我全身都痛。"
+        },
+        {
+          "t": "Ongat xei ka payai mo",
+          "fr": "Mon riz n'a pas de grain (de fruit).",
+          "en": "My rice has no grain (no fruit).",
+          "zh": "我的稻子沒有結穀粒（果實）。"
+        },
+        {
+          "t": "Yako bi kingal xei",
+          "fr": "Je suis seul.",
+          "en": "I am alone.",
+          "zh": "只有我一個人。"
+        },
+        {
+          "t": "Yako kingal bi xei",
+          "fr": "Il n'y a que moi tout seul.",
+          "en": "There is only me, all alone.",
+          "zh": "只有我孤零零一個人。"
+        },
+        {
+          "t": "Xei bi ka kari mo",
+          "fr": "Ce que je dis est vrai (= Mon parler est consistant, est concret.",
+          "en": "What I say is true (= My speech is substantial, is concrete.",
+          "zh": "我說的是真的（＝我的話是實在的、具體的。"
+        },
+        {
+          "t": "Oqe ka xei na ni qdani ka boot",
+          "fr": "Mange la viande et jette les os.",
+          "en": "Eat the meat and throw away the bones.",
+          "zh": "吃肉，把骨頭丟掉。"
+        },
+        {
+          "t": "Xei kating",
+          "fr": "Viande de buffle.",
+          "en": "Buffalo meat.",
+          "zh": "水牛肉。"
+        },
+        {
+          "t": "Xei babwi",
+          "fr": "Viande de porc.",
+          "en": "Pork.",
+          "zh": "豬肉。"
+        },
+        {
+          "t": "Xei ksoloç",
+          "fr": "Viande de poisson.",
+          "en": "Fish flesh.",
+          "zh": "魚肉。"
+        },
+        {
+          "t": "Ana manu xxei ana manu o, uxai mo oqon (vl. adi mo ooqon)",
+          "fr": "N'importe quelle sorte de viande de n'importe quoi, je ne la mange pas (vl. je ne tiens pas à la manger).",
+          "en": "Any kind of meat of anything at all, I do not eat it (var. I don't care to eat it).",
+          "zh": "無論什麼東西的什麼肉，我都不吃（或：我不想吃）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxei",
+          "fr": "Devenir fruit - qui a du fruit.",
+          "en": "To become fruit - which has fruit.",
+          "zh": "結果實－有果實的。",
+          "examples": [
+            {
+              "t": "Mxei ka trabus mo da!",
+              "fr": "Ça y est, mes arachides ont des grains (des fruits).",
+              "en": "There we are, my peanuts have grains (fruits).",
+              "zh": "好啦，我的花生結果實（結莢）了。"
+            }
+          ]
+        },
+        {
+          "form": "Mgxei",
+          "fr": "Porter du fruit - produire.",
+          "en": "To bear fruit - to produce.",
+          "zh": "結果實－生產。",
+          "examples": [
+            {
+              "t": "Mgxei sayang ka sq'mo ni, adi biyao npgxei ka payai ole da",
+              "fr": "Maintenant c'est le maïs qui produit, avant peu ce sera le riz.",
+              "en": "Right now it is the maize that is producing, before long it will be the rice.",
+              "zh": "現在是玉米在結果，不久就輪到稻子了。"
+            }
+          ]
+        },
+        {
+          "form": "Mpaxei",
+          "fr": "deviendra fruit.",
+          "en": "will become fruit.",
+          "zh": "將結成果實。",
+          "examples": [
+            {
+              "t": "Nasi adi so slyeqon o, ida mpaxei ka dp'xpax kia",
+              "fr": "Si tu veux bien ne pas les abîmer, toutes ces fleurs là deviendront des fruits.",
+              "en": "If you kindly do not damage them, all those flowers will become fruits.",
+              "zh": "只要你別去糟蹋它們，那些花全都會結成果實。"
+            }
+          ]
+        },
+        {
+          "form": "Mpgxei",
+          "fr": "produira.",
+          "en": "will produce.",
+          "zh": "將生產（將結果）。",
+          "examples": [
+            {
+              "t": "Nasi npgxei bi ka payai ta da o, na niso bligun ...",
+              "fr": "",
+              "en": "",
+              "zh": ""
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

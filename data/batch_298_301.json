@@ -1,0 +1,768 @@
+{
+  "pages": [298, 301],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pnspgan",
+        "fr": "Dénombrement - recensement - compte (faits).",
+        "en": "Enumeration - census - count (of things done).",
+        "zh": "清點－普查－計數（事實）。",
+        "examples": [
+          {
+            "t": "Adi n'xdo ka pnspgan namo xxei daxa xo?",
+            "fr": "Avez vous fini de compter (votre recensement) combien de personnes ils sont ?",
+            "en": "Have you finished counting (your census) how many people they are?",
+            "zh": "你們清點完了嗎（你們的普查），他們有多少人？"
+          }
+        ]
+      },
+      {
+        "form": "Sspgan (Spspgan ?)",
+        "fr": "Pour servir de mesure ( abaque , mesure de grandeur ou de capacité).",
+        "en": "To serve as a measure (abacus, a measure of size or of capacity).",
+        "zh": "用作量度之工具（算盤、大小或容量的量度）。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SQAAN",
+      "tag": "(R. = SIQA)",
+      "crossRef": "SIQA",
+      "fr": "La honte qu'on a - moment de honte. VR. SIQA .",
+      "en": "The shame one feels - a moment of shame. See SIQA.",
+      "zh": "所感到的羞恥－羞愧的時刻。參見 SIQA。",
+      "examples": []
+    },
+    {
+      "hw": "SQAAN",
+      "tag": "(R. = ??)",
+      "fr": "Extinction de voix - avoir une extinction de voix - être enroué.",
+      "en": "Loss of voice - to have a loss of voice - to be hoarse.",
+      "zh": "失聲－聲音沙啞－嗓子啞了。",
+      "examples": [
+        {
+          "t": "Ga ko sqaan ka sayang; adi ko bi tdoa m'oyes (muyes)!",
+          "fr": "Je suis enroué en ce moment; je ne puis vraiment pas chanter.",
+          "en": "I am hoarse right now; I really cannot sing.",
+          "zh": "我現在嗓子啞了，實在不能唱歌。"
+        }
+      ]
+    },
+    {
+      "hw": "SQAMA",
+      "tag": "(= R. ? - R. = QAMA ?)",
+      "fr": "Brûler - prendre feu.",
+      "en": "To burn - to catch fire.",
+      "zh": "燃燒－著火。",
+      "examples": [
+        {
+          "t": "Ini xali sqama ka qouni miloq",
+          "fr": "Le bois vert (=le bois cru) ne brûle pas facilement !",
+          "en": "Green wood (= raw wood) does not burn easily!",
+          "zh": "青木（生木）不易燃燒！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msqama",
+          "fr": "Brûler - qui brûle - qui est brûlant.",
+          "en": "To burn - that which burns - that which is scorching hot.",
+          "zh": "燃燒－正在燃燒的－灼熱的。",
+          "paradigm": "Msqama, sqama, sqmai(sq'mai) sqmaan, sqmaon.",
+          "examples": [
+            {
+              "t": "Ya dii baga ka bangax! msqama balae!",
+              "fr": "Ne prends pas les braises (le charbon) dans tes mains Il est très brûlant.",
+              "en": "Do not take the embers (the charcoal) in your hands. It is very hot.",
+              "zh": "別用手拿炭火，它很燙！"
+            },
+            {
+              "t": "Klxangi bi ! Msqama balae ka ayang",
+              "fr": "Fais bien attention ! Le pétrole brûle facilement.",
+              "en": "Be very careful! Kerosene burns easily.",
+              "zh": "要非常小心！煤油很易燃。"
+            }
+          ]
+        },
+        {
+          "form": "Sqmaon",
+          "fr": "A brûler - qu'il faut brûler - brûler(futur).",
+          "en": "To be burned - what must be burned - to burn (future).",
+          "zh": "待燒的－必須燒掉的－將要燒（未來式）。",
+          "examples": [
+            {
+              "t": "Ongat blexan ka nii ! Sqmaon nanak",
+              "fr": "Cela n'a pas d'utilité; ce n'est qu'à brûler !",
+              "en": "This has no use; it is only fit to be burned!",
+              "zh": "這個沒有用處，只能燒掉！"
+            },
+            {
+              "t": "Ya usa xea! Sqmaon so kia",
+              "fr": "Ne va pas là ! Tu vas brûler (tu vas te brûler).",
+              "en": "Don't go there! You will burn (you'll burn yourself).",
+              "zh": "別去那裡！你會被燒到（你會燙傷自己）。"
+            },
+            {
+              "t": "Sqmaon so ka sapax daxa ?",
+              "fr": "Tu veux brûler leur maison?",
+              "en": "Do you want to burn their house?",
+              "zh": "你要燒他們的房子嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Snqmaan",
+          "fr": "Brûlure - ce qui a été brûlé.",
+          "en": "Burn - that which has been burned.",
+          "zh": "燒傷－被燒掉的東西。",
+          "examples": [
+            {
+              "t": "Ppatas mo nanak ka snqmaan so siida!",
+              "fr": "Ce sont mes livres (mes écrits, mes lettres) que tu as brûlés alors!",
+              "en": "So those were my books (my writings, my letters) that you burned!",
+              "zh": "你燒掉的原來是我的書（我的文稿、我的信件）！"
+            },
+            {
+              "t": "Ntaan so ka snqmaan baga na ?",
+              "fr": "Tu l'as vue la brûlure de sa main ?",
+              "en": "Did you see the burn on his hand?",
+              "zh": "你看到他手上的燒傷了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psqama",
+          "fr": "Faire brûler.",
+          "en": "To have (something) burned - to make burn.",
+          "zh": "使燃燒－叫人燒。",
+          "paradigm": "Mpsqama, psqama, psqmai, psqmaan , psqmaon.",
+          "examples": [
+            {
+              "t": "Qbiling kari na ka patas nii! Psqmai da!",
+              "fr": "Ce livre ne contient que des mensonges (les paroles de ce livre sont des mensonges) ! Fais le brûler !",
+              "en": "This book contains only lies (the words of this book are lies)! Have it burned!",
+              "zh": "這本書全是謊言（這本書的話都是謊言）！把它燒掉吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SQDO",
+      "tag": "(SQDO\") (R)",
+      "fr": "Dénoncer - accuser.",
+      "en": "To denounce - to accuse.",
+      "zh": "告發－控告、指控。",
+      "subs": [
+        {
+          "form": "Smqdo",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "paradigm": "Smqdo, sqdo, sqdgi, sqdgan, sqdgun.",
+          "examples": [
+            {
+              "t": "Manu ka saon so smqdo sadyaq ?",
+              "fr": "Qu'est-ce qui te prend d'aller accuser les autres?",
+              "en": "What gets into you, going off to accuse others?",
+              "zh": "你是怎麼回事，跑去指控別人？"
+            },
+            {
+              "t": "Nasi so msxaya do, na, sqdgun miso kia da!",
+              "fr": "Si tu agis ainsi, alors, je te dénoncerai (je t'accuserai).",
+              "en": "If you act like this, then I will denounce you (I will accuse you).",
+              "zh": "你要是這樣做，那我就告發你（我要控告你）。"
+            },
+            {
+              "t": "Ana sako sqdgun o, ini ko kiso!",
+              "fr": "Même si tu m'accuses, je n'ai pas peur.",
+              "en": "Even if you accuse me, I am not afraid.",
+              "zh": "即使你控告我，我也不怕。"
+            }
+          ]
+        },
+        {
+          "form": "Snqdgan",
+          "fr": "accusations portées.",
+          "en": "accusations brought (against someone).",
+          "zh": "所提出的指控。",
+          "examples": [
+            {
+              "t": "Ini so kbaxang kana snqdgan daxa xo?",
+              "fr": "Tu n'entends pas toutes les accusations qu'ils portent ?",
+              "en": "Don't you hear all the accusations they are bringing?",
+              "zh": "你沒聽見他們提出的種種指控嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psqdo",
+          "fr": "Faire accuser - faire dénoncer.",
+          "en": "To have (someone) accused - to have (someone) denounced.",
+          "zh": "使人被控告－叫人告發。",
+          "examples": [
+            {
+              "t": "Iso ka mnsa sapax songtyo ppsqdo knan",
+              "fr": "C'est toi qui es allé chez le maire pour me faire accuser.",
+              "en": "It is you who went to the mayor's house to have me accused.",
+              "zh": "是你去村長（鎮長）家要人控告我的。"
+            },
+            {
+              "t": "Iso bi nanak ka mnagwi (mn'gui) ni lmnglong so psqdo kingal sadyaq dole xo ? Tayal bi lumul so !",
+              "fr": "C'est toi en personne qui as volé et tu comptes faire (laisser) accuser quelqu'un d'autre ? Vraiment tu as de l'audace !",
+              "en": "It is you yourself who stole, and you intend to have someone else accused? You really have some nerve!",
+              "zh": "偷東西的正是你本人，你卻打算讓別人被控告？你真是大膽！"
+            }
+          ]
+        },
+        {
+          "form": "Ssqdo",
+          "fr": "Motif pour accuser - afin d'accuser.",
+          "en": "Grounds for accusing - in order to accuse.",
+          "zh": "控告的理由－為了控告。",
+          "examples": [
+            {
+              "t": "Ga namo stoq niin kingal snlaan (slaan ?) pusu ssqdo namo sao mpxoqel Txongan",
+              "fr": "Vous vous cassez la tête à chercher un fait qui pourrait servir de chef (de base) d'accusation et faire mourir Tirhong !",
+              "en": "You are racking your brains to find some fact that could serve as grounds (a basis) for an accusation and put Tirhong to death!",
+              "zh": "你們絞盡腦汁尋找一個可作為指控依據（罪名）的事實，好置 Tirhong 於死地！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SQET",
+      "tag": "(R)",
+      "fr": "Raccourcir - couper - couper court.",
+      "en": "To shorten - to cut - to cut short.",
+      "zh": "縮短－切、割－切短。",
+      "examples": [
+        {
+          "t": "Mnsa ko smqet ddima; ... Ini so sqet ka iso?",
+          "fr": "Je suis allé couper les bambous; Tu ne les coupes pas toi?",
+          "en": "I went to cut the bamboo; you're not cutting it yourself?",
+          "zh": "我去砍竹子了；你不砍嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smqet",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "paradigm": "Smqet, sqet, sqti, sqtan, sqtun.",
+          "examples": [
+            {
+              "t": "Smqet \"lu",
+              "fr": "couper la route = prendre un raccourci.",
+              "en": "to cut across the road = to take a shortcut.",
+              "zh": "抄近路＝走捷徑。"
+            },
+            {
+              "t": "Mxa nami snqet payai kana",
+              "fr": "Nous allons tous moissonner (couper) le riz.",
+              "en": "We are all going to harvest (cut) the rice.",
+              "zh": "我們大家都要去收割（割）稻子。"
+            },
+            {
+              "t": "Mniyax snqet ddima ni wada na sqtun baga na nanak ka Talan",
+              "fr": "Talanne est venu couper le riz et il n'a fait que se couper la main !",
+              "en": "Talan came to cut the rice and only ended up cutting his own hand!",
+              "zh": "Talan 來割稻子，結果只割傷了自己的手！"
+            },
+            {
+              "t": "Lmngao ka dludan do, ini ta tdoa xmut snqet kari",
+              "fr": "Quand les anciens parlent, nous n'avons pas le droit de leur couper grossièrement la parole!",
+              "en": "When the elders are speaking, we have no right to rudely cut them off (interrupt them)!",
+              "zh": "長輩說話時，我們無權粗魯地打斷他們！"
+            }
+          ]
+        },
+        {
+          "form": "Sqtan",
+          "fr": "Temps, lieu, manière, objet de la coupure.",
+          "en": "Time, place, manner, object of the cutting.",
+          "zh": "切割的時間、地點、方式、對象。",
+          "examples": [
+            {
+              "t": "Pida bi so sqtan ddima siida",
+              "fr": "Juste au moment où tu coupes (tu coupais) les bambous.",
+              "en": "Just at the moment when you cut (were cutting) the bamboo.",
+              "zh": "正當你砍竹子的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Psqet",
+          "fr": "Faire couper - faire raccourcir - faire interrompre.",
+          "en": "To have (something) cut - to have (it) shortened - to have (it) interrupted.",
+          "zh": "使人切割－使縮短－使中斷。",
+          "examples": [
+            {
+              "t": "Lmnglong ko psqet ddima mo saman",
+              "fr": "Je compte faire couper mes bambous demain.",
+              "en": "I intend to have my bamboo cut tomorrow.",
+              "zh": "我打算明天叫人砍我的竹子。"
+            },
+            {
+              "t": "Sao bi stqlal ka slngao so ni, adi so tdoa psqet tityex xo ?",
+              "fr": "Ce que dis est vraiment endormant! ne pourrais tu pas raccourcir un peu",
+              "en": "What you say is really sleep-inducing! couldn't you shorten it a bit",
+              "zh": "你說的話真令人昏昏欲睡！你不能稍微縮短一點嗎"
+            }
+          ]
+        },
+        {
+          "form": "Ssqet",
+          "fr": "Pour raccourcir - qui sert à raccourcir, à couper.",
+          "en": "For shortening - which serves to shorten, to cut.",
+          "zh": "用來縮短的－用以縮短、切割之物。",
+          "examples": [
+            {
+              "t": "Ssqet \"lu paro ka nii",
+              "fr": "C'est ici un raccourci (de la grande route).",
+              "en": "This here is a shortcut (off the main road).",
+              "zh": "這裡是一條捷徑（大路的近路）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SQLEQE",
+      "tag": "(Skleqe) (R. = LEQE)",
+      "crossRef": "LEQE",
+      "fr": "Se tordre - se faire une entorse. VR. LEQE .",
+      "en": "To twist (oneself) - to sprain oneself. See LEQE.",
+      "zh": "扭傷－扭到（腳等）。參見 LEQE。",
+      "examples": []
+    },
+    {
+      "hw": "SQ'MO",
+      "tag": "(R)",
+      "fr": "Maïs.",
+      "en": "Maize (corn).",
+      "zh": "玉米。",
+      "examples": [
+        {
+          "t": "Kingal pusu sq'mo o, betak daxa ni t'lo ka napa na (vl. ka xei na)",
+          "fr": "Un pied de maïs porte jusqu'à deux et trois épis.",
+          "en": "A single maize plant bears up to two or three ears.",
+          "zh": "一株玉米最多結兩、三個玉米穗。"
+        },
+        {
+          "t": "Nyeqan ngudus na ka napa nia ni loan ka balae bi xxei boax na",
+          "fr": "Ces épis ont de la barbe et c'est à l'intérieur qu'il y a son grain.",
+          "en": "These ears have silk (a beard), and it is inside that its grain is found.",
+          "zh": "這些玉米穗有鬚，穀粒就在裡面。"
+        }
+      ]
+    },
+    {
+      "hw": "SSIBAN",
+      "tag": "(R. = ??)",
+      "fr": "Sucer en aspirant - laper - objet de cette action - lieu temps, manière dont elle se fait.",
+      "en": "To suck by drawing in - to lap - the object of this action - place, time, manner in which it is done.",
+      "zh": "吸吮－舔食－此動作的對象－其進行的地點、時間、方式。",
+      "examples": []
+    },
+    {
+      "hw": "SSIK",
+      "tag": "(R)",
+      "fr": "Balai - acte de balayer.",
+      "en": "Broom - the act of sweeping.",
+      "zh": "掃帚－掃地的動作。",
+      "examples": [
+        {
+          "t": "Snalu so manu ka ssik so ? Tayal knnalu ka snsikan na!",
+          "fr": "En quelle matière as tu fabriqué ton balai? C'est merveilleux comme il balaye bien !",
+          "en": "What material did you make your broom from? It's marvelous how well it sweeps!",
+          "zh": "你的掃帚是用什麼材料做的？它掃得真好，真了不起！"
+        },
+        {
+          "t": "Usa kmsiyuk ssik daxa sssik so sapax",
+          "fr": "Va donc emprunter leur balai pour balayer la maison.",
+          "en": "Go and borrow their broom to sweep the house.",
+          "zh": "去借他們的掃帚來掃房子吧。"
+        },
+        {
+          "t": "Ssik n'xali da !",
+          "fr": "Dépêche toi donc de balayer!",
+          "en": "Hurry up and sweep, then!",
+          "zh": "那就快點掃吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smsik",
+          "fr": "Balayer.",
+          "en": "To sweep.",
+          "zh": "掃地。",
+          "paradigm": "Smsik, ssik, ssiki, ssikan, ssikun.",
+          "examples": [
+            {
+              "t": "Ndoa bi smsik kana ka xlpasan; yaxan daxa ng'li kia",
+              "fr": "Tâche de bien balayer toute la cour; ils vont bientôt y venir danser.",
+              "en": "Try to sweep the whole courtyard well; they will soon come to dance here.",
+              "zh": "要好好把整個院子掃乾淨；他們快要來這裡跳舞了。"
+            },
+            {
+              "t": "Ssikun mo kia ka sapax spoxan",
+              "fr": "Je balayerai plus tard l'infirmerie",
+              "en": "I will sweep the infirmary later.",
+              "zh": "我待會兒會掃醫務室（診療所）。"
+            }
+          ]
+        },
+        {
+          "form": "Mssik",
+          "fr": "Balayeur - celui qui est occupé à balayer.",
+          "en": "Sweeper - the one who is busy sweeping.",
+          "zh": "掃地的人－正在掃地的人。",
+          "examples": [
+            {
+              "t": "Miti ka mssik sapax mo sayang",
+              "fr": "C'est Mitchi qui balaye ma chambre en ce moment .",
+              "en": "It is Mitchi who is sweeping my room right now.",
+              "zh": "現在是 Miti 在掃我的房間。"
+            }
+          ]
+        },
+        {
+          "form": "Ssikan",
+          "fr": "Balayage - balayures - lieu , temps où l'on balaye.",
+          "en": "Sweeping - sweepings - the place, time where/when one sweeps.",
+          "zh": "掃地－掃出的垃圾－掃地的地點、時間。",
+          "examples": [
+            {
+              "t": "Ssikan mo kana! Malu bi ssikan mo!",
+              "fr": "C'est moi qui balaye tout! Je balaye très bien , moi !",
+              "en": "It is I who sweeps everything! I sweep very well, I do!",
+              "zh": "全都是我掃的！我掃得非常好呢！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "STAMA",
+      "tag": "(R. = TAMA ?)",
+      "fr": "Se reposer sur - compter sur.",
+      "en": "To rely on - to count on.",
+      "zh": "依靠－指望、依賴。",
+      "examples": [
+        {
+          "t": "Ini ko bi stama ana mman ka yako",
+          "fr": "Moi, je ne compte sur personne !",
+          "en": "As for me, I count on no one!",
+          "zh": "我啊，誰也不依靠！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smtana",
+          "fr": "d° forme verbale.",
+          "en": "ditto, verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "paradigm": "Smtana , stana, stmai (?), stmaan, stmaon.",
+          "examples": [
+            {
+              "t": "Bobo ! Smtana ko sunan ! Ya ko bi sx'ngii!",
+              "fr": "Maman ! Je compte sur toi (j'ai confiance en toi)! Ne m'oublie pas!",
+              "en": "Mama! I count on you (I trust you)! Don't forget me!",
+              "zh": "媽媽！我依靠你（我信任你）！別忘了我！"
+            }
+          ]
+        },
+        {
+          "form": "Mstama",
+          "fr": "Celui qui s'en remet aux autres - qui compte sur - qui s'appuie sur.",
+          "en": "One who leaves things to others - who counts on - who leans on.",
+          "zh": "凡事依賴他人的人－指望別人的人－倚靠別人的人。",
+          "examples": [
+            {
+              "t": "Soqe bi mstama ka laqe mo!",
+              "fr": "Mon fils attend trop du tout cuit (= compte trop sur les autres - ne prend pas d'initiatives).",
+              "en": "My son waits too much for everything to be handed to him (= relies too much on others - takes no initiative).",
+              "zh": "我兒子太等著坐享其成（＝太依賴別人－毫無主動）。"
+            },
+            {
+              "t": "Iyax n'xali dole, Bal! Xbalao bi ka mstama sunan!",
+              "fr": "Reviens vite, Sibal ! Il-ya beaucoup de monde qui compte sur toi !",
+              "en": "Come back quickly, Sibal! There are many people who count on you!",
+              "zh": "快回來，Sibal！有很多人指望著你呢！"
+            }
+          ]
+        },
+        {
+          "form": "Stmaan",
+          "fr": "Appui - espérance - le fait de s'appuyer sur - ce sur quoi l'on s'appuie.",
+          "en": "Support - hope - the act of leaning on - that on which one leans.",
+          "zh": "支柱－盼望－倚靠的行為－所倚靠之物。",
+          "examples": [
+            {
+              "t": "Kmusa ka kmusa ko o, ongat stmaan no da!",
+              "fr": "Je voudrais bien aller (pour désirer aller, je le désire) mais je n'ai plus d'espoir (= sur qui compter, sur qui m'appuyer).",
+              "en": "I would very much like to go (as for wanting to go, I do want to) but I no longer have any hope (= no one to count on, no one to lean on).",
+              "zh": "我很想去（要說想去，我是想去的），可是我再也沒有指望了（＝沒有可依靠、可指望的人）。"
+            },
+            {
+              "t": "Ongat ka stmaan no da!",
+              "fr": "Mon espoir (mon appui) s'est envolé.",
+              "en": "My hope (my support) has flown away.",
+              "zh": "我的盼望（我的依靠）已經飛走了。"
+            },
+            {
+              "t": "Mxoqel tana no do, ongat stmaan no da",
+              "fr": "Quand mon père mourra (= mon père mort), je n'ai plus de soutien !",
+              "en": "When my father dies (= my father dead), I will have no more support!",
+              "zh": "等我父親去世（＝父親一死），我就再也沒有依靠了！"
+            }
+          ]
+        },
+        {
+          "form": "Stmaon",
+          "fr": "Celui sur qui l'on s'appuie - mari - maître - responsable.",
+          "en": "The one on whom one leans - husband - master - the one in charge.",
+          "zh": "所倚靠的人－丈夫－主人－負責人。",
+          "examples": [
+            {
+              "t": "Ma\" ko sao sgaalu bi ! Ongat ka stmaon no da",
+              "fr": "Comme je suis à plaindre! Voilà que mon mari n'est plus !",
+              "en": "How pitiable I am! Now my husband is no more!",
+              "zh": "我多麼可憐！我的丈夫已經不在了！"
+            },
+            {
+              "t": "Yamo kana dnqpax (dnq'pax) o, ima ka stmaon namo ?",
+              "fr": "Vous tous les travailleurs: Qui est votre responsable (votre chef)?",
+              "en": "All you workers: who is the one in charge of you (your boss)?",
+              "zh": "你們所有工人：誰是你們的負責人（你們的頭兒）？"
+            },
+            {
+              "t": "Stmaon ta Jes Cristo",
+              "fr": "Notre Seigneur Jésus-Christ (cath.).",
+              "en": "Our Lord Jesus Christ (Catholic usage).",
+              "zh": "我們的主耶穌基督（天主教用語）。"
+            }
+          ]
+        },
+        {
+          "form": "Sntmaan",
+          "fr": "Appui - espérance - le fait de s'appuyer sur (dans le passé).",
+          "en": "Support - hope - the act of having leaned on (in the past).",
+          "zh": "支柱－盼望－（過去）曾倚靠之事。",
+          "examples": [
+            {
+              "t": "Wada ongat pax suxal ka sntmaan no",
+              "fr": "Il y a belle lurette que j'ai perdu celui (celle) en qui je mettais toute ma confiance !",
+              "en": "It's been ages since I lost the one in whom I placed all my trust!",
+              "zh": "我失去我全心信賴的那個人（他／她）已經很久了！"
+            }
+          ]
+        },
+        {
+          "form": "Knstmaan",
+          "fr": "Confiance - foi - espérance (adopté dans le langage chrétien)",
+          "en": "Trust - faith - hope (adopted into Christian language).",
+          "zh": "信任－信仰－盼望（基督教用語所採用）。",
+          "examples": [
+            {
+              "t": "Mqalas ko bi mita kxaya ka knstmaan so ludan",
+              "fr": "Je suis heureux de voir que tu as une telle (qu'elle est telle) confiance dans tes parents",
+              "en": "I am happy to see that you have such trust in your parents",
+              "zh": "我很高興看到你對你的父母（親人）有如此的信任"
+            }
+          ]
+        },
+        {
+          "form": "Kntnaan (R. = STAMA ? - = TAMA ?)",
+          "fr": "Foi - confiance ( Ce terme pourrait être une variante de KNSTMAAN ? - ou bien un dérivé direct de TAMA suggérant une relation confiante de fils à père ?)",
+          "en": "Faith - trust (This term could be a variant of KNSTMAAN? - or else a direct derivative of TAMA, suggesting a trusting relationship of son to father?)",
+          "zh": "信仰－信任（此詞可能是 KNSTMAAN 的變體？－或是直接由 TAMA 衍生而來，暗示兒子對父親的信賴關係？）",
+          "examples": []
+        },
+        {
+          "form": "Pstana",
+          "fr": "Faire mettre sa confiance en - faire s'appuyer sur.",
+          "en": "To make (someone) place their trust in - to make (someone) lean on.",
+          "zh": "使人信賴於－使人倚靠。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "STA\"TO",
+      "tag": "(ST\"TO ?) (R)",
+      "fr": "En pente - en montée.",
+      "en": "On a slope - on an incline (uphill).",
+      "zh": "斜坡上－上坡。",
+      "examples": [
+        {
+          "t": "Sta\"to n'xali ni, lngagi bi boan: Miyax ko sayang nsa ka tana,ksa!",
+          "fr": "Grimpe vite là haut et dis bien à la maman: Je viens tout de suite,dit le papa,dis lui. (= Papa a dit de te dire qu'il vient tout de suite).",
+          "en": "Climb up quickly there and tell mama clearly: I'm coming right away, said papa, tell her. (= Papa said to tell you that he's coming right away).",
+          "zh": "快爬到上面去，好好告訴媽媽：爸爸說我馬上就來，你這樣告訴她。（＝爸爸叫你轉告他馬上就來。）"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Snta\"to (smt\"to)",
+          "fr": "Monter - escalader.",
+          "en": "To go up - to climb.",
+          "zh": "上去－攀登。",
+          "paradigm": "Snta\"to, sta\"to , sttui, sttuan (sttoan), sttuun.",
+          "examples": [
+            {
+              "t": "Snta\"to ko musa tagaxan ka sayang",
+              "fr": "En ce moment je monte pour aller à Tagarhanne.",
+              "en": "Right now I am going up to go to Tagarhanne.",
+              "zh": "我現在正上去，要去 Tagarhanne。"
+            },
+            {
+              "t": "Snta\"to ko dgiyaq sndurai",
+              "fr": "J'ai dernièrement grimpé la montagne (je suis allé dernièrement sur la montagne).",
+              "en": "I recently climbed the mountain (I recently went up on the mountain).",
+              "zh": "我最近爬了那座山（我最近上山去了）。"
+            },
+            {
+              "t": "Sttuun mo dgiyaq paro ka yako ole",
+              "fr": "Moi aussi je veux escalader la grande montagne.",
+              "en": "I too want to climb the great mountain.",
+              "zh": "我也想攀登那座大山。"
+            }
+          ]
+        },
+        {
+          "form": "Msta\"to",
+          "fr": "Qui est en montée, en pente - qui est entrain de monter.",
+          "en": "That which is on an incline, on a slope - that which is going up.",
+          "zh": "位於上坡、斜坡上的－正在往上爬的。",
+          "examples": []
+        },
+        {
+          "form": "Knsttoan (knsttuan)",
+          "fr": "La montée - la pente.",
+          "en": "The climb - the slope.",
+          "zh": "上坡－斜坡。",
+          "examples": [
+            {
+              "t": "Kntl'xan (kntl'çan) ka ksugun no balae, uxai knsttoan!",
+              "fr": "C'est la chaleur que je crains vraiment et non pas la pente !",
+              "en": "It is the heat that I really fear, and not the slope!",
+              "zh": "我真正怕的是炎熱，而不是那斜坡！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ST'LONG",
+      "tag": "(R)",
+      "fr": "Rencontrer - épouser.",
+      "en": "To meet - to marry.",
+      "zh": "相遇－結婚、娶。",
+      "subs": [
+        {
+          "form": "Mst'long",
+          "fr": "Rencontrer - épouser.",
+          "en": "To meet - to marry.",
+          "zh": "相遇－結婚。",
+          "paradigm": "Mst'long, st'long, stl'ngi, stl'ngan, stl'ngun.",
+          "examples": [
+            {
+              "t": "Ga mst'long sayang ka Mikat ni Ingai",
+              "fr": "Micatz et Ingai se marient aujourd'hui.",
+              "en": "Micatz and Ingai are getting married today.",
+              "zh": "Mikat 和 Ingai 今天結婚。"
+            },
+            {
+              "t": "Mnst'long nami yami Diyan muda \"lu ska'man",
+              "fr": "Djian et moi nous nous sommes rencontrés sur la route hier soir.",
+              "en": "Djian and I met each other on the road last night.",
+              "zh": "Diyan 和我昨晚在路上相遇了。"
+            },
+            {
+              "t": "Snt'long ko na \"lu ka Diyan",
+              "fr": "Djian m'a rencontré sur la route.",
+              "en": "Djian met me on the road.",
+              "zh": "Diyan 在路上遇見了我。"
+            },
+            {
+              "t": "Mst'long daya sapax so ka l\"lu nami",
+              "fr": "Nos routes se rencontrent (s'unissent - se croisent) plus haut que ta maison.",
+              "en": "Our roads meet (join - cross) higher up than your house.",
+              "zh": "我們的路在你家上方交會（相接－交叉）。"
+            }
+          ]
+        },
+        {
+          "form": "Stl'ngan",
+          "fr": "Rencontre - mariage (lieu de .. temps de..)",
+          "en": "Meeting - marriage (place of.. time of..).",
+          "zh": "相遇－婚姻（……的地點……的時間）。",
+          "examples": [
+            {
+              "t": "Malu bi stl'ngan ka diyax siida",
+              "fr": "Ce jour là ce sera une belle occasion (une occasion facile) de se rencontrer.",
+              "en": "That day will be a fine occasion (an easy occasion) to meet.",
+              "zh": "那一天將是相聚的好機會（難得的機會）。"
+            },
+            {
+              "t": "Stl'ngan \"lu",
+              "fr": "Croisement de routes.",
+              "en": "Crossroads.",
+              "zh": "路的交會處（十字路口）。"
+            },
+            {
+              "t": "St'long ta sntl'ngan \"lu daya",
+              "fr": "Rencontrons nous à la croisée des routes là haut.",
+              "en": "Let's meet at the crossroads up there.",
+              "zh": "我們在上面的路口見面吧。"
+            }
+          ]
+        },
+        {
+          "form": "Pst'long",
+          "fr": "Faire rencontrer - faire épouser - marier.",
+          "en": "To bring together - to have (someone) marry - to marry off.",
+          "zh": "使相遇－使成婚－為……主婚（嫁娶）。",
+          "examples": [
+            {
+              "t": "Ya otoç ka pnst'long tnan siida",
+              "fr": "Cela doit être l'Esprit (vl. le hasard, la chance) qui nous a fait nous rencontrer à ce moment là !",
+              "en": "It must be the Spirit (var. chance, luck) that made us meet at that moment!",
+              "zh": "一定是神靈（或：偶然、運氣）讓我們在那一刻相遇的！"
+            },
+            {
+              "t": "Xkawas ka pstl'ngun mo laqe",
+              "fr": "C'est l'an prochain que je marierai mon fils.",
+              "en": "It is next year that I will marry off my son.",
+              "zh": "我明年要為我兒子娶親。"
+            }
+          ]
+        },
+        {
+          "form": "Msst'long",
+          "fr": "se rencontrer mutuellement.",
+          "en": "to meet one another (mutually).",
+          "zh": "彼此相遇、互相見面。",
+          "examples": [
+            {
+              "t": "Knta\"to msst'long ka dxea",
+              "fr": "Ils se rencontrent à tout bout de champ (= Ils cherchent mutuellement à se rencontrer).",
+              "en": "They run into each other at every turn (= they seek each other out to meet).",
+              "zh": "他們動不動就碰面（＝他們互相尋求見面）。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

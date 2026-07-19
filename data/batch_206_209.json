@@ -1,0 +1,810 @@
+{
+  "pages": [206, 209],
+  "leadin": {
+    "fr": "…tu avais des dents (où tes dents existaient) !",
+    "en": "…you had teeth (where your teeth existed)!",
+    "zh": "……你有牙齒（你的牙齒存在的地方）！",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Pnyeq",
+        "paradigm": "° Mpnyeq, pnyeq, pnyeqe, pnyeqan, pnyeqon.",
+        "fr": "Faire rester - faire exister.",
+        "en": "To make stay - to make exist.",
+        "zh": "使留下－使存在。",
+        "examples": [
+          {
+            "t": "Adi so pnyeqon xeni ka tatat xeuling Lixang xo?",
+            "fr": "Est ce tu ne veux pas (tu ne dois pas) laisser ici les chiots de Lirhang ?",
+            "en": "Don't you want (mustn't you) leave Lirhang's puppies here?",
+            "zh": "你不想（你不該）把里桑（Lirhang）的小狗留在這裡嗎？"
+          },
+          {
+            "t": "Ida mo pnyeqon ka pusu kmpaxan",
+            "fr": "De toute façon je veux conserver le terrain (le champ).",
+            "en": "In any case I want to keep the land (the field).",
+            "zh": "無論如何我都想保留這塊地（田地）。"
+          },
+          {
+            "t": "Kmpnyeqan mo bi lqlaqe ka sapax so",
+            "fr": "Ta maison est l'endroit où je suis heureux de faire habiter mes enfants.",
+            "en": "Your house is the place where I am happy to have my children live.",
+            "zh": "你的房子是我樂於讓我的孩子居住的地方。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "N'XALI",
+      "tag": "( = R. ?)",
+      "fr": "Vite - en vitesse.",
+      "en": "Quickly - in a hurry.",
+      "zh": "快－迅速地。",
+      "examples": [
+        {
+          "t": "Iyax n'xali, msa ko",
+          "fr": "Je te dis de venir tout de suite ( Je te dis: Vien vite!) !",
+          "en": "I'm telling you to come at once (I'm telling you: Come quickly!)!",
+          "zh": "我叫你馬上過來（我對你說：快來！）！"
+        }
+      ]
+    },
+    {
+      "hw": "O",
+      "tag": "",
+      "fr": "Particule emphatique, très fréquente, suivant le groupe sujet pour le mettre en évidence, toujours suivie d'un arrêt de la voix très clairement marqué; elle a souvent le sens du français; Quant à - à propos de - s'il s'agit de.",
+      "en": "Emphatic particle, very frequent, following the subject group to highlight it, always followed by a very clearly marked pause of the voice; it often has the French sense: As for - concerning - when it comes to.",
+      "zh": "強調助詞，非常常見，置於主語組之後以加強語氣，其後總是伴隨非常清楚的停頓；常帶有法語的意思：至於－關於－說到。",
+      "examples": [
+        {
+          "t": "Yako o, mk'la (vl. mk'la ko)",
+          "fr": "Pour ce qui me regarde, je sais.",
+          "en": "As for me, I know.",
+          "zh": "至於我，我知道。"
+        },
+        {
+          "t": "Yako o, tama",
+          "fr": "Quant à moi, je suis le père .",
+          "en": "As for me, I am the father.",
+          "zh": "至於我，我是父親。"
+        },
+        {
+          "t": "Musa lmigao o, asi ka pila",
+          "fr": "(Pour) aller se promener, il faut de l'argent.",
+          "en": "(In order) to go for a walk, one needs money.",
+          "zh": "（為了）去散步，需要錢。"
+        },
+        {
+          "t": "Mtaqe ta o, ini ptooqo sadyaq (ini ta ptooqo sadyaq)",
+          "fr": "En dormant, nous n'offensons pas les gens.",
+          "en": "While sleeping, we do not offend people.",
+          "zh": "睡覺時，我們不會冒犯別人。"
+        }
+      ]
+    },
+    {
+      "hw": "OBOX",
+      "tag": "( = R. ?)",
+      "crossRef": "VR. MOBOX",
+      "fr": "Le jouer de l'harmonica - souffler dans.",
+      "en": "Playing the harmonica - to blow into.",
+      "zh": "吹口琴－吹奏。",
+      "examples": []
+    },
+    {
+      "hw": "ODOX",
+      "tag": "(R)",
+      "fr": "Griller - cuire sur la braise. - se griller, cuire sur la braise.",
+      "en": "To grill - to cook over embers. - to be grilled, to cook over embers.",
+      "zh": "燒烤－在炭火上烹煮。－被烤、在炭火上烹煮。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Modox",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Imnglong ko modox bonga ooqonta ka'man kia",
+              "fr": "Je pense cuire des patates douces pour notre dîner de ce soir.",
+              "en": "I'm thinking of grilling sweet potatoes for our dinner tonight.",
+              "zh": "我想烤些地瓜作為我們今晚的晚餐。"
+            },
+            {
+              "t": "Tgai tityex (taga tityex)! Ga modox sayang ka bonga da",
+              "fr": "Attends un peu! Les patates douces vont être cuites à l'instant. ( MODOX , et beaucoup d'autres constructions du même type (!), effectivement très usitées dans un sens actif (ici: griller, cuire), peuvent (doivent ?) être employées dans un sens réfléchi: Se griller, se cuire à la braise; la base affixée:PK'ODOX est transitive = Faire griller, ou réfléchie: se faire griller).",
+              "en": "Wait a little! The sweet potatoes will be cooked in a moment. (MODOX, and many other constructions of the same type (!), effectively very much used in an active sense (here: to grill, to cook), can (should?) be used in a reflexive sense: to grill oneself, to cook oneself over the embers; the affixed base PK'ODOX is transitive = to make grill, or reflexive: to have oneself grilled).",
+              "zh": "等一下！地瓜馬上就會烤好。（MODOX，以及許多其他同類型的結構（！），實際上非常常用於主動意義（此處：燒烤、烹煮），也可（應該？）用於反身意義：把自己烤、在炭火上把自己煮熟；帶詞綴的詞基 PK'ODOX 是及物的＝使燒烤，或反身：使自己被烤）。"
+            }
+          ]
+        },
+        {
+          "form": "Kodox",
+          "fr": "Forme négative de MODOX.",
+          "en": "Negative form of MODOX.",
+          "zh": "MODOX 的否定形。",
+          "examples": [
+            {
+              "t": "Ima msa modox! ini kodox ka siyam!",
+              "fr": "Qui a dit que c'est grillé ? elle n'est pas grillée,la viande !",
+              "en": "Who said it's grilled? The meat isn't grilled!",
+              "zh": "誰說烤好了？肉還沒烤熟呢！"
+            }
+          ]
+        },
+        {
+          "form": "Doxon",
+          "fr": "A griller - qui doit être grillé.",
+          "en": "To be grilled - which must be grilled.",
+          "zh": "要烤的－該被烤的。",
+          "examples": [
+            {
+              "t": "Uxai tyusun ka xei samat nii, doxon !",
+              "fr": "Cette viande de gibier n'est pas à rôtir! elle est à griller.",
+              "en": "This game meat is not to be roasted! It is to be grilled.",
+              "zh": "這塊野味不是拿來炙烤的！是要拿來燒烤的。"
+            },
+            {
+              "t": "Adi so doxon ka xei siyam xo ?",
+              "fr": "Est ce que tu ne veux pas griller (est ce qu'elle n'est pas à griller) la viande de cochon ? (?)",
+              "en": "Don't you want to grill (isn't it to be grilled) the pork? (?)",
+              "zh": "你不想烤（難道不是要烤）豬肉嗎？（？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "OLE",
+      "tag": "",
+      "fr": "Aussi . (particule invariable).",
+      "en": "Also / too. (invariable particle).",
+      "zh": "也。（不變助詞）。",
+      "examples": [
+        {
+          "t": "Mqan so ole",
+          "fr": "Tu manges aussi ?",
+          "en": "You eat too?",
+          "zh": "你也吃嗎？"
+        },
+        {
+          "t": "Iso ole?",
+          "fr": "Toi aussi ?",
+          "en": "You too?",
+          "zh": "你也是嗎？"
+        },
+        {
+          "t": "Yako ole",
+          "fr": "Moi aussi.",
+          "en": "Me too.",
+          "zh": "我也是。"
+        }
+      ]
+    },
+    {
+      "hw": "OLO",
+      "tag": "",
+      "crossRef": "VR. POLO",
+      "fr": "(Serait ce la R. de MOLO - POLO = imiter, faire imiter).",
+      "en": "(Could this be the root of MOLO - POLO = to imitate, to make imitate).",
+      "zh": "（這會是 MOLO－POLO 的詞根嗎＝模仿、使模仿）。",
+      "examples": []
+    },
+    {
+      "hw": "OLONG",
+      "tag": "(R)",
+      "fr": "Corne.",
+      "en": "Horn.",
+      "zh": "角。",
+      "examples": [
+        {
+          "t": "Olong kating",
+          "fr": "Corne de buffle.",
+          "en": "Buffalo horn.",
+          "zh": "水牛角。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "M'olong",
+          "fr": "Donner des coups de corne.",
+          "en": "To gore - to butt with the horns.",
+          "zh": "用角頂撞。",
+          "examples": [
+            {
+              "t": "Klxangi bi! mk'la bi m'olong ka kating daxa",
+              "fr": "Sois sur tes gardes! Leur buffle est capable de donner des coups de corne !",
+              "en": "Be on your guard! Their buffalo is capable of goring with its horns!",
+              "zh": "小心提防！他們的水牛會用角頂人！"
+            }
+          ]
+        },
+        {
+          "form": "Molong",
+          "fr": "(Sans doute R. qui n'est pas dérivée de OLONG) = Faire serment. VR. MOLONG.",
+          "en": "(Doubtless a root not derived from OLONG) = To make an oath. See MOLONG.",
+          "zh": "（無疑是不衍生自 OLONG 的詞根）＝發誓。參見 MOLONG。",
+          "examples": [
+            {
+              "t": "Molong kari",
+              "fr": "Jurer par serment.",
+              "en": "To swear an oath.",
+              "zh": "立誓發誓。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ON",
+      "tag": "",
+      "fr": "(vl. UN) = Suffixe très productif conférant à la base affixée un sens de futur et un sens d'obligation; les dérivés qu'il produit fonctionnent nominalement (ON et UN ne sont que des variations positionnelles du même affixe). 1) Désigne un futur nécessaire, voulu, certain. 2) Désigne la dimension future dans l'intention d'une action passée.",
+      "en": "(var. UN) = A very productive suffix conferring on the affixed base a sense of future and a sense of obligation; the derivatives it produces function nominally (ON and UN are only positional variants of the same affix). 1) Denotes a necessary, willed, certain future. 2) Denotes the future dimension in the intention of a past action.",
+      "zh": "（或：UN）＝非常能產的後綴，賦予帶詞綴的詞基一種未來與義務的意義；其所產生的衍生形以名詞方式運作（ON 與 UN 只是同一詞綴的位置變體）。1) 表示必然、意願、確定的未來。2) 表示過去動作意圖中的未來面向。",
+      "examples": [
+        {
+          "t": "Saon mo mangal ka laqe",
+          "fr": "Je veux aller, je dois aller, j'irai certainement prendre l'enfant.",
+          "en": "I want to go, I must go, I will certainly go to fetch the child.",
+          "zh": "我想去、我必須去、我一定會去接那孩子。"
+        },
+        {
+          "t": "Wada mo pxqelun ka Iboq",
+          "fr": "a) Je l'ai tué,Iboq (il a été pour moi celui que je devais tuer). b) Iboq est devenu pour moi celui que je dois (veux) tuer.",
+          "en": "a) I killed him, Iboq (he was for me the one I had to kill). b) Iboq became for me the one I must (want to) kill.",
+          "zh": "a) 我殺了他，伊博（Iboq）（他對我而言是我該殺的那個人）。b) 伊博成了我必須（想要）殺的那個人。"
+        },
+        {
+          "t": "Ima ka byeqon so?",
+          "fr": "A qui donneras tu ?",
+          "en": "To whom will you give?",
+          "zh": "你要給誰？"
+        },
+        {
+          "t": "Manu ka byeqon so?",
+          "fr": "Que donneras tu ?",
+          "en": "What will you give?",
+          "zh": "你要給什麼？"
+        },
+        {
+          "t": "Knuan ka byeqon so?",
+          "fr": "Quand donneras tu ?",
+          "en": "When will you give?",
+          "zh": "你什麼時候要給？"
+        }
+      ]
+    },
+    {
+      "hw": "ONGAT",
+      "tag": "(R)",
+      "fr": "Négation signifiant: Ne pas exister - ne pas être. ( Il est tentant de considérer comme fonctionnant nominalement tout élément nié par ONGAT, même quand les apparences sont contraires : … Suivant le contexte, cette négation est porteuse de nombreuses nuances que l'usage seul peut faire percevoir; en voici quelques unes:",
+      "en": "Negation meaning: To not exist - to not be. (It is tempting to consider as functioning nominally every element negated by ONGAT, even when appearances suggest the contrary: … Depending on the context, this negation carries numerous nuances that only usage can reveal; here are a few of them:",
+      "zh": "否定詞，意為：不存在－不是。（凡被 ONGAT 否定的成分，即使表面看來相反，也很容易被視為以名詞方式運作：……視語境而定，這個否定詞承載著許多唯有透過使用才能體會的細微差別；以下舉幾例：",
+      "examples": [
+        {
+          "t": "Ongat smalu sapax ka sayang",
+          "fr": "En ce moment il n'y a pas de construire des maisons (où: SMALU est une forme verbale active); est ce une autre forme, erronée (!), de: Ongat ka smalu sapax ka sayang (?) = Il n'y en a pas qui construisent des maisons aujourd'hui.",
+          "en": "At the moment there is no building of houses (where: SMALU is an active verbal form); is it another form, erroneous (!), of: Ongat ka smalu sapax ka sayang (?) = There is no one who builds houses today.",
+          "zh": "目前沒有蓋房子這回事（其中：SMALU 是主動動詞形）；這是否是另一個錯誤（！）的形式：Ongat ka smalu sapax ka sayang (?) ＝今天沒有人在蓋房子。"
+        },
+        {
+          "t": "Wada ongat ka tama mo",
+          "fr": "Mon père est mort (il est devenu non existant).",
+          "en": "My father is dead (he has become non-existent).",
+          "zh": "我父親去世了（他變得不存在了）。"
+        },
+        {
+          "t": "Wada ko ongat tama",
+          "fr": "Je suis devenu orphelin.",
+          "en": "I have become an orphan.",
+          "zh": "我成了孤兒。"
+        },
+        {
+          "t": "Wada ongat tama mo da",
+          "fr": "J'ai perdu mon père.",
+          "en": "I have lost my father.",
+          "zh": "我失去了父親。"
+        },
+        {
+          "t": "Ongat pila mo",
+          "fr": "Je n'ai pas d'argent.",
+          "en": "I have no money.",
+          "zh": "我沒有錢。"
+        },
+        {
+          "t": "Ongat pila mo da",
+          "fr": "Je n'ai plus d'argent.",
+          "en": "I have no more money.",
+          "zh": "我沒有錢了。"
+        },
+        {
+          "t": "Ongat ka pila mo da",
+          "fr": "J'ai perdu mon argent (on me l'a volé).",
+          "en": "I have lost my money (it was stolen from me).",
+          "zh": "我把錢弄丟了（被人偷了）。"
+        },
+        {
+          "t": "Ongat ko pila",
+          "fr": "Je suis sans argent.",
+          "en": "I am without money.",
+          "zh": "我身無分文。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ngat",
+          "fr": "Contraction très fréquente de ONGAT.",
+          "en": "Very frequent contraction of ONGAT.",
+          "zh": "ONGAT 非常常見的縮略形。",
+          "examples": [
+            {
+              "t": "Nyeqan pila so? ... Ngat",
+              "fr": "Tu as de l'argent ? ... Je n'en ai pas !",
+              "en": "Do you have money? ... I don't have any!",
+              "zh": "你有錢嗎？……我沒有！"
+            }
+          ]
+        },
+        {
+          "form": "Mk'ongat",
+          "fr": "Disparaître - s'user - devenir inexistant.",
+          "en": "To disappear - to wear out - to become non-existent.",
+          "zh": "消失－耗盡－變得不存在。",
+          "examples": [
+            {
+              "t": "Ini biyao mk'ongat kana ka wawaq",
+              "fr": "Très vite toute la viande disparaît !",
+              "en": "Very quickly all the meat disappears!",
+              "zh": "所有的肉很快就消失了！"
+            }
+          ]
+        },
+        {
+          "form": "Mpk'ongat",
+          "fr": "Disparaîtra - n'existera plus.",
+          "en": "Will disappear - will no longer exist.",
+          "zh": "將會消失－將不再存在。",
+          "examples": [
+            {
+              "t": "Adi biyao mpk'ongat kana ka wawaq",
+              "fr": "Avant peu toute la viande aura disparu.",
+              "en": "Before long all the meat will have disappeared.",
+              "zh": "不久所有的肉都將消失。"
+            }
+          ]
+        },
+        {
+          "form": "Kn'ongat",
+          "fr": "Intensité d'absence, de manque.",
+          "en": "Intensity of absence, of lack.",
+          "zh": "缺乏、匱乏的程度。",
+          "examples": [
+            {
+              "t": "Msklui ko mita kn'ongat oqon so",
+              "fr": "Je suis surpris de voir combien tu manques de nourriture !",
+              "en": "I'm surprised to see how much you lack food!",
+              "zh": "我很驚訝看到你多麼缺乏食物！"
+            }
+          ]
+        },
+        {
+          "form": "Pk'ongat",
+          "paradigm": "°Mpk'ongat, pk'ongat pkngati, pkngatan, pkngatun.",
+          "fr": "Annihiler - détruire - faire disparaître.",
+          "en": "To annihilate - to destroy - to make disappear.",
+          "zh": "殲滅－摧毀－使消失。",
+          "examples": [
+            {
+              "t": "Manu bi ka yaxan so pk'ongat kana ka pnssli mo pax suxal",
+              "fr": "Qu'est ce qui te prend de venir anéantir tout ce que j'ai ramassé depuis autrefois ?",
+              "en": "What has got into you to come and annihilate everything I have gathered since long ago?",
+              "zh": "你是怎麼了，竟來摧毀我從以前累積的一切？"
+            },
+            {
+              "t": "Nasi so motoç o, na , pkngatun mo kana ka pila so",
+              "fr": "Si tu fais le fou, alors je détruirai tout ton argent.",
+              "en": "If you act the fool, then I will destroy all your money.",
+              "zh": "如果你耍瘋，那我就把你的錢全毀了。"
+            }
+          ]
+        },
+        {
+          "form": "Spk'ongat",
+          "fr": "Pour détruire - pour faire disparaître.",
+          "en": "In order to destroy - in order to make disappear.",
+          "zh": "用來摧毀－用來使消失。",
+          "examples": [
+            {
+              "t": "Ngalun so manu spk'ongat so syudo kmpaxan?",
+              "fr": "De quoi te sers tu pour détruire toute la mauvaise herbe des champs?",
+              "en": "What do you use to destroy all the weeds in the fields?",
+              "zh": "你用什麼來清除田裡所有的雜草？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "ONOç",
+      "tag": "(R)",
+      "fr": "Sein - tétine - pis - mamelle.",
+      "en": "Breast - teat - udder - mammary gland.",
+      "zh": "乳房－乳頭－（動物的）乳房－乳腺。",
+      "examples": [
+        {
+          "t": "Paro bi onoç na ka kating mo",
+          "fr": "Ma bufflonne a une grosse tétine.",
+          "en": "My buffalo cow has a big teat.",
+          "zh": "我的母水牛有很大的乳房。"
+        },
+        {
+          "t": "Biyoq onoç",
+          "fr": "Jus de sein = lait.",
+          "en": "Juice of the breast = milk.",
+          "zh": "乳房的汁液＝奶。"
+        },
+        {
+          "t": "ga msbiyoq ka onoç na",
+          "fr": "Sa mamelle laisse couler son lait.",
+          "en": "Her breast lets its milk flow.",
+          "zh": "她的乳房流出奶水。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Monoç",
+          "paradigm": "°Monoç, onoç, noxe, noxan, noxon.",
+          "fr": "Téter - sucer le sein.",
+          "en": "To suckle - to suck the breast.",
+          "zh": "吸奶－吸吮乳房。",
+          "examples": [
+            {
+              "t": "Baka bi noxan",
+              "fr": "Il est temps de prendre le sein.",
+              "en": "It's time to take the breast.",
+              "zh": "該吸奶了。"
+            },
+            {
+              "t": "Baga na bi ka noxan na (ka) laqe mo",
+              "fr": "c'est sa propre main que suce (tète) mon enfant.",
+              "en": "it's his own hand that my child sucks (nurses on).",
+              "zh": "我的孩子吸吮（吸）的是他自己的手。"
+            }
+          ]
+        },
+        {
+          "form": "Noxon",
+          "fr": "Ce qu'on veut, doit téter.",
+          "en": "What one wants, must suckle.",
+          "zh": "想吸、該吸的（乳房）。",
+          "examples": [
+            {
+              "t": "Ilil ? nalat ? Ga ino ka noxon laqe so?",
+              "fr": "Le sein de gauche? celui de droite? c'est lequel que ton enfant aime prendre ? (doit prendre ?).",
+              "en": "The left breast? the right one? which is the one your child likes to take? (must take?).",
+              "zh": "左邊的乳房？還是右邊的？你的孩子喜歡吸哪一邊？（該吸哪一邊？）。"
+            }
+          ]
+        },
+        {
+          "form": "Nnoxan",
+          "fr": "Ce qui a été tété - temps, lieu de prendre le sein.",
+          "en": "What has been suckled - the time, place of taking the breast.",
+          "zh": "曾被吸吮的－吸奶的時間、地點。",
+          "examples": [
+            {
+              "t": "Mblaeq bi ka nnoxan so suxal",
+              "fr": "Elle a de la chance celle qui t'a allaité (celle dont tu as pris le sein) dans le temps !",
+              "en": "She is lucky, the one who nursed you (the one whose breast you took) back in the day!",
+              "zh": "當年餵你奶的那位（你吸過她乳房的那位）真有福氣！"
+            }
+          ]
+        },
+        {
+          "form": "Mp'onoç",
+          "fr": "Celle qui donne le sein.",
+          "en": "The one who gives the breast.",
+          "zh": "餵奶的（女性）。",
+          "examples": []
+        },
+        {
+          "form": "Ponox",
+          "paradigm": "°Mponox, ponox, pnoxe, pnoxan, pnoxon.",
+          "fr": "(Ponoç) = Donner le sein - faire téter - donner à allaiter.",
+          "en": "(Ponoç) = To give the breast - to make suckle - to nurse.",
+          "zh": "（Ponoç）＝餵奶－使吸奶－哺乳。",
+          "examples": [
+            {
+              "t": "Bsiyaq bi ka ini na pnoxe laqe da",
+              "fr": "Il y a bien longtemps qu'elle ne donne plus le sein à l'enfant.",
+              "en": "It's been a long time since she stopped giving the breast to the child.",
+              "zh": "她已經很久沒有給孩子餵奶了。"
+            }
+          ]
+        },
+        {
+          "form": "Nonoç",
+          "fr": "(Ne vient sans doute pas de la R. ONOç) = Figue.",
+          "en": "(Doubtless does not come from the root ONOç) = Fig.",
+          "zh": "（無疑不是來自詞根 ONOç）＝無花果。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "OTAS",
+      "tag": "(R)",
+      "fr": "Pennis - membre viril.",
+      "en": "Penis - male member.",
+      "zh": "陰莖－男性生殖器。",
+      "examples": []
+    },
+    {
+      "hw": "OTOç",
+      "tag": "(R)",
+      "fr": "Esprit - revenant - chance.",
+      "en": "Spirit - ghost - luck.",
+      "zh": "靈－亡靈（鬼魂）－運氣。",
+      "examples": [
+        {
+          "t": "Malu otoç",
+          "fr": "Bonne chance.",
+          "en": "Good luck.",
+          "zh": "好運。"
+        },
+        {
+          "t": "Otoç malu",
+          "fr": "esprit bon.",
+          "en": "good spirit.",
+          "zh": "好的靈。"
+        },
+        {
+          "t": "Otoç naqex",
+          "fr": "Esprit mauvais.",
+          "en": "evil spirit.",
+          "zh": "惡靈。"
+        },
+        {
+          "t": "Naqex otoç",
+          "fr": "Mauvaise chance - malchance.",
+          "en": "Bad luck - misfortune.",
+          "zh": "壞運－厄運。"
+        },
+        {
+          "t": "Otoç baga",
+          "fr": "pouls (esprit de la main !).",
+          "en": "pulse (spirit of the hand!).",
+          "zh": "脈搏（手的靈！）。"
+        },
+        {
+          "t": "Otoç balao",
+          "fr": "L'Esprit d'en haut.",
+          "en": "The Spirit on high.",
+          "zh": "在上的靈。"
+        },
+        {
+          "t": "Otoç tnpusu",
+          "fr": "Esprit originel.",
+          "en": "Original Spirit.",
+          "zh": "本源之靈。"
+        },
+        {
+          "t": "Otoç mtinun",
+          "fr": "Esprit créateur (tisserand).",
+          "en": "Creator Spirit (weaver).",
+          "zh": "創造之靈（織者）。"
+        },
+        {
+          "t": "Mtinun otoç",
+          "fr": "Crée par l'Esprit.",
+          "en": "Created by the Spirit.",
+          "zh": "由靈所造。"
+        },
+        {
+          "t": "Xakao otoç",
+          "fr": "Arc-en-ciel (Pont de l'esprit).",
+          "en": "Rainbow (Bridge of the spirit).",
+          "zh": "彩虹（靈之橋）。"
+        },
+        {
+          "t": "Ma\" moai otoç!",
+          "fr": "ça alors! C'est un don de l'esprit!",
+          "en": "Well then! It's a gift of the spirit!",
+          "zh": "哎呀！這是靈的恩賜！"
+        },
+        {
+          "t": "Ma\" otoç",
+          "fr": "Dis! mais.. tu es (il est) formidable !",
+          "en": "Say! but.. you are (he is) amazing!",
+          "zh": "喂！不過……你（他）真了不起！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "N'otoç",
+          "fr": "Devenir esprit - se transformer en revenant.",
+          "en": "To become a spirit - to turn into a ghost.",
+          "zh": "變成靈－化為亡靈。",
+          "examples": []
+        },
+        {
+          "form": "Motoç",
+          "fr": "(De la R. Otoç ?) = Esprit dérangé - extravaguant - fou.",
+          "en": "(From the root Otoç ?) = Disturbed spirit - extravagant - mad.",
+          "zh": "（來自詞根 Otoç？）＝錯亂的靈－怪誕的－瘋狂的。",
+          "examples": [
+            {
+              "t": "Motoç kana ka ssadyaq ! Ini bi daxa lnglong ddaon",
+              "fr": "Ils sont tous fous les hommes! Il ne soucient pas de l'avenir! (= ils ne se soucient pas ..)",
+              "en": "They are all mad, these people! They don't care about the future! (= they don't care..)",
+              "zh": "這些人全都瘋了！他們不為未來著想！（＝他們毫不在意……）"
+            }
+          ]
+        },
+        {
+          "form": "P'otoç",
+          "paradigm": "°Mp'otoç , p'otoç, ptuxi, ptuxan, ptuxun.",
+          "fr": "Faire tourner en bourrique - tromper - mystifier.",
+          "en": "To make a fool of - to deceive - to mystify.",
+          "zh": "把人耍得團團轉－欺騙－愚弄。",
+          "examples": [
+            {
+              "t": "Ga so mp'otoç knan da! Pusu bi lmqdo k'i iso",
+              "fr": "Tu es en train de me mystifier! Tu es un vrai menteur !",
+              "en": "You're pulling my leg! You are a real liar!",
+              "zh": "你在耍我！你真是個大騙子！"
+            }
+          ]
+        },
+        {
+          "form": "Paotoç",
+          "fr": "Tromper - mystifier (dans le futur).",
+          "en": "To deceive - to mystify (in the future).",
+          "zh": "欺騙－愚弄（未來式）。",
+          "examples": [
+            {
+              "t": "Mngangax so muda ppaotoç sadyaq",
+              "fr": "Tu es un gros benêt d'aller te faire tourner en bourrique par les gens !",
+              "en": "You are a big fool to go and let people make a fool of you!",
+              "zh": "你真是個大傻瓜，竟去讓人把你耍得團團轉！"
+            },
+            {
+              "t": "Kawai so! ida so patuxun sadyaq",
+              "fr": "Tu va voir ! Tu vas certainement te faire avoir par eux !",
+              "en": "You'll see! You will certainly get taken in by them!",
+              "zh": "你等著瞧！你一定會被他們騙！"
+            }
+          ]
+        },
+        {
+          "form": "Pntuxan",
+          "fr": "Pièges - tromperies - tentations.",
+          "en": "Traps - deceptions - temptations.",
+          "zh": "陷阱－詭計－誘惑。",
+          "examples": [
+            {
+              "t": "Klxangi aadi so bi tdiyal pntuxan daxa",
+              "fr": "Sois bien sur tes gardes pour ne pas te laisser prendre dans leurs pièges.",
+              "en": "Be well on your guard so as not to let yourself be caught in their traps.",
+              "zh": "務必小心提防，別讓自己落入他們的陷阱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "OYES",
+      "tag": "(R)",
+      "fr": "(OYAS ?) = Chant - le fait de chanter.",
+      "en": "(OYAS ?) = Song - the act of singing.",
+      "zh": "（OYAS？）＝歌－唱歌這件事。",
+      "examples": [
+        {
+          "t": "Malu bi bxangan ka ooyes namo",
+          "fr": "Vos chants sont très beaux (à entendre).",
+          "en": "Your songs are very beautiful (to hear).",
+          "zh": "你們的歌很美（動聽）。"
+        },
+        {
+          "t": "Oyes ima bi nii?",
+          "fr": "De qui est il donc ce chant ?",
+          "en": "Whose song is this, then?",
+          "zh": "這首歌到底是誰的？"
+        },
+        {
+          "t": "Oyes pn\"lu",
+          "fr": "chant de route.",
+          "en": "traveling song.",
+          "zh": "路途之歌。"
+        },
+        {
+          "t": "Oyes mkl\"lu",
+          "fr": "Chant pendant la marche (psaumes ..).",
+          "en": "Song during the march (psalms ..).",
+          "zh": "行進中的歌（讚美詩……）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Muyes",
+          "paradigm": "°Muyes, oyes, pyasi, pyasan, pyasun.",
+          "fr": "(muyas) = Chanter.",
+          "en": "(muyas) = To sing.",
+          "zh": "（muyas）＝唱歌。",
+          "examples": [
+            {
+              "t": "Balae xo ? ki do (= kia do), pyasi binao",
+              "fr": "C'est vrai ? Alors! Chante un peu !",
+              "en": "Is it true? Well then! Sing a little!",
+              "zh": "真的嗎？那麼！唱一下吧！"
+            },
+            {
+              "t": "Smkuxul ko muyes oyes nkuxul",
+              "fr": "J'aime beaucoup chanter des chants d'amour.",
+              "en": "I love to sing love songs.",
+              "zh": "我很喜歡唱情歌。"
+            }
+          ]
+        },
+        {
+          "form": "Mpuyes",
+          "fr": "(Mp'oyes ?) = Chanteur - celui qui chante.",
+          "en": "(Mp'oyes ?) = Singer - the one who sings.",
+          "zh": "（Mp'oyes？）＝歌者－唱歌的人。",
+          "examples": [
+            {
+              "t": "Tloong xeni ka yamo dmpuyes",
+              "fr": "Vous les chanteurs, venez vous asseoir ici.",
+              "en": "You singers, come sit here.",
+              "zh": "你們這些歌者，來這裡坐。"
+            }
+          ]
+        },
+        {
+          "form": "Ppuyes",
+          "paradigm": "°Mppuyes, ppuyes, ppyasi, ppyasan, ppyasun.",
+          "fr": "Faire chanter - conduire un chant.",
+          "en": "To make sing - to lead a song.",
+          "zh": "使唱歌－領唱。",
+          "examples": [
+            {
+              "t": "Nasi so kuxul o, Ppyasun mo lqlaqe ka'man kia",
+              "fr": "Si cela te fait plaisir, je ferai chanter les enfants ce soir.",
+              "en": "If it pleases you, I'll have the children sing this evening.",
+              "zh": "如果你高興，我今晚會讓孩子們唱歌。"
+            },
+            {
+              "t": "Ppyasi ka Mikat xo",
+              "fr": "Fais voir chanter Micatz,(s'il te plait.)veux tu ?",
+              "en": "Have Micatz sing, (please,) will you?",
+              "zh": "讓米卡茲（Micatz）唱唱看，（拜託，）好嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pyasan",
+          "fr": "Temps, lieu, objet du chanter.",
+          "en": "Time, place, object of singing.",
+          "zh": "唱歌的時間、地點、對象。",
+          "examples": [
+            {
+              "t": "Xana bi plading ka pyasan daxa",
+              "fr": "Leur séance de chant vient à peine de commencer.",
+              "en": "Their singing session has only just begun.",
+              "zh": "他們的歌唱聚會才剛開始。"
+            },
+            {
+              "t": "Bsiyaq bi ka pnyasan daxa ska'man",
+              "fr": "Hier soir leur séance de chant a duré longtemps",
+              "en": "Last night their singing session lasted a long time",
+              "zh": "昨晚他們的歌唱聚會持續了很久"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

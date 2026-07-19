@@ -1,0 +1,742 @@
+{
+  "pages": [62, 65],
+  "leadin": null,
+  "entries": [
+    {
+      "hw": "DALING",
+      "tag": "(R)",
+      "fr": "Proche (un peu même sens que DALEX).",
+      "en": "Near (somewhat the same meaning as DALEX).",
+      "zh": "近的（意思與 DALEX 略同）。",
+      "examples": [
+        {
+          "t": "Manu ka ksugun so? Usa nanak; daling bi ka ulae",
+          "fr": "Qu'est ce qui te fait peur? Va seulement! Les sources chaudes sont tout proches.",
+          "en": "What are you afraid of? Just go! The hot springs are quite close.",
+          "zh": "你怕什麼？儘管去吧！溫泉就在附近。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdaling",
+          "fr": "Qui est proche, peu éloigné.",
+          "en": "That is near, not far away.",
+          "zh": "近的、不遠的。",
+          "examples": [
+            {
+              "t": "Sapax Laokeng ni sapax Taolan, mdaling bi ka sapax Laokeng",
+              "fr": "La maison de Laoken est plus proche que celle de Taolan (La maison de Laoken et la maison de Taolan, la maison de Laoken est proche).",
+              "en": "Laoken's house is closer than Taolan's (Laoken's house and Taolan's house — Laoken's house is near).",
+              "zh": "Laoken 的房子比 Taolan 的近（Laoken 的房子和 Taolan 的房子，Laoken 的房子近）。"
+            }
+          ]
+        },
+        {
+          "form": "Msdaling",
+          "fr": "qui se rapproche.",
+          "en": "that is drawing near.",
+          "zh": "正在接近的。",
+          "examples": [
+            {
+              "t": "Mxada ka oqon do, ga msdaling ka misan ole da.",
+              "fr": "Quand la moisson est mûre, c'est que l'hiver n'est pas loin.",
+              "en": "When the harvest is ripe, winter is not far off.",
+              "zh": "莊稼成熟時，冬天就不遠了。"
+            },
+            {
+              "t": "diyax diyax ida msdaling ka diyax xqelan",
+              "fr": "De jour en jour le moment de mourir approche.",
+              "en": "Day by day the moment of death draws nearer.",
+              "zh": "死期一天天逼近。"
+            },
+            {
+              "t": "Miyax ko sm(?) sunan",
+              "fr": "Je viens me rapprocher de toi.",
+              "en": "I am coming to draw near to you.",
+              "zh": "我來親近你。"
+            }
+          ]
+        },
+        {
+          "form": "Pdaling",
+          "fr": "Rendre plus proche.",
+          "en": "To bring nearer.",
+          "zh": "使更靠近。",
+          "examples": [
+            {
+              "t": "Pida bi pdaling alang Morisaka ka dxea",
+              "fr": "Juste au moment où ils approchaient de Morisaka.",
+              "en": "Just as they were approaching Morisaka.",
+              "zh": "正當他們接近 Morisaka 的時候。"
+            }
+          ]
+        },
+        {
+          "form": "Psdaling",
+          "fr": "Approcher (actif).",
+          "en": "To bring near (active).",
+          "zh": "使靠近（主動）。",
+          "examples": [
+            {
+              "t": "Dyagi ko psdaling tityex xei samat",
+              "fr": "Passe moi un peu (aide moi à approcher un peu) le plat de gibier.",
+              "en": "Pass me (help me bring a little closer) the dish of game.",
+              "zh": "把那盤野味遞給我一點（幫我拿近一點）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAMAT",
+      "tag": "(R)",
+      "fr": "Mets - condiments - légumes - tout ce qui dans la nourriture sert à accompagner la base de l'alimentation (Millet, patates, riz..) comme: viandes, légumes, sauces, bouillons..",
+      "en": "Dishes — condiments — vegetables — everything in the food that serves to accompany the staple of the diet (millet, sweet potatoes, rice..), such as: meats, vegetables, sauces, broths..",
+      "zh": "菜餚——佐料——蔬菜——飲食中用來搭配主食（小米、番薯、米飯……）的一切，如：肉類、蔬菜、醬汁、湯……",
+      "examples": [
+        {
+          "t": "Ongat xali damat ka sapax txoko",
+          "fr": "Les maisons taroko ne sont pas riches en mets.",
+          "en": "Taroko households are not rich in dishes.",
+          "zh": "太魯閣人家的菜餚並不豐富。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Dmamat",
+          "paradigm": "° dmamat, damat, dmati, dmatan, dmatun.",
+          "fr": "Servir (actif) comme condiment.",
+          "en": "To serve (active) as a condiment.",
+          "zh": "（主動）當作佐料端上。",
+          "examples": [
+            {
+              "t": "Dmatun mo kia ka tbuel nii",
+              "fr": "Ces concombres vont me servir de légumes.",
+              "en": "These cucumbers will serve me as vegetables.",
+              "zh": "這些黃瓜可以給我當菜。"
+            }
+          ]
+        },
+        {
+          "form": "Madamat",
+          "fr": "Va devenir condiment.",
+          "en": "Will become a condiment.",
+          "zh": "將成為佐料。",
+          "examples": [
+            {
+              "t": "Ya qdani ka ilaq nia, masuyang bi damat ka kia",
+              "fr": "Ne jette pas ses tripes, elles vont faire un très bon plat (condiment).",
+              "en": "Don't throw away its entrails, they will make a very good dish (condiment).",
+              "zh": "別把牠的內臟丟掉，那會是一道很好的菜（佐料）。"
+            }
+          ]
+        },
+        {
+          "form": "Mdamat",
+          "fr": "Celui qui prépare les plats, les mets.",
+          "en": "The one who prepares the dishes, the food.",
+          "zh": "備菜、做菜的人。",
+          "examples": []
+        },
+        {
+          "form": "Dmatun",
+          "fr": "Ce qui sera employé comme légumes, condiment.",
+          "en": "What will be used as vegetables, as condiment.",
+          "zh": "將被用作蔬菜、佐料的東西。",
+          "examples": [
+            {
+              "t": "Dmatun mo saman ka ksoloç",
+              "fr": "Je les servirai demain les poissons.",
+              "en": "I will serve them tomorrow, the fish.",
+              "zh": "我明天就把那些魚端上來當菜。"
+            },
+            {
+              "t": "Dmatun mo ksoloç ka saman",
+              "fr": "Demain est le jour où je servirai du poisson.",
+              "en": "Tomorrow is the day I will serve fish.",
+              "zh": "明天就是我端魚上桌的日子。"
+            }
+          ]
+        },
+        {
+          "form": "Pdamat",
+          "fr": "Faire préparer comme condiment - faire servir.",
+          "en": "To have (something) prepared as a condiment — to have (it) served.",
+          "zh": "使人準備作佐料——使人端上。",
+          "examples": [
+            {
+              "t": "Pdmati koyox so saman ka \"baon so",
+              "fr": "Fais la servir par ta femme demain ta citrouille.",
+              "en": "Have your wife serve your pumpkin tomorrow.",
+              "zh": "明天讓你妻子把你的南瓜端上來。"
+            },
+            {
+              "t": "Ya manu bi ka pdmatun so saman ?",
+              "fr": "Qu'est ce que cela peut bien être ce que tu vas nous servir demain ?",
+              "en": "What on earth can it be that you are going to serve us tomorrow?",
+              "zh": "你明天到底要端什麼給我們吃呢？"
+            }
+          ]
+        },
+        {
+          "form": "Kmpdamat",
+          "fr": "Désirer servir comme plat.",
+          "en": "To want to serve as a dish.",
+          "zh": "想要當作菜端上。",
+          "examples": [
+            {
+              "t": "Kmpdamat ko bi trabus",
+              "fr": "J'ai bien envie de faire servir des a rachides comme condiment.",
+              "en": "I really want to have peanuts served as a condiment.",
+              "zh": "我很想讓人把花生當佐料端上來。"
+            }
+          ]
+        },
+        {
+          "form": "Kdamat",
+          "fr": "Saluer. (R. = DAMAT ? - = KDAMAT ? vr. KDAMAT). (nb. Si le mot: KDAMAT ne dérive pas de DAMAT, on n'éviterait pas l'ambiguïté dans certains cas; par ex. § Kmdamat ko bi sunan = 1) Je te salue; 2) Je voudrais bien t'offrir quelques bons plats. Il est possible que la forme taroko pour saluer ait consisté dans l'offrande de nourriture. De toute façon, voir: KDAMAT et dérivés).",
+          "en": "To greet. (R. = DAMAT? — = KDAMAT? see KDAMAT). (n.b. If the word KDAMAT does not derive from DAMAT, ambiguity would be unavoidable in certain cases; e.g. § Kmdamat ko bi sunan = 1) I greet you; 2) I would very much like to offer you some good dishes. It is possible that the Taroko way of greeting consisted in an offering of food. In any case, see: KDAMAT and its derivatives).",
+          "zh": "問候、打招呼。（詞根＝DAMAT？——＝KDAMAT？參見 KDAMAT）。（註：若 KDAMAT 一詞並非源自 DAMAT，某些情況下便難免歧義；例如 § Kmdamat ko bi sunan＝1）我向你問候；2）我很想請你吃幾道好菜。太魯閣人的問候方式可能原本就是以食物相贈。無論如何，參見 KDAMAT 及其衍生詞。）",
+          "examples": []
+        },
+        {
+          "form": "Kndmatan",
+          "fr": "Salutation (de R. KDAMAT) - Qualité d'accueil par l'offrande de mets (de R. DAMAT).",
+          "en": "Greeting (from R. KDAMAT) — quality of hospitality shown by the offering of dishes (from R. DAMAT).",
+          "zh": "問候（源自詞根 KDAMAT）——以菜餚款待客人的待客之道（源自詞根 DAMAT）。",
+          "examples": []
+        },
+        {
+          "form": "Sdamat",
+          "fr": "( = R.? - R. = DAMAT ?). = Emouvant - triste - nostalgique. (nb. Et ici aussi il peut y avoir amphibologie dans certains cas si le mot: SDAMAT ne vient pas de la racine DAMAT ! § Sndamat nami = 1) nous sommes émus. 2) Nous nous disputons à propos de mets !°).",
+          "en": "( = R.? — R. = DAMAT?). = Moving — sad — nostalgic. (n.b. And here too there can be ambiguity in certain cases if the word SDAMAT does not come from the root DAMAT! § Sndamat nami = 1) we are moved. 2) We are quarrelling about food!).",
+          "zh": "（＝詞根？——詞根＝DAMAT？）。＝動人的——悲傷的——令人懷念的。（註：如果 SDAMAT 一詞並非源自詞根 DAMAT，這裡某些情況下同樣可能產生歧義！§ Sndamat nami＝1）我們很感動。2）我們正為了菜餚而爭吵！）",
+          "examples": []
+        },
+        {
+          "form": "Sndamat",
+          "fr": "Avoir un different à propos de mets.",
+          "en": "To have a quarrel about food.",
+          "zh": "為菜餚起爭執。",
+          "examples": [
+            {
+              "t": "Manu bi ka llawa daxa? ... Adi ! Msndamat ka dxea",
+              "fr": "Qu'est ce qu'ils ont à se disputer ?... Ce n'est rien (d'autre que): C'est à propos de plats !",
+              "en": "What are they quarrelling about?... It is nothing (other than): it is about dishes!",
+              "zh": "他們到底在吵什麼？……沒什麼別的：是為了菜餚！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAMU",
+      "tag": "",
+      "crossRef": "LAMU",
+      "fr": "( = R.? - variante de R. LAMU ?)",
+      "en": "( = R.? — variant of R. LAMU?)",
+      "zh": "（＝詞根？——詞根 LAMU 之變體？）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "DAMUX",
+      "tag": "(R)",
+      "fr": "Le fait de couvrir.",
+      "en": "The act of covering (roofing).",
+      "zh": "覆蓋（蓋屋頂）之事。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmamux",
+          "paradigm": "°Dmamux, damux, dmuxi, dmuxan, dmuxun.",
+          "fr": "Couvrir - mettre un toit.",
+          "en": "To cover — to put on a roof.",
+          "zh": "覆蓋——蓋屋頂。",
+          "examples": [
+            {
+              "t": "Mnsa dmamux sapax Wilang kana ka dsnao",
+              "fr": "Tous nos hommes sont partis couvrir la maison de Ouilang.",
+              "en": "All our men have gone to roof Ouilang's house.",
+              "zh": "我們的男人都去給 Ouilang 的房子蓋屋頂了。"
+            }
+          ]
+        },
+        {
+          "form": "Dnamux",
+          "fr": "Toit - ce qui a été couvert.",
+          "en": "Roof — that which has been covered.",
+          "zh": "屋頂——被覆蓋之物。",
+          "examples": [
+            {
+              "t": "Xmbui kana ka dnamux sapax so",
+              "fr": "Le toit de ta maison coule de partout.",
+              "en": "The roof of your house leaks everywhere.",
+              "zh": "你家的屋頂到處漏水。"
+            },
+            {
+              "t": "Dnamux ima ka sapax so ?",
+              "fr": "Qui est ce qui a couvert ta maison ?",
+              "en": "Who is it that roofed your house?",
+              "zh": "你的房子是誰蓋的屋頂？"
+            }
+          ]
+        },
+        {
+          "form": "Mdamux",
+          "fr": "Celui qui couvre.",
+          "en": "The one who roofs.",
+          "zh": "蓋屋頂的人。",
+          "examples": [
+            {
+              "t": "Ongat diyax ka Awi; mdamux sapax ka xea!",
+              "fr": "Aoui n'a pas le temps, C'est l'un de ceux qui font le toit, lui!",
+              "en": "Aoui has no time — he is one of those doing the roof!",
+              "zh": "Aoui 沒有空，他正是蓋屋頂的人之一！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DANGA",
+      "tag": "(R)",
+      "fr": "Le fait de nourrir, d'alimenter, d'entretenir (pour les personnes seulement).",
+      "en": "The act of feeding, nourishing, providing for (for persons only).",
+      "zh": "養育、餵養、扶養之事（僅用於人）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmanga",
+          "paradigm": "°Dmanga, danga, dngai, dngaan, dngaon.",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Ga mbiyax bi dmanga kana lqlaqe nia",
+              "fr": "Il est très occupé à élever (nourrir) tous ses enfants.",
+              "en": "He is very busy raising (feeding) all his children.",
+              "zh": "他忙著養育（餵養）他所有的孩子。"
+            }
+          ]
+        },
+        {
+          "form": "Mdanga",
+          "fr": "Celui qui nourrit, entretient, élève quelqu'un.",
+          "en": "The one who feeds, supports, raises someone.",
+          "zh": "養育、扶養、撫養他人的人。",
+          "examples": [
+            {
+              "t": "Kmpusa ko bi ptasan ka Timin mo.. ongat ka mdanga xeaan xeni, nyeqan ka (mpdanga) ptasan xea",
+              "fr": "J'aimerais bien envoyer ma Tchiminne à l'école..Il n'y a personne pour s'occuper d'elle (la nourrir) ici, (et) il y en a à l'école.",
+              "en": "I would very much like to send my Tchiminne to school.. There is no one to look after her (feed her) here, (and) there is someone at the school.",
+              "zh": "我很想送我的 Tchiminne 去上學……這裡沒有人照顧（餵養）她，而學校裡有。"
+            }
+          ]
+        },
+        {
+          "form": "Dngaan",
+          "fr": "Lieu, temps, manière de nourrir - celui qu'on élève.",
+          "en": "Place, time, manner of feeding — the one who is being raised.",
+          "zh": "養育的地點、時間、方式——被撫養的人。",
+          "examples": [
+            {
+              "t": "Pida bi dngaan so laqe sida",
+              "fr": "Juste au moment où tu nourrissais ton enfant.",
+              "en": "Just when you were feeding your child.",
+              "zh": "正當你餵孩子的時候。"
+            },
+            {
+              "t": "Ndnngaan so laqe o, pia ka ga mudus? ... Maspat da dnngaan mo laqe ni, ndnngaan mo o, lima ka ga mudus",
+              "fr": "J'ai élevé Huit enfants et de ceux que j'ai élevé, cinq sont vivants.",
+              "en": "I have raised eight children, and of those I raised, five are living.",
+              "zh": "我養了八個孩子，我養大的孩子中，五個還在世。"
+            }
+          ]
+        },
+        {
+          "form": "Kndngaan",
+          "fr": "La manière d'élever, de nourrir.",
+          "en": "The way of raising, of feeding.",
+          "zh": "養育、餵養的方式。",
+          "examples": [
+            {
+              "t": "Suyang bi kndngaan na laqe ka Micat",
+              "fr": "Micat a vraiment le chic pour élever les enfants.",
+              "en": "Micat really has a knack for raising children.",
+              "zh": "Micat 真有一套養育孩子的本事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DANGI",
+      "tag": "(R)",
+      "fr": "(sy. DAWIN - L'PONG) = Ami - le promis - la promise.",
+      "en": "(syn. DAWIN — L'PONG) = Friend — the betrothed (man) — the betrothed (woman).",
+      "zh": "（同義詞：DAWIN——L'PONG）＝朋友——未婚夫——未婚妻。",
+      "examples": [
+        {
+          "t": "Mxa so ino dangi ?",
+          "fr": "Où vas tu, l'ami ?",
+          "en": "Where are you going, friend?",
+          "zh": "朋友，你要去哪裡？"
+        },
+        {
+          "t": "Nii ka dangi laqe mo",
+          "fr": "Voici la fiancée de mon fils (le fiancé de ma fille).",
+          "en": "Here is my son's fiancée (my daughter's fiancé).",
+          "zh": "這是我兒子的未婚妻（我女兒的未婚夫）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msdangi",
+          "fr": "Se fréquenter - se lier d'amitié - se fiancer.",
+          "en": "To keep company — to become friends — to get engaged.",
+          "zh": "交往——結為朋友——訂婚。",
+          "examples": [
+            {
+              "t": "Msdangi sayang ka Mikat et Ingai",
+              "fr": "Micats et Ingaï se fiancent aujourd'hui.",
+              "en": "Micat and Ingaï are getting engaged today.",
+              "zh": "Micat 和 Ingaï 今天訂婚。"
+            }
+          ]
+        },
+        {
+          "form": "Sndngiyan",
+          "fr": "Le temps (passé) des fiançailles.",
+          "en": "The (past) time of the engagement.",
+          "zh": "（過去）訂婚的時候。",
+          "examples": [
+            {
+              "t": "Wada pia xnkawas pax sndngiyan Opiç so?",
+              "fr": "Il y a combien d'années que ton (fils..frère.. ami) Opish s'est fiancé ?",
+              "en": "How many years is it since your (son.. brother.. friend) Opish got engaged?",
+              "zh": "你的（兒子……兄弟……朋友）Opish 訂婚已經幾年了？"
+            }
+          ]
+        },
+        {
+          "form": "Psdangi",
+          "fr": "Faire devenir amis - provoquer des fiançailles.",
+          "en": "To make (people) become friends — to bring about an engagement.",
+          "zh": "使結為朋友——促成訂婚。",
+          "examples": [
+            {
+              "t": "Xoya mo ksun psdangi dxeaan?",
+              "fr": "Comment veux tu que je fasse pour qu'ils se fiancent ?",
+              "en": "How do you expect me to get them engaged?",
+              "zh": "你要我怎麼做才能讓他們訂婚？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAO",
+      "tag": "(R)",
+      "fr": "Cacher - garder secret - secret.",
+      "en": "To hide — to keep secret — secret.",
+      "zh": "隱藏——保守祕密——祕密。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Dmao",
+          "fr": "Cacher - garder secret.",
+          "en": "To hide — to keep secret.",
+          "zh": "隱藏——保守祕密。",
+          "examples": [
+            {
+              "t": "Ida bi so splang dmao ka dndoma nlnglongan so",
+              "fr": "Il est bien possible que tu caches volontairement quelques une de tes pensées (certaines choses qui sont dans ta pensée).",
+              "en": "It is quite possible that you are deliberately hiding some of your thoughts (certain things that are in your mind).",
+              "zh": "你很可能故意隱瞞了你的一些想法（心裡的某些事）。"
+            }
+          ]
+        },
+        {
+          "form": "Mdao",
+          "fr": "Qui cache = qui garde secret.",
+          "en": "Who hides = who keeps secrets.",
+          "zh": "隱藏者＝守密者。",
+          "examples": [
+            {
+              "t": "Mdao bi ka sadyaq nii, ini tana lngagi ana manu",
+              "fr": "Elle est cachottière cette personne, elle ne veut rien nous dire.",
+              "en": "This person is secretive; she will not tell us anything.",
+              "zh": "這個人很會藏話，什麼都不肯告訴我們。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAOLAS",
+      "tag": "(R)",
+      "fr": "Rocher - falaise - précipice.",
+      "en": "Rock — cliff — precipice.",
+      "zh": "岩石——懸崖——深淵。",
+      "examples": [
+        {
+          "t": "Kii bi daolas ka sapax nia",
+          "fr": "Sa maison est tout près des rochers.",
+          "en": "His house is right next to the rocks.",
+          "zh": "他的房子緊挨著岩石。"
+        },
+        {
+          "t": "Wada pliax daolas ka laqe na",
+          "fr": "Son enfant est tombé dans un précipice.",
+          "en": "His child fell into a precipice.",
+          "zh": "他的孩子跌落懸崖。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DAOLYAQ",
+      "tag": "(R)",
+      "fr": "Oeil.",
+      "en": "Eye.",
+      "zh": "眼睛。",
+      "examples": [
+        {
+          "t": "Naqex daolyaq",
+          "fr": "1) mauvaise vue. 2) irrité - méchant - envieux.",
+          "en": "1) bad eyesight. 2) irritated — mean — envious.",
+          "zh": "1）視力不好。2）惱怒的——兇惡的——嫉妒的。"
+        },
+        {
+          "t": "Malu daolyaq",
+          "fr": "1) Regard perçant - bonne vue. 2) Regarder avec sympathie.",
+          "en": "1) Piercing gaze — good eyesight. 2) To look (on someone) with kindness.",
+          "zh": "1）目光銳利——視力好。2）以善意的眼光看人。"
+        },
+        {
+          "t": "Boax daolyaq",
+          "fr": "Pupille - Globe de l'oeil.",
+          "en": "Pupil — eyeball.",
+          "zh": "瞳孔——眼球。"
+        },
+        {
+          "t": "Ubal daolyaq",
+          "fr": "Cils - sourcils.",
+          "en": "Eyelashes — eyebrows.",
+          "zh": "睫毛——眉毛。"
+        },
+        {
+          "t": "Biyoq daolyaq",
+          "fr": "Larmes.",
+          "en": "Tears.",
+          "zh": "眼淚。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdaolyaq",
+          "fr": "Regarder avec intensité - Qui est curieux - ouvrir de grands yeux.",
+          "en": "To look intently — inquisitive — to open one's eyes wide.",
+          "zh": "凝視——好奇的——睜大眼睛。",
+          "examples": [
+            {
+              "t": "Mnda mdaolyaq sapax mo ka pai",
+              "fr": "Ma belle mère est passée chez moi en regardant partout.",
+              "en": "My mother-in-law came by my house looking at everything.",
+              "zh": "我婆婆到我家來，四處張望。"
+            },
+            {
+              "t": "Ndoa bi mdaolyaq",
+              "fr": "Tâche d'ouvrir l'oeil !",
+              "en": "Try to keep your eyes open!",
+              "zh": "你要睜大眼睛留神！"
+            },
+            {
+              "t": "Ini biyao daolyaq na",
+              "fr": "Il est très perspicace !",
+              "en": "He is very perceptive!",
+              "zh": "他非常敏銳！"
+            }
+          ]
+        },
+        {
+          "form": "Pdaolyaq",
+          "paradigm": "°Pdaolyaq, pdaolyaq, pdlyeqe, pdlyeqan, pdlyeqon.",
+          "fr": "Porter ses yeux sur - regarder avec attention.",
+          "en": "To set one's eyes on — to look at attentively.",
+          "zh": "注視——留心細看。",
+          "examples": [
+            {
+              "t": "Pdlyeqe bi mita pntasan so patas",
+              "fr": "Ouvre bien grands tes yeux pour lire la lettre (l'écrit) que tu as écrit toi même.",
+              "en": "Open your eyes wide to read the letter (the writing) that you wrote yourself.",
+              "zh": "把眼睛睜大，讀你自己寫的信（文字）。"
+            }
+          ]
+        },
+        {
+          "form": "Gndlyeqan",
+          "fr": "Grâce à un coup d'oeil - regard indiscret - coup d'oeil.",
+          "en": "Thanks to a glance — an indiscreet look — a glance.",
+          "zh": "憑一瞥——窺探的目光——一瞥。",
+          "examples": [
+            {
+              "t": "A sao gndlyeqan na s'xiga ka mk'la",
+              "fr": "C'est grâce à regards indiscrets de hier qu'il le sait.",
+              "en": "It is thanks to yesterday's prying glances that he knows it.",
+              "zh": "他是靠昨天偷看才知道的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAPIL",
+      "tag": "(R)",
+      "fr": "Empreinte (surtout marque des pieds dans le sol, marque des mains sur quelque objet).",
+      "en": "Print (especially the mark of feet in the ground, the mark of hands on some object).",
+      "zh": "印痕（尤指地上的腳印、物品上的手印）。",
+      "examples": [
+        {
+          "t": "Muda bnaqe o, taan balae ka dapil kating",
+          "fr": "Dans le sable (passant dans le sable), les empreintes du buffle sont très visibles.",
+          "en": "In the sand (passing through the sand), the buffalo's tracks are very visible.",
+          "zh": "在沙地上（走過沙地時），水牛的蹄印清晰可見。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "DAQAL",
+      "tag": "(R)",
+      "fr": "Empêchement - abstention - défense.",
+      "en": "Hindrance — abstention — prohibition.",
+      "zh": "阻礙——禁戒——禁止。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mdaqal",
+          "paradigm": "° Mdaqal, daqal, dqali, dqalan, dqalon.",
+          "fr": "Faire obstacle - Se défendre contre - éviter.",
+          "en": "To put up an obstacle — to defend oneself against — to avoid.",
+          "zh": "阻擋——抵禦——躲避。",
+          "examples": [
+            {
+              "t": "Ndoa bi mdaqal tndyalan pais",
+              "fr": "Efforce toi d'éviter (de te protéger contre) les attaques de l'ennemi.",
+              "en": "Try hard to avoid (to protect yourself from) the enemy's attacks.",
+              "zh": "你要盡力躲避（防禦）敵人的攻擊。"
+            }
+          ]
+        },
+        {
+          "form": "Pdqalan (pndqalan ?)",
+          "fr": "Temps d'éviter - temps de résister à. (nb. Les taroko, par ce terme, expriment la privation de nourriture (une espèce de jeûne, d'abstinence), après un deuil par exemple; pendant ce temps ils sont MBASI = tristes, taciturnes).",
+          "en": "Time of avoiding — time of resisting. (n.b. By this term the Taroko express the deprivation of food (a kind of fast, of abstinence), after a mourning for example; during this time they are MBASI = sad, taciturn).",
+          "zh": "迴避的時期——抵制的時期。（註：太魯閣人以此詞表示禁食（一種齋戒、禁戒），例如服喪之後；在此期間他們處於 MBASI＝悲傷、沉默寡言的狀態。）",
+          "examples": []
+        },
+        {
+          "form": "Kndqalan",
+          "fr": "Qualité d'abstinence, d'évitement - Force de résistance à une tentation, à un ennemi.",
+          "en": "Quality of abstinence, of avoidance — strength of resistance to a temptation, to an enemy.",
+          "zh": "禁戒、迴避的功夫——抵抗誘惑或敵人的力量。",
+          "examples": [
+            {
+              "t": "K'la sao kia ka kndqalan daxa!",
+              "fr": "Qui aurait pensé que leur abstinence fut telle !",
+              "en": "Who would have thought that their abstinence was such!",
+              "zh": "誰想得到他們的禁戒竟到這種地步！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "DAWI",
+      "tag": "(R)",
+      "fr": "Paresse - le fait de paresser.",
+      "en": "Laziness — the act of idling.",
+      "zh": "懶惰——偷懶之事。",
+      "examples": [
+        {
+          "t": "Tayai dawi na ka laqe!",
+          "fr": "Quelle couche de paresse il a ce gosse!",
+          "en": "What a layer of laziness this kid has!",
+          "zh": "這孩子懶到什麼程度啊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mdawi",
+          "fr": "Paresser - être paresseux - être inoccupé.",
+          "en": "To idle — to be lazy — to be unoccupied.",
+          "zh": "偷懶——懶惰——閒著沒事。",
+          "examples": [
+            {
+              "t": "Mdawi ko nanak pax sndurai",
+              "fr": "Depuis peu je n'ai rien d'autre à faire qu'à paresser.",
+              "en": "For a short while now I have had nothing else to do but idle.",
+              "zh": "最近我除了閒著沒別的事可做。"
+            },
+            {
+              "t": "Mdawi ko pax sndurai nanak",
+              "fr": "Il n'y à que depuis peu que je suis paresseux.",
+              "en": "It is only recently that I have been lazy.",
+              "zh": "我是最近才變懶的。"
+            },
+            {
+              "t": "Mxa ko mdawi alang daxa",
+              "fr": "Je vais me promener un peu en dehors de chez moi (dans l'endroit des autres).",
+              "en": "I am going to stroll a bit away from home (in other people's place).",
+              "zh": "我要到家外面（別人的地方）去閒逛一下。"
+            }
+          ]
+        },
+        {
+          "form": "Kndawi",
+          "fr": "Intensité de paresse, de far niente.",
+          "en": "Degree of laziness, of idleness (far niente).",
+          "zh": "懶惰、無所事事的程度。",
+          "examples": [
+            {
+              "t": "Klaon ta ino ka kndawi na!",
+              "fr": "Comment peut on savoir combien il est paresseux !",
+              "en": "How can one know how lazy he is!",
+              "zh": "誰能知道他到底有多懶！"
+            }
+          ]
+        },
+        {
+          "form": "Pdawi",
+          "fr": "Faire perdre le temps - rendre paresseux.",
+          "en": "To make (someone) waste time — to make lazy.",
+          "zh": "使人浪費時間——使人變懶。",
+          "examples": [
+            {
+              "t": "Tensö ka pdawi bi lqlaqe ta sayang",
+              "fr": "C'est la télévision qui fait perdre beaucoup de temps à nos enfants aujourd'hui.",
+              "en": "It is television that makes our children waste a lot of time nowadays.",
+              "zh": "如今是電視讓我們的孩子浪費許多時間。"
+            },
+            {
+              "t": "Manu ka nyaxan so s'xiga pdawi knan ?",
+              "fr": "Pourquoi est tu venu hier me faire perdre du temps ?",
+              "en": "Why did you come yesterday to waste my time?",
+              "zh": "你昨天為什麼來耽誤我的時間？"
+            }
+          ]
+        },
+        {
+          "form": "Skdawi (spdawi ?)",
+          "fr": "Occasion, moyen pour faire perdre du temps.",
+          "en": "Occasion, means of making one waste time.",
+          "zh": "使人浪費時間的機會、方法。",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

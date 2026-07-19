@@ -1,0 +1,774 @@
+{
+  "pages": [362, 365],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [
+      {
+        "t": "[…] kingal toke da !",
+        "fr": "Si notre riz donne une bonne récolte, (alors) je t'achéterai une montre !",
+        "en": "If our rice gives a good harvest, (then) I'll buy you a watch!",
+        "zh": "如果我們的稻子有好收成，（那麼）我就買一支手錶給你！"
+      },
+      {
+        "t": "Ya bi manu ka mpgxei kddiyax blubul so ?",
+        "fr": "Quel est donc l'agent (qu'est-ce )qui fait toujours produire tes pieds de bananes ?",
+        "en": "What then is the agent (what is it) that keeps making your banana plants bear fruit?",
+        "zh": "到底是什麼（是誰）讓你的香蕉樹一直結果呢？"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Gnxei",
+        "fr": "Grâce au corps, au fruit, au produit, au rapport.",
+        "en": "Thanks to the body, to the fruit, to the produce, to the yield.",
+        "zh": "藉由身體、果實、產物、收益（而得）。",
+        "examples": [
+          {
+            "t": "Gnxei laqe mo ka kingal litok kmpaxan nii!",
+            "fr": "Cette pièce de terre est le prix rapporté par (le corps de) ma fille (= dot ? vente ?).",
+            "en": "This plot of land is the price brought in by (the body of) my daughter (= dowry? sale?).",
+            "zh": "這塊地是（用）我女兒（的身體）換來的代價（＝聘禮？買賣？）。"
+          }
+        ]
+      },
+      {
+        "form": "Pgxei",
+        "fr": "Faire porter du fruit - féconder.",
+        "en": "To make bear fruit - to fertilize.",
+        "zh": "使結出果實－使受精。",
+        "examples": []
+      },
+      {
+        "form": "Spgxei",
+        "fr": "(moyen) pour faire porter du fruit.",
+        "en": "(means) for making bear fruit.",
+        "zh": "（用以）使結出果實的（方法）。",
+        "examples": [
+          {
+            "t": "Psaon mo quti kating ka slaq mo spgxei mo tityex payai da",
+            "fr": "Je veux mettre de labouse de vache dans ma rizière pour faire un peu produire mon riz.",
+            "en": "I want to put some cow dung in my paddy field to make my rice produce a little.",
+            "zh": "我想在我的水田裡放些牛糞，好讓我的稻子多少長些收成。"
+          }
+        ]
+      },
+      {
+        "form": "Txei",
+        "fr": "Etre efficace.",
+        "en": "To be effective.",
+        "zh": "有效。",
+        "examples": [
+          {
+            "t": "Ini bi txei ka kari mo!",
+            "fr": "Mes paroles ne servent à rien !",
+            "en": "My words are of no use!",
+            "zh": "我的話一點用都沒有！"
+          },
+          {
+            "t": "Ngali ni spoxe papaq so; Txei balae ka sapox nii!",
+            "fr": "Prends et applique sur ton pied; ce médicament est très efficace.",
+            "en": "Take and apply it on your foot; this medicine is very effective.",
+            "zh": "拿去敷在你的腳上；這藥非常有效！"
+          }
+        ]
+      },
+      {
+        "form": "Snxei",
+        "fr": "(R. = XEI ? - R. = SNxei ?) = Croire (= considérer comme vrai, réel, consistant).",
+        "en": "(root = XEI? - root = SNxei?) = To believe (= to consider as true, real, substantial).",
+        "zh": "（詞根＝XEI？－詞根＝SNxei？）＝相信（＝視為真實、實在、確實）。",
+        "paradigm": "°Msnxei, snxei, snxey (?), snxeyan, snxeyun.",
+        "examples": [
+          {
+            "t": "Ana ini so snxei (sn'xei?) o, ida xei bi ka kari mo!",
+            "fr": "Même si tu ne le crois pas, c'est parfaitement vrai ce que je dis!",
+            "en": "Even if you don't believe it, what I say is perfectly true!",
+            "zh": "即使你不相信，我說的話也完全是真的！"
+          },
+          {
+            "t": "Xbalao bi xei ka ini snxei kari Laoken",
+            "fr": "Ils sont nombreux à ne pas croire aux paroles de Laokeng.",
+            "en": "There are many who do not believe the words of Laokeng.",
+            "zh": "有很多人不相信勞肯（Laokeng）的話。"
+          },
+          {
+            "t": "Ana ini so snxei o, ida mudus ka Otoç mtinun",
+            "fr": "Tu as beau ne pas y croire, L'Esprit créateur est quand même vivant.",
+            "en": "No matter how much you disbelieve, the Creator Spirit is alive all the same.",
+            "zh": "任憑你怎麼不信，造物之靈依然活著。"
+          }
+        ]
+      },
+      {
+        "form": "Msnxei",
+        "fr": "Les croyants - qui croit.",
+        "en": "The believers - one who believes.",
+        "zh": "信徒－相信的人。",
+        "examples": [
+          {
+            "t": "Ida nggalu bi ka dbalae bi msnxei",
+            "fr": "Les vrais croyants s'aiment entre eux.",
+            "en": "True believers love one another.",
+            "zh": "真正的信徒彼此相愛。"
+          }
+        ]
+      },
+      {
+        "form": "Snxeyan",
+        "fr": "Foi - objet du croire (de fait).",
+        "en": "Faith - the object of belief (in fact).",
+        "zh": "信仰－相信的對象（實際上）。",
+        "examples": [
+          {
+            "t": "Xlpis (x'lpis) ka snxeyan namo, kika ini txei ka dnulun namo Tmaan ta balao",
+            "fr": "Votre foi est faible (mince), c'est pourquoi vos prières à Dieu ne sont pas éfficaces!",
+            "en": "Your faith is weak (thin), that is why your prayers to God are not effective!",
+            "zh": "你們的信心薄弱（微弱），所以你們向神的禱告沒有效！"
+          }
+        ]
+      },
+      {
+        "form": "Psnxei",
+        "fr": "Faire en sorte de susciter la foi - provoquer la foi - être digne de foi.",
+        "en": "To bring about faith - to provoke faith - to be worthy of faith.",
+        "zh": "設法激發信心－引發信心－值得信賴。",
+        "examples": [
+          {
+            "t": "Ana qoqo ini so snxei nkari mo! Ya mxa psnxei sunan ka lntadan qoaq na bi ?",
+            "fr": "Tu peux ne pas croire aux paroles que je t'ai dites! Je suppose au moins que les paroles de sa propre bouche pourront te convaincre !",
+            "en": "You may not believe the words I have told you! I suppose at least that the words from his own mouth will be able to convince you!",
+            "zh": "你可以不相信我對你說的話！我想至少他親口說的話能夠說服你！"
+          },
+          {
+            "t": "Otoç ka xea! Mk'la bi psnxei ana manu ana maan",
+            "fr": "Il est un Esprit (il est extraordinaire,lui!)Il est capable de convaincre n'importe qui de n'importe quoi !",
+            "en": "He is a Spirit (he is extraordinary, he is!) He is capable of convincing anyone of anything!",
+            "zh": "他是一位靈（他非凡啊！）他能夠說服任何人相信任何事！"
+          }
+        ]
+      },
+      {
+        "form": "Spsnxei",
+        "fr": "(Moyen) pour convaincre.",
+        "en": "(means) for convincing.",
+        "zh": "（用以）說服的（方法）。",
+        "examples": [
+          {
+            "t": "Ma so muda lqdgan spsnxei so sdyaqon",
+            "fr": "Qu'est-ce qui te prend de te servir de mensonges (supercheries)pour convaincre les gens ?",
+            "en": "What has got into you, to use lies (deceptions) to convince people?",
+            "zh": "你是怎麼了，竟用謊言（欺騙）去說服別人？"
+          }
+        ]
+      },
+      {
+        "form": "Xnigan",
+        "fr": "(R. = XEI ? - R. = XNIGAN ?) = Forme oblique de XEI - L'aspect du corps (humain surtout), sa forme en général - Les parties du corps que la pudeur rend tabou.",
+        "en": "(root = XEI? - root = XNIGAN?) = Oblique form of XEI - The appearance of the body (human especially), its form in general - The parts of the body that modesty makes taboo.",
+        "zh": "（詞根＝XEI？－詞根＝XNIGAN？）＝XEI的斜格形式－身體（尤指人體）的外形、其一般形態－因羞恥而成為禁忌的身體部位。",
+        "examples": [
+          {
+            "t": "Sao bi xnigan Sikat ka taan ta gain xea!",
+            "fr": "A voir là bas au loin, on dirait Sikatz ( la silhouette de Sikatz).",
+            "en": "Seen over there in the distance, you'd say it was Sikatz (the silhouette of Sikatz).",
+            "zh": "遠遠看過去，會以為是Sikatz（Sikatz的身影）。"
+          },
+          {
+            "t": "Mxa so pqeta xnigan so o, ini so qsiqa (ksiqa) ?",
+            "fr": "Tu n'as pas honte d'aller montrer ton corps(à tout le monde) ?",
+            "en": "Aren't you ashamed to go showing your body (to everyone)?",
+            "zh": "你去把身體露給（大家）看，不覺得羞恥嗎？"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "XELANG",
+      "tag": "(R)",
+      "fr": "Epaule.",
+      "en": "Shoulder.",
+      "zh": "肩膀。",
+      "examples": [
+        {
+          "t": "Ini ko k'la mxaal ka yako; ini biyao mmalox kana xelang mo",
+          "fr": "Moi, je suis incapable de porter (au fléau); (toutes)mes épaules me font tout de suite mal.",
+          "en": "I am incapable of carrying (with a shoulder-pole); (all) my shoulders start hurting right away.",
+          "zh": "我沒辦法（用扁擔）挑東西；我的兩肩馬上就痛。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "XELAO",
+      "tag": "(= R. ?)",
+      "fr": "Toux - tousser.",
+      "en": "Cough - to cough.",
+      "zh": "咳嗽－咳。",
+      "examples": [
+        {
+          "t": "Lodo xelao",
+          "fr": "crachat (le nid de la toux).",
+          "en": "sputum (the nest of the cough).",
+          "zh": "痰（咳嗽的巢）。"
+        },
+        {
+          "t": "Mmalox xelao",
+          "fr": "Avoir la toux.",
+          "en": "To have a cough.",
+          "zh": "有咳嗽（患咳）。"
+        },
+        {
+          "t": "Sao mbbil bi ilaq ka xelao mo",
+          "fr": "Ma toux semble m'arracher tous les boyaux !",
+          "en": "My cough seems to be tearing out all my guts!",
+          "zh": "我的咳嗽好像要把我五臟六腑都扯出來！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Sxelao",
+          "fr": "Tousser (en acte).",
+          "en": "To cough (in the act).",
+          "zh": "咳嗽（實際動作）。",
+          "examples": [
+            {
+              "t": "Sao sxelao ka sknalox bi g\"lo",
+              "fr": "C'est le fait de tousser qui irrite vraiment (fait mal à)la gorge.",
+              "en": "It is the act of coughing that really irritates (hurts) the throat.",
+              "zh": "真正刺激（傷害）喉嚨的正是咳嗽這個動作。"
+            }
+          ]
+        },
+        {
+          "form": "Msxelao",
+          "fr": "Qui a la toux - tousser.",
+          "en": "Who has a cough - to cough.",
+          "zh": "有咳嗽的（人）－咳嗽。",
+          "examples": [
+            {
+              "t": "Ana diyan ana ka'man o, ida msxelao ka laqe mo; ini bi sangai!",
+              "fr": "Mon enfant tousse jour et nuit; c'est sans arrêt !",
+              "en": "My child coughs day and night; it never stops!",
+              "zh": "我的孩子日夜咳嗽；一刻不停！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XELAO",
+      "tag": "(R.)",
+      "fr": "(R. — = même racine que XELAO = Toux ?) = Tout ce qui sert de couverture pour quelqu'un qui est couché.",
+      "en": "(root — = same root as XELAO = Cough?) = Everything that serves as a covering for someone who is lying down.",
+      "zh": "（詞根－＝與XELAO＝咳嗽同一詞根？）＝供躺臥者蓋用的一切覆蓋物。",
+      "examples": [
+        {
+          "t": "Nyeqan xolao so? ... Ongat!Wana ssapao mo nanak ka nyeqan!",
+          "fr": "As tu des couvertures ? ... Je n'en ai pas! Je n'ai que ce qu'il me faut pour étendre par terre (comme matelas).",
+          "en": "Do you have any covers? ... I have none! I have only what I need to spread on the ground (as a mattress).",
+          "zh": "你有被子嗎？……我沒有！我只有鋪在地上（當床墊）用的東西。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxelao",
+          "fr": "Se couvrir (pour se coucher) - qui est couvert.",
+          "en": "To cover oneself (to lie down) - who is covered.",
+          "zh": "（睡覺時）蓋被子－被蓋著的。",
+          "examples": [
+            {
+              "t": "Mxelao ko sndaxa snt'lo ka yako ni ida ini txei",
+              "fr": "Je me couvre de deux ou trois épaisseurs et pourtant ce n'est pas efficace!",
+              "en": "I cover myself with two or three layers and yet it's not enough!",
+              "zh": "我蓋了兩三層，卻還是不夠（沒用）！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XELO",
+      "tag": "(R)",
+      "fr": "Source qui éclaire ( lampe, foyer, falot..).",
+      "en": "A source that gives light (lamp, hearth, torch..).",
+      "zh": "發光的來源（燈、爐火、火把……）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xniro",
+          "fr": "(= Xmilo ?) = Allumer une source qui éclaire.",
+          "en": "(= Xmilo?) = To light a source that gives light.",
+          "zh": "（＝Xmilo？）＝點燃發光的來源。",
+          "paradigm": "°Xniro , xelo, xloi, xloan, xloon.",
+          "examples": [
+            {
+              "t": "Ka'man da! Xloi ka xalong so da!",
+              "fr": "Il fait déjà nuit! Allume donc ton falot ( ton morceau de bois de pin).",
+              "en": "It's already night! Light your torch then (your piece of pinewood).",
+              "zh": "天已經黑了！快點燃你的火把吧（你那塊松木）。"
+            },
+            {
+              "t": "Asi bi xniro kana daolyaq na ka xea!",
+              "fr": "A tel point qu'il (Aussitôt il) ouvre tout grands ses yeux .",
+              "en": "So much so that he (at once he) opens his eyes wide.",
+              "zh": "以至於他（他立刻）把眼睛睜得大大的。"
+            }
+          ]
+        },
+        {
+          "form": "Xloan",
+          "fr": "Action (présente ou passée) d'allumer - temps où l'on allume.",
+          "en": "The action (present or past) of lighting - the time when one lights.",
+          "zh": "點燃的動作（現在或過去）－點燈的時候。",
+          "examples": [
+            {
+              "t": "ina ka dmui xloan da",
+              "fr": "Y-a-t-il quelqu'un qui possède de quoi éclairer ?",
+              "en": "Is there anyone who has something to give light?",
+              "zh": "有沒有人有可以照明的東西？"
+            },
+            {
+              "t": "Naqex bi xloan ka ayang",
+              "fr": "Le pétrole est un système d'éclairage peu commode.(vl. Le P. est difficile à allumer).",
+              "en": "Petroleum is a rather inconvenient means of lighting. (var. Petroleum is hard to light.)",
+              "zh": "煤油是不太方便的照明方式。（或：煤油很難點燃。）"
+            }
+          ]
+        },
+        {
+          "form": "Xlaan",
+          "fr": "?? = Etagère pour poser une source d'éclairage - appareil d'éclairage. (nb. Pourquoi cette différence : XLAAN et XLOAN ? Parfois la deuxième forme (Xloan), plus normale, semble indiquer de préférence le résultat de l'action et la première (Xlaan) le lieu de cette action! § Sluan = Ce qui est construit; Slaan = Lieu de la construction. .. Et ce terme XLAAN est souvent entendu pour XLAYAN (R. = XLAE = trouver).)",
+          "en": "?? = Shelf for placing a light source - lighting device. (n.b. Why this difference: XLAAN and XLOAN? Sometimes the second form (Xloan), more usual, seems to indicate rather the result of the action and the first (Xlaan) the place of that action! § Sluan = What is built; Slaan = Place of the construction. .. And this term XLAAN is often heard for XLAYAN (root = XLAE = to find).)",
+          "zh": "？？＝放置光源的架子－照明器具。（註：為什麼會有XLAAN和XLOAN這種區別？有時第二個形式（Xloan）較常見，似乎較偏向表示動作的結果，而第一個（Xlaan）則表示該動作的地點！§ Sluan＝所建之物；Slaan＝建造之地。……而這個詞XLAAN常被聽成XLAYAN（詞根＝XLAE＝找到）。）",
+          "examples": [
+            {
+              "t": "Wada so xlaan ( = Xlayan) ka kating so da ?",
+              "fr": "Tu l'as retrouvé ton buffle ? - Mais on dit:",
+              "en": "Have you found your buffalo again? - But one says:",
+              "zh": "你找回你的水牛了嗎？－不過人們會說："
+            },
+            {
+              "t": "Pax xlaan betak lmuxan xedao",
+              "fr": "De l'Est à L'ouest (vl. Du matin au soir = depuis le temps, le lieu, où le soleil éclaire jusqu'au temps, lieu, où il se couche;).",
+              "en": "From East to West (var. From morning to evening = from the time, the place, where the sun shines until the time, place, where it sets).",
+              "zh": "從東到西（或：從早到晚＝從太陽照耀的時刻、地點，到它落下的時刻、地點）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XENG",
+      "tag": "(R.)",
+      "fr": "(= R. de PXENG et ses dérivés; Vr. PXENG .) = Eteint - disparu - mort.",
+      "en": "(= root of PXENG and its derivatives; see PXENG.) = Extinguished - vanished - dead.",
+      "zh": "（＝PXENG及其衍生形式的詞根；參見PXENG。）＝熄滅－消失－死亡。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxeng",
+          "fr": "Qui est éteint.",
+          "en": "Which is extinguished.",
+          "zh": "熄滅的。",
+          "examples": [
+            {
+              "t": "Ga mxeng ka denki nia",
+              "fr": "Sa lampe électrique(= son électricité) est éteinte.",
+              "en": "His electric lamp (= his electricity) is off.",
+              "zh": "他的電燈（＝他的電）熄了。"
+            }
+          ]
+        },
+        {
+          "form": "Px'ngun",
+          "fr": "Qui sera, qui doit être éteint - qu'on veut éteindre.",
+          "en": "Which will be, which must be extinguished - which one wants to extinguish.",
+          "zh": "將被熄滅、應被熄滅的－想要熄滅的。",
+          "examples": []
+        },
+        {
+          "form": "Kx'ngun",
+          "fr": "Qui s'éteindra (qui veut, peut, doit s'éteindre).",
+          "en": "Which will go out (which wants, can, must go out).",
+          "zh": "將會熄滅的（想、能、該熄滅的）。",
+          "examples": []
+        },
+        {
+          "form": "Knx'ngun",
+          "fr": "Qui a disparu (qui a dû disparaitre, s'éteindre..).",
+          "en": "Which has vanished (which must have vanished, gone out..).",
+          "zh": "已消失的（想必已消失、已熄滅的……）。",
+          "examples": []
+        },
+        {
+          "form": "Px'ngan",
+          "fr": "Temps, lieu, et instrument pour éteindre.",
+          "en": "Time, place, and instrument for extinguishing.",
+          "zh": "熄滅（某物）的時間、地點及工具。",
+          "examples": [
+            {
+              "t": "Ga ino ka px'ngan denki so da!",
+              "fr": "Où est-il le bouton pour éteindre ton électricité ?",
+              "en": "Where is the button to turn off your electricity?",
+              "zh": "關掉你的電的開關在哪裡呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XENI",
+      "tag": "(R)",
+      "fr": "(XEINI ?) = Ici - en ce lieu.",
+      "en": "(XEINI?) = Here - in this place.",
+      "zh": "（XEINI？）＝這裡－在此處。",
+      "examples": [
+        {
+          "t": "Ga xeni ka tama so xo ? ... ga xeni",
+          "fr": "Ton père est-il ici ? ... Oui, il est ici!",
+          "en": "Is your father here? ... Yes, he is here!",
+          "zh": "你父親在這裡嗎？……在，他在這裡！"
+        },
+        {
+          "t": "Iyax xeni",
+          "fr": "Viens ici!",
+          "en": "Come here!",
+          "zh": "過來這裡！"
+        },
+        {
+          "t": "Qole xeni",
+          "fr": "Par ici !",
+          "en": "This way!",
+          "zh": "往這邊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxeni",
+          "fr": "Qui se trouve en deça - qui est dans ma direction.",
+          "en": "Which is on this side - which is in my direction.",
+          "zh": "在這一邊的－朝我這個方向的。",
+          "examples": [
+            {
+              "t": "Manu ka saon so miin gain da! Kingal mxeni ka malu bi",
+              "fr": "Que vas tu chercher au loin! Celui qui est contre ici est très bien !",
+              "en": "Why go looking far away! The one that is right here is very good!",
+              "zh": "你何必跑那麼遠去找！這近處的這一個就很好了！"
+            }
+          ]
+        },
+        {
+          "form": "Tnxeni",
+          "fr": "Originaire d'ici - d'ici - dont la place est ici.",
+          "en": "Native of here - from here - whose place is here.",
+          "zh": "本地出身的－來自這裡的－原屬此地的。",
+          "examples": [
+            {
+              "t": "Pnax so ino ka iso ? ... Ida ko tnxeni ka yako!",
+              "fr": "D'où es tu,toi ? ... Moi, je suis d'ici !",
+              "en": "Where are you from? ... Me, I'm from here!",
+              "zh": "你是哪裡人？……我啊，我是這裡人！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XETI",
+      "tag": "(R)",
+      "fr": "(XEITI ?) = Après - ensuite.",
+      "en": "(XEITI?) = After - next.",
+      "zh": "（XEITI？）＝之後－接著。",
+      "examples": [
+        {
+          "t": "Xeti do, maxao ta sinao",
+          "fr": "Après,buvons (très impératif) du vin!",
+          "en": "Afterwards, let's drink (very imperative) some wine!",
+          "zh": "之後，我們來喝（極強祈使）酒吧！"
+        },
+        {
+          "t": "Xeti bi",
+          "fr": "tout à la fin.",
+          "en": "right at the very end.",
+          "zh": "在最後。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxeti",
+          "fr": "Qui est après - qui vient ensuite.",
+          "en": "Which is after - which comes next.",
+          "zh": "在後的－接著來的。",
+          "examples": [
+            {
+              "t": "Xea ka mnangal nalong, mxeti ko bi ka yako",
+              "fr": "C'est lui qui a obtenu le prix ; moi, je venais bien après.",
+              "en": "It's he who won the prize; me, I came well after.",
+              "zh": "得獎的是他；我嘛，排在他後面很多。"
+            }
+          ]
+        },
+        {
+          "form": "Xmiti",
+          "fr": "Laisser derrière soi - laisser pour la fin - laisser en héritage.",
+          "en": "To leave behind oneself - to leave for the end - to leave as inheritance.",
+          "zh": "留在身後－留到最後－留作遺產。",
+          "paradigm": "°Xniti, xeti, xtii (xtiy), xtiyan, xtiyun .",
+          "examples": [
+            {
+              "t": "Xmiti ko lmngao munan",
+              "fr": "Je vous parle pour la dernière fois - Je vous dis mes dernières volontés.",
+              "en": "I am speaking to you for the last time - I am telling you my last wishes.",
+              "zh": "我最後一次對你們說話－我把我的遺願告訴你們。"
+            },
+            {
+              "t": "Xmiti kari",
+              "fr": "Dernières volontés (testament). (nb. Pour les taroko, les dernières paroles d'un être chèr - et le bienfait d'avoir pu les dire! sont un privilège très grand! Par exemple, ils sont inconsolables quand un papa meurt sans exprimer ses dernières volontés, sans laisser un message aux siens!).",
+              "en": "Last wishes (testament). (n.b. For the Taroko, the last words of a dear one - and the blessing of having been able to say them! - are a very great privilege! For example, they are inconsolable when a father dies without expressing his last wishes, without leaving a message for his own!).",
+              "zh": "遺願（遺囑）。（註：對太魯閣人而言，摯愛之人的臨終遺言－以及能夠說出這些話的恩澤！－是極大的殊榮！例如，當父親去世卻未能表達遺願、未留下話語給親人時，他們會悲痛難抑！）"
+            }
+          ]
+        },
+        {
+          "form": "Xniti",
+          "fr": "Laissait pour la fin - laissait en dernier.",
+          "en": "Was leaving for the end - was leaving last.",
+          "zh": "留到最後－最後才留下。",
+          "examples": [
+            {
+              "t": "Xniti kari na ni mnstok ka sktana da!",
+              "fr": "Il a dit (il disait) ses dernières paroles ( il a dit son dernier message) puis,feu notre papa expira.",
+              "en": "He said (he was saying) his last words (he gave his last message), then our late father passed away.",
+              "zh": "他說了（他當時在說）他最後的話（他留下最後的訊息），然後我們的先父就斷氣了。"
+            },
+            {
+              "t": "Xniti kari tama ta ka kia",
+              "fr": "Ce sont là les dernières paroles de papa !",
+              "en": "Those are papa's last words!",
+              "zh": "這些就是爸爸最後的話了！"
+            }
+          ]
+        },
+        {
+          "form": "Xtiyan",
+          "fr": "L'héritage laissé - Ce qu'on a laissé en arrière, pour la fin.",
+          "en": "The inheritance left - What has been left behind, for the end.",
+          "zh": "所留下的遺產－遺留在身後、留到最後的東西。",
+          "examples": [
+            {
+              "t": "Kia ka xntiyan na kman ka sktana",
+              "fr": "Voilà ce que feu mon père m'a laissé.",
+              "en": "This is what my late father left me.",
+              "zh": "這就是我先父留給我的。"
+            },
+            {
+              "t": "Ya manu bi ka wada so xtiyan maso",
+              "fr": "Qu'est-ce donc ce que tu as laissé pour partager en dernier lieu.",
+              "en": "What then is it that you have left to share in the last place?",
+              "zh": "那麼你最後留下來要分的是什麼呢？"
+            }
+          ]
+        },
+        {
+          "form": "Xtiyun",
+          "fr": "Ce qui sera laissé pour la fin - ce qui sera laissé (qu'on veut laisser) en héritage.",
+          "en": "What will be left for the end - what will be left (that one wants to leave) as inheritance.",
+          "zh": "將留到最後的－將留下（想留下）作遺產的。",
+          "examples": [
+            {
+              "t": "Nasi so kuxul o, na xtiyun niso kana ka ppusu slaq mo da!",
+              "fr": "Si cela te fait plaisir, je te laisserai (en héritage) tous mes lopins de rizière.",
+              "en": "If it pleases you, I will leave you (as inheritance) all my plots of paddy field.",
+              "zh": "如果你高興，我就把我所有的水田地塊（當遺產）留給你。"
+            }
+          ]
+        },
+        {
+          "form": "Tnxeti",
+          "fr": "Récent - le dernier - réservé pour le dernier - le dernier de fait.",
+          "en": "Recent - the last - reserved for the last - the last in fact.",
+          "zh": "近來的－最後的－留給最後的－實際上最末的。",
+          "examples": [
+            {
+              "t": "Tnlalae ka yako; tnxeti ka iso",
+              "fr": "J'étais le premier (et) tu étais le dernier.",
+              "en": "I was the first (and) you were the last.",
+              "zh": "我是第一個，（而）你是最後一個。"
+            },
+            {
+              "t": "Pllayun mo mita ka dtnxeti",
+              "fr": "Je commencerai par voir ceux du dernier groupe.",
+              "en": "I'll begin by seeing those of the last group.",
+              "zh": "我會先看最後那一組的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XEULING",
+      "tag": "(R)",
+      "fr": "Chien.",
+      "en": "Dog.",
+      "zh": "狗。",
+      "examples": [
+        {
+          "t": "Psai ka xxeuling so uusa d'xa pstutwi kingal boyaq ooqon ta ka'man kia",
+          "fr": "Lache tes chiens pour qu'ils aillent lever un sanglier qui nous servira de repas ce soir.",
+          "en": "Let loose your dogs so they go and flush out a wild boar that will serve as our meal this evening.",
+          "zh": "放開你的狗，讓牠們去趕出一頭野豬，好當我們今晚的一餐。"
+        },
+        {
+          "t": "Mqalox ka xeuling",
+          "fr": "Le chien est noir.",
+          "en": "The dog is black.",
+          "zh": "這狗是黑的。"
+        },
+        {
+          "t": "Xeuling mqalox",
+          "fr": "Le chien noir.",
+          "en": "The black dog.",
+          "zh": "黑狗。"
+        },
+        {
+          "t": "Kingal xeuling mqalox",
+          "fr": "Un chien noir.",
+          "en": "A black dog.",
+          "zh": "一隻黑狗。"
+        },
+        {
+          "t": "Tatat xeuling",
+          "fr": "Chiots - petits du chien.",
+          "en": "Puppies - the young of the dog.",
+          "zh": "小狗－狗的幼崽。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxeuling",
+          "fr": "Devenir chien.",
+          "en": "To become a dog.",
+          "zh": "變成狗。",
+          "examples": []
+        },
+        {
+          "form": "Pnxeuling",
+          "fr": "Se conduire comme un chien - à la chien.",
+          "en": "To behave like a dog - in a doggish way.",
+          "zh": "像狗一樣行事－像狗那樣。",
+          "examples": [
+            {
+              "t": "Ya bi pnxeuling lmngao ldanan so!",
+              "fr": "Ne parle pas comme un chien à tes parents!",
+              "en": "Don't speak like a dog to your parents!",
+              "zh": "不要像狗一樣對你的父母說話！"
+            }
+          ]
+        },
+        {
+          "form": "Xlingan",
+          "fr": "Forme oblique de XEULING.",
+          "en": "Oblique form of XEULING.",
+          "zh": "XEULING的斜格形式。",
+          "examples": [
+            {
+              "t": "Byeqe xlingan so ka boot",
+              "fr": "Donne les à ton chien, les os .",
+              "en": "Give them to your dog, the bones.",
+              "zh": "把骨頭給你的狗吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XEULIS",
+      "tag": "(R)",
+      "fr": "Rire - le rire.",
+      "en": "To laugh - laughter.",
+      "zh": "笑－笑聲。",
+      "examples": [
+        {
+          "t": "Ini so xeulis o, xmuya so? Xeulis da!",
+          "fr": "Tu ne souris pas, qu'as tu ? Souris donc!",
+          "en": "You're not smiling, what's the matter with you? Do smile!",
+          "zh": "你不笑，你怎麼了？笑一個嘛！"
+        },
+        {
+          "t": "Adi motoç o ? Ma kingal nanak ka xeulis na!",
+          "fr": "Ne serait-il pas fou? Il rit bien drôlement !",
+          "en": "Isn't he crazy? He laughs really oddly!",
+          "zh": "他是不是瘋了？他笑得真古怪！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxeulis",
+          "fr": "Qui rit - qui sourit - rire - sourire.",
+          "en": "Who laughs - who smiles - to laugh - to smile.",
+          "zh": "在笑的－在微笑的－笑－微笑。",
+          "paradigm": "°Mxeulis, xeulis, xlisi , xlisan, xlisun .",
+          "examples": [
+            {
+              "t": "Stoq lmingis ka kana sadyaq ni mxeulis so ka iso da!",
+              "fr": "Les gens sont tout en larmes et toi tu ris (vl. et toi tu te mets à rire)!",
+              "en": "Everyone is in tears and you are laughing (var. and you start to laugh)!",
+              "zh": "大家都在流淚，你卻在笑（或：你卻笑了起來）！"
+            }
+          ]
+        },
+        {
+          "form": "Xlisan",
+          "fr": "Le rire - le temps, lieu du rire - l'objet du rire.",
+          "en": "Laughter - the time, place of laughter - the object of laughter.",
+          "zh": "笑－發笑的時間、地點－發笑的對象。",
+          "examples": [
+            {
+              "t": "Uxai bi (diyax) xlisan ka diyax sayang !",
+              "fr": "Ce jour n'est vraiment pas un jour à rire !",
+              "en": "Today is really not a day for laughing!",
+              "zh": "今天真的不是可以笑的日子！"
+            },
+            {
+              "t": "Ongat bi xlisan ka nii",
+              "fr": "Il n'y a vraiment rien à rire,ici",
+              "en": "There is really nothing to laugh about here.",
+              "zh": "這裡真的沒有什麼好笑的。"
+            },
+            {
+              "t": "Mlnglong ko knparo xmlisan d'xa ska'man",
+              "fr": "Je pense à leur partie de fou-rire (de rire fou) hier soir.",
+              "en": "I'm thinking of their bout of wild laughter (of crazy laughing) last night.",
+              "zh": "我想起他們昨晚那場狂笑（瘋狂大笑）。"
+            },
+            {
+              "t": "Uxai bi iso ka xlisan mo",
+              "fr": "Ce n'est pas de toi que je ris.",
+              "en": "It's not you that I'm laughing at.",
+              "zh": "我笑的並不是你。"
+            }
+          ]
+        },
+        {
+          "form": "Xxeulis",
+          "fr": "Dans le but de rire - les rires.",
+          "en": "For the purpose of laughing - the laughs.",
+          "zh": "為了取笑－一場場的笑。",
+          "examples": [
+            {
+              "t": "Xxeulis d'xa nanak ka wada d'xa splawa xeaan",
+              "fr": "C'est pour rire un coup qu'ils l'ont fait appeler.",
+              "en": "It was just for a laugh that they had him called over.",
+              "zh": "他們只是為了取笑一番才把他叫來的。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

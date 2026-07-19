@@ -1,0 +1,762 @@
+{
+  "pages": [350, 353],
+  "leadin": {
+    "fr": "",
+    "en": "",
+    "zh": "",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Twaan (R. = WAWA ?)",
+        "fr": "Utérus -",
+        "en": "Uterus.",
+        "zh": "子宮。",
+        "examples": []
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "WAWAQ",
+      "tag": "(R)",
+      "fr": "Viande (en tant que aliment) (Terme surtout employé dans le langage enfantin.",
+      "en": "Meat (as food) (Term used above all in children's speech.",
+      "zh": "肉（作為食物）（尤其用於兒童用語。",
+      "examples": [
+        {
+          "t": "Mqan wawaq",
+          "fr": "Manger de la viande.",
+          "en": "To eat meat.",
+          "zh": "吃肉。"
+        }
+      ]
+    },
+    {
+      "hw": "WAXAN",
+      "tag": "(R. = LAWAX)",
+      "crossRef": "Vr. LAWAX",
+      "fr": "( sans doute contraction de: LWAXAN) = Action d'ouvrir (réalisée defait) - Instrument pour ouvrir - clé.",
+      "en": "(no doubt a contraction of: LWAXAN) = The action of opening (accomplished, undone) - Instrument for opening - key.",
+      "zh": "（無疑是 LWAXAN 的縮寫）＝開啟的動作（既成、解開）－用來開啟的工具－鑰匙。",
+      "examples": [
+        {
+          "t": "Nyeqan waxan ( Lwaxan ?) totox so ?",
+          "fr": "As tu un ouvre-boîtes ?",
+          "en": "Do you have a can opener?",
+          "zh": "你有開罐器嗎？"
+        },
+        {
+          "t": "Waxan longao",
+          "fr": "Ouvre bouteilles.",
+          "en": "Bottle opener.",
+          "zh": "開瓶器。"
+        },
+        {
+          "t": "Ga waxan ka sapax d'xa",
+          "fr": "Leur maison est ouverte.",
+          "en": "Their house is open.",
+          "zh": "他們的房子是開著的。"
+        }
+      ]
+    },
+    {
+      "hw": "WAXEL",
+      "tag": "",
+      "fr": "Tiges, feuillages de la patate douce ( servant à reproduire de nouveaux plants; à nourrir les cochons; à la nourriture des personnes , faute de mieux. Par extension, ce terme désigne les stolons de diverses plantes, et parfois même certaines lianes.",
+      "en": "Stems, foliage of the sweet potato (serving to propagate new plants; to feed the pigs; for people's food, for want of anything better. By extension, this term designates the stolons of various plants, and sometimes even certain lianas.",
+      "zh": "地瓜（甘藷）的莖、葉（用來繁殖新苗；餵豬；在沒有更好的東西時供人食用。引申而言，此詞也指各種植物的匍匐莖，有時甚至指某些藤蔓。",
+      "examples": []
+    },
+    {
+      "hw": "WA\"LO",
+      "tag": "(R)",
+      "fr": "Abeille..",
+      "en": "Bee.",
+      "zh": "蜜蜂。",
+      "examples": [
+        {
+          "t": "Biyoq wa\"lo",
+          "fr": "Miel (jus d'abeille).",
+          "en": "Honey (bee juice).",
+          "zh": "蜂蜜（蜜蜂的汁液）。"
+        },
+        {
+          "t": "Koxat wa\"lo",
+          "fr": "rayon de miel.",
+          "en": "Honeycomb.",
+          "zh": "蜂巢（蜜脾）。"
+        }
+      ]
+    },
+    {
+      "hw": "WIN",
+      "tag": "(R)",
+      "crossRef": "Vr. UIN",
+      "fr": "Forme ancienne pour désigner l'unité dans une suite de chiffres.",
+      "en": "Ancient form to designate the unit (one) in a series of numbers.",
+      "zh": "古老的形式，用來表示一串數字中的「一」（個位）。",
+      "examples": [
+        {
+          "t": "Win, daxa, t'lo..",
+          "fr": "Un, deux, trois ..",
+          "en": "One, two, three ..",
+          "zh": "一、二、三……"
+        }
+      ]
+    },
+    {
+      "hw": "WINUK",
+      "tag": "",
+      "fr": "(Sans doute forme abrégée pour: XWINUK ; Vr. XWINUK .). = Reins - la partie du dos à hauteur de la ceinture.",
+      "en": "(No doubt an abbreviated form for: XWINUK; cf. XWINUK.). = Kidneys / lower back - the part of the back at the height of the belt.",
+      "zh": "（無疑是 XWINUK 的縮略形式；參 XWINUK。）＝腰－背部齊腰帶高度的部位（腎）。",
+      "examples": [
+        {
+          "t": "Npaan so s'xdil bi suxal, kika (kia ka) sknalox winuk (xwinuk) so",
+          "fr": "C'est d'avoir porté de lourdes charges autrefois qui te provoque ce mal de reins.",
+          "en": "It is from having carried heavy loads in the past that you get this lower-back pain.",
+          "zh": "是因為你從前背負沉重的負擔，才使你患上這腰痛。"
+        }
+      ]
+    },
+    {
+      "hw": "WIT",
+      "tag": "(R)",
+      "fr": "Fatigue - faiblesse - anémie.",
+      "en": "Fatigue - weakness - anemia.",
+      "zh": "疲勞－虛弱－貧血。",
+      "examples": [
+        {
+          "t": "Akai wit!",
+          "fr": "Oh la! Quelle fatigue!",
+          "en": "Oh my! What fatigue!",
+          "zh": "哎呀！多累啊！"
+        },
+        {
+          "t": "Gnwit na nanak ka sapax nii!",
+          "fr": "Cette maison n'est que le prix de ses fatigues (est due à ses propres fatigues).",
+          "en": "This house is nothing but the fruit of his toil (it is due to his own labors).",
+          "zh": "這房子完全是他辛勞的代價（是靠他自己的辛勞得來的）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mawit",
+          "fr": "Qui est fatigué, faible, indécis.",
+          "en": "Who is tired, weak, indecisive.",
+          "zh": "疲倦、虛弱、猶豫不決的（人）。",
+          "examples": [
+            {
+              "t": "Pax ka ndaan mo pk'lut xei ka mawit ko bi da",
+              "fr": "C'est depuis mon opération que je suis vraiment fatigué!",
+              "en": "It is since my operation that I am really tired!",
+              "zh": "自從我動了手術，我就真的很累！"
+            },
+            {
+              "t": "Mawit xali ka lnglongan na",
+              "fr": "Il est sur le point de céder (Sa pensée est un peu fatiguée - il est sur le point de changer d'avis!).",
+              "en": "He is about to give in (His mind is a bit weary - he is about to change his mind!).",
+              "zh": "他快要讓步了（他的心思有點疲乏－他快要改變主意了！）。"
+            },
+            {
+              "t": "Mawit bi ka \"löt sapax mo",
+              "fr": "Les poutres de ma maison sont un peu faibles.",
+              "en": "The beams of my house are a bit weak.",
+              "zh": "我家的樑有點不牢固。"
+            }
+          ]
+        },
+        {
+          "form": "Kawit",
+          "fr": "Forme employée pour la négation, l'ordre.",
+          "en": "Form used for negation, for the imperative.",
+          "zh": "用於否定、命令的形式。",
+          "examples": [
+            {
+              "t": "Ana kingal diyax ka ksaan mo, ini ko kawit",
+              "fr": "Même après un jour entier de marche, je ne suis pas fatigué.",
+              "en": "Even after a whole day of walking, I am not tired.",
+              "zh": "即使走了一整天的路，我也不累。"
+            },
+            {
+              "t": "Ya bi kawit!",
+              "fr": "Tiens bon! (ne sois pas fatigué!).",
+              "en": "Hold on! (don't get tired!).",
+              "zh": "撐住！（別累倒！）。"
+            }
+          ]
+        },
+        {
+          "form": "Smawit",
+          "fr": "Qui fatigue - fatiguant.",
+          "en": "That tires - tiring.",
+          "zh": "使人疲累的－累人的。",
+          "examples": [
+            {
+              "t": "Sao bi smawit sadyaq ka tmabun!",
+              "fr": "C'est très fatiguant d'aller défoncer (piocher) le terrain!",
+              "en": "It is very tiring to go break up (hoe) the ground!",
+              "zh": "去翻鬆（鋤）土地是很累人的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "WIXE",
+      "tag": "(R)",
+      "fr": "Cuillère - coupe - bol.. (nb. Les taroko n'avaient pas une grande richesse de vaisselle, mangeant avec les mains à même la marmite. Les pièces en bambou étaient leur récipients, avec le WIXE sangi = la calebasse (dont ils faisaient un récipient).(Chrétien = Calice !)..",
+      "en": "Spoon - cup - bowl. (n.b. The Taroko did not have a great abundance of tableware, eating with their hands straight from the pot. Bamboo pieces were their containers, along with the WIXE sangi = the gourd/calabash (out of which they made a container).(Christian = Chalice!).",
+      "zh": "湯匙－杯－碗。（註：太魯閣人沒有豐富的餐具，直接用手從鍋裡取食。竹製的器皿是他們的容器，還有 WIXE sangi ＝葫蘆（他們用它做容器）。（基督宗教＝聖爵！）。",
+      "examples": []
+    },
+    {
+      "hw": "XABUK",
+      "tag": "(R)",
+      "fr": "Ceinture.",
+      "en": "Belt.",
+      "zh": "腰帶。",
+      "examples": [
+        {
+          "t": "Pskl'ti tityex ka xabuk so",
+          "fr": "Serre donc un peu ta ceinture .",
+          "en": "Do tighten your belt a bit.",
+          "zh": "把你的腰帶繫緊一點吧。"
+        },
+        {
+          "t": "Adi qlaqel ka xabuk so ? ... Kia! Qlaqel kating",
+          "fr": "Est-ce que ta ceinture ne serait pas en cuir? ... Oui! en cuir de buffle",
+          "en": "Wouldn't your belt be made of leather? ... Yes! of buffalo leather",
+          "zh": "你的腰帶莫非是皮製的？……是的！是水牛皮做的"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxabuk",
+          "paradigm": "°Mxabuk, xabuk, xbuki, xbukan (?), xbukun.",
+          "fr": "Mettre une ceinture - porter une ceinture - Enserrer dans un lien, une ceinture.",
+          "en": "To put on a belt - to wear a belt - To bind with a tie, a belt.",
+          "zh": "繫上腰帶－佩戴腰帶－用帶子、腰帶束緊。",
+          "examples": [
+            {
+              "t": "Xbuki binao ka libul so!",
+              "fr": "Mets donc une ceinture à tes pantalons !",
+              "en": "Do put a belt on your trousers!",
+              "zh": "給你的褲子繫上腰帶吧！"
+            }
+          ]
+        },
+        {
+          "form": "Sxabuk",
+          "fr": "Pour entourer - qui sert à entourer.",
+          "en": "For encircling - that serves to encircle.",
+          "zh": "用來環繞的－用於環繞之物。",
+          "examples": [
+            {
+              "t": "Wada na diyun waxel bbuyo sxabuk na libul nia",
+              "fr": "Il s'est servi de lianes sauvages pour en faire une ceinture.",
+              "en": "He used wild lianas to make a belt out of them.",
+              "zh": "他用野生的藤蔓來做成腰帶。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XADA",
+      "tag": "(R)",
+      "fr": "Prêt - préparé - cuit - mûr.",
+      "en": "Ready - prepared - cooked - ripe.",
+      "zh": "準備好的－備妥的－煮熟的－成熟的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mxada",
+          "fr": "Qui est prêt - qui est cuit - qui est mûr.",
+          "en": "That is ready - that is cooked - that is ripe.",
+          "zh": "已準備好的－已煮熟的－已成熟的。",
+          "examples": [
+            {
+              "t": "Tai mxada do, mxa ta da!",
+              "fr": "Dès que c'est prêt, nous partons.",
+              "en": "As soon as it is ready, we leave.",
+              "zh": "一準備好，我們就出發。"
+            },
+            {
+              "t": "Mxada ka padyaq ni ana ana manu damat; idao ka ini kxada",
+              "fr": "La verdure et tous les plats sont prêts; c'est le riz qui ne l'est pas!",
+              "en": "The greens and all the dishes are ready; it's the rice that isn't!",
+              "zh": "青菜和所有的菜餚都好了；就是飯還沒好！"
+            },
+            {
+              "t": "Nta mqan; mxada ka idao da!",
+              "fr": "Viens manger; le riz est cuit",
+              "en": "Come eat; the rice is cooked",
+              "zh": "來吃飯；飯煮好了"
+            }
+          ]
+        },
+        {
+          "form": "Kxada",
+          "fr": "Forme pour le négatif, l'impératif.",
+          "en": "Form for the negative, the imperative.",
+          "zh": "用於否定、命令的形式。",
+          "examples": [
+            {
+              "t": "Ini kxada ka payai mo",
+              "fr": "Mon riz n'est pas encore mûr.",
+              "en": "My rice is not yet ripe.",
+              "zh": "我的稻子還沒成熟。"
+            }
+          ]
+        },
+        {
+          "form": "Mpkxada",
+          "fr": "(MP = futur) = Sera mûr, cuit, prêt;",
+          "en": "(MP = future) = Will be ripe, cooked, ready;",
+          "zh": "（MP＝未來式）＝將會成熟、煮熟、準備好；",
+          "examples": [
+            {
+              "t": "Mxa mklima..mkpito! Ida mpkxada ka blubul mo ole!",
+              "fr": "Il faudra cinq jours..sept jours.! De toute façon mes bananes aussi mûriront.",
+              "en": "It will take five days..seven days! In any case my bananas too will ripen.",
+              "zh": "得要五天……七天！無論如何我的香蕉也會成熟。"
+            }
+          ]
+        },
+        {
+          "form": "Msxada",
+          "fr": "Qui se prépare - qui mûrit - qui s'apprête.",
+          "en": "That is being prepared - that ripens - that is getting ready.",
+          "zh": "正在準備中的－正在成熟的－正在備妥的。",
+          "examples": [
+            {
+              "t": "Paro xedao do , ini biyao msxada ka xei qlopas",
+              "fr": "S'il fait grand soleil, les pêches mûrissent vite.",
+              "en": "If it is very sunny, the peaches ripen quickly.",
+              "zh": "若是大太陽，桃子很快就成熟。"
+            },
+            {
+              "t": "Tloong nanak! Ga msxada nanak ka idao!",
+              "fr": "Assieds toi seulement! Le riz est en train de se préparer tout seul.",
+              "en": "Just sit down! The rice is cooking all by itself.",
+              "zh": "你只管坐著！飯正在自己煮著呢。"
+            }
+          ]
+        },
+        {
+          "form": "Psxada",
+          "paradigm": "°Mpsxada, psxada, ? , psxdaan, psxdaon.",
+          "fr": "Préparer - apprêter - cuire - faire mûrir.",
+          "en": "To prepare - to make ready - to cook - to make ripen.",
+          "zh": "準備－備妥－烹煮－使成熟。",
+          "examples": [
+            {
+              "t": "Usa nama psxada (= usa psnama) idao ka iso",
+              "fr": "Toi, va en avant préparer le riz (repas)",
+              "en": "You, go on ahead and prepare the rice (meal)",
+              "zh": "你先去準備飯（餐食）"
+            },
+            {
+              "t": "Xedao bi ka mpsxada ana manu oqon",
+              "fr": "C'est bien le soleil qui fait mûrir toute la nourriture.",
+              "en": "It is indeed the sun that ripens all the food.",
+              "zh": "確實是太陽使所有食物成熟。"
+            }
+          ]
+        },
+        {
+          "form": "Mpsxada",
+          "fr": "1°Préparera - fera mûrir. 2° Agent qui prépare, qui cuit, qui fait mûrir.",
+          "en": "1° Will prepare - will make ripen. 2° Agent who prepares, who cooks, who makes ripen.",
+          "zh": "1°將準備－將使成熟。2°準備、烹煮、使成熟的施事者。",
+          "examples": [
+            {
+              "t": "Iso xo ka mpsxada oqon ?",
+              "fr": "Serait-ce par hasard toi qui (est capable de faire) fait mûrir les céréales ?",
+              "en": "Could it by chance be you who (is able to) makes the cereals ripen?",
+              "zh": "難道是你（有能力）使穀物成熟的嗎？"
+            },
+            {
+              "t": "Luus ko bi ka yako! ongat bi ka mpsxada oqon mo da!",
+              "fr": "Je suis un célibataire bien seul ! Il n'y a personne qui me prépare à manger !",
+              "en": "I am a very lonely bachelor! There is no one to prepare my meals!",
+              "zh": "我是個很孤單的單身漢！沒有人替我做飯吃！"
+            }
+          ]
+        },
+        {
+          "form": "Psxdaan",
+          "fr": "Temps de préparer - la préparation - la cuisson - le mûrissement.",
+          "en": "Time to prepare - the preparation - the cooking - the ripening.",
+          "zh": "準備的時間－準備－烹煮－成熟（過程）。",
+          "examples": [
+            {
+              "t": "Mqleqo (mkleqo) bi ka psxdaan ta blayan",
+              "fr": "Elle est bien compliquée notre préparation (cuisson) de lentilles!",
+              "en": "Our preparation (cooking) of lentils is really complicated!",
+              "zh": "我們煮扁豆（的準備）真是很複雜！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XADOL",
+      "tag": "(R)",
+      "fr": "Le sacrifice liturgique - Le fait de sacrifier. (nb. XADOL est surtout (en principe!) un rite joyeux d'action de grâce, de supplication. SMAPOX étant plus celui de réparation, d'expiation.).",
+      "en": "The liturgical sacrifice - The act of sacrificing. (n.b. XADOL is above all (in principle!) a joyful rite of thanksgiving, of supplication. SMAPOX being rather the rite of reparation, of expiation.).",
+      "zh": "禮儀性的獻祭－獻祭的行為。（註：XADOL 主要（原則上！）是一種歡樂的感恩、祈求的儀式。而 SMAPOX 則較屬於贖罪、補贖的儀式。）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Xmadol",
+          "paradigm": "°Xmadol, xadol, xdoli (?), xdolan, xdolun.",
+          "fr": "Offrir un sacrifice - offrir en sacrifice .",
+          "en": "To offer a sacrifice - to offer in sacrifice.",
+          "zh": "獻上祭品－以之為祭獻上。",
+          "examples": [
+            {
+              "t": "Mnangal ko tunuç siida do, pasi miyax mssli kana ka ddyami xxadol d'xa tuxan kingal b\"lo babwi",
+              "fr": "Le jour où j'ai rapporté une tête, tous les miens se sont réunis pour offrir à l'Esprit le sacrifice d'un porcelet.",
+              "en": "The day I brought back a head, all my people gathered to offer the Spirit the sacrifice of a piglet.",
+              "zh": "我獵回一顆首級的那天，我的族人全都聚集起來，向神靈獻上一頭小豬作祭。"
+            }
+          ]
+        },
+        {
+          "form": "Mxadol",
+          "fr": "Celui qui offre ce sacrifice - le sacrificateur.",
+          "en": "The one who offers this sacrifice - the sacrificer.",
+          "zh": "獻此祭的人－獻祭者（祭司）。",
+          "examples": [
+            {
+              "t": "Nyeqan ka mxadol sayang alang namo ? ... Nyeqan kia!",
+              "fr": "Y-a-t-il encore de nos jours, dans votre village, des gens qui offrent le sacrifice (xadol)? ... Oui! Il y en a encore!",
+              "en": "Are there still, nowadays, in your village, people who offer the sacrifice (xadol)? ... Yes! There are still some!",
+              "zh": "如今在你們的村子裡，還有人獻祭（xadol）嗎？……有的！還有！"
+            }
+          ]
+        },
+        {
+          "form": "Xdolan",
+          "fr": "Temps, lieu où l'on offre le sacrifice - Autel. (nb. Un autel, qui n'est jamais fixé chez les taroko, constitué d'une surélevation en pierre, bois, bambou, fabriquée pour la circonstance..assez rare!)",
+          "en": "Time, place where one offers the sacrifice - Altar. (n.b. An altar, which among the Taroko is never permanent, made of a raised structure of stone, wood, bamboo, built for the occasion..rather rare!)",
+          "zh": "獻祭的時間、地點－祭壇。（註：太魯閣人的祭壇從不固定，是用石頭、木頭、竹子臨時為該場合搭建的高台……相當罕見！）",
+          "examples": [
+            {
+              "t": "Sapax xdolan",
+              "fr": "Eglise (chrétien).",
+              "en": "Church (Christian).",
+              "zh": "教堂（基督宗教）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XADUN",
+      "tag": "(R. = ??)",
+      "fr": "Ce (celui) qu'on veut, doit ramener.",
+      "en": "That (the one) which one wants, must bring back.",
+      "zh": "想要、必須帶回來的（那個／那人）。",
+      "examples": [
+        {
+          "t": "Nasi mo xlayun do, xadun miso n'xali da!",
+          "fr": "Si j'arrive à le retrouver, je te le ramènerai aussitôt.",
+          "en": "If I manage to find it again, I will bring it back to you at once.",
+          "zh": "如果我能把它找回來，我會立刻帶回來給你。"
+        }
+      ]
+    },
+    {
+      "hw": "XADUT",
+      "tag": "(= R. ?)",
+      "fr": "Accompagner quelqu'un pour lui tenir compagnie.",
+      "en": "To accompany someone to keep them company.",
+      "zh": "陪伴某人以作伴。",
+      "examples": [
+        {
+          "t": "Saon miso xmadut, xo?",
+          "fr": "Veux tu que j'aille t'accompagner ?",
+          "en": "Do you want me to go accompany you?",
+          "zh": "你要我去陪你嗎？"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Xmadut",
+          "fr": "d° forme verbale.",
+          "en": "ditto, the verbal form (verbal form of the preceding).",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Xbalao bi sadyaq mniyax xmadut kman mnsa ko papa aso skaya siida",
+              "fr": "Ils sont venus très nombreux (de très nombreuses personnes sont venues) m'accompagner quand je suis allé prendre l'avion !",
+              "en": "They came in great numbers (very many people came) to accompany me when I went to take the plane!",
+              "zh": "當我去搭飛機時，他們來了很多人（來了非常多人）陪我！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XAKAO",
+      "tag": "(R)",
+      "fr": "Pont - échafaudage - échelle - tout ce qui permet d'être, de passer au dessus du vide ou de l'eau.",
+      "en": "Bridge - scaffolding - ladder - anything that allows one to be, to pass over a void or over water.",
+      "zh": "橋－鷹架－梯子－一切使人能越過空隙或水面的東西。",
+      "examples": [
+        {
+          "t": "Muda namo xakao xo?",
+          "fr": "Est-ce que vous passez par le pont?",
+          "en": "Do you cross by the bridge?",
+          "zh": "你們是走橋過去的嗎？"
+        },
+        {
+          "t": "Xakao otox",
+          "fr": "Arc-en-ciel ( pont de l'Esprit).",
+          "en": "Rainbow (bridge of the Spirit).",
+          "zh": "彩虹（神靈之橋）。"
+        },
+        {
+          "t": "Asi ka xakao tdoa ta mkalao dnamux sapax so! Soqe bbalao da!",
+          "fr": "Il faut une échelle pour pouvoir monter sur le toit de ta maison! Elle est tellement haute!",
+          "en": "You need a ladder to be able to climb onto the roof of your house! It is so high!",
+          "zh": "要有梯子才能爬上你家的屋頂！它太高了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mxakao",
+          "fr": "Servir de pont - devenir pont.",
+          "en": "To serve as a bridge - to become a bridge.",
+          "zh": "充當橋樑－變成橋。",
+          "examples": [
+            {
+              "t": "Mntaqol smqet yayong ka pusu sakus o, malu bi ka kia! Wada mxakao nanak ka xea!",
+              "fr": "Le camphrier est tombé en travers du torrent: c'est merveilleux! Il s'est placé là comme un pont (il est devenu pont)!",
+              "en": "The camphor tree fell across the torrent: it's wonderful! It set itself there like a bridge (it became a bridge)!",
+              "zh": "樟樹橫倒在溪流上：真是太好了！它就那樣像橋一樣橫在那裡（它變成了橋）！"
+            }
+          ]
+        },
+        {
+          "form": "Xkagun",
+          "fr": "Ce qu'on veut servir, ce dont on doit se servir pour faire pont - L'endroit où on fera le pont.",
+          "en": "What one wants to use, what one must use to make a bridge - The place where the bridge will be built.",
+          "zh": "想用來、必須用來架橋的東西－架橋的地點。",
+          "examples": [
+            {
+              "t": "Adi so xkagun ka yayong",
+              "fr": "Ne veux tu pas faire un pont sur ce torrent là ?",
+              "en": "Don't you want to make a bridge over that torrent there?",
+              "zh": "你不想在那條溪流上架一座橋嗎？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XAL",
+      "tag": "",
+      "fr": "Jamais rencontré sous cette forme simple, XAL semble bien être [la racine ?] de tous (?) les termes ci-dessous!). = Ensemble (?) en une fois(",
+      "en": "Never encountered in this simple form, XAL does indeed seem to be [the root ?] of all (?) the terms below!). = Together (?) at one go (",
+      "zh": "從未見過此簡單形式，XAL 看來確實是以下所有（？）詞的[詞根？]！）。＝一起（？）一次（",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Pxal",
+          "fr": "Une seule fois.",
+          "en": "A single time - just once.",
+          "zh": "只有一次。",
+          "examples": [
+            {
+              "t": "Ana pxal balae ini ko bi soa!",
+              "fr": "Même (pour) [une] seule fois, je ne permets absolument pas!",
+              "en": "Even (for) a single time, I absolutely do not allow it!",
+              "zh": "即使（只有）一次，我也絕對不允許！"
+            }
+          ]
+        },
+        {
+          "form": "Ppxal",
+          "fr": "De temps en temps - une fois ou l'autre.",
+          "en": "From time to time - once in a while.",
+          "zh": "偶爾－時而一次。",
+          "examples": [
+            {
+              "t": "Ppxal ko bi musa pslixao ka yako",
+              "fr": "Ce n'est que de temps à autre que je vais me regarder dans la glace (le miroir), moi !",
+              "en": "It's only from time to time that I go look at myself in the mirror!",
+              "zh": "我只是偶爾才去照鏡子而已！"
+            }
+          ]
+        },
+        {
+          "form": "Mpxal",
+          "fr": "Faire une seule fois - celui qui ne fait qu'une fois.",
+          "en": "To do only once - the one who does it only once.",
+          "zh": "只做一次－只做一次的人。",
+          "examples": [
+            {
+              "t": "Mpxal bi musa mita",
+              "fr": "C'est l'unique fois où je vais voir.",
+              "en": "It's the only time I will go see.",
+              "zh": "這是我唯一一次去看。"
+            }
+          ]
+        },
+        {
+          "form": "Mnpxal",
+          "fr": "Une seule fois dans le passé.",
+          "en": "A single time in the past.",
+          "zh": "過去只有一次。",
+          "examples": [
+            {
+              "t": "Mnpia (mnpiya ?) so da ? .. Mnpxal ko balae!",
+              "fr": "Cela te fait déjà combien de fois? ... Une seule [fois]!",
+              "en": "How many times does that make for you already? ... Only once!",
+              "zh": "這對你來說已經是第幾次了？……只有一次！"
+            }
+          ]
+        },
+        {
+          "form": "Snxal",
+          "fr": "Unique - en une seule fois.",
+          "en": "Unique - in a single time.",
+          "zh": "唯一的－一次完成。",
+          "examples": [
+            {
+              "t": "Snxali bi musa napa, ongat ta bi diyax snpsalan musa da",
+              "fr": "Va porter en une seule fois; nous n'avons plus le temps d'y aller deux fois.",
+              "en": "Go carry it in a single trip; we no longer have time to go there twice.",
+              "zh": "一次就把它揹去；我們沒時間去兩趟了。"
+            }
+          ]
+        },
+        {
+          "form": "Snxalan",
+          "fr": "Résultat d'une seule fois - temps d'une seule fois.",
+          "en": "Result of a single time - the time of a single occasion.",
+          "zh": "一次的結果－一次的時間。",
+          "examples": [
+            {
+              "t": "Balae bi snxalan so mapa kana ka nii?",
+              "fr": "Tu as vraiment porté tout cela en une seule fois ?",
+              "en": "Did you really carry all this in a single trip?",
+              "zh": "你真的一次就把這些全揹了嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Pnxalan",
+          "fr": "Le temps, les circonstances d'une seule fois, réalisée.",
+          "en": "The time, the circumstances of a single occasion, accomplished.",
+          "zh": "一次（已實現）的時間、情境。",
+          "examples": [
+            {
+              "t": "Pnxalan so miyax siida",
+              "fr": "Lors de ce que tu as voulu être la seule fois (= Lors de la première et unique fois où tu es venu (?).).",
+              "en": "At what you wanted to be the only time (= At the first and only time you came (?).).",
+              "zh": "在你想要成為唯一一次的那時候（＝在你來的第一次也是唯一一次（？）。）。"
+            }
+          ]
+        },
+        {
+          "form": "Mknxal (R. = XAL ?)",
+          "fr": "Contemporain .",
+          "en": "Contemporary.",
+          "zh": "同時代的（人）。",
+          "examples": [
+            {
+              "t": "Ongat bi ka mknxal ta sayang !",
+              "fr": "Ils ne valent vraiment pas cher nos contemporains !",
+              "en": "Our contemporaries really aren't worth much!",
+              "zh": "我們這些同時代的人真的一點也不值錢！"
+            }
+          ]
+        },
+        {
+          "form": "Knxalan (R. = XAL ?)",
+          "fr": "?? - (R. = XAL ?).",
+          "en": "?? - (R. = XAL ?).",
+          "zh": "？？－（詞根＝XAL？）。",
+          "examples": [
+            {
+              "t": "Ludan knxalan",
+              "fr": "Le groupe des anciens (= Le groupe des plus âgés qui ont le même âge, qui donc ont la même autorité ??).",
+              "en": "The group of elders (= The group of the oldest ones who are the same age, and who therefore have the same authority ??).",
+              "zh": "長老的群體（＝年紀最長、同齡因而具有相同權威的一群人？？）。"
+            }
+          ]
+        },
+        {
+          "form": "N'xal (R. = XAL ?)",
+          "fr": "A la fin - à la saint-glinglin.",
+          "en": "At the end - at the twelfth of never ('à la saint-glinglin').",
+          "zh": "到最後－遙遙無期（永不）。",
+          "examples": [
+            {
+              "t": "Adi miso sx'ngiyun ana betak n'xal!",
+              "fr": "Je ne t'oublierai jamais (= même jusqu'à la fin).",
+              "en": "I will never forget you (= even until the very end).",
+              "zh": "我永遠不會忘記你（＝甚至直到最後）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "XALI",
+      "tag": "(R)",
+      "fr": "Mot outil fréquent, ajoutant le sens de: Un peu - presque - pas beaucoup.",
+      "en": "Frequent function word, adding the sense of: A little - almost - not much.",
+      "zh": "常用的虛詞，添加「一點－幾乎－不多」的意思。",
+      "examples": [
+        {
+          "t": "Mbiyax xali",
+          "fr": "Un peu plus fort - un peu mieux (malades)-",
+          "en": "A little stronger - a little better (of sick people)-",
+          "zh": "稍微強一點－（病人）稍微好一點－"
+        },
+        {
+          "t": "Ini ko xali kmusa",
+          "fr": "Je ne suis pas très disposé à aller.",
+          "en": "I am not very inclined to go.",
+          "zh": "我不太想去。"
+        },
+        {
+          "t": "Ini xali toko",
+          "fr": "Il en manque un petit peu pour être assez.",
+          "en": "It's a little short of being enough.",
+          "zh": "還差一點點才夠。"
+        },
+        {
+          "t": "Siqa xali!",
+          "fr": "Sois un peu réservé!",
+          "en": "Be a little reserved!",
+          "zh": "矜持一點！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "N'xali",
+          "fr": "Vite - rapide (Y aurait-il quelque parenté avec cette R.XALI?",
+          "en": "Fast - quick (Might there be some kinship with this root XALI?",
+          "zh": "快－迅速（會不會與此詞根 XALI 有某種關聯？",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "XALONG",
+      "tag": "(R)",
+      "fr": "Pin - conifère très résineux. (nb. Le système d'éclairage , exclusif chez les taroko jusqu'à ces derniers temps, était constitué",
+      "en": "Pine - a very resinous conifer. (n.b. The lighting system, used exclusively among the Taroko until recent times, consisted",
+      "zh": "松樹－富含樹脂的針葉樹。（註：直到近代太魯閣人專門使用的照明方式，是由",
+      "examples": [],
+      "truncated": true
+    }
+  ]
+}

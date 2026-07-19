@@ -1,0 +1,837 @@
+{
+  "pages": [34, 37],
+  "leadin": {
+    "fr": "Toi tu es nouveau venu.",
+    "en": "You, you are a newcomer.",
+    "zh": "你是新來的人。",
+    "examples": [],
+    "subs": [
+      {
+        "form": "Tnblxan",
+        "fr": "(R. = BALAX récent, neuf? - BULAX ? = nouveau? - BOLOX = se séparer ?)",
+        "en": "(R. = BALAX recent, new? - BULAX? = new? - BOLOX = to separate?)",
+        "zh": "（詞根＝BALAX 新近的、新的？－BULAX？＝新的？－BOLOX＝分離？）",
+        "examples": [
+          {
+            "t": "Kia ka tnblxan na laqe",
+            "fr": "Voilà son ainé (?)(vl. Voilà son nouveau né ? vl. Voilà l'enfant né d'elle ??)",
+            "en": "There is her eldest child (?) (var.: There is her newborn? var.: There is the child born of her??)",
+            "zh": "這是她的長子（？）（或：這是她的新生兒？或：這是她親生的孩子？？）"
+          }
+        ]
+      },
+      {
+        "form": "Bnlaxan",
+        "fr": "Ce qui est récent - ce qui vient d'être produit.",
+        "en": "That which is recent - that which has just been produced.",
+        "zh": "新近的事物；剛剛產生的事物。",
+        "examples": [
+          {
+            "t": "Xana bnlaxan na sndxgan sida",
+            "fr": "Juste au moment où il venait de faire l'accord.",
+            "en": "Just at the moment when he had made the agreement.",
+            "zh": "正當他剛達成協議之時。"
+          },
+          {
+            "t": "Bnlaxan sndxgan",
+            "fr": "Nouveau testament (Bible).",
+            "en": "New Testament (Bible).",
+            "zh": "新約（聖經）。"
+          }
+        ]
+      },
+      {
+        "form": "Ptbalax",
+        "fr": "Faire déménager - faire émigrer - transplanter.",
+        "en": "To make (someone) move house - to make emigrate - to transplant.",
+        "zh": "使搬遷；使移居；移植。",
+        "examples": [
+          {
+            "t": "Adi manu ka ini sloaani ptbalax",
+            "fr": "Et voici pourquoi il ne voulait pas devoir changer de domicile.",
+            "en": "And this is why he did not want to have to change his residence.",
+            "zh": "這就是他不願被迫搬家的原因。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "BALI",
+      "tag": "(R)",
+      "paradigm": "Mali, bali, bligi, bligan, bligun",
+      "fr": "Acheter - vendre.",
+      "en": "To buy - to sell.",
+      "zh": "買；賣。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mali",
+          "fr": "Acheter, vendre, (forme verbale).",
+          "en": "To buy, to sell (verbal form).",
+          "zh": "買、賣（動詞形）。",
+          "examples": [
+            {
+              "t": "Mnsa ko mali timu ni usik ni ayang",
+              "fr": "Je suis allé acheter du sel des piments et du pétrole.",
+              "en": "I went to buy salt, chili peppers and kerosene.",
+              "zh": "我去買了鹽、辣椒和煤油。"
+            },
+            {
+              "t": "Ma ini so bligi ka trabus so ?",
+              "fr": "Pourquoi n'as tu pas vendu tes arachides ?",
+              "en": "Why have you not sold your peanuts?",
+              "zh": "你為什麼還沒賣掉你的花生？"
+            },
+            {
+              "t": "Mklae bi bligan",
+              "fr": "Elles se vendent (s'achètent) très cher en ce moment !",
+              "en": "They are selling (being bought) at a very high price at the moment!",
+              "zh": "它們現在賣得（買得）非常貴！"
+            }
+          ]
+        },
+        {
+          "form": "Mbali",
+          "fr": "Acheteur - vendeur.",
+          "en": "Buyer - seller.",
+          "zh": "買者；賣者。",
+          "examples": [
+            {
+              "t": "Mnda alang ka mbali qabang",
+              "fr": "Le vendeur de couvertures est passé par le village.",
+              "en": "The blanket seller passed through the village.",
+              "zh": "賣毯子的小販經過了村子。"
+            },
+            {
+              "t": "Mbali xei",
+              "fr": "prostituée = qui vend son corps.",
+              "en": "prostitute = one who sells her body.",
+              "zh": "妓女，即出賣肉體者。"
+            }
+          ]
+        },
+        {
+          "form": "Bligan",
+          "fr": "Lieu, temps, objet de vente.",
+          "en": "Place, time, object of sale.",
+          "zh": "販賣的地點、時間、物品。",
+          "examples": [
+            {
+              "t": "Bligun mo ka sqmo; kmbali so xo ? ... Adi ! Saan mo mali sapax bligan",
+              "fr": "Je veux vendre mon maïs; Tu veux l'acheter ? ... Non ! J'irai l'acheter au magasin.",
+              "en": "I want to sell my maize; do you want to buy it? ... No! I will go and buy it at the shop.",
+              "zh": "我要賣我的玉米；你要買嗎？……不！我要去店裡買。"
+            },
+            {
+              "t": "Malu bi bligan sqmo ka sayang!",
+              "fr": "En ce moment le temps est favorable pour la vente du maïs.",
+              "en": "Right now the time is favorable for selling maize.",
+              "zh": "現在正是賣玉米的好時機。"
+            }
+          ]
+        },
+        {
+          "form": "Nali",
+          "fr": "La marchandise achetée - vendue.",
+          "en": "The merchandise bought - sold.",
+          "zh": "買進或賣出的貨物。",
+          "examples": [
+            {
+              "t": "Nangal so ino ka patas so ? = Nali mo alang paro",
+              "fr": "Où as tu pris ton livre? ... Je l'ai acheté en ville.",
+              "en": "Where did you get your book? ... I bought it in town.",
+              "zh": "你的書是從哪裡拿來的？……我在城裡買的。"
+            }
+          ]
+        },
+        {
+          "form": "Smbali",
+          "fr": "Faire du commerce.",
+          "en": "To engage in trade.",
+          "zh": "做買賣；經商。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BALONG",
+      "tag": "(R)",
+      "fr": "Oeuf (de tous les ovipares).",
+      "en": "Egg (of all oviparous animals).",
+      "zh": "卵；蛋（一切卵生動物的）。",
+      "examples": [
+        {
+          "t": "Balong lodoç",
+          "fr": "Oeuf de poule",
+          "en": "Hen's egg",
+          "zh": "雞蛋"
+        },
+        {
+          "t": "Balong qoyo",
+          "fr": "Oeuf de serpent",
+          "en": "Snake's egg",
+          "zh": "蛇蛋"
+        },
+        {
+          "t": "Balong ksoloç",
+          "fr": "Oeuf de poisson",
+          "en": "Fish egg",
+          "zh": "魚卵"
+        },
+        {
+          "t": "Balong kuxeng",
+          "fr": "Oeuf de pou",
+          "en": "Louse egg (nit)",
+          "zh": "蝨卵"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Tmbalong",
+          "fr": "Pondre - Faire des oeufs.",
+          "en": "To lay - to produce eggs.",
+          "zh": "下蛋；產卵。",
+          "examples": [
+            {
+              "t": "Lodoç mo o, tmbalong ka doma ni ini ka doma; doma o, knta\"to kmlawa; tai ka lolo mo o, msiyam nanak.",
+              "fr": "Mes poules, il y en a qui pondent et d'autres pas; d'autres encore ne font que couver; quant à ma canne, elle s'engraisse !",
+              "en": "As for my hens, some lay and others do not; still others do nothing but brood; as for my duck, it just keeps growing fat!",
+              "zh": "我的雞，有的下蛋，有的不下；還有的只會孵蛋；至於我的鴨子，牠只顧長肥！"
+            }
+          ]
+        },
+        {
+          "form": "Tnbalong",
+          "fr": "Le propriétaire, le responsable, le producteur des oeufs.",
+          "en": "The owner, the one responsible for, the producer of the eggs.",
+          "zh": "蛋的主人、負責者、生產者。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BALONG",
+      "tag": "(R)",
+      "fr": "Testicules de l'appareil génital masculin.",
+      "en": "Testicles of the male genital apparatus.",
+      "zh": "男性生殖器官的睪丸。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BANASI",
+      "tag": "(R.?)",
+      "fr": "Connu dans la seule expression:",
+      "en": "Known only in the single expression:",
+      "zh": "僅見於下列這一個說法：",
+      "examples": [
+        {
+          "t": "Kasi banasi",
+          "fr": "Le fait de se raconter des histoires, de parler de rien, de papoter.",
+          "en": "The act of telling each other stories, of talking about nothing, of chattering.",
+          "zh": "彼此閒聊講故事、談些無關緊要的事、閒扯。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BANAX",
+      "tag": "(R)",
+      "fr": "Rouge.",
+      "en": "Red.",
+      "zh": "紅色。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbanax",
+          "fr": "Etre rouge - qui est rouge.",
+          "en": "To be red - that which is red.",
+          "zh": "是紅色的；紅色的東西。",
+          "examples": [
+            {
+              "t": "Mbanax ka kana lukus so",
+              "fr": "Tous tes habits sont rouges.",
+              "en": "All your clothes are red.",
+              "zh": "你所有的衣服都是紅色的。"
+            },
+            {
+              "t": "Mbanax kana ka lukus so",
+              "fr": "Ton habit est tout rouge.",
+              "en": "Your garment is all red.",
+              "zh": "你的衣服整件都是紅的。"
+            },
+            {
+              "t": "Mbanax tunuç",
+              "fr": "Tête rouge (= Les américains et tous les non asiatiques.",
+              "en": "Red head (= the Americans and all non-Asians).",
+              "zh": "紅頭（指美國人及所有非亞洲人）。"
+            }
+          ]
+        },
+        {
+          "form": "Kbanax",
+          "fr": "Forme négative (et impérative) de MBANAX.",
+          "en": "Negative (and imperative) form of MBANAX.",
+          "zh": "MBANAX 的否定（及命令）形。",
+          "examples": [
+            {
+              "t": "Ini kbanax ka tunux mo",
+              "fr": "Je n'ai pas les cheveux rouges.",
+              "en": "My hair is not red.",
+              "zh": "我的頭髮不是紅色的。"
+            }
+          ]
+        },
+        {
+          "form": "Mabanax",
+          "fr": "Va devenir rouge.",
+          "en": "Is going to become red.",
+          "zh": "將要變紅。",
+          "examples": [
+            {
+              "t": "Adi biyaw mabanax kana lxluk",
+              "fr": "Avant peu toutes les airelles seront rouges.",
+              "en": "Before long all the bilberries will be red.",
+              "zh": "不久所有的越橘果都會變紅。"
+            }
+          ]
+        },
+        {
+          "form": "Knbanax",
+          "fr": "Le degré de rougeur.",
+          "en": "The degree of redness.",
+          "zh": "紅的程度。",
+          "examples": [
+            {
+              "t": "Msklui ko mita knbanax daolyaq so",
+              "fr": "Je suis surpris de voir comme tes yeux sont rouges.",
+              "en": "I am surprised to see how red your eyes are.",
+              "zh": "我很驚訝看到你的眼睛這麼紅。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbanax",
+          "paradigm": "Pkbanax, pkbnaxe, pkbnaxan, pkbnaxon",
+          "fr": "Faire être rouge.",
+          "en": "To make (something) be red.",
+          "zh": "使成紅色。",
+          "examples": [
+            {
+              "t": "Pkbanaxe tityex pdaxong qoaq so!",
+              "fr": "Mets un peu de rouge sur tes lèvres !",
+              "en": "Put a little red on your lips!",
+              "zh": "在你的嘴唇上抹點紅吧！"
+            }
+          ]
+        },
+        {
+          "form": "Knbnaxan",
+          "fr": "La rougeur.",
+          "en": "The redness.",
+          "zh": "紅色；紅暈。",
+          "examples": [
+            {
+              "t": "Msoqe bi ka knbnaxan ubal snunux nia",
+              "fr": "La rougeur de ses cheveux est trop exagérée.",
+              "en": "The redness of her hair is far too extreme.",
+              "zh": "她頭髮的紅色太過誇張了。"
+            }
+          ]
+        },
+        {
+          "form": "Tbanax",
+          "fr": "Intensément rouge.",
+          "en": "Intensely red.",
+          "zh": "極紅的。",
+          "examples": [
+            {
+              "t": "Asi tbanax kana dqalas nia",
+              "fr": "(Aussitôt) tout son visage devient de pourpre.",
+              "en": "(At once) his whole face turns crimson.",
+              "zh": "（頓時）他整張臉變成紫紅色。"
+            }
+          ]
+        },
+        {
+          "form": "Mtbanax",
+          "fr": "Qui devient rouge - qui rougit.",
+          "en": "That which becomes red - one who blushes.",
+          "zh": "變紅的；會臉紅的。",
+          "examples": [
+            {
+              "t": "Xmut ko mtbanax ka yako",
+              "fr": "Moi, pour un rien je rougis!",
+              "en": "As for me, I blush at the slightest thing!",
+              "zh": "我呀，一點小事就會臉紅！"
+            }
+          ]
+        },
+        {
+          "form": "Ptbanax",
+          "paradigm": "Ptbanax, ptbanax, ptbnaxe, ptbnaxan, ptbnaxon",
+          "fr": "Faire rougir - Faire devenir rouge.",
+          "en": "To make blush - to make become red.",
+          "zh": "使臉紅；使變紅。",
+          "examples": [
+            {
+              "t": "Ptbnxani tityex dqalas laqe so",
+              "fr": "Trouve le moyen pour mettre un peu de couleur (faire rougir) sur le visage de ton enfant !",
+              "en": "Find a way to put a little color on your child's face (make it rosy)!",
+              "zh": "想個辦法讓你孩子的臉上添點血色（變紅潤）吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BANGAX",
+      "tag": "(R)",
+      "fr": "Braise - charbon.",
+      "en": "Embers - charcoal.",
+      "zh": "炭火；木炭。",
+      "examples": [
+        {
+          "t": "Bsiyaq bi snbuyas ka laqe mo ni malu da ! \"mu bangax ka snkmalu xeaan",
+          "fr": "Pendant longtemps mon fils a souffert de diarrhée et il est guéri! C'est la poudre de charbon qui l'a guéri.",
+          "en": "For a long time my son suffered from diarrhea, and now he is cured! It is the charcoal powder that cured him.",
+          "zh": "我兒子拉肚子拉了很久，現在痊癒了！是木炭粉治好了他。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BASAO",
+      "tag": "(R)",
+      "fr": "Espèce de céréale aux grains très petits et allongés contenus dans un épi semblable à celui de l'avoine dont les Taroko tirent une farine très appréciée.",
+      "en": "A kind of cereal with very small, elongated grains contained in an ear similar to that of oats, from which the Taroko make a much-appreciated flour.",
+      "zh": "一種穀物，穀粒細小而長，穗形似燕麥；太魯閣人用它磨出很受喜愛的粉。",
+      "examples": [
+        {
+          "t": "\"Mu basao",
+          "fr": "farine de BASAO.",
+          "en": "BASAO flour.",
+          "zh": "BASAO 之粉。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BASI",
+      "tag": "(R)",
+      "fr": "1) Acide. 2) Triste - morne - en deuil.",
+      "en": "1) Sour. 2) Sad - gloomy - in mourning.",
+      "zh": "1）酸的。2）悲傷的；淒涼的；服喪的。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbasi",
+          "fr": "1) Etre acide. 2) Etre triste, morne, en deuil.",
+          "en": "1) To be sour. 2) To be sad, gloomy, in mourning.",
+          "zh": "1）是酸的。2）悲傷、淒涼、如在服喪。",
+          "examples": [
+            {
+              "t": "Ana mbasi ka tlaxe nii o, ida mo öqon",
+              "fr": "Bien que ce pamplemousse soit acide je le mangerai quand même.",
+              "en": "Even though this pomelo is sour, I will eat it all the same.",
+              "zh": "這個柚子雖然酸，我還是會吃。"
+            },
+            {
+              "t": "Ma sao bi mbasi ka nyeqan ta xeni!",
+              "fr": "Comme c'est morne (comme si on était en deuil) où nous sommes ici !",
+              "en": "How gloomy it is (as if we were in mourning) here where we are!",
+              "zh": "我們這地方多麼淒涼（彷彿在服喪一樣）！"
+            }
+          ]
+        },
+        {
+          "form": "Tbasi",
+          "fr": "Qui est tout triste - qui est tout acide.",
+          "en": "That which is all sad - that which is all sour.",
+          "zh": "十分悲傷的；十分酸的。",
+          "examples": [
+            {
+              "t": "Ya sa tbasi bi ka dtlaxe",
+              "fr": "Vu que les pamplemousses sont (naturellement) acides.",
+              "en": "Seeing that pomelos are (naturally) sour.",
+              "zh": "因為柚子（天生）就是酸的。"
+            }
+          ]
+        },
+        {
+          "form": "Ptbasi",
+          "fr": "Rendre triste - rendre acide.",
+          "en": "To make sad - to make sour.",
+          "zh": "使悲傷；使變酸。",
+          "examples": [
+            {
+              "t": "Manu ka yaxan so ptbasi nanak pnlxolan ta ?",
+              "fr": "Qu'est ce qui te prend de ne venir que pour assombrir notre réunion ?",
+              "en": "What has come over you, that you come only to cast gloom over our gathering?",
+              "zh": "你是怎麼了，來這裡只為了讓我們的聚會蒙上陰影？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BASYAQ",
+      "tag": "(R.?)",
+      "fr": "S'empiffrer.",
+      "en": "To stuff oneself.",
+      "zh": "暴飲暴食。",
+      "examples": [
+        {
+          "t": "tibasyaq (Tbasyaq) mqan ni mimax ka anai mo",
+          "fr": "Mon beau frère mange et boit sans mesure.",
+          "en": "My brother-in-law eats and drinks without measure.",
+          "zh": "我的姻親兄弟毫無節制地又吃又喝。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "BAUXI",
+      "tag": "(R)",
+      "fr": "Lys - fleur de lys. (Très communs dans la montagne).",
+      "en": "Lily - lily flower. (Very common in the mountains.)",
+      "zh": "百合；百合花。（山中極為常見。）",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BAWA",
+      "tag": "(R)",
+      "fr": "Fermenter - gonfler - mousser.",
+      "en": "To ferment - to swell - to foam.",
+      "zh": "發酵；膨脹；起泡。",
+      "examples": [
+        {
+          "t": "Bawa \"silong",
+          "fr": "Eponge.",
+          "en": "Sponge.",
+          "zh": "海綿。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbawa",
+          "fr": "Qui mousse - qui gonfle - qui se soulève - qui fermente.",
+          "en": "That which foams - which swells - which rises - which ferments.",
+          "zh": "起泡的；膨脹的；隆起的；發酵的。",
+          "examples": [
+            {
+              "t": "Mbawa bi ka tlangan so, ini xali kbawa ka nnako",
+              "fr": "Ton siège est très doux (élastique, souple), le mien, pas beaucoup !",
+              "en": "Your seat is very soft (springy, supple); mine, not so much!",
+              "zh": "你的座椅很軟（有彈性、柔軟），我的就不怎麼樣！"
+            },
+            {
+              "t": "Bgixol ka skbawa kana \"silong (gsilong)",
+              "fr": "C'est le vent qui fait mousser toute la mer.",
+              "en": "It is the wind that makes the whole sea foam.",
+              "zh": "是風使整片海起了泡沫。"
+            }
+          ]
+        },
+        {
+          "form": "Pbawa",
+          "fr": "Faire mousser - faire fermenter.",
+          "en": "To make foam - to make ferment.",
+          "zh": "使起泡；使發酵。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "BAWA",
+      "tag": "",
+      "fr": "Pain. ( Inconnu chez les taroko, c'est le mot par lequel ils désignent le pain = ce qui est gonflé, ce que la fermentation (levain) a fait soulever.",
+      "en": "Bread. (Unknown among the Taroko, this is the word by which they designate bread = that which is puffed up, that which fermentation (leaven) has made rise.",
+      "zh": "麵包。（太魯閣人原本不知麵包；他們用這個詞來稱呼麵包，意即「膨起之物」，也就是發酵（酵母）使之隆起的東西。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "BAXANG",
+      "tag": "(R)",
+      "paradigm": "Mbaxang, baxang, bxangi, bxangan, bxangun",
+      "fr": "Entendre.",
+      "en": "To hear.",
+      "zh": "聽見。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Mbaxang",
+          "fr": "Entendre - être celui qui entend.",
+          "en": "To hear - to be the one who hears.",
+          "zh": "聽見；聽見的人。",
+          "examples": [
+            {
+              "t": "Adi so bi mpqnoqo nasi so mbaxang lntadan qoaq mo",
+              "fr": "Tu ne pourras pas te tromper si tu entends ma voix.",
+              "en": "You will not be able to go wrong if you hear my voice.",
+              "zh": "你若聽見我的聲音，就不會弄錯。"
+            },
+            {
+              "t": "Ana mkpoxel ka bilat mo o, mbaxang ko bi ka luulan xeuling",
+              "fr": "J'ai beau être dur d'oreille, j'entends bien les chiens qui aboyent.",
+              "en": "Hard of hearing though I am, I can hear the barking dogs quite well.",
+              "zh": "儘管我耳背，狗叫聲我還是聽得很清楚。"
+            },
+            {
+              "t": "Ini so kbaxang ka iso",
+              "fr": "Toi tu n'entends pas !",
+              "en": "You, you do not hear!",
+              "zh": "你呀，你聽不見！"
+            }
+          ]
+        },
+        {
+          "form": "Pkbaxang",
+          "fr": "Faire entendre - redonner l'ouïe.",
+          "en": "To make hear - to restore hearing.",
+          "zh": "使聽見；使恢復聽力。",
+          "examples": [
+            {
+              "t": "Kingal msapox alang paro ka pnkbaxang knan",
+              "fr": "C'est un médecin de la ville qui m'a redonné la faculté d'entendre.",
+              "en": "It was a doctor from the town who gave me back the faculty of hearing.",
+              "zh": "是城裡的一位醫生讓我恢復了聽力。"
+            }
+          ]
+        },
+        {
+          "form": "Pkbaxang ? - Pqbaxang ?",
+          "fr": "Avertir - faire savoir - communiquer (Pkbaxang signifie: faire entendre; Pqbaxang signifie: faire écouter).",
+          "en": "To notify - to let know - to communicate (Pkbaxang means: to make hear; Pqbaxang means: to make listen).",
+          "zh": "告知；使知道；傳達（Pkbaxang 意為「使聽見」；Pqbaxang 意為「使聆聽」）。",
+          "examples": [
+            {
+              "t": "Miyax ko pkbaxang (pqbaxang ?) sunan ana manu ka bnxangan mo kari",
+              "fr": "Je viens te faire part de tout ce que j'ai entendu dire.",
+              "en": "I come to inform you of everything I have heard said.",
+              "zh": "我來把我所聽到的一切告訴你。"
+            }
+          ]
+        },
+        {
+          "form": "Bxangan",
+          "fr": "ce qui est entendu - manière dont on entend.",
+          "en": "that which is heard - the way in which one hears.",
+          "zh": "所聽到的內容；聽起來的樣子。",
+          "examples": [
+            {
+              "t": "Malu bi bxangan ka bnxangan mo oyes",
+              "fr": "Ils sont mélodieux les chants que j'ai entendus.",
+              "en": "The songs I heard are melodious.",
+              "zh": "我聽到的歌謠十分悅耳。"
+            }
+          ]
+        },
+        {
+          "form": "Kmkbaxang",
+          "fr": "Désirer entendre.",
+          "en": "To desire to hear.",
+          "zh": "想要聽。",
+          "examples": [
+            {
+              "t": "Kmkbaxang ko bi klkari so",
+              "fr": "J'aimerais bien entendre (écouter?) tes paroles !",
+              "en": "I would very much like to hear (listen to?) your words!",
+              "zh": "我很想聽聽（聆聽？）你的話！"
+            }
+          ]
+        },
+        {
+          "form": "Qbaxang",
+          "paradigm": "Qmbaxang, qbaxang, qbxangi, qbxangan, qbxangun",
+          "fr": "Ecouter - obeir. ( La distinction: KBAXANG = entendre et: QBAXANG = écouter est loin d'être évidente; le plus grand nombre des locuteurs ne semblent pas la faire du tout! D'autres disent régulièrement: mbaxang nami balae = Nous entendons bien (ta voix est assez forte)! et: Mqbaxang nami balae = Nous écoutons bien (nous ne sommes pas distraits)! A la rigueur le Q de QBAXANG pourrait n'être que le K optatif et: écouter deviendrait: désirer entendre! Nous verrons la même difficulté avec MITA = voir et QMITA = regarder, où il y a la forme impérative: TAI = vois et Qtai (KTAI ?) = regarde !",
+          "en": "To listen - to obey. (The distinction: KBAXANG = to hear and QBAXANG = to listen is far from obvious; the great majority of speakers do not seem to make it at all! Others regularly say: mbaxang nami balae = We hear well (your voice is loud enough)! and: Mqbaxang nami balae = We listen well (we are not distracted)! At a pinch, the Q of QBAXANG might be nothing but the optative K, and 'to listen' would become 'to desire to hear'! We shall meet the same difficulty with MITA = to see and QMITA = to look at, where there is the imperative form: TAI = see and Qtai (KTAI?) = look!",
+          "zh": "聆聽；服從。（KBAXANG＝「聽見」與 QBAXANG＝「聆聽」之間的區別遠非顯而易見；絕大多數說話者似乎完全不作此區分！另有些人則慣常說：mbaxang nami balae＝我們聽得很清楚（你的聲音夠大）！以及：Mqbaxang nami balae＝我們聽得很專心（我們沒有分心）！嚴格說來，QBAXANG 的 Q 或許只是祈願形的 K，「聆聽」便成了「想要聽」！我們在 MITA＝「看見」與 QMITA＝「注視」也會遇到同樣的困難，其命令形為：TAI＝「看」與 Qtai（KTAI？）＝「注視」！",
+          "examples": []
+        },
+        {
+          "form": "Mqbaxang",
+          "fr": "auditeur - Celui qui obeit.",
+          "en": "listener - the one who obeys.",
+          "zh": "聆聽者；服從的人。",
+          "examples": [
+            {
+              "t": "Ana mo si lngagi o, ongat ka mqbaxang",
+              "fr": "J'aurais (j'ai) beau parler, il n'y a personne pour écouter.",
+              "en": "However much I might speak (I speak), there is no one to listen.",
+              "zh": "任憑我怎麼說，也沒有人聽。"
+            }
+          ]
+        },
+        {
+          "form": "Pqbaxang",
+          "fr": "Faire écouter - faire qu'on écoute.",
+          "en": "To make listen - to make people listen.",
+          "zh": "使聆聽；讓人聽。",
+          "examples": [
+            {
+              "t": "Mllawa kana ka lqlaqe matas; sai bi pqbaxang tityex!",
+              "fr": "Tous les écoliers font du chahut; va donc un peu les faire écouter!",
+              "en": "All the schoolchildren are making a racket; go and make them listen a little!",
+              "zh": "學童們全都在吵鬧；快去讓他們安靜聽講吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BAXENG",
+      "tag": "(R)",
+      "fr": "Paresse.",
+      "en": "Laziness.",
+      "zh": "懶惰。",
+      "examples": [
+        {
+          "t": "Tayal bi baxeng so!",
+          "fr": "Quelle paresse tu tiens!",
+          "en": "What laziness you have!",
+          "zh": "你多麼懶惰啊！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Mbaxeng",
+          "fr": "Paresseux - qui paresse.",
+          "en": "Lazy - one who idles.",
+          "zh": "懶惰的；偷懶的人。",
+          "examples": [
+            {
+              "t": "Pusu bi mbaxeng ka iso",
+              "fr": "Tu es un fieffé paresseux.",
+              "en": "You are an arrant lazybones.",
+              "zh": "你是個十足的懶漢。"
+            },
+            {
+              "t": "Ini kbaxeng ka koyox so",
+              "fr": "Ta femme ne paresse pas.",
+              "en": "Your wife is not lazy.",
+              "zh": "你的妻子並不懶惰。"
+            },
+            {
+              "t": "Mbaxeng so bi pax sndurai",
+              "fr": "Depuis peu tu es très paresseux.",
+              "en": "For a little while now you have been very lazy.",
+              "zh": "近來你變得很懶。"
+            }
+          ]
+        },
+        {
+          "form": "Pbaxeng (pkbaxeng ?)",
+          "fr": "Pousser à la paresse.",
+          "en": "To push (someone) toward laziness.",
+          "zh": "使人變懶；助長懶惰。",
+          "examples": [
+            {
+              "t": "Ya iyax pkbaxeng laqe mo!",
+              "fr": "Ne viens pas faire perdre son temps à mon fils!",
+              "en": "Don't come making my son waste his time!",
+              "zh": "別來耽誤我兒子的時間！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BAXGAI",
+      "tag": "(R)",
+      "fr": "Blanc - propre.",
+      "en": "White - clean.",
+      "zh": "白色的；乾淨的。",
+      "examples": [
+        {
+          "t": "Nbaxgai o, wada mlutyaq kana ka llukus so",
+          "fr": "De blancs (propres) qu'ils étaient voilà tes habits tout sales!",
+          "en": "From white (clean) as they were, now your clothes are all dirty!",
+          "zh": "你的衣服原本潔白（乾淨），如今全都髒了！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Knbaxgai",
+          "fr": "Intensité de blancheur, de propreté.",
+          "en": "Intensity of whiteness, of cleanliness.",
+          "zh": "潔白、乾淨的程度。",
+          "examples": [
+            {
+              "t": "Smola ko mita knbaxgai pala so!",
+              "fr": "Celà me fait envie en voyant comme ta jupe est blanche.",
+              "en": "It makes me envious to see how white your skirt is.",
+              "zh": "看到你的裙子這麼白，真令我羨慕。"
+            }
+          ]
+        },
+        {
+          "form": "Knbxgayan",
+          "fr": "La blancheur.",
+          "en": "The whiteness.",
+          "zh": "潔白。",
+          "examples": [
+            {
+              "t": "Kingal nanak ka knbxgayan pala nia",
+              "fr": "Elle est toute spéciale la blancheur de sa jupe.",
+              "en": "The whiteness of her skirt is quite exceptional.",
+              "zh": "她裙子的潔白非比尋常。"
+            }
+          ]
+        },
+        {
+          "form": "Pbaxgai",
+          "paradigm": "Pbaxgai, pbaxgai, pbxgaii, pbxgayan, pbxgayun",
+          "fr": "Blanchir - rendre blanc.",
+          "en": "To whiten - to make white.",
+          "zh": "漂白；使變白。",
+          "examples": [
+            {
+              "t": "Paro bi ka ndaan so qnoqo! Tutui da ni ndoa bi pbaxgai xangan so da!",
+              "fr": "Tu as commis une grosse faute; lève toi et blanchis ton nom!",
+              "en": "You have committed a grave fault; get up and clear (whiten) your name!",
+              "zh": "你犯了大錯；起來洗白你的名聲吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "BAXO",
+      "tag": "(R)",
+      "paradigm": "Maxo, baxo, bxoi, bxoan, bxoon",
+      "fr": "Lessiver - laver (habits, toile etc.).",
+      "en": "To launder - to wash (clothes, cloth, etc.).",
+      "zh": "洗滌；洗（衣物、布等）。",
+      "examples": [
+        {
+          "t": "Bxoi lukus so nanak",
+          "fr": "Lave seulement tes habits !",
+          "en": "Wash only your own clothes!",
+          "zh": "只洗你自己的衣服！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Maxo",
+          "fr": "d° forme verbale.",
+          "en": "verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "Kingal iyax sngayan o, mdaxa ko maxo lukus",
+              "fr": "Je lave mes habits deux fois par semaine.",
+              "en": "I wash my clothes twice a week.",
+              "zh": "我一星期洗兩次衣服。"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

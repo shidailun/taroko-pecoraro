@@ -1,0 +1,721 @@
+{
+  "pages": [262, 265],
+  "leadin": {
+    "fr": "...la guérison d'un malade ou d'un blessé (et c'est le cas le plus fréquent de ce rite) en expiant une faute qui est toujours à l'origine de la maladie ou de la malchance. 3) Par extension = Soigner une maladie, une blessure par les moyens de la médecine. °Smapox, sapox, spoxe, spoxan, spoxon.",
+    "en": "...the healing of a sick or wounded person (and this is the most frequent case of this rite) by expiating a fault which is always at the origin of the illness or the misfortune. 3) By extension = To treat an illness, a wound by the means of medicine. °Smapox, sapox, spoxe, spoxan, spoxon.",
+    "zh": "……醫治病人或傷者（這是此儀式最常見的情況），藉以贖那總是招致疾病或不幸的過錯。3）引申＝以醫藥的方法治療疾病、傷口。°Smapox, sapox, spoxe, spoxan, spoxon。",
+    "examples": [
+      {
+        "t": "Spoxon miso papaq xo ?",
+        "fr": "Allons, je vais soigner ton pied, veux tu ?",
+        "en": "Come now, I am going to treat your foot, do you want me to?",
+        "zh": "來吧，我來替你醫治腳，好嗎？"
+      },
+      {
+        "t": "Ida bi mnqan sapox ka Sikat !PSpoxao ta n'xali da!",
+        "fr": "Sikatz s'est peut être empoisonnée ! Vite ! allons là faire soigner.",
+        "en": "Sikat may perhaps have been poisoned! Quick! let us go there to have her treated.",
+        "zh": "Sikat 可能中毒了！快！我們趕緊去讓她就醫。"
+      }
+    ],
+    "subs": [
+      {
+        "form": "Msapox",
+        "fr": "1) Celui qui accomplit le rite de: SMAPOX. 2) Le médecin, celui qui soigne.",
+        "en": "1) The one who performs the rite of SMAPOX. 2) The doctor, the one who heals.",
+        "zh": "1）舉行 SMAPOX 儀式的人。2）醫生，醫治者。",
+        "examples": []
+      },
+      {
+        "form": "Ssapox",
+        "fr": "Qui sent (odeur) les médicaments.",
+        "en": "That smells of medicines.",
+        "zh": "帶有藥味的。",
+        "examples": []
+      },
+      {
+        "form": "Spoxan",
+        "fr": "Temps, lieu où se donnent les soins - action, manière de les donner.",
+        "en": "The time or place where care is given - the action or manner of giving it.",
+        "zh": "施行醫治的時間、地點－醫治的行為與方式。",
+        "examples": [
+          {
+            "t": "Wada so spoxan ka qaqai nia xo?",
+            "fr": "Est-ce que tu as déjà soigné ses pieds ?",
+            "en": "Have you already treated his feet?",
+            "zh": "你已經替他醫治過腳了嗎？"
+          },
+          {
+            "t": "Saman ka balae bi diyax spoxan",
+            "fr": "A vrai dire, c'est demain le jour de soins.",
+            "en": "To tell the truth, tomorrow is the day for treatment.",
+            "zh": "說實話，明天才是醫治的日子。"
+          }
+        ]
+      },
+      {
+        "form": "Psapox",
+        "paradigm": "°Mpsapox, psapox, pspoxe, pspoxan, pspoxon.",
+        "fr": "Faire faire l'action de soigner - se faire soigner.",
+        "en": "To have the act of treating done - to get oneself treated.",
+        "zh": "使人施行醫治－讓自己就醫。",
+        "examples": [
+          {
+            "t": "Yaxon mo psapox saman ka papaq",
+            "fr": "Je viendrai la faire soigner demain, ma jambe.",
+            "en": "I will come to have my leg treated tomorrow.",
+            "zh": "我明天會來讓我的腿就醫。"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "hw": "SAQOL",
+      "tag": "( = R. ?)",
+      "fr": "Retourner la terre (?) - défoncer un terrain (?).",
+      "en": "To turn over the earth (?) - to break up a piece of ground (?).",
+      "zh": "翻土（？）－掘鬆土地（？）。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Psaqol",
+          "fr": "Labourer - retourner la terre - faire que la terre soit ameublie. VR. PSAQOL.",
+          "en": "To plough - to turn over the earth - to make the soil loose. See PSAQOL.",
+          "zh": "耕地－翻土－使土壤鬆軟。參見 PSAQOL。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SASAO",
+      "tag": "(R)",
+      "fr": "Ombre - image - silhouette.",
+      "en": "Shade / shadow - image - silhouette.",
+      "zh": "陰影－影像－身影。",
+      "examples": [
+        {
+          "t": "Ini xali skuxul sasao ka dqoyo",
+          "fr": "les serpents n'aiment pas beaucoup l'ombre.",
+          "en": "snakes do not much like the shade.",
+          "zh": "蛇不太喜歡陰涼處。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Smasao",
+          "paradigm": "°Smasao, sasao, .?. ssagan, ssagun.",
+          "fr": "Ombrager - cacher - mettre par dessus comme pour ombrager - imposer les mains.",
+          "en": "To shade - to hide - to lay over as if to shade - to lay on hands.",
+          "zh": "遮蔭－遮蓋－像遮蔭般覆蓋於上－按手。",
+          "examples": [
+            {
+              "t": "Blaxao so bi! Yaxe ko bi smasao baga laqe mo",
+              "fr": "Je t'en prie (sois bon!), viens donc imposer tes mains à mon enfant.",
+              "en": "I beg you (be kind!), come and lay your hands on my child.",
+              "zh": "拜託你（行行好！），來為我的孩子按手吧。"
+            },
+            {
+              "t": "Uxai daolas, pusu btakan (btaqan) ka smasao bi (= ka pusu smasao) sapax so",
+              "fr": "Ce n'est ppas la falaise (le rocher), mais le bosquet de bambous qui ombrage vraiment ta maison!",
+              "en": "It is not the cliff (the rock), but the bamboo grove that truly shades your house!",
+              "zh": "真正為你的家遮蔭的不是懸崖（岩石），而是那叢竹林！"
+            },
+            {
+              "t": "Mxa ssagun na xmaan padyaq ka pusu sakus so",
+              "fr": "Ton camphrier ombragera ton jardin potager.",
+              "en": "Your camphor tree will shade your vegetable garden.",
+              "zh": "你的樟樹會為你的菜園遮蔭。"
+            }
+          ]
+        },
+        {
+          "form": "Msasao",
+          "fr": "Qui est ombragé - qui se met à l'ombre - qui est à l'ombre.",
+          "en": "That is shaded - that puts itself in the shade - that is in the shade.",
+          "zh": "被遮蔭的－躲到陰涼處的－處於陰涼中的。",
+          "examples": [
+            {
+              "t": "Naqex xali ka pxdagan mo; msasao bi pax ska xedao",
+              "fr": "Mon aire de séchage n'est pas très bonne; à partir de midi elle est à l'ombre.",
+              "en": "My drying area is not very good; from midday on it is in the shade.",
+              "zh": "我的曬場不太好；從中午起就處於陰影中。"
+            },
+            {
+              "t": "Msasao so da ?",
+              "fr": "Alors! Tu te tiens un peu à l'ombre ?",
+              "en": "So! Are you keeping a bit in the shade?",
+              "zh": "怎麼樣！你稍微待在陰涼處嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Ssagan",
+          "fr": "Lieu, temps d'ombre - le fait d'ombrager.",
+          "en": "Place or time of shade - the fact of shading.",
+          "zh": "陰涼的地點、時間－遮蔭這件事。",
+          "examples": [
+            {
+              "t": "Ssagan ka nii , naqex bi slaan sapax ptasan",
+              "fr": "Ici c'est un endroit ombragé; il n'est pas très indiqué pour construire une école.",
+              "en": "Here is a shaded spot; it is not very suitable for building a school.",
+              "zh": "這裡是個陰涼的地方；不太適合蓋學校。"
+            }
+          ]
+        },
+        {
+          "form": "Tsasao",
+          "paradigm": "°Tmsasao(?), tsasao, tssagi, tssagan, tssagun.",
+          "fr": "Se mettre à l'ombre - se mettre à l'abri.",
+          "en": "To put oneself in the shade - to take shelter.",
+          "zh": "躲到陰涼處－躲到遮蔽處。",
+          "examples": [
+            {
+              "t": "Ma\"so xmut pskoyoç da! Usa tsasao n'xali sapax!",
+              "fr": "Pourquoi rester inutilement là sous la pluie? Va vite te mettre à l'abri dans la maison !",
+              "en": "Why stay there uselessly in the rain? Go quickly and take shelter in the house!",
+              "zh": "為什麼白白待在雨中？快進屋裡躲雨吧！"
+            },
+            {
+              "t": "Ana paro xedao o, ini bi soa tsasao!",
+              "fr": "Même par grand soleil, il ne veut absolument pas se mettre à l'ombre!",
+              "en": "Even in strong sunshine, he absolutely refuses to move into the shade!",
+              "zh": "即使烈日當空，他也絕不肯躲到陰涼處！"
+            }
+          ]
+        },
+        {
+          "form": "Tbsagan",
+          "fr": "( sans doute forme contractée de: Tpssagan)= endroit favorable, (bien indiqué) pour aller se mettre à l'abri , à l'ombre; pour aller se reposer, se détendre. VR. Tpssagan.",
+          "en": "(no doubt a contracted form of: Tpssagan) = a favourable spot, (well suited) for going to take shelter, into the shade; for going to rest, to relax. See Tpssagan.",
+          "zh": "（大概是 Tpssagan 的縮略形）＝適宜的地點，（很合適）去躲避、乘涼；去休息、放鬆。參見 Tpssagan。",
+          "examples": []
+        },
+        {
+          "form": "Tpssagan",
+          "fr": "Endroit où l'on peut aller pour se mettre à l'ombre - endroit tout désigné pour goûter la fraicheur, le calme.",
+          "en": "A place one can go to get into the shade - the ideal spot to enjoy the coolness, the calm.",
+          "zh": "可以去乘涼的地點－最適合享受涼爽與寧靜的地方。",
+          "examples": [
+            {
+              "t": "Malu bi tpssagan ka daya",
+              "fr": "Là-haut c'est un endroit très agréable pour jouir de la fraicheur (l'ombre).",
+              "en": "Up there is a very pleasant place to enjoy the coolness (the shade).",
+              "zh": "上頭是個非常宜人、可以享受涼爽（陰涼）的地方。"
+            },
+            {
+              "t": "Uxai niso ntaan sopu xeaan kska tbsagan xo?",
+              "fr": "Ne t'aurais-je pas vu (=Il me semble bien t'avoir vu) avec lui dans le jardin public (= dans l'endroit où il fait bon se reposer) ?",
+              "en": "Didn't I see you (= it really seems to me that I saw you) with him in the public garden (= in the place where it is pleasant to rest)?",
+              "zh": "我不是見過你（＝我確實好像見過你）跟他在公園（＝適合休憩的地方）嗎？"
+            }
+          ]
+        },
+        {
+          "form": "Psasao",
+          "paradigm": "°Mpsasao, psasao, pssagi, pssagan, pssagun.",
+          "fr": "Se faire ombrager - faire mettre à l'ombre.",
+          "en": "To have oneself shaded - to have (something) put in the shade.",
+          "zh": "讓自己被遮蔭－使（某物）置於陰涼處。",
+          "examples": [
+            {
+              "t": "Saon no psasao tityex pusu qouni",
+              "fr": "Je vais un peu m'abriter ( me faire mettre à l'abri, à l'ombre) sous l'arbre.",
+              "en": "I am going to shelter a little (get myself put in shelter, in the shade) under the tree.",
+              "zh": "我要到樹下稍微避一避（讓自己得到遮蔽、乘涼）。"
+            }
+          ]
+        },
+        {
+          "form": "Spsasao",
+          "fr": "Pour faire donner de l'ombre - pour faire un abri.",
+          "en": "To make something give shade - to make a shelter.",
+          "zh": "用來提供陰涼－用來搭遮蔽處。",
+          "examples": [
+            {
+              "t": "Paro xedao do, ngalun so manu spsasao sipa so?",
+              "fr": "Quand il fera grand soleil, que prendras tu pour ombrager un peu tes jeunes plants ?",
+              "en": "When the sun is strong, what will you take to give a little shade to your young plants?",
+              "zh": "烈日當空時，你要拿什麼來為你的幼苗遮點陰？"
+            }
+          ]
+        },
+        {
+          "form": "Spssagun",
+          "fr": "Ce qu'on veut, qu'on doit prendre comme instrument pour mettre à l'ombre, à l'abri.",
+          "en": "What one wants, what one must take as an instrument to put in the shade, in shelter.",
+          "zh": "想要、應當拿來作為遮蔭、遮蔽用具的東西。",
+          "examples": [
+            {
+              "t": "Xeaon so ka galyeq? ... Spssagun no tityex ka laqe mo lbnao",
+              "fr": "Que veux tu en faire de la toile ? ... Je voudrais m'en servir pour mettre mon bébé un peu à l'ombre.",
+              "en": "What do you want to do with the cloth? ... I would like to use it to put my baby a little in the shade.",
+              "zh": "你要拿這塊布做什麼？……我想用它來為我的寶寶稍微遮點陰。"
+            }
+          ]
+        },
+        {
+          "form": "Mksasao",
+          "fr": "Dans un endroit d'ombre.",
+          "en": "In a shady place.",
+          "zh": "在陰涼的地方。",
+          "examples": [
+            {
+              "t": "Ma\" nksasao ka xmaan so padyaq!",
+              "fr": "Comment se fait-il que ton jardin soit dans un endroit d'ombre ?",
+              "en": "How come your garden is in a shady spot?",
+              "zh": "你的菜園怎麼會在陰涼的地方呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAXO",
+      "tag": "(R)",
+      "fr": "( Serait-ce la R. de PSAXO = Punir ?) = Puiser pour servir, pour verser. ( Par ex. aller prendre de l'eau au torrent pour la maison).",
+      "en": "(Could this be the root of PSAXO = To punish?) = To draw (liquid) in order to serve, to pour. (E.g. going to fetch water from the torrent for the house.)",
+      "zh": "（這會是 PSAXO＝懲罰 的字根嗎？）＝舀取以供盛用、傾倒。（例如：到溪流取水供家用。）",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smaxo",
+          "paradigm": "°Smaxo, saxo, s'xgi, s'xgan, s'xgun.",
+          "fr": "Puiser.",
+          "en": "To draw (liquid), to ladle out.",
+          "zh": "舀取。",
+          "examples": [
+            {
+              "t": "Nasi so kmqan o, nxa ko smaxo tityex bugo so",
+              "fr": "Si tu désires en manger, je vais te servir (puiser pour toi) un peu de bouillon.",
+              "en": "If you want some to eat, I will serve you (ladle out for you) a little broth.",
+              "zh": "你若想吃，我就替你舀一點湯。"
+            }
+          ]
+        },
+        {
+          "form": "S'xgan",
+          "fr": "Action de puiser - objet puisé - lieu où l'on puise.",
+          "en": "The act of drawing (liquid) - the thing drawn - the place where one draws it.",
+          "zh": "舀取的動作－舀出之物－舀取的地方。",
+          "examples": []
+        },
+        {
+          "form": "Ss'xgan",
+          "fr": "Qui sert à puiser - pour puiser.",
+          "en": "That serves to draw (liquid) - for drawing.",
+          "zh": "用來舀取的－供舀取用。",
+          "examples": [
+            {
+              "t": "Blaxao so bi, byeqe ko ana nanu ss'xgan mo bugo",
+              "fr": "S'il te plaît, passe moi quelque chose pour puiser (qui me permette de puiser) le bouillon.",
+              "en": "Please, pass me something to draw with (that lets me ladle out) the broth.",
+              "zh": "請你遞給我一個可以舀湯的東西（讓我能舀湯）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SAYANG",
+      "tag": "(R)",
+      "fr": "Aujourd'hui - maintenant - actuellement.",
+      "en": "Today - now - currently.",
+      "zh": "今天－現在－目前。",
+      "examples": [
+        {
+          "t": "Sayang bi",
+          "fr": "A l'instant - juste maintenant.",
+          "en": "At this very moment - just now.",
+          "zh": "此刻－剛剛。"
+        },
+        {
+          "t": "Sayang o, paro tunuç kana",
+          "fr": "De nos jours, tout le monde est instruit (vl.Tout le monde se croit savant).",
+          "en": "Nowadays, everyone is educated (var. everyone thinks himself learned).",
+          "zh": "如今，人人都受過教育（或：人人都自以為有學問）。"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Ssayang",
+          "fr": "Tout de suite - à l'instant - immédiatement.",
+          "en": "Right away - at once - immediately.",
+          "zh": "馬上－立刻－即刻。",
+          "examples": [
+            {
+              "t": "Tai kuxul na ka ana nanu o, asi ssayang ka xea da!",
+              "fr": "Quand il désire quelque chose,( quand quelque chose lui plaît), Il le lui faut absolument tout de suite!",
+              "en": "When he wants something (when something pleases him), he absolutely must have it right away!",
+              "zh": "只要他想要什麼（只要有什麼合他心意），他就非得馬上得到不可！"
+            },
+            {
+              "t": "Ga ino ka ata mo? ... Wada ssayang bi!",
+              "fr": "Où est ma belle-soeur? ... Elle vient tout juste de partir !",
+              "en": "Where is my sister-in-law? ... She has only just left!",
+              "zh": "我的嫂子（弟媳）在哪裡？……她剛剛才離開！"
+            }
+          ]
+        },
+        {
+          "form": "Nsayang",
+          "fr": "De maintenant - moderne - actuel.",
+          "en": "Of the present - modern - current.",
+          "zh": "當下的－現代的－時下的。",
+          "examples": [
+            {
+              "t": "Nsayang ka pnspingan nii ! Uxai n'nita (nn'ita) sbiyao!",
+              "fr": "Cette façon de faire toilette est des temps modernes, ce n'est pas notre façon d'autrefois.",
+              "en": "This way of grooming oneself belongs to modern times, it is not our way of old.",
+              "zh": "這種梳妝打扮的方式是現代的，不是我們從前的方式。"
+            }
+          ]
+        },
+        {
+          "form": "Tnsayang",
+          "fr": "Passager - propre à ce moment - récent.",
+          "en": "Transient - proper to this moment - recent.",
+          "zh": "短暫的－僅屬此刻的－晚近的。",
+          "examples": [
+            {
+              "t": "Tnsayang bi ka gaya nsayang",
+              "fr": "Elles sont passagères les modes modernes.",
+              "en": "Modern fashions are transient.",
+              "zh": "現代的風尚是短暫的。"
+            },
+            {
+              "t": "Tnsayang bi ka muda ta nqlaqel",
+              "fr": "Elles sont passagères les épreuves par lesquelles nous passons! (Elles ne sont que pour un temps).",
+              "en": "The trials we go through are transient! (They last only for a time.)",
+              "zh": "我們所經歷的苦難是短暫的！（只是一時而已。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SA'MUL",
+      "tag": "(S'MUL ?) (R)",
+      "fr": "Tenir dans ses bras (un bébé) - porter un enfant.",
+      "en": "To hold in one's arms (a baby) - to carry a child.",
+      "zh": "把（嬰兒）抱在懷裡－抱著孩子。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Sn'mul (sma'mul)",
+          "fr": "d° forme verbale.",
+          "en": "Ditto - verbal form of the preceding.",
+          "zh": "同上之動詞形。",
+          "examples": [
+            {
+              "t": "D'xok ka tama sm'mul madas laqe na",
+              "fr": "Le père arrive portant l'enfant dans ses bras.",
+              "en": "The father arrives carrying his child in his arms.",
+              "zh": "父親抱著孩子走來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SA'SO",
+      "tag": "(S'so ?) (R)",
+      "fr": "Calme - timidité - pudeur.",
+      "en": "Calm - shyness - modesty (sense of shame).",
+      "zh": "沉靜－羞怯－羞恥心。",
+      "examples": [
+        {
+          "t": "Wada na kxdoon kyoqan ka bobo na! Sa'so bi !",
+          "fr": "Il a couvert sa mère de crachats ! C'est honteux !",
+          "en": "He covered his mother with spittle! It is shameful!",
+          "zh": "他朝母親吐了滿臉口水！真丟臉！"
+        },
+        {
+          "t": "Ya \"qan da! Sa'so bi!",
+          "fr": "Ne mange pas ça! Pouh !",
+          "en": "Don't eat that! Ugh!",
+          "zh": "別吃那個！呸！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msa'so (Ms'so)",
+          "fr": "Timide - calme - qui est poli - qui a de la pudeur.",
+          "en": "Shy - calm - who is polite - who has a sense of modesty.",
+          "zh": "羞怯的－沉靜的－有禮的－知羞的。",
+          "examples": [
+            {
+              "t": "Msa'so bi ka Iban! Ini kmxmut ka xea!",
+              "fr": "Ibanne est très poli (très réservé)! Il n'agit pas (il ne pense pas, il ne parle pas) à la légère, lui !",
+              "en": "Iban is very polite (very reserved)! He does not act (does not think, does not speak) frivolously, that one!",
+              "zh": "Iban 很有禮貌（很內斂）！他行事（思考、說話）都不輕率！"
+            }
+          ]
+        },
+        {
+          "form": "Knsa'so",
+          "fr": "Intensité de candeur, de timidité, de politesse.- modestie.",
+          "en": "Intensity of candour, of shyness, of politeness - modesty.",
+          "zh": "純真、羞怯、禮貌的強烈程度－謙遜。",
+          "examples": [
+            {
+              "t": "Ongat pndkaan ka knsa'so nia",
+              "fr": "Sa politesse,(sa modestie, son calme ) est incomparable.",
+              "en": "His politeness (his modesty, his calm) is incomparable.",
+              "zh": "他的禮貌（謙遜、沉靜）無與倫比。"
+            }
+          ]
+        },
+        {
+          "form": "Psa'so (pgsa'so ?)",
+          "fr": "Calmer - rendre moins effronté.",
+          "en": "To calm - to make less impudent.",
+          "zh": "使平靜－使不那麼放肆。",
+          "examples": [
+            {
+              "t": "Ongat ka tnk'la psa'so (pgsa'so) tityex xeaan",
+              "fr": "Personne n'arrive à le calmer un peu.",
+              "en": "No one manages to calm him down even a little.",
+              "zh": "沒有人能讓他稍微平靜下來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBAAN",
+      "tag": "(R. = ?)",
+      "fr": "Somnoler - faire la sieste - se reposer.",
+      "en": "To doze - to take a nap - to rest.",
+      "zh": "打盹－午睡－休息。",
+      "examples": [
+        {
+          "t": "Nasi so kmsbaang o, usa sbaang xngali xali",
+          "fr": "Si tu as envie de faire un petit somme, va donc le faire un petit peu plus à l'écart!",
+          "en": "If you feel like taking a little nap, go and do it a bit further off!",
+          "zh": "你若想小睡一下，就到稍微遠一點的地方去睡吧！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msbaang",
+          "fr": "Qui se repose - qui sommeille.",
+          "en": "Who is resting - who is dozing.",
+          "zh": "在休息的－在打盹的。",
+          "examples": [
+            {
+              "t": "Ya sqoaq! Ga msbaang ka tama da!",
+              "fr": "Tais toi ! (ne fais pas de bruit)! Papa se repose !",
+              "en": "Be quiet! (don't make noise)! Papa is resting!",
+              "zh": "安靜！（別出聲）！爸爸在休息！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBALAE",
+      "tag": "(R. = BALAE ?)",
+      "fr": "Paix - calme - tranquille. VR. BALAE et dérivés.",
+      "en": "Peace - calm - tranquil. See BALAE and its derivatives.",
+      "zh": "平安－平靜－安寧。參見 BALAE 及其派生詞。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Msbalae",
+          "fr": "Qui est paisible - qui est calme.",
+          "en": "That is peaceful - that is calm.",
+          "zh": "安詳的－平靜的。",
+          "examples": []
+        },
+        {
+          "form": "Snblayan",
+          "fr": "Temps calme, paisible - Lieu de calme, de paix - bonne entente.",
+          "en": "Calm, peaceful time - Place of calm, of peace - good understanding (harmony).",
+          "zh": "平靜安詳的時光－寧靜、和平的地方－和睦。",
+          "examples": []
+        },
+        {
+          "form": "Psbalae",
+          "fr": "Pacifier - calmer - rassurer.",
+          "en": "To pacify - to calm - to reassure.",
+          "zh": "使和睦－使平靜－使安心。",
+          "examples": []
+        },
+        {
+          "form": "Knsblayan",
+          "fr": "Paix - calme .",
+          "en": "Peace - calm.",
+          "zh": "平安－平靜。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SBALOX",
+      "tag": "( = R. ? )",
+      "fr": "Changer de place d'un côté à l'autre - mettre sens dessus dessous.- faire passer d'une main à l'autre, d'une place à l'autre",
+      "en": "To move from one side to the other - to turn upside down - to pass from one hand to another, from one place to another.",
+      "zh": "從一邊移到另一邊－翻轉顛倒－從一手傳到另一手、從一處挪到另一處。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Smbalox",
+          "fr": "Terme consacré pour désigner le système de travail en commun pratiqué entre autres par les taroko. Il consiste à échanger des journées de travail (des hommes ou des animaux); Je vais travailler pour les autres (= Mxa ko smbalox), et les autres viendront un jour, quand j'en aurai besoin, me rendre cette, ou ces, journée ( = Miyax sntoko).",
+          "en": "The established term designating the system of communal labour practised, among others, by the Taroko. It consists in exchanging days of work (of men or of animals); I go to work for others (= Mxa ko smbalox), and the others will come one day, when I need it, to return that day, or those days, to me (= Miyax sntoko).",
+          "zh": "指太魯閣人等所實行的共同勞動制度的固定用語。其做法是交換工作日（人力或畜力）；我去替別人工作（＝Mxa ko smbalox），別人日後在我有需要時也會來還我這一天或這幾天的工（＝Miyax sntoko）。",
+          "examples": []
+        },
+        {
+          "form": "Msbalox",
+          "fr": "Faire le va-et-vient - se remuer - se répondre.",
+          "en": "To go back and forth - to stir / move about - to answer one another.",
+          "zh": "來回往返－攪動－相互應答。",
+          "examples": [
+            {
+              "t": "Adi bi msbalox xea nanak ka idao, asi ka psbluxun so!",
+              "fr": "Le riz ne se remue certainement pas tout seul! Il faut que tu le remues toi même !",
+              "en": "The rice certainly does not stir itself! You have to stir it yourself!",
+              "zh": "飯當然不會自己翻動！你得自己去翻它！"
+            }
+          ]
+        },
+        {
+          "form": "Psbalox",
+          "paradigm": "°Mpsbalox, psbalox, psbl'xi, psbl'xan, psbl'xun (psbluxun).",
+          "fr": "Faire que ce soit remué, retourné - faire passer d'un endroit à un autre.",
+          "en": "To have it stirred, turned over - to make it pass from one place to another.",
+          "zh": "使之被翻動、翻轉－使之從一處移到另一處。",
+          "examples": [
+            {
+              "t": "Usa n'xali psbalox damat ta! Mpsklol (Mpsq'lol ?) kia!",
+              "fr": "Va vite remuer nos légumes! Ils risquent de se brûler !",
+              "en": "Go quickly and stir our vegetables! They might burn!",
+              "zh": "快去翻我們的菜！它們快燒焦了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hw": "SBEKI",
+      "tag": "( = R. ? )",
+      "fr": "Arec - aréquier - noix d'arec. (nb. Sans doute à l'exemple du peuple voisin: les Ami, les taroko se sont mis à chiquer la noix d'arec contenue dans une feuille de bétel et accompagnée de chaux).",
+      "en": "Areca - areca palm - areca nut. (n.b. No doubt following the example of the neighbouring people, the Ami, the Taroko took up chewing the areca nut wrapped in a betel leaf and accompanied by lime.)",
+      "zh": "檳榔－檳榔樹－檳榔果。（註：太魯閣人大概是仿效鄰族阿美族，才開始嚼食夾在荖葉裡、佐以石灰的檳榔。）",
+      "examples": [
+        {
+          "t": "Mqan ta sbeki o, asi sktiluç (stiluç) kana xei da",
+          "fr": "A mâcher des noix d'arec, cela réchauffe tout le corps.",
+          "en": "Chewing areca nuts warms the whole body.",
+          "zh": "嚼檳榔會使全身暖和起來。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SBIYAO",
+      "tag": "(R. = BIYAO)",
+      "fr": "Autrefois - il-y-a très longtemps. VR. BIYAO .",
+      "en": "Formerly - a very long time ago. See BIYAO.",
+      "zh": "從前－很久以前。參見 BIYAO。",
+      "examples": [],
+      "subs": [
+        {
+          "form": "Nsbiyao",
+          "fr": "D'autrefois - de l'ancien temps - de la nuit des temps.",
+          "en": "Of former times - of the old days - from the dawn of time.",
+          "zh": "昔日的－古時的－遠古的。",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "hw": "SBLANGAN",
+      "tag": "(R. = ??)",
+      "fr": "Lance.",
+      "en": "Spear.",
+      "zh": "矛。",
+      "examples": [
+        {
+          "t": "Giso ka dxea dmui poting ni, b'xnyaq ni, sblangan.",
+          "fr": "Les voici (qui viennent) avec des couteaux, des arcs et des lances.",
+          "en": "Here they come with knives, bows and spears.",
+          "zh": "他們拿著刀、弓和矛（前來）了。"
+        }
+      ],
+      "subs": []
+    },
+    {
+      "hw": "SBLOA",
+      "tag": "(R. = BLOA)",
+      "fr": "(des nuages) qui portent, qui provoquent le tonnerre. VR. BLOA .",
+      "en": "(of clouds) that carry, that bring on thunder. See BLOA.",
+      "zh": "（指雲）帶來、引發雷聲的。參見 BLOA。",
+      "examples": [],
+      "subs": []
+    },
+    {
+      "hw": "SB'LÖS",
+      "tag": "(SB'L'S) (R)",
+      "fr": "Fade - sans saveur.",
+      "en": "Bland - tasteless.",
+      "zh": "淡而無味－沒有味道。",
+      "examples": [
+        {
+          "t": "Ma\" ini ksxea ka samat so ! Sb'lös balae !",
+          "fr": "Comment celà se fait-il que ton plat de gibier n'ait pas sa saveur (qu'il ne soit pas savoureux)! Il est tout à fait fade!",
+          "en": "How is it that your game dish has no flavour (that it is not tasty)! It is utterly bland!",
+          "zh": "你這道野味怎麼會沒有味道（不好吃）！真是淡而無味！"
+        }
+      ],
+      "subs": [
+        {
+          "form": "Msb'lös",
+          "fr": "Qui est fade, sans saveur.",
+          "en": "That is bland, tasteless.",
+          "zh": "淡而無味的。",
+          "examples": [
+            {
+              "t": "Ini ksb'lös ka bonga! Padyaq ka msb'lös bi!",
+              "fr": "Les patates douces ne sont pas fades, ce sont les légumes qui le sont vraiment.",
+              "en": "The sweet potatoes are not bland; it is the vegetables that really are.",
+              "zh": "地瓜並不淡，真正沒味道的是菜。"
+            }
+          ]
+        },
+        {
+          "form": "Psb'lös (Pksb'lös ?)",
+          "paradigm": "°Mpsb'lös, psb'lös, Psbl'si, psbl'san, psbl'sun.",
+          "fr": "Affadir - enlever le goût.",
+          "en": "To make bland - to remove the taste.",
+          "zh": "使變淡－去除味道。",
+          "examples": [
+            {
+              "t": "Nasi ksia ka malun so do, psbl'sun so kana ka bugo da! ... Ima ka mumal ksia? Ini ko umal ka yako !",
+              "fr": "Si c'est de l'eau que tu ajoutes, tu vas rendre insipide tout le bouillon ! ... Qui ajoute de l'eau ? Moi je n'en ajoute pas !",
+              "en": "If it is water you are adding, you will make the whole broth insipid! ... Who is adding water? I'm not adding any!",
+              "zh": "你若加的是水，會把整鍋湯弄得淡而無味！……誰在加水？我可沒加！"
+            }
+          ]
+        },
+        {
+          "form": "Knsbl'san",
+          "fr": "La fadeur - l'insipidité.",
+          "en": "Blandness - insipidity.",
+          "zh": "淡味－乏味。",
+          "examples": [
+            {
+              "t": "Ma\" so pdkaon ka knsbl'san payai...",
+              "fr": "[gloss coupée en bas de page]",
+              "en": "[gloss cut off at foot of page]",
+              "zh": "［句末在頁尾被截斷］"
+            }
+          ]
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}
