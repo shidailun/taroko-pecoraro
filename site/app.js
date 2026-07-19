@@ -73,10 +73,12 @@
     return { entry: e, text: entryText(e), hw: norm(e.hw) };
   });
 
-  var HW_SET = {};
+  var HW_LOOKUP = {};
   window.ENTRIES.forEach(function (e) {
-    HW_SET[norm(e.hw)] = true;
-    (e.subs || []).forEach(function (s) { if (s.form) HW_SET[norm(s.form)] = true; });
+    HW_LOOKUP[norm(e.hw)] = { hw: e.hw, fr: e.fr, en: e.en, zh: e.zh };
+    (e.subs || []).forEach(function (s) {
+      if (s.form) HW_LOOKUP[norm(s.form)] = { hw: s.form, fr: s.fr, en: s.en, zh: s.zh, parentHw: e.hw };
+    });
   });
 
   var ALPHABET = (function () {
@@ -118,7 +120,7 @@
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
       var display = esc(dispTruku(part));
-      if (i % 2 === 1 && HW_SET[norm(part)]) {
+      if (i % 2 === 1 && HW_LOOKUP[norm(part)]) {
         h += '<span class="crossref-link" data-ref="' + esc(part) + '">' + display + "</span>";
       } else {
         h += display;
@@ -214,6 +216,7 @@
   }
 
   function showLetter(letter) {
+    hidePreview();
     var list = letter === "#"
       ? window.ENTRIES.filter(function (e) { return !/[a-z]/.test(norm(e.hw).charAt(0)); })
       : window.ENTRIES.filter(function (e) { return norm(e.hw).charAt(0) === letter.toLowerCase(); });
@@ -227,6 +230,7 @@
   }
 
   function showRandomEntry() {
+    hidePreview();
     var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
     searchBox.value = e.hw;
     results.innerHTML = entryHtml(e);
@@ -234,6 +238,7 @@
   }
 
   function render() {
+    hidePreview();
     if (!searchBox.value.trim()) {
       renderAlphabet();
       return;
@@ -249,6 +254,7 @@
   results.addEventListener("click", function (ev) {
     var t = ev.target;
     if (t.classList.contains("crossref-link")) {
+      hidePreview();
       searchBox.value = t.getAttribute("data-ref");
       render();
       window.scrollTo({ top: 0 });
@@ -257,6 +263,53 @@
     } else if (t.classList.contains("random-btn")) {
       showRandomEntry();
     }
+  });
+
+  // ---------- hover word preview ----------
+  var wordPreview = document.getElementById("word-preview");
+  var previewTimer = null;
+
+  function hidePreview() {
+    clearTimeout(previewTimer);
+    wordPreview.classList.add("hidden");
+  }
+
+  function previewGlossHtml(w) {
+    var h = "";
+    if (shown.fr && w.fr) h += '<p class="wp-gloss"><span class="lang-chip fr">FR</span>' + esc(w.fr) + "</p>";
+    else if (shown.en && w.en) h += '<p class="wp-gloss"><span class="lang-chip en">EN</span>' + esc(w.en) + "</p>";
+    else if (shown.zh && w.zh) h += '<p class="wp-gloss"><span class="lang-chip zh">中</span>' + esc(w.zh) + "</p>";
+    return h;
+  }
+
+  function showPreview(link) {
+    var w = HW_LOOKUP[norm(link.getAttribute("data-ref"))];
+    if (!w) return;
+    var h = '<div><span class="wp-hw">' + esc(dispTruku(w.hw)) + "</span>";
+    if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispTruku(w.parentHw)) + "</span>";
+    h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Click for full entry · 點選查看完整條目</p>';
+    wordPreview.innerHTML = h;
+    wordPreview.classList.remove("hidden");
+
+    var r = link.getBoundingClientRect();
+    var pw = wordPreview.offsetWidth, ph = wordPreview.offsetHeight;
+    var left = Math.min(Math.max(8, r.left), window.innerWidth - pw - 8);
+    var top = r.bottom + 8;
+    if (top + ph > window.innerHeight - 8) top = r.top - ph - 8;
+    wordPreview.style.left = left + "px";
+    wordPreview.style.top = Math.max(8, top) + "px";
+  }
+
+  results.addEventListener("mouseover", function (ev) {
+    var link = ev.target.closest && ev.target.closest(".crossref-link");
+    if (!link || link.contains(ev.relatedTarget)) return;
+    clearTimeout(previewTimer);
+    previewTimer = setTimeout(function () { showPreview(link); }, 200);
+  });
+  results.addEventListener("mouseout", function (ev) {
+    var link = ev.target.closest && ev.target.closest(".crossref-link");
+    if (!link || link.contains(ev.relatedTarget)) return;
+    hidePreview();
   });
 
   searchBox.addEventListener("input", render);
