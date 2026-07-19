@@ -5952,6 +5952,10 @@
    "modern": "mqita",
    "tier": "B"
   },
+  "mql'xao": {
+   "modern": "mql'xao",
+   "tier": "M"
+  },
   "mqlaao": {
    "modern": "mkraaw",
    "tier": "A"
@@ -6039,6 +6043,10 @@
   "msalu": {
    "modern": "msalu",
    "tier": "id"
+  },
+  "msamao": {
+   "modern": "msamaw",
+   "tier": "M"
   },
   "msangai": {
    "modern": "msangay",
@@ -6580,6 +6588,14 @@
    "modern": "mkay",
    "tier": "L"
   },
+  "mulae": {
+   "modern": "muray",
+   "tier": "M"
+  },
+  "mulun": {
+   "modern": "mulun",
+   "tier": "M"
+  },
   "mulus": {
    "modern": "murus",
    "tier": "B"
@@ -6655,6 +6671,10 @@
   "mxedao": {
    "modern": "mhidaw",
    "tier": "B"
+  },
+  "mxei": {
+   "modern": "mhiyi",
+   "tier": "M"
   },
   "mxelao": {
    "modern": "mhilaw",
@@ -7828,6 +7848,10 @@
    "modern": "pkaraw",
    "tier": "B"
   },
+  "pkalo": {
+   "modern": "pkalu",
+   "tier": "M"
+  },
   "pkbalao": {
    "modern": "pkbaraw",
    "tier": "B"
@@ -8231,6 +8255,14 @@
   "pnbaga": {
    "modern": "pnbaga",
    "tier": "id"
+  },
+  "pnbalae": {
+   "modern": "pnbalay",
+   "tier": "M"
+  },
+  "pnbalao": {
+   "modern": "pnbaraw",
+   "tier": "M"
   },
   "pndaxa": {
    "modern": "pndha",
@@ -9044,6 +9076,10 @@
    "modern": "pstutuy",
    "tier": "B"
   },
+  "psukan": {
+   "modern": "bsukan",
+   "tier": "M"
+  },
   "pswiwil": {
    "modern": "pswiwil",
    "tier": "id"
@@ -9194,6 +9230,10 @@
   },
   "ptqoan": {
    "modern": "ptquwan",
+   "tier": "M"
+  },
+  "ptqoon": {
+   "modern": "ptquwun",
    "tier": "M"
   },
   "pttama": {
@@ -9395,6 +9435,10 @@
   "q'long": {
    "modern": "qrung",
    "tier": "B"
+  },
+  "q'lxan": {
+   "modern": "q'lxan",
+   "tier": "M"
   },
   "q'löt": {
    "modern": "qrut",
@@ -9660,6 +9704,14 @@
    "modern": "kragan",
    "tier": "A"
   },
+  "qlagun": {
+   "modern": "qlagun",
+   "tier": "M"
+  },
+  "qlaq": {
+   "modern": "qlaq",
+   "tier": "M"
+  },
   "qlaqel": {
    "modern": "qraqil",
    "tier": "A"
@@ -9703,6 +9755,10 @@
   "qlqelan": {
    "modern": "qrqilan",
    "tier": "B"
+  },
+  "qlxan": {
+   "modern": "qlxan",
+   "tier": "M"
   },
   "qmada": {
    "modern": "qmada",
@@ -15756,10 +15812,6 @@
    "modern": "mseejiq",
    "tier": "P"
   },
-  "msamao": {
-   "modern": "msamaw",
-   "tier": "P"
-  },
   "msao": {
    "modern": "msaw",
    "tier": "P"
@@ -16040,10 +16092,6 @@
    "modern": "mtudu",
    "tier": "P"
   },
-  "mulae": {
-   "modern": "muray",
-   "tier": "P"
-  },
   "mxalös": {
    "modern": "mhalus",
    "tier": "P"
@@ -16054,10 +16102,6 @@
   },
   "mxebong": {
    "modern": "mhibung",
-   "tier": "P"
-  },
-  "mxei": {
-   "modern": "mhiyi",
    "tier": "P"
   },
   "mxeni": {
@@ -16344,10 +16388,6 @@
    "modern": "pkagi",
    "tier": "P"
   },
-  "pkalo": {
-   "modern": "pkalu",
-   "tier": "P"
-  },
   "pkayao": {
    "modern": "pkayaw",
    "tier": "P"
@@ -16626,14 +16666,6 @@
   },
   "pnax": {
    "modern": "pnax",
-   "tier": "P"
-  },
-  "pnbalae": {
-   "modern": "pnbalay",
-   "tier": "P"
-  },
-  "pnbalao": {
-   "modern": "pnbaraw",
    "tier": "P"
   },
   "pnbilaq": {
@@ -17824,6 +17856,10 @@
    "modern": "spssagun",
    "tier": "P"
   },
+  "spsukan": {
+   "modern": "sbsukan",
+   "tier": "P"
+  },
   "sptbnao": {
    "modern": "sptbnaw",
    "tier": "P"
@@ -18706,49 +18742,6 @@
     }
    ]
   },
-  "mql'xao": {
-   "freq": 2,
-   "pec_gloss": [
-    "涉水穿越溪流或水域"
-   ],
-   "cands": [
-    {
-     "cand": "mqrhu",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "msamao": {
-   "freq": 2,
-   "pec_gloss": [
-    "使用燈籠油燈"
-   ],
-   "cands": [
-    {
-     "cand": "msamu",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "mulae": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mray",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "muli": {
    "freq": 1,
    "pec_gloss": [],
@@ -18775,36 +18768,6 @@
     },
     {
      "cand": "mru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "mulun": {
-   "freq": 2,
-   "pec_gloss": [
-    "可吸吮的可使其在口中融化的"
-   ],
-   "cands": [
-    {
-     "cand": "mrun",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "mxei": {
-   "freq": 2,
-   "pec_gloss": [
-    "結果實有果實的"
-   ],
-   "cands": [
-    {
-     "cand": "mhi",
      "words": true,
      "gloss": 0,
      "dist": 3,
@@ -18907,21 +18870,6 @@
     }
    ]
   },
-  "pkalo": {
-   "freq": 2,
-   "pec_gloss": [
-    "使人梳讓人給自己梳頭"
-   ],
-   "cands": [
-    {
-     "cand": "pklu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "pkbulax": {
    "freq": 1,
    "pec_gloss": [
@@ -18948,36 +18896,6 @@
      "words": true,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "pnbalae": {
-   "freq": 2,
-   "pec_gloss": [
-    "認真行事以真誠處世"
-   ],
-   "cands": [
-    {
-     "cand": "pnbali",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "pnbalao": {
-   "freq": 2,
-   "pec_gloss": [
-    "表面地在表層"
-   ],
-   "cands": [
-    {
-     "cand": "pnbraw",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -19096,47 +19014,6 @@
     }
    ]
   },
-  "psukan": {
-   "freq": 2,
-   "pec_gloss": [
-    "醉的踉蹌的參見"
-   ],
-   "cands": [
-    {
-     "cand": "pskan",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "ptqoon": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "ptkuun",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "q'lxan": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "krhan",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "q'mux": {
    "freq": 1,
    "pec_gloss": [
@@ -19187,34 +19064,6 @@
     }
    ]
   },
-  "qlagun": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kragun",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "qlaq": {
-   "freq": 2,
-   "pec_gloss": [
-    "發癢搔癢"
-   ],
-   "cands": [
-    {
-     "cand": "qrak",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
   "qliun": {
    "freq": 1,
    "pec_gloss": [],
@@ -19224,19 +19073,6 @@
      "words": true,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "qlxan": {
-   "freq": 2,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "krhan",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
