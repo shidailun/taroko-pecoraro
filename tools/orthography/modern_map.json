@@ -1600,6 +1600,10 @@
    "modern": "gow",
    "tier": "B"
   },
+  "gaqat": {
+   "modern": "gaqat",
+   "tier": "M"
+  },
   "gasil": {
    "modern": "gasil",
    "tier": "id"
@@ -2187,6 +2191,10 @@
   "kawas": {
    "modern": "kawas",
    "tier": "id"
+  },
+  "kayao": {
+   "modern": "kayaw",
+   "tier": "M"
   },
   "kayo": {
    "modern": "kayu",
@@ -3956,6 +3964,10 @@
    "modern": "liyus",
    "tier": "B"
   },
+  "liwak": {
+   "modern": "liwaq",
+   "tier": "M"
+  },
   "liwang": {
    "modern": "liwang",
    "tier": "id"
@@ -4267,6 +4279,10 @@
   "lo": {
    "modern": "lu",
    "tier": "B"
+  },
+  "loai": {
+   "modern": "loai",
+   "tier": "M"
   },
   "loan": {
    "modern": "ruan",
@@ -5096,6 +5112,10 @@
    "modern": "mkyayung",
    "tier": "A"
   },
+  "mkala": {
+   "modern": "mgkala",
+   "tier": "M"
+  },
   "mkalao": {
    "modern": "mkaraw",
    "tier": "A"
@@ -5859,6 +5879,10 @@
   "mqan": {
    "modern": "mkan",
    "tier": "L"
+  },
+  "mqapax": {
+   "modern": "mqapah",
+   "tier": "M"
   },
   "mqatai": {
    "modern": "mkatay",
@@ -7520,6 +7544,10 @@
    "modern": "pburux",
    "tier": "B"
   },
+  "pbulax": {
+   "modern": "pburah",
+   "tier": "M"
+  },
   "pbxlao": {
    "modern": "pbhraw",
    "tier": "A"
@@ -7895,6 +7923,10 @@
   "pkuong": {
    "modern": "pkuung",
    "tier": "T"
+  },
+  "pkusa": {
+   "modern": "pkusa",
+   "tier": "M"
   },
   "pkxnuk": {
    "modern": "pkhnuk",
@@ -9348,6 +9380,10 @@
    "modern": "kadang",
    "tier": "T"
   },
+  "qadi": {
+   "modern": "qadi",
+   "tier": "M"
+  },
   "qagox": {
    "modern": "kaguh",
    "tier": "L"
@@ -9623,6 +9659,10 @@
   "qmali": {
    "modern": "kmari",
    "tier": "A"
+  },
+  "qmapax": {
+   "modern": "qmapah",
+   "tier": "M"
   },
   "qmapol": {
    "modern": "qmapur",
@@ -9947,6 +9987,10 @@
   "sa": {
    "modern": "sa",
    "tier": "id"
+  },
+  "sa'so": {
+   "modern": "sa'so",
+   "tier": "M"
   },
   "saai": {
    "modern": "saay",
@@ -10420,6 +10464,10 @@
    "modern": "skeeman",
    "tier": "M"
   },
+  "ska'nan": {
+   "modern": "skeeman",
+   "tier": "M"
+  },
   "skagul": {
    "modern": "skagul",
    "tier": "id"
@@ -10614,7 +10662,7 @@
   },
   "sl'si": {
    "modern": "srsi",
-   "tier": "B"
+   "tier": "M"
   },
   "sl'xbun": {
    "modern": "slhbun",
@@ -10804,6 +10852,10 @@
    "modern": "srus",
    "tier": "B"
   },
+  "slösi": {
+   "modern": "srsi",
+   "tier": "M"
+  },
   "smado": {
    "modern": "smadu",
    "tier": "A"
@@ -10991,6 +11043,10 @@
   "smqet": {
    "modern": "smqit",
    "tier": "B"
+  },
+  "smsik": {
+   "modern": "smsik",
+   "tier": "M"
   },
   "smudal": {
    "modern": "smudal",
@@ -11588,6 +11644,10 @@
    "modern": "staga",
    "tier": "id"
   },
+  "stalil": {
+   "modern": "stalil",
+   "tier": "M"
+  },
   "stama": {
    "modern": "stama",
    "tier": "id"
@@ -12167,6 +12227,10 @@
   "tgaan": {
    "modern": "tgaan",
    "tier": "id"
+  },
+  "tgagox": {
+   "modern": "tgaguh",
+   "tier": "M"
   },
   "tgai": {
    "modern": "tgai",
@@ -14328,6 +14392,10 @@
    "modern": "knqnquan",
    "tier": "P"
   },
+  "knsa'so": {
+   "modern": "knsa'so",
+   "tier": "P"
+  },
   "knsadyaq": {
    "modern": "knseejiq",
    "tier": "P"
@@ -14738,10 +14806,6 @@
   },
   "mka'man": {
    "modern": "mkeeman",
-   "tier": "P"
-  },
-  "mkala": {
-   "modern": "mkala",
    "tier": "P"
   },
   "mkasi": {
@@ -15604,10 +15668,6 @@
    "modern": "mqlit",
    "tier": "P"
   },
-  "mqapax": {
-   "modern": "mqapah",
-   "tier": "P"
-  },
   "mqatal": {
    "modern": "mqatar",
    "tier": "P"
@@ -15630,6 +15690,10 @@
   },
   "ms'mai": {
    "modern": "msmay",
+   "tier": "P"
+  },
+  "msa'so": {
+   "modern": "msa'so",
    "tier": "P"
   },
   "msadyaq": {
@@ -16116,10 +16180,6 @@
    "modern": "pbulang",
    "tier": "P"
   },
-  "pbulax": {
-   "modern": "pburah",
-   "tier": "P"
-  },
   "pd'san": {
    "modern": "pd'san",
    "tier": "P"
@@ -16196,6 +16256,10 @@
    "modern": "pgnnakan",
    "tier": "P"
   },
+  "pgsa'so": {
+   "modern": "pgsa'so",
+   "tier": "P"
+  },
   "pgxei": {
    "modern": "pghiyi",
    "tier": "P"
@@ -16226,6 +16290,10 @@
   },
   "pkalo": {
    "modern": "pkalu",
+   "tier": "P"
+  },
+  "pkayao": {
+   "modern": "pkayaw",
    "tier": "P"
   },
   "pkbulax": {
@@ -16392,10 +16460,6 @@
    "modern": "pkudaw",
    "tier": "P"
   },
-  "pkusa": {
-   "modern": "pkusa",
-   "tier": "P"
-  },
   "pl'bong": {
    "modern": "prbung",
    "tier": "P"
@@ -16438,6 +16502,10 @@
   },
   "pleqe": {
    "modern": "priqi",
+   "tier": "P"
+  },
+  "pliwak": {
+   "modern": "pliwaq",
    "tier": "P"
   },
   "pliwaq": {
@@ -16772,6 +16840,10 @@
    "modern": "pqyutun",
    "tier": "P"
   },
+  "psa'so": {
+   "modern": "psa'so",
+   "tier": "P"
+  },
   "psaang": {
    "modern": "psaang",
    "tier": "P"
@@ -16973,7 +17045,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "psp'ngan",
+   "modern": "pspngan",
    "tier": "P"
   },
   "pspuan": {
@@ -17266,10 +17338,6 @@
   },
   "qmalit": {
    "modern": "qmlit",
-   "tier": "P"
-  },
-  "qmapax": {
-   "modern": "qmapah",
    "tier": "P"
   },
   "qnamas": {
@@ -17754,10 +17822,6 @@
   },
   "sspgan": {
    "modern": "sspgan",
-   "tier": "P"
-  },
-  "stalil": {
-   "modern": "staril",
    "tier": "P"
   },
   "stg'xal": {
@@ -18275,21 +18339,6 @@
     }
    ]
   },
-  "gaqat": {
-   "freq": 3,
-   "pec_gloss": [
-    "冰塊冰柱"
-   ],
-   "cands": [
-    {
-     "cand": "gakat",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
   "gl'qan": {
    "freq": 1,
    "pec_gloss": [],
@@ -18342,21 +18391,6 @@
      "words": true,
      "gloss": 0,
      "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "kayao": {
-   "freq": 4,
-   "pec_gloss": [
-    "要醒著要警醒守夜保持清醒"
-   ],
-   "cands": [
-    {
-     "cand": "kayu",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
      "agg": true
     }
    ]
@@ -18575,21 +18609,6 @@
     }
    ]
   },
-  "liwak": {
-   "freq": 4,
-   "pec_gloss": [
-    "驅趕使離開"
-   ],
-   "cands": [
-    {
-     "cand": "liwaq",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
   "llongai": {
    "freq": 1,
    "pec_gloss": [],
@@ -18627,47 +18646,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "loai": {
-   "freq": 3,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "luay",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": false
-    },
-    {
-     "cand": "ruay",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": false
-    },
-    {
-     "cand": "luway",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": false
-    },
-    {
-     "cand": "ruway",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": false
-    },
-    {
-     "cand": "lui",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -18807,21 +18785,6 @@
     }
    ]
   },
-  "mkala": {
-   "freq": 3,
-   "pec_gloss": [
-    "上升超過"
-   ],
-   "cands": [
-    {
-     "cand": "mkla",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "mknaxal": {
    "freq": 2,
    "pec_gloss": [
@@ -18889,21 +18852,6 @@
      "words": false,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "mqapax": {
-   "freq": 3,
-   "pec_gloss": [
-    "黏附的順應形狀的攤開鋪平的"
-   ],
-   "cands": [
-    {
-     "cand": "mqpah",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -19109,21 +19057,6 @@
     }
    ]
   },
-  "pbulax": {
-   "freq": 3,
-   "pec_gloss": [
-    "更新使成為新的"
-   ],
-   "cands": [
-    {
-     "cand": "pbrah",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "pkalo": {
    "freq": 2,
    "pec_gloss": [
@@ -19150,21 +19083,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "pkusa": {
-   "freq": 4,
-   "pec_gloss": [
-    "欠債舉債賒帳"
-   ],
-   "cands": [
-    {
-     "cand": "pksa",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -19399,21 +19317,6 @@
     }
    ]
   },
-  "qadi": {
-   "freq": 3,
-   "pec_gloss": [
-    "格子架編織物編紮編織而成之物"
-   ],
-   "cands": [
-    {
-     "cand": "kaji",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
   "ql'xao": {
    "freq": 1,
    "pec_gloss": [
@@ -19534,21 +19437,6 @@
     }
    ]
   },
-  "qmapax": {
-   "freq": 4,
-   "pec_gloss": [
-    "塗抹鋪開覆蓋"
-   ],
-   "cands": [
-    {
-     "cand": "qmpah",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "qnali": {
    "freq": 1,
    "pec_gloss": [],
@@ -19586,21 +19474,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "sa'so": {
-   "freq": 5,
-   "pec_gloss": [
-    "沉靜羞怯羞恥心"
-   ],
-   "cands": [
-    {
-     "cand": "ssu",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -19698,19 +19571,6 @@
     }
    ]
   },
-  "ska'nan": {
-   "freq": 3,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "sknan",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "skl'bai": {
    "freq": 2,
    "pec_gloss": [
@@ -19796,34 +19656,6 @@
      "words": true,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "slösi": {
-   "freq": 3,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "srsi",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "smsik": {
-   "freq": 3,
-   "pec_gloss": [
-    "掃地"
-   ],
-   "cands": [
-    {
-     "cand": "smsiq",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
      "agg": true
     }
    ]
@@ -19947,21 +19779,6 @@
      "words": false,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "stalil": {
-   "freq": 3,
-   "pec_gloss": [
-    "跳跳一下"
-   ],
-   "cands": [
-    {
-     "cand": "stril",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -20094,21 +19911,6 @@
     },
     {
      "cand": "tpak",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "tgagox": {
-   "freq": 5,
-   "pec_gloss": [
-    "的變體意思相同"
-   ],
-   "cands": [
-    {
-     "cand": "tgguh",
      "words": true,
      "gloss": 0,
      "dist": 4,
@@ -22430,13 +22232,6 @@
    ]
   ],
   [
-   "pkayao",
-   3,
-   [
-    "使人警醒喚醒"
-   ]
-  ],
-  [
    "pklidil",
    3,
    []
@@ -22482,13 +22277,6 @@
    3,
    [
     "歸還償還交還"
-   ]
-  ],
-  [
-   "pliwak",
-   3,
-   [
-    "使人去驅趕讓人替自己驅趕"
    ]
   ],
   [
@@ -22759,6 +22547,20 @@
    3,
    [
     "大蒜"
+   ]
+  ],
+  [
+   "q'qan",
+   3,
+   [
+    "打鬥爭鬥戰鬥互相吃對方"
+   ]
+  ],
+  [
+   "qblingan",
+   3,
+   [
+    "謊言欺騙被騙的人"
    ]
   ]
  ]
