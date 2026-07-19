@@ -29,8 +29,12 @@ Traditional Chinese (translated from the French, draft pending native review).
 ```
 
 `(R)` = racine/root as marked by Pecoraro; `°` lines = verb paradigm; `§` = example.
-Pecoraro's orthography is idiosyncratic (x = today's h, o = u, etc.) — do NOT
-"correct" it to modern Truku spelling without a decision from Darryl.
+Pecoraro's orthography is idiosyncratic (x = today's h, o = u, etc.). Source data
+in `entries.js` is never modernized. As of 2026-07-19, the app has a display-only
+modern-spelling toggle (⚙ settings sheet) applying only three cross-checked rules
+(o→u, l→r, x→h — derived from `Truku_Omnibus.xlsx`, see `tools/orthography/`);
+weaker/inconsistent patterns (i→y, q↔k) were deliberately excluded. Don't expand
+the rule set without re-deriving from the omnibus corpus.
 
 ## Deploy
 

@@ -23,6 +23,33 @@
     try { localStorage.setItem(STORE_KEY, JSON.stringify(shown)); } catch (e) {}
   }
 
+  // Modern-spelling toggle: display-only conversion of Pecoraro's 1977 orthography
+  // to approximate modern Truku spelling. Rules are cross-checked against a modern
+  // Truku dictionary (413 same-meaning word pairs found via Chinese-gloss matching,
+  // then character-aligned) — only the strong, consistent patterns are applied;
+  // i→y and q/k were excluded as inconsistent in the source data. Source data in
+  // entries.js is never modified, only the rendered text.
+  var SPELLING_KEY = "taroko_pecoraro_spelling_v1";
+  var SPELLING_MAP = { x: "h", o: "u", l: "r", X: "H", O: "U", L: "R" };
+  var spellingModern = loadSpelling();
+
+  function loadSpelling() {
+    try { return localStorage.getItem(SPELLING_KEY) === "modern"; } catch (e) { return false; }
+  }
+
+  function saveSpelling() {
+    try { localStorage.setItem(SPELLING_KEY, spellingModern ? "modern" : "original"); } catch (e) {}
+  }
+
+  function modernize(word) {
+    if (!word) return word;
+    return word.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
+  }
+
+  function dispTruku(word) {
+    return spellingModern ? modernize(word) : word;
+  }
+
   // ---------- search ----------
   function norm(s) {
     return (s || "")
@@ -90,10 +117,11 @@
     var h = "";
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
+      var display = esc(dispTruku(part));
       if (i % 2 === 1 && HW_SET[norm(part)]) {
-        h += '<span class="crossref-link" data-ref="' + esc(part) + '">' + esc(part) + "</span>";
+        h += '<span class="crossref-link" data-ref="' + esc(part) + '">' + display + "</span>";
       } else {
-        h += esc(part);
+        h += display;
       }
     }
     return h;
@@ -130,9 +158,9 @@
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + esc(e.hw) + "</span>";
+    h += '<div class="hw-line"><span class="hw">' + esc(dispTruku(e.hw)) + "</span>";
     h += tagHtml(e.tag);
-    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(e.crossRef) + "</span></span>";
+    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispTruku(e.crossRef)) + "</span></span>";
     h += "</div>";
     if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(e.paradigm) + "</p>";
     h += glossHtml(e);
@@ -277,6 +305,8 @@
       "<p>English and Chinese translations added from the French; draft, pending review by native speakers.</p>" +
       "<p>“Taroko” is the Japanese-era romanization of the people's own name, Truku, as spoken on Taiwan's east coast (Hualien). Pecoraro writes it “T’roko.”</p>" +
       "<p>「太魯閣」（Taroko）源自日治時期的羅馬拼音，是東台灣（花蓮）太魯閣族自稱「Truku」的另一種轉寫方式。貝科拉羅神父原文寫作「T'roko」。</p>" +
+      "<p>This is a root-word dictionary: entries are organized by root (racine), not by every inflected or derived form. Grammatical particles and verb-conjugated forms appearing in example sentences may not have their own headword.</p>" +
+      "<p>本辭典以詞根（root word）為主要條目，並非收錄每一個詞形變化。例句中出現的語法助詞或動詞變位形式，可能沒有獨立詞條。</p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages</p>"
     );
@@ -326,11 +356,24 @@
       h += '<label class="lang-option"><input type="checkbox" data-lang="' + l.key + '"' +
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
+    h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
+      '<p class="fine">Approximate conversion (o→u, l→r, x→h), cross-checked against a modern Truku dictionary but not proofread. Pecoraro\'s original spelling is authoritative. / 近似轉換規則(o→u、l→r、x→h),已比對現代太魯閣語詞典但未經校對。貝科拉羅原文拼寫為準。</p>' +
+      '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
+      (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
+      '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +
+      (spellingModern ? " checked" : "") + "><span>Modern Truku spelling (approx.) / 現代拼寫(近似)</span></label>";
     openSheet(h);
     sheetContent.querySelectorAll("input[data-lang]").forEach(function (cb) {
       cb.addEventListener("change", function () {
         shown[cb.getAttribute("data-lang")] = cb.checked;
         saveLangs();
+        render();
+      });
+    });
+    sheetContent.querySelectorAll("input[name=\"spelling\"]").forEach(function (rb) {
+      rb.addEventListener("change", function () {
+        spellingModern = rb.value === "modern";
+        saveSpelling();
         render();
       });
     });
