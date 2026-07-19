@@ -2096,6 +2096,10 @@
    "modern": "içan",
    "tier": "id"
   },
+  "k'aon": {
+   "modern": "k'aon",
+   "tier": "M"
+  },
   "k'i": {
    "modern": "k'i",
    "tier": "id"
@@ -2228,6 +2232,10 @@
    "modern": "kawas",
    "tier": "id"
   },
+  "kaya": {
+   "modern": "kaya",
+   "tier": "M"
+  },
   "kayao": {
    "modern": "kayaw",
    "tier": "M"
@@ -2304,6 +2312,10 @@
    "modern": "kbkuy",
    "tier": "A"
   },
+  "kbulax": {
+   "modern": "kburah",
+   "tier": "M"
+  },
   "kdadax": {
    "modern": "kdadax",
    "tier": "id"
@@ -2375,6 +2387,10 @@
   "keta": {
    "modern": "kita",
    "tier": "A"
+  },
+  "keto": {
+   "modern": "keto",
+   "tier": "M"
   },
   "kg'long": {
    "modern": "kgrung",
@@ -2595,6 +2611,10 @@
   "kluli": {
    "modern": "qluli",
    "tier": "A"
+  },
+  "klwaai": {
+   "modern": "klway",
+   "tier": "M"
   },
   "klwaan": {
    "modern": "klwaan",
@@ -3124,6 +3144,10 @@
    "modern": "knuwan",
    "tier": "M"
   },
+  "knusa": {
+   "modern": "knsa",
+   "tier": "M"
+  },
   "knuwan": {
    "modern": "knuwan",
    "tier": "id"
@@ -3164,6 +3188,14 @@
    "modern": "kukuh",
    "tier": "A"
   },
+  "komu": {
+   "modern": "komu",
+   "tier": "M"
+  },
+  "komù": {
+   "modern": "komù",
+   "tier": "M"
+  },
   "kona": {
    "modern": "kuna",
    "tier": "B"
@@ -3171,6 +3203,10 @@
   "koswi": {
    "modern": "kusuy",
    "tier": "B"
+  },
+  "koulae": {
+   "modern": "koulae",
+   "tier": "M"
   },
   "koxat": {
    "modern": "kuhat",
@@ -3199,6 +3235,10 @@
   "kpaxon": {
    "modern": "qpahun",
    "tier": "A"
+  },
+  "kpoling": {
+   "modern": "qpuring",
+   "tier": "M"
   },
   "kpoxel": {
    "modern": "qpuhir",
@@ -3367,6 +3407,10 @@
   "kulao": {
    "modern": "kulaw",
    "tier": "B"
+  },
+  "kuli": {
+   "modern": "kuli",
+   "tier": "M"
   },
   "kulu": {
    "modern": "kulu",
@@ -4096,6 +4140,10 @@
    "modern": "lrudux",
    "tier": "T"
   },
+  "llongai": {
+   "modern": "llongai",
+   "tier": "M"
+  },
   "lm'bong": {
    "modern": "rmbung",
    "tier": "A"
@@ -4188,6 +4236,10 @@
    "modern": "lmnglung",
    "tier": "B"
   },
+  "lmobo": {
+   "modern": "lmobo",
+   "tier": "M"
+  },
   "lmobong": {
    "modern": "rmbung",
    "tier": "L"
@@ -4207,6 +4259,10 @@
   "lmuan": {
    "modern": "rmuan",
    "tier": "B"
+  },
+  "lmubu": {
+   "modern": "lmubu",
+   "tier": "M"
   },
   "lmui": {
    "modern": "lmui",
@@ -4406,6 +4462,10 @@
   },
   "losok": {
    "modern": "losok",
+   "tier": "M"
+  },
+  "lowai": {
+   "modern": "lowai",
    "tier": "M"
   },
   "lowan": {
@@ -14444,6 +14504,10 @@
    "modern": "kmpkdra",
    "tier": "P"
   },
+  "kmpoling": {
+   "modern": "qmpuring",
+   "tier": "P"
+  },
   "kmpusa": {
    "modern": "kmpusa",
    "tier": "P"
@@ -14702,10 +14766,6 @@
   },
   "lludan": {
    "modern": "lrudan",
-   "tier": "P"
-  },
-  "lmubu": {
-   "modern": "lmubu",
    "tier": "P"
   },
   "lmuxun": {
@@ -15066,6 +15126,10 @@
   },
   "mkudao": {
    "modern": "mkudaw",
+   "tier": "P"
+  },
+  "mkuli": {
+   "modern": "mkuli",
    "tier": "P"
   },
   "ml'boq": {
@@ -18374,239 +18438,6 @@
   }
  },
  "review": {
-  "k'aon": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kan",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "kaya": {
-   "freq": 1,
-   "pec_gloss": [
-    "蚊帳"
-   ],
-   "cands": [
-    {
-     "cand": "qaya",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "kbulax": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kbrah",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "keto": {
-   "freq": 1,
-   "pec_gloss": [
-    "毛衣套頭衫"
-   ],
-   "cands": [
-    {
-     "cand": "ktu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "klwaai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "klway",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "knusa": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "knsa",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "komu": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kmu",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "komù": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kmu",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "koulae": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kuray",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "kpoling": {
-   "freq": 1,
-   "pec_gloss": [
-    "包圍圍困"
-   ],
-   "cands": [
-    {
-     "cand": "qpuring",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "kuli": {
-   "freq": 1,
-   "pec_gloss": [
-    "領薪的體力勞工"
-   ],
-   "cands": [
-    {
-     "cand": "quri",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    },
-    {
-     "cand": "kli",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "kri",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "quli",
-     "words": false,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "llongai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "rlungi",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "lmobo": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "rmbu",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "lmubu": {
-   "freq": 1,
-   "pec_gloss": [
-    "吹奏這件樂器"
-   ],
-   "cands": [
-    {
-     "cand": "rmbu",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "lowai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "luway",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": false
-    },
-    {
-     "cand": "ruway",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": false
-    }
-   ]
-  },
   "lübak": {
    "freq": 1,
    "pec_gloss": [],
@@ -20162,13 +19993,6 @@
    5,
    [
     "進行剪切的地點時間被剪下的東西剪法"
-   ]
-  ],
-  [
-   "kmpoling",
-   5,
-   [
-    "包圍四面進逼"
    ]
   ],
   [
@@ -21962,6 +21786,13 @@
    3,
    [
     "謊言欺騙被騙的人"
+   ]
+  ],
+  [
+   "qel",
+   3,
+   [
+    "活該好得很表示贊同某項懲罰的感嘆詞"
    ]
   ]
  ]
