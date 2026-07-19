@@ -8024,6 +8024,10 @@
    "modern": "pkbiyax",
    "tier": "id"
   },
+  "pkbulax": {
+   "modern": "pkburah",
+   "tier": "M"
+  },
   "pkd'la": {
    "modern": "pkdra",
    "tier": "A"
@@ -8392,6 +8396,10 @@
    "modern": "pnais",
    "tier": "id"
   },
+  "pnalu": {
+   "modern": "pnalu",
+   "tier": "M"
+  },
   "pnatas": {
    "modern": "pnatas",
    "tier": "id"
@@ -8460,6 +8468,10 @@
    "modern": "pnkingal",
    "tier": "id"
   },
+  "pnlak": {
+   "modern": "pnlaq",
+   "tier": "M"
+  },
   "pnlaq": {
    "modern": "pnlaq",
    "tier": "id"
@@ -8499,6 +8511,10 @@
   "pnsaan": {
    "modern": "pnsaan",
    "tier": "id"
+  },
+  "pnsamao": {
+   "modern": "pnsamaw",
+   "tier": "M"
   },
   "pnsbut": {
    "modern": "pnsbut",
@@ -8591,6 +8607,10 @@
   "pnyaxan": {
    "modern": "pnyahan",
    "tier": "B"
+  },
+  "poling": {
+   "modern": "puring",
+   "tier": "M"
   },
   "polo": {
    "modern": "puru",
@@ -8691,6 +8711,10 @@
   "pqan": {
    "modern": "pkan",
    "tier": "L"
+  },
+  "pqapax": {
+   "modern": "pqapah",
+   "tier": "M"
   },
   "pqatai": {
    "modern": "pqatai",
@@ -8980,9 +9004,17 @@
    "modern": "psramal",
    "tier": "A"
   },
+  "pslangi": {
+   "modern": "pslangi",
+   "tier": "M"
+  },
   "pslaxoq": {
    "modern": "psrahuq",
    "tier": "B"
+  },
+  "pslbui": {
+   "modern": "pslbui",
+   "tier": "M"
   },
   "pslguon": {
    "modern": "pslguun",
@@ -9191,6 +9223,10 @@
   "pstalox": {
    "modern": "pstalux",
    "tier": "L"
+  },
+  "pstana": {
+   "modern": "pstama",
+   "tier": "M"
   },
   "pstilux": {
    "modern": "pscilux",
@@ -9604,6 +9640,10 @@
    "modern": "kmrut",
    "tier": "L"
   },
+  "q'mux": {
+   "modern": "q'mux",
+   "tier": "M"
+  },
   "q'pax": {
    "modern": "qpah",
    "tier": "B"
@@ -9840,6 +9880,10 @@
    "modern": "krtun",
    "tier": "L"
   },
+  "ql'xao": {
+   "modern": "ql'xao",
+   "tier": "M"
+  },
   "ql'xqan": {
    "modern": "qrhqan",
    "tier": "B"
@@ -9855,6 +9899,10 @@
   "qlagan": {
    "modern": "kragan",
    "tier": "A"
+  },
+  "qlagi": {
+   "modern": "kragi",
+   "tier": "M"
   },
   "qlagun": {
    "modern": "qlagun",
@@ -9892,6 +9940,10 @@
    "modern": "qrinut",
    "tier": "A"
   },
+  "qliun": {
+   "modern": "kriun",
+   "tier": "M"
+  },
   "qliyang": {
    "modern": "qliyang",
    "tier": "id"
@@ -9927,6 +9979,10 @@
   "qmali": {
    "modern": "kmari",
    "tier": "A"
+  },
+  "qmalit": {
+   "modern": "qmalit",
+   "tier": "M"
   },
   "qmapax": {
    "modern": "qmapah",
@@ -9987,6 +10043,10 @@
   "qnada": {
    "modern": "qnada",
    "tier": "id"
+  },
+  "qnali": {
+   "modern": "qnali",
+   "tier": "M"
   },
   "qnaxol": {
    "modern": "qnahur",
@@ -16572,10 +16632,6 @@
    "modern": "pkayaw",
    "tier": "P"
   },
-  "pkbulax": {
-   "modern": "pkburah",
-   "tier": "P"
-  },
   "pkdengdang": {
    "modern": "pkdngdang",
    "tier": "P"
@@ -16832,10 +16888,6 @@
    "modern": "prhrhun",
    "tier": "P"
   },
-  "pnalu": {
-   "modern": "pmalu",
-   "tier": "P"
-  },
   "pnanak": {
    "modern": "pnanak",
    "tier": "P"
@@ -17056,10 +17108,6 @@
    "modern": "pkari",
    "tier": "P"
   },
-  "pqapax": {
-   "modern": "pqapah",
-   "tier": "P"
-  },
   "pqblingi": {
    "modern": "pqblingi",
    "tier": "P"
@@ -17228,10 +17276,6 @@
    "modern": "pslagu",
    "tier": "P"
   },
-  "pslangi": {
-   "modern": "psrangi",
-   "tier": "P"
-  },
   "psli": {
    "modern": "psli",
    "tier": "P"
@@ -17309,7 +17353,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "psp'ngan",
+   "modern": "pspngan",
    "tier": "P"
   },
   "pspuan": {
@@ -17598,10 +17642,6 @@
   },
   "pyaxon": {
    "modern": "pyahun",
-   "tier": "P"
-  },
-  "qmalit": {
-   "modern": "qmlit",
    "tier": "P"
   },
   "qnamas": {
@@ -18486,226 +18526,6 @@
   }
  },
  "review": {
-  "pkbulax": {
-   "freq": 1,
-   "pec_gloss": [
-    "使之成為新的"
-   ],
-   "cands": [
-    {
-     "cand": "pkbrax",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "pnalu": {
-   "freq": 1,
-   "pec_gloss": [
-    "使人代替使人頂替"
-   ],
-   "cands": [
-    {
-     "cand": "pnru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "pnlak": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "pnlaq",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "pnsamao": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "pnsamu",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "poling": {
-   "freq": 1,
-   "pec_gloss": [
-    "的詞根環繞參見"
-   ],
-   "cands": [
-    {
-     "cand": "pring",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "pqapax": {
-   "freq": 1,
-   "pec_gloss": [
-    "使攤鋪使鋪墊"
-   ],
-   "cands": [
-    {
-     "cand": "pqpah",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "pslangi": {
-   "freq": 1,
-   "pec_gloss": [
-    "使之有剩餘"
-   ],
-   "cands": [
-    {
-     "cand": "pslngi",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "pslbui": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "pslbi",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "pstana": {
-   "freq": 1,
-   "pec_gloss": [
-    "使人信賴於使人倚靠"
-   ],
-   "cands": [
-    {
-     "cand": "pstna",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "q'mux": {
-   "freq": 1,
-   "pec_gloss": [
-    "毒麥雜草"
-   ],
-   "cands": [
-    {
-     "cand": "kmux",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    }
-   ]
-  },
-  "ql'xao": {
-   "freq": 1,
-   "pec_gloss": [
-    "涉水過溪"
-   ],
-   "cands": [
-    {
-     "cand": "qrhu",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "qlagi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kragi",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    },
-    {
-     "cand": "qrgi",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "qliun": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "kriun",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "qmalit": {
-   "freq": 1,
-   "pec_gloss": [
-    "用剪刀剪裁"
-   ],
-   "cands": [
-    {
-     "cand": "kmarit",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "qnali": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "knari",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
   "qoumi": {
    "freq": 1,
    "pec_gloss": [],
