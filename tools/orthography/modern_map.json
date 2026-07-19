@@ -536,6 +536,10 @@
    "modern": "bnkiyan",
    "tier": "id"
   },
+  "bnlaxan": {
+   "modern": "bnrahan",
+   "tier": "M"
+  },
   "bntaqan": {
    "modern": "bntaqan",
    "tier": "id"
@@ -5448,6 +5452,10 @@
    "modern": "mluqih",
    "tier": "A"
   },
+  "mlubu": {
+   "modern": "mlubu",
+   "tier": "M"
+  },
   "mludao": {
    "modern": "mrudaw",
    "tier": "B"
@@ -5523,6 +5531,10 @@
   "mnalox": {
    "modern": "mnalux",
    "tier": "A"
+  },
+  "mnalu": {
+   "modern": "mnalu",
+   "tier": "M"
   },
   "mnan": {
    "modern": "mnan",
@@ -5735,6 +5747,10 @@
   "modox": {
    "modern": "muduh",
    "tier": "B"
+  },
+  "molo": {
+   "modern": "muru",
+   "tier": "M"
   },
   "molong": {
    "modern": "murung",
@@ -6151,6 +6167,10 @@
   "msngusul": {
    "modern": "msngusul",
    "tier": "id"
+  },
+  "msnoxel": {
+   "modern": "msnoxel",
+   "tier": "M"
   },
   "msola": {
    "modern": "msula",
@@ -7119,6 +7139,10 @@
   "nuda": {
    "modern": "nuda",
    "tier": "id"
+  },
+  "nugul": {
+   "modern": "nugul",
+   "tier": "M"
   },
   "nusa": {
    "modern": "nusa",
@@ -14876,10 +14900,6 @@
    "modern": "mrbung",
    "tier": "P"
   },
-  "mlubu": {
-   "modern": "mlubu",
-   "tier": "P"
-  },
   "mlutut": {
    "modern": "mlutut",
    "tier": "P"
@@ -14934,6 +14954,10 @@
   },
   "mntnuda": {
    "modern": "mntnuda",
+   "tier": "P"
+  },
+  "mnugul": {
+   "modern": "mnugul",
    "tier": "P"
   },
   "mp'adas": {
@@ -16949,7 +16973,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "pspngan",
+   "modern": "psp'ngan",
    "tier": "P"
   },
   "pspuan": {
@@ -17564,6 +17588,10 @@
    "modern": "sntruan",
    "tier": "P"
   },
+  "snugul": {
+   "modern": "snugul",
+   "tier": "P"
+  },
   "snxalan": {
    "modern": "snxalan",
    "tier": "P"
@@ -18165,22 +18193,6 @@
      "words": true,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "bnlaxan": {
-   "freq": 5,
-   "pec_gloss": [
-    "已經完成的更新",
-    "新近的事物剛剛產生的事物"
-   ],
-   "cands": [
-    {
-     "cand": "bnlxan",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -18840,44 +18852,6 @@
     }
    ]
   },
-  "mlubu": {
-   "freq": 7,
-   "pec_gloss": [
-    "吹奏這件樂器的人"
-   ],
-   "cands": [
-    {
-     "cand": "mrbu",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "mnalu": {
-   "freq": 5,
-   "pec_gloss": [
-    "和睦相處彼此相愛註常見同義詞",
-    "頂替的代替以之名"
-   ],
-   "cands": [
-    {
-     "cand": "mnlu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "mnru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "mnaxal": {
    "freq": 1,
    "pec_gloss": [
@@ -18889,28 +18863,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "molo": {
-   "freq": 5,
-   "pec_gloss": [
-    "同上之動詞形"
-   ],
-   "cands": [
-    {
-     "cand": "mlu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "mru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -18982,21 +18934,6 @@
      "words": false,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "msnoxel": {
-   "freq": 5,
-   "pec_gloss": [
-    "嫉妒的人懷有妒意的人"
-   ],
-   "cands": [
-    {
-     "cand": "msnhir",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -19112,21 +19049,6 @@
      "words": true,
      "gloss": 0,
      "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "nugul": {
-   "freq": 6,
-   "pec_gloss": [
-    "細繩繫繩連結線"
-   ],
-   "cands": [
-    {
-     "cand": "ngur",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
      "agg": true
     }
    ]
@@ -21278,13 +21200,6 @@
    ]
   ],
   [
-   "snugul",
-   5,
-   [
-    "跟隨陪伴隨後而行參見"
-   ]
-  ],
-  [
    "tagaxan",
    5,
    []
@@ -22308,13 +22223,6 @@
    []
   ],
   [
-   "mnugul",
-   3,
-   [
-    "綁繫上一條繩子"
-   ]
-  ],
-  [
    "mpadyaq",
    3,
    [
@@ -22837,6 +22745,20 @@
    3,
    [
     "唱歌的時間地點對象"
+   ]
+  ],
+  [
+   "q'mqol",
+   3,
+   [
+    "挖鑿雕刻"
+   ]
+  ],
+  [
+   "q'nao",
+   3,
+   [
+    "大蒜"
    ]
   ]
  ]
