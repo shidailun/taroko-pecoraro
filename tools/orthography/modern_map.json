@@ -11760,6 +11760,10 @@
    "modern": "spagan",
    "tier": "M"
   },
+  "spagun": {
+   "modern": "spgun",
+   "tier": "M"
+  },
   "spangan": {
    "modern": "spangan",
    "tier": "id"
@@ -11783,6 +11787,10 @@
   "spgan": {
    "modern": "spgan",
    "tier": "id"
+  },
+  "spgao": {
+   "modern": "spgao",
+   "tier": "M"
   },
   "spi": {
    "modern": "spi",
@@ -11903,6 +11911,10 @@
   "sq'tol": {
    "modern": "sqtul",
    "tier": "B"
+  },
+  "sqaai": {
+   "modern": "sqaai",
+   "tier": "M"
   },
   "sqaan": {
    "modern": "sqaan",
@@ -12060,6 +12072,10 @@
    "modern": "stama",
    "tier": "id"
   },
+  "stana": {
+   "modern": "stama",
+   "tier": "M"
+  },
   "stgoxoi": {
    "modern": "stghuy",
    "tier": "L"
@@ -12124,9 +12140,17 @@
    "modern": "swayi",
    "tier": "M"
   },
+  "sueq": {
+   "modern": "sueq",
+   "tier": "M"
+  },
   "sugun": {
    "modern": "sgun",
    "tier": "L"
+  },
+  "suil": {
+   "modern": "suil",
+   "tier": "M"
   },
   "sun": {
    "modern": "sun",
@@ -12248,6 +12272,10 @@
    "modern": "shus",
    "tier": "B"
   },
+  "syukai": {
+   "modern": "syukay",
+   "tier": "M"
+  },
   "syuki": {
    "modern": "syuki",
    "tier": "id"
@@ -12263,6 +12291,10 @@
   "sögi": {
    "modern": "sgi",
    "tier": "L"
+  },
+  "süeq": {
+   "modern": "süeq",
+   "tier": "M"
   },
   "t'lo": {
    "modern": "tru",
@@ -12383,6 +12415,14 @@
   "taokan": {
    "modern": "towkan",
    "tier": "L"
+  },
+  "taoke": {
+   "modern": "taoke",
+   "tier": "M"
+  },
+  "tapak": {
+   "modern": "tapak",
+   "tier": "M"
   },
   "tapaq": {
    "modern": "tapaq",
@@ -13188,6 +13228,10 @@
    "modern": "tnrqilan",
    "tier": "B"
   },
+  "tnoxoi": {
+   "modern": "tnoxoi",
+   "tier": "M"
+  },
   "tnpngan": {
    "modern": "tnpngan",
    "tier": "id"
@@ -13736,6 +13780,10 @@
    "modern": "hari",
    "tier": "A"
   },
+  "xalo": {
+   "modern": "xalo",
+   "tier": "M"
+  },
   "xalong": {
    "modern": "harung",
    "tier": "B"
@@ -13747,6 +13795,10 @@
   "xalös": {
    "modern": "halus",
    "tier": "B"
+  },
+  "xama": {
+   "modern": "xama",
+   "tier": "M"
   },
   "xan": {
    "modern": "han",
@@ -14291,6 +14343,10 @@
   "xoda": {
    "modern": "huda",
    "tier": "A"
+  },
+  "xoil": {
+   "modern": "xoil",
+   "tier": "M"
   },
   "xokut": {
    "modern": "hukut",
@@ -16284,6 +16340,14 @@
    "modern": "msstrung",
    "tier": "P"
   },
+  "msueq": {
+   "modern": "msüeq",
+   "tier": "P"
+  },
+  "msuil": {
+   "modern": "msuil",
+   "tier": "P"
+  },
   "mswiwil": {
    "modern": "mswiwil",
    "tier": "P"
@@ -16506,6 +16570,10 @@
   },
   "nsayang": {
    "modern": "nsayang",
+   "tier": "P"
+  },
+  "nsuil": {
+   "modern": "nsuil",
    "tier": "P"
   },
   "nsuxal": {
@@ -17468,6 +17536,10 @@
    "modern": "pstruma",
    "tier": "P"
   },
+  "psueq": {
+   "modern": "psüeq",
+   "tier": "P"
+  },
   "psx'muk": {
    "modern": "pshmuk",
    "tier": "P"
@@ -17894,6 +17966,10 @@
   },
   "smpusal": {
    "modern": "smpusal",
+   "tier": "P"
+  },
+  "smueq": {
+   "modern": "smüeq",
    "tier": "P"
   },
   "sn'ayus": {
@@ -18581,216 +18657,7 @@
    "tier": "P"
   }
  },
- "review": {
-  "spagun": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "spgun",
-     "words": false,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "spgao": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "spgu",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "sqaai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "skaay",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "stana": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "stna",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "sueq": {
-   "freq": 1,
-   "pec_gloss": [
-    "倒出內容物溢出"
-   ],
-   "cands": [
-    {
-     "cand": "siq",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "suil": {
-   "freq": 1,
-   "pec_gloss": [
-    "偶爾斷斷續續參見"
-   ],
-   "cands": [
-    {
-     "cand": "sir",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "syukai": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "syuki",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "süeq": {
-   "freq": 1,
-   "pec_gloss": [
-    "倒出內容物溢出"
-   ],
-   "cands": [
-    {
-     "cand": "siq",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "taoke": {
-   "freq": 1,
-   "pec_gloss": [
-    "工頭老闆"
-   ],
-   "cands": [
-    {
-     "cand": "tuki",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    },
-    {
-     "cand": "taki",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "tapak": {
-   "freq": 1,
-   "pec_gloss": [
-    "打壓碎"
-   ],
-   "cands": [
-    {
-     "cand": "tapaq",
-     "words": true,
-     "gloss": 0,
-     "dist": 1,
-     "agg": true
-    },
-    {
-     "cand": "tpak",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "tnoxoi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "tnhui",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "xalo": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "hru",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "xama": {
-   "freq": 1,
-   "pec_gloss": [
-    "大槌工具"
-   ],
-   "cands": [
-    {
-     "cand": "hma",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "xoil": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "hir",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  }
- },
+ "review": {},
  "unmapped_top": [
   [
    "no",
@@ -19312,13 +19179,6 @@
    []
   ],
   [
-   "msuil",
-   6,
-   [
-    "偶爾時而時而"
-   ]
-  ],
-  [
    "muyes",
    6,
    [
@@ -19650,13 +19510,6 @@
    5,
    [
     "你們要預備保持準備好"
-   ]
-  ],
-  [
-   "psueq",
-   5,
-   [
-    "倒出使溢出使流出施洗"
    ]
   ],
   [
@@ -20878,13 +20731,6 @@
    ]
   ],
   [
-   "nsuil",
-   3,
-   [
-    "同上之動詞形指過去"
-   ]
-  ],
-  [
    "nyeq",
    3,
    [
@@ -21286,6 +21132,25 @@
    3,
    [
     "活該好得很表示贊同某項懲罰的感嘆詞"
+   ]
+  ],
+  [
+   "qlii",
+   3,
+   []
+  ],
+  [
+   "qqan",
+   3,
+   [
+    "打鬥爭鬥戰鬥互相吃對方"
+   ]
+  ],
+  [
+   "sapang",
+   3,
+   [
+    "打補丁在衣服或布料上縫上補丁"
    ]
   ]
  ]
