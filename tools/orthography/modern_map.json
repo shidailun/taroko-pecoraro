@@ -4704,6 +4704,10 @@
    "modern": "ramil",
    "tier": "B"
   },
+  "lübak": {
+   "modern": "lübak",
+   "tier": "M"
+  },
   "m'akai": {
    "modern": "m'akai",
    "tier": "M"
@@ -5100,6 +5104,10 @@
    "modern": "mdka",
    "tier": "id"
   },
+  "mdludao": {
+   "modern": "mdrudu",
+   "tier": "M"
+  },
   "mdngil": {
    "modern": "mdngil",
    "tier": "id"
@@ -5472,6 +5480,10 @@
    "modern": "mkray",
    "tier": "L"
   },
+  "mkuli": {
+   "modern": "mkuli",
+   "tier": "M"
+  },
   "mkuong": {
    "modern": "mkuung",
    "tier": "B"
@@ -5720,6 +5732,10 @@
    "modern": "mnatas",
    "tier": "id"
   },
+  "mnaxal": {
+   "modern": "mnaxal",
+   "tier": "M"
+  },
   "mnbalax": {
    "modern": "mnbarah",
    "tier": "B"
@@ -5920,6 +5936,10 @@
    "modern": "munuh",
    "tier": "A"
   },
+  "mori": {
+   "modern": "mori",
+   "tier": "M"
+  },
   "motong": {
    "modern": "mutung",
    "tier": "B"
@@ -5927,6 +5947,10 @@
   "motoç": {
    "modern": "mutuh",
    "tier": "B"
+  },
+  "moxoi": {
+   "modern": "moxoi",
+   "tier": "M"
   },
   "mp'otoç": {
    "modern": "mputuh",
@@ -6680,6 +6704,14 @@
    "modern": "muray",
    "tier": "M"
   },
+  "muli": {
+   "modern": "muli",
+   "tier": "M"
+  },
+  "mulu": {
+   "modern": "mulu",
+   "tier": "M"
+  },
   "mulun": {
    "modern": "mulun",
    "tier": "M"
@@ -6912,6 +6944,14 @@
    "modern": "naduk",
    "tier": "B"
   },
+  "nagui": {
+   "modern": "nagui",
+   "tier": "M"
+  },
+  "nagwi": {
+   "modern": "nagwi",
+   "tier": "M"
+  },
   "nais": {
    "modern": "nais",
    "tier": "id"
@@ -6975,6 +7015,10 @@
   "napais": {
    "modern": "npais",
    "tier": "L"
+  },
+  "naqe": {
+   "modern": "naqe",
+   "tier": "M"
   },
   "naqex": {
    "modern": "naqih",
@@ -7328,6 +7372,10 @@
    "modern": "nugul",
    "tier": "M"
   },
+  "nuni": {
+   "modern": "nuni",
+   "tier": "M"
+  },
   "nusa": {
    "modern": "nusa",
    "tier": "id"
@@ -7584,6 +7632,10 @@
    "modern": "paun",
    "tier": "B"
   },
+  "paotoç": {
+   "modern": "paotoç",
+   "tier": "M"
+  },
   "papaq": {
    "modern": "papak",
    "tier": "M"
@@ -7699,6 +7751,14 @@
   "pblex": {
    "modern": "pbrih",
    "tier": "A"
+  },
+  "pblexe": {
+   "modern": "pbrihi",
+   "tier": "M"
+  },
+  "pboai": {
+   "modern": "pboai",
+   "tier": "M"
   },
   "pbolox": {
    "modern": "pburux",
@@ -15128,10 +15188,6 @@
    "modern": "mkudaw",
    "tier": "P"
   },
-  "mkuli": {
-   "modern": "mkuli",
-   "tier": "P"
-  },
   "ml'boq": {
    "modern": "mrbuq",
    "tier": "P"
@@ -15232,16 +15288,16 @@
    "modern": "mnataru",
    "tier": "P"
   },
-  "mnaxal": {
-   "modern": "mnaxal",
-   "tier": "P"
-  },
   "mnmangali": {
    "modern": "mnmngari",
    "tier": "P"
   },
   "mnmatalo": {
    "modern": "mnmataru",
+   "tier": "P"
+  },
+  "mnnaxal": {
+   "modern": "mnnaxal",
    "tier": "P"
   },
   "mnngangax": {
@@ -16376,10 +16432,6 @@
    "modern": "paisan",
    "tier": "P"
   },
-  "paotoç": {
-   "modern": "pautux",
-   "tier": "P"
-  },
   "papa": {
    "modern": "papa",
    "tier": "P"
@@ -16398,10 +16450,6 @@
   },
   "pblexon": {
    "modern": "pbrihun",
-   "tier": "P"
-  },
-  "pboai": {
-   "modern": "pbuway",
    "tier": "P"
   },
   "pbubao": {
@@ -17261,7 +17309,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "pspngan",
+   "modern": "psp'ngan",
    "tier": "P"
   },
   "pspuan": {
@@ -18438,216 +18486,6 @@
   }
  },
  "review": {
-  "lübak": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "lbak",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "mdludao": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mdrudu",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "mkuli": {
-   "freq": 1,
-   "pec_gloss": [
-    "當領薪者"
-   ],
-   "cands": [
-    {
-     "cand": "mquri",
-     "words": false,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "mnaxal": {
-   "freq": 1,
-   "pec_gloss": [
-    "第十次"
-   ],
-   "cands": [
-    {
-     "cand": "mnxal",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "mori": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mri",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "moxoi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "muxi",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "muli": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mri",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "mulu": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "mlu",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    },
-    {
-     "cand": "mru",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "nagui": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "nguy",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "nagwi": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "nguy",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "naqe": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "naki",
-     "words": true,
-     "gloss": 0,
-     "dist": 2,
-     "agg": true
-    }
-   ]
-  },
-  "nuni": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "nni",
-     "words": false,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "paotoç": {
-   "freq": 1,
-   "pec_gloss": [
-    "欺騙愚弄未來式"
-   ],
-   "cands": [
-    {
-     "cand": "putuh",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
-  "pblexe": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "pblxi",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "pboai": {
-   "freq": 1,
-   "pec_gloss": [
-    "使人給使人歸還"
-   ],
-   "cands": [
-    {
-     "cand": "pbai",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "pkbulax": {
    "freq": 1,
    "pec_gloss": [
