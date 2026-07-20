@@ -237,6 +237,9 @@
   function introSectionHtml(s) {
     var h = '<div class="intro-section">';
     if (s.image) h += '<img class="intro-image" src="intro-images/' + esc(s.image) + '" alt="Scanned page ' + s.page + '">';
+    // Figure/table pages: show only the scanned figure, no transcribed text.
+    if (s.type === "table_image") return h + "</div>";
+    h += introLangHtml("TR", "tr", s.tr);  // Taroko original — always shown, like the dictionary
     h += introLangHtml("FR", "fr", shown.fr ? s.fr : "");
     h += introLangHtml("EN", "en", shown.en ? s.en : "");
     h += introLangHtml("中", "zh", shown.zh ? s.zh : "");
@@ -393,11 +396,10 @@
     stopPhotoCycle();
     var idx = 0;
     openSheet(
-      "<h2>ⓘ Pecoraro Taroko</h2>" +
       '<img class="about-photo" src="' + PHOTOS[idx] + '" alt="Portrait of Ferdinando Pecoraro MEP">' +
       '<p class="fine photo-caption">Ferdinando Pecoraro MEP</p>' +
-      "<p>Based on Ferdinando Pecoraro's <em>Taroko–Français</em> dictionary " +
-      "(<em>Essai de dictionnaire taroko-français</em>, SECMI, Paris, 1977). Pecoraro was a priest of the Paris Foreign Missions Society " +
+      "<p>This digital edition is based on Ferdinando Pecoraro's Taroko–French dictionary, " +
+      "<em>Essai de dictionnaire taroko-français</em> (SECMI, Paris, 1977). Pecoraro was a priest of the Paris Foreign Missions Society " +
       "(Missions Étrangères de Paris, M.E.P.), a French Catholic missionary institute; hence the initials after his name.</p>" +
       "<p>本辭典以法國巴黎外方傳教會(MEP)神父 Ferdinando Pecoraro 所編之太魯閣語-法語辭典為基礎。</p>" +
       "<p>English and Chinese translations added from the French; draft, pending review by native speakers.</p>" +
@@ -408,7 +410,9 @@
       "<p>Cross-referencing against a modern-orthography Truku corpus confirmed that the example-sentence words without their own headword are almost entirely inflected or derived forms of roots already in the dictionary (as noted above), or the same word under a different spelling; genuine lexical gaps are very few.</p>" +
       "<p>經與現代太魯閣語語料庫比對，證實例句中未設獨立詞條的詞彙，絕大多數為已收錄詞根的屈折或派生形式（如上所述），或同詞的不同拼寫；真正的詞彙缺口極少。</p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
-      "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages</p>"
+      "<p class=\"fine\">由嶺南大學翻譯系副教授 Darryl Sterk 數位化整理。</p>" +
+      "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
+      "<p class=\"fine\">共收錄 " + window.ENTRIES.length + " 條詞條,數位化自全書 398 頁。</p>"
     );
     photoTimer = setInterval(function () {
       idx = (idx + 1) % PHOTOS.length;

@@ -7,6 +7,7 @@
   --accent-soft: #f4e4dd;
   --rule: #e3dac9;
   --truku: #14544a;
+  --chip-tr-bg: #dcece6;  --chip-tr-fg: #14544a;
   --chip-fr-bg: #e5e9f4;  --chip-fr-fg: #3b4c7e;
   --chip-en-bg: #f4e4dd;  --chip-en-fg: #8e3a26;
   --chip-zh-bg: #f2ead2;  --chip-zh-fg: #7d621c;
@@ -27,6 +28,7 @@
     --accent-soft: #3a2b24;
     --rule: #3b342a;
     --truku: #86c7b6;
+    --chip-tr-bg: #1e3d37;  --chip-tr-fg: #86c7b6;
     --chip-fr-bg: #2c3350;  --chip-fr-fg: #a9b8e8;
     --chip-en-bg: #43291f;  --chip-en-fg: #e8a488;
     --chip-zh-bg: #3d3319;  --chip-zh-fg: #d9bc6a;
@@ -205,6 +207,7 @@ main {
   margin-right: 0.45rem;
   vertical-align: 0.14em;
 }
+.lang-chip.tr { background: var(--chip-tr-bg); color: var(--chip-tr-fg); }
 .lang-chip.fr { background: var(--chip-fr-bg); color: var(--chip-fr-fg); }
 .lang-chip.en { background: var(--chip-en-bg); color: var(--chip-en-fg); }
 .lang-chip.zh { background: var(--chip-zh-bg); color: var(--chip-zh-fg); }
@@ -466,3 +469,36 @@ footer {
   h1 { font-size: 1.25rem; }
   .entry { padding: 0.85rem 0.95rem; }
 }
+
+/* First-visit cover splash (hero) */
+#splash {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  padding: 5vh 6vw;
+  background: var(--paper);
+  cursor: pointer;
+  animation: splash-in 0.35s ease;
+}
+#splash.hidden { display: none; }
+#splash-cover {
+  max-width: min(560px, 88vw);
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(var(--shadow), 0.32);
+}
+.splash-hint {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+@keyframes splash-in { from { opacity: 0; } to { opacity: 1; } }
