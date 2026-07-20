@@ -1,13 +1,5 @@
 window.INTRO = [
  {
-  "page": 1,
-  "type": "cover",
-  "fr": "CAHIER D'ARCHIPEL 7 — Essai de Dictionnaire Taroko-Français — Ferdinando Pecoraro MEP — S.E.C.M.I., Paris 1977",
-  "en": "Cahier d'Archipel 7 — An Attempt at a Taroko-French Dictionary — Ferdinando Pecoraro, MEP — S.E.C.M.I., Paris 1977",
-  "zh": "群島筆記第7冊——《太魯閣語法語詞典嘗試》——費爾迪南多·貝科拉羅神父(Ferdinando Pecoraro MEP)——S.E.C.M.I.,1977年巴黎",
-  "image": "page_001.png"
- },
- {
   "page": 2,
   "type": "text",
   "fr": "FERDINANDO PECORARO MEP\n\nESSAI de DICTIONNAIRE\n\nTAROKO-FRANCAIS\n\nS.E.C.M.I. 1977",
