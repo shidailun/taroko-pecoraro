@@ -422,7 +422,6 @@
   });
 
   var INTRO_GROUPS = [
-    { title: "Title Page", zh: "標題頁", pages: [1, 2, 3] },
     { title: "Foreword to the Taroko", zh: "太魯閣語致詞", pages: [4] },
     { title: "Dedication", zh: "獻詞", pages: [5] },
     { title: "Introduction: The Tayal Peoples", zh: "導論:泰雅族群", pages: [6] },
