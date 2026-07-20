@@ -250,15 +250,17 @@
   var searchBox = document.getElementById("search");
 
   function renderAlphabet() {
-    var h = '<div class="alphabet-index">' +
-      '<p class="alphabet-hint">Browse by first letter, or search above. / 依字母瀏覽,或於上方搜尋。</p>' +
+    var h = '<div class="home">' +
+      '<img class="home-cover" src="cover.png" alt="Essai de dictionnaire taroko-français — cover">' +
+      '<div class="alphabet-index">' +
+      '<p class="alphabet-hint">Search above, or browse by first letter. / 於上方搜尋,或依字母瀏覽。</p>' +
       '<div class="alphabet-grid">';
     ALPHABET.forEach(function (letter) {
       h += '<button class="alphabet-btn" data-letter="' + letter + '">' + letter + "</button>";
     });
     h += "</div>" +
       '<button class="random-btn" data-action="random">🎲 Random word · 隨機詞條</button>' +
-      "</div>";
+      "</div></div>";
     results.innerHTML = h;
   }
 
@@ -410,7 +412,7 @@
       "<p>Cross-referencing against a modern-orthography Truku corpus confirmed that the example-sentence words without their own headword are almost entirely inflected or derived forms of roots already in the dictionary (as noted above), or the same word under a different spelling; genuine lexical gaps are very few.</p>" +
       "<p>經與現代太魯閣語語料庫比對，證實例句中未設獨立詞條的詞彙，絕大多數為已收錄詞根的屈折或派生形式（如上所述），或同詞的不同拼寫；真正的詞彙缺口極少。</p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
-      "<p class=\"fine\">由嶺南大學翻譯系副教授 Darryl Sterk 數位化整理。</p>" +
+      "<p class=\"fine\">由嶺南大學翻譯系副教授石岱崙數位化整理。</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
       "<p class=\"fine\">共收錄 " + window.ENTRIES.length + " 條詞條,數位化自全書 398 頁。</p>"
     );
@@ -483,7 +485,8 @@
   });
 
   // ---------- init ----------
-  document.getElementById("entry-count").textContent = window.ENTRIES.length;
+  var countEl = document.getElementById("entry-count");
+  if (countEl) countEl.textContent = window.ENTRIES.length;
   var params = new URLSearchParams(location.search);
   if (params.get("q")) searchBox.value = params.get("q");
   render();

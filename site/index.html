@@ -10,24 +10,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="splash" class="hidden">
-  <img id="splash-cover" src="cover.png" alt="Essai de dictionnaire taroko-français — cover">
-  <p class="splash-hint">Tap to enter · 點擊進入</p>
-</div>
-<script>
-(function () {
-  var KEY = "taroko_pecoraro_splash_seen_v1";
-  var sp = document.getElementById("splash");
-  if (!sp) return;
-  try { if (localStorage.getItem(KEY)) return; } catch (e) {}
-  sp.classList.remove("hidden");
-  function dismiss() {
-    sp.classList.add("hidden");
-    try { localStorage.setItem(KEY, "1"); } catch (e) {}
-  }
-  sp.addEventListener("click", dismiss);
-}());
-</script>
 <header>
   <div class="header-inner">
     <div class="title-block">
@@ -47,10 +29,6 @@
 </header>
 
 <main id="results"></main>
-
-<footer>
-  <p>Pecoraro, <em>Essai de dictionnaire taroko-français</em> (1977) · <span id="entry-count"></span> entries</p>
-</footer>
 
 <div id="sheet-backdrop" class="hidden">
   <div id="sheet" role="dialog" aria-modal="true">
