@@ -250,22 +250,14 @@
   var searchBox = document.getElementById("search");
 
   function renderAlphabet() {
-    var h = '<div class="home">' +
-      '<img class="home-cover" src="cover.png" alt="Essai de dictionnaire taroko-français — cover">' +
-      '<div class="alphabet-index">' +
-      '<p class="alphabet-hint">Search above, or browse by first letter. / 於上方搜尋,或依字母瀏覽。</p>' +
-      '<div class="alphabet-grid">';
-    ALPHABET.forEach(function (letter) {
-      h += '<button class="alphabet-btn" data-letter="' + letter + '">' + letter + "</button>";
-    });
-    h += "</div>" +
-      '<button class="random-btn" data-action="random">🎲 Random word · 隨機詞條</button>' +
-      "</div></div>";
-    results.innerHTML = h;
+    // Home = the cover hero (search + A–Z + tools overlaid on it); results area empties.
+    document.body.classList.add("home");
+    results.innerHTML = "";
   }
 
   function showLetter(letter) {
     hidePreview();
+    document.body.classList.remove("home");
     var list = letter === "#"
       ? window.ENTRIES.filter(function (e) { return !/[a-z]/.test(norm(e.hw).charAt(0)); })
       : window.ENTRIES.filter(function (e) { return norm(e.hw).charAt(0) === letter.toLowerCase(); });
@@ -280,6 +272,7 @@
 
   function showRandomEntry() {
     hidePreview();
+    document.body.classList.remove("home");
     var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
     searchBox.value = e.hw;
     results.innerHTML = entryHtml(e);
@@ -292,6 +285,7 @@
       renderAlphabet();
       return;
     }
+    document.body.classList.remove("home");
     var list = filter(searchBox.value);
     if (!list.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
@@ -313,6 +307,27 @@
       showRandomEntry();
     }
   });
+
+  // ---------- home navigation ----------
+  function goHome() {
+    hidePreview();
+    closeSheet();
+    searchBox.value = "";
+    render();
+    searchBox.focus();
+    window.scrollTo({ top: 0 });
+  }
+
+  // A–Z row lives on the cover (built once); clicking a letter leaves home.
+  var alphaRow = document.getElementById("alpha-row");
+  if (alphaRow) {
+    alphaRow.innerHTML = ALPHABET.map(function (l) {
+      return '<button class="alphabet-btn" data-letter="' + l + '">' + l + "</button>";
+    }).join("");
+    alphaRow.addEventListener("click", function (ev) {
+      if (ev.target.classList.contains("alphabet-btn")) showLetter(ev.target.getAttribute("data-letter"));
+    });
+  }
 
   // ---------- hover word preview ----------
   var wordPreview = document.getElementById("word-preview");
@@ -370,12 +385,15 @@
   var sheetContent = document.getElementById("sheet-content");
 
   var sheet = document.getElementById("sheet");
+  var sheetHome = document.getElementById("sheet-home");
 
-  function openSheet(html, wide) {
+  function openSheet(html, wide, showHome) {
     sheetContent.innerHTML = html;
     sheet.classList.toggle("wide", !!wide);
+    if (sheetHome) sheetHome.classList.toggle("hidden", !showHome);
     backdrop.classList.remove("hidden");
   }
+  if (sheetHome) sheetHome.addEventListener("click", goHome);
   var photoTimer = null;
   function stopPhotoCycle() {
     if (photoTimer) { clearInterval(photoTimer); photoTimer = null; }
@@ -398,6 +416,7 @@
     stopPhotoCycle();
     var idx = 0;
     openSheet(
+      (
       '<img class="about-photo" src="' + PHOTOS[idx] + '" alt="Portrait of Ferdinando Pecoraro MEP">' +
       '<p class="fine photo-caption">Ferdinando Pecoraro MEP</p>' +
       "<p>This digital edition is based on Ferdinando Pecoraro's Taroko–French dictionary, " +
@@ -415,7 +434,7 @@
       "<p class=\"fine\">由嶺南大學翻譯系副教授石岱崙數位化整理。</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
       "<p class=\"fine\">共收錄 " + window.ENTRIES.length + " 條詞條,數位化自全書 398 頁。</p>"
-    );
+      ), false, true);
     photoTimer = setInterval(function () {
       idx = (idx + 1) % PHOTOS.length;
       var img = sheetContent.querySelector(".about-photo");
@@ -452,7 +471,7 @@
       });
       h += "</div></details>";
     });
-    openSheet(h, true);
+    openSheet(h, true, true);
   });
 
   document.getElementById("btn-settings").addEventListener("click", function () {

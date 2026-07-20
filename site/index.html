@@ -9,29 +9,27 @@
 <link rel="apple-touch-icon" href="favicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-  <div class="header-inner">
-    <div class="title-block">
-      <h1>Taroko Dictionary</h1>
-      <p class="subtitle">太魯閣語辭典</p>
-    </div>
-    <div class="header-buttons">
-      <button id="btn-random" class="icon-btn" title="Random word / 隨機詞條" aria-label="Random word">🎲</button>
-      <button id="btn-intro" class="icon-btn" title="Introduction / 導言" aria-label="Introduction">📖</button>
-      <button id="btn-settings" class="icon-btn" title="Languages / 語言" aria-label="Settings">⚙</button>
-      <button id="btn-about" class="icon-btn" title="About / 關於" aria-label="About">ⓘ</button>
+<body class="home">
+<div id="hero">
+  <img id="hero-cover" src="cover.png" alt="Essai de dictionnaire taroko-français — Ferdinando Pecoraro (SECMI, Paris, 1977)">
+  <div class="hero-tools">
+    <button id="btn-random" class="icon-btn" title="Random word / 隨機詞條" aria-label="Random word">🎲</button>
+    <button id="btn-intro" class="icon-btn" title="Introduction / 導言" aria-label="Introduction">📖</button>
+    <button id="btn-settings" class="icon-btn" title="Languages / 語言" aria-label="Settings">⚙</button>
+    <button id="btn-about" class="icon-btn" title="About / 關於" aria-label="About">ⓘ</button>
+  </div>
+  <div class="hero-search">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Truku · Français · English · 國語" autocomplete="off" autofocus>
     </div>
   </div>
-  <div class="search-wrap">
-    <input id="search" type="search" placeholder="Search Truku, Français, English, 中文…" autocomplete="off" autofocus>
-  </div>
-</header>
+</div>
 
 <main id="results"></main>
 
 <div id="sheet-backdrop" class="hidden">
   <div id="sheet" role="dialog" aria-modal="true">
+    <button id="sheet-home" class="icon-btn hidden" title="Home / 回首頁" aria-label="Home"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/></svg></button>
     <button id="sheet-close" class="icon-btn" aria-label="Close">✕</button>
     <div id="sheet-content"></div>
   </div>
