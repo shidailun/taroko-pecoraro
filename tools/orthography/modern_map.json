@@ -17485,7 +17485,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "psp'ngan",
+   "modern": "pspngan",
    "tier": "P"
   },
   "pspuan": {
@@ -18655,6 +18655,346 @@
   "xnugut": {
    "modern": "hngut",
    "tier": "P"
+  },
+  "bbili": {
+   "modern": "bbili",
+   "tier": "KL"
+  },
+  "btluki": {
+   "modern": "btluki",
+   "tier": "KL"
+  },
+  "btuluk": {
+   "modern": "btuluk",
+   "tier": "KL"
+  },
+  "dtayal": {
+   "modern": "dtayal",
+   "tier": "KL"
+  },
+  "glani": {
+   "modern": "glani",
+   "tier": "KL"
+  },
+  "gnk'laan": {
+   "modern": "gnk'laan",
+   "tier": "KL"
+  },
+  "gulan": {
+   "modern": "gulan",
+   "tier": "KL"
+  },
+  "k'layan": {
+   "modern": "k'layan",
+   "tier": "KL"
+  },
+  "kblongi": {
+   "modern": "kblungi",
+   "tier": "KL"
+  },
+  "kmkmalu": {
+   "modern": "kmkmalu",
+   "tier": "KL"
+  },
+  "kmpkdakil": {
+   "modern": "kmpkdakil",
+   "tier": "KL"
+  },
+  "kmpsalu": {
+   "modern": "kmpsalu",
+   "tier": "KL"
+  },
+  "kmsalu": {
+   "modern": "kmsalu",
+   "tier": "KL"
+  },
+  "knblaqan": {
+   "modern": "knblaqan",
+   "tier": "KL"
+  },
+  "knlbuan": {
+   "modern": "knlbuan",
+   "tier": "KL"
+  },
+  "knsalu": {
+   "modern": "knsalu",
+   "tier": "KL"
+  },
+  "knsblaqan": {
+   "modern": "knsblaqan",
+   "tier": "KL"
+  },
+  "ksb'lös": {
+   "modern": "ksb'lös",
+   "tier": "KL"
+  },
+  "ksbilaq": {
+   "modern": "ksbilaq",
+   "tier": "KL"
+  },
+  "l'alang": {
+   "modern": "l'alang",
+   "tier": "KL"
+  },
+  "lg'loq": {
+   "modern": "lg'luq",
+   "tier": "KL"
+  },
+  "llabis": {
+   "modern": "llabis",
+   "tier": "KL"
+  },
+  "llolong": {
+   "modern": "llulung",
+   "tier": "KL"
+  },
+  "llukus": {
+   "modern": "llukus",
+   "tier": "KL"
+  },
+  "llutut": {
+   "modern": "llutut",
+   "tier": "KL"
+  },
+  "mbbulang": {
+   "modern": "mbbulang",
+   "tier": "KL"
+  },
+  "mk'alang": {
+   "modern": "mk'alang",
+   "tier": "KL"
+  },
+  "mkalang": {
+   "modern": "mkalang",
+   "tier": "KL"
+  },
+  "mlnglong": {
+   "modern": "mlnglung",
+   "tier": "KL"
+  },
+  "mnkingal": {
+   "modern": "mnkingal",
+   "tier": "KL"
+  },
+  "mnlamu": {
+   "modern": "mnlamu",
+   "tier": "KL"
+  },
+  "mnplatat": {
+   "modern": "mnplatat",
+   "tier": "KL"
+  },
+  "mpsl'xbun": {
+   "modern": "mpsl'hbun",
+   "tier": "KL"
+  },
+  "mskdakil": {
+   "modern": "mskdakil",
+   "tier": "KL"
+  },
+  "msuwil": {
+   "modern": "msuwil",
+   "tier": "KL"
+  },
+  "n'gk'laan": {
+   "modern": "n'gk'laan",
+   "tier": "KL"
+  },
+  "ngabal": {
+   "modern": "ngabal",
+   "tier": "KL"
+  },
+  "nk'alang": {
+   "modern": "nk'alang",
+   "tier": "KL"
+  },
+  "nlamu": {
+   "modern": "nlamu",
+   "tier": "KL"
+  },
+  "nluul": {
+   "modern": "nluul",
+   "tier": "KL"
+  },
+  "pb'langi": {
+   "modern": "pb'langi",
+   "tier": "KL"
+  },
+  "pblangan": {
+   "modern": "pblangan",
+   "tier": "KL"
+  },
+  "pblangun": {
+   "modern": "pblangun",
+   "tier": "KL"
+  },
+  "pgaluk": {
+   "modern": "pgaluk",
+   "tier": "KL"
+  },
+  "pgklaan": {
+   "modern": "pgklaan",
+   "tier": "KL"
+  },
+  "pkblangun": {
+   "modern": "pkblangun",
+   "tier": "KL"
+  },
+  "pklayan": {
+   "modern": "pklayan",
+   "tier": "KL"
+  },
+  "pkllusan": {
+   "modern": "pkllusan",
+   "tier": "KL"
+  },
+  "pngalun": {
+   "modern": "pngalun",
+   "tier": "KL"
+  },
+  "pnkmalu": {
+   "modern": "pnkmalu",
+   "tier": "KL"
+  },
+  "pnlnglong": {
+   "modern": "pnlnglung",
+   "tier": "KL"
+  },
+  "pnsblaqan": {
+   "modern": "pnsblaqan",
+   "tier": "KL"
+  },
+  "pntuluk": {
+   "modern": "pntuluk",
+   "tier": "KL"
+  },
+  "potal": {
+   "modern": "putal",
+   "tier": "KL"
+  },
+  "ppkmalu": {
+   "modern": "ppkmalu",
+   "tier": "KL"
+  },
+  "ppl'xlax": {
+   "modern": "ppl'hlah",
+   "tier": "KL"
+  },
+  "psblai": {
+   "modern": "psblai",
+   "tier": "KL"
+  },
+  "psblaqan": {
+   "modern": "psblaqan",
+   "tier": "KL"
+  },
+  "psblaqon": {
+   "modern": "psblaqun",
+   "tier": "KL"
+  },
+  "psblayan": {
+   "modern": "psblayan",
+   "tier": "KL"
+  },
+  "psblayun": {
+   "modern": "psblayun",
+   "tier": "KL"
+  },
+  "psl'xgan": {
+   "modern": "psl'hgan",
+   "tier": "KL"
+  },
+  "pslguan": {
+   "modern": "pslguan",
+   "tier": "KL"
+  },
+  "pslxgan": {
+   "modern": "pslhgan",
+   "tier": "KL"
+  },
+  "pstl'ngun": {
+   "modern": "pstl'ngun",
+   "tier": "KL"
+  },
+  "pswili": {
+   "modern": "pswili",
+   "tier": "KL"
+  },
+  "skngalun": {
+   "modern": "skngalun",
+   "tier": "KL"
+  },
+  "skulun": {
+   "modern": "skulun",
+   "tier": "KL"
+  },
+  "slaput": {
+   "modern": "slaput",
+   "tier": "KL"
+  },
+  "smulax": {
+   "modern": "smulah",
+   "tier": "KL"
+  },
+  "snkmalu": {
+   "modern": "snkmalu",
+   "tier": "KL"
+  },
+  "snpila": {
+   "modern": "snpila",
+   "tier": "KL"
+  },
+  "snt'long": {
+   "modern": "snt'lung",
+   "tier": "KL"
+  },
+  "sntlong": {
+   "modern": "sntlung",
+   "tier": "KL"
+  },
+  "spkmalu": {
+   "modern": "spkmalu",
+   "tier": "KL"
+  },
+  "ssilaq": {
+   "modern": "ssilaq",
+   "tier": "KL"
+  },
+  "stl'ngun": {
+   "modern": "stl'ngun",
+   "tier": "KL"
+  },
+  "sulax": {
+   "modern": "sulah",
+   "tier": "KL"
+  },
+  "tbalong": {
+   "modern": "tbalung",
+   "tier": "KL"
+  },
+  "tblai": {
+   "modern": "tblai",
+   "tier": "KL"
+  },
+  "tblayan": {
+   "modern": "tblayan",
+   "tier": "KL"
+  },
+  "tksoloç": {
+   "modern": "tksuluç",
+   "tier": "KL"
+  },
+  "tlbuon": {
+   "modern": "tlbuun",
+   "tier": "KL"
+  },
+  "tngila": {
+   "modern": "tngila",
+   "tier": "KL"
+  },
+  "ttasil": {
+   "modern": "ttasil",
+   "tier": "KL"
   }
  },
  "review": {},
@@ -18964,16 +19304,6 @@
    []
   ],
   [
-   "l'alang",
-   8,
-   []
-  ],
-  [
-   "llukus",
-   8,
-   []
-  ],
-  [
    "löt",
    8,
    [
@@ -19059,13 +19389,6 @@
    7,
    [
     "爬牆虎用來指我們葡萄園的葡萄藤"
-   ]
-  ],
-  [
-   "knlbuan",
-   7,
-   [
-    "早起的特性非常早起這件事這種特質"
    ]
   ],
   [
@@ -19162,11 +19485,6 @@
    [
     "同上之動詞形"
    ]
-  ],
-  [
-   "mk'alang",
-   6,
-   []
   ],
   [
    "mkmorisaka",
@@ -20306,11 +20624,6 @@
    ]
   ],
   [
-   "k'layan",
-   3,
-   []
-  ],
-  [
    "kalip",
    3,
    [
@@ -20581,11 +20894,6 @@
    ]
   ],
   [
-   "mlnglong",
-   3,
-   []
-  ],
-  [
    "mnssli",
    3,
    []
@@ -20748,11 +21056,6 @@
    []
   ],
   [
-   "pblangun",
-   3,
-   []
-  ],
-  [
    "pdii",
    3,
    []
@@ -20769,13 +21072,6 @@
    3,
    [
     "使跳舞"
-   ]
-  ],
-  [
-   "pgklaan",
-   3,
-   [
-    "被促成的超越勝過"
    ]
   ],
   [
@@ -21151,6 +21447,54 @@
    3,
    [
     "打補丁在衣服或布料上縫上補丁"
+   ]
+  ],
+  [
+   "sgiin",
+   3,
+   [
+    "用以尋找供尋找之用"
+   ]
+  ],
+  [
+   "siba",
+   3,
+   [
+    "草坪日語詞"
+   ]
+  ],
+  [
+   "sig",
+   3,
+   [
+    "癤子癰"
+   ]
+  ],
+  [
+   "sitang",
+   3,
+   []
+  ],
+  [
+   "skgulun",
+   3,
+   []
+  ],
+  [
+   "sktana",
+   3,
+   []
+  ],
+  [
+   "sl'sun",
+   3,
+   []
+  ],
+  [
+   "sl'xeq",
+   3,
+   [
+    "舔"
    ]
   ]
  ]

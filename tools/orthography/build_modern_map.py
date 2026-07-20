@@ -528,6 +528,50 @@ def main():
     tiers["none"] -= tiers["P"]
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # ---- pass 3: keep-l guard (tier KL) ----
+    # The app fallback applies o>u, l>r, x>h blindly. l>r is the "expensive"
+    # rule — l usually stays l in Truku — and it wrongly corrupts derived forms
+    # of l-keeping roots whose inflected surface form isn't itself in the omnibus
+    # (llukus>rrukus though root lukus stays lukus; l'alang>r'arang though alang
+    # stays alang). A whole-token dictionary check can't catch these because only
+    # the ROOT is attested. So: strip affixes/reduplication; if a stripped root's
+    # keep-l form is attested in the Words sheet while its l>r form is not, freeze
+    # the token to its keep-l spelling (o>u, x>h, l untouched) instead of char-ruling.
+    KL_PREF = ("mn", "kn", "pn", "tn", "gn", "sm", "nk", "pk", "sk", "tk", "mk",
+               "dm", "sn", "ps", "pg", "km", "gm", "tm", "p", "s", "t", "n", "k",
+               "m", "g", "d", "b", "q", "l", "x")
+    def keep_l(s):     # modernize but leave l alone (matches app fallback minus l>r)
+        return s.replace("o", "u").replace("x", "h")
+    def l_to_r(s):
+        return s.replace("o", "u").replace("l", "r").replace("x", "h")
+    def kl_cores(n):
+        outs = set()
+        for p in KL_PREF:
+            if n.startswith(p) and len(n) - len(p) >= 4:
+                outs.add(n[len(p):].lstrip("'"))
+        if "'" in n:
+            outs.add(n.split("'", 1)[1].lstrip("'"))
+            outs.add(n.rsplit("'", 1)[1])
+        if len(n) >= 2 and n[0] == n[1]:              # de-reduplicate llukus>lukus
+            outs.add(n[1:])
+        return {c for c in outs if len(c) >= 4}
+    kl = 0
+    for t in sorted(tokens):
+        if t in result or t in OVERRIDE_KEYS or len(t) < 2:
+            continue
+        n = norm(t)
+        if "l" not in n or l_to_r(n) == keep_l(n):     # no l that l>r would change
+            continue
+        for c in kl_cores(n):
+            if keep_l(c) != l_to_r(c) and keep_l(c) in words_set and l_to_r(c) not in attested:
+                result[t] = {"modern": keep_l(t), "tier": "KL"}
+                tiers["KL"] += 1
+                review.pop(t, None)
+                kl += 1
+                break
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
               open(os.path.join(HERE, "modern_map.json"), "w", encoding="utf-8"),
@@ -551,6 +595,7 @@ def main():
     print("mapped:", len(result), " review:", len(review))
     print("projection: %d mapped (of which %d attested), %d ambiguous-skipped"
           % (tiers["P"], proj_att, proj_ambig))
+    print("keep-l guard: %d tokens frozen to keep-l (would have been wrongly l>r'd)" % kl)
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 
