@@ -11,17 +11,18 @@
 </head>
 <body class="home">
 <div id="hero">
+  <button id="btn-home" class="icon-btn" title="Home / 回首頁" aria-label="Home"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/></svg></button>
   <img id="hero-cover" src="cover.png" alt="Essai de dictionnaire taroko-français — Ferdinando Pecoraro (SECMI, Paris, 1977)">
-  <div class="hero-tools">
+  <div class="hero-search">
     <button id="btn-random" class="icon-btn" title="Random word / 隨機詞條" aria-label="Random word">🎲</button>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Truku · FR · EN · 中" autocomplete="off" autofocus>
+    </div>
+  </div>
+  <div class="hero-tools">
     <button id="btn-intro" class="icon-btn" title="Introduction / 導言" aria-label="Introduction">📖</button>
     <button id="btn-settings" class="icon-btn" title="Languages / 語言" aria-label="Settings">⚙</button>
     <button id="btn-about" class="icon-btn" title="About / 關於" aria-label="About">ⓘ</button>
-  </div>
-  <div class="hero-search">
-    <div class="search-wrap">
-      <input id="search" type="search" placeholder="Truku · Français · English · 國語" autocomplete="off" autofocus>
-    </div>
   </div>
 </div>
 

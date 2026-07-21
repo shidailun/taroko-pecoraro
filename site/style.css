@@ -182,6 +182,41 @@ main {
   letter-spacing: 0.03em;
 }
 
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  margin-left: 0.4rem;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1;
+  vertical-align: 0.1em;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.12s, background 0.12s, border-color 0.12s, transform 0.12s;
+}
+.audio-btn:hover { opacity: 1; background: var(--accent-soft); border-color: var(--accent); }
+.audio-btn.playing {
+  opacity: 1;
+  background: var(--accent);
+  border-color: var(--accent);
+  animation: audio-pulse 1s ease-in-out infinite;
+}
+.example .truku .audio-btn { width: 1.35rem; height: 1.35rem; font-size: 0.72rem; }
+@keyframes audio-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(var(--shadow), 0.18); }
+  50% { transform: scale(1.06); box-shadow: 0 0 0 4px rgba(var(--shadow), 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .audio-btn.playing { animation: none; }
+}
+
 .paradigm {
   color: var(--muted);
   font-style: italic;
@@ -470,8 +505,15 @@ footer {
 
 /* ---- HOME: the whole cover fills the screen, controls overlaid on it.
    Overlays are styled for the (always light) cover art, not the page theme. ---- */
-body.home { overflow: hidden; }
+/* Cover is phone-shaped (ratio ~0.56) with a flat cream border all around, so a
+   single solid cream fills any letterbox and blends into the art seamlessly. */
+body.home {
+  overflow: hidden;
+  min-height: 100vh;
+  background: #f5e9d0;
+}
 body.home #results { display: none; }
+body.home #btn-home { display: none; }
 body.home #hero {
   position: relative;
   width: fit-content;
@@ -487,45 +529,56 @@ body.home #hero-cover {
 }
 @keyframes hero-in { from { opacity: 0; } }
 
-/* icons — top-right of the cover */
+/* icons — 📖 ⚙ ⓘ trio, top-right of the cover (🎲 lives with the search box) */
 body.home .hero-tools {
   position: absolute;
-  top: 24%;
+  top: 33%;
   right: 3.5%;
   z-index: 3;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 0.5rem;
-  padding: 0.45rem 0.5rem;
+  grid-template-columns: repeat(3, auto);
+  gap: 0.3rem;
+  padding: 0.4rem;
   background: rgba(247, 242, 232, 0.72);
-  border-radius: 1.4rem;
+  border-radius: 1.2rem;
   backdrop-filter: blur(2px);
 }
 body.home .hero-tools .icon-btn {
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.25rem;
+  width: 2.35rem;
+  height: 2.35rem;
+  font-size: 1.2rem;
   color: #3a3226;
   border-color: rgba(60, 50, 35, 0.25);
   background: rgba(255, 253, 248, 0.6);
 }
-body.home .hero-tools .icon-btn:hover {
+body.home .hero-tools .icon-btn:hover,
+body.home .hero-search .icon-btn:hover {
   background: #fff;
   border-color: var(--accent);
   transform: translateY(-1px);
 }
 
-/* search — "Search" left of the palm trunk, field to its right */
+/* search — 🎲 random button, then the field, centred in the frond→hut gap */
 body.home .hero-search {
   position: absolute;
-  top: 41%;
+  top: 44%;
   left: 5%;
   right: 5%;
   z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
+}
+body.home .hero-search .icon-btn {
+  flex: 0 0 auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  color: #3a3226;
+  border-color: rgba(60, 50, 35, 0.35);
+  background: rgba(247, 242, 232, 0.9);
+  box-shadow: 0 3px 14px rgba(60, 50, 35, 0.22);
 }
 body.home .hero-search-label {
   flex: 0 0 auto;
@@ -539,8 +592,8 @@ body.home .hero-search-label {
 }
 body.home .hero-search .search-wrap {
   flex: 0 1 auto;
-  width: min(88%, 19rem);
-  max-width: 88%;
+  width: min(78%, 17rem);
+  max-width: 78%;
   margin: 0;
 }
 body.home .hero-search #search {
@@ -607,7 +660,9 @@ body:not(.home) #hero {
   background: var(--card);
   box-shadow: 0 1px 8px rgba(var(--shadow), 0.08);
 }
-body:not(.home) .hero-search { flex: 1 1 auto; display: flex; }
+body:not(.home) #btn-home { flex: 0 0 auto; }
+body:not(.home) .hero-search { flex: 1 1 auto; display: flex; align-items: center; gap: 0.4rem; }
+body:not(.home) .hero-search .icon-btn { flex: 0 0 auto; }
 body:not(.home) .hero-search .search-wrap { flex: 1 1 auto; margin: 0; max-width: none; }
 body:not(.home) .hero-tools { flex: 0 0 auto; display: flex; gap: 0.35rem; }
 

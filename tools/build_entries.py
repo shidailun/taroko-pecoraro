@@ -90,6 +90,15 @@ def main():
     for e in entries:
         e.pop("_file", None)
 
+    # Re-attach TTS audio-clip ids (a) matched from tts_full/items.json so a
+    # rebuild never drops the play buttons. See tools/attach_audio.py.
+    try:
+        from attach_audio import attach
+        n = attach(entries)
+        print(f"attached audio: hw={n['hw']} forms={n['form']} examples={n['ex']}")
+    except Exception as ex:  # audio manifest optional; build still succeeds without it
+        print(f"note: audio not attached ({ex})")
+
     js = HEADER + json.dumps(entries, ensure_ascii=False, indent=2) + ";\n"
     OUT.write_text(js, encoding="utf-8")
     n_subs = sum(len(e["subs"]) for e in entries)

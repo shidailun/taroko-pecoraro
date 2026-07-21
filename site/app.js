@@ -152,6 +152,39 @@
     return starts.concat(contains);
   }
 
+  // ---------- audio ----------
+  // TTS clips (24 kHz mono MP3) hosted on Cloudflare R2. Each headword / sub-form /
+  // example that has an `a` field plays R2_BASE + a + ".mp3".
+  var R2_BASE = "https://pub-cfb8a502c24b46eab5705b01efb315c2.r2.dev/";
+  // Clips are cached `immutable` for a year. The example audio was re-synthesized
+  // with the native Truku voice (truku3 model + White Dog narrator), replacing the
+  // old renditions under the SAME keys, so bump this to bust stale browser/edge copies.
+  var AUDIO_VER = "v6";
+  var audioEl = new Audio();
+  var playingBtn = null;
+
+  function stopAudio() {
+    audioEl.pause();
+    if (playingBtn) { playingBtn.classList.remove("playing"); playingBtn = null; }
+  }
+
+  function playClip(id, btn) {
+    if (playingBtn === btn) { stopAudio(); return; }
+    stopAudio();
+    audioEl.src = R2_BASE + encodeURIComponent(id) + ".mp3?v=" + AUDIO_VER;
+    playingBtn = btn;
+    btn.classList.add("playing");
+    audioEl.play().catch(function () { stopAudio(); });
+  }
+  audioEl.addEventListener("ended", stopAudio);
+  audioEl.addEventListener("error", stopAudio);
+
+  function audioBtn(id) {
+    if (!id) return "";
+    return '<button class="audio-btn" data-audio="' + esc(id) +
+      '" title="Play audio / 播放" aria-label="Play audio">🔊</button>';
+  }
+
   // ---------- render ----------
   function esc(s) {
     return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -193,7 +226,7 @@
     if (!list || !list.length) return "";
     var h = '<div class="examples">';
     list.forEach(function (x) {
-      h += '<div class="example"><div class="truku">§ ' + linkifyTruku(x.t) + "</div>";
+      h += '<div class="example"><div class="truku">§ ' + linkifyTruku(x.t) + audioBtn(x.a) + "</div>";
       if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + esc(x.fr) + "</p>";
       if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + esc(x.en) + "</p>";
       if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + esc(x.zh) + "</p>";
@@ -205,6 +238,7 @@
   function entryHtml(e) {
     var h = '<article class="entry">';
     h += '<div class="hw-line"><span class="hw">' + esc(dispTruku(e.hw)) + "</span>";
+    h += audioBtn(e.a);
     h += tagHtml(e.tag);
     if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispTruku(e.crossRef)) + "</span></span>";
     h += "</div>";
@@ -212,7 +246,7 @@
     h += glossHtml(e);
     h += examplesHtml(e.examples);
     (e.subs || []).forEach(function (s) {
-      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(s.form) + "</span></div>";
+      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(s.form) + "</span>" + audioBtn(s.a) + "</div>";
       if (s.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(s.paradigm) + "</p>";
       h += glossHtml(s);
       h += examplesHtml(s.examples);
@@ -251,12 +285,14 @@
 
   function renderAlphabet() {
     // Home = the cover hero (search + A–Z + tools overlaid on it); results area empties.
+    stopAudio();
     document.body.classList.add("home");
     results.innerHTML = "";
   }
 
   function showLetter(letter) {
     hidePreview();
+    stopAudio();
     document.body.classList.remove("home");
     var list = letter === "#"
       ? window.ENTRIES.filter(function (e) { return !/[a-z]/.test(norm(e.hw).charAt(0)); })
@@ -272,6 +308,7 @@
 
   function showRandomEntry() {
     hidePreview();
+    stopAudio();
     document.body.classList.remove("home");
     var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
     searchBox.value = e.hw;
@@ -281,6 +318,7 @@
 
   function render() {
     hidePreview();
+    stopAudio();
     if (!searchBox.value.trim()) {
       renderAlphabet();
       return;
@@ -294,18 +332,42 @@
     results.innerHTML = list.map(entryHtml).join("");
   }
 
+  function openEntry(ref) {
+    hidePreview();
+    searchBox.value = ref;
+    render();
+    window.scrollTo({ top: 0 });
+  }
+
   results.addEventListener("click", function (ev) {
-    var t = ev.target;
-    if (t.classList.contains("crossref-link")) {
-      hidePreview();
-      searchBox.value = t.getAttribute("data-ref");
-      render();
-      window.scrollTo({ top: 0 });
-    } else if (t.classList.contains("alphabet-btn")) {
-      showLetter(t.getAttribute("data-letter"));
-    } else if (t.classList.contains("random-btn")) {
+    var ab = ev.target.closest ? ev.target.closest(".audio-btn") : null;
+    if (ab) {
+      ev.stopPropagation();
+      playClip(ab.getAttribute("data-audio"), ab);
+      return;
+    }
+    var t = ev.target.closest ? ev.target.closest(".crossref-link") : null;
+    if (t) {
+      clearTimeout(previewTimer);
+      var ref = t.getAttribute("data-ref");
+      // First tap shows the gloss; a second tap on the same word opens the entry.
+      var showing = !wordPreview.classList.contains("hidden") &&
+        wordPreview.getAttribute("data-ref") === norm(ref);
+      if (showing) openEntry(ref);
+      else showPreview(t);
+      return;
+    }
+    if (ev.target.classList.contains("alphabet-btn")) {
+      showLetter(ev.target.getAttribute("data-letter"));
+    } else if (ev.target.classList.contains("random-btn")) {
       showRandomEntry();
     }
+  });
+
+  // Tap anywhere else dismisses the gloss preview (mobile has no mouseout).
+  document.addEventListener("click", function (ev) {
+    var onLink = ev.target.closest && ev.target.closest(".crossref-link");
+    if (!onLink && !wordPreview.contains(ev.target)) hidePreview();
   });
 
   // ---------- home navigation ----------
@@ -351,7 +413,8 @@
     if (!w) return;
     var h = '<div><span class="wp-hw">' + esc(dispTruku(w.hw)) + "</span>";
     if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispTruku(w.parentHw)) + "</span>";
-    h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Click for full entry · 點選查看完整條目</p>';
+    h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Tap again for full entry · 再點一次查看完整條目</p>';
+    wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
     wordPreview.innerHTML = h;
     wordPreview.classList.remove("hidden");
 
@@ -376,9 +439,18 @@
     hidePreview();
   });
 
-  searchBox.addEventListener("input", render);
+  // Search only when the user presses Return (or taps the keyboard's Go/Search key).
+  // Live-searching on every keystroke made the first character yank the page from the
+  // cover to results before you'd finished typing. Clearing the box still goes home.
+  searchBox.addEventListener("keydown", function (ev) {
+    if (ev.key === "Enter") { ev.preventDefault(); render(); }
+  });
+  searchBox.addEventListener("input", function () {
+    if (!searchBox.value.trim()) render();
+  });
 
   document.getElementById("btn-random").addEventListener("click", showRandomEntry);
+  document.getElementById("btn-home").addEventListener("click", goHome);
 
   // ---------- sheet ----------
   var backdrop = document.getElementById("sheet-backdrop");
@@ -486,7 +558,7 @@
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +
       (spellingModern ? " checked" : "") + "><span>Modern Truku spelling (approx.) / 現代拼寫(近似)</span></label>";
-    openSheet(h);
+    openSheet(h, false, true);
     sheetContent.querySelectorAll("input[data-lang]").forEach(function (cb) {
       cb.addEventListener("change", function () {
         shown[cb.getAttribute("data-lang")] = cb.checked;

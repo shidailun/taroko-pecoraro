@@ -7,3 +7,7 @@ scans/
 
 __pycache__/
 scratch_ui_entries.json
+
+# R2 credentials
+.env.r2
+tools/.env.r2
