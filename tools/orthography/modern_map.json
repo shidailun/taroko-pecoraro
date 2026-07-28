@@ -9752,6 +9752,10 @@
    "modern": "q'mux",
    "tier": "M"
   },
+  "q'nao": {
+   "modern": "qusul",
+   "tier": "M"
+  },
   "q'pax": {
    "modern": "qpah",
    "tier": "B"
@@ -16049,7 +16053,7 @@
    "tier": "P"
   },
   "mpsbu": {
-   "modern": "mpsbu",
+   "modern": "mpsbu'",
    "tier": "P"
   },
   "mpsbulao": {
@@ -17497,11 +17501,11 @@
    "tier": "P"
   },
   "psbui": {
-   "modern": "psbui",
+   "modern": "psbu'i",
    "tier": "P"
   },
   "psbuon": {
-   "modern": "psbuun",
+   "modern": "psbu'un",
    "tier": "P"
   },
   "psdamat": {
@@ -24217,13 +24221,6 @@
    ]
   ],
   [
-   "q'nao",
-   3,
-   [
-    "大蒜"
-   ]
-  ],
-  [
    "qel",
    3,
    [
@@ -24981,6 +24978,13 @@
    2,
    [
     "註這是過去式的嗎或強度性質牆牆垣"
+   ]
+  ],
+  [
+   "kndoto",
+   2,
+   [
+    "手鐲戴在手臂上的飾品"
    ]
   ]
  ]

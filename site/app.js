@@ -134,7 +134,11 @@
     // NFD only splits marks off letters that HAVE a decomposition; ł is a
     // barred l in its own right and ʔ a letter, so both survive the strip and
     // reach the screen. Fold them to l and ' — l then takes the ordinary l rule.
-    out = out.replace(/ł/g, "l").replace(/Ł/g, "L").replace(/ʔ/g, "'");
+    out = out.replace(/ł/g, "l").replace(/Ł/g, "L");
+    // His second elision mark. wordKey already folds " ’ ʼ ʔ together for lookup,
+    // so a mapped word comes back with a plain ', but an UNMAPPED one used to keep
+    // whichever glyph he typed — wa"lo went to modern spelling as WA"RU.
+    out = out.replace(/[’ʼ"ʔ]/g, "'");
     out = out.normalize("NFD").replace(/[̀-ͯ]/g, "");
     out = out.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
     return out.replace(/\u0001/g, "x").replace(/\u0002/g, "X");

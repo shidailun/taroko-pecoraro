@@ -143,6 +143,26 @@ short-circuits `charRules()`. `charRules()` covers the unmapped remainder, and
 folds `ł`/`ʔ` explicitly: they are letters, not letter-plus-mark, so NFD leaves
 them standing.
 
+Pecoraro has **two** elision marks, `'` and `"` — 181 word types / 400
+occurrences carry the `"`, whole paradigms use it consistently (T"TO, SBU",
+G'LI", "LU), he brackets the pair as variants himself (`MA'GUL (M"GUL ?)`,
+`TLA'TO (TL"TO)`), and single tokens carry both (`g'li"`). It is not a shift-key
+slip: `"` is word-initial 161/401 times where `'` almost never is, and it follows
+a capital LESS often than `'` does. `wordKey()` folds `" ’ ʼ ʔ → '` for lookup,
+and `charRules()` must fold them on OUTPUT too — without that an unmapped token
+kept whatever glyph he typed and `wa"lo` reached the screen as modern `WA"RU`.
+The `"` that remains on screen is inside gloss fields (212 occurrences), which
+are never modernized by design; some of those are genuine French/English
+quotation marks and some are Truku words quoted in a definition.
+
+**Lexical replacements** live in `manual_map.json` alongside the respellings.
+There is currently one: `q'nao` → `qusul` (garlic). It is a substitution, not a
+respelling — a sweep of all 32,212 omnibus words (Allium glosses, 15 fuzzy
+shapes of /qnaw/, every `*naw*`/`*now*`/`*nau*` substring) found no reflex of his
+word, and no `qusul`-shaped word exists anywhere in his 1977 dictionary either.
+The two lexicons simply do not share a word for garlic. Keep such cases rare and
+list them here, because the toggle otherwise promises spelling only.
+
 Discoveries encoded in the generator: Pecoraro's ç = modern x (tunuç→tunux);
 ao/oa = aw/ow/uwa (daolas→dowras, boax→buwax); d→j and t→c before i (adi→aji,
 tmoting→tmucing); schwa vowels Pecoraro wrote are often dropped (kensat→knsat);
