@@ -81,9 +81,21 @@
   // map fall through to the character rules.
   var MODERN_MAP = window.MODERN_MAP || {};
 
+  // Pecoraro types two elision marks, ' and ", and both sit inside a word:
+  // page 47 has BL'NGA and B"LO four lines apart, and Tmb"lo / knta"to / pn"lu
+  // keep the double mark right through a paradigm. So " is a word character
+  // everywhere, and folds to ' for every lookup — a tokenizer that breaks on it
+  // turns one word into two fragments and judges each of them separately.
+  var TRUKU_TOKEN = /([A-Za-zÀ-ÿ'’ʼ"]+)/;
+  var TRUKU_TOKEN_G = /[A-Za-zÀ-ÿ'’ʼ"]+/g;
+
+  function wordKey(word) {
+    return (word || "").toLowerCase().replace(/[’ʼ"]/g, "'");
+  }
+
   function modernize(word) {
     if (!word) return word;
-    var key = word.toLowerCase();
+    var key = wordKey(word);
     if (Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key)) {
       return matchCase(word, WORD_OVERRIDES[key]);
     }
@@ -104,7 +116,7 @@
   // search index has to contain whatever the reader can see.
   function modernizeText(s) {
     if (!s) return "";
-    return s.replace(/[A-Za-zÀ-ÿ'’ʼ]+/g, function (w) { return modernize(w); });
+    return s.replace(TRUKU_TOKEN_G, function (w) { return modernize(w); });
   }
 
   // Display form of a whole string (headword, sub-form): multi-word forms like
@@ -117,7 +129,7 @@
   function norm(s) {
     return (s || "")
       .toLowerCase()
-      .replace(/[’ʼ]/g, "'")
+      .replace(/[’ʼ"]/g, "'")
       .normalize("NFD")
       .replace(/[̀-ͯ]/g, "");
   }
@@ -473,7 +485,7 @@
   // "Can respell" means the curated map has the word — a character-rule guess
   // (o→u, l→r, x→h applied blind) is not a spelling anyone has vouched for.
   function respellable(word) {
-    var key = (word || "").toLowerCase();
+    var key = wordKey(word);
     return Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key) ||
       Object.prototype.hasOwnProperty.call(MODERN_MAP, key);
   }
@@ -483,11 +495,12 @@
   // entry the reader is already on.
   function linkifyTruku(text, noLink) {
     if (!text) return "";
-    var parts = text.split(/([A-Za-zÀ-ÿ'’ʼ]+)/);
+    var parts = text.split(TRUKU_TOKEN);
     var h = "";
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
-      if (i % 2 === 0) { h += esc(part); continue; }
+      // A run of bare elision marks is punctuation, not a word to judge.
+      if (i % 2 === 0 || !/[A-Za-zÀ-ÿ]/.test(part)) { h += esc(part); continue; }
       var cls = respellable(part) ? "w-mod" : "w-raw";
       var linked = !noLink && lookupWord(part);
       if (linked) cls += " crossref-link";
