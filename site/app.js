@@ -183,33 +183,60 @@
   // listing a root still renders as a full entry card, while a sub-form renders as
   // a one-line stub pointing back at its root (what a print dictionary would set
   // as a cross-reference at that alphabetical slot).
+  // Each form carries both spellings: `key` as Pecoraro wrote it, `mkey` as the
+  // modern toggle displays it. A form must sit under the initial it is shown
+  // under, or pressing X in modern mode returns a screen of H-words.
   var FORMS = (function () {
     var out = [];
+    function add(raw, entry, sub) {
+      var key = norm(raw);
+      var mkey = norm(modernizeText(raw));
+      out.push({ key: key, mkey: mkey === key ? null : mkey, entry: entry, sub: sub });
+    }
     window.ENTRIES.forEach(function (e) {
-      out.push({ key: norm(e.hw), entry: e, sub: null });
-      (e.subs || []).forEach(function (s) {
-        if (s.form) out.push({ key: norm(s.form), entry: e, sub: s });
-      });
+      add(e.hw, e, null);
+      (e.subs || []).forEach(function (s) { if (s.form) add(s.form, e, s); });
     });
-    out.sort(function (a, b) { return a.key < b.key ? -1 : a.key > b.key ? 1 : 0; });
     return out;
   })();
 
-  var ALPHABET = (function () {
+  function formKey(f) {
+    return spellingModern && f.mkey ? f.mkey : f.key;
+  }
+
+  function initial(f) {
+    var c = formKey(f).charAt(0);
+    return /[a-z]/.test(c) ? c.toUpperCase() : "#";
+  }
+
+  // Both orderings are built once; the toggle picks one. Sorting by the spelling
+  // actually on screen is what makes a listing read alphabetically.
+  function sortedBy(keyFn) {
+    return FORMS.slice().sort(function (a, b) {
+      var x = keyFn(a), y = keyFn(b);
+      return x < y ? -1 : x > y ? 1 : 0;
+    });
+  }
+  var FORMS_ORIG = sortedBy(function (f) { return f.key; });
+  var FORMS_MOD = sortedBy(function (f) { return f.mkey || f.key; });
+
+  function activeForms() {
+    return spellingModern ? FORMS_MOD : FORMS_ORIG;
+  }
+
+  // Recomputed rather than cached: the letters themselves change with the toggle
+  // (Pecoraro has an X row, modern Truku does not).
+  function currentAlphabet() {
     var seen = {}, letters = [], hasSymbol = false;
     FORMS.forEach(function (f) {
-      var c = f.key.charAt(0);
-      if (/[a-z]/.test(c)) {
-        c = c.toUpperCase();
-        if (!seen[c]) { seen[c] = true; letters.push(c); }
-      } else {
-        hasSymbol = true;
-      }
+      var c = initial(f);
+      if (c === "#") hasSymbol = true;
+      else if (!seen[c]) { seen[c] = true; letters.push(c); }
     });
     letters.sort();
     if (hasSymbol) letters.push("#");
     return letters;
-  })();
+  }
 
   function filter(q) {
     q = norm(q.trim());
@@ -381,9 +408,15 @@
   var results = document.getElementById("results");
   var searchBox = document.getElementById("search");
 
+  // The letter currently on screen, so a spelling toggle can re-bucket it instead
+  // of silently turning the listing into a search for the letter itself.
+  var currentLetter = null;
+  var currentFirst = null;
+
   function renderAlphabet() {
     // Home = the cover hero (search + A–Z + tools overlaid on it); results area empties.
     stopAudio();
+    currentLetter = null;
     document.body.classList.add("home");
     results.innerHTML = "";
   }
@@ -392,13 +425,11 @@
     hidePreview();
     stopAudio();
     document.body.classList.remove("home");
-    // Letter listings run over FORMS, so derived forms appear at their own initial
-    // (as stubs) interleaved with the roots that start with the same letter.
-    var lc = letter.toLowerCase();
-    var list = FORMS.filter(function (f) {
-      var c = f.key.charAt(0);
-      return letter === "#" ? !/[a-z]/.test(c) : c === lc;
-    });
+    // Letter listings run over the sorted form index, so derived forms appear at
+    // their own initial (as stubs) interleaved with the roots under that letter.
+    var list = activeForms().filter(function (f) { return initial(f) === letter; });
+    currentLetter = letter;
+    currentFirst = list[0] || null;
     searchBox.value = letter === "#" ? "" : letter;
     if (!list.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
@@ -411,6 +442,7 @@
   function showRandomEntry() {
     hidePreview();
     stopAudio();
+    currentLetter = null;
     document.body.classList.remove("home");
     var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
     searchBox.value = e.hw;
@@ -425,6 +457,7 @@
       renderAlphabet();
       return;
     }
+    currentLetter = null;
     document.body.classList.remove("home");
     var list = filter(searchBox.value);
     if (!list.length) {
@@ -488,15 +521,33 @@
     window.scrollTo({ top: 0 });
   }
 
-  // A–Z row lives on the cover (built once); clicking a letter leaves home.
+  // A–Z row lives on the cover; clicking a letter leaves home. Rebuilt on a
+  // spelling change because the row itself differs between the two orthographies.
   var alphaRow = document.getElementById("alpha-row");
-  if (alphaRow) {
-    alphaRow.innerHTML = ALPHABET.map(function (l) {
+
+  function renderAlphaRow() {
+    if (!alphaRow) return;
+    alphaRow.innerHTML = currentAlphabet().map(function (l) {
       return '<button class="alphabet-btn" data-letter="' + l + '">' + l + "</button>";
     }).join("");
+  }
+
+  if (alphaRow) {
+    renderAlphaRow();
     alphaRow.addEventListener("click", function (ev) {
       if (ev.target.classList.contains("alphabet-btn")) showLetter(ev.target.getAttribute("data-letter"));
     });
+  }
+
+  // Re-render after a settings change. A letter listing stays a letter listing
+  // (calling render() would turn it into a search for the letter), and since a
+  // word can move between letters under the modern toggle — xbui under X becomes
+  // hbuy under H — it follows the words that were on screen rather than sitting
+  // on a letter that may now be empty.
+  function rerender() {
+    renderAlphaRow();
+    if (currentLetter) showLetter(currentFirst ? initial(currentFirst) : currentLetter);
+    else render();
   }
 
   // ---------- hover word preview ----------
@@ -671,14 +722,14 @@
       cb.addEventListener("change", function () {
         shown[cb.getAttribute("data-lang")] = cb.checked;
         saveLangs();
-        render();
+        rerender();
       });
     });
     sheetContent.querySelectorAll("input[name=\"spelling\"]").forEach(function (rb) {
       rb.addEventListener("change", function () {
         spellingModern = rb.value === "modern";
         saveSpelling();
-        render();
+        rerender();
       });
     });
   });
