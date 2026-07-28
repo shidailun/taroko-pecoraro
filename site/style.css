@@ -551,7 +551,7 @@ body.home #hero-cover {
 }
 @keyframes hero-in { from { opacity: 0; } }
 
-/* icons — 📖 ⚙ ⓘ trio, top-right of the cover (🎲 lives with the search box) */
+/* icons — 📖 ⚙ ⓘ trio, top-right of the cover (🎲 and 🔤 live with the search) */
 body.home .hero-tools {
   position: absolute;
   top: 33%;
@@ -580,7 +580,7 @@ body.home .hero-search .icon-btn:hover {
   transform: translateY(-1px);
 }
 
-/* search — 🎲 random button, then the field, centred in the frond→hut gap */
+/* search — 🎲 random and 🔤 A–Z, then the field, centred in the frond→hut gap */
 body.home .hero-search {
   position: absolute;
   top: 44%;
@@ -629,45 +629,8 @@ body.home .hero-search #search {
 }
 body.home .hero-search .search-wrap::before { color: #6a5f4d; }
 
-/* A–Z — along the bottom of the cover */
-body.home .hero-alpha {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 3;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.28rem;
-  padding: 0.5rem 0.6rem;
-  background: rgba(247, 242, 232, 0.85);
-  backdrop-filter: blur(2px);
-}
-.hero-alpha .alphabet-btn {
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  font-weight: 600;
-  min-width: 1.55rem;
-  height: 1.55rem;
-  line-height: 1.45rem;
-  padding: 0 0.35rem;
-  border: 1px solid rgba(60, 50, 35, 0.28);
-  border-radius: 0.35rem;
-  background: rgba(255, 253, 248, 0.78);
-  color: #3a3226;
-  cursor: pointer;
-  transition: background 0.12s, color 0.12s, border-color 0.12s;
-}
-.hero-alpha .alphabet-btn:hover {
-  background: #fff;
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
 /* ---- RESULTS: hero collapses to a compact sticky search bar ---- */
 body:not(.home) #hero-cover,
-body:not(.home) .hero-alpha,
 body:not(.home) .hero-search-label { display: none; }
 body:not(.home) #hero {
   position: sticky;
@@ -682,10 +645,6 @@ body:not(.home) #hero {
   background: var(--card);
   box-shadow: 0 1px 8px rgba(var(--shadow), 0.08);
 }
-/* A–Z sheet button: only in results mode. On the cover the strip itself is
-   already there, and the redesign's point was to keep that screen clear. */
-body.home #btn-alpha { display: none; }
-
 body:not(.home) #btn-home { flex: 0 0 auto; }
 body:not(.home) .hero-search { flex: 1 1 auto; display: flex; align-items: center; gap: 0.4rem; }
 body:not(.home) .hero-search .icon-btn { flex: 0 0 auto; }

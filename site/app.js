@@ -521,31 +521,12 @@
     window.scrollTo({ top: 0 });
   }
 
-  // A–Z row lives on the cover; clicking a letter leaves home. Rebuilt on a
-  // spelling change because the row itself differs between the two orthographies.
-  var alphaRow = document.getElementById("alpha-row");
-
-  function renderAlphaRow() {
-    if (!alphaRow) return;
-    alphaRow.innerHTML = currentAlphabet().map(function (l) {
-      return '<button class="alphabet-btn" data-letter="' + l + '">' + l + "</button>";
-    }).join("");
-  }
-
-  if (alphaRow) {
-    renderAlphaRow();
-    alphaRow.addEventListener("click", function (ev) {
-      if (ev.target.classList.contains("alphabet-btn")) showLetter(ev.target.getAttribute("data-letter"));
-    });
-  }
-
   // Re-render after a settings change. A letter listing stays a letter listing
   // (calling render() would turn it into a search for the letter), and since a
   // word can move between letters under the modern toggle — xbui under X becomes
   // hbuy under H — it follows the words that were on screen rather than sitting
   // on a letter that may now be empty.
   function rerender() {
-    renderAlphaRow();
     if (currentLetter) showLetter(currentFirst ? initial(currentFirst) : currentLetter);
     else render();
   }
@@ -640,10 +621,10 @@
     if (ev.key === "Escape") closeSheet();
   });
 
-  // A–Z as a sheet. The strip on the cover is out of reach once you are reading a
-  // listing (body:not(.home) hides it), which made changing letter a trip home;
-  // the grid also fits every letter at a tappable size, which a wrapped strip in
-  // the sticky bar could not. Built per open — the alphabet follows the toggle.
+  // A–Z as a sheet, the only entry point: the strip that used to run along the
+  // bottom of the cover was an opaque band over the byline, and it was out of
+  // reach from a listing anyway. The grid also fits every letter at a tappable
+  // size, which a wrapped strip could not. Built per open — follows the toggle.
   document.getElementById("btn-alpha").addEventListener("click", function () {
     stopPhotoCycle();
     var h = "<h2>🔤 Browse A–Z · 依字母瀏覽</h2>" +
@@ -654,7 +635,9 @@
         return '<button class="alphabet-btn" data-letter="' + l + '">' + l + "</button>";
       }).join("") +
       "</div></div>";
-    openSheet(h, false, true);
+    // No home icon: it sits over this sheet's (longer) heading, and closing
+    // already returns you to the listing, which has its own home button.
+    openSheet(h, false, false);
   });
 
   // Delegated once — openSheet replaces the sheet's contents, not the container,

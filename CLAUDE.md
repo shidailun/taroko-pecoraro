@@ -42,8 +42,10 @@ same `modernize()` path the display uses. Consequences:
   a 4-form X row (map `id` tier). It is recomputed on toggle, not cached.
 - Toggling while browsing follows the words, not the letter (X → H), via
   `rerender()`; calling `render()` there would turn the listing into a search.
-- A–Z is reachable two ways: the strip on the cover (`#alpha-row`, home only) and
-  the 🔤 sheet button (results only — the strip is hidden by `body:not(.home)`).
+- A–Z is the 🔤 sheet button, shown on the cover and in results alike. The strip
+  the pre-redesign code built along the bottom of the cover is gone for good: it
+  was an opaque band across the "FERDINANDO PECORARO MEP" byline, and it was
+  unreachable from a listing. Don't reinstate `#alpha-row`.
 
 ## Entry data shape (entries.js)
 
