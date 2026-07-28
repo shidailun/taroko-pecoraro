@@ -94,6 +94,21 @@
     return spellingModern ? modernize(word) : word;
   }
 
+  // Word-wise modernization of a whole string. Same token split as linkifyTruku
+  // (apostrophes are part of a token: bq'lui, m'xapui), so the result is exactly
+  // what the modern-spelling toggle puts on screen — which is the point: the
+  // search index has to contain whatever the reader can see.
+  function modernizeText(s) {
+    if (!s) return "";
+    return s.replace(/[A-Za-zÀ-ÿ'’ʼ]+/g, function (w) { return modernize(w); });
+  }
+
+  // Display form of a whole string (headword, sub-form): multi-word forms like
+  // "A sao" need the token-wise pass, not a single map lookup on the whole string.
+  function dispText(s) {
+    return spellingModern ? modernizeText(s) : (s || "");
+  }
+
   // ---------- search ----------
   function norm(s) {
     return (s || "")
@@ -113,12 +128,41 @@
     return norm(parts.join("  "));
   }
 
+  // Truku-only text, for the modern-spelling index. The glosses are left out on
+  // purpose: modernize() falls back to character rules for tokens it doesn't know,
+  // which would turn French "Palissade" into "Parissade" and invent matches.
+  function trukuText(e) {
+    var parts = [e.hw, e.paradigm || ""];
+    (e.examples || []).forEach(function (x) { parts.push(x.t); });
+    (e.subs || []).forEach(function (s) {
+      parts.push(s.form, s.paradigm || "");
+      (s.examples || []).forEach(function (x) { parts.push(x.t); });
+    });
+    return parts.join("  ");
+  }
+
+  // Every entry carries a second key set in modern spelling, so a query in either
+  // orthography finds it. Kept null when modernization is a no-op for that string,
+  // which is the common case (identity-attested words) — one less scan per query.
+  function alt(originalNorm, raw) {
+    var m = norm(modernizeText(raw));
+    return m === originalNorm ? null : m;
+  }
+
   var INDEX = window.ENTRIES.map(function (e) {
+    var hw = norm(e.hw);
+    var text = entryText(e);
+    var forms = (e.subs || []).map(function (s) { return norm(s.form); });
+    var mforms = (e.subs || []).map(function (s, i) { return alt(forms[i], s.form); })
+      .filter(function (f) { return f; });
     return {
       entry: e,
-      text: entryText(e),
-      hw: norm(e.hw),
-      forms: (e.subs || []).map(function (s) { return norm(s.form); })
+      text: text,
+      hw: hw,
+      forms: forms,
+      mhw: alt(hw, e.hw),
+      mforms: mforms,
+      mtext: alt(norm(trukuText(e)), trukuText(e))
     };
   });
 
@@ -171,12 +215,15 @@
     q = norm(q.trim());
     if (!q) return window.ENTRIES;
     var starts = [], subStarts = [], contains = [];
+    function prefixes(list) {
+      return list.some(function (f) { return f.indexOf(q) === 0; });
+    }
     INDEX.forEach(function (it) {
-      if (it.hw.indexOf(q) === 0) starts.push(it.entry);
+      if (it.hw.indexOf(q) === 0 || (it.mhw && it.mhw.indexOf(q) === 0)) starts.push(it.entry);
       // A sub-form match used to fall into `contains`, so looking up a derived
       // form ranked below every root that merely starts with the same letters.
-      else if (it.forms.some(function (f) { return f.indexOf(q) === 0; })) subStarts.push(it.entry);
-      else if (it.text.indexOf(q) !== -1) contains.push(it.entry);
+      else if (prefixes(it.forms) || prefixes(it.mforms)) subStarts.push(it.entry);
+      else if (it.text.indexOf(q) !== -1 || (it.mtext && it.mtext.indexOf(q) !== -1)) contains.push(it.entry);
     });
     return starts.concat(subStarts, contains);
   }
@@ -266,10 +313,10 @@
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + esc(dispTruku(e.hw)) + "</span>";
+    h += '<div class="hw-line"><span class="hw">' + esc(dispText(e.hw)) + "</span>";
     h += audioBtn(e.a);
     h += tagHtml(e.tag);
-    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispTruku(e.crossRef)) + "</span></span>";
+    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(e.crossRef)) + "</span></span>";
     h += "</div>";
     if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(e.paradigm) + "</p>";
     h += glossHtml(e);
@@ -293,10 +340,12 @@
     if (shown.fr && s.fr) g = '<span class="lang-chip fr">FR</span>' + esc(s.fr);
     else if (shown.en && s.en) g = '<span class="lang-chip en">EN</span>' + esc(s.en);
     else if (shown.zh && s.zh) g = '<span class="lang-chip zh">中</span>' + esc(s.zh);
-    var h = '<article class="entry stub" data-ref="' + esc(s.form) + '">';
-    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(dispTruku(s.form)) + "</span>";
+    // data-ref carries the displayed spelling, so the search box echoes what the
+    // reader tapped; either orthography resolves to the same entry now.
+    var h = '<article class="entry stub" data-ref="' + esc(dispText(s.form)) + '">';
+    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(dispText(s.form)) + "</span>";
     h += audioBtn(s.a);
-    h += '<span class="tag stub-parent">→ ' + esc(dispTruku(f.entry.hw)) + "</span></div>";
+    h += '<span class="tag stub-parent">→ ' + esc(dispText(f.entry.hw)) + "</span></div>";
     if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
     return h + "</article>";
   }
@@ -470,8 +519,8 @@
   function showPreview(link) {
     var w = HW_LOOKUP[norm(link.getAttribute("data-ref"))];
     if (!w) return;
-    var h = '<div><span class="wp-hw">' + esc(dispTruku(w.hw)) + "</span>";
-    if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispTruku(w.parentHw)) + "</span>";
+    var h = '<div><span class="wp-hw">' + esc(dispText(w.hw)) + "</span>";
+    if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(w.parentHw)) + "</span>";
     h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Tap again for full entry · 再點一次查看完整條目</p>';
     wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
     wordPreview.innerHTML = h;
@@ -612,7 +661,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Word-by-word conversion cross-checked against a modern Truku dictionary (~3,000 words verified by attestation and Chinese gloss); other words use approximate character rules (o→u, l→r, x→h). Not proofread; Pecoraro\'s original spelling is authoritative. / 逐詞轉換,約3,000詞已比對現代太魯閣語詞典(拼寫與華語詞義雙重驗證);其餘詞使用近似字母規則(o→u、l→r、x→h)。未經校對,貝科拉羅原文拼寫為準。</p>' +
+      '<p class="fine">Word-by-word conversion cross-checked against a modern Truku dictionary (~3,000 words verified by attestation and Chinese gloss); other words use approximate character rules (o→u, l→r, x→h). Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 逐詞轉換,約3,000詞已比對現代太魯閣語詞典(拼寫與華語詞義雙重驗證);其餘詞使用近似字母規則(o→u、l→r、x→h)。未經校對,貝科拉羅原文拼寫為準。無論設定為何,搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +
