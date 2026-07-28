@@ -682,6 +682,10 @@ body:not(.home) #hero {
   background: var(--card);
   box-shadow: 0 1px 8px rgba(var(--shadow), 0.08);
 }
+/* A–Z sheet button: only in results mode. On the cover the strip itself is
+   already there, and the redesign's point was to keep that screen clear. */
+body.home #btn-alpha { display: none; }
+
 body:not(.home) #btn-home { flex: 0 0 auto; }
 body:not(.home) .hero-search { flex: 1 1 auto; display: flex; align-items: center; gap: 0.4rem; }
 body:not(.home) .hero-search .icon-btn { flex: 0 0 auto; }

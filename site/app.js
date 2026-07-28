@@ -640,6 +640,31 @@
     if (ev.key === "Escape") closeSheet();
   });
 
+  // A–Z as a sheet. The strip on the cover is out of reach once you are reading a
+  // listing (body:not(.home) hides it), which made changing letter a trip home;
+  // the grid also fits every letter at a tappable size, which a wrapped strip in
+  // the sticky bar could not. Built per open — the alphabet follows the toggle.
+  document.getElementById("btn-alpha").addEventListener("click", function () {
+    stopPhotoCycle();
+    var h = "<h2>🔤 Browse A–Z · 依字母瀏覽</h2>" +
+      '<div class="alphabet-index">' +
+      '<p class="alphabet-hint">Pick a first letter. Derived forms are listed at their own letter, pointing back to their root. / 選擇首字母。派生詞形列於各自的字母下,並標示其詞根。</p>' +
+      '<div class="alphabet-grid">' +
+      currentAlphabet().map(function (l) {
+        return '<button class="alphabet-btn" data-letter="' + l + '">' + l + "</button>";
+      }).join("") +
+      "</div></div>";
+    openSheet(h, false, true);
+  });
+
+  // Delegated once — openSheet replaces the sheet's contents, not the container,
+  // so binding per open would stack a listener each time.
+  sheetContent.addEventListener("click", function (ev) {
+    if (!ev.target.classList.contains("alphabet-btn")) return;
+    closeSheet();
+    showLetter(ev.target.getAttribute("data-letter"));
+  });
+
   var PHOTOS = ["pecoraro5.jpg", "pecoraro2.jpg", "pecoraro1.jpg", "pecoraro3.jpg", "pecoraro4.jpg"];
   var PHOTO_CYCLE_MS = 5000;
 

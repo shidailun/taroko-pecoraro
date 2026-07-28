@@ -20,6 +20,31 @@ Traditional Chinese (translated from the French, draft pending native review).
     ⚙ language-toggle sheet (fr/en/zh checkboxes → localStorage
     `taroko_pecoraro_langs_v1`; Truku always shown). Accepts `?q=` deep link.
 
+## Browse and search (2026-07-28)
+
+Pecoraro's root organization is the storage shape; `FORMS` in `app.js` is a second
+index over it giving all 4,914 forms (1,967 headwords + 2,947 sub-forms) their own
+alphabetical slot. In a letter listing a root renders as a full entry card and a
+sub-form as a one-line cross-reference stub (form → root + first enabled gloss)
+that opens the root on tap. Don't flatten `entries.js` to match — the `(R)` marks
+and the nesting are Pecoraro's own judgments about what shares a root.
+
+Every form carries both spellings (`key` original / `mkey` modern), and `INDEX`
+carries `mhw`/`mforms`/`mtext` alongside `hw`/`forms`/`text`, all built through the
+same `modernize()` path the display uses. Consequences:
+
+- Search matches either orthography whichever way the ⚙ toggle is set (`hbuy` finds
+  XBUI, `qpah` finds K'PAX). Ranked: headword prefix → sub-form prefix → full text.
+- `mtext` covers Truku fields only. Never run the glosses through `modernize()` —
+  its character-rule fallback turns French "Palissade" into "Parissade".
+- Letters bucket and sort by the spelling on screen, so the A–Z row itself differs
+  by mode: modern gains H and J (DIMA→JIMA, d→j before i), loses O (o→u), and keeps
+  a 4-form X row (map `id` tier). It is recomputed on toggle, not cached.
+- Toggling while browsing follows the words, not the letter (X → H), via
+  `rerender()`; calling `render()` there would turn the listing into a search.
+- A–Z is reachable two ways: the strip on the cover (`#alpha-row`, home only) and
+  the 🔤 sheet button (results only — the strip is hidden by `body:not(.home)`).
+
 ## Entry data shape (entries.js)
 
 ```js
