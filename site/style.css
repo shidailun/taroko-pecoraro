@@ -171,7 +171,7 @@ main {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.045em;
-  color: var(--accent);
+  color: var(--truku);
 }
 
 .tag {
@@ -217,8 +217,11 @@ main {
   .audio-btn.playing { animation: none; }
 }
 
+/* A form list, so it takes the colour of the spelling it is written in — but
+   italic, small and slightly faded so it still reads as secondary. */
 .paradigm {
-  color: var(--muted);
+  color: var(--truku);
+  opacity: 0.85;
   font-style: italic;
   font-size: 0.9rem;
   margin: 0.1rem 0 0.3rem;
@@ -294,8 +297,27 @@ main {
   color: var(--muted);
 }
 
+/* Colour is the orthography on screen, not what is tappable. Pecoraro's spelling
+   is green; modern spelling is brown, and that includes the § marker, the
+   punctuation and an example's left rule, which belong to the mode rather than to
+   any one word. A word we have no verified modern spelling for stays green inside
+   a modern line — the green words are exactly what is left to respell. A link is
+   told apart by its underline, which darkens on hover. */
+.tag .w-mod, .tag .w-raw, .tag .crossref-link { color: var(--truku); }
+body.spelling-modern .hw,
+body.spelling-modern .sub-form,
+body.spelling-modern .stub-hw,
+body.spelling-modern .paradigm,
+body.spelling-modern .example .truku,
+body.spelling-modern .word-preview .wp-hw,
+body.spelling-modern .tag .w-mod,
+body.spelling-modern .tag .crossref-link { color: var(--accent); }
+body.spelling-modern .example { border-left-color: var(--accent); }
+body.spelling-modern .w-raw,
+body.spelling-modern .tag .w-raw { color: var(--truku); }
+
 .crossref-link {
-  color: var(--accent);
+  color: inherit;
   cursor: pointer;
   text-decoration: underline;
   text-decoration-color: var(--rule);
@@ -486,7 +508,7 @@ footer {
 .word-preview.hidden { display: none; }
 .word-preview .wp-hw {
   font-weight: 700;
-  color: var(--accent);
+  color: var(--truku);
   font-size: 1.05rem;
 }
 .word-preview .wp-parent {

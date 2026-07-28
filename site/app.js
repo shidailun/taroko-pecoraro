@@ -269,8 +269,8 @@
     // second Plilu row beside the real one. Drop an alias whose spelling the same
     // entry already fills; a collision with a *different* entry is real and stays.
     var taken = {};
-    out.forEach(function (f) { if (!f.alias) taken[f.key + " " + f.entry.hw] = true; });
-    return out.filter(function (f) { return !f.alias || !taken[f.key + " " + f.entry.hw]; });
+    out.forEach(function (f) { if (!f.alias) taken[f.key + " " + f.entry.hw] = true; });
+    return out.filter(function (f) { return !f.alias || !taken[f.key + " " + f.entry.hw]; });
   })();
 
   function formKey(f) {
@@ -463,18 +463,32 @@
     return HW_LOOKUP[norm(w)] || HW_LOOKUP[norm(modernize(w))] || null;
   }
 
-  function linkifyTruku(text) {
+  // Colour now says which orthography is on screen, not what is tappable: a word
+  // we can respell in modern Truku is brown, and one we can't stays green even
+  // inside a modern line, so the green words are exactly what is left to do.
+  // "Can respell" means the curated map has the word — a character-rule guess
+  // (o→u, l→r, x→h applied blind) is not a spelling anyone has vouched for.
+  function respellable(word) {
+    var key = (word || "").toLowerCase();
+    return Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key) ||
+      Object.prototype.hasOwnProperty.call(MODERN_MAP, key);
+  }
+
+  // Every Truku word is wrapped, whether or not it links, because the wrapper is
+  // what carries its spelling status. noLink is for headwords, which are the
+  // entry the reader is already on.
+  function linkifyTruku(text, noLink) {
     if (!text) return "";
     var parts = text.split(/([A-Za-zÀ-ÿ'’ʼ]+)/);
     var h = "";
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
-      var display = esc(dispTruku(part));
-      if (i % 2 === 1 && lookupWord(part)) {
-        h += '<span class="crossref-link" data-ref="' + esc(part) + '">' + display + "</span>";
-      } else {
-        h += display;
-      }
+      if (i % 2 === 0) { h += esc(part); continue; }
+      var cls = respellable(part) ? "w-mod" : "w-raw";
+      var linked = !noLink && lookupWord(part);
+      if (linked) cls += " crossref-link";
+      h += '<span class="' + cls + '"' + (linked ? ' data-ref="' + esc(part) + '"' : "") +
+        ">" + esc(dispTruku(part)) + "</span>";
     }
     return h;
   }
@@ -510,10 +524,13 @@
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + esc(dispText(formText(e.hw))) + "</span>";
+    h += '<div class="hw-line"><span class="hw">' + linkifyTruku(formText(e.hw), true) + "</span>";
     h += audioBtn(e.a);
     h += tagHtml(e.tag);
-    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
+    if (e.crossRef) {
+      h += ' <span class="tag">→ <span class="crossref-link ' + (respellable(e.crossRef) ? "w-mod" : "w-raw") +
+        '" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
+    }
     h += "</div>";
     if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(e.paradigm) + "</p>";
     h += glossHtml(e);
@@ -549,9 +566,9 @@
     // reader tapped; either orthography resolves to the same entry now.
     var label = dispText(formText(f.label));
     var h = '<article class="entry stub" data-ref="' + esc(label) + '">';
-    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(label) + "</span>";
+    h += '<div class="hw-line"><span class="hw stub-hw">' + linkifyTruku(formText(f.label), true) + "</span>";
     h += audioBtn(s.a);
-    h += '<span class="tag stub-parent">→ ' + esc(dispText(formText(f.entry.hw))) + "</span></div>";
+    h += '<span class="tag stub-parent">→ ' + linkifyTruku(formText(f.entry.hw), true) + "</span></div>";
     if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
     return h + "</article>";
   }
@@ -707,7 +724,14 @@
   // word can move between letters under the modern toggle — xbui under X becomes
   // hbuy under H — it follows the words that were on screen rather than sitting
   // on a letter that may now be empty.
+  // The body carries the orthography, because the § marker, the punctuation and
+  // an example's left rule are coloured by the mode rather than by any one word.
+  function applySpellingClass() {
+    document.body.classList.toggle("spelling-modern", spellingModern);
+  }
+
   function rerender() {
+    applySpellingClass();
     if (currentLetter) showLetter(currentFirst ? initial(currentFirst) : currentLetter);
     else render();
   }
@@ -729,7 +753,7 @@
   function showPreview(link) {
     var w = lookupWord(link.getAttribute("data-ref"));
     if (!w) return;
-    var h = '<div><span class="wp-hw">' + esc(dispText(formText(w.hw))) + "</span>";
+    var h = '<div><span class="wp-hw">' + linkifyTruku(formText(w.hw), true) + "</span>";
     if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(formText(w.parentHw))) + "</span>";
     h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Tap again for full entry · 再點一次查看完整條目</p>';
     wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
@@ -925,5 +949,6 @@
   if (countEl) countEl.textContent = window.ENTRIES.length;
   var params = new URLSearchParams(location.search);
   if (params.get("q")) searchBox.value = params.get("q");
+  applySpellingClass();
   render();
 })();
