@@ -272,6 +272,28 @@ main {
   letter-spacing: 0.03em;
 }
 
+/* Cross-reference stub: a derived form standing at its own alphabetical slot in
+   an A–Z listing. Lighter than a real entry card — it points at the root. */
+.entry.stub {
+  padding: 0.6rem 1.25rem;
+  margin-bottom: 0.55rem;
+  background: transparent;
+  border-style: dashed;
+  cursor: pointer;
+}
+.entry.stub:hover { transform: none; box-shadow: none; background: var(--card); }
+
+.stub-hw {
+  font-size: 1.08rem;
+  color: var(--truku);
+}
+.stub-parent { letter-spacing: 0.04em; }
+.stub-gloss {
+  margin: 0.1rem 0 0;
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
 .crossref-link {
   color: var(--accent);
   cursor: pointer;

@@ -114,7 +114,12 @@
   }
 
   var INDEX = window.ENTRIES.map(function (e) {
-    return { entry: e, text: entryText(e), hw: norm(e.hw) };
+    return {
+      entry: e,
+      text: entryText(e),
+      hw: norm(e.hw),
+      forms: (e.subs || []).map(function (s) { return norm(s.form); })
+    };
   });
 
   var HW_LOOKUP = {};
@@ -125,10 +130,31 @@
     });
   });
 
+  // ---------- flat form index ----------
+  // Pecoraro organizes by root: derived forms live inside their root's entry as
+  // `subs`, so a form like `kmpax` (under root `qpax`) had no alphabetical slot of
+  // its own and was unreachable from the A–Z row. FORMS gives every headword AND
+  // sub-form a position under its own initial. Root organization is kept as the
+  // storage shape — this is a second index over it, not a flattening: in a letter
+  // listing a root still renders as a full entry card, while a sub-form renders as
+  // a one-line stub pointing back at its root (what a print dictionary would set
+  // as a cross-reference at that alphabetical slot).
+  var FORMS = (function () {
+    var out = [];
+    window.ENTRIES.forEach(function (e) {
+      out.push({ key: norm(e.hw), entry: e, sub: null });
+      (e.subs || []).forEach(function (s) {
+        if (s.form) out.push({ key: norm(s.form), entry: e, sub: s });
+      });
+    });
+    out.sort(function (a, b) { return a.key < b.key ? -1 : a.key > b.key ? 1 : 0; });
+    return out;
+  })();
+
   var ALPHABET = (function () {
     var seen = {}, letters = [], hasSymbol = false;
-    window.ENTRIES.forEach(function (e) {
-      var c = norm(e.hw).charAt(0);
+    FORMS.forEach(function (f) {
+      var c = f.key.charAt(0);
       if (/[a-z]/.test(c)) {
         c = c.toUpperCase();
         if (!seen[c]) { seen[c] = true; letters.push(c); }
@@ -144,12 +170,15 @@
   function filter(q) {
     q = norm(q.trim());
     if (!q) return window.ENTRIES;
-    var starts = [], contains = [];
+    var starts = [], subStarts = [], contains = [];
     INDEX.forEach(function (it) {
       if (it.hw.indexOf(q) === 0) starts.push(it.entry);
+      // A sub-form match used to fall into `contains`, so looking up a derived
+      // form ranked below every root that merely starts with the same letters.
+      else if (it.forms.some(function (f) { return f.indexOf(q) === 0; })) subStarts.push(it.entry);
       else if (it.text.indexOf(q) !== -1) contains.push(it.entry);
     });
-    return starts.concat(contains);
+    return starts.concat(subStarts, contains);
   }
 
   // ---------- audio ----------
@@ -256,6 +285,26 @@
     return h + "</article>";
   }
 
+  // One-line cross-reference stub for a sub-form standing at its own alphabetical
+  // slot. Shows the first gloss among the enabled languages; the whole card opens
+  // the root entry it belongs to.
+  function stubHtml(f) {
+    var s = f.sub, g = "";
+    if (shown.fr && s.fr) g = '<span class="lang-chip fr">FR</span>' + esc(s.fr);
+    else if (shown.en && s.en) g = '<span class="lang-chip en">EN</span>' + esc(s.en);
+    else if (shown.zh && s.zh) g = '<span class="lang-chip zh">中</span>' + esc(s.zh);
+    var h = '<article class="entry stub" data-ref="' + esc(s.form) + '">';
+    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(dispTruku(s.form)) + "</span>";
+    h += audioBtn(s.a);
+    h += '<span class="tag stub-parent">→ ' + esc(dispTruku(f.entry.hw)) + "</span></div>";
+    if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
+    return h + "</article>";
+  }
+
+  function formHtml(f) {
+    return f.sub ? stubHtml(f) : entryHtml(f.entry);
+  }
+
   function introTextHtml(text) {
     return text
       .split(/\n\n+/)
@@ -294,15 +343,19 @@
     hidePreview();
     stopAudio();
     document.body.classList.remove("home");
-    var list = letter === "#"
-      ? window.ENTRIES.filter(function (e) { return !/[a-z]/.test(norm(e.hw).charAt(0)); })
-      : window.ENTRIES.filter(function (e) { return norm(e.hw).charAt(0) === letter.toLowerCase(); });
+    // Letter listings run over FORMS, so derived forms appear at their own initial
+    // (as stubs) interleaved with the roots that start with the same letter.
+    var lc = letter.toLowerCase();
+    var list = FORMS.filter(function (f) {
+      var c = f.key.charAt(0);
+      return letter === "#" ? !/[a-z]/.test(c) : c === lc;
+    });
     searchBox.value = letter === "#" ? "" : letter;
     if (!list.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
-    results.innerHTML = list.map(entryHtml).join("");
+    results.innerHTML = list.map(formHtml).join("");
     window.scrollTo({ top: 0 });
   }
 
@@ -344,6 +397,12 @@
     if (ab) {
       ev.stopPropagation();
       playClip(ab.getAttribute("data-audio"), ab);
+      return;
+    }
+    // A stub card is a pointer, not an entry: one tap opens the root it belongs to.
+    var stub = ev.target.closest ? ev.target.closest(".entry.stub") : null;
+    if (stub) {
+      openEntry(stub.getAttribute("data-ref"));
       return;
     }
     var t = ev.target.closest ? ev.target.closest(".crossref-link") : null;
