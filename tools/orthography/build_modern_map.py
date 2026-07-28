@@ -37,16 +37,36 @@ OVERRIDE_KEYS = {
     "mndui", "mpdui", "xbui", "xmbui", "pxbui", "xnbui", "m'xapui", "mapui",
 }
 
-TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿ'’ʼ]+")
+# Pecoraro types two elision marks, ' and ", and both sit INSIDE a word: page 47
+# has BL'NGA and B"LO four lines apart, and Tmb"lo / knta"to / pn"lu keep the
+# double mark right through a paradigm. A tokenizer that breaks on " turns one
+# word into two fragments and maps each fragment separately, so " is a word
+# character here and folds to ' — the same rule wordKey() applies in app.js.
+TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿłŁʔ'’ʼ\"]+")
 ZH_RE = re.compile(r"[^一-鿿]")
+
+def tkey(t):
+    return (t.lower().replace("’", "'").replace("ʼ", "'").replace('"', "'")
+            .replace("ʔ", "'").replace("ł", "l"))
 
 def norm(w):
     # Pecoraro's ç is modern x (tunuç>tunux, otoç>utux) — map before NFD strips it
     w = (w or "").replace("ç", "x").replace("Ç", "X")
     w = unicodedata.normalize("NFD", w)
     w = "".join(c for c in w if unicodedata.category(c) != "Mn")
-    w = w.lower().replace("'", "").replace("’", "").replace("ʼ", "").replace("-", "")
+    # ł is his barred l (Małi vs MAI) and ʔ a glottal stop; without the fold the
+    # final a-z filter would delete them and norm małi to "mai".
+    w = w.lower().replace("ł", "l").replace("ʔ", "")
+    w = w.replace("'", "").replace("’", "").replace("ʼ", "").replace("-", "")
     return re.sub(r"[^a-z]", "", w)
+
+def plain(t):
+    """His token with the diacritics dropped. ç is modern x (tunuç>tunux) so it is
+    converted rather than stripped; every other mark he uses writes a vowel quality
+    modern Truku does not spell (lamil/lämil, isu/isò, jiyan/diyán)."""
+    t = t.replace("ç", "x").replace("Ç", "X").replace("ł", "l").replace("Ł", "L")
+    t = unicodedata.normalize("NFD", t)
+    return "".join(c for c in t if unicodedata.category(c) != "Mn")
 
 def zh_clean(s):
     return ZH_RE.sub("", s or "")
@@ -61,25 +81,25 @@ def load_corpus():
     families = []                        # per entry: list of member tokens (hw+subs)
     def take(text):
         for t in TOKEN_RE.findall(text or ""):
-            tokens[t.lower()] += 1
+            tokens[tkey(t)] += 1
     for e in entries:
         take(e.get("hw")); take(e.get("crossRef")); take(e.get("paradigm"))
         for x in e.get("examples", []): take(x.get("t"))
         hz = zh_clean(e.get("zh", ""))
         if e.get("hw") and hz: glosses[norm(e["hw"])].add(hz)
-        fam = [t.lower() for t in TOKEN_RE.findall(e.get("hw") or "")]
+        fam = [tkey(t) for t in TOKEN_RE.findall(e.get("hw") or "")]
         # paradigm lines (° gmalax, malax...) are inflections of THIS root — family
         for t in TOKEN_RE.findall(e.get("paradigm") or ""):
-            fam.append(t.lower())
+            fam.append(tkey(t))
         for s in e.get("subs", []):
             take(s.get("form")); take(s.get("paradigm"))
             for x in s.get("examples", []): take(x.get("t"))
             sz = zh_clean(s.get("zh", ""))
             if s.get("form") and sz: glosses[norm(s["form"])].add(sz)
             for t in TOKEN_RE.findall(s.get("form") or ""):
-                fam.append(t.lower())
+                fam.append(tkey(t))
             for t in TOKEN_RE.findall(s.get("paradigm") or ""):
-                fam.append(t.lower())
+                fam.append(tkey(t))
         if len(fam) > 1:
             families.append(fam)
     return tokens, glosses, families
@@ -366,7 +386,11 @@ def main():
         # 1. identity
         if n in attested:
             disp = word_raw.get(n, sent_best.get(n, n))
-            result[t] = {"modern": t if disp == n else disp, "tier": "id"}
+            # When the attested modern spelling matches, keep HIS token so its
+            # apostrophes and capitals survive — but strip the diacritics first.
+            # norm() ignores them, so däxa/komù/sîda reached this branch and were
+            # mapped to themselves, putting ä/ù/î on screen in modern spelling.
+            result[t] = {"modern": plain(t) if disp == n else disp, "tier": "id"}
             tiers["id"] += 1
             continue
 
@@ -528,6 +552,98 @@ def main():
     tiers["none"] -= tiers["P"]
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # ---- pass 2b: relative inheritance (tier R) ----
+    # Everything above tests a WHOLE word against the omnibus. Truku is heavily
+    # affixing, so a regularly derived form of a perfectly well attested root
+    # falls straight through: nduk is nowhere in the omnibus, but mduk 關（門、窗）
+    # and mnduk 曾關門 are right there. Tier P covers this only when a relative
+    # happens to sit in the SAME Pecoraro entry; this pass goes to the omnibus
+    # for the relative instead. (load_sisters() has done affix-stripped core
+    # matching for Toda/Tgdaya all along — it was never done for Truku itself.)
+    #
+    # Guards, because a shared stem is much weaker evidence than a shared word:
+    #   - core >= 3 letters, and only SAFE candidate transforms on the core
+    #   - the core must be shared by >=2 distinct glossed omnibus words, so it is
+    #     a real root and not an accident of stripping
+    #   - exactly one modern reading may survive; two readings means don't guess
+    #   - if both sides carry a Chinese gloss and they don't overlap at all,
+    #     veto — that is a false friend riding a coincidental stem (raki/laqi)
+    # Affixes convert by the near-universal rules only (o>u, x>h); l>r can only
+    # happen inside a core that an attested modern word actually spells with r,
+    # so this pass cannot make the keep-l mistake pass 3 exists to undo.
+    R_MINC = 3
+    R_PREF = ("mnp", "dmp", "mpp", "mn", "kn", "pn", "tn", "gn", "sm", "nk", "pk",
+              "sk", "tk", "mk", "dm", "sn", "ps", "pg", "km", "gm", "tm", "mp",
+              "np", "p", "s", "t", "n", "k", "m", "g", "d", "b", "q", "h", "c", "j")
+    R_SUFF = ("anay", "ani", "an", "un", "ay", "aw", "on", "i")
+
+    def peel(w, dered):
+        """(prefix, infix, core, suffix) splits of w with a core >= R_MINC.
+        The infix is tracked apart from the prefix because it belongs after the
+        core's first consonant: xngloq is x+n+gloq, so it rebuilds as h+n+gluq,
+        not n+hgluq."""
+        outs = set()
+        for p in [""] + [p for p in R_PREF if w.startswith(p)]:
+            rest = w[len(p):]
+            infd = [("", rest)]
+            for inf in INFIXES:
+                if len(rest) > len(inf) + 1 and rest[1:1 + len(inf)] == inf:
+                    infd.append((inf, rest[0] + rest[1 + len(inf):]))
+            for inf, r in infd:
+                for sfx in ("",) + R_SUFF:
+                    if sfx and not r.endswith(sfx):
+                        continue
+                    core = r[: len(r) - len(sfx)] if sfx else r
+                    if dered and len(core) > R_MINC and core[0] == core[1]:
+                        outs.add((p, inf, core[1:], sfx))     # llukus -> lukus
+                    if len(core) >= R_MINC:
+                        outs.add((p, inf, core, sfx))
+        return outs
+
+    core_index = collections.defaultdict(set)      # core -> attested modern words
+    for w in words_set:
+        for _, _, core, _ in peel(w, True):
+            core_index[core].add(w)
+
+    r_ambig = r_veto = 0
+    for t in sorted(tokens):
+        if t in result or t in OVERRIDE_KEYS:
+            continue
+        n = norm(t)
+        if len(n) < 3:
+            continue
+        outs = collections.defaultdict(set)        # modern form -> supporting words
+        for pre, inf, core, sfx in peel(n, False):
+            cands = {c for c, agg in candidates(core).items() if not agg} | {core}
+            for cc in cands:
+                sup = core_index.get(cc)
+                if sup and len(sup) >= 2:
+                    body = (cc[0] + inf + cc[1:]) if inf else cc
+                    outs[affix_convert(pre, False) + body + affix_convert(sfx, True)] |= sup
+        if not outs:
+            continue
+        if len(outs) > 1:
+            r_ambig += 1
+            continue
+        pick = next(iter(outs))
+        sup = outs[pick]
+        # Gloss veto. gloss_overlap() is a PROMOTION test — it wants a contiguous
+        # substring, because a 2-char run inside a long definition is coincidence.
+        # Here the job is the opposite (reject a false friend), and the substring
+        # test is far too harsh for it: nduk 門關閉的 and mduk 關門窗 plainly agree,
+        # yet share no run longer than one character because the order differs.
+        # So: veto only when the two glosses have no character in common at all.
+        pec_g = glosses.get(n, set())
+        omni_g = set().union(*(word_gloss.get(w, set()) for w in sup))
+        if pec_g and omni_g and not (set("".join(pec_g)) & set("".join(omni_g))):
+            r_veto += 1
+            continue
+        result[t] = {"modern": word_raw.get(pick, t if pick == n else pick), "tier": "R"}
+        tiers["R"] += 1
+        review.pop(t, None)
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
     # ---- pass 3: keep-l guard (tier KL) ----
     # The app fallback applies o>u, l>r, x>h blindly. l>r is the "expensive"
     # rule — l usually stays l in Truku — and it wrongly corrupts derived forms
@@ -572,6 +688,17 @@ def main():
     tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # Nothing leaves this generator carrying his diacritics. A modern spelling is
+    # written in the modern alphabet, so ç becomes x and the vowel marks drop —
+    # whatever tier produced it. The identity tier used to return his raw token
+    # (däxa -> däxa) and tier P inherited a marked stem (msueq -> msüeq); the app
+    # cannot repair either, because a map hit short-circuits its character rules.
+    for rec in result.values():
+        pl = plain(rec["modern"])
+        if pl != rec["modern"]:
+            rec["diacritics_dropped"] = rec["modern"]
+            rec["modern"] = pl
+
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
               open(os.path.join(HERE, "modern_map.json"), "w", encoding="utf-8"),
@@ -596,6 +723,8 @@ def main():
     print("projection: %d mapped (of which %d attested), %d ambiguous-skipped"
           % (tiers["P"], proj_att, proj_ambig))
     print("keep-l guard: %d tokens frozen to keep-l (would have been wrongly l>r'd)" % kl)
+    print("relative inheritance: %d mapped, %d ambiguous-skipped, %d gloss-vetoed"
+          % (tiers["R"], r_ambig, r_veto))
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 

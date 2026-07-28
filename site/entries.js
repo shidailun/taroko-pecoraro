@@ -60409,7 +60409,7 @@ window.ENTRIES = [
     "zh": "跑－賽跑。",
     "examples": [
       {
-        "t": "Ma\" so mtq!lal ! Talang tityex!",
+        "t": "Ma\" so mtq'lal ! Talang tityex!",
         "fr": "On dirait que tu es endormi! Va donc un peu plus vite!",
         "en": "You look half-asleep! Go a bit faster!",
         "zh": "你好像睡著了似的！快一點吧！",

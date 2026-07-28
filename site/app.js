@@ -86,12 +86,20 @@
   // keep the double mark right through a paradigm. So " is a word character
   // everywhere, and folds to ' for every lookup — a tokenizer that breaks on it
   // turns one word into two fragments and judges each of them separately.
-  var TRUKU_TOKEN = /([A-Za-zÀ-ÿ'’ʼ"]+)/;
-  var TRUKU_TOKEN_G = /[A-Za-zÀ-ÿ'’ʼ"]+/g;
+  // ł (Małi, małan, małun) is a barred l he uses to keep those forms apart from
+  // MAI, and ʔ is a glottal stop — a third spelling of the elision mark. Both sit
+  // outside À-ÿ, so a token class that stops at ÿ cuts małi into "ma" + "i" and
+  // judges the halves separately. Fold ł to l and ʔ to ' for every lookup.
+  var TRUKU_TOKEN = /([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)/;
+  var TRUKU_TOKEN_G = /[A-Za-zÀ-ÿłŁʔ'’ʼ"]+/g;
+  var TRUKU_LETTER = /[A-Za-zÀ-ÿłŁ]/;
 
   function wordKey(word) {
-    return (word || "").toLowerCase().replace(/[’ʼ"]/g, "'");
+    return (word || "").toLowerCase().replace(/[’ʼ"ʔ]/g, "'").replace(/ł/g, "l");
   }
+
+  // The modern alphabet, for words: letters and the elision mark, nothing else.
+  var PLAIN_WORD = /^[A-Za-z']+$/;
 
   function modernize(word) {
     if (!word) return word;
@@ -101,9 +109,35 @@
     }
     if (Object.prototype.hasOwnProperty.call(MODERN_MAP, key)) {
       var target = MODERN_MAP[key];
-      return target === key ? word : matchCase(word, target);
+      // target === key means "modern spelling = his spelling", so his own
+      // capitals and apostrophes are kept rather than rebuilt from the key.
+      // That only holds if he wrote it in the modern alphabet: wordKey folds
+      // ł to l, so Małi keys to mali and maps to mali, and handing back the
+      // word untouched put a barred l on screen in modern spelling.
+      return target === key && PLAIN_WORD.test(word) ? word : matchCase(word, target);
     }
-    return word.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
+    return charRules(word);
+  }
+
+  // The character-rule fallback, for words the map doesn't cover.
+  //
+  // Pecoraro's ç is modern x (tunuç → tunux), so it is parked before the rules
+  // run and restored after — otherwise the x it becomes would be swept on to h.
+  // Every other diacritic he uses marks a vowel quality modern Truku simply does
+  // not write, and the map agrees wherever it has an opinion: lämil → ramil,
+  // diyán → jiyan, kúxeng → quhing, isò → isu, kmtöting → kmtucing, mpq'löt →
+  // mpkrut. So they are dropped, and ö/ò fall to u through the ordinary o rule.
+  // Without this an unmapped word kept its diaeresis and put a letter on screen
+  // that is not in the alphabet — "Tensö" in modern spelling.
+  function charRules(word) {
+    var out = word.replace(/ç/g, "\u0001").replace(/Ç/g, "\u0002");
+    // NFD only splits marks off letters that HAVE a decomposition; ł is a
+    // barred l in its own right and ʔ a letter, so both survive the strip and
+    // reach the screen. Fold them to l and ' — l then takes the ordinary l rule.
+    out = out.replace(/ł/g, "l").replace(/Ł/g, "L").replace(/ʔ/g, "'");
+    out = out.normalize("NFD").replace(/[̀-ͯ]/g, "");
+    out = out.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
+    return out.replace(/\u0001/g, "x").replace(/\u0002/g, "X");
   }
 
   function dispTruku(word) {
@@ -129,7 +163,8 @@
   function norm(s) {
     return (s || "")
       .toLowerCase()
-      .replace(/[’ʼ"]/g, "'")
+      .replace(/[’ʼ"ʔ]/g, "'")
+      .replace(/ł/g, "l")
       .normalize("NFD")
       .replace(/[̀-ͯ]/g, "");
   }
@@ -176,8 +211,18 @@
     if (!s) return "";
     return s.replace(/\s+/g, " ")
       .replace(/\(\s+/g, "(")
-      .replace(/\s+([)\]?!,;])/g, "$1")
+      .replace(/\s+([)\]?!,;.])/g, "$1")
       .replace(/([,;])(?=[^\s])/g, "$1 ")
+      // The template writes its own ° in front of a paradigm line, and some of
+      // his lines carry one too — "° °Qmada, qada, ...".
+      .replace(/^(?:°\s*)+/, "")
+      // "(vl.Tkliyan)" — his variant abbreviations run straight into the form.
+      // Only these, by name: his circumfix notation K...AN must keep its dots.
+      .replace(/\b(vl|vr|var|cf|nb)\.(?=[A-Za-zÀ-ÿ])/gi, "$1. ")
+      // "(qdani)qdai" is two alternative forms and wants a space; "(k)tai" is ONE
+      // word with an optional segment and must not be split. Length tells them
+      // apart — a whole word in the bracket, not a lone consonant.
+      .replace(/\(([^()]{3,})\)(?=[A-Za-zÀ-ÿ])/g, "($1) ")
       .trim();
   }
 
@@ -188,7 +233,7 @@
       parts.push(s.form, s.fr, s.en, s.zh, s.paradigm || "");
       (s.examples || []).forEach(function (x) { parts.push(x.t, x.fr, x.en, x.zh); });
     });
-    return norm(parts.join("  "));
+    return norm(parts.join("  "));
   }
 
   // Truku-only text, for the modern-spelling index. The glosses are left out on
@@ -420,7 +465,7 @@
   // the book's own text, exactly like the modern-spelling toggle.
   var NNBSP = " "; // French high punctuation: a space that can't wrap
   var CJK = "㐀-鿿豈-﫿々〆";
-  var ABBR = /(?:^|[\s(])(n\.b|nb|n|e\.g|i\.e|cf|vr|var|litt|fig|etc|no|st|mgr|dr|min|max|env|ca|approx|abbr|c\.à\.d|c-à-d)\.$/i;
+  var ABBR = /(?:^|[\s(])(n\.b|nb|n|e\.g|i\.e|cf|vr|vl|var|litt|fig|etc|no|st|mgr|dr|min|max|env|ca|approx|abbr|c\.à\.d|c-à-d)\.$/i;
 
   function tidyLatin(t, french) {
     t = t.replace(/\s+/g, " ").trim();
@@ -435,6 +480,14 @@
     t = t.replace(/([A-Za-zÀ-ÿ])\.\.(?!\.)/g, "$1.");                  // "etc.." → "etc."
     t = t.replace(/\.([!?])/g, "$1");   // he sometimes types both ("ka … nami. !")
     t = t.replace(/([,;:])(?=[^\s\d)\]»"'’…])/g, "$1 ");
+    // He also runs a stop straight into the next word — every case in the corpus
+    // is one of his abbreviations ("(vl.uxai ko", "Vr.LALAE") or a missed space
+    // after a bang ("Ya kiso!Plnglngun"). A letter is required on BOTH sides so
+    // his circumfix notation K...AN, where the dots have no letter before them,
+    // is left alone.
+    t = t.replace(/([A-Za-zÀ-ÿ][.!])(?=[A-Za-zÀ-ÿ])/g, "$1 ");
+    // "...(pbl'xun)mo xkawas" — a bracket he closes without letting go.
+    t = t.replace(/\)(?=[A-Za-zÀ-ÿ0-9])/g, ") ");
     t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");
     t = t.replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,})\)/g, "$1 ($2)");     // but not "fiancé(e)"
     t = t.replace(/\s*…\s*/g, " … ").replace(/\s+/g, " ").trim();
@@ -514,7 +567,7 @@
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
       // A run of bare elision marks is punctuation, not a word to judge.
-      if (i % 2 === 0 || !/[A-Za-zÀ-ÿ]/.test(part)) { h += esc(part); continue; }
+      if (i % 2 === 0 || !TRUKU_LETTER.test(part)) { h += esc(part); continue; }
       var cls = respellable(part) ? "w-mod" : "w-raw";
       var linked = !noLink && lookupWord(part);
       if (linked) cls += " crossref-link";
