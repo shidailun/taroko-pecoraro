@@ -168,6 +168,19 @@
     return spellingModern ? collapsed(raw) : (raw || "");
   }
 
+  // Headwords, sub-forms and ° paradigm lines are word lists, not sentences, so
+  // they take the spacing fixes only. He types his brackets loosely — "Spadyaq
+  // ( Sppadyaq )", "Knta'to ( Knt"to ?)" — and the query mark belongs to the word
+  // it queries, not to the space before it. The .?. placeholder is left alone.
+  function tidyForm(s) {
+    if (!s) return "";
+    return s.replace(/\s+/g, " ")
+      .replace(/\(\s+/g, "(")
+      .replace(/\s+([)\]?!,;])/g, "$1")
+      .replace(/([,;])(?=[^\s])/g, "$1 ")
+      .trim();
+  }
+
   function entryText(e) {
     var parts = [e.hw, e.fr, e.en, e.zh, e.paradigm || ""];
     (e.examples || []).forEach(function (x) { parts.push(x.t, x.fr, x.en, x.zh); });
@@ -420,6 +433,7 @@
     t = t.replace(/(^|[^A-Za-zÀ-ÿ.])\.\.(?!\.)/g, "$1…");
     t = t.replace(/\s+([,;:!?%.])/g, "$1");
     t = t.replace(/([A-Za-zÀ-ÿ])\.\.(?!\.)/g, "$1.");                  // "etc.." → "etc."
+    t = t.replace(/\.([!?])/g, "$1");   // he sometimes types both ("ka … nami. !")
     t = t.replace(/([,;:])(?=[^\s\d)\]»"'’…])/g, "$1 ");
     t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");
     t = t.replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,})\)/g, "$1 ($2)");     // but not "fiancé(e)"
@@ -541,7 +555,7 @@
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + linkifyTruku(formText(e.hw), true) + "</span>";
+    h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
     h += audioBtn(e.a);
     h += tagHtml(e.tag);
     if (e.crossRef) {
@@ -549,12 +563,12 @@
         '" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
     }
     h += "</div>";
-    if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(e.paradigm) + "</p>";
+    if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(tidyForm(e.paradigm)) + "</p>";
     h += glossHtml(e);
     h += examplesHtml(e.examples);
     (e.subs || []).forEach(function (s) {
-      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(formText(s.form)) + "</span>" + audioBtn(s.a) + "</div>";
-      if (s.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(s.paradigm) + "</p>";
+      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(tidyForm(formText(s.form))) + "</span>" + audioBtn(s.a) + "</div>";
+      if (s.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(tidyForm(s.paradigm)) + "</p>";
       h += glossHtml(s);
       h += examplesHtml(s.examples);
       h += "</div>";
@@ -583,9 +597,9 @@
     // reader tapped; either orthography resolves to the same entry now.
     var label = dispText(formText(f.label));
     var h = '<article class="entry stub" data-ref="' + esc(label) + '">';
-    h += '<div class="hw-line"><span class="hw stub-hw">' + linkifyTruku(formText(f.label), true) + "</span>";
+    h += '<div class="hw-line"><span class="hw stub-hw">' + linkifyTruku(tidyForm(formText(f.label)), true) + "</span>";
     h += audioBtn(s.a);
-    h += '<span class="tag stub-parent">→ ' + linkifyTruku(formText(f.entry.hw), true) + "</span></div>";
+    h += '<span class="tag stub-parent">→ ' + linkifyTruku(tidyForm(formText(f.entry.hw)), true) + "</span></div>";
     if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
     return h + "</article>";
   }
@@ -770,7 +784,7 @@
   function showPreview(link) {
     var w = lookupWord(link.getAttribute("data-ref"));
     if (!w) return;
-    var h = '<div><span class="wp-hw">' + linkifyTruku(formText(w.hw), true) + "</span>";
+    var h = '<div><span class="wp-hw">' + linkifyTruku(tidyForm(formText(w.hw)), true) + "</span>";
     if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(formText(w.parentHw))) + "</span>";
     h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Tap again for full entry · 再點一次查看完整條目</p>';
     wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
