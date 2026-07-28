@@ -132,6 +132,26 @@
     return out;
   }
 
+  // In modern spelling his two tries at a word often converge: "L'NGLONG (LNGLONG)"
+  // is LNGLUNG twice over, and a bracket around a word's own spelling is noise. So
+  // the form is shown once — unless the spellings really do stay apart (Pklilu /
+  // Plilu), where the bracket is still telling the reader something.
+  function collapsed(raw) {
+    var vs = variants(raw);
+    if (vs.length < 2) return raw || "";
+    var first = norm(modernizeText(vs[0]));
+    for (var i = 1; i < vs.length; i++) {
+      if (norm(modernizeText(vs[i])) !== first) return raw;
+    }
+    return vs[0];
+  }
+
+  // A written form as it should stand on screen: collapsed in modern spelling, and
+  // exactly as Pecoraro set it otherwise.
+  function formText(raw) {
+    return spellingModern ? collapsed(raw) : (raw || "");
+  }
+
   function entryText(e) {
     var parts = [e.hw, e.fr, e.en, e.zh, e.paradigm || ""];
     (e.examples || []).forEach(function (x) { parts.push(x.t, x.fr, x.en, x.zh); });
@@ -226,7 +246,9 @@
     var out = [];
     function add(raw, label, entry, sub, alias) {
       var key = norm(raw);
-      var mkey = norm(modernizeText(raw));
+      // mkey is the modern *displayed* spelling, brackets already collapsed, so a
+      // row sorts and files under the word the reader actually sees.
+      var mkey = norm(modernizeText(collapsed(raw)));
       out.push({
         key: key, mkey: mkey === key ? null : mkey,
         label: label, entry: entry, sub: sub, alias: !!alias
@@ -269,7 +291,17 @@
     });
   }
   var FORMS_ORIG = sortedBy(function (f) { return f.key; });
-  var FORMS_MOD = sortedBy(function (f) { return f.mkey || f.key; });
+  // Modern spelling can merge an alias into the form it varies from — L'NGLONG and
+  // LNGLONG are one word today — and the letter would otherwise list it twice.
+  // Only FORMS_MOD is filtered: in Pecoraro's own spelling they are two spellings
+  // and both deserve their slot.
+  var FORMS_MOD = (function () {
+    var taken = {};
+    function slot(f) { return (f.mkey || f.key) + " " + f.entry.hw; }
+    FORMS.forEach(function (f) { if (!f.alias) taken[slot(f)] = true; });
+    return sortedBy(function (f) { return f.mkey || f.key; })
+      .filter(function (f) { return !f.alias || !taken[slot(f)]; });
+  })();
 
   function activeForms() {
     return spellingModern ? FORMS_MOD : FORMS_ORIG;
@@ -351,6 +383,78 @@
     return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
+  // ---------- typography ----------
+  // Spacing, capitals and final stops are Pecoraro's typing habits, not his
+  // linguistics: the same page has "ka iso ! T'mlong" and "ka isu, mkla", and 3,901
+  // of his 5,437 example sentences simply stop without a period. Normalized at
+  // display time, by the conventions of the language being set — entries.js keeps
+  // the book's own text, exactly like the modern-spelling toggle.
+  var NNBSP = " "; // French high punctuation: a space that can't wrap
+  var CJK = "㐀-鿿豈-﫿々〆";
+  var ABBR = /(?:^|[\s(])(n\.b|nb|n|e\.g|i\.e|cf|vr|var|litt|fig|etc|no|st|mgr|dr|min|max|env|ca|approx|abbr|c\.à\.d|c-à-d)\.$/i;
+
+  function tidyLatin(t, french) {
+    t = t.replace(/\s+/g, " ").trim();
+    if (!t) return t;
+    // "? ... Take" becomes "? … Take", but "K...AN" is his circumfix notation, not
+    // an ellipsis, so the dots have to be free-standing to count.
+    t = t.replace(/(^|[\s.,;:!?])\.\.\.(?=\s|$)/g, "$1…");
+    // He also writes an ellipsis with two dots ("=..Il me l'a accordé"); after a
+    // word it is a stray second stop instead ("etc..", handled below).
+    t = t.replace(/(^|[^A-Za-zÀ-ÿ.])\.\.(?!\.)/g, "$1…");
+    t = t.replace(/\s+([,;:!?%.])/g, "$1");
+    t = t.replace(/([A-Za-zÀ-ÿ])\.\.(?!\.)/g, "$1.");                  // "etc.." → "etc."
+    t = t.replace(/([,;:])(?=[^\s\d)\]»"'’…])/g, "$1 ");
+    t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");
+    t = t.replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,})\)/g, "$1 ($2)");     // but not "fiancé(e)"
+    t = t.replace(/\s*…\s*/g, " … ").replace(/\s+/g, " ").trim();
+    t = t.replace(/… ([,;:.!?])/g, "…$1");
+    t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");   // again: the ellipsis pass re-spaces
+    // French sets a space before high punctuation — after a word only, so his "(??)"
+    // query marks don't get pried apart.
+    if (french) {
+      t = t.replace(/([A-Za-zÀ-ÿ0-9)\]»"'’])\s*([;:!?»])/g, "$1" + NNBSP + "$2");
+      t = t.replace(/«\s*/g, "«" + NNBSP);
+    }
+    t = t.replace(/^([a-zà-ÿ])/, function (c) { return c.toUpperCase(); });
+    // A new sentence takes a capital, unless the stop belongs to one of his
+    // abbreviations (nb. / vr. / e.g.), which is mid-sentence.
+    t = t.replace(/([.!?…])(\s+)([a-zà-ÿ])/g, function (m, p, sp, c, off, s) {
+      if (p === "." && ABBR.test(s.slice(0, off + 1))) return m;
+      return p + sp + c.toUpperCase();
+    });
+    t = t.replace(/[\s–—-]+$/, "");                                     // dangling dashes
+    if (/[A-Za-zÀ-ÿ0-9'’]$/.test(t)) t += ".";
+    return t;
+  }
+
+  function tidyZh(t) {
+    t = t.replace(/\s+/g, " ").trim();
+    if (!t) return t;
+    var map = { ",": "，", ";": "；", ":": "：", "!": "！", "?": "？" };
+    t = t.replace(new RegExp("([" + CJK + "])\\s*([,;:!?])", "g"), function (m, c, p) { return c + map[p]; });
+    t = t.replace(new RegExp("([" + CJK + "])\\s*\\.(?=\\s|$)", "g"), "$1。");
+    // Brackets convert as a pair, judged by what is inside them, so a half-width
+    // closer can't survive a full-width opener.
+    var inner = new RegExp("[" + CJK + "]");
+    t = t.replace(/\(([^()]*)\)/g, function (m, body) {
+      return inner.test(body) ? "（" + body.trim() + "）" : m;
+    });
+    // A space only vanishes between two Chinese characters: a Latin word set inside
+    // Chinese keeps the spaces around it (參見 QDALAN), which is the convention.
+    t = t.replace(new RegExp("([" + CJK + "])\\s+(?=[" + CJK + "])", "g"), "$1");
+    t = t.replace(/\s*([，、。；：！？）」』])\s*/g, "$1");
+    t = t.replace(/([（「『])\s*/g, "$1");
+    t = t.replace(/\.\s*\.\s*\./g, "……").replace(/\.\.(?!\.)/g, "…");
+    if (!/[。！？」』）)…]$/.test(t)) t += "。";
+    return t;
+  }
+
+  function tidy(s, lang) {
+    if (!s) return "";
+    return lang === "zh" ? tidyZh(s) : tidyLatin(s, lang === "fr");
+  }
+
   // A word in an example is linked when it resolves in either orthography. The
   // token side matters as much as the index side: Pecoraro's prose does not always
   // match his own headwords — the examples say `mu` where the entry is `MO` — and
@@ -385,9 +489,9 @@
 
   function glossHtml(obj) {
     var h = "";
-    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + esc(obj.fr) + "</p>";
-    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + esc(obj.en) + "</p>";
-    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + esc(obj.zh) + "</p>";
+    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + esc(tidy(obj.fr, "fr")) + "</p>";
+    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + esc(tidy(obj.en, "en")) + "</p>";
+    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + esc(tidy(obj.zh, "zh")) + "</p>";
     return h;
   }
 
@@ -395,10 +499,10 @@
     if (!list || !list.length) return "";
     var h = '<div class="examples">';
     list.forEach(function (x) {
-      h += '<div class="example"><div class="truku">§ ' + linkifyTruku(x.t) + audioBtn(x.a) + "</div>";
-      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + esc(x.fr) + "</p>";
-      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + esc(x.en) + "</p>";
-      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + esc(x.zh) + "</p>";
+      h += '<div class="example"><div class="truku">§ ' + linkifyTruku(tidy(x.t, "tr")) + audioBtn(x.a) + "</div>";
+      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + esc(tidy(x.fr, "fr")) + "</p>";
+      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + esc(tidy(x.en, "en")) + "</p>";
+      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + esc(tidy(x.zh, "zh")) + "</p>";
       h += "</div>";
     });
     return h + "</div>";
@@ -406,16 +510,16 @@
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + esc(dispText(e.hw)) + "</span>";
+    h += '<div class="hw-line"><span class="hw">' + esc(dispText(formText(e.hw))) + "</span>";
     h += audioBtn(e.a);
     h += tagHtml(e.tag);
-    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(e.crossRef)) + "</span></span>";
+    if (e.crossRef) h += ' <span class="tag">→ <span class="crossref-link" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
     h += "</div>";
     if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(e.paradigm) + "</p>";
     h += glossHtml(e);
     h += examplesHtml(e.examples);
     (e.subs || []).forEach(function (s) {
-      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(s.form) + "</span>" + audioBtn(s.a) + "</div>";
+      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(formText(s.form)) + "</span>" + audioBtn(s.a) + "</div>";
       if (s.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(s.paradigm) + "</p>";
       h += glossHtml(s);
       h += examplesHtml(s.examples);
@@ -425,21 +529,29 @@
     return h + "</article>";
   }
 
+  // The one-line contexts have room for a single gloss, and French is the source
+  // language, not the one most readers here want: English first, then Chinese, and
+  // French only when it is the sole one enabled. (A full entry still shows every
+  // enabled language, in fr/en/zh order.)
+  function oneGloss(s) {
+    if (shown.en && s.en) return '<span class="lang-chip en">EN</span>' + esc(tidy(s.en, "en"));
+    if (shown.zh && s.zh) return '<span class="lang-chip zh">中</span>' + esc(tidy(s.zh, "zh"));
+    if (shown.fr && s.fr) return '<span class="lang-chip fr">FR</span>' + esc(tidy(s.fr, "fr"));
+    return "";
+  }
+
   // One-line cross-reference stub for a sub-form standing at its own alphabetical
-  // slot. Shows the first gloss among the enabled languages; the whole card opens
-  // the root entry it belongs to.
+  // slot; the whole card opens the root entry it belongs to.
   function stubHtml(f) {
-    var s = f.sub || f.entry, g = "";
-    if (shown.fr && s.fr) g = '<span class="lang-chip fr">FR</span>' + esc(s.fr);
-    else if (shown.en && s.en) g = '<span class="lang-chip en">EN</span>' + esc(s.en);
-    else if (shown.zh && s.zh) g = '<span class="lang-chip zh">中</span>' + esc(s.zh);
+    var s = f.sub || f.entry;
+    var g = oneGloss(s);
     // data-ref carries the displayed spelling, so the search box echoes what the
     // reader tapped; either orthography resolves to the same entry now.
-    var label = dispText(f.label);
+    var label = dispText(formText(f.label));
     var h = '<article class="entry stub" data-ref="' + esc(label) + '">';
     h += '<div class="hw-line"><span class="hw stub-hw">' + esc(label) + "</span>";
     h += audioBtn(s.a);
-    h += '<span class="tag stub-parent">→ ' + esc(dispText(f.entry.hw)) + "</span></div>";
+    h += '<span class="tag stub-parent">→ ' + esc(dispText(formText(f.entry.hw))) + "</span></div>";
     if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
     return h + "</article>";
   }
@@ -610,18 +722,15 @@
   }
 
   function previewGlossHtml(w) {
-    var h = "";
-    if (shown.fr && w.fr) h += '<p class="wp-gloss"><span class="lang-chip fr">FR</span>' + esc(w.fr) + "</p>";
-    else if (shown.en && w.en) h += '<p class="wp-gloss"><span class="lang-chip en">EN</span>' + esc(w.en) + "</p>";
-    else if (shown.zh && w.zh) h += '<p class="wp-gloss"><span class="lang-chip zh">中</span>' + esc(w.zh) + "</p>";
-    return h;
+    var g = oneGloss(w);
+    return g ? '<p class="wp-gloss">' + g + "</p>" : "";
   }
 
   function showPreview(link) {
     var w = lookupWord(link.getAttribute("data-ref"));
     if (!w) return;
-    var h = '<div><span class="wp-hw">' + esc(dispText(w.hw)) + "</span>";
-    if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(w.parentHw)) + "</span>";
+    var h = '<div><span class="wp-hw">' + esc(dispText(formText(w.hw))) + "</span>";
+    if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(formText(w.parentHw))) + "</span>";
     h += "</div>" + previewGlossHtml(w) + '<p class="wp-hint">Tap again for full entry · 再點一次查看完整條目</p>';
     wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
     wordPreview.innerHTML = h;

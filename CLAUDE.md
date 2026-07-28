@@ -47,6 +47,36 @@ same `modernize()` path the display uses. Consequences:
   was an opaque band across the "FERDINANDO PECORARO MEP" byline, and it was
   unreachable from a listing. Don't reinstate `#alpha-row`.
 
+## Display-time typography (2026-07-28)
+
+`tidy()` in `app.js` normalizes punctuation and capitalization at render time, by
+language — `entries.js` keeps the book's own text, exactly like the spelling
+toggle. Pecoraro's habits were inconsistent (`ka iso ! T'mlong` beside
+`ka isu, mkla`), and 3,901 of his 5,437 example sentences have no final stop at
+all. Rules: Latin text gets flush punctuation, one space after `,;:`, a capital
+at each sentence start (an abbreviation list keeps `nb.` / `vr.` / `e.g.`
+mid-sentence), his two-dot ellipsis `..` → `…`, dangling trailing dashes dropped,
+and a final `.` when the line ends in a word; **French** additionally takes a
+narrow no-break space before `;:!?»` — after a word only, so his `(??)` query
+marks stay together; **Chinese** takes full-width punctuation and brackets
+(converted as a pair, judged by what is inside), loses spaces only between two
+Chinese characters (`參見 QDALAN` keeps its space), and ends in `。`. Truku
+example lines run through the Latin path. Headwords, sub-forms and `°` paradigm
+lines are NOT tidied — they are words and form lists, not sentences.
+
+One-line contexts (A–Z stubs, the hover/tap word preview) show a single gloss and
+pick **EN → 中 → FR**, not the fr/en/zh order a full entry uses: French is the
+source language, and picking it first made a letter listing look like an
+untranslated French dictionary. (There are no French-only definitions in the
+data — every gloss has all three — but 273 entries (13.9%) have no definition in
+any language, because Pecoraro left them blank himself.)
+
+`collapsed()` drops the bracket when a bracketed form's spellings converge in
+modern Truku — `L'NGLONG (LNGLONG)` is LNGLUNG twice — and keeps it when they
+stay apart (`Pklilu (Plilu ?)`). `FORMS_MOD` is filtered to match, or the merged
+alias would set a second identical row in the letter listing; `FORMS_ORIG` is
+not, since in Pecoraro's spelling they are two spellings and both earn a slot.
+
 ## Entry data shape (entries.js)
 
 ```js
