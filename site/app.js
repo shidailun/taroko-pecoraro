@@ -118,6 +118,20 @@
       .replace(/[̀-ͯ]/g, "");
   }
 
+  // Pecoraro often writes a word twice, the second spelling in brackets:
+  // "Pklilu (Plilu ?)", "L'NGLONG (LNGLONG)", "Mpsnabao (=Mpslnabao)". Both halves
+  // are real spellings — either can be what a reader types and what his own example
+  // sentences use — but the key was the whole string, so neither half matched
+  // anything. Returns the spellings as written; callers norm() what they need.
+  function variants(raw) {
+    var out = [];
+    (raw || "").split(/[()=?]/).forEach(function (p) {
+      var v = p.trim();
+      if (v && /[A-Za-zÀ-ÿ]/.test(v) && out.indexOf(v) === -1) out.push(v);
+    });
+    return out;
+  }
+
   function entryText(e) {
     var parts = [e.hw, e.fr, e.en, e.zh, e.paradigm || ""];
     (e.examples || []).forEach(function (x) { parts.push(x.t, x.fr, x.en, x.zh); });
@@ -149,30 +163,52 @@
     return m === originalNorm ? null : m;
   }
 
+  // Every spelling one written form can be looked up by: as Pecoraro wrote it, each
+  // of his bracketed variants, and the modern form of each. Deduped, and usually
+  // just one string — the extra keys only appear where the two orthographies differ
+  // or he offered a second spelling.
+  function keySet(raw) {
+    var out = [];
+    function push(k) { if (k && out.indexOf(k) === -1) out.push(k); }
+    push(norm(raw));
+    push(norm(modernizeText(raw)));
+    variants(raw).forEach(function (v) { push(norm(v)); push(norm(modernizeText(v))); });
+    return out;
+  }
+
   var INDEX = window.ENTRIES.map(function (e) {
-    var hw = norm(e.hw);
-    var text = entryText(e);
-    var forms = (e.subs || []).map(function (s) { return norm(s.form); });
-    var mforms = (e.subs || []).map(function (s, i) { return alt(forms[i], s.form); })
-      .filter(function (f) { return f; });
+    var forms = [];
+    (e.subs || []).forEach(function (s) {
+      if (s.form) forms = forms.concat(keySet(s.form));
+    });
     return {
       entry: e,
-      text: text,
-      hw: hw,
+      text: entryText(e),
+      hws: keySet(e.hw),
       forms: forms,
-      mhw: alt(hw, e.hw),
-      mforms: mforms,
       mtext: alt(norm(trukuText(e)), trukuText(e))
     };
   });
 
+  // Exact keys are claimed first and aliases only fill the gaps, so a real headword
+  // always beats another form's bracketed variant or a modern spelling that happens
+  // to collide with it.
   var HW_LOOKUP = {};
-  window.ENTRIES.forEach(function (e) {
-    HW_LOOKUP[norm(e.hw)] = { hw: e.hw, fr: e.fr, en: e.en, zh: e.zh };
-    (e.subs || []).forEach(function (s) {
-      if (s.form) HW_LOOKUP[norm(s.form)] = { hw: s.form, fr: s.fr, en: s.en, zh: s.zh, parentHw: e.hw };
+  (function () {
+    var aliases = [];
+    function put(k, rec) { if (k && !HW_LOOKUP[k]) HW_LOOKUP[k] = rec; }
+    function index(raw, rec) {
+      put(norm(raw), rec);
+      keySet(raw).forEach(function (k) { aliases.push([k, rec]); });
+    }
+    window.ENTRIES.forEach(function (e) {
+      index(e.hw, { hw: e.hw, fr: e.fr, en: e.en, zh: e.zh });
+      (e.subs || []).forEach(function (s) {
+        if (s.form) index(s.form, { hw: s.form, fr: s.fr, en: s.en, zh: s.zh, parentHw: e.hw });
+      });
     });
-  });
+    aliases.forEach(function (a) { put(a[0], a[1]); });
+  })();
 
   // ---------- flat form index ----------
   // Pecoraro organizes by root: derived forms live inside their root's entry as
@@ -188,16 +224,31 @@
   // under, or pressing X in modern mode returns a screen of H-words.
   var FORMS = (function () {
     var out = [];
-    function add(raw, entry, sub) {
+    function add(raw, label, entry, sub, alias) {
       var key = norm(raw);
       var mkey = norm(modernizeText(raw));
-      out.push({ key: key, mkey: mkey === key ? null : mkey, entry: entry, sub: sub });
+      out.push({
+        key: key, mkey: mkey === key ? null : mkey,
+        label: label, entry: entry, sub: sub, alias: !!alias
+      });
+    }
+    // A bracketed variant earns its own slot, labelled with just that spelling:
+    // Plilu belongs under P in its own right, not only buried inside the string
+    // "Pklilu (Plilu ?)" filed under P-k.
+    function addForm(raw, entry, sub) {
+      add(raw, raw, entry, sub, false);
+      variants(raw).slice(1).forEach(function (v) { add(v, v, entry, sub, true); });
     }
     window.ENTRIES.forEach(function (e) {
-      add(e.hw, e, null);
-      (e.subs || []).forEach(function (s) { if (s.form) add(s.form, e, s); });
+      addForm(e.hw, e, null);
+      (e.subs || []).forEach(function (s) { if (s.form) addForm(s.form, e, s); });
     });
-    return out;
+    // LILU lists both "Plilu" and "Pklilu (Plilu ?)", so the bracket would set a
+    // second Plilu row beside the real one. Drop an alias whose spelling the same
+    // entry already fills; a collision with a *different* entry is real and stays.
+    var taken = {};
+    out.forEach(function (f) { if (!f.alias) taken[f.key + " " + f.entry.hw] = true; });
+    return out.filter(function (f) { return !f.alias || !taken[f.key + " " + f.entry.hw]; });
   })();
 
   function formKey(f) {
@@ -241,18 +292,25 @@
   function filter(q) {
     q = norm(q.trim());
     if (!q) return window.ENTRIES;
-    var starts = [], subStarts = [], contains = [];
+    // Five tiers. The word itself outranks every word that merely begins with it —
+    // typing `mu` must reach MO before M'KAI (MUKAI ?) — and a sub-form match used
+    // to fall into `contains`, so a derived form ranked below every unrelated root
+    // starting with the same letters.
+    var isHw = [], isForm = [], starts = [], subStarts = [], contains = [];
     function prefixes(list) {
       return list.some(function (f) { return f.indexOf(q) === 0; });
     }
+    function has(list) {
+      return list.indexOf(q) !== -1;
+    }
     INDEX.forEach(function (it) {
-      if (it.hw.indexOf(q) === 0 || (it.mhw && it.mhw.indexOf(q) === 0)) starts.push(it.entry);
-      // A sub-form match used to fall into `contains`, so looking up a derived
-      // form ranked below every root that merely starts with the same letters.
-      else if (prefixes(it.forms) || prefixes(it.mforms)) subStarts.push(it.entry);
+      if (has(it.hws)) isHw.push(it.entry);
+      else if (has(it.forms)) isForm.push(it.entry);
+      else if (prefixes(it.hws)) starts.push(it.entry);
+      else if (prefixes(it.forms)) subStarts.push(it.entry);
       else if (it.text.indexOf(q) !== -1 || (it.mtext && it.mtext.indexOf(q) !== -1)) contains.push(it.entry);
     });
-    return starts.concat(subStarts, contains);
+    return isHw.concat(isForm, starts, subStarts, contains);
   }
 
   // ---------- audio ----------
@@ -293,6 +351,14 @@
     return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
+  // A word in an example is linked when it resolves in either orthography. The
+  // token side matters as much as the index side: Pecoraro's prose does not always
+  // match his own headwords — the examples say `mu` where the entry is `MO` — and
+  // the modern spelling is where the two converge.
+  function lookupWord(w) {
+    return HW_LOOKUP[norm(w)] || HW_LOOKUP[norm(modernize(w))] || null;
+  }
+
   function linkifyTruku(text) {
     if (!text) return "";
     var parts = text.split(/([A-Za-zÀ-ÿ'’ʼ]+)/);
@@ -300,7 +366,7 @@
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
       var display = esc(dispTruku(part));
-      if (i % 2 === 1 && HW_LOOKUP[norm(part)]) {
+      if (i % 2 === 1 && lookupWord(part)) {
         h += '<span class="crossref-link" data-ref="' + esc(part) + '">' + display + "</span>";
       } else {
         h += display;
@@ -363,22 +429,25 @@
   // slot. Shows the first gloss among the enabled languages; the whole card opens
   // the root entry it belongs to.
   function stubHtml(f) {
-    var s = f.sub, g = "";
+    var s = f.sub || f.entry, g = "";
     if (shown.fr && s.fr) g = '<span class="lang-chip fr">FR</span>' + esc(s.fr);
     else if (shown.en && s.en) g = '<span class="lang-chip en">EN</span>' + esc(s.en);
     else if (shown.zh && s.zh) g = '<span class="lang-chip zh">中</span>' + esc(s.zh);
     // data-ref carries the displayed spelling, so the search box echoes what the
     // reader tapped; either orthography resolves to the same entry now.
-    var h = '<article class="entry stub" data-ref="' + esc(dispText(s.form)) + '">';
-    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(dispText(s.form)) + "</span>";
+    var label = dispText(f.label);
+    var h = '<article class="entry stub" data-ref="' + esc(label) + '">';
+    h += '<div class="hw-line"><span class="hw stub-hw">' + esc(label) + "</span>";
     h += audioBtn(s.a);
     h += '<span class="tag stub-parent">→ ' + esc(dispText(f.entry.hw)) + "</span></div>";
     if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
     return h + "</article>";
   }
 
+  // An alias slot is a pointer, never a second copy of the entry: without this a
+  // bracketed headword like "L'NGLONG (LNGLONG)" would set two full cards under L.
   function formHtml(f) {
-    return f.sub ? stubHtml(f) : entryHtml(f.entry);
+    return f.sub || f.alias ? stubHtml(f) : entryHtml(f.entry);
   }
 
   function introTextHtml(text) {
@@ -549,7 +618,7 @@
   }
 
   function showPreview(link) {
-    var w = HW_LOOKUP[norm(link.getAttribute("data-ref"))];
+    var w = lookupWord(link.getAttribute("data-ref"));
     if (!w) return;
     var h = '<div><span class="wp-hw">' + esc(dispText(w.hw)) + "</span>";
     if (w.parentHw) h += '<span class="wp-parent">→ ' + esc(dispText(w.parentHw)) + "</span>";
