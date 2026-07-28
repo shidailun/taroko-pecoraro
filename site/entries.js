@@ -38586,7 +38586,7 @@ window.ENTRIES = [
         "zh": "同上之動詞形。",
         "examples": [
           {
-            "t": "Imnglong ko modox bonga ooqonta ka'man kia",
+            "t": "Imnglong ko modox bonga ooqon ta ka'man kia",
             "fr": "Je pense cuire des patates douces pour notre dîner de ce soir.",
             "en": "I'm thinking of grilling sweet potatoes for our dinner tonight.",
             "zh": "我想烤些地瓜作為我們今晚的晚餐。",

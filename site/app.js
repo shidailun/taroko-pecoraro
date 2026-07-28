@@ -53,7 +53,11 @@
     "dui": "duuy", "dmui": "dmuuy", "mdui": "mduuy", "mddui": "mdduuy",
     "pdui": "pduuy", "sdui": "sduuy", "mndui": "mnduuy", "mpdui": "mpduuy",
     "xbui": "hbuy", "xmbui": "hmbuy", "pxbui": "phbuy", "xnbui": "hnbuy",
-    "m'xapui": "mapwi", "mapui": "mapwi"
+    "m'xapui": "mapwi", "mapui": "mapwi",
+    // His emphatic particle O (headword, 517 occurrences) is the modern topic
+    // marker u — confirmed by the user 2026-07-28. The character rule already
+    // produced "u"; this records that the spelling is verified, not guessed.
+    "o": "u"
   };
 
   function loadSpelling() {
