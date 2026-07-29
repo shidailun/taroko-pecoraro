@@ -3,7 +3,7 @@ bntuluk          bntuluk          btuluk         btuluk         derived
 dlolo            druru            lolo           ruru           derived
 dmt'sapat        dmt'sapat        tsapat         t'sapat        derived
 dtdoling         dtduling         tdoling        tduling        derived
-gmagwi           ggmeeguy         magwi          gmeeguy        derived
+gmagwi           gmeeguy          gagwi          geeguy         attested
 gnl'qan          gnl'qan          glqan          gl'qan         derived
 gnluban          gnluban          gluban         gluban         derived
 kbskol           kbsqur           bskol          bsqur          derived
@@ -61,6 +61,7 @@ mpspala          mpspala          pala           pala           derived
 mpsparo          mpsparu          psparo         psparu         derived
 mpsqlinut        mpsqrinut        psqlinut       psqrinut       derived
 mptgmaxon        mptgmaxun        gmaxon         gmaxun         derived
+mptisa           mptgsa           ptisa          ptgsa          derived
 mpxolyaq         mphuriq          pxolyaq        phuriq         derived
 mqqalang         mqqalang         qalang         qalang         derived
 mslaput          mslaput          slaput         slaput         derived
@@ -83,7 +84,7 @@ mtsgasut         mtsgasut         tsgasut        tsgasut        derived
 ndtlalae         ndtlalay         tlalae         tlalay         derived
 nlluan           nl'luan          llu            l'lu           derived
 pbyeqon          pbiqun           byeqon         biqun          derived
-pgleqe           pgriqi           pgleq          pgriq          derived
+pgleqe           pgliqi           gleqe          gliqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
 pklagun          pkragun          klagun         kragun         derived
@@ -104,7 +105,7 @@ pnsdlaan         pnsdraan         psdlaan        psdraan        derived
 pnsilong         pnsilung         psilong        psilung        derived
 pnsk'lol         pnsqrul          psklol         psqrul         derived
 pnskngalan       pnskngalan       pskngalan      pskngalan      derived
-pnsl'xgan        pnslhgan         pslxgan        pslhgan        derived
+pnsl'xgan        pnsl'hgan        pslxgan        psl'hgan       derived
 pnslidil         pnsrijil         pslidil        psrijil        derived
 pnslngiyan       pnsrngiyan       pslngiyan      psrngiyan      derived
 pnslutut         pnslutut         pslutut        pslutut        derived
@@ -153,8 +154,8 @@ sqlaq            sqlaq            qlaq           qlaq           derived
 tgaox            tgauh            tga            tga            derived
 tmnlong          tmnlung          tlong          tlung          derived
 tnk'lae          tnk'lai          tnkla          tnk'la         derived
-tnk'laon         tnklaun          klaon          klaun          derived
-tnklaon          tnklaun          klaon          klaun          derived
+tnk'laon         tnk'laun         tnkla          tnk'la         derived
+tnklaon          tnk'laun         tnkla          tnk'la         derived
 tntmaan          tntmaan          ttmaan         ttmaan         derived
 tpskanun         tpskanun         pskanun        pskanun        derived
 tqliyun          tqriyun          qliyun         qriyun         derived

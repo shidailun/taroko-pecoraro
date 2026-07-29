@@ -36,7 +36,6 @@ sasak            sasak            midcap=1    occ=2
 silin            silin            midcap=2    occ=2
 taosen           tausen           midcap=1    occ=2
 taotyex          tautyeh          midcap=1    occ=2
-timalu           timalu           midcap=1    occ=2
 tiwang           tiwang           midcap=1    occ=2
 xoyo             huyu             midcap=1    occ=2
 yiano            yianu            midcap=1    occ=2

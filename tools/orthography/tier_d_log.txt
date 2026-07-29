@@ -125,7 +125,7 @@ sssik            sssik            CV-    ssik             R
 ttabu            ttabu            CV-    tabu             J
 ttaxot           ttahut           CV-    taxot            B
 ttl'boq          ttrbuq           CV-    tl'boq           B
-ttmisa           ttmisa           CV-    tmisa            S
+ttmisa           ttmgsa           CV-    tmisa            P
 tttama           tttama           CV-    ttama            id
 ttunux           ttunux           CV-    tunux            id
 ttxmoqo          tthmuku          CV-    txmoqo           T

@@ -13967,6 +13967,14 @@
    "modern": "cilux",
    "tier": "B"
   },
+  "timalu": {
+   "modern": "tgmalu",
+   "tier": "M"
+  },
+  "timangali": {
+   "modern": "tgmngari",
+   "tier": "M"
+  },
   "timing": {
    "modern": "ciming",
    "tier": "B"
@@ -13979,9 +13987,33 @@
    "modern": "cinun",
    "tier": "B"
   },
+  "tipito": {
+   "modern": "tgpitu",
+   "tier": "M"
+  },
+  "tisa": {
+   "modern": "tgsa",
+   "tier": "M"
+  },
+  "tispat": {
+   "modern": "tgspat",
+   "tier": "M"
+  },
+  "tit'lo": {
+   "modern": "tgtru",
+   "tier": "M"
+  },
+  "tit'maq": {
+   "modern": "tgtmaq",
+   "tier": "M"
+  },
   "titiex": {
    "modern": "cicih",
    "tier": "L"
+  },
+  "titmaq": {
+   "modern": "tgtmaq",
+   "tier": "M"
   },
   "tityex": {
    "modern": "cicih",
@@ -17367,8 +17399,7 @@
   },
   "mpsbu": {
    "modern": "mpsbu",
-   "tier": "P",
-   "elision_dropped": "mpsbu'"
+   "tier": "P"
   },
   "mpsbulao": {
    "modern": "mpsburaw",
@@ -17946,6 +17977,10 @@
   },
   "mttatoq": {
    "modern": "mttatuk",
+   "tier": "P"
+  },
+  "mttisa": {
+   "modern": "mttgsa",
    "tier": "P"
   },
   "mtudo": {
@@ -19076,13 +19111,11 @@
   },
   "psbui": {
    "modern": "psbui",
-   "tier": "P",
-   "elision_dropped": "psbu'i"
+   "tier": "P"
   },
   "psbuon": {
    "modern": "psbuun",
-   "tier": "P",
-   "elision_dropped": "psbu'un"
+   "tier": "P"
   },
   "psbusan": {
    "modern": "psbusan",
@@ -19303,8 +19336,7 @@
   },
   "pspngan": {
    "modern": "pspngan",
-   "tier": "P",
-   "elision_dropped": "psp'ngan"
+   "tier": "P"
   },
   "pspoxe": {
    "modern": "pspuhi",
@@ -19508,6 +19540,10 @@
    "modern": "ptgxalun",
    "tier": "P",
    "elision_dropped": "ptg'xalun"
+  },
+  "ptisa": {
+   "modern": "ptgsa",
+   "tier": "P"
   },
   "ptkanan": {
    "modern": "ptkanan",
@@ -20511,37 +20547,12 @@
    "modern": "tgqguq",
    "tier": "P"
   },
-  "timangali": {
-   "modern": "timngari",
-   "tier": "P"
-  },
-  "tipito": {
-   "modern": "tipitu",
-   "tier": "P"
-  },
   "tisaang": {
    "modern": "tisaang",
    "tier": "P"
   },
   "tisapat": {
    "modern": "tisapat",
-   "tier": "P"
-  },
-  "tispat": {
-   "modern": "tispat",
-   "tier": "P"
-  },
-  "tit'lo": {
-   "modern": "titru",
-   "tier": "P"
-  },
-  "tit'maq": {
-   "modern": "titmaq",
-   "tier": "P",
-   "elision_dropped": "tit'maq"
-  },
-  "titmaq": {
-   "modern": "titmaq",
    "tier": "P"
   },
   "tkg'long": {
@@ -20628,6 +20639,10 @@
   },
   "tmgakat": {
    "modern": "tmgakat",
+   "tier": "P"
+  },
+  "tmisa": {
+   "modern": "tmgsa",
    "tier": "P"
   },
   "tmkumax": {
@@ -24289,11 +24304,6 @@
    "tier": "S",
    "spoken": 2
   },
-  "tmisa": {
-   "modern": "tmisa",
-   "tier": "S",
-   "spoken": 3
-  },
   "tnisa": {
    "modern": "tnisa",
    "tier": "S",
@@ -24592,10 +24602,6 @@
   },
   "tenong": {
    "modern": "tenung",
-   "tier": "N"
-  },
-  "timalu": {
-   "modern": "timalu",
    "tier": "N"
   },
   "timin": {
@@ -25413,7 +25419,7 @@
    "d_base": "tl'boq"
   },
   "ttmisa": {
-   "modern": "ttmisa",
+   "modern": "ttmgsa",
    "tier": "D",
    "d_rule": "CV-",
    "d_base": "tmisa"
@@ -25492,10 +25498,10 @@
    "e_modern": "tduling"
   },
   "gmagwi": {
-   "modern": "ggmeeguy",
+   "modern": "gmeeguy",
    "tier": "E",
-   "e_stem": "magwi",
-   "e_modern": "gmeeguy"
+   "e_stem": "gagwi",
+   "e_modern": "geeguy"
   },
   "gnl'qan": {
    "modern": "gnlqan",
@@ -25842,6 +25848,12 @@
    "e_stem": "gmaxon",
    "e_modern": "gmaxun"
   },
+  "mptisa": {
+   "modern": "mptgsa",
+   "tier": "E",
+   "e_stem": "ptisa",
+   "e_modern": "ptgsa"
+  },
   "mpxolyaq": {
    "modern": "mphuriq",
    "tier": "E",
@@ -25976,10 +25988,10 @@
    "e_modern": "biqun"
   },
   "pgleqe": {
-   "modern": "pgriqi",
+   "modern": "pgliqi",
    "tier": "E",
-   "e_stem": "pgleq",
-   "e_modern": "pgriq"
+   "e_stem": "gleqe",
+   "e_modern": "gliqi"
   },
   "pgmaxon": {
    "modern": "pgmaxun",
@@ -26105,7 +26117,8 @@
    "modern": "pnslhgan",
    "tier": "E",
    "e_stem": "pslxgan",
-   "e_modern": "pslhgan"
+   "e_modern": "psl'hgan",
+   "elision_dropped": "pnsl'hgan"
   },
   "pnslidil": {
    "modern": "pnsrijil",
@@ -26400,14 +26413,16 @@
   "tnk'laon": {
    "modern": "tnklaun",
    "tier": "E",
-   "e_stem": "klaon",
-   "e_modern": "klaun"
+   "e_stem": "tnkla",
+   "e_modern": "tnk'la",
+   "elision_dropped": "tnk'laun"
   },
   "tnklaon": {
    "modern": "tnklaun",
    "tier": "E",
-   "e_stem": "klaon",
-   "e_modern": "klaun"
+   "e_stem": "tnkla",
+   "e_modern": "tnk'la",
+   "elision_dropped": "tnk'laun"
   },
   "tntmaan": {
    "modern": "tntmaan",
@@ -27829,13 +27844,6 @@
    ]
   ],
   [
-   "ptisa",
-   3,
-   [
-    "使自己受教導使人為自己講解的行為"
-   ]
-  ],
-  [
    "ptkui",
    3,
    [
@@ -27965,13 +27973,6 @@
    3,
    [
     "行為像貪吃鬼的人過分的人過度地"
-   ]
-  ],
-  [
-   "tisa",
-   3,
-   [
-    "教導使知曉告知"
    ]
   ],
   [
@@ -28649,13 +28650,6 @@
    2,
    [
     "愛開玩笑的人喜歡開玩笑的人輕浮隨便的"
-   ]
-  ],
-  [
-   "mttisa",
-   2,
-   [
-    "互相教導互相學習"
    ]
   ],
   [
@@ -29536,6 +29530,21 @@
   ],
   [
    "bien",
+   1,
+   []
+  ],
+  [
+   "blbiling",
+   1,
+   []
+  ],
+  [
+   "bnaxang",
+   1,
+   []
+  ],
+  [
+   "boin",
    1,
    []
   ]

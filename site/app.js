@@ -105,6 +105,8 @@
   function modernize(word) {
     if (!word) return word;
     var key = wordKey(word);
+    // Already modern — the proclitic join built it. See CLITIC_JOIN.
+    if (Object.prototype.hasOwnProperty.call(CLITIC_FORMS, key)) return word;
     if (Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key)) {
       return matchCase(word, WORD_OVERRIDES[key]);
     }
@@ -152,13 +154,73 @@
     return spellingModern ? modernize(word) : word;
   }
 
+  // ---------- proclitics ----------
+  // Modern Truku writes a few unstressed particles joined to the word they lean
+  // on; Pecoraro spaces them. That is word DIVISION, not spelling, so nothing
+  // keyed on single tokens can reach it — modernize() sees one word at a time and
+  // never its neighbour, and mapping ti→tg alone would put "tg malu" on screen,
+  // which is not modern Truku either. So the join runs on the text, before it is
+  // cut into words, and only where the joined form is a word someone attests.
+  //
+  // A closed hand-checked list, not a productive rule. His Ti is the modern tg-
+  // prefix and joins to almost anything, but his Ti longat and Ti tyex would give
+  // tgrngat and tgcih, which neither corpus has, so those two stay as he set them.
+  // Counts are occurrences in the book; each target is checked against
+  // spoken_truku.json and truku_dict.json. He half-saw this himself — he brackets
+  // his own "Ti malu" as "(TIMALU (?))".
+  var CLITIC_JOIN = {
+    "a sao": "asaw",          // 18  因著 spk 91 — "grâce à - par la faute de"
+    "a tyex": "acih",         //  6  差一點 spk 8 — "s'en falloir de peu"
+    "ti malu": "tgmalu",      //  3  那樣好的 spk 24
+    "ti bilaq": "tgbilaq",    //  2  小的 spk 44
+    "ti mangali": "tgmngari", //  2  spk 2
+    "ti tmaq": "tgtmaq",      //  2  spk 9
+    "ti t'lo": "tgtru",       //  2  第三 spk 25
+    "ti basi": "tgbasi",      //  1  比較酸 spk 3
+    "ti ima": "tgima",        //  1  spk 4
+    "ti spat": "tgspat",      //  1  第四 spk 19
+    "ti b'xgai": "tgbhgay"    //  1  比較白 — dictionary only, spk 0
+  };
+
+  // A joined form is already modern, so modernize() has to hand it back untouched
+  // and respellable() has to own it. Without both, the word we just built would be
+  // run through the character rules and then coloured green for not being in a map.
+  var CLITIC_FORMS = {};
+  Object.keys(CLITIC_JOIN).forEach(function (k) { CLITIC_FORMS[CLITIC_JOIN[k]] = 1; });
+
+  // The leading group keeps the clitic from matching the tail of a longer word:
+  // without it the "ti" of "smnati sao" would join. The table lookup is the real
+  // gate — only "a" and "ti" have keys, so the other two-letter words he writes
+  // constantly (ka, ni, so, mo, ko, da, bi, ta) never fire.
+  var CLITIC_RE = /(^|[^A-Za-zÀ-ÿłŁʔ'’ʼ"])([A-Za-z]{1,2}) ([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)/g;
+
+  // matchCase can't do this one: the clitic is often a lone "A", and a single
+  // capital letter reads as all-caps, so it would return ASAW for his "A sao".
+  // The case of the pair as a whole is what decides.
+  function clitiCase(cl, w, target) {
+    var both = cl + w;
+    if (both === both.toUpperCase()) return target.toUpperCase();
+    if (cl[0] === cl[0].toUpperCase()) return target[0].toUpperCase() + target.slice(1);
+    return target;
+  }
+
+  function joinClitics(s) {
+    return s.replace(CLITIC_RE, function (all, pre, cl, w) {
+      var j = CLITIC_JOIN[wordKey(cl) + " " + wordKey(w)];
+      return j ? pre + clitiCase(cl, w, j) : all;
+    });
+  }
+
   // Word-wise modernization of a whole string. Same token split as linkifyTruku
   // (apostrophes are part of a token: bq'lui, m'xapui), so the result is exactly
   // what the modern-spelling toggle puts on screen — which is the point: the
   // search index has to contain whatever the reader can see.
   function modernizeText(s) {
     if (!s) return "";
-    return s.replace(TRUKU_TOKEN_G, function (w) { return modernize(w); });
+    // The join is first, and unconditional: this function builds the modern key
+    // set as well as modern display text, so joining here is what makes tgmalu
+    // findable in search and files "A sao" under A-s-a-w in the letter listing.
+    return joinClitics(s).replace(TRUKU_TOKEN_G, function (w) { return modernize(w); });
   }
 
   // Display form of a whole string (headword, sub-form): multi-word forms like
@@ -627,7 +689,8 @@
   function respellable(word) {
     var key = wordKey(word);
     return Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key) ||
-      Object.prototype.hasOwnProperty.call(MODERN_MAP, key);
+      Object.prototype.hasOwnProperty.call(MODERN_MAP, key) ||
+      Object.prototype.hasOwnProperty.call(CLITIC_FORMS, key);
   }
 
   // Tier X: the modern entry is a different WORD, not a different spelling of
@@ -666,7 +729,7 @@
   // entry the reader is already on.
   function linkifyTruku(text, noLink, prose) {
     if (!text) return "";
-    if (spellingModern) text = collapseInline(text);
+    if (spellingModern) text = joinClitics(collapseInline(text));
     var parts = text.split(TRUKU_TOKEN);
     var h = "";
     for (var i = 0; i < parts.length; i++) {
