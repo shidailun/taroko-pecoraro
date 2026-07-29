@@ -824,13 +824,135 @@
   // "is it a headword?" is far worse — it claims a, I, on, do, un, ta, ma, si,
   // 10,819 occurrences of ordinary French and English prose. So the rule stops
   // at the double quote, deliberately.
-  function glossCites(text) {
-    if (text.indexOf('"') < 0) return esc(text);
+  // ---------- names inside the glosses ----------
+  // A name reaches this book in as many as four spellings. The Truku line prints
+  // Pixan; his French renders it in French orthography as Pirhanne; the English
+  // we translated from the French inherited that; and the Chinese invented a
+  // character transliteration of its own, differently almost every time — Mikat
+  // is 米卡特, 米卡茲 and 米查特 in three separate sentences, Sibal is 錫巴爾,
+  // 希巴爾, 希巴 and 希霸, Liwis is 利維斯, 里維斯 and 利威斯. None of those can be
+  // matched to the word standing in the Truku line above them, which is the one
+  // thing an example sentence is for. One gloss manages to print both Iban and
+  // Ibanne for the same man in the same sentence.
+  //
+  // So in OUR columns — English and Chinese — a Truku name is written the way his
+  // Truku line writes it, and goes through linkifyTruku() like any other Truku
+  // word: it follows the spelling toggle, takes the word colours, and links to
+  // his entry (nearly all of these are headwords in his own names appendix, which
+  // is where each target below comes from). The French column is untouched. That
+  // one is his own text, and Pirhanne is what he printed.
+  //
+  // Biblical and Chinese names are deliberately absent from both tables: Cristo →
+  // 基督, Yordan → 約旦, Maria → 馬利亞, Jes → 耶穌 are translations of a name, not
+  // transliterations of a Truku word, and they stay as they are.
+  //
+  // His French conventions, for reading the left column: ou = u, rh = his x,
+  // dj = his d before i, tch = his ti, ss = s, sh = his ç, tz/ts = t, ï = i,
+  // final -nne = -n, final -oui = -wi.
+  var GLOSS_NAMES = {
+    "ibanne": "Iban", "djian": "Diyan", "djiro": "Diro", "perho": "Pexo",
+    "pissao": "Pisao", "pirhanne": "Pixan", "tchirhong": "Tixong",
+    "rhidé": "Xide", "micatz": "Mikat", "mikatz": "Mikat", "kouni": "Kuni",
+    "ouilang": "Wilang", "opish": "Opiç", "tagarhan": "Tagaxan",
+    "libish": "Libiç", "lirhang": "Lixang", "tanarh": "Tanax",
+    "talanne": "Talan", "sikatz": "Sikat", "iminne": "Imin", "aoui": "Awi",
+    "ioual": "Iwal", "atorh": "Atox", "pilinne": "Pilin", "pirinne": "Pilin",
+    "tainne": "Tain", "tchiminne": "Timin", "akitz": "Akit", "akits": "Akit",
+    "mihalashi": "Mixalasi", "otoun": "Otun", "atoui": "Atwi",
+    "apoui": "Apwi", "rhoyo": "Xoyo", "djiko": "Diko", "efunan": "Efunang",
+    "iboqh": "Iboq", "tsiakang": "Tyakang", "bica": "Bika", "yoshi": "Yosi",
+    "lubaq": "Lübaq", "liwice": "Liwis", "taossen": "Taosen"
+  };
+
+  // "Autumn" is deliberately not here. The English of SPADAO reads "at Autumn's
+  // place" for a Truku line that says Otun — but his own French reads "chez
+  // Automne", so that one is his rendering and the English is a faithful
+  // translation of it. Claiming it would also have wrecked KLPOXAN, whose gloss
+  // opens "Autumn." because the word it defines *is* autumn. The Chinese of
+  // SPADAO writes 秋（Otun）, and the bracket rule below is enough to fix it.
+
+  // Deliberately NOT here: Laoken/Laokeng, Micat/Mikat, Libix/Libiç, Pilin/Pirin.
+  // Those are two spellings Pecoraro himself uses in the Truku column, so they are
+  // his variation, not the translation's, and nothing on this side should flatten
+  // them.
+  var GLOSS_NAMES_ZH = {
+    "米卡茲": "Mikat", "米卡特": "Mikat", "米查特": "Mikat", "印愛": "Ingai",
+    "英蓋": "Ingai", "利維斯": "Liwis", "里維斯": "Liwis", "利威斯": "Liwis",
+    "錫丹": "Sitang", "希淡": "Sitang", "錫巴爾": "Sibal", "希巴爾": "Sibal",
+    "希巴": "Sibal", "希霸": "Sibal", "希卡特": "Sikat", "皮林": "Pilin",
+    "塔蘭": "Talan", "塔納赫": "Tanax", "塔納": "Tanax", "納提": "Nati",
+    "阿推": "Atwi", "艾可": "Eco", "伊亨": "Ixeng", "奇比": "Cibi",
+    "阿金": "Akin", "伊瓦爾": "Iwal", "伊瓦": "Iwal", "達陶": "Tato",
+    "吉羅": "Diro", "吉揚": "Diyan", "伊敏": "Imin", "烏敏": "Umin",
+    "巴東": "Patong", "阿吉": "Akit", "碧卡": "Bika", "伊班": "Iban",
+    "伊博": "Iboq", "拉拜": "Labai", "勞肯": "Laoken", "拉歐丹": "Laotan",
+    "里桑": "Lixang", "羅比雅": "Lobyaq", "巴拉斯": "Palas", "帕桑": "Passan",
+    "佩爾侯": "Pexo", "比少": "Pisao", "希保": "Sipao", "地旺": "Tiwang",
+    "秋": "Otun"
+  };
+
+  // 秋 is the ordinary Chinese word for autumn — 秋天 is in a gloss about the
+  // seasons — so it counts as a name only where the sentence itself brackets it.
+  var ZH_NAME_PAREN_ONLY = { "秋": 1 };
+
+  var ZH_NAME_KEYS = Object.keys(GLOSS_NAMES_ZH).sort(function (a, b) {
+    return b.length - a.length;          // 伊瓦爾 must be tried before 伊瓦
+  });
+  var ZH_NAME_ANY = ZH_NAME_KEYS.join("|");
+  var ZH_NAME_BARE = new RegExp(ZH_NAME_KEYS.filter(function (k) {
+    return !Object.prototype.hasOwnProperty.call(ZH_NAME_PAREN_ONLY, k);
+  }).join("|"), "g");
+  // Where the Chinese already prints 漢字（Latin）, the translation is documenting
+  // its own transliteration, and the Latin beside it wins — in either order. That
+  // is accurate per sentence in a way no table can be: he writes the same man
+  // Laoken in one example and Laokeng in the next, and 勞肯（Laoken） /
+  // 勞肯（Laokeng） keep his own spelling each time.
+  var ZH_NAME_HL = new RegExp("(?:" + ZH_NAME_ANY + ")\\s*[（(]\\s*([A-Za-zÀ-ÿ]+)\\s*[）)]", "g");
+  var ZH_NAME_LH = new RegExp("([A-Za-zÀ-ÿ]+)\\s*[（(]\\s*(?:" + ZH_NAME_ANY + ")\\s*[）)]", "g");
+
+  // The Truku spellings the tables produce, so the token loop below knows to hand
+  // them to linkifyTruku — otherwise the name we just repaired would sit in the
+  // gloss as plain uncoloured text that ignores the toggle.
+  var GLOSS_NAME_FORMS = {};
+  [GLOSS_NAMES, GLOSS_NAMES_ZH].forEach(function (t) {
+    Object.keys(t).forEach(function (k) { GLOSS_NAME_FORMS[wordKey(t[k])] = 1; });
+  });
+
+  function glossNames(text, lang) {
+    if (!text || lang === "fr") return text;
+    if (lang === "zh") {
+      text = text.replace(ZH_NAME_HL, "$1").replace(ZH_NAME_LH, "$1")
+        .replace(ZH_NAME_BARE, function (m) { return GLOSS_NAMES_ZH[m]; });
+    }
+    return text.replace(TRUKU_TOKEN_G, function (w) {
+      // An English possessive rides along on the token (Sibal's) and is not part
+      // of the name.
+      var poss = /['’]s$/.test(w) ? w.slice(-2) : "";
+      var n = GLOSS_NAMES[wordKey(poss ? w.slice(0, -2) : w)];
+      return n ? n + poss : w;
+    });
+  }
+
+  // cites = trust the double-quote signal. True for the definition glosses, where
+  // it was measured: 102 occurrences, 30 types, every one Truku. NOT true for the
+  // example glosses, which are running prose and do quote ordinary words —
+  // "matinalité", "manger", "gorillas", "Innontation" all carry a double quote
+  // that tidyLatin left unpaired, and claiming those as Truku is the exact failure
+  // the rule was drawn narrowly to avoid. Names are safe in both, being a closed
+  // hand-checked list rather than a signal.
+  function glossCites(text, lang, cites) {
+    text = glossNames(text, lang);
+    // No early return on "no double quote" any more: a name that was already
+    // spelled his way needs linkifying too, and only the split can find it.
     var parts = text.split(TRUKU_TOKEN);
     var h = "";
     for (var i = 0; i < parts.length; i++) {
       var p = parts[i];
-      if (i % 2 === 1 && p.indexOf('"') >= 0 && TRUKU_LETTER.test(p)) {
+      var isName = i % 2 === 1 &&
+        Object.prototype.hasOwnProperty.call(GLOSS_NAME_FORMS,
+          wordKey(/['’]s$/.test(p) ? p.slice(0, -2) : p));
+      if (i % 2 === 1 && (isName ||
+          (cites && p.indexOf('"') >= 0 && TRUKU_LETTER.test(p)))) {
         // An English possessive rides along on the token ("Laon's) and is not
         // part of the Truku word, so it is set outside the span.
         var poss = /['’]s$/.exec(p);
@@ -845,9 +967,9 @@
 
   function glossHtml(obj) {
     var h = "";
-    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(obj.fr, "fr")) + "</p>";
-    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(obj.en, "en")) + "</p>";
-    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(obj.zh, "zh")) + "</p>";
+    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(obj.fr, "fr"), "fr", true) + "</p>";
+    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(obj.en, "en"), "en", true) + "</p>";
+    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(obj.zh, "zh"), "zh", true) + "</p>";
     return h;
   }
 
@@ -857,9 +979,9 @@
     list.forEach(function (x) {
       h += '<div class="example"><div class="truku">' + spellMark("§", "Example / exemple") +
         " " + linkifyTruku(tidy(x.t, "tr")) + audioBtn(x.a) + "</div>";
-      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + esc(tidy(x.fr, "fr")) + "</p>";
-      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + esc(tidy(x.en, "en")) + "</p>";
-      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + esc(tidy(x.zh, "zh")) + "</p>";
+      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
+      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
+      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
       h += "</div>";
     });
     return h + "</div>";
