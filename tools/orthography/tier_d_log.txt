@@ -32,12 +32,13 @@ lqlqean          lqlqian          CVCV-  lqean            A
 mmngali          mmngari          CV-    mngali           B
 mmqdolyaq        mmqduriq         CV-    mqdolyaq         T
 mmuda            mmuda            CV-    muda             id
+mneidang         mneydang         mn-    meidang          M
 mniyaq           mniyak           mn-    miyaq            L
 mnkpito          mnkpitu          mn-    mkpito           B
 mnkyayong        mnkyayung        mn-    mkyayong         A
 mnmngali         mnmngari         CVCV-  mngali           B
 mnotoç           mnutux           mn-    otoç             M
-mnpito           mnpitu           mn-    mpito            T
+mnpito           mnpitu           mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
 mnssl'pong       mnsslupung       mn-    mssl'pong        M
@@ -59,9 +60,11 @@ ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     mdup             R
 ndyami           ndyami           n-     dyami            P
+neidang          neydang          n-     meidang          M
 ng'li            ng'li            n-     mg'li            R
+ngagwi           ngeeguy          n-     gagwi            M
 nggalu           nggaalu          n-     mggalu           P
-ngguyan          ngguyan          n-     gguyan           T
+ngguyan          ngeuyan          n-     gguyan           M
 ngnalu           ngnaalu          n-     gnalu            P
 niin             niing            n-     miin             M
 niyaq            niyak            n-     miyaq            L
@@ -116,6 +119,7 @@ ppt'ayus         ppt'ayus         CV-    pt'ayus          P
 pptpusu          pptpusu          CV-    ptpusu           id
 ppyasan          ppyasan          CV-    pyasan           R
 ss'xgan          sshgan           CV-    s'xgan           R
+ssdyaqon         ssjiqun          CV-    sdyaqon          M
 ssgxoai          ssghuway         CV-    sgxoai           A
 sssik            sssik            CV-    ssik             R
 ttabu            ttabu            CV-    tabu             J

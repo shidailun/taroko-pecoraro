@@ -30516,7 +30516,7 @@ window.ENTRIES = [
     "zh": "變本加厲－更加厲害－更強烈。",
     "examples": [
       {
-        "t": "Ya sqoaq, nsa ko lmngao do, asi bi lndax ka xea da!",
+        "t": "Ya sqoaq, msa ko lmngao do, asi bi lndax ka xea da!",
         "fr": "Il suffit que je lui dise (en parlant): Tais toi !pour qu'il s'y mette de plus belle",
         "en": "I only have to say to him (in speaking): Be quiet! for him to go at it all the more.",
         "zh": "我只要（開口）對他說：閉嘴！他就更加變本加厲。",
@@ -30563,7 +30563,7 @@ window.ENTRIES = [
         "zh": "說話－說。",
         "examples": [
           {
-            "t": "L'mngao so o, spat xei nsa so; balae xo ?",
+            "t": "L'mngao so o, spat xei msa so; balae xo ?",
             "fr": "Tu parles, quatre personnes,dis tu; est ce vrai? (Est ce bien vrai que tu as dit: quatre personnes )?",
             "en": "You say, four people, you say; is it true? (Is it really true that you said: four people)?",
             "zh": "你說，四個人，你說；是真的嗎？（你真的說了：四個人嗎？）",
@@ -58066,7 +58066,7 @@ window.ENTRIES = [
     "zh": "斜坡上－上坡。",
     "examples": [
       {
-        "t": "Sta\"to n'xali ni, lngagi bi boan: Miyax ko sayang nsa ka tana,ksa!",
+        "t": "Sta\"to n'xali ni, lngagi bi boan: Miyax ko sayang msa ka tana,ksa!",
         "fr": "Grimpe vite là haut et dis bien à la maman: Je viens tout de suite,dit le papa,dis lui. (= Papa a dit de te dire qu'il vient tout de suite).",
         "en": "Climb up quickly there and tell mama clearly: I'm coming right away, said papa, tell her. (= Papa said to tell you that he's coming right away).",
         "zh": "快爬到上面去，好好告訴媽媽：爸爸說我馬上就來，你這樣告訴她。（＝爸爸叫你轉告他馬上就來。）",
@@ -58285,7 +58285,7 @@ window.ENTRIES = [
         "zh": "被壓平貼地－在地面被壓碎。（註：其他人在相同語境、相同意思下說 TGTMAQ 而非 TITMAQ，即像是 TKTMAQ 的變體，而 TKTMAQ 可能衍生自詞根：TMAQ。）",
         "examples": [
           {
-            "t": "Yako ka kia, nsa pnkari ka Kalao do, asi ssapa tgtmaq d'xgal ka dxea da!",
+            "t": "Yako ka kia, msa pnkari ka Kalao do, asi ssapa tgtmaq d'xgal ka dxea da!",
             "fr": "Aussitôt que Calao eut dit: C'est moi, ils se sont tous étalés aplatis contre le sol!",
             "en": "As soon as Calao said: It's me, they all sprawled out flat against the ground!",
             "zh": "卡勞一說「是我」，他們全都趴倒在地、緊貼地面！",
@@ -58325,7 +58325,7 @@ window.ENTRIES = [
             "a": "ex_klxangi_bi_ini_biyao_nstoq_ka_gasil"
           },
           {
-            "t": "Akai bo! nsa ka xniti na kari ni, mstoq da !",
+            "t": "Akai bo! msa ka xniti na kari ni, mstoq da !",
             "fr": "Aie nanan ! Disaient ses dernières paroles et..il meurt !(le voilà mort).",
             "en": "Ouch, mummy! were his last words and.. he dies! (there he is, dead).",
             "zh": "「哎喲，媽呀！」是他最後的遺言，接著……他就死了！（他就這樣死了。）",
@@ -69015,7 +69015,7 @@ window.ENTRIES = [
     "zh": "感嘆詞；表示同意、贊成的記號。",
     "examples": [
       {
-        "t": "Iyax n'xali,nsa! ... xan !",
+        "t": "Iyax n'xali,msa! ... xan !",
         "fr": "Viens vite, dit-il! ... Ah! bon!",
         "en": "Come quickly, he said! ... Ah! good!",
         "zh": "他說：快來！……啊！好！",
@@ -73206,7 +73206,7 @@ window.ENTRIES = [
             "a": "ex_kxnuk_xali_lnglongan_xo"
           },
           {
-            "t": "Ini kxnuk ka siyam sayang, nsa so o, balae bi xo?",
+            "t": "Ini kxnuk ka siyam sayang, msa so o, balae bi xo?",
             "fr": "Tu dis que la viande (de porc) aujourd'hui n'est pas bon marché, Est-ce vrai?",
             "en": "You say that (pork) meat today is not cheap, is that true?",
             "zh": "你說今天的（豬）肉不便宜，是真的嗎？",
@@ -73727,7 +73727,7 @@ window.ENTRIES = [
         "zh": "命令式否定式。",
         "examples": [
           {
-            "t": "Ima nsa kmoyoç! Tai binao: Ini kxolyaq ka lukus mo!",
+            "t": "Ima msa kmoyoç! Tai binao: Ini kxolyaq ka lukus mo!",
             "fr": "Qui dit qu'il pleut? Regarde! Mes habits ne sont pas mouillés!",
             "en": "Who says it's raining? Look! My clothes are not wet!",
             "zh": "誰說在下雨？你看！我的衣服沒濕呀！",
@@ -74173,7 +74173,7 @@ window.ENTRIES = [
     "zh": "擬聲詞，用來表示情感爆發的感嘆詞。",
     "examples": [
       {
-        "t": "Asi: Xös! nsa ka lnglongan mo!",
+        "t": "Asi: Xös! msa ka lnglongan mo!",
         "fr": "Du coup, mon sang n'a fait qu'un tour! (Du coup, ma pensée, mes sentiments ont fait: Xös !).",
         "en": "All of a sudden, I gave a start (my blood made but a single turn)! (Suddenly, my thoughts, my feelings went: Xös!).",
         "zh": "頓時，我心頭一驚！（頓時，我的思緒、我的情感發出：Xös！）。",
@@ -74252,7 +74252,7 @@ window.ENTRIES = [
         "a": "ex_xoya_no_ksun"
       },
       {
-        "t": "Xoya nsa ka tama so?",
+        "t": "Xoya msa ka tama so?",
         "fr": "Qu'est-ce que ton père a dit ? (vl. Qu'est-ce que ton père en dit ?).",
         "en": "What did your father say? (var. What does your father say about it?).",
         "zh": "你父親說了什麼？（或：你父親對此怎麼說？）。",

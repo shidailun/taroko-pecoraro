@@ -242,7 +242,7 @@
       "en": "To worsen - all the more - more intensely.",
       "zh": "變本加厲－更加厲害－更強烈。",
       "examples": [
-        { "t": "Ya sqoaq, nsa ko lmngao do, asi bi lndax ka xea da!", "fr": "Il suffit que je lui dise (en parlant): Tais toi !pour qu'il s'y mette de plus belle", "en": "I only have to say to him (in speaking): Be quiet! for him to go at it all the more.", "zh": "我只要（開口）對他說：閉嘴！他就更加變本加厲。" }
+        { "t": "Ya sqoaq, msa ko lmngao do, asi bi lndax ka xea da!", "fr": "Il suffit que je lui dise (en parlant): Tais toi !pour qu'il s'y mette de plus belle", "en": "I only have to say to him (in speaking): Be quiet! for him to go at it all the more.", "zh": "我只要（開口）對他說：閉嘴！他就更加變本加厲。" }
       ],
       "subs": []
     },
@@ -265,7 +265,7 @@
           "en": "To speak - to say.",
           "zh": "說話－說。",
           "examples": [
-            { "t": "L'mngao so o, spat xei nsa so; balae xo ?", "fr": "Tu parles, quatre personnes,dis tu; est ce vrai? (Est ce bien vrai que tu as dit: quatre personnes )?", "en": "You say, four people, you say; is it true? (Is it really true that you said: four people)?", "zh": "你說，四個人，你說；是真的嗎？（你真的說了：四個人嗎？）" },
+            { "t": "L'mngao so o, spat xei msa so; balae xo ?", "fr": "Tu parles, quatre personnes,dis tu; est ce vrai? (Est ce bien vrai que tu as dit: quatre personnes )?", "en": "You say, four people, you say; is it true? (Is it really true that you said: four people)?", "zh": "你說，四個人，你說；是真的嗎？（你真的說了：四個人嗎？）" },
             { "t": "Ini so lngao ka iso; lngagi bi!", "fr": "Toi tu ne parles pas; Parle donc !", "en": "You, you're not talking; So speak up!", "zh": "你都不說話；那就說啊！" }
           ]
         },
