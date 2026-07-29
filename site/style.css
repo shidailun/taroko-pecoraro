@@ -316,6 +316,26 @@ body.spelling-modern .example { border-left-color: var(--accent); }
 body.spelling-modern .w-raw,
 body.spelling-modern .tag .w-raw { color: var(--truku); }
 
+/* A Truku form cited inside a definition. It is a word, so it follows the word
+   colours rather than the gloss's — green in Pecoraro's spelling, brown once it
+   has a verified modern one, and still green inside a modern gloss when it has
+   not. */
+.gloss .w-mod, .gloss .w-raw, .gloss .crossref-link { color: var(--truku); }
+body.spelling-modern .gloss .w-mod,
+body.spelling-modern .gloss .crossref-link { color: var(--accent); }
+body.spelling-modern .gloss .w-raw { color: var(--truku); }
+
+/* A tier-X substitution: the brown word is not his, so his own word is shown
+   beside it in green — the same green that means "Pecoraro's spelling"
+   everywhere else. Smaller and lighter, because it is a disclosure, not a
+   second headword. */
+.w-orig, body.spelling-modern .w-orig, body.spelling-modern .tag .w-orig {
+  color: var(--truku);
+  font-size: 0.85em;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
 .crossref-link {
   color: inherit;
   cursor: pointer;

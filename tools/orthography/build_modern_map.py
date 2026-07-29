@@ -358,6 +358,15 @@ def main():
     manual_path = os.path.join(HERE, "manual_map.json")
     manual = json.load(open(manual_path, encoding="utf-8")) if os.path.exists(manual_path) else {}
 
+    # tier X: LEXICAL SUBSTITUTION, not a respelling. His word is gone from the
+    # modern language and a different word carries the meaning (q'nao -> qusul
+    # "garlic"). Kept in its own file, and exported separately, because the app
+    # must be able to say so on screen: a substituted word renders as
+    # MODERN (his original) rather than silently becoming a word he never wrote.
+    lex_path = os.path.join(HERE, "lexical_map.json")
+    lexical = json.load(open(lex_path, encoding="utf-8")) if os.path.exists(lex_path) else {}
+    lexical = {k: v for k, v in lexical.items() if not k.startswith("_")}
+
     # tier L: per-case adjudication of the C-review queue (gloss-checked one by one)
     llm_path = os.path.join(HERE, "llm_map.json")
     llm = json.load(open(llm_path, encoding="utf-8")) if os.path.exists(llm_path) else {}
@@ -370,6 +379,14 @@ def main():
         if not n or len(n) < 2:
             continue
         pec_g = glosses.get(n, set())
+
+        # 0. a lexical substitution outranks everything: no spelling rule can
+        # reach it, and no attested-candidate search should be allowed to
+        # overrule a decision that was made on the meaning.
+        if t in lexical:
+            result[t] = {"modern": lexical[t], "tier": "X"}
+            tiers["X"] += 1
+            continue
 
         # 0. manual curation wins
         if t in manual:
@@ -715,6 +732,11 @@ def main():
             "// confirmed (A), unique-candidate (B), root-projected (P). Ambiguous cases stay unmapped and\n"
             "// fall through to the character rules. Regenerate after entries.js changes.\n"
             "window.MODERN_MAP = {\n" + ",\n".join(lines) + "\n};\n"
+            "// Tier X: the modern entry is a DIFFERENT WORD, not a respelling. The app\n"
+            "// prints these as MODERN (his original) so the toggle never quietly puts a\n"
+            "// word in his mouth. Source: tools/orthography/lexical_map.json.\n"
+            "window.LEXICAL_SUBS = {\n"
+            + ",\n".join('"%s":1' % t for t in sorted(lexical)) + "\n};\n"
         )
 
     print("tokens considered:", len(tokens))

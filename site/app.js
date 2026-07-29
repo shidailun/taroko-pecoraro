@@ -80,6 +80,7 @@
   // rest are gloss-confirmed or unique attested candidates). Tokens not in the
   // map fall through to the character rules.
   var MODERN_MAP = window.MODERN_MAP || {};
+  var LEXICAL_SUBS = window.LEXICAL_SUBS || {};
 
   // Pecoraro types two elision marks, ' and ", and both sit inside a word:
   // page 47 has BL'NGA and B"LO four lines apart, and Tmb"lo / knta"to / pn"lu
@@ -457,8 +458,12 @@
   }
 
   // ---------- render ----------
+  // The double quote has to be escaped as well, because " is one of Pecoraro's
+  // two elision marks and so appears inside words: SBU", "LU and T"TO are real
+  // headwords, and each was closing its own data-ref="…" attribute early.
   function esc(s) {
-    return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
   // ---------- typography ----------
@@ -480,6 +485,13 @@
     // He also writes an ellipsis with two dots ("=..Il me l'a accordé"); after a
     // word it is a stray second stop instead ("etc..", handled below).
     t = t.replace(/(^|[^A-Za-zÀ-ÿ.])\.\.(?!\.)/g, "$1…");
+    // A matched pair of straight quotes is a real quotation ("matinalité",
+    // "morning-ness") and takes the marks of the language. It has to be settled
+    // here, before glossCites(), because what makes an unpaired " a Truku word
+    // is precisely that it is NOT one of these. Both ends must sit at a word
+    // boundary — his elision mark is glued to a letter on the inside (B"lo).
+    t = t.replace(/(^|[^A-Za-zÀ-ÿ])"([^"]{1,60})"(?![A-Za-zÀ-ÿ])/g,
+      french ? "$1«$2»" : "$1“$2”");
     t = t.replace(/\s+([,;:!?%.])/g, "$1");
     t = t.replace(/([A-Za-zÀ-ÿ])\.\.(?!\.)/g, "$1.");                  // "etc.." → "etc."
     t = t.replace(/\.([!?])/g, "$1");   // he sometimes types both ("ka … nami. !")
@@ -489,7 +501,14 @@
     // after a bang ("Ya kiso!Plnglngun"). A letter is required on BOTH sides so
     // his circumfix notation K...AN, where the dots have no letter before them,
     // is left alone.
-    t = t.replace(/([A-Za-zÀ-ÿ][.!])(?=[A-Za-zÀ-ÿ])/g, "$1 ");
+    t = t.replace(/([A-Za-zÀ-ÿ][.!])(?=[A-Za-zÀ-ÿ])/g, function (m, p, off, s) {
+      // …except a dotted abbreviation, which is one word with stops inside it.
+      // Splitting "i.e." into "i. e." also hid it from the ABBR guard below,
+      // so the capital came back too: "(the “gorillas”, i. E. Bodyguards)".
+      if (/(?:^|[\s(])[A-Za-zÀ-ÿ]\.$/.test(s.slice(0, off + 2)) &&
+          /^[A-Za-zÀ-ÿ]\./.test(s.slice(off + 2))) return m;
+      return p + " ";
+    });
     // "...(pbl'xun)mo xkawas" — a bracket he closes without letting go.
     t = t.replace(/\)(?=[A-Za-zÀ-ÿ0-9])/g, ") ");
     t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");
@@ -500,6 +519,9 @@
     // French sets a space before high punctuation — after a word only, so his "(??)"
     // query marks don't get pried apart.
     if (french) {
+      // Twice: the pass consumes the character it matched, so in "« Impedimenta »!"
+      // the » is eaten spacing itself and the ! that follows is never reached.
+      t = t.replace(/([A-Za-zÀ-ÿ0-9)\]»"'’])\s*([;:!?»])/g, "$1" + NNBSP + "$2");
       t = t.replace(/([A-Za-zÀ-ÿ0-9)\]»"'’])\s*([;:!?»])/g, "$1" + NNBSP + "$2");
       t = t.replace(/«\s*/g, "«" + NNBSP);
     }
@@ -533,6 +555,7 @@
     t = t.replace(/\s*([，、。；：！？）」』])\s*/g, "$1");
     t = t.replace(/([（「『])\s*/g, "$1");
     t = t.replace(/\.\s*\.\s*\./g, "……").replace(/\.\.(?!\.)/g, "…");
+    t = t.replace(/(^|[^A-Za-zÀ-ÿ])"([^"]{1,60})"(?![A-Za-zÀ-ÿ])/g, "$1「$2」");
     if (!/[。！？」』）)…]$/.test(t)) t += "。";
     return t;
   }
@@ -561,6 +584,17 @@
       Object.prototype.hasOwnProperty.call(MODERN_MAP, key);
   }
 
+  // Tier X: the modern entry is a different WORD, not a different spelling of
+  // his word — Q'NAO "garlic" is simply gone and qusul carries the meaning now.
+  // The toggle promises spelling, so a substitution has to declare itself:
+  // modern mode prints QUSUL (Q'NAO), the substitute in the modern colour and
+  // his own word beside it in his. Pecoraro mode is untouched — there is
+  // nothing to disclose when his spelling is what's on screen.
+  function lexicalSub(word) {
+    return Object.prototype.hasOwnProperty.call(
+      LEXICAL_SUBS, wordKey(word));
+  }
+
   // Every Truku word is wrapped, whether or not it links, because the wrapper is
   // what carries its spelling status. noLink is for headwords, which are the
   // entry the reader is already on.
@@ -577,6 +611,10 @@
       if (linked) cls += " crossref-link";
       h += '<span class="' + cls + '"' + (linked ? ' data-ref="' + esc(part) + '"' : "") +
         ">" + esc(dispTruku(part)) + "</span>";
+      if (spellingModern && lexicalSub(part)) {
+        h += ' <span class="w-orig" title="Pecoraro’s word, no longer used">(' +
+          esc(part) + ")</span>";
+      }
     }
     return h;
   }
@@ -589,11 +627,46 @@
     return '<span class="tag">' + esc(tag) + "</span>";
   }
 
+  // A gloss is never run word-by-word through modernize() — the character rules
+  // would turn French "Palissade" into "Parissade" — but his definitions are
+  // full of Truku all the same: cross-references (See T"TO), and forms cited to
+  // build up a sense (B"lo babwi = piglet). Those were left frozen in his
+  // spelling inside an otherwise modern page.
+  //
+  // A token carrying his second elision mark " is the one part of a gloss that
+  // can be claimed safely: no French, English or Chinese word has a word-
+  // internal double quote, and tidy() has already converted the real quotations
+  // to « » / “ ” / 「 」. That is 102 occurrences across the three languages,
+  // 30 types, every one of them Truku, no false positives.
+  //
+  // The apostrophe cannot be recruited the same way (l'occasion, don't), and
+  // "is it a headword?" is far worse — it claims a, I, on, do, un, ta, ma, si,
+  // 10,819 occurrences of ordinary French and English prose. So the rule stops
+  // at the double quote, deliberately.
+  function glossCites(text) {
+    if (text.indexOf('"') < 0) return esc(text);
+    var parts = text.split(TRUKU_TOKEN);
+    var h = "";
+    for (var i = 0; i < parts.length; i++) {
+      var p = parts[i];
+      if (i % 2 === 1 && p.indexOf('"') >= 0 && TRUKU_LETTER.test(p)) {
+        // An English possessive rides along on the token ("Laon's) and is not
+        // part of the Truku word, so it is set outside the span.
+        var poss = /['’]s$/.exec(p);
+        if (poss) { h += linkifyTruku(p.slice(0, -2)) + esc(p.slice(-2)); }
+        else { h += linkifyTruku(p); }
+      } else {
+        h += esc(p);
+      }
+    }
+    return h;
+  }
+
   function glossHtml(obj) {
     var h = "";
-    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + esc(tidy(obj.fr, "fr")) + "</p>";
-    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + esc(tidy(obj.en, "en")) + "</p>";
-    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + esc(tidy(obj.zh, "zh")) + "</p>";
+    if (shown.fr && obj.fr) h += '<p class="gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(obj.fr, "fr")) + "</p>";
+    if (shown.en && obj.en) h += '<p class="gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(obj.en, "en")) + "</p>";
+    if (shown.zh && obj.zh) h += '<p class="gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(obj.zh, "zh")) + "</p>";
     return h;
   }
 

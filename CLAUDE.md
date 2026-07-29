@@ -155,13 +155,56 @@ The `"` that remains on screen is inside gloss fields (212 occurrences), which
 are never modernized by design; some of those are genuine French/English
 quotation marks and some are Truku words quoted in a definition.
 
-**Lexical replacements** live in `manual_map.json` alongside the respellings.
-There is currently one: `q'nao` → `qusul` (garlic). It is a substitution, not a
-respelling — a sweep of all 32,212 omnibus words (Allium glosses, 15 fuzzy
-shapes of /qnaw/, every `*naw*`/`*now*`/`*nau*` substring) found no reflex of his
-word, and no `qusul`-shaped word exists anywhere in his 1977 dictionary either.
-The two lexicons simply do not share a word for garlic. Keep such cases rare and
-list them here, because the toggle otherwise promises spelling only.
+## Tier X — lexical substitution, shown in brackets (2026-07-29)
+
+Sometimes his word is simply gone from the language and a different word carries
+the meaning. That is not a respelling, and the toggle promises spelling, so a
+substitution has to **declare itself on screen**: modern mode renders
+`QUSUL (Q'NAO)` — the substitute in the modern brown, his own word beside it in
+the green that means "Pecoraro's spelling" everywhere else. Pecoraro mode is
+untouched; there is nothing to disclose when his spelling is what's on screen.
+
+- Source: `tools/orthography/lexical_map.json`, its own file, keys prefixed `_`
+  are documentation. Tier `X` outranks every other tier in the generator — no
+  spelling rule can reach these, and no attested-candidate search should be
+  allowed to overrule a decision made on the meaning.
+- Exported separately as `window.LEXICAL_SUBS`; `linkifyTruku()` appends the
+  bracket, `.w-orig` styles it.
+- The bar for adding one: (1) no reflex of his word anywhere in the omnibus by
+  gloss, by fuzzy shape and by substring, and (2) his dictionary has no form of
+  the modern word either — i.e. the two lexicons really don't share the word.
+- Currently one: `q'nao` → `qusul` (garlic). All 32,212 omnibus words swept; the
+  modern Allium field is `qusul` / `pixil` / `neygi` / `sangas` and nothing is
+  shaped like /qnaw/. He has no `qusul`-shaped word either, and he separates the
+  native `Q'NAO` from the loan `NEGI` = oignon.
+
+Keep the list short. A long one means the toggle has quietly become a translator.
+
+## Truku cited inside a gloss (2026-07-29)
+
+Glosses are never run word-by-word through `modernize()` — the char rules turn
+French "Palissade" into "Parissade" — but his definitions are full of Truku:
+cross-references (`See T"TO`) and forms cited to build a sense (`B"lo babwi =
+piglet`). Those sat frozen in his spelling inside an otherwise modern page.
+
+`glossCites()` claims exactly one thing: **a token carrying his second elision
+mark `"`**. No French, English or Chinese word has a word-internal double quote,
+and `tidyLatin`/`tidyZh` have already converted the real quotations to `« »` /
+`" "` / `「 」` by then, so what's left is unambiguous — 102 occurrences across
+the three languages, 30 types, every one Truku, zero false positives. Those
+tokens go through `linkifyTruku()`, so they follow the toggle, take the word
+colours and link.
+
+Do not widen this. The apostrophe cannot be recruited the same way (`l'occasion`,
+`don't`), and "is it a headword?" is far worse — measured, it claims `a`, `I`,
+`on`, `do`, `un`, `ta`, `ma`, `si`: **10,819 occurrences** of ordinary French and
+English prose. The `"` is the whole of the safe signal.
+
+Two repairs fell out of the same pass: `esc()` now escapes `"` (headwords like
+`SBU"` and `"LU` were closing their own `data-ref="…"` attribute early), and the
+"stop glued to next word" rule no longer splits a dotted abbreviation — `i.e.`
+became `i. e.`, which then hid it from the `ABBR` guard and came back as
+`i. E. Bodyguards`. All 13 dotted forms now on screen are real abbreviations.
 
 Discoveries encoded in the generator: Pecoraro's ç = modern x (tunuç→tunux);
 ao/oa = aw/ow/uwa (daolas→dowras, boax→buwax); d→j and t→c before i (adi→aji,

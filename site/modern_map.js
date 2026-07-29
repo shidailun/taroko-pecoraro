@@ -2173,7 +2173,7 @@ window.MODERN_MAP = {
 "mpsb'ngux":"mpsb'ngux",
 "mpsbalae":"mpsbalay",
 "mpsbalox":"mpsbarux",
-"mpsbu":"mpsbu'",
+"mpsbu":"mpsbu",
 "mpsbulao":"mpsburaw",
 "mpsdala":"mpsdara",
 "mpsdamat":"mpsdamat",
@@ -3499,8 +3499,8 @@ window.MODERN_MAP = {
 "psbu":"psbu",
 "psbu'":"psbu'",
 "psbuan":"psbuan",
-"psbui":"psbu'i",
-"psbuon":"psbu'un",
+"psbui":"psbui",
+"psbuon":"psbuun",
 "psbusan":"psbusan",
 "psbusi":"psbusi",
 "psbusun":"psbusun",
@@ -3664,7 +3664,7 @@ window.MODERN_MAP = {
 "psploq":"pspruq",
 "psplqan":"psprqan",
 "psplqon":"psprqun",
-"pspngan":"psp'ngan",
+"pspngan":"pspngan",
 "pspngun":"pspngun",
 "pspong":"pspung",
 "pspoxan":"pspuhan",
@@ -5602,4 +5602,10 @@ window.MODERN_MAP = {
 "yyaxan":"yyahan",
 "yös":"yus",
 "öqon":"uqun"
+};
+// Tier X: the modern entry is a DIFFERENT WORD, not a respelling. The app
+// prints these as MODERN (his original) so the toggle never quietly puts a
+// word in his mouth. Source: tools/orthography/lexical_map.json.
+window.LEXICAL_SUBS = {
+"q'nao":1
 };

@@ -9754,7 +9754,7 @@
   },
   "q'nao": {
    "modern": "qusul",
-   "tier": "M"
+   "tier": "X"
   },
   "q'pax": {
    "modern": "qpah",
@@ -16053,7 +16053,7 @@
    "tier": "P"
   },
   "mpsbu": {
-   "modern": "mpsbu'",
+   "modern": "mpsbu",
    "tier": "P"
   },
   "mpsbulao": {
@@ -17501,11 +17501,11 @@
    "tier": "P"
   },
   "psbui": {
-   "modern": "psbu'i",
+   "modern": "psbui",
    "tier": "P"
   },
   "psbuon": {
-   "modern": "psbu'un",
+   "modern": "psbuun",
    "tier": "P"
   },
   "psdamat": {
@@ -17653,7 +17653,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "psp'ngan",
+   "modern": "pspngan",
    "tier": "P"
   },
   "pspuan": {
