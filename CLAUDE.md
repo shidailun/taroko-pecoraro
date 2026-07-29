@@ -135,6 +135,28 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   no character in common at all — not `gloss_overlap()`, which wants a contiguous
   run and so rejected nduk/mduk for stating the same thing in a different order.
 - **KL** (53) — keep-l guard: tokens frozen against a wrong l→r.
+- **D** (120) — morphology over an already-solved base. Lowking Nowbucyang,
+  太魯閣語構詞法研究 (*Word Formation in Truku*, 2008) §3.4: Truku reduplication is
+  CV- or CVCV-, and since Truku doesn't write the schwa, CV- surfaces in the
+  orthography as a **doubled initial consonant** (hmadan → hhmadan "many of them
+  clearing"). Same treatment for the mn-/n- AF preterite and the collective d- on
+  a personal name (Aman → dAman). None makes a new lexeme, so the answer is
+  (his affix) + the modern spelling of the base. Runs last, so any earlier tier
+  can supply the base — except X, whose "modern" is a different word.
+  Rules fired: CV- 52, n- 47, mn- 11, d- 6, CVCV- 4. **66 of the 120 were being
+  rendered wrong** by the char rules, nearly all of them by l→r on a root that
+  keeps its l: `llisao` showed as *rrisau* for `rrisaw`, `xxei` as *hhei* for
+  `hhiyi`, `nk'la` as *nk'ra*, `ttunux` as *ttunuh*. Why it was needed at all:
+  tier R peels affixes off the Pecoraro token but calls `peel()` with the
+  reduplication flag on the **modern side only**, so a reduplicated Pecoraro
+  token could never match. The collective d- requires the base to appear
+  capitalized in every one of its corpus occurrences — that is the test for "this
+  is a personal name". Only 3 outputs land on an attested omnibus word (they are
+  derived forms; that is why they fell through in the first place), but those 3
+  confirm the semantics: `mnswayi` 兄弟姊妹複數, `nseejiq` 別人的.
+  Every mapping is dumped to `tools/orthography/tier_d_log.txt` with its rule,
+  its base and the tier the base came from — audit that file after regenerating,
+  because a wrong base silently propagates.
 
 **No diacritic ever leaves the generator.** A modern spelling is written in the
 modern alphabet, so `plain()` (ç→x, marks stripped) runs over every tier's output

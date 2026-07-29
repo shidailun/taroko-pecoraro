@@ -16077,7 +16077,7 @@
    "tier": "P"
   },
   "mpsbu": {
-   "modern": "mpsbu'",
+   "modern": "mpsbu",
    "tier": "P"
   },
   "mpsbulao": {
@@ -17529,11 +17529,11 @@
    "tier": "P"
   },
   "psbui": {
-   "modern": "psbu'i",
+   "modern": "psbui",
    "tier": "P"
   },
   "psbuon": {
-   "modern": "psbu'un",
+   "modern": "psbuun",
    "tier": "P"
   },
   "psd'xyaq": {
@@ -17685,7 +17685,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "psp'ngan",
+   "modern": "pspngan",
    "tier": "P"
   },
   "pspuan": {
@@ -22436,6 +22436,726 @@
   "tlbuon": {
    "modern": "tlbuun",
    "tier": "KL"
+  },
+  "dbiyang": {
+   "modern": "dbiyang",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "biyang"
+  },
+  "dd'yami": {
+   "modern": "dd'yami",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "d'yami"
+  },
+  "dd'yamo": {
+   "modern": "ddyamu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "d'yamo"
+  },
+  "dddilun": {
+   "modern": "ddjilun",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ddilun"
+  },
+  "ddina": {
+   "modern": "ddina",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "dina"
+  },
+  "ddyamo": {
+   "modern": "ddyamu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "dyamo"
+  },
+  "dmbslat": {
+   "modern": "dmbsrat",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "mbslat"
+  },
+  "dmsapat": {
+   "modern": "dmsapat",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "msapat"
+  },
+  "dmtksoloç": {
+   "modern": "dmtksurux",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "mtksoloç"
+  },
+  "dsbnawan": {
+   "modern": "dsbnawan",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "sbnawan"
+  },
+  "dtanax": {
+   "modern": "dtanah",
+   "tier": "D",
+   "d_rule": "d-",
+   "d_base": "tanax"
+  },
+  "gngnalu": {
+   "modern": "gngnaalu",
+   "tier": "D",
+   "d_rule": "CVCV-",
+   "d_base": "gnalu"
+  },
+  "kkdusan": {
+   "modern": "kkdusan",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "kdusan"
+  },
+  "kketa": {
+   "modern": "kkita",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "keta"
+  },
+  "kklaxang": {
+   "modern": "qqlahang",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "klaxang"
+  },
+  "kksaxol": {
+   "modern": "qqsahur",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ksaxol"
+  },
+  "kkudus": {
+   "modern": "kkudus",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "kudus"
+  },
+  "ll'alang": {
+   "modern": "ll'alang",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "l'alang"
+  },
+  "llamil": {
+   "modern": "rramil",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "lamil"
+  },
+  "llanaq": {
+   "modern": "rranaq",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "lanaq"
+  },
+  "llaqe": {
+   "modern": "llaqi",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "laqe"
+  },
+  "llisao": {
+   "modern": "rrisaw",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "lisao"
+  },
+  "llixao": {
+   "modern": "llihaw",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "lixao"
+  },
+  "llubwi": {
+   "modern": "llubuy",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "lubwi"
+  },
+  "lqlqean": {
+   "modern": "lqlqian",
+   "tier": "D",
+   "d_rule": "CVCV-",
+   "d_base": "lqean"
+  },
+  "mmngali": {
+   "modern": "mmngari",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "mngali"
+  },
+  "mmuda": {
+   "modern": "mmuda",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "muda"
+  },
+  "mnali": {
+   "modern": "mnali",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "mali"
+  },
+  "mniyaq": {
+   "modern": "mniyak",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "miyaq"
+  },
+  "mnkpito": {
+   "modern": "mnkpitu",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "mkpito"
+  },
+  "mnkyayong": {
+   "modern": "mnkyayung",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "mkyayong"
+  },
+  "mnmngali": {
+   "modern": "mnmngari",
+   "tier": "D",
+   "d_rule": "CVCV-",
+   "d_base": "mngali"
+  },
+  "mnotoç": {
+   "modern": "mnutux",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "otoç"
+  },
+  "mnpito": {
+   "modern": "mnpitu",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "mpito"
+  },
+  "mnplawax": {
+   "modern": "mnprawah",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "plawax"
+  },
+  "mnqalit": {
+   "modern": "mnqlit",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "qalit"
+  },
+  "mnsuai": {
+   "modern": "mnswayi",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "suai"
+  },
+  "mntatoq": {
+   "modern": "mntatuk",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "tatoq"
+  },
+  "mnttatoq": {
+   "modern": "mnttatuk",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "mttatoq"
+  },
+  "n'kai": {
+   "modern": "nkay",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "m'kai"
+  },
+  "n'mu": {
+   "modern": "n'mu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "'mu"
+  },
+  "n'ulat": {
+   "modern": "nurat",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "m'ulat"
+  },
+  "n'xalan": {
+   "modern": "n'xalan",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "m'xalan"
+  },
+  "nali": {
+   "modern": "nali",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mali"
+  },
+  "nalong": {
+   "modern": "narung",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "malong"
+  },
+  "nawit": {
+   "modern": "nawit",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mawit"
+  },
+  "nbaxang": {
+   "modern": "nbahang",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "baxang"
+  },
+  "ndaxa": {
+   "modern": "ndaxa",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "daxa"
+  },
+  "ndd'yamo": {
+   "modern": "nddyamu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "dd'yamo"
+  },
+  "ndludan": {
+   "modern": "ndrudan",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "dludan"
+  },
+  "ndmblaeq": {
+   "modern": "ndmblaiq",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "dmblaeq"
+  },
+  "ndmpatas": {
+   "modern": "ndmpatas",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "dmpatas"
+  },
+  "ndup": {
+   "modern": "ndup",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mdup"
+  },
+  "ng'li": {
+   "modern": "ng'li",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mg'li"
+  },
+  "nggalu": {
+   "modern": "nggaalu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mggalu"
+  },
+  "ngguyan": {
+   "modern": "ngguyan",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "gguyan"
+  },
+  "ngnalu": {
+   "modern": "ngnaalu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "gnalu"
+  },
+  "niyaq": {
+   "modern": "niyak",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "miyaq"
+  },
+  "nk'la": {
+   "modern": "nk'la",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "k'la"
+  },
+  "nksaxol": {
+   "modern": "nqsahur",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "ksaxol"
+  },
+  "nl'bu": {
+   "modern": "nl'bu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "l'bu"
+  },
+  "nl'mux": {
+   "modern": "nrmux",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "l'mux"
+  },
+  "nlangax": {
+   "modern": "nrangah",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "langax"
+  },
+  "nlangi": {
+   "modern": "nrangi",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "langi"
+  },
+  "nllawa": {
+   "modern": "nrrawa",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "llawa"
+  },
+  "nlut": {
+   "modern": "nrut",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mlut"
+  },
+  "nmilit": {
+   "modern": "nmirit",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "milit"
+  },
+  "nmulun": {
+   "modern": "nmulun",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mulun"
+  },
+  "nmxa": {
+   "modern": "nmha",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mxa"
+  },
+  "nn'mu": {
+   "modern": "nn'mu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "n'mu"
+  },
+  "nnano": {
+   "modern": "nnanu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "nano"
+  },
+  "nndaxa": {
+   "modern": "nndaxa",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ndaxa"
+  },
+  "npalaqe": {
+   "modern": "npalaqi",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mpalaqe"
+  },
+  "npd'xok": {
+   "modern": "npdhuq",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "pd'xok"
+  },
+  "npnalu": {
+   "modern": "npnalu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "pnalu"
+  },
+  "npotox": {
+   "modern": "nputuh",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "potox"
+  },
+  "nqatai": {
+   "modern": "nkatay",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "qatai"
+  },
+  "nsadyaq": {
+   "modern": "nseejiq",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "sadyaq"
+  },
+  "nsk'lol": {
+   "modern": "nsqrul",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "sk'lol"
+  },
+  "nskkoyox": {
+   "modern": "nskkuyuh",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "skkoyox"
+  },
+  "nsl'bu": {
+   "modern": "nsl'bu",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "sl'bu"
+  },
+  "nsl'pong": {
+   "modern": "nslpung",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "sl'pong"
+  },
+  "nslidil": {
+   "modern": "nsrijil",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "slidil"
+  },
+  "nslubwi": {
+   "modern": "nslubuy",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "slubwi"
+  },
+  "nslxoqan": {
+   "modern": "nsrhuqan",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "slxoqan"
+  },
+  "nsueq": {
+   "modern": "nsueq",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "sueq"
+  },
+  "ntlawa": {
+   "modern": "ntlawa",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "mtlawa"
+  },
+  "nuli": {
+   "modern": "nuli",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "muli"
+  },
+  "nxoai": {
+   "modern": "nhuway",
+   "tier": "D",
+   "d_rule": "n-",
+   "d_base": "xoai"
+  },
+  "pkpkoxe": {
+   "modern": "pkpkuxi",
+   "tier": "D",
+   "d_rule": "CVCV-",
+   "d_base": "pkoxe"
+  },
+  "ppaotoç": {
+   "modern": "ppautux",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "paotoç"
+  },
+  "ppkl'bai": {
+   "modern": "ppklbay",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pkl'bai"
+  },
+  "ppkl'xkax": {
+   "modern": "ppklhkah",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pkl'xkax"
+  },
+  "ppl'dax": {
+   "modern": "pprdax",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pl'dax"
+  },
+  "pppaon": {
+   "modern": "pppaun",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ppaon"
+  },
+  "ppqeta": {
+   "modern": "ppqita",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pqeta"
+  },
+  "ppsbalae": {
+   "modern": "ppsbalay",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psbalae"
+  },
+  "ppsgao": {
+   "modern": "ppsgow",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psgao"
+  },
+  "ppsipa": {
+   "modern": "ppsipa",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psipa"
+  },
+  "ppsku": {
+   "modern": "ppsku",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psku"
+  },
+  "ppsloa": {
+   "modern": "ppsruwa",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psloa"
+  },
+  "ppspg'leq": {
+   "modern": "ppspgriq",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pspg'leq"
+  },
+  "ppsqdo": {
+   "modern": "ppsqdu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "psqdo"
+  },
+  "ppt'ayus": {
+   "modern": "ppt'ayus",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pt'ayus"
+  },
+  "pptpusu": {
+   "modern": "pptpusu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ptpusu"
+  },
+  "ppyasan": {
+   "modern": "ppyasan",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "pyasan"
+  },
+  "ss'xgan": {
+   "modern": "sshgan",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "s'xgan"
+  },
+  "ssgxoai": {
+   "modern": "ssghuway",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "sgxoai"
+  },
+  "sssik": {
+   "modern": "sssik",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ssik"
+  },
+  "ttabu": {
+   "modern": "ttabu",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "tabu"
+  },
+  "ttaxot": {
+   "modern": "ttahut",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "taxot"
+  },
+  "ttl'boq": {
+   "modern": "ttrbuq",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "tl'boq"
+  },
+  "tttama": {
+   "modern": "tttama",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "ttama"
+  },
+  "ttunux": {
+   "modern": "ttunux",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "tunux"
+  },
+  "ttxmoqo": {
+   "modern": "tthmuku",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "txmoqo"
+  },
+  "wwaxel": {
+   "modern": "wwahir",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "waxel"
+  },
+  "xxei": {
+   "modern": "hhiyi",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "xei"
+  },
+  "xxeuling": {
+   "modern": "hhuling",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "xeuling"
+  },
+  "xxmadan": {
+   "modern": "hhmadan",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "xmadan"
+  },
+  "yyax": {
+   "modern": "yyah",
+   "tier": "D",
+   "d_rule": "CV-",
+   "d_base": "yax"
   }
  },
  "review": {
@@ -22662,11 +23382,6 @@
    []
   ],
   [
-   "llisao",
-   10,
-   []
-  ],
-  [
    "mtgisa",
    10,
    [
@@ -22833,11 +23548,6 @@
    ]
   ],
   [
-   "xxei",
-   7,
-   []
-  ],
-  [
    "gligan",
    6,
    [
@@ -22877,11 +23587,6 @@
    [
     "濕的東西"
    ]
-  ],
-  [
-   "nk'la",
-   6,
-   []
   ],
   [
    "nyeqon",
@@ -23026,11 +23731,6 @@
    ]
   ],
   [
-   "llaqe",
-   5,
-   []
-  ],
-  [
    "lobyaq",
    5,
    []
@@ -23041,11 +23741,6 @@
    [
     "欺騙迷惑誆騙騙局"
    ]
-  ],
-  [
-   "lqlqean",
-   5,
-   []
   ],
   [
    "lutyaq",
@@ -23096,11 +23791,6 @@
   ],
   [
    "mpwa'la",
-   5,
-   []
-  ],
-  [
-   "n'xalan",
    5,
    []
   ],
@@ -23590,11 +24280,6 @@
    ]
   ],
   [
-   "ddina",
-   3,
-   []
-  ],
-  [
    "ddiyal",
    3,
    [
@@ -23817,11 +24502,6 @@
    [
     "移動的動作動作"
    ]
-  ],
-  [
-   "llubwi",
-   3,
-   []
   ],
   [
    "lmngut",
@@ -24710,13 +25390,6 @@
    ]
   ],
   [
-   "dd'yamo",
-   2,
-   [
-    "你氏族你群體的所有人"
-   ]
-  ],
-  [
    "dd'yano",
    2,
    [
@@ -24768,11 +25441,6 @@
   ],
   [
    "dnyagan",
-   2,
-   []
-  ],
-  [
-   "dsbnawan",
    2,
    []
   ],
@@ -24923,23 +25591,6 @@
    []
   ],
   [
-   "kketa",
-   2,
-   []
-  ],
-  [
-   "kksaxol",
-   2,
-   []
-  ],
-  [
-   "kkudus",
-   2,
-   [
-    "用以維生的使人得以存活的"
-   ]
-  ],
-  [
    "kluulus",
    2,
    [
@@ -25026,6 +25677,91 @@
   ],
   [
    "knl'san",
+   2,
+   []
+  ],
+  [
+   "knlmnan",
+   2,
+   [
+    "勇敢耐心堅定"
+   ]
+  ],
+  [
+   "knlnaan",
+   2,
+   []
+  ],
+  [
+   "knngngoan",
+   2,
+   [
+    "膽怯畏懼恐懼"
+   ]
+  ],
+  [
+   "knnxolan",
+   2,
+   [
+    "酸度苦物之苦味"
+   ]
+  ],
+  [
+   "knqdlyeqan",
+   2,
+   [
+    "逃亡抽象概念逃跑的程度"
+   ]
+  ],
+  [
+   "knqdolyaq",
+   2,
+   []
+  ],
+  [
+   "knsdmatan",
+   2,
+   [
+    "悲傷思念憂鬱"
+   ]
+  ],
+  [
+   "knslxagan",
+   2,
+   [
+    "鬆弛鬆開的狀態性質"
+   ]
+  ],
+  [
+   "knslyeqan",
+   2,
+   [
+    "強烈程度的違犯浪費"
+   ]
+  ],
+  [
+   "knsmayan",
+   2,
+   [
+    "勤奮的強度傷腦筋之事"
+   ]
+  ],
+  [
+   "knsopu",
+   2,
+   [
+    "團結親密和睦的強烈程度"
+   ]
+  ],
+  [
+   "knss'gan",
+   2,
+   [
+    "令人害怕的能力所引起的恐懼程度"
+   ]
+  ],
+  [
+   "knsttoan",
    2,
    []
   ]

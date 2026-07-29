@@ -79,9 +79,14 @@ def load_corpus():
     tokens = collections.Counter()       # lowercase raw token -> display frequency
     glosses = collections.defaultdict(set)   # norm(form) -> zh gloss strings
     families = []                        # per entry: list of member tokens (hw+subs)
+    # Capitalization as he wrote it, kept per token key. A word that NEVER appears
+    # lowercase anywhere in 5,438 example sentences is a personal name, which is
+    # what the collective d- in tier D needs to know.
+    cased = collections.defaultdict(collections.Counter)
     def take(text):
         for t in TOKEN_RE.findall(text or ""):
             tokens[tkey(t)] += 1
+            cased[tkey(t)][t] += 1
     for e in entries:
         take(e.get("hw")); take(e.get("crossRef")); take(e.get("paradigm"))
         for x in e.get("examples", []): take(x.get("t"))
@@ -102,7 +107,7 @@ def load_corpus():
                 fam.append(tkey(t))
         if len(fam) > 1:
             families.append(fam)
-    return tokens, glosses, families
+    return tokens, glosses, families, cased
 
 # ---------------- omnibus ----------------
 def load_omnibus():
@@ -286,7 +291,7 @@ def gloss_overlap(pec_glosses, omni_glosses):
     return best
 
 def main():
-    tokens, glosses, families = load_corpus()
+    tokens, glosses, families, cased = load_corpus()
     word_raw, word_gloss, sent_best = load_omnibus()
     words_set = set(word_raw)
     attested = words_set | set(sent_best)
@@ -705,6 +710,80 @@ def main():
     tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # ---- pass 4: morphology over an already-solved base (tier D) ----
+    # Lowking Nowbucyang, 太魯閣語構詞法研究 (Word Formation in Truku, 2008) §3.4:
+    # Truku reduplication is CV- or CVCV-. Truku does not write the schwa, so CV-
+    # surfaces in the orthography as a DOUBLED INITIAL CONSONANT — hmadan
+    # "clear a field" → hhmadan "many of them clearing". Two more processes behave
+    # the same way for our purposes: the mn-/n- AF preterite (mhmadan → mnhmadan)
+    # and the collective d- on a personal name (Aman → dAman, "Aman and his
+    # group"). None of the three makes a new lexeme, so the modern spelling is
+    # just (his affix) + the modern spelling of the base.
+    #
+    # Every other tier tests the token as a WHOLE against the omnibus, and tier R
+    # peels affixes off the Pecoraro side but never de-reduplicates it — peel() is
+    # called with the reduplication flag on the modern side only. That is exactly
+    # why these fell through to the blind character rules, where l>r then
+    # corrupted them: llisao reached the screen as *rrisau* for rrisaw, xxei as
+    # *hhei* for hhiyi, nk'la as *nk'ra* for a root that keeps its l.
+    #
+    # Runs last, so a base fixed by ANY earlier tier counts — except tier X, whose
+    # "modern" is a different word: a derived form of q'nao must not quietly
+    # become a derived form of qusul.
+    VOWELS = set("aeiouàáâäèéêë"
+                 "ìíîïòóôöùúûü")
+    def is_cons(c):
+        return c.isalpha() and c not in VOWELS
+    def based(w):
+        r = result.get(w)
+        return r["modern"] if r and r["tier"] != "X" else None
+    d_rules = collections.Counter()
+    d_log = []
+    for t in sorted(tokens):
+        if t in result or t in OVERRIDE_KEYS or len(t) < 3:
+            continue
+        got = None
+        # CV-: double the MODERN initial, which is not always his own —
+        # kksaxol is built on ksaxol = qsahur, so it is qqsahur, not *kksahur.
+        if is_cons(t[0]) and t[0] == t[1]:
+            m = based(t[1:])
+            if m and m[:1].isalpha():
+                got = ("CV-", t[1:], m[0] + m)
+        if not got and len(t) > 4 and t[0:2] == t[2:4] and is_cons(t[0]):
+            m = based(t[2:])
+            if m and len(m) > 1 and m[0].isalpha() and m[1].isalpha():
+                got = ("CVCV-", t[2:], m[0:2] + m)
+        if not got:
+            for pre in ("mn", "n"):
+                if not t.startswith(pre) or len(t) <= len(pre) + 2:
+                    continue
+                rest = t[len(pre):]
+                m = based(rest)
+                if m:
+                    got = (pre + "-", rest, pre + m)
+                    break
+                # his AF base: mali → nali. Only strip the m if the modern form
+                # still carries one, or the strip is cutting a different letter.
+                m = based("m" + rest)
+                if m and m[:1] == "m":
+                    got = (pre + "-", "m" + rest, pre + m[1:])
+                    break
+        if not got and t[0] == "d" and len(t) > 3:
+            forms = cased.get(t[1:], {})
+            caps = sum(v for k, v in forms.items() if k[:1].isupper())
+            m = based(t[1:])
+            if m and caps and caps == sum(forms.values()):
+                got = ("d-", t[1:], "d" + m)
+        if got:
+            rule, base, mod = got
+            result[t] = {"modern": mod, "tier": "D", "d_rule": rule, "d_base": base}
+            tiers["D"] += 1
+            d_rules[rule] += 1
+            d_log.append((t, mod, rule, base, result[base]["tier"]))
+            review.pop(t, None)
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
     # Nothing leaves this generator carrying his diacritics. A modern spelling is
     # written in the modern alphabet, so ç becomes x and the vowel marks drop —
     # whatever tier produced it. The identity tier used to return his raw token
@@ -747,6 +826,11 @@ def main():
     print("keep-l guard: %d tokens frozen to keep-l (would have been wrongly l>r'd)" % kl)
     print("relative inheritance: %d mapped, %d ambiguous-skipped, %d gloss-vetoed"
           % (tiers["R"], r_ambig, r_veto))
+    print("morphology (D): %d mapped — %s" % (tiers["D"], dict(d_rules)))
+    with open(os.path.join(HERE, "tier_d_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier D: token -> modern, rule, base, tier the base came from\n")
+        for t, mod, rule, base, bt in sorted(d_log):
+            f.write("%-16s %-16s %-6s %-16s %s\n" % (t, mod, rule, base, bt))
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 
