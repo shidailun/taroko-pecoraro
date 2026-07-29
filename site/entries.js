@@ -23680,7 +23680,7 @@ window.ENTRIES = [
     "zh": "木板。",
     "examples": [
       {
-        "t": "Tqean so nanu ka iso? Dima (ddima)xo? Ktinox xo?",
+        "t": "Tqean so manu ka iso? Dima (ddima)xo? Ktinox xo?",
         "fr": "Sur quoi dors tu,toi? Sur des bambous? sur des planches?",
         "en": "What do you sleep on, you? On bamboo? On planks?",
         "zh": "你呢，你睡在什麼上面？睡在竹子上？睡在木板上？",
@@ -24230,7 +24230,7 @@ window.ENTRIES = [
     "zh": "竹子兩節之間的部分－脛骨（腿部兩關節之間的部分）。",
     "examples": [
       {
-        "t": "Wada ko na gl'nun kulao isil papaq da",
+        "t": "Wada ko na gl'mun kulao isil papaq da",
         "fr": "Il m'a brisé le tibia d'une de mes jambes.",
         "en": "He broke the shin of one of my legs.",
         "zh": "他把我一條腿的脛骨打斷了。",
@@ -24468,7 +24468,7 @@ window.ENTRIES = [
         "a": "ex_ma_so_sknaqex_sqnaqex_kuxul_ludan_so"
       },
       {
-        "t": "Ya bi nanu ka kuxul so?",
+        "t": "Ya bi manu ka kuxul so?",
         "fr": "Qu'est ce qui pourrait bien te faire plaisir?",
         "en": "What could possibly give you pleasure?",
         "zh": "什麼能讓你開心呢？",
@@ -24825,7 +24825,7 @@ window.ENTRIES = [
         "zh": "貪婪者、覬覦者－覬覦、嫉妒。－逾越界限者。",
         "examples": [
           {
-            "t": "Ini mo tslbangi ka ana nanu dnui daxa",
+            "t": "Ini mo tslbangi ka ana manu dnui daxa",
             "fr": "Je ne convoite rien de ce qui appartient aux autres.",
             "en": "I covet nothing that belongs to others.",
             "zh": "我不覬覦任何屬於別人的東西。",
@@ -25042,7 +25042,7 @@ window.ENTRIES = [
             "a": "ex_lbuan_laqe_2"
           },
           {
-            "t": "Pgalu bi ka bobo nii ! Ida pax kndlgan nia ka ongat ana nanu lbuan na laqe",
+            "t": "Pgalu bi ka bobo nii ! Ida pax kndlgan nia ka ongat ana manu lbuan na laqe",
             "fr": "Elle est bien à plaindre cette maman! C'est depuis qu'elle a accouché qu'elle n'a pas de langes pour son petit !",
             "en": "This mother is much to be pitied! Ever since she gave birth she has had no swaddling clothes for her little one!",
             "zh": "這位母親真可憐！自從她生產以來，就沒有襁褓給她的孩子！",
@@ -26854,7 +26854,7 @@ window.ENTRIES = [
     "zh": "例外－遺漏－忘記－省略－缺少。（此詞根及其所有衍生詞：參見 LAXOQ。）",
     "examples": [
       {
-        "t": "Laxok na do, ongat ana nanu",
+        "t": "Laxok na do, ongat ana manu",
         "fr": "En dehors de celà il n'y a rien d'autre.",
         "en": "Apart from that there is nothing else.",
         "zh": "除此之外別無他物。",
@@ -27310,7 +27310,7 @@ window.ENTRIES = [
         "zh": "像小孩一樣舉止。",
         "examples": [
           {
-            "t": "Motoç namo kana da! Pnbaga ka kingal, pnngangax ka kingal, pnlb'nao ka iso ! Pnnano nanu dole ?",
+            "t": "Motoç namo kana da! Pnbaga ka kingal, pnngangax ka kingal, pnlb'nao ka iso ! Pnnano manu dole ?",
             "fr": "Vous êtes tous un peu dérangés ! Un parle par gestes (avec les mains) un autre fait l'idiot et toi tu fais le bébé ! Quelle autre attitude allez vous encore prendre?",
             "en": "You are all a bit deranged! One talks with gestures (with his hands), another plays the fool, and you act the baby! What other attitude are you going to take on next?",
             "zh": "你們全都有點不正常！一個用手勢比劃，一個裝傻，你則像個嬰兒撒嬌！你們還要擺出什麼別的樣子？",
@@ -31192,7 +31192,7 @@ window.ENTRIES = [
         "zh": "覆蓋物－被蓋住的東西。",
         "examples": [
           {
-            "t": "Xeaon so ka qabang ? Lbongun so nanu ? ... Lobang mo lmobong trabus, ongat ka lbongan mo",
+            "t": "Xeaon so ka qabang ? Lbongun so manu ? ... Lobang mo lmobong trabus, ongat ka lbongan mo",
             "fr": "Pourquoi cette couverture? Que vas tu en faire? ... Je pensais en recouvrir mes arachides; je n'ai rien pour les couvrir !",
             "en": "Why this cover? What will you do with it? ... I was thinking of covering my peanuts with it; I have nothing to cover them with!",
             "zh": "這塊蓋布做什麼用？你要拿它做什麼？……我本想用它蓋我的花生；我沒有東西可以蓋它們！",
@@ -32043,7 +32043,7 @@ window.ENTRIES = [
         "zh": "彼此採取行動以結交友誼。",
         "examples": [
           {
-            "t": "Ida mnssl'pong nami pax sbiyao ka yani Laotan",
+            "t": "Ida mnssl'pong nami pax sbiyao ka yami Laotan",
             "fr": "Il y a déjà très longtemps que Laotanne et moi nous nous sommes liés d'amitié.",
             "en": "It has already been a very long time since Laotan and I formed our friendship.",
             "zh": "勞丹和我結交友誼已經很久了。",
@@ -33028,7 +33028,7 @@ window.ENTRIES = [
         "zh": "有親戚關係－以親屬紐帶相連。",
         "examples": [
           {
-            "t": "Ini bi slutut pax suxal ka dxea; mslutut nami ka yani",
+            "t": "Ini bi slutut pax suxal ka dxea; mslutut nami ka yami",
             "fr": "Depuis longtemps ils ne se considèrent pas parents, eux; nous, nous conservons les relations de parentée .",
             "en": "For a long time they, they do not consider themselves relatives; we, we keep up the kinship ties.",
             "zh": "他們很久以來就不把彼此當親屬了；而我們則保持著親戚關係。",
@@ -33043,7 +33043,7 @@ window.ENTRIES = [
         "zh": "自認為是親屬者－有親戚關係者。",
         "examples": [
           {
-            "t": "Mslutut nami balae ka yani Iban",
+            "t": "Mslutut nami balae ka yami Iban",
             "fr": "Ibanne et moi sommes vraiment parents.",
             "en": "Iban and I are truly relatives.",
             "zh": "Iban 和我確實是親屬。",
@@ -33938,7 +33938,7 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Lm'xlax (l'nxlax ?)",
+        "form": "Lm'xlax (l'mxlax ?)",
         "paradigm": "° Lm'xlax, l'xlax, lxlaxe, lxlaxan, lxlaxon.",
         "fr": "Détacher - dénouer - défaire.",
         "en": "To detach - to untie - to undo.",
@@ -35966,7 +35966,7 @@ window.ENTRIES = [
         "a": "ex_bbalao_bi_muxeng_na_ka_dyamo"
       },
       {
-        "t": "... anerika",
+        "t": "... amerika",
         "fr": "Vous autres les étrangers (américains (!!)), vous avez un long nez.",
         "en": "You foreigners (Americans (!!)), you have a long nose.",
         "zh": "你們這些外國人（美國人（！！）），你們的鼻子很長。",
@@ -36494,7 +36494,7 @@ window.ENTRIES = [
         "zh": "引起病痛、疾病的（媒介）。",
         "examples": [
           {
-            "t": "Mninax so tla'to ksia ska'man o, kia ka sknalox l'xbun so",
+            "t": "Mnimax so tla'to ksia ska'man o, kia ka sknalox l'xbun so",
             "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.",
             "en": "You drank cold water last night, that is what is hurting your stomach.",
             "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。",
@@ -48683,7 +48683,7 @@ window.ENTRIES = [
         "zh": "工人－受薪者－僱用（未來式）。",
         "examples": [
           {
-            "t": "Uxai nami ndmpatas ka yami; dmpsado yami ka yani",
+            "t": "Uxai nami ndmpatas ka yami; dmpsado yami ka yami",
             "fr": "Nous ne sommes pas des intellectuels, nous autres, nous ne sommes que des salariés (manuels).",
             "en": "We are not intellectuals, we others; we are only (manual) wage-earners.",
             "zh": "我們不是讀書人，我們只是（勞力）受薪者而已。",
@@ -50477,7 +50477,7 @@ window.ENTRIES = [
         "zh": "用來舀取的－供舀取用。",
         "examples": [
           {
-            "t": "Blaxao so bi, byeqe ko ana nanu ss'xgan mo bugo",
+            "t": "Blaxao so bi, byeqe ko ana manu ss'xgan mo bugo",
             "fr": "S'il te plaît, passe moi quelque chose pour puiser (qui me permette de puiser) le bouillon.",
             "en": "Please, pass me something to draw with (that lets me ladle out) the broth.",
             "zh": "請你遞給我一個可以舀湯的東西（讓我能舀湯）。",
@@ -50517,7 +50517,7 @@ window.ENTRIES = [
         "zh": "馬上－立刻－即刻。",
         "examples": [
           {
-            "t": "Tai kuxul na ka ana nanu o, asi ssayang ka xea da!",
+            "t": "Tai kuxul na ka ana manu o, asi ssayang ka xea da!",
             "fr": "Quand il désire quelque chose,( quand quelque chose lui plaît), Il le lui faut absolument tout de suite!",
             "en": "When he wants something (when something pleases him), he absolutely must have it right away!",
             "zh": "只要他想要什麼（只要有什麼合他心意），他就非得馬上得到不可！",
@@ -56137,7 +56137,7 @@ window.ENTRIES = [
             "a": "ex_nasi_so_smnugul_dloan_o_adi_so_bi_mpeida"
           },
           {
-            "t": "Usa nanak ka iso, ya sl'xbun ! mpsnugul nami kia ka yani!",
+            "t": "Usa nanak ka iso, ya sl'xbun ! mpsnugul nami kia ka yami!",
             "fr": "Tu n'as qu'à aller, toi! Sois sans souci ! Nous, nous te suivrons sous peu.",
             "en": "You just go on ahead, you! Don't worry! We will follow you shortly.",
             "zh": "你自己先走吧！別擔心！我們待會兒就跟上你。",
@@ -57917,14 +57917,14 @@ window.ENTRIES = [
     ],
     "subs": [
       {
-        "form": "Smtana",
+        "form": "Smtama",
         "fr": "d° forme verbale.",
         "en": "ditto, verbal form (verbal form of the preceding).",
         "zh": "同上之動詞形。",
-        "paradigm": "Smtana , stana, stmai (?), stmaan, stmaon.",
+        "paradigm": "Smtama , stama, stmai (?), stmaan, stmaon.",
         "examples": [
           {
-            "t": "Bobo ! Smtana ko sunan ! Ya ko bi sx'ngii!",
+            "t": "Bobo ! Smtama ko sunan ! Ya ko bi sx'ngii!",
             "fr": "Maman ! Je compte sur toi (j'ai confiance en toi)! Ne m'oublie pas!",
             "en": "Mama! I count on you (I trust you)! Don't forget me!",
             "zh": "媽媽！我依靠你（我信任你）！別忘了我！",
@@ -58043,14 +58043,14 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Kntnaan (R. = STAMA ? - = TAMA ?)",
+        "form": "Kntmaan (R. = STAMA ? - = TAMA ?)",
         "fr": "Foi - confiance ( Ce terme pourrait être une variante de KNSTMAAN ? - ou bien un dérivé direct de TAMA suggérant une relation confiante de fils à père ?)",
         "en": "Faith - trust (This term could be a variant of KNSTMAAN? - or else a direct derivative of TAMA, suggesting a trusting relationship of son to father?)",
         "zh": "信仰－信任（此詞可能是 KNSTMAAN 的變體？－或是直接由 TAMA 衍生而來，暗示兒子對父親的信賴關係？）",
         "examples": []
       },
       {
-        "form": "Pstana",
+        "form": "Pstama",
         "fr": "Faire mettre sa confiance en - faire s'appuyer sur.",
         "en": "To make (someone) place their trust in - to make (someone) lean on.",
         "zh": "使人信賴於－使人倚靠。",
@@ -60258,7 +60258,7 @@ window.ENTRIES = [
     "zh": "跌倒－摔落。",
     "examples": [
       {
-        "t": "Ya bi takol muda xakno",
+        "t": "Ya bi takol muda xakao",
         "fr": "Ne va pas tomber en passant le pont.",
         "en": "Don't go and fall while crossing the bridge.",
         "zh": "過橋時別摔下去。",
@@ -63116,7 +63116,7 @@ window.ENTRIES = [
     "zh": "教導－使知曉－告知。",
     "examples": [
       {
-        "t": "Ana so mxoya o, ya bi tisa ana nanu ka iso",
+        "t": "Ana so mxoya o, ya bi tisa ana manu ka iso",
         "fr": "Quoi qu'il t'arrive, garde toi bien de révéler la moindre chose!",
         "en": "Whatever happens to you, take good care not to reveal the slightest thing!",
         "zh": "無論你遭遇什麼，都要小心切勿透露一絲一毫！",
@@ -63887,7 +63887,7 @@ window.ENTRIES = [
   {
     "hw": "TLIMA",
     "tag": "(R)",
-    "paradigm": "°Tlima, tlima, tl'nai, tl'maan, tl'maon.",
+    "paradigm": "°Tlima, tlima, tl'mai, tl'maan, tl'maon.",
     "fr": "Se baigner - se laver.",
     "en": "To bathe - to wash oneself.",
     "zh": "洗澡－洗滌自己。",
@@ -69123,7 +69123,7 @@ window.ENTRIES = [
         "zh": "取名；命名；稱呼。",
         "examples": [
           {
-            "t": "Ptxnganun so nanu ka laqe so ?",
+            "t": "Ptxnganun so manu ka laqe so ?",
             "fr": "Comment appelleras tu ton enfant?",
             "en": "What will you name your child?",
             "zh": "你要給你的孩子取什麼名字？",
@@ -69238,7 +69238,7 @@ window.ENTRIES = [
             "a": "ex_miyax_ko_dnayao_n_xapwi_semento"
           },
           {
-            "t": "Kmpax so nanu ka iso ? ... Ga ko n'xapwi koswi",
+            "t": "Kmpax so manu ka iso ? ... Ga ko n'xapwi koswi",
             "fr": "Quel travail fais tu, toi? ... Je distille de la citronelle!",
             "en": "What work do you do? ... I'm distilling citronella!",
             "zh": "你在做什麼工作？……我在蒸餾香茅！",
@@ -69601,7 +69601,7 @@ window.ENTRIES = [
             "a": "ex_ga_xmbui_ka_dnamux_sapax_no_da"
           },
           {
-            "t": "Gini kingal lubwi dole; ga xmbui ka kingal nii!",
+            "t": "Gimi kingal lubwi dole; ga xmbui ka kingal nii!",
             "fr": "Cherche un autre sac; celui-ci est percé.",
             "en": "Look for another bag; this one is holed.",
             "zh": "找另一個袋子；這個破了。",
@@ -74372,7 +74372,7 @@ window.ENTRIES = [
         "zh": "尖的、銳利的。",
         "examples": [
           {
-            "t": "Mpotox ka qouni so nii! Gini kingal mxoyoq bi",
+            "t": "Mpotox ka qouni so nii! Gimi kingal mxoyoq bi",
             "fr": "L'aiguille que tu as est émoussée! Il te faut en chercher une acérée (bien pointue).",
             "en": "The needle you have is blunt! You must look for a sharp one (nice and pointy).",
             "zh": "你那根針鈍了！你得找一根銳利的（很尖的）。",
@@ -75149,13 +75149,13 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Dyani",
+        "form": "Dyami",
         "fr": "(Préfixe D) = Des nôtres - part de notre groupe.",
         "en": "(Prefix D) = of ours - part of our group.",
         "zh": "（前綴D）＝我們的人—我們群體的一份子。",
         "examples": [
           {
-            "t": "Dyani nanak ka Sibal",
+            "t": "Dyami nanak ka Sibal",
             "fr": "Sibal est un des nôtres (parent.. ami.. associé..).",
             "en": "Sibal is one of ours (relative.. friend.. associate..).",
             "zh": "Sibal是我們的人之一（親戚……朋友……夥伴……）。",
@@ -75291,13 +75291,13 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Nnano",
+        "form": "Nnamo",
         "fr": "1° Était vôtre. 2° Partie de vos.",
         "en": "1° Was yours. 2° Part of yours.",
         "zh": "①（曾）是你們的。②你們的一部分。",
         "examples": [
           {
-            "t": "Nnano ka sapax nii",
+            "t": "Nnamo ka sapax nii",
             "fr": "Cette maison était à vous.",
             "en": "This house was yours.",
             "zh": "這間房子（曾）是你們的。",
@@ -75313,13 +75313,13 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "D'yano",
+        "form": "D'yamo",
         "fr": "Les vôtres - de votre groupe - ceux de votre clan.",
         "en": "Yours (people) - of your group - those of your clan.",
         "zh": "你們的人—你們群體的—你們氏族的人。",
         "examples": [
           {
-            "t": "D'yano nanak ka Atox",
+            "t": "D'yamo nanak ka Atox",
             "fr": "Atorh est bien des vôtres (votre parenté, ami..).",
             "en": "Atorh is indeed one of yours (your kin, friend..).",
             "zh": "Atorh確實是你們的人（你們的親屬、朋友……）。",

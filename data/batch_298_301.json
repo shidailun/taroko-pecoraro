@@ -467,14 +467,14 @@
       ],
       "subs": [
         {
-          "form": "Smtana",
+          "form": "Smtama",
           "fr": "d° forme verbale.",
           "en": "ditto, verbal form (verbal form of the preceding).",
           "zh": "同上之動詞形。",
-          "paradigm": "Smtana , stana, stmai (?), stmaan, stmaon.",
+          "paradigm": "Smtama , stama, stmai (?), stmaan, stmaon.",
           "examples": [
             {
-              "t": "Bobo ! Smtana ko sunan ! Ya ko bi sx'ngii!",
+              "t": "Bobo ! Smtama ko sunan ! Ya ko bi sx'ngii!",
               "fr": "Maman ! Je compte sur toi (j'ai confiance en toi)! Ne m'oublie pas!",
               "en": "Mama! I count on you (I trust you)! Don't forget me!",
               "zh": "媽媽！我依靠你（我信任你）！別忘了我！"
@@ -582,14 +582,14 @@
           ]
         },
         {
-          "form": "Kntnaan (R. = STAMA ? - = TAMA ?)",
+          "form": "Kntmaan (R. = STAMA ? - = TAMA ?)",
           "fr": "Foi - confiance ( Ce terme pourrait être une variante de KNSTMAAN ? - ou bien un dérivé direct de TAMA suggérant une relation confiante de fils à père ?)",
           "en": "Faith - trust (This term could be a variant of KNSTMAAN? - or else a direct derivative of TAMA, suggesting a trusting relationship of son to father?)",
           "zh": "信仰－信任（此詞可能是 KNSTMAAN 的變體？－或是直接由 TAMA 衍生而來，暗示兒子對父親的信賴關係？）",
           "examples": []
         },
         {
-          "form": "Pstana",
+          "form": "Pstama",
           "fr": "Faire mettre sa confiance en - faire s'appuyer sur.",
           "en": "To make (someone) place their trust in - to make (someone) lean on.",
           "zh": "使人信賴於－使人倚靠。",

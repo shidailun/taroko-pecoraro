@@ -6,7 +6,7 @@
     "zh": "",
     "examples": [
       {
-        "t": "... anerika",
+        "t": "... amerika",
         "fr": "Vous autres les étrangers (américains (!!)), vous avez un long nez.",
         "en": "You foreigners (Americans (!!)), you have a long nose.",
         "zh": "你們這些外國人（美國人（！！）），你們的鼻子很長。"
@@ -305,7 +305,7 @@
           "en": "(the means) that causes the harm, the illness.",
           "zh": "引起病痛、疾病的（媒介）。",
           "examples": [
-            { "t": "Mninax so tla'to ksia ska'man o, kia ka sknalox l'xbun so", "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.", "en": "You drank cold water last night, that is what is hurting your stomach.", "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。" }
+            { "t": "Mnimax so tla'to ksia ska'man o, kia ka sknalox l'xbun so", "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.", "en": "You drank cold water last night, that is what is hurting your stomach.", "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。" }
           ]
         }
       ]

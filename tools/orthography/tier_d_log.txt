@@ -2,9 +2,10 @@
 dbiyang          dbiyang          d-     biyang           id
 dcristo          dcristu          d-     cristo           N
 dd'yami          dd'yami          CV-    d'yami           R
-dd'yamo          ddyamu           CV-    d'yamo           R
+dd'yamo          ddyamu           CV-    d'yamo           P
 ddcristo         ddcristu         CV-    dcristo          D
 dddilun          ddjilun          CV-    ddilun           B
+ddyami           ddyami           CV-    dyami            P
 ddyamo           ddyamu           CV-    dyamo            R
 dmbslat          dmbsrat          d-     mbslat           P
 dmikat           dmikat           d-     mikat            N
@@ -14,6 +15,7 @@ dmtksoloç        dmtksurux        d-     mtksoloç         T
 dsbnawan         dsbnawan         d-     sbnawan          R
 dtanax           dtanah           d-     tanax            T
 dtome            dtumi            d-     tome             S
+gg'xap           gghak            CV-    g'xap            M
 gngnalu          gngnaalu         CVCV-  gnalu            P
 kkdusan          kkdusan          CV-    kdusan           T
 kketa            kkita            CV-    keta             A
@@ -56,6 +58,7 @@ ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     mdup             R
+ndyami           ndyami           n-     dyami            P
 ng'li            ng'li            n-     mg'li            R
 nggalu           nggaalu          n-     mggalu           P
 ngguyan          ngguyan          n-     gguyan           T
@@ -92,6 +95,7 @@ nslubwi          nslubuy          n-     slubwi           T
 nslxoqan         nsrhuqan         n-     slxoqan          B
 nssl'pong        nsslupung        n-     mssl'pong        M
 nsueq            nsueq            n-     sueq             M
+ntgisa           ntgsa            n-     mtgisa           M
 ntlawa           ntlawa           n-     mtlawa           id
 nxoai            nhuway           n-     xoai             B
 ppaotoç          ppautux          CV-    paotoç           P

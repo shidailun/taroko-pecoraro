@@ -145,12 +145,12 @@
           ]
         },
         {
-          "form": "Dyani",
+          "form": "Dyami",
           "fr": "(Préfixe D) = Des nôtres - part de notre groupe.",
           "en": "(Prefix D) = of ours - part of our group.",
           "zh": "（前綴D）＝我們的人—我們群體的一份子。",
           "examples": [
-            { "t": "Dyani nanak ka Sibal", "fr": "Sibal est un des nôtres (parent.. ami.. associé..).", "en": "Sibal is one of ours (relative.. friend.. associate..).", "zh": "Sibal是我們的人之一（親戚……朋友……夥伴……）。" }
+            { "t": "Dyami nanak ka Sibal", "fr": "Sibal est un des nôtres (parent.. ami.. associé..).", "en": "Sibal is one of ours (relative.. friend.. associate..).", "zh": "Sibal是我們的人之一（親戚……朋友……夥伴……）。" }
           ]
         },
         {
@@ -209,22 +209,22 @@
           ]
         },
         {
-          "form": "Nnano",
+          "form": "Nnamo",
           "fr": "1° Était vôtre. 2° Partie de vos.",
           "en": "1° Was yours. 2° Part of yours.",
           "zh": "①（曾）是你們的。②你們的一部分。",
           "examples": [
-            { "t": "Nnano ka sapax nii", "fr": "Cette maison était à vous.", "en": "This house was yours.", "zh": "這間房子（曾）是你們的。" },
+            { "t": "Nnamo ka sapax nii", "fr": "Cette maison était à vous.", "en": "This house was yours.", "zh": "這間房子（曾）是你們的。" },
             { "t": "Nnamao ka sapax nii", "fr": "Cette maison est l'une de vos maisons.", "en": "This house is one of your houses.", "zh": "這間房子是你們的房子之一。" }
           ]
         },
         {
-          "form": "D'yano",
+          "form": "D'yamo",
           "fr": "Les vôtres - de votre groupe - ceux de votre clan.",
           "en": "Yours (people) - of your group - those of your clan.",
           "zh": "你們的人—你們群體的—你們氏族的人。",
           "examples": [
-            { "t": "D'yano nanak ka Atox", "fr": "Atorh est bien des vôtres (votre parenté, ami..).", "en": "Atorh is indeed one of yours (your kin, friend..).", "zh": "Atorh確實是你們的人（你們的親屬、朋友……）。" }
+            { "t": "D'yamo nanak ka Atox", "fr": "Atorh est bien des vôtres (votre parenté, ami..).", "en": "Atorh is indeed one of yours (your kin, friend..).", "zh": "Atorh確實是你們的人（你們的親屬、朋友……）。" }
           ]
         },
         {
