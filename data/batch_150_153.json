@@ -100,7 +100,7 @@
       "zh": "除了－例外－除外－缺少。",
       "examples": [
         {
-          "t": "Wana daxa bi xei, laxoq na do o, k'laon no kana da",
+          "t": "Wana daxa bi xei, laxoq na do o, k'laon mo kana da",
           "fr": "Seulement deux personnes, en dehors de ces deux (mis à part ces deux), je connais tout le monde.",
           "en": "Only two people, apart from those two (setting those two aside), I know everyone.",
           "zh": "只有兩個人除外，除了這兩個人之外，我認識所有人。"
@@ -154,7 +154,7 @@
               "zh": "我一個都沒漏掉。"
             },
             {
-              "t": "Ini no slxoqe ana kingal",
+              "t": "Ini mo slxoqe ana kingal",
               "fr": "Je n'en ai omis aucun.",
               "en": "I have omitted none of them.",
               "zh": "我一個都沒省略。"
@@ -175,7 +175,7 @@
               "zh": "你老是忘記（漏掉）放鹽。"
             },
             {
-              "t": "Wada so buan ka pada xo ? ... Smnlaxoq ko da (= wada no slxoqan da)",
+              "t": "Wada so buan ka pada xo ? ... Smnlaxoq ko da (= wada mo slxoqan da)",
               "fr": "As tu tiré le Chamois ? ... Je l'ai manqué !",
               "en": "Did you shoot the chamois? ... I missed it!",
               "zh": "你打到那隻山羌了嗎？……我沒打中！"
@@ -311,7 +311,7 @@
           "zh": "搖晃不穩者。",
           "examples": [
             {
-              "t": "Mkl'bai ka papaq no da",
+              "t": "Mkl'bai ka papaq mo da",
               "fr": "Mes jambes vacillent (sont désormais devenues faibles).",
               "en": "My legs are wobbling (have now become weak).",
               "zh": "我的腿在發軟（如今已變得無力）。"
@@ -325,7 +325,7 @@
           "zh": "軟弱。",
           "examples": [
             {
-              "t": "Ini ko sklui ka yako! Klaon no balae ka knlbayan daxa",
+              "t": "Ini ko sklui ka yako! Klaon mo balae ka knlbayan daxa",
               "fr": "Je ne suis pas étonné ! Je connais parfaitement leur faiblesse.",
               "en": "I am not surprised! I know their weakness perfectly well.",
               "zh": "我一點也不驚訝！我很清楚他們的弱點。"
@@ -397,7 +397,7 @@
           "zh": "嬰兒＝剛出生的孩子。"
         },
         {
-          "t": "Lb'nao bi ka ddina so; ya bi sq'ti",
+          "t": "Lb'nao bi ka ddima so; ya bi sq'ti",
           "fr": "Tes bambous sont jeunes (tendres); ne les coupe pas !",
           "en": "Your bamboos are young (tender); do not cut them!",
           "zh": "你的竹子還嫩（幼嫩）；別砍它們！"
@@ -617,7 +617,7 @@
           "zh": "被挖空、凹陷者－下陷者－深。",
           "examples": [
             {
-              "t": "Wada mtl'boq tlona gain",
+              "t": "Wada mtl'boq tloma gain",
               "fr": "Il s'est enfoncé tout là bas au fond.",
               "en": "It sank right down there at the bottom.",
               "zh": "它一直沉到底下那邊去了。"
@@ -631,7 +631,7 @@
           "zh": "想要、或必須挖得更深之物。",
           "examples": [
             {
-              "t": "Ptlboqon no dole ka knliyan Pisao",
+              "t": "Ptlboqon mo dole ka knliyan Pisao",
               "fr": "Je veux rendre encore plus profond ce que Pissao a creusé.",
               "en": "I want to make even deeper what Pissao dug.",
               "zh": "我想把 Pissao 挖的地方挖得更深。"
@@ -673,7 +673,7 @@
           "zh": "Taossen 快死了（他的氣息短促）。"
         },
         {
-          "t": "L'bu bi biyax no",
+          "t": "L'bu bi biyax mo",
           "fr": "Je suis au bout de mes forces.",
           "en": "I am at the end of my strength.",
           "zh": "我已精疲力盡。"
@@ -765,7 +765,7 @@
       "zh": "疲勞。",
       "examples": [
         {
-          "t": "Kana kmpaxan no nii o, lbuk no kana !",
+          "t": "Kana kmpaxan mo nii o, lbuk mo kana !",
           "fr": "Tous mes champs que voilà, c'est toute ma fatigue (ce sont tous des fruits de ma fatigue).",
           "en": "All these fields of mine, they are all my toil (they are all the fruits of my labor).",
           "zh": "我這些田地，全都是我辛勞的結果（都是我勞累的成果）。"

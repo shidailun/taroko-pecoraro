@@ -120,13 +120,13 @@
       "zh": "親屬（親戚關係）－有關聯－相連。",
       "examples": [
         {
-          "t": "Xbalao bi ka llutut no",
+          "t": "Xbalao bi ka llutut mo",
           "fr": "Mes parents (directs) sont très nombreux.",
           "en": "My (direct) relatives are very numerous.",
           "zh": "我的（直系）親屬非常多。"
         },
         {
-          "t": "Xbalao bi lutut no ka ini usa",
+          "t": "Xbalao bi lutut mo ka ini usa",
           "fr": "Bon nombre de mes parents ne sont pas allés (ne vont pas).",
           "en": "A good number of my relatives did not go (are not going).",
           "zh": "我有不少親屬沒有去（不去）。"
@@ -262,7 +262,7 @@
               "zh": "這條鐵絲是一整條的（就只是它本身），確實沒有接頭。"
             },
             {
-              "t": "Mnalox kana btudan papaq no",
+              "t": "Mnalox kana btudan papaq mo",
               "fr": "toutes les jointures de mes jambes me font mal.",
               "en": "all the joints of my legs hurt.",
               "zh": "我腿上所有的關節都在痛。"
@@ -276,13 +276,13 @@
           "zh": "1）曾連接；2）以親屬相待。",
           "examples": [
             {
-              "t": "Pnlutut so sknuan ka nugul no ?",
+              "t": "Pnlutut so sknuan ka nugul mo ?",
               "fr": "Quand as tu rallongé na cordelette ?",
               "en": "When did you lengthen your cord?",
               "zh": "你什麼時候把你的細繩接長的？"
             },
             {
-              "t": "Pax sbiyao ka pnlutut nani da",
+              "t": "Pax sbiyao ka pnlutut nami da",
               "fr": "C'est depuis très longtemps que nous nous considérons(nous nous comportons comme des) parents.",
               "en": "It has been for a very long time that we consider ourselves (behave as) relatives.",
               "zh": "我們很久以來就把彼此當作（表現得像）親屬。"
@@ -350,7 +350,7 @@
           "zh": "有親戚關係－以親屬紐帶相連。",
           "examples": [
             {
-              "t": "Ini bi slutut pax suxal ka dxea; mslutut nani ka yani",
+              "t": "Ini bi slutut pax suxal ka dxea; mslutut nami ka yani",
               "fr": "Depuis longtemps ils ne se considèrent pas parents, eux; nous, nous conservons les relations de parentée .",
               "en": "For a long time they, they do not consider themselves relatives; we, we keep up the kinship ties.",
               "zh": "他們很久以來就不把彼此當親屬了；而我們則保持著親戚關係。"
@@ -364,7 +364,7 @@
           "zh": "自認為是親屬者－有親戚關係者。",
           "examples": [
             {
-              "t": "Mslutut nani balae ka yani Iban",
+              "t": "Mslutut nami balae ka yani Iban",
               "fr": "Ibanne et moi sommes vraiment parents.",
               "en": "Iban and I are truly relatives.",
               "zh": "Iban 和我確實是親屬。"
@@ -705,7 +705,7 @@
           "zh": "用以學習－用以自我訓練（工具）。",
           "examples": [
             {
-              "t": "Saon no mali ka patas ssluxai no kari ego",
+              "t": "Saon mo mali ka patas ssluxai mo kari ego",
               "fr": "Je veux aller acheter les livres pour apprendre l'anglais.",
               "en": "I want to go buy the books for learning English.",
               "zh": "我想去買學英語的書。"

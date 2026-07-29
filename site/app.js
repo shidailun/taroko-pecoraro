@@ -136,10 +136,13 @@
     // barred l in its own right and ʔ a letter, so both survive the strip and
     // reach the screen. Fold them to l and ' — l then takes the ordinary l rule.
     out = out.replace(/ł/g, "l").replace(/Ł/g, "L");
-    // His second elision mark. wordKey already folds " ’ ʼ ʔ together for lookup,
-    // so a mapped word comes back with a plain ', but an UNMAPPED one used to keep
-    // whichever glyph he typed — wa"lo went to modern spelling as WA"RU.
-    out = out.replace(/[’ʼ"ʔ]/g, "'");
+    // Both his elision marks go, rather than folding to '. He writes ' and "
+    // where he heard a schwa; modern Truku writes nothing there — that is why it
+    // spells dxgal, mkla, tmlung. One token in the 39,889 of the three modern
+    // corpora contains an apostrophe, and it is a typo. So wa"lo is modern waru,
+    // not WA"RU, and the generator strips the same marks from every tier's output
+    // for the mapped words.
+    out = out.replace(/['’ʼ"ʔ]/g, "");
     out = out.normalize("NFD").replace(/[̀-ͯ]/g, "");
     out = out.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
     return out.replace(/\u0001/g, "x").replace(/\u0002/g, "X");

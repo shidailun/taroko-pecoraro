@@ -3,7 +3,6 @@
 iban             iban                  8    12
 wilang           wilang                4    11
 iwal             iwal                 15     7
-muxul            muxul                 4     7
 iboq             ibuq                  3     6
 l'çan            lxan                  2     6
 nk'la            nkla                  3     6

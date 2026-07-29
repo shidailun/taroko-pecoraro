@@ -52,7 +52,7 @@ ego              egu              rule       2
 empi             empi             rule       1
 empit            empit            rule       2
 entot            entut            rule       1
-g'las            g'las            rule       1
+g'las            glas             rule       1
 gako             gaku             rule       1
 gasolin          gasulin          rule       3
 gasyo            gasyu            rule       1
@@ -85,13 +85,14 @@ losok            lusuk            rule       2
 makura           makura           rule       1
 matse            matsi            rule       1
 mayo             mayu             rule       1
-mil'ku           mil'ku           rule       1
+mil'ku           milku            rule       1
 mongpe           mungpi           rule       1
 mpasimpu         mpasimpu         rule       1
 msimpu           msimpu           rule       1
 nabe             nabi             rule       1
 negi             negi             rule       1
 ningding         ningding         rule       1
+no               nu               rule       1
 nuli             nuli             rule       2
 oba              uba              rule       1
 omma             umma             rule       1

@@ -70,7 +70,7 @@
           "zh": "使鬆軟、變軟、變嫩；使軟化。",
           "examples": [
             {
-              "t": "Xoya no ksun pkxnuk d'xgal slaq mo?",
+              "t": "Xoya mo ksun pkxnuk d'xgal slaq mo?",
               "fr": "Comment pourrais-je faire pour ameublir la terre de ma rizière?",
               "en": "How could I go about loosening the soil of my paddy field?",
               "zh": "我該怎麼做才能把我水田的土鬆軟呢？"
@@ -187,7 +187,7 @@
               "zh": "我對母親說：你冷靜一點，但她卻不肯聽我的！"
             },
             {
-              "t": "Ana no si spoxe o, ini bi kxoai ka kmnalox mo na!",
+              "t": "Ana mo si spoxe o, ini bi kxoai ka kmnalox mo na!",
               "fr": "J'ai beau prendre les médicaments mais la maladie n'est pas encore soulagée (ça ne va pas encore mieux!)!",
               "en": "No matter how much medicine I take, the illness is still not relieved (it's still not getting better!)!",
               "zh": "我再怎麼吃藥，病還是沒有減輕（還是沒好轉！）！"
@@ -201,7 +201,7 @@
           "zh": "打動某人－使（人）慷慨－緩解（疾病）－引起寬容。",
           "examples": [
             {
-              "t": "Ida no pkxwayun (pkxoayun) ka kmnalox so!",
+              "t": "Ida mo pkxwayun (pkxoayun) ka kmnalox so!",
               "fr": "Je veux certainement (il faut absolument que je guérisse) guérir ta maladie!",
               "en": "I certainly want (I absolutely must cure) to cure your illness!",
               "zh": "我一定要（我非治好不可）治好你的病！"
@@ -359,7 +359,7 @@
       "zh": "拆除－拆解。",
       "examples": [
         {
-          "t": "Ya bi xolax ka kndlxan no suxal",
+          "t": "Ya bi xolax ka kndlxan mo suxal",
           "fr": "Ne démolis surtout pas le mur que j'ai construit autrefois!",
           "en": "Above all, do not demolish the wall that I built long ago!",
           "zh": "千萬不要拆掉我以前砌的那道牆！"
@@ -374,7 +374,7 @@
           "zh": "同上，動詞形。",
           "examples": [
             {
-              "t": "Xmulax ko sapax sayang ni pxyugun no bulax kingal dole",
+              "t": "Xmulax ko sapax sayang ni pxyugun mo bulax kingal dole",
               "fr": "Je démolis maintenant la maison et je veux en construire une nouvelle.",
               "en": "I am demolishing the house now, and I want to build a new one.",
               "zh": "我現在正在拆房子，我想蓋一間新的。"
@@ -388,7 +388,7 @@
           "zh": "想要或必須拆除、拆解的東西。",
           "examples": [
             {
-              "t": "Xlaxon so kana ka wada so tnunan ska'nan?",
+              "t": "Xlaxon so kana ka wada so tnunan ska'man?",
               "fr": "Vas-tu défaire complètement tout ce que tu as tissé la nuit dernière?",
               "en": "Are you going to completely undo everything you wove last night?",
               "zh": "你要把昨晚織的全部都拆掉嗎？"
@@ -474,13 +474,13 @@
           "zh": "挽留的對象、地點或時間。",
           "examples": [
             {
-              "t": "Xlidan ko d'xa minax sinao alang paro s'xiga, kika ini ko snk'la ppaan da!",
+              "t": "Xlidan ko d'xa mimax sinao alang paro s'xiga, kika ini ko snk'la ppaan da!",
               "fr": "Ils m'ont retenu hier pour boire un coup (de bierre) en ville, c'est ce qui m'a mis en retard pour la voiture (pour prendre le train, le bus!).",
               "en": "They held me back yesterday to have a drink (of beer) in town; that's what made me late for the car (to catch the train, the bus!).",
               "zh": "昨天他們留我在城裡喝一杯（酒），害我趕不上車（趕不上火車、公車！）。"
             },
             {
-              "t": "Ga nxoya ka papaq so da? ... Ax! Paro bi xlitan na ska'nan ka mnalox!",
+              "t": "Ga nxoya ka papaq so da? ... Ax! Paro bi xlitan na ska'man ka mnalox!",
               "fr": "Comment va ta jambe? ... Le mal était très lancinant la nuit dernière!",
               "en": "How is your leg? ... The pain was very throbbing last night!",
               "zh": "你的腿怎麼樣了？……昨晚痛得直抽痛！"
@@ -539,7 +539,7 @@
           "zh": "命令式否定式。",
           "examples": [
             {
-              "t": "Ima nsa kmoyoç! Tai binao: Ini kxolyaq ka lukus no!",
+              "t": "Ima nsa kmoyoç! Tai binao: Ini kxolyaq ka lukus mo!",
               "fr": "Qui dit qu'il pleut? Regarde! Mes habits ne sont pas mouillés!",
               "en": "Who says it's raining? Look! My clothes are not wet!",
               "zh": "誰說在下雨？你看！我的衣服沒濕呀！"
@@ -673,7 +673,7 @@
           "zh": "為了種植－以種植為目的。",
           "examples": [
             {
-              "t": "Tmabun no siyao yayong xxoma mo trabus n'xali",
+              "t": "Tmabun mo siyao yayong xxoma mo trabus n'xali",
               "fr": "Je pioche (défonce) ce terrain le long du torrent pour planter rapidement mes arachides.",
               "en": "I am hoeing (breaking up) this ground along the torrent in order to plant my peanuts quickly.",
               "zh": "我在溪邊翻鬆這塊地，好趕快種我的花生。"
@@ -724,7 +724,7 @@
           "zh": "快死吧！你為什麼要礙著我們（你明明看得出你妨礙了我們！"
         },
         {
-          "t": "Ini ko xoqel do, Sugun no n'xali ka knpaxan mo da!",
+          "t": "Ini ko xoqel do, Sugun mo n'xali ka knpaxan mo da!",
           "fr": "Avant de mourir (avant que je sois mort) je veux vite partager mes champs.",
           "en": "Before dying (before I am dead) I want to divide up my fields quickly.",
           "zh": "在我死之前（在我還沒死的時候），我想趕快把我的田分掉。"

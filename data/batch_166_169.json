@@ -70,7 +70,7 @@
       "en": "To soak (in water).",
       "zh": "浸泡（在水裡）。",
       "examples": [
-        { "t": "Saon no lnbu ksia ka lukus no", "fr": "Je vais tremper mes habits dans l'eau", "en": "I'm going to soak my clothes in the water.", "zh": "我要把我的衣服泡在水裡。" }
+        { "t": "Saon mo lnbu ksia ka lukus mo", "fr": "Je vais tremper mes habits dans l'eau", "en": "I'm going to soak my clothes in the water.", "zh": "我要把我的衣服泡在水裡。" }
       ],
       "subs": [
         {
@@ -142,7 +142,7 @@
       "en": "To enter (in order to be inside) - Entrance - penetration.",
       "zh": "進入（為了在裡面）－入口－進入。",
       "examples": [
-        { "t": "Q'ling bi ka lmuxan qeuni (qouni), ini mo d'xqe pl'mux ka walae", "fr": "Le trou de l'aiguille est très fin, je n'arrive pas à y faire entrer (enfiler) le fil.", "en": "The eye of the needle is very fine; I can't manage to get the thread through (thread it).", "zh": "針的孔很細，我沒辦法把線穿進去（穿線）。" }
+        { "t": "Q'ling bi ka lmuxan qeumi (qouni), ini mo d'xqe pl'mux ka walae", "fr": "Le trou de l'aiguille est très fin, je n'arrive pas à y faire entrer (enfiler) le fil.", "en": "The eye of the needle is very fine; I can't manage to get the thread through (thread it).", "zh": "針的孔很細，我沒辦法把線穿進去（穿線）。" }
       ],
       "subs": [
         {
@@ -180,8 +180,8 @@
           "en": "The place through which to pass or make something enter.",
           "zh": "讓東西通過、穿入的地方。",
           "examples": [
-            { "t": "Stok(stoq) ko niing plmuxan uusa no pglaxol laxol daxa ka laqe mo.", "fr": "Je me casse la tête pour trouver le moyen (le passage) pour faire pénétrer mon gosse dans leur assemblée.", "en": "I'm racking my brains to find the means (the way) to get my kid into their group.", "zh": "我絞盡腦汁，想找到辦法（門路）讓我的孩子進入他們的圈子。" },
-            { "t": "Ana no si sp'ngi o, soqe paro ka ddima nii,ini toko ka plmuxan", "fr": "J'ai beau mesurer, ce bambou est bien trop gros, le trou (l'ouverture) ne suffit pas.", "en": "No matter how I measure it, this bamboo is far too big; the hole (opening) isn't big enough.", "zh": "我怎麼量，這根竹子都太粗了，孔（開口）不夠大。" }
+            { "t": "Stok(stoq) ko niing plmuxan uusa mo pglaxol laxol daxa ka laqe mo.", "fr": "Je me casse la tête pour trouver le moyen (le passage) pour faire pénétrer mon gosse dans leur assemblée.", "en": "I'm racking my brains to find the means (the way) to get my kid into their group.", "zh": "我絞盡腦汁，想找到辦法（門路）讓我的孩子進入他們的圈子。" },
+            { "t": "Ana mo si sp'ngi o, soqe paro ka ddima nii,ini toko ka plmuxan", "fr": "J'ai beau mesurer, ce bambou est bien trop gros, le trou (l'ouverture) ne suffit pas.", "en": "No matter how I measure it, this bamboo is far too big; the hole (opening) isn't big enough.", "zh": "我怎麼量，這根竹子都太粗了，孔（開口）不夠大。" }
           ]
         }
       ]
@@ -203,7 +203,7 @@
       "en": "Play - teasing.",
       "zh": "玩笑－戲弄。",
       "examples": [
-        { "t": "Uxai no lnao", "fr": "Je ne plaisante pas (ce n'est pas ma taquinerie, ma plaisanterie).", "en": "I'm not joking (this isn't my teasing, my joke).", "zh": "我不是在開玩笑（這不是我的戲弄、我的玩笑）。" }
+        { "t": "Uxai mo lnao", "fr": "Je ne plaisante pas (ce n'est pas ma taquinerie, ma plaisanterie).", "en": "I'm not joking (this isn't my teasing, my joke).", "zh": "我不是在開玩笑（這不是我的戲弄、我的玩笑）。" }
       ],
       "subs": [
         {
@@ -230,7 +230,7 @@
           "en": "For teasing - for fun - for joking.",
           "zh": "用來戲弄－用來取樂－用來開玩笑。",
           "examples": [
-            { "t": "Ya tooqo! Sl'nao no nanak ka kia", "fr": "Ne te vexe pas ! Cela était pour plaisanter !", "en": "Don't take offense! That was just for a joke!", "zh": "別生氣！那只是開玩笑而已！" }
+            { "t": "Ya tooqo! Sl'nao mo nanak ka kia", "fr": "Ne te vexe pas ! Cela était pour plaisanter !", "en": "Don't take offense! That was just for a joke!", "zh": "別生氣！那只是開玩笑而已！" }
           ]
         }
       ]
@@ -275,7 +275,7 @@
           "en": "The speaker - the orator.",
           "zh": "說話者－演說者。",
           "examples": [
-            { "t": "Yako nanak ka ml'ngao, ya sqoaq ka yano!", "fr": "C'est moi seul qui parle, vous autres taisez vous.", "en": "I'm the only one who speaks; the rest of you, be quiet.", "zh": "只有我一個人說話，你們其他人安靜！" }
+            { "t": "Yako nanak ka ml'ngao, ya sqoaq ka yamo!", "fr": "C'est moi seul qui parle, vous autres taisez vous.", "en": "I'm the only one who speaks; the rest of you, be quiet.", "zh": "只有我一個人說話，你們其他人安靜！" }
           ]
         },
         {
@@ -284,7 +284,7 @@
           "en": "The thing said - time, place of speaking.",
           "zh": "所說的話－說話的時間、地點。",
           "examples": [
-            { "t": "Kia ka lngagan no", "fr": "C'est ce que je dis.", "en": "That's what I say.", "zh": "那就是我說的話。" },
+            { "t": "Kia ka lngagan mo", "fr": "C'est ce que je dis.", "en": "That's what I say.", "zh": "那就是我說的話。" },
             { "t": "Lnngagan ko na ka Pisao", "fr": "C'est Pissao qui me l'a dit.", "en": "It was Pisao who told me.", "zh": "是Pisao告訴我的。" }
           ]
         },
@@ -303,8 +303,8 @@
           "en": "To discuss - to make talk - to exchange words.",
           "zh": "討論－使人說話－交換意見。",
           "examples": [
-            { "t": "Mnssli nani ppl'ngao sao ddaon ta saman", "fr": "Nous(sans toi)nous sommes réunis pour discuter ce que nous (avec toi) ferons demain.", "en": "We (without you) have gathered to discuss what we (with you) will do tomorrow.", "zh": "我們（不包括你）聚在一起，討論我們（連你一起）明天要做的事。" },
-            { "t": "Ya sl'xbun; nyeqan plngagan nani", "fr": "Sois sans souci; nous en avons déjà discuté.", "en": "Don't worry; we've already discussed it.", "zh": "別擔心；我們已經討論過了。" }
+            { "t": "Mnssli nami ppl'ngao sao ddaon ta saman", "fr": "Nous(sans toi)nous sommes réunis pour discuter ce que nous (avec toi) ferons demain.", "en": "We (without you) have gathered to discuss what we (with you) will do tomorrow.", "zh": "我們（不包括你）聚在一起，討論我們（連你一起）明天要做的事。" },
+            { "t": "Ya sl'xbun; nyeqan plngagan nami", "fr": "Sois sans souci; nous en avons déjà discuté.", "en": "Don't worry; we've already discussed it.", "zh": "別擔心；我們已經討論過了。" }
           ]
         },
         {
@@ -352,7 +352,7 @@
           "en": "To whine - to moan - to complain.",
           "zh": "哼叫－呻吟－抱怨。",
           "examples": [
-            { "t": "Paro bi mnalox na ! Nbaxang bi bilat no o (bnaxang bi bilat no o), lmnngat kingal labe ska'man ka xea", "fr": "Il est gravement malade! D'après ce que mes oreilles ont entendu, il a gémi tout au long de la nuit passée.", "en": "He is gravely ill! From what my ears have heard, he moaned all through last night.", "zh": "他病得很重！據我耳朵所聽到的，他昨晚整夜都在呻吟。" }
+            { "t": "Paro bi mnalox na ! Nbaxang bi bilat mo o (bnaxang bi bilat mo o), lmnngat kingal labe ska'man ka xea", "fr": "Il est gravement malade! D'après ce que mes oreilles ont entendu, il a gémi tout au long de la nuit passée.", "en": "He is gravely ill! From what my ears have heard, he moaned all through last night.", "zh": "他病得很重！據我耳朵所聽到的，他昨晚整夜都在呻吟。" }
           ]
         },
         {
@@ -402,7 +402,7 @@
           "zh": "思考－反省。",
           "examples": [
             { "t": "Lmnglong ko o, uxai saman ka diyax sngayan ?", "fr": "(Mais) j'y pense: Ce n'est pas demain, dimanche ?", "en": "(But) come to think of it: isn't tomorrow Sunday?", "zh": "（不過）我想起來了：明天不就是星期日嗎？" },
-            { "t": "Musa o,ini usa o, lnglongun no xeti", "fr": "Aller ne pas aller: je verrai plus tard ( Je réfléchirai pour savoir si je vais ou ne vais pas).", "en": "To go or not to go: I'll see later (I'll think about whether I'm going or not).", "zh": "去還是不去：我以後再看（我會考慮要不要去）。" },
+            { "t": "Musa o,ini usa o, lnglongun mo xeti", "fr": "Aller ne pas aller: je verrai plus tard ( Je réfléchirai pour savoir si je vais ou ne vais pas).", "en": "To go or not to go: I'll see later (I'll think about whether I'm going or not).", "zh": "去還是不去：我以後再看（我會考慮要不要去）。" },
             { "t": "Lnglong balae ! Uxai yako ka naqex", "fr": "Réfléchis bien, ce n'est pas moi qui ai tort(qui suis méchant).", "en": "Think it over well; I'm not the one who is at fault (who is wicked).", "zh": "好好想想，錯的不是我（壞的不是我）。" }
           ]
         },
@@ -412,7 +412,7 @@
           "en": "For thinking - for reflecting.",
           "zh": "用來思考－用來反省。",
           "examples": [
-            { "t": "Ini toko diyax no ll'nglong ddaon", "fr": "Je n'ai pas assez de temps pour penser à l'avenir", "en": "I don't have enough time to think about the future.", "zh": "我沒有足夠的時間思考未來。" }
+            { "t": "Ini toko diyax mo ll'nglong ddaon", "fr": "Je n'ai pas assez de temps pour penser à l'avenir", "en": "I don't have enough time to think about the future.", "zh": "我沒有足夠的時間思考未來。" }
           ]
         },
         {
@@ -468,7 +468,7 @@
           "en": "That which is opposite - that which is right in front.",
           "zh": "位於對面的－位於正前方的。",
           "examples": [
-            { "t": "Ml'ngo bi sapax no ka sapax spoxan", "fr": "L'infirmerie est juste vis à vis de ma maison.", "en": "The infirmary is right opposite my house.", "zh": "醫務室就在我家正對面。" }
+            { "t": "Ml'ngo bi sapax mo ka sapax spoxan", "fr": "L'infirmerie est juste vis à vis de ma maison.", "en": "The infirmary is right opposite my house.", "zh": "醫務室就在我家正對面。" }
           ]
         },
         {
@@ -486,7 +486,7 @@
           "en": "Opposite - right in front (negative form? imperative?).",
           "zh": "正對面－正前方（否定形？命令形？）。",
           "examples": [
-            { "t": "Ma so niyax n'loq dnamux kl'ngo bi babao tqean no ?", "fr": "Pourquoi (qu'est ce qui te prend de)venir percer le toit juste au dessus de mon lit ?", "en": "Why (what's gotten into you) to come and pierce the roof right above my bed?", "zh": "你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？" }
+            { "t": "Ma so niyax n'loq dnamux kl'ngo bi babao tqean mo ?", "fr": "Pourquoi (qu'est ce qui te prend de)venir percer le toit juste au dessus de mon lit ?", "en": "Why (what's gotten into you) to come and pierce the roof right above my bed?", "zh": "你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？" }
           ]
         }
       ]

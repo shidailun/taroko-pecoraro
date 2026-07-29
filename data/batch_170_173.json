@@ -132,7 +132,7 @@
       "zh": "打算做－計劃。",
       "examples": [
         {
-          "t": "Lobang no musa madok (madop)",
+          "t": "Lobang mo musa madok (madop)",
           "fr": "En fait je compte aller à la chasse.",
           "en": "In fact I intend to go hunting.",
           "zh": "其實我打算去打獵。"
@@ -153,7 +153,7 @@
           "zh": "蓋住－覆蓋－遮蔽。",
           "examples": [
             {
-              "t": "Lmobong ko payai no sayang, iso ka (isoka) npkoyoç",
+              "t": "Lmobong ko payai mo sayang, iso ka (isoka) npkoyoç",
               "fr": "Je recouvre mon paddy maintenant puisqu'on dirait qu'il va pleuvoir !",
               "en": "I am covering my rice paddy now since it looks like it's going to rain!",
               "zh": "我現在把稻穀蓋起來，因為看起來要下雨了！"
@@ -167,19 +167,19 @@
           "zh": "覆蓋物－被蓋住的東西。",
           "examples": [
             {
-              "t": "Xeaon so ka qabang ? Lbongun so nanu ? ... Lobang no lmobong trabus, ongat ka lbongan no",
+              "t": "Xeaon so ka qabang ? Lbongun so nanu ? ... Lobang mo lmobong trabus, ongat ka lbongan mo",
               "fr": "Pourquoi cette couverture? Que vas tu en faire? ... Je pensais en recouvrir mes arachides; je n'ai rien pour les couvrir !",
               "en": "Why this cover? What will you do with it? ... I was thinking of covering my peanuts with it; I have nothing to cover them with!",
               "zh": "這塊蓋布做什麼用？你要拿它做什麼？……我本想用它蓋我的花生；我沒有東西可以蓋它們！"
             },
             {
-              "t": "Wada no lbongan s'xiga ka bonga",
+              "t": "Wada mo lbongan s'xiga ka bonga",
               "fr": "Je les ai recouvertes hier, les patates douces.",
               "en": "I covered them yesterday, the sweet potatoes.",
               "zh": "我昨天把地瓜蓋好了。"
             },
             {
-              "t": "Wada no l'bngan (lb'ngan) s'xiga ka bonga",
+              "t": "Wada mo l'bngan (lb'ngan) s'xiga ka bonga",
               "fr": "Je les ai enterrées hier, les patates douces.",
               "en": "I buried them yesterday, the sweet potatoes.",
               "zh": "我昨天把地瓜埋起來了。"
@@ -236,7 +236,7 @@
           "zh": "築巢－築自己的巢。",
           "examples": [
             {
-              "t": "Pusu qliyut bukwi sapax no,kika yaxan bi lmobo kana ka qbxni",
+              "t": "Pusu qliyut bukwi sapax mo,kika yaxan bi lmobo kana ka qbxni",
               "fr": "C'est sur le mûrier qui est derrière chez moi que les oiseaux aiment bien venir faire leur nid.",
               "en": "It is on the mulberry tree behind my house that the birds love to come and build their nests.",
               "zh": "鳥兒最喜歡到我家後面的桑樹上築巢。"
@@ -250,7 +250,7 @@
           "zh": "凌亂－變成鳥窩（？）。",
           "examples": [
             {
-              "t": "Ida mlodo kddiyax ka tqean no",
+              "t": "Ida mlodo kddiyax ka tqean mo",
               "fr": "C'est tous les jours que mon lit est en désordre !",
               "en": "My bed is in a mess every single day!",
               "zh": "我的床每天都亂七八糟！"
@@ -369,7 +369,7 @@
       "zh": "瓶子。",
       "examples": [
         {
-          "t": "Ongat sinao sapax no; ana kingal bi longao o, ngat.",
+          "t": "Ongat sinao sapax mo; ana kingal bi longao o, ngat.",
           "fr": "Il n'y a pas d'alcool chez moi, même pas une seule bouteille",
           "en": "There is no alcohol at my place, not even a single bottle.",
           "zh": "我家沒有酒，連一瓶也沒有。"
@@ -411,7 +411,7 @@
               "zh": "母雞的十二顆蛋全都孵化了。"
             },
             {
-              "t": "Ga mloq muxeng ka kating no",
+              "t": "Ga mloq muxeng ka kating mo",
               "fr": "Mon buffle a le nez percé (trou dans le museau dans lequel doit passer un anneau par lequel le buffle est attaché,conduit)",
               "en": "My buffalo has its nose pierced (a hole in the muzzle through which a ring must pass, by which the buffalo is tethered and led).",
               "zh": "我的水牛鼻子穿了孔（口鼻上有個洞，要穿過一個環，用來拴住並牽引水牛）。"
@@ -426,7 +426,7 @@
           "zh": "刺穿－打洞。",
           "examples": [
             {
-              "t": "Ya bi plqe (pl'qe) ka sxnoan babwi so; ddiyun no",
+              "t": "Ya bi plqe (pl'qe) ka sxnoan babwi so; ddiyun mo",
               "fr": "Ne perce pas cette vessie de cochon; j'en ferai usage.",
               "en": "Don't pierce this pig's bladder; I'll make use of it.",
               "zh": "別刺破這個豬膀胱；我還要用它。"
@@ -472,7 +472,7 @@
           "zh": "會爆裂的－會爆炸的－爆裂－爆炸。",
           "examples": [
             {
-              "t": "Mnsploq s'xiga ka txoan no",
+              "t": "Mnsploq s'xiga ka txoan mo",
               "fr": "Mon fourneau a explosé hier.",
               "en": "My stove exploded yesterday.",
               "zh": "我的爐灶昨天爆炸了。"
@@ -701,7 +701,7 @@
           "zh": "淚汪汪的－像淚水般滲流的。",
           "examples": [
             {
-              "t": "Asi bi sloso kana daolyaq no",
+              "t": "Asi bi sloso kana daolyaq mo",
               "fr": "A tel point que mes yeux sont pleins de larmes.",
               "en": "To such a point that my eyes are full of tears.",
               "zh": "以致於我雙眼滿是淚水。"

@@ -106,7 +106,7 @@
       "en": "Bewitched - victim of an evil spirit.",
       "zh": "被施法的 - 惡靈的受害者。",
       "examples": [
-        { "t": "Kingal nanak ka laqe no ! Ida bi ga mxouni", "fr": "Mon gosse est tout drôle! Peut-être est il ensorcelé !", "en": "My kid is acting all strange! Perhaps he is bewitched!", "zh": "我的孩子很不對勁！也許他被下了咒！" }
+        { "t": "Kingal nanak ka laqe mo ! Ida bi ga mxouni", "fr": "Mon gosse est tout drôle! Peut-être est il ensorcelé !", "en": "My kid is acting all strange! Perhaps he is bewitched!", "zh": "我的孩子很不對勁！也許他被下了咒！" }
       ],
       "subs": []
     },
@@ -136,8 +136,8 @@
         { "t": "Ntaan mo", "fr": "Ce que j'ai vu;", "en": "What I saw;", "zh": "我所看見的；" },
         { "t": "Musa ko", "fr": "Je vais;", "en": "I go / I am going;", "zh": "我去；" },
         { "t": "Mnusa ko", "fr": "J'allais;", "en": "I was going / I went;", "zh": "我以前去／我去過；" },
-        { "t": "Nusa no", "fr": "Mon aller, passé, réalisé;", "en": "My going, past, accomplished;", "zh": "我的行程，過去、已完成；" },
-        { "t": "Pnsaan no", "fr": "L'envoi que j'ai fait.", "en": "The sending that I made.", "zh": "我所做的差遣。" }
+        { "t": "Nusa mo", "fr": "Mon aller, passé, réalisé;", "en": "My going, past, accomplished;", "zh": "我的行程，過去、已完成；" },
+        { "t": "Pnsaan mo", "fr": "L'envoi que j'ai fait.", "en": "The sending that I made.", "zh": "我所做的差遣。" }
       ],
       "subs": []
     },
@@ -305,7 +305,7 @@
           "en": "(the means) that causes the harm, the illness.",
           "zh": "引起病痛、疾病的（媒介）。",
           "examples": [
-            { "t": "Mninax so tla'to ksia ska'nan o, kia ka sknalox l'xbun so", "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.", "en": "You drank cold water last night, that is what is hurting your stomach.", "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。" }
+            { "t": "Mninax so tla'to ksia ska'man o, kia ka sknalox l'xbun so", "fr": "Tu as bu de l'eau froide hier soir, voilà ce qui te fait mal à l'estomac.", "en": "You drank cold water last night, that is what is hurting your stomach.", "zh": "你昨晚喝了冷水，這就是害你胃痛的原因。" }
           ]
         }
       ]
@@ -440,7 +440,7 @@
       "zh": "獨自 - 只 - 唯獨。",
       "examples": [
         { "t": "Kingal nanak", "fr": "1) un seul - rien qu'un; 2) Spécial - étrange.", "en": "1) a single one - just one; 2) special - strange.", "zh": "1) 單獨一個 - 只有一個；2) 特別的 - 奇怪的。" },
-        { "t": "Kuxul (no, so, na, ta) nanak", "fr": "A (ma, ta, sa, notre,) guise.", "en": "As (my, your, his, our) own liking.", "zh": "隨（我的、你的、他的、我們的）意。" },
+        { "t": "Kuxul (mo, so, na, ta) nanak", "fr": "A (ma, ta, sa, notre,) guise.", "en": "As (my, your, his, our) own liking.", "zh": "隨（我的、你的、他的、我們的）意。" },
         { "t": "Lnglongan so nanak", "fr": "comme tu voudras.", "en": "as you wish.", "zh": "隨你所願。" },
         { "t": "Usa nanak", "fr": "Va seulement - tu n'as qu'à aller. - Va toi même.", "en": "Just go - you only have to go. - Go yourself.", "zh": "只管去 - 你儘管去就是。 - 你自己去。" }
       ],
@@ -488,7 +488,7 @@
           "en": "(PN + NANAK) — In the manner of a single one - alone - each for himself.",
           "zh": "（PN + NANAK）像單獨一人那樣 - 獨自 - 各自為己。",
           "examples": [
-            { "t": "Usa nanak pnnanak ka yano llisao", "fr": "Vous les jeunes gens allez donc chacun pour votre compte (sans compter sur les autres - sans la compagnie des autres.).", "en": "You young people, go each on your own account (without counting on others - without the company of others).", "zh": "你們年輕人各自去吧（別依靠他人 - 別要他人作伴）。" }
+            { "t": "Usa nanak pnnanak ka yamo llisao", "fr": "Vous les jeunes gens allez donc chacun pour votre compte (sans compter sur les autres - sans la compagnie des autres.).", "en": "You young people, go each on your own account (without counting on others - without the company of others).", "zh": "你們年輕人各自去吧（別依靠他人 - 別要他人作伴）。" }
           ]
         },
         {
@@ -497,7 +497,7 @@
           "en": "Separation - the moment when each is for himself.",
           "zh": "分離 - 各自為己的時刻。",
           "examples": [
-            { "t": "Ya bi sknuan ka pngnnakan namo yano Iban?", "fr": "Mais quand est ce donc que vous vous êtes séparés Ibanne et toi ?", "en": "But when did you and Iban actually separate?", "zh": "那你和 Iban 到底是什麼時候分開的？" }
+            { "t": "Ya bi sknuan ka pngnnakan namo yamo Iban?", "fr": "Mais quand est ce donc que vous vous êtes séparés Ibanne et toi ?", "en": "But when did you and Iban actually separate?", "zh": "那你和 Iban 到底是什麼時候分開的？" }
           ]
         },
         {

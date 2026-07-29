@@ -93,7 +93,7 @@
               "zh": "快點康復！我們現在有很多工作。"
             },
             {
-              "t": "Ana no si spoxe o, ini kmalu ka tunuç no",
+              "t": "Ana mo si spoxe o, ini kmalu ka tunuç mo",
               "fr": "J'ai beau me soigner, ma tête ne guérit pas !",
               "en": "No matter how I treat myself, my head won't get better!",
               "zh": "我再怎麼醫治，我的頭還是不好！"
@@ -162,7 +162,7 @@
               "zh": "不是我把你治好的嗎？"
             },
             {
-              "t": "Psaon niso natas ppkmalu no ka tunuç so",
+              "t": "Psaon niso natas ppkmalu mo ka tunuç so",
               "fr": "Je veux t'envoyer un peu étudier pour te remettre un peu la tête en place (pour rendre ta tête bonne).",
               "en": "I want to send you to study a little to set your head straight (to make your head good).",
               "zh": "我想送你去讀點書，好讓你的頭腦清醒一點（讓你的頭腦變好）。"
@@ -213,7 +213,7 @@
       "zh": "（這真的是太魯閣語詞根嗎？）＝ 橘子。",
       "examples": [
         {
-          "t": "Nxmaan sktana no ka pusu mami bukwi sapax so",
+          "t": "Nxmaan sktana mo ka pusu mami bukwi sapax so",
           "fr": "C'est feu mon père qui a planté l'oranger qui est derrière ta maison.",
           "en": "It was my late father who planted the orange tree behind your house.",
           "zh": "是我已故的父親種下你家後面的橘子樹。"
@@ -244,7 +244,7 @@
           "en": "to become what?",
           "zh": "變成什麼？",
           "examples": [
-            { "t": "Mmanu nano bi da", "fr": "Qu'est ce que vous êtes devenus ?", "en": "What have you become?", "zh": "你們變成怎樣了？" }
+            { "t": "Mmanu namo bi da", "fr": "Qu'est ce que vous êtes devenus ?", "en": "What have you become?", "zh": "你們變成怎樣了？" }
           ]
         },
         {
@@ -302,7 +302,7 @@
       "zh": "肥皂樹——肥皂——專有名詞。",
       "examples": [
         {
-          "t": "Bulax bi s'xiga ka masak no ni, ongat da! Ya wada ino? ... Wada no ddiyun sbaxo no lukus da",
+          "t": "Bulax bi s'xiga ka masak mo ni, ongat da! Ya wada ino? ... Wada mo ddiyun sbaxo mo lukus da",
           "fr": "Il était neuf hier, mon morceau de savon et il n'y en a plus ! Où est il donc passé ? ... Je m'en suis servi pour laver les habits.",
           "en": "It was new yesterday, my bar of soap, and now there's none left! Where has it gone? ... I used it to wash the clothes.",
           "zh": "我的肥皂昨天還是新的，現在卻沒了！它到哪去了？……我拿去洗衣服了。"
@@ -356,7 +356,7 @@
             { "t": "Mkmaspat ko da xeni", "fr": "Voilà déjà huit jours que je suis là.", "en": "I have already been here eight days.", "zh": "我已經在這裡八天了。" },
             { "t": "Mkmaspat diyax sida ka laqe", "fr": "L'enfant était âgé de huit jours à ce moment là.", "en": "The child was eight days old at that time.", "zh": "那時孩子八天大。" },
             {
-              "t": "Mkmaspat idas ka nsaan no bbuyo",
+              "t": "Mkmaspat idas ka nsaan mo bbuyo",
               "fr": "C'est pendant huit mois que je suis allé (resté) à la chasse.",
               "en": "It was for eight months that I went (stayed) hunting.",
               "zh": "我去（待在）山上打獵有八個月之久。"
@@ -417,7 +417,7 @@
           "en": "Six times (actual/completed).",
           "zh": "六次（實際完成）。",
           "examples": [
-            { "t": "Mnmatalo ka nyaxan no skawas", "fr": "L'an passé je suis venu six fois.", "en": "Last year I came six times.", "zh": "去年我來了六次。" }
+            { "t": "Mnmatalo ka nyaxan mo skawas", "fr": "L'an passé je suis venu six fois.", "en": "Last year I came six times.", "zh": "去年我來了六次。" }
           ]
         },
         {
@@ -583,7 +583,7 @@
           "zh": "MILIT 的斜格形。",
           "examples": [
             {
-              "t": "Byeqon no mlitan ka qliyut",
+              "t": "Byeqon mo mlitan ka qliyut",
               "fr": "Ces feuilles de mûrier je veux les donner aux chèvres.",
               "en": "These mulberry leaves, I want to give them to the goats.",
               "zh": "這些桑葉，我想拿給山羊吃。"

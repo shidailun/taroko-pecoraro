@@ -460,7 +460,7 @@
           "zh": "不是我！"
         },
         {
-          "t": "Iso ka mniyax sapax no ska'man ? ... Uxai!",
+          "t": "Iso ka mniyax sapax mo ska'man ? ... Uxai!",
           "fr": "C'est toi qui es venu chez moi la nuit dernière ? ... Non!",
           "en": "Is it you who came to my house last night? ... No!",
           "zh": "昨晚是你來我家嗎？……不是！"
@@ -533,7 +533,7 @@
       "zh": "不變的虛詞，意為：已離去－過去、狀態或動作的完成貌－某存在物的消失。",
       "examples": [
         {
-          "t": "Wada ka tama no da",
+          "t": "Wada ka tama mo da",
           "fr": "Mo père est déjà parti.",
           "en": "My father has already left.",
           "zh": "我父親已經走了。"

@@ -49,6 +49,8 @@ def tkey(t):
     return (t.lower().replace("’", "'").replace("ʼ", "'").replace('"', "'")
             .replace("ʔ", "'").replace("ł", "l"))
 
+ELISION_RE = re.compile("['’ʼ\"ʔ]")
+
 def norm(w):
     # Pecoraro's ç is modern x (tunuç>tunux, otoç>utux) — map before NFD strips it
     w = (w or "").replace("ç", "x").replace("Ç", "X")
@@ -339,6 +341,16 @@ def aggressive(w):
     for i, c in enumerate(w[:-1]):
         if c in "eau" and 0 < i < len(w) - 1:
             outs.add(w[:i] + w[i + 1:])
+    # Pecoraro writes a palatal glide where modern Truku writes the vowel itself:
+    # his y + a/e/o before a consonant is one modern i. NYAQAN 有 is `niqan`
+    # (2170x in speech), MNYEQ 居住 is `mniq` (491x), BYEQON 給 is `biqun`,
+    # GALYEQ 布料 is `galiq`, QDOLYAQ 逃跑 is `qduriq`, PUNYAQ 火 is `puniq`,
+    # XOLYAQ 濕 is `huriq` — which the blind fallback was rendering *huryaq*.
+    # It lives here and not in contextual() because the shape it produces is a
+    # real word often enough to fool an attestation-only test: SUMYAQ 體蝨 is not
+    # `sumiq` 草莓, BASYAQ 暴飲暴食 is not `basiq` (a tree), PUSYAQ 眼屎 is not
+    # `pusiq` (a man's name), YAQ 田裡的活 is not `iq` 好. Gloss proof decides.
+    outs.add(re.sub(r"y[aeo](?=[^aeiou\W])", "i", w))
     # q/k are inconsistent in Pecoraro (kmpax>qmpah, betak>bitaq) — single swaps
     for i, c in enumerate(w):
         if c == "k":
@@ -1228,6 +1240,25 @@ def main():
         if pl != rec["modern"]:
             rec["diacritics_dropped"] = rec["modern"]
             rec["modern"] = pl
+
+    # Nor does anything leave carrying his elision marks. Pecoraro writes ' and "
+    # where he heard a schwa; the modern orthography writes nothing at all, on the
+    # same principle that gives Truku dxgal, mkla, tmlung. Measured across the
+    # three modern corpora: ONE token in 39,889 contains an apostrophe, and it is
+    # a typo (`kiya hug'`). The marks were surviving because the identity tier
+    # hands back HIS token whenever the attested spelling matches (`d'xgal` norms
+    # to the attested `dxgal`, so disp == n and he was echoed verbatim), and the
+    # projection tiers then inherited a marked stem: 312 types / 921 occurrences
+    # on screen, `d'xgal` 土地 x49, `mk'la` 知道 x39, `'bi` x15. Stripping is not a
+    # guess — for 111 of the 120 identity cases the bare form is the attested
+    # modern word, usually a very common one (dxgal 662 in speech, mkla 671,
+    # bi 6292). It runs after the tiers rather than inside plain(), which is also
+    # used to compare against his token where the mark still has to be there.
+    for rec in result.values():
+        bare = ELISION_RE.sub("", rec["modern"])
+        if bare != rec["modern"]:
+            rec["elision_dropped"] = rec["modern"]
+            rec["modern"] = bare
 
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},

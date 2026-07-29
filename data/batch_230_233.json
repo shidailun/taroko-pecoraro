@@ -29,7 +29,7 @@
           "zh": "第二次－共二十。",
           "examples": [
             { "t": "Mpusal ko lima xnkawas", "fr": "J'ai vingt-cinq ans (Je suis de vingt-cinq ans).", "en": "I am twenty-five years old (I am of twenty-five years).", "zh": "我二十五歲（我是二十五歲的人）。" },
-            { "t": "Mpusal ko musa nita wana no da", "fr": "Voilà la deuxième fois que je vais visiter les pièges (mes pièges).(MPUSAL plus un chiffre signifie toujours : vingt.)", "en": "This is the second time I go to check the traps (my traps). (MPUSAL plus a number always means: twenty.)", "zh": "這是我第二次去查看陷阱（我的陷阱）。（MPUSAL 加上一個數字時，總是表示「二十」。）" }
+            { "t": "Mpusal ko musa nita wana mo da", "fr": "Voilà la deuxième fois que je vais visiter les pièges (mes pièges).(MPUSAL plus un chiffre signifie toujours : vingt.)", "en": "This is the second time I go to check the traps (my traps). (MPUSAL plus a number always means: twenty.)", "zh": "這是我第二次去查看陷阱（我的陷阱）。（MPUSAL 加上一個數字時，總是表示「二十」。）" }
           ]
         },
         {
@@ -175,7 +175,7 @@
           "zh": "使成為根源－安置－使成為當事者－賦予權柄。",
           "examples": [
             { "t": "Ngalun daxa ka Laoken pptpusu xeaan gnluban daxa", "fr": "Ils veulent prendre Laokenne pour en faire le responsable de leur association.", "en": "They want to take Laoken to make him the head of their association.", "zh": "他們想推舉勞肯（Laoken）擔任他們社團的負責人。" },
-            { "t": "Mptpusu ko sunan mkalang nani", "fr": "Je t'intègre à notre village (je te fais membre de notre village).", "en": "I incorporate you into our village (I make you a member of our village).", "zh": "我把你納入我們的部落（讓你成為我們部落的一員）。" }
+            { "t": "Mptpusu ko sunan mkalang nami", "fr": "Je t'intègre à notre village (je te fais membre de notre village).", "en": "I incorporate you into our village (I make you a member of our village).", "zh": "我把你納入我們的部落（讓你成為我們部落的一員）。" }
           ]
         },
         {

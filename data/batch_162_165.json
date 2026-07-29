@@ -56,7 +56,7 @@
           "en": "To quintuple - in five layers.",
           "zh": "使成五倍－五層。",
           "examples": [
-            { "t": "Snlima ka wada no psaan penki", "fr": "J'en ai mis cinq couches de peinture.", "en": "I have put on five coats of paint.", "zh": "我塗了五層漆。" },
+            { "t": "Snlima ka wada mo psaan penki", "fr": "J'en ai mis cinq couches de peinture.", "en": "I have put on five coats of paint.", "zh": "我塗了五層漆。" },
             { "t": "Mskoto kana xei mo ana ko msnlima mxelao qabang", "fr": "J'ai la chair de poule (sur tout le corps) bien que je me sois couvert de cinq couvertures.", "en": "I have goosebumps (all over my body) even though I have covered myself with five blankets.", "zh": "雖然我蓋了五條被子，（全身）還是起雞皮疙瘩。" }
           ]
         }
@@ -271,7 +271,7 @@
           "en": "The act of anointing - ointment - place of anointing.",
           "zh": "塗油的動作－藥膏－塗油之處。",
           "examples": [
-            { "t": "Kmlisox ko qaqai so ni, ongal ka lsoxan no da (lsoxon no da ?)", "fr": "Je voudrais bien enduire ton pied (de médicament mais) je n'ai plus d'onguent.", "en": "I would like to coat your foot (with medicine but) I have no more ointment.", "zh": "我很想幫你的腳塗藥（但）我沒有藥膏了。" },
+            { "t": "Kmlisox ko qaqai so ni, ongal ka lsoxan mo da (lsoxon mo da ?)", "fr": "Je voudrais bien enduire ton pied (de médicament mais) je n'ai plus d'onguent.", "en": "I would like to coat your foot (with medicine but) I have no more ointment.", "zh": "我很想幫你的腳塗藥（但）我沒有藥膏了。" },
             { "t": "Lnsoxan bi ima ka muxeng so?", "fr": "Qui est ce qui a badigeonné ton nez?", "en": "Who is it that daubed your nose?", "zh": "是誰在你鼻子上塗了東西？" }
           ]
         },
@@ -281,8 +281,8 @@
           "en": "To have oneself coated - to have oneself daubed.",
           "zh": "讓人替自己塗抹－讓人替自己塗刷。",
           "examples": [
-            { "t": "Tmalang ko uusa mo Banan splisox no xwinuk", "fr": "Je cours pour aller chez Ibanne me faire mettre de la pommade sur les reins.", "en": "I run to go to Ibanne's place to have ointment put on my lower back.", "zh": "我跑去伊班那裡，讓人在我腰上塗藥膏。" },
-            { "t": "Ga snqleqe ka papaq no; miyax ko plisox (pslisox ?) tityeq", "fr": "Mon pied s'est tordu, je viens me faire mettre un peu de pommade.", "en": "My foot got twisted; I come to have a little ointment put on.", "zh": "我的腳扭到了，我來讓人塗一點藥膏。" }
+            { "t": "Tmalang ko uusa mo Banan splisox mo xwinuk", "fr": "Je cours pour aller chez Ibanne me faire mettre de la pommade sur les reins.", "en": "I run to go to Ibanne's place to have ointment put on my lower back.", "zh": "我跑去伊班那裡，讓人在我腰上塗藥膏。" },
+            { "t": "Ga snqleqe ka papaq mo; miyax ko plisox (pslisox ?) tityeq", "fr": "Mon pied s'est tordu, je viens me faire mettre un peu de pommade.", "en": "My foot got twisted; I come to have a little ointment put on.", "zh": "我的腳扭到了，我來讓人塗一點藥膏。" }
           ]
         }
       ]
@@ -304,7 +304,7 @@
       "en": "A plot of land - a corner of land, of field, clearly bounded.",
       "zh": "一塊地－界線分明的一角土地、田地。",
       "examples": [
-        { "t": "Daxa litok nii do, nbaki no ka kingal, nnako ka kingal", "fr": "(De) ces deux champs, l'un est à mon beau-père, l'autre est à moi.", "en": "Of these two fields, one belongs to my father-in-law, the other belongs to me.", "zh": "這兩塊田，一塊是我岳父的，另一塊是我的。" }
+        { "t": "Daxa litok nii do, nbaki mo ka kingal, nnako ka kingal", "fr": "(De) ces deux champs, l'un est à mon beau-père, l'autre est à moi.", "en": "Of these two fields, one belongs to my father-in-law, the other belongs to me.", "zh": "這兩塊田，一塊是我岳父的，另一塊是我的。" }
       ]
     },
     {
@@ -332,7 +332,7 @@
           "en": "To drive away - to make leave - to keep at a distance.",
           "zh": "驅趕－使離開－使遠離。",
           "examples": [
-            { "t": "Taga xan ! Saon no pnais lmiwak kating da", "fr": "Attends un peu, je vais juste chasser le buffle.", "en": "Wait a bit, I'm just going to drive away the buffalo.", "zh": "等一下，我正要去趕水牛。" }
+            { "t": "Taga xan ! Saon mo pnais lmiwak kating da", "fr": "Attends un peu, je vais juste chasser le buffle.", "en": "Wait a bit, I'm just going to drive away the buffalo.", "zh": "等一下，我正要去趕水牛。" }
           ]
         },
         {
@@ -350,7 +350,7 @@
           "en": "To have (something) driven away - to have (them) driven away.",
           "zh": "使人去驅趕－讓人替自己驅趕。",
           "examples": [
-            { "t": "Psaon no laqe musa pliwak lngdi da", "fr": "Je vais envoyer le gosse pour aller chasser les mouches.", "en": "I'm going to send the kid to go drive away the flies.", "zh": "我要派那孩子去趕蒼蠅。" }
+            { "t": "Psaon mo laqe musa pliwak lngdi da", "fr": "Je vais envoyer le gosse pour aller chasser les mouches.", "en": "I'm going to send the kid to go drive away the flies.", "zh": "我要派那孩子去趕蒼蠅。" }
           ]
         }
       ]
@@ -362,7 +362,7 @@
       "en": "Thin - thinness.",
       "zh": "瘦－消瘦。",
       "examples": [
-        { "t": "Pax liwang nia ka klaon no rinalox na", "fr": "C'est en regardant sa maigreur que je reconnais sa maladie.", "en": "It is by looking at his thinness that I recognize his illness.", "zh": "我是看他消瘦才認出他生病了。" }
+        { "t": "Pax liwang nia ka klaon mo rinalox na", "fr": "C'est en regardant sa maigreur que je reconnais sa maladie.", "en": "It is by looking at his thinness that I recognize his illness.", "zh": "我是看他消瘦才認出他生病了。" }
       ],
       "subs": [
         {
@@ -380,7 +380,7 @@
           "en": "Degree of thinness.",
           "zh": "消瘦的程度。",
           "examples": [
-            { "t": "Ini so kliwang ka iso ! Tai bi knliwang no ka yako", "fr": "Toi, tu n'es pas maigre! Regarde un peu ma maigreur à moi !", "en": "You, you are not thin! Just look at my own thinness!", "zh": "你才不瘦呢！看看我這消瘦的樣子吧！" }
+            { "t": "Ini so kliwang ka iso ! Tai bi knliwang mo ka yako", "fr": "Toi, tu n'es pas maigre! Regarde un peu ma maigreur à moi !", "en": "You, you are not thin! Just look at my own thinness!", "zh": "你才不瘦呢！看看我這消瘦的樣子吧！" }
           ]
         },
         {
@@ -389,7 +389,7 @@
           "en": "To make (someone/something) become thin - to make (them) lose weight.",
           "zh": "使變瘦－使消瘦。",
           "examples": [
-            { "t": "Adi splangun so balae pkliwang mlitan no da !", "fr": "ne ferais tu pas exprès de faire maigrir mes chèvres ?", "en": "Wouldn't you be deliberately making my goats lose weight?", "zh": "你該不會是故意讓我的山羊變瘦吧？" }
+            { "t": "Adi splangun so balae pkliwang mlitan mo da !", "fr": "ne ferais tu pas exprès de faire maigrir mes chèvres ?", "en": "Wouldn't you be deliberately making my goats lose weight?", "zh": "你該不會是故意讓我的山羊變瘦吧？" }
           ]
         },
         {
@@ -410,7 +410,7 @@
       "en": "Lightning - shining - to sparkle.",
       "zh": "閃電－明亮的－閃爍。",
       "examples": [
-        { "t": "Mnda blax no ka paro bi liwaq ! sao smiso bi!", "fr": "Un énorme éclair est passé juste devant moi; cela fait peur !", "en": "A huge flash of lightning passed right in front of me; it's frightening!", "zh": "一道巨大的閃電就從我面前掠過；真嚇人！" }
+        { "t": "Mnda blax mo ka paro bi liwaq ! sao smiso bi!", "fr": "Un énorme éclair est passé juste devant moi; cela fait peur !", "en": "A huge flash of lightning passed right in front of me; it's frightening!", "zh": "一道巨大的閃電就從我面前掠過；真嚇人！" }
       ],
       "subs": [
         {
@@ -437,7 +437,7 @@
           "en": "To make it be shiny.",
           "zh": "使其變得明亮。",
           "examples": [
-            { "t": "Lmnglong ko pkliwaq titiex toke no nii", "fr": "Je pense faire briller (rendre brillante) un peu ma montre.", "en": "I'm thinking of making my watch shine (making it shiny) a bit.", "zh": "我想把我的錶擦亮一點（使它發光）。" }
+            { "t": "Lmnglong ko pkliwaq titiex toke mo nii", "fr": "Je pense faire briller (rendre brillante) un peu ma montre.", "en": "I'm thinking of making my watch shine (making it shiny) a bit.", "zh": "我想把我的錶擦亮一點（使它發光）。" }
           ]
         },
         {
@@ -455,7 +455,7 @@
           "en": "To use (something) for making (something) shine.",
           "zh": "用來使東西發亮。",
           "examples": [
-            { "t": "Xeaon so ka galyeq gaga? ... spkliwaq no toke ina no", "fr": "Que veux tu faire de ce chiffon là? ... Je veux n'en servir pour faire briller la montre de ma bru.", "en": "What do you want to do with that rag? ... I want to use it to make my daughter-in-law's watch shine.", "zh": "你要那塊抹布做什麼？……我要用它來擦亮我媳婦的錶。" }
+            { "t": "Xeaon so ka galyeq gaga? ... spkliwaq mo toke ina mo", "fr": "Que veux tu faire de ce chiffon là? ... Je veux n'en servir pour faire briller la montre de ma bru.", "en": "What do you want to do with that rag? ... I want to use it to make my daughter-in-law's watch shine.", "zh": "你要那塊抹布做什麼？……我要用它來擦亮我媳婦的錶。" }
           ]
         },
         {

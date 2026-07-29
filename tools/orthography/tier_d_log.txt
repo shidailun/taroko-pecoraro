@@ -5,7 +5,6 @@ dd'yami          dd'yami          CV-    d'yami           R
 dd'yamo          ddyamu           CV-    d'yamo           R
 ddcristo         ddcristu         CV-    dcristo          D
 dddilun          ddjilun          CV-    ddilun           B
-ddina            ddina            CV-    dina             R
 ddyamo           ddyamu           CV-    dyamo            R
 dmbslat          dmbsrat          d-     mbslat           P
 dmikat           dmikat           d-     mikat            N
@@ -20,7 +19,6 @@ kkdusan          kkdusan          CV-    kdusan           T
 kketa            kkita            CV-    keta             A
 kklaxang         qqlahang         CV-    klaxang          L
 kksaxol          qqsahur          CV-    ksaxol           L
-kkudus           kkudus           CV-    kudus            R
 ll'alang         ll'alang         CV-    l'alang          KL
 llamil           rramil           CV-    lamil            B
 llanaq           rranaq           CV-    lanaq            A
@@ -30,8 +28,8 @@ llixao           llihaw           CV-    lixao            B
 llubwi           llubuy           CV-    lubwi            M
 lqlqean          lqlqian          CVCV-  lqean            A
 mmngali          mmngari          CV-    mngali           B
+mmqdolyaq        mmqduriq         CV-    mqdolyaq         T
 mmuda            mmuda            CV-    muda             id
-mnali            mnali            mn-    mali             id
 mniyaq           mniyak           mn-    miyaq            L
 mnkpito          mnkpitu          mn-    mkpito           B
 mnkyayong        mnkyayung        mn-    mkyayong         A
@@ -40,6 +38,7 @@ mnotoç           mnutux           mn-    otoç             M
 mnpito           mnpitu           mn-    mpito            T
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
+mnssl'pong       mnsslupung       mn-    mssl'pong        M
 mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P
@@ -50,7 +49,8 @@ n'xalan          n'xalan          n-     m'xalan          T
 nalong           narung           n-     malong           B
 nawit            nawit            n-     mawit            P
 nbaxang          nbahang          n-     baxang           T
-ndaxa            ndaxa            n-     daxa             id
+nblyeqan         nbliqan          n-     mblyeqan         T
+ndaxa            ndha             n-     daxa             M
 ndd'yamo         nddyamu          n-     dd'yamo          D
 ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
@@ -60,6 +60,7 @@ ng'li            ng'li            n-     mg'li            R
 nggalu           nggaalu          n-     mggalu           P
 ngguyan          ngguyan          n-     gguyan           T
 ngnalu           ngnaalu          n-     gnalu            P
+niin             niing            n-     miin             M
 niyaq            niyak            n-     miyaq            L
 nksaxol          nqsahur          n-     ksaxol           L
 nl'bu            nl'bu            n-     l'bu             id
@@ -69,13 +70,13 @@ nlangi           nrangi           n-     langi            B
 nllawa           nrrawa           n-     llawa            B
 nlmilit          nrmirit          n-     mlmilit          S
 nlut             nrut             n-     mlut             B
+nlutyaq          nrutiq           n-     lutyaq           M
 nmikat           nmikat           n-     mikat            N
 nmilit           nmirit           n-     milit            A
 nmulun           nmulun           n-     mulun            M
 nmxa             nmha             n-     mxa              A
 nn'mu            nn'mu            CV-    n'mu             D
-nnano            nnanu            CV-    nano             R
-nndaxa           nndaxa           CV-    ndaxa            D
+nndaxa           nndha            CV-    ndaxa            D
 npalaqe          npalaqi          n-     mpalaqe          P
 npd'xok          npdhuq           n-     pd'xok           A
 npnalu           npnalu           n-     pnalu            M
@@ -85,10 +86,11 @@ nsadyaq          nseejiq          n-     sadyaq           M
 nsk'lol          nsqrul           n-     sk'lol           A
 nskkoyox         nskkuyuh         n-     skkoyox          P
 nsl'bu           nsl'bu           n-     sl'bu            P
-nsl'pong         nslpung          n-     sl'pong          R
+nsl'pong         nslupung         n-     sl'pong          M
 nslidil          nsrijil          n-     slidil           B
 nslubwi          nslubuy          n-     slubwi           T
 nslxoqan         nsrhuqan         n-     slxoqan          B
+nssl'pong        nsslupung        n-     mssl'pong        M
 nsueq            nsueq            n-     sueq             M
 ntlawa           ntlawa           n-     mtlawa           id
 nxoai            nhuway           n-     xoai             B

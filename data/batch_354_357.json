@@ -328,7 +328,7 @@
               "zh": "該煮湯（做飯）了。"
             },
             {
-              "t": "Mkuong (mkuwong) bi ka sapax xpuyan no",
+              "t": "Mkuong (mkuwong) bi ka sapax xpuyan mo",
               "fr": "Ma cuisine est très sombre.",
               "en": "My kitchen is very dark.",
               "zh": "我的廚房很暗。"
@@ -421,7 +421,7 @@
       "zh": "這樣；如此；那個。",
       "examples": [
         {
-          "t": "Wana xaya ka biyax no!",
+          "t": "Wana xaya ka biyax mo!",
           "fr": "C'est tout ce que je puis faire (= Voilà tout ce que j'ai comme forces!).",
           "en": "That's all I can do (= That's all the strength I have!).",
           "zh": "我只能做到這樣（＝我的力氣就只有這麼多！）。"
@@ -617,7 +617,7 @@
           "zh": "同上之動詞形。",
           "examples": [
             {
-              "t": "Ga xmbui ka dnamux sapax no da!",
+              "t": "Ga xmbui ka dnamux sapax mo da!",
               "fr": "Voilà que le toit de ma maison coule (a une gouttière).",
               "en": "Now the roof of my house is leaking (has a leak).",
               "zh": "我家的屋頂漏水了（有漏處）。"

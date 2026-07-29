@@ -18,5 +18,6 @@
  "_sengse": "Maitre - professeur. He tags it [emprunt jap./chin.] himself (sensei / 先生). sensi and sengse are absent from every corpus and are not in truku_dict. Modern Truku teaches with the native tgsa root: mtgsa 老師 (296 in speech), emptgsa 老師 (198), tmgsa (97), plus ttgsa 教材, ptgsa 使被教導, stgsa 為…教導. mtgsa is the commonest and is taken here.",
  "sengse": "mtgsa",
  "_biri": "Two entries, one token, and they want different answers -- so neither is given. BIRI 'Mouillé tout outre - trempé' is the modern bili 很濕 (truku_dict, 10x in speech, with psbili 被淋濕, spbili 使淋濕, kbili 成淋濕): a plain r/l respelling. BIRI 'Dernier' is a word that is gone -- biri is 0 everywhere, and 最後 is now khici / tqring / nhdan, a substitution. The map is keyed on the token and the search index is built from it, so one token cannot render two ways without breaking lookup. Null: both stay green, which is the honest colour for a reading that depends on which entry you are standing in.",
- "biri": null
+ "biri": null,
+ "ndiyan": null
 }

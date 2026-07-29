@@ -47,7 +47,7 @@
           "zh": "磨（利）－磨刀石。",
           "examples": [
             {
-              "t": "Miing ko lpaxan ll'pax no yayo so",
+              "t": "Miing ko lpaxan ll'pax mo yayo so",
               "fr": "Je cherche une pierre sur laquelle aiguiser ton couteau.",
               "en": "I am looking for a stone on which to sharpen your knife.",
               "zh": "我在找一塊可以磨你刀子的石頭。"
@@ -110,7 +110,7 @@
       "zh": "朋友－同伴－未婚夫（妻）。（註：此詞常指一個家庭、一戶人家。）",
       "examples": [
         {
-          "t": "Xbalao l'pong no ka yako",
+          "t": "Xbalao l'pong mo ka yako",
           "fr": "Moi j'ai beaucoup d'amis.",
           "en": "I have many friends.",
           "zh": "我有很多朋友。"
@@ -163,7 +163,7 @@
           "zh": "彼此採取行動以結交友誼。",
           "examples": [
             {
-              "t": "Ida mnssl'pong nani pax sbiyao ka yani Laotan",
+              "t": "Ida mnssl'pong nami pax sbiyao ka yani Laotan",
               "fr": "Il y a déjà très longtemps que Laotanne et moi nous nous sommes liés d'amitié.",
               "en": "It has already been a very long time since Laotan and I formed our friendship.",
               "zh": "勞丹和我結交友誼已經很久了。"
@@ -290,7 +290,7 @@
       "zh": "豹。",
       "examples": [
         {
-          "t": "Adi manu, lqlit ka ksugun no balae",
+          "t": "Adi manu, lqlit ka ksugun mo balae",
           "fr": "Ce n'est rien d'autre (il n'y a aucune autre raison), c'est du léopard dont j'ai une peur bleue.",
           "en": "It's nothing else (there is no other reason), it's the leopard that I am terribly afraid of.",
           "zh": "沒有別的（沒有其他原因），我極其害怕的正是豹。"
@@ -445,7 +445,7 @@
               "zh": "你砌的牆鼓出來了（有倒塌之虞）。"
             },
             {
-              "t": "ga plading mslubwi ka dq'las pai no",
+              "t": "ga plading mslubwi ka dq'las pai mo",
               "fr": "Le visage de grand mère commence à devenir flasque.",
               "en": "Grandmother's face is beginning to become flabby.",
               "zh": "祖母的臉開始變得鬆垮了。"
@@ -469,7 +469,7 @@
       "zh": "長者－父母（生身父母）－年老的－成熟的。",
       "examples": [
         {
-          "t": "Balae bi ludan ka ddina no",
+          "t": "Balae bi ludan ka ddima mo",
           "fr": "Mes bambous sont vraiment mûrs.",
           "en": "My bamboos are really mature.",
           "zh": "我的竹子真的成熟了。"
@@ -505,7 +505,7 @@
           "zh": "所有可敬的長者聚集起來商議處死伊班內之事。"
         },
         {
-          "t": "Ongat pax suxal ka ludan no",
+          "t": "Ongat pax suxal ka ludan mo",
           "fr": "Papa et maman ne sont plus depuis longtemps !",
           "en": "Papa and Mama have been gone for a long time!",
           "zh": "爸爸和媽媽已經過世很久了！"
@@ -573,7 +573,7 @@
           "zh": "老年－年老的時期、狀態。",
           "examples": [
             {
-              "t": "Bbalao bi knldanan na ka tama no",
+              "t": "Bbalao bi knldanan na ka tama mo",
               "fr": "Mon père a une bien longue vieillesse.",
               "en": "My father has a very long old age.",
               "zh": "我父親的晚年很長。"
@@ -627,7 +627,7 @@
       "zh": "衣服。",
       "examples": [
         {
-          "t": "Mxolyaq kana ka lukus no da",
+          "t": "Mxolyaq kana ka lukus mo da",
           "fr": "Tous mes habits sont mouillés.",
           "en": "All my clothes are wet.",
           "zh": "我所有的衣服都濕了。"
@@ -702,7 +702,7 @@
           "zh": "要穿的衣服－想穿、須穿的衣服。",
           "examples": [
             {
-              "t": "Plkusun no manu uusa no alang?",
+              "t": "Plkusun mo manu uusa mo alang?",
               "fr": "Quel habit dois-je mettre pour aller au village ?",
               "en": "Which garment must I put on to go to the village?",
               "zh": "我該穿哪件衣服去村子？"

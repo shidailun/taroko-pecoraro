@@ -108,13 +108,13 @@
             "zh": "誰要殺我們的水牛？"
           },
           {
-            "t": "Sao bi mpxoqel ka kmnaqex kuxul no!",
+            "t": "Sao bi mpxoqel ka kmnaqex kuxul mo!",
             "fr": "Je suis triste à en mourir (= Ma tristesse est telle qu'on dirait qu'elle veut me tuer)!",
             "en": "I am sad enough to die of it (= My sadness is such that one would say it wants to kill me)!",
             "zh": "我傷心得要死（＝我的悲傷之深，彷彿要殺了我一樣）！"
           },
           {
-            "t": "Taan no o, mpxoqel saman ka anai ta da!",
+            "t": "Taan mo o, mpxoqel saman ka anai ta da!",
             "fr": "D'après moi (à ce que je vois), notre beau frère mourra demain.",
             "en": "In my opinion (as far as I can see), our brother-in-law will die tomorrow.",
             "zh": "依我看（就我所見），我們的姊夫（妹夫）明天就會死。"
@@ -134,7 +134,7 @@
             "zh": "我真的很想殺一隻雞。"
           },
           {
-            "t": "Psdlaon so knuwan ? ... Adi no pxqelun ka sayang!",
+            "t": "Psdlaon so knuwan ? ... Adi mo pxqelun ka sayang!",
             "fr": "Quand est-ce que tu la tueras (tu la feras saigner)? ... Je ne veux pas la tuer maintenant.",
             "en": "When will you kill it (make it bleed)? ... I don't want to kill it now.",
             "zh": "你什麼時候要殺牠（放牠的血）？……我現在不想殺牠。"
@@ -179,7 +179,7 @@
       "zh": "擬聲詞，用來表示情感爆發的感嘆詞。",
       "examples": [
         {
-          "t": "Asi: Xös! nsa ka lnglongan no!",
+          "t": "Asi: Xös! nsa ka lnglongan mo!",
           "fr": "Du coup, mon sang n'a fait qu'un tour! (Du coup, ma pensée, mes sentiments ont fait: Xös !).",
           "en": "All of a sudden, I gave a start (my blood made but a single turn)! (Suddenly, my thoughts, my feelings went: Xös!).",
           "zh": "頓時，我心頭一驚！（頓時，我的思緒、我的情感發出：Xös！）。"
@@ -246,7 +246,7 @@
       "zh": "什麼。",
       "examples": [
         {
-          "t": "Xoya no ksun ?",
+          "t": "Xoya mo ksun ?",
           "fr": "Que dois-je dire? (vl. que dois-je faire.)",
           "en": "What must I say? (var. what must I do.)",
           "zh": "我該說什麼？（或：我該做什麼。）"
@@ -312,7 +312,7 @@
           "zh": "會是什麼？－會做什麼？。",
           "examples": [
             {
-              "t": "Mpxoya nani da",
+              "t": "Mpxoya nami da",
               "fr": "Et nous, qu'allons nous devenir ? (vl. qu'allons nous faire ?).",
               "en": "And us, what will become of us? (var. what are we going to do?).",
               "zh": "那我們呢，我們會變成怎樣？（或：我們要怎麼辦？）。"

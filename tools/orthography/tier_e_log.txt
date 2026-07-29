@@ -1,7 +1,7 @@
 # tier E: sentence-only token -> modern, the stem it inherited, that stem's modern form
 bntuluk          bntuluk          btuluk         btuluk         derived
 dlolo            druru            lolo           ruru           derived
-dmt'sapat        dmtsapat         tsapat         tsapat         derived
+dmt'sapat        dmt'sapat        tsapat         t'sapat        derived
 dtdoling         dtduling         tdoling        tduling        derived
 gnl'qan          gnl'qan          glqan          gl'qan         derived
 gnluban          gnluban          gluban         gluban         derived
@@ -20,11 +20,13 @@ kmqqada          kmqqada          mqqada         mqqada         derived
 kmspusu          kmspusu          spusu          spusu          derived
 kngoxan          knguhan          kgoxan         kguhan         derived
 knklxangan       knklhangan       klxangan       klhangan       derived
+knpadyaq         knpadiq          padyaq         padiq          derived
 knptoxan         knptuhan         kptoxan        kptuhan        derived
 knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsdmatan        knsdmatan        sdmatan        sdmatan        derived
 knsopu           knsupu           sopu           supu           derived
 knsttoan         knsttuan         sttoan         sttuan         derived
+kpadyaq          kpadiq           padyaq         padiq          derived
 kpauçi           kpauxi           kpauxi         kpauxi         derived
 kxebong          khibung          xebong         hibung         derived
 m'ayo            mayu             ayo            ayu            derived
@@ -32,10 +34,8 @@ mapala           mapala           pala           pala           derived
 mkbnaqe          mkbnaqi          bnaqe          bnaqi          derived
 mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
-mkmudus          mkmudus          mudus          mudus          derived
 ml'çan           mlxan            lxan           lxan           derived
 mngaxan          mngahan          ngaxan         ngahan         derived
-mnssl'pong       mnsslpung        slpong         slpung         derived
 mp'anai          mpanay           anai           anay           derived
 mpaadi           mpaaji           adi            aji            derived
 mpabugo          mpabgu           bugo           bgu            derived
@@ -43,7 +43,6 @@ mpaksia          mpaqsiya         ksia           qsiya          derived
 mpamanu          mpamanu          mpa            mpa            derived
 mpgalang         mpgarang         pgalang        pgarang        derived
 mpgleq           mpgriq           mpgleq         mpgriq         derived
-mpk'udus         mpk'udus         pkudus         pk'udus        derived
 mpkslaan         mpkslaan         kslaan         kslaan         derived
 mpl'çan          mplxan           lxan           lxan           derived
 mpn'mu           mpn'mu           nmu            n'mu           derived
@@ -59,6 +58,7 @@ mpspala          mpspala          pala           pala           derived
 mpsparo          mpsparu          psparo         psparu         derived
 mpsqlinut        mpsqrinut        psqlinut       psqrinut       derived
 mptgmaxon        mptgmaxun        gmaxon         gmaxun         derived
+mpxolyaq         mphuriq          pxolyaq        phuriq         derived
 mqqalang         mqqalang         qalang         qalang         derived
 mslaput          mslaput          slaput         slaput         derived
 msnlima          msnrima          snlima         snrima         derived
@@ -80,7 +80,7 @@ mtsgasut         mtsgasut         tsgasut        tsgasut        derived
 ndtlalae         ndtlalay         tlalae         tlalay         derived
 ndyami           ndyami           yami           yami           derived
 nlluan           nl'luan          llu            l'lu           derived
-nssl'pong        nsslpung         slpong         slpung         derived
+pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgliqi           gleqe          gliqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
@@ -92,7 +92,7 @@ plmuxun          prmuxun          lmuxun         rmuxun         derived
 pnbl'xo          pnbrhug          blxo           brhug          attested
 pngkari          pngkari          pgkari         pgkari         derived
 pngnnakan        pngnnakan        pgnnakan       pgnnakan       derived
-pnk'udus         pnk'udus         pkudus         pk'udus        derived
+pnk'udus         pnkeudus         pkudus         pkeudus        derived
 pnkbaxang        pnqbahang        pkbaxang       pqbahang       derived
 pnkllusan        pnkllusan        pkllusan       pkllusan       derived
 pnkpnpong        pnkpnpung        pnpong         pnpung         derived
@@ -141,6 +141,7 @@ snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived
 snxali           snxali           snxal          snxal          derived
 spat'l           spatl            spat           spat           derived
+spkpadyaq        spkpadiq         padyaq         padiq          derived
 splingis         splingis         plingis        plingis        derived
 splisox          sprisuh          plisox         prisuh         derived
 spsbalae         spsbalay         psbalae        psbalay        derived
@@ -150,8 +151,8 @@ sqlaq            sqlaq            qlaq           qlaq           derived
 tgaox            tgauh            tga            tga            derived
 tmnlong          tmnlung          tlong          tlung          derived
 tnk'lae          tnk'lai          tnkla          tnk'la         derived
-tnk'laon         tnklaun          klaon          klaun          derived
-tnklaon          tnklaun          klaon          klaun          derived
+tnk'laon         tnk'laun         tnkla          tnk'la         derived
+tnklaon          tnk'laun         tnkla          tnk'la         derived
 tntmaan          tntmaan          ttmaan         ttmaan         derived
 tpskanun         tpskanun         pskanun        pskanun        derived
 tqliyun          tqriyun          qliyun         qriyun         derived

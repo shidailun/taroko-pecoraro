@@ -75,7 +75,7 @@
             "zh": "糯米糕真的黏牙。"
           },
           {
-            "t": "Msqapax bi papaq no ka laqe nii",
+            "t": "Msqapax bi papaq mo ka laqe nii",
             "fr": "Cet enfant ne colle vraiment aux jambes.",
             "en": "This child really clings to (one's) legs.",
             "zh": "這個孩子真的黏在（人的）腿上。"
@@ -180,13 +180,13 @@
           "zh": "被撕破、拆毀、破碎的。",
           "examples": [
             {
-              "t": "Mqatai kana ka patas no da",
+              "t": "Mqatai kana ka patas mo da",
               "fr": "Tous mes livres sont en mauvais état (= déchirés, décousus).",
               "en": "All my books are in bad shape (= torn, coming apart).",
               "zh": "我所有的書都破損了（＝撕破、散開）。"
             },
             {
-              "t": "Xeaon so ka libul kia ! ga nqatai betak tlona da",
+              "t": "Xeaon so ka libul kia ! ga nqatai betak tloma da",
               "fr": "Que veux tu en faire de ces pantalons là! Ils sont en guenilles complètement (jusqu'au fond) !",
               "en": "What do you want to do with those trousers! They are completely in rags (right through)!",
               "zh": "你要那條褲子做什麼！它已經完全破成破布（徹底破爛）了！"
@@ -311,7 +311,7 @@
           "zh": "清除石頭－把地裡的石頭撿掉。",
           "examples": [
             {
-              "t": "Saon no pkxnuk ni gmqaxol ka xmaan padyaq",
+              "t": "Saon mo pkxnuk ni gmqaxol ka xmaan padyaq",
               "fr": "Je veux aller ameublir et épierrer le jardin (l'endroit où planter des légumes).",
               "en": "I want to go loosen the soil and clear the stones from the garden (the place for planting vegetables).",
               "zh": "我想去把菜園（種菜的地方）的土鬆一鬆並清掉石頭。"
@@ -365,7 +365,7 @@
           "zh": "（是否出自詞根 QAYA？）＝懸掛－把某物掛起。",
           "examples": [
             {
-              "t": "Nasi qnaya ka lukus no o, sai pqaya siyao l'xngun da",
+              "t": "Nasi qnaya ka lukus mo o, sai pqaya siyao l'xngun da",
               "fr": "Si ton habit gêne, va donc le suspendre à côté de la porte.",
               "en": "If your garment is in the way, then go and hang it up beside the door.",
               "zh": "如果你的衣服礙事，就把它掛在門邊吧。"
@@ -386,7 +386,7 @@
           "zh": "用以成為障礙－用以阻止－用以掛（東西）。",
           "examples": [
             {
-              "t": "Ngalun so manu ka pnta'to so qouni? ... Spqaya no lubwi maso da",
+              "t": "Ngalun so manu ka pnta'to so qouni? ... Spqaya mo lubwi maso da",
               "fr": "Quel usage penses tu faire du bois que tu as planté? ... Il ne servira à accrocher (à suspendre) le sac de millet.",
               "en": "What use do you think you'll make of the wood you planted? ... It will (only) serve to hang the millet sack on.",
               "zh": "你打算把你種的那棵樹（木頭）做什麼用？……它只會用來掛小米袋。"
@@ -590,7 +590,7 @@
           "zh": "戴頭飾、戴帽子。",
           "examples": [
             {
-              "t": "Xmut mnqbobo (mnkbobo ?) mtmai (vl. mqbobo mntmai) sapax no ka xea",
+              "t": "Xmut mnqbobo (mnkbobo ?) mtmai (vl. mqbobo mntmai) sapax mo ka xea",
               "fr": "Avec désinvolture il est rentré chez moi son chapeau sur la tête !",
               "en": "Casually he came into my house with his hat on his head!",
               "zh": "他一副滿不在乎的樣子，戴著帽子就進了我家！"

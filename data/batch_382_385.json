@@ -197,14 +197,14 @@
           ]
         },
         {
-          "form": "Nano",
+          "form": "Namo",
           "fr": "1° Pron. pers. dans sa forme enclitique = Vous. 2° = Adj. poss. = Votre - vos.",
           "en": "1° Personal pron. in its enclitic form = you. 2° = possessive adj. = your.",
           "zh": "①附著形式的人稱代名詞＝你們。②＝所有格形容詞＝你們的。",
           "examples": [
-            { "t": "Mxa nano ino?", "fr": "Où allez-vous ?", "en": "Where are you going?", "zh": "你們要去哪裡？" },
+            { "t": "Mxa namo ino?", "fr": "Où allez-vous ?", "en": "Where are you going?", "zh": "你們要去哪裡？" },
             { "t": "Mxolyaq namo kana", "fr": "Vous êtes tous mouillés !", "en": "You are all wet!", "zh": "你們都濕透了！" },
-            { "t": "Tama nano ka malu", "fr": "C'est votre père qui est bien !", "en": "It is your father who is good!", "zh": "好的是你們的父親！" },
+            { "t": "Tama namo ka malu", "fr": "C'est votre père qui est bien !", "en": "It is your father who is good!", "zh": "好的是你們的父親！" },
             { "t": "Sapax namo ka nii", "fr": "Celle-ci est votre maison.", "en": "This is your house.", "zh": "這是你們的家。" }
           ]
         },
@@ -375,7 +375,7 @@
           "zh": "（Myup？？！）＝同上，動詞形（前項的動詞形）。",
           "examples": [
             { "t": "Paro bi yupan bgixol ka slaan so sapax nii!", "fr": "C'est un endroit où le vent souffle très fort, ici où tu veux construire ta maison.", "en": "This is a place where the wind blows very hard, here where you want to build your house.", "zh": "這是個風吹得很猛的地方，就在你想蓋房子的這裡。" },
-            { "t": "Yupi binao ka sanao so, diyan bi da!", "fr": "Souffle donc (éteins donc ton falot ! Il fait grand jour maintenant !)", "en": "Blow then (put out your lantern! It is broad daylight now!)", "zh": "那就吹吧（把你的燈熄了吧！現在已經大白天了！）" }
+            { "t": "Yupi binao ka samao so, diyan bi da!", "fr": "Souffle donc (éteins donc ton falot ! Il fait grand jour maintenant !)", "en": "Blow then (put out your lantern! It is broad daylight now!)", "zh": "那就吹吧（把你的燈熄了吧！現在已經大白天了！）" }
           ]
         },
         {
@@ -449,7 +449,7 @@
           "en": "= Time, place of contagion - being, person, thing contaminated.",
           "zh": "＝傳染的時間、地點—被傳染的生物、人、物。",
           "examples": [
-            { "t": "Manalox no sayang o, n\"loan ko d'xa ka kia", "fr": "Ma maladie actuelle, je l'ai attrapée par contagion.", "en": "My present illness, I caught it by contagion.", "zh": "我現在的病，是被傳染來的。" }
+            { "t": "Manalox mo sayang o, n\"loan ko d'xa ka kia", "fr": "Ma maladie actuelle, je l'ai attrapée par contagion.", "en": "My present illness, I caught it by contagion.", "zh": "我現在的病，是被傳染來的。" }
           ]
         },
         {

@@ -79,7 +79,7 @@
       "zh": "1) 妨礙－造成阻礙。2) 懸掛－把某物吊起固定。參見 QAYA。",
       "examples": [
         { "t": "Pqaya bi \"lu daxa ka tasil gaga", "fr": "Cette pierre là gêne beaucoup le passage des gens.", "en": "That stone there greatly hinders people's passage.", "zh": "那塊石頭很妨礙人們通行。" },
-        { "t": "Spqaya (spkaya (?)) no qouni ngangot ka siyam", "fr": "La viande (de porc) est faite pour être suspendue (par moi) sur un bois dehors.", "en": "The (pork) meat is meant to be hung (by me) on a piece of wood outside.", "zh": "（豬）肉是要（由我）掛在外面的木頭上的。" }
+        { "t": "Spqaya (spkaya (?)) mo qouni ngangot ka siyam", "fr": "La viande (de porc) est faite pour être suspendue (par moi) sur un bois dehors.", "en": "The (pork) meat is meant to be hung (by me) on a piece of wood outside.", "zh": "（豬）肉是要（由我）掛在外面的木頭上的。" }
       ]
     },
     {
@@ -234,7 +234,7 @@
       "en": "Sign - emblem - marker stake - boundary marker - mark.",
       "zh": "記號－標誌－標樁－界標－標記。",
       "examples": [
-        { "t": "Psaon mo psklaya siyao \"lu spqeta no ddaon daxa saman", "fr": "Je placerai des signalements (des jalons) le long du chemin pour leur indiquer la route qu'ils devront suivre demain.", "en": "I will place markers (stakes) along the path to show them the road they must follow tomorrow.", "zh": "我會沿路放置標記（標樁），好指示他們明天該走的路。" }
+        { "t": "Psaon mo psklaya siyao \"lu spqeta mo ddaon daxa saman", "fr": "Je placerai des signalements (des jalons) le long du chemin pour leur indiquer la route qu'ils devront suivre demain.", "en": "I will place markers (stakes) along the path to show them the road they must follow tomorrow.", "zh": "我會沿路放置標記（標樁），好指示他們明天該走的路。" }
       ],
       "subs": [
         {
@@ -477,7 +477,7 @@
           "en": "1) To have cholera. 2) To be enraged - to have a deranged mind (probably by association).",
           "zh": "1) 患霍亂。2) 發狂－精神錯亂（大概是由聯想而來）。",
           "examples": [
-            { "t": "Mpuno kana ka lodoç no", "fr": "Toutes mes poules ont le choléra (maladie très fréquente et qui détruit régulièrement toutes les basses-cours).", "en": "All my hens have cholera (a very frequent disease that regularly wipes out all the poultry yards).", "zh": "我所有的雞都得了霍亂（一種很常見、會定期毀掉整個雞舍的疾病）。" },
+            { "t": "Mpuno kana ka lodoç mo", "fr": "Toutes mes poules ont le choléra (maladie très fréquente et qui détruit régulièrement toutes les basses-cours).", "en": "All my hens have cholera (a very frequent disease that regularly wipes out all the poultry yards).", "zh": "我所有的雞都得了霍亂（一種很常見、會定期毀掉整個雞舍的疾病）。" },
             { "t": "Mpuno ka xeuling mo", "fr": "Mon chien est enragé.", "en": "My dog is rabid.", "zh": "我的狗發狂了。" },
             { "t": "Sao bi mpuno ka laqe mo", "fr": "Mon fils est comme fou (enragé - comme s'il avait le choléra des poules).", "en": "My son is like a madman (enraged - as if he had the hens' cholera).", "zh": "我兒子像瘋了一樣（發狂－好像得了雞的霍亂）。" }
           ]

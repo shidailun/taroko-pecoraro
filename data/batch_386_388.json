@@ -65,7 +65,7 @@
       "zh": "梁－橫梁－柱子。",
       "examples": [
         {
-          "t": "Mnsa ko psnama kingal q'löt malu qq'löt no kana \"löt sapax no bulax",
+          "t": "Mnsa ko psnama kingal q'löt malu qq'löt mo kana \"löt sapax mo bulax",
           "fr": "Je suis allé préparer une bonne scie pour scier toutes les poutres de ma nouvelle maison.",
           "en": "I went to prepare a good saw to saw all the beams of my new house.",
           "zh": "我去準備了一把好鋸子，好鋸開我新房子的所有梁木。"
@@ -98,7 +98,7 @@
           "zh": "他說的話真的很有道理（站得住腳）。"
         },
         {
-          "t": "Ini ko k'la \"lu ssalu no toke nii, xoya no ksun?",
+          "t": "Ini ko k'la \"lu ssalu mo toke nii, xoya mo ksun?",
           "fr": "Je ne sais pas la méthode pour réparer (fabriquer) cette montre, comment faire ?",
           "en": "I do not know the method to repair (make) this watch, how is it done?",
           "zh": "我不知道修理（製作）這只錶的方法，該怎麼做呢？"
@@ -208,7 +208,7 @@
           "zh": "沿路前行－正常前進－直行己路。",
           "examples": [
             {
-              "t": "Ini ps\"lu ka ndaan no, msa namo! Ida ms\"lu (nsl\"lu) ko bi ka yako!",
+              "t": "Ini ps\"lu ka ndaan mo, msa namo! Ida ms\"lu (nsl\"lu) ko bi ka yako!",
               "fr": "Ma conduite est étrange (n'est pas conforme à la route), dites-vous! Et pourtant ma conduite est normale (je suis la route, moi!).",
               "en": "My conduct is strange (not in keeping with the road), you say! And yet my conduct is normal (I do follow the road!).",
               "zh": "你們說我的行為很奇怪（不合乎正道）！然而我的行為是正常的（我可是循規蹈矩的！）。"
@@ -306,13 +306,13 @@
       "zh": "吃－有攻擊性的－鋒利的－食物（飲食）。",
       "examples": [
         {
-          "t": "Ini xali \"qan ka laqe no",
+          "t": "Ini xali \"qan ka laqe mo",
           "fr": "Mon enfant ne mange guère!",
           "en": "My child hardly eats!",
           "zh": "我的孩子幾乎不吃東西！"
         },
         {
-          "t": "Ini xali kn\"qan ka laqe no!",
+          "t": "Ini xali kn\"qan ka laqe mo!",
           "fr": "Mon enfant n'a pas beaucoup d'appétit.",
           "en": "My child does not have much appetite.",
           "zh": "我的孩子胃口不大。"
@@ -411,7 +411,7 @@
               "zh": "我們沒有東西可吃了！"
             },
             {
-              "t": "Oqon mo kia ka siyan",
+              "t": "Oqon mo kia ka siyam",
               "fr": "Je mangerai la viande (de porc) après.",
               "en": "I will eat the (pork) meat afterwards.",
               "zh": "我待會兒再吃（豬）肉。"

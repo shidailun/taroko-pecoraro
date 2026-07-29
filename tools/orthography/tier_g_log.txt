@@ -4,7 +4,6 @@ mpdxok           mpdhuq           dxok           dhuq               5 derived
 dmkpax           dmqpah           kpax           qpah               4 derived
 npamalu          npamalu          malu           malu               2 derived
 slongan          slungan          slong          slung              2 derived
-daxani           daxani           daxa           daxa               1 derived
 dmnalox          dmnarux          nalox          narux              1 derived
 drbiyax          drbiyax          biyax          biyax              1 derived
 kmalox           kmaluh           kalo           kalu               1 derived
@@ -21,7 +20,6 @@ mptquli          mptquli          quli           quli               1 derived
 mslangan         mslangan         slangan        slangan            1 derived
 mspatuil         mspatuil         mspat          mspat              1 derived
 ndyano           njyanu           dyan           jyan               1 derived
-npamuxul         npamuxul         muxul          muxul              1 derived
 nplb'bao         nplbbao          bbao           bbao               1 derived
 ntluula          ntluula          luul           luul               1 derived
 pnblexan         pnbrihan         blex           brih               1 derived

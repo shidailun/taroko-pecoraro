@@ -73,7 +73,7 @@
           "en": "Intensity of badness, of wickedness.",
           "zh": "壞、惡毒的強烈程度。",
           "examples": [
-            { "t": "Taan no knnaqex na ka blubul so o, adi mo bligun", "fr": "Voyant comme tes bananes sont mauvaises je ne les achéterai pas.", "en": "Seeing how bad your bananas are, I won't buy them.", "zh": "看你的香蕉這麼爛，我不會買。" },
+            { "t": "Taan mo knnaqex na ka blubul so o, adi mo bligun", "fr": "Voyant comme tes bananes sont mauvaises je ne les achéterai pas.", "en": "Seeing how bad your bananas are, I won't buy them.", "zh": "看你的香蕉這麼爛，我不會買。" },
             { "t": "Tayal knnaqex (knnaqex na) ka laqe nii", "fr": "Oh la! ce qu'il peut être mauvais ce gosse!", "en": "Oh my! how bad this kid can be!", "zh": "哎呀！這孩子怎麼這麼壞！" }
           ]
         },
@@ -177,7 +177,7 @@
           "en": "One who is faithful, capable, docile.",
           "zh": "忠實、有能力、順從的人。",
           "examples": [
-            { "t": "Mdoa bi ka laqe no koyox, laqe no snao ka ini doa (Ndoa (?))", "fr": "Ma fille donne vraiment satisfaction mais mon garçon pas du tout.", "en": "My daughter really gives satisfaction but my son not at all.", "zh": "我女兒真的很令人滿意，但我兒子則完全不然。" }
+            { "t": "Mdoa bi ka laqe mo koyox, laqe mo snao ka ini doa (Ndoa (?))", "fr": "Ma fille donne vraiment satisfaction mais mon garçon pas du tout.", "en": "My daughter really gives satisfaction but my son not at all.", "zh": "我女兒真的很令人滿意，但我兒子則完全不然。" }
           ]
         },
         {
@@ -370,7 +370,7 @@
           "en": "Starting from being mute, idiot.",
           "zh": "從（原本）啞、痴的狀態而來。",
           "examples": [
-            { "t": "Nngangax no suxal o, Knxoai knxoai wada ko nalu da", "fr": "De muet que j'étais dans le temps, petit à petit ne voilà guéri.", "en": "From the mute that I was in the past, little by little here I am, cured.", "zh": "我以前是個啞巴，漸漸地如今痊癒了。" }
+            { "t": "Nngangax mo suxal o, Knxoai knxoai wada ko nalu da", "fr": "De muet que j'étais dans le temps, petit à petit ne voilà guéri.", "en": "From the mute that I was in the past, little by little here I am, cured.", "zh": "我以前是個啞巴，漸漸地如今痊癒了。" }
           ]
         },
         {
@@ -423,7 +423,7 @@
       "en": "Gaping mouth - to open the mouth - open mouth.",
       "zh": "張大的嘴——張嘴——嘴巴張開。",
       "examples": [
-        { "t": "Ngaxa binao ! Taon no ka g\"lo so", "fr": "Ouvre voir la bouche, je veux voir ta gorge.", "en": "Open your mouth, let's see, I want to see your throat.", "zh": "張開嘴看看，我想看你的喉嚨。" }
+        { "t": "Ngaxa binao ! Taon mo ka g\"lo so", "fr": "Ouvre voir la bouche, je veux voir ta gorge.", "en": "Open your mouth, let's see, I want to see your throat.", "zh": "張開嘴看看，我想看你的喉嚨。" }
       ],
       "subs": [
         {
