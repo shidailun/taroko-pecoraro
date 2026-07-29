@@ -1,15 +1,20 @@
 # tier D: token -> modern, rule, base, tier the base came from
 dbiyang          dbiyang          d-     biyang           id
+dcristo          dcristu          d-     cristo           N
 dd'yami          dd'yami          CV-    d'yami           R
 dd'yamo          ddyamu           CV-    d'yamo           R
+ddcristo         ddcristu         CV-    dcristo          D
 dddilun          ddjilun          CV-    ddilun           B
 ddina            ddina            CV-    dina             R
 ddyamo           ddyamu           CV-    dyamo            R
 dmbslat          dmbsrat          d-     mbslat           P
+dmikat           dmikat           d-     mikat            N
+dmorisaka        dmurisaka        d-     morisaka         N
 dmsapat          dmsapat          d-     msapat           P
 dmtksoloç        dmtksurux        d-     mtksoloç         T
 dsbnawan         dsbnawan         d-     sbnawan          R
 dtanax           dtanah           d-     tanax            T
+dtome            dtumi            d-     tome             S
 gngnalu          gngnaalu         CVCV-  gnalu            P
 kkdusan          kkdusan          CV-    kdusan           T
 kketa            kkita            CV-    keta             A
@@ -42,7 +47,6 @@ n'kai            nkay             n-     m'kai            B
 n'mu             n'mu             n-     'mu              id
 n'ulat           nurat            n-     m'ulat           P
 n'xalan          n'xalan          n-     m'xalan          T
-nali             nali             n-     mali             id
 nalong           narung           n-     malong           B
 nawit            nawit            n-     mawit            P
 nbaxang          nbahang          n-     baxang           T
@@ -57,14 +61,15 @@ nggalu           nggaalu          n-     mggalu           P
 ngguyan          ngguyan          n-     gguyan           T
 ngnalu           ngnaalu          n-     gnalu            P
 niyaq            niyak            n-     miyaq            L
-nk'la            nk'la            n-     k'la             id
 nksaxol          nqsahur          n-     ksaxol           L
 nl'bu            nl'bu            n-     l'bu             id
 nl'mux           nrmux            n-     l'mux            B
 nlangax          nrangah          n-     langax           B
 nlangi           nrangi           n-     langi            B
 nllawa           nrrawa           n-     llawa            B
+nlmilit          nrmirit          n-     mlmilit          S
 nlut             nrut             n-     mlut             B
+nmikat           nmikat           n-     mikat            N
 nmilit           nmirit           n-     milit            A
 nmulun           nmulun           n-     mulun            M
 nmxa             nmha             n-     mxa              A
@@ -88,8 +93,8 @@ nsueq            nsueq            n-     sueq             M
 ntlawa           ntlawa           n-     mtlawa           id
 nuli             nuli             n-     muli             M
 nxoai            nhuway           n-     xoai             B
-pkpkoxe          pkpkuxi          CVCV-  pkoxe            R
 ppaotoç          ppautux          CV-    paotoç           P
+ppitai           ppitay           CV-    pitai            S
 ppkl'bai         ppklbay          CV-    pkl'bai          P
 ppkl'xkax        ppklhkah         CV-    pkl'xkax         P
 ppl'dax          pprdax           CV-    pl'dax           A
@@ -111,6 +116,7 @@ sssik            sssik            CV-    ssik             R
 ttabu            ttabu            CV-    tabu             T
 ttaxot           ttahut           CV-    taxot            B
 ttl'boq          ttrbuq           CV-    tl'boq           B
+ttmisa           ttmisa           CV-    tmisa            S
 tttama           tttama           CV-    ttama            id
 ttunux           ttunux           CV-    tunux            id
 ttxmoqo          tthmuku          CV-    txmoqo           T

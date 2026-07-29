@@ -210,7 +210,11 @@
   // as the word in front of it; where the two really stay apart — mkudus
   // (mk'udus), Babao (baba), ki (=baki) — it is still telling the reader
   // something, and 228 of them do.
-  var INLINE_VARIANT = /([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\(\s*=?\s*([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\??\s*\)/g;
+  // The trailing (?) is his, and it can sit either inside the bracket or beside
+  // the word: "Spqaya (spkaya (?))", "poqan (p'oqan(?))". It qualifies the guess,
+  // so when the guess turns out to be the same word it goes with the bracket.
+  var INLINE_VARIANT =
+    /([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\(\s*=?\s*([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\??\s*(?:\(\s*\??\s*\))?\s*\)/g;
   function collapseInline(s) {
     return s.replace(INLINE_VARIANT, function (all, first, inner) {
       return norm(modernize(first)) === norm(modernize(inner)) ? first : all;
@@ -565,6 +569,7 @@
       return p + sp + c.toUpperCase();
     });
     t = t.replace(/[\s–—-]+$/, "");                                     // dangling dashes
+    t = t.replace(/([!?])\s*\.(?=\s|$)/g, "$1");   // a stop after a query mark is his slip
     if (/[A-Za-zÀ-ÿ0-9'’]$/.test(t)) t += ".";
     return t;
   }
@@ -573,7 +578,9 @@
     t = t.replace(/\s+/g, " ").trim();
     if (!t) return t;
     var map = { ",": "，", ";": "；", ":": "：", "!": "！", "?": "？" };
-    t = t.replace(new RegExp("([" + CJK + "])\\s*([,;:!?])", "g"), function (m, c, p) { return c + map[p]; });
+    // A closing full-width bracket ends a Chinese clause as surely as a character
+    // does, so the mark that follows it is full-width too — his 賭氣嗎）? .
+    t = t.replace(new RegExp("([" + CJK + "）」』])\\s*([,;:!?])", "g"), function (m, c, p) { return c + map[p]; });
     t = t.replace(new RegExp("([" + CJK + "])\\s*\\.(?=\\s|$)", "g"), "$1。");
     // Brackets convert as a pair, judged by what is inside them, so a half-width
     // closer can't survive a full-width opener.
@@ -581,6 +588,9 @@
     t = t.replace(/\(([^()]*)\)/g, function (m, body) {
       return inner.test(body) ? "（" + body.trim() + "）" : m;
     });
+    // …and once more now that the brackets are full-width, since the mark being
+    // judged may be sitting right after one that only just converted.
+    t = t.replace(/([）」』])\s*([,;:!?])/g, function (m, c, p) { return c + map[p]; });
     // A space only vanishes between two Chinese characters: a Latin word set inside
     // Chinese keeps the spaces around it (參見 QDALAN), which is the convention.
     t = t.replace(new RegExp("([" + CJK + "])\\s+(?=[" + CJK + "])", "g"), "$1");
@@ -588,6 +598,7 @@
     t = t.replace(/([（「『])\s*/g, "$1");
     t = t.replace(/\.\s*\.\s*\./g, "……").replace(/\.\.(?!\.)/g, "…");
     t = t.replace(/(^|[^A-Za-zÀ-ÿ])"([^"]{1,60})"(?![A-Za-zÀ-ÿ])/g, "$1「$2」");
+    t = t.replace(/([！？!?])\s*[。.](?![.。])/g, "$1");   // a stop after a query mark is his slip
     if (!/[。！？」』）)…]$/.test(t)) t += "。";
     return t;
   }

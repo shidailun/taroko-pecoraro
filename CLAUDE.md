@@ -103,8 +103,8 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (201) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
-- **L** (255) — the former review queue, adjudicated case-by-case against Chinese
+- **M** (222) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **L** (254) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
   kpaxan→qpahan, klaxang→qlahang), and his q is often modern k (qeulit→qowlit,
@@ -112,20 +112,20 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   qmapax "spread" ≠ qmpah "work", particles, unidentified loans) — they're in
   modern_map.json's "review" key.
 - **A** (474) — generated candidate, attested + Chinese-gloss-confirmed.
-- **B** (1,350) / **B-rules** (24) — unique attested candidate via safe rules.
-- **T** (255) — sister-dialect triangulation: Toda/Tgdaya cognates VALIDATE which
+- **B** (1,387) / **B-rules** (27) — unique attested candidate via safe rules.
+- **T** (257) — sister-dialect triangulation: Toda/Tgdaya cognates VALIDATE which
   generated Truku-shaped candidate is right (never supply spellings directly).
   Tgdaya folds l→r, o→u, d→j/t→c before i; both sisters also indexed by
   affix-stripped cores (≥5 chars) since cognates are usually differently-derived
   forms of the same root (baxang vs qbahang). Ties broken by weighted edit
   distance using measured correspondence odds (o→u/x→h cheap at 0.2; keeping
   o/x, or l→r, expensive at 0.8 — l usually stays l in Truku).
-- **P** (1,032) — root-consistency projection: a resolved family member fixes the
+- **P** (1,230) — root-consistency projection: a resolved family member fixes the
   stem correspondence; unresolved hw/sub/paradigm forms of the same entry inherit
   it (infix-aware: mn/um/nm/m/n after the first consonant; affixes converted by
   the near-universal rules only). Mostly unattested by definition — the point is
   inheriting a verified stem and protecting derivatives from the char rules.
-- **R** (836) — relative inheritance. The other tiers test WHOLE words against the
+- **R** (753) — relative inheritance. The other tiers test WHOLE words against the
   omnibus, so a regularly derived form of a well-attested root falls through:
   `nduk` is unattested but `mduk` 關（門、窗）and `mnduk` are right there. Tier R
   peels prefix/infix/suffix off the Pecoraro token, matches the core against
@@ -134,15 +134,17 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   guesses when two readings survive. The gloss veto here is a *rejection* test —
   no character in common at all — not `gloss_overlap()`, which wants a contiguous
   run and so rejected nduk/mduk for stating the same thing in a different order.
-- **KL** (53) — keep-l guard: tokens frozen against a wrong l→r.
-- **D** (120) — morphology over an already-solved base. Lowking Nowbucyang,
+- **KL** (42) — keep-l guard: tokens frozen against a wrong l→r.
+- **D** (126) — morphology over an already-solved base. Lowking Nowbucyang,
   太魯閣語構詞法研究 (*Word Formation in Truku*, 2008) §3.4: Truku reduplication is
   CV- or CVCV-, and since Truku doesn't write the schwa, CV- surfaces in the
   orthography as a **doubled initial consonant** (hmadan → hhmadan "many of them
   clearing"). Same treatment for the mn-/n- AF preterite and the collective d- on
   a personal name (Aman → dAman). None makes a new lexeme, so the answer is
-  (his affix) + the modern spelling of the base. Runs last, so any earlier tier
-  can supply the base — except X, whose "modern" is a different word.
+  (his affix) + the modern spelling of the base. Pass order is
+  id/A/B/T → P → R → KL → S → N → D → E → G, so any of those earlier tiers can
+  supply the base — except X, whose "modern" is a different word. Order matters:
+  attestation must not outrank family evidence, which is why S sits below KL.
   Rules fired: CV- 52, n- 47, mn- 11, d- 6, CVCV- 4. **66 of the 120 were being
   rendered wrong** by the char rules, nearly all of them by l→r on a root that
   keeps its l: `llisao` showed as *rrisau* for `rrisaw`, `xxei` as *hhei* for
@@ -157,6 +159,51 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   Every mapping is dumped to `tools/orthography/tier_d_log.txt` with its rule,
   its base and the tier the base came from — audit that file after regenerating,
   because a wrong base silently propagates.
+- **E** (162) — projection into his own example sentences. Tier P refuses example
+  tokens (a sentence is mostly other people's words), which also shut the door on
+  a word's own family: `kxebong` occurs nowhere but the single sentence under
+  XEBONG and went on screen as *khebung. A sentence token qualifies only if it
+  CONTAINS a stem the SAME entry has already resolved, and one ambiguous
+  candidate disqualifies it. Log: `tier_e_log.txt`.
+- **S** (66) — attestation in running speech. Same claim as A/B — "this exact word
+  exists in modern Truku" — but asked of `C:/dev/ILRDF/ILRDF_texts.xlsx`: 47,517
+  transcribed Truku utterances, 277,014 tokens, cached as `spoken_truku.json`. A
+  dictionary skips exactly what a transcript is full of (names, particles, the
+  shape an inflected root really takes). Candidates are the rule-consistent
+  readings of his token, and exactly ONE must appear **twice or more** — a hapax
+  in an ASR transcript is as likely to be a mis-hearing as a word. Runs AFTER the
+  KL guard, and a hit that flips an l is refused when the keep-l reading of the
+  root is itself a modern word: `mk'alang` matched `karang` 蟹 in speech, but his
+  word is built on `alang` 部落. Log: `tier_s_log.txt`.
+- **N** (74) — proper names. "Sapah Sibar u…" — Sibal is a man, and the blind rule
+  renamed him. Nothing attests a name and no tier above reaches it, so it falls to
+  the char rules, the one population where they are guaranteed to be guessing.
+  Test: capitalized mid-sentence in one of his own examples (only a proper noun
+  is) AND never written lowercase anywhere in the book. Those keep their l; o→u,
+  x→h and final -ai/-ao still apply, so `Pisao`→Pisaw, `Labai`→Labay, `Sibal`
+  stays Sibal. Log: `tier_n_log.txt`. Names are never allowed to seed tier G.
+- **G** (31) — root projection ACROSS entries. Tier E only sees the entry a token
+  stands in, and words don't respect that boundary: `mptgamil` occurs once, in a
+  sentence under GABAL 拔, so nothing in its own entry could say that GAMIL 根 is
+  right there resolved and keeps its l — it rendered as *mptgamir. Being global it
+  is held to a much higher bar than E: the seeding root must be corpus-vouched
+  (no projected tier may seed another projection, and no name), ≥4 chars, unique;
+  the stem pair must be a letter-for-letter **correspondence** (only the attested
+  swaps o/u l/r x/h k/q d/j t/c e/i — Pecoraro's MALO also surfaces as `nalu`, and
+  reading n/m as orthography projected *mpamalu); prefix ≤3, suffix ≤3; only
+  example-sentence tokens are eligible, never a form Pecoraro filed under a root
+  of its own; the local root wins over a foreign one at equal length (`qalip` is
+  KALIP 剪, not QALI 話); and it must actually **disagree** with the blind
+  fallback, or it says nothing and the token stays honestly green. Log:
+  `tier_g_log.txt`.
+
+**Syncope.** Truku doesn't write the schwa, so a root loses its first vowel the
+moment anything is prefixed: GAMIL 根 is the root but "where it took root" is
+`Tgmilan`, not *Tgamilan. Testing a stem by literal containment therefore misses
+a word's own conjugates — tier R reached `tgmilan` with no family to answer to and
+guessed *tgmiran*. `stem_forms()` offers every resolved stem in both shapes; the
+syncopated one counts only when both sides syncopate the same way, which is what
+makes it a correspondence rather than a second guess. Used by tiers P, E and G.
 
 **No diacritic ever leaves the generator.** A modern spelling is written in the
 modern alphabet, so `plain()` (ç→x, marks stripped) runs over every tier's output

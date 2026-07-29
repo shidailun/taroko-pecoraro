@@ -87,27 +87,59 @@ def load_corpus():
         for t in TOKEN_RE.findall(text or ""):
             tokens[tkey(t)] += 1
             cased[tkey(t)][t] += 1
+    # A capital in the middle of a sentence is the one place Pecoraro's own
+    # typography names a proper noun for us. Combined with "never seen lowercase
+    # anywhere", it is what separates Sibal the man from sibal the word — and the
+    # l>r rule must not touch him: he came out of the app as Sibar.
+    midcap = collections.Counter()
+    def take_ex(text):
+        take(text)
+        if not text:
+            return
+        for m in TOKEN_RE.finditer(text):
+            w = m.group(0)
+            if not w[:1].isupper():
+                continue
+            pre = text[:m.start()].rstrip()
+            if not pre or pre[-1] in ".!?…§:":
+                continue
+            midcap[tkey(w)] += 1
+    # The words of an entry's own example sentences, kept beside its family but
+    # NOT in it: a sentence is mostly other people's words, so they must never be
+    # treated as inflections of this root. Tier E tests them for containment of a
+    # stem this entry has already resolved, which is a far narrower claim.
+    ex_fams = []
+    heads = []
     for e in entries:
+        hwt = TOKEN_RE.findall(e.get("hw") or "")
+        if hwt:
+            heads.append(tkey(hwt[0]))
         take(e.get("hw")); take(e.get("crossRef")); take(e.get("paradigm"))
-        for x in e.get("examples", []): take(x.get("t"))
+        for x in e.get("examples", []): take_ex(x.get("t"))
         hz = zh_clean(e.get("zh", ""))
         if e.get("hw") and hz: glosses[norm(e["hw"])].add(hz)
         fam = [tkey(t) for t in TOKEN_RE.findall(e.get("hw") or "")]
+        ext = [tkey(t) for x in e.get("examples", [])
+               for t in TOKEN_RE.findall(x.get("t") or "")]
         # paradigm lines (° gmalax, malax...) are inflections of THIS root — family
         for t in TOKEN_RE.findall(e.get("paradigm") or ""):
             fam.append(tkey(t))
         for s in e.get("subs", []):
             take(s.get("form")); take(s.get("paradigm"))
-            for x in s.get("examples", []): take(x.get("t"))
+            for x in s.get("examples", []): take_ex(x.get("t"))
             sz = zh_clean(s.get("zh", ""))
             if s.get("form") and sz: glosses[norm(s["form"])].add(sz)
             for t in TOKEN_RE.findall(s.get("form") or ""):
                 fam.append(tkey(t))
             for t in TOKEN_RE.findall(s.get("paradigm") or ""):
                 fam.append(tkey(t))
+            ext += [tkey(t) for x in s.get("examples", [])
+                    for t in TOKEN_RE.findall(x.get("t") or "")]
         if len(fam) > 1:
             families.append(fam)
-    return tokens, glosses, families, cased
+        if fam and ext:
+            ex_fams.append((fam, ext))
+    return tokens, glosses, families, cased, ex_fams, midcap, heads
 
 # ---------------- omnibus ----------------
 def load_omnibus():
@@ -137,6 +169,41 @@ def load_omnibus():
     for (n, raw), c in sorted(sent_raw.items(), key=lambda kv: -kv[1]):
         sent_best.setdefault(n, raw)
     return word_raw, word_gloss, sent_best
+
+# ---------------- spoken corpus ----------------
+SPOKEN = r"C:/dev/ILRDF/ILRDF_texts.xlsx"
+SPOKEN_CACHE = os.path.join(HERE, "spoken_truku.json")
+
+def load_spoken():
+    """Running Truku, not a wordlist: 47,517 transcribed utterances / 277,014
+    tokens across the ILRDF/klokah/ithuan collections. The omnibus is a
+    dictionary, so it is missing exactly the words a dictionary tends to skip —
+    personal names (Sibal, Wilang, Iwal), particles, and the shapes an inflected
+    root actually takes in a sentence. Frequency is kept because a hapax in an
+    ASR transcript is as likely to be a mis-hearing as a word."""
+    if os.path.exists(SPOKEN_CACHE) and os.path.getmtime(SPOKEN_CACHE) > os.path.getmtime(SPOKEN):
+        with open(SPOKEN_CACHE, encoding="utf-8") as f:
+            return collections.Counter(json.load(f))
+    import openpyxl
+    wb = openpyxl.load_workbook(SPOKEN, read_only=True, data_only=True)
+    freq = collections.Counter()
+    for sn in wb.sheetnames:
+        ws = wb[sn]
+        it = ws.iter_rows(values_only=True)
+        hdr = next(it, None)
+        if not hdr or "dialect" not in hdr or "transcript" not in hdr:
+            continue
+        di, ti = hdr.index("dialect"), hdr.index("transcript")
+        for r in it:
+            if not r[di] or str(r[di]).strip() != "Truku" or not r[ti]:
+                continue
+            for w in re.split(r"[^A-Za-z']+", str(r[ti]).lower()):
+                n = norm(w)
+                if len(n) >= 2:
+                    freq[n] += 1
+    with open(SPOKEN_CACHE, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(dict(freq), f, ensure_ascii=False)
+    return freq
 
 # ---------------- sister dialects ----------------
 def load_sisters():
@@ -291,8 +358,9 @@ def gloss_overlap(pec_glosses, omni_glosses):
     return best
 
 def main():
-    tokens, glosses, families, cased = load_corpus()
+    tokens, glosses, families, cased, ex_fams, midcap, heads = load_corpus()
     word_raw, word_gloss, sent_best = load_omnibus()
+    spoken = load_spoken()
     words_set = set(word_raw)
     attested = words_set | set(sent_best)
     toda_g, tg_g = load_sisters()
@@ -518,6 +586,23 @@ def main():
         return a
 
     INFIXES = ("mn", "um", "nm", "m", "n")
+
+    # Truku doesn't write the schwa, so a root loses its first vowel the moment
+    # anything is prefixed to it: GAMIL 根 is the root, but "the place where it
+    # took root" is Tgmilan, not *Tgamilan. Testing the stem by literal
+    # containment therefore misses a word's own conjugates — and tier R, reaching
+    # the token with no family to answer to, guessed tgmiran and flipped an l the
+    # root plainly keeps. Every resolved stem is offered in both shapes; the
+    # syncopated one only counts when both sides syncopate the same way, which is
+    # what makes it a correspondence rather than a second guess.
+    def stem_forms(sp, sm):
+        out = [(sp, sm)]
+        mp = re.match(r"^([^aeiou'])[aeiou](?=[^aeiou])", sp)
+        mm_ = re.match(r"^([^aeiou'])[aeiou](?=[^aeiou])", sm)
+        if mp and mm_ and len(sp) >= 4 and len(sm) >= 4:
+            out.append((sp[0] + sp[2:], sm[0] + sm[2:]))
+        return out
+
     proposals = collections.defaultdict(set)     # token -> candidate modern forms
     for fam in families:
         resolved = []
@@ -527,7 +612,7 @@ def main():
                 continue
             sp = norm(m)
             if len(sp) >= 3:
-                resolved.append((sp, rec["modern"].lower()))
+                resolved.extend(stem_forms(sp, rec["modern"].lower()))
         if not resolved:
             continue
         resolved.sort(key=lambda x: -len(x[0]))
@@ -710,6 +795,74 @@ def main():
     tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # ---- pass 3c: attestation in running Truku speech (tier S) ----
+    # Same claim as tiers A/B — "this exact word exists in modern Truku" — but
+    # asked of a 277k-token body of transcribed speech rather than of a
+    # dictionary. Candidates are the rule-consistent readings of his token (each
+    # o/l/x independently kept or converted, plus the near-universal final
+    # -ai>-ay / -ao>-aw / -e>-i), and exactly one of them must be in the corpus
+    # at least twice: once is as likely to be an ASR slip as a word.
+    S_END = [("ai", "ay"), ("ae", "ay"), ("ao", "aw"), ("e", "i")]
+    def rule_readings(n):
+        outs = set()
+        for keep in itertools.product(*[("olx".find(c) >= 0 and (c, {"o": "u", "l": "r", "x": "h"}[c]) or (c,))
+                                        for c in n]):
+            w = "".join(keep)
+            outs.add(w)
+            for src, dst in S_END:
+                if w.endswith(src):
+                    outs.add(w[: -len(src)] + dst)
+        return outs
+    s_log = []
+    for t in sorted(tokens):
+        if t in result or t in OVERRIDE_KEYS:
+            continue
+        n = norm(t)
+        if len(n) < 4:
+            continue
+        hits = sorted(c for c in rule_readings(n) if spoken.get(c, 0) >= 2)
+        if len(hits) != 1 or hits[0] in attested:
+            continue
+        # A corpus hit that flips an l is only believable if the keep-l reading of
+        # the root is NOT itself a modern word: mk'alang matched karang (crab) in
+        # transcribed speech, but his word is built on alang (village).
+        if "l" in n and l_to_r(n) == hits[0]:
+            if any(keep_l(c) in words_set for c in kl_cores(n) | {n}):
+                continue
+        result[t] = {"modern": hits[0], "tier": "S", "spoken": spoken[hits[0]]}
+        tiers["S"] += 1
+        review.pop(t, None)
+        s_log.append((t, hits[0], spoken[hits[0]], tokens[t]))
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
+    # ---- pass 3b: proper names (tier N) ----
+    # "Sapah Sibar u, ana manu ida stbaku kana da!" — Sibal is a man, and the
+    # blind l>r rule renamed him. A name is not a common noun: nothing attests it
+    # and no tier above will ever reach it, so it falls to the char rules, which
+    # is the one population where they are guaranteed to be guessing. Test: the
+    # token is capitalized in the middle of one of his sentences (only a proper
+    # noun is) and is never written lowercase anywhere in the book. Those keep
+    # their l; o>u, x>h and the final -ai/-ao conversions are near-universal and
+    # still apply, so Pisao becomes Pisaw and Labai Labay while Sibal stays Sibal.
+    n_log = []
+    for t in sorted(midcap):
+        if t in result or t in OVERRIDE_KEYS or len(norm(t)) < 3:
+            continue
+        if any(s[:1].islower() for s in cased.get(t, {})):
+            continue
+        m = keep_l(plain(t))
+        for src, dst in S_END[:3]:
+            if m.lower().endswith(src):
+                m = m[: -len(src)] + dst
+                break
+        result[t] = {"modern": m, "tier": "N"}
+        tiers["N"] += 1
+        review.pop(t, None)
+        n_log.append((t, m, midcap[t], tokens[t]))
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
     # ---- pass 4: morphology over an already-solved base (tier D) ----
     # Lowking Nowbucyang, 太魯閣語構詞法研究 (Word Formation in Truku, 2008) §3.4:
     # Truku reduplication is CV- or CVCV-. Truku does not write the schwa, so CV-
@@ -784,6 +937,173 @@ def main():
     tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
     unmapped = [u for u in unmapped if u[0] not in result]
 
+    # ---- pass 5: projection into his own example sentences (tier E) ----
+    # Tier P deliberately refuses example tokens, because a sentence is mostly
+    # other people's words. But that also shut the door on a word's own family:
+    # XEBONG is resolved to hibung on the headword, Mxebong to mhibung on the
+    # sub-form, and kxebong — which occurs nowhere but the single sentence under
+    # that entry — stayed green and went on screen as khebung. It is not a
+    # borderline case; it is the same word.
+    #
+    # The claim here is narrower than tier P's. A sentence token qualifies only if
+    # it CONTAINS a stem the same entry has already resolved, so ka, so and ini
+    # can never match, and one ambiguous candidate disqualifies the token. On the
+    # 5,438 sentences that leaves 148 words, none of them ambiguous, and 92 of
+    # them are words the blind rules are getting wrong today — nearly all through
+    # l>r on a keep-l root (msnugul as msnugur, gnluban as gnruban) or h>x on a
+    # keep-x one (mtgimax as mtgimah).
+    e_log = []
+    ex_proposals = collections.defaultdict(set)
+    for fam, ext in ex_fams:
+        stems = []
+        for m in set(fam):
+            rec = result.get(m)
+            if rec and rec["tier"] != "X" and len(norm(m)) >= 3:
+                stems.extend(stem_forms(norm(m), rec["modern"].lower()))
+        if not stems:
+            continue
+        stems = sorted(set(stems), key=lambda x: -len(x[0]))
+        for t in set(ext):
+            if t in result or t in OVERRIDE_KEYS:
+                continue
+            n = norm(t)
+            if len(n) < 3:
+                continue
+            for sp, sm in stems:
+                hit = None
+                i = n.find(sp)
+                if i >= 0:
+                    hit = (i, len(sp), sm)
+                else:
+                    for inf in INFIXES:
+                        i = n.find(sp[0] + inf + sp[1:])
+                        if i >= 0:
+                            hit = (i, len(sp) + len(inf), sm[0] + inf + sm[1:])
+                            break
+                if hit is None:
+                    continue
+                i, L, core = hit
+                pre, suf = n[:i], n[i + L:]
+                if len(pre) > 5 or len(suf) > 4:
+                    continue
+                ex_proposals[t].add((affix_convert(pre, False) + core +
+                                     affix_convert(suf, True), sp, sm))
+                break
+    for t, cs in sorted(ex_proposals.items()):
+        if t in result:
+            continue
+        if len(set(c[0] for c in cs)) != 1:
+            continue
+        cand, sp, sm = sorted(cs)[0]
+        disp = word_raw.get(cand, cand) if cand in attested else cand
+        result[t] = {"modern": disp, "tier": "E", "e_stem": sp, "e_modern": sm}
+        tiers["E"] += 1
+        e_log.append((t, disp, sp, sm, "attested" if cand in attested else "derived"))
+        review.pop(t, None)
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
+    # ---- pass 6: root projection across entries (tier G) ----
+    # Tier E only sees the entry a token stands in, and words don't respect that
+    # boundary: `mptgamil` occurs once, in a sentence under GABAL 拔, so nothing in
+    # its own entry could tell it that GAMIL 根 is right there resolved and keeps
+    # its l. It reached the screen as mptgamir. So the same containment test is run
+    # once more against the dictionary's ROOTS rather than the entry's family.
+    #
+    # Being global, it is held to a higher bar than tier E: the root must be one
+    # the corpus actually vouches for (no projected or inherited tier may seed
+    # another projection), at least 4 characters so a coincidental substring
+    # cannot qualify, and the root's own reading must be unique — two roots that
+    # normalize to the same shape disqualify each other. One ambiguous candidate
+    # still kills the token.
+    #
+    # Two further guards, both learned from the first run of this pass:
+    #  * The stem pair must be a letter-for-letter CORRESPONDENCE. Pecoraro's MALO
+    #    also surfaces as `nalu`, and reading that as a spelling rule projected
+    #    `mpanalu` to *mpamalu — n/m there is the AF prefix alternating, not an
+    #    orthography. Only the attested letter swaps may differ.
+    #  * Tier G only speaks when it has something to say. A root that the blind
+    #    rules already convert correctly adds no evidence, and a 4-letter substring
+    #    match is cheap: `banasi` contains `nasi`, `kliban` contains the name
+    #    `Iban`. Where the projection agrees with the fallback the token is left
+    #    green, which is the honest colour for "nothing checked this".
+    #  * Only example-sentence tokens are eligible, and no root may seed a token
+    #    that Pecoraro filed under a root of its own. `Kliban` is a sub-form of
+    #    KALIP 剪, so the fact that it ends in the name `Iban` is nothing; tiers
+    #    P/R/KL own that word and may leave it green if they can't settle it.
+    #  * A name is never a stem. Tier N words are people, and people turn up
+    #    inside other words by accident only.
+    G_SEED = {"id", "M", "L", "A", "B", "B-rules", "T", "S"}
+    # `families` only collects an entry with more than one form, so a lone headword
+    # like QALIP is not in it — and QALIP is a headword Pecoraro himself files with
+    # KALIP. Add the heads back or tier G walks straight into it.
+    family_tokens = set(t for fam in families for t in fam) | set(heads)
+    G_SWAP = {("o", "u"), ("l", "r"), ("x", "h"), ("k", "q"), ("q", "k"),
+              ("d", "j"), ("t", "c"), ("e", "i"), ("ç", "x")}
+    def corresponds(sp, sm):
+        if len(sp) != len(sm):
+            return False
+        return all(a == b or (a, b) in G_SWAP for a, b in zip(sp, sm))
+    root_stems = collections.defaultdict(set)
+    for h in set(heads):
+        rec = result.get(h)
+        if not rec or rec["tier"] not in G_SEED or len(norm(h)) < 4:
+            continue
+        for sp, sm in stem_forms(norm(h), rec["modern"].lower()):
+            if len(sp) >= 4 and corresponds(sp, sm):
+                root_stems[sp].add(sm)
+    root_stems = {sp: next(iter(ms)) for sp, ms in root_stems.items() if len(ms) == 1}
+    g_stems = sorted(root_stems.items(), key=lambda x: -len(x[0]))
+    # Local root wins. `qalip` sits in a sentence under KALIP 剪 and is the same
+    # word as the headword under the very q/k swap this pass allows — so it is not
+    # free to go and inherit from QALI 話 across the book. Same length and a
+    # letter-for-letter correspondence is a deliberately tight test.
+    g_local = set()
+    for fam, ext in ex_fams:
+        fn = set(norm(f) for f in fam if len(norm(f)) >= 4)
+        for t in set(ext):
+            n = norm(t)
+            if any(corresponds(n, f) for f in fn):
+                g_local.add(t)
+    g_log = []
+    for t in sorted(tokens):
+        if t in result or t in OVERRIDE_KEYS or t in family_tokens or t in g_local:
+            continue
+        n = norm(t)
+        if len(n) < 4:
+            continue
+        cands = set()
+        for sp, sm in g_stems:
+            hit = None
+            i = n.find(sp)
+            if i >= 0:
+                hit = (i, len(sp), sm)
+            else:
+                for inf in INFIXES:
+                    i = n.find(sp[0] + inf + sp[1:])
+                    if i >= 0:
+                        hit = (i, len(sp) + len(inf), sm[0] + inf + sm[1:])
+                        break
+            if hit is None:
+                continue
+            i, L, core = hit
+            pre, suf = n[:i], n[i + L:]
+            if len(pre) > 3 or len(suf) > 3 or len(pre) + len(suf) > 5:
+                continue
+            cands.add((affix_convert(pre, False) + core + affix_convert(suf, True), sp, sm))
+        if len(set(c[0] for c in cands)) != 1:
+            continue
+        cand, sp, sm = sorted(cands)[0]
+        if cand == l_to_r(n):
+            continue    # the blind fallback already lands here; claim nothing
+        disp = word_raw.get(cand, cand) if cand in attested else cand
+        result[t] = {"modern": disp, "tier": "G", "g_stem": sp, "g_modern": sm}
+        tiers["G"] += 1
+        review.pop(t, None)
+        g_log.append((t, disp, sp, sm, tokens[t], "attested" if cand in attested else "derived"))
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
     # Nothing leaves this generator carrying his diacritics. A modern spelling is
     # written in the modern alphabet, so ç becomes x and the vowel marks drop —
     # whatever tier produced it. The identity tier used to return his raw token
@@ -831,6 +1151,28 @@ def main():
         f.write("# tier D: token -> modern, rule, base, tier the base came from\n")
         for t, mod, rule, base, bt in sorted(d_log):
             f.write("%-16s %-16s %-6s %-16s %s\n" % (t, mod, rule, base, bt))
+    print("example projection (E): %d mapped" % tiers["E"])
+    with open(os.path.join(HERE, "tier_e_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier E: sentence-only token -> modern, the stem it inherited, that stem's modern form\n")
+        for t, mod, sp, sm, how in sorted(e_log):
+            f.write("%-16s %-16s %-14s %-14s %s\n" % (t, mod, sp, sm, how))
+    print("spoken-corpus attestation (S): %d mapped" % tiers["S"])
+    with open(os.path.join(HERE, "tier_s_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier S: his token -> the one rule-consistent reading found in transcribed Truku speech\n")
+        f.write("# columns: token, modern, times in the 277k-token spoken corpus, times on screen\n")
+        for t, m, c, o in sorted(s_log, key=lambda r: -r[3]):
+            f.write("%-16s %-16s %6d %5d\n" % (t, m, c, o))
+    print("proper names (N): %d frozen against l>r" % tiers["N"])
+    with open(os.path.join(HERE, "tier_n_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier N: capitalized mid-sentence, never lowercase anywhere -> a name, so l stays l\n")
+        for t, m, mc, o in sorted(n_log, key=lambda r: -r[3]):
+            f.write("%-16s %-16s midcap=%-4d occ=%d\n" % (t, m, mc, o))
+    print("cross-entry root projection (G): %d mapped" % tiers["G"])
+    with open(os.path.join(HERE, "tier_g_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier G: token -> modern, the ROOT stem it inherited (from any entry), that root's modern form\n")
+        f.write("# columns: token, modern, stem, stem modern, occurrences, attested?\n")
+        for t, mod, sp, sm, o, how in sorted(g_log, key=lambda r: -r[4]):
+            f.write("%-16s %-16s %-14s %-14s %5d %s\n" % (t, mod, sp, sm, o, how))
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 

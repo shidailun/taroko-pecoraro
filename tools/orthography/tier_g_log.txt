@@ -1,0 +1,33 @@
+# tier G: token -> modern, the ROOT stem it inherited (from any entry), that root's modern form
+# columns: token, modern, stem, stem modern, occurrences, attested?
+mpdxok           mpdhuq           dxok           dhuq               5 derived
+dmkpax           dmqpah           kpax           qpah               4 derived
+npamalu          npamalu          malu           malu               2 derived
+slongan          slungan          slong          slung              2 derived
+daxani           daxani           daxa           daxa               1 derived
+dmnalox          dmnarux          nalox          narux              1 derived
+drbiyax          drbiyax          biyax          biyax              1 derived
+kmalox           kmaluh           kalo           kalu               1 derived
+kmptöting        kmptucing        toting         tucing             1 derived
+mkmpxeng         mkmphing         pxeng          phing              1 derived
+mkp'xeng         mkphing          pxeng          phing              1 derived
+mlb'bao          mlbbao           bbao           bbao               1 derived
+mpakmpaxan       mpaqmpahan       kpax           qpah               1 derived
+mpamalu          mpamalu          malu           malu               1 derived
+mplenax          mprinah          lenax          rinah              1 derived
+mpsklol          mpsqrul          sklol          sqrul              1 derived
+mptgamil         mptgamil         gamil          gamil              1 derived
+mptquli          mptquli          quli           quli               1 derived
+mslangan         mslangan         slangan        slangan            1 derived
+mspatuil         mspatuil         mspat          mspat              1 derived
+ndyano           njyanu           dyan           jyan               1 derived
+npamuxul         npamuxul         muxul          muxul              1 derived
+nplb'bao         nplbbao          bbao           bbao               1 derived
+ntluula          ntluula          luul           luul               1 derived
+pnblexan         pnbrihan         blex           brih               1 derived
+pnmaxal          pnmaxal          maxal          maxal              1 derived
+ppskngalun       ppskngalun       kngal          kngal              1 derived
+pttaqe           pttaqi           taqe           taqi               1 derived
+qqlang           qqlang           qlang          qlang              1 derived
+rinalox          rinarux          nalox          narux              1 derived
+spktaqe          spktaqi          taqe           taqi               1 derived
