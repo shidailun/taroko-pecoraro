@@ -110,10 +110,40 @@ def load_corpus():
     # stem this entry has already resolved, which is a far narrower claim.
     ex_fams = []
     heads = []
+    # The words of the entries Pecoraro tags [emprunt jap./chin.]. He romanizes
+    # these faithfully to the source (Japanese o stays o: SATO, DOKU, OTOBAI),
+    # which is a different system from the one he uses for Truku, where his o is
+    # the sound modern orthography writes u. They therefore need their own pass —
+    # and, more urgently, they must be kept away from the attestation tiers. The
+    # modern wordlists dropped nearly the whole loan stratum in favour of native
+    # coinages (lumak for tobacco, mtgsa for teacher, tluan for table), so a loan
+    # that "matches" a modern word is matching a homonym: TOKE 時計 was confirmed
+    # as tuki because tuki occurs 312 times in speech — meaning 抵銷.
+    #
+    # Several loan entries are compounds with a native word in them — Sapax kensat
+    # "police station", Tama denki "electric pole", BALA-NO-XANA "bara no hana" —
+    # and taking the headword apart naively enrolled sapax (375 occurrences in the
+    # book), tama (131) and the Japanese genitive no, which is spelled exactly like
+    # the Truku particle no (210). Those are not loans, and a class pass that
+    # outranks attestation must not be allowed to decide them. So a multi-token
+    # source contributes only the tokens that occur nowhere outside the loan
+    # entries; a single-token one is the loan itself and always counts.
+    loan_srcs, native_tokens = [], set()
     for e in entries:
         hwt = TOKEN_RE.findall(e.get("hw") or "")
         if hwt:
             heads.append(tkey(hwt[0]))
+        srcs = [e.get("hw"), e.get("paradigm")] + \
+               [s.get(k) for s in e.get("subs", []) for k in ("form", "paradigm")]
+        # three tag spellings, all his: [emprunt jap./chin.] x121, (J) on KENSAT,
+        # (J.?) on BAKET — the query mark is his own doubt about the etymology,
+        # not a different category.
+        if re.search(r"emprunt|^\(J", e.get("tag") or ""):
+            loan_srcs += srcs
+        else:
+            for src in srcs + [x.get("t") for x in e.get("examples", [])] + \
+                       [x.get("t") for s in e.get("subs", []) for x in s.get("examples", [])]:
+                native_tokens.update(tkey(t) for t in TOKEN_RE.findall(src or ""))
         take(e.get("hw")); take(e.get("crossRef")); take(e.get("paradigm"))
         for x in e.get("examples", []): take_ex(x.get("t"))
         hz = zh_clean(e.get("zh", ""))
@@ -139,7 +169,11 @@ def load_corpus():
             families.append(fam)
         if fam and ext:
             ex_fams.append((fam, ext))
-    return tokens, glosses, families, cased, ex_fams, midcap, heads
+    loan_tokens = set()
+    for src in loan_srcs:
+        ts = [tkey(t) for t in TOKEN_RE.findall(src or "")]
+        loan_tokens.update(ts if len(ts) == 1 else [t for t in ts if t not in native_tokens])
+    return tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens
 
 # ---------------- omnibus ----------------
 def load_omnibus():
@@ -358,7 +392,7 @@ def gloss_overlap(pec_glosses, omni_glosses):
     return best
 
 def main():
-    tokens, glosses, families, cased, ex_fams, midcap, heads = load_corpus()
+    tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens = load_corpus()
     word_raw, word_gloss, sent_best = load_omnibus()
     spoken = load_spoken()
     words_set = set(word_raw)
@@ -439,14 +473,94 @@ def main():
     lex_path = os.path.join(HERE, "lexical_map.json")
     lexical = json.load(open(lex_path, encoding="utf-8")) if os.path.exists(lex_path) else {}
     lexical = {k: v for k, v in lexical.items() if not k.startswith("_")}
+    # A null value means the opposite of a substitution: his word is gone and the
+    # modern language offers nothing for THIS slot. Sl'xqan is the locative of a
+    # verb whose modern replacement (shik) has no locative on record — so the
+    # honest answer is silence, and the token is frozen out of every tier and
+    # stays green. Without this the rules read it as the skin word and printed
+    # srhqan, which is a claim nobody made.
+    lex_block = set(k for k, v in lexical.items() if not v)
+    lexical = {k: v for k, v in lexical.items() if v}
+    OVERRIDE_KEYS.update(lex_block)
 
     # tier L: per-case adjudication of the C-review queue (gloss-checked one by one)
     llm_path = os.path.join(HERE, "llm_map.json")
     llm = json.load(open(llm_path, encoding="utf-8")) if os.path.exists(llm_path) else {}
     llm = {k: v for k, v in llm.items() if not k.startswith("_")}
 
+    # ---- pass 0c: the loan stratum (tier J) ----
+    #
+    # It runs above the attestation tiers rather than below them because for this
+    # class attestation is actively misleading. Modern standard Truku replaced most
+    # of the loan stratum with native coinages (lumak for tobacco, mtgsa for
+    # teacher, tluan for table), so when a loan's shape does turn up in the modern
+    # corpus it is a homonym — and the more often it turns up, the more confident
+    # the wrong answer looked:
+    #   TOKE 時計 -> tuki, which is 抵銷 (312x in speech)
+    #   DOLI 道理 -> duri, which is 又 (517x)
+    #   XAYA 汽車 -> haya, which is 這樣 (129x)
+    #   MISO 味噌 -> misu, which is 你 (128x)
+    #   BALAS 礫石 -> balas, which is 性交
+    # Of the 63 loans the earlier passes claimed, seven landed on a modern word
+    # that means the right thing. So a loan may keep an attested spelling only when
+    # the GLOSS agrees; otherwise it is romanized by rule and the log says so.
+    #
+    # The rule is short, because his loan spellings are already internally
+    # consistent — across all 122 tagged entries there is not one loan he writes
+    # two ways. What they are not is consistent with the rest of the book: he
+    # romanizes the source (Japanese o stays o) while his Truku o is modern u.
+    # Only that difference is corrected, plus his x for the source h (XINOKI
+    # hinoki, XANA hana), his final -e for a vowel modern Truku does not have
+    # word-finally (BALE > bali, NABE > nabi, both attested), and the two final
+    # glides the modern orthography settled: -ay outnumbers -ai 2129 to 101 and
+    # -uy outnumbers -wi 723 to 50. l is left alone — bali 子彈 keeps it, and l>r
+    # is guesswork on a word that was never Truku to begin with.
+    def loan_rule(t):
+        w = plain(t).lower().replace("x", "h").replace("o", "u")
+        w = re.sub(r"e$", "i", w)
+        w = re.sub(r"ai$", "ay", w)
+        return re.sub(r"wi$", "uy", w)
+
+    # Shortest first, so a prefixed form can inherit the base it is built on:
+    # KENSAT resolves to knsat on its gloss, and Mkensat must then be Mknsat and
+    # not the rule's mkensat. This is tier P's argument confined to the loan set.
+    for t in sorted(loan_tokens & set(tokens), key=lambda x: (len(x), x)):
+        if t in OVERRIDE_KEYS or t in lexical or len(t) < 2:
+            continue
+        n = norm(t)
+        pec_g = glosses.get(n, set())
+        # A hand mapping that CHANGED something was a real decision and still wins
+        # (tomato > tmatu). One that only says "leave it alone" was a verdict of
+        # "no modern form found", reached before the loans were looked at as a
+        # class — nine of them (bolu, kaya, keto, kuli, losok, mkuli, saida,
+        # taoke, xama) are exactly the words this pass exists to romanize.
+        hand = manual.get(t) or llm.get(t)
+        if hand and hand.lower() != plain(t).lower():
+            result[t] = {"modern": hand, "tier": "J", "j_how": "hand"}
+            tiers["J"] += 1
+            continue
+        best_g, pick = 0, None
+        for c in list(candidates(n)) + [n]:
+            if c not in words_set:
+                continue
+            g = gloss_overlap(pec_g, word_gloss.get(c, set()))
+            if g > best_g:
+                best_g, pick = g, c
+        if best_g >= 2:
+            result[t] = {"modern": word_raw.get(pick, pick), "tier": "J", "j_how": "gloss"}
+        else:
+            base = next((b for b in sorted(loan_tokens, key=len, reverse=True)
+                         if b != t and len(b) >= 4 and result.get(b, {}).get("tier") == "J"
+                         and t.endswith(b)), None)
+            if base:
+                result[t] = {"modern": loan_rule(t[:-len(base)]) + result[base]["modern"],
+                             "tier": "J", "j_how": "base:" + base}
+            else:
+                result[t] = {"modern": loan_rule(t), "tier": "J", "j_how": "rule"}
+        tiers["J"] += 1
+
     for t in sorted(tokens):
-        if t in OVERRIDE_KEYS or len(t) < 2:
+        if t in OVERRIDE_KEYS or t in result or len(t) < 2:
             continue
         n = norm(t)
         if not n or len(n) < 2:
@@ -1167,6 +1281,20 @@ def main():
         f.write("# tier N: capitalized mid-sentence, never lowercase anywhere -> a name, so l stays l\n")
         for t, m, mc, o in sorted(n_log, key=lambda r: -r[3]):
             f.write("%-16s %-16s midcap=%-4d occ=%d\n" % (t, m, mc, o))
+    j_rows = [(t, r["modern"], r["j_how"], tokens[t]) for t, r in result.items()
+              if r["tier"] == "J"]
+    print("japanese/chinese loans (J): %d romanized (%d kept on gloss evidence)"
+          % (len(j_rows), sum(1 for r in j_rows if r[2] == "gloss")))
+    with open(os.path.join(HERE, "tier_j_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier J: words tagged [emprunt jap./chin.], romanized as a class\n")
+        f.write("# how = gloss: an attested modern word whose Chinese gloss agrees\n")
+        f.write("#       rule : his spelling with o>u, x>h, final -e>-i, -ai>-ay,\n"
+                "#              -wi>-uy; l left alone\n")
+        f.write("#       base : the rule on the prefix + a base resolved above\n")
+        f.write("#       hand : a curated mapping that changed something\n")
+        f.write("# columns: token, modern, how, occurrences\n")
+        for t, mod, how, o in sorted(j_rows, key=lambda r: (r[2], r[0])):
+            f.write("%-16s %-16s %-6s %5d\n" % (t, mod, how, o))
     print("cross-entry root projection (G): %d mapped" % tiers["G"])
     with open(os.path.join(HERE, "tier_g_log.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write("# tier G: token -> modern, the ROOT stem it inherited (from any entry), that root's modern form\n")

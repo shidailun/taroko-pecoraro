@@ -91,7 +91,6 @@ nslubwi          nslubuy          n-     slubwi           T
 nslxoqan         nsrhuqan         n-     slxoqan          B
 nsueq            nsueq            n-     sueq             M
 ntlawa           ntlawa           n-     mtlawa           id
-nuli             nuli             n-     muli             M
 nxoai            nhuway           n-     xoai             B
 ppaotoç          ppautux          CV-    paotoç           P
 ppitai           ppitay           CV-    pitai            S
@@ -113,7 +112,7 @@ ppyasan          ppyasan          CV-    pyasan           R
 ss'xgan          sshgan           CV-    s'xgan           R
 ssgxoai          ssghuway         CV-    sgxoai           A
 sssik            sssik            CV-    ssik             R
-ttabu            ttabu            CV-    tabu             T
+ttabu            ttabu            CV-    tabu             J
 ttaxot           ttahut           CV-    taxot            B
 ttl'boq          ttrbuq           CV-    tl'boq           B
 ttmisa           ttmisa           CV-    tmisa            S

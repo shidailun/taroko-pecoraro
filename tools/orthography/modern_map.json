@@ -1,5 +1,700 @@
 {
  "map": {
+  "pu": {
+   "modern": "pu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "ego": {
+   "modern": "egu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "oba": {
+   "modern": "uba",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "baku": {
+   "modern": "baku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "bala": {
+   "modern": "bala",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "bale": {
+   "modern": "bali",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "beto": {
+   "modern": "betu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "biru": {
+   "modern": "biru",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "bolu": {
+   "modern": "bulu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "bosi": {
+   "modern": "busi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "budo": {
+   "modern": "budu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "doku": {
+   "modern": "duku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "doli": {
+   "modern": "duli",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "dolu": {
+   "modern": "dulu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "doxe": {
+   "modern": "duhi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "empi": {
+   "modern": "empi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "gako": {
+   "modern": "gaku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kagi": {
+   "modern": "kagi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kane": {
+   "modern": "kani",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kasi": {
+   "modern": "kasi",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "kaya": {
+   "modern": "kaya",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kega": {
+   "modern": "kega",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "keto": {
+   "modern": "ketu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kuli": {
+   "modern": "kuli",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lapa": {
+   "modern": "lapa",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lopu": {
+   "modern": "lupu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mayo": {
+   "modern": "mayu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "miso": {
+   "modern": "misu",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "nabe": {
+   "modern": "nabi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "negi": {
+   "modern": "negi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "nuli": {
+   "modern": "nuli",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "omma": {
+   "modern": "umma",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "pang": {
+   "modern": "pang",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "popu": {
+   "modern": "pupu",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "qoai": {
+   "modern": "quway",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "sato": {
+   "modern": "satu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "soyu": {
+   "modern": "suyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "sögi": {
+   "modern": "sugi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tabu": {
+   "modern": "tabu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tiku": {
+   "modern": "tiku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "toke": {
+   "modern": "tuki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "wagi": {
+   "modern": "wagi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "wana": {
+   "modern": "wana",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "xaku": {
+   "modern": "haku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xama": {
+   "modern": "hama",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xana": {
+   "modern": "hana",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xaya": {
+   "modern": "haya",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "xong": {
+   "modern": "hung",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "abura": {
+   "modern": "abura",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "baket": {
+   "modern": "baket",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "balas": {
+   "modern": "balas",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "dalya": {
+   "modern": "dalya",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "denki": {
+   "modern": "denki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "empit": {
+   "modern": "empit",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "entot": {
+   "modern": "entut",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "g'las": {
+   "modern": "g'las",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "gasyo": {
+   "modern": "gasyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "gotyo": {
+   "modern": "gutyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "ising": {
+   "modern": "ising",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "kaiko": {
+   "modern": "kaiku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kikai": {
+   "modern": "kikay",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kodyo": {
+   "modern": "kudyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "koswi": {
+   "modern": "kusuy",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kotyo": {
+   "modern": "kutyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lemon": {
+   "modern": "lemun",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lenga": {
+   "modern": "lenga",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "losok": {
+   "modern": "lusuk",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "matse": {
+   "modern": "matsi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mbosi": {
+   "modern": "mbusi",
+   "tier": "J",
+   "j_how": "base:bosi"
+  },
+  "mkuli": {
+   "modern": "mkuli",
+   "tier": "J",
+   "j_how": "base:kuli"
+  },
+  "mlata": {
+   "modern": "mrata",
+   "tier": "J",
+   "j_how": "hand"
+  },
+  "paipu": {
+   "modern": "paipu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "penki": {
+   "modern": "penki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "penti": {
+   "modern": "penti",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "petyu": {
+   "modern": "petyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "pkagi": {
+   "modern": "pkagi",
+   "tier": "J",
+   "j_how": "base:kagi"
+  },
+  "pkega": {
+   "modern": "pkega",
+   "tier": "J",
+   "j_how": "base:kega"
+  },
+  "plapa": {
+   "modern": "plapa",
+   "tier": "J",
+   "j_how": "base:lapa"
+  },
+  "plato": {
+   "modern": "platu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "ponki": {
+   "modern": "punki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "radyo": {
+   "modern": "radyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "saida": {
+   "modern": "saida",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "sinpu": {
+   "modern": "sinpu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "taixe": {
+   "modern": "taihi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tanka": {
+   "modern": "tanka",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tansö": {
+   "modern": "tansu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "taoke": {
+   "modern": "tauki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "teuxu": {
+   "modern": "teuhu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "trasi": {
+   "modern": "trasi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tskoe": {
+   "modern": "tskui",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "usagi": {
+   "modern": "usagi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "wakai": {
+   "modern": "wakay",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xelyo": {
+   "modern": "helyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xetai": {
+   "modern": "hetay",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "botang": {
+   "modern": "butang",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kaisya": {
+   "modern": "kaisya",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kaityo": {
+   "modern": "kaityu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kawala": {
+   "modern": "kawala",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kensat": {
+   "modern": "knsat",
+   "tier": "J",
+   "j_how": "gloss"
+  },
+  "kyokai": {
+   "modern": "kyukay",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lantyu": {
+   "modern": "lantyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "lintyo": {
+   "modern": "lintyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "makura": {
+   "modern": "makura",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mil'ku": {
+   "modern": "mil'ku",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mongpe": {
+   "modern": "mungpi",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "msimpu": {
+   "modern": "msimpu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mskuli": {
+   "modern": "mskuli",
+   "tier": "J",
+   "j_how": "base:kuli"
+  },
+  "otobai": {
+   "modern": "utubay",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "plpaan": {
+   "modern": "plpaan",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "pskuli": {
+   "modern": "pskuli",
+   "tier": "J",
+   "j_how": "base:kuli"
+  },
+  "sabong": {
+   "modern": "sabung",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "seneng": {
+   "modern": "seneng",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "simisö": {
+   "modern": "simisu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "smlata": {
+   "modern": "smrata",
+   "tier": "J",
+   "j_how": "base:mlata"
+  },
+  "snbosi": {
+   "modern": "snbusi",
+   "tier": "J",
+   "j_how": "base:bosi"
+  },
+  "snpuan": {
+   "modern": "snpuan",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tamana": {
+   "modern": "tamana",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tatami": {
+   "modern": "tatami",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "tomato": {
+   "modern": "tmatu",
+   "tier": "J",
+   "j_how": "hand"
+  },
+  "xaibyo": {
+   "modern": "haibyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "xinoki": {
+   "modern": "hinuki",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "budosyu": {
+   "modern": "budusyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "domboli": {
+   "modern": "dumbuli",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "gasolin": {
+   "modern": "gasulin",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kengtyo": {
+   "modern": "kengtyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "knwakai": {
+   "modern": "knwakay",
+   "tier": "J",
+   "j_how": "base:wakai"
+  },
+  "mkensat": {
+   "modern": "mknsat",
+   "tier": "J",
+   "j_how": "base:kensat"
+  },
+  "pbotang": {
+   "modern": "pbutang",
+   "tier": "J",
+   "j_how": "base:botang"
+  },
+  "sagaimu": {
+   "modern": "sagaimu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "semento": {
+   "modern": "sementu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "songtyo": {
+   "modern": "sungtyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "sosidyu": {
+   "modern": "susidyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "didensya": {
+   "modern": "didensya",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kongleng": {
+   "modern": "kungleng",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "kutsesta": {
+   "modern": "kutsesta",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "mpasimpu": {
+   "modern": "mpasimpu",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "ningding": {
+   "modern": "ningding",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "singbong": {
+   "modern": "singbung",
+   "tier": "J",
+   "j_how": "rule"
+  },
+  "stimentyo": {
+   "modern": "stimentyu",
+   "tier": "J",
+   "j_how": "rule"
+  },
   "'baon": {
    "modern": "baun",
    "tier": "A"
@@ -59,10 +754,6 @@
   "abo": {
    "modern": "abu",
    "tier": "B"
-  },
-  "abura": {
-   "modern": "abura",
-   "tier": "T"
   },
   "adas": {
    "modern": "adas",
@@ -244,10 +935,6 @@
    "modern": "baka",
    "tier": "id"
   },
-  "baket": {
-   "modern": "bakit",
-   "tier": "B"
-  },
   "baki": {
    "modern": "baki",
    "tier": "id"
@@ -272,17 +959,9 @@
    "modern": "baraq",
    "tier": "B"
   },
-  "balas": {
-   "modern": "balas",
-   "tier": "id"
-  },
   "balax": {
    "modern": "barah",
    "tier": "B"
-  },
-  "bale": {
-   "modern": "bali",
-   "tier": "A"
   },
   "bali": {
    "modern": "bali",
@@ -652,10 +1331,6 @@
    "modern": "burux",
    "tier": "B"
   },
-  "bolu": {
-   "modern": "bolu",
-   "tier": "M"
-  },
   "bonga": {
    "modern": "bunga",
    "tier": "A"
@@ -671,10 +1346,6 @@
   "boro": {
    "modern": "boro",
    "tier": "M"
-  },
-  "bosi": {
-   "modern": "busi",
-   "tier": "T"
   },
   "boxo": {
    "modern": "buhu",
@@ -782,10 +1453,6 @@
   },
   "budi": {
    "modern": "buji",
-   "tier": "B"
-  },
-  "budo": {
-   "modern": "budu",
    "tier": "B"
   },
   "bugo": {
@@ -1180,10 +1847,6 @@
    "modern": "dngdang",
    "tier": "M"
   },
-  "denki": {
-   "modern": "denki",
-   "tier": "T"
-  },
   "dga": {
    "modern": "dga",
    "tier": "id"
@@ -1203,10 +1866,6 @@
   "dian": {
    "modern": "jiyan",
    "tier": "B"
-  },
-  "didensya": {
-   "modern": "didensya",
-   "tier": "T"
   },
   "didil": {
    "modern": "jijil",
@@ -1452,15 +2111,7 @@
    "modern": "duwa",
    "tier": "B"
   },
-  "doku": {
-   "modern": "duku",
-   "tier": "B"
-  },
   "dole": {
-   "modern": "duri",
-   "tier": "B"
-  },
-  "doli": {
    "modern": "duri",
    "tier": "B"
   },
@@ -1482,10 +2133,6 @@
   },
   "dopun": {
    "modern": "dupun",
-   "tier": "B"
-  },
-  "doxe": {
-   "modern": "duhi",
    "tier": "B"
   },
   "doxon": {
@@ -1600,10 +2247,6 @@
    "modern": "daxa",
    "tier": "id"
   },
-  "ego": {
-   "modern": "egu",
-   "tier": "B"
-  },
   "esuan": {
    "modern": "esuan",
    "tier": "id"
@@ -1679,10 +2322,6 @@
   "gakat": {
    "modern": "gakat",
    "tier": "id"
-  },
-  "gako": {
-   "modern": "gaku",
-   "tier": "T"
   },
   "galang": {
    "modern": "galang",
@@ -2108,10 +2747,6 @@
    "modern": "isil",
    "tier": "id"
   },
-  "ising": {
-   "modern": "ising",
-   "tier": "id"
-  },
   "iso": {
    "modern": "isu",
    "tier": "A"
@@ -2248,10 +2883,6 @@
    "modern": "kaji",
    "tier": "B"
   },
-  "kagi": {
-   "modern": "kagi",
-   "tier": "T"
-  },
   "kagox": {
    "modern": "kaguh",
    "tier": "B"
@@ -2276,16 +2907,8 @@
    "modern": "kana",
    "tier": "id"
   },
-  "kane": {
-   "modern": "kani",
-   "tier": "B"
-  },
   "kari": {
    "modern": "kari",
-   "tier": "id"
-  },
-  "kasi": {
-   "modern": "kasi",
    "tier": "id"
   },
   "kating": {
@@ -2299,10 +2922,6 @@
   "kawas": {
    "modern": "kawas",
    "tier": "id"
-  },
-  "kaya": {
-   "modern": "kaya",
-   "tier": "M"
   },
   "kayao": {
    "modern": "kayaw",
@@ -2456,17 +3075,9 @@
    "modern": "kjiyax",
    "tier": "M"
   },
-  "kensat": {
-   "modern": "knsat",
-   "tier": "A"
-  },
   "keta": {
    "modern": "kita",
    "tier": "A"
-  },
-  "keto": {
-   "modern": "keto",
-   "tier": "M"
   },
   "kg'long": {
    "modern": "kgrung",
@@ -2499,10 +3110,6 @@
   "kika": {
    "modern": "kika",
    "tier": "id"
-  },
-  "kikai": {
-   "modern": "kikay",
-   "tier": "B"
   },
   "kila": {
    "modern": "kila",
@@ -3276,10 +3883,6 @@
    "modern": "kuna",
    "tier": "B"
   },
-  "koswi": {
-   "modern": "kusuy",
-   "tier": "B"
-  },
   "koulae": {
    "modern": "koulae",
    "tier": "M"
@@ -3484,10 +4087,6 @@
    "modern": "kulaw",
    "tier": "B"
   },
-  "kuli": {
-   "modern": "kuli",
-   "tier": "M"
-  },
   "kulu": {
    "modern": "kulu",
    "tier": "id"
@@ -3587,10 +4186,6 @@
   "kxungul": {
    "modern": "khungul",
    "tier": "B"
-  },
-  "kyokai": {
-   "modern": "kyukay",
-   "tier": "T"
   },
   "kyoxan": {
    "modern": "kyuhan",
@@ -3872,10 +4467,6 @@
    "modern": "lowking",
    "tier": "B"
   },
-  "lapa": {
-   "modern": "lapa",
-   "tier": "id"
-  },
   "lapit": {
    "modern": "rapit",
    "tier": "A"
@@ -4023,10 +4614,6 @@
   "ldludan": {
    "modern": "rdrudan",
    "tier": "B"
-  },
-  "lemon": {
-   "modern": "lemon",
-   "tier": "L"
   },
   "lenax": {
    "modern": "rinah",
@@ -4536,10 +5123,6 @@
    "modern": "rqun",
    "tier": "L"
   },
-  "losok": {
-   "modern": "losok",
-   "tier": "M"
-  },
   "lowai": {
    "modern": "lowai",
    "tier": "M"
@@ -4936,10 +5519,6 @@
    "modern": "makux",
    "tier": "B"
   },
-  "makura": {
-   "modern": "makura",
-   "tier": "T"
-  },
   "malae": {
    "modern": "maray",
    "tier": "B"
@@ -5304,10 +5883,6 @@
    "modern": "misan",
    "tier": "id"
   },
-  "miso": {
-   "modern": "misu",
-   "tier": "A"
-  },
   "misux": {
    "modern": "misux",
    "tier": "id"
@@ -5576,10 +6151,6 @@
    "modern": "mkray",
    "tier": "L"
   },
-  "mkuli": {
-   "modern": "mkuli",
-   "tier": "M"
-  },
   "mkuong": {
    "modern": "mkuung",
    "tier": "B"
@@ -5638,10 +6209,6 @@
   },
   "mlangi": {
    "modern": "mrangi",
-   "tier": "B"
-  },
-  "mlata": {
-   "modern": "mrata",
    "tier": "B"
   },
   "mlatat": {
@@ -6407,10 +6974,6 @@
   "mskukul": {
    "modern": "mskukul",
    "tier": "T"
-  },
-  "mskuli": {
-   "modern": "mskuri",
-   "tier": "B"
   },
   "mskuxul": {
    "modern": "mskuxul",
@@ -7300,10 +7863,6 @@
    "modern": "nimah",
    "tier": "B"
   },
-  "ningding": {
-   "modern": "ningjing",
-   "tier": "T"
-  },
   "nique": {
    "modern": "niqi",
    "tier": "L"
@@ -7620,10 +8179,6 @@
    "modern": "utas",
    "tier": "A"
   },
-  "otobai": {
-   "modern": "utubay",
-   "tier": "B"
-  },
   "otox": {
    "modern": "utux",
    "tier": "A"
@@ -7758,10 +8313,6 @@
   },
   "palit": {
    "modern": "palit",
-   "tier": "id"
-  },
-  "pang": {
-   "modern": "pang",
    "tier": "id"
   },
   "paon": {
@@ -8360,17 +8911,9 @@
    "modern": "prana",
    "tier": "B"
   },
-  "plapa": {
-   "modern": "prapa",
-   "tier": "B"
-  },
   "platat": {
    "modern": "platat",
    "tier": "id"
-  },
-  "plato": {
-   "modern": "pratu",
-   "tier": "B"
   },
   "plawa": {
    "modern": "plawa",
@@ -8768,10 +9311,6 @@
    "modern": "pungu",
    "tier": "B"
   },
-  "popu": {
-   "modern": "pupu",
-   "tier": "A"
-  },
   "poqan": {
    "modern": "puqan",
    "tier": "B"
@@ -9135,10 +9674,6 @@
   "psku": {
    "modern": "psku",
    "tier": "id"
-  },
-  "pskuli": {
-   "modern": "pskuri",
-   "tier": "B"
   },
   "pskyaon": {
    "modern": "pskyaun",
@@ -10256,10 +10791,6 @@
    "modern": "qnyutan",
    "tier": "id"
   },
-  "qoai": {
-   "modern": "quway",
-   "tier": "A"
-  },
   "qoaq": {
    "modern": "quwaq",
    "tier": "M"
@@ -10548,10 +11079,6 @@
    "modern": "sai",
    "tier": "id"
   },
-  "saida": {
-   "modern": "saida",
-   "tier": "M"
-  },
   "sais": {
    "modern": "sais",
    "tier": "id"
@@ -10647,10 +11174,6 @@
   "sasao": {
    "modern": "sasaw",
    "tier": "B"
-  },
-  "sato": {
-   "modern": "satu",
-   "tier": "T"
   },
   "saxo": {
    "modern": "sahu",
@@ -10860,9 +11383,9 @@
    "modern": "sdxalun",
    "tier": "id"
   },
-  "semento": {
-   "modern": "sementu",
-   "tier": "T"
+  "sengse": {
+   "modern": "mtgsa",
+   "tier": "X"
   },
   "sgan": {
    "modern": "sgan",
@@ -11224,6 +11747,10 @@
    "modern": "slhbun",
    "tier": "B"
   },
+  "sl'xeq": {
+   "modern": "shik",
+   "tier": "X"
+  },
   "sl'xlax": {
    "modern": "sl'xlax",
    "tier": "id"
@@ -11555,6 +12082,10 @@
   "smkuxul": {
    "modern": "smkuxul",
    "tier": "id"
+  },
+  "sml'xeq": {
+   "modern": "smhik",
+   "tier": "X"
   },
   "smlaput": {
    "modern": "smlaput",
@@ -11931,10 +12462,6 @@
   "soqe": {
    "modern": "suqi",
    "tier": "B"
-  },
-  "soyu": {
-   "modern": "suyu",
-   "tier": "T"
   },
   "sp'adas": {
    "modern": "sp'adas",
@@ -12496,9 +13023,9 @@
    "modern": "sida",
    "tier": "id"
   },
-  "sögi": {
-   "modern": "sgi",
-   "tier": "L"
+  "t'bako": {
+   "modern": "lumak",
+   "tier": "X"
   },
   "t'lo": {
    "modern": "tru",
@@ -12531,10 +13058,6 @@
   "taan": {
    "modern": "taan",
    "tier": "id"
-  },
-  "tabu": {
-   "modern": "tabu",
-   "tier": "T"
   },
   "tabun": {
    "modern": "tabun",
@@ -12612,17 +13135,9 @@
    "modern": "tanah",
    "tier": "T"
   },
-  "tansö": {
-   "modern": "tansu",
-   "tier": "T"
-  },
   "taokan": {
    "modern": "towkan",
    "tier": "L"
-  },
-  "taoke": {
-   "modern": "taoke",
-   "tier": "M"
   },
   "tapak": {
    "modern": "tapak",
@@ -12654,10 +13169,6 @@
   },
   "tatak": {
    "modern": "tatak",
-   "tier": "id"
-  },
-  "tatami": {
-   "modern": "tatami",
    "tier": "id"
   },
   "tataq": {
@@ -12707,6 +13218,10 @@
   "tbago": {
    "modern": "tbagu",
    "tier": "B"
+  },
+  "tbako": {
+   "modern": "lumak",
+   "tier": "X"
   },
   "tbalae": {
    "modern": "tbalay",
@@ -13484,17 +13999,9 @@
    "modern": "tnhiyan",
    "tier": "B"
   },
-  "toke": {
-   "modern": "tuki",
-   "tier": "B"
-  },
   "toko": {
    "modern": "tuku",
    "tier": "A"
-  },
-  "tomato": {
-   "modern": "tmatu",
-   "tier": "L"
   },
   "tomon": {
    "modern": "tumun",
@@ -13586,10 +14093,6 @@
   },
   "trabus": {
    "modern": "trabus",
-   "tier": "id"
-  },
-  "trasi": {
-   "modern": "trasi",
    "tier": "id"
   },
   "troko": {
@@ -13888,10 +14391,6 @@
    "modern": "waru",
    "tier": "M"
   },
-  "wana": {
-   "modern": "wana",
-   "tier": "id"
-  },
   "watan": {
    "modern": "watan",
    "tier": "id"
@@ -14008,16 +14507,8 @@
    "modern": "halus",
    "tier": "B"
   },
-  "xama": {
-   "modern": "xama",
-   "tier": "M"
-  },
   "xan": {
    "modern": "han",
-   "tier": "B"
-  },
-  "xana": {
-   "modern": "hana",
    "tier": "B"
   },
   "xangan": {
@@ -14031,10 +14522,6 @@
   "xaqol": {
    "modern": "haqul",
    "tier": "B"
-  },
-  "xaya": {
-   "modern": "haya",
-   "tier": "A"
   },
   "xbagun": {
    "modern": "hbagun",
@@ -14148,10 +14635,6 @@
    "modern": "hiru",
    "tier": "B"
   },
-  "xelyo": {
-   "modern": "hiryu",
-   "tier": "T"
-  },
   "xeni": {
    "modern": "hini",
    "tier": "A"
@@ -14211,10 +14694,6 @@
   "xilwi": {
    "modern": "xiluy",
    "tier": "B"
-  },
-  "xinoki": {
-   "modern": "hinuki",
-   "tier": "T"
   },
   "xk'lao": {
    "modern": "hkraw",
@@ -14802,10 +15281,6 @@
   },
   "bsqan": {
    "modern": "bs'qan",
-   "tier": "P"
-  },
-  "budosyu": {
-   "modern": "budusyu",
    "tier": "P"
   },
   "bxangun": {
@@ -15520,10 +15995,6 @@
    "modern": "mburux",
    "tier": "P"
   },
-  "mbosi": {
-   "modern": "mbusi",
-   "tier": "P"
-  },
   "mbq'lo": {
    "modern": "mbqru",
    "tier": "P"
@@ -15654,10 +16125,6 @@
   },
   "mkd'xyaq": {
    "modern": "mkthiyaq",
-   "tier": "P"
-  },
-  "mkensat": {
-   "modern": "mknsat",
    "tier": "P"
   },
   "mkl'bai": {
@@ -16277,7 +16744,7 @@
    "tier": "P"
   },
   "mpsbu": {
-   "modern": "mpsbu'",
+   "modern": "mpsbu",
    "tier": "P"
   },
   "mpsbulao": {
@@ -17192,10 +17659,6 @@
    "modern": "pkuray",
    "tier": "P"
   },
-  "pkagi": {
-   "modern": "pkagi",
-   "tier": "P"
-  },
   "pkayao": {
    "modern": "pkayaw",
    "tier": "P"
@@ -17510,10 +17973,6 @@
   },
   "plndingan": {
    "modern": "prnjingan",
-   "tier": "P"
-  },
-  "plpaan": {
-   "modern": "plpaan",
    "tier": "P"
   },
   "plqexan": {
@@ -17945,11 +18404,11 @@
    "tier": "P"
   },
   "psbui": {
-   "modern": "psbu'i",
+   "modern": "psbui",
    "tier": "P"
   },
   "psbuon": {
-   "modern": "psbu'un",
+   "modern": "psbuun",
    "tier": "P"
   },
   "psbusan": {
@@ -18816,10 +19275,6 @@
    "modern": "smkribut",
    "tier": "P"
   },
-  "smlata": {
-   "modern": "smrata",
-   "tier": "P"
-  },
   "smnais": {
    "modern": "smnais",
    "tier": "P"
@@ -18862,10 +19317,6 @@
   },
   "snbalao": {
    "modern": "snbaraw",
-   "tier": "P"
-  },
-  "snbosi": {
-   "modern": "snbusi",
    "tier": "P"
   },
   "sndadax": {
@@ -19744,10 +20195,6 @@
    "modern": "bakan",
    "tier": "R"
   },
-  "baku": {
-   "modern": "baku",
-   "tier": "R"
-  },
   "banan": {
    "modern": "banan",
    "tier": "R"
@@ -19766,10 +20213,6 @@
   },
   "bboot": {
    "modern": "bbuut",
-   "tier": "R"
-  },
-  "biri": {
-   "modern": "biri",
    "tier": "R"
   },
   "biyo": {
@@ -21617,10 +22060,6 @@
    "modern": "pnyasan",
    "tier": "R"
   },
-  "ponki": {
-   "modern": "punki",
-   "tier": "R"
-  },
   "poti": {
    "modern": "puti",
    "tier": "R"
@@ -22908,11 +23347,6 @@
    "tier": "S",
    "spoken": 2
   },
-  "empit": {
-   "modern": "empit",
-   "tier": "S",
-   "spoken": 3
-  },
   "iban": {
    "modern": "iban",
    "tier": "S",
@@ -22998,11 +23432,6 @@
    "tier": "S",
    "spoken": 4
   },
-  "nabe": {
-   "modern": "nabi",
-   "tier": "S",
-   "spoken": 6
-  },
   "nk'la": {
    "modern": "nkla",
    "tier": "S",
@@ -23077,16 +23506,6 @@
    "modern": "sbrnahun",
    "tier": "S",
    "spoken": 2
-  },
-  "singbong": {
-   "modern": "singbung",
-   "tier": "S",
-   "spoken": 3
-  },
-  "sinpu": {
-   "modern": "sinpu",
-   "tier": "S",
-   "spoken": 4
   },
   "sl'sun": {
    "modern": "srsun",
@@ -23177,16 +23596,6 @@
    "modern": "unang",
    "tier": "S",
    "spoken": 16
-  },
-  "wagi": {
-   "modern": "wagi",
-   "tier": "S",
-   "spoken": 6
-  },
-  "wakai": {
-   "modern": "wakay",
-   "tier": "S",
-   "spoken": 2
   },
   "waxe": {
    "modern": "wahi",
@@ -24071,12 +24480,6 @@
    "d_rule": "n-",
    "d_base": "mtlawa"
   },
-  "nuli": {
-   "modern": "nuli",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "muli"
-  },
   "nxoai": {
    "modern": "nhuway",
    "tier": "D",
@@ -24288,10 +24691,10 @@
    "e_modern": "ruru"
   },
   "dmt'sapat": {
-   "modern": "dmt'sapat",
+   "modern": "dmtsapat",
    "tier": "E",
    "e_stem": "tsapat",
-   "e_modern": "t'sapat"
+   "e_modern": "tsapat"
   },
   "dtdoling": {
    "modern": "dtduling",
@@ -24476,8 +24879,8 @@
   "mkmudus": {
    "modern": "mkmudus",
    "tier": "E",
-   "e_stem": "kudus",
-   "e_modern": "kudus"
+   "e_stem": "mudus",
+   "e_modern": "mudus"
   },
   "ml'çan": {
    "modern": "mlxan",
@@ -25182,16 +25585,16 @@
    "e_modern": "tnk'la"
   },
   "tnk'laon": {
-   "modern": "tnk'laun",
+   "modern": "tnklaun",
    "tier": "E",
-   "e_stem": "tnkla",
-   "e_modern": "tnk'la"
+   "e_stem": "klaon",
+   "e_modern": "klaun"
   },
   "tnklaon": {
-   "modern": "tnk'laun",
+   "modern": "tnklaun",
    "tier": "E",
-   "e_stem": "tnkla",
-   "e_modern": "tnk'la"
+   "e_stem": "klaon",
+   "e_modern": "klaun"
   },
   "tntmaan": {
    "modern": "tntmaan",
@@ -25711,13 +26114,6 @@
    ]
   ],
   [
-   "tbako",
-   8,
-   [
-    "菸草香菸"
-   ]
-  ],
-  [
    "totox",
    8,
    [
@@ -26006,13 +26402,6 @@
    ]
   ],
   [
-   "sml'xeq",
-   5,
-   [
-    "舔"
-   ]
-  ],
-  [
    "snkawai",
    5,
    [
@@ -26295,13 +26684,6 @@
    []
   ],
   [
-   "botang",
-   3,
-   [
-    "鈕扣西式"
-   ]
-  ],
-  [
    "btelyaq",
    3,
    [
@@ -26358,13 +26740,6 @@
    3,
    [
     "舞蹈跳舞一事"
-   ]
-  ],
-  [
-   "gasolin",
-   3,
-   [
-    "汽油機動車"
    ]
   ],
   [
@@ -26878,13 +27253,6 @@
    []
   ],
   [
-   "sl'xeq",
-   3,
-   [
-    "舔"
-   ]
-  ],
-  [
    "slyeqan",
    3,
    [
@@ -26998,13 +27366,6 @@
    3,
    [
     "完全熄滅火參見"
-   ]
-  ],
-  [
-   "tskoe",
-   3,
-   [
-    "桌子書桌"
    ]
   ],
   [
@@ -27293,13 +27654,6 @@
    ]
   ],
   [
-   "kaityo",
-   2,
-   [
-    "社群或社團的會長"
-   ]
-  ],
-  [
    "kakox",
    2,
    [
@@ -27488,13 +27842,6 @@
    2,
    [
     "傾斜的程度"
-   ]
-  ],
-  [
-   "kodyo",
-   2,
-   [
-    "工廠工地"
    ]
   ],
   [
@@ -27904,13 +28251,6 @@
    ]
   ],
   [
-   "penki",
-   2,
-   [
-    "油漆材料"
-   ]
-  ],
-  [
    "pgaalu",
    2,
    []
@@ -28085,6 +28425,61 @@
    2,
    [
     "設法使之得到強化堅固"
+   ]
+  ],
+  [
+   "psdlxun",
+   2,
+   []
+  ],
+  [
+   "psg'gan",
+   2,
+   []
+  ],
+  [
+   "psiso",
+   2,
+   [
+    "使害怕恐嚇"
+   ]
+  ],
+  [
+   "psiyam",
+   2,
+   []
+  ],
+  [
+   "psloso",
+   2,
+   [
+    "使人流淚令人動容"
+   ]
+  ],
+  [
+   "psnabao",
+   2,
+   []
+  ],
+  [
+   "psnugul",
+   2,
+   [
+    "使跟隨使一個接一個地走"
+   ]
+  ],
+  [
+   "psqexon",
+   2,
+   [
+    "被人強迫被人強制的人"
+   ]
+  ],
+  [
+   "psxolyaq",
+   2,
+   [
+    "使東西變濕的"
    ]
   ]
  ]
