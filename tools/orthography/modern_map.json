@@ -2213,6 +2213,10 @@
    "modern": "dsun",
    "tier": "id"
   },
+  "dtroko": {
+   "modern": "dtruku",
+   "tier": "M"
+  },
   "dudu": {
    "modern": "dudul",
    "tier": "L"
@@ -12845,6 +12849,10 @@
    "modern": "su",
    "tier": "A"
   },
+  "soa": {
+   "modern": "sruwa",
+   "tier": "M"
+  },
   "sola": {
    "modern": "sura",
    "tier": "A"
@@ -17265,8 +17273,7 @@
   },
   "mpsbu": {
    "modern": "mpsbu",
-   "tier": "P",
-   "elision_dropped": "mpsbu'"
+   "tier": "P"
   },
   "mpsbulao": {
    "modern": "mpsburaw",
@@ -18967,13 +18974,11 @@
   },
   "psbui": {
    "modern": "psbui",
-   "tier": "P",
-   "elision_dropped": "psbu'i"
+   "tier": "P"
   },
   "psbuon": {
    "modern": "psbuun",
-   "tier": "P",
-   "elision_dropped": "psbu'un"
+   "tier": "P"
   },
   "psbusan": {
    "modern": "psbusan",
@@ -25830,10 +25835,10 @@
    "e_modern": "biqun"
   },
   "pgleqe": {
-   "modern": "pgliqi",
+   "modern": "pgriqi",
    "tier": "E",
-   "e_stem": "gleqe",
-   "e_modern": "gliqi"
+   "e_stem": "pgleq",
+   "e_modern": "pgriq"
   },
   "pgmaxon": {
    "modern": "pgmaxun",
@@ -26914,18 +26919,6 @@
    [
     "想看該看的"
    ]
-  ],
-  [
-   "soa",
-   12,
-   [
-    "無疑是允許的變體無論如何既然這兩個詞幾乎總是可以互相替用看來主要表示允許而主要含有寬恕之意參見"
-   ]
-  ],
-  [
-   "dtroko",
-   10,
-   []
   ],
   [
    "nsa",
@@ -29430,6 +29423,18 @@
   ],
   [
    "tnabu",
+   2,
+   []
+  ],
+  [
+   "tnlikut",
+   2,
+   [
+    "擅長找藉口推託之詞的人"
+   ]
+  ],
+  [
+   "tnppngan",
    2,
    []
   ]

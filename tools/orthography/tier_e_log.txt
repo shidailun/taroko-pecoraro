@@ -81,7 +81,7 @@ mtsgasut         mtsgasut         tsgasut        tsgasut        derived
 ndtlalae         ndtlalay         tlalae         tlalay         derived
 nlluan           nl'luan          llu            l'lu           derived
 pbyeqon          pbiqun           byeqon         biqun          derived
-pgleqe           pgliqi           gleqe          gliqi          derived
+pgleqe           pgriqi           pgleq          pgriq          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
 pklagun          pkragun          klagun         kragun         derived

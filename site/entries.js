@@ -33945,7 +33945,7 @@ window.ENTRIES = [
         "zh": "解開－鬆開－拆開。",
         "examples": [
           {
-            "t": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) mo lm'xlax (vl; Knxoai ida mo l'xlaxon (lxlaxon).",
+            "t": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) mo lm'xlax (vl. Knxoai ida mo l'xlaxon (lxlaxon).",
             "fr": "Ne jette pas ta ficelle même si elle est emmêlée (si elle a des noeuds); lentement je la dénouerai (démêlerai).",
             "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
             "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。",
@@ -59810,7 +59810,7 @@ window.ENTRIES = [
     "subs": [
       {
         "form": "Tmabu",
-        "paradigm": "°Tmabu, tabu, tbui, tbuan, tbuon (vl; Tb'gi, tb'gan, tb'gun).",
+        "paradigm": "°Tmabu, tabu, tbui, tbuan, tbuon (vl. Tb'gi, tb'gan, tb'gun).",
         "fr": "Nourrir, élever des animaux - mener paître - conduire.",
         "en": "To feed, to raise animals - to lead to pasture - to drive / lead.",
         "zh": "餵養、飼養動物－帶去放牧－驅趕／引導。",
