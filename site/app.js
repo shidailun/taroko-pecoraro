@@ -451,10 +451,27 @@
   audioEl.addEventListener("ended", stopAudio);
   audioEl.addEventListener("error", stopAudio);
 
+  // The clips are a native reading of the MODERN spelling. Offering them beside
+  // Pecoraro's 1977 orthography would put a pronunciation in his mouth that his
+  // page does not spell, so in his mode there is simply no button to press.
   function audioBtn(id) {
-    if (!id) return "";
+    if (!id || !spellingModern) return "";
     return '<button class="audio-btn" data-audio="' + esc(id) +
       '" title="Play audio / 播放" aria-label="Play audio">🔊</button>';
+  }
+
+  // ---------- the spelling switch, scattered through the page ----------
+  // √ (root), ° (form list) and § (example) already sit beside the very lines
+  // whose spelling is in question, so they ARE the switch: tapping any of them
+  // flips the whole page — and every search after it — between Pecoraro's
+  // spelling and the modern one, with no trip back to Settings. Settings keeps
+  // the same switch for anyone who looks for it there.
+  function spellMark(sym, what, cls) {
+    return '<button class="spell-toggle ' + (cls || "") + '" title="' + esc(what) +
+      " · " + (spellingModern
+        ? "modern spelling — tap for Pecoraro’s (1977) / 現代拼寫,點按切換為原文拼寫"
+        : "Pecoraro’s spelling (1977) — tap for modern / 原文拼寫,點按切換為現代拼寫") +
+      '" aria-label="Switch spelling / 切換拼寫法">' + sym + "</button>";
   }
 
   // ---------- render ----------
@@ -622,7 +639,7 @@
   function tagHtml(tag) {
     if (!tag) return "";
     if (tag === "(R)" || tag === "(R.)") {
-      return '<span class="tag root-tag" title="Root / racine">√</span>';
+      return spellMark("√", "Root / racine", "tag root-tag");
     }
     return '<span class="tag">' + esc(tag) + "</span>";
   }
@@ -674,7 +691,8 @@
     if (!list || !list.length) return "";
     var h = '<div class="examples">';
     list.forEach(function (x) {
-      h += '<div class="example"><div class="truku">§ ' + linkifyTruku(tidy(x.t, "tr")) + audioBtn(x.a) + "</div>";
+      h += '<div class="example"><div class="truku">' + spellMark("§", "Example / exemple") +
+        " " + linkifyTruku(tidy(x.t, "tr")) + audioBtn(x.a) + "</div>";
       if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + esc(tidy(x.fr, "fr")) + "</p>";
       if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + esc(tidy(x.en, "en")) + "</p>";
       if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + esc(tidy(x.zh, "zh")) + "</p>";
@@ -693,12 +711,12 @@
         '" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
     }
     h += "</div>";
-    if (e.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(tidyForm(e.paradigm)) + "</p>";
+    if (e.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(e.paradigm)) + "</p>";
     h += glossHtml(e);
     h += examplesHtml(e.examples);
     (e.subs || []).forEach(function (s) {
       h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(tidyForm(formText(s.form))) + "</span>" + audioBtn(s.a) + "</div>";
-      if (s.paradigm) h += '<p class="paradigm">° ' + linkifyTruku(tidyForm(s.paradigm)) + "</p>";
+      if (s.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(s.paradigm)) + "</p>";
       h += glossHtml(s);
       h += examplesHtml(s.examples);
       h += "</div>";
@@ -834,6 +852,12 @@
   }
 
   results.addEventListener("click", function (ev) {
+    var sm = ev.target.closest ? ev.target.closest(".spell-toggle") : null;
+    if (sm) {
+      ev.stopPropagation();
+      setSpelling(!spellingModern);
+      return;
+    }
     var ab = ev.target.closest ? ev.target.closest(".audio-btn") : null;
     if (ab) {
       ev.stopPropagation();
@@ -895,6 +919,21 @@
     applySpellingClass();
     if (currentLetter) showLetter(currentFirst ? initial(currentFirst) : currentLetter);
     else render();
+  }
+
+  // The one place the orthography changes, whether it was a √ / ° / § in the
+  // middle of the page or the radio in Settings. Tapping a marker halfway down a
+  // long entry must not throw the reader back to the top, so the scroll position
+  // is held across the re-render; and the clip that may be playing is a reading
+  // of the modern spelling, so leaving that mode stops it.
+  function setSpelling(modern) {
+    if (spellingModern === modern) return;
+    spellingModern = modern;
+    saveSpelling();
+    if (!modern) stopAudio();
+    var y = window.pageYOffset;
+    rerender();
+    window.scrollTo(0, y);
   }
 
   // ---------- hover word preview ----------
@@ -1098,9 +1137,7 @@
     });
     sheetContent.querySelectorAll("input[name=\"spelling\"]").forEach(function (rb) {
       rb.addEventListener("change", function () {
-        spellingModern = rb.value === "modern";
-        saveSpelling();
-        rerender();
+        setSpelling(rb.value === "modern");
       });
     });
   });

@@ -972,6 +972,10 @@
    "modern": "dhqun",
    "tier": "B"
   },
+  "d'xyaq": {
+   "modern": "thiyaq",
+   "tier": "M"
+  },
   "da": {
    "modern": "da",
    "tier": "id"
@@ -1561,8 +1565,8 @@
    "tier": "id"
   },
   "dxiyaq": {
-   "modern": "dhiyaq",
-   "tier": "T"
+   "modern": "thiyaq",
+   "tier": "M"
   },
   "dxkan": {
    "modern": "dhqan",
@@ -2979,6 +2983,10 @@
   "kndxleqan": {
    "modern": "qndhriqan",
    "tier": "L"
+  },
+  "kndxyaqan": {
+   "modern": "qnthyaqan",
+   "tier": "M"
   },
   "kndçan": {
    "modern": "kndxan",
@@ -10732,6 +10740,10 @@
    "modern": "sdhriq",
    "tier": "B"
   },
+  "sd'xyaq": {
+   "modern": "sthiyaq",
+   "tier": "M"
+  },
   "sdala": {
    "modern": "sdara",
    "tier": "B"
@@ -14936,6 +14948,10 @@
    "modern": "kndhuq",
    "tier": "P"
   },
+  "knd'xyaq": {
+   "modern": "knthiyaq",
+   "tier": "P"
+  },
   "knddoaan": {
    "modern": "kndduwaan",
    "tier": "P"
@@ -15356,6 +15372,10 @@
    "modern": "mdhuq",
    "tier": "P"
   },
+  "md'xyaq": {
+   "modern": "mthiyaq",
+   "tier": "P"
+  },
   "mdaolyaq": {
    "modern": "mdowriq",
    "tier": "P"
@@ -15438,6 +15458,10 @@
   },
   "mkbalao": {
    "modern": "mkbaraw",
+   "tier": "P"
+  },
+  "mkd'xyaq": {
+   "modern": "mkthiyaq",
    "tier": "P"
   },
   "mkensat": {
@@ -16053,7 +16077,7 @@
    "tier": "P"
   },
   "mpsbu": {
-   "modern": "mpsbu",
+   "modern": "mpsbu'",
    "tier": "P"
   },
   "mpsbulao": {
@@ -16358,6 +16382,10 @@
   },
   "msd'ma": {
    "modern": "msd'ma",
+   "tier": "P"
+  },
+  "msd'xyaq": {
+   "modern": "msthiyaq",
    "tier": "P"
   },
   "msdamat": {
@@ -17501,11 +17529,15 @@
    "tier": "P"
   },
   "psbui": {
-   "modern": "psbui",
+   "modern": "psbu'i",
    "tier": "P"
   },
   "psbuon": {
-   "modern": "psbuun",
+   "modern": "psbu'un",
+   "tier": "P"
+  },
+  "psd'xyaq": {
+   "modern": "psthiyaq",
    "tier": "P"
   },
   "psdamat": {
@@ -17653,7 +17685,7 @@
    "tier": "P"
   },
   "pspngan": {
-   "modern": "pspngan",
+   "modern": "psp'ngan",
    "tier": "P"
   },
   "pspuan": {
@@ -17994,6 +18026,18 @@
   },
   "sdita": {
    "modern": "sjita",
+   "tier": "P"
+  },
+  "sdxyaqan": {
+   "modern": "sthiyaqan",
+   "tier": "P"
+  },
+  "sdxyaqe": {
+   "modern": "sthiyaqi",
+   "tier": "P"
+  },
+  "sdxyaqon": {
+   "modern": "sthiyaqun",
    "tier": "P"
   },
   "sgalu": {
@@ -23204,13 +23248,6 @@
    ]
   ],
   [
-   "d'xyaq",
-   4,
-   [
-    "遠遙遠"
-   ]
-  ],
-  [
    "dii",
    4,
    []
@@ -23917,13 +23954,6 @@
    3,
    [
     "逃跑的人逃走逃跑"
-   ]
-  ],
-  [
-   "msd'xyaq",
-   3,
-   [
-    "使之間有距離者正在遠離者"
    ]
   ],
   [
@@ -24967,13 +24997,6 @@
    ]
   ],
   [
-   "knd'xyaq",
-   2,
-   [
-    "距離的度量"
-   ]
-  ],
-  [
    "kndolox",
    2,
    [
@@ -24986,6 +25009,25 @@
    [
     "手鐲戴在手臂上的飾品"
    ]
+  ],
+  [
+   "kndqalan",
+   2,
+   [
+    "禁戒迴避的功夫抵抗誘惑或敵人的力量"
+   ]
+  ],
+  [
+   "knklxangan",
+   2,
+   [
+    "管轄監督"
+   ]
+  ],
+  [
+   "knl'san",
+   2,
+   []
   ]
  ]
 }

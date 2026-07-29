@@ -475,8 +475,28 @@ footer {
   font-family: var(--serif);
   font-size: 1rem;
   margin-left: 0.4rem;
-  cursor: help;
 }
+
+/* √ ° § — the markers are the spelling switch, so they have to keep looking like
+   markers: no button chrome, and they inherit the colour of the line they sit on
+   (which is itself the colour of the current orthography). The only affordance is
+   the pointer and a soft halo under the finger, because a marker that shouted
+   "button" would clutter every example in the dictionary. */
+.spell-toggle {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0 0.12em;
+  margin: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s, opacity 0.15s;
+}
+.spell-toggle:hover, .spell-toggle:focus-visible { background: var(--accent-soft); }
+.spell-toggle:focus-visible { outline: 1px solid var(--accent); }
+.spell-toggle:active { opacity: 0.5; }
 
 .intro-image {
   display: block;
