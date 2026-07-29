@@ -202,6 +202,21 @@
     return vs[0];
   }
 
+  // The same convergence, but inside a sentence. "Ya adi sako bsklun (bsqlun) walo
+  // xo!" — the bracket is his own second try at the word, and in modern spelling
+  // both halves are bsqrun, so the line printed "bsqrun (bsqrun)": a bracket
+  // distinguishing a word from itself. 75 example sentences do this. The bracket
+  // goes only when it holds a single word that lands on the same modern spelling
+  // as the word in front of it; where the two really stay apart — mkudus
+  // (mk'udus), Babao (baba), ki (=baki) — it is still telling the reader
+  // something, and 228 of them do.
+  var INLINE_VARIANT = /([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\(\s*=?\s*([A-Za-zÀ-ÿłŁʔ'’ʼ"]+)\s*\??\s*\)/g;
+  function collapseInline(s) {
+    return s.replace(INLINE_VARIANT, function (all, first, inner) {
+      return norm(modernize(first)) === norm(modernize(inner)) ? first : all;
+    });
+  }
+
   // A written form as it should stand on screen: collapsed in modern spelling, and
   // exactly as Pecoraro set it otherwise.
   function formText(raw) {
@@ -612,17 +627,47 @@
       LEXICAL_SUBS, wordKey(word));
   }
 
+  // Pecoraro's own editorial hand, set inside his Truku lines. These are French
+  // abbreviations, not Truku words: vr. = voir, vl. = vel (Latin "or"), var. =
+  // variante, R. = racine. Left to the ordinary path they were tokenized as
+  // words, coloured green as if they were 147 more things left to verify, and run
+  // through the character rules — which turned "vl." into "vr.", an abbreviation
+  // that means something else entirely.
+  //
+  // They are recognized by name, not by shape. A trailing period is no signal at
+  // all: 519 dotted tokens in his Truku lines are ordinary words ending a sentence
+  // or a ° list (taon., lmuon., psloon.), so anything general enough to catch vl.
+  // would swallow those too. R. is the one that must also match case — a lone
+  // capital R is his root mark, and there is no Truku word it could be.
+  var META_ABBR = { vr: "voir / see", vl: "vel — ou / or", "var": "variante / variant" };
+  function metaAbbr(part, after) {
+    if (after.charAt(0) !== ".") return null;
+    if (part === "R") return "racine / root";
+    return Object.prototype.hasOwnProperty.call(META_ABBR, part.toLowerCase())
+      ? META_ABBR[part.toLowerCase()] : null;
+  }
+
   // Every Truku word is wrapped, whether or not it links, because the wrapper is
   // what carries its spelling status. noLink is for headwords, which are the
   // entry the reader is already on.
-  function linkifyTruku(text, noLink) {
+  function linkifyTruku(text, noLink, prose) {
     if (!text) return "";
+    if (spellingModern) text = collapseInline(text);
     var parts = text.split(TRUKU_TOKEN);
     var h = "";
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
       // A run of bare elision marks is punctuation, not a word to judge.
       if (i % 2 === 0 || !TRUKU_LETTER.test(part)) { h += esc(part); continue; }
+      if (prose && Object.prototype.hasOwnProperty.call(prose, part.toLowerCase())) {
+        h += '<span class="meta-abbr">' + esc(part) + "</span>";
+        continue;
+      }
+      var meta = metaAbbr(part, parts[i + 1] || "");
+      if (meta) {
+        h += '<span class="meta-abbr" title="' + esc(meta) + '">' + esc(part) + "</span>";
+        continue;
+      }
       var cls = respellable(part) ? "w-mod" : "w-raw";
       var linked = !noLink && lookupWord(part);
       if (linked) cls += " crossref-link";
@@ -636,12 +681,54 @@
     return h;
   }
 
-  function tagHtml(tag) {
+  // The root mark is rarely alone in the tag. "(R. = BKUI ?)", "( = R. ?)",
+  // "(BQ'LI) (R)" are all root notes with his hedging wrapped round them, and only
+  // the two bare forms were ever recognized — the other ~200 printed "R." into the
+  // page as though it were a Truku word. Now anything holding a lone R gets the √,
+  // and whatever else the tag holds goes through the Truku path: coloured, linked,
+  // and collapsed when it is only his second spelling of the headword.
+  var ROOT_MARK = /(^|[\s(=-])R\.?(?=$|[\s)?=.-])/;
+  // He often marks the root twice in one tag — "( = R.? de KMPAUX ?) (R. = KPAUX ?)"
+  // — so the strip has to be global, and the French "de" that links the mark to the
+  // form it proposes goes with it: alone in a bracket it would be tokenized and
+  // coloured as a Truku word, which it is not.
+  var ROOT_MARK_G = /(^|[\s(=-])R\.?(?=$|[\s)?=.-])/g;
+  var TAG_FRENCH = /(^|[\s(=-])d[eu](?=\s)/g;
+
+  // About thirty of his root tags are not a form at all but a remark in French —
+  // "(QALAO est plus probable)", "(Serait ce la R. de MIYAQ ?)", "(R. = UDA =
+  // passer; MUDA = qui passe ?)". Every word in them was being tokenized as Truku,
+  // coloured, and respelled. The tags are a closed set of 344 strings, so this is
+  // the whole French vocabulary that occurs in them, read off the data; the Truku
+  // forms standing beside it (QALAO, MIYAQ, Bsukan, Skleqe) keep the word treatment.
+  var TAG_PROSE = {};
+  ("de du des la le les ce cette et en un une avec sans dans sous tous plus peu " +
+   "très doute pluriel travers tordu inconnue probable probablement parfois " +
+   "relation scie souvent réduit à fermer suie passer qui passe uniquement connu " +
+   "forme suivante dérivé dérivés précédent contraction faire venir manger " +
+   "variante étant escamoté placés terme semble vraie chinois chinoise est " +
+   "serait préfixe bébé peau entourer taroko").split(" ").forEach(function (w) {
+    TAG_PROSE[w] = 1;
+  });
+  function tagHtml(tag, hw) {
     if (!tag) return "";
-    if (tag === "(R)" || tag === "(R.)") {
-      return spellMark("√", "Root / racine", "tag root-tag");
+    var root = spellMark("√", "Root / racine", "tag root-tag");
+    if (tag === "(R)" || tag === "(R.)") return root;
+    if (!ROOT_MARK.test(tag)) return '<span class="tag">' + esc(tag) + "</span>";
+    var rest = tag.replace(/\(\s*R\.?\s*\)/g, " ").replace(ROOT_MARK_G, "$1").replace(TAG_FRENCH, "$1");
+    // What survives once the mark is out is often only his uncertainty — "(= ??)",
+    // "( = ? )" — which the √ already implies. Print the remainder only when there
+    // is an actual word in it, and not when that word is the headword again.
+    rest = rest.replace(/\(\s*[=?\s.-]*\)/g, " ").replace(/\s+/g, " ").trim();
+    if (!TRUKU_LETTER.test(rest)) return root;
+    if (spellingModern && hw) {
+      var vs = variants(rest), same = vs.length > 0;
+      for (var i = 0; i < vs.length; i++) {
+        if (norm(modernizeText(vs[i])) !== norm(modernizeText(variants(hw)[0] || hw))) same = false;
+      }
+      if (same) return root;
     }
-    return '<span class="tag">' + esc(tag) + "</span>";
+    return root + ' <span class="tag">' + linkifyTruku(tidyForm(rest), false, TAG_PROSE) + "</span>";
   }
 
   // A gloss is never run word-by-word through modernize() — the character rules
@@ -705,10 +792,28 @@
     var h = '<article class="entry">';
     h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
     h += audioBtn(e.a);
-    h += tagHtml(e.tag);
+    h += tagHtml(e.tag, e.hw);
     if (e.crossRef) {
-      h += ' <span class="tag">→ <span class="crossref-link ' + (respellable(e.crossRef) ? "w-mod" : "w-raw") +
-        '" data-ref="' + esc(e.crossRef) + '">' + esc(dispText(formText(e.crossRef))) + "</span></span>";
+      // "VR. PAUX" — his own see-also, mark and all. The mark was travelling into
+      // the link's own text and into data-ref, so the arrow pointed at a headword
+      // called "VR. PAUX", which no entry is. Strip it for the lookup and keep it
+      // on screen in the editorial hand.
+      var xr = e.crossRef.replace(/^\s*vr\.?\s*/i, "");
+      var xm = xr === e.crossRef ? "" : '<span class="meta-abbr" title="voir / see">vr.</span> ';
+      h += ' <span class="tag">→ ' + xm + xr.split(",").map(function (part) {
+        // He sends the reader to more than one form at a time — "QDALAN, QDALUN" —
+        // and the whole string was one dead link, because no entry is called that.
+        var t = part.trim();
+        if (!t) return "";
+        // "ces mots." is French, "L'PAN (note)" a form with a remark attached.
+        // Neither is a word to colour or respell — "mots" was reaching the screen
+        // as "muts" — so anything with a space that names no entry stays editorial.
+        if (/\s/.test(t) && !lookupWord(t)) {
+          return '<span class="meta-abbr">' + esc(t) + "</span>";
+        }
+        return '<span class="crossref-link ' + (respellable(t) ? "w-mod" : "w-raw") +
+          '" data-ref="' + esc(t) + '">' + esc(dispText(formText(t))) + "</span>";
+      }).join(", ") + "</span>";
     }
     h += "</div>";
     if (e.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(e.paradigm)) + "</p>";

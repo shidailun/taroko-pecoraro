@@ -336,6 +336,19 @@ body.spelling-modern .gloss .w-raw { color: var(--truku); }
   opacity: 0.8;
 }
 
+/* vr. vl. var. R. — the editor speaking, not the language. They sit in the middle
+   of a Truku line, so they must not wear either word colour: green would claim
+   they are Truku we have yet to verify, brown that we have respelled them. Muted
+   italic, the same hand a footnote is set in, and a tooltip that expands the
+   abbreviation for readers who don't have his 1977 front matter. */
+.meta-abbr {
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9em;
+  cursor: help;
+}
+
 .crossref-link {
   color: inherit;
   cursor: pointer;
