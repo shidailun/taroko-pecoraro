@@ -107,7 +107,6 @@ psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
 psklolun         psqrulun         psklol         psqrul         derived
 psn'loon         psnluun          snloon         snluun         derived
 psnloon          psnluun          snloon         snluun         derived
-psqlasao         psqrasau         qlas           qras           derived
 psqmai           psqmai           sqmai          sqmai          derived
 psttui           psttui           ttui           ttui           derived
 psxlisi          pshrisi          sxlisi         shrisi         derived

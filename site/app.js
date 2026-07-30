@@ -153,6 +153,15 @@
     // for the mapped words.
     out = out.replace(/['’ʼ"ʔ]/g, "");
     out = out.normalize("NFD").replace(/[̀-ͯ]/g, "");
+    // Word-final -ao is -aw, not -au. Measured: of the 280 mapped keys ending in
+    // -ao, 267 have a value ending -aw, and the modern corpora hold 2,407 types
+    // ending -aw against 4 ending -au (two of which also occur spelled -aw). So
+    // the o>u rule below, which is right everywhere else, is wrong in exactly
+    // this slot and prints a shape the orthography does not use word-finally.
+    // Must run BEFORE the SPELLING_MAP replace, or the o is already gone.
+    out = out.replace(/([aA])([oO])$/, function (m, a, o) {
+      return a + (o === "O" ? "W" : "w");
+    });
     out = out.replace(/[xolXOL]/g, function (c) { return SPELLING_MAP[c]; });
     return out.replace(/\u0001/g, "x").replace(/\u0002/g, "X");
   }

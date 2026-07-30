@@ -24,7 +24,12 @@ def tbl(name):
 
 
 KNOWN = set(MAP) | tbl("WORD_OVERRIDES") | tbl("CLITIC_FORMS")
-GREEN = json.load(open("green_true.json", encoding="utf-8"))
+# green_work.json, not green_true.json: the latter is a snapshot from ~15 batches
+# ago, so this listed Dmao / Mdao / SNOXEL / Gmlixo / X'LYEX as green when they
+# have all since been written -- a stale work list is worse than none, because
+# every false row costs a lookup to disprove. green6.py rewrites green_work.json
+# from the live tables on every run.
+GREEN = json.load(open("green_work.json", encoding="utf-8"))
 
 s = open(H + "site/entries.js", encoding="utf-8").read()
 E = json.loads(s[s.index("["):s.rindex("]") + 1])

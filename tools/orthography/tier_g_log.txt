@@ -12,7 +12,6 @@ knlap            qnrap            klap           qrap               1 derived
 kpax             qpah             kpax           qpah               1 attested
 mkmpxeng         mkmphing         pxeng          phing              1 derived
 mkp'xeng         mkphing          pxeng          phing              1 derived
-mlb'bao          mlbbao           bbao           bbao               1 derived
 mpakmpaxan       mpaqmpahan       kpax           qpah               1 derived
 mplenax          mprinah          lenax          rinah              1 derived
 mpsklol          mpsqrul          sklol          sqrul              1 derived
@@ -21,7 +20,6 @@ mptgamil         mptgamil         gamil          gamil              1 derived
 mptquli          mptquli          quli           quli               1 derived
 mslangan         mslangan         slangan        slangan            1 derived
 ndyano           njyanu           dyan           jyan               1 derived
-nplb'bao         nplbbao          bbao           bbao               1 derived
 pnblexan         pnbrihan         blex           brih               1 derived
 ppskngalun       ppskngalun       kngal          kngal              1 derived
 pttaqe           pttaqi           taqe           taqi               1 derived
