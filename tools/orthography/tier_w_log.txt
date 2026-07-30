@@ -126,7 +126,6 @@ mpapix           empapix           mpapix           M/class      0     2
 mpasapax         empasapah         mpasapah         P/class      0     2
 mpasnao          empasnaw          mpasnaw          P/class      0     2
 mpatxoulang      empathulang       mpathulang       P/class      0     1
-mpax             empax             mpax             P/class      0     3
 mpbais           empbais           mpbais           R/class      0     1
 mpbolox          empburux          mpburux          R/class      0     1
 mpd'xleq         empdhriq          mpdhriq          P/twin       0     3

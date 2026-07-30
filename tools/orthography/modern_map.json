@@ -6114,8 +6114,8 @@
    "tier": "M"
   },
   "loan": {
-   "modern": "ruan",
-   "tier": "B"
+   "modern": "ruwan",
+   "tier": "M"
   },
   "loba": {
    "modern": "ruba",
@@ -8249,6 +8249,10 @@
    "w_was": "mpatas",
    "w_how": "twin"
   },
+  "mpax": {
+   "modern": "empaah",
+   "tier": "M"
+  },
   "mpaxei": {
    "modern": "empaahiyi",
    "tier": "M"
@@ -10042,6 +10046,10 @@
    "modern": "npaqan",
    "tier": "id"
   },
+  "npax": {
+   "modern": "npaah",
+   "tier": "M"
+  },
   "npklbagan": {
    "modern": "npkrbagan",
    "tier": "M"
@@ -10416,8 +10424,8 @@
    "tier": "id"
   },
   "pai": {
-   "modern": "pai",
-   "tier": "id"
+   "modern": "payi",
+   "tier": "M"
   },
   "pais": {
    "modern": "pais",
@@ -10516,8 +10524,8 @@
    "tier": "id"
   },
   "pax": {
-   "modern": "pax",
-   "tier": "id"
+   "modern": "paah",
+   "tier": "M"
   },
   "paxeng": {
    "modern": "pahing",
@@ -20585,12 +20593,6 @@
    "w_was": "mpathulang",
    "w_how": "class"
   },
-  "mpax": {
-   "modern": "empax",
-   "tier": "W",
-   "w_was": "mpax",
-   "w_how": "class"
-  },
   "mpbetak": {
    "modern": "empbitaq",
    "tier": "W",
@@ -21872,10 +21874,6 @@
   },
   "nnoxan": {
    "modern": "nnuhan",
-   "tier": "P"
-  },
-  "npax": {
-   "modern": "npax",
    "tier": "P"
   },
   "npslixao": {
