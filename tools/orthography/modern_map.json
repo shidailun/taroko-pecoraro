@@ -7780,8 +7780,8 @@
    "tier": "A"
   },
   "ms'lu": {
-   "modern": "msru",
-   "tier": "B"
+   "modern": "mseelug",
+   "tier": "M"
   },
   "ms'lut": {
    "modern": "msrut",
@@ -10805,8 +10805,8 @@
    "tier": "B"
   },
   "ps'lu": {
-   "modern": "psru",
-   "tier": "B"
+   "modern": "pseelug",
+   "tier": "M"
   },
   "ps'lut": {
    "modern": "psrut",
@@ -12541,9 +12541,8 @@
    "elision_dropped": "s'angal"
   },
   "s'ayang": {
-   "modern": "sayang",
-   "tier": "id",
-   "elision_dropped": "s'ayang"
+   "modern": "seayang",
+   "tier": "M"
   },
   "s'gul": {
    "modern": "seegul",
@@ -12558,8 +12557,8 @@
    "tier": "A"
   },
   "s'lu": {
-   "modern": "sru",
-   "tier": "B"
+   "modern": "seelug",
+   "tier": "M"
   },
   "s'lut": {
    "modern": "slut",
@@ -13643,6 +13642,10 @@
    "modern": "srsi",
    "tier": "M"
   },
+  "sm'lu": {
+   "modern": "smeelug",
+   "tier": "M"
+  },
   "sm'lyeq": {
    "modern": "smeeliq",
    "tier": "M"
@@ -13941,8 +13944,8 @@
    "tier": "B"
   },
   "sn'lu": {
-   "modern": "snru",
-   "tier": "B"
+   "modern": "sneelug",
+   "tier": "M"
   },
   "sn'lyeq": {
    "modern": "sneeliq",
@@ -14089,6 +14092,10 @@
   "snluan": {
    "modern": "snluan",
    "tier": "id"
+  },
+  "snluwan": {
+   "modern": "sneelugan",
+   "tier": "M"
   },
   "snlxoqan": {
    "modern": "snrhuqan",
@@ -21757,10 +21764,6 @@
    "modern": "smru",
    "tier": "P"
   },
-  "sm'lu": {
-   "modern": "smru",
-   "tier": "P"
-  },
   "sma'mul": {
    "modern": "smamul",
    "tier": "P",
@@ -21902,10 +21905,6 @@
   },
   "snlaxoq": {
    "modern": "snrahuq",
-   "tier": "P"
-  },
-  "snluwan": {
-   "modern": "snruwan",
    "tier": "P"
   },
   "snlxkaxan": {
