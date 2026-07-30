@@ -8007,8 +8007,8 @@
    "tier": "L"
   },
   "mnsa": {
-   "modern": "mnsa",
-   "tier": "id"
+   "modern": "mnusa",
+   "tier": "M"
   },
   "mnsklui": {
    "modern": "mnskluwi",
@@ -10931,9 +10931,8 @@
    "tier": "M"
   },
   "pk'lu": {
-   "modern": "pklu",
-   "tier": "id",
-   "elision_dropped": "pk'lu"
+   "modern": "pklug",
+   "tier": "M"
   },
   "pk'lut": {
    "modern": "pkrut",
@@ -12500,8 +12499,8 @@
    "tier": "T"
   },
   "psloon": {
-   "modern": "psluun",
-   "tier": "B"
+   "modern": "psruun",
+   "tier": "M"
   },
   "psloso": {
    "modern": "psrusuq",
@@ -14498,8 +14497,8 @@
    "tier": "B"
   },
   "sdxalan": {
-   "modern": "sdxalan",
-   "tier": "id"
+   "modern": "sdharan",
+   "tier": "M"
   },
   "sdxali": {
    "modern": "sdxali",
@@ -22856,7 +22855,7 @@
    "tier": "P"
   },
   "psdxalan": {
-   "modern": "psdxalan",
+   "modern": "psdharan",
    "tier": "P"
   },
   "psdxali": {
