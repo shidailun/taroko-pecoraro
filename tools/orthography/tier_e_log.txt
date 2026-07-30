@@ -83,7 +83,7 @@ mtsgasut         mtsgasut         tsgasut        tsgasut        derived
 ndtlalae         ndtlalay         tlalae         tlalay         derived
 nlluan           nl'luan          llu            l'lu           derived
 pbyeqon          pbiqun           byeqon         biqun          derived
-pgleqe           pgliqi           gleqe          gliqi          derived
+pgleqe           pgriqi           gleqe          griqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
 pklagun          pkragun          klagun         kragun         derived
@@ -111,7 +111,7 @@ pnslngiyan       pnsrngiyan       pslngiyan      psrngiyan      derived
 pnslutut         pnslutut         pslutut        pslutut        derived
 pnsqlasan        pnsqrasan        psqlasan       psqrasan       derived
 pnt'to           pnteetu          ptto           pteetu         attested
-pntblayan        pntbrayan        ptblayan       ptbrayan       derived
+pntblayan        pntblayan        ptblayan       ptblayan       derived
 pntqoan          pntquwan         ptqoan         ptquwan        derived
 ppyaon           ppyaun           pya            pya            derived
 psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
@@ -124,7 +124,7 @@ psqmai           psqmai           sqmai          sqmai          derived
 psttui           psttui           ttui           ttui           derived
 psxlisi          pshrisi          sxlisi         shrisi         derived
 ptgmaxan         ptgmaxan         gmaxan         gmaxan         derived
-ptlg'li'         ptlgrig          tlgli          tlgrig         derived
+ptlg'li'         ptrgrig          tlgli          trgrig         derived
 ptliingun        ptliingun        tliingun       tliingun       derived
 ptlmaon          ptrmaun          tlmaon         trmaun         derived
 ptoxon           ptuhun           ptox           ptuh           derived
