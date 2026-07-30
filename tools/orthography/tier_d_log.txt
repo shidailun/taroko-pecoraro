@@ -108,7 +108,6 @@ ss'xgan          sshgan           CV-    s'xgan           R
 ssdyaqon         ssjiqun          CV-    sdyaqon          M
 ssgxoai          ssghuway         CV-    sgxoai           A
 sssik            ssksik           CV-    ssik             M
-ttabu            ttabu            CV-    tabu             J
 ttaxot           ttahut           CV-    taxot            B
 ttl'boq          ttrbuq           CV-    tl'boq           B
 ttmisa           ttmgsa           CV-    tmisa            P

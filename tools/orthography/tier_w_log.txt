@@ -162,7 +162,6 @@ mpgdadak         empgdadak         mpgdadak         P/twin       0     1
 mpgdgit          empgdgit          mpgdgit          R/class      0     1
 mpglaxol         empgrahul         mpgrahul         P/class      0     1
 mpia             empiya            mpiya            P/class      0     2
-mpimax           empimah           mpimah           P/class      0     2
 mpk'lae          empklai           mpklai           P/class      0     1
 mpk'ongat        empkungat         mpkungat         P/class      0     3
 mpkd'la          empkdra           mpkdra           P/class      0     2
@@ -274,7 +273,6 @@ mpsx'muk         empshmuk          mpshmuk          P/class      0     1
 mpsxada          empshada          mpshada          P/twin       0     5
 mpsxdil          empshjil          mpshjil          R/class      0     1
 mpt'to           empteetu          mpteetu          P/class      0     1
-mptabu           emptabu           mptabu           P/class      0     1
 mptabwi          emptabuy          mptabuy          P/class      0     1
 mptalil          emptaril          mptaril          P/class      0     1
 mptd'xo          emptdhu           mptdhu           R/class      0     1

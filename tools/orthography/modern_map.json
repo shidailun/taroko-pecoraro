@@ -5148,6 +5148,10 @@
    "modern": "rbngan",
    "tier": "L"
   },
+  "lbongi": {
+   "modern": "rbngi",
+   "tier": "M"
+  },
   "lbongun": {
    "modern": "rbngun",
    "tier": "L"
@@ -7517,6 +7521,10 @@
    "w_was": "mpgaluk",
    "w_how": "twin"
   },
+  "mpimax": {
+   "modern": "empeimah",
+   "tier": "M"
+  },
   "mpito": {
    "modern": "empitu",
    "tier": "W",
@@ -7608,6 +7616,10 @@
    "tier": "W",
    "w_was": "mpswiwil",
    "w_how": "class"
+  },
+  "mptabu": {
+   "modern": "emptabug",
+   "tier": "M"
   },
   "mptksoloç": {
    "modern": "emptqsurux",
@@ -8222,6 +8234,10 @@
   "mt'lol": {
    "modern": "mtrul",
    "tier": "A"
+  },
+  "mtabu": {
+   "modern": "mtabug",
+   "tier": "M"
   },
   "mtaga": {
    "modern": "mtaga",
@@ -9827,6 +9843,10 @@
   "pila": {
    "modern": "pila",
    "tier": "id"
+  },
+  "pimax": {
+   "modern": "peimah",
+   "tier": "M"
   },
   "pipi": {
    "modern": "pipi",
@@ -11472,6 +11492,10 @@
    "modern": "pteetu",
    "tier": "M"
   },
+  "ptabu": {
+   "modern": "ptabug",
+   "tier": "M"
+  },
   "ptaga": {
    "modern": "ptaga",
    "tier": "id"
@@ -11535,6 +11559,14 @@
   "ptbnao": {
    "modern": "ptbnaw",
    "tier": "B"
+  },
+  "ptbuan": {
+   "modern": "ptbgan",
+   "tier": "M"
+  },
+  "ptbuon": {
+   "modern": "ptbgun",
+   "tier": "M"
   },
   "ptdaxo": {
    "modern": "ptdahu",
@@ -14316,6 +14348,10 @@
    "modern": "spian",
    "tier": "id"
   },
+  "spimax": {
+   "modern": "speimah",
+   "tier": "M"
+  },
   "sping": {
    "modern": "sping",
    "tier": "id"
@@ -15203,6 +15239,10 @@
    "modern": "tbsqur",
    "tier": "B"
   },
+  "tbuan": {
+   "modern": "tbgan",
+   "tier": "M"
+  },
   "tbugan": {
    "modern": "tbgan",
    "tier": "L"
@@ -15210,6 +15250,14 @@
   "tbugun": {
    "modern": "tbgun",
    "tier": "L"
+  },
+  "tbui": {
+   "modern": "tbgi",
+   "tier": "M"
+  },
+  "tbuon": {
+   "modern": "tbgun",
+   "tier": "M"
   },
   "tbus": {
    "modern": "tbus",
@@ -15697,8 +15745,8 @@
    "tier": "id"
   },
   "tmabu": {
-   "modern": "tmabu",
-   "tier": "id"
+   "modern": "tmabug",
+   "tier": "M"
   },
   "tmabui": {
    "modern": "tmabuy",
@@ -16173,6 +16221,10 @@
   },
   "tsulao": {
    "modern": "csuraw",
+   "tier": "M"
+  },
+  "ttabu": {
+   "modern": "ttabug",
    "tier": "M"
   },
   "ttakol": {
@@ -17936,10 +17988,6 @@
    "modern": "rbaqi",
    "tier": "P"
   },
-  "lbongi": {
-   "modern": "rbungi",
-   "tier": "P"
-  },
   "ldingi": {
    "modern": "rjingi",
    "tier": "P"
@@ -18768,12 +18816,6 @@
    "w_was": "mpika",
    "w_how": "twin"
   },
-  "mpimax": {
-   "modern": "empimah",
-   "tier": "W",
-   "w_was": "mpimah",
-   "w_how": "class"
-  },
   "mpk'lae": {
    "modern": "empklai",
    "tier": "W",
@@ -19380,12 +19422,6 @@
    "w_was": "mpteetu",
    "w_how": "class"
   },
-  "mptabu": {
-   "modern": "emptabu",
-   "tier": "W",
-   "w_was": "mptabu",
-   "w_how": "class"
-  },
   "mptabwi": {
    "modern": "emptabuy",
    "tier": "W",
@@ -19772,10 +19808,6 @@
    "modern": "mthngay",
    "tier": "P"
   },
-  "mtabu": {
-   "modern": "mtabu",
-   "tier": "P"
-  },
   "mtama": {
    "modern": "mtama",
    "tier": "P"
@@ -20159,10 +20191,6 @@
   },
   "pgxei": {
    "modern": "pghiyi",
-   "tier": "P"
-  },
-  "pimax": {
-   "modern": "pimah",
    "tier": "P"
   },
   "pk'la": {
@@ -21252,10 +21280,6 @@
    "modern": "pteetuun",
    "tier": "P"
   },
-  "ptabu": {
-   "modern": "ptabu",
-   "tier": "P"
-  },
   "ptabwi": {
    "modern": "ptabuy",
    "tier": "P"
@@ -21309,14 +21333,6 @@
   },
   "ptbnaxon": {
    "modern": "ptbnahun",
-   "tier": "P"
-  },
-  "ptbuan": {
-   "modern": "ptbuan",
-   "tier": "P"
-  },
-  "ptbuon": {
-   "modern": "ptbuun",
    "tier": "P"
   },
   "ptbwian": {
@@ -22003,10 +22019,6 @@
    "modern": "spghiyi",
    "tier": "P"
   },
-  "spimax": {
-   "modern": "spimah",
-   "tier": "P"
-  },
   "spiun": {
    "modern": "spiun",
    "tier": "P"
@@ -22244,18 +22256,6 @@
   },
   "tboyaq": {
    "modern": "tbuyak",
-   "tier": "P"
-  },
-  "tbuan": {
-   "modern": "tbuan",
-   "tier": "P"
-  },
-  "tbui": {
-   "modern": "tbui",
-   "tier": "P"
-  },
-  "tbuon": {
-   "modern": "tbuun",
    "tier": "P"
   },
   "tbusi": {
@@ -27255,12 +27255,6 @@
    "tier": "D",
    "d_rule": "CV-",
    "d_base": "ssik"
-  },
-  "ttabu": {
-   "modern": "ttabu",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "tabu"
   },
   "ttaxot": {
    "modern": "ttahut",
