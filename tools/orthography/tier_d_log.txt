@@ -24,10 +24,7 @@ kksaxol          qqsahur          CV-    ksaxol           L
 ll'alang         ll'alang         CV-    l'alang          KL
 llamil           rramil           CV-    lamil            B
 llanaq           rranaq           CV-    lanaq            A
-llaqe            llaqi            CV-    laqe             B
-llisao           rrisaw           CV-    lisao            B
 llixao           llihaw           CV-    lixao            B
-llubwi           llubuy           CV-    lubwi            M
 lqlqean          lqlqian          CVCV-  lqean            A
 mmngali          mmngari          CV-    mngali           B
 mmqdolyaq        mmqduriq         CV-    mqdolyaq         T
@@ -91,7 +88,6 @@ npotox           nputuh           n-     potox            B
 nqatai           nkatay           n-     qatai            L
 nsadyaq          nseejiq          n-     sadyaq           M
 nsk'lol          nsqrul           n-     sk'lol           A
-nskkoyox         nskkuyuh         n-     skkoyox          P
 nsl'bu           nsl'bu           n-     sl'bu            P
 nsl'pong         nslupung         n-     sl'pong          M
 nslidil          nsrijil          n-     slidil           B
@@ -121,7 +117,7 @@ ppyasan          ppyasan          CV-    pyasan           R
 ss'xgan          sshgan           CV-    s'xgan           R
 ssdyaqon         ssjiqun          CV-    sdyaqon          M
 ssgxoai          ssghuway         CV-    sgxoai           A
-sssik            sssik            CV-    ssik             R
+sssik            ssksik           CV-    ssik             M
 ttabu            ttabu            CV-    tabu             J
 ttaxot           ttahut           CV-    taxot            B
 ttl'boq          ttrbuq           CV-    tl'boq           B
@@ -130,7 +126,5 @@ tttama           tttama           CV-    ttama            id
 ttunux           ttunux           CV-    tunux            id
 ttxmoqo          tthmuku          CV-    txmoqo           T
 wwaxel           wwahir           CV-    waxel            A
-xxei             hhiyi            CV-    xei              M
-xxeuling         hhuling          CV-    xeuling          M
 xxmadan          hhmadan          CV-    xmadan           B
 yyax             yyah             CV-    yax              R

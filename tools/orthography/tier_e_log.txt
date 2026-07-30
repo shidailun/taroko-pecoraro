@@ -68,7 +68,6 @@ msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
 msnugul          msnugul          snugul         snugul         derived
 mspitai          mspitay          pitai          pitay          derived
-mssik            mssik            ssik           ssik           derived
 mssnugul         mssnugul         snugul         snugul         derived
 msxeulis         mshulis          sxeulis        shulis         derived
 mtango           mtangu           tango          tangu          derived
