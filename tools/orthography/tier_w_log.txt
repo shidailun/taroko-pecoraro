@@ -162,6 +162,7 @@ mpkparo          empkparu          mpkparu          P/class      0     1
 mpksaang         empksaang         mpksaang         R/twin       0     1
 mpkslaan         empkslaan         mpkslaan         E/class      0     1
 mpksuyang        empksuyang        mpksuyang        P/class      0     1
+mpkuda'          empkudaw          mpkudaw          M/class      0     1
 mpkudao          empkudaw          mpkudaw          R/class      0     1
 mpkusa           empkusa           mpkusa           P/class      0     1
 mpl'dax          emprdax           mprdax           P/twin       0     2

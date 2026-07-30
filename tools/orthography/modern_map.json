@@ -743,9 +743,17 @@
    "modern": "ekan",
    "tier": "M"
   },
+  "'sig": {
+   "modern": "esig",
+   "tier": "M"
+  },
   "'silong": {
    "modern": "silung",
    "tier": "T"
+  },
+  "'siu": {
+   "modern": "esig",
+   "tier": "M"
   },
   "'xlama": {
    "modern": "hlama",
@@ -2205,6 +2213,10 @@
    "modern": "dmpuyas",
    "tier": "M"
   },
+  "dmpwa'la": {
+   "modern": "dempweela",
+   "tier": "M"
+  },
   "dmudu": {
    "modern": "dmudul",
    "tier": "L"
@@ -2416,6 +2428,10 @@
   "dx'qon": {
    "modern": "dhqun",
    "tier": "B"
+  },
+  "dxdyeq": {
+   "modern": "thiyaq",
+   "tier": "M"
   },
   "dxea": {
    "modern": "dhiya",
@@ -4169,6 +4185,10 @@
   },
   "knkaxan": {
    "modern": "qnlqahan",
+   "tier": "M"
+  },
+  "knkbyanan": {
+   "modern": "knegbiyan",
    "tier": "M"
   },
   "knkingal": {
@@ -6320,6 +6340,10 @@
    "tier": "id",
    "elision_dropped": "m'umal"
   },
+  "m'wa'la": {
+   "modern": "empweela",
+   "tier": "M"
+  },
   "m'xalan": {
    "modern": "mxalan",
    "tier": "T",
@@ -7145,6 +7169,10 @@
   "mkmiyax": {
    "modern": "mkmiyah",
    "tier": "B"
+  },
+  "mkmorisaka": {
+   "modern": "mkmurisaka",
+   "tier": "M"
   },
   "mkmoyoç": {
    "modern": "mkmuyux",
@@ -7977,6 +8005,12 @@
    "w_was": "mpkduriq",
    "w_how": "class"
   },
+  "mpkuda'": {
+   "modern": "empkudaw",
+   "tier": "W",
+   "w_was": "mpkudaw",
+   "w_how": "class"
+  },
   "mpkxada": {
    "modern": "empkhada",
    "tier": "W",
@@ -8082,6 +8116,10 @@
    "tier": "W",
    "w_was": "mpuyas",
    "w_how": "twin"
+  },
+  "mpwa'la": {
+   "modern": "empweela",
+   "tier": "M"
   },
   "mpx'pax": {
    "modern": "emphpah",
@@ -8974,6 +9012,10 @@
    "modern": "muyas",
    "tier": "M"
   },
+  "mx'dyeq": {
+   "modern": "mthiyaq",
+   "tier": "M"
+  },
   "mx'lo": {
    "modern": "mhru",
    "tier": "A"
@@ -9525,6 +9567,10 @@
   },
   "nklui": {
    "modern": "nkluwi",
+   "tier": "M"
+  },
+  "nkmorisaka": {
+   "modern": "nkmurisaka",
    "tier": "M"
   },
   "nkmpaxan": {
@@ -10304,6 +10350,14 @@
    "modern": "pduuy",
    "tier": "M"
   },
+  "pdx'dyeq": {
+   "modern": "pdthiyaq",
+   "tier": "M"
+  },
+  "pdxdyeq": {
+   "modern": "pdthiyaq",
+   "tier": "M"
+  },
   "pdxleqan": {
    "modern": "pdhliqan",
    "tier": "T"
@@ -10336,6 +10390,10 @@
   "pg'long": {
    "modern": "pgrung",
    "tier": "B"
+  },
+  "pgaalu": {
+   "modern": "pgealu",
+   "tier": "M"
   },
   "pgago": {
    "modern": "pgagu",
@@ -11268,6 +11326,10 @@
   "pnttingan": {
    "modern": "pntcingan",
    "tier": "B"
+  },
+  "pntyusan": {
+   "modern": "pnteayusan",
+   "tier": "M"
   },
   "pnxalan": {
    "modern": "pnxalan",
@@ -12485,6 +12547,10 @@
   },
   "puyes": {
    "modern": "puyas",
+   "tier": "M"
+  },
+  "pwa'la": {
+   "modern": "pweela",
    "tier": "M"
   },
   "px'lo": {
@@ -13838,6 +13904,10 @@
   "sengse": {
    "modern": "mtgsa",
    "tier": "X"
+  },
+  "sgaalu": {
+   "modern": "sgealu",
+   "tier": "M"
   },
   "sgalu": {
    "modern": "sgealu",
@@ -17341,6 +17411,10 @@
    "modern": "tuyuq",
    "tier": "B"
   },
+  "twa'la": {
+   "modern": "tweela",
+   "tier": "M"
+  },
   "twaan": {
    "modern": "twaan",
    "tier": "id"
@@ -17557,6 +17631,10 @@
    "modern": "wa",
    "tier": "id"
   },
+  "wa'la": {
+   "modern": "weela",
+   "tier": "M"
+  },
   "wa'lo": {
    "modern": "walu",
    "tier": "M"
@@ -17628,6 +17706,10 @@
   "x'dil": {
    "modern": "hjil",
    "tier": "B"
+  },
+  "x'dyeq": {
+   "modern": "thiyaq",
+   "tier": "M"
   },
   "x'gut": {
    "modern": "hgut",
@@ -20895,6 +20977,10 @@
    "modern": "mtudu",
    "tier": "P"
   },
+  "mtwa'la": {
+   "modern": "mtweela",
+   "tier": "P"
+  },
   "mxalös": {
    "modern": "mhalus",
    "tier": "P"
@@ -23632,6 +23718,10 @@
   },
   "tyuan": {
    "modern": "cyuan",
+   "tier": "P"
+  },
+  "x'mdyeq": {
+   "modern": "tmhiyaq",
    "tier": "P"
   },
   "xlayun": {
@@ -28754,6 +28844,12 @@
    "e_stem": "ttuyun",
    "e_modern": "ttuyun"
   },
+  "ptx'dyeq": {
+   "modern": "ptthiyaq",
+   "tier": "E",
+   "e_stem": "xdyeq",
+   "e_modern": "thiyaq"
+  },
   "ptxnguli": {
    "modern": "pthnguli",
    "tier": "E",
@@ -29576,11 +29672,6 @@
    ]
   ],
   [
-   "mkmorisaka",
-   6,
-   []
-  ],
-  [
    "banasi",
    5,
    [
@@ -29614,11 +29705,6 @@
    ]
   ],
   [
-   "mpwa'la",
-   5,
-   []
-  ],
-  [
    "ksudan",
    4,
    []
@@ -29640,13 +29726,6 @@
    4,
    [
     "已造成的誹謗"
-   ]
-  ],
-  [
-   "'sig",
-   3,
-   [
-    "癤子癰"
    ]
   ],
   [
@@ -29709,11 +29788,6 @@
    ]
   ],
   [
-   "m'wa'la",
-   3,
-   []
-  ],
-  [
    "mpn'mu",
    3,
    [
@@ -29738,11 +29812,6 @@
    [
     "誹謗者心懷惡意者"
    ]
-  ],
-  [
-   "nkmorisaka",
-   3,
-   []
   ],
   [
    "pnta'to",
@@ -29839,18 +29908,6 @@
    3,
    [
     "完全熄滅火參見"
-   ]
-  ],
-  [
-   "twa'la",
-   3,
-   []
-  ],
-  [
-   "wa'la",
-   3,
-   [
-    "在前引導走在前面"
    ]
   ],
   [
@@ -30115,20 +30172,6 @@
    ]
   ],
   [
-   "mtwa'la",
-   2,
-   [
-    "實際上在前居首者先驅"
-   ]
-  ],
-  [
-   "mx'dyeq",
-   2,
-   [
-    "遠離的保持距離的"
-   ]
-  ],
-  [
    "niyao",
    2,
    [
@@ -30151,25 +30194,6 @@
   ],
   [
    "pblnaxon",
-   2,
-   []
-  ],
-  [
-   "pdx'dyeq",
-   2,
-   [
-    "使之間有距離使遠離"
-   ]
-  ],
-  [
-   "pdxdyeq",
-   2,
-   [
-    "使之間有距離使遠離"
-   ]
-  ],
-  [
-   "pgaalu",
    2,
    []
   ],
@@ -30227,13 +30251,6 @@
    []
   ],
   [
-   "pntyusan",
-   2,
-   [
-    "已被立為界線之物"
-   ]
-  ],
-  [
    "psg'gan",
    2,
    []
@@ -30261,13 +30278,6 @@
    "ptqoe",
    2,
    []
-  ],
-  [
-   "pwa'la",
-   2,
-   [
-    "帶領引導在前"
-   ]
   ],
   [
    "q'loq",
@@ -30316,11 +30326,6 @@
   ],
   [
    "serait",
-   2,
-   []
-  ],
-  [
-   "sgaalu",
    2,
    []
   ],
@@ -30485,13 +30490,6 @@
    []
   ],
   [
-   "x'mdyeq",
-   2,
-   [
-    "同上之動詞形"
-   ]
-  ],
-  [
    "xm'li",
    2,
    [
@@ -30505,11 +30503,6 @@
   ],
   [
    "'matinalité'",
-   1,
-   []
-  ],
-  [
-   "'siu",
    1,
    []
   ],
@@ -30674,11 +30667,6 @@
    []
   ],
   [
-   "dmpwa'la",
-   1,
-   []
-  ],
-  [
    "dmsnxei",
    1,
    []
@@ -30741,13 +30729,6 @@
    "dxcaan",
    1,
    []
-  ],
-  [
-   "dxdyeq",
-   1,
-   [
-    "遙遠相距很遠"
-   ]
   ],
   [
    "dyudika",
@@ -31008,13 +30989,6 @@
    1,
    [
     "非常常見的名詞化詞綴作前綴表示狀態的強度性質作環綴與後綴同時使用表示與詞基相對應的抽象概念大大小尺寸"
-   ]
-  ],
-  [
-   "knkbyanan",
-   1,
-   [
-    "傍晚之甚黃昏時分之意"
    ]
   ],
   [
@@ -31296,13 +31270,6 @@
    "mpkatai",
    1,
    []
-  ],
-  [
-   "mpkuda'",
-   1,
-   [
-    "搬運未來式職業搬運工"
-   ]
   ],
   [
    "mpkxoai",
@@ -31826,6 +31793,125 @@
    "ptqliyun",
    1,
    []
+  ],
+  [
+   "ptuxan",
+   1,
+   []
+  ],
+  [
+   "ptuxi",
+   1,
+   []
+  ],
+  [
+   "ptuxun",
+   1,
+   []
+  ],
+  [
+   "puga",
+   1,
+   []
+  ],
+  [
+   "pxeidang",
+   1,
+   []
+  ],
+  [
+   "qaban",
+   1,
+   []
+  ],
+  [
+   "qalip",
+   1,
+   [
+    "剪裁參見"
+   ]
+  ],
+  [
+   "qdapan",
+   1,
+   []
+  ],
+  [
+   "qdowan",
+   1,
+   []
+  ],
+  [
+   "qdq'dan",
+   1,
+   [
+    "束縛鐐銬桎梏被束縛者物參見"
+   ]
+  ],
+  [
+   "qdqdan",
+   1,
+   [
+    "束縛鐐銬桎梏被束縛者物參見"
+   ]
+  ],
+  [
+   "qelo",
+   1,
+   [
+    "後頸頸背"
+   ]
+  ],
+  [
+   "ql'xqe",
+   1,
+   []
+  ],
+  [
+   "ql'xqon",
+   1,
+   []
+  ],
+  [
+   "qnao",
+   1,
+   [
+    "大蒜"
+   ]
+  ],
+  [
+   "qntq'dan",
+   1,
+   []
+  ],
+  [
+   "qtq'dan",
+   1,
+   []
+  ],
+  [
+   "qtqot",
+   1,
+   [
+    "手銬捆綁犯人的繩索"
+   ]
+  ],
+  [
+   "qui",
+   1,
+   []
+  ],
+  [
+   "rarement",
+   1,
+   []
+  ],
+  [
+   "remarque",
+   1,
+   [
+    "就人們記憶所及太魯閣族並沒有姓氏或氏族名每個人都有自己的名字其後接父親或母親的名字以便與同名者區分必要時還可加上祖父或祖母的名字作為第三個成分之女之孫女小姐這個人名可能因生病某個事件或一時興起而改變也可能完全自創取自植物名如動物名如綽號如甚至帶侮辱性的名稱如垃圾麻雀五十年的日本統治引入了大量日本名字其中最貼近太魯閣族性格的至今仍常見目前流行的則是或多或少經過改造的中文名字要列出一份真正屬於太魯閣族的人名清單並不容易以下是兩份最常用人名的清單較常用於女性的名字較常用於男性的名字凡名前標有號者太魯閣族人自己承認其為日本名字來源而源自中文的名字為數眾多常遭訛用且因使用者而有不同的唸法不在以下清單中列出"
+   ]
   ]
  ]
 }
