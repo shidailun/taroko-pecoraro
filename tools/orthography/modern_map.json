@@ -4451,10 +4451,6 @@
    "modern": "knrudan",
    "tier": "A"
   },
-  "knluus": {
-   "modern": "knruus",
-   "tier": "B"
-  },
   "knmalu": {
    "modern": "knmalu",
    "tier": "id"
@@ -6392,6 +6388,10 @@
   "luul": {
    "modern": "luul",
    "tier": "id"
+  },
+  "luula": {
+   "modern": "ura",
+   "tier": "M"
   },
   "luus": {
    "modern": "luus",
@@ -14945,6 +14945,10 @@
    "modern": "skxlun",
    "tier": "L"
   },
+  "sl'dan": {
+   "modern": "sltan",
+   "tier": "M"
+  },
   "sl'ngao": {
    "modern": "srngaw",
    "tier": "B"
@@ -18424,6 +18428,10 @@
    "modern": "wada",
    "tier": "id"
   },
+  "wakat": {
+   "modern": "waqit",
+   "tier": "M"
+  },
   "walae": {
    "modern": "waray",
    "tier": "B"
@@ -18434,6 +18442,10 @@
   },
   "walo": {
    "modern": "waru",
+   "tier": "M"
+  },
+  "waqat": {
+   "modern": "waqit",
    "tier": "M"
   },
   "watan": {
@@ -21780,6 +21792,10 @@
    "modern": "mtweela",
    "tier": "P"
   },
+  "mwakat": {
+   "modern": "mwaqit",
+   "tier": "P"
+  },
   "mxalös": {
    "modern": "mhalus",
    "tier": "P"
@@ -23840,6 +23856,10 @@
   },
   "sntloan": {
    "modern": "sntruan",
+   "tier": "P"
+  },
+  "snwakat": {
+   "modern": "snwaqit",
    "tier": "P"
   },
   "snxalan": {
@@ -30533,13 +30553,6 @@
    ]
   ],
   [
-   "luula",
-   2,
-   [
-    "公開地公然地註這真的是詞根嗎還是的簡化形參見"
-   ]
-  ],
-  [
    "m'eq",
    2,
    [
@@ -30646,13 +30659,6 @@
    []
   ],
   [
-   "sl'dan",
-   2,
-   [
-    "黏附被黏合之物"
-   ]
-  ],
-  [
    "sloweq",
    2,
    []
@@ -30669,13 +30675,6 @@
    2,
    [
     "頑皮開心果愛開玩笑的人"
-   ]
-  ],
-  [
-   "snwakat",
-   2,
-   [
-    "長出犬齒長出插枝嫩芽由類比而來"
    ]
   ],
   [
@@ -30739,18 +30738,6 @@
   ],
   [
    "var",
-   2,
-   []
-  ],
-  [
-   "wakat",
-   2,
-   [
-    "犬齒牙齒註連同紋面對太魯閣人而言故意敲斷上排兩顆犬齒是一種修飾裝扮的手法"
-   ]
-  ],
-  [
-   "waqat",
    2,
    []
   ],
@@ -31369,13 +31356,6 @@
    "mtqoli",
    1,
    []
-  ],
-  [
-   "mwakat",
-   1,
-   [
-    "有犬齒的長出嫩芽的"
-   ]
   ],
   [
    "même",
