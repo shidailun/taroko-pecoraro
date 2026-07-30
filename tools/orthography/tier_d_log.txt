@@ -38,6 +38,7 @@ mnkpito          mnkpitu          mn-    mkpito           B
 mnkyayong        mnkyayung        mn-    mkyayong         A
 mnmngali         mnmngari         CVCV-  mngali           B
 mnotoç           mnutux           mn-    otoç             M
+mnpgalup         mnpgaluk         mn-    pgalup           M
 mnpito           mnpitu           mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
@@ -64,6 +65,7 @@ neidang          neydang          n-     meidang          M
 ngagwi           ngeeguy          n-     gagwi            M
 nggalu           nggaalu          n-     mggalu           P
 ngguyan          ngeuyan          n-     gguyan           M
+ngl'ngu          nglngu           n-     mgl'ngu          M
 ngnalu           ngnaalu          n-     gnalu            P
 niin             niing            n-     miin             M
 niyaq            niyak            n-     miyaq            L

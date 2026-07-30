@@ -34,6 +34,7 @@ lnqdo            rnqdug           lqdo           rqdug          derived
 m'ayo            mayu             ayo            ayu            derived
 mapala           mapala           pala           pala           derived
 mkbnaqe          mkbnaqi          bnaqe          bnaqi          derived
+mkdoloç          mkdurux          mkdolox        mkdurux        derived
 mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
 ml'çan           mlxan            lxan           lxan           derived
@@ -55,7 +56,6 @@ mpsbiyoq         mpsbiyuq         psbiyoq        psbiyuq        derived
 mpsl'bu          mpsl'bu          pslbu          psl'bu         derived
 mpslangan        mpslangan        slangan        slangan        derived
 mpsnanak         mpsnanak         psnanak        psnanak        derived
-mpsnugul         mpsnugul         snugul         snugul         derived
 mpspala          mpspala          pala           pala           derived
 mpsparo          mpsparu          psparo         psparu         derived
 mpsqlinut        mpsqrinut        psqlinut       psqrinut       derived
@@ -86,6 +86,7 @@ pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
+pkdlxun          pkdrxun          pkdlxun        pkdrxun        derived
 pklagun          pkragun          klagun         kragun         derived
 pkoxun           pkuxun           pkox           pkux           derived
 pktltoon         pktleetuun       tlto           tleetu         derived
@@ -141,6 +142,7 @@ smbalao          smbaraw          balao          baraw          derived
 smblex           smbrih           mblex          mbrih          derived
 smd'xo           smdhu            mdxo           mdhu           derived
 smnugul          smnugul          snugul         snugul         derived
+sn'lyeq          snlyeq           slyeq          slyeq          derived
 sn'xei           snhiyi           snxei          snhiyi         attested
 snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived
@@ -165,5 +167,6 @@ tslbangi         tslbangi         lbang          lbang          derived
 txdo             thdu             xdo            hdu            derived
 xmlisan          hmlisan          xlisan         hlisan         derived
 xmq'li           hmqli            xqli           hqli           derived
+xndyalan         hnjyalan         xdyalan        hjyalan        derived
 xnt'lan          hntran           xtlan          htran          derived
 xntiyan          hntiyan          xtiyan         htiyan         derived

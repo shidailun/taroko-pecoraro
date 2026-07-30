@@ -27,7 +27,9 @@ ntluula          ntluula          luul           luul               1 derived
 pnblexan         pnbrihan         blex           brih               1 derived
 pnmaxal          pnmaxal          maxal          maxal              1 derived
 ppskngalun       ppskngalun       kngal          kngal              1 derived
+ps'lyeq          pslyeq           slyeq          slyeq              1 derived
 pttaqe           pttaqi           taqe           taqi               1 derived
 qqlang           qqlang           qlang          qlang              1 derived
 rinalox          rinarux          nalox          narux              1 derived
 spktaqe          spktaqi          taqe           taqi               1 derived
+xnglyeq          hnglyeq          xglyeq         hglyeq             1 derived
