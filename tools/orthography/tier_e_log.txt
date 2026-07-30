@@ -63,9 +63,7 @@ mqqalang         mqqalang         qalang         qalang         derived
 mslaput          mslaput          slaput         slaput         derived
 msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
-msnugul          msnugul          snugul         snugul         derived
 mspitai          mspitay          pitai          pitay          derived
-mssnugul         mssnugul         snugul         snugul         derived
 msxeulis         mshulis          sxeulis        shulis         derived
 mtango           mtangu           tango          tangu          derived
 mtblenax         mtbrinah         tblenax        tbrinah        derived
@@ -137,7 +135,6 @@ sm'mul           sm'mul           smul           s'mul          derived
 smbalao          smbaraw          balao          baraw          derived
 smblex           smbrih           mblex          mbrih          derived
 smd'xo           smdhu            mdxo           mdhu           derived
-smnugul          smnugul          snugul         snugul         derived
 sn'xei           snhiyi           snxei          snhiyi         attested
 snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived

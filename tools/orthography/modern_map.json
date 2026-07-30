@@ -7362,6 +7362,10 @@
    "modern": "mntucing",
    "tier": "B"
   },
+  "mnugul": {
+   "modern": "mnegul",
+   "tier": "M"
+  },
   "mnusa": {
    "modern": "mnusa",
    "tier": "id"
@@ -7563,6 +7567,10 @@
    "tier": "W",
    "w_was": "mpsramal",
    "w_how": "twin"
+  },
+  "mpsnugul": {
+   "modern": "empsnegul",
+   "tier": "M"
   },
   "mpsopu": {
    "modern": "empsupu",
@@ -8004,6 +8012,10 @@
    "modern": "msnoxel",
    "tier": "M"
   },
+  "msnugul": {
+   "modern": "msnegul",
+   "tier": "M"
+  },
   "msola": {
    "modern": "msula",
    "tier": "B"
@@ -8093,6 +8105,10 @@
    "modern": "mssriyux",
    "tier": "B"
   },
+  "mssnugul": {
+   "modern": "mssnegul",
+   "tier": "M"
+  },
   "mst'long": {
    "modern": "mstrung",
    "tier": "A"
@@ -8132,6 +8148,10 @@
   },
   "msueq": {
    "modern": "msuwiq",
+   "tier": "M"
+  },
+  "msuil": {
+   "modern": "msuwil",
    "tier": "M"
   },
   "msuno": {
@@ -9090,6 +9110,10 @@
    "modern": "nsuwiq",
    "tier": "M"
   },
+  "nsuil": {
+   "modern": "nsuwil",
+   "tier": "M"
+  },
   "ntaan": {
    "modern": "qntaan",
    "tier": "M"
@@ -9107,7 +9131,7 @@
    "tier": "id"
   },
   "nugul": {
-   "modern": "nugul",
+   "modern": "negul",
    "tier": "M"
   },
   "nuni": {
@@ -11186,7 +11210,7 @@
    "tier": "A"
   },
   "psnugul": {
-   "modern": "psnugul",
+   "modern": "psnegul",
    "tier": "M"
   },
   "psola": {
@@ -13776,6 +13800,10 @@
    "modern": "smnlaan",
    "tier": "id"
   },
+  "smnugul": {
+   "modern": "smnegul",
+   "tier": "M"
+  },
   "smola": {
    "modern": "smura",
    "tier": "B"
@@ -13971,8 +13999,8 @@
    "tier": "M"
   },
   "snkaxa": {
-   "modern": "snkaxa",
-   "tier": "id"
+   "modern": "sngkaxa",
+   "tier": "M"
   },
   "snkiila": {
    "modern": "snkiila",
@@ -14096,6 +14124,10 @@
   },
   "snuan": {
    "modern": "snuwan",
+   "tier": "M"
+  },
+  "snugul": {
+   "modern": "snegul",
    "tier": "M"
   },
   "snulu": {
@@ -14628,7 +14660,7 @@
    "tier": "L"
   },
   "suil": {
-   "modern": "suil",
+   "modern": "suwil",
    "tier": "M"
   },
   "sulax": {
@@ -18446,10 +18478,6 @@
    "modern": "mntnuda",
    "tier": "P"
   },
-  "mnugul": {
-   "modern": "mnugul",
-   "tier": "P"
-  },
   "mp'adas": {
    "modern": "empadas",
    "tier": "W",
@@ -19222,12 +19250,6 @@
    "w_was": "mpsngari",
    "w_how": "twin"
   },
-  "mpsnugul": {
-   "modern": "empsnugul",
-   "tier": "W",
-   "w_was": "mpsnugul",
-   "w_how": "class"
-  },
   "mpspadao": {
    "modern": "empspadaw",
    "tier": "W",
@@ -19656,10 +19678,6 @@
    "modern": "msstrung",
    "tier": "P"
   },
-  "msuil": {
-   "modern": "msuil",
-   "tier": "P"
-  },
   "msulax": {
    "modern": "mseulah",
    "tier": "P"
@@ -19899,10 +19917,6 @@
   },
   "nsayang": {
    "modern": "nsayang",
-   "tier": "P"
-  },
-  "nsuil": {
-   "modern": "nsuil",
    "tier": "P"
   },
   "nsuxal": {
@@ -21930,10 +21944,6 @@
   },
   "sntloan": {
    "modern": "sntruan",
-   "tier": "P"
-  },
-  "snugul": {
-   "modern": "snugul",
    "tier": "P"
   },
   "snxalan": {
@@ -27716,23 +27726,11 @@
    "e_stem": "snsinao",
    "e_modern": "snsinaw"
   },
-  "msnugul": {
-   "modern": "msnugul",
-   "tier": "E",
-   "e_stem": "snugul",
-   "e_modern": "snugul"
-  },
   "mspitai": {
    "modern": "mspitay",
    "tier": "E",
    "e_stem": "pitai",
    "e_modern": "pitay"
-  },
-  "mssnugul": {
-   "modern": "mssnugul",
-   "tier": "E",
-   "e_stem": "snugul",
-   "e_modern": "snugul"
   },
   "msxeulis": {
    "modern": "mshulis",
@@ -28162,12 +28160,6 @@
    "tier": "E",
    "e_stem": "mdxo",
    "e_modern": "mdhu"
-  },
-  "smnugul": {
-   "modern": "smnugul",
-   "tier": "E",
-   "e_stem": "snugul",
-   "e_modern": "snugul"
   },
   "sn'xei": {
    "modern": "snhiyi",
