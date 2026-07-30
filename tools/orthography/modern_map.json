@@ -808,8 +808,8 @@
    "tier": "id"
   },
   "alax": {
-   "modern": "alax",
-   "tier": "id"
+   "modern": "alah",
+   "tier": "M"
   },
   "aleq": {
    "modern": "ariq",
@@ -5148,8 +5148,8 @@
    "tier": "B"
   },
   "kyoxan": {
-   "modern": "kyuhan",
-   "tier": "B"
+   "modern": "kuyuhan",
+   "tier": "M"
   },
   "kyuwax": {
    "modern": "kyuwax",
@@ -6475,9 +6475,8 @@
    "elision_dropped": "m'akai"
   },
   "m'alax": {
-   "modern": "malax",
-   "tier": "id",
-   "elision_dropped": "m'alax"
+   "modern": "malah",
+   "tier": "M"
   },
   "m'aleq": {
    "modern": "meariq",
@@ -6704,8 +6703,8 @@
    "tier": "id"
   },
   "malax": {
-   "modern": "malax",
-   "tier": "id"
+   "modern": "malah",
+   "tier": "M"
   },
   "malex": {
    "modern": "malix",
@@ -14878,8 +14877,8 @@
    "tier": "T"
   },
   "skpax": {
-   "modern": "skpax",
-   "tier": "id"
+   "modern": "sqpah",
+   "tier": "M"
   },
   "sksia": {
    "modern": "sqsiya",
