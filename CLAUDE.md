@@ -414,6 +414,39 @@ Two repairs fell out of the same pass: `esc()` now escapes `"` (headwords like
 became `i. e.`, which then hid it from the `ABBR` guard and came back as
 `i. E. Bodyguards`. All 13 dotted forms now on screen are real abbreviations.
 
+## French inside a Truku field (2026-07-30)
+
+The mirror-image defect. His remarks are in French, and some of them are not in a
+gloss at all: they sit in a bracket on a **sub-form** — `Pqaya (Est-ce de la R.
+QAYA ?)`, `Pqboan (= contraction pour: PQBBOAN ?)`, `Mskui (parfois = Mskwi !!)` —
+and four example lines under AN are not examples but French gloss pairs, `Malu =
+Beau, bien; Knmlaan = beauté, bonté`. Those two fields are tokenized as Truku, so
+the char rules ran on French and printed it back as fake Truku: PRUDUIT,
+CUNTRACTIUN, SAVUIR, CUNNAISSANCE, BUNTE, matinarite. Six were worse than mangled
+— the curated map claimed them, so they came out **brown**, asserting a verified
+modern Truku spelling for a French word: ne→ni (which is his own word for "and"),
+pour→puur, page→pagi, nique→niqi, non→nun, matin→macin.
+
+`FORM_PROSE` is a **separate set from `TAG_PROSE`**, not a reuse of it, for two
+measured reasons: `UN` is one of his headwords, so the French "un" that TAG_PROSE
+needs would grey an entry; and `vl.`/`var.` are already named by `metaAbbr`, which
+gives them a tooltip the prose branch would take away (`vl|vel — ou / or` is
+asserted in the test). Passed at exactly two call sites, the example line and the
+sub-form. Every word in it was read off those two fields, and every occurrence of
+every one is French — 20 fields, 51 occurrences, 38 types, not one Truku word
+among them.
+
+Verify by **counting spans, not naming them**. The first test hand-typed the Truku
+words standing beside the French and 8 of 13 were wrong, because in modern mode the
+page shows the modern spelling — `G'LEQ` renders as GRIQ, `Adi` as AJI. `dom_fr2.py`
+reads `FORM_PROSE` out of `app.js`, locates each field in the DOM by containment,
+and asserts the coloured-span count equals the number of tokens that are neither
+French nor a meta abbreviation. That is what catches a French word left off the
+list: it survives as a surplus coloured span whatever the char rules did to its
+shape. Two did — `produit`, dropped while composing the string, and `matinalité`,
+whose scare quotes `tidy()` has already converted to curly ones before tokenizing,
+so the key is the bare accented word.
+
 Discoveries encoded in the generator: Pecoraro's ç = modern x (tunuç→tunux);
 ao/oa = aw/ow/uwa (daolas→dowras, boax→buwax); d→j and t→c before i (adi→aji,
 tmoting→tmucing); schwa vowels Pecoraro wrote are often dropped (kensat→knsat);

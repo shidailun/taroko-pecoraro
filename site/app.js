@@ -787,6 +787,31 @@
    "serait préfixe bébé peau entourer taroko").split(" ").forEach(function (w) {
     TAG_PROSE[w] = 1;
   });
+
+  // His French does not stay in the tags. It gets into a sub-form's bracket —
+  // "Pqaya (Est-ce de la R. QAYA ?)", "Pqboan (= contraction pour: PQBBOAN ?)" —
+  // and four example lines under AN are not examples at all but French gloss
+  // pairs, "Malu = Beau, bien; Knmlaan = beauté, bonté". Tokenized as Truku, the
+  // char rules ran on French and printed it back as fake Truku: PRUDUIT,
+  // CUNTRACTIUN, SAVUIR, CUNNAISSANCE. Six words were worse than mangled — the
+  // curated map claimed them, so they came out BROWN, asserting a verified modern
+  // spelling for a French word: ne→ni (which is his own word for "and"),
+  // pour→puur, page→pagi, nique→niqi, non→nun, matin→macin.
+  //
+  // A separate set from TAG_PROSE, not a reuse of it, for two measured reasons:
+  // UN is one of his headwords, so the French "un" that TAG_PROSE needs would
+  // grey an entry; and vl./var. are already named by metaAbbr, which gives them
+  // a tooltip the prose branch would take away. Everything here was read off the
+  // form and example fields, and every occurrence of every one of these words in
+  // them is French — 49 occurrences, no Truku word among them.
+  var FORM_PROSE = {};
+  ("de la le et est ce qui plus souvent parfois contraction même il ne pas non " +
+   "pour suite page précédente rarement entendu faudrait vouloir nique porter " +
+   "hotte beau bien beauté bonté savoir connaissance vivant vie matin " +
+   "produit matinalité"
+  ).split(" ").forEach(function (w) {
+    FORM_PROSE[w] = 1;
+  });
   // A bracket in a root tag is his second try at the word, and the whole-tag test
   // below only drops it when EVERY word in the tag is the headword again. Two
   // patterns slip past that and print a bracket distinguishing a word from itself:
@@ -1024,7 +1049,7 @@
     var h = '<div class="examples">';
     list.forEach(function (x) {
       h += '<div class="example"><div class="truku">' + spellMark("§", "Example / exemple") +
-        " " + linkifyTruku(tidy(x.t, "tr")) + audioBtn(x.a) + "</div>";
+        " " + linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
       if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
       if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
       if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
@@ -1065,7 +1090,7 @@
     h += glossHtml(e);
     h += examplesHtml(e.examples);
     (e.subs || []).forEach(function (s) {
-      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(tidyForm(formText(s.form))) + "</span>" + audioBtn(s.a) + "</div>";
+      h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(tidyForm(formText(s.form)), false, FORM_PROSE) + "</span>" + audioBtn(s.a) + "</div>";
       if (s.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(s.paradigm)) + "</p>";
       h += glossHtml(s);
       h += examplesHtml(s.examples);
