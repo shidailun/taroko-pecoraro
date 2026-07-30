@@ -20,7 +20,6 @@ kmqqada          kmqqada          mqqada         mqqada         derived
 kmspusu          kmspusu          spusu          spusu          derived
 kmtisa           kmtgsa           mtisa          mtgsa          derived
 kngoxan          knguhan          kgoxan         kguhan         derived
-knptoxan         knptuhan         kptoxan        kptuhan        derived
 knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsdmatan        knsdmatan        sdmatan        sdmatan        derived
 knsopu           knsupu           sopu           supu           derived

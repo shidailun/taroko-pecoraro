@@ -3000,6 +3000,14 @@
    "modern": "idas",
    "tier": "id"
   },
+  "iing": {
+   "modern": "iying",
+   "tier": "M"
+  },
+  "iita": {
+   "modern": "jiita",
+   "tier": "M"
+  },
   "ilaq": {
    "modern": "iraq",
    "tier": "A"
@@ -3890,9 +3898,8 @@
    "tier": "M"
   },
   "kn'udus": {
-   "modern": "knudus",
-   "tier": "T",
-   "elision_dropped": "kn'udus"
+   "modern": "kneudus",
+   "tier": "M"
   },
   "knagox": {
    "modern": "knaguh",
@@ -4164,6 +4171,10 @@
    "modern": "knpraan",
    "tier": "B"
   },
+  "knptoxan": {
+   "modern": "kmptuhan",
+   "tier": "M"
+  },
   "knq'mi": {
    "modern": "qnumi",
    "tier": "M"
@@ -4197,8 +4208,8 @@
    "tier": "L"
   },
   "knqlinut": {
-   "modern": "qnqrinut",
-   "tier": "L"
+   "modern": "qngqrinut",
+   "tier": "M"
   },
   "knqmi": {
    "modern": "qnumi",
@@ -4275,6 +4286,10 @@
   "knspatan": {
    "modern": "knspatan",
    "tier": "id"
+  },
+  "knstmaan": {
+   "modern": "kntmaan",
+   "tier": "M"
   },
   "knsuyang": {
    "modern": "knsuyang",
@@ -4453,6 +4468,10 @@
   "kpoxel": {
    "modern": "qpuhir",
    "tier": "A"
+  },
+  "kptoxan": {
+   "modern": "kmptuhan",
+   "tier": "M"
   },
   "kqlinut": {
    "modern": "qqrinut",
@@ -6673,6 +6692,10 @@
    "modern": "mqpah",
    "tier": "L"
   },
+  "mk'udus": {
+   "modern": "mkeudus",
+   "tier": "M"
+  },
   "mk'yayong": {
    "modern": "mkyayung",
    "tier": "A"
@@ -6909,6 +6932,10 @@
   "mkt'lo": {
    "modern": "mktru",
    "tier": "A"
+  },
+  "mkudus": {
+   "modern": "mkeudus",
+   "tier": "M"
   },
   "mkulae": {
    "modern": "mkray",
@@ -8107,6 +8134,10 @@
   },
   "mssnugul": {
    "modern": "mssnegul",
+   "tier": "M"
+  },
+  "msspong": {
+   "modern": "mspung",
    "tier": "M"
   },
   "mst'long": {
@@ -11726,8 +11757,8 @@
    "tier": "B"
   },
   "pxlnasan": {
-   "modern": "phlnasan",
-   "tier": "T"
+   "modern": "phrnasan",
+   "tier": "M"
   },
   "pxlnasi": {
    "modern": "phrnasi",
@@ -17505,10 +17536,6 @@
    "modern": "iisu",
    "tier": "P"
   },
-  "iita": {
-   "modern": "iita",
-   "tier": "P"
-  },
   "ityex": {
    "modern": "icih",
    "tier": "P"
@@ -17773,10 +17800,6 @@
    "modern": "knsqaan",
    "tier": "P"
   },
-  "knstmaan": {
-   "modern": "knstmaan",
-   "tier": "P"
-  },
   "knsxeaan": {
    "modern": "knshiyaan",
    "tier": "P"
@@ -17828,10 +17851,6 @@
   },
   "kpspusu": {
    "modern": "kpspusu",
-   "tier": "P"
-  },
-  "kptoxan": {
-   "modern": "kptuhan",
    "tier": "P"
   },
   "kqalox": {
@@ -19668,10 +19687,6 @@
   },
   "msska": {
    "modern": "msska",
-   "tier": "P"
-  },
-  "msspong": {
-   "modern": "msspung",
    "tier": "P"
   },
   "msst'long": {
@@ -22955,10 +22970,6 @@
    "modern": "gnwit",
    "tier": "R"
   },
-  "iing": {
-   "modern": "iing",
-   "tier": "R"
-  },
   "imai": {
    "modern": "imai",
    "tier": "R"
@@ -23473,11 +23484,6 @@
    "modern": "mici",
    "tier": "R"
   },
-  "mk'udus": {
-   "modern": "mkudus",
-   "tier": "R",
-   "elision_dropped": "mk'udus"
-  },
   "mkatan": {
    "modern": "mkatan",
    "tier": "R"
@@ -23504,10 +23510,6 @@
   },
   "mksiyuk": {
    "modern": "mksiyuk",
-   "tier": "R"
-  },
-  "mkudus": {
-   "modern": "mkudus",
    "tier": "R"
   },
   "mlnglong": {
@@ -27467,12 +27469,6 @@
    "tier": "E",
    "e_stem": "kgoxan",
    "e_modern": "kguhan"
-  },
-  "knptoxan": {
-   "modern": "knptuhan",
-   "tier": "E",
-   "e_stem": "kptoxan",
-   "e_modern": "kptuhan"
   },
   "knsdlaan": {
    "modern": "knsdraan",
