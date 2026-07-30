@@ -2875,6 +2875,10 @@
    "modern": "grigun",
    "tier": "M"
   },
+  "glixo": {
+   "modern": "glihug",
+   "tier": "M"
+  },
   "glngani": {
    "modern": "grngani",
    "tier": "M"
@@ -2977,6 +2981,10 @@
   },
   "gmlaqa": {
    "modern": "gmraka",
+   "tier": "M"
+  },
+  "gmlixo": {
+   "modern": "gmlihug",
    "tier": "M"
   },
   "gmnalyeq": {
@@ -3841,6 +3849,14 @@
    "modern": "klwaun",
    "tier": "B"
   },
+  "klwaxan": {
+   "modern": "krwahan",
+   "tier": "M"
+  },
+  "klwaxe": {
+   "modern": "krwahi",
+   "tier": "M"
+  },
   "klwaxon": {
    "modern": "krwahun",
    "tier": "B"
@@ -3896,6 +3912,10 @@
   "kman": {
    "modern": "kman",
    "tier": "id"
+  },
+  "kmbibil": {
+   "modern": "kmblbil",
+   "tier": "M"
   },
   "kmbiyax": {
    "modern": "kmbiyax",
@@ -5153,8 +5173,8 @@
    "tier": "M"
   },
   "l'pun": {
-   "modern": "rpun",
-   "tier": "B"
+   "modern": "lpun",
+   "tier": "M"
   },
   "l'qnux": {
    "modern": "rqnux",
@@ -7604,6 +7624,10 @@
    "modern": "mmha",
    "tier": "B"
   },
+  "mn'gui": {
+   "modern": "gmneeguy",
+   "tier": "M"
+  },
   "mn'lux": {
    "modern": "mnlux",
    "tier": "id",
@@ -8150,6 +8174,10 @@
    "tier": "W",
    "w_was": "mpngpung",
    "w_how": "class"
+  },
+  "mpnyeqon": {
+   "modern": "empniqun",
+   "tier": "M"
   },
   "mpotong": {
    "modern": "emputung",
@@ -10091,6 +10119,10 @@
    "modern": "prpaw",
    "tier": "B"
   },
+  "p'lu": {
+   "modern": "peelug",
+   "tier": "M"
+  },
   "p'lut": {
    "modern": "prut",
    "tier": "A"
@@ -10576,6 +10608,14 @@
    "modern": "pgriqun",
    "tier": "B"
   },
+  "pglixo": {
+   "modern": "pglihug",
+   "tier": "M"
+  },
+  "pglxgun": {
+   "modern": "pglhgun",
+   "tier": "M"
+  },
   "pgsaan": {
    "modern": "pgsaan",
    "tier": "id"
@@ -10772,6 +10812,18 @@
   "pklawa": {
    "modern": "pklawa",
    "tier": "id"
+  },
+  "pklay": {
+   "modern": "pkray",
+   "tier": "M"
+  },
+  "pklayan": {
+   "modern": "pkrayan",
+   "tier": "M"
+  },
+  "pklayun": {
+   "modern": "pkrayun",
+   "tier": "M"
   },
   "pklbiyan": {
    "modern": "pklbiyan",
@@ -11170,6 +11222,14 @@
    "modern": "plwaun",
    "tier": "B"
   },
+  "plx'gun": {
+   "modern": "plhgun",
+   "tier": "M"
+  },
+  "plxgun": {
+   "modern": "plhgun",
+   "tier": "M"
+  },
   "plxlaxan": {
    "modern": "plhlahan",
    "tier": "M"
@@ -11341,6 +11401,10 @@
   },
   "pnmaxal": {
    "modern": "pnemaxal",
+   "tier": "M"
+  },
+  "pnmaxan": {
+   "modern": "pnmaxan",
    "tier": "M"
   },
   "pnmngali": {
@@ -15259,6 +15323,10 @@
    "modern": "snrima",
    "tier": "T"
   },
+  "snlluwan": {
+   "modern": "sneelugan",
+   "tier": "M"
+  },
   "snloa": {
    "modern": "snruwa",
    "tier": "B"
@@ -15677,6 +15745,18 @@
   "sqapax": {
    "modern": "sqapah",
    "tier": "B"
+  },
+  "sqdgan": {
+   "modern": "sqdugan",
+   "tier": "M"
+  },
+  "sqdgi": {
+   "modern": "sqdugi",
+   "tier": "M"
+  },
+  "sqdgun": {
+   "modern": "sqdugun",
+   "tier": "M"
   },
   "sqdo": {
    "modern": "sqdug",
@@ -24285,10 +24365,6 @@
    "modern": "krikit",
    "tier": "R"
   },
-  "klwaxan": {
-   "modern": "klwaxan",
-   "tier": "R"
-  },
   "kmbkiyan": {
    "modern": "kmbkiyan",
    "tier": "R"
@@ -26686,10 +26762,6 @@
   },
   "pkblangun": {
    "modern": "pkblangun",
-   "tier": "KL"
-  },
-  "pklayan": {
-   "modern": "pklayan",
    "tier": "KL"
   },
   "pngalun": {
@@ -29867,13 +29939,6 @@
    []
   ],
   [
-   "p'lu",
-   4,
-   [
-    "正當之時同時同時地"
-   ]
-  ],
-  [
    "tbilan",
    4,
    []
@@ -29903,11 +29968,6 @@
    [
     "將化為塵土"
    ]
-  ],
-  [
-   "mpnyeqon",
-   3,
-   []
   ],
   [
    "mskoto",
@@ -29962,21 +30022,11 @@
    ]
   ],
   [
-   "snlluwan",
-   3,
-   []
-  ],
-  [
    "sq'tqot",
    3,
    [
     "用來捆綁鏈條繩索束縛"
    ]
-  ],
-  [
-   "sqdgun",
-   3,
-   []
   ],
   [
    "swatan",
@@ -30061,13 +30111,6 @@
    ]
   ],
   [
-   "gmlixo",
-   2,
-   [
-    "同上之動詞形"
-   ]
-  ],
-  [
    "kakox",
    2,
    [
@@ -30080,16 +30123,6 @@
    [
     "鰥夫寡婦"
    ]
-  ],
-  [
-   "klwaxe",
-   2,
-   []
-  ],
-  [
-   "kmbibil",
-   2,
-   []
   ],
   [
    "kmubui",
@@ -30145,11 +30178,6 @@
   ],
   [
    "mkbaxang",
-   2,
-   []
-  ],
-  [
-   "mn'gui",
    2,
    []
   ],
@@ -30220,11 +30248,6 @@
    ]
   ],
   [
-   "pklayun",
-   2,
-   []
-  ],
-  [
    "pkploon",
    2,
    []
@@ -30238,11 +30261,6 @@
   ],
   [
    "pllgun",
-   2,
-   []
-  ],
-  [
-   "plx'gun",
    2,
    []
   ],
@@ -30776,13 +30794,6 @@
    "glaqon",
    1,
    []
-  ],
-  [
-   "glixo",
-   1,
-   [
-    "穿透刺穿"
-   ]
   ],
   [
    "gm'laq",
@@ -31447,24 +31458,7 @@
    []
   ],
   [
-   "pglixo",
-   1,
-   [
-    "使被刺穿使自己被刺穿"
-   ]
-  ],
-  [
-   "pglxgun",
-   1,
-   []
-  ],
-  [
    "pk'kax",
-   1,
-   []
-  ],
-  [
-   "pklay",
    1,
    []
   ],
@@ -31499,11 +31493,6 @@
    []
   ],
   [
-   "plxgun",
-   1,
-   []
-  ],
-  [
    "plyuxai",
    1,
    []
@@ -31529,11 +31518,6 @@
   ],
   [
    "pnlngut",
-   1,
-   []
-  ],
-  [
-   "pnmaxan",
    1,
    []
   ],
@@ -31956,16 +31940,6 @@
    []
   ],
   [
-   "sqdgan",
-   1,
-   []
-  ],
-  [
-   "sqdgi",
-   1,
-   []
-  ],
-  [
    "sqoaqe",
    1,
    []
@@ -32048,6 +32022,112 @@
   ],
   [
    "tkui",
+   1,
+   []
+  ],
+  [
+   "tlap",
+   1,
+   []
+  ],
+  [
+   "tlawa",
+   1,
+   [
+    "深水藍色的註此詞原本的意思無疑是指水呈藍色的深水處並引申指這種藍色本身"
+   ]
+  ],
+  [
+   "tloon",
+   1,
+   []
+  ],
+  [
+   "tlqelan",
+   1,
+   [
+    "彼此殘酷相待互相造成的痛苦註始終指所承受的痛苦"
+   ]
+  ],
+  [
+   "tmago",
+   1,
+   [
+    "自負的驕傲的高傲的傲慢的"
+   ]
+  ],
+  [
+   "tmoxong",
+   1,
+   [
+    "發芽長滿花苞"
+   ]
+  ],
+  [
+   "tn",
+   1,
+   [
+    "複合前綴表示已完成的動作既成的事實或表過去表示與其所作用之詞的認同歸屬"
+   ]
+  ],
+  [
+   "tnai",
+   1,
+   []
+  ],
+  [
+   "tnbl'xan",
+   1,
+   [
+    "全新的剛出現的長子剛出生的"
+   ]
+  ],
+  [
+   "tnoxol",
+   1,
+   [
+    "在好天氣期間突然發生的猛烈暴風雨"
+   ]
+  ],
+  [
+   "tnqoli",
+   1,
+   []
+  ],
+  [
+   "tntana",
+   1,
+   []
+  ],
+  [
+   "tnxeyax",
+   1,
+   []
+  ],
+  [
+   "tqlyaan",
+   1,
+   []
+  ],
+  [
+   "tqq'lang",
+   1,
+   [
+    "渾身顫抖不已的"
+   ]
+  ],
+  [
+   "tqwini",
+   1,
+   []
+  ],
+  [
+   "tsdanat",
+   1,
+   []
+  ],
+  [
+   "tsgsutun",
    1,
    []
   ]
