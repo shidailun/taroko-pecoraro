@@ -1963,11 +1963,15 @@
   },
   "dian": {
    "modern": "jiyan",
-   "tier": "B"
+   "tier": "M"
   },
   "didil": {
    "modern": "jijil",
    "tier": "A"
+  },
+  "dii": {
+   "modern": "jiyi",
+   "tier": "M"
   },
   "dilas": {
    "modern": "jiras",
@@ -1987,11 +1991,11 @@
   },
   "diun": {
    "modern": "jiyun",
-   "tier": "B"
+   "tier": "M"
   },
   "diyan": {
    "modern": "jiyan",
-   "tier": "A"
+   "tier": "M"
   },
   "diyax": {
    "modern": "jiyax",
@@ -1999,7 +2003,7 @@
   },
   "diyun": {
    "modern": "jiyun",
-   "tier": "B"
+   "tier": "M"
   },
   "diyán": {
    "modern": "jiyan",
@@ -2352,6 +2356,10 @@
   "däxa": {
    "modern": "daxa",
    "tier": "id"
+  },
+  "eq": {
+   "modern": "iq",
+   "tier": "M"
   },
   "esuan": {
    "modern": "esuan",
@@ -4679,6 +4687,10 @@
   "lading": {
    "modern": "rajing",
    "tier": "B"
+  },
+  "lae": {
+   "modern": "ray",
+   "tier": "M"
   },
   "lago": {
    "modern": "ragu",
@@ -8977,9 +8989,21 @@
    "modern": "pdngdang",
    "tier": "L"
   },
+  "pdian": {
+   "modern": "pjiyan",
+   "tier": "M"
+  },
   "pdidil": {
    "modern": "pjijil",
    "tier": "B"
+  },
+  "pdii": {
+   "modern": "pjiyi",
+   "tier": "M"
+  },
+  "pdiun": {
+   "modern": "pjiyun",
+   "tier": "M"
   },
   "pdka": {
    "modern": "pdka",
@@ -11613,6 +11637,10 @@
    "modern": "shmuk",
    "tier": "B"
   },
+  "s'yex": {
+   "modern": "seiyax",
+   "tier": "M"
+  },
   "sa": {
    "modern": "sa",
    "tier": "id"
@@ -11937,7 +11965,7 @@
   },
   "sdian": {
    "modern": "sjiyan",
-   "tier": "B"
+   "tier": "M"
   },
   "sdiyan": {
    "modern": "sjiyan",
@@ -13786,8 +13814,8 @@
    "tier": "id"
   },
   "taiwan": {
-   "modern": "taiwan",
-   "tier": "id"
+   "modern": "taywan",
+   "tier": "M"
   },
   "take": {
    "modern": "taki",
@@ -13884,6 +13912,10 @@
   "tatat": {
    "modern": "tatat",
    "tier": "id"
+  },
+  "tato": {
+   "modern": "tatu",
+   "tier": "M"
   },
   "tatok": {
    "modern": "tatuk",
@@ -14887,6 +14919,10 @@
    "modern": "truku",
    "tier": "B"
   },
+  "ts'yex": {
+   "modern": "seiyax",
+   "tier": "M"
+  },
   "tsasao": {
    "modern": "tsasaw",
    "tier": "B"
@@ -15306,6 +15342,10 @@
   "xakao": {
    "modern": "hakaw",
    "tier": "A"
+  },
+  "xal": {
+   "modern": "xal",
+   "tier": "M"
   },
   "xali": {
    "modern": "hari",
@@ -18232,6 +18272,10 @@
    "modern": "mtquli",
    "tier": "P"
   },
+  "mts'yex": {
+   "modern": "mseiyax",
+   "tier": "P"
+  },
   "mttama": {
    "modern": "mttama",
    "tier": "P"
@@ -18501,14 +18545,6 @@
   },
   "pddili": {
    "modern": "pjjili",
-   "tier": "P"
-  },
-  "pdian": {
-   "modern": "pjiyan",
-   "tier": "P"
-  },
-  "pdiun": {
-   "modern": "pjiyun",
    "tier": "P"
   },
   "pdkai": {
@@ -24693,6 +24729,10 @@
    "modern": "diku",
    "tier": "N"
   },
+  "dloan": {
+   "modern": "dluan",
+   "tier": "N"
+  },
   "eco": {
    "modern": "ecu",
    "tier": "N"
@@ -24864,6 +24904,10 @@
   },
   "talan": {
    "modern": "talan",
+   "tier": "N"
+  },
+  "taolan": {
+   "modern": "taulan",
    "tier": "N"
   },
   "taosen": {
@@ -27007,6 +27051,11 @@
    "tier": "V",
    "v_twin": "sdyaqon"
   },
+  "ta'to": {
+   "modern": "tatu",
+   "tier": "V",
+   "v_twin": "tato"
+  },
   "xm'qli": {
    "modern": "hmqli",
    "tier": "V",
@@ -27505,11 +27554,6 @@
    []
   ],
   [
-   "dloan",
-   7,
-   []
-  ],
-  [
    "klulu",
    7,
    [
@@ -27526,20 +27570,6 @@
    6,
    [
     "肖像雕像圖像偶像"
-   ]
-  ],
-  [
-   "ts'yex",
-   6,
-   [
-    "開玩笑地不當真戲謔"
-   ]
-  ],
-  [
-   "xal",
-   6,
-   [
-    "從未見過此簡單形式看來確實是以下所有詞的詞根一起一次"
    ]
   ],
   [
@@ -27560,13 +27590,6 @@
    "d'ua",
    5,
    []
-  ],
-  [
-   "eq",
-   5,
-   [
-    "是尤用於回應命令或囑咐若是對一項陳述表示同意是則說正是如此是真的確實是真的那確實是真的"
-   ]
   ],
   [
    "kliban",
@@ -27593,13 +27616,6 @@
    "la",
    5,
    []
-  ],
-  [
-   "lae",
-   5,
-   [
-    "婚禮婚宴"
-   ]
   ],
   [
    "lex",
@@ -27647,25 +27663,8 @@
    ]
   ],
   [
-   "taolan",
-   5,
-   []
-  ],
-  [
-   "tato",
-   5,
-   [
-    "切成小塊切割"
-   ]
-  ],
-  [
    "tla'to",
    5,
-   []
-  ],
-  [
-   "dii",
-   4,
    []
   ],
   [
@@ -27770,13 +27769,6 @@
    4,
    [
     "更正確的寫法參見切割"
-   ]
-  ],
-  [
-   "ta'to",
-   4,
-   [
-    "切成小塊切割"
    ]
   ],
   [
@@ -28076,11 +28068,6 @@
    [
     "存在是有你有牙齒你的牙齒存在的地方"
    ]
-  ],
-  [
-   "pdii",
-   3,
-   []
   ],
   [
    "pklilu",
@@ -28977,13 +28964,6 @@
    2,
    [
     "正在發芽的長滿花苞的"
-   ]
-  ],
-  [
-   "mts'yex",
-   2,
-   [
-    "愛開玩笑的人喜歡開玩笑的人輕浮隨便的"
    ]
   ],
   [
@@ -29969,6 +29949,61 @@
   ],
   [
    "dldi",
+   1,
+   []
+  ],
+  [
+   "dlnai",
+   1,
+   []
+  ],
+  [
+   "dmbasyaq",
+   1,
+   []
+  ],
+  [
+   "dmkblenux",
+   1,
+   []
+  ],
+  [
+   "dmnsuwai",
+   1,
+   []
+  ],
+  [
+   "dmpwa'la",
+   1,
+   []
+  ],
+  [
+   "dmsnxei",
+   1,
+   []
+  ],
+  [
+   "dmt'basyaq",
+   1,
+   []
+  ],
+  [
+   "dmtabu",
+   1,
+   []
+  ],
+  [
+   "dmtgisa",
+   1,
+   []
+  ],
+  [
+   "dnq'pax",
+   1,
+   []
+  ],
+  [
+   "dnqpax",
    1,
    []
   ]

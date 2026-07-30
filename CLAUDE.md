@@ -122,7 +122,12 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (333) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (349) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+  A key here is inert if the token is in `OVERRIDE_KEYS`, because the generator
+  skips those (app.js resolves them first, in `WORD_OVERRIDES`) — six `dui`-family
+  entries were written and silently ignored before that was noticed. `WORD_OVERRIDES`
+  is invisible to the generated map, so the map is never evidence about colour;
+  only the DOM is.
 - **L** (251) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
@@ -194,13 +199,25 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   KL guard, and a hit that flips an l is refused when the keep-l reading of the
   root is itself a modern word: `mk'alang` matched `karang` 蟹 in speech, but his
   word is built on `alang` 部落. Log: `tier_s_log.txt`.
-- **N** (74) — proper names. "Sapah Sibar u…" — Sibal is a man, and the blind rule
+- **N** (75) — proper names. "Sapah Sibar u…" — Sibal is a man, and the blind rule
   renamed him. Nothing attests a name and no tier above reaches it, so it falls to
   the char rules, the one population where they are guaranteed to be guessing.
   Test: capitalized mid-sentence in one of his own examples (only a proper noun
-  is) AND never written lowercase anywhere in the book. Those keep their l; o→u,
-  x→h and final -ai/-ao still apply, so `Pisao`→Pisaw, `Labai`→Labay, `Sibal`
-  stays Sibal. Log: `tier_n_log.txt`. Names are never allowed to seed tier G.
+  is) AND lowercase nowhere near often enough to be the real reading. Those keep
+  their l; o→u, x→h and final -ai/-ao still apply, so `Pisao`→Pisaw,
+  `Labai`→Labay, `Sibal` stays Sibal. Log: `tier_n_log.txt`. Names are never
+  allowed to seed tier G.
+
+  The lowercase half of that test used to be absolute, and one keystroke could
+  defeat it: Wilang is `Wilang` nine times mid-sentence and `WILANG` once as a
+  headword, and `wilang` exactly once — and that single slip vetoed the man. The
+  veto now needs the lowercase reading to be more than a slip: mid-sentence
+  capitals must still be ≥60% of every occurrence. Measured, that admits five
+  tokens and all five are proper nouns — Wilang and Dloan (men), Taolan (a
+  neighbour), Tagaxan (a place) and Taiwan. Dropping the 60% and asking only
+  that capitals outnumber lowercase admits 142, led by `ini`, `ana`, `adi` and
+  `malu`, which are capitalized because they begin his sentences; that gate is
+  worthless, and the measurement is the only thing that separates the two.
 - **G** (31) — root projection ACROSS entries. Tier E only sees the entry a token
   stands in, and words don't respect that boundary: `mptgamil` occurs once, in a
   sentence under GABAL 拔, so nothing in its own entry could say that GAMIL 根 is

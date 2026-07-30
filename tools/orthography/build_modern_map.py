@@ -1030,7 +1030,18 @@ def main():
     for t in sorted(midcap):
         if t in result or t in OVERRIDE_KEYS or len(norm(t)) < 3:
             continue
-        if any(s[:1].islower() for s in cased.get(t, {})):
+        # "Never lowercase anywhere" is one stray keystroke away from failing.
+        # Wilang is Wilang 9 times mid-sentence and WILANG once as a headword,
+        # and wilang exactly once — and that one slip vetoed the man. So the
+        # veto now needs the lowercase reading to be more than a slip: mid-
+        # sentence capitals must still be at least 60% of every occurrence.
+        # Measured: this admits 5 tokens and all 5 are proper nouns — Wilang and
+        # Dloan (men), Taolan (a neighbour), Tagaxan (a place he climbs to) and
+        # Taiwan. Dropping the 60% and asking only that capitals outnumber
+        # lowercase admits 142, led by ini, ana, adi and malu, which are
+        # capitalized because they start his sentences; that gate is useless.
+        low = sum(v for s, v in cased.get(t, {}).items() if s[:1].islower())
+        if low and midcap[t] < 0.6 * tokens[t]:
             continue
         m = keep_l(plain(t))
         for src, dst in S_END[:3]:

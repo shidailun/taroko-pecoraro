@@ -3,12 +3,14 @@ sibal            sibal            midcap=9    occ=11
 liwis            liwis            midcap=8    occ=9
 mikat            mikat            midcap=8    occ=9
 ingai            ingay            midcap=6    occ=8
+dloan            dluan            midcap=6    occ=7
 laoken           lauken           midcap=4    occ=5
 lobyaq           lubyaq           midcap=3    occ=5
 morisaka         murisaka         midcap=5    occ=5
 sikat            sikat            midcap=4    occ=5
 tain             tain             midcap=4    occ=5
 talan            talan            midcap=4    occ=5
+taolan           taulan           midcap=3    occ=5
 akit             akit             midcap=3    occ=4
 imin             imin             midcap=3    occ=4
 mpa              mpa              midcap=1    occ=4
