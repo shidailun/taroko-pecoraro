@@ -4005,11 +4005,11 @@
    "elision_dropped": "knk'la"
   },
   "knkax": {
-   "modern": "knqlqah",
+   "modern": "qnlqah",
    "tier": "M"
   },
   "knkaxan": {
-   "modern": "knqlqahan",
+   "modern": "qnlqahan",
    "tier": "M"
   },
   "knkingal": {
@@ -4116,16 +4116,32 @@
    "modern": "knpraan",
    "tier": "B"
   },
+  "knq'mi": {
+   "modern": "qnumi",
+   "tier": "M"
+  },
+  "knqalas": {
+   "modern": "qnaras",
+   "tier": "M"
+  },
+  "knqalasan": {
+   "modern": "qnarasan",
+   "tier": "M"
+  },
+  "knqalox": {
+   "modern": "qngqalux",
+   "tier": "M"
+  },
   "knqan": {
    "modern": "qnqan",
    "tier": "L"
   },
   "knqdlyeqan": {
-   "modern": "knqdriqan",
-   "tier": "T"
+   "modern": "qndriqan",
+   "tier": "M"
   },
   "knqdolyaq": {
-   "modern": "knqduriq",
+   "modern": "qnduriq",
    "tier": "M"
   },
   "knqexan": {
@@ -4136,8 +4152,20 @@
    "modern": "qnqrinut",
    "tier": "L"
   },
+  "knqmi": {
+   "modern": "qnumi",
+   "tier": "M"
+  },
+  "knqnqoan": {
+   "modern": "qnquan",
+   "tier": "M"
+  },
   "knqt'lan": {
-   "modern": "knqthuran",
+   "modern": "qnthuran",
+   "tier": "M"
+  },
+  "knqudi": {
+   "modern": "qnuji",
    "tier": "M"
   },
   "kns'lan": {
@@ -17568,23 +17596,6 @@
    "modern": "knpsais",
    "tier": "P"
   },
-  "knq'mi": {
-   "modern": "knqmi",
-   "tier": "P",
-   "elision_dropped": "knq'mi"
-  },
-  "knqalas": {
-   "modern": "knqaras",
-   "tier": "P"
-  },
-  "knqalox": {
-   "modern": "knqalux",
-   "tier": "P"
-  },
-  "knqnqoan": {
-   "modern": "knqnquan",
-   "tier": "P"
-  },
   "knsa'so": {
    "modern": "knsaso",
    "tier": "P",
@@ -23110,18 +23121,6 @@
   },
   "knpsploq": {
    "modern": "knpspruq",
-   "tier": "R"
-  },
-  "knqalasan": {
-   "modern": "knqarasan",
-   "tier": "R"
-  },
-  "knqmi": {
-   "modern": "knqmi",
-   "tier": "R"
-  },
-  "knqudi": {
-   "modern": "knquji",
    "tier": "R"
   },
   "kns'gan": {
