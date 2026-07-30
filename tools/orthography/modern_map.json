@@ -3685,6 +3685,14 @@
    "modern": "qrhqan",
    "tier": "L"
   },
+  "kl'xqe": {
+   "modern": "qrhqi",
+   "tier": "M"
+  },
+  "kl'xqon": {
+   "modern": "qrhqun",
+   "tier": "M"
+  },
   "klaan": {
    "modern": "klaan",
    "tier": "id"
@@ -4513,6 +4521,10 @@
   },
   "knstmaan": {
    "modern": "kntmaan",
+   "tier": "M"
+  },
+  "knsttuan": {
+   "modern": "knsttuan",
    "tier": "M"
   },
   "knsuyang": {
@@ -6219,6 +6231,10 @@
   },
   "lutyaq": {
    "modern": "ruciq",
+   "tier": "M"
+  },
+  "luuda": {
+   "modern": "rudan",
    "tier": "M"
   },
   "luul": {
@@ -8108,6 +8124,10 @@
    "tier": "W",
    "w_was": "mpkhada",
    "w_how": "twin"
+  },
+  "mpkxoai": {
+   "modern": "empkhuway",
+   "tier": "M"
   },
   "mplalae": {
    "modern": "emplealay",
@@ -10316,6 +10336,10 @@
    "modern": "pbrihi",
    "tier": "M"
   },
+  "pblnaxon": {
+   "modern": "pbrnahun",
+   "tier": "M"
+  },
   "pboai": {
    "modern": "pboai",
    "tier": "M"
@@ -10896,6 +10920,10 @@
   "pkxoai": {
    "modern": "pkhuway",
    "tier": "A"
+  },
+  "pkxoayun": {
+   "modern": "pkhuwayun",
+   "tier": "M"
   },
   "pkxolyaq": {
    "modern": "pkhuriq",
@@ -13162,6 +13190,14 @@
    "modern": "qrhqan",
    "tier": "B"
   },
+  "ql'xqe": {
+   "modern": "qrhqi",
+   "tier": "M"
+  },
+  "ql'xqon": {
+   "modern": "qrhqun",
+   "tier": "M"
+  },
   "qlaao": {
    "modern": "kraaw",
    "tier": "L"
@@ -13887,6 +13923,10 @@
    "modern": "sbiyaw",
    "tier": "A"
   },
+  "sbiyaq": {
+   "modern": "sbiyaw",
+   "tier": "M"
+  },
   "sbiyoq": {
    "modern": "sbiyuq",
    "tier": "M"
@@ -13906,6 +13946,10 @@
   "sblex": {
    "modern": "sbrih",
    "tier": "B"
+  },
+  "sblnaxe": {
+   "modern": "sbrnahi",
+   "tier": "M"
   },
   "sbloa": {
    "modern": "sbruwa",
@@ -14088,6 +14132,14 @@
   "sgxoai": {
    "modern": "sghuway",
    "tier": "A"
+  },
+  "sgxway": {
+   "modern": "sghway",
+   "tier": "M"
+  },
+  "sgxwayan": {
+   "modern": "sghwayan",
+   "tier": "M"
   },
   "sgxwayun": {
    "modern": "sghwayun",
@@ -15490,6 +15542,10 @@
    "modern": "spriq",
    "tier": "B"
   },
+  "sploan": {
+   "modern": "spruan",
+   "tier": "M"
+  },
   "sploi": {
    "modern": "sprui",
    "tier": "B"
@@ -15867,6 +15923,14 @@
   "stqlal": {
    "modern": "stqral",
    "tier": "B"
+  },
+  "sttui": {
+   "modern": "sttui",
+   "tier": "M"
+  },
+  "sttuun": {
+   "modern": "sttuun",
+   "tier": "M"
   },
   "stukwi": {
    "modern": "stukuy",
@@ -29834,11 +29898,6 @@
    []
   ],
   [
-   "kl'xqon",
-   3,
-   []
-  ],
-  [
    "mpn'mu",
    3,
    [
@@ -30154,11 +30213,6 @@
    ]
   ],
   [
-   "pblnaxon",
-   2,
-   []
-  ],
-  [
    "pisux",
    2,
    [
@@ -30257,17 +30311,7 @@
    ]
   ],
   [
-   "sblnaxe",
-   2,
-   []
-  ],
-  [
    "serait",
-   2,
-   []
-  ],
-  [
-   "sgxwayan",
    2,
    []
   ],
@@ -30348,11 +30392,6 @@
    [
     "使變小縮小為使其變小減少數量"
    ]
-  ],
-  [
-   "sttuun",
-   2,
-   []
   ],
   [
    "syuling",
@@ -30854,11 +30893,6 @@
    []
   ],
   [
-   "kl'xqe",
-   1,
-   []
-  ],
-  [
    "klikut",
    1,
    []
@@ -30928,11 +30962,6 @@
   ],
   [
    "knqogo",
-   1,
-   []
-  ],
-  [
-   "knsttuan",
    1,
    []
   ],
@@ -31024,11 +31053,6 @@
   ],
   [
    "lnnngat",
-   1,
-   []
-  ],
-  [
-   "luuda",
    1,
    []
   ],
@@ -31181,11 +31205,6 @@
   ],
   [
    "mpkatai",
-   1,
-   []
-  ],
-  [
-   "mpkxoai",
    1,
    []
   ],
@@ -31456,11 +31475,6 @@
   ],
   [
    "pkploan",
-   1,
-   []
-  ],
-  [
-   "pkxoayun",
    1,
    []
   ],
@@ -31744,16 +31758,6 @@
    ]
   ],
   [
-   "ql'xqe",
-   1,
-   []
-  ],
-  [
-   "ql'xqon",
-   1,
-   []
-  ],
-  [
    "qnao",
    1,
    [
@@ -31805,21 +31809,11 @@
    []
   ],
   [
-   "sbiyaq",
-   1,
-   []
-  ],
-  [
    "sdongan",
    1,
    [
     "架子"
    ]
-  ],
-  [
-   "sgxway",
-   1,
-   []
   ],
   [
    "sia",
@@ -31952,11 +31946,6 @@
    []
   ],
   [
-   "sploan",
-   1,
-   []
-  ],
-  [
    "spsqlinut",
    1,
    []
@@ -31978,6 +31967,87 @@
   ],
   [
    "sqoaqe",
+   1,
+   []
+  ],
+  [
+   "sqti",
+   1,
+   []
+  ],
+  [
+   "ssiban",
+   1,
+   [
+    "吸吮舔食此動作的對象其進行的地點時間方式"
+   ]
+  ],
+  [
+   "stpyeqon",
+   1,
+   []
+  ],
+  [
+   "suite",
+   1,
+   []
+  ],
+  [
+   "suwai",
+   1,
+   []
+  ],
+  [
+   "sy",
+   1,
+   []
+  ],
+  [
+   "t'lap",
+   1,
+   []
+  ],
+  [
+   "tabe",
+   1,
+   [
+    "犁同義詞註一種非常簡單的工具用一根木樁製成如今裝上鐵頭以度角插在一根比水牛還長的木頭上由人拉動"
+   ]
+  ],
+  [
+   "tatwi",
+   1,
+   [
+    "作比喻舉例"
+   ]
+  ],
+  [
+   "tbii",
+   1,
+   []
+  ],
+  [
+   "tbiun",
+   1,
+   []
+  ],
+  [
+   "tblae",
+   1,
+   []
+  ],
+  [
+   "tinalu",
+   1,
+   []
+  ],
+  [
+   "tityeq",
+   1,
+   []
+  ],
+  [
+   "tkui",
    1,
    []
   ]
