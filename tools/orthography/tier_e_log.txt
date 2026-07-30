@@ -90,7 +90,7 @@ pklagun          pkragun          klagun         kragun         derived
 pkoxun           pkuxun           pkox           pkux           derived
 pktltoon         pktleetuun       tlto           tleetu         derived
 pl'xlaxe         plhlahi          plxlaxe        plhlahi        derived
-pllawax          plrawah          llawax         lrawah         derived
+pllawax          prrawah          llawax         rrawah         derived
 plmuxun          prmuxun          lmuxun         rmuxun         derived
 pnbl'xo          pnbrhug          blxo           brhug          attested
 pngkari          pngkari          pgkari         pgkari         derived

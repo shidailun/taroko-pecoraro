@@ -1140,8 +1140,8 @@
    "tier": "id"
   },
   "bilat": {
-   "modern": "bilat",
-   "tier": "id"
+   "modern": "birat",
+   "tier": "M"
   },
   "biling": {
    "modern": "bling",
@@ -3117,8 +3117,8 @@
    "tier": "B"
   },
   "kalat": {
-   "modern": "kalat",
-   "tier": "id"
+   "modern": "karat",
+   "tier": "M"
   },
   "kalo": {
    "modern": "kalu",
@@ -4841,8 +4841,8 @@
    "tier": "id"
   },
   "lawax": {
-   "modern": "lawax",
-   "tier": "id"
+   "modern": "rawah",
+   "tier": "M"
   },
   "laweq": {
    "modern": "rawiq",
@@ -4895,8 +4895,8 @@
    "tier": "B"
   },
   "lbagan": {
-   "modern": "lbagan",
-   "tier": "id"
+   "modern": "rbagan",
+   "tier": "M"
   },
   "lbangan": {
    "modern": "rbangan",
@@ -5140,8 +5140,8 @@
    "tier": "B"
   },
   "llawax": {
-   "modern": "lrawah",
-   "tier": "T"
+   "modern": "rrawah",
+   "tier": "M"
   },
   "llexan": {
    "modern": "rrihan",
@@ -6475,6 +6475,10 @@
    "modern": "mqlahang",
    "tier": "L"
   },
+  "mklbagan": {
+   "modern": "mkrbagan",
+   "tier": "M"
+  },
   "mklbuk": {
    "modern": "mkrbuk",
    "tier": "B"
@@ -7108,6 +7112,10 @@
    "modern": "moxoi",
    "tier": "M"
   },
+  "mp'iyax": {
+   "modern": "mpiyah",
+   "tier": "M"
+  },
   "mp'otoç": {
    "modern": "mputuh",
    "tier": "B"
@@ -7175,6 +7183,10 @@
   "mptksoloç": {
    "modern": "mptqsurux",
    "tier": "T"
+  },
+  "mptlawax": {
+   "modern": "mptrawah",
+   "tier": "M"
   },
   "mpusal": {
    "modern": "mpusal",
@@ -8590,6 +8602,14 @@
    "modern": "npaqan",
    "tier": "id"
   },
+  "npklbagan": {
+   "modern": "npkrbagan",
+   "tier": "M"
+  },
+  "nplbagan": {
+   "modern": "nprbagan",
+   "tier": "M"
+  },
   "nqan": {
    "modern": "nkan",
    "tier": "L"
@@ -8797,6 +8817,10 @@
   "p'do": {
    "modern": "pdu",
    "tier": "B"
+  },
+  "p'iyax": {
+   "modern": "piyah",
+   "tier": "M"
   },
   "p'lapa": {
    "modern": "prapa",
@@ -14667,6 +14691,10 @@
    "modern": "tlaway",
    "tier": "B"
   },
+  "tlawax": {
+   "modern": "trawah",
+   "tier": "M"
+  },
   "tlaxe": {
    "modern": "tlahi",
    "tier": "A"
@@ -17342,10 +17370,6 @@
    "modern": "mkrawah",
    "tier": "P"
   },
-  "mklbagan": {
-   "modern": "mklbagan",
-   "tier": "P"
-  },
   "mkleqo": {
    "modern": "mkriqu",
    "tier": "P"
@@ -17559,11 +17583,6 @@
   "mp'betak": {
    "modern": "mpbitaq",
    "tier": "P"
-  },
-  "mp'iyax": {
-   "modern": "mpiyax",
-   "tier": "P",
-   "elision_dropped": "mp'iyax"
   },
   "mp'ka'man": {
    "modern": "mpkeeman",
@@ -18154,10 +18173,6 @@
    "modern": "mpcikan",
    "tier": "P"
   },
-  "mptlawax": {
-   "modern": "mptlawax",
-   "tier": "P"
-  },
   "mptöting": {
    "modern": "mptucing",
    "tier": "P"
@@ -18667,14 +18682,6 @@
    "modern": "npax",
    "tier": "P"
   },
-  "npklbagan": {
-   "modern": "npklbagan",
-   "tier": "P"
-  },
-  "nplbagan": {
-   "modern": "nplbagan",
-   "tier": "P"
-  },
   "npslixao": {
    "modern": "npslihaw",
    "tier": "P"
@@ -18733,11 +18740,6 @@
    "modern": "payus",
    "tier": "P",
    "elision_dropped": "p'ayus"
-  },
-  "p'iyax": {
-   "modern": "piyax",
-   "tier": "P",
-   "elision_dropped": "p'iyax"
   },
   "p'silong": {
    "modern": "psilung",
@@ -21191,10 +21193,6 @@
   },
   "tlalae": {
    "modern": "tlalay",
-   "tier": "P"
-  },
-  "tlawax": {
-   "modern": "tlawax",
    "tier": "P"
   },
   "tlb'ngan": {
@@ -26581,10 +26579,10 @@
    "e_modern": "plhlahi"
   },
   "pllawax": {
-   "modern": "plrawah",
+   "modern": "prrawah",
    "tier": "E",
    "e_stem": "llawax",
-   "e_modern": "lrawah"
+   "e_modern": "rrawah"
   },
   "plmuxun": {
    "modern": "prmuxun",
