@@ -71,7 +71,6 @@ mtgtmaq          mtgtmaq          tgtmaq         tgtmaq         derived
 mtkk'lang        mtkkrang         tkklang        tkkrang        derived
 mtl'do           mtrdu            tldo           trdu           derived
 mtsdaxal         mtsdahar         tsdaxal        tsdahar        derived
-mtsgasut         mtsgasut         tsgasut        tsgasut        derived
 ndtlalae         ndtlalay         tlalae         tlalay         derived
 nlluan           nl'luan          llu            l'lu           derived
 pbyeqon          pbiqun           byeqon         biqun          derived

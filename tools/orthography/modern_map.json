@@ -1671,8 +1671,8 @@
    "tier": "A"
   },
   "d'ita": {
-   "modern": "jita",
-   "tier": "B"
+   "modern": "deita",
+   "tier": "M"
   },
   "d'lisao": {
    "modern": "drisaw",
@@ -1929,6 +1929,10 @@
    "modern": "djima",
    "tier": "A"
   },
+  "ddita": {
+   "modern": "ddeita",
+   "tier": "M"
+  },
   "ddiun": {
    "modern": "djiyun",
    "tier": "M"
@@ -2010,8 +2014,8 @@
    "tier": "B"
   },
   "dita": {
-   "modern": "jita",
-   "tier": "B"
+   "modern": "deita",
+   "tier": "M"
   },
   "diun": {
    "modern": "jiyun",
@@ -7897,6 +7901,10 @@
    "modern": "msdahar",
    "tier": "T"
   },
+  "msdita": {
+   "modern": "msdeita",
+   "tier": "M"
+  },
   "msdka": {
    "modern": "msdka",
    "tier": "id"
@@ -8383,6 +8391,10 @@
   "mtqéli": {
    "modern": "mtqiri",
    "tier": "B"
+  },
+  "mtsgasut": {
+   "modern": "mcsgasut",
+   "tier": "M"
   },
   "mttoko": {
    "modern": "mttuku",
@@ -12939,6 +12951,10 @@
    "modern": "sjiyan",
    "tier": "M"
   },
+  "sdita": {
+   "modern": "sdeita",
+   "tier": "M"
+  },
   "sdiyan": {
    "modern": "sjiyan",
    "tier": "B"
@@ -16127,6 +16143,10 @@
    "modern": "truku",
    "tier": "B"
   },
+  "ts'ngiya": {
+   "modern": "csngiya",
+   "tier": "M"
+  },
   "ts'yex": {
    "modern": "seiyax",
    "tier": "M"
@@ -16135,13 +16155,25 @@
    "modern": "tsasaw",
    "tier": "B"
   },
+  "tsdamat": {
+   "modern": "csdamat",
+   "tier": "M"
+  },
   "tsgasut": {
-   "modern": "tsgasut",
-   "tier": "id"
+   "modern": "csgasut",
+   "tier": "M"
+  },
+  "tsmanan": {
+   "modern": "csmanan",
+   "tier": "M"
   },
   "tssagan": {
    "modern": "tssagan",
    "tier": "id"
+  },
+  "tsulao": {
+   "modern": "csuraw",
+   "tier": "M"
   },
   "ttakol": {
    "modern": "ttakur",
@@ -17433,10 +17465,6 @@
   },
   "ddili": {
    "modern": "jjili",
-   "tier": "P"
-  },
-  "ddita": {
-   "modern": "djita",
    "tier": "P"
   },
   "ddngusun": {
@@ -19579,10 +19607,6 @@
    "modern": "msdahung",
    "tier": "P"
   },
-  "msdita": {
-   "modern": "msjita",
-   "tier": "P"
-  },
   "msida": {
    "modern": "msida",
    "tier": "P"
@@ -21606,10 +21630,6 @@
    "tier": "P",
    "elision_dropped": "sbu'un"
   },
-  "sdita": {
-   "modern": "sjita",
-   "tier": "P"
-  },
   "sdlaan": {
    "modern": "sdraan",
    "tier": "P"
@@ -22562,10 +22582,6 @@
   },
   "tqatai": {
    "modern": "tkatay",
-   "tier": "P"
-  },
-  "tsdamat": {
-   "modern": "tsdamat",
    "tier": "P"
   },
   "tsdaxal": {
@@ -25446,11 +25462,6 @@
    "modern": "tusi",
    "tier": "R"
   },
-  "ts'ngiya": {
-   "modern": "tsngiya",
-   "tier": "R",
-   "elision_dropped": "ts'ngiya"
-  },
   "tsaan": {
    "modern": "tsaan",
    "tier": "R"
@@ -25459,16 +25470,8 @@
    "modern": "tsay",
    "tier": "R"
   },
-  "tsmanan": {
-   "modern": "tsmanan",
-   "tier": "R"
-  },
   "tssagi": {
    "modern": "tssagi",
-   "tier": "R"
-  },
-  "tsulao": {
-   "modern": "tsuraw",
    "tier": "R"
   },
   "ttasil": {
@@ -27746,12 +27749,6 @@
    "tier": "E",
    "e_stem": "tsdaxal",
    "e_modern": "tsdahar"
-  },
-  "mtsgasut": {
-   "modern": "mtsgasut",
-   "tier": "E",
-   "e_stem": "tsgasut",
-   "e_modern": "tsgasut"
   },
   "ndtlalae": {
    "modern": "ndtlalay",
