@@ -12,7 +12,7 @@ dsbnawan         dsbnawan         d-     sbnawan          R
 dtanax           dtanah           d-     tanax            T
 dtome            dtumi            d-     tome             S
 gg'xap           gghak            CV-    g'xap            M
-gngnalu          gngnaalu         CVCV-  gnalu            P
+gngnalu          gngnealu         CVCV-  gnalu            M
 kkdusan          kkdusan          CV-    kdusan           T
 kketa            kkita            CV-    keta             A
 kklaxang         qqlahang         CV-    klaxang          L
@@ -40,7 +40,7 @@ mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P
 n'kai            nkay             n-     m'kai            B
-n'ulat           nurat            n-     m'ulat           P
+n'ulat           neurat           n-     m'ulat           M
 n'xalan          n'xalan          n-     m'xalan          T
 nalong           narung           n-     malong           B
 nblyeqan         nbliqan          n-     mblyeqan         T
@@ -51,11 +51,10 @@ ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     mdup             R
 ndyami           ndyami           n-     dyami            P
 neidang          neydang          n-     meidang          M
-ngagwi           ngeeguy          n-     gagwi            M
-nggalu           nggaalu          n-     mggalu           P
+nggalu           nggealu          n-     mggalu           M
 ngguyan          ngeuyan          n-     gguyan           M
 ngl'ngu          nglngu           n-     mgl'ngu          M
-ngnalu           ngnaalu          n-     gnalu            P
+ngnalu           ngnealu          n-     gnalu            M
 niin             niing            n-     miin             M
 niyaq            niyak            n-     miyaq            L
 nksaxol          nqsahur          n-     ksaxol           L
@@ -101,7 +100,7 @@ ppsku            ppsku            CV-    psku             id
 ppsloa           ppsruwa          CV-    psloa            B
 ppspg'leq        ppspgriq         CV-    pspg'leq         B
 ppsqdo           ppsqdu           CV-    psqdo            R
-ppt'ayus         ppt'ayus         CV-    pt'ayus          P
+ppt'ayus         ppteayus         CV-    pt'ayus          M
 pptpusu          pptpusu          CV-    ptpusu           id
 ppyasan          ppyasan          CV-    pyasan           R
 ss'xgan          sshgan           CV-    s'xgan           R

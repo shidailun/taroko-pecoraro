@@ -19,7 +19,6 @@ kmpspusu         kmpspusu         kpspusu        kpspusu        derived
 kmqqada          kmqqada          mqqada         mqqada         derived
 kmspusu          kmspusu          spusu          spusu          derived
 kmtisa           kmtgsa           mtisa          mtgsa          derived
-kngoxan          knguhan          kgoxan         kguhan         derived
 knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsdmatan        knsdmatan        sdmatan        sdmatan        derived
 knsopu           knsupu           sopu           supu           derived
@@ -35,8 +34,6 @@ mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
 ml'çan           mlxan            lxan           lxan           derived
 mngaxan          mngahan          ngaxan         ngahan         derived
-mp'anai          mpanay           anai           anay           derived
-mpaadi           mpaaji           adi            aji            derived
 mpabugo          mpabgu           bugo           bgu            derived
 mpaksia          mpaqsiya         ksia           qsiya          derived
 mpamanu          mpamanu          mpa            mpa            derived
@@ -50,7 +47,7 @@ mppkluli         mppqluli         pkluli         pqluli         derived
 mpsbiyoq         mpsbiyuq         psbiyoq        psbiyuq        derived
 mpsl'bu          mpsl'bu          pslbu          psl'bu         derived
 mpslangan        mpslangan        slangan        slangan        derived
-mpsnanak         mpsnanak         psnanak        psnanak        derived
+mpsnanak         mpsneanak        psnanak        psneanak       derived
 mpspala          mpspala          pala           pala           derived
 mpsparo          mpsparu          psparo         psparu         derived
 mpsqlinut        mpsqrinut        psqlinut       psqrinut       derived
