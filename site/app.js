@@ -1087,6 +1087,20 @@
         if (/\s/.test(t) && !lookupWord(t)) {
           return '<span class="meta-abbr">' + esc(t) + "</span>";
         }
+        // The arrow can point at its own headword. Modernizing both sides collapses
+        // his doublet into one word — that is the map working — and 24 of these
+        // reach a genuinely different entry, so "GHAK → GHAK" on G'XAK is a live
+        // link to G'XAP, not a bug to delete. A root tag in the same position IS
+        // dropped (see tagHtml), because a tag alternative is this entry's own
+        // second try and navigates nowhere. Here the two cards do differ, and in
+        // modern mode his spelling is the only thing that still tells them apart,
+        // so keep the link and label it in his hand rather than repeat the headword.
+        var self = spellingModern &&
+          norm(modernizeText(t)) === norm(modernizeText(variants(e.hw)[0] || e.hw));
+        if (self) {
+          return '<span class="crossref-link xref-his" data-ref="' + esc(t) +
+            '" title="His spelling / son orthographe">' + esc(formText(t)) + "</span>";
+        }
         return '<span class="crossref-link ' + (respellable(t) ? "w-mod" : "w-raw") +
           '" data-ref="' + esc(t) + '">' + esc(dispText(formText(t))) + "</span>";
       }).join(", ") + "</span>";

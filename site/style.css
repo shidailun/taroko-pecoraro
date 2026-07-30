@@ -359,6 +359,12 @@ body.spelling-modern .gloss .w-raw { color: var(--truku); }
 }
 .crossref-link:hover { text-decoration-color: var(--accent); }
 
+/* A cross-reference whose target modernizes to this card's own headword. The link
+   is real — it reaches a different entry — but printing the modern form would just
+   repeat the headword, so the text stays in his spelling and is marked as his. */
+.xref-his { font-style: italic; }
+body.spelling-modern .tag .xref-his { color: var(--muted); }
+
 .no-results {
   text-align: center;
   color: var(--muted);

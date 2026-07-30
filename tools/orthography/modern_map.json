@@ -1381,7 +1381,7 @@
    "tier": "B"
   },
   "bolong": {
-   "modern": "bolong",
+   "modern": "burung",
    "tier": "M"
   },
   "boloq": {
@@ -1603,8 +1603,8 @@
    "tier": "T"
   },
   "bwixol": {
-   "modern": "bwihur",
-   "tier": "T"
+   "modern": "bgihur",
+   "tier": "M"
   },
   "bxangan": {
    "modern": "bhangan",
@@ -2359,6 +2359,10 @@
   },
   "dxeaan": {
    "modern": "dhyaan",
+   "tier": "M"
+  },
+  "dxeyaq": {
+   "modern": "thiyaq",
    "tier": "M"
   },
   "dxgal": {
@@ -3229,8 +3233,8 @@
    "tier": "B"
   },
   "kbiyan": {
-   "modern": "kbiyan",
-   "tier": "T"
+   "modern": "gbiyan",
+   "tier": "M"
   },
   "kbiyax": {
    "modern": "kbiyax",
@@ -6285,6 +6289,10 @@
   "mblyeqan": {
    "modern": "mbliqan",
    "tier": "T"
+  },
+  "mbolong": {
+   "modern": "mburung",
+   "tier": "M"
   },
   "mbua": {
    "modern": "mbuwa",
@@ -12828,6 +12836,10 @@
   "skbawa": {
    "modern": "skbawa",
    "tier": "id"
+  },
+  "skbiyan": {
+   "modern": "sgbiyan",
+   "tier": "M"
   },
   "skbiyax": {
    "modern": "skbiyax",
@@ -24304,10 +24316,6 @@
    "modern": "sisun",
    "tier": "R"
   },
-  "skbiyan": {
-   "modern": "skbiyan",
-   "tier": "R"
-  },
   "skhuan": {
    "modern": "skhuan",
    "tier": "R"
@@ -25590,10 +25598,6 @@
   },
   "masai": {
    "modern": "masay",
-   "tier": "N"
-  },
-  "mbolong": {
-   "modern": "mbulung",
    "tier": "N"
   },
   "micat": {
@@ -30257,11 +30261,6 @@
    ]
   ],
   [
-   "dxeyaq",
-   1,
-   []
-  ],
-  [
    "dyudika",
    1,
    []
@@ -30797,6 +30796,11 @@
    [
     "找藉口的人"
    ]
+  ],
+  [
+   "mlinal",
+   1,
+   []
   ]
  ]
 }

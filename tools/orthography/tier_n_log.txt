@@ -80,7 +80,6 @@ lübak            lubak            midcap=0    occ=1
 lübaq            lubaq            midcap=1    occ=1
 maria            maria            midcap=1    occ=1
 masai            masay            midcap=0    occ=1
-mbolong          mbulung          midcap=1    occ=1
 mityang          mityang          midcap=0    occ=1
 mixalasi         mihalasi         midcap=1    occ=1
 mixang           mihang           midcap=0    occ=1
