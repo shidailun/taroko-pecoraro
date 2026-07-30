@@ -2285,6 +2285,10 @@
    "modern": "dmtbasyaq",
    "tier": "M"
   },
+  "dmtabu": {
+   "modern": "dmtabug",
+   "tier": "M"
+  },
   "dmudu": {
    "modern": "dmudul",
    "tier": "L"
@@ -3688,6 +3692,10 @@
    "modern": "kila",
    "tier": "id"
   },
+  "kinal": {
+   "modern": "kingal",
+   "tier": "M"
+  },
   "kingal": {
    "modern": "kingal",
    "tier": "id"
@@ -4797,6 +4805,10 @@
    "modern": "kuna",
    "tier": "B"
   },
+  "koobu": {
+   "modern": "kowbu",
+   "tier": "M"
+  },
   "koulae": {
    "modern": "koulae",
    "tier": "M"
@@ -5356,6 +5368,10 @@
   "l'xqax": {
    "modern": "lhkah",
    "tier": "L"
+  },
+  "l'xqoi": {
+   "modern": "dhquy",
+   "tier": "M"
   },
   "l'çi": {
    "modern": "lxi",
@@ -13356,6 +13372,10 @@
    "modern": "khnu",
    "tier": "A"
   },
+  "qaban": {
+   "modern": "qabang",
+   "tier": "M"
+  },
   "qabang": {
    "modern": "qabang",
    "tier": "id"
@@ -17510,6 +17530,10 @@
    "modern": "trurul",
    "tier": "M"
   },
+  "tloon": {
+   "modern": "tluung",
+   "tier": "M"
+  },
   "tloong": {
    "modern": "tluung",
    "tier": "A"
@@ -18783,6 +18807,10 @@
   "xg'xgan": {
    "modern": "hghgan",
    "tier": "B"
+  },
+  "xg'xo": {
+   "modern": "hghug",
+   "tier": "M"
   },
   "xgl'qan": {
    "modern": "hglqan",
@@ -30402,13 +30430,6 @@
    ]
   ],
   [
-   "l'xqoi",
-   5,
-   [
-    "一種稻米煮熟後變得黏糯用於製作日常主食以外的菜餚"
-   ]
-  ],
-  [
    "la",
    5,
    []
@@ -30861,11 +30882,6 @@
    []
   ],
   [
-   "dmtabu",
-   1,
-   []
-  ],
-  [
    "dmtgisa",
    1,
    []
@@ -31057,11 +31073,6 @@
    []
   ],
   [
-   "kinal",
-   1,
-   []
-  ],
-  [
    "kkakox",
    1,
    []
@@ -31123,13 +31134,6 @@
    "knxgun",
    1,
    []
-  ],
-  [
-   "koobu",
-   1,
-   [
-    "帳篷註太魯閣人似乎除了自己搭的那種非常簡陋的帳篷之外不知道別種帳篷那是他們在田裡工作時用來給孩子遮蔽的只是把一條毯子往幾根樹枝上一搭而成"
-   ]
   ],
   [
    "ktii",
@@ -31607,11 +31611,6 @@
    []
   ],
   [
-   "qaban",
-   1,
-   []
-  ],
-  [
    "qalip",
    1,
    [
@@ -31858,11 +31857,6 @@
    []
   ],
   [
-   "tloon",
-   1,
-   []
-  ],
-  [
    "tmago",
    1,
    [
@@ -31990,13 +31984,6 @@
    "xeumi",
    1,
    []
-  ],
-  [
-   "xg'xo",
-   1,
-   [
-    "泉源水塘"
-   ]
   ],
   [
    "xnubao",
