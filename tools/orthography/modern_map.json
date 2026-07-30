@@ -2053,6 +2053,10 @@
    "modern": "drmul",
    "tier": "B"
   },
+  "dlmut": {
+   "modern": "drumut",
+   "tier": "M"
+  },
   "dlnani": {
    "modern": "drnani",
    "tier": "B"
@@ -3014,6 +3018,10 @@
    "tier": "id",
    "elision_dropped": "k'i"
   },
+  "k'kax": {
+   "modern": "qlqah",
+   "tier": "M"
+  },
   "k'la": {
    "modern": "kla",
    "tier": "id",
@@ -3268,6 +3276,10 @@
    "modern": "kdiyung",
    "tier": "T"
   },
+  "kdlmut": {
+   "modern": "kdrumut",
+   "tier": "M"
+  },
   "kdloxun": {
    "modern": "kdruhun",
    "tier": "B"
@@ -3356,6 +3368,18 @@
   "kk'lang": {
    "modern": "kkrang",
    "tier": "T"
+  },
+  "kkaxan": {
+   "modern": "qlqahan",
+   "tier": "M"
+  },
+  "kkaxe": {
+   "modern": "qlqahi",
+   "tier": "M"
+  },
+  "kkaxon": {
+   "modern": "qlqahun",
+   "tier": "M"
   },
   "kkoyox": {
    "modern": "kkuyuh",
@@ -3609,6 +3633,10 @@
    "modern": "kmkan",
    "tier": "id"
   },
+  "kmkax": {
+   "modern": "qmlqah",
+   "tier": "M"
+  },
   "kmkbaxang": {
    "modern": "kmkbahang",
    "tier": "T"
@@ -3827,6 +3855,10 @@
    "modern": "qndrxan",
    "tier": "L"
   },
+  "kndlmut": {
+   "modern": "kndrumut",
+   "tier": "M"
+  },
   "kndlmutan": {
    "modern": "kndrmtan",
    "tier": "L"
@@ -3876,9 +3908,13 @@
    "tier": "id",
    "elision_dropped": "knk'la"
   },
+  "knkax": {
+   "modern": "knqlqah",
+   "tier": "M"
+  },
   "knkaxan": {
-   "modern": "knqahan",
-   "tier": "T"
+   "modern": "knqlqahan",
+   "tier": "M"
   },
   "knkingal": {
    "modern": "knkingal",
@@ -3991,6 +4027,10 @@
   "knqlinut": {
    "modern": "qnqrinut",
    "tier": "L"
+  },
+  "knqt'lan": {
+   "modern": "knqthuran",
+   "tier": "M"
   },
   "kns'lan": {
    "modern": "qnslan",
@@ -6162,6 +6202,10 @@
    "modern": "mdka",
    "tier": "id"
   },
+  "mdlmut": {
+   "modern": "mdrumut",
+   "tier": "M"
+  },
   "mdludao": {
    "modern": "mdrudu",
    "tier": "M"
@@ -6891,6 +6935,10 @@
    "modern": "mniyah",
    "tier": "B"
   },
+  "mnk'kax": {
+   "modern": "mnqlqah",
+   "tier": "M"
+  },
   "mnk'la": {
    "modern": "mnkla",
    "tier": "id",
@@ -6899,6 +6947,10 @@
   "mnkala": {
    "modern": "mnkala",
    "tier": "id"
+  },
+  "mnkkax": {
+   "modern": "mnqlqah",
+   "tier": "M"
   },
   "mnkpia": {
    "modern": "mnkpiya",
@@ -7148,6 +7200,10 @@
    "modern": "mqmi",
    "tier": "id",
    "elision_dropped": "mq'mi"
+  },
+  "mq'tol": {
+   "modern": "mqthur",
+   "tier": "M"
   },
   "mqalang": {
    "modern": "mqarang",
@@ -11054,8 +11110,8 @@
    "tier": "M"
   },
   "q'tol": {
-   "modern": "qtul",
-   "tier": "B"
+   "modern": "qthur",
+   "tier": "M"
   },
   "q'xnu": {
    "modern": "khnu",
@@ -11513,6 +11569,10 @@
   "qnqolan": {
    "modern": "qnquran",
    "tier": "A"
+  },
+  "qnt'lan": {
+   "modern": "qnthuran",
+   "tier": "M"
   },
   "qnyutan": {
    "modern": "qnyutan",
@@ -13494,8 +13554,8 @@
    "tier": "A"
   },
   "sq'tol": {
-   "modern": "sqtul",
-   "tier": "B"
+   "modern": "sqthur",
+   "tier": "M"
   },
   "sqaai": {
    "modern": "sqaai",
@@ -18160,10 +18220,6 @@
   },
   "mq'qan": {
    "modern": "mkeekan",
-   "tier": "P"
-  },
-  "mq'tol": {
-   "modern": "mqtul",
    "tier": "P"
   },
   "mqalit": {
@@ -23660,10 +23716,6 @@
    "modern": "qnaya",
    "tier": "R"
   },
-  "qnt'lan": {
-   "modern": "qntran",
-   "tier": "R"
-  },
   "qq'löt": {
    "modern": "qqrut",
    "tier": "R"
@@ -27743,13 +27795,6 @@
    ]
   ],
   [
-   "knqt'lan",
-   5,
-   [
-    "粗大厚度肥胖"
-   ]
-  ],
-  [
    "l'xqoi",
    5,
    [
@@ -27778,20 +27823,6 @@
    4,
    [
     "移動的命令式與否定式"
-   ]
-  ],
-  [
-   "kmkax",
-   4,
-   [
-    "踩踐踏"
-   ]
-  ],
-  [
-   "kndlmut",
-   4,
-   [
-    "勤奮地熱切地勤勉行事"
    ]
   ],
   [
@@ -27907,13 +27938,6 @@
    ]
   ],
   [
-   "dlmut",
-   3,
-   [
-    "熱忱熱心勤奮"
-   ]
-  ],
-  [
    "dup",
    3,
    [
@@ -27954,13 +27978,6 @@
    ]
   ],
   [
-   "kdlmut",
-   3,
-   [
-    "的否定形命令形"
-   ]
-  ],
-  [
    "kl'xqon",
    3,
    []
@@ -27984,13 +28001,6 @@
    3,
    [
     "期間時間的長短"
-   ]
-  ],
-  [
-   "knkax",
-   3,
-   [
-    "把腳踩在上用腳踩壓"
    ]
   ],
   [
@@ -28557,13 +28567,6 @@
    ]
   ],
   [
-   "k'kax",
-   2,
-   [
-    "把腳踏在上踩踐踏"
-   ]
-  ],
-  [
    "k'lxon",
    2,
    [
@@ -28784,13 +28787,6 @@
    ]
   ],
   [
-   "mdlmut",
-   2,
-   [
-    "勤勞用功勤奮的"
-   ]
-  ],
-  [
    "mgiin",
    2,
    [
@@ -28832,11 +28828,6 @@
    [
     "有兔唇的人"
    ]
-  ],
-  [
-   "mnk'kax",
-   2,
-   []
   ],
   [
    "mnlg'lu",
@@ -30144,6 +30135,53 @@
    "il",
    1,
    []
+  ],
+  [
+   "ilnabao",
+   1,
+   []
+  ],
+  [
+   "ilüs",
+   1,
+   []
+  ],
+  [
+   "imnglong",
+   1,
+   []
+  ],
+  [
+   "iniko",
+   1,
+   []
+  ],
+  [
+   "ipin",
+   1,
+   []
+  ],
+  [
+   "iping",
+   1,
+   []
+  ],
+  [
+   "isat",
+   1,
+   []
+  ],
+  [
+   "isoka",
+   1,
+   []
+  ],
+  [
+   "iyaq",
+   1,
+   [
+    "這會是的詞根嗎田裡的工作參見"
+   ]
   ]
  ]
 }

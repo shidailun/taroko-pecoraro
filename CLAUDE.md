@@ -122,7 +122,7 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (410) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (428) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
   Sometimes **his own tag names the modern spelling**: SPU is tagged
   `(SPU" - SPUG) (R)`, and his sub-forms Spgan / Snpgan / Pnspgan / Sspgan all
   keep that g — only Spu, Smpu and Pspu dropped it. Modern `smpug` is 95× in
@@ -181,7 +181,20 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   `btaqan` 打針, `btaqi`, `bntaqan`, `btaqun` were all already right, because the
   btaq- stem really is common to 刺 and 直到.
 
-  The same batch closed the **teetu** family, where the map was contradicting
+  Batch 16 found a third, the same way: **Q'TOL** 肥的－粗的－胖的－肥胖的 was
+  mapped to `qtul`, which is 砍 — to chop — and its SQ'TOL to `sqtul` 已砍. The
+  word is `qthur` 肥胖 (spk 45), `qqthur` 很肥胖, `mqthur`, `pqthur` 讓…粗（胖）.
+  Three of these in two batches, all long-standing, is enough to call it a class
+  rather than an accident, and none was found by looking for it — they turned up
+  while working the green tail nearby. `claimaudit.py` is the systematic version:
+  for every brown claim whose asserted word has a gloss, flag it when that gloss
+  shares nothing with the entry's **and** some other attested near-shape does.
+  Condition two is what makes it usable — `meytaq` 注射 against an entry glossed
+  刺 shares no character and is still right, so "no overlap" alone flags hundreds
+  of good entries; it was the existence of `beytaq` 刺 that made `bitaq` 直到 stand
+  out.
+
+  Batch 15 closed the **teetu** family, where the map was contradicting
   itself: `st'to`/`sta'to` → `steetu` and `knta'to` → `knteetu` (the long vowel)
   sat beside `ta'to` → `tatu`, `tma'to` → `tmatu` and `knt'to` → `knttu`, all three
   0-attested. Modern has `teetu` 切豬;切菜;切斷藤, `tmeetu` 切、剁 (spk 5) for his
@@ -189,6 +202,19 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   不停地－頻繁地 — the same long-vowel correspondence as SA'GUL → `seegul`. **When
   one branch of a family is already spelled a way the others are not, the
   disagreement is the finding**; a family should never carry two stems.
+
+  Batch 16 got its other two families from the inverse of that: one slot already
+  right while the rest of the family sat green. **DLMUT** 熱忱－熱心－勤奮 was green
+  in every slot except `kndlmutan` → `kndrmtan` 勤勞, so the answer was already in
+  the map — the root is `drumut` with the u syncopated, and `mdrumut` 很勤勞 is
+  **137×** in speech, `kdrumut` 30×. **K'KAX** 踩－踐踏 was green in all eight slots
+  with only `knkaxan` mapped, to `knqahan` — right except for a dropped l. Modern is
+  `qlqah` 踏, and the paradigm lines up slot for slot (`qmlqah` 8×, `qlqahan` 3×,
+  `qlqahi` 2×). His k→q and x→h are ordinary; what is new is that **the elision mark
+  in `k'kax` is standing for the l** of `qlqah`, not for a vowel — the first case of
+  `'` covering a consonant rather than a syncopated vowel. A single already-mapped
+  slot in an otherwise green family is therefore worth checking before any corpus
+  search: it is either the answer or, as with `knqahan`, one letter from it.
 - **L** (251) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
