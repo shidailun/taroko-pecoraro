@@ -2009,6 +2009,18 @@
    "modern": "ddhiya",
    "tier": "A"
   },
+  "ddyalan": {
+   "modern": "dgyalan",
+   "tier": "M"
+  },
+  "ddyali": {
+   "modern": "dgyali",
+   "tier": "M"
+  },
+  "ddyalun": {
+   "modern": "dgyalun",
+   "tier": "M"
+  },
   "ddyami": {
    "modern": "djyami",
    "tier": "M"
@@ -9160,6 +9172,10 @@
    "modern": "mhru",
    "tier": "A"
   },
+  "mx'lyex": {
+   "modern": "mlhlih",
+   "tier": "M"
+  },
   "mx'nuk": {
    "modern": "mhnuk",
    "tier": "B"
@@ -9677,6 +9693,10 @@
    "modern": "nihung",
    "tier": "B"
   },
+  "niyao": {
+   "modern": "ngiyaw",
+   "tier": "M"
+  },
   "niyax": {
    "modern": "niyah",
    "tier": "B"
@@ -9954,6 +9974,10 @@
   "nxoya": {
    "modern": "nhuya",
    "tier": "B"
+  },
+  "nyao": {
+   "modern": "ngiyaw",
+   "tier": "M"
   },
   "nyaq": {
    "modern": "niq",
@@ -11170,6 +11194,10 @@
    "modern": "prngagan",
    "tier": "B"
   },
+  "plnglngun": {
+   "modern": "plnglungun",
+   "tier": "M"
+  },
   "plnglong": {
    "modern": "plnglung",
    "tier": "B"
@@ -11476,7 +11504,7 @@
    "tier": "B"
   },
   "pnspdagan": {
-   "modern": "pnspadagan",
+   "modern": "pnspdagan",
    "tier": "M"
   },
   "pnspgan": {
@@ -12309,6 +12337,10 @@
    "modern": "pspdagan",
    "tier": "T"
   },
+  "pspdagun": {
+   "modern": "pspdagun",
+   "tier": "M"
+  },
   "pspg'leq": {
    "modern": "pspgriq",
    "tier": "B"
@@ -12613,8 +12645,8 @@
    "elision_dropped": "ptg'xal"
   },
   "ptgimax": {
-   "modern": "ptgimah",
-   "tier": "B"
+   "modern": "ptgimax",
+   "tier": "M"
   },
   "ptgisa": {
    "modern": "ptgsa",
@@ -13820,6 +13852,10 @@
   "sais": {
    "modern": "sais",
    "tier": "id"
+  },
+  "saisai": {
+   "modern": "seysay",
+   "tier": "M"
   },
   "sakai": {
    "modern": "seakay",
@@ -15924,6 +15960,10 @@
    "modern": "steetu",
    "tier": "M"
   },
+  "stabu": {
+   "modern": "stabug",
+   "tier": "M"
+  },
   "staga": {
    "modern": "staga",
    "tier": "id"
@@ -17251,6 +17291,10 @@
    "modern": "tnealang",
    "tier": "M"
   },
+  "tnabu": {
+   "modern": "tnabug",
+   "tier": "M"
+  },
   "tnabwi": {
    "modern": "tnabuy",
    "tier": "A"
@@ -18019,6 +18063,10 @@
    "modern": "hlpis",
    "tier": "A"
   },
+  "x'lyex": {
+   "modern": "lhlih",
+   "tier": "M"
+  },
   "x'mlo": {
    "modern": "hmru",
    "tier": "B"
@@ -18463,6 +18511,14 @@
    "modern": "hlpisan",
    "tier": "B"
   },
+  "xlyexan": {
+   "modern": "lhlihan",
+   "tier": "M"
+  },
+  "xlyexon": {
+   "modern": "lhlihun",
+   "tier": "M"
+  },
   "xlös": {
    "modern": "hrus",
    "tier": "A"
@@ -18470,6 +18526,10 @@
   "xm'kan": {
    "modern": "hmkan",
    "tier": "A"
+  },
+  "xm'lyex": {
+   "modern": "lmhlih",
+   "tier": "M"
   },
   "xmaan": {
    "modern": "hmaan",
@@ -29944,13 +30004,6 @@
    []
   ],
   [
-   "xlyexan",
-   4,
-   [
-    "已造成的誹謗"
-   ]
-  ],
-  [
    "dup",
    3,
    [
@@ -29977,13 +30030,6 @@
    ]
   ],
   [
-   "mx'lyex",
-   3,
-   [
-    "誹謗者心懷惡意者"
-   ]
-  ],
-  [
    "pnta'to",
    3,
    []
@@ -29994,11 +30040,6 @@
    [
     "每次一點點每人分到一小份"
    ]
-  ],
-  [
-   "pspdagun",
-   3,
-   []
   ],
   [
    "ptabe",
@@ -30054,20 +30095,6 @@
    3,
    [
     "完全熄滅火參見"
-   ]
-  ],
-  [
-   "x'lyex",
-   3,
-   [
-    "誹謗希望某人遭殃傷害某人"
-   ]
-  ],
-  [
-   "xm'lyex",
-   3,
-   [
-    "同上動詞形"
    ]
   ],
   [
@@ -30220,20 +30247,6 @@
    ]
   ],
   [
-   "niyao",
-   2,
-   [
-    "貓"
-   ]
-  ],
-  [
-   "nyao",
-   2,
-   [
-    "貓"
-   ]
-  ],
-  [
    "olo",
    2,
    [
@@ -30322,13 +30335,6 @@
    ]
   ],
   [
-   "saisai",
-   2,
-   [
-    "穗"
-   ]
-  ],
-  [
    "serait",
    2,
    []
@@ -30400,11 +30406,6 @@
    ]
   ],
   [
-   "stabu",
-   2,
-   []
-  ],
-  [
    "stipyaq",
    2,
    [
@@ -30432,11 +30433,6 @@
   ],
   [
    "tisbut",
-   2,
-   []
-  ],
-  [
-   "tnabu",
    2,
    []
   ],
@@ -30617,21 +30613,6 @@
   ],
   [
    "ddliwis",
-   1,
-   []
-  ],
-  [
-   "ddyalan",
-   1,
-   []
-  ],
-  [
-   "ddyali",
-   1,
-   []
-  ],
-  [
-   "ddyalun",
    1,
    []
   ],
@@ -31478,11 +31459,6 @@
    []
   ],
   [
-   "plnglngun",
-   1,
-   []
-  ],
-  [
    "plui",
    1,
    []
@@ -32128,6 +32104,88 @@
   ],
   [
    "tsgsutun",
+   1,
+   []
+  ],
+  [
+   "ttidyal",
+   1,
+   []
+  ],
+  [
+   "ttuan",
+   1,
+   [
+    "切成的塊切割的情況"
+   ]
+  ],
+  [
+   "tumux",
+   1,
+   []
+  ],
+  [
+   "tx'ldo",
+   1,
+   []
+  ],
+  [
+   "txoko",
+   1,
+   []
+  ],
+  [
+   "tyapan",
+   1,
+   [
+    "陶土鍋盛裝液體的容器"
+   ]
+  ],
+  [
+   "ukwi",
+   1,
+   [
+    "詞條下所有派生形式的詞根從未單獨出現可衍生出參見"
+   ]
+  ],
+  [
+   "un",
+   1,
+   [
+    "或後綴附加於單一或複合的動作詞根賦予其名詞形式帶有未來實現義務性必要性或意願之意其實現為取決於其元音或輔音環境參見"
+   ]
+  ],
+  [
+   "upsk'la",
+   1,
+   []
+  ],
+  [
+   "vie",
+   1,
+   []
+  ],
+  [
+   "vouloir",
+   1,
+   []
+  ],
+  [
+   "x'li",
+   1,
+   [
+    "倒入液體穀粒沙子放進去"
+   ]
+  ],
+  [
+   "x'lyeq",
+   1,
+   [
+    "撕裂的撕碎的參見及其派生詞意義相同"
+   ]
+  ],
+  [
+   "xandolu",
    1,
    []
   ]
