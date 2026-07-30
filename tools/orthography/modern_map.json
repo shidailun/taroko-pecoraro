@@ -1428,6 +1428,10 @@
    "modern": "boro",
    "tier": "M"
   },
+  "botak": {
+   "modern": "bitaq",
+   "tier": "M"
+  },
   "boxo": {
    "modern": "buhu",
    "tier": "T"
@@ -2165,6 +2169,10 @@
    "modern": "drumut",
    "tier": "M"
   },
+  "dlnai": {
+   "modern": "drnai",
+   "tier": "M"
+  },
   "dlnani": {
    "modern": "drnani",
    "tier": "B"
@@ -2237,6 +2245,14 @@
    "modern": "dmka",
    "tier": "id"
   },
+  "dmkblenux": {
+   "modern": "dmkbreenux",
+   "tier": "M"
+  },
+  "dmnsuwai": {
+   "modern": "mnswayi",
+   "tier": "M"
+  },
   "dmnswai": {
    "modern": "mnswayi",
    "tier": "M"
@@ -2247,6 +2263,10 @@
   },
   "dmpwa'la": {
    "modern": "dempweela",
+   "tier": "M"
+  },
+  "dmt'basyaq": {
+   "modern": "dmtbasyaq",
    "tier": "M"
   },
   "dmudu": {
@@ -3043,6 +3063,10 @@
    "modern": "gneegan",
    "tier": "M"
   },
+  "gn'lu": {
+   "modern": "gneelug",
+   "tier": "M"
+  },
   "gn'luk": {
    "modern": "gnluq",
    "tier": "L"
@@ -3155,6 +3179,10 @@
   "idas": {
    "modern": "idas",
    "tier": "id"
+  },
+  "idau": {
+   "modern": "idaw",
+   "tier": "M"
   },
   "iing": {
    "modern": "iying",
@@ -4499,6 +4527,10 @@
    "modern": "qnquan",
    "tier": "M"
   },
+  "knqogo": {
+   "modern": "qnqgu",
+   "tier": "M"
+  },
   "knqt'lan": {
    "modern": "qnthuran",
    "tier": "M"
@@ -4672,6 +4704,10 @@
   "knux": {
    "modern": "knux",
    "tier": "id"
+  },
+  "knwuaan": {
+   "modern": "knuwaan",
+   "tier": "M"
   },
   "knx'ngun": {
    "modern": "knhngun",
@@ -5034,6 +5070,10 @@
   "kxdaan": {
    "modern": "qhdaan",
    "tier": "L"
+  },
+  "kxdi": {
+   "modern": "qhdi",
+   "tier": "M"
   },
   "kxdo": {
    "modern": "qhdu",
@@ -5985,6 +6025,10 @@
    "modern": "lngiyan",
    "tier": "T"
   },
+  "lnglngan": {
+   "modern": "lnglungan",
+   "tier": "M"
+  },
   "lnglong": {
    "modern": "lnglung",
    "tier": "B"
@@ -6012,6 +6056,10 @@
   "lnngao": {
    "modern": "rnngaw",
    "tier": "B"
+  },
+  "lnnngat": {
+   "modern": "rnngat",
+   "tier": "M"
   },
   "lnsoxan": {
    "modern": "rnsuhan",
@@ -6361,6 +6409,10 @@
    "modern": "lhlahun",
    "tier": "M"
   },
+  "lxlixao": {
+   "modern": "llihaw",
+   "tier": "M"
+  },
   "lxluk": {
    "modern": "rhluk",
    "tier": "A"
@@ -6450,6 +6502,10 @@
    "modern": "mlux",
    "tier": "id",
    "elision_dropped": "m'lux"
+  },
+  "m'mu": {
+   "modern": "mmu",
+   "tier": "M"
   },
   "m'mxa": {
    "modern": "mmha",
@@ -8079,6 +8135,10 @@
    "modern": "empaabubu",
    "tier": "M"
   },
+  "mpad'gal": {
+   "modern": "empaadxgal",
+   "tier": "M"
+  },
   "mpad'xgal": {
    "modern": "empaadxgal",
    "tier": "M"
@@ -8271,6 +8331,10 @@
    "w_was": "mpsramal",
    "w_how": "twin"
   },
+  "mpslexlax": {
+   "modern": "empslhlah",
+   "tier": "M"
+  },
   "mpsnabao": {
    "modern": "empsrnabaw",
    "tier": "M"
@@ -8291,6 +8355,10 @@
   },
   "mptabu": {
    "modern": "emptabug",
+   "tier": "M"
+  },
+  "mptbagun": {
+   "modern": "emptbagun",
    "tier": "M"
   },
   "mptksoloç": {
@@ -9398,6 +9466,10 @@
    "modern": "nruan",
    "tier": "B"
   },
+  "n'mu": {
+   "modern": "nmu",
+   "tier": "M"
+  },
   "n'nita": {
    "modern": "nnita",
    "tier": "id",
@@ -9830,6 +9902,10 @@
    "modern": "nnita",
    "tier": "id",
    "elision_dropped": "nn'ita"
+  },
+  "nn'mu": {
+   "modern": "nnmu",
+   "tier": "M"
   },
   "nnako": {
    "modern": "nnaku",
@@ -10416,6 +10492,10 @@
    "modern": "pblxi",
    "tier": "B"
   },
+  "pbl'xun": {
+   "modern": "pbruxun",
+   "tier": "M"
+  },
   "pblaxan": {
    "modern": "pbrahan",
    "tier": "B"
@@ -10442,6 +10522,10 @@
   },
   "pblnaxon": {
    "modern": "pbrnahun",
+   "tier": "M"
+  },
+  "pblxun": {
+   "modern": "pbruxun",
    "tier": "M"
   },
   "pboai": {
@@ -11354,6 +11438,10 @@
    "modern": "pneelug",
    "tier": "M"
   },
+  "pn'mu": {
+   "modern": "pnmu",
+   "tier": "M"
+  },
   "pnais": {
    "modern": "pnais",
    "tier": "id"
@@ -11687,6 +11775,10 @@
    "modern": "puqan",
    "tier": "B"
   },
+  "poqe": {
+   "modern": "puqi",
+   "tier": "M"
+  },
   "poting": {
    "modern": "pucing",
    "tier": "A"
@@ -11698,6 +11790,10 @@
   "potox": {
    "modern": "putuh",
    "tier": "B"
+  },
+  "pousal": {
+   "modern": "empusal",
+   "tier": "M"
   },
   "pp'aso": {
    "modern": "ppeasug",
@@ -12539,6 +12635,10 @@
    "tier": "id",
    "elision_dropped": "pstl'xi"
   },
+  "pstlmai": {
+   "modern": "pstrmai",
+   "tier": "M"
+  },
   "pstmai": {
    "modern": "pstmai",
    "tier": "id"
@@ -12722,6 +12822,10 @@
   "ptbnao": {
    "modern": "ptbnaw",
    "tier": "B"
+  },
+  "ptbnxani": {
+   "modern": "ptbnahani",
+   "tier": "M"
   },
   "ptbuan": {
    "modern": "ptbgan",
@@ -13887,6 +13991,10 @@
    "modern": "shjilan",
    "tier": "B"
   },
+  "s'xgun": {
+   "modern": "shgun",
+   "tier": "M"
+  },
   "s'xiga": {
    "modern": "shiga",
    "tier": "A"
@@ -14365,6 +14473,10 @@
    "modern": "si",
    "tier": "id"
   },
+  "sia": {
+   "modern": "qsiya",
+   "tier": "M"
+  },
   "siao": {
    "modern": "siyaw",
    "tier": "B"
@@ -14668,6 +14780,10 @@
    "modern": "sqsiya",
    "tier": "T"
   },
+  "sktadao": {
+   "modern": "sktadaw",
+   "tier": "M"
+  },
   "sktama": {
    "modern": "sktama",
    "tier": "T"
@@ -14787,6 +14903,10 @@
   "slangi": {
    "modern": "srangi",
    "tier": "T"
+  },
+  "slap": {
+   "modern": "slap",
+   "tier": "M"
   },
   "slapi": {
    "modern": "slapi",
@@ -15088,6 +15208,10 @@
   "smikul": {
    "modern": "smikul",
    "tier": "id"
+  },
+  "smilap": {
+   "modern": "smilap",
+   "tier": "M"
   },
   "smilaq": {
    "modern": "smilaq",
@@ -15766,6 +15890,10 @@
    "modern": "spkpajiq",
    "tier": "M"
   },
+  "splan": {
+   "modern": "sprang",
+   "tier": "M"
+  },
   "splang": {
    "modern": "sprang",
    "tier": "A"
@@ -15969,6 +16097,10 @@
   "sqtan": {
    "modern": "sqtan",
    "tier": "id"
+  },
+  "sqti": {
+   "modern": "sqti",
+   "tier": "M"
   },
   "sqtun": {
    "modern": "sqtun",
@@ -16660,6 +16792,10 @@
    "modern": "tbiyax",
    "tier": "id"
   },
+  "tblae": {
+   "modern": "tbalay",
+   "tier": "M"
+  },
   "tblaeq": {
    "modern": "tblaiq",
    "tier": "B"
@@ -16955,6 +17091,10 @@
    "modern": "tgtmaq",
    "tier": "M"
   },
+  "tityeq": {
+   "modern": "cicih",
+   "tier": "M"
+  },
   "tityex": {
    "modern": "cicih",
    "tier": "M"
@@ -17059,6 +17199,10 @@
   "tksiyuk": {
    "modern": "tksiyuk",
    "tier": "id"
+  },
+  "tkui": {
+   "modern": "tkuyi",
+   "tier": "M"
   },
   "tkulan": {
    "modern": "tkuran",
@@ -17481,8 +17625,8 @@
    "tier": "M"
   },
   "tnbolox": {
-   "modern": "tnbruh",
-   "tier": "A"
+   "modern": "tnburux",
+   "tier": "M"
   },
   "tnbugan": {
    "modern": "tnbgan",
@@ -17777,6 +17921,10 @@
   },
   "tsgasut": {
    "modern": "csgasut",
+   "tier": "M"
+  },
+  "tsgsutun": {
+   "modern": "csgsutun",
    "tier": "M"
   },
   "tsiiso": {
@@ -18914,6 +19062,10 @@
   "xokut": {
    "modern": "hukut",
    "tier": "B"
+  },
+  "xolao": {
+   "modern": "hilaw",
+   "tier": "M"
   },
   "xolax": {
    "modern": "hurah",
@@ -29794,6 +29946,11 @@
    "tier": "V",
    "v_twin": "sdyaqon"
   },
+  "sq'ti": {
+   "modern": "sqti",
+   "tier": "V",
+   "v_twin": "sqti"
+  },
   "sqdo'": {
    "modern": "sqdug",
    "tier": "V",
@@ -30581,11 +30738,6 @@
    []
   ],
   [
-   "botak",
-   1,
-   []
-  ],
-  [
    "bouche",
    1,
    []
@@ -30671,32 +30823,12 @@
    []
   ],
   [
-   "dlnai",
-   1,
-   []
-  ],
-  [
    "dmbasyaq",
    1,
    []
   ],
   [
-   "dmkblenux",
-   1,
-   []
-  ],
-  [
-   "dmnsuwai",
-   1,
-   []
-  ],
-  [
    "dmsnxei",
-   1,
-   []
-  ],
-  [
-   "dmt'basyaq",
    1,
    []
   ],
@@ -30840,11 +30972,6 @@
    ]
   ],
   [
-   "gn'lu",
-   1,
-   []
-  ],
-  [
    "gqoaq",
    1,
    [
@@ -30853,11 +30980,6 @@
   ],
   [
    "hotte",
-   1,
-   []
-  ],
-  [
-   "idau",
    1,
    []
   ],
@@ -30992,16 +31114,6 @@
    []
   ],
   [
-   "knqogo",
-   1,
-   []
-  ],
-  [
-   "knwuaan",
-   1,
-   []
-  ],
-  [
    "knxgun",
    1,
    []
@@ -31015,11 +31127,6 @@
   ],
   [
    "ktii",
-   1,
-   []
-  ],
-  [
-   "kxdi",
    1,
    []
   ],
@@ -31063,11 +31170,6 @@
    []
   ],
   [
-   "lnglngan",
-   1,
-   []
-  ],
-  [
    "lnguti",
    1,
    []
@@ -31076,23 +31178,6 @@
    "lngutun",
    1,
    []
-  ],
-  [
-   "lnnngat",
-   1,
-   []
-  ],
-  [
-   "lxlixao",
-   1,
-   []
-  ],
-  [
-   "m'mu",
-   1,
-   [
-    "化為粉塵成為粉塵粉"
-   ]
   ],
   [
    "maidang",
@@ -31210,11 +31295,6 @@
    []
   ],
   [
-   "mpad'gal",
-   1,
-   []
-  ],
-  [
    "mpgdolo",
    1,
    []
@@ -31237,17 +31317,7 @@
    ]
   ],
   [
-   "mpslexlax",
-   1,
-   []
-  ],
-  [
    "mptabe",
-   1,
-   []
-  ],
-  [
-   "mptbagun",
    1,
    []
   ],
@@ -31313,13 +31383,6 @@
    []
   ],
   [
-   "n'mu",
-   1,
-   [
-    "已被磨成粉塵之物"
-   ]
-  ],
-  [
    "nai",
    1,
    []
@@ -31355,11 +31418,6 @@
   ],
   [
    "nlikut",
-   1,
-   []
-  ],
-  [
-   "nn'mu",
    1,
    []
   ],
@@ -31448,16 +31506,6 @@
    []
   ],
   [
-   "pbl'xun",
-   1,
-   []
-  ],
-  [
-   "pblxun",
-   1,
-   []
-  ],
-  [
    "pdaqi",
    1,
    []
@@ -31493,13 +31541,6 @@
    []
   ],
   [
-   "pn'mu",
-   1,
-   [
-    "弄碎磨成粉研磨"
-   ]
-  ],
-  [
    "pnaanak",
    1,
    []
@@ -31532,17 +31573,7 @@
    []
   ],
   [
-   "poqe",
-   1,
-   []
-  ],
-  [
    "porter",
-   1,
-   []
-  ],
-  [
-   "pousal",
    1,
    []
   ],
@@ -31594,11 +31625,6 @@
    []
   ],
   [
-   "pstlmai",
-   1,
-   []
-  ],
-  [
    "pstui",
    1,
    []
@@ -31615,11 +31641,6 @@
   ],
   [
    "ptbiun",
-   1,
-   []
-  ],
-  [
-   "ptbnxani",
    1,
    []
   ],
@@ -31728,21 +31749,11 @@
    []
   ],
   [
-   "s'xgun",
-   1,
-   []
-  ],
-  [
    "sdongan",
    1,
    [
     "架子"
    ]
-  ],
-  [
-   "sia",
-   1,
-   []
   ],
   [
    "siipa",
@@ -31789,21 +31800,9 @@
    ]
   ],
   [
-   "sktadao",
-   1,
-   []
-  ],
-  [
    "sl's",
    1,
    []
-  ],
-  [
-   "slap",
-   1,
-   [
-    "此詞根僅見於以下詞語有可能甚至很可能這個詞是的變體因而源自詞根或參見"
-   ]
   ],
   [
    "sloani",
@@ -31814,13 +31813,6 @@
    "sm",
    1,
    []
-  ],
-  [
-   "smilap",
-   1,
-   [
-    "無疑這是的變體參見"
-   ]
   ],
   [
    "smoa",
@@ -31860,27 +31852,12 @@
    []
   ],
   [
-   "splan",
-   1,
-   []
-  ],
-  [
    "spsqlinut",
    1,
    []
   ],
   [
-   "sq'ti",
-   1,
-   []
-  ],
-  [
    "sqoaqe",
-   1,
-   []
-  ],
-  [
-   "sqti",
    1,
    []
   ],
@@ -31936,22 +31913,7 @@
    []
   ],
   [
-   "tblae",
-   1,
-   []
-  ],
-  [
    "tinalu",
-   1,
-   []
-  ],
-  [
-   "tityeq",
-   1,
-   []
-  ],
-  [
-   "tkui",
    1,
    []
   ],
@@ -32025,11 +31987,6 @@
   ],
   [
    "tsdanat",
-   1,
-   []
-  ],
-  [
-   "tsgsutun",
    1,
    []
   ],
@@ -32133,11 +32090,6 @@
    [
     "同上之動詞形"
    ]
-  ],
-  [
-   "xolao",
-   1,
-   []
   ],
   [
    "xubao",
