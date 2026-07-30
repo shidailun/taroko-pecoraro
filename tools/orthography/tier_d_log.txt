@@ -31,7 +31,7 @@ mnkpito          mnkpitu          mn-    mkpito           B
 mnkyayong        mnkyayung        mn-    mkyayong         A
 mnmngali         mnmngari         CVCV-  mngali           B
 mnotoç           mnutux           mn-    otoç             M
-mnpgalup         mnpgaluk         mn-    pgalup           M
+mnpgalup         mnpgealuk        mn-    pgalup           M
 mnpito           mnpitu           mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
@@ -70,7 +70,6 @@ nmilit           nmirit           n-     milit            A
 nmulun           nmulun           n-     mulun            M
 nmxa             nmha             n-     mxa              A
 nndaxa           nndha            CV-    ndaxa            D
-npalaqe          npalaqi          n-     mpalaqe          P
 npd'xok          npdhuq           n-     pd'xok           A
 npnalu           npnalu           n-     pnalu            M
 npotox           nputuh           n-     potox            B
@@ -94,7 +93,6 @@ ppl'dax          pprdax           CV-    pl'dax           A
 pppaon           pppaun           CV-    ppaon            P
 ppqeta           ppqita           CV-    pqeta            B
 ppsbalae         ppsbalay         CV-    psbalae          B
-ppsgao           ppsgow           CV-    psgao            P
 ppsipa           ppsipa           CV-    psipa            id
 ppsku            ppsku            CV-    psku             id
 ppsloa           ppsruwa          CV-    psloa            B

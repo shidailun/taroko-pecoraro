@@ -8,6 +8,7 @@ nd'yano          njyanu           ndyano           G        2
 xm'qli           hmqli            xmq'li           E        2
 b'xgan           brhgan           bxgan            M over R bhgan     2
 mg'li            mgrig            mg'li'           M over R mgli     2
+puda             peuda            p'uda            M over R puda     2
 ba'ba            babaw            baba             M        1
 gnlqan           gnlqan           gnl'qan          E        1
 knuaan           knuwaan          kn'uaan          M        1
@@ -16,6 +17,6 @@ mdxyaq           mthiyaq          md'xyaq          P        1
 mpglong          mpgrung          mpg'long         P        1
 msdxyaq          msthiyaq         msd'xyaq         P        1
 mtlboq           mtrbuq           mtl'boq          P        1
-pnslxgan         pnslhgan         pnsl'xgan        E        1
+pnslxgan         pnslhagan        pnsl'xgan        E        1
 pskmux           pskmux           psk'mux          P        1
 qq'lang          qqlang           qqlang           G        1

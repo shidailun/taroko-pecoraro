@@ -3,7 +3,6 @@
 mpdxok           mpdhuq           dxok           dhuq               5 derived
 dmkpax           dmqpah           kpax           qpah               4 derived
 k'sul            qsul             ksul           qsul               2 attested
-npamalu          npamalu          malu           malu               2 derived
 slongan          slungan          slong          slung              2 derived
 dmnalox          dmnarux          nalox          narux              1 derived
 drbiyax          drbiyax          biyax          biyax              1 derived
@@ -14,14 +13,12 @@ mkmpxeng         mkmphing         pxeng          phing              1 derived
 mkp'xeng         mkphing          pxeng          phing              1 derived
 mlb'bao          mlbbao           bbao           bbao               1 derived
 mpakmpaxan       mpaqmpahan       kpax           qpah               1 derived
-mpamalu          mpamalu          malu           malu               1 derived
 mplenax          mprinah          lenax          rinah              1 derived
 mpsklol          mpsqrul          sklol          sqrul              1 derived
 mpslxlax         mpslhlah         lxlax          lhlah              1 derived
 mptgamil         mptgamil         gamil          gamil              1 derived
 mptquli          mptquli          quli           quli               1 derived
 mslangan         mslangan         slangan        slangan            1 derived
-mspatuil         mspatuil         mspat          mspat              1 derived
 ndyano           njyanu           dyan           jyan               1 derived
 nplb'bao         nplbbao          bbao           bbao               1 derived
 ntluula          ntluula          luul           luul               1 derived

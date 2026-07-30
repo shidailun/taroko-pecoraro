@@ -63,7 +63,6 @@ efunang          efunang          midcap=1    occ=1
 grand            grand            midcap=1    occ=1
 grandeur         grandeur         midcap=1    occ=1
 ilüs             ilus             midcap=0    occ=1
-inglongan        inglungan        midcap=1    occ=1
 ipin             ipin             midcap=0    occ=1
 iping            iping            midcap=0    occ=1
 isat             isat             midcap=0    occ=1

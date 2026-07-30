@@ -12,7 +12,6 @@ kgimax           kgimax           gimax          gimax          derived
 kkslabang        kkslabang        slabang        slabang        derived
 kmbali           kmbari           mbali          mbari          derived
 kmp'ama          kmpama           ama            ama            derived
-kmp'aso          kmpasu           paso           pasu           derived
 kmpnyeqan        kmpniqan         pnyeqan        pniqan         derived
 kmpspong         kmpspung         pspong         pspung         derived
 kmpspusu         kmpspusu         kpspusu        kpspusu        derived
@@ -36,7 +35,6 @@ ml'çan           mlxan            lxan           lxan           derived
 mngaxan          mngahan          ngaxan         ngahan         derived
 mpabugo          mpabgu           bugo           bgu            derived
 mpaksia          mpaqsiya         ksia           qsiya          derived
-mpamanu          mpamanu          mpa            mpa            derived
 mpgalang         mpgarang         pgalang        pgarang        derived
 mpgleq           mpgriq           mpgleq         mpgriq         derived
 mpkslaan         mpkslaan         kslaan         kslaan         derived
@@ -68,7 +66,7 @@ mtgtmaq          mtgtmaq          tgtmaq         tgtmaq         derived
 mtkk'lang        mtkkrang         tkklang        tkkrang        derived
 mtl'do           mtrdu            tldo           trdu           derived
 mtsdaxal         mtsdahar         tsdaxal        tsdahar        derived
-ndtlalae         ndtlalay         tlalae         tlalay         derived
+ndtlalae         ndtlealay        tlalae         tlealay        derived
 nlluan           nl'luan          llu            l'lu           derived
 pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
@@ -94,7 +92,7 @@ pnsdlaan         pnsdraan         psdlaan        psdraan        derived
 pnsilong         pnsilung         psilong        psilung        derived
 pnsk'lol         pnsqrul          psklol         psqrul         derived
 pnskngalan       pnskngalan       pskngalan      pskngalan      derived
-pnsl'xgan        pnsl'hgan        pslxgan        psl'hgan       derived
+pnsl'xgan        pnslhagan        pslxgan        pslhagan       derived
 pnslidil         pnsrijil         pslidil        psrijil        derived
 pnslngiyan       pnsrngiyan       pslngiyan      psrngiyan      derived
 pnslutut         pnslutut         pslutut        pslutut        derived
@@ -107,7 +105,6 @@ psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
 psklolun         psqrulun         psklol         psqrul         derived
 psn'loon         psnluun          snloon         snluun         derived
 psnloon          psnluun          snloon         snluun         derived
-pspoxao          pspuhau          spox           spuh           derived
 psqlasao         psqrasau         qlas           qras           derived
 psqmai           psqmai           sqmai          sqmai          derived
 psttui           psttui           ttui           ttui           derived
@@ -133,7 +130,6 @@ sn'xei           snhiyi           snxei          snhiyi         attested
 snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived
 snxali           snxali           snxal          snxal          derived
-spat'l           spatl            spat           spat           derived
 splingis         splingis         plingis        plingis        derived
 splisox          sprisuh          plisox         prisuh         derived
 spsbalae         spsbalay         psbalae        psbalay        derived
