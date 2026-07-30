@@ -2506,8 +2506,8 @@
    "tier": "id"
   },
   "galang": {
-   "modern": "galang",
-   "tier": "id"
+   "modern": "garang",
+   "tier": "M"
   },
   "galu": {
    "modern": "gaalu",
@@ -2708,16 +2708,16 @@
    "tier": "B"
   },
   "glangan": {
-   "modern": "glangan",
-   "tier": "id"
+   "modern": "grangan",
+   "tier": "M"
   },
   "glangi": {
-   "modern": "glangi",
-   "tier": "id"
+   "modern": "grangi",
+   "tier": "M"
   },
   "glangun": {
-   "modern": "glangun",
-   "tier": "id"
+   "modern": "grangun",
+   "tier": "M"
   },
   "glaqa": {
    "modern": "graka",
@@ -2748,8 +2748,8 @@
    "tier": "M"
   },
   "glngani": {
-   "modern": "glngani",
-   "tier": "id"
+   "modern": "grngani",
+   "tier": "M"
   },
   "gluban": {
    "modern": "gluban",
@@ -6431,8 +6431,8 @@
    "tier": "B"
   },
   "mgalang": {
-   "modern": "mgalang",
-   "tier": "id"
+   "modern": "mgarang",
+   "tier": "M"
   },
   "mgalup": {
    "modern": "mgaluk",
@@ -9492,8 +9492,16 @@
    "tier": "id"
   },
   "pglangan": {
-   "modern": "pglangan",
-   "tier": "id"
+   "modern": "pgrangan",
+   "tier": "M"
+  },
+  "pglangi": {
+   "modern": "pgrangi",
+   "tier": "M"
+  },
+  "pglangun": {
+   "modern": "pgrangun",
+   "tier": "M"
   },
   "pgleqon": {
    "modern": "pgriqun",
@@ -11322,8 +11330,8 @@
    "tier": "A"
   },
   "pulut": {
-   "modern": "pulut",
-   "tier": "id"
+   "modern": "purut",
+   "tier": "M"
   },
   "puno": {
    "modern": "punu",
@@ -19413,14 +19421,6 @@
    "modern": "pgklanay",
    "tier": "P",
    "elision_dropped": "pgk'lanay"
-  },
-  "pglangi": {
-   "modern": "pglangi",
-   "tier": "P"
-  },
-  "pglangun": {
-   "modern": "pglangun",
-   "tier": "P"
   },
   "pglaxol": {
    "modern": "pgrahul",
