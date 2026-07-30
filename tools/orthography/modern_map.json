@@ -9853,6 +9853,10 @@
    "modern": "nii",
    "tier": "id"
   },
+  "nilao": {
+   "modern": "ngiraw",
+   "tier": "M"
+  },
   "nimax": {
    "modern": "nimah",
    "tier": "B"
@@ -10140,8 +10144,8 @@
    "tier": "id"
   },
   "nuxul": {
-   "modern": "nuhur",
-   "tier": "B"
+   "modern": "meuxul",
+   "tier": "M"
   },
   "nxal": {
    "modern": "nxal",
@@ -13127,6 +13131,10 @@
   "pusu": {
    "modern": "pusu",
    "tier": "id"
+  },
+  "pusyaq": {
+   "modern": "pusiq",
+   "tier": "M"
   },
   "puyaq": {
    "modern": "puyaq",
@@ -18508,6 +18516,10 @@
    "modern": "hgut",
    "tier": "B"
   },
+  "x'li": {
+   "modern": "hrig",
+   "tier": "M"
+  },
   "x'lo": {
    "modern": "hru",
    "tier": "B"
@@ -18987,6 +18999,10 @@
   "xm'kan": {
    "modern": "hmkan",
    "tier": "A"
+  },
+  "xm'li": {
+   "modern": "hmrig",
+   "tier": "M"
   },
   "xm'lyex": {
    "modern": "lmhlih",
@@ -30239,21 +30255,6 @@
     }
    ]
   },
-  "pusyaq": {
-   "freq": 1,
-   "pec_gloss": [
-    "眼屎有時在眼角結成的痂垢"
-   ],
-   "cands": [
-    {
-     "cand": "pusiq",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "pyaxon": {
    "freq": 3,
    "pec_gloss": [],
@@ -30740,13 +30741,6 @@
    "var",
    2,
    []
-  ],
-  [
-   "xm'li",
-   2,
-   [
-    "同上動詞形前項之動詞形"
-   ]
   ],
   [
    "'loy",
@@ -31395,13 +31389,6 @@
    ]
   ],
   [
-   "nilao",
-   1,
-   [
-    "菇類多孔菌目前有栽培一種牛舌菌生長在樹幹上"
-   ]
-  ],
-  [
    "nlikut",
    1,
    []
@@ -31993,13 +31980,6 @@
    "vouloir",
    1,
    []
-  ],
-  [
-   "x'li",
-   1,
-   [
-    "倒入液體穀粒沙子放進去"
-   ]
   ],
   [
    "xandolu",
