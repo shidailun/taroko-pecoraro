@@ -256,6 +256,7 @@ mpsx'muk         empshmuk          mpshmuk          P/class      0     1
 mpsxada          empshada          mpshada          P/twin       0     5
 mpsxdil          empshjil          mpshjil          R/class      0     1
 mpt'to           empteetu          mpteetu          P/class      0     1
+mptabe           empsakur          mpsakur          P/twin       0     1
 mptabwi          emptabuy          mptabuy          P/class      0     1
 mptalil          emptaril          mptaril          P/class      0     1
 mptd'xo          emptdhug          mptdhug          P/twin       0     1

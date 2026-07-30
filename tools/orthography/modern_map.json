@@ -7524,8 +7524,8 @@
    "tier": "B"
   },
   "mksia": {
-   "modern": "mqsiya",
-   "tier": "T"
+   "modern": "msqsiya",
+   "tier": "M"
   },
   "mksipao": {
    "modern": "mksipaw",
@@ -8607,8 +8607,8 @@
    "tier": "M"
   },
   "ms'lut": {
-   "modern": "msrut",
-   "tier": "B"
+   "modern": "msdlut",
+   "tier": "M"
   },
   "ms'lyeq": {
    "modern": "mseeliq",
@@ -8845,8 +8845,8 @@
    "tier": "B"
   },
   "mslut": {
-   "modern": "msrut",
-   "tier": "B"
+   "modern": "msdlut",
+   "tier": "M"
   },
   "msndamat": {
    "modern": "msndamat",
@@ -12083,8 +12083,8 @@
    "tier": "M"
   },
   "ps'lut": {
-   "modern": "psrut",
-   "tier": "B"
+   "modern": "psdlut",
+   "tier": "M"
   },
   "ps'lyeq": {
    "modern": "pseeliq",
@@ -12505,8 +12505,8 @@
    "tier": "A"
   },
   "pslut": {
-   "modern": "psrut",
-   "tier": "B"
+   "modern": "psdlut",
+   "tier": "M"
   },
   "psluxai": {
    "modern": "psluhay",
@@ -12840,6 +12840,10 @@
   },
   "pta'to": {
    "modern": "pteetu",
+   "tier": "M"
+  },
+  "ptabe": {
+   "modern": "psakur",
    "tier": "M"
   },
   "ptabu": {
@@ -14041,9 +14045,8 @@
    "tier": "M"
   },
   "s'lut": {
-   "modern": "slut",
-   "tier": "id",
-   "elision_dropped": "s'lut"
+   "modern": "sdlut",
+   "tier": "M"
   },
   "s'lyeq": {
    "modern": "seeliq",
@@ -15147,8 +15150,8 @@
    "tier": "id"
   },
   "slut": {
-   "modern": "slut",
-   "tier": "id"
+   "modern": "sdlut",
+   "tier": "M"
   },
   "slutyaq": {
    "modern": "sruciq",
@@ -16643,6 +16646,10 @@
    "modern": "teetu",
    "tier": "M"
   },
+  "t'tuan": {
+   "modern": "ttuan",
+   "tier": "M"
+  },
   "t'xdil": {
    "modern": "thjil",
    "tier": "B"
@@ -16666,6 +16673,10 @@
   "taan": {
    "modern": "taan",
    "tier": "id"
+  },
+  "tabe": {
+   "modern": "sakur",
+   "tier": "M"
   },
   "tabun": {
    "modern": "tabun",
@@ -18101,9 +18112,21 @@
    "modern": "ttukun",
    "tier": "L"
   },
+  "ttuan": {
+   "modern": "ttuan",
+   "tier": "M"
+  },
   "ttui": {
    "modern": "ttui",
    "tier": "id"
+  },
+  "ttuon": {
+   "modern": "ttuun",
+   "tier": "M"
+  },
+  "ttuun": {
+   "modern": "ttuun",
+   "tier": "M"
   },
   "ttuyan": {
    "modern": "ttuyan",
@@ -21273,6 +21296,12 @@
    "tier": "W",
    "w_was": "mpteetu",
    "w_how": "class"
+  },
+  "mptabe": {
+   "modern": "empsakur",
+   "tier": "W",
+   "w_was": "mpsakur",
+   "w_how": "twin"
   },
   "mptabwi": {
    "modern": "emptabuy",
@@ -30411,13 +30440,6 @@
    ]
   ],
   [
-   "ptabe",
-   3,
-   [
-    "犁田使用犁註是否與翻鬆土地深掘土壤使其鬆軟有親屬關係"
-   ]
-  ],
-  [
    "ptatwi",
    3,
    [
@@ -31316,11 +31338,6 @@
    ]
   ],
   [
-   "mptabe",
-   1,
-   []
-  ],
-  [
    "mptkaangal",
    1,
    []
@@ -31858,13 +31875,6 @@
    []
   ],
   [
-   "tabe",
-   1,
-   [
-    "犁同義詞註一種非常簡單的工具用一根木樁製成如今裝上鐵頭以度角插在一根比水牛還長的木頭上由人拉動"
-   ]
-  ],
-  [
    "tatwi",
    1,
    [
@@ -31958,13 +31968,6 @@
    "ttidyal",
    1,
    []
-  ],
-  [
-   "ttuan",
-   1,
-   [
-    "切成的塊切割的情況"
-   ]
   ],
   [
    "tumux",
