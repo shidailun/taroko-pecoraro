@@ -126,6 +126,7 @@ mpanalu          empanalu          mpanalu          M/class      0     4
 mpapix           empapix           mpapix           M/class      0     2
 mpasapax         empasapah         mpasapah         P/class      0     2
 mpasnao          empasnaw          mpasnaw          P/class      0     2
+mpatxoulang      empathulang       mpathulang       P/class      0     1
 mpax             empax             mpax             P/class      0     3
 mpbais           empbais           mpbais           R/class      0     1
 mpbolox          empburux          mpburux          R/class      0     1
@@ -184,6 +185,7 @@ mpngpong         empngpung         mpngpung         M/class      0     1
 mpnmuon          empnmuun          mpnmuun          R/class      0     1
 mpnpong          empnpung          mpnpung          E/class      0     2
 mpnxmadan        empnhmadan        mpnhmadan        E/class      0     1
+mpnyeq           empniq            mpniq            P/class      0     1
 mpolo            empuru            mpuru            P/twin       0     6
 mpongo           empungu           mpungu           P/twin       0     3
 mponox           empeunuh          mpeunuh          P/class      0     1

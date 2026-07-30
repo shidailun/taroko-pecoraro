@@ -3218,6 +3218,10 @@
    "modern": "krhan",
    "tier": "B"
   },
+  "k'lxon": {
+   "modern": "krhun",
+   "tier": "M"
+  },
   "k'mux": {
    "modern": "kmux",
    "tier": "id",
@@ -4199,12 +4203,20 @@
    "modern": "knliwang",
    "tier": "id"
   },
+  "knlmnan": {
+   "modern": "knrmnan",
+   "tier": "M"
+  },
   "knlmun": {
    "modern": "knrmun",
    "tier": "A"
   },
   "knloaan": {
    "modern": "knluaan",
+   "tier": "M"
+  },
+  "knlqani": {
+   "modern": "qnriqani",
    "tier": "M"
   },
   "knltan": {
@@ -4234,6 +4246,10 @@
   "knnaqex": {
    "modern": "qnnaqih",
    "tier": "L"
+  },
+  "knngngoan": {
+   "modern": "knngnguan",
+   "tier": "M"
   },
   "knnxolan": {
    "modern": "knnhuran",
@@ -4266,6 +4282,10 @@
   "knplaan": {
    "modern": "knpraan",
    "tier": "B"
+  },
+  "knplingan": {
+   "modern": "qnpuringan",
+   "tier": "M"
   },
   "knptoxan": {
    "modern": "kmptuhan",
@@ -4375,9 +4395,17 @@
    "modern": "knslikaw",
    "tier": "B"
   },
+  "knslxagan": {
+   "modern": "knsrhagan",
+   "tier": "M"
+  },
   "knslyeqan": {
    "modern": "knsliqan",
    "tier": "T"
+  },
+  "knsmayan": {
+   "modern": "knsmayan",
+   "tier": "M"
   },
   "knsola": {
    "modern": "knseura",
@@ -4449,6 +4477,10 @@
    "modern": "kntmaan",
    "tier": "id"
   },
+  "kntsyaxan": {
+   "modern": "knseiyaxan",
+   "tier": "M"
+  },
   "kntxoq": {
    "modern": "knthuk",
    "tier": "A"
@@ -4487,6 +4519,10 @@
   },
   "knxlitan": {
    "modern": "knhridan",
+   "tier": "M"
+  },
+  "knxlsan": {
+   "modern": "knhrsan",
    "tier": "M"
   },
   "knxmutan": {
@@ -8443,6 +8479,10 @@
    "modern": "msnoxel",
    "tier": "M"
   },
+  "msnto": {
+   "modern": "msntug",
+   "tier": "M"
+  },
   "msnugul": {
    "modern": "msnegul",
    "tier": "M"
@@ -8629,6 +8669,10 @@
    "modern": "mtrul",
    "tier": "A"
   },
+  "mt'nling": {
+   "modern": "mtnring",
+   "tier": "M"
+  },
   "mtabu": {
    "modern": "mtabug",
    "tier": "M"
@@ -8729,6 +8773,10 @@
   "mtgakat": {
    "modern": "mtgakat",
    "tier": "id"
+  },
+  "mtgaox": {
+   "modern": "mtgauh",
+   "tier": "M"
   },
   "mtgila": {
    "modern": "mtgila",
@@ -9088,6 +9136,10 @@
   "n'qan": {
    "modern": "nkan",
    "tier": "L"
+  },
+  "n'snto": {
+   "modern": "nsntug",
+   "tier": "M"
   },
   "n'uxai": {
    "modern": "nuxay",
@@ -9697,6 +9749,10 @@
    "modern": "nyahan",
    "tier": "B"
   },
+  "nyeq": {
+   "modern": "niq",
+   "tier": "M"
+  },
   "nyeqan": {
    "modern": "niqan",
    "tier": "M"
@@ -9836,6 +9892,10 @@
   "p'lkox": {
    "modern": "plkuh",
    "tier": "B"
+  },
+  "p'lo": {
+   "modern": "pru",
+   "tier": "M"
   },
   "p'lpao": {
    "modern": "prpaw",
@@ -10495,6 +10555,10 @@
    "modern": "pklawa",
    "tier": "id"
   },
+  "pklbiyan": {
+   "modern": "pklbiyan",
+   "tier": "M"
+  },
   "pklilu": {
    "modern": "pklilug",
    "tier": "M"
@@ -10792,6 +10856,10 @@
    "modern": "pllayun",
    "tier": "id"
   },
+  "pllyexon": {
+   "modern": "pririhun",
+   "tier": "M"
+  },
   "plmukan": {
    "modern": "klmukan",
    "tier": "M"
@@ -10985,6 +11053,10 @@
    "modern": "pngusul",
    "tier": "id"
   },
+  "pnisun": {
+   "modern": "pnisun",
+   "tier": "M"
+  },
   "pnkala": {
    "modern": "pnkala",
    "tier": "id"
@@ -11096,6 +11168,10 @@
   "pnspadao": {
    "modern": "pnspadaw",
    "tier": "B"
+  },
+  "pnspdagan": {
+   "modern": "pnspadagan",
+   "tier": "M"
   },
   "pnspgan": {
    "modern": "pnspgan",
@@ -12255,6 +12331,10 @@
    "modern": "ptrima",
    "tier": "A"
   },
+  "ptllaani": {
+   "modern": "ptreurani",
+   "tier": "M"
+  },
   "ptllaon": {
    "modern": "ptllayun",
    "tier": "M"
@@ -13008,6 +13088,10 @@
    "modern": "qnrian",
    "tier": "B"
   },
+  "qnlqani": {
+   "modern": "qnriqani",
+   "tier": "M"
+  },
   "qnmasan": {
    "modern": "qnmasan",
    "tier": "id"
@@ -13019,6 +13103,10 @@
   "qnqaya": {
    "modern": "qnqaya",
    "tier": "id"
+  },
+  "qnqgoan": {
+   "modern": "qnqguan",
+   "tier": "M"
   },
   "qnqoan": {
    "modern": "qnquan",
@@ -13435,6 +13523,10 @@
   "saon": {
    "modern": "saun",
    "tier": "B"
+  },
+  "sapang": {
+   "modern": "sapang",
+   "tier": "M"
   },
   "sapao": {
    "modern": "sapaw",
@@ -14270,6 +14362,10 @@
    "modern": "slputan",
    "tier": "id"
   },
+  "sltyqon": {
+   "modern": "srciqun",
+   "tier": "M"
+  },
   "slubwi": {
    "modern": "slubuy",
    "tier": "T"
@@ -14348,6 +14444,10 @@
   },
   "slyeqon": {
    "modern": "sliqun",
+   "tier": "M"
+  },
+  "slyuwan": {
+   "modern": "sryuan",
    "tier": "M"
   },
   "slyuxan": {
@@ -14714,6 +14814,10 @@
   "snao": {
    "modern": "snaw",
    "tier": "B"
+  },
+  "snapang": {
+   "modern": "snapang",
+   "tier": "M"
   },
   "snapao": {
    "modern": "snapaw",
@@ -15308,6 +15412,10 @@
    "modern": "ssaun",
    "tier": "B"
   },
+  "ssapang": {
+   "modern": "ssapang",
+   "tier": "M"
+  },
   "ssapao": {
    "modern": "ssapaw",
    "tier": "B"
@@ -15461,6 +15569,10 @@
   "stoq": {
    "modern": "stuq",
    "tier": "B"
+  },
+  "stp'ngan": {
+   "modern": "stpungan",
+   "tier": "M"
   },
   "stpong": {
    "modern": "stapung",
@@ -17025,6 +17137,10 @@
    "modern": "csuraw",
    "tier": "M"
   },
+  "tsyaxan": {
+   "modern": "seiyaxan",
+   "tier": "M"
+  },
   "ttabu": {
    "modern": "ttabug",
    "tier": "M"
@@ -17232,6 +17348,10 @@
   "txoon": {
    "modern": "thuun",
    "tier": "B"
+  },
+  "txoulang": {
+   "modern": "thulang",
+   "tier": "M"
   },
   "txungul": {
    "modern": "thungul",
@@ -19478,6 +19598,12 @@
    "w_was": "mpasnaw",
    "w_how": "class"
   },
+  "mpatxoulang": {
+   "modern": "empathulang",
+   "tier": "W",
+   "w_was": "mpathulang",
+   "w_how": "class"
+  },
   "mpax": {
    "modern": "empax",
    "tier": "W",
@@ -19781,6 +19907,12 @@
    "tier": "W",
    "w_was": "mpnaqih",
    "w_how": "twin"
+  },
+  "mpnyeq": {
+   "modern": "empniq",
+   "tier": "W",
+   "w_was": "mpniq",
+   "w_how": "class"
   },
   "mpolo": {
    "modern": "empuru",
@@ -20779,6 +20911,10 @@
    "modern": "nhmaan",
    "tier": "P"
   },
+  "nyeqe": {
+   "modern": "niqi",
+   "tier": "P"
+  },
   "p'angal": {
    "modern": "pangal",
    "tier": "P",
@@ -21470,8 +21606,16 @@
    "modern": "pnttukan",
    "tier": "P"
   },
+  "pnyeq": {
+   "modern": "pniq",
+   "tier": "P"
+  },
   "pnyeqan": {
    "modern": "pniqan",
+   "tier": "P"
+  },
+  "pnyeqe": {
+   "modern": "pniqi",
    "tier": "P"
   },
   "pnyeqon": {
@@ -21830,6 +21974,10 @@
   },
   "pslutut": {
    "modern": "pslutut",
+   "tier": "P"
+  },
+  "pslyuwan": {
+   "modern": "psryuan",
    "tier": "P"
   },
   "psmuk": {
@@ -22693,6 +22841,10 @@
    "modern": "snhiyi",
    "tier": "P"
   },
+  "spangun": {
+   "modern": "spangun",
+   "tier": "P"
+  },
   "sparo": {
    "modern": "sparu",
    "tier": "P"
@@ -22892,6 +23044,10 @@
   },
   "stlilan": {
    "modern": "strilan",
+   "tier": "P"
+  },
+  "stxoulang": {
+   "modern": "sthulang",
    "tier": "P"
   },
   "suusa": {
@@ -25691,10 +25847,6 @@
    "tier": "R",
    "elision_dropped": "sp'ngun"
   },
-  "spangun": {
-   "modern": "spangun",
-   "tier": "R"
-  },
   "spgi": {
    "modern": "spgi",
    "tier": "R"
@@ -28112,6 +28264,12 @@
    "e_stem": "pitai",
    "e_modern": "pitay"
   },
+  "mstxoulang": {
+   "modern": "msthulang",
+   "tier": "E",
+   "e_stem": "stxoulang",
+   "e_modern": "sthulang"
+  },
   "msxeulis": {
    "modern": "mshulis",
    "tier": "E",
@@ -29332,13 +29490,6 @@
    []
   ],
   [
-   "knplingan",
-   4,
-   [
-    "人群軍隊獸群源自詞根"
-   ]
-  ],
-  [
    "ksudan",
    4,
    []
@@ -29348,13 +29499,6 @@
    4,
    [
     "正當之時同時同時地"
-   ]
-  ],
-  [
-   "snapang",
-   4,
-   [
-    "同上前項之動詞形"
    ]
   ],
   [
@@ -29484,27 +29628,6 @@
    []
   ],
   [
-   "nyeq",
-   3,
-   [
-    "存在是有你有牙齒你的牙齒存在的地方"
-   ]
-  ],
-  [
-   "pllyexon",
-   3,
-   [
-    "所欠的想要償還的東西"
-   ]
-  ],
-  [
-   "pnspdagan",
-   3,
-   [
-    "所贈送之物贈送的情境"
-   ]
-  ],
-  [
    "pnta'to",
    3,
    []
@@ -29548,13 +29671,6 @@
    ]
   ],
   [
-   "sapang",
-   3,
-   [
-    "打補丁在衣服或布料上縫上補丁"
-   ]
-  ],
-  [
    "siba",
    3,
    [
@@ -29591,13 +29707,6 @@
    []
   ],
   [
-   "ssapang",
-   3,
-   [
-    "用來打補丁的"
-   ]
-  ],
-  [
    "swatan",
    3,
    [
@@ -29630,13 +29739,6 @@
    3,
    [
     "完全熄滅火參見"
-   ]
-  ],
-  [
-   "tsyaxan",
-   3,
-   [
-    "玩笑開玩笑地說或做的事"
    ]
   ],
   [
@@ -29753,13 +29855,6 @@
    ]
   ],
   [
-   "k'lxon",
-   2,
-   [
-    "將要應要被弄得乾涸空虛貧瘠者"
-   ]
-  ],
-  [
    "kakox",
    2,
    [
@@ -29822,34 +29917,6 @@
    []
   ],
   [
-   "knlmnan",
-   2,
-   [
-    "勇敢耐心堅定"
-   ]
-  ],
-  [
-   "knngngoan",
-   2,
-   [
-    "膽怯畏懼恐懼"
-   ]
-  ],
-  [
-   "knslxagan",
-   2,
-   [
-    "鬆弛鬆開的狀態性質"
-   ]
-  ],
-  [
-   "knsmayan",
-   2,
-   [
-    "勤奮的強度傷腦筋之事"
-   ]
-  ],
-  [
    "knss'gan",
    2,
    [
@@ -29861,20 +29928,6 @@
    2,
    [
     "忘恩負義"
-   ]
-  ],
-  [
-   "kntsyaxan",
-   2,
-   [
-    "詼諧愛開玩笑的特質"
-   ]
-  ],
-  [
-   "knxlsan",
-   2,
-   [
-    "傾斜的程度"
    ]
   ],
   [
@@ -29976,23 +30029,6 @@
    ]
   ],
   [
-   "msnto",
-   2,
-   []
-  ],
-  [
-   "mt'nling",
-   2,
-   [
-    "流汗的滿身大汗的滲出的"
-   ]
-  ],
-  [
-   "mtgaox",
-   2,
-   []
-  ],
-  [
    "mtmago",
    2,
    [
@@ -30049,13 +30085,6 @@
    ]
   ],
   [
-   "p'lo",
-   2,
-   [
-    "引起傳染使自己受到傳染"
-   ]
-  ],
-  [
    "pblnaxon",
    2,
    []
@@ -30106,13 +30135,6 @@
    []
   ],
   [
-   "pklbiyan",
-   2,
-   [
-    "過夜的地點過夜的時間"
-   ]
-  ],
-  [
    "pkllusun",
    2,
    []
@@ -30147,24 +30169,10 @@
    []
   ],
   [
-   "pnisun",
-   2,
-   [
-    "想要非常短暫進行的事"
-   ]
-  ],
-  [
    "pntyusan",
    2,
    [
     "已被立為界線之物"
-   ]
-  ],
-  [
-   "pnyeq",
-   2,
-   [
-    "使留下使存在"
    ]
   ],
   [
@@ -30183,13 +30191,6 @@
    "psyangi",
    2,
    []
-  ],
-  [
-   "ptllaani",
-   2,
-   [
-    "去顯明去使人知曉命令式"
-   ]
   ],
   [
    "ptqodap",
@@ -30229,18 +30230,6 @@
    2,
    [
     "手銬捆綁犯人的繩索"
-   ]
-  ],
-  [
-   "qnlqani",
-   2,
-   []
-  ],
-  [
-   "qnqgoan",
-   2,
-   [
-    "公雞發出的啼聲此啼叫的時刻"
    ]
   ],
   [
@@ -30307,20 +30296,6 @@
    []
   ],
   [
-   "sltyqon",
-   2,
-   [
-    "用以弄髒的欲用之方法或未來式"
-   ]
-  ],
-  [
-   "slyuwan",
-   2,
-   [
-    "超出出來的時間地點"
-   ]
-  ],
-  [
    "smpsaan",
    2,
    [
@@ -30384,13 +30359,6 @@
    2,
    [
     "使變小縮小為使其變小減少數量"
-   ]
-  ],
-  [
-   "stp'ngan",
-   2,
-   [
-    "黴霉斑"
    ]
   ],
   [
@@ -30467,13 +30435,6 @@
    "tsiso",
    2,
    []
-  ],
-  [
-   "txoulang",
-   2,
-   [
-    "註此詞似確實源自福建話頭人頭人首領一詞想必也是如此此詞應是由日本人引入用以指稱負責人首領小頭目並且源自漢語複合詞頭目頭目負責人當局首領們官員們"
-   ]
   ],
   [
    "tyaqong",
@@ -31050,11 +31011,6 @@
    []
   ],
   [
-   "knlqani",
-   1,
-   []
-  ],
-  [
    "knlsan",
    1,
    []
@@ -31322,13 +31278,6 @@
    []
   ],
   [
-   "mpatxoulang",
-   1,
-   [
-    "將成為當權者上位者"
-   ]
-  ],
-  [
    "mpgdolo",
    1,
    []
@@ -31370,11 +31319,6 @@
    ]
   ],
   [
-   "mpnyeq",
-   1,
-   []
-  ],
-  [
    "mpslexlax",
    1,
    []
@@ -31405,11 +31349,6 @@
    [
     "熄滅中的已熄滅的"
    ]
-  ],
-  [
-   "mstxoulang",
-   1,
-   []
   ],
   [
    "msyuling",
@@ -31461,11 +31400,6 @@
    [
     "已被磨成粉塵之物"
    ]
-  ],
-  [
-   "n'snto",
-   1,
-   []
   ],
   [
    "nai",
@@ -31609,6 +31543,184 @@
   ],
   [
    "pbl'xun",
+   1,
+   []
+  ],
+  [
+   "pblnaxan",
+   1,
+   []
+  ],
+  [
+   "pblxun",
+   1,
+   []
+  ],
+  [
+   "pdaqi",
+   1,
+   []
+  ],
+  [
+   "peau",
+   1,
+   []
+  ],
+  [
+   "pglixo",
+   1,
+   [
+    "使被刺穿使自己被刺穿"
+   ]
+  ],
+  [
+   "pglxgun",
+   1,
+   []
+  ],
+  [
+   "pk'kax",
+   1,
+   []
+  ],
+  [
+   "pklay",
+   1,
+   []
+  ],
+  [
+   "pkloi",
+   1,
+   []
+  ],
+  [
+   "pkploan",
+   1,
+   []
+  ],
+  [
+   "pkpnpong",
+   1,
+   [
+    "使產生波紋"
+   ]
+  ],
+  [
+   "pkxoayun",
+   1,
+   []
+  ],
+  [
+   "plilyes",
+   1,
+   []
+  ],
+  [
+   "pllgan",
+   1,
+   []
+  ],
+  [
+   "plnglngun",
+   1,
+   []
+  ],
+  [
+   "plui",
+   1,
+   []
+  ],
+  [
+   "plus",
+   1,
+   []
+  ],
+  [
+   "plxgun",
+   1,
+   []
+  ],
+  [
+   "plyuxai",
+   1,
+   []
+  ],
+  [
+   "pn'mu",
+   1,
+   [
+    "弄碎磨成粉研磨"
+   ]
+  ],
+  [
+   "pnaanak",
+   1,
+   []
+  ],
+  [
+   "pndkox",
+   1,
+   [
+    "加強鞏固躲避危險"
+   ]
+  ],
+  [
+   "pnkoudus",
+   1,
+   []
+  ],
+  [
+   "pnlngut",
+   1,
+   []
+  ],
+  [
+   "pnmaxan",
+   1,
+   []
+  ],
+  [
+   "pnoxon",
+   1,
+   []
+  ],
+  [
+   "pnppaan",
+   1,
+   []
+  ],
+  [
+   "pnqbiling",
+   1,
+   []
+  ],
+  [
+   "pnt'toan",
+   1,
+   []
+  ],
+  [
+   "pntudan",
+   1,
+   []
+  ],
+  [
+   "poqe",
+   1,
+   []
+  ],
+  [
+   "porter",
+   1,
+   []
+  ],
+  [
+   "pousal",
+   1,
+   []
+  ],
+  [
+   "pqbboan",
    1,
    []
   ]
