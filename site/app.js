@@ -804,11 +804,17 @@
   // a tooltip the prose branch would take away. Everything here was read off the
   // form and example fields, and every occurrence of every one of these words in
   // them is French — 49 occurrences, no Truku word among them.
+  // The list was read off the fields once and was not closed: four more were still
+  // rendering as fake Truku, and the two the map had claimed came out BROWN —
+  // "Rougeur" as RUUGEUR and "(=Volant)" as VULANT, both asserting a verified modern
+  // Truku spelling for a French word. Read off the DOM, not off the map: a word here
+  // is intercepted before respellable() is asked, so no map entry has to be deleted
+  // for the page to be right, and the generated tiers would put it back anyway.
   var FORM_PROSE = {};
   ("de la le et est ce qui plus souvent parfois contraction même il ne pas non " +
    "pour suite page précédente rarement entendu faudrait vouloir nique porter " +
    "hotte beau bien beauté bonté savoir connaissance vivant vie matin " +
-   "produit matinalité"
+   "produit matinalité bouche rouge rougeur volant"
   ).split(" ").forEach(function (w) {
     FORM_PROSE[w] = 1;
   });

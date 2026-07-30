@@ -761,8 +761,39 @@ needs would grey an entry; and `vl.`/`var.` are already named by `metaAbbr`, whi
 gives them a tooltip the prose branch would take away (`vl|vel — ou / or` is
 asserted in the test). Passed at exactly two call sites, the example line and the
 sub-form. Every word in it was read off those two fields, and every occurrence of
-every one is French — 20 fields, 51 occurrences, 38 types, not one Truku word
+every one is French — 24 fields, 56 occurrences, 42 types, not one Truku word
 among them.
+
+**A list read off the data once is not closed.** Four more were still rendering as
+fake Truku, and two of them **brown**: `Rougeur` as RUUGEUR and G'LEQ's `(=Volant)`
+as VULANT, each asserting a verified modern Truku spelling for a French word — plus
+`bouche` and `rouge` green in YA. Added, and the fields went 20 → 24. No map entry
+was deleted for it: `rougeur` and `volant` are in no curated tier, they are generated,
+so a deletion regenerates — and the prose branch sits *before* `respellable()` is
+asked, so greying the word is the whole fix.
+
+**Predicting the page means replicating the GUARD, not just the branch.** `frtok.py`
+computed `MAP[k] or charRules(k)` and reported 17 mangled words, 13 of which
+FORM_PROSE/TAG_PROSE/metaAbbr had already handled — the same blindness as computing
+green counts from `modern_map.json` while WORD_OVERRIDES sits in `app.js`. Its
+successor replicated the prose sets but still assumed every tag reaches the word
+path, and so reported the largest defect of the class: `plant` in 67 tags and
+`animal` in 64 rendering PRANT and ANIMAR. **Not real.** `tagHtml()` enters
+`linkifyTruku` only when `ROOT_MARK` matches; everything else is `esc(tag)`. So our
+own digitization metadata (`plant`, `animal`, `note`, `name (m)`,
+`[emprunt jap./chin.]`) never reaches `modernize()`, and neither does K'LOX's French
+remark `(Y aurait il parentée avec QOLOX = crâne ?)`, which holds no lone R. The DOM
+settled all of it in one run.
+
+Two things the sweep turned up that are **not** this defect, and are left alone: his
+own words get quoted inside his French glosses, so "appears in a gloss" is not the
+test — `lqlaqe` is in 50 Truku slots and 4 glosses, and a French intrusion is the
+other way round (`bouche`, 1 slot against 37 glosses). And `Morisaka` 森坂 (5 example
+slots, mapped `murisaka`) and `Eco` (KBSULAN's example, rendering ECU green) are a
+**place name and a personal name**, not French. Truku writes no o, so `murisaka` is at
+least consistent with the phonology — but nothing attests either, and a name reached
+only through an example never got a name tag. That is the tier-D name-seeding gap,
+not this one.
 
 Verify by **counting spans, not naming them**. The first test hand-typed the Truku
 words standing beside the French and 8 of 13 were wrong, because in modern mode the
