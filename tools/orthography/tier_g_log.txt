@@ -17,6 +17,7 @@ mpakmpaxan       mpaqmpahan       kpax           qpah               1 derived
 mpamalu          mpamalu          malu           malu               1 derived
 mplenax          mprinah          lenax          rinah              1 derived
 mpsklol          mpsqrul          sklol          sqrul              1 derived
+mpslxlax         mpslhlah         lxlax          lhlah              1 derived
 mptgamil         mptgamil         gamil          gamil              1 derived
 mptquli          mptquli          quli           quli               1 derived
 mslangan         mslangan         slangan        slangan            1 derived

@@ -4934,12 +4934,11 @@
    "tier": "B"
   },
   "l'xlax": {
-   "modern": "lxlax",
-   "tier": "id",
-   "elision_dropped": "l'xlax"
+   "modern": "lhlah",
+   "tier": "M"
   },
   "l'xlaxon": {
-   "modern": "rhrhun",
+   "modern": "lhlahun",
    "tier": "M"
   },
   "l'xluk": {
@@ -6003,15 +6002,15 @@
    "tier": "B"
   },
   "lxlaxan": {
-   "modern": "lxlaxan",
-   "tier": "id"
+   "modern": "lhlahan",
+   "tier": "M"
   },
   "lxlaxe": {
    "modern": "lhlahi",
    "tier": "B"
   },
   "lxlaxon": {
-   "modern": "rhrhun",
+   "modern": "lhlahun",
    "tier": "M"
   },
   "lxluk": {
@@ -6978,8 +6977,8 @@
    "tier": "B"
   },
   "ml'xlax": {
-   "modern": "mrxrax",
-   "tier": "B"
+   "modern": "mlhlah",
+   "tier": "M"
   },
   "mlabu": {
    "modern": "mlabu",
@@ -9956,6 +9955,10 @@
    "modern": "pkrngun",
    "tier": "T"
   },
+  "pkl'xlax": {
+   "modern": "pkhlah",
+   "tier": "M"
+  },
   "pklawa": {
    "modern": "pklawa",
    "tier": "id"
@@ -10308,6 +10311,14 @@
   "plwaon": {
    "modern": "plwaun",
    "tier": "B"
+  },
+  "plxlaxan": {
+   "modern": "plhlahan",
+   "tier": "M"
+  },
+  "plxlaxon": {
+   "modern": "plhlahun",
+   "tier": "M"
   },
   "plyuxun": {
    "modern": "pryuxun",
@@ -13406,9 +13417,8 @@
    "tier": "X"
   },
   "sl'xlax": {
-   "modern": "slxlax",
-   "tier": "id",
-   "elision_dropped": "sl'xlax"
+   "modern": "slhlah",
+   "tier": "M"
   },
   "slaan": {
    "modern": "smlaan",
@@ -15558,6 +15568,10 @@
   },
   "tl'to": {
    "modern": "tleetu",
+   "tier": "M"
+  },
+  "tl'xlax": {
+   "modern": "tlhlah",
    "tier": "M"
   },
   "tla'to": {
@@ -20207,11 +20221,6 @@
    "modern": "pklhkah",
    "tier": "P"
   },
-  "pkl'xlax": {
-   "modern": "pklxlax",
-   "tier": "P",
-   "elision_dropped": "pkl'xlax"
-  },
   "pklabu": {
    "modern": "pklabu",
    "tier": "P"
@@ -20501,16 +20510,8 @@
    "modern": "plhangun",
    "tier": "P"
   },
-  "plxlaxan": {
-   "modern": "plxlaxan",
-   "tier": "P"
-  },
   "plxlaxe": {
    "modern": "plhlahi",
-   "tier": "P"
-  },
-  "plxlaxon": {
-   "modern": "prhrhun",
    "tier": "P"
   },
   "pnanak": {
@@ -22359,11 +22360,6 @@
   "tkt'lol": {
    "modern": "tktrul",
    "tier": "P"
-  },
-  "tl'xlax": {
-   "modern": "tlxlax",
-   "tier": "P",
-   "elision_dropped": "tl'xlax"
   },
   "tlading": {
    "modern": "trajing",
@@ -28402,6 +28398,12 @@
    "modern": "empsqrul",
    "tier": "W",
    "w_was": "mpsqrul",
+   "w_how": "class"
+  },
+  "mpslxlax": {
+   "modern": "empslhlah",
+   "tier": "W",
+   "w_was": "mpslhlah",
    "w_how": "class"
   },
   "mptgamil": {

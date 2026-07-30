@@ -254,6 +254,7 @@ mpsliyu          empsriyu          mpsriyu          P/twin       0     1
 mpsliyux         empsriyux         mpsriyux         P/class      0     1
 mpslnabao        empsrnabaw        mpsrnabaw        P/twin       0     2
 mpsloxao         empsruhaw         mpsruhaw         P/twin       0     1
+mpslxlax         empslhlah         mpslhlah         G/class      0     1
 mpsnama          empsnama          mpsnama          P/class      0     3
 mpsnanak         empsnanak         mpsnanak         E/class      0     1
 mpsopu           empsupu           mpsupu           M/class      0     1
