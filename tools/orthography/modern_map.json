@@ -1019,6 +1019,10 @@
    "modern": "basi",
    "tier": "id"
   },
+  "basyaq": {
+   "modern": "basyaq",
+   "tier": "M"
+  },
   "bato": {
    "modern": "batu",
    "tier": "B"
@@ -1531,6 +1535,14 @@
   },
   "btlukun": {
    "modern": "btlukun",
+   "tier": "M"
+  },
+  "btudan": {
+   "modern": "btudan",
+   "tier": "M"
+  },
+  "btudun": {
+   "modern": "btudun",
    "tier": "M"
   },
   "btunux": {
@@ -2441,6 +2453,10 @@
    "modern": "dungus",
    "tier": "id"
   },
+  "dup": {
+   "modern": "dup",
+   "tier": "M"
+  },
   "duua": {
    "modern": "duwa",
    "tier": "B"
@@ -3035,6 +3051,10 @@
    "modern": "gnlux",
    "tier": "M"
   },
+  "gn'lyeq": {
+   "modern": "gneeliq",
+   "tier": "M"
+  },
   "gn'xpan": {
    "modern": "gnhpan",
    "tier": "B"
@@ -3383,6 +3403,10 @@
   "kari": {
    "modern": "kari",
    "tier": "id"
+  },
+  "kasayang": {
+   "modern": "kasayang",
+   "tier": "M"
   },
   "kating": {
    "modern": "kacing",
@@ -4551,6 +4575,10 @@
    "modern": "knspatan",
    "tier": "id"
   },
+  "knss'gan": {
+   "modern": "knssgan",
+   "tier": "M"
+  },
   "knstmaan": {
    "modern": "kntmaan",
    "tier": "M"
@@ -5708,6 +5736,10 @@
   "llgi": {
    "modern": "llgi",
    "tier": "id"
+  },
+  "llgun": {
+   "modern": "llgun",
+   "tier": "M"
   },
   "llingai": {
    "modern": "llingay",
@@ -6977,6 +7009,10 @@
    "modern": "mgaluk",
    "tier": "M"
   },
+  "mgangax": {
+   "modern": "mgangah",
+   "tier": "M"
+  },
   "mgaya": {
    "modern": "mgaya",
    "tier": "id"
@@ -7153,6 +7189,10 @@
   "mkaxa": {
    "modern": "mkaxa",
    "tier": "id"
+  },
+  "mkbaxang": {
+   "modern": "mqbahang",
+   "tier": "M"
   },
   "mkbolong": {
    "modern": "mkburung",
@@ -8065,6 +8105,10 @@
    "w_was": "mpanalu",
    "w_how": "class"
   },
+  "mpanamo": {
+   "modern": "empaamanu",
+   "tier": "M"
+  },
   "mpananu": {
    "modern": "empaamanu",
    "tier": "M"
@@ -8180,6 +8224,10 @@
    "tier": "W",
    "w_was": "mpriyux",
    "w_how": "class"
+  },
+  "mpn'mu": {
+   "modern": "empnmu",
+   "tier": "M"
   },
   "mpngpong": {
    "modern": "empngpung",
@@ -10945,6 +10993,14 @@
    "modern": "pqpahi",
    "tier": "L"
   },
+  "pkploan": {
+   "modern": "pkpruan",
+   "tier": "M"
+  },
+  "pkploon": {
+   "modern": "pkpruun",
+   "tier": "M"
+  },
   "pkpnpong": {
    "modern": "pkpnpung",
    "tier": "M"
@@ -11166,6 +11222,10 @@
    "modern": "pllayun",
    "tier": "id"
   },
+  "pllgun": {
+   "modern": "pllgun",
+   "tier": "M"
+  },
   "pllyexon": {
    "modern": "pririhun",
    "tier": "M"
@@ -11264,6 +11324,10 @@
   },
   "plxlaxon": {
    "modern": "plhlahun",
+   "tier": "M"
+  },
+  "plyuxai": {
+   "modern": "pryuxi",
    "tier": "M"
   },
   "plyuxun": {
@@ -11451,6 +11515,10 @@
    "modern": "pnuhan",
    "tier": "B"
   },
+  "pnoxon": {
+   "modern": "pnuxun",
+   "tier": "M"
+  },
   "pnpaan": {
    "modern": "pnpaan",
    "tier": "id"
@@ -11558,6 +11626,10 @@
   "pnttingan": {
    "modern": "pntcingan",
    "tier": "B"
+  },
+  "pntudan": {
+   "modern": "pntudan",
+   "tier": "M"
   },
   "pntyusan": {
    "modern": "pnteayusan",
@@ -12273,6 +12345,10 @@
    "modern": "pslian",
    "tier": "M"
   },
+  "pslyuwun": {
+   "modern": "psryuun",
+   "tier": "M"
+  },
   "pslyuxan": {
    "modern": "psryuxan",
    "tier": "M"
@@ -12337,6 +12413,10 @@
    "modern": "pspdagan",
    "tier": "T"
   },
+  "pspdagi": {
+   "modern": "pspdagi",
+   "tier": "M"
+  },
   "pspdagun": {
    "modern": "pspdagun",
    "tier": "M"
@@ -12360,6 +12440,10 @@
   "psploq": {
    "modern": "pspruq",
    "tier": "B"
+  },
+  "psplqe": {
+   "modern": "psprqi",
+   "tier": "M"
   },
   "psplqon": {
    "modern": "psprqun",
@@ -12475,6 +12559,10 @@
    "modern": "pstqun",
    "tier": "B"
   },
+  "psttuy": {
+   "modern": "psttuy",
+   "tier": "M"
+  },
   "pstutwi": {
    "modern": "pstutuy",
    "tier": "B"
@@ -12531,9 +12619,21 @@
    "modern": "pshulis",
    "tier": "T"
   },
+  "psxm'qun": {
+   "modern": "pshmqun",
+   "tier": "M"
+  },
   "psxolyaq": {
    "modern": "pshuriq",
    "tier": "T"
+  },
+  "psyangan": {
+   "modern": "psyangan",
+   "tier": "M"
+  },
+  "psyangi": {
+   "modern": "psyangi",
+   "tier": "M"
   },
   "psyangun": {
    "modern": "psyangun",
@@ -12709,6 +12809,10 @@
    "modern": "ptluung",
    "tier": "B"
   },
+  "ptlukan": {
+   "modern": "ptlukan",
+   "tier": "M"
+  },
   "ptongan": {
    "modern": "ptungan",
    "tier": "B"
@@ -12725,8 +12829,16 @@
    "modern": "ptqiri",
    "tier": "B"
   },
+  "ptqliyun": {
+   "modern": "ptqliyun",
+   "tier": "M"
+  },
   "ptqoan": {
    "modern": "ptquwan",
+   "tier": "M"
+  },
+  "ptqoe": {
+   "modern": "ptquwi",
    "tier": "M"
   },
   "ptqoon": {
@@ -12977,6 +13089,10 @@
   "q'long": {
    "modern": "qrung",
    "tier": "B"
+  },
+  "q'loq": {
+   "modern": "qloq",
+   "tier": "M"
   },
   "q'lxan": {
    "modern": "qlxan",
@@ -14744,6 +14860,10 @@
    "modern": "slngisan",
    "tier": "T"
   },
+  "slngiyun": {
+   "modern": "srngiyun",
+   "tier": "M"
+  },
   "sloa": {
    "modern": "sruwa",
    "tier": "B"
@@ -15399,6 +15519,10 @@
    "modern": "snola",
    "tier": "M"
   },
+  "snoxel": {
+   "modern": "snoxel",
+   "tier": "M"
+  },
   "snpgan": {
    "modern": "snpgan",
    "tier": "id"
@@ -15418,6 +15542,10 @@
   "snqet": {
    "modern": "snqit",
    "tier": "B"
+  },
+  "snqlawax": {
+   "modern": "snkrawah",
+   "tier": "M"
   },
   "snqleqe": {
    "modern": "snqriqi",
@@ -15486,6 +15614,10 @@
   "snxal": {
    "modern": "snxal",
    "tier": "id"
+  },
+  "snxelan": {
+   "modern": "snxelan",
+   "tier": "M"
   },
   "snxeulis": {
    "modern": "snhulis",
@@ -16107,6 +16239,10 @@
   "susu": {
    "modern": "susu",
    "tier": "id"
+  },
+  "suwai": {
+   "modern": "swayi",
+   "tier": "M"
   },
   "suwil": {
    "modern": "suwil",
@@ -16751,6 +16887,10 @@
    "modern": "cyaani",
    "tier": "M"
   },
+  "tibasyaq": {
+   "modern": "tibasyaq",
+   "tier": "M"
+  },
   "tii": {
    "modern": "cii",
    "tier": "B"
@@ -17021,6 +17161,10 @@
    "modern": "tleengan",
    "tier": "M"
   },
+  "tlawa": {
+   "modern": "tlawa",
+   "tier": "M"
+  },
   "tlawai": {
    "modern": "tlaway",
    "tier": "B"
@@ -17092,6 +17236,10 @@
   "tloong": {
    "modern": "tluung",
    "tier": "A"
+  },
+  "tlqelan": {
+   "modern": "trqilan",
+   "tier": "M"
   },
   "tluula": {
    "modern": "treura",
@@ -17328,6 +17476,10 @@
    "modern": "tnbgan",
    "tier": "id"
   },
+  "tnblxan": {
+   "modern": "tnbrahan",
+   "tier": "M"
+  },
   "tnbolox": {
    "modern": "tnbruh",
    "tier": "A"
@@ -17445,6 +17597,10 @@
   },
   "tnpongan": {
    "modern": "tnpngan",
+   "tier": "M"
+  },
+  "tnppngan": {
+   "modern": "tnppngan",
    "tier": "M"
   },
   "tnpusu": {
@@ -17578,6 +17734,10 @@
   "tqole": {
    "modern": "tquri",
    "tier": "L"
+  },
+  "tqq'lang": {
+   "modern": "tqqlang",
+   "tier": "M"
   },
   "tqqalas": {
    "modern": "tqqaras",
@@ -18225,6 +18385,10 @@
   },
   "xdyalan": {
    "modern": "hjyalan",
+   "tier": "M"
+  },
+  "xdyali": {
+   "modern": "hjyali",
    "tier": "M"
   },
   "xe": {
@@ -19794,6 +19958,10 @@
   },
   "mdoa": {
    "modern": "mduwa",
+   "tier": "P"
+  },
+  "mdup": {
+   "modern": "mdup",
    "tier": "P"
   },
   "mg'xal": {
@@ -22675,6 +22843,10 @@
    "modern": "pshngak",
    "tier": "P"
   },
+  "pt'qoe": {
+   "modern": "ptquwi",
+   "tier": "P"
+  },
   "pt'toan": {
    "modern": "pteetuan",
    "tier": "P"
@@ -24786,10 +24958,6 @@
   },
   "md'xoq": {
    "modern": "mdhuq",
-   "tier": "R"
-  },
-  "mdup": {
-   "modern": "mdup",
    "tier": "R"
   },
   "mg'gui": {
@@ -28038,7 +28206,7 @@
    "modern": "ndup",
    "tier": "D",
    "d_rule": "n-",
-   "d_base": "mdup"
+   "d_base": "dup"
   },
   "ndyami": {
    "modern": "ndyami",
@@ -28250,7 +28418,7 @@
    "modern": "ntlawa",
    "tier": "D",
    "d_rule": "n-",
-   "d_base": "mtlawa"
+   "d_base": "tlawa"
   },
   "ntluula": {
    "modern": "ntreura",
@@ -29282,6 +29450,12 @@
    "e_stem": "tlong",
    "e_modern": "tlung"
   },
+  "tnbl'xan": {
+   "modern": "tnbrahan",
+   "tier": "E",
+   "e_stem": "tnblxan",
+   "e_modern": "tnbrahan"
+  },
   "tnk'lae": {
    "modern": "tnklai",
    "tier": "E",
@@ -29632,21 +29806,6 @@
   }
  },
  "review": {
-  "basyaq": {
-   "freq": 1,
-   "pec_gloss": [
-    "暴飲暴食"
-   ],
-   "cands": [
-    {
-     "cand": "basiq",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
-     "agg": true
-    }
-   ]
-  },
   "g'lyeq": {
    "freq": 1,
    "pec_gloss": [],
@@ -29968,13 +30127,6 @@
    ]
   ],
   [
-   "btudan",
-   5,
-   [
-    "詞根為而或為之縮略意指接合之處"
-   ]
-  ],
-  [
    "l'xqoi",
    5,
    [
@@ -30004,23 +30156,9 @@
    []
   ],
   [
-   "dup",
-   3,
-   [
-    "關閉門等參見及"
-   ]
-  ],
-  [
    "et",
    3,
    []
-  ],
-  [
-   "mpn'mu",
-   3,
-   [
-    "將化為塵土"
-   ]
   ],
   [
    "mskoto",
@@ -30074,20 +30212,6 @@
    3,
    [
     "太魯閣人對布農部族成員的稱呼布農人是他們在島上山地領域南端的鄰族"
-   ]
-  ],
-  [
-   "tibasyaq",
-   3,
-   [
-    "行為像貪吃鬼的人過分的人過度地"
-   ]
-  ],
-  [
-   "tnblxan",
-   3,
-   [
-    "全新的剛出現的長子剛出生的"
    ]
   ],
   [
@@ -30169,13 +30293,6 @@
    []
   ],
   [
-   "knss'gan",
-   2,
-   [
-    "令人害怕的能力所引起的恐懼程度"
-   ]
-  ],
-  [
    "likut",
    2,
    [
@@ -30204,11 +30321,6 @@
    ]
   ],
   [
-   "mkbaxang",
-   2,
-   []
-  ],
-  [
    "mngusyex",
    2,
    [
@@ -30221,11 +30333,6 @@
    [
     "八次"
    ]
-  ],
-  [
-   "mpanamo",
-   2,
-   []
   ],
   [
    "mpeidang",
@@ -30261,21 +30368,11 @@
    ]
   ],
   [
-   "pkploon",
-   2,
-   []
-  ],
-  [
    "pksyaon",
    2,
    [
     "想要液化之物"
    ]
-  ],
-  [
-   "pllgun",
-   2,
-   []
   ],
   [
    "psqexon",
@@ -30285,27 +30382,10 @@
    ]
   ],
   [
-   "psyangi",
-   2,
-   []
-  ],
-  [
    "ptqodap",
    2,
    [
     "熄滅終止"
-   ]
-  ],
-  [
-   "ptqoe",
-   2,
-   []
-  ],
-  [
-   "q'loq",
-   2,
-   [
-    "煤煙由煙霧沉積在鍋子牆壁上"
    ]
   ],
   [
@@ -30366,31 +30446,10 @@
    ]
   ],
   [
-   "snoxel",
-   2,
-   [
-    "嫉妒羨慕"
-   ]
-  ],
-  [
-   "snqlawax",
-   2,
-   [
-    "悲傷孤獨可憐"
-   ]
-  ],
-  [
    "snwakat",
    2,
    [
     "長出犬齒長出插枝嫩芽由類比而來"
-   ]
-  ],
-  [
-   "snxelan",
-   2,
-   [
-    "嫉妒的對象妒忌"
    ]
   ],
   [
@@ -30442,11 +30501,6 @@
    [
     "擅長找藉口推託之詞的人"
    ]
-  ],
-  [
-   "tnppngan",
-   2,
-   []
   ],
   [
    "tyaqong",
@@ -30550,11 +30604,6 @@
   ],
   [
    "bsqani",
-   1,
-   []
-  ],
-  [
-   "btudun",
    1,
    []
   ],
@@ -30796,11 +30845,6 @@
    []
   ],
   [
-   "gn'lyeq",
-   1,
-   []
-  ],
-  [
    "gqoaq",
    1,
    [
@@ -30861,11 +30905,6 @@
   ],
   [
    "kaisia",
-   1,
-   []
-  ],
-  [
-   "kasayang",
    1,
    []
   ],
@@ -31007,11 +31046,6 @@
    []
   ],
   [
-   "llgun",
-   1,
-   []
-  ],
-  [
    "lmagap",
    1,
    [
@@ -31091,11 +31125,6 @@
    [
     "遺失的迷失的"
    ]
-  ],
-  [
-   "mgangax",
-   1,
-   []
   ],
   [
    "miko",
@@ -31449,11 +31478,6 @@
    []
   ],
   [
-   "pkploan",
-   1,
-   []
-  ],
-  [
    "plilyes",
    1,
    []
@@ -31465,11 +31489,6 @@
   ],
   [
    "plus",
-   1,
-   []
-  ],
-  [
-   "plyuxai",
    1,
    []
   ],
@@ -31498,11 +31517,6 @@
    []
   ],
   [
-   "pnoxon",
-   1,
-   []
-  ],
-  [
    "pnppaan",
    1,
    []
@@ -31514,11 +31528,6 @@
   ],
   [
    "pnt'toan",
-   1,
-   []
-  ],
-  [
-   "pntudan",
    1,
    []
   ],
@@ -31575,22 +31584,7 @@
    []
   ],
   [
-   "pslyuwun",
-   1,
-   []
-  ],
-  [
    "psnnai",
-   1,
-   []
-  ],
-  [
-   "pspdagi",
-   1,
-   []
-  ],
-  [
-   "psplqe",
    1,
    []
   ],
@@ -31605,27 +31599,7 @@
    []
   ],
   [
-   "psttuy",
-   1,
-   []
-  ],
-  [
    "pstui",
-   1,
-   []
-  ],
-  [
-   "psxm'qun",
-   1,
-   []
-  ],
-  [
-   "psyangan",
-   1,
-   []
-  ],
-  [
-   "pt'qoe",
    1,
    []
   ],
@@ -31650,17 +31624,7 @@
    []
   ],
   [
-   "ptlukan",
-   1,
-   []
-  ],
-  [
    "ptlyaon",
-   1,
-   []
-  ],
-  [
-   "ptqliyun",
    1,
    []
   ],
@@ -31842,11 +31806,6 @@
    ]
   ],
   [
-   "slngiyun",
-   1,
-   []
-  ],
-  [
    "sloani",
    1,
    []
@@ -31943,11 +31902,6 @@
    []
   ],
   [
-   "suwai",
-   1,
-   []
-  ],
-  [
    "sy",
    1,
    []
@@ -32007,23 +31961,9 @@
    []
   ],
   [
-   "tlawa",
-   1,
-   [
-    "深水藍色的註此詞原本的意思無疑是指水呈藍色的深水處並引申指這種藍色本身"
-   ]
-  ],
-  [
    "tloon",
    1,
    []
-  ],
-  [
-   "tlqelan",
-   1,
-   [
-    "彼此殘酷相待互相造成的痛苦註始終指所承受的痛苦"
-   ]
   ],
   [
    "tmago",
@@ -32052,13 +31992,6 @@
    []
   ],
   [
-   "tnbl'xan",
-   1,
-   [
-    "全新的剛出現的長子剛出生的"
-   ]
-  ],
-  [
    "tnoxol",
    1,
    [
@@ -32084,13 +32017,6 @@
    "tqlyaan",
    1,
    []
-  ],
-  [
-   "tqq'lang",
-   1,
-   [
-    "渾身顫抖不已的"
-   ]
   ],
   [
    "tqwini",
@@ -32186,6 +32112,69 @@
   ],
   [
    "xandolu",
+   1,
+   []
+  ],
+  [
+   "xeumi",
+   1,
+   []
+  ],
+  [
+   "xg'xo",
+   1,
+   [
+    "泉源水塘"
+   ]
+  ],
+  [
+   "xnubao",
+   1,
+   [
+    "同上之動詞形"
+   ]
+  ],
+  [
+   "xolao",
+   1,
+   []
+  ],
+  [
+   "xubao",
+   1,
+   [
+    "割撕裂用不鋒利的工具深深地抓傷"
+   ]
+  ],
+  [
+   "xxtlan",
+   1,
+   []
+  ],
+  [
+   "yn",
+   1,
+   []
+  ],
+  [
+   "ñilao",
+   1,
+   [
+    "菇類多孔菌目前有栽培一種牛舌菌生長在樹幹上"
+   ]
+  ],
+  [
+   "mk",
+   1,
+   []
+  ],
+  [
+   "sk",
+   1,
+   []
+  ],
+  [
+   "sk'l't",
    1,
    []
   ]

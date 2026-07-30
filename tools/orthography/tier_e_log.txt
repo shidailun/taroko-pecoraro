@@ -140,6 +140,7 @@ spsdxalun        spsdxalun        psdxalun       psdxalun       derived
 sqlaq            sqlaq            qlaq           qlaq           derived
 tgaox            tgauh            tga            tga            derived
 tmnlong          tmnlung          tlong          tlung          derived
+tnbl'xan         tnbrahan         tnblxan        tnbrahan       derived
 tnk'lae          tnk'lai          tnkla          tnk'la         derived
 tnk'laon         tnklaun          klaon          klaun          derived
 tnklaon          tnklaun          klaon          klaun          derived

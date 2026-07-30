@@ -52,7 +52,7 @@ ndaxa            ndha             n-     daxa             M
 ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
-ndup             ndup             n-     mdup             R
+ndup             ndup             n-     dup              M
 ndyami           ndyami           n-     dyami            P
 neidang          neydang          n-     meidang          M
 nggalu           nggealu          n-     mggalu           M
@@ -87,7 +87,7 @@ nslubwi          nslubuy          n-     slubwi           T
 nslxoqan         nsrhuqan         n-     slxoqan          B
 nssl'pong        nsslupung        n-     mssl'pong        M
 ntgisa           ntgsa            n-     mtgisa           M
-ntlawa           ntlawa           n-     mtlawa           id
+ntlawa           ntlawa           n-     tlawa            M
 ntluula          ntreura          n-     tluula           M
 nxoai            nhuway           n-     xoai             B
 ppaotoç          ppeeutux         CV-    paotoç           M
