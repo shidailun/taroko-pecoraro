@@ -106,14 +106,13 @@ mbukao           embukaw           mbukaw           P/twin       0     2
 mbulax           emburah           mburah           T/class      0     2
 mbutul           embutul           mbutul           P/twin       0     2
 mbuyan           embuyan           mbuyan           R/class      0     1
-mbuyas           embuyas           mbuyas           T/class      0     8
 mp'baki          empbaki           mpbaki           P/class      0     1
 mp'ka'man        empkeeman         mpkeeman         P/class      0     2
 mp'lut           emprut            mprut            P/twin       0     2
 mp'nalu          empnalu           mpnalu           M/class      0     1
 mp'onoç          empeunuh          mpeunuh          P/class      0     1
 mp'qan           empkan            mpkan            P/class      0     1
-mpa'ayo          empaayu           mpaayu           P/class      0     2
+mpa'ayo          empaayug          mpaayug          P/class      0     2
 mpa'ima          empaima           mpaima           P/class      0     2
 mpabugo          empabgu           mpabgu           E/class      0     1
 mpaka'man        empakeeman        mpakeeman        P/class      0     1

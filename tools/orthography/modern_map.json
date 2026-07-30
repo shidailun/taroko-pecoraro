@@ -896,8 +896,8 @@
    "tier": "id"
   },
   "ayo": {
-   "modern": "ayu",
-   "tier": "T"
+   "modern": "ayug",
+   "tier": "M"
   },
   "ayong": {
    "modern": "ayung",
@@ -6517,8 +6517,8 @@
    "tier": "M"
   },
   "m'lbu": {
-   "modern": "mrbu",
-   "tier": "B"
+   "modern": "mgrbu",
+   "tier": "M"
   },
   "m'ling": {
    "modern": "mring",
@@ -6947,10 +6947,8 @@
    "w_how": "class"
   },
   "mbuyas": {
-   "modern": "embuyas",
-   "tier": "W",
-   "w_was": "mbuyas",
-   "w_how": "class"
+   "modern": "nbuyas",
+   "tier": "M"
   },
   "md'xleq": {
    "modern": "mdhriq",
@@ -7575,8 +7573,8 @@
    "tier": "B"
   },
   "ml'bu": {
-   "modern": "mrbu",
-   "tier": "B"
+   "modern": "mgrbu",
+   "tier": "M"
   },
   "ml'lu": {
    "modern": "mllu",
@@ -7639,8 +7637,8 @@
    "tier": "M"
   },
   "mlbu": {
-   "modern": "mrbu",
-   "tier": "B"
+   "modern": "mgrbu",
+   "tier": "M"
   },
   "mleqe": {
    "modern": "mriqi",
@@ -8023,6 +8021,10 @@
    "tier": "L"
   },
   "mnsuwai": {
+   "modern": "mnswayi",
+   "tier": "M"
+  },
+  "mnswai": {
    "modern": "mnswayi",
    "tier": "M"
   },
@@ -14339,8 +14341,8 @@
    "tier": "A"
   },
   "sbiyan": {
-   "modern": "sbiyan",
-   "tier": "T"
+   "modern": "sgbiyan",
+   "tier": "M"
   },
   "sbiyao": {
    "modern": "sbiyaw",
@@ -14711,8 +14713,8 @@
    "tier": "B"
   },
   "skawas": {
-   "modern": "skawas",
-   "tier": "T"
+   "modern": "shkawas",
+   "tier": "M"
   },
   "skaxedao": {
    "modern": "skahidaw",
@@ -18379,8 +18381,8 @@
    "tier": "M"
   },
   "usuk": {
-   "modern": "usuk",
-   "tier": "T"
+   "modern": "usux",
+   "tier": "M"
   },
   "utaq": {
    "modern": "utaq",
@@ -20491,10 +20493,6 @@
    "modern": "mnspat",
    "tier": "P"
   },
-  "mnswai": {
-   "modern": "mnswai",
-   "tier": "P"
-  },
   "mp'baki": {
    "modern": "empbaki",
    "tier": "W",
@@ -20544,9 +20542,9 @@
    "w_how": "twin"
   },
   "mpa'ayo": {
-   "modern": "empaayu",
+   "modern": "empaayug",
    "tier": "W",
-   "w_was": "mpaayu",
+   "w_was": "mpaayug",
    "w_how": "class"
   },
   "mpa'ima": {
@@ -29034,10 +29032,10 @@
    "e_modern": "rqdug"
   },
   "m'ayo": {
-   "modern": "mayu",
+   "modern": "mayug",
    "tier": "E",
    "e_stem": "ayo",
-   "e_modern": "ayu"
+   "e_modern": "ayug"
   },
   "mapala": {
    "modern": "mapala",
