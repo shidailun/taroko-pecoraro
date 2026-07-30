@@ -591,8 +591,21 @@
     // here, before glossCites(), because what makes an unpaired " a Truku word
     // is precisely that it is NOT one of these. Both ends must sit at a word
     // boundary — his elision mark is glued to a letter on the inside (B"lo).
+    //
+    // Not enough on its own: the mark also OPENS a word ("QAN = ekan) and CLOSES
+    // one (Ma"), and a line carrying both reads as a matched pair — `"qan n'xali !
+    // Ma" so psola sadyaq!` was being set as “qan n'xali ! Ma”, which pulls the
+    // mark off ekan and leaves a bare green qan. Only the lexicon separates the
+    // two: a quoted French word is not a Truku word, so if either end is a form
+    // the map knows, these are two elisions and not a quotation.
     t = t.replace(/(^|[^A-Za-zÀ-ÿ])"([^"]{1,60})"(?![A-Za-zÀ-ÿ])/g,
-      french ? "$1«$2»" : "$1“$2”");
+      function (all, pre, inner) {
+        var open = /^[A-Za-zÀ-ÿłŁʔ'’ʼ"]+/.exec('"' + inner);
+        var close = /[A-Za-zÀ-ÿłŁʔ'’ʼ"]+$/.exec(inner);
+        if ((open && respellable(open[0])) ||
+            (close && respellable(close[0] + '"'))) return all;
+        return pre + (french ? "«" + inner + "»" : "“" + inner + "”");
+      });
     t = t.replace(/\s+([,;:!?%.])/g, "$1");
     t = t.replace(/([A-Za-zÀ-ÿ])\.\.(?!\.)/g, "$1.");                  // "etc.." → "etc."
     t = t.replace(/\.([!?])/g, "$1");   // he sometimes types both ("ka … nami. !")

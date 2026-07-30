@@ -199,7 +199,6 @@ mplingis         emplingis         mplingis         R/twin       0     1
 mpliyux          empriyux          mpriyux          T/class      0     3
 mploqex          empluqih          mpluqih          P/class      0     1
 mplukus          emplukus          mplukus          P/twin       0     1
-mpn'mu           empnmu            mpnmu            E/class      0     3
 mpnanak          empnanak          mpnanak          P/class      0     1
 mpngpong         empngpung         mpngpung         M/class      0     1
 mpnmuon          empnmuun          mpnmuun          R/class      0     1

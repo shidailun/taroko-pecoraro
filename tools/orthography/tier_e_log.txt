@@ -44,7 +44,6 @@ mpgalang         mpgarang         pgalang        pgarang        derived
 mpgleq           mpgriq           mpgleq         mpgriq         derived
 mpkslaan         mpkslaan         kslaan         kslaan         derived
 mpl'çan          mplxan           lxan           lxan           derived
-mpn'mu           mpn'mu           nmu            n'mu           derived
 mpnpong          mpnpung          pnpong         pnpung         derived
 mpnxmadan        mpnhmadan        pnxmadan       pnhmadan       derived
 mppkluli         mppqluli         pkluli         pqluli         derived

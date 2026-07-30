@@ -40,7 +40,6 @@ mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P
 n'kai            nkay             n-     m'kai            B
-n'mu             n'mu             n-     'mu              id
 n'ulat           nurat            n-     m'ulat           P
 n'xalan          n'xalan          n-     m'xalan          T
 nalong           narung           n-     malong           B
@@ -71,7 +70,6 @@ nmikat           nmikat           n-     mikat            N
 nmilit           nmirit           n-     milit            A
 nmulun           nmulun           n-     mulun            M
 nmxa             nmha             n-     mxa              A
-nn'mu            nn'mu            CV-    n'mu             D
 nndaxa           nndha            CV-    ndaxa            D
 npalaqe          npalaqi          n-     mpalaqe          P
 npd'xok          npdhuq           n-     pd'xok           A

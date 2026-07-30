@@ -707,9 +707,8 @@
    "tier": "A"
   },
   "'bi": {
-   "modern": "bi",
-   "tier": "id",
-   "elision_dropped": "'bi"
+   "modern": "biyi",
+   "tier": "M"
   },
   "'hma": {
    "modern": "hma",
@@ -717,7 +716,7 @@
    "elision_dropped": "'hma"
   },
   "'lo": {
-   "modern": "elug",
+   "modern": "eeru",
    "tier": "M"
   },
   "'loan": {
@@ -729,23 +728,16 @@
    "tier": "B"
   },
   "'lu": {
-   "modern": "lu",
-   "tier": "id",
-   "elision_dropped": "'lu"
+   "modern": "elug",
+   "tier": "M"
   },
   "'löt": {
    "modern": "erut",
    "tier": "M"
   },
   "'ma": {
-   "modern": "ma",
-   "tier": "id",
-   "elision_dropped": "'ma"
-  },
-  "'mu": {
-   "modern": "mu",
-   "tier": "id",
-   "elision_dropped": "'mu"
+   "modern": "hma",
+   "tier": "M"
   },
   "'qan": {
    "modern": "ekan",
@@ -2798,6 +2790,10 @@
   "gm'loq": {
    "modern": "gmluq",
    "tier": "B"
+  },
+  "gm'lu": {
+   "modern": "gmeelug",
+   "tier": "M"
   },
   "gm'luk": {
    "modern": "gmluq",
@@ -6156,9 +6152,8 @@
    "elision_dropped": "ma'lan"
   },
   "ma'lu": {
-   "modern": "malu",
-   "tier": "id",
-   "elision_dropped": "ma'lu"
+   "modern": "meelug",
+   "tier": "M"
   },
   "ma'so": {
    "modern": "masu",
@@ -10337,8 +10332,8 @@
    "tier": "M"
   },
   "pn'lu": {
-   "modern": "pnru",
-   "tier": "B"
+   "modern": "pneelug",
+   "tier": "M"
   },
   "pnais": {
    "modern": "pnais",
@@ -17508,11 +17503,6 @@
   "gm'leq": {
    "modern": "gmriq",
    "tier": "P"
-  },
-  "gm'lu": {
-   "modern": "gmlu",
-   "tier": "P",
-   "elision_dropped": "gm'lu"
   },
   "gmleq": {
    "modern": "gmriq",
@@ -26852,13 +26842,6 @@
    "d_rule": "n-",
    "d_base": "m'kai"
   },
-  "n'mu": {
-   "modern": "nmu",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "'mu",
-   "elision_dropped": "n'mu"
-  },
   "n'ulat": {
    "modern": "nurat",
    "tier": "D",
@@ -27040,13 +27023,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "mxa"
-  },
-  "nn'mu": {
-   "modern": "nnmu",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "n'mu",
-   "elision_dropped": "nn'mu"
   },
   "nndaxa": {
    "modern": "nndha",
@@ -27608,12 +27584,6 @@
    "modern": "emplxan",
    "tier": "W",
    "w_was": "mplxan",
-   "w_how": "class"
-  },
-  "mpn'mu": {
-   "modern": "empnmu",
-   "tier": "W",
-   "w_was": "mpnmu",
    "w_how": "class"
   },
   "mpnpong": {
@@ -29184,6 +29154,13 @@
    "mnsuwai",
    3,
    []
+  ],
+  [
+   "mpn'mu",
+   3,
+   [
+    "將化為塵土"
+   ]
   ],
   [
    "mpnyeqon",
@@ -31333,11 +31310,6 @@
    [
     "曾在動曾在移動顫動震動過的"
    ]
-  ],
-  [
-   "mnxa",
-   1,
-   []
   ]
  ]
 }
