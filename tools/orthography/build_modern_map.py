@@ -1493,11 +1493,33 @@ def main():
     # conservative: attested is attested, the same principle as the id tier. Not a
     # manual_map entry, because freezing 128 stems there would silently override any
     # future stem fix — the map is regenerated, and a post-pass composes with it.
+    # The blind half rests on class evidence alone, and the class is close to absolute:
+    # exactly ONE m+labial-initial type in all 38,687 modern types lacks an e-form
+    # (`mpotoh` 2×, unglossed, beside the attested `mputuh` 斷掉), and `mpa-` has 0
+    # types against `empa-`'s 50 — a real prefix, "will become X" (`empatas` 100×
+    # 在…讀書). Of 149 blind values, **none** takes the competing m-on-a-p-root reading:
+    # not one leaves an attested p-initial word when only the m is stripped, while 100
+    # leave a directly attested stem (`emp`+`nanak` 600×, `iya` 572×, `piya` 515×,
+    # `baki` 488×). This is the batch-25 argument — a blind slot moves from a spelling
+    # that is definitely not modern to one that is at least well formed.
+    #
+    # What still has to be checked is the shape of the RESULT, by the same n-gram logic
+    # that found the vein: the e-form's initial must be one modern words actually take.
+    # 48 of the 49 witnessless values pass with 17–455 types sharing their initial;
+    # `mpyah` alone fails, `empy-` being 0×, so it stays out — his P'IYAX 來 is
+    # `empiyah`, and prepending an e to a syncopated stem would only invent a new
+    # impossible initial in place of the old one.
+    LICIT = collections.Counter()
+    for w in list(attested) + list(spoken):
+        LICIT[w[:4]] += 1
     w_log = []
     for t in sorted(result):
         rec = result[t]
         v = rec["modern"]
-        if rec["tier"] in ("X", "W") or v != v.lower():
+        # X declares itself on screen; N and J are frozen populations, and this is a
+        # rule about a TRUKU prefix — it has nothing to say about a man's name (`mpa`)
+        # or a Japanese loan (`mbosi`), and the class branch reached all four.
+        if rec["tier"] in ("X", "W", "N", "J") or v != v.lower():
             continue
         if not (v.startswith("mp") or v.startswith("mb")):
             continue
@@ -1506,12 +1528,17 @@ def main():
             continue                        # his form is itself modern Truku
         e = "e" + v
         ne = norm(e)
-        if not (ne in attested or spoken.get(ne)):
-            continue                        # no twin: class evidence alone, not enough
+        if ne in attested or spoken.get(ne):
+            how = "twin"
+        elif LICIT[ne[:4]]:
+            how = "class"                   # no twin, but a licit modern initial
+        else:
+            continue
         tiers[rec["tier"]] -= 1
         tiers["W"] += 1
-        w_log.append((t, e, v, rec["tier"], spoken.get(ne, 0), tokens.get(t, 0)))
-        result[t] = {"modern": e, "tier": "W", "w_was": v}
+        w_log.append((t, e, v, rec["tier"] + "/" + how,
+                      spoken.get(ne, 0), tokens.get(t, 0)))
+        result[t] = {"modern": e, "tier": "W", "w_was": v, "w_how": how}
 
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
