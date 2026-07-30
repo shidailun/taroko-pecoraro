@@ -900,6 +900,29 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   claim. `dom31.py` asserts all of those unmoved: 43 cards, 65 brown, 44 banned-form,
   **0 failures**. Impossible values 1,114 → 1,103, identity claims 391 → 380.
 
+  **`ts` → `c` is NOT a class — tested and rejected.** It looks like one, since modern `c` is
+  /ts/ and 1,230 types carry it, and `tsmanan` 破曉/清晨 pairs with a `csmanan` glossed 清晨.
+  But **modern Truku writes `ts` too** — 48 types / 74 tokens (`emptsamat` 18×, `tsasaw` 6×,
+  `ptsani` 4×, `tsongan` 4×) — and of the 27 map values containing `ts`, three are attested
+  **with** the `ts` (`tssagan`, `tsgasut`, `tsasao`) while **every single c-twin is 0×**. The
+  correspondence that made `di`/`ti` safe is exactly absent here. Anything in the TS'APAT /
+  TSLABANG / TSDAXAL families needs individual gloss evidence, not the sequence.
+
+  **`tools/orthography/../tmp/glossmatch.py` (not in the repo) mechanises the batch-29-to-31
+  loop** so it stops being sixteen hand lookups per batch: for every impossible value it takes
+  his headword-level gloss (never an example sentence — those describe a whole clause and match
+  anything), finds every modern word whose gloss overlaps, and scores the pair on **both** axes,
+  gloss overlap × shape distance. Neither alone is usable: gloss-only proposes lexical
+  substitutions, shape-only walks into the raki/laqi trap. 151 of the 1,103 have a candidate
+  scoring on both. Top of that list, adjudicated but **not yet applied**: `kn'udus` → `kneudus`
+  54× 生命 (his apostrophe is the modern `e`, cf. `meudus` 67×), `knstmaan` → `kntmaan` 3× 信仰,
+  `msspong` → `mspung` 7× 摔角, `kptoxan` → `kmptuhan` 6× 寡婦, `iing` → `iying` 尋找
+  (`miying` 135×), `knqlinut` → `qngqrinut` (the batch-28 infix again, parallel to `qngqalux`),
+  and `tl'xlax` → the `hurah` 鬆開 family, which is one of the split families left open by
+  batch 23. The four PAIS forms it scores highly (`ppais`, `dpais`, `pnpais`, `mapais`) are a
+  **false positive worth remembering**: the gloss is 敵人 and the candidate is bare `pais` 126×,
+  which is the root and not the form — high on both axes, still wrong.
+
   `dom23.py` asserts the ten plus **twenty neighbours that must not have moved**,
   because the rejections are the load-bearing part: 77 cards, 98 brown, 90
   banned-form, 0 failures, with LABANG keeping its l on all four forms and
