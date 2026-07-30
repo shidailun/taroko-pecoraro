@@ -180,6 +180,33 @@ def load_corpus():
     # source contributes only the tokens that occur nowhere outside the loan
     # entries; a single-token one is the loan itself and always counts.
     loan_srcs, native_tokens = [], set()
+    # Our own digitization tags a man's or woman's name outright — `name (m)` 137
+    # times, `name (f)` 87 — and nothing here ever read it. Tier N reconstructs the
+    # same fact from capitalisation statistics, so it reaches only the names he
+    # happened to put in a sentence, and l>r renamed the rest: LAKAX came out
+    # Rakah, SOBIL Subir, TOLI Turi. The tag IS the evidence; take it.
+    #
+    # Two restrictions, or the seed does damage. A name whose token is also some
+    # other entry's headword or sub-form is excluded: Truku names ARE nouns
+    # (LONGAI 猴子, XALONG 松樹, PALAS, KALAO), the noun is the entry carrying the
+    # gloss, and one bare token cannot render two ways. And `name (.., jp)` is
+    # excluded because his Japanese romanization is a different system — the tier-J
+    # comment above says his Japanese o stays o (SATO, DOKU) — so whether Toro is
+    # turu or toro is a question about Japanese, not about his Truku spelling.
+    name_first, nonname_forms = set(), set()
+    for e in entries:
+        tg = e.get("tag") or ""
+        isname = re.search(r"\bname\b", tg, re.I) and "jp" not in tg.lower()
+        forms = [e.get("hw")] + [s.get("form") for s in e.get("subs", [])]
+        if isname:
+            hw0 = TOKEN_RE.findall(re.split(r"[(\[=]", e.get("hw") or "")[0])
+            if hw0:
+                name_first.add(tkey(hw0[0]))
+        if not re.search(r"\bname\b", tg, re.I):
+            for f in forms:
+                nonname_forms.update(tkey(t) for t in
+                                     TOKEN_RE.findall(re.split(r"[(\[=]", f or "")[0]))
+    name_heads = name_first - nonname_forms
     for e in entries:
         hwt = TOKEN_RE.findall(e.get("hw") or "")
         if hwt:
@@ -230,7 +257,8 @@ def load_corpus():
     for src in loan_srcs:
         ts = [tkey(t) for t in TOKEN_RE.findall(src or "")]
         loan_tokens.update(ts if len(ts) == 1 else [t for t in ts if t not in native_tokens])
-    return tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens
+    return (tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens,
+            name_heads)
 
 # ---------------- omnibus ----------------
 def load_omnibus():
@@ -459,7 +487,8 @@ def gloss_overlap(pec_glosses, omni_glosses):
     return best
 
 def main():
-    tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens = load_corpus()
+    (tokens, glosses, families, cased, ex_fams, midcap, heads, loan_tokens,
+     name_heads) = load_corpus()
     word_raw, word_gloss, sent_best = load_omnibus()
     spoken = load_spoken()
     words_set = set(word_raw)
@@ -1026,28 +1055,43 @@ def main():
     # noun is) and is never written lowercase anywhere in the book. Those keep
     # their l; o>u, x>h and the final -ai/-ao conversions are near-universal and
     # still apply, so Pisao becomes Pisaw and Labai Labay while Sibal stays Sibal.
+    #
+    # Runs after tier S on purpose, and the `t in result` guard below is what keeps
+    # it there: attestation outranks the freeze. The community really does write
+    # KULAS as kuras (24x), LABAI rabay (42x), LIBIç ribix (11x) — those are tier S
+    # and must stay r. The freeze is for the names no corpus has an opinion about.
     n_log = []
-    for t in sorted(midcap):
+    for t in sorted(set(midcap) | name_heads):
         if t in result or t in OVERRIDE_KEYS or len(norm(t)) < 3:
             continue
-        # "Never lowercase anywhere" is one stray keystroke away from failing.
-        # Wilang is Wilang 9 times mid-sentence and WILANG once as a headword,
-        # and wilang exactly once — and that one slip vetoed the man. So the
-        # veto now needs the lowercase reading to be more than a slip: mid-
-        # sentence capitals must still be at least 60% of every occurrence.
-        # Measured: this admits 5 tokens and all 5 are proper nouns — Wilang and
-        # Dloan (men), Taolan (a neighbour), Tagaxan (a place he climbs to) and
-        # Taiwan. Dropping the 60% and asking only that capitals outnumber
-        # lowercase admits 142, led by ini, ana, adi and malu, which are
-        # capitalized because they start his sentences; that gate is useless.
-        low = sum(v for s, v in cased.get(t, {}).items() if s[:1].islower())
-        if low and midcap[t] < 0.6 * tokens[t]:
-            continue
-        m = keep_l(plain(t))
+        if t not in name_heads:
+            # "Never lowercase anywhere" is one stray keystroke away from failing.
+            # Wilang is Wilang 9 times mid-sentence and WILANG once as a headword,
+            # and wilang exactly once — and that one slip vetoed the man. So the
+            # veto now needs the lowercase reading to be more than a slip: mid-
+            # sentence capitals must still be at least 60% of every occurrence.
+            # Measured: this admits 5 tokens and all 5 are proper nouns — Wilang and
+            # Dloan (men), Taolan (a neighbour), Tagaxan (a place he climbs to) and
+            # Taiwan. Dropping the 60% and asking only that capitals outnumber
+            # lowercase admits 142, led by ini, ana, adi and malu, which are
+            # capitalized because they start his sentences; that gate is useless.
+            # A tag seed needs none of this: `name (m)` is not a statistic.
+            low = sum(v for s, v in cased.get(t, {}).items() if s[:1].islower())
+            if low and midcap[t] < 0.6 * tokens[t]:
+                continue
+        # The ending conversion has to be asked BEFORE keep_l, not after. keep_l is
+        # o>u, so by the time it returned, -ao was already -au and endswith("ao")
+        # could never match: the documented "Pisao becomes Pisaw" never fired, and
+        # the tier quietly emitted -au. It went unnoticed because tier S owns every
+        # attested -aw name (asaw 91x, tadaw 71x, umaw 66x) and the only -au tier N
+        # ever reached was beau, unattested either way. The tag seed makes it live —
+        # amai, dawai, masai, tilae are all reached now — so fix the order.
+        m = plain(t)
         for src, dst in S_END[:3]:
             if m.lower().endswith(src):
                 m = m[: -len(src)] + dst
                 break
+        m = keep_l(m)
         result[t] = {"modern": m, "tier": "N"}
         tiers["N"] += 1
         review.pop(t, None)

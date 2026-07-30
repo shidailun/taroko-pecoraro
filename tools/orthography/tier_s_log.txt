@@ -32,6 +32,7 @@ knliyan          knriyan               2     1
 lnawax           rnawah                2     1
 misa             misa                  6     1
 muçul            muxul                 4     1
+okan             ukan                  4     1
 pblnaxe          pbrnahi               3     1
 pgsai            pgsai                 4     1
 pkllusi          pkrrusi               3     1

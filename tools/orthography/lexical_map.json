@@ -21,5 +21,6 @@
  "t'bako": "lumak",
  "tbako": "lumak",
  "ttuon": null,
- "ttuun": null
+ "ttuun": null,
+ "_ndiyan": "A sixth per-token conflict, and the only one so far that the DERIVED form resolves. Two entries are DIYAN: the common noun 白天 (R), which is modern jiyan (44x, the d>j before i that no char rule reaches), and a man’s name tagged name (m). The bare token can only render one way and goes to jiyan, which is right for the noun. But ndiyan occurs exactly once, in YAKO’s “N’ima ka libul nii? NDiyan xo?” = “Whose banana is this? Is it Diyan’s?” -- there the referent is unambiguously the person, so the n- possessive of a NAME must not take d>j. charRules() reaches nothing in it (no l, o or x), so the block leaves NDIYAN on screen exactly as he wrote it. A block is honest when the answer is unknowable; this one is honest because the answer is known and it is “leave it alone”."
 }
