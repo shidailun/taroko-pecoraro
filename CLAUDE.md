@@ -122,7 +122,7 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (375) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (389) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
   Sometimes **his own tag names the modern spelling**: SPU is tagged
   `(SPU" - SPUG) (R)`, and his sub-forms Spgan / Snpgan / Pnspgan / Sspgan all
   keep that g — only Spu, Smpu and Pspu dropped it. Modern `smpug` is 95× in
@@ -136,7 +136,34 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   skips those (app.js resolves them first, in `WORD_OVERRIDES`) — six `dui`-family
   entries were written and silently ignored before that was noticed. `WORD_OVERRIDES`
   is invisible to the generated map, so the map is never evidence about colour;
-  only the DOM is.
+  only the DOM is. That cuts both ways, and the second direction cost a batch:
+  a scan that reads the map to decide what is still green will offer up words that
+  have been brown all along. Eight of the twenty entries in batch 14 were the KLUI
+  family, re-derived from the corpus and written down before it turned out that
+  `WORD_OVERRIDES` already carried all eight, with the same values. Any tool that
+  asks "is this green?" has to consult the whole chain, not the map.
+
+  Systematizing the SPU find: **all 1,850 root tags scanned** for a bracketed
+  variant that is a near-shape of the headword (`tagvar.py`) gives 49 pairs, of
+  which 11 had a variant the corpus resolves while the headword stayed green.
+  That vein produced TUIL (his tag says `(TUWIL ?)`, and `tmtuwil` 專捕鰻魚 /
+  `ptuwil` 養鰻魚 / `gmtuwil` 專挑鰻魚 prove the stem — the omnibus even glosses
+  bare `tuwil` 人名（男）, which is his own note that it nicknames tall thin young
+  men), TMAMuX → `tmeemux` 交配 (modern `mux` is glossed "為「tmeemux 交配」的
+  詞根"), SA'GUL → `seegul` 綁住 beside his already-mapped MA'GUL → `mgul`,
+  GQANI → `glqani` 拿去出草, and DUX → `dux` (a no-change verdict: `kndux` 厚 6×,
+  `mkndux` 厚的 5×, `mkdux` 5× all keep it). The rest of the 11 have variants that
+  are only rule output — `tatu`, `psuqih`, `snkrawah`, `bubao`, `klulus` are all
+  0-attested — and a rule output is not evidence, so they stay green.
+
+  Two homonym scares in that batch, both checked before acting and both wrong:
+  `xili` → `hili` looked like a trap because his XILI is 用手指指人 while `hili`
+  is 最小的、老么 — but `hili` has a second sense, 誣賴, carried by `dmhili`
+  誣賴的人 and `emphili` 會誣賴, which is exactly pointing the finger at someone.
+  And `g'loq` → `gluq` looked wrong because `gluq` is glossed 污垢, until his own
+  XG'LOQ 出鞘－拔出 turned out to be modern `hmgluq` 抽;拔. His X'LI 倒入, on the
+  other hand, is a *different entry* the shape-scan conflated with XILI, and it
+  stays green.
 - **L** (251) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
@@ -167,7 +194,9 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   guesses when two readings survive. The gloss veto here is a *rejection* test —
   no character in common at all — not `gloss_overlap()`, which wants a contiguous
   run and so rejected nduk/mduk for stating the same thing in a different order.
-- **KL** (42) — keep-l guard: tokens frozen against a wrong l→r.
+- **KL** (39) — keep-l guard: tokens frozen against a wrong l→r. It works off the
+  map, so a token blocked out of every tier (see `pskluyun` below) is out of its
+  reach too.
 - **D** (125) — morphology over an already-solved base. Lowking Nowbucyang,
   太魯閣語構詞法研究 (*Word Formation in Truku*, 2008) §3.4: Truku reduplication is
   CV- or CVCV-, and since Truku doesn't write the schwa, CV- surfaces in the
@@ -378,6 +407,20 @@ untouched; there is nothing to disclose when his spelling is what's on screen.
   and the search index is built from it, so one token cannot render two ways
   without breaking lookup. Green is the honest colour for a reading that depends
   on which entry you are standing in.
+- A fourth use, and the one that shows what the block does and does not buy:
+  **a rule output nobody can check**. `pskluyun` was reaching the screen as
+  PSKRUYUN, an l→r on a family that keeps l in all eleven of its attested modern
+  forms (`kluwi` 驚醒, `skluwi` 嚇一跳, `mskluwi` 驚嚇, `mnskluwi` 12× …), and the
+  KL guard had not caught it. There is no modern `-un` form of any `-uwi` root on
+  record, so `pskluwiun` would be an invention; the block is the honest move.
+  But **blocking changes the colour, not the spelling**: green words are still
+  displayed through `charRules()`, which does the same l→r, so the word still
+  reads PSKRUYUN — in green now, alongside its siblings `kluyun` and `skluyun`,
+  which were already green and already showing that r. Green does not mean
+  "left as he wrote it"; it means "rule-guessed, unverified". What the block
+  bought is that one of the three no longer *claims* the r. There is no third
+  state available: `respellable()` is membership in one of the three tables, so
+  every word is either a claim (brown) or a guess (green).
 - The six live now:
   - `q'nao` → `qusul` (garlic). All 32,212 omnibus words swept; the modern Allium
     field is `qusul` / `pixil` / `neygi` / `sangas` and nothing is shaped like

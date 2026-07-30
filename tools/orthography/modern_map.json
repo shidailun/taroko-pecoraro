@@ -2313,6 +2313,10 @@
    "modern": "duwa",
    "tier": "B"
   },
+  "dux": {
+   "modern": "dux",
+   "tier": "M"
+  },
   "dx'leq": {
    "modern": "dhriq",
    "tier": "B"
@@ -2848,6 +2852,10 @@
    "modern": "gutu",
    "tier": "A"
   },
+  "gqani": {
+   "modern": "glqani",
+   "tier": "M"
+  },
   "gqgoq": {
    "modern": "gqguq",
    "tier": "B"
@@ -2971,6 +2979,10 @@
   "iyaxan": {
    "modern": "iyaxan",
    "tier": "id"
+  },
+  "iyup": {
+   "modern": "iyup",
+   "tier": "M"
   },
   "iyus": {
    "modern": "iyus",
@@ -11644,6 +11656,10 @@
    "tier": "id",
    "elision_dropped": "s'ayang"
   },
+  "s'gul": {
+   "modern": "seegul",
+   "tier": "M"
+  },
   "s'lo": {
    "modern": "sru",
    "tier": "B"
@@ -11701,6 +11717,10 @@
    "modern": "sa",
    "tier": "id"
   },
+  "sa'gul": {
+   "modern": "seegul",
+   "tier": "M"
+  },
   "sa'mul": {
    "modern": "samul",
    "tier": "M",
@@ -11741,6 +11761,10 @@
   },
   "sadyaq": {
    "modern": "seejiq",
+   "tier": "M"
+  },
+  "sadyaqon": {
+   "modern": "sjiqun",
    "tier": "M"
   },
   "sagas": {
@@ -13042,6 +13066,10 @@
    "tier": "id",
    "elision_dropped": "snk'la"
   },
+  "snkawai": {
+   "modern": "snkaway",
+   "tier": "M"
+  },
   "snkaxa": {
    "modern": "snkaxa",
    "tier": "id"
@@ -14282,6 +14310,10 @@
    "modern": "tgxalun",
    "tier": "id"
   },
+  "tiani": {
+   "modern": "cyaani",
+   "tier": "M"
+  },
   "tii": {
    "modern": "cii",
    "tier": "B"
@@ -14350,9 +14382,17 @@
    "modern": "cicih",
    "tier": "M"
   },
+  "tiu": {
+   "modern": "ciyu",
+   "tier": "M"
+  },
   "tixong": {
    "modern": "cihung",
    "tier": "B"
+  },
+  "tiyan": {
+   "modern": "cyuan",
+   "tier": "M"
   },
   "tiyu": {
    "modern": "ciyu",
@@ -14598,6 +14638,10 @@
   "tmalang": {
    "modern": "tmalang",
    "tier": "id"
+  },
+  "tmamux": {
+   "modern": "tmeemux",
+   "tier": "M"
   },
   "tmapak": {
    "modern": "tmapaq",
@@ -15082,6 +15126,10 @@
    "modern": "tudu",
    "tier": "B"
   },
+  "tuil": {
+   "modern": "tuwil",
+   "tier": "M"
+  },
   "tukwi": {
    "modern": "tukuy",
    "tier": "B"
@@ -15218,8 +15266,16 @@
    "modern": "thungul",
    "tier": "T"
   },
+  "tyaani": {
+   "modern": "cyaani",
+   "tier": "M"
+  },
   "tyex": {
    "modern": "cih",
+   "tier": "M"
+  },
+  "tyusun": {
+   "modern": "ciyusun",
    "tier": "M"
   },
   "töting": {
@@ -17102,6 +17158,10 @@
   },
   "mgxei": {
    "modern": "mghiyi",
+   "tier": "P"
+  },
+  "miyup": {
+   "modern": "miyup",
    "tier": "P"
   },
   "mk'angal": {
@@ -23304,10 +23364,6 @@
    "modern": "pskrtun",
    "tier": "R"
   },
-  "pskluyun": {
-   "modern": "pskruyun",
-   "tier": "R"
-  },
   "psklyaan": {
    "modern": "pskryaan",
    "tier": "R"
@@ -24034,10 +24090,6 @@
    "modern": "tikai",
    "tier": "R"
   },
-  "tiyan": {
-   "modern": "tiyan",
-   "tier": "R"
-  },
   "tknayun": {
    "modern": "tknayun",
    "tier": "R"
@@ -24223,10 +24275,6 @@
   },
   "txongan": {
    "modern": "thungan",
-   "tier": "R"
-  },
-  "tyaani": {
-   "modern": "tyaani",
    "tier": "R"
   },
   "ubai": {
@@ -24533,11 +24581,6 @@
    "modern": "misa",
    "tier": "S",
    "spoken": 6
-  },
-  "miyup": {
-   "modern": "miyup",
-   "tier": "S",
-   "spoken": 10
   },
   "mlmilit": {
    "modern": "mrmirit",
@@ -27068,6 +27111,11 @@
    "tier": "V",
    "v_twin": "baba"
   },
+  "g'qani": {
+   "modern": "glqani",
+   "tier": "V",
+   "v_twin": "gqani"
+  },
   "gnlqan": {
    "modern": "gnlqan",
    "tier": "V",
@@ -27665,18 +27713,6 @@
    ]
   ],
   [
-   "sadyaqon",
-   5,
-   []
-  ],
-  [
-   "snkawai",
-   5,
-   [
-    "已道別已陪走了一段路"
-   ]
-  ],
-  [
    "klilu",
    4,
    [
@@ -27775,11 +27811,6 @@
   ],
   [
    "tbilan",
-   4,
-   []
-  ],
-  [
-   "tiu",
    4,
    []
   ],
@@ -28209,13 +28240,6 @@
    ]
   ],
   [
-   "sa'gul",
-   3,
-   [
-    "被綁住被拴住"
-   ]
-  ],
-  [
    "sapang",
    3,
    [
@@ -28339,23 +28363,9 @@
    ]
   ],
   [
-   "tuil",
-   3,
-   [
-    "鰻魚"
-   ]
-  ],
-  [
    "twa'la",
    3,
    []
-  ],
-  [
-   "tyusun",
-   3,
-   [
-    "烤煎炸用於名詞化未來式"
-   ]
   ],
   [
    "uin",
@@ -28505,13 +28515,6 @@
    []
   ],
   [
-   "g'qani",
-   2,
-   [
-    "收刀入鞘用來入鞘插入套入"
-   ]
-  ],
-  [
    "galup",
    2,
    [
@@ -28537,20 +28540,6 @@
    2,
    [
     "專注清醒受感動安詳"
-   ]
-  ],
-  [
-   "gqani",
-   2,
-   [
-    "收刀入鞘用來入鞘插入套入"
-   ]
-  ],
-  [
-   "iyup",
-   2,
-   [
-    "吹註引申為熄滅參見"
    ]
   ],
   [
@@ -29316,11 +29305,6 @@
    []
   ],
   [
-   "s'gul",
-   2,
-   []
-  ],
-  [
    "s'lno",
    2,
    [
@@ -30004,13 +29988,6 @@
    []
   ],
   [
-   "dux",
-   1,
-   [
-    "參見"
-   ]
-  ],
-  [
    "dxcaan",
    1,
    []
@@ -30046,6 +30023,67 @@
   ],
   [
    "eko",
+   1,
+   []
+  ],
+  [
+   "emi",
+   1,
+   []
+  ],
+  [
+   "entendu",
+   1,
+   []
+  ],
+  [
+   "entourer",
+   1,
+   []
+  ],
+  [
+   "esa",
+   1,
+   [
+    "參見"
+   ]
+  ],
+  [
+   "est",
+   1,
+   []
+  ],
+  [
+   "faudrait",
+   1,
+   []
+  ],
+  [
+   "g'laq",
+   1,
+   [
+    "拿取奪取此或為或之一種形式"
+   ]
+  ],
+  [
+   "gaogan",
+   1,
+   [
+    "荔枝"
+   ]
+  ],
+  [
+   "ggal",
+   1,
+   []
+  ],
+  [
+   "gl'qon",
+   1,
+   []
+  ],
+  [
+   "glaqon",
    1,
    []
   ]
