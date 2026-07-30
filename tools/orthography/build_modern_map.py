@@ -89,6 +89,55 @@ def load_corpus():
         for t in TOKEN_RE.findall(text or ""):
             tokens[tkey(t)] += 1
             cased[tkey(t)][t] += 1
+    # His root tags hold Truku too, and the census was blind to them: 443 of the
+    # 1,850 tags contain the root mark and go through linkifyTruku on screen, where
+    # they hold 103 token types no other field has — nearly all his own bracketed
+    # variant spelling of the headword, `(LOKUS) (R)` under LUKUS, `(SYEQA - SYAQA)`
+    # under SIQA, `(BQXOS)` under BQLOS. Not being in the census, no tier could
+    # reach them and every one fell to the char rules: TNQDO's `(= R. ? - R. =
+    # L'QDO ?)` printed a green RQDU next to the brown RQDUG of the entry it points
+    # at. The gate below is tagHtml()'s, mirrored: a tag with no root mark renders
+    # as plain grey text and is NOT Truku, the mark itself and the French `de`/`du`
+    # that introduces a proposed root are stripped, and TAG_PROSE — his thirty-odd
+    # tags that are a French remark rather than a form ("QALAO est plus probable")
+    # — is filtered out. Mirrored, so it must be kept in step with app.js.
+    # These join `tokens` only, never a family: a bracketed variant is a spelling he
+    # is unsure of, not an inflection, so it earns attestation and elision-twin
+    # evidence but must not seed a projection.
+    #
+    # And they are enrolled ONLY as new types — a token the census already has keeps
+    # the count it had. The passes turn out to be order-dependent on frequency (they
+    # walk `tokens` most-common-first, and each tier reads what earlier ones already
+    # resolved), so merely bumping a count re-orders the walk and can flip a decision
+    # somewhere else entirely. Bumping them cost two correct tier-E readings: GAGWI's
+    # `gmagwi` went from gmeeguy to *ggmeeguy — analysed as g+magwi when it is g-m-agwi
+    # infixed — and G'LEQ's `pgleqe` from pgriqi to *pgliqi, on a root the modern
+    # language writes with r (mgriq 轉動). Neither token is in a tag. A marginal
+    # source must not be able to reach across the book like that.
+    TAG_PROSE = set((
+        "de du des la le les ce cette et en un une avec sans dans sous tous plus "
+        "peu tres doute pluriel travers tordu inconnue probable probablement "
+        "parfois relation scie souvent reduit a fermer suie passer qui passe "
+        "uniquement connu forme suivante derive derives precedent contraction "
+        "faire venir manger variante etant escamote places terme semble vraie "
+        "chinois chinoise est nb sy prefixe suffixe").split())
+    ROOT_MARK = re.compile(r"(^|[\s(=-])R\.?($|[\s)?=.-])")
+    ROOT_MARK_G = re.compile(r"(^|[\s(=-])R\.?(?=$|[\s)?=.-])")
+    TAG_FRENCH = re.compile(r"(^|[\s(=-])d[eu](?=\s)")
+    tag_seen = collections.Counter()
+    def take_tag(tag):
+        if not tag or tag in ("(R)", "(R.)") or not ROOT_MARK.search(tag):
+            return
+        rest = TAG_FRENCH.sub(r"\1", ROOT_MARK_G.sub(
+            r"\1", re.sub(r"\(\s*R\.?\s*\)", " ", tag)))
+        for t in TOKEN_RE.findall(rest):
+            k = tkey(t)
+            if len(k) < 2 or plain(k).strip("'") in TAG_PROSE:
+                continue
+            tag_seen[k] += 1
+            if k not in tag_cased:
+                tag_cased[k] = t
+    tag_cased = {}
     # A capital in the middle of a sentence is the one place Pecoraro's own
     # typography names a proper noun for us. Combined with "never seen lowercase
     # anywhere", it is what separates Sibal the man from sibal the word — and the
@@ -147,6 +196,7 @@ def load_corpus():
                        [x.get("t") for s in e.get("subs", []) for x in s.get("examples", [])]:
                 native_tokens.update(tkey(t) for t in TOKEN_RE.findall(src or ""))
         take(e.get("hw")); take(e.get("crossRef")); take(e.get("paradigm"))
+        take_tag(e.get("tag"))
         for x in e.get("examples", []): take_ex(x.get("t"))
         hz = zh_clean(e.get("zh", ""))
         if e.get("hw") and hz: glosses[norm(e["hw"])].add(hz)
@@ -171,6 +221,11 @@ def load_corpus():
             families.append(fam)
         if fam and ext:
             ex_fams.append((fam, ext))
+    # new types only — see take_tag
+    for k, n in tag_seen.items():
+        if k not in tokens:
+            tokens[k] += n
+            cased[k][tag_cased[k]] += n
     loan_tokens = set()
     for src in loan_srcs:
         ts = [tkey(t) for t in TOKEN_RE.findall(src or "")]
@@ -732,7 +787,7 @@ def main():
     proposals = collections.defaultdict(set)     # token -> candidate modern forms
     for fam in families:
         resolved = []
-        for m in set(fam):
+        for m in sorted(set(fam)):
             rec = result.get(m)
             if not rec:
                 continue
@@ -741,8 +796,8 @@ def main():
                 resolved.extend(stem_forms(sp, rec["modern"].lower()))
         if not resolved:
             continue
-        resolved.sort(key=lambda x: -len(x[0]))
-        for t in set(fam):
+        resolved.sort(key=lambda x: (-len(x[0]), x[0], x[1]))
+        for t in sorted(set(fam)):
             if t in result or t in OVERRIDE_KEYS or len(t) < 2:
                 continue
             n = norm(t)
@@ -1082,14 +1137,14 @@ def main():
     ex_proposals = collections.defaultdict(set)
     for fam, ext in ex_fams:
         stems = []
-        for m in set(fam):
+        for m in sorted(set(fam)):
             rec = result.get(m)
             if rec and rec["tier"] != "X" and len(norm(m)) >= 3:
                 stems.extend(stem_forms(norm(m), rec["modern"].lower()))
         if not stems:
             continue
-        stems = sorted(set(stems), key=lambda x: -len(x[0]))
-        for t in set(ext):
+        stems = sorted(set(stems), key=lambda x: (-len(x[0]), x[0], x[1]))
+        for t in sorted(set(ext)):
             if t in result or t in OVERRIDE_KEYS:
                 continue
             n = norm(t)
@@ -1171,7 +1226,7 @@ def main():
             return False
         return all(a == b or (a, b) in G_SWAP for a, b in zip(sp, sm))
     root_stems = collections.defaultdict(set)
-    for h in set(heads):
+    for h in sorted(set(heads)):
         rec = result.get(h)
         if not rec or rec["tier"] not in G_SEED or len(norm(h)) < 4:
             continue
@@ -1179,7 +1234,7 @@ def main():
             if len(sp) >= 4 and corresponds(sp, sm):
                 root_stems[sp].add(sm)
     root_stems = {sp: next(iter(ms)) for sp, ms in root_stems.items() if len(ms) == 1}
-    g_stems = sorted(root_stems.items(), key=lambda x: -len(x[0]))
+    g_stems = sorted(root_stems.items(), key=lambda x: (-len(x[0]), x[0], x[1]))
     # Local root wins. `qalip` sits in a sentence under KALIP 剪 and is the same
     # word as the headword under the very q/k swap this pass allows — so it is not
     # free to go and inherit from QALI 話 across the book. Same length and a
@@ -1187,7 +1242,7 @@ def main():
     g_local = set()
     for fam, ext in ex_fams:
         fn = set(norm(f) for f in fam if len(norm(f)) >= 4)
-        for t in set(ext):
+        for t in sorted(set(ext)):
             n = norm(t)
             if any(corresponds(n, f) for f in fn):
                 g_local.add(t)
@@ -1259,6 +1314,104 @@ def main():
         if bare != rec["modern"]:
             rec["elision_dropped"] = rec["modern"]
             rec["modern"] = bare
+
+    # A modern spelling with no vowel in it is not a word. Pecoraro writes the schwa
+    # he heard — with ö, with ', with " — and the tiers that peel his marks off can
+    # peel away the only vowel a token had: SB'LÖS "fade, sans saveur" has the
+    # variant SB'L'S in its own tag, and tier R turned it into *sbls, SK'L'T into
+    # *skrt. Both are unpronounceable, and neither is what the corpus says (sblus
+    # 不鹹;不甜, msblus 沒有味道 — his gloss exactly). The omnibus's only vowelless
+    # entries are seven abbreviations (mk, wy, sk, msn...), so this costs nothing and
+    # the token goes back to honest green rather than on screen as a consonant run.
+    devowelled = []
+    for t in [t for t, rec in result.items()
+              if rec["tier"] not in ("X",)
+              and not set("aeiou") & set(rec["modern"].lower())]:
+        devowelled.append((t, result[t]["modern"], result[t]["tier"]))
+        del result[t]
+        unmapped.append((t, tokens[t], []))
+        tiers["none"] += 1
+    if devowelled:
+        print("no-vowel gate: %d refused — %s" % (
+            len(devowelled), ", ".join("%s->%s(%s)" % d for d in sorted(devowelled))))
+
+    # ---- pass 7: his own elision-mark variants (tier V) ----
+    # Pecoraro writes the schwa he heard with ' or ", and he is not consistent about
+    # it WITHIN one word: TNQDO's tag reads "(= R. = L'QDO ?)" while the entry it
+    # points at is LQDO. Those are two different map keys — wordKey() folds the two
+    # marks together but does not remove them — so the marked twin never reached the
+    # map and went on screen in char-rule green, RQDU beside its own brown RQDUG.
+    # He does this most in the bracketed variant tags where he is explicitly listing
+    # spellings of one word: (TNG'I - T'NGI), (X'GUT ?), (PG'DGIT), (BQ'LI).
+    #
+    # So an unmapped token inherits from its elision-free twin. Three guards, and
+    # they are the whole safety of the tier:
+    #  - the twin's reading must be UNIQUE. Folding the marks blindly is not safe:
+    #    seven bare shapes carry keys that disagree (b'xgan/bxgan, kn'qan/knqan,
+    #    mq'qan/mqqan, p'lapa/plapa, wa'lo/walo), because for those he is writing
+    #    two different words, not one word two ways. Requiring one value skips all
+    #    of them and leaves them honestly green.
+    #  - never a tier X key. A lexical substitution has to declare itself on screen,
+    #    and q'nao / sl'xeq / sml'xeq / t'bako all have a mark-free twin: inheriting
+    #    the value would print a bare brown QUSUL and bypass the (Q'NAO) disclosure.
+    #  - never a lex_block token. Those are green on purpose — we looked and there is
+    #    no modern form for that slot — so a twin must not answer for them.
+    v_log = []
+    by_bare = collections.defaultdict(dict)
+    for k, rec in result.items():
+        by_bare[ELISION_RE.sub("", k)][k] = rec
+    for t, o, _g in unmapped:
+        b = ELISION_RE.sub("", t)
+        if b == t and len(t) < 3:
+            continue
+        twins = by_bare.get(b)
+        if not twins or t in lexical or t in lex_block:
+            continue
+        if any(r["tier"] == "X" for r in twins.values()):
+            continue
+        vals = set(r["modern"] for r in twins.values())
+        if len(vals) != 1:
+            continue
+        src = sorted(twins)[0]
+        result[t] = {"modern": twins[src]["modern"], "tier": "V", "v_twin": src}
+        tiers["V"] += 1
+        review.pop(t, None)
+        v_log.append((t, twins[src]["modern"], src, twins[src]["tier"], o))
+    tiers["none"] -= sum(1 for u in unmapped if u[0] in result)
+    unmapped = [u for u in unmapped if u[0] not in result]
+
+    # 7b. Same evidence, the other direction: a hand-verified twin beats a machine
+    # one. The pass above only reaches tokens NOTHING mapped, so a token whose other
+    # elision spelling was settled by hand can still be sitting on a rules value, and
+    # then his two marks print two different words: `mg'li` came out *mgli beside the
+    # verified `mg'li"` → mgrig 跳舞. Measured over the finished map: 16 twin groups
+    # hold an M member, 8 machine-tier twins live in those groups, 5 already agree,
+    # and all 3 that disagree are the machine being wrong — `b'xgan` *bhgan for the
+    # attested brhgan 把…鎖, `mq'qan` *mqekan for mkeekan 打架 (41× in speech), and
+    # mg'li. Only M overrides: an attested tier (id/A/B/S/T) is evidence about the
+    # exact token in hand and outranks a twin, and X is excluded for the same reason
+    # as above — it has to declare itself on screen.
+    V_MACHINE = set(("R", "D", "P", "E", "G", "B-rules", "C-review", "V"))
+    by_bare = collections.defaultdict(dict)
+    for k, rec in result.items():
+        by_bare[ELISION_RE.sub("", k)][k] = rec
+    for bare, twins in sorted(by_bare.items()):
+        if len(twins) < 2 or any(r["tier"] == "X" for r in twins.values()):
+            continue
+        hand = set(r["modern"] for r in twins.values() if r["tier"] == "M")
+        if len(hand) != 1:
+            continue
+        want = hand.pop()
+        src = sorted(k for k, r in twins.items() if r["tier"] == "M")[0]
+        for t in sorted(twins):
+            if twins[t]["tier"] not in V_MACHINE or twins[t]["modern"] == want:
+                continue
+            tiers[twins[t]["tier"]] -= 1
+            tiers["V"] += 1
+            v_log.append((t, want, src, "M over " + twins[t]["tier"] +
+                          " " + twins[t]["modern"], tokens.get(t, 0)))
+            result[t] = {"modern": want, "tier": "V", "v_twin": src,
+                         "v_was": twins[t]["modern"]}
 
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
@@ -1332,6 +1485,12 @@ def main():
         f.write("# columns: token, modern, stem, stem modern, occurrences, attested?\n")
         for t, mod, sp, sm, o, how in sorted(g_log, key=lambda r: -r[4]):
             f.write("%-16s %-16s %-14s %-14s %5d %s\n" % (t, mod, sp, sm, o, how))
+    print("elision-mark variants (V): %d mapped" % tiers["V"])
+    with open(os.path.join(HERE, "tier_v_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier V: the same word with his elision mark in a different place\n")
+        f.write("# columns: token, modern, the twin it inherited from, that twin's tier, occurrences\n")
+        for t, mod, src, st, o in sorted(v_log, key=lambda r: -r[4]):
+            f.write("%-16s %-16s %-16s %-4s %5d\n" % (t, mod, src, st, o))
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 

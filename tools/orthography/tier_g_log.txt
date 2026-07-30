@@ -2,12 +2,14 @@
 # columns: token, modern, stem, stem modern, occurrences, attested?
 mpdxok           mpdhuq           dxok           dhuq               5 derived
 dmkpax           dmqpah           kpax           qpah               4 derived
+k'sul            qsul             ksul           qsul               2 attested
 npamalu          npamalu          malu           malu               2 derived
 slongan          slungan          slong          slung              2 derived
 dmnalox          dmnarux          nalox          narux              1 derived
 drbiyax          drbiyax          biyax          biyax              1 derived
 kmalox           kmaluh           kalo           kalu               1 derived
 kmptöting        kmptucing        toting         tucing             1 derived
+kpax             qpah             kpax           qpah               1 attested
 mkmpxeng         mkmphing         pxeng          phing              1 derived
 mkp'xeng         mkphing          pxeng          phing              1 derived
 mlb'bao          mlbbao           bbao           bbao               1 derived

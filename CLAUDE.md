@@ -77,6 +77,25 @@ stay apart (`Pklilu (Plilu ?)`). `FORMS_MOD` is filtered to match, or the merged
 alias would set a second identical row in the letter listing; `FORMS_ORIG` is
 not, since in Pecoraro's spelling they are two spellings and both earn a slot.
 
+The same convergence happens inside a **root tag**, where his brackets are his
+second try at the word, and `collapsed()` never sees it: it guards the form field,
+and `variants()` splits on `()=?` but not on his dash, so `(TNG'I – T'NGI)` reaches
+it as one string. `collapseTagBrackets()` (modern mode only) therefore works bracket
+by bracket, dropping a segment that has no word in it, that is the headword again,
+or that is a spelling of a word the bracket already listed — and dropping the whole
+bracket when nothing is left. Of two converging segments it keeps the one that says
+more, measured with the `=` and `?` removed, so GILA's `(= TGILA ? - Vr. TGILA)`
+still says *variante* rather than becoming a bare `(= TGILA?)`. Measured over all
+443 root-mark tags in the real DOM: 14 brackets distinguishing a word from itself
+before, 0 after, and the 13 word types that stopped rendering are all the headword
+repeating itself beside a `→` cross-ref that still names it. Pecoraro mode is
+untouched — there `(TNG'I – T'NGI)` really is two spellings on the page.
+
+Most of the 164 tags this changed lost only a letterless segment: `(=? - = TAMA?)`
+became `(= TAMA?)`. That is the existing rule about his bare uncertainty (a bracket
+whose whole content is `= ? .` is already dropped, since the √ implies it) finally
+reaching the same thing inside a dash list.
+
 ## Entry data shape (entries.js)
 
 ```js
@@ -103,7 +122,7 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (213) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (333) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
 - **L** (251) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
@@ -196,6 +215,25 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   KALIP 剪, not QALI 話); and it must actually **disagree** with the blind
   fallback, or it says nothing and the token stays honestly green. Log:
   `tier_g_log.txt`.
+- **V** (17) — elision-mark variants. His two marks put the same word in two map
+  keys (`wordKey()` folds `" → '` but does not remove it, so `L'QDO` and `LQDO`
+  are different keys), and the passes then answer them separately: TNQDO's tag
+  `(= R. ? - R. = L'QDO ?)` printed a green RQDU beside the brown RQDUG of the
+  entry it points at. Two directions, both requiring the twins to agree on ONE
+  value: an **unmapped** token inherits from its twins, and a token sitting on a
+  **machine** value (R/D/P/E/G/B-rules/C-review) is overruled by a hand-verified
+  (M) twin. The second is why `mg'li` printed *mgli beside the verified
+  `mg'li"` → mgrig 跳舞; measured over the finished map, 16 twin groups hold an M
+  member, 8 machine twins live in them, 5 already agreed, and all 3 that disagreed
+  were the machine being wrong (`b'xgan` *bhgan for the attested brhgan 把…鎖,
+  `mq'qan` *mqekan for mkeekan 打架 41× in speech). Never overrules an attested
+  tier — id/A/B/S/T is evidence about the exact token in hand, which outranks a
+  twin. Never a tier X key (the substitution has to declare itself on screen, and
+  q'nao / sl'xeq / t'bako all have a mark-free twin that would print a bare brown
+  QUSUL and bypass the disclosure), never a `lex_block` token (green on purpose),
+  and never where the bare shapes disagree — for `kn'qan`/`knqan`, `p'lapa`/`plapa`,
+  `wa'lo`/`walo` he is writing two different words, not one word two ways, and
+  those stay green. Log: `tier_v_log.txt`.
 - **J** (139) — the Japanese/Chinese loan stratum, romanized as a class. It is a
   **pre-pass**, above every attestation tier, because for this population
   attestation is actively misleading: modern standard Truku replaced most of the
@@ -245,6 +283,32 @@ before either file is written. The app cannot repair this itself — a map hit
 short-circuits `charRules()`. `charRules()` covers the unmapped remainder, and
 folds `ł`/`ʔ` explicitly: they are letters, not letter-plus-mark, so NFD leaves
 them standing.
+
+**No vowelless modern word leaves it either.** Truku writes no schwa, but every
+modern word still has a written vowel, so an output with none is a rule that ran
+out of evidence, not a spelling: SK'LÖT 勒得很緊 came out `skrut`, which is nowhere
+in any corpus (that sense is the `bsqur` family now, a different word). The gate
+drops any non-X mapping whose value has no `aeiou` and returns the token to green.
+It must NOT require the *input* to have a vowel — he writes the schwa as `'`, so
+`sk'l't` and `sb'l's` have none either, and `sb'l's` is the real `sblus` 不鹹.
+
+**The generator is deterministic.** It was not: three runs on identical inputs gave
+different output, and `gmagwi` flipped between `gmeeguy` and `ggmeeguy` run to run.
+String hash randomization varies `set()` iteration order, which fed length-only
+sorts whose first match then `break`s. Every `for … in set(…)` is wrapped in
+`sorted()` and all three length-only sorts have a total key
+(`key=lambda x: (-len(x[0]), x[0], x[1])`). Keep it that way: auditing a change by
+diffing modern_map.js is worthless without it — a "regression" can be a coin flip.
+
+His **root tags are in the token census** (`take_tag`, gating exactly as `tagHtml`
+does: no root mark means it renders as plain grey French and is not Truku). 443 of
+1,850 tags qualify and they hold 103 token types no other field has — nearly all
+his own bracketed variant spelling of the headword. They join `tokens` only, never
+a family: a bracketed spelling he is unsure of is not an inflection, so it earns
+attestation and elision-twin evidence but must not seed a projection. And only as
+**new types** — bumping the count of a token the census already had re-orders the
+frequency walk and flips decisions elsewhere in the book (it cost two correct
+tier-E readings, `gmagwi` → *ggmeeguy and `pgleqe` → *pgliqi).
 
 Pecoraro has **two** elision marks, `'` and `"` — 181 word types / 400
 occurrences carry the `"`, whole paradigms use it consistently (T"TO, SBU",

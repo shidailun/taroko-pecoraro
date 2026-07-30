@@ -787,6 +787,50 @@
    "serait préfixe bébé peau entourer taroko").split(" ").forEach(function (w) {
     TAG_PROSE[w] = 1;
   });
+  // A bracket in a root tag is his second try at the word, and the whole-tag test
+  // below only drops it when EVERY word in the tag is the headword again. Two
+  // patterns slip past that and print a bracket distinguishing a word from itself:
+  // he lists both his spellings in one bracket — "(TNG'I – T'NGI)", "(= BU? - = BU?)"
+  // — which converge to one modern word, and he pairs a redundant bracket with an
+  // informative one, "(QRHIQ?) (= RHIQ = Peau)", where only the first is noise.
+  // variants() cannot see either: it splits on ()=? and not on his dash, so a
+  // two-spelling bracket reaches it as a single string. So work bracket by bracket,
+  // dedupe the segments that converge, and drop a bracket that has nothing left to
+  // say. Measured over all 443 root-mark tags: 14 brackets, and modern mode only —
+  // in his own spelling the two halves really are different words on the page.
+  var TAG_SEG_DASH = /\s*[–—]\s*|\s+-\s+/;
+  var TAG_SEG_TRIM = /^[\s=]+|[\s?]+$/g;
+  var TAG_SEG_META = /\b(?:vr|vl|var|nb|sy)\.\s*/gi;
+  function tagSegKey(seg) {
+    var w = seg.replace(TAG_SEG_META, "").replace(TAG_SEG_TRIM, "");
+    return /[A-Za-zÀ-ÿ]/.test(w) ? norm(modernizeText(w)) : "";
+  }
+  // how much a segment actually says: "= TGILA ?" and "Vr. TGILA" are the same
+  // number of characters, but only one of them names a relationship
+  function tagSegSize(seg) {
+    return seg.replace(/[\s=?]/g, "").length;
+  }
+  function collapseTagBrackets(rest, hw) {
+    var head = norm(modernizeText(variants(hw)[0] || hw));
+    return rest.replace(/\(([^()]*)\)/g, function (whole, inner) {
+      var segs = inner.split(TAG_SEG_DASH), keep = [], seen = [];
+      for (var i = 0; i < segs.length; i++) {
+        var k = tagSegKey(segs[i]), seg = segs[i].trim(), at = seen.indexOf(k);
+        // no word in it, or the headword again
+        if (!k || k === head) continue;
+        // already listed: of two spellings of one modern word keep the fuller
+        // line, so GILA's "(= TGILA? - Vr. TGILA)" still says variante
+        if (at !== -1) {
+          if (tagSegSize(seg) > tagSegSize(keep[at])) keep[at] = seg;
+          continue;
+        }
+        seen.push(k);
+        keep.push(seg);
+      }
+      return keep.length ? "(" + keep.join(" – ") + ")" : " ";
+    });
+  }
+
   function tagHtml(tag, hw) {
     if (!tag) return "";
     var root = spellMark("√", "Root / racine", "tag root-tag");
@@ -804,6 +848,8 @@
         if (norm(modernizeText(vs[i])) !== norm(modernizeText(variants(hw)[0] || hw))) same = false;
       }
       if (same) return root;
+      rest = collapseTagBrackets(rest, hw).replace(/\s+/g, " ").trim();
+      if (!TRUKU_LETTER.test(rest)) return root;
     }
     return root + ' <span class="tag">' + linkifyTruku(tidyForm(rest), false, TAG_PROSE) + "</span>";
   }

@@ -61,7 +61,6 @@ ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     mdup             R
 ndyami           ndyami           n-     dyami            P
 neidang          neydang          n-     meidang          M
-ng'li            ng'li            n-     mg'li            R
 ngagwi           ngeeguy          n-     gagwi            M
 nggalu           nggaalu          n-     mggalu           P
 ngguyan          ngeuyan          n-     gguyan           M

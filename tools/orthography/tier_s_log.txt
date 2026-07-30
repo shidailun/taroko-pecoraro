@@ -15,7 +15,6 @@ tome             tumi                 16     3
 waxe             wahi                  6     3
 yudao            yudaw                44     3
 abis             abis                  4     2
-bbilun           bbilun                2     2
 dnyagan          dnyagan               2     2
 kulas            kuras                24     2
 l'xan            lxan                  2     2
@@ -34,6 +33,7 @@ unang            unang                16     2
 knliyan          knriyan               2     1
 lnawax           rnawah                2     1
 misa             misa                  6     1
+muçul            muxul                 4     1
 pblnaxe          pbrnahi               3     1
 pgsai            pgsai                 4     1
 pkllusi          pkrrusi               3     1
@@ -54,6 +54,7 @@ tian             tian                  2     1
 tl'maon          trmaun                2     1
 tnisa            tnisa                 2     1
 x'qli            hqli                  2     1
+xq'li            hqli                  2     1
 yaso             yasu                  6     1
 yoki             yuki                 35     1
 yoli             yuri                 12     1
