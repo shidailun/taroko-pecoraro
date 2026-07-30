@@ -27,8 +27,10 @@ mmqdolyaq        mmqduriq         CV-    mqdolyaq         T
 mmuda            mmuda            CV-    muda             id
 mneidang         mneydang         mn-    meidang          M
 mniyaq           mniyak           mn-    miyaq            L
+mnkl'lu          mnkleelug        mn-    mkl'lu           M
 mnkpito          mnkpitu          mn-    mkpito           B
 mnkyayong        mnkyayung        mn-    mkyayong         A
+mnlglu           mnlglug          mn-    mlglu            M
 mnmngali         mnmngari         CVCV-  mngali           B
 mnotoç           mnutux           mn-    otoç             M
 mnpgalup         mnpgealuk        mn-    pgalup           M
@@ -42,6 +44,7 @@ mnttatoq         mnttatuk         mn-    mttatoq          P
 n'kai            nkay             n-     m'kai            B
 n'ulat           neurat           n-     m'ulat           M
 n'xalan          n'xalan          n-     m'xalan          T
+na'tong          neetung          n-     ma'tong          M
 nalong           narung           n-     malong           B
 nblyeqan         nbliqan          n-     mblyeqan         T
 ndaxa            ndha             n-     daxa             M
@@ -84,6 +87,7 @@ nslxoqan         nsrhuqan         n-     slxoqan          B
 nssl'pong        nsslupung        n-     mssl'pong        M
 ntgisa           ntgsa            n-     mtgisa           M
 ntlawa           ntlawa           n-     mtlawa           id
+ntluula          ntreura          n-     tluula           M
 nxoai            nhuway           n-     xoai             B
 ppaotoç          ppautux          CV-    paotoç           P
 ppitai           ppitay           CV-    pitai            S
@@ -97,7 +101,6 @@ ppsipa           ppsipa           CV-    psipa            id
 ppsku            ppsku            CV-    psku             id
 ppsloa           ppsruwa          CV-    psloa            B
 ppspg'leq        ppspgriq         CV-    pspg'leq         B
-ppsqdo           ppsqdu           CV-    psqdo            R
 ppt'ayus         ppteayus         CV-    pt'ayus          M
 pptpusu          pptpusu          CV-    ptpusu           id
 ppyasan          ppyasan          CV-    pyasan           R

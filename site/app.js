@@ -51,9 +51,16 @@
     "bklui": "bkluy", "bq'lui": "bkluy",
     "tutui": "tutuy", "mtutui": "mtutuy",
     "dui": "duuy", "dmui": "dmuuy", "mdui": "mduuy", "mddui": "mdduuy",
-    "pdui": "pduuy", "sdui": "sduuy", "mndui": "mnduuy", "mpdui": "mpduuy",
+    "pdui": "pduuy", "sdui": "sduuy", "mndui": "mnduuy",
     "xbui": "hbuy", "xmbui": "hmbuy", "pxbui": "phbuy", "xnbui": "hnbuy",
-    "m'xapui": "mapwi", "mapui": "mapwi",
+    // mpdui and m'xapui (mapui - mapwi) were dropped from this table on
+    // 2026-07-31 so MODERN_MAP governs them, because both were wrong. "mpduuy"
+    // is 0× against empduuy 3× 要握, and word-initial mp- before a labial is the
+    // documented schwa class (emp- 50 types, mp- 0). "mapwi" is worse than
+    // unattested — it is one of HIS OWN three spellings in the same sentence,
+    // m'xapui (mapui - mapwi), so modern mode was printing Pecoraro at the user.
+    // The sentence is "boil the fruits of this tree and they liquefy" (KSIA,
+    // Mksia 液化), i.e. 煮 — mhapuy 124× 在煮.
     // His emphatic particle O (headword, 517 occurrences) is the modern topic
     // marker u — confirmed by the user 2026-07-28. The character rule already
     // produced "u"; this records that the spelling is verified, not guessed.

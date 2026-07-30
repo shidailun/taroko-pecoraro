@@ -42,6 +42,7 @@ mpl'çan          mplxan           lxan           lxan           derived
 mpnpong          mpnpung          pnpong         pnpung         derived
 mpnxmadan        mpnhmadan        pnxmadan       pnhmadan       derived
 mppkluli         mppqluli         pkluli         pqluli         derived
+mppsd'xo         mppsdhug         psdxo          psdhug         derived
 mpsbiyoq         mpsbiyuq         psbiyoq        psbiyuq        derived
 mpsl'bu          mpsl'bu          pslbu          psl'bu         derived
 mpslangan        mpslangan        slangan        slangan        derived
@@ -125,7 +126,6 @@ skarabe          skarabi          ska            ska            derived
 sm'mul           sm'mul           smul           s'mul          derived
 smbalao          smbaraw          balao          baraw          derived
 smblex           smbrih           mblex          mbrih          derived
-smd'xo           smdhu            mdxo           mdhu           derived
 sn'xei           snhiyi           snxei          snhiyi         attested
 snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived

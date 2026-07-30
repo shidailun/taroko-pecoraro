@@ -20,7 +20,6 @@ l'xan            lxan                  2     2
 lingun           lingun                2     2
 mlmilit          mrmirit               4     2
 mpp'laq          mpplaq                2     2
-mtkwini          mtkwini               2     2
 paya             paya                  8     2
 pns'xgan         pnshgan               3     2
 ps'xgun          pshgun                8     2

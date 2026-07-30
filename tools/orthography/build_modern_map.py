@@ -655,8 +655,16 @@ def main():
                 result[t] = {"modern": loan_rule(t), "tier": "J", "j_how": "rule"}
         tiers["J"] += 1
 
+    # OVERRIDE_KEYS freezes the GENERATOR, not the human. The -ui class is in it
+    # because the rules cannot choose between ui>uy and ui>uwi from shape alone, so
+    # every rule tier is kept off it — but a hand-adjudicated entry in manual_map or
+    # llm_map IS the decision the freeze is waiting for, and used to be discarded in
+    # silence (batch 46 wrote 13 gloss-verified -ui keys and the rebuild dropped all
+    # 13). Human tiers therefore lift the freeze. lex_block does not: a null in
+    # lexical_map is itself a human decision, and it means "stay green".
+    adjudicated = (set(manual) | set(llm)) - lex_block
     for t in sorted(tokens):
-        if t in OVERRIDE_KEYS or t in result or len(t) < 2:
+        if (t in OVERRIDE_KEYS and t not in adjudicated) or t in result or len(t) < 2:
             continue
         n = norm(t)
         if not n or len(n) < 2:

@@ -13,10 +13,13 @@ ba'ba            babaw            baba             M        1
 gnlqan           gnlqan           gnl'qan          E        1
 knuaan           knuwaan          kn'uaan          M        1
 l'qdo            rqdug            lqdo             M        1
+matong           meetung          ma'tong          M        1
 mdxyaq           mthiyaq          md'xyaq          P        1
+mgdxo            mgdhug           mgd'xo           M        1
 mpglong          mpgrung          mpg'long         P        1
 msdxyaq          msthiyaq         msd'xyaq         P        1
 mtlboq           mtrbuq           mtl'boq          P        1
 pnslxgan         pnslhagan        pnsl'xgan        E        1
 pskmux           pskmux           psk'mux          P        1
 qq'lang          qqlang           qqlang           G        1
+sqdo'            sqdug            sqdo             M        1

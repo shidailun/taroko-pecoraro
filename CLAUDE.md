@@ -1163,6 +1163,89 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   but 癢 is `krak`, so the target is unglossed and may be a truncation of `mqraqil`
   皮. Reverting it needs its own evidence.
 
+  **Batches 43–47 — the green list itself as the work queue (2026-07-31).** 108 keys in five
+  batches: 941 → **1,049 manual keys**, changing tokens 4,854 → **4,972**, true green
+  **597 types/947 occ → 522/808**. dom43 269 cards / 319 brown / 95 banned-form / 1 failure
+  (fixed, below), dom44 29 / 54 / 55 / **0**, dom45 144 / 158 / 26 / **0**, dom46
+  74 / 109 / 77 / **0**, dom47 32 / 48 / 43 / 1 — a real defect in app.js, finding (7) — and
+  32 / 48 / 44 / **0** after repairing it.
+
+  Per batch the green subtraction is 43–45: −58 types, 46: −16, **47: −1**. Batch 47 looks
+  like a failure by that measure and is not: it found three words the app was actively
+  mis-rendering. The reason it scored 1 is finding (7) — the counter had been lying.
+
+  **(1) His `l'x` is `lh` or `rh` — never `dh`.** `l'xlax`→`lhlah`, `l'xeq`→`rhiq`,
+  `l'xo`→`rhu`, `l'xkan`→`rhqan`: all ~60 keys carrying `'x` after `l` go one of those two
+  ways. This is what forbids `l'xqoi` → `dhquy` *however exactly the gloss fits* — his
+  `Payai l'xqoi` 黏糯 is modern `payay dhquy` 糯米 three times over in the corpus, the best
+  gloss match found in weeks, and the shape still says no. Dumping the whole `'x` key class
+  before believing a single member of it is now the standing move. (`D'XO` is not a
+  counterexample: there the `'x` follows a stop, where it *is* `dh` — `d'xo` → `dhug`, which
+  his own headword note asks for by suggesting the spelling D'XOG.)
+
+  **(2) A trailing straight quote is its own key.** dom43's one failure — `D'XO` printing the
+  non-word DHU — was real but tiny: his note offers a second spelling `D'XO"`, and `wordKey()`
+  folds `"`→`'`, giving the unmapped key `d'xo'`, which then fell through to `charRules()`. A
+  repo-wide scan of every string field found only four trailing-quote tokens in the book
+  (`d'xo'` ×3, French `pas'` ×1), so the one-key fix in batch 44 closes the class.
+
+  **(3) The map was sitting on unattested values inside otherwise-finished families.** Batch
+  44's SQDO family found `psqdu`/`ppsqdu`/`tnqdu`/`qduan` all committed and all 0× — his own
+  `Snqdgan` spells the root's `g`, so the family is `-qdug` throughout. Same for `md'xo`→`mdhu`,
+  `smd'xo`→`smdhu`, `pkl'ulus`→`pklulus`, `mtkwini`→`mtkwini` (an identity claim on a form
+  that is 0× either way while `mtkuni` is one letter off). This is why `imp.py` showed
+  impossible values nearly flat across 43–45 while 50+ keys were added: repairs and new blind
+  claims cancelled. **Auditing a family the map has already "done" is as productive as
+  finding a new one.**
+
+  **(4) Half a paradigm mapped is a green flag, not a finished card.** DUI was 41 green
+  occurrences hiding behind three brown ones: the map had the goal-focus side (`Dian`→`jiyan`,
+  `Diun`→`jiyun`, `Sdian`→`sjiyan`) and had left the entire actor side alone. It is `duuy`
+  36× 抓住；握住 / `dmuuy` 165× / `mduuy` 101× / `sduuy` 22× / `mdduuy` 2× 互相殘殺 (his
+  Mddui 彼此相扶持). Same shape in batch 46's XBUI (`Xbiyan`→`hbiyan` done, root `hbuy` green)
+  and SKUI (`skuy`, `knskiyan` done, `mskui`/`kskui` green). **When a green token's card has
+  brown siblings, the root is usually already decided — go read the card, not the corpus.**
+
+  **(5) `OVERRIDE_KEYS` was freezing the human, not just the generator — and failing silently.**
+  Batch 46 wrote 13 gloss-verified `-ui` keys; the rebuild reported success and **dropped all
+  13**, because `if t in OVERRIDE_KEYS … continue` sat *above* the `t in manual` check in the
+  main token loop. Nothing warned: `manual_map.json` had them, `site/modern_map.js` did not.
+  The freeze list itself is right — his `-ui` cannot be decided by rule (see (6)) — so the fix
+  is one line: `adjudicated = (set(manual) | set(llm)) - lex_block` lifts the freeze for tokens
+  a human has actually ruled on, and `lex_block` stays frozen because a null in `lexical_map`
+  is itself a decision ("stay green"). Intersection checked before the edit: exactly the 13
+  keys, zero collisions with `lex_block`. **Verify a key landed in `modern_map.js`, not just in
+  `manual_map.json` — the builder has tiers that can outrank you without saying so.**
+
+  **(6) The `-ui` class, decided (batch 47, 27 keys).** The rule table offers both `ui→uy` and
+  `ui→uwi`, which is why 39 tokens were frozen. Both are right, and the gloss is the only thing
+  that picks: **KLUI 驚訝 → `kluwi`** (`nkluwi` 驚訝, `skluwi` 2× 嚇一跳, `mskluwi` 5× 驚嚇,
+  `mnskluwi` 12×) but **BKLUI 下巴 → `bkluy`** (`sbkluy` 大下巴, `gmbkluy` 專取下巴) — the same
+  `-klui` string, two spellings, no shape difference to appeal to. Also BUKUI 綁 → `bkuy` with
+  `Mukui` → `mkuy` 16× 捆綁 (his epenthetic u dropped, as always), KTUI → `ktuy` / `kmtuy` 42×
+  收割, TUTUI → `tutuy` 37× / `mtutuy` 108× 起床, and his own three-way spelling
+  `m'xapui (mapui - mapwi)` all → `mhapuy` 124×. Unadjudicated members of the class stay frozen.
+  **This class had already been decided once**, in `WORD_OVERRIDES` (app.js, note dated
+  2026-07-19), and batch 47 re-derived it independently and agreed everywhere but three keys —
+  which is the corroboration, and also finding (7).
+
+  **(7) `respellable()` reads THREE tables, and the green counter only read one.** app.js:
+  `WORD_OVERRIDES` → `MODERN_MAP` → `CLITIC_FORMS`, first match wins for both colour and
+  output. Every green count taken by reading `modern_map.js` alone was therefore too high: the
+  37 `WORD_OVERRIDES` keys (the whole `-ui` class) and 55 `CLITIC_FORMS` keys were being
+  reported as unverified when the app renders them brown. Re-measured with all three
+  (`tmp/green3.py`), the true figures are **597 types/947 occ before batch 43 → 522/808 now**,
+  not the 622→535 the old counter gave. **Count against `respellable()`, not against the map.**
+
+  Two of those overrides were also wrong, and only the second table's precedence hid it:
+  `mpdui` → `mpduuy` (0×, against `empduuy` 3× 要握 and the documented `emp-`/`mp-` schwa
+  class) and — worse — `m'xapui`/`mapui` → **`mapwi`, which is one of *his own* three
+  spellings in the very sentence they occur in** (`m'xapui (mapui - mapwi)`), so modern mode
+  was printing Pecoraro at the reader. The sentence is KSIA / Mksia 液化: "boil the fruits of
+  this tree and they liquefy" — `mhapuy` 124× 在煮. All three keys were deleted from
+  `WORD_OVERRIDES` so the map governs. **An override table that outranks the map has to be
+  audited against the map, or it silently preserves the oldest guess.**
+
   **Batches 39–42 — two mechanical classes exhausted, and the green count finally measured
   where it lives (2026-07-31).** 34 keys across four batches; dom39 743 cards / 1,064 brown /
   141 banned-form / **0 real failures** (one proven clitic artifact: MANGALI's only `spat` is
