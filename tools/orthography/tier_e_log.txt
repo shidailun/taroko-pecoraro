@@ -141,7 +141,6 @@ smbalao          smbaraw          balao          baraw          derived
 smblex           smbrih           mblex          mbrih          derived
 smd'xo           smdhu            mdxo           mdhu           derived
 smnugul          smnugul          snugul         snugul         derived
-sn'lyeq          snlyeq           slyeq          slyeq          derived
 sn'xei           snhiyi           snxei          snhiyi         attested
 snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived

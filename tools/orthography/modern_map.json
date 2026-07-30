@@ -2847,6 +2847,10 @@
    "modern": "gmraka",
    "tier": "M"
   },
+  "gmnalyeq": {
+   "modern": "gmnaliq",
+   "tier": "M"
+  },
   "gmoto": {
    "modern": "gmutu",
    "tier": "B"
@@ -2882,6 +2886,10 @@
   "gndala": {
    "modern": "gndara",
    "tier": "B"
+  },
+  "gndlyeqan": {
+   "modern": "gndriqan",
+   "tier": "M"
   },
   "gnk'la": {
    "modern": "gnkla",
@@ -3903,7 +3911,7 @@
    "tier": "B"
   },
   "knblyeqan": {
-   "modern": "knblyeqan",
+   "modern": "knbliqan",
    "tier": "M"
   },
   "knd'san": {
@@ -4116,6 +4124,10 @@
    "modern": "knqdriqan",
    "tier": "T"
   },
+  "knqdolyaq": {
+   "modern": "knqduriq",
+   "tier": "M"
+  },
   "knqexan": {
    "modern": "qnqihan",
    "tier": "L"
@@ -4153,7 +4165,7 @@
    "tier": "M"
   },
   "knsblyeqan": {
-   "modern": "knsblyeqan",
+   "modern": "knsbliqan",
    "tier": "M"
   },
   "knsibus": {
@@ -7360,6 +7372,10 @@
    "modern": "mpkdurux",
    "tier": "M"
   },
+  "mpkdolyaq": {
+   "modern": "mpkduriq",
+   "tier": "M"
+  },
   "mpkxada": {
    "modern": "mpkhada",
    "tier": "T"
@@ -7571,7 +7587,7 @@
    "tier": "B"
   },
   "ms'lyeq": {
-   "modern": "mslyeq",
+   "modern": "mseeliq",
    "tier": "M"
   },
   "ms'xdil": {
@@ -8304,7 +8320,7 @@
    "tier": "B"
   },
   "mxg'lyeq": {
-   "modern": "mhglyeq",
+   "modern": "mhgliq",
    "tier": "M"
   },
   "mxlao": {
@@ -9413,6 +9429,18 @@
    "modern": "pdlut",
    "tier": "id"
   },
+  "pdlyeqan": {
+   "modern": "pdriqan",
+   "tier": "M"
+  },
+  "pdlyeqe": {
+   "modern": "pdriqi",
+   "tier": "M"
+  },
+  "pdlyeqon": {
+   "modern": "pdriqun",
+   "tier": "M"
+  },
   "pdqalan": {
    "modern": "pdkaran",
    "tier": "L"
@@ -10451,6 +10479,18 @@
    "modern": "pqbubu",
    "tier": "A"
   },
+  "pqdlyeqan": {
+   "modern": "pqdriqan",
+   "tier": "M"
+  },
+  "pqdlyeqe": {
+   "modern": "pqdriqi",
+   "tier": "M"
+  },
+  "pqdlyeqon": {
+   "modern": "pqdriqun",
+   "tier": "M"
+  },
   "pqdolyaq": {
    "modern": "pqduriq",
    "tier": "T"
@@ -10506,6 +10546,10 @@
   "ps'lut": {
    "modern": "psrut",
    "tier": "B"
+  },
+  "ps'lyeq": {
+   "modern": "pseeliq",
+   "tier": "M"
   },
   "psaan": {
    "modern": "psaan",
@@ -10596,15 +10640,15 @@
    "tier": "M"
   },
   "psblyeqan": {
-   "modern": "psblyeqan",
+   "modern": "psbliqan",
    "tier": "M"
   },
   "psblyeqe": {
-   "modern": "psblyeqe",
+   "modern": "psbliqi",
    "tier": "M"
   },
   "psblyeqon": {
-   "modern": "psblyequn",
+   "modern": "psbliqun",
    "tier": "M"
   },
   "psbu": {
@@ -11749,6 +11793,18 @@
    "modern": "kjiraw",
    "tier": "A"
   },
+  "qdlyeqan": {
+   "modern": "qdriqan",
+   "tier": "M"
+  },
+  "qdlyeqe": {
+   "modern": "qdriqi",
+   "tier": "M"
+  },
+  "qdlyeqon": {
+   "modern": "qdriqun",
+   "tier": "M"
+  },
   "qdoan": {
    "modern": "qduan",
    "tier": "A"
@@ -12246,7 +12302,7 @@
    "elision_dropped": "s'lut"
   },
   "s'lyeq": {
-   "modern": "slyeq",
+   "modern": "seeliq",
    "tier": "M"
   },
   "s'mai": {
@@ -13304,11 +13360,11 @@
    "tier": "T"
   },
   "slyeqe": {
-   "modern": "slyeqe",
+   "modern": "sliqi",
    "tier": "M"
   },
   "slyeqon": {
-   "modern": "slyequn",
+   "modern": "sliqun",
    "tier": "M"
   },
   "slyuxan": {
@@ -13324,8 +13380,8 @@
    "tier": "M"
   },
   "sm'lyeq": {
-   "modern": "smliq",
-   "tier": "T"
+   "modern": "smeeliq",
+   "tier": "M"
   },
   "smado": {
    "modern": "smadu",
@@ -13342,6 +13398,10 @@
   "smalu": {
    "modern": "smalu",
    "tier": "id"
+  },
+  "smalyeq": {
+   "modern": "smaliq",
+   "tier": "M"
   },
   "smapox": {
    "modern": "smapuh",
@@ -13611,6 +13671,10 @@
   "sn'lu": {
    "modern": "snru",
    "tier": "B"
+  },
+  "sn'lyeq": {
+   "modern": "sneeliq",
+   "tier": "M"
   },
   "snagan": {
    "modern": "snagan",
@@ -15913,7 +15977,7 @@
    "tier": "B"
   },
   "txg'lyeq": {
-   "modern": "thglyeq",
+   "modern": "thgliq",
    "tier": "M"
   },
   "txksao": {
@@ -16377,7 +16441,7 @@
    "tier": "B"
   },
   "xg'lyeq": {
-   "modern": "hglyeq",
+   "modern": "hgliq",
    "tier": "M"
   },
   "xg'xao": {
@@ -16405,7 +16469,7 @@
    "tier": "M"
   },
   "xglyeqe": {
-   "modern": "hglyeqe",
+   "modern": "hgliqi",
    "tier": "M"
   },
   "xglyeqon": {
@@ -16637,7 +16701,7 @@
    "tier": "B"
   },
   "xmg'lyeq": {
-   "modern": "hmglyeq",
+   "modern": "hmgliq",
    "tier": "M"
   },
   "xmg'xao": {
@@ -16735,6 +16799,10 @@
   "xngaq": {
    "modern": "hngak",
    "tier": "A"
+  },
+  "xnglyeq": {
+   "modern": "hnegliq",
+   "tier": "M"
   },
   "xnigan": {
    "modern": "hnigan",
@@ -27594,12 +27662,6 @@
    "e_stem": "snugul",
    "e_modern": "snugul"
   },
-  "sn'lyeq": {
-   "modern": "snlyeq",
-   "tier": "E",
-   "e_stem": "slyeq",
-   "e_modern": "slyeq"
-  },
   "sn'xei": {
    "modern": "snhiyi",
    "tier": "E",
@@ -27919,12 +27981,6 @@
    "g_stem": "kngal",
    "g_modern": "kngal"
   },
-  "ps'lyeq": {
-   "modern": "pslyeq",
-   "tier": "G",
-   "g_stem": "slyeq",
-   "g_modern": "slyeq"
-  },
   "pttaqe": {
    "modern": "pttaqi",
    "tier": "G",
@@ -27954,12 +28010,6 @@
    "tier": "G",
    "g_stem": "taqe",
    "g_modern": "taqi"
-  },
-  "xnglyeq": {
-   "modern": "hnglyeq",
-   "tier": "G",
-   "g_stem": "xglyeq",
-   "g_modern": "hglyeq"
   },
   "'laon": {
    "modern": "laun",
@@ -28545,13 +28595,6 @@
    "et",
    3,
    []
-  ],
-  [
-   "gndlyeqan",
-   3,
-   [
-    "憑一瞥窺探的目光一瞥"
-   ]
   ],
   [
    "k'lap",
@@ -29144,11 +29187,6 @@
    ]
   ],
   [
-   "knqdolyaq",
-   2,
-   []
-  ],
-  [
    "knslxagan",
    2,
    [
@@ -29431,11 +29469,6 @@
    []
   ],
   [
-   "pdlyeqe",
-   2,
-   []
-  ],
-  [
    "pdx'dyeq",
    2,
    [
@@ -29553,11 +29586,6 @@
    [
     "使留下使存在"
    ]
-  ],
-  [
-   "pqdlyeqon",
-   2,
-   []
   ],
   [
    "psd'xo",
@@ -30348,11 +30376,6 @@
    ]
   ],
   [
-   "gmnalyeq",
-   1,
-   []
-  ],
-  [
    "gn",
    1,
    [
@@ -30794,6 +30817,33 @@
   ],
   [
    "mlinal",
+   1,
+   []
+  ],
+  [
+   "mmayax",
+   1,
+   []
+  ],
+  [
+   "mndolo",
+   1,
+   []
+  ],
+  [
+   "mnkl'lu",
+   1,
+   []
+  ],
+  [
+   "mnlglu",
+   1,
+   [
+    "曾在動曾在移動顫動震動過的"
+   ]
+  ],
+  [
+   "mnxa",
    1,
    []
   ]
