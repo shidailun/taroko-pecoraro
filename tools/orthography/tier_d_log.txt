@@ -96,7 +96,6 @@ nslidil          nsrijil          n-     slidil           B
 nslubwi          nslubuy          n-     slubwi           T
 nslxoqan         nsrhuqan         n-     slxoqan          B
 nssl'pong        nsslupung        n-     mssl'pong        M
-nsueq            nsueq            n-     sueq             M
 ntgisa           ntgsa            n-     mtgisa           M
 ntlawa           ntlawa           n-     mtlawa           id
 nxoai            nhuway           n-     xoai             B

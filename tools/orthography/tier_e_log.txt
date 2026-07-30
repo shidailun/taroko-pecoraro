@@ -88,6 +88,7 @@ pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
 pklagun          pkragun          klagun         kragun         derived
 pkoxun           pkuxun           pkox           pkux           derived
+pktltoon         pktleetuun       tlto           tleetu         derived
 pl'xlaxe         plhlahi          plxlaxe        plhlahi        derived
 pllawax          plrawah          llawax         lrawah         derived
 plmuxun          prmuxun          lmuxun         rmuxun         derived

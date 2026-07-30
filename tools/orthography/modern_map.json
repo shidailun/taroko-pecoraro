@@ -1704,6 +1704,10 @@
    "tier": "id",
    "elision_dropped": "d'sun"
   },
+  "d'ua": {
+   "modern": "dwauwa",
+   "tier": "M"
+  },
   "d'xa": {
    "modern": "dha",
    "tier": "B"
@@ -3469,6 +3473,10 @@
    "modern": "klgan",
    "tier": "id"
   },
+  "kliban": {
+   "modern": "qriban",
+   "tier": "M"
+  },
   "klibi": {
    "modern": "qribi",
    "tier": "L"
@@ -3915,6 +3923,10 @@
   "knnaqex": {
    "modern": "qnnaqih",
    "tier": "L"
+  },
+  "knnxolan": {
+   "modern": "knnhuran",
+   "tier": "M"
   },
   "knolox": {
    "modern": "knuruh",
@@ -5942,6 +5954,10 @@
    "modern": "matas",
    "tier": "id"
   },
+  "matla'to": {
+   "modern": "mtleetu",
+   "tier": "M"
+  },
   "matlima": {
    "modern": "matrima",
    "tier": "T"
@@ -6237,6 +6253,10 @@
   "mita": {
    "modern": "mita",
    "tier": "id"
+  },
+  "mixol": {
+   "modern": "mnihur",
+   "tier": "M"
   },
   "miyaq": {
    "modern": "miyak",
@@ -7578,6 +7598,10 @@
    "modern": "mstuq",
    "tier": "B"
   },
+  "msueq": {
+   "modern": "msuwiq",
+   "tier": "M"
+  },
   "msuno": {
    "modern": "msunu",
    "tier": "A"
@@ -8494,6 +8518,10 @@
    "modern": "nsmudal",
    "tier": "id"
   },
+  "nsueq": {
+   "modern": "nsuwiq",
+   "tier": "M"
+  },
   "ntama": {
    "modern": "ntama",
    "tier": "id"
@@ -9341,6 +9369,10 @@
    "modern": "pksuyang",
    "tier": "id"
   },
+  "pktla'to": {
+   "modern": "pktleetu",
+   "tier": "M"
+  },
   "pktngi": {
    "modern": "pktngi",
    "tier": "id"
@@ -9774,6 +9806,10 @@
   "pnsqexan": {
    "modern": "pnskixan",
    "tier": "L"
+  },
+  "pnsueq": {
+   "modern": "pnsuwiq",
+   "tier": "M"
   },
   "pnsxada": {
    "modern": "pnshada",
@@ -10429,6 +10465,14 @@
    "modern": "pspuhan",
    "tier": "B"
   },
+  "pspu": {
+   "modern": "pspug",
+   "tier": "M"
+  },
+  "pspu'": {
+   "modern": "pspug",
+   "tier": "M"
+  },
   "pspui": {
    "modern": "pspi",
    "tier": "L"
@@ -10514,6 +10558,14 @@
   "pstutwi": {
    "modern": "pstutuy",
    "tier": "B"
+  },
+  "psueq": {
+   "modern": "psuwiq",
+   "tier": "M"
+  },
+  "psueqon": {
+   "modern": "psuwiqun",
+   "tier": "M"
   },
   "psukan": {
    "modern": "bsukan",
@@ -10648,6 +10700,10 @@
    "modern": "ptlngi",
    "tier": "id",
    "elision_dropped": "ptl'ngi"
+  },
+  "ptla'to": {
+   "modern": "ptleetu",
+   "tier": "M"
   },
   "ptlima": {
    "modern": "ptrima",
@@ -12403,6 +12459,10 @@
    "tier": "id",
    "elision_dropped": "sl'xlax"
   },
+  "slaan": {
+   "modern": "smlaan",
+   "tier": "M"
+  },
   "slading": {
    "modern": "slading",
    "tier": "T"
@@ -12813,13 +12873,12 @@
    "tier": "B"
   },
   "smpu": {
-   "modern": "smpu",
-   "tier": "T"
+   "modern": "smpug",
+   "tier": "M"
   },
   "smpu'": {
-   "modern": "smpu",
-   "tier": "T",
-   "elision_dropped": "smpu'"
+   "modern": "smpug",
+   "tier": "M"
   },
   "smqet": {
    "modern": "smqit",
@@ -12836,6 +12895,10 @@
   "smudal": {
    "modern": "smudal",
    "tier": "id"
+  },
+  "smueq": {
+   "modern": "smuwiq",
+   "tier": "M"
   },
   "smuk": {
    "modern": "smuk",
@@ -13000,8 +13063,8 @@
    "tier": "T"
   },
   "snlaan": {
-   "modern": "snraan",
-   "tier": "B"
+   "modern": "snlaan",
+   "tier": "M"
   },
   "snlaqe": {
    "modern": "snlaqi",
@@ -13310,6 +13373,14 @@
    "modern": "sptaqi",
    "tier": "T"
   },
+  "spu": {
+   "modern": "spug",
+   "tier": "M"
+  },
+  "spu'": {
+   "modern": "spug",
+   "tier": "M"
+  },
   "spuan": {
    "modern": "spuan",
    "tier": "id"
@@ -13581,7 +13652,7 @@
    "tier": "M"
   },
   "sueq": {
-   "modern": "sueq",
+   "modern": "suwiq",
    "tier": "M"
   },
   "sugun": {
@@ -13712,6 +13783,10 @@
    "modern": "shngiyan",
    "tier": "B"
   },
+  "sxolyaq": {
+   "modern": "shuriq",
+   "tier": "M"
+  },
   "sxongi": {
    "modern": "shungi",
    "tier": "A"
@@ -13747,6 +13822,10 @@
   "sîda": {
    "modern": "sida",
    "tier": "id"
+  },
+  "süeq": {
+   "modern": "suwiq",
+   "tier": "M"
   },
   "t'bako": {
    "modern": "lumak",
@@ -13812,6 +13891,10 @@
   "tai": {
    "modern": "tai",
    "tier": "id"
+  },
+  "taikong": {
+   "modern": "teykung",
+   "tier": "M"
   },
   "taiwan": {
    "modern": "taywan",
@@ -14399,6 +14482,14 @@
    "modern": "tlngun",
    "tier": "id",
    "elision_dropped": "tl'ngun"
+  },
+  "tl'to": {
+   "modern": "tleetu",
+   "tier": "M"
+  },
+  "tla'to": {
+   "modern": "tleetu",
+   "tier": "M"
   },
   "tlaman": {
    "modern": "tlaman",
@@ -23302,15 +23393,6 @@
    "modern": "pspngun",
    "tier": "R"
   },
-  "pspu": {
-   "modern": "pspu",
-   "tier": "R"
-  },
-  "pspu'": {
-   "modern": "pspu",
-   "tier": "R",
-   "elision_dropped": "pspu'"
-  },
   "psqdo": {
    "modern": "psqdu",
    "tier": "R"
@@ -25568,12 +25650,6 @@
    "d_rule": "n-",
    "d_base": "mssl'pong"
   },
-  "nsueq": {
-   "modern": "nsueq",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "sueq"
-  },
   "ntgisa": {
    "modern": "ntgsa",
    "tier": "D",
@@ -26329,6 +26405,12 @@
    "tier": "E",
    "e_stem": "pkox",
    "e_modern": "pkux"
+  },
+  "pktltoon": {
+   "modern": "pktleetuun",
+   "tier": "E",
+   "e_stem": "tlto",
+   "e_modern": "tleetu"
   },
   "pl'xlaxe": {
    "modern": "plhlahi",
@@ -27351,19 +27433,6 @@
     }
    ]
   },
-  "sxolyaq": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "shuriq",
-     "words": true,
-     "gloss": 0,
-     "dist": 6,
-     "agg": true
-    }
-   ]
-  },
   "syaqa": {
    "freq": 1,
    "pec_gloss": [],
@@ -27386,21 +27455,6 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "süeq": {
-   "freq": 1,
-   "pec_gloss": [
-    "倒出內容物溢出"
-   ],
-   "cands": [
-    {
-     "cand": "siq",
-     "words": true,
-     "gloss": 0,
-     "dist": 3,
      "agg": true
     }
    ]
@@ -27542,13 +27596,6 @@
    ]
   ],
   [
-   "slaan",
-   9,
-   [
-    "為什麼的附加會有這兩種形式在其他若干情況中也可見到與將要進行建造的地點"
-   ]
-  ],
-  [
    "de",
    7,
    []
@@ -27566,13 +27613,6 @@
    []
   ],
   [
-   "taikong",
-   6,
-   [
-    "肖像雕像圖像偶像"
-   ]
-  ],
-  [
    "banasi",
    5,
    [
@@ -27584,18 +27624,6 @@
    5,
    [
     "詞根為而或為之縮略意指接合之處"
-   ]
-  ],
-  [
-   "d'ua",
-   5,
-   []
-  ],
-  [
-   "kliban",
-   5,
-   [
-    "進行剪切的地點時間被剪下的東西剪法"
    ]
   ],
   [
@@ -27625,23 +27653,9 @@
    ]
   ],
   [
-   "mixol",
-   5,
-   [
-    "之變體"
-   ]
-  ],
-  [
    "mpwa'la",
    5,
    []
-  ],
-  [
-   "psueq",
-   5,
-   [
-    "倒出使溢出使流出施洗"
-   ]
   ],
   [
    "pt'to",
@@ -27661,11 +27675,6 @@
    [
     "已道別已陪走了一段路"
    ]
-  ],
-  [
-   "tla'to",
-   5,
-   []
   ],
   [
    "klilu",
@@ -27755,13 +27764,6 @@
    4,
    [
     "同上前項之動詞形"
-   ]
-  ],
-  [
-   "spu",
-   4,
-   [
-    "數計數清點"
    ]
   ],
   [
@@ -28675,13 +28677,6 @@
    ]
   ],
   [
-   "knnxolan",
-   2,
-   [
-    "酸度苦物之苦味"
-   ]
-  ],
-  [
    "knqdolyaq",
    2,
    []
@@ -28782,13 +28777,6 @@
    "m'gui",
    2,
    []
-  ],
-  [
-   "matla'to",
-   2,
-   [
-    "會變冷會冷卻"
-   ]
   ],
   [
    "mbua",
@@ -28925,13 +28913,6 @@
    "msnto",
    2,
    []
-  ],
-  [
-   "msueq",
-   2,
-   [
-    "被翻倒的會翻倒的會溢出的"
-   ]
   ],
   [
    "mt'nling",
@@ -29457,13 +29438,6 @@
    ]
   ],
   [
-   "smueq",
-   2,
-   [
-    "倒出溢出"
-   ]
-  ],
-  [
    "snoqo",
    2,
    [
@@ -29634,13 +29608,6 @@
    2,
    [
     "全都完全四散"
-   ]
-  ],
-  [
-   "tl'to",
-   2,
-   [
-    "註無疑是更正確的形式參見"
    ]
   ],
   [
@@ -30004,6 +29971,81 @@
   ],
   [
    "dnqpax",
+   1,
+   []
+  ],
+  [
+   "dobut",
+   1,
+   [
+    "瓶子同義詞"
+   ]
+  ],
+  [
+   "doding",
+   1,
+   []
+  ],
+  [
+   "dolo",
+   1,
+   [
+    "或似之詞根生育見"
+   ]
+  ],
+  [
+   "dpnax",
+   1,
+   []
+  ],
+  [
+   "dqqlinut",
+   1,
+   []
+  ],
+  [
+   "dux",
+   1,
+   [
+    "參見"
+   ]
+  ],
+  [
+   "dxcaan",
+   1,
+   []
+  ],
+  [
+   "dxdyeq",
+   1,
+   [
+    "遙遠相距很遠"
+   ]
+  ],
+  [
+   "dxeyaq",
+   1,
+   []
+  ],
+  [
+   "dyudika",
+   1,
+   []
+  ],
+  [
+   "eeng",
+   1,
+   []
+  ],
+  [
+   "eidang",
+   1,
+   [
+    "參見"
+   ]
+  ],
+  [
+   "eko",
    1,
    []
   ]

@@ -122,7 +122,16 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (349) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (375) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+  Sometimes **his own tag names the modern spelling**: SPU is tagged
+  `(SPU" - SPUG) (R)`, and his sub-forms Spgan / Snpgan / Pnspgan / Sspgan all
+  keep that g — only Spu, Smpu and Pspu dropped it. Modern `smpug` is 95× in
+  speech and `spug` 20×, glossed 數. The bracket in a tag is his own second
+  spelling, so when it is the *fuller* one it is direct evidence, not a guess.
+  An identity entry here is a verdict ("no modern form found") reached at a
+  particular time and may be overturned later: `sueq` → `sueq` became
+  `sueq` → `suwiq` once the whole family turned up attested (suwiq 倒掉,
+  psuwiq 使倒掉, smuwiq 倒).
   A key here is inert if the token is in `OVERRIDE_KEYS`, because the generator
   skips those (app.js resolves them first, in `WORD_OVERRIDES`) — six `dui`-family
   entries were written and silently ignored before that was noticed. `WORD_OVERRIDES`
