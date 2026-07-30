@@ -41,7 +41,6 @@ silin            silin            midcap=2    occ=2
 sipwi            sipwi            midcap=0    occ=2
 taosen           tausen           midcap=1    occ=2
 taotyex          tautyeh          midcap=1    occ=2
-tiwang           tiwang           midcap=1    occ=2
 xoyo             huyu             midcap=1    occ=2
 yiano            yianu            midcap=1    occ=2
 yordan           yurdan           midcap=2    occ=2
@@ -119,7 +118,6 @@ tbasyaq          tbasyaq          midcap=1    occ=1
 tenong           tenung           midcap=1    occ=1
 tibi             tibi             midcap=0    occ=1
 tilae            tilay            midcap=0    occ=1
-tiwas            tiwas            midcap=0    occ=1
 tiwin            tiwin            midcap=0    occ=1
 toli             tuli             midcap=0    occ=1
 ts'alex          ts'aleh          midcap=1    occ=1

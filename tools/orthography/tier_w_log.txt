@@ -130,7 +130,6 @@ mpabalae         empabalay         mpabalay         T/class      0     2
 mpabobo          empabubu          mpabubu          R/class      0     1
 mpabugo          empabgu           mpabgu           E/class      0     1
 mpad'xgal        empadxgal         mpadxgal         P/class      0     1
-mpadyaq          empadiq           mpadiq           P/class      0     3
 mpaka'man        empakeeman        mpakeeman        P/class      0     1
 mpakmpaxan       empaqmpahan       mpaqmpahan       G/class      0     1
 mpakox           empakux           mpakux           P/class      0     4

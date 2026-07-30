@@ -20,13 +20,11 @@ kmqqada          kmqqada          mqqada         mqqada         derived
 kmspusu          kmspusu          spusu          spusu          derived
 kmtisa           kmtgsa           mtisa          mtgsa          derived
 kngoxan          knguhan          kgoxan         kguhan         derived
-knpadyaq         knpadiq          padyaq         padiq          derived
 knptoxan         knptuhan         kptoxan        kptuhan        derived
 knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsdmatan        knsdmatan        sdmatan        sdmatan        derived
 knsopu           knsupu           sopu           supu           derived
 knsttoan         knsttuan         sttoan         sttuan         derived
-kpadyaq          kpadiq           padyaq         padiq          derived
 kpauçi           kpauxi           kpauxi         kpauxi         derived
 kxebong          khibung          xebong         hibung         derived
 lnqdo            rnqdug           lqdo           rqdug          derived
@@ -145,7 +143,6 @@ snguli           snguli           ngul           ngul           derived
 snklbutan        snkrbutan        sklbutan       skrbutan       derived
 snxali           snxali           snxal          snxal          derived
 spat'l           spatl            spat           spat           derived
-spkpadyaq        spkpadiq         padyaq         padiq          derived
 splingis         splingis         plingis        plingis        derived
 splisox          sprisuh          plisox         prisuh         derived
 spsbalae         spsbalay         psbalae        psbalay        derived
