@@ -7,7 +7,6 @@ iboq             ibuq                  3     6
 l'çan            lxan                  2     6
 nk'la            nkla                  3     6
 txlangan         thlangan             86     4
-knt'to           knttu                 2     3
 pitai            pitay                12     3
 sl'sun           srsun                 4     3
 sxngiyun         shngiyun             10     3

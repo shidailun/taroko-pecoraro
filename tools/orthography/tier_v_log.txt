@@ -1,7 +1,6 @@
 # tier V: the same word with his elision mark in a different place
 # columns: token, modern, the twin it inherited from, that twin's tier, occurrences
 s'dyaqon         sjiqun           sdyaqon          M        5
-ta'to            tatu             tato             M        4
 qqan             keekan           q'qan            M        3
 g'qani           glqani           gqani            M        2
 nd'yano          njyanu           ndyano           G        2

@@ -122,7 +122,7 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   (also protects loanwords like `lemon` from the char rules). "Unchanged" means
   his capitals and apostrophes, not his diacritics — `norm()` ignores those, so
   the tier used to hand back `däxa` for `däxa`.
-- **M** (389) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
+- **M** (410) — hand-curated, gloss-verified (`tools/orthography/manual_map.json`).
   Sometimes **his own tag names the modern spelling**: SPU is tagged
   `(SPU" - SPUG) (R)`, and his sub-forms Spgan / Snpgan / Pnspgan / Sspgan all
   keep that g — only Spu, Smpu and Pspu dropped it. Modern `smpug` is 95× in
@@ -164,6 +164,31 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   XG'LOQ 出鞘－拔出 turned out to be modern `hmgluq` 抽;拔. His X'LI 倒入, on the
   other hand, is a *different entry* the shape-scan conflated with XILI, and it
   stays green.
+
+  Batch 15 found two homonyms that were **real**, and both had been sitting in the
+  map as confident brown claims. A wrong entry here is worse than green: green says
+  "guessed", brown says "verified", and these said the latter about the wrong word.
+  His **BETAQ** 刺 was mapped to `bitaq`, which is 直到；連 — and `bitaq` is 321× in
+  speech, so the wrong answer was also the best-attested one, which is precisely how
+  it survived. 刺 is `beytaq` (spk 6), his METAQ is `meytaq` 注射 (spk 52), and his
+  PBETAQ was `pbitaq` 把…劃到 for what is `pbeytaq` 被打針. His own two sentences
+  (給你的孩子打針, 把耶穌釘在木頭上) say so plainly. His **MESA** was mapped to
+  `msa` 說, but all six of its occurrences are the asking sense (B'SO 無論你去要什麼,
+  PESA 我要去乞討食物 / 我來向你要火柴, UMAL 你要求的錢數) — it is `meysa` 要, 82×.
+  The lesson is that a shape hit plus high frequency is not evidence; **the gloss of
+  the candidate has to match the gloss of the entry it will render in**, and for
+  these two nobody had checked. Suffixed forms can still be genuinely shared: his
+  `btaqan` 打針, `btaqi`, `bntaqan`, `btaqun` were all already right, because the
+  btaq- stem really is common to 刺 and 直到.
+
+  The same batch closed the **teetu** family, where the map was contradicting
+  itself: `st'to`/`sta'to` → `steetu` and `knta'to` → `knteetu` (the long vowel)
+  sat beside `ta'to` → `tatu`, `tma'to` → `tmatu` and `knt'to` → `knttu`, all three
+  0-attested. Modern has `teetu` 切豬;切菜;切斷藤, `tmeetu` 切、剁 (spk 5) for his
+  TMA'TO, `pteetu` 立碑 for his PT"TO 豎立, `knteetu` 一直 for his KNTA'TO
+  不停地－頻繁地 — the same long-vowel correspondence as SA'GUL → `seegul`. **When
+  one branch of a family is already spelled a way the others are not, the
+  disagreement is the finding**; a family should never carry two stems.
 - **L** (251) — the former review queue, adjudicated case-by-case against Chinese
   glosses (`tools/orthography/llm_map.json`). Key discovery from this pass:
   Pecoraro k before a consonant is very often modern q (kbsulan→qbsuran,
@@ -421,6 +446,20 @@ untouched; there is nothing to disclose when his spelling is what's on screen.
   bought is that one of the three no longer *claims* the r. There is no third
   state available: `respellable()` is membership in one of the three tables, so
   every word is either a claim (brown) or a guess (green).
+
+  Batch 15 blocked `ttuun` / `ttuon` the same way, and the reasoning is worth
+  keeping because it distinguishes a block from a projection. They are the `-un`
+  slot of his cut root (TA'TO 切割), and they were identity-mapped, i.e. claiming
+  a word that exists nowhere: modern has **no** suffixed form of `teetu` at all
+  (`teetun`, `teetuun`, `teetuan`, `tteetu` are all 0), and the `ttuy-` forms that
+  do exist (`ttuyan` 8×, `ttuyaw` 被叫醒) belong to his *other* entry, TUTWI 起身,
+  whose paradigm he himself spells with the y. So there was nothing to claim, and
+  blocking put all three of TA'TO's `-an`/`-un` slots into the same green.
+  Contrast the four PT"TO slots the tiers added off the newly-correct root
+  (`mpteetu`, `pnteetu`, `pteetuan`, `pteetuun`, all 0-attested): those are
+  **regular affixation of a stem that is itself proven**, which is what the P and R
+  tiers do 1,981 times over. The line is whether a *stem* is attested, not whether
+  the exact affixed shape is.
 - The six live now:
   - `q'nao` → `qusul` (garlic). All 32,212 omnibus words swept; the modern Allium
     field is `qusul` / `pixil` / `neygi` / `sangas` and nothing is shaped like

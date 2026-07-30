@@ -1108,8 +1108,8 @@
    "tier": "M"
   },
   "betaq": {
-   "modern": "bitaq",
-   "tier": "B"
+   "modern": "beytaq",
+   "tier": "M"
   },
   "beylox": {
    "modern": "beyluh",
@@ -1513,6 +1513,10 @@
    "modern": "bu",
    "tier": "id",
    "elision_dropped": "bu'"
+  },
+  "bua": {
+   "modern": "buwa",
+   "tier": "M"
   },
   "buan": {
    "modern": "buan",
@@ -3204,6 +3208,10 @@
    "modern": "qbsuran",
    "tier": "L"
   },
+  "kbua": {
+   "modern": "kbuwa",
+   "tier": "M"
+  },
   "kbukwi": {
    "modern": "kbkuy",
    "tier": "A"
@@ -3645,6 +3653,10 @@
    "modern": "kmpdamat",
    "tier": "id"
   },
+  "kmpesa": {
+   "modern": "kmpeysa",
+   "tier": "M"
+  },
   "kmpg'li": {
    "modern": "kmpgrig",
    "tier": "M"
@@ -4047,6 +4059,10 @@
   "knsyukan": {
    "modern": "knsyukan",
    "tier": "id"
+  },
+  "knt'to": {
+   "modern": "knteetu",
+   "tier": "M"
   },
   "knta'to": {
    "modern": "knteetu",
@@ -5583,6 +5599,10 @@
    "modern": "lubuy",
    "tier": "M"
   },
+  "luda": {
+   "modern": "rudan",
+   "tier": "M"
+  },
   "ludan": {
    "modern": "rudan",
    "tier": "A"
@@ -6066,6 +6086,10 @@
    "modern": "mbliqan",
    "tier": "T"
   },
+  "mbua": {
+   "modern": "mbuwa",
+   "tier": "M"
+  },
   "mbulax": {
    "modern": "mburah",
    "tier": "T"
@@ -6175,8 +6199,12 @@
    "tier": "M"
   },
   "mesa": {
-   "modern": "msa",
-   "tier": "L"
+   "modern": "meysa",
+   "tier": "M"
+  },
+  "metaq": {
+   "modern": "meytaq",
+   "tier": "M"
   },
   "mg'leq": {
    "modern": "mgriq",
@@ -7043,6 +7071,10 @@
   "mpatas": {
    "modern": "mpatas",
    "tier": "T"
+  },
+  "mpesa": {
+   "modern": "mpeysa",
+   "tier": "M"
   },
   "mpito": {
    "modern": "mpitu",
@@ -8920,8 +8952,8 @@
    "tier": "B"
   },
   "pbetaq": {
-   "modern": "pbitaq",
-   "tier": "B"
+   "modern": "pbeytaq",
+   "tier": "M"
   },
   "pbgaon": {
    "modern": "pbgaun",
@@ -9075,6 +9107,10 @@
   },
   "peidang": {
    "modern": "peydang",
+   "tier": "M"
+  },
+  "pesa": {
+   "modern": "peysa",
    "tier": "M"
   },
   "pexo": {
@@ -9545,6 +9581,10 @@
   "plkusun": {
    "modern": "plkusun",
    "tier": "id"
+  },
+  "pllai": {
+   "modern": "pllayi",
+   "tier": "M"
   },
   "pllawa": {
    "modern": "prrawa",
@@ -10611,9 +10651,17 @@
    "modern": "pshuriq",
    "tier": "T"
   },
+  "pt'to": {
+   "modern": "pteetu",
+   "tier": "M"
+  },
   "pt'xngai": {
    "modern": "pthngai",
    "tier": "B"
+  },
+  "pta'to": {
+   "modern": "pteetu",
+   "tier": "M"
   },
   "ptaga": {
    "modern": "ptaga",
@@ -10720,6 +10768,10 @@
   "ptlima": {
    "modern": "ptrima",
    "tier": "A"
+  },
+  "ptllaon": {
+   "modern": "ptllayun",
+   "tier": "M"
   },
   "ptloong": {
    "modern": "ptluung",
@@ -13190,6 +13242,10 @@
    "modern": "sntunux",
    "tier": "id"
   },
+  "snuan": {
+   "modern": "snuwan",
+   "tier": "M"
+  },
   "snulu": {
    "modern": "snulu",
    "tier": "M"
@@ -13876,6 +13932,10 @@
    "tier": "id",
    "elision_dropped": "t'ngi"
   },
+  "t'to": {
+   "modern": "teetu",
+   "tier": "M"
+  },
   "t'xdil": {
    "modern": "thjil",
    "tier": "B"
@@ -13887,6 +13947,10 @@
   "ta": {
    "modern": "ta",
    "tier": "id"
+  },
+  "ta'to": {
+   "modern": "teetu",
+   "tier": "M"
   },
   "taai": {
    "modern": "taay",
@@ -14603,9 +14667,13 @@
    "modern": "tluung",
    "tier": "A"
   },
+  "tm'to": {
+   "modern": "tmeetu",
+   "tier": "M"
+  },
   "tma'to": {
-   "modern": "tmatu",
-   "tier": "B"
+   "modern": "tmeetu",
+   "tier": "M"
   },
   "tmaan": {
    "modern": "tmaan",
@@ -17993,6 +18061,10 @@
    "modern": "mpshada",
    "tier": "P"
   },
+  "mpt'to": {
+   "modern": "mpteetu",
+   "tier": "P"
+  },
   "mptabu": {
    "modern": "mptabu",
    "tier": "P"
@@ -19879,6 +19951,14 @@
    "modern": "ptayus",
    "tier": "P",
    "elision_dropped": "pt'ayus"
+  },
+  "pt'toan": {
+   "modern": "pteetuan",
+   "tier": "P"
+  },
+  "pt'toon": {
+   "modern": "pteetuun",
+   "tier": "P"
   },
   "ptabu": {
    "modern": "ptabu",
@@ -24245,14 +24325,6 @@
    "modern": "ttrabus",
    "tier": "R"
   },
-  "ttuon": {
-   "modern": "ttuun",
-   "tier": "R"
-  },
-  "ttuun": {
-   "modern": "ttuun",
-   "tier": "R"
-  },
   "tunung": {
    "modern": "tunung",
    "tier": "R"
@@ -24544,11 +24616,6 @@
   },
   "knliyan": {
    "modern": "knriyan",
-   "tier": "S",
-   "spoken": 2
-  },
-  "knt'to": {
-   "modern": "knttu",
    "tier": "S",
    "spoken": 2
   },
@@ -26582,6 +26649,12 @@
    "e_stem": "psqlasan",
    "e_modern": "psqrasan"
   },
+  "pnt'to": {
+   "modern": "pnteetu",
+   "tier": "E",
+   "e_stem": "ptto",
+   "e_modern": "pteetu"
+  },
   "pntblayan": {
    "modern": "pntbrayan",
    "tier": "E",
@@ -27181,11 +27254,6 @@
    "tier": "V",
    "v_twin": "sdyaqon"
   },
-  "ta'to": {
-   "modern": "tatu",
-   "tier": "V",
-   "v_twin": "tato"
-  },
   "xm'qli": {
    "modern": "hmqli",
    "tier": "V",
@@ -27706,13 +27774,6 @@
    []
   ],
   [
-   "pt'to",
-   5,
-   [
-    "豎立使立起參見"
-   ]
-  ],
-  [
    "klilu",
    4,
    [
@@ -27746,13 +27807,6 @@
    []
   ],
   [
-   "metaq",
-   4,
-   [
-    "同上之動詞形"
-   ]
-  ],
-  [
    "mpanalu",
    4,
    []
@@ -27769,13 +27823,6 @@
    4,
    [
     "正當之時同時同時地"
-   ]
-  ],
-  [
-   "pesa",
-   4,
-   [
-    "請求乞求"
    ]
   ],
   [
@@ -27800,13 +27847,6 @@
    4,
    [
     "同上前項之動詞形"
-   ]
-  ],
-  [
-   "t'to",
-   4,
-   [
-    "更正確的寫法參見切割"
    ]
   ],
   [
@@ -28051,13 +28091,6 @@
    []
   ],
   [
-   "mpesa",
-   3,
-   [
-    "請求者乞求者乞丐"
-   ]
-  ],
-  [
    "mpnyeqon",
    3,
    []
@@ -28119,13 +28152,6 @@
    3,
    [
     "使移動使活動"
-   ]
-  ],
-  [
-   "pllai",
-   3,
-   [
-    "開始命令"
    ]
   ],
   [
@@ -28216,13 +28242,6 @@
    3,
    [
     "使之足夠知足命令式"
-   ]
-  ],
-  [
-   "ptllaon",
-   3,
-   [
-    "將被顯明將被公開"
    ]
   ],
   [
@@ -28328,11 +28347,6 @@
    [
     "行為像貪吃鬼的人過分的人過度地"
    ]
-  ],
-  [
-   "tm'to",
-   3,
-   []
   ],
   [
    "tnblxan",
@@ -28614,13 +28628,6 @@
    ]
   ],
   [
-   "kmpesa",
-   2,
-   [
-    "想要請求"
-   ]
-  ],
-  [
    "kmubui",
    2,
    []
@@ -28744,11 +28751,6 @@
    []
   ],
   [
-   "luda",
-   2,
-   []
-  ],
-  [
    "luula",
    2,
    [
@@ -28766,13 +28768,6 @@
    "m'gui",
    2,
    []
-  ],
-  [
-   "mbua",
-   2,
-   [
-    "沸騰的冒泡的"
-   ]
   ],
   [
    "mdao",
@@ -29191,11 +29186,6 @@
   ],
   [
    "psyangi",
-   2,
-   []
-  ],
-  [
-   "pta'to",
    2,
    []
   ],
@@ -29814,13 +29804,6 @@
    []
   ],
   [
-   "bua",
-   1,
-   [
-    "沸騰冒泡之狀"
-   ]
-  ],
-  [
    "bébé",
    1,
    []
@@ -30084,6 +30067,81 @@
   ],
   [
    "glaqon",
+   1,
+   []
+  ],
+  [
+   "glixo",
+   1,
+   [
+    "穿透刺穿"
+   ]
+  ],
+  [
+   "gm'laq",
+   1,
+   [
+    "捕捉抓住"
+   ]
+  ],
+  [
+   "gmalup",
+   1,
+   [
+    "結合聯合和諧一致"
+   ]
+  ],
+  [
+   "gmnalyeq",
+   1,
+   []
+  ],
+  [
+   "gn",
+   1,
+   [
+    "前綴表示某事之發生或某物之獲得是憑藉以所附詞基指稱的物品或行動為代價"
+   ]
+  ],
+  [
+   "gn'lu",
+   1,
+   []
+  ],
+  [
+   "gn'lyeq",
+   1,
+   []
+  ],
+  [
+   "gqoaq",
+   1,
+   [
+    "搖頭把頭轉來轉去"
+   ]
+  ],
+  [
+   "hotte",
+   1,
+   []
+  ],
+  [
+   "idau",
+   1,
+   []
+  ],
+  [
+   "iin",
+   1,
+   []
+  ],
+  [
+   "ikaxa",
+   1,
+   []
+  ],
+  [
+   "il",
    1,
    []
   ]

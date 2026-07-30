@@ -110,6 +110,7 @@ pnslidil         pnsrijil         pslidil        psrijil        derived
 pnslngiyan       pnsrngiyan       pslngiyan      psrngiyan      derived
 pnslutut         pnslutut         pslutut        pslutut        derived
 pnsqlasan        pnsqrasan        psqlasan       psqrasan       derived
+pnt'to           pnteetu          ptto           pteetu         attested
 pntblayan        pntbrayan        ptblayan       ptbrayan       derived
 pntqoan          pntquwan         ptqoan         ptquwan        derived
 ppyaon           ppyaun           pya            pya            derived
