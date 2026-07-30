@@ -27,6 +27,7 @@ qoai             quway            gloss      1
 wana             wana             gloss     48
 xaya             haya             gloss     11
 mlata            mrata            hand       3
+radyo            rajyu            hand       1
 tomato           tmatu            hand       1
 abura            abura            rule       1
 baket            baket            rule       3
@@ -106,7 +107,6 @@ plato            platu            rule       6
 plpaan           plpaan           rule       1
 ponki            punki            rule       1
 pu               pu               rule       1
-radyo            radyu            rule       1
 sabong           sabung           rule       1
 sagaimu          sagaimu          rule       1
 saida            saida            rule       1

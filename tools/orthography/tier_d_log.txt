@@ -1,12 +1,8 @@
 # tier D: token -> modern, rule, base, tier the base came from
 dbiyang          dbiyang          d-     biyang           id
 dcristo          dcristu          d-     cristo           N
-dd'yami          dd'yami          CV-    d'yami           R
-dd'yamo          ddyamu           CV-    d'yamo           P
 ddcristo         ddcristu         CV-    dcristo          D
 dddilun          ddjilun          CV-    ddilun           B
-ddyami           ddyami           CV-    dyami            P
-ddyamo           ddyamu           CV-    dyamo            R
 dmbslat          dmbsrat          d-     mbslat           P
 dmikat           dmikat           d-     mikat            N
 dmorisaka        dmurisaka        d-     morisaka         N
@@ -48,11 +44,8 @@ n'mu             n'mu             n-     'mu              id
 n'ulat           nurat            n-     m'ulat           P
 n'xalan          n'xalan          n-     m'xalan          T
 nalong           narung           n-     malong           B
-nawit            nawit            n-     mawit            P
-nbaxang          nbahang          n-     baxang           T
 nblyeqan         nbliqan          n-     mblyeqan         T
 ndaxa            ndha             n-     daxa             M
-ndd'yamo         nddyamu          n-     dd'yamo          D
 ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
