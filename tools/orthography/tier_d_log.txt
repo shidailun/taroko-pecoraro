@@ -90,7 +90,7 @@ ntgisa           ntgsa            n-     mtgisa           M
 ntlawa           ntlawa           n-     mtlawa           id
 ntluula          ntreura          n-     tluula           M
 nxoai            nhuway           n-     xoai             B
-ppaotoç          ppautux          CV-    paotoç           P
+ppaotoç          ppeeutux         CV-    paotoç           M
 ppitai           ppitay           CV-    pitai            S
 ppkl'bai         ppklbay          CV-    pkl'bai          P
 ppkl'xkax        ppklhkah         CV-    pkl'xkax         P

@@ -134,7 +134,6 @@ mpd'xleq         empdhriq          mpdhriq          P/twin       0     3
 mpdanga          empdanga          mpdanga          R/twin       0     1
 mpdaxong         empdahung         mpdahung         R/class      0     1
 mpdidil          empjijil          mpjijil          P/twin       0     1
-mpg'gui          empggui           mpggui           R/class      0     4
 mpg'luk          empgluq           mpgluq           P/twin       0     2
 mpgalang         empgarang         mpgarang         E/twin       0     1
 mpgaluk          empgealuk         mpgealuk         P/class      0     1

@@ -8,6 +8,7 @@ dmnalox          dmnarux          nalox          narux              1 derived
 drbiyax          drbiyax          biyax          biyax              1 derived
 kmalox           kmaluh           kalo           kalu               1 derived
 kmptöting        kmptucing        toting         tucing             1 derived
+knlap            qnrap            klap           qrap               1 derived
 kpax             qpah             kpax           qpah               1 attested
 mkmpxeng         mkmphing         pxeng          phing              1 derived
 mkp'xeng         mkphing          pxeng          phing              1 derived

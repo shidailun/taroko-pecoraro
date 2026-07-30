@@ -2523,6 +2523,22 @@
    "tier": "id",
    "elision_dropped": "g'dgut"
   },
+  "g'gan": {
+   "modern": "geegan",
+   "tier": "M"
+  },
+  "g'gi": {
+   "modern": "geegi",
+   "tier": "M"
+  },
+  "g'gui": {
+   "modern": "geeguy",
+   "tier": "M"
+  },
+  "g'gun": {
+   "modern": "geegun",
+   "tier": "M"
+  },
   "g'leq": {
    "modern": "griq",
    "tier": "A"
@@ -2987,6 +3003,10 @@
    "modern": "gmukun",
    "tier": "id"
   },
+  "gn'gan": {
+   "modern": "gneegan",
+   "tier": "M"
+  },
   "gn'luk": {
    "modern": "gnluq",
    "tier": "L"
@@ -3077,8 +3097,8 @@
    "tier": "id"
   },
   "guyun": {
-   "modern": "guyun",
-   "tier": "id"
+   "modern": "geuyun",
+   "tier": "M"
   },
   "hea": {
    "modern": "hiya",
@@ -3237,6 +3257,10 @@
    "modern": "klaun",
    "tier": "B"
   },
+  "k'lap": {
+   "modern": "qrap",
+   "tier": "M"
+  },
   "k'layan": {
    "modern": "krayan",
    "tier": "M"
@@ -3322,6 +3346,10 @@
   },
   "kalayan": {
    "modern": "krayan",
+   "tier": "M"
+  },
+  "kalip": {
+   "modern": "qrip",
    "tier": "M"
   },
   "kalo": {
@@ -3781,6 +3809,10 @@
    "modern": "qluli",
    "tier": "A"
   },
+  "klulu": {
+   "modern": "klulug",
+   "tier": "M"
+  },
   "kluulus": {
    "modern": "kreurus",
    "tier": "M"
@@ -3841,6 +3873,10 @@
    "modern": "kmaraw",
    "tier": "B"
   },
+  "kmalip": {
+   "modern": "qmrip",
+   "tier": "M"
+  },
   "kmalo": {
    "modern": "kmalu",
    "tier": "B"
@@ -3888,6 +3924,10 @@
   "kmkbaxang": {
    "modern": "kmkbahang",
    "tier": "T"
+  },
+  "kmlap": {
+   "modern": "qmrap",
+   "tier": "M"
   },
   "kmlawa": {
    "modern": "kmlawa",
@@ -6284,6 +6324,10 @@
    "tier": "id",
    "elision_dropped": "m'ayus"
   },
+  "m'gui": {
+   "modern": "gmeeguy",
+   "tier": "M"
+  },
   "m'gul": {
    "modern": "mgul",
    "tier": "id",
@@ -7050,6 +7094,10 @@
    "modern": "mkaraw",
    "tier": "A"
   },
+  "mkalip": {
+   "modern": "mqrip",
+   "tier": "M"
+  },
   "mkan": {
    "modern": "mkan",
    "tier": "id"
@@ -7180,6 +7228,10 @@
   },
   "mkluulus": {
    "modern": "mkreurus",
+   "tier": "M"
+  },
+  "mkmagwi": {
+   "modern": "mkmgeeguy",
    "tier": "M"
   },
   "mkmalu": {
@@ -7868,8 +7920,8 @@
    "tier": "B"
   },
   "motoç": {
-   "modern": "mutuh",
-   "tier": "B"
+   "modern": "muutux",
+   "tier": "M"
   },
   "moxoi": {
    "modern": "moxoi",
@@ -7904,8 +7956,8 @@
    "w_how": "class"
   },
   "mp'otoç": {
-   "modern": "mputuh",
-   "tier": "B"
+   "modern": "peutux",
+   "tier": "M"
   },
   "mp'paso": {
    "modern": "emppeasug",
@@ -7998,6 +8050,10 @@
    "tier": "W",
    "w_was": "mpeysa",
    "w_how": "twin"
+  },
+  "mpg'gui": {
+   "modern": "mpgeeguy",
+   "tier": "M"
   },
   "mpgalup": {
    "modern": "empgaluk",
@@ -10028,8 +10084,8 @@
    "tier": "B"
   },
   "p'otoç": {
-   "modern": "putuh",
-   "tier": "B"
+   "modern": "peutux",
+   "tier": "M"
   },
   "p'qan": {
    "modern": "pkan",
@@ -10131,6 +10187,10 @@
   "paon": {
    "modern": "paun",
    "tier": "B"
+  },
+  "paotoç": {
+   "modern": "peeutux",
+   "tier": "M"
   },
   "papaq": {
    "modern": "papak",
@@ -10589,6 +10649,10 @@
    "modern": "pkaraw",
    "tier": "B"
   },
+  "pkalip": {
+   "modern": "pqrip",
+   "tier": "M"
+  },
   "pkalo": {
    "modern": "pkalu",
    "tier": "M"
@@ -10696,6 +10760,14 @@
   "pkliwang": {
    "modern": "pkliwang",
    "tier": "id"
+  },
+  "pkllusan": {
+   "modern": "pkrrusan",
+   "tier": "M"
+  },
+  "pkllusun": {
+   "modern": "pkrrusun",
+   "tier": "M"
   },
   "pklmili": {
    "modern": "pkrmili",
@@ -11202,6 +11274,10 @@
   "pnkingal": {
    "modern": "pnkingal",
    "tier": "id"
+  },
+  "pnkllusan": {
+   "modern": "pnkrrusan",
+   "tier": "M"
   },
   "pnkoudus": {
    "modern": "pnkeudus",
@@ -11818,6 +11894,22 @@
   },
   "psdlxun": {
    "modern": "psdlhun",
+   "tier": "M"
+  },
+  "psg'gan": {
+   "modern": "psgeegan",
+   "tier": "M"
+  },
+  "psg'gi": {
+   "modern": "psgeegi",
+   "tier": "M"
+  },
+  "psg'gun": {
+   "modern": "psgeegun",
+   "tier": "M"
+  },
+  "psgagan": {
+   "modern": "psgeegan",
    "tier": "M"
   },
   "psgao": {
@@ -12528,6 +12620,18 @@
   "ptutwi": {
    "modern": "ptutuy",
    "tier": "B"
+  },
+  "ptuxan": {
+   "modern": "peutuxan",
+   "tier": "M"
+  },
+  "ptuxi": {
+   "modern": "peutuxi",
+   "tier": "M"
+  },
+  "ptuxun": {
+   "modern": "peutuxun",
+   "tier": "M"
   },
   "ptxangan": {
    "modern": "pthangan",
@@ -17311,6 +17415,10 @@
    "modern": "seiyax",
    "tier": "M"
   },
+  "tsaon": {
+   "modern": "tsaun",
+   "tier": "M"
+  },
   "tsasao": {
    "modern": "tsasaw",
    "tier": "B"
@@ -19561,10 +19669,6 @@
    "modern": "mkrbung",
    "tier": "P"
   },
-  "mkmagwi": {
-   "modern": "mkgmeeguy",
-   "tier": "P"
-  },
   "mkmaspat": {
    "modern": "mkmaspat",
    "tier": "P"
@@ -21166,10 +21270,6 @@
    "modern": "paisan",
    "tier": "P"
   },
-  "paotoç": {
-   "modern": "pautux",
-   "tier": "P"
-  },
   "papa": {
    "modern": "papa",
    "tier": "P"
@@ -21850,6 +21950,10 @@
   },
   "pnttoqan": {
    "modern": "pnttukan",
+   "tier": "P"
+  },
+  "pntuxan": {
+   "modern": "pneutuxan",
    "tier": "P"
   },
   "pnyeq": {
@@ -24000,25 +24104,10 @@
    "modern": "ega",
    "tier": "R"
   },
-  "g'gan": {
-   "modern": "ggan",
-   "tier": "R",
-   "elision_dropped": "g'gan"
-  },
-  "g'gi": {
-   "modern": "ggi",
-   "tier": "R",
-   "elision_dropped": "g'gi"
-  },
   "g'gitan": {
    "modern": "ggitan",
    "tier": "R",
    "elision_dropped": "g'gitan"
-  },
-  "g'gun": {
-   "modern": "ggun",
-   "tier": "R",
-   "elision_dropped": "g'gun"
   },
   "gggal": {
    "modern": "gggar",
@@ -24039,11 +24128,6 @@
   "gm'lup": {
    "modern": "gmrup",
    "tier": "R"
-  },
-  "gn'gan": {
-   "modern": "gngan",
-   "tier": "R",
-   "elision_dropped": "gn'gan"
   },
   "gnwit": {
    "modern": "gnwit",
@@ -24730,12 +24814,6 @@
    "tier": "W",
    "w_was": "mpdayaw",
    "w_how": "twin"
-  },
-  "mpg'gui": {
-   "modern": "empggui",
-   "tier": "W",
-   "w_was": "mpggui",
-   "w_how": "class"
   },
   "mpgdgit": {
    "modern": "empgdgit",
@@ -25602,15 +25680,6 @@
   },
   "psdxleqon": {
    "modern": "psdhriqun",
-   "tier": "R"
-  },
-  "psg'gi": {
-   "modern": "psggi",
-   "tier": "R",
-   "elision_dropped": "psg'gi"
-  },
-  "psgagan": {
-   "modern": "psgagan",
    "tier": "R"
   },
   "psisan": {
@@ -26557,10 +26626,6 @@
   },
   "pklayan": {
    "modern": "pklayan",
-   "tier": "KL"
-  },
-  "pkllusan": {
-   "modern": "pkllusan",
    "tier": "KL"
   },
   "pngalun": {
@@ -28004,7 +28069,7 @@
    "d_base": "xoai"
   },
   "ppaotoç": {
-   "modern": "ppautux",
+   "modern": "ppeeutux",
    "tier": "D",
    "d_rule": "CV-",
    "d_base": "paotoç"
@@ -28702,12 +28767,6 @@
    "e_stem": "pkbaxang",
    "e_modern": "pqbahang"
   },
-  "pnkllusan": {
-   "modern": "pnkllusan",
-   "tier": "E",
-   "e_stem": "pkllusan",
-   "e_modern": "pkllusan"
-  },
   "pnkpnpong": {
    "modern": "pnkpnpung",
    "tier": "E",
@@ -29142,6 +29201,12 @@
    "g_stem": "toting",
    "g_modern": "tucing"
   },
+  "knlap": {
+   "modern": "qnrap",
+   "tier": "G",
+   "g_stem": "klap",
+   "g_modern": "qrap"
+  },
   "kpax": {
    "modern": "qpah",
    "tier": "G",
@@ -29478,21 +29543,6 @@
     }
    ]
   },
-  "paotoç": {
-   "freq": 1,
-   "pec_gloss": [
-    "欺騙愚弄未來式"
-   ],
-   "cands": [
-    {
-     "cand": "putuh",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
   "pdaolyaq": {
    "freq": 3,
    "pec_gloss": [
@@ -29715,13 +29765,6 @@
    []
   ],
   [
-   "klulu",
-   7,
-   [
-    "爬牆虎用來指我們葡萄園的葡萄藤"
-   ]
-  ],
-  [
    "banasi",
    5,
    [
@@ -29791,20 +29834,6 @@
    []
   ],
   [
-   "k'lap",
-   3,
-   [
-    "捕捉這件事抓住"
-   ]
-  ],
-  [
-   "kalip",
-   3,
-   [
-    "剪切切斷尤指用剪刀"
-   ]
-  ],
-  [
    "kl'xqon",
    3,
    []
@@ -29845,13 +29874,6 @@
    3,
    [
     "每次一點點每人分到一小份"
-   ]
-  ],
-  [
-   "pntuxan",
-   3,
-   [
-    "陷阱詭計誘惑"
    ]
   ],
   [
@@ -29980,11 +30002,6 @@
    ]
   ],
   [
-   "g'gui",
-   2,
-   []
-  ],
-  [
    "gmlixo",
    2,
    [
@@ -30011,23 +30028,9 @@
    []
   ],
   [
-   "kmalip",
-   2,
-   [
-    "剪紙布線"
-   ]
-  ],
-  [
    "kmbibil",
    2,
    []
-  ],
-  [
-   "kmlap",
-   2,
-   [
-    "抓住捕捉"
-   ]
   ],
   [
    "kmubui",
@@ -30075,22 +30078,10 @@
    ]
   ],
   [
-   "m'gui",
-   2,
-   []
-  ],
-  [
    "mdao",
    2,
    [
     "隱藏者守密者"
-   ]
-  ],
-  [
-   "mkalip",
-   2,
-   [
-    "剪切的人裁縫理髮師"
    ]
   ],
   [
@@ -30175,19 +30166,7 @@
    ]
   ],
   [
-   "pkalip",
-   2,
-   [
-    "使人剪讓人給自己剪"
-   ]
-  ],
-  [
    "pklayun",
-   2,
-   []
-  ],
-  [
-   "pkllusun",
    2,
    []
   ],
@@ -30210,11 +30189,6 @@
   ],
   [
    "plx'gun",
-   2,
-   []
-  ],
-  [
-   "psg'gan",
    2,
    []
   ],
@@ -30948,11 +30922,6 @@
    ]
   ],
   [
-   "knlap",
-   1,
-   []
-  ],
-  [
    "knlsan",
    1,
    []
@@ -31622,11 +31591,6 @@
    []
   ],
   [
-   "psg'gun",
-   1,
-   []
-  ],
-  [
    "pslno'on",
    1,
    []
@@ -31723,21 +31687,6 @@
   ],
   [
    "ptqliyun",
-   1,
-   []
-  ],
-  [
-   "ptuxan",
-   1,
-   []
-  ],
-  [
-   "ptuxi",
-   1,
-   []
-  ],
-  [
-   "ptuxun",
    1,
    []
   ],
@@ -31940,6 +31889,95 @@
   ],
   [
    "slngiyun",
+   1,
+   []
+  ],
+  [
+   "sloani",
+   1,
+   []
+  ],
+  [
+   "sm",
+   1,
+   []
+  ],
+  [
+   "smilap",
+   1,
+   [
+    "無疑這是的變體參見"
+   ]
+  ],
+  [
+   "smoa",
+   1,
+   []
+  ],
+  [
+   "smt'to",
+   1,
+   []
+  ],
+  [
+   "smxoai",
+   1,
+   []
+  ],
+  [
+   "sn",
+   1,
+   [
+    "複合前綴最常表示關於什麼所談論的是什麼其他時候這個前綴相當於帶有原因工具目的之義的後接表示過去動作已完成的"
+   ]
+  ],
+  [
+   "snawit",
+   1,
+   []
+  ],
+  [
+   "sontyo",
+   1,
+   []
+  ],
+  [
+   "souvent",
+   1,
+   []
+  ],
+  [
+   "splan",
+   1,
+   []
+  ],
+  [
+   "sploan",
+   1,
+   []
+  ],
+  [
+   "spsqlinut",
+   1,
+   []
+  ],
+  [
+   "sq'ti",
+   1,
+   []
+  ],
+  [
+   "sqdgan",
+   1,
+   []
+  ],
+  [
+   "sqdgi",
+   1,
+   []
+  ],
+  [
+   "sqoaqe",
    1,
    []
   ]

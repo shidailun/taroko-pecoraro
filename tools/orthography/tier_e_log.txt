@@ -87,7 +87,6 @@ pngkari          pngkari          pgkari         pgkari         derived
 pngnnakan        pngnnakan        pgnnakan       pgnnakan       derived
 pnk'udus         pnkeudus         pkudus         pkeudus        derived
 pnkbaxang        pnqbahang        pkbaxang       pqbahang       derived
-pnkllusan        pnkllusan        pkllusan       pkllusan       derived
 pnkpnpong        pnkpnpung        pkpnpong       pkpnpung       derived
 pnsblayan        pnsblayan        psblayan       psblayan       derived
 pnsblenax        pnsbrinah        psblenax       psbrinah       derived
