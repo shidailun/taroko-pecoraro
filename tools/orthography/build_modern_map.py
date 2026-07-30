@@ -1468,6 +1468,51 @@ def main():
             result[t] = {"modern": want, "tier": "V", "v_twin": src,
                          "v_was": twins[t]["modern"]}
 
+    # 7c. Tier W: the written schwa before a word-initial labial. Every tier above
+    # answers one token at a time, so none of them can see that a whole INITIAL
+    # CLUSTER is one the orthography never writes. `seqsweep.py` asks that question
+    # mechanically — a character n-gram absent from all 38,687 modern types — and the
+    # largest class it returns is `^mp`, 101 map values printing a prefix spelling
+    # that occurs 8 times in 277k tokens of speech. Modern writes the future/agentive
+    # as `emp-` (1,651 types / 2,251 tokens) and the stative m- on a b-root as `emb-`
+    # (201 / 1,011); his transcription drops the schwa, exactly as it does word-
+    # internally (`xnglyeq` → hnegliq, batch 25).
+    #
+    # The scope is measured, not assumed, and it stops at the labials. A GENERAL
+    # "value 0×, e+value attested" rule fires 144 times and is unsafe: it would take
+    # `glani` → *eglani (a batch-24 word), `duk` → *eduk 門扇, `lixan` → *erihan —
+    # singleton initials where the e-form is a coincidental different word. And no
+    # other m-initial has the vein at all: `emn` 0 types against `mn` 1,215, `ems` 0
+    # against 1,096, `emk` 5 against 920, `emg` 1 against 667, `emt` 15 against 520.
+    # It is written before p and b because that is where the cluster needs breaking.
+    #
+    # Guarded per token, so the class evidence never overrides evidence about the
+    # word in hand: his form must be unattested (both corpora) and the e-form must be
+    # attested. That leaves `mpgeeguy` 偷竊者, `mpplaq` and `mputuh` 斷掉 alone, and
+    # leaves `mblaiq` alone too — 5× itself, though `emblaiq` is 43×. Deliberately
+    # conservative: attested is attested, the same principle as the id tier. Not a
+    # manual_map entry, because freezing 128 stems there would silently override any
+    # future stem fix — the map is regenerated, and a post-pass composes with it.
+    w_log = []
+    for t in sorted(result):
+        rec = result[t]
+        v = rec["modern"]
+        if rec["tier"] in ("X", "W") or v != v.lower():
+            continue
+        if not (v.startswith("mp") or v.startswith("mb")):
+            continue
+        nv = norm(v)
+        if nv in attested or spoken.get(nv):
+            continue                        # his form is itself modern Truku
+        e = "e" + v
+        ne = norm(e)
+        if not (ne in attested or spoken.get(ne)):
+            continue                        # no twin: class evidence alone, not enough
+        tiers[rec["tier"]] -= 1
+        tiers["W"] += 1
+        w_log.append((t, e, v, rec["tier"], spoken.get(ne, 0), tokens.get(t, 0)))
+        result[t] = {"modern": e, "tier": "W", "w_was": v}
+
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
               open(os.path.join(HERE, "modern_map.json"), "w", encoding="utf-8"),
@@ -1546,6 +1591,12 @@ def main():
         f.write("# columns: token, modern, the twin it inherited from, that twin's tier, occurrences\n")
         for t, mod, src, st, o in sorted(v_log, key=lambda r: -r[4]):
             f.write("%-16s %-16s %-16s %-4s %5d\n" % (t, mod, src, st, o))
+    print("word-initial schwa before a labial (W): %d mapped" % tiers["W"])
+    with open(os.path.join(HERE, "tier_w_log.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# tier W: modern writes the schwa before a word-initial labial (emp-/emb-)\n")
+        f.write("# columns: token, modern, the value it replaced, that value's tier, e-form spoken freq, occurrences\n")
+        for t, mod, was, st, ne, o in sorted(w_log, key=lambda r: (-r[4], r[0])):
+            f.write("%-16s %-17s %-16s %-8s %5d %5d\n" % (t, mod, was, st, ne, o))
     changed = sum(1 for t, r in result.items() if r["modern"] != t)
     print("mapped with actual spelling change:", changed)
 
