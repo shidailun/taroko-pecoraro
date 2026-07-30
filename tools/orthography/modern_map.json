@@ -1981,6 +1981,10 @@
    "modern": "djiyun",
    "tier": "M"
   },
+  "ddiyal": {
+   "modern": "dgiyal",
+   "tier": "M"
+  },
   "ddiyan": {
    "modern": "djiyan",
    "tier": "B"
@@ -2197,6 +2201,10 @@
    "modern": "dmblaiq",
    "tier": "B"
   },
+  "dmdiyal": {
+   "modern": "dmgiyal",
+   "tier": "M"
+  },
   "dmidil": {
    "modern": "dmijil",
    "tier": "A"
@@ -2265,6 +2273,10 @@
    "modern": "dndulan",
    "tier": "T"
   },
+  "dndyalan": {
+   "modern": "dnegyalan",
+   "tier": "M"
+  },
   "dngaan": {
    "modern": "dngaan",
    "tier": "id"
@@ -2324,6 +2336,10 @@
   "dole": {
    "modern": "duri",
    "tier": "B"
+  },
+  "dolo": {
+   "modern": "gdurug",
+   "tier": "M"
   },
   "doma": {
    "modern": "duma",
@@ -3468,6 +3484,10 @@
    "modern": "kdiyung",
    "tier": "T"
   },
+  "kdlgan": {
+   "modern": "gdrgan",
+   "tier": "M"
+  },
   "kdlmut": {
    "modern": "kdrumut",
    "tier": "M"
@@ -3487,6 +3507,10 @@
   "kdngo": {
    "modern": "kdngu",
    "tier": "B"
+  },
+  "kdolo": {
+   "modern": "gdurug",
+   "tier": "M"
   },
   "kdolox": {
    "modern": "kdurux",
@@ -6757,6 +6781,10 @@
    "modern": "mddayaw",
    "tier": "A"
   },
+  "mddiyal": {
+   "modern": "mdgiyal",
+   "tier": "M"
+  },
   "mddui": {
    "modern": "mdduuy",
    "tier": "M"
@@ -6788,6 +6816,10 @@
   "mdngo": {
    "modern": "mdngu",
    "tier": "A"
+  },
+  "mdolo": {
+   "modern": "mgdurug",
+   "tier": "M"
   },
   "mdudu": {
    "modern": "mdudul",
@@ -7992,6 +8024,10 @@
    "tier": "W",
    "w_was": "mpkeudus",
    "w_how": "twin"
+  },
+  "mpkdolo": {
+   "modern": "empgdurug",
+   "tier": "M"
   },
   "mpkdolox": {
    "modern": "empkdurux",
@@ -11523,6 +11559,10 @@
    "modern": "pqbahang",
    "tier": "B"
   },
+  "pqbboan": {
+   "modern": "pqbuan",
+   "tier": "M"
+  },
   "pqboan": {
    "modern": "pqbuan",
    "tier": "B"
@@ -14848,6 +14888,10 @@
   "smulus": {
    "modern": "smulus",
    "tier": "id"
+  },
+  "smusyaq": {
+   "modern": "msrusaq",
+   "tier": "M"
   },
   "smuxeng": {
    "modern": "smuhing",
@@ -27566,6 +27610,12 @@
    "d_rule": "CV-",
    "d_base": "muda"
   },
+  "mndolo": {
+   "modern": "mngdurug",
+   "tier": "D",
+   "d_rule": "mn-",
+   "d_base": "dolo"
+  },
   "mneidang": {
    "modern": "mneydang",
    "tier": "D",
@@ -29729,13 +29779,6 @@
    ]
   ],
   [
-   "ddiyal",
-   3,
-   [
-    "或戰勝佔上風"
-   ]
-  ],
-  [
    "dup",
    3,
    [
@@ -29762,30 +29805,9 @@
    ]
   ],
   [
-   "kdlgan",
-   3,
-   [
-    "分娩的時間地點情況"
-   ]
-  ],
-  [
    "kl'xqon",
    3,
    []
-  ],
-  [
-   "lmngut",
-   3,
-   [
-    "使受孕變得能受孕"
-   ]
-  ],
-  [
-   "lngutan",
-   3,
-   [
-    "被受孕懷孕"
-   ]
   ],
   [
    "mpn'mu",
@@ -29856,13 +29878,6 @@
    3,
    [
     "草坪日語詞"
-   ]
-  ],
-  [
-   "smusyaq",
-   3,
-   [
-    "混濁的水泥濘的水"
    ]
   ],
   [
@@ -29965,20 +29980,6 @@
    ]
   ],
   [
-   "dmdiyal",
-   2,
-   [
-    "戰勝打贏一場戰鬥最強"
-   ]
-  ],
-  [
-   "dndyalan",
-   2,
-   [
-    "贏得的勝利勝利的時間地點"
-   ]
-  ],
-  [
    "g'gui",
    2,
    []
@@ -30002,13 +30003,6 @@
    2,
    [
     "鰥夫寡婦"
-   ]
-  ],
-  [
-   "kdolo",
-   2,
-   [
-    "生產分娩生孩子"
    ]
   ],
   [
@@ -30060,21 +30054,11 @@
    ]
   ],
   [
-   "l'ngut",
-   2,
-   []
-  ],
-  [
    "likut",
    2,
    [
     "藉口詭計"
    ]
-  ],
-  [
-   "lngut",
-   2,
-   []
   ],
   [
    "luula",
@@ -30100,13 +30084,6 @@
    2,
    [
     "隱藏者守密者"
-   ]
-  ],
-  [
-   "mddiyal",
-   2,
-   [
-    "勝利者佔上風的人"
    ]
   ],
   [
@@ -30149,13 +30126,6 @@
    "mpeidang",
    2,
    []
-  ],
-  [
-   "mpkdolo",
-   2,
-   [
-    "將來生產分娩"
-   ]
   ],
   [
    "mtmago",
@@ -30237,13 +30207,6 @@
    "pllgun",
    2,
    []
-  ],
-  [
-   "plngut",
-   2,
-   [
-    "使受孕使懷孕"
-   ]
   ],
   [
    "plx'gun",
@@ -30709,13 +30672,6 @@
    []
   ],
   [
-   "dolo",
-   1,
-   [
-    "或似之詞根生育見"
-   ]
-  ],
-  [
    "dpnax",
    1,
    []
@@ -31145,13 +31101,6 @@
    []
   ],
   [
-   "mdolo",
-   1,
-   [
-    "生育生下孩子"
-   ]
-  ],
-  [
    "meïdang",
    1,
    [
@@ -31204,11 +31153,6 @@
   ],
   [
    "mlinal",
-   1,
-   []
-  ],
-  [
-   "mndolo",
    1,
    []
   ],
@@ -31281,13 +31225,6 @@
    1,
    [
     "說謊者設法找藉口欺騙的人"
-   ]
-  ],
-  [
-   "mplngut",
-   1,
-   [
-    "將會懷孕使人受孕者"
    ]
   ],
   [
@@ -31658,11 +31595,6 @@
    []
   ],
   [
-   "pqbboan",
-   1,
-   []
-  ],
-  [
    "produit",
    1,
    []
@@ -31912,6 +31844,104 @@
    [
     "就人們記憶所及太魯閣族並沒有姓氏或氏族名每個人都有自己的名字其後接父親或母親的名字以便與同名者區分必要時還可加上祖父或祖母的名字作為第三個成分之女之孫女小姐這個人名可能因生病某個事件或一時興起而改變也可能完全自創取自植物名如動物名如綽號如甚至帶侮辱性的名稱如垃圾麻雀五十年的日本統治引入了大量日本名字其中最貼近太魯閣族性格的至今仍常見目前流行的則是或多或少經過改造的中文名字要列出一份真正屬於太魯閣族的人名清單並不容易以下是兩份最常用人名的清單較常用於女性的名字較常用於男性的名字凡名前標有號者太魯閣族人自己承認其為日本名字來源而源自中文的名字為數眾多常遭訛用且因使用者而有不同的唸法不在以下清單中列出"
    ]
+  ],
+  [
+   "s'gulan",
+   1,
+   []
+  ],
+  [
+   "s'xgun",
+   1,
+   []
+  ],
+  [
+   "sbiyaq",
+   1,
+   []
+  ],
+  [
+   "sdongan",
+   1,
+   [
+    "架子"
+   ]
+  ],
+  [
+   "sgxway",
+   1,
+   []
+  ],
+  [
+   "sia",
+   1,
+   []
+  ],
+  [
+   "siipa",
+   1,
+   []
+  ],
+  [
+   "siko",
+   1,
+   []
+  ],
+  [
+   "silwi",
+   1,
+   [
+    "或鐵鐵絲"
+   ]
+  ],
+  [
+   "simpu",
+   1,
+   []
+  ],
+  [
+   "sinbong",
+   1,
+   []
+  ],
+  [
+   "skboxil",
+   1,
+   []
+  ],
+  [
+   "sknuar",
+   1,
+   []
+  ],
+  [
+   "skoto",
+   1,
+   [
+    "凍僵發麻起雞皮疙瘩"
+   ]
+  ],
+  [
+   "sktadao",
+   1,
+   []
+  ],
+  [
+   "sl's",
+   1,
+   []
+  ],
+  [
+   "slap",
+   1,
+   [
+    "此詞根僅見於以下詞語有可能甚至很可能這個詞是的變體因而源自詞根或參見"
+   ]
+  ],
+  [
+   "slngiyun",
+   1,
+   []
   ]
  ]
 }
