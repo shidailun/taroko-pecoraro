@@ -1,4 +1,5 @@
 # tier E: sentence-only token -> modern, the stem it inherited, that stem's modern form
+bnlnaxan         bnrnahan         blnaxan        brnahan        derived
 bntuluk          bntuluk          btuluk         btuluk         derived
 dlolo            druru            lolo           ruru           derived
 dmt'sapat        dmt'sapat        tsapat         t'sapat        derived
@@ -57,7 +58,6 @@ mqqalang         mqqalang         qalang         qalang         derived
 mslaput          mslaput          slaput         slaput         derived
 msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
-mspitai          mspitay          pitai          pitay          derived
 mstxoulang       msthulang        stxoulang      sthulang       derived
 msxeulis         mshulis          sxeulis        shulis         derived
 mtango           mtangu           tango          tangu          derived
@@ -70,6 +70,7 @@ mtl'do           mtrdu            tldo           trdu           derived
 mtsdaxal         mtsdahar         tsdaxal        tsdahar        derived
 ndtlalae         ndtlealay        tlalae         tlealay        derived
 nlluan           nl'luan          llu            l'lu           derived
+ntnling          ntnring          tnling         tnring         derived
 pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
@@ -87,7 +88,7 @@ pngnnakan        pngnnakan        pgnnakan       pgnnakan       derived
 pnk'udus         pnkeudus         pkudus         pkeudus        derived
 pnkbaxang        pnqbahang        pkbaxang       pqbahang       derived
 pnkllusan        pnkllusan        pkllusan       pkllusan       derived
-pnkpnpong        pnkpnpung        pnpong         pnpung         derived
+pnkpnpong        pnkpnpung        pkpnpong       pkpnpung       derived
 pnsblayan        pnsblayan        psblayan       psblayan       derived
 pnsblenax        pnsbrinah        psblenax       psbrinah       derived
 pnsdlaan         pnsdraan         psdlaan        psdraan        derived

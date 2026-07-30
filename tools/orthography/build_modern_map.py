@@ -1548,6 +1548,33 @@ def main():
                       spoken.get(ne, 0), tokens.get(t, 0)))
         result[t] = {"modern": e, "tier": "W", "w_was": v, "w_how": how}
 
+    # A hand-adjudicated key that never reaches the map is invisible everywhere
+    # else: the app renders the token green, and a DOM check diffs the built map
+    # against the previous one, so a key that is absent from BOTH never enters the
+    # work list and passes. Say so here, loudly, once per build.
+    #  - BLOCKED: a null in lexical_map.json wins over the human tiers by design
+    #    (it is itself a human decision), so the manual entry is the stale one.
+    #  - DEAD: the key matches no token in entries.js — usually a typo in the key,
+    #    or a token that changed when entries.js was rebuilt. Harmless, but it
+    #    means the word it was written for is still unfixed.
+    #  - DROPPED: neither. Should not happen; a real bug in the tier order.
+    curated = [("manual", manual), ("llm", llm)]
+    landing = {"BLOCKED": [], "DEAD": [], "DROPPED": []}
+    for name, tbl in curated:
+        for t in sorted(tbl):
+            if t in result or not tbl[t]:
+                continue
+            kind = ("BLOCKED" if t in lex_block
+                    else "DEAD" if t not in tokens else "DROPPED")
+            landing[kind].append("%s %s->%s (%dx)"
+                                 % (name, t, tbl[t], tokens.get(t, 0)))
+    for kind in ("DROPPED", "BLOCKED", "DEAD"):
+        if landing[kind]:
+            print("curated keys that never landed [%s]: %d — %s"
+                  % (kind, len(landing[kind]),
+                     ", ".join(landing[kind][:12])
+                     + (" …" if len(landing[kind]) > 12 else "")))
+
     unmapped.sort(key=lambda x: -x[1])
     json.dump({"map": result, "review": review, "unmapped_top": unmapped[:400]},
               open(os.path.join(HERE, "modern_map.json"), "w", encoding="utf-8"),

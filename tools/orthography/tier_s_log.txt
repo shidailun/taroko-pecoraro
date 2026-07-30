@@ -40,7 +40,6 @@ pnxlisan         pnhlisan              6     1
 pp'laq           pplaq                 2     1
 psxgun           pshgun                8     1
 ptkulun          ptkurun               3     1
-sblnaxan         sbrnahan              4     1
 sblnaxon         sbrnahun              2     1
 spagi            spagi                 2     1
 sq'mai           sqmai                 2     1

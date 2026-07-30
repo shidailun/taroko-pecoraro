@@ -67,7 +67,7 @@ nlangax          nrangah          n-     langax           B
 nlangi           nrangi           n-     langi            B
 nllawa           nrrawa           n-     llawa            B
 nlmilit          nrmirit          n-     mlmilit          S
-nlut             nrut             n-     mlut             B
+nlut             nrut             n-     lut              M
 nmikat           nmikat           n-     mikat            N
 nmilit           nmirit           n-     milit            A
 nmulun           nmulun           n-     mulun            M
