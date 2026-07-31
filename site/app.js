@@ -841,9 +841,18 @@
   // modern mode prints QUSUL (Q'NAO), the substitute in the modern colour and
   // his own word beside it in his. Pecoraro mode is untouched — there is
   // nothing to disclose when his spelling is what's on screen.
+  //
+  // The bracket is a DISCLOSURE, so it is owed only where something was actually
+  // substituted. Tier X also holds affix articles whose modern spelling is his own
+  // (`kn`, `sn`, `tn`, `dd`, `gn`, `mk`, `sk`) — they live here rather than in
+  // manual_map.json only because the generator's vowelless-output gate would drop
+  // them, and for those the bracket printed "KN (KN)", telling the reader his word
+  // is no longer used while showing it unchanged beside itself.
   function lexicalSub(word) {
-    return Object.prototype.hasOwnProperty.call(
-      LEXICAL_SUBS, wordKey(word));
+    if (!Object.prototype.hasOwnProperty.call(LEXICAL_SUBS, wordKey(word))) {
+      return false;
+    }
+    return wordKey(modernize(word)) !== wordKey(word);
   }
 
   // Pecoraro's own editorial hand, set inside his Truku lines. These are French

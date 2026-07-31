@@ -2205,6 +2205,10 @@
    "modern": "dkaun",
    "tier": "B"
   },
+  "dkensat": {
+   "modern": "dknsat",
+   "tier": "M"
+  },
   "dkmtxedao": {
    "modern": "dkmthidaw",
    "tier": "T"
@@ -3326,6 +3330,10 @@
   },
   "idau": {
    "modern": "idaw",
+   "tier": "M"
+  },
+  "iin": {
+   "modern": "iying",
    "tier": "M"
   },
   "iing": {
@@ -10289,6 +10297,10 @@
    "modern": "ngusul",
    "tier": "id"
   },
+  "ngusyex": {
+   "modern": "siras",
+   "tier": "X"
+  },
   "ngxaq": {
    "modern": "nghak",
    "tier": "L"
@@ -10304,6 +10316,10 @@
   "nii": {
    "modern": "nii",
    "tier": "id"
+  },
+  "niing": {
+   "modern": "niying",
+   "tier": "M"
   },
   "nilao": {
    "modern": "ngiraw",
@@ -13494,6 +13510,10 @@
    "modern": "ptasun",
    "tier": "id"
   },
+  "ptatwi": {
+   "modern": "ptatuy",
+   "tier": "M"
+  },
   "ptbago": {
    "modern": "ptbagu",
    "tier": "B"
@@ -15985,6 +16005,10 @@
    "modern": "srsi",
    "tier": "M"
   },
+  "sm": {
+   "modern": "sm",
+   "tier": "X"
+  },
   "sm'lu": {
    "modern": "smeelug",
    "tier": "M"
@@ -17165,6 +17189,10 @@
    "modern": "scimu",
    "tier": "A"
   },
+  "stipyaq": {
+   "modern": "stcipiq",
+   "tier": "M"
+  },
   "stl'ngan": {
    "modern": "strngan",
    "tier": "T"
@@ -17662,6 +17690,10 @@
    "modern": "tatuk",
    "tier": "L"
   },
+  "tatwi": {
+   "modern": "tatuy",
+   "tier": "M"
+  },
   "tatök": {
    "modern": "tatuk",
    "tier": "B"
@@ -17909,6 +17941,10 @@
   "temu": {
    "modern": "temu",
    "tier": "id"
+  },
+  "tepyaq": {
+   "modern": "cipiq",
+   "tier": "M"
   },
   "teumuk": {
    "modern": "teumuk",
@@ -25059,10 +25095,6 @@
    "modern": "stgtgut",
    "tier": "P"
   },
-  "stipyaq": {
-   "modern": "scipiq",
-   "tier": "P"
-  },
   "stk'nai": {
    "modern": "stqnay",
    "tier": "P"
@@ -26655,10 +26687,6 @@
   },
   "nguyan": {
    "modern": "nguyan",
-   "tier": "R"
-  },
-  "niing": {
-   "modern": "niing",
    "tier": "R"
   },
   "nilaq": {
@@ -29469,10 +29497,10 @@
    "d_base": "gnalu"
   },
   "niin": {
-   "modern": "niing",
+   "modern": "niying",
    "tier": "D",
    "d_rule": "n-",
-   "d_base": "miin"
+   "d_base": "iin"
   },
   "niyaq": {
    "modern": "niyak",
@@ -31168,19 +31196,6 @@
      "agg": true
     }
    ]
-  },
-  "tepyaq": {
-   "freq": 4,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "cipiq",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
   }
  },
  "unmapped_top": [
@@ -31210,13 +31225,6 @@
    []
   ],
   [
-   "ptatwi",
-   3,
-   [
-    "用作比喻例子"
-   ]
-  ],
-  [
    "contraction",
    2,
    []
@@ -31233,13 +31241,6 @@
    2,
    [
     "說是同意是那個說是的人"
-   ]
-  ],
-  [
-   "mngusyex",
-   2,
-   [
-    "有兔唇的人"
    ]
   ],
   [
@@ -31310,11 +31311,6 @@
    ]
   ],
   [
-   "dkensat",
-   1,
-   []
-  ],
-  [
    "dmsnxei",
    1,
    []
@@ -31375,11 +31371,6 @@
   ],
   [
    "hotte",
-   1,
-   []
-  ],
-  [
-   "iin",
    1,
    []
   ],
@@ -31448,13 +31439,6 @@
    "même",
    1,
    []
-  ],
-  [
-   "ngusyex",
-   1,
-   [
-    "兔唇唇裂"
-   ]
   ],
   [
    "note",
@@ -31541,11 +31525,6 @@
    ]
   ],
   [
-   "sm",
-   1,
-   []
-  ],
-  [
    "sontyo",
    1,
    []
@@ -31574,13 +31553,6 @@
    "sy",
    1,
    []
-  ],
-  [
-   "tatwi",
-   1,
-   [
-    "作比喻舉例"
-   ]
   ],
   [
    "tbii",
