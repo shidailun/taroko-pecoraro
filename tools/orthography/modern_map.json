@@ -1272,6 +1272,10 @@
    "modern": "brbirat",
    "tier": "B"
   },
+  "blbiling": {
+   "modern": "blbling",
+   "tier": "M"
+  },
   "blenax": {
    "modern": "brinah",
    "tier": "B"
@@ -3272,6 +3276,10 @@
    "modern": "iril",
    "tier": "A"
   },
+  "ilnabao": {
+   "modern": "rnabaw",
+   "tier": "M"
+  },
   "ima": {
    "modern": "ima",
    "tier": "id"
@@ -4227,6 +4235,10 @@
   },
   "kmsyuk": {
    "modern": "kmsiyuk",
+   "tier": "M"
+  },
+  "kmtabu": {
+   "modern": "kmtabug",
    "tier": "M"
   },
   "kmttg'xal": {
@@ -9438,6 +9450,10 @@
    "modern": "mtqiri",
    "tier": "B"
   },
+  "mtqoli": {
+   "modern": "mtquri",
+   "tier": "M"
+  },
   "mtqéli": {
    "modern": "mtqiri",
    "tier": "B"
@@ -10432,6 +10448,10 @@
   "oma": {
    "modern": "uma",
    "tier": "B"
+  },
+  "ongal": {
+   "modern": "ungat",
+   "tier": "M"
   },
   "ongat": {
    "modern": "ungat",
@@ -12020,6 +12040,10 @@
    "modern": "pnshada",
    "tier": "B"
   },
+  "pnt'toan": {
+   "modern": "pnteetuan",
+   "tier": "M"
+  },
   "pnta'to": {
    "modern": "pnteetu",
    "tier": "M"
@@ -12427,6 +12451,10 @@
   "psblenax": {
    "modern": "psbrinah",
    "tier": "B"
+  },
+  "psblnuxi": {
+   "modern": "psbrnuxi",
+   "tier": "M"
   },
   "psbluxun": {
    "modern": "psbruxun",
@@ -14796,6 +14824,10 @@
    "modern": "sduman",
    "tier": "B"
   },
+  "sdongan": {
+   "modern": "sduman",
+   "tier": "M"
+  },
   "sdoon": {
    "modern": "sduun",
    "tier": "B"
@@ -16445,6 +16477,10 @@
    "modern": "spsping",
    "tier": "id"
   },
+  "spsqlinut": {
+   "modern": "spsqrinut",
+   "tier": "M"
+  },
   "sptaqe": {
    "modern": "sptaqi",
    "tier": "T"
@@ -16998,6 +17034,10 @@
   "t'bako": {
    "modern": "lumak",
    "tier": "X"
+  },
+  "t'lap": {
+   "modern": "trap",
+   "tier": "M"
   },
   "t'lo": {
    "modern": "tru",
@@ -17804,6 +17844,10 @@
    "modern": "tleengan",
    "tier": "M"
   },
+  "tlap": {
+   "modern": "trap",
+   "tier": "M"
+  },
   "tlawa": {
    "modern": "tlawa",
    "tier": "M"
@@ -18274,6 +18318,10 @@
    "modern": "tnqian",
    "tier": "B"
   },
+  "tnqoli": {
+   "modern": "tnquri",
+   "tier": "M"
+  },
   "tnsapax": {
    "modern": "tnsapah",
    "tier": "B"
@@ -18301,6 +18349,10 @@
   "tnxeyan": {
    "modern": "tnhiyan",
    "tier": "B"
+  },
+  "tnxeyax": {
+   "modern": "tnhiyan",
+   "tier": "M"
   },
   "toko": {
    "modern": "tuku",
@@ -31005,11 +31057,6 @@
    []
   ],
   [
-   "blbiling",
-   1,
-   []
-  ],
-  [
    "bonté",
    1,
    []
@@ -31206,11 +31253,6 @@
    []
   ],
   [
-   "ilnabao",
-   1,
-   []
-  ],
-  [
    "iniko",
    1,
    []
@@ -31260,11 +31302,6 @@
    [
     "修復凡狀況不佳之物"
    ]
-  ],
-  [
-   "kmtabu",
-   1,
-   []
   ],
   [
    "kmupan",
@@ -31387,11 +31424,6 @@
    []
   ],
   [
-   "mtqoli",
-   1,
-   []
-  ],
-  [
    "même",
    1,
    []
@@ -31444,11 +31476,6 @@
    [
     "或非常能產的後綴賦予帶詞綴的詞基一種未來與義務的意義其所產生的衍生形以名詞方式運作與只是同一詞綴的位置變體表示必然意願確定的未來表示過去動作意圖中的未來面向"
    ]
-  ],
-  [
-   "ongal",
-   1,
-   []
   ],
   [
    "pa",
@@ -31510,11 +31537,6 @@
    []
   ],
   [
-   "pnt'toan",
-   1,
-   []
-  ],
-  [
    "porter",
    1,
    []
@@ -31531,11 +31553,6 @@
   ],
   [
    "psaanaq",
-   1,
-   []
-  ],
-  [
-   "psblnuxi",
    1,
    []
   ],
@@ -31602,13 +31619,6 @@
    []
   ],
   [
-   "sdongan",
-   1,
-   [
-    "架子"
-   ]
-  ],
-  [
    "siko",
    1,
    []
@@ -31651,11 +31661,6 @@
    []
   ],
   [
-   "spsqlinut",
-   1,
-   []
-  ],
-  [
    "sqoaqe",
    1,
    []
@@ -31683,11 +31688,6 @@
    []
   ],
   [
-   "t'lap",
-   1,
-   []
-  ],
-  [
    "tatwi",
    1,
    [
@@ -31701,11 +31701,6 @@
   ],
   [
    "tinalu",
-   1,
-   []
-  ],
-  [
-   "tlap",
    1,
    []
   ],
@@ -31724,17 +31719,7 @@
    ]
   ],
   [
-   "tnqoli",
-   1,
-   []
-  ],
-  [
    "tntana",
-   1,
-   []
-  ],
-  [
-   "tnxeyax",
    1,
    []
   ],
