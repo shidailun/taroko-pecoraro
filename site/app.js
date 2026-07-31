@@ -476,6 +476,7 @@
   // under, or pressing X in modern mode returns a screen of H-words.
   var FORMS = (function () {
     var out = [];
+    var ei = 0;
     function add(raw, label, entry, sub, alias) {
       var key = norm(raw);
       // mkey is the modern *displayed* spelling, brackets already collapsed, so a
@@ -483,7 +484,10 @@
       var mkey = norm(modernizeText(collapsed(raw)));
       out.push({
         key: key, mkey: mkey === key ? null : mkey,
-        label: label, entry: entry, sub: sub, alias: !!alias
+        // ei is the entry's position in window.ENTRIES. An A–Z row opens its entry
+        // by that index, not by searching for its own label: the headwords S, M and
+        // A are single letters, and re-searching them returned 1,685 cards.
+        label: label, entry: entry, sub: sub, alias: !!alias, ei: ei
       });
     }
     // A bracketed variant earns its own slot, labelled with just that spelling:
@@ -496,7 +500,8 @@
         if (aliasSlot(v) !== head) add(v, v, entry, sub, true);
       });
     }
-    window.ENTRIES.forEach(function (e) {
+    window.ENTRIES.forEach(function (e, i) {
+      ei = i;
       addForm(e.hw, e, null);
       (e.subs || []).forEach(function (s) { if (s.form) addForm(s.form, e, s); });
     });
@@ -806,12 +811,29 @@
   // or a ° list (taon., lmuon., psloon.), so anything general enough to catch vl.
   // would swallow those too. R. is the one that must also match case — a lone
   // capital R is his root mark, and there is no Truku word it could be.
-  var META_ABBR = { vr: "voir / see", vl: "vel — ou / or", "var": "variante / variant" };
+  // His apparatus abbreviations — Latin and French shorthand a reader today has no
+  // reason to know. `vl.` is *vel*, "or", and it is in the book 215 times (vr. 229,
+  // var. 199, R. 632). Until now the only explanation was a hover `title` written in
+  // French and English, which gave a Chinese reader nothing and a touch reader
+  // nothing at all. Held one field per language so the tap bubble can follow the ⚙
+  // toggle and the title string can be built from the same source.
+  var META_ABBR = {
+    vl: { full: "vel", fr: "ou", en: "or", zh: "或" },
+    vr: { full: "voir", fr: "voir", en: "see", zh: "參見" },
+    "var": { full: "variante", fr: "variante", en: "variant", zh: "變體" },
+    r: { full: "racine", fr: "racine", en: "root", zh: "詞根" }
+  };
   function metaAbbr(part, after) {
     if (after.charAt(0) !== ".") return null;
-    if (part === "R") return "racine / root";
+    // Only a CAPITAL R is his root mark; a lowercase "r." is French prose.
+    if (part !== "R" && part.toLowerCase() === "r") return null;
     return Object.prototype.hasOwnProperty.call(META_ABBR, part.toLowerCase())
       ? META_ABBR[part.toLowerCase()] : null;
+  }
+  // The title attribute is the mouse fallback; the tap bubble is the real
+  // explanation, since a phone never sees a title at all.
+  function abbrTitle(a) {
+    return a.full + " — " + a.fr + " / " + a.en + " / " + a.zh;
   }
 
   // Every Truku word is wrapped, whether or not it links, because the wrapper is
@@ -832,7 +854,8 @@
       }
       var meta = metaAbbr(part, parts[i + 1] || "");
       if (meta) {
-        h += '<span class="meta-abbr" title="' + esc(meta) + '">' + esc(part) + "</span>";
+        h += '<span class="meta-abbr" tabindex="0" data-abbr="' + esc(part.toLowerCase()) +
+          '" title="' + esc(abbrTitle(meta)) + '">' + esc(part) + "</span>";
         continue;
       }
       var cls = respellable(part) ? "w-mod" : "w-raw";
@@ -1243,6 +1266,34 @@
     return f.sub || f.alias ? stubHtml(f) : entryHtml(f.entry);
   }
 
+  // A letter listing is an INDEX, not a run of entries. Rendering roots as full
+  // cards put 259 of them under S carrying 804 example sentences — 225,000
+  // characters on one scroll — and mixed two densities on one page, so the
+  // headwords a reader is scanning for sat buried inside other entries' examples.
+  // A dictionary page works because the eye lands on a column of headwords; this
+  // gives every form one line, root and sub-form alike, and opens the card on tap.
+  // The two differ only in what the line says about itself: a root stands on its
+  // own, a sub-form is indented and names the root it belongs to. (Reuses the
+  // .entry.stub class so the existing click handler already opens it.)
+  function indexRowHtml(f) {
+    var isRoot = !f.sub && !f.alias;
+    var s = f.sub || f.entry;
+    var g = oneGloss(s);
+    var label = dispText(formText(f.label));
+    var h = '<article class="entry stub idx ' + (isRoot ? "idx-root" : "idx-sub") +
+      '" data-entry="' + f.ei + '" data-ref="' + esc(label) + '">';
+    h += '<div class="hw-line"><span class="hw stub-hw">' +
+      linkifyTruku(tidyForm(formText(f.label)), true) + "</span>";
+    h += audioBtn(s.a);
+    if (!isRoot) {
+      h += '<span class="tag stub-parent">→ ' +
+        linkifyTruku(tidyForm(formText(f.entry.hw)), true) + "</span>";
+    }
+    h += "</div>";
+    if (g) h += '<p class="gloss stub-gloss">' + g + "</p>";
+    return h + "</article>";
+  }
+
   function introTextHtml(text) {
     return text
       .split(/\n\n+/)
@@ -1297,19 +1348,34 @@
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
-    results.innerHTML = list.map(formHtml).join("");
+    var roots = 0;
+    list.forEach(function (f) { if (!f.sub && !f.alias) roots++; });
+    results.innerHTML =
+      '<p class="letter-head"><span class="letter-head-l">' +
+      esc(letter === "#" ? "#" : letter) + "</span>" +
+      list.length + " forms · " + roots + " entries / " +
+      list.length + " 個詞形 · " + roots + " 條目</p>" +
+      list.map(indexRowHtml).join("");
     window.scrollTo({ top: 0 });
   }
 
-  function showRandomEntry() {
+  // One named entry on screen, with no search behind it. `openEntry()` cannot do
+  // this job for an A–Z row: it puts the label in the box and searches, and his
+  // headwords S, M and A are single letters, so tapping the S row asked for every
+  // card containing an s.
+  function showEntry(e, refText) {
     hidePreview();
     stopAudio();
     currentLetter = null;
     document.body.classList.remove("home");
-    var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
-    searchBox.value = e.hw;
+    searchBox.value = refText;
     results.innerHTML = entryHtml(e);
     window.scrollTo({ top: 0 });
+  }
+
+  function showRandomEntry() {
+    var e = window.ENTRIES[Math.floor(Math.random() * window.ENTRIES.length)];
+    showEntry(e, e.hw);
   }
 
   function render() {
@@ -1349,6 +1415,19 @@
       playClip(ab.getAttribute("data-audio"), ab);
       return;
     }
+    // Checked before the stub, because an abbreviation can sit inside one.
+    var ma = ev.target.closest ? ev.target.closest(".meta-abbr[data-abbr]") : null;
+    if (ma) {
+      ev.stopPropagation();
+      showAbbr(ma);
+      return;
+    }
+    // An A–Z row knows which entry it stands for, so it opens that one directly.
+    var row = ev.target.closest ? ev.target.closest(".entry.idx[data-entry]") : null;
+    if (row) {
+      var e = window.ENTRIES[+row.getAttribute("data-entry")];
+      if (e) { showEntry(e, row.getAttribute("data-ref")); return; }
+    }
     // A stub card is a pointer, not an entry: one tap opens the root it belongs to.
     var stub = ev.target.closest ? ev.target.closest(".entry.stub") : null;
     if (stub) {
@@ -1375,7 +1454,8 @@
 
   // Tap anywhere else dismisses the gloss preview (mobile has no mouseout).
   document.addEventListener("click", function (ev) {
-    var onLink = ev.target.closest && ev.target.closest(".crossref-link");
+    var onLink = ev.target.closest &&
+      ev.target.closest(".crossref-link, .meta-abbr[data-abbr]");
     if (!onLink && !wordPreview.contains(ev.target)) hidePreview();
   });
 
@@ -1444,14 +1524,34 @@
     wordPreview.setAttribute("data-ref", norm(link.getAttribute("data-ref")));
     wordPreview.innerHTML = h;
     wordPreview.classList.remove("hidden");
+    placePreview(link);
+  }
 
-    var r = link.getBoundingClientRect();
+  function placePreview(anchor) {
+    var r = anchor.getBoundingClientRect();
     var pw = wordPreview.offsetWidth, ph = wordPreview.offsetHeight;
     var left = Math.min(Math.max(8, r.left), window.innerWidth - pw - 8);
     var top = r.bottom + 8;
     if (top + ph > window.innerHeight - 8) top = r.top - ph - 8;
     wordPreview.style.left = left + "px";
     wordPreview.style.top = Math.max(8, top) + "px";
+  }
+
+  // Same bubble, different content: what one of his abbreviations means, in every
+  // language the reader has enabled. Never carries a data-ref — it is an
+  // explanation, not a word, and there is no entry to open on a second tap.
+  function showAbbr(el) {
+    var a = META_ABBR[el.getAttribute("data-abbr")];
+    if (!a) return;
+    var h = '<div><span class="wp-hw">' + esc(el.textContent) + '.</span>' +
+      '<span class="wp-parent wp-abbr-full">' + esc(a.full) + "</span></div>";
+    if (shown.fr) h += '<p class="wp-gloss"><span class="lang-chip fr">FR</span>' + esc(a.fr) + "</p>";
+    if (shown.en) h += '<p class="wp-gloss"><span class="lang-chip en">EN</span>' + esc(a.en) + "</p>";
+    if (shown.zh) h += '<p class="wp-gloss"><span class="lang-chip zh">中</span>' + esc(a.zh) + "</p>";
+    wordPreview.removeAttribute("data-ref");
+    wordPreview.innerHTML = h;
+    wordPreview.classList.remove("hidden");
+    placePreview(el);
   }
 
   results.addEventListener("mouseover", function (ev) {

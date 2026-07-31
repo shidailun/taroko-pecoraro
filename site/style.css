@@ -297,6 +297,47 @@ main {
   color: var(--muted);
 }
 
+/* A–Z index rows. A letter is a column of headwords to scan, not a stack of
+   cards to read, so the card chrome comes off entirely and the rows are divided
+   by a hairline instead — at S that is 690 lines where it used to be 225,000
+   characters of full entries. A sub-form is indented under its root, which is the
+   only thing distinguishing the two levels once both are one line. */
+.letter-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin: 0 0 0.5rem;
+  padding: 0 0.25rem 0.5rem;
+  border-bottom: 2px solid var(--accent);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+.letter-head-l {
+  font-family: var(--serif, inherit);
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.entry.stub.idx {
+  padding: 0.42rem 0.55rem;
+  margin-bottom: 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  box-shadow: none;
+}
+.entry.stub.idx:hover { background: var(--accent-soft); }
+.entry.stub.idx .hw-line { margin-bottom: 0; }
+.entry.stub.idx .stub-gloss { margin-top: 0.05rem; font-size: 0.88rem; }
+.entry.stub.idx-sub { padding-left: 1.9rem; }
+.entry.stub.idx-sub .stub-hw { font-size: 0.98rem; font-weight: 600; }
+.entry.stub.idx-root .stub-hw { font-size: 1.12rem; }
+
 /* Colour is the orthography on screen, not what is tappable. Pecoraro's spelling
    is green; modern spelling is brown, and that includes the § marker, the
    punctuation and an example's left rule, which belong to the mode rather than to
@@ -348,6 +389,17 @@ body.spelling-modern .gloss .w-raw { color: var(--truku); }
   font-size: 0.9em;
   cursor: help;
 }
+/* Only the ones that carry an explanation are tappable, and they say so with a
+   dotted underline — a `title` is invisible on a phone, which is where most of
+   these readers are. The prose branch (French remarks) has no data-abbr and so
+   stays plain. */
+.meta-abbr[data-abbr] {
+  border-bottom: 1px dotted var(--muted);
+  cursor: pointer;
+}
+.meta-abbr[data-abbr]:hover,
+.meta-abbr[data-abbr]:focus { color: var(--accent); border-bottom-color: var(--accent); }
+.wp-abbr-full { font-style: italic; }
 
 .crossref-link {
   color: inherit;

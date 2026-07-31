@@ -1509,6 +1509,10 @@
    "modern": "bsrat",
    "tier": "B"
   },
+  "bsqlol": {
+   "modern": "bsqrul",
+   "tier": "M"
+  },
   "bsqlun": {
    "modern": "bsqrun",
    "tier": "B"
@@ -6976,6 +6980,12 @@
    "w_was": "mburung",
    "w_how": "class"
   },
+  "mbsqlol": {
+   "modern": "embsqrul",
+   "tier": "W",
+   "w_was": "mbsqrul",
+   "w_how": "class"
+  },
   "mbua": {
    "modern": "mbuwa",
    "tier": "M"
@@ -9283,6 +9293,10 @@
   "mtngi": {
    "modern": "mtngi",
    "tier": "id"
+  },
+  "mtnoxol": {
+   "modern": "mtnuhur",
+   "tier": "M"
   },
   "mtoko": {
    "modern": "mtuku",
@@ -18008,6 +18022,10 @@
    "modern": "tnoxoi",
    "tier": "M"
   },
+  "tnoxol": {
+   "modern": "tnuhur",
+   "tier": "M"
+  },
   "tnpngan": {
    "modern": "tnpngan",
    "tier": "id"
@@ -18311,6 +18329,10 @@
   "tukwi": {
    "modern": "tukuy",
    "tier": "B"
+  },
+  "tumux": {
+   "modern": "tunux",
+   "tier": "M"
   },
   "tunun": {
    "modern": "tunun",
@@ -30018,6 +30040,12 @@
    "e_stem": "xtiyan",
    "e_modern": "htiyan"
   },
+  "bsq'lol": {
+   "modern": "bsqrul",
+   "tier": "G",
+   "g_stem": "bsqlol",
+   "g_modern": "bsqrul"
+  },
   "dmkpax": {
    "modern": "dmqpah",
    "tier": "G",
@@ -30635,13 +30663,6 @@
    ]
   ],
   [
-   "bsqlol",
-   2,
-   [
-    "在鍋裡燒焦的食物"
-   ]
-  ],
-  [
    "contraction",
    2,
    []
@@ -30877,13 +30898,6 @@
    "bouche",
    1,
    []
-  ],
-  [
-   "bsq'lol",
-   1,
-   [
-    "在鍋裡燒焦的食物"
-   ]
   ],
   [
    "bsqani",
@@ -31226,11 +31240,6 @@
    []
   ],
   [
-   "mbsqlol",
-   1,
-   []
-  ],
-  [
    "mc",
    1,
    []
@@ -31280,11 +31289,6 @@
    [
     "找藉口的人"
    ]
-  ],
-  [
-   "mlinal",
-   1,
-   []
   ],
   [
    "mnxa",
@@ -31361,13 +31365,6 @@
    "mtlgli",
    1,
    []
-  ],
-  [
-   "mtnoxol",
-   1,
-   [
-    "發生這種暴風雨"
-   ]
   ],
   [
    "mtqoli",
@@ -31812,13 +31809,6 @@
    ]
   ],
   [
-   "tnoxol",
-   1,
-   [
-    "在好天氣期間突然發生的猛烈暴風雨"
-   ]
-  ],
-  [
    "tnqoli",
    1,
    []
@@ -31845,11 +31835,6 @@
   ],
   [
    "ttidyal",
-   1,
-   []
-  ],
-  [
-   "tumux",
    1,
    []
   ],
