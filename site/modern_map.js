@@ -251,6 +251,7 @@ window.MODERN_MAP = {
 "bqli":"bqri",
 "bqlit":"bqlit",
 "bqlos":"bqrus",
+"bqxos":"bqrus",
 "bsiyaq":"bsiyaq",
 "bskanun":"bskanun",
 "bsklan":"bsqran",
@@ -986,7 +987,7 @@ window.MODERN_MAP = {
 "kikai":"kikay",
 "kikit":"kikit",
 "kikoyox":"kykuyuh",
-"kila":"kila",
+"kila":"kla",
 "kimi":"kimi",
 "kinai":"kinai",
 "kinal":"kingal",
@@ -7178,6 +7179,7 @@ window.MODERN_MAP = {
 "yyax":"yyah",
 "yyaxan":"yyahan",
 "yös":"yus",
+"ñilao":"ngiraw",
 "öqon":"uqun"
 };
 // Tier X: the modern entry is a DIFFERENT WORD, not a respelling. The app

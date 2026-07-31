@@ -1481,6 +1481,10 @@
    "modern": "bqrus",
    "tier": "A"
   },
+  "bqxos": {
+   "modern": "bqrus",
+   "tier": "M"
+  },
   "bsiyaq": {
    "modern": "bsiyaq",
    "tier": "id"
@@ -3701,8 +3705,8 @@
    "tier": "M"
   },
   "kila": {
-   "modern": "kila",
-   "tier": "id"
+   "modern": "kla",
+   "tier": "M"
   },
   "kinal": {
    "modern": "kingal",
@@ -19612,6 +19616,10 @@
    "modern": "yyahan",
    "tier": "B"
   },
+  "ñilao": {
+   "modern": "ngiraw",
+   "tier": "M"
+  },
   "öqon": {
    "modern": "uqun",
    "tier": "B"
@@ -30861,11 +30869,6 @@
    []
   ],
   [
-   "bqxos",
-   1,
-   []
-  ],
-  [
    "bsq'lol",
    1,
    [
@@ -31943,13 +31946,6 @@
    "yn",
    1,
    []
-  ],
-  [
-   "ñilao",
-   1,
-   [
-    "菇類多孔菌目前有栽培一種牛舌菌生長在樹幹上"
-   ]
   ],
   [
    "mk",
