@@ -16740,6 +16740,10 @@
    "modern": "seura",
    "tier": "M"
   },
+  "sontyo": {
+   "modern": "suntyu",
+   "tier": "M"
+  },
   "soo": {
    "modern": "su",
    "tier": "M"
@@ -19651,6 +19655,10 @@
   "xan": {
    "modern": "han",
    "tier": "B"
+  },
+  "xandolu": {
+   "modern": "handulu",
+   "tier": "M"
   },
   "xangan": {
    "modern": "hangan",
@@ -31533,11 +31541,6 @@
    ]
   ],
   [
-   "sontyo",
-   1,
-   []
-  ],
-  [
    "souvent",
    1,
    []
@@ -31564,11 +31567,6 @@
   ],
   [
    "vouloir",
-   1,
-   []
-  ],
-  [
-   "xandolu",
    1,
    []
   ],
