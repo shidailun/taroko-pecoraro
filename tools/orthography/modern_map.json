@@ -8668,6 +8668,10 @@
    "w_was": "mpkeudus",
    "w_how": "twin"
   },
+  "mpkatai": {
+   "modern": "empkatay",
+   "tier": "M"
+  },
   "mpkdolo": {
    "modern": "empgdurug",
    "tier": "M"
@@ -8715,6 +8719,10 @@
    "tier": "W",
    "w_was": "mpriyux",
    "w_how": "class"
+  },
+  "mplngut": {
+   "modern": "emprngut",
+   "tier": "M"
   },
   "mpn'mu": {
    "modern": "empnmu",
@@ -8790,6 +8798,10 @@
   },
   "mptbagun": {
    "modern": "emptbagun",
+   "tier": "M"
+  },
+  "mptkaangal": {
+   "modern": "emptkeangal",
    "tier": "M"
   },
   "mptksoloç": {
@@ -31448,16 +31460,6 @@
   ],
   [
    "mpiaka",
-   1,
-   []
-  ],
-  [
-   "mpkatai",
-   1,
-   []
-  ],
-  [
-   "mptkaangal",
    1,
    []
   ],

@@ -64,7 +64,24 @@
     // His emphatic particle O (headword, 517 occurrences) is the modern topic
     // marker u — confirmed by the user 2026-07-28. The character rule already
     // produced "u"; this records that the spelling is verified, not guessed.
-    "o": "u"
+    "o": "u",
+    // His one-letter affix cards, 2026-07-31. K, P, N, M, S, T, D and G head
+    // prefix entries ("préfixe très productif…"), A heads a particle entry
+    // (A sao bi iso 這都多虧了你) and I the note that it survives only in I TYEX.
+    // The letter is cited in its own card and inside his morphological
+    // parentheses — Psalu (P + SALU), ( N + DUP (DUK)), Skparo (S.+ K + PARO) —
+    // and modern Truku writes every one of these prefixes with the same letter,
+    // so each is an identity. build_modern_map.py drops keys shorter than two
+    // characters, so manual_map.json cannot reach them; this table is the only
+    // one that can. Identity here is not a no-op: it is the difference between
+    // a checked spelling and a rule-guess, which is what the colour reports.
+    // NOT included, deliberately: "l" and "r". Page R's only two book tokens
+    // are the French root marker "(R)" and the l inside his French remark about
+    // TBNAO ("le L étant escamoté ?") — his prose, not his Truku. And the
+    // French "à" needs no exclusion, since wordKey() keeps the diacritic, so
+    // the key "a" cannot reach it.
+    "k": "k", "i": "i", "p": "p", "n": "n", "m": "m",
+    "a": "a", "s": "s", "t": "t", "d": "d", "g": "g"
   };
 
   function loadSpelling() {
@@ -1051,7 +1068,17 @@
     "mihalashi": "Mixalasi", "otoun": "Otun", "atoui": "Atwi",
     "apoui": "Apwi", "rhoyo": "Xoyo", "djiko": "Diko", "efunan": "Efunang",
     "iboqh": "Iboq", "tsiakang": "Tyakang", "bica": "Bika", "yoshi": "Yosi",
-    "lubaq": "Lübaq", "liwice": "Liwis", "taossen": "Taosen"
+    "lubaq": "Lübaq", "liwice": "Liwis", "taossen": "Taosen",
+    // D'XO, and it was reaching the page green in all three languages. His
+    // Truku line writes the man `Pasang` — "Snd'xgan kari Pasang mo ka kia" —
+    // while his French, and so our English and Chinese after it, write
+    // Passan (ss = s, final -n for his -ng, both his own conventions above).
+    // GLOSS_NAMES_ZH held the French spelling as its Truku value, which put
+    // `passan` in GLOSS_NAME_FORMS with nothing to map it: the page linkified
+    // a form the book does not contain. Now our two columns print his Truku
+    // word, which the map already spells, and the French keeps Passan as
+    // plain text — it is his own sentence, and nothing here rewrites that.
+    "passan": "Pasang"
   };
 
   // "Autumn" is deliberately not here. The English of SPADAO reads "at Autumn's
@@ -1076,7 +1103,7 @@
     "吉羅": "Diro", "吉揚": "Diyan", "伊敏": "Imin", "烏敏": "Umin",
     "巴東": "Patong", "阿吉": "Akit", "碧卡": "Bika", "伊班": "Iban",
     "伊博": "Iboq", "拉拜": "Labai", "勞肯": "Laoken", "拉歐丹": "Laotan",
-    "里桑": "Lixang", "羅比雅": "Lobyaq", "巴拉斯": "Palas", "帕桑": "Passan",
+    "里桑": "Lixang", "羅比雅": "Lobyaq", "巴拉斯": "Palas", "帕桑": "Pasang",
     "佩爾侯": "Pexo", "比少": "Pisao", "希保": "Sipao", "地旺": "Tiwang",
     "秋": "Otun"
   };
@@ -1137,7 +1164,20 @@
   // one key covers both of his marks. All four occur ONLY in these gloss slots
   // (checked over every string field in entries.js: 15 spans, 3 cards, one citation
   // rendered per language), so nothing else on the site can be reached by this.
-  var CITE_VERBATIM = { "m'usa": 1, "xlo'": 1, "xlo'an": 1, "d'xo'": 1 };
+  //
+  // 2026-07-31: a fifth, and it earns its place a slightly different way. The
+  // whole of "SIG's gloss is `("SYU = GSIG) Furoncle.` — an equation between
+  // three spellings of one word, and only ONE of its two right-hand sides
+  // carries the `"`. So GSIG is plain text and `"SYU` was the single coloured
+  // word on the card, printed SYU in modern mode because charRules() drops his
+  // mark. Respelling half of an equation about spellings states nothing; the
+  // modern lexicon has no syu-shaped word for it either (esig 膿 12× is what
+  // the headword itself becomes, and `syu` in speech is 2 unglossed tokens).
+  // Verbatim puts both sides of his equals sign back on the same footing.
+  // Its key is `'syu`, wordKey() having folded the `"`; it occurs in these
+  // three gloss slots and nowhere else in the book.
+  var CITE_VERBATIM = { "m'usa": 1, "xlo'": 1, "xlo'an": 1, "d'xo'": 1,
+                        "'syu": 1 };
 
   // cites = trust the double-quote signal. True for the definition glosses, where
   // it was measured: 102 occurrences, 30 types, every one Truku. NOT true for the
