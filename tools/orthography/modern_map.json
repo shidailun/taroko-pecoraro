@@ -2669,6 +2669,10 @@
    "modern": "dha",
    "tier": "M"
   },
+  "eco": {
+   "modern": "eku",
+   "tier": "M"
+  },
   "eeng": {
    "modern": "eeng",
    "tier": "M"
@@ -7523,6 +7527,10 @@
   "mgspong": {
    "modern": "mgspung",
    "tier": "B"
+  },
+  "micat": {
+   "modern": "mikat",
+   "tier": "M"
   },
   "miin": {
    "modern": "miing",
@@ -28766,10 +28774,6 @@
    "modern": "duka",
    "tier": "N"
   },
-  "eco": {
-   "modern": "ecu",
-   "tier": "N"
-  },
   "efunang": {
    "modern": "efunang",
    "tier": "N"
@@ -28872,10 +28876,6 @@
   },
   "masai": {
    "modern": "masay",
-   "tier": "N"
-  },
-  "micat": {
-   "modern": "micat",
    "tier": "N"
   },
   "mikat": {

@@ -32,7 +32,6 @@ cristo           cristu           midcap=2    occ=2
 diko             diku             midcap=1    occ=2
 ixeng            iheng            midcap=1    occ=2
 kimi             kimi             midcap=1    occ=2
-micat            micat            midcap=1    occ=2
 nali             nali             midcap=1    occ=2
 nati             nati             midcap=1    occ=2
 patong           patung           midcap=1    occ=2
@@ -58,7 +57,6 @@ cibi             cibi             midcap=1    occ=1
 connaissance     cunnaissance     midcap=1    occ=1
 dawai            daway            midcap=0    occ=1
 duka             duka             midcap=0    occ=1
-eco              ecu              midcap=1    occ=1
 efunang          efunang          midcap=1    occ=1
 grand            grand            midcap=1    occ=1
 grandeur         grandeur         midcap=1    occ=1
