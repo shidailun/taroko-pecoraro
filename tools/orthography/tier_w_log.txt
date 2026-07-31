@@ -114,7 +114,6 @@ mp'nalu          empnalu           mpnalu           M/class      0     1
 mp'onoç          empeunuh          mpeunuh          P/class      0     1
 mp'qan           empkan            mpkan            P/class      0     1
 mpa'ayo          empaayug          mpaayug          P/class      0     2
-mpa'ima          empaima           mpaima           P/class      0     2
 mpabugo          empabgu           mpabgu           E/class      0     1
 mpaka'man        empakeeman        mpakeeman        P/class      0     1
 mpakmpaxan       empaqmpahan       mpaqmpahan       G/class      0     1
@@ -271,7 +270,6 @@ mpuno            empunu            mpunu            P/twin       0     5
 mpusa            empusa            mpusa            P/class      0     1
 mpx'lpis         emphlpis          mphlpis          P/class      0     1
 mpxaal           emphaal           mphaal           P/class      0     3
-mpxculis         emphculis         mphculis         M/class      0     1
 mpxedao          emphidaw          mphidaw          P/twin       0     1
 mpxlakux         emphlakuh         mphlakuh         R/class      0     2
 mpxlapas         emphrapas         mphrapas         P/twin       0     1

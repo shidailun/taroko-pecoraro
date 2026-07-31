@@ -8346,6 +8346,10 @@
    "modern": "empeuda",
    "tier": "M"
   },
+  "mpa'ima": {
+   "modern": "empeima",
+   "tier": "M"
+  },
   "mpaadas": {
    "modern": "empeadas",
    "tier": "M"
@@ -8651,10 +8655,8 @@
    "w_how": "twin"
   },
   "mpxculis": {
-   "modern": "emphculis",
-   "tier": "W",
-   "w_was": "mphculis",
-   "w_how": "class"
+   "modern": "emphulis",
+   "tier": "M"
   },
   "mpxeyu": {
    "modern": "emphiyu",
@@ -9363,7 +9365,7 @@
    "tier": "id"
   },
   "mtgaox": {
-   "modern": "mtgauh",
+   "modern": "mtgaguh",
    "tier": "M"
   },
   "mtgila": {
@@ -11985,8 +11987,8 @@
    "tier": "B"
   },
   "pnsliyan": {
-   "modern": "pnsliyan",
-   "tier": "T"
+   "modern": "pnslian",
+   "tier": "M"
   },
   "pnslmalan": {
    "modern": "pnsrmalan",
@@ -12739,12 +12741,16 @@
    "tier": "B"
   },
   "psliyan": {
-   "modern": "psliyan",
-   "tier": "T"
+   "modern": "pslian",
+   "tier": "M"
   },
   "psliyu": {
    "modern": "psriyu",
    "tier": "B"
+  },
+  "psliyun": {
+   "modern": "psliun",
+   "tier": "M"
   },
   "psliyux": {
    "modern": "psriyux",
@@ -13467,7 +13473,7 @@
    "tier": "M"
   },
   "pxculis": {
-   "modern": "phculis",
+   "modern": "phulis",
    "tier": "M"
   },
   "pxdagan": {
@@ -14195,8 +14201,8 @@
    "tier": "B"
   },
   "qoni": {
-   "modern": "quni",
-   "tier": "B"
+   "modern": "qhuni",
+   "tier": "M"
   },
   "qoqo": {
    "modern": "ququ",
@@ -16246,9 +16252,17 @@
    "modern": "snhulis",
    "tier": "T"
   },
+  "snxey": {
+   "modern": "snhiyi",
+   "tier": "M"
+  },
   "snxeyan": {
    "modern": "snhiyan",
    "tier": "A"
+  },
+  "snxeyun": {
+   "modern": "snhiyun",
+   "tier": "M"
   },
   "snyusan": {
    "modern": "snyusan",
@@ -17521,6 +17535,10 @@
   "tgaon": {
    "modern": "tgaun",
    "tier": "B"
+  },
+  "tgaox": {
+   "modern": "tgaguh",
+   "tier": "M"
   },
   "tgila": {
    "modern": "tgila",
@@ -21041,12 +21059,6 @@
    "w_was": "mpaayug",
    "w_how": "class"
   },
-  "mpa'ima": {
-   "modern": "empaima",
-   "tier": "W",
-   "w_was": "mpaima",
-   "w_how": "class"
-  },
   "mpaka'man": {
    "modern": "empakeeman",
    "tier": "W",
@@ -23441,10 +23453,6 @@
   },
   "pslingun": {
    "modern": "pslingun",
-   "tier": "P"
-  },
-  "psliyun": {
-   "modern": "psliyun",
    "tier": "P"
   },
   "pslmali": {
@@ -27310,14 +27318,6 @@
    "modern": "snuk",
    "tier": "R"
   },
-  "snxey": {
-   "modern": "snhiy",
-   "tier": "R"
-  },
-  "snxeyun": {
-   "modern": "snhiyun",
-   "tier": "R"
-  },
   "sopu": {
    "modern": "supu",
    "tier": "R"
@@ -30214,12 +30214,6 @@
    "tier": "E",
    "e_stem": "qlaq",
    "e_modern": "qlaq"
-  },
-  "tgaox": {
-   "modern": "tgauh",
-   "tier": "E",
-   "e_stem": "tga",
-   "e_modern": "tga"
   },
   "tmnlong": {
    "modern": "tmnlung",

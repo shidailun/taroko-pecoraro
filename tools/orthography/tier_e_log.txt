@@ -138,7 +138,6 @@ spsbalae         spsbalay         psbalae        psbalay        derived
 spsbusun         spsbusun         psbusun        psbusun        derived
 spsdxalun        spsdxalun        psdxalun       psdxalun       derived
 sqlaq            sqlaq            qlaq           qlaq           derived
-tgaox            tgauh            tga            tga            derived
 tmnlong          tmnlung          tlong          tlung          derived
 tnbl'xan         tnbrahan         tnblxan        tnbrahan       derived
 tnk'lae          tnk'lai          tnkla          tnk'la         derived
