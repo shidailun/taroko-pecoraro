@@ -1123,6 +1123,22 @@
     });
   }
 
+  // A form he cites while ARGUING ABOUT HOW TO SPELL IT. The double-quote signal
+  // is right that these are Truku, and respelling them is still wrong: X'LO's note
+  // reads "Faut-il écrire : Xlo'an ? Xlo"an ?" and modernize() sends both sides to
+  // one word, so the question loses its two answers; D'XO asks "D'XOG ?, ou bien :
+  // D'XO" ?" and MA glosses "MAUSA (ou : M"USA)". His letters ARE the content
+  // there, and the toggle has nothing to offer a sentence about orthography.
+  //
+  // Not expressible as an identity map entry: modernize() hands a key back
+  // untouched only when it matches PLAIN_WORD, which excludes `"`, so these would
+  // fall through to matchCase and have the `"` normalized to `'` — flattening the
+  // Xlo'an/Xlo"an contrast, which is the whole remark. Keyed through wordKey(), so
+  // one key covers both of his marks. All four occur ONLY in these gloss slots
+  // (checked over every string field in entries.js: 15 spans, 3 cards, one citation
+  // rendered per language), so nothing else on the site can be reached by this.
+  var CITE_VERBATIM = { "m'usa": 1, "xlo'": 1, "xlo'an": 1, "d'xo'": 1 };
+
   // cites = trust the double-quote signal. True for the definition glosses, where
   // it was measured: 102 occurrences, 30 types, every one Truku. NOT true for the
   // example glosses, which are running prose and do quote ordinary words —
@@ -1141,7 +1157,13 @@
       var isName = i % 2 === 1 &&
         Object.prototype.hasOwnProperty.call(GLOSS_NAME_FORMS,
           wordKey(/['’]s$/.test(p) ? p.slice(0, -2) : p));
-      if (i % 2 === 1 && (isName ||
+      if (i % 2 === 1 &&
+          Object.prototype.hasOwnProperty.call(CITE_VERBATIM, wordKey(p))) {
+        // Plain text in both modes: neither colour is honest about a spelling
+        // being weighed rather than used, and the link is not wanted either —
+        // Xlo"an is a proposal, not an entry to look up.
+        h += esc(p);
+      } else if (i % 2 === 1 && (isName ||
           (cites && p.indexOf('"') >= 0 && TRUKU_LETTER.test(p)))) {
         // An English possessive rides along on the token ("Laon's) and is not
         // part of the Truku word, so it is set outside the span.
