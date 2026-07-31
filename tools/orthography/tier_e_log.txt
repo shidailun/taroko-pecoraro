@@ -152,4 +152,3 @@ xmlisan          hmlisan          xlisan         hlisan         derived
 xmq'li           hmqli            xqli           hqli           derived
 xndyalan         hnjyalan         xdyalan        hjyalan        derived
 xnt'lan          hntran           xtlan          htran          derived
-xntiyan          hntiyan          xtiyan         htiyan         derived

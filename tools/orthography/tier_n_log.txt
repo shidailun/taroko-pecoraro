@@ -99,7 +99,6 @@ qepi             qepi             midcap=0    occ=1
 qlap             qlap             midcap=1    occ=1
 rougeur          ruugeur          midcap=1    occ=1
 sati             sati             midcap=0    occ=1
-savoir           savuir           midcap=1    occ=1
 segok            seguk            midcap=1    occ=1
 segoq            seguq            midcap=1    occ=1
 sering           sering           midcap=0    occ=1
@@ -126,7 +125,6 @@ umyaq            umyaq            midcap=0    occ=1
 unaq             unaq             midcap=0    occ=1
 unin             unin             midcap=1    occ=1
 vivant           vivant           midcap=1    occ=1
-volant           vulant           midcap=1    occ=1
 wating           wating           midcap=0    occ=1
 watyex           watyeh           midcap=0    occ=1
 xabao            habaw            midcap=0    occ=1
