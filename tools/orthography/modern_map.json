@@ -2486,8 +2486,8 @@
    "tier": "B"
   },
   "dqalas": {
-   "modern": "dqaras",
-   "tier": "B"
+   "modern": "dqras",
+   "tier": "M"
   },
   "dsi": {
    "modern": "dsi",
@@ -18384,6 +18384,14 @@
    "modern": "tnunan",
    "tier": "id"
   },
+  "tnuni": {
+   "modern": "tnuni",
+   "tier": "M"
+  },
+  "tnunun": {
+   "modern": "tnunun",
+   "tier": "M"
+  },
   "tnwawa": {
    "modern": "tnwawa",
    "tier": "id"
@@ -19056,6 +19064,10 @@
    "modern": "hntur",
    "tier": "B"
   },
+  "x'qli": {
+   "modern": "hkrig",
+   "tier": "M"
+  },
   "x'tol": {
    "modern": "htur",
    "tier": "A"
@@ -19524,6 +19536,10 @@
    "modern": "lmhlih",
    "tier": "M"
   },
+  "xm'qli": {
+   "modern": "hmkrig",
+   "tier": "M"
+  },
   "xmaan": {
    "modern": "hmaan",
    "tier": "B"
@@ -19619,6 +19635,10 @@
   "xmolax": {
    "modern": "hmurah",
    "tier": "B"
+  },
+  "xmq'li": {
+   "modern": "hmkrig",
+   "tier": "M"
   },
   "xmugut": {
    "modern": "hmgut",
@@ -24965,14 +24985,6 @@
    "modern": "tntaxa",
    "tier": "P"
   },
-  "tnuni": {
-   "modern": "cnuni",
-   "tier": "P"
-  },
-  "tnunun": {
-   "modern": "cnunun",
-   "tier": "P"
-  },
   "tpaxong": {
    "modern": "tpahung",
    "tier": "P"
@@ -28091,11 +28103,6 @@
    "tier": "S",
    "spoken": 4
   },
-  "x'qli": {
-   "modern": "hqli",
-   "tier": "S",
-   "spoken": 2
-  },
   "xq'li": {
    "modern": "hqli",
    "tier": "S",
@@ -30284,12 +30291,6 @@
    "e_stem": "xlisan",
    "e_modern": "hlisan"
   },
-  "xmq'li": {
-   "modern": "hmqli",
-   "tier": "E",
-   "e_stem": "xqli",
-   "e_modern": "hqli"
-  },
   "xndyalan": {
    "modern": "hnjyalan",
    "tier": "E",
@@ -30559,11 +30560,6 @@
    "modern": "sqdug",
    "tier": "V",
    "v_twin": "sqdo"
-  },
-  "xm'qli": {
-   "modern": "hmqli",
-   "tier": "V",
-   "v_twin": "xmq'li"
   }
  },
  "review": {

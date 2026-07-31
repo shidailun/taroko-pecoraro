@@ -149,6 +149,5 @@ tqliyun          tqriyun          qliyun         qriyun         derived
 tslbangi         tslbangi         lbang          lbang          derived
 txdo             thdu             xdo            hdu            derived
 xmlisan          hmlisan          xlisan         hlisan         derived
-xmq'li           hmqli            xqli           hqli           derived
 xndyalan         hnjyalan         xdyalan        hjyalan        derived
 xnt'lan          hntran           xtlan          htran          derived

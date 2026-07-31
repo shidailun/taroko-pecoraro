@@ -50,7 +50,6 @@ sx'ngiyun        shngiyun             10     1
 tian             tian                  2     1
 tl'maon          trmaun                2     1
 tnisa            tnisa                 2     1
-x'qli            hqli                  2     1
 xq'li            hqli                  2     1
 yaso             yasu                  6     1
 yoki             yuki                 35     1
