@@ -4057,6 +4057,10 @@
    "modern": "kmkbahang",
    "tier": "T"
   },
+  "kmlaan": {
+   "modern": "knmalu",
+   "tier": "M"
+  },
   "kmlap": {
    "modern": "qmrap",
    "tier": "M"
@@ -4476,7 +4480,7 @@
    "tier": "id"
   },
   "knmlaan": {
-   "modern": "knmlaan",
+   "modern": "knmalu",
    "tier": "M"
   },
   "knnalox": {
@@ -8216,6 +8220,10 @@
    "modern": "empeaji",
    "tier": "M"
   },
+  "mpaaso": {
+   "modern": "empeasug",
+   "tier": "M"
+  },
   "mpabaki": {
    "modern": "empaabaki",
    "tier": "M"
@@ -11841,6 +11849,10 @@
   "pnsxada": {
    "modern": "pnshada",
    "tier": "B"
+  },
+  "pnta'to": {
+   "modern": "pnteetu",
+   "tier": "M"
   },
   "pntasan": {
    "modern": "pntasan",
@@ -15536,6 +15548,10 @@
   },
   "smnugul": {
    "modern": "smnegul",
+   "tier": "M"
+  },
+  "smoa": {
+   "modern": "smruwa",
    "tier": "M"
   },
   "smola": {
@@ -30559,11 +30575,6 @@
    ]
   ],
   [
-   "pnta'to",
-   3,
-   []
-  ],
-  [
    "ptatwi",
    3,
    [
@@ -31126,11 +31137,6 @@
    []
   ],
   [
-   "kmlaan",
-   1,
-   []
-  ],
-  [
    "kmlnu'",
    1,
    [
@@ -31293,11 +31299,6 @@
   ],
   [
    "mp'alex",
-   1,
-   []
-  ],
-  [
-   "mpaaso",
    1,
    []
   ],
@@ -31706,11 +31707,6 @@
   ],
   [
    "sm",
-   1,
-   []
-  ],
-  [
-   "smoa",
    1,
    []
   ],
