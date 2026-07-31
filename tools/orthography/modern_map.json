@@ -12157,6 +12157,10 @@
    "modern": "pndkuh",
    "tier": "M"
   },
+  "pneidang": {
+   "modern": "pneydang",
+   "tier": "M"
+  },
   "png'lax": {
    "modern": "pngrah",
    "tier": "B"
@@ -13545,6 +13549,10 @@
   "ptbasi": {
    "modern": "ptbasi",
    "tier": "id"
+  },
+  "ptbii": {
+   "modern": "ptbiyi",
+   "tier": "M"
   },
   "ptbiun": {
    "modern": "ptbiyun",
@@ -15761,6 +15769,10 @@
    "modern": "srhqan",
    "tier": "M"
   },
+  "sl'xqe": {
+   "modern": "srhqi",
+   "tier": "M"
+  },
   "sl'xqon": {
    "modern": "srhqun",
    "tier": "M"
@@ -17261,6 +17273,10 @@
    "modern": "stapung",
    "tier": "M"
   },
+  "stpyeqon": {
+   "modern": "stcipiqun",
+   "tier": "M"
+  },
   "stq'lal": {
    "modern": "stqral",
    "tier": "B"
@@ -17784,6 +17800,10 @@
   "tbian": {
    "modern": "tbiyan",
    "tier": "B"
+  },
+  "tbii": {
+   "modern": "tbiyi",
+   "tier": "M"
   },
   "tbilan": {
    "modern": "tbiran",
@@ -31502,16 +31522,6 @@
    []
   ],
   [
-   "ptbii",
-   1,
-   []
-  ],
-  [
-   "pxeidang",
-   1,
-   []
-  ],
-  [
    "qui",
    1,
    []
@@ -31539,22 +31549,12 @@
    []
   ],
   [
-   "stpyeqon",
-   1,
-   []
-  ],
-  [
    "suite",
    1,
    []
   ],
   [
    "sy",
-   1,
-   []
-  ],
-  [
-   "tbii",
    1,
    []
   ],

@@ -69629,11 +69629,10 @@ window.ENTRIES = [
         "zh": "同上之動詞形。",
         "examples": [
           {
-            "t": "Wada so xndiyal ka pxeidang so pila xo?",
+            "t": "Wada so xndiyal ka pneidang so pila xo?",
             "fr": "as tu retrouvé l'argent que tu avais perdu? (et que tu recherchais)",
             "en": "Did you find the money you had lost? (and that you were looking for)",
-            "zh": "你把弄丟的（並在尋找的）錢找回來了嗎？",
-            "a": "ex_wada_so_xndiyal_ka_pxeidang_so_pila_xo"
+            "zh": "你把弄丟的（並在尋找的）錢找回來了嗎？"
           }
         ]
       },
