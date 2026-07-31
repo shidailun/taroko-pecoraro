@@ -269,6 +269,55 @@
     return out;
   }
 
+  // The A–Z index wants a stricter test than variants(). Splitting on ()=? and
+  // keeping every piece with a letter in it files his French apparatus as
+  // headwords: "Xndilan (R. = XDIL ? - vl. = contraction de SXNDILAN ?)" puts
+  // "contraction de SXNDILAN" under C and "R." under R — letter C had three cards
+  // and two were that. But rejecting junk is only half of it, because ~30 of those
+  // pieces have a REAL form inside an apparatus phrase, filed under the apparatus
+  // word's letter instead of its own: "R. DUI" is DUI under R, "vl. Ldludan" is
+  // Ldludan under V. So split further on the separators he uses inside a bracket,
+  // strip the words that INTRODUCE a citation, and keep what survives as a word.
+  // A piece may hold one space — "Ti tmaq", "TA NA" are his clitic forms, not prose.
+  var AL_SPLIT = /[()=?,;:!]|\s-\s|\s-(?=[A-Z])/;
+  var AL_LEAD = /^(?:(?:de|du|des|la|le|les|pour|par|var|vl|vr|cf|nb|sy|syn|r|meme|même|est-ce|et|ou|souvent|entendu|contraction|parfois|aussi|abr)\b\s*[.:]?\s*)+/i;
+  var AL_TRAIL = /\s+(?:et|ou|de|du|des|la|le|les)$/i;
+  var AL_APPARATUS = /^(?:r|vl|vr|var|cf|nb|sy|syn|ant|lit|fig|note|id|pl|sg|ex)$/i;
+  var AL_WORD = "A-Za-zÀ-ÿłŁʔ'’ʼ\"";
+  var AL_FORM = new RegExp("^[" + AL_WORD + "]+(?: [" + AL_WORD + "]+)?$");
+  // French that can survive the strip and must never earn a slot. Read off these
+  // two fields, not guessed at — his apparatus vocabulary is small and closed.
+  var AL_FRENCH = {};
+  ("nique bouche vie suite rouge produit qui peau crane crâne scie relation image " +
+   "terme sans doute pluriel travers tordu inconnue tres peu bonte bonté beaute " +
+   "beauté hotte remarque probable serait avec derive dérivé variante une chinois " +
+   "mots ces cette forme suivante uniquement connu dans sens faire venir passer " +
+   "passe fermer suie reduit réduit probablement rougeur volant savoir connaissance " +
+   "matin non page").split(" ").forEach(function (w) { AL_FRENCH[w] = true; });
+
+  function indexVariants(raw) {
+    var out = [];
+    (raw || "").split(AL_SPLIT).forEach(function (p) {
+      var v = (p || "").trim().replace(AL_LEAD, "").replace(AL_TRAIL, "")
+        .replace(/^[\s.,:;\-!]+|[\s.,:;\-!]+$/g, "");
+      if (!v || !AL_FORM.test(v)) return;
+      var bare = v.replace(/[^A-Za-zÀ-ÿłŁ]/g, "");
+      if (bare.length < 2 || AL_APPARATUS.test(bare) || AL_FRENCH[bare.toLowerCase()]) return;
+      if (out.indexOf(v) === -1) out.push(v);
+    });
+    return out;
+  }
+
+  // Which piece is the primary depends on the filter, so addForm can no longer
+  // take it positionally: filtering can drop piece 0 ("A tyex" beside its bracketed
+  // "Atyex"), and a slice(1) then eats a real alias. Skip the head by identity
+  // instead. Punctuation and his two elision marks fold — "PU !" and M'wa"la are
+  // their own head, not a second row — but the space does not, since "A tyex" and
+  // "Atyex" really are two spellings.
+  function aliasSlot(s) {
+    return norm(s).replace(/[^a-z' ]/g, "").replace(/\s+/g, " ").trim();
+  }
+
   // In modern spelling his two tries at a word often converge: "L'NGLONG (LNGLONG)"
   // is LNGLUNG twice over, and a bracket around a word's own spelling is noise. So
   // the form is shown once — unless the spellings really do stay apart (Pklilu /
@@ -438,7 +487,10 @@
     // "Pklilu (Plilu ?)" filed under P-k.
     function addForm(raw, entry, sub) {
       add(raw, raw, entry, sub, false);
-      variants(raw).slice(1).forEach(function (v) { add(v, v, entry, sub, true); });
+      var head = aliasSlot(variants(raw)[0] || raw);
+      indexVariants(raw).forEach(function (v) {
+        if (aliasSlot(v) !== head) add(v, v, entry, sub, true);
+      });
     }
     window.ENTRIES.forEach(function (e) {
       addForm(e.hw, e, null);
@@ -1474,7 +1526,18 @@
     showLetter(ev.target.getAttribute("data-letter"));
   });
 
-  var PHOTOS = ["pecoraro5.jpg", "pecoraro2.jpg", "pecoraro1.jpg", "pecoraro3.jpg", "pecoraro4.jpg"];
+  // Ordered by his apparent age, so the cycle runs as a life: the young priest at
+  // the altar, then the missionary years, then old age, and the memorial at Wanrong
+  // last. The file numbers are the order they were added, not the order they show in.
+  var PHOTOS = [
+    "pecoraro5.jpg",  // saying Mass — clean-shaven, youngest
+    "pecoraro6.jpg",  // in the village with the baskets — cropped hair, light beard
+    "pecoraro2.jpg",  // dressing a wound — the nurse's work, auburn hair and beard
+    "pecoraro7.jpg",  // with the goat kid and the boys — fuller beard, beret
+    "pecoraro1.jpg",  // on the hillside above the valley — white-haired
+    "pecoraro3.jpg",  // garlanded among the people — oldest
+    "pecoraro4.jpg"   // his memorial in Wanrong Township
+  ];
   var PHOTO_CYCLE_MS = 5000;
 
   document.getElementById("btn-about").addEventListener("click", function () {
