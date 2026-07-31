@@ -74,7 +74,6 @@ laobin           laubin           midcap=0    occ=1
 laon             laun             midcap=0    occ=1
 laosin           lausin           midcap=0    occ=1
 lingi            lingi            midcap=0    occ=1
-lübak            lubak            midcap=0    occ=1
 lübaq            lubaq            midcap=1    occ=1
 maria            maria            midcap=1    occ=1
 masai            masay            midcap=0    occ=1

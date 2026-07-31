@@ -1440,6 +1440,10 @@
    "modern": "bitaq",
    "tier": "M"
   },
+  "boxil": {
+   "modern": "bowxil",
+   "tier": "M"
+  },
   "boxo": {
    "modern": "buhu",
    "tier": "T"
@@ -2032,6 +2036,10 @@
   "ddiyun": {
    "modern": "djiyun",
    "tier": "B"
+  },
+  "ddliwis": {
+   "modern": "ddliwis",
+   "tier": "M"
   },
   "ddulan": {
    "modern": "ddulan",
@@ -5518,6 +5526,10 @@
    "modern": "lowking",
    "tier": "B"
   },
+  "laotan": {
+   "modern": "lautan",
+   "tier": "M"
+  },
   "lapit": {
    "modern": "rapit",
    "tier": "A"
@@ -5831,6 +5843,10 @@
   "lixao": {
    "modern": "lihaw",
    "tier": "B"
+  },
+  "liya": {
+   "modern": "liya",
+   "tier": "M"
   },
   "liyax": {
    "modern": "riyax",
@@ -6544,6 +6560,10 @@
   "lämil": {
    "modern": "ramil",
    "tier": "B"
+  },
+  "lübak": {
+   "modern": "lbak",
+   "tier": "M"
   },
   "m'adi": {
    "modern": "meaji",
@@ -11026,6 +11046,10 @@
    "modern": "peimah",
    "tier": "M"
   },
+  "pinang": {
+   "modern": "pinang",
+   "tier": "M"
+  },
   "pipi": {
    "modern": "pipi",
    "tier": "id"
@@ -14961,6 +14985,10 @@
   "skbobo": {
    "modern": "skbubu",
    "tier": "B"
+  },
+  "skboxil": {
+   "modern": "skbowxil",
+   "tier": "M"
   },
   "skdakil": {
    "modern": "skdakil",
@@ -24927,10 +24955,6 @@
    "modern": "butung",
    "tier": "R"
   },
-  "boxil": {
-   "modern": "buxir",
-   "tier": "R"
-  },
   "boya": {
    "modern": "buya",
    "tier": "R"
@@ -25433,16 +25457,8 @@
    "modern": "lluun",
    "tier": "R"
   },
-  "laotan": {
-   "modern": "rautan",
-   "tier": "R"
-  },
   "lidil": {
    "modern": "rijil",
-   "tier": "R"
-  },
-  "liya": {
-   "modern": "riya",
    "tier": "R"
   },
   "lmnngao": {
@@ -26282,10 +26298,6 @@
   },
   "pido": {
    "modern": "pido",
-   "tier": "R"
-  },
-  "pinang": {
-   "modern": "pinyang",
    "tier": "R"
   },
   "pis": {
@@ -28107,10 +28119,6 @@
   },
   "lobyaq": {
    "modern": "lubyaq",
-   "tier": "N"
-  },
-  "lübak": {
-   "modern": "lubak",
    "tier": "N"
   },
   "lübaq": {
@@ -30977,11 +30985,6 @@
    []
   ],
   [
-   "ddliwis",
-   1,
-   []
-  ],
-  [
    "dkensat",
    1,
    []
@@ -31627,11 +31630,6 @@
   ],
   [
    "simpu",
-   1,
-   []
-  ],
-  [
-   "skboxil",
    1,
    []
   ],
