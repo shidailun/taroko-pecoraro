@@ -143,7 +143,7 @@ mpia             empiya            mpiya            P/class      0     2
 mpk'lae          empklai           mpklai           P/class      0     1
 mpkd'la          empkdra           mpkdra           P/class      0     2
 mpkdglil         empkdgril         mpkdgril         P/class      0     1
-mpkdolox         empkdurux         mpkdurux         M/class      0     1
+mpkdolox         empqdrux          mpqdrux          M/class      0     1
 mpkdolyaq        empkduriq         mpkduriq         M/class      0     1
 mpkiyux          empkiyux          mpkiyux          P/class      0     1
 mpkl'dax         empkrdax          mpkrdax          P/class      0     2

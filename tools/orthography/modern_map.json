@@ -2373,6 +2373,10 @@
    "modern": "dmtgsa",
    "tier": "M"
   },
+  "dmtksoloç": {
+   "modern": "dmtqsurux",
+   "tier": "M"
+  },
   "dmudu": {
    "modern": "dmudul",
    "tier": "L"
@@ -3801,8 +3805,8 @@
    "tier": "M"
   },
   "kdloxun": {
-   "modern": "kdruhun",
-   "tier": "B"
+   "modern": "qdrxun",
+   "tier": "M"
   },
   "kdngaan": {
    "modern": "kdngaan",
@@ -3821,7 +3825,7 @@
    "tier": "M"
   },
   "kdolox": {
-   "modern": "kdurux",
+   "modern": "qdrux",
    "tier": "M"
   },
   "kdusan": {
@@ -4559,7 +4563,7 @@
    "tier": "id"
   },
   "kndolox": {
-   "modern": "kndurux",
+   "modern": "qndrux",
    "tier": "M"
   },
   "kndoto": {
@@ -7698,7 +7702,11 @@
    "tier": "L"
   },
   "mkdolox": {
-   "modern": "mkdurux",
+   "modern": "mtqdrux",
+   "tier": "M"
+  },
+  "mkdoloç": {
+   "modern": "mtqdrux",
    "tier": "M"
   },
   "mkefunang": {
@@ -8753,9 +8761,9 @@
    "tier": "M"
   },
   "mpkdolox": {
-   "modern": "empkdurux",
+   "modern": "empqdrux",
    "tier": "W",
-   "w_was": "mpkdurux",
+   "w_was": "mpqdrux",
    "w_how": "class"
   },
   "mpkdolyaq": {
@@ -9234,8 +9242,8 @@
    "tier": "id"
   },
   "mskdoloç": {
-   "modern": "mskdurux",
-   "tier": "T"
+   "modern": "msdrux",
+   "tier": "M"
   },
   "mskingal": {
    "modern": "mskingal",
@@ -9669,8 +9677,8 @@
    "tier": "A"
   },
   "mtksoloç": {
-   "modern": "mtksurux",
-   "tier": "T"
+   "modern": "mtqsurux",
+   "tier": "M"
   },
   "mtkwini": {
    "modern": "mtkuni",
@@ -11597,27 +11605,31 @@
    "tier": "B"
   },
   "pkdl'xan": {
-   "modern": "pkdrxan",
+   "modern": "pqdrxan",
    "tier": "M"
   },
   "pkdl'xi": {
-   "modern": "pkdrxi",
+   "modern": "pqdrxi",
    "tier": "M"
   },
   "pkdl'xun": {
-   "modern": "pkdrxun",
+   "modern": "pqdrxun",
    "tier": "M"
   },
   "pkdlai": {
    "modern": "pkdrai",
    "tier": "B"
   },
+  "pkdlxun": {
+   "modern": "pqdrxun",
+   "tier": "M"
+  },
   "pkdngo": {
    "modern": "pkdngu",
    "tier": "B"
   },
   "pkdolox": {
-   "modern": "pkdurux",
+   "modern": "pqdrux",
    "tier": "M"
   },
   "pketa": {
@@ -13002,6 +13014,10 @@
   "pskaya": {
    "modern": "pskaya",
    "tier": "id"
+  },
+  "pskdlxi": {
+   "modern": "psdrxi",
+   "tier": "M"
   },
   "pskingal": {
    "modern": "pskingal",
@@ -15561,8 +15577,8 @@
    "tier": "id"
   },
   "skdolox": {
-   "modern": "skdurux",
-   "tier": "T"
+   "modern": "sdrux",
+   "tier": "M"
   },
   "skgulan": {
    "modern": "skgulan",
@@ -18300,6 +18316,10 @@
   "tksiyuk": {
    "modern": "tksiyuk",
    "tier": "id"
+  },
+  "tksoloç": {
+   "modern": "tqsurux",
+   "tier": "M"
   },
   "tkui": {
    "modern": "tkuyi",
@@ -27431,10 +27451,6 @@
    "modern": "psisun",
    "tier": "R"
   },
-  "pskdlxi": {
-   "modern": "pskdrhi",
-   "tier": "R"
-  },
   "pskl'tun": {
    "modern": "pskrtun",
    "tier": "R"
@@ -28082,10 +28098,6 @@
   },
   "tknayun": {
    "modern": "tknayun",
-   "tier": "R"
-  },
-  "tksoloç": {
-   "modern": "tksuluh",
    "tier": "R"
   },
   "tksulao": {
@@ -29266,12 +29278,6 @@
    "d_rule": "d-",
    "d_base": "msapat"
   },
-  "dmtksoloç": {
-   "modern": "dmtksurux",
-   "tier": "D",
-   "d_rule": "d-",
-   "d_base": "mtksoloç"
-  },
   "dsbnawan": {
    "modern": "dsbnawan",
    "tier": "D",
@@ -30112,12 +30118,6 @@
    "e_stem": "bnaqe",
    "e_modern": "bnaqi"
   },
-  "mkdoloç": {
-   "modern": "mkdurux",
-   "tier": "E",
-   "e_stem": "mkdolox",
-   "e_modern": "mkdurux"
-  },
   "mkmd'xok": {
    "modern": "mkmdhuq",
    "tier": "E",
@@ -30381,12 +30381,6 @@
    "tier": "E",
    "e_stem": "pkbanax",
    "e_modern": "pkbanah"
-  },
-  "pkdlxun": {
-   "modern": "pkdrxun",
-   "tier": "E",
-   "e_stem": "pkdlxun",
-   "e_modern": "pkdrxun"
   },
   "pklagun": {
    "modern": "pkragun",

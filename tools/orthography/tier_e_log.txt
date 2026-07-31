@@ -30,7 +30,6 @@ lnqdo            rnqdug           lqdo           rqdug          derived
 m'ayo            mayug            ayo            ayug           attested
 mapala           mapala           pala           pala           derived
 mkbnaqe          mkbnaqi          bnaqe          bnaqi          derived
-mkdoloç          mkdurux          mkdolox        mkdurux        derived
 mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
 ml'çan           mlxan            lxan           lxan           derived
@@ -75,7 +74,6 @@ pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived
 pkbanaxe         pkbanahi         pkbanax        pkbanah        derived
-pkdlxun          pkdrxun          pkdlxun        pkdrxun        derived
 pklagun          pkragun          klagun         kragun         derived
 pkoxun           pkuxun           pkox           pkux           derived
 pktltoon         pktleetuun       tlto           tleetu         derived

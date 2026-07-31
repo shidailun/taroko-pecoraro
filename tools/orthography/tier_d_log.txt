@@ -7,7 +7,6 @@ dmbslat          dmbsrat          d-     mbslat           P
 dmikat           dmikat           d-     mikat            N
 dmorisaka        dmurisaka        d-     morisaka         N
 dmsapat          dmsapat          d-     msapat           P
-dmtksoloç        dmtksurux        d-     mtksoloç         T
 dsbnawan         dsbnawan         d-     sbnawan          R
 dtanax           dtanah           d-     tanax            T
 dtome            dtumi            d-     tome             S
