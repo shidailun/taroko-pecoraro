@@ -1473,8 +1473,8 @@
    "tier": "M"
   },
   "boxo": {
-   "modern": "buhu",
-   "tier": "T"
+   "modern": "buhug",
+   "tier": "M"
   },
   "boyaq": {
    "modern": "buyak",
@@ -4118,7 +4118,7 @@
    "tier": "A"
   },
   "klulu": {
-   "modern": "klulug",
+   "modern": "klulu",
    "tier": "M"
   },
   "kluulus": {
@@ -16462,6 +16462,10 @@
    "modern": "sneuwit",
    "tier": "M"
   },
+  "snax": {
+   "modern": "snaah",
+   "tier": "M"
+  },
   "snaxo": {
    "modern": "snahu",
    "tier": "B"
@@ -27793,10 +27797,6 @@
   },
   "snawi": {
    "modern": "snawi",
-   "tier": "R"
-  },
-  "snax": {
-   "modern": "snah",
    "tier": "R"
   },
   "sndmatan": {
