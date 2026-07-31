@@ -377,6 +377,10 @@
       // word with an optional segment and must not be split. Length tells them
       // apart — a whole word in the bracket, not a lone consonant.
       .replace(/\(([^()]{3,})\)(?=[A-Za-zÀ-ÿ])/g, "($1) ")
+      // The mirror of it, which this path never had: "Tbiun(tbiyun)" is the same
+      // two-alternative-forms shape read from the other side. Same length guard,
+      // and for the same reason — it also keeps "Smwayai(?)" together.
+      .replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,})\)/g, "$1 ($2)")
       .trim();
   }
 
@@ -694,7 +698,12 @@
     // "...(pbl'xun)mo xkawas" — a bracket he closes without letting go.
     t = t.replace(/\)(?=[A-Za-zÀ-ÿ0-9])/g, ") ");
     t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");
-    t = t.replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,})\)/g, "$1 ($2)");     // but not "fiancé(e)"
+    // The length guard is for "fiancé(e)" and "relative(s)" — a bracketed suffix
+    // belongs to its word. Two letters is a WORD, though: his particles ka, na, ta
+    // get glued when the right margin runs out ("qlaqel(ka) xana", page 288), and
+    // they are separate words. Letters only, so his query marks "(?)" and "(??)"
+    // stay put — the mark belongs to the word it queries, as in tidyForm.
+    t = t.replace(/([A-Za-zÀ-ÿ0-9,])\(([^()]{3,}|[A-Za-zÀ-ÿ]{2})\)/g, "$1 ($2)");
     t = t.replace(/\s*…\s*/g, " … ").replace(/\s+/g, " ").trim();
     t = t.replace(/… ([,;:.!?])/g, "…$1");
     t = t.replace(/\(\s+/g, "(").replace(/\s+\)/g, ")");   // again: the ellipsis pass re-spaces
