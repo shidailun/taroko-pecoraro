@@ -2598,8 +2598,8 @@
    "tier": "M"
   },
   "däxa": {
-   "modern": "daxa",
-   "tier": "id"
+   "modern": "dha",
+   "tier": "M"
   },
   "eq": {
    "modern": "iq",
@@ -3267,6 +3267,10 @@
   "imax": {
    "modern": "imah",
    "tier": "A"
+  },
+  "imnglong": {
+   "modern": "lmnglung",
+   "tier": "M"
   },
   "ina": {
    "modern": "ina",
@@ -5764,6 +5768,10 @@
    "modern": "lilug",
    "tier": "M"
   },
+  "lilyex": {
+   "modern": "ririh",
+   "tier": "M"
+  },
   "lima": {
    "modern": "rima",
    "tier": "A"
@@ -7196,6 +7204,10 @@
    "modern": "meiyaw",
    "tier": "M"
   },
+  "meïdang": {
+   "modern": "meydang",
+   "tier": "M"
+  },
   "mg'leq": {
    "modern": "mgriq",
    "tier": "B"
@@ -7549,6 +7561,10 @@
    "modern": "mkmataru",
    "tier": "B"
   },
+  "mkmgui": {
+   "modern": "mkmgeeguy",
+   "tier": "M"
+  },
   "mkmisan": {
    "modern": "mkmisan",
    "tier": "T"
@@ -7669,6 +7685,10 @@
   "mkuong": {
    "modern": "mkuung",
    "tier": "B"
+  },
+  "mkuwong": {
+   "modern": "mkuung",
+   "tier": "M"
   },
   "mkyayong": {
    "modern": "mkyayung",
@@ -8182,6 +8202,10 @@
    "modern": "mnusa",
    "tier": "id"
   },
+  "mnxa": {
+   "modern": "mha",
+   "tier": "M"
+  },
   "mnxoqel": {
    "modern": "mnhuqil",
    "tier": "B"
@@ -8248,6 +8272,10 @@
   },
   "mp'adas": {
    "modern": "empeadas",
+   "tier": "M"
+  },
+  "mp'alex": {
+   "modern": "empealix",
    "tier": "M"
   },
   "mp'ama": {
@@ -8380,6 +8408,10 @@
    "modern": "empduuy",
    "tier": "M"
   },
+  "mpeidang": {
+   "modern": "empeydang",
+   "tier": "M"
+  },
   "mpesa": {
    "modern": "empeysa",
    "tier": "W",
@@ -8395,6 +8427,10 @@
    "tier": "W",
    "w_was": "mpgaluk",
    "w_how": "twin"
+  },
+  "mpgdolo": {
+   "modern": "empgdurug",
+   "tier": "M"
   },
   "mpimax": {
    "modern": "empeimah",
@@ -9187,6 +9223,10 @@
   },
   "mtabu": {
    "modern": "mtabug",
+   "tier": "M"
+  },
+  "mtade": {
+   "modern": "mtaqi",
    "tier": "M"
   },
   "mtaga": {
@@ -11499,6 +11539,10 @@
    "modern": "plilug",
    "tier": "M"
   },
+  "plilyes": {
+   "modern": "pririh",
+   "tier": "M"
+  },
   "plilyex": {
    "modern": "pririh",
    "tier": "A"
@@ -11859,6 +11903,10 @@
   "pnpaan": {
    "modern": "pnpaan",
    "tier": "id"
+  },
+  "pnppaan": {
+   "modern": "pnpaan",
+   "tier": "M"
   },
   "pnpusal": {
    "modern": "pnpusal",
@@ -13278,6 +13326,10 @@
    "modern": "puwa",
    "tier": "M"
   },
+  "puga": {
+   "modern": "puwa",
+   "tier": "M"
+  },
   "pulax": {
    "modern": "purah",
    "tier": "A"
@@ -13992,6 +14044,10 @@
   },
   "qnali": {
    "modern": "qnali",
+   "tier": "M"
+  },
+  "qnao": {
+   "modern": "qusul",
    "tier": "M"
   },
   "qnaxol": {
@@ -14848,6 +14904,10 @@
    "modern": "xiluy",
    "tier": "M"
   },
+  "simpu": {
+   "modern": "sinpu",
+   "tier": "M"
+  },
   "sinao": {
    "modern": "sinaw",
    "tier": "B"
@@ -15092,6 +15152,10 @@
    "tier": "id"
   },
   "sknuan": {
+   "modern": "sknuwan",
+   "tier": "M"
+  },
+  "sknuar": {
    "modern": "sknuwan",
    "tier": "M"
   },
@@ -17064,6 +17128,10 @@
    "modern": "taru",
    "tier": "L"
   },
+  "taroko": {
+   "modern": "truku",
+   "tier": "M"
+  },
   "tasao": {
    "modern": "tasaw",
    "tier": "B"
@@ -18330,6 +18398,10 @@
    "modern": "csdamat",
    "tier": "M"
   },
+  "tsdanat": {
+   "modern": "csdamat",
+   "tier": "M"
+  },
   "tsgasut": {
    "modern": "csgasut",
    "tier": "M"
@@ -18585,6 +18657,10 @@
   "txoan": {
    "modern": "thuan",
    "tier": "B"
+  },
+  "txoko": {
+   "modern": "truku",
+   "tier": "M"
   },
   "txoon": {
    "modern": "thuun",
@@ -30456,19 +30532,6 @@
     }
    ]
   },
-  "lilyex": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "ririh",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
-     "agg": true
-    }
-   ]
-  },
   "lyeq": {
    "freq": 1,
    "pec_gloss": [],
@@ -30593,19 +30656,6 @@
      "words": false,
      "gloss": 0,
      "dist": 3,
-     "agg": true
-    }
-   ]
-  },
-  "taroko": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "truku",
-     "words": true,
-     "gloss": 0,
-     "dist": 5,
      "agg": true
     }
    ]
@@ -30787,11 +30837,6 @@
    [
     "八次"
    ]
-  ],
-  [
-   "mpeidang",
-   2,
-   []
   ],
   [
    "mtmago",
@@ -31137,11 +31182,6 @@
    []
   ],
   [
-   "imnglong",
-   1,
-   []
-  ],
-  [
    "iniko",
    1,
    []
@@ -31255,13 +31295,6 @@
    []
   ],
   [
-   "meïdang",
-   1,
-   [
-    "遺失的迷失的"
-   ]
-  ],
-  [
    "miko",
    1,
    []
@@ -31284,26 +31317,11 @@
    ]
   ],
   [
-   "mkmgui",
-   1,
-   []
-  ],
-  [
-   "mkuwong",
-   1,
-   []
-  ],
-  [
    "mlikut",
    1,
    [
     "找藉口的人"
    ]
-  ],
-  [
-   "mnxa",
-   1,
-   []
   ],
   [
    "mots",
@@ -31318,17 +31336,7 @@
    ]
   ],
   [
-   "mp'alex",
-   1,
-   []
-  ],
-  [
    "mpaba'ba",
-   1,
-   []
-  ],
-  [
-   "mpgdolo",
    1,
    []
   ],
@@ -31356,11 +31364,6 @@
   ],
   [
    "msyuling",
-   1,
-   []
-  ],
-  [
-   "mtade",
    1,
    []
   ],
@@ -31476,11 +31479,6 @@
    []
   ],
   [
-   "plilyes",
-   1,
-   []
-  ],
-  [
    "plui",
    1,
    []
@@ -31499,11 +31497,6 @@
   ],
   [
    "pnlngut",
-   1,
-   []
-  ],
-  [
-   "pnppaan",
    1,
    []
   ],
@@ -31578,21 +31571,9 @@
    []
   ],
   [
-   "puga",
-   1,
-   []
-  ],
-  [
    "pxeidang",
    1,
    []
-  ],
-  [
-   "qnao",
-   1,
-   [
-    "大蒜"
-   ]
   ],
   [
    "qui",
@@ -31625,16 +31606,6 @@
   ],
   [
    "siko",
-   1,
-   []
-  ],
-  [
-   "simpu",
-   1,
-   []
-  ],
-  [
-   "sknuar",
    1,
    []
   ],
@@ -31779,22 +31750,12 @@
    []
   ],
   [
-   "tsdanat",
-   1,
-   []
-  ],
-  [
    "ttidyal",
    1,
    []
   ],
   [
    "tx'ldo",
-   1,
-   []
-  ],
-  [
-   "txoko",
    1,
    []
   ],
