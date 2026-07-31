@@ -30160,11 +30160,10 @@ window.ENTRIES = [
     "zh": "醉酒前的狀態－微醺。",
     "examples": [
       {
-        "t": "Wada so pmaxan ka xmut bi sinao ni, lmagun ka ssadyaq do, kika pnyaxan so tinalu da!",
+        "t": "Wada so pmaxan ka xmut bi sinao ni, lmagun ka ssadyaq do, kika pnyaxan so timalu da!",
         "fr": "Tu as fait boire du vin tout ordinaire et, quand les gens commencèrent à être un peu gais, voilà que tu as apporté le bon (vin) !",
         "en": "You served everyone quite ordinary wine and, when people began to get a little merry, that's when you brought out the good (wine)!",
-        "zh": "你先讓大家喝很普通的酒，等到人們開始有點微醺的時候，你才把好（酒）端出來！",
-        "a": "ex_wada_so_pmaxan_ka_xmut_bi_sinao_ni_lmagu"
+        "zh": "你先讓大家喝很普通的酒，等到人們開始有點微醺的時候，你才把好（酒）端出來！"
       }
     ],
     "subs": []
@@ -39668,11 +39667,10 @@ window.ENTRIES = [
         "zh": "用以使（人）為敵。",
         "examples": [
           {
-            "t": "Balac bi pila nanak ka ngalun so pusu spkpais so xxmadan nami xo?",
+            "t": "Balae bi pila nanak ka ngalun so pusu spkpais so xxmadan nami xo?",
             "fr": "Est ce vraiment l'argent seulement dont tu fais l'arme (la racine) pour rendre nos alliés mutuellement ennemis? 'Cest donc de l'argent dont tu te sers pour semer l'inimitié (la discorde) parmi nos parents par alliance ?).",
             "en": "Is it really money alone that you make into a weapon (the root cause) to make our allies enemies of one another? So it is money you use to sow enmity (discord) among our relatives by marriage?).",
-            "zh": "難道你真的只是拿金錢當作武器（禍根），來使我們的盟友彼此為敵嗎？原來你是用金錢在姻親之間散播仇恨（不和）啊？）。",
-            "a": "ex_balac_bi_pila_nanak_ka_ngalun_so_pusu_sp"
+            "zh": "難道你真的只是拿金錢當作武器（禍根），來使我們的盟友彼此為敵嗎？原來你是用金錢在姻親之間散播仇恨（不和）啊？）。"
           }
         ]
       }
@@ -53536,7 +53534,7 @@ window.ENTRIES = [
             "a": "ex_wada_so_sklaon_sk_laon_tama_ta_ka_s_xiga"
           },
           {
-            "t": "Ini mo sklae s'xiga ka tdoloi kika yaxan mc sayang!",
+            "t": "Ini mo sklae s'xiga ka tdoloi kika yaxan mo sayang!",
             "fr": "Je n'ai pas réussi à être à l'heure pour le train, hier, voilà pourquoi je viens maintenant.",
             "en": "I didn't manage to be on time for the train yesterday, that's why I'm coming now.",
             "zh": "我昨天沒能趕上火車，所以我現在才來。"
@@ -60017,11 +60015,10 @@ window.ENTRIES = [
             "a": "ex_sao_kia_kddiyax_ka_iso_xmut_so_ptaga_sad"
           },
           {
-            "t": "Ana so mtbiyax ka iso o, sai bi ptaga tityex dxcaan xo?",
+            "t": "Ana so mtbiyax ka iso o, sai bi ptaga tityex dxeaan xo?",
             "fr": "Même si toi tu es pressé, va donc les faire attendre un peu, s'il te plaît !",
             "en": "Even if you're in a hurry, do go and make them wait a bit, please!",
-            "zh": "即使你很趕，也請去讓他們稍等一下吧！",
-            "a": "ex_ana_so_mtbiyax_ka_iso_o_sai_bi_ptaga_tit"
+            "zh": "即使你很趕，也請去讓他們稍等一下吧！"
           }
         ]
       },
@@ -69133,11 +69130,10 @@ window.ENTRIES = [
         "zh": "（將要）煮；做飯的人。",
         "examples": [
           {
-            "t": "Ima ka mp'xapwi oqon lac sapax so ?",
+            "t": "Ima ka mp'xapwi oqon lae sapax so ?",
             "fr": "Qui est-ce qui préparera le repas (la nourriture) pour les hôtes de ta maison ?",
             "en": "Who will prepare the meal (the food) for the guests of your house?",
-            "zh": "誰要為你家的客人準備飯菜（食物）？",
-            "a": "ex_ima_ka_mp_xapwi_oqon_lac_sapax_so"
+            "zh": "誰要為你家的客人準備飯菜（食物）？"
           }
         ]
       }
@@ -71206,8 +71202,8 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Pxculis",
-        "paradigm": "°Mpxculis, pxculis, pxlisi, pxlisan, pxlisun.",
+        "form": "Pxeulis",
+        "paradigm": "°Mpxeulis, pxeulis, pxlisi, pxlisan, pxlisun.",
         "fr": "Faire rire - provoquer le rire - forcer à rire.",
         "en": "To make laugh - to provoke laughter - to force to laugh.",
         "zh": "使發笑－引人發笑－強使發笑。",

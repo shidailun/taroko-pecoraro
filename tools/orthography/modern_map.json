@@ -2589,10 +2589,6 @@
    "modern": "dhqun",
    "tier": "B"
   },
-  "dxcaan": {
-   "modern": "dhyaan",
-   "tier": "M"
-  },
   "dxdyeq": {
    "modern": "thiyaq",
    "tier": "M"
@@ -8866,7 +8862,7 @@
    "w_was": "mphpah",
    "w_how": "twin"
   },
-  "mpxculis": {
+  "mpxeulis": {
    "modern": "emphulis",
    "tier": "M"
   },
@@ -13804,10 +13800,6 @@
    "modern": "phbuy",
    "tier": "M"
   },
-  "pxculis": {
-   "modern": "phulis",
-   "tier": "M"
-  },
   "pxdagan": {
    "modern": "phdagan",
    "tier": "B"
@@ -13835,6 +13827,10 @@
   "pxeng": {
    "modern": "phing",
    "tier": "B"
+  },
+  "pxeulis": {
+   "modern": "phulis",
+   "tier": "M"
   },
   "pxeyu": {
    "modern": "phiyu",
@@ -16286,6 +16282,10 @@
    "modern": "smhangan",
    "tier": "B"
   },
+  "smxoai": {
+   "modern": "smhuway",
+   "tier": "M"
+  },
   "smxoda": {
    "modern": "smhuda",
    "tier": "B"
@@ -18038,6 +18038,10 @@
   },
   "tisa": {
    "modern": "tgsa",
+   "tier": "M"
+  },
+  "tisbut": {
+   "modern": "tgsbut",
    "tier": "M"
   },
   "tispat": {
@@ -31254,22 +31258,12 @@
    []
   ],
   [
-   "tisbut",
-   2,
-   []
-  ],
-  [
    "var",
    2,
    []
   ],
   [
    "'matinalité'",
-   1,
-   []
-  ],
-  [
-   "balac",
    1,
    []
   ],
@@ -31419,22 +31413,12 @@
    ]
   ],
   [
-   "lac",
-   1,
-   []
-  ],
-  [
    "le",
    1,
    []
   ],
   [
    "leq",
-   1,
-   []
-  ],
-  [
-   "mc",
    1,
    []
   ],
@@ -31562,11 +31546,6 @@
    []
   ],
   [
-   "smxoai",
-   1,
-   []
-  ],
-  [
    "sontyo",
    1,
    []
@@ -31605,11 +31584,6 @@
   ],
   [
    "tbii",
-   1,
-   []
-  ],
-  [
-   "tinalu",
    1,
    []
   ],

@@ -868,7 +868,9 @@
     vl: { full: "vel", fr: "ou", en: "or", zh: "或" },
     vr: { full: "voir", fr: "voir", en: "see", zh: "參見" },
     "var": { full: "variante", fr: "variante", en: "variant", zh: "變體" },
-    r: { full: "racine", fr: "racine", en: "root", zh: "詞根" }
+    r: { full: "racine", fr: "racine", en: "root", zh: "詞根" },
+    sy: { full: "synonyme", fr: "synonyme", en: "synonym", zh: "同義詞" },
+    nb: { full: "nota bene", fr: "à noter", en: "note", zh: "註" }
   };
   function metaAbbr(part, after) {
     if (after.charAt(0) !== ".") return null;
