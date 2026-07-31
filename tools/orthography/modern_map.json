@@ -2033,10 +2033,6 @@
    "modern": "djyamu",
    "tier": "M"
   },
-  "dd'yano": {
-   "modern": "ddyanu",
-   "tier": "M"
-  },
   "ddaon": {
    "modern": "ddaun",
    "tier": "A"
@@ -10067,10 +10063,6 @@
   "n'xea": {
    "modern": "nhiya",
    "tier": "A"
-  },
-  "n'yano": {
-   "modern": "nyanu",
-   "tier": "M"
   },
   "na": {
    "modern": "na",
@@ -22978,12 +22970,24 @@
    "tier": "P",
    "elision_dropped": "n'yami"
   },
+  "n'yamo": {
+   "modern": "nyamu",
+   "tier": "P"
+  },
+  "nd'yamo": {
+   "modern": "ndyamu",
+   "tier": "P"
+  },
   "ndd'yamo": {
    "modern": "ndjyamu",
    "tier": "P"
   },
   "nddoa": {
    "modern": "ndduwa",
+   "tier": "P"
+  },
+  "ndyami": {
+   "modern": "ndyami",
    "tier": "P"
   },
   "nkl'xeq": {
@@ -26771,10 +26775,6 @@
    "modern": "ndnngaan",
    "tier": "R"
   },
-  "ndyani": {
-   "modern": "ndyani",
-   "tier": "R"
-  },
   "nglaxol": {
    "modern": "ngrahul",
    "tier": "R"
@@ -29538,11 +29538,11 @@
    "d_rule": "n-",
    "d_base": "dup"
   },
-  "ndyami": {
-   "modern": "ndyami",
+  "ndyamo": {
+   "modern": "ndyamu",
    "tier": "D",
    "d_rule": "n-",
-   "d_base": "dyami"
+   "d_base": "dyamo"
   },
   "neidang": {
    "modern": "neydang",
@@ -30948,12 +30948,6 @@
    "g_stem": "slangan",
    "g_modern": "slangan"
   },
-  "ndyano": {
-   "modern": "njyanu",
-   "tier": "G",
-   "g_stem": "dyan",
-   "g_modern": "jyan"
-  },
   "pnblexan": {
    "modern": "pnbrihan",
    "tier": "G",
@@ -31051,11 +31045,6 @@
    "modern": "mtrbuq",
    "tier": "V",
    "v_twin": "mtl'boq"
-  },
-  "nd'yano": {
-   "modern": "njyanu",
-   "tier": "V",
-   "v_twin": "ndyano"
   },
   "pnslxgan": {
    "modern": "pnslhagan",

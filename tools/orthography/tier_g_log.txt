@@ -20,7 +20,6 @@ mpslxlax         mpslhlah         lxlax          lhlah              1 derived
 mptgamil         mptgamil         gamil          gamil              1 derived
 mptquli          mptquli          quli           quli               1 derived
 mslangan         mslangan         slangan        slangan            1 derived
-ndyano           njyanu           dyan           jyan               1 derived
 pnblexan         pnbrihan         blex           brih               1 derived
 ppskngalun       ppskngalun       kngal          kngal              1 derived
 pttaqe           pttaqi           taqe           taqi               1 derived

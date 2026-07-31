@@ -36946,11 +36946,10 @@ window.ENTRIES = [
         "zh": "已使（某物）處於壞的狀態。",
         "examples": [
           {
-            "t": "Ndyano nanak ka pknnaqex toke mo da",
+            "t": "Ndyamo nanak ka pknnaqex toke mo da",
             "fr": "C'est quelqu'un d'entre vous qui à fait que ma montre soit détériorée.",
             "en": "It is one of you who made my watch be damaged.",
-            "zh": "是你們當中的某個人弄壞了我的手錶。",
-            "a": "ex_ndyano_nanak_ka_pknnaqex_toke_mo_da"
+            "zh": "是你們當中的某個人弄壞了我的手錶。"
           },
           {
             "t": "Pknnaqex so ka kuxul ludan",
@@ -74911,7 +74910,7 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Ndyani",
+        "form": "Ndyami",
         "fr": "1° Était des nôtres (Préfixe N du passé). 2° Parmi les nôtres.",
         "en": "1° Was one of ours (Prefix N of the past). 2° Among ours.",
         "zh": "①（曾）是我們的人（N為過去式前綴）。②在我們之中。",
@@ -74924,11 +74923,10 @@ window.ENTRIES = [
             "a": "ex_ndyami_suxal_ka_pis"
           },
           {
-            "t": "Ida kingal ndyani ka Pisao",
+            "t": "Ida kingal ndyami ka Pisao",
             "fr": "Pissao reste encore l'un des nôtres !",
             "en": "Pissao is still one of ours!",
-            "zh": "Pissao仍然是我們的人之一！",
-            "a": "ex_ida_kingal_ndyani_ka_pisao"
+            "zh": "Pissao仍然是我們的人之一！"
           }
         ]
       },
@@ -74987,17 +74985,16 @@ window.ENTRIES = [
     ],
     "subs": [
       {
-        "form": "N'yano",
+        "form": "N'yamo",
         "fr": "De vous (forme emphatique, rare).",
         "en": "Of you / yours (emphatic form, rare).",
         "zh": "你們的（強調形式，罕見）。",
         "examples": [
           {
-            "t": "Balae bi n'yano ka kusa kia",
+            "t": "Balae bi n'yamo ka kusa kia",
             "fr": "À vrai dire, elle est vôtre cette dette !",
             "en": "To tell the truth, this debt is yours!",
-            "zh": "說真的，這筆債是你們的！",
-            "a": "ex_balae_bi_n_yano_ka_kusa_kia"
+            "zh": "說真的，這筆債是你們的！"
           }
         ]
       },
@@ -75071,32 +75068,30 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "DD'yano",
+        "form": "DD'yamo",
         "fr": "Ceux des vôtres - tous les vôtres.",
         "en": "Those of yours - all of yours.",
         "zh": "你們的那些人—你們所有的人。",
         "examples": [
           {
-            "t": "Ida sao kia kana ka dd'yano",
+            "t": "Ida sao kia kana ka dd'yamo",
             "fr": "Vous et les vôtres (toi et les tiens) vous êtes tous ainsi.",
             "en": "You and yours (you and your people) are all like this.",
-            "zh": "你們和你們的人（你和你的人）都是這樣。",
-            "a": "ex_ida_sao_kia_kana_ka_dd_yano"
+            "zh": "你們和你們的人（你和你的人）都是這樣。"
           }
         ]
       },
       {
-        "form": "Nd'yano",
+        "form": "Nd'yamo",
         "fr": "L'un (partie) des tiens (des vôtres).",
         "en": "One (part) of yours.",
         "zh": "你們的其中之一（一部分）。",
         "examples": [
           {
-            "t": "Kingal nd'yano nanak ka sadyaq nii",
+            "t": "Kingal nd'yamo nanak ka sadyaq nii",
             "fr": "Cet homme est bien l'un des tiens !",
             "en": "This man is indeed one of yours!",
-            "zh": "這個人確實是你們的其中之一！",
-            "a": "ex_kingal_nd_yano_nanak_ka_sadyaq_nii"
+            "zh": "這個人確實是你們的其中之一！"
           }
         ]
       },

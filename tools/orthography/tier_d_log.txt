@@ -52,7 +52,7 @@ ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     dup              M
-ndyami           ndyami           n-     dyami            P
+ndyamo           ndyamu           n-     dyamo            R
 neidang          neydang          n-     eidang           M
 nggalu           nggealu          n-     mggalu           M
 ngguyan          ngeuyan          n-     gguyan           M
