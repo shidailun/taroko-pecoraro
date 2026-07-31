@@ -2361,6 +2361,10 @@
    "modern": "dmqpah",
    "tier": "M"
   },
+  "dmsnxei": {
+   "modern": "dmsnhiyi",
+   "tier": "M"
+  },
   "dmt'basyaq": {
    "modern": "dmtbasyaq",
    "tier": "M"
@@ -2535,6 +2539,10 @@
   },
   "dqalas": {
    "modern": "dqras",
+   "tier": "M"
+  },
+  "dqqlinut": {
+   "modern": "dqqrinut",
    "tier": "M"
   },
   "dsi": {
@@ -3352,6 +3360,10 @@
    "modern": "jiita",
    "tier": "M"
   },
+  "ikaxa": {
+   "modern": "ikaxa",
+   "tier": "M"
+  },
   "ilaq": {
    "modern": "iraq",
    "tier": "A"
@@ -3579,6 +3591,10 @@
   "kagox": {
    "modern": "kaguh",
    "tier": "B"
+  },
+  "kaisia": {
+   "modern": "kaisia",
+   "tier": "M"
   },
   "kakox": {
    "modern": "kakuh",
@@ -8688,6 +8704,10 @@
    "modern": "empgdurug",
    "tier": "M"
   },
+  "mpiaka": {
+   "modern": "empiya ka",
+   "tier": "M"
+  },
   "mpimax": {
    "modern": "empeimah",
    "tier": "M"
@@ -10533,6 +10553,10 @@
   },
   "npamanu": {
    "modern": "npaamanu",
+   "tier": "M"
+  },
+  "npamuxul": {
+   "modern": "npamuxul",
    "tier": "M"
   },
   "npaqan": {
@@ -31355,11 +31379,6 @@
    ]
   ],
   [
-   "dmsnxei",
-   1,
-   []
-  ],
-  [
    "dobut",
    1,
    [
@@ -31368,11 +31387,6 @@
   ],
   [
    "dpnax",
-   1,
-   []
-  ],
-  [
-   "dqqlinut",
    1,
    []
   ],
@@ -31409,17 +31423,7 @@
    []
   ],
   [
-   "ikaxa",
-   1,
-   []
-  ],
-  [
    "il",
-   1,
-   []
-  ],
-  [
-   "kaisia",
    1,
    []
   ],
@@ -31460,22 +31464,12 @@
    []
   ],
   [
-   "mpiaka",
-   1,
-   []
-  ],
-  [
    "même",
    1,
    []
   ],
   [
    "note",
-   1,
-   []
-  ],
-  [
-   "npamuxul",
    1,
    []
   ],
