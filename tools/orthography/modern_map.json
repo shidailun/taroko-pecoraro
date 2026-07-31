@@ -2182,7 +2182,7 @@
    "tier": "A"
   },
   "dlalex": {
-   "modern": "dlaleh",
+   "modern": "dldalih",
    "tier": "M"
   },
   "dlaqe": {
@@ -2198,7 +2198,7 @@
    "tier": "M"
   },
   "dldun": {
-   "modern": "dldun",
+   "modern": "dlutun",
    "tier": "M"
   },
   "dlisao": {
@@ -3665,8 +3665,8 @@
    "tier": "M"
   },
   "kdiyong": {
-   "modern": "kdiyung",
-   "tier": "T"
+   "modern": "kjiyung",
+   "tier": "M"
   },
   "kdlgan": {
    "modern": "gdrgan",
@@ -4568,7 +4568,7 @@
    "tier": "M"
   },
   "knnxolan": {
-   "modern": "knnhuran",
+   "modern": "knhuran",
    "tier": "M"
   },
   "knolox": {
@@ -4953,6 +4953,10 @@
    "modern": "qalux",
    "tier": "M"
   },
+  "kqaxol": {
+   "modern": "qahur",
+   "tier": "M"
+  },
   "kqlinut": {
    "modern": "qqrinut",
    "tier": "L"
@@ -5256,7 +5260,7 @@
    "tier": "M"
   },
   "kyuwax": {
-   "modern": "kyuwax",
+   "modern": "kuwax",
    "tier": "M"
   },
   "kö": {
@@ -7739,7 +7743,7 @@
    "tier": "A"
   },
   "mkyuwax": {
-   "modern": "mkyuwax",
+   "modern": "mkuwax",
    "tier": "M"
   },
   "ml'bai": {
@@ -11497,7 +11501,7 @@
    "tier": "T"
   },
   "pkyuwax": {
-   "modern": "pkyuwax",
+   "modern": "pkuwax",
    "tier": "M"
   },
   "pkyuxun": {
@@ -12224,6 +12228,10 @@
   },
   "ppotox": {
    "modern": "ptputuh",
+   "tier": "M"
+  },
+  "pppaon": {
+   "modern": "ppaun",
    "tier": "M"
   },
   "ppsgao": {
@@ -17822,7 +17830,7 @@
    "tier": "M"
   },
   "tkyuwax": {
-   "modern": "tkyuwax",
+   "modern": "tkuwax",
    "tier": "M"
   },
   "tl'bong": {
@@ -20491,10 +20499,6 @@
   },
   "kpspusu": {
    "modern": "kpspusu",
-   "tier": "P"
-  },
-  "kqaxol": {
-   "modern": "kqahur",
    "tier": "P"
   },
   "ksao": {
@@ -29247,12 +29251,6 @@
    "tier": "D",
    "d_rule": "CV-",
    "d_base": "pl'dax"
-  },
-  "pppaon": {
-   "modern": "pppaun",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "ppaon"
   },
   "ppqeta": {
    "modern": "ppqita",

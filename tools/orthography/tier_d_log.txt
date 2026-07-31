@@ -94,7 +94,6 @@ ppitai           ppitay           CV-    pitai            S
 ppkl'bai         ppklbay          CV-    pkl'bai          P
 ppkl'xkax        ppklhkah         CV-    pkl'xkax         P
 ppl'dax          pprdax           CV-    pl'dax           A
-pppaon           pppaun           CV-    ppaon            P
 ppqeta           ppqita           CV-    pqeta            B
 ppsbalae         ppsbalay         CV-    psbalae          B
 ppsipa           ppsipa           CV-    psipa            id
