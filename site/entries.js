@@ -25224,11 +25224,10 @@ window.ENTRIES = [
         "zh": "發起者－自始即存在的人或物。",
         "examples": [
           {
-            "t": "Suyang bi ka gnluban ta sayang; yn bi ima ka tnlading ?",
+            "t": "Suyang bi ka gnluban ta sayang; ya bi ima ka tnlading ?",
             "fr": "Notre communauté est aujourd'hui très bonne; qui est-ce donc qui a bien pu la faire naître (commencer) ?",
             "en": "Our community is very good today; who then could have brought it into being (started it)?",
-            "zh": "我們的社群如今很好；究竟是誰使它誕生（開始）的呢？",
-            "a": "ex_suyang_bi_ka_gnluban_ta_sayang_yn_bi_ima"
+            "zh": "我們的社群如今很好；究竟是誰使它誕生（開始）的呢？"
           }
         ]
       },
