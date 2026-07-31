@@ -35,6 +35,11 @@ OVERRIDE_KEYS = {
     "mktui", "bkui", "bukui", "mukui", "mkui", "mkbukui", "bklui", "bq'lui",
     "tutui", "mtutui", "dui", "dmui", "mdui", "mddui", "pdui", "sdui",
     "mndui", "mpdui", "xbui", "xmbui", "pxbui", "xnbui", "m'xapui", "mapui",
+    # His TI is the modern prefix tg-, decided in WORD_OVERRIDES because the
+    # vowelless-output gate below would drop "tg" out of any map tier. The other
+    # 11 keys of that table are one character long and this loop already drops
+    # those; "ti" is the only one that needs saying.
+    "ti",
 }
 
 # Pecoraro types two elision marks, ' and ", and both sit INSIDE a word: page 47

@@ -81,7 +81,17 @@
     // French "à" needs no exclusion, since wordKey() keeps the diacritic, so
     // the key "a" cannot reach it.
     "k": "k", "i": "i", "p": "p", "n": "n", "m": "m",
-    "a": "a", "s": "s", "t": "t", "d": "d", "g": "g"
+    "a": "a", "s": "s", "t": "t", "d": "d", "g": "g",
+    // His TI is the modern ordinal/superlative prefix tg-, and he says so
+    // himself on ST'MAQ: 「其他人在相同語境、相同意思下說 TGTMAQ 而非 TITMAQ」.
+    // CLITIC_JOIN already carries nine of these pairs off his own text —
+    // ti malu→tgmalu, ti bilaq→tgbilaq, ti t'lo→tgtru, ti spat→tgspat … — and
+    // joinClitics() runs BEFORE this table is consulted, so those nine are
+    // untouched; what is left is the three places a bare TI reaches the screen
+    // (his TI headword card, his example TI Longat, and TYEX's sub Tityex).
+    // It cannot live in manual_map.json: the generator drops any value with no
+    // aeiou in it (the vowelless-output gate), and "tg" has none.
+    "ti": "tg"
   };
 
   function loadSpelling() {
@@ -92,9 +102,29 @@
     try { localStorage.setItem(SPELLING_KEY, spellingModern ? "modern" : "original"); } catch (e) {}
   }
 
+  // Two characters of his carry no case, and both tests below used to read them
+  // as though they did.
+  //   His typewriter has no capital form of the diacritic vowels, so a word he
+  // typed in capitals keeps a lowercase one inside it — NATSö against TANSÖ four
+  // cards away. `sample === sample.toUpperCase()` fails for the first and passes
+  // for the second, so one value printed NATSU and the other Natsu: 12 token
+  // types / 18 spans, eleven of them already mapped and so already printing
+  // Bnuwar, Qrut, Ilus, Iyus, Lbak, Srus, Shus, Tbuur, Hatsu, Hrus in the middle
+  // of an all-capital headword row.
+  //   His elision mark is the same problem at position 0, and much larger:
+  // `"` equals its own uppercase, so `sample[0] === sample[0].toUpperCase()` is
+  // true for every mark-initial word and the value came back capitalized. 16
+  // types / 142 occurrences of his own lowercase text, led by "lu → Elug 83×
+  // ("Suqi bi hrus ka Elug qmpahan ta"), "bi → Biyi 14× and "qan → Ekan 10×
+  // ("Ini Ekan ka qrut mu").
+  // So the case of a word is read off its CASED characters only, and a word
+  // with none of them takes the value as written.
+  var CASELESS = /[äëïöü'’ʼ"ʔ]/g;
   function matchCase(sample, target) {
-    if (sample === sample.toUpperCase()) return target.toUpperCase();
-    if (sample[0] === sample[0].toUpperCase()) return target[0].toUpperCase() + target.slice(1);
+    var cased = sample.replace(CASELESS, "");
+    if (!cased) return target;
+    if (cased === cased.toUpperCase()) return target.toUpperCase();
+    if (cased[0] === cased[0].toUpperCase()) return target[0].toUpperCase() + target.slice(1);
     return target;
   }
 

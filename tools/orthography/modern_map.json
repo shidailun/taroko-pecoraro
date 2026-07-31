@@ -2469,6 +2469,10 @@
    "modern": "duwa",
    "tier": "B"
   },
+  "doding": {
+   "modern": "duding",
+   "tier": "M"
+  },
   "dole": {
    "modern": "duri",
    "tier": "B"
@@ -2649,12 +2653,28 @@
    "modern": "dha",
    "tier": "M"
   },
+  "eeng": {
+   "modern": "eeng",
+   "tier": "M"
+  },
   "eidang": {
    "modern": "eydang",
    "tier": "M"
   },
+  "eko": {
+   "modern": "eku",
+   "tier": "M"
+  },
+  "emi": {
+   "modern": "emi",
+   "tier": "M"
+  },
   "eq": {
    "modern": "iq",
+   "tier": "M"
+  },
+  "esa": {
+   "modern": "eysa",
    "tier": "M"
   },
   "esuan": {
@@ -6434,8 +6454,8 @@
    "tier": "B"
   },
   "longat": {
-   "modern": "rngat",
-   "tier": "L"
+   "modern": "lungat",
+   "tier": "M"
   },
   "loq": {
    "modern": "ruq",
@@ -7111,8 +7131,8 @@
    "tier": "L"
   },
   "mausa": {
-   "modern": "musa",
-   "tier": "L"
+   "modern": "mowsa",
+   "tier": "M"
   },
   "mawan": {
    "modern": "mawan",
@@ -7483,6 +7503,10 @@
   "miing": {
    "modern": "miing",
    "tier": "id"
+  },
+  "miko": {
+   "modern": "miku",
+   "tier": "M"
   },
   "milit": {
    "modern": "mirit",
@@ -10101,6 +10125,10 @@
    "modern": "natu",
    "tier": "B"
   },
+  "natsö": {
+   "modern": "natsu",
+   "tier": "M"
+  },
   "nawit": {
    "modern": "neuwit",
    "tier": "M"
@@ -10985,7 +11013,7 @@
    "tier": "M"
   },
   "pausa": {
-   "modern": "pausa",
+   "modern": "powsa",
    "tier": "M"
   },
   "paux": {
@@ -19280,6 +19308,10 @@
    "modern": "umul",
    "tier": "M"
   },
+  "un": {
+   "modern": "un",
+   "tier": "M"
+  },
   "usa": {
    "modern": "usa",
    "tier": "id"
@@ -19671,6 +19703,10 @@
   "xeulis": {
    "modern": "hulis",
    "tier": "T"
+  },
+  "xeumi": {
+   "modern": "heumi",
+   "tier": "M"
   },
   "xeyu": {
    "modern": "hiyu",
@@ -31155,13 +31191,6 @@
    []
   ],
   [
-   "ti",
-   18,
-   [
-    "前綴不變化的助詞某冠詞的開端或殘留其實這個最常與狀態動詞連用意思是那位的那個"
-   ]
-  ],
-  [
    "de",
    7,
    []
@@ -31314,32 +31343,12 @@
    ]
   ],
   [
-   "doding",
-   1,
-   []
-  ],
-  [
    "dpnax",
    1,
    []
   ],
   [
    "dqqlinut",
-   1,
-   []
-  ],
-  [
-   "eeng",
-   1,
-   []
-  ],
-  [
-   "eko",
-   1,
-   []
-  ],
-  [
-   "emi",
    1,
    []
   ],
@@ -31352,13 +31361,6 @@
    "entourer",
    1,
    []
-  ],
-  [
-   "esa",
-   1,
-   [
-    "參見"
-   ]
   ],
   [
    "est",
@@ -31437,11 +31439,6 @@
    []
   ],
   [
-   "miko",
-   1,
-   []
-  ],
-  [
    "mkefunang",
    1,
    []
@@ -31465,11 +31462,6 @@
   ],
   [
    "même",
-   1,
-   []
-  ],
-  [
-   "natsö",
    1,
    []
   ],
@@ -31627,13 +31619,6 @@
    []
   ],
   [
-   "un",
-   1,
-   [
-    "或後綴附加於單一或複合的動作詞根賦予其名詞形式帶有未來實現義務性必要性或意願之意其實現為取決於其元音或輔音環境參見"
-   ]
-  ],
-  [
    "upsk'la",
    1,
    []
@@ -31650,11 +31635,6 @@
   ],
   [
    "xandolu",
-   1,
-   []
-  ],
-  [
-   "xeumi",
    1,
    []
   ],
