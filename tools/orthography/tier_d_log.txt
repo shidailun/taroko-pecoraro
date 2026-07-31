@@ -26,8 +26,8 @@ mmngali          mmngari          CV-    mngali           B
 mmqdolyaq        mmqduriq         CV-    mqdolyaq         T
 mmuda            mmuda            CV-    muda             id
 mndolo           mngdurug         mn-    dolo             M
-mneidang         mneydang         mn-    meidang          M
-mniyaq           mniyak           mn-    miyaq            L
+mneidang         mneydang         mn-    eidang           M
+mniyaq           mniyak           mn-    iyaq             M
 mnkl'lu          mnkleelug        mn-    mkl'lu           M
 mnkyayong        mnkyayung        mn-    mkyayong         A
 mnlglu           mnlglug          mn-    mlglu            M
@@ -53,13 +53,13 @@ ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     dup              M
 ndyami           ndyami           n-     dyami            P
-neidang          neydang          n-     meidang          M
+neidang          neydang          n-     eidang           M
 nggalu           nggealu          n-     mggalu           M
 ngguyan          ngeuyan          n-     gguyan           M
 ngl'ngu          nglngu           n-     mgl'ngu          M
 ngnalu           ngnealu          n-     gnalu            M
 niin             niing            n-     miin             M
-niyaq            niyak            n-     miyaq            L
+niyaq            niyak            n-     iyaq             M
 nksaxol          nqsahur          n-     ksaxol           L
 nl'bu            nl'bu            n-     l'bu             id
 nl'mux           nrmux            n-     l'mux            B

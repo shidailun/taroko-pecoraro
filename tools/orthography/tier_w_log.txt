@@ -171,6 +171,7 @@ mplawax          emprawah          mprawah          T/class      0     1
 mpldax           emprdax           mprdax           R/twin       0     1
 mplenax          emprinah          mprinah          G/class      0     1
 mplidil          emprijil          mprijil          R/class      0     1
+mplikut          emprikut          mprikut          P/class      0     1
 mplilu           emplilug          mplilug          P/class      0     1
 mplimu           emprimu           mprimu           P/class      0     3
 mplingis         emplingis         mplingis         R/twin       0     1
