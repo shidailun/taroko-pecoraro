@@ -4427,6 +4427,10 @@
    "modern": "knkmanan",
    "tier": "id"
   },
+  "knl'san": {
+   "modern": "knluusan",
+   "tier": "M"
+  },
   "knlala": {
    "modern": "knlala",
    "tier": "id"
@@ -4475,6 +4479,10 @@
    "modern": "qnriqani",
    "tier": "M"
   },
+  "knlsan": {
+   "modern": "knluusan",
+   "tier": "M"
+  },
   "knltan": {
    "modern": "knrtan",
    "tier": "B"
@@ -4482,6 +4490,10 @@
   "knludan": {
    "modern": "knrudan",
    "tier": "A"
+  },
+  "knluus": {
+   "modern": "knluus",
+   "tier": "M"
   },
   "knmalu": {
    "modern": "knmalu",
@@ -5659,6 +5671,10 @@
   "leqo": {
    "modern": "riqu",
    "tier": "B"
+  },
+  "lex": {
+   "modern": "rih",
+   "tier": "M"
   },
   "lexbun": {
    "modern": "lhbun",
@@ -11290,6 +11306,10 @@
    "modern": "pksuyang",
    "tier": "id"
   },
+  "pksyaon": {
+   "modern": "pqsiyaun",
+   "tier": "M"
+  },
   "pktla'to": {
    "modern": "pktleetu",
    "tier": "M"
@@ -12786,6 +12806,14 @@
    "modern": "pskixan",
    "tier": "A"
   },
+  "psqexon": {
+   "modern": "pskixan",
+   "tier": "M"
+  },
+  "psqexun": {
+   "modern": "pskixan",
+   "tier": "M"
+  },
   "psqlasao": {
    "modern": "psqrasaw",
    "tier": "M"
@@ -13670,6 +13698,14 @@
    "modern": "qduan",
    "tier": "M"
   },
+  "qdq'dan": {
+   "modern": "qdqutan",
+   "tier": "M"
+  },
+  "qdqdan": {
+   "modern": "qdqutan",
+   "tier": "M"
+  },
   "qel": {
    "modern": "qeyl",
    "tier": "M"
@@ -14104,6 +14140,10 @@
   },
   "qtol": {
    "modern": "qthur",
+   "tier": "M"
+  },
+  "qtq'dan": {
+   "modern": "qdqutan",
    "tier": "M"
   },
   "qtqot": {
@@ -14735,6 +14775,10 @@
   "siida": {
    "modern": "siida",
    "tier": "id"
+  },
+  "siipa": {
+   "modern": "sipa",
+   "tier": "M"
   },
   "sikul": {
    "modern": "sikul",
@@ -16747,6 +16791,14 @@
    "modern": "shus",
    "tier": "B"
   },
+  "syaqa": {
+   "modern": "siqa",
+   "tier": "M"
+  },
+  "syeqa": {
+   "modern": "siqa",
+   "tier": "M"
+  },
   "syudo": {
    "modern": "sudu",
    "tier": "M"
@@ -18516,6 +18568,10 @@
   },
   "uin": {
    "modern": "uwin",
+   "tier": "M"
+  },
+  "ukwi": {
+   "modern": "kuy",
    "tier": "M"
   },
   "ulae": {
@@ -30497,32 +30553,6 @@
     }
    ]
   },
-  "syaqa": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "siqa",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
-  "syeqa": {
-   "freq": 1,
-   "pec_gloss": [],
-   "cands": [
-    {
-     "cand": "siqa",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
-  },
   "taroko": {
    "freq": 1,
    "pec_gloss": [],
@@ -30604,13 +30634,6 @@
    "la",
    5,
    []
-  ],
-  [
-   "lex",
-   5,
-   [
-    "幾乎接近大約有點像"
-   ]
   ],
   [
    "ksudan",
@@ -30701,11 +30724,6 @@
    ]
   ],
   [
-   "knl'san",
-   2,
-   []
-  ],
-  [
    "likut",
    2,
    [
@@ -30764,20 +30782,6 @@
    2,
    [
     "一種身體極為細長的胡蜂"
-   ]
-  ],
-  [
-   "pksyaon",
-   2,
-   [
-    "想要液化之物"
-   ]
-  ],
-  [
-   "psqexon",
-   2,
-   [
-    "被人強迫被人強制的人"
    ]
   ],
   [
@@ -31190,11 +31194,6 @@
    ]
   ],
   [
-   "knlsan",
-   1,
-   []
-  ],
-  [
    "knxgun",
    1,
    []
@@ -31555,11 +31554,6 @@
    []
   ],
   [
-   "psqexun",
-   1,
-   []
-  ],
-  [
    "pstui",
    1,
    []
@@ -31590,35 +31584,11 @@
    []
   ],
   [
-   "qdq'dan",
-   1,
-   [
-    "束縛鐐銬桎梏被束縛者物參見"
-   ]
-  ],
-  [
-   "qdqdan",
-   1,
-   [
-    "束縛鐐銬桎梏被束縛者物參見"
-   ]
-  ],
-  [
    "qnao",
    1,
    [
     "大蒜"
    ]
-  ],
-  [
-   "qntq'dan",
-   1,
-   []
-  ],
-  [
-   "qtq'dan",
-   1,
-   []
   ],
   [
    "qui",
@@ -31648,11 +31618,6 @@
    [
     "架子"
    ]
-  ],
-  [
-   "siipa",
-   1,
-   []
   ],
   [
    "siko",
@@ -31853,13 +31818,6 @@
    1,
    [
     "陶土鍋盛裝液體的容器"
-   ]
-  ],
-  [
-   "ukwi",
-   1,
-   [
-    "詞條下所有派生形式的詞根從未單獨出現可衍生出參見"
    ]
   ],
   [
