@@ -5477,6 +5477,14 @@
    "modern": "llnglung",
    "tier": "B"
   },
+  "l'lu": {
+   "modern": "eelu",
+   "tier": "M"
+  },
+  "l'luon": {
+   "modern": "luun",
+   "tier": "M"
+  },
   "l'mbong": {
    "modern": "rmbung",
    "tier": "A"
@@ -7963,7 +7971,7 @@
    "tier": "M"
   },
   "ml'lu": {
-   "modern": "mllu",
+   "modern": "mlu",
    "tier": "M"
   },
   "ml'mux": {
@@ -8357,6 +8365,10 @@
   "mnkuong": {
    "modern": "mnkuung",
    "tier": "B"
+  },
+  "mnl'lu": {
+   "modern": "mnlu",
+   "tier": "M"
   },
   "mnlala": {
    "modern": "mnlala",
@@ -10457,6 +10469,10 @@
    "modern": "nrikut",
    "tier": "M"
   },
+  "nlluan": {
+   "modern": "nluan",
+   "tier": "M"
+  },
   "nluan": {
    "modern": "nruan",
    "tier": "B"
@@ -10546,6 +10562,10 @@
   "noxe": {
    "modern": "nuhi",
    "tier": "B"
+  },
+  "noxon": {
+   "modern": "nuhun",
+   "tier": "M"
   },
   "npaan": {
    "modern": "npaan",
@@ -12303,7 +12323,7 @@
    "tier": "B"
   },
   "pnoxon": {
-   "modern": "pnuxun",
+   "modern": "pnuhun",
    "tier": "M"
   },
   "pnpaan": {
@@ -21588,11 +21608,6 @@
    "modern": "mnataru",
    "tier": "P"
   },
-  "mnl'lu": {
-   "modern": "mnllu",
-   "tier": "P",
-   "elision_dropped": "mnl'lu"
-  },
   "mnmangali": {
    "modern": "mnmngari",
    "tier": "P"
@@ -26214,15 +26229,6 @@
    "modern": "kyusi",
    "tier": "R"
   },
-  "l'lu": {
-   "modern": "llu",
-   "tier": "R",
-   "elision_dropped": "l'lu"
-  },
-  "l'luon": {
-   "modern": "lluun",
-   "tier": "R"
-  },
   "lidil": {
    "modern": "rijil",
    "tier": "R"
@@ -26860,10 +26866,6 @@
   },
   "notong": {
    "modern": "nutung",
-   "tier": "R"
-  },
-  "noxon": {
-   "modern": "nuxun",
    "tier": "R"
   },
   "npgxei": {
@@ -30349,13 +30351,6 @@
    "tier": "E",
    "e_stem": "tlalae",
    "e_modern": "tlealay"
-  },
-  "nlluan": {
-   "modern": "nlluan",
-   "tier": "E",
-   "e_stem": "llu",
-   "e_modern": "l'lu",
-   "elision_dropped": "nl'luan"
   },
   "ntnling": {
    "modern": "ntnring",

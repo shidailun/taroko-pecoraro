@@ -70,7 +70,6 @@ mtkk'lang        mtkkrang         tkklang        tkkrang        derived
 mtl'do           mtrdu            tldo           trdu           derived
 mtsdaxal         mtsdahar         tsdaxal        tsdahar        derived
 ndtlalae         ndtlealay        tlalae         tlealay        derived
-nlluan           nl'luan          llu            l'lu           derived
 ntnling          ntnring          tnling         tnring         derived
 pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
