@@ -10415,6 +10415,10 @@
    "modern": "prut",
    "tier": "B"
   },
+  "p'ngao": {
+   "modern": "pungaw",
+   "tier": "M"
+  },
   "p'oqan": {
    "modern": "puqan",
    "tier": "B"
@@ -13432,6 +13436,10 @@
    "modern": "qthur",
    "tier": "M"
   },
+  "q'tqot": {
+   "modern": "qdqut",
+   "tier": "M"
+  },
   "q'xnu": {
    "modern": "khnu",
    "tier": "A"
@@ -13637,12 +13645,16 @@
    "tier": "M"
   },
   "qdoan": {
-   "modern": "qdugan",
+   "modern": "qduan",
    "tier": "M"
   },
   "qdolyaq": {
    "modern": "qduriq",
    "tier": "A"
+  },
+  "qdowan": {
+   "modern": "qduan",
+   "tier": "M"
   },
   "qel": {
    "modern": "qeyl",
@@ -14078,6 +14090,10 @@
   },
   "qtol": {
    "modern": "qthur",
+   "tier": "M"
+  },
+  "qtqot": {
+   "modern": "qdqut",
    "tier": "M"
   },
   "qudi": {
@@ -14721,6 +14737,10 @@
   "silong": {
    "modern": "silung",
    "tier": "T"
+  },
+  "silwi": {
+   "modern": "xiluy",
+   "tier": "M"
   },
   "sinao": {
    "modern": "sinaw",
@@ -24174,6 +24194,10 @@
    "modern": "spusu",
    "tier": "P"
   },
+  "sq'tqot": {
+   "modern": "sqdqut",
+   "tier": "P"
+  },
   "sqanu": {
    "modern": "sqanug",
    "tier": "P"
@@ -30590,13 +30614,6 @@
    ]
   ],
   [
-   "sq'tqot",
-   3,
-   [
-    "用來捆綁鏈條繩索束縛"
-   ]
-  ],
-  [
    "swatan",
    3,
    [
@@ -30740,13 +30757,6 @@
    2,
    [
     "被人強迫被人強制的人"
-   ]
-  ],
-  [
-   "q'tqot",
-   2,
-   [
-    "手銬捆綁犯人的繩索"
    ]
   ],
   [
@@ -31429,11 +31439,6 @@
    []
   ],
   [
-   "p'ngao",
-   1,
-   []
-  ],
-  [
    "pa",
    1,
    [
@@ -31588,11 +31593,6 @@
    []
   ],
   [
-   "qdowan",
-   1,
-   []
-  ],
-  [
    "qdq'dan",
    1,
    [
@@ -31622,13 +31622,6 @@
    "qtq'dan",
    1,
    []
-  ],
-  [
-   "qtqot",
-   1,
-   [
-    "手銬捆綁犯人的繩索"
-   ]
   ],
   [
    "qui",
@@ -31668,13 +31661,6 @@
    "siko",
    1,
    []
-  ],
-  [
-   "silwi",
-   1,
-   [
-    "或鐵鐵絲"
-   ]
   ],
   [
    "simpu",
