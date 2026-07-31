@@ -25,6 +25,7 @@ knsopu           knsupu           sopu           supu           derived
 knsttoan         knsttuan         sttoan         sttuan         derived
 kpauçi           kpauxi           kpauxi         kpauxi         derived
 kxebong          khibung          xebong         hibung         derived
+lnagap           rnagak           lagap          ragak          derived
 lnqdo            rnqdug           lqdo           rqdug          derived
 m'ayo            mayug            ayo            ayug           attested
 mapala           mapala           pala           pala           derived

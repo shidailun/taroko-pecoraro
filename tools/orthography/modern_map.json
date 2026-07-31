@@ -2569,6 +2569,10 @@
    "modern": "jiyax",
    "tier": "M"
   },
+  "dyudika": {
+   "modern": "jiyujika",
+   "tier": "M"
+  },
   "däxa": {
    "modern": "daxa",
    "tier": "id"
@@ -5422,6 +5426,10 @@
    "modern": "ray",
    "tier": "M"
   },
+  "lagap": {
+   "modern": "ragak",
+   "tier": "M"
+  },
   "lago": {
    "modern": "ragu",
    "tier": "B"
@@ -5888,6 +5896,10 @@
   "lmading": {
    "modern": "rmajing",
    "tier": "B"
+  },
+  "lmagap": {
+   "modern": "rmagak",
+   "tier": "M"
   },
   "lmagun": {
    "modern": "rmagun",
@@ -9849,6 +9861,10 @@
    "modern": "negaya",
    "tier": "M"
   },
+  "nglaun": {
+   "modern": "ngalun",
+   "tier": "M"
+  },
   "ngoloq": {
    "modern": "nguruq",
    "tier": "A"
@@ -13092,6 +13108,10 @@
    "modern": "ptquwan",
    "tier": "M"
   },
+  "ptqodap": {
+   "modern": "ptqudak",
+   "tier": "M"
+  },
   "ptqoe": {
    "modern": "ptquwi",
    "tier": "M"
@@ -13447,6 +13467,10 @@
   "qali": {
    "modern": "kari",
    "tier": "A"
+  },
+  "qalip": {
+   "modern": "qrip",
+   "tier": "M"
   },
   "qalit": {
    "modern": "qlit",
@@ -13902,6 +13926,10 @@
   },
   "qoaq": {
    "modern": "quwaq",
+   "tier": "M"
+  },
+  "qodap": {
+   "modern": "qudak",
    "tier": "M"
   },
   "qole": {
@@ -17792,6 +17820,10 @@
    "modern": "tnabuy",
    "tier": "A"
   },
+  "tnai": {
+   "modern": "tmay",
+   "tier": "M"
+  },
   "tnalang": {
    "modern": "tnealang",
    "tier": "M"
@@ -21551,6 +21583,10 @@
    "modern": "mqriqu",
    "tier": "P"
   },
+  "mqodap": {
+   "modern": "mqudak",
+   "tier": "P"
+  },
   "mqolo": {
    "modern": "mquru",
    "tier": "P"
@@ -23556,6 +23592,10 @@
    "modern": "qdaun",
    "tier": "P"
   },
+  "qdapan": {
+   "modern": "qdakan",
+   "tier": "P"
+  },
   "qgoxe": {
    "modern": "kguhi",
    "tier": "P"
@@ -24557,6 +24597,10 @@
   },
   "tqatai": {
    "modern": "tkatay",
+   "tier": "P"
+  },
+  "tqodap": {
+   "modern": "tqudak",
    "tier": "P"
   },
   "tsdaxal": {
@@ -29149,6 +29193,12 @@
    "e_stem": "xebong",
    "e_modern": "hibung"
   },
+  "lnagap": {
+   "modern": "rnagak",
+   "tier": "E",
+   "e_stem": "lagap",
+   "e_modern": "ragak"
+  },
   "lnqdo": {
    "modern": "rnqdug",
    "tier": "E",
@@ -30535,13 +30585,6 @@
    ]
   ],
   [
-   "tqodap",
-   3,
-   [
-    "完全熄滅火參見"
-   ]
-  ],
-  [
    "atas",
    2,
    [
@@ -30681,24 +30724,10 @@
    ]
   ],
   [
-   "ptqodap",
-   2,
-   [
-    "熄滅終止"
-   ]
-  ],
-  [
    "q'tqot",
    2,
    [
     "手銬捆綁犯人的繩索"
-   ]
-  ],
-  [
-   "qodap",
-   2,
-   [
-    "熄滅火生命自行熄滅"
    ]
   ],
   [
@@ -30936,11 +30965,6 @@
    []
   ],
   [
-   "dyudika",
-   1,
-   []
-  ],
-  [
    "eeng",
    1,
    []
@@ -31153,31 +31177,12 @@
    []
   ],
   [
-   "lagap",
-   1,
-   [
-    "傾盆連續驟然而至無雷雨的大雨"
-   ]
-  ],
-  [
    "le",
    1,
    []
   ],
   [
    "leq",
-   1,
-   []
-  ],
-  [
-   "lmagap",
-   1,
-   [
-    "同上之動詞形"
-   ]
-  ],
-  [
-   "lnagap",
    1,
    []
   ],
@@ -31329,13 +31334,6 @@
    []
   ],
   [
-   "mqodap",
-   1,
-   [
-    "熄滅中的已熄滅的"
-   ]
-  ],
-  [
    "msyuling",
    1,
    []
@@ -31379,11 +31377,6 @@
   ],
   [
    "natsö",
-   1,
-   []
-  ],
-  [
-   "nglaun",
    1,
    []
   ],
@@ -31587,18 +31580,6 @@
   ],
   [
    "pxeidang",
-   1,
-   []
-  ],
-  [
-   "qalip",
-   1,
-   [
-    "剪裁參見"
-   ]
-  ],
-  [
-   "qdapan",
    1,
    []
   ],
@@ -31844,11 +31825,6 @@
    [
     "複合前綴表示已完成的動作既成的事實或表過去表示與其所作用之詞的認同歸屬"
    ]
-  ],
-  [
-   "tnai",
-   1,
-   []
   ],
   [
    "tnoxol",
