@@ -2289,6 +2289,10 @@
    "modern": "dmtabug",
    "tier": "M"
   },
+  "dmtgisa": {
+   "modern": "dmtgsa",
+   "tier": "M"
+  },
   "dmudu": {
    "modern": "dmudul",
    "tier": "L"
@@ -3679,6 +3683,10 @@
   "kii": {
    "modern": "kii",
    "tier": "T"
+  },
+  "kiiso": {
+   "modern": "keisug",
+   "tier": "M"
   },
   "kika": {
    "modern": "kika",
@@ -9753,6 +9761,10 @@
    "modern": "nduwa",
    "tier": "B"
   },
+  "ndoai": {
+   "modern": "endwai",
+   "tier": "M"
+  },
   "ndudul": {
    "modern": "ndudul",
    "tier": "id"
@@ -10383,6 +10395,10 @@
    "modern": "peutux",
    "tier": "M"
   },
+  "p'pax": {
+   "modern": "phpah",
+   "tier": "M"
+  },
   "p'qan": {
    "modern": "pkan",
    "tier": "L"
@@ -10419,6 +10435,10 @@
    "modern": "paqan",
    "tier": "id",
    "elision_dropped": "pa'qan"
+  },
+  "paaanak": {
+   "modern": "peanak",
+   "tier": "M"
   },
   "paan": {
    "modern": "paan",
@@ -11553,6 +11573,10 @@
    "modern": "pnmu",
    "tier": "M"
   },
+  "pnaanak": {
+   "modern": "pneanak",
+   "tier": "M"
+  },
   "pnais": {
    "modern": "pnais",
    "tier": "id"
@@ -12121,6 +12145,10 @@
   "psaan": {
    "modern": "psaan",
    "tier": "id"
+  },
+  "psaanak": {
+   "modern": "pseanak",
+   "tier": "M"
   },
   "psai": {
    "modern": "psai",
@@ -13584,6 +13612,10 @@
    "modern": "qiri",
    "tier": "B"
   },
+  "qelo": {
+   "modern": "qilug",
+   "tier": "M"
+  },
   "qeta": {
    "modern": "kita",
    "tier": "A"
@@ -14066,6 +14098,10 @@
   },
   "s'gul": {
    "modern": "seegul",
+   "tier": "M"
+  },
+  "s'lno": {
+   "modern": "srngaw",
    "tier": "M"
   },
   "s'lo": {
@@ -14645,6 +14681,10 @@
   "sinao": {
    "modern": "sinaw",
    "tier": "B"
+  },
+  "sinbong": {
+   "modern": "singbung",
+   "tier": "M"
   },
   "sipa": {
    "modern": "sipa",
@@ -17220,6 +17260,10 @@
    "modern": "tgpitu",
    "tier": "M"
   },
+  "tipyaq": {
+   "modern": "cipiq",
+   "tier": "M"
+  },
   "tisa": {
    "modern": "tgsa",
    "tier": "M"
@@ -18026,6 +18070,10 @@
   },
   "tqliyan": {
    "modern": "tqliyan",
+   "tier": "M"
+  },
+  "tqlyaan": {
+   "modern": "tqrian",
    "tier": "M"
   },
   "tqoan": {
@@ -22647,6 +22695,10 @@
    "modern": "pntabuy",
    "tier": "P"
   },
+  "pntipyaq": {
+   "modern": "pncipiq",
+   "tier": "P"
+  },
   "pntlilun": {
    "modern": "pntrilun",
    "tier": "P"
@@ -24038,6 +24090,10 @@
    "modern": "sptbnaw",
    "tier": "P"
   },
+  "sptipyaq": {
+   "modern": "spcipiq",
+   "tier": "P"
+  },
   "sptooqo": {
    "modern": "sptuuqu",
    "tier": "P"
@@ -24113,6 +24169,10 @@
   },
   "stgtgut": {
    "modern": "stgtgut",
+   "tier": "P"
+  },
+  "stipyaq": {
+   "modern": "scipiq",
    "tier": "P"
   },
   "stk'nai": {
@@ -30375,21 +30435,6 @@
      "agg": true
     }
    ]
-  },
-  "tipyaq": {
-   "freq": 2,
-   "pec_gloss": [
-    "少小量身材小我告訴過你了沒關係我只會喝一點點"
-   ],
-   "cands": [
-    {
-     "cand": "cipiq",
-     "words": true,
-     "gloss": 0,
-     "dist": 4,
-     "agg": true
-    }
-   ]
   }
  },
  "unmapped_top": [
@@ -30467,13 +30512,6 @@
    "pnta'to",
    3,
    []
-  ],
-  [
-   "pntipyaq",
-   3,
-   [
-    "每次一點點每人分到一小份"
-   ]
   ],
   [
    "ptatwi",
@@ -30669,13 +30707,6 @@
    []
   ],
   [
-   "s'lno",
-   2,
-   [
-    "報告告知分享"
-   ]
-  ],
-  [
    "serait",
    2,
    []
@@ -30697,20 +30728,6 @@
    2,
    [
     "頑皮開心果愛開玩笑的人"
-   ]
-  ],
-  [
-   "sptipyaq",
-   2,
-   [
-    "為了使其變小數量減少"
-   ]
-  ],
-  [
-   "stipyaq",
-   2,
-   [
-    "使變小縮小為使其變小減少數量"
    ]
   ],
   [
@@ -30878,11 +30895,6 @@
   ],
   [
    "dmsnxei",
-   1,
-   []
-  ],
-  [
-   "dmtgisa",
    1,
    []
   ],
@@ -31064,11 +31076,6 @@
   ],
   [
    "kaisia",
-   1,
-   []
-  ],
-  [
-   "kiiso",
    1,
    []
   ],
@@ -31376,11 +31383,6 @@
    []
   ],
   [
-   "ndoai",
-   1,
-   []
-  ],
-  [
    "nglaun",
    1,
    []
@@ -31435,21 +31437,11 @@
    []
   ],
   [
-   "p'pax",
-   1,
-   []
-  ],
-  [
    "pa",
    1,
    [
     "前綴保留前一前綴之義但另加未來時之意"
    ]
-  ],
-  [
-   "paaanak",
-   1,
-   []
   ],
   [
    "paaaq",
@@ -31497,11 +31489,6 @@
    []
   ],
   [
-   "pnaanak",
-   1,
-   []
-  ],
-  [
    "pndkox",
    1,
    [
@@ -31542,13 +31529,6 @@
    "précédente",
    1,
    []
-  ],
-  [
-   "psaanak",
-   1,
-   [
-    "擱置一旁歧視隔離"
-   ]
   ],
   [
    "psaanaq",
@@ -31642,13 +31622,6 @@
    ]
   ],
   [
-   "qelo",
-   1,
-   [
-    "後頸頸背"
-   ]
-  ],
-  [
    "qnao",
    1,
    [
@@ -31720,11 +31693,6 @@
   ],
   [
    "simpu",
-   1,
-   []
-  ],
-  [
-   "sinbong",
    1,
    []
   ],
@@ -31901,11 +31869,6 @@
   ],
   [
    "tnxeyax",
-   1,
-   []
-  ],
-  [
-   "tqlyaan",
    1,
    []
   ],
