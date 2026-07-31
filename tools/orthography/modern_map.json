@@ -727,6 +727,10 @@
    "modern": "ruun",
    "tier": "B"
   },
+  "'loy": {
+   "modern": "rui",
+   "tier": "M"
+  },
   "'lu": {
    "modern": "elug",
    "tier": "M"
@@ -938,6 +942,10 @@
   "b'xnyaq": {
    "modern": "bhniq",
    "tier": "A"
+  },
+  "ba'ba": {
+   "modern": "beeba",
+   "tier": "M"
   },
   "baba": {
    "modern": "babaw",
@@ -2540,6 +2548,10 @@
   "dx'qon": {
    "modern": "dhqun",
    "tier": "B"
+  },
+  "dxcaan": {
+   "modern": "dhyaan",
+   "tier": "M"
   },
   "dxdyeq": {
    "modern": "thiyaq",
@@ -5047,6 +5059,10 @@
    "modern": "kciyan",
    "tier": "A"
   },
+  "ktii": {
+   "modern": "kciyi",
+   "tier": "M"
+  },
   "ktilux": {
    "modern": "kcilux",
    "tier": "B"
@@ -7344,6 +7360,10 @@
    "modern": "miyah",
    "tier": "B"
   },
+  "miynx": {
+   "modern": "meiyah",
+   "tier": "M"
+  },
   "mk": {
    "modern": "mk",
    "tier": "X"
@@ -8324,6 +8344,10 @@
   },
   "mpaaso": {
    "modern": "empeasug",
+   "tier": "M"
+  },
+  "mpaba'ba": {
+   "modern": "maabeeba",
    "tier": "M"
   },
   "mpabaki": {
@@ -9765,6 +9789,10 @@
   },
   "nagwi": {
    "modern": "nagwi",
+   "tier": "M"
+  },
+  "nai": {
+   "modern": "nay",
    "tier": "M"
   },
   "nais": {
@@ -11911,6 +11939,10 @@
   "pnpusal": {
    "modern": "pnpusal",
    "tier": "T"
+  },
+  "pnqbiling": {
+   "modern": "pnqbling",
+   "tier": "M"
   },
   "pnsaan": {
    "modern": "pnsaan",
@@ -15271,6 +15303,10 @@
    "modern": "slupung",
    "tier": "M"
   },
+  "sl's": {
+   "modern": "srus",
+   "tier": "M"
+  },
   "sl'san": {
    "modern": "srsan",
    "tier": "B"
@@ -15919,6 +15955,10 @@
   "snapao": {
    "modern": "snapaw",
    "tier": "B"
+  },
+  "snawit": {
+   "modern": "sneuwit",
+   "tier": "M"
   },
   "snaxo": {
    "modern": "snahu",
@@ -18468,6 +18508,10 @@
   },
   "ttgoxoi": {
    "modern": "ttguhuy",
+   "tier": "M"
+  },
+  "ttidyal": {
+   "modern": "ttjiyal",
    "tier": "M"
   },
   "ttingan": {
@@ -30383,11 +30427,6 @@
    "tier": "V",
    "v_twin": "laon"
   },
-  "ba'ba": {
-   "modern": "babaw",
-   "tier": "V",
-   "v_twin": "baba"
-  },
   "g'qani": {
    "modern": "glqani",
    "tier": "V",
@@ -30946,11 +30985,6 @@
    []
   ],
   [
-   "'loy",
-   1,
-   []
-  ],
-  [
    "'matinalité'",
    1,
    []
@@ -31068,11 +31102,6 @@
   ],
   [
    "dqqlinut",
-   1,
-   []
-  ],
-  [
-   "dxcaan",
    1,
    []
   ],
@@ -31250,11 +31279,6 @@
    []
   ],
   [
-   "ktii",
-   1,
-   []
-  ],
-  [
    "lac",
    1,
    []
@@ -31300,11 +31324,6 @@
    []
   ],
   [
-   "miynx",
-   1,
-   []
-  ],
-  [
    "mkefunang",
    1,
    []
@@ -31334,11 +31353,6 @@
    [
     "植物的芽花苞"
    ]
-  ],
-  [
-   "mpaba'ba",
-   1,
-   []
   ],
   [
    "mpiaka",
@@ -31384,11 +31398,6 @@
   ],
   [
    "n'loq",
-   1,
-   []
-  ],
-  [
-   "nai",
    1,
    []
   ],
@@ -31497,11 +31506,6 @@
   ],
   [
    "pnlngut",
-   1,
-   []
-  ],
-  [
-   "pnqbiling",
    1,
    []
   ],
@@ -31617,11 +31621,6 @@
    ]
   ],
   [
-   "sl's",
-   1,
-   []
-  ],
-  [
    "sloani",
    1,
    []
@@ -31638,11 +31637,6 @@
   ],
   [
    "smxoai",
-   1,
-   []
-  ],
-  [
-   "snawit",
    1,
    []
   ],
@@ -31746,11 +31740,6 @@
   ],
   [
    "tqwini",
-   1,
-   []
-  ],
-  [
-   "ttidyal",
    1,
    []
   ],
