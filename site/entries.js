@@ -57814,11 +57814,10 @@ window.ENTRIES = [
             "zh": "我多麼可憐！我的丈夫已經不在了！"
           },
           {
-            "t": "Yamo kana dnqpax (dnq'pax) o, ima ka stmaon namo ?",
+            "t": "Yamo kana dmqpax (dmq'pax) o, ima ka stmaon namo ?",
             "fr": "Vous tous les travailleurs: Qui est votre responsable (votre chef)?",
             "en": "All you workers: who is the one in charge of you (your boss)?",
-            "zh": "你們所有工人：誰是你們的負責人（你們的頭兒）？",
-            "a": "ex_yamo_kana_dnqpax_dnq_pax_o_ima_ka_stmaon"
+            "zh": "你們所有工人：誰是你們的負責人（你們的頭兒）？"
           },
           {
             "t": "Stmaon ta Jes Cristo",

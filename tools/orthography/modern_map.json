@@ -2353,6 +2353,14 @@
    "modern": "dempweela",
    "tier": "M"
   },
+  "dmq'pax": {
+   "modern": "dmqpah",
+   "tier": "M"
+  },
+  "dmqpax": {
+   "modern": "dmqpah",
+   "tier": "M"
+  },
   "dmt'basyaq": {
    "modern": "dmtbasyaq",
    "tier": "M"
@@ -7665,6 +7673,10 @@
    "modern": "mkdurux",
    "tier": "M"
   },
+  "mkefunang": {
+   "modern": "mkefunang",
+   "tier": "M"
+  },
   "mketa": {
    "modern": "mqita",
    "tier": "L"
@@ -10517,6 +10529,10 @@
   },
   "npamalu": {
    "modern": "npaamalu",
+   "tier": "M"
+  },
+  "npamanu": {
+   "modern": "npaamanu",
    "tier": "M"
   },
   "npaqan": {
@@ -17023,6 +17039,10 @@
    "modern": "squwaq",
    "tier": "B"
   },
+  "sqoaqe": {
+   "modern": "squwaqi",
+   "tier": "M"
+  },
   "sqtan": {
    "modern": "sqtan",
    "tier": "id"
@@ -18955,6 +18975,10 @@
   "tquli": {
    "modern": "tquli",
    "tier": "id"
+  },
+  "tqwini": {
+   "modern": "tkuni",
+   "tier": "M"
   },
   "trabus": {
    "modern": "trabus",
@@ -31316,16 +31340,6 @@
    []
   ],
   [
-   "dnq'pax",
-   1,
-   []
-  ],
-  [
-   "dnqpax",
-   1,
-   []
-  ],
-  [
    "dobut",
    1,
    [
@@ -31414,11 +31428,6 @@
    []
   ],
   [
-   "mkefunang",
-   1,
-   []
-  ],
-  [
    "mkluxeng",
    1,
    [
@@ -31442,11 +31451,6 @@
   ],
   [
    "note",
-   1,
-   []
-  ],
-  [
-   "npamanu",
    1,
    []
   ],
@@ -31535,11 +31539,6 @@
    []
   ],
   [
-   "sqoaqe",
-   1,
-   []
-  ],
-  [
    "stpyeqon",
    1,
    []
@@ -31556,11 +31555,6 @@
   ],
   [
    "tbii",
-   1,
-   []
-  ],
-  [
-   "tqwini",
    1,
    []
   ],
