@@ -1,7 +1,6 @@
 # tier G: token -> modern, the ROOT stem it inherited (from any entry), that root's modern form
 # columns: token, modern, stem, stem modern, occurrences, attested?
 mpdxok           mpdhuq           dxok           dhuq               5 derived
-dmkpax           dmqpah           kpax           qpah               4 derived
 k'sul            qsul             ksul           qsul               2 attested
 slongan          slungan          slong          slung              2 derived
 bsq'lol          bsqrul           bsqlol         bsqrul             1 derived

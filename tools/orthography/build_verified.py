@@ -70,7 +70,8 @@ def main():
 
     def word(p):
         """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,
-        0.25 a regular inflection of a root vouched that way."""
+        0.25 a regular inflection of a root vouched that way, 0.125 a slot the
+        wordlist writes with two other suffixes."""
         if p in lex:
             return 2
         if inf.regular(p):
@@ -79,6 +80,8 @@ def main():
             return 0.5
         if inf.vouched_root(p):
             return 0.25
+        if inf.sistered(p):
+            return 0.125
         return 0
 
     def level(v):
@@ -101,8 +104,9 @@ def main():
     infl = sorted(v for v in keys if lv[v] == 1)
     vouch = sorted(v for v in keys if lv[v] == 0.5)
     vroot = sorted(v for v in keys if lv[v] == 0.25)
-    good = sorted(listed + infl + vouch + vroot)
-    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4}
+    sistr = sorted(v for v in keys if lv[v] == 0.125)
+    good = sorted(listed + infl + vouch + vroot + sistr)
+    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -121,17 +125,25 @@ def main():
         "// for through ITS own inflections (%d). Neither the word nor its root is\n"
         "// listed, so the gloss agreement is taken against the root's attested\n"
         "// supporter and only against Chinese he attached to the word as a word.\n"
-        "// app.js paints all four in the deep brown; a value NOT in here is still\n"
+        "// 5 = a SISTER SLOT: the wordlist writes this same stem with two OTHER\n"
+        "// paradigm suffixes and not with this one (%d). Most of a paradigm is\n"
+        "// glossless, so 2, 3 and 4 cannot reach these — the claim is about\n"
+        "// morphology rather than meaning, and the gate is his: the word must be\n"
+        "// one he printed in a ° paradigm line, which is his own statement that it\n"
+        "// is an inflectional slot and not a word in its own right.\n"
+        "// app.js paints all five in the deep brown; a value NOT in here is still\n"
         "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
-        % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot)))
+        % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot),
+           len(sistr)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
-          "inflected off a vouched root: %d   unverified: %d   (of %d distinct)"
-          % (len(listed), len(infl), len(vouch), len(vroot),
+          "inflected off a vouched root: %d   sister slot: %d   unverified: %d   "
+          "(of %d distinct)"
+          % (len(listed), len(infl), len(vouch), len(vroot), len(sistr),
              len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 

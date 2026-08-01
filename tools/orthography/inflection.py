@@ -117,6 +117,16 @@ HAND_NOT_VOUCHED = set("tbuur tcingi".split())
 #           起屑 to flake only on the 起 of 令人想起海藻 "recalls seaweed".
 HAND_NOT_ROOTED = set("nnalu empnalu nilaq".split())
 
+# sistered()'s whole output read the same way — batch 115. The rule reads no
+# gloss at all, so the way it goes wrong is the homonym: his word is a
+# different word that happens to wear the same letters as a slot of an
+# attested paradigm.
+#   qurun   his Q'QOL 挖鑿－雕刻 to gouge, sistered by `quri` 有關 and `quray`,
+#   quran   which are the paradigm of a word about being ABOUT something. The
+#           whole family was on the wrong stem — modern 開鑿;雕刻 is `gmqur`,
+#           with a g — and batch 115 remaps it rather than verifying it.
+HAND_NOT_SISTERED = set("qurun quran".split())
+
 
 def _read(p):
     return io.open(p, encoding="utf-8").read()
@@ -139,7 +149,20 @@ class Inflection(object):
         entries = json.loads(s[s.index("["):s.rindex("]") + 1])
         self.his = self._his_glosses(entries)
         self.slot = self._his_glosses(entries, slots_only=True)
+        self.par = self._paradigm_tokens(entries)
         self.frozen = self._frozen(entries, mp)
+
+    @staticmethod
+    def _paradigm_tokens(entries):
+        """Every token he printed in a ° paradigm line — the slots he himself
+        declares are one word's inflections. sistered()'s gate."""
+        out = set()
+        for e in entries:
+            for f in [e.get("paradigm")] + [sb.get("paradigm")
+                                            for sb in e.get("subs", [])]:
+                for m in TOK.finditer(f or ""):
+                    out.add(wkey(m.group(0)))
+        return out
 
     # ---- his Chinese, per token, from every field that reaches the screen ---
     def _his_glosses(self, entries, slots_only=False):
@@ -408,4 +431,61 @@ class Inflection(object):
                             if best is None or cost < best[0]:
                                 best = (cost, (c, p, sf, w, sh))
                             break
+        return best[1] if best else None
+
+    # ---- the sister slots: a paradigm the wordlist writes with other suffixes
+    def sistered(self, v):
+        """(prefix, stem, suffix, [the sisters]) or None.
+
+        `lmuan` is the case, and it is the one shape the four rules above
+        cannot state. It is the -an slot of his LAMU 收集 paradigm — his own
+        line reads °Lmamu, lamu, lmui, lmuan, lmuon — and the wordlist lists
+        `lmui` and `lmuun`, the -i and -un slots of that same stem, but not it.
+        regular() reaches it, because `lmu` IS listed, and then refuses on the
+        gloss: the listed `lmu` is 碎粒 a crumb, a homonym, and the two sisters
+        that would settle it carry no gloss at all. Most of a paradigm is
+        glossless, so that is not an accident of this word — it is the normal
+        state of the evidence.
+
+        The claim here is about morphology and not about meaning: a stem the
+        wordlist writes with two different paradigm suffixes takes the third.
+        Two supporters wearing DIFFERENT suffixes under the SAME prefix,
+        because one is a substring coincidence waiting to happen.
+
+        No gloss gate — there is usually no gloss to read — so the guard is at
+        the other end, and it is his: **the value must be a word he printed in
+        a ° paradigm line**. That is his own statement that it is an
+        inflectional slot rather than a word in its own right, and it is what
+        keeps the nouns out. `sapi` 小鋤頭, a small hoe, decomposes as
+        `sap`+`-i` beside the attested `sapan` and `sapaw` 舖床 — a hoe
+        verified as the imperative of spreading a bed. His SAPE is a headword
+        and appears in nobody's paradigm, so the gate refuses it; so are
+        `ptasaw` (his 使沉澱澄清, against the paradigm of `ptas` 寫;紋面) and
+        `srciqun`.
+
+        The gate is not sufficient by itself — a slot of his can still be a
+        homonym of a slot of theirs, which is what HAND_NOT_SISTERED is for —
+        but 11 of the 49 shapes this rule finds are refused by it outright, and
+        every one of the 11 is either a noun or a different root.
+        """
+        if v in self.frozen or v in HAND_NOT_SISTERED or v in self.lex:
+            return None
+        if not any(k in self.par for k in (self.inv.get(v) or [])):
+            return None
+        best = None
+        for p in PRE:
+            if not v.startswith(p):
+                continue
+            b = v[len(p):]
+            for sf in SUF:
+                if not sf or not b.endswith(sf) or len(b) - len(sf) < 3:
+                    continue
+                st = b[:len(b) - len(sf)]
+                sis = sorted(p + st + s2 for s2 in SUF
+                             if s2 and s2 != sf and p + st + s2 in self.lex)
+                if len(sis) < 2:
+                    continue
+                cost = len(p) + len(sf)
+                if best is None or cost < best[0]:
+                    best = (cost, (p, st, sf, sis))
         return best[1] if best else None
