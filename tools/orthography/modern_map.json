@@ -19718,6 +19718,18 @@
    "modern": "cih",
    "tier": "M"
   },
+  "tyoqan": {
+   "modern": "tuyuqan",
+   "tier": "M"
+  },
+  "tyoqe": {
+   "modern": "tuyuqi",
+   "tier": "M"
+  },
+  "tyoqun": {
+   "modern": "tuyuqun",
+   "tier": "M"
+  },
   "tyusun": {
    "modern": "ciyusun",
    "tier": "M"
@@ -20103,15 +20115,15 @@
    "tier": "A"
   },
   "xdolan": {
-   "modern": "hduran",
+   "modern": "haduran",
    "tier": "M"
   },
   "xdoli": {
-   "modern": "hduri",
+   "modern": "haduri",
    "tier": "M"
   },
   "xdolun": {
-   "modern": "hdurun",
+   "modern": "hadurun",
    "tier": "M"
   },
   "xdyalan": {
@@ -25807,18 +25819,6 @@
   },
   "txolit": {
    "modern": "thurit",
-   "tier": "P"
-  },
-  "tyoqan": {
-   "modern": "tyuqan",
-   "tier": "P"
-  },
-  "tyoqe": {
-   "modern": "tyuqi",
-   "tier": "P"
-  },
-  "tyoqun": {
-   "modern": "tyuqun",
    "tier": "P"
   },
   "tyuan": {
