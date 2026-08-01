@@ -5431,6 +5431,10 @@
    "modern": "quhing",
    "tier": "A"
   },
+  "l'alang": {
+   "modern": "elealang",
+   "tier": "M"
+  },
   "l'bai": {
    "modern": "lbay",
    "tier": "A"
@@ -6079,6 +6083,10 @@
   "liyus": {
    "modern": "liyus",
    "tier": "id"
+  },
+  "ll'alang": {
+   "modern": "elealang",
+   "tier": "M"
   },
   "ll'nglong": {
    "modern": "llnglung",
@@ -6992,6 +7000,10 @@
   },
   "ma'ua": {
    "modern": "maauwa",
+   "tier": "M"
+  },
+  "maan": {
+   "modern": "emaan",
    "tier": "M"
   },
   "maangal": {
@@ -8121,7 +8133,7 @@
    "tier": "A"
   },
   "mlubu": {
-   "modern": "mlubu",
+   "modern": "mgrbu",
    "tier": "M"
   },
   "mludao": {
@@ -10707,6 +10719,10 @@
   },
   "nuxul": {
    "modern": "meuxul",
+   "tier": "M"
+  },
+  "nxa": {
+   "modern": "mha",
    "tier": "M"
   },
   "nxal": {
@@ -26330,10 +26346,6 @@
    "modern": "maisu",
    "tier": "R"
   },
-  "maan": {
-   "modern": "maan",
-   "tier": "R"
-  },
   "mabal": {
    "modern": "mabal",
    "tier": "R"
@@ -27007,10 +27019,6 @@
   },
   "nuxeng": {
    "modern": "nuhing",
-   "tier": "R"
-  },
-  "nxa": {
-   "modern": "nxa",
    "tier": "R"
   },
   "nxnaan": {
@@ -28344,11 +28352,6 @@
    "modern": "knlbuan",
    "tier": "KL"
   },
-  "l'alang": {
-   "modern": "lalang",
-   "tier": "KL",
-   "elision_dropped": "l'alang"
-  },
   "lg'loq": {
    "modern": "lgluq",
    "tier": "KL",
@@ -29331,13 +29334,6 @@
    "tier": "D",
    "d_rule": "CV-",
    "d_base": "ksaxol"
-  },
-  "ll'alang": {
-   "modern": "llalang",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "l'alang",
-   "elision_dropped": "ll'alang"
   },
   "llamil": {
    "modern": "rramil",
