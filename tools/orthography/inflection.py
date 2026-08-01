@@ -53,6 +53,15 @@ D = os.path.dirname(os.path.abspath(__file__))
 H = os.path.normpath(os.path.join(D, "..", ".."))
 TOK = re.compile(r"[A-Za-zÀ-ÿłŁʔ'’\"]+")
 HAN = re.compile(r"[一-鿿]+")
+# A gloss that says "same as above" rather than saying anything. 61 pale slot
+# occurrences ride on one -- 38 of them on 同上之動詞形 alone -- and regular()
+# tests his Chinese against the listed root's own gloss, so a pointer has no
+# content character to test with and refuses a form it should accept. The parent
+# entry's zh is what the pointer points AT, so it is fed IN ADDITION, never
+# instead: three of these carry real content beside the pointer (同上之動詞形－
+# 閒聊, 即將成為同上者（源頭、基礎……）) and the long S 前綴 grammar note matches
+# 上述 as a pure false positive, so a replacement would destroy content.
+POINT = re.compile(r"同上|同前|見上|如上|上列|上述|前條|同該|同此")
 NAMETAG = re.compile(r"name\s*\(|emprunt|\(J")
 VOW = "aeiou"
 
@@ -333,6 +342,9 @@ class Inflection(object):
                 szh = sb.get("zh") or zh
                 feed(sb.get("form"), szh)
                 feed(sb.get("paradigm"), szh)
+                if sb.get("zh") and POINT.search(sb["zh"]) and zh:
+                    feed(sb.get("form"), zh)
+                    feed(sb.get("paradigm"), zh)
                 for x in ([] if slots_only else sb.get("examples", [])):
                     feed(x.get("t"), x.get("zh") or szh)
         return his
