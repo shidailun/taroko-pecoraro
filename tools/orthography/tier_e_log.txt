@@ -56,7 +56,6 @@ msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
 mstxoulang       msthulang        stxoulang      sthulang       derived
 msxeulis         mshulis          sxeulis        shulis         derived
-mtango           mtangu           tango          tangu          derived
 mtblenax         mtbrinah         tblenax        tbrinah        derived
 mtgimax          mtgimax          tgimax         tgimax         derived
 mtgtmaq          mtgtmaq          tgtmaq         tgtmaq         derived
