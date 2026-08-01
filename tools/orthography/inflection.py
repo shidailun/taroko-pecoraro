@@ -74,11 +74,28 @@ VOW = "aeiou"
 # off `qras` 快樂 onto `rasa` on a shared 間. Price a candidate BOTH singly and
 # in combination: regular() takes the least affixation, so a newly-legal short
 # prefix can outbid a longer correct one.
+#
+# The last 16 are round two, priced against the base 128 left behind: the vein
+# is much thinner (32 values / 54 occurrences) because the derived series of a
+# prefix could not be a candidate until its own base was legal. `tm`, deferred
+# out of 128 rather than rejected, is here now and unblocks four of the long-
+# standing paux59 leads through tmriya 旋轉 and tmabuy 下坡. Eleven candidates
+# were rejected and the re-cut column, not the gain column, is what convicted
+# most of them: `png` moves pngsaan off his PESA 請願－請求 family onto `saan`
+# 去; `dn` moves tgmilan off `gamil` 根, which his own sub-form glosses 生根的
+# 事實、地點、時間; `psm`, `ptn` and `qm` likewise trade a real root for a
+# suffixed form. `gmb` buys one value by vouching the mushroom `nilaq` with
+# `mnilaq` 起屑 on the 起 of 令人想起海藻. `dq` is not a morpheme at all --
+# dqqrinut is d- collective on a qq- REDUPLICATION, the same error as tt/kk
+# above wearing a collective's clothes. `empg`, `kms`, `pnt` and `psg` gain
+# nothing and can therefore only do damage.
 PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
        "pp", "emp", "mnp", "snp", "np", "smn", "pm",
        "ma", "maa", "t", "tn", "tg", "k", "kn", "km", "kmn", "g", "gm", "gn",
        "d", "mk", "mt", "ms", "mg", "pk", "pt", "pg", "sm", "sk", "skn", "sg",
-       "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps"]
+       "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps",
+       "tm", "tmg", "tk", "kmp", "mkm", "mkn", "msn", "nk", "ns",
+       "pnk", "pns", "psk", "snk", "sns", "dm", "qn"]
 SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi"]
 # The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
 VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
