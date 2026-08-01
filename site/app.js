@@ -846,6 +846,50 @@
       Object.prototype.hasOwnProperty.call(CLITIC_FORMS, key);
   }
 
+  // Brown said one thing for a hundred batches: a curated table holds a key for
+  // this word. That is a claim about our tables, not about Truku — it counted
+  // `nxa`, whose "modern" spelling still had an x in it, as verified. So brown
+  // is split, and there are three states on screen, not two:
+  //
+  //   w-mod  brown       the modern dictionary or the spoken corpus HAS this word
+  //   w-unv  pale brown  a curated table proposed it and no modern source has it
+  //   w-raw  green       nothing vouched for it; the blind character rules ran
+  //
+  // The middle one is not the same as wrong. Most of it is regular morphology a
+  // 38,685-type dictionary simply does not list — `ssinaw` off `sinaw` 洗;清潔,
+  // `embliqan` off `emblaiq` 安心;幸福. But it is not evidence either, and the
+  // reader is owed the difference. MODERN_VERIFIED is built by
+  // tools/orthography/build_verified.py; if it fails to load, everything a table
+  // claims shows as unverified, which is the safe direction to fail in.
+  var MODERN_VERIFIED = window.MODERN_VERIFIED || {};
+
+  function attested(value) {
+    if (!value) return false;
+    var parts = String(value).split(" ");
+    for (var i = 0; i < parts.length; i++) {
+      if (!Object.prototype.hasOwnProperty.call(MODERN_VERIFIED, parts[i])) return false;
+    }
+    return true;
+  }
+
+  // The class a Truku word gets. Mirrors modernize()'s resolution order exactly,
+  // because a span that says "verified" has to be reporting on the value that
+  // same word will actually display.
+  function spellClass(word) {
+    var key = wordKey(word);
+    // A proclitic join already built the modern form, so the key IS the value.
+    if (Object.prototype.hasOwnProperty.call(CLITIC_FORMS, key)) {
+      return attested(key) ? "w-mod" : "w-unv";
+    }
+    if (Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key)) {
+      return attested(WORD_OVERRIDES[key]) ? "w-mod" : "w-unv";
+    }
+    if (Object.prototype.hasOwnProperty.call(MODERN_MAP, key)) {
+      return attested(MODERN_MAP[key]) ? "w-mod" : "w-unv";
+    }
+    return "w-raw";
+  }
+
   // Tier X: the modern entry is a different WORD, not a different spelling of
   // his word — Q'NAO "garlic" is simply gone and qusul carries the meaning now.
   // The toggle promises spelling, so a substitution has to declare itself:
@@ -927,7 +971,7 @@
           '" title="' + esc(abbrTitle(meta)) + '">' + esc(part) + "</span>";
         continue;
       }
-      var cls = respellable(part) ? "w-mod" : "w-raw";
+      var cls = spellClass(part);
       var linked = !noLink && lookupWord(part);
       if (linked) cls += " crossref-link";
       h += '<span class="' + cls + '"' + (linked ? ' data-ref="' + esc(part) + '"' : "") +
@@ -1328,7 +1372,7 @@
           return '<span class="crossref-link xref-his" data-ref="' + esc(t) +
             '" title="His spelling / son orthographe">' + esc(formText(t)) + "</span>";
         }
-        return '<span class="crossref-link ' + (respellable(t) ? "w-mod" : "w-raw") +
+        return '<span class="crossref-link ' + spellClass(t) +
           '" data-ref="' + esc(t) + '">' + esc(dispText(formText(t))) + "</span>";
       }).join(", ") + "</span>";
     }
@@ -1832,7 +1876,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Word-by-word conversion cross-checked against a modern Truku dictionary (~3,000 words verified by attestation and Chinese gloss); other words use approximate character rules (o→u, l→r, x→h). Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 逐詞轉換,約3,000詞已比對現代太魯閣語詞典(拼寫與華語詞義雙重驗證);其餘詞使用近似字母規則(o→u、l→r、x→h)。未經校對,貝科拉羅原文拼寫為準。無論設定為何,搜尋皆可使用兩種拼寫。</p>' +
+      '<p class="fine">Modern spelling is shown in three colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word (39,416 of the 44,475 words on screen, 3,868 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word: usually a regular derivation of an attested root, sometimes a personal name, sometimes a guess (5,033 words, 2,689 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (26 words). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以三種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞（39,416 詞次，3,868 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻未收錄此詞，多為已知詞根的規則派生形式或人名，亦可能為推測（5,033 詞次，2,689 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（26 詞次）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +

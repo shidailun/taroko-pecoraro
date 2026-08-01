@@ -4,6 +4,7 @@
   --ink: #26211a;
   --muted: #8a8072;
   --accent: #9c4530;
+  --accent-weak: #bd7f6a;
   --accent-soft: #f4e4dd;
   --rule: #e3dac9;
   --truku: #14544a;
@@ -25,6 +26,7 @@
     --ink: #eae2d3;
     --muted: #9c9184;
     --accent: #d98a70;
+    --accent-weak: #a4705f;
     --accent-soft: #3a2b24;
     --rule: #3b342a;
     --truku: #86c7b6;
@@ -341,10 +343,19 @@ main {
 /* Colour is the orthography on screen, not what is tappable. Pecoraro's spelling
    is green; modern spelling is brown, and that includes the § marker, the
    punctuation and an example's left rule, which belong to the mode rather than to
-   any one word. A word we have no verified modern spelling for stays green inside
-   a modern line — the green words are exactly what is left to respell. A link is
-   told apart by its underline, which darkens on hover. */
-.tag .w-mod, .tag .w-raw, .tag .crossref-link { color: var(--truku); }
+   any one word. A link is told apart by its underline, which darkens on hover.
+
+   There are THREE states, because "we have a modern spelling for it" and "the
+   modern spelling is a word anyone else writes" are different claims:
+
+     deep brown  a modern source has this exact word — dictionary or spoken corpus
+     pale brown  a curated table proposed it; no modern source has it
+     green       nothing vouched for it, so the blind character rules ran
+
+   Pale is not the same as wrong — most of it is regular morphology the modern
+   dictionary happens not to list — but it is a proposal, not evidence, and the
+   pale words plus the green ones are exactly what is left to verify. */
+.tag .w-mod, .tag .w-unv, .tag .w-raw, .tag .crossref-link { color: var(--truku); }
 body.spelling-modern .hw,
 body.spelling-modern .sub-form,
 body.spelling-modern .stub-hw,
@@ -356,14 +367,17 @@ body.spelling-modern .tag .crossref-link { color: var(--accent); }
 body.spelling-modern .example { border-left-color: var(--accent); }
 body.spelling-modern .w-raw,
 body.spelling-modern .tag .w-raw { color: var(--truku); }
+body.spelling-modern .w-unv,
+body.spelling-modern .tag .w-unv { color: var(--accent-weak); }
 
 /* A Truku form cited inside a definition. It is a word, so it follows the word
    colours rather than the gloss's — green in Pecoraro's spelling, brown once it
    has a verified modern one, and still green inside a modern gloss when it has
    not. */
-.gloss .w-mod, .gloss .w-raw, .gloss .crossref-link { color: var(--truku); }
+.gloss .w-mod, .gloss .w-unv, .gloss .w-raw, .gloss .crossref-link { color: var(--truku); }
 body.spelling-modern .gloss .w-mod,
 body.spelling-modern .gloss .crossref-link { color: var(--accent); }
+body.spelling-modern .gloss .w-unv { color: var(--accent-weak); }
 body.spelling-modern .gloss .w-raw { color: var(--truku); }
 
 /* A tier-X substitution: the brown word is not his, so his own word is shown
