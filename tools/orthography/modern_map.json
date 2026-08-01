@@ -4261,6 +4261,10 @@
    "modern": "qmburung",
    "tier": "A"
   },
+  "kmbslanan": {
+   "modern": "qmbsranan",
+   "tier": "M"
+  },
   "kmbui": {
    "modern": "kmbui",
    "tier": "M"
@@ -4539,6 +4543,10 @@
   },
   "knblyeqan": {
    "modern": "knbliqan",
+   "tier": "M"
+  },
+  "knbslanan": {
+   "modern": "qnbsranan",
    "tier": "M"
   },
   "knbsyaqan": {
@@ -16440,6 +16448,10 @@
    "modern": "smipaq",
    "tier": "id"
   },
+  "smiso": {
+   "modern": "smeisug",
+   "tier": "M"
+  },
   "smiyan": {
    "modern": "smiyan",
    "tier": "id"
@@ -17548,7 +17560,7 @@
    "tier": "id"
   },
   "stalil": {
-   "modern": "stalil",
+   "modern": "staril",
    "tier": "M"
   },
   "stama": {
@@ -18480,6 +18492,10 @@
   },
   "tisa": {
    "modern": "tgsa",
+   "tier": "M"
+  },
+  "tisaang": {
+   "modern": "tgsaang",
    "tier": "M"
   },
   "tisbut": {
@@ -25055,10 +25071,6 @@
    "modern": "smdahar",
    "tier": "P"
   },
-  "smiso": {
-   "modern": "smisu",
-   "tier": "P"
-  },
   "smkari": {
    "modern": "smkari",
    "tier": "P"
@@ -25537,10 +25549,6 @@
   },
   "tgqgoq": {
    "modern": "tgqguq",
-   "tier": "P"
-  },
-  "tisaang": {
-   "modern": "tisaang",
    "tier": "P"
   },
   "tisapat": {
@@ -26155,10 +26163,6 @@
    "modern": "kmbkiyan",
    "tier": "R"
   },
-  "kmbslanan": {
-   "modern": "kmbsranan",
-   "tier": "R"
-  },
   "kmbyanan": {
    "modern": "kmbyanan",
    "tier": "R"
@@ -26213,10 +26217,6 @@
   },
   "knbiyaxan": {
    "modern": "knbiyaxan",
-   "tier": "R"
-  },
-  "knbslanan": {
-   "modern": "knbsranan",
    "tier": "R"
   },
   "knbukao": {
