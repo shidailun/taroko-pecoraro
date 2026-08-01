@@ -126,9 +126,44 @@ PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
 # gap. A GLIDE GATE (y only after i, w only after u — a glide is the consonant
 # form of a high vowel) admits `yan` safely and kills `huwa`, which ends in a; it
 # has to touch all five SUF loops, so it is its own batch.
-SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi", "yun", "aan"]
+BASE_SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi", "aan"]
+
+# [batch 131, round two] The glide is not a suffix, so it is not listed as one.
+# Every vowel-initial suffix has a y-form and a w-form, because that is what its
+# opening vowel becomes after a root that already ends in one — so generate them
+# rather than enumerate them, and let the gate below decide where each may land.
+# Enumerating cost `yaneyi`/`waneyi`, which nobody would have thought to type.
+SUF = BASE_SUF + [g + s for s in BASE_SUF if s and s[0] in VOW for g in "yw"]
+
 # The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
+# Not regenerated: every glide form ends with the form it was built from, and
+# this tuple is only ever asked `.endswith()`.
 VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
+
+# [batch 131] THE GLIDE GATE, which is what let `yan` in above.
+#
+# A glide is the consonant form of a high vowel: y is what i becomes before
+# another vowel, w is what u becomes. So the glide a vowel-final root writes
+# before a vowel-initial suffix is not free — it is DETERMINED by that root's
+# own last vowel, and a root ending in a, e or o writes no glide at all. That
+# makes `-yun`/`-yan` legal on `pktngi`, `srngi`, `dngi`, `tqri`, `spi`, `bki`
+# and illegal on `huwa`, which is the entire reason `yan` was refused in 130:
+# ungated, its unique level-1 gain was `sghuwayan` 謝意－感激 analysed as
+# sg + `huwa` 疑問詞…如何？ + yan, a brown claim naming the wrong existing word
+# (his is `huway` 慷慨, cf. `mhuway`, `sghuway` 靠…慷慨). The gate kills that
+# one analysis BY RULE rather than by hand-list, which is the only reason to
+# prefer it to another entry in HAND_NOT_ROOTED.
+#
+# Read at call time, so pricing empties it. Applied at all five SUF loops
+# (roots, derived, vouched_root, sistered, syncopated) — a gate at four of
+# them is not a gate, since the levels do not share a splitter (lesson mmmmm).
+GLIDE = {"y": "i", "w": "u"}
+
+
+def glide_ok(root, sf):
+    """Whether `root` may take `sf`, when sf opens with a glide."""
+    need = GLIDE.get(sf[:1])
+    return not need or root[-1:] == need
 
 # Characters that carry no meaning on their own, so sharing one is not
 # agreement. Without this, 的 and 是 confirm anything against anything.
@@ -210,9 +245,21 @@ HAND_NOT_VOUCHED = set("tbuur tcingi".split())
 #           hypothesis `ungu` vouched by `sungu` 加木材加火. Verified either way —
 #           the display is binary — but that is the defect `-n` was convicted for
 #           one paragraph above, and the record should name the right word.
+#
+# [batch 131] One more, and the glide gate is what exposed it: enlarging SUF
+# with `yan` grew derived('tmai') past its gate and bought `tntmaan` — root
+# `tmai`, supporter `tmayan` 進入的地方, agreeing with his 曾經坐過的地方 on 地方,
+# which is the locative-slot word EVERY -an nominalization shares and therefore
+# no agreement at all. `tmayan` is `tmay` 進入、進來 + an, and that whole paradigm
+# is listed (`mtmay` 進入, `tmayi`, `tmayun`, `stmay`, `kmtmay` 想進去) — his own
+# TMAI entry is 進入－穿入, a DIFFERENT entry from the TTAMA 坐 this word belongs
+# to. Its real analysis is t + `-n-` + `ttmaan`, and `ttmaan` is attested; what
+# stops regular() reaching it is that `ttmaan` carries no gloss, which is the
+# listing gap, not a morphology gap. Pinned rather than repaired.
 HAND_NOT_ROOTED = set(
     "nnalu empnalu nilaq "
-    "tbuyun tbuyan ptbuyun ptbuyan tnbuyan ptungun".split())
+    "tbuyun tbuyan ptbuyun ptbuyan tnbuyan ptungun "
+    "tntmaan".split())
 
 # sistered()'s whole output read the same way — batch 115. The rule reads no
 # gloss at all, so the way it goes wrong is the homonym: his word is a
@@ -361,7 +408,7 @@ class Inflection(object):
                     if sf and not st.endswith(sf):
                         continue
                     r = st[:len(st) - len(sf)] if sf else st
-                    if len(r) < 3:
+                    if len(r) < 3 or not glide_ok(r, sf):
                         continue
                     cands = [r]
                     if sf in ("un", "an", "ani", "anay", "aneyi"):
@@ -410,12 +457,17 @@ class Inflection(object):
             for s in SUF:
                 if not p and not s:
                     continue
+                if not glide_ok(v, s):
+                    continue
                 for w, whole in (
                         (p + v + s, True),
                         # the -m-/-n- infix goes inside a consonant-initial root
                         ((v[0] + p + v[1:] + s, True)
                          if p in ("m", "n") and v[:1] not in VOW else (None, 0)),
-                        # -un/-an swallow the root's last vowel
+                        # -un/-an swallow the root's last vowel. A glide and a
+                        # swallowed vowel are alternatives, never both: the
+                        # truncated stem ends in a consonant, so glide_ok()
+                        # would refuse it anyway — it is refused above.
                         ((p + v[:-1] + s, False)
                          if s and v[-1:] in VOW else (None, 0))):
                     if w and w in self.lex:
@@ -539,6 +591,8 @@ class Inflection(object):
                     # occurrences, 0 de-verified, 3 re-cuts of which 2 are
                     # promotions. Six values are pinned out of it by hand above.
                     c0 = st[:len(st) - len(sf)] if sf else st
+                    if not glide_ok(c0, sf):
+                        continue
                     cands = [c0]
                     if sf in ("un", "an", "ani", "anay", "aneyi"):
                         cands += [c0 + x for x in VOW]     # the swallowed vowel
@@ -609,8 +663,11 @@ class Inflection(object):
                 if not sf or not b.endswith(sf) or len(b) - len(sf) < 3:
                     continue
                 st = b[:len(b) - len(sf)]
+                if not glide_ok(st, sf):
+                    continue
                 sis = sorted(p + st + s2 for s2 in SUF
-                             if s2 and s2 != sf and p + st + s2 in self.lex)
+                             if s2 and s2 != sf and glide_ok(st, s2)
+                             and p + st + s2 in self.lex)
                 if len(sis) < 2:
                     continue
                 cost = len(p) + len(sf)
@@ -673,6 +730,8 @@ class Inflection(object):
                 # Nothing was syncopated unless the first two letters are both
                 # consonants — that cluster is the whole signal.
                 if len(st) < 3 or st[0] in VOW or st[1] in VOW:
+                    continue
+                if not glide_ok(st, sf):
                     continue
                 for c in VOW:
                     r = st[0] + c + st[1:]
