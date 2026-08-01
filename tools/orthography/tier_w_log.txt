@@ -208,7 +208,7 @@ mpsbalae         empsbalay         mpsbalay         P/class      0     1
 mpsbalox         empsbarux         mpsbarux         P/twin       0     1
 mpsbiyoq         empsbiyuq         mpsbiyuq         E/class      0     1
 mpsd'xo          empsdhug          mpsdhug          P/class      0     2
-mpsdamat         empsdamat         mpsdamat         P/class      0     1
+mpsdamat         empcsdamat        mpcsdamat        P/class      0     1
 mpsdaxal         empsdahar         mpsdahar         P/twin       0     1
 mpsdungus        empsdungus        mpsdungus        P/class      0     3
 mpsibus          empsibus          mpsibus          P/class      0     1
@@ -262,7 +262,6 @@ mptlawax         emptrawah         mptrawah         M/class      0     2
 mptquli          emptquli          mptquli          G/class      0     1
 mptöting         emptucing         mptucing         P/twin       0     2
 mpuno            empunu            mpunu            P/twin       0     5
-mpusa            empusa            mpusa            P/class      0     1
 mpx'lpis         emphlpis          mphlpis          P/class      0     1
 mpxaal           emphaal           mphaal           P/class      0     3
 mpxedao          emphidaw          mphidaw          P/twin       0     1

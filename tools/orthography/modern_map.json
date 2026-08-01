@@ -4381,6 +4381,10 @@
    "modern": "kmpstrung",
    "tier": "M"
   },
+  "kmpusa": {
+   "modern": "kmpowsa",
+   "tier": "M"
+  },
   "kmqan": {
    "modern": "kmkan",
    "tier": "L"
@@ -8989,6 +8993,10 @@
   },
   "mptsadyaq": {
    "modern": "emptseejiq",
+   "tier": "M"
+  },
+  "mpusa": {
+   "modern": "empowsa",
    "tier": "M"
   },
   "mpusal": {
@@ -14011,8 +14019,8 @@
    "tier": "T"
   },
   "pusa": {
-   "modern": "pusa",
-   "tier": "T"
+   "modern": "powsa",
+   "tier": "M"
   },
   "pusal": {
    "modern": "empusal",
@@ -15425,8 +15433,8 @@
    "tier": "B"
   },
   "sdamat": {
-   "modern": "sdamat",
-   "tier": "id"
+   "modern": "csdamat",
+   "tier": "M"
   },
   "sdaxal": {
    "modern": "sdahar",
@@ -16713,6 +16721,10 @@
    "modern": "sndhgan",
    "tier": "B"
   },
+  "sndamat": {
+   "modern": "sndamat",
+   "tier": "M"
+  },
   "sndurai": {
    "modern": "snduray",
    "tier": "B"
@@ -16849,6 +16861,10 @@
   "snpi": {
    "modern": "snpi",
    "tier": "id"
+  },
+  "snpiyan": {
+   "modern": "snpian",
+   "tier": "M"
   },
   "snpngan": {
    "modern": "snpngan",
@@ -17090,8 +17106,8 @@
    "tier": "M"
   },
   "spiyan": {
-   "modern": "spiyan",
-   "tier": "id"
+   "modern": "spian",
+   "tier": "M"
   },
   "spkaya": {
    "modern": "spqaya",
@@ -21083,10 +21099,6 @@
    "modern": "qmpuring",
    "tier": "P"
   },
-  "kmpusa": {
-   "modern": "kmpusa",
-   "tier": "P"
-  },
   "kmpxoqel": {
    "modern": "kmphuqil",
    "tier": "P"
@@ -22462,9 +22474,9 @@
    "w_how": "twin"
   },
   "mpsdamat": {
-   "modern": "empsdamat",
+   "modern": "empcsdamat",
    "tier": "W",
-   "w_was": "mpsdamat",
+   "w_was": "mpcsdamat",
    "w_how": "class"
   },
   "mpsdaxal": {
@@ -22725,12 +22737,6 @@
    "w_was": "mpunu",
    "w_how": "twin"
   },
-  "mpusa": {
-   "modern": "empusa",
-   "tier": "W",
-   "w_was": "mpusa",
-   "w_how": "class"
-  },
   "mpx'lpis": {
    "modern": "emphlpis",
    "tier": "W",
@@ -22879,7 +22885,7 @@
    "tier": "P"
   },
   "msdamat": {
-   "modern": "msdamat",
+   "modern": "mcsdamat",
    "tier": "P"
   },
   "msdawin": {
@@ -24213,7 +24219,7 @@
    "tier": "P"
   },
   "psdamat": {
-   "modern": "psdamat",
+   "modern": "pcsdamat",
    "tier": "P"
   },
   "psdaxong": {
@@ -25068,10 +25074,6 @@
   },
   "sndadax": {
    "modern": "sndadax",
-   "tier": "P"
-  },
-  "sndamat": {
-   "modern": "sndamat",
    "tier": "P"
   },
   "sndaxa": {
@@ -27939,10 +27941,6 @@
   },
   "snpila": {
    "modern": "snpila",
-   "tier": "R"
-  },
-  "snpiyan": {
-   "modern": "snpiyan",
    "tier": "R"
   },
   "snpsalan": {
