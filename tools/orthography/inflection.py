@@ -56,8 +56,29 @@ HAN = re.compile(r"[一-鿿]+")
 NAMETAG = re.compile(r"name\s*\(|emprunt|\(J")
 VOW = "aeiou"
 
+# Every level from 1 to 7 reaches a root by stripping one of these, so a prefix
+# that is missing here makes its whole class unverifiable at ANY level, however
+# good the evidence. The list started as the m-/p-/s-/n- series and had none of
+# the k-, t-, d-, g- ones -- so kn- degree (knqrinutan 貧窮 <- qrinut 窮), tn-
+# possessor (tnkuyuh 女人的所有者), km- desiderative (kmbuway 想要給), d- human
+# collective (dmkdaya 住在高處的那些人), mk- locative (mkrbagan 夏季期間) and the
+# ma- prospective (mabubu 即將成為母親) were all unreachable. Adding 33 of them
+# is 257 values / 489 occurrences newly verified with ZERO de-verification; see
+# logs/ver128.py.
+#
+# Two things this list must NOT grow into. The CV- reduplications (tt kk gg ss
+# mm) are deliberately absent: they already reach level 7, whose gate is the
+# strict slot-gloss one, and putting them here would hand them regular()'s
+# single-shared-character gate instead. A reduplication is not a prefix. And
+# `sq` was measured and rejected -- it yields one value, and it steals sqrasan
+# off `qras` 快樂 onto `rasa` on a shared 間. Price a candidate BOTH singly and
+# in combination: regular() takes the least affixation, so a newly-legal short
+# prefix can outbid a longer correct one.
 PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
-       "pp", "emp", "mnp", "snp", "np", "smn", "pm"]
+       "pp", "emp", "mnp", "snp", "np", "smn", "pm",
+       "ma", "maa", "t", "tn", "tg", "k", "kn", "km", "kmn", "g", "gm", "gn",
+       "d", "mk", "mt", "ms", "mg", "pk", "pt", "pg", "sm", "sk", "skn", "sg",
+       "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps"]
 SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi"]
 # The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
 VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
