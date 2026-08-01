@@ -61,10 +61,21 @@
     // m'xapui (mapui - mapwi), so modern mode was printing Pecoraro at the user.
     // The sentence is "boil the fruits of this tree and they liquefy" (KSIA,
     // Mksia 液化), i.e. 煮 — mhapuy 124× 在煮.
-    // His emphatic particle O (headword, 517 occurrences) is the modern topic
-    // marker u — confirmed by the user 2026-07-28. The character rule already
-    // produced "u"; this records that the spelling is verified, not guessed.
-    "o": "u",
+    // His emphatic particle O (headword, 517 occurrences) IS the modern topic
+    // marker — that identification was confirmed by the user 2026-07-28 and is
+    // not in doubt. What was wrong until 2026-08-01 is the spelling: this entry
+    // said "u", because charRules() already produced "u" and the identification
+    // was read as endorsing it. **Modern Truku writes the marker "o".** In the
+    // 26,663-sentence ILRDF corpus, standalone `o` is 6,361 tokens — the 4th
+    // most frequent word in the language, after ka/na/mu — and appears in 6,336
+    // sentences; standalone `u` is 2 tokens, both apparent typos ("Gmnbuwan u
+    // blbul…"). `ka <noun> o` alone is 915 sentences. His own frame is the
+    // modern frame verbatim: "Yako o, mk'la" 至於我，我知道 against modern
+    // "Yaku o snaw balay" 我是男子漢 (47 sentences begin `yaku o`). So the
+    // identity is the CLAIM here — it declines the o→u char rule, which is the
+    // only thing that made this the single largest wrong brown value in the map.
+    // Do NOT delete this key: with no entry, charRules() applies o→u again.
+    "o": "o",
     // His one-letter affix cards, 2026-07-31. K, P, N, M, S, T, D and G head
     // prefix entries ("préfixe très productif…"), A heads a particle entry
     // (A sao bi iso 這都多虧了你) and I the note that it survives only in I TYEX.

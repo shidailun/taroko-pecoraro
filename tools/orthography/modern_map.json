@@ -397,9 +397,9 @@
    "j_how": "base:lapa"
   },
   "plato": {
-   "modern": "platu",
+   "modern": "pratu",
    "tier": "J",
-   "j_how": "rule"
+   "j_how": "hand"
   },
   "ponki": {
    "modern": "punki",
@@ -8527,7 +8527,7 @@
    "tier": "B"
   },
   "molo": {
-   "modern": "muru",
+   "modern": "murug",
    "tier": "M"
   },
   "molong": {
@@ -8825,6 +8825,12 @@
   "mpnyeqon": {
    "modern": "empniqun",
    "tier": "M"
+  },
+  "mpolo": {
+   "modern": "empurug",
+   "tier": "W",
+   "w_was": "mpurug",
+   "w_how": "twin"
   },
   "mpotong": {
    "modern": "emputung",
@@ -11871,9 +11877,8 @@
    "tier": "B"
   },
   "pl'gun": {
-   "modern": "plgun",
-   "tier": "id",
-   "elision_dropped": "pl'gun"
+   "modern": "prgun",
+   "tier": "M"
   },
   "pl'ngao": {
    "modern": "prngaw",
@@ -11944,8 +11949,8 @@
    "tier": "B"
   },
   "plgun": {
-   "modern": "plgun",
-   "tier": "id"
+   "modern": "prgun",
+   "tier": "M"
   },
   "pliax": {
    "modern": "priyax",
@@ -12501,8 +12506,8 @@
    "tier": "M"
   },
   "polo": {
-   "modern": "puru",
-   "tier": "A"
+   "modern": "purug",
+   "tier": "M"
   },
   "pong": {
    "modern": "pung",
@@ -12595,6 +12600,10 @@
   "pplngao": {
    "modern": "pprngaw",
    "tier": "B"
+  },
+  "ppolo": {
+   "modern": "ppurug",
+   "tier": "M"
   },
   "ppotox": {
    "modern": "ptputuh",
@@ -22054,12 +22063,6 @@
    "w_was": "mpniq",
    "w_how": "class"
   },
-  "mpolo": {
-   "modern": "empuru",
-   "tier": "W",
-   "w_was": "mpuru",
-   "w_how": "twin"
-  },
   "mpongo": {
    "modern": "empungu",
    "tier": "W",
@@ -23828,10 +23831,6 @@
   },
   "ppngoon": {
    "modern": "ppnguun",
-   "tier": "P"
-  },
-  "ppolo": {
-   "modern": "ppuru",
    "tier": "P"
   },
   "ppongo": {

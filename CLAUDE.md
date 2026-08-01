@@ -38,8 +38,12 @@ same `modernize()` path the display uses. Consequences:
 - `mtext` covers Truku fields only. Never run the glosses through `modernize()` —
   its character-rule fallback turns French "Palissade" into "Parissade".
 - Letters bucket and sort by the spelling on screen, so the A–Z row itself differs
-  by mode: modern gains H and J (DIMA→JIMA, d→j before i), loses O (o→u), and keeps
-  a 4-form X row (map `id` tier). It is recomputed on toggle, not cached.
+  by mode: modern gains H and J (DIMA→JIMA, d→j before i) and keeps a 4-form X row
+  (map `id` tier). It is recomputed on toggle, not cached. **Modern used to lose O
+  as well, and that was a defect** (fixed 2026-08-01): o→u is a rule about his
+  vowel, not about the topic marker, which modern Truku writes `o` — so the modern
+  O row now exists and holds exactly one card, his own O particle entry. See
+  `WORD_OVERRIDES` in app.js.
 - Toggling while browsing follows the words, not the letter (X → H), via
   `rerender()`; calling `render()` there would turn the listing into a search.
 - A–Z is the 🔤 sheet button, shown on the cover and in results alike. The strip

@@ -76,6 +76,7 @@ mpxdil           emphjil           mphjil           P/twin       2     1
 mbulang          embulang          mbulang          P/twin       1     2
 mpkdngo          empkdngu          mpkdngu          P/twin       1     1
 mplana           emprana           mprana           P/twin       1     1
+mpolo            empurug           mpurug           M/twin       1     6
 mppatas          emppatas          mppatas          P/twin       1     1
 mpq'löt          empkrut           mpkrut           P/twin       1     1
 mpqdolyaq        empqduriq         mpqduriq         P/twin       1     1
@@ -185,7 +186,6 @@ mpnmuon          empnmuun          mpnmuun          R/class      0     1
 mpnpong          empnpung          mpnpung          E/class      0     2
 mpnxmadan        empnhmadan        mpnhmadan        E/class      0     1
 mpnyeq           empniq            mpniq            P/class      0     1
-mpolo            empuru            mpuru            P/twin       0     6
 mpongo           empungu           mpungu           P/twin       0     3
 mponox           empeunuh          mpeunuh          P/class      0     1
 mpotong          emputung          mputung          T/twin       0     2
