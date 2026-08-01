@@ -3605,8 +3605,8 @@
    "tier": "B"
   },
   "kagox": {
-   "modern": "kaguh",
-   "tier": "B"
+   "modern": "keaguh",
+   "tier": "M"
   },
   "kaisia": {
    "modern": "kaisia",
@@ -3857,8 +3857,16 @@
    "tier": "B"
   },
   "kgoxan": {
-   "modern": "kguhan",
-   "tier": "B"
+   "modern": "keaguhan",
+   "tier": "M"
+  },
+  "kgoxe": {
+   "modern": "keaguhi",
+   "tier": "M"
+  },
+  "kgoxon": {
+   "modern": "keaguhun",
+   "tier": "M"
   },
   "ki": {
    "modern": "ki",
@@ -4194,8 +4202,8 @@
    "tier": "L"
   },
   "kmagox": {
-   "modern": "kmaguh",
-   "tier": "B"
+   "modern": "kmeaguh",
+   "tier": "M"
   },
   "kmalao": {
    "modern": "kmaraw",
@@ -4607,7 +4615,7 @@
    "tier": "id"
   },
   "kngoxan": {
-   "modern": "kneguhan",
+   "modern": "kneaguhan",
    "tier": "M"
   },
   "knilao": {
@@ -20886,14 +20894,6 @@
   },
   "kdka": {
    "modern": "kdka",
-   "tier": "P"
-  },
-  "kgoxe": {
-   "modern": "kguhi",
-   "tier": "P"
-  },
-  "kgoxon": {
-   "modern": "kguhun",
    "tier": "P"
   },
   "ki'ima": {

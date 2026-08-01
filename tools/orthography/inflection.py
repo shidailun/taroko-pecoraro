@@ -75,8 +75,12 @@ VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
 # 已 joined them in batch 114: it is the perfective marker and nothing else, so
 # 已知道的 "already known" confirmed his （已完成的）攀登 "(completed) climbing"
 # against `gnkla` 知道 to know, two words with no sense in common at all.
+#
+# 沒 joined them in batch 116, beside the 不 that was here from the start: it is
+# a negation and carries no more sense than one. `tatuk` 什麼都沒有 was verifying
+# his `ttoqe` 敲打 on the 沒 of 我沒碰撞瓶子.
 STOP = set("的了是我你他她們個很不一有在要中上下大小人這那和與或也就都再又只之"
-           "為所以及者其於由對從把被讓使做作用能會可時樣事物子已")
+           "為所以及者其於由對從把被讓使做作用能會可時樣事物子已沒")
 
 # Both wordlists talk ABOUT words, and that metalanguage is not meaning: his
 #「這會是 MIYAQ 的詞根嗎？」and the modern「為「empmiyak 要忙家務事」的詞根」share
@@ -85,7 +89,17 @@ STOP = set("的了是我你他她們個很不一有在要中上下大小人這�
 # from the result — dropping the bigram alone leaves a bare 根 behind, and
 # putting 根 in STOP would take it away from 根源 and 樹根, where it is the
 # whole meaning (it was holding up `snpusu` 根基 by itself).
-BOILER = re.compile("的詞根|詞根|動詞形|動詞|名詞|同上|之詞|形式|參見|前項|衍生|詞形")
+#
+# Two more in batch 116, both the same kind of frame. 人名 labels a word instead
+# of glossing it — `tuqul` is 人名（男）and nothing else, and it was verifying
+# `emptquli` on the 名. Excising rather than stopping is again what makes it
+# safe: `suyang` is 人名（男）; 美麗, and the excision leaves the 美麗 standing.
+# 用來 says how a word is deployed, not what it means — `ruyu` 水蟲用來當魚餌的,
+# a water insect USED AS fish bait, was verifying his `psryui` 使突出 on the 來.
+# 369 modern glosses carry the run and excising it costs no existing claim; his
+# own 用來品嚐的東西 still says 品嚐, which is the gloss it must not break.
+BOILER = re.compile("的詞根|詞根|動詞形|動詞|名詞|同上|之詞|形式|參見|前項|衍生|詞形"
+                    "|用來|人名")
 
 # Ruled out of scope by hand over batches 100–109. The tier logs cover names
 # the digitization tagged, but a name reached only through an example sentence
@@ -488,4 +502,72 @@ class Inflection(object):
                 cost = len(p) + len(sf)
                 if best is None or cost < best[0]:
                     best = (cost, (p, st, sf, sis))
+        return best[1] if best else None
+
+    # ---- the root's own vowel, syncopated ----------------------------------
+    def syncopated(self, v):
+        """(root, prefix, suffix, shared char) or None.
+
+        regular() peels affixes off a value and asks whether what is left is
+        listed. It can delete a vowel at the END — the one -un/-an swallow —
+        and nowhere else, so a root that loses its FIRST vowel under
+        affixation is invisible to it. His TONGOX 品嚐 is the case: the root
+        `tunguh` is listed, his own paradigm line reads °Tmongox, tongox,
+        tngoxe, tngoxan, tngoxon, and modern writes those slots on the
+        syncopated stem — `ptnguhi` 給…品嚐 is in the wordlist, which is
+        p + tnguh + i. So `tnguhi`, `tnguhan` and `tnguhun` are ordinary slots
+        of a listed root and no rule above can see them.
+
+        That syncope is already documented in CLAUDE.md running the other way:
+        GAMIL 根 is the root, and "where it took root" is `Tgmilan`, never
+        *Tgamilan. Truku writes no schwa, so the root's first vowel goes the
+        moment anything is prefixed. This is the same process read backwards —
+        re-insert a vowel after the first consonant and take the reading only
+        if THAT is the listed word.
+
+        Inserting a letter he did not write is a weaker inference than peeling
+        off one he did, so the gloss burden is heavier than regular()'s, and it
+        is the burden vouched_root() already carries for the same reason: his
+        Chinese must be a gloss he attached to the word AS a word. A clause
+        gloss shares a character with almost anything, and here it is what put
+        his `nta` on `nita` 我們的, his 塵土 `empnmu` on `namu` 你們的, and his
+        使變肥 `psyangi` on `sayang` 今天；現在 — three pronouns and a calendar
+        word reached through example sentences. The gate refuses all of them.
+
+        It costs six correct claims that have no slot gloss to offer — `hlingan`
+        off `huling` 狗, `mritan` off `mirit` 山羊, `pttuyun` off `tutuy` 起來,
+        `shngi` off `hungi` 健忘, `mswiwil`, `psyangun` — and they stay pale.
+        That is the right way round: most of a paradigm is glossless, so a rule
+        this speculative should fail closed.
+        """
+        if v in self.frozen or v in self.lex:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for p in PRE:
+            if not v.startswith(p):
+                continue
+            b0 = v[len(p):]
+            if len(b0) < 3:
+                continue
+            for sf in SUF:
+                if sf and not b0.endswith(sf):
+                    continue
+                st = b0[:len(b0) - len(sf)] if sf else b0
+                # Nothing was syncopated unless the first two letters are both
+                # consonants — that cluster is the whole signal.
+                if len(st) < 3 or st[0] in VOW or st[1] in VOW:
+                    continue
+                for c in VOW:
+                    r = st[0] + c + st[1:]
+                    if r not in self.lex or r == v or r in self.frozen:
+                        continue
+                    sh = self._agrees(his, r)
+                    if not sh:
+                        continue
+                    cost = len(p) + len(sf)
+                    if best is None or cost < best[0]:
+                        best = (cost, (r, p, sf, sh))
         return best[1] if best else None
