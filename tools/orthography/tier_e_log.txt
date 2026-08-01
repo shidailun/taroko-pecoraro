@@ -98,7 +98,6 @@ pnslutut         pnslutut         pslutut        pslutut        derived
 pnsqlasan        pnsqrasan        psqlasan       psqrasan       derived
 pnt'to           pnteetu          ptto           pteetu         attested
 pntblayan        pntblayan        ptblayan       ptblayan       derived
-pntqoan          pntquwan         ptqoan         ptquwan        derived
 ppyaon           ppyaun           pya            pya            derived
 psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
 psklolun         psqrulun         psklol         psqrul         derived

@@ -8889,6 +8889,10 @@
    "w_was": "mppuyas",
    "w_how": "class"
   },
+  "mpqnoqo": {
+   "modern": "empqneuqu",
+   "tier": "M"
+  },
   "mpsaxo": {
    "modern": "empsahug",
    "tier": "W",
@@ -12518,6 +12522,10 @@
    "modern": "pntriyan",
    "tier": "M"
   },
+  "pntqoan": {
+   "modern": "pnteuqan",
+   "tier": "M"
+  },
   "pnttingan": {
    "modern": "pntcingan",
    "tier": "B"
@@ -13606,6 +13614,10 @@
    "modern": "pteayus",
    "tier": "M"
   },
+  "pt'qoe": {
+   "modern": "pteuqi",
+   "tier": "M"
+  },
   "pt'to": {
    "modern": "pteetu",
    "tier": "M"
@@ -13820,6 +13832,10 @@
    "modern": "ptngi",
    "tier": "L"
   },
+  "ptooqo": {
+   "modern": "pteuqu",
+   "tier": "M"
+  },
   "ptpusu": {
    "modern": "ptpusu",
    "tier": "id"
@@ -13833,7 +13849,7 @@
    "tier": "M"
   },
   "ptqoan": {
-   "modern": "ptquwan",
+   "modern": "pteuqan",
    "tier": "M"
   },
   "ptqodap": {
@@ -13841,11 +13857,11 @@
    "tier": "M"
   },
   "ptqoe": {
-   "modern": "ptquwi",
+   "modern": "pteuqi",
    "tier": "M"
   },
   "ptqoon": {
-   "modern": "ptquwun",
+   "modern": "pteuqun",
    "tier": "M"
   },
   "pttama": {
@@ -17115,6 +17131,10 @@
    "modern": "sptaqi",
    "tier": "T"
   },
+  "sptooqo": {
+   "modern": "spteuqu",
+   "tier": "M"
+  },
   "spu": {
    "modern": "spug",
    "tier": "M"
@@ -19028,6 +19048,10 @@
    "modern": "tnqian",
    "tier": "B"
   },
+  "tnqoan": {
+   "modern": "tneuqan",
+   "tier": "M"
+  },
   "tnqoli": {
    "modern": "tnquri",
    "tier": "M"
@@ -19089,8 +19113,8 @@
    "tier": "A"
   },
   "tooqo": {
-   "modern": "tuuqu",
-   "tier": "B"
+   "modern": "teuqu",
+   "tier": "M"
   },
   "toting": {
    "modern": "tucing",
@@ -19165,7 +19189,7 @@
    "tier": "M"
   },
   "tqoan": {
-   "modern": "tquwan",
+   "modern": "teuqan",
    "tier": "M"
   },
   "tqole": {
@@ -24368,10 +24392,6 @@
    "modern": "pshngak",
    "tier": "P"
   },
-  "pt'qoe": {
-   "modern": "ptquwi",
-   "tier": "P"
-  },
   "pt'toan": {
    "modern": "pteetuan",
    "tier": "P"
@@ -24544,10 +24564,6 @@
   },
   "ptongun": {
    "modern": "ptungun",
-   "tier": "P"
-  },
-  "ptooqo": {
-   "modern": "ptuuqu",
    "tier": "P"
   },
   "ptoxan": {
@@ -25186,10 +25202,6 @@
   },
   "sptipyaq": {
    "modern": "spcipiq",
-   "tier": "P"
-  },
-  "sptooqo": {
-   "modern": "sptuuqu",
    "tier": "P"
   },
   "sptpusu": {
@@ -26699,12 +26711,6 @@
    "w_was": "mpqapah",
    "w_how": "class"
   },
-  "mpqnoqo": {
-   "modern": "empqnuqu",
-   "tier": "W",
-   "w_was": "mpqnuqu",
-   "w_how": "class"
-  },
   "mpqoyoç": {
    "modern": "empquyux",
    "tier": "W",
@@ -28194,10 +28200,6 @@
   },
   "tnninun": {
    "modern": "tnninun",
-   "tier": "R"
-  },
-  "tnqoan": {
-   "modern": "tnquan",
    "tier": "R"
   },
   "tnsaan": {
@@ -30518,12 +30520,6 @@
    "tier": "E",
    "e_stem": "ptblayan",
    "e_modern": "ptblayan"
-  },
-  "pntqoan": {
-   "modern": "pntquwan",
-   "tier": "E",
-   "e_stem": "ptqoan",
-   "e_modern": "ptquwan"
   },
   "ppyaon": {
    "modern": "ppyaun",

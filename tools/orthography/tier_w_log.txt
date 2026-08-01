@@ -198,7 +198,6 @@ mppuyes          emppuyas          mppuyas          M/class      0     1
 mpqapax          empqapah          mpqapah          R/class      0     1
 mpqaya           empqaya           mpqaya           P/class      0     1
 mpqbiling        empqbling         mpqbling         P/class      0     3
-mpqnoqo          empqnuqu          mpqnuqu          R/class      0     2
 mps'lo           empsru            mpsru            P/twin       0     5
 mpsado           empsadu           mpsadu           P/class      0     1
 mpsais           empsais           mpsais           P/class      0     1
