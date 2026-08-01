@@ -164,7 +164,6 @@ mpl'dax          emprdax           mprdax           P/twin       0     2
 mpl'xang         emplhang          mplhang          P/class      0     3
 mpl'xlax         emplhlah          mplhlah          P/class      0     2
 mpl'çan          emplxan           mplxan           E/class      0     2
-mplabang         emprabang         mprabang         P/class      0     1
 mplaqat          empraqat          mpraqat          P/class      0     2
 mplawax          emprawah          mprawah          T/class      0     1
 mpldax           emprdax           mprdax           R/twin       0     1

@@ -51,7 +51,6 @@ mpsqlinut        mpsqrinut        psqlinut       psqrinut       derived
 mptgmaxon        mptgmaxun        gmaxon         gmaxun         derived
 mptisa           mptgsa           ptisa          ptgsa          derived
 mpxolyaq         mphuriq          pxolyaq        phuriq         derived
-mqqalang         mqqalang         qalang         qalang         derived
 mslaput          mslaput          slaput         slaput         derived
 msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
@@ -59,7 +58,6 @@ mstxoulang       msthulang        stxoulang      sthulang       derived
 msxeulis         mshulis          sxeulis        shulis         derived
 mtango           mtangu           tango          tangu          derived
 mtblenax         mtbrinah         tblenax        tbrinah        derived
-mtboyaq          mtbuyak          tboyaq         tbuyak         derived
 mtgimax          mtgimax          tgimax         tgimax         derived
 mtgtmaq          mtgtmaq          tgtmaq         tgtmaq         derived
 mtkk'lang        mtkkrang         tkklang        tkkrang        derived
