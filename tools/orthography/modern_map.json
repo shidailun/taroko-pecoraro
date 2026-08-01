@@ -4963,6 +4963,10 @@
    "modern": "knshiya",
    "tier": "B"
   },
+  "knsxeaan": {
+   "modern": "knshyaan",
+   "tier": "M"
+  },
   "knsyukan": {
    "modern": "knsyukan",
    "tier": "id"
@@ -11529,6 +11533,10 @@
   "pgdgit": {
    "modern": "pgdgit",
    "tier": "id"
+  },
+  "pgiai": {
+   "modern": "pgyai",
+   "tier": "M"
   },
   "pgimax": {
    "modern": "pgimax",
@@ -21297,10 +21305,6 @@
    "modern": "knsqaan",
    "tier": "P"
   },
-  "knsxeaan": {
-   "modern": "knshiyaan",
-   "tier": "P"
-  },
   "knsyangan": {
    "modern": "knsyangan",
    "tier": "P"
@@ -27152,10 +27156,6 @@
   },
   "pg'go": {
    "modern": "pggu",
-   "tier": "R"
-  },
-  "pgiai": {
-   "modern": "pgiyai",
    "tier": "R"
   },
   "pgskaon": {
