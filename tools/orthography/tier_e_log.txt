@@ -38,7 +38,6 @@ mpgalang         mpgarang         pgalang        pgarang        derived
 mpgleq           mpgriq           mpgleq         mpgriq         derived
 mpkslaan         mpkslaan         kslaan         kslaan         derived
 mpl'çan          mplxan           lxan           lxan           derived
-mpnpong          mpnpung          pnpong         pnpung         derived
 mpnxmadan        mpnhmadan        pnxmadan       pnhmadan       derived
 mppkluli         mppqluli         pkluli         pqluli         derived
 mppsd'xo         mppsdhug         psdxo          psdhug         derived
@@ -83,7 +82,6 @@ pngkari          pngkari          pgkari         pgkari         derived
 pngnnakan        pngnnakan        pgnnakan       pgnnakan       derived
 pnk'udus         pnkeudus         pkudus         pkeudus        derived
 pnkbaxang        pnqbahang        pkbaxang       pqbahang       derived
-pnkpnpong        pnkpnpung        pkpnpong       pkpnpung       derived
 pnsblayan        pnsblayan        psblayan       psblayan       derived
 pnsblenax        pnsbrinah        psblenax       psbrinah       derived
 pnsdlaan         pnsdraan         psdlaan        psdraan        derived

@@ -181,7 +181,6 @@ mplukus          emplukus          mplukus          P/twin       0     1
 mpnanak          empneanak         mpneanak         P/class      0     1
 mpngpong         empngpung         mpngpung         M/class      0     1
 mpnmuon          empnmuun          mpnmuun          R/class      0     1
-mpnpong          empnpung          mpnpung          E/class      0     2
 mpnxmadan        empnhmadan        mpnhmadan        E/class      0     1
 mpnyeq           empniq            mpniq            P/class      0     1
 mpongo           empungu           mpungu           P/twin       0     3

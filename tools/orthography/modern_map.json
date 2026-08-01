@@ -3592,6 +3592,18 @@
    "modern": "khnu",
    "tier": "B"
   },
+  "k'yagan": {
+   "modern": "kayagan",
+   "tier": "M"
+  },
+  "k'yagi": {
+   "modern": "kayagi",
+   "tier": "M"
+  },
+  "k'yagun": {
+   "modern": "kayagun",
+   "tier": "M"
+  },
   "ka": {
    "modern": "ka",
    "tier": "id"
@@ -3669,7 +3681,7 @@
    "tier": "M"
   },
   "kayao": {
-   "modern": "kayaw",
+   "modern": "keiyaw",
    "tier": "M"
   },
   "kayo": {
@@ -8865,6 +8877,10 @@
    "w_was": "mpngpung",
    "w_how": "class"
   },
+  "mpnpong": {
+   "modern": "empngpung",
+   "tier": "M"
+  },
   "mpnyeqon": {
    "modern": "empniqun",
    "tier": "M"
@@ -11635,6 +11651,10 @@
    "modern": "pkalu",
    "tier": "M"
   },
+  "pkayao": {
+   "modern": "pkeiyaw",
+   "tier": "M"
+  },
   "pkbalao": {
    "modern": "pkbaraw",
    "tier": "B"
@@ -11852,7 +11872,7 @@
    "tier": "M"
   },
   "pkpnpong": {
-   "modern": "pkpnpung",
+   "modern": "pkpngpung",
    "tier": "M"
   },
   "pksa": {
@@ -12344,6 +12364,10 @@
    "modern": "pnkeudus",
    "tier": "M"
   },
+  "pnkpnpong": {
+   "modern": "pnkpngpung",
+   "tier": "M"
+  },
   "pnlak": {
    "modern": "pnlaq",
    "tier": "M"
@@ -12407,6 +12431,10 @@
   "pnpaan": {
    "modern": "pnpaan",
    "tier": "id"
+  },
+  "pnpong": {
+   "modern": "pngpung",
+   "tier": "M"
   },
   "pnppaan": {
    "modern": "pnpaan",
@@ -19039,7 +19067,7 @@
    "tier": "M"
   },
   "tnppngan": {
-   "modern": "tnppngan",
+   "modern": "tnpngan",
    "tier": "M"
   },
   "tnpusu": {
@@ -19060,6 +19088,10 @@
   },
   "tnqoli": {
    "modern": "tnquri",
+   "tier": "M"
+  },
+  "tnsaan": {
+   "modern": "tnegsaan",
    "tier": "M"
   },
   "tnsapax": {
@@ -19186,10 +19218,6 @@
    "modern": "tqring",
    "tier": "B"
   },
-  "tqliyan": {
-   "modern": "tqliyan",
-   "tier": "M"
-  },
   "tqlyaan": {
    "modern": "tqrian",
    "tier": "M"
@@ -19234,8 +19262,16 @@
    "modern": "seiyax",
    "tier": "M"
   },
+  "tsaan": {
+   "modern": "tgsaan",
+   "tier": "M"
+  },
+  "tsai": {
+   "modern": "tgsai",
+   "tier": "M"
+  },
   "tsaon": {
-   "modern": "tsaun",
+   "modern": "tgsaun",
    "tier": "M"
   },
   "tsasao": {
@@ -23354,10 +23390,6 @@
    "modern": "pkungat",
    "tier": "P"
   },
-  "pkayao": {
-   "modern": "pkayaw",
-   "tier": "P"
-  },
   "pkbnaxan": {
    "modern": "pkbnahan",
    "tier": "P"
@@ -25627,10 +25659,6 @@
    "tier": "P",
    "elision_dropped": "tnq'mi"
   },
-  "tnqliyan": {
-   "modern": "tnqliyan",
-   "tier": "P"
-  },
   "tnqtaan": {
    "modern": "tnqtaan",
    "tier": "P"
@@ -26011,21 +26039,6 @@
   "iyong": {
    "modern": "iyung",
    "tier": "R"
-  },
-  "k'yagan": {
-   "modern": "kyagan",
-   "tier": "R",
-   "elision_dropped": "k'yagan"
-  },
-  "k'yagi": {
-   "modern": "kyagi",
-   "tier": "R",
-   "elision_dropped": "k'yagi"
-  },
-  "k'yagun": {
-   "modern": "kyagun",
-   "tier": "R",
-   "elision_dropped": "k'yagun"
   },
   "kaxoi": {
    "modern": "kahui",
@@ -27287,10 +27300,6 @@
    "modern": "pnpnguan",
    "tier": "R"
   },
-  "pnpong": {
-   "modern": "pnpung",
-   "tier": "R"
-  },
   "pnqbxangan": {
    "modern": "pnqbhangan",
    "tier": "R"
@@ -28208,24 +28217,12 @@
    "modern": "tnninun",
    "tier": "R"
   },
-  "tnsaan": {
-   "modern": "tnsaan",
-   "tier": "R"
-  },
   "toro": {
    "modern": "turu",
    "tier": "R"
   },
   "tosi": {
    "modern": "tusi",
-   "tier": "R"
-  },
-  "tsaan": {
-   "modern": "tsaan",
-   "tier": "R"
-  },
-  "tsai": {
-   "modern": "tsay",
    "tier": "R"
   },
   "tssagi": {
@@ -30163,12 +30160,6 @@
    "w_was": "mplxan",
    "w_how": "class"
   },
-  "mpnpong": {
-   "modern": "empnpung",
-   "tier": "W",
-   "w_was": "mpnpung",
-   "w_how": "class"
-  },
   "mpnxmadan": {
    "modern": "empnhmadan",
    "tier": "W",
@@ -30432,12 +30423,6 @@
    "tier": "E",
    "e_stem": "pkbaxang",
    "e_modern": "pqbahang"
-  },
-  "pnkpnpong": {
-   "modern": "pnkpnpung",
-   "tier": "E",
-   "e_stem": "pkpnpong",
-   "e_modern": "pkpnpung"
   },
   "pnsblayan": {
    "modern": "pnsblayan",
@@ -31262,6 +31247,13 @@
    []
   ],
   [
+   "tqliyan",
+   4,
+   [
+    "環繞的地點時間與方式"
+   ]
+  ],
+  [
    "et",
    3,
    []
@@ -31299,6 +31291,13 @@
    "sloweq",
    2,
    []
+  ],
+  [
+   "tnqliyan",
+   2,
+   [
+    "過去的包圍柵欄"
+   ]
   ],
   [
    "var",
