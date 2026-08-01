@@ -52,6 +52,7 @@ mpg'leq          empgriq           mpgriq           P/twin       3     1
 mpg'long         empgrung          mpgrung          P/twin       3     3
 mpgleq           empgriq           mpgriq           E/twin       3     1
 mpglong          empgrung          mpgrung          V/twin       3     1
+mpsaxo           empsahug          mpsahug          M/twin       3     1
 mpuyes           empuyas           mpuyas           M/twin       3     1
 mbawa            embawa            mbawa            P/twin       2     2
 mbaxeng          embahing          mbahing          P/twin       2     4
@@ -207,7 +208,6 @@ mpsamao          empsamaw          mpsamaw          P/class      0     1
 mpsangai         empsangay         mpsangay         P/twin       0     2
 mpsaqol          empsakur          mpsakur          P/twin       0     1
 mpsasao          empsasaw          mpsasaw          P/class      0     1
-mpsaxo           empsahu           mpsahu           P/class      0     1
 mpsb'lös         empsblus          mpsblus          P/class      0     1
 mpsb'ngux        empsbngux         mpsbngux         P/class      0     2
 mpsbalae         empsbalay         mpsbalay         P/class      0     1

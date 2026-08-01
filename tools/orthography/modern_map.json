@@ -3946,8 +3946,8 @@
    "tier": "B"
   },
   "kl'ngun": {
-   "modern": "krngun",
-   "tier": "T"
+   "modern": "qrngul",
+   "tier": "M"
   },
   "kl'tan": {
    "modern": "krtan",
@@ -5547,6 +5547,10 @@
   },
   "l'ngut": {
    "modern": "rngut",
+   "tier": "M"
+  },
+  "l'nnao": {
+   "modern": "rrnaw",
    "tier": "M"
   },
   "l'pan": {
@@ -7754,8 +7758,8 @@
    "tier": "M"
   },
   "mkl'ngun": {
-   "modern": "mkrngun",
-   "tier": "T"
+   "modern": "mqrngul",
+   "tier": "M"
   },
   "mkl'xeq": {
    "modern": "mqrhiq",
@@ -8837,6 +8841,12 @@
    "tier": "W",
    "w_was": "mppuyas",
    "w_how": "class"
+  },
+  "mpsaxo": {
+   "modern": "empsahug",
+   "tier": "W",
+   "w_was": "mpsahug",
+   "w_how": "twin"
   },
   "mpsgao": {
    "modern": "empsgaaw",
@@ -11641,8 +11651,8 @@
    "tier": "id"
   },
   "pkl'ngun": {
-   "modern": "pkrngun",
-   "tier": "T"
+   "modern": "pqrngul",
+   "tier": "M"
   },
   "pkl'ulus": {
    "modern": "pkreurus",
@@ -12799,7 +12809,7 @@
    "tier": "L"
   },
   "psaxo": {
-   "modern": "psahu",
+   "modern": "psahug",
    "tier": "M"
   },
   "psbabao": {
@@ -12928,15 +12938,15 @@
    "tier": "B"
   },
   "psdlxan": {
-   "modern": "psdlhan",
+   "modern": "psdlihan",
    "tier": "M"
   },
   "psdlxi": {
-   "modern": "psdrxi",
-   "tier": "B"
+   "modern": "psdlihi",
+   "tier": "M"
   },
   "psdlxun": {
-   "modern": "psdlhun",
+   "modern": "psdlihun",
    "tier": "M"
   },
   "psg'gan": {
@@ -15072,8 +15082,8 @@
    "tier": "M"
   },
   "saxo": {
-   "modern": "sahu",
-   "tier": "B"
+   "modern": "sahug",
+   "tier": "M"
   },
   "sayang": {
    "modern": "sayang",
@@ -16137,6 +16147,10 @@
    "modern": "smeuwit",
    "tier": "M"
   },
+  "smaxo": {
+   "modern": "smahug",
+   "tier": "M"
+  },
   "smbali": {
    "modern": "smbari",
    "tier": "T"
@@ -16495,8 +16509,8 @@
    "tier": "M"
   },
   "snaxo": {
-   "modern": "snahu",
-   "tier": "B"
+   "modern": "snahug",
+   "tier": "M"
   },
   "snblayan": {
    "modern": "snbrayan",
@@ -16985,6 +16999,10 @@
   },
   "spsapox": {
    "modern": "spsapuh",
+   "tier": "M"
+  },
+  "spsaxo": {
+   "modern": "spsahug",
    "tier": "M"
   },
   "spsloso": {
@@ -21109,10 +21127,6 @@
    "modern": "lmhlah",
    "tier": "P"
   },
-  "l'nnao": {
-   "modern": "rnnaw",
-   "tier": "P"
-  },
   "lbaqan": {
    "modern": "rbaqan",
    "tier": "P"
@@ -22188,12 +22202,6 @@
    "modern": "empsasaw",
    "tier": "W",
    "w_was": "mpsasaw",
-   "w_how": "class"
-  },
-  "mpsaxo": {
-   "modern": "empsahu",
-   "tier": "W",
-   "w_was": "mpsahu",
    "w_how": "class"
   },
   "mpsb'lös": {
@@ -23727,7 +23735,7 @@
    "tier": "P"
   },
   "pnsaxo": {
-   "modern": "pnsahu",
+   "modern": "pnsahug",
    "tier": "P"
   },
   "pnspaan": {
@@ -24832,10 +24840,6 @@
    "tier": "P",
    "elision_dropped": "sma'mul"
   },
-  "smaxo": {
-   "modern": "smahu",
-   "tier": "P"
-  },
   "smblenax": {
    "modern": "smbrinah",
    "tier": "P"
@@ -25103,10 +25107,6 @@
   },
   "spsasao": {
    "modern": "spsasaw",
-   "tier": "P"
-  },
-  "spsaxo": {
-   "modern": "spsahu",
    "tier": "P"
   },
   "spsklaya": {
