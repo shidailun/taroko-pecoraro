@@ -1825,6 +1825,8 @@
       "<p>本辭典以詞根（root word）為主要條目，並非收錄每一個詞形變化。例句中出現的語法助詞或動詞變位形式，可能沒有獨立詞條。</p>" +
       "<p>Cross-referencing against a modern-orthography Truku corpus confirmed that the example-sentence words without their own headword are almost entirely inflected or derived forms of roots already in the dictionary (as noted above), or the same word under a different spelling; genuine lexical gaps are very few.</p>" +
       "<p>經與現代太魯閣語語料庫比對，證實例句中未設獨立詞條的詞彙，絕大多數為已收錄詞根的屈折或派生形式（如上所述），或同詞的不同拼寫；真正的詞彙缺口極少。</p>" +
+      "<p>Pecoraro's own 1977 spelling is what the book prints and what this edition stores; a modern spelling can be switched on under ⚙, word by word rather than by rule. It is shown in two shades so you can see how far it is a claim and how far a proposal: <b style=\"color:var(--accent)\">dark brown</b> where a modern Truku source has the word, or has a root the word is a regular inflection of, and <b style=\"color:var(--accent-weak)\">pale brown</b> where neither is true and the spelling is only our best reading — most often a personal name, which no dictionary lists. <b>91.3% of the words on screen are in the dark brown.</b></p>" +
+      "<p>本書所印、本版所存者為貝科拉羅神父1977年之原文拼寫；現代拼寫可於 ⚙ 開啟，逐詞比對而非套用通則。現代拼寫以深淺兩色標示，以區別確證與推測：<b style=\"color:var(--accent)\">深棕色</b>表示現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形；<b style=\"color:var(--accent-weak)\">淺棕色</b>表示兩者皆無，僅為本辭典之判讀，多為辭書不收的人名。<b>螢幕上 91.3% 的詞屬深棕色。</b></p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
       "<p class=\"fine\">由嶺南大學翻譯系副教授石岱崙數位化整理。</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
