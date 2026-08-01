@@ -14579,8 +14579,8 @@
    "tier": "B"
   },
   "qlian": {
-   "modern": "qrian",
-   "tier": "B"
+   "modern": "krian",
+   "tier": "M"
   },
   "qling": {
    "modern": "qling",
@@ -14592,6 +14592,10 @@
   },
   "qliun": {
    "modern": "kriun",
+   "tier": "M"
+  },
+  "qliyan": {
+   "modern": "krian",
    "tier": "M"
   },
   "qliyang": {
@@ -15916,8 +15920,8 @@
    "tier": "id"
   },
   "skui": {
-   "modern": "skuy",
-   "tier": "B"
+   "modern": "skui",
+   "tier": "M"
   },
   "skulan": {
    "modern": "skulan",
@@ -15936,8 +15940,8 @@
    "tier": "id"
   },
   "skwi": {
-   "modern": "skuy",
-   "tier": "B"
+   "modern": "skui",
+   "tier": "M"
   },
   "skxulan": {
    "modern": "skxlan",
@@ -24795,7 +24799,7 @@
    "tier": "P"
   },
   "qnliyan": {
-   "modern": "knriyan",
+   "modern": "knrian",
    "tier": "P"
   },
   "qnq'mi": {
@@ -30606,12 +30610,6 @@
   },
   "qlii": {
    "modern": "krii",
-   "tier": "E",
-   "e_stem": "qli",
-   "e_modern": "kri"
-  },
-  "qliyan": {
-   "modern": "kriyan",
    "tier": "E",
    "e_stem": "qli",
    "e_modern": "kri"
