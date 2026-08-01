@@ -88,7 +88,6 @@ mb'loq           embruq            mbruq            P/twin       0     2
 mb'so            embsu             mbsu             P/twin       0     4
 mbabao           embabaw           mbabaw           R/class      0     1
 mbaga            embaga            mbaga            P/class      0     4
-mbali            embari            mbari            T/class      0     5
 mbaxo            embahu            mbahu            P/twin       0     2
 mbboai           embbuway          mbbuway          P/class      0     2
 mbbulang         embbulang         mbbulang         R/twin       0     1

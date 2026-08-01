@@ -32,7 +32,6 @@ cristo           cristu           midcap=2    occ=2
 diko             diku             midcap=1    occ=2
 ixeng            iheng            midcap=1    occ=2
 kimi             kimi             midcap=1    occ=2
-nali             nali             midcap=1    occ=2
 nati             nati             midcap=1    occ=2
 patong           patung           midcap=1    occ=2
 sasak            sasak            midcap=1    occ=2

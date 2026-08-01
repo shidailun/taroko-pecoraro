@@ -1012,8 +1012,8 @@
    "tier": "B"
   },
   "bali": {
-   "modern": "bali",
-   "tier": "id"
+   "modern": "barig",
+   "tier": "M"
   },
   "balit": {
    "modern": "barit",
@@ -4225,6 +4225,10 @@
    "modern": "kman",
    "tier": "id"
   },
+  "kmbali": {
+   "modern": "kmbarig",
+   "tier": "M"
+  },
   "kmbibil": {
    "modern": "kmblbil",
    "tier": "M"
@@ -7094,8 +7098,8 @@
    "tier": "M"
   },
   "mali": {
-   "modern": "mali",
-   "tier": "id"
+   "modern": "marig",
+   "tier": "M"
   },
   "malong": {
    "modern": "marung",
@@ -7262,10 +7266,8 @@
    "tier": "A"
   },
   "mbali": {
-   "modern": "embari",
-   "tier": "W",
-   "w_was": "mbari",
-   "w_how": "class"
+   "modern": "mbarig",
+   "tier": "M"
   },
   "mbanax": {
    "modern": "embanah",
@@ -10193,6 +10195,10 @@
   "nalat": {
    "modern": "narat",
    "tier": "A"
+  },
+  "nali": {
+   "modern": "narig",
+   "tier": "M"
   },
   "nalox": {
    "modern": "narux",
@@ -16242,8 +16248,8 @@
    "tier": "M"
   },
   "smbali": {
-   "modern": "smbari",
-   "tier": "T"
+   "modern": "smbarig",
+   "tier": "M"
   },
   "smbalox": {
    "modern": "smbarux",
@@ -28944,10 +28950,6 @@
    "tier": "N",
    "elision_dropped": "mpsq'lul"
   },
-  "nali": {
-   "modern": "nali",
-   "tier": "N"
-  },
   "nati": {
    "modern": "nati",
    "tier": "N"
@@ -29998,12 +30000,6 @@
    "tier": "E",
    "e_stem": "slabang",
    "e_modern": "slabang"
-  },
-  "kmbali": {
-   "modern": "kmbari",
-   "tier": "E",
-   "e_stem": "mbali",
-   "e_modern": "mbari"
   },
   "kmp'ama": {
    "modern": "kmpama",

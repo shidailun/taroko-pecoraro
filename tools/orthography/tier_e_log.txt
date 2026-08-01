@@ -11,7 +11,6 @@ kbslat           kbsrat           bslat          bsrat          derived
 kg'leq           kgriq            gleq           griq           derived
 kgimax           kgimax           gimax          gimax          derived
 kkslabang        kkslabang        slabang        slabang        derived
-kmbali           kmbari           mbali          mbari          derived
 kmp'ama          kmpama           ama            ama            derived
 kmpnyeqan        kmpniqan         pnyeqan        pniqan         derived
 kmpspong         kmpspung         pspong         pspung         derived
