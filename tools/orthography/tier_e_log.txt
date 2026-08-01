@@ -29,7 +29,6 @@ lnagap           rnagak           lagap          ragak          derived
 lnqdo            rnqdug           lqdo           rqdug          derived
 m'ayo            mayug            ayo            ayug           attested
 mapala           mapala           pala           pala           derived
-mkbnaqe          mkbnaqi          bnaqe          bnaqi          derived
 mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
 ml'çan           mlxan            lxan           lxan           derived

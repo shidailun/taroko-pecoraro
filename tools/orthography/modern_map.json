@@ -1365,8 +1365,8 @@
    "tier": "id"
   },
   "bnaqe": {
-   "modern": "bnaqi",
-   "tier": "T"
+   "modern": "bnaqig",
+   "tier": "M"
   },
   "bnaxang": {
    "modern": "qnbahang",
@@ -6940,9 +6940,8 @@
    "tier": "M"
   },
   "m'xalan": {
-   "modern": "mxalan",
-   "tier": "T",
-   "elision_dropped": "m'xalan"
+   "modern": "kmxalan",
+   "tier": "M"
   },
   "m'xapui": {
    "modern": "mhapuy",
@@ -7687,6 +7686,10 @@
    "modern": "mqbahang",
    "tier": "M"
   },
+  "mkbnaqe": {
+   "modern": "mkbnaqig",
+   "tier": "M"
+  },
   "mkbolong": {
    "modern": "mkburung",
    "tier": "T"
@@ -8421,8 +8424,8 @@
    "tier": "id"
   },
   "mnpusal": {
-   "modern": "mnpusal",
-   "tier": "T"
+   "modern": "mnempusal",
+   "tier": "M"
   },
   "mnpxal": {
    "modern": "mnpxal",
@@ -10081,6 +10084,10 @@
    "modern": "nxal",
    "tier": "id",
    "elision_dropped": "n'xal"
+  },
+  "n'xalan": {
+   "modern": "kmxalan",
+   "tier": "M"
   },
   "n'xali": {
    "modern": "nhari",
@@ -12367,6 +12374,10 @@
    "modern": "pnpaan",
    "tier": "M"
   },
+  "pnpsalan": {
+   "modern": "pnpusalan",
+   "tier": "M"
+  },
   "pnpusal": {
    "modern": "pnpusal",
    "tier": "T"
@@ -13882,8 +13893,8 @@
    "tier": "T"
   },
   "pusal": {
-   "modern": "pusal",
-   "tier": "T"
+   "modern": "empusal",
+   "tier": "M"
   },
   "pusu": {
    "modern": "pusu",
@@ -16701,6 +16712,10 @@
    "modern": "snpngan",
    "tier": "id"
   },
+  "snpusal": {
+   "modern": "snpusal",
+   "tier": "M"
+  },
   "snqdgan": {
    "modern": "snqdugan",
    "tier": "M"
@@ -16896,6 +16911,10 @@
    "modern": "spatas",
    "tier": "id"
   },
+  "spatwil": {
+   "modern": "spatul",
+   "tier": "M"
+  },
   "spbaxo": {
    "modern": "spbahu",
    "tier": "B"
@@ -17020,6 +17039,18 @@
    "modern": "spquri",
    "tier": "B"
   },
+  "spsalan": {
+   "modern": "spusalan",
+   "tier": "M"
+  },
+  "spsali": {
+   "modern": "spusali",
+   "tier": "M"
+  },
+  "spsalun": {
+   "modern": "spusalun",
+   "tier": "M"
+  },
   "spsapox": {
    "modern": "spsapuh",
    "tier": "M"
@@ -17067,6 +17098,10 @@
   "spuon": {
    "modern": "spuun",
    "tier": "T"
+  },
+  "spusal": {
+   "modern": "spusal",
+   "tier": "M"
   },
   "spxapwi": {
    "modern": "sphapuy",
@@ -23747,10 +23782,6 @@
    "modern": "pnempitu",
    "tier": "P"
   },
-  "pnpsalan": {
-   "modern": "pnpsalan",
-   "tier": "P"
-  },
   "pnqexan": {
    "modern": "pnqihan",
    "tier": "P"
@@ -25006,10 +25037,6 @@
    "modern": "snping",
    "tier": "P"
   },
-  "snpusal": {
-   "modern": "snpusal",
-   "tier": "P"
-  },
   "snpusu": {
    "modern": "snpusu",
    "tier": "P"
@@ -25056,10 +25083,6 @@
   },
   "sparo": {
    "modern": "sparu",
-   "tier": "P"
-  },
-  "spatwil": {
-   "modern": "spatwil",
    "tier": "P"
   },
   "spaxong": {
@@ -25114,18 +25137,6 @@
    "modern": "spsaang",
    "tier": "P"
   },
-  "spsalan": {
-   "modern": "spsalan",
-   "tier": "P"
-  },
-  "spsali": {
-   "modern": "spsali",
-   "tier": "P"
-  },
-  "spsalun": {
-   "modern": "spsalun",
-   "tier": "P"
-  },
   "spsamao": {
    "modern": "spsamaw",
    "tier": "P"
@@ -25176,10 +25187,6 @@
   },
   "sptpusu": {
    "modern": "sptpusu",
-   "tier": "P"
-  },
-  "spusal": {
-   "modern": "spusal",
    "tier": "P"
   },
   "spusu": {
@@ -29485,13 +29492,6 @@
    "d_rule": "n-",
    "d_base": "m'ulat"
   },
-  "n'xalan": {
-   "modern": "nxalan",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "m'xalan",
-   "elision_dropped": "n'xalan"
-  },
   "na'tong": {
    "modern": "neetung",
    "tier": "D",
@@ -30101,12 +30101,6 @@
    "tier": "E",
    "e_stem": "pala",
    "e_modern": "pala"
-  },
-  "mkbnaqe": {
-   "modern": "mkbnaqi",
-   "tier": "E",
-   "e_stem": "bnaqe",
-   "e_modern": "bnaqi"
   },
   "mkmd'xok": {
    "modern": "mkmdhuq",
