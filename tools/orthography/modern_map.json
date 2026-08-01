@@ -1211,6 +1211,10 @@
    "modern": "biyax",
    "tier": "id"
   },
+  "biyo": {
+   "modern": "biyaw",
+   "tier": "M"
+  },
   "biyoq": {
    "modern": "biyuq",
    "tier": "B"
@@ -25778,10 +25782,6 @@
   },
   "bboot": {
    "modern": "bbuut",
-   "tier": "R"
-  },
-  "biyo": {
-   "modern": "biyu",
    "tier": "R"
   },
   "bkii": {

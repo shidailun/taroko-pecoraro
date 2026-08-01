@@ -68,17 +68,22 @@ def main():
 
     inf = Inflection(lex, mp)
 
+    def word(p):
+        """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm."""
+        if p in lex:
+            return 2
+        if inf.regular(p):
+            return 1
+        if inf.vouched(p):
+            return 0.5
+        return 0
+
     def level(v):
-        """2 = every word listed, 1 = every word listed or regularly inflected,
-        0 = no."""
         parts = v.split()
         if not parts:
             return 0
-        if all(p in lex for p in parts):
-            return 2
-        if all(p in lex or inf.regular(p) for p in parts):
-            return 1
-        return 0
+        w = [word(p) for p in parts]
+        return min(w) if all(w) else 0
 
     # app.js's attested() splits a value on its spaces and asks about each word
     # separately, so a multi-word value has to put its own words in here too or
@@ -91,7 +96,9 @@ def main():
     lv = {v: level(v) for v in keys}
     listed = sorted(v for v in keys if lv[v] == 2)
     infl = sorted(v for v in keys if lv[v] == 1)
-    good = sorted(listed + infl)
+    vouch = sorted(v for v in keys if lv[v] == 0.5)
+    good = sorted(listed + infl + vouch)
+    emit = {2: 1, 1: 2, 0.5: 3}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -102,16 +109,21 @@ def main():
         "// this exact word (%d). 2 = the wordlist does not list it, but it is a\n"
         "// regular inflection of a root the wordlist does list, and that root means\n"
         "// what he says the word means (%d) — a listing gap, not a lexical one.\n"
-        "// app.js paints both in the deep brown; a value NOT in here is still a\n"
-        "// proposal and stays pale.\n"
+        "// 3 = the wordlist does not list it BARE, but it lists two or more of its\n"
+        "// own inflections and one of them means what he says it means (%d) — a\n"
+        "// citation form nobody wrote down, which is the same listing gap seen\n"
+        "// from the other side.\n"
+        "// app.js paints all three in the deep brown; a value NOT in here is still\n"
+        "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
-        % (len(good), len(keys), len(listed), len(infl)))
+        % (len(good), len(keys), len(listed), len(infl), len(vouch)))
     for v in good:
-        out.write('  "%s": %d,\n' % (v, 1 if lv[v] == 2 else 2))
+        out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
-    print("listed: %d   regularly inflected: %d   unverified: %d   (of %d distinct)"
-          % (len(listed), len(infl), len(keys) - len(good), len(keys)))
+    print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
+          "unverified: %d   (of %d distinct)"
+          % (len(listed), len(infl), len(vouch), len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
 

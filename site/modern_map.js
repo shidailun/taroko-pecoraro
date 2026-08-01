@@ -170,7 +170,7 @@ window.MODERN_MAP = {
 "biyao":"biyaw",
 "biyaw":"biyaw",
 "biyax":"biyax",
-"biyo":"biyu",
+"biyo":"biyaw",
 "biyoq":"biyuq",
 "bkalox":"bkaruh",
 "bkii":"bkii",

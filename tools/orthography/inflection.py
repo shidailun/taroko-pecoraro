@@ -59,11 +59,29 @@ VOW = "aeiou"
 PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
        "pp", "emp", "mnp", "snp", "np", "smn", "pm"]
 SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi"]
+# The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
+VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
 
 # Characters that carry no meaning on their own, so sharing one is not
 # agreement. Without this, 的 and 是 confirm anything against anything.
+#
+# 子 is here for the same reason and it is not obvious: it is the noun
+# classifier of 種子 seed, 果子 fruit, 釘子 nail, 日子 day, 梳子 comb, 李子 plum
+# and 卵子 ovum, so on its own it confirms anything against anything too. It
+# alone was holding up four claims — `snkmalu` and `spkmalu` decomposed onto
+# `kalu` 梳子 when his word is `malu` 好, and `stmaqun` matched 刀子砍樹的聲音
+# against his 把你的李子壓碎.
 STOP = set("的了是我你他她們個很不一有在要中上下大小人這那和與或也就都再又只之"
-           "為所以及者其於由對從把被讓使做作用能會可時樣事物")
+           "為所以及者其於由對從把被讓使做作用能會可時樣事物子")
+
+# Both wordlists talk ABOUT words, and that metalanguage is not meaning: his
+#「這會是 MIYAQ 的詞根嗎？」and the modern「為「empmiyak 要忙家務事」的詞根」share
+# the run 的詞 and the character 根 while sharing no sense at all. These are
+# EXCISED from a gloss before its characters are read, rather than subtracted
+# from the result — dropping the bigram alone leaves a bare 根 behind, and
+# putting 根 in STOP would take it away from 根源 and 樹根, where it is the
+# whole meaning (it was holding up `snpusu` 根基 by itself).
+BOILER = re.compile("的詞根|詞根|動詞形|動詞|名詞|同上|之詞|形式|參見|前項|衍生|詞形")
 
 # Ruled out of scope by hand over batches 100–109. The tier logs cover names
 # the digitization tagged, but a name reached only through an example sentence
@@ -73,6 +91,16 @@ opic upih sikat imin timin tain pilin akit dloan lautan hidi eku tsay puti
 stbaku mici dcristu tensu semento kodyo kaityo diko diku cristo yordan xelyo
 xatso xaibyo tanso tenso tagahan murisaka mkmurisaka sitang efunang aman atwi
 atuh denki banasi otun utun taolan taulan""".split()
+
+# Read one by one out of vouched()'s whole output — 56 values, which is small
+# enough to check by hand and too important not to. Two survived the gloss gate
+# on a character that is doing no work:
+#   tbuur   his 黃瓜 a cucumber, vouched by `emptbuur` 專找地瓜皮的人 — 地瓜 is a
+#           sweet potato, and 瓜 alone is the same kind of classifier as 子.
+#   tcingi  his 掉落－下降－出生, vouched by `tcingan` 打鐵店 — `tucing` carries
+#           both 打 to strike and 掉落 to fall, and the blacksmith's shop says
+#           nothing about the falling sense his entry is about.
+HAND_NOT_VOUCHED = set("tbuur tcingi".split())
 
 
 def _read(p):
@@ -143,9 +171,10 @@ class Inflection(object):
     def _chars(zhs):
         one, two = set(), set()
         for z in zhs:
-            for seg in HAN.findall(z):
-                one |= set(seg) - STOP
-                two |= {seg[j:j + 2] for j in range(len(seg) - 1)}
+            for run in HAN.findall(z):
+                for seg in BOILER.split(run):
+                    one |= set(seg) - STOP
+                    two |= {seg[j:j + 2] for j in range(len(seg) - 1)}
         return one, two
 
     def _agrees(self, his_zhs, root):
@@ -190,14 +219,18 @@ class Inflection(object):
                             out.append((c, p, sf, slot or "bare"))
         return out
 
+    def _his(self, v):
+        out = set()
+        for k in self.inv.get(v) or []:
+            out |= self.his.get(k, set())
+        return out
+
     def regular(self, v):
         """(root, prefix, suffix, slot, the character the two glosses share),
         or None. Picks the analysis with the least affixation."""
         if v in self.frozen:
             return None
-        his = set()
-        for k in self.inv.get(v) or []:
-            his |= self.his.get(k, set())
+        his = self._his(v)
         best = None
         for c, p, sf, slot in self.roots(v):
             sh = self._agrees(his, c)
@@ -207,3 +240,87 @@ class Inflection(object):
             if best is None or cost < best[0]:
                 best = (cost, (c, p, sf, slot, sh))
         return best[1] if best else None
+
+    # ---- the inverse: a root nobody wrote down bare -------------------------
+    def derived(self, v):
+        """{attested word: (prefix, suffix, whether v's last vowel survived)}.
+
+        Every attested word that is v wearing one paradigm affix, or a stack.
+        The third field matters because the -un/-an branch drops v's own final
+        vowel, so such a supporter witnesses the STEM and says nothing about the
+        vowel the value ends in.
+        """
+        out = {}
+        for p in PRE:
+            for s in SUF:
+                if not p and not s:
+                    continue
+                for w, whole in (
+                        (p + v + s, True),
+                        # the -m-/-n- infix goes inside a consonant-initial root
+                        ((v[0] + p + v[1:] + s, True)
+                         if p in ("m", "n") and v[:1] not in VOW else (None, 0)),
+                        # -un/-an swallow the root's last vowel
+                        ((p + v[:-1] + s, False)
+                         if s and v[-1:] in VOW else (None, 0))):
+                    if w and w in self.lex:
+                        out.setdefault(w, (p, s, whole))
+        return out
+
+    def vouched(self, v):
+        """(supporting word, the shared character), or None.
+
+        regular() verifies a form by finding its ROOT in the wordlist. This is
+        the mirror case, and `xal` is the clean one: the citation form is 0×
+        — his own headword note says so, 從未見過此簡單形式 — while `pxal` 147×,
+        `msxal`, `smxal`, `snxal`, `pnxal` and `sxali` are all there. A root
+        that only ever surfaces affixed is a listing gap of the purest kind,
+        and a paradigm around it is stronger evidence than one bare listing.
+
+        Same three guards as regular(), for the same reasons. Two supporters
+        wearing DIFFERENT affixes, because one is a substring coincidence
+        waiting to happen; four characters minimum, because a three-letter
+        string is inside everything; and the gloss must agree, which is what
+        separates `nasu` — vouched on shape alone by the conjunction `nasi`
+        如果 — from the real ones.
+
+        The agreement may come from any ONE supporter. Most of a paradigm is
+        glossless in the wordlist, so requiring all of them would be requiring
+        the listing gap not to exist.
+
+        A fourth guard, and it is the one this rule can go wrong without.
+        Supporters reached by the -un/-an branch have dropped the value's own
+        final vowel, so they witness the STEM and are silent about the vowel the
+        value ends in. That vowel needs a witness of one kind or the other:
+
+          either a supporter carries v WHOLE — `mkmpeysa` for `kmpeysa`,
+          `qmnaya` for `qnaya`, `tmnbru` for `tnbru` — which is what licenses
+          their swallowed supporters `kmpeysun` / `qnayun` / `tnbraw`, since a
+          root ending in -a really does lose it before a suffix;
+
+          or the final vowel is itself a paradigm suffix, and then the sister
+          slots replacing it is the morphology rather than a coincidence:
+          `paqi` beside `paqan` / `paqun` / `paqaw`, `ltudi` beside `ltudan`.
+          An imperative can have no whole supporter — nothing affixes an
+          imperative — so requiring one would throw away the clearest claims
+          the rule makes.
+
+        With neither, nothing attests the value's last letter and the paradigm
+        on offer is as likely to belong to another word: `biyu` was vouched by
+        `biyaw` 109×, `sbiyaw` 281×, `nbiyaw` 快速樣子 and `pbiyi`, which are
+        the paradigm of `biyaw` 快 — the word his sentence actually uses
+        (你的傷口很快就會痊癒), and now what the map says for `biyo`.
+        """
+        if v in self.frozen or v in HAND_NOT_VOUCHED or len(v) < 4 or v in self.lex:
+            return None
+        d = self.derived(v)
+        if len(set(d.values())) < 2:
+            return None
+        if not v.endswith(VSUF) and not any(w[2] for w in d.values()):
+            return None
+        his = self._his(v)
+        for w in sorted(d, key=lambda w: (len(w), w)):
+            sh = self._agrees(his, w)
+            if sh:
+                return (w, sh)
+        return None
