@@ -71,8 +71,12 @@ VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
 # alone was holding up four claims — `snkmalu` and `spkmalu` decomposed onto
 # `kalu` 梳子 when his word is `malu` 好, and `stmaqun` matched 刀子砍樹的聲音
 # against his 把你的李子壓碎.
+#
+# 已 joined them in batch 114: it is the perfective marker and nothing else, so
+# 已知道的 "already known" confirmed his （已完成的）攀登 "(completed) climbing"
+# against `gnkla` 知道 to know, two words with no sense in common at all.
 STOP = set("的了是我你他她們個很不一有在要中上下大小人這那和與或也就都再又只之"
-           "為所以及者其於由對從把被讓使做作用能會可時樣事物子")
+           "為所以及者其於由對從把被讓使做作用能會可時樣事物子已")
 
 # Both wordlists talk ABOUT words, and that metalanguage is not meaning: his
 #「這會是 MIYAQ 的詞根嗎？」and the modern「為「empmiyak 要忙家務事」的詞根」share
@@ -102,6 +106,17 @@ atuh denki banasi otun utun taolan taulan""".split()
 #           nothing about the falling sense his entry is about.
 HAND_NOT_VOUCHED = set("tbuur tcingi".split())
 
+# vouched_root()'s whole output read the same way — 69 values, batch 114. Three
+# are wrong and no gate reaches them, because the defect is in the ROOT, not in
+# the gloss:
+#   nnalu   his 好、良善（過去式）. The root `nalu` is a phantom: `nmalu` is the
+#   empnalu preterite of `malu` 好 and `snalu` the perfective of `smalu` 做, two
+#           different words that happen to strip to the same four letters, so
+#           the two-supporter guard was satisfied by conflating them.
+#   nilaq   his entry is the edible tree mushroom, and it agreed with `mnilaq`
+#           起屑 to flake only on the 起 of 令人想起海藻 "recalls seaweed".
+HAND_NOT_ROOTED = set("nnalu empnalu nilaq".split())
+
 
 def _read(p):
     return io.open(p, encoding="utf-8").read()
@@ -123,10 +138,17 @@ class Inflection(object):
         s = _read(os.path.join(H, "site", "entries.js"))
         entries = json.loads(s[s.index("["):s.rindex("]") + 1])
         self.his = self._his_glosses(entries)
+        self.slot = self._his_glosses(entries, slots_only=True)
         self.frozen = self._frozen(entries, mp)
 
     # ---- his Chinese, per token, from every field that reaches the screen ---
-    def _his_glosses(self, entries):
+    def _his_glosses(self, entries, slots_only=False):
+        """slots_only drops the example sentences, keeping only the Chinese he
+        attached to a word AS a word — a headword, sub-form or paradigm gloss.
+
+        A sentence gloss describes a whole clause and shares a character with
+        almost anything, which is tolerable when the rest of the evidence chain
+        is short and not when it is long: see vouched_root()."""
         his = collections.defaultdict(set)
 
         def feed(txt, zh):
@@ -138,13 +160,13 @@ class Inflection(object):
             zh = e.get("zh") or ""
             for f in ("hw", "paradigm", "crossRef"):
                 feed(e.get(f), zh)
-            for x in e.get("examples", []):
+            for x in ([] if slots_only else e.get("examples", [])):
                 feed(x.get("t"), x.get("zh") or zh)
             for sb in e.get("subs", []):
                 szh = sb.get("zh") or zh
                 feed(sb.get("form"), szh)
                 feed(sb.get("paradigm"), szh)
-                for x in sb.get("examples", []):
+                for x in ([] if slots_only else sb.get("examples", [])):
                     feed(x.get("t"), x.get("zh") or szh)
         return his
 
@@ -219,10 +241,11 @@ class Inflection(object):
                             out.append((c, p, sf, slot or "bare"))
         return out
 
-    def _his(self, v):
+    def _his(self, v, slots_only=False):
+        src = self.slot if slots_only else self.his
         out = set()
         for k in self.inv.get(v) or []:
-            out |= self.his.get(k, set())
+            out |= src.get(k, set())
         return out
 
     def regular(self, v):
@@ -324,3 +347,65 @@ class Inflection(object):
             if sh:
                 return (w, sh)
         return None
+
+    # ---- the two composed: a regular slot of a root nobody wrote down bare --
+    def vouched_root(self, v):
+        """(root, prefix, suffix, supporter, shared char) or None.
+
+        regular() over a root that vouched() would accept rather than one the
+        wordlist lists. `pspuhun` is the shape: `spuh` is never listed bare, but
+        `spuhun`, `spuhan`, `spuhi`, `snpuhan`, `pspuhan` 醫院 and `pnspuhan`
+        被治療過 are, and his gloss for the value is 使人施行醫治 — the -un
+        sister of a slot the wordlist does list, off a root it does not. `natas`
+        (n- on `atas`, which batch 113 vouched through `matas` 寫字) and
+        `prijil` (p- on `rijil`, through `mrijil` 使彎曲) are the same.
+
+        The evidence chain is one step longer than either rule alone: neither
+        the value nor its root is listed, and the gloss agreement has to be
+        taken against a SUPPORTER, because an unlisted root has no gloss of its
+        own to agree with. So the gate is tighter at the other end — his Chinese
+        must be a gloss he attached to the word AS a word, never one belonging
+        to an example sentence. A sentence gloss describes a whole clause and
+        shares a character with almost anything: it is what let `sktama`
+        已故的父親 agree with `kmtama` 信奉上帝 on the 信 of an unrelated
+        sentence, when the real morphology is `sk-` 'the late' on `tama` 父.
+
+        The root is held to vouched()'s guards 1, 2 and 4 and to its four-letter
+        floor, which is what keeps `snaah` out — the case that prompted the rule
+        and does not survive it, since `naah` reaches only `pnaah`.
+        """
+        if v in self.frozen or v in HAND_NOT_ROOTED:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for p in PRE:
+            if not p or not v.startswith(p):
+                continue
+            b0 = v[len(p):]
+            if len(b0) < 4:
+                continue
+            stems = [b0]
+            if len(b0) > 4 and b0[0] not in VOW and b0[1] in "mn":
+                stems.append(b0[0] + b0[2:])
+            for st in stems:
+                for sf in SUF:
+                    if sf and not st.endswith(sf):
+                        continue
+                    c = st[:len(st) - len(sf)] if sf else st
+                    if len(c) < 4 or c in self.lex or c in self.frozen or c == v:
+                        continue
+                    d = self.derived(c)
+                    if len(set(d.values())) < 2:
+                        continue
+                    if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
+                        continue
+                    for w in sorted(d, key=lambda w: (len(w), w)):
+                        sh = self._agrees(his, w)
+                        if sh:
+                            cost = len(p) + len(sf)
+                            if best is None or cost < best[0]:
+                                best = (cost, (c, p, sf, w, sh))
+                            break
+        return best[1] if best else None

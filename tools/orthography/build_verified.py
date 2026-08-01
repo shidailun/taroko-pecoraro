@@ -69,13 +69,16 @@ def main():
     inf = Inflection(lex, mp)
 
     def word(p):
-        """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm."""
+        """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,
+        0.25 a regular inflection of a root vouched that way."""
         if p in lex:
             return 2
         if inf.regular(p):
             return 1
         if inf.vouched(p):
             return 0.5
+        if inf.vouched_root(p):
+            return 0.25
         return 0
 
     def level(v):
@@ -97,8 +100,9 @@ def main():
     listed = sorted(v for v in keys if lv[v] == 2)
     infl = sorted(v for v in keys if lv[v] == 1)
     vouch = sorted(v for v in keys if lv[v] == 0.5)
-    good = sorted(listed + infl + vouch)
-    emit = {2: 1, 1: 2, 0.5: 3}
+    vroot = sorted(v for v in keys if lv[v] == 0.25)
+    good = sorted(listed + infl + vouch + vroot)
+    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -113,17 +117,22 @@ def main():
         "// own inflections and one of them means what he says it means (%d) — a\n"
         "// citation form nobody wrote down, which is the same listing gap seen\n"
         "// from the other side.\n"
-        "// app.js paints all three in the deep brown; a value NOT in here is still\n"
+        "// 4 = 2 over 3: a regular inflection of a root the wordlist only vouches\n"
+        "// for through ITS own inflections (%d). Neither the word nor its root is\n"
+        "// listed, so the gloss agreement is taken against the root's attested\n"
+        "// supporter and only against Chinese he attached to the word as a word.\n"
+        "// app.js paints all four in the deep brown; a value NOT in here is still\n"
         "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
-        % (len(good), len(keys), len(listed), len(infl), len(vouch)))
+        % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
-          "unverified: %d   (of %d distinct)"
-          % (len(listed), len(infl), len(vouch), len(keys) - len(good), len(keys)))
+          "inflected off a vouched root: %d   unverified: %d   (of %d distinct)"
+          % (len(listed), len(infl), len(vouch), len(vroot),
+             len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
 
