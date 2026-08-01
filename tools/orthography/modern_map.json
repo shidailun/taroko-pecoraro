@@ -4014,11 +4014,11 @@
    "tier": "L"
   },
   "kl'xqe": {
-   "modern": "qrhqi",
+   "modern": "qrhiqi",
    "tier": "M"
   },
   "kl'xqon": {
-   "modern": "qrhqun",
+   "modern": "qrhiqun",
    "tier": "M"
   },
   "klaan": {
@@ -11580,7 +11580,7 @@
    "tier": "M"
   },
   "pglxgun": {
-   "modern": "pglhgun",
+   "modern": "pglhugun",
    "tier": "M"
   },
   "pgsaan": {
@@ -11951,6 +11951,14 @@
    "modern": "pksuyang",
    "tier": "id"
   },
+  "pksyangan": {
+   "modern": "pksuyangan",
+   "tier": "M"
+  },
+  "pksyangi": {
+   "modern": "pksuyangi",
+   "tier": "M"
+  },
   "pksyaon": {
    "modern": "pqsiyaun",
    "tier": "M"
@@ -12256,11 +12264,11 @@
    "tier": "B"
   },
   "plx'gun": {
-   "modern": "plhgun",
+   "modern": "plhugun",
    "tier": "M"
   },
   "plxgun": {
-   "modern": "plhgun",
+   "modern": "plhugun",
    "tier": "M"
   },
   "plxlaxan": {
@@ -13713,15 +13721,15 @@
    "tier": "T"
   },
   "psyangan": {
-   "modern": "psyangan",
+   "modern": "psiyangan",
    "tier": "M"
   },
   "psyangi": {
-   "modern": "psyangi",
+   "modern": "psiyangi",
    "tier": "M"
   },
   "psyangun": {
-   "modern": "psyangun",
+   "modern": "psiyangun",
    "tier": "M"
   },
   "pt'ayus": {
@@ -14579,11 +14587,11 @@
    "tier": "B"
   },
   "ql'xqe": {
-   "modern": "qrhqi",
+   "modern": "qrhiqi",
    "tier": "M"
   },
   "ql'xqon": {
-   "modern": "qrhqun",
+   "modern": "qrhiqun",
    "tier": "M"
   },
   "qlaao": {
@@ -15916,11 +15924,11 @@
    "tier": "id"
   },
   "sknxi": {
-   "modern": "sknxi",
+   "modern": "sknuxi",
    "tier": "M"
   },
   "sknxun": {
-   "modern": "sknxun",
+   "modern": "sknuxun",
    "tier": "M"
   },
   "sknçan": {
@@ -16216,7 +16224,7 @@
    "tier": "id"
   },
   "sltyqon": {
-   "modern": "srciqun",
+   "modern": "sruciqun",
    "tier": "M"
   },
   "slubwi": {
@@ -23671,14 +23679,6 @@
   },
   "pkska": {
    "modern": "pkska",
-   "tier": "P"
-  },
-  "pksyangan": {
-   "modern": "pksyangan",
-   "tier": "P"
-  },
-  "pksyangi": {
-   "modern": "pksyangi",
    "tier": "P"
   },
   "pksyangun": {
