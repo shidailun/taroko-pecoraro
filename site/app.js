@@ -952,7 +952,9 @@
   // Every Truku word is wrapped, whether or not it links, because the wrapper is
   // what carries its spelling status. noLink is for headwords, which are the
   // entry the reader is already on.
-  function linkifyTruku(text, noLink, prose) {
+  // skipSlot is a wordKey a slot page passes for its own word, so its ° line does
+  // not link back to the page the reader is standing on.
+  function linkifyTruku(text, noLink, prose, skipSlot) {
     if (!text) return "";
     if (spellingModern) text = joinClitics(collapseInline(text));
     var parts = text.split(TRUKU_TOKEN);
@@ -973,8 +975,16 @@
       }
       var cls = spellClass(part);
       var linked = !noLink && lookupWord(part);
+      // A word with no entry of its own can still be a slot he listed on a °
+      // line, and that now has a page too. lookupWord wins: a real entry always
+      // outranks a generated card. This is also the word-by-word view of the
+      // book — every sentence using `kgusi` now links to what `kgusi` is.
+      var slot = !linked && !noLink ? slotByKey(part, skipSlot) : null;
       if (linked) cls += " crossref-link";
-      h += '<span class="' + cls + '"' + (linked ? ' data-ref="' + esc(part) + '"' : "") +
+      else if (slot) cls += " slot-link";
+      h += '<span class="' + cls + '"' +
+        (linked ? ' data-ref="' + esc(part) + '"'
+                : slot ? ' data-slot="' + slot.n + '"' : "") +
         ">" + esc(dispTruku(part)) + "</span>";
       if (spellingModern && lexicalSub(part)) {
         h += ' <span class="w-orig" title="Pecoraro’s word, no longer used">(' +
@@ -1475,6 +1485,21 @@
       '</summary><div class="conc-body"></div></details>';
   }
 
+  // One borrowed sentence, with the entry it was borrowed from named underneath.
+  // Shared with the paradigm-slot pages below, which ask the same index the same
+  // question — "where else in the book does this exact token occur?"
+  function concRowHtml(n) {
+    var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
+    var h = '<div class="example conc-row"><div class="truku">' +
+      spellMark("§", "Example / exemple") + " " +
+      linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+    if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
+    if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
+    if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+    return h + '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
+      linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
+  }
+
   // Filled on first open, not at render time: the whole-dictionary view sets 1,967
   // cards at once, and building all 19,743 rows into that string would cost
   // megabytes of HTML nobody asked to see.
@@ -1493,17 +1518,7 @@
       // group under `kgusi` must not sit there in his spelling on a modern page.
       h += '<p class="conc-form">' + linkifyTruku(k, true) +
         ' <span class="fine">(' + rows.length + ')</span></p>';
-      rows.slice(0, left).forEach(function (n) {
-        var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
-        h += '<div class="example conc-row"><div class="truku">' +
-          spellMark("§", "Example / exemple") + " " +
-          linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
-        if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
-        if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
-        if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
-        h += '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
-          linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
-      });
+      rows.slice(0, left).forEach(function (n) { h += concRowHtml(n); });
       left -= rows.length;
     });
     if (hits.rows.length > CONC_MAX) {
@@ -1512,6 +1527,201 @@
             " / 僅顯示前 " + CONC_MAX + " 則，共 " + hits.rows.length + " 則") + "</p>";
     }
     body.innerHTML = h;
+  }
+
+  // ---------- paradigm slots: a page for the forms he only ever listed ----------
+  // FORMS indexes headwords and sub-forms. A token he prints ONLY on a ° line —
+  // KUGUS's `kgusi`, `kgusan`, `kgusun` — has no alphabetical slot, no page, and
+  // no way to be looked up, though he wrote it down himself and the book uses it
+  // in sentences. Measured over the book (`logs/parslot.py`): 1,045 token types
+  // are in that state, 1,028 of them printed by exactly one entry, 298 occurring
+  // in at least one example.
+  //
+  // A slot page is OURS, not his, and has to say so — it carries no definition he
+  // wrote. What it can honestly carry is the MORPHOLOGY, because his ° line turns
+  // out to be positional. `logs/parslot3.py` over all 404 lines: 321 have exactly
+  // five tokens, and in those the fourth ends in -an 321/321 and the fifth in
+  // -un/-on 320/321, in the order AF, citation root, imperative, LF, PF. (The one
+  // exception is `Pskingal ° Mpskingal, pskingal, pskngali, pskngalan, pskngalu`,
+  // where the fifth is his own truncation — the position still reads it right.)
+  // So position decides a five-token line and the suffix is only a cross-check;
+  // any other length falls back to matching inflection.py's suffix inventory, and
+  // where neither works the card says just "form of X". A label we cannot derive
+  // is one we must not print.
+  //
+  // Only an UNAMBIGUOUS token gets a page. Two entries printing one slot is the
+  // per-token conflict documented all through CLAUDE.md, and a generated page is
+  // the last place to guess which of them the reader meant.
+  var SLOT_ORDER = ["af", "cit", "imp", "lf", "pf"];
+  var SLOT_SUF = [["aneyi", "imp"], ["anay", "imp"], ["ani", "imp"],
+                  ["un", "pf"], ["on", "pf"], ["an", "lf"],
+                  ["ay", "imp"], ["aw", "imp"], ["i", "imp"]];
+  var SLOT_LABEL = {
+    af:  { fr: "focus agent",       en: "actor focus",    zh: "主事焦點" },
+    cit: { fr: "forme de citation", en: "citation form",  zh: "詞根形" },
+    imp: { fr: "impératif",         en: "imperative",     zh: "祈使式" },
+    lf:  { fr: "focus locatif",     en: "locative focus", zh: "處所焦點" },
+    pf:  { fr: "focus patient",     en: "patient focus",  zh: "受事焦點" }
+  };
+  var SLOTS = null;     // sorted by his spelling; `n` is the index into it
+  var SLOT_KEY = null;  // wordKey -> slot record
+
+  function slotSuffix(k) {
+    for (var i = 0; i < SLOT_SUF.length; i++) {
+      var sf = SLOT_SUF[i][0];
+      if (k.length - sf.length >= 3 && k.slice(-sf.length) === sf) return SLOT_SUF[i][1];
+    }
+    return null;
+  }
+
+  function buildSlots() {
+    if (SLOTS) return;
+    var seen = {};
+    window.ENTRIES.forEach(function (e, i) {
+      function readLine(text, host) {
+        var m = (text || "").match(TRUKU_TOKEN_G);
+        if (!m) return;
+        var toks = [];
+        for (var j = 0; j < m.length; j++) {
+          var k = wordKey(m[j]);
+          if (k.length < 2 || !TRUKU_LETTER.test(k)) continue;
+          if (Object.prototype.hasOwnProperty.call(FORM_PROSE, k) ||
+              Object.prototype.hasOwnProperty.call(TAG_PROSE, k) ||
+              Object.prototype.hasOwnProperty.call(META_ABBR, k)) continue;
+          toks.push({ key: k, raw: m[j] });
+        }
+        var pos = toks.length === 5 ? SLOT_ORDER : null;
+        toks.forEach(function (t, j) {
+          // A form with a page of its own is not this index's business — and the
+          // test is lookupWord(), not membership of FORMS, because his bracketed
+          // aliases reach the same entry through a slot FORMS does not hold.
+          if (lookupWord(t.raw)) return;
+          var rec = seen[t.key];
+          if (rec !== undefined) {
+            if (rec !== -1 && rec.ei !== i) seen[t.key] = -1;
+            return;
+          }
+          seen[t.key] = {
+            key: t.key, raw: t.raw, ei: i, entry: e, host: host,
+            line: text, slot: pos ? pos[j] : slotSuffix(t.key)
+          };
+        });
+      }
+      readLine(e.paradigm, null);
+      (e.subs || []).forEach(function (s) { readLine(s.paradigm, s); });
+    });
+    SLOTS = [];
+    Object.keys(seen).sort().forEach(function (k) {
+      if (seen[k] !== -1) SLOTS.push(seen[k]);
+    });
+    SLOT_KEY = {};
+    SLOTS.forEach(function (s, n) {
+      s.n = n;
+      // The modern *displayed* spelling, so a row files and sorts under the word
+      // the reader actually sees — the same rule FORMS follows for `mkey`.
+      s.mkey = norm(modernizeText(s.raw));
+      SLOT_KEY[s.key] = s;
+    });
+  }
+
+  function slotList() { buildSlots(); return SLOTS; }
+
+  function slotByKey(word, skip) {
+    var k = wordKey(word);
+    if (skip && k === skip) return null;
+    buildSlots();
+    return Object.prototype.hasOwnProperty.call(SLOT_KEY, k) ? SLOT_KEY[k] : null;
+  }
+
+  function slotKeyOf(s) { return spellingModern ? s.mkey : s.key; }
+
+  function slotInitial(s) {
+    var c = slotKeyOf(s).charAt(0);
+    return /[a-z]/.test(c) ? c.toUpperCase() : "#";
+  }
+
+  // The root the slot belongs to: his sub-form when the ° line hangs off one,
+  // otherwise the entry's headword. Both are pages that exist, which is what
+  // makes this the right thing to link back to.
+  function slotHost(s) { return s.host ? s.host.form : s.entry.hw; }
+
+  // The generated sense, in the same fr/en/zh order a real entry uses. It names
+  // the slot and the root and claims nothing else — no gloss, because he wrote
+  // none, and inventing one is exactly what a dictionary must not do.
+  function slotSense(s, lang) {
+    var host = dispText(formText(slotHost(s)));
+    var L = s.slot ? SLOT_LABEL[s.slot] : null;
+    if (lang === "zh") return host + (L ? " 的" + L.zh : " 的構詞形");
+    if (lang === "en") return (L ? L.en : "form") + " of " + host;
+    return (L ? L.fr : "forme") + " de " + host;
+  }
+
+  function slotGlossHtml(s) {
+    var h = "";
+    if (shown.fr) h += '<p class="gloss morph"><span class="lang-chip fr">FR</span>' + esc(slotSense(s, "fr")) + "</p>";
+    if (shown.en) h += '<p class="gloss morph"><span class="lang-chip en">EN</span>' + esc(slotSense(s, "en")) + "</p>";
+    if (shown.zh) h += '<p class="gloss morph"><span class="lang-chip zh">中</span>' + esc(slotSense(s, "zh")) + "</p>";
+    return h;
+  }
+
+  // One line for an A–Z listing, matching indexRowHtml's shape so the two
+  // interleave without the eye catching a change of density.
+  function slotRowHtml(s) {
+    var label = dispText(formText(s.raw));
+    var h = '<article class="entry stub idx idx-slot" data-slot="' + s.n +
+      '" data-ref="' + esc(label) + '">';
+    h += '<div class="hw-line"><span class="hw stub-hw">' +
+      linkifyTruku(tidyForm(formText(s.raw)), true) + "</span>";
+    h += '<span class="tag stub-parent">→ ' +
+      linkifyTruku(tidyForm(formText(slotHost(s))), true) + "</span></div>";
+    h += '<p class="gloss stub-gloss morph">' +
+      esc(slotSense(s, shown.en ? "en" : shown.zh ? "zh" : "fr")) + "</p>";
+    return h + "</article>";
+  }
+
+  // The whole card. Everything on it is either his (the ° line, the sentences)
+  // or plainly labelled as ours (the sense, and the note that says so).
+  function slotCardHtml(s) {
+    buildConc();
+    var h = '<article class="entry slot">';
+    h += '<div class="hw-line"><span class="hw">' +
+      linkifyTruku(tidyForm(formText(s.raw)), true) + "</span>";
+    h += '<span class="tag slot-tag">' + esc("derived form / 構詞形") + "</span>";
+    h += '<span class="tag stub-parent slot-parent" data-ref="' + esc(slotHost(s)) +
+      '">→ ' + linkifyTruku(tidyForm(formText(slotHost(s))), true) + "</span></div>";
+    h += slotGlossHtml(s);
+    h += '<p class="fine morph-note">' + esc(
+      "Pecoraro does not define this form; he only lists it. The reading above is " +
+      "read off the position it holds in his ° paradigm line. / " +
+      "此詞形白氏僅列出，未加釋義；上列語法標註係依其 ° 詞形表之位置推得。") + "</p>";
+    if (s.line) {
+      h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " +
+        linkifyTruku(tidyForm(s.line), false, null, s.key) + "</p>";
+    }
+    var rows = CONC_IDX[s.key] || [];
+    if (!rows.length) {
+      h += '<p class="fine conc-more">' + esc(
+        "No example sentence in the dictionary uses this form. / 詞典例句中未見此詞形。") + "</p>";
+      return h + "</article>";
+    }
+    h += '<p class="conc-form">' + esc("Examples of use (" + rows.length +
+      ") / 用例（" + rows.length + "）") + "</p>";
+    rows.slice(0, CONC_MAX).forEach(function (n) { h += concRowHtml(n); });
+    if (rows.length > CONC_MAX) {
+      h += '<p class="fine conc-more">' +
+        esc("Showing the first " + CONC_MAX + " of " + rows.length +
+            " / 僅顯示前 " + CONC_MAX + " 則，共 " + rows.length + " 則") + "</p>";
+    }
+    return h + "</article>";
+  }
+
+  // Search reaches a slot only on an EXACT match, in either orthography. A prefix
+  // tier would put twenty generated cards in front of the entries a reader asked
+  // for; browsing to them is the A–Z listing's job, which is where they now sit.
+  function slotMatches(q) {
+    q = norm(q.trim());
+    if (!q) return [];
+    return slotList().filter(function (s) { return s.key === q || s.mkey === q; });
   }
 
   function entryHtml(e) {
@@ -1679,21 +1889,35 @@
     // Letter listings run over the sorted form index, so derived forms appear at
     // their own initial (as stubs) interleaved with the roots under that letter.
     var list = activeForms().filter(function (f) { return initial(f) === letter; });
+    // The paradigm slots file here too, or they would have a page and still no
+    // way to reach it. Both lists carry the spelling on screen, so one sort over
+    // the merged rows is what makes the column read alphabetically.
+    var slots = slotList().filter(function (s) { return slotInitial(s) === letter; });
+    var rows = list.map(function (f) { return { k: formKey(f), f: f }; })
+      .concat(slots.map(function (s) { return { k: slotKeyOf(s), s: s }; }));
+    rows.sort(function (a, b) { return a.k < b.k ? -1 : a.k > b.k ? 1 : 0; });
     currentLetter = letter;
-    currentFirst = list[0] || null;
+    // The row the toggle follows to its new letter. It is the merged row, not the
+    // FORMS record, because the first thing under a letter can now be a slot.
+    currentFirst = rows[0] || null;
     searchBox.value = letter === "#" ? "" : letter;
-    if (!list.length) {
+    if (!rows.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
     var roots = 0;
     list.forEach(function (f) { if (!f.sub && !f.alias) roots++; });
+    var head = rows.length + " forms · " + roots + " entries / " +
+      rows.length + " 個詞形 · " + roots + " 條目";
+    if (slots.length) {
+      head = rows.length + " forms (" + slots.length + " derived) · " + roots +
+        " entries / " + rows.length + " 個詞形（構詞形 " + slots.length + "）· " +
+        roots + " 條目";
+    }
     results.innerHTML =
       '<p class="letter-head"><span class="letter-head-l">' +
-      esc(letter === "#" ? "#" : letter) + "</span>" +
-      list.length + " forms · " + roots + " entries / " +
-      list.length + " 個詞形 · " + roots + " 條目</p>" +
-      list.map(indexRowHtml).join("");
+      esc(letter === "#" ? "#" : letter) + "</span>" + head + "</p>" +
+      rows.map(function (r) { return r.f ? indexRowHtml(r.f) : slotRowHtml(r.s); }).join("");
     window.scrollTo({ top: 0 });
   }
 
@@ -1725,12 +1949,29 @@
     }
     currentLetter = null;
     document.body.classList.remove("home");
+    // A slot card comes first when the query IS that form: it is the exact answer,
+    // and the entries behind it merely contain the string. `?q=%CC%81` normalizes
+    // to "" and so adds none — the whole-dictionary census still shows 1,967 cards.
+    var slots = slotMatches(searchBox.value);
     var list = filter(searchBox.value);
-    if (!list.length) {
+    if (!list.length && !slots.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
-    results.innerHTML = list.map(entryHtml).join("");
+    results.innerHTML = slots.map(slotCardHtml).join("") + list.map(entryHtml).join("");
+  }
+
+  // A slot has no entry to open, so it gets its own show function. The box is set
+  // to the form itself, which keeps the spelling toggle working: rerender() calls
+  // render(), and render() resolves that word straight back to this card.
+  function showSlot(s) {
+    hidePreview();
+    stopAudio();
+    currentLetter = null;
+    document.body.classList.remove("home");
+    searchBox.value = dispText(formText(s.raw));
+    results.innerHTML = slotCardHtml(s);
+    window.scrollTo({ top: 0 });
   }
 
   function openEntry(ref) {
@@ -1760,6 +2001,28 @@
       ev.stopPropagation();
       openEntry(cs.getAttribute("data-ref"));
       return;
+    }
+    // The root a slot belongs to, named at the top of its card. First, because it
+    // sits inside the slot card and would otherwise be swallowed by it.
+    var sp = ev.target.closest ? ev.target.closest(".slot-parent[data-ref]") : null;
+    if (sp) {
+      ev.stopPropagation();
+      openEntry(sp.getAttribute("data-ref"));
+      return;
+    }
+    // A slot link opens on ONE tap, unlike a crossref. The two-tap pattern exists
+    // to show a gloss before navigating, and a slot has no gloss to show — its
+    // whole card is the one line of morphology the preview would have carried.
+    // Checked before the stub and index-row branches, because a slot link can sit
+    // inside a concordance sentence on any card. The selector names the two
+    // things that carry data-slot and NOT the card itself: putting it on the
+    // <article> made every tap inside a slot page re-open that same page.
+    var sl = ev.target.closest
+      ? ev.target.closest(".slot-link[data-slot], .entry.idx-slot[data-slot]") : null;
+    if (sl) {
+      ev.stopPropagation();
+      var sr = slotList()[+sl.getAttribute("data-slot")];
+      if (sr) { showSlot(sr); return; }
     }
     // Rows are built here rather than at render time; the browser opens the
     // <details> afterwards, so the content is in place before it is painted.
@@ -1832,8 +2095,11 @@
 
   function rerender() {
     applySpellingClass();
-    if (currentLetter) showLetter(currentFirst ? initial(currentFirst) : currentLetter);
-    else render();
+    if (currentLetter) {
+      showLetter(currentFirst
+        ? (currentFirst.f ? initial(currentFirst.f) : slotInitial(currentFirst.s))
+        : currentLetter);
+    } else render();
   }
 
   // The one place the orthography changes, whether it was a √ / ° / § in the

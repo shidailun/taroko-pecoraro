@@ -375,6 +375,43 @@ main {
 .entry.stub.idx-sub .stub-hw { font-size: 0.98rem; font-weight: 600; }
 .entry.stub.idx-root .stub-hw { font-size: 1.12rem; }
 
+/* Paradigm slots: a form he only ever LISTED, on a page we generated. It sits at
+   the same indent as a sub-form because that is what it is — a derived form of
+   the root above it — but everything on it that is ours rather than his is set
+   in the editorial hand, and the row is marked so a reader scanning the column
+   can tell a page he wrote from a page we built. */
+.entry.stub.idx-slot { padding-left: 1.9rem; }
+.entry.stub.idx-slot .stub-hw { font-size: 0.98rem; font-weight: 600; font-style: italic; }
+.entry.slot .hw { font-style: italic; }
+.slot-tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px dashed var(--rule);
+  border-radius: 0.6rem;
+  padding: 0.08rem 0.45rem;
+}
+.slot-parent { cursor: pointer; }
+.slot-parent:hover { color: var(--accent); }
+/* A generated sense is never set like one of his definitions. */
+.gloss.morph { font-style: italic; }
+.morph-note {
+  margin: 0.4rem 0 0.6rem;
+  padding-left: 0.6rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+/* A word that is only a paradigm slot still links, and the dotted underline says
+   it goes somewhere thinner than an entry. */
+.slot-link {
+  cursor: pointer;
+  border-bottom: 1px dotted var(--rule);
+}
+.slot-link:hover { border-bottom-color: var(--accent); }
+
 /* Colour is the orthography on screen, not what is tappable. Pecoraro's spelling
    is green; modern spelling is brown, and that includes the § marker, the
    punctuation and an example's left rule, which belong to the mode rather than to

@@ -51,6 +51,67 @@ same `modernize()` path the display uses. Consequences:
   was an opaque band across the "FERDINANDO PECORARO MEP" byline, and it was
   unreachable from a listing. Don't reinstate `#alpha-row`.
 
+## Paradigm slots — a page for a form he only LISTED (2026-08-02)
+
+`FORMS` covers headwords and sub-forms, which is everything he filed. It is not
+everything he *wrote*: his `°` lines name 1,045 further types (1,028 of them
+unambiguously one entry's), and those had no page, so a reader meeting `kgusi` in
+a sentence had nowhere to go. **998 of them are now generated cards**, merged into
+the A–Z listing (5,023 rows → **6,021**) and linked from every sentence and every
+`°` line that uses the token. `SLOTS` / `SLOT_KEY` in app.js, built lazily like
+`buildConc`.
+
+- **The label is read off the POSITION, not the suffix.** His five-token `°` lines
+  are AF, citation root, imperative, LF, PF, in that order — measured 321/321 for
+  `-an` at slot 4 and 320/321 for `-un/-on` at slot 5 (`parslot3.py`). The lone
+  exception, `Pskingal ° Mpskingal, pskingal, pskngali, pskngalan, pskngalu`, is
+  his own truncation and still reads right positionally. That is what rescues the
+  syncopated tokens (`d'si`, `pai`) a suffix table can never reach; `SLOT_SUF` is
+  the fallback for lines that are not five tokens, and where neither works the card
+  says "form of X" and claims nothing. Measured on screen: 338 imperative, 336
+  patient focus, 190 locative focus, 88 actor focus, 13 citation, **33 unlabelled**.
+- **It is marked as generated, in the text and in the type.** Every card carries
+  "Pecoraro does not define this form; he only lists it" in both languages, the
+  gloss is italic (`.gloss.morph`), and the tag is dashed rather than solid. A
+  page we built must never read like a page he wrote.
+- **The examples are the concordance, not new data.** `CONC_IDX[s.key]` already
+  answers "where else in the book does this exact token occur?" — 278 slot pages
+  carry at least one, 584 sentences in all (`slotex.py`). The other 720 say so
+  plainly rather than rendering an empty card.
+- **`lookupWord()` always wins.** A form with an entry of its own is not this
+  index's business, and the test is `lookupWord()` rather than membership of
+  `FORMS`, because his bracketed aliases reach an entry through a slot `FORMS`
+  does not hold. On KGUS's line that leaves exactly `kgusi` and `kgusun` generated
+  — `kgusan` is his own sub-form and keeps its crossref.
+- **A slot link opens on ONE tap**, unlike a crossref. The two-tap pattern exists
+  to show a gloss before navigating, and a slot has no gloss to show; its whole
+  card is the one line of morphology the preview would have carried.
+- **`data-slot` must NOT go on the card's `<article>`.** With it there, the click
+  handler's `closest()` walks up from any tap inside the page — including a
+  crossref in a borrowed sentence — and re-opens the same page. The selector names
+  only the two things that carry it (`.slot-link`, `.entry.idx-slot`), and the
+  `.slot-parent` branch is checked *above* it or the root link is swallowed.
+- `currentFirst` is now the merged `{k, f}` / `{k, s}` row, not a `FORMS` record,
+  because the first thing under a letter can be a slot; `rerender()` dispatches on
+  `.f`. Slot records and FORMS records both have `.entry` and `.key`, so they
+  cannot be told apart by duck-typing — don't try.
+- `slotMatches("")` returns `[]`, so the whole-dictionary census is untouched:
+  `?q=%CC%81` still gives **1,967 cards / 895 concordance lists / 22,190 rows**
+  (`kgus4.py`), 0 page errors. `slotdom.py` is the feature's own check.
+
+**The `-an`/`-un`-as-evidence proposal, priced and rejected (2026-08-02).** Giving
+the LF/PF slots of a dark root a `verified` entry sounds like it should move the
+dark ratio and does not: **+114 occurrences → 94.3843%**, or 94.5013% with the
+imperatives, both *below* the line-mate rule's 94.7982% and all three short of 95%,
+which needs +388 of the 2,579 pale occurrences. `palemake.py` decomposes the
+DOM-measured pale census and says why: **861 of the 1,453 pale types are `(other)`**
+— no derivable suffix slot at all — carrying 1,585 occurrences, and the heaviest
+pale words (`liwis` 38, `mikat` 33, `ingay` 24, `lauken` 22, `nta` 20, `lubyaq` 20)
+are not paradigm slots. Turning every pale word dark gives 99.928%, so the ceiling
+is real; the route to it is that bucket, not the paradigm. Its `roots()` deliberately
+over-generates (each of `aeiou`, plus the `m-`/`-m-` readings) so the small answer is
+a genuine ceiling and not an artifact of the stemming.
+
 ## Display-time typography (2026-07-28)
 
 `tidy()` in `app.js` normalizes punctuation and capitalization at render time, by
