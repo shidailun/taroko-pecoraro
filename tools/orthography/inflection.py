@@ -96,7 +96,37 @@ PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
        "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps",
        "tm", "tmg", "tk", "kmp", "mkm", "mkn", "msn", "nk", "ns",
        "pnk", "pns", "psk", "snk", "sns", "dm", "qn"]
-SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi"]
+# [batch 130] SUF had never been priced. Adding each candidate alone and reading
+# the re-cut column refuses nearly all of them, and refuses the biggest number in
+# the batch: `n` bought 10 types / 23 occurrences and took `mkmisan` off `misan`
+# 冬天 for `kisa` 真, `ptungun` off `putung` 火柴, `pgnnakan` off `nak` 為己 for
+# `naka` 分. It is not a suffix. It is what `-an`/`-un` LOOKS like after a
+# vowel-final root, which roots() already knows through its swallowed vowel — so
+# putting it here corrupts regular(), the level with the most authority. `a` is
+# the same error (it gains by cutting a root's OWN final vowel: `trima` 洗澡 →
+# `trim`). `on en in ung ang ni ci han gan nay wi way yi yay yaw` gain nothing,
+# or gain only by inflating derived() past its `len(set(...)) < 2` gate — a bogus
+# suffix manufacturing its own support. `iyun`/`iyan` are strictly worse than the
+# glides: iyun cuts `pktngiyun` to `ktng` at level 4 where `yun` cuts it to the
+# LISTED `pktngi` 讓…吃飽 at level 1, his gloss 使…吃飽 exactly.
+#
+# Two admitted. `yun` is the glide a vowel-final root writes before -un
+# (`pktngi` + `un` = `pktngiyun`); it gains 5 types and its one re-cut is a
+# promotion, `spiyun` sistered → regular on `spi` 夢. `aan` is the long slot
+# CLAUDE.md already documents for the PXAAL family (`phli`, `phlan`, `phlun`,
+# `phlaan`), and `p'xlaan` is exactly what it gains.
+#
+# `yan` is REFUSED although it is the same morphology as `yun`, and the reason is
+# the standing rule that a brown claim naming the WRONG EXISTING WORD is the
+# worst state available: its unique level-1 gain is `sghuwayan` 謝意－感激 read as
+# `sg` + `huwa` 疑問句結屃詞…如何？ + `yan`, agreeing on 何 from an example
+# sentence. His word is `huway` 慷慨 — `mhuway` is how Truku says thank you, and
+# `sghuway` 靠…慷慨 is listed. What blocks the true reading is that 謝意 shares no
+# character with the modern gloss 慷慨, i.e. a dictionary gap, not a morphology
+# gap. A GLIDE GATE (y only after i, w only after u — a glide is the consonant
+# form of a high vowel) admits `yan` safely and kills `huwa`, which ends in a; it
+# has to touch all five SUF loops, so it is its own batch.
+SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi", "yun", "aan"]
 # The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
 VSUF = ("i", "ay", "aw", "ani", "anay", "aneyi")
 
@@ -167,7 +197,22 @@ HAND_NOT_VOUCHED = set("tbuur tcingi".split())
 #           the two-supporter guard was satisfied by conflating them.
 #   nilaq   his entry is the edible tree mushroom, and it agreed with `mnilaq`
 #           起屑 to flake only on the 起 of 令人想起海藻 "recalls seaweed".
-HAND_NOT_ROOTED = set("nnalu empnalu nilaq".split())
+#
+# [batch 130] Six pinned when the swallowed vowel was added below, because the
+# patch reaches them and the root it then names is wrong.
+#   tbuyun  all land on `buyu`/`nbuyu`, agreeing on the 去 of `gnbuyu` 去打獵
+#   tbuyan  against his 下去－奔下. But `buyu` is the grass/hunting root
+#   ptbuyun (`bbuyu` 打獵, `kmnbuyu` 看成…草) and batch 129 settled this family on
+#   ptbuyan `abuy` 下坡, from `tmabuy` 走下坡 — his gloss exactly. `abuy` is
+#   tnbuyan structurally unreachable here: the syncope helper restores a root's
+#           FINAL vowel, never an initial one, and these are prefix + (a)buy + un.
+#   ptungun the patch takes it off `putung` 火柴（起火用）, a LISTED word, for the
+#           hypothesis `ungu` vouched by `sungu` 加木材加火. Verified either way —
+#           the display is binary — but that is the defect `-n` was convicted for
+#           one paragraph above, and the record should name the right word.
+HAND_NOT_ROOTED = set(
+    "nnalu empnalu nilaq "
+    "tbuyun tbuyan ptbuyun ptbuyan tnbuyan ptungun".split())
 
 # sistered()'s whole output read the same way — batch 115. The rule reads no
 # gloss at all, so the way it goes wrong is the homonym: his word is a
@@ -299,6 +344,18 @@ class Inflection(object):
             stems = [(b0, False)]
             if len(b0) > 3 and b0[0] not in VOW and b0[1] in "mn":
                 stems.append((b0[0] + b0[2:], True))       # the -m-/-n- infix
+            # [batch 130] The branch above strips exactly ONE letter, so the
+            # two-letter preterite-AF `-mn-` was unreachable at every level: his
+            # `smnais` is s-mn-ais on `sais` 縫, and one-letter stripping turns it
+            # into `snais`, a different word. Priced alone it gains only
+            # `rmnngat` (← the listed `rngat` 呻吟), but both its re-cuts are
+            # promotions onto the true root — `smnais` from vouched_root(`mais`)
+            # to regular(`sais` 縫), `smnkagul` from vouched_root(`kagul`) to
+            # regular(`skagul` 遣), both of them standing leads. `nm` is refused:
+            # it gains nothing and only re-labels `mnmataru` 六 / `mnmngari` 九
+            # with the same root either way. `um` and `in` gain nothing at all.
+            if len(b0) > 4 and b0[0] not in VOW and b0[1:3] == "mn":
+                stems.append((b0[0] + b0[3:], True))
             for st, infixed in stems:
                 for sf in SUF:
                     if sf and not st.endswith(sf):
@@ -468,21 +525,40 @@ class Inflection(object):
                 for sf in SUF:
                     if sf and not st.endswith(sf):
                         continue
-                    c = st[:len(st) - len(sf)] if sf else st
-                    if len(c) < 4 or c in self.lex or c in self.frozen or c == v:
-                        continue
-                    d = self.derived(c)
-                    if len(set(d.values())) < 2:
-                        continue
-                    if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
-                        continue
-                    for w in sorted(d, key=lambda w: (len(w), w)):
-                        sh = self._agrees(his, w)
-                        if sh:
-                            cost = len(p) + len(sf)
-                            if best is None or cost < best[0]:
-                                best = (cost, (c, p, sf, w, sh))
-                            break
+                    # [batch 130] THE LEVELS DO NOT SHARE A MORPHOLOGY. This
+                    # method splits for itself, and until now it split without
+                    # the thing roots() does two hundred lines up: -un/-an
+                    # SWALLOW a vowel-final root's last vowel, so `pspaan` is
+                    # p + `spai` + an and `pspa` is not a root at all. roots()
+                    # restores that vowel; this did not, which made a vowel-final
+                    # UNLISTED root unreachable at level 4 however good its
+                    # evidence — the same chokepoint argument as PRE, one level
+                    # down. Found by asking why `-n` appeared to buy anything:
+                    # it was not roots() gaining, it was this splitter mistaking
+                    # `-an` for `-a` + `-n`. Priced alone: +17 types / 38
+                    # occurrences, 0 de-verified, 3 re-cuts of which 2 are
+                    # promotions. Six values are pinned out of it by hand above.
+                    c0 = st[:len(st) - len(sf)] if sf else st
+                    cands = [c0]
+                    if sf in ("un", "an", "ani", "anay", "aneyi"):
+                        cands += [c0 + x for x in VOW]     # the swallowed vowel
+                    for c in cands:
+                        if (len(c) < 4 or c in self.lex or c in self.frozen
+                                or c == v):
+                            continue
+                        d = self.derived(c)
+                        if len(set(d.values())) < 2:
+                            continue
+                        if (not c.endswith(VSUF)
+                                and not any(w[2] for w in d.values())):
+                            continue
+                        for w in sorted(d, key=lambda w: (len(w), w)):
+                            sh = self._agrees(his, w)
+                            if sh:
+                                cost = len(p) + len(sf)
+                                if best is None or cost < best[0]:
+                                    best = (cost, (c, p, sf, w, sh))
+                                break
         return best[1] if best else None
 
     # ---- the sister slots: a paradigm the wordlist writes with other suffixes
