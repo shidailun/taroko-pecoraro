@@ -1671,8 +1671,8 @@
    "tier": "B"
   },
   "bulax": {
-   "modern": "burah",
-   "tier": "B"
+   "modern": "bgurah",
+   "tier": "M"
   },
   "buon": {
    "modern": "buun",
@@ -3741,7 +3741,7 @@
    "tier": "A"
   },
   "kbulax": {
-   "modern": "kburah",
+   "modern": "kbgurah",
    "tier": "M"
   },
   "kdadax": {
@@ -5573,7 +5573,7 @@
    "tier": "M"
   },
   "l'pun": {
-   "modern": "lpun",
+   "modern": "rpun",
    "tier": "M"
   },
   "l'qnux": {
@@ -7299,10 +7299,8 @@
    "tier": "M"
   },
   "mbulax": {
-   "modern": "emburah",
-   "tier": "W",
-   "w_was": "mburah",
-   "w_how": "class"
+   "modern": "bgurah",
+   "tier": "M"
   },
   "mbuyas": {
    "modern": "nbuyas",
@@ -11221,7 +11219,7 @@
    "tier": "M"
   },
   "pbulax": {
-   "modern": "pburah",
+   "modern": "pbgurah",
    "tier": "M"
   },
   "pbxlao": {
@@ -11601,7 +11599,7 @@
    "tier": "id"
   },
   "pkbulax": {
-   "modern": "pkburah",
+   "modern": "pkbgurah",
    "tier": "M"
   },
   "pkbuyo": {
@@ -17461,8 +17459,8 @@
    "tier": "id"
   },
   "swai": {
-   "modern": "swai",
-   "tier": "T"
+   "modern": "swayi",
+   "tier": "M"
   },
   "swatan": {
    "modern": "swatan",
@@ -18058,8 +18056,8 @@
    "tier": "T"
   },
   "tdoloi": {
-   "modern": "tduruy",
-   "tier": "B"
+   "modern": "tdruy",
+   "tier": "M"
   },
   "tdyalan": {
    "modern": "tjyalan",
@@ -19840,8 +19838,8 @@
    "tier": "M"
   },
   "xeaon": {
-   "modern": "hiyaun",
-   "tier": "B"
+   "modern": "hyaun",
+   "tier": "M"
   },
   "xebong": {
    "modern": "hibung",
@@ -20583,6 +20581,10 @@
    "modern": "yak",
    "tier": "M"
   },
+  "yax": {
+   "modern": "iyax",
+   "tier": "M"
+  },
   "yaxan": {
    "modern": "yahan",
    "tier": "A"
@@ -20646,6 +20648,10 @@
   "yux": {
    "modern": "yuh",
    "tier": "B"
+  },
+  "yyax": {
+   "modern": "iiyah",
+   "tier": "M"
   },
   "yyaxan": {
    "modern": "yyahan",
@@ -23089,6 +23095,10 @@
   },
   "p'silong": {
    "modern": "psilung",
+   "tier": "P"
+  },
+  "p'yax": {
+   "modern": "piyax",
    "tier": "P"
   },
   "paisan": {
@@ -27007,10 +27017,6 @@
    "modern": "nhuqil",
    "tier": "R"
   },
-  "p'yax": {
-   "modern": "pyah",
-   "tier": "R"
-  },
   "page": {
    "modern": "pagi",
    "tier": "R"
@@ -28291,10 +28297,6 @@
   },
   "xnut": {
    "modern": "hnut",
-   "tier": "R"
-  },
-  "yax": {
-   "modern": "yah",
    "tier": "R"
   },
   "yup": {
@@ -29923,12 +29925,6 @@
    "d_rule": "CV-",
    "d_base": "xmadan"
   },
-  "yyax": {
-   "modern": "yyah",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "yax"
-  },
   "bnlnaxan": {
    "modern": "bnrnahan",
    "tier": "E",
@@ -31138,6 +31134,21 @@
      "words": true,
      "gloss": 0,
      "dist": 4,
+     "agg": true
+    }
+   ]
+  },
+  "p'yax": {
+   "freq": 2,
+   "pec_gloss": [
+    "留一個間隔兩個物體之間兩個時間點之間"
+   ],
+   "cands": [
+    {
+     "cand": "pix",
+     "words": true,
+     "gloss": 0,
+     "dist": 3,
      "agg": true
     }
    ]

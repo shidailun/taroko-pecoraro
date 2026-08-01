@@ -106,7 +106,6 @@ mbslat           embsrat           mbsrat           P/twin       0     1
 mbsqlol          embsqrul          mbsqrul          M/class      0     1
 mbudo            embudu            mbudu            P/twin       0     2
 mbukao           embukaw           mbukaw           P/twin       0     2
-mbulax           emburah           mburah           T/class      0     2
 mbutul           embutul           mbutul           P/twin       0     2
 mbuyan           embuyan           mbuyan           R/class      0     1
 mp'baki          empbaki           mpbaki           P/class      0     1
