@@ -140,7 +140,6 @@ mpgdadak         empgdadak         mpgdadak         P/twin       0     1
 mpgdgit          empgdgit          mpgdgit          R/class      0     1
 mpglaxol         empgrahul         mpgrahul         P/class      0     1
 mpia             empiya            mpiya            P/class      0     2
-mpk'lae          empklai           mpklai           P/class      0     1
 mpkd'la          empkdra           mpkdra           P/class      0     2
 mpkdglil         empkdgril         mpkdgril         P/class      0     1
 mpkdolox         empqdrux          mpqdrux          M/class      0     1
