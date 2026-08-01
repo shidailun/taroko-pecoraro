@@ -11,7 +11,6 @@ pitai            pitay                12     3
 sl'sun           srsun                 4     3
 sxngiyun         shngiyun             10     3
 tome             tumi                 16     3
-waxe             wahi                  6     3
 yudao            yudaw                44     3
 abis             abis                  4     2
 dnyagan          dnyagan               2     2

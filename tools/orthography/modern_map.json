@@ -11515,7 +11515,7 @@
    "tier": "M"
   },
   "pito": {
-   "modern": "pitu",
+   "modern": "empitu",
    "tier": "M"
   },
   "pixan": {
@@ -19590,8 +19590,12 @@
    "tier": "id"
   },
   "waxan": {
-   "modern": "wahan",
-   "tier": "T"
+   "modern": "rwahan",
+   "tier": "M"
+  },
+  "waxe": {
+   "modern": "rwahi",
+   "tier": "M"
   },
   "waxel": {
    "modern": "wahir",
@@ -19814,8 +19818,8 @@
    "tier": "M"
   },
   "xdolun": {
-   "modern": "hdlun",
-   "tier": "L"
+   "modern": "hdurun",
+   "tier": "M"
   },
   "xdyalan": {
    "modern": "hjyalan",
@@ -23724,7 +23728,7 @@
    "tier": "P"
   },
   "pnpito": {
-   "modern": "pnpitu",
+   "modern": "pnempitu",
    "tier": "P"
   },
   "pnpsalan": {
@@ -28658,11 +28662,6 @@
    "tier": "S",
    "spoken": 16
   },
-  "waxe": {
-   "modern": "wahi",
-   "tier": "S",
-   "spoken": 6
-  },
   "wilang": {
    "modern": "wilang",
    "tier": "S",
@@ -29437,7 +29436,7 @@
    "d_base": "pgalup"
   },
   "mnpito": {
-   "modern": "mnpitu",
+   "modern": "mnempitu",
    "tier": "D",
    "d_rule": "mn-",
    "d_base": "pito"

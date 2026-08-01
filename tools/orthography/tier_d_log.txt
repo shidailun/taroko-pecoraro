@@ -33,7 +33,7 @@ mnlglu           mnlglug          mn-    mlglu            M
 mnmngali         mnmngari         CVCV-  mngali           B
 mnotoç           mnutux           mn-    otoç             M
 mnpgalup         mnpgealuk        mn-    pgalup           M
-mnpito           mnpitu           mn-    pito             M
+mnpito           mnempitu         mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
 mnssl'pong       mnsslupung       mn-    mssl'pong        M
