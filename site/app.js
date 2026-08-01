@@ -1355,7 +1355,7 @@
   // a loan or a name, the two populations whose headwords are spelled like
   // ordinary Truku words: his MISO is 味噌 and would otherwise take the 63
   // sentences using `miso` "your". Same exclusion tier W makes, for the same
-  // reason. Measured over the book: 895 of 1,967 entries get a list, 22,193 rows
+  // reason. Measured over the book: 895 of 1,967 entries get a list, 22,190 rows
   // in all, and the only lists that run long are his grammatical particles
   // (KA 3,185), which are also the entries a concordance helps least.
   var CONC_MAX = 40;
@@ -1424,29 +1424,54 @@
   }
 
   // Book order, and never a sentence the card is already printing above.
+  //
+  // Grouped by the form that pulled the row in, because the ungrouped list could
+  // not answer the first question a reader asks of it. KUGUS owns all five slots
+  // of `Kmugus, kugus, kgusi, kgusan, kgusun`, and both of its rows are `kgusi` —
+  // elsewhere in the book he only ever uses the imperative, never the bare root.
+  // The block was right and looked wrong: it had been asked for the sentences of
+  // KGUS and was showing sentences of a word ending in -i, with nothing on screen
+  // to say those are the same paradigm. A form heading is the whole fix, and it
+  // is also the word-by-word view — every owned slot that occurs elsewhere gets
+  // its own labelled group, so a sub-form like `kmgus` is reachable too instead
+  // of being silently folded into its root's pile.
+  //
+  // `seen` remembers WHICH form claimed each row rather than just that one did.
+  // CONC_OWN order is the entry's own order — headword, then his paradigm line,
+  // then the sub-forms — so the groups come out in the order the card above
+  // already prints them.
   function concHits(ei) {
     buildConc();
     if (CONC_HITS[ei]) return CONC_HITS[ei];
-    var seen = {}, out = [];
+    var seen = {}, out = [], groups = [], byTok = {};
     (CONC_OWN[ei] || []).forEach(function (k) {
       (CONC_IDX[k] || []).forEach(function (n) {
-        if (seen[n] || CONC_SENT[n].ei === ei) return;
-        seen[n] = 1;
+        if (Object.prototype.hasOwnProperty.call(seen, n) ||
+            CONC_SENT[n].ei === ei) return;
+        seen[n] = k;
         out.push(n);
+        if (!Object.prototype.hasOwnProperty.call(byTok, k)) {
+          byTok[k] = [];
+          groups.push(k);
+        }
+        byTok[k].push(n);
       });
     });
     out.sort(function (a, b) { return a - b; });
-    CONC_HITS[ei] = out;
-    return out;
+    groups.forEach(function (k) {
+      byTok[k].sort(function (a, b) { return a - b; });
+    });
+    CONC_HITS[ei] = { rows: out, groups: groups, byTok: byTok };
+    return CONC_HITS[ei];
   }
 
   function concHtml(e) {
     var ei = window.ENTRIES.indexOf(e);
     if (ei < 0) return "";
-    var n = concHits(ei).length;
+    var n = concHits(ei).rows.length;
     if (!n) return "";
     return '<details class="conc" data-conc="' + ei + '"><summary class="conc-head">' +
-      esc("Elsewhere in the dictionary (" + n + ") / 詞典中其他例句（" + n + "）") +
+      esc("Elsewhere (" + n + ") / 其他例句（" + n + "）") +
       '</summary><div class="conc-body"></div></details>';
   }
 
@@ -1459,22 +1484,32 @@
     var body = det.querySelector(".conc-body");
     if (!body) return;
     var hits = concHits(+det.getAttribute("data-conc"));
-    var h = "";
-    hits.slice(0, CONC_MAX).forEach(function (n) {
-      var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
-      h += '<div class="example conc-row"><div class="truku">' +
-        spellMark("§", "Example / exemple") + " " +
-        linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
-      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
-      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
-      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
-      h += '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
-        linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
+    var h = "", left = CONC_MAX;
+    hits.groups.forEach(function (k) {
+      if (left <= 0) return;
+      var rows = hits.byTok[k];
+      // The heading is the form itself, through linkifyTruku so it follows the
+      // spelling toggle and takes the same word colours as everything else — a
+      // group under `kgusi` must not sit there in his spelling on a modern page.
+      h += '<p class="conc-form">' + linkifyTruku(k, true) +
+        ' <span class="fine">(' + rows.length + ')</span></p>';
+      rows.slice(0, left).forEach(function (n) {
+        var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
+        h += '<div class="example conc-row"><div class="truku">' +
+          spellMark("§", "Example / exemple") + " " +
+          linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+        if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
+        if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
+        if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+        h += '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
+          linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
+      });
+      left -= rows.length;
     });
-    if (hits.length > CONC_MAX) {
+    if (hits.rows.length > CONC_MAX) {
       h += '<p class="fine conc-more">' +
-        esc("Showing the first " + CONC_MAX + " of " + hits.length +
-            " / 僅顯示前 " + CONC_MAX + " 則，共 " + hits.length + " 則") + "</p>";
+        esc("Showing the first " + CONC_MAX + " of " + hits.rows.length +
+            " / 僅顯示前 " + CONC_MAX + " 則，共 " + hits.rows.length + " 則") + "</p>";
     }
     body.innerHTML = h;
   }

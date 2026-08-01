@@ -289,6 +289,15 @@ main {
 }
 .conc-src:hover { color: var(--accent); }
 .conc-more { color: var(--muted); font-size: 0.82rem; margin: 0.5rem 0 0; }
+/* Which slot of the paradigm the rows under it belong to. Sits above the rows,
+   not inside one, so it reads as a heading rather than as another example. */
+.conc-form {
+  margin: 0.75rem 0 0.3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+.conc-form:first-child { margin-top: 0.2rem; }
+.conc-form .fine { color: var(--muted); font-size: 0.8rem; }
 
 .subentry {
   margin-top: 0.85rem;
