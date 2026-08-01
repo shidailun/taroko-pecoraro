@@ -1574,37 +1574,68 @@
     return null;
   }
 
+  // A ° line cut into the slots he wrote, rather than into words. A token inside
+  // a bracket joins the cell before it — `plqe (pl'qe)` is one slot spelled twice
+  // — and `.?.`, his own mark for a slot he could not fill, opens an empty cell so
+  // the ones after it keep their positions. Depth is counted from the text between
+  // tokens, so an opening bracket is seen before the word it encloses and the
+  // closing one after.
+  var SLOT_GAP = /\.\s*\?\s*\./;
+  function cells(text) {
+    var out = [], depth = 0, at = 0, re = new RegExp(TRUKU_TOKEN_G.source, "g"), m;
+    text = text || "";
+    while ((m = re.exec(text)) !== null) {
+      var pre = text.slice(at, m.index);
+      at = re.lastIndex;
+      for (var i = 0; i < pre.length; i++) {
+        var c = pre.charAt(i);
+        if (c === "(" || c === "[") depth++;
+        else if ((c === ")" || c === "]") && depth) depth--;
+      }
+      if (SLOT_GAP.test(pre)) out.push([]);
+      var k = wordKey(m[0]);
+      if (k.length < 2 || !TRUKU_LETTER.test(k)) continue;
+      if (Object.prototype.hasOwnProperty.call(FORM_PROSE, k) ||
+          Object.prototype.hasOwnProperty.call(TAG_PROSE, k) ||
+          Object.prototype.hasOwnProperty.call(META_ABBR, k)) continue;
+      if (depth > 0 && out.length) out[out.length - 1].push({ key: k, raw: m[0] });
+      else out.push([{ key: k, raw: m[0] }]);
+    }
+    return out;
+  }
+
   function buildSlots() {
     if (SLOTS) return;
     var seen = {};
     window.ENTRIES.forEach(function (e, i) {
       function readLine(text, host) {
-        var m = (text || "").match(TRUKU_TOKEN_G);
-        if (!m) return;
-        var toks = [];
-        for (var j = 0; j < m.length; j++) {
-          var k = wordKey(m[j]);
-          if (k.length < 2 || !TRUKU_LETTER.test(k)) continue;
-          if (Object.prototype.hasOwnProperty.call(FORM_PROSE, k) ||
-              Object.prototype.hasOwnProperty.call(TAG_PROSE, k) ||
-              Object.prototype.hasOwnProperty.call(META_ABBR, k)) continue;
-          toks.push({ key: k, raw: m[j] });
-        }
-        var pos = toks.length === 5 ? SLOT_ORDER : null;
-        toks.forEach(function (t, j) {
-          // A form with a page of its own is not this index's business — and the
-          // test is lookupWord(), not membership of FORMS, because his bracketed
-          // aliases reach the same entry through a slot FORMS does not hold.
-          if (lookupWord(t.raw)) return;
-          var rec = seen[t.key];
-          if (rec !== undefined) {
-            if (rec !== -1 && rec.ei !== i) seen[t.key] = -1;
-            return;
-          }
-          seen[t.key] = {
-            key: t.key, raw: t.raw, ei: i, entry: e, host: host,
-            line: text, slot: pos ? pos[j] : slotSuffix(t.key)
-          };
+        var cl = cells(text);
+        // The positional read is what the labels are made of, so it has to be
+        // counted the way he wrote the line: five SLOTS, of which a bracketed
+        // alternate is a second spelling and `.?.` is one he left blank. Counting
+        // tokens instead gives eight for `Mploq, ploq, plqe (pl'qe), plqan
+        // (pl'qan), plqon (pl'qon)` and forfeits the whole line. Measured
+        // (parslot4.py): 381 of the 404 ° lines hold five cells, against 321 by
+        // token, and the invariant is stronger on the wider basis — cell 4 ends
+        // -an 380/380 and cell 5 -un/-on 380/381, the one exception being
+        // Pskingal's own truncated `pskngalu`.
+        var pos = cl.length === 5 ? SLOT_ORDER : null;
+        cl.forEach(function (cell, j) {
+          cell.forEach(function (t) {
+            // A form with a page of its own is not this index's business — and the
+            // test is lookupWord(), not membership of FORMS, because his bracketed
+            // aliases reach the same entry through a slot FORMS does not hold.
+            if (lookupWord(t.raw)) return;
+            var rec = seen[t.key];
+            if (rec !== undefined) {
+              if (rec !== -1 && rec.ei !== i) seen[t.key] = -1;
+              return;
+            }
+            seen[t.key] = {
+              key: t.key, raw: t.raw, ei: i, entry: e, host: host,
+              line: text, slot: pos ? pos[j] : slotSuffix(t.key)
+            };
+          });
         });
       }
       readLine(e.paradigm, null);
