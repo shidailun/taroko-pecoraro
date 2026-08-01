@@ -4158,7 +4158,7 @@
    "tier": "M"
   },
   "kluyun": {
-   "modern": "kluyun",
+   "modern": "klwiun",
    "tier": "M"
   },
   "klwaai": {
@@ -11514,9 +11514,17 @@
    "modern": "pgaya",
    "tier": "id"
   },
+  "pgdangan": {
+   "modern": "prdangan",
+   "tier": "M"
+  },
+  "pgdangi": {
+   "modern": "prdangi",
+   "tier": "M"
+  },
   "pgdangun": {
-   "modern": "pgdangun",
-   "tier": "T"
+   "modern": "prdangun",
+   "tier": "M"
   },
   "pgdgit": {
    "modern": "pgdgit",
@@ -13202,7 +13210,7 @@
    "tier": "M"
   },
   "pskluyun": {
-   "modern": "pskluyun",
+   "modern": "psklwiun",
    "tier": "M"
   },
   "psklyaai": {
@@ -15844,7 +15852,7 @@
    "tier": "M"
   },
   "skluyun": {
-   "modern": "skluyun",
+   "modern": "sklwiun",
    "tier": "M"
   },
   "skmalu": {
@@ -20679,8 +20687,8 @@
    "tier": "M"
   },
   "xpuyan": {
-   "modern": "hpuyan",
-   "tier": "B"
+   "modern": "puyan",
+   "tier": "M"
   },
   "xpuyun": {
    "modern": "hpuyun",
@@ -27144,14 +27152,6 @@
   },
   "pg'go": {
    "modern": "pggu",
-   "tier": "R"
-  },
-  "pgdangan": {
-   "modern": "pgdangan",
-   "tier": "R"
-  },
-  "pgdangi": {
-   "modern": "pgdangi",
    "tier": "R"
   },
   "pgiai": {
