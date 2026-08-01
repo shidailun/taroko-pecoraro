@@ -1335,6 +1335,150 @@
     return h + "</div>";
   }
 
+  // ---------- concordance: his other sentences for the same word ----------
+  // A card shows the sentences he filed UNDER this entry. The same word turns up
+  // all over the rest of the book inside other entries' examples, and nothing
+  // reaches those: the search box finds an entry, never a sentence. This is a
+  // second index over the same 5,437 example lines — no new data, no fetch (the
+  // R2 base is audio only), and no row built until the reader opens the block.
+  //
+  // A token earns a place in an entry's list only if THIS entry is the only one
+  // filing it as a form. His compound headwords hold a native word inside them —
+  // `Sapax kensat` "police station" — so enrolling every token of a multi-word
+  // form handed the police station all 358 sentences that mention a house, and
+  // GASUT 1,494 of them. Tier J states the same restriction in the generator, for
+  // the same reason.
+  //
+  // One tie-break on top of that, worth 86 entries: when exactly one claimant
+  // files the token as its own HEADWORD the ambiguity is only apparent — TAMA
+  // 父親 heads the word and `Tama denki` merely contains it. It does not run for
+  // a loan or a name, the two populations whose headwords are spelled like
+  // ordinary Truku words: his MISO is 味噌 and would otherwise take the 63
+  // sentences using `miso` "your". Same exclusion tier W makes, for the same
+  // reason. Measured over the book: 895 of 1,967 entries get a list, 22,193 rows
+  // in all, and the only lists that run long are his grammatical particles
+  // (KA 3,185), which are also the entries a concordance helps least.
+  var CONC_MAX = 40;
+  var CONC_FROZEN = /emprunt|\(J|name\s*\(/;
+  var CONC_SENT = null;   // [{ ei: entry index, x: his example object }]
+  var CONC_OWN = null;    // entry index -> the tokens only it files as a form
+  var CONC_IDX = null;    // token -> sentence indices
+  var CONC_HITS = null;   // entry index -> memoized hit list
+
+  // His French gets into a form field and into an example line alike, so the same
+  // prose sets the renderer greys out are excluded here — otherwise `de` and `la`
+  // would be the two best-attested "words" in the book. A one-letter token is his
+  // abbreviation mark (R., J.), never a word to look up.
+  function concKeys(text, out) {
+    var m = (text || "").match(TRUKU_TOKEN_G);
+    if (!m) return out;
+    for (var i = 0; i < m.length; i++) {
+      var k = wordKey(m[i]);
+      if (k.length < 2 || !TRUKU_LETTER.test(k)) continue;
+      if (Object.prototype.hasOwnProperty.call(FORM_PROSE, k) ||
+          Object.prototype.hasOwnProperty.call(TAG_PROSE, k) ||
+          Object.prototype.hasOwnProperty.call(META_ABBR, k)) continue;
+      out[k] = 1;
+    }
+    return out;
+  }
+
+  function buildConc() {
+    if (CONC_SENT) return;
+    CONC_SENT = []; CONC_OWN = []; CONC_IDX = {}; CONC_HITS = [];
+    var owners = {}, heads = {};
+    window.ENTRIES.forEach(function (e, i) {
+      var own = concKeys(e.paradigm, concKeys(e.hw, {}));
+      if (!CONC_FROZEN.test(e.tag || "")) {
+        Object.keys(concKeys(e.hw, {})).forEach(function (k) {
+          if (!Object.prototype.hasOwnProperty.call(heads, k)) heads[k] = i;
+          else if (heads[k] !== i) heads[k] = -1;
+        });
+      }
+      (e.examples || []).forEach(function (x) {
+        if (x.t) CONC_SENT.push({ ei: i, x: x });
+      });
+      (e.subs || []).forEach(function (s) {
+        concKeys(s.form, own);
+        concKeys(s.paradigm, own);
+        (s.examples || []).forEach(function (x) {
+          if (x.t) CONC_SENT.push({ ei: i, x: x });
+        });
+      });
+      var keys = Object.keys(own);
+      CONC_OWN.push(keys);
+      keys.forEach(function (k) {
+        if (!Object.prototype.hasOwnProperty.call(owners, k)) owners[k] = i;
+        else if (owners[k] !== i) owners[k] = -1;
+      });
+    });
+    CONC_OWN = CONC_OWN.map(function (keys, i) {
+      return keys.filter(function (k) { return owners[k] === i || heads[k] === i; });
+    });
+    CONC_SENT.forEach(function (row, n) {
+      Object.keys(concKeys(row.x.t, {})).forEach(function (k) {
+        if (!Object.prototype.hasOwnProperty.call(CONC_IDX, k)) CONC_IDX[k] = [];
+        CONC_IDX[k].push(n);
+      });
+    });
+  }
+
+  // Book order, and never a sentence the card is already printing above.
+  function concHits(ei) {
+    buildConc();
+    if (CONC_HITS[ei]) return CONC_HITS[ei];
+    var seen = {}, out = [];
+    (CONC_OWN[ei] || []).forEach(function (k) {
+      (CONC_IDX[k] || []).forEach(function (n) {
+        if (seen[n] || CONC_SENT[n].ei === ei) return;
+        seen[n] = 1;
+        out.push(n);
+      });
+    });
+    out.sort(function (a, b) { return a - b; });
+    CONC_HITS[ei] = out;
+    return out;
+  }
+
+  function concHtml(e) {
+    var ei = window.ENTRIES.indexOf(e);
+    if (ei < 0) return "";
+    var n = concHits(ei).length;
+    if (!n) return "";
+    return '<details class="conc" data-conc="' + ei + '"><summary class="conc-head">' +
+      esc("Elsewhere in the dictionary (" + n + ") / 詞典中其他例句（" + n + "）") +
+      '</summary><div class="conc-body"></div></details>';
+  }
+
+  // Filled on first open, not at render time: the whole-dictionary view sets 1,967
+  // cards at once, and building all 19,743 rows into that string would cost
+  // megabytes of HTML nobody asked to see.
+  function fillConc(det) {
+    if (!det || det.getAttribute("data-filled")) return;
+    det.setAttribute("data-filled", "1");
+    var body = det.querySelector(".conc-body");
+    if (!body) return;
+    var hits = concHits(+det.getAttribute("data-conc"));
+    var h = "";
+    hits.slice(0, CONC_MAX).forEach(function (n) {
+      var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
+      h += '<div class="example conc-row"><div class="truku">' +
+        spellMark("§", "Example / exemple") + " " +
+        linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
+      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
+      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+      h += '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
+        linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
+    });
+    if (hits.length > CONC_MAX) {
+      h += '<p class="fine conc-more">' +
+        esc("Showing the first " + CONC_MAX + " of " + hits.length +
+            " / 僅顯示前 " + CONC_MAX + " 則，共 " + hits.length + " 則") + "</p>";
+    }
+    body.innerHTML = h;
+  }
+
   function entryHtml(e) {
     var h = '<article class="entry">';
     h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
@@ -1387,6 +1531,7 @@
       h += examplesHtml(s.examples);
       h += "</div>";
     });
+    h += concHtml(e);
     if (e.truncated) h += '<p class="fine" style="color:var(--muted);font-size:0.82rem;margin:0.6rem 0 0;">⚠ Entry truncated in the scanned pilot pages. / 條目於掃描頁末中斷。</p>';
     return h + "</article>";
   }
@@ -1573,6 +1718,18 @@
       playClip(ab.getAttribute("data-audio"), ab);
       return;
     }
+    // A concordance row names the entry it was borrowed from, and that pointer
+    // opens on ONE tap: it is a card reference like a stub, not a word to preview.
+    var cs = ev.target.closest ? ev.target.closest(".conc-src[data-ref]") : null;
+    if (cs) {
+      ev.stopPropagation();
+      openEntry(cs.getAttribute("data-ref"));
+      return;
+    }
+    // Rows are built here rather than at render time; the browser opens the
+    // <details> afterwards, so the content is in place before it is painted.
+    var cd = ev.target.closest ? ev.target.closest("summary.conc-head") : null;
+    if (cd) { fillConc(cd.parentNode); return; }
     // Checked before the stub, because an abbreviation can sit inside one.
     var ma = ev.target.closest ? ev.target.closest(".meta-abbr[data-abbr]") : null;
     if (ma) {

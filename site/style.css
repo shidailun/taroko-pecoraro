@@ -264,6 +264,32 @@ main {
 
 .example .ex-gloss { margin: 0.08rem 0 0; font-size: 0.95rem; }
 
+/* Every other sentence in the book that uses this entry's words. Closed by
+   default: it is a reference apparatus, not part of the entry, and on his
+   particles it runs to thousands of lines. */
+.conc { margin: 0.85rem 0 0; }
+.conc-head {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--muted);
+  padding: 0.25rem 0;
+  border-top: 1px dashed var(--rule);
+  list-style: none;
+}
+.conc-head::-webkit-details-marker { display: none; }
+.conc-head::before { content: "▸ "; }
+.conc[open] > .conc-head::before { content: "▾ "; }
+.conc-head:hover { color: var(--accent); }
+.conc-row { border-left-color: var(--rule); }
+.conc-src {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.conc-src:hover { color: var(--accent); }
+.conc-more { color: var(--muted); font-size: 0.82rem; margin: 0.5rem 0 0; }
+
 .subentry {
   margin-top: 0.85rem;
   padding-top: 0.75rem;
