@@ -571,3 +571,81 @@ class Inflection(object):
                     if best is None or cost < best[0]:
                         best = (cost, (r, p, sf, sh))
         return best[1] if best else None
+
+    # ---- the root's root: a glossless root one step from a glossed one ------
+    def chained(self, v):
+        """(root, base, prefix, suffix, how, shared char) or None.
+
+        Every rule above stops at the first LISTED root and asks its gloss.
+        Most of a paradigm is glossless, so that question often comes back
+        empty even when the root is exactly right — `qnqgu` is q-n- on `qqgu`,
+        which regular() reaches through the infix branch and then abandons,
+        because `qqgu` is a corpus token nobody glossed.
+
+        But a glossless root is often one obvious step from a glossed one, and
+        it is the same regular morphology roots() already knows:
+
+          the reduplication  `qqgu` is CV- on `qgu` 公雞叫聲, `sskuxul` on
+          `skuxul` 喜歡, `kkhnuk` on `khnuk` 要軟. CLAUDE.md's tier D says a
+          CV- reduplication makes no new lexeme, so the base's gloss IS the
+          reduplicate's gloss. PRE has no doubling entry and never will — a
+          doubled initial is not a prefix — so nothing else can reach these.
+
+          the second step  the root is itself a regular inflection: `swiwil`
+          off `wiwil` 垂, `psriyux` off `riyux` 換, `psupu` off `upu` 共. Five
+          of the ten are `ms-` reciprocals sitting on an `s-` form, which is
+          ordinary Truku morphology twice over.
+
+        `kkhnuk` shows why the fallback earns its keep even when the root IS
+        glossed: it is listed and glossed 使...便宜, only the price sense, while
+        his Pkkhnuk is 為了使（某物）更鬆軟. The base `khnuk` 要軟;要便宜 carries
+        both, so the base recovers a sense the reduplicate's own listing
+        dropped.
+
+        Two steps of inference is one more than vouched_root() and syncopated()
+        take, so it carries their gate and for the same reason: his Chinese must
+        be Chinese he attached to the word AS a word. That gate is not
+        decoration here — it is the whole difference between the rule and a
+        coincidence. Ungated this finds 16 shapes; the gate refuses six, and
+        those six are every illicit spelling in the set (`nniyah`, `nslikaw`,
+        `spsqrinut`) plus `msneanak` and `ssdhaun`. Everything it admits is
+        licit.
+
+        What survives the gate on a pronoun is `msdeita`, his Msdita 善於交際的
+        ——友好的——與我們來往的, off `deita` 我們. Batch 116 refused `nta` twice
+        on that same character, so the distinction has to be stated: 我們 is
+        junk when the claim is WHICH pronoun — `nta` and `nita` both mean 我們的
+        and the character cannot choose between them — and it is evidence when
+        the claim is a derivation OF the pronoun, which is what his own gloss
+        says in words. The modern dictionary settles it from the other side:
+        its whole sociable-associate vocabulary is `msixal`, `mssixal`,
+        `sixal`, `mrrawiq`, `ggdangi`, and not one of them is shaped remotely
+        like Msdita, while `msd-` + a listed root is a pattern with 33 siblings
+        (`msdalih` off `dalih`, `msdara` off `dara`, `msdrudan` off `rudan`).
+        """
+        if v in self.frozen or v in self.lex:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for c, p, sf, slot in self.roots(v):
+            if len(c) > 3 and c[0] == c[1] and c[0] not in VOW:
+                b = c[1:]
+                if b in self.lex and b != v and b not in self.frozen:
+                    sh = self._agrees(his, b)
+                    if sh:
+                        cost = len(p) + len(sf)
+                        if best is None or cost < best[0]:
+                            best = (cost, (c, b, p, sf, "redup", sh))
+            for c2, p2, sf2, slot2 in self.roots(c):
+                if c2 == v or c2 == c or c2 in self.frozen:
+                    continue
+                sh = self._agrees(his, c2)
+                if not sh:
+                    continue
+                cost = len(p) + len(sf) + len(p2) + len(sf2)
+                if best is None or cost < best[0]:
+                    best = (cost, (c, c2, p + "|" + p2, sf + "|" + sf2,
+                                   "step", sh))
+        return best[1] if best else None

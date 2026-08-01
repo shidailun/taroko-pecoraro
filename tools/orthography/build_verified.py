@@ -72,7 +72,8 @@ def main():
         """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,
         0.25 a regular inflection of a root vouched that way, 0.125 a slot the
         wordlist writes with two other suffixes, 0.0625 an inflection of a
-        listed root that syncopates its own first vowel."""
+        listed root that syncopates its own first vowel, 0.03125 an inflection
+        of a root that is itself one step from a glossed one."""
         if p in lex:
             return 2
         if inf.regular(p):
@@ -85,6 +86,8 @@ def main():
             return 0.125
         if inf.syncopated(p):
             return 0.0625
+        if inf.chained(p):
+            return 0.03125
         return 0
 
     def level(v):
@@ -109,8 +112,9 @@ def main():
     vroot = sorted(v for v in keys if lv[v] == 0.25)
     sistr = sorted(v for v in keys if lv[v] == 0.125)
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
-    good = sorted(listed + infl + vouch + vroot + sistr + syncp)
-    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5, 0.0625: 6}
+    chain = sorted(v for v in keys if lv[v] == 0.03125)
+    good = sorted(listed + infl + vouch + vroot + sistr + syncp + chain)
+    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5, 0.0625: 6, 0.03125: 7}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -140,20 +144,26 @@ def main():
         "// `Tgmilan` — and rule 2 can only ever delete a vowel at the end. Since\n"
         "// this inserts a letter he did not write, the gloss must be one he\n"
         "// attached to the word as a word, never an example sentence.\n"
-        "// app.js paints all six in the deep brown; a value NOT in here is still\n"
+        "// 7 = 2 over a root that is itself one step from a glossed root (%d):\n"
+        "// the CV- reduplication that makes no new lexeme (`qqgu` on `qgu`), or a\n"
+        "// second round of ordinary affixation (`swiwil` on `wiwil`). Rules 2-6\n"
+        "// stop at the first listed root and ask its gloss, and most of a paradigm\n"
+        "// is glossless. Two steps of inference, so the same slot-gloss gate as 4\n"
+        "// and 6 — which here refuses every illicit spelling the rule would find.\n"
+        "// app.js paints all seven in the deep brown; a value NOT in here is still\n"
         "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot),
-           len(sistr), len(syncp)))
+           len(sistr), len(syncp), len(chain)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
           "inflected off a vouched root: %d   sister slot: %d   syncopated root: "
-          "%d   unverified: %d   (of %d distinct)"
+          "%d   chained root: %d   unverified: %d   (of %d distinct)"
           % (len(listed), len(infl), len(vouch), len(vroot), len(sistr),
-             len(syncp), len(keys) - len(good), len(keys)))
+             len(syncp), len(chain), len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
 
