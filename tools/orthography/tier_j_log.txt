@@ -26,7 +26,7 @@ popu             pupu             gloss      1
 qoai             quway            gloss      1
 wana             wana             gloss     48
 xaya             haya             gloss     11
-mlata            mrata            hand       3
+mlata            mrata            hand       4
 plato            pratu            hand       6
 radyo            rajyu            hand       1
 tomato           tmatu            hand       1

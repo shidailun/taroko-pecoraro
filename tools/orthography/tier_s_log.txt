@@ -8,6 +8,7 @@ iboq             ibuq                  3     6
 l'çan            lxan                  2     6
 nk'la            nkla                 10     6
 txlangan         thlangan             86     4
+mlmilit          mrmirit               4     3
 pitai            pitay                12     3
 sl'sun           srsun                 4     3
 sxngiyun         shngiyun             11     3
@@ -19,7 +20,6 @@ knsdmatan        knsdmatan             2     2
 kulas            kuras                24     2
 l'xan            lxan                  2     2
 lingun           lingun                4     2
-mlmilit          mrmirit               4     2
 mpp'laq          mpplaq                2     2
 mtgimax          mtgimax               2     2
 paya             paya                 10     2

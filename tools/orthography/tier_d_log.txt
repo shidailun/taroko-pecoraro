@@ -39,8 +39,6 @@ mnssl'pong       mnsslupung       mn-    mssl'pong        M
 mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P
-n'kai            nkay             n-     m'kai            B
-n'ulat           neurat           n-     m'ulat           M
 na'tong          neetung          n-     ma'tong          M
 nalong           narung           n-     malong           B
 nblyeqan         nbliqan          n-     mblyeqan         T
@@ -50,7 +48,6 @@ ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
 ndup             ndup             n-     dup              M
 ndyamo           ndyamu           n-     dyamo            R
-neidang          neydang          n-     eidang           M
 nggalu           nggealu          n-     mggalu           M
 ngguyan          ngeuyan          n-     gguyan           M
 ngl'ngu          nglngu           n-     mgl'ngu          M
@@ -62,13 +59,8 @@ nl'bu            nl'bu            n-     l'bu             id
 nl'mux           nrmux            n-     l'mux            B
 nlangax          nrangah          n-     langax           B
 nlangi           nrangi           n-     langi            B
-nlmilit          nrmirit          n-     mlmilit          S
-nlut             nrut             n-     lut              M
 nmikat           nmikat           n-     mikat            N
 nmilit           nmirit           n-     milit            A
-nmulun           nmulun           n-     mulun            M
-nmxa             nmha             n-     mxa              A
-nndaxa           nndha            CV-    ndaxa            D
 npd'xok          npdhuq           n-     pd'xok           A
 npnalu           npnalu           n-     pnalu            M
 npotox           nputuh           n-     potox            B
@@ -83,7 +75,6 @@ nslxoqan         nsrhuqan         n-     slxoqan          B
 nssl'pong        nsslupung        n-     mssl'pong        M
 ntgisa           ntgsa            n-     mtgisa           M
 ntlawa           ntlawa           n-     tlawa            M
-ntluula          ntreura          n-     tluula           M
 nxoai            nhuway           n-     xoai             B
 ppaotoç          ppeeutux         CV-    paotoç           M
 ppitai           ppitay           CV-    pitai            S

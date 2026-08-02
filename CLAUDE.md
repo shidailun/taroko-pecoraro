@@ -2763,6 +2763,46 @@ already owns `hksaw`; sending `Tksao` there would erase a distinction he drew).
 +9 map occurrences / +14 transcription occurrences, 0 de-verified.
 96.9615% → **97.0109%**. Roughly 445 spans to the percent.
 
+## Assert the replacement COUNT, or you will unhook the audio (batch 161, 2026-08-02)
+
+Batch 160 opened positions 0 and 1 of the m-read-as-n sweep; batch 161 worked
+the rest of that list. **45 candidates, 18 accepted, 27 refused** — and the
+ratio is the point. The sweep proposes, his French disposes.
+
+**Tense in his French is the discriminator.** `ntaga` is the clean case: "je
+t'attendrai" is FUTURE and `n-` is past, so the letter cannot be an `n`. The
+same test refuses `Nngangax` "A partir du fait d'être muet", a genuine `n-`.
+The best of the eighteen is `nlut`, because **he flagged it himself**: his text
+reads `Asi nlut (m'lut ?) xeaan`, question mark his. `mrut` 按住 against his
+"en faisant pression sur lui" answers a question the book had already asked.
+
+The refusals sort into five kinds, all worth keeping: C-n- infix (`snkrawah`,
+`tnaga`, `qnbsranan`, `sneelug`, `tnquri`, `sneuwit`, `snka`, `snnru`), genuine
+`n-` prefix (`nngangah`), false friends (`nilaq` his 菇類 vs `milaq` 碎粒;
+`narung` "a obtenu le prix" vs `marung`, a man's name), unglossed target
+(`ntlawa`, `nruq`, `nay`, `nhnaan`, `nsntug`, `nsleelug`, `niyak`, `snuk` — a
+word with no Chinese cannot confirm anything), and **homograph**: `mnalu` at 5
+occurrences would have been the largest single gain in the batch and is refused,
+because his MALU prints Mnalu "s'entr'aimer" and his NALU prints Mnalu "qui
+tient la place" — the same raw string in two entries.
+
+**THE TRAP, and it is a new one.** The first run replaced 51 strings where 36
+were expected. The extra 15 were inside `"a"` fields — **audio filename slugs**,
+e.g. `ex_qpaxan_so_manu_ka_ntqeli_tqean_so`. Renaming one in the JSON renames
+nothing on disk. It unhooks the recording, silently, while the page still
+renders perfectly and the dark count still goes up. Nothing about the census
+would ever have shown it.
+
+It was caught only because the patcher asserted a replacement COUNT PER TOKEN
+(each of these words occurs once in the book, so exactly 2 — one in `data/`, one
+in `site/entries.js`). **Any raw-text patch of `data/` or `entries.js` must mask
+`"a": "..."` values before substituting, and must assert its counts.** The
+patcher now does both, and batch 160 was re-checked against the same fault and
+is clean. Compare [[shipped-is-not-the-same-as-fixed]]: a green census is not
+proof the thing you did not measure still works.
+
++18 occurrences, 0 de-verified. 97.0109% → **97.0513%**.
+
 ## Deploy
 
 ```powershell

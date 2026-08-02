@@ -8296,6 +8296,10 @@
    "modern": "mmlux",
    "tier": "id"
   },
+  "mmulun": {
+   "modern": "mmulun",
+   "tier": "id"
+  },
   "mmxa": {
    "modern": "mmha",
    "tier": "B"
@@ -10364,10 +10368,6 @@
   },
   "natsö": {
    "modern": "natsu",
-   "tier": "M"
-  },
-  "nawit": {
-   "modern": "neuwit",
    "tier": "M"
   },
   "nb'xgai": {
@@ -26997,10 +26997,6 @@
    "modern": "ndnngaan",
    "tier": "R"
   },
-  "nglaxol": {
-   "modern": "ngrahul",
-   "tier": "R"
-  },
   "nguyan": {
    "modern": "nguyan",
    "tier": "R"
@@ -27054,16 +27050,8 @@
    "modern": "nranaq",
    "tier": "R"
   },
-  "nlata": {
-   "modern": "nrata",
-   "tier": "R"
-  },
   "nlaxoq": {
    "modern": "nrahuq",
-   "tier": "R"
-  },
-  "nlidil": {
-   "modern": "nrijil",
    "tier": "R"
   },
   "nlikit": {
@@ -27076,10 +27064,6 @@
   },
   "nnalox": {
    "modern": "nnarux",
-   "tier": "R"
-  },
-  "notong": {
-   "modern": "nutung",
    "tier": "R"
   },
   "npgxei": {
@@ -27112,10 +27096,6 @@
   },
   "nqalas": {
    "modern": "nqaras",
-   "tier": "R"
-  },
-  "nqalox": {
-   "modern": "nqalux",
    "tier": "R"
   },
   "nqlaqel": {
@@ -27158,10 +27138,6 @@
    "modern": "nstuq",
    "tier": "R"
   },
-  "ntaga": {
-   "modern": "ntaga",
-   "tier": "R"
-  },
   "ntakol": {
    "modern": "ntakur",
    "tier": "R"
@@ -27178,16 +27154,8 @@
    "modern": "ntrilan",
    "tier": "R"
   },
-  "ntqeli": {
-   "modern": "ntqiri",
-   "tier": "R"
-  },
   "nunung": {
    "modern": "nunung",
-   "tier": "R"
-  },
-  "nuxeng": {
-   "modern": "nuhing",
    "tier": "R"
   },
   "nxnaan": {
@@ -29526,18 +29494,6 @@
    "d_rule": "mn-",
    "d_base": "mttatoq"
   },
-  "n'kai": {
-   "modern": "nkay",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "m'kai"
-  },
-  "n'ulat": {
-   "modern": "neurat",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "m'ulat"
-  },
   "na'tong": {
    "modern": "neetung",
    "tier": "D",
@@ -29591,12 +29547,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "dyamo"
-  },
-  "neidang": {
-   "modern": "neydang",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "eidang"
   },
   "nggalu": {
    "modern": "nggealu",
@@ -29665,18 +29615,6 @@
    "d_rule": "n-",
    "d_base": "langi"
   },
-  "nlmilit": {
-   "modern": "nrmirit",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "mlmilit"
-  },
-  "nlut": {
-   "modern": "nrut",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "lut"
-  },
   "nmikat": {
    "modern": "nmikat",
    "tier": "D",
@@ -29688,24 +29626,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "milit"
-  },
-  "nmulun": {
-   "modern": "nmulun",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "mulun"
-  },
-  "nmxa": {
-   "modern": "nmha",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "mxa"
-  },
-  "nndaxa": {
-   "modern": "nndha",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "ndaxa"
   },
   "npd'xok": {
    "modern": "npdhuq",
@@ -29791,12 +29711,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "tlawa"
-  },
-  "ntluula": {
-   "modern": "ntreura",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "tluula"
   },
   "nxoai": {
    "modern": "nhuway",

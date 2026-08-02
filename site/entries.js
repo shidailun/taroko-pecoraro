@@ -26365,7 +26365,7 @@ window.ENTRIES = [
         "zh": "出去（從封閉的地方）－出去的（那個）。",
         "examples": [
           {
-            "t": "Wada mlatat kana ka nlmilit (nmilit) so da, Bal!",
+            "t": "Wada mlatat kana ka mlmilit (nmilit) so da, Bal!",
             "fr": "Sibal, toutes tes chèvres se sont sauvées (sont sorties)!",
             "en": "Sibal, all your goats have run off (have got out)!",
             "zh": "希巴爾，你的羊全都跑出去了！",
@@ -28590,7 +28590,7 @@ window.ENTRIES = [
             "a": "ex_ga_mlidil_ga_pnt_toan_so_m_lbu_suni"
           },
           {
-            "t": "Mnalox so? Ma nlidil ka tunuç so!",
+            "t": "Mnalox so? Ma mlidil ka tunuç so!",
             "fr": "Tu es malade? C'est curieux,ta tête est de travers !",
             "en": "Are you sick? It's odd, your head is crooked!",
             "zh": "你生病了嗎？真奇怪，你的頭是歪的！",
@@ -28691,7 +28691,7 @@ window.ENTRIES = [
         "zh": "到處遊蕩－散步－閒逛。",
         "examples": [
           {
-            "t": "Mxa ko lnigao tityex , nawit ko da",
+            "t": "Mxa ko lnigao tityex , mawit ko da",
             "fr": "Je vais faire un tour, je suis fatigué.",
             "en": "I'm going to take a walk, I'm tired.",
             "zh": "我去走一走，我累了。",
@@ -29577,7 +29577,7 @@ window.ENTRIES = [
             "a": "ex_mplingis_knan_ka_kbsulan_so_ni_ya_adi_so"
           },
           {
-            "t": "Adi ! Laqe mo neidang ka splingis knan",
+            "t": "Adi ! Laqe mo meidang ka splingis knan",
             "fr": "Ce n'est pas cela, c'est mon fils dévoyé (perdu) qui me fait pleurer.",
             "en": "That's not it, it is my wayward (lost) son who makes me cry.",
             "zh": "不是這樣，是我那誤入歧途（迷失）的兒子讓我哭。",
@@ -31704,7 +31704,7 @@ window.ENTRIES = [
         "zh": "該吞服的－必須吞下的。",
         "examples": [
           {
-            "t": "Sapox nmulun ka b'xgai, sapox lqnun ka mbanax",
+            "t": "Sapox mmulun ka b'xgai, sapox lqnun ka mbanax",
             "fr": "Le blanc est un médicament à sucer, le rouge est à avaler.",
             "en": "The white one is a medicine to suck, the red one is to be swallowed.",
             "zh": "白色的藥是含服的，紅色的是吞服的。",
@@ -31865,7 +31865,7 @@ window.ENTRIES = [
         "zh": "被關閉、被堵住的－用來關閉、堵塞之物。",
         "examples": [
           {
-            "t": "Ga slpian kana nuxeng mo da",
+            "t": "Ga slpian kana muxeng mo da",
             "fr": "Mon nez est complètement bouché.",
             "en": "My nose is completely blocked.",
             "zh": "我的鼻子完全堵住了。",
@@ -32651,7 +32651,7 @@ window.ENTRIES = [
         "zh": "（詞根＝P'LUT？）重壓於上者－施壓者－使人噤聲者（？）。",
         "examples": [
           {
-            "t": "Asi nlut (m'lut ?) xeaan ka Awi adi na bi sqoaqe",
+            "t": "Asi mlut (m'lut ?) xeaan ka Awi adi na bi sqoaqe",
             "fr": "Il a fallu qu'intervienne Awi (en faisant pression sur lui) pour qu'il ne parle pas. VR. P'LUT .",
             "en": "Awi had to intervene (by putting pressure on him) so that he would not speak. See P'LUT.",
             "zh": "必須由 Awi 出面（對他施壓），他才不會說話。參見 P'LUT。",
@@ -33099,7 +33099,7 @@ window.ENTRIES = [
         "zh": "公開地－眾所周知－在眾人目睹與知悉之下。",
         "examples": [
           {
-            "t": "Miyax ntluula bi tqeta nkl\"lu ka xea",
+            "t": "Miyax mtluula bi tqeta nkl\"lu ka xea",
             "fr": "Il est ouvertement venu se montrer le long de la route. VR. TLUULA .",
             "en": "He openly came to show himself along the road. See TLUULA.",
             "zh": "他公然沿路現身。參見 TLUULA。",
@@ -35101,7 +35101,7 @@ window.ENTRIES = [
     "zh": "做家中的瑣碎雜務。",
     "examples": [
       {
-        "t": "Ongat ana manu paro tbyaxon mo, wana n'kai sapax",
+        "t": "Ongat ana manu paro tbyaxon mo, wana m'kai sapax",
         "fr": "Je ne suis pas surchargée de travail, je n'ai que les travaux de la maison.",
         "en": "I am not overloaded with work; I only have the housework.",
         "zh": "我的工作並不繁重，我只做家事。"
@@ -35891,7 +35891,7 @@ window.ENTRIES = [
         "a": "ex_mxa_nalu"
       },
       {
-        "t": "Mxa nlata",
+        "t": "Mxa mlata",
         "fr": "Aller soldat.",
         "en": "To go (become) a soldier.",
         "zh": "去當兵。",
@@ -42512,7 +42512,7 @@ window.ENTRIES = [
         "zh": "擦火柴－敲打火絨打火器－點燃火焰（引申亦指電燈）。",
         "examples": [
           {
-            "t": "Ini tdoa notong ka potong so nii; mxolyaq da !",
+            "t": "Ini tdoa motong ka potong so nii; mxolyaq da !",
             "fr": "On ne peut pas allumer tes allumettes; elles sont mouillées !",
             "en": "One cannot light your matches; they are wet!",
             "zh": "你的火柴點不著，都濕了！",
@@ -44912,7 +44912,7 @@ window.ENTRIES = [
         "zh": "攤鋪東西的地方－所攤鋪之物。",
         "examples": [
           {
-            "t": "Qpaxan so manu ka ntqeli tqean so?",
+            "t": "Qpaxan so manu ka mtqeli tqean so?",
             "fr": "Avec quoi vas tu tapisser le pourtout de ta chambre (!) à coucher ?",
             "en": "What are you going to line the whole of your bedroom (!) with?",
             "zh": "你要用什麼鋪滿你睡覺的房間（！）四周？",
@@ -59967,7 +59967,7 @@ window.ENTRIES = [
             "a": "ex_mtaga_nami_bi_sunan"
           },
           {
-            "t": "Ana betak knuwan ida ko ntaga sunan",
+            "t": "Ana betak knuwan ida ko mtaga sunan",
             "fr": "Je t'attendrai le temps qu'il faudra (même jusqu'à n'importe quand, je t'attendrai).",
             "en": "I will wait for you as long as it takes (even until whenever, I will wait for you).",
             "zh": "我會等你等到需要的時候（即使等到任何時候，我都會等你）。",
@@ -60587,7 +60587,7 @@ window.ENTRIES = [
         "zh": "所要、所須加熱之物。",
         "examples": [
           {
-            "t": "Nndaxa, mnt'lo wada mo pstl'xun (pnstl'xun) ka idao nii!",
+            "t": "Mndaxa, mnt'lo wada mo pstl'xun (pnstl'xun) ka idao nii!",
             "fr": "Il m'a déjà fallu le réchauffer deux trois fois ce riz!.",
             "en": "I've already had to reheat this rice two or three times!",
             "zh": "這飯我已經熱過兩三次了！",
@@ -66958,7 +66958,7 @@ window.ENTRIES = [
         "zh": "抽筋；痙攣。",
         "examples": [
           {
-            "t": "Naqex bi ka n'ulat papaq pida muda ta daolas siida !",
+            "t": "Naqex bi ka m'ulat papaq pida muda ta daolas siida !",
             "fr": "C'est très dangereux d'attraper une crampe quand on grimpe dans les rochers !",
             "en": "It is very dangerous to get a cramp when one is climbing among the rocks!",
             "zh": "攀爬岩石時抽筋是非常危險的！",
@@ -69471,7 +69471,7 @@ window.ENTRIES = [
         "zh": "準備要帶走的乾糧。",
         "examples": [
           {
-            "t": "Dyagi ko pxdayo tama so nmxa bbuyo",
+            "t": "Dyagi ko pxdayo tama so mmxa bbuyo",
             "fr": "Prépare-moi (aide-moi à préparer) le casse-croûte de ton père qui va partir en montagne (à la chasse)!",
             "en": "Prepare for me (help me prepare) the snack for your father who is going to the mountains (hunting)!",
             "zh": "幫我準備（幫我做）你父親的乾糧，他要上山（打獵）！",
@@ -70203,7 +70203,7 @@ window.ENTRIES = [
         "zh": "想曬太陽（想曬黑）的人。",
         "examples": [
           {
-            "t": "Miyax nglaxol siyao gsilong nami kana ka dkmtxedao pnax alang paro",
+            "t": "Miyax mglaxol siyao gsilong nami kana ka dkmtxedao pnax alang paro",
             "fr": "Tous ceux des villes qui veulent se faire bronzer viennent s'attrouper sur le rivage de notre mer.",
             "en": "All the city folk who want to get a tan come and gather on the shore of our sea.",
             "zh": "城裡所有想曬黑的人都來我們的海邊聚集。",
@@ -72535,7 +72535,7 @@ window.ENTRIES = [
     "zh": "無所謂——隨便——只是——任意地。",
     "examples": [
       {
-        "t": "Ana kia, ana b'xgai (baxgai), ana nqalox, ana mbanax, xmut ka yako.",
+        "t": "Ana kia, ana b'xgai (baxgai), ana mqalox, ana mbanax, xmut ka yako.",
         "fr": "Que ce soit celà, ou blanc, ou noir, ou rouge; peu m'importe !",
         "en": "Whether it be that, or white, or black, or red; it matters little to me!",
         "zh": "無論是那個、或白的、或黑的、或紅的；我都無所謂！",
