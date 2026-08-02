@@ -1804,7 +1804,7 @@ and 52 carry `x`. **l and x are real letters in real names**, which is the whole
 reason the name freeze exists.
 
 Measured: 0 map keys added or removed, **9 spellings changed** (5 N→M, 3 R→M, 1
-M→M), 0 relevelled. verified.js **+70 keys, all level 1, 0 weaker**. DOM census
+M→M), 0 relevelled. verified.js **+69 keys, all level 1, 0 weaker**. DOM census
 94.1347% → **94.6790%** dark (41,857 → 42,099; pale 2,576 → 2,334; green 32),
 1,967 cards, 0 page errors in both spelling modes. `dom138.py`: 61 GAIN dark, 21
 KEEP still pale, 3 JP and 4 MISS untouched, 9 FIX dark with all nine old
@@ -1814,10 +1814,60 @@ postdate that script's baseline.)
 
 **Appendix 4 reaches further than tier N does.** `site/entries.js` already holds
 it — 270 name-tagged records, `name (m)` 137 / `name (f)` 87 / `name (f, jp)` 28
-/ `name (m, jp)` 17 / `name (m) (?)` 1 — and **151 pale types / 455 occurrences
-are names Pecoraro himself declares**, crossing tiers M, R and V, well beyond the
-131 tier N had. That is why the population is his tags ∪ tier N rather than tier
-N alone, and it is also the remaining work: the register answers 125 of them.
+/ `name (m, jp)` 17 / `name (m) (?)` 1 — reaching across tiers M, R and V, well
+beyond the 131 tier N had. That is why the population is his tags ∪ tier N rather
+than tier N alone. **After the batch, 59 of the values his own non-jp name tags
+put on screen are still pale, 190 occurrences** (measure this on the DISPLAYED
+value: `modern_map.json` is `{"map": {token: {modern, tier}}}`, and a script that
+forgets the `map` key silently compares his raw tokens instead, which undercounts).
+
+## The register's ceiling, and its floor (batch 139, 2026-08-02)
+
+Batch 138 accepted a respelling when exactly one registered name was **one letter
+away**. That is the wrong shape for a correspondence set — `TAILONG` needed ai>ay
+*and* o>u together and had to be done by hand — so this batch composes the
+documented correspondences and re-asks, over the value each token **puts on
+screen** rather than over his raw token. (A script that reads `modern_map.json`
+without descending into its `map` key compares raw tokens and silently finds
+nothing; that is how the first run of this measurement went wrong.)
+
+The whole automated widening buys **two names**, and both are worth having:
+
+| his | ours was | register | why |
+|---|---|---|---|
+| `sering` | sering | **siring** 男名 | e>i, the same as `ixeng`>`ihing` |
+| `yagex` | yageh | **yagix** 男女共名 | **the `upix` failure again** |
+
+`YAGEX` is the instructive one. His form already carries the x; tier N ran x>h
+over it and printed `yageh`, which put it one letter from `Yagih` 女名 — and
+batch 138 refused it for a type clash *the tier had manufactured*. Undo the x>h
+and his own spelling is one e>i from `Yagix` 男女共名, which a `name (m)` may
+bear. **When a tier's output is the thing being matched, the tier's bugs become
+evidence.** Match his spelling.
+
+Two more are reached and refused, and they are why the type-agreement clause is
+load-bearing rather than decorative. `mixeng` is his `name (f)` and `Mihing` is
+男名. `xane` and `lübaq` carry no tag of his at all — tier N flagged them off
+capitalisation — so there is no type to agree with; and `XANE` is not a name,
+it is a token in the example `ASO NA SAO'LE XANE` under his entry for the
+possessive prefix **N**. `hane`>`hani` would have renamed a grammatical particle
+after a man.
+
+**The floor.** The register was asked for 氏族名 (NameType 3) and 屋名 (4)
+directly, on every initial: **zero rows for 太魯閣族**. The 1,792 harvested names
+are 男名 / 女名 / 男女共名 and nothing else, so `NameTypes: []` was already
+complete and **his clan names will never be settled from this source**.
+
+What is left is honestly out of reach: **58 values / 189 occurrences he himself
+declares** `name (m)`/`name (f)`, plus 23 `name (.., jp)` values / 43 occurrences
+that are a question about Japanese romanization, not about his Truku spelling —
+`liwis` 38, `akit` 10, `atwi` 8, `apwi` 4. The register was asked and does not
+know.
+
+Measured: 0 map keys added or removed, **2 changed** (both N→M), 0 relevelled;
+verified.js +2, all level 1. DOM 94.6790% → **94.6835%** dark (42,101 / 2,332 /
+32; pecoraro 94.6866%), 1,967 cards, 0 page errors in both modes. `dom139.py`:
+2 FIX dark with both old spellings gone, 9 KEEP still pale, **0 failures**.
 
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 

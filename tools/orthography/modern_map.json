@@ -15582,6 +15582,10 @@
    "modern": "mtgsa",
    "tier": "X"
   },
+  "sering": {
+   "modern": "siring",
+   "tier": "M"
+  },
   "sgaalu": {
    "modern": "sgealu",
    "tier": "M"
@@ -20923,6 +20927,10 @@
   "yabong": {
    "modern": "yabung",
    "tier": "B"
+  },
+  "yagex": {
+   "modern": "yagix",
+   "tier": "M"
   },
   "yako": {
    "modern": "yaku",
@@ -29107,10 +29115,6 @@
    "modern": "seguq",
    "tier": "N"
   },
-  "sering": {
-   "modern": "sering",
-   "tier": "N"
-  },
   "sidi": {
    "modern": "sidi",
    "tier": "N"
@@ -29266,10 +29270,6 @@
   },
   "xoyo": {
    "modern": "huyu",
-   "tier": "N"
-  },
-  "yagex": {
-   "modern": "yageh",
    "tier": "N"
   },
   "yawas": {

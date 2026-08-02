@@ -18,10 +18,18 @@ from — Truku's is p b t d k g q c j s x h m n ng r l w y + i e a u o. There is
 each; `o`, `x` and `ʼ` return nothing for Truku, which is the alphabet's own
 answer and not a gap.
 
+`NameTypes: []` means every type, and for Truku every type is three: 男名 928,
+女名 614, 男女共名 258, distinct 1,792. Asking for 氏族名 (3) and 屋名 (4)
+explicitly returns **zero rows on every initial** — the register simply does not
+hold Truku clan or house names, so an empty result here is completeness, not a
+filter left switched on, and his clan names will never be settled from this
+source.
+
 Why this file exists at all: **no wordlist has a reason to hold a personal
 name**, which is why tier N has always been the one population where every
 spelling was a guess and every word stayed pale. This is the outside source that
-settles them. See build_verified.py's level 9.
+settles them. `build_verified.py` widens `seen` with it at level 1 (LISTED), the
+same level as the parquets, and must never widen `lex` — a name is not a root.
 
 Re-run only to refresh; the output is committed, and the build must not depend
 on the network.

@@ -92,7 +92,6 @@ rougeur          ruugeur          midcap=1    occ=1
 sati             sati             midcap=0    occ=1
 segok            seguk            midcap=1    occ=1
 segoq            seguq            midcap=1    occ=1
-sering           sering           midcap=0    occ=1
 sidi             sidi             midcap=0    occ=1
 sidwi            sidwi            midcap=0    occ=1
 simi             simi             midcap=0    occ=1
@@ -120,7 +119,6 @@ watyex           watyeh           midcap=0    occ=1
 xabao            habaw            midcap=0    occ=1
 xane             hane             midcap=1    occ=1
 xatsö            hatsu            midcap=0    occ=1
-yagex            yageh            midcap=0    occ=1
 yawas            yawas            midcap=0    occ=1
 yiyax            yiyah            midcap=1    occ=1
 yokong           yukung           midcap=0    occ=1
