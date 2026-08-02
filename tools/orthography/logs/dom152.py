@@ -36,6 +36,13 @@ three of its slots still pale in the PIN below. Without the bar the rule found
 exists to catch: `qdriq` agreeing 的人 out of 住在Driq 的人, `taril` agreeing 方
 out of 地方 — a fragment of a fragment.
 
+**That paragraph describes the bar correctly and the code did not implement it**
+— it counted distinct agreement strings rather than supporters, so a unanimous
+paradigm scored 1. Corrected in batch 154, which takes nine of the values this
+file lists below as coincidences; see logs/dom154.py. The 13-against-37 split
+above is the measurement as taken and is left standing, but the 13 was two
+different bars at once.
+
 **The SISUN trap survives being asked directly, which is a stronger result than
 never being reached.** Every rule since 145 has had to say why it cannot reopen
 his SISUN 縫, and until now the answer was always that the value never arrives:
@@ -94,15 +101,23 @@ PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 
 # The coincidences the bar cost, asserted unpaid. Every one of these has a root
 # whose paradigm agrees with his Chinese on ONE character, and every one of
-# those characters is a fragment: `taril` 方 out of 地方, `liwaq` on 發亮 for a
-# root glossed 化妝, `siyang` 肥 for 肉, `blai`, `griq`, `pungu`. 34 pale
-# occurrences that a one-voice rule would have taken — more than half of what
-# the rule earned, which is the measure of how loose one voice is.
+# those characters is a fragment: `taril` 方 out of 地方, `pungu` on its single
+# character, `liwaq` on 發亮 for a root glossed 化妝.
+#
+# **This list was 17 values / 34 occurrences when it was written, and nine of
+# them did not belong on it.** The bar as implemented counted distinct
+# agreement STRINGS, not supporters, so a paradigm where every inflection said
+# the SAME thing scored 1 and was thrown out as a coincidence — `siyang` had
+# three voices all reading 肥 and landed here beside the genuine one-voice
+# fragments. See logs/dom154.py, which corrects the count and takes those nine.
+# What is left is the eight this bar was actually built to refuse. The claim in
+# the docstring above ("more than half of what the rule earned") was measured
+# against the inflated list and is withdrawn; the honest figure is 15
+# occurrences, and the `liwaq` reading there is right about 發亮 and blind to
+# the 趕 sense that `pliwaq` also carries.
 COINCIDENCE = {
-    "psiyangun": 3, "gmriq": 3, "ptaril": 3, "pliwaq": 4, "ppungu": 2,
-    "psiyangi": 2, "ptblai": 2, "pkliwaq": 2, "skliwaq": 2, "spkliwaq": 2,
-    "ssiyang": 2, "psiyang": 2, "empsiyang": 1, "psiyangan": 1, "emptaril": 1,
-    "emppungu": 1, "psblai": 1,
+    "ptaril": 3, "ppungu": 2, "pkliwaq": 2, "skliwaq": 2, "spkliwaq": 2,
+    "ssiyang": 2, "emptaril": 1, "emppungu": 1,
 }
 
 SPANS = """(ws) => { const r = {};

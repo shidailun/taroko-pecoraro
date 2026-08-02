@@ -2333,6 +2333,43 @@ than one that was never reached**, and dom152.py asserts it by calling
 
 +20 values / 53 occurrences, 0 de-verified. 96.5771% -> **96.6963%**.
 
+## A rule that does not do what its log says (batch 154, 2026-08-02)
+
+The bar above is described everywhere — in this file, in the docstring, in
+dom152.py — as **two independent supporters must agree**. The code counted
+distinct agreement STRINGS:
+
+    agree = {sh for _, sh in sup}
+    if len(agree) < 2 and not strong:
+
+Those come apart in precisely the case where the evidence is strongest.
+**Unanimity collapses to one item.** `siyang` 肉 had three inflections answering
+his 養肥 — `ksiyang` 肥, `msiyang` 很肥;結實, `pksiyangay` 使肥大 — all on 肥, so
+the set held one string and the rule refused. Three voices saying one thing
+scored below two voices saying two things, and the root went onto the list of
+questions only a speaker could settle. `len(sup)` is the whole fix.
+
+Two things worth carrying forward:
+
+- **The coincidences were never at risk, which is why the change is a
+  correction and not a widening.** A coincidence is one supporter matching one
+  fragment (`taril` on the 方 of 地方), and one is one however it is counted.
+  All eight genuine ones stayed pale across the rebuild; dom154.py asserts them.
+- **dom152.py had to be edited, not just superseded.** It listed 17 values as
+  "the coincidences the bar cost" and nine of them were the miscount, so the
+  file was asserting a wrong claim as a passing test. A log that documents a
+  measurement is worth exactly what the measurement was; when the measurement
+  turns out to have been of something else, say so in the file rather than
+  letting the next batch inherit it.
+
+Two hand pins in the new `HAND_NOT_OUTVOTED`, both the particle trap: `tnbusan`
+(right answer, agreeing on the 去 inside 過去) and `mhmadan` (wrong answer,
+agreeing on the 成 of 成為). Neither character goes into STOP — they are
+worthless only as the frame verb of a gloss, the shape batch 142 measured for
+人 and refused to drop.
+
++13 values / 25 occurrences, 0 de-verified. 96.7255% -> **96.7817%**.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

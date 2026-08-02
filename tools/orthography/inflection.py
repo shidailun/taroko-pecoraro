@@ -386,6 +386,25 @@ HAND_NOT_UNGLOSSED = set(
 #            is the whole reason `_agrees` is a proxy and not a measure.
 HAND_NOT_REGULAR = set("knslaan".split())
 
+# The same shape once more, one rule further down [batch 154]. `tnbusan` is his
+# 簸揚的對象，或（過去的）方式 — the thing winnowed, or the (past) manner — and
+# the root `tbus` is glossed 篩榖, sifting grain, with `ptbus` 使被篩去 and
+# `tmbus` 篩去… as its two supporters. They agree on 去, and the 去 in his gloss
+# is the one inside 過去, the past. Winnowing and sifting grain ARE the same
+# word, so the rule's answer is right; its argument is a particle. Pinned rather
+# than remapped, exactly as `mrbuq` was in batch 141: **the answer being right
+# does not make a worthless argument worth keeping.**
+#
+# `mhmadan` is the same trap with a wrong answer under it, which is the worse
+# half. His 成為親戚——變成親戚, to become a relative, lands on the root `hada` 熟,
+# ripe, whose `phada` 使…成熟 and `tghada` 較成熟 agree with him on 成 — the 成 of
+# 成為, "become", against the 成 of 成熟, "ripen". Becoming kin is not ripening
+# and the root is not his. 成 is not going into STOP for it: it carries meaning
+# perfectly well, and it is only worthless here because it is the frame verb of
+# a 成為X gloss — the same shape as the 人 of 使人X that batch 142 measured and
+# refused to drop.
+HAND_NOT_OUTVOTED = set("tnbusan mhmadan".split())
+
 # ---- SYNONYMY, the third tier of _agrees [batch 148] ----------------------
 # `mkpakaw` came off the line above to sit here instead, because the note that
 # refused it states this batch's premise outright: the right root `pakaw`
@@ -1108,8 +1127,23 @@ class Inflection(object):
         matched 方 out of 地方 — a bigram of STOP characters, and a fragment of
         a fragment. Requiring a second voice or a real word cut 37 candidate
         roots to 13, and the 24 it dropped were the coincidences.
+
+        **The bar counted the wrong thing for one batch [batch 154].** It was
+        written `len(agree) < 2` — the number of distinct agreement STRINGS —
+        which is not what "two independent supporters" means and is not what
+        logs/dom152.py says in writing. Where three inflections all agree on
+        the same character the set holds one item, so the rule scored 1 and
+        refused: `siyang` 肉 had `ksiyang` 肥, `msiyang` 很肥;結實 and
+        `pksiyangay` 使肥大 all answering his 養肥, which is the strongest
+        evidence the rule has ever been shown, and it was thrown out for being
+        unanimous. Counting supporters instead admits 12 roots / 24 further
+        occurrences. **The coincidences the bar exists to catch are unaffected**,
+        because a coincidence is one voice agreeing once — `taril` on the 方 of
+        地方 has exactly one supporter however you count.
         """
         if v in self.frozen or v in HAND_NOT_UNGLOSSED:
+            return None
+        if v in HAND_NOT_OUTVOTED:
             return None
         his = self._his(v, slots_only=True)
         if not his:
@@ -1130,7 +1164,7 @@ class Inflection(object):
                     sup.append((w, sh))
             agree = {sh for _, sh in sup}
             strong = [a for a in agree if len(a) >= 2 and "=" not in a]
-            if len(agree) < 2 and not strong:
+            if len(sup) < 2 and not strong:
                 continue
             cost = len(p) + len(sf)
             if best is None or cost < best[0]:
