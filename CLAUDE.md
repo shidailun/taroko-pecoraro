@@ -2222,6 +2222,49 @@ not a snare even though the hole is), the `sblus` 變淡 family, and
 +50 values / 101 occ, 0 de-verified, 2 relevelled. DOM 96.0621% → **96.2892%**
 (42,815 / 1,618 / 32), original 96.2858%, 1,967 cards, 0 page errors both modes.
 
+## A glossary may say what a text may not (batch 149, 2026-08-02)
+
+Batch 147 found `dict_truku_bible.json`, checked its SPELLINGS against
+`attested_modern.json`, found them already there, and moved on without reading a
+single gloss. That was the whole value of the file.
+
+**A corpus and a glossary answer different questions.** 147's rule — a text can
+say a string occurs, never what it means — is why the scripture readers widened
+`seen` and nothing else. This is 2,033 headwords with Chinese and English
+definitions, edited and published for this dialect, and meaning is what a
+wordlist is FOR. It is loaded as `self.bgl` and read by `_gloss()`.
+
+**It answers what bucket D was actually full of**: not his Chinese disagreeing
+with the root, but the wordlist giving the root one sense and it being the wrong
+one — `tama` 上帝 → 父親；天父 (his SKTAMA 已故的父親 is 11 occurrences alone),
+`pajiq` 人名（女）→ 蔬菜, `kari` 挖掘 → 話語, `rusuq` 卵子 → 水滴；淚珠, `putuh`
+人名 → 斷絕, `saw` 希望，但願 → 像；如此.
+
+**Additive, never replacing**, so it can only turn a refusal into an agreement —
+0 de-verified, a property rather than a hope. **Where the property broke, the
+change was reverted**: routing `no_chinese()`'s candidate filter through
+`_gloss()` looks obviously right (NAMEGL exists for roots glossed 人名, and
+`pajiq` is the root it was wrong about) but that rule refuses on AMBIGUITY, so a
+second gloss source creates ties as well as candidates — it cost `mtbrinah`,
+`mkphing`, `mnksaw`, `tnklai` and six more to buy 7 occurrences. The ten are
+asserted DARK in dom149. A second opinion may say what a root means; it may not
+make a rule less sure WHICH root it is.
+
+It glosses neither `sisi` nor `paux`, so it cannot reopen SISUN or the `paux`
+family — a property of the file, pinned from the DOM. `pnnaki` resolves to
+`nanak` 獨自, the guess Pecoraro pencilled into his own entry; the `kray` family
+is told apart from the basket `kray` 背蔞 by `knkrayan`/`pskrayun` 堅; and
+`empkhuway` has two sources that never saw each other agreeing on 治癒 against
+the wordlist's 慷慨.
+
+**A pin that names one cause must be retired when a second cause appears.**
+dom147 asserted `mskingal` pale as proof Kaldi stayed out. Batch 148's SYN
+reached it legitimately via `skingal` 專一, so the assertion was stale for a
+batch; leaving it in would have made a real gain read as a contaminated source.
+
++37 values / 64 occ, 0 de-verified, 32 relevelled. DOM 96.2892% → **96.4331%**
+(42,879 / 1,554 / 32), original 96.4325%, 1,967 cards, 0 page errors both modes.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

@@ -501,6 +501,38 @@ class Inflection(object):
         self.lex = lex
         self.gl = json.load(io.open(os.path.join(D, "attested_gloss.json"),
                                     encoding="utf-8"))
+        # A SECOND OPINION ON WHAT A ROOT MEANS [batch 149].
+        #
+        # Batch 147 admitted the Truku scripture readers to `seen` and nothing
+        # else, on the rule that a TEXT can say a string occurs but can never
+        # say what it means. This file is the other thing: dict_truku_bible,
+        # 2,033 headwords with Chinese and English definitions, edited and
+        # published for the same dialect. A glossary is allowed to speak to
+        # meaning, which is the one question a corpus is not allowed to answer.
+        #
+        # It is ADDITIVE and never replaces. A root keeps every gloss the
+        # wordlist gives it and this one is appended, so the rule can only turn
+        # a refusal into an agreement — nothing already dark can be argued pale
+        # by it.
+        #
+        # It answers the failure bucket D was full of: the wordlist gives ONE
+        # sense and it is the wrong one, or it is a name tag instead of a gloss.
+        # `tama` 上帝 -> 父親；天父 (his SKTAMA 已故的父親 is 11 occurrences by
+        # itself), `pajiq` 人名（女）-> 蔬菜；青菜, `kari` 挖掘 -> 話語；言語,
+        # `lutut` 連結 -> 宗族血統；後裔, `rusuq` 卵子 -> 水滴；淚珠. And 830 of
+        # its headwords are roots the wordlist never glossed AT ALL, which is
+        # the hole unglossed_root() was built around.
+        #
+        # **It cannot reopen the SISUN trap or the `paux` family.** It glosses
+        # neither `sisi` nor `paux`. That is not a promise about this rule, it
+        # is a property of the file, and dom149 asserts it from the DOM.
+        #
+        # Its grammatical labels — 處所格, 過去式, 複數, 受格, 被動, 地名,
+        # 大寫時指 — are stripped when bible_gloss.json is written, NOT by
+        # adding them to BOILER: BOILER is read against the wordlist too, and
+        # widening it there could de-verify a word that is already dark.
+        self.bgl = json.load(io.open(os.path.join(D, "bible_gloss.json"),
+                                     encoding="utf-8"))
         self.inv = collections.defaultdict(list)
         for k, v in mp.items():
             self.inv[v].append(k)
@@ -584,8 +616,16 @@ class Inflection(object):
                     two |= {seg[j:j + 2] for j in range(len(seg) - 1)}
         return one, two
 
+    def _gloss(self, root):
+        """Every gloss anyone gives this root: the wordlist's, then the Bible
+        glossary's. Additive — see self.bgl in __init__."""
+        rg = list(self.gl.get(root) or [])
+        if root in self.bgl:
+            rg.append(self.bgl[root])
+        return rg
+
     def _agrees(self, his_zhs, root):
-        rg = self.gl.get(root)
+        rg = self._gloss(root)
         if not rg or not his_zhs:
             return None
         h1, h2 = self._chars(his_zhs)
@@ -724,6 +764,14 @@ class Inflection(object):
         cands = [(c, p, sf, sl) for c, p, sf, sl in self.roots(v)
                  if c in self.lex and self.gl.get(c) and len(c) >= 4
                  and not all(NAMEGL.search(g) for g in self.gl[c])]
+        # NOT self._gloss() here, though `pajiq` 人名（女）/蔬菜 is exactly the
+        # root NAMEGL was wrong about. This rule refuses on AMBIGUITY — "with no
+        # gloss to choose between analyses there is nothing to break a tie with,
+        # so a tie is a refusal" — so a second gloss source does not only admit
+        # candidates, it creates ties, and routing this gate through it turned
+        # 10 dark words pale (`mtbrinah`, `mkphing`, `mnksaw`, `tnklai` …) to
+        # buy 7 occurrences. The second opinion is allowed to say what a root
+        # means; it is not allowed to make this rule less sure which root it is.
         if len({c for c, _, _, _ in cands}) != 1:
             return None
         return min(cands, key=lambda r: len(r[1]) + len(r[2]))

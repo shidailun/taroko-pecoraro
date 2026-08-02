@@ -52,11 +52,18 @@ GAIN = {"emphaal": 3, "mkrawah": 3, "pksyangun": 3, "smqdug": 3, "empsdhug": 2,
         "empshjil": 2, "emptduwa": 2, "krwahi": 2, "smpsaan": 2, "pksgun": 1,
         "ptreura": 1}
 
-# The decoder lexicon's price, asserted unpaid. `mskingal`, `tgbilaq`, `tgbhgay`
-# and `tgbasi` are in Kaldi's words.txt and in neither the scripture readers nor
-# any listed source; `put` and `un` are the English the multi-version walk
-# offered. If any of these six ever goes dark, a bad source got in.
-PIN = {"mskingal": 2, "tgbilaq": 2, "tgbhgay": 1, "tgbasi": 1, "put": 1, "un": 2}
+# The decoder lexicon's price, asserted unpaid. `tgbilaq`, `tgbhgay` and
+# `tgbasi` are in Kaldi's words.txt and in neither the scripture readers nor any
+# listed source; `put` and `un` are the English the multi-version walk offered.
+# If any of these five ever goes dark, a bad source got in.
+#
+# `mskingal` WAS a sixth and is not any more. Batch 148's SYN reached it
+# legitimately — regular() off `skingal`, agreeing 合而為一=專一 on the 單一 line
+# — so it went dark for a reason that has nothing to do with Kaldi, and this
+# assertion had been stale for a batch before batch 149 caught it. A pin that
+# names one possible cause has to be retired when a second cause turns up;
+# leaving it in would have made a real gain read as a contaminated source.
+PIN = {"tgbilaq": 2, "tgbhgay": 1, "tgbasi": 1, "put": 1, "un": 2}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
