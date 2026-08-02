@@ -83,8 +83,16 @@ GAIN = {
 # on meaning cannot reach either standing refusal. Checked from the DOM rather
 # than trusted: if a later batch ever admits a source that DOES gloss them,
 # these six go dark and this file says so.
-PIN = {"sisun": 5, "kmpaux": 6, "kpaux": 3, "kpauxi": 2, "pauxun": 2,
-       "pkpaux": 2, "knslaan": 2}
+# `kmpaux` and `pkpaux` WERE pinned here and are not any more. Batch 152 did
+# not weaken the synonym rule that refused them — `paux` is still not in SYN
+# and 犁田 is still not 翻轉 — it found new evidence: the wordlist's own
+# `mknpaux` 反過來 and `mspaux` 會翻 say the root means turn over, whichever
+# sense its headword gloss prints. A pin records a refusal on the evidence of
+# its day; when better evidence arrives the pin comes down and says so, as
+# dom147's `mskingal` did. The other five stay, and `kpaux` is why the bar is
+# where it is: it carries only ONE of his glosses, so only `mspaux` answers
+# for it, and one single-character voice is not enough.
+PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "sisun": 5, "knslaan": 2}
 
 # The ten that widening no_chinese()'s candidate filter would have cost. They
 # are dark today by the wordlist gloss alone; a change that makes that rule less

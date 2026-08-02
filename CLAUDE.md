@@ -2290,6 +2290,49 @@ change that reading.
 +22 values / 34 occ, 0 de-verified, 3 relevelled. DOM 96.4331% → **96.5096%**
 (42,913 / 1,520 / 32), original 96.5082%, 1,967 cards, 0 page errors both modes.
 
+## A pin comes down when evidence overturns it, not when the rule tires (batch 152, 2026-08-02)
+
+`paux` was refused for four batches. The wordlist glosses it 犁田, to plough;
+his family is 翻轉, to turn over; batch 148 declined to write the synonym line
+and 149 and 150 each re-checked and left it standing. That was correct every
+time, and the temptation each time was to widen SYN by a hair and take the 15
+occurrences.
+
+What actually moved it was looking somewhere else. The same wordlist prints
+`mknpaux` 反過來 and `mspaux` 會翻 — **the root's own paradigm, saying plainly
+what its headword gloss said narrowly.** Ploughing is turning soil over. The
+gloss was not wrong, it was one sense of the word, and no amount of re-reading
+the synonym table was ever going to show that.
+
+Two things follow, and they are the reusable part:
+
+- **A citation gloss and a paradigm are not equal evidence.** One is an
+  editor's choice of a sense to print; the other is the same source writing the
+  root out across its slots, and a wrong sense cannot survive all of them.
+  `outvoted()` is that principle as a rule, and it is deliberately a SEPARATE
+  rule a level below `unglossed_root()` rather than a relaxation of it — rule 4
+  asks the paradigm where the gloss table is silent, this asks it where the
+  gloss table speaks and rule 2 has already refused what it said. Different
+  claim, different level.
+- **Overriding evidence costs more than filling a hole.** The bar is two
+  independent inflections agreeing, or one agreeing on a whole two-character
+  word. One voice found 37 roots; two found 13, and the 24 dropped were
+  coincidences — `qdriq` agreeing 的人 out of 住在Driq 的人, `taril` agreeing 方
+  out of 地方. A single shared character is a fragment, and often a fragment of
+  a fragment. The bar even splits one family: `kmpaux` carries two of his
+  glosses and hears two supporters, `kpaux` carries one and stays pale.
+
+And the trap got stronger rather than weaker. Every rule since 145 has had to
+say why it cannot reopen his SISUN 縫, and the answer was always that the value
+never arrives — `sisi` is glossed, so rule 2 reads it and refuses it. This rule
+fires precisely BECAUSE the gloss disagrees, so `sisun` arrives for the first
+time, is asked, and is refused on its merits: no inflection of `sisi` agrees
+with 縫 either. **A refusal that survives being asked directly is worth more
+than one that was never reached**, and dom152.py asserts it by calling
+`outvoted("sisun")` rather than by trusting the entry condition.
+
++20 values / 53 occurrences, 0 de-verified. 96.5771% -> **96.6963%**.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

@@ -488,6 +488,18 @@ SYN = [
     "養肥 變肥 肥胖 胖子",              # ptbnaw 養肥 / tbnaw 胖子
     "說服 相信 信服",                  # spsnhiyi 說服 / psnhiyi 使相信
     "源頭 起源 根本 基礎",              # spusu 源頭、起源 / pusu 主要的，根本的
+    # Batch 151. Four more, read off the biggest surviving items in the same
+    # bucket. Three of the four agree only because batch 149 gave the root its
+    # second gloss — `lutut` is 連結 in the wordlist and 宗族血統；後裔 in the
+    # glossary, `tqnay` and `ttama` are glossed by the glossary alone — so
+    # these are the two mechanisms working together rather than either one.
+    "親屬 親戚 宗族 血統 後裔 家族",      # mslutut 確實是親屬 / lutut 宗族血統
+    "作伴 陪同 跟隨 相伴 同行 結伴 在一起",  # stqnay 作伴 / tqnay 跟隨；陪同
+    "欺騙 愚弄 錯亂 迷惑 受騙",          # pneutuxan 免得受騙 / peutux 使...錯亂
+    "坐著 停住 棲息 坐下",              # mttama 坐著的人 / ttama 停住（在上方）
+    "記號 標示 指示 標記 符號",          # empskraya 指示－標示 / pskraya 記號
+    "抓住 捕捉 逮住 釣到 捉住",          # ttjiyal 牢牢被抓住 / tjiyal 捕捉;釣到
+    "就這樣 是這樣 那樣 一樣 這樣",       # snhaya 跟以前一樣 / shaya 就這樣
 ]
 SYN = [s.split() for s in SYN]
 assert all(len(m) >= 2 for s in SYN for m in s), "SYN members must be >= 2 chars"
@@ -1046,6 +1058,83 @@ class Inflection(object):
                     if best is None or cost < best[0]:
                         best = (cost, (c, p, sf, slot, w, sh))
                     break
+        return best[1] if best else None
+
+    # ---- the root is glossed, and its own paradigm says otherwise
+    def outvoted(self, v):
+        """(root, prefix, suffix, slot, [(supporter, shared)]) or None.
+
+        `unglossed_root()` without its precondition that the root be unglossed
+        — and therefore a different claim, which is why it is a separate rule
+        and a level below. There the gloss table was SILENT and the paradigm
+        was asked in its place. Here the gloss table SPEAKS, `regular()` has
+        read it, and it disagrees with his Chinese. The paradigm is asked
+        anyway, and where it answers clearly the paradigm wins.
+
+        It wins because the two are not equal evidence. A citation gloss is one
+        editor's choice of one sense to print for a headword; a paradigm is
+        that same wordlist writing the root out across its slots, and it cannot
+        keep a wrong sense up for long. `paux` is the case the whole rule is
+        for. The wordlist glosses it 犁田, to plough, and batch 148 refused the
+        family on those grounds — 犁田 is not 翻轉 and no synonym line was
+        going to make it so. That refusal was right on the evidence it had. But
+        the same wordlist also prints `mknpaux` 反過來 and `mspaux` 會翻, and
+        his own values are 翻轉（前後）and 使…被翻轉. Ploughing is turning soil
+        over; 犁田 was the narrow sense, not the meaning. **The pin comes down
+        because new evidence overturned it, not because the rule that set it
+        was weakened** — `paux` is still not in SYN, and 犁田 is still not 翻轉.
+
+        `qdriq` shows the same shape without a narrow sense: his 逃跑的人 —
+        逃走 is not the wordlist's `qdriq` 床底 at all, it is the syncopated
+        stem of `qduriq` to flee, and the supporter `qndriqan` 逃跑 is what
+        says so. Two homographs told apart, as `kray` was in batch 149.
+
+        **It does not reopen the SISUN trap, and for a reason that is now
+        threefold.** `sisi` is glossed 用來濾酒的工具; that gloss disagrees with
+        his SISUN 縫, so this rule is reached; and then NO inflection of `sisi`
+        in the wordlist agrees with 縫 either. The paradigm is asked and
+        declines. A trap that survives being asked directly is a stronger
+        result than one that was never reached, and the log asserts it.
+
+        Guards are `unglossed_root()`'s verbatim — his Chinese attached to the
+        word AS a word, four-letter root floor, root unfrozen, `derived()`
+        yielding at least two distinct affixes, whole-or-VSUF final-vowel
+        witness — and then one more, because overriding a gloss needs better
+        evidence than filling a hole:
+
+        TWO independent supporters must agree, or one must agree on a whole
+        two-character word. One supporter sharing one character with his gloss
+        is how `qdriq` also matched 的人 out of 住在Driq 的人, and how `taril`
+        matched 方 out of 地方 — a bigram of STOP characters, and a fragment of
+        a fragment. Requiring a second voice or a real word cut 37 candidate
+        roots to 13, and the 24 it dropped were the coincidences.
+        """
+        if v in self.frozen or v in HAND_NOT_UNGLOSSED:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for c, p, sf, slot in self.roots(v):
+            if not self._gloss(c) or len(c) < 4 or c in self.frozen:
+                continue                    # unglossed_root() covers the rest
+            d = self.derived(c)
+            if len(set(d.values())) < 2:
+                continue
+            if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
+                continue
+            sup = []
+            for w in sorted(d, key=lambda w: (len(w), w)):
+                sh = self._agrees(his, w)
+                if sh and not all(ch in STOP for ch in sh):
+                    sup.append((w, sh))
+            agree = {sh for _, sh in sup}
+            strong = [a for a in agree if len(a) >= 2 and "=" not in a]
+            if len(agree) < 2 and not strong:
+                continue
+            cost = len(p) + len(sf)
+            if best is None or cost < best[0]:
+                best = (cost, (c, p, sf, slot, sup))
         return best[1] if best else None
 
     # ---- the sister slots: a paradigm the wordlist writes with other suffixes

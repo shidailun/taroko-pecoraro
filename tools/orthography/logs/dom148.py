@@ -74,8 +74,16 @@ GAIN = {
 # they are not the same word. `sisun` is the standing case — he glosses it 縫
 # and `sisi` is a wine-strainer — and `knslaan` 饑餓虛脫 against `sla` 大外衣
 # stays hand-refused, since 大 was never a synonym of anything.
-PIN = {"kmpaux": 6, "kpaux": 3, "kpauxi": 2, "pauxun": 2, "pkpaux": 2,
-       "sisun": 5, "knslaan": 2}
+# `kmpaux` and `pkpaux` WERE pinned here and are not any more. Batch 152 did
+# not weaken the synonym rule that refused them — `paux` is still not in SYN
+# and 犁田 is still not 翻轉 — it found new evidence: the wordlist's own
+# `mknpaux` 反過來 and `mspaux` 會翻 say the root means turn over, whichever
+# sense its headword gloss prints. A pin records a refusal on the evidence of
+# its day; when better evidence arrives the pin comes down and says so, as
+# dom147's `mskingal` did. The other five stay, and `kpaux` is why the bar is
+# where it is: it carries only ONE of his glosses, so only `mspaux` answers
+# for it, and one single-character voice is not enough.
+PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "sisun": 5, "knslaan": 2}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
