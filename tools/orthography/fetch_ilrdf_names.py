@@ -20,10 +20,11 @@ answer and not a gap.
 
 `NameTypes: []` means every type, and for Truku every type is three: 男名 928,
 女名 614, 男女共名 258, distinct 1,792. Asking for 氏族名 (3) and 屋名 (4)
-explicitly returns **zero rows on every initial** — the register simply does not
-hold Truku clan or house names, so an empty result here is completeness, not a
-filter left switched on, and his clan names will never be settled from this
-source.
+explicitly returns **zero rows on every initial**, and that is not a hole in the
+register: **Truku naming is 親子連名**, a person's own name followed by their
+father's. Clan names and house names are other peoples' institutions — 屋名 is
+Paiwan and Rukai, 氏族名 Tsou and Saisiyat — so there is nothing here for those
+types to hold, and nothing missing from this harvest.
 
 Why this file exists at all: **no wordlist has a reason to hold a personal
 name**, which is why tier N has always been the one population where every

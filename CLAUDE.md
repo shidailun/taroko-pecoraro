@@ -1854,9 +1854,11 @@ possessive prefix **N**. `hane`>`hani` would have renamed a grammatical particle
 after a man.
 
 **The floor.** The register was asked for 氏族名 (NameType 3) and 屋名 (4)
-directly, on every initial: **zero rows for 太魯閣族**. The 1,792 harvested names
-are 男名 / 女名 / 男女共名 and nothing else, so `NameTypes: []` was already
-complete and **his clan names will never be settled from this source**.
+directly, on every initial: **zero rows for 太魯閣族** — and that is not a hole in
+the register. **Truku naming is 親子連名**, a person's own name followed by their
+father's; clan names and house names are other peoples' institutions (屋名 Paiwan
+and Rukai, 氏族名 Tsou and Saisiyat). The 1,792 harvested names are 男名 / 女名 /
+男女共名 because that is all there is to have. Nothing is missing.
 
 What is left is honestly out of reach: **58 values / 189 occurrences he himself
 declares** `name (m)`/`name (f)`, plus 23 `name (.., jp)` values / 43 occurrences
@@ -1868,6 +1870,57 @@ Measured: 0 map keys added or removed, **2 changed** (both N→M), 0 relevelled;
 verified.js +2, all level 1. DOM 94.6790% → **94.6835%** dark (42,101 / 2,332 /
 32; pecoraro 94.6866%), 1,967 cards, 0 page errors in both modes. `dom139.py`:
 2 FIX dark with both old spellings gone, 9 KEEP still pale, **0 failures**.
+
+## If the name is close, use it (batch 140, 2026-08-02)
+
+Batches 138 and 139 required the edit to be a correspondence this book already
+documents. **That is the wrong bar for a name.** A correspondence table is built
+out of words, and a name is exactly the thing that does not have to obey one —
+it can be his ear, his typewriter, or the family's own spelling. Refusing `qapi`
+because e>a is not in the table left a woman unnamed to protect a rule that was
+never about her.
+
+The rule is now what actually identifies a name:
+
+- **he declares it a name himself** (`name (m)` / `name (f)`), and
+- **exactly one registered name of an agreeing type is one edit away** from the
+  spelling his token puts on screen — his `name (m)` against 男名 or 男女共名,
+  his `name (f)` against 女名 or 男女共名.
+
+Nine more: `boin`>**buhin** 男名, `dado`>**kadu** 男女共名, `koxong`>**kunung**
+女名, `pixeng`>**pihang** 男名, `qepi`>**qapi** 女名, `syobao`>**subaw** 男名,
+`tibi`>**sibi** 男名, `unaq`>**unaw** 男名, `xatsö`>**hatu** 男女共名.
+
+**The tag requirement is what makes closeness safe.** A token tier N flagged off
+capitalisation has no type to agree with, and `xane` is why that matters: it is
+one edit from `Hani` 男名 and it is not a name at all — it is a word in his
+example `ASO NA SAO'LE XANE`, under the entry for the possessive prefix **N**.
+Every untagged token stays refused, `lübaq` and `hane` included.
+
+**Where "close" identifies nobody, nothing is chosen.** `akit` has six agreeing
+names one edit away, `sidi` six, `uding` six. `ingay` — 24 occurrences, the
+heaviest name in the book — has three, and all three are 女名 against his
+`name (m)`. His spelling stands.
+
+**The -Cwi set is refused as a set.** ATWI, APWI, SIDWI, SIPWI are four of his
+names sharing a shape the register does not have, which reads as a convention of
+his rather than four separate slips — and SIDWI and SIPWI would both land on
+`Siwi`, collapsing two names his book keeps apart. `atwi` has a unique agreeing
+match (`amwi`, 8 occ) and is still refused on that ground. One name is worth
+having; a distinction is worth keeping. Contrast `qapi` and `unaw`, where two of
+*his* spellings land on one registered name: there an outside source says they
+were always one name, which is the opposite situation.
+
+Measured: 0 map keys added or removed, **9 changed** (7 N→M, 2 R→M), 0
+relevelled; verified.js +7, all level 1 (two of the nine values were already on
+the page). DOM 94.6835% → **94.7037%** dark (42,110 / 2,323 / 32), 1,967 cards,
+0 page errors. `dom140.py` 0 failures; `dom139.py` and `dom138.py` both still 0
+(dom138's `unaw` expectation raised 1→2, because batch 140 put his UNAQ on the
+same registered name).
+
+Still pale and now genuinely out of reach: **49 values / 180 occurrences he
+declares `name (m)`/`name (f)`** — `ingay` 24, `akit` 10, `atwi` 8 — plus 23
+`name (.., jp)` values, which are a question about Japanese romanization.
 
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 

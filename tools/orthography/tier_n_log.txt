@@ -47,7 +47,6 @@ asin             asin             midcap=0    occ=1
 atang            atang            midcap=0    occ=1
 ban              ban              midcap=1    occ=1
 beau             beau             midcap=1    occ=1
-boin             buin             midcap=0    occ=1
 cibi             cibi             midcap=1    occ=1
 connaissance     cunnaissance     midcap=1    occ=1
 dawai            daway            midcap=0    occ=1
@@ -83,10 +82,8 @@ paidang          paidang          midcap=0    occ=1
 piking           piking           midcap=0    occ=1
 pilyaq           pilyaq           midcap=0    occ=1
 pitong           pitung           midcap=0    occ=1
-pixeng           piheng           midcap=0    occ=1
 pnsdaxong        pnsdahung        midcap=1    occ=1
 pusing           pusing           midcap=0    occ=1
-qepi             qepi             midcap=0    occ=1
 qlap             qlap             midcap=1    occ=1
 rougeur          ruugeur          midcap=1    occ=1
 sati             sati             midcap=0    occ=1
@@ -97,12 +94,10 @@ sidwi            sidwi            midcap=0    occ=1
 simi             simi             midcap=0    occ=1
 siyal            siyal            midcap=0    occ=1
 sobil            subil            midcap=0    occ=1
-syobao           syubaw           midcap=0    occ=1
 syukang          syukang          midcap=0    occ=1
 tapang           tapang           midcap=0    occ=1
 tbasyaq          tbasyaq          midcap=1    occ=1
 tenong           tenung           midcap=1    occ=1
-tibi             tibi             midcap=0    occ=1
 tilae            tilay            midcap=0    occ=1
 tiwin            tiwin            midcap=0    occ=1
 toli             tuli             midcap=0    occ=1
@@ -111,14 +106,12 @@ tyakang          tyakang          midcap=1    occ=1
 udang            udang            midcap=0    occ=1
 uding            uding            midcap=0    occ=1
 umyaq            umyaq            midcap=0    occ=1
-unaq             unaq             midcap=0    occ=1
 unin             unin             midcap=1    occ=1
 vivant           vivant           midcap=1    occ=1
 wating           wating           midcap=0    occ=1
 watyex           watyeh           midcap=0    occ=1
 xabao            habaw            midcap=0    occ=1
 xane             hane             midcap=1    occ=1
-xatsö            hatsu            midcap=0    occ=1
 yawas            yawas            midcap=0    occ=1
 yiyax            yiyah            midcap=1    occ=1
 yokong           yukung           midcap=0    occ=1

@@ -22,13 +22,13 @@ example `ASO NA SAO'LE XANE` under his entry for the possessive prefix N.
 `hane` > `hani` would have renamed a grammatical particle after a man.
 
 The floor is the other half. The register was asked for 氏族名 (NameType 3) and
-屋名 (4) directly, every initial: **zero rows for 太魯閣族**. The 1,792 harvested
-names are 男名/女名/男女共名 and nothing else, so the harvest was complete — and
-his clan names have no authority behind them and never will from this source.
-`fetch_ilrdf_names.py` already passes `NameTypes: []`; the docstring now records
-what that empty list is worth.
+屋名 (4) directly, every initial: **zero rows for 太魯閣族**. That is not a hole
+in the register — **Truku naming is 親子連名**, a person's own name followed by
+their father's, and clan and house names are other peoples' institutions (屋名
+Paiwan and Rukai, 氏族名 Tsou and Saisiyat). The 1,792 harvested names are
+男名/女名/男女共名 because that is all there is to have.
 
-What is left is honestly out of reach: **58 values / 189 occurrences he himself
+What is left is honestly out of reach at this bar: **58 values / 189 occurrences he himself
 declares** `name (m)`/`name (f)`, plus 23 `name (.., jp)` values / 43 occurrences
 that are a question about Japanese — none of them in the register under any
 documented variant. liwis 38, akit 10, atwi 8, apwi 4, tiing 2, sipwi 2.

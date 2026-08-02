@@ -70,9 +70,12 @@ GAIN = {
     "kutan": 1, "makat": 1, "masay": 1, "masing": 1, "mihang": 1, "muna": 1,
     "nunung": 1, "payan": 1, "pitung": 1, "pusing": 1, "sigi": 1, "simi": 1,
     "siri": 1, "siyal": 1, "tami": 1, "tuli": 1, "tunung": 1, "ubin": 1,
-    "udang": 1, "ukah": 1, "umat": 1, "unaw": 1, "yawas": 1, "yukung": 1,
+    "udang": 1, "ukah": 1, "umat": 1, "unaw": 2, "yawas": 1, "yukung": 1,
     "yuyu": 1,
 }
+# `unaw` was 1 here when this batch ran; batch 140 put his UNAQ on the same
+# registered name, so it is 2 now. Raised rather than pinned, because the point
+# of the assertion is that every occurrence is dark, not that the count froze.
 
 # registered names that are NOT this page's names — the gate must refuse them
 KEEP = {

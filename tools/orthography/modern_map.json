@@ -1436,6 +1436,10 @@
    "modern": "bubung",
    "tier": "B"
   },
+  "boin": {
+   "modern": "buhin",
+   "tier": "M"
+  },
   "bokox": {
    "modern": "bukuh",
    "tier": "B"
@@ -1892,6 +1896,10 @@
   "dadax": {
    "modern": "dadax",
    "tier": "id"
+  },
+  "dado": {
+   "modern": "kadu",
+   "tier": "M"
   },
   "dai": {
    "modern": "dai",
@@ -5124,6 +5132,10 @@
   "koxat": {
    "modern": "kuhat",
    "tier": "B"
+  },
+  "koxong": {
+   "modern": "kunung",
+   "tier": "M"
   },
   "koyox": {
    "modern": "kuyuh",
@@ -11681,6 +11693,10 @@
    "modern": "pixan",
    "tier": "id"
   },
+  "pixeng": {
+   "modern": "pihang",
+   "tier": "M"
+  },
   "pixi": {
    "modern": "pixi",
    "tier": "id"
@@ -14566,6 +14582,10 @@
   },
   "qelo": {
    "modern": "qilug",
+   "tier": "M"
+  },
+  "qepi": {
+   "modern": "qapi",
    "tier": "M"
   },
   "qeta": {
@@ -17877,6 +17897,10 @@
    "modern": "siqa",
    "tier": "M"
   },
+  "syobao": {
+   "modern": "subaw",
+   "tier": "M"
+  },
   "syudo": {
    "modern": "sudu",
    "tier": "M"
@@ -18482,6 +18506,10 @@
   },
   "tibasyaq": {
    "modern": "tibasyaq",
+   "tier": "M"
+  },
+  "tibi": {
+   "modern": "sibi",
    "tier": "M"
   },
   "tii": {
@@ -19852,6 +19880,10 @@
    "modern": "un",
    "tier": "M"
   },
+  "unaq": {
+   "modern": "unaw",
+   "tier": "M"
+  },
   "usa": {
    "modern": "usa",
    "tier": "id"
@@ -20103,6 +20135,10 @@
   "xaqol": {
    "modern": "haqul",
    "tier": "B"
+  },
+  "xatsö": {
+   "modern": "hatu",
+   "tier": "M"
   },
   "xawai": {
    "modern": "hawan",
@@ -25983,10 +26019,6 @@
    "tier": "R",
    "elision_dropped": "d'yami"
   },
-  "dado": {
-   "modern": "dadu",
-   "tier": "R"
-  },
   "daman": {
    "modern": "daman",
    "tier": "R"
@@ -26360,10 +26392,6 @@
   },
   "komù": {
    "modern": "kumu",
-   "tier": "R"
-  },
-  "koxong": {
-   "modern": "kuhung",
    "tier": "R"
   },
   "ks'gan": {
@@ -28858,10 +28886,6 @@
    "modern": "beau",
    "tier": "N"
   },
-  "boin": {
-   "modern": "buin",
-   "tier": "N"
-  },
   "byeqai": {
    "modern": "byeqay",
    "tier": "N"
@@ -29075,20 +29099,12 @@
    "modern": "pitung",
    "tier": "N"
   },
-  "pixeng": {
-   "modern": "piheng",
-   "tier": "N"
-  },
   "pnsdaxong": {
    "modern": "pnsdahung",
    "tier": "N"
   },
   "pusing": {
    "modern": "pusing",
-   "tier": "N"
-  },
-  "qepi": {
-   "modern": "qepi",
    "tier": "N"
   },
   "qlap": {
@@ -29151,10 +29167,6 @@
    "modern": "subil",
    "tier": "N"
   },
-  "syobao": {
-   "modern": "syubaw",
-   "tier": "N"
-  },
   "syukang": {
    "modern": "syukang",
    "tier": "N"
@@ -29195,10 +29207,6 @@
    "modern": "tenung",
    "tier": "N"
   },
-  "tibi": {
-   "modern": "tibi",
-   "tier": "N"
-  },
   "tilae": {
    "modern": "tilay",
    "tier": "N"
@@ -29236,10 +29244,6 @@
    "modern": "umyaq",
    "tier": "N"
   },
-  "unaq": {
-   "modern": "unaq",
-   "tier": "N"
-  },
   "unin": {
    "modern": "unin",
    "tier": "N"
@@ -29262,10 +29266,6 @@
   },
   "xane": {
    "modern": "hane",
-   "tier": "N"
-  },
-  "xatsö": {
-   "modern": "hatsu",
    "tier": "N"
   },
   "xoyo": {
