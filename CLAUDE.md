@@ -908,6 +908,13 @@ WORD_OVERRIDES → MODERN_MAP → `charRules()`. Map tiers:
   at all (`ndup`, `mdup`, `endup`, `edup` all 0× — `dupan` 獵場 is the other DUP root), and his
   own note says NDUP is NDUK with the final P surfacing as K, so rewriting his variant to the
   k-form is a lexical substitution, which belongs on screen in tier X and not silently here.
+  **`mdup` was overturned in batch 158, and the measurement is what overturned it.** `-dup$` is
+  0 words and `-duk$` is 96, which argues for the respelling rather than against it: a
+  substitution is when his WORD is gone and a different one carries the sense, and here the
+  root, the prefix and the sense are identical while one consonant differs — a consonant he
+  documents as alternating. Batch 19's GALUP family had already taken six p-forms to k on his
+  own doubled spelling; the two rulings contradicted each other until 158. `ndup` and `duka`
+  stand: bare `duk` is unlisted, so they fail the K-twin gate.
 
   **The generator's own propagation had to be swept too**, and that is the transferable lesson:
   four derived forms came along that nobody typed. Two were fine (`penduk` off the attested
@@ -2629,6 +2636,37 @@ Worth 21 occurrences immediately, and two of them were homographs no gloss
 comparison could break: `krwahan` 吝惜 sat on a listed `rwahi` 打開 *open* with
 the glossary's `krwahi` 顧惜；捨不得 unreachable beside it; `kdagi` 扛抬 sat on
 `dagi` 要煮飯 *cook rice* with `pkdagan` 使抬著 unreachable beside it.
+
+## He wrote the rule down, and the wordlist obeys it (batch 158, 2026-08-02)
+
+Three of his entries state a sound correspondence in prose — DUK
+「請注意詞尾輔音P與K之間常見的變換；派生詞保留P，而詞基往往作K」, NDUP
+「NDUK 的變體（詞尾的 P 實現為 K）」, GALUK「見 GALUP」. It is the only one he
+bothers to write out, and **the modern wordlist splits the same root the same
+way**: base `iyuk` 吹;吹氣 / `miyuk` 吹 with K, derived `yupi` 吹洞簫 /
+`yupan` 要…吹 / `yupun` 吹 with P. Five listed words, one root, both consonants,
+conditioned exactly where he says. Not drift between 1977 and now — a live
+alternation he described correctly.
+
+**So the rule is about BASES and must never become a rule about the letter.** A
+blanket p→k would have rewritten those three listed, glossed, dark derived slots
+into forms nothing attests. The gate is `regular()`'s: respell only where the
+K-twin is **listed** and its gloss agrees with his. Five values pass, all at
+rank 1 — `iyup`→`iyuk`, `qmrap`→`qmrak`, `trap`→`trak`, `qnrap`→`qnrak`,
+`mdup`→`mduk`. `dup` is refused and stays pale at 7 because bare `duk` is
+unlisted (modern writes `eduk` 門扇), and `dupan` 獵場 is a different root.
+
+**This overturns batch 29's refusal of `mdup`, and the measurement it refused on
+is the same one that overturns it.** `-dup$` is 0 words in 40,760; `-duk$` is 96.
+Batch 29 read that as "his variant has no modern counterpart, so replacing it is
+lexical substitution"; it means the p-spelling names nothing. A substitution is
+when his WORD is gone and a different word carries the sense (`q'nao`→`qusul`).
+Batch 19 had already taken six GALUP p-forms to k on his own doubled spelling, so
+the two rulings sat in this file contradicting each other for 139 batches.
+**The tie-breaker is not which is later — it is that 19 rested on his own writing
+and 29 on an inference about what a zero count means.** Corrected in place above.
+
++5 values / 8 occurrences, 0 de-verified. 96.8605% → **96.8784%**.
 
 ## Deploy
 

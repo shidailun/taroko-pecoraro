@@ -3489,7 +3489,7 @@
    "tier": "id"
   },
   "iyup": {
-   "modern": "iyup",
+   "modern": "iyuk",
    "tier": "M"
   },
   "iyus": {
@@ -4306,7 +4306,7 @@
    "tier": "M"
   },
   "kmlap": {
-   "modern": "qmrap",
+   "modern": "qmrak",
    "tier": "M"
   },
   "kmlawa": {
@@ -4706,6 +4706,10 @@
   "knlala": {
    "modern": "knlala",
    "tier": "id"
+  },
+  "knlap": {
+   "modern": "qnrak",
+   "tier": "M"
   },
   "knlbangan": {
    "modern": "knlbangan",
@@ -7524,6 +7528,10 @@
   "mdungus": {
    "modern": "mdungus",
    "tier": "id"
+  },
+  "mdup": {
+   "modern": "mduk",
+   "tier": "M"
   },
   "meidang": {
    "modern": "meydang",
@@ -17966,7 +17974,7 @@
    "tier": "X"
   },
   "t'lap": {
-   "modern": "trap",
+   "modern": "trak",
    "tier": "M"
   },
   "t'lo": {
@@ -18835,7 +18843,7 @@
    "tier": "M"
   },
   "tlap": {
-   "modern": "trap",
+   "modern": "trak",
    "tier": "M"
   },
   "tlawa": {
@@ -21830,10 +21838,6 @@
    "modern": "mduwa",
    "tier": "P"
   },
-  "mdup": {
-   "modern": "mdup",
-   "tier": "P"
-  },
   "mg'xal": {
    "modern": "mgxal",
    "tier": "P",
@@ -21860,7 +21864,7 @@
    "tier": "P"
   },
   "miyup": {
-   "modern": "miyup",
+   "modern": "miyuk",
    "tier": "P"
   },
   "mk'ino": {
@@ -30807,12 +30811,6 @@
    "tier": "G",
    "g_stem": "toting",
    "g_modern": "tucing"
-  },
-  "knlap": {
-   "modern": "qnrap",
-   "tier": "G",
-   "g_stem": "klap",
-   "g_modern": "qrap"
   },
   "kpax": {
    "modern": "qpah",
