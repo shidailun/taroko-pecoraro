@@ -270,6 +270,34 @@ HAND_NOT_ROOTED = set(
     "tbuyun tbuyan ptbuyun ptbuyan tnbuyan ptungun "
     "tntmaan".split())
 
+# unglossed_root()'s whole output read the same way — 26 values, batch 141. The
+# rule agrees against a SUPPORTER, so the way it goes wrong is the one way that
+# kind of agreement can: the shared character is not a word but a particle, and
+# no gate can see the difference because a particle is a character like any
+# other.
+#   psqpahan his （主動）地黏貼－使黏附, to paste, agreeing with `qmpahan` 工作的地
+#   psqpahi  on 地 — the ADVERBIAL 地 of 主動地 against the 地 that means ground.
+#   psqpahun He has two roots here and they are not the same root: QPAH 工作 and
+#            SQPAX 黏貼. This is the SISUN shape exactly — right letters, wrong
+#            word — and it is the reason the doctrine exists.
+#   mttama   his 坐著的人－靠著休息的人 against `pttama` 守著, agreeing on 著, the
+#   tmtama   verbal aspect marker. Every one of the three glosses wears it and
+#            none of them means it. The reading may well be right; the EVIDENCE
+#            is a particle, and a particle is not evidence.
+#   mrbuq    his 呈凹陷－形成凹穴 against `trbuq` 形容坑洞深, agreeing on the 形 of
+#            形容 — the head the wordlist writes in front of a gloss that
+#            DESCRIBES rather than names, the same class as the 用來 already in
+#            BOILER. Here the two readings do agree (both are hollows), which is
+#            why this one is pinned and not remapped: the answer is right and
+#            the argument for it is worthless.
+#
+# Requiring a two-character run instead of a hand list was measured and refused:
+# it costs 14 of the 26 to save these 6, including `qnriqani` 恨, `trgrig` 舞,
+# `smbrinah` 回 and the three `pllg-` 動, every one of which is a single
+# character that IS a word.
+HAND_NOT_UNGLOSSED = set(
+    "psqpahan psqpahi psqpahun mttama tmtama mrbuq".split())
+
 # sistered()'s whole output read the same way — batch 115. The rule reads no
 # gloss at all, so the way it goes wrong is the homonym: his word is a
 # different word that happens to wear the same letters as a slot of an
@@ -625,6 +653,69 @@ class Inflection(object):
                                 if best is None or cost < best[0]:
                                     best = (cost, (c, p, sf, w, sh))
                                 break
+        return best[1] if best else None
+
+    # ---- the root is listed; nobody ever glossed it
+    def unglossed_root(self, v):
+        """(root, prefix, suffix, slot, supporter, shared char) or None.
+
+        regular() over a root the wordlist DOES list but never glossed, with
+        the gloss agreement taken against one of that root's own inflections.
+
+        `regular()` asks two questions of a root and needs both: is it listed,
+        and does its gloss agree with his Chinese. For 138 types the first
+        answer is yes and the second cannot be asked at all, because
+        `attested_gloss.json` holds no gloss for the root. That is not a
+        judgement against the word — it is a hole in the GLOSS TABLE, and this
+        file has already convicted that hole twice by name: `qriban`, and
+        `ttmaan` in the HAND_NOT_ROOTED note above ("what stops regular()
+        reaching it is that `ttmaan` carries no gloss, which is the listing
+        gap, not a morphology gap"). Most of a paradigm is glossless; the
+        wordlist glosses the citation form and leaves the slots bare.
+
+        So ask the paradigm instead. `ptbgi` is the shape: `tbgi` is listed and
+        bare, but `tbgan` 養家畜的地方 is listed too, and his gloss for the value
+        is 託人餵養－使人餵養, agreeing on 養. The root's own inflection says what
+        the root means.
+
+        This does NOT reopen the SISUN trap. SISUN's root `sisi` HAS a gloss —
+        用來濾酒的工具, the wine strainer — so `regular()` reads it, refuses it,
+        and the value never arrives here at all. This rule fires only where
+        there is nothing to read.
+
+        The chain is the same length as vouched_root()'s — one affix step to a
+        root, one paradigm step from the root to a supporter that speaks for it
+        — and so it carries vouched_root()'s guard set verbatim: his Chinese
+        must be attached to the word AS a word (`slots_only`), a four-letter
+        root floor, the root unfrozen, the root's `derived()` yielding at least
+        two DISTINCT affixes, and the whole-or-VSUF final-vowel witness. Its one
+        respect in which the evidence is STRONGER is the reason it sits a level
+        above: vouched_root()'s root is a hypothesis, and this one is a word the
+        wordlist prints.
+
+        Six of the 26 are pinned by hand above; the note there is the reading.
+        """
+        if v in self.frozen or v in HAND_NOT_UNGLOSSED:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for c, p, sf, slot in self.roots(v):
+            if self.gl.get(c) or len(c) < 4 or c in self.frozen:
+                continue                    # regular() already had its chance
+            d = self.derived(c)
+            if len(set(d.values())) < 2:
+                continue
+            if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
+                continue
+            for w in sorted(d, key=lambda w: (len(w), w)):
+                sh = self._agrees(his, w)
+                if sh:
+                    cost = len(p) + len(sf)
+                    if best is None or cost < best[0]:
+                        best = (cost, (c, p, sf, slot, w, sh))
+                    break
         return best[1] if best else None
 
     # ---- the sister slots: a paradigm the wordlist writes with other suffixes

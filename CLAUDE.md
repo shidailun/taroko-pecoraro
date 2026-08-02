@@ -1922,6 +1922,66 @@ Still pale and now genuinely out of reach: **49 values / 180 occurrences he
 declares `name (m)`/`name (f)`** — `ingay` 24, `akit` 10, `atwi` 8 — plus 23
 `name (.., jp)` values, which are a question about Japanese romanization.
 
+## The root is listed, and nobody ever glossed it (batch 141, 2026-08-02)
+
+`regular()` asks two things of a root and needs both — is it listed, and does
+its gloss agree with his Chinese. For **138 types / 223 occurrences** the first
+answer is yes and the second cannot be asked at all: `attested_gloss.json` holds
+nothing for the root. That is a hole in the **gloss table**, not a verdict on
+the word, and this project had already convicted the same hole twice by name —
+`qriban`, and `ttmaan` in `inflection.py`'s HAND_NOT_ROOTED note ("what stops
+regular() reaching it is that `ttmaan` carries no gloss, which is the listing
+gap, not a morphology gap"). Most of a paradigm is glossless; the wordlist
+glosses a citation form and leaves the slots bare.
+
+So `Inflection.unglossed_root()` asks the paradigm instead. `ptbgi` is the
+shape: `tbgi` is listed and bare, `tbgan` 養家畜的地方 is listed too, and his
+gloss is 託人餵養－使人餵養 — agreeing on 養. The root's own inflection speaks for
+the root.
+
+**It cannot reopen the SISUN trap**, which is the first question to ask of any
+rule that touches roots. SISUN's root `sisi` HAS a gloss — 用來濾酒的工具, the
+rattan wine strainer — so `regular()` reads it, refuses on it, and the value
+never arrives here. This rule fires only where `self.gl.get(root)` is empty.
+
+The chain is exactly `vouched_root()`'s length — one affix step to a root, one
+paradigm step from the root to a supporter — so it carries that method's guards
+verbatim: slot-only Chinese, four-letter root floor, root unfrozen, `derived()`
+yielding two DISTINCT affixes, whole/VSUF final-vowel witness. Its one stronger
+respect is why it sits a level **above**: `vouched_root()`'s root is a
+hypothesis, this one is a word the wordlist prints. Emitted level 4;
+`vouched_root`→5, `sistered`→6, `syncopated`→7, `chained`→8, `affix`→9.
+Renumbering is free because **`app.js` only tests membership** of
+MODERN_VERIFIED (`hasOwnProperty`), never the number.
+
+**26 values, read one by one, six pinned** in `HAND_NOT_UNGLOSSED`. All six
+fail the same way, and it is the only way this kind of agreement can fail: the
+shared character is not a word but a **particle**, and no gate can see that,
+because a particle is a character like any other.
+
+- `psqpahan`/`psqpahi`/`psqpahun` — his （主動）地黏貼－使黏附 against `qmpahan`
+  工作的地, agreeing on 地: the ADVERBIAL 地 against the 地 that means ground. He
+  has two roots here and they are not one, QPAH 工作 and SQPAX 黏貼. Right
+  letters, wrong word — SISUN exactly.
+- `mttama`/`tmtama` — 坐著的人／靠著休息 against `pttama` 守著, on 著, the aspect
+  marker. All three glosses wear it and none of them means it.
+- `mrbuq` — his 呈凹陷－形成凹穴 against `trbuq` 形容坑洞深, on the 形 of 形容, the
+  head the wordlist writes before a gloss that DESCRIBES, same class as the 用來
+  already in BOILER. Both readings really are hollows, so it is pinned rather
+  than remapped: **the answer is right and the argument for it is worthless**.
+
+Requiring a two-character RUN instead of a hand list was measured and refused —
+it costs 14 of the 26 to save these 6, including `qnriqani` 恨, `trgrig` 舞,
+`smbrinah` 回 and the three `pllg-` 動, every one a single character that IS a
+word.
+
+Measured: 0 map keys changed; `verified.js` **+20 keys, −0** (`matrima mlxan
+msbrinah msparu mstama mtrima pjiyan pllgan pllgi pllgun pntrilun pqpahan psuqi
+ptbgi qnriqani smbrinah spqnaqih spqpah sruciqun trgrig`). DOM 94.7037% →
+**94.7892%** dark (42,148 / 2,285 / 32), original mode 42,621 / 2,309 / 32 =
+94.7934%, 1,967 cards, 0 page errors in both. `dom141.py` 0 failures;
+`dom138.py`, `dom139.py`, `dom140.py` all still 0.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

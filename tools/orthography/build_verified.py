@@ -168,17 +168,20 @@ def main():
 
     def word(p):
         """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,
-        0.25 a regular inflection of a root vouched that way, 0.125 a slot the
-        wordlist writes with two other suffixes, 0.0625 an inflection of a
-        listed root that syncopates its own first vowel, 0.03125 an inflection
-        of a root that is itself one step from a glossed one, 0.015625 an affix
-        letter."""
+        0.375 a regular inflection of a LISTED root the wordlist never glossed,
+        spoken for by that root's own paradigm, 0.25 a regular inflection of a
+        root vouched by a paradigm, 0.125 a slot the wordlist writes with two
+        other suffixes, 0.0625 an inflection of a listed root that syncopates
+        its own first vowel, 0.03125 an inflection of a root that is itself one
+        step from a glossed one, 0.015625 an affix letter."""
         if p in seen:
             return 2
         if inf.regular(p):
             return 1
         if inf.vouched(p):
             return 0.5
+        if inf.unglossed_root(p):
+            return 0.375
         if inf.vouched_root(p):
             return 0.25
         if inf.sistered(p):
@@ -210,14 +213,16 @@ def main():
     listed = sorted(v for v in keys if lv[v] == 2)
     infl = sorted(v for v in keys if lv[v] == 1)
     vouch = sorted(v for v in keys if lv[v] == 0.5)
+    ungl = sorted(v for v in keys if lv[v] == 0.375)
     vroot = sorted(v for v in keys if lv[v] == 0.25)
     sistr = sorted(v for v in keys if lv[v] == 0.125)
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
     chain = sorted(v for v in keys if lv[v] == 0.03125)
     afx = sorted(v for v in keys if lv[v] == 0.015625)
-    good = sorted(listed + infl + vouch + vroot + sistr + syncp + chain + afx)
-    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5, 0.0625: 6, 0.03125: 7,
-            0.015625: 8}
+    good = sorted(listed + infl + vouch + ungl + vroot + sistr + syncp + chain
+                  + afx)
+    emit = {2: 1, 1: 2, 0.5: 3, 0.375: 4, 0.25: 5, 0.125: 6, 0.0625: 7,
+            0.03125: 8, 0.015625: 9}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -232,46 +237,59 @@ def main():
         "// own inflections and one of them means what he says it means (%d) — a\n"
         "// citation form nobody wrote down, which is the same listing gap seen\n"
         "// from the other side.\n"
-        "// 4 = 2 over 3: a regular inflection of a root the wordlist only vouches\n"
+        "// 4 = a regular inflection of a root the wordlist LISTS but never\n"
+        "// GLOSSED, spoken for by that root's own paradigm (%d). Rule 2 asks two\n"
+        "// things of a root and needs both, and for these the second cannot be\n"
+        "// asked at all: the gloss table holds nothing for the root. That is a\n"
+        "// hole in the table, not a verdict on the word — most of a paradigm is\n"
+        "// glossless — so the root's own attested inflection answers for it\n"
+        "// (`ptbgi` off the bare `tbgi`, through `tbgan` 養家畜的地方, against his\n"
+        "// 託人餵養). It cannot re-open the trap rule 2 exists to shut: a root that\n"
+        "// HAS a gloss is read and refused by rule 2 and never arrives here.\n"
+        "// 5 = 2 over 3: a regular inflection of a root the wordlist only vouches\n"
         "// for through ITS own inflections (%d). Neither the word nor its root is\n"
         "// listed, so the gloss agreement is taken against the root's attested\n"
         "// supporter and only against Chinese he attached to the word as a word.\n"
-        "// 5 = a SISTER SLOT: the wordlist writes this same stem with two OTHER\n"
+        "// Rules 4 and 5 run a chain of the same length and carry the same\n"
+        "// guards; 4 sits above 5 because its root is a word the wordlist prints\n"
+        "// and 5's is a hypothesis.\n"
+        "// 6 = a SISTER SLOT: the wordlist writes this same stem with two OTHER\n"
         "// paradigm suffixes and not with this one (%d). Most of a paradigm is\n"
-        "// glossless, so 2, 3 and 4 cannot reach these — the claim is about\n"
+        "// glossless, so 2, 3, 4 and 5 cannot reach these — the claim is about\n"
         "// morphology rather than meaning, and the gate is his: the word must be\n"
         "// one he printed in a ° paradigm line, which is his own statement that it\n"
         "// is an inflectional slot and not a word in its own right.\n"
-        "// 6 = 2 with the root's OWN first vowel syncopated (%d). Truku writes no\n"
+        "// 7 = 2 with the root's OWN first vowel syncopated (%d). Truku writes no\n"
         "// schwa, so a root loses that vowel under affixation — GAMIL 根 but\n"
         "// `Tgmilan` — and rule 2 can only ever delete a vowel at the end. Since\n"
         "// this inserts a letter he did not write, the gloss must be one he\n"
         "// attached to the word as a word, never an example sentence.\n"
-        "// 7 = 2 over a root that is itself one step from a glossed root (%d):\n"
+        "// 8 = 2 over a root that is itself one step from a glossed root (%d):\n"
         "// the CV- reduplication that makes no new lexeme (`qqgu` on `qgu`), or a\n"
-        "// second round of ordinary affixation (`swiwil` on `wiwil`). Rules 2-6\n"
+        "// second round of ordinary affixation (`swiwil` on `wiwil`). Rules 2-7\n"
         "// stop at the first listed root and ask its gloss, and most of a paradigm\n"
-        "// is glossless. Two steps of inference, so the same slot-gloss gate as 4\n"
-        "// and 6 — which here refuses every illicit spelling the rule would find.\n"
-        "// 8 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
+        "// is glossless. Two steps of inference, so the same slot-gloss gate as 4,\n"
+        "// 5 and 7 — which here refuses every illicit spelling the rule would find.\n"
+        "// 9 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
         "// and are his grammars of the particles and the productive affixes, not\n"
         "// word entries; their claim is `p` -> `p`, an identity, so there is no\n"
         "// respelling to doubt. No lexicon lists an affix, so the evidence is that\n"
         "// it is productive over words the lexicon DOES list.\n"
-        "// app.js paints all eight in the deep brown; a value NOT in here is still\n"
+        "// app.js paints all nine in the deep brown; a value NOT in here is still\n"
         "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
-        % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot),
-           len(sistr), len(syncp), len(chain), len(afx)))
+        % (len(good), len(keys), len(listed), len(infl), len(vouch), len(ungl),
+           len(vroot), len(sistr), len(syncp), len(chain), len(afx)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
-          "inflected off a vouched root: %d   sister slot: %d   syncopated root: "
+          "unglossed listed root: %d   inflected off a vouched root: %d   "
+          "sister slot: %d   syncopated root: "
           "%d   chained root: %d   affix letter: %d   unverified: %d   "
           "(of %d distinct)"
-          % (len(listed), len(infl), len(vouch), len(vroot), len(sistr),
+          % (len(listed), len(infl), len(vouch), len(ungl), len(vroot), len(sistr),
              len(syncp), len(chain), len(afx), len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
