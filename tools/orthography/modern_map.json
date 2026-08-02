@@ -4899,6 +4899,10 @@
    "modern": "knshjil",
    "tier": "B"
   },
+  "knsa'so": {
+   "modern": "knseesu",
+   "tier": "M"
+  },
   "knsaan": {
    "modern": "knsaan",
    "tier": "id"
@@ -9232,6 +9236,10 @@
    "modern": "mseeliq",
    "tier": "M"
   },
+  "ms'so": {
+   "modern": "mseesu",
+   "tier": "M"
+  },
   "ms'xdil": {
    "modern": "mshjil",
    "tier": "A"
@@ -9239,6 +9247,10 @@
   "msa": {
    "modern": "msa",
    "tier": "id"
+  },
+  "msa'so": {
+   "modern": "mseesu",
+   "tier": "M"
   },
   "msaang": {
    "modern": "msaang",
@@ -15218,9 +15230,8 @@
    "elision_dropped": "sa'mul"
   },
   "sa'so": {
-   "modern": "saso",
-   "tier": "M",
-   "elision_dropped": "sa'so"
+   "modern": "seesu",
+   "tier": "M"
   },
   "saai": {
    "modern": "saay",
@@ -21434,11 +21445,6 @@
    "modern": "knpsais",
    "tier": "P"
   },
-  "knsa'so": {
-   "modern": "knsaso",
-   "tier": "P",
-   "elision_dropped": "knsa'so"
-  },
   "knsadyaq": {
    "modern": "knseejiq",
    "tier": "P"
@@ -23007,16 +23013,6 @@
    "modern": "msmay",
    "tier": "P"
   },
-  "ms'so": {
-   "modern": "msso",
-   "tier": "P",
-   "elision_dropped": "ms'so"
-  },
-  "msa'so": {
-   "modern": "msaso",
-   "tier": "P",
-   "elision_dropped": "msa'so"
-  },
   "msadyaq": {
    "modern": "mseejiq",
    "tier": "P"
@@ -23609,9 +23605,8 @@
    "tier": "P"
   },
   "pgsa'so": {
-   "modern": "pgsaso",
-   "tier": "P",
-   "elision_dropped": "pgsa'so"
+   "modern": "pgseesu",
+   "tier": "P"
   },
   "pgxei": {
    "modern": "pghiyi",
@@ -24288,9 +24283,8 @@
    "tier": "P"
   },
   "psa'so": {
-   "modern": "psaso",
-   "tier": "P",
-   "elision_dropped": "psa'so"
+   "modern": "pseesu",
+   "tier": "P"
   },
   "psaang": {
    "modern": "psaang",

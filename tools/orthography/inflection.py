@@ -247,6 +247,38 @@ stbaku mici dcristu tensu semento kodyo kaityo diko diku cristo yordan xelyo
 xatso xaibyo tanso tenso tagahan murisaka mkmurisaka sitang efunang aman atwi
 atuh denki banasi otun utun taolan taulan""".split()
 
+# SPOKEN FOR BY THE INFORMANT — a fifth kind of evidence, and the only one on
+# this page that is not a document (batch 159).
+#
+# The speaker shortlist exists because some questions no corpus can answer, and
+# the agreed workflow for it is "we'll go one by one". This is the set where his
+# answers land. It widens `seen` and never `lex`, like the parquets, the Bible
+# and the names before it: a word vouched for by a speaker is an attestation,
+# not a root the affix analyser may cut other words onto.
+#
+# It is kept separate from everything else and printed separately so that no
+# later reader can mistake one of these for a wordlist hit. That is the whole
+# point of the category. A corpus miss is recorded next to each entry, because
+# the miss is real and stays true — what changes is what it MEANS.
+#
+#   nta   his NTA (R. = ?) 邀請前往（唯一使用的形式，與 LITA 並用）, 20
+#         occurrences, the largest pale word left on the page by a factor of
+#         three. `Nta da ! ... Kia ! Lita da !` 來吧，來！……好！我們走吧！
+#         **Batch 146 called it Toda and not Truku, and that was bad
+#         reasoning.** Klokah listing a form under 都達 says where Klokah
+#         happened to record it; it cannot say where the word is absent, and it
+#         is not evidence against a Truku dictionary that prints the word with a
+#         usage note. The corpus miss is real and was re-measured here — 0 hits
+#         in the 40,760-word wordlist, 0 in the 2,058 types of the Truku Bible,
+#         0 in 14,600 parquet types, 0 in 11,820 spoken types, against `nita` 5
+#         and `nnita` 25 for the genitive 我們的, which is a different word. What
+#         a miss across four written sources shows is that no modern Truku TEXT
+#         we hold spells it; his own note — 唯一使用的形式 — says why, because a
+#         hortative interjection is exactly what a Bible and a wordlist have no
+#         slot for. The informant says it is Truku. He is the authority the
+#         shortlist was addressed to.
+HAND_SPOKEN = """nta""".split()
+
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
 # at midcap=1 is a single capital letter, as likely to be sentence-initial or a

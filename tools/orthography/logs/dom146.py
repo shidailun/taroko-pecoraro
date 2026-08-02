@@ -38,6 +38,13 @@ asserted still pale below:
         Two letters is below any floor this book can honestly set, so the
         largest pale word on the page stays pale, on the same honest answer
         batch 139 gave: the outside source was asked and did not know.
+        **`nta` is dark as of batch 159, and the gate did not move.** It left by
+        a door that did not exist here — `HAND_SPOKEN`, the informant — and the
+        corpus miss recorded above is re-measured there and still stands, now
+        across four written sources rather than two. "The outside source was
+        asked and did not know" was the right answer to the question this batch
+        could ask. It was never the same as "the word is not Truku", and when it
+        was reported that way to the informant he corrected it.
   dup   his own note calls it a variant, 源自 DUP，而 DUP 最常實現為 DUK.
   klulu no supporters at all — `derived()` is empty, so the rule never applies.
 
@@ -58,9 +65,12 @@ URL = "http://127.0.0.1:8765/?q=%CC%81"
 GAIN = {"xal": 9, "niq": 4, "muk": 3, "rut": 3, "hdu": 2, "pru": 2, "yup": 2}
 
 # the three-letter roots the slot-gloss gate refuses, and `klulu` which has no
-# paradigm to be vouched by. If the gate is ever dropped, `rih` and `nta` are
-# the first two things to fall.
-PIN = {"nta": 20, "dup": 7, "klulu": 7, "rih": 6}
+# paradigm to be vouched by. If the gate is ever dropped, `rih` is the first
+# thing to fall.
+# `nta` was the fourth member and is dark as of batch 159 — **not by this gate
+# loosening, which is the whole point.** These three staying pale is the proof:
+# they are the same gate, unchanged, and `nta` needed a person to speak for it.
+PIN = {"dup": 7, "klulu": 7, "rih": 6}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {

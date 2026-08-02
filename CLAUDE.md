@@ -2668,6 +2668,50 @@ and 29 on an inference about what a zero count means.** Corrected in place above
 
 +5 values / 8 occurrences, 0 de-verified. 96.8605% → **96.8784%**.
 
+## A miss in four corpora is not a verdict about the language (batch 159, 2026-08-02)
+
+**`nta` is dark, and it is in no corpus.** It is the first entry in `HAND_SPOKEN`
+(inflection.py) — a fifth kind of evidence, and the only one in this build that is
+a person rather than a document. Like the parquets, the Bible and the names, it
+widens `seen` and never `lex`, and `build_verified.py` prints it **on its own
+line** so no later reader can mistake it for a wordlist hit.
+
+The miss is real, re-measured, and recorded rather than explained away: **0 hits
+in the 40,760-word wordlist, 0 in the 2,058 types of the Truku Bible, 0 in 14,600
+parquet types, 0 in 11,820 spoken types**, against `nita` 5 and `nnita` 25 for the
+genitive 我們的, which is a different word. What that shows is that no modern
+Truku *text we hold* spells it. His own note says why — 邀請前往（唯一使用的形式，
+與 LITA 並用）, and `Nta da ! ... Kia ! Lita da !` is a hortative interjection,
+which is exactly what a Bible and a wordlist have no slot for. Its whole frame is
+dark and attested: `ita`/`ta` 我們, `nita` 我們的, `nnita` 咱們的, `lita` 一起.
+
+**What was retracted is a claim I made in a report, not one the log made.**
+dom146.py refused `nta` honestly — the slot gloss that reached it was `ptntun`'s
+起, which is not its paradigm — and said "the outside source was asked and did not
+know". Reporting that to the informant as *"blocked — it's Toda, not Truku"* was
+the error: where Klokah happened to record a form says nothing about where the
+form is absent, and it cannot outweigh a Truku dictionary that prints the word
+with a usage note and eight examples. **The gate did not loosen.** `rih`, `dup`
+and `klulu` were pinned pale beside it in dom146 and are pinned pale still; that
+is the proof. The shortlist was always a list of questions no corpus can answer,
+put to a speaker one by one. This is the first answer, filed as an answer.
+
+**SA'SO is SEESU, and a root's one-line gloss loses to its own paradigm — the
+third time.** His 沉靜－羞怯－羞恥心 family (`Msa'so` 羞怯的－沉靜的, `Knsa'so`
+謙遜, `Psa'so` 使平靜) is the modern `seesu` family slot for slot: `mseesu` 安靜,
+`mgseesu` 默默的;文靜, `mnegseesu` 文靜的, `ttgseesu` 溫柔；謙和, `knseesu`.
+Bare `seesu` is glossed 看輕人 and is outvoted, exactly as `siyang` 肉 lost to its
+肥 paradigm (154) and `liwaq` 化妝/銀 lost to its shine paradigm (157). `pseesu`
+verifies at level 5, the outvoted rung, **fired by the machinery and not by hand.**
+
+**A gate on respellings is not the only road to dark.** `psa'so` and `pgsa'so`
+were written off in advance as unlisted, and went dark anyway: once the root
+moved, the root projection carried their spelling for free and the ordinary
+derived rungs reached them at 5 and 4. Predicting otherwise was my error, not the
+build's.
+
++6 values / 36 occurrences, 0 de-verified. 96.8784% → **96.9615%**.
+
 ## Deploy
 
 ```powershell

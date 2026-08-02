@@ -73,7 +73,7 @@ of the two levels.
 Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
-from inflection import HAND_NAMES, HAND_NOT_NAMES, Inflection
+from inflection import HAND_NAMES, HAND_NOT_NAMES, HAND_SPOKEN, Inflection
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 H = os.path.normpath(H)
@@ -140,6 +140,13 @@ def main():
         add = set(d) - seen
         seen |= add
         print("  + %d types from the %s" % (len(add), why))
+    # The informant. Printed on its own line, never folded into a source count,
+    # because this is the one attestation on the page that is a person and not a
+    # document — see HAND_SPOKEN in inflection.py.
+    spoken = set(HAND_SPOKEN) - seen
+    seen |= spoken
+    print("  + %d types spoken for by the informant (not in any corpus): %s"
+          % (len(spoken), " ".join(sorted(spoken))))
     app = read(os.path.join(SITE, "app.js"))
     ov, cl = table(app, "WORD_OVERRIDES"), table(app, "CLITIC_FORMS")
     m = read(os.path.join(SITE, "modern_map.js"))
