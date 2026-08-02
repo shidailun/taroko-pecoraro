@@ -2576,6 +2576,35 @@ in `app.js`, checked before the character rules. A few forms (TOKO's `Ptkui`,
 `SKUI`=dwarf bamboo, `Kmubui`/`kmbui`) had no confirmed modern counterpart and are
 left unchanged.
 
+## A gain of the right size is not a gain of the right kind (batch 155, 2026-08-02)
+
+`manual_map.json` is keyed on Pecoraro's **raw** tokens, before normalisation.
+His `PSQPAXAN` normalises to `psqpahan`, and a manual_map key written
+`psqpahan` therefore matches nothing — **and says nothing**. No error, no
+warning, no diff in the "mapped with actual spelling change" count.
+
+That is ordinary enough. What made it dangerous is what it was paired with. The
+batch removed three `HAND_NOT_UNGLOSSED` pins on the grounds that the
+respelling made them unreachable. The respelling was not there, so the pins came
+off words that were still spelled his way, and all three verified off `qpah`
+工作 — **the precise error the batch existed to fix.**
+
+**The census could not see it.** +5 values / +8 occurrences, 0 de-verified,
+43,042 dark, 96.7997% — digit for digit identical to the correct build. Three
+words went dark either way. Only the reason differed, and the reason is the
+entire content of the claim the dictionary makes when it prints a word dark.
+
+What caught it was `logs/dom155.py`'s GONE list: an assertion that his
+spellings `psqpahan`/`psqpahi`/`psqpahun` no longer render **at all**. That is
+a statement about which words exist, not about how many are verified, and it is
+the only kind of check that could have failed here. The GAIN and PIN lists both
+passed on the broken build.
+
+**Reusable:** when a batch's argument is "X is now unreachable, so its guard can
+go", the log must assert the unreachability directly. A guard removed on the
+strength of a change that silently did not happen is a guard removed for
+nothing, and the metric will congratulate you for it.
+
 ## Deploy
 
 ```powershell

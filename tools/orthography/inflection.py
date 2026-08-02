@@ -370,8 +370,16 @@ HAND_NOT_ROOTED = set(
 # it costs 14 of the 26 to save these 6, including `qnriqani` 恨, `trgrig` 舞,
 # `smbrinah` 回 and the three `pllg-` 動, every one of which is a single
 # character that IS a word.
-HAND_NOT_UNGLOSSED = set(
-    "psqpahan psqpahi psqpahun mttama tmtama mrbuq".split())
+# `psqpahan psqpahi psqpahun` were the first three members of this set and
+# are gone from it [batch 155]. They were pinned because they resolved onto
+# `qpah`/`qpahan`/`qpahi`, all glossed 工作, and his gloss is 黏貼－使黏附.
+# A speaker ruled that qapah is *stick* and is NOT qpah — the two roots
+# differ by a vowel his typewriter dropped — so manual_map now respells them
+# psqapahan/psqapahi/psqapahun and they resolve onto psqapah / sqapah /
+# qapah instead. The pin is not weakened, it is unreachable: nothing emits
+# those strings any more, and a pin on a string nothing emits is the vacuous
+# assertion logs/dom152.py refused to leave standing.
+HAND_NOT_UNGLOSSED = set("mttama tmtama mrbuq".split())
 
 # The two coincidences 大/小 let into regular() when they left STOP in batch
 # 142. Both are the same shape as the six above — the shared character is real
@@ -519,6 +527,12 @@ SYN = [
     "記號 標示 指示 標記 符號",          # empskraya 指示－標示 / pskraya 記號
     "抓住 捕捉 逮住 釣到 捉住",          # ttjiyal 牢牢被抓住 / tjiyal 捕捉;釣到
     "就這樣 是這樣 那樣 一樣 這樣",       # snhaya 跟以前一樣 / shaya 就這樣
+    # Batch 155. 粘 and 黏 are one morpheme in two hands, which is why the
+    # character tier could not see across them: his 黏附 and the wordlist's
+    # `msqapah` 粘起來 share nothing to compare. Every member is still two
+    # characters and they are interchangeable, not associated — this is the
+    # weakest line in the table and the one closest to being a spelling.
+    "黏住 粘起 黏附 黏貼 黏著 黏在",      # sqapah 黏住（在） / mqapah 黏附的
 ]
 SYN = [s.split() for s in SYN]
 assert all(len(m) >= 2 for s in SYN for m in s), "SYN members must be >= 2 chars"

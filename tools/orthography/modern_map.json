@@ -13636,6 +13636,18 @@
    "modern": "psqrinutan",
    "tier": "M"
   },
+  "psqpaxan": {
+   "modern": "psqapahan",
+   "tier": "M"
+  },
+  "psqpaxe": {
+   "modern": "psqapahi",
+   "tier": "M"
+  },
+  "psqpaxon": {
+   "modern": "psqapahun",
+   "tier": "M"
+  },
   "pssli": {
    "modern": "pssli",
    "tier": "id"
@@ -24596,18 +24608,6 @@
   },
   "psqmaon": {
    "modern": "psqmaun",
-   "tier": "P"
-  },
-  "psqpaxan": {
-   "modern": "psqpahan",
-   "tier": "P"
-  },
-  "psqpaxe": {
-   "modern": "psqpahi",
-   "tier": "P"
-  },
-  "psqpaxon": {
-   "modern": "psqpahun",
    "tier": "P"
   },
   "pssagan": {
