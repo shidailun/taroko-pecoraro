@@ -7360,8 +7360,10 @@
    "w_how": "class"
   },
   "mbua": {
-   "modern": "mbuwa",
-   "tier": "M"
+   "modern": "embuwa",
+   "tier": "W",
+   "w_was": "mbuwa",
+   "w_how": "twin"
   },
   "mbubao": {
    "modern": "embgbaw",
@@ -22141,7 +22143,7 @@
    "modern": "empiya",
    "tier": "W",
    "w_was": "mpiya",
-   "w_how": "class"
+   "w_how": "twin"
   },
   "mpika": {
    "modern": "empika",
@@ -22633,7 +22635,7 @@
    "modern": "empsli",
    "tier": "W",
    "w_was": "mpsli",
-   "w_how": "twin"
+   "w_how": "class"
   },
   "mpsliyu": {
    "modern": "empsriyu",
@@ -28466,7 +28468,7 @@
   "abis": {
    "modern": "abis",
    "tier": "S",
-   "spoken": 4
+   "spoken": 5
   },
   "dnyagan": {
    "modern": "dnyagan",
@@ -28486,10 +28488,15 @@
   "iwal": {
    "modern": "iwal",
    "tier": "S",
-   "spoken": 15
+   "spoken": 17
   },
   "knliyan": {
    "modern": "knriyan",
+   "tier": "S",
+   "spoken": 2
+  },
+  "knsdmatan": {
+   "modern": "knsdmatan",
    "tier": "S",
    "spoken": 2
   },
@@ -28511,7 +28518,7 @@
   "lingun": {
    "modern": "lingun",
    "tier": "S",
-   "spoken": 2
+   "spoken": 4
   },
   "lnawax": {
    "modern": "rnawah",
@@ -28521,7 +28528,12 @@
   "misa": {
    "modern": "misa",
    "tier": "S",
-   "spoken": 6
+   "spoken": 11
+  },
+  "mixalasi": {
+   "modern": "miharasi",
+   "tier": "S",
+   "spoken": 4
   },
   "mlmilit": {
    "modern": "mrmirit",
@@ -28533,6 +28545,11 @@
    "tier": "S",
    "spoken": 2
   },
+  "mtgimax": {
+   "modern": "mtgimax",
+   "tier": "S",
+   "spoken": 2
+  },
   "muçul": {
    "modern": "muxul",
    "tier": "S",
@@ -28541,22 +28558,22 @@
   "nk'la": {
    "modern": "nkla",
    "tier": "S",
-   "spoken": 3
+   "spoken": 10
   },
   "okan": {
    "modern": "ukan",
    "tier": "S",
-   "spoken": 4
+   "spoken": 5
   },
   "paya": {
    "modern": "paya",
    "tier": "S",
-   "spoken": 8
+   "spoken": 10
   },
   "pblnaxe": {
    "modern": "pbrnahi",
    "tier": "S",
-   "spoken": 3
+   "spoken": 4
   },
   "pgsai": {
    "modern": "pgsai",
@@ -28578,10 +28595,15 @@
    "tier": "S",
    "spoken": 3
   },
+  "pngkari": {
+   "modern": "pngkari",
+   "tier": "S",
+   "spoken": 4
+  },
   "pns'xgan": {
    "modern": "pnshgan",
    "tier": "S",
-   "spoken": 3
+   "spoken": 8
   },
   "pnxlisan": {
    "modern": "pnhlisan",
@@ -28596,12 +28618,12 @@
   "ps'xgun": {
    "modern": "pshgun",
    "tier": "S",
-   "spoken": 8
+   "spoken": 15
   },
   "psxgun": {
    "modern": "pshgun",
    "tier": "S",
-   "spoken": 8
+   "spoken": 15
   },
   "ptkulun": {
    "modern": "ptkurun",
@@ -28611,7 +28633,12 @@
   "sblnaxon": {
    "modern": "sbrnahun",
    "tier": "S",
-   "spoken": 2
+   "spoken": 8
+  },
+  "sibal": {
+   "modern": "sibal",
+   "tier": "S",
+   "spoken": 3
   },
   "sl'sun": {
    "modern": "srsun",
@@ -28631,12 +28658,12 @@
   "spoxon": {
    "modern": "spuhun",
    "tier": "S",
-   "spoken": 5
+   "spoken": 6
   },
   "spuao": {
    "modern": "spuaw",
    "tier": "S",
-   "spoken": 4
+   "spoken": 14
   },
   "sq'mai": {
    "modern": "sqmai",
@@ -28651,22 +28678,22 @@
   "sttoan": {
    "modern": "sttuan",
    "tier": "S",
-   "spoken": 3
+   "spoken": 4
   },
   "sttuan": {
    "modern": "sttuan",
    "tier": "S",
-   "spoken": 3
+   "spoken": 4
   },
   "sx'ngiyun": {
    "modern": "shngiyun",
    "tier": "S",
-   "spoken": 10
+   "spoken": 11
   },
   "sxngiyun": {
    "modern": "shngiyun",
    "tier": "S",
-   "spoken": 10
+   "spoken": 11
   },
   "tian": {
    "modern": "tian",
@@ -28678,15 +28705,25 @@
    "tier": "S",
    "spoken": 2
   },
+  "tmnlong": {
+   "modern": "tmnlung",
+   "tier": "S",
+   "spoken": 2
+  },
   "tnisa": {
    "modern": "tnisa",
    "tier": "S",
-   "spoken": 2
+   "spoken": 4
   },
   "tome": {
    "modern": "tumi",
    "tier": "S",
    "spoken": 16
+  },
+  "txdo": {
+   "modern": "thdu",
+   "tier": "S",
+   "spoken": 3
   },
   "txlangan": {
    "modern": "thlangan",
@@ -28701,7 +28738,12 @@
   "wilang": {
    "modern": "wilang",
    "tier": "S",
-   "spoken": 4
+   "spoken": 9
+  },
+  "xnt'lan": {
+   "modern": "hntran",
+   "tier": "S",
+   "spoken": 3
   },
   "xq'li": {
    "modern": "hqli",
@@ -28716,17 +28758,17 @@
   "yoki": {
    "modern": "yuki",
    "tier": "S",
-   "spoken": 35
+   "spoken": 36
   },
   "yoli": {
    "modern": "yuri",
    "tier": "S",
-   "spoken": 12
+   "spoken": 21
   },
   "yudao": {
    "modern": "yudaw",
    "tier": "S",
-   "spoken": 44
+   "spoken": 50
   },
   "akang": {
    "modern": "akang",
@@ -28936,10 +28978,6 @@
    "modern": "mityang",
    "tier": "N"
   },
-  "mixalasi": {
-   "modern": "mihalasi",
-   "tier": "N"
-  },
   "mixang": {
    "modern": "mihang",
    "tier": "N"
@@ -29067,10 +29105,6 @@
   },
   "sering": {
    "modern": "sering",
-   "tier": "N"
-  },
-  "sibal": {
-   "modern": "sibal",
    "tier": "N"
   },
   "sidi": {
@@ -30064,12 +30098,6 @@
    "e_stem": "sdlaan",
    "e_modern": "sdraan"
   },
-  "knsdmatan": {
-   "modern": "knsdmatan",
-   "tier": "E",
-   "e_stem": "sdmatan",
-   "e_modern": "sdmatan"
-  },
   "knsopu": {
    "modern": "knsupu",
    "tier": "E",
@@ -30292,12 +30320,6 @@
    "e_stem": "tblenax",
    "e_modern": "tbrinah"
   },
-  "mtgimax": {
-   "modern": "mtgimax",
-   "tier": "E",
-   "e_stem": "tgimax",
-   "e_modern": "tgimax"
-  },
   "mtgtmaq": {
    "modern": "mtgtmaq",
    "tier": "E",
@@ -30399,12 +30421,6 @@
    "tier": "E",
    "e_stem": "blxo",
    "e_modern": "brhug"
-  },
-  "pngkari": {
-   "modern": "pngkari",
-   "tier": "E",
-   "e_stem": "pgkari",
-   "e_modern": "pgkari"
   },
   "pngnnakan": {
    "modern": "pngnnakan",
@@ -30695,12 +30711,6 @@
    "e_stem": "qlaq",
    "e_modern": "qlaq"
   },
-  "tmnlong": {
-   "modern": "tmnlung",
-   "tier": "E",
-   "e_stem": "tlong",
-   "e_modern": "tlung"
-  },
   "tnbl'xan": {
    "modern": "tnbrahan",
    "tier": "E",
@@ -30750,12 +30760,6 @@
    "e_stem": "lbang",
    "e_modern": "lbang"
   },
-  "txdo": {
-   "modern": "thdu",
-   "tier": "E",
-   "e_stem": "xdo",
-   "e_modern": "hdu"
-  },
   "xmlisan": {
    "modern": "hmlisan",
    "tier": "E",
@@ -30767,12 +30771,6 @@
    "tier": "E",
    "e_stem": "xdyalan",
    "e_modern": "hjyalan"
-  },
-  "xnt'lan": {
-   "modern": "hntran",
-   "tier": "E",
-   "e_stem": "xtlan",
-   "e_modern": "htran"
   },
   "bsq'lol": {
    "modern": "bsqrul",

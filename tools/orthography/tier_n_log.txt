@@ -1,5 +1,4 @@
 # tier N: capitalized mid-sentence, never lowercase anywhere -> a name, so l stays l
-sibal            sibal            midcap=9    occ=11
 liwis            liwis            midcap=8    occ=9
 mikat            mikat            midcap=8    occ=9
 ingai            ingay            midcap=6    occ=8
@@ -75,7 +74,6 @@ lübaq            lubaq            midcap=1    occ=1
 maria            maria            midcap=1    occ=1
 masai            masay            midcap=0    occ=1
 mityang          mityang          midcap=0    occ=1
-mixalasi         mihalasi         midcap=1    occ=1
 mixang           mihang           midcap=0    occ=1
 mixeng           miheng           midcap=0    occ=1
 mnttlaqel        mnttlaqel        midcap=1    occ=1

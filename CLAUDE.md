@@ -1666,6 +1666,45 @@ The `"` that remains on screen is inside gloss fields (212 occurrences), which
 are never modernized by design; some of those are genuine French/English
 quotation marks and some are Truku words quoted in a definition.
 
+## The spoken corpus — how to widen it (2026-08-02)
+
+`load_spoken()` now reads the ILRDF collections twice: the flattened
+`ILRDF_texts.xlsx` export, and `parquet_truku_freq.json`, the datasets read
+directly. The export had lost a third of them (272,150 tokens against **361,630**,
+47,517 utterances against 54,457). Batch 136 gave the wider reading to
+`build_verified.py`, which only asks *does this string occur*; batch 137 gives it
+to the tier that decides which spelling is right, which is the larger claim.
+
+Two rules govern any future widening, and both were learned by breaking something.
+
+- **MAX across readings, SUM within one.** The xlsx is an export *of* the
+  parquets, so adding the two counts every shared utterance twice — and that
+  breaks the only gate that matters, since a word occurring once would show 1+1
+  and clear the `>= 2` bar built to reject exactly that hapax. Within the parquet,
+  two plain types can `norm()` to one key (`q'mpah`, `qmpah`) and those *are*
+  separate occurrences, so they sum.
+- **The `>= 2` bar is universal, and it is load-bearing hardest where a hit
+  SUBTRACTS.** Tier W's veto (`his form is itself modern Truku, so no e-form`) was
+  ungated, and one new transcript token was enough to strip an attested spelling
+  and hand the word back to one nothing attests: `mbrinah` 1× took the entry from
+  `embrinah` (35× and in the dictionary), `mpurug` 1× from `empurug`, `mphuqil` 1×
+  from `emphuqil`. Gating it repaired a fourth word the *narrow* corpus had already
+  broken the same way — **MBUA**, held at `mbuwa` (nowhere in the omnibus) by a
+  single xlsx token, is now `embuwa` 有氣泡 over his own root `buwa` 氣泡. `LICIT`
+  takes the same bar: a mis-heard token is not evidence that an initial is licit.
+
+The other change is **MIXALASI `mihalasi` → `miharasi`**, tier N → tier S. It is a
+village, and the corpus names it outright — 「故改名為 *Miharasi*。漢語翻成
+「見晴」」 — Japanese 見晴らし *miharashi*, so the `l` he wrote is that word's `r`
+and the name-freeze was protecting a letter that was never there. This is the
+documented order working as designed: attestation outranks the freeze.
+
+Measured: 0 keys added or removed, **2 spellings changed**, 7 relevelled with the
+same value (6 E→S, 1 N→S — an inference becoming a direct attestation, which is
+what more evidence should do). verified.js +2 / −1 / **0 weaker**. DOM census
+94.1280% → **94.1347%** dark (41,854 → 41,857; pale 2,579 → 2,576; green 32),
+1,967 cards, 0 page errors in both spelling modes (`census137.py`).
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

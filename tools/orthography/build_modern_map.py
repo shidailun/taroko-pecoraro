@@ -297,17 +297,31 @@ def load_omnibus():
 # ---------------- spoken corpus ----------------
 SPOKEN = r"C:/dev/ILRDF/ILRDF_texts.xlsx"
 SPOKEN_CACHE = os.path.join(HERE, "spoken_truku.json")
+PARQUET_FREQ = os.path.join(HERE, "parquet_truku_freq.json")
 
 def load_spoken():
-    """Running Truku, not a wordlist: 47,517 transcribed utterances / 277,014
+    """Running Truku, not a wordlist: 54,457 transcribed utterances / 361,630
     tokens across the ILRDF/klokah/ithuan collections. The omnibus is a
     dictionary, so it is missing exactly the words a dictionary tends to skip —
     personal names (Sibal, Wilang, Iwal), particles, and the shapes an inflected
     root actually takes in a sentence. Frequency is kept because a hapax in an
-    ASR transcript is as likely to be a mis-hearing as a word."""
+    ASR transcript is as likely to be a mis-hearing as a word.
+
+    Two readings of the same eight collections are folded together. The xlsx is a
+    flattened export and it lost a third of them on the way out (272,150 tokens
+    against 361,630, 47,517 utterances against 54,457); `parquet_truku_freq.json`
+    is the datasets read directly. Batch 136 gave the wider reading to
+    build_verified.py, which only asks whether a string occurs; this is the same
+    body of speech reaching the tier that DECIDES spellings, which is a larger
+    claim and is why it waited for its own batch.
+
+    The parquet counts are keyed on plain [a-z'] types, because the values they
+    vouch for keep the apostrophe. Everything downstream of here looks up norm()
+    keys, so they are folded to norm on the way in — `mk'ala` and `mkala` are one
+    word to tier S and their evidence has to add up as one."""
     if os.path.exists(SPOKEN_CACHE) and os.path.getmtime(SPOKEN_CACHE) > os.path.getmtime(SPOKEN):
         with open(SPOKEN_CACHE, encoding="utf-8") as f:
-            return collections.Counter(json.load(f))
+            return with_parquet(collections.Counter(json.load(f)))
     import openpyxl
     wb = openpyxl.load_workbook(SPOKEN, read_only=True, data_only=True)
     freq = collections.Counter()
@@ -327,7 +341,36 @@ def load_spoken():
                     freq[n] += 1
     with open(SPOKEN_CACHE, "w", encoding="utf-8", newline="\n") as f:
         json.dump(dict(freq), f, ensure_ascii=False)
-    return freq
+    return with_parquet(freq)
+
+def with_parquet(freq):
+    """The cache is written from the xlsx alone and stays that way — it is a
+    record of one source, not of the union — so the parquet fold happens on the
+    way out, after either return path. build_parquet_attested.py writes it.
+
+    MAX, not sum. The xlsx is an export OF the parquets, so the two are readings
+    of one corpus and adding them counts every shared utterance twice — which
+    would break the only gate that matters here: a word occurring once in the
+    corpus would show 1+1 and clear the `>= 2` bar built to reject exactly that
+    hapax. Max asks the question the gate is asking, "how often does this occur
+    in transcribed Truku", and answers it from whichever reading saw more."""
+    if not os.path.exists(PARQUET_FREQ):
+        return freq
+    with open(PARQUET_FREQ, encoding="utf-8") as f:
+        pq = json.load(f)
+    # Sum WITHIN the parquet, because two plain types can norm to one key and
+    # those are separate occurrences of the same word (`q'mpah` + `qmpah`); then
+    # max ACROSS the two readings, because they are the same corpus twice.
+    folded = collections.Counter()
+    for w, c in pq.items():
+        n = norm(w)
+        if len(n) >= 2:
+            folded[n] += c
+    out = collections.Counter(freq)
+    for n, c in folded.items():
+        if c > out[n]:
+            out[n] = c
+    return out
 
 # ---------------- sister dialects ----------------
 def load_sisters():
@@ -1522,8 +1565,10 @@ def main():
     # `mpyah` alone fails, `empy-` being 0×, so it stays out — his P'IYAX 來 is
     # `empiyah`, and prepending an e to a syncopated stem would only invent a new
     # impossible initial in place of the old one.
+    # Same bar on the class statistic: a licit initial is one modern Truku really
+    # takes, and a single mis-heard token is not evidence that it does.
     LICIT = collections.Counter()
-    for w in list(attested) + list(spoken):
+    for w in list(attested) + [w for w, c in spoken.items() if c >= 2]:
         LICIT[w[:4]] += 1
     w_log = []
     for t in sorted(result):
@@ -1537,11 +1582,21 @@ def main():
         if not (v.startswith("mp") or v.startswith("mb")):
             continue
         nv = norm(v)
-        if nv in attested or spoken.get(nv):
+        # >= 2, the same bar every other reader of this corpus uses, and it is
+        # load-bearing HERE in a way it is nowhere else: this is the only place a
+        # corpus hit *subtracts* — one occurrence vetoes the e-form and hands the
+        # word back to a spelling nothing attests. Widening the corpus to the
+        # parquets proved it by breaking three words with exactly one hit each:
+        # `mbrinah` 1× took the entry from `embrinah` (35× in the corpus and in
+        # the dictionary), `mpurug` 1× from `empurug` 3×, `mphuqil` 1× from
+        # `emphuqil` 14×. The module's own rule — a hapax in an ASR transcript is
+        # as likely to be a mis-hearing as a word — is exactly what those three
+        # were. Adding evidence must never subtract a claim.
+        if nv in attested or spoken.get(nv, 0) >= 2:
             continue                        # his form is itself modern Truku
         e = "e" + v
         ne = norm(e)
-        if ne in attested or spoken.get(ne):
+        if ne in attested or spoken.get(ne, 0) >= 2:
             how = "twin"
         elif LICIT[ne[:4]]:
             how = "class"                   # no twin, but a licit modern initial
