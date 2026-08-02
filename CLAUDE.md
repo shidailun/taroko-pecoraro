@@ -2377,6 +2377,75 @@ worthless only as the frame verb of a gloss, the shape batch 142 measured for
 
 +13 values / 25 occurrences, 0 de-verified. 96.7255% -> **96.7817%**.
 
+## The freeze gates spelling; ambiguity means two roots (batch 163, 2026-08-02)
+
+Two guards were asked what they were actually guarding, and neither answer was
+the one the code was giving.
+
+**`outvoted()` — `self.frozen` is the NAME freeze, and this rule asks about
+MEANING.** The freeze exists so l→r cannot rename a man (batch 21's `Sapah
+Sibar`), and tier N in `build_modern_map.py` is what enforces that on the page.
+Nothing in `outvoted()` can respell anybody — the root is being asked what it
+MEANS and the answer only ever decides a colour. So a frozen root whose citation
+gloss reads *only* 人名 is now admitted, because **"this is a name" is not a
+sense a derived form inherits**, which makes it the one citation gloss a paradigm
+cannot be outvoted *by*. `banah` is cited 人名（男）with 27 derived forms glossed
+紅 (`embanah` 紅色的, `kbanah` 染紅, `knbanah`, `gmbanah`) against his `mabanah`
+將要變紅; `tasaw` is cited 人名（男）with `mtasaw`/`pgtasaw`/`sgtasaw` all on 清.
+Same distinction as batch 156's `lex` (may be printed) against `voices` (may be
+heard), one level further out.
+
+The root floor drops 4→3 in the same rule, for the reason batch 146 gave
+`vouched()`: elsewhere the floor guards a root found INSIDE a longer string,
+while here over-generation is already refused by the two-distinct-affix and
+supporter bars. It buys `pix`, whose **citation gloss is 山羊的叫聲** — a goat's
+bleat — outvoted by `mapix` 壓在其上－按壓, `empapix` 被壓垮的 and the supporters
+`pixi`/`mnpix`/`pixan`, every one 壓. The fourth time a citation gloss has lost to
+its own paradigm (`paux` 152, `siyang` 154, `liwaq` 157, `seesu` 159), and the
+first where no synonym table could have reached it.
+
+**`no_chinese()` — a tie needs two ROOTS, and these were two SPELLINGS.** The
+rule refuses when more than one root candidate survives, because with no Chinese
+of his there is nothing to break a tie. But **the wordlist files a paradigm's
+cells as separate headwords**, so `pnsblaqan` reaches `blaq`, `blaqa`, `blaqan`,
+`blaqi`, `sblaqa`, `sblaqan` and `sblaqi` — one lexeme found seven times over.
+Whichever is picked the answer is the same word. `root_groups()` partitions
+candidates by containment, before or after one paradigm suffix is peeled off
+either side (a suffix difference is a SLOT difference, not a root difference),
+and the rule needs exactly one GROUP. Containment alone gives 44 types;
+suffix-aware collapse gives 57.
+
+**The load-bearing half is the eleven that still refuse** — `kngusan` [kgus,
+ngus], `stmaqun` [taqi, tmaq], `ptbnuun`, `ppdsun`, `gmnaliq`, `kmkmalu`,
+`empsneanak`, `knkmuyuh`, `nkmuyuh`, `sneelug`, `psmkun` — two roots apiece,
+which is what the guard was written for, asserted pale in `dom163.py`.
+
+**Seven hand pins, each read against the sentence he prints it in**, the same
+method and the same failure as batch 145's six: one candidate, and it is the
+wrong word. `mslangan` (BMBANG 鐵皮－鐵桶, rust on tin — `empslangan`'s own
+sibling, not `langu` 湖), `snpsaran`/`snpsarun` (PUSAL 更新／成雙－加倍, his TWO
+root, not `sari` 芋頭), `sbuwai` (把書交給, not `buwa` 氣泡), `shnkan` (`sapah
+shnkan` = 監獄, not `hnka` 便宜), `psnluun` (SN'LO 傳達／傳遍各處, not `luun`
+將會省著用), and **`tmukan`, which is the price of the widening and is named as
+such**: the only one of the seven the group collapse reached rather than the old
+one-candidate guard, standing in TUYOQ 唾液－吐口水 (他們全都朝他的臉吐了口水)
+against `tuki` 抵銷／點鐘；小時 — precisely the Japanese 時計 loan-homograph tier J
+was built around, where "the more often it turns up, the more confident the wrong
+answer looked".
+
+**Two kept after the same scrutiny.** `nhnaan` ← `hnaa` stands in 澆我們種的花,
+newly-planted, and `hana` 剛剛 IS that lexeme; `mnkbubu` ← `kbubu` is his own
+bracketed variant `mnqbobo (mnkbobo ?)` in 戴著帽子就進了我家, the hat `qbubu`.
+
+**One arrival flagged rather than defended.** `pnsblaqan`'s root `blaq` is glossed
+松鼠;老鼠;…碎粒, a homograph — the source is his BLAEQ 幸福 / `bilaq` 小 family, and
+batch 142 already verified `psblaqan`/`psblaqi` off `bilaq` 小. The morphology
+lands on a real listed paradigm either way, so the value stands and the odd gloss
+is recorded rather than left looking like evidence.
+
++53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
+97.0986% → **97.2335%** (43,231 / 1,198 / 32).
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

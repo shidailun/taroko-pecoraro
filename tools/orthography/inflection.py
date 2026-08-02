@@ -150,6 +150,40 @@ BASE_SUF = ["", "un", "an", "i", "ay", "aw", "ani", "anay", "aneyi", "aan"]
 # Enumerating cost `yaneyi`/`waneyi`, which nobody would have thought to type.
 SUF = BASE_SUF + [g + s for s in BASE_SUF if s and s[0] in VOW for g in "yw"]
 
+_SUF_LONG = sorted([s for s in SUF if s], key=len, reverse=True)
+
+
+def _core(x):
+    """x with one paradigm suffix peeled, if that leaves a root-sized string."""
+    for sf in _SUF_LONG:
+        if x.endswith(sf) and len(x) - len(sf) >= 3:
+            return x[:-len(sf)]
+    return x
+
+
+def root_groups(cands):
+    """Partition candidate roots into the LEXEMES they belong to.
+
+    The wordlist files a paradigm's cells as separate headwords, so a value can
+    reach `blaq`, `blaqa`, `blaqan`, `blaqi`, `sblaqa`, `sblaqan` and `sblaqi`
+    and have found ONE root seven times over. Two candidates are the same
+    lexeme when either contains the other, before or after a suffix is peeled
+    off either side. See no_chinese(): the ambiguity guard is about which ROOT
+    the value is built on, and two spellings of one root are not a tie.
+    """
+    groups = []
+    for x in sorted(cands, key=len):
+        for g in groups:
+            if any(a in b or b in a for y in g
+                   for a, b in ((x, y), (_core(x), _core(y)),
+                                (x, _core(y)), (_core(x), y))):
+                g.append(x)
+                break
+        else:
+            groups.append([x])
+    return groups
+
+
 # The suffixes that end in a vowel of their own — see vouched()'s fourth guard.
 # Not regenerated: every glide form ends with the form it was built from, and
 # this tuple is only ever asked `.endswith()`.
@@ -326,7 +360,20 @@ mpsqlul pnsdahung qlap ruugeur tbasyaq tsaleh vivant yianu yiyah""".split())
 #   mtgtmaq     `tmaq` 水桶樹. The card is TMAQ/**Tgtmaq**, and the sentence is
 #               mxa mtgtmaq d'xgal 全都趴倒在地 — the tree is a homograph.
 #   narung      `arung` 穿山甲 a pangolin. Xea ka mnangal nalong 得獎的是他.
-HAND_NOT_NC = set("""slungan drnai ggitan empslangan mtgtmaq narung""".split())
+HAND_NOT_NC = set("""slungan drnai ggitan empslangan mtgtmaq narung
+    mslangan snpsaran snpsarun sbuwai shnkan psnluun tmukan""".split())
+# [batch 163] The second six, found the same way as the first six and read
+# against the sentence he prints them in. `mslangan` is `empslangan`'s own
+# sibling — it stands in BMBANG 鐵皮－鐵桶, rust on tin, which is his SLANGAN
+# 鏽蝕 and not `langu` 湖. `snpsaran`/`snpsarun` are under PUSAL 更新／成雙－加倍,
+# his TWO root, not `sari` 芋頭. `sbuwai` is 把書交給 handing a book over, not
+# `buwa` 氣泡; `sapah shnkan` is 監獄 in his own sentence, not `hnka` 便宜;
+# `psnluun` is 把好消息傳遍各處 under SN'LO 傳達, not `luun` 將會省著用.
+# `tmukan` stands in TUYOQ 唾液－吐口水, 他們全都朝他的臉吐了口水 — spitting,
+# against `tuki` 抵銷／點鐘；小時, which is the Japanese 時計 homograph tier J
+# was built around ("the more often it turns up, the more confident the wrong
+# answer looked"). It is the only one of the seven the group collapse reached
+# rather than the old one-candidate guard, and it is the price of that widening.
 
 # A gloss that says "this is a personal name" is not a meaning, so it cannot be
 # the meaning a suffixed form inherits: `ksudan` <- `sudu` 人名（男）, `nputuh` <-
@@ -884,9 +931,20 @@ class Inflection(object):
         # 10 dark words pale (`mtbrinah`, `mkphing`, `mnksaw`, `tnklai` …) to
         # buy 7 occurrences. The second opinion is allowed to say what a root
         # means; it is not allowed to make this rule less sure which root it is.
-        if len({c for c, _, _, _ in cands}) != 1:
+        # **A tie needs two ROOTS, and these are two SPELLINGS.** The wordlist
+        # files paradigm slots as separate headwords, so `pnsblaqan`'s seven
+        # candidates (`blaq blaqa blaqan blaqi sblaqa sblaqan sblaqi`) are one
+        # lexeme's cells, not seven analyses — whichever is picked the answer is
+        # the same word, and the guard was refusing to break a tie that does not
+        # exist. Candidates are grouped by containment and by containment after
+        # a suffix is peeled (a suffix difference is a SLOT difference, not a
+        # root difference); the rule needs exactly one GROUP and takes its
+        # shortest member. Genuine ambiguity still refuses, which is the
+        # load-bearing half: `kngusan` [kgus, ngus] and `stmaqun` [taqi, tmaq]
+        # really are two roots apiece and stay pale.
+        if len(root_groups({c for c, _, _, _ in cands})) != 1:
             return None
-        return min(cands, key=lambda r: len(r[1]) + len(r[2]))
+        return min(cands, key=lambda r: (len(r[0]), len(r[1]) + len(r[2])))
 
     # ---- the inverse: a root nobody wrote down bare -------------------------
     def derived(self, v):
@@ -1218,8 +1276,29 @@ class Inflection(object):
             return None
         best = None
         for c, p, sf, slot in self.roots(v):
-            if not self._gloss(c) or len(c) < 4 or c in self.frozen:
+            if not self._gloss(c) or len(c) < 3:
                 continue                    # unglossed_root() covers the rest
+            # **The freeze gates SPELLING, and this rule asks about MEANING.**
+            # `self.frozen` is the NAME freeze: it exists so l→r cannot rename
+            # a man (`Sapah Sibar`), and tier N in build_modern_map.py is what
+            # enforces that on the page. Nothing here can respell anybody — the
+            # root is being asked what it MEANS, and a citation gloss reading
+            # only 人名 is the one case where the paradigm cannot be outvoted
+            # by it, because "this is a name" is not a sense a derived form
+            # inherits. `banah` is the textbook case: cited 人名（男）, and 27
+            # derived forms glossed 紅 (`embanah` 紅色的, `kbanah` 染紅,
+            # `knbanah`, `gmbanah`) against his `mabanah` 將要變紅. Same
+            # distinction as batch 156's `lex` (may be printed) against
+            # `voices` (may be heard), one level further out.
+            if c in self.frozen and not all(
+                    NAMEGL.search(g) for g in self._gloss(c)):
+                continue
+            # The floor is 3, not 4. Elsewhere it guards a root found INSIDE a
+            # longer string; here over-generation is already refused by the
+            # two-distinct-affix and supporter bars, and the same borrowed
+            # reasoning cost `vouched()` its own docstring example in batch 146.
+            # It buys `pix` 壓 — `mapix` 壓在其上－按壓, `empapix` 被壓垮的,
+            # supporters `pixi`/`mnpix`/`pixan` all on 壓.
             d = self.derived(c)
             if len(set(d.values())) < 2:
                 continue
