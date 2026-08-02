@@ -38,7 +38,9 @@ new member is two characters, per the table's guard.
 
 **And the other five coincidences do not move.** `ptaril` on the 方 of 地方,
 `ppungu`, `ssiyang`, `emptaril`, `emppungu` — one voice on one fragment, still
-pale, asserted below. That is what makes this a satisfied bar rather than a
+pale, asserted below. (`emptaril` is dark as of batch 162, on an ILRDF parquet
+attestation of the spelling — not on this bar, which never moved and which
+`ptaril` still fails.) That is what makes this a satisfied bar rather than a
 lowered one, and dom152.py and dom154.py have both been corrected in place to
 say so rather than being left to contradict the build.
 
@@ -58,7 +60,7 @@ GAIN = {"pkliwaq": 2, "skliwaq": 2, "spkliwaq": 2}
 # no prefix or synonym reaches them. If they go dark, the widening this batch
 # priced at six occurrences has been let loose on the rest of the dictionary.
 COINCIDENCE = {
-    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emptaril": 1, "emppungu": 1,
+    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emppungu": 1,
 }
 
 SPANS = """(ws) => { const r = {};

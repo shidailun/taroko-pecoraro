@@ -80,6 +80,50 @@ H = os.path.normpath(H)
 SITE = os.path.join(H, "site")
 PAIR = re.compile(r'"((?:[^"\\]|\\.)*)"\s*:\s*"((?:[^"\\]|\\.)*)"')
 PQ_MIN = 2      # ASR hapax is as likely a mis-hearing as a word; see the docstring
+
+# The hapaxes read one at a time and let through anyway (batch 162).
+#
+# PQ_MIN throws away every type the parquets saw exactly once, and for the bulk
+# case that is right. But it throws them away UNREAD, and 15 of them are words
+# on this page — which means each already has a second witness: Pecoraro typed
+# it in 1977. **That coincidence is the evidence.** A 2020s acoustic model
+# mis-hearing a word cannot land on a string a French priest typed fifty years
+# earlier by accident; the two witnesses have no path to each other. So the
+# hapax gate is not loosened, it is ANSWERED, per word, by a second source that
+# was always sitting there.
+#
+# The coincidence argument has one failure mode and it is length: at three or
+# four letters chance can reach a real string. So the short ones are refused
+# even where the sense fits, and `rih` is the case that proves the rule is
+# costing something real — 6 occurrences, the largest single gain left on the
+# page, and his 幾乎－接近－有點像 fits the parquet's `qhuqil kana rih saw
+# psahug dhyaan` ("killed them all, almost as a punishment to them") rather
+# well. It stays pale. Batch 146 pinned it because a three-letter root needs
+# his word-level Chinese and not a sentence gloss, and batch 159 showed the
+# honest way out: `nta` was the fourth pinned member and went dark because **a
+# person spoke for it**, not because a gate moved. One ASR token is not a
+# person. `kn` is refused twice over — two letters, and its single occurrence
+# is inside `Fu-kn-su`, the romanized Japanese 撫墾署 split on its hyphens.
+#
+# Like every corpus source here this widens `seen` and never `lex`, and like
+# every corpus source it vouches for a SPELLING and not for his gloss:
+# `brnahan` is admitted as modern Truku orthography while his 後退 reading of
+# it stays his own business.
+PARQUET_HAPAX = {
+    "mlilug",    # 起義軍佔領霧社 ~ his Mlilu 移動－活動 (LILU)
+    "tntmaan",   # kari muda matas tntmaan ta seuxal 口傳/經文 ~ his Tntmaan (TTAMA)
+    "brnahan",   # brnahan smalu kari paah isil 其他的創作 ~ his Blnaxan (BLENAX)
+    "mskrut",    # duma mskrut ni duma mslhkah 時鬆時緊 — paired against mslhkah
+    "pnlwaan",   # pnyahan seejiq o pnlwaan 呼喚而出 ~ his "tu m'as fait appeler"
+    "pniq",      # pniq kingal qpuring mrata 駐紮 ~ his Pnyeq 使留下－使存在
+    "ppkmalu",   # 醫病趕鬼 ~ his "te remettre la tete en place"
+    "mknsat",    # 派出所上班 ~ his Mkensat 當警察 (a Japanese loan, no homograph)
+    "dnrunan",   # 老師交代的功課 ~ his "ce qu'ils ont demande"
+    "pgmaxun",   # 族語融合 ~ his "melanger du sucre a cette farine"
+    "pkhwayun",  # 優待入山工作人員 ~ his Pkxwayun
+    "mnlamu",    # plealay strung mnlamu ~ his "autrefois je recueillais l'argent"
+    "emptaril",  # 準備登陸攻擊 ~ his Ptaril 使越到對岸 (TALIL)
+}
 AFFIX_MIN = 400   # see affix(); his six affix letters score 453-3,223, best non-affix 347
 
 
@@ -111,6 +155,15 @@ def main():
         seen |= {w for w, c in pq.items() if c >= PQ_MIN}
         print("attested: %d listed + %d from the ILRDF parquets at freq>=%d"
               % (len(lex), len(seen) - len(lex), PQ_MIN))
+        # The adjudicated hapaxes. Asserted, not trusted: if a later parquet
+        # rebuild lifts one of these to freq>=2 it is already in and the entry
+        # is dead weight, and if one vanishes the corpus no longer says it.
+        hx = {w for w in PARQUET_HAPAX if pq.get(w, 0) == 1}
+        assert hx == PARQUET_HAPAX, (
+            "PARQUET_HAPAX out of step with the corpus: %s"
+            % sorted(PARQUET_HAPAX ^ hx))
+        seen |= hx
+        print("  + %d hapaxes read one at a time (see PARQUET_HAPAX)" % len(hx))
 
     # THE TRUKU BIBLE — 175,260 tokens of published modern Truku prose, the
     # largest body of it that exists. It enters on exactly the parquets' terms

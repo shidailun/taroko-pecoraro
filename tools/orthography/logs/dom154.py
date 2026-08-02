@@ -81,8 +81,13 @@ GAIN = {
 # shared no character with him because 明亮 and 閃光 are the same thing written
 # differently. One prefix and three SYN members, priced at 0 re-cuts. The five
 # left here are still one voice on one fragment and are still pale.
+# `emptaril` is dark as of batch 162 and did NOT leave by this bar moving: the
+# ILRDF parquets have it once, in `pais empsramal emptaril kmrmux mkan` 準備登陸
+# 攻擊, and a corpus attestation vouches for a spelling without ever asking the
+# gloss question this list exists to ask. `ptaril` stays at 3 — the corpus does
+# not have it, and 方 out of 地方 is still all that speaks for it.
 COINCIDENCE = {
-    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emptaril": 1, "emppungu": 1,
+    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emppungu": 1,
 }
 
 # The two hand pins. `tnbusan`'s answer is right and its argument is a particle;

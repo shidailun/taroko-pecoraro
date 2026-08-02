@@ -116,7 +116,8 @@ PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 # occurrences, and the `liwaq` reading there is right about 發亮 and blind to
 # the 趕 sense that `pliwaq` also carries. Blind to the 發亮 sense too, as it
 # turned out: batch 157 found two supporters for it. The honest figure for
-# what this bar cost is 9 occurrences.
+# what this bar cost is 9 occurrences — 8 as of batch 162, and each time the
+# figure falls it is because a source spoke, never because the bar dropped.
 # `pkliwaq`, `skliwaq` and `spkliwaq` were on this list and are dark as of batch
 # 157. **The supporter bar was met, not lowered** — which is the condition this
 # comment has always attached to their leaving it. Two voices now answer his
@@ -125,8 +126,15 @@ PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 # shared no character with him because 明亮 and 閃光 are the same thing written
 # differently. One prefix and three SYN members, priced at 0 re-cuts. The five
 # left here are still one voice on one fragment and are still pale.
+# `emptaril` left this list in batch 162 and the distinction is the same one
+# again: **it was not taken by the gloss bar moving.** The ILRDF parquets have
+# it once, in `pais empsramal emptaril kmrmux mkan` 準備登陸攻擊, and a corpus
+# attestation vouches for a SPELLING — it never asks whether his 使越到對岸
+# agrees with anything, which is the only question this list was ever about.
+# `ptaril` is still here at 3 occurrences: the corpus does not have it, and the
+# fragment-of-a-fragment 方 out of 地方 is still all that speaks for it.
 COINCIDENCE = {
-    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emptaril": 1, "emppungu": 1,
+    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emppungu": 1,
 }
 
 SPANS = """(ws) => { const r = {};

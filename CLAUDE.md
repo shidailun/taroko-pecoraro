@@ -2803,6 +2803,55 @@ proof the thing you did not measure still works.
 
 +18 occurrences, 0 de-verified. 97.0109% → **97.0513%**.
 
+## Two refutations and a second witness (batch 162, 2026-08-02)
+
+Two candidate veins were opened and killed by measurement before the batch that
+worked, and the refutations are the durable part.
+
+**An entry-mate rung would have been wrong.** 326 pale occurrences are words his
+own dictionary lists as SUBS of an already-verified headword; `Empskeagul` is
+glossed 同上（d°），未來式, "same as above, future tense". That reads like the
+dictionary vouching structurally for a form the gloss-agreement rungs cannot
+hear. Measure it: of those 326, the number both in the modern lexicon AND
+analysable as an affixation of their own verified parent is **zero**. They are
+not pale because a gloss test rejects them — they are pale because no modern
+source attests them. **Always ask why a bucket is failing before building the
+machine that would rescue it.**
+
+**A flat tally is what a mined-out seam looks like.** Tallying every
+single-letter substitution that lands a pale type on a lexicon word gives u→a
+47 occ, n→m 33, a→u 25, l→h 22 — no dominant class, and the top entry is false
+friends (`rngut` féconder vs `rngat` crier). When batch 161 found the n→m class
+it stood out; nothing stands out now. Edit-distance-1 is done.
+
+**What worked: `PQ_MIN` discards hapaxes UNREAD.** The parquet gate drops every
+type the ILRDF corpus saw once, because an ASR hapax is as likely a mis-hearing
+as a word. Correct in bulk — but 15 of those hapaxes are words on this page,
+and that means each already has a second witness: **Pecoraro typed it in 1977.**
+A 2020s acoustic model cannot mis-hear its way onto a string a French priest
+typed fifty years earlier; the witnesses have no path to each other. So the gate
+is not loosened, it is ANSWERED per word, in `PARQUET_HAPAX`.
+
+**The coincidence argument fails on short strings, and the rule was made to
+cost something.** At two or three letters chance can reach a real string. `rih`
+is refused at SIX occurrences — the largest single gain left on the page — even
+though his 幾乎－接近－有點像 fits the parquet's `qhuqil kana rih saw psahug
+dhyaan` ("killed them all, almost as a punishment to them") rather well. Batch
+146 pinned it, and batch 159 showed the only honest way out: `nta` went dark
+because **a person spoke for it**, not because a gate moved. One ASR token is
+not a person. `kn` is refused twice over — two letters, and its one occurrence
+is inside `Fu-kn-su`, the romanized Japanese 撫墾署 split on its hyphens.
+
+Like every corpus source this widens `seen`, never `lex`, and vouches for a
+SPELLING and not for his gloss.
+
++21 occurrences, 0 de-verified, 0 new pale types. 97.0513% → **97.0986%**.
+
+**The tail is now flat: 873 pale types over 1,258 occurrences, 587 of them
+occurring exactly once, and the top 24 types (9% of the mass) are almost all
+standing refusals.** There is no big fish left; from here every batch is
+individual adjudications, not sweeps.
+
 ## Deploy
 
 ```powershell

@@ -376,7 +376,14 @@ for n in ["sibal", "liwis", "mikat", "ingay", "lauken", "tatu", "talan",
     check(n not in V, "%-9s is absent from verified.js altogether" % n)
 # `mknsat` is his KENSAT 警察, tier J: a loan with no Truku root at all, and the
 # first sweep of the syncope branch surfaced it before the frozen check went in.
-check("mknsat" not in V, "mknsat is absent — a tier-J loan, not a syncopated root")
+# Batch 162 verifies it — at level 1, LISTED, because the ILRDF parquets have it
+# in `Tama do ga mknsat ... hiya` 父親則遠在合歡山上的派出所上班. That is the
+# thing this check was always defending: a loan may be attested, it may not be
+# analysed. Level 1 says a corpus saw the string; any other level would mean the
+# syncope branch had cut a Japanese loan into a Truku root, which is the error.
+check(V.get("mknsat") == 1,
+      "mknsat is level 1 (listed by the corpus), not a syncopated root — got %s"
+      % V.get("mknsat"))
 
 print("\n--- per card, scoped to the card")
 for r in cardres:

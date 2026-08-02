@@ -27,7 +27,12 @@ SPANS = """(ws) => { const r = {};
   } return r; }"""
 GAIN = ["psrngiyan", "sndngiyan", "sbuan", "pktngiyan", "pkrui", "qriyun"]
 HELD = ["slui", "bkii", "sqaan"]
-REFUSED = ["sklbai", "tntmaan", "sghuwayan"]
+# `tntmaan` left this list in batch 162, and by the route that has always been
+# allowed to move a pin: a source spoke. The ILRDF parquets have it in `kari
+# muda matas tntmaan ta seuxal` 口傳／經文, so the string is attested modern
+# Truku regardless of whether his 曾經坐過的地方 reading of it can be vouched —
+# which is what this list was about. `sghuwayan` and `sklbai` are untouched.
+REFUSED = ["sklbai", "sghuwayan"]
 WATCH = GAIN + HELD + REFUSED
 
 with sync_playwright() as p:
