@@ -3460,6 +3460,10 @@
    "modern": "ixan",
    "tier": "id"
   },
+  "ixeng": {
+   "modern": "ihing",
+   "tier": "M"
+  },
   "iyang": {
    "modern": "iyang",
    "tier": "id"
@@ -5102,7 +5106,7 @@
    "tier": "A"
   },
   "komu": {
-   "modern": "komu",
+   "modern": "kumu",
    "tier": "M"
   },
   "kona": {
@@ -6537,6 +6541,10 @@
    "modern": "rbung",
    "tier": "L"
   },
+  "lobyaq": {
+   "modern": "lubyak",
+   "tier": "M"
+  },
   "lodo": {
    "modern": "rudu",
    "tier": "B"
@@ -7143,6 +7151,10 @@
   },
   "malun": {
    "modern": "malun",
+   "tier": "M"
+  },
+  "malwi": {
+   "modern": "maruy",
    "tier": "M"
   },
   "mami": {
@@ -10952,6 +10964,10 @@
    "modern": "uuyas",
    "tier": "M"
   },
+  "opiç": {
+   "modern": "upix",
+   "tier": "M"
+  },
   "oqan": {
    "modern": "uqan",
    "tier": "B"
@@ -11621,6 +11637,10 @@
    "modern": "pida",
    "tier": "id"
   },
+  "pido": {
+   "modern": "pidu",
+   "tier": "M"
+  },
   "pika": {
    "modern": "pika",
    "tier": "id"
@@ -11628,6 +11648,10 @@
   "pila": {
    "modern": "pila",
    "tier": "id"
+  },
+  "pilex": {
+   "modern": "pilih",
+   "tier": "M"
   },
   "pimax": {
    "modern": "peimah",
@@ -15634,6 +15658,10 @@
    "modern": "sida",
    "tier": "id"
   },
+  "sido": {
+   "modern": "sidu",
+   "tier": "M"
+  },
   "siida": {
    "modern": "siida",
    "tier": "id"
@@ -17976,6 +18004,10 @@
   },
   "taikong": {
    "modern": "teykung",
+   "tier": "M"
+  },
+  "tailong": {
+   "modern": "taylung",
    "tier": "M"
   },
   "taiwan": {
@@ -26451,10 +26483,6 @@
    "modern": "makat",
    "tier": "R"
   },
-  "malwi": {
-   "modern": "maluy",
-   "tier": "R"
-  },
   "masing": {
    "modern": "masing",
    "tier": "R"
@@ -27176,10 +27204,6 @@
    "modern": "pgskaun",
    "tier": "R"
   },
-  "pido": {
-   "modern": "pido",
-   "tier": "R"
-  },
   "pis": {
    "modern": "pis",
    "tier": "R"
@@ -27813,10 +27837,6 @@
   },
   "sgxoayan": {
    "modern": "sghuwayan",
-   "tier": "R"
-  },
-  "sido": {
-   "modern": "sido",
    "tier": "R"
   },
   "sigi": {
@@ -28902,10 +28922,6 @@
    "modern": "isat",
    "tier": "N"
   },
-  "ixeng": {
-   "modern": "iheng",
-   "tier": "N"
-  },
   "jes": {
    "modern": "jes",
    "tier": "N"
@@ -28948,10 +28964,6 @@
   },
   "liwis": {
    "modern": "liwis",
-   "tier": "N"
-  },
-  "lobyaq": {
-   "modern": "lubyaq",
    "tier": "N"
   },
   "lübaq": {
@@ -29023,10 +29035,6 @@
    "modern": "umat",
    "tier": "N"
   },
-  "opiç": {
-   "modern": "upih",
-   "tier": "N"
-  },
   "otun": {
    "modern": "utun",
    "tier": "N"
@@ -29041,10 +29049,6 @@
   },
   "piking": {
    "modern": "piking",
-   "tier": "N"
-  },
-  "pilex": {
-   "modern": "pileh",
    "tier": "N"
   },
   "pilin": {
@@ -29149,10 +29153,6 @@
   },
   "syukang": {
    "modern": "syukang",
-   "tier": "N"
-  },
-  "tailong": {
-   "modern": "tailung",
    "tier": "N"
   },
   "tain": {

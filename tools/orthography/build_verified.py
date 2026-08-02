@@ -31,6 +31,28 @@ A modern value is VERIFIED two ways, and the file records which.
      `Awi Sibal` and `Sibal Watan` -- with the l that tier N froze against the
      l>r rule. Tier N's whole premise, confirmed from outside the book.
 
+     Widened a second time by ilrdf_names.json, and this one is aimed at that
+     class rather than reaching it by luck: the Council of Indigenous Peoples'
+     name registry (indigenous-name.ilrdf.org.tw), 1,792 Truku names, each with
+     its 男名/女名/男女共名 type and a recording. A transcript mentions the
+     people who happened to be talked about; the registry is the list. It is
+     what tier N never had -- the tier exists precisely because "nothing attests
+     a name and no tier above reaches it", so every name it froze stayed pale
+     forever, and pale is not a verdict a person's name can ever shed.
+
+     GATED TO THE NAME POPULATION (name_population.json), and the gate is the
+     whole of the care here. The registry answers "is this string a Truku
+     name?", not "is this string the modern spelling of his word", and those
+     part company the moment a name is homographic with a word: `aku`, `aman`,
+     `mici`, `taya`, `urang`, `tabu` are all somebody's name AND ordinary
+     vocabulary, and verifying the common noun on the strength of the person
+     would be the raki/laqi trap with a new source. Ungated the registry clears
+     82 pale types; gated it clears 67, and the 15 it drops are exactly that
+     homograph class. So a value is admitted here only when the token it came
+     from is one his own `name (m)`/`name (f)` tag declares, or one the tier-N
+     capitalisation test admitted -- i.e. only where the claim being made about
+     the string IS "this is how the name is written".
+
   2  A REGULAR INFLECTION of a listed root, per inflection.py: AF, PF, LF, the
      referential s-, the causative p-, the preterite -n-, the imperatives, and
      the stacks those build, with the root's modern gloss required to agree
@@ -94,6 +116,23 @@ def main():
     m = read(os.path.join(SITE, "modern_map.js"))
     a = m.index("window.MODERN_MAP = {") + len("window.MODERN_MAP = ")
     mp = json.loads(m[a:m.index("\n};", a) + 2])
+
+    # The name registry, gated to the name population — see the docstring. Like
+    # the parquets it widens `seen` and never `lex`: a name is not a root, and
+    # handing 1,792 of them to the affix analyser as lexemes is the same mistake
+    # that re-cut `spsangay` onto `sang`.
+    nf = os.path.join(HERE, "ilrdf_names.json")
+    pf = os.path.join(HERE, "name_population.json")
+    if os.path.exists(nf) and os.path.exists(pf):
+        reg = {n.strip().lower()
+               for n in json.load(io.open(nf, encoding="utf-8"))["太魯閣族"]}
+        pop = set(json.load(io.open(pf, encoding="utf-8")))
+        named = {v for v in (mp.get(t) for t in pop) if v} | \
+                {ov[t] for t in pop if t in ov}
+        named = {v.strip().lower() for v in named} & reg
+        print("names: %d registered Truku names, %d of the %d values the name "
+              "population puts on screen" % (len(reg), len(named), len(pop)))
+        seen |= named
 
     # Every value a brown span can display. CLITIC_FORMS hands the word back
     # unchanged, so there the key IS the value.

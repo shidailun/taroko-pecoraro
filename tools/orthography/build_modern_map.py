@@ -608,6 +608,11 @@ def main():
     # hand-curated mappings (gloss-verified by a human/LLM pass) win over generated
     manual_path = os.path.join(HERE, "manual_map.json")
     manual = json.load(open(manual_path, encoding="utf-8")) if os.path.exists(manual_path) else {}
+    # `_`-prefixed keys are documentation, as in lexical_map and llm_map. This file
+    # had none until the ILRDF name register arrived: its tier's own rule ("accepted
+    # only when the omnibus gloss matched his Chinese") cannot be applied to a name,
+    # which has no gloss, so the evidence for those entries has to live beside them.
+    manual = {k: v for k, v in manual.items() if not k.startswith("_")}
 
     # tier X: LEXICAL SUBSTITUTION, not a respelling. His word is gone from the
     # modern language and a different word carries the meaning (q'nao -> qusul
@@ -1687,6 +1692,19 @@ def main():
         f.write("# tier N: capitalized mid-sentence, never lowercase anywhere -> a name, so l stays l\n")
         for t, m, mc, o in sorted(n_log, key=lambda r: -r[3]):
             f.write("%-16s %-16s midcap=%-4d occ=%d\n" % (t, m, mc, o))
+    # The name POPULATION is wider than the tier, and build_verified.py needs the
+    # population rather than the tier: `tatu`, `aman` and `mici` are names he tags
+    # as such, but an earlier tier already had a value for them, so tier N never
+    # fired and nothing downstream can tell they are people. Exported here so the
+    # definition lives in one place — his own tags (with the jp and shared-with-a-
+    # noun restrictions applied above) plus whatever the midcap test admitted.
+    pop = sorted(name_heads | {t for t, r in result.items() if r["tier"] == "N"})
+    with open(os.path.join(HERE, "name_population.json"), "w",
+              encoding="utf-8", newline="\n") as f:
+        json.dump(pop, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print("name population: %d tokens (%d tagged, %d tier N)"
+          % (len(pop), len(name_heads), tiers["N"]))
     j_rows = [(t, r["modern"], r["j_how"], tokens[t]) for t, r in result.items()
               if r["tier"] == "J"]
     print("japanese/chinese loans (J): %d romanized (%d kept on gloss evidence)"

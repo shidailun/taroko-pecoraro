@@ -4,7 +4,6 @@ mikat            mikat            midcap=8    occ=9
 ingai            ingay            midcap=6    occ=8
 dloan            dluan            midcap=6    occ=7
 laoken           lauken           midcap=4    occ=5
-lobyaq           lubyaq           midcap=3    occ=5
 morisaka         murisaka         midcap=5    occ=5
 sikat            sikat            midcap=4    occ=5
 tain             tain             midcap=4    occ=5
@@ -17,7 +16,6 @@ otun             utun             midcap=3    occ=4
 atox             atuh             midcap=2    occ=3
 atwi             atwi             midcap=2    occ=3
 masa             masa             midcap=2    occ=3
-opiç             upih             midcap=2    occ=3
 pilin            pilin            midcap=3    occ=3
 pirin            pirin            midcap=1    occ=3
 sitang           sitang           midcap=2    occ=3
@@ -29,7 +27,6 @@ bal              bal              midcap=2    occ=2
 byeqai           byeqay           midcap=1    occ=2
 cristo           cristu           midcap=2    occ=2
 diko             diku             midcap=1    occ=2
-ixeng            iheng            midcap=1    occ=2
 kimi             kimi             midcap=1    occ=2
 nati             nati             midcap=1    occ=2
 patong           patung           midcap=1    occ=2
@@ -84,7 +81,6 @@ okax             ukah             midcap=0    occ=1
 omat             umat             midcap=0    occ=1
 paidang          paidang          midcap=0    occ=1
 piking           piking           midcap=0    occ=1
-pilex            pileh            midcap=0    occ=1
 pilyaq           pilyaq           midcap=0    occ=1
 pitong           pitung           midcap=0    occ=1
 pixeng           piheng           midcap=0    occ=1
@@ -104,7 +100,6 @@ siyal            siyal            midcap=0    occ=1
 sobil            subil            midcap=0    occ=1
 syobao           syubaw           midcap=0    occ=1
 syukang          syukang          midcap=0    occ=1
-tailong          tailung          midcap=0    occ=1
 tapang           tapang           midcap=0    occ=1
 tbasyaq          tbasyaq          midcap=1    occ=1
 tenong           tenung           midcap=1    occ=1

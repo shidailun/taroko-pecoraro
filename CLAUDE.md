@@ -1705,6 +1705,120 @@ what more evidence should do). verified.js +2 / −1 / **0 weaker**. DOM census
 94.1280% → **94.1347%** dark (41,854 → 41,857; pale 2,579 → 2,576; green 32),
 1,967 cards, 0 page errors in both spelling modes (`census137.py`).
 
+## The names have a register, and it is digitized (batch 138, 2026-08-02)
+
+**No wordlist has a reason to hold a personal name.** That is why tier N was the
+one population where every spelling was a guess and every word stayed pale
+permanently — "unverified" is a uselessly permanent verdict about a man's name.
+The Council of Indigenous Peoples publishes the register:
+
+    https://indigenous-name.ilrdf.org.tw/#/searchView?zuqunId=13&zuName=太魯閣族
+
+**1,792 Truku names** (男名 928 / 女名 614 / 男女共名 258) and 461 Seediq, 162
+shared, each with its type and a recording of a speaker saying it. It is a Vue
+SPA over a JSON API and the page holds no data, so `fetch_ilrdf_names.py` posts
+to the API the page posts to — `POST /api/api/EthnicLanguageData/GetFirsrWordList`
+with `{FirstWord, EthnicGroupId, page, pageSize, NameTypes}`, EthnicGroupId 13 =
+太魯閣族 and 10 = 賽德克族. There is no "all names" call, so the harvest walks the
+initial-letter index the bundle's own `keyboardFirstName` defines; `o`, `x` and
+`ʼ` come back empty for Truku, which is that alphabet's answer and not a gap.
+The output is committed to `ilrdf_names.json` and **the build must never depend
+on the network**.
+
+`build_verified.py` widens `seen` with it at level 1 (LISTED), exactly as it does
+with the parquets, and — like them — **never widens `lex`**: a name is not a
+root, and handing 1,792 of them to the affix analyser as lexemes is the mistake
+that re-cut `spsangay` onto `sang`.
+
+**The gate is the design.** The register is matched only against the values the
+NAME POPULATION puts on screen, exported by the map builder as
+`name_population.json`: his own `name (m)`/`name (f)` tags (with tier N's two
+restrictions already applied — no `name (.., jp)`, and no token that is also some
+entry's headword) **union** tier N itself. The union is needed in both
+directions: `tatu`, `aman` and `mici` are names he tags as such but an earlier
+tier had already valued them, so tier N never fired and nothing downstream could
+tell they were people. 235 tokens, 235 distinct values, **125 in the register**.
+
+Ungated — plain string matching against 1,792 names — it would also clear **21
+pale types the register lists and this page does not use as names**: `tabu` is
+his 餵養 root, and `aku`, `mici`, `taya`, `urang`, `burung`, `satu`, `bulu`,
+`eku`, `butang` are ordinary words that happen to be spelled like somebody. A
+register of names is evidence about names. Those 21 are the load-bearing
+assertion in `dom138.py`; if the gate ever reads the register as a wordlist they
+are what falls first.
+
+**Yield: 61 values / 189 occurrences turn dark**, led by `mikat` 33, `sikat` 16,
+`tatu` 14, `talan` 13, `imin` 12, `tain` 11, `utun` 10. Three of them —
+`masa`, `duka`, `atu` — are words the *earlier* name pass got wrong from the
+other side: `llm_map.json`'s `_names` guard records MASA being adjudicated onto
+`msa` 說 and DUKA onto `dka` 一半 because a name entry has no gloss to
+adjudicate against. The register is the evidence that was missing then.
+
+**Nine names the register spells differently**, applied to `manual_map.json`
+under a stated rule (its `_ilrdf_names` key; `_`-prefixed keys are now filtered
+there as they already were in `lexical_map` and `llm_map`, because this file's own
+test — "the omnibus gloss matched his Chinese" — cannot be run on a name):
+his form absent from the register, exactly one registered name one letter away,
+that name's 男名/女名 type agreeing with his own tag, and the letter a
+correspondence this book already documents.
+
+| his | ours was | register | why |
+|---|---|---|---|
+| `lobyaq` | lubyaq | **lubyak** 女名 | q>k, his `name (f)`, 20 occ |
+| `opiç` | upih | **upix** 男名 | his ç **is** modern x — tier N applied x→h to it anyway |
+| `pido` | pido | **pidu** 男名 | o>u, blocked by tier R |
+| `ixeng` | iheng | **ihing** 男名 | e>i |
+| `sido` | sido | **sidu** 女名 | o>u |
+| `pilex` | pileh | **pilih** 女名 | e>i |
+| `komu` | komu | **kumu** 女名 | o>u; an identity claim overturned |
+| `malwi` | maluy | **maruy** 男名 | l>r — the register overrules the name freeze |
+| `tailong` | tailung | **taylung** 男名 | ai>ay, o>u |
+
+Two of those are worth keeping in mind. **`upix` indicts the tier, not the map**:
+this book's first orthographic rule is that his ç is modern x, and tier N ran
+x→h over it regardless. **`maruy` is the documented order working** — the freeze
+exists to stop l→r renaming a man (`Sapah Sibar`), and here the outside source
+says the man really is Maruy, so it outranks the freeze exactly as attestation
+does. `kumu` also brought his accented twin `komù` into agreement, which is what
+tier V asks of a pair his marks split into two keys.
+
+**What the register does NOT settle, and this is the honest half. 94 of the name
+population's 235 values are still pale, 286 occurrences** — `liwis` 38, `ingay`
+24, `lauken` 22, `timin` 11, `pilin` 11, `akit` 10, `atwi` 8. Twenty-two of those
+have exactly one registered name a single letter away, and most were **refused**:
+the edit is not a documented correspondence (`bal`→`balu`, `yiyah`→`biyah`,
+`hatsu`→`hatu`), or the register's type contradicts his tag (`yageh` is his
+`name (m)` and `yagih` is 女名), or two of his distinct names collapse onto one
+registered name (`sipwi` and `sidwi` both sit one letter from `siwi`). The
+tempting class is his final `-n` against the register's `-ing`/`-ung`
+(`pilin`/`piling`, `arin`/`aring`, `apin`/`aping`, `laun`/`laung`, `pirin`/`piring`)
+— **rejected**, because the register writes final `-n` freely itself: -an 115 /
+-ang 136, -in 46 / -ing 112, -un 60 / -ung 105. That is a 30/70 split, not the
+near-exceptionless correspondence tier W's evidence bar wants, and absence from a
+register of names *in use* is weak evidence about a 1977 book.
+
+The register is written in the modern orthography throughout, which is worth
+recording as a check on the rules: 915 of its names carry `u` against 44 with
+`o`, 174 carry `ay` against 4 with `ai` — but 355 carry `l` against 184 with `r`,
+and 52 carry `x`. **l and x are real letters in real names**, which is the whole
+reason the name freeze exists.
+
+Measured: 0 map keys added or removed, **9 spellings changed** (5 N→M, 3 R→M, 1
+M→M), 0 relevelled. verified.js **+70 keys, all level 1, 0 weaker**. DOM census
+94.1347% → **94.6790%** dark (41,857 → 42,099; pale 2,576 → 2,334; green 32),
+1,967 cards, 0 page errors in both spelling modes. `dom138.py`: 61 GAIN dark, 21
+KEEP still pale, 3 JP and 4 MISS untouched, 9 FIX dark with all nine old
+spellings gone from the page, **0 failures**. (14 of the occurrences
+`census137.py` shows moving belong to commit 098b28f, whose six affix letters
+postdate that script's baseline.)
+
+**Appendix 4 reaches further than tier N does.** `site/entries.js` already holds
+it — 270 name-tagged records, `name (m)` 137 / `name (f)` 87 / `name (f, jp)` 28
+/ `name (m, jp)` 17 / `name (m) (?)` 1 — and **151 pale types / 455 occurrences
+are names Pecoraro himself declares**, crossing tiers M, R and V, well beyond the
+131 tier N had. That is why the population is his tags ∪ tier N rather than tier
+N alone, and it is also the remaining work: the register answers 125 of them.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries
