@@ -2446,6 +2446,79 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## An empty candidate list is not a refusal (batch 164, 2026-08-02)
+
+Nineteen batches of widening rungs, and the largest block left in the census
+was never being judged by a rung at all. **Every rung opens by asking `roots()`
+for something to read, so when `roots()` returns nothing the value is not
+refused — it is invisible, to all eleven at once.** 465 of the 807 pale types,
+665 occurrences, 55% of the whole pale mass, decomposed to nothing whatever.
+Diagnose the *empty* list before widening the *judgement* on a non-empty one.
+
+**`roots()` peels one prefix, and Truku stacks them.** `dmtqsurux` is
+dm+t+`qsurux` 魚, `kmspusu` is km+s+`pusu` 根本, `ndjyamu` is n+d+`jyamu`
+屬你們的 against his own 你族人中的一個. A second peel, depth-capped at two.
+
+**Write it as a fallback, not a widening — the distinction is the safety.**
+`no_chinese()` refuses a value whose candidates fall into more than one root
+group, so handing an extra candidate to a value that *already* has some can
+split a clean one-group reading into a tie and **de-verify** it. That is the
+one direction the "widening only adds membership" invariant does not cover.
+Firing only on an empty list makes it impossible by construction. The same
+ordering rule appears twice more in this batch, and both times it was load-
+bearing rather than decorative.
+
+**A gloss hole is not evidence, and two rungs each assumed the other covered
+it.** `unglossed_root()` exists for a root the wordlist lists but never
+glossed — but it can only fire where HIS Chinese exists to compare the root's
+paradigm against. `no_chinese()` is the rule for where his Chinese is absent —
+but it demands a GLOSSED root. A value with **neither** falls between them and
+nothing in the file can see it. `nglngu`: `lngu` is listed, bare, and the
+wordlist inflects it thirteen ways. *A root inflected a dozen ways is a word
+whether or not anyone wrote down what it means.* Witness borrowed from
+`unglossed_root()` minus the comparison there is nothing to compare.
+
+Run it only when the glossed candidate list is empty. `stmaqun` is why: its
+glossed candidates `taqi`/`tmaq` are two real roots that must keep refusing
+(dom163's assertion), while its unglossed `stmaqi`/`tmaqi` are one group and
+would have quietly overridden them.
+
+**When a threshold is a proxy, spell the guard instead.** Batch 163 dropped
+`outvoted()`'s root floor 4→3; this drops the same floor and replaces the
+number with what it stood for — a root has to be pronounceable. Four letters
+keeps `hng` out by accident; **requiring a vowel keeps it out for the reason**,
+since Truku writes no schwa and a listed form with no vowel is a consonant
+cluster the wordlist filed, not a syllable anyone says. `smhngi` is the only
+thing the floor was buying.
+
+Two veins were priced and **refuted**, which is why they are recorded here:
+*a "gloss" that is a structural note* (`同上之動詞形。` is 25 pale occurrences,
+the largest single string in the census) turns out never to stand alone — it
+always sits beside a real gloss, so the whole class is 9 values / 20 occ; and
+*onomatopoeia roots* are a trap rather than a vein — `bir` 車聲 inside `biri`
+(his 濕透), `bus` 蒸氣洩出聲 inside `mbusi` (his 戴帽子), `puq` 手指扭折聲
+inside `puqi` (his 餵食) are `mnalu`/`tabu` homographs at scale, and the rungs
+are right to refuse all 20 of them.
+
+The price is six substring accidents in the new `HAND_NOT_STACK`, pinned at the
+*peel* rather than at a rung because the claim being refused is the peel's own.
+`empnalu` is his 將會變好、康復 — that is `malu` 好, the root batch 161 already
+refused `mnalu` over, not `alu` 陷阱線 a snare line.
+
+**An earlier batch's deliberate refusal outranks a later batch's newly-widened
+reach — and only the regression suite will tell you.** The gloss-hole fallback
+reached `tnaga` through `taga` 等 and coloured it verified; dom161 had asserted
+it pale. Batch 161's refusal was epistemic, not a missing rule: `tnaga` is in
+the C-n- infix class, where `<n>` perfective and `<m>` actor-focus share a
+slot, so the token is either t-n-aga on `taga` or his typewriter's n for the m
+of `tmaga`, and nothing on the card decides which. A rule that *reaches* a word
+is not thereby entitled to it. Pinned in `HAND_NOT_NC`. Nineteen of the twenty
+dom logs passed untouched; this was the twentieth, and it is the reason the
+suite runs before the commit rather than after.
+
++41 values / 48 occurrences, 0 de-verified, **0 new pale types**.
+97.2335% → **97.3415%** (43,279 / 1,150 / 32). Past the 97.3333% mark.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

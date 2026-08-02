@@ -361,7 +361,34 @@ mpsqlul pnsdahung qlap ruugeur tbasyaq tsaleh vivant yianu yiyah""".split())
 #               mxa mtgtmaq d'xgal 全都趴倒在地 — the tree is a homograph.
 #   narung      `arung` 穿山甲 a pangolin. Xea ka mnangal nalong 得獎的是他.
 HAND_NOT_NC = set("""slungan drnai ggitan empslangan mtgtmaq narung
-    mslangan snpsaran snpsarun sbuwai shnkan psnluun tmukan""".split())
+    mslangan snpsaran snpsarun sbuwai shnkan psnluun tmukan
+    tnaga""".split())
+# [batch 164] `tnaga` is batch 161's, and dom161 is what caught it. The gloss-
+# hole fallback below reaches it through `taga` 等 and would colour it verified
+# — but batch 161 refused it deliberately and the refusal was epistemic, not a
+# missing rule. It belongs to the C-n- infix class, where `<n>` perfective and
+# `<m>` actor-focus share a slot, so `tnaga` is either t-n-aga on `taga` or his
+# typewriter's n for the m of `tmaga`, and nothing on the card decides which.
+# Verifying it would assert the answer that batch 161 declined to give.
+# [batch 164] The price of the second prefix peel. Each of these six reaches a
+# listed root only through a stacked prefix, and in each the root it reaches is
+# a coincidence rather than his word — so the refusal belongs to the peel and
+# not to any one rung, and this set is read inside roots() itself.
+#   dmtsapat    `sapat` 舖（舖床）. His SAPAT family is 放蕩 — `msapat` is
+#               沉溺於放蕩的人, `tsapat` 真正放蕩的. Bed-spreading is a homograph.
+#   empkduriq   emp-k-duriq is right, but the peel lands on `uriq` 肚子痛的聲音
+#               through the swallowed vowel. His word is `qduriq` 逃跑, which
+#               `mmqduriq` in this same batch reaches correctly.
+#   empnalu     his 將會變好、康復、健康 — that is `malu` 好, the root batch 161
+#               already refused `mnalu` over, not `alu` 陷阱線 a snare line.
+#   ntnring     `ring` 常笑;愛笑. Its sibling `mtnring` is his 流汗－滿身大汗,
+#               so `nring` is sweat and the laughing root is a homograph.
+#   mtkkrang    `krang` is 碗掉下來破碎的聲音, an onomatopoeion; his `kkrang`
+#               and `mkkrang` are 發抖－打顫, shivering. Not the same word.
+#   spsdharun   sps+dharun reaching `hari` 一點（比較級） is a substring
+#               accident with no morphology behind it.
+HAND_NOT_STACK = set("""dmtsapat empkduriq empnalu ntnring mtkkrang
+    spsdharun""".split())
 # [batch 163] The second six, found the same way as the first six and read
 # against the sentence he prints them in. `mslangan` is `empslangan`'s own
 # sibling — it stands in BMBANG 鐵皮－鐵桶, rust on tin, which is his SLANGAN
@@ -813,7 +840,7 @@ class Inflection(object):
         return None
 
     # ---- the paradigm ------------------------------------------------------
-    def roots(self, v):
+    def roots(self, v, _stack=True):
         """(root, prefix, suffix, slot) for every attested root inflecting to v."""
         out = []
         for p in PRE:
@@ -852,6 +879,34 @@ class Inflection(object):
                             slot = "-".join(x for x in (
                                 p, "infix" if infixed else "", sf) if x)
                             out.append((c, p, sf, slot or "bare"))
+        if out or not _stack or v in HAND_NOT_STACK:
+            return out
+        # [batch 164] One prefix, and only one. A value that carries two —
+        # `dmtqsurux` is dm+t+qsurux 魚, `kmspusu` is km+s+pusu 根本 — comes
+        # back from the loop above with an EMPTY candidate list, so it is
+        # invisible not to one rung but to all eleven at once: every rung
+        # begins by asking roots() for something to read. 465 of the 807 pale
+        # types decompose to nothing at all, 665 occurrences, and that is the
+        # largest single block left in the census.
+        #
+        # The peel is a fallback and not a widening, and the distinction is
+        # what makes it safe. no_chinese() refuses a value whose candidates
+        # fall into more than one root group, so handing an extra candidate to
+        # a value that already has some could turn a clean one-group reading
+        # into an ambiguous one and DE-verify it — the one direction the rung
+        # invariant does not protect. Firing only on an empty list makes that
+        # impossible by construction: nothing that decomposes today can gain a
+        # candidate, so nothing that reads today can stop reading.
+        #
+        # Depth stops at two. Three prefixes on a listed root is not a shape
+        # his paradigms show, and each extra peel multiplies the substring
+        # coincidences the gloss gates then have to catch.
+        for p1 in PRE:
+            if not p1 or not v.startswith(p1) or len(v) - len(p1) < 4:
+                continue
+            for c, p2, sf, slot in self.roots(v[len(p1):], _stack=False):
+                if c != v:
+                    out.append((c, p1 + p2, sf, slot))
         return out
 
     def _his(self, v, slots_only=False):
@@ -942,6 +997,49 @@ class Inflection(object):
         # shortest member. Genuine ambiguity still refuses, which is the
         # load-bearing half: `kngusan` [kgus, ngus] and `stmaqun` [taqi, tmaq]
         # really are two roots apiece and stay pale.
+        # [batch 164] Where the glossed path finds NOTHING, ask the paradigm.
+        # unglossed_root() needs his Chinese to compare a glossless root
+        # against; this rule needs a glossed root because he gives no Chinese
+        # at all. A value that has NEITHER — no Chinese of his, and a root the
+        # wordlist lists but never glossed — falls between the two and no rule
+        # in the file can see it. `nglngu` is the shape: `lngu` is listed,
+        # bare, and carries thirteen inflections in the wordlist.
+        #
+        # That hole is the gloss TABLE's, not the word's, and this file has
+        # convicted it twice already — unglossed_root()'s own docstring says so
+        # by name ("a hole in the GLOSS TABLE, and this file has already
+        # convicted that hole twice"). The witness is the one that rule uses,
+        # minus the comparison there is nothing to compare: a four-letter root
+        # floor, unfrozen, its derived() yielding at least two DISTINCT affixes,
+        # and the whole-or-VSUF final-vowel test. A root the wordlist inflects
+        # a dozen ways is a word whether or not anyone wrote down what it means.
+        #
+        # It runs only when `cands` is empty, and that ordering is the safety.
+        # Widening the candidate set itself would hand new members to values
+        # that already read cleanly and could split a one-group reading into a
+        # tie — `stmaqun` is exactly that risk, since its glossed candidates
+        # `taqi`/`tmaq` are two real roots that must keep refusing while its
+        # unglossed `stmaqi`/`tmaqi` are one group. Falling through only on an
+        # empty list leaves every such judgement untouched.
+        if not cands:
+            # The floor is three and not four, as batch 163 set outvoted()'s,
+            # and it is spelled with the guard the number was standing in for:
+            # a root has to be pronounceable. Four letters keeps `hng` out by
+            # accident; requiring a vowel keeps it out for the reason — Truku
+            # writes no schwa, so a listed form with no vowel at all is a
+            # consonant cluster the wordlist filed, not a syllable anyone says.
+            # `pix` (batch 163) and `sma` are CVC roots and pass either way.
+            for c, p, sf, sl in self.roots(v):
+                if (c not in self.lex or self.gl.get(c) or len(c) < 3
+                        or not any(x in VOW for x in c)
+                        or c in self.frozen):
+                    continue
+                d = self.derived(c)
+                if len(set(d.values())) < 2:
+                    continue
+                if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
+                    continue
+                cands.append((c, p, sf, sl))
         if len(root_groups({c for c, _, _, _ in cands})) != 1:
             return None
         return min(cands, key=lambda r: (len(r[0]), len(r[1]) + len(r[2])))
