@@ -2013,6 +2013,35 @@ DOM 94.7892% → **94.8319%** (42,167 / 2,266 / 32), original 94.8356%, 1,967
 cards, 0 page errors both modes. `dom142.py` 0 failures; 138/139/140/141 all
 still 0.
 
+## Seven prefixes his book uses and PRE had never heard of (batch 143, 2026-08-02)
+
+313 pale values find no root at all, and for some the reason is not a missing
+root but a missing PREFIX — `roots()` peels only what `PRE` lists, so
+`empaqsiya` was an unanalysable eight-letter string while `qsiya` 水 sat one row
+away. Seven were priced alone, then together: `empa` `pkp` `spk` `sps` `npk`
+`dmp` `emb` → **ADDED 14, REMOVED 0, RELEVELLED 3**. `psp` was priced the same
+way and gave 0, so it is not in the list — a prefix earns its row by taking a
+word, not by looking plausible.
+
+**empa- is "will become X"**, which is what makes the group defensible on
+meaning and not just arithmetic: `empaqsiya` 化成水 / `qsiya` 水; `empasnaw`
+成為丈夫 / `snaw` 丈夫; `empaayug` 將變成溪流 / `ayug` 溪. The rest: `dmpuyas`
+歌者 / `uyas` 歌; `npkrbagan` 夏天將至 / `rbagan` 夏天; `spkungat` 使消失 /
+`ungat`; `spsqrinut` 使變窮 / `qrinut` 窮; `embsqrul`, `spkmalu`, `spspgan`,
+`empanalu`, `empaqmpahan`.
+
+**`pkpakux` is `pkp`+`akux` 翻, NOT the 老鼠 `pakux`.** One letter-string, two
+readings, and only one is 翻 — the same split batch 142 pinned `mkpakaw` for
+landing on the wrong side of. Nothing here reaches `mkpakaw`; `dom143.py`
+asserts it stays pale.
+
+`sgasut` came in at level 3, not through a new prefix: the widened `PRE` grew
+its supporter set past the two-affix guard so `vouched()` could speak. `gasut`
+is 工作範圍（工作的起點及終點）against his 照計畫、照正常程序進行.
+
+DOM 94.8319% → **94.8859%** (42,191 / 2,242 / 32), original 94.8890%, 1,967
+cards, 0 page errors both modes. `dom143.py` 0 failures; 138–142 all still 0.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

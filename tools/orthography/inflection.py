@@ -104,7 +104,8 @@ PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
        "d", "mk", "mt", "ms", "mg", "pk", "pt", "pg", "sm", "sk", "skn", "sg",
        "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps",
        "tm", "tmg", "tk", "kmp", "mkm", "mkn", "msn", "nk", "ns",
-       "pnk", "pns", "psk", "snk", "sns", "dm", "qn"]
+       "pnk", "pns", "psk", "snk", "sns", "dm", "qn",
+       "empa", "pkp", "spk", "sps", "npk", "dmp", "emb"]
 # [batch 130] SUF had never been priced. Adding each candidate alone and reading
 # the re-cut column refuses nearly all of them, and refuses the biggest number in
 # the batch: `n` bought 10 types / 23 occurrences and took `mkmisan` off `misan`
