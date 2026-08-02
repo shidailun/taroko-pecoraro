@@ -2088,6 +2088,41 @@ DOM 94.8859% → **95.5898%** (42,504 / 1,929 / 32), original 95.5852%, 1,967
 cards, 0 page errors both modes. Types: 5,219 dark of 6,566 = 79.485% — the
 token figure is the one the target tracks. dom138–144 all 0 failures.
 
+## A sentence gloss refuses no better than it accepts (batch 145, 2026-08-02)
+
+`regular()` verifies a form by making HIS Chinese agree with the root's modern
+gloss on a character. 264 pale values / 312 occurrences had no Chinese of his at
+all attached to the word — the only Chinese near them belonged to an EXAMPLE
+SENTENCE — so the test ran against a free translation of a whole clause and read
+its silence as a disagreement.
+
+**`vouched_root` had already written the argument, pointing the other way**: "a
+sentence gloss describes a whole clause and shares a character with almost
+anything", the `sktama` 已故的父親 / `kmtama` 信奉上帝 case. Too loose to license
+an agreement is too loose to license a refusal. A translator writing
+我們去求爸爸 owes no stem in the clause its dictionary meaning.
+
+So `no_chinese()` enters on `slots_only` — he glossed no word here — and runs no
+gloss test at all. The guards carry it: root listed **and glossed**, ≥4 letters,
+gloss not merely 人名/地名, and **exactly one root candidate**, because with no
+gloss nothing breaks a tie. New level 5 between 4 and 6; everything under it
+renumbers, which is free — `app.js` only tests membership of `MODERN_VERIFIED`.
+
+**SISUN is refused one step earlier than the morphology**: he glosses it 縫
+himself, so the entry condition throws it out. `dom145.py` asserts it still pale
+— it is what this rule would have to break to be wrong.
+
+Six of the 139 had one candidate and it was the wrong word, all six reachable
+only through an example sentence: `slungan` ← `slung` 毛線 when his own note says
+**(Silong=海)**; `drnai` ← `drna` 鹿鞭 under DULUN 求; `ggitan` ← `gitu` 枇杷
+under GIGIT 糾纏; `empslangan` ← `langu` 湖 under his headword SLANGAN 鏽蝕;
+`mtgtmaq` ← `tmaq` 水桶樹 against 趴倒在地; `narung` ← `arung` 穿山甲 against
+得獎. Pinned in `HAND_NOT_NC`.
+
++132 values / 161 occurrences, 0 de-verified, 0 relevelled. DOM 95.5898% →
+**95.9519%** (42,665 / 1,768 / 32), original 95.9455%, 1,967 cards, 0 page
+errors both modes. dom138–145 all 0 failures.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

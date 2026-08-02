@@ -273,6 +273,30 @@ atuh denki banasi otun utun taolan taulan""".split()
 HAND_NOT_NAMES = set("""beau byeqay cunnaissance grand grandeur mnttlaqel mpa
 mpsqlul pnsdahung qlap ruugeur tbasyaq tsaleh vivant yianu yiyah""".split())
 
+# no_chinese()'s pins — the six of its 139 whose single root candidate is the
+# wrong word, read one by one against the sentence he puts them in. Every one is
+# the SISUN shape: the letters fit, the meaning does not, and here there is no
+# gloss of his to catch it, which is exactly why the rule needs a hand read.
+#
+#   slungan     `slung` 毛線 wool. His own note names the root: Ma so lmngao
+#               slongan! 你怎麼對著大海說話呢? **(Silong=海)** — it is the SEA.
+#   drnai       `drna` 鹿鞭. The card is DULUN: Dlnai ta tmaan xo? 我們去求爸爸 —
+#               d<l>ulun, the imperative of 求.
+#   ggitan      `gitu` 枇杷 a loquat. The card is GIGIT: Tayai bi ka g'gitan so!
+#               你真是纏人! and he adds 含有…糾纏的意思.
+#   empslangan  `langu` 湖 a lake. The card is his own headword SLANGAN:
+#               adi biyao mpslangan ka kia! 很快就會被鏽蝕掉 — emp- on SLANGAN.
+#   mtgtmaq     `tmaq` 水桶樹. The card is TMAQ/**Tgtmaq**, and the sentence is
+#               mxa mtgtmaq d'xgal 全都趴倒在地 — the tree is a homograph.
+#   narung      `arung` 穿山甲 a pangolin. Xea ka mnangal nalong 得獎的是他.
+HAND_NOT_NC = set("""slungan drnai ggitan empslangan mtgtmaq narung""".split())
+
+# A gloss that says "this is a personal name" is not a meaning, so it cannot be
+# the meaning a suffixed form inherits: `ksudan` <- `sudu` 人名（男）, `nputuh` <-
+# `putuh` 人名, `empsbiyuq` <- `biyuq` 人名 were all reached this way. Tested with
+# all(), not any(), so `suyang` 人名（男）/美麗 keeps its second sense.
+NAMEGL = re.compile(r"人名|名字|地名")
+
 # Read one by one out of vouched()'s whole output — 56 values, which is small
 # enough to check by hand and too important not to. Two survived the gloss gate
 # on a character that is doing no work:
@@ -546,6 +570,56 @@ class Inflection(object):
             if best is None or cost < best[0]:
                 best = (cost, (c, p, sf, slot, sh))
         return best[1] if best else None
+
+    def no_chinese(self, v):
+        """(root, prefix, suffix, slot) or None — regular() where he wrote no
+        gloss for the word AS a word.
+
+        regular() verifies a form by making his Chinese and the root's modern
+        gloss agree on a character. For 264 pale values that test never runs on
+        anything, because the only Chinese anywhere near the word belongs to an
+        EXAMPLE SENTENCE. `nsping` sits inside a clause about someone dressing
+        up; `sping` is glossed 化妝; the clause translation is free to say
+        打扮 or 漂亮 or nothing at all, and when it does, regular() reads a
+        disagreement and refuses a form whose morphology is not in question.
+
+        **This is vouched_root()'s own argument, run the other way.** That rule
+        already refuses to ACCEPT a sentence gloss as evidence — "a sentence
+        gloss describes a whole clause and shares a character with almost
+        anything", the `sktama` 已故的父親 / `kmtama` 信奉上帝 case. If a
+        whole-clause translation is too loose to license an agreement, it is
+        equally too loose to license a REFUSAL: a translator rendering
+        「我們去求爸爸」has no obligation to put the dictionary meaning of every
+        stem into it. So the entry condition is `slots_only` — he attached no
+        Chinese to this word — and inside it there is no gloss test at all,
+        which is why the guards have to hold the whole weight:
+
+          * the root is LISTED in the modern wordlist **and glossed there**, so
+            an outside source vouches for both its spelling and its meaning;
+          * four letters minimum, batch 141's floor — below that the string is
+            inside everything;
+          * its gloss is not only 人名/地名 (`NAMEGL`), because "this is a name"
+            is not a meaning a suffixed form can inherit;
+          * and **exactly one root candidate**. With no gloss to choose between
+            analyses there is nothing to break a tie with, so a tie is a
+            refusal. This is the guard that does the most work.
+
+        SISUN cannot reach it: he glosses SISUN 縫 himself, so the entry
+        condition throws it out before the morphology is ever looked at. What
+        the guards cannot catch is a value whose ONE candidate is simply the
+        wrong word, and six of the 139 were — they are pinned in HAND_NOT_NC,
+        read one at a time against the sentence he prints them in.
+        """
+        if v in self.frozen or v in HAND_NOT_NC:
+            return None
+        if self._his(v, slots_only=True):
+            return None
+        cands = [(c, p, sf, sl) for c, p, sf, sl in self.roots(v)
+                 if c in self.lex and self.gl.get(c) and len(c) >= 4
+                 and not all(NAMEGL.search(g) for g in self.gl[c])]
+        if len({c for c, _, _, _ in cands}) != 1:
+            return None
+        return min(cands, key=lambda r: len(r[1]) + len(r[2]))
 
     # ---- the inverse: a root nobody wrote down bare -------------------------
     def derived(self, v):
