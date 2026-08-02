@@ -2605,6 +2605,31 @@ go", the log must assert the unreachability directly. A guard removed on the
 strength of a change that silently did not happen is a guard removed for
 nothing, and the metric will congratulate you for it.
 
+## A voice is not a spelling (batch 156, 2026-08-02)
+
+`self.lex` and `self.voices` answer different questions and the code now says
+so. A word is in **`lex`** because the dictionary may PRINT it — that is what
+the standing rule "`seen` widens, `lex` never does" protects. A word is in
+**`voices`** because it can AGREE or fail to agree with one of Pecoraro's
+glosses. Agreeing is not a claim about how anything is spelled, so widening the
+second is not the thing the first rule forbids.
+
+Batch 149 added the Truku Bible glossary as an **additive gloss source** —
+`_gloss()` reads it — but its headwords were never added to the population
+`derived()` sweeps. For seven batches a word the build could READ was a word
+the build could not HEAR. `smqdug` 控告 sits on the roots `sqdug`/`qdug`, is
+glossed by the glossary, resolves correctly, and could never be a supporter.
+
+`voices = lex | bible_gloss`, read by `derived()` and nothing else. That last
+clause is the whole safety argument, so `logs/dom156.py` asserts it
+mechanically — it greps `inflection.py` and fails if a second reader appears.
+**A guarantee stated only in prose is a guarantee that drifts.**
+
+Worth 21 occurrences immediately, and two of them were homographs no gloss
+comparison could break: `krwahan` 吝惜 sat on a listed `rwahi` 打開 *open* with
+the glossary's `krwahi` 顧惜；捨不得 unreachable beside it; `kdagi` 扛抬 sat on
+`dagi` 要煮飯 *cook rice* with `pkdagan` 使抬著 unreachable beside it.
+
 ## Deploy
 
 ```powershell

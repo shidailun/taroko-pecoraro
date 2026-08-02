@@ -594,6 +594,17 @@ class Inflection(object):
         # widening it there could de-verify a word that is already dark.
         self.bgl = json.load(io.open(os.path.join(D, "bible_gloss.json"),
                                      encoding="utf-8"))
+        # **A voice is not a spelling.** `self.lex` licenses a spelling: a
+        # word is in it because the dictionary may PRINT it, and that is why
+        # the standing rule is that seen widens and lex never does. Being
+        # evidence is a different job. Batch 149 made the glossary an
+        # additive gloss SOURCE but left its headwords out of the population
+        # `derived()` sweeps, so a word the glossary glosses could be read
+        # and could never vote — `smqdug` 控告 sits on his own roots
+        # sqdug/qdug and was invisible to every paradigm rule [batch 156].
+        # `voices` is used by derived() and NOWHERE else. Nothing here can
+        # become a modern spelling; it can only agree or fail to agree.
+        self.voices = set(lex) | set(self.bgl)
         self.inv = collections.defaultdict(list)
         for k, v in mp.items():
             self.inv[v].append(k)
@@ -842,6 +853,9 @@ class Inflection(object):
         """{attested word: (prefix, suffix, whether v's last vowel survived)}.
 
         Every attested word that is v wearing one paradigm affix, or a stack.
+        Reads `self.voices` — the wordlist PLUS the Bible glossary's own
+        headwords — not `self.lex`. See voices' note: a supporter is
+        evidence, not a licensed spelling, and this is the only reader.
         The third field matters because the -un/-an branch drops v's own final
         vowel, so such a supporter witnesses the STEM and says nothing about the
         vowel the value ends in.
@@ -864,7 +878,7 @@ class Inflection(object):
                         # would refuse it anyway — it is refused above.
                         ((p + v[:-1] + s, False)
                          if s and v[-1:] in VOW else (None, 0))):
-                    if w and w in self.lex:
+                    if w and w in self.voices:
                         out.setdefault(w, (p, s, whole))
         return out
 
