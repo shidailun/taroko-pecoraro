@@ -453,7 +453,7 @@ SYN = [
     # `kbuyu` 都是草叢 against his PKBUYU 使荒蕪——遮蔭.
     "草叢 荒蕪 雜草",
     # `cipiq` 不多 and `nbilaq` 原來小的 against his 每次一點點 and 一次一點點.
-    "一點點 不多 小的 少許 一小份",
+    "一點點 不多 小的 少許 一小份 變小 減少",   # + spcipiq 使其變小，數量減少
     # `tgxal` 團聚、相聚 against his STGXAL 為了成為同伴、夥伴 and KMTGXAL
     # 想與……組隊.
     "團聚 相聚 同伴 夥伴 組隊",
@@ -472,6 +472,22 @@ SYN = [
     # `pakaw` 有刺的野草 against his MKPAKAW 位於荊棘叢中的 — the case that
     # named this batch.
     "荊棘 有刺 刺人",
+    # Batch 150. A second reading of the same bucket, after the Bible glossary
+    # had already taken the pairs that were a WRONG GLOSS rather than a
+    # different wording. What is left is the genuine article: one concept, two
+    # ways of writing it, no character in common.
+    "矯正 扶正 改正 修直 弄直 拉直",     # empslagu 矯正－扶正 / slguan 要…修直
+    "能夠 可以 有辦法 辦得到",           # tduwaan 能夠－有辦法 / tduwa 可以
+    "寬恕 諒解 原諒 饒恕",              # spsruwa 寬恕 / psruwa 使被諒解
+    "傳染 沾到 沾染 感染",              # smru 傳染 / mru 沾到…
+    "滾燙 熱水 燒水 沸騰",              # pkdngdang 使其滾燙 / dngdang 燒水
+    "搬運 扛起 抬起 扛抬 搬走",          # pkudaw 使搬運 / kudaw 抬起或扛起
+    "鄙視 輕看 輕視 看不起",            # snlhkah 鄙視 / lhkah 輕看別人
+    "解開 鬆開 拆開 脫落 卸下",          # lhlahan 解開－鬆開 / lhlah 脫落
+    "下坡 下來 下去 下山",              # pntabuy 一路下坡 / tabuy 下來
+    "養肥 變肥 肥胖 胖子",              # ptbnaw 養肥 / tbnaw 胖子
+    "說服 相信 信服",                  # spsnhiyi 說服 / psnhiyi 使相信
+    "源頭 起源 根本 基礎",              # spusu 源頭、起源 / pusu 主要的，根本的
 ]
 SYN = [s.split() for s in SYN]
 assert all(len(m) >= 2 for s in SYN for m in s), "SYN members must be >= 2 chars"

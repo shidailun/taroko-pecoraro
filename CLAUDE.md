@@ -2265,6 +2265,31 @@ batch; leaving it in would have made a real gain read as a contaminated source.
 +37 values / 64 occ, 0 de-verified, 32 relevelled. DOM 96.2892% → **96.4331%**
 (42,879 / 1,554 / 32), original 96.4325%, 1,967 cards, 0 page errors both modes.
 
+## Fix the glosses before writing the synonyms (batch 150, 2026-08-02)
+
+Twelve more SYN lines, read off the same refused bucket as batch 148's — but
+read AFTER batch 149 gave every root a second gloss, which is the cheap way
+round. 149 removed from that bucket the pairs that were never a synonymy problem
+at all: `tama` was not 上帝 written another way, it was the wrong sense. Had
+these been written first, several would have been synsets papering over a
+wordlist error (犁田 for `paux`, 卵子 for `rusuq`, 人名（女）for `pajiq`) — and a
+synonym table is exactly where that mistake is invisible, because a bad line
+looks like a good one until someone re-reads the source.
+
+**One line can be worth a whole paradigm.** 下坡 下來 下去 下山 cleared
+`tbuyun`, `tbuyan`, `tbuyi`, `ptbuyun`, `ptbuyan`, `ptbuyi` and `tmnabuy` — the
+syncopating `tabuy` 下來 paradigm, refused because he writes its slots 下去－奔下
+and 使下坡. Six of the seven arrive through `syncopated()` rather than
+`regular()`, so a synset pays off in rules far from the one it was written for.
+
+Rules unchanged and still asserted at import: members ≥2 characters, and a line
+groups what is INTERCHANGEABLE, not what is associated. `paux` still refused —
+and the Bible glossary declines to gloss it at all, so nothing has appeared to
+change that reading.
+
++22 values / 34 occ, 0 de-verified, 3 relevelled. DOM 96.4331% → **96.5096%**
+(42,913 / 1,520 / 32), original 96.5082%, 1,967 cards, 0 page errors both modes.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries
