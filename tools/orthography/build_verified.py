@@ -111,6 +111,35 @@ def main():
         seen |= {w for w, c in pq.items() if c >= PQ_MIN}
         print("attested: %d listed + %d from the ILRDF parquets at freq>=%d"
               % (len(lex), len(seen) - len(lex), PQ_MIN))
+
+    # THE TRUKU BIBLE — 175,260 tokens of published modern Truku prose, the
+    # largest body of it that exists. It enters on exactly the parquets' terms
+    # and for the opposite reason. The parquets are gated at freq>=2 because an
+    # ASR hapax is as likely a mis-hearing as a word; the Bible is EDITED and
+    # TYPESET, so a hapax in it is a spelling somebody stood behind. But it is
+    # still a text and not a wordlist, so it widens `seen` and never `lex` —
+    # nothing here becomes a root the analyser may cut a word onto.
+    #
+    # Its glossary is separate and does the same job: 2,035 headwords with
+    # Chinese, 425 of them the modern wordlist has never listed.
+    #
+    # **What was refused alongside it.** The Kaldi decoder lexicon at
+    # C:/dev/ILRDF/kaldi_formosan_250514_Truku/graph/words.txt is 13,351 types
+    # and 2,040 of them are new here — and 1,918 of those 2,040 do not occur in
+    # the parquets at all, because it was built from a dirtier transcript set
+    # than the cleaned datasets. Its new types are `alagn`, `alnag` and `aalng`
+    # for alang, and `amerika`/`amerrika`/`amrika` side by side. A decoding
+    # inventory is not an attestation; it is required to hold every string the
+    # acoustic model might emit. Admitting it would have listed `alagn` as
+    # modern Truku for 25 pale words' worth of credit.
+    for src, why in ((os.path.join(HERE, "bible_truku_freq.json"), "Truku Bible"),
+                     (os.path.join(HERE, "bible_glossary.json"), "Bible glossary")):
+        if not os.path.exists(src):
+            continue
+        d = json.load(io.open(src, encoding="utf-8"))
+        add = set(d) - seen
+        seen |= add
+        print("  + %d types from the %s" % (len(add), why))
     app = read(os.path.join(SITE, "app.js"))
     ov, cl = table(app, "WORD_OVERRIDES"), table(app, "CLITIC_FORMS")
     m = read(os.path.join(SITE, "modern_map.js"))

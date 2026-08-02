@@ -2152,6 +2152,40 @@ right etymology, unreachable evidence: `lita` 一起, `ita`/`ta` 我們 and `nni
 level 3. DOM 95.9519% → **96.0081%** (42,690 / 1,743 / 32), original 96.0055%,
 1,967 cards, 0 page errors both modes. dom138–146 all 0 failures.
 
+## A decoding inventory is not an attestation (batch 147, 2026-08-02)
+
+Two new bodies of Truku turned up on this box. Both were measured; one was let in.
+
+**In — the scripture readers.** `bible-app/src/data/bible_truku_{nt,ot}.json` are
+Kari Pnsdhgan Bgurah / Smudal, 新約選讀 / 舊約選讀: 56 paragraphs, **15,338
+tokens**, 2,058 types, 435 new. Edited and typeset, so unlike an ASR hapax a
+hapax here is a spelling somebody stood behind — it needs no freq gate. Still a
+text, so it widens `seen` and never `lex`.
+
+**Two counting traps in those files.** Each paragraph carries six parallel
+VERSIONS — tgdaya, truku, hh, xz, kjv, gnb — so walking every string in the JSON
+returns **203,648 tokens, of which the Truku is 7.5%**, and offers `put` (79×),
+`trap`, `nay`, `un` as Truku words. Only `paragraphs[].text` is Truku. And the
+title says 選讀: these are selections, not a Bible.
+
+**Out — the Kaldi decoder lexicon**, `kaldi_formosan_250514_Truku/graph/
+words.txt`. 13,351 types, 2,040 new, worth 25 pale words. **1,918 of the 2,040 do
+not occur in the ILRDF parquets at all**, and its new types are `alagn`, `alnag`,
+`aalng` for alang, with `amerika`/`amerrika`/`amrika` side by side. A decoding
+inventory is *required* to hold every string the acoustic model might emit — that
+is its job, and it is the opposite of evidence. Admitting it would have listed
+`alagn` as modern Truku.
+
+**Checked, not assumed.** `dict_truku.json` beside them is 32,208 glossed Truku
+headwords and looks like a major find — it is **100.0% already inside
+`attested_modern.json`**. Its Bible companion yielded one new type. The ILRDF
+Truku dialogues are all eight datasets, in since batch 136 at 361,630 tokens;
+there is no ninth.
+
++11 values / 24 occurrences, 0 de-verified, 26 relevelled upward into `listed`.
+DOM 96.0081% → **96.0621%** (42,714 / 1,719 / 32), original 96.0589%, 1,967
+cards, 0 page errors both modes. dom138–147 all 0 failures.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries
