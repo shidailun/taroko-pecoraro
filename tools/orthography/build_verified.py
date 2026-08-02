@@ -58,6 +58,7 @@ H = os.path.normpath(H)
 SITE = os.path.join(H, "site")
 PAIR = re.compile(r'"((?:[^"\\]|\\.)*)"\s*:\s*"((?:[^"\\]|\\.)*)"')
 PQ_MIN = 2      # ASR hapax is as likely a mis-hearing as a word; see the docstring
+AFFIX_MIN = 400   # see affix(); his six affix letters score 453-3,223, best non-affix 347
 
 
 def read(p):
@@ -100,12 +101,39 @@ def main():
 
     inf = Inflection(lex, mp)
 
+    def affix(p):
+        """An AFFIX LETTER, confirmed the only way an affix can be.
+
+        Twelve of his cards are headed by a single letter — A, D, G, I, K, M,
+        N(1), N(2), O, P, S, T — and they are not word entries at all. They are
+        his short grammars of the particles and of the productive affixes. Six of
+        them rendered PALE while the other five rendered dark, and the split was
+        nobody's judgement: `a`, `i`, `k`, `o` and `t` happen to occur as
+        standalone tokens in a modern source, and no lexicon has a headword `p`.
+        The claim on those cards is `p -> p`, a hand-written identity in
+        WORD_OVERRIDES, so the pale wash was doubting a respelling that does not
+        exist — and doubting it inconsistently across twelve sibling cards.
+
+        An affix cannot be LISTED. It can be attested as a process over words
+        that are: how many modern types are this letter plus another modern type.
+        Measured (affix137.py), his six score 453 (`d`) to 3,223 (`s`), against
+        347 for the best letter that heads no affix card of his (`q`), then 300
+        `h`, 289 `b`. The identity gate is what actually selects — only the six
+        reach this at all — and the threshold is a guard, so that a single-letter
+        override added later cannot inherit the verdict for free.
+        """
+        if len(p) != 1 or ov.get(p) != p:
+            return False
+        return sum(1 for w in lex if len(w) > 1 and w[0] == p
+                   and w[1:] in lex) >= AFFIX_MIN
+
     def word(p):
         """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,
         0.25 a regular inflection of a root vouched that way, 0.125 a slot the
         wordlist writes with two other suffixes, 0.0625 an inflection of a
         listed root that syncopates its own first vowel, 0.03125 an inflection
-        of a root that is itself one step from a glossed one."""
+        of a root that is itself one step from a glossed one, 0.015625 an affix
+        letter."""
         if p in seen:
             return 2
         if inf.regular(p):
@@ -120,6 +148,8 @@ def main():
             return 0.0625
         if inf.chained(p):
             return 0.03125
+        if affix(p):
+            return 0.015625
         return 0
 
     def level(v):
@@ -145,8 +175,10 @@ def main():
     sistr = sorted(v for v in keys if lv[v] == 0.125)
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
     chain = sorted(v for v in keys if lv[v] == 0.03125)
-    good = sorted(listed + infl + vouch + vroot + sistr + syncp + chain)
-    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5, 0.0625: 6, 0.03125: 7}
+    afx = sorted(v for v in keys if lv[v] == 0.015625)
+    good = sorted(listed + infl + vouch + vroot + sistr + syncp + chain + afx)
+    emit = {2: 1, 1: 2, 0.5: 3, 0.25: 4, 0.125: 5, 0.0625: 6, 0.03125: 7,
+            0.015625: 8}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -182,20 +214,26 @@ def main():
         "// stop at the first listed root and ask its gloss, and most of a paradigm\n"
         "// is glossless. Two steps of inference, so the same slot-gloss gate as 4\n"
         "// and 6 — which here refuses every illicit spelling the rule would find.\n"
-        "// app.js paints all seven in the deep brown; a value NOT in here is still\n"
+        "// 8 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
+        "// and are his grammars of the particles and the productive affixes, not\n"
+        "// word entries; their claim is `p` -> `p`, an identity, so there is no\n"
+        "// respelling to doubt. No lexicon lists an affix, so the evidence is that\n"
+        "// it is productive over words the lexicon DOES list.\n"
+        "// app.js paints all eight in the deep brown; a value NOT in here is still\n"
         "// a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(vroot),
-           len(sistr), len(syncp), len(chain)))
+           len(sistr), len(syncp), len(chain), len(afx)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
           "inflected off a vouched root: %d   sister slot: %d   syncopated root: "
-          "%d   chained root: %d   unverified: %d   (of %d distinct)"
+          "%d   chained root: %d   affix letter: %d   unverified: %d   "
+          "(of %d distinct)"
           % (len(listed), len(infl), len(vouch), len(vroot), len(sistr),
-             len(syncp), len(chain), len(keys) - len(good), len(keys)))
+             len(syncp), len(chain), len(afx), len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
 
