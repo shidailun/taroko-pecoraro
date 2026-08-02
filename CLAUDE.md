@@ -61,15 +61,23 @@ the A–Z listing (5,023 rows → **6,021**) and linked from every sentence and 
 `°` line that uses the token. `SLOTS` / `SLOT_KEY` in app.js, built lazily like
 `buildConc`.
 
-- **The label is read off the POSITION, not the suffix.** His five-token `°` lines
-  are AF, citation root, imperative, LF, PF, in that order — measured 321/321 for
-  `-an` at slot 4 and 320/321 for `-un/-on` at slot 5 (`parslot3.py`). The lone
+- **The label is read off the POSITION, not the suffix.** His five-cell `°` lines
+  are AF, citation root, imperative, LF, PF, in that order — measured **380/380**
+  for `-an` at cell 4 and 380/381 for `-un/-on` at cell 5 (`parslot4.py`). The lone
   exception, `Pskingal ° Mpskingal, pskingal, pskngali, pskngalan, pskngalu`, is
   his own truncation and still reads right positionally. That is what rescues the
   syncopated tokens (`d'si`, `pai`) a suffix table can never reach; `SLOT_SUF` is
-  the fallback for lines that are not five tokens, and where neither works the card
-  says "form of X" and claims nothing. Measured on screen: 338 imperative, 336
-  patient focus, 190 locative focus, 88 actor focus, 13 citation, **33 unlabelled**.
+  the fallback for lines that are not five cells, and where neither works the card
+  says "form of X" and claims nothing. Measured on screen: 346 imperative, 337
+  patient focus, 190 locative focus, 102 actor focus, 16 citation, **7 unlabelled**.
+- **A `°` line is cut into CELLS, not into words** (`cells()` in app.js). A token
+  inside brackets is his *second spelling of the same slot* — `plqe (pl'qe)` — and
+  `.?.` is a slot he could not fill, which has to open an empty cell or everything
+  after it shifts left. Reading by token made both of those into new slots, so
+  `Mploq, ploq, plqe (pl'qe), plqan (pl'qan), plqon (pl'qon)` counted eight and
+  forfeited the positional read entirely: 321 five-token lines against **381**
+  five-cell ones, and the invariant is *stronger* on the wider basis, not weaker.
+  Unlabelled cards fell 33 → 7.
 - **It is marked as generated, in the text and in the type.** Every card carries
   "Pecoraro does not define this form; he only lists it" in both languages, the
   gloss is italic (`.gloss.morph`), and the tag is dashed rather than solid. A
@@ -111,6 +119,18 @@ are not paradigm slots. Turning every pale word dark gives 99.928%, so the ceili
 is real; the route to it is that bucket, not the paradigm. Its `roots()` deliberately
 over-generates (each of `aeiou`, plus the `m-`/`-m-` readings) so the small answer is
 a genuine ceiling and not an artifact of the stemming.
+
+**"He used it in a sentence, so make it dark" — priced and rejected too
+(2026-08-02).** It is the one rule that clears the bar: 292 pale types / 767
+occurrences → **95.8529%**. It is still wrong, because it answers a different
+question. `build_verified.py`'s two levels both assert something about the
+**modern** spelling — that the exact string is one of the 40,760 types in
+`attested_modern.json`, or that it is a regular inflection of a listed root whose
+modern gloss agrees with his Chinese. A sentence in the 1977 book attests **his**
+spelling; it cannot confirm ours. `sktama` (11 occurrences, the fourth-heaviest
+such word) is the standing counter-example — he uses it, and nothing in the modern
+lexicon glosses 先父. Pale is not a backlog to be cleared; it is the honest mark on
+a respelling no modern source has confirmed.
 
 ## Display-time typography (2026-07-28)
 
