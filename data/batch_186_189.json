@@ -55,25 +55,25 @@
           ]
         },
         {
-          "form": "Nnalu",
+          "form": "Nmalu",
           "fr": "1) A partir du bien, du beau, du bon ; 2) Bien, bon (dans le passé) ; 3) Parmi ce qui est bon, bien, beau.",
           "en": "1) Starting from what is good, beautiful; 2) Well, good (in the past); 3) Among what is good, well, beautiful.",
           "zh": "1) 從好的、美的、良善的事物而來；2) 好、良善（過去式）；3) 在好的、良善的、美的事物之中。",
           "examples": [
             {
-              "t": "Nnalu s'xiga o, wada naqex dole",
+              "t": "Nmalu s'xiga o, wada naqex dole",
               "fr": "De bien qu'il était hier, le voilà de nouveau mal.",
               "en": "Well as he was yesterday, here he is unwell again.",
               "zh": "他昨天還好好的，如今又不舒服了。"
             },
             {
-              "t": "Kingal so nnalu sadyaq ka iso",
+              "t": "Kingal so nmalu sadyaq ka iso",
               "fr": "Toi tu es l'une parmi les bonnes personnes.",
               "en": "You are one of the good people.",
               "zh": "你是好人之一。"
             },
             {
-              "t": "Nnalu suxal ka xea",
+              "t": "Nmalu suxal ka xea",
               "fr": "Il était bien autrefois.",
               "en": "He was well in the past.",
               "zh": "他從前是好的。"

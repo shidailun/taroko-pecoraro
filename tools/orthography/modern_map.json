@@ -6386,7 +6386,7 @@
    "tier": "M"
   },
   "lmubu": {
-   "modern": "lmubu",
+   "modern": "lmubug",
    "tier": "M"
   },
   "lmui": {
@@ -6754,8 +6754,8 @@
    "tier": "id"
   },
   "lubu": {
-   "modern": "lubu",
-   "tier": "L"
+   "modern": "lubug",
+   "tier": "M"
   },
   "lubui": {
    "modern": "lubuy",
@@ -9510,6 +9510,10 @@
    "modern": "msnegul",
    "tier": "M"
   },
+  "msnulu": {
+   "modern": "msnulug",
+   "tier": "M"
+  },
   "msola": {
    "modern": "mseura",
    "tier": "M"
@@ -10657,6 +10661,10 @@
   "nlutyaq": {
    "modern": "nruciq",
    "tier": "M"
+  },
+  "nmalu": {
+   "modern": "nmalu",
+   "tier": "id"
   },
   "nmaxan": {
    "modern": "nmahan",
@@ -17019,6 +17027,10 @@
    "modern": "snpngan",
    "tier": "id"
   },
+  "snpu": {
+   "modern": "snpug",
+   "tier": "M"
+  },
   "snpusal": {
    "modern": "snpusal",
    "tier": "M"
@@ -20044,8 +20056,8 @@
    "tier": "id"
   },
   "winuk": {
-   "modern": "winuk",
-   "tier": "T"
+   "modern": "hwinuk",
+   "tier": "M"
   },
   "wis": {
    "modern": "wis",
@@ -23153,10 +23165,6 @@
   },
   "msndngux": {
    "modern": "msndngux",
-   "tier": "P"
-  },
-  "msnulu": {
-   "modern": "msnulu",
    "tier": "P"
   },
   "msnxei": {
@@ -26981,10 +26989,6 @@
    "modern": "nahui",
    "tier": "R"
   },
-  "naxon": {
-   "modern": "nahun",
-   "tier": "R"
-  },
   "ndngo": {
    "modern": "ndngu",
    "tier": "R"
@@ -27072,14 +27076,6 @@
   },
   "nnalox": {
    "modern": "nnarux",
-   "tier": "R"
-  },
-  "nnalu": {
-   "modern": "nnalu",
-   "tier": "R"
-  },
-  "nniyax": {
-   "modern": "nniyah",
    "tier": "R"
   },
   "notong": {
@@ -28017,10 +28013,6 @@
   },
   "snpsalun": {
    "modern": "snpsarun",
-   "tier": "R"
-  },
-  "snpu": {
-   "modern": "snpu",
    "tier": "R"
   },
   "snqama": {
@@ -29672,12 +29664,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "langi"
-  },
-  "nllawa": {
-   "modern": "nrrawa",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "llawa"
   },
   "nlmilit": {
    "modern": "nrmirit",

@@ -2712,6 +2712,57 @@ build's.
 
 +6 values / 36 occurrences, 0 de-verified. 96.8784% → **96.9615%**.
 
+## The typewriter's blind spot was position 0 and 1 (batch 160, 2026-08-02)
+
+**The batch that passes 97% is mostly not a spelling-map batch.** Two thirds of
+it is a *transcription* repair, and keeping the layers apart is the point: a map
+entry would leave "original spelling" mode showing a word Pecoraro never printed.
+
+The 1977 typescript prints an `m` the digitization read as `n` — proved by his
+own French, mangled the same way (`nonbreuses`, `Conbien`, `janais`). The sweep
+that finds them ("nothing in modern Truku, but a real word if one `n` is read as
+`m`") had been run with an index guard of `i >= 2`. **That guard hid positions 0
+and 1, which is where the rest of them were.** `knnalu` was repaired at position
+2 long ago; `nnalu`, one letter earlier in the same entry, had never been seen.
+
+**A word-initial `n-` is a real Truku prefix and looks identical, so his French
+is what decides each one.** The discriminator is on the page:
+
+  * `Nngangax` "A partir du fait d'être muet" — `n-` on `ngangah`. **Correct as
+    printed, refused.**
+  * `Nnalu` "A partir du bien … Il était bien autrefois" — `n-` on `malu`, so
+    the *second* letter is the misread m. `nmalu` 原本是好的.
+
+Same formula, opposite verdicts. Repaired: `Nnalu`→`nmalu`, `Nniyax`→`mniyah`
+("qui es venu"), `Nllawa`→`mrrawa` ("chahuter"), `Naxon`→`mahun` ("l'eau pour
+boire"), and two of three `naso`→`masu` ("le millet"). **The third `naso` is his
+分配 root — "Distribue cet argent en trois parts" — so the repair is anchored on
+its two sentences, not on the word.** The C-n- class stays off limits:
+`mnalu`, `snkrawah`, `qnbsranan`, `tnaga` were all offered and all refused,
+because `<n>` perfective and `<m>` actor-focus share a slot.
+
+The map layer adds five. `winuk`→`hwinuk` is **his own cross-reference** — his
+note reads 無疑是 XWINUK 的縮略形式；參 XWINUK, and X is his h. The other four are
+the final-g class already known from 路 `elug` and 餵養 `tabug`, each confirmed
+by HIS Chinese: `snpu`=`snpug` 數過 (his 沒辦法數了), `msnulu`=`msnulug` 恰好
+(his 就在那一刻), `lubu`=`lubug` / `lmubu`=`lmubug` under his LUBU 樂器.
+
+**`psilin` was the sixth, and its refusal is the lesson.** His Psilin sits under
+his own headword SILING, so the ng is his and the argument was sound. But a key
+`psilin`→`psiling` reads to the cross-entry root projection as "append g", and
+it re-applied that to his RAW `psiling` (3×) and `mpsiling` — putting `psilingg`
+and `empsilingg` on the page. It bought 1 dark and cost 4. **A respelling that is
+right about the word can still be wrong about the machine, and only the census
+catches that, never the argument.** Compare batch 155: a gain of the right size
+is not a gain of the right kind. Here it was a *loss* wearing a gain's clothes.
+
+Still refused: `tabu` 5× (homograph — 餵養 and a hardwood share the token, this
+map is token-keyed, same blocker as `bir`) and `tksaw` 5× (his own `Xksao`
+already owns `hksaw`; sending `Tksao` there would erase a distinction he drew).
+
++9 map occurrences / +14 transcription occurrences, 0 de-verified.
+96.9615% → **97.0109%**. Roughly 445 spans to the percent.
+
 ## Deploy
 
 ```powershell

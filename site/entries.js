@@ -23969,7 +23969,7 @@ window.ENTRIES = [
         "zh": "用以維生的－使人得以存活的。",
         "examples": [
           {
-            "t": "Bonga ni naso ka kkudus nami",
+            "t": "Bonga ni maso ka kkudus nami",
             "fr": "Ce sont les patates douces et le millet qui nous aident à vivre.",
             "en": "It is sweet potatoes and millet that help us to live.",
             "zh": "是地瓜和小米幫助我們活下去。",
@@ -26494,14 +26494,14 @@ window.ENTRIES = [
         "zh": "大家一起說話－四處叫喊－起鬨吵鬧。",
         "examples": [
           {
-            "t": "D'xok so ka iso o, asi nllawa kana da",
+            "t": "D'xok so ka iso o, asi mllawa kana da",
             "fr": "A peine tu arrives, les voilà tous dans un grand brouhaha.",
             "en": "No sooner do you arrive than they are all in a great hubbub.",
             "zh": "你才剛到，他們就全都吵成一團了。",
             "a": "ex_d_xok_so_ka_iso_o_asi_nllawa_kana_da"
           },
           {
-            "t": "Ini tdoa nllawa ska sapax ta xdolan nii !",
+            "t": "Ini tdoa mllawa ska sapax ta xdolan nii !",
             "fr": "Il n'est pas permis de chahuter dans ce local où nous offrons des sacrifices (dans cette église).",
             "en": "It is not permitted to make a racket in this place where we offer sacrifices (in this church).",
             "zh": "在這個我們獻祭的場所（在這座教堂裡）不准喧鬧。",
@@ -28706,7 +28706,7 @@ window.ENTRIES = [
         "zh": "帶人去遊蕩－帶人去散步－使人放蕩。",
         "examples": [
           {
-            "t": "Iso bi nanak ka nniyax suxal pligao mnan mkdgiyaq",
+            "t": "Iso bi nanak ka mniyax suxal pligao mnan mkdgiyaq",
             "fr": "C'est bien toi qui es venu autrefois nous faire faire une promenade en montagne!",
             "en": "It was indeed you who came in the past to take us for a walk in the mountains!",
             "zh": "以前就是你來帶我們去山上散步的！",
@@ -33012,7 +33012,7 @@ window.ENTRIES = [
         "zh": "弄髒－攪濁。",
         "examples": [
           {
-            "t": "Ksia naxon ka nii! lalao bi xmut plutyaq!",
+            "t": "Ksia maxon ka nii! lalao bi xmut plutyaq!",
             "fr": "Cette eau est de l'eau pour boire, évite de la salir inconsidérément.",
             "en": "This water is drinking water, avoid dirtying it carelessly.",
             "zh": "這水是飲用水，別隨便把它弄髒。",
@@ -34231,27 +34231,27 @@ window.ENTRIES = [
         ]
       },
       {
-        "form": "Nnalu",
+        "form": "Nmalu",
         "fr": "1) A partir du bien, du beau, du bon ; 2) Bien, bon (dans le passé) ; 3) Parmi ce qui est bon, bien, beau.",
         "en": "1) Starting from what is good, beautiful; 2) Well, good (in the past); 3) Among what is good, well, beautiful.",
         "zh": "1) 從好的、美的、良善的事物而來；2) 好、良善（過去式）；3) 在好的、良善的、美的事物之中。",
         "examples": [
           {
-            "t": "Nnalu s'xiga o, wada naqex dole",
+            "t": "Nmalu s'xiga o, wada naqex dole",
             "fr": "De bien qu'il était hier, le voilà de nouveau mal.",
             "en": "Well as he was yesterday, here he is unwell again.",
             "zh": "他昨天還好好的，如今又不舒服了。",
             "a": "ex_nnalu_s_xiga_o_wada_naqex_dole"
           },
           {
-            "t": "Kingal so nnalu sadyaq ka iso",
+            "t": "Kingal so nmalu sadyaq ka iso",
             "fr": "Toi tu es l'une parmi les bonnes personnes.",
             "en": "You are one of the good people.",
             "zh": "你是好人之一。",
             "a": "ex_kingal_so_nnalu_sadyaq_ka_iso"
           },
           {
-            "t": "Nnalu suxal ka xea",
+            "t": "Nmalu suxal ka xea",
             "fr": "Il était bien autrefois.",
             "en": "He was well in the past.",
             "zh": "他從前是好的。",
@@ -37284,7 +37284,7 @@ window.ENTRIES = [
         "zh": "額外——更多——成為多餘的部分。參見 SNGALI。",
         "examples": [
           {
-            "t": "Wana bi maxal xei sngali ka nniyax",
+            "t": "Wana bi maxal xei sngali ka mniyax",
             "fr": "Il n'y a que dix et quelques personnes qui sont venues.",
             "en": "There are only ten-odd people who came.",
             "zh": "只來了十幾個人。",
@@ -45020,7 +45020,7 @@ window.ENTRIES = [
         "zh": "同上，動詞形。",
         "examples": [
           {
-            "t": "Xbalao bi sadyaq nniyax qmapol xeaan snax ana ino",
+            "t": "Xbalao bi sadyaq mniyax qmapol xeaan snax ana ino",
             "fr": "Ils sont venus nombreux de partout (de nombreuses personnes .. venues de tous les côtés) l'entourer ,",
             "en": "They came in great numbers from everywhere (many people .. come from all sides) to surround him,",
             "zh": "他們從四面八方大批前來（許多人……從各方而來）圍住他，",
@@ -55220,7 +55220,7 @@ window.ENTRIES = [
         "zh": "被慶祝之事；舉辦節慶的時節。",
         "examples": [
           {
-            "t": "Knkingal psmyanan daxa o, ida sinao ka naxon daxa balae =",
+            "t": "Knkingal psmyanan daxa o, ida sinao ka maxon daxa balae =",
             "fr": "A chacune de leurs fêtes, c'est surtout du vin qu'ils boivent.",
             "en": "At each of their festivals, it is above all wine that they drink.",
             "zh": "他們每逢節慶，主要就是喝酒。",
@@ -72730,7 +72730,7 @@ window.ENTRIES = [
             "a": "ex_ini_ta_tdoa_pxnang_lapa_p_lapa_ka_ka_man"
           },
           {
-            "t": "Ya bi nniyax manu pxnang bilat mo suni",
+            "t": "Ya bi mniyax manu pxnang bilat mo suni",
             "fr": "Qu'est-ce qui a bien pu frapper (faire résonner) mes oreilles tout à l'heure ?",
             "en": "What on earth could have struck (made resound in) my ears just now?",
             "zh": "剛才到底是什麼敲響了（使……作響）我的耳朵？",
@@ -75346,7 +75346,7 @@ window.ENTRIES = [
     "zh": "＝南瓜—番瓜……",
     "examples": [
       {
-        "t": "Nnyeqan ta daya o, betak bi naso, bonga, sali, \"baon, blisan ka txnao balae!",
+        "t": "Nnyeqan ta daya o, betak bi maso, bonga, sali, \"baon, blisan ka txnao balae!",
         "fr": "Quand nous étions là-haut (dans notre ancien territoire), nous étions réduits à ne planter que du millet, des patates douces, des taros, des citrouilles, du sorgho !",
         "en": "When we were up there (in our former territory), we were reduced to planting only millet, sweet potatoes, taros, pumpkins, sorghum!",
         "zh": "當我們在上面（在我們的舊領地）時，我們只能種小米、地瓜、芋頭、南瓜、高粱！",
