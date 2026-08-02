@@ -2042,6 +2042,52 @@ is 工作範圍（工作的起點及終點）against his 照計畫、照正常�
 DOM 94.8319% → **94.8859%** (42,191 / 2,242 / 32), original 94.8890%, 1,967
 cards, 0 page errors both modes. `dom143.py` 0 failures; 138–142 all still 0.
 
+## Pale is not a verdict a person's name can shed (batch 144, 2026-08-02) — **95% passed**
+
+The name path had two gates in series and only one was doing the work. `named`
+was the NAME POPULATION — his own `name (m)`/`name (f)` tags plus tier N's
+"capitalized mid-sentence, never lowercase anywhere" — intersected with the
+ILRDF registry. The docstring defended the intersection with the homograph trap
+(`aku`, `taya`, `urang`, `tabu` are somebody's name AND ordinary vocabulary),
+but **those are kept out by the population, which never held them.** The
+registry was answering a second question — "and is this the modern spelling?" —
+that three classes of name can never be asked:
+
+- **Japanese-era loans** `denki` 電気, `banasi` 話, `stbaku` 煙草, `tausen`
+- **place names** `tagahan` (他從Tagarhan出發), `taulan`, `tyakang`
+- **Christian names** `jes` (Jes Cristo — *Notre Seigneur Jésus-Christ*), `maria`,
+  `dcristu`, `yurdan`
+
+No register of Truku **given** names will ever hold one, so requiring one kept
+them pale forever on a test they cannot pass. So the registry now only REPORTS
+(140 of 247 values) and the population is the gate; HAND_NAMES joins it.
+**+82 values / 313 occurrences, 0 de-verified, 0 relevelled.** The heaviest pale
+words in the book were all people: `liwis` 38 (里維斯), `ingay` 24, `lauken` 22,
+`tagahan` 13, `pilin`/`timin` 11.
+
+**What the intersection had been silently filtering, now `HAND_NOT_NAMES` by
+hand** — 16 values, because at midcap=1 tier N's evidence is one capital letter.
+Six are FRENCH out of his own glosses ("Beau père", "1) Grand père", "=
+Grandeur - taille", "Vivant - mobile") and were then run through o>u, which is
+where `cunnaissance` (connaissance) and `ruugeur` (rougeur) come from — **the
+respelling is itself the proof they are not Truku.** `mpa` is his own prefix
+card. The rest are ordinary words wearing one capital: `byeqay` a verb starting
+a sentence, `qlap` an imperative after a semicolon, `yianu` his form label
+*Yiano* "Pour vous", `pnsdahung` a nominalized verb, and four queried variants
+in parentheses (`mnttlaqel`, `mpsqlul`, `tbasyaq`, `tsaleh`). A midcap>=2 floor
+was measured as the alternative and REFUSED — blunt enough to drop `maria`, and
+it keeps `mpa`.
+
+**dom138/139/140's KEEP and MISS sets are superseded, not deleted.** Those
+batches refused to RESPELL a name onto a register entry, and every one of those
+refusals still stands — nobody was renamed and the -Cwi set was never collapsed.
+They are dark now wearing HIS spelling, which is what the refusals protected.
+Each file keeps the assertion inverted as `SUPERSEDED_144`, so a revert shows up.
+
+DOM 94.8859% → **95.5898%** (42,504 / 1,929 / 32), original 95.5852%, 1,967
+cards, 0 page errors both modes. Types: 5,219 dark of 6,566 = 79.485% — the
+token figure is the one the target tracks. dom138–144 all 0 failures.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

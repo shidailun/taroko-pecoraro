@@ -34,6 +34,12 @@ So:
   MISS — `liwis` 38, `ingay` 24, `lauken` 22, `akit` 10 are the heaviest names
          the register does NOT hold. Still pale, and they are the honest answer:
          the outside source was asked and did not know.
+         **SUPERSEDED BY BATCH 144**, which is the answer to "did not know": a
+         register of Truku GIVEN names cannot hold a Japanese loan or a place,
+         so requiring it was a test they could never pass. The population is now
+         the only gate and these four are dark. The assertion below is inverted,
+         not deleted. `eku` and `mici` move out of KEEP with them — both are in
+         HAND_NAMES, named by hand as this page's people.
   FIX  — nine names the register spells differently, applied to `manual_map.json`
          and asserted here in both directions. The rule is stated in that file's
          `_ilrdf_names` key: his form absent from the register, exactly one
@@ -77,17 +83,28 @@ GAIN = {
 # registered name, so it is 2 now. Raised rather than pinned, because the point
 # of the assertion is that every occurrence is dark, not that the count froze.
 
-# registered names that are NOT this page's names — the gate must refuse them
+# registered names that are NOT this page's names — the gate must refuse them.
+# The gate that refuses them is the NAME POPULATION, which is what batch 144
+# kept when it dropped the registry intersection; these are still the homograph
+# class and must still be pale.
 KEEP = {
-    "tabu": 5, "eku": 5, "butang": 3, "urang": 2, "taya": 2, "satu": 2,
-    "nuli": 2, "mici": 2, "iyak": 2, "ayuq": 2, "turu": 1, "tapak": 1,
+    "tabu": 5, "butang": 3, "urang": 2, "taya": 2, "satu": 2,
+    "nuli": 2, "iyak": 2, "ayuq": 2, "turu": 1, "tapak": 1,
     "sugi": 1, "sabung": 1, "muli": 1, "miru": 1, "kuy": 1, "emi": 1,
     "burung": 1, "bulu": 1, "aku": 1,
 }
 
-# his Japanese names, and the four heaviest names the register does not hold
+# his Japanese names
 JP = {"boro": 2, "mori": 1, "xalo": 1}
-MISS = {"liwis": 38, "ingay": 24, "lauken": 22, "akit": 10}
+
+# SUPERSEDED BY BATCH 144. `eku` and `mici` were in KEEP and `liwis`, `ingay`,
+# `lauken`, `akit` in MISS, on the same rule from opposite sides: this batch
+# admitted a name only if the ILRDF registry listed it. Batch 144 dropped that
+# intersection — the registry cannot spell a Japanese loan or a place name, and
+# `eku`/`mici` are in HAND_NAMES, i.e. named by hand as this page's people. The
+# assertion is kept and inverted rather than deleted, so a revert shows up here.
+SUPERSEDED_144 = {"eku": 5, "mici": 2,
+                  "liwis": 38, "ingay": 24, "lauken": 22, "akit": 10}
 
 # the register's own spelling, applied — dark now, and his old form gone
 # `kumu` is 2 because he writes the name twice, `komu` and `komù`, and only the
@@ -135,7 +152,7 @@ with sync_playwright() as p:
     gain = pg.evaluate(SPANS, sorted(GAIN))
     keep = pg.evaluate(SPANS, sorted(KEEP))
     jp = pg.evaluate(SPANS, sorted(JP))
-    miss = pg.evaluate(SPANS, sorted(MISS))
+    sup = pg.evaluate(SPANS, sorted(SUPERSEDED_144))
     fix = pg.evaluate(SPANS, sorted(FIX))
     was = pg.evaluate(SPANS, sorted(WAS))
     b.close()
@@ -143,7 +160,7 @@ with sync_playwright() as p:
 check(gain, GAIN, "dark", "GAIN")
 check(keep, KEEP, "pale", "KEEP")
 check(jp, JP, "pale", "JP")
-check(miss, MISS, "pale", "MISS")
+check(sup, SUPERSEDED_144, "dark", "SUPERSEDED_144")
 check(fix, FIX, "dark", "FIX")
 for w in WAS:
     if was.get(w):
@@ -154,8 +171,8 @@ print("cards %d   page errors %d %s" % (cards, len(errs), errs[:2]))
 print("GAIN %d values / %d occurrences now dark" % (len(GAIN), sum(GAIN.values())))
 print("KEEP %d registered values the gate refuses, still pale (%d occ)"
       % (len(KEEP), sum(KEEP.values())))
-print("JP   %d japanese names untouched   MISS %d unregistered names still pale"
-      % (len(JP), len(MISS)))
+print("JP   %d japanese names untouched   SUPERSEDED_144 %d now dark by name"
+      % (len(JP), len(SUPERSEDED_144)))
 print("FIX  %d respelled from the register / %d occurrences dark, %d old "
       "spellings gone from the page" % (len(FIX), sum(FIX.values()), len(WAS)))
 print("failures: %d" % len(fail))

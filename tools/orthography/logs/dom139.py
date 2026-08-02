@@ -45,9 +45,20 @@ URL = "http://127.0.0.1:8765/?q=%CC%81"
 FIX = {"siring": 1, "yagix": 1}   # dark now
 WAS = ["sering", "yageh"]         # and his old spellings gone from the page
 # the refusals — the composed rules reach these and the type test throws them
-# out, so they are the first thing to fall if that clause is ever dropped
-KEEP = {"miheng": 1, "hane": 1, "lubaq": 3,
-        "pirin": 3, "arin": 2, "apin": 1, "liwis": 38, "akit": 10, "atwi": 8}
+# out, so they are the first thing to fall if that clause is ever dropped.
+#
+# SUPERSEDED BY BATCH 144, entirely. This batch's refusals were refusals to
+# RESPELL a name from the register — the type test asks whether a 男名 may be
+# respelled onto a 女名 — and every one of them stands: not one of these nine
+# was renamed. What batch 144 changed is a different question, whether a name
+# needs a register entry at all to shed the pale wash, and the answer is no,
+# because a Japanese loan or a place name can never have one. So they are dark
+# now with HIS OWN spelling, which is what the refusal protected. Kept and
+# inverted rather than deleted, so a revert of 144 shows up here.
+KEEP = {}
+SUPERSEDED_144 = {"miheng": 1, "hane": 1, "lubaq": 3,
+                  "pirin": 3, "arin": 2, "apin": 1, "liwis": 38, "akit": 10,
+                  "atwi": 8}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -86,11 +97,11 @@ with sync_playwright() as p:
       return r; }""")
     fix = pg.evaluate(SPANS, sorted(FIX))
     was = pg.evaluate(SPANS, sorted(WAS))
-    keep = pg.evaluate(SPANS, sorted(KEEP))
+    sup = pg.evaluate(SPANS, sorted(SUPERSEDED_144))
     b.close()
 
 check(fix, FIX, "dark", "FIX")
-check(keep, KEEP, "pale", "KEEP")
+check(sup, SUPERSEDED_144, "dark", "SUPERSEDED_144")
 for w in WAS:
     if was.get(w):
         fail.append("WAS %s: his old spelling still on the page as %s" % (w, was[w]))
@@ -99,8 +110,8 @@ tot = sum(tally.values())
 print("cards %d   page errors %d %s" % (cards, len(errs), errs[:2]))
 print("dark %d  pale %d  green %d   dark %.4f%%"
       % (tally["dark"], tally["pale"], tally["green"], 100.0 * tally["dark"] / tot))
-print("FIX %d dark, %d old spelling gone   KEEP %d values still pale (%d occ)"
-      % (len(FIX), len(WAS), len(KEEP), sum(KEEP.values())))
+print("FIX %d dark, %d old spelling gone   SUPERSEDED_144 %d dark, %d occ"
+      % (len(FIX), len(WAS), len(SUPERSEDED_144), sum(SUPERSEDED_144.values())))
 print("failures: %d" % len(fail))
 for f in fail:
     print("   " + f)

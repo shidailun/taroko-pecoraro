@@ -54,11 +54,20 @@ FIX = {"buhin": 1, "kadu": 1, "kunung": 1, "pihang": 1, "qapi": 2,
 # SIDWI/SIPWI collapse, where nothing outside the guess says so.
 WAS = ["buin", "dadu", "kuhung", "piheng", "qepi", "syubaw", "tibi", "unaq",
        "hatsu"]
-# refused, and each for a different reason the docstring gives
-KEEP = {"hane": 1, "lubaq": 3,          # no tag of his — tier N off capitals
-        "miheng": 1,                    # his name (f), Mihing is 男名
-        "ingay": 24, "akit": 10,        # no agreeing name / six of them
-        "atwi": 8, "apwi": 4, "sidwi": 1, "sipwi": 2}   # the -Cwi set
+# refused, and each for a different reason the docstring gives.
+#
+# SUPERSEDED BY BATCH 144, entirely, and in the same way as dom139's KEEP: every
+# refusal here was a refusal to RESPELL one of these onto a register name, and
+# every one still stands — none was renamed, and the -Cwi set was never
+# collapsed. Batch 144 answered the other question, whether a name needs a
+# register entry to shed the pale wash, with no. They are dark now wearing HIS
+# spelling, which is exactly what these refusals were protecting. Kept and
+# inverted rather than deleted, so a revert of 144 shows up here.
+KEEP = {}
+SUPERSEDED_144 = {"hane": 1, "lubaq": 3,    # no tag of his — tier N off capitals
+                  "miheng": 1,              # his name (f), Mihing is 男名
+                  "ingay": 24, "akit": 10,  # no agreeing name / six of them
+                  "atwi": 8, "apwi": 4, "sidwi": 1, "sipwi": 2}  # the -Cwi set
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -97,11 +106,11 @@ with sync_playwright() as p:
       return r; }""")
     fix = pg.evaluate(SPANS, sorted(FIX))
     was = pg.evaluate(SPANS, sorted(WAS))
-    keep = pg.evaluate(SPANS, sorted(KEEP))
+    sup = pg.evaluate(SPANS, sorted(SUPERSEDED_144))
     b.close()
 
 check(fix, FIX, "dark", "FIX")
-check(keep, KEEP, "pale", "KEEP")
+check(sup, SUPERSEDED_144, "dark", "SUPERSEDED_144")
 for w in WAS:
     if w in FIX:
         continue        # `qepi` and `tibi` are his token AND were his value
@@ -112,8 +121,8 @@ tot = sum(tally.values())
 print("cards %d   page errors %d %s" % (cards, len(errs), errs[:2]))
 print("dark %d  pale %d  green %d   dark %.4f%%"
       % (tally["dark"], tally["pale"], tally["green"], 100.0 * tally["dark"] / tot))
-print("FIX %d names dark (%d occ)   KEEP %d refusals still pale (%d occ)"
-      % (len(FIX), sum(FIX.values()), len(KEEP), sum(KEEP.values())))
+print("FIX %d names dark (%d occ)   SUPERSEDED_144 %d dark (%d occ)"
+      % (len(FIX), sum(FIX.values()), len(SUPERSEDED_144), sum(SUPERSEDED_144.values())))
 print("failures: %d" % len(fail))
 for f in fail:
     print("   " + f)

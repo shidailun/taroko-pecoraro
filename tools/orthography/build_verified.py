@@ -73,7 +73,7 @@ of the two levels.
 Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
-from inflection import Inflection
+from inflection import HAND_NAMES, HAND_NOT_NAMES, Inflection
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 H = os.path.normpath(H)
@@ -117,21 +117,37 @@ def main():
     a = m.index("window.MODERN_MAP = {") + len("window.MODERN_MAP = ")
     mp = json.loads(m[a:m.index("\n};", a) + 2])
 
-    # The name registry, gated to the name population — see the docstring. Like
-    # the parquets it widens `seen` and never `lex`: a name is not a root, and
-    # handing 1,792 of them to the affix analyser as lexemes is the same mistake
-    # that re-cut `spsangay` onto `sang`.
+    # The NAME POPULATION — see the docstring. Like the parquets it widens
+    # `seen` and never `lex`: a name is not a root, and handing names to the
+    # affix analyser as lexemes is the same mistake that re-cut `spsangay` onto
+    # `sang`.
+    #
+    # Batch 144 drops the `& reg` intersection that used to stand here, and the
+    # registry now only REPORTS. The gate that matters is the population, and it
+    # always was: `aku`, `taya`, `urang`, `tabu` are kept out because they are
+    # not in the population, not because the registry refused them. Asking the
+    # registry a second question — "and is this the modern spelling?" — is a
+    # test three whole classes of name can never pass, because no register of
+    # Truku given names will ever hold `denki` 電気, `banasi` 話, `stbaku` 煙草,
+    # the place name `tagahan`, or `dcristu`. Their modern spelling comes from
+    # the same o>u, x>h rules that spell every other word on this page, and the
+    # claim being made about a population token IS "this is how the name is
+    # written". HAND_NAMES joins it: those are names reached only through an
+    # example sentence, so his tagger never saw them and tier N never fired.
     nf = os.path.join(HERE, "ilrdf_names.json")
     pf = os.path.join(HERE, "name_population.json")
-    if os.path.exists(nf) and os.path.exists(pf):
-        reg = {n.strip().lower()
-               for n in json.load(io.open(nf, encoding="utf-8"))["太魯閣族"]}
+    if os.path.exists(pf):
         pop = set(json.load(io.open(pf, encoding="utf-8")))
         named = {v for v in (mp.get(t) for t in pop) if v} | \
                 {ov[t] for t in pop if t in ov}
-        named = {v.strip().lower() for v in named} & reg
-        print("names: %d registered Truku names, %d of the %d values the name "
-              "population puts on screen" % (len(reg), len(named), len(pop)))
+        named = ({v.strip().lower() for v in named} | set(HAND_NAMES)) \
+                - HAND_NOT_NAMES
+        if os.path.exists(nf):
+            R = json.load(io.open(nf, encoding="utf-8"))
+            reg = {n.strip().lower() for s in R.values() for n in s}
+            print("names: %d values from the %d-token name population + %d "
+                  "hand-ruled; %d of them the ILRDF registry also lists"
+                  % (len(named), len(pop), len(HAND_NAMES), len(named & reg)))
         seen |= named
 
     # Every value a brown span can display. CLITIC_FORMS hands the word back

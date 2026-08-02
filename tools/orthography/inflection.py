@@ -242,6 +242,37 @@ stbaku mici dcristu tensu semento kodyo kaityo diko diku cristo yordan xelyo
 xatso xaibyo tanso tenso tagahan murisaka mkmurisaka sitang efunang aman atwi
 atuh denki banasi otun utun taolan taulan""".split()
 
+# Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
+# tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
+# at midcap=1 is a single capital letter, as likely to be sentence-initial or a
+# heading as a person. While the population was intersected with the ILRDF
+# registry that cost nothing, because none of these is a Truku given name.
+# Ungated, they are what comes in with the names, and they are read one by one:
+#
+#   grand grandeur beau vivant   FRENCH, out of his own glosses — "Beau père",
+#   cunnaissance ruugeur         "1) Grand père", "= Grandeur - taille",
+#                                "Vivant - mobile". Then respelled by the o>u
+#                                rules, which is where `ruugeur` (rougeur) and
+#                                `cunnaissance` (connaissance) come from — the
+#                                spelling is the proof they are not Truku.
+#   mpa                          his own PREFIX card: "Ce préfixe composé MPA".
+#   byeqay   Byeqai nako munan "J'aimerais bien vous donner" — a verb, first
+#            word of the sentence.
+#   qlap     Qlap ! "attrape-le !" — an imperative after a semicolon.
+#   yianu    his own sub-form label `Yiano` "Pour vous - à vous", a pronoun.
+#   mnttlaqel  Mntlaqel (Mnttlaqel?) — a queried variant in parentheses.
+#   mpsqlul    Mpsklol (Mpsq'lol ?) kia! — the same, 翻動 to stir.
+#   tbasyaq    tibasyaq (Tbasyaq) — the same.
+#   tsaleh     "(= Ts'alex) Misanthrope - pas sociable" — the same.
+#   yiyah      iyax daxa ( Yiyax daxa) — the same.
+#   pnsdahung  ka Pnsdaxong dq'las laqe mo "the one who caused those bruises" —
+#              a nominalized verb, and his own headword sense 造成瘀傷.
+#
+# `takux` and `mpsklul`'s neighbours are NOT here: TAKOX is a card of his own
+# headed `"tag": "name (m)"`, which is the strong half of the population.
+HAND_NOT_NAMES = set("""beau byeqay cunnaissance grand grandeur mnttlaqel mpa
+mpsqlul pnsdahung qlap ruugeur tbasyaq tsaleh vivant yianu yiyah""".split())
+
 # Read one by one out of vouched()'s whole output — 56 values, which is small
 # enough to check by hand and too important not to. Two survived the gloss gate
 # on a character that is doing no work:
