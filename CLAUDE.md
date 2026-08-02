@@ -1982,6 +1982,37 @@ ptbgi qnriqani smbrinah spqnaqih spqpah sruciqun trgrig`). DOM 94.7037% →
 94.7934%, 1,967 cards, 0 page errors in both. `dom141.py` 0 failures;
 `dom138.py`, `dom139.py`, `dom140.py` all still 0.
 
+## 大 and 小 are meanings, and STOP had swallowed them (batch 142, 2026-08-02)
+
+`STOP` states its own test in its first line — "characters that carry no
+meaning on their own, so sharing one is not agreement" — and then lists **大 and
+小** among the pronouns and particles. Big and small are meanings. They were
+swept in with the function words and then silently refused the two adjectives a
+Formosan wordlist glosses most often: `paru` IS 大的 and `bilaq` IS 小, so his
+使自己變小者 could not agree with 小 and `msbilaq` stayed pale.
+
+Measured alone: **+10 values, 0 de-verified, 0 relevelled**. Eight are his own
+word for big or small (`mkparu` 長大 / `paru` 大的, `msbilaq` 使自己變小 / `bilaq`
+小, `tbilaq` 確實小, `skparu` 用以使…長大, `psblaqan`/`psblaqi` 使之變小, `knblaqan`
+渺小 through the syncopated `bilaq`, `empsparu`). Two are coincidences, pinned in
+the new `HAND_NOT_REGULAR`: `knslaan` 饑餓虛脫 against `sla` **大**外衣, and
+`mkpakaw` 位於荊棘叢中的 against `pak`+`-aw` 老鷹抓**小**雞的動作 — whose RIGHT root
+is sitting beside it, `pakaw` 有刺的野草, his gloss exactly, sharing no character
+with him at all. That is the whole reason `_agrees` is a proxy and not a
+measure.
+
+**人 was tested identically and REFUSED**, though it fails the same "carries
+meaning" test. In these two wordlists it is overwhelmingly a FRAME — 使人X "make
+someone X", X的人, the agent nominalizer — and dropping it buys 9 of which the
+first read is the proof: `pngraq` 使人變傻 agreeing with `ngraq` 比女**人**陰蒂的手勢.
+上 likewise: +13, but `mtama` 當**上**父親的人 agrees with `tama` **上**帝 on a verbal
+complement, and it would have let `mttama`/`tmtama` back in through a second
+door batch 141 had just shut. 下 and 中 alone buy nothing at all.
+
+DOM 94.7892% → **94.8319%** (42,167 / 2,266 / 32), original 94.8356%, 1,967
+cards, 0 page errors both modes. `dom142.py` 0 failures; 138/139/140/141 all
+still 0.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

@@ -191,7 +191,26 @@ def glide_ok(root, sf):
 # 沒 joined them in batch 116, beside the 不 that was here from the start: it is
 # a negation and carries no more sense than one. `tatuk` 什麼都沒有 was verifying
 # his `ttoqe` 敲打 on the 沒 of 我沒碰撞瓶子.
-STOP = set("的了是我你他她們個很不一有在要中上下大小人這那和與或也就都再又只之"
+#
+# 大 and 小 LEFT in batch 142, and they never belonged: the test this list
+# states is "carries no meaning on its own", and big and small are meanings.
+# They were swept in with the function words and then silently refused the two
+# adjectives a Formosan wordlist glosses most often — `paru` IS 大的 and `bilaq`
+# IS 小 — so his 使自己變小者 could not agree with 小. Measured alone: +10 values,
+# 0 de-verified, 0 relevelled, of which 8 are his own word for big or small
+# (`mkparu` 長大, `msbilaq` 使自己變小, `tbilaq` 確實小, `skparu` 用以使…長大) and
+# 2 are coincidences pinned below.
+#
+# 人 was tested the same way in the same batch and REFUSED, though it fails the
+# same "carries meaning" test: in these two wordlists it is overwhelmingly a
+# FRAME rather than a word — 使人X "make someone X" and X的人 "one who Xs", the
+# agent nominalizer. Dropping it buys 9 and the first one read is the proof:
+# `pngraq` 使人變傻 "make a fool of someone" agreeing with `ngraq` 比女人陰蒂的手勢
+# on the 人 of 女人. 上 likewise (+13, but `mtama` 當上父親的人 agreeing with
+# `tama` 上帝 on the 上 of a verbal complement, and it would let `mttama` and
+# `tmtama` back in through a second door the batch before had just shut).
+# 下 and 中 alone buy nothing at all and are left where they are.
+STOP = set("的了是我你他她們個很不一有在要中上下人這那和與或也就都再又只之"
            "為所以及者其於由對從把被讓使做作用能會可時樣事物子已沒")
 
 # Both wordlists talk ABOUT words, and that metalanguage is not meaning: his
@@ -297,6 +316,19 @@ HAND_NOT_ROOTED = set(
 # character that IS a word.
 HAND_NOT_UNGLOSSED = set(
     "psqpahan psqpahi psqpahun mttama tmtama mrbuq".split())
+
+# The two coincidences 大/小 let into regular() when they left STOP in batch
+# 142. Both are the same shape as the six above — the shared character is real
+# but the pairing is nonsense — except that here the character IS a word, which
+# is why nothing but a hand reading catches them.
+#   knslaan  his 饑餓虛脫－精疲力竭, hunger and exhaustion, against `sla` 大外衣, a
+#            large outer garment. Nothing in common but the 大.
+#   mkpakaw  his 位於荊棘叢中的, in the thorn thicket, against `pak`+`-aw`
+#            老鷹抓小雞的動作, the hawk-and-chicks game, on the 小 of 小雞. The
+#            RIGHT root is sitting beside it — `pakaw` 有刺的野草, the thorny weed,
+#            his gloss exactly — and shares no character with him at all, which
+#            is the whole reason `_agrees` is a proxy and not a measure.
+HAND_NOT_REGULAR = set("knslaan mkpakaw".split())
 
 # sistered()'s whole output read the same way — batch 115. The rule reads no
 # gloss at all, so the way it goes wrong is the homonym: his word is a
@@ -470,7 +502,7 @@ class Inflection(object):
     def regular(self, v):
         """(root, prefix, suffix, slot, the character the two glosses share),
         or None. Picks the analysis with the least affixation."""
-        if v in self.frozen:
+        if v in self.frozen or v in HAND_NOT_REGULAR:
             return None
         his = self._his(v)
         best = None
