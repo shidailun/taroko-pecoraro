@@ -15746,13 +15746,21 @@
    "modern": "siqa",
    "tier": "id"
   },
+  "sisan": {
+   "modern": "siisan",
+   "tier": "M"
+  },
   "sisi": {
-   "modern": "sisi",
-   "tier": "id"
+   "modern": "siisi",
+   "tier": "M"
   },
   "sisil": {
    "modern": "sisil",
    "tier": "id"
+  },
+  "sisun": {
+   "modern": "siisun",
+   "tier": "M"
   },
   "sixal": {
    "modern": "sixal",
@@ -16858,6 +16866,10 @@
   "snii": {
    "modern": "snii",
    "tier": "id"
+  },
+  "snisan": {
+   "modern": "sniisan",
+   "tier": "M"
   },
   "sniyuk": {
    "modern": "sniyuk",
@@ -24384,8 +24396,16 @@
    "modern": "psilung",
    "tier": "P"
   },
+  "psisan": {
+   "modern": "psiisan",
+   "tier": "P"
+  },
   "psisi": {
-   "modern": "psisi",
+   "modern": "psiisi",
+   "tier": "P"
+  },
+  "psisun": {
+   "modern": "psiisun",
    "tier": "P"
   },
   "psk'lol": {
@@ -27587,14 +27607,6 @@
    "modern": "psdhriqun",
    "tier": "R"
   },
-  "psisan": {
-   "modern": "psisan",
-   "tier": "R"
-  },
-  "psisun": {
-   "modern": "psisun",
-   "tier": "R"
-  },
   "pskl'tun": {
    "modern": "pskrtun",
    "tier": "R"
@@ -27887,14 +27899,6 @@
    "modern": "siri",
    "tier": "R"
   },
-  "sisan": {
-   "modern": "sisan",
-   "tier": "R"
-  },
-  "sisun": {
-   "modern": "sisun",
-   "tier": "R"
-  },
   "skhuan": {
    "modern": "skhuan",
    "tier": "R"
@@ -27975,10 +27979,6 @@
   },
   "sninao": {
    "modern": "sninaw",
-   "tier": "R"
-  },
-  "snisan": {
-   "modern": "snisan",
    "tier": "R"
   },
   "sniso": {

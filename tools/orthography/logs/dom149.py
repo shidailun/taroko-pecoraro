@@ -92,7 +92,13 @@ GAIN = {
 # dom147's `mskingal` did. The other five stay, and `kpaux` is why the bar is
 # where it is: it carries only ONE of his glosses, so only `mspaux` answers
 # for it, and one single-character voice is not enough.
-PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "sisun": 5, "knslaan": 2}
+# `sisun` WAS pinned here and is not any more, and it did not come down to a
+# rule. A Truku speaker read it: `sisi` is the strainer, and his sew paradigm
+# is siisi / siisan / siisun / sniisan, the long vowel his typewriter never
+# wrote. Every rule that refused this family was RIGHT to — on his spelling the
+# only glossed neighbour really was the wine-strainer — and no amount of
+# further inference was going to fix a spelling. See logs/dom153.py.
+PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 
 # The ten that widening no_chinese()'s candidate filter would have cost. They
 # are dark today by the wordlist gloss alone; a change that makes that rule less

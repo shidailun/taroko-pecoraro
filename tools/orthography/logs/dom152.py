@@ -42,8 +42,15 @@ his SISUN 縫, and until now the answer was always that the value never arrives:
 `sisi` HAS a gloss, 用來濾酒的工具 the wine strainer, so rule 2 reads it and
 refuses it. This rule is the first that fires precisely BECAUSE the gloss
 disagrees, so `sisun` arrives, is asked, and is refused on its merits — not one
-inflection of `sisi` in the wordlist agrees with 縫 either. `outvoted("sisun")`
-returns None.
+inflection of `sisi` in the wordlist agrees with 縫 either.
+
+**Written the same day a speaker dissolved the trap, and the two results
+belong together.** His sew paradigm is siisi / siisan / siisun / sniisan (see
+logs/dom153.py): there was never anything here for a rule to find, because the
+word was misspelled and no amount of inference repairs a spelling. Seven
+batches of rules each declined to force it, and each was right to. **The value
+of a refusal is not that it is eventually rewarded — it is that the thing it
+refused stayed refused until someone who knew could say so.**
 
 **Thirteen roots, all hand-read.** Two are worth naming beside `paux`. `qdriq`
 is right for a reason the rule never sees: his 逃跑的人 — 逃走 is not the
@@ -77,7 +84,13 @@ GAIN = {
 # only one of his glosses and so hear only one supporter. `knslaan` is still
 # hand-refused. If `kpaux` ever goes dark without the bar being argued down in
 # writing, the second-voice requirement has been lost.
-PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "sisun": 5, "knslaan": 2}
+# `sisun` WAS pinned here and is not any more, and it did not come down to a
+# rule. A Truku speaker read it: `sisi` is the strainer, and his sew paradigm
+# is siisi / siisan / siisun / sniisan, the long vowel his typewriter never
+# wrote. Every rule that refused this family was RIGHT to — on his spelling the
+# only glossed neighbour really was the wine-strainer — and no amount of
+# further inference was going to fix a spelling. See logs/dom153.py.
+PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 
 # The coincidences the bar cost, asserted unpaid. Every one of these has a root
 # whose paradigm agrees with his Chinese on ONE character, and every one of
@@ -136,21 +149,12 @@ check(gain, GAIN, "dark", "GAIN")
 check(pin, PIN, "pale", "PIN")
 check(coin, COINCIDENCE, "pale", "COINCIDENCE")
 
-# The rule is asked about `sisun` directly, not merely kept away from it.
-sys.path.insert(0, __file__.rsplit("logs", 1)[0])
-import io as _io
-import json as _json
-import re as _re
-from inflection import Inflection
-_lex = set(_json.load(_io.open(__file__.rsplit("logs", 1)[0] + "attested_modern.json",
-                               encoding="utf-8")))
-_mp = dict(_re.findall(
-    r'"([^"]+)"\s*:\s*"([^"]*)"',
-    _io.open(__file__.rsplit("tools", 1)[0] + "site/modern_map.js",
-             encoding="utf-8").read()))
-_inf = Inflection(_lex, _mp)
-if _inf.outvoted("sisun") is not None:
-    fail.append("SISUN: outvoted() now fires on `sisun` — the trap is open")
+# The live `outvoted("sisun")` check this file was written with has moved to
+# logs/dom153.py, and not because it stopped passing. `sisun` is no longer a
+# modern value at all — a speaker ruled the same day that his sew paradigm is
+# siisi / siisan / siisun / sniisan — so the check would now pass vacuously,
+# on a string nothing maps to, and a vacuous assertion is worse than none.
+# dom153 asserts the thing that is actually true.
 
 tot = sum(tally.values())
 pct = 100.0 * tally["dark"] / tot

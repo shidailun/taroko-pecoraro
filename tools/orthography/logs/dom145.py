@@ -102,8 +102,14 @@ GAIN = {
 # HAND_NOT_NC, and `sisun` with them. The six are pinned by hand; `sisun` is
 # pinned by the RULE — the entry condition refuses it because he glossed it —
 # and it is here because it is what this rule would have to break to be wrong.
+# `sisun` WAS pinned here and is not any more, and it did not come down to a
+# rule. A Truku speaker read it: `sisi` is the strainer, and his sew paradigm
+# is siisi / siisan / siisun / sniisan, the long vowel his typewriter never
+# wrote. Every rule that refused this family was RIGHT to — on his spelling the
+# only glossed neighbour really was the wine-strainer — and no amount of
+# further inference was going to fix a spelling. See logs/dom153.py.
 PIN = {"slungan": 2, "drnai": 1, "ggitan": 1, "empslangan": 1, "mtgtmaq": 1,
-       "narung": 1, "sisun": 5}
+       "narung": 1}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
