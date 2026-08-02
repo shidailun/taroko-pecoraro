@@ -2186,6 +2186,42 @@ there is no ninth.
 DOM 96.0081% → **96.0621%** (42,714 / 1,719 / 32), original 96.0589%, 1,967
 cards, 0 page errors both modes. dom138–147 all 0 failures.
 
+## 房子 and 家 are the same thing and share no character (batch 148, 2026-08-02)
+
+`_agrees` tests sameness of meaning by shared bigram, then shared character.
+**That is a proxy, and the codebase already said so** — in the note refusing
+`mkpakaw`: the right root `pakaw` 有刺的野草 is "his gloss exactly — and shares
+no character with him at all, which is the whole reason `_agrees` is a proxy and
+not a measure."
+
+432 pale values / 742 occ were refused by that proxy, and they fail the same way
+over and over: 房子 vs 住屋；家, 不容易 vs 困難的, 取代 vs 頂替－繼承, 不露面 vs
+躲藏, 去警戒 vs 守衛們——守望者們.
+
+**SYN** — a third tier in `_agrees`: 26 hand-written lines of Chinese
+expressions that name one concept, each read off an actual refused pair and
+carrying it in a comment.
+
+**Every member is ≥ 2 characters, asserted at import.** STOP's lesson again: 一
+is in STOP because it is inside everything, so `kingal` 一個 could never reach
+SNKINGAL 單一的; two-character 一個/單一/一次 give that back without the bare 一,
+and 家 stays out while 住屋 and 房子 work — one-character 家 matches inside 大家,
+國家, 家人 and hands the rule a SISUN.
+
+**A line groups what is INTERCHANGEABLE, not what is associated.** `paux` 犁田 vs
+his KPAUX 翻轉 is the most expensive line NOT written — 15 occ across KMPAUX,
+KPAUX, KPAUXI, PAUXUN, PKPAUX. Ploughing does turn soil; 犁田 and 翻轉 are still
+not the same word, and "related if you think about it" is what SISUN punishes.
+
+**15 of the 50 hits were unpredicted, and all 15 read correct by hand** —
+`mkingal` 僅僅一次 off `kingal`, `skkuyuh` 亡妻 off `kuyuh` 太太, `prbung` 使埋葬
+and `mrbung` 設下陷阱 off one `rbung` 深坑 (why the pit gets two lines: a grave is
+not a snare even though the hole is), the `sblus` 變淡 family, and
+`traqil`/`mtraqil` via `vouched_root`. `mkpakaw` came OUT of HAND_NOT_REGULAR.
+
++50 values / 101 occ, 0 de-verified, 2 relevelled. DOM 96.0621% → **96.2892%**
+(42,815 / 1,618 / 32), original 96.2858%, 1,967 cards, 0 page errors both modes.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

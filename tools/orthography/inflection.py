@@ -384,7 +384,97 @@ HAND_NOT_UNGLOSSED = set(
 #            RIGHT root is sitting beside it — `pakaw` 有刺的野草, the thorny weed,
 #            his gloss exactly — and shares no character with him at all, which
 #            is the whole reason `_agrees` is a proxy and not a measure.
-HAND_NOT_REGULAR = set("knslaan mkpakaw".split())
+HAND_NOT_REGULAR = set("knslaan".split())
+
+# ---- SYNONYMY, the third tier of _agrees [batch 148] ----------------------
+# `mkpakaw` came off the line above to sit here instead, because the note that
+# refused it states this batch's premise outright: the right root `pakaw`
+# 有刺的野草 is "his gloss exactly — and shares no character with him at all,
+# which is the whole reason `_agrees` is a proxy and not a measure."
+#
+# Character overlap is a proxy for sameness of MEANING, and Chinese lets you
+# write one meaning two ways with nothing in common. 房子 and 家 are the same
+# thing and share nothing; so are 不容易 and 困難, 取代 and 頂替, 不露面 and
+# 躲藏, 警戒 and 守衛. Every one of those pairs is sitting in this dictionary
+# with his gloss on one side and the modern wordlist's on the other, and 432
+# well-formed inflections were pale because of it.
+#
+# So a third tier, after the bigram and the character: a hand-written table of
+# Chinese expressions that name ONE concept. It is a table and not a measure —
+# every line was read off an actual refused pair and says which one.
+#
+# **Every member is at least two characters, and that is the guard, not a
+# style.** It is STOP's lesson in another form. 一 is in STOP because it is in
+# everything, which is why `kingal` 一個 could never reach his 單一的; the
+# two-character 一個/單一/一次 give that back without giving back the bare 一,
+# and 家 stays out while 住屋 and 房子 do the work. A one-character member
+# would match inside 大家, 國家, 家人 and hand this rule the SISUN failure.
+#
+# A line groups expressions that are interchangeable, not merely associated.
+# `paux` 犁田 against his KPAUX 翻轉 is NOT here and is worth 15 occurrences:
+# ploughing does turn the soil over, but 犁田 and 翻轉 are not the same word,
+# and "related if you think about it" is exactly the reasoning SISUN punishes.
+SYN = [
+    # 房子 / 家 — `sapah` 住屋；家/戶家 against his EMPASAPAH 將會變成房子.
+    "房子 住屋 家屋 房屋",
+    # `kuyuh` 女性;女人;太太;婦女 against his EMPAKUYUH 將成為妻子.
+    "妻子 太太 婦女 女人 女性",
+    # `riqu` 不容易 against his MKRIQU 困難的－複雜的.
+    "困難 不容易 難處",
+    # `ririh` 取代 against his RNIRIH 頂替……的位置－繼承.
+    "取代 頂替 代替 繼承 接替",
+    # `liing` 不露面 against his MTLIING 採取行動躲藏－處於隱蔽的位置.
+    "躲藏 隱蔽 不露面 隱藏 藏匿",
+    # `gdadak` 去警戒 against his DMPGDADAK 守衛們——守望者們.
+    "守衛 守望 警戒 看守 站崗",
+    # `rbnaw` 嬰孩 against his MRBNAW 柔嫩、年幼、未成熟者.
+    "嬰孩 年幼 幼小 柔嫩 幼兒",
+    # `biyax` 力量 against his DMBIYAX 壯年人的群體，正值壯年者.
+    "壯年 力量 強壯 有力",
+    # `kingal` 一個；一頂 against his SNKINGAL 單一的——單層的——一次的 and
+    # MSKINGAL 同心協力—團結—合而為一. See the two-character rule above.
+    "單一 一個 一次 合而為一 團結 專一",
+    # `keeman` 夜晚；午夜/晚上 and `kman` 晚上 against his 變暗－處於黑暗中的,
+    # 天將黑, 將被遮暗、變得昏暗.
+    "黑暗 變暗 昏暗 天黑 夜晚 晚上 午夜 遮暗",
+    # `kuwax` 挪開 against his MKUWAX 退避者－遠離者 and PKUWAX 使遠離－驅趕.
+    "挪開 遠離 退避 驅趕 走開",
+    # `rbung` 深坑, the covered pit. Two lines, not one: he uses it for the
+    # burial (MTRBUNG 被掩埋、覆蓋、埋葬者) and for the deadfall (MKRBUNG 設下
+    # 陷阱－張設圈套), and a grave is not a snare even though the hole is.
+    "深坑 掩埋 埋葬 覆蓋",
+    "深坑 陷阱 圈套",
+    # `trbuq` 形容坑洞深 against his TRBUQI 凹陷者－挖掘－挖出凹穴.
+    "坑洞 凹穴 凹陷 挖掘",
+    # `pkrdax` 使有光 and `rdax` 光線 against his 天將亮 and 想要照亮.
+    "光線 有光 明亮 照亮 天亮 發亮",
+    # `sblus` 不鹹;不甜 against his PSBLUS 使變淡－去除味道.
+    "變淡 不鹹 不甜 清淡",
+    # `kbuyu` 都是草叢 against his PKBUYU 使荒蕪——遮蔭.
+    "草叢 荒蕪 雜草",
+    # `cipiq` 不多 and `nbilaq` 原來小的 against his 每次一點點 and 一次一點點.
+    "一點點 不多 小的 少許 一小份",
+    # `tgxal` 團聚、相聚 against his STGXAL 為了成為同伴、夥伴 and KMTGXAL
+    # 想與……組隊.
+    "團聚 相聚 同伴 夥伴 組隊",
+    # `qrngul` 空氣汙染 against his MQRNGUL 多煙的——被煙燻滿的.
+    "多煙 煙燻 冒煙 空氣汙染",
+    # `luan` 教…省點用 against his NLUAN 被存起來的—積蓄.
+    "積蓄 省點 省下 存起",
+    # `shmu` 小便 against his SHMUAN 尿桶（廁所）－排尿的器官.
+    "小便 排尿 尿桶 小解",
+    # `qdqut` 鍊條;鐵鍊 against his QDQUTAN 束縛 — 鐐銬 — 桎梏.
+    "鍊條 鐵鍊 鐐銬 捆綁 束縛",
+    # `squwaq` 吵鬧 against his MSQUWAQ 愛說話的人－愛閒聊的人.
+    "吵鬧 愛說話 閒聊 多話",
+    # `lhlih` 欺侮 against his LHLIHAN 誹謗——希望某人遭殃——傷害某人.
+    "欺侮 誹謗 傷害 欺負",
+    # `pakaw` 有刺的野草 against his MKPAKAW 位於荊棘叢中的 — the case that
+    # named this batch.
+    "荊棘 有刺 刺人",
+]
+SYN = [s.split() for s in SYN]
+assert all(len(m) >= 2 for s in SYN for m in s), "SYN members must be >= 2 chars"
 
 # sistered()'s whole output read the same way — batch 115. The rule reads no
 # gloss at all, so the way it goes wrong is the homonym: his word is a
@@ -504,6 +594,23 @@ class Inflection(object):
             return sorted(h2 & r2)[0]
         if h1 & r1:
             return sorted(h1 & r1)[0]
+        return self._syn(his_zhs, rg)
+
+    @staticmethod
+    def _syn(his_zhs, rg):
+        """The SYN table — one concept written two ways. See SYN's note.
+
+        The metalanguage goes first, for the same reason `_chars` excises it:
+        「同上之動詞形」is about a word, not a meaning, and a synset member
+        hiding inside it would be an agreement about nothing.
+        """
+        hz = "".join("".join(BOILER.split(z)) for z in his_zhs)
+        rz = "".join("".join(BOILER.split(z)) for z in rg)
+        for s in SYN:
+            a = [m for m in s if m in hz]
+            b = [m for m in s if m in rz]
+            if a and b:
+                return "%s=%s" % (a[0], b[0])
         return None
 
     # ---- the paradigm ------------------------------------------------------
