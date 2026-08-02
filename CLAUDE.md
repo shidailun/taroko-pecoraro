@@ -2123,6 +2123,35 @@ under GIGIT 糾纏; `empslangan` ← `langu` 湖 under his headword SLANGAN 鏽�
 **95.9519%** (42,665 / 1,768 / 32), original 95.9455%, 1,967 cards, 0 page
 errors both modes. dom138–145 all 0 failures.
 
+## The floor that hid vouched()'s own example (batch 146, 2026-08-02) — **96% passed**
+
+`vouched()`'s docstring opens with `xal`: citation form 0×, his note
+從未見過此簡單形式, and `pxal` 147× plus five more supporters. **`xal` is three
+letters**, so `len(v) < 4` refused it on the first line. So did `niq` 存在－居住,
+`rut` 重壓於上, `hdu` 完成, `yup` 吹, `pru` 引起傳染, and `muk` — whose card asks
+「這會不會是以下詞的詞根：SMUK…G'MUK 蓋子」and whose question the modern wordlist
+answers with nine supporters.
+
+The floor was borrowed reasoning. Elsewhere it guards a root found INSIDE a
+longer string; in `vouched()` the root is the whole word and supporters are
+built by affixing it, so over-generation is what `len(set(d.values())) >= 2`
+already refuses. What a short root costs is anchoring, so the floor became a
+tightening: **below four letters the agreement must come from a SLOT gloss** —
+Chinese he attached to the word as a word — the gate `vouched_root`,
+`syncopated` and `chained` already take.
+
+The gate keeps `rih` out (agreed with `krih` only on the 工作 of a sentence about
+throwing money away) and **`nta`**, the largest pale word on the page at 20.
+His NTA is **n- on the two-letter `ta` 我們, the frame of `lita` = l- + `ita`** —
+right etymology, unreachable evidence: `lita` 一起, `ita`/`ta` 我們 and `nnita`
+咱們的 are all in the modern wordlist and `nta` is in none of it, nor once in
+361,630 parquet tokens. Klokah has it in **都達賽德克語 (Toda, d=15)** —
+*Muray ku da, nta tuhuy mkan idaw pa!* — a sister dialect, not a Truku spelling.
+
++7 values / 25 occurrences, 0 de-verified, 0 relevelled, all at the existing
+level 3. DOM 95.9519% → **96.0081%** (42,690 / 1,743 / 32), original 96.0055%,
+1,967 cards, 0 page errors both modes. dom138–146 all 0 failures.
+
 ## Tier X — lexical substitution, shown in brackets (2026-07-29)
 
 Sometimes his word is simply gone from the language and a different word carries

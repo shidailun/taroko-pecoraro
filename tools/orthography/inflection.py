@@ -695,15 +695,36 @@ class Inflection(object):
         `biyaw` 109×, `sbiyaw` 281×, `nbiyaw` 快速樣子 and `pbiyi`, which are
         the paradigm of `biyaw` 快 — the word his sentence actually uses
         (你的傷口很快就會痊癒), and now what the map says for `biyo`.
+
+        [batch 146] THE FOUR-LETTER FLOOR MADE THIS DOCSTRING'S OWN EXAMPLE
+        UNREACHABLE. `xal` is three letters, so `len(v) < 4` refused it before
+        anything above was ever asked, and so were `niq` 存在－居住, `rut`
+        重壓於上, `hdu` 完成, `yup` 吹, `pru` 引起傳染 and `muk` — every one of
+        them a root his book says is a root and the modern wordlist writes an
+        entire paradigm of.
+
+        The floor is borrowed reasoning. Everywhere else it guards a root found
+        INSIDE a longer string, where three letters are inside everything; here
+        the root is the whole word and the supporters are built by affixing it,
+        so the shape can only over-generate the way `len(set(d.values())) >= 2`
+        already refuses. What a shorter root does cost is anchoring, so at three
+        letters the gloss must be his STRONGEST kind — Chinese he attached to
+        the word as a word, never an example sentence, the same tightening
+        vouched_root(), syncopated() and chained() take for the same reason.
+        `rih` and `nta` are what that gate is for: `rih` 幾乎－接近 agreed with
+        `krih` only on the 工作 of a sentence about throwing money away, and
+        `nta` 邀請前往 only through `ptntun`, which is not its paradigm at all —
+        his NTA is n- on the two-letter `ta` 我們, the frame of `lita`, and two
+        letters is below any floor this book can honestly set.
         """
-        if v in self.frozen or v in HAND_NOT_VOUCHED or len(v) < 4 or v in self.lex:
+        if v in self.frozen or v in HAND_NOT_VOUCHED or len(v) < 3 or v in self.lex:
             return None
         d = self.derived(v)
         if len(set(d.values())) < 2:
             return None
         if not v.endswith(VSUF) and not any(w[2] for w in d.values()):
             return None
-        his = self._his(v)
+        his = self._his(v, slots_only=len(v) < 4)
         for w in sorted(d, key=lambda w: (len(w), w)):
             sh = self._agrees(his, w)
             if sh:
