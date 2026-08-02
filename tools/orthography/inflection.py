@@ -105,7 +105,12 @@ PRE = ["", "m", "em", "n", "mn", "p", "pn", "s", "sn", "sp", "spn", "ps", "psn",
        "mq", "kns", "tmn", "gmn", "mtg", "mpt", "empt", "empk", "emps",
        "tm", "tmg", "tk", "kmp", "mkm", "mkn", "msn", "nk", "ns",
        "pnk", "pns", "psk", "snk", "sns", "dm", "qn",
-       "empa", "pkp", "spk", "sps", "npk", "dmp", "emb"]
+       "empa", "pkp", "spk", "sps", "npk", "dmp", "emb",
+       # Batch 157. Priced the way the note above demands: 0 re-cuts, 0 roots
+       # stolen, and it buys nothing by itself — it exists so `tqliwaq`
+       # 發光的；閃耀的 can be a SUPPORTER in derived(), the exact parallel of
+       # `mq`, which has been legal since 128 and yields `mqliwaq`.
+       "tq"]
 # [batch 130] SUF had never been priced. Adding each candidate alone and reading
 # the re-cut column refuses nearly all of them, and refuses the biggest number in
 # the batch: `n` bought 10 types / 23 occurrences and took `mkmisan` off `misan`
@@ -474,7 +479,10 @@ SYN = [
     # `trbuq` 形容坑洞深 against his TRBUQI 凹陷者－挖掘－挖出凹穴.
     "坑洞 凹穴 凹陷 挖掘",
     # `pkrdax` 使有光 and `rdax` 光線 against his 天將亮 and 想要照亮.
-    "光線 有光 明亮 照亮 天亮 發亮",
+    # Batch 157 widened this line by three. His `pkliwaq` 使其變得明亮 and the
+    # glossary's `tqliwaq` 發光的；閃耀的 name one thing and share no character
+    # at all, so the tier below could not see between them.
+    "光線 有光 明亮 照亮 天亮 發亮 發光 閃耀 閃光",
     # `sblus` 不鹹;不甜 against his PSBLUS 使變淡－去除味道.
     "變淡 不鹹 不甜 清淡",
     # `kbuyu` 都是草叢 against his PKBUYU 使荒蕪——遮蔭.

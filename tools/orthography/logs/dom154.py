@@ -33,7 +33,10 @@ whose `pliwaq` carries two of his glosses — 使人去驅趕 and 使發亮 — 
 root the wordlist glosses 化妝/銀. dom152 named `liwaq` as a coincidence "on 發亮
 for a root glossed 化妝", and that reading was right about the sense it looked
 at; the 趕 sense is a different pair of supporters and a different claim. Its
-`pkliwaq`, `skliwaq` and `spkliwaq` are still pale.
+`pkliwaq`, `skliwaq` and `spkliwaq` were still pale here and went dark in batch
+157, when the 發亮 sense found two supporters of its own. Both readings were
+true of the evidence in front of them and both were partial: the root carries
+both senses, and it took three batches to see either.
 
 Also in: `qaya` 工具;財物 outvoted by `qmaya` 阻礙 and `smqaya` 妨礙 for his
 使其成為障礙; `griq` 扭曲的話 by three inflections all reading 轉; `huriq`
@@ -70,9 +73,16 @@ GAIN = {
 # are the load-bearing assertion in this file. If they ever go dark without the
 # supporter requirement being argued down in writing, the correction has been
 # read as a licence to widen rather than as a fix to a miscount.
+# `pkliwaq`, `skliwaq` and `spkliwaq` were on this list and are dark as of batch
+# 157. **The supporter bar was met, not lowered** — which is the condition the
+# comment above has always attached to their leaving it. Two voices now answer
+# his 使其變得明亮: the glossary's `tqliwaq` 發光的；閃耀的, reachable since `tq`
+# joined PRE, and `qnliwaq` 其閃電的光閃光, which was reachable all along and
+# shared no character with him because 明亮 and 閃光 are the same thing written
+# differently. One prefix and three SYN members, priced at 0 re-cuts. The five
+# left here are still one voice on one fragment and are still pale.
 COINCIDENCE = {
-    "ptaril": 3, "ppungu": 2, "pkliwaq": 2, "skliwaq": 2, "spkliwaq": 2,
-    "ssiyang": 2, "emptaril": 1, "emppungu": 1,
+    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emptaril": 1, "emppungu": 1,
 }
 
 # The two hand pins. `tnbusan`'s answer is right and its argument is a particle;

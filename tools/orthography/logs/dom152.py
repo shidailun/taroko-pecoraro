@@ -114,10 +114,19 @@ PIN = {"kpaux": 3, "kpauxi": 2, "pauxun": 2, "knslaan": 2}
 # the docstring above ("more than half of what the rule earned") was measured
 # against the inflated list and is withdrawn; the honest figure is 15
 # occurrences, and the `liwaq` reading there is right about 發亮 and blind to
-# the 趕 sense that `pliwaq` also carries.
+# the 趕 sense that `pliwaq` also carries. Blind to the 發亮 sense too, as it
+# turned out: batch 157 found two supporters for it. The honest figure for
+# what this bar cost is 9 occurrences.
+# `pkliwaq`, `skliwaq` and `spkliwaq` were on this list and are dark as of batch
+# 157. **The supporter bar was met, not lowered** — which is the condition this
+# comment has always attached to their leaving it. Two voices now answer his
+# 使其變得明亮: the glossary's `tqliwaq` 發光的；閃耀的, reachable since `tq`
+# joined PRE, and `qnliwaq` 其閃電的光閃光, which was reachable all along and
+# shared no character with him because 明亮 and 閃光 are the same thing written
+# differently. One prefix and three SYN members, priced at 0 re-cuts. The five
+# left here are still one voice on one fragment and are still pale.
 COINCIDENCE = {
-    "ptaril": 3, "ppungu": 2, "pkliwaq": 2, "skliwaq": 2, "spkliwaq": 2,
-    "ssiyang": 2, "emptaril": 1, "emppungu": 1,
+    "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emptaril": 1, "emppungu": 1,
 }
 
 SPANS = """(ws) => { const r = {};
