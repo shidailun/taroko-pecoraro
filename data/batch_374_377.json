@@ -1,5 +1,8 @@
 {
-  "pages": [374, 377],
+  "pages": [
+    374,
+    377
+  ],
   "leadin": null,
   "entries": [
     {
@@ -768,7 +771,7 @@
               "zh": "你的父親過世了。"
             },
             {
-              "t": "Ida ta mxoqel kana! =",
+              "t": "Ida ta mxoqel kana!",
               "fr": "",
               "en": "",
               "zh": ""

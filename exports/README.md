@@ -16,11 +16,11 @@ on `site/` at port 8765.
 
 **A sentence is `deliverable` when every Truku span in it is confirmed.** That is
 the same test behind the project metric, so this export and the metric agree by
-construction: **4,950 deliverable**.
+construction: **4,951 deliverable**.
 
 ## Files
 
-- **`mt_deliverable.tsv`** — the 4,950 fully-confirmed pairs, `truku ⇥ zh ⇥ en ⇥ fr ⇥ headword`.
+- **`mt_deliverable.tsv`** — the 4,951 fully-confirmed pairs, `truku ⇥ zh ⇥ en ⇥ fr ⇥ headword`.
   This is the file to train or translate from.
 - **`mt_sentences.jsonl`** — all 5,437 examples, one JSON object per line, with
   `deliverable`, per-token `tokens[{w,c}]` (`c` = `d`/`p`/`g`), and the

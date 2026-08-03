@@ -29864,7 +29864,7 @@ window.ENTRIES = [
     "zh": "瘦－消瘦。",
     "examples": [
       {
-        "t": "Pax liwang nia ka klaon mo rinalox na",
+        "t": "Pax liwang nia ka klaon mo mnalox na",
         "fr": "C'est en regardant sa maigreur que je reconnais sa maladie.",
         "en": "It is by looking at his thinness that I recognize his illness.",
         "zh": "我是看他消瘦才認出他生病了。"
@@ -54801,21 +54801,21 @@ window.ENTRIES = [
         "zh": "同上，動詞形。",
         "examples": [
           {
-            "t": "Q'loq kana dqalas so ! Slösi (sl'si) xan =",
+            "t": "Q'loq kana dqalas so ! Slösi (sl'si) xan",
             "fr": "Tu as la figure pleine de suie! Essuie la donc !",
             "en": "Your face is covered in soot! So wipe it off!",
             "zh": "你滿臉都是煤灰！快擦掉吧！",
             "a": "ex_q_loq_kana_dqalas_so_sl_si_sl_si_xan"
           },
           {
-            "t": "Sl'sun mo nanak ka sxnoan laqe mo =",
+            "t": "Sl'sun mo nanak ka sxnoan laqe mo",
             "fr": "Je veux bien l'éponger toute seule le pipi de mon petit.",
             "en": "I'm quite willing to mop up my little one's pee all by myself.",
             "zh": "我願意自己一個人擦掉我孩子的尿。",
             "a": "ex_sl_sun_mo_nanak_ka_sxnoan_laqe_mo"
           },
           {
-            "t": "Ngusul kana muxeng so ! Sl'si binao ! =",
+            "t": "Ngusul kana muxeng so ! Sl'si binao !",
             "fr": "Tu as le nez plein de nique! Mouche toi un peu !",
             "en": "Your nose is full of snot! Blow it a bit!",
             "zh": "你鼻子都是鼻涕！擤一擤吧！",
@@ -54830,7 +54830,7 @@ window.ENTRIES = [
         "zh": "擦除；被擦掉、被擦拭之物。",
         "examples": [
           {
-            "t": "Ndoa xali,o ! Adi sl'san ka nii! =",
+            "t": "Ndoa xali,o ! Adi sl'san ka nii!",
             "fr": "Sois un peu sérieux! Cela (ce que tu as fait) ce n'est pas essuyer !",
             "en": "Be a bit serious! That (what you did) is not wiping!",
             "zh": "認真一點！你做的這個根本不算擦拭！",
@@ -54872,14 +54872,14 @@ window.ENTRIES = [
         "zh": "鬆的；不太緊、不太繃的。",
         "examples": [
           {
-            "t": "Msloxao balae ka bnkiyan so pongo nii (vl. ..ka pngoan so nii) =",
+            "t": "Msloxao balae ka bnkiyan so pongo nii (vl. ..ka pngoan so nii)",
             "fr": "Il n'est pas serré du tout le noeud que tu as fait.",
             "en": "The knot you made isn't tight at all.",
             "zh": "你打的這個結一點都不緊。",
             "a": "ex_msloxao_balae_ka_bnkiyan_so_pongo_nii_vl"
           },
           {
-            "t": "Sai mita ka kating s\"gulan adi msloxao xo =",
+            "t": "Sai mita ka kating s\"gulan adi msloxao xo",
             "fr": "Va voir si le lien (qui attache le) du buffle n'est pas défait.",
             "en": "Go and see whether the tether (that ties) the buffalo hasn't come loose.",
             "zh": "去看看綁水牛的繩子有沒有鬆掉。",
@@ -54895,14 +54895,14 @@ window.ENTRIES = [
         "zh": "放鬆；鬆開；解開。（註：PSLOXAO 的這些衍生形與 PSLIXAO（＝照鏡子！）的衍生形之間可能有歧義；參見 LIXAO。）",
         "examples": [
           {
-            "t": "Tbsq'lun sako kia ! Pslxagi tityex ka gasil so! =",
+            "t": "Tbsq'lun sako kia ! Pslxagi tityex ka gasil so!",
             "fr": "Tu vas n'étrangler ! Desserre donc un peu ta corde !",
             "en": "You're going to strangle me! So loosen your rope a bit!",
             "zh": "你要把我勒死了！把你的繩子鬆開一點吧！",
             "a": "ex_tbsq_lun_sako_kia_pslxagi_tityex_ka_gasi"
           },
           {
-            "t": "Adi mo bi d'xkon (d'xqon) psloxao ka pngoan so da! =",
+            "t": "Adi mo bi d'xkon (d'xqon) psloxao ka pngoan so da!",
             "fr": "Je n'arriverai vraiment pas à défaire le noeud que tu as fait !",
             "en": "I really won't manage to undo the knot you've made!",
             "zh": "我實在解不開你打的這個結！",
@@ -54917,7 +54917,7 @@ window.ENTRIES = [
         "zh": "鬆弛、鬆開的狀態（性質）。",
         "examples": [
           {
-            "t": "Ntaan mo ka knslxagan gasil so do., =",
+            "t": "Ntaan mo ka knslxagan gasil so do.,",
             "fr": "Quand j'ai vu combien ta corde était lâche...",
             "en": "When I saw how loose your rope was...",
             "zh": "當我看到你的繩子有多鬆時……",
@@ -54942,14 +54942,14 @@ window.ENTRIES = [
         "zh": "黏著於……的；緊密貼附於……的；緊靠著……的。",
         "examples": [
           {
-            "t": "Soqe bi ms'lut sapax xpuyan ka \"bi lodoç so =",
+            "t": "Soqe bi ms'lut sapax xpuyan ka \"bi lodoç so",
             "fr": "Ton poulailler est vraiment trop collé à la cuisine.",
             "en": "Your henhouse is really stuck too close to the kitchen.",
             "zh": "你的雞舍實在太貼近廚房了。",
             "a": "ex_soqe_bi_ms_lut_sapax_xpuyan_ka_bi_lodo_s"
           },
           {
-            "t": "Mslut bi baga ka xlama =",
+            "t": "Mslut bi baga ka xlama",
             "fr": "Le gâteau de riz gluant se colle facilement aux mains.",
             "en": "Glutinous rice cake sticks easily to the hands.",
             "zh": "糯米糕很容易黏手。",
@@ -54964,7 +54964,7 @@ window.ENTRIES = [
         "zh": "使黏附於；使貼合於。",
         "examples": [
           {
-            "t": "Manu bi ka saon so pslut daolas ka sapax so ? =",
+            "t": "Manu bi ka saon so pslut daolas ka sapax so ?",
             "fr": "Qu'est-ce qui te prend de vouloir aller coller ta maison aux rochers (à la falaise).",
             "en": "What's got into you, wanting to go and stick your house to the rocks (to the cliff)?",
             "zh": "你是怎麼了，竟想把你的房子貼在岩石（懸崖）上。",
@@ -54979,7 +54979,7 @@ window.ENTRIES = [
         "zh": "黏附；被黏合之物。",
         "examples": [
           {
-            "t": "Wada mo sl'dan bi sapax paro ka \"bi mo tlmaan =",
+            "t": "Wada mo sl'dan bi sapax paro ka \"bi mo tlmaan",
             "fr": "J'ai parfaitement joint ma salle de bain à la maison principale.",
             "en": "I have joined my bathroom perfectly to the main house.",
             "zh": "我把我的浴室完美地接合到主屋上了。",
@@ -55004,14 +55004,14 @@ window.ENTRIES = [
         "zh": "舔。",
         "examples": [
           {
-            "t": "Diyax diyax sml'xeq pusu qouni ka mlmilit , kia ka balae bi skliwang dxeaan =",
+            "t": "Diyax diyax sml'xeq pusu qouni ka mlmilit , kia ka balae bi skliwang dxeaan",
             "fr": "Jour après jours les chèvres passent leur temps à lécher les troncs d'arbres; C'est bien cela qui les fait maigrir.",
             "en": "Day after day the goats spend their time licking tree trunks; that is exactly what makes them thin.",
             "zh": "山羊日復一日地舔樹幹，這正是牠們變瘦的原因。",
             "a": "ex_diyax_diyax_sml_xeq_pusu_qouni_ka_mlmili"
           },
           {
-            "t": "K'la bi kia ka slx'qon na kddiyax =",
+            "t": "K'la bi kia ka slx'qon na kddiyax",
             "fr": "C'est donc cela qu'il lèche tous les jours !",
             "en": "So that's what it licks every day!",
             "zh": "原來牠每天舔的就是這個！",
@@ -55037,21 +55037,21 @@ window.ENTRIES = [
         "zh": "浪費；濫用；違犯。",
         "examples": [
           {
-            "t": "Gnl'buk tama so nanak ka pila nii! Adi bi slyeqon ! =",
+            "t": "Gnl'buk tama so nanak ka pila nii! Adi bi slyeqon !",
             "fr": "Cet argent est le fruit de la fatigue de ton propre père! Il n'est pas à gaspiller !",
             "en": "This money is the fruit of your own father's toil! It's not to be wasted!",
             "zh": "這筆錢是你父親辛勞的成果！不可以浪費！",
             "a": "ex_gnl_buk_tama_so_nanak_ka_pila_nii_adi_bi"
           },
           {
-            "t": "Sm'lyeq bi ggaya ka lqlaqe ta sayang =",
+            "t": "Sm'lyeq bi ggaya ka lqlaqe ta sayang",
             "fr": "La génération actuelle (Ceux d'aujourd'hui qui sont plus jeunes que nous) viole facilement les coutumes (=les lois, les tabous)",
             "en": "The present generation (those younger than us today) readily violates the customs (= the laws, the taboos).",
             "zh": "當今這一代（今日比我們年輕的人）很容易違犯習俗（＝律法、禁忌）。",
             "a": "ex_sm_lyeq_bi_ggaya_ka_lqlaqe_ta_sayang"
           },
           {
-            "t": "Sn'lyeq (smalyeq ?) tunux =",
+            "t": "Sn'lyeq (smalyeq ?) tunux",
             "fr": "Couper la tête à quelqu'un.",
             "en": "To cut off someone's head.",
             "zh": "砍某人的頭。",
@@ -55066,7 +55066,7 @@ window.ENTRIES = [
         "zh": "揮霍者；浪費者。",
         "examples": [
           {
-            "t": "Ya bi byeqe lqean ka pila! Pusu bi ms'lyeq pila ka xea =",
+            "t": "Ya bi byeqe lqean ka pila! Pusu bi ms'lyeq pila ka xea",
             "fr": "Ne donne pas l'argent à ton fils; il est champion pour gaspiller l'argent.",
             "en": "Don't give money to your son; he's a champion at wasting money.",
             "zh": "別給你兒子錢；他是揮霍金錢的能手。",
@@ -55081,7 +55081,7 @@ window.ENTRIES = [
         "zh": "浪費；違犯；被浪費之物。",
         "examples": [
           {
-            "t": "Nasi wana pila ka slyeqan so o, na, malu xali! =",
+            "t": "Nasi wana pila ka slyeqan so o, na, malu xali!",
             "fr": "Si tu ne faisais que gaspiller de l'argent, ce serait un moindre mal !",
             "en": "If you were only wasting money, that would be the lesser evil!",
             "zh": "如果你只是浪費錢，那還算是小事！",
@@ -55096,7 +55096,7 @@ window.ENTRIES = [
         "zh": "（強烈程度的）違犯、浪費。",
         "examples": [
           {
-            "t": "Ongat pndkaan ka knslyeqan na gaya =",
+            "t": "Ongat pndkaan ka knslyeqan na gaya",
             "fr": "C'est d'une façon incomparable qu'il viole les lois (les coutumes).",
             "en": "It is in an incomparable way that he violates the laws (the customs).",
             "zh": "他違犯律法（習俗）的程度無與倫比。",
@@ -55112,7 +55112,7 @@ window.ENTRIES = [
         "zh": "（這是否是 SM'LYEQ 的變形？）參見 GMALYEQ。",
         "examples": [
           {
-            "t": "Gn'lyeq mo ka Iboq=",
+            "t": "Gn'lyeq mo ka Iboq",
             "fr": "Iboq est celui que j'ai décapité.",
             "en": "Iboq is the one I beheaded.",
             "zh": "Iboq 就是我砍頭的那個人。",
@@ -55137,14 +55137,14 @@ window.ENTRIES = [
         "zh": "憂心的；勤奮的。",
         "examples": [
           {
-            "t": "Tai binao: Tama so ni yako o, msmai nami bi miing sunan =",
+            "t": "Tai binao: Tama so ni yako o, msmai nami bi miing sunan",
             "fr": "Regarde un peu! Ton père et moi nous te cherchons tout-angoissés.",
             "en": "Look here! Your father and I have been searching for you full of anguish.",
             "zh": "你看！你父親和我一直焦急地找你。",
             "a": "ex_tai_binao_tama_so_ni_yako_o_msmai_nami_b"
           },
           {
-            "t": "Ana nami nsmai bi kingal labe ini nami angal ana manu =",
+            "t": "Ana nami nsmai bi kingal labe ini nami angal ana manu",
             "fr": "Nous avons pourtant peiné (fait tous les efforts possibles) toute une nuit mais nous n'avons absolument rien pris (à la chasse ou à la pêche).",
             "en": "Yet we toiled (made every possible effort) all night long, but we caught absolutely nothing (hunting or fishing).",
             "zh": "我們整夜辛勤努力（盡了一切努力），卻什麼都沒抓到（打獵或捕魚）。",
@@ -55159,7 +55159,7 @@ window.ENTRIES = [
         "zh": "勤奮的強度；傷腦筋之事。",
         "examples": [
           {
-            "t": "Adi xmut ka knsmayan daxa =",
+            "t": "Adi xmut ka knsmayan daxa",
             "fr": "Ils n'ont pas été avares dans les efforts qu'ils ont mis en oeuvre.",
             "en": "They were not sparing in the efforts they put in.",
             "zh": "他們在付出的努力上毫不吝惜。",
@@ -55184,7 +55184,7 @@ window.ENTRIES = [
         "zh": "慶祝；舉辦節慶；過節。",
         "examples": [
           {
-            "t": "Ida mluxai psmiyan diyax ktiyan ka dxea =",
+            "t": "Ida mluxai psmiyan diyax ktiyan ka dxea",
             "fr": "Ils sont habitués à faire une fête pour la moisson.",
             "en": "They are used to holding a festival for the harvest.",
             "zh": "他們習慣為收割舉辦節慶。",
@@ -55199,7 +55199,7 @@ window.ENTRIES = [
         "zh": "被慶祝之事；舉辦節慶的時節。",
         "examples": [
           {
-            "t": "Knkingal psmyanan daxa o, ida sinao ka maxon daxa balae =",
+            "t": "Knkingal psmyanan daxa o, ida sinao ka maxon daxa balae",
             "fr": "A chacune de leurs fêtes, c'est surtout du vin qu'ils boivent.",
             "en": "At each of their festivals, it is above all wine that they drink.",
             "zh": "他們每逢節慶，主要就是喝酒。"
@@ -55217,7 +55217,7 @@ window.ENTRIES = [
     "zh": "盼望……的到來；等待。",
     "examples": [
       {
-        "t": "Smiyax nami bi sunan =",
+        "t": "Smiyax nami bi sunan",
         "fr": "Nous t'attendons de tout coeur.",
         "en": "We await you with all our heart.",
         "zh": "我們全心全意地等你。",
@@ -55232,7 +55232,7 @@ window.ENTRIES = [
         "zh": "等待的時期。",
         "examples": [
           {
-            "t": "Pax skawas ka smyaxan namo Psagan, msa ka bnxangan kari o, adi Ingai ka balae bi smyaxon namo ? =",
+            "t": "Pax skawas ka smyaxan namo Psagan, msa ka bnxangan kari o, adi Ingai ka balae bi smyaxon namo ?",
             "fr": "D'après ce que j'ai entendu dire, c'est depuis l'an passé que vous osperez la venue de Pissao; (mais) n'est-ce pas Ingai que vous attendez, en fait?",
             "en": "From what I have heard said, it is since last year that you have been hoping for Pissao's coming; (but) isn't it Ingai that you are actually waiting for?",
             "zh": "據我所聽說的，你們從去年就盼望 Pissao 的到來；（但）你們其實等的不是 Ingai 嗎？",
@@ -55247,7 +55247,7 @@ window.ENTRIES = [
         "zh": "使某人被期待、被盼望。",
         "examples": [
           {
-            "t": "Adi namo balae bi psmiyax ldanan namo xo? =",
+            "t": "Adi namo balae bi psmiyax ldanan namo xo?",
             "fr": "Est-ce que vraiment vous faites en sorte que vos parents viennent (= est-ce que vous désirez vraiment leur venue ?).",
             "en": "Do you really see to it that your parents come (= do you really desire their coming?)?",
             "zh": "你們真的有讓你們的父母前來嗎（＝你們真的盼望他們來嗎？）。",
@@ -55286,7 +55286,7 @@ window.ENTRIES = [
         "zh": "已道別；已陪走了一段路。",
         "examples": [
           {
-            "t": "Mxa ko snkawai (snkawai ?) llisao pnax alang daxa =",
+            "t": "Mxa ko snkawai (snkawai ?) llisao pnax alang daxa",
             "fr": "Je vais faire un bout d'accompagnement aux jeunes gens venus d'ailleurs.",
             "en": "I'm going to accompany part of the way the young people who came from elsewhere.",
             "zh": "我要陪從外地來的年輕人走一段路。",
@@ -55315,7 +55315,7 @@ window.ENTRIES = [
     "zh": "獲得（？）；決定；落到誰身上。",
     "examples": [
       {
-        "t": "Spngao ta otoç (vl. spngao ta lqti) kketa ta (qqeta ta) ima ka sn\"lu kmpaxan nii ! =",
+        "t": "Spngao ta otoç (vl. spngao ta lqti) kketa ta (qqeta ta) ima ka sn\"lu kmpaxan nii !",
         "fr": "Tirons au sort (vl. à la courte paille) pour savoir qui obtiendra ce champ. VR. \"LU, S\"LU .",
         "en": "Let's draw lots (var. draw straws) to find out who will get this field. See \"LU, S\"LU.",
         "zh": "我們來抽籤（或：抽稻草）看看這塊田會歸誰。參見 \"LU、S\"LU。",
@@ -55332,21 +55332,21 @@ window.ENTRIES = [
     "zh": "用舊的；老舊的；過時的；古老的。",
     "examples": [
       {
-        "t": "Smudal bi ka lukus mo =",
+        "t": "Smudal bi ka lukus mo",
         "fr": "Mes habits sont très usagés.",
         "en": "My clothes are very worn.",
         "zh": "我的衣服很破舊。",
         "a": "ex_smudal_bi_ka_lukus_mo"
       },
       {
-        "t": "Kmpaxan smudal =",
+        "t": "Kmpaxan smudal",
         "fr": "Champs déjà travaillés et mis en friche.",
         "en": "Fields already worked and left fallow.",
         "zh": "已耕作過並任其休耕的田地。",
         "a": "ex_kmpaxan_smudal"
       },
       {
-        "t": "Ongat bi ka tnqoli smudal bi lubwi qlaqel(ka) xana snalu sinao klulu. =",
+        "t": "Ongat bi ka tnqoli smudal bi lubwi qlaqel(ka) xana snalu sinao klulu.",
         "fr": "Il n'y a vraiment personne qui mette dans des sacs en cuir usé (des outres) du vin de vigne qui vient à peine d'être fait.",
         "en": "There is really no one who would put into worn leather sacks (wineskins) grape wine that has only just been made.",
         "zh": "真的沒有人會把剛釀好的葡萄酒裝進破舊的皮袋（皮囊）裡。",
@@ -55363,14 +55363,14 @@ window.ENTRIES = [
     "zh": "釘子；（木製或其他材質的）榫、栓，用來把一物固定於另一物。",
     "examples": [
       {
-        "t": "Adi nyeqan bligan smuk ka sapax bligan so? =",
+        "t": "Adi nyeqan bligan smuk ka sapax bligan so?",
         "fr": "Est-ce qu'on vend des clous dans ton magasin ?",
         "en": "Do they sell nails in your shop?",
         "zh": "你的店裡有賣釘子嗎？",
         "a": "ex_adi_nyeqan_bligan_smuk_ka_sapax_bligan_s"
       },
       {
-        "t": "Smuk paro nanak =",
+        "t": "Smuk paro nanak",
         "fr": "Seulement de grands clous.",
         "en": "Only big nails.",
         "zh": "只有大釘子。",
@@ -55385,13 +55385,13 @@ window.ENTRIES = [
         "zh": "釘；打入榫栓。",
         "examples": [
           {
-            "t": "Pnsmuk ko daxa ktinox lex xxtlan mo bgixol =",
+            "t": "Pnsmuk ko daxa ktinox lex xxtlan mo bgixol",
             "fr": "J'ai cloué deux planches pour en faire une protection (pour arrêter le vent) contre le vent.",
             "en": "I nailed two planks to make a protection (to stop the wind) against the wind.",
             "zh": "我釘了兩塊木板做擋風的屏障（擋住風）。"
           },
           {
-            "t": "Ini toko! Psm'kun mo kingal dole =",
+            "t": "Ini toko! Psm'kun mo kingal dole",
             "fr": "cela ne suffit pas; je veux en clouer une autre.",
             "en": "that's not enough; I want to nail another one.",
             "zh": "這不夠；我還要再釘一塊。"
@@ -55405,7 +55405,7 @@ window.ENTRIES = [
         "zh": "被釘住的狀態之物。",
         "examples": [
           {
-            "t": "Ini tdoa lmawax, ga sm'kan ka nduk daxa =",
+            "t": "Ini tdoa lmawax, ga sm'kan ka nduk daxa",
             "fr": "Ce n'est pas possible d'ouvrir; leur porte est clouée.",
             "en": "It's not possible to open; their door is nailed shut.",
             "zh": "打不開；他們的門被釘死了。",
@@ -55420,7 +55420,7 @@ window.ENTRIES = [
         "zh": "已釘之物；釘的動作（已完成）。",
         "examples": [
           {
-            "t": "Ptdx'gun mo (ptd'xgun ?) dole ka pnsm'kan so s'xiga =",
+            "t": "Ptdx'gun mo (ptd'xgun ?) dole ka pnsm'kan so s'xiga",
             "fr": "Je veux encore renforcer le piquet que tu as planté hier (vl. les planches que tu as clouées hier).",
             "en": "I want to further reinforce the stake you drove in yesterday (var. the planks you nailed yesterday).",
             "zh": "我想再加固你昨天打下的木樁（或：你昨天釘的木板）。",
@@ -55448,7 +55448,7 @@ window.ENTRIES = [
     "zh": "混濁的（水）；泥濘的水。",
     "examples": [
       {
-        "t": "Ida smusyaq ka yayong babao ndaan bgixol paro =",
+        "t": "Ida smusyaq ka yayong babao ndaan bgixol paro",
         "fr": "Bien sur que le fleuve est tout fangeux après le passage d'un grand typhon.",
         "en": "Of course the river is all muddy after the passing of a big typhoon.",
         "zh": "大颱風過境後，河水當然全都混濁了。",
@@ -55465,49 +55465,49 @@ window.ENTRIES = [
     "zh": "複合前綴，最常表示：關於什麼、所談論的是什麼。（其他時候，這個前綴 SN 相當於帶有原因、工具、目的之義的 S，後接表示過去、動作已完成的 N。）",
     "examples": [
       {
-        "t": "Snmanu namo da =",
+        "t": "Snmanu namo da",
         "fr": "De quoi discutez vous?",
         "en": "What are you discussing?",
         "zh": "你們在討論什麼？",
         "a": "ex_snmanu_namo_da_2"
       },
       {
-        "t": "Snkia =",
+        "t": "Snkia",
         "fr": "A propos de cela.",
         "en": "About that.",
         "zh": "關於那件事。",
         "a": "ex_snkia"
       },
       {
-        "t": "Snpila =",
+        "t": "Snpila",
         "fr": "à propos d'argent.",
         "en": "about money.",
         "zh": "關於錢。",
         "a": "ex_snpila"
       },
       {
-        "t": "Snkoyox =",
+        "t": "Snkoyox",
         "fr": "à propos de femme (nb. dans ce cas, SN implique une idée de dispute, de différend).",
         "en": "about a woman (n.b. in this case, SN implies an idea of quarrel, of dispute).",
         "zh": "關於女人（註：此時 SN 隱含爭吵、爭執之意）。",
         "a": "ex_snkoyox"
       },
       {
-        "t": "Malu =",
+        "t": "Malu",
         "fr": "bien, en bonne santé.",
         "en": "well, in good health.",
         "zh": "好，健康。",
         "a": "ex_malu"
       },
       {
-        "t": "Skmalu =",
+        "t": "Skmalu",
         "fr": "Qui guérit - faire que ce soit bien.",
         "en": "That which heals - to make it be well.",
         "zh": "使痊癒；使變好。",
         "a": "ex_skmalu"
       },
       {
-        "t": "Snkmalu =",
+        "t": "Snkmalu",
         "fr": "Avoir guéri - avoir fait pour que ce soit en bon état.",
         "en": "To have healed - to have acted so that it be in good condition.",
         "zh": "已痊癒；已使其恢復良好狀態。",
@@ -55524,28 +55524,28 @@ window.ENTRIES = [
     "zh": "男人；雄性；丈夫。",
     "examples": [
       {
-        "t": "Snao so bi =",
+        "t": "Snao so bi",
         "fr": "Toi, tu es un homme ( tu es un type!)",
         "en": "You, you're a man (you're a real guy!)",
         "zh": "你，你是個男子漢（你真是個漢子！）",
         "a": "ex_snao_so_bi"
       },
       {
-        "t": "Spat ka laqe mo: Snao ka daxa, koyox ka daxa =",
+        "t": "Spat ka laqe mo: Snao ka daxa, koyox ka daxa",
         "fr": "J'ai quatre enfants: deux garçons et deux filles.",
         "en": "I have four children: two boys and two girls.",
         "zh": "我有四個孩子：兩個男孩、兩個女孩。",
         "a": "ex_spat_ka_laqe_mo_snao_ka_daxa_koyox_ka_da"
       },
       {
-        "t": "Diyan ka snao Labai =",
+        "t": "Diyan ka snao Labai",
         "fr": "C'est Djian qui est le mari de Labai.",
         "en": "It is Djian who is Labai's husband.",
         "zh": "是 Djian 當 Labai 的丈夫。",
         "a": "ex_diyan_ka_snao_labai"
       },
       {
-        "t": "Yaxe ko bi stlong kana ka yamo snao =",
+        "t": "Yaxe ko bi stlong kana ka yamo snao",
         "fr": "Vous viendrez tous à ma rencontre, vous les hommes.",
         "en": "You will all come to meet me, you men.",
         "zh": "你們男人都要來迎接我。",
@@ -55560,7 +55560,7 @@ window.ENTRIES = [
         "zh": "SNAO 的斜格形。",
         "examples": [
           {
-            "t": "Ga ino ka Kimi da? ... Wada snawan suxal ka xea da! =",
+            "t": "Ga ino ka Kimi da? ... Wada snawan suxal ka xea da!",
             "fr": "Mais où est donc Kimi ? ... Elle est mariée depuis longtemps (autre forme = Wada sdyaqon ka kimi da = Kimi est déjà mariée).",
             "en": "But where on earth is Kimi? ... She's been married for a long time (another form = Wada sdyaqon ka kimi da = Kimi is already married).",
             "zh": "Kimi 到底在哪裡呢？……她早就嫁人了（另一種說法＝Wada sdyaqon ka kimi da＝Kimi 已經結婚了）。",
@@ -62000,7 +62000,7 @@ window.ENTRIES = [
         "zh": "牢牢被抓住的。",
         "examples": [
           {
-            "t": "Tai ka xana daxa (d'xa) pnslxgan do, knliwa bi ksoloç ttdiyal (ttidyal) ni sao bi mpkatai ka slaxo da! =",
+            "t": "Tai ka xana daxa (d'xa) pnslxgan do, knliwa bi ksoloç ttdiyal (ttidyal) ni sao bi mpkatai ka slaxo da!",
             "fr": "",
             "en": "",
             "zh": "",
@@ -66133,7 +66133,7 @@ window.ENTRIES = [
             "a": "ex_knkingal_sapax_tmukan_o_nyeqan_kingal_ty"
           },
           {
-            "t": "Tyoqan d'xa kana ka dqalas nia =",
+            "t": "Tyoqan d'xa kana ka dqalas nia",
             "fr": "[gloss coupé en bas de la page 320]",
             "en": "[gloss cut off at the bottom of page 320]",
             "zh": "［頁面下方切斷，譯文從缺］",
@@ -73703,7 +73703,7 @@ window.ENTRIES = [
             "a": "ex_mxoqel_ka_tama_so_da"
           },
           {
-            "t": "Ida ta mxoqel kana! =",
+            "t": "Ida ta mxoqel kana!",
             "fr": "",
             "en": "",
             "zh": "",

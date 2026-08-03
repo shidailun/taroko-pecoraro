@@ -1,5 +1,8 @@
 {
-  "pages": [318, 321],
+  "pages": [
+    318,
+    321
+  ],
   "leadin": null,
   "entries": [
     {
@@ -749,7 +752,7 @@
           "zh": "牢牢被抓住的。",
           "examples": [
             {
-              "t": "Tai ka xana daxa (d'xa) pnslxgan do, knliwa bi ksoloç ttdiyal (ttidyal) ni sao bi mpkatai ka slaxo da! =",
+              "t": "Tai ka xana daxa (d'xa) pnslxgan do, knliwa bi ksoloç ttdiyal (ttidyal) ni sao bi mpkatai ka slaxo da!",
               "fr": "",
               "en": "",
               "zh": ""
