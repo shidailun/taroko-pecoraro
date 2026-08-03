@@ -1820,7 +1820,11 @@
       // and for a group-1 word it is the only thing on it he wrote.
       var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, k) ? CONC_IDX[k] : [];
       if (!rows.length) return;
-      var w = { key: k, root: tbl[k], n: WORD_LIST.length };
+      // "?" is group 2: the analysis reaches this word by more than one route.
+      // It names no root — but it is NOT group 3 either, whose card says no
+      // analysis reaches one at all, which for these would be false.
+      var w = { key: k, root: tbl[k] === "?" ? "" : tbl[k],
+                amb: tbl[k] === "?", n: WORD_LIST.length };
       w.mkey = norm(modernizeText(k));
       WORD_KEY[k] = w;
       WORD_LIST.push(w);
@@ -1853,6 +1857,13 @@
   // one is the single thing a dictionary must not do.
   function wordSense(w, lang) {
     if (!w.root) {
+      if (w.amb) {
+        if (lang === "zh") return "僅見於例句中的詞形（構詞分析有多個詞根候選，本站不作取捨）";
+        if (lang === "en") return "a form used only in his example sentences " +
+          "(more than one root fits; we do not choose)";
+        return "forme employée seulement dans ses exemples " +
+          "(plusieurs racines conviennent; nous ne tranchons pas)";
+      }
       if (lang === "zh") return "僅見於例句中的詞形";
       if (lang === "en") return "a form used only in his example sentences";
       return "forme employée seulement dans ses exemples";
@@ -1878,6 +1889,17 @@
     "his, everything else on this page is ours. / " +
     "此詞形白氏未立條目，僅見於其例句之中。上列詞根為本站構詞分析所得之唯一候選，" +
     "且白氏另有其條目與釋義。下列例句出自原書，其餘內容則否。";
+  // Group 2. The generator finds more than one root that would explain the word
+  // and will not pick between them, because picking is an adjudication. That is a
+  // reason to name no root — it was never a reason to withhold the page, and
+  // withholding it left `qmpahan`, at 58 occurrences, with nowhere to go.
+  var WORD_NOTE_2 =
+    "Pecoraro gives this form no entry of its own; it occurs only inside his " +
+    "example sentences. More than one root would explain it and this page does " +
+    "not choose between them, so it claims nothing about the word beyond the " +
+    "sentences below, which are his. / " +
+    "此詞形白氏未立條目，僅見於其例句之中。構詞分析得出多個可能詞根，本頁不作取捨，" +
+    "故除下列出自原書的例句外，對此詞不作任何主張。";
   var WORD_NOTE_3 =
     "Pecoraro gives this form no entry of its own; it occurs only inside his " +
     "example sentences, and no affix analysis reaches a root for it. This page " +
@@ -1919,7 +1941,7 @@
     // respelling of his word, and for a group-1 card the affix analysis was run
     // ON that respelling, so the root is only as good as it is.
     h += '<p class="fine morph-note">' +
-      esc((w.root ? WORD_NOTE_1 : WORD_NOTE_3) +
+      esc((w.root ? WORD_NOTE_1 : w.amb ? WORD_NOTE_2 : WORD_NOTE_3) +
           (spellClass(w.key) === "w-mod" ? "" : WORD_NOTE_UNV)) + "</p>";
     var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, w.key) ? CONC_IDX[w.key] : [];
     h += '<p class="conc-form">' + esc("Examples of use (" + rows.length +

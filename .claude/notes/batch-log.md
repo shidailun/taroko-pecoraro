@@ -2297,3 +2297,44 @@ DOM-measured (`scratchpad/nav178.py`): **28 pass, 0 fail** — deep link, one-ta
 slot, one-tap word page, two-tap crossref, forward, three searches = one entry,
 button appears and hides. Cards still 1,967; deliverable pairs still 4,955
 (91.17%).
+
+## Batch 179 — the group-2 refusal was withholding the page, not just the root
+
+`qmpahan` (his `kmpaxan`) occurs in **58** of his example sentences and is a
+headword nowhere. Searching it delivered 47 entry cards — the whole of BUYU,
+five sub-forms and every example among them — because a root that merely
+*contains* the word answers for it. `pngalun` the same, at one occurrence.
+
+Both were **group 2** in `build_wordpages.py`: `roots()` finds two or more
+candidates, choosing is an adjudication, and the generator refuses to adjudicate.
+That refusal was right about the root and wrong about the page. **A concordance
+asserts nothing about morphology**, so nothing an unresolved analysis leaves open
+makes a list of his own sentences unsafe to print.
+
+Group 2 now emits `"?"` — page, no root named. It is kept distinct from group 3's
+`""` because their cards must not say the same thing: group 3's says *no analysis
+reaches a root*, which for these is false. `WORD_NOTE_2` and a third `wordSense()`
+branch say instead that more than one root would explain it and the page does not
+choose.
+
+**718 types gained a page; 1,593 of 1,593 example-only types now have one, up
+from 876.** Cards still 1,967; nav suite 28/28.
+
+Two findings recorded while adjudicating the words the user raised:
+
+- **`kmux` is a homophone, and the p- argument runs backwards there.** His
+  `K'MUX` (R) is 稗草 tares; modern lists `kmux` 握拳, `skmux` 因…握拳, `pkmux`
+  在握拳 — a complete three-member family, all of it about a fist. The only
+  modern word carrying 稗 is `pypayi` 一些壞掉的稗草, built off `payay` "rice",
+  which is the very word in his own example. Admitting `pskmux` on the strength
+  of `skmux` would be inheriting from a fist. Cost of demoting the two: **0
+  deliverable pairs** — neither occurs in a sentence row.
+- **`bbuyu` 打獵 is not a clash but a confirmation.** His gloss is "maquis -
+  savanne - forêt vierge", and his own example glosses `wada bbuyo` as "est parti
+  à la chasse". Dark stands.
+- **The BUYU sub-order is his**, verified against `scans/full/page_057.png`:
+  BBuyo, Pkbuyo, Tnbuyan, Kmubui (kmbui ?), Bbuyo — the same word at both ends,
+  "maquis" first and "obscurité (sans doute par assimilation)" last. There is
+  nothing to un-scramble; there is an order to impose. One thing there IS ours:
+  he prints the `°Pkbuyo, .?., pkbuyan, pkbuyun` line after that sub-form's
+  example, and the app hoists it above the gloss.
