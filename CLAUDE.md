@@ -2446,6 +2446,53 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## When he doubts his own root, believe the doubt (batch 166, 2026-08-03)
+
+**p. 284 is a card about making things and we were printing roads on it.** His
+`S"LU` and `SM"LU` cards both carry the tag `(R. = "LU ?)` and cross-reference
+`"LU` (p. 386) 路－通道－道理（意義）－方法. The map followed the pointer:
+`s'lu`→`seelug`, `sm'lu`→`smeelug`, `sn'lu`→`sneelug`, `snluwan`→`sneelugan` —
+four road words on a card glossed 計劃－預謀 and 決定.
+
+The root is **SALU** 'to make, to repair'. Tgdaya *salu* = to make, *smalu* is
+the actor focus, *snluwan* is the preterite locative focus. Ruled by a speaker,
+2026-08-03. `"LU` itself is untouched and was never in doubt — *elu* in Tgdaya,
+*elug* in modern Truku, all 91 occurrences correct.
+
+**Modern Truku had the paradigm all along**: `salu` 修理, `smalu`/`smmalu` 製作,
+`snalu` 用...做的, `psalu` 請…製造或修理, **`sluun` 要被製作**, and `sluan` /
+`snluan` listed unglossed. `sluun` is the proof — modern Truku writes the
+syncopated stem `slu-` in the exact slot where he wrote `S"LU`, so his `"` is
+the reduced vowel of *salu*, not a glottal standing in for *elu*.
+
+**The page was already spelling it right everywhere else.** Before the patch:
+5 `salu`, 13 `smalu`, 6 `snalu`, 3 `snluan`, all rendered from tokens he typed
+without the `"`. Only the four tokens carrying his reduced-vowel mark were
+misrouted — because a rule believed a pointer he had explicitly flagged.
+
+**Two of the thirteen scored DARK.** `seelug` and `smeelug` are listed modern
+words, so rule 1 verified them at sight. Same shape as the SISUN trap: *a
+spelling error wearing a verification's clothes.* **The metric cannot see this
+class at all** — only a reader can, which is the standing argument for spending
+attention on the darks and not only on the pale count.
+
+**It settles what dom165 could not.** Batch 165 refused two pointers sitting
+inside a question mark but could not say whether `(R. = X ?)` in a TAG meant he
+doubted the root or his spelling of it. It means the root, and he was right.
+**The tag is evidence AGAINST the pointer it contains.** 226 cards carry it.
+
+**The instrument this suggests, and the one it doesn't.** Sweeping all 226 is
+mostly noise: 49 show the S"LU fingerprint and ~45 of those are ordinary
+correspondences (o→u, x→h, ao→aw, l→r) doing their job. The sharp test is
+rarity — the map makes 5,513 respellings using 573 distinct correspondences,
+and `o>u` fires 882 times while the S"LU error fired **once**. **212 rule-1
+darks rest on a once-only correspondence.** That is the audit population, and
+it is a list of candidate spelling errors currently scoring as verified.
+(scratch: `tmp/rare166.py` under the job dir.)
+
++5 occurrences net; 13 respelled, 2 of them off false darks.
+97.3910% → **97.4022%** (43,306 / 1,123 / 32).
+
 ## A greedy algorithm over an unordered input is a sample, not a rule (batch 165, 2026-08-03)
 
 **The build had not been reproducible for some time and nothing had noticed.**

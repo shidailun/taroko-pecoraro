@@ -112,9 +112,14 @@ GAIN.update(GAIN_COLLAPSE)
 # not reach them. If these go dark, ambiguity has stopped meaning ambiguity.
 AMBIGUOUS = {
     "kngusan": 2, "stmaqun": 2, "ptbnuun": 2, "ppdsun": 1, "gmnaliq": 1,
-    "kmkmalu": 1, "empsneanak": 1, "knkmuyuh": 1, "nkmuyuh": 1, "sneelug": 1,
+    "kmkmalu": 1, "empsneanak": 1, "knkmuyuh": 1, "nkmuyuh": 1,
     "psmkun": 1,
 }
+# `sneelug` was in this list and is retired from it, batch 166. It was pale
+# here for the right reason under the wrong spelling: its two roots were
+# `seelug` and `neelug`, both road words, and it was never a road word at all.
+# His `Sn"lu` is the preterite of SALU 'to make' and now renders `snalu`
+# 用...做的, listed. The ambiguity was real; the word was not.
 
 # The seven read against his own sentences and pinned in HAND_NOT_NC.
 PIN = {
