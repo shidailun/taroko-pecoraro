@@ -73,7 +73,8 @@ of the two levels.
 Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
-from inflection import HAND_NAMES, HAND_NOT_NAMES, HAND_SPOKEN, Inflection
+from inflection import (HAND_NAMES, HAND_NOT_NAMES, HAND_RULED,
+                        HAND_SPOKEN, Inflection)
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 H = os.path.normpath(H)
@@ -200,6 +201,14 @@ def main():
     seen |= spoken
     print("  + %d types spoken for by the informant (not in any corpus): %s"
           % (len(spoken), " ".join(sorted(spoken))))
+    # The same authority answering a different question: every part of the word
+    # is attested and the gate refused on gloss agreement alone, which reads a
+    # shared Han character and so cannot see a synonym. Printed on its own line
+    # for the same reason as the one above — neither is a wordlist hit.
+    ruled = set(HAND_RULED) - seen
+    seen |= ruled
+    print("  + %d types ruled on by the informant where only the gloss test "
+          "refused: %s" % (len(ruled), " ".join(sorted(ruled))))
     app = read(os.path.join(SITE, "app.js"))
     # CLITIC_JOIN, not CLITIC_FORMS. The latter is `var CLITIC_FORMS = {};`,
     # filled at runtime from the former, so table() ran past the empty literal

@@ -2422,3 +2422,46 @@ spelling is the record.
 Unmoved: 1,967 cards, deliverable pairs 4,955 (91.17%), 480 blocked. Dark
 43,925 / 97.73%, pale 988, green 34. 9/9 `cite179.py`, 16/16 `loose179.py`,
 28/28 `nav178.py`.
+
+## Batch 180 — the gate agreed about the morphology and refused on a synonym
+
+`ppdsun` — his `ppd'sun`, in § *Ongat ko bi ana manu ppd'sun mo tmaan diyan*
+under ADAS / **Pp'adas 用來寄送之物**. Darryl: "ppdsun is fut pf. what's the
+problem?"
+
+**Nothing was wrong with the analysis.** `roots()` finds THREE, and every root of
+all three is already dark: `p-` + `pdsun`「…(人)將會帶去(未來式)」, `pp-` +
+`dsun`「要帶」, `p-` + `pdsi`「帶去」+ `-un`. The modern wordlist calls `pdsun`
+the future itself, and `pp-` is a live modern prefix (batch 20, with mm-, tt-,
+ss-). The ruling names the slot the wordlist already names.
+
+**It failed one test, gloss agreement, and failed it on synonymy.** He never
+glossed the word AS a word, so the only Chinese `regular()` holds is the sentence
+translation 我實在沒有任何東西可以捎給(送給)Djian 的父親 — and 捎/送 share no
+character with 帶 or 拿走. The instrument is a shared Han character; two synonyms
+are invisible to it. *A refusal on character overlap is not a refusal on
+meaning.*
+
+**The word-level gloss was one line up and the code drops it.** `_his_glosses()`
+feeds an example's tokens `x.zh or szh` — an OR — so a sentence carrying its own
+translation shadows the gloss of the sub-form it sits under. Fixing that in
+general was measured before proposing it: over all 549 blocked sentences,
+restricted to tokens sharing a 3-character run with the parent form (without that
+restriction every function word in the sentence inherits the parent's gloss), it
+frees **3 types and 3 pairs** — `empabgu`, `pnsdahung`, `empnhmadan` — and does
+not reach this word anyway, since 用來寄送之物 shares no character with 帶
+either. Priced and not taken.
+
+**The family acquits, and the sweep found nothing else.** Of the 59 distinct
+tokens in the ADAS entry — headword, nine sub-forms, both ° lines, every example
+— **58 were already dark**. This was the last pale word in a family that agrees
+with itself throughout.
+
+Entered as `HAND_RULED` in `inflection.py`, consumed in `build_verified.py` and
+printed on its own line. Kept SEPARATE from `HAND_SPOKEN`, which answers a
+different question: there the corpus is silent about whether a word is Truku at
+all (`nta`, batch 159); here the corpus has already said yes to every part of the
+word and only the gloss test refused. Both widen `seen`, never `lex`.
+
+**Deliverable pairs 4,955 → 4,956 (91.17% → 91.19%), blocked 480 → 479, pale
+988 → 987, dark types 5,873 → 5,874.** Cards 1,967.

@@ -329,6 +329,44 @@ atuh denki banasi otun utun taolan taulan""".split()
 #         shortlist was addressed to.
 HAND_SPOKEN = """nta""".split()
 
+# RULED ON BY THE INFORMANT WHERE THE GATE HAD ALREADY AGREED — batch 180. Kept
+# apart from HAND_SPOKEN, which answers a different question. There the corpus is
+# silent about whether a word is Truku at all; here the corpus has already said
+# yes to every part of the word, and the ONE test that refuses is gloss
+# agreement, whose instrument is a shared Han character and which therefore
+# cannot see two synonyms.
+#
+#   ppdsun  his `ppd'sun`, in § Ongat ko bi ana manu ppd'sun mo tmaan diyan
+#           under ADAS / Pp'adas 用來寄送之物. roots() finds THREE analyses and
+#           every root of all three is already dark: `p-` + pdsun
+#           「…(人)將會帶去(未來式)」, `pp-` + dsun 「要帶」, `p-` + pdsi 「帶去」
+#           + `-un`. The wordlist itself calls pdsun the future, and pp- is a
+#           live modern prefix (batch 20, with mm-, tt-, ss-). The informant's
+#           ruling — "ppdsun is fut pf" — names the same slot the wordlist does.
+#
+#           WHY THE GATE REFUSED, exactly: he never glossed the word AS a word,
+#           so the only Chinese `regular()` holds for it is the sentence
+#           translation 我實在沒有任何東西可以捎給(送給)Djian 的父親, and 捎/送
+#           share no character with 帶 or 拿走. Synonyms, invisible to character
+#           overlap. The word-level gloss that would have served sits one line
+#           up, on the sub-form the sentence lives under, and `_his_glosses()`
+#           drops it: examples are fed `x.zh or szh`, an OR, so a sentence
+#           carrying its own translation shadows its parent entirely.
+#
+#           THE GENERAL FIX WAS PRICED AND NOT TAKEN. Letting a token borrow its
+#           parent form's gloss — restricted to tokens sharing a 3-character run
+#           with the parent form, or every function word in the sentence
+#           inherits it — over all 549 blocked sentences frees 3 types and 3
+#           pairs (`empabgu`, `pnsdahung`, `empnhmadan`), and does not reach this
+#           word anyway: 用來寄送之物 shares no character with 帶 either.
+#
+#           THE FAMILY ACQUITS. Of the 59 distinct tokens in the ADAS entry —
+#           headword, nine sub-forms, both ° lines and every example — 58 are
+#           already dark. This is the last pale word in a family that otherwise
+#           agrees with itself throughout, which is the same evidence read the
+#           direction that clears rather than convicts.
+HAND_RULED = """ppdsun""".split()
+
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
 # at midcap=1 is a single capital letter, as likely to be sentence-initial or a
