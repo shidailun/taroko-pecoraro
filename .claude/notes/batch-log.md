@@ -2338,3 +2338,46 @@ Two findings recorded while adjudicating the words the user raised:
   nothing to un-scramble; there is an order to impose. One thing there IS ours:
   he prints the `°Pkbuyo, .?., pkbuyan, pkbuyun` line after that sub-form's
   example, and the app hoists it above the gloss.
+
+## Batch 179b — two principles: one order inside a root, and a sentence is not a root
+
+He stated both as law: "1. there should be a consistent order within every root.
+2. for extra sentences — just cause a root happens to contain a word somewhere
+does not mean that EVERYTHING in the root has to come along!"
+
+**Principle 1 — `subOrder()` (app.js, before `entryHtml`).** Sub-forms were
+printed in file order, which is his page order, and his page order is not one
+order: BUYO ran BBuyo, Pkbuyo, Tnbuyan, Kmubui, Bbuyo — the base form both first
+and last (`scans/full/page_057.png`, read and confirmed verbatim). Alphabetical
+will not do either: under K'MUX it puts the causative Pskmux before the base
+Skmux, since P < S. So the sort is DERIVATIONAL, keyed on the head: longest
+common substring with the headword gives (a) where in the sub-form the shared run
+starts — prefixless forms first — and (b) how many characters the sub-form adds
+on top of it. Ties fall back to the key, then to file order, so it is total and
+stable. Measured: 24.8% of multi-sub entries change order. Verified in the DOM
+that `K'MUX → [Skmux, Pskmux]` and `BUYO → [BBuyu, Bbuyu, Pkbuyu, Tnbuyan,
+Kmubui (kmbui?)]`, and that the order is IDENTICAL in Pecoraro mode — the
+spelling toggle must not rearrange his page.
+
+**Principle 2 — `looseHtml()`.** `filter()`'s fifth tier is `contains`: the query
+is in no headword, no sub-form, no ° line, only somewhere in the body. Those
+entries were rendering as FULL CARDS. `qmpahan` — a word he never gave an entry —
+answered with 47 whole roots, BUYO arriving with five sub-forms, every example
+and its concordance, because one buried sentence says qmpahan. A root that
+happens to contain a word somewhere is not thereby an answer about that word.
+Now a contains-hit prints only the sentences that contain it, each naming the
+entry it came from (`concRowHtml`'s shape; the pointer opens that entry on one
+tap), under one `Elsewhere in his sentences` heading. **`qmpahan`: was 47 root
+cards, now 1 word page + 46 sentence cards carrying 59 sentences.**
+
+The fallback is not a corner case. The same tier catches a hit inside a FRENCH
+gloss — `palissade` reaches two entries with no matching sentence at all — and
+there the full card is the honest answer and is kept whole. Never run a gloss
+through `modernize()` to find one: it turns "Palissade" into "Parissade".
+
+`exGlossHtml()` factored out of `examplesHtml`/`concRowHtml`/`looseHtml`: the same
+three gloss lines are printed in three places and had begun to drift.
+
+Measured: 16/16 on `loose179.py`, 28/28 on `nav178.py`, whole-dictionary census
+still 1,967 cards with zero sentence cards in it, deliverable pairs unmoved at
+4,955 (91.17%).

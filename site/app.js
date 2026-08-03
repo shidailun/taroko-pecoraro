@@ -665,7 +665,12 @@
       else if (prefixes(it.forms)) subStarts.push(it.entry);
       else if (it.text.indexOf(q) !== -1 || (it.mtext && it.mtext.indexOf(q) !== -1)) contains.push(it.entry);
     });
-    return isHw.concat(isForm, starts, subStarts, contains);
+    var out = isHw.concat(isForm, starts, subStarts, contains);
+    // How many of the tail are `contains` hits — the entries the query reaches
+    // only through their body. render() prints those as sentences, not as cards;
+    // see looseHtml().
+    out.loose = contains.length;
+    return out;
   }
 
   // ---------- audio ----------
@@ -1363,15 +1368,24 @@
     return h;
   }
 
+  // The three gloss lines under a sentence, in one place: an example is printed
+  // by the entry card, by a concordance row and by a sentence hit, and the three
+  // had already begun to drift.
+  function exGlossHtml(x) {
+    var h = "";
+    if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
+    if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
+    if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+    return h;
+  }
+
   function examplesHtml(list) {
     if (!list || !list.length) return "";
     var h = '<div class="examples">';
     list.forEach(function (x) {
       h += '<div class="example"><div class="truku">' + spellMark("§", "Example / exemple") +
         " " + linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
-      if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
-      if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
-      if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+      h += exGlossHtml(x);
       h += "</div>";
     });
     return h + "</div>";
@@ -1525,9 +1539,7 @@
     var h = '<div class="example conc-row"><div class="truku">' +
       spellMark("§", "Example / exemple") + " " +
       linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
-    if (shown.fr && x.fr) h += '<p class="ex-gloss"><span class="lang-chip fr">FR</span>' + glossCites(tidy(x.fr, "fr"), "fr") + "</p>";
-    if (shown.en && x.en) h += '<p class="ex-gloss"><span class="lang-chip en">EN</span>' + glossCites(tidy(x.en, "en"), "en") + "</p>";
-    if (shown.zh && x.zh) h += '<p class="ex-gloss"><span class="lang-chip zh">中</span>' + glossCites(tidy(x.zh, "zh"), "zh") + "</p>";
+    h += exGlossHtml(x);
     return h + '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
       linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
   }
@@ -1963,6 +1975,108 @@
     return wordList().filter(function (w) { return w.key === q || w.mkey === q; });
   }
 
+  //   The order sub-forms appear in is HIS page order, and it is not an order.
+  // Verified against `scans/full/page_057.png`: under BUYO he prints BBuyo,
+  // Pkbuyo, Tnbuyan, Kmubui, Bbuyo — the same form at both ends, "maquis" first
+  // and "obscurité (sans doute par assimilation)" last as a closing remark. Under
+  // K'MUX he prints Psk'mux before Sk'mux, so the causative arrives before the
+  // thing it is built on. Neither is alphabetical and neither is derivational;
+  // 645 entries carry two or more sub-forms and only 160 of them (24.8%) are even
+  // in alphabetical order. The page order is the record and stays in entries.js;
+  // what the reader sees is sorted here, display-only, exactly as the spelling is.
+  //   THE BASE COMES FIRST, then what is built on it — which is why alphabetical
+  // would not do: P sorts before S, so `Pskmux` before `Skmux` is alphabetical
+  // order behaving correctly and still being wrong.
+  //   "Built on" is measured against the headword: find the longest run of
+  // characters the sub-form shares with it, and rank first by how much material
+  // sits BEFORE that run, then by how much was added in total, then
+  // alphabetically, then by his own order so a tie never reshuffles. Sorting on
+  // HIS spellings, not the displayed ones, keeps the order still under the
+  // toggle — a reader switching orthography is not asking the page to rearrange.
+  function shareRun(a, b) {
+    // Longest common substring: [length, its start index in a].
+    var best = 0, at = 0, i, j, n;
+    for (i = 0; i < a.length; i++) {
+      for (j = 0; j < b.length; j++) {
+        n = 0;
+        while (i + n < a.length && j + n < b.length &&
+               a.charAt(i + n) === b.charAt(j + n)) n++;
+        if (n > best) { best = n; at = i; }
+      }
+    }
+    return [best, at];
+  }
+
+  function subOrder(e) {
+    var subs = e.subs || [];
+    if (subs.length < 2) return subs;
+    if (e._so) return e._so;
+    var root = wordKey(e.hw || "").replace(/'/g, "");
+    var rows = subs.map(function (s, i) {
+      var k = wordKey(s.form || "").replace(/'/g, "");
+      var r = shareRun(k, root);
+      return { s: s, i: i, pre: r[1], add: k.length - r[0], k: k };
+    });
+    rows.sort(function (a, b) {
+      return (a.pre - b.pre) || (a.add - b.add) ||
+        (a.k < b.k ? -1 : a.k > b.k ? 1 : 0) || (a.i - b.i);
+    });
+    e._so = rows.map(function (r) { return r.s; });
+    return e._so;
+  }
+
+  // ---------- a hit that is only inside a sentence ----------
+  //   The fifth tier of filter() is `contains`: the query is in no headword, no
+  // sub-form, no ° line — it is somewhere in the body. A search for `qmpahan`,
+  // a word he never gave an entry to, was answering with 47 FULL ROOT CARDS.
+  // BUYO arrived headword, five sub-forms, every example and its concordance,
+  // because one sentence buried inside it says qmpahan. A root that happens to
+  // contain a word somewhere does not thereby become an answer about that word.
+  //   So a contains-hit prints the sentences that actually contain it, each
+  // naming the entry it came from — the shape concRowHtml already uses, and the
+  // pointer opens that entry on one tap. The card stops claiming to be about the
+  // query; it says where the query occurs.
+  //   The fallback is not a corner case: the tier also catches a hit inside a
+  // FRENCH gloss ("champs"), where there is no sentence to show. There the full
+  // card is the honest answer and is kept whole.
+  function exHit(x, q) {
+    if (norm(x.t || "").indexOf(q) !== -1) return true;
+    // Modern spelling too, and Truku only — running a gloss through modernize()
+    // would invent matches ("Palissade" → "Parissade").
+    if (norm(modernizeText(x.t || "")).indexOf(q) !== -1) return true;
+    return norm([x.fr || "", x.en || "", x.zh || ""].join("  ")).indexOf(q) !== -1;
+  }
+
+  function looseHtml(e, q) {
+    var rows = [];
+    (e.examples || []).forEach(function (x) {
+      if (exHit(x, q)) rows.push([x, null]);
+    });
+    (e.subs || []).forEach(function (s) {
+      (s.examples || []).forEach(function (x) {
+        if (exHit(x, q)) rows.push([x, s]);
+      });
+    });
+    if (!rows.length) return entryHtml(e);
+    var h = '<article class="entry loose">';
+    rows.forEach(function (r) {
+      var x = r[0], s = r[1];
+      h += '<div class="example conc-row"><div class="truku">' +
+        spellMark("§", "Example / exemple") + " " +
+        linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+      h += exGlossHtml(x);
+      // data-ref is the HEADWORD even when the sentence sits under a sub-form:
+      // that is the card the reader lands on, and the sub-form is named beside
+      // it so the line still says exactly where in the entry this came from.
+      h += '<p class="conc-src" data-ref="' + esc(e.hw) + '">→ ' +
+        linkifyTruku(tidyForm(formText(e.hw)), true) +
+        (s ? ' <span class="loose-sub">' +
+          linkifyTruku(tidyForm(formText(s.form)), false, FORM_PROSE) + "</span>" : "") +
+        "</p></div>";
+    });
+    return h + "</article>";
+  }
+
   function entryHtml(e) {
     var h = '<article class="entry">';
     h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
@@ -2008,7 +2122,7 @@
     if (e.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(e.paradigm)) + "</p>";
     h += glossHtml(e);
     h += examplesHtml(e.examples);
-    (e.subs || []).forEach(function (s) {
+    subOrder(e).forEach(function (s) {
       h += '<div class="subentry"><div class="hw-line"><span class="sub-form">' + linkifyTruku(tidyForm(formText(s.form)), false, FORM_PROSE) + "</span>" + audioBtn(s.a) + "</div>";
       if (s.paradigm) h += '<p class="paradigm">' + spellMark("°", "Forms / formes") + " " + linkifyTruku(tidyForm(s.paradigm)) + "</p>";
       h += glossHtml(s);
@@ -2313,8 +2427,21 @@
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
-    results.innerHTML = slots.map(slotCardHtml).join("") +
-      wps.map(wordCardHtml).join("") + list.map(entryHtml).join("");
+    // The tail of the list is the `contains` tier — entries the query reaches
+    // only through their body. They answer with their sentences, under one
+    // heading that says so, rather than with the whole root.
+    var cut = list.length - (list.loose || 0);
+    var nq = norm(searchBox.value.trim());
+    var h = slots.map(slotCardHtml).join("") + wps.map(wordCardHtml).join("");
+    list.forEach(function (e, i) {
+      if (i < cut) { h += entryHtml(e); return; }
+      if (i === cut) {
+        h += '<p class="loose-head">' +
+          esc("Elsewhere in his sentences / 其他例句中") + "</p>";
+      }
+      h += looseHtml(e, nq);
+    });
+    results.innerHTML = h;
   }
 
   // A slot has no entry to open, so it gets its own show function. The box is set

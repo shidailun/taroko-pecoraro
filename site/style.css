@@ -289,6 +289,20 @@ main {
 }
 .conc-src:hover { color: var(--accent); }
 .conc-more { color: var(--muted); font-size: 0.82rem; margin: 0.5rem 0 0; }
+/* A sentence hit: the query occurs in this entry's body and nowhere in its
+   headword, forms or ° line, so the card carries the sentences and not the root.
+   Flat, because it is a list of citations rather than an article. */
+.loose-head {
+  margin: 1.4rem 0 0.4rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.entry.loose { padding: 0.5rem 0.9rem; }
+.entry.loose:hover { transform: none; box-shadow: none; }
+.entry.loose .example:first-child { margin-top: 0; }
+.loose-sub { font-style: italic; }
 /* Which slot of the paradigm the rows under it belong to. Sits above the rows,
    not inside one, so it reads as a heading rather than as another example. */
 .conc-form {
