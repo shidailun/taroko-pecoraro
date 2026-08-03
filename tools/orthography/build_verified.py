@@ -301,6 +301,8 @@ def main():
             return 0.125
         if inf.syncopated(p):
             return 0.0625
+        if inf.awag(p):
+            return 0.046875
         if inf.chained(p):
             return 0.03125
         if affix(p):
@@ -336,15 +338,16 @@ def main():
     vroot = sorted(v for v in keys if lv[v] == 0.25)
     sistr = sorted(v for v in keys if lv[v] == 0.125)
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
+    awag = sorted(v for v in keys if lv[v] == 0.046875)
     chain = sorted(v for v in keys if lv[v] == 0.03125)
     afx = sorted(v for v in keys if lv[v] == 0.015625)
     famly = sorted(v for v in keys if lv[v] == 0.0078125)
     xref = sorted(v for v in keys if lv[v] == 0.00390625)
     good = sorted(listed + infl + vouch + ungl + outv + nochi + vroot + sistr
-                  + syncp + chain + afx + famly + xref)
+                  + syncp + awag + chain + afx + famly + xref)
     emit = {2: 1, 1: 2, 0.5: 3, 0.375: 4, 0.34375: 5, 0.3125: 6, 0.25: 7,
-            0.125: 8, 0.0625: 9, 0.03125: 10, 0.015625: 11, 0.0078125: 12,
-            0.00390625: 13}
+            0.125: 8, 0.0625: 9, 0.046875: 10, 0.03125: 11, 0.015625: 12,
+            0.0078125: 13, 0.00390625: 14}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -412,18 +415,34 @@ def main():
         "// `Tgmilan` — and rule 2 can only ever delete a vowel at the end. Since\n"
         "// this inserts a letter he did not write, the gloss must be one he\n"
         "// attached to the word as a word, never an example sentence.\n"
-        "// 10 = 2 over a root that is itself one step from a glossed root (%d):\n"
+        "// 10 = an -aw ~ -ag- SLOT (%d). A root ending -aw writes -ag- before a\n"
+        "// suffix, and the wordlist settles that on its own, 76 pairs to 2:\n"
+        "// `bglaw` gives `bglagan` … `bglagun`, `bhraw` gives `bhragan` …\n"
+        "// `bhragun`. So these are ordinary slots whose citation form no rule\n"
+        "// above can find, because every one of them looks for the letters he\n"
+        "// actually wrote. His SPADAO family is the case: p. 228 is about giving\n"
+        "// presents and modern Truku has the whole thing — `pspadaw`\n"
+        "// 慷慨（不計價的送人）, `pnpadaw` 送過的禮物, `emppadaw` 將…作為禮物 — and the\n"
+        "// map had already written his UNsuffixed forms onto it. The four\n"
+        "// suffixed slots fell through everything, and `roots()` then found\n"
+        "// `dagi` 要煮飯 sitting inside `pspdagi`. Nothing was misspelled: his\n"
+        "// `pspdagun` IS the modern slot. Restoring the stem inserts a vowel, so\n"
+        "// the same slot-gloss gate as 4, 7, 9 and 11, and the candidates are\n"
+        "// walked longest first — that reaches `pspadaw` 慷慨 rather than bare\n"
+        "// `padaw`, which the wordlist files as 無意義詞, an entry its own\n"
+        "// derivatives refute.\n"
+        "// 11 = 2 over a root that is itself one step from a glossed root (%d):\n"
         "// the CV- reduplication that makes no new lexeme (`qqgu` on `qgu`), or a\n"
         "// second round of ordinary affixation (`swiwil` on `wiwil`). Rules 2-9\n"
         "// stop at the first listed root and ask its gloss, and most of a paradigm\n"
         "// is glossless. Two steps of inference, so the same slot-gloss gate as 4,\n"
         "// 7 and 9 — which here refuses every illicit spelling the rule would find.\n"
-        "// 11 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
+        "// 12 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
         "// and are his grammars of the particles and the productive affixes, not\n"
         "// word entries; their claim is `p` -> `p`, an identity, so there is no\n"
         "// respelling to doubt. No lexicon lists an affix, so the evidence is that\n"
         "// it is productive over words the lexicon DOES list.\n"
-        "// 12 = HIS OWN PARADIGM, where the wordlist has none (%d). Rule 4 asks a\n"
+        "// 13 = HIS OWN PARADIGM, where the wordlist has none (%d). Rule 4 asks a\n"
         "// listed-but-unglossed root's modern paradigm what the root means. For\n"
         "// these the paradigm is glossless too, end to end — the wordlist is not\n"
         "// disagreeing, it is silent — so his own cards on that root are asked\n"
@@ -432,19 +451,19 @@ def main():
         "// same hand is his prose style, not corroboration. Where the paradigm\n"
         "// SPEAKS and disagrees, the disagreement is evidence and the value stays\n"
         "// pale.\n"
-        "// 13 = HE NAMES THE WORD (%d). Some glosses are not meanings but\n"
+        "// 14 = HE NAMES THE WORD (%d). Some glosses are not meanings but\n"
         "// pointers — `rnjingan` is （ldingan 的過去式）and nothing else — so there\n"
-        "// is nothing for rules 2-12 to weigh. A stated root beats an inferred\n"
+        "// is nothing for rules 2-13 to weigh. A stated root beats an inferred\n"
         "// one: where the token he cites IS the root the affix rules found — or a\n"
         "// sibling built on it — his statement and the analysis agree, and that is\n"
         "// the whole evidence. The pointer must land on a root the morphology\n"
         "// found; it may never supply one, because his 參見 notes cite synonyms as\n"
         "// well as forms and a synonym says nothing about how THIS word is spelt.\n"
-        "// app.js paints all thirteen in the deep brown; a value NOT in here is\n"
+        "// app.js paints all fourteen in the deep brown; a value NOT in here is\n"
         "// still a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(ungl),
-           len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(chain),
+           len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(awag), len(chain),
            len(afx), len(famly), len(xref)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
@@ -455,13 +474,13 @@ def main():
           "no Chinese of his: %d   "
           "inflected off a vouched root: %d   "
           "sister slot: %d   syncopated root: "
-          "%d   chained root: %d   affix letter: %d   his own paradigm: %d   "
+          "%d   -aw~-ag- slot: %d   chained root: %d   affix letter: %d   his own paradigm: %d   "
           "he names the word: %d   unverified: %d   "
           "(of %d distinct)"
           % (len(listed), len(infl), len(vouch), len(ungl), len(outv),
              len(nochi),
              len(vroot), len(sistr),
-             len(syncp), len(chain), len(afx), len(famly), len(xref),
+             len(syncp), len(awag), len(chain), len(afx), len(famly), len(xref),
              len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 

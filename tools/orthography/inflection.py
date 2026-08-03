@@ -1533,6 +1533,75 @@ class Inflection(object):
         return best[1] if best else None
 
     # ---- the root's own vowel, syncopated ----------------------------------
+    def awag(self, v):
+        """(stem, suffix, shared char) or None. A root ending -aw writes -ag-
+        before a suffix.
+
+        The wordlist settles this on its own, 76 pairs to 2: `bglaw` gives
+        `bglagan`, `bglagaw`, `bglagay`, `bglagi`, `bglagun`; `bhraw` gives
+        `bhragan` … `bhragun`; `bgbaw` gives `bgbagi`, `bgbagun`. The two
+        counterexamples are `smkaw`/`smkaway` and `mnegeaw`/`mnegeaway`, which
+        keep the -aw and take -ay on top of it. So a suffixed form in -ag- is an
+        ordinary paradigm slot whose citation form no rule above can find,
+        because every one of them looks for the letters he actually wrote.
+
+        His SPADAO family is the case that found it. p. 228 is about giving
+        presents — 贈送－無償給予－送禮, 所贈送之物, and the example `Daxa wawa
+        lodoç ka pnspdagan daxa` 他們送的（禮物）是兩隻小雞 — and modern Truku has
+        the whole thing: `pspadaw` 慷慨（不計價的送人）, `pnpadaw` 送過的禮物,
+        `emppadaw` 將…作為禮物. The map already wrote his unsuffixed forms onto it
+        (`pspadao` -> `pspadaw`, `mpspadao` -> `empspadaw`). The four SUFFIXED
+        slots fell through every rung and `roots()` then found `dagi` 要煮飯
+        sitting inside `pspdagi`. Nothing was misspelled: his `pspdagun` IS the
+        modern slot, and the dictionary was simply unable to say so.
+
+        Two guards, both learned elsewhere in this file.
+
+        The stem is restored by INSERTING a vowel, which is batch 166's syncope
+        run backwards and carries the same burden: the gloss must be one he
+        attached to the word AS a word, and the candidates are walked longest
+        first in a deterministic order — batch 165's lesson that a greedy pass
+        over an unordered set is a sample, not a rule. Longest first is what
+        reaches `pspadaw` 慷慨 rather than bare `padaw`, and that matters here
+        more than usual: the wordlist files `padaw` as 是「spadaw 不可靠的人」的
+        詞根（無意義詞）, an entry its own derivatives refute. Landing on the
+        prefixed stem is landing on the gloss somebody actually wrote.
+
+        It refuses more than it takes. `pkagi` reaches `pakaw` 有刺的野草 against
+        his 上鎖, `pnslhagan` has no gloss of his at all, and `knsrhagan`
+        鬆弛、鬆開的狀態 against `ruhaw` 不緊 is the same word in two vocabularies
+        with no character in common — right, and refused, because a rule that
+        inserts letters may not also guess at synonymy."""
+        if v in self.frozen or v in self.lex:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        for sf in sorted(SUF, key=len, reverse=True):
+            if not sf or not v.endswith(sf):
+                continue
+            st = v[:len(v) - len(sf)]
+            if not st.endswith("ag") or len(st) < 5:
+                continue
+            bases = {st[:-2] + "aw"}
+            for b in list(bases):                 # <n> is an infix, not a letter
+                for i in (1, 2):
+                    if b[i:i + 1] == "n":
+                        bases.add(b[:i] + b[i + 1:])
+            cands = set()
+            for b in bases:
+                cands.add(b)
+                for i in range(1, min(5, len(b))):
+                    for c in VOW:
+                        cands.add(b[:i] + c + b[i:])
+            for r in sorted(cands, key=lambda x: (-len(x), x)):
+                if r not in self.lex or r == v or r in self.frozen:
+                    continue
+                a = self._agrees(his, r)
+                if a:
+                    return (r, sf, a)
+        return None
+
     def syncopated(self, v):
         """(root, prefix, suffix, shared char) or None.
 
