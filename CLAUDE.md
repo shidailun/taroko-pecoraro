@@ -2446,6 +2446,87 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## A greedy algorithm over an unordered input is a sample, not a rule (batch 165, 2026-08-03)
+
+**The build had not been reproducible for some time and nothing had noticed.**
+Rebuilding twice with no change at all and diffing the output showed `mngahan`
+appearing in three builds out of four. `root_groups()` partitions candidate
+roots greedily — each candidate joins the first group it touches — so its answer
+depends on the order it walks them, and it walked a **set** sorted by length
+alone. Every tie among equal-length candidates was broken by Python's
+per-process hash order. `mngahan` reaches six candidates tied at two lengths and
+fell into one group or two by luck, so `no_chinese()`'s one-group gate passed or
+failed and the word came out verified or pale. The sort key is now `(len, x)`.
+
+Two things to carry forward. **dom164 asserted `mngahan` GAINED — that
+assertion had been a coin flip since the moment it was written**, and all 195 of
+`no_chinese()`'s values were exposed to the same instability. And the cheapest
+possible test found it: *run the build twice and diff*. Do that before believing
+any measurement, because a flaky verification does not look like a bug, it looks
+like a number.
+
+**Two evidence sources no rung had ever read.**
+
+*His own paradigm, where the wordlist has none.* `unglossed_root()` asks a
+listed-but-unglossed root's modern paradigm what the root means. For eleven
+types the paradigm is glossless too, end to end — the wordlist is not
+disagreeing, it is **silent** — and `_agrees` returns None for want of anything
+to read. So ask his paradigm: the wordlist lists `ngangah` and glosses neither it
+nor any of its three slots, while Pecoraro wrote four separate cards on it that
+agree with each other on 啞巴 and 痴. Guards: the agreement must be a **bigram**
+(two glosses of his share 的 and 使 and 人 by the nature of his prose), and it
+takes **two** supporters (one cross-referencing card is a restatement, not
+corroboration — `pnkltudan` and `pkltudan` carry the same sentence and would
+vouch for each other in a circle). Where the paradigm SPEAKS and disagrees the
+value stays pale, and that is the larger half of the bucket.
+
+*He names the word himself.* Some glosses are not meanings but **pointers** —
+`rnjingan`'s entire gloss is （ldingan 的過去式）— so `_agrees` has nothing to
+weigh rather than something to reject. A stated root beats an inferred one:
+every other rule peels affixes and then argues the inference is right; here he
+says it outright.
+
+**The refused third shape, and why it is the SISUN error with a citation
+attached.** Letting the pointer SUPPLY a root where the affix rules find none,
+paid for with a gloss agreement, gains ten types and every one is wrong the same
+way. His 參見 and 較常說 are **see-also** notes: `loai` 外部 carries
+較常說：NGANGOT, `nilaq` a mushroom cross-references another mushroom. The
+pointer names a synonym, the gloss agrees because synonyms mean the same thing,
+and out comes `loai`'s spelling certified by a modern word that is not `loai`.
+**A cross-reference is evidence about the root of a word he is analysing, never
+about the spelling of a word he is merely comparing.** The pointer must land on
+a root the morphology independently found.
+
+**A pointer inside a question is not a citation.** He marks his own uncertainty
+with ？ and is scrupulous about it, so the punctuation is his evidence. `tbowyak`
+is （詞根 BOYAQ？）＝痛得打滾 — he is *asking* whether the root is BOYAQ, and
+`bowyak` is 山豬 a wild boar. `empsibus` is （Pksibus?）加糖 while its own sibling
+`pksibus` carries 參見 Psibus with no question mark; the pair draws the line
+exactly where he drew it.
+
+**Refuted cheaply, and worth not reopening.** The 612 occurrences whose root is
+in no wordlist stay dead: `spoken_truku.json` is a strict subset of
+`attested_modern.json` (0 types outside it), and admitting `parquet_truku_freq`
++ `bible_truku_freq` as root sources reaches 26 occurrences, nearly all trivia.
+The SYN vein is 163 rows / 292 occurrences that fail only on `_agrees`, and
+under SYN's own doctrine — interchangeable, not merely associated — one
+qualifies (`embbuway` 互相贈與 / `buway` 給).
+
+**A tripwire set in advance caught this batch.** (a) verified `psiisi`,
+`psiisan`, `psiisun` and dom153 went red. Batch 153 respelled his SISI/SISAN/
+SISUN paradigm on a Truku speaker's ruling, let the unlisted causatives go
+honestly pale, and wrote the trap in the same breath: *"if these ever go dark
+without a speaker or a listing behind them, the respelling has been allowed to
+carry verification with it, which it must never do."* Exactly what happened —
+this rung asks whether his own cards agree about a **listed** root, and `siisan`
+is listed only because we put it there, so what agreed with itself was our own
+respelling. Six occurrences refused, in `HAND_NOT_FAMILY`. **Run the whole suite
+before committing, not the new log.** A log that only ever confirms the batch
+that wrote it is decoration.
+
++11 values / 22 occurrences, 0 de-verified, **0 new pale types**.
+97.3415% → **97.3910%** (43,301 / 1,128 / 32).
+
 ## An empty candidate list is not a refusal (batch 164, 2026-08-02)
 
 Nineteen batches of widening rungs, and the largest block left in the census

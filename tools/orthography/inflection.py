@@ -53,6 +53,9 @@ D = os.path.dirname(os.path.abspath(__file__))
 H = os.path.normpath(os.path.join(D, "..", ".."))
 TOK = re.compile(r"[A-Za-zÀ-ÿłŁʔ'’\"]+")
 HAN = re.compile(r"[一-鿿]+")
+# [batch 165] A romanized token inside one of his Chinese glosses — the shape
+# of a cross-reference. See crossref() on why the scan may be this loose.
+LATIN_TOK = re.compile(r"[A-Za-z][A-Za-z'’ç]{2,}")
 # A gloss that says "same as above" rather than saying anything. 61 pale slot
 # occurrences ride on one -- 38 of them on 同上之動詞形 alone -- and regular()
 # tests his Chinese against the listed root's own gloss, so a pointer has no
@@ -171,8 +174,21 @@ def root_groups(cands):
     off either side. See no_chinese(): the ambiguity guard is about which ROOT
     the value is built on, and two spellings of one root are not a tie.
     """
+    # [batch 165] The sort key is (len, x) and not len, and the second field is
+    # not cosmetic. The grouping below is GREEDY — x joins the first group it
+    # touches — so its result depends on the order it walks the candidates, and
+    # `cands` arrives as a set. Sorting by length alone leaves every tie among
+    # equal-length candidates to be broken by the set's iteration order, which
+    # Python varies per process. `mngahan` reaches `mngaha`, `mngahi`,
+    # `ngahan`, `ngaha`, `ngahi`, `ngaho`, `ngahu` — six of them tied at two
+    # lengths — and fell into one group or two depending on the run, so
+    # no_chinese()'s one-group gate passed or failed and the word came out
+    # verified in three builds out of four. Found by rebuilding twice with no
+    # change and diffing. Every rule that reads this gate — no_chinese() is
+    # 194 values — was that unstable, and a dom log asserting such a word was
+    # asserting a coin flip.
     groups = []
-    for x in sorted(cands, key=len):
+    for x in sorted(cands, key=lambda x: (len(x), x)):
         for g in groups:
             if any(a in b or b in a for y in g
                    for a, b in ((x, y), (_core(x), _core(y)),
@@ -389,6 +405,34 @@ HAND_NOT_NC = set("""slungan drnai ggitan empslangan mtgtmaq narung
 #               accident with no morphology behind it.
 HAND_NOT_STACK = set("""dmtsapat empkduriq empnalu ntnring mtkkrang
     spsdharun""".split())
+# [batch 165] The two rungs below read evidence the other eleven never look at,
+# so each needs its own refusal list; a pin on a rung above cannot reach them.
+#   HAND_NOT_XREF — A POINTER INSIDE A QUESTION IS NOT A CITATION. He marks his
+#   own uncertainty with ？ and he is scrupulous about it, so the punctuation is
+#   evidence and it is his. `tbowyak` is （詞根 BOYAQ？）＝痛得打滾 — he is
+#   asking whether the root is BOYAQ, and `bowyak` is 山豬 a wild boar, which
+#   is not rolling on the ground in pain but is spelled the same. `empsibus` is
+#   （Pksibus?）加糖: its sibling `pksibus` carries 參見 Psibus with no question
+#   mark and is admitted, and the two together are the distinction drawn as
+#   sharply as he draws it.
+#   `mnalu` is batch 161's homograph refusal and `pauxun` is the PAUX family
+#   the SYN note refuses by name at 15 occurrences. Both are reachable through
+#   a pointer, and neither refusal was ever for want of a link.
+HAND_NOT_XREF = set("""tbowyak empsibus mnalu pauxun""".split())
+#   HAND_NOT_FAMILY — his family agrees with itself about the wrong root, or
+#   an earlier batch pinned the word on a ground this rung cannot see.
+#   `psiisi`, `psiisan`, `psiisun` are the second kind, and they are the reason
+#   the regression suite exists. Batch 153 respelled his SISI/SISAN/SISUN
+#   paradigm to `siisi`/`siisan`/`siisun` on a Truku speaker's ruling, and wrote
+#   down the tripwire in the same breath: the causatives are NOT listed, so
+#   "if these ever go dark without a speaker or a listing behind them, the
+#   respelling has been allowed to carry verification with it, which it must
+#   never do." This rung is exactly that failure. It fires because `siisan` is
+#   now in the wordlist — but it is in the wordlist because WE respelled it, and
+#   his own cards then agree with each other about a root only our hand map
+#   gave him. Six occurrences, refused. dom153 caught it; nothing else would
+#   have.
+HAND_NOT_FAMILY = set("""psiisi psiisan psiisun""".split())
 # [batch 163] The second six, found the same way as the first six and read
 # against the sentence he prints them in. `mslangan` is `empslangan`'s own
 # sibling — it stands in BMBANG 鐵皮－鐵桶, rust on tin, which is his SLANGAN
@@ -728,6 +772,18 @@ class Inflection(object):
         self.slot = self._his_glosses(entries, slots_only=True)
         self.par = self._paradigm_tokens(entries)
         self.frozen = self._frozen(entries, mp)
+        # [batch 165] crossref() cites in his orthography; his_family() needs
+        # his paradigm the way derived() gives the wordlist's. Both are read
+        # only by those two rungs — neither widens `lex`, and neither can
+        # become a modern spelling.
+        self.raw2mod = {k.lower(): val for k, val in mp.items()}
+        self.fam = collections.defaultdict(set)
+        for val in self.inv:
+            if not self.slot or not self._his(val, slots_only=True):
+                continue
+            for c, _, _, _ in self.roots(val):
+                if c in self.lex:
+                    self.fam[c].add(val)
 
     @staticmethod
     def _paradigm_tokens(entries):
@@ -1623,3 +1679,157 @@ class Inflection(object):
                     best = (cost, (c, c2, p + "|" + p2, sf + "|" + sf2,
                                    "step", sh))
         return best[1] if best else None
+
+    # ---- his own paradigm, where the wordlist has nothing to say ------------
+    def his_family(self, v):
+        """(root, prefix, suffix, [his supporters], shared bigram) or None.
+
+        `unglossed_root()` fires where the wordlist lists a root and never
+        glossed it, and asks the root's own modern PARADIGM in the gloss's
+        place. That works while some slot of the paradigm carries a gloss. For
+        eleven types it does not: the root is bare, and every slot the wordlist
+        prints for it is bare too. The wordlist is not disagreeing with him —
+        it is silent from end to end, and `_agrees` returns None for want of
+        anything at all to read.
+
+        So ask HIS paradigm. `ngangah` is the shape. The modern wordlist lists
+        it and glosses neither it nor any of its three slots; Pecoraro has four
+        separate cards on it — `pnngangah` 表現得像啞巴、像白痴, `mnngangah`
+        白痴——笨蛋——傻子——啞巴, `nngangah` 從（原本）啞、痴的狀態而來,
+        `pngangah` — and they agree with each other on 啞巴 and on 痴 across
+        entries he typed at different times. Four independent statements about
+        one root are a gloss for it, and they are the only gloss there is.
+
+        The distinction from the SISUN trap is the same one `unglossed_root()`
+        draws: this fires ONLY into silence. Where the paradigm speaks and
+        disagrees — `msilung` against `silung` 海, `snulu` against `sulu` 屁股
+        — the disagreement is evidence and the value stays pale. Measured,
+        that is the larger half of the bucket and it is left alone.
+
+        Two guards carry the weight. The agreement must be a BIGRAM and not a
+        single character: two glosses of his own share 的 and 使 and 人 by the
+        nature of his prose, and a one-character match between two entries by
+        the same author at the same desk is worth much less than between two
+        independent sources. And it takes TWO supporters, not one, because one
+        cross-referencing card is a restatement and not a corroboration —
+        `pnkltudan` and `pkltudan` carry the same sentence and would otherwise
+        vouch for each other in a circle.
+        """
+        if v in self.frozen or v in HAND_NOT_FAMILY:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = None
+        for c, p, sf, slot in self.roots(v):
+            if (c not in self.lex or self._gloss(c) or len(c) < 4
+                    or c in self.frozen):
+                continue
+            d = self.derived(c)
+            if len(set(d.values())) < 2:
+                continue
+            if not c.endswith(VSUF) and not any(w[2] for w in d.values()):
+                continue
+            if any(self._gloss(w) for w in d):
+                continue          # the paradigm speaks; unglossed_root() owns it
+            sup = []
+            for w in sorted(self.fam.get(c) or ()):
+                if w == v:
+                    continue
+                sh = self._bigram(his, self._his(w, slots_only=True))
+                if sh:
+                    sup.append((w, sh))
+            if len(sup) < 2:
+                continue
+            cost = len(p) + len(sf)
+            if best is None or cost < best[0]:
+                best = (cost, (c, p, sf, [w for w, _ in sup], sup[0][1]))
+        return best[1] if best else None
+
+    def _bigram(self, a_zhs, b_zhs):
+        """Two Chinese glosses sharing a two-character run. `_agrees` reads a
+        gloss out of the tables; this compares two glosses given directly, and
+        it takes only the bigram tier — see his_family()'s note on why."""
+        if not a_zhs or not b_zhs:
+            return None
+        _, h2 = self._chars(a_zhs)
+        _, r2 = self._chars(b_zhs)
+        return sorted(h2 & r2)[0] if h2 & r2 else None
+
+    # ---- he names the word himself -----------------------------------------
+    def crossref(self, v):
+        """(the word he names, root, shared char or None) or None.
+
+        Every rung above reads his gloss as a MEANING. Sometimes it is not one.
+        `rnjingan`'s entire gloss is （ldingan 的過去式）, `mritan`'s is
+        MILIT 的斜格形, `ktbnaw`'s is MTBNAO 的否定形, `hlingan`'s is
+        XEULING 的斜格形式 — grammar and a name, with no semantic content
+        whatever. `_agrees` cannot fail on these so much as it has nothing to
+        weigh: the Han characters left after the pointer is removed are 的過去
+        式, which agree with everything and therefore with nothing.
+
+        But the pointer is better evidence than any gloss. Every other rule in
+        this file INFERS a root by peeling affixes and then argues the
+        inference is right. Here he states it. `rnjingan` is `ldingan`'s past
+        tense because he wrote that down, and `ldingan` is the `rjingan` 開始
+        that the morphology independently proposed.
+
+        Two shapes:
+          (a) the token he names IS a listed root the morphology found. His
+              statement and the affix analysis agree, and nothing else is
+              needed.
+          (b) the token names a word that decomposes to that same root — he
+              points at a sibling rather than at the root itself.
+
+        Both require the pointer to land on the root the affix rules FOUND,
+        and that requirement is the whole of the rule's safety. A third shape
+        was written and measured and is deliberately absent: where the
+        morphology finds no listed root at all, the pointer could be allowed
+        to supply the only candidate, with a gloss agreement demanded in
+        exchange. It gains ten types and every one of them is wrong in the
+        same way. His 參見 and his 較常說 are SEE-ALSO notes — `loai` 外部
+        carries 較常說：NGANGOT, and `nilaq`, a mushroom, cross-references
+        another mushroom — so the pointer names a synonym, not a form. The
+        gloss then agrees for the obvious reason that synonyms mean the same
+        thing, and what comes out is `loai`'s spelling certified by a modern
+        word that is not `loai`. A cross-reference is evidence about the root
+        of a word he is analysing, never about the spelling of a word he is
+        merely comparing.
+
+        The Latin-token scan is loose on purpose and (a)/(b) are what make it
+        safe: he writes French and Italian in his notes, but a foreign word
+        cannot pass unless it coincides with the root the affix rules already
+        found. HAND_NOT_XREF holds the four it still reaches wrongly.
+        """
+        if v in self.frozen or v in HAND_NOT_XREF:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        ptr = self._pointers(v)
+        if not ptr:
+            return None
+        cands = {c for c, _, _, _ in self.roots(v) if c in self.lex}
+        hit = sorted(cands & ptr)
+        if hit:
+            return (hit[0], hit[0], None)
+        for t in sorted(ptr):
+            for c, _, _, _ in self.roots(t):
+                if c in cands:
+                    return (t, c, None)
+        return None
+
+    def _pointers(self, v):
+        """Every romanized token in his gloss, in modern spelling where the
+        map knows it. He cites in his own orthography and in caps."""
+        out = set()
+        for z in (self._his(v, slots_only=True) or ()):
+            for t in LATIN_TOK.findall(str(z)):
+                t = t.lower().replace("ç", "").replace("’", "'")
+                if not t or t == v:
+                    continue
+                out.add(t)
+                if t in self.raw2mod:
+                    out.add(self.raw2mod[t])
+        out.discard(v)
+        return out

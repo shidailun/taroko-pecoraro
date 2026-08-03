@@ -305,6 +305,10 @@ def main():
             return 0.03125
         if affix(p):
             return 0.015625
+        if inf.his_family(p):
+            return 0.0078125
+        if inf.crossref(p):
+            return 0.00390625
         return 0
 
     def level(v):
@@ -334,10 +338,13 @@ def main():
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
     chain = sorted(v for v in keys if lv[v] == 0.03125)
     afx = sorted(v for v in keys if lv[v] == 0.015625)
+    famly = sorted(v for v in keys if lv[v] == 0.0078125)
+    xref = sorted(v for v in keys if lv[v] == 0.00390625)
     good = sorted(listed + infl + vouch + ungl + outv + nochi + vroot + sistr
-                  + syncp + chain + afx)
+                  + syncp + chain + afx + famly + xref)
     emit = {2: 1, 1: 2, 0.5: 3, 0.375: 4, 0.34375: 5, 0.3125: 6, 0.25: 7,
-            0.125: 8, 0.0625: 9, 0.03125: 10, 0.015625: 11}
+            0.125: 8, 0.0625: 9, 0.03125: 10, 0.015625: 11, 0.0078125: 12,
+            0.00390625: 13}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -416,12 +423,29 @@ def main():
         "// word entries; their claim is `p` -> `p`, an identity, so there is no\n"
         "// respelling to doubt. No lexicon lists an affix, so the evidence is that\n"
         "// it is productive over words the lexicon DOES list.\n"
-        "// app.js paints all eleven in the deep brown; a value NOT in here is still\n"
-        "// a proposal and stays pale.\n"
+        "// 12 = HIS OWN PARADIGM, where the wordlist has none (%d). Rule 4 asks a\n"
+        "// listed-but-unglossed root's modern paradigm what the root means. For\n"
+        "// these the paradigm is glossless too, end to end — the wordlist is not\n"
+        "// disagreeing, it is silent — so his own cards on that root are asked\n"
+        "// instead. Two of them, agreeing on a two-character run: one card is a\n"
+        "// restatement, and a single shared character between two glosses by the\n"
+        "// same hand is his prose style, not corroboration. Where the paradigm\n"
+        "// SPEAKS and disagrees, the disagreement is evidence and the value stays\n"
+        "// pale.\n"
+        "// 13 = HE NAMES THE WORD (%d). Some glosses are not meanings but\n"
+        "// pointers — `rnjingan` is （ldingan 的過去式）and nothing else — so there\n"
+        "// is nothing for rules 2-12 to weigh. A stated root beats an inferred\n"
+        "// one: where the token he cites IS the root the affix rules found — or a\n"
+        "// sibling built on it — his statement and the analysis agree, and that is\n"
+        "// the whole evidence. The pointer must land on a root the morphology\n"
+        "// found; it may never supply one, because his 參見 notes cite synonyms as\n"
+        "// well as forms and a synonym says nothing about how THIS word is spelt.\n"
+        "// app.js paints all thirteen in the deep brown; a value NOT in here is\n"
+        "// still a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(ungl),
            len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(chain),
-           len(afx)))
+           len(afx), len(famly), len(xref)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
     out.write("};\n")
@@ -431,12 +455,14 @@ def main():
           "no Chinese of his: %d   "
           "inflected off a vouched root: %d   "
           "sister slot: %d   syncopated root: "
-          "%d   chained root: %d   affix letter: %d   unverified: %d   "
+          "%d   chained root: %d   affix letter: %d   his own paradigm: %d   "
+          "he names the word: %d   unverified: %d   "
           "(of %d distinct)"
           % (len(listed), len(infl), len(vouch), len(ungl), len(outv),
              len(nochi),
              len(vroot), len(sistr),
-             len(syncp), len(chain), len(afx), len(keys) - len(good), len(keys)))
+             len(syncp), len(chain), len(afx), len(famly), len(xref),
+             len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 
 
