@@ -39,6 +39,16 @@ audit of 2026-08-03 read all 34 and cleared 33 of them:
   daloas -> dowras      cited 人名 because the cliff word is also a man's name.
   x'lyeq -> hgliq       毀約 is 撕裂 applied to an agreement.
 
+**Two homographic cards, one key: the class this tool cannot fix.** `modernize()`
+takes a word and no entry, so a raw token that appears on two different cards
+gets one spelling. Both known cases are recorded here because nothing else can
+see them:
+
+  Mpolo   p. 222, below.
+  BIRI    p. 41, two cards, 2 slots each. Batch 168 ruled the wet card `bili`
+          on a speaker's say-so, which makes the `Dernier` card's two
+          occurrences knowingly wrong. 43,320 dark contains those 2.
+
 The one that did not clear is `Mpolo`, and it is not fixable here. p. 222 carries
 TWO subs spelled Mpolo: 發起者／模仿者, which is `purug`, and 患風濕、痛風的人
 with the example `mpolo kana papaq mo!` 我的腳滿是風濕. The second is a different

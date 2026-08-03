@@ -2446,6 +2446,37 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## His <r> had never crossed, and a speaker crossed it (batch 168, 2026-08-03)
+
+`logs/dom168.py`. Sheet 1 row 2 asked whether `biri`/`tbiran` come from `bir`
+車聲（擬聲詞）. They do not, and reading the cards asked a better question.
+
+**OCR sanity check first, and it came back clean.** p. 41 really does carry two
+cards spelled BIRI — `(R.?) = Dernier` and `(R.?) = Mouillé tout outre`. `(R.?)`
+is his own doubt marker on the root. **The scan offset is not uniform**: the
+`pages` field of `data/batch_NNN.json` indexes `scans/full/page_NNN.png`
+directly, NOT the printed page number, which runs 21 lower in that stretch.
+Check the content, not the header, when confirming a card.
+
+**A statistic said no and a speaker said yes.** His `<l>` is ambiguous — 1,151
+become modern `<r>`, 1,275 stay `<l>` — but his `<r>` had never once crossed: 0
+cases of `<r>` → `<l>` in 5,514 respellings, against 71 where it stays. `bili`
+很濕 (spoken ×10, with `blbili`/`dbili`/`empsbili`/`gmnbili` behind it) is the
+first crossing in the map. It stands, because `Biri kana lukus mo da` is `bili
+kana lukus mu`. Recorded so the *second* crossing is not waved through on the
+strength of this one.
+
+**Two of the four occurrences are knowingly wrong, and that is the price.**
+`modernize()` takes a word and no entry, so one key spells both cards — the same
+wall as p. 222's two `Mpolo` subs. Batch 69 held this tie for that reason; this
+ruling overrides it. Both cases now sit in `audit_rare.py`'s docstring, which is
+the only place the census's blindness is written down.
+
+`tbilan` is untouched: he glosses it `？？` himself, it is transparently an LF in
+`-an`, and with the root unknown the `<l>` is a coin flip.
+
++4 occurrences. 97.4247% → **97.4337%** (43,320 / 1,109 / 32).
+
 ## A root in -aw writes -ag- before a suffix (batch 167, 2026-08-03)
 
 `inflection.py: awag()`, rung 10 of 14. `logs/dom167.py`.
