@@ -23972,8 +23972,7 @@ window.ENTRIES = [
             "t": "Bonga ni maso ka kkudus nami",
             "fr": "Ce sont les patates douces et le millet qui nous aident à vivre.",
             "en": "It is sweet potatoes and millet that help us to live.",
-            "zh": "是地瓜和小米幫助我們活下去。",
-            "a": "ex_bonga_ni_naso_ka_kkudus_nami"
+            "zh": "是地瓜和小米幫助我們活下去。"
           }
         ]
       },
@@ -26233,16 +26232,16 @@ window.ENTRIES = [
         "en": "Grandchild.",
         "zh": "孫子。",
         "a": "ex_laqe_laqe"
-      },
-      {
-        "t": "Lqlaqe (vl. llaqe)",
-        "fr": "Les enfants.",
-        "en": "The children. (var. llaqe)",
-        "zh": "孩子們。（或：llaqe）",
-        "a": "ex_lqlaqe_vl_llaqe"
       }
     ],
     "subs": [
+      {
+        "form": "Lqlaqe (vl. llaqe)",
+        "fr": "Les enfants.",
+        "en": "The children. (var. llaqe)",
+        "zh": "孩子們。（或：llaqe）",
+        "examples": []
+      },
       {
         "form": "Lqean",
         "fr": "A l'enfant - pour l'enfant.",
@@ -26368,8 +26367,7 @@ window.ENTRIES = [
             "t": "Wada mlatat kana ka mlmilit (nmilit) so da, Bal!",
             "fr": "Sibal, toutes tes chèvres se sont sauvées (sont sorties)!",
             "en": "Sibal, all your goats have run off (have got out)!",
-            "zh": "希巴爾，你的羊全都跑出去了！",
-            "a": "ex_wada_mlatat_kana_ka_nlmilit_nmilit_so_da"
+            "zh": "希巴爾，你的羊全都跑出去了！"
           }
         ]
       },
@@ -26497,15 +26495,13 @@ window.ENTRIES = [
             "t": "D'xok so ka iso o, asi mllawa kana da",
             "fr": "A peine tu arrives, les voilà tous dans un grand brouhaha.",
             "en": "No sooner do you arrive than they are all in a great hubbub.",
-            "zh": "你才剛到，他們就全都吵成一團了。",
-            "a": "ex_d_xok_so_ka_iso_o_asi_nllawa_kana_da"
+            "zh": "你才剛到，他們就全都吵成一團了。"
           },
           {
             "t": "Ini tdoa mllawa ska sapax ta xdolan nii !",
             "fr": "Il n'est pas permis de chahuter dans ce local où nous offrons des sacrifices (dans cette église).",
             "en": "It is not permitted to make a racket in this place where we offer sacrifices (in this church).",
-            "zh": "在這個我們獻祭的場所（在這座教堂裡）不准喧鬧。",
-            "a": "ex_ini_tdoa_nllawa_ska_sapax_ta_xdolan_nii"
+            "zh": "在這個我們獻祭的場所（在這座教堂裡）不准喧鬧。"
           }
         ]
       },
@@ -28593,8 +28589,7 @@ window.ENTRIES = [
             "t": "Mnalox so? Ma mlidil ka tunuç so!",
             "fr": "Tu es malade? C'est curieux,ta tête est de travers !",
             "en": "Are you sick? It's odd, your head is crooked!",
-            "zh": "你生病了嗎？真奇怪，你的頭是歪的！",
-            "a": "ex_mnalox_so_ma_nlidil_ka_tunu_so"
+            "zh": "你生病了嗎？真奇怪，你的頭是歪的！"
           }
         ]
       },
@@ -28694,8 +28689,7 @@ window.ENTRIES = [
             "t": "Mxa ko lnigao tityex , mawit ko da",
             "fr": "Je vais faire un tour, je suis fatigué.",
             "en": "I'm going to take a walk, I'm tired.",
-            "zh": "我去走一走，我累了。",
-            "a": "ex_mxa_ko_lnigao_tityex_nawit_ko_da"
+            "zh": "我去走一走，我累了。"
           }
         ]
       },
@@ -28709,8 +28703,7 @@ window.ENTRIES = [
             "t": "Iso bi nanak ka mniyax suxal pligao mnan mkdgiyaq",
             "fr": "C'est bien toi qui es venu autrefois nous faire faire une promenade en montagne!",
             "en": "It was indeed you who came in the past to take us for a walk in the mountains!",
-            "zh": "以前就是你來帶我們去山上散步的！",
-            "a": "ex_iso_bi_nanak_ka_nniyax_suxal_pligao_mnan"
+            "zh": "以前就是你來帶我們去山上散步的！"
           },
           {
             "t": "Ini xali nksa ka Imin mo, wana bi Libiç ka pligao xeaan ppxal",
@@ -29580,8 +29573,7 @@ window.ENTRIES = [
             "t": "Adi ! Laqe mo meidang ka splingis knan",
             "fr": "Ce n'est pas cela, c'est mon fils dévoyé (perdu) qui me fait pleurer.",
             "en": "That's not it, it is my wayward (lost) son who makes me cry.",
-            "zh": "不是這樣，是我那誤入歧途（迷失）的兒子讓我哭。",
-            "a": "ex_adi_laqe_mo_neidang_ka_splingis_knan"
+            "zh": "不是這樣，是我那誤入歧途（迷失）的兒子讓我哭。"
           }
         ]
       },
@@ -31707,8 +31699,7 @@ window.ENTRIES = [
             "t": "Sapox mmulun ka b'xgai, sapox lqnun ka mbanax",
             "fr": "Le blanc est un médicament à sucer, le rouge est à avaler.",
             "en": "The white one is a medicine to suck, the red one is to be swallowed.",
-            "zh": "白色的藥是含服的，紅色的是吞服的。",
-            "a": "ex_sapox_nmulun_ka_b_xgai_sapox_lqnun_ka_mb"
+            "zh": "白色的藥是含服的，紅色的是吞服的。"
           }
         ]
       }
@@ -31868,8 +31859,7 @@ window.ENTRIES = [
             "t": "Ga slpian kana muxeng mo da",
             "fr": "Mon nez est complètement bouché.",
             "en": "My nose is completely blocked.",
-            "zh": "我的鼻子完全堵住了。",
-            "a": "ex_ga_slpian_kana_nuxeng_mo_da"
+            "zh": "我的鼻子完全堵住了。"
           }
         ]
       }
@@ -32654,8 +32644,7 @@ window.ENTRIES = [
             "t": "Asi mlut (m'lut ?) xeaan ka Awi adi na bi sqoaqe",
             "fr": "Il a fallu qu'intervienne Awi (en faisant pression sur lui) pour qu'il ne parle pas. VR. P'LUT .",
             "en": "Awi had to intervene (by putting pressure on him) so that he would not speak. See P'LUT.",
-            "zh": "必須由 Awi 出面（對他施壓），他才不會說話。參見 P'LUT。",
-            "a": "ex_asi_nlut_m_lut_xeaan_ka_awi_adi_na_bi_sq"
+            "zh": "必須由 Awi 出面（對他施壓），他才不會說話。參見 P'LUT。"
           }
         ]
       },
@@ -33015,8 +33004,7 @@ window.ENTRIES = [
             "t": "Ksia maxon ka nii! lalao bi xmut plutyaq!",
             "fr": "Cette eau est de l'eau pour boire, évite de la salir inconsidérément.",
             "en": "This water is drinking water, avoid dirtying it carelessly.",
-            "zh": "這水是飲用水，別隨便把它弄髒。",
-            "a": "ex_ksia_naxon_ka_nii_lalao_bi_xmut_plutyaq"
+            "zh": "這水是飲用水，別隨便把它弄髒。"
           },
           {
             "t": "Ya xmut plutyaq tlangan daxa",
@@ -33102,8 +33090,7 @@ window.ENTRIES = [
             "t": "Miyax mtluula bi tqeta nkl\"lu ka xea",
             "fr": "Il est ouvertement venu se montrer le long de la route. VR. TLUULA .",
             "en": "He openly came to show himself along the road. See TLUULA.",
-            "zh": "他公然沿路現身。參見 TLUULA。",
-            "a": "ex_miyax_ntluula_bi_tqeta_nkl_lu_ka_xea"
+            "zh": "他公然沿路現身。參見 TLUULA。"
           }
         ]
       },
@@ -34240,22 +34227,19 @@ window.ENTRIES = [
             "t": "Nmalu s'xiga o, wada naqex dole",
             "fr": "De bien qu'il était hier, le voilà de nouveau mal.",
             "en": "Well as he was yesterday, here he is unwell again.",
-            "zh": "他昨天還好好的，如今又不舒服了。",
-            "a": "ex_nnalu_s_xiga_o_wada_naqex_dole"
+            "zh": "他昨天還好好的，如今又不舒服了。"
           },
           {
             "t": "Kingal so nmalu sadyaq ka iso",
             "fr": "Toi tu es l'une parmi les bonnes personnes.",
             "en": "You are one of the good people.",
-            "zh": "你是好人之一。",
-            "a": "ex_kingal_so_nnalu_sadyaq_ka_iso"
+            "zh": "你是好人之一。"
           },
           {
             "t": "Nmalu suxal ka xea",
             "fr": "Il était bien autrefois.",
             "en": "He was well in the past.",
-            "zh": "他從前是好的。",
-            "a": "ex_nnalu_suxal_ka_xea"
+            "zh": "他從前是好的。"
           }
         ]
       },
@@ -35894,8 +35878,7 @@ window.ENTRIES = [
         "t": "Mxa mlata",
         "fr": "Aller soldat.",
         "en": "To go (become) a soldier.",
-        "zh": "去當兵。",
-        "a": "ex_mxa_nlata"
+        "zh": "去當兵。"
       },
       {
         "t": "Mxa nqan",
@@ -37287,8 +37270,7 @@ window.ENTRIES = [
             "t": "Wana bi maxal xei sngali ka mniyax",
             "fr": "Il n'y a que dix et quelques personnes qui sont venues.",
             "en": "There are only ten-odd people who came.",
-            "zh": "只來了十幾個人。",
-            "a": "ex_wana_bi_maxal_xei_sngali_ka_nniyax"
+            "zh": "只來了十幾個人。"
           }
         ]
       }
@@ -42515,8 +42497,7 @@ window.ENTRIES = [
             "t": "Ini tdoa motong ka potong so nii; mxolyaq da !",
             "fr": "On ne peut pas allumer tes allumettes; elles sont mouillées !",
             "en": "One cannot light your matches; they are wet!",
-            "zh": "你的火柴點不著，都濕了！",
-            "a": "ex_ini_tdoa_notong_ka_potong_so_nii_mxolyaq"
+            "zh": "你的火柴點不著，都濕了！"
           }
         ]
       },
@@ -44915,8 +44896,7 @@ window.ENTRIES = [
             "t": "Qpaxan so manu ka mtqeli tqean so?",
             "fr": "Avec quoi vas tu tapisser le pourtout de ta chambre (!) à coucher ?",
             "en": "What are you going to line the whole of your bedroom (!) with?",
-            "zh": "你要用什麼鋪滿你睡覺的房間（！）四周？",
-            "a": "ex_qpaxan_so_manu_ka_ntqeli_tqean_so"
+            "zh": "你要用什麼鋪滿你睡覺的房間（！）四周？"
           }
         ]
       },
@@ -45023,8 +45003,7 @@ window.ENTRIES = [
             "t": "Xbalao bi sadyaq mniyax qmapol xeaan snax ana ino",
             "fr": "Ils sont venus nombreux de partout (de nombreuses personnes .. venues de tous les côtés) l'entourer ,",
             "en": "They came in great numbers from everywhere (many people .. come from all sides) to surround him,",
-            "zh": "他們從四面八方大批前來（許多人……從各方而來）圍住他，",
-            "a": "ex_xbalao_bi_sadyaq_nniyax_qmapol_xeaan_sna"
+            "zh": "他們從四面八方大批前來（許多人……從各方而來）圍住他，"
           }
         ]
       }
@@ -55223,8 +55202,7 @@ window.ENTRIES = [
             "t": "Knkingal psmyanan daxa o, ida sinao ka maxon daxa balae =",
             "fr": "A chacune de leurs fêtes, c'est surtout du vin qu'ils boivent.",
             "en": "At each of their festivals, it is above all wine that they drink.",
-            "zh": "他們每逢節慶，主要就是喝酒。",
-            "a": "ex_knkingal_psmyanan_daxa_o_ida_sinao_ka_na"
+            "zh": "他們每逢節慶，主要就是喝酒。"
           }
         ]
       }
@@ -59970,8 +59948,7 @@ window.ENTRIES = [
             "t": "Ana betak knuwan ida ko mtaga sunan",
             "fr": "Je t'attendrai le temps qu'il faudra (même jusqu'à n'importe quand, je t'attendrai).",
             "en": "I will wait for you as long as it takes (even until whenever, I will wait for you).",
-            "zh": "我會等你等到需要的時候（即使等到任何時候，我都會等你）。",
-            "a": "ex_ana_betak_knuwan_ida_ko_ntaga_sunan"
+            "zh": "我會等你等到需要的時候（即使等到任何時候，我都會等你）。"
           }
         ]
       },
@@ -60590,8 +60567,7 @@ window.ENTRIES = [
             "t": "Mndaxa, mnt'lo wada mo pstl'xun (pnstl'xun) ka idao nii!",
             "fr": "Il m'a déjà fallu le réchauffer deux trois fois ce riz!.",
             "en": "I've already had to reheat this rice two or three times!",
-            "zh": "這飯我已經熱過兩三次了！",
-            "a": "ex_nndaxa_mnt_lo_wada_mo_pstl_xun_pnstl_xun"
+            "zh": "這飯我已經熱過兩三次了！"
           }
         ]
       },
@@ -66961,8 +66937,7 @@ window.ENTRIES = [
             "t": "Naqex bi ka m'ulat papaq pida muda ta daolas siida !",
             "fr": "C'est très dangereux d'attraper une crampe quand on grimpe dans les rochers !",
             "en": "It is very dangerous to get a cramp when one is climbing among the rocks!",
-            "zh": "攀爬岩石時抽筋是非常危險的！",
-            "a": "ex_naqex_bi_ka_n_ulat_papaq_pida_muda_ta_da"
+            "zh": "攀爬岩石時抽筋是非常危險的！"
           }
         ]
       }
@@ -69474,8 +69449,7 @@ window.ENTRIES = [
             "t": "Dyagi ko pxdayo tama so mmxa bbuyo",
             "fr": "Prépare-moi (aide-moi à préparer) le casse-croûte de ton père qui va partir en montagne (à la chasse)!",
             "en": "Prepare for me (help me prepare) the snack for your father who is going to the mountains (hunting)!",
-            "zh": "幫我準備（幫我做）你父親的乾糧，他要上山（打獵）！",
-            "a": "ex_dyagi_ko_pxdayo_tama_so_nmxa_bbuyo"
+            "zh": "幫我準備（幫我做）你父親的乾糧，他要上山（打獵）！"
           }
         ]
       },
@@ -70206,8 +70180,7 @@ window.ENTRIES = [
             "t": "Miyax mglaxol siyao gsilong nami kana ka dkmtxedao pnax alang paro",
             "fr": "Tous ceux des villes qui veulent se faire bronzer viennent s'attrouper sur le rivage de notre mer.",
             "en": "All the city folk who want to get a tan come and gather on the shore of our sea.",
-            "zh": "城裡所有想曬黑的人都來我們的海邊聚集。",
-            "a": "ex_miyax_nglaxol_siyao_gsilong_nami_kana_ka"
+            "zh": "城裡所有想曬黑的人都來我們的海邊聚集。"
           }
         ]
       },
@@ -72538,8 +72511,7 @@ window.ENTRIES = [
         "t": "Ana kia, ana b'xgai (baxgai), ana mqalox, ana mbanax, xmut ka yako.",
         "fr": "Que ce soit celà, ou blanc, ou noir, ou rouge; peu m'importe !",
         "en": "Whether it be that, or white, or black, or red; it matters little to me!",
-        "zh": "無論是那個、或白的、或黑的、或紅的；我都無所謂！",
-        "a": "ex_ana_kia_ana_b_xgai_baxgai_ana_nqalox_ana"
+        "zh": "無論是那個、或白的、或黑的、或紅的；我都無所謂！"
       },
       {
         "t": "Xmut kmpax o, ini toko",
@@ -72733,8 +72705,7 @@ window.ENTRIES = [
             "t": "Ya bi mniyax manu pxnang bilat mo suni",
             "fr": "Qu'est-ce qui a bien pu frapper (faire résonner) mes oreilles tout à l'heure ?",
             "en": "What on earth could have struck (made resound in) my ears just now?",
-            "zh": "剛才到底是什麼敲響了（使……作響）我的耳朵？",
-            "a": "ex_ya_bi_nniyax_manu_pxnang_bilat_mo_suni"
+            "zh": "剛才到底是什麼敲響了（使……作響）我的耳朵？"
           }
         ]
       },
@@ -75349,8 +75320,7 @@ window.ENTRIES = [
         "t": "Nnyeqan ta daya o, betak bi maso, bonga, sali, \"baon, blisan ka txnao balae!",
         "fr": "Quand nous étions là-haut (dans notre ancien territoire), nous étions réduits à ne planter que du millet, des patates douces, des taros, des citrouilles, du sorgho !",
         "en": "When we were up there (in our former territory), we were reduced to planting only millet, sweet potatoes, taros, pumpkins, sorghum!",
-        "zh": "當我們在上面（在我們的舊領地）時，我們只能種小米、地瓜、芋頭、南瓜、高粱！",
-        "a": "ex_nnyeqan_ta_daya_o_betak_bi_naso_bonga_sa"
+        "zh": "當我們在上面（在我們的舊領地）時，我們只能種小米、地瓜、芋頭、南瓜、高粱！"
       }
     ],
     "subs": []

@@ -1,0 +1,1793 @@
+# Batch log (batch 136 onward)
+
+<!-- Moved out of CLAUDE.md 2026-08-03 to keep the always-loaded file small. Content is verbatim; nothing was deleted. -->
+
+Newest work is at the top of each dated heading group, as in the original.
+
+## The spoken corpus — how to widen it (2026-08-02)
+
+`load_spoken()` now reads the ILRDF collections twice: the flattened
+`ILRDF_texts.xlsx` export, and `parquet_truku_freq.json`, the datasets read
+directly. The export had lost a third of them (272,150 tokens against **361,630**,
+47,517 utterances against 54,457). Batch 136 gave the wider reading to
+`build_verified.py`, which only asks *does this string occur*; batch 137 gives it
+to the tier that decides which spelling is right, which is the larger claim.
+
+Two rules govern any future widening, and both were learned by breaking something.
+
+- **MAX across readings, SUM within one.** The xlsx is an export *of* the
+  parquets, so adding the two counts every shared utterance twice — and that
+  breaks the only gate that matters, since a word occurring once would show 1+1
+  and clear the `>= 2` bar built to reject exactly that hapax. Within the parquet,
+  two plain types can `norm()` to one key (`q'mpah`, `qmpah`) and those *are*
+  separate occurrences, so they sum.
+- **The `>= 2` bar is universal, and it is load-bearing hardest where a hit
+  SUBTRACTS.** Tier W's veto (`his form is itself modern Truku, so no e-form`) was
+  ungated, and one new transcript token was enough to strip an attested spelling
+  and hand the word back to one nothing attests: `mbrinah` 1× took the entry from
+  `embrinah` (35× and in the dictionary), `mpurug` 1× from `empurug`, `mphuqil` 1×
+  from `emphuqil`. Gating it repaired a fourth word the *narrow* corpus had already
+  broken the same way — **MBUA**, held at `mbuwa` (nowhere in the omnibus) by a
+  single xlsx token, is now `embuwa` 有氣泡 over his own root `buwa` 氣泡. `LICIT`
+  takes the same bar: a mis-heard token is not evidence that an initial is licit.
+
+The other change is **MIXALASI `mihalasi` → `miharasi`**, tier N → tier S. It is a
+village, and the corpus names it outright — 「故改名為 *Miharasi*。漢語翻成
+「見晴」」 — Japanese 見晴らし *miharashi*, so the `l` he wrote is that word's `r`
+and the name-freeze was protecting a letter that was never there. This is the
+documented order working as designed: attestation outranks the freeze.
+
+Measured: 0 keys added or removed, **2 spellings changed**, 7 relevelled with the
+same value (6 E→S, 1 N→S — an inference becoming a direct attestation, which is
+what more evidence should do). verified.js +2 / −1 / **0 weaker**. DOM census
+94.1280% → **94.1347%** dark (41,854 → 41,857; pale 2,579 → 2,576; green 32),
+1,967 cards, 0 page errors in both spelling modes (`census137.py`).
+
+## The names have a register, and it is digitized (batch 138, 2026-08-02)
+
+**No wordlist has a reason to hold a personal name.** That is why tier N was the
+one population where every spelling was a guess and every word stayed pale
+permanently — "unverified" is a uselessly permanent verdict about a man's name.
+The Council of Indigenous Peoples publishes the register:
+
+    https://indigenous-name.ilrdf.org.tw/#/searchView?zuqunId=13&zuName=太魯閣族
+
+**1,792 Truku names** (男名 928 / 女名 614 / 男女共名 258) and 461 Seediq, 162
+shared, each with its type and a recording of a speaker saying it. It is a Vue
+SPA over a JSON API and the page holds no data, so `fetch_ilrdf_names.py` posts
+to the API the page posts to — `POST /api/api/EthnicLanguageData/GetFirsrWordList`
+with `{FirstWord, EthnicGroupId, page, pageSize, NameTypes}`, EthnicGroupId 13 =
+太魯閣族 and 10 = 賽德克族. There is no "all names" call, so the harvest walks the
+initial-letter index the bundle's own `keyboardFirstName` defines; `o`, `x` and
+`ʼ` come back empty for Truku, which is that alphabet's answer and not a gap.
+The output is committed to `ilrdf_names.json` and **the build must never depend
+on the network**.
+
+`build_verified.py` widens `seen` with it at level 1 (LISTED), exactly as it does
+with the parquets, and — like them — **never widens `lex`**: a name is not a
+root, and handing 1,792 of them to the affix analyser as lexemes is the mistake
+that re-cut `spsangay` onto `sang`.
+
+**The gate is the design.** The register is matched only against the values the
+NAME POPULATION puts on screen, exported by the map builder as
+`name_population.json`: his own `name (m)`/`name (f)` tags (with tier N's two
+restrictions already applied — no `name (.., jp)`, and no token that is also some
+entry's headword) **union** tier N itself. The union is needed in both
+directions: `tatu`, `aman` and `mici` are names he tags as such but an earlier
+tier had already valued them, so tier N never fired and nothing downstream could
+tell they were people. 235 tokens, 235 distinct values, **125 in the register**.
+
+Ungated — plain string matching against 1,792 names — it would also clear **21
+pale types the register lists and this page does not use as names**: `tabu` is
+his 餵養 root, and `aku`, `mici`, `taya`, `urang`, `burung`, `satu`, `bulu`,
+`eku`, `butang` are ordinary words that happen to be spelled like somebody. A
+register of names is evidence about names. Those 21 are the load-bearing
+assertion in `dom138.py`; if the gate ever reads the register as a wordlist they
+are what falls first.
+
+**Yield: 61 values / 189 occurrences turn dark**, led by `mikat` 33, `sikat` 16,
+`tatu` 14, `talan` 13, `imin` 12, `tain` 11, `utun` 10. Three of them —
+`masa`, `duka`, `atu` — are words the *earlier* name pass got wrong from the
+other side: `llm_map.json`'s `_names` guard records MASA being adjudicated onto
+`msa` 說 and DUKA onto `dka` 一半 because a name entry has no gloss to
+adjudicate against. The register is the evidence that was missing then.
+
+**Nine names the register spells differently**, applied to `manual_map.json`
+under a stated rule (its `_ilrdf_names` key; `_`-prefixed keys are now filtered
+there as they already were in `lexical_map` and `llm_map`, because this file's own
+test — "the omnibus gloss matched his Chinese" — cannot be run on a name):
+his form absent from the register, exactly one registered name one letter away,
+that name's 男名/女名 type agreeing with his own tag, and the letter a
+correspondence this book already documents.
+
+| his | ours was | register | why |
+|---|---|---|---|
+| `lobyaq` | lubyaq | **lubyak** 女名 | q>k, his `name (f)`, 20 occ |
+| `opiç` | upih | **upix** 男名 | his ç **is** modern x — tier N applied x→h to it anyway |
+| `pido` | pido | **pidu** 男名 | o>u, blocked by tier R |
+| `ixeng` | iheng | **ihing** 男名 | e>i |
+| `sido` | sido | **sidu** 女名 | o>u |
+| `pilex` | pileh | **pilih** 女名 | e>i |
+| `komu` | komu | **kumu** 女名 | o>u; an identity claim overturned |
+| `malwi` | maluy | **maruy** 男名 | l>r — the register overrules the name freeze |
+| `tailong` | tailung | **taylung** 男名 | ai>ay, o>u |
+
+Two of those are worth keeping in mind. **`upix` indicts the tier, not the map**:
+this book's first orthographic rule is that his ç is modern x, and tier N ran
+x→h over it regardless. **`maruy` is the documented order working** — the freeze
+exists to stop l→r renaming a man (`Sapah Sibar`), and here the outside source
+says the man really is Maruy, so it outranks the freeze exactly as attestation
+does. `kumu` also brought his accented twin `komù` into agreement, which is what
+tier V asks of a pair his marks split into two keys.
+
+**What the register does NOT settle, and this is the honest half. 94 of the name
+population's 235 values are still pale, 286 occurrences** — `liwis` 38, `ingay`
+24, `lauken` 22, `timin` 11, `pilin` 11, `akit` 10, `atwi` 8. Twenty-two of those
+have exactly one registered name a single letter away, and most were **refused**:
+the edit is not a documented correspondence (`bal`→`balu`, `yiyah`→`biyah`,
+`hatsu`→`hatu`), or the register's type contradicts his tag (`yageh` is his
+`name (m)` and `yagih` is 女名), or two of his distinct names collapse onto one
+registered name (`sipwi` and `sidwi` both sit one letter from `siwi`). The
+tempting class is his final `-n` against the register's `-ing`/`-ung`
+(`pilin`/`piling`, `arin`/`aring`, `apin`/`aping`, `laun`/`laung`, `pirin`/`piring`)
+— **rejected**, because the register writes final `-n` freely itself: -an 115 /
+-ang 136, -in 46 / -ing 112, -un 60 / -ung 105. That is a 30/70 split, not the
+near-exceptionless correspondence tier W's evidence bar wants, and absence from a
+register of names *in use* is weak evidence about a 1977 book.
+
+The register is written in the modern orthography throughout, which is worth
+recording as a check on the rules: 915 of its names carry `u` against 44 with
+`o`, 174 carry `ay` against 4 with `ai` — but 355 carry `l` against 184 with `r`,
+and 52 carry `x`. **l and x are real letters in real names**, which is the whole
+reason the name freeze exists.
+
+Measured: 0 map keys added or removed, **9 spellings changed** (5 N→M, 3 R→M, 1
+M→M), 0 relevelled. verified.js **+69 keys, all level 1, 0 weaker**. DOM census
+94.1347% → **94.6790%** dark (41,857 → 42,099; pale 2,576 → 2,334; green 32),
+1,967 cards, 0 page errors in both spelling modes. `dom138.py`: 61 GAIN dark, 21
+KEEP still pale, 3 JP and 4 MISS untouched, 9 FIX dark with all nine old
+spellings gone from the page, **0 failures**. (14 of the occurrences
+`census137.py` shows moving belong to commit 098b28f, whose six affix letters
+postdate that script's baseline.)
+
+**Appendix 4 reaches further than tier N does.** `site/entries.js` already holds
+it — 270 name-tagged records, `name (m)` 137 / `name (f)` 87 / `name (f, jp)` 28
+/ `name (m, jp)` 17 / `name (m) (?)` 1 — reaching across tiers M, R and V, well
+beyond the 131 tier N had. That is why the population is his tags ∪ tier N rather
+than tier N alone. **After the batch, 59 of the values his own non-jp name tags
+put on screen are still pale, 190 occurrences** (measure this on the DISPLAYED
+value: `modern_map.json` is `{"map": {token: {modern, tier}}}`, and a script that
+forgets the `map` key silently compares his raw tokens instead, which undercounts).
+
+## The register's ceiling, and its floor (batch 139, 2026-08-02)
+
+Batch 138 accepted a respelling when exactly one registered name was **one letter
+away**. That is the wrong shape for a correspondence set — `TAILONG` needed ai>ay
+*and* o>u together and had to be done by hand — so this batch composes the
+documented correspondences and re-asks, over the value each token **puts on
+screen** rather than over his raw token. (A script that reads `modern_map.json`
+without descending into its `map` key compares raw tokens and silently finds
+nothing; that is how the first run of this measurement went wrong.)
+
+The whole automated widening buys **two names**, and both are worth having:
+
+| his | ours was | register | why |
+|---|---|---|---|
+| `sering` | sering | **siring** 男名 | e>i, the same as `ixeng`>`ihing` |
+| `yagex` | yageh | **yagix** 男女共名 | **the `upix` failure again** |
+
+`YAGEX` is the instructive one. His form already carries the x; tier N ran x>h
+over it and printed `yageh`, which put it one letter from `Yagih` 女名 — and
+batch 138 refused it for a type clash *the tier had manufactured*. Undo the x>h
+and his own spelling is one e>i from `Yagix` 男女共名, which a `name (m)` may
+bear. **When a tier's output is the thing being matched, the tier's bugs become
+evidence.** Match his spelling.
+
+Two more are reached and refused, and they are why the type-agreement clause is
+load-bearing rather than decorative. `mixeng` is his `name (f)` and `Mihing` is
+男名. `xane` and `lübaq` carry no tag of his at all — tier N flagged them off
+capitalisation — so there is no type to agree with; and `XANE` is not a name,
+it is a token in the example `ASO NA SAO'LE XANE` under his entry for the
+possessive prefix **N**. `hane`>`hani` would have renamed a grammatical particle
+after a man.
+
+**The floor.** The register was asked for 氏族名 (NameType 3) and 屋名 (4)
+directly, on every initial: **zero rows for 太魯閣族** — and that is not a hole in
+the register. **Truku naming is 親子連名**, a person's own name followed by their
+father's; clan names and house names are other peoples' institutions (屋名 Paiwan
+and Rukai, 氏族名 Tsou and Saisiyat). The 1,792 harvested names are 男名 / 女名 /
+男女共名 because that is all there is to have. Nothing is missing.
+
+What is left is honestly out of reach: **58 values / 189 occurrences he himself
+declares** `name (m)`/`name (f)`, plus 23 `name (.., jp)` values / 43 occurrences
+that are a question about Japanese romanization, not about his Truku spelling —
+`liwis` 38, `akit` 10, `atwi` 8, `apwi` 4. The register was asked and does not
+know.
+
+Measured: 0 map keys added or removed, **2 changed** (both N→M), 0 relevelled;
+verified.js +2, all level 1. DOM 94.6790% → **94.6835%** dark (42,101 / 2,332 /
+32; pecoraro 94.6866%), 1,967 cards, 0 page errors in both modes. `dom139.py`:
+2 FIX dark with both old spellings gone, 9 KEEP still pale, **0 failures**.
+
+## If the name is close, use it (batch 140, 2026-08-02)
+
+Batches 138 and 139 required the edit to be a correspondence this book already
+documents. **That is the wrong bar for a name.** A correspondence table is built
+out of words, and a name is exactly the thing that does not have to obey one —
+it can be his ear, his typewriter, or the family's own spelling. Refusing `qapi`
+because e>a is not in the table left a woman unnamed to protect a rule that was
+never about her.
+
+The rule is now what actually identifies a name:
+
+- **he declares it a name himself** (`name (m)` / `name (f)`), and
+- **exactly one registered name of an agreeing type is one edit away** from the
+  spelling his token puts on screen — his `name (m)` against 男名 or 男女共名,
+  his `name (f)` against 女名 or 男女共名.
+
+Nine more: `boin`>**buhin** 男名, `dado`>**kadu** 男女共名, `koxong`>**kunung**
+女名, `pixeng`>**pihang** 男名, `qepi`>**qapi** 女名, `syobao`>**subaw** 男名,
+`tibi`>**sibi** 男名, `unaq`>**unaw** 男名, `xatsö`>**hatu** 男女共名.
+
+**The tag requirement is what makes closeness safe.** A token tier N flagged off
+capitalisation has no type to agree with, and `xane` is why that matters: it is
+one edit from `Hani` 男名 and it is not a name at all — it is a word in his
+example `ASO NA SAO'LE XANE`, under the entry for the possessive prefix **N**.
+Every untagged token stays refused, `lübaq` and `hane` included.
+
+**Where "close" identifies nobody, nothing is chosen.** `akit` has six agreeing
+names one edit away, `sidi` six, `uding` six. `ingay` — 24 occurrences, the
+heaviest name in the book — has three, and all three are 女名 against his
+`name (m)`. His spelling stands.
+
+**The -Cwi set is refused as a set.** ATWI, APWI, SIDWI, SIPWI are four of his
+names sharing a shape the register does not have, which reads as a convention of
+his rather than four separate slips — and SIDWI and SIPWI would both land on
+`Siwi`, collapsing two names his book keeps apart. `atwi` has a unique agreeing
+match (`amwi`, 8 occ) and is still refused on that ground. One name is worth
+having; a distinction is worth keeping. Contrast `qapi` and `unaw`, where two of
+*his* spellings land on one registered name: there an outside source says they
+were always one name, which is the opposite situation.
+
+Measured: 0 map keys added or removed, **9 changed** (7 N→M, 2 R→M), 0
+relevelled; verified.js +7, all level 1 (two of the nine values were already on
+the page). DOM 94.6835% → **94.7037%** dark (42,110 / 2,323 / 32), 1,967 cards,
+0 page errors. `dom140.py` 0 failures; `dom139.py` and `dom138.py` both still 0
+(dom138's `unaw` expectation raised 1→2, because batch 140 put his UNAQ on the
+same registered name).
+
+Still pale and now genuinely out of reach: **49 values / 180 occurrences he
+declares `name (m)`/`name (f)`** — `ingay` 24, `akit` 10, `atwi` 8 — plus 23
+`name (.., jp)` values, which are a question about Japanese romanization.
+
+## The root is listed, and nobody ever glossed it (batch 141, 2026-08-02)
+
+`regular()` asks two things of a root and needs both — is it listed, and does
+its gloss agree with his Chinese. For **138 types / 223 occurrences** the first
+answer is yes and the second cannot be asked at all: `attested_gloss.json` holds
+nothing for the root. That is a hole in the **gloss table**, not a verdict on
+the word, and this project had already convicted the same hole twice by name —
+`qriban`, and `ttmaan` in `inflection.py`'s HAND_NOT_ROOTED note ("what stops
+regular() reaching it is that `ttmaan` carries no gloss, which is the listing
+gap, not a morphology gap"). Most of a paradigm is glossless; the wordlist
+glosses a citation form and leaves the slots bare.
+
+So `Inflection.unglossed_root()` asks the paradigm instead. `ptbgi` is the
+shape: `tbgi` is listed and bare, `tbgan` 養家畜的地方 is listed too, and his
+gloss is 託人餵養－使人餵養 — agreeing on 養. The root's own inflection speaks for
+the root.
+
+**It cannot reopen the SISUN trap**, which is the first question to ask of any
+rule that touches roots. SISUN's root `sisi` HAS a gloss — 用來濾酒的工具, the
+rattan wine strainer — so `regular()` reads it, refuses on it, and the value
+never arrives here. This rule fires only where `self.gl.get(root)` is empty.
+
+The chain is exactly `vouched_root()`'s length — one affix step to a root, one
+paradigm step from the root to a supporter — so it carries that method's guards
+verbatim: slot-only Chinese, four-letter root floor, root unfrozen, `derived()`
+yielding two DISTINCT affixes, whole/VSUF final-vowel witness. Its one stronger
+respect is why it sits a level **above**: `vouched_root()`'s root is a
+hypothesis, this one is a word the wordlist prints. Emitted level 4;
+`vouched_root`→5, `sistered`→6, `syncopated`→7, `chained`→8, `affix`→9.
+Renumbering is free because **`app.js` only tests membership** of
+MODERN_VERIFIED (`hasOwnProperty`), never the number.
+
+**26 values, read one by one, six pinned** in `HAND_NOT_UNGLOSSED`. All six
+fail the same way, and it is the only way this kind of agreement can fail: the
+shared character is not a word but a **particle**, and no gate can see that,
+because a particle is a character like any other.
+
+- `psqpahan`/`psqpahi`/`psqpahun` — his （主動）地黏貼－使黏附 against `qmpahan`
+  工作的地, agreeing on 地: the ADVERBIAL 地 against the 地 that means ground. He
+  has two roots here and they are not one, QPAH 工作 and SQPAX 黏貼. Right
+  letters, wrong word — SISUN exactly.
+- `mttama`/`tmtama` — 坐著的人／靠著休息 against `pttama` 守著, on 著, the aspect
+  marker. All three glosses wear it and none of them means it.
+- `mrbuq` — his 呈凹陷－形成凹穴 against `trbuq` 形容坑洞深, on the 形 of 形容, the
+  head the wordlist writes before a gloss that DESCRIBES, same class as the 用來
+  already in BOILER. Both readings really are hollows, so it is pinned rather
+  than remapped: **the answer is right and the argument for it is worthless**.
+
+Requiring a two-character RUN instead of a hand list was measured and refused —
+it costs 14 of the 26 to save these 6, including `qnriqani` 恨, `trgrig` 舞,
+`smbrinah` 回 and the three `pllg-` 動, every one a single character that IS a
+word.
+
+Measured: 0 map keys changed; `verified.js` **+20 keys, −0** (`matrima mlxan
+msbrinah msparu mstama mtrima pjiyan pllgan pllgi pllgun pntrilun pqpahan psuqi
+ptbgi qnriqani smbrinah spqnaqih spqpah sruciqun trgrig`). DOM 94.7037% →
+**94.7892%** dark (42,148 / 2,285 / 32), original mode 42,621 / 2,309 / 32 =
+94.7934%, 1,967 cards, 0 page errors in both. `dom141.py` 0 failures;
+`dom138.py`, `dom139.py`, `dom140.py` all still 0.
+
+## 大 and 小 are meanings, and STOP had swallowed them (batch 142, 2026-08-02)
+
+`STOP` states its own test in its first line — "characters that carry no
+meaning on their own, so sharing one is not agreement" — and then lists **大 and
+小** among the pronouns and particles. Big and small are meanings. They were
+swept in with the function words and then silently refused the two adjectives a
+Formosan wordlist glosses most often: `paru` IS 大的 and `bilaq` IS 小, so his
+使自己變小者 could not agree with 小 and `msbilaq` stayed pale.
+
+Measured alone: **+10 values, 0 de-verified, 0 relevelled**. Eight are his own
+word for big or small (`mkparu` 長大 / `paru` 大的, `msbilaq` 使自己變小 / `bilaq`
+小, `tbilaq` 確實小, `skparu` 用以使…長大, `psblaqan`/`psblaqi` 使之變小, `knblaqan`
+渺小 through the syncopated `bilaq`, `empsparu`). Two are coincidences, pinned in
+the new `HAND_NOT_REGULAR`: `knslaan` 饑餓虛脫 against `sla` **大**外衣, and
+`mkpakaw` 位於荊棘叢中的 against `pak`+`-aw` 老鷹抓**小**雞的動作 — whose RIGHT root
+is sitting beside it, `pakaw` 有刺的野草, his gloss exactly, sharing no character
+with him at all. That is the whole reason `_agrees` is a proxy and not a
+measure.
+
+**人 was tested identically and REFUSED**, though it fails the same "carries
+meaning" test. In these two wordlists it is overwhelmingly a FRAME — 使人X "make
+someone X", X的人, the agent nominalizer — and dropping it buys 9 of which the
+first read is the proof: `pngraq` 使人變傻 agreeing with `ngraq` 比女**人**陰蒂的手勢.
+上 likewise: +13, but `mtama` 當**上**父親的人 agrees with `tama` **上**帝 on a verbal
+complement, and it would have let `mttama`/`tmtama` back in through a second
+door batch 141 had just shut. 下 and 中 alone buy nothing at all.
+
+DOM 94.7892% → **94.8319%** (42,167 / 2,266 / 32), original 94.8356%, 1,967
+cards, 0 page errors both modes. `dom142.py` 0 failures; 138/139/140/141 all
+still 0.
+
+## Seven prefixes his book uses and PRE had never heard of (batch 143, 2026-08-02)
+
+313 pale values find no root at all, and for some the reason is not a missing
+root but a missing PREFIX — `roots()` peels only what `PRE` lists, so
+`empaqsiya` was an unanalysable eight-letter string while `qsiya` 水 sat one row
+away. Seven were priced alone, then together: `empa` `pkp` `spk` `sps` `npk`
+`dmp` `emb` → **ADDED 14, REMOVED 0, RELEVELLED 3**. `psp` was priced the same
+way and gave 0, so it is not in the list — a prefix earns its row by taking a
+word, not by looking plausible.
+
+**empa- is "will become X"**, which is what makes the group defensible on
+meaning and not just arithmetic: `empaqsiya` 化成水 / `qsiya` 水; `empasnaw`
+成為丈夫 / `snaw` 丈夫; `empaayug` 將變成溪流 / `ayug` 溪. The rest: `dmpuyas`
+歌者 / `uyas` 歌; `npkrbagan` 夏天將至 / `rbagan` 夏天; `spkungat` 使消失 /
+`ungat`; `spsqrinut` 使變窮 / `qrinut` 窮; `embsqrul`, `spkmalu`, `spspgan`,
+`empanalu`, `empaqmpahan`.
+
+**`pkpakux` is `pkp`+`akux` 翻, NOT the 老鼠 `pakux`.** One letter-string, two
+readings, and only one is 翻 — the same split batch 142 pinned `mkpakaw` for
+landing on the wrong side of. Nothing here reaches `mkpakaw`; `dom143.py`
+asserts it stays pale.
+
+`sgasut` came in at level 3, not through a new prefix: the widened `PRE` grew
+its supporter set past the two-affix guard so `vouched()` could speak. `gasut`
+is 工作範圍（工作的起點及終點）against his 照計畫、照正常程序進行.
+
+DOM 94.8319% → **94.8859%** (42,191 / 2,242 / 32), original 94.8890%, 1,967
+cards, 0 page errors both modes. `dom143.py` 0 failures; 138–142 all still 0.
+
+## Pale is not a verdict a person's name can shed (batch 144, 2026-08-02) — **95% passed**
+
+The name path had two gates in series and only one was doing the work. `named`
+was the NAME POPULATION — his own `name (m)`/`name (f)` tags plus tier N's
+"capitalized mid-sentence, never lowercase anywhere" — intersected with the
+ILRDF registry. The docstring defended the intersection with the homograph trap
+(`aku`, `taya`, `urang`, `tabu` are somebody's name AND ordinary vocabulary),
+but **those are kept out by the population, which never held them.** The
+registry was answering a second question — "and is this the modern spelling?" —
+that three classes of name can never be asked:
+
+- **Japanese-era loans** `denki` 電気, `banasi` 話, `stbaku` 煙草, `tausen`
+- **place names** `tagahan` (他從Tagarhan出發), `taulan`, `tyakang`
+- **Christian names** `jes` (Jes Cristo — *Notre Seigneur Jésus-Christ*), `maria`,
+  `dcristu`, `yurdan`
+
+No register of Truku **given** names will ever hold one, so requiring one kept
+them pale forever on a test they cannot pass. So the registry now only REPORTS
+(140 of 247 values) and the population is the gate; HAND_NAMES joins it.
+**+82 values / 313 occurrences, 0 de-verified, 0 relevelled.** The heaviest pale
+words in the book were all people: `liwis` 38 (里維斯), `ingay` 24, `lauken` 22,
+`tagahan` 13, `pilin`/`timin` 11.
+
+**What the intersection had been silently filtering, now `HAND_NOT_NAMES` by
+hand** — 16 values, because at midcap=1 tier N's evidence is one capital letter.
+Six are FRENCH out of his own glosses ("Beau père", "1) Grand père", "=
+Grandeur - taille", "Vivant - mobile") and were then run through o>u, which is
+where `cunnaissance` (connaissance) and `ruugeur` (rougeur) come from — **the
+respelling is itself the proof they are not Truku.** `mpa` is his own prefix
+card. The rest are ordinary words wearing one capital: `byeqay` a verb starting
+a sentence, `qlap` an imperative after a semicolon, `yianu` his form label
+*Yiano* "Pour vous", `pnsdahung` a nominalized verb, and four queried variants
+in parentheses (`mnttlaqel`, `mpsqlul`, `tbasyaq`, `tsaleh`). A midcap>=2 floor
+was measured as the alternative and REFUSED — blunt enough to drop `maria`, and
+it keeps `mpa`.
+
+**dom138/139/140's KEEP and MISS sets are superseded, not deleted.** Those
+batches refused to RESPELL a name onto a register entry, and every one of those
+refusals still stands — nobody was renamed and the -Cwi set was never collapsed.
+They are dark now wearing HIS spelling, which is what the refusals protected.
+Each file keeps the assertion inverted as `SUPERSEDED_144`, so a revert shows up.
+
+DOM 94.8859% → **95.5898%** (42,504 / 1,929 / 32), original 95.5852%, 1,967
+cards, 0 page errors both modes. Types: 5,219 dark of 6,566 = 79.485% — the
+token figure is the one the target tracks. dom138–144 all 0 failures.
+
+## A sentence gloss refuses no better than it accepts (batch 145, 2026-08-02)
+
+`regular()` verifies a form by making HIS Chinese agree with the root's modern
+gloss on a character. 264 pale values / 312 occurrences had no Chinese of his at
+all attached to the word — the only Chinese near them belonged to an EXAMPLE
+SENTENCE — so the test ran against a free translation of a whole clause and read
+its silence as a disagreement.
+
+**`vouched_root` had already written the argument, pointing the other way**: "a
+sentence gloss describes a whole clause and shares a character with almost
+anything", the `sktama` 已故的父親 / `kmtama` 信奉上帝 case. Too loose to license
+an agreement is too loose to license a refusal. A translator writing
+我們去求爸爸 owes no stem in the clause its dictionary meaning.
+
+So `no_chinese()` enters on `slots_only` — he glossed no word here — and runs no
+gloss test at all. The guards carry it: root listed **and glossed**, ≥4 letters,
+gloss not merely 人名/地名, and **exactly one root candidate**, because with no
+gloss nothing breaks a tie. New level 5 between 4 and 6; everything under it
+renumbers, which is free — `app.js` only tests membership of `MODERN_VERIFIED`.
+
+**SISUN is refused one step earlier than the morphology**: he glosses it 縫
+himself, so the entry condition throws it out. `dom145.py` asserts it still pale
+— it is what this rule would have to break to be wrong.
+
+Six of the 139 had one candidate and it was the wrong word, all six reachable
+only through an example sentence: `slungan` ← `slung` 毛線 when his own note says
+**(Silong=海)**; `drnai` ← `drna` 鹿鞭 under DULUN 求; `ggitan` ← `gitu` 枇杷
+under GIGIT 糾纏; `empslangan` ← `langu` 湖 under his headword SLANGAN 鏽蝕;
+`mtgtmaq` ← `tmaq` 水桶樹 against 趴倒在地; `narung` ← `arung` 穿山甲 against
+得獎. Pinned in `HAND_NOT_NC`.
+
++132 values / 161 occurrences, 0 de-verified, 0 relevelled. DOM 95.5898% →
+**95.9519%** (42,665 / 1,768 / 32), original 95.9455%, 1,967 cards, 0 page
+errors both modes. dom138–145 all 0 failures.
+
+## The floor that hid vouched()'s own example (batch 146, 2026-08-02) — **96% passed**
+
+`vouched()`'s docstring opens with `xal`: citation form 0×, his note
+從未見過此簡單形式, and `pxal` 147× plus five more supporters. **`xal` is three
+letters**, so `len(v) < 4` refused it on the first line. So did `niq` 存在－居住,
+`rut` 重壓於上, `hdu` 完成, `yup` 吹, `pru` 引起傳染, and `muk` — whose card asks
+「這會不會是以下詞的詞根：SMUK…G'MUK 蓋子」and whose question the modern wordlist
+answers with nine supporters.
+
+The floor was borrowed reasoning. Elsewhere it guards a root found INSIDE a
+longer string; in `vouched()` the root is the whole word and supporters are
+built by affixing it, so over-generation is what `len(set(d.values())) >= 2`
+already refuses. What a short root costs is anchoring, so the floor became a
+tightening: **below four letters the agreement must come from a SLOT gloss** —
+Chinese he attached to the word as a word — the gate `vouched_root`,
+`syncopated` and `chained` already take.
+
+The gate keeps `rih` out (agreed with `krih` only on the 工作 of a sentence about
+throwing money away) and **`nta`**, the largest pale word on the page at 20.
+His NTA is **n- on the two-letter `ta` 我們, the frame of `lita` = l- + `ita`** —
+right etymology, unreachable evidence: `lita` 一起, `ita`/`ta` 我們 and `nnita`
+咱們的 are all in the modern wordlist and `nta` is in none of it, nor once in
+361,630 parquet tokens. Klokah has it in **都達賽德克語 (Toda, d=15)** —
+*Muray ku da, nta tuhuy mkan idaw pa!* — a sister dialect, not a Truku spelling.
+
++7 values / 25 occurrences, 0 de-verified, 0 relevelled, all at the existing
+level 3. DOM 95.9519% → **96.0081%** (42,690 / 1,743 / 32), original 96.0055%,
+1,967 cards, 0 page errors both modes. dom138–146 all 0 failures.
+
+## A decoding inventory is not an attestation (batch 147, 2026-08-02)
+
+Two new bodies of Truku turned up on this box. Both were measured; one was let in.
+
+**In — the scripture readers.** `bible-app/src/data/bible_truku_{nt,ot}.json` are
+Kari Pnsdhgan Bgurah / Smudal, 新約選讀 / 舊約選讀: 56 paragraphs, **15,338
+tokens**, 2,058 types, 435 new. Edited and typeset, so unlike an ASR hapax a
+hapax here is a spelling somebody stood behind — it needs no freq gate. Still a
+text, so it widens `seen` and never `lex`.
+
+**Two counting traps in those files.** Each paragraph carries six parallel
+VERSIONS — tgdaya, truku, hh, xz, kjv, gnb — so walking every string in the JSON
+returns **203,648 tokens, of which the Truku is 7.5%**, and offers `put` (79×),
+`trap`, `nay`, `un` as Truku words. Only `paragraphs[].text` is Truku. And the
+title says 選讀: these are selections, not a Bible.
+
+**Out — the Kaldi decoder lexicon**, `kaldi_formosan_250514_Truku/graph/
+words.txt`. 13,351 types, 2,040 new, worth 25 pale words. **1,918 of the 2,040 do
+not occur in the ILRDF parquets at all**, and its new types are `alagn`, `alnag`,
+`aalng` for alang, with `amerika`/`amerrika`/`amrika` side by side. A decoding
+inventory is *required* to hold every string the acoustic model might emit — that
+is its job, and it is the opposite of evidence. Admitting it would have listed
+`alagn` as modern Truku.
+
+**Checked, not assumed.** `dict_truku.json` beside them is 32,208 glossed Truku
+headwords and looks like a major find — it is **100.0% already inside
+`attested_modern.json`**. Its Bible companion yielded one new type. The ILRDF
+Truku dialogues are all eight datasets, in since batch 136 at 361,630 tokens;
+there is no ninth.
+
++11 values / 24 occurrences, 0 de-verified, 26 relevelled upward into `listed`.
+DOM 96.0081% → **96.0621%** (42,714 / 1,719 / 32), original 96.0589%, 1,967
+cards, 0 page errors both modes. dom138–147 all 0 failures.
+
+## 房子 and 家 are the same thing and share no character (batch 148, 2026-08-02)
+
+`_agrees` tests sameness of meaning by shared bigram, then shared character.
+**That is a proxy, and the codebase already said so** — in the note refusing
+`mkpakaw`: the right root `pakaw` 有刺的野草 is "his gloss exactly — and shares
+no character with him at all, which is the whole reason `_agrees` is a proxy and
+not a measure."
+
+432 pale values / 742 occ were refused by that proxy, and they fail the same way
+over and over: 房子 vs 住屋；家, 不容易 vs 困難的, 取代 vs 頂替－繼承, 不露面 vs
+躲藏, 去警戒 vs 守衛們——守望者們.
+
+**SYN** — a third tier in `_agrees`: 26 hand-written lines of Chinese
+expressions that name one concept, each read off an actual refused pair and
+carrying it in a comment.
+
+**Every member is ≥ 2 characters, asserted at import.** STOP's lesson again: 一
+is in STOP because it is inside everything, so `kingal` 一個 could never reach
+SNKINGAL 單一的; two-character 一個/單一/一次 give that back without the bare 一,
+and 家 stays out while 住屋 and 房子 work — one-character 家 matches inside 大家,
+國家, 家人 and hands the rule a SISUN.
+
+**A line groups what is INTERCHANGEABLE, not what is associated.** `paux` 犁田 vs
+his KPAUX 翻轉 is the most expensive line NOT written — 15 occ across KMPAUX,
+KPAUX, KPAUXI, PAUXUN, PKPAUX. Ploughing does turn soil; 犁田 and 翻轉 are still
+not the same word, and "related if you think about it" is what SISUN punishes.
+
+**15 of the 50 hits were unpredicted, and all 15 read correct by hand** —
+`mkingal` 僅僅一次 off `kingal`, `skkuyuh` 亡妻 off `kuyuh` 太太, `prbung` 使埋葬
+and `mrbung` 設下陷阱 off one `rbung` 深坑 (why the pit gets two lines: a grave is
+not a snare even though the hole is), the `sblus` 變淡 family, and
+`traqil`/`mtraqil` via `vouched_root`. `mkpakaw` came OUT of HAND_NOT_REGULAR.
+
++50 values / 101 occ, 0 de-verified, 2 relevelled. DOM 96.0621% → **96.2892%**
+(42,815 / 1,618 / 32), original 96.2858%, 1,967 cards, 0 page errors both modes.
+
+## A glossary may say what a text may not (batch 149, 2026-08-02)
+
+Batch 147 found `dict_truku_bible.json`, checked its SPELLINGS against
+`attested_modern.json`, found them already there, and moved on without reading a
+single gloss. That was the whole value of the file.
+
+**A corpus and a glossary answer different questions.** 147's rule — a text can
+say a string occurs, never what it means — is why the scripture readers widened
+`seen` and nothing else. This is 2,033 headwords with Chinese and English
+definitions, edited and published for this dialect, and meaning is what a
+wordlist is FOR. It is loaded as `self.bgl` and read by `_gloss()`.
+
+**It answers what bucket D was actually full of**: not his Chinese disagreeing
+with the root, but the wordlist giving the root one sense and it being the wrong
+one — `tama` 上帝 → 父親；天父 (his SKTAMA 已故的父親 is 11 occurrences alone),
+`pajiq` 人名（女）→ 蔬菜, `kari` 挖掘 → 話語, `rusuq` 卵子 → 水滴；淚珠, `putuh`
+人名 → 斷絕, `saw` 希望，但願 → 像；如此.
+
+**Additive, never replacing**, so it can only turn a refusal into an agreement —
+0 de-verified, a property rather than a hope. **Where the property broke, the
+change was reverted**: routing `no_chinese()`'s candidate filter through
+`_gloss()` looks obviously right (NAMEGL exists for roots glossed 人名, and
+`pajiq` is the root it was wrong about) but that rule refuses on AMBIGUITY, so a
+second gloss source creates ties as well as candidates — it cost `mtbrinah`,
+`mkphing`, `mnksaw`, `tnklai` and six more to buy 7 occurrences. The ten are
+asserted DARK in dom149. A second opinion may say what a root means; it may not
+make a rule less sure WHICH root it is.
+
+It glosses neither `sisi` nor `paux`, so it cannot reopen SISUN or the `paux`
+family — a property of the file, pinned from the DOM. `pnnaki` resolves to
+`nanak` 獨自, the guess Pecoraro pencilled into his own entry; the `kray` family
+is told apart from the basket `kray` 背蔞 by `knkrayan`/`pskrayun` 堅; and
+`empkhuway` has two sources that never saw each other agreeing on 治癒 against
+the wordlist's 慷慨.
+
+**A pin that names one cause must be retired when a second cause appears.**
+dom147 asserted `mskingal` pale as proof Kaldi stayed out. Batch 148's SYN
+reached it legitimately via `skingal` 專一, so the assertion was stale for a
+batch; leaving it in would have made a real gain read as a contaminated source.
+
++37 values / 64 occ, 0 de-verified, 32 relevelled. DOM 96.2892% → **96.4331%**
+(42,879 / 1,554 / 32), original 96.4325%, 1,967 cards, 0 page errors both modes.
+
+## Fix the glosses before writing the synonyms (batch 150, 2026-08-02)
+
+Twelve more SYN lines, read off the same refused bucket as batch 148's — but
+read AFTER batch 149 gave every root a second gloss, which is the cheap way
+round. 149 removed from that bucket the pairs that were never a synonymy problem
+at all: `tama` was not 上帝 written another way, it was the wrong sense. Had
+these been written first, several would have been synsets papering over a
+wordlist error (犁田 for `paux`, 卵子 for `rusuq`, 人名（女）for `pajiq`) — and a
+synonym table is exactly where that mistake is invisible, because a bad line
+looks like a good one until someone re-reads the source.
+
+**One line can be worth a whole paradigm.** 下坡 下來 下去 下山 cleared
+`tbuyun`, `tbuyan`, `tbuyi`, `ptbuyun`, `ptbuyan`, `ptbuyi` and `tmnabuy` — the
+syncopating `tabuy` 下來 paradigm, refused because he writes its slots 下去－奔下
+and 使下坡. Six of the seven arrive through `syncopated()` rather than
+`regular()`, so a synset pays off in rules far from the one it was written for.
+
+Rules unchanged and still asserted at import: members ≥2 characters, and a line
+groups what is INTERCHANGEABLE, not what is associated. `paux` still refused —
+and the Bible glossary declines to gloss it at all, so nothing has appeared to
+change that reading.
+
++22 values / 34 occ, 0 de-verified, 3 relevelled. DOM 96.4331% → **96.5096%**
+(42,913 / 1,520 / 32), original 96.5082%, 1,967 cards, 0 page errors both modes.
+
+## A pin comes down when evidence overturns it, not when the rule tires (batch 152, 2026-08-02)
+
+`paux` was refused for four batches. The wordlist glosses it 犁田, to plough;
+his family is 翻轉, to turn over; batch 148 declined to write the synonym line
+and 149 and 150 each re-checked and left it standing. That was correct every
+time, and the temptation each time was to widen SYN by a hair and take the 15
+occurrences.
+
+What actually moved it was looking somewhere else. The same wordlist prints
+`mknpaux` 反過來 and `mspaux` 會翻 — **the root's own paradigm, saying plainly
+what its headword gloss said narrowly.** Ploughing is turning soil over. The
+gloss was not wrong, it was one sense of the word, and no amount of re-reading
+the synonym table was ever going to show that.
+
+Two things follow, and they are the reusable part:
+
+- **A citation gloss and a paradigm are not equal evidence.** One is an
+  editor's choice of a sense to print; the other is the same source writing the
+  root out across its slots, and a wrong sense cannot survive all of them.
+  `outvoted()` is that principle as a rule, and it is deliberately a SEPARATE
+  rule a level below `unglossed_root()` rather than a relaxation of it — rule 4
+  asks the paradigm where the gloss table is silent, this asks it where the
+  gloss table speaks and rule 2 has already refused what it said. Different
+  claim, different level.
+- **Overriding evidence costs more than filling a hole.** The bar is two
+  independent inflections agreeing, or one agreeing on a whole two-character
+  word. One voice found 37 roots; two found 13, and the 24 dropped were
+  coincidences — `qdriq` agreeing 的人 out of 住在Driq 的人, `taril` agreeing 方
+  out of 地方. A single shared character is a fragment, and often a fragment of
+  a fragment. The bar even splits one family: `kmpaux` carries two of his
+  glosses and hears two supporters, `kpaux` carries one and stays pale.
+
+And the trap got stronger rather than weaker. Every rule since 145 has had to
+say why it cannot reopen his SISUN 縫, and the answer was always that the value
+never arrives — `sisi` is glossed, so rule 2 reads it and refuses it. This rule
+fires precisely BECAUSE the gloss disagrees, so `sisun` arrives for the first
+time, is asked, and is refused on its merits: no inflection of `sisi` agrees
+with 縫 either. **A refusal that survives being asked directly is worth more
+than one that was never reached**, and dom152.py asserts it by calling
+`outvoted("sisun")` rather than by trusting the entry condition.
+
++20 values / 53 occurrences, 0 de-verified. 96.5771% -> **96.6963%**.
+
+## A rule that does not do what its log says (batch 154, 2026-08-02)
+
+The bar above is described everywhere — in this file, in the docstring, in
+dom152.py — as **two independent supporters must agree**. The code counted
+distinct agreement STRINGS:
+
+    agree = {sh for _, sh in sup}
+    if len(agree) < 2 and not strong:
+
+Those come apart in precisely the case where the evidence is strongest.
+**Unanimity collapses to one item.** `siyang` 肉 had three inflections answering
+his 養肥 — `ksiyang` 肥, `msiyang` 很肥;結實, `pksiyangay` 使肥大 — all on 肥, so
+the set held one string and the rule refused. Three voices saying one thing
+scored below two voices saying two things, and the root went onto the list of
+questions only a speaker could settle. `len(sup)` is the whole fix.
+
+Two things worth carrying forward:
+
+- **The coincidences were never at risk, which is why the change is a
+  correction and not a widening.** A coincidence is one supporter matching one
+  fragment (`taril` on the 方 of 地方), and one is one however it is counted.
+  All eight genuine ones stayed pale across the rebuild; dom154.py asserts them.
+- **dom152.py had to be edited, not just superseded.** It listed 17 values as
+  "the coincidences the bar cost" and nine of them were the miscount, so the
+  file was asserting a wrong claim as a passing test. A log that documents a
+  measurement is worth exactly what the measurement was; when the measurement
+  turns out to have been of something else, say so in the file rather than
+  letting the next batch inherit it.
+
+Two hand pins in the new `HAND_NOT_OUTVOTED`, both the particle trap: `tnbusan`
+(right answer, agreeing on the 去 inside 過去) and `mhmadan` (wrong answer,
+agreeing on the 成 of 成為). Neither character goes into STOP — they are
+worthless only as the frame verb of a gloss, the shape batch 142 measured for
+人 and refused to drop.
+
++13 values / 25 occurrences, 0 de-verified. 96.7255% -> **96.7817%**.
+
+## The freeze gates spelling; ambiguity means two roots (batch 163, 2026-08-02)
+
+Two guards were asked what they were actually guarding, and neither answer was
+the one the code was giving.
+
+**`outvoted()` — `self.frozen` is the NAME freeze, and this rule asks about
+MEANING.** The freeze exists so l→r cannot rename a man (batch 21's `Sapah
+Sibar`), and tier N in `build_modern_map.py` is what enforces that on the page.
+Nothing in `outvoted()` can respell anybody — the root is being asked what it
+MEANS and the answer only ever decides a colour. So a frozen root whose citation
+gloss reads *only* 人名 is now admitted, because **"this is a name" is not a
+sense a derived form inherits**, which makes it the one citation gloss a paradigm
+cannot be outvoted *by*. `banah` is cited 人名（男）with 27 derived forms glossed
+紅 (`embanah` 紅色的, `kbanah` 染紅, `knbanah`, `gmbanah`) against his `mabanah`
+將要變紅; `tasaw` is cited 人名（男）with `mtasaw`/`pgtasaw`/`sgtasaw` all on 清.
+Same distinction as batch 156's `lex` (may be printed) against `voices` (may be
+heard), one level further out.
+
+The root floor drops 4→3 in the same rule, for the reason batch 146 gave
+`vouched()`: elsewhere the floor guards a root found INSIDE a longer string,
+while here over-generation is already refused by the two-distinct-affix and
+supporter bars. It buys `pix`, whose **citation gloss is 山羊的叫聲** — a goat's
+bleat — outvoted by `mapix` 壓在其上－按壓, `empapix` 被壓垮的 and the supporters
+`pixi`/`mnpix`/`pixan`, every one 壓. The fourth time a citation gloss has lost to
+its own paradigm (`paux` 152, `siyang` 154, `liwaq` 157, `seesu` 159), and the
+first where no synonym table could have reached it.
+
+**`no_chinese()` — a tie needs two ROOTS, and these were two SPELLINGS.** The
+rule refuses when more than one root candidate survives, because with no Chinese
+of his there is nothing to break a tie. But **the wordlist files a paradigm's
+cells as separate headwords**, so `pnsblaqan` reaches `blaq`, `blaqa`, `blaqan`,
+`blaqi`, `sblaqa`, `sblaqan` and `sblaqi` — one lexeme found seven times over.
+Whichever is picked the answer is the same word. `root_groups()` partitions
+candidates by containment, before or after one paradigm suffix is peeled off
+either side (a suffix difference is a SLOT difference, not a root difference),
+and the rule needs exactly one GROUP. Containment alone gives 44 types;
+suffix-aware collapse gives 57.
+
+**The load-bearing half is the eleven that still refuse** — `kngusan` [kgus,
+ngus], `stmaqun` [taqi, tmaq], `ptbnuun`, `ppdsun`, `gmnaliq`, `kmkmalu`,
+`empsneanak`, `knkmuyuh`, `nkmuyuh`, `sneelug`, `psmkun` — two roots apiece,
+which is what the guard was written for, asserted pale in `dom163.py`.
+
+**Seven hand pins, each read against the sentence he prints it in**, the same
+method and the same failure as batch 145's six: one candidate, and it is the
+wrong word. `mslangan` (BMBANG 鐵皮－鐵桶, rust on tin — `empslangan`'s own
+sibling, not `langu` 湖), `snpsaran`/`snpsarun` (PUSAL 更新／成雙－加倍, his TWO
+root, not `sari` 芋頭), `sbuwai` (把書交給, not `buwa` 氣泡), `shnkan` (`sapah
+shnkan` = 監獄, not `hnka` 便宜), `psnluun` (SN'LO 傳達／傳遍各處, not `luun`
+將會省著用), and **`tmukan`, which is the price of the widening and is named as
+such**: the only one of the seven the group collapse reached rather than the old
+one-candidate guard, standing in TUYOQ 唾液－吐口水 (他們全都朝他的臉吐了口水)
+against `tuki` 抵銷／點鐘；小時 — precisely the Japanese 時計 loan-homograph tier J
+was built around, where "the more often it turns up, the more confident the wrong
+answer looked".
+
+**Two kept after the same scrutiny.** `nhnaan` ← `hnaa` stands in 澆我們種的花,
+newly-planted, and `hana` 剛剛 IS that lexeme; `mnkbubu` ← `kbubu` is his own
+bracketed variant `mnqbobo (mnkbobo ?)` in 戴著帽子就進了我家, the hat `qbubu`.
+
+**One arrival flagged rather than defended.** `pnsblaqan`'s root `blaq` is glossed
+松鼠;老鼠;…碎粒, a homograph — the source is his BLAEQ 幸福 / `bilaq` 小 family, and
+batch 142 already verified `psblaqan`/`psblaqi` off `bilaq` 小. The morphology
+lands on a real listed paradigm either way, so the value stands and the odd gloss
+is recorded rather than left looking like evidence.
+
++53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
+97.0986% → **97.2335%** (43,231 / 1,198 / 32).
+
+## A test that cannot see a colour reports it as an absence (cleanup, 2026-08-03)
+
+The regression suite was carrying 289 failures across 23 logs and every one was
+a defect in the TEST, not in the dictionary. Three causes, in descending size.
+
+**No log numbered below 74 knows the pale class, and that was ~270 of the 289.**
+They scrape `.w-mod, .w-raw` — the only two colours that existed when they were
+written — so a word de-verified at any point in the last 110 batches disappears
+from their census entirely and is reported `BROWN … missing`, the same string a
+genuinely wrong respelling produces. dom63 went 79 failures to 0, dom58 43 to 0,
+dom66 32 to 0, on one selector. **A three-valued world read by a two-valued
+test does not report "unknown", it reports the value it can't see as absent.**
+The GREEN check is unaffected — only `.w-raw` gets the `~` prefix — so adding
+`.w-unv` is monotone: it can only turn failures into passes, never the reverse.
+
+**dom57–dom73 could not run at all**, and the cause was one line: they read
+their own batch file as `io.open("bNN.py")`, relative to the CWD, so they only
+worked from `tools/orthography/logs/`. Resolved against `__file__` now. I
+reported to the user that the `bNN.py` files "were never committed" — they are
+all tracked in HEAD, and the claim came from a `head -3` truncating my own
+listing. **Do not diagnose a missing file from a truncated `ls`.**
+
+**The remaining 20 were real supersessions, and they get a table, not a delete.**
+dom138 already had the convention and its wording is the rule: "the assertion is
+kept and inverted rather than deleted, so a revert shows up here." So `PIN`/
+`KEEP`/`STOPPED` entries that a later batch legitimately overturned move to a
+`SUPERSEDED_NNN` dict asserting the NEW colour, named for the batch that did it
+— 105 `l'pun`→`rpun`, 117, 120, 121, 132, 148 `mkpakaw`, 149 `mtama`, 151-152
+`mttama`/`tmtama`, 155 `psqpah*`, 164 `taya`, 166 `s'lu`→`salu`. In the map-layer
+logs the table is keyed on **(token, old spelling)**, so a key that drifts to
+some THIRD spelling nobody argued for still fails. Deleting the assertion loses
+the claim; asserting only the new value loses the history.
+
+Two shapes worth naming. Batch 155 respelt `psqpah*` out of existence, so the
+supersession is an ABSENCE assertion, not a colour — the transcription layer is
+the one kind of overturning a colour test cannot express. And dom65's `ti` was
+never a supersession at all: the only `Ti` on T'LO is inside the sub form
+`Tit'lo (Ti t'lo ?)`, his own parenthetical doubt about his own segmentation,
+which the renderer gives no word span. **A generated HOLD set will sweep up
+strings the page never paints**; exclude them by name so the exclusion is
+findable if the renderer ever changes.
+
+## A worksheet row reports the ANALYSER, not the book (batch 170, 2026-08-03)
+
+`logs/dom170.py`. Sheet 1 row 4 filed seven pale occurrences under `bus`
+蒸氣洩出聲（擬聲詞）and not one of them belongs to it. That is not a printing
+accident and the sheet is not at fault: **the sheets are generated from
+`roots()`, so a row shows where the analyser cut the word.** `knsbusan` (his
+SIBUS 甘蔗), `mbusi` and `snbusi` (his BOSI 帽子) all cut onto `bus`, because the
+root each one actually needs is a root `roots()` is not allowed to see.
+
+**Read a bad row as a diagnosis.** When a row's Chinese has nothing to do with
+the cards under it, the question is not "which root is this" but "why can the
+analyser not see the right one" — and the answer names a class, not a word.
+Second and third instance of this on sheet 1 alone, after row 1's `dagi` and
+row 3's `biyi`.
+
+**Two blocked classes, both blocked on purpose:**
+
+- **Root-internal syncope.** `knsbusan` needs `sibus` 甘蔗, which is listed, whose
+  sisters `msibus` 甜的 / `ssibus` 很甜 hit his 甜味—甜 exactly, and whose syncope
+  the language demonstrates in `psbusi` 用甘蔗來製糖. `roots()` never offers it,
+  because the vowel that drops is inside the root. No gloss table can fix a root
+  that is never handed to it.
+- **Corpus-only loans.** `busi` 帽子 (Japanese 帽子) is real modern Truku — 7 in
+  the parquets, already dark at rank 1 — and still cannot be the root of `mbusi`,
+  because `seen` widens and `lex` never does. There is **no positive hand-root
+  table in this codebase, only refusal lists**, and that is a design decision,
+  not an omission. Do not invent one to win occurrences.
+
+**Supply the missing argument; do not overturn the refusal.** Batch 154 had
+already written down that winnowing and sifting grain are the same word, and
+pinned `tnbusan` anyway because the only agreement `outvoted()` could find was
+the 去 of 過去 — a particle. Batch 170 adds the SYN line 簸揚 篩榖 篩穀 篩去 and
+leaves the pin standing, with `tnbsan` added to `HAND_NOT_OUTVOTED` beside it so
+the pin follows the respelling instead of dying silently. **When you respell a
+pinned word, move the pin.**
+
+The line rests on his card, not on my reading: TBUS is 使用簸箕（＝**Bluxeng**）,
+and `Bluxeng` is modern **`bluhing` 簸箕**, listed, 5× in the parquets. He names
+the tool, the wordlist names the act. 簸箕 is deliberately NOT a member of the
+line — it would reach the 43-word `giya` 小簸箕 family off a different root.
+
+**The n-perfective drops the vowel, 22 to 1.** Of 388 CCVC roots, `-an` drops the
+vowel 55 times and keeps it 45 — a coin flip. But the listed n-perfectives off
+those roots take the dropped shape 22 times of 23 (`bnkgan`, `dngqan` 打鼾,
+`knrtan` 手術後, `snpgan` 數過, `qnslan` 夾), the one exception being a doublet
+whose root also lists the dropped form. So his `Tnbusan` is **`tnbsan`**, off the
+listed slot `tbsan` 篩穀子的地方.
+
+**And the 45 that keep the vowel are mostly sound words** — `bras` 發出「bras」的
+聲音, `brut` 在「brut」聲, `bsus` 用…「bsus」刺 — which keep it because the vowel
+IS the sound. That is why `tbusan` 被噴到 and `tbsan` 篩穀子的地方 are both listed
+and both right, and it is the wordlist refuting the row's premise by itself.
+
+**A cognate explains a word; it never spells one** (second statement of batch
+169's rule). Tgdaya `bunuh` 帽子 is not the source of `busi`: Truku `bunuh` is
+小腹, with a 26-word family and a 輪軸 sense besides. Same string, two dialects,
+unrelated words.
+
++2 occurrences. 97.4337% → **97.4382%** (43,322 / 1,107 / 32).
+
+## His bare -e is `i`, his -AE is `-ay`, and only one of them is a suffix (batch 169, 2026-08-03)
+
+`logs/dom169.py`. Three refusals, no occurrences moved. All of it is invisible to
+the census, which is why it is written down.
+
+**His four word-final vowels are two systems, not four.** Measured over
+`modern_map.js`:
+
+| his | modern | n | what it is |
+|---|---|---|---|
+| `-e` | `-i` | ~170 | `laqe`>`laqi`, `taqe`>`taqi`, `bale`>`bali` |
+| `-o` | `-u` | ~450 | `ako`>`aku`, `bato`>`batu`, `buyo`>`buyu` |
+| `-ae` | `-ay` | 49 | `balae`>`balay`, `tblae`>`tbalay` |
+| `-ao` | `-aw` | 289 | `asao`>`asaw`, `spadao`>`pspadaw` |
+
+The subjunctive/projective pair is the one carrying an extra letter. Bare `-e`
+and `-o` are just his `i` and `u`, so a headword in `-e` is NOT a subjunctive.
+
+**The batch-167 rung is what makes the test sharp**, and it should be the first
+thing reached for whenever a final vowel is in question. A real `-aw` suffix
+ALTERNATES before another suffix — SPADAO > `pspadaw`, but `pspdagan`,
+`pspdagun`, `pspdagi`. Root material SURVIVES. Every one of his `-e` headwords
+that has a suffixed slot keeps the vowel: LAQE = `laqi` in `Lqean`, TAQE =
+`taqi` in `Tqean`/`Tnqean`, LABE = `rabi` in `Klbiyun`/`Pklbiyan`, TABE in
+`Tbian (Tbiyan)`/`Tnbiyan`/`Tbiun`. `laqi` 孩子 and `taqi` 睡 settle it.
+
+A first pass scored this 0 of 4 — backwards — because the classifier looked for
+the stem vowel without allowing syncope (`ta-` > `t-`), so it missed the vowel in
+every slot that had one. Four cases is small enough to read by hand, so read
+them by hand. Same class as the `inf.roots()` tuple trap: **a heuristic that
+returns the opposite answer without erroring.**
+
+**Same root in two dialects is not a licence to merge two cards.** His TABE 犁
+and TABUN 開墾 are one word — Tgdaya `tabul` covers both, and his own note on the
+TABE card asks 是否與 TMABUN 有親屬關係. But modern Truku kept only the digging
+half (`tabun`, `tmabun`, `mtabun`, `stabun`, `tbunaw`, all dark already), and the
+ploughing half he glosses 同義詞＝SAKOL, with the map writing his unsuffixed forms
+onto `sakur` 犁. `sakur` has no suffixed slot in the wordlist, so his eight
+suffixed TABE occurrences have nowhere to land and stay pale — even though
+`tnbiyan` 犁過的田 sits one vowel from listed `tnbunan` 已開墾的地方. Pinned. **A
+cognate in another dialect explains a word; it does not spell one.**
+
+**A sheet row names a string, not a root.** Row 3 proposed `biyi` for the TABE
+card. `biyi` is 工寮 — the modern dictionary writes the hut in full as `biyi
+qmpahan` — and its family is all building (`pbiyi`, `tmbiyi`, `spbiyi`). Second
+false row on sheet 1 after row 1's `dagi`; read row 1 before printing, and
+distrust any row whose root gloss has nothing to do with the cards under it.
+
+**`tbilan`: the `miri` line is closed.** `pniri` 挑織布紋的衣服 is a perfect
+semantic match for `Lukus tbilan` 節慶服飾, but the family reduces to `-iri`/`-ri`
+with no b and no l, he has no MIRI card, and `tbilan` is in no modern corpus in
+any spelling. p. 320 shows him doing T-prefix analysis on the neighbouring cards
+(TBALAE, TBNAO) and failing on this one. Still held. Only thread left: `hmuril`
+鈴鐺（裝飾品）, with `pnril`/`tnrilan` unglossed in the lexicon.
+
+97.4337% unchanged (43,320 / 1,109 / 32).
+
+## His <r> had never crossed, and a speaker crossed it (batch 168, 2026-08-03)
+
+`logs/dom168.py`. Sheet 1 row 2 asked whether `biri`/`tbiran` come from `bir`
+車聲（擬聲詞）. They do not, and reading the cards asked a better question.
+
+**OCR sanity check first, and it came back clean.** p. 41 really does carry two
+cards spelled BIRI — `(R.?) = Dernier` and `(R.?) = Mouillé tout outre`. `(R.?)`
+is his own doubt marker on the root. **The scan offset is not uniform**: the
+`pages` field of `data/batch_NNN.json` indexes `scans/full/page_NNN.png`
+directly, NOT the printed page number, which runs 21 lower in that stretch.
+Check the content, not the header, when confirming a card.
+
+**A statistic said no and a speaker said yes.** His `<l>` is ambiguous — 1,151
+become modern `<r>`, 1,275 stay `<l>` — but his `<r>` had never once crossed: 0
+cases of `<r>` → `<l>` in 5,514 respellings, against 71 where it stays. `bili`
+很濕 (spoken ×10, with `blbili`/`dbili`/`empsbili`/`gmnbili` behind it) is the
+first crossing in the map. It stands, because `Biri kana lukus mo da` is `bili
+kana lukus mu`. Recorded so the *second* crossing is not waved through on the
+strength of this one.
+
+**Two of the four occurrences are knowingly wrong, and that is the price.**
+`modernize()` takes a word and no entry, so one key spells both cards — the same
+wall as p. 222's two `Mpolo` subs. Batch 69 held this tie for that reason; this
+ruling overrides it. Both cases now sit in `audit_rare.py`'s docstring, which is
+the only place the census's blindness is written down.
+
+`tbilan` is untouched: he glosses it `？？` himself, it is transparently an LF in
+`-an`, and with the root unknown the `<l>` is a coin flip.
+
++4 occurrences. 97.4247% → **97.4337%** (43,320 / 1,109 / 32).
+
+## A root in -aw writes -ag- before a suffix (batch 167, 2026-08-03)
+
+`inflection.py: awag()`, rung 10 of 14. `logs/dom167.py`.
+
+**The worksheet's own top row was a false question, and reading it is what found
+the rule.** Sheet 1 ranked `dagi` first: four pale words, ten occurrences, and
+the wordlist glosses `dagi` 要煮飯. Cooking rice has nothing to do with his
+SPADAO card, so the sheet was about to ask a speaker whether `pspdagi` is a
+cooking word. Nobody should be asked that. **Read row 1 of a generated sheet
+before printing it** — the ranking is by occurrences, so a bad row goes to the
+top exactly when it is worth the most.
+
+**He was right; the wordlist had the whole family.** Modern Truku prints
+`pspadaw` 慷慨（不計價的送人）, `pnpadaw` 送過的禮物, `emppadaw` 將…作為禮物 and
+`pnspadaw`, and the map had already landed his unsuffixed forms on them — 4
+`pspadaw` and 4 `pnspadaw` were dark before this batch. Only the four SUFFIXED
+slots fell through, and `roots()`, finding nothing better, reached inside
+`pspdagi` and pulled out the rice.
+
+**The alternation is regular and it is his own: 76 pairs against 2.** A root in
+`-aw` writes `-ag-` when a suffix follows, so `pspdagun` IS the modern slot of
+`pspadaw`. Nothing is misspelled; a rung was missing. This is the same shape as
+`syncopated` — an orthographic fact of the paradigm, not a claim about meaning —
+and like it, the rule still refuses to fire without a gloss of his to agree with.
+
+**Longest-first, or it lands on the wrong card.** The wordlist files `padaw` as
+「是 spadaw 不可靠的人 的詞根（無意義詞）」, an entry its own derivatives refute.
+Candidates are walked longest-first exactly as batch 165 settled for
+`syncopated`, so the search stops at `pspadaw` and never at `padaw`. A `<n>` in
+the first two positions is treated as the infix it is, not a letter of the stem.
+
+Three refusals are pinned: `pkagi` (no `-ag-` stem long enough), `knsrhagan` and
+`pnslhagan` (no `-aw` word the gloss agrees with). A later widening that sweeps
+them up has stopped reading his Chinese.
+
++10 occurrences, 4 values off honest pale onto listed modern words, 0 de-verified.
+97.4022% → **97.4247%** (43,316 / 1,113 / 32).
+
+## What is left is a speaker's, and the unit is the ROOT (2026-08-03)
+
+`tools/orthography/build_worksheets.py` → `tools/orthography/worksheets/*.md`.
+
+**`inf.roots(v)` returns `(root, prefix, suffix, slot)` TUPLES, not strings.**
+`self.gl.get(tuple)` is therefore always None, and a triage script that forgets
+this reports that every candidate root is unglossed. It is a silent wrong answer,
+not a crash, and it produced one here before being caught. Any scratch script
+over `roots()` must take `a[0]`.
+
+**The honest triage of the 1,123 pale occurrences**, once that is fixed:
+
+| | occ | types |
+|---|---|---|
+| reaches no listed root under any analysis | 612 | 426 |
+| reaches a glossed root, and the glosses **disagree** | 307 | |
+| reaches a root the wordlist lists and never glosses | 122 | 84 |
+| no gloss of HIS to test with | 81 | |
+| agrees, pale for some other reason | 1 | |
+
+The 612 get no worksheet row: there is no proposal to put in front of anybody.
+The rest resolve into 356 roots covering 326 types / 510 occurrences.
+
+**The last computational idea was measured and refused.** `_his_glosses` gives a
+SUB the parent card's gloss only when the sub's own gloss is a pointer (參見,
+的過去式), so a sub with a gloss of its own is judged with the root card he wrote
+it on invisible — `Skdolox` 直－真誠－誠實 weighed without `KDOLOX`
+牆—整齊排列的堆疊 standing over it. That looked like the structural gap behind
+the whole bucket. It buys **zero** occurrences: 135 candidates have no parent
+gloss to read, and for the other 192 the parent disagrees exactly as the sub did.
+Feeding in more of HIS Chinese cannot settle a question that turns on what the
+MODERN word means. The gap is real and it is not load-bearing.
+
+**So ask per root, not per word.** One answer unlocks a paradigm — `dagi` holds
+`pspdagi`, `pspdagun`, `pspdagan`, `pnspdagan`, ten occurrences — and a speaker
+can answer "what does this root mean" without being shown a dictionary. Two row
+shapes, because there are two kinds of silence: where the wordlist glosses the
+root and says something else (`dagi` 要煮飯 against his 贈送／禮物; `bir`
+車聲（擬聲詞） against his 最後的 — both plainly homographs, both answered in
+seconds), print both and ask which is right; where the wordlist lists the root
+and glosses nothing, print his Chinese as a PROPOSAL and ask for the meaning.
+
+His Chinese is never the answer, only the proposal. **A speaker contradicting him
+is the most valuable outcome on the sheet** — that is the one that keeps a wrong
+spelling off the page, which is the whole lesson of batch 166.
+
+Sheets are ranked by occurrences and steeply front-loaded: the first 45 roots
+(sheets 01–03) are worth about half the 510. Nothing is dropped; the tail is
+1-occurrence roots. The standing refusals ride along on purpose — `biri`/`tbiran`
+is row 2 of sheet 1 — because a NO is as good as a YES: it turns a PIN that
+currently rests on our judgement into one that rests on a speaker's.
+
+Nothing here scores until it is ruled. The census moves on the respelling, never
+on the sheet.
+
+## Hunting the batch-166 error everywhere else, and not finding it (2026-08-03)
+
+`tools/orthography/audit_rare.py`. Batch 166's bug scored itself **dark** —
+`seelug` and `smeelug` are listed modern words, so rule 1 verified them at
+sight. The census is structurally blind to that class of error: a wrong spelling
+that happens to be somebody else's right spelling counts exactly like a right
+one. Driving the percentage up cannot find it. So the audit went looking for the
+same shape everywhere else in the map.
+
+**Two signals, and neither is worth anything alone.**
+
+*Rarity.* The map makes 5,513 respellings out of 573 distinct letter
+correspondences, and a handful of them are the whole system (`o>u` 882, `l>r`
+811, `x>h` 643, `->e` 418, `'>-` 381). Canonicalise both sides through the
+classes the map actually swaps and 3,680 respellings collapse to distance 0 —
+the same word in two alphabets. Then 1,451 at 1, 303 at 2, 63 at 3, 14 at 4, one
+each at 5 and 6. `s'lu` → `seelug` sits at **3**.
+
+But rarity is not evidence. All 57 rows at distance ≥ 3 were read and 56 are
+lexical swaps he licenses himself: `tabe` → `sakur` 犁 with his own note
+同義詞＝SAKOL, `tbako` → `lumak`, `sengse` → `mtgsa`, `sadyaq` → `seejiq`,
+`daloas` → `dowras`, the whole `mpa-` → `empaa-` prefix family. He is not
+misspelling those, he is naming a different word for the same thing, which is
+what a dictionary does.
+
+*Disagreement.* `_agrees` between his gloss and the modern one. Alone it fires
+519 times on ordinary homonymy and on two glosses written a century and a
+language apart.
+
+**Together they cut 266 rows to 34**, and 34 is a number a person can read. All
+34 were read. Thirty-three cleared, and the clearances are the useful part:
+
+- `P"lu` → `peelug` — his own example gloss ends **（在同一條路上）**. He derived
+  正當…之時 "at that very moment" from the road himself.
+- `Skdolox` → `sdrux` — `KDOLOX` is 牆—整齊排列的堆疊 and `qdrux` is 石牆. His
+  直／真誠／誠實 is the figurative half of one root, which his own `Mskdoloç`
+  prints together as 正直的、排列整齊的.
+- `mpaxei` → `empaahiyi` — `hiyi` is flesh AND fruit, so 會有瘦肉 and 將結成果實
+  are one word.
+- `daloas` → `dowras` — cited 人名 because the cliff word is also a man's name.
+- `x'lyeq` → `hgliq` — 毀約 is 撕裂 applied to an agreement.
+
+**The one that did not clear cannot be fixed by the map.** p. 222 carries two
+subs both spelled `Mpolo`: 發起者／模仿者, which is `purug`, and 患風濕、痛風的人
+with the example `mpolo kana papaq mo!` 我的腳滿是風濕. The second is a different
+word. The map is keyed on the raw **token**, so both get one spelling and no map
+entry can separate them — it needs a per-card override or a speaker. Recorded,
+not patched.
+
+**So the finding is that there is nothing to find, and that is worth as much as
+a find.** The map is clean where it is strangest. Re-run `audit_rare.py` after
+any batch that adds unusual mappings; its rows are the only place the census
+cannot see. It self-tests on the historical `s'lu` → `seelug` pair, so widening
+the letter classes until the bug is invisible fails loudly.
+
+## When he doubts his own root, believe the doubt (batch 166, 2026-08-03)
+
+**p. 284 is a card about making things and we were printing roads on it.** His
+`S"LU` and `SM"LU` cards both carry the tag `(R. = "LU ?)` and cross-reference
+`"LU` (p. 386) 路－通道－道理（意義）－方法. The map followed the pointer:
+`s'lu`→`seelug`, `sm'lu`→`smeelug`, `sn'lu`→`sneelug`, `snluwan`→`sneelugan` —
+four road words on a card glossed 計劃－預謀 and 決定.
+
+The root is **SALU** 'to make, to repair'. Tgdaya *salu* = to make, *smalu* is
+the actor focus, *snluwan* is the preterite locative focus. Ruled by a speaker,
+2026-08-03. `"LU` itself is untouched and was never in doubt — *elu* in Tgdaya,
+*elug* in modern Truku, all 91 occurrences correct.
+
+**Modern Truku had the paradigm all along**: `salu` 修理, `smalu`/`smmalu` 製作,
+`snalu` 用...做的, `psalu` 請…製造或修理, **`sluun` 要被製作**, and `sluan` /
+`snluan` listed unglossed. `sluun` is the proof — modern Truku writes the
+syncopated stem `slu-` in the exact slot where he wrote `S"LU`, so his `"` is
+the reduced vowel of *salu*, not a glottal standing in for *elu*.
+
+**The page was already spelling it right everywhere else.** Before the patch:
+5 `salu`, 13 `smalu`, 6 `snalu`, 3 `snluan`, all rendered from tokens he typed
+without the `"`. Only the four tokens carrying his reduced-vowel mark were
+misrouted — because a rule believed a pointer he had explicitly flagged.
+
+**Two of the thirteen scored DARK.** `seelug` and `smeelug` are listed modern
+words, so rule 1 verified them at sight. Same shape as the SISUN trap: *a
+spelling error wearing a verification's clothes.* **The metric cannot see this
+class at all** — only a reader can, which is the standing argument for spending
+attention on the darks and not only on the pale count.
+
+**It settles what dom165 could not.** Batch 165 refused two pointers sitting
+inside a question mark but could not say whether `(R. = X ?)` in a TAG meant he
+doubted the root or his spelling of it. It means the root, and he was right.
+**The tag is evidence AGAINST the pointer it contains.** 226 cards carry it.
+
+**The instrument this suggests, and the one it doesn't.** Sweeping all 226 is
+mostly noise: 49 show the S"LU fingerprint and ~45 of those are ordinary
+correspondences (o→u, x→h, ao→aw, l→r) doing their job. The sharp test is
+rarity — the map makes 5,513 respellings using 573 distinct correspondences,
+and `o>u` fires 882 times while the S"LU error fired **once**. **212 rule-1
+darks rest on a once-only correspondence.** That is the audit population, and
+it is a list of candidate spelling errors currently scoring as verified.
+(scratch: `tmp/rare166.py` under the job dir.)
+
++5 occurrences net; 13 respelled, 2 of them off false darks.
+97.3910% → **97.4022%** (43,306 / 1,123 / 32).
+
+## A greedy algorithm over an unordered input is a sample, not a rule (batch 165, 2026-08-03)
+
+**The build had not been reproducible for some time and nothing had noticed.**
+Rebuilding twice with no change at all and diffing the output showed `mngahan`
+appearing in three builds out of four. `root_groups()` partitions candidate
+roots greedily — each candidate joins the first group it touches — so its answer
+depends on the order it walks them, and it walked a **set** sorted by length
+alone. Every tie among equal-length candidates was broken by Python's
+per-process hash order. `mngahan` reaches six candidates tied at two lengths and
+fell into one group or two by luck, so `no_chinese()`'s one-group gate passed or
+failed and the word came out verified or pale. The sort key is now `(len, x)`.
+
+Two things to carry forward. **dom164 asserted `mngahan` GAINED — that
+assertion had been a coin flip since the moment it was written**, and all 195 of
+`no_chinese()`'s values were exposed to the same instability. And the cheapest
+possible test found it: *run the build twice and diff*. Do that before believing
+any measurement, because a flaky verification does not look like a bug, it looks
+like a number.
+
+**Two evidence sources no rung had ever read.**
+
+*His own paradigm, where the wordlist has none.* `unglossed_root()` asks a
+listed-but-unglossed root's modern paradigm what the root means. For eleven
+types the paradigm is glossless too, end to end — the wordlist is not
+disagreeing, it is **silent** — and `_agrees` returns None for want of anything
+to read. So ask his paradigm: the wordlist lists `ngangah` and glosses neither it
+nor any of its three slots, while Pecoraro wrote four separate cards on it that
+agree with each other on 啞巴 and 痴. Guards: the agreement must be a **bigram**
+(two glosses of his share 的 and 使 and 人 by the nature of his prose), and it
+takes **two** supporters (one cross-referencing card is a restatement, not
+corroboration — `pnkltudan` and `pkltudan` carry the same sentence and would
+vouch for each other in a circle). Where the paradigm SPEAKS and disagrees the
+value stays pale, and that is the larger half of the bucket.
+
+*He names the word himself.* Some glosses are not meanings but **pointers** —
+`rnjingan`'s entire gloss is （ldingan 的過去式）— so `_agrees` has nothing to
+weigh rather than something to reject. A stated root beats an inferred one:
+every other rule peels affixes and then argues the inference is right; here he
+says it outright.
+
+**The refused third shape, and why it is the SISUN error with a citation
+attached.** Letting the pointer SUPPLY a root where the affix rules find none,
+paid for with a gloss agreement, gains ten types and every one is wrong the same
+way. His 參見 and 較常說 are **see-also** notes: `loai` 外部 carries
+較常說：NGANGOT, `nilaq` a mushroom cross-references another mushroom. The
+pointer names a synonym, the gloss agrees because synonyms mean the same thing,
+and out comes `loai`'s spelling certified by a modern word that is not `loai`.
+**A cross-reference is evidence about the root of a word he is analysing, never
+about the spelling of a word he is merely comparing.** The pointer must land on
+a root the morphology independently found.
+
+**A pointer inside a question is not a citation.** He marks his own uncertainty
+with ？ and is scrupulous about it, so the punctuation is his evidence. `tbowyak`
+is （詞根 BOYAQ？）＝痛得打滾 — he is *asking* whether the root is BOYAQ, and
+`bowyak` is 山豬 a wild boar. `empsibus` is （Pksibus?）加糖 while its own sibling
+`pksibus` carries 參見 Psibus with no question mark; the pair draws the line
+exactly where he drew it.
+
+**Refuted cheaply, and worth not reopening.** The 612 occurrences whose root is
+in no wordlist stay dead: `spoken_truku.json` is a strict subset of
+`attested_modern.json` (0 types outside it), and admitting `parquet_truku_freq`
++ `bible_truku_freq` as root sources reaches 26 occurrences, nearly all trivia.
+The SYN vein is 163 rows / 292 occurrences that fail only on `_agrees`, and
+under SYN's own doctrine — interchangeable, not merely associated — one
+qualifies (`embbuway` 互相贈與 / `buway` 給).
+
+**A tripwire set in advance caught this batch.** (a) verified `psiisi`,
+`psiisan`, `psiisun` and dom153 went red. Batch 153 respelled his SISI/SISAN/
+SISUN paradigm on a Truku speaker's ruling, let the unlisted causatives go
+honestly pale, and wrote the trap in the same breath: *"if these ever go dark
+without a speaker or a listing behind them, the respelling has been allowed to
+carry verification with it, which it must never do."* Exactly what happened —
+this rung asks whether his own cards agree about a **listed** root, and `siisan`
+is listed only because we put it there, so what agreed with itself was our own
+respelling. Six occurrences refused, in `HAND_NOT_FAMILY`. **Run the whole suite
+before committing, not the new log.** A log that only ever confirms the batch
+that wrote it is decoration.
+
++11 values / 22 occurrences, 0 de-verified, **0 new pale types**.
+97.3415% → **97.3910%** (43,301 / 1,128 / 32).
+
+## An empty candidate list is not a refusal (batch 164, 2026-08-02)
+
+Nineteen batches of widening rungs, and the largest block left in the census
+was never being judged by a rung at all. **Every rung opens by asking `roots()`
+for something to read, so when `roots()` returns nothing the value is not
+refused — it is invisible, to all eleven at once.** 465 of the 807 pale types,
+665 occurrences, 55% of the whole pale mass, decomposed to nothing whatever.
+Diagnose the *empty* list before widening the *judgement* on a non-empty one.
+
+**`roots()` peels one prefix, and Truku stacks them.** `dmtqsurux` is
+dm+t+`qsurux` 魚, `kmspusu` is km+s+`pusu` 根本, `ndjyamu` is n+d+`jyamu`
+屬你們的 against his own 你族人中的一個. A second peel, depth-capped at two.
+
+**Write it as a fallback, not a widening — the distinction is the safety.**
+`no_chinese()` refuses a value whose candidates fall into more than one root
+group, so handing an extra candidate to a value that *already* has some can
+split a clean one-group reading into a tie and **de-verify** it. That is the
+one direction the "widening only adds membership" invariant does not cover.
+Firing only on an empty list makes it impossible by construction. The same
+ordering rule appears twice more in this batch, and both times it was load-
+bearing rather than decorative.
+
+**A gloss hole is not evidence, and two rungs each assumed the other covered
+it.** `unglossed_root()` exists for a root the wordlist lists but never
+glossed — but it can only fire where HIS Chinese exists to compare the root's
+paradigm against. `no_chinese()` is the rule for where his Chinese is absent —
+but it demands a GLOSSED root. A value with **neither** falls between them and
+nothing in the file can see it. `nglngu`: `lngu` is listed, bare, and the
+wordlist inflects it thirteen ways. *A root inflected a dozen ways is a word
+whether or not anyone wrote down what it means.* Witness borrowed from
+`unglossed_root()` minus the comparison there is nothing to compare.
+
+Run it only when the glossed candidate list is empty. `stmaqun` is why: its
+glossed candidates `taqi`/`tmaq` are two real roots that must keep refusing
+(dom163's assertion), while its unglossed `stmaqi`/`tmaqi` are one group and
+would have quietly overridden them.
+
+**When a threshold is a proxy, spell the guard instead.** Batch 163 dropped
+`outvoted()`'s root floor 4→3; this drops the same floor and replaces the
+number with what it stood for — a root has to be pronounceable. Four letters
+keeps `hng` out by accident; **requiring a vowel keeps it out for the reason**,
+since Truku writes no schwa and a listed form with no vowel is a consonant
+cluster the wordlist filed, not a syllable anyone says. `smhngi` is the only
+thing the floor was buying.
+
+Two veins were priced and **refuted**, which is why they are recorded here:
+*a "gloss" that is a structural note* (`同上之動詞形。` is 25 pale occurrences,
+the largest single string in the census) turns out never to stand alone — it
+always sits beside a real gloss, so the whole class is 9 values / 20 occ; and
+*onomatopoeia roots* are a trap rather than a vein — `bir` 車聲 inside `biri`
+(his 濕透), `bus` 蒸氣洩出聲 inside `mbusi` (his 戴帽子), `puq` 手指扭折聲
+inside `puqi` (his 餵食) are `mnalu`/`tabu` homographs at scale, and the rungs
+are right to refuse all 20 of them.
+
+The price is six substring accidents in the new `HAND_NOT_STACK`, pinned at the
+*peel* rather than at a rung because the claim being refused is the peel's own.
+`empnalu` is his 將會變好、康復 — that is `malu` 好, the root batch 161 already
+refused `mnalu` over, not `alu` 陷阱線 a snare line.
+
+**An earlier batch's deliberate refusal outranks a later batch's newly-widened
+reach — and only the regression suite will tell you.** The gloss-hole fallback
+reached `tnaga` through `taga` 等 and coloured it verified; dom161 had asserted
+it pale. Batch 161's refusal was epistemic, not a missing rule: `tnaga` is in
+the C-n- infix class, where `<n>` perfective and `<m>` actor-focus share a
+slot, so the token is either t-n-aga on `taga` or his typewriter's n for the m
+of `tmaga`, and nothing on the card decides which. A rule that *reaches* a word
+is not thereby entitled to it. Pinned in `HAND_NOT_NC`. Nineteen of the twenty
+dom logs passed untouched; this was the twentieth, and it is the reason the
+suite runs before the commit rather than after.
+
++41 values / 48 occurrences, 0 de-verified, **0 new pale types**.
+97.2335% → **97.3415%** (43,279 / 1,150 / 32). Past the 97.3333% mark.
+
+## Tier X — lexical substitution, shown in brackets (2026-07-29)
+
+Sometimes his word is simply gone from the language and a different word carries
+the meaning. That is not a respelling, and the toggle promises spelling, so a
+substitution has to **declare itself on screen**: modern mode renders
+`QUSUL (Q'NAO)` — the substitute in the modern brown, his own word beside it in
+the green that means "Pecoraro's spelling" everywhere else. Pecoraro mode is
+untouched; there is nothing to disclose when his spelling is what's on screen.
+
+- Source: `tools/orthography/lexical_map.json`, its own file, keys prefixed `_`
+  are documentation. Tier `X` outranks every other tier in the generator — no
+  spelling rule can reach these, and no attested-candidate search should be
+  allowed to overrule a decision made on the meaning.
+- Exported separately as `window.LEXICAL_SUBS`; `linkifyTruku()` appends the
+  bracket, `.w-orig` styles it.
+- The bar for adding one: (1) no reflex of his word anywhere in the omnibus by
+  gloss, by fuzzy shape and by substring, and (2) his dictionary has no form of
+  the modern word either — i.e. the two lexicons really don't share the word.
+- A value of **`null` blocks the token instead of substituting it** — it says "we
+  looked, and there is no modern form to name", and the word stays green. That is
+  the right answer three ways: a derivative whose base was substituted but which
+  has no modern derivative of its own (`stbako` "to smell of tobacco"; `slumak`
+  is unattested in all three corpora); a paradigm the substitute doesn't reach
+  (`sl'xqe` / `sl'xqan` / `sl'xqon` / `slx'qon`); and a **homograph whose two
+  entries want different answers** — BIRI "trempé" is the modern `bili` 很濕, a
+  plain r/l respelling, while BIRI "dernier" is a word that is gone (`biri` is 0
+  everywhere; 最後 is now khici / tqring / nhdan). The map is keyed on the token
+  and the search index is built from it, so one token cannot render two ways
+  without breaking lookup. Green is the honest colour for a reading that depends
+  on which entry you are standing in.
+- A fourth use, and the one that shows what the block does and does not buy:
+  **a rule output nobody can check**. `pskluyun` was reaching the screen as
+  PSKRUYUN, an l→r on a family that keeps l in all eleven of its attested modern
+  forms (`kluwi` 驚醒, `skluwi` 嚇一跳, `mskluwi` 驚嚇, `mnskluwi` 12× …), and the
+  KL guard had not caught it. There is no modern `-un` form of any `-uwi` root on
+  record, so `pskluwiun` would be an invention; the block is the honest move.
+  But **blocking changes the colour, not the spelling**: green words are still
+  displayed through `charRules()`, which does the same l→r, so the word still
+  reads PSKRUYUN — in green now, alongside its siblings `kluyun` and `skluyun`,
+  which were already green and already showing that r. Green does not mean
+  "left as he wrote it"; it means "rule-guessed, unverified". What the block
+  bought is that one of the three no longer *claims* the r. There is no third
+  state available: `respellable()` is membership in one of the three tables, so
+  every word is either a claim (brown) or a guess (green).
+
+  **Batch 19 unblocked it, and the reason overturns the paragraph above.** The
+  choice was never "invent `pskluwiun` or accept green" — a **keep-letter identity**
+  (`pskluyun` → `pskluyun`) asserts nothing about the `-un` shape and only declines
+  the l→r, which is precisely the finding batch 14 had already made in words ("a
+  family that keeps l in all eleven of its modern forms"). Blocking to avoid a rule
+  output *delivers that rule output*, because `charRules()` runs on green. So a
+  `null` only buys silence for a token the char rules would leave alone; for a token
+  holding an l, o or x, **blocking is not abstention, it is voting for the rule** —
+  and if the reason for blocking was that the rule is wrong, the block is
+  self-defeating. `kluyun` and `skluyun` took the same identity in the same batch;
+  `lexical_map.json` is down to 23. Re-read the remaining blocks against this test:
+  a block is honest when the *lexical* answer is unknowable (`stbako`, BIRI), not
+  when a *letter* is.
+
+  Batch 15 blocked `ttuun` / `ttuon` the same way, and the reasoning is worth
+  keeping because it distinguishes a block from a projection. They are the `-un`
+  slot of his cut root (TA'TO 切割), and they were identity-mapped, i.e. claiming
+  a word that exists nowhere: modern has **no** suffixed form of `teetu` at all
+  (`teetun`, `teetuun`, `teetuan`, `tteetu` are all 0), and the `ttuy-` forms that
+  do exist (`ttuyan` 8×, `ttuyaw` 被叫醒) belong to his *other* entry, TUTWI 起身,
+  whose paradigm he himself spells with the y. So there was nothing to claim, and
+  blocking put all three of TA'TO's `-an`/`-un` slots into the same green.
+  Contrast the four PT"TO slots the tiers added off the newly-correct root
+  (`mpteetu`, `pnteetu`, `pteetuan`, `pteetuun`, all 0-attested): those are
+  **regular affixation of a stem that is itself proven**, which is what the P and R
+  tiers do 1,981 times over. The line is whether a *stem* is attested, not whether
+  the exact affixed shape is.
+- The six live now:
+  - `q'nao` → `qusul` (garlic). All 32,212 omnibus words swept; the modern Allium
+    field is `qusul` / `pixil` / `neygi` / `sangas` and nothing is shaped like
+    /qnaw/. He has no `qusul`-shaped word either, and he separates the native
+    `Q'NAO` from the loan `NEGI` = oignon.
+  - `sl'xeq` → `shik`, `sml'xeq` → `smhik` (to lick).
+  - `tbako` / `t'bako` → `lumak` (tobacco). His TBAKO is the Japanese loan and it
+    did not survive — tbaku, tbako, tmbaku, stbaku are absent from the omnibus,
+    from truku_dict and from 277k tokens of speech. The modern word is the native
+    `lumak` 煙草 (with pslumak, pnslumak, ptglumak, rnabaw lumak), and his own
+    idiom survives with it: he writes `mqan tbako` for smoking, and the omnibus
+    says `mkan lumak` 抽煙 over and over. He has no lumak-shaped word anywhere.
+  - `sengse` → `mtgsa` (teacher). He tags it `[emprunt jap./chin.]` himself
+    (sensei / 先生). `sensi` and `sengse` are in no corpus; modern Truku teaches
+    with the native tgsa root — mtgsa 老師 (296 in speech), emptgsa (198), tmgsa
+    (97) — and mtgsa is the commonest.
+
+Keep the list short. A long one means the toggle has quietly become a translator.
+
+## Truku cited inside a gloss (2026-07-29)
+
+Glosses are never run word-by-word through `modernize()` — the char rules turn
+French "Palissade" into "Parissade" — but his definitions are full of Truku:
+cross-references (`See T"TO`) and forms cited to build a sense (`B"lo babwi =
+piglet`). Those sat frozen in his spelling inside an otherwise modern page.
+
+`glossCites()` claims exactly one thing: **a token carrying his second elision
+mark `"`**. No French, English or Chinese word has a word-internal double quote,
+and `tidyLatin`/`tidyZh` have already converted the real quotations to `« »` /
+`" "` / `「 」` by then, so what's left is unambiguous — 102 occurrences across
+the three languages, 30 types, every one Truku, zero false positives. Those
+tokens go through `linkifyTruku()`, so they follow the toggle, take the word
+colours and link.
+
+Do not widen this. The apostrophe cannot be recruited the same way (`l'occasion`,
+`don't`), and "is it a headword?" is far worse — measured, it claims `a`, `I`,
+`on`, `do`, `un`, `ta`, `ma`, `si`: **10,819 occurrences** of ordinary French and
+English prose. The `"` is the whole of the safe signal.
+
+Two repairs fell out of the same pass: `esc()` now escapes `"` (headwords like
+`SBU"` and `"LU` were closing their own `data-ref="…"` attribute early), and the
+"stop glued to next word" rule no longer splits a dotted abbreviation — `i.e.`
+became `i. e.`, which then hid it from the `ABBR` guard and came back as
+`i. E. Bodyguards`. All 13 dotted forms now on screen are real abbreviations.
+
+## French inside a Truku field (2026-07-30)
+
+The mirror-image defect. His remarks are in French, and some of them are not in a
+gloss at all: they sit in a bracket on a **sub-form** — `Pqaya (Est-ce de la R.
+QAYA ?)`, `Pqboan (= contraction pour: PQBBOAN ?)`, `Mskui (parfois = Mskwi !!)` —
+and four example lines under AN are not examples but French gloss pairs, `Malu =
+Beau, bien; Knmlaan = beauté, bonté`. Those two fields are tokenized as Truku, so
+the char rules ran on French and printed it back as fake Truku: PRUDUIT,
+CUNTRACTIUN, SAVUIR, CUNNAISSANCE, BUNTE, matinarite. Six were worse than mangled
+— the curated map claimed them, so they came out **brown**, asserting a verified
+modern Truku spelling for a French word: ne→ni (which is his own word for "and"),
+pour→puur, page→pagi, nique→niqi, non→nun, matin→macin.
+
+`FORM_PROSE` is a **separate set from `TAG_PROSE`**, not a reuse of it, for two
+measured reasons: `UN` is one of his headwords, so the French "un" that TAG_PROSE
+needs would grey an entry; and `vl.`/`var.` are already named by `metaAbbr`, which
+gives them a tooltip the prose branch would take away (`vl|vel — ou / or` is
+asserted in the test). Passed at exactly two call sites, the example line and the
+sub-form. Every word in it was read off those two fields, and every occurrence of
+every one is French — 24 fields, 56 occurrences, 42 types, not one Truku word
+among them.
+
+**A list read off the data once is not closed.** Four more were still rendering as
+fake Truku, and two of them **brown**: `Rougeur` as RUUGEUR and G'LEQ's `(=Volant)`
+as VULANT, each asserting a verified modern Truku spelling for a French word — plus
+`bouche` and `rouge` green in YA. Added, and the fields went 20 → 24. No map entry
+was deleted for it: `rougeur` and `volant` are in no curated tier, they are generated,
+so a deletion regenerates — and the prose branch sits *before* `respellable()` is
+asked, so greying the word is the whole fix.
+
+**Predicting the page means replicating the GUARD, not just the branch.** `frtok.py`
+computed `MAP[k] or charRules(k)` and reported 17 mangled words, 13 of which
+FORM_PROSE/TAG_PROSE/metaAbbr had already handled — the same blindness as computing
+green counts from `modern_map.json` while WORD_OVERRIDES sits in `app.js`. Its
+successor replicated the prose sets but still assumed every tag reaches the word
+path, and so reported the largest defect of the class: `plant` in 67 tags and
+`animal` in 64 rendering PRANT and ANIMAR. **Not real.** `tagHtml()` enters
+`linkifyTruku` only when `ROOT_MARK` matches; everything else is `esc(tag)`. So our
+own digitization metadata (`plant`, `animal`, `note`, `name (m)`,
+`[emprunt jap./chin.]`) never reaches `modernize()`, and neither does K'LOX's French
+remark `(Y aurait il parentée avec QOLOX = crâne ?)`, which holds no lone R. The DOM
+settled all of it in one run.
+
+Two things the sweep turned up that are **not** this defect, and are left alone: his
+own words get quoted inside his French glosses, so "appears in a gloss" is not the
+test — `lqlaqe` is in 50 Truku slots and 4 glosses, and a French intrusion is the
+other way round (`bouche`, 1 slot against 37 glosses). And `Morisaka` 森坂 (5 example
+slots, mapped `murisaka`) and `Eco` (KBSULAN's example, rendering ECU green) are a
+**place name and a personal name**, not French. Truku writes no o, so `murisaka` is at
+least consistent with the phonology — but nothing attests either, and a name reached
+only through an example never got a name tag. That is the tier-D name-seeding gap,
+not this one.
+
+Verify by **counting spans, not naming them**. The first test hand-typed the Truku
+words standing beside the French and 8 of 13 were wrong, because in modern mode the
+page shows the modern spelling — `G'LEQ` renders as GRIQ, `Adi` as AJI. `dom_fr2.py`
+reads `FORM_PROSE` out of `app.js`, locates each field in the DOM by containment,
+and asserts the coloured-span count equals the number of tokens that are neither
+French nor a meta abbreviation. That is what catches a French word left off the
+list: it survives as a surplus coloured span whatever the char rules did to its
+shape. Two did — `produit`, dropped while composing the string, and `matinalité`,
+whose scare quotes `tidy()` has already converted to curly ones before tokenizing,
+so the key is the bare accented word.
+
+Discoveries encoded in the generator: Pecoraro's ç = modern x (tunuç→tunux);
+ao/oa = aw/ow/uwa (daolas→dowras, boax→buwax); d→j and t→c before i (adi→aji,
+tmoting→tmucing); schwa vowels Pecoraro wrote are often dropped (kensat→knsat);
+q/k swaps need gloss proof. Gloss evidence must cover ≥20% of the omnibus gloss —
+a 2-char overlap inside a long definition is coincidence (the raki/laqi trap).
+Regenerate modern_map.js whenever entries.js changes; if manual_map.json or
+llm_map.json change, just rerun the generator.
+
+Coverage (44,306 displayed token occurrences / 4,938 distinct hw+sub+paradigm
+forms): 77.4% / 44.5% verified-attested (id+M+A+B); 80.6% / 52.1% adding the
+gloss-adjudicated L and sister-validated T tiers; 85.6% / 73.0% total mapped
+including projection. Remainder falls to the char-rule fallback. (Baseline under
+rules alone was 57.2% / 24.7%.)
+
+Word-final "-ui" was reviewed the same way: every headword/sub-form in the corpus
+ending in -ui (~17 real entries once repeated example-sentence occurrences are
+collapsed) was checked individually against the omnibus — the outcome is root-
+dependent, not a single rule (klui-startle/kui-insect family → -uwi; cold/harvest/
+tie/get-up families → -uy; carry-hold family (dui) → -uuy; drip family (xbui) →
+-uy after x→h; grammatical imperative-mood "-ui" endings, e.g. GTUI, don't change
+at all — confirmed identical in the omnibus). Applied as a `WORD_OVERRIDES` lookup
+in `app.js`, checked before the character rules. A few forms (TOKO's `Ptkui`,
+`SKUI`=dwarf bamboo, `Kmubui`/`kmbui`) had no confirmed modern counterpart and are
+left unchanged.
+
+## A gain of the right size is not a gain of the right kind (batch 155, 2026-08-02)
+
+`manual_map.json` is keyed on Pecoraro's **raw** tokens, before normalisation.
+His `PSQPAXAN` normalises to `psqpahan`, and a manual_map key written
+`psqpahan` therefore matches nothing — **and says nothing**. No error, no
+warning, no diff in the "mapped with actual spelling change" count.
+
+That is ordinary enough. What made it dangerous is what it was paired with. The
+batch removed three `HAND_NOT_UNGLOSSED` pins on the grounds that the
+respelling made them unreachable. The respelling was not there, so the pins came
+off words that were still spelled his way, and all three verified off `qpah`
+工作 — **the precise error the batch existed to fix.**
+
+**The census could not see it.** +5 values / +8 occurrences, 0 de-verified,
+43,042 dark, 96.7997% — digit for digit identical to the correct build. Three
+words went dark either way. Only the reason differed, and the reason is the
+entire content of the claim the dictionary makes when it prints a word dark.
+
+What caught it was `logs/dom155.py`'s GONE list: an assertion that his
+spellings `psqpahan`/`psqpahi`/`psqpahun` no longer render **at all**. That is
+a statement about which words exist, not about how many are verified, and it is
+the only kind of check that could have failed here. The GAIN and PIN lists both
+passed on the broken build.
+
+**Reusable:** when a batch's argument is "X is now unreachable, so its guard can
+go", the log must assert the unreachability directly. A guard removed on the
+strength of a change that silently did not happen is a guard removed for
+nothing, and the metric will congratulate you for it.
+
+## A voice is not a spelling (batch 156, 2026-08-02)
+
+`self.lex` and `self.voices` answer different questions and the code now says
+so. A word is in **`lex`** because the dictionary may PRINT it — that is what
+the standing rule "`seen` widens, `lex` never does" protects. A word is in
+**`voices`** because it can AGREE or fail to agree with one of Pecoraro's
+glosses. Agreeing is not a claim about how anything is spelled, so widening the
+second is not the thing the first rule forbids.
+
+Batch 149 added the Truku Bible glossary as an **additive gloss source** —
+`_gloss()` reads it — but its headwords were never added to the population
+`derived()` sweeps. For seven batches a word the build could READ was a word
+the build could not HEAR. `smqdug` 控告 sits on the roots `sqdug`/`qdug`, is
+glossed by the glossary, resolves correctly, and could never be a supporter.
+
+`voices = lex | bible_gloss`, read by `derived()` and nothing else. That last
+clause is the whole safety argument, so `logs/dom156.py` asserts it
+mechanically — it greps `inflection.py` and fails if a second reader appears.
+**A guarantee stated only in prose is a guarantee that drifts.**
+
+Worth 21 occurrences immediately, and two of them were homographs no gloss
+comparison could break: `krwahan` 吝惜 sat on a listed `rwahi` 打開 *open* with
+the glossary's `krwahi` 顧惜；捨不得 unreachable beside it; `kdagi` 扛抬 sat on
+`dagi` 要煮飯 *cook rice* with `pkdagan` 使抬著 unreachable beside it.
+
+## He wrote the rule down, and the wordlist obeys it (batch 158, 2026-08-02)
+
+Three of his entries state a sound correspondence in prose — DUK
+「請注意詞尾輔音P與K之間常見的變換；派生詞保留P，而詞基往往作K」, NDUP
+「NDUK 的變體（詞尾的 P 實現為 K）」, GALUK「見 GALUP」. It is the only one he
+bothers to write out, and **the modern wordlist splits the same root the same
+way**: base `iyuk` 吹;吹氣 / `miyuk` 吹 with K, derived `yupi` 吹洞簫 /
+`yupan` 要…吹 / `yupun` 吹 with P. Five listed words, one root, both consonants,
+conditioned exactly where he says. Not drift between 1977 and now — a live
+alternation he described correctly.
+
+**So the rule is about BASES and must never become a rule about the letter.** A
+blanket p→k would have rewritten those three listed, glossed, dark derived slots
+into forms nothing attests. The gate is `regular()`'s: respell only where the
+K-twin is **listed** and its gloss agrees with his. Five values pass, all at
+rank 1 — `iyup`→`iyuk`, `qmrap`→`qmrak`, `trap`→`trak`, `qnrap`→`qnrak`,
+`mdup`→`mduk`. `dup` is refused and stays pale at 7 because bare `duk` is
+unlisted (modern writes `eduk` 門扇), and `dupan` 獵場 is a different root.
+
+**This overturns batch 29's refusal of `mdup`, and the measurement it refused on
+is the same one that overturns it.** `-dup$` is 0 words in 40,760; `-duk$` is 96.
+Batch 29 read that as "his variant has no modern counterpart, so replacing it is
+lexical substitution"; it means the p-spelling names nothing. A substitution is
+when his WORD is gone and a different word carries the sense (`q'nao`→`qusul`).
+Batch 19 had already taken six GALUP p-forms to k on his own doubled spelling, so
+the two rulings sat in this file contradicting each other for 139 batches.
+**The tie-breaker is not which is later — it is that 19 rested on his own writing
+and 29 on an inference about what a zero count means.** Corrected in place above.
+
++5 values / 8 occurrences, 0 de-verified. 96.8605% → **96.8784%**.
+
+## A miss in four corpora is not a verdict about the language (batch 159, 2026-08-02)
+
+**`nta` is dark, and it is in no corpus.** It is the first entry in `HAND_SPOKEN`
+(inflection.py) — a fifth kind of evidence, and the only one in this build that is
+a person rather than a document. Like the parquets, the Bible and the names, it
+widens `seen` and never `lex`, and `build_verified.py` prints it **on its own
+line** so no later reader can mistake it for a wordlist hit.
+
+The miss is real, re-measured, and recorded rather than explained away: **0 hits
+in the 40,760-word wordlist, 0 in the 2,058 types of the Truku Bible, 0 in 14,600
+parquet types, 0 in 11,820 spoken types**, against `nita` 5 and `nnita` 25 for the
+genitive 我們的, which is a different word. What that shows is that no modern
+Truku *text we hold* spells it. His own note says why — 邀請前往（唯一使用的形式，
+與 LITA 並用）, and `Nta da ! ... Kia ! Lita da !` is a hortative interjection,
+which is exactly what a Bible and a wordlist have no slot for. Its whole frame is
+dark and attested: `ita`/`ta` 我們, `nita` 我們的, `nnita` 咱們的, `lita` 一起.
+
+**What was retracted is a claim I made in a report, not one the log made.**
+dom146.py refused `nta` honestly — the slot gloss that reached it was `ptntun`'s
+起, which is not its paradigm — and said "the outside source was asked and did not
+know". Reporting that to the informant as *"blocked — it's Toda, not Truku"* was
+the error: where Klokah happened to record a form says nothing about where the
+form is absent, and it cannot outweigh a Truku dictionary that prints the word
+with a usage note and eight examples. **The gate did not loosen.** `rih`, `dup`
+and `klulu` were pinned pale beside it in dom146 and are pinned pale still; that
+is the proof. The shortlist was always a list of questions no corpus can answer,
+put to a speaker one by one. This is the first answer, filed as an answer.
+
+**SA'SO is SEESU, and a root's one-line gloss loses to its own paradigm — the
+third time.** His 沉靜－羞怯－羞恥心 family (`Msa'so` 羞怯的－沉靜的, `Knsa'so`
+謙遜, `Psa'so` 使平靜) is the modern `seesu` family slot for slot: `mseesu` 安靜,
+`mgseesu` 默默的;文靜, `mnegseesu` 文靜的, `ttgseesu` 溫柔；謙和, `knseesu`.
+Bare `seesu` is glossed 看輕人 and is outvoted, exactly as `siyang` 肉 lost to its
+肥 paradigm (154) and `liwaq` 化妝/銀 lost to its shine paradigm (157). `pseesu`
+verifies at level 5, the outvoted rung, **fired by the machinery and not by hand.**
+
+**A gate on respellings is not the only road to dark.** `psa'so` and `pgsa'so`
+were written off in advance as unlisted, and went dark anyway: once the root
+moved, the root projection carried their spelling for free and the ordinary
+derived rungs reached them at 5 and 4. Predicting otherwise was my error, not the
+build's.
+
++6 values / 36 occurrences, 0 de-verified. 96.8784% → **96.9615%**.
+
+## The typewriter's blind spot was position 0 and 1 (batch 160, 2026-08-02)
+
+**The batch that passes 97% is mostly not a spelling-map batch.** Two thirds of
+it is a *transcription* repair, and keeping the layers apart is the point: a map
+entry would leave "original spelling" mode showing a word Pecoraro never printed.
+
+The 1977 typescript prints an `m` the digitization read as `n` — proved by his
+own French, mangled the same way (`nonbreuses`, `Conbien`, `janais`). The sweep
+that finds them ("nothing in modern Truku, but a real word if one `n` is read as
+`m`") had been run with an index guard of `i >= 2`. **That guard hid positions 0
+and 1, which is where the rest of them were.** `knnalu` was repaired at position
+2 long ago; `nnalu`, one letter earlier in the same entry, had never been seen.
+
+**A word-initial `n-` is a real Truku prefix and looks identical, so his French
+is what decides each one.** The discriminator is on the page:
+
+  * `Nngangax` "A partir du fait d'être muet" — `n-` on `ngangah`. **Correct as
+    printed, refused.**
+  * `Nnalu` "A partir du bien … Il était bien autrefois" — `n-` on `malu`, so
+    the *second* letter is the misread m. `nmalu` 原本是好的.
+
+Same formula, opposite verdicts. Repaired: `Nnalu`→`nmalu`, `Nniyax`→`mniyah`
+("qui es venu"), `Nllawa`→`mrrawa` ("chahuter"), `Naxon`→`mahun` ("l'eau pour
+boire"), and two of three `naso`→`masu` ("le millet"). **The third `naso` is his
+分配 root — "Distribue cet argent en trois parts" — so the repair is anchored on
+its two sentences, not on the word.** The C-n- class stays off limits:
+`mnalu`, `snkrawah`, `qnbsranan`, `tnaga` were all offered and all refused,
+because `<n>` perfective and `<m>` actor-focus share a slot.
+
+The map layer adds five. `winuk`→`hwinuk` is **his own cross-reference** — his
+note reads 無疑是 XWINUK 的縮略形式；參 XWINUK, and X is his h. The other four are
+the final-g class already known from 路 `elug` and 餵養 `tabug`, each confirmed
+by HIS Chinese: `snpu`=`snpug` 數過 (his 沒辦法數了), `msnulu`=`msnulug` 恰好
+(his 就在那一刻), `lubu`=`lubug` / `lmubu`=`lmubug` under his LUBU 樂器.
+
+**`psilin` was the sixth, and its refusal is the lesson.** His Psilin sits under
+his own headword SILING, so the ng is his and the argument was sound. But a key
+`psilin`→`psiling` reads to the cross-entry root projection as "append g", and
+it re-applied that to his RAW `psiling` (3×) and `mpsiling` — putting `psilingg`
+and `empsilingg` on the page. It bought 1 dark and cost 4. **A respelling that is
+right about the word can still be wrong about the machine, and only the census
+catches that, never the argument.** Compare batch 155: a gain of the right size
+is not a gain of the right kind. Here it was a *loss* wearing a gain's clothes.
+
+Still refused: `tabu` 5× (homograph — 餵養 and a hardwood share the token, this
+map is token-keyed, same blocker as `bir`) and `tksaw` 5× (his own `Xksao`
+already owns `hksaw`; sending `Tksao` there would erase a distinction he drew).
+
++9 map occurrences / +14 transcription occurrences, 0 de-verified.
+96.9615% → **97.0109%**. Roughly 445 spans to the percent.
+
+## Assert the replacement COUNT, or you will unhook the audio (batch 161, 2026-08-02)
+
+Batch 160 opened positions 0 and 1 of the m-read-as-n sweep; batch 161 worked
+the rest of that list. **45 candidates, 18 accepted, 27 refused** — and the
+ratio is the point. The sweep proposes, his French disposes.
+
+**Tense in his French is the discriminator.** `ntaga` is the clean case: "je
+t'attendrai" is FUTURE and `n-` is past, so the letter cannot be an `n`. The
+same test refuses `Nngangax` "A partir du fait d'être muet", a genuine `n-`.
+The best of the eighteen is `nlut`, because **he flagged it himself**: his text
+reads `Asi nlut (m'lut ?) xeaan`, question mark his. `mrut` 按住 against his
+"en faisant pression sur lui" answers a question the book had already asked.
+
+The refusals sort into five kinds, all worth keeping: C-n- infix (`snkrawah`,
+`tnaga`, `qnbsranan`, `sneelug`, `tnquri`, `sneuwit`, `snka`, `snnru`), genuine
+`n-` prefix (`nngangah`), false friends (`nilaq` his 菇類 vs `milaq` 碎粒;
+`narung` "a obtenu le prix" vs `marung`, a man's name), unglossed target
+(`ntlawa`, `nruq`, `nay`, `nhnaan`, `nsntug`, `nsleelug`, `niyak`, `snuk` — a
+word with no Chinese cannot confirm anything), and **homograph**: `mnalu` at 5
+occurrences would have been the largest single gain in the batch and is refused,
+because his MALU prints Mnalu "s'entr'aimer" and his NALU prints Mnalu "qui
+tient la place" — the same raw string in two entries.
+
+**THE TRAP, and it is a new one.** The first run replaced 51 strings where 36
+were expected. The extra 15 were inside `"a"` fields — **audio filename slugs**,
+e.g. `ex_qpaxan_so_manu_ka_ntqeli_tqean_so`. Renaming one in the JSON renames
+nothing on disk. It unhooks the recording, silently, while the page still
+renders perfectly and the dark count still goes up. Nothing about the census
+would ever have shown it.
+
+It was caught only because the patcher asserted a replacement COUNT PER TOKEN
+(each of these words occurs once in the book, so exactly 2 — one in `data/`, one
+in `site/entries.js`). **Any raw-text patch of `data/` or `entries.js` must mask
+`"a": "..."` values before substituting, and must assert its counts.** The
+patcher now does both, and batch 160 was re-checked against the same fault and
+is clean. Compare [[shipped-is-not-the-same-as-fixed]]: a green census is not
+proof the thing you did not measure still works.
+
++18 occurrences, 0 de-verified. 97.0109% → **97.0513%**.
+
+## Two refutations and a second witness (batch 162, 2026-08-02)
+
+Two candidate veins were opened and killed by measurement before the batch that
+worked, and the refutations are the durable part.
+
+**An entry-mate rung would have been wrong.** 326 pale occurrences are words his
+own dictionary lists as SUBS of an already-verified headword; `Empskeagul` is
+glossed 同上（d°），未來式, "same as above, future tense". That reads like the
+dictionary vouching structurally for a form the gloss-agreement rungs cannot
+hear. Measure it: of those 326, the number both in the modern lexicon AND
+analysable as an affixation of their own verified parent is **zero**. They are
+not pale because a gloss test rejects them — they are pale because no modern
+source attests them. **Always ask why a bucket is failing before building the
+machine that would rescue it.**
+
+**A flat tally is what a mined-out seam looks like.** Tallying every
+single-letter substitution that lands a pale type on a lexicon word gives u→a
+47 occ, n→m 33, a→u 25, l→h 22 — no dominant class, and the top entry is false
+friends (`rngut` féconder vs `rngat` crier). When batch 161 found the n→m class
+it stood out; nothing stands out now. Edit-distance-1 is done.
+
+**What worked: `PQ_MIN` discards hapaxes UNREAD.** The parquet gate drops every
+type the ILRDF corpus saw once, because an ASR hapax is as likely a mis-hearing
+as a word. Correct in bulk — but 15 of those hapaxes are words on this page,
+and that means each already has a second witness: **Pecoraro typed it in 1977.**
+A 2020s acoustic model cannot mis-hear its way onto a string a French priest
+typed fifty years earlier; the witnesses have no path to each other. So the gate
+is not loosened, it is ANSWERED per word, in `PARQUET_HAPAX`.
+
+**The coincidence argument fails on short strings, and the rule was made to
+cost something.** At two or three letters chance can reach a real string. `rih`
+is refused at SIX occurrences — the largest single gain left on the page — even
+though his 幾乎－接近－有點像 fits the parquet's `qhuqil kana rih saw psahug
+dhyaan` ("killed them all, almost as a punishment to them") rather well. Batch
+146 pinned it, and batch 159 showed the only honest way out: `nta` went dark
+because **a person spoke for it**, not because a gate moved. One ASR token is
+not a person. `kn` is refused twice over — two letters, and its one occurrence
+is inside `Fu-kn-su`, the romanized Japanese 撫墾署 split on its hyphens.
+
+Like every corpus source this widens `seen`, never `lex`, and vouches for a
+SPELLING and not for his gloss.
+
++21 occurrences, 0 de-verified, 0 new pale types. 97.0513% → **97.0986%**.
+
+**The tail is now flat: 873 pale types over 1,258 occurrences, 587 of them
+occurring exactly once, and the top 24 types (9% of the mass) are almost all
+standing refusals.** There is no big fish left; from here every batch is
+individual adjudications, not sweeps.
+

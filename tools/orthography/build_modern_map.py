@@ -1709,6 +1709,21 @@ def main():
               if r["tier"] == "J"]
     print("japanese/chinese loans (J): %d romanized (%d kept on gloss evidence)"
           % (len(j_rows), sum(1 for r in j_rows if r[2] == "gloss")))
+    # The loan POPULATION, exported for the same reason as the name population
+    # above: build_verified.py needs to know which tokens HE tagged as borrowings,
+    # and tier J only fires on the ones no earlier tier had already valued. A loan
+    # is Japanese; no affix analyser can ever root it and no Truku wordlist will
+    # ever list it, so "unverified" is a permanent verdict on a class he himself
+    # identified — the same shape as a person's name before batch 144.
+    # `loan_tokens` is his tag; the tier is the subset the pass reached.
+    lpop = sorted((loan_tokens & set(tokens))
+                  | {t for t, r in result.items() if r["tier"] == "J"})
+    with open(os.path.join(HERE, "loan_population.json"), "w",
+              encoding="utf-8", newline="\n") as f:
+        json.dump(lpop, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print("loan population: %d tokens (%d tagged, %d tier J)"
+          % (len(lpop), len(loan_tokens & set(tokens)), tiers["J"]))
     with open(os.path.join(HERE, "tier_j_log.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write("# tier J: words tagged [emprunt jap./chin.], romanized as a class\n")
         f.write("# how = gloss: an attested modern word whose Chinese gloss agrees\n")

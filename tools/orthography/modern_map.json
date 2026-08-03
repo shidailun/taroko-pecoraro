@@ -2286,8 +2286,8 @@
    "tier": "B"
   },
   "dlut": {
-   "modern": "dlut",
-   "tier": "id"
+   "modern": "drut",
+   "tier": "M"
   },
   "dmamat": {
    "modern": "dmamat",
@@ -2351,6 +2351,10 @@
   },
   "dmkpax": {
    "modern": "dmqeepah",
+   "tier": "M"
+  },
+  "dmlut": {
+   "modern": "dmrut",
    "tier": "M"
   },
   "dmnsuwai": {
@@ -2484,6 +2488,10 @@
   "dnka": {
    "modern": "dnka",
    "tier": "id"
+  },
+  "dnlut": {
+   "modern": "dnrut",
+   "tier": "M"
   },
   "dnngaan": {
    "modern": "dnngaan",
@@ -7497,6 +7505,10 @@
    "modern": "mrudaw",
    "tier": "M"
   },
+  "mdlut": {
+   "modern": "mdrut",
+   "tier": "M"
+  },
   "mdngil": {
    "modern": "mdngil",
    "tier": "id"
@@ -11492,8 +11504,8 @@
    "tier": "id"
   },
   "pdlut": {
-   "modern": "pdlut",
-   "tier": "id"
+   "modern": "pdrut",
+   "tier": "M"
   },
   "pdlyeqan": {
    "modern": "pdriqan",
@@ -21171,10 +21183,6 @@
    "modern": "dmkdaya",
    "tier": "P"
   },
-  "dmlut": {
-   "modern": "dmlut",
-   "tier": "P"
-  },
   "dmpgdadak": {
    "modern": "dmpgdadak",
    "tier": "P"
@@ -21189,10 +21197,6 @@
   },
   "dndoma": {
    "modern": "dnduma",
-   "tier": "P"
-  },
-  "dnlut": {
-   "modern": "dnlut",
    "tier": "P"
   },
   "dpais": {
@@ -21850,10 +21854,6 @@
   },
   "mdglil": {
    "modern": "mdgril",
-   "tier": "P"
-  },
-  "mdlut": {
-   "modern": "mdlut",
    "tier": "P"
   },
   "mdoa": {

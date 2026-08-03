@@ -11,3 +11,7 @@ scratch_ui_entries.json
 # R2 credentials
 .env.r2
 tools/.env.r2
+
+# Intermediate scratch from the CLAUDE.md -> .claude/notes split; the three
+# notes files are the real thing and this would only drift from them.
+.claude/notes/sections/

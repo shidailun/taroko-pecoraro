@@ -1,5 +1,8 @@
 {
-  "pages": [146, 149],
+  "pages": [
+    146,
+    149
+  ],
   "leadin": {
     "fr": "",
     "en": "",
@@ -243,15 +246,16 @@
           "fr": "Petit fils.",
           "en": "Grandchild.",
           "zh": "孫子。"
-        },
-        {
-          "t": "Lqlaqe (vl. llaqe)",
-          "fr": "Les enfants.",
-          "en": "The children. (var. llaqe)",
-          "zh": "孩子們。（或：llaqe）"
         }
       ],
       "subs": [
+        {
+          "form": "Lqlaqe (vl. llaqe)",
+          "fr": "Les enfants.",
+          "en": "The children. (var. llaqe)",
+          "zh": "孩子們。（或：llaqe）",
+          "examples": []
+        },
         {
           "form": "Lqean",
           "fr": "A l'enfant - pour l'enfant.",
