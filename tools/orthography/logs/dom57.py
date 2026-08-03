@@ -14,13 +14,14 @@ neighbour set is EVERY other token on every touched card, carrying the value it
 had before the rebuild -- which is what a regression would have to move. Hand-
 listing neighbours is how you miss the one you did not think to list.
 """
-import json, io, sys, re, subprocess
+import json, io, sys, re, subprocess, os
 sys.stdout.reconfigure(encoding="utf-8")
 from playwright.sync_api import sync_playwright
 
 H = "C:/dev/formosan/seediq/taroko-pecoraro/"
 # read from the batch file itself -- never a second copy (see fixnew.py)
-_b = io.open("b57.py", encoding="utf-8").read()
+_b = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         "b57.py"), encoding="utf-8").read()
 _ns = {}
 exec(_b[_b.index("FIX = {"):_b.index("\n}\n", _b.index("FIX = {")) + 3], _ns)
 NEW = _ns["FIX"]
@@ -138,7 +139,13 @@ with sync_playwright() as pw:
         document.querySelectorAll('article.entry').forEach(a => {
             const hw = a.querySelector('.hw') ? a.querySelector('.hw').textContent : '';
             const w = [];
-            a.querySelectorAll('.w-mod, .w-raw').forEach(
+            // `.w-unv` is in this list although no log numbered below 74
+            // knew the class: pale did not exist when these were written, so a
+            // word that has since been de-verified vanished from the census
+            // entirely and reported BROWN missing. It is still SPELLED the way
+            // this file asserts, which is the only thing this file tests. The
+            // GREEN check below is unaffected -- only `.w-raw` gets the `~`.
+            a.querySelectorAll('.w-mod, .w-unv, .w-raw').forEach(
                 s => w.push(s.className.indexOf('w-raw') >= 0
                             ? '~' + s.textContent.trim()
                             : s.textContent.trim()));
@@ -152,6 +159,29 @@ print("%d cards rendered, %d in entries.js" % (len(dom), len(cards)))
 if len(dom) != len(cards):
     print("!! positional match is unsafe -- counts differ")
     sys.exit(1)
+
+# Later batches overturned these, and the assertion has to follow them.
+#
+# Everything below tests the MAP -- "this raw token spells that modern word" --
+# so a batch that respells a token is not a regression against this file, it is
+# the answer this file was one ruling short of. The left of each pair is the raw
+# token, the right of the pair is what THIS batch claimed, and the value is what
+# overturned it, with the batch that did.
+#
+# Keyed on (token, old spelling) on purpose. Deleting the assertion would lose
+# the claim; asserting the new spelling alone would lose the history. This way a
+# key that drifts to some THIRD spelling nobody argued for still fails here,
+# which is the only reason to keep the table instead of the assertion.
+SUPERSEDED = {
+    ("pnoxon", "pnuxun"): "pnuhun",           # batch 100
+    ("psxm'qun", "pshmqun"): "pshmkun",       # batch 121 a wrong-word claim
+    ("psyangan", "psyangan"): "psiyangan",    # batch 132 the dropped vowel
+    ("psyangi", "psyangi"): "psiyangi",       # batch 132
+    ("ptqoe", "ptquwi"): "pteuqi",            # batch 117 the uqu / TOOQO cluster
+    ("tnppngan", "tnppngan"): "tnpngan",      # batch 120 stemsplit120
+}
+sup = set()
+
 SPANS = [set(w.lower() for w in ws) for _, ws in dom]
 
 nb = ng = fail = 0
@@ -163,6 +193,9 @@ for name, want in (("batch 57 targets", TARGETS), ("neighbours held", HOLD)):
         checked.add(i)
         spans = SPANS[i]
         nb += 1
+        if (k, v) in SUPERSEDED:
+            v = SUPERSEDED[(k, v)]
+            sup.add(k)
         if v.lower() not in spans:
             print("  BROWN %-12s %-12s missing on [%s]  green there: %s" % (
                 k, v, hw, sorted(x for x in spans if x.startswith("~"))[:5]))
@@ -182,5 +215,7 @@ for name, want in (("batch 57 targets", TARGETS), ("neighbours held", HOLD)):
                 fail += 1
 nc = len(NEW) + len({k for _, k, _ in HOLD})
 
+print("\n%d of %d SUPERSEDED keys followed to a later batch's spelling"
+      % (len(sup), len(SUPERSEDED)))
 print("\n%d cards touched, %d keys, %d brown assertions, %d banned-form, FAILURES %d"
       % (len(checked), nc, nb, ng, fail))

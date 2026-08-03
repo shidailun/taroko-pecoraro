@@ -77,8 +77,25 @@ GAIN = {
 # the six pinned by hand — the rule REACHES all six, and HAND_NOT_UNGLOSSED is
 # the only thing keeping them pale. If that set is ever dropped, this is what
 # tells you, and `psqpah*` is the SISUN case wearing a different word's letters.
-PIN = {"psqpahan": 1, "psqpahi": 1, "psqpahun": 1,
-       "mttama": 3, "tmtama": 2, "mrbuq": 2}
+# Five of the six have since been answered; `mrbuq` is the pin that still holds,
+# and it is the one this assertion is now about.
+PIN = {"mrbuq": 2}
+
+# SUPERSEDED BY BATCH 155, and not by an argument about the refusal. These three
+# are no longer ANY colour, because they are no longer on the page: batch 155
+# ruled that his root is `qapah`, stick, not `qpah` — a vowel his typewriter
+# dropped — so the three respelt to `psqapah*` and these strings ceased to
+# exist. That is the transcription layer, not the map, and it is the one kind of
+# supersession a colour assertion cannot express. Asserted as ABSENT so that a
+# revert of batch 155 fails here rather than passing silently.
+SUPERSEDED_155 = ["psqpahan", "psqpahi", "psqpahun"]
+
+# SUPERSEDED BY BATCHES 151-152, on the merits. `mttama` and `tmtama` are dark
+# now at rung 2, regularly inflected: 151 gave SYN its third reading and 152 let
+# the paradigm outvote the gloss, and between them his 倚靠 found the modern
+# `tama` family. HAND_NOT_UNGLOSSED was never the thing holding these two — the
+# claim above is still true of `mrbuq`. Kept and inverted so a revert shows up.
+SUPERSEDED_152 = {"mttama": 3, "tmtama": 2}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -117,10 +134,16 @@ with sync_playwright() as p:
       return r; }""")
     gain = pg.evaluate(SPANS, sorted(GAIN))
     pin = pg.evaluate(SPANS, sorted(PIN))
+    s152 = pg.evaluate(SPANS, sorted(SUPERSEDED_152))
+    s155 = pg.evaluate(SPANS, sorted(SUPERSEDED_155))
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
 check(pin, PIN, "pale", "PIN")
+check(s152, SUPERSEDED_152, "dark", "SUPERSEDED_152")
+for w in SUPERSEDED_155:
+    if s155.get(w):
+        fail.append("SUPERSEDED_155 %s: batch 155 respelt it psqapah*, still rendered as %s" % (w, s155[w]))
 
 tot = sum(tally.values())
 if tally["dark"] < 42148:

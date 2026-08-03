@@ -14,13 +14,14 @@ neighbour set is EVERY other token on every touched card, carrying the value it
 had before the rebuild -- which is what a regression would have to move. Hand-
 listing neighbours is how you miss the one you did not think to list.
 """
-import json, io, sys, re, subprocess
+import json, io, sys, re, subprocess, os
 sys.stdout.reconfigure(encoding="utf-8")
 from playwright.sync_api import sync_playwright
 
 H = "C:/dev/formosan/seediq/taroko-pecoraro/"
 # read from the batch file itself -- never a second copy (see fixnew.py)
-_b = io.open("b65.py", encoding="utf-8").read()
+_b = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         "b65.py"), encoding="utf-8").read()
 _ns = {}
 exec(_b[_b.index("FIX = {"):_b.index("\n}\n", _b.index("FIX = {")) + 3], _ns)
 NEW = _ns["FIX"]
@@ -138,7 +139,13 @@ with sync_playwright() as pw:
         document.querySelectorAll('article.entry').forEach(a => {
             const hw = a.querySelector('.hw') ? a.querySelector('.hw').textContent : '';
             const w = [];
-            a.querySelectorAll('.w-mod, .w-raw').forEach(
+            // `.w-unv` is in this list although no log numbered below 74
+            // knew the class: pale did not exist when these were written, so a
+            // word that has since been de-verified vanished from the census
+            // entirely and reported BROWN missing. It is still SPELLED the way
+            // this file asserts, which is the only thing this file tests. The
+            // GREEN check below is unaffected -- only `.w-raw` gets the `~`.
+            a.querySelectorAll('.w-mod, .w-unv, .w-raw').forEach(
                 s => w.push(s.className.indexOf('w-raw') >= 0
                             ? '~' + s.textContent.trim()
                             : s.textContent.trim()));
@@ -152,6 +159,23 @@ print("%d cards rendered, %d in entries.js" % (len(dom), len(cards)))
 if len(dom) != len(cards):
     print("!! positional match is unsafe -- counts differ")
     sys.exit(1)
+
+# One HOLD neighbour that the page never paints, and it is not a respelling.
+#
+# HOLD is generated, not hand-written (see the loop above): it sweeps every
+# token on every touched card and asserts the ones a curated table already
+# knows. On T'LO that swept up `ti` -- but the only `Ti` on that card is inside
+# a sub's FORM string, `Tit'lo (Ti t'lo ?)`, where the parenthesis is Pecoraro's
+# own doubt about his own segmentation. A parenthetical alternative inside a
+# form field gets no word span, so there has never been anything on the page for
+# this assertion to read; `tg` was simply what the batch-65 map returned for a
+# string it was never asked about. Neither `ti` nor `tg` is in the wordlist, so
+# nothing downstream turns on it either way.
+#
+# Excluded by name rather than deleted, so that if the renderer ever does start
+# painting his parenthetical variants the exclusion is here to find.
+NOT_PAINTED = {"ti"}
+
 SPANS = [set(w.lower() for w in ws) for _, ws in dom]
 
 nb = ng = fail = 0
@@ -163,6 +187,9 @@ for name, want in (("batch 65 targets", TARGETS), ("neighbours held", HOLD)):
         checked.add(i)
         spans = SPANS[i]
         nb += 1
+        if k in NOT_PAINTED:
+            nb -= 1
+            continue
         if v.lower() not in spans:
             print("  BROWN %-12s %-12s missing on [%s]  green there: %s" % (
                 k, v, hw, sorted(x for x in spans if x.startswith("~"))[:5]))
@@ -182,5 +209,7 @@ for name, want in (("batch 65 targets", TARGETS), ("neighbours held", HOLD)):
                 fail += 1
 nc = len(NEW) + len({k for _, k, _ in HOLD})
 
+print("\n%d NOT_PAINTED keys skipped: %s"
+      % (len(NOT_PAINTED), sorted(NOT_PAINTED)))
 print("\n%d cards touched, %d keys, %d brown assertions, %d banned-form, FAILURES %d"
       % (len(checked), nc, nb, ng, fail))

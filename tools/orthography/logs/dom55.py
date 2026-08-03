@@ -112,7 +112,13 @@ with sync_playwright() as pw:
         document.querySelectorAll('article.entry').forEach(a => {
             const hw = a.querySelector('.hw') ? a.querySelector('.hw').textContent : '';
             const w = [];
-            a.querySelectorAll('.w-mod, .w-raw').forEach(
+            // `.w-unv` is in this list although no log numbered below 74
+            // knew the class: pale did not exist when these were written, so a
+            // word that has since been de-verified vanished from the census
+            // entirely and reported BROWN missing. It is still SPELLED the way
+            // this file asserts, which is the only thing this file tests. The
+            // GREEN check below is unaffected -- only `.w-raw` gets the `~`.
+            a.querySelectorAll('.w-mod, .w-unv, .w-raw').forEach(
                 s => w.push(s.className.indexOf('w-raw') >= 0
                             ? '~' + s.textContent.trim()
                             : s.textContent.trim()));
@@ -126,6 +132,30 @@ print("%d cards rendered, %d in entries.js" % (len(dom), len(cards)))
 if len(dom) != len(cards):
     print("!! positional match is unsafe -- counts differ")
     sys.exit(1)
+
+# Later batches overturned these, and the assertion has to follow them.
+#
+# Everything below tests the MAP -- "this raw token spells that modern word" --
+# so a batch that respells a token is not a regression against this file, it is
+# the answer this file was one ruling short of. The left of each pair is the raw
+# token, the right of the pair is what THIS batch claimed, and the value is what
+# overturned it, with the batch that did.
+#
+# Keyed on (token, old spelling) on purpose. Deleting the assertion would lose
+# the claim; asserting the new spelling alone would lose the history. This way a
+# key that drifts to some THIRD spelling nobody argued for still fails here,
+# which is the only reason to keep the table instead of the assertion.
+SUPERSEDED = {
+    ("l'pun", "lpun"): "rpun",                # batch 105 rpun 大肚子
+    ("pglxgun", "pglhgun"): "pglhugun",       # batch 132 the dropped slot vowel
+    ("plx'gun", "plhgun"): "plhugun",         # batch 132
+    ("plxgun", "plhgun"): "plhugun",          # batch 132
+    ("s'lu", "seelug"): "salu",               # batch 166 S"LU is SALU, to make
+    ("snlluwan", "sneelugan"): "snluan",      # batch 166 speaker ruling
+    ("snluwan", "sneelugan"): "snluan",       # batch 166
+}
+sup = set()
+
 SPANS = [set(w.lower() for w in ws) for _, ws in dom]
 
 nb = ng = nc = fail = 0
@@ -143,6 +173,9 @@ for name, want in (("batch 55 targets", NEW), ("neighbours held", HOLD)):
             checked.add(i)
             spans = SPANS[i]
             nb += 1
+            if (k, v) in SUPERSEDED:
+                v = SUPERSEDED[(k, v)]
+                sup.add(k)
             if v.lower() not in spans:
                 print("  BROWN %-12s %-12s missing on [%s]  green there: %s" % (
                     k, v, hw, sorted(x for x in spans if x.startswith("~"))[:5]))
@@ -159,5 +192,7 @@ for name, want in (("batch 55 targets", NEW), ("neighbours held", HOLD)):
                     fail += 1
         nc += 1
 
+print("\n%d of %d SUPERSEDED keys followed to a later batch's spelling"
+      % (len(sup), len(SUPERSEDED)))
 print("\n%d cards touched, %d keys, %d brown assertions, %d banned-form, FAILURES %d"
       % (len(checked), nc, nb, ng, fail))

@@ -2446,6 +2446,48 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## A test that cannot see a colour reports it as an absence (cleanup, 2026-08-03)
+
+The regression suite was carrying 289 failures across 23 logs and every one was
+a defect in the TEST, not in the dictionary. Three causes, in descending size.
+
+**No log numbered below 74 knows the pale class, and that was ~270 of the 289.**
+They scrape `.w-mod, .w-raw` — the only two colours that existed when they were
+written — so a word de-verified at any point in the last 110 batches disappears
+from their census entirely and is reported `BROWN … missing`, the same string a
+genuinely wrong respelling produces. dom63 went 79 failures to 0, dom58 43 to 0,
+dom66 32 to 0, on one selector. **A three-valued world read by a two-valued
+test does not report "unknown", it reports the value it can't see as absent.**
+The GREEN check is unaffected — only `.w-raw` gets the `~` prefix — so adding
+`.w-unv` is monotone: it can only turn failures into passes, never the reverse.
+
+**dom57–dom73 could not run at all**, and the cause was one line: they read
+their own batch file as `io.open("bNN.py")`, relative to the CWD, so they only
+worked from `tools/orthography/logs/`. Resolved against `__file__` now. I
+reported to the user that the `bNN.py` files "were never committed" — they are
+all tracked in HEAD, and the claim came from a `head -3` truncating my own
+listing. **Do not diagnose a missing file from a truncated `ls`.**
+
+**The remaining 20 were real supersessions, and they get a table, not a delete.**
+dom138 already had the convention and its wording is the rule: "the assertion is
+kept and inverted rather than deleted, so a revert shows up here." So `PIN`/
+`KEEP`/`STOPPED` entries that a later batch legitimately overturned move to a
+`SUPERSEDED_NNN` dict asserting the NEW colour, named for the batch that did it
+— 105 `l'pun`→`rpun`, 117, 120, 121, 132, 148 `mkpakaw`, 149 `mtama`, 151-152
+`mttama`/`tmtama`, 155 `psqpah*`, 164 `taya`, 166 `s'lu`→`salu`. In the map-layer
+logs the table is keyed on **(token, old spelling)**, so a key that drifts to
+some THIRD spelling nobody argued for still fails. Deleting the assertion loses
+the claim; asserting only the new value loses the history.
+
+Two shapes worth naming. Batch 155 respelt `psqpah*` out of existence, so the
+supersession is an ABSENCE assertion, not a colour — the transcription layer is
+the one kind of overturning a colour test cannot express. And dom65's `ti` was
+never a supersession at all: the only `Ti` on T'LO is inside the sub form
+`Tit'lo (Ti t'lo ?)`, his own parenthetical doubt about his own segmentation,
+which the renderer gives no word span. **A generated HOLD set will sweep up
+strings the page never paints**; exclude them by name so the exclusion is
+findable if the renderer ever changes.
+
 ## A worksheet row reports the ANALYSER, not the book (batch 170, 2026-08-03)
 
 `logs/dom170.py`. Sheet 1 row 4 filed seven pale occurrences under `bus`

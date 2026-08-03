@@ -14,13 +14,14 @@ neighbour set is EVERY other token on every touched card, carrying the value it
 had before the rebuild -- which is what a regression would have to move. Hand-
 listing neighbours is how you miss the one you did not think to list.
 """
-import json, io, sys, re, subprocess
+import json, io, sys, re, subprocess, os
 sys.stdout.reconfigure(encoding="utf-8")
 from playwright.sync_api import sync_playwright
 
 H = "C:/dev/formosan/seediq/taroko-pecoraro/"
 # read from the batch file itself -- never a second copy (see fixnew.py)
-_b = io.open("b68.py", encoding="utf-8").read()
+_b = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         "b68.py"), encoding="utf-8").read()
 _ns = {}
 exec(_b[_b.index("FIX = {"):_b.index("\n}\n", _b.index("FIX = {")) + 3], _ns)
 NEW = _ns["FIX"]
@@ -138,7 +139,13 @@ with sync_playwright() as pw:
         document.querySelectorAll('article.entry').forEach(a => {
             const hw = a.querySelector('.hw') ? a.querySelector('.hw').textContent : '';
             const w = [];
-            a.querySelectorAll('.w-mod, .w-raw').forEach(
+            // `.w-unv` is in this list although no log numbered below 74
+            // knew the class: pale did not exist when these were written, so a
+            // word that has since been de-verified vanished from the census
+            // entirely and reported BROWN missing. It is still SPELLED the way
+            // this file asserts, which is the only thing this file tests. The
+            // GREEN check below is unaffected -- only `.w-raw` gets the `~`.
+            a.querySelectorAll('.w-mod, .w-unv, .w-raw').forEach(
                 s => w.push(s.className.indexOf('w-raw') >= 0
                             ? '~' + s.textContent.trim()
                             : s.textContent.trim()));

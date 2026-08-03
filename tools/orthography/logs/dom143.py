@@ -70,7 +70,11 @@ RELEVEL = {"embliqan": 7, "empaabalay": 2, "spssagun": 2}
 
 # batch 142's pin, one letter from `pkpakux` and on the wrong root. Nothing in
 # this batch may reach it.
-PIN = {"mkpakaw": 4}
+# SUPERSEDED BY BATCH 148. Same pin as dom142, same ending: the refusal
+# named the argument it was waiting for -- a gloss test that could see
+# across a synonym -- 148 built SYN and supplied it, and `mkpakaw` came
+# out of HAND_NOT_REGULAR. Dark at rung 2. Inverted, not deleted.
+SUPERSEDED_148 = {"mkpakaw": 4}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -109,12 +113,12 @@ with sync_playwright() as p:
       return r; }""")
     gain = pg.evaluate(SPANS, sorted(GAIN))
     rele = pg.evaluate(SPANS, sorted(RELEVEL))
-    pin = pg.evaluate(SPANS, sorted(PIN))
+    s148 = pg.evaluate(SPANS, sorted(SUPERSEDED_148))
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
 check(rele, RELEVEL, "dark", "RELEVEL")
-check(pin, PIN, "pale", "PIN")
+check(s148, SUPERSEDED_148, "dark", "SUPERSEDED_148")
 
 tot = sum(tally.values())
 if tally["dark"] < 42191:
@@ -124,8 +128,8 @@ print("cards %d   page errors %d %s" % (cards, len(errs), errs[:2]))
 print("dark %d  pale %d  green %d   dark %.4f%%"
       % (tally["dark"], tally["pale"], tally["green"], 100.0 * tally["dark"] / tot))
 print("GAIN %d values / %d occurrences now dark" % (len(GAIN), sum(GAIN.values())))
-print("RELEVEL %d still dark   PIN %d still pale (mkpakaw, batch 142)"
-      % (len(RELEVEL), len(PIN)))
+print("RELEVEL %d still dark   SUPERSEDED_148 %d dark (mkpakaw, was batch 142's pin)"
+      % (len(RELEVEL), len(SUPERSEDED_148)))
 print("failures: %d" % len(fail))
 for f in fail:
     print("   " + f)

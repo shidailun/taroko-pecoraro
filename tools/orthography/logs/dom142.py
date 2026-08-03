@@ -55,11 +55,31 @@ GAIN = {"empsparu": 2, "knblaqan": 2, "mkparu": 3, "msbilaq": 3,
 # the two coincidences. The rule REACHES both; HAND_NOT_REGULAR is the only
 # thing keeping them pale, and `mkpakaw` is the one to watch — its right root is
 # in the same list and shares no character with him.
-PIN = {"knslaan": 2, "mkpakaw": 4}
+PIN = {"knslaan": 2}
+
+# SUPERSEDED BY BATCH 148, which quoted this file's own note back at it. The
+# hand refusal of `mkpakaw` lived in HAND_NOT_REGULAR and said, in writing, that
+# it existed only because the gloss test could not see across a synonym. Batch
+# 148 built SYN to see across one, and then had no reason left to keep the pin —
+# so it came out of HAND_NOT_REGULAR and the word is dark at rung 2. A refusal
+# that names the argument it is waiting for is a refusal that ends this way.
+SUPERSEDED_148 = {"mkpakaw": 4}
 
 # 人 and 上 were tested and refused; these are what would fall in first if
-# either were ever dropped from STOP.
-STOPPED = {"pngraq": 3, "mtama": 2, "mttama": 3, "tmtama": 2}
+# either were ever dropped from STOP. `mttama` and `tmtama` are dark as of
+# batches 151-152 and moved to SUPERSEDED_152 below — and they did NOT leave by
+# 人 or 上 being dropped, which is the only way their leaving would bear on this
+# assertion. They left because the paradigm was allowed to outvote the gloss.
+# `pngraq` is the one still holding the line.
+STOPPED = {"pngraq": 3}
+
+# `mtama` left by the same kind of door, one batch earlier: batch 149 gave the
+# gloss test a SECOND OPINION on what a root means (the Truku Bible dictionary),
+# and 當上父親的人 no longer had to reach `tama` 上帝 through the 上 of a verbal
+# complement to be read. What this batch refused is untouched — 上 is still in
+# STOP, and none of these three is dark BY 上.
+SUPERSEDED_152 = {"mttama": 3, "tmtama": 2}
+SUPERSEDED_149 = {"mtama": 2}
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -99,11 +119,17 @@ with sync_playwright() as p:
     gain = pg.evaluate(SPANS, sorted(GAIN))
     pin = pg.evaluate(SPANS, sorted(PIN))
     stopped = pg.evaluate(SPANS, sorted(STOPPED))
+    s148 = pg.evaluate(SPANS, sorted(SUPERSEDED_148))
+    s152 = pg.evaluate(SPANS, sorted(SUPERSEDED_152))
+    s149 = pg.evaluate(SPANS, sorted(SUPERSEDED_149))
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
 check(pin, PIN, "pale", "PIN")
 check(stopped, STOPPED, "pale", "STOPPED")
+check(s148, SUPERSEDED_148, "dark", "SUPERSEDED_148")
+check(s152, SUPERSEDED_152, "dark", "SUPERSEDED_152")
+check(s149, SUPERSEDED_149, "dark", "SUPERSEDED_149")
 
 tot = sum(tally.values())
 if tally["dark"] < 42167:

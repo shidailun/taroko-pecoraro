@@ -88,7 +88,7 @@ GAIN = {
 # kept when it dropped the registry intersection; these are still the homograph
 # class and must still be pale.
 KEEP = {
-    "tabu": 5, "butang": 3, "urang": 2, "taya": 2, "satu": 2,
+    "tabu": 5, "butang": 3, "urang": 2, "satu": 2,
     "nuli": 2, "iyak": 2, "ayuq": 2, "turu": 1, "tapak": 1,
     "sugi": 1, "sabung": 1, "muli": 1, "miru": 1, "kuy": 1, "emi": 1,
     "burung": 1, "bulu": 1, "aku": 1,
@@ -105,6 +105,15 @@ JP = {"boro": 2, "mori": 1, "xalo": 1}
 # assertion is kept and inverted rather than deleted, so a revert shows up here.
 SUPERSEDED_144 = {"eku": 5, "mici": 2,
                   "liwis": 38, "ingay": 24, "lauken": 22, "akit": 10}
+
+# SUPERSEDED BY BATCH 164, and it left KEEP by a door this batch was not looking
+# at. `taya` was held pale here as a name the register does not list; it is dark
+# now at rung 6, `no_chinese` — the rung for a word he glosses in French only.
+# Batch 164 ruled that an empty candidate list is not a refusal, and `taya` had
+# an empty one. Nothing about the NAME question moved: the register still does
+# not list it, and if it ever goes dark as a name rather than as a gloss this
+# assertion is where that shows up. Inverted, not deleted, exactly as above.
+SUPERSEDED_164 = {"taya": 2}
 
 # the register's own spelling, applied — dark now, and his old form gone
 # `kumu` is 2 because he writes the name twice, `komu` and `komù`, and only the
@@ -153,6 +162,7 @@ with sync_playwright() as p:
     keep = pg.evaluate(SPANS, sorted(KEEP))
     jp = pg.evaluate(SPANS, sorted(JP))
     sup = pg.evaluate(SPANS, sorted(SUPERSEDED_144))
+    s164 = pg.evaluate(SPANS, sorted(SUPERSEDED_164))
     fix = pg.evaluate(SPANS, sorted(FIX))
     was = pg.evaluate(SPANS, sorted(WAS))
     b.close()
@@ -161,6 +171,7 @@ check(gain, GAIN, "dark", "GAIN")
 check(keep, KEEP, "pale", "KEEP")
 check(jp, JP, "pale", "JP")
 check(sup, SUPERSEDED_144, "dark", "SUPERSEDED_144")
+check(s164, SUPERSEDED_164, "dark", "SUPERSEDED_164")
 check(fix, FIX, "dark", "FIX")
 for w in WAS:
     if was.get(w):

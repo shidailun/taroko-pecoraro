@@ -120,7 +120,13 @@ with sync_playwright() as pw:
         document.querySelectorAll('article.entry').forEach(a => {
             const hw = a.querySelector('.hw') ? a.querySelector('.hw').textContent : '';
             const w = [];
-            a.querySelectorAll('.w-mod, .w-raw').forEach(
+            // `.w-unv` is in this list although no log numbered below 74
+            // knew the class: pale did not exist when these were written, so a
+            // word that has since been de-verified vanished from the census
+            // entirely and reported BROWN missing. It is still SPELLED the way
+            // this file asserts, which is the only thing this file tests. The
+            // GREEN check below is unaffected -- only `.w-raw` gets the `~`.
+            a.querySelectorAll('.w-mod, .w-unv, .w-raw').forEach(
                 s => w.push(s.className.indexOf('w-raw') >= 0
                             ? '~' + s.textContent.trim()
                             : s.textContent.trim()));
