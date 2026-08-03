@@ -46,7 +46,7 @@ ndaxa            ndha             n-     daxa             M
 ndludan          ndrudan          n-     dludan           B
 ndmblaeq         ndmblaiq         n-     dmblaeq          B
 ndmpatas         ndmpatas         n-     dmpatas          R
-ndup             ndup             n-     dup              M
+ndup             neduk            n-     dup              M
 ndyamo           ndyamu           n-     dyamo            R
 nggalu           nggealu          n-     mggalu           M
 ngguyan          ngeuyan          n-     gguyan           M

@@ -1791,3 +1791,76 @@ occurring exactly once, and the top 24 types (9% of the mass) are almost all
 standing refusals.** There is no big fish left; from here every batch is
 individual adjudications, not sweeps.
 
+
+## Batch 172 — the loan gate that was built but never wired
+
+**`DUP` is `eduk`, and his own card wrote the rule.** His DUK card states the
+alternation outright — "mutation fréquente des consonnes finales: P et K …
+派生詞保留P，而詞基往往作K" — and the modern wordlist obeys it: derived `dpi`
+關門 (pq=20), `dpan`, `dpay`, `dpun` against base `mduk` 關(門、窗) (pq=6),
+`dmeeduk`/`dmpteeduk` 關門者. His DUP card names the answer itself ("Vr. NDUK.
+et: DUK"), and `duk` was ALREADY mapped to `eduk` at `manual_map.json:164`
+while `dup` sat on an identity claim one line below. A family that agrees
+convicts a head keeping its own letters. `eduk` is attested, verified 1,
+glossed 門扇. The hunt homograph does not interfere: `dupan`/`dupun` 獵場/要追獵
+live under ADUK and did not move — decided slot by slot, confirmed by a
+per-token diff showing only `dup`, `ndup`, `eduk`, `neduk` changing at all.
+
+`dup` 7 pale → 0, `ndup` 1 → 0, `eduk` 7 → 10 dark, `neduk` 0 → 1 dark.
+Eight pale out, four dark in: **the missing four are self-referential crossrefs
+the app collapses** once DUP renders as its own crossref target. Card counts
+held at 1,967 / 2,948 / 5,437, so nothing was lost — measured from the DOM, not
+the map. 97.4472% → **97.4650%**.
+
+**The loan population was exported by batch 171 and never consumed.** `git log
+-S loan_population` returns exactly one commit (`cbb4eec`, batch 171) and it
+touches only `build_modern_map.py`. The producer shipped; the consumer was
+never written. That is why a previous session could quote ~97.7% and "under
+1000" and the tree could still measure 97.4472% — the figure was a correct
+prediction of a gate that was never wired, not a regression.
+
+The argument for wiring it is already written in `build_verified.py`'s own name
+block, which cites `denki` 電気, `banasi` 話, `stbaku` 煙草 as names no register
+of Truku given names can ever hold, and answers that their modern spelling comes
+from the same o>u, l>r, x>h rules that spell every other word on the page. A
+Japanese or Chinese loan is in that identical position: no Truku wordlist will
+list `abura` 油 or `budosyu` 葡萄酒, so attestation is not a test tier J can
+fail — it is a test tier J cannot sit. Pale there reported the absence of a
+source that was never going to exist. Gated to the 141-token population for the
+same reason names are, widening `seen` and never `lex`.
+
++124 occurrences, 122 of them tier J. 97.4650% → **97.7439%**, pale 1,095 → 971.
+
+**`NALU` was a false dark, and only the gloss could catch it.** `manual_map.json`
+sent his NALU 代替、頂替 to `malu` — attested, verified 1, pq=718, and glossed
+好、良善、美. An attested value can still be a wrong value. The modern word
+carrying 代替 is `nirih` (pq=55), nothing like either; and his own family points
+the other way, `nluan` → `nruan`, attested and glossed **代替者**, the gloss
+agreeing with his headword exactly. Not an OCR slip either, which was the first
+suspicion: the entry carries a full gloss, two sub-forms and four example
+sentences ("Mnalu ko laqe so dmayao" 我代替你的兒子來工作), and modern Truku
+independently keeps an n-initial word for his meaning. Set to `naru`, which
+`nruan` evidences by syncope. Costs 8 spans of wrong dark for 8 of right pale —
+**97.7439% → 97.7259%** — and is worth it, because those 8 were queued to be
+recorded as the word for "good". `mnalu` stays identity: it is a genuine
+homograph across his MALU 和睦相處 and his NALU 頂替, and the map is keyed by
+token, so the slot-by-slot call cannot be made there.
+
+**An elision mark expanded where the corpus writes nothing.** `mpskagul` carried
+`w_was: mpskeagul` into the W tier and came out `empskeagul`; the corpus attests
+`empskagul` (pq=2), and the root `skagul` is id-tier attested. Same for
+`mpgaluk` → `empgealuk` against attested `empgaluk`. Both pinned in tier M.
+Only 2 types / 5 occurrences of the 44 W-tier pale occurrences have an attested
+e-deleted twin, so this is a pin and not a sweep. +4 dark; the fifth span is one
+more collapsed self-crossref, MPGALUK and MPGALUP now displaying alike.
+
+**Batch total: 97.4472% → 97.7371%, pale 1,103 → 974 occurrences / 645 types.**
+
+Tier J has left the pale census entirely. What remains is M 431, P 192, R 133
+occurrences, and the tail is flatter than ever — top item 8, then a run of 4s
+and 3s. **98% needs +122 occurrences, which is roughly 45 separate
+adjudications.** There is no lever left of that size; the loan gate was the last
+one. Two standing categories can never clear by evidence and should not be
+counted against the target: grammatical-morpheme cards like MPA 前綴, which are
+prefixes and not words, and the refusals already pinned (`rih`, `klulu`,
+`msnoxel`). 100% dark is not a reachable gate.

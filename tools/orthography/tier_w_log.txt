@@ -142,7 +142,6 @@ mpdanga          empdanga          mpdanga          R/twin       0     1
 mpdaxong         empdahung         mpdahung         R/class      0     1
 mpdidil          empjijil          mpjijil          P/twin       0     1
 mpg'luk          empgluq           mpgluq           P/twin       0     2
-mpgaluk          empgealuk         mpgealuk         P/class      0     1
 mpgaya           empgaya           mpgaya           P/twin       0     3
 mpgdadak         empgdadak         mpgdadak         P/twin       0     1
 mpgdgit          empgdgit          mpgdgit          R/class      0     1
@@ -221,7 +220,6 @@ mpsibus          empsibus          mpsibus          P/class      0     1
 mpsinao          empsinaw          mpsinaw          P/twin       0     1
 mpsiyam          empsiyang         mpsiyang         M/class      0     1
 mpsk'löt         empskrut          mpskrut          P/class      0     1
-mpskagul         empskeagul        mpskeagul        P/class      0     4
 mpskan           empskan           mpskan           P/class      0     1
 mpsklaya         empskraya         mpskraya         P/class      0     3
 mpsklibut        empskribut        mpskribut        R/class      0     1

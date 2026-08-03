@@ -239,6 +239,33 @@ def main():
                   % (len(named), len(pop), len(HAND_NAMES), len(named & reg)))
         seen |= named
 
+    # The LOAN POPULATION — the same argument the name block makes two
+    # paragraphs up, applied to the class that block already names. `denki`
+    # 電気, `banasi` 話, `stbaku` 煙草 are cited there as names no register of
+    # Truku given names can ever hold, and the answer given is that their modern
+    # spelling comes from the same o>u, l>r, x>h rules that spell every other
+    # word on the page. A Japanese or Chinese loan is in exactly that position:
+    # no Truku wordlist will ever list `abura` 油 or `budosyu` 葡萄酒, so the
+    # attestation test is not a test it can fail — it is a test it cannot sit.
+    # Leaving it pale does not report doubt about the respelling; it reports the
+    # absence of a source that was never going to exist.
+    #
+    # Gated to the population for the same reason names are: the claim being
+    # made about a loan token IS "this is how the loan is written". Tier J is
+    # the tagger's own verdict that the word came in from Japanese or Chinese,
+    # so the population is the set of tokens that verdict covers, and nothing
+    # widens `lex` — a loan is not a root, and must never reach the affix
+    # analyser as one.
+    lf = os.path.join(HERE, "loan_population.json")
+    if os.path.exists(lf):
+        loans = set(json.load(io.open(lf, encoding="utf-8")))
+        loaned = {v for v in (mp.get(t) for t in loans) if v} | \
+                 {ov[t] for t in loans if t in ov}
+        loaned = {v.strip().lower() for v in loaned}
+        print("loans: %d values from the %d-token loan population"
+              % (len(loaned), len(loans)))
+        seen |= loaned
+
     # Every value a brown span can display. CLITIC_FORMS hands the word back
     # unchanged, so there the key IS the value.
     vals = set(ov.values()) | set(mp.values()) | set(cl)

@@ -2618,7 +2618,7 @@
    "tier": "id"
   },
   "dup": {
-   "modern": "dup",
+   "modern": "eduk",
    "tier": "M"
   },
   "duua": {
@@ -8847,6 +8847,10 @@
    "modern": "mpgeeguy",
    "tier": "M"
   },
+  "mpgaluk": {
+   "modern": "empgaluk",
+   "tier": "M"
+  },
   "mpgalup": {
    "modern": "empgaluk",
    "tier": "W",
@@ -9004,6 +9008,10 @@
    "tier": "W",
    "w_was": "mpsiyang",
    "w_how": "class"
+  },
+  "mpskagul": {
+   "modern": "empskagul",
+   "tier": "M"
   },
   "mpslamal": {
    "modern": "empsramal",
@@ -10331,7 +10339,7 @@
    "tier": "B"
   },
   "nalu": {
-   "modern": "malu",
+   "modern": "naru",
    "tier": "M"
   },
   "nama": {
@@ -22235,12 +22243,6 @@
    "modern": "mpgeeguy",
    "tier": "P"
   },
-  "mpgaluk": {
-   "modern": "empgealuk",
-   "tier": "W",
-   "w_was": "mpgealuk",
-   "w_how": "class"
-  },
   "mpgaya": {
    "modern": "empgaya",
    "tier": "W",
@@ -22719,12 +22721,6 @@
    "modern": "empskrut",
    "tier": "W",
    "w_was": "mpskrut",
-   "w_how": "class"
-  },
-  "mpskagul": {
-   "modern": "empskeagul",
-   "tier": "W",
-   "w_was": "mpskeagul",
    "w_how": "class"
   },
   "mpskan": {
@@ -29537,7 +29533,7 @@
    "d_base": "dmpatas"
   },
   "ndup": {
-   "modern": "ndup",
+   "modern": "neduk",
    "tier": "D",
    "d_rule": "n-",
    "d_base": "dup"
