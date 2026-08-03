@@ -2446,6 +2446,44 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## A root in -aw writes -ag- before a suffix (batch 167, 2026-08-03)
+
+`inflection.py: awag()`, rung 10 of 14. `logs/dom167.py`.
+
+**The worksheet's own top row was a false question, and reading it is what found
+the rule.** Sheet 1 ranked `dagi` first: four pale words, ten occurrences, and
+the wordlist glosses `dagi` 要煮飯. Cooking rice has nothing to do with his
+SPADAO card, so the sheet was about to ask a speaker whether `pspdagi` is a
+cooking word. Nobody should be asked that. **Read row 1 of a generated sheet
+before printing it** — the ranking is by occurrences, so a bad row goes to the
+top exactly when it is worth the most.
+
+**He was right; the wordlist had the whole family.** Modern Truku prints
+`pspadaw` 慷慨（不計價的送人）, `pnpadaw` 送過的禮物, `emppadaw` 將…作為禮物 and
+`pnspadaw`, and the map had already landed his unsuffixed forms on them — 4
+`pspadaw` and 4 `pnspadaw` were dark before this batch. Only the four SUFFIXED
+slots fell through, and `roots()`, finding nothing better, reached inside
+`pspdagi` and pulled out the rice.
+
+**The alternation is regular and it is his own: 76 pairs against 2.** A root in
+`-aw` writes `-ag-` when a suffix follows, so `pspdagun` IS the modern slot of
+`pspadaw`. Nothing is misspelled; a rung was missing. This is the same shape as
+`syncopated` — an orthographic fact of the paradigm, not a claim about meaning —
+and like it, the rule still refuses to fire without a gloss of his to agree with.
+
+**Longest-first, or it lands on the wrong card.** The wordlist files `padaw` as
+「是 spadaw 不可靠的人 的詞根（無意義詞）」, an entry its own derivatives refute.
+Candidates are walked longest-first exactly as batch 165 settled for
+`syncopated`, so the search stops at `pspadaw` and never at `padaw`. A `<n>` in
+the first two positions is treated as the infix it is, not a letter of the stem.
+
+Three refusals are pinned: `pkagi` (no `-ag-` stem long enough), `knsrhagan` and
+`pnslhagan` (no `-aw` word the gloss agrees with). A later widening that sweeps
+them up has stopped reading his Chinese.
+
++10 occurrences, 4 values off honest pale onto listed modern words, 0 de-verified.
+97.4022% → **97.4247%** (43,316 / 1,113 / 32).
+
 ## What is left is a speaker's, and the unit is the ROOT (2026-08-03)
 
 `tools/orthography/build_worksheets.py` → `tools/orthography/worksheets/*.md`.
