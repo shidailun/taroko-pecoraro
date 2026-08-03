@@ -1864,3 +1864,277 @@ one. Two standing categories can never clear by evidence and should not be
 counted against the target: grammatical-morpheme cards like MPA 前綴, which are
 prefixes and not words, and the refusals already pinned (`rih`, `klulu`,
 `msnoxel`). 100% dark is not a reachable gate.
+
+## Batch 173 — the refusal was wrong on two counts
+
+Batch 173 measured the 462 sole-blocked pairs, classified 235 types / 257 pairs
+as "never a headword (example text only)", called them unadjudicable, and made
+no changes. Both halves of that reasoning are wrong.
+
+**1. "Never a headword" does not mean glossless.** Every form on the page
+reaches an entry — through `FORMS`, through `lookupWord()`, or through a
+generated SLOT card. A word that appears only inside an example sentence still
+resolves to a root, and **that root has a gloss**. The adjudication should
+resolve each blocker to its root and use the ROOT's Chinese, which is exactly
+the unit `build_worksheets.py` already says the work is keyed on. The batch-173
+classifier asked only whether the token itself was printed as a headword or
+sub-form, which is a question about the index, not about the evidence.
+
+This is **not** the sentence-gloss rule batch 146 refused. That rule proposed
+letting a translated sentence vouch for a respelling — a sentence in the 1977
+book attests HIS spelling and cannot confirm ours, and `sktama` stands as its
+counter-example. Resolving a form to its root and reading the root's word-level
+Chinese is the ordinary method, the one every previous batch used. Batch 173
+conflated the two and refused 257 pairs on the strength of the wrong rule.
+
+**2. Affixed loans miss the tier-J gate.** The loan gate wired in batch 172 keys
+on the bare tokens listed in `loan_population.json`, so a loan carrying a
+documented prefix never matches. `ddcristu` is `dd-` (human plural) + `cristu` —
+a tier-J loan the gate cannot see, pale for a reason that has nothing to do with
+the respelling. The same argument that put bare loans dark covers the affixed
+ones: no Truku wordlist will list them either.
+
+**Standing next action:** measure how many pale occurrences decompose as a
+documented prefix plus a tier-J loan, then extend the gate to cover them.
+
+No adjudications were made in batch 173. Pair total unchanged at 4,950 / 5,435.
+
+
+## Darryl's queue, 2026-08-03
+
+Queued, not acted on. Recorded verbatim from Darryl.
+
+**GENERAL PRINCIPLE, applies to everything below:** always propose the "it's
+his" reading before the "it's ours" reading. Several suspected transcription
+errors today have plausible readings as real features of his text. Entries were
+read off page images, so any real error is a misreading, not the PDF's OCR
+layer.
+
+### SYSTEMATIC — measure these, don't hand-fix
+
+**A. Affixed loans miss the tier-J gate.** It keys on bare tokens in
+`loan_population.json`. `ddcristu` = `dd-` (human plural) + `cristu`. Count pale
+occurrences that are a documented prefix + a tier-J loan.
+
+**B. Stem alternation may be breaking the regular-inflection gate.** BUWAY
+paradigm (`Muway`, `buway`, `biqi`, `biqan`, `biqun`) should all be dark as
+regular inflections of a dark root. If they are pale, the gate is not firing —
+likely because the root wears two stems (`buway`/`biq`) and the analyser can't
+follow the alternation. Count pale forms that are regular inflections of a dark
+root whose stem alternates. Could be larger than A.
+
+**C. Dark words with no reachable page.** `khibung` renders dark in
+§ *Mhibung ka ribul su; ini hari khibung ka naku* but has no entry. SLOTS only
+generates cards for forms he listed on ° lines. Count dark example-sentence
+tokens with no reachable page. If large, widening SLOTS to attested example
+tokens would fix the navigation gap AND give the batch-173 blockers a root gloss
+to be adjudicated against.
+
+**D. Which documented rules were never swept as a class?** The loan gate, the
+batch-32 word-initial-`ii` rule, and the prefix chains all look like rules
+derived once and applied to the case at hand. List them.
+
+### CORRECTIONS TO BATCH 173
+
+**E. "Never a headword" was mis-diagnosed.** Every form ultimately reaches an
+entry — `FORMS`, `lookupWord()`, or a generated SLOT card whose root is glossed.
+Re-derive the 235-type / 257-pair class by resolving each blocker to its ROOT and
+using the root's gloss. This is not the batch-146 sentence-gloss rule.
+
+**F. `sblangan` 矛 → try `sbrangan`, NOT `smbrangan`.** The refusal was against
+`smbrangan`, which needs an inserted `m` no char rule licenses. `sbrangan` is
+plain `l→r`. Check its gloss; `smbrangan` is attested pq=13 but unglossed, and if
+both are one root with and without the `-m-` infix that settles the gloss for
+both. Example sentence (刀、弓和矛) corroborates. Likely a template — other
+batch-173 refusals may have had the right candidate one letter from the one
+tested.
+
+### ADJUDICATION RULE
+
+**G. Regular beats bracketed-irregular.** A bracketed alternative is often his
+own guess from five decades ago. Where the unbracketed form is regular against
+the headword, the bracket does not compete: QUDAK / `Qdakan` (`Kdapan`?) —
+`Qdakan` is regular, `Kdapan` is not (`k-` for `q-`, `p` for `k`), so `Kdapan` is
+irrelevant. Two constraints: (i) this applies to ADJUDICATION only, never to
+parsing or display — `collapsed()`, `collapseTagBrackets()` and the `cells()`
+cell-count invariant all depend on brackets being read as spellings; (ii) it
+cannot become "ignore brackets," because SPU (`SPU"` - `SPUG`) is the
+counter-case where his bracketed form was the fuller and correct one. Then
+measure: how many pale forms have a bracketed alternative irregular against the
+headword while the unbracketed form is regular? Decide as a class.
+
+### INDIVIDUAL WORDS
+
+**H. KMRNU √ / Restaurer / 修復** — suspected misreading; no vowel between M and
+R. Check: (1) does the entry carry sub-forms or examples? A misread headword
+usually stands alone. (2) Omnibus search for 修復 and the `km-r` skeleton — a
+modern word with his gloss and a vowel where he has none locates the error.
+(3) Alphabetical neighbours — does KMRNU sit where it should? If a misreading,
+the fix is `data/batch_*.json` plus rebuild, not a map entry.
+
+**I. ANAY 姊妹的丈夫／妻子的兄弟, § *Mha su inu, nay?*** — `nay` is probably a
+clipped vocative of ANAY, not an error. His own note says the term is very
+frequent and expresses friendship, and the sentence is direct address. Check:
+(1) omnibus for `anay` and `nay` separately, with glosses; (2) other clipped
+kinship/address terms elsewhere in the book; (3) only if both empty, check the
+page image for a dropped initial A. If it is a real clipped vocative, do NOT
+respell it to `anay` — that would erase a real form.
+
+**J. `iiyah` "will come"** — batch 32 already established word-initial `ii` is not
+written in modern Truku. Check: is `iiyah` pale, and at what tier and value? Root
+is `iyah`/`uyah` 來 — confirm which. If `ii-` is his future marker rather than a
+spelling variant, the fix is not a respelling. See D.
+
+**K. `mnkyayung`, § *Mnkyayung ku kdjiyax tmabuy* / 我一路沿著溪流下來** —
+`yayung` 河流 is solid. First determine WHICH token in the line is actually pale:
+`mnkyayung`, `kdjiyax`, or `tmabuy`. If `mnkyayung`, confirm `yayung` is dark and
+check whether `mn-` + `k-` is a documented prefix chain; if so this is verified
+level 2, not a new mapping. If `tmabuy`, see L.
+
+**L. TABWI ° line:** `° Tmabuy, tabuy, tbgi (?) Tbuyi (?), tbuyan, (tbuyan?),
+Tbuyun.` (1) Count the cells — the positional slot labels need five. This reads
+as seven tokens; if `cells()` does not return five, SLOT_SUF is the fallback and
+the positional read is forfeited for this line. (2) `tbuyan` appears twice, once
+bracketed — his hedge or a transcription error? Check the page image.
+(3) Capitalization is inconsistent across cells; determine whether that is his.
+
+**M. Capitalization may be positionally meaningful.** `biqun` renders lower case,
+`Muway` capitalized; the TABWI line does the same (`Tmabuy`, `tabuy`, `tbgi`,
+`Tbuyi`). Check whether `Muway`'s capital comes from the page or from
+`matchCase()`. Then test across the 380+ five-cell ° lines whether capitals
+cluster by slot position. If they do, that is a second independent witness to the
+positional read `parslot4.py` measured — his own annotation, not our inference.
+
+### FEATURE REQUEST
+
+**N. No "go back" navigation.** A slot link or crossref opens a card with no way
+to return. Needs to work for crossref (two-tap), slot link (one tap), and A–Z
+listing → card. Consider `history.pushState` so the phone back button works — the
+app already has `?q=` deep links.
+
+
+## Batch 174 — B measured and closed; the paradigm split is the wordlist's shape
+
+**B is closed.** The premise case is already correct: BOAI's line renders
+`muway, buway, biqi, biqan, biqun` all five DARK, so the analyser does follow
+the boai/byeq -> buway/biq alternation. 404 paradigm lines rendered against 404
+`paradigm` fields in `entries.js`, so the harness saw all of them.
+
+53 lines have a dark anchor and at least one pale cell. 112 pale types sit under
+a dark anchor: 44 where the stem alternates (65 pale occ, 11 sole-blocked pairs)
+and 68 where it agrees (96 pale occ, 16 pairs). Clearing every one of the 112
+moves the pair total 4,950 -> 4,977. B is not a big lever.
+
+**The third group is not a gate bug.** 73 pale cells have a dark sibling on the
+same stem. The hypothesis was an incomplete suffix set — `-an` recognised in some
+frame where `-i` and `-un` are not. It is false. `BASE_SUF` holds
+`'' un an i ay aw ani anay aan aneyi`, and the data shows all three slots
+analysing together wherever the stem is analysable at all: `psbrnuxi`,
+`psbrnuxan`, `psbrnuxun` all cut to `brnux`+`ps`+suffix; `dkari`, `dkaran`,
+`dkarun` all cut. There is no frame where the suffixes are treated unequally.
+
+**What splits them is the shape of the wordlist.** 57 of the 73 dark siblings are
+level 1 — a modern source lists that exact word, so they never went through the
+analyser at all. `kayagan` is dark because it is listed, not because the gate
+accepted it. And 60 of the 73 dark siblings are BARE, against pale cells that are
+`-i` (24), `-un` (23), `-an` (13). Wordlists list citation forms. The split is
+the corpus's, not the analyser's, and a pale sibling here is an absence rather
+than a refusal.
+
+The two failure modes are both doing their job. 41 cells cut cleanly and fail
+because no gloss agrees — the same test that keeps `spsangay` off `sang`. 33
+cells return nothing from `roots()` because no candidate root is in `lex`.
+
+Inside that 33 there is one narrow gap: **13 have exactly one listed sibling on
+the same stem and none have two or more.** `sistered()` (level 8, "a slot the
+wordlist writes with two other suffixes") needs two, and all 13 miss by one.
+Dropping the threshold to one is a one-line change and was REFUSED: it weakens
+the standing two-supporters rule for at most 13 types, and unanimity over one
+item is not unanimity. The remaining 19 have no listed sibling at all; nothing
+reaches them.
+
+**Ceilings.** All 73 cells clearing = 4,950 -> 4,966 pairs, 16 pairs. The 13-type
+threshold change buys less than that. Neither is worth the price. No changes
+made; pair total unchanged at 4,950 / 5,435.
+
+
+## Batch 175 — the monospace grid, and the class it opens
+
+Technique written up separately in `.claude/notes/grid-method.md`. The finding
+that produced it: LIWANG's example on p.164 reads `mnalox`, not `rinalox`. The
+word measures 99px against a ~16px cell — six cells, the same as `liwang` (101)
+— and `rinalox` is seven characters. `mnalox` ×52 in the merged text (×152 in
+the raw batch files, counting sub-form and ° occurrences), `rinalox` ×1.
+
+**The candidate class, measured two ways.**
+
+Hapax types with an edit-distance-1 neighbour occurring ≥10 times: **592** of
+7,216 Truku types. Tightening the neighbour threshold gives 307 at ≥25, 190 at
+≥50, 112 at ≥100. This list is NOISY and is not a fix list — its top entries are
+`nai`/`ini`, `kala`/`kana`, `aga`/`ana`, which are real distinct words that
+happen to sit one letter apart. Short types dominate it for the obvious reason.
+
+**The sweep cannot see its own motivating case.** `rinalox` → `mnalox` is edit
+distance TWO (`ri` → `m`), so a d=1 sweep misses it entirely. The confusion this
+typeface makes is one glyph read as two, which is why. Measuring that class
+directly — hapax explained by a one-glyph-as-two substitution with a neighbour
+≥10 — returns **4**: `rinalox`→`mnalox` ×52, `hma`→`lima` ×20, `ban`→`loan` ×15,
+`snn`→`snii` ×11. Small, checkable one page at a time, and it is where the grid
+earns its keep.
+
+`manalox` (×1) is edit distance 1 from `mnalox` and sits in the 592. Neither it
+nor `rinalox` has been corrected — both want a page check first, and the grid is
+a per-word tool because the m/n confusion runs both directions on the same line.
+
+
+## Batch 176 — word pages for groups 1 and 3; group 2 refused
+
+C found 1,835 dark example-sentence occurrences over 1,002 types with no page to
+open. 988 of those types were never a headword, a sub-form or a ° cell — words he
+used and never defined. They render dark, respelled, and lead nowhere.
+
+**What was built.** `tools/orthography/build_wordpages.py` → `site/wordpages.js`,
+a TABLE (`window.WORD_PAGES`), consumed by app.js. Group 1 (value = the root)
+names the one candidate root `Inflection.roots()` reaches when that root is
+already dark; group 3 (value = `""`) carries only the concordance. **Group 2 is
+omitted from the file entirely**, so silence in the table is a refusal in the
+app — a token whose root would have to be CHOSEN (`spsapox` between `psapuh` and
+`sapuh`) gets no page, because choosing is an adjudication and a generator does
+not adjudicate.
+
+**Neither card asserts anything new.** Group 1's root has its own page and its
+own gloss; the analysis that reaches it is the same analysis `regular()` already
+runs. Group 3 says only "this word occurs in these sentences", and a concordance
+is his text, not a claim about morphology. Both are marked the way the ° slot
+cards are — italic headword, dashed tag (`in his examples / 例句詞形`), italic
+generated gloss, `morph-note` saying he gave the form no entry. **A page we built
+must never read like a page he wrote.**
+
+**The population is wider than the measurement.** The DOM census measured the
+unreachable DARK example-only types (988 → 315/536/137). The generator runs the
+same two tests over ALL 1,594 example-only types, pale and green included, so it
+emits **876 keys — 446 group 1, 430 group 3 — not 452**. The tests are identical;
+only the population differs. Over-generating here is safe and under-generating is
+not, because app.js re-tests reachability at runtime against `lookupWord()` and
+`slotByKey()`, which know about bracketed aliases and variants the generator does
+not, and drops any key with no `CONC_IDX` row. Of the 876, 632 types actually
+render a link.
+
+**10 of the 446 roots are dark with nothing to open** — `truku`, `drudan`,
+`dmblaiq` … Dark means a modern source vouches for the SPELLING, not that he gave
+the word an entry. Those roots are still named in the gloss (the analysis is the
+same) but the → pointer is not clickable. Ranking throughout is
+`lookupWord` > `slotByKey` > word page: a real entry always outranks a card we
+generated, and a slot he printed outranks one we inferred.
+
+**Measured from the DOM.** Unreachable dark example tokens **1,835 occ / 1,002
+types → 958 / 557**; 890 dark spans over 445 types now carry `word-link`. Card
+counts hold: 1,967 entries, 5,437 examples, 0 word cards in the whole-dictionary
+view (`?q=%CC%81` norms to "" and `wordMatches("")` returns []). One tap opens a
+word page, like a slot and unlike a crossref — there is no gloss for a preview to
+show. **Pair total unchanged at 4,950 / 5,435 (91.08%)**: navigation is not
+orthography, and nothing here changed a spelling.
+
+Group 2 (536 types / 914 occ) left entirely, as instructed. 536 decisions is not
+a batch, and half of them will be answered better once groups 1 and 3 are
+navigable.

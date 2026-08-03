@@ -980,11 +980,18 @@
       // outranks a generated card. This is also the word-by-word view of the
       // book — every sentence using `kgusi` now links to what `kgusi` is.
       var slot = !linked && !noLink ? slotByKey(part, skipSlot) : null;
+      // And a word that is neither can still be one he used in a sentence and
+      // never defined. Lowest rank of the three, and it only reaches the words
+      // wordpages.js emits — the ones a page can carry without asserting
+      // anything he did not write.
+      var wp = !linked && !slot && !noLink ? wordPageByKey(part, skipSlot) : null;
       if (linked) cls += " crossref-link";
       else if (slot) cls += " slot-link";
+      else if (wp) cls += " word-link";
       h += '<span class="' + cls + '"' +
         (linked ? ' data-ref="' + esc(part) + '"'
-                : slot ? ' data-slot="' + slot.n + '"' : "") +
+                : slot ? ' data-slot="' + slot.n + '"'
+                : wp ? ' data-word="' + wp.n + '"' : "") +
         ">" + esc(dispTruku(part)) + "</span>";
       if (spellingModern && lexicalSub(part)) {
         h += ' <span class="w-orig" title="Pecoraro’s word, no longer used">(' +
@@ -1755,6 +1762,133 @@
     return slotList().filter(function (s) { return s.key === q || s.mkey === q; });
   }
 
+  // ---------- word pages: the words he only ever used in a sentence ----------
+  // FORMS holds headwords and sub-forms; SLOTS adds the tokens he printed on a °
+  // line. A word that appears ONLY inside an example sentence is in neither, so
+  // it renders on screen — dark, respelled, read by anybody using the book — and
+  // leads nowhere. Measured from the DOM (`logs/reach.py`): 1,835 dark
+  // occurrences over 1,002 types were in that state, 988 of them example-only.
+  //
+  // `site/wordpages.js` is the table, and its silence is a refusal. A key is
+  // there only if a page for it asserts NOTHING NEW — either the affix analyser
+  // reaches exactly one candidate root and that root is already dark (the value
+  // is that root, which has its own page and its own gloss), or it reaches no
+  // root at all (the value is empty and the card carries only the concordance,
+  // which is his sentences and not a claim about morphology). A token whose root
+  // would have to be CHOSEN — `spsapox` between `psapuh` and `sapuh` — is not
+  // emitted, because choosing is an adjudication and a generator does not
+  // adjudicate. See tools/orthography/build_wordpages.py.
+  //
+  // Reachability is re-tested here rather than trusted from the table:
+  // lookupWord() knows about bracketed aliases and variants the generator does
+  // not, and a real entry or a slot always outranks a page we made.
+  var WORD_LIST = null, WORD_KEY = null;
+
+  function buildWordPages() {
+    if (WORD_LIST) return;
+    buildConc();
+    WORD_LIST = []; WORD_KEY = {};
+    var tbl = window.WORD_PAGES || {};
+    Object.keys(tbl).sort().forEach(function (k) {
+      if (lookupWord(k) || slotByKey(k)) return;
+      // No sentence, no page. The concordance IS the card for a group-3 word,
+      // and for a group-1 word it is the only thing on it he wrote.
+      var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, k) ? CONC_IDX[k] : [];
+      if (!rows.length) return;
+      var w = { key: k, root: tbl[k], n: WORD_LIST.length };
+      w.mkey = norm(modernizeText(k));
+      WORD_KEY[k] = w;
+      WORD_LIST.push(w);
+    });
+  }
+
+  function wordList() { buildWordPages(); return WORD_LIST; }
+
+  function wordPageByKey(word, skip) {
+    var k = wordKey(word);
+    if (skip && k === skip) return null;
+    buildWordPages();
+    return Object.prototype.hasOwnProperty.call(WORD_KEY, k) ? WORD_KEY[k] : null;
+  }
+
+  // Named, never defined. A group-1 card says which root the analysis reaches and
+  // stops there; a group-3 card says only that the word occurs in his sentences.
+  // Neither carries a gloss, because he wrote none for these forms and inventing
+  // one is the single thing a dictionary must not do.
+  function wordSense(w, lang) {
+    if (!w.root) {
+      if (lang === "zh") return "僅見於例句中的詞形";
+      if (lang === "en") return "a form used only in his example sentences";
+      return "forme employée seulement dans ses exemples";
+    }
+    var r = dispText(formText(w.root));
+    if (lang === "zh") return "構詞分析指向詞根 " + r;
+    if (lang === "en") return "affix analysis reaches the root " + r;
+    return "l'analyse morphologique atteint la racine " + r;
+  }
+
+  function wordGlossHtml(w) {
+    var h = "";
+    if (shown.fr) h += '<p class="gloss morph"><span class="lang-chip fr">FR</span>' + esc(wordSense(w, "fr")) + "</p>";
+    if (shown.en) h += '<p class="gloss morph"><span class="lang-chip en">EN</span>' + esc(wordSense(w, "en")) + "</p>";
+    if (shown.zh) h += '<p class="gloss morph"><span class="lang-chip zh">中</span>' + esc(wordSense(w, "zh")) + "</p>";
+    return h;
+  }
+
+  var WORD_NOTE_1 =
+    "Pecoraro gives this form no entry of its own; it occurs only inside his " +
+    "example sentences. The root named above is the one candidate our affix " +
+    "analysis reaches, and it is a word he does define — the sentences below are " +
+    "his, everything else on this page is ours. / " +
+    "此詞形白氏未立條目，僅見於其例句之中。上列詞根為本站構詞分析所得之唯一候選，" +
+    "且白氏另有其條目與釋義。下列例句出自原書，其餘內容則否。";
+  var WORD_NOTE_3 =
+    "Pecoraro gives this form no entry of its own; it occurs only inside his " +
+    "example sentences, and no affix analysis reaches a root for it. This page " +
+    "claims nothing about the word beyond the sentences below, which are his. / " +
+    "此詞形白氏未立條目，僅見於其例句之中，且構詞分析無法為其尋得詞根。" +
+    "本頁除下列出自原書的例句外，對此詞不作任何主張。";
+
+  function wordCardHtml(w) {
+    buildConc();
+    var h = '<article class="entry word">';
+    h += '<div class="hw-line"><span class="hw">' +
+      linkifyTruku(tidyForm(formText(w.key)), true) + "</span>";
+    h += '<span class="tag slot-tag">' + esc("in his examples / 例句詞形") + "</span>";
+    // The pointer is clickable only where the root actually has a page. 10 of the
+    // 446 roots the analyser names are dark spellings with nothing to open — dark
+    // means a modern source vouches for the SPELLING, not that Pecoraro gave the
+    // word an entry. Those still get named, because the analysis is the same
+    // analysis; they just do not pretend to be a link.
+    if (w.root) {
+      var reach = lookupWord(w.root) || slotByKey(w.root) || wordPageByKey(w.root);
+      h += '<span class="tag stub-parent' + (reach ? " slot-parent" : "") + '"' +
+        (reach ? ' data-ref="' + esc(w.root) + '"' : "") +
+        ">→ " + linkifyTruku(tidyForm(formText(w.root)), true) + "</span>";
+    }
+    h += "</div>";
+    h += wordGlossHtml(w);
+    h += '<p class="fine morph-note">' + esc(w.root ? WORD_NOTE_1 : WORD_NOTE_3) + "</p>";
+    var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, w.key) ? CONC_IDX[w.key] : [];
+    h += '<p class="conc-form">' + esc("Examples of use (" + rows.length +
+      ") / 用例（" + rows.length + "）") + "</p>";
+    rows.slice(0, CONC_MAX).forEach(function (n) { h += concRowHtml(n); });
+    if (rows.length > CONC_MAX) {
+      h += '<p class="fine conc-more">' +
+        esc("Showing the first " + CONC_MAX + " of " + rows.length +
+            " / 僅顯示前 " + CONC_MAX + " 則，共 " + rows.length + " 則") + "</p>";
+    }
+    return h + "</article>";
+  }
+
+  // Exact match only, on the same argument slotMatches gives: a prefix tier would
+  // put generated cards in front of the entries a reader asked for.
+  function wordMatches(q) {
+    q = norm(q.trim());
+    if (!q) return [];
+    return wordList().filter(function (w) { return w.key === q || w.mkey === q; });
+  }
+
   function entryHtml(e) {
     var h = '<article class="entry">';
     h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
@@ -1984,12 +2118,16 @@
     // and the entries behind it merely contain the string. `?q=%CC%81` normalizes
     // to "" and so adds none — the whole-dictionary census still shows 1,967 cards.
     var slots = slotMatches(searchBox.value);
+    // Same rule one rank lower, and only where a slot did not already answer: a
+    // word he used but never defined is the exact answer to its own spelling.
+    var wps = slots.length ? [] : wordMatches(searchBox.value);
     var list = filter(searchBox.value);
-    if (!list.length && !slots.length) {
+    if (!list.length && !slots.length && !wps.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
     }
-    results.innerHTML = slots.map(slotCardHtml).join("") + list.map(entryHtml).join("");
+    results.innerHTML = slots.map(slotCardHtml).join("") +
+      wps.map(wordCardHtml).join("") + list.map(entryHtml).join("");
   }
 
   // A slot has no entry to open, so it gets its own show function. The box is set
@@ -2002,6 +2140,16 @@
     document.body.classList.remove("home");
     searchBox.value = dispText(formText(s.raw));
     results.innerHTML = slotCardHtml(s);
+    window.scrollTo({ top: 0 });
+  }
+
+  function showWordPage(w) {
+    hidePreview();
+    stopAudio();
+    currentLetter = null;
+    document.body.classList.remove("home");
+    searchBox.value = dispText(formText(w.key));
+    results.innerHTML = wordCardHtml(w);
     window.scrollTo({ top: 0 });
   }
 
@@ -2054,6 +2202,14 @@
       ev.stopPropagation();
       var sr = slotList()[+sl.getAttribute("data-slot")];
       if (sr) { showSlot(sr); return; }
+    }
+    // Same one-tap rule for a word page, and for the same reason: there is no
+    // gloss for the preview to show, because he never wrote one.
+    var wl = ev.target.closest ? ev.target.closest(".word-link[data-word]") : null;
+    if (wl) {
+      ev.stopPropagation();
+      var wr = wordList()[+wl.getAttribute("data-word")];
+      if (wr) { showWordPage(wr); return; }
     }
     // Rows are built here rather than at render time; the browser opens the
     // <details> afterwards, so the content is in place before it is painted.

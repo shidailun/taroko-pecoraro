@@ -412,6 +412,19 @@ main {
 }
 .slot-link:hover { border-bottom-color: var(--accent); }
 
+/* A word he only ever used inside a sentence. The same editorial hand as a slot
+   card, deliberately: both are pages we built, and a reader must be able to tell
+   them from a page he wrote at a glance, without reading the note that says so.
+   The link is dotted for the same reason — it goes somewhere thinner than an
+   entry. Thinner still than a slot, in fact: this card carries no ° line, because
+   there is none. */
+.entry.word .hw { font-style: italic; }
+.word-link {
+  cursor: pointer;
+  border-bottom: 1px dotted var(--rule);
+}
+.word-link:hover { border-bottom-color: var(--accent); }
+
 /* Colour is the orthography on screen, not what is tappable. Pecoraro's spelling
    is green; modern spelling is brown, and that includes the § marker, the
    punctuation and an example's left rule, which belong to the mode rather than to
