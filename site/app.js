@@ -343,10 +343,16 @@
   // are real spellings — either can be what a reader types and what his own example
   // sentences use — but the key was the whole string, so neither half matched
   // anything. Returns the spellings as written; callers norm() what they need.
+  // The label he introduces the second spelling with rides along on the piece —
+  // "vl. llaqe" is not a word, and collapsed() therefore compared "vl. lqlaqi"
+  // against "lqlaqi" and kept a bracket that in modern spelling said
+  // "Lqlaqi (vl. lqlaqi)": a variant note distinguishing a word from itself.
+  // AL_LEAD is the same closed list of apparatus words the A–Z index already
+  // strips for the same reason.
   function variants(raw) {
     var out = [];
     (raw || "").split(/[()=?]/).forEach(function (p) {
-      var v = p.trim();
+      var v = p.trim().replace(AL_LEAD, "").trim();
       if (v && /[A-Za-zÀ-ÿ]/.test(v) && out.indexOf(v) === -1) out.push(v);
     });
     return out;
@@ -1329,8 +1335,43 @@
   // that tidyLatin left unpaired, and claiming those as Truku is the exact failure
   // the rule was drawn narrowly to avoid. Names are safe in both, being a closed
   // hand-checked list rather than a signal.
+  // "VR. SANYAQ." — a see-also he wrote INSIDE the gloss instead of in the
+  // crossRef field, and which our English and Chinese carry over as "See SANYAQ"
+  // and "參見 SANYAQ". 373 gloss fields have one. In modern mode SANYAQ is shown
+  // as SANIQ on its own card, in the A–Z listing and in every sentence, so the
+  // pointer was the one place on the page still naming a spelling nothing else
+  // shows — and it was plain text, so it pointed without linking.
+  //   ONLY a token lookupWord() resolves to a real entry is touched. That is what
+  // keeps this clear of the never-modernize-a-gloss rule: the char-rule fallback
+  // cannot reach a French word here, because a French word resolves to nothing
+  // and the whole match is then left exactly as he wrote it.
+  var SEE_ALSO = /(VR\.|Cf\.|Voir|See|參見|參閱|見)(\s*)([A-ZÀ-Ý'’"Ł-]{3,}(?:\s*,\s*[A-ZÀ-Ý'’"Ł-]{3,})*)/g;
+
+  // Which tokens in this gloss are see-also targets. Found on the WHOLE string,
+  // because glossCites() splits every word into its own part and the marker would
+  // no longer be beside the word it points at.
+  function citeTargets(text) {
+    if (text.indexOf(".") < 0 && !/See|Voir|見/.test(text)) return null;
+    var out = null, m, refs, i, ok;
+    SEE_ALSO.lastIndex = 0;
+    while ((m = SEE_ALSO.exec(text))) {
+      refs = m[3].split(",");
+      ok = true;
+      for (i = 0; i < refs.length; i++) {
+        if (!lookupWord(refs[i].trim())) ok = false;
+      }
+      // All or nothing. "QDALAN, QDALUN" is one pointer written twice; half of it
+      // respelled and half left alone would read as two different words.
+      if (!ok) continue;
+      out = out || {};
+      for (i = 0; i < refs.length; i++) out[wordKey(refs[i].trim())] = true;
+    }
+    return out;
+  }
+
   function glossCites(text, lang, cites) {
     text = glossNames(text, lang);
+    var cited = citeTargets(text);
     // No early return on "no double quote" any more: a name that was already
     // spelled his way needs linkifying too, and only the split can find it.
     var parts = text.split(TRUKU_TOKEN);
@@ -1340,7 +1381,12 @@
       var isName = i % 2 === 1 &&
         Object.prototype.hasOwnProperty.call(GLOSS_NAME_FORMS,
           wordKey(/['’]s$/.test(p) ? p.slice(0, -2) : p));
-      if (i % 2 === 1 &&
+      if (i % 2 === 1 && cited &&
+          Object.prototype.hasOwnProperty.call(cited, wordKey(p)) &&
+          !Object.prototype.hasOwnProperty.call(CITE_VERBATIM, wordKey(p))) {
+        h += '<span class="crossref-link ' + spellClass(p) + '" data-ref="' +
+          esc(p) + '">' + esc(dispText(formText(p))) + "</span>";
+      } else if (i % 2 === 1 &&
           Object.prototype.hasOwnProperty.call(CITE_VERBATIM, wordKey(p))) {
         // Plain text in both modes: neither colour is honest about a spelling
         // being weighed rather than used, and the link is not wanted either —

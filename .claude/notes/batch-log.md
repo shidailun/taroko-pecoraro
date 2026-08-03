@@ -2381,3 +2381,44 @@ three gloss lines are printed in three places and had begun to drift.
 Measured: 16/16 on `loose179.py`, 28/28 on `nav178.py`, whole-dictionary census
 still 1,967 cards with zero sentence cards in it, deliverable pairs unmoved at
 4,955 (91.17%).
+
+## Batch 179c — a pointer that names a spelling nothing on screen shows
+
+Two of his own devices had fallen out of step with modern mode.
+
+**The inline see-also.** PSANIQ's French says "VR. SANYAQ.", and our English and
+Chinese carry it over as "See SANYAQ" / "參見 SANYAQ". 373 gloss fields hold one;
+138 distinct forms are named. In modern mode SANYAQ is SANIQ on its own card, in
+the A–Z listing and in every sentence — so the pointer was the last place on the
+page still printing a spelling nothing else shows, and being plain text it
+pointed without linking. `citeTargets()` now finds them and `glossCites()` renders
+each as the same `.crossref-link` his `crossRef` field uses: modern spelling,
+`spellClass` colour, two taps to open. **1,165 links over the whole dictionary,
+770 of them respelled.**
+
+Two guards make this safe against the never-modernize-a-gloss rule. Only a token
+`lookupWord()` resolves to a real entry is touched — a French word resolves to
+nothing, so the char-rule fallback can never reach it — and a match is all or
+nothing, because "QDALAN, QDALUN" is one pointer written twice and half of it
+respelled would read as two words. The scan must run on the WHOLE gloss before
+`glossCites()` splits it: the split puts every word in its own part, and the
+marker would no longer be beside the word it points at. That was the first
+attempt, and it linked nothing.
+
+**The variant note that named itself.** `Lqlaqe (vl. llaqe)` rendered as
+`Lqlaqi (vl. lqlaqi)` — a bracket distinguishing a word from itself. `collapsed()`
+was already built to catch exactly this and could not, because `variants()`
+returns the pieces AS WRITTEN and the apparatus label rides along: it was
+comparing "vl. lqlaqi" against "lqlaqi". `variants()` now strips `AL_LEAD`, the
+same closed list of apparatus words the A–Z index already strips for the same
+reason. Self-referring brackets in modern mode: **4 → 0**, five brackets closed,
+spans 44,957 → 44,947.
+
+In HIS spelling four brackets still read as self-referring — `Snkaxa (Snkaxa?)`,
+`M'wa'la (M'wa"la)` and two more of that pair. They stay. The first is his own
+hesitation and the others are the two elision marks, which are both real; his
+spelling is the record.
+
+Unmoved: 1,967 cards, deliverable pairs 4,955 (91.17%), 480 blocked. Dark
+43,925 / 97.73%, pale 988, green 34. 9/9 `cite179.py`, 16/16 `loose179.py`,
+28/28 `nav178.py`.
