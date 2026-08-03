@@ -2446,6 +2446,61 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## What is left is a speaker's, and the unit is the ROOT (2026-08-03)
+
+`tools/orthography/build_worksheets.py` → `tools/orthography/worksheets/*.md`.
+
+**`inf.roots(v)` returns `(root, prefix, suffix, slot)` TUPLES, not strings.**
+`self.gl.get(tuple)` is therefore always None, and a triage script that forgets
+this reports that every candidate root is unglossed. It is a silent wrong answer,
+not a crash, and it produced one here before being caught. Any scratch script
+over `roots()` must take `a[0]`.
+
+**The honest triage of the 1,123 pale occurrences**, once that is fixed:
+
+| | occ | types |
+|---|---|---|
+| reaches no listed root under any analysis | 612 | 426 |
+| reaches a glossed root, and the glosses **disagree** | 307 | |
+| reaches a root the wordlist lists and never glosses | 122 | 84 |
+| no gloss of HIS to test with | 81 | |
+| agrees, pale for some other reason | 1 | |
+
+The 612 get no worksheet row: there is no proposal to put in front of anybody.
+The rest resolve into 356 roots covering 326 types / 510 occurrences.
+
+**The last computational idea was measured and refused.** `_his_glosses` gives a
+SUB the parent card's gloss only when the sub's own gloss is a pointer (參見,
+的過去式), so a sub with a gloss of its own is judged with the root card he wrote
+it on invisible — `Skdolox` 直－真誠－誠實 weighed without `KDOLOX`
+牆—整齊排列的堆疊 standing over it. That looked like the structural gap behind
+the whole bucket. It buys **zero** occurrences: 135 candidates have no parent
+gloss to read, and for the other 192 the parent disagrees exactly as the sub did.
+Feeding in more of HIS Chinese cannot settle a question that turns on what the
+MODERN word means. The gap is real and it is not load-bearing.
+
+**So ask per root, not per word.** One answer unlocks a paradigm — `dagi` holds
+`pspdagi`, `pspdagun`, `pspdagan`, `pnspdagan`, ten occurrences — and a speaker
+can answer "what does this root mean" without being shown a dictionary. Two row
+shapes, because there are two kinds of silence: where the wordlist glosses the
+root and says something else (`dagi` 要煮飯 against his 贈送／禮物; `bir`
+車聲（擬聲詞） against his 最後的 — both plainly homographs, both answered in
+seconds), print both and ask which is right; where the wordlist lists the root
+and glosses nothing, print his Chinese as a PROPOSAL and ask for the meaning.
+
+His Chinese is never the answer, only the proposal. **A speaker contradicting him
+is the most valuable outcome on the sheet** — that is the one that keeps a wrong
+spelling off the page, which is the whole lesson of batch 166.
+
+Sheets are ranked by occurrences and steeply front-loaded: the first 45 roots
+(sheets 01–03) are worth about half the 510. Nothing is dropped; the tail is
+1-occurrence roots. The standing refusals ride along on purpose — `biri`/`tbiran`
+is row 2 of sheet 1 — because a NO is as good as a YES: it turns a PIN that
+currently rests on our judgement into one that rests on a speaker's.
+
+Nothing here scores until it is ruled. The census moves on the respelling, never
+on the sheet.
+
 ## Hunting the batch-166 error everywhere else, and not finding it (2026-08-03)
 
 `tools/orthography/audit_rare.py`. Batch 166's bug scored itself **dark** —
