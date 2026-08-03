@@ -75,6 +75,19 @@ These were each learned by breaking something. Evidence for every one is in
 - **Decide slot by slot when a homophone exists**, not once for the root.
 - **Same root in two dialects is not a licence to merge two cards.**
 
+## Target
+
+- **The metric is deliverable sentence pairs** — examples whose every Truku span
+  is dark, over 5,435. **Currently 91.08%** (4,950). Not token share. A pair is
+  what an MT session can consume; a token percentage is not.
+- **100% dark is unreachable**, and is the wrong gate to set. Three classes can
+  never clear by evidence: grammatical-morpheme cards (MPA 前綴 is a prefix, not
+  a word), tier-J loans, and names no register lists.
+- **Tier-J loans go dark via `loan_population.json`**, consumed in
+  `build_verified.py` as of batch 172. Attestation is not a test a Japanese loan
+  can fail — it is one it cannot sit, since no Truku wordlist will ever hold
+  `abura` 油 or `budosyu` 葡萄酒.
+
 ## Testing and measurement
 
 - **Measure from the DOM, not from the map.** Assert against rendered cards.
@@ -87,6 +100,18 @@ These were each learned by breaking something. Evidence for every one is in
 - **A greedy algorithm over an unordered input is a sample, not a rule.**
 - Verifying crossref behaviour needs two taps: first shows the gloss preview,
   second opens the entry (`app.js:1272–1276`). A single `.click()` moves nothing.
+
+### Keep the session's context lean
+
+Autocompaction mid-investigation loses the evidence chain an adjudication is
+built on. Every rule below exists to stop that.
+
+- **Never print full card bodies, full diffs, or per-row output.** Redirect to a
+  scratch file and read the tail.
+- **A census run prints the summary line only** — dark / pale / green / total /
+  cards / errors. No leaderboards unless they were asked for.
+- **Don't re-derive a standing finding**; `grep .claude/notes/batch-log.md` for
+  it. The refusals and the pins are already written down.
 
 ## Where the detail lives
 
