@@ -15,3 +15,8 @@ tools/.env.r2
 # Intermediate scratch from the CLAUDE.md -> .claude/notes split; the three
 # notes files are the real thing and this would only drift from them.
 .claude/notes/sections/
+
+# blockers.py's --cache: one browser render of one verified.js. Committing it
+# would put a snapshot of the colours in the history that the next ruling
+# falsifies. blockers.md is the artefact; this is the scratch behind it.
+tools/orthography/logs/blockers_dom.json
