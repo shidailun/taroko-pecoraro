@@ -2446,6 +2446,61 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## Hunting the batch-166 error everywhere else, and not finding it (2026-08-03)
+
+`tools/orthography/audit_rare.py`. Batch 166's bug scored itself **dark** —
+`seelug` and `smeelug` are listed modern words, so rule 1 verified them at
+sight. The census is structurally blind to that class of error: a wrong spelling
+that happens to be somebody else's right spelling counts exactly like a right
+one. Driving the percentage up cannot find it. So the audit went looking for the
+same shape everywhere else in the map.
+
+**Two signals, and neither is worth anything alone.**
+
+*Rarity.* The map makes 5,513 respellings out of 573 distinct letter
+correspondences, and a handful of them are the whole system (`o>u` 882, `l>r`
+811, `x>h` 643, `->e` 418, `'>-` 381). Canonicalise both sides through the
+classes the map actually swaps and 3,680 respellings collapse to distance 0 —
+the same word in two alphabets. Then 1,451 at 1, 303 at 2, 63 at 3, 14 at 4, one
+each at 5 and 6. `s'lu` → `seelug` sits at **3**.
+
+But rarity is not evidence. All 57 rows at distance ≥ 3 were read and 56 are
+lexical swaps he licenses himself: `tabe` → `sakur` 犁 with his own note
+同義詞＝SAKOL, `tbako` → `lumak`, `sengse` → `mtgsa`, `sadyaq` → `seejiq`,
+`daloas` → `dowras`, the whole `mpa-` → `empaa-` prefix family. He is not
+misspelling those, he is naming a different word for the same thing, which is
+what a dictionary does.
+
+*Disagreement.* `_agrees` between his gloss and the modern one. Alone it fires
+519 times on ordinary homonymy and on two glosses written a century and a
+language apart.
+
+**Together they cut 266 rows to 34**, and 34 is a number a person can read. All
+34 were read. Thirty-three cleared, and the clearances are the useful part:
+
+- `P"lu` → `peelug` — his own example gloss ends **（在同一條路上）**. He derived
+  正當…之時 "at that very moment" from the road himself.
+- `Skdolox` → `sdrux` — `KDOLOX` is 牆—整齊排列的堆疊 and `qdrux` is 石牆. His
+  直／真誠／誠實 is the figurative half of one root, which his own `Mskdoloç`
+  prints together as 正直的、排列整齊的.
+- `mpaxei` → `empaahiyi` — `hiyi` is flesh AND fruit, so 會有瘦肉 and 將結成果實
+  are one word.
+- `daloas` → `dowras` — cited 人名 because the cliff word is also a man's name.
+- `x'lyeq` → `hgliq` — 毀約 is 撕裂 applied to an agreement.
+
+**The one that did not clear cannot be fixed by the map.** p. 222 carries two
+subs both spelled `Mpolo`: 發起者／模仿者, which is `purug`, and 患風濕、痛風的人
+with the example `mpolo kana papaq mo!` 我的腳滿是風濕. The second is a different
+word. The map is keyed on the raw **token**, so both get one spelling and no map
+entry can separate them — it needs a per-card override or a speaker. Recorded,
+not patched.
+
+**So the finding is that there is nothing to find, and that is worth as much as
+a find.** The map is clean where it is strangest. Re-run `audit_rare.py` after
+any batch that adds unusual mappings; its rows are the only place the census
+cannot see. It self-tests on the historical `s'lu` → `seelug` pair, so widening
+the letter classes until the bug is invisible fails loudly.
+
 ## When he doubts his own root, believe the doubt (batch 166, 2026-08-03)
 
 **p. 284 is a card about making things and we were printing roads on it.** His
