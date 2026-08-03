@@ -2169,3 +2169,58 @@ less. Effective split is now **group 1 = 320, group 3 = 292**.
 
 Pair total unchanged at 4,950 / 5,435; reachability unchanged (958 occ / 557
 types still unreachable); 1,967 entries and 5,437 examples still render.
+
+## Batch 177 — the clitic joins were never in the verified table
+
+**`table(app, "CLITIC_FORMS")` read 34,309 characters of the wrong file.**
+`var CLITIC_FORMS = {};` is filled at RUNTIME from `CLITIC_JOIN`, so the parse
+ran past the empty literal to the next `\n  };` — 675 lines down — and returned
+8 junk keys: UI strings, punctuation, and `"tap"`, which was being emitted into
+`MODERN_VERIFIED` as a verified Truku spelling. Not one joined form was in
+`vals`. Seven of the eleven were dark anyway because the map reaches them by
+another key; the four that no single token also maps to — `tgbasi`, `tgbhgay`,
+`tgbilaq`, `tgima` — have rendered PALE since the table was written, each one
+checked against `spoken_truku.json` by hand at the time and each one listed.
+Fixed by reading `CLITIC_JOIN` and taking its values. **+4 pairs, 4,951 → 4,955
+(91.17%).** Distinct values 6,539 → 6,526; `"tap"` gone.
+
+**A derived table cannot be scraped from source.** `table()` finds a name and a
+`{`, and an empty literal gives it no reason to stop. WORD_OVERRIDES and
+CLITIC_JOIN were re-checked and both bound correctly (48 keys / 63 lines, 11
+keys / 11 lines).
+
+**Attestation is exhausted on the blockers.** Of the 384 types that are the sole
+blocker of an otherwise-clean pair, exactly one — `rih`, already pinned in batch
+146 — has any corpus witness at all (parquet freq 1). No hapax argument, no
+sister argument and no name-registry argument can reach the rest. Split by what
+the inflection gate finds: 202 types / 238 pairs reach no candidate root, 55 /
+60 reach a listed root carrying no gloss, 127 / 163 reach a listed root whose
+gloss disagrees. The path to 5,000 is per-word adjudication of the last two.
+
+**The p-/m- sister class is 5 types / 6 pairs.** Measured after the user's
+`psbiyuq` case, over every blocking type: `pngraq`, `prudaw`, `psqgu`, `ptaril`,
+`pneydang`. `psbiyuq` itself frees NOTHING — his `Psbiyoq` occurs three times in
+`entries.js` and never inside an example sentence, so it blocks no pair. The
+reading is right (`msbiyuq` 流汁 is listed against his `BIYOQ` 汁液, and the gate
+refused only because stripping `ps-` lands on `biyuq` 人名（男;女）) and it is
+worth nothing against the metric. **A sound argument is not automatically a
+lever.**
+
+**REFUSED — `tksaw`** (4 pairs, the largest single adjudicable blocker). His
+`Tksao` <SAO 像－以……的方式> is glossed 模仿－假裝－裝作. Modern has two stems:
+bare `ksaw` (listed 2×, unglossed; `mksaw` 希望和…一樣, `pksaw`, `empksaw`) and
+`hksaw` 假冒;假裝 (`thksaw` 假冒 9×, `tghksaw` 裝著的, `gmnhksaw` 假裝). The 假/裝
+of his gloss sits only in the h-family — but **his own orthography writes modern
+h as x**, and he wrote `tksao` with no x, so the h-family cannot spell his word.
+That leaves the bare stem, whose single glossed supporter `mksaw` 希望和…一樣
+shares no character with 模仿－假裝－裝作. One supporter is not two. Stays pale.
+
+**REFUSED — `gmquwaq`** (3 pairs). He files it under `GQOAQ` 搖頭 as its verbal
+form, and separately under `QOAQ` 嘴巴 as `Gmqoaq (=R. QOAQ ?)` — his own
+question mark. The only attested neighbour is `quwaq` 洞口, i.e. the reading HE
+marked as uncertain. `gquwaq` is in no modern list. The pointer inside a question
+is not a citation.
+
+**Already pinned, not re-derived:** `naru`/`mnalu` (batch 114 and 161 — `nalu` is
+a phantom root, `nmalu` and `snalu` stripping to the same four letters),
+`tnaga` (164), `rih` (146), `ksudan` and `empsbiyuq` (NAMEGL, deliberate).

@@ -201,7 +201,16 @@ def main():
     print("  + %d types spoken for by the informant (not in any corpus): %s"
           % (len(spoken), " ".join(sorted(spoken))))
     app = read(os.path.join(SITE, "app.js"))
-    ov, cl = table(app, "WORD_OVERRIDES"), table(app, "CLITIC_FORMS")
+    # CLITIC_JOIN, not CLITIC_FORMS. The latter is `var CLITIC_FORMS = {};`,
+    # filled at runtime from the former, so table() ran past the empty literal
+    # and scraped 34,309 characters of unrelated app.js — 8 junk keys, UI strings
+    # and punctuation, and not one joined form. The four joins that no single
+    # token also maps to (`tgbasi`, `tgbhgay`, `tgbilaq`, `tgima`) have therefore
+    # rendered PALE since the table was written, each one checked against
+    # spoken_truku.json by hand at the time and each one listed. The other seven
+    # were dark only because the map reaches them by another key.
+    ov = table(app, "WORD_OVERRIDES")
+    cl = {v: v for v in table(app, "CLITIC_JOIN").values()}
     m = read(os.path.join(SITE, "modern_map.js"))
     a = m.index("window.MODERN_MAP = {") + len("window.MODERN_MAP = ")
     mp = json.loads(m[a:m.index("\n};", a) + 2])
