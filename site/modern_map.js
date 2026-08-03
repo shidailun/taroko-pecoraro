@@ -6753,7 +6753,7 @@ window.MODERN_MAP = {
 "tnbolox":"tnburux",
 "tnbugan":"tnbgan",
 "tnbunan":"tnbunan",
-"tnbusan":"tnbusan",
+"tnbusan":"tnbsan",
 "tnbuyan":"tnbuyan",
 "tnbwian":"tnbuyan",
 "tnd'xgal":"tndxgal",

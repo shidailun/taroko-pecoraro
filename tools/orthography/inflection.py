@@ -566,7 +566,13 @@ HAND_NOT_REGULAR = set("knslaan".split())
 # perfectly well, and it is only worthless here because it is the frame verb of
 # a 成為X gloss — the same shape as the 人 of 使人X that batch 142 measured and
 # refused to drop.
-HAND_NOT_OUTVOTED = set("tnbusan mhmadan".split())
+# Batch 170 respelled `tnbusan` to `tnbsan` — the wordlist's own slot is `tbsan`
+# with the vowel dropped, and the n-perfectives of CCVC roots take the dropped
+# shape 22 times to 1. The pin has to follow the word or it dies silently, so
+# BOTH spellings are listed. What batch 154 refused is the 去 argument, and that
+# refusal still stands; `tnbsan` goes dark through the SYN line above instead,
+# off the listed slot `tbsan`, which is a different and better route.
+HAND_NOT_OUTVOTED = set("tnbusan tnbsan mhmadan".split())
 
 # ---- SYNONYMY, the third tier of _agrees [batch 148] ----------------------
 # `mkpakaw` came off the line above to sit here instead, because the note that
@@ -691,6 +697,25 @@ SYN = [
     # characters and they are interchangeable, not associated — this is the
     # weakest line in the table and the one closest to being a spelling.
     "黏住 粘起 黏附 黏貼 黏著 黏在",      # sqapah 黏住（在） / mqapah 黏附的
+    # Batch 170. His TBUS 簸揚 against the wordlist's `tbus` 篩榖 / `tbsan`
+    # 篩穀子的地方 / `tmbus` 篩去… / `stubs` 為…篩去. Batch 154 had already read
+    # this pair and said outright that "winnowing and sifting grain ARE the same
+    # word" — then pinned it, because the only agreement `outvoted()` could find
+    # was the 去 of 過去, a particle. The answer was right and the argument was
+    # worthless. This line is the argument.
+    #
+    # It does not rest on my reading of two glosses. HIS CARD NAMES THE TOOL:
+    # TBUS is 使用簸箕（＝Bluxeng）在混合物, and `Bluxeng` is modern `bluhing`
+    # 簸箕 — listed, 5x in the parquets, with `smbluhing` 用…簸箕 and `kbluhing`
+    # 做成簸箕 behind it. He points at the winnowing tray; the wordlist writes
+    # the act you do with it. One concept, two hands, no character in common.
+    #
+    # **The tool is deliberately NOT a member.** Putting 簸箕 on this line would
+    # let his card agree with the 43-word `giya` 小簸箕 family, which is a
+    # different and smaller tray and a different root. Members are the ACT only.
+    # Blast radius measured before writing: 簸揚 occurs in exactly one of his
+    # entries and 篩 in one, so this line can reach one card.
+    "簸揚 篩榖 篩穀 篩去",              # tnbsan 簸揚的對象 / tbsan 篩穀子的地方
 ]
 SYN = [s.split() for s in SYN]
 assert all(len(m) >= 2 for s in SYN for m in s), "SYN members must be >= 2 chars"

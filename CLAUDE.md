@@ -2446,6 +2446,66 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## A worksheet row reports the ANALYSER, not the book (batch 170, 2026-08-03)
+
+`logs/dom170.py`. Sheet 1 row 4 filed seven pale occurrences under `bus`
+蒸氣洩出聲（擬聲詞）and not one of them belongs to it. That is not a printing
+accident and the sheet is not at fault: **the sheets are generated from
+`roots()`, so a row shows where the analyser cut the word.** `knsbusan` (his
+SIBUS 甘蔗), `mbusi` and `snbusi` (his BOSI 帽子) all cut onto `bus`, because the
+root each one actually needs is a root `roots()` is not allowed to see.
+
+**Read a bad row as a diagnosis.** When a row's Chinese has nothing to do with
+the cards under it, the question is not "which root is this" but "why can the
+analyser not see the right one" — and the answer names a class, not a word.
+Second and third instance of this on sheet 1 alone, after row 1's `dagi` and
+row 3's `biyi`.
+
+**Two blocked classes, both blocked on purpose:**
+
+- **Root-internal syncope.** `knsbusan` needs `sibus` 甘蔗, which is listed, whose
+  sisters `msibus` 甜的 / `ssibus` 很甜 hit his 甜味—甜 exactly, and whose syncope
+  the language demonstrates in `psbusi` 用甘蔗來製糖. `roots()` never offers it,
+  because the vowel that drops is inside the root. No gloss table can fix a root
+  that is never handed to it.
+- **Corpus-only loans.** `busi` 帽子 (Japanese 帽子) is real modern Truku — 7 in
+  the parquets, already dark at rank 1 — and still cannot be the root of `mbusi`,
+  because `seen` widens and `lex` never does. There is **no positive hand-root
+  table in this codebase, only refusal lists**, and that is a design decision,
+  not an omission. Do not invent one to win occurrences.
+
+**Supply the missing argument; do not overturn the refusal.** Batch 154 had
+already written down that winnowing and sifting grain are the same word, and
+pinned `tnbusan` anyway because the only agreement `outvoted()` could find was
+the 去 of 過去 — a particle. Batch 170 adds the SYN line 簸揚 篩榖 篩穀 篩去 and
+leaves the pin standing, with `tnbsan` added to `HAND_NOT_OUTVOTED` beside it so
+the pin follows the respelling instead of dying silently. **When you respell a
+pinned word, move the pin.**
+
+The line rests on his card, not on my reading: TBUS is 使用簸箕（＝**Bluxeng**）,
+and `Bluxeng` is modern **`bluhing` 簸箕**, listed, 5× in the parquets. He names
+the tool, the wordlist names the act. 簸箕 is deliberately NOT a member of the
+line — it would reach the 43-word `giya` 小簸箕 family off a different root.
+
+**The n-perfective drops the vowel, 22 to 1.** Of 388 CCVC roots, `-an` drops the
+vowel 55 times and keeps it 45 — a coin flip. But the listed n-perfectives off
+those roots take the dropped shape 22 times of 23 (`bnkgan`, `dngqan` 打鼾,
+`knrtan` 手術後, `snpgan` 數過, `qnslan` 夾), the one exception being a doublet
+whose root also lists the dropped form. So his `Tnbusan` is **`tnbsan`**, off the
+listed slot `tbsan` 篩穀子的地方.
+
+**And the 45 that keep the vowel are mostly sound words** — `bras` 發出「bras」的
+聲音, `brut` 在「brut」聲, `bsus` 用…「bsus」刺 — which keep it because the vowel
+IS the sound. That is why `tbusan` 被噴到 and `tbsan` 篩穀子的地方 are both listed
+and both right, and it is the wordlist refuting the row's premise by itself.
+
+**A cognate explains a word; it never spells one** (second statement of batch
+169's rule). Tgdaya `bunuh` 帽子 is not the source of `busi`: Truku `bunuh` is
+小腹, with a 26-word family and a 輪軸 sense besides. Same string, two dialects,
+unrelated words.
+
++2 occurrences. 97.4337% → **97.4382%** (43,322 / 1,107 / 32).
+
 ## His bare -e is `i`, his -AE is `-ay`, and only one of them is a suffix (batch 169, 2026-08-03)
 
 `logs/dom169.py`. Three refusals, no occurrences moved. All of it is invisible to

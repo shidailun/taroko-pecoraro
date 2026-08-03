@@ -90,9 +90,19 @@ COINCIDENCE = {
     "ptaril": 3, "ppungu": 2, "ssiyang": 2, "emppungu": 1,
 }
 
-# The two hand pins. `tnbusan`'s answer is right and its argument is a particle;
-# `mhmadan`'s answer is wrong. Both must stay pale.
-PIN = {"tnbusan": 2, "mhmadan": 2}
+# The two hand pins. `mhmadan`'s answer is wrong and it must stay pale.
+#
+# `tnbusan` is no longer on the page. Batch 170 respelled it `tnbsan` — the
+# wordlist's own slot is `tbsan` with the vowel dropped — and verified it there
+# through a SYN line off `tbsan` 篩穀子的地方, which is the argument this batch
+# said was missing rather than a reversal of what it said. THE REFUSAL STILL
+# STANDS: `outvoted()` must not fire on the 去 of 過去, and `HAND_NOT_OUTVOTED`
+# now carries both spellings so the pin cannot be lost to a respelling. What
+# this log asserts is therefore the same claim in its new place — the word is
+# dark, and it is dark by a route that is not the particle.
+PIN = {"mhmadan": 2}
+PIN_MOVED = {"tnbsan": 2}
+GONE_154 = ["tnbusan"]
 
 SPANS = """(ws) => { const r = {};
   for (const n of document.querySelectorAll('span.w-mod,span.w-unv,span.w-raw')) {
@@ -132,11 +142,18 @@ with sync_playwright() as p:
     gain = pg.evaluate(SPANS, sorted(GAIN))
     coin = pg.evaluate(SPANS, sorted(COINCIDENCE))
     pin = pg.evaluate(SPANS, sorted(PIN))
+    movd = pg.evaluate(SPANS, sorted(PIN_MOVED))
+    gone = pg.evaluate(SPANS, sorted(GONE_154))
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
 check(coin, COINCIDENCE, "pale", "COINCIDENCE")
 check(pin, PIN, "pale", "PIN")
+check(movd, PIN_MOVED, "dark", "MOVED")
+for w in GONE_154:
+    if gone.get(w):
+        fail.append("GONE %s: batch 170 respelled it, still rendered as %s"
+                    % (w, gone[w]))
 
 tot = sum(tally.values())
 pct = 100.0 * tally["dark"] / tot

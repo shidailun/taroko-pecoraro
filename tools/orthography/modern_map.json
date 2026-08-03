@@ -19220,6 +19220,10 @@
    "modern": "tnbgan",
    "tier": "L"
   },
+  "tnbusan": {
+   "modern": "tnbsan",
+   "tier": "M"
+  },
   "tnd'xgal": {
    "modern": "tndxgal",
    "tier": "id",
@@ -25775,10 +25779,6 @@
   },
   "tnbunan": {
    "modern": "tnbunan",
-   "tier": "P"
-  },
-  "tnbusan": {
-   "modern": "tnbusan",
    "tier": "P"
   },
   "tnbwian": {
