@@ -2091,12 +2091,121 @@
   var currentLetter = null;
   var currentFirst = null;
 
+  // ---------- history ----------
+  //   A slot link, a crossref or an A–Z row opened a card and left the reader
+  // stranded: nothing on the page pointed back at where the tap came from. Every
+  // screen the app can show is one of six kinds, so each gets a descriptor and
+  // goes on the browser's own stack. The phone back button then walks the trail
+  // the taps actually made, and the desktop one with it.
+  //   A REDRAW IS NOT A NAVIGATION. rerender() — the spelling radio, the language
+  // checkboxes — shows the same view in another orthography, and popstate is the
+  // stack moving under us. Both raise navLock, which replaces the current entry
+  // rather than pushing one; without it, toggling the spelling four times would
+  // cost four taps of Back to leave a single card.
+  //   Recording lives inside the show functions, not at the click sites, because
+  // a card is reachable from more than one of them — a slot from its link, from
+  // its A–Z row, from a search — and one of those paths would have been missed.
+  //   Entry, slot and word views carry INDEX AND KEY. The index is what the
+  // rendered HTML already uses and is stable for the life of the page; the key is
+  // what survives a deploy, since Back can land on state written by an older
+  // entries.js in which that index means a different word.
+  var navLock = 0;
+  var currentView = null;
+  // A tap on a crossref, a stub or a concordance source runs through
+  // openEntry(), which sets the box and searches — so the view it produces is a
+  // SEARCH, and the replace-a-search-with-a-search rule below silently swallowed
+  // it. Back then skipped the card you came from entirely. A link is a
+  // navigation whatever kind of view it lands on, so it says so.
+  var forcePush = false;
+
+  function viewUrl(v) {
+    // A letter listing gets its own parameter. `?q=S` would reload as a search
+    // for every card containing an s — the same trap that made showEntry() exist.
+    if (v.k === "home") return location.pathname;
+    if (v.k === "letter") return location.pathname + "?l=" + encodeURIComponent(v.l);
+    return location.pathname + "?q=" + encodeURIComponent(v.q || "");
+  }
+
+  function viewFromUrl() {
+    var p = new URLSearchParams(location.search);
+    if (p.get("l")) return { k: "letter", l: p.get("l") };
+    var q = p.get("q") || "";
+    return q ? { k: "search", q: q } : { k: "home" };
+  }
+
+  function recordView(v) {
+    var force = forcePush;
+    forcePush = false;
+    var same = currentView && currentView.k === v.k && currentView.l === v.l &&
+      currentView.i === v.i && currentView.q === v.q;
+    currentView = v;
+    // `n` is the depth of the trail, counted forward from this tab's first
+    // paint — NOT history.length, which counts whatever the reader did before
+    // arriving. Back is offered only where n > 0, and going back and branching
+    // elsewhere must renumber from the entry landed on, not from the high-water
+    // mark, or the button would stay lit at the head of the trail.
+    if (navLock || !history.state || (!force &&
+        (same || (history.state.k === "search" && v.k === "search")))) {
+      // A search replaces a search: typing is one navigation, not one per
+      // keystroke. !history.state is the first paint, which must not push a
+      // phantom entry behind itself.
+      v.n = (history.state && history.state.n) || 0;
+      history.replaceState(v, "", viewUrl(v));
+    } else {
+      v.n = ((history.state && history.state.n) || 0) + 1;
+      history.pushState(v, "", viewUrl(v));
+    }
+    updateBack();
+  }
+
+  function updateBack() {
+    document.body.classList.toggle(
+      "can-back", !!(history.state && history.state.n));
+  }
+
+  function applyView(v) {
+    navLock++;
+    try {
+      if (v.k === "letter") { showLetter(v.l); return; }
+      var i;
+      if (v.k === "entry") {
+        var e = window.ENTRIES[v.i];
+        if (!e || e.hw !== v.hw) {
+          e = null;
+          for (i = 0; i < window.ENTRIES.length && !e; i++) {
+            if (window.ENTRIES[i].hw === v.hw) e = window.ENTRIES[i];
+          }
+        }
+        if (e) { showEntry(e, v.r); return; }
+      } else if (v.k === "slot") {
+        var s = slotList()[v.i];
+        if (!s || s.key !== v.key) s = slotByKey(v.key);
+        if (s) { showSlot(s); return; }
+      } else if (v.k === "word") {
+        var w = wordList()[v.i];
+        if (!w || w.key !== v.key) w = wordPageByKey(v.key);
+        if (w) { showWordPage(w); return; }
+      }
+      // Home, search, and any descriptor whose word is gone: the box decides.
+      searchBox.value = v.k === "home" ? "" : (v.q || "");
+      render();
+    } finally { navLock--; }
+  }
+
+  window.addEventListener("popstate", function (ev) {
+    hidePreview();
+    closeSheet();
+    applyView(ev.state || viewFromUrl());
+    updateBack();
+  });
+
   function renderAlphabet() {
     // Home = the cover hero (search + A–Z + tools overlaid on it); results area empties.
     stopAudio();
     currentLetter = null;
     document.body.classList.add("home");
     results.innerHTML = "";
+    recordView({ k: "home" });
   }
 
   function showLetter(letter) {
@@ -2118,6 +2227,7 @@
     // FORMS record, because the first thing under a letter can now be a slot.
     currentFirst = rows[0] || null;
     searchBox.value = letter === "#" ? "" : letter;
+    recordView({ k: "letter", l: letter });
     if (!rows.length) {
       results.innerHTML = '<p class="no-results">No entries found. / 查無資料。</p>';
       return;
@@ -2148,6 +2258,8 @@
     currentLetter = null;
     document.body.classList.remove("home");
     searchBox.value = refText;
+    recordView({ k: "entry", i: window.ENTRIES.indexOf(e), hw: e.hw,
+                 r: refText, q: refText });
     results.innerHTML = entryHtml(e);
     window.scrollTo({ top: 0 });
   }
@@ -2166,6 +2278,7 @@
     }
     currentLetter = null;
     document.body.classList.remove("home");
+    recordView({ k: "search", q: searchBox.value });
     // A slot card comes first when the query IS that form: it is the exact answer,
     // and the entries behind it merely contain the string. `?q=%CC%81` normalizes
     // to "" and so adds none — the whole-dictionary census still shows 1,967 cards.
@@ -2191,6 +2304,8 @@
     currentLetter = null;
     document.body.classList.remove("home");
     searchBox.value = dispText(formText(s.raw));
+    recordView({ k: "slot", i: slotList().indexOf(s), key: s.key,
+                 q: searchBox.value });
     results.innerHTML = slotCardHtml(s);
     window.scrollTo({ top: 0 });
   }
@@ -2201,6 +2316,8 @@
     currentLetter = null;
     document.body.classList.remove("home");
     searchBox.value = dispText(formText(w.key));
+    recordView({ k: "word", i: wordList().indexOf(w), key: w.key,
+                 q: searchBox.value });
     results.innerHTML = wordCardHtml(w);
     window.scrollTo({ top: 0 });
   }
@@ -2208,6 +2325,7 @@
   function openEntry(ref) {
     hidePreview();
     searchBox.value = ref;
+    forcePush = true;
     render();
     window.scrollTo({ top: 0 });
   }
@@ -2334,11 +2452,20 @@
 
   function rerender() {
     applySpellingClass();
-    if (currentLetter) {
-      showLetter(currentFirst
-        ? (currentFirst.f ? initial(currentFirst.f) : slotInitial(currentFirst.s))
-        : currentLetter);
-    } else render();
+    navLock++;
+    try {
+      if (currentLetter) {
+        showLetter(currentFirst
+          ? (currentFirst.f ? initial(currentFirst.f) : slotInitial(currentFirst.s))
+          : currentLetter);
+      } else if (currentView && (currentView.k === "entry" || currentView.k === "slot" ||
+                                 currentView.k === "word")) {
+        // A named card stays that card. render() would turn it back into a
+        // search for its own headword, which for his single-letter headwords S,
+        // M and A is every card containing that letter.
+        applyView(currentView);
+      } else render();
+    } finally { navLock--; }
   }
 
   // The one place the orthography changes, whether it was a √ / ° / § in the
@@ -2431,6 +2558,9 @@
     if (!searchBox.value.trim()) render();
   });
 
+  document.getElementById("btn-back").addEventListener("click", function () {
+    history.back();
+  });
   document.getElementById("btn-random").addEventListener("click", showRandomEntry);
   document.getElementById("btn-home").addEventListener("click", goHome);
 
@@ -2599,7 +2729,11 @@
   var countEl = document.getElementById("entry-count");
   if (countEl) countEl.textContent = window.ENTRIES.length;
   var params = new URLSearchParams(location.search);
-  if (params.get("q")) searchBox.value = params.get("q");
   applySpellingClass();
-  render();
+  if (params.get("l")) {
+    showLetter(params.get("l"));
+  } else {
+    if (params.get("q")) searchBox.value = params.get("q");
+    render();
+  }
 })();

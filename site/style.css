@@ -877,6 +877,13 @@ body:not(.home) #hero {
   background: var(--card);
   box-shadow: 0 1px 8px rgba(var(--shadow), 0.08);
 }
+/* Back. The phone's own button walks the trail now, but the desktop and the
+   standalone web app have none in reach, and a card opened from a slot link was
+   the whole complaint. It appears only where it would do something: at the head
+   of the trail there is nothing behind us, and a control that does nothing is
+   worse than no control. */
+#btn-back { display: none; }
+body:not(.home).can-back #btn-back { display: inline-flex; flex: 0 0 auto; }
 body:not(.home) #btn-home { flex: 0 0 auto; }
 body:not(.home) .hero-search { flex: 1 1 auto; display: flex; align-items: center; gap: 0.4rem; }
 body:not(.home) .hero-search .icon-btn { flex: 0 0 auto; }

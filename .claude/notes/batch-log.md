@@ -2252,3 +2252,48 @@ falls back.
 
 **Trailing `=` re-checked across every field** — hw, fr, en, zh, paradigm,
 crossRef, and every example and sub-form field: **0**, not just in example `t`.
+
+## Batch 178b — queue item N: a way back
+
+A slot link, a crossref or an A–Z row opened a card and stranded the reader.
+Every screen is now one of six view descriptors — home, letter, entry, slot,
+word, search — recorded on the browser's own stack.
+
+**Recording lives inside the show functions, not at the click sites.** A card is
+reachable from more than one branch of the `results` handler — a slot from its
+link, from its A–Z row, from a search — and one of those paths would have been
+missed.
+
+**A redraw is not a navigation.** `rerender()` (spelling radio, language
+checkboxes) and `popstate` raise `navLock`, which replaces the current entry
+instead of pushing one. Without it, toggling the spelling four times cost four
+taps of Back to leave a single card.
+
+**The rule "a search replaces a search" was too broad — that was the one real
+bug.** Typing must not push per keystroke, but a crossref runs through
+`openEntry()`, which sets the box and searches, so a tapped link produced a
+SEARCH view and got swallowed by the same rule; Back skipped the card you came
+from. `forcePush` says a link is a navigation whatever kind of view it lands on.
+
+**`rerender()` now re-shows a named card instead of searching for it.** It had to:
+`render()` would turn an entry card back into a search for its own headword, and
+with history that redraw silently overwrote the card's state with a search's.
+His single-letter headwords S, M and A make that the same trap `showEntry()` was
+written to avoid.
+
+**A letter listing gets `?l=`, not `?q=`** — `?q=S` reloads as a search for every
+card containing an s.
+
+Entry / slot / word states carry INDEX AND KEY: the index is what the rendered
+HTML already uses, the key is what survives a deploy, since Back can land on
+state written by an older `entries.js` in which that index means another word.
+
+The ← button (`#btn-back`) shows only where `history.state.n > 0` — depth counted
+forward from this tab's first paint, not `history.length`, which counts whatever
+the reader did before arriving. **A control that does nothing is worse than no
+control.**
+
+DOM-measured (`scratchpad/nav178.py`): **28 pass, 0 fail** — deep link, one-tap
+slot, one-tap word page, two-tap crossref, forward, three searches = one entry,
+button appears and hides. Cards still 1,967; deliverable pairs still 4,955
+(91.17%).
