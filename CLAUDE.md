@@ -2446,6 +2446,63 @@ is recorded rather than left looking like evidence.
 +53 values / 60 occurrences, 0 de-verified, **0 new pale types**.
 97.0986% → **97.2335%** (43,231 / 1,198 / 32).
 
+## His bare -e is `i`, his -AE is `-ay`, and only one of them is a suffix (batch 169, 2026-08-03)
+
+`logs/dom169.py`. Three refusals, no occurrences moved. All of it is invisible to
+the census, which is why it is written down.
+
+**His four word-final vowels are two systems, not four.** Measured over
+`modern_map.js`:
+
+| his | modern | n | what it is |
+|---|---|---|---|
+| `-e` | `-i` | ~170 | `laqe`>`laqi`, `taqe`>`taqi`, `bale`>`bali` |
+| `-o` | `-u` | ~450 | `ako`>`aku`, `bato`>`batu`, `buyo`>`buyu` |
+| `-ae` | `-ay` | 49 | `balae`>`balay`, `tblae`>`tbalay` |
+| `-ao` | `-aw` | 289 | `asao`>`asaw`, `spadao`>`pspadaw` |
+
+The subjunctive/projective pair is the one carrying an extra letter. Bare `-e`
+and `-o` are just his `i` and `u`, so a headword in `-e` is NOT a subjunctive.
+
+**The batch-167 rung is what makes the test sharp**, and it should be the first
+thing reached for whenever a final vowel is in question. A real `-aw` suffix
+ALTERNATES before another suffix — SPADAO > `pspadaw`, but `pspdagan`,
+`pspdagun`, `pspdagi`. Root material SURVIVES. Every one of his `-e` headwords
+that has a suffixed slot keeps the vowel: LAQE = `laqi` in `Lqean`, TAQE =
+`taqi` in `Tqean`/`Tnqean`, LABE = `rabi` in `Klbiyun`/`Pklbiyan`, TABE in
+`Tbian (Tbiyan)`/`Tnbiyan`/`Tbiun`. `laqi` 孩子 and `taqi` 睡 settle it.
+
+A first pass scored this 0 of 4 — backwards — because the classifier looked for
+the stem vowel without allowing syncope (`ta-` > `t-`), so it missed the vowel in
+every slot that had one. Four cases is small enough to read by hand, so read
+them by hand. Same class as the `inf.roots()` tuple trap: **a heuristic that
+returns the opposite answer without erroring.**
+
+**Same root in two dialects is not a licence to merge two cards.** His TABE 犁
+and TABUN 開墾 are one word — Tgdaya `tabul` covers both, and his own note on the
+TABE card asks 是否與 TMABUN 有親屬關係. But modern Truku kept only the digging
+half (`tabun`, `tmabun`, `mtabun`, `stabun`, `tbunaw`, all dark already), and the
+ploughing half he glosses 同義詞＝SAKOL, with the map writing his unsuffixed forms
+onto `sakur` 犁. `sakur` has no suffixed slot in the wordlist, so his eight
+suffixed TABE occurrences have nowhere to land and stay pale — even though
+`tnbiyan` 犁過的田 sits one vowel from listed `tnbunan` 已開墾的地方. Pinned. **A
+cognate in another dialect explains a word; it does not spell one.**
+
+**A sheet row names a string, not a root.** Row 3 proposed `biyi` for the TABE
+card. `biyi` is 工寮 — the modern dictionary writes the hut in full as `biyi
+qmpahan` — and its family is all building (`pbiyi`, `tmbiyi`, `spbiyi`). Second
+false row on sheet 1 after row 1's `dagi`; read row 1 before printing, and
+distrust any row whose root gloss has nothing to do with the cards under it.
+
+**`tbilan`: the `miri` line is closed.** `pniri` 挑織布紋的衣服 is a perfect
+semantic match for `Lukus tbilan` 節慶服飾, but the family reduces to `-iri`/`-ri`
+with no b and no l, he has no MIRI card, and `tbilan` is in no modern corpus in
+any spelling. p. 320 shows him doing T-prefix analysis on the neighbouring cards
+(TBALAE, TBNAO) and failing on this one. Still held. Only thread left: `hmuril`
+鈴鐺（裝飾品）, with `pnril`/`tnrilan` unglossed in the lexicon.
+
+97.4337% unchanged (43,320 / 1,109 / 32).
+
 ## His <r> had never crossed, and a speaker crossed it (batch 168, 2026-08-03)
 
 `logs/dom168.py`. Sheet 1 row 2 asked whether `biri`/`tbiran` come from `bir`
