@@ -163,7 +163,7 @@ window.MODERN_MAP = {
 "bilat":"birat",
 "biling":"bling",
 "binao":"binaw",
-"biri":"biri",
+"biri":"bili",
 "biru":"biru",
 "bisol":"bisur",
 "biyang":"biyang",
