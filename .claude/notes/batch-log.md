@@ -2138,3 +2138,34 @@ orthography, and nothing here changed a spelling.
 Group 2 (536 types / 914 occ) left entirely, as instructed. 536 decisions is not
 a batch, and half of them will be answered better once groups 1 and 3 are
 navigable.
+
+**Post-build audit, before deploy.** Three defects, all found by rendering every
+card and reading the DOM (`scratchpad/wpcolour.py`), none visible from the table.
+
+*The population really is wider, and it is pale.* 876 keys emitted, **612 render**
+— the runtime re-test against `lookupWord()` / `slotByKey()` / `CONC_IDX` drops
+264. Of the 612, **183 have a pale headword** (40 group 1, 143 group 3) and 2 are
+green. The headword does carry `w-unv`, so the colour is honest, but a colour is
+a legend away and the heading is the one thing on a generated card a reader takes
+as given. It is not given, and for a group-1 card the affix analysis was run ON
+that proposal. A clause now says so, appended to either note whenever
+`spellClass(key) !== "w-mod"`.
+
+*The named root rendered GREEN — 254 of 347.* `spellClass()` keys on HIS token;
+the root is a modern string no table holds, so it fell through to `w-raw`, which
+the ⓘ legend defines as "nothing vouched for it, the blind char rules ran". The
+exact opposite of true for a root the generator picked BECAUSE it is in
+MODERN_VERIFIED. Fixed by asking `attested()` directly about the root instead of
+routing it through `linkifyTruku`. All 320 surviving roots now render dark.
+**A colour that is merely uninformative is survivable; one that reads as its own
+opposite is not.**
+
+*27 roots, not 10, had no page to open.* My pre-build estimate approximated
+`lookupWord()` and undercounted by 17 — the DOM is the only witness for this,
+which is the standing rule and it held again. Those cards are now group 3
+outright: a root nothing can open is not a pointer, and naming one while offering
+nothing to check it against asserts MORE than a concordance-only card does, not
+less. Effective split is now **group 1 = 320, group 3 = 292**.
+
+Pair total unchanged at 4,950 / 5,435; reachability unchanged (958 occ / 557
+types still unreachable); 1,967 entries and 5,437 examples still render.

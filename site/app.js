@@ -1800,6 +1800,17 @@
       WORD_KEY[k] = w;
       WORD_LIST.push(w);
     });
+    // A root nothing can open is not a pointer. 27 of the roots the analyser
+    // names are dark spellings with no page behind them — dark vouches for the
+    // SPELLING, not for his having given the word an entry. Naming one and
+    // offering nothing to check it against asserts more than a group-3 card
+    // does, not less, so those cards become group-3 outright. Second pass
+    // because a root may be another word page, which does not exist until the
+    // first pass finishes.
+    WORD_LIST.forEach(function (w) {
+      if (w.root && !lookupWord(w.root) && !slotByKey(w.root) &&
+          !Object.prototype.hasOwnProperty.call(WORD_KEY, w.root)) w.root = "";
+    });
   }
 
   function wordList() { buildWordPages(); return WORD_LIST; }
@@ -1848,6 +1859,14 @@
     "claims nothing about the word beyond the sentences below, which are his. / " +
     "此詞形白氏未立條目，僅見於其例句之中，且構詞分析無法為其尋得詞根。" +
     "本頁除下列出自原書的例句外，對此詞不作任何主張。";
+  // Appended to either note when the heading itself is unconfirmed. The wording
+  // covers pale and green alike: neither has a modern source behind it, and the
+  // difference between them — a curated table versus the blind character rules —
+  // is the ⓘ sheet's business, not this card's.
+  var WORD_NOTE_UNV =
+    " The heading is our proposed modern spelling of his word, and no modern " +
+    "source confirms it; anything said above rests on that proposal. / " +
+    "標題係本站為其詞形所擬之現代拼寫，尚無現代文獻可證，上述內容皆以此擬構為據。";
 
   function wordCardHtml(w) {
     buildConc();
@@ -1855,20 +1874,28 @@
     h += '<div class="hw-line"><span class="hw">' +
       linkifyTruku(tidyForm(formText(w.key)), true) + "</span>";
     h += '<span class="tag slot-tag">' + esc("in his examples / 例句詞形") + "</span>";
-    // The pointer is clickable only where the root actually has a page. 10 of the
-    // 446 roots the analyser names are dark spellings with nothing to open — dark
-    // means a modern source vouches for the SPELLING, not that Pecoraro gave the
-    // word an entry. Those still get named, because the analysis is the same
-    // analysis; they just do not pretend to be a link.
+    // Every surviving root has a page (buildWordPages cleared the ones that did
+    // not), so the pointer is always clickable. Its colour is NOT taken from
+    // linkifyTruku: spellClass() keys on HIS token, and this is a modern string
+    // no table holds, so it came out `w-raw` — green, which in the legend on the
+    // ⓘ sheet says "nothing vouched for it, the blind char rules ran". The
+    // opposite of true for a root chosen because it is attested. Ask the same
+    // question spellClass would have asked, of the right string.
     if (w.root) {
-      var reach = lookupWord(w.root) || slotByKey(w.root) || wordPageByKey(w.root);
-      h += '<span class="tag stub-parent' + (reach ? " slot-parent" : "") + '"' +
-        (reach ? ' data-ref="' + esc(w.root) + '"' : "") +
-        ">→ " + linkifyTruku(tidyForm(formText(w.root)), true) + "</span>";
+      h += '<span class="tag stub-parent slot-parent" data-ref="' + esc(w.root) +
+        '">→ <span class="' + (attested(w.root) ? "w-mod" : "w-unv") + '">' +
+        esc(tidyForm(formText(w.root))) + "</span></span>";
     }
     h += "</div>";
     h += wordGlossHtml(w);
-    h += '<p class="fine morph-note">' + esc(w.root ? WORD_NOTE_1 : WORD_NOTE_3) + "</p>";
+    // 183 of these cards have a headword no modern source confirms — the pale
+    // colour says so, but a colour is a legend away and the heading is the one
+    // thing on the card a reader will take as given. It is not given: it is our
+    // respelling of his word, and for a group-1 card the affix analysis was run
+    // ON that respelling, so the root is only as good as it is.
+    h += '<p class="fine morph-note">' +
+      esc((w.root ? WORD_NOTE_1 : WORD_NOTE_3) +
+          (spellClass(w.key) === "w-mod" ? "" : WORD_NOTE_UNV)) + "</p>";
     var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, w.key) ? CONC_IDX[w.key] : [];
     h += '<p class="conc-form">' + esc("Examples of use (" + rows.length +
       ") / 用例（" + rows.length + "）") + "</p>";
