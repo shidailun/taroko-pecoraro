@@ -2224,3 +2224,31 @@ is not a citation.
 **Already pinned, not re-derived:** `naru`/`mnalu` (batch 114 and 161 — `nalu` is
 a phantom root, `nmalu` and `snalu` stripping to the same four letters),
 `tnaga` (164), `rih` (146), `ksudan` and `empsbiyuq` (NAMEGL, deliberate).
+
+## Batch 178 — a capital inside the word is his, and it names a person
+
+`§ Mksipao ka dTome` (`data/batch_270_273.json:744`, fr "Tomé et les siens
+habitent en face") rendered as **`dtumi`**. The person was gone: `dtumi` reads as
+a common noun.
+
+`matchCase(sample, target)` read the case off `cased[0]` only, so every capital
+after the first was flattened. That is a third case class and it is doing work —
+he bonds an affix straight onto a proper name and capitalises the NAME rather
+than the word: `dTome`, `dTroko`, `dDiyan`, `mkMorisaka`, `skBoxil`, `ddCristo`.
+Census of `entries.js`: **32 types / 41 occurrences.**
+
+The mark is now carried by POSITION over the cased characters (his diacritic
+vowels `äëïöü` and the elision marks `'’ʼ"ʔ` carry no case and are skipped on
+both sides), guarded by `target.replace(CASELESS,"").length >= cased.length`.
+
+**Only a shortening can slide a later letter left past the mark.** `PPPaon` →
+`ppaun` is six cased letters to five, so a mark at index 2 would land on the
+`a` and print `ppAun`. The guard sends that one back to the old initial-capital
+reading, which is what it already had — no regression.
+
+DOM-verified: `dTumi`, `dTruku`, `dSbnawan`, `mkMurisaka`, `mkEfunang`,
+`ddCristu`, `MkMurisaka`, `skBowxil` now print the internal capital; `Ppaun`
+falls back.
+
+**Trailing `=` re-checked across every field** — hw, fr, en, zh, paradigm,
+crossRef, and every example and sub-form field: **0**, not just in example `t`.

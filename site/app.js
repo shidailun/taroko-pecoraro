@@ -131,10 +131,35 @@
   // So the case of a word is read off its CASED characters only, and a word
   // with none of them takes the value as written.
   var CASELESS = /[äëïöü'’ʼ"ʔ]/g;
+  var CASELESS1 = /[äëïöü'’ʼ"ʔ]/;
+  //   A CAPITAL INSIDE THE WORD is the third case, and it is his, and it is doing
+  // work: he bonds an affix straight onto a proper name and capitalises the NAME
+  // rather than the word — `dTome` for "Tomé et les siens", `dTroko`, `dDiyan`,
+  // `mkMorisaka`, `skBoxil`, `ddCristo`. 32 types / 41 occurrences. Reading the
+  // case off `cased[0]` alone flattened every one of them, so his `dTome` printed
+  // `dtumi`, which reads as a common noun and loses the person.
+  //   The mark is carried by POSITION over the cased characters, and only where
+  // the modern spelling is no shorter than his: only a shortening can slide a
+  // later letter left past the mark, and his `PPPaon` → `ppaun` is the case that
+  // proves it — three P's to two, so the mark at index 2 would land on the `a`.
+  // That one keeps the old initial-capital reading, which is what it had.
   function matchCase(sample, target) {
     var cased = sample.replace(CASELESS, "");
     if (!cased) return target;
     if (cased === cased.toUpperCase()) return target.toUpperCase();
+    if (cased.length > 1 && /[A-ZÀ-Þ]/.test(cased.slice(1)) &&
+        target.replace(CASELESS, "").length >= cased.length) {
+      var out = "", j = 0;
+      for (var i = 0; i < target.length; i++) {
+        var c = target.charAt(i);
+        if (CASELESS1.test(c)) { out += c; continue; }
+        var h = cased.charAt(j);
+        out += (j < cased.length && h === h.toUpperCase() && h !== h.toLowerCase())
+          ? c.toUpperCase() : c;
+        j++;
+      }
+      return out;
+    }
     if (cased[0] === cased[0].toUpperCase()) return target[0].toUpperCase() + target.slice(1);
     return target;
   }
