@@ -2689,3 +2689,33 @@ page unless a token reaches it.*
 
 `tknayun` ×4 pale → dark. Blocked pairs 429 → **426**; deliverable **5,009 /
 92.16%**. Dark 44,033 / 97.9665%, pale 880, green 34. 16/16, 9/9, 28/28.
+
+## Batch 188 — two rulings, and the same failure under both
+
+**`embqru`** — his `mbq'lo`, BQ'LO › Mbq'lo 滿是凹凸與高低不平, and in BALAE
+about levelling a road. `bqru` is 肉瘤／痛風；關節石, a lump on a body, and a
+bumpy road shares no character with a tumour. **The family had already made the
+extension**: of its 89 members, `dmpsbqru` is 採樹瘤者 — a gatherer of TREE
+burls — and `sbqru` is 長很多肉瘤, covered in them. `embqru` is absent from the
+89, which a family that large makes look like evidence; what it shows is that
+the wordlist files this root's em- forms as `empeebqru` and `embbqru`. `em-` +
+a listed root is routine and not a favour — **116 verified em- words are absent
+from the wordlist**, mapped by the tier-W schwa rule and verified off the root.
+
+**`pnsmkan`** — his `pnsm'kan`, SMUK › Pnsm'kan 已釘之物；釘的動作. The wordlist
+glosses `smuk` 金鋼樹（樹木名）, a tree; the ILRDF entry prints 金鋼樹（樹木名）
+／**釘子**／蘇穆克（地名）／**鐵釘** at frequency 7. His 已釘之物 shares 釘 with
+it outright. The gate never saw that root: `roots()` offered `smka` 一半, `smku`
+保存, `mkan` 吃 and `psmkan` 讓…金鋼樹, because reaching `smuk` needs the root's
+own u restored. His apostrophe is the evidence for the syncopated spelling — he
+wrote a mark where the u had been.
+
+**Both were the same failure, and it is not the one the bucket names.** A
+refusal filed under "gloss disagrees" can mean the gate weighed the meaning and
+said no; it can also mean the gate never reached the word. `pnguwan` (186),
+`pnsmkan` and, in a different way, `tknayun` (187) were all the second kind.
+The bucket cannot tell them apart and the dossier can.
+
+Gained 3 — `embqru`, `pnsmkan`, and `psmuk` off the vouched root — lost 0.
+Blocked pairs 426 → **422**; deliverable **5,013 / 92.24%**. Dark 44,040 /
+97.9821%, pale 873, green 34. 16/16, 9/9, 28/28.

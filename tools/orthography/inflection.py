@@ -467,7 +467,44 @@ HAND_SPOKEN = """nta""".split()
 #           `mktruwan` does do one job here, which is the narrow one it can do:
 #           it shows the glide is WRITTEN, so the suffixed form of a u-final
 #           stem is `pnguwan` and not `pnguan`.
-HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan""".split()
+#   embqru  his `mbq'lo`/`mbqlo`, BQ'LO › Mbq'lo 滿是凹凸與高低不平——崎嶇不平,
+#           and in BALAE › Mtbalae about levelling a road: 把凸起的地方鏟平.
+#           `bqru` is 肉瘤／痛風；關節石 — a lump on a body — and the gate refused
+#           because a bumpy road shares no character with a tumour.
+#
+#           THE FAMILY HAS ALREADY MADE THE EXTENSION. 89 members in the
+#           wordlist, and two of them settle it: `dmpsbqru` 採樹瘤者, a gatherer
+#           of TREE burls, and `sbqru` 長很多肉瘤, covered in them. A lump is not
+#           confined to flesh in this word's own family, and a road full of
+#           lumps is what he wrote.
+#
+#           `em-` + a listed root is routine here rather than a favour: 116
+#           verified em- words are absent from the wordlist, mapped by the tier-W
+#           schwa rule and verified off their roots. `embqru` is not in the 89
+#           either, and this is the one thing the count cannot decide — a family
+#           that large makes absence look like evidence, when what it shows is
+#           that the wordlist files this root's em- forms as `empeebqru` and
+#           `embbqru`. His word is the stative and it is spelled the way the
+#           other 116 are.
+#   pnsmkan his `pnsm'kan`, SMUK › Pnsm'kan 已釘之物；釘的動作（已完成）, and
+#           again under D'XO about reinforcing a stake somebody drove yesterday.
+#           p<n>-smuk-an, and the wordlist glosses `smuk` 金鋼樹（樹木名）: a
+#           tree. The ILRDF entry prints 金鋼樹（樹木名）／**釘子**／蘇穆克（地名）
+#           ／**鐵釘** at frequency 7 — the nail sense and the tree sense in one
+#           entry, and the wordlist kept the tree. His 已釘之物 shares 釘 with it
+#           outright.
+#
+#           The analysis is what failed, again: `roots()` offered `smka` 一半,
+#           `smku` 保存, `mkan` 吃 and `psmkan` 讓…金鋼樹, because reaching `smuk`
+#           needs the root's own u restored. That is the same shape as `pnguwan`
+#           two batches ago and the same lesson — a refusal in the "gloss
+#           disagrees" bucket is not always a claim about meaning; sometimes the
+#           gate never saw the word.
+#
+#           His apostrophe is the evidence for the syncopated spelling: he wrote
+#           `pnsm'kan`, a mark where the u had been.
+HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
+                pnsmkan""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

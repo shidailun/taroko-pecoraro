@@ -886,6 +886,14 @@
 "msyuring": null,
 "mtaru": null,
 "mtdahu": null,
+"mtgbqru": {
+"freq": 1,
+"glosses": [
+"露出肉瘤"
+],
+"name": "mtgbqru",
+"note": ""
+},
 "mtgtmaq": null,
 "mtkkrang": null,
 "mtkumax": null,
@@ -1202,6 +1210,7 @@
 "note": ""
 },
 "psmkun": null,
+"psmuk": null,
 "psngurun": null,
 "psnluun": null,
 "psping": {
@@ -1434,6 +1443,14 @@
 "note": "詞意：mlawa tnbgaa呼喚"
 },
 "sago": null,
+"samu": {
+"freq": 15,
+"glosses": [
+"釘子"
+],
+"name": "samu",
+"note": "詞意：tdnug pteetu釘子"
+},
 "saole": null,
 "sapi": null,
 "sar": {
@@ -1638,6 +1655,25 @@
 },
 "smllu": null,
 "smmul": null,
+"smuk": {
+"freq": 7,
+"glosses": [
+"金鋼樹（樹木名）",
+"釘子",
+"蘇穆克（地名-部落名-舊部落）",
+"鐵釘"
+],
+"name": "smuk",
+"note": "詞意：hangan qhuni金鋼樹\r\n詞意：hangan xiluy samw釘子\r\n詞意：hangan dxgal蘇穆克（地名-部落名-舊部落，現今花蓮縣秀林鄉富世村大同部落一帶）\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
+"smuun": {
+"freq": 2,
+"glosses": [
+"釘"
+],
+"name": "smuun",
+"note": ""
+},
 "smuwan": null,
 "sneanak": {
 "freq": 1,

@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-404 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
+400 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 56 | 70 |
+| gloss disagrees | 54 | 66 |
 | no root | 203 | 239 |
 | root unglossed | 37 | 40 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 56 types, 70 pairs
+## gloss disagrees — 54 types, 66 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,25 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### embqru — 2 pairs
-
-- under **BALAY**
-- § PTblai kana embqru, hrii kana rbuq.
-- 中 把凸起的地方鏟平，把坑洞填起來！
-- `em-bqru` → **bqru** 痛風；關節石／肉瘤／肉瘤
-- his: 滿是凹凸與高低不平——崎嶇不平。
-
-### pnsmkan — 2 pairs
-
-- under **DHUG**
-- § Ptdhgun mu kiya ka pnsmkan su.
-- 中 你所立的（木樁、插樁）、你所釘的，我隨後會加固。
-- `psmkan` → **psmkan** 讓…金鋼樹／讓…金鋼樹
-- `pn-smka-an` → **smka** 一半／一半／一半／半（點鐘）；一半／半；一半
-- `pn-smko-an` → **smko** (no gloss)
-- `pn-smku-an` → **smku** 保存／保存／放置／放置（收好）／放置（收好）
-- his: 已釘之物；釘的動作（已完成）。
 
 ### snkiya — 2 pairs
 
