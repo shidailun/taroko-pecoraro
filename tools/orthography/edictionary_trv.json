@@ -619,6 +619,15 @@
 "kmkmalu": null,
 "kmpspusu": null,
 "kmpstrngun": null,
+"kmrawah": {
+"freq": 16,
+"glosses": [
+"捨不得（因需要不肯割愛）",
+"愛惜"
+],
+"name": "kmrawah",
+"note": ""
+},
 "kmubui": null,
 "kmux": {
 "freq": 15,
@@ -873,6 +882,14 @@
 "mtkumax": null,
 "mtmagu": null,
 "mtmuhung": null,
+"mtrawah": {
+"freq": 2,
+"glosses": [
+"心情開朗（輕鬆）"
+],
+"name": "mtrawah",
+"note": ""
+},
 "mtrdu": null,
 "mtrgri": null,
 "mtudu": null,
@@ -1548,6 +1565,14 @@
 },
 "smkan": null,
 "smko": null,
+"smkrawah": {
+"freq": 5,
+"glosses": [
+"可惜"
+],
+"name": "smkrawah",
+"note": ""
+},
 "smku": {
 "freq": 27,
 "glosses": [

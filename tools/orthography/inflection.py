@@ -399,7 +399,32 @@ HAND_SPOKEN = """nta""".split()
 #           嘴 does not share a character with 搖頭, because the sentence is
 #           about what the mouth is NOT doing — `gmquwaq tunux`, mouthing with
 #           the head instead of speaking. A gloss test cannot read that.
-HAND_RULED = """ppdsun tksaw gmquwaq""".split()
+#   snkrawah his `snklawax`/`snqlawax`, third of blockers.md at 3 pairs, in
+#           KLAWAX › Snklawax 處於不利——被犧牲, again under LUDAN › Msludan, and
+#           a third time as his own headword SNQLAWAX — which he glossed
+#           「？？－悲傷（？）－孤獨（？）－可憐（？）」, question marks and all.
+#           He did not know this word. We can tell him what it is.
+#
+#           THE ROOT HAS TWO SENSES AND THE WORDLIST PRINTS ONE. `rawah` is
+#           打開蓋子 in the omnibus, which is why the gate refused: 處於不利/被
+#           犧牲/可憐 shares no character with 打開蓋子. The ILRDF dictionary
+#           prints the entry with its Truku definitions attached, and the sense
+#           list is not all about doors: `mangal gnumuk` 打開蓋子 and `beytaq
+#           brhug` 鑰匙, yes, but also `ini qbqan` 婉惜 and `malu kuxul` 情緒穩定.
+#           An open lid and an open heart are the same word.
+#
+#           THE K-FORMS ARE THE EMOTIONAL SENSE, AND THEY ARE ATTESTED WITH IT.
+#           `smkrawah` 可惜 (freq 5) and `kmrawah` 捨不得（因需要不肯割愛）／愛惜
+#           (freq 16); `mtrawah` is 心情開朗（輕鬆）. His form is the s<n>
+#           perfective of the first of those, mechanically — `smkrawah` is in
+#           attested_modern.json and s<m>/s<n> is the ordinary alternation — and
+#           可惜 landing on a person IS 可憐. The 16-member `rawah` family in the
+#           wordlist convicts nothing and acquits here: every k-form of it that
+#           anyone has glossed is glossed with regret.
+#
+#           `snkrawah` itself is a miss in the online dictionary, as `tksaw` and
+#           `gmquwaq` were: it indexes headwords, and this is a derived form.
+HAND_RULED = """ppdsun tksaw gmquwaq snkrawah""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

@@ -2557,3 +2557,28 @@ Blocked pairs 445 → **438** (416 sole over 349 types, 22 multi). Deliverable
 pairs **4,997 / 91.94%**, from 4,956 / 91.19% at the session's start. Dark
 44,009 / 97.9131%, pale 904 (from 988), green 34. 16/16 `loose179.py`, 9/9
 `cite179.py`, 28/28 `nav178.py`.
+
+## Batch 184 — the word he marked with question marks
+
+`snkrawah` — his `snklawax`/`snqlawax`, three sentences, and one of the three is
+his own headword SNQLAWAX glossed 「？？－悲傷（？）－孤獨（？）－可憐（？）」.
+He did not know what it meant. The ILRDF dictionary does.
+
+**The root's second sense was missing from the wordlist.** `rawah` is 打開蓋子
+in the omnibus and that is why the gate refused — 處於不利／被犧牲／可憐 shares
+no character with it. The online entry prints its Truku definitions beside the
+Chinese: `mangal gnumuk` 打開蓋子, `beytaq brhug` 鑰匙 — and `ini qbqan` 婉惜,
+`malu kuxul` 情緒穩定. *An open lid and an open heart are the same word.*
+
+**The k-forms carry the emotional sense and are attested with it.** `smkrawah`
+可惜 (freq 5), `kmrawah` 捨不得（因需要不肯割愛）／愛惜 (freq 16), `mtrawah`
+心情開朗. His form is the s<n> perfective of `smkrawah`, which is already in
+`attested_modern.json`; 可惜 landing on a person is 可憐. Of the 16 `rawah`
+members the wordlist holds, every k-form anyone has glossed is glossed with
+regret.
+
+This is the first ruling the e-dictionary settled on its own — batch 182 said
+its value was glosses, not attestations, and here the value is a sense the
+wordlist omitted rather than a word it lacked.
+
+Gained 1, lost 0. Blocked pairs 438 → **435**; deliverable **5,000 / 91.99%**.

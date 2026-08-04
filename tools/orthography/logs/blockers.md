@@ -2,27 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-416 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
+413 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 60 | 82 |
+| gloss disagrees | 59 | 79 |
 | no root | 203 | 239 |
 | root unglossed | 37 | 40 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 60 types, 82 pairs
-
-### snkrawah — 3 pairs
-
-- under **KRAWAH**
-- § Saw bi snkrawah ka kingal ruwan sapah su.
-- 中 你的家實在吃虧（彷彿被犧牲了）。
-- `sn-krawah` → **krawah** (no gloss)
-- `snk-rawah` → **rawah** 婉惜／情緒穩定／打開石壓陷阱／打開蓋子／打開蓋子／鎖／鎖（開）／鑰匙／開門
-- his: 處於不利——被犧牲。 ／ ？？－悲傷（？）－孤獨（？）－可憐（？）。
+## gloss disagrees — 59 types, 79 pairs
 
 ### tbiran — 3 pairs
 
