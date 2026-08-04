@@ -117,7 +117,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,435. **Currently 97.61%** (5,305). Not token share. A pair is
+  is dark, over 5,429. **Currently 97.62%** (5,300). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
@@ -127,9 +127,15 @@ These were each learned by breaking something. Evidence for every one is in
   zero open, and the 2-blocker tier behind it — 10 clusters, no recurring word
   pair — is ruled or refused item by item. The 130 pairs still blocked are held by
   words with a written refusal, so the next gain has to come from new evidence,
-  not from re-ranking what is already priced. Two of those pairs are not spelling
-  questions at all: his AN card's `Paru = Grand` / `Knpraan = Grandeur` is French
-  metalinguistic text sitting inside a Truku field.
+  not from re-ranking what is already priced.
+- **French in a Truku field is not a pair, and was inflating the metric.** Six
+  example rows have a `t` identical to their `fr` — his AN (3) card demonstrates
+  the circumfix that way (`Paro = Grand; Knplaan = Grandeur`). `metaLine()` in
+  `app.js` renders those with no spans at all, which drops them from the
+  denominator because the metric reads the DOM. **Five of the six had been
+  counted DELIVERABLE**: French sentences scoring as Truku pairs. The test is
+  `t == fr` modulo punctuation — it finds exactly six, no near misses, because no
+  real sentence equals its own translation. Denominator 5,435 → **5,429**.
 - **A homograph freeze paints dark AND wrong** — a raw token mapped onto a
   same-shaped modern word with an unrelated gloss. Batch 201 found **seven**,
   including his KOYOç 雨 head frozen onto `kuyuh` 女人. They are invisible to every

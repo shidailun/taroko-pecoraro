@@ -1459,12 +1459,37 @@
     return h;
   }
 
+  // A Truku field that IS its own French translation is not a Truku sentence. It
+  // is metalinguistic text standing in the example slot: his AN (3) card
+  // demonstrates the circumfix that way, and "Paro = Grand; Knplaan = Grandeur"
+  // is the same string in `t` and in `fr`. Six lines in the book, all on that
+  // card, and the test finds exactly those six — no near misses, because no real
+  // sentence is ever equal to its own translation.
+  //
+  // Two things follow. Running them through the map paints French words brown —
+  // Grandeur, Connaissance, Rougeur, "matinalité" — and counting them in the
+  // deliverable-pair metric counts six lines no MT session can consume. So they
+  // render as the book prints them: no map, no links, no spans at all. The
+  // metric reads the DOM, so dropping the spans drops them from the denominator
+  // by the same act; there is no second implementation to drift.
+  function metaNorm(s) {
+    return String(s || "").replace(/[\s.!?;:,'"’“”]+/g, "").toLowerCase();
+  }
+  function metaLine(x) {
+    return !!(x && x.t && x.fr && metaNorm(x.t) === metaNorm(x.fr));
+  }
+  function trukuLine(x) {
+    return metaLine(x) ? esc(tidy(x.t, "tr"))
+      : linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE);
+  }
+
   function examplesHtml(list) {
     if (!list || !list.length) return "";
     var h = '<div class="examples">';
     list.forEach(function (x) {
-      h += '<div class="example"><div class="truku">' + spellMark("§", "Example / exemple") +
-        " " + linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+      h += '<div class="example' + (metaLine(x) ? " meta" : "") +
+        '"><div class="truku">' + spellMark("§", "Example / exemple") +
+        " " + trukuLine(x) + audioBtn(x.a) + "</div>";
       h += exGlossHtml(x);
       h += "</div>";
     });
@@ -1616,9 +1641,10 @@
   // question — "where else in the book does this exact token occur?"
   function concRowHtml(n) {
     var row = CONC_SENT[n], x = row.x, src = window.ENTRIES[row.ei];
-    var h = '<div class="example conc-row"><div class="truku">' +
+    var h = '<div class="example conc-row' + (metaLine(x) ? " meta" : "") +
+      '"><div class="truku">' +
       spellMark("§", "Example / exemple") + " " +
-      linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+      trukuLine(x) + audioBtn(x.a) + "</div>";
     h += exGlossHtml(x);
     return h + '<p class="conc-src" data-ref="' + esc(src.hw) + '">→ ' +
       linkifyTruku(tidyForm(formText(src.hw)), true) + "</p></div>";
@@ -2141,9 +2167,10 @@
     var h = '<article class="entry loose">';
     rows.forEach(function (r) {
       var x = r[0], s = r[1];
-      h += '<div class="example conc-row"><div class="truku">' +
+      h += '<div class="example conc-row' + (metaLine(x) ? " meta" : "") +
+        '"><div class="truku">' +
         spellMark("§", "Example / exemple") + " " +
-        linkifyTruku(tidy(x.t, "tr"), false, FORM_PROSE) + audioBtn(x.a) + "</div>";
+        trukuLine(x) + audioBtn(x.a) + "</div>";
       h += exGlossHtml(x);
       // data-ref is the HEADWORD even when the sentence sits under a sub-form:
       // that is the card the reader lands on, and the sub-form is named beside
@@ -2934,7 +2961,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,896 of the 44,930 words on screen, 6,001 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion or a Japanese loan — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (705 words, 282 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (301 words, 197 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (28 words, 20 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,896 詞次，6,001 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞與日語借詞，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>，以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（705 詞次，282 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（301 詞次，197 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（28 詞次，20 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
+      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,884 of the 44,916 words on screen, 6,001 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion or a Japanese loan — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (705 words, 282 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (299 words, 195 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (28 words, 20 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,884 詞次，6,001 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞與日語借詞，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>，以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（705 詞次，282 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（299 詞次，195 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（28 詞次，20 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +

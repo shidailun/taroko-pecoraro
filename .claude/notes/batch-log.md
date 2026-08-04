@@ -3506,14 +3506,35 @@ a null for it and a null outranks manual by design. **The pin came down with the
 refusal it enforced.** `ddliwis` closed the same family: `liwis` was already a
 hand-ruled name, and his own Chinese reads ddLiwis as Liwis 的朋友們.
 
+### French in a Truku field, and five pairs that were never pairs
+
+"if it's in french it should not be in our statistics." Six example rows have a
+Truku field **identical to their French one** — his AN (3) card demonstrates the
+circumfix that way, and `Paro = Grand; Knplaan = Grandeur` is the same string in
+both. The test `t == fr` modulo punctuation finds **exactly those six** across
+5,437 examples, with zero near misses, because no real sentence equals its own
+translation.
+
+Two things were wrong. The map was painting French words brown — *Grandeur*,
+*Connaissance*, *Rougeur*, *"matinalité"* — and **five of the six were counted
+DELIVERABLE**, French lines scoring as Truku pairs. Only one of them was in the
+blocked list, which is why the batch had priced this as two blocked pairs; it was
+one, and the real cost was five phantom pairs on the other side of the ledger.
+
+`metaLine()` in `app.js` now renders them with no spans at all: no map, no links,
+as the book prints them. All three example call sites are guarded (the assertion
+caught a fourth site on the first attempt and refused to write). The metric reads
+the DOM, so dropping the spans drops them from the denominator by the same act —
+one implementation, nothing to drift. **5,435 → 5,429.**
+
 ### What the 2-blocker tier refused
 
 `thiy`+`snuk` (XNUK 這木頭很軟，釘子釘不牢 — 釘子 is `samu`, a lexical substitution),
 `pdaqi`+`pstui` (SPONG, the Lord's Prayer petition — 試探 and 拯救 return **0**
 register rows), `tbasyaq`, `nrikut`+`krikut`, `dmtsapat`+`dmtbasyaq`. And two
 pairs that are not spelling questions at all: his AN card's `Paru = Grand` /
-`Knpraan = Grandeur` is French metalinguistic text sitting inside a Truku field.
-The denominator keeps them.
+`Knplaan = Grandeur` is French metalinguistic text sitting inside a Truku field.
+The denominator no longer keeps it — see above.
 
 `pstui` is worth one line on its own: it is shape-identical to the `psttui` this
 batch ruled to `pstutuy` 起身, and it is a different word. **Decide slot by slot.**
@@ -3528,6 +3549,6 @@ reason.
 
 ### Closing
 
-dark 43,896 / 6,001 distinct · class 705 / 282 · pale 301 / 197 · green 28 / 20
-total 44,930 · **brown 99.2677%** · deliverable pairs **5,305 / 5,435 = 97.61%**
+dark 43,884 / 6,001 distinct · class 705 / 282 · pale 299 / 195 · green 28 / 20
+total 44,916 · **brown 99.2720%** · deliverable pairs **5,300 / 5,429 = 97.62%**
 Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0 failures, 0 page errors.
