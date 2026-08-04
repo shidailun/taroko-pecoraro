@@ -2234,7 +2234,7 @@
    "tier": "B"
   },
   "dldan": {
-   "modern": "dldan",
+   "modern": "drtan",
    "tier": "M"
   },
   "dldi": {
@@ -2242,7 +2242,7 @@
    "tier": "M"
   },
   "dldun": {
-   "modern": "dlutun",
+   "modern": "drtun",
    "tier": "M"
   },
   "dlisao": {
@@ -15500,8 +15500,8 @@
    "tier": "A"
   },
   "sblangan": {
-   "modern": "sblangan",
-   "tier": "T"
+   "modern": "smbrangan",
+   "tier": "M"
   },
   "sblenax": {
    "modern": "sbrinah",

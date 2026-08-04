@@ -15,6 +15,16 @@
 "name": "alu",
 "note": ""
 },
+"angal": {
+"freq": 35,
+"glosses": [
+"娶老婆",
+"拿",
+"生（生產）"
+],
+"name": "angal",
+"note": "詞意：qmijin uwa娶老婆\r\n詞意：ngali拿"
+},
 "api": null,
 "armuni": null,
 "arung": {
@@ -43,6 +53,14 @@
 "ayuq": null,
 "bakuciku": null,
 "bboai": null,
+"beyway": {
+"freq": 0,
+"glosses": [
+"彎曲的；心術不正"
+],
+"name": "beyway",
+"note": "詞意：embhruy彎曲的\r\n詞意：naqih lnglunga心術不正"
+},
 "bgu": {
 "freq": 71,
 "glosses": [
@@ -136,6 +154,7 @@
 "name": "bqru",
 "note": "詞意：pungu hiyi肉瘤\r\n詞意：pnsriyu rungut hiyi痛風"
 },
+"brangan": null,
 "brnux": {
 "freq": 2,
 "glosses": [
@@ -243,11 +262,13 @@
 "dbsnawan": null,
 "ddcristu": null,
 "ddjilun": null,
+"ddngus": null,
 "ddngusun": null,
 "dhuan": null,
 "diya": null,
 "djilun": null,
 "dldan": null,
+"dluci": null,
 "dlut": {
 "freq": 0,
 "glosses": [
@@ -276,8 +297,12 @@
 "dmbasyaq": null,
 "dmbsrat": null,
 "dmikat": null,
+"dmlut": null,
+"dmngus": null,
 "dmpatas": null,
+"dmrut": null,
 "dmurisaka": null,
+"dngus": null,
 "dngusa": {
 "freq": 1,
 "glosses": [
@@ -302,6 +327,7 @@
 "name": "dngusun",
 "note": ""
 },
+"dnrut": null,
 "dqqrinut": null,
 "drbiyax": null,
 "drna": {
@@ -322,6 +348,8 @@
 "name": "drut",
 "note": "詞意：triya muda empix輾過去\r\n詞意：baga pcsrus mrut用手揉起來"
 },
+"drutan": null,
+"drutun": null,
 "dsbnawan": null,
 "dtanah": null,
 "dtduling": null,
@@ -338,6 +366,22 @@
 "note": "詞意：pneglngug協調、安心、賜予、不能被人加於…、期望、愛慕、目標、適合、專心\r\n詞意：bais夫妻、伴侶"
 },
 "ega": null,
+"embbeyway": {
+"freq": 1,
+"glosses": [
+"全都成彎曲的"
+],
+"name": "embbeyway",
+"note": ""
+},
+"embbgay": {
+"freq": 2,
+"glosses": [
+"互相贈與"
+],
+"name": "embbgay",
+"note": ""
+},
 "embbuway": null,
 "embqru": null,
 "embuyan": null,
@@ -355,6 +399,14 @@
 "empraqat": null,
 "empsbiyuq": null,
 "empsdungus": null,
+"empskkutu": {
+"freq": 0,
+"glosses": [
+"會發抖"
+],
+"name": "empskkutu",
+"note": ""
+},
 "empslangan": null,
 "empslbu": null,
 "empsneanak": null,
@@ -824,6 +876,10 @@
 "name": "max",
 "note": "詞意：nang smipaq手掌擊打聲"
 },
+"mbbuway": null,
+"mbrangan": null,
+"mdngus": null,
+"mdrut": null,
 "meq": null,
 "mgangah": null,
 "mggui": null,
@@ -870,6 +926,7 @@
 "mritan": null,
 "msilung": null,
 "mskutu": null,
+"mskuyuh": null,
 "mslangan": null,
 "mslangu": {
 "freq": 0,
@@ -1151,6 +1208,14 @@
 "pnmaxan": null,
 "pnmuun": null,
 "pnnanu": null,
+"pnngraq": {
+"freq": 0,
+"glosses": [
+"比出女人陰蒂的手勢。"
+],
+"name": "pnngraq",
+"note": ""
+},
 "pnnguan": null,
 "pnpnguan": null,
 "pnpungu": {
@@ -1191,6 +1256,7 @@
 "psiisan": null,
 "psiisun": null,
 "pskmux": null,
+"pskutu": null,
 "pslangu": null,
 "pslbu": {
 "freq": 4,
@@ -1230,11 +1296,20 @@
 "ptaril": null,
 "ptatuy": null,
 "ptbnuun": null,
+"ptdahu": {
+"freq": 1,
+"glosses": [
+"會讓…驕傲"
+],
+"name": "ptdahu",
+"note": ""
+},
 "pteuqi": null,
 "pthnguli": null,
 "ptkanun": null,
 "ptqliyun": null,
 "ptryaun": null,
+"ptudan": null,
 "ptudu": null,
 "puh": {
 "freq": 0,
@@ -1473,6 +1548,7 @@
 },
 "sblangan": null,
 "sbnawan": null,
+"sbusan": null,
 "sbuwa": {
 "freq": 1,
 "glosses": [
@@ -1533,10 +1609,35 @@
 "note": ""
 },
 "sghuwayan": null,
+"sgila": {
+"freq": 0,
+"glosses": [
+"因…耽誤"
+],
+"name": "sgila",
+"note": ""
+},
+"sglaan": {
+"freq": 6,
+"glosses": [
+"讓…耽誤"
+],
+"name": "sglaan",
+"note": ""
+},
 "sguran": null,
 "shgi": null,
 "shnkan": null,
 "siba": null,
+"sibus": {
+"freq": 180,
+"glosses": [
+"甘蔗（作物名）",
+"甘蔗"
+],
+"name": "sibus",
+"note": "詞意：hangan pnegalang ngalan qmsiya甘蔗\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
 "siga": null,
 "siisan": {
 "freq": 3,
@@ -1596,6 +1697,7 @@
 },
 "skngali": null,
 "sktadaw": null,
+"skutu": null,
 "sla": {
 "freq": 5,
 "glosses": [
@@ -1624,6 +1726,15 @@
 },
 "sm": null,
 "smaliq": null,
+"smbrangan": {
+"freq": 42,
+"glosses": [
+"矛",
+"矛"
+],
+"name": "smbrangan",
+"note": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
 "smhngi": null,
 "smka": {
 "freq": 21,
@@ -1829,6 +1940,7 @@
 },
 "tduling": null,
 "teumuk": null,
+"tgila": null,
 "tgla": {
 "freq": 1,
 "glosses": [
@@ -1904,10 +2016,12 @@
 "tmaqi": null,
 "tmgla": null,
 "tmkumax": null,
+"tmudu": null,
 "tmukan": null,
 "tnaga": null,
 "tnbiyan": null,
 "tnbuyan": null,
+"tngla": null,
 "tnglaan": null,
 "tnoxoi": null,
 "tnqriyan": null,

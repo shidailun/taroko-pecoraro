@@ -503,8 +503,155 @@ HAND_SPOKEN = """nta""".split()
 #
 #           His apostrophe is the evidence for the syncopated spelling: he wrote
 #           `pnsm'kan`, a mark where the u had been.
+#   snkiya  Batch 189. His `Snkia`, KIA › Snkia 關於同一件事, and the SN card —
+#           one of his twelve affix cards — states the analysis itself: "Préfixe
+#           composé indiquant le plus souvent: à propos de quoi … le S qui est
+#           porteur du sens de cause, d'instrument, de but, suivi du N qui
+#           indique le passé". So the word is SN- over KIA by his own account,
+#           and every piece of it is modern: `kiya` 那／這樣／就是 at parquet
+#           frequency 2,429 and ILRDF 681, `nkiya` 就是這樣 at 67 and ILRDF 16 —
+#           the stem written with its y under a prefix, which is the only letter
+#           in dispute — and s- productive over 3,218 modern types.
+#
+#           The gloss test cannot be passed here and the reason is structural,
+#           not evidential: 關於 is what the PREFIX means. He says so on the SN
+#           card. A gate that asks his whole gloss to share a character with the
+#           root's is asking the root to carry meaning the affix supplies, and
+#           `kiya` will never gloss 關於 because it does not mean it.
+#
+#           And the form is generated twice over. `roots()` offers `skiya` 飛
+#           first, because s-n-kiya is also the ordinary preterite of the verb to
+#           fly — a homograph, and the 飛 that looks like a disagreement is a
+#           different word, not an argument against this spelling. Two
+#           independent derivations landing on one string is why the corpus's
+#           silence about `snkiya` is a listing gap: neither reading is rare, and
+#           no wordlist prints every slot of every stem.
+#   mskutu  Batch 190. His `Mskoto`, SKOTO › Mskoto 麻木的－起雞皮疙瘩的－凍僵的.
+#           `roots()` finds the root on the first try — `ms-kutu`, and `kutu` is
+#           listed, ILRDF frequency 56, glossed **因濕冷而發抖** with the note
+#           `詞意：hnigan pkkran pnsbili` (the body shivering from cold damp). His
+#           two sentences are about nothing else: five blankets and still 起雞皮
+#           疙瘩, and 受了很多寒 … 都凍僵了.
+#
+#           The gate refused it on ZERO CHARACTER OVERLAP between two glosses
+#           that mean the same thing. 因濕冷而發抖 and 麻木／雞皮疙瘩／凍僵 share
+#           not one Han character, and no widening of the shape rules could ever
+#           reach this: the disagreement is between two translators' vocabulary,
+#           not between two words. This is the failure mode `_agrees` cannot see
+#           from the inside, and the only instrument that catches it is reading
+#           the two glosses.
+#
+#           The derivation is modern on both ends. `empskkutu` 會發抖 is in the
+#           ILRDF dictionary — the same stem under emp-sk-, so the stem takes s-
+#           prefixation in the shivering sense today — and his own root card is
+#           SKOTO, i.e. s-kutu, which is the same statement made in 1977.
+#   mritan  Batch 190. His `mlitan`, MILIT › Mlitan 「MILIT 的斜格形」. His head
+#           MILIT is 山羊 and the map has had it as `mirit` 山羊／羊 all along,
+#           parquet frequency 260. What was in doubt is only the oblique, and the
+#           wordlist settles its shape without being asked: on a disyllabic CVCVC
+#           root, -an is written with the first vowel GONE, **155 pairs to 1** —
+#           `barah` → `brahan`, `barig` → `brigan`, `batul` → `btulan`. `mirit`
+#           + -an under that rule is `mritan`, which is what the generator wrote;
+#           and `mrit`, the bare syncopated stem, is in the lex too.
+#
+#           IT NEEDS TWO RUNGS AT ONCE, AND THE LADDER OFFERS ONE AT A TIME. The
+#           morphology never reached `mirit` — it offered `mrit`, unglossed, and
+#           `rit`, the sound a mouse makes eating — so the vowel has to go back
+#           before anything can be read, which is rung 11. But rung 11 needs a
+#           word-level Chinese to agree with, and his gloss here is a POINTER: it
+#           names MILIT and states no meaning at all. Pointers are rung 15, and
+#           rung 15 requires the pointer to land on a root the morphology found.
+#           Each rung supplies exactly what the other is missing, and a cascade
+#           of single steps cannot take two.
+#   knsbusan
+#           Batch 190. His SIBUS › Knsbusan 甜味—甜—甜或鹹的品質. kn-…-an is the
+#           abstract-quality nominaliser, and the wordlist writes it over a
+#           syncopated CVCVC root **18 to 1**: `busuk` 醉 → `knbsukan`, `biyax`
+#           → `knbyaxan`, `dakil` → `kndkilan`. His root is `sibus` 甘蔗（作物
+#           名）, ILRDF frequency 180 and 28 parquet tokens, and kn-sibus-an under
+#           that rule is `knsbusan` — `busuk` → `knbsukan` is the same shape, the
+#           same affix and the same "the degree of being X".
+#
+#           Zero character overlap for the second time in this batch: 甜味 against
+#           甘蔗 shares nothing, while the ILRDF's own Truku definition of `sibus`
+#           is `hangan pnegalang ngalan qmsiya` — the plant sugar is taken FROM.
+#           The morphology predicts his gloss; the character test cannot see it.
+#           `roots()` meanwhile offered `bus`, the sound escaping steam makes.
+#   tnglaan Batch 190. His TG’LA › Tnglaan 逗留的時間, and his second sentence is a
+#           man delaying in the temple while the crowd waits. Found by searching
+#           the MEANING and not the letters: the ILRDF entry for `gila` is
+#           nothing but a list of its own derivations — 「sgila 因…耽誤」、「sglaan
+#           讓…耽誤」、「sglai 使…耽誤」、「mgila 耽誤」 — and `sglaan` carries
+#           frequency 6. `tgila` is itself an attested modern type, which is his
+#           TG’LA with the apostrophe standing where the i went. The -an form of
+#           this stem syncopates in the family already (`sgila` → `sglaan`), so
+#           `tgila` under the tn-…-an preterite nominaliser is `tnglaan`, his
+#           spelling unchanged.
+#
+#           The refusal was a REAL HOMOGRAPH and not a bad analysis. `tgla` is a
+#           modern word — 鷀, ILRDF note `詞意：sapuh ssalu sinaw`, the yeast
+#           cake wine is made with. `roots()` found a word; it was not his.
+#   pngraq  Batch 190. His `png’laq`, NG’LAQ › Png’laq 使人變傻／把人當白痴. The
+#           root is listed and its ILRDF note states the sense outright:
+#           `詞意：ungat pnegaya ni ungat knkla` 無知 — without manners and
+#           without knowledge. That IS his 傻／白痴, and once again it shares no
+#           character with it. The other sense the entry carries is 比女人陰蒂的
+#           手勢, and it is the one the flat gloss list leads with, so the gate
+#           weighed a rude gesture against his page about fools.
+#
+#           He supplies the confirmation himself: the facing sub-form is
+#           `Pnng’laq`, and he writes `(= Ya bi pnng’laq !)` in his own example.
+#           `pnngraq` IS an attested modern type, and so are `mngraq` (parquet
+#           31), `mnngraq`, `maamngraq`, `pqngraqay`. The paradigm is in the
+#           wordlist end to end; the bare causative is the slot nobody wrote.
+#   ptudu   Batch 190. His `ptudo`, TUDO › Ptudo 培土－築田埂 — *butter —
+#           construire les diguettes*. The root is listed, ILRDF frequency 51
+#           and 11 parquet tokens, glossed 主幹, and the corpus says what that
+#           is in use: `hiyi tudu` 脊椎, `tudu tgbaraw yayung` the upper reach
+#           of a river, `tudu dgiyaq Cung-yang-san` along the Central Range.
+#           `tudu` is the ridge, the spine, the axis; his causative MAKES one,
+#           and a 田埂 is a ridge. Zero character overlap once more (主幹 against
+#           培土／田埂), so the gate had nothing to weigh. The stem takes this
+#           affixation already — `mntudu`, `pntgtudu`, `pltudun`, `ltudun` are
+#           all attested and the bare causative is the unwritten slot.
+#   pkngalan
+#           Batch 190. His ANGAL › Pkngalan 被除去之物——除去時的情形, over a
+#           sentence about slicing a man’s ear off. BOTH SISTER SLOTS ARE
+#           ATTESTED: `pkngali` 讓他拿 and `pkngalun` are modern types, and this
+#           is the -an slot of that same paradigm; `pkngatan`/`pkngatun` write
+#           the pk-…-an shape out on a neighbouring stem. Underneath, `angal`
+#           拿 is parquet 430 / ILRDF 35 and `ngalan` 收到；拿來當 is 136 / 193.
+#           Rung 8 exists for exactly this and could not take it: it asks that
+#           the word be one he printed in a ° paradigm line, and he printed this
+#           one as a sub-form. His 除去 against the wordlist’s 拿 is one
+#           translator’s word against another’s — no shared character, on a word
+#           whose whole paradigm is in the wordlist.
+#   embbuway
+#           Batch 190. His `Mbboai`, BOAI › Mbboai 互相贈與. The confirmation is a
+#           parallel carrying HIS EXACT FOUR CHARACTERS: `embbgay` is in the
+#           ILRDF dictionary glossed 互相贈與, off `bgay`, the common word for
+#           give. So emb- over a give-root means what he says his word means.
+#           His own root is the rarer synonym — `buway` 給, ILRDF frequency 2
+#           with a corpus sentence to itself (`ini buway. ini gealu utux ga.`) —
+#           and emb- + root is the plainest derivation the wordlist has:
+#           `embbaga`, `embbais`, `embbanah`, `embbarah`, `embbeytaq`, `embbgay`.
+#
+#           One trap avoided by asking: `embbeyway` looks like the same word and
+#           is not. `beyway` is 彎曲的；心術不正, so `embbeyway` is 全都成彎曲的.
+#   mtdahu  Batch 190. His `mtdaxo`, DAXO › Mtdaxo 尊敬者——仰慕者, over `Xbalao
+#           bi troko ka mtdaxo sunan` 仰慕你的太魯閣人很多. `dahu` is listed at
+#           ILRDF frequency 101 and 26 parquet tokens, `詞意：mqaras quri
+#           spruun` 讚美, with a culture note that reads like a gloss of his
+#           card: 在太魯閣部落有作為的人，會受到部落族人的誇獎. His 尊敬／仰慕
+#           against 讚美／稱讚 is the same act in two translators’ words — and
+#           not one shared character, the sixth time in this batch.
+#
+#           The t- stem is written across its whole paradigm: `ptdahu` 會讓…驕傲,
+#           `kntdahu`, `emptdahu`, `dmptdahu`, `emptndahu`. `mtdahu` is the plain
+#           AF slot — the one form of the set nobody printed.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
-                pnsmkan""".split()
+                pnsmkan snkiya mskutu mritan knsbusan tnglaan
+                pngraq ptudu pkngalan embbuway mtdahu""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

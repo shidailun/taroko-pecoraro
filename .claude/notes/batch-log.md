@@ -2758,3 +2758,49 @@ places, and the measurement is what says whether you made both.**
 
 Blocked pairs 422 → **412**; deliverable **5,023 / 92.42%**. Dark 44,069 /
 98.0466%, pale 873 → 844, green 34. 16/16, 9/9, 28/28.
+
+## Batch 190 — eleven rulings, one map pin, and a family that convicted its own head
+
+Twelve dossiers off the `gloss disagrees` and `root unglossed` buckets. Eleven
+went to `HAND_RULED`; one was not a colour question at all.
+
+**The refusal pattern that dominated the batch: two glosses that mean the same
+thing with zero shared Han characters.** 因濕冷而發抖 vs 凍僵, 甜味 vs 甘蔗,
+無知 vs 白痴, 主幹 vs 田埂, 拿 vs 除去, 讚美 vs 仰慕. `regular()` requires
+`_agrees()` — a shared character between his Chinese and the root's modern gloss
+— so each of these failed a test it was right about. No widening of the *shape*
+rules reaches this class. Only reading the two glosses does, which is why these
+are hand rulings and not a new rung.
+
+**A word that needs two rungs at once falls through both.** `mritan` wants
+`restored()` to find its root *and* the crossref rung for his pointer gloss; each
+rung supplies exactly what the other is missing, so the cascade — being a strict
+first-match — delivers neither. Worth remembering before adding a rung to fix a
+word: check whether the word needs two.
+
+**`sblangan` was a map question, not a colour question.** It carried an identity
+claim no source supports. Pinned to `smbrangan` 矛 in `manual_map.json` (ILRDF
+freq 42, 11 corpus sentences, and confirmed in the Truku hunting literature by
+web search). One key, one line of `modern_map.js` diff.
+
+**`dlutun` / `dldan` — the family convicted the head.** His DLUT (R)
+磨碎——搓碾——揉皺 sits over a root the map already handles: `dlut`→`drut`,
+`dmlut`→`dmrut`, `mdlut`→`mdrut`, `dnlut`→`dnrut`, `pdlut`→`pdrut`. Two keys kept
+the `l` — `dldun`→`dlutun` and `dldan`→`dldan`, an identity claim — and neither
+value is attested anywhere. `drut` is ILRDF 輾過去／**用手揉起來**, sharing 揉
+with his own gloss outright: search from the meaning, not from the letter.
+
+The vowel was the only open question, and the wordlist splits on it: `brut`→
+`brutun` keeps it, `krut`→`krtun` drops it, and those are exact rhymes of `drut`.
+Shape cannot decide between two words of the same shape going opposite ways. His
+own witness can — he wrote `DLUT` full and `Dldun`/`Dldan` syncopated, which is
+the `krut` alternation. Pinned `drtun` / `drtan`.
+
+**I predicted they would stay pale and they did not.** The syncope rung had been
+in the ladder since long before; it simply could never see the root through the
+`l`. Removing a wrong claim let an existing rung fire — so the gained/LOST
+difference, not the prediction, is what reported the outcome. *A correction is
+allowed to be worth more than you costed it; measure it anyway.*
+
+Blocked pairs 412 → **391**; deliverable **5,044 / 92.80%**. Dark 44,104 /
+98.1245%, pale 844 → 809, green 34. 16/16, 9/9, 28/28.
