@@ -287,3 +287,204 @@ kkakuh	b200  1 pair; 木屐 is not in the register, 鞋 is dapil and 拖鞋 is k
 isoka	b200  NOT a spelling question. He writes "iso ka (isoka)" -- two words the
 #	page may print as one. A token-keyed map cannot emit a space, so this is out of
 #	the map's reach entirely, not a word we failed to find.
+#
+# ---- batch 201: the ONE-PAIR TAIL. Each of these frees exactly one sentence
+# ---- pair, and each was priced before it was worked. Four of batch 200's
+# ---- refusals were RE-OPENED this batch and two came down on new evidence
+# ---- (mulu, mggui, below); the other two stand.
+kahui	b201  1 pair. His KAXOI card is 妓女, and 妓女 returns nothing at all from the
+#	register -- not a shape question, an absent concept. mkahui goes with it.
+mkahui	b201  see kahui. The m- slot of a root no modern source carries.
+tnoxoi	b201  1 pair, K'LAP 捕捉——抓住. His "Tnoxoi ko munan s'xiga" is 我昨天和你們在一起,
+#	which is not the card's own sense, and nothing tnVxVi-shaped is listed.
+pklluyun	b201  1 pair, and his own parenthetical -- "mppkluli ko (pklluyun mo)". The
+#	KLULI card's dark forms are qluli 溺水, pqluli 使之溺水, emppqluli; the -un slot
+#	they imply would be pqlulun or pqluliun, and NEITHER is listed. His parenthetical
+#	names two spellings; the register names neither. Nothing to follow.
+kndutu	b201  1 pair; 手鐲 is sirug. No dutu-shaped word, and a cognate never spells one.
+tgrgri	b201  1 pair; the register's dance root is grig (mgrig, tmgrig, gmrig...). His
+#	TGRGRI/MTRGRI carry an extra r that no member of that family shows.
+mtrgri	b201  see tgrgri.
+lgluq	b201  1 pair; 樹脂 returns nothing from the register.
+rikut	b201  1 pair; 藉口 returns nothing. nprikut and tnrikut are its n- and tn- slots
+#	and fall with it -- three pairs on one absent root.
+nprikut	b201  see rikut.
+tnrikut	b201  see rikut.
+pnnanu	b201  1 pair, and NOT a lexical gap. His line is a series -- Pnbaga ka kingal,
+#	pnngangax ka kingal, pnlb'nao ka iso! Pnnano manu? -- so this is pn- applied
+#	productively to manu 什麼. `manu` is dark; `pnmanu` is not a word any register
+#	lists, because it is a construction, not a lexeme.
+kaon	b201  1 pair, QNOQO 過錯. The register HAS his card's word (qnquan 過失；過錯,
+#	dark) but his k'aon is the other verb in the sentence (我們非常清楚), and no
+#	kaon-shaped word is listed. The card being findable does not make the token be.
+qntqdan	b201  1 pair; 手銬 returns nothing, and tqdan is unlisted.
+dmbasyaq	b201  1 pair; his 饕餮之徒 (SAPAT 放蕩). dmsapat is dark on the card, but this
+#	is a different word in the same sentence, not a slot of it.
+smmul	b201  1 pair; 抱 is the abuh family (keabuh, gmneabuh, empeabuh...). SA'MUL
+#	shares no letters with it.
+qnadi	b201  1 pair; 編織 is tminun. Nothing qadi-shaped carries his 編紮 sense.
+mman	b201  1 pair, STAMA 依靠. "Ini ko bi stama ana mman ka yako" -- ana mman is his
+#	"anyone at all"; ima 誰 is dark but mman is not ima, and nothing lists it.
+qloq	b201  2 pairs, and the honest bucket: lqloq IS listed and dark, so his root is
+#	real -- but the register gives it NO gloss, so there is nothing to run the gloss
+#	test against. Root listed-unglossed (batch 198's middle bucket), not a no-analysis.
+snxelan	b201  1 pair; 嫉妒 is the hkrig family end to end. A different word.
+hbugi	b201  1 pair; 舔 returns only pshpaha. No hbug-shaped candidate.
+teumuk	b201  1 pair; 首領 is bukung, dark and unrelated in shape.
+psqgu	b201  1 pair, and he marks the card ？？ himself. 跳 has 171 forms in the
+#	register and not one is psqgu-shaped; the analyser's offer (qgu 公雞叫聲) is a
+#	rooster, not a leap.
+hlakuh	b201  1 pair, XLAKUX 盾牌－保護、加強、鞏固之物. The string is real -- shlakuh
+#	因…包起來 is listed, so hlakuh exists as its root -- but the register's word for
+#	盾牌 is qrung (tgqrung 好盾牌), and 包起來 is wrapping, not shielding. ONE supporter
+#	on a sense that does not match the card. emphlakuh falls with it.
+emphlakuh	b201  see hlakuh.
+kakuh	b201  1 pair; confirms batch 200's kkakuh refusal. 木屐 is not in the register.
+#	His gloss names the OBJECT Italian (Zoccoli); that is not an etymology, so
+#	HAND_LOANS would be a claim about the word he never made.
+mslangan	b201  RE-OPENED and REFUSED AGAIN. 生鏽 is skringan; nothing changed.
+ayuq	b201  RE-OPENED and REFUSED AGAIN. 腺 gives only biqir 甲狀腺腫瘤.
+graqun	b201  RE-OPENED and REFUSED AGAIN, and now with the family read: the register's
+#	graq- forms are 亂開價 and 剝腸, and 搶奪 is geeluk. His G'LAQ 拿取——奪取 has no
+#	modern member at all.
+shmqan	b201  RE-OPENED and REFUSED AGAIN. 監獄 still returns nothing.
+lngiyan	b201  RE-OPENED and REFUSED AGAIN. langi- in the register is 箭尾鉤 / 聚落 / 王;
+#	his LANGI is 剩下的, and 剩 is the gsprut / awing families.
+smuwan	b201  RE-OPENED and REFUSED AGAIN. sknuwan 什麼時候 is dark and IS his sense,
+#	but s-m-uwan is not s-k-nuwan by any rule the map has, and q<->k / i<->y were
+#	excluded from the char rules deliberately. A sense match is not a spelling.
+#
+# ---- OVERTURNED this batch. A pin comes down when evidence overturns it.
+mulu	b200 refusal OVERTURNED in b201. That refusal weighed `mru` 沾到 against his
+#	沙質地最適合種花生 and rightly rejected it -- but it never asked his own book. He
+#	writes the bare token `malu` 173 times and `mulu` exactly once. 最適合 is 好.
+mggui	b200 refusal OVERTURNED in b201. That refusal was a real dilemma -- his
+#	"Mg'gui (ngagwi)" names the n-grade, negeeguy 應該偷偷 is dark, and the sentence
+#	sense 當小偷 is the m-grade -- and it was resolved by not having to choose:
+#	`mgeeguy` is BOTH the m-grade and LISTED. Neither side is overridden.
+pgagu	b200 refusal STANDS, and this batch adds to it: pggu stays pale because pgagu
+#	is dark on 笛子 while his card is 鴿子. Following it would spread a freeze.
+#
+# ---- batch 201, second pass over the tail.
+sqlaq	b201  1 pair, QLAQ 發癢——搔癢. 癢 is the ghguh / kaguh families (43 forms) and
+#	the register's own qlaq- words are 縫隙, a crevice. Wrong word, twice over.
+sdangan	b201  2 pairs, and he marks the card ？？（詞義不明）himself. His gloss is
+#	上午當中（近中午時分）and 中午 returns NOTHING from the register. The analyser's
+#	offers are danga 養育孩子 and dangi 情人 -- a shape accident on both.
+smllu	b201  1 pair, S"LU 計劃－預謀, his own parenthetical Sm"lu (sml'lu). 決定 returns
+#	nothing from the register; smlug 正巧中獎 is the nearest sense and needs a final g
+#	his spelling has nowhere. His parenthetical names two spellings of a word the
+#	register does not have -- the same outcome as pklluyun.
+spngaw	b201  2 pairs, SM"LU 落到誰身上, his 我們來抽籤. 抽籤 returns nothing.
+snmul	b201  1 pair; the n- form of the smmul refused above. 抱 is the abuh family.
+iniku	b201  1 pair, and NOT a spelling question -- it is `ini ku` 我不, run together.
+#	Third of its class after isoka and kasayang; a token-keyed map cannot emit a space.
+kasayang	b201  1 pair; `ka sayang` run together. Same class as isoka and iniku.
+pkkah	b201  1 pair, ST'MAQ 壓碎. The register HAS his card (pstmaq 使踩爛, qmtmaq 會踩)
+#	but pk'kax is the other verb in the sentence, 被水牛踩到, and 踩 offers nothing
+#	of that shape. A card being findable does not make every token on it findable.
+syuring	b201  2 pairs, and he marks the card ??（意義不明）. His gloss is 皮癬－濕疹－蕁麻疹
+#	and 蕁麻疹 returns nothing. msyuring falls with it.
+msyuring	b201  see syuring.
+rqili	b201  1 pair, TATAT 小狗. 殺 has 91 forms in the register (huqil, galiq, dara,
+#	bsqur...) and not one is rqil-shaped.
+urang	b201  2 pairs, ULANG 反覆發生的－週期性的. 週期 and 慣常 both return nothing; 反覆 is
+#	the ru / brih families. The register's urang- words are durang 套頸陷阱, a snare.
+drbiyax	b201  1 pair, LUDAN 長者. His "Dludan ni drbiyax" pairs elders with 年輕人, and
+#	the register spells that embbiyax / embbrax -- an emb- reduplication, not a d-
+#	plural. His own d- plural is attested for drudan (dark on this card) and nowhere
+#	else; extending it to biyax would be his morphology in modern letters.
+pnnguan	b201  1 pair, L'XLAX 解開. 打結 is embbkuy, and bnkiyan (off bkuy) is already
+#	dark on this very card. pnngoan is a different token in the same sentence.
+mtmuhung	b201  2 pairs, MOXONG （植物的）芽、花苞. 花苞 is puyuy / rapiq / smrungut.
+ubai	b201  1 pair, P'DO ？？ -- he does not gloss the card. 火絨 returns nothing.
+nkllu	b201  the sole-blocker table prices it at 1 pair, but the DOM census finds ZERO
+#	occurrences of it: nothing on the page renders that string. An absent span is not
+#	a pale one (the batch 190 lesson). Not workable, and not a hole either.
+srngiyun	b201  1 pair, SLANGI 剩下的（參見 LANGI）. Falls with lngiyan: 剩 is the gsprut /
+#	awing families and nothing langi-shaped carries it. pnsrngiyan goes with it.
+pnsrngiyan	b201  see srngiyun.
+snuqu	b201  2 pairs, SNOQO 頑皮－愛開玩笑. 頑皮 is mqpuji, 開玩笑 is rnaw / seiyax. The
+#	analyser's nuqu 更好 is the NOQO card next door, a different word.
+tnbiyan	b201  2 pairs, and COVERED BY THE b199 RULING, not re-opened. His TABE 犁 card
+#	is the one that taught the rule now in CLAUDE.md: tbiyan is dark but glossed 下來,
+#	not 犁, so nothing on that card may lean on it. tbiyun falls with it.
+tbiyun	b201  3 pairs; see tnbiyan. The largest single refusal left on the page.
+knhgun	b201  1 pair, TABWI 下坡, his 從他們中間穿過. The register's only 穿過 is lhgan --
+#	itself pale, and off lhug 穿針引線, which is threading a needle. The hgun- family
+#	that does exist is 彎折 / 捲線 / 固定好. A sense that near is still a different word.
+uru	b201  2 pairs, and a HOMOPHONE the map cannot split. In his TAMA sentence olo is
+#	也 -- § Adi biyao matama ka Wilang mo olo 不久我兒子 Wilang 也要當爸爸了 -- and `uri`
+#	也；且 is LISTED and dark. But `olo` is ALSO his own OLO card head, which he glosses
+#	as the possible root of MOLO/POLO 模仿. One raw token, two words; a token-keyed map
+#	would rename the card head to 也 to darken the sentence. Decide slot by slot -- and
+#	when the map has no slots, decline.
+rmngut	b201  the L'NGUT family, 4 sole blockers and 9 occurrences -- the largest single
+#	cluster left on the page, and it refuses on the register, not on the letter. His card
+#	is L'NGUT (LNGUT) 使受孕（用於人類）－受孕, with LUNGUT 使受孕－懷孕 cross-referenced
+#	in his own hand as "L'ngut（lngut）之或". Searched from the meaning: the register's
+#	懷孕 is mshjil / knshjilan / srjingan and its 孕 field is htur 避孕 / ilu 大肚子 --
+#	nothing of that shape. Neither `lngut` nor `rngut` is listed at all; the only thing
+#	near is `prngutan` 有掛鉤, which is a hook. Both letters unattested, so the l→r
+#	crossing the map applies is a guess either way and pale is the honest colour.
+rngutan	b201  see rmngut. 3 occurrences.
+prngut	b201  see rmngut. 2 occurrences.
+pnrngut	b201  see rmngut. 1 occurrence.
+ptqliyun	b201  his QELI card, and he marks it 環繞之物（？）— 一圈、繞行（？） with two
+#	question marks of his own. § Adi so ptqliyun ka tbugan so lodoç xo 你不打算把你的雞舍
+#	圍起來嗎. Searched from the meaning: the register's whole 圍繞 field is ONE row,
+#	`qrian` 被圍繞 — and a single row is not the register's answer, the family is. The
+#	qri- family it sits in reads 削製 / 有刺 / 裝填, and `tqrian` itself is 裝填. The dark
+#	neighbour on his own card acquits nothing either: `tqriyun` is verified at code 8 off
+#	the root `qriyi`, which carries NO gloss at all, so it is dark on a shape. A card head
+#	dark for no reason licenses nothing beside it.
+qlap	b201  a hapax. § Tngoxan mo o, kika xea; Qlap ! 抓住他, on his TONGOX 品嚐－親吻
+#	card, and `qlap` occurs exactly once in the whole book with no card of its own. The
+#	register's 抓住 is `duuy`; the only qlap- shapes it holds are `qlapan` 不能生育的女人
+#	and `maaqlapan` 成老處女, a different root entirely. Nothing to rule from.
+tibasyaq	b201  3 occurrences and one of them his own headword — TIBASYAQ 行為像貪吃鬼
+#	的人＝過分的人？過度地？, with his question marks, over BASYAQ 暴飲暴食. Searched from
+#	the meaning: the register's 貪吃 is hadur / qnaniq / msqnaniq / hiqur, none of them
+#	near his shape, and neither `basyaq` nor `tbasyaq` is listed at all. `bsiyaq` is
+#	LISTED and dark but glossed 久的 — a length of time, not an appetite, and following
+#	that shape would freeze three occurrences onto a homograph. Consistent with the
+#	dmbasyaq refusal earlier in this batch: it is the same word on his SAPAT card.
+yianu	b201  his YAMO card, 人稱代名詞。第二人稱複數，強調形式 — the EMPHATIC 你們, and
+#	`Yiano` occurs exactly twice in the book, both on that card. § Nasi namo kuxul o,
+#	Yiano kana da! 如果你們喜歡，就讓這一切都歸你們. The plain `yamu` 你們 is LISTED and
+#	already dark one slot away, and rendering the emphatic as the plain form would
+#	collapse two slots he wrote separately — the empkduriq refusal earlier in this batch.
+#	Nothing licenses it from outside either: he has no Yiami / Yiaku / Yiso to make it a
+#	paradigm, and neither `yiyamu` nor `yiyami` nor `yiyaku` is listed.
+sm	b201  HE QUERIES IT HIMSELF. § Miyax ko sm(?) sunan 我來親近你, on his DALING 近的
+#	card, and the question mark is in his hand, printed inside the example. Two letters,
+#	no vowel, no card, one occurrence. The generator would drop a vowelless value anyway.
+isuka	b201  see the isoka refusal above — same token. His own text prints the seam:
+#	`iso ka (isoka)`, so the run-on is a typographic accident and the words are two. A
+#	token-keyed map cannot emit a space.
+sruweq	b201  HIS OWN GLOSS IS ？？. The SLOWEQ card carries two question marks where the
+#	definition should be — he did not know what it meant either — and § Sayang o, ini xali
+#	pdui gaya ka sadyaq! Sloweq xali ka lnglongan daxa 今天人們不太遵守 gaya，他們的心
+#	Sloweq 了 is the only thing the book says about it. Neither `sruweq` nor `sluweq` is
+#	listed. The gloss test cannot be run on a word with no gloss; refuse before guessing.
+mngusyeh	b201  his SIRAS (NGUSYEX) 兔唇 card, § Mngusyeh ka quwaq laqi su o, sai pkrut
+#	nhari da 你的孩子有兔唇，快去給他開刀. The register's ONLY 兔唇 is `siras` — which is
+#	the OTHER headword on his own card, already dark, not a spelling of this one. Neither
+#	`ngusyeh` nor `mngusyeh` is listed. Respelling his NGUSYEX to msiras would swap one of
+#	his two words for the other: a synonym never spells a word.
+tqriyan	b201  same card and same refusal as ptqliyun above — his QELI / TQELI 環繞, whose
+#	only register support is the single row `qrian` 被圍繞 against a qri- family that reads
+#	削製 / 有刺 / 裝填. Green rather than pale: the char rules alone produced it from his
+#	`tqliyan`, so darkening it would need a map entry, which is a spelling claim.
+tnqriyan	b201  see tqriyan. § Malu bi tnqriyan su ka kana mtqiri hrpasan laqi.
+thiy	b201  his txey, XNUK. 0 rows in the register and 0 in his own book; its only sentence is already lost to snuk
+snuk	b201  XNUK 釘子釘不牢. 釘子 is samu (LISTED). A lexical substitution, not a respelling
+pdaqi	b201  SPONG. 試探 and 拯救 both return 0 rows; 陷入 returns only sqrbuq 陷入坑洞
+pstui	b201  same SPONG sentence. 脫離 is keanak/teanak. NOT the pstutuy 起身 ruled this batch -- different word, same shape
+tbasyaq	b201  2-blocker tier; its partner tibasyaq refused above on the same card
+nrikut	b201  2-blocker tier; pairs only with krikut, also unattested
+krikut	b201  2-blocker tier; pairs only with nrikut, also unattested
+dmtsapat	b201  2-blocker tier; pairs only with dmtbasyaq
+dmtbasyaq	b201  2-blocker tier; pairs only with dmtsapat
+grand	b201  NOT a spelling question: French metalinguistic text inside a Truku field (his AN card, Paru = Grand)
+grandeur	b201  same -- Knpraan = Grandeur. The denominator keeps these; they are examples that cannot go dark by evidence

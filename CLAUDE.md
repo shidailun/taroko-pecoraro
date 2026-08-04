@@ -101,6 +101,15 @@ These were each learned by breaking something. Evidence for every one is in
   of `mirit` 山羊 until the count came in: he writes `milit` 15× and `nilit` 2×.
   His own text spelled it. Same instrument proved `dbsnawan` an ethnonym —
   `dSbnawan ni dTroko` stands it beside the Truku.
+- **A char-rule contradiction inside one root is a bug, not a variant** (batch
+  201, three of them: `mp'yax`→`mpyah` beside `iyax`, `upsk'la`→`upskra` beside
+  `skla`, and the DLUT crossing). Where `l→r` or `x→h` fires on one slot of a card
+  whose other slots keep the letter, the char rule has overreached — check the
+  siblings before believing the fallback.
+- **A diacritic can be the whole distinction** (batch 201). His `ç` vs `x` is what
+  separates KOYOç 雨 from KOYOX 女人—妻子; `plain()` strips it downstream, so a
+  sweep keyed on shape will cross the two cards. The gained/LOST assertion is what
+  catches it — `koyox → quyux` broke the 女人 card and was reverted.
 - **A single gloss row is not the register's answer; the family is** (batch 200).
   `damat`'s only row reads 恢復原狀, which would have refused `pdmati`; the five
   family members are all 菜餚/配菜 and his card agrees with them.
@@ -108,12 +117,23 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,435. **Currently 96.45%** (5,242). Not token share. A pair is
+  is dark, over 5,435. **Currently 97.61%** (5,305). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
   single type. The occurrence ranking spends effort where the pairs are already
   lost. The 2-or-more-pair tier is now exhausted — ruled or refused in writing.
+- **Every blocker tier is now closed** (batch 201). The sole-blocker tier went to
+  zero open, and the 2-blocker tier behind it — 10 clusters, no recurring word
+  pair — is ruled or refused item by item. The 130 pairs still blocked are held by
+  words with a written refusal, so the next gain has to come from new evidence,
+  not from re-ranking what is already priced. Two of those pairs are not spelling
+  questions at all: his AN card's `Paru = Grand` / `Knpraan = Grandeur` is French
+  metalinguistic text sitting inside a Truku field.
+- **A homograph freeze paints dark AND wrong** — a raw token mapped onto a
+  same-shaped modern word with an unrelated gloss. Batch 201 found **seven**,
+  including his KOYOç 雨 head frozen onto `kuyuh` 女人. They are invisible to every
+  colour metric, because the span is already dark. Only the gloss test finds them.
 - **100% dark is unreachable**, and is the wrong gate to set. Three classes can
   never clear by evidence: grammatical-morpheme cards (MPA 前綴 is a prefix, not
   a word), tier-J loans, and names no register lists.
@@ -121,8 +141,9 @@ These were each learned by breaking something. Evidence for every one is in
   `build_verified.py` as of batch 172. Attestation is not a test a Japanese loan
   can fail — it is one it cannot sit, since no Truku wordlist will ever hold
   `abura` 油 or `budosyu` 葡萄酒.
-- **A word settled by CLASS gets its own colour** (batch 196): names and loans
-  emit code **16** and render `w-mod w-cls`, a deeper brown. The class is
+- **A word settled by CLASS gets its own colour** (batch 196): names, loans and —
+  since batch 201 — onomatopoeia (`HAND_ONOM`, read off his own gloss) emit code
+  **16** and render `w-mod w-cls`, a deeper brown. The class is
   ADDITIVE — the span keeps `w-mod`, so every harness selecting on `w-mod` still
   counts it dark. Emitting them as code 1 said *a source lists this*, and none
   does.
@@ -176,7 +197,7 @@ NOT loaded at session start, deliberately.
 - `.claude/notes/map-history.md` — the modern-spelling map, batches 14–47: tier
   definitions, the idtrap and mirror sweeps, per-class decisions, generator
   invariants.
-- `.claude/notes/batch-log.md` — batches 136–170: the name register, the pale
+- `.claude/notes/batch-log.md` — batches 136–201: the name register, the pale
   census, per-batch adjudications and their DOM measurements.
 - `.claude/notes/app-behaviour.md` — browse/search index, paradigm slot cards,
   display-time typography, crossref collapse, in full.

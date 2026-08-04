@@ -3438,3 +3438,96 @@ word, plus `bnlaxan`/`bnlnaxan` and `s'xiga`/`s'iga`. Chased, not assumed.
 dark 43,832 / 5,956 distinct · class 690 / 268 · pale 376 / 263 · green 34 / 25
 total 44,932 · **brown 99.0875%** · deliverable pairs **5,242 / 5,435 = 96.45%**
 Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0 failures.
+
+## batch 201 — every blocker tier closed, and seven words dark on the wrong meaning
+
+**5,242 → 5,305 deliverable pairs (96.45% → 97.61%). Blocked 193 → 130.**
+13 net manual_map entries, 81 refusals written, one pin lifted, one class added.
+
+The batch worked the SOLE-blocker ranking batch 200 built, then the tier behind
+it. Both are now closed: a filtered re-rank reported **sole blockers total 95,
+open 0**, and the 2-blocker tier — 10 clusters, no recurring word pair — is ruled
+or refused item by item. What still blocks 130 pairs is held by words with a
+written refusal. The next gain needs new evidence, not a new ranking.
+
+### Seven homograph freezes — dark, and wrong
+
+The batch's real finding. A homograph freeze is a raw token mapped onto a
+same-shaped modern word with an unrelated gloss: the span renders dark, every
+colour metric counts it as settled, and it says the wrong thing. No attestation
+test can see one. Only the gloss test can.
+
+- `lungut` → `rungut` 冰雹 — his card is 懷孕. Blocked by an identity pin.
+- `psttui` → root `ttui` 切、剁 — his card is 起身. Ruled to `pstutuy`.
+- `koyoç` → `kuyuh` 女人 — his card is **雨**. The rain family, below.
+- `q'löt` → `qrut`, `mmalox` → `mmlux`, and the bare `mu` — three earlier in the
+  batch, each on the same instrument.
+
+The rule that finds them is the one already written: **run the gloss test on the
+word you are leaning on, before you write the value.**
+
+### The rain family, and the letter that was doing all the work
+
+`koyoç` 雨 → `quyux` should have been a five-key sweep: `npkoyoç`, `knkmoyoç`,
+`nkmoyoç` follow the head. The gained/LOST check came back
+`LOST ['empakuyuh', 'npkuyuh']` — one of those was the freeze coming off, the
+other was a **different card breaking**. He writes KOYOX 女人—妻子—雌性 with `x`
+and KOYOç 雨 with `ç`, and § Mpakoyox so ka yako 即使你說不，你也一定會成為我的妻子
+belongs to the first. `koyox → quyux` was removed; only the ç-side kept.
+`plain()` strips the diacritic downstream, which is exactly why a sweep keyed on
+shape crosses two cards. **Assert gained/LOST on every sweep** — nothing else
+caught this.
+
+### Three char-rule contradictions inside one root
+
+`mp'yax` → `mpyah` sat beside a dark `iyax`; `upsk'la` → `upskra` beside a dark
+`skla` (`empskla` 會趕上 is listed with his own sentence for a gloss); and the
+DLUT crossing from batch 171. In each, `l→r` or `x→h` fired on one slot of a card
+whose other slots keep the letter. That is the fallback overreaching, not a
+variant — check the siblings before believing it.
+
+### Onomatopoeia becomes the third settled class
+
+"names, onomatopoeia, and Japanese loans: i vote for making them dark brown."
+`HAND_ONOM` added to `inflection.py` and plumbed through `build_verified.py`
+alongside `HAND_NAMES`/`HAND_LOANS` — same code **16**, same additive `w-cls`.
+First member is `paaaq`, the noise a felled tree makes, read off his own gloss.
+Attestation is not a test a noise can fail; it is one it cannot sit.
+
+### A pin lifted, on the instrument that set the precedent
+
+`ndiyan` was refused in batch 196 on the grounds that colouring it would claim a
+spelling for his Djian. This batch ruled `dmikat`/`nmikat` on the identical
+instrument — the prefixed slot is ruled because the bare name under it is ruled —
+and `ndiyan → ndiyan` claims only that the n-possessive of a capitalised name is
+not a word any register lists. Landing it took a second edit: the build log said
+`curated keys that never landed [BLOCKED]: 1`, because `lexical_map.json` carried
+a null for it and a null outranks manual by design. **The pin came down with the
+refusal it enforced.** `ddliwis` closed the same family: `liwis` was already a
+hand-ruled name, and his own Chinese reads ddLiwis as Liwis 的朋友們.
+
+### What the 2-blocker tier refused
+
+`thiy`+`snuk` (XNUK 這木頭很軟，釘子釘不牢 — 釘子 is `samu`, a lexical substitution),
+`pdaqi`+`pstui` (SPONG, the Lord's Prayer petition — 試探 and 拯救 return **0**
+register rows), `tbasyaq`, `nrikut`+`krikut`, `dmtsapat`+`dmtbasyaq`. And two
+pairs that are not spelling questions at all: his AN card's `Paru = Grand` /
+`Knpraan = Grandeur` is French metalinguistic text sitting inside a Truku field.
+The denominator keeps them.
+
+`pstui` is worth one line on its own: it is shape-identical to the `psttui` this
+batch ruled to `pstutuy` 起身, and it is a different word. **Decide slot by slot.**
+
+### One test failed, and the test was wrong
+
+`loose179` asserted BUYO's fifth sub-form renders `Kmubui (kmbui?)`. Both
+spellings now map to `kmbuyu`, so `collapsed()` correctly drops a bracket that
+would read "Kmbuyu (kmbuyu?)". The ORDER that test guards — principle 1 — is
+unchanged; only the rendering of slot 5 moved. Expectation updated with the
+reason.
+
+### Closing
+
+dark 43,896 / 6,001 distinct · class 705 / 282 · pale 301 / 197 · green 28 / 20
+total 44,930 · **brown 99.2677%** · deliverable pairs **5,305 / 5,435 = 97.61%**
+Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0 failures, 0 page errors.

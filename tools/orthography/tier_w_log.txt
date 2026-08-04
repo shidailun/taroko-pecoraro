@@ -146,7 +146,6 @@ mpglaxol         empgrahul         mpgrahul         P/class      0     1
 mpkd'la          empkdra           mpkdra           P/class      0     2
 mpkdglil         empkdgril         mpkdgril         P/class      0     1
 mpkdolox         empqdrux          mpqdrux          M/class      0     1
-mpkdolyaq        empkduriq         mpkduriq         M/class      0     1
 mpkiyux          empkiyux          mpkiyux          P/class      0     1
 mpkl'dax         empkrdax          mpkrdax          P/class      0     2
 mpklabu          empklabu          mpklabu          P/class      0     1
@@ -179,7 +178,6 @@ mploqex          empluqih          mpluqih          P/class      0     1
 mplukus          emplukus          mplukus          P/twin       0     1
 mpnanak          empneanak         mpneanak         P/class      0     1
 mpngpong         empngpung         mpngpung         M/class      0     1
-mpnmuon          empnmuun          mpnmuun          R/class      0     1
 mpnxmadan        empnhmadan        mpnhmadan        E/class      0     1
 mpnyeq           empniq            mpniq            P/class      0     1
 mpongo           empungu           mpungu           P/twin       0     3

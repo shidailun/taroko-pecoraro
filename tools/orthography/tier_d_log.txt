@@ -34,7 +34,6 @@ mnpgalup         mnpgealuk        mn-    pgalup           M
 mnpito           mnempitu         mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
 mnqalit          mnqlit           mn-    qalit            A
-mnssl'pong       mnsslupung       mn-    mssl'pong        M
 mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P

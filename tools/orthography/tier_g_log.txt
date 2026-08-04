@@ -5,7 +5,6 @@ k'sul            qsul             ksul           qsul               2 attested
 slongan          slungan          slong          slung              2 derived
 dmnalox          dmnarux          nalox          narux              1 derived
 drbiyax          drbiyax          biyax          biyax              1 derived
-kmalox           kmaluh           kalo           kalu               1 derived
 kmptöting        kmptucing        toting         tucing             1 derived
 kpax             qpah             kpax           qpah               1 attested
 mkmpxeng         mkmphing         pxeng          phing              1 derived
@@ -20,5 +19,4 @@ mslangan         mslangan         slangan        slangan            1 derived
 pnblexan         pnbrihan         blex           brih               1 derived
 ppskngalun       ppskngalun       kngal          kngal              1 derived
 pttaqe           pttaqi           taqe           taqi               1 derived
-qqlang           qkrang           qlang          krang              1 derived
 spktaqe          spktaqi          taqe           taqi               1 derived

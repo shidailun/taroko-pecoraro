@@ -88,7 +88,6 @@ ppyaon           ppyaun           pya            pya            derived
 psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
 psklolun         psqrulun         psklol         psqrul         derived
 psqmai           psqmai           sqmai          sqmai          derived
-psttui           psttui           ttui           ttui           derived
 ptgmaxan         ptgmaxan         gmaxan         gmaxan         derived
 ptlg'li'         ptrgrig          tlgli          trgrig         derived
 ptliingun        ptliingun        tliingun       tliingun       derived

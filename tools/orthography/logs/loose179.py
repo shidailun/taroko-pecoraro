@@ -84,8 +84,13 @@ with sync_playwright() as p:
 
     # --- 4. sub-form order is the derivational one (principle 1) ---
     for q, want in (("K'MUX", ["Skmux", "Pskmux"]),
+                    # The fifth was "Kmubui (kmbui?)" until batch 201 mapped both
+                    # spellings of his parenthetical to kmbuyu; collapsed() then
+                    # drops a bracket that would read "Kmbuyu (kmbuyu?)". The
+                    # ORDER is what this test guards (principle 1), and it is
+                    # unchanged — only the rendering of slot 5 moved.
                     ("BUYO", ["BBuyu", "Bbuyu", "Pkbuyu", "Tnbuyan",
-                              "Kmubui (kmbui?)"])):
+                              "Kmbuyu"])):
         pg.goto(B + "?q=" + q)
         pg.wait_for_timeout(2500)
         got = pg.evaluate("""() => [...document.querySelectorAll(

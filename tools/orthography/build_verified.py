@@ -73,8 +73,8 @@ of the two levels.
 Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
-from inflection import (HAND_LOANS, HAND_NAMES, HAND_NOT_NAMES, HAND_RULED,
-                        HAND_SPOKEN, Inflection)
+from inflection import (HAND_LOANS, HAND_NAMES, HAND_NOT_NAMES, HAND_ONOM,
+                        HAND_RULED, HAND_SPOKEN, Inflection)
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 H = os.path.normpath(H)
@@ -300,7 +300,20 @@ def main():
         loaned_vals = loaned
         seen |= loaned
 
-    class_only = (named_vals | loaned_vals) - seen_before_class
+    # ONOMATOPOEIA — the third class, and the smallest. There is no population
+    # file behind it because his tagger never had a tier for noises: the verdict
+    # is read off the gloss he wrote («Paaak», fait une très grosse pluie), so it
+    # can only live in code. Same argument as the two blocks above — a wordlist
+    # will never hold a rain sound — and the same code 16.
+    onom_vals = {v.strip().lower() for v in
+                 ({mp.get(t) for t in HAND_ONOM} | {ov.get(t) for t in HAND_ONOM}
+                  | set(HAND_ONOM)) if v}
+    if HAND_ONOM:
+        print("onomatopoeia: %d values, all hand-read from his own gloss"
+              % len(onom_vals))
+    seen |= onom_vals
+
+    class_only = (named_vals | loaned_vals | onom_vals) - seen_before_class
 
     # Every value a brown span can display. CLITIC_FORMS hands the word back
     # unchanged, so there the key IS the value.
@@ -540,7 +553,7 @@ def main():
         "// well as forms and a synonym says nothing about how THIS word is spelt.\n"
         "// 16 = SETTLED BY CLASS (%d), and the only code here that is not a rung\n"
         "// of the ladder. Rules 1-15 all ask a wordlist a question. A personal\n"
-        "// name and a Japanese loan cannot sit that test — not fail it, sit it:\n"
+        "// name, an onomatopoeion and a Japanese loan cannot sit that test — not fail it, sit it:\n"
         "// no Truku wordlist will ever hold `abura` 油 or `budosyu` 葡萄酒, and no\n"
         "// register lists every man in a 1977 village. These were already dark,\n"
         "// folded into the attested set and emitted as 1, which said a source\n"
@@ -559,7 +572,7 @@ def main():
     for v in good:
         code = emit[lv[v]]
         if v in class_only:
-            code = 16          # settled by class: a name or a loan, never listed
+            code = 16          # by class: a name, a noise or a loan; never listed
             ncls += 1
         out.write('  "%s": %d,\n' % (v, code))
     out.write("};\n")

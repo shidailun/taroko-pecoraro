@@ -18,6 +18,5 @@ msdxyaq          msthiyaq         msd'xyaq         P        1
 mtlboq           mtrbuq           mtl'boq          P        1
 pnslxgan         pnslhagan        pnsl'xgan        E        1
 pskmux           pskmux           psk'mux          P        1
-qq'lang          qkrang           qqlang           G        1
 sq'ti            sqti             sqti             M        1
 sqdo'            sqdug            sqdo             M        1
