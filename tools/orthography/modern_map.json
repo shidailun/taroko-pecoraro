@@ -8940,6 +8940,10 @@
    "w_was": "mpkduriq",
    "w_how": "class"
   },
+  "mpkmalox": {
+   "modern": "empkmalux",
+   "tier": "M"
+  },
   "mpkuda'": {
    "modern": "empkudaw",
    "tier": "W",
@@ -9750,6 +9754,10 @@
   "msïbus": {
    "modern": "msibus",
    "tier": "id"
+  },
+  "mt'lo": {
+   "modern": "mtru",
+   "tier": "M"
   },
   "mt'lol": {
    "modern": "mtrul",
@@ -23316,10 +23324,6 @@
    "modern": "mshungi",
    "tier": "P"
   },
-  "mt'lo": {
-   "modern": "mtaru",
-   "tier": "P"
-  },
   "mt'xngai": {
    "modern": "mthngay",
    "tier": "P"
@@ -26842,12 +26846,6 @@
    "modern": "empgdgit",
    "tier": "W",
    "w_was": "mpgdgit",
-   "w_how": "class"
-  },
-  "mpkmalox": {
-   "modern": "empkmarux",
-   "tier": "W",
-   "w_was": "mpkmarux",
    "w_how": "class"
   },
   "mpknalox": {

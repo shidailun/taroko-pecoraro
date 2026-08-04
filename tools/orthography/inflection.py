@@ -291,11 +291,48 @@ BOILER = re.compile("的詞根|詞根|動詞形|動詞|名詞|同上|之詞|形�
 # Ruled out of scope by hand over batches 100–109. The tier logs cover names
 # the digitization tagged, but a name reached only through an example sentence
 # never got a tag — OTUN 秋（Otun）家 and TAOLAN 陶蘭 are in his sentences only.
+#
+# Three more in batch 197, and all three carry one of his prefixes, which is why
+# no tagger caught them and why name_population.json — a generated file, not a
+# place to write by hand — could not hold them. § Mksipao ka dTome 「Tomé 和他的
+#家人住在對面」: d- is his collective, the man plus his household, and the corpus
+# writes the bare name tumi 16 times. § Saon namo smku knuwan ka skBoxil 「你們
+# 什麼時候要去埋葬 Borhil 的遺體？」 and § SkTadao 「已故的 Tadao」: sk- is glossed
+# on his own SK card as the second sense, *feu*, the late — a prefix he says is
+# reserved for humans named or titled. boxil is already in the population as a
+# bare name and the ILRDF registry lists both bowxil and tadaw. A name with a
+# prefix on it is still a name, and no wordlist will ever list the prefixed form.
+#
+# Two more of the same kind. § Ongat xeni ka dBiyang da; wada tx'dil da! 「Biyang
+# 一家不在這裡了；他們已經搬走了。」 — biyang is in the population and the registry
+# both, and this is the collective d- again, the family of. § N'ima ka libul nii?
+# NDiyan xo? … Adi! N'yako! 「這些褲子是誰的？是 Djian 的嗎？……不！是我的！」 — n-
+# is the possessive his YAKO card is written to explain, and Djian is the man his
+# GALUP card names as the one who made the peace. Neither prefixed form is
+# listed, and neither ever will be.
+#
+# ndiyan was written here and taken out again, and the reason is worth keeping.
+# It is not pale — the DOM says w-raw, green, because his spelling contains no
+# o, l or x and the char rules hand it straight back with no map entry at all.
+# A name in HAND_NAMES that is not a map value is inert, so the only way to
+# colour it would be an identity entry in manual_map, and that entry would be a
+# claim: that the modern spelling of his Diyan is diyan. His French writes the
+# man Djian, and the modern register spells that sound with c or j as often as
+# with d. One occurrence is not worth a spelling verdict we cannot back.
+#
+# nkmurisaka and dmurisaka finish a job this list started: murisaka and
+# mkmurisaka were ruled names long ago, and the other two prefixed forms of the
+# same place were left pale. His own MK card translates it — § Mkmorisaka ka
+# yako 「我是森坂人。」 — so Morisaka is 森坂, the Japanese-era name of the village,
+# and he uses it as one: alang Morisaka, mkMorisaka the people of it, nkMorisaka
+# whose it is, ddCristo mkMorisaka its Christians. mk-, nk- and dm- over a place
+# name are three slots of the same word, and a wordlist lists none of them.
 HAND_NAMES = """sibal liwis mikat ingay lauken tatu talan banan lobyaq lubyaq
 opic upih sikat imin timin tain pilin akit dloan lautan hidi eku tsay puti
 stbaku mici dcristu tensu semento kodyo kaityo diko diku cristo yordan xelyo
 xatso xaibyo tanso tenso tagahan murisaka mkmurisaka sitang efunang aman atwi
-atuh denki banasi otun utun taolan taulan""".split()
+atuh denki banasi otun utun taolan taulan
+dtumi sktadaw skbowxil dbiyang nkmurisaka dmurisaka""".split()
 
 # SPOKEN FOR BY THE INFORMANT — a fifth kind of evidence, and the only one on
 # this page that is not a document (batch 159).
@@ -1208,7 +1245,169 @@ HAND_SPOKEN = """nta""".split()
 # in both shapes — the full pskingal and the syncopated kngalun, also listed — so the
 # stem skngal- of his form is the register's own, and kingal 一 and skingal 專一 stand
 # behind both. What his doubled pp- adds is the second causative, one heart made of two.
-HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
+# nskkuyuh (b197). KOYOX › Skkoyox 亡妻——已故的（妻子）, § Nskkoyox mo ka lukus gaga
+# 「那些衣服是我亡妻的。」 Both parts are the register's. `kuyuh` is listed at 1,357 and
+# glossed 女性;女人;女生;太太;婦女, `kkuyuh` is listed as its reduplication, and `ns-` is
+# productive over the whole wordlist in exactly his sense — nsbiyaw 以前的, nshiga 昨天的,
+# nsgbiyan 昨天傍晚的, 34 forms of it. The gate refused on characters alone: his 妻子
+# against their 太太 is the same woman spelt with different Han, and the 亡 that makes the
+# word is carried by the prefix, which no lexicon glosses because no lexicon lists an
+# affix. Nothing here is a question about Truku.
+# mrangah, nrangah (b197). LANGAX › Mlangax 大開的、敞開的 — *grand ouvert, béant* —
+# § Mlangax bi ka l'xngun sapax na 「他家的門大開著。」 and § Ida nlangax ka npaqan daxa
+# baga mo 「他們在我手上弄出的傷口還敞開著。」 `rangah` is listed at 15 and glossed by no
+# table at all, which is the whole block; the corpus glosses it in sentences instead, ten
+# of them, and they agree: 樹洞, 坑, 大空穴, 洞. A hollow is what béant describes from the
+# other side — his door stands open like a cavity and his wound is one. Searched from the
+# meaning as well as the letter: nothing of the shape langa-/mlanga- exists in modern
+# Truku, and the words that carry 張開／敞開 are a different root end to end (ngaha 開口,
+# kngaha 在張開, msaqa 張開), none of which his letters can reach. One root, attested,
+# with the sense read off the corpus rather than off a gloss table that never wrote one.
+# nsrijil, pnsrijil (b197). LIDIL › Mslidil 歪斜地站著的人 and › Pslidil 使之變歪、變扭曲.
+# `srijil` and `psrijil` are both listed and both unglossed; the glossed member of the
+# family is `mrijil` 使彎曲, which is his 使之變歪 with 曲 shared outright and the causative
+# in the same place. The homophone is real and is decided slot by slot: `qrijil` 女人,
+# `mkmqrijil` 成為某人的太太, `tmqrijil` 好女人 are a q- root about wives, and his card is
+# about a beam nobody wanted crooked.
+# mnspruq (b197). LOQ › Msploq 會爆裂的－會爆炸的, § Mnsploq s'xiga ka txoan mo 「我的爐灶
+# 昨天爆炸了。」 `mspruq` is listed and unglossed, so the gate had nothing to agree with;
+# its own family says the word twice over, and the two supporters are independent —
+# pnspruq 被爆破 shares his 爆 and qqpruq 快破裂了 shares his 裂, one a passive and one an
+# imminent. Behind them pruq 洞 and empruq 破洞: what bursts leaves a hole.
+# pnskngalan (b197). KINGAL › Pskngalan （促成的）重新合一——被聚合起來的事物, and his
+# own parenthesis names the sibling: Snkngalan = the spontaneous one. § Pnskngalan
+# Pexo ka kana xxei alang ta 「我們村裡所有的人都被佩霍凝聚在一起。」 The analyser stops
+# at skngali — listed, freq 2, glossed nowhere — exactly as it did on ppskngalun last
+# batch, and for the same reason: it never reaches pskingal 合一；成為一致, which is
+# listed at 16 and glossed in the Bible glossary. His 重新合一 and that 合一 are the same
+# two characters, not a shared one. kngalun is listed too, so the syncopated stem
+# skngal- is the register's own shape and not our contraction, and kingal 一 / skingal
+# 專一 stand behind both. pn- -an is the ordinary past locative of the p- causative: what
+# was made one. One slot over from a word this file already ruled.
+# mnpgealuk (b197). GALUP › Mpgaluk (mpgalup) 作為橋樑的人——致力促成合一、建立團體的人,
+# § Diyan ka mnpgalup dxeaan 「是 Djian 使他們和好的。」 with his own note that the word
+# designates a Catholic priest. The p→k is HIS: he prints Mpgaluk beside mpgalup and a
+# tag that names the fuller form is evidence, not a guess. The register writes the p-
+# shapes of this root with the schwa — pgealuk 2, pggealuk 6 in the spoken corpus — so
+# the map's value is the modern spelling of exactly the shape he wrote; what it is not
+# is glossed, and that is the whole block. The gloss sits on the other side of the same
+# root: empgaluk 神父, which is his ethnographic note verbatim, beside mgaluk 要連接,
+# mggaluk 相互連絡 and pneggaluk 建立邦交 for his 促成合一、建立團體. galuk itself is
+# glossed 衣扣, a button — the fastener sense of the same join — and a head glossed on
+# one narrow sense is what batch 148 refused to let outvote its own family. mn- is the
+# past of the m-/p- pair, a slot and not a new lexeme.
+# pnkltudan (b197). LUTUT › Pkltudan (Pnkltudan ?) 被慰藉、恢復元氣的狀態, § Biyoq onoç
+# nilit ka suyang bi pnkltudan 「羊奶是極佳的補品。」 and § Sinao ! Kia ka ngalun daxa
+# pnkltudan 「酒！那就是他們尋求慰藉的地方！」 Two sentences on one form, which is why it
+# was worth the reading. The analyser reaches ltudan — listed, freq 1, glossed nowhere —
+# and stops there. Every part of the word is the register's own and glossed around it:
+# lutut 連結／親戚 at 70 is his own head gloss 親屬（親戚關係）－有關聯－相連 in the same
+# two characters, ltudun 接着, pltudun 接；連接 and pltudaw 讓…接上 gloss the syncopated
+# stem, pltudan is listed at 2 and pnltudan at 24 — his exact slot, one k short. That k
+# is his causative and it is the register's too: pklutut is listed at 12, and this file
+# already hand-ruled empklutut off it. What the -an locative names here is where the
+# joining lands on a person, which is his card's whole argument — 相連 is what family is,
+# and being held together is what comforts. Nothing in the word is ours.
+# kmpspusu (b197). PUSU › Snpusu 奠立－作為源頭、根源、起源、根基, § Adi so kmspusu
+# (kmpspusu (?)) bulax kdusan ta xo? 「你難道不願意樹立我們新生活的榜樣嗎？」 His own
+# parenthesis is the hesitation of a man writing down what he heard twice; both shapes
+# are on the page and the map renders the one he printed. pspusu is listed at 2 and
+# glossed nowhere — the block — while pusu itself is listed at 958 and glossed 主要的，
+# 根本的, sharing 根 with his 根源 and 根基 outright. km- over a p- causative is the
+# ordinary "become / act as", which is precisely his 使自己成為…核心.
+# sshgan (b197). SAXOG › Ss'xgan 用來舀取的－供舀取用, § Blaxao so bi, byeqe ko ana manu
+# ss'xgan mo bugo 「請給我個能舀湯的東西。」 The analyser offers shgi, listed at 4 and
+# glossed nowhere, and gets no further. The root is glossed one syllable away: sahug
+# 水瓢(舀水用) is the dipper itself, smahug its actor voice, and shgi / shgani are the
+# register's own syncopated slots of the same word — sa·hug losing its first vowel is
+# what his elision mark writes. His 舀 is in their 舀水用 literally. The reduplicated s-
+# is the instrumental of instruments, which is why his gloss says 用來舀取的 and not 舀.
+# Checked the homophone before ruling: sahu 毒害 is a different root and no part of this.
+# ndmpatas (b197). SADYAQ › Mpsado 工人－受薪者, § Uxai nami ndmpatas ka yami; dmpsado
+# yami ka yami 「我們不是讀書人，我們只是（勞力）受薪者而已。」 The word he needed for the
+# contrast is the one the gate cannot see: dmpatas is listed at 4 and glossed nowhere,
+# and n- is his negated-attributive slot. patas 信 at 737 and empatas 在…讀書 at 105 are
+# the same root read as document and as schooling, with mkmpatas 想讀書 and sppatas 要讀書
+# behind them; dm- is the register's own agentive plural — dmpatas is those people, and
+# his French says *intellectuels* while his Chinese says 讀書人, which is 讀書 with a man
+# on the end. A sentence that exists to deny a class still names it.
+# smhngi (b197). SISIL — the omen bird — § Taya knsuyang sisil ta! Ilil xa, sisil ta!
+# Smx'nge so? 「我們的 SISIL 對我們多麼有利啊！牠在左邊，對吧！你還記得嗎（＝你忘了嗎）？」
+# The analyser cuts sm-hng-i and hng is nobody's root. The register writes this word nine
+# times and glosses it every time: shngii 忘記 41, shngiun 忘記 22, shngian 忘記了 26,
+# shngiaw 要忘掉, shngia 不要忘, shngiay 要忘, beside shngiyan, shngiyun, snhngian and
+# phngi 16. Those are the s- forms; his is the same stem with the actor infix, which is
+# the one slot of it no wordlist happens to print. The agreement is his own sentence
+# gloss, and this is the shape pdrut was refused for — so it is worth saying why it is
+# not that shape: there the shared 去 was an incidental verb of motion in a long clause
+# about millstones. Here the clause IS the word, a two-word question whose only verb is
+# this one, and his parenthesis translates it 忘了 against a family glossed 忘記 nine
+# times. A gloss that thin can still be the whole sentence.
+# snsikan (b197). SSIK 掃帚－掃地的動作, § Snalu so manu ka ssik so? Tayal knmalu ka
+# snsikan na! 「你的掃帚是用什麼材料做的？它掃得真好！」 sika is listed at 1 and glossed
+# nowhere, and siku is the other reading the analyser offers. The gloss is in the corpus
+# instead of the table: smsik is listed at 18 and its sentences say 我在掃地 and 我掃好了,
+# which is his 掃地的動作 character for character. snksikan 3 and sngksikan are the
+# register's own sn-…-an of the same root — his exact slot with the k of the causative —
+# and sksikay 讓…清理 sits behind them. What was swept, and where.
+# dtduling (b197). TDOLING 指頭（手指與腳趾）, § Kana dtdoling o, tama ka mq'tol balae
+# 「在所有手指當中，拇指最粗。」 This one the register settles by naming him: tluling is
+# listed at 30 and glossed 腳趾（與tduling 同義） — the gloss itself says his spelling is
+# the synonym, so the word is not a respelling of ours but a variant the wordlist prints.
+# tduling is listed too, at 1, with no gloss of its own, which is the only reason the gate
+# stopped. stduling 大手指 is the thumb, which is what his sentence is about, and
+# pstluling 善用手指 and tmtluling 專修手指 stand round it. d- is the collective his card
+# uses for a set of people or parts — kana dtdoling, all the fingers there are.
+# mtru (b197). T'LO › Mt'lo 第三次（現在）, § Mt'lo sayang da; adi ko bi da! 「現在已經
+# 是第三次了；我真的不能再接受了！」 The map had been restoring the vowel his elision mark
+# says is absent and landing on `taru`, listed at 10 — and all 31 of that token's corpus
+# sentences are Ta-ru, a syllable of the transliterated 大陸 in a history text. Not a
+# Truku word at all, which makes the old value the batch 171 freeze exactly: a homograph
+# holding a slot. Respelled to mtru in manual_map: tru 三；三個 is listed at 497 and is
+# his 第三次 with the character shared outright, l→r is his commonest correspondence, and
+# the register writes m- over this very numeral in mtrul 三十 at 108. Hand-ruled because
+# mtru is the bare count and the wordlist prints only the decade.
+# msthulang (b197). TXOULANG › Stxoulang 自負的－裝作首領、上司的樣子, § Xmut so
+# mstxoulang ka iso 「你只不過是個自負的人（愛逞能）。」 thulang is listed at 4 and glossed
+# nowhere, which is the block; the one gloss the root has anywhere is psthulang 自大, and
+# it is his letters exactly with the other causative. Found by searching from the meaning
+# rather than the letter: asked which modern words carry 驕傲|傲慢|自大|自負 and got twelve,
+# eleven of them dahu, sparu and smpraw shapes, and this one. 自大 and 自負 are the same
+# vice with a different second character — the nskkuyuh case, where 妻子 and 太太 were the
+# same woman — and the shared 自 is the head of both compounds, not an incidental hit.
+# dtanah (b197). XKE — his sentence-final particle card — § Mngongo ka dtanax tunuç!
+# Nasi mk'la tunuç ka llisao troko dga … 「日本人心裡不安！若太魯閣的年輕人受了教育…」
+# tanah is listed at 5 and glossed by no table, and the sentence gloss says 日本人, which
+# agrees with nothing because it is not a translation of the word. The corpus has the
+# phrase itself: 「Tanah tunux」 glossed 「紅頭」, red heads, which is what Truku calls the
+# Japanese and what his dtanax tunuç is. So the word is 紅 and the ethnonym is the phrase,
+# and d- is the collective this batch has now ruled three times — dtdoling all the
+# fingers, dTome the household, dBiyang the family. The people with the red heads.
+# empkmalux (b197). XEDAO › Txedao 出太陽－曬太陽, § Ya usa txedao da! Mpkmalox so kia!
+# 「別再去曬太陽了！你會把自己弄病的！」 The map had l→r and produced empkmarux, whose root
+# is listed at 0 with no gloss and no corpus sentence at all; the analyser then cut it to
+# lux and reached nothing. Searched from the meaning — 生病|病痛|得病 returns fourteen
+# forms, thirteen of them narux shapes and one that is not: mnalux 生病, listed at 4, with
+# two corpus sentences that translate it 你已經病了一週了 and 生病的爸爸. That is his malox
+# with the l standing, and batch 168 measured this letter — 1,151 of his l become r and
+# 1,275 stay, a coin flip no rule can call, so the gloss calls it. Respelled in
+# manual_map to empkmalux; pk- is the causative pknarux 使…生病 uses on the other sickness
+# root, and his sentence is that causative exactly: the sun will make you ill.
+# treura (b197). The largest single pale word left on the page, 13 occurrences, and it
+# came off the census rather than off the blocker list — blockers.py ranks by sentence
+# pairs, and this one is spent on headwords, sub-forms and crossrefs. LUULA › Tluula
+# 公開地－眾所周知－在眾人目睹與知悉之下, with its own TLUULA card repeating the gloss and
+# § Manu ka saan so ngangot? Ya bi tluula mksa da! The stem is the register's, and the
+# alignment is exact: his Mtluula against mtreura 明顯, listed at 7 — mt-l-uu-l-a to
+# mt-r-eu-r-a, both his l become r, his uu is their eu. Around it the same root is
+# glossed four more times: mteura 公開的 3, pteura 很明顯的 19, steura 清楚的, pnteura 4,
+# and his 公開 is the first of those character for character while his 眾所周知 is the
+# rest of them. The t- form he writes is the one slot no wordlist prints, which is the
+# only reason the gate never saw it.
+HAND_RULED = """treura msthulang dtanah empkmalux
+                smhngi snsikan dtduling mtru
+                pnkltudan kmpspusu sshgan ndmpatas
+                pnskngalan mnpgealuk nskkuyuh mrangah nrangah nsrijil pnsrijil mnspruq ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
                 pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan
                 tmgila tngila kntglaan

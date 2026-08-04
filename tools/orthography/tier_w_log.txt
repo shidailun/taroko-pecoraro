@@ -155,7 +155,6 @@ mpklabu          empklabu          mpklabu          P/class      0     1
 mpklamil         empkramil         mpkramil         P/class      0     1
 mpklutut         empklutut         mpklutut         P/class      0     2
 mpkluulus        empkreurus        mpkreurus        P/class      0     2
-mpkmalox         empkmarux         mpkmarux         R/class      0     1
 mpknalox         empknarux         mpknarux         R/twin       0     1
 mpkpakox         empkpakux         mpkpakux         P/class      0     1
 mpkparo          empkparu          mpkparu          P/class      0     1

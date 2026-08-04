@@ -109,3 +109,68 @@ ddjilun	b196  his dddilun, DIDIL › Pdidil 使人用手提 § Klxangi balae! dd
 #	djilun, ddjil and ddjilun and holds none of the five. Two unglossed listings are a
 #	shape hit, and a shape hit is not evidence — there is no gloss to agree with his
 #	用手提, so nothing here can be tested. His reduplicated ddjilun is not listed either way.
+pdrut	b196  dark on 去, refused; the agreement was his example sentence
+#	his 使人碾磨 against drut 用手揉起來／輾過去 shares no character. rule 2 took
+#	the 去 of 我沒時間去請人磨小米 against 輾過去 — a man with no time to GO and a
+#	millstone rolling OVER. In HAND_NOT_REGULAR; dom171.py pins it pale again.
+smuwan	b197  the root is a name in the corpus, not a word
+#	SIWAN › Smuwan, from his sentence about time. The analyser's root suwan has freq 27
+#	and every one of those sentences is a person — the Suwan of the Sanpuy story, capital
+#	S. Modern Truku says "when" with knuwan (219), which his letters cannot reach from
+#	smuwan. A homograph with a high count is the bitaq trap exactly: shape plus frequency
+#	is not evidence, and here the gloss the frequency carries is a man's name.
+embuyan	b197  root listed, unglossed, and the family points somewhere else
+#	his Mbuyan. buya is listed at 2 with no gloss; its glossed relatives are 肢解 and pig
+#	husbandry, and the belly words of the register are nbuyas / smbuyas, a different
+#	shape. buyan itself has zero corpus sentences, one occurrence in entries.js and no
+#	card of his own to read it off. Nothing to agree with, from either side.
+emplxan	b197  no modern word of that shape carries "easy"
+#	his Mpl'çan. lxan is listed at 2, but its glossed siblings lxani 要放棄 / lxanay
+#	不要放棄 belong to lax, the abandoning root, so the listing is a homograph and the
+#	id tier froze the x on it. Searched from the meaning as the method says: 容易|簡單|
+#	好懂 returns only mneg- statives, and 輕鬆|不難|簡易 returns mkmbrang, mtrawah,
+#	pslhkah. The lh- shapes his x could become are all lhkah 輕看／輕 and lhang 光照 —
+#	light in weight and light in the room, neither of them his word. No candidate.
+mtmagu	b197  the root is listed, glossed by nobody, and the meaning search lands elsewhere
+#	TMAGO › Mtmago 驕傲的－自命不凡的－傲慢的人 § Mtmago o, ida mo ptingun 「那些自命不凡的
+#	人，我想把他們扳倒。」 magu is listed at 2 with no gloss and has two corpus sentences,
+#	neither of them translated. Searched from the meaning: the register's pride words are
+#	dahu (mgdahu, ptdahu, skdahu, dhdahu 所有傲慢的), sparu (psparu 驕傲 36), smpraw
+#	(mnegsmpraw 非常傲慢) and thulang (psthulang 自大) — twelve forms, not one of them a
+#	shape his tmago can reach. His own book has the dahu root on its TDAXO card, already
+#	ruled. This is a second pride word the modern register does not carry.
+sapi	b197  no support of any kind
+#	TOTING › Tmoting § Ga tmoting sape ni palex ni poting ka Tain 「Tain 正忙著打鐵，製作
+#	鎬、鋤和刀。」 palex is parih 小鋤頭 and is fine. sape is not: zero corpus sentences,
+#	nothing in the e-dictionary, not tagged a loan, and the only listed neighbour is sapil
+#	切菜墊, a chopping board with a final l. A meaning search for 鎬|圓鍬|鏟子 returns
+#	nothing at all — the register has no word for the tool, so there is nothing to test
+#	his against.
+#	--- b197 census sweep: the pale words with three or more occurrences, priced ---
+#	The blocker list ranks by sentence pairs, so a word spent on headwords and crossrefs
+#	never appears on it. Ranked the DOM's pale spans by occurrence instead and worked the
+#	head of that list. treura (13) was ruled. These were not:
+rngut	b197  15 occurrences across rngut, rmngut, rngutan — no root of that shape
+#	L'NGUT (LNGUT) 使受孕－變得能受孕, § Ya lmngut so pax sknuan? 「你懷孕多久了？」 and
+#	› Lngutan 被受孕－懷孕. Searched 懷孕|受孕|孕 and the register answers with one root:
+#	mshjil 懷孕 71, knshjilan 懷孕 6, srjingan 剛懷孕的, plus the avoidance words on htur.
+#	Nothing of the shape rngut/lngut exists; the rngat that does is 呻吟;喊叫聲, a groan,
+#	and rngatan is 擄掠的地方. The largest honest hole on the page.
+klulu	b197  7 occurrences; the meaning is there and the shape needs two changes
+#	KLULU 爬牆虎（用來指我們葡萄園的葡萄藤）, § Kingal pusu klulu 一株葡萄藤, § Sinao klulu
+#	葡萄酒. Searched 葡萄 and got exactly one word: tlulug 葡萄, listed at 6, with two Bible
+#	sentences behind it. The root lulug is listed too, unglossed. But his form is k-lulu
+#	and theirs is t-lulug — a different prefix AND a missing final g, and we hold no rule
+#	that turns his k into their t. A gloss that agrees cannot spell a word.
+qrip	b197  6 occurrences, no support of any kind
+#	his kalip/qalip, KMALIP 剪（紙、布、線……）. The wordlist has nothing matching qrip,
+#	qlip, klib or qalip — zero forms. Nothing to test.
+msnoxel	b197  5 occurrences; the jealousy root is somewhere else entirely
+#	› Msnoxel 嫉妒的人－懷有妒意的人, § Ida bi msnoxel ka ddLiwis! Searched 嫉妒|妒|羨慕 and
+#	got 42 forms over two roots, hkrig 忌妒 and seura 羨慕 (the same eura stem treura was
+#	ruled on, in its envy sense). Neither is a shape his noxel can reach.
+ksudan	b197  4 occurrences; the shuttle is gikus and his is not
+#	KSUDAN › Ksudan waray 織布用的梭子, with his own § 我的日子比織布者的梭子還要快 — Job
+#	7:6, and the Bible is where the word would be if we had it. Searched 梭 and every one
+#	of the nine hits is gikus (tmggikus 製作梭, dmptgikus 做梭者). His suda/sudu root
+#	reaches sudu 垃圾;輕的 and nothing that weaves.

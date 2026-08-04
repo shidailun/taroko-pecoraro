@@ -2,13 +2,13 @@
 
 # Sole blockers, by what a ruling would buy
 
-290 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
+262 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
 | gloss disagrees | 7 | 9 |
-| no root | 201 | 236 |
-| root unglossed | 32 | 32 |
+| no root | 198 | 231 |
+| root unglossed | 9 | 9 |
 | sentence gloss only | 10 | 13 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
@@ -175,7 +175,7 @@
 - his: 得獎的是他；我嘛，排在他後面很多。
 
 
-## root unglossed — 32 types, 32 pairs
+## root unglossed — 9 types, 9 pairs
 
 ### ddjilun — 1 pair
 
@@ -184,79 +184,6 @@
 - 中 要特別小心！這個要用手提，不可背在背上。
 - `d-djilun` → **djilun** (no gloss)
 - his: 要特別小心!這個要用手提,不可背在背上。
-
-### mnpgealuk — 1 pair
-
-- under **GALUK**
-- § Jiyan ka mnpgealuk dhyaan.
-- 中 是 Jiyan 使他們和好的。(此詞用來指天主教神父。老一輩的人很懂這個詞，但它常被——尤其是年輕人——換成漢日語詞：Simpu = 神父（靈性之父）。)
-- `mn-pgealuk` → **pgealuk** (no gloss)
-- his: 是 Djian 使他們和好的。(此詞用來指天主教神父。老一輩的人很懂這個詞,但它常被——尤其是年輕人——換成漢日語詞:Simpu = 神父(靈性之父)。)
-
-### pnskngalan — 1 pair
-
-- under **KINGAL**
-- § Pnskngalan Pihu ka kana hyhiyi alang ta.
-- 中 我們村裡所有的人都被佩霍凝聚在一起。
-- `pn-skngali-an` → **skngali** (no gloss)
-- his: 我們村裡所有的人都被佩霍凝聚在一起。
-
-### nskkuyuh — 1 pair
-
-- under **KUYUH**
-- § Nskkuyuh mu ka lukus gaga.
-- 中 那些衣服是我亡妻的。
-- `ns-kkuyuh` → **kkuyuh** (no gloss)
-- his: 那些衣服是我亡妻的。
-
-### mrangah — 1 pair
-
-- under **RANGAH**
-- § Mrangah bi ka rhngun sapah na.
-- 中 他家的門大開著。
-- `m-rangah` → **rangah** (no gloss)
-- his: 他家的門大開著。 ／ 大開的、敞開的。
-
-### nrangah — 1 pair
-
-- under **RANGAH**
-- § Ida nrangah ka npaqan dha baga mu.
-- 中 他們在我手上弄出的傷口還敞開著。
-- `n-rangah` → **rangah** (no gloss)
-- his: 他們在我手上弄出的傷口還敞開著。
-
-### nsrijil — 1 pair
-
-- under **RIJIL**
-- § Ma su nsrijil tluung?
-- 中 你為什麼歪著身子坐？
-- `n-srijil` → **srijil** (no gloss)
-- his: 你為什麼歪著身子坐？
-
-### pnsrijil — 1 pair
-
-- under **RIJIL**
-- § Hnuya bi ka pnsrijil su erut gaga?
-- 中 你（為了什麼原因）要把這根樑弄歪呢？
-- `psrijil` → **psrijil** (no gloss)
-- `pn-srijil` → **srijil** (no gloss)
-- his: 你（為了什麼原因）要把這根樑弄歪呢？
-
-### mnspruq — 1 pair
-
-- under **RUQ**
-- § Mnspruq shiga ka thuan mu.
-- 中 我的爐灶昨天爆炸了。
-- `mspruq` → **mspruq** (no gloss)
-- his: 我的爐灶昨天爆炸了。
-
-### pnkltudan — 1 pair, 1 more shared
-
-- under **LUTUT**
-- § Sinaw! Kiya ka ngalun dha pnkltudan.
-- 中 酒！那就是他們尋求慰藉的地方！
-- `pnk-ltudan` → **ltudan** (no gloss)
-- his: 羊奶是極佳的補品。 ／ 被慰藉、恢復元氣的狀態。 ／ 酒！那就是他們尋求慰藉的地方！
 
 ### emplxan — 1 pair
 
@@ -274,14 +201,6 @@
 - `suwan` → **suwan** (no gloss)
 - his: 你什麼時候來的？……剛剛——不久前。
 
-### kmpspusu — 1 pair
-
-- under **PUSU**
-- § Aji su kmspusu (kmpspusu (?)) bgurah kdusan ta hu?
-- 中 你難道不願意樹立我們新生活的榜樣（一個榜樣）嗎？
-- `km-pspusu` → **pspusu** (no gloss)
-- his: 你難道不願意樹立我們新生活的榜樣（一個榜樣）嗎？
-
 ### embuyan — 1 pair
 
 - under **QUSUL (Q'NAO)**
@@ -289,79 +208,6 @@
 - 中 常吃大蒜的人肚子裡不常有蛔蟲。
 - `em-buya-an` → **buya** (no gloss)
 - his: 常吃大蒜的人肚子裡不常有蛔蟲。
-
-### ndmpatas — 1 pair
-
-- under **SADU**
-- § Uxay nami ndmpatas ka yami; dmpsadu yami ka yami.
-- 中 我們不是讀書人，我們只是（勞力）受薪者而已。
-- `n-dmpatas` → **dmpatas** (no gloss)
-- his: 我們不是讀書人，我們只是（勞力）受薪者而已。
-
-### sshgan — 1 pair
-
-- under **SAHUG**
-- § Brahaw su bi, biqi ku ana manu sshgan mu bgu.
-- 中 請你遞給我一個可以舀湯的東西（讓我能舀湯）。
-- `s-shgi-an` → **shgi** (no gloss)
-- his: 用來舀取的－供舀取用。 ／ 請你遞給我一個可以舀湯的東西（讓我能舀湯）。
-
-### dtumi — 1 pair
-
-- under **SIPAW**
-- § Mksipaw ka dTumi.
-- 中 Tomé 和他的家人住在對面。
-- `d-tumi` → **tumi** (no gloss)
-- his: Tomé 和他的家人住在對面。
-
-### smhngi — 1 pair
-
-- under **SISIL**
-- § Taya knsuyang (= tayal knsuyang) sisil ta! Iril ha, sisil ta! Smhngi su?
-- 中 啊！我們的 SISIL 對我們多麼有利啊！牠在左邊，對吧，我們的 SISIL！你還記得嗎（＝你忘了嗎）？
-- `sm-hng-i` → **hng** (no gloss)
-- his: 啊！我們的 SISIL 對我們多麼有利啊！牠在左邊，對吧，我們的 SISIL！你還記得嗎（＝你忘了嗎）？
-
-### sktadaw — 1 pair
-
-- under **SK**
-- § SkTadaw.
-- 中 已故的 Tadao。（註：此第二個意思似乎僅用於以姓名或頭銜稱呼的人。）
-- `sk-tadaw` → **tadaw** (no gloss)
-- his: 已故的 Tadao。（註：此第二個意思似乎僅用於以姓名或頭銜稱呼的人。）
-
-### skbowxil — 1 pair
-
-- under **SKU**
-- § Saun namu smku knuwan ka skBowxil?
-- 中 你們什麼時候會去（打算去、想去）埋葬 Borhil 的遺體？
-- `sk-bowxil` → **bowxil** (no gloss)
-- his: 你們什麼時候會去（打算去、想去）埋葬 Borhil 的遺體？
-
-### snsikan — 1 pair
-
-- under **SKSIK**
-- § Snalu su manu ka sksik su? Tayal knmalu ka snsikan na!
-- 中 你的掃帚是用什麼材料做的？它掃得真好，真了不起！
-- `sn-sika-an` → **sika** (no gloss)
-- `sn-siku-an` → **siku** (no gloss)
-- his: 你的掃帚是用什麼材料做的？它掃得真好，真了不起！
-
-### dtduling — 1 pair
-
-- under **TDULING**
-- § Kana dtduling o, tama ka mqthur (qthur) balay.
-- 中 在所有手指當中，拇指最粗。
-- `d-tduling` → **tduling** (no gloss)
-- his: 在所有手指當中，拇指最粗。
-
-### mtaru — 1 pair
-
-- under **TRU**
-- § Mtaru sayang da; aji ku bi da!
-- 中 現在已經是第三次了；我真的不能再接受了！
-- `m-taru` → **taru** (no gloss)
-- his: 現在已經是第三次了；我真的不能再接受了！ ／ 第三次（現在）。
 
 ### mtmagu — 1 pair
 
@@ -394,38 +240,6 @@
 - 中 你在（孩子們的）遊戲場四周築了一道漂亮的柵欄。
 - `tn-qriyi-an` → **qriyi** (no gloss)
 
-### msthulang — 1 pair
-
-- under **THULANG**
-- § Hmut su msthulang ka isu.
-- 中 你只不過是個自負的人（愛逞能）。
-- `ms-thulang` → **thulang** (no gloss)
-- his: 你只不過是個自負的人（愛逞能）。
-
-### dbiyang — 1 pair
-
-- under **HJIL**
-- § Ungat hini ka dBiyang da; wada thjil da!
-- 中 Biyang 家（Biyang 一家）不在這裡了；他們已經搬走了。
-- `d-biyang` → **biyang** (no gloss)
-- his: Biyang 家（Biyang 一家）不在這裡了；他們已經搬走了。
-
-### empkmarux — 1 pair
-
-- under **HIDAW**
-- § Ya usa thidaw da! Empkmarux su kiya!
-- 中 別再去曬太陽了！你會把自己弄病的！
-- `empk-marux` → **marux** (no gloss)
-- his: 別再去曬太陽了！你會把自己弄病的！
-
-### dtanah — 1 pair
-
-- under **HKI**
-- § Mngungu ka dtanah tunux! Nasi mkla tunux ka rsrisaw truku dga, gisu ka empakux dhyaan hici ka dhiya hki!
-- 中 日本人心裡不安（害怕）！若太魯閣的年輕人受了教育（＝他們腦袋開了竅），他們便能勝過他們（日本人），不是嗎！
-- `d-tanah` → **tanah** (no gloss)
-- his: 日本人心裡不安（害怕）！若太魯閣的年輕人受了教育（＝他們腦袋開了竅），他們便能勝過他們（日本人），不是嗎！
-
 ### ndiyan — 1 pair
 
 - under **YAKU**
@@ -434,8 +248,8 @@
 - `n-diya-an` → **diya** (no gloss)
 
 
-## no root — 201 types, 236 pairs
+## no root — 198 types, 231 pairs
 
 Listed for completeness only. No analysis reaches a candidate root at all, so there is nothing to rule on.
 
-naru (6), klulu (5), uuyas (3), mpa (3), nkmurisaka (3), rih (3), bnrnahan (2), gaqat (2), kmbyanan (2), gnlqan (2), klkari (2), skarabi (2), daman (2), llihaw (2), loai (2), srhqun (2), npaamalu (2), hhmadan (2), qadi (2), qqsahur (2), qlxan (2), knsblsan (2), ptatuy (2), npghii (2), nay (1), papix (1), ayuq (1), kkakuh (1), skhuan (1), siga (1), dbsnawan (1), empaamalu (1), mulu (1), btudun (1), bntuluk (1), btlukan (1), mkefunang (1), kmubui (1), pggu (1), knsdraan (1), sm (1), pdmati (1), dhuan (1), kntdhuan (1), csgsutun (1), pdhliqan (1), meq (1), nagwi (1), put (1), ddcristu (1), bsqrul (1), handulu (1), snghi (1), kiima (1), ssiisil (1), mksiisil (1), iisu (1), yiyahun (1), mqrip (1), pqrip (1), btlukun (1), kahui (1), mkahui (1), mtkkrang (1), tnoxoi (1), pklluyun (1), yiyah (1), kndutu (1), paaaq (1), mtrgri (1), llulung (1), kkslabang (1), tslbangi (1), llabis (1), kndrgan (1), bboai (1), snola (1), rramil (1), rranaq (1), lngiyan (1), npaalaqi (1), sklbai (1), pnnanu (1), lgluq (1), rbaqan (1), rnbaqan (1), prjilun (1), boro (1), rikut (1), nprikut (1), tnrikut (1), npaamanu (1), qkrang (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), isuka (1), llongai (1), bakuciku (1), mnsslupung (1), syukay (1), drbiyax (1), nilit (1), nkllu (1), pnnguan (1), pkhlah (1), mnnaxal (1), armuni (1), mtmuhung (1), saole (1), dmurisaka (1), mgangah (1), knngnguan (1), mngusyeh (1), mggui (1), pkuxun (1), ubai (1), mnpitu (1), bskanun (1), kakuh (1), kmaluh (1), qnadi (1), tgrgri (1), suntyu (1), npamuxul (1), pqatai (1), empnmu (1), siba (1), qlaq (1), sqlaq (1), qmilaw (1), kaon (1), mqqlang (1), qntqdan (1), dmbasyaq (1), smmul (1), mpsqlul (1), spsdharun (1), wwahir (1), srngiyun (1), pnsrngiyan (1), nagui (1), kasayang (1), smllu (1), naqux (1), qloq (1), sruweq (1), knsrhagan (1), gneeliq (1), spngaw (1), snxelan (1), snmul (1), iniku (1), mman (1), pkkah (1), nbliqan (1), empkduriq (1), syuring (1), msyuring (1), knhgun (1), tsaleh (1), msnoxel (1), upskra (1), uru (1), qtaqi (1), sqtaqi (1), rqili (1), teumuk (1), lungat (1), tibasyaq (1), sneuwit (1), qdrxun (1), dmikat (1), mnttlaqel (1), ptryaun (1), treura (1), qlap (1), ptqliyun (1), nmikat (1), psttuy (1), urang (1), bsqani (1), ega (1), gneuwit (1), knnraan (1), mguy (1), hbugi (1), kaisia (1), thrdu (1), hlingan (1), hlakuh (1), emphlakuh (1), pthnguli (1), byeqay (1), pis (1), yianu (1), niyak (1), mpyah (1), qqrut (1), pnmuun (1)
+naru (6), klulu (5), uuyas (3), mpa (3), rih (3), bnrnahan (2), gaqat (2), kmbyanan (2), gnlqan (2), klkari (2), skarabi (2), daman (2), llihaw (2), loai (2), srhqun (2), npaamalu (2), hhmadan (2), qadi (2), qqsahur (2), qlxan (2), knsblsan (2), ptatuy (2), npghii (2), nay (1), papix (1), ayuq (1), kkakuh (1), skhuan (1), siga (1), dbsnawan (1), empaamalu (1), mulu (1), btudun (1), bntuluk (1), btlukan (1), mkefunang (1), kmubui (1), pggu (1), knsdraan (1), sm (1), pdmati (1), dhuan (1), kntdhuan (1), csgsutun (1), pdhliqan (1), meq (1), nagwi (1), put (1), ddcristu (1), bsqrul (1), handulu (1), snghi (1), kiima (1), ssiisil (1), mksiisil (1), iisu (1), yiyahun (1), mqrip (1), pqrip (1), btlukun (1), kahui (1), mkahui (1), mtkkrang (1), tnoxoi (1), pklluyun (1), yiyah (1), kndutu (1), paaaq (1), mtrgri (1), llulung (1), kkslabang (1), tslbangi (1), llabis (1), kndrgan (1), bboai (1), snola (1), rramil (1), rranaq (1), lngiyan (1), npaalaqi (1), sklbai (1), pnnanu (1), lgluq (1), rbaqan (1), rnbaqan (1), prjilun (1), boro (1), rikut (1), nprikut (1), tnrikut (1), npaamanu (1), qkrang (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), isuka (1), llongai (1), bakuciku (1), mnsslupung (1), syukay (1), drbiyax (1), nilit (1), nkllu (1), pnnguan (1), pkhlah (1), mnnaxal (1), armuni (1), mtmuhung (1), saole (1), mgangah (1), knngnguan (1), mngusyeh (1), mggui (1), pkuxun (1), ubai (1), mnpitu (1), bskanun (1), kakuh (1), kmaluh (1), qnadi (1), tgrgri (1), suntyu (1), npamuxul (1), pqatai (1), empnmu (1), siba (1), qlaq (1), sqlaq (1), qmilaw (1), kaon (1), mqqlang (1), qntqdan (1), dmbasyaq (1), smmul (1), mpsqlul (1), spsdharun (1), wwahir (1), srngiyun (1), pnsrngiyan (1), nagui (1), kasayang (1), smllu (1), naqux (1), qloq (1), sruweq (1), knsrhagan (1), gneeliq (1), spngaw (1), snxelan (1), snmul (1), iniku (1), mman (1), pkkah (1), nbliqan (1), empkduriq (1), syuring (1), msyuring (1), knhgun (1), tsaleh (1), msnoxel (1), upskra (1), uru (1), qtaqi (1), sqtaqi (1), rqili (1), teumuk (1), lungat (1), tibasyaq (1), sneuwit (1), qdrxun (1), dmikat (1), mnttlaqel (1), ptryaun (1), qlap (1), ptqliyun (1), nmikat (1), psttuy (1), urang (1), bsqani (1), ega (1), gneuwit (1), knnraan (1), mguy (1), hbugi (1), kaisia (1), thrdu (1), hlingan (1), hlakuh (1), emphlakuh (1), pthnguli (1), byeqay (1), pis (1), yianu (1), niyak (1), mpyah (1), qqrut (1), pnmuun (1)
