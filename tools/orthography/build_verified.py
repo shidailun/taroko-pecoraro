@@ -326,7 +326,8 @@ def main():
         regular inflection of a
         root vouched by a paradigm, 0.125 a slot the wordlist writes with two
         other suffixes, 0.0625 an inflection of a listed root that syncopates
-        its own first vowel, 0.03125 an inflection of a root that is itself one
+        its own first vowel, 0.0390625 the same where the vowel must be put back
+        before any analysis is possible, 0.03125 an inflection of a root that is itself one
         step from a glossed one, 0.015625 an affix letter."""
         if p in seen:
             return 2
@@ -348,6 +349,8 @@ def main():
             return 0.0625
         if inf.awag(p):
             return 0.046875
+        if inf.restored(p):
+            return 0.0390625
         if inf.chained(p):
             return 0.03125
         if affix(p):
@@ -384,15 +387,16 @@ def main():
     sistr = sorted(v for v in keys if lv[v] == 0.125)
     syncp = sorted(v for v in keys if lv[v] == 0.0625)
     awag = sorted(v for v in keys if lv[v] == 0.046875)
+    restd = sorted(v for v in keys if lv[v] == 0.0390625)
     chain = sorted(v for v in keys if lv[v] == 0.03125)
     afx = sorted(v for v in keys if lv[v] == 0.015625)
     famly = sorted(v for v in keys if lv[v] == 0.0078125)
     xref = sorted(v for v in keys if lv[v] == 0.00390625)
     good = sorted(listed + infl + vouch + ungl + outv + nochi + vroot + sistr
-                  + syncp + awag + chain + afx + famly + xref)
+                  + syncp + awag + restd + chain + afx + famly + xref)
     emit = {2: 1, 1: 2, 0.5: 3, 0.375: 4, 0.34375: 5, 0.3125: 6, 0.25: 7,
-            0.125: 8, 0.0625: 9, 0.046875: 10, 0.03125: 11, 0.015625: 12,
-            0.0078125: 13, 0.00390625: 14}
+            0.125: 8, 0.0625: 9, 0.046875: 10, 0.0390625: 11, 0.03125: 12,
+            0.015625: 13, 0.0078125: 14, 0.00390625: 15}
 
     out = io.open(os.path.join(SITE, "verified.js"), "w",
                   encoding="utf-8", newline="\n")
@@ -476,18 +480,30 @@ def main():
         "// walked longest first — that reaches `pspadaw` 慷慨 rather than bare\n"
         "// `padaw`, which the wordlist files as 無意義詞, an entry its own\n"
         "// derivatives refute.\n"
-        "// 11 = 2 over a root that is itself one step from a glossed root (%d):\n"
+        "// 11 = 2 with a vowel PUT BACK before the word can be analysed at all\n"
+        "// (%d). Rule 9 restores a vowel inside the ROOT once a root has been\n"
+        "// found; these are the words where no root is found, because the vowel\n"
+        "// that went missing is what the affix rules need in order to see one.\n"
+        "// `pqdrxan`, `pqdrxi` and `pqdrxun` are three slots of one paradigm and\n"
+        "// no rule above reaches any of them; put an `u` back and `qdrux` 石牆 is\n"
+        "// standing there, which is what a real syncope leaves behind. One vowel,\n"
+        "// one position, and the same slot-gloss gate as 4, 7, 9, 10 and 12 — his\n"
+        "// Chinese must share a character with the root's, so a search that can\n"
+        "// invent five letters at every position is still answering to the\n"
+        "// meaning and not to the shape. Sorted longest root first, for the same\n"
+        "// reason rule 10 is.\n"
+        "// 12 = 2 over a root that is itself one step from a glossed root (%d):\n"
         "// the CV- reduplication that makes no new lexeme (`qqgu` on `qgu`), or a\n"
         "// second round of ordinary affixation (`swiwil` on `wiwil`). Rules 2-9\n"
         "// stop at the first listed root and ask its gloss, and most of a paradigm\n"
         "// is glossless. Two steps of inference, so the same slot-gloss gate as 4,\n"
         "// 7 and 9 — which here refuses every illicit spelling the rule would find.\n"
-        "// 12 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
+        "// 13 = an AFFIX LETTER (%d). Twelve of his cards are headed by one letter\n"
         "// and are his grammars of the particles and the productive affixes, not\n"
         "// word entries; their claim is `p` -> `p`, an identity, so there is no\n"
         "// respelling to doubt. No lexicon lists an affix, so the evidence is that\n"
         "// it is productive over words the lexicon DOES list.\n"
-        "// 13 = HIS OWN PARADIGM, where the wordlist has none (%d). Rule 4 asks a\n"
+        "// 14 = HIS OWN PARADIGM, where the wordlist has none (%d). Rule 4 asks a\n"
         "// listed-but-unglossed root's modern paradigm what the root means. For\n"
         "// these the paradigm is glossless too, end to end — the wordlist is not\n"
         "// disagreeing, it is silent — so his own cards on that root are asked\n"
@@ -496,19 +512,19 @@ def main():
         "// same hand is his prose style, not corroboration. Where the paradigm\n"
         "// SPEAKS and disagrees, the disagreement is evidence and the value stays\n"
         "// pale.\n"
-        "// 14 = HE NAMES THE WORD (%d). Some glosses are not meanings but\n"
+        "// 15 = HE NAMES THE WORD (%d). Some glosses are not meanings but\n"
         "// pointers — `rnjingan` is （ldingan 的過去式）and nothing else — so there\n"
-        "// is nothing for rules 2-13 to weigh. A stated root beats an inferred\n"
+        "// is nothing for rules 2-14 to weigh. A stated root beats an inferred\n"
         "// one: where the token he cites IS the root the affix rules found — or a\n"
         "// sibling built on it — his statement and the analysis agree, and that is\n"
         "// the whole evidence. The pointer must land on a root the morphology\n"
         "// found; it may never supply one, because his 參見 notes cite synonyms as\n"
         "// well as forms and a synonym says nothing about how THIS word is spelt.\n"
-        "// app.js paints all fourteen in the deep brown; a value NOT in here is\n"
+        "// app.js paints all fifteen in the deep brown; a value NOT in here is\n"
         "// still a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(ungl),
-           len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(awag), len(chain),
+           len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(awag), len(restd), len(chain),
            len(afx), len(famly), len(xref)))
     for v in good:
         out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
@@ -519,13 +535,13 @@ def main():
           "no Chinese of his: %d   "
           "inflected off a vouched root: %d   "
           "sister slot: %d   syncopated root: "
-          "%d   -aw~-ag- slot: %d   chained root: %d   affix letter: %d   his own paradigm: %d   "
+          "%d   -aw~-ag- slot: %d   vowel restored: %d   chained root: %d   affix letter: %d   his own paradigm: %d   "
           "he names the word: %d   unverified: %d   "
           "(of %d distinct)"
           % (len(listed), len(infl), len(vouch), len(ungl), len(outv),
              len(nochi),
              len(vroot), len(sistr),
-             len(syncp), len(awag), len(chain), len(afx), len(famly), len(xref),
+             len(syncp), len(awag), len(restd), len(chain), len(afx), len(famly), len(xref),
              len(keys) - len(good), len(keys)))
     print("wrote site/verified.js")
 

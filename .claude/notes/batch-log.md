@@ -2719,3 +2719,42 @@ The bucket cannot tell them apart and the dossier can.
 Gained 3 — `embqru`, `pnsmkan`, and `psmuk` off the vouched root — lost 0.
 Blocked pairs 426 → **422**; deliverable **5,013 / 92.24%**. Dark 44,040 /
 97.9821%, pale 873, green 34. 16/16, 9/9, 28/28.
+
+## Batch 189 — the vowel that has to go back before anything can be read
+
+Three of the last eight rulings (`pnguwan` 186, `tknayun` 187, `pnsmkan` 188)
+were the same failure, and none of them was a failure about meaning. `roots()`
+walked the letters he wrote, found no listed root inside them, and the refusal
+was filed under "gloss disagrees" — a bucket that names the last test rather
+than the one that actually stopped. In each case the root was there and one
+vowel was missing from it.
+
+`Inflection.restored()` generalises the three. For a word no rung above reaches,
+put ONE vowel back at one position — every `aeiou` at every index — and analyse
+the result. **The gloss gate is unchanged**: `_agrees` must still find a shared
+Han character between his word-level Chinese and the root's modern gloss, so a
+search that can invent five letters at every position is still answering to the
+meaning and not the shape. Candidates are sorted longest-root-first, the same
+guard rule 10 carries.
+
+Over all 589 unverified map values it fires on 17. The paradigm `pqdrxan` /
+`pqdrxi` / `pqdrxun` is the case that shows it is a rule and not a coincidence:
+three slots, no rule above touches any of them, and one `u` puts all three onto
+`qdrux` 石牆. That is the shape a real syncope leaves behind. The rest run the
+same way — `puqi` ← `uqa` 吃, `ppyaun` ← `iya` 不要, `smkan` ← `smuk` 釘子,
+`qnbsranan` ← `qbsuran` 兄姊, `tnbuyan` ← `tabuy` 下來.
+
+**And the rung nearly shipped as a subtraction.** Wired into `word()` at
+0.0390625 it reported *gained 0, LOST 7* — `emppuyas`, `ndyami`, `nnuhan`,
+`pdjilan`, `pnttukan`, `pnuhi`, `pnuhun`. Nothing evidential had happened: the
+ladder returns a score, but the writer collects the verified values by listing
+each score band by hand, and 0.0390625 was in neither the `good` sum nor the
+`emit` table. Seven words that used to fall through to `chained` now stopped one
+rung earlier, scored, and were dropped on the floor. Fixing the collection —
+`restd`, `good`, `emit`, and the tier renumbering 11-14 → 12-15 — turned the
+same build into gained 17, lost 0. **A cascade whose bands are enumerated
+downstream is not additive by construction; inserting a rung is an edit in two
+places, and the measurement is what says whether you made both.**
+
+Blocked pairs 422 → **412**; deliverable **5,023 / 92.42%**. Dark 44,069 /
+98.0466%, pale 873 → 844, green 34. 16/16, 9/9, 28/28.

@@ -1776,6 +1776,51 @@ class Inflection(object):
                     best = (cost, (p, st, sf, sis))
         return best[1] if best else None
 
+    # ---- the word's own vowel, put back -------------------------------------
+    def restored(self, v):
+        """(candidate, root, prefix, suffix) or None. The word with ONE vowel
+        put back before it is analysed.
+
+        `awag()` restores a vowel too, but only the one the -aw/-ag- alternation
+        predicts. This is the general case and it was found the same way: three
+        rulings in batches 186-188 — `pnguwan` off `pungu` 繩結, `pnsmkan` off
+        `smuk` 鐵釘, `tknayun` alongside them — were filed by the report under
+        "gloss disagrees" when the gate had never reached the root at all.
+        Truku drops a root's first vowel under affixation and `roots()` looks
+        for the letters that are there.
+
+        WHAT IT MAY NOT DO. It may not guess at synonymy: `_agrees` still has to
+        find a shared character between his own word-level gloss and the
+        restored root's, which is the guard `awag` states and the reason it
+        refuses `knsrhagan` against `ruhaw`. Inserting letters and then reading
+        meanings loosely is two liberties, and either one alone is enough.
+
+        MEASURED BEFORE IT WAS WRITTEN. Over all 589 unverified map values it
+        fires on 17, and it cannot subtract: every rung is an OR, so a word that
+        is verified stays verified. Three of the 17 are one paradigm —
+        `pqdrxan`, `pqdrxi`, `pqdrxun` onto `qdrux` 石牆 — which is the shape a
+        real syncope rule leaves behind, and not the shape a coincidence does.
+
+        The most specific root wins, by length then alphabetically, for batch
+        165's reason: a greedy pass over an unordered set is a sample, not a
+        rule."""
+        if v in self.frozen or v in self.lex:
+            return None
+        his = self._his(v, slots_only=True)
+        if not his:
+            return None
+        best = []
+        for i in range(1, len(v)):
+            for vw in "aeiou":
+                c = v[:i] + vw + v[i:]
+                for root, p, sf, _ in self.roots(c):
+                    if self._gloss(root) and self._agrees(his, root):
+                        best.append((-len(root), root, c, p, sf))
+        if not best:
+            return None
+        _, root, c, p, sf = sorted(best)[0]
+        return (c, root, p, sf)
+
     # ---- the root's own vowel, syncopated ----------------------------------
     def awag(self, v):
         """(stem, suffix, shared char) or None. A root ending -aw writes -ag-
