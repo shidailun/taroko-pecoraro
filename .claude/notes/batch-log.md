@@ -2905,3 +2905,50 @@ now resolve with no blocked span.
 DOM: dark 44,140 (98.2046%) | pale 773 | green 34 | total 44,947. Blocked pairs
 383 → 375 (354 with one blocker over 307 types, 21 with two or more).
 Deliverable 5,060 / 5,435 = **93.10%**. Suites 16/16, 9/9, 28/28.
+
+## batch 193 — six rulings, three refusals, and a pin written in the wrong alphabet
+
+Six rulings (haduri, qmapah, tpssagan, sdmatan, psnegulun, knsupu) plus the
+STA"TO card taken whole, and three refusals. Gained 10, LOST 0.
+
+Two of the six were homophones the analyser lost, and in both the sentence was
+the only instrument that could find them. haduri: his Xdoli reads as hduri, the
+imperative of hdur 不同意／反對, matching his vowels with nothing dropped — or as
+haduri from hadur 獵首筵席, needing the schwa restored. The example is Mark 1:44,
+要按真正的禮儀獻祭…好給他們以此為見證, and "oppose it according to the true rite"
+is not a sentence. sdmatan: the register glosses damat 菜 and sdamat 菜；菜餚, so
+the analyser offered dmatan 用…配菜 for a card meaning 悲傷、鬱悶、思念 — but the
+same root carries the second sense across csdamat 思念;寂寞;哀傷, kdamat 想念,
+kmdamat, empkdamat, smdamat, and tnsdamat 悲傷 shows sdamat takes it as a stem.
+
+**A pin must be written in the map's key form, not in his.** The STA"TO card was
+entirely unmapped because his " marks a long vowel; modern writes it ee (steetu
+上坡, 11 corpus sentences). I pinned seven forms and four were inert — tkey()
+folds " to ', so the map's key is sta'to, and my sta"to matched nothing. The
+gained-list caught it: smteetu was ruled but never appeared. Rewritten in the
+apostrophe form, the card cleared four sentence pairs, and it turned out the map
+already had sta'to→steetu and snta'to→snteetu right; only msttu and smttu were
+wrong. Same lesson as batch 192 from the other side — read the generated map
+before and after, because the source key and the rendered key are different
+things.
+
+psnegulun was one form escaping its own root: every other form on his SNUGUL
+card was already on snegul 跟隨 (psnugul→psnegul 是跟隨, mpsnugul→empsnegul), and
+only the apostrophe form fell through the lexical match to the blind rules,
+which took his gul to gur and dropped the schwa his apostrophe marks. Prompted a
+check of the whole class — 1,150 apostrophe keys in the map, 94 with a non-dark
+value. Healthy; an individual miss, not a vein, so no sweep.
+
+Three refusals. psqgu: the sense is certain (his 猛然跳起 against msqqgu 跳起來)
+but the form is not — the register splits the senses by the doubled q, msqgu is
+會有"公雞叫聲", the rooster stem's own p- form is pqguaw, and no corpus token
+exists on either stem. One supporter that disagrees in the very letter at issue
+is not two. sdangan: no source in any shape, his own gloss ？？（詞義不明）.
+snuqu: nuqu 倒是 and uqu 生氣 are both glossed and both wrong, and suqu is in the
+attested list but absent from ILRDF with no family and no corpus token — an
+unglossed orphan is not a supporter.
+
+DOM: dark 44,160 (98.2490%) | pale 753 | green 34 | total 44,947. Blocked pairs
+375 → 367 (347 with one blocker over 300 types, 20 with two or more). The gloss-
+disagrees bucket fell 23 → 15 types. Deliverable 5,068 / 5,435 = **93.25%**.
+Suites 16/16, 9/9, 28/28.

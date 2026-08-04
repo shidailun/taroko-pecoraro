@@ -20,7 +20,6 @@ kmspusu          kmspusu          spusu          spusu          derived
 kmtisa           kmtgsa           mtisa          mtgsa          derived
 knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsopu           knsupu           sopu           supu           derived
-knsttoan         knsttuan         sttoan         sttuan         derived
 kpauçi           kpauxi           kpauxi         kpauxi         derived
 kxebong          khibung          xebong         hibung         derived
 lnagap           rnagak           lagap          ragak          derived

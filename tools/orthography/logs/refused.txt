@@ -6,3 +6,18 @@
 # modern source confirms, and these are the words that earned it.
 tbiran   b185  no source in any shape; his own gloss is "??"
 msska    b185  root 中間, his 裂開; the leap is a story, not evidence
+psqgu    b193  sense is certain (his 猛然跳起 = msqqgu 跳起來), the form is not: the
+#              register splits the senses by the doubled q — msqgu 會有公雞叫聲 vs
+#              msqqgu 跳起來 — and his single q lands on the rooster stem, whose p-
+#              form is pqguaw, not psqgu. One supporter, zero corpus tokens on
+#              either stem, and his own gloss is "??".
+sdangan  b193  no source in any shape - ILRDF holds none of sdangan, dangan,
+#              sdang, mdangan, and the register's whole dang- vein is feed,
+#              stone trap, sweetheart. His own gloss is "??（詞義不明）"; only
+#              the sentence carries a sense (上午當中, the sun's position) and no
+#              modern time-of-day word answers to his letters.
+snuqu    b193  his 頑皮／愛開玩笑的人 against nuqu 倒是 and uqu 生氣、負氣 - both
+#              glossed, both wrong. suqu is in the attested list but ILRDF does
+#              not hold it, it has no family and no corpus token: an unglossed
+#              orphan is not a supporter. The playful vein (rnaw 開玩笑, seiyax,
+#              mqpuji 很頑皮) answers to none of his letters.

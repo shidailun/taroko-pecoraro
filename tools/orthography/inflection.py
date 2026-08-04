@@ -746,9 +746,87 @@ HAND_SPOKEN = """nta""".split()
 # word-internally. The map was consistent at render time and only the source
 # keys looked split. No prefixed form is in ILRDF — mpngpung, mngpung, pkpngpung,
 # pnkpngpung all return nothing — so the register carries the root alone.
+# haduri (his Xdoli) - batch 193. A homophone decided by the sentence. His
+# letters read two ways: hduri, the imperative of hdur 不同意／反對, which matches
+# his vowels exactly with nothing dropped; or haduri, the imperative of hadur
+# 獵首筵席, which needs the first schwa restored. The example is Mark 1:44 —
+# 要按真正的禮儀獻祭，好給他們以此為見證 — and "oppose it according to the true
+# rite, as a testimony" is not a sentence. Dropping a schwa is his standing
+# habit (xnglyeq → hnegliq, mpnpong → empngpung), so the shape argument that
+# favours hdur is the weaker one.
+#
+# The hadur family is one of the deepest in the register and it is unanimous:
+# mhadur, phadur, pnhadur, hnadur all 舉行馘首宴, beside emphadur, dmphadur,
+# gmhadur, ghadur, hhadur, khadur, knhadur, ptghadur, sghadur — some 25 forms.
+# -i is the ordinary imperative. The refusal is the character test alone:
+# 獵首筵席／貪吃 shares nothing with 獻祭, though the ritual feast is exactly what
+# the verse asks be offered.
+# qmapah (his Qmapax) - batch 193, 2 pairs. The register glosses the bare root
+# qapah 不穩定, which is why the gate refused his 塗抹、鋪開、覆蓋. But that is the
+# derived sense, and sgqapah says so on its face: 不穩定（引申「容易被動搖」）.
+# The core is adhesion — sqapah 貼 with six corpus sentences, every one of them
+# sticking (剝芋頭的皮容易沾黏在手上, 米飯黏在他的嘴巴上, 左手指就黏在竹棒上),
+# and msqapah 粘起來. His own two examples are pasting: cow dung spread over a
+# drying-yard, and 糊上報紙 newspaper pasted round the walls of a sleeping place.
+# q<m>apah is the ordinary AF infix on that root and the slot is simply
+# unwritten. 貼 and 塗抹 share no character, which is the whole of the refusal.
+#
+# tpssagan (his tpssagan, unchanged) - batch 193. His card head SASAO is sasaw
+# 蔭涼（有遮蔭的地方乘涼）and his own gloss is 可以去乘涼的地點 — 乘涼 in both, so
+# the head is confirmed by character match. The blocker is only the derived
+# place-noun: root ssagan 被遮住 is attested, and so are the siblings tssagan,
+# cssagan, ssagi, ssagon, ssagun, ptsasaw, csasaw, tsasaw. tp- on a passive to
+# make a place-of noun is regular, and 被遮住 shares nothing with 涼爽 — the
+# shade and the coolness are one thing named twice.
+# sdmatan (his Sdmatan) - batch 193. Another homophone the analyser lost: it
+# offered dmatan 用…配菜 for a card glossed 悲傷、鬱悶、思念的地點、時間, because
+# the register glosses bare damat 菜 and sdamat 菜；菜餚. But the same root
+# carries a second sense across six independent forms — csdamat 思念;寂寞;哀傷;
+# 哀慟, csdamatay 思念, kdamat 想念;懷念, kmdamat 好想念, empkdamat 會懷念,
+# smdamat 久仰／想念 — and tnsdamat 悲傷；憂傷 shows sdamat itself takes it as a
+# stem. His head SDAMAT shares 思念 with csdamat outright.
+#
+# The -an is the locative/temporal, which is what his card says it is (的地點、
+# 時間) and what his sentence uses: 去年是非常悲傷的一年, a year that was a time
+# of sadness. sdamat + an syncopating to sdmatan is the patas → ptasan 學校
+# pattern, regular and attested; his spelling needs no correction at all.
+# psnegulun (his psn'gulun) - batch 193, one map pin and one ruling. Every
+# other form on his SNUGUL card was already on the right family: snugul→snegul
+# 跟／跟隨, psnugul→psnegul 是跟隨, mpsnugul→empsnegul 要跟隨, msnugul→msnegul,
+# mssnugul→mssnegul, smnugul→smnegul, all dark. Only the apostrophe form fell
+# through the lexical match to the blind char rules, which took his gul to gur
+# and dropped the schwa his apostrophe is marking — giving psngurun, a word
+# whose offered roots are ngur 石頭堆積狀 and gur 成群來到的聲音（擬聲詞）.
+#
+# One form of a root escaping to a different spelling is exactly what the
+# consistency rule is for. Pinned to psnegulun and ruled: psnegul 是跟隨 is
+# attested, -un is the ordinary patient suffix, and his sentence is a causative
+# patient — 讓所有學童都跟在Djiro後面, make them all follow.
+# knsupu (his Knsopu) - batch 193. His own gloss names the construction:
+# 團結、親密、和睦的強烈程度 — a degree, which is what kn- makes. Root supu 一起
+# is attested, with msupu 在一起, mnsupu and psupu beside it, and kn- is fully
+# productive across the register (knhdur 反對, knhadur, knbtut, knslaan). The
+# refusal is the character test alone: 團結／親密／和睦 and 一起 name one thing
+# twice with nothing in common. His sentence is the degree read plainly —
+# 看到他們如此融洽，任誰都會羨慕.
+# the STA"TO card (smteetu, steetuun, knsteetuan) - batch 193, seven pins and
+# three rulings. The whole card was unmapped: his " marks a long vowel and the
+# lexical match never saw through it, so every form fell through to itself and
+# sat pale. Modern writes that vowel ee — steetu 上坡, 11 corpus sentences
+# (無論爬坡或下坡, 爬坡時還會滑下來) — and his head gloss is 斜坡上－上坡, sharing
+# 上坡 outright. msteetu and snteetu are attested and take his Msta"to and
+# Snta"to; steetuan 上坡路 is attested and shares 上坡 with his Knsttoan 上坡－斜坡.
+#
+# Three slots the register does not write. smteetu is the <m> AF beside attested
+# snteetu, the same slot in the other aspect. steetuun is steetu + the patient
+# -un, concatenated exactly as attested steetuan concatenates -an. knsteetuan is
+# kn- on that attested -an noun. All three shapes were checked the tier-W way,
+# against what modern types really look like: 110 types end -uun, 138 end -uan,
+# 109 are kn-…-an. Four sentence pairs on one card, and the refusal throughout
+# was the same character test — 攀登 shares nothing with 上坡.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
-                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung""".split()
+                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

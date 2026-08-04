@@ -250,6 +250,7 @@
 "name": "danga",
 "note": "詞意：peekan餵食\r\n詞意：tmquli laqi養育孩子\r\n\r\n文化小語：以前生活很苦，有些孩子會送給別人收養。"
 },
+"dangan": null,
 "dangi": {
 "freq": 153,
 "glosses": [
@@ -924,6 +925,7 @@
 },
 "mbbuway": null,
 "mbrangan": null,
+"mdangan": null,
 "mdngus": null,
 "mdrut": null,
 "meq": null,
@@ -1014,7 +1016,16 @@
 "note": ""
 },
 "msnoxel": null,
+"msnuqu": null,
 "mspruq": null,
+"msqqgu": {
+"freq": 4,
+"glosses": [
+"跳起來"
+],
+"name": "msqqgu",
+"note": ""
+},
 "msska": null,
 "msthulang": null,
 "msyuring": null,
@@ -1451,6 +1462,7 @@
 "note": "詞意：seedal黏\r\n詞意：ungat dhug hmut snegtaxa不穩定"
 },
 "qdrxun": null,
+"qgqgu": null,
 "qgu": {
 "freq": 3,
 "glosses": [
@@ -1490,6 +1502,7 @@
 },
 "qnbsranan": null,
 "qntqdan": null,
+"qqgu": null,
 "qqrinut": {
 "freq": 4,
 "glosses": [
@@ -1708,6 +1721,7 @@
 "name": "sdahung",
 "note": ""
 },
+"sdang": null,
 "sdanga": {
 "freq": 2,
 "glosses": [
