@@ -2520,3 +2520,40 @@ still pale.
 DOM after: dark 43,993 (97.8775%), pale 920, green 34, total 44,947; types dark
 5,912 / pale 601 / green 25. Blocked pairs 479 → 445, deliverable **4,990 =
 91.81%**. Regressions 16/16, 9/9, 28/28.
+
+## Batch 183 — the corpus's other column, and where it runs out
+
+Darryl: "well if we have these unused sentences work them!!!! what are you
+waiting for? quwaq is mouth so gm- seems reasonable as a double prefix."
+
+**`gmquwaq` ruled.** His `gm'kuwaq`. `quwaq` is 嘴/嘴巴 in the e-dictionary at
+freq 125 and 洞口 in the omnibus — both senses printed, and `gm-` over a body
+part is the ordinary actor form. Entered in `HAND_RULED`.
+
+**`build_parquet_gloss.py` — the Mandarin side of the eight Truku datasets.**
+`build_parquet_attested.py` had been reading those files for years and throwing
+the translation column away. It answers a different question: not *does this
+string occur* but *what does it mean*. 54,457 rows, of which 8,875 have a
+one-token Truku side; 1,420 words, 2,315 distinct glosses, 328 of them words the
+omnibus does not gloss.
+
+**Only the one-word rows are taken.** A two-word row is a phrase and splitting
+its Chinese across both halves is the instrument that failed for ppdsun —
+`baga bubu` 母親的雙手 would gloss `baga` as 母親 as readily as 雙手, and a gate
+reading a shared Han character cannot tell which half it matched.
+
+**The phrase rows were then priced properly, and refused on measurement.**
+Co-occurrence — a bigram kept when it appears in ≥60% of a word's rows and in
+≤5% of the corpus — recovers the known gloss for **56 of 58** words that already
+have one (97%), so the method works. It proposes a gloss for **2 of 58**
+still-glossless blocked roots (`pitay` 朋友, `rangah` 樹洞). The rare roots are
+rare in the corpus too. *A method that is accurate where you can check it can
+still be silent where you need it.* Not wired in.
+
+Rebuild: **gained 9 types, lost 0** — `dsbnawan gmquwaq pkpruan pkpruun
+pkungatan pnqihi pnqihun pnslhagan ppeapa`. Unverified 611 → 602 of 6,526.
+
+Blocked pairs 445 → **438** (416 sole over 349 types, 22 multi). Deliverable
+pairs **4,997 / 91.94%**, from 4,956 / 91.19% at the session's start. Dark
+44,009 / 97.9131%, pale 904 (from 988), green 34. 16/16 `loose179.py`, 9/9
+`cite179.py`, 28/28 `nav178.py`.

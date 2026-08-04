@@ -383,7 +383,23 @@ HAND_SPOKEN = """nta""".split()
 #           playing deaf. The form's own home is four sentences away under SAO,
 #           which is why rule.py prints every sentence and the ranking prints
 #           one — see batch 181b.
-HAND_RULED = """ppdsun tksaw""".split()
+#   gmquwaq his `gmqowaq`, second of blockers.md at 3 pairs, in § Ana khaya ka
+#           quwaq dha, ga su gmquwaq tunux ka isu inu squwaq 「當別人高聲大談，
+#           你只是搖著頭，一句話也不說」. One analysis, `gm-` + quwaq, and the
+#           root is listed. The informant: "quwaq is mouth so gm- seems
+#           reasonable".
+#
+#           WHY THE GATE REFUSED. His gloss for the form is 搖頭——把頭轉來轉去,
+#           and the omnibus glosses quwaq 洞口 — the mouth of a sack, of a lid,
+#           of a hole. No character in 搖/頭/轉 is in 洞/口. What makes the
+#           refusal visibly an artefact rather than a doubt is that the ILRDF
+#           online dictionary, fetched this same batch, prints quwaq as 嘴／
+#           龍鬚菜／麻袋口／蓋口／洞口／嘴巴 at frequency 125: the wordlist
+#           printed the derived sense and left the primary one out. Even so
+#           嘴 does not share a character with 搖頭, because the sentence is
+#           about what the mouth is NOT doing — `gmquwaq tunux`, mouthing with
+#           the head instead of speaking. A gloss test cannot read that.
+HAND_RULED = """ppdsun tksaw gmquwaq""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
@@ -865,6 +881,19 @@ class Inflection(object):
         self.edg = {w: d["glosses"] for w, d in json.load(
             io.open(os.path.join(D, "edictionary_trv.json"), encoding="utf-8")
         ).items() if d and d.get("glosses")}
+        # THE PARQUETS' MANDARIN SIDE — batch 183, build_parquet_gloss.py. The
+        # same eight datasets build_parquet_attested.py counts tokens in, read
+        # for their `translation`/`mandarin` column this time: 8,875 rows whose
+        # Truku side is ONE word, 1,420 words, 2,315 glosses, 328 of the words
+        # carrying no gloss in the wordlist at all.
+        #
+        # Phrases are refused at the builder and the reason belongs here too,
+        # because this is where the temptation lands: `baga bubu` 母親的雙手
+        # would gloss `baga` 手 and 母親 with equal confidence, and _agrees()
+        # reads a shared character and cannot tell which half it matched. The
+        # corpus has tens of thousands of phrase rows and they stay unread.
+        self.pqg = json.load(io.open(os.path.join(D, "parquet_gloss.json"),
+                                     encoding="utf-8"))
         # Not in `voices`, and the omission is the point: derived() sweeps
         # voices as a POPULATION of words that may vote, and every word here is
         # in `lex` already, so adding them would change nothing except to
@@ -973,6 +1002,7 @@ class Inflection(object):
         if root in self.bgl:
             rg.append(self.bgl[root])
         rg.extend(self.edg.get(root) or ())
+        rg.extend(self.pqg.get(root) or ())
         return rg
 
     def _agrees(self, his_zhs, root):
