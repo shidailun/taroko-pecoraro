@@ -1396,12 +1396,20 @@
    "modern": "bnrahan",
    "tier": "M"
   },
+  "bnlnaxan": {
+   "modern": "bnrahan",
+   "tier": "M"
+  },
   "bntaqan": {
    "modern": "bntaqan",
    "tier": "id"
   },
   "bntudan": {
    "modern": "bntudan",
+   "tier": "M"
+  },
+  "bntuluk": {
+   "modern": "pntuluk",
    "tier": "M"
   },
   "bnuöl": {
@@ -2030,7 +2038,7 @@
    "tier": "B"
   },
   "dbsnawan": {
-   "modern": "dbsnawan",
+   "modern": "dsbnawan",
    "tier": "M"
   },
   "dd": {
@@ -6987,6 +6995,10 @@
    "tier": "id",
    "elision_dropped": "m'gul"
   },
+  "m'gwi": {
+   "modern": "gmeeguy",
+   "tier": "M"
+  },
   "m'idao": {
    "modern": "midaw",
    "tier": "A"
@@ -8644,6 +8656,10 @@
    "modern": "mntneuda",
    "tier": "M"
   },
+  "mnttlaqel": {
+   "modern": "mntraqil",
+   "tier": "M"
+  },
   "mntöting": {
    "modern": "mntucing",
    "tier": "B"
@@ -10262,6 +10278,10 @@
    "modern": "mhungul",
    "tier": "A"
   },
+  "n'gk'laan": {
+   "modern": "nklaan",
+   "tier": "M"
+  },
   "n'gui": {
    "modern": "nguy",
    "tier": "B"
@@ -10364,7 +10384,7 @@
    "tier": "M"
   },
   "nagwi": {
-   "modern": "nagwi",
+   "modern": "ngeuyan",
    "tier": "M"
   },
   "nai": {
@@ -10647,6 +10667,10 @@
    "modern": "ngiraw",
    "tier": "M"
   },
+  "nilit": {
+   "modern": "mirit",
+   "tier": "M"
+  },
   "nimax": {
    "modern": "nimah",
    "tier": "B"
@@ -10873,6 +10897,10 @@
    "modern": "npaah",
    "tier": "M"
   },
+  "npgxei": {
+   "modern": "npghiyi",
+   "tier": "M"
+  },
   "npklbagan": {
    "modern": "npkrbagan",
    "tier": "M"
@@ -10951,6 +10979,10 @@
   },
   "ntngsaan": {
    "modern": "ntnegsaan",
+   "tier": "M"
+  },
+  "ntnling": {
+   "modern": "mtnring",
    "tier": "M"
   },
   "nuda": {
@@ -12527,7 +12559,7 @@
    "tier": "M"
   },
   "pnbtlukan": {
-   "modern": "pnbtlukan",
+   "modern": "pntlukan",
    "tier": "M"
   },
   "pnbtuluk": {
@@ -15276,6 +15308,10 @@
    "modern": "sgulan",
    "tier": "M"
   },
+  "s'iga": {
+   "modern": "shiga",
+   "tier": "M"
+  },
   "s'lno": {
    "modern": "srngaw",
    "tier": "M"
@@ -16061,6 +16097,10 @@
   },
   "skgulun": {
    "modern": "skgulun",
+   "tier": "M"
+  },
+  "skhuan": {
+   "modern": "sknuwan",
    "tier": "M"
   },
   "skila": {
@@ -17018,6 +17058,10 @@
    "modern": "sndhgan",
    "tier": "B"
   },
+  "sng'xe": {
+   "modern": "shngi",
+   "tier": "M"
+  },
   "sngali": {
    "modern": "sngari",
    "tier": "A"
@@ -17060,7 +17104,7 @@
    "tier": "M"
   },
   "snkiila": {
-   "modern": "snkiila",
+   "modern": "snkila",
    "tier": "M"
   },
   "snkila": {
@@ -17158,6 +17202,14 @@
   "snpngan": {
    "modern": "snpngan",
    "tier": "id"
+  },
+  "snpsalan": {
+   "modern": "snpsalan",
+   "tier": "M"
+  },
+  "snpsalun": {
+   "modern": "snpsalun",
+   "tier": "M"
   },
   "snpu": {
    "modern": "snpug",
@@ -18496,6 +18548,10 @@
   "tbsagan": {
    "modern": "tbsagan",
    "tier": "id"
+  },
+  "tbskan": {
+   "modern": "tpskan",
+   "tier": "M"
   },
   "tbskol": {
    "modern": "tbsqur",
@@ -19887,7 +19943,7 @@
    "tier": "B"
   },
   "tx'ldo": {
-   "modern": "thrdu",
+   "modern": "thdu",
    "tier": "M"
   },
   "tx'muk": {
@@ -23475,11 +23531,6 @@
    "modern": "mhuda",
    "tier": "P"
   },
-  "n'gk'laan": {
-   "modern": "ngklaan",
-   "tier": "P",
-   "elision_dropped": "n'gk'laan"
-  },
   "n'otoç": {
    "modern": "nutux",
    "tier": "P"
@@ -26590,10 +26641,6 @@
    "modern": "luulan",
    "tier": "R"
   },
-  "m'gwi": {
-   "modern": "mguy",
-   "tier": "R"
-  },
   "mabal": {
    "modern": "mabal",
    "tier": "R"
@@ -27052,10 +27099,6 @@
    "modern": "nilaq",
    "tier": "R"
   },
-  "nilit": {
-   "modern": "nilit",
-   "tier": "R"
-  },
   "nk'yayong": {
    "modern": "nkyayung",
    "tier": "R"
@@ -27111,10 +27154,6 @@
   },
   "nnalox": {
    "modern": "nnarux",
-   "tier": "R"
-  },
-  "npgxei": {
-   "modern": "npghii",
    "tier": "R"
   },
   "npkoyoç": {
@@ -27822,11 +27861,6 @@
    "modern": "sguq",
    "tier": "R"
   },
-  "s'iga": {
-   "modern": "siga",
-   "tier": "R",
-   "elision_dropped": "s'iga"
-  },
   "s'ngun": {
    "modern": "sngun",
    "tier": "R",
@@ -27888,10 +27922,6 @@
    "modern": "siri",
    "tier": "R"
   },
-  "skhuan": {
-   "modern": "skhuan",
-   "tier": "R"
-  },
   "sktiluç": {
    "modern": "skcilux",
    "tier": "R"
@@ -27950,10 +27980,6 @@
    "modern": "sndmatan",
    "tier": "R"
   },
-  "sng'xe": {
-   "modern": "snghi",
-   "tier": "R"
-  },
   "sngayun": {
    "modern": "sngayun",
    "tier": "R"
@@ -28000,14 +28026,6 @@
   },
   "snpila": {
    "modern": "snpila",
-   "tier": "R"
-  },
-  "snpsalan": {
-   "modern": "snpsaran",
-   "tier": "R"
-  },
-  "snpsalun": {
-   "modern": "snpsarun",
    "tier": "R"
   },
   "snqama": {
@@ -28155,10 +28173,6 @@
   },
   "tbiyun": {
    "modern": "tbiyun",
-   "tier": "R"
-  },
-  "tbskan": {
-   "modern": "tbskan",
    "tier": "R"
   },
   "tbsq'lun": {
@@ -29001,10 +29015,6 @@
   },
   "mixeng": {
    "modern": "miheng",
-   "tier": "N"
-  },
-  "mnttlaqel": {
-   "modern": "mnttlaqel",
    "tier": "N"
   },
   "morisaka": {
@@ -29871,18 +29881,6 @@
    "d_rule": "CV-",
    "d_base": "xmadan"
   },
-  "bnlnaxan": {
-   "modern": "bnrnahan",
-   "tier": "E",
-   "e_stem": "blnaxan",
-   "e_modern": "brnahan"
-  },
-  "bntuluk": {
-   "modern": "bntuluk",
-   "tier": "E",
-   "e_stem": "btuluk",
-   "e_modern": "btuluk"
-  },
   "dlolo": {
    "modern": "druru",
    "tier": "E",
@@ -30232,12 +30230,6 @@
    "tier": "E",
    "e_stem": "tlalae",
    "e_modern": "tlealay"
-  },
-  "ntnling": {
-   "modern": "ntnring",
-   "tier": "E",
-   "e_stem": "tnling",
-   "e_modern": "tnring"
   },
   "pbyeqon": {
    "modern": "pbiqun",

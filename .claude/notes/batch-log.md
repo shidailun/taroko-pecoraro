@@ -3348,3 +3348,93 @@ Refused and priced: `rngut`/`rmngut`/`rngutan` 15 (懷孕 is `knshjilan` off `sh
 "Pntlukan (Pnbtlukan ?)" is his own open question), `klulu` 7 (葡萄 is `tlulug`;
 k~t is not one of the three char rules), `naru` 8 (the batch-114 pin stands),
 `msnoxel` 5 (嫉妒 is `hkrig`), `rih` 6, `srhq*` 5, `lngiyan`/`pslangi` 3.
+
+## Batch 200 — his own parenthetical, and the pair ranking
+
+**The percentage was nearly spent; the pair metric was not.** After batch 199
+closed at 99.0010%, ~65 of the 415 remaining pale occurrences were already priced
+and refused in writing, and the three permanent classes covered much of the rest.
+So this batch worked the metric CLAUDE.md actually names — deliverable sentence
+pairs — and ranked by **sole blockers**: one pale word holding a whole example
+hostage. 227 pairs were blocked, 216 of them by a single type.
+
+**Result: 5,208 → 5,242 pairs, 95.82% → 96.45%.** Brown 99.0010% → 99.0875%.
+Pale 415 → 376 occurrences, 294 → 263 distinct. Blocked pairs 227 → 193.
+
+### The instrument: he already told us they are one word
+
+Four of the first slice's rulings had the same shape, and it generalises. In
+running text he writes `X (Y ?)`, `X (vl. Y)`, `X (Y)` — naming two spellings of
+one word — and the map sends them to two different values of which **exactly one
+is dark**. That is not a spelling question. He has testified they are the same
+word, so the pale one should render whatever the dark one renders.
+
+`vari200.py` sweeps for it. It found 17 pairs and **ruled 10**:
+
+    dbsnawan -> dsbnawan   m'gwi -> gmeeguy    mnttlaqel -> mntraqil
+    ntnling  -> mtnring    n'gk'laan -> nklaan snkiila   -> snkila
+    tx'ldo   -> thdu       tbskan -> tpskan    pnbtlukan -> pntlukan
+    bntuluk  -> pntuluk
+
+Gloss-confirmed where the register has one: `nklaan` 上升處 on his KALA 上升,
+`snkila` 喜歡留下;習慣 on his SKILA 覺得自在, `gmeeguy` 偷竊 on his 你偷竊,
+`pskan` 咀嚼 on his PSKAN 咀嚼, `mhdu` 完成 on his XDO 完成－結束.
+
+**It rules nothing on its own, and that is the point.** Seven of the seventeen
+were refused because the DARK side is dark on a homograph — `pgagu` is glossed
+笛子 and his card is 鴿子; `nguy` is 哭聲 and his sentence is 偷竊; `gmluq` is
+做黏貼 and his G'LUK is 從中拉出. Following the parenthetical there would spread a
+freeze, not settle a word. All seven are in `refused.txt`, three flagged as
+suspect darks for a future batch.
+
+### Two generator bugs, found by measuring rather than by reading
+
+1. **`l→r` fired inside `pusal`.** `empusal` 二十 is listed with its `l`, and
+   `spusalan` was hand-ruled with its `l` in batch 199 — but `snpsalan` and
+   `snpsalun` came out `snpsaran`/`snpsarun`. The sibling was dark and the
+   syncopated form was pale, for no reason but the char rule. Pinned as identity
+   entries, which is the one thing an identity entry is *for*: it blocks
+   `charRules()` where the rule is wrong. A sweep for `sal`-keys with `sar`-values
+   found exactly these two and one true positive (`sali` → `sari` 芋頭).
+2. **`npgxei` → `npghii`, alone.** `xei` → `hiyi`, `mgxei` → `mghiyi` (glossed
+   結果實, exactly his sentence 稻子結果), `pgxei` → `pghiyi` — all dark. One token
+   slipped to `hii`. Sized the seam before fixing it: **one token**, not a class.
+
+### What his own book settles that no register can
+
+- **`nilit` is `milit`.** Two sentences say 羊奶 and the register's 山羊 is
+  `mirit`; the n/m looked like an override. Then: he writes **`milit` 15 times**
+  elsewhere in the book and `nilit` twice, and `milit → mirit` is already dark.
+  His own text spells the goat. Search the book, not only the register.
+- **`dbsnawan` is an ethnonym**, proved by a sentence on a different card:
+  `dSbnawan ni dTroko` 阿尼人與太魯閣人. `dtroko → dtruku` is dark and `dsbnawan`
+  (his other spelling, with the S) was **already dark**. His own doublet.
+- **`handulu` is a Japanese loan he glossed himself** — `xandolu (=Volant)`
+  方向盤, ハンドル. Into `HAND_LOANS`, because the tagger reads `tag` and this
+  verdict is in a gloss. Second instance of the batch-199 rule.
+- **`mkefunang`, `ddcristu`, `put`** are the exact parallels of `mkmurisaka`,
+  `dcristu`, `aput` — all three already in `HAND_NAMES`. `Put!` is the clipped
+  vocative of the name Aput ("我可憐的小 Aputs").
+
+### The gloss test kept earning its place
+
+`damat`'s only gloss row is **恢復原狀**, which would have refused `pdmati`. The
+family overrules the row: `dmatan` 用…配菜, `dmatun` 要用…做菜餚, `dmaci` 要配菜吃,
+`dmamat` 配菜, `ddamat` 要吃的菜餚 — his DAMAT card is 菜餚——佐料 and the card is
+unanimous. **A single gloss row is not the register's answer; the family is.**
+
+Conversely `empaa-` turned out fully productive (`empaadxgal` 會變成塵土,
+`empaababuy` 變成豬 — 12+ forms) and `npaabuqa` exists, so `empaamalu`/`npaamalu`
+off `maamalu` 變好 are regular, not inventions. His three sentences say 好看,
+痊癒, 舒服些.
+
+### Doublet collapse, again — 11 spans
+
+Total DOM spans 44,943 → 44,932. Every one is his own `X (Y)` now printing one
+word, plus `bnlaxan`/`bnlnaxan` and `s'xiga`/`s'iga`. Chased, not assumed.
+
+### Closing
+
+dark 43,832 / 5,956 distinct · class 690 / 268 · pale 376 / 263 · green 34 / 25
+total 44,932 · **brown 99.0875%** · deliverable pairs **5,242 / 5,435 = 96.45%**
+Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0 failures.

@@ -1,6 +1,4 @@
 # tier E: sentence-only token -> modern, the stem it inherited, that stem's modern form
-bnlnaxan         bnrnahan         blnaxan        brnahan        derived
-bntuluk          bntuluk          btuluk         btuluk         derived
 dlolo            druru            lolo           ruru           derived
 dmt'sapat        dmt'sapat        tsapat         t'sapat        derived
 dtdoling         dtduling         tdoling        tduling        derived
@@ -59,7 +57,6 @@ mtkk'lang        mtkkrang         tkklang        tkkrang        derived
 mtl'do           mtrdu            tldo           trdu           derived
 mtsdaxal         mtsdahar         tsdaxal        tsdahar        derived
 ndtlalae         ndtlealay        tlalae         tlealay        derived
-ntnling          ntnring          tnling         tnring         derived
 pbyeqon          pbiqun           byeqon         biqun          derived
 pgleqe           pgriqi           gleqe          griqi          derived
 pgmaxon          pgmaxun          gmaxon         gmaxun         derived

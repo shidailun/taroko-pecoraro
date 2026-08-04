@@ -237,3 +237,53 @@ msnoxel	b199  5; 嫉妒 is hkrig, 羨慕 is seura. A lexical substitution, not a
 naru	b199  8; the batch-114 pin stands. One key must serve his NALU 代替 headword
 #	and the seven 好-sense tokens off MALU's n-grade paradigm (Gnalu, Mnalu, Knalu).
 #	代替 in the register is nirih; nothing naru-shaped is listed at all.
+#
+# ---- batch 200: worked from the PAIR ranking, not the occurrence ranking ----
+# The metric is deliverable sentence pairs, so this batch walked the SOLE
+# blockers -- one pale word holding a whole example hostage. Everything at 2+
+# pairs is now either ruled or written down here; what is left is a 1-pair tail.
+ksudan	b200  3 pairs; 梭 in the register is gikus (dmptgikus 做梭者, tnegikus 梭的主人,
+#	tmggikus 製作梭). His KSUDAN walae 織布用的梭子 is the same object and a different
+#	word; nothing ksud-shaped is listed at all.
+gaqat	b200  2 pairs, and a homophone besides. 冰 is huda end to end (gmhuda 製冰的,
+#	nhuda 原來結冰); his GAQAT 冰塊、冰柱 has no candidate. The second occurrence is a
+#	different word: on TDOLOI he writes "gakat (gaqat)" for 腳踏車, and gakat is
+#	glossed 起身;站立 -- the standing cart. One key cannot serve both senses.
+kmbyanan	b200  2 pairs. gbiyan 傍晚 is dark and kgbiyan 進入傍晚 is listed, so the
+#	meaning is certainly there. His Kmbyanan has no g at all, and km-...-an is
+#	neither of the register's shapes. Two changes to reach it; a cognate explains
+#	a word but never spells one.
+gnlqan	b200  2 pairs -- and the four dark slots it stands beside are dark on
+#	HOMOGRAPHS, which is the finding worth keeping. His G'LOQ is 放入鞘中－刺入－性交.
+#	The register glosses glqani 拿去出草, glqanay 不要拿來出草, glqiun 要修直的, gluq 污垢.
+#	刺入 is smsing / sus / psngsing; 性交 is mux / balas. So glqan glqani glqi glqun
+#	are a card head dark for the wrong reason, and batch 199's rule says such a
+#	head licenses nothing beside it. FLAGGED: those four are suspect darks.
+snola	b200  2 pairs; 嫉妒 is hkrig (34 forms), 羨慕 is seura. Same class as msnoxel.
+loai	b200  2 pairs; 以外 is iyax (skeiyax, teeiyax), 外面 is ngangut -- which is the
+#	word his own card note points at ("較常說：NGANGOT"). Nothing loai-shaped listed.
+qadi	b200  2 pairs; 蜘蛛 is krubaw (dark on his card already), 網 is rahug / towkan,
+#	編織 is cinun. His 格子架 has no qadi-shaped word behind it.
+ptatuy	b200  2 pairs; 比喻 in the register is empeangal / speangal -- built on angal
+#	拿, which is the very verb his own sentence uses (Ngalun mu qbhni ... ptatwi).
+#	They say it with "take"; he has a lexeme for it. A substitution, not a spelling.
+pggu	b200  1 pair, and a SUSPECT DARK behind it. He writes "pgago (pg'go)" and
+#	pgagu is already dark -- but the register glosses pgagu 笛子, a flute, while his
+#	card is BYOTOç 鴿子——白鴿, and the register's 鴿子 is byutux (dark on the same
+#	card). Following his parenthetical here would spread a homograph freeze.
+nagui	b200  1 pair, same shape. His n'gui -> nguy is dark, and nguy is glossed 哭聲;
+#	the sentence is 你要是再偷竊. FLAGGED as a suspect dark on the SLAP card.
+mggui	b200  1 pair. His "Mg'gui (ngagwi)" names the n-grade, and ngagwi -> negeeguy
+#	應該偷偷 is dark; but the sentence sense (當小偷) is the m-grade, gmeeguy 偷竊.
+#	Picking either overrides the other. The naru trap, in miniature.
+gmrup	b200  gmluq is 做黏貼 and his G'LUK card is 從中拉出——經挑選、抽取. Wrong word.
+graqun	b200  1 pair; 搶奪 is geeluk (41 forms). Nothing graq-shaped is listed.
+shmqan	b200  1 pair; 監獄 does not appear in the register at all. No candidate.
+mulu	b200  1 pair; mru is 沾到…, and the sentence is 沙質地最適合種花生. Not the sense.
+mslangan	b200  1 pair; 生鏽 is skringan. No shape agreement, and the analyser's
+#	offer (langu 湖, mslangu 集水) is water, not rust.
+ayuq	b200  1 pair; 腋下 is qduan / hduq, 腺 is biqir 甲狀腺腫瘤. No ayuq-shaped word.
+kkakuh	b200  1 pair; 木屐 is not in the register, 鞋 is dapil and 拖鞋 is kramil.
+isoka	b200  NOT a spelling question. He writes "iso ka (isoka)" -- two words the
+#	page may print as one. A token-keyed map cannot emit a space, so this is out of
+#	the map's reach entirely, not a word we failed to find.

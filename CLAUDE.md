@@ -91,12 +91,29 @@ These were each learned by breaking something. Evidence for every one is in
 - **The analyser cannot see reduplication.** `inf.roots()` has no rule for it, so
   every CC-/VV- form reports no root. That is a fact about the analyser, not a
   verdict about the word — strip the doubled onset by hand before believing it.
+- **His own parenthetical is testimony that two spellings are one word** (batch
+  200). Where he writes `X (Y)`, `X (vl. Y)`, `X (Y ?)` and the map sends the two
+  to different values of which exactly ONE is dark, the pale side should render
+  what the dark side renders — a consistency fix, not a new attestation claim.
+  **The dark side still has to pass the gloss test**: 7 of 17 were refused because
+  the dark value is dark on a homograph, and following it would spread a freeze.
+- **Search his own book, not only the register.** `nilit` looked like an override
+  of `mirit` 山羊 until the count came in: he writes `milit` 15× and `nilit` 2×.
+  His own text spelled it. Same instrument proved `dbsnawan` an ethnonym —
+  `dSbnawan ni dTroko` stands it beside the Truku.
+- **A single gloss row is not the register's answer; the family is** (batch 200).
+  `damat`'s only row reads 恢復原狀, which would have refused `pdmati`; the five
+  family members are all 菜餚/配菜 and his card agrees with them.
 
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,435. **Currently 95.82%** (5,208). Not token share. A pair is
+  is dark, over 5,435. **Currently 96.45%** (5,242). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
+- **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
+  hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
+  single type. The occurrence ranking spends effort where the pairs are already
+  lost. The 2-or-more-pair tier is now exhausted — ruled or refused in writing.
 - **100% dark is unreachable**, and is the wrong gate to set. Three classes can
   never clear by evidence: grammatical-morpheme cards (MPA 前綴 is a prefix, not
   a word), tier-J loans, and names no register lists.
