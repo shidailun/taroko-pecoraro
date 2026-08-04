@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-407 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
+404 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 57 | 73 |
+| gloss disagrees | 56 | 70 |
 | no root | 203 | 239 |
 | root unglossed | 37 | 40 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 57 types, 73 pairs
+## gloss disagrees — 56 types, 70 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,15 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### tknayun — 3 pairs
-
-- under **TAXA**
-- § Ungat tknayun mu; yaku bi taxa hiyi!
-- 中 我沒有（旅途的）同伴；我真的完全孤單一人！
-- `t-kayo-un` → **kayo** (no gloss)
-- `t-kayu-un` → **kayu** 木製湯碗／木製湯碗
-- his: 同伴（所期望的、正常的）。
 
 ### embqru — 2 pairs
 

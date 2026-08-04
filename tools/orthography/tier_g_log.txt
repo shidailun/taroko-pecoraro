@@ -22,5 +22,4 @@ pnblexan         pnbrihan         blex           brih               1 derived
 ppskngalun       ppskngalun       kngal          kngal              1 derived
 pttaqe           pttaqi           taqe           taqi               1 derived
 qqlang           qkrang           qlang          krang              1 derived
-rinalox          rinarux          nalox          narux              1 derived
 spktaqe          spktaqi          taqe           taqi               1 derived

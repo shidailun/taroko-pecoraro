@@ -2654,3 +2654,38 @@ are read: `huway` 慷慨, `buwan` and `ruway` are roots in their own right, so
 
 Blocked pairs 432 → **429**; deliverable **5,006 / 92.11%**. Dark 44,029 /
 97.9576%, pale 884. 16/16, 9/9, 28/28.
+
+## Batch 187 — his k was a q, and the map had already said so twice
+
+`tknayun` — TAXA 我沒有同伴 and TK'NAI › Tknayun 同伴（所期望的、正常的）.
+`roots()` reached `kayu` 木製湯碗, a wooden soup bowl, which is the same kind of
+false analysis batch 186 refused: the letters admit it and nothing else does.
+
+**The corpus settles it, sentence against sentence.** `qnay` and `mtqnay` are
+一起走（去）, and `conc.py` returns ten real corpus sentences for `tqnay`:
+*tqnay su ima?* 跟誰去, *tduwa ku tqnay mowsa hug?* 我也可以一起去嗎,
+*asi na pseupu tqnay musa da* 他只好帶著弟弟同行. His own sentence is
+*Ima ka tknayun so?* 誰要陪你去 — **the same sentence**. This is the use the
+phrase rows were kept for: read for one word by a person, not split by a rule.
+
+**This one changes his letters, so it went in the map and not in HAND_RULED.**
+`tknai` → `tqnay`, `tknayan` → `tqnayan`, `tknayun` → `tqnayun`; `tqnay` and
+`tqnayan` are listed, and `tqnayun` is `t-` + `qnayun`, also listed. q↔k is
+excluded as a blind char rule and stays excluded — this is one word decided on
+its gloss, which is the only way that letter may ever move.
+
+**The map had already made the substitution for the sister slots.** `tknai` and
+`tknayan` were ALREADY `tqnay` and `tqnayan` before this batch, derived by the
+generator with no manual entry; only `tknayun` held out on an identity claim.
+The family was evidence, and it was already written down. Adding the three
+manual entries changed exactly one rendered token — the per-token map diff says
+so — and the two that agreed were confirmations, not changes.
+
+**One phantom.** The rebuild also dropped a map key `rinalox`, which reads as a
+lost claim until you look for the token: it is in no entry of `entries.js` in
+any spelling. A projected key no token uses is dead weight, and the DOM confirms
+it — green held at 34 across the rebuild. *A map key is not a claim about the
+page unless a token reaches it.*
+
+`tknayun` ×4 pale → dark. Blocked pairs 429 → **426**; deliverable **5,009 /
+92.16%**. Dark 44,033 / 97.9665%, pale 880, green 34. 16/16, 9/9, 28/28.

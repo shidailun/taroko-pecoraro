@@ -891,6 +891,14 @@
 "mtkumax": null,
 "mtmagu": null,
 "mtmuhung": null,
+"mtqnay": {
+"freq": 2,
+"glosses": [
+"一起走（去）"
+],
+"name": "mtqnay",
+"note": ""
+},
 "mtrawah": {
 "freq": 2,
 "glosses": [
@@ -1279,6 +1287,14 @@
 "qmapah": null,
 "qmilaw": null,
 "qnadi": null,
+"qnay": {
+"freq": 0,
+"glosses": [
+"一起走（去）"
+],
+"name": "qnay",
+"note": "詞意：msepu musa一起走（去）"
+},
 "qnbsranan": null,
 "qntqdan": null,
 "qqrinut": {
@@ -1829,6 +1845,7 @@
 "name": "tkanun",
 "note": ""
 },
+"tknay": null,
 "tknayun": null,
 "tkumax": {
 "freq": 8,
@@ -1860,6 +1877,8 @@
 "tnqriyan": null,
 "tnrikut": null,
 "tpssagan": null,
+"tqnay": null,
+"tqnayun": null,
 "tqriyan": null,
 "trdu": null,
 "treura": null,

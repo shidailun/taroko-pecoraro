@@ -18766,11 +18766,15 @@
   },
   "tknai": {
    "modern": "tqnay",
-   "tier": "L"
+   "tier": "M"
   },
   "tknayan": {
    "modern": "tqnayan",
-   "tier": "L"
+   "tier": "M"
+  },
+  "tknayun": {
+   "modern": "tqnayun",
+   "tier": "M"
   },
   "tksiyuk": {
    "modern": "tksiyuk",
@@ -28178,10 +28182,6 @@
    "modern": "tikai",
    "tier": "R"
   },
-  "tknayun": {
-   "modern": "tknayun",
-   "tier": "R"
-  },
   "tksulao": {
    "modern": "tksuraw",
    "tier": "R"
@@ -30791,12 +30791,6 @@
    "tier": "G",
    "g_stem": "qlang",
    "g_modern": "krang"
-  },
-  "rinalox": {
-   "modern": "rinarux",
-   "tier": "G",
-   "g_stem": "nalox",
-   "g_modern": "narux"
   },
   "slongan": {
    "modern": "slungan",
