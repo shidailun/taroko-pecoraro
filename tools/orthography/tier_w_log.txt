@@ -90,7 +90,6 @@ mplenax          emprinah          mprinah          G/class      1     1
 mpqdolyaq        empqduriq         mpqduriq         P/twin       1     1
 mpqlaqel         empqraqil         mpqraqil         P/twin       1     2
 mpsbulao         empsburaw         mpsburaw         P/twin       1     3
-mpsiling         empsiling         mpsiling         P/class      1     1
 mpsli            empsli            mpsli            P/class      1     1
 mpsliyu          empsriyu          mpsriyu          P/twin       1     1
 mptalil          emptaril          mptaril          P/class      1     1
@@ -106,7 +105,6 @@ mblex            embrih            mbrih            P/twin       0     3
 mblxo            embrhug           mbrhug           P/twin       0     1
 mblyeqan         embliqan          mbliqan          T/class      0     7
 mboai            embuway           mbuway           P/class      0     3
-mbolong          emburung          mburung          M/class      0     1
 mbq'lo           embqru            mbqru            P/class      0     2
 mbqlo            embqru            mbqru            R/class      0     1
 mbskol           embsqur           mbsqur           P/twin       0     2

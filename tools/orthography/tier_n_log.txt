@@ -73,7 +73,6 @@ mityang          mityang          midcap=0    occ=1
 mixang           mihang           midcap=0    occ=1
 mixeng           miheng           midcap=0    occ=1
 mnttlaqel        mnttlaqel        midcap=1    occ=1
-mpsq'lol         mpsq'lul         midcap=1    occ=1
 obin             ubin             midcap=0    occ=1
 okak             ukak             midcap=0    occ=1
 okax             ukah             midcap=0    occ=1

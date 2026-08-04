@@ -73,7 +73,7 @@ of the two levels.
 Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
-from inflection import (HAND_NAMES, HAND_NOT_NAMES, HAND_RULED,
+from inflection import (HAND_LOANS, HAND_NAMES, HAND_NOT_NAMES, HAND_RULED,
                         HAND_SPOKEN, Inflection)
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
@@ -288,12 +288,15 @@ def main():
     # analyser as one.
     lf = os.path.join(HERE, "loan_population.json")
     if os.path.exists(lf):
-        loans = set(json.load(io.open(lf, encoding="utf-8")))
+        # HAND_LOANS joins the file for the reason the file cannot hold it:
+        # build_modern_map.py regenerates loan_population.json, so a borrowing
+        # he tagged in the gloss rather than in `tag` has to live in code.
+        loans = set(json.load(io.open(lf, encoding="utf-8"))) | set(HAND_LOANS)
         loaned = {v for v in (mp.get(t) for t in loans) if v} | \
-                 {ov[t] for t in loans if t in ov}
+                 {ov[t] for t in loans if t in ov} | set(HAND_LOANS)
         loaned = {v.strip().lower() for v in loaned}
-        print("loans: %d values from the %d-token loan population"
-              % (len(loaned), len(loans)))
+        print("loans: %d values from the %d-token loan population (%d by hand)"
+              % (len(loaned), len(loans), len(HAND_LOANS)))
         loaned_vals = loaned
         seen |= loaned
 

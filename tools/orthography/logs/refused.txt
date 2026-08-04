@@ -202,3 +202,38 @@ prjilun	b198  2; 傾斜 is the riqi root, not a jil-shaped one
 ppitay	b198  2; no analysis and no shape the register can meet
 kmupan	b198  2	empkpakux	b198  2	emburung	b198  2	kblungi	b198  2
 mpa	b198  —  untouchable by rule: MPA 前綴 is a prefix, not a word (CLAUDE.md)
+#
+# ===== batch 199 =====
+# OVERTURNED FROM b198. A pin comes down when evidence overturns it. Each of
+# these was refused for a reason the lone-slot instrument answered: his card is
+# one word's paradigm, so a pale slot beside three or more dark ones is a gap the
+# family already fills, not an open question.
+#	prjilun/prjili — refused as "傾斜 is the riqi root"; prjilan, prijil, mrijil,
+#	  emprijil, psrijil are all dark on LIDIL and mrijil is glossed 使彎曲.
+#	kdapan — refused as "寡婦 is kmptuhan", which is a different card. His KDAPAN
+#	  is the -an slot of QODAP 熄滅, where qudak (風)減弱, mqudak, tqudak, ptqudak
+#	  are dark. Value qdakan; the card's headword now renders QDAKAN.
+#	empkpakux, kblungi, emburung, ppitay — same shape, gaps on 4-to-5-dark cards.
+#
+# NEW REFUSALS
+tbiyi	b199  8 across the tbi- family (tbiyi ptbiyi ptbiyan tbiyun ptbiyun tnbiyan)
+#	The dark value on his TABE card is tbiyan — and tbiyan is glossed 下來, not 犁.
+#	An attested value can still be a wrong value; the whole family leans on it, so
+#	the whole family stays pale. 犁 is sakur, which is where his headword already goes.
+msapat	b199  2 (msapat ssapat); sapat is dark but glossed 舖（舖床）, his card is 行為不檢
+qqrut	b199  1; qrut is dark but glossed 啃骨聲 and his card is LOT 梁－橫梁－柱子
+srhqun	b199  5 (srhqun srhqan srhqi); the dark siblings shik/smhik are glossed 吻, not 舔
+qlaq	b199  2; mqraq beside it is 抓 as in seize — 癢/抓癢 is ghguh, kaguh, gmhguh
+lngiyan	b199  3 (lngiyan pslangi); rangi is dark on LANGI but glossed 不遵守習俗（犯忌）
+#	and the register's 剩餘 is sngari / ngari / msngari, a different word. A card
+#	whose head is dark for the wrong reason licenses nothing.
+btuluk	b199  8 (btuluk btluki btlukan btlukun pnbtuluk bntuluk); tlukun and pntlukan
+#	are dark and both LACK his b-. He wavers himself — "Pntlukan (Pnbtlukan ?)" —
+#	so the b is his open question too, and ruling the family means picking a side.
+klulu	b199  7; the register's 葡萄 is tlulug, his is KLULU. A cognate explains a word
+#	but never spells one, and k~t is not one of the three char rules.
+rngut	b199  15 (rngut rmngut rngutan); 懷孕 is knshjilan / srjingan, off shjil 重
+msnoxel	b199  5; 嫉妒 is hkrig, 羨慕 is seura. A lexical substitution, not a respelling
+naru	b199  8; the batch-114 pin stands. One key must serve his NALU 代替 headword
+#	and the seven 好-sense tokens off MALU's n-grade paradigm (Gnalu, Mnalu, Knalu).
+#	代替 in the register is nirih; nothing naru-shaped is listed at all.

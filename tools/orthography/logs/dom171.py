@@ -86,6 +86,15 @@ GONE = ["dlut", "dmlut", "mdlut", "dnlut", "pdlut"]
 # against the 去 of `drut` 輾過去 — his own word gloss 使人碾磨 agrees with the
 # root on nothing. `pdrut` is in HAND_NOT_REGULAR now, so this pin is load-
 # bearing again and not merely stale.
+# [batch 199] THE PIN COMES DOWN, on evidence and not because it tired. What
+# refused it in 196 was rule 2 measuring his 使人碾磨 against a gloss of `drut`
+# reading 輾過去, and no p- path agreed. The register's own gloss of `drut` is
+# 用手揉起來 — rubbing and crumbling with the hand — and his DLUT card is 磨碎－
+# 搓碾－揉皺. Those agree; 輾過去 was the wrong witness to weigh him against. Five
+# slots on that card are dark (drut, dmrut, dnrut, drtan, drtun), so `pdrut` is
+# the causative slot of a root the card has already settled, and a p- causative
+# of 揉/碾 glossed 使人碾磨 is the regular reading of it. Ruled in HAND_RULED and
+# pinned here in the direction it went.
 PIN_TRADE = {"pdrut": 2}
 
 # The syncopated slots. Blocked at the analyser — the root vowel is gone inside
@@ -102,7 +111,15 @@ PIN_TRADE = {"pdrut": 2}
 # and an absent span is not a pale one. The two that remain are genuinely
 # blocked; the two that moved are pinned dark below, where their gain is
 # protected instead of denied.
-PIN_SLOTS = {"dldi": 1, "drudi": 1}
+# [batch 199] And the last two came off it. The block this pin names is real --
+# roots() is never handed `drut` through a form whose root vowel is gone -- but a
+# block in the analyser is not a verdict about the word. The imperative slot is
+# the one his own paradigm spells for us: drtan and drtun are pinned dark two
+# lines down, so the stem is drt-, and the imperative of a drt- stem is `drci`,
+# the same alternation the SBUT card shows in sbtan/sbtun/sbci. Both his spellings
+# (dldi, dludi) now render `drci`; the strings this pin used to name are emitted
+# nowhere, and an absent span is not a pale one. Pinned on what the page shows.
+PIN_SLOTS = {"drci": 2}
 
 # Batch 190's gain, pinned in the direction it actually went.
 PIN_SYNCOPE = {"drtan": 3, "drtun": 2}
@@ -155,8 +172,8 @@ with sync_playwright() as p:
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
-check(trade, PIN_TRADE, "pale", "TRADE")
-check(slots, PIN_SLOTS, "pale", "SLOTS")
+check(trade, PIN_TRADE, "dark", "TRADE")
+check(slots, PIN_SLOTS, "dark", "SLOTS")
 check(sync, PIN_SYNCOPE, "dark", "SYNCOPE")
 for w in GONE:
     if gone.get(w):
@@ -174,9 +191,9 @@ print("dark %d  pale %d  green %d   dark %.4f%%"
       % (tally["dark"], tally["pale"], tally["green"], pct))
 print("GAIN  %d occ on the drut family, off the listed root `drut`"
       % sum(GAIN.values()))
-print("TRADE %d occ handed BACK: pdrut was dark at rank 1 on the 黏 homograph, "
-      "and is now honestly pale" % sum(PIN_TRADE.values()))
-print("SLOTS %d occ still pale: root-internal syncope, no rung is handed `drut`"
+print("TRADE %d occ back to dark: the 196 refusal weighed him against 輾過去; "
+      "the register glosses drut 用手揉起來, which is his card" % sum(PIN_TRADE.values()))
+print("SLOTS %d occ dark as `drci`: his own drt- stem spells the imperative"
       % sum(PIN_SLOTS.values()))
 print("SYNC  %d occ dark since batch 190, on his own full/syncopated witness"
       % sum(PIN_SYNCOPE.values()))
