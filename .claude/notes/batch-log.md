@@ -2588,7 +2588,7 @@ Gained 1, lost 0. Blocked pairs 438 → **435**; deliverable **5,000 / 91.99%**.
 **`mnalu` ruled.** MALU › Mnalu 和睦相處——彼此相愛; m<n>alu is the plain
 perfective of `malu` 好, which the ILRDF dictionary gives at **frequency 661**.
 The gate refused on synonymy for the third time in this run — 和睦 shares no
-character with 好, and being good together is what 和睔 IS. His own note names
+character with 好, and being good together is what 和睦 IS. His own note names
 MKMALU as the frequent equivalent and `mkmalu` is listed. His second `Mnalu`
 (NALU › Mnalu 頂替——以…之名) is a different word and the ruling says so in the
 comment: modern 代替 is `nirih`, and neither `nalu` nor `naru` is listed. What
