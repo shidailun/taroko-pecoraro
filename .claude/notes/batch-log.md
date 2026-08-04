@@ -2865,3 +2865,43 @@ leaves the file, and his book uses that token on the LABE card only — checked.
 Blocked pairs 391 → **383**; deliverable **5,052 / 92.95%**. Dark 44,123 /
 98.1667%, pale 809 → 790, green 34. 16/16, 9/9, 28/28. The `gloss disagrees`
 bucket falls 39 → 31 types, which is where all seven rulings landed.
+
+## batch 192 — eight hand rulings, and a source key that only looked inconsistent
+
+Eight rulings, no map pins, every one measured LOST 0 as it landed: empraqat
+(耀田 vs 三叉的箭頭), mrbuq (凹陷 vs 深), pnrikit (殘廃 vs 瘧), empklutut (親戚 vs
+繼續), knluusan, pknluun, penduk (使之關閉 vs 門；橫隔膜), empngpung (小丘 vs 山崗).
+Seven of the eight are the same refusal the last three batches have been made
+of — two glosses meaning one thing with no character in common — and none of
+them needed a spelling decision, only the reading of the two glosses.
+
+The one that cost something was empngpung. His sub is a single slot he spells
+two ways, Mpnpong and mpngpong, and manual_map sent those two keys to two
+different modern words: empngpung and mpngpung. I read that as an
+inconsistency-within-a-root, repinned mpnpong to mpngpung on the argument that
+his own variant yields it under the plain rules while empngpung needs an e he
+never wrote, and rebuilt. The build answered by mapping BOTH keys to empngpung
+anyway. Tier W — the written schwa before a word-initial labial, batch 25 — had
+already settled the question with a measured argument: ^mp occurs in exactly one
+of 38,687 modern types, modern writes emp- (1,651 types), and his transcription
+drops the schwa word-initially exactly as it does word-internally (xnglyeq →
+hnegliq). The e is not invented; it is what modern orthography writes.
+
+**A source key that looks inconsistent is not a rendered inconsistency.** The
+map is generated, and a post-pass composes with the pins; two keys can differ in
+manual_map.json and still print one word on the card. Read the generated map
+before repinning — the same reflex as the standing rule that only the DOM is
+evidence about colour. Reverted with git checkout on the generated input, and
+modern_map.js came back byte-identical, which is what a clean revert should look
+like.
+
+ILRDF holds none of the prefixed forms — mpngpung, mngpung, pkpngpung,
+pnkpngpung all return nothing — so the register carries pngpung 山崗 alone, with
+six corpus sentences, every one of them a rise of ground: 高山斜稜, 山頂,
+奇萊山南峰. His head PNPONG is 山頂＝隆起一個包 and shares 山 with it, so only the
+sub ever failed. The ruling cleared the whole card: all three PNPONG examples
+now resolve with no blocked span.
+
+DOM: dark 44,140 (98.2046%) | pale 773 | green 34 | total 44,947. Blocked pairs
+383 → 375 (354 with one blocker over 307 types, 21 with two or more).
+Deliverable 5,060 / 5,435 = **93.10%**. Suites 16/16, 9/9, 28/28.

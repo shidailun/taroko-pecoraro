@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-362 pairs are blocked by exactly one type; 21 by two or more and are not credited to any single word.
+354 pairs are blocked by exactly one type; 21 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 31 | 35 |
+| gloss disagrees | 23 | 27 |
 | no root | 199 | 234 |
 | root unglossed | 36 | 38 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 31 types, 35 pairs
+## gloss disagrees — 23 types, 27 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,72 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### empraqat — 1 pair
-
-- under **RAQAT**
-- § Ya aji su empraqat ka hmaan su trabus!
-- 中 我想你不會去耙那塊你要種花生的地吧！
-- `emp-raqat` → **raqat** 三叉的箭頭／三叉的箭頭／電塔
-- his: 進行耙田工作的人－耙田（將來式）。
-
-### mrbuq — 1 pair
-
-- under **RBUQ**
-- § Ga mrbuq cicih ka nii.
-- 中 這裡有點低（有點凹）。（這裡形成一個凹坑！）
-- `m-rbuq` → **rbuq** 深
-- his: 呈凹陷－形成凹穴。
-
-### pnrikit — 1 pair
-
-- under **RIKIT**
-- § Hmuya su bi pnrikit nksa da! Nduwa hari o!
-- 中 你為什麼走路像個殘廢的人？放明智點！
-- `pn-rikit` → **rikit** 不去打獵／不去打獵／搗一次米糕的量／易跌倒／瘸
-- his: 表現得像殘廢者－模仿殘疾。
-
-### empklutut — 1 pair
-
-- under **LUTUT**
-- § Uqi bi siyang bowyak, kika empklutut sunan.
-- 中 你就吃點山豬肉吧，那才會給你力氣。
-- `em-pklutut` → **pklutut** 繼續
-- `empk-lutut` → **lutut** 宗族血統；後裔／親戚／親戚／親戚/家族/遺傳／連結／連結
-- his: 使人強壯、恢復元氣者－給人慰藉者。
-
-### knluusan — 1 pair
-
-- under **LUUS**
-- § Paah knluusan su nanak ka ungat ana manu slhbnan su.
-- 中 正因為你沒有結婚，你才毫無任何煩惱。
-- `kn-luus-an` → **luus** 成熟的人。／成熟的人。
-- his: 獨自－孤獨－單身。
-
-### pknluun — 1 pair
-
-- under **MALU**
-- § Wada su pknluun sknuwan ka sapah su?
-- 中 你什麼時候開始修理你的房子？
-- `p-klui-un` → **klui** (no gloss)
-- `pk-nlu-un` → **nlu** 從…省下／從…省下
-- his: 想要、應當改善的事物。 ／ 治好——修復——改善——修理。
-
-### penduk — 1 pair
-
-- under **ENDUK**
-- § Saw bi penduk ka sapah na.
-- 中 他的房子看起來像是關著的！
-- `p-enduk` → **enduk** 門;橫隔膜／門；橫隔膜
-- his: 使之關閉——表現得像是關閉的（？）。
-
-### empngpung — 1 pair
-
-- under **PNGPUNG**
-- § Ini biyaw empngpung ka bnaqig siyaw gsilung (silung)
-- 中 沿著海邊（在岸上），沙子很快就形成了波紋。
-- `em-pngpung` → **pngpung** 山崗
-- his: 起伏的－隆起成小丘、成包。
 
 ### psqgu — 1 pair
 

@@ -690,9 +690,65 @@ HAND_SPOKEN = """nta""".split()
 # kn- + kslaan, and his own gloss for it is the pointer "d° dans la forme
 # accomplie" — a gloss with no content for the test to read, the mritan shape.
 # His proposed root "(R. = KSUL ?)" is in no register; it stays his question.
+# empraqat (his Mplaqat) — batch 192. laqat is attested nowhere, raqat is
+# (三叉的箭頭／電塔), so l→r is unopposed and every part of the word is attested:
+# emp- + raqat. The gloss test refuses because 耀田 shares nothing with 三叉的箭頭.
+# The link is the object, and both notes describe it the same way: ILRDF glosses
+# raqat as "aga leesug" 三叉的箭頭 and "qra samaw" 電塔 — the fork-shape word —
+# while his own LAQAT (R) note says the 耀 was made of branches arranged in a fan
+# (呈扇形排列的樹枝). Recorded as an inference from the object, not a character match;
+# no web source confirms the tool sense.
+# mrbuq (his Ml'boq) — batch 192. Root rbuq 深, 23 corpus sentences, one of them
+# a definition in the language: "Qnrbqan aji dhqun qmita o kisa balay bi rbuq"
+# 看不見的深才是真正的深. His L'BOQ (R) is 洞－凹穴－車轍溝痕 and Ml'boq is
+# 呈凹陷－形成凹穴, which shares no character with 深 — but his own sibling Mtl'boq
+# reads 被挖空、凹陷者－下陷者－深. Same card, same root: one slot passes the test
+# and the other fails on nothing but which synonym he reached for.
+# pnrikit (his Pnlikit) — batch 192. likit is attested nowhere; rikit is, glossed
+# 不去打獵／搵一次米糕的量／易跌倒／瘁 — and 瘁 is exactly his LIKIT (R)
+# 殘廃的－畑形的－小兒麻痺, with no character in common. mrikit is attested too and
+# renders his Mlikit 殘廃的人, so the register already carries another slot of the
+# same card. pn- + rikit, "to act the cripple".
+# empklutut (his Mpklutut) — batch 192. His LUTUT (R) 親屬－有關聯－相連 is
+# lutut 親戚／連結, which matches on 親 and 連, so the head passes the test; and
+# pklutut is itself attested (繼續). The refusal is confined to the pk- branch,
+# where his gloss drifts to 慕藉－強身 — to knit a person back together — and
+# touches neither 親戚 nor 繼續. emp- + pk- + lutut, every part attested.
+# knluusan (his Knlsan / knl'san) — batch 192. The sub carries no gloss at all,
+# and the root luus is glossed 成熟的人, which does not obviously mean his LUUS (R)
+# 獨自－孤獨－單身. The ILRDF Note decides it: luus is defined in Truku as
+# "mqsuqi knwauwa ni knrisaw" — past girlhood and past young-manhood (uwa the
+# unmarried girl, risaw the young man, mqsuqi gone beyond). That is not maturity
+# in general but staying single past the age for it, which is his card, and it is
+# what his sentence says: it is your unmarried state that leaves you carefree.
+# kn- + luus + -an, the vowel restored from his knl'san.
+# pknluun (his Pknluon) — batch 192. The analyser offers klui (no gloss) and nlu
+# 從…省下; the verb is pkmalu 使……有益的, ILRDF freq 56, which is the slot above
+# it on his own MALU card: Pkmalu 治好——修復——改善——修理 and Pknluon
+# 想要、應當改善的事物 — 改善 in both, his own gloss making the link.
+# malu syncopates its ma- in derived verbs (kmluun 醫治；痊癒, smluun 修理／造出,
+# pskmluun), and the nlu...un shape his spelling gives is itself attested in
+# snluun / snluan. No -un form of pkmalu is attested in any spelling, so nothing
+# outranks the char-rule form and the pair is his -un of pkmalu.
+# penduk (his Pnduk) — batch 192. Root enduk 門;橫隔膜, the vowel restored from
+# his pnduk. His NDUK head is 門——關閉的 — 門 in both, so the head passes — and
+# mnduk 曾關門 is attested, carrying his Mnduk. Only the p- slot fails, because
+# there he wrote 使之關閉 instead. A door and a diaphragm are both what closes an
+# opening; p- + enduk is to make it so.
+# empngpung (his Mpnpong, which he also spells mpngpong) — batch 192. Root
+# pngpung 山崗 is attested and has six corpus sentences, every one of them a rise
+# of ground — 高山斜稜, 山頂, 奇萊山南峰. His head PNPONG is 山頂＝隆起一個包
+# and shares 山 with it; the refusal falls only on the sub, where he wrote
+# 起伏的－隆起成小丘 — 小丘 and 山崗 are the same hillock with no character in
+# common. I first read his two spellings as two modern words and repinned the
+# slot to mpngpung; tier W had already answered that. ^mp is one type in 38,687,
+# modern writes the schwa, and his transcription drops it exactly as it does
+# word-internally. The map was consistent at render time and only the source
+# keys looked split. No prefixed form is in ILRDF — mpngpung, mngpung, pkpngpung,
+# pnkpngpung all return nothing — so the register carries the root alone.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
-                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan""".split()
+                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
