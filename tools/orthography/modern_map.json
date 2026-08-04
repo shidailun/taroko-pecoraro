@@ -3312,6 +3312,10 @@
    "modern": "gntrabus",
    "tier": "T"
   },
+  "gnwit": {
+   "modern": "gneuwit",
+   "tier": "M"
+  },
   "goto": {
    "modern": "gutu",
    "tier": "A"
@@ -6934,9 +6938,8 @@
    "tier": "M"
   },
   "m'akai": {
-   "modern": "makai",
-   "tier": "M",
-   "elision_dropped": "m'akai"
+   "modern": "meakay",
+   "tier": "M"
   },
   "m'alax": {
    "modern": "malah",
@@ -7091,6 +7094,10 @@
   "ma'idao": {
    "modern": "midaw",
    "tier": "L"
+  },
+  "ma'iso": {
+   "modern": "ma isu",
+   "tier": "M"
   },
   "ma'lan": {
    "modern": "malan",
@@ -10410,6 +10417,10 @@
    "modern": "nasi",
    "tier": "id"
   },
+  "naso": {
+   "modern": "nasug",
+   "tier": "M"
+  },
   "nato": {
    "modern": "natu",
    "tier": "B"
@@ -13568,6 +13579,10 @@
    "modern": "psnru",
    "tier": "B"
   },
+  "psn'loon": {
+   "modern": "psnruun",
+   "tier": "M"
+  },
   "psnagan": {
    "modern": "psnagan",
    "tier": "id"
@@ -13591,6 +13606,10 @@
   "psngoloq": {
    "modern": "psnguruq",
    "tier": "A"
+  },
+  "psnloon": {
+   "modern": "psnruun",
+   "tier": "M"
   },
   "psnnai": {
    "modern": "psnnai",
@@ -15562,6 +15581,10 @@
   "sbloa": {
    "modern": "sbruwa",
    "tier": "B"
+  },
+  "sboai": {
+   "modern": "sbgay",
+   "tier": "M"
   },
   "sbsuk": {
    "modern": "sbsuk",
@@ -26205,10 +26228,6 @@
    "modern": "gmrup",
    "tier": "R"
   },
-  "gnwit": {
-   "modern": "gnwit",
-   "tier": "R"
-  },
   "iti": {
    "modern": "ici",
    "tier": "R"
@@ -26550,10 +26569,6 @@
   },
   "m'gwi": {
    "modern": "mguy",
-   "tier": "R"
-  },
-  "ma'iso": {
-   "modern": "maisu",
    "tier": "R"
   },
   "mabal": {
@@ -26994,10 +27009,6 @@
   },
   "naqox": {
    "modern": "naqux",
-   "tier": "R"
-  },
-  "naso": {
-   "modern": "nasu",
    "tier": "R"
   },
   "natas": {
@@ -27822,10 +27833,6 @@
   },
   "sbnawan": {
    "modern": "sbnawan",
-   "tier": "R"
-  },
-  "sboai": {
-   "modern": "sbuwai",
    "tier": "R"
   },
   "sdangan": {
@@ -30415,18 +30422,6 @@
    "tier": "E",
    "e_stem": "psklol",
    "e_modern": "psqrul"
-  },
-  "psn'loon": {
-   "modern": "psnluun",
-   "tier": "E",
-   "e_stem": "snloon",
-   "e_modern": "snluun"
-  },
-  "psnloon": {
-   "modern": "psnluun",
-   "tier": "E",
-   "e_stem": "snloon",
-   "e_modern": "snluun"
   },
   "psqmai": {
    "modern": "psqmai",

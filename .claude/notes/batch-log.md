@@ -3086,3 +3086,78 @@ DOM: dark 44,213 (98.3692%) | pale 699 | green 34 | total 44,946. Blocked pairs
 348 → 324 (304 with one blocker over 262 types, 20 with two or more). The sentence-
 gloss-only bucket fell from 44 types / 47 pairs to 20 / 23. Deliverable
 5,111 / 5,435 = **94.04%**. Suites 16/16, 9/9, 28/28.
+
+## Batch 196 — a fourth colour, and the pin that was waiting for it
+
+Thirteen rulings, two refusals, one claim withdrawn, and a display change the
+user asked for: **names, onomatopoeia and Japanese loans go a deeper brown.**
+
+**The rulings.** `psmkun snka stmaqun muli pneydang psnruun pklilug ciyusun
+ppskngalun` through `HAND_RULED` (78 → 87), and `ma isu` / `nasug` / `sbgay` /
+`psnruun` / `meakay` through `manual_map.json` (1,869 → 1,877 keys). Two patterns
+recurred: *the gloss table holds one sense of a word that has three* — `smuk` is
+the tree in the table and 釘子 in the e-dictionary — and *the map had already
+ruled the root and left one slot to the blind rules*, `gnwit` beside
+wit→uwit/mawit→meuwit, `psnluun` beside sn'lo→snru. `meakay` is the shape worth
+keeping: pinning the spelling let the analyser reach `akay` 痛, whose gloss
+agrees with his card, so the word went dark with no hand rule at all. `gneuwit`
+was pinned as a **deliberate pale** — regular by `kneuwit`/`gneabu`, attested
+nowhere, so it buys no dark; what it buys is that one card stops saying two
+different things about one root.
+
+Refused into `refused.txt`: `narung` (no card, no candidate) and `ddjilun`
+(`djilan`/`djilun` listed but glossed nowhere; the e-dictionary holds none of
+five queried forms).
+
+**The fourth colour is a display change, not a metric change, and that is the
+point.** Names (247 values) and loans (141) were already dark — folded into
+`seen` and emitted as code **1**, which says *a modern source lists this word*.
+No source lists `budosyu` 葡萄酒 and none lists every man in a 1977 village.
+The claim was true in colour and false in kind. Code **16** now names the real
+warrant, 256 values reach the page on it, and `app.js` paints them
+`--accent-deep`. The class is **additive** — the span carries `w-mod w-cls` —
+so `blockers.py` and `dom171.py`, which both select on `w-mod`, keep counting
+these as dark and nothing downstream had to be taught the new state. Measured
+from the DOM (`logs/brown196.py`): 673 occurrences, 256 distinct, computed
+colour `rgb(90,36,22)` against `rgb(156,69,48)` for ordinary dark. **A harness
+that cannot see a colour reports it as an absence, so the census asks the page
+for the colour and not the stylesheet for the rule.**
+
+Onomatopoeia was voted in with the other two and got no population, on his own
+evidence: his book declares **7 sound cards and 2 name cards**. The onomatopoeia
+problem was the analyser's roots, never his words.
+
+**`pdrut`, and what rule 2 will agree on if you let it.** dom171.py had pinned
+`pdrut` pale with an instruction on the pin — *if this ever goes dark, check that
+it did so on a gloss and not on another `id` freeze*. It was dark, at code 2, and
+the check refused it. Not a freeze: the character his gloss and the root's share
+is **去**, from his EXAMPLE sentence 我沒時間去請人磨小米 against `drut` 輾過去.
+A man with no time *to go* and a millstone that rolls *over* are not the same 去,
+and neither is about grinding; his own word gloss, 使人碾磨, agrees with the root
+on nothing. In `HAND_NOT_REGULAR`, and the LOST line reports exactly one value.
+
+Whether that was a rung or a hand list was **measured, not assumed**
+(`logs/share196.py`): of 1,068 code-2 values, 593 distinct characters carry the
+agreements; 223 reach it only through a sentence-shaped string of his, but 72 of
+those agree on a *run* (燒焦, 呻吟, 上面, 先走), which coincidence does not supply;
+and of the 151 single-character ones only **nine** agree on a character thin
+enough to mean nothing — `empsparu` 大, `kdagun` 來, `mkatan` 來, `pdrut` 去,
+`pngalun` 來, `psagan` 來, `spkmalu` 好, `tnklaun` 到, `tnqtaan` 到. Nine is a
+list to read one at a time, which is what batch 142 concluded about 大/小. The
+other eight are the queue.
+
+**Two stale pins came off the same file, on batch 190's evidence.** `dldan` and
+`dlutun` were pinned pale as syncopated slots no rung could reach; batch 190
+respelled them `drtan`/`drtun` on his own full-versus-syncopated witness and the
+syncope rung fired on both. The strings the pin named are no longer rendered at
+all, and **an absent span is not a pale one** — the test was reporting a colour
+it could not see. They are pinned dark now, in the direction they actually went.
+
+`loose179.py`, `cite179.py` and `nav178.py` — the three standing suites — lived
+only in the session scratchpad and are now in `logs/`, where a later session can
+still run them.
+
+DOM: dark 44,230 (98.4070%) — of which 673 settled by class — pale 682, green 34,
+total 44,946. Blocked pairs 324 → **310** (290 with one blocker over 250 types, 20
+with two or more); the sentence-gloss-only bucket 20 types → 10. Deliverable
+5,125 / 5,435 = **94.30%**. Suites 16/16, 9/9, 28/28; dom171 4/4.

@@ -891,6 +891,20 @@
   //   w-unv  pale brown  a curated table proposed it and no modern source has it
   //   w-raw  green       nothing vouched for it; the blind character rules ran
   //
+  // and a fourth that rides on the first, because it is dark for a different
+  // reason than the rest of the dark is:
+  //
+  //   w-mod w-cls  deep brown  settled by CLASS, not by attestation — a personal
+  //                            name, or a Japanese or Chinese loan, which no
+  //                            Truku wordlist was ever going to hold. The
+  //                            attestation test is not one these can fail; it is
+  //                            one they cannot sit, so passing them on the
+  //                            register's silence is right and saying so is
+  //                            righter. The class is ADDITIVE on purpose: every
+  //                            harness that counts dark selects `.w-mod` and
+  //                            keeps counting these, which is what a colour that
+  //                            no test can see would have cost us.
+  //
   // The middle one is not the same as wrong. Most of it is regular morphology a
   // 38,685-type dictionary simply does not list — `ssinaw` off `sinaw` 洗;清潔,
   // `embliqan` off `emblaiq` 安心;幸福. But it is not evidence either, and the
@@ -908,6 +922,26 @@
     return true;
   }
 
+  // Code 16 in MODERN_VERIFIED means the value got in on its class — the name
+  // population or the loan population — and on nothing else. One class-only part
+  // is enough to mark the whole value: in a two-word value like a name plus its
+  // particle, the name is the part the register was never going to hold.
+  function classOnly(value) {
+    if (!value) return false;
+    var parts = String(value).split(" ");
+    for (var i = 0; i < parts.length; i++) {
+      if (MODERN_VERIFIED[parts[i]] === 16) return true;
+    }
+    return false;
+  }
+
+  // Dark, and which dark. Always keeps `w-mod` in front so a selector or a test
+  // looking for dark finds it.
+  function darkClass(value) {
+    if (!attested(value)) return "w-unv";
+    return classOnly(value) ? "w-mod w-cls" : "w-mod";
+  }
+
   // The class a Truku word gets. Mirrors modernize()'s resolution order exactly,
   // because a span that says "verified" has to be reporting on the value that
   // same word will actually display.
@@ -915,13 +949,13 @@
     var key = wordKey(word);
     // A proclitic join already built the modern form, so the key IS the value.
     if (Object.prototype.hasOwnProperty.call(CLITIC_FORMS, key)) {
-      return attested(key) ? "w-mod" : "w-unv";
+      return darkClass(key);
     }
     if (Object.prototype.hasOwnProperty.call(WORD_OVERRIDES, key)) {
-      return attested(WORD_OVERRIDES[key]) ? "w-mod" : "w-unv";
+      return darkClass(WORD_OVERRIDES[key]);
     }
     if (Object.prototype.hasOwnProperty.call(MODERN_MAP, key)) {
-      return attested(MODERN_MAP[key]) ? "w-mod" : "w-unv";
+      return darkClass(MODERN_MAP[key]);
     }
     return "w-raw";
   }
@@ -1988,7 +2022,7 @@
     // question spellClass would have asked, of the right string.
     if (w.root) {
       h += '<span class="tag stub-parent slot-parent" data-ref="' + esc(w.root) +
-        '">→ <span class="' + (attested(w.root) ? "w-mod" : "w-unv") + '">' +
+        '">→ <span class="' + darkClass(w.root) + '">' +
         esc(tidyForm(formText(w.root))) + "</span></span>";
     }
     h += "</div>";
@@ -2000,7 +2034,7 @@
     // ON that respelling, so the root is only as good as it is.
     h += '<p class="fine morph-note">' +
       esc((w.root ? WORD_NOTE_1 : w.amb ? WORD_NOTE_2 : WORD_NOTE_3) +
-          (spellClass(w.key) === "w-mod" ? "" : WORD_NOTE_UNV)) + "</p>";
+          (spellClass(w.key).indexOf("w-mod") === 0 ? "" : WORD_NOTE_UNV)) + "</p>";
     var rows = Object.prototype.hasOwnProperty.call(CONC_IDX, w.key) ? CONC_IDX[w.key] : [];
     h += '<p class="conc-form">' + esc("Examples of use (" + rows.length +
       ") / 用例（" + rows.length + "）") + "</p>";
@@ -2847,8 +2881,8 @@
       "<p>本辭典以詞根（root word）為主要條目，並非收錄每一個詞形變化。例句中出現的語法助詞或動詞變位形式，可能沒有獨立詞條。</p>" +
       "<p>Cross-referencing against a modern-orthography Truku corpus confirmed that the example-sentence words without their own headword are almost entirely inflected or derived forms of roots already in the dictionary (as noted above), or the same word under a different spelling; genuine lexical gaps are very few.</p>" +
       "<p>經與現代太魯閣語語料庫比對，證實例句中未設獨立詞條的詞彙，絕大多數為已收錄詞根的屈折或派生形式（如上所述），或同詞的不同拼寫；真正的詞彙缺口極少。</p>" +
-      "<p>Pecoraro's own 1977 spelling is what the book prints and what this edition stores; a modern spelling can be switched on under ⚙, word by word rather than by rule. It is shown in two shades so you can see how far it is a claim and how far a proposal: <b style=\"color:var(--accent)\">dark brown</b> where a modern Truku source has the word, or has a root the word is a regular inflection of, and <b style=\"color:var(--accent-weak)\">pale brown</b> where neither is true and the spelling is only our best reading — most often a personal name, which no dictionary lists. <b>97.7% of the words on screen are in the dark brown.</b></p>" +
-      "<p>本書所印、本版所存者為貝科拉羅神父1977年之原文拼寫；現代拼寫可於 ⚙ 開啟，逐詞比對而非套用通則。現代拼寫以深淺兩色標示，以區別確證與推測：<b style=\"color:var(--accent)\">深棕色</b>表示現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形；<b style=\"color:var(--accent-weak)\">淺棕色</b>表示兩者皆無，僅為本辭典之判讀，多為辭書不收的人名。<b>螢幕上 97.7% 的詞屬深棕色。</b></p>" +
+      "<p>Pecoraro's own 1977 spelling is what the book prints and what this edition stores; a modern spelling can be switched on under ⚙, word by word rather than by rule. It is shown in three shades so you can see how far it is a claim and how far a proposal: <b style=\"color:var(--accent)\">dark brown</b> where a modern Truku source has the word, or has a root the word is a regular inflection of; <b style=\"color:var(--accent-deep)\">a deeper brown</b> where no wordlist can settle the word either way — a personal name or a Japanese loan, which its class settles instead; and <b style=\"color:var(--accent-weak)\">pale brown</b> where neither is true and the spelling is only our best reading. <b>98.4% of the words on screen are in the brown.</b></p>" +
+      "<p>本書所印、本版所存者為貝科拉羅神父1977年之原文拼寫；現代拼寫可於 ⚙ 開啟，逐詞比對而非套用通則。現代拼寫以三色標示，以區別確證與推測：<b style=\"color:var(--accent)\">深棕色</b>表示現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形；<b style=\"color:var(--accent-deep)\">更深棕色</b>表示辭書無從判定之詞——人名與日語借詞，依其類別判定；<b style=\"color:var(--accent-weak)\">淺棕色</b>表示兩者皆無，僅為本辭典之判讀。<b>螢幕上 98.4% 的詞屬棕色。</b></p>" +
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
       "<p class=\"fine\">由嶺南大學翻譯系副教授石岱崙數位化整理。</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
@@ -2900,7 +2934,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Modern spelling is shown in three colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (40,617 of the 44,475 words on screen, 4,466 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from: often a personal name, sometimes a guess (3,832 words, 2,088 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (26 words). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以三種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（40,617 詞次，4,466 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根，多為人名，亦可能為推測（3,832 詞次，2,088 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（26 詞次）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
+      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,557 of the 44,946 words on screen, 5,781 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name or a Japanese loan — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (673 words, 256 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (682 words, 473 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (34 words, 25 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,557 詞次，5,781 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名與日語借詞，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒，以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（673 詞次，256 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（682 詞次，473 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（34 詞次，25 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +

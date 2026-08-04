@@ -5,6 +5,7 @@
   --muted: #8a8072;
   --accent: #9c4530;
   --accent-weak: #bd7f6a;
+  --accent-deep: #5a2416;
   --accent-soft: #f4e4dd;
   --rule: #e3dac9;
   --truku: #14544a;
@@ -27,6 +28,7 @@
     --muted: #9c9184;
     --accent: #d98a70;
     --accent-weak: #a4705f;
+    --accent-deep: #c56a45;
     --accent-soft: #3a2b24;
     --rule: #3b342a;
     --truku: #86c7b6;
@@ -448,13 +450,16 @@ main {
    modern spelling is a word anyone else writes" are different claims:
 
      deep brown  a modern source has this exact word — dictionary or spoken corpus
+     darker      settled by its class instead: a name or a loan, which no Truku
+                 wordlist was ever going to list (`w-cls`, always beside `w-mod`)
      pale brown  a curated table proposed it; no modern source has it
      green       nothing vouched for it, so the blind character rules ran
 
    Pale is not the same as wrong — most of it is regular morphology the modern
    dictionary happens not to list — but it is a proposal, not evidence, and the
    pale words plus the green ones are exactly what is left to verify. */
-.tag .w-mod, .tag .w-unv, .tag .w-raw, .tag .crossref-link { color: var(--truku); }
+.tag .w-mod, .tag .w-unv, .tag .w-raw, .tag .w-cls,
+.tag .crossref-link { color: var(--truku); }
 body.spelling-modern .hw,
 body.spelling-modern .sub-form,
 body.spelling-modern .stub-hw,
@@ -469,11 +474,22 @@ body.spelling-modern .tag .w-raw { color: var(--truku); }
 body.spelling-modern .w-unv,
 body.spelling-modern .tag .w-unv { color: var(--accent-weak); }
 
+/* Settled by class, not by attestation: a personal name, or a Japanese or
+   Chinese loan. It is dark — the spelling is not in doubt, and the span keeps
+   `w-mod` so every dark count still counts it — but the evidence behind it is
+   the register's silence rather than the register's word, and a deeper brown is
+   how the page says which. Written after the `w-mod` rules and at the same
+   specificity, so it wins by order wherever both apply. */
+body.spelling-modern .w-cls,
+body.spelling-modern .tag .w-cls,
+body.spelling-modern .gloss .w-cls { color: var(--accent-deep); }
+
 /* A Truku form cited inside a definition. It is a word, so it follows the word
    colours rather than the gloss's — green in Pecoraro's spelling, brown once it
    has a verified modern one, and still green inside a modern gloss when it has
    not. */
-.gloss .w-mod, .gloss .w-unv, .gloss .w-raw, .gloss .crossref-link { color: var(--truku); }
+.gloss .w-mod, .gloss .w-unv, .gloss .w-raw, .gloss .w-cls,
+.gloss .crossref-link { color: var(--truku); }
 body.spelling-modern .gloss .w-mod,
 body.spelling-modern .gloss .crossref-link { color: var(--accent); }
 body.spelling-modern .gloss .w-unv { color: var(--accent-weak); }

@@ -80,11 +80,32 @@ GONE = ["dlut", "dmlut", "mdlut", "dnlut", "pdlut"]
 
 # The honest half: dark-and-wrong at rank 1, now pale-and-right. If this ever
 # goes dark, check that it did so on a gloss and not on another `id` freeze.
+#
+# [batch 196] It did go dark, and the check the pin asked for is what refused
+# it: rule 2, agreeing on the 去 of his example sentence 我沒時間去請人磨小米
+# against the 去 of `drut` 輾過去 — his own word gloss 使人碾磨 agrees with the
+# root on nothing. `pdrut` is in HAND_NOT_REGULAR now, so this pin is load-
+# bearing again and not merely stale.
 PIN_TRADE = {"pdrut": 2}
 
 # The syncopated slots. Blocked at the analyser — the root vowel is gone inside
 # the form, so no rung is ever handed `drut`. Same block as knsbusan (batch 170).
-PIN_SLOTS = {"dlutun": 2, "dldan": 3, "dldi": 1, "drudi": 1}
+#
+# [batch 196] Two of the four came off this pin in batch 190, on evidence, and
+# the pin was left standing until this batch caught it. That batch read the
+# alternation the wordlist shows — `brut`→`brutun` keeps the vowel, `krut`→
+# `krtun` drops it — and let HIS OWN witness break the tie, since he wrote DLUT
+# full and `Dldun`/`Dldan` syncopated. Pinned `drtun`/`drtan`, and the syncope
+# rung, which had been in the ladder all along and could never see the root
+# through the `l`, fired on both (code 11). So the strings this pin named are
+# no longer rendered at all — a pin on a string nothing emits asserts nothing,
+# and an absent span is not a pale one. The two that remain are genuinely
+# blocked; the two that moved are pinned dark below, where their gain is
+# protected instead of denied.
+PIN_SLOTS = {"dldi": 1, "drudi": 1}
+
+# Batch 190's gain, pinned in the direction it actually went.
+PIN_SYNCOPE = {"drtan": 3, "drtun": 2}
 
 # The word this card is NOT about. Adhesion, dark on its own account, untouched.
 PIN_NOT_GLUE = {"dmrut_check": 0}
@@ -130,11 +151,13 @@ with sync_playwright() as p:
     gone = pg.evaluate(SPANS, sorted(GONE))
     trade = pg.evaluate(SPANS, sorted(PIN_TRADE))
     slots = pg.evaluate(SPANS, sorted(PIN_SLOTS))
+    sync = pg.evaluate(SPANS, sorted(PIN_SYNCOPE))
     b.close()
 
 check(gain, GAIN, "dark", "GAIN")
 check(trade, PIN_TRADE, "pale", "TRADE")
 check(slots, PIN_SLOTS, "pale", "SLOTS")
+check(sync, PIN_SYNCOPE, "dark", "SYNCOPE")
 for w in GONE:
     if gone.get(w):
         fail.append("GONE %s: his spelling still rendered, %s" % (w, gone[w]))
@@ -155,6 +178,8 @@ print("TRADE %d occ handed BACK: pdrut was dark at rank 1 on the 黏 homograph, 
       "and is now honestly pale" % sum(PIN_TRADE.values()))
 print("SLOTS %d occ still pale: root-internal syncope, no rung is handed `drut`"
       % sum(PIN_SLOTS.values()))
+print("SYNC  %d occ dark since batch 190, on his own full/syncopated witness"
+      % sum(PIN_SYNCOPE.values()))
 print("failures: %d" % len(fail))
 for f in fail:
     print("  " + f)

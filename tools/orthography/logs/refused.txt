@@ -95,3 +95,17 @@ empslangan	b195  his rust root refused at b194 as mslangan
 #     by rust. Same card, same root, same absence: the register rusts with
 #     girang, not with anything shaped like slangan. A second slot on a root
 #     already searched out is not a second question.
+narung	b196  his nalong, XETI › Mxeti § Xea ka mnangal nalong, mxeti ko bi ka yako
+#	「得獎的是他；我嗎，排在他後面很多。」 The word is the prize, and it has no card of his own —
+#	nalong occurs once in the whole book, in this sentence. The analyser reaches arung
+#	穿山甲/愁眉苦臉, a pangolin, which is the letters and not the sense. Searching from the
+#	meaning instead: modern Truku says the prize with snadu 獎勵/工資, sngqaras 獎品 (from
+#	qaras 高興), psdkaan 獎項 — not one of them is a shape his nalong could be. Neither
+#	narung nor nalung is in the wordlist or the e-dictionary at all. No root, no candidate.
+ddjilun	b196  his dddilun, DIDIL › Pdidil 使人用手提 § Klxangi balae! dddilun ka nii uxai ppaon
+#	「要特別小心!這個要用手提,不可背在背上。」 The shape is there and the meaning is nowhere.
+#	The wordlist has djilan and djilun, both of them listed with no gloss at all; the
+#	parquets have no djil token of any kind; the e-dictionary was asked for djil, djilan,
+#	djilun, ddjil and ddjilun and holds none of the five. Two unglossed listings are a
+#	shape hit, and a shape hit is not evidence — there is no gloss to agree with his
+#	用手提, so nothing here can be tested. His reduplicated ddjilun is not listed either way.

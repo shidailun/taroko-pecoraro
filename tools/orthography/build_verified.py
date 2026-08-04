@@ -241,6 +241,17 @@ def main():
     # claim being made about a population token IS "this is how the name is
     # written". HAND_NAMES joins it: those are names reached only through an
     # example sentence, so his tagger never saw them and tier N never fired.
+    # A word can be settled by CLASS instead of by attestation, and the page
+    # should not pretend the two are the same evidence. Names and loans are let
+    # through below because no Truku wordlist was ever going to hold them — an
+    # argument about the register, not a sighting of the word — so the values
+    # whose ONLY warrant is class membership are marked here and emitted with
+    # their own code, which app.js paints a deeper brown. Snapshotted BEFORE the
+    # two blocks run: a name that is also a listed common word keeps the
+    # attestation it earned and is not demoted to a class.
+    seen_before_class = set(seen)
+    named_vals = set()
+    loaned_vals = set()
     nf = os.path.join(HERE, "ilrdf_names.json")
     pf = os.path.join(HERE, "name_population.json")
     if os.path.exists(pf):
@@ -255,6 +266,7 @@ def main():
             print("names: %d values from the %d-token name population + %d "
                   "hand-ruled; %d of them the ILRDF registry also lists"
                   % (len(named), len(pop), len(HAND_NAMES), len(named & reg)))
+        named_vals = named
         seen |= named
 
     # The LOAN POPULATION — the same argument the name block makes two
@@ -282,7 +294,10 @@ def main():
         loaned = {v.strip().lower() for v in loaned}
         print("loans: %d values from the %d-token loan population"
               % (len(loaned), len(loans)))
+        loaned_vals = loaned
         seen |= loaned
+
+    class_only = (named_vals | loaned_vals) - seen_before_class
 
     # Every value a brown span can display. CLITIC_FORMS hands the word back
     # unchanged, so there the key IS the value.
@@ -520,14 +535,30 @@ def main():
         "// the whole evidence. The pointer must land on a root the morphology\n"
         "// found; it may never supply one, because his 參見 notes cite synonyms as\n"
         "// well as forms and a synonym says nothing about how THIS word is spelt.\n"
-        "// app.js paints all fifteen in the deep brown; a value NOT in here is\n"
+        "// 16 = SETTLED BY CLASS (%d), and the only code here that is not a rung\n"
+        "// of the ladder. Rules 1-15 all ask a wordlist a question. A personal\n"
+        "// name and a Japanese loan cannot sit that test — not fail it, sit it:\n"
+        "// no Truku wordlist will ever hold `abura` 油 or `budosyu` 葡萄酒, and no\n"
+        "// register lists every man in a 1977 village. These were already dark,\n"
+        "// folded into the attested set and emitted as 1, which said a source\n"
+        "// LISTS them and no source does. So the warrant is named instead of\n"
+        "// borrowed: the value is in the name population or the loan population\n"
+        "// and reached this file no other way. app.js paints it a deeper brown\n"
+        "// again, so the page distinguishes a word a modern source vouches for\n"
+        "// from a word whose class decides it.\n"
+        "// app.js paints all sixteen in the deep brown; a value NOT in here is\n"
         "// still a proposal and stays pale.\n"
         "window.MODERN_VERIFIED = {\n"
         % (len(good), len(keys), len(listed), len(infl), len(vouch), len(ungl),
            len(outv), len(nochi), len(vroot), len(sistr), len(syncp), len(awag), len(restd), len(chain),
-           len(afx), len(famly), len(xref)))
+           len(afx), len(famly), len(xref), len(class_only & set(good))))
+    ncls = 0
     for v in good:
-        out.write('  "%s": %d,\n' % (v, emit[lv[v]]))
+        code = emit[lv[v]]
+        if v in class_only:
+            code = 16          # settled by class: a name or a loan, never listed
+            ncls += 1
+        out.write('  "%s": %d,\n' % (v, code))
     out.write("};\n")
     out.close()
     print("listed: %d   regularly inflected: %d   vouched by its paradigm: %d   "
@@ -543,6 +574,7 @@ def main():
              len(vroot), len(sistr),
              len(syncp), len(awag), len(restd), len(chain), len(afx), len(famly), len(xref),
              len(keys) - len(good), len(keys)))
+    print("settled by class (code 16, deeper brown): %d" % ncls)
     print("wrote site/verified.js")
 
 

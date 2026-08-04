@@ -90,8 +90,6 @@ pntblayan        pntblayan        ptblayan       ptblayan       derived
 ppyaon           ppyaun           pya            pya            derived
 psdxyaqon        psthiyaqun       sdxyaqon       sthiyaqun      derived
 psklolun         psqrulun         psklol         psqrul         derived
-psn'loon         psnluun          snloon         snluun         derived
-psnloon          psnluun          snloon         snluun         derived
 psqmai           psqmai           sqmai          sqmai          derived
 psttui           psttui           ttui           ttui           derived
 ptgmaxan         ptgmaxan         gmaxan         gmaxan         derived

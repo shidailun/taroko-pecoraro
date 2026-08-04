@@ -78,7 +78,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,435. **Currently 91.08%** (4,950). Not token share. A pair is
+  is dark, over 5,435. **Currently 94.30%** (5,125). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **100% dark is unreachable**, and is the wrong gate to set. Three classes can
   never clear by evidence: grammatical-morpheme cards (MPA 前綴 is a prefix, not
@@ -87,6 +87,11 @@ These were each learned by breaking something. Evidence for every one is in
   `build_verified.py` as of batch 172. Attestation is not a test a Japanese loan
   can fail — it is one it cannot sit, since no Truku wordlist will ever hold
   `abura` 油 or `budosyu` 葡萄酒.
+- **A word settled by CLASS gets its own colour** (batch 196): names and loans
+  emit code **16** and render `w-mod w-cls`, a deeper brown. The class is
+  ADDITIVE — the span keeps `w-mod`, so every harness selecting on `w-mod` still
+  counts it dark. Emitting them as code 1 said *a source lists this*, and none
+  does.
 
 ## Testing and measurement
 

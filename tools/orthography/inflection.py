@@ -1119,11 +1119,100 @@ HAND_SPOKEN = """nta""".split()
 #            page of the notes: the S'LYEQ family takes the long stem bare and the
 #            short stem suffixed, seeliq and smeeliq against sliqan and sliqi. So
 #            seegul bare, sgulan suffixed — and his spelling is the short one.
+# psmkun (b196). His SMUK card is glossed 釘；打入榫栓 and the § reads Ini toko!
+# Psm'kun mo kingal dole 「這不夠；我還要再釘一塊。」 — he will nail one more plank.
+# The analyser could not reach it: it offered smka 一半, smku 保存／放置 and a
+# glossless smko, none of them about nailing, and the gloss table's own entry for
+# smuk gives one sense only, 金鋼樹（樹木名）, a tree. The e-dictionary carries the
+# word's other two senses, 釘子 and a Truku place name, and 釘子 is his 釘 exactly.
+# So the gate refused on a gloss table that holds one of the word's three meanings,
+# not on any disagreement about the word.
+#
+# The shape is the corpus's, not a reconstruction: psmkani 讓他在那山坡地種植金鋼樹林
+# is p- + smuk + -ani with the u syncopated away, and his apostrophe in Psm'kun
+# stands on precisely that vowel. That the corpus sentence is about planting smuk
+# TREES and his is about driving in a nail does not matter here — what it attests
+# is that modern Truku writes p+smuk+SUFFIX as psmk-, which is the one thing his
+# spelling needed. psmkun = p- + smuk + -un.
+#
+# snka (b196). Under SPONG › Spngan 被測量的, § T'lo bi spngan ni snka 「只有三量半」
+# — three measures and a half. The analyser resolved it to ska 中間／當中／裡面,
+# which is the right root and the wrong sense, and 中間 shares no character with
+# 半, so regular() refused. The half word is smka 一半 (f21, listed), s⟨m⟩ka; his
+# snka is the same stem with ⟨n⟩ for ⟨m⟩. Both derived slots are listed and the
+# corpus glosses one of them for us: snkaan in 半粒小米煮進鍋子裡會變成滿滿的
+# — half a grain of millet — and snkana twice in a discussion of 以一概全, taking
+# a part for the whole. The bare snka is what those two are built on.
+#
+# stmaqun (b196). His ST'MAQ › Mst'maq 壓碎－被壓碎者, § Stmaqun mo (stmaqon mo)
+# kia ka bnuöl so 「我稍後會把你的李子壓碎。」 — he gives the variant himself.
+# Every part is listed: stmaq 已爛了（外力）(f25) is the root, mstmaq 打爛 is his
+# own Mst'maq, and the corpus has the imperative stmaqi in 看到蟑螂時，媽媽，趕快
+# 踩死蟑螂啊！ — stomp the cockroach flat. 壓碎 and 已爛了（外力）are the same
+# event described from its two ends, the crushing and the crushed, and they share
+# no character, which is the whole of the refusal. stmaqun = stmaq + -un.
+# muli (b196). His UMUL 含在口中吸吮 has two sub-forms, Mumul 吸吮－使其在口中融化 and
+# Mulun, and the § is the imperative: Muli binao! Malu bi oqon! 「就讓它在你口中融化吧！
+# 很好吃！」 The analyser read m-uli and offered uli 綁住…, to tie — a different word
+# that happens to fit the letters. The right word is listed: mumul 含在嘴裡不咬碎, which
+# is his head gloss almost character for character. mumul is m⟨um⟩ul, so the root is
+# mul, and his own Mulun is that same stem in the patient slot; muli is the imperative
+# of the pair, exactly as stmaqi stands to stmaqun. Neither bare mul nor muli is listed
+# on its own — the parquets have no mumul either — so this is his family and one modern
+# attestation of the stem, which is why it could not come through regular(): 含在嘴裡
+# and 吸吮 share no character.
+# pneydang (b196). Under HJIYAL, § Wada su hnjiyal ka pneydang su pila hu?
+# 「你把弄丟的（並在尋找的）錢找回來了嗎？」 The root is listed twice over and the
+# gloss table shows only half of it: peydang is 人名（男）there, and the e-dictionary
+# adds the sense the sentence needs, 迷路, to get lost. The whole family is in the
+# wordlist — meydang, mneydang 已迷路過, empeydang, ppeydang — so both halves of his
+# form have modern witnesses: ppeydang is the p- causative of the root, mneydang the
+# ⟨n⟩ preterite of it, and pneydang is the two together, the money that was got lost.
+# 迷路 and 弄丟 share no character with each other or with the card's 找到, which is
+# the whole of the refusal; the card is about finding because the finding is the
+# question, and the lost money is what it is asked about.
+#
+# psnruun (b196). His Sn'lo 使人宣布－使人傳達－使人知曉 was already resolved to snru
+# 敘述所聽到的 — the map has carried sn'lo→snru — but the slot in the § had fallen
+# through to the blind rules and was printing psnluun with his l. Psn"loon (he offers
+# psnloon himself in brackets) is p- + snru + -un: 「我想把這個好消息傳遍各處。」 The
+# family is listed around it — smnru 講, psnru 被敘述, snruan, snruway, mssnru — and
+# psnru is his own Psn'lo exactly, so the pin psn'loon→psnruun is the r his own head
+# already has. Nothing lists the -un slot; every morph in it is listed. 敘述 and 宣布
+# are one act described with two words, and they share no character, which is why
+# regular() could not take it.
+#
+# pklilug (b196). KUDUS 活的－會動的 § Ini kudus ka tlangan, adi tdoa pklilu, and
+# LILU › Pklilu (Plilu ?) 使它動 § Dyagi ko pklilu tdoloi mo nii — two sentences, one
+# word. The root is in the register in two reduplications, klilug listed with no gloss
+# and klglug glossed 要動, beside lglug 不安靜, mlglug 動／搖擺 and slglug 使之搖動;
+# the map had already ruled his LILU onto lilug and klilu onto klilug on the strength
+# of the listing. What was missing was the causative, and modern Truku builds it with
+# pk- on exactly this shape: pkeuwit 使其疲累 stands to uwit 疲累 as pklilug stands to
+# klilug. The unglossed twin is what stopped the gate — a root with no gloss cannot be
+# agreed with — and the glossed twin one syncope away says 要動, which is his 使它動.
+# ciyusun (b196, 2 pairs). His TYUSUN 烤－煎（炸）, and the contrast is in his own §:
+# Uxai tyusun ka xei samat nii, doxon! 「這塊野味不是拿來炙烤的！是要拿來燒烤的。」 —
+# tyusun is what doxon is not, pan-cooking against grilling. The root came through the
+# map as ciyus and IS listed, with no gloss of its own, which is what stopped the gate;
+# but its family is glossed all the way round and says one thing: dmciyus 炒菜者,
+# emciyus 要炒, pnciyus 炒過的, pciyus 當…炒, mgciyus 像…炒的一樣. emciyus 要炒 is the
+# same slot as his -un, so ciyusun is 要炒 with the other voice. 炒 and 煎 share no
+# character, and a root with no gloss cannot be agreed with; both halves of the refusal
+# are about the tables, not about the word.
+#
+# ppskngalun (b196). GALUP › Pgalup 使結合－使和好－使聯合, § Ndoa bi pgalup dxeaan
+# ppskngalun so lnglongan daxa 「盡你所能使他們和好，好叫他們同心合一。」 The analyser
+# offered skngali, unglossed, and never reached the word this is built on: pskingal
+# 合一；成為一致 is listed, and it is his 使聯合 exactly. Modern Truku writes this root
+# in both shapes — the full pskingal and the syncopated kngalun, also listed — so the
+# stem skngal- of his form is the register's own, and kingal 一 and skingal 專一 stand
+# behind both. What his doubled pp- adds is the second causative, one heart made of two.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
                 pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan
                 tmgila tngila kntglaan
-                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska pnsdahung drnai ggitan pnmaxan kmpstrngun empkslaan shnkan mnpunu nslbu empslbu nruq kmkmalu nrbu empsneanak snguli kpajiq knpajiq spkpajiq pnpnguan pspuhaw ssbusun sgulan""".split()
+                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska pnsdahung drnai ggitan pnmaxan kmpstrngun empkslaan shnkan mnpunu nslbu empslbu nruq kmkmalu nrbu empsneanak snguli kpajiq knpajiq spkpajiq pnpnguan pspuhaw ssbusun sgulan psmkun snka stmaqun muli pneydang psnruun pklilug ciyusun ppskngalun""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
@@ -1343,7 +1432,32 @@ HAND_NOT_UNGLOSSED = set("mttama tmtama mrbuq".split())
 #            RIGHT root is sitting beside it — `pakaw` 有刺的野草, the thorny weed,
 #            his gloss exactly — and shares no character with him at all, which
 #            is the whole reason `_agrees` is a proxy and not a measure.
-HAND_NOT_REGULAR = set("knslaan".split())
+# `pdrut` is the third, and it is the pin from batch 171 coming due [batch 196].
+# That batch respelled his DLUT family onto `drut` and handed `pdrut` BACK to
+# pale — dark at rank 1 on a 黏 homograph before, and after the respelling no
+# gloss agreed through `p-`. dom171.py pinned it pale with an instruction on the
+# pin: if this ever goes dark, check that it did so on a gloss and not on another
+# `id` freeze. It is dark now, and the check the pin asked for is what refuses
+# it. Not a freeze — rule 2, agreeing on 去.
+#   pdrut    his 使人碾磨;請人碾磨, to have something ground, against `drut`
+#            用手揉起來 / 輾過去. Those two glosses share nothing. The character
+#            the analyser found is the 去 of his EXAMPLE sentence,
+#            我沒時間去請人磨小米 — I have no time to go and have millet ground —
+#            against the 去 of 輾過去. A man who has no time *to go* and a
+#            millstone that rolls *over* are not the same 去, and neither one is
+#            about grinding. His own word gloss, the one that would settle it,
+#            agrees with the root on nothing at all.
+#
+# Whether this is a rung or a hand list was measured, not assumed (share196.py).
+# Of 1,068 code-2 values, 593 distinct characters carry the agreements and 223
+# reach it only through a sentence-shaped string of his — but 72 of those agree
+# on a RUN (燒焦, 呻吟, 上面, 先走), which no coincidence supplies, and of the 151
+# single-character ones only NINE agree on a character thin enough to mean
+# nothing: empsparu 大, kdagun 來, mkatan 來, pdrut 去, pngalun 來, psagan 來,
+# spkmalu 好, tnklaun 到, tnqtaan 到. Nine is a list to read one at a time, not a
+# rule to rewrite — the same finding batch 142 made about 大/小, and the same
+# answer. The other eight are the queue; this one had a pin on it.
+HAND_NOT_REGULAR = set("knslaan pdrut".split())
 
 # The same shape once more, one rule further down [batch 154]. `tnbusan` is his
 # 簸揚的對象，或（過去的）方式 — the thing winnowed, or the (past) manner — and
