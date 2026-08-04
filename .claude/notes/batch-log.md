@@ -2804,3 +2804,64 @@ allowed to be worth more than you costed it; measure it anyway.*
 
 Blocked pairs 412 → **391**; deliverable **5,044 / 92.80%**. Dark 44,104 /
 98.1245%, pale 844 → 809, green 34. 16/16, 9/9, 28/28.
+
+## Batch 191 — the loss line as an instrument
+
+Seven rulings. Two of them were nearly wrong in ways only the gained/LOST
+difference would have shown, so this batch is mostly about that measurement.
+
+`ddngusun` (his DUNGUS 理所當然——相稱——合宜): root `dngusun` 目標；對象 ILRDF
+freq 12, and the imperatives `dngusa` 別專注 / `dngusi` 去專注於 name the verb —
+"focus on, aim at", which is what gives his `Msdungus` 盡心盡力. Reduplicant plus
+`-un` = "what one aims at" = 被視為理所當然的事. No shared character anywhere.
+
+`stgtgut`: the analyser stopped at `tgtgut` 最邊, which is itself `tg-` over
+**`gtgut` 鄰居** (freq 8, 4 corpus sentences). His card is 毗鄰的——鄰近的——相鄰的
+with `Ggtgut` 鄰居們 — 鄰 in both. `s-` + `tg-` + `gtgut`, degeminated, and the
+真正 in his 為了真正靠近 *is* that `tg-`. **A half-peeled root fails a gloss test
+its full form would pass.**
+
+`kkrang` / `mkkrang` (his KK'LANG 發抖——打顫): root `krang`/`kran`
+碗掉下來破碎的聲音（擬聲詞）, freq 14. The bridge is on the same root — `krkran`
+發抖, `pkrkran` 發抖 — clatter becoming shiver-until-you-rattle. Modern
+reduplicates it as `krkran`, not `kkrang`; that is a cognate, and a cognate
+explains a word but never spells one, so no pin.
+
+`knslaan`: his headword KSLAAN *is* the modern lemma letter for letter (freq 5,
+缺乏) against his 饑餓虛脫－精疲力竭. His `Knslaan` gloss is the pointer "d° dans
+la forme accomplie" — the mritan shape, a gloss with no content to test.
+
+### The K'LOX near-miss — an override the loss line refused
+
+`krhun` (his K'lxon) is rooted by the analyser in `krhi` 烤; the root is `kruh`
+旱地, which shares 旱 with his 乾——乾旱——荒漠般的, and `krhan` 烤乾 shares 乾 with
+his `K'lxan` 乾旱——貧瘠. One homophone off.
+
+But before seeing that I chased his own tag: *"(Q'LOX ? — parentée avec QOLOX =
+crâne ?)"* — and `quluh` really is 光禿的山和不長毛髮的頭／骷骼／貧瘠地, one lemma
+holding both his 頭骨 and his 荒漠般的, with `qlquluh` 貧瘠地 and `mquluh` 很貧瘠
+behind it. I repinned the whole K'LOX family to it. The build answered **LOST 3**:
+`kruh`, `krhan`, `mkruh` were already dark, on attested spellings, with the right
+glosses. **His tag carried a question mark; attestation outranks it.** QOLOX keeps
+`quluh`, K'LOX keeps `kruh`, and the fix was one hand ruling, not seven pins.
+
+Second lesson from the same detour: **reverting by popping keys assumes the keys
+were new.** Two of the seven — `k'lxon` and `q'lxan` — were committed entries with
+their own values, and popping them deleted claims I had never made. The map diff
+against HEAD is what caught it; `git checkout` on the file is the honest revert.
+
+### `pklbiyan` — a place name protecting a common word
+
+His LABE (R) 一夜的時間 is `rabi` 晚上／夜 (freq 9), and `Mklabe` 過夜 is `mkrabi`
+過夜 (freq 5) — both already mapped and dark. Three syncopated members kept his
+`l`: `klbiyun`, `pklbiyan`, `pklbiyun`, the middle one on a tier-M identity. The
+`l` looked attested, because **`klbiyun` is in the wordlist as 奇萊山** — Mount
+Qilai. A name is not evidence about a common word that happens to spell like it
+(MIXALASI in reverse), and his own suffixed forms write the vowel as `i`
+(`lbi-yan`), confirming the root. Pinned `krbiyun` / `pkrbiyan` / `pkrbiyun`; all
+three went dark on `rabi`, since 過夜的地點 shares 夜 with 晚上／夜. `klbiyun`
+leaves the file, and his book uses that token on the LABE card only — checked.
+
+Blocked pairs 391 → **383**; deliverable **5,052 / 92.95%**. Dark 44,123 /
+98.1667%, pale 809 → 790, green 34. 16/16, 9/9, 28/28. The `gloss disagrees`
+bucket falls 39 → 31 types, which is where all seven rulings landed.

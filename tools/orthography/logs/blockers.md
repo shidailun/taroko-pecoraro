@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-370 pairs are blocked by exactly one type; 21 by two or more and are not credited to any single word.
+362 pairs are blocked by exactly one type; 21 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 39 | 43 |
+| gloss disagrees | 31 | 35 |
 | no root | 199 | 234 |
 | root unglossed | 36 | 38 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 39 types, 43 pairs
+## gloss disagrees — 31 types, 35 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,74 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### ddngusun — 1 pair
-
-- under **DUNGUS**
-- § Balay bi ddngusun ka smhuway sunan.
-- 中 向你道謝是完全理所當然的（你完全配得我們的感謝）。
-- `d-dngusun` → **dngusun** 目標;對象／目標；對象／盼望
-- `d-dngusa-un` → **dngusa** 別專注／別專注
-- `d-dngusi-un` → **dngusi** 去專注於／去專注於
-- his: 被視為理所當然的事。
-
-### stgtgut — 1 pair
-
-- under **GTGUT**
-- § Hqilan na miing elug stgtgut na sapah Riyax.
-- 中 他想盡辦法（為找一條路快要累死）要成為 Liarh 的近鄰。
-- `s-tgtgut` → **tgtgut** 最邊／最邊
-- his: 為了真正靠近……。
-
-### kkrang — 1 pair
-
-- under **KKRANG**
-- § Ini namu kkrang knngungu ka yamu.
-- 中 你們啊，你們不會怕得發抖。
-- `k-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）／碗掉下來破碎的聲音（擬聲詞）
-- his: 發抖——打顫。
-
-### mkkrang — 1 pair
-
-- under **KKRANG**
-- § Mnda nami mkkrang paqan knskiyan mqdgiyaq.
-- 中 我們在山上凍得直發抖。
-- `mk-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）／碗掉下來破碎的聲音（擬聲詞）
-- his: 發抖的——因寒冷或恐懼而顫抖的。
-
-### krhun — 1 pair
-
-- under **KRUH**
-- § Mblaiq do o, krhun na skagul.
-- 中 富人——他要叫他們空手回去（……把他們的手掏空之後）。
-- `krhi-un` → **krhi** 烤／烤
-- his: 將要、應要被弄得乾涸、空虛、貧瘠者。
-
-### knslaan — 1 pair
-
-- under **KSLAAN**
-- § Ida bi uxay su mnarux, knslaan su nuda elug.
-- 中 你大概不是生病，只是一路上餓得沒力氣。
-- `kslaan` → **kslaan** 缺乏
-- `kn-sla-an` → **sla** 上衣／大外衣／大外衣
-- his: 同上，完成式形式。 ／ 饑餓虛脫－精疲力竭。
-
-### pklbiyan — 1 pair
-
-- under **RABI**
-- § Dhuq nami pklbiyan do.
-- 中 當我們到了預定過夜的時間（地點）。（或：當夜幕降臨時）。
-- `pk-lbi-yan` → **lbi** 垂下（因負重使其垂下）／垂下（因負重使其垂下）
-- his: 過夜的地點－過夜的時間。
-
-### pklbiyun — 1 pair
-
-- under **RABI**
-- § Pklbiyun mu ka sapah spktaqi cicih laqi su.
-- 中 我想把房間弄暗一點，好讓孩子睡著。
-- `p-klbiyun` → **klbiyun** 奇萊山
-- `pk-lbi-yun` → **lbi** 垂下（因負重使其垂下）／垂下（因負重使其垂下）
-- his: 想要、或必須使之變暗之物。
 
 ### empraqat — 1 pair
 

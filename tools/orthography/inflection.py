@@ -649,9 +649,50 @@ HAND_SPOKEN = """nta""".split()
 #           The t- stem is written across its whole paradigm: `ptdahu` 會讓…驕傲,
 #           `kntdahu`, `emptdahu`, `dmptdahu`, `emptndahu`. `mtdahu` is the plain
 #           AF slot — the one form of the set nobody printed.
+# ddngusun — batch 191. His DUNGUS (R) card reads 理所當然——相稱——合宜,
+# with Msdungus 盡心盡力地 and Mpsdungus 將是公正的. ILRDF has dngusun 目標；對象
+# (freq 12) and, decisively, the imperatives dngusa 別專注 / dngusi 去專注於 — so the
+# root verb is "focus on, aim at". That is precisely what yields his 盡心盡力, and
+# ddngusun (reduplicant + -un) is "what one aims at", hence 被視為理所當然的事.
+# regular() refuses because 被視為理所當然的事 and 目標；對象 share no character —
+# the batch-190 pattern exactly. No respelling is involved: dngusun is attested as
+# written, and the dd- reduplicant is his own (DDngusun).
+# stgtgut — batch 191. The analyser stops at tgtgut 最邊, but that is itself
+# tg- (superlative) over gtgut 鄰居 (ILRDF freq 8, 4 corpus sentences). His card
+# is 毗鄰的——鄰近的——相鄰的 with Ggtgut 非常近；鄰居們 — 鄰 in both, an
+# outright gloss match, and he flags the root himself as "(R. = GUT ? (inconnue !)".
+# stgtgut is s- (purposive) + tg- + gtgut, degeminated: "in order to be right next
+# to", which is his 為了真正靠近 with 真正 carrying the tg-. The refusal is on the
+# half-peeled root: 最邊 shares no character with 為了真正靠近. Spelling unchanged.
+# kkrang (his kk'lang) — batch 191. Root krang/kran 碗掉下來破碎的聲音（擬聲詞）,
+# ILRDF freq 14 (it returns the one entry for both kran and krang). The bridge to
+# his 發抖——打顏 is attested on the same root: krkran 發抖, pkrkran 發抖 — clatter
+# becomes shiver-until-you-rattle. Found by searching the lexicon for 發抖, not by
+# shape. His card KK'LANG (R. ?) marks the root unknown and carries Mkk'lang
+# 因寒冷或恐懼而顏抖的 / Tkk'lang 全身發抖的, so the reduplication is his base.
+# Modern reduplicates the root as krkran, not kkrang; that is a cognate, and a
+# cognate explains a word but never spells one. No pin — the char rule form stands.
+# mkkrang (his Mkk'lang) is the m- slot of that same card and rides the same note.
+# krhun (his K'lxon) — batch 191. The analyser roots it in krhi 烤 (roast); the
+# root is kruh 旱地, which shares 旱 with his K'LOX 乾——乾旱——荒漠般的 outright,
+# and krhan 烤乹 shares 乾 with his K'lxan 乾旱——貧瘦. krhun is kruh + -un with the
+# vowel syncopated. One homophone off, not a spelling fault.
+#   Near-miss worth keeping: he tags the card "(Q'LOX ? — parentée avec QOLOX =
+#   crâne ?)", and quluh really is 光禿的山和不長毛髮的頭／骷骳／貧瘦地 — one lemma
+#   holding both his 頭骨 and his 荒漠般的. I repinned the whole K'LOX family to it
+#   and the build answered LOST 3: kruh, krhan, mkruh were already dark, on
+#   attested spellings, with the right glosses. His tag carried a question mark;
+#   attestation outranks it. The QOLOX card keeps quluh, the K'LOX card keeps kruh.
+# knslaan — batch 191. His headword KSLAAN is the modern lemma letter for letter:
+# kslaan, ILRDF freq 5, 缺乛. His card reads 饣餓虛脫－精疲力竭, which is what
+# lacking food and strength is; no character is shared, and no respelling is
+# involved on this card at all. Knslaan is that word in the accomplished form,
+# kn- + kslaan, and his own gloss for it is the pointer "d° dans la forme
+# accomplie" — a gloss with no content for the test to read, the mritan shape.
+# His proposed root "(R. = KSUL ?)" is in no register; it stays his question.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
-                pngraq ptudu pkngalan embbuway mtdahu""".split()
+                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

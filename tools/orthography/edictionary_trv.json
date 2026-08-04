@@ -459,6 +459,14 @@
 "gnlqan": null,
 "gnwit": null,
 "graqun": null,
+"gtgut": {
+"freq": 8,
+"glosses": [
+"鄰居"
+],
+"name": "gtgut",
+"note": "sapah mskkiyig鄰居\r\n\r\n文化小語： 過去的社會，族人會儘量跟親戚住在一起，成為鄰居。"
+},
 "gur": {
 "freq": 0,
 "glosses": [
@@ -658,12 +666,15 @@
 "kkakuh": null,
 "kkdusan": null,
 "kkmalu": null,
+"kkran": null,
 "kkrang": null,
 "kkslabang": null,
 "kkuyuh": null,
+"klbiyan": null,
 "klbiyun": null,
 "klilug": null,
 "klkari": null,
+"kluh": null,
 "klui": null,
 "klulu": null,
 "kmalu": {
@@ -689,6 +700,7 @@
 "name": "kmrawah",
 "note": ""
 },
+"kmsul": null,
 "kmubui": null,
 "kmux": {
 "freq": 15,
@@ -720,6 +732,14 @@
 "kntgmilan": null,
 "kpajiq": null,
 "kpauxi": null,
+"kran": {
+"freq": 14,
+"glosses": [
+"碗掉下來破碎的聲音（擬聲詞）"
+],
+"name": "krang",
+"note": "詞意：hnang pratu mtucing碗掉下來破碎的聲音"
+},
 "krang": {
 "freq": 14,
 "glosses": [
@@ -729,6 +749,7 @@
 "note": "詞意：hnang pratu mtucing碗掉下來破碎的聲音"
 },
 "krawah": null,
+"krbiyun": null,
 "krhi": {
 "freq": 3,
 "glosses": [
@@ -737,7 +758,17 @@
 "name": "krhi",
 "note": ""
 },
+"krhu": null,
 "krhun": null,
+"krkran": {
+"freq": 1,
+"glosses": [
+"發抖"
+],
+"name": "krkran",
+"note": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
+"ksla": null,
 "kslaan": {
 "freq": 5,
 "glosses": [
@@ -747,6 +778,7 @@
 "note": ""
 },
 "ksudan": null,
+"ksul": null,
 "kumax": {
 "freq": 8,
 "glosses": [
@@ -793,6 +825,7 @@
 "name": "lbi",
 "note": "詞意：shjilan ni embukit垂下"
 },
+"lbiyun": null,
 "lbu": {
 "freq": 0,
 "glosses": [
@@ -882,6 +915,7 @@
 "mdrut": null,
 "meq": null,
 "mgangah": null,
+"mggtgut": null,
 "mggui": null,
 "mguy": null,
 "mhmadan": null,
@@ -897,6 +931,7 @@
 },
 "mkefunang": null,
 "mkkrang": null,
+"mklbi": null,
 "mkmalu": {
 "freq": 14,
 "glosses": [
@@ -905,7 +940,17 @@
 "name": "mkmalu",
 "note": ""
 },
+"mkrabi": {
+"freq": 5,
+"glosses": [
+"過夜"
+],
+"name": "mkrabi",
+"note": ""
+},
+"mkrhu": null,
 "mksiisil": null,
+"mksul": null,
 "mman": null,
 "mnalu": null,
 "mngusyeh": null,
@@ -919,7 +964,23 @@
 "mpsqlul": null,
 "mpyah": null,
 "mqqlang": null,
+"mqrhu": {
+"freq": 1,
+"glosses": [
+"因…固執"
+],
+"name": "mqrhu",
+"note": ""
+},
 "mqrip": null,
+"mquluh": {
+"freq": 1,
+"glosses": [
+"很貧瘠"
+],
+"name": "mquluh",
+"note": ""
+},
 "mrangah": null,
 "mrbuq": null,
 "mrit": null,
@@ -1190,6 +1251,9 @@
 },
 "pknluun": null,
 "pkpruun": null,
+"pkrabiyan": null,
+"pkrbiyan": null,
+"pkrbiyun": null,
 "pkuxun": null,
 "pneydang": null,
 "pngpung": {
@@ -1366,7 +1430,20 @@
 "qkrang": null,
 "qlap": null,
 "qlaq": null,
+"qlhan": null,
+"qlhun": null,
 "qloq": null,
+"qlquluh": {
+"freq": 3,
+"glosses": [
+"貧瘠地"
+],
+"name": "qlquluh",
+"note": ""
+},
+"qluh": null,
+"qluhan": null,
+"qluhun": null,
 "qlxan": null,
 "qmapah": null,
 "qmilaw": null,
@@ -1391,8 +1468,31 @@
 },
 "qqrut": null,
 "qqsahur": null,
+"qrhqrhu": null,
+"qrhu": {
+"freq": 0,
+"glosses": [
+"固執"
+],
+"name": "qrhu",
+"note": "詞意：seejiq psthowlang mkray tunux na固執"
+},
+"qrhuan": null,
+"qrhun": null,
 "qriyi": null,
 "qtaqi": null,
+"quluh": {
+"freq": 2,
+"glosses": [
+"光禿的山和不長毛髮的頭",
+"骷骼",
+"貧瘠地"
+],
+"name": "quluh",
+"note": "詞意：hangan dxgal ni seejiq光禿的山和不長毛髮的頭\r\n詞意：buut tunux 骷骼\r\n詞意：qahul貧瘠地"
+},
+"quluhan": null,
+"quluhun": null,
 "quwaq": {
 "freq": 125,
 "glosses": [
@@ -1405,6 +1505,15 @@
 ],
 "name": "quwaq",
 "note": "詞意：eekan rrngaw seejiq ni mneudus嘴\r\n詞意：hangan damat 龍鬚菜\r\n詞意：lubuy o quri daan tqriun麻袋口\r\n詞意：kayu tluung o quri gmukan蓋口\r\n詞意：bling o quri ltadan洞口\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
+"rabi": {
+"freq": 9,
+"glosses": [
+"晚上",
+"夜"
+],
+"name": "rabi",
+"note": "詞意：keeman晚上\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
 "rangah": null,
 "raq": {
@@ -1812,6 +1921,14 @@
 "spngaw": null,
 "spsdharun": null,
 "sqlaq": null,
+"sqrhuan": {
+"freq": 1,
+"glosses": [
+"空虛"
+],
+"name": "sqrhuan",
+"note": ""
+},
 "sqtaqi": null,
 "srhqun": null,
 "srijil": null,

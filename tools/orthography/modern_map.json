@@ -4118,8 +4118,8 @@
    "tier": "L"
   },
   "klbiyun": {
-   "modern": "klbiyun",
-   "tier": "id"
+   "modern": "krbiyun",
+   "tier": "M"
   },
   "klgan": {
    "modern": "klgan",
@@ -11914,7 +11914,11 @@
    "tier": "M"
   },
   "pklbiyan": {
-   "modern": "pklbiyan",
+   "modern": "pkrbiyan",
+   "tier": "M"
+  },
+  "pklbiyun": {
+   "modern": "pkrbiyun",
    "tier": "M"
   },
   "pklilu": {
@@ -23695,10 +23699,6 @@
   },
   "pklamil": {
    "modern": "pkramil",
-   "tier": "P"
-  },
-  "pklbiyun": {
-   "modern": "pklbiyun",
    "tier": "P"
   },
   "pklbuan": {
