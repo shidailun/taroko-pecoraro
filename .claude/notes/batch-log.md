@@ -2582,3 +2582,46 @@ its value was glosses, not attestations, and here the value is a sense the
 wordlist omitted rather than a word it lacked.
 
 Gained 1, lost 0. Blocked pairs 438 → **435**; deliverable **5,000 / 91.99%**.
+
+## Batch 185 — one ruling, two refusals, and the difference between them
+
+**`mnalu` ruled.** MALU › Mnalu 和睦相處——彼此相愛; m<n>alu is the plain
+perfective of `malu` 好, which the ILRDF dictionary gives at **frequency 661**.
+The gate refused on synonymy for the third time in this run — 和睦 shares no
+character with 好, and being good together is what 和睔 IS. His own note names
+MKMALU as the frequent equivalent and `mkmalu` is listed. His second `Mnalu`
+(NALU › Mnalu 頂替——以…之名) is a different word and the ruling says so in the
+comment: modern 代替 is `nirih`, and neither `nalu` nor `naru` is listed. What
+carries to that card is the orthography alone, which is his own letters
+unchanged — the map already held the identity, since `l→r` would make *mnaru of
+a word modern Truku writes with l.
+
+**`tbiran` refused.** His `tbilan`, only ever in the phrase *lukus tbilan*
+節慶盛裝, and he glossed his own TBILAN entry 「？？」. Neither `tbilan` nor
+`tbiran` is in the wordlist, in the corpus, or in the online dictionary;
+`tblian` is 做子彈／取尾巴; the one root it reaches is `bir` 車聲（擬聲詞）. His
+own variant note gives the synonym — *vl. lukus pspingan*, and `psping` 妝扮飾物
+is listed — which tells us what the phrase MEANS and nothing about how his word
+is spelled. **A synonym identifies a sense; it never spells a word.**
+
+**`msska` refused,** and it is the instructive one because it arrives looking
+exactly like `mnalu`: same report bucket, same identity spelling, root listed
+and glossed. The difference is the only place it can be. `mnalu`'s root means
+好 and his gloss means 和睦 — the same thing said twice. `msska`'s root `ska`
+means 中間 and his gloss is 龜裂——裂開; getting from one to the other needs
+"splits down the middle", which is a story about the word rather than evidence
+about it. `mss-` is the reciprocal (67 members in the wordlist, all "at each
+other"), modern 土地裂開 is `bkal`, and `msska` is absent from wordlist, corpus
+and dictionary alike. *A synonym failure and a real disagreement look identical
+in the report; only the root's meaning tells them apart.*
+
+**`conc.py` added** — every corpus sentence containing a word, printed with its
+Mandarin. The refusal in batch 183 was about AUTOMATION: splitting one
+translation across several words is a guess. A person reading four sentences
+that all contain a word is identifying it by its contexts, which is how the
+work is done. It prints and never writes. All four words tried this batch
+returned 0 sentences, which is itself the finding — these are Pecoraro's words,
+not the corpus's.
+
+Gained 1, lost 0. Blocked pairs 435 → **432**; deliverable **5,003 / 92.05%**.
+Dark 44,019 / 97.9353%, pale 894. 16/16, 9/9, 28/28.

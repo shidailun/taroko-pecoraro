@@ -51,6 +51,15 @@
 "name": "bgu",
 "note": "詞意：qsiya pnehapuy damat湯\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"bili": {
+"freq": 7,
+"glosses": [
+"淋濕；交媾後男性的生殖器鹹溼",
+"很濕"
+],
+"name": "bili",
+"note": "詞意：huriq淋濕"
+},
 "bir": {
 "freq": 0,
 "glosses": [
@@ -906,6 +915,7 @@
 },
 "nagui": null,
 "nagwi": null,
+"nalu": null,
 "naqux": null,
 "naru": null,
 "narung": null,
@@ -1177,6 +1187,14 @@
 "psmkun": null,
 "psngurun": null,
 "psnluun": null,
+"psping": {
+"freq": 12,
+"glosses": [
+"妝扮飾物"
+],
+"name": "psping",
+"note": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
 "pspuhaw": null,
 "pspusu": null,
 "psqgu": null,
@@ -1629,6 +1647,7 @@
 "sshgan": null,
 "ssiisil": null,
 "ssiyang": null,
+"sska": null,
 "stgtgut": null,
 "stmaq": {
 "freq": 25,
@@ -1692,6 +1711,7 @@
 "note": "詞意：msbrakaw qmatar跳過\r\n詞意：trajing tmlung開始\r\n詞意：mkraaw yayung渡河"
 },
 "taru": null,
+"tbilan": null,
 "tbiran": null,
 "tbiyan": {
 "freq": 0,
@@ -1702,6 +1722,15 @@
 "note": ""
 },
 "tbiyun": null,
+"tblian": {
+"freq": 2,
+"glosses": [
+"做子彈",
+"取尾巴"
+],
+"name": "tblian",
+"note": ""
+},
 "tbnuun": {
 "freq": 0,
 "glosses": [

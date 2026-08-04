@@ -424,7 +424,25 @@ HAND_SPOKEN = """nta""".split()
 #
 #           `snkrawah` itself is a miss in the online dictionary, as `tksaw` and
 #           `gmquwaq` were: it indexes headwords, and this is a derived form.
-HAND_RULED = """ppdsun tksaw gmquwaq snkrawah""".split()
+#   mnalu   his `Mnalu`, in MALU › Mnalu 和睦相處——彼此相愛. m<n>alu is the
+#           ordinary perfective of `malu` 好, which the online dictionary gives
+#           at frequency 661 — the second most common word we have asked it
+#           about. The gate refused on synonymy for the third time this run:
+#           和睦/相愛 shares no character with 好, and "being good together" is
+#           what 和睦 IS. His own note under the entry names MKMALU as the
+#           frequent equivalent, and `mkmalu` is in attested_modern.json.
+#
+#           THE SPELLING IS THE CLAIM, AND IT IS HIS OWN LETTERS. m-n-a-l-u
+#           unchanged; the map already holds the identity, because `l→r` would
+#           otherwise make *mnaru of a word modern Truku writes with l (malu,
+#           smalu, snalu). Verifying moves the colour, not a letter.
+#
+#           HIS SECOND `Mnalu` IS A DIFFERENT WORD and this ruling does not
+#           claim otherwise. NALU › Mnalu is 頂替——代替——以…之名, and modern
+#           Truku's 代替 is `nirih`; neither `nalu` nor `naru` is listed, so
+#           that card's root has no modern reflex under either letter. What
+#           carries across to it is only the orthography, which is unchanged.
+HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-413 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
+410 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 59 | 79 |
+| gloss disagrees | 58 | 76 |
 | no root | 203 | 239 |
 | root unglossed | 37 | 40 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 59 types, 79 pairs
+## gloss disagrees — 58 types, 76 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,15 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### mnalu — 3 pairs
-
-- under **MALU**
-- § Mnalu bi ka Mikat ni Ingay.
-- 中 Mikat 和 Ingay 很和睦。
-- `malu` → **malu** 優秀的；好的／好／好／好／好／好嗎？／好心／好心／好的／好的／很好／很好
-- `mn-alu` → **alu** 陷阱線／陷阱線
-- his: 和睦相處——彼此相愛。（註：常見同義詞 MKMALU。） ／ 頂替的 - 代替 - 以…之名。
 
 ### pnguwan — 3 pairs
 
