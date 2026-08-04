@@ -2,14 +2,14 @@
 
 # Sole blockers, by what a ruling would buy
 
-328 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
+304 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
 | gloss disagrees | 6 | 8 |
 | no root | 200 | 235 |
 | root unglossed | 36 | 38 |
-| sentence gloss only | 44 | 47 |
+| sentence gloss only | 20 | 23 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
@@ -70,7 +70,7 @@
 - his: 犁田－使用犁。（註：是否與 TMABUN＝翻鬆土地、深掘土壤使其鬆軟 有親屬關係？）。
 
 
-## sentence gloss only — 44 types, 47 pairs
+## sentence gloss only — 20 types, 23 pairs
 
 ### ksudan — 3 pairs
 
@@ -102,41 +102,6 @@
 - `ms-langu-an` → **langu** 湖／湖
 - his: 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
 
-### pnsdahung — 1 pair
-
-- under **DAHUNG**
-- § Balay bi laqi su nanak ka Pnsdahung dqras laqi mu.
-- 中 在我兒子臉上造成這些瘀傷的，正是你（自己）的兒子。
-- `pn-sdahung` → **sdahung** 很多瘀血／很多瘀血
-- `pns-dahung` → **dahung** 吸血草（咬人貓,植物名）／吸血草（咬人貓，植物名）／瘀血
-- his: 在我兒子臉上造成這些瘀傷的，正是你（自己）的兒子。
-
-### drnai — 1 pair
-
-- under **DURUN**
-- § Drnai ta tmaan hu?
-- 中 我們去求爸爸，你同意嗎？
-- `drna-i` → **drna** 鹿鞭／鹿鞭
-- his: 我們去求爸爸，你同意嗎？
-
-### ggitan — 1 pair
-
-- under **GIGIT**
-- § Tayal bi ka ggitan su!
-- 中 你真是纏人！（GIGIT 含有為了要求某事而一再介入、糾纏的意思。）
-- `g-git-an` → **git** 咬牙切齒的聲音／咬牙切齒的聲音
-- `g-gito-an` → **gito** (no gloss)
-- `g-gitu-an` → **gitu** 枇杷（果樹名）／枇杷（果樹名）
-- his: 你真是纏人!(GIGIT 含有為了要求某事而一再介入、糾纏的意思。)
-
-### pnmaxan — 1 pair
-
-- under **GIMAX**
-- § Pnmaxan dha sinaw gnmaxan pahung.
-- 中 他們給人喝了摻膽汁的酒。
-- `pn-max-an` → **max** 手掌擊打聲（擬聲詞）。／手掌擊打聲（擬聲詞）。
-- his: 他們給人喝了摻膽汁的酒。
-
 ### graqun — 1 pair
 
 - under **GRAQ**
@@ -144,86 +109,6 @@
 - 中 千萬小心，別讓雲豹抓走你的山羊。
 - `g-raq-un` → **raq** 形容講話沒有節制／形容講話沒有節制／樹枝斷裂及下大雨的聲音
 - his: 千萬小心，別讓雲豹抓走你的山羊。
-
-### imai — 1 pair
-
-- under **GRIG**
-- § Malu bi grigan imai (= malu bi grigan na ka Imai!)
-- 中 Imai 跳舞的樣子（或：Imai 所跳的舞）非常優美。
-- `ima-i` → **ima** 是誰阿？／誰／誰／誰／誰／誰？
-- his: Imai 跳舞的樣子（或：Imai 所跳的舞）非常優美。
-
-### kmpstrngun — 1 pair
-
-- under **IYUX**
-- § Kmpstrngun na bi laqi na ka Iwal.
-- 中 Iwal 很想讓兒子成婚。
-- `km-pstrngun` → **pstrngun** (no gloss)
-- `kmp-strngun` → **strngun** 對抗；交戰的對象
-- his: Iwal 很想讓兒子成婚。
-
-### empkslaan — 1 pair
-
-- under **KSLAAN**
-- § Angal cicih hdayu su aji su empkslaan muda elug da.
-- 中 帶點點心吧，免得半路上餓昏了。
-- `emp-kslaan` → **kslaan** 缺乏
-- `empk-sla-an` → **sla** 上衣／大外衣／大外衣
-- his: 帶點點心吧，免得半路上餓昏了。
-
-### shnkan — 1 pair
-
-- under **LATAT**
-- § Ga tluung sapah shnkan ka Ibuq; hkawas nanak ka Lntadan na.
-- 中 Ibuq在監獄裡；要到明年他才會出獄（獲釋）。
-- `s-hnkan` → **hnkan** 把…便宜／把…便宜
-- `s-hnka-an` → **hnka** 便宜／便宜
-- `s-hnki-an` → **hnki** 讓…便宜／讓…便宜
-- his: 伊博在監獄裡；要到明年他才會出獄（獲釋）。
-
-### mnpunu — 1 pair
-
-- under **RBUNG**
-- § Mnpunu nhuqil ka rudux su; naqih uqun da! Rbngi da!
-- 中 你的雞得霍亂死了，不能再吃了！你得把牠埋掉。
-- `mn-punu` → **punu** 人名（男;女,泛指暱稱或罵人的外號）／繩結／膝蓋／膝關節／關節
-- his: 你的雞得霍亂死了，不能再吃了！你得把牠埋掉。
-
-### nslbu — 1 pair
-
-- under **LBU**
-- § Wada nslbu paah bnhuan mu dngdang ka lukus.
-- 中 這件衣服自從我用滾水洗過後就縮水了。
-- `ns-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
-- his: 這件衣服自從我用滾水洗過後就縮水了。
-
-### empslbu — 1 pair
-
-- under **LBU**
-- § Mha empslbu ka nisu uri nasi su bhuun dngdang.
-- 中 你的那件如果用滾水洗也會縮水。
-- `em-pslbu` → **pslbu** 使短
-- `emps-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
-- his: 你的那件如果用滾水洗也會縮水。
-
-### nruq — 1 pair
-
-- under **LNGU**
-- § Ma su niyah nruq dnamux klngu bi babaw tqian mu?
-- 中 你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？
-- `n-ruq` → **ruq** 吞食聲／吞食聲／煮滾水聲
-- his: 你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？
-
-### kmkmalu — 1 pair
-
-- under **MALU**
-- § Mkmalu su bi ka isu o, ini ku kmkmalu ka yaku.
-- 中 你很想康復，我卻不想！
-- `kkmalu` → **kkmalu** (no gloss)
-- `k-mkmalu` → **mkmalu** 友好
-- `km-kmalu` → **kmalu** 會好；要好或痊癒／正在梳／正在梳
-- `km-kalu` → **kalu** 梳子／梳子
-- his: 你很想康復，我卻不想！
 
 ### npnalu — 1 pair
 
@@ -234,56 +119,6 @@
 - `npn-alu` → **alu** 陷阱線／陷阱線
 - his: 我會派兩個人代替我去。
 
-### empsneanak — 1 pair
-
-- under **NANAK**
-- § Naqih bi ntgsa ta da! Hnut empsneanak sjiqun ka hiya.
-- 中 我們的老師不公平；他偏袒某些人——他對人有差別待遇。
-- `emp-sneanak` → **sneanak** 另外保留／另外保留
-- `emp-seanak` → **seanak** 看輕；輕視；瞧不起／看輕；輕視；瞧不起
-- `emps-neanak` → **neanak** 應該…分戶／應該…分戶
-- his: 我們的老師不公平；他偏袒某些人——他對人有差別待遇。
-
-### nlbu — 1 pair
-
-- under **NGURUQ**
-- § Msnguruq paah nlbu ka laqi.
-- 中 這孩子從今早就開始流鼻血。
-- `n-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
-- his: 這孩子從今早就開始流鼻血。
-
-### snguli — 1 pair
-
-- under **NEGUL**
-- § Hmuya ka ini su snegul tmaan (ini su snguli ka tama)?
-- 中 你為什麼不像（跟隨）你父親（在外表或品行上）？參見 SNEGUL。
-- `sng-uli` → **uli** 綁住…／綁住…
-- his: 你為什麼不像（跟隨）你父親（在外表或品行上）？參見 SNUGUL。
-
-### kpajiq — 1 pair
-
-- under **PAJIQ**
-- § Ini kpajiq ka nisu.
-- 中 你的不是綠色。
-- `k-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／菜／蔬菜／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
-- his: 你的不是綠色。
-
-### spkpajiq — 1 pair
-
-- under **PAJIQ**
-- § Ngalun su manu spkpajiq (sppajiq!) galiq su.
-- 中 你用什麼把你的布染成綠色（染成綠色）？
-- `spk-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／菜／蔬菜／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
-- his: 你用什麼把你的布染成綠色（染成綠色）？
-
-### knpajiq — 1 pair
-
-- under **PAJIQ**
-- § Taan ta rnabaw qhuni dgiyaq o, lala bi ini kdka knpajiq dha.
-- 中 觀看山上樹木的葉子時，其綠色的色調差異很大。
-- `kn-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／菜／蔬菜／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
-- his: 觀看山上樹木的葉子時，其綠色的色調差異很大。
-
 ### ppitay — 1 pair
 
 - under **PITAY**
@@ -292,14 +127,6 @@
 - `p-pitay` → **pitay** (no gloss)
 - `p-pit-ay` → **pit** 鳥叫聲（山麻雀;白腰文鳥發出”嗶吱”的叫聲）／鳥叫聲（山麻雀；白腰文鳥發出”嗶吱”的叫聲）
 - his: 你們整張床（＝當作床用的竹製或木板搭的台子）都是臭蟲。
-
-### pnpnguan — 1 pair
-
-- under **PUNGU**
-- § Ya bi pnpnguan ima ka nii?
-- 中 這個結到底是誰打的呢？
-- `pn-pgu-an` → **pgu** 藜／藜
-- his: 這個結到底是誰打的呢？
 
 ### snpsarun — 1 pair
 
@@ -312,14 +139,6 @@
 - `snp-sari-un` → **sari** 芋頭／芋頭／芋頭／芋頭（作物名）
 - his: 我要把被子摺成雙層來蓋，這樣會暖和一點。
 
-### pspuhaw — 1 pair
-
-- under **SAPUH**
-- § Ida bi mnkan sapuh ka Sikat! PSpuhaw ta nhari da!
-- 中 Sikat 可能中毒了！快！我們趕緊去讓她就醫。
-- `ps-puh-aw` → **puh** 心跳／心跳／打痱子粉的棉包／捶胸的聲音
-- his: Sikat 可能中毒了！快！我們趕緊去讓她就醫。
-
 ### kyuqan — 1 pair
 
 - under **SEESU**
@@ -328,14 +147,6 @@
 - `k-yuq-an` → **yuq** 雞叫聲（公雞交配過後的聲音）／雞叫聲（公雞交配過後的聲音）
 - `k-yuqu-an` → **yuqu** 甕
 - his: 他朝母親吐了滿臉口水！真丟臉！
-
-### ssbusun — 1 pair
-
-- under **SIBUS**
-- § Ssbusun mu idaw ka kiya (vl. Spsbusun mu idaw ka kiya)
-- 中 這個我會用來給飯加糖。
-- `ss-bus-un` → **bus** 蒸氣洩出聲（擬聲詞）／蒸氣洩出聲（擬聲詞）
-- his: 這個我會用來給飯加糖。
 
 ### empslangan — 1 pair
 
@@ -346,22 +157,6 @@
 - `emps-lango-an` → **lango** (no gloss)
 - `emps-langu-an` → **langu** 湖／湖
 - his: 你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！
-
-### sguran — 1 pair
-
-- under **SRUHAW**
-- § Sai mita ka kacing sguran aji msruhaw hu.
-- 中 去看看綁水牛的繩子有沒有鬆掉。
-- `s-gur-an` → **gur** 成群來到的聲音（擬聲詞）／成群來到的聲音（擬聲詞）
-- his: 去看看綁水牛的繩子有沒有鬆掉。
-
-### smaliq — 1 pair
-
-- under **SEELIQ**
-- § Sneeliq (smaliq?) tunux.
-- 中 砍某人的頭。
-- `sma-liq` → **liq** 背地裡笑（躲著笑別人）／背地裡笑（躲著笑別人）
-- his: 砍某人的頭。
 
 ### psmkun — 1 pair
 

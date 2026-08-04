@@ -54,7 +54,6 @@ ngnalu           ngnealu          n-     gnalu            M
 niin             niying           n-     iin              M
 niyaq            niyak            n-     iyaq             M
 nksaxol          nqsahur          n-     ksaxol           L
-nl'bu            nl'bu            n-     l'bu             id
 nl'mux           nrmux            n-     l'mux            B
 nlangax          nrangah          n-     langax           B
 nlangi           nrangi           n-     langi            B

@@ -474,10 +474,12 @@
 "name": "gitu",
 "note": "詞意：hangan pnegalang枇杷"
 },
+"glaq": null,
 "gmquwaq": null,
 "gneeliq": null,
 "gnlqan": null,
 "gnwit": null,
+"graq": null,
 "graqun": null,
 "gtgut": {
 "freq": 8,
@@ -683,6 +685,7 @@
 "name": "kiya",
 "note": "詞意：taga cicih等一會兒\r\n詞意：ini qneuqu是、對啊\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"kiyuqan": null,
 "kkakuh": null,
 "kkdsan": null,
 "kkdusan": null,
@@ -1582,6 +1585,7 @@
 "name": "quwaq",
 "note": "詞意：eekan rrngaw seejiq ni mneudus嘴\r\n詞意：hangan damat 龍鬚菜\r\n詞意：lubuy o quri daan tqriun麻袋口\r\n詞意：kayu tluung o quri gmukan蓋口\r\n詞意：bling o quri ltadan洞口\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"qyuqan": null,
 "rabi": {
 "freq": 9,
 "glosses": [
@@ -1787,6 +1791,8 @@
 "name": "seanak",
 "note": ""
 },
+"seegulan": null,
+"segulan": null,
 "sghuway": {
 "freq": 1,
 "glosses": [
@@ -1812,6 +1818,7 @@
 "name": "sglaan",
 "note": ""
 },
+"sgulan": null,
 "sguran": null,
 "shgi": null,
 "shnkan": null,

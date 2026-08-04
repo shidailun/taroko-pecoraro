@@ -3412,6 +3412,10 @@
    "modern": "ima",
    "tier": "id"
   },
+  "imai": {
+   "modern": "imay",
+   "tier": "M"
+  },
   "imax": {
    "modern": "imah",
    "tier": "A"
@@ -10686,6 +10690,10 @@
    "modern": "nkusa",
    "tier": "id"
   },
+  "nl'bu": {
+   "modern": "nrbu",
+   "tier": "M"
+  },
   "nlading": {
    "modern": "nrajing",
    "tier": "M"
@@ -15205,7 +15213,7 @@
    "tier": "M"
   },
   "s'gulan": {
-   "modern": "sguran",
+   "modern": "sgulan",
    "tier": "M"
   },
   "s'lno": {
@@ -16521,7 +16529,7 @@
    "tier": "id"
   },
   "smalyeq": {
-   "modern": "smaliq",
+   "modern": "smeeliq",
    "tier": "M"
   },
   "smapox": {
@@ -26201,10 +26209,6 @@
    "modern": "gnwit",
    "tier": "R"
   },
-  "imai": {
-   "modern": "imai",
-   "tier": "R"
-  },
   "iti": {
    "modern": "ici",
    "tier": "R"
@@ -29586,13 +29590,6 @@
    "tier": "D",
    "d_rule": "n-",
    "d_base": "ksaxol"
-  },
-  "nl'bu": {
-   "modern": "nlbu",
-   "tier": "D",
-   "d_rule": "n-",
-   "d_base": "l'bu",
-   "elision_dropped": "nl'bu"
   },
   "nl'mux": {
    "modern": "nrmux",

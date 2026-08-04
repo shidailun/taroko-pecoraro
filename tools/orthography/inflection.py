@@ -933,11 +933,197 @@ HAND_SPOKEN = """nta""".split()
 # attested types, and the doubled s is what ms- does before an s-initial root:
 # mssaang from saang, mssbarux 相互換工 from sbarux. A rock that msska splits
 # down its middle, which is the root's own meaning applied to itself.
+# batch 195 — three cards, each dark but for one slot.
+#
+#   pnsdahung  His DAXONG › Psdaxong 造成瘀傷, and the card renders dahung,
+#              mtdahung, msdahung, psdahung all dark. Only the ⟨n⟩ perfective of
+#              the sub-head was left, on a root the register glosses 吸血草 for
+#              the plant and 瘀血 for the bruise, with sdahung 很多瘀血 beside it.
+#              The word is his own sub head with an infix.
+#
+#   drnai      DULUN › Dmulun, Dlnai ta tmaan xo? 我們去求爸爸. The analyser's root
+#              was drna 鹿鞭, a homophone the sentence rules out; the card itself
+#              holds the answer, since Dlnani → drnani 向…禱告 is already dark and
+#              is this exact stem one suffix over. durun 傳話 and dmurun 祈求 are
+#              attested, drnanay 向神祈禱 shows the same syncopated drna- stem, and
+#              -i on such a stem is attested in sglai. Decide slot by slot when a
+#              homophone exists: 鹿鞭 does not ask a father for anything.
+#
+#   ggitan     GIGIT, whose gloss he leaves as ？？ — the French says intervention
+#              souvent répétée pour demander, 纏人. gigit 固執 is attested and
+#              carries fourteen derivations (smgigit 堅持地, tggigit 都堅持的,
+#              pnegigit 有堅持的, sknegigit), every one of them keeping the vowel
+#              because none of them suffixes. His g'gitan does suffix, and his
+#              apostrophe stands exactly where the syncope falls — the same
+#              conditioning batch 194 established with sglaan against sgilaan.
+# batch 195 — pnmaxan, whose supporter is the next word in the sentence.
+# GIMAX › Gmimax 相混, § Pnmaxan daxa sinao gnmaxan paxong 他們給人喝了摻膽汁的酒.
+# gnmaxan is attested and already dark — the same syncopated max- stem with the
+# same -an, differing only in the prefix, standing two words away in his own
+# example. gimax 混合, pgimax 使混合；配著 and gmimax 配 are attested besides. The
+# analyser had root max 手掌擊打聲, an onomatopoeia, because the syncope hides the
+# gi- that the card head shows.
+# batch 195 — kmpstrngun and empkslaan, two prefixes on two attested stems.
+#
+#   kmpstrngun IYUX 堅持要——極其渴望, § Kmpstlngun na bi laqe na ka Iwal, Iwal 很想
+#              讓兒子成婚. The stem is not in doubt once the gloss is read the right
+#              way round: strung is 相遇；遭遇, and pstrung — making two people meet
+#              — is glossed 婚姻 outright. pstrngun is attested as well, and kmp-
+#              carries 26 attested types. The analyser's strngun 對抗；交戰的對象 is
+#              the same stem seen from the battlefield rather than the wedding.
+#
+#   empkslaan  KSLAAN 饑餓虛脫－精疲力竭, § …aadi so mpkslaan muda "lu da 免得半路上餓
+#              昏了. kslaan is attested, empk- has 91 attested types, and his mp-
+#              is the schwa tier W restores. Nothing here needed deciding except
+#              that 缺乏 and 饑餓虛脫 are one word — running out, and running out
+#              of what keeps you walking.
+# batch 195 — shnkan, where the register glosses the homophone, and mnpunu.
+#
+#   shnkan   LATAT > Lntadan, § Ga tloong sapax sxnkan ka Iboq, Iboq est en prison.
+#            The gate saw hnkan and read the register's gloss for it: 把…便宜, from
+#            hnuk 便宜. Wrong root. His own book has the right one — XMUK "enfermé -
+#            clos - fermé", i.e. hmuk 關；封住 attested, with the sub-form Sxmuk =
+#            shmuk 關著, also attested. The register's word for a prison is built on
+#            it: hmkan 關（被關；坐牢）, and the corpus says kolo hmkan outright for
+#            監獄. So hnkan is two words, and only one of them is cheap.
+#
+#            The letters need no change at all beyond x->h. The shape is his own
+#            perfective locative, and the proof is in the same sentence: Lntadan,
+#            which his paradigm line derives as ltadan -> l<n>tadan. Infix <n> after
+#            the stem's first consonant, prefix s- in front — hkan -> h<n>kan ->
+#            shnkan, the house one has been shut up in. Snlaqe and Pnlwaan on these
+#            same two pages are the same derivation. I checked the m against the
+#            scan before ruling, because the whole case turns on one stroke: page
+#            147 has a two-stroke n, not hmkan's m, and his nk never answers to a
+#            modern mk anywhere in the map (0 of 41).
+#
+#   mnpunu   L'BONG > L'mbong, § Mnpuno nxoqel ka lodoç so, ta poule est morte du
+#            choléra. punu is attested, but the register glosses it as a personal
+#            name — which is a fact about the name, not about the word. His card
+#            PUNO 霍亂－精神錯亂 is the word, and modern empunu is attested: his own
+#            Mpuno "avoir le choléra" under tier W. mn- carries 1259 attested types.
+# batch 195 — two shrinking garments, a hole in a roof, and a want the corpus
+# never happens to express.
+#
+#   nslbu    L'BU > Msl'bu, § Wada nsl'bu pax bnxoan mo dngdang ka lukus, the coat
+#   empslbu  shrank after I washed it in boiling water; and § Mxa mpsl'bu ka n'iso,
+#            yours will shrink too. His root card L'BU is 短－簡短－不高 and modern
+#            lbu is attested as 不長 — the same word, sharing not one character with
+#            the card's 變短－縮水－縮短. That is the standard refusal here: synonyms
+#            with no Han in common. ns- carries 40 attested types of exactly this
+#            build, ns- on a plain root (nsburaw, nsbiyaw, nsdangi), and pslbu is
+#            attested for the causative, which is his Psl'bu and gives empslbu its
+#            stem under tier W.
+#
+#   nruq     L'NGO > Kl'ngo, § Ma so niyax n'loq dnamux ..., why come and pierce the
+#            roof right over my bed. Same trap as shnkan one card earlier: ruq is
+#            attested and glossed 吞食聲, a swallowing noise, which is a homophone
+#            and not this word. His card LOQ says 洞－被刺穿的－破裂的 and lists Mloq
+#            and Ploq — modern mruq 破 and pruq 洞, both attested, both his. The bare
+#            n- prefix sits on 613 attested stems, so nothing here is a new shape.
+#
+#   kmkmalu  MALU > Mkmalu, § Mkmalu so bi ka iso o, ini ko kmkmalu ka yako, you'd
+#            like to get well, I wouldn't. Not one kmkm string occurs in the whole
+#            ILRDF corpus, which is a fact about this word and not about its class:
+#            kmk- is attested 8 times over and every gloss is a want — kmkdudux 想率
+#            先, kmkeisil 想到別處, kmkjiyah 想…旁邊, kmkla 好希望會. It is the k-form
+#            of mkm-, which is his own Mkmalu, attested. The one register word that
+#            looks like an answer is not one: kkmalu occurs 8 times and is the
+#            purposive, 為了…好 — dudug knan kkmalu, guide me toward good. Wanting to
+#            recover and being led to goodness are two forms, and only one is his.
+# batch 195 — the other half of a homophone split, and a form he spelled the way
+# the rule predicts.
+#
+#   nrbu         NGOLOQ > Msngoloq, § Msngoloq pax nl'bu ka laqe, the child has been
+#                bleeding from the nose since this morning. His nl'bu was being sent
+#                to lbu 不長, which is the short root — and this is the morning one.
+#                The split was already half made: ml'bu is pinned to mgrbu, because
+#                his L'BU card carries a sub-form "Ml'bu (M'lbu ?) (R. = L'BU ?)
+#                Matin", the query mark his own. Modern rbu is attested and glossed
+#                早上（破曉至黎明）, l->r is the plain char rule, and bare n- sits on
+#                613 attested stems — paah nrbu, since the morning that was, exactly
+#                as nsbiyaw is the time that was. Pinned, because the head projects.
+#
+#   empsneanak   NANAK > Psnanak, § Xnut mpsnanak sdyaqon ka xea, our teacher sets
+#                some people aside. sneanak 另外保留 is attested and is his 擱置一旁;
+#                seanak 看輕；輕視；瞧不起 is the same card's other half, which is his
+#                "il fait des différences entre personnes". The build is attested
+#                whole one word over: empsnegul 要跟隨 is emp- on snegul, exactly as
+#                this is emp- on sneanak.
+#
+#   snguli       NUGUL > Snugul, § Xmuya ka ini so snugul tmaan (ini so snguli ka
+#                tama)? Why do you not follow your father? snugul is already pinned
+#                to snegul 跟隨, attested, with smnegul, msnegul, psnegul and
+#                empsnegul all in the register behind it. What was left was the -i
+#                slot, and it needed no deciding: the antepenultimate vowel drops
+#                before a suffix — sgila -> sglai, silung -> slungan, gigit ->
+#                ggitan — so snegul + -i gives snguli. That is his spelling, letter
+#                for letter. The rule and the man who heard it agree, and his own §
+#                puts both voices on one line for the paradigm.
+# batch 195 — the whole PADYAQ card, which the register knew as a vegetable.
+#
+#   kpajiq     PADYAQ > Mpadyaq, "généralement employé pour désigner la couleur
+#   knpajiq    verte", 一般用來表示綠色. § Ini kpadyaq ka n'iso, yours is not green;
+#   spkpajiq   § Ngalun so manu spkpadyaq galyeq so, what do you dye your cloth
+#              green with; § lala bi ini kdka knpadyaq daxa, the greens of the
+#              mountain leaves differ greatly.
+#
+#              pajiq is attested many times over and glossed 菜, 蔬菜, 青菜 — and a
+#              woman's name, and a village in Xiulin. Not one of those shares a
+#              character with 綠色, which is the whole refusal. His card had already
+#              explained the connection in one line, and the register confirms it
+#              without needing him: empajiq is glossed 綠色 and mgpajiq 綠色的. The
+#              colour and the vegetable are one word here, as green and greens are
+#              one word in English.
+#
+#              Three slots, three prefixes, all attested classes: k- on 3149 types
+#              (ini k-, the negated stative), kn- on 691 (the quality of, which is
+#              precisely his 色調 — how green a leaf is), spk- on 9 (spkdahang,
+#              spkeekan, spkguraw — what one uses to make a thing so).
+# batch 195 — a knot that is also a joint, and the word for a hospital.
+#
+#   pnpnguan  PONGO > Ppongo 打結, § Ya bi pnpngoan ima ka nii? Who tied this knot?
+#             The analyser offered pgu 藜, goosefoot, which is not it. His own card
+#             head reads "Noeud - articulation", 結－關節, and the e-dictionary's
+#             pungu, freq 26, glosses as 膝關節／繩結／關節／膝蓋 — both his senses in
+#             one entry, the knot and the joint. A knee is a knot. His sub-form
+#             Pngoan "ligature - noeud qui est fait" already shows the syncope this
+#             needs: pungu loses its first vowel before -an, as sgila and gigit do,
+#             giving pngu-an, and he wrote it that way himself.
+#
+#   pspuhaw   SAPOX > Smapox, § Ida bi mnqan sapox ka Sikat! PSpoxao ta n'xali da!
+#             Sikat may be poisoned — quick, let us get her treated. The register
+#             has the whole family: sapuh 藥, smapuh 擦藥 and also 祭；祭典, which is
+#             his card's "rite liturgique" exactly; psapuh 看病, msapuh 醫生. And it
+#             has this very stem one suffix over — pspuhan is glossed 醫院, the place
+#             where one is treated. pspuhaw is the same word said to the person you
+#             are carrying there.
+# batch 195 — sugarcane, and a rope the char rule spelled with the wrong letter.
+#
+#   ssbusun  SIBUS > Ssibus, § Ssbusun mo idao ka kia, I will use this to sweeten
+#            the rice. sibus 甘蔗 is attested and so is the card head itself:
+#            ssibus, glossed 甜, which is his "1) très sucré; 2) pour sucrer" word
+#            for word. Sugar in this language is the cane it comes from. The -un
+#            slot syncopates as everything else does, sibus -> sbus before the
+#            suffix, and he wrote it that way.
+#
+#   sgulan   SLOXAO > Msloxao 鬆的, § Sai mita ka kating s"gulan adi msloxao xo, go
+#            and see whether the buffalo's tether has worked loose. This one was
+#            pinned to sguran, which is the blind l->r rule and nothing more. The
+#            root has an l and the register is unanimous about it: seegul 綁住,
+#            enegul 綁著, negul 繫有, empeegul 要…綁住, egul, eegul, emptegul 抓著.
+#            The r was never there to find. His " is the schwa he never writes —
+#            the same fact that turned xnglyeq into hnegliq back in the map work.
+#
+#            Which leaves long or short, and that was already answered on this very
+#            page of the notes: the S'LYEQ family takes the long stem bare and the
+#            short stem suffixed, seeliq and smeeliq against sliqan and sliqi. So
+#            seegul bare, sgulan suffixed — and his spelling is the short one.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
                 pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan
                 tmgila tngila kntglaan
-                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska""".split()
+                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska pnsdahung drnai ggitan pnmaxan kmpstrngun empkslaan shnkan mnpunu nslbu empslbu nruq kmkmalu nrbu empsneanak snguli kpajiq knpajiq spkpajiq pnpnguan pspuhaw ssbusun sgulan""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

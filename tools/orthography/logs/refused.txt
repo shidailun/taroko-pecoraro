@@ -56,4 +56,42 @@ tbiran   b194  His LUKUS example Lukus tbiran (vl. lukus pspingan) 節慶盛裝�
 #              no gloss in any table carries 盛裝 or 禮服. His own variant is the
 #              one that renders: pspingan 讓…化妝 and psping 裝飾 are attested. A
 #              variant that spells itself does not spell the word beside it.
-
+graqun   b195  His G'LAQ › Gm'laq 捕捉——抓住, § …aadi na glaqon lqlit ka milit so
+#              千萬小心，別讓雲豹抓走你的山羊. Searched from the meaning first: the
+#              register captures with duuy 抓住；握住, jiyal／tjiyal 捕捉；釣到 and
+#              the trap words (mdahaw, gnbtraw), none of them his shape — and
+#              psglaqung 專捕捉野禽的陷阱 only looks close, since glaqung is the
+#              fowl, not the catching. Then from the letters: his apostrophe
+#              marks an elided vowel, so all of gilaq gulaq gelaq giraq guraq
+#              geraq glaq graq were tested bare and with -un and -an, 24 shapes,
+#              none attested; graq and glaq are absent from the e-dictionary too.
+npnalu	b195  no modern reflex of his NALU 代替
+#     NALU > Pnalu 使人代替, Skgulun mo daxa xei npnalu kman musa. The register's
+#     alu is 陷阱線, a trap line, and the corpus's only nalu words are snalu 65x
+#     and smnalu 22x, both 製作 — making a thing, not taking someone's place.
+#     Searched from the meaning as well: 代替 gives nirih and rmirih, neither of
+#     which is his word. His root is simply not in the modern registers.
+ppitay	b195  attested only as a woman's name
+#     PITAI 臭蟲, § Ppitai kana sxakao so da, your bed is full of bedbugs. pitay
+#     is in the register, but all 6 corpus sentences are Pitay Losing, a person,
+#     and the e-dictionary has no pitay at all. Searched from the meaning too:
+#     the register's small vermin are quhing 頭蝨, sliliq 蝨, tmaqu 跳蚤, sumiq —
+#     no bedbug, and nothing shaped like his word. Unlike punu, which had empunu
+#     behind the name to prove the word, this one has only the name.
+snpsarun	b195  same root refused at b194 as snpsaran
+#     PUSAL > Snpusal 成雙－加倍, § Snpsalun mo ka qabang xxelao. The pusal-/psal-
+#     root was searched exhaustively one batch ago and is absent from wordlist,
+#     e-dictionary and corpus alike. A second suffix on a root that is not there
+#     is not a second question.
+kyuqan	b195  no modern word for his crachats
+#     SA'SO 沉靜－羞怯－羞恥心, § Wada na kxdoon kyoqan ka bobo na! He covered his
+#     mother in spit — shameful. He has no card for the word; it appears once in
+#     the whole book. The register spits with halus (cshalus, ghalus, empshalus),
+#     nothing shaped like his. The only near shapes are yuq 雞叫聲, a rooster
+#     noise with corpus frequency 0, and yuqu 甕, a jar. The e-dictionary was
+#     asked for kyuqan, kiyuqan and qyuqan and has none of them.
+empslangan	b195  his rust root refused at b194 as mslangan
+#     SLANGAN 鏽, § Adi biyao mpslangan ka kia! Your savings will soon be eaten
+#     by rust. Same card, same root, same absence: the register rusts with
+#     girang, not with anything shaped like slangan. A second slot on a root
+#     already searched out is not a second question.

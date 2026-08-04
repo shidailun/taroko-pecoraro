@@ -3031,3 +3031,58 @@ DOM: dark 44,188 (98.3135%) | pale 724 | green 34 | total 44,946. Blocked pairs
 367 → 348 (328 with one blocker over 286 types, 20 with two or more). Deliverable
 5,087 / 5,435 = **93.60%**. Suites 16/16, 9/9, 28/28.
 
+## batch 195 — twenty-three rulings, five refusals, and the root gloss that kept
+## belonging to somebody else
+
+The pattern of this batch was not a spelling rule. It was that the analyser's root
+gloss was, again and again, a real modern word that was not his word. hnkan is
+attested and means 把…便宜, from hnuk 便宜 — but his sxnkan is a prison, and the
+register's prison is hmkan 關（被關；坐牢）, kolo hmkan in the corpus. ruq is attested
+as 吞食聲, a swallowing noise, while his n'loq pierces a roof and his own LOQ card
+reads 洞－被刺穿的－破裂的, which is mruq 破 and pruq 洞. alu is 陷阱線, a trap line;
+bus is 蒸氣洩出聲; gur is 成群來到的聲音; yuq is a rooster's cry with corpus frequency
+0. punu and pitay are both glossed as personal names. Six of the ten were
+onomatopoeia or names — the parts of a wordlist that collide most easily with real
+words, and the parts a gate reading one gloss cannot tell apart.
+
+The way through was his own book each time. He has a card for XMUK "enfermé - clos
+- fermé", for LOQ "trou - percé - brisé", for PUNO "choléra - esprit dérangé", for
+PONGO "noeud - articulation" — and the e-dictionary's pungu glosses as 膝關節／繩結
+／關節／膝蓋, both of his senses in one entry, because a knee is a knot. Where the
+book did not have the root, the ruling did not happen: npnalu (his NALU 代替; the
+corpus's only nalu words are snalu 65× and smnalu 22×, both 製作), ppitay (his 臭蟲;
+pitay is Pitay Losing in all six corpus sentences and absent from the e-dictionary),
+kyuqan (his crachats; the register spits with halus). snpsarun and empslangan were
+not re-derived at all — pusal and slangan were searched to exhaustion one batch ago,
+and a second suffix on an absent root is not a second question.
+
+Two findings worth keeping. **The sentence can carry its own paradigm.** sxnkan sits
+beside Lntadan, and his LATAT paradigm line derives ltadan → l⟨n⟩tadan; so hkan →
+h⟨n⟩kan, prefix s- in front, and shnkan needs no letter changed beyond x→h. The case
+turned on a single stroke — m or n — so the scan was read before the ruling: page 147
+has the two-stroke n, and his nk answers to a modern mk nowhere in the map, 0 of 41.
+**And the class can be real when the word is not.** Not one kmkm string occurs in the
+whole ILRDF corpus, but kmk- is attested eight times over and every gloss is a want —
+kmkdudux 想率先, kmkeisil 想到別處, kmkla 好希望會. The one register word that looked
+like an answer, kkmalu, is the purposive 為了…好, a different form; wanting to recover
+and being led toward goodness are not the same word.
+
+Three pins came down or went in. nl'bu was going to lbu 不長, the short root, when
+this one is the morning root — ml'bu was already pinned to mgrbu, and rbu is glossed
+早上（破曉至黎明）, so nl'bu → nrbu completes a split that was half made. s'gulan was
+pinned to sguran, which is the blind l→r rule and nothing else: the tie-root is l
+throughout — seegul 綁住, enegul 綁著, negul 繫有, empeegul 要…綁住 — and the S'LYEQ
+long/short ablaut already in the map notes gives seegul bare against sgulan suffixed.
+smalyeq was pinned to smaliq, which is attested nowhere; smeeliq is attested 67× as
+浪費, his card's own gloss, and he himself asks whether the a-forms are deformations
+of SM'LYEQ. gmalyeq → gmaliq stays, because gmaliq is attested. Slot by slot.
+
+The whole PADYAQ card went dark on one fact: pajiq is 菜, 蔬菜, 青菜 — and empajiq is
+glossed 綠色, mgpajiq 綠色的. His card had said so in a line ("généralement employé
+pour désigner la couleur verte"), and the gate could not see it because 青菜 and 綠色
+share no character. Green and greens are one word here.
+
+DOM: dark 44,213 (98.3692%) | pale 699 | green 34 | total 44,946. Blocked pairs
+348 → 324 (304 with one blocker over 262 types, 20 with two or more). The sentence-
+gloss-only bucket fell from 44 types / 47 pairs to 20 / 23. Deliverable
+5,111 / 5,435 = **94.04%**. Suites 16/16, 9/9, 28/28.
