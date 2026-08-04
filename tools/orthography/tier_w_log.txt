@@ -124,7 +124,6 @@ mp'nalu          empnalu           mpnalu           M/class      0     1
 mp'onoç          empeunuh          mpeunuh          P/class      0     1
 mp'qan           empkan            mpkan            P/class      0     1
 mpa'ayo          empaayug          mpaayug          P/class      0     2
-mpabugo          empabgu           mpabgu           E/class      0     1
 mpaka'man        empakeeman        mpakeeman        P/class      0     1
 mpakmpaxan       empaqmpahan       mpaqmpahan       G/class      0     1
 mpakox           empakux           mpakux           P/class      0     4

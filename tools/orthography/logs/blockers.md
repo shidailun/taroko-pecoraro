@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-347 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
+328 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 15 | 19 |
+| gloss disagrees | 6 | 8 |
 | no root | 200 | 235 |
 | root unglossed | 36 | 38 |
-| sentence gloss only | 49 | 55 |
+| sentence gloss only | 44 | 47 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 15 types, 19 pairs
+## gloss disagrees — 6 types, 8 pairs
 
 ### tbiran — 3 pairs
 
@@ -22,14 +22,6 @@
 - 中 節慶盛裝、禮服。
 - `t-bir-an` → **bir** 車聲（擬聲詞）／車聲（擬聲詞）／飛翔之聲
 - his: ？？
-
-### msska — 3 pairs
-
-- under **RUNUG**
-- § Mrunug do, asi msska ka ana bbtunux da.
-- 中 發生地震時，連岩石都會裂開。
-- `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
-- his: 龜裂－裂開。
 
 ### psqgu — 1 pair
 
@@ -77,79 +69,8 @@
 - `t-biyi-un` → **biyi** 寮／工寮／工寮／工寮
 - his: 犁田－使用犁。（註：是否與 TMABUN＝翻鬆土地、深掘土壤使其鬆軟 有親屬關係？）。
 
-### kntglaan — 1 pair
 
-- under **TGLA**
-- § Ungat klaan ka kntglaan na sapah Rabay.
-- 中 無法知道（無法說出）他在 Rabay 家逗留多久。
-- `kn-tgla-an` → **tgla** 麴／麴
-- his: 逗留久暫的量度。
-
-### tmgla — 1 pair
-
-- under **TGLA**
-- § Uxay bi luhay lqlaqi ka tmgla sapah ptasan.
-- 中 孩子們不習慣在校舍裡拖拉（在那裡逗留）。
-- `tgla` → **tgla** 麴／麴
-- his: 逗留。
-
-### ptkanun — 1 pair
-
-- under **CIKAN**
-- § Ptkanun su knuwan ka payay su dhquy?
-- 中 那你到底什麼時候要把你的糯米去殼呢？
-- `p-tkanun` → **tkanun** 杵／要搗／要搗
-- `p-tkana-un` → **tkana** 不要搗／不要搗
-- `p-tkani-un` → **tkani** 搗／搗
-- `pt-kan-un` → **kan** 吃
-- his: 使去殼／叫人去殼。
-
-### mtkumax — 1 pair
-
-- under **TKUMAX**
-- § Mtkumax kana lnglungan mu da.
-- 中 我完全不知所措（心緒全亂了）。
-- `m-tkumax` → **tkumax** 不準；沒有命中／不準；沒有命中
-- `mt-kumax` → **kumax** 不準;沒有命中／不準；沒有命中
-- his: 完全顛倒的。
-
-### tmkumax — 1 pair
-
-- under **TKUMAX**
-- § Ma su miyah tmkumax (tkumax?) kana lnglungan dha?
-- 中 你是怎麼了，竟來把他們的心思攪得天翻地覆？（註：這種情況下，用 PTKUMAX 更為恰當！）
-- `tkumax` → **tkumax** 不準；沒有命中／不準；沒有命中
-- `tm-kumax` → **kumax** 不準;沒有命中／不準；沒有命中
-- his: 同上，動詞形。 ／ 翻天覆地－翻倒－陷入混亂。
-
-### mtudu — 1 pair
-
-- under **TUDU**
-- § Uxay bi slaq ka kiya! Ma mtudu kana ka dxgal!
-- 中 那根本不是水田！整塊地都坑坑窪窪！
-- `m-tudu` → **tudu** 主幹
-- his: 凹凸不平的－變成隆起。
-
-### sghuwayan — 1 pair
-
-- under **HUWAY**
-- § Aji ku bi ana manu sghuwayan ka yaku da!
-- 中 至於我，我不要任何形式的感謝！
-- `sghuway-an` → **sghuway** 靠…慷慨／靠…慷慨
-- `s-ghuway-an` → **ghuway** 分享／分享／給…慷慨
-- `sg-huway-an` → **huway** 慷慨／慷慨／救恩；拯救
-- his: 謝意－感激。
-
-### msilung — 1 pair
-
-- under **SILUNG**
-- § Usa smqit qsiya nhari da! Mha msilung kana ka sapah mu da!
-- 中 那就快去把水切斷！（否則）我整間房子都要變成一片水了（被淹沒）！
-- `m-silung` → **silung** 海
-- his: 變成水窪、水塘。
-
-
-## sentence gloss only — 49 types, 55 pairs
+## sentence gloss only — 44 types, 47 pairs
 
 ### ksudan — 3 pairs
 
@@ -159,15 +80,6 @@
 - `k-suda-an` → **suda** (no gloss)
 - `k-sudu-an` → **sudu** 人名（男）／人名（男）／垃圾／垃圾／輕的／阻礙
 - his: 我的日子比織布者的梭子還要快（過得更快）。 ／ 織布用的梭子。
-
-### slungan — 2 pairs
-
-- under **AN**
-- § Ma su rmngaw slungan!
-- 中 你怎麼對著大海說話呢？（Silong=海）
-- `slung-an` → **slung** 毛線／毛線
-- `s-lungu-an` → **lungu** (no gloss)
-- his: 你怎麼對著大海說話呢?(Silong=海) ／ 我對母親說：你冷靜一點，但她卻不肯聽我的！
 
 ### snpsaran — 2 pairs
 
@@ -180,32 +92,6 @@
 - `snp-sari-an` → **sari** 芋頭／芋頭／芋頭／芋頭（作物名）
 - his: 一次就把它揹去；我們沒時間去兩趟了。 ／ 年的重新開始－新年。
 
-### ptbnuun — 2 pairs
-
-- under **TBNAW**
-- § Nasi su ptbgun Rabay ka wawa rudux su o, ida na ptbnuun balay.
-- 中 如果你讓 Rabay 幫你養小雞，她會把牠們養得非常肥。
-- `p-tbnuun` → **tbnuun** 要堆壓／要堆壓
-- `pt-bnu-un` → **bnu** 填土／大軍壓境／大軍壓境／（海）龜
-- `pt-buun` → **buun** 射到；打(獵)到／射到；打（獵）到
-- his: 你的是請誰幫你養肥的？ ／ 如果你讓 Labai 幫你養小雞，她會把牠們養得非常肥。
-
-### ntlawa — 2 pairs
-
-- under **TLAWA**
-- § Usa ntlawa gsilung psrahug qsurux da.
-- 中 那就到深海去撒網捕魚吧。
-- `nt-lawa` → **lawa** 人名（女）／人名（女）／呼叫／呼求／等一等／籃色棉線
-- his: 他已經沒了氣息，臉都發青（發紫）了！ ／ 那就到深海去撒網捕魚吧。
-
-### kkdusan — 1 pair
-
-- under **BARAH**
-- § Srsi ka nsmudal ni paah bi qsahur emptduwa su malah kingal kkdusan duri.
-- 中 抹去你身上舊的（過去的）一切，全心全意，你就能重建新的人生！
-- `k-kdusan` → **kdusan** 格督善／格督尚部落
-- his: 抹去你身上舊的(過去的)一切,全心全意,你就能重建新的人生!
-
 ### mslangan — 1 pair
 
 - under **BMBANG**
@@ -215,14 +101,6 @@
 - `ms-lango-an` → **lango** (no gloss)
 - `ms-langu-an` → **langu** 湖／湖
 - his: 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
-
-### empabgu — 1 pair
-
-- under **BGU**
-- § Ana ququ empabgu!
-- 中 （就算變成粥）也沒關係！
-- `empa-bgu` → **bgu** 湯／湯
-- his: （就算變成粥）也沒關係！
 
 ### pnsdahung — 1 pair
 

@@ -3981,6 +3981,10 @@
    "modern": "qlqahun",
    "tier": "M"
   },
+  "kkdusan": {
+   "modern": "kkdsan",
+   "tier": "M"
+  },
   "kkoyox": {
    "modern": "kykuyuh",
    "tier": "M"
@@ -5030,6 +5034,10 @@
   "kntdoa": {
    "modern": "kntduwa",
    "tier": "B"
+  },
+  "kntglaan": {
+   "modern": "kntglaan",
+   "tier": "M"
   },
   "kntilux": {
    "modern": "kncilux",
@@ -7113,6 +7121,10 @@
    "modern": "maabaga",
    "tier": "M"
   },
+  "mabugo": {
+   "modern": "maabgu",
+   "tier": "M"
+  },
   "madamat": {
    "modern": "mdamat",
    "tier": "L"
@@ -8767,6 +8779,10 @@
    "modern": "empaabubu",
    "tier": "M"
   },
+  "mpabugo": {
+   "modern": "empaabgu",
+   "tier": "M"
+  },
   "mpad'gal": {
    "modern": "empaadxgal",
    "tier": "M"
@@ -9831,6 +9847,10 @@
   "mtdoa": {
    "modern": "mtduwa",
    "tier": "B"
+  },
+  "mtg'la": {
+   "modern": "mtgila",
+   "tier": "M"
   },
   "mtg'xal": {
    "modern": "mtgxal",
@@ -13961,6 +13981,10 @@
   "ptbnao": {
    "modern": "ptbnaw",
    "tier": "B"
+  },
+  "ptbnuon": {
+   "modern": "ptbnagun",
+   "tier": "M"
   },
   "ptbnxani": {
    "modern": "ptbnahani",
@@ -18522,9 +18546,8 @@
    "tier": "M"
   },
   "tg'la": {
-   "modern": "tgla",
-   "tier": "id",
-   "elision_dropped": "tg'la"
+   "modern": "tgila",
+   "tier": "M"
   },
   "tg'xal": {
    "modern": "tgxal",
@@ -19130,6 +19153,10 @@
    "modern": "tmjiyal",
    "tier": "B"
   },
+  "tmg'la": {
+   "modern": "tmgila",
+   "tier": "M"
+  },
   "tmiai": {
    "modern": "tmiyay",
    "tier": "B"
@@ -19304,6 +19331,10 @@
   },
   "tngiya": {
    "modern": "tnegiya",
+   "tier": "M"
+  },
+  "tnglaan": {
+   "modern": "tnglaan",
    "tier": "M"
   },
   "tngqgoq": {
@@ -21541,11 +21572,6 @@
    "modern": "kntdhuan",
    "tier": "P"
   },
-  "kntglaan": {
-   "modern": "kntglaan",
-   "tier": "P",
-   "elision_dropped": "kntg'laan"
-  },
   "kntgmilan": {
    "modern": "kntgmilan",
    "tier": "P"
@@ -21685,10 +21711,6 @@
   },
   "mabobo": {
    "modern": "mabubu",
-   "tier": "P"
-  },
-  "mabugo": {
-   "modern": "mabgu",
    "tier": "P"
   },
   "madala": {
@@ -23282,11 +23304,6 @@
   "mtdaxo": {
    "modern": "mtdahu",
    "tier": "P"
-  },
-  "mtg'la": {
-   "modern": "mtgla",
-   "tier": "P",
-   "elision_dropped": "mtg'la"
   },
   "mtgamil": {
    "modern": "mtgamil",
@@ -25735,11 +25752,6 @@
    "modern": "tmdhug",
    "tier": "P"
   },
-  "tmg'la": {
-   "modern": "tmgla",
-   "tier": "P",
-   "elision_dropped": "tmg'la"
-  },
   "tmgakat": {
    "modern": "tmgakat",
    "tier": "P"
@@ -25796,11 +25808,6 @@
   "tngamil": {
    "modern": "tngamil",
    "tier": "P"
-  },
-  "tnglaan": {
-   "modern": "tnglaan",
-   "tier": "P",
-   "elision_dropped": "tng'laan"
   },
   "tngoxan": {
    "modern": "tnguhan",
@@ -27717,10 +27724,6 @@
    "modern": "pshmukun",
    "tier": "R"
   },
-  "ptbnuon": {
-   "modern": "ptbnuun",
-   "tier": "R"
-  },
   "ptdoaon": {
    "modern": "ptduwaun",
    "tier": "R"
@@ -29332,12 +29335,6 @@
    "d_rule": "CVCV-",
    "d_base": "gnalu"
   },
-  "kkdusan": {
-   "modern": "kkdusan",
-   "tier": "D",
-   "d_rule": "CV-",
-   "d_base": "kdusan"
-  },
   "kketa": {
    "modern": "kkita",
    "tier": "D",
@@ -30061,12 +30058,6 @@
    "tier": "E",
    "e_stem": "ngaxan",
    "e_modern": "ngahan"
-  },
-  "mpabugo": {
-   "modern": "empabgu",
-   "tier": "W",
-   "w_was": "mpabgu",
-   "w_how": "class"
   },
   "mpaksia": {
    "modern": "empaqsiya",

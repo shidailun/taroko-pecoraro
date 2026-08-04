@@ -824,9 +824,120 @@ HAND_SPOKEN = """nta""".split()
 # against what modern types really look like: 110 types end -uun, 138 end -uan,
 # 109 are kn-…-an. Four sentence pairs on one card, and the refusal throughout
 # was the same character test — 攀登 shares nothing with 上坡.
+# batch 194 — the TG'LA card, decided against an attested value.
+# His head is TG'LA 逗留－慢慢來, with the note 某些說話者清楚地讀成 TGI…, and a
+# sub spelled "Tmg'la (tngila)" — he records the vowel his apostrophe elides.
+# The map had the card split: mtgila dark with the vowel, tgla/mtgla/tnglaan dark
+# without it. tgla is attested, but its gloss is 麴 (yeast) — a homophone, not his
+# word. The register writes this root with the vowel: gila is glossed 「tggila
+# 拖拖拉拉」的詞根, tggila is attested and runs in text (tggila mtutuy kdjiyax ka
+# swayi snaw 弟弟常常賴床), and tgila is attested. Not one vowelless inflection
+# (mtgla tmgla tnglaan kntglaan) is attested or occurs in any corpus sentence.
+# So the unsuffixed slots are pinned onto the vowel — tgila, tmgila, mtgila, and
+# his own parenthetical tngila. An attested value can still be a wrong value;
+# only the gloss catches it.
+#
+# The -an slots are NOT. I pinned tnglaan and kntglaan to the vowel too and had
+# to take both back: the batch-190 note above already held the evidence, and I
+# had not read it. The register syncopates this vowel before a suffix — sglaan
+# 讓…耽誤 (freq 6) and sglai 使…耽誤 are attested, sgilaan and sgilai are not.
+# So his Tnglaan and Kntglaan are the register-consistent shapes and were right
+# as written; only kntglaan needed ruling (tnglaan was ruled in batch 190). They
+# needed identity pins, not no pin: with the head pinned to tgila, root
+# projection respells every slot on the card off it, so a slot the projection
+# must not reach has to say so out loud. A
+# root can be consistent and still take two shapes, if the split is conditioned.
+#
+# batch 194 — mtudu, on a standing finding rather than a fresh derivation.
+# Batch 190 settled what tudu is: the ridge, the spine, the axis, glossed 主幹
+# against his 培土／田埂 with zero character overlap. His Mtudo 凹凸不平的－變成隆起
+# is the stative of that — ground that has become ridges — and the register
+# attests mntudu, the ⟨n⟩ perfective of this exact word, alongside pltudun,
+# ltudun and pntgtudu. The strongest supporter a slot can have is its own
+# perfective.
+#
+# batch 194 — sghuwayan, where the sense is attested one slot away.
+# His XOAI (XOWAI ?) › Sgxoayan (Sgxwayan ?) 謝意－感激, and his own parenthetical
+# spells the w the map restores. sghuway 靠…慷慨 is attested and carries the
+# affixation; huway and ghuway 分享 are attested; and mhuway is glossed 恩慈／
+# 感謝／慷慨／謝謝 — the thanks sense his card is about, on this very root, in a
+# sister slot. The gate saw only 謝意 against 慷慨 and refused.
+# batch 194 — ptkanun, and the root that changes shape between slots.
+# TIKAN 去殼－舂（穀物）renders split in the register: the head is cikan and the
+# causative is pcikan (both dark, ti→ci), but every suffixed slot keeps tkan- —
+# tkanan, tnkanan and the attested tkanun 杵, which runs in text as dmux o tkanun
+# ni skuu 以備舂米或保存用, exactly his faire décortiquer. Ptkanun is p- on that
+# -un stem, so its two supporters are on the same card and they agree: pcikan
+# vouches for the causative slot, tkanun for the stem. The gate refused only
+# because the sub-gloss 使去殼 drops the 舂 his own head gloss carries.
+#
+# batch 194 — mtkumax and tmkumax, ruled on shape where the gloss will not help.
+# TKUMAX 翻天覆地－翻倒－陷入混亂 has four slots; TKUMAX→tkumax and Ptkumax→ptkumax
+# 使...不準 (freq 12) are attested dark, so the register writes this root with
+# these exact letters and takes the causative on it. m- and tm- are the two
+# remaining slots and neither changes a letter of his spelling. The ILRDF gloss
+# 不準；沒有命中 shares nothing with 顛倒, but its one corpus sentence is a deadfall
+# trap being tripped — 整塊石板被動快速壓下 — which is his renversé, not a miss.
+# Pecoraro marks the tm- slot "Tmkumax (?)" and writes "(tkumax ?)" in its
+# example: his doubt is whether the form exists, not how it is spelt, and the
+# sister slot Tmikan on the TIKAN card above shows tm- is a real slot here.
+# batch 194 — slungan, a word he names himself.
+# His slongan blocks two sentences, on the AN card and on XOAI › Kxoai, and the
+# AN card carries his own gloss for it: parler à la mer (Silong = mer) 對著大海
+# 說話. The register attests silung 海 and gsilung 海, the latter with 222 corpus
+# sentences (qsurux gsilung 海魚); his silong already renders silung dark. The
+# -an form syncopates the penult, the same conditioning just established on the
+# TG'LA card by sglaan against sgilaan — silung + -an gives slungan, which is
+# what the map already proposed. Nothing here was in doubt except the suffixed
+# shape, and the card above had already settled that.
+# batch 194 — msilung, the second slot of the sea root.
+# His "SILONG › M"silong 變成水窪、水塘, the house that will 變成一片水. silung 海 and
+# gsilung 海 are attested and his own head silong already renders silung dark, so
+# this is m- on an attested stem. The gate saw 海 against 水窪、水塘 and refused on
+# zero character overlap — the same refusal it makes every time a stative names
+# what the noun becomes rather than what it is.
+# batch 194 — ptbnagun, where the analyser had the wrong root and the family
+# had the right one. His TBNAO 豐滿－胖嘟嘟 card is in the register almost slot for
+# slot: tbnaw 胖子, mtbnaw 胖, kntbnaw 胖, and ptbnaw 使胖的, which is his Ptbnao
+# 使肥胖 word for word. Only his -un form ptbnuon broke away, and it broke to
+# ptbnuun off the analyser's root tbnuun 要堆壓 — a shape hit on a root that
+# means to pile and press, not to fatten. The root ends in -aw and this root's
+# own -an form shows what happens under a suffix: kntbnagan is attested, w→g.
+# The register does it everywhere else too — bgbaw/bgbagun, bglaw/bglagun,
+# bhraw/bhragun, bkraw/bkragun, btraw/btragun, dhaw/dhagun. So ptbnaw + -un is
+# ptbnagun, and the card now renders one root instead of two.
+#
+# batch 194 — ntlawa, ruled off its sister and not off its root.
+# TLAWA › Mtlawa 1° 水深之處 2° 呈藍色、紫色的, two sentences: the deep sea to cast
+# nets in, and a face gone blue. mtlawa is attested and glossed 藍色 — his second
+# sense exactly, sharing the character. The bare root tlawa is not attested, so
+# the gate had nothing to test and fell back on lawa 呼叫／等一等, which is a
+# different word. No letter of his ntlawa changes.
+# batch 194 — maabgu and empaabgu, and a prefix the map was writing too short.
+# BUGO › Mabugo 快要變成湯（粥）的, with Ana qoqo mpabugo! The root is not in doubt:
+# bgu 湯 is attested with a full family — tmbbgu 喝湯, tnbgu 湯的主人, tgbgu, ttbgu.
+# The prefix was. The map had mabugo→mabgu (dark by rung, not by attestation) and
+# mpabugo→empabgu, but the register does not write the inchoative that way: maa-
+# has 468 attested types and empaa- 51, while ma- before a consonant cluster is
+# absent and the seven bare empa- types are all emp- on an a-initial root
+# (empatas, empajiq). maabagu 形成焦黑 is the same shape on a b-initial CCV root.
+# So his devenir soupe is maabgu and his sur le point de is empaabgu. This drops
+# mabgu, which was dark on a rung that spelt the prefix short; one root, one
+# prefix, and the card now says the same thing twice instead of two things once.
+# batch 194 — msska, where the root gloss names a place and the word names what
+# happens there. RUNUG: Mrunug do, asi msska ka ana bbtunux da 發生地震時，連岩石
+# 都會裂開. ska is attested 中間／當中／裡面 and the gate stopped at 中間 against
+# 裂開. But the register itself takes this root to the splitting sense — skaun is
+# glossed 切成半粒, cut into halves — and the rest of the family is there too:
+# cska, kska 其中, mgska 在中間, pgska 使放中間, gmska. The prefix is ms-, with 67
+# attested types, and the doubled s is what ms- does before an s-initial root:
+# mssaang from saang, mssbarux 相互換工 from sbarux. A rock that msska splits
+# down its middle, which is the root's own meaning applied to itself.
 HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan embqru
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
-                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan""".split()
+                pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan
+                tmgila tngila kntglaan
+                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

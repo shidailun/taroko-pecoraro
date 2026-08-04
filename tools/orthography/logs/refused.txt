@@ -21,3 +21,39 @@ snuqu    b193  his 頑皮／愛開玩笑的人 against nuqu 倒是 and uqu 生�
 #              not hold it, it has no family and no corpus token: an unglossed
 #              orphan is not a supporter. The playful vein (rnaw 開玩笑, seiyax,
 #              mqpuji 很頑皮) answers to none of his letters.
+tnbiyan  b194  his whole TABE 犁田 root is unattested - ILRDF holds none of tabi,
+#              tbiyun, tnbiyan, tmabi, ptabi, and his e answers modern i
+#              (laqe→laqi, bnaqe→bnaqig), so the root would be tabi. The meaning
+#              is carried by unrelated words, sakur 犁 and paux 犁田. tabun 鋤地
+#              is the nearest neighbour and Pecoraro himself asks on the card
+#              whether TABE is kin to TMABUN - a cognate explains a word but
+#              never spells one.
+tbiyun   b194  same root, same refusal as tnbiyan.
+ksudan   b194  His KSUDAN 織布用的梭子, three sentences. Searched from the meaning,
+#              not the letters: the register's shuttle is gikus 梭（織布工具之一）,
+#              freq 24, with a whole derivational family (tmggikus 製作梭,
+#              tnegikus 梭的主人) and a corpus sentence describing it crossing the
+#              warp. ksudan, sudan and suda are absent from the wordlist, the
+#              e-dictionary and the corpus alike. A synonym names the object but
+#              cannot spell his word.
+snpsaran b194  His Snpsalan 年的重新開始, two sentences, from PUSAL › Smpusal
+#              更新－重新開始. Nothing in the psal-/pusal- root is attested anywhere:
+#              pusal, spusal, smpusal, psalan, psaran all absent from wordlist,
+#              e-dictionary and corpus. The register renews with barah — the only
+#              gloss carrying 重新開始 is snegbarah. So snpsaran is the blind l→r
+#              rule and nothing else, which is exactly what pale is for.
+mslangan b194  His mslangan in the BMBANG example, 鐵皮…完全鏽掉了. The analyser
+#              offered mslangu 積水 and langu 湖, and a rusted-through roof that
+#              pools water is a metaphor I would be inventing — his own SLANGAN
+#              card settles the sense outright: Rouille 鏽. So the word means
+#              rust, and the register's rust is a different root entirely:
+#              girang, with some twenty derivations (smggirang 容易生銹, skgirang
+#              會生銹的, tnegirang 銹…的主人). Nothing of the shape slangan is
+#              attested. His rust word and theirs are not the same word.
+tbiran   b194  His LUKUS example Lukus tbiran (vl. lukus pspingan) 節慶盛裝、禮服,
+#              three pairs, and his own gloss for the word is ？？. Neither tbir
+#              nor tbiran is in the wordlist, the e-dictionary or the corpus, and
+#              no gloss in any table carries 盛裝 or 禮服. His own variant is the
+#              one that renders: pspingan 讓…化妝 and psping 裝飾 are attested. A
+#              variant that spells itself does not spell the word beside it.
+

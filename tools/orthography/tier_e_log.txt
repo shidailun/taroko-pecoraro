@@ -30,7 +30,6 @@ mkmd'xok         mkmdhuq          kmdxok         kmdhuq         derived
 mkmpaux          mkmpaux          kmpaux         kmpaux         derived
 ml'çan           mlxan            lxan           lxan           derived
 mngaxan          mngahan          ngaxan         ngahan         derived
-mpabugo          mpabgu           bugo           bgu            derived
 mpaksia          mpaqsiya         ksia           qsiya          derived
 mpgalang         mpgarang         pgalang        pgarang        derived
 mpgleq           mpgriq           mpgleq         mpgriq         derived

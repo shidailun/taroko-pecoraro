@@ -2952,3 +2952,82 @@ DOM: dark 44,160 (98.2490%) | pale 753 | green 34 | total 44,947. Blocked pairs
 375 → 367 (347 with one blocker over 300 types, 20 with two or more). The gloss-
 disagrees bucket fell 23 → 15 types. Deliverable 5,068 / 5,435 = **93.25%**.
 Suites 16/16, 9/9, 28/28.
+
+## batch 194 — fifteen rulings, six refusals, and a vowel that is only there
+## before a suffix
+
+The TG'LA card came up split: mtgila dark with the vowel, tgla, mtgla and
+tnglaan dark without it, and his own head note saying 某些說話者清楚地讀成 TGI…
+His sub is spelled "Tmg'la (tngila)" — he writes the vowel his apostrophe
+elides. tgla is attested, but its gloss is 麴, yeast; the register carries his
+sense on the voweled family — gila is glossed 「tggila 拖拖拉拉」的詞根, tggila runs
+in text as tggila mtutuy kdjiyax ka swayi snaw 弟弟常常賴床, tgila is listed. An
+attested value can still be a wrong value, and only the gloss catches it.
+
+So I pinned the whole card onto the vowel, and had to take half of it back. The
+batch-190 note two screens up already held the counter-evidence: sglaan 讓…耽誤
+(freq 6) and sglai 使…耽誤 are attested, sgilaan and sgilai are not. This vowel
+syncopates before a suffix and stays everywhere else. His Tnglaan and Kntglaan
+were right as he wrote them; tgila, tmgila, mtgila and tngila take the vowel.
+A root can be consistent and still take two shapes, if the split is conditioned
+— and **don't re-derive a standing finding** cuts both ways: the note I did not
+read was the one that had already done this work.
+
+Taking the two pins out was not enough. With the head pinned to tgila, root
+projection respells every slot on the card off it, and both -an slots came back
+respelled with no pin of their own. A slot the projection must not reach has to
+say so out loud, so tnglaan and kntglaan are now identity pins.
+
+The same syncope then settled slungan in one step: his slongan blocks two
+sentences and his own AN card glosses it — parler à la mer (Silong = mer). silung
+海 and gsilung 海 are attested, the latter with 222 corpus sentences, and silung +
+-an drops the penult exactly as sgila does. msilung, the stative on that root,
+went with it.
+
+Two cards were rendering one root as two words. TBNAO is in the register almost
+slot for slot — tbnaw 胖子, mtbnaw 胖, kntbnaw 胖, ptbnaw 使胖的 — and only his -un
+form had wandered off to ptbnuun, on the analyser's root tbnuun 要堆壓, a shape
+hit meaning to pile and press. The root ends in -aw and its own -an form shows
+what a suffix does to it: kntbnagan, w→g, the same alternation the register makes
+in bgbagun, bglagun, bhragun, bkragun, btragun, dhagun. So ptbnagun. On BUGO the
+prefix itself was written short: the map had mabugo→mabgu and mpabugo→empabgu,
+but the inchoative is maa- (468 types) and empaa- (51), ma- before a consonant
+cluster does not occur, and the seven bare empa- types are all emp- on an
+a-initial root. maabagu 形成焦黑 is the same shape on a b-initial CCV root. So
+maabgu and empaabgu — which drops mabgu, dark on a rung that spelt the prefix
+short. That is the second override this batch and both were priced first.
+
+The rest were the gate refusing on Chinese it could not match. ptkanun: TIKAN
+renders cikan at the head and pcikan in the causative but keeps tkan- in every
+suffixed slot, and tkanun 杵 runs in text as dmux o tkanun ni skuu 以備舂米或保存用
+— his faire décortiquer, in the character his own head gloss carries and his sub
+gloss drops. mtkumax and tmkumax: TKUMAX and ptkumax 使...不準 are attested, so
+the register writes this root with these letters and takes the causative on it;
+the ILRDF gloss 不準；沒有命中 shares nothing with 顛倒, but its one corpus sentence
+is a deadfall trap being tripped, 整塊石板被動快速壓下, which is his renversé.
+mtudu stood on a standing finding — batch 190 settled that tudu is the ridge and
+the spine — plus mntudu, the ⟨n⟩ perfective of the word itself. sghuwayan had its
+sense one slot away: mhuway is glossed 恩慈／感謝／慷慨／謝謝 and his card is 謝意.
+ntlawa was ruled off its sister mtlawa 藍色, his own second sense, sharing the
+character. msska: ska is 中間, but skaun is 切成半粒, and ms- doubles its s before
+an s-initial root exactly as in mssaang and mssbarux 相互換工 — a rock that splits
+down its own middle. kkdsan needed no ruling at all, only the pin: 一生；終身 is
+attested and in the corpus, and his kk- is their kk-.
+
+Six refusals, four of them the same shape of finding — the register has the
+thing, under another word. ksudan 織布用的梭子: the shuttle is gikus, freq 24, with
+a family (tmggikus 製作梭, tnegikus 梭的主人) and a corpus sentence of it crossing
+the warp; ksudan, sudan and suda are absent everywhere. mslangan: the analyser
+offered mslangu 積水 and a rusted roof that pools water is a metaphor I would be
+inventing — his own SLANGAN card says Rouille 鏽 outright, and the register's rust
+is girang with some twenty derivations. tbiran 節慶盛裝、禮服: no gloss in any table
+carries 盛裝 or 禮服, and the variant he prints beside it is the one that spells
+itself (pspingan 讓…化妝). snpsaran was thinner still — pusal, spusal, smpusal,
+psalan, psaran absent from wordlist, e-dictionary and corpus alike, and the only
+gloss carrying 重新開始 is snegbarah. With tnbiyan and tbiyun recorded earlier, the
+gloss-disagrees bucket is now 6 types and every one of them is a written refusal.
+
+DOM: dark 44,188 (98.3135%) | pale 724 | green 34 | total 44,946. Blocked pairs
+367 → 348 (328 with one blocker over 286 types, 20 with two or more). Deliverable
+5,087 / 5,435 = **93.60%**. Suites 16/16, 9/9, 28/28.
+

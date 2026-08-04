@@ -439,6 +439,16 @@
 "name": "ghuway",
 "note": "文化小語： 「ghuway分享」在部落是重要的，維繫著部落情感而成為生命共同體。"
 },
+"gikus": {
+"freq": 24,
+"glosses": [
+"梭（織布工具之一）",
+"設置刺竹陷阱；長刺的陷阱",
+"梭子"
+],
+"name": "gikus",
+"note": "詞意：qngqaya cinun織布器具之一\r\n\r\n文化小語： 族人婦女編織用的器具種類很多，會按照所設計編織的圖騰來增減器具，所以男人必頇協助婦女來製作編織之用具。\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+},
 "gila": {
 "freq": 0,
 "glosses": [
@@ -674,6 +684,7 @@
 "note": "詞意：taga cicih等一會兒\r\n詞意：ini qneuqu是、對啊\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
 "kkakuh": null,
+"kkdsan": null,
 "kkdusan": null,
 "kkmalu": null,
 "kkran": null,
@@ -723,6 +734,15 @@
 },
 "knbsrat": null,
 "kndrgan": null,
+"kndsan": {
+"freq": 94,
+"glosses": [
+"生活",
+"文化"
+],
+"name": "kndsan",
+"note": ""
+},
 "kndutu": null,
 "kngusan": null,
 "knluus": null,
@@ -1350,6 +1370,7 @@
 "prjilun": null,
 "prngut": null,
 "prudaw": null,
+"psalan": null,
 "psari": {
 "freq": 0,
 "glosses": [
@@ -1400,6 +1421,7 @@
 "psrijil": null,
 "pstrngun": null,
 "psttuy": null,
+"ptabi": null,
 "ptaril": null,
 "ptatuy": null,
 "ptbnuun": null,
@@ -1414,6 +1436,14 @@
 "pteuqi": null,
 "pthnguli": null,
 "ptkanun": null,
+"ptkumax": {
+"freq": 12,
+"glosses": [
+"使...不準"
+],
+"name": "ptkumax",
+"note": ""
+},
 "ptqliyun": null,
 "ptryaun": null,
 "ptudan": null,
@@ -1450,6 +1480,7 @@
 "name": "pungu",
 "note": "詞意：pnstrngan kulaw膝關節\r\n詞意：snkran mkuy gasil繩結\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"pusal": null,
 "put": null,
 "qadi": null,
 "qapah": {
@@ -1831,6 +1862,7 @@
 "note": "詞意：ruwan裡面\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
 "skarabi": null,
+"skaun": null,
 "skbowxil": null,
 "skhuan": null,
 "skiya": {
@@ -1922,6 +1954,7 @@
 },
 "smllu": null,
 "smmul": null,
+"smpusal": null,
 "smuk": {
 "freq": 7,
 "glosses": [
@@ -2010,6 +2043,7 @@
 "sttuan": null,
 "sttuun": null,
 "suda": null,
+"sudan": null,
 "sudu": {
 "freq": 311,
 "glosses": [
@@ -2027,6 +2061,7 @@
 "suwan": null,
 "syukay": null,
 "syuring": null,
+"tabi": null,
 "tadaw": null,
 "taga": {
 "freq": 15,
@@ -2059,6 +2094,7 @@
 },
 "taru": null,
 "tbilan": null,
+"tbir": null,
 "tbiran": null,
 "tbiyan": {
 "freq": 0,
@@ -2167,6 +2203,7 @@
 "name": "tkumax",
 "note": ""
 },
+"tmabi": null,
 "tmaq": {
 "freq": 3,
 "glosses": [
