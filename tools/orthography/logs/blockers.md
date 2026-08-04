@@ -2,13 +2,13 @@
 
 # Sole blockers, by what a ruling would buy
 
-262 pairs are blocked by exactly one type; 20 by two or more and are not credited to any single word.
+256 pairs are blocked by exactly one type; 12 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
 | gloss disagrees | 7 | 9 |
-| no root | 198 | 231 |
-| root unglossed | 9 | 9 |
+| no root | 195 | 226 |
+| root unglossed | 8 | 8 |
 | sentence gloss only | 10 | 13 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
@@ -175,15 +175,7 @@
 - his: 得獎的是他；我嘛，排在他後面很多。
 
 
-## root unglossed — 9 types, 9 pairs
-
-### ddjilun — 1 pair
-
-- under **JIJIL**
-- § Qlhangi balay! Ddjilun ka nii uxay ppaun.
-- 中 要特別小心！這個要用手提，不可背在背上。
-- `d-djilun` → **djilun** (no gloss)
-- his: 要特別小心!這個要用手提,不可背在背上。
+## root unglossed — 8 types, 8 pairs
 
 ### emplxan — 1 pair
 
@@ -248,8 +240,8 @@
 - `n-diya-an` → **diya** (no gloss)
 
 
-## no root — 198 types, 231 pairs
+## no root — 195 types, 226 pairs
 
 Listed for completeness only. No analysis reaches a candidate root at all, so there is nothing to rule on.
 
-naru (6), klulu (5), uuyas (3), mpa (3), rih (3), bnrnahan (2), gaqat (2), kmbyanan (2), gnlqan (2), klkari (2), skarabi (2), daman (2), llihaw (2), loai (2), srhqun (2), npaamalu (2), hhmadan (2), qadi (2), qqsahur (2), qlxan (2), knsblsan (2), ptatuy (2), npghii (2), nay (1), papix (1), ayuq (1), kkakuh (1), skhuan (1), siga (1), dbsnawan (1), empaamalu (1), mulu (1), btudun (1), bntuluk (1), btlukan (1), mkefunang (1), kmubui (1), pggu (1), knsdraan (1), sm (1), pdmati (1), dhuan (1), kntdhuan (1), csgsutun (1), pdhliqan (1), meq (1), nagwi (1), put (1), ddcristu (1), bsqrul (1), handulu (1), snghi (1), kiima (1), ssiisil (1), mksiisil (1), iisu (1), yiyahun (1), mqrip (1), pqrip (1), btlukun (1), kahui (1), mkahui (1), mtkkrang (1), tnoxoi (1), pklluyun (1), yiyah (1), kndutu (1), paaaq (1), mtrgri (1), llulung (1), kkslabang (1), tslbangi (1), llabis (1), kndrgan (1), bboai (1), snola (1), rramil (1), rranaq (1), lngiyan (1), npaalaqi (1), sklbai (1), pnnanu (1), lgluq (1), rbaqan (1), rnbaqan (1), prjilun (1), boro (1), rikut (1), nprikut (1), tnrikut (1), npaamanu (1), qkrang (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), isuka (1), llongai (1), bakuciku (1), mnsslupung (1), syukay (1), drbiyax (1), nilit (1), nkllu (1), pnnguan (1), pkhlah (1), mnnaxal (1), armuni (1), mtmuhung (1), saole (1), mgangah (1), knngnguan (1), mngusyeh (1), mggui (1), pkuxun (1), ubai (1), mnpitu (1), bskanun (1), kakuh (1), kmaluh (1), qnadi (1), tgrgri (1), suntyu (1), npamuxul (1), pqatai (1), empnmu (1), siba (1), qlaq (1), sqlaq (1), qmilaw (1), kaon (1), mqqlang (1), qntqdan (1), dmbasyaq (1), smmul (1), mpsqlul (1), spsdharun (1), wwahir (1), srngiyun (1), pnsrngiyan (1), nagui (1), kasayang (1), smllu (1), naqux (1), qloq (1), sruweq (1), knsrhagan (1), gneeliq (1), spngaw (1), snxelan (1), snmul (1), iniku (1), mman (1), pkkah (1), nbliqan (1), empkduriq (1), syuring (1), msyuring (1), knhgun (1), tsaleh (1), msnoxel (1), upskra (1), uru (1), qtaqi (1), sqtaqi (1), rqili (1), teumuk (1), lungat (1), tibasyaq (1), sneuwit (1), qdrxun (1), dmikat (1), mnttlaqel (1), ptryaun (1), qlap (1), ptqliyun (1), nmikat (1), psttuy (1), urang (1), bsqani (1), ega (1), gneuwit (1), knnraan (1), mguy (1), hbugi (1), kaisia (1), thrdu (1), hlingan (1), hlakuh (1), emphlakuh (1), pthnguli (1), byeqay (1), pis (1), yianu (1), niyak (1), mpyah (1), qqrut (1), pnmuun (1)
+naru (7), klulu (5), mpa (3), rih (3), bnrnahan (2), gaqat (2), kmbyanan (2), gnlqan (2), skarabi (2), daman (2), snola (2), loai (2), nilit (2), srhqun (2), npaamalu (2), hhmadan (2), qadi (2), qlxan (2), knsblsan (2), ptatuy (2), npghii (2), nay (1), papix (1), ayuq (1), kkakuh (1), kmkbahang (1), skhuan (1), siga (1), dbsnawan (1), empaamalu (1), mulu (1), btudun (1), bntudan (1), bntuluk (1), btlukan (1), mkefunang (1), kmubui (1), pggu (1), knsdraan (1), sm (1), pdmati (1), dhuan (1), kntdhuan (1), csgsutun (1), pdhliqan (1), meq (1), nagwi (1), put (1), ddcristu (1), bsqrul (1), handulu (1), shmqan (1), snghi (1), mksiisil (1), yiyahun (1), mqrip (1), pqrip (1), btlukun (1), kahui (1), mkahui (1), mtkkrang (1), tnoxoi (1), pklluyun (1), yiyah (1), kndutu (1), paaaq (1), mtrgri (1), llulung (1), kkslabang (1), tslbangi (1), llabis (1), kndrgan (1), bboai (1), rramil (1), rranaq (1), lngiyan (1), npaalaqi (1), sklbai (1), pnnanu (1), lgluq (1), rbaqan (1), rnbaqan (1), prjilun (1), boro (1), rikut (1), nprikut (1), tnrikut (1), npaamanu (1), qkrang (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), isuka (1), llongai (1), bakuciku (1), mnsslupung (1), syukay (1), drbiyax (1), nkllu (1), pnnguan (1), pkhlah (1), mnnaxal (1), ntnring (1), armuni (1), mtmuhung (1), saole (1), mgangah (1), knngnguan (1), mngusyeh (1), mggui (1), pkuxun (1), ubai (1), mnpitu (1), bskanun (1), kakuh (1), kmaluh (1), qnadi (1), dpnah (1), tgrgri (1), suntyu (1), npamuxul (1), pqatai (1), empnmu (1), siba (1), qlaq (1), sqlaq (1), qmilaw (1), kaon (1), mqqlang (1), qntqdan (1), dmbasyaq (1), smmul (1), mpsqlul (1), spsdharun (1), wwahir (1), srngiyun (1), pnsrngiyan (1), nagui (1), kasayang (1), smllu (1), naqux (1), qloq (1), sruweq (1), knsrhagan (1), gneeliq (1), spngaw (1), snxelan (1), snmul (1), iniku (1), mman (1), pkkah (1), nbliqan (1), empkduriq (1), syuring (1), msyuring (1), knhgun (1), tsaleh (1), msnoxel (1), upskra (1), uru (1), qtaqi (1), rqili (1), teumuk (1), lungat (1), tibasyaq (1), sneuwit (1), qdrxun (1), dmikat (1), mnttlaqel (1), ptryaun (1), qlap (1), ptqliyun (1), nmikat (1), psttuy (1), urang (1), bsqani (1), ega (1), gneuwit (1), knnraan (1), mguy (1), hbugi (1), kaisia (1), thrdu (1), hlingan (1), hlakuh (1), emphlakuh (1), pthnguli (1), byeqay (1), pis (1), yianu (1), niyak (1), mpyah (1), qqrut (1), pnmuun (1)

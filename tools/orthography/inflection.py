@@ -1404,6 +1404,79 @@ HAND_SPOKEN = """nta""".split()
 # and his 公開 is the first of those character for character while his 眾所周知 is the
 # rest of them. The t- form he writes is the one slot no wordlist prints, which is the
 # only reason the gate never saw it.
+# Batch 198. Sixty-one at once, and the reason is not that the bar moved: it is that
+# the pale list was read by BUCKET for the first time instead of word by word. Run the
+# analyser over all 447 pale types and they fall in three heaps — 91 types whose root is
+# attested AND glossed, 28 whose root is listed but glossed by nobody, and 328 that reach
+# no root at all. The first two heaps are 144 occurrences and they are the only part of
+# the page that a morphological argument can still reach; the third is 493 occurrences of
+# honest hole. Everything below comes out of the first two, plus one seam the analyser
+# cannot see at all.
+#   THE SIBLING SEAM. Half of these were decided years-of-batches ago and nobody carried
+# the verdict across the paradigm. `empraqat` (his Mplaqat) is already in this list, so
+# his Plaqat is `praqat` by the same ruling; `knluusan` is here, so `knluus`; `pknluun`,
+# so `pknluan`; `sdmatan`, so `psdmatan`; `pklilug`, so `plilug`; `kkrang` and `mkkrang`,
+# so `tkkrang`; `ptkanun`, so `ptkanan`; `qmapah`, `haduri`, `pnrikit`, `empklutut`,
+# `empngpung`, `mtudu`, `msilung`, `psnegulun` — each one licenses the slot beside it.
+# A ruling that stops at the form the map happened to show is half a ruling.
+#   But a sibling is only a sibling if it is the same card. `pngraq` is in this list and
+# it is NOT evidence for his G'LAQ 拿取——奪取: it comes off NG'LAQ 愚蠢——白痴, a different
+# entry that happens to share four letters. graq / gmraq / graqun stay pale. A label is
+# not an argument, and neither is a neighbouring string.
+#   THE REDUPLICATION SEAM. roots() has no reduplication rule, so every CC- and VV- form
+# lands in the unreachable heap with a root of "". Strip the doubled onset by hand and
+# the stem underneath is one of the most frequent words in the register: uuyas < uyas
+# 唱歌 216 (his own tag prints it, OYES (OYAS？)), llihaw < lihaw 32 for his LIXAO
+# 玻璃－鏡子, ssiisil < isil 另一邊 215 for his Ssiisil 來自四面八方, klkari < kari 1608
+# for his Klkari 眾多話語（＝複數形）— his gloss says plural and reduplication is how
+# Truku says plural. iisu < isu 你 508, kiima < ima 誰 525 (he analyses it himself:
+# ki'ima = kii + ima). qqsahur < qsahur 內臟 33, where both his sentences translate
+# kksaxol as 心 and the organ is the metaphor. Nineteen occurrences the census listed as
+# hopeless.
+#   THE MAP WAS WRONG IN FIVE PLACES, and pale was reporting it faithfully. `glani` is
+# his GALU 憐憫 imperative and the register lists `gleani` 去關愛 outright — that one
+# needed no ruling at all, only the right value. `sktaqe` had been given sq- for sk- when
+# the root is `mtaqi` 睡 250 and his prefix is sk-. `tmt'lo` had a vowel restored onto
+# taru, the transliterated 大陸 syllable batch 197 caught under `mt'lo`, and is `tmtru`
+# 分成三份 off tru 三 497. `psn'gulan` and `psn'guli` had l→r applied to snegul 跟隨 46,
+# whose l stands — and `psnegulun`, already ruled in this list, spells it that way.
+#   The rest, one line each. msrahuq: his LAXOQ 除了 IS rahuq 除了這些還有 92, and the
+# slot gloss 愛漏掉者 is what a man who leaves things out is called. empsibus < psibus
+# 種甘蔗 off sibus 甘蔗 28. dkaran/dkari/dkarun: his DAQAL 禁止 is mdakar 禁止 9, exact.
+# mqatar < qatar 兩腳張開 15 for his 跨步. msndngux < dngux 沈睡 for his 深沉.
+# pqurug < qurug 球 182 for his QOLO 圓的－球. psqrinutan < qrinut 窮 54 for his QLINUT
+# 貧窮的. spdawi < dawi 懶惰 20, exact. tuyuqi/tuyuqun < tuyuq 痰 4 for his 唾液－吐口水.
+# tbowyak < bowyak 山豬 257 — he questions the etymology himself and the spelling does
+# not depend on it. tslabang < labang 寬 3 for his 逾越界限者. psbiyuq/sbiyuq: the
+# wordlist calls biyuq a personal name, the e-dictionary calls it 淚滴／果樹汁, and
+# msbiyuq 流汁 settles it against his BIYOQ 汁液. pkrikit: rikit is 瘸／易跌倒 in the
+# e-dictionary, his LIKIT 殘廢－小兒麻痺. pqapah: qapah is 黏／不穩定, his QAPAX 黏附.
+# pkrci/pkrtun/pkrtan < krci, krtun, krtan 切 for his Q'LöT 鋸子. nsntug < sntug 說八卦
+# for his SNTO 談論. mtnring/tnring < mring 汗水 19, his M'LING 汗 exactly. hadurun:
+# hadur is 貪吃 in the wordlist and 獵首筵席 in the e-dictionary, and mhadur 舉行馘首宴
+# is his XADOL 禮儀性的獻祭. gquwaq < quwaq 199. gmnaliq < gnaliq 取過首級 6, and his one
+# sentence is a beheading. sttui: the paradigm sibling sttuan is listed outright.
+# empathulang/sthulang < thulang, the pride root batch 197 ruled msthulang on.
+# pkltudan: batch 197's pnkltudan, one slot over. khngun/knhngun < hng, and mhing 熄火 8
+# is his XENG 熄滅. psqrasaw < qaras 喜樂 46, exact. knkrnaan < mrana 逐漸增多 103 for his
+# LANA 增加. psilung < gsilung 海 420, and he writes the g himself: "SILONG (＝GSILONG).
+# pkpngpung < pngpung 山崗 8 for his PNPONG 山頂. ddjilun < dmijil 提著 18 for his DIDIL
+# 用手提. nngangah < ngangah for his NGANGAX 啞巴. ssiban < sibu. mglngu < lngu for his
+# L'NGO 瞄準線. emppaya < paya/ppaya. pntudan < tuda 17 on his BTUDAN card.
+#   Refused in the same pass and written to refused.txt: the TABE 犁 family (8 occurrences
+# over five slots — the register's plough is sakur, which he NAMES as his own synonym on
+# that card, and no t-b-i shape carries it), tbiran (4, re-priced; the batch-193 refusal
+# stands), sapat (5), knluus's neighbour luus 成熟的人 notwithstanding, kdapan (2, 寡婦 is
+# kmptuhan), slangan/mslangan/empslangan (3, 生鏽 is skringan), snpusal/snpsaran/snpsarun
+# (5, pusal is not listed at all — the register's twenty is elsewhere), prjilun (2, 傾斜
+# is the riqi root), ppitay, kmupan, empkpakux, emburung, kblungi.
+#   And `naru` was re-priced and LEFT PALE, which is the whole method in one word. Eight
+# occurrences, the largest single lever on the board, and the shape is defensible: `nruan`
+# 代替者 is listed and it is his NALU 代替 by syncope. But batch 114 already weighed this
+# and chose pale deliberately — seven of those eight tokens sit in sentences whose Chinese
+# says 好, because his nalu is a homograph of malu that the token-keyed map cannot split,
+# and darkening them would queue seven spans to be harvested as the word for "good".
+# A pin comes down when evidence overturns it, not when the metric wants it to.
 HAND_RULED = """treura msthulang dtanah empkmalux
                 smhngi snsikan dtduling mtru
                 pnkltudan kmpspusu sshgan ndmpatas
@@ -1411,7 +1484,15 @@ HAND_RULED = """treura msthulang dtanah empkmalux
                 pnsmkan snkiya mskutu mritan knsbusan tnglaan
                 pngraq ptudu pkngalan embbuway mtdahu ddngusun stgtgut kkrang mkkrang krhun knslaan empraqat mrbuq pnrikit empklutut knluusan pknluun penduk empngpung haduri qmapah tpssagan sdmatan psnegulun knsupu smteetu steetuun knsteetuan
                 tmgila tngila kntglaan
-                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska pnsdahung drnai ggitan pnmaxan kmpstrngun empkslaan shnkan mnpunu nslbu empslbu nruq kmkmalu nrbu empsneanak snguli kpajiq knpajiq spkpajiq pnpnguan pspuhaw ssbusun sgulan psmkun snka stmaqun muli pneydang psnruun pklilug ciyusun ppskngalun""".split()
+                ptkanun mtkumax tmkumax mtudu sghuwayan slungan msilung ptbnagun ntlawa maabgu empaabgu msska pnsdahung drnai ggitan pnmaxan kmpstrngun empkslaan shnkan mnpunu nslbu empslbu nruq kmkmalu nrbu empsneanak snguli kpajiq knpajiq spkpajiq pnpnguan pspuhaw ssbusun sgulan psmkun snka stmaqun muli pneydang psnruun pklilug ciyusun ppskngalun
+                msrahuq empsibus dkaran dkari dkarun mqatar msndngux pqurug psqrinutan
+                ptkanan spdawi tuyuqi tuyuqun tbowyak tslabang psbiyuq sbiyuq pkrikit
+                pqapah pkrci pkrtun pkrtan nsntug mtnring tnring hadurun gquwaq gmnaliq
+                sttui empathulang sthulang pkltudan khngun knhngun psqrasaw knkrnaan
+                psilung pkpngpung ddjilun nngangah ssiban mglngu emppaya pntudan
+                uuyas llihaw ssiisil klkari iisu kiima qqsahur
+                sktaqi tmtru psnegulan psneguli
+                praqat knluus pknluan psdmatan plilug tkkrang""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

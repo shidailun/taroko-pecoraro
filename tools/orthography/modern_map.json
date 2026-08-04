@@ -3075,6 +3075,10 @@
    "modern": "grangun",
    "tier": "M"
   },
+  "glani": {
+   "modern": "gleani",
+   "tier": "M"
+  },
   "glaqa": {
    "modern": "graka",
    "tier": "M"
@@ -13579,6 +13583,14 @@
    "modern": "psmiyanan",
    "tier": "M"
   },
+  "psn'gulan": {
+   "modern": "psnegulan",
+   "tier": "M"
+  },
+  "psn'guli": {
+   "modern": "psneguli",
+   "tier": "M"
+  },
   "psn'gulun": {
    "modern": "psnegulun",
    "tier": "M"
@@ -16169,6 +16181,10 @@
   },
   "sktana": {
    "modern": "sktama",
+   "tier": "M"
+  },
+  "sktaqe": {
+   "modern": "sktaqi",
    "tier": "M"
   },
   "sktbnao": {
@@ -19248,6 +19264,10 @@
   "tmquli": {
    "modern": "tmquli",
    "tier": "id"
+  },
+  "tmt'lo": {
+   "modern": "tmtru",
+   "tier": "M"
   },
   "tmukwi": {
    "modern": "tmukuy",
@@ -25142,10 +25162,6 @@
    "modern": "sktalux",
    "tier": "P"
   },
-  "sktaqe": {
-   "modern": "sqtaqi",
-   "tier": "P"
-  },
   "sktngi": {
    "modern": "sktngi",
    "tier": "P"
@@ -25805,10 +25821,6 @@
   },
   "tmsasao": {
    "modern": "tmsasaw",
-   "tier": "P"
-  },
-  "tmt'lo": {
-   "modern": "tmtaru",
    "tier": "P"
   },
   "tmtama": {
@@ -27662,14 +27674,6 @@
    "modern": "psmagun",
    "tier": "R"
   },
-  "psn'gulan": {
-   "modern": "psnguran",
-   "tier": "R"
-  },
-  "psn'guli": {
-   "modern": "psnguri",
-   "tier": "R"
-  },
   "psopu": {
    "modern": "psupu",
    "tier": "R"
@@ -28386,10 +28390,6 @@
   },
   "dtayal": {
    "modern": "dtayal",
-   "tier": "KL"
-  },
-  "glani": {
-   "modern": "glani",
    "tier": "KL"
   },
   "gnk'laan": {

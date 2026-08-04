@@ -3221,3 +3221,68 @@ spell his k), qrip at 6 (nothing of that shape exists), msnoxel at 5, ksudan at 
 Suites 16/16, 9/9, 28/28; dom171 0 failures. Blocked pairs 310 → 282, so
 deliverable 5,153 / 5,435 = 94.81%. Dark 44,275 / 44,946 = **98.5071%** (dark
 43,594 + class 681), pale 637, green 34.
+
+
+## Batch 198 — "Worth trying for 98.67?", and the pale bucketed before it was worked
+
+The question was a number, so the first work was pricing it, not ruling. The pale
+head is flat — the top 45 of 447 types carry 23% of the occurrences — so a
+leaderboard could not answer whether 98.67% was reachable. `price198.py` sorted
+every pale type by what the analyser can say about it:
+
+- **A** — root attested *and* glossed: 91 types, 110 occurrences.
+- **B** — root listed but unglossed: 28 types, 34 occurrences.
+- **C** — no analysis at all: 328 types, 493 occurrences.
+
+A+B ≈ 144 occurrences is the whole reachable seam; 98.67% needed +70 of them, so
+the answer was yes-but-it-is-half-the-seam, and the practical ceiling is ≈98.8%.
+**Bucket the pale before working it.** The buckets tell you whether a
+morphological argument exists — they do not rule anything, since HAND_RULED will
+darken any value listed in it. That is exactly why the pricing had to come first.
+
+Sixty-one rulings landed, from three seams.
+
+**The sibling seam.** Many HAND_RULED entries from old batches license the slot
+beside them: empraqat→praqat, knluusan→knluus, pknluun→pknluan, sdmatan→psdmatan,
+pklilug→plilug, kkrang/mkkrang→tkkrang, ptkanun→ptkanan, psnegulun→psnegulan.
+Cheap and consistent — but **a sibling is only a sibling if it is the same card**.
+`pngraq` looked like a warrant for graq/gmraq/graqun until `d2.py` showed it is
+his Png'laq off NG'LAQ 愚蠢——白痴, not G'LAQ 拿取——奪取. Refused.
+
+**The gloss/family seam.** mdakar 禁止 9 for his DAQAL (dkaran/dkari/dkarun);
+mring 汗水 19 for his M'LING (mtnring/tnring); gsilung 海 420, where he writes
+"SILONG (＝GSILONG)" himself; mhing 熄火 8 for his XENG (khngun/knhngun); qaras
+喜樂 46; mrana 逐漸增多 103; dmijil 提著 18; biyuq 淚滴／果樹汁 from the
+e-dictionary against the wordlist's "personal name"; gnaliq 取過首級 6, his one
+sentence being a beheading.
+
+**The reduplication seam.** `inf.roots()` has no reduplication rule, so every
+CC-/VV- form lands in bucket C with root "" — the analyser cannot see
+reduplication, and bucket C is therefore not a verdict about a word, only about
+the analyser. Stripping the doubled onset by hand found 19 occurrences on very
+frequent stems: uuyas<uyas 216, klkari<kari 1608, ssiisil<isil 215, iisu<isu 508,
+kiima<ima 525 (he analyses it himself: ki'ima = kii + ima), qqsahur<qsahur 內臟 33.
+
+**Five map values were wrong, and pale was reporting it faithfully.** glani→gleani
+(listed outright — it needed the right map value, not a ruling), sqtaqi→sktaqi,
+tmtaru→tmtru (the 大陸 syllable trap batch 197 caught, one card further on),
+psnguran/psnguri→psnegulan/psneguli (l→r wrongly applied to snegul 跟隨 46).
+
+**`naru` was nearly taken and was not.** 8 occurrences, the biggest single lever
+left. `nruan` 代替者 supports the spelling — but grepping this log first turned up
+the batch-114 pin: seven of the eight tokens sit in sentences whose Chinese says
+好, his nalu being a homograph of malu that a token-keyed map cannot split.
+Darkening would queue seven spans to be harvested as the word for "good". The pin
+stands. Refusals priced and written to `refused.txt`: the TABE 犁 family (8 over
+five slots — the register's plough is sakur, which he names on that card as his
+own synonym), rih (6), snpusal (5, the stem `pusal` is not listed at all), sapat
+(5), tbiran (4, batch-193 re-priced and standing), slangan (3), graq (3), kdapan,
+prjilun, ppitay, kmupan, empkpakux, emburung, kblungi.
+
+New tool: `logs/pale198.py`, ranking `span.w-unv` by occurrence off the DOM with
+an `ex` column for spans inside example lines.
+
+gained 62, **LOST 0**. Suites 16/16, 9/9, 28/28; dom171 0 failures. Blocked pairs
+282 → 268, so deliverable 5,167 / 5,435 = 95.07%. Dark 44,359 / 44,946 =
+**98.6940%** (dark 43,678 + class 681), pale 553, green 34 — the 98.67 asked for,
+cleared.

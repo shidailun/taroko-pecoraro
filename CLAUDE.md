@@ -74,11 +74,21 @@ These were each learned by breaking something. Evidence for every one is in
   consult the whole chain (`respellable()` reads three tables).
 - **Decide slot by slot when a homophone exists**, not once for the root.
 - **Same root in two dialects is not a licence to merge two cards.**
+- **A sibling is only a sibling if it is the same card.** A ruled form one slot
+  over licenses its neighbour — but check which headword it comes off first:
+  `pngraq` is his Png'laq off NG'LAQ 愚蠢, not G'LAQ 拿取 (batch 198).
+- **Bucket the pale before working it** (batch 198): root attested-and-glossed /
+  root listed-unglossed / no analysis. That prices the seam. It does not rule
+  anything — `HAND_RULED` will darken any value put in it, so the pricing has to
+  come first or the metric decides the spelling.
+- **The analyser cannot see reduplication.** `inf.roots()` has no rule for it, so
+  every CC-/VV- form reports no root. That is a fact about the analyser, not a
+  verdict about the word — strip the doubled onset by hand before believing it.
 
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,435. **Currently 94.81%** (5,153). Not token share. A pair is
+  is dark, over 5,435. **Currently 95.07%** (5,167). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **100% dark is unreachable**, and is the wrong gate to set. Three classes can
   never clear by evidence: grammatical-morpheme cards (MPA 前綴 is a prefix, not

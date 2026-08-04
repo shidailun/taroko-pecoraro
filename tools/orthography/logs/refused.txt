@@ -174,3 +174,31 @@ ksudan	b197  4 occurrences; the shuttle is gikus and his is not
 #	7:6, and the Bible is where the word would be if we had it. Searched 梭 and every one
 #	of the nine hits is gikus (tmggikus 製作梭, dmptgikus 做梭者). His suda/sudu root
 #	reaches sudu 垃圾;輕的 and nothing that weaves.
+
+--- b198 bucket sweep: the pale bucketed A/B/C, and what the buckets could not buy ---
+naru	b198  8 occurrences; the batch-114 pin re-priced and left standing
+#	nruan 代替者 does support the spelling, and 8 occ was the biggest single lever on the
+#	board. But seven of the eight tokens sit in sentences whose Chinese says 好 — his
+#	nalu is a homograph of malu, and a token-keyed map cannot split them. Darkening
+#	queues seven spans to be harvested as the word for "good". A pin comes down when
+#	evidence overturns it, not when the metric wants it to.
+tabe	b198  8 occurrences over five slots (tabe/tmabe/tbean/tbeun/tmnabe); the plough is sakur
+#	TABE 犁, and he names 沙庫 sakur on the same card as his own synonym. The register's
+#	plough is sakur throughout — 犁 returns sakur, smakur, skuran and nothing tabe-shaped.
+#	His whole family is a dialect word the modern register replaced, not a respelling.
+snpusal	b198  5 occurrences (snpusal/snpsaran/snpsarun); the stem itself is unlisted
+#	pusal 二十 is not in the register at all — mpusal is Seediq's twenty, not Truku's.
+#	No stem, no slot: the affixed forms cannot be ruled from a base that isn't there.
+sapat	b198  5 occurrences; the root is glossed but the gloss will not meet his card
+rih	b198  6 occurrences on his LEX; the family is 代價／取代／賺 and his gloss is 幾乎
+#	No register word meaning 幾乎 is rih-shaped. A gloss that disagrees is a refusal.
+slangan	b198  3 (slangan/mslangan/empslangan); 生鏽 is skringan, a different root entirely
+graq	b198  3 (graq/gmraq/graqun); the sibling that looked like a warrant is a different card
+#	pngraq is already ruled — but it is his Png'laq off NG'LAQ 愚蠢——白痴, and these sit
+#	on G'LAQ 拿取——奪取. A sibling is only a sibling if it is the same card.
+tbiran	b198  4 occurrences; the batch-193 refusal re-priced and left standing
+kdapan	b198  2; 寡婦 is kmptuhan
+prjilun	b198  2; 傾斜 is the riqi root, not a jil-shaped one
+ppitay	b198  2; no analysis and no shape the register can meet
+kmupan	b198  2	empkpakux	b198  2	emburung	b198  2	kblungi	b198  2
+mpa	b198  —  untouchable by rule: MPA 前綴 is a prefix, not a word (CLAUDE.md)
