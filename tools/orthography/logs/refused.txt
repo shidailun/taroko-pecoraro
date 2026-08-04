@@ -1,0 +1,8 @@
+# Blockers looked at and refused. One per line, with the reason in a word or
+# two; the argument is in batch-log.md under the batch that refused it.
+#
+# This file exists so `rule.py --next` stops handing back the same word. A
+# refusal is a decision, not a gap: pale is the honest mark on a respelling no
+# modern source confirms, and these are the words that earned it.
+tbiran   b185  no source in any shape; his own gloss is "??"
+msska    b185  root 中間, his 裂開; the leap is a story, not evidence

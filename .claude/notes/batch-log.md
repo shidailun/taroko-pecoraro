@@ -2625,3 +2625,32 @@ not the corpus's.
 
 Gained 1, lost 0. Blocked pairs 435 → **432**; deliverable **5,003 / 92.05%**.
 Dark 44,019 / 97.9353%, pale 894. 16/16, 9/9, 28/28.
+
+## Batch 186 — the analysis was wrong, not the gloss
+
+`pnguwan` — his `Pngoan`, 3 pairs, PONGO › Pngoan 綁紮——已打好的結 plus two
+sentences under SLOXAO about a knot that will not come undone.
+
+**It was never a gloss problem.** `roots()` reached `pgu` 藜 — goosefoot, the
+plant — and stopped, so the gate was refusing an analysis nobody would defend.
+The word is `pungu` + `-an`, and the ILRDF dictionary gives `pungu` as
+膝關節／**繩結**／關節／膝蓋 at frequency 26. His 已打好的結 and its 繩結 share
+結 outright: had the analysis reached the root, the ordinary gloss test would
+have passed it with no hand at all. `pnpungu` 做繩結 is in the wordlist too. A
+knee is the knot of a leg.
+
+**A rung was priced first and refused.** `awag()` exists because a root in -aw
+writes -ag- before a suffix, and the wordlist settles that 76 pairs to 2. The
+parallel claim — a root in -u writes -uw- — has 121 forms of the right shape and
+23 where a vowel restores to a listed root, which reads as support until the 23
+are read: `huway` 慷慨, `buwan` and `ruway` are roots in their own right, so
+`gmhuway` is `gm-huway`, not `gmihu-ay`. Only `mktru` → `mktruwan` survives.
+*One supporter is not two*, and a rule built on it is a shape test with a story.
+`mktruwan` still does the one job it can: the glide is WRITTEN, so the form is
+`pnguwan` and not `pnguan`.
+
+**One ruling, six words.** `pnguwan` vouches the root, and `ppungu`, `emppungu`,
+`ppngui`, `ppnguun`, `ppnguwan` followed off it. Lost 0.
+
+Blocked pairs 432 → **429**; deliverable **5,006 / 92.11%**. Dark 44,029 /
+97.9576%, pale 884. 16/16, 9/9, 28/28.

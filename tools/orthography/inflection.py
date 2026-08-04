@@ -442,7 +442,32 @@ HAND_SPOKEN = """nta""".split()
 #           Truku's 代替 is `nirih`; neither `nalu` nor `naru` is listed, so
 #           that card's root has no modern reflex under either letter. What
 #           carries across to it is only the orthography, which is unchanged.
-HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu""".split()
+#   pnguwan his `Pngoan`/`pngoan`, 3 pairs, in PONGO › Pngoan 綁紮——已打好的結
+#           and twice more under SLOXAO, both times about a knot that will not
+#           come undone.
+#
+#           THIS ONE WAS NEVER A GLOSS PROBLEM. `roots()` reached `pgu` 藜 —
+#           goosefoot, the plant — and nothing else, so the gate was ruling on
+#           an analysis nobody would defend. The word is `pungu` + `-an`, and
+#           `pungu` is 膝關節／繩結／關節／膝蓋 at frequency 26. His 已打好的結
+#           and its 繩結 share 結 outright: had the analysis reached the root,
+#           the ordinary gloss test would have passed it without a hand at all.
+#           The wordlist has `pnpungu` 做繩結 as well, so the knot sense is in
+#           both sources. A knee is the knot of a leg; it is one word.
+#
+#           A RUNG WAS PRICED FIRST AND REFUSED. `awag()` exists because a root
+#           in -aw writes -ag- before a suffix, and the wordlist settled that
+#           76 pairs to 2. The parallel claim — a root in -u writes -uw- — has
+#           121 forms of the right shape in the wordlist and 23 where a vowel
+#           can be restored to a listed root, which looks like support until the
+#           23 are read: `huway` 慷慨, `buwan`, `ruway` are roots in their own
+#           right, so `gmhuway` is `gm-huway` and not `gmihu-ay`. After that
+#           only `mktru` -> `mktruwan` survives inspection. One supporter is not
+#           two, and a rule built on it would be a shape test with a story.
+#           `mktruwan` does do one job here, which is the narrow one it can do:
+#           it shows the glide is WRITTEN, so the suffixed form of a u-final
+#           stem is `pnguwan` and not `pnguan`.
+HAND_RULED = """ppdsun tksaw gmquwaq snkrawah mnalu pnguwan""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which

@@ -34,7 +34,7 @@ H = os.path.dirname(os.path.dirname(ORTH))
 SITE = os.path.join(H, "site")
 sys.path.insert(0, ORTH)
 os.chdir(ORTH)
-from inflection import Inflection
+from inflection import HAND_RULED, Inflection
 
 TOKEN = re.compile(u"[A-Za-zÀ-ÿłŁʔ'’ʼ\"]+")
 
@@ -73,7 +73,16 @@ def main():
         n = int(args[0]) if args else 1
         md = read(os.path.join(HERE, "blockers.md"))
         cut = md.index("## gloss disagrees")
-        args = re.findall(r"^### (\S+) ", md[cut:], re.M)[:n]
+        # Skip what has already been decided, in either direction. Without this
+        # the queue hands back the top of the list forever: a refusal does not
+        # change blockers.md, because a refused word still blocks its pairs.
+        done = set(HAND_RULED)
+        rf = os.path.join(HERE, "refused.txt")
+        if os.path.exists(rf):
+            done |= {l.split()[0] for l in io.open(rf, encoding="utf-8")
+                     if l.strip() and not l.startswith("#")}
+        args = [w for w in re.findall(r"^### (\S+) ", md[cut:], re.M)
+                if w not in done][:n]
 
     for want in args:
         want = want.lower()

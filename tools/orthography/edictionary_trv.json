@@ -1128,6 +1128,7 @@
 "note": ""
 },
 "pngraq": null,
+"pnguan": null,
 "pnguwan": null,
 "pnisun": null,
 "pnkltudan": null,
@@ -1136,6 +1137,14 @@
 "pnnanu": null,
 "pnnguan": null,
 "pnpnguan": null,
+"pnpungu": {
+"freq": 1,
+"glosses": [
+"做繩結"
+],
+"name": "pnpungu",
+"note": ""
+},
 "pnrikit": null,
 "pnrngut": null,
 "pnsdahung": null,
@@ -1219,6 +1228,17 @@
 ],
 "name": "puh",
 "note": "詞意：hnang tmatuk brah捶胸的聲音\r\n詞意：lnlgan hngak bra心跳\r\n詞意：kari powsa phpuh打痱子粉的棉包"
+},
+"pungu": {
+"freq": 26,
+"glosses": [
+"膝關節",
+"繩結",
+"關節",
+"膝蓋"
+],
+"name": "pungu",
+"note": "詞意：pnstrngan kulaw膝關節\r\n詞意：snkran mkuy gasil繩結\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
 "punu": {
 "freq": 26,

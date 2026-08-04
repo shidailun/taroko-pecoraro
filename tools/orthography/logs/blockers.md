@@ -2,18 +2,18 @@
 
 # Sole blockers, by what a ruling would buy
 
-410 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
+407 pairs are blocked by exactly one type; 22 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 58 | 76 |
+| gloss disagrees | 57 | 73 |
 | no root | 203 | 239 |
 | root unglossed | 37 | 40 |
 | sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 58 types, 76 pairs
+## gloss disagrees — 57 types, 73 pairs
 
 ### tbiran — 3 pairs
 
@@ -30,14 +30,6 @@
 - 中 發生地震時，連岩石都會裂開。
 - `ms-ska` → **ska** 中間／中間／中間／中間／當中／當中／裡面／裡面
 - his: 龜裂－裂開。
-
-### pnguwan — 3 pairs
-
-- under **PUNGU**
-- § Pnguwan bhngil.
-- 中 打結的草（註：在田地邊緣把草打結是一種古老的習俗；它表示這塊田不久將要收割，並意味著禁止外人經過此地。這與交叉架在屋門上方的兩根枝條或蘆葦意義相近，用以表明丈夫外出了（去打獵、打仗或去別處），並且禁止任何男人進入）。
-- `pgu-wan` → **pgu** 藜／藜
-- his: 綁紮－已打好的結。
 
 ### tknayun — 3 pairs
 
