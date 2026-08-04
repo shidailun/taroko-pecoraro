@@ -365,7 +365,25 @@ HAND_SPOKEN = """nta""".split()
 #           already dark. This is the last pale word in a family that otherwise
 #           agrees with itself throughout, which is the same evidence read the
 #           direction that clears rather than convicts.
-HAND_RULED = """ppdsun""".split()
+#   tksaw   his `Tksao`/`tksao`, first of blockers.md at 4 pairs. Two analyses,
+#           both onto listed and glossed roots: `tk-` + saw 像；如此；那樣 and
+#           `t-` + ksaw 像這樣；如此. His own gloss for the form is 模仿－假裝－
+#           裝作 (SAO › Tksao, "Imiter - faire semblant - faire comme"), and the
+#           gate refused on that and nothing else: 模仿/假裝/裝作 share no
+#           character with 像/如此/那樣. "Make like" and "imitate" are one word,
+#           and character overlap is the one instrument that cannot see it.
+#
+#           THE FAMILY ACQUITS, twice. `tksao` is the ONLY pale token in SAO (45
+#           of 46 dark) and the only one in KPOXEL (25 of 26), the second entry
+#           it appears in. Two families that agree with themselves throughout
+#           and disagree about the same single word is the same evidence that
+#           cleared ppdsun, read in the direction that clears.
+#
+#           Note where blockers.md found it: under KPOXEL, in the sentence about
+#           playing deaf. The form's own home is four sentences away under SAO,
+#           which is why rule.py prints every sentence and the ranking prints
+#           one — see batch 181b.
+HAND_RULED = """ppdsun tksaw""".split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
 # tier N's test is "capitalized mid-sentence, never lowercase anywhere" — which
@@ -825,6 +843,32 @@ class Inflection(object):
         # sqdug/qdug and was invisible to every paradigm rule [batch 156].
         # `voices` is used by derived() and NOWHERE else. Nothing here can
         # become a modern spelling; it can only agree or fail to agree.
+        # THE ILRDF ONLINE DICTIONARY — batch 182, fetched word by word by
+        # fetch_edictionary.py and cached. It joins on exactly the Bible
+        # glossary's terms and for one job only.
+        #
+        # What the first 611 lookups established, and it is worth stating
+        # plainly because it decides how this file may be used: 165 hits, and
+        # **not one of them is a word attested_modern.json does not already
+        # hold**. It attests NOTHING new. Nor does it reach a single one of the
+        # 378 blocked types — `tksaw` and `gmquwaq` come back 無搜尋結果 while
+        # their roots are there in full, because it indexes headwords and the
+        # derived forms live in the printed Patas pusu kari Truku, which is not
+        # online. Anyone tempted to widen `seen` from here should read that
+        # sentence again: there is nothing here to widen it WITH.
+        #
+        # What it does hold is GLOSSES for roots the wordlist lists bare: 17 of
+        # the 85 glossless roots under the blocked pairs, `bsrat` 吝嗇, `siisan`
+        # 縫補, `qqrinut` 貧窮, `tbrnahi` 忘恩, `brnux` 平地. That is the same
+        # hole unglossed_root() was built around, filled with somebody's
+        # published Chinese instead of an inference.
+        self.edg = {w: d["glosses"] for w, d in json.load(
+            io.open(os.path.join(D, "edictionary_trv.json"), encoding="utf-8")
+        ).items() if d and d.get("glosses")}
+        # Not in `voices`, and the omission is the point: derived() sweeps
+        # voices as a POPULATION of words that may vote, and every word here is
+        # in `lex` already, so adding them would change nothing except to
+        # suggest this file licenses spellings. It does not.
         self.voices = set(lex) | set(self.bgl)
         self.inv = collections.defaultdict(list)
         for k, v in mp.items():
@@ -923,10 +967,12 @@ class Inflection(object):
 
     def _gloss(self, root):
         """Every gloss anyone gives this root: the wordlist's, then the Bible
-        glossary's. Additive — see self.bgl in __init__."""
+        glossary's, then the ILRDF online dictionary's. Additive — see self.bgl
+        and self.edg in __init__."""
         rg = list(self.gl.get(root) or [])
         if root in self.bgl:
             rg.append(self.bgl[root])
+        rg.extend(self.edg.get(root) or ())
         return rg
 
     def _agrees(self, his_zhs, root):

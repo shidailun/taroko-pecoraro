@@ -2,34 +2,25 @@
 
 # Sole blockers, by what a ruling would buy
 
-456 pairs are blocked by exactly one type; 23 by two or more and are not credited to any single word.
+422 pairs are blocked by exactly one type; 23 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
-| gloss disagrees | 68 | 96 |
+| gloss disagrees | 60 | 84 |
 | no root | 202 | 238 |
-| root unglossed | 54 | 59 |
-| sentence gloss only | 55 | 63 |
+| root unglossed | 41 | 45 |
+| sentence gloss only | 49 | 55 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
-## gloss disagrees — 68 types, 96 pairs
-
-### tksaw — 4 pairs
-
-- under **QPUHIR**
-- § Ya bi keisug! Tksaw nanak saw ini kla, kiya da! Aji uri o, ana ququ pnqpuhir su.
-- 中 別怕！你只管裝作不知道就好了！要不然，你就裝聾好了！
-- `t-ksaw` → **ksaw** 像這樣；如此
-- `tk-saw` → **saw** 像；如此；那樣／希望，但願／邵族
-- his: 模仿－假裝－裝作。
+## gloss disagrees — 60 types, 84 pairs
 
 ### gmquwaq — 3 pairs
 
 - under **GQUWAQ**
 - § Ana khaya ka quwaq dha, ga su gmquwaq tunux ka isu inu squwaq.
 - 中 當別人高聲大談（任憑別人講得再大聲），你只是搖著頭，一句話也不說！
-- `gm-quwaq` → **quwaq** 洞口／洞口
+- `gm-quwaq` → **quwaq** 嘴／嘴巴／洞口／洞口／洞口／蓋口／麻袋口／龍鬚菜（野菜名）
 - his: 同上之動詞形。 ／ 搖頭——把頭轉來轉去。 ／ 搖頭－扮鬼臉（？）。
 
 ### snkrawah — 3 pairs
@@ -38,7 +29,7 @@
 - § Saw bi snkrawah ka kingal ruwan sapah su.
 - 中 你的家實在吃虧（彷彿被犧牲了）。
 - `sn-krawah` → **krawah** (no gloss)
-- `snk-rawah` → **rawah** 打開蓋子
+- `snk-rawah` → **rawah** 婉惜／情緒穩定／打開石壓陷阱／打開蓋子／打開蓋子／鎖（開）／鑰匙／開門
 - his: 處於不利——被犧牲。 ／ ？？－悲傷（？）－孤獨（？）－可憐（？）。
 
 ### tbiran — 3 pairs
@@ -46,7 +37,7 @@
 - under **LUKUS**
 - § Lukus tbiran (vl. lukus pspingan)
 - 中 節慶盛裝、禮服。
-- `t-bir-an` → **bir** 車聲（擬聲詞）
+- `t-bir-an` → **bir** 車聲（擬聲詞）／車聲（擬聲詞）／飛翔之聲
 - his: ？？
 
 ### msska — 3 pairs
@@ -54,7 +45,7 @@
 - under **RUNUG**
 - § Mrunug do, asi msska ka ana bbtunux da.
 - 中 發生地震時，連岩石都會裂開。
-- `ms-ska` → **ska** 中間／中間
+- `ms-ska` → **ska** 中間／中間／中間／當中／裡面
 - his: 龜裂－裂開。
 
 ### mnalu — 3 pairs
@@ -62,8 +53,8 @@
 - under **MALU**
 - § Mnalu bi ka Mikat ni Ingay.
 - 中 Mikat 和 Ingay 很和睦。
-- `malu` → **malu** 好／好
-- `mn-alu` → **alu** 陷阱線
+- `malu` → **malu** 優秀的；好的／好／好／好／好心／好的／很好
+- `mn-alu` → **alu** 陷阱線／陷阱線
 - his: 和睦相處——彼此相愛。（註：常見同義詞 MKMALU。） ／ 頂替的 - 代替 - 以…之名。
 
 ### pnguwan — 3 pairs
@@ -71,7 +62,7 @@
 - under **PUNGU**
 - § Pnguwan bhngil.
 - 中 打結的草（註：在田地邊緣把草打結是一種古老的習俗；它表示這塊田不久將要收割，並意味著禁止外人經過此地。這與交叉架在屋門上方的兩根枝條或蘆葦意義相近，用以表明丈夫外出了（去打獵、打仗或去別處），並且禁止任何男人進入）。
-- `pgu-wan` → **pgu** 藜
+- `pgu-wan` → **pgu** 藜／藜
 - his: 綁紮－已打好的結。
 
 ### tknayun — 3 pairs
@@ -80,7 +71,7 @@
 - § Ungat tknayun mu; yaku bi taxa hiyi!
 - 中 我沒有（旅途的）同伴；我真的完全孤單一人！
 - `t-kayo-un` → **kayo** (no gloss)
-- `t-kayu-un` → **kayu** 木製湯碗
+- `t-kayu-un` → **kayu** 木製湯碗／木製湯碗
 - his: 同伴（所期望的、正常的）。
 
 ### embqru — 2 pairs
@@ -88,37 +79,18 @@
 - under **BALAY**
 - § PTblai kana embqru, hrii kana rbuq.
 - 中 把凸起的地方鏟平，把坑洞填起來！
-- `em-bqru` → **bqru** 肉瘤
+- `em-bqru` → **bqru** 痛風；關節石／肉瘤／肉瘤
 - his: 滿是凹凸與高低不平——崎嶇不平。
-
-### pskmux — 2 pairs
-
-- under **BUYU**
-- § Sai bi pskmux aji na pkbuyun brisan ka kmux da.
-- 中 快去拔除稗草，免得它悶死高粱。
-- `p-skmux` → **skmux** 因…握拳
-- `ps-kmux` → **kmux** 握拳
-- `psk-mux` → **mux** 為「tmeemux 交配」的詞根（單用在人性交方面,較粗俗用語）。
-- his: 使人拔除稗草。
-
-### empsdungus — 2 pairs
-
-- under **DUNGUS**
-- § Hmgliq su bgurah lukus ssapang su kingal smudal o, aji bi empsdungus smudal ka pnaah bgurah.
-- 中 若你撕破新衣，拿去補舊衣，從新衣撕下的補丁與舊衣並不相稱。
-- `emp-sdungus` → **sdungus** 目的
-- `emps-dungus` → **dungus** 夫妻、伴侶
-- his: 將是公正的——將是公平的——將是合宜的。
 
 ### pnsmkan — 2 pairs
 
 - under **DHUG**
 - § Ptdhgun mu kiya ka pnsmkan su.
 - 中 你所立的（木樁、插樁）、你所釘的，我隨後會加固。
-- `psmkan` → **psmkan** 讓…金鋼樹
-- `pn-smka-an` → **smka** 一半／一半
+- `psmkan` → **psmkan** 讓…金鋼樹／讓…金鋼樹
+- `pn-smka-an` → **smka** 一半／一半／一半／半（點鐘）；一半
 - `pn-smko-an` → **smko** (no gloss)
-- `pn-smku-an` → **smku** 放置／放置（收好）
+- `pn-smku-an` → **smku** 保存／放置／放置（收好）／放置（收好）
 - his: 已釘之物；釘的動作（已完成）。
 
 ### snkiya — 2 pairs
@@ -126,10 +98,10 @@
 - under **KIYA**
 - § Snmanu ka dhiya? Uxay snkuyuh? … Ida snkiya!
 - 中 他們在爭什麼？該不會是為了女人吧？……還是為了那件事。
-- `skiya` → **skiya** 飛行／飛行
-- `s-nkiya` → **nkiya** 就是這樣／就是這樣
-- `sn-kiya` → **kiya** 是喔／是喔；那／那
-- `snk-iya` → **iya** 不要／不要
+- `skiya` → **skiya** 飛／飛行／飛行／飛行
+- `s-nkiya` → **nkiya** 就是這樣／就是這樣／就是這樣
+- `sn-kiya` → **kiya** 對的／就是／待會／所以／是／是啊／是喔／是喔／是喔；那／是的／是，正確／是；對啊／等一會兒／這樣／那／那
+- `snk-iya` → **iya**  不要（祈使句用）／不可以／不要／不要／不要／別
 - his: 關於同一件事。
 
 ### mskutu — 2 pairs
@@ -137,7 +109,7 @@
 - under **RIMA**
 - § Mskutu kana hiyi mu ana ku msnrima mhilaw qabang.
 - 中 雖然我蓋了五條被子，（全身）還是起雞皮疙瘩。
-- `ms-kutu` → **kutu** 人名（男）
+- `ms-kutu` → **kutu** 人名（男）／人名（男）／因濕冷而發抖
 - his: 麻木的－起雞皮疙瘩的－凍僵的。
 
 ### mritan — 2 pairs
@@ -146,7 +118,7 @@
 - § Aji sprangun su balay pkliwang mritan mu da!
 - 中 你該不會是故意讓我的山羊變瘦吧？
 - `mrit-an` → **mrit** (no gloss)
-- `m-rit-an` → **rit** 老鼠咬東西聲
+- `m-rit-an` → **rit** 抽刀聲／老鼠咬東西聲／老鼠咬東西聲／老鼠被捕發出”rit rit”的聲音
 - his: MILIT 的斜格形。
 
 ### knsbusan — 2 pairs
@@ -154,7 +126,7 @@
 - under **Shik (Sl'xeq)**
 - § Suqi suyang bi ka knsbusan na o, smhik (sml'xeq) ku baga ka yaku uri.
 - 中 太甜了，我也忍不住舔自己的手！
-- `kns-bus-an` → **bus** 蒸氣洩出聲（擬聲詞）
+- `kns-bus-an` → **bus** 蒸氣洩出聲（擬聲詞）／蒸氣洩出聲（擬聲詞）
 - his: 甜味—甜—甜或鹹的品質。
 
 ### tnglaan — 2 pairs
@@ -162,7 +134,7 @@
 - under **MNAIS**
 - § Mnusa ku mnais baki mu, kika tnglaan mu.
 - 中 我順道去接我岳父，所以我遲到了。（這就是我遲到的原因。）
-- `tgla-an` → **tgla** 麴
+- `tgla-an` → **tgla** 麴／麴
 - his: 逗留的時間。
 
 ### pngraq — 2 pairs
@@ -170,7 +142,7 @@
 - under **NGRAQ**
 - § Ma su muutux nuda pngraq seejiq?
 - 中 你真是瘋了，竟去讓自己被當成白痴（？）。
-- `p-ngraq` → **ngraq** 比女人陰蒂的手勢
+- `p-ngraq` → **ngraq** 比女人陰蒂的手勢／比女人陰蒂的手勢／無知
 - his: 使人變傻（？）——把人耍得團團轉（？）——把人當白痴。
 
 ### sblangan — 2 pairs
@@ -178,20 +150,28 @@
 - under **PUNIQ**
 - § Manu ka sduuy su uusa su maduk? Pucing hu? Buji hu? Sblangan hu? Manu? … Aji! Puniq bi!
 - 中 你要帶什麼武器去打獵？大刀嗎？箭嗎？矛嗎？……
-- `s-blangan` → **blangan** 把…光禿禿
-- `s-blanga-an` → **blanga** 別脫光
-- `s-blangi-an` → **blangi** 把…光光
+- `s-blangan` → **blangan** 把…光禿禿／把…光禿禿
+- `s-blanga-an` → **blanga** 別脫光／別脫光
+- `s-blangi-an` → **blangi** 把…光光／把…光光
 - his: 矛。
+
+### ptudu — 2 pairs
+
+- under **TUDU**
+- § Sai ptudu qmpahan ka isu.
+- 中 你這邊，去築田埂。
+- `p-tudu` → **tudu** 主幹
+- his: 培土－築田埂。
 
 ### pkngalan — 1 pair
 
 - under **ANGAL**
 - § Hnegluq pucing na ka Tatu ni smnipaq Dluan pkngalan na birat.
 - 中 「Tatu拔出他的刀砍向Jiru，削下了他的一隻耳朵。」
-- `pkngali-an` → **pkngali** 讓他拿
-- `pk-ngalan` → **ngalan** 收到／被舉行；施行（登記）
-- `pk-ngala-an` → **ngala** 不要拿
-- `pk-ngali-an` → **ngali** 拿走；拿取／拿走；拿取
+- `pkngali-an` → **pkngali** 讓他拿／讓他拿
+- `pk-ngalan` → **ngalan** 拿來當；用來做／收到／收到／被舉行；施行（登記）
+- `pk-ngala-an` → **ngala** 不要拿／不要拿
+- `pk-ngali-an` → **ngali** 拿走；拿取／拿走；拿取／拿走；拿取
 - his: 「被除去之物——除去時的情形。」
 
 ### embbuway — 1 pair
@@ -199,7 +179,7 @@
 - under **BUWAY**
 - § Embbuway balay ka ddhiya.
 - 中 他們彼此非常慷慨（互相贈與）。
-- `emb-buway` → **buway** 給
+- `emb-buway` → **buway** 給／給
 - his: 互相贈與。
 
 ### mtdahu — 1 pair
@@ -207,23 +187,15 @@
 - under **DAHU**
 - § Hbaraw bi truku ka mtdahu sunan.
 - 中 仰慕你的太魯閣人很多。
-- `mt-dahu` → **dahu** 自誇、自傲
+- `mt-dahu` → **dahu** 自誇、自傲／自誇、自傲／讚美；稱讚
 - his: 尊敬者——仰慕者。
-
-### pdrut — 1 pair
-
-- under **DRUT**
-- § Ungat jiyax mu musa pdrut masu, usa ka isu hu!
-- 中 我沒時間去請人磨小米，你能自己去一趟嗎？
-- `p-drut` → **drut** 用手揉起來
-- his: 使人碾磨;請人碾磨。
 
 ### dlutun — 1 pair
 
 - under **DRUT**
 - § Ya han! Dlutun mu kiya ka sqmu su da.
 - 中 等一下，我待會兒就磨你的玉米。
-- `dlut-un` → **dlut** 黏
+- `dlut-un` → **dlut** 黏／黏
 - his: 同上之動詞形。 ／ 磨碎——搓碾——揉皺。
 
 ### ddngusun — 1 pair
@@ -231,9 +203,9 @@
 - under **DUNGUS**
 - § Balay bi ddngusun ka smhuway sunan.
 - 中 向你道謝是完全理所當然的（你完全配得我們的感謝）。
-- `d-dngusun` → **dngusun** 目標;對象
-- `d-dngusa-un` → **dngusa** 別專注
-- `d-dngusi-un` → **dngusi** 去專注於
+- `d-dngusun` → **dngusun** 目標;對象／目標；對象
+- `d-dngusa-un` → **dngusa** 別專注／別專注
+- `d-dngusi-un` → **dngusi** 去專注於／去專注於
 - his: 被視為理所當然的事。
 
 ### kntgmilan — 1 pair
@@ -241,7 +213,7 @@
 - under **GAMIL**
 - § Mkray bi kntgmilan na ka kmux!
 - 中 稗子的根（根系）非常頑強（很硬、很牢）。
-- `knt-gila-an` → **gila** 誤」;「tggila 拖拖拉拉」的詞根。
+- `knt-gila-an` → **gila** 是「sgila因…耽誤」；「sglaan讓…耽誤」；「sglai使…耽誤」；「mgila耽誤；延誤」；「tggila拖拖拉拉」的詞根。／誤」;「tggila 拖拖拉拉」的詞根。
 - his: 根深蒂固(生根之狀)。
 
 ### stgtgut — 1 pair
@@ -249,7 +221,7 @@
 - under **GTGUT**
 - § Hqilan na miing elug stgtgut na sapah Riyax.
 - 中 他想盡辦法（為找一條路快要累死）要成為 Liarh 的近鄰。
-- `s-tgtgut` → **tgtgut** 最邊
+- `s-tgtgut` → **tgtgut** 最邊／最邊
 - his: 為了真正靠近……。
 
 ### kkrang — 1 pair
@@ -257,7 +229,7 @@
 - under **KKRANG**
 - § Ini namu kkrang knngungu ka yamu.
 - 中 你們啊，你們不會怕得發抖。
-- `k-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）
+- `k-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）／碗掉下來破碎的聲音（擬聲詞）
 - his: 發抖——打顫。
 
 ### mkkrang — 1 pair
@@ -265,7 +237,7 @@
 - under **KKRANG**
 - § Mnda nami mkkrang paqan knskiyan mqdgiyaq.
 - 中 我們在山上凍得直發抖。
-- `mk-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）
+- `mk-krang` → **krang** 碗掉下來破碎的聲音（擬聲詞）／碗掉下來破碎的聲音（擬聲詞）
 - his: 發抖的——因寒冷或恐懼而顫抖的。
 
 ### krhun — 1 pair
@@ -273,7 +245,7 @@
 - under **KRUH**
 - § Mblaiq do o, krhun na skagul.
 - 中 富人——他要叫他們空手回去（……把他們的手掏空之後）。
-- `krhi-un` → **krhi** 烤
+- `krhi-un` → **krhi** 烤／烤
 - his: 將要、應要被弄得乾涸、空虛、貧瘠者。
 
 ### knslaan — 1 pair
@@ -281,8 +253,8 @@
 - under **KSLAAN**
 - § Ida bi uxay su mnarux, knslaan su nuda elug.
 - 中 你大概不是生病，只是一路上餓得沒力氣。
-- `kslaan` → **kslaan** (no gloss)
-- `kn-sla-an` → **sla** 大外衣
+- `kslaan` → **kslaan** 缺乏
+- `kn-sla-an` → **sla** 上衣／大外衣／大外衣
 - his: 同上，完成式形式。 ／ 饑餓虛脫－精疲力竭。
 
 ### pklbiyan — 1 pair
@@ -290,7 +262,7 @@
 - under **RABI**
 - § Dhuq nami pklbiyan do.
 - 中 當我們到了預定過夜的時間（地點）。（或：當夜幕降臨時）。
-- `pk-lbi-yan` → **lbi** 垂下（因負重使其垂下）
+- `pk-lbi-yan` → **lbi** 垂下（因負重使其垂下）／垂下（因負重使其垂下）
 - his: 過夜的地點－過夜的時間。
 
 ### pklbiyun — 1 pair
@@ -299,7 +271,7 @@
 - § Pklbiyun mu ka sapah spktaqi cicih laqi su.
 - 中 我想把房間弄暗一點，好讓孩子睡著。
 - `p-klbiyun` → **klbiyun** (no gloss)
-- `pk-lbi-yun` → **lbi** 垂下（因負重使其垂下）
+- `pk-lbi-yun` → **lbi** 垂下（因負重使其垂下）／垂下（因負重使其垂下）
 - his: 想要、或必須使之變暗之物。
 
 ### empraqat — 1 pair
@@ -307,7 +279,7 @@
 - under **RAQAT**
 - § Ya aji su empraqat ka hmaan su trabus!
 - 中 我想你不會去耙那塊你要種花生的地吧！
-- `emp-raqat` → **raqat** 三叉的箭頭
+- `emp-raqat` → **raqat** 三叉的箭頭／三叉的箭頭／電塔
 - his: 進行耙田工作的人－耙田（將來式）。
 
 ### pnrikit — 1 pair
@@ -315,24 +287,16 @@
 - under **RIKIT**
 - § Hmuya su bi pnrikit nksa da! Nduwa hari o!
 - 中 你為什麼走路像個殘廢的人？放明智點！
-- `pn-rikit` → **rikit** 不去打獵
+- `pn-rikit` → **rikit** 不去打獵／不去打獵／搗一次米糕的量／易跌倒／瘸
 - his: 表現得像殘廢者－模仿殘疾。
-
-### prudaw — 1 pair
-
-- under **RUDAW**
-- § Manu ka yahan su prudaw kana sapah laqi da!
-- 中 你是怎麼了，竟來把兒子（女兒）整個家翻得天翻地覆？
-- `p-rudaw` → **rudaw** 拆
-- his: 弄亂－把一切攪亂。
 
 ### empklutut — 1 pair
 
 - under **LUTUT**
 - § Uqi bi siyang bowyak, kika empklutut sunan.
 - 中 你就吃點山豬肉吧，那才會給你力氣。
-- `em-pklutut` → **pklutut** (no gloss)
-- `empk-lutut` → **lutut** 宗族血統；後裔／連結
+- `em-pklutut` → **pklutut** 繼續
+- `empk-lutut` → **lutut** 宗族血統；後裔／親戚／親戚/家族/遺傳／連結／連結
 - his: 使人強壯、恢復元氣者－給人慰藉者。
 
 ### knluusan — 1 pair
@@ -340,7 +304,7 @@
 - under **LUUS**
 - § Paah knluusan su nanak ka ungat ana manu slhbnan su.
 - 中 正因為你沒有結婚，你才毫無任何煩惱。
-- `kn-luus-an` → **luus** 成熟的人。
+- `kn-luus-an` → **luus** 成熟的人。／成熟的人。
 - his: 獨自－孤獨－單身。
 
 ### pknluun — 1 pair
@@ -349,7 +313,7 @@
 - § Wada su pknluun sknuwan ka sapah su?
 - 中 你什麼時候開始修理你的房子？
 - `p-klui-un` → **klui** (no gloss)
-- `pk-nlu-un` → **nlu** 從…省下
+- `pk-nlu-un` → **nlu** 從…省下／從…省下
 - his: 想要、應當改善的事物。 ／ 治好——修復——改善——修理。
 
 ### penduk — 1 pair
@@ -357,7 +321,7 @@
 - under **ENDUK**
 - § Saw bi penduk ka sapah na.
 - 中 他的房子看起來像是關著的！
-- `p-enduk` → **enduk** 門;橫隔膜
+- `p-enduk` → **enduk** 門;橫隔膜／門；橫隔膜
 - his: 使之關閉——表現得像是關閉的（？）。
 
 ### pkpruun — 1 pair
@@ -365,24 +329,8 @@
 - under **PARU**
 - § Wada paru na bi pkpruun ka dnuuy na paah rajing.
 - 中 他把最初擁有的家業（財富、財產）發展得非常大。
-- `pkp-ruun` → **ruun** 分享
+- `pkp-ruun` → **ruun** 分享／分享
 - his: 使…成長——發展——賦予重要性。
-
-### pauxun — 1 pair
-
-- under **PAUX**
-- § Ya han! Pauxun mu cicih ka tasil sspung mu aji malu hari hu!
-- 中 等一下，我把石頭翻一下，看看是不是好一點！
-- `paux-un` → **paux** 犁田
-- his: （是否為 KPAUXUN？）應被轉到另一方向之物。
-
-### kpauxi — 1 pair
-
-- under **PAUX**
-- § Kpauxi ka tleengan su binaw.
-- 中 把你的椅子擺正吧（若它擺反了）——把椅子轉到另一個方向。
-- `k-paux-i` → **paux** 犁田
-- his: 翻轉（前後）——互換位置（方向）。
 
 ### pnisun — 1 pair
 
@@ -390,15 +338,23 @@
 - § Hmici pnisun mu pgrig laqi mu cicih.
 - 中 在結束之前（在離開之前），我想讓我女兒稍微跳一小段舞。
 - `p-niso-un` → **niso** (no gloss)
-- `p-nisu-un` → **nisu** 你的
+- `p-nisu-un` → **nisu** 你的／你的
 - his: 想要非常短暫（進行）的事。
+
+### empngpung — 1 pair
+
+- under **PNGPUNG**
+- § Ini biyaw empngpung ka bnaqig siyaw gsilung (silung)
+- 中 沿著海邊（在岸上），沙子很快就形成了波紋。
+- `em-pngpung` → **pngpung** 山崗
+- his: 起伏的－隆起成小丘、成包。
 
 ### psqgu — 1 pair
 
 - under **PSQGU**
 - § Asi psqgu mhiyu ni miyah brah ka hiya.
 - 中 他猛然跳起（突然（？）－非常快（？）），然後上前（走到前面）。
-- `ps-qgu` → **qgu** 公雞叫聲
+- `ps-qgu` → **qgu** 公雞叫聲／公雞叫聲
 - his: ？？。
 
 ### haduri — 1 pair
@@ -406,7 +362,7 @@
 - under **PUSU**
 - § Haduri saw bi gaya aangal dha smpsaan, ksun na.
 - 中 他說：要按真正的禮儀獻祭，好給他們（讓他們以此為）見證。
-- `hadur-i` → **hadur** 貪吃
+- `hadur-i` → **hadur** 獵首筵席／貪吃／貪吃
 - his: 獻上祭品－以之為祭獻上。
 
 ### qmapah — 1 pair, 1 more shared
@@ -414,7 +370,7 @@
 - under **QAPAH**
 - § Qmapah ku quci kacing kana dxgal ngangut su ssalu mu malu bi phdagan.
 - 中 我把牛糞塗抹在你院子的整個地面上，好把它做成一塊很好的曬穀場（曬穀物）。
-- `qapah` → **qapah** 不穩定
+- `qapah` → **qapah** 不穩定／不穩定／黏
 - his: 塗抹、鋪開、覆蓋。
 
 ### tpssagan — 1 pair
@@ -422,9 +378,9 @@
 - under **SASAW**
 - § Malu bi tpssagan ka daya.
 - 中 上頭是個非常宜人、可以享受涼爽（陰涼）的地方。
-- `tp-ssagan` → **ssagan** 被遮住
+- `tp-ssagan` → **ssagan** 被遮住／被遮住
 - `tp-ssagi-an` → **ssagi** (no gloss)
-- `tps-sagi-an` → **sagi** 呼喚（過來）
+- `tps-sagi-an` → **sagi** 呼喚（過來）／呼喚（過來）
 - `tps-sago-an` → **sago** (no gloss)
 - his: 可以去乘涼的地點－最適合享受涼爽與寧靜的地方。
 
@@ -433,8 +389,8 @@
 - under **CSDAMAT**
 - § Wada paru bi sdmatan ka shkawas.
 - 中 去年是非常悲傷的一年。
-- `s-dmatan` → **dmatan** 用…配菜
-- `s-dmata-an` → **dmata** 別吃菜
+- `s-dmatan` → **dmatan** 用…配菜／用…配菜
+- `s-dmata-an` → **dmata** 別吃菜／別吃菜
 - his: 悲傷、鬱悶、思念的地點、時間。
 
 ### sdangan — 1 pair
@@ -442,29 +398,21 @@
 - under **SDANGAN**
 - § Sdangan hidaw.
 - 中 上午當中（近中午時分）。
-- `sdanga-an` → **sdanga** 用…餵
-- `sdangi-an` → **sdangi** 要讓…做愛人
-- `s-danga-an` → **danga** 養育孩子
-- `s-dangi-an` → **dangi** 男女朋友;未婚情人／男女朋友；未婚情人
+- `sdanga-an` → **sdanga** 用…餵／用…餵
+- `sdangi-an` → **sdangi** 要讓…做愛人／要讓…做愛人
+- `s-danga-an` → **danga** 養育孩子／養育孩子／餵食
+- `s-dangi-an` → **dangi** 男女朋友;未婚情人／男女朋友；未婚情人／男女朋友；未婚情人
 - his: ？？（詞義不明）
-
-### ssiyang — 1 pair
-
-- under **SIYANG**
-- § Mnusa su inu? Ssiyang kana lukus su da!
-- 中 你去哪裡了？你的衣服全都是油味！
-- `s-siyang` → **siyang** 肉
-- his: 有油脂味－看起來油膩。
 
 ### smkan — 1 pair
 
 - under **SMUK**
 - § Ini tduwa rmawah, ga smkan ka enduk dha.
 - 中 打不開；他們的門被釘死了。
-- `smka-an` → **smka** 一半／一半
+- `smka-an` → **smka** 一半／一半／一半／半（點鐘）；一半
 - `smko-an` → **smko** (no gloss)
-- `smku-an` → **smku** 放置／放置（收好）
-- `s-mkan` → **mkan** 吃／吃／吃(東西)
+- `smku-an` → **smku** 保存／放置／放置（收好）／放置（收好）
+- `s-mkan` → **mkan** 吃／吃／吃／吃(東西)／吃（東西）
 - his: 被釘住的狀態之物。
 
 ### snuqu — 1 pair
@@ -473,8 +421,8 @@
 - § Saw bi snuqu ka laqi su nii.
 - 中 你的兒子很逗趣（愛開玩笑、頑皮…）。
 - `suqu` → **suqu** (no gloss)
-- `s-nuqu` → **nuqu** 更好;比較好。
-- `sn-uqu` → **uqu** 生氣、負氣、氣走
+- `s-nuqu` → **nuqu** 倒是／更好;比較好。／更好；比較好。
+- `sn-uqu` → **uqu** 生氣、負氣、氣走／生氣、負氣、氣走
 - his: 頑皮（？）－開心果－愛開玩笑的人。
 
 ### psngurun — 1 pair
@@ -482,8 +430,8 @@
 - under **SNEGUL**
 - § Balay bi psngurun su Dluan kana ka lqlaqi matas hu?
 - 中 你真的打算讓所有學童都跟在Jiru後面嗎？
-- `ps-ngur-un` → **ngur** 石頭堆積狀。
-- `psn-gur-un` → **gur** 成群來到的聲音（擬聲詞）
+- `ps-ngur-un` → **ngur** 石頭堆積狀。／石頭堆積狀。
+- `psn-gur-un` → **gur** 成群來到的聲音（擬聲詞）／成群來到的聲音（擬聲詞）
 - his: 使跟隨－使一個接一個地走。
 
 ### knsupu — 1 pair
@@ -492,7 +440,7 @@
 - § Ana ima ida mseura bi mita knsupu dha.
 - 中 看到他們如此融洽，任誰都會羨慕！
 - `kn-supu` → **supu** (no gloss)
-- `kns-upu` → **upu** 一起（聯合、共有、公共）
+- `kns-upu` → **upu** 一起（聯合、共有、公共）／一起（聯合、共有、公共）／聚眾（成群樣）
 - his: 團結、親密、和睦的強烈程度。
 
 ### sttuun — 1 pair
@@ -500,7 +448,7 @@
 - under **STEETU**
 - § Sttuun mu dgiyaq paru ka yaku uri.
 - 中 我也想攀登那座大山。
-- `s-ttui-un` → **ttui** 切、剁
+- `s-ttui-un` → **ttui** 切、剁／切、剁
 - his: 上去－攀登。
 
 ### knsttuan — 1 pair
@@ -509,7 +457,7 @@
 - § Kntlxan ka ksugun mu balay, uxay knsttuan!
 - 中 我真正怕的是炎熱，而不是那斜坡！
 - `kn-sttuan` → **sttuan** (no gloss)
-- `kns-ttui-an` → **ttui** 切、剁
+- `kns-ttui-an` → **ttui** 切、剁／切、剁
 - his: 上坡－斜坡。
 
 ### tnbiyan — 1 pair
@@ -517,8 +465,8 @@
 - under **SAKUR**
 - § Ya bi pdai tnbiyan ka kacing.
 - 中 不要讓你的水牛穿過犁過的田。
-- `tbiyan` → **tbiyan** 下來
-- `tn-biyi-an` → **biyi** 工寮
+- `tbiyan` → **tbiyan** 下來／下來
+- `tn-biyi-an` → **biyi** 工寮／工寮
 - his: 犁過的田。
 
 ### tbiyun — 1 pair
@@ -526,23 +474,15 @@
 - under **SAKUR**
 - § Tbiyun mu hici ka slaq.
 - 中 我稍後會犁水田。
-- `t-biyi-un` → **biyi** 工寮
+- `t-biyi-un` → **biyi** 工寮／工寮
 - his: 犁田－使用犁。（註：是否與 TMABUN＝翻鬆土地、深掘土壤使其鬆軟 有親屬關係？）。
-
-### ptaril — 1 pair
-
-- under **TARIL**
-- § Ma su mngungu bi! Ya han! Yahun misu ptaril sayang.
-- 中 咦！你好像害怕了！等一下！我馬上過來幫你渡到對岸。
-- `p-taril` → **taril** 開始
-- his: 使從上方越過－使越到對岸。
 
 ### kntglaan — 1 pair
 
 - under **TGLA**
 - § Ungat klaan ka kntglaan na sapah Rabay.
 - 中 無法知道（無法說出）他在 Rabay 家逗留多久。
-- `kn-tgla-an` → **tgla** 麴
+- `kn-tgla-an` → **tgla** 麴／麴
 - his: 逗留久暫的量度。
 
 ### tmgla — 1 pair
@@ -550,7 +490,7 @@
 - under **TGLA**
 - § Uxay bi luhay lqlaqi ka tmgla sapah ptasan.
 - 中 孩子們不習慣在校舍裡拖拉（在那裡逗留）。
-- `tgla` → **tgla** 麴
+- `tgla` → **tgla** 麴／麴
 - his: 逗留。
 
 ### ptkanun — 1 pair
@@ -558,10 +498,10 @@
 - under **CIKAN**
 - § Ptkanun su knuwan ka payay su dhquy?
 - 中 那你到底什麼時候要把你的糯米去殼呢？
-- `p-tkanun` → **tkanun** 要搗
-- `p-tkana-un` → **tkana** 不要搗
-- `p-tkani-un` → **tkani** 搗
-- `pt-kan-un` → **kan** (no gloss)
+- `p-tkanun` → **tkanun** 要搗／要搗
+- `p-tkana-un` → **tkana** 不要搗／不要搗
+- `p-tkani-un` → **tkani** 搗／搗
+- `pt-kan-un` → **kan** 吃
 - his: 使去殼／叫人去殼。
 
 ### mtkumax — 1 pair
@@ -569,8 +509,8 @@
 - under **TKUMAX**
 - § Mtkumax kana lnglungan mu da.
 - 中 我完全不知所措（心緒全亂了）。
-- `m-tkumax` → **tkumax** 不準；沒有命中
-- `mt-kumax` → **kumax** 不準;沒有命中
+- `m-tkumax` → **tkumax** 不準；沒有命中／不準；沒有命中
+- `mt-kumax` → **kumax** 不準;沒有命中／不準；沒有命中
 - his: 完全顛倒的。
 
 ### tmkumax — 1 pair
@@ -578,40 +518,30 @@
 - under **TKUMAX**
 - § Ma su miyah tmkumax (tkumax?) kana lnglungan dha?
 - 中 你是怎麼了，竟來把他們的心思攪得天翻地覆？（註：這種情況下，用 PTKUMAX 更為恰當！）
-- `tkumax` → **tkumax** 不準；沒有命中
-- `tm-kumax` → **kumax** 不準;沒有命中
+- `tkumax` → **tkumax** 不準；沒有命中／不準；沒有命中
+- `tm-kumax` → **kumax** 不準;沒有命中／不準；沒有命中
 - his: 同上，動詞形。 ／ 翻天覆地－翻倒－陷入混亂。
 
-### mhmadan — 1 pair
+### mtudu — 1 pair
 
-- under **HMADAN**
-- § Mhmadan namu hu?
-- 中 你們（彼此）是親戚嗎？
-- `m-hmadan` → **hmadan** 表堂姊妹
-- `m-hadan` → **hadan** 送到
-- `m-hada-an` → **hada** 熟
-- his: 成為親戚——變成親戚。
+- under **TUDU**
+- § Uxay bi slaq ka kiya! Ma mtudu kana ka dxgal!
+- 中 那根本不是水田！整塊地都坑坑窪窪！
+- `m-tudu` → **tudu** 主幹
+- his: 凹凸不平的－變成隆起。
 
 ### sghuwayan — 1 pair
 
 - under **HUWAY**
 - § Aji ku bi ana manu sghuwayan ka yaku da!
 - 中 至於我，我不要任何形式的感謝！
-- `sghuway-an` → **sghuway** 靠…慷慨
-- `s-ghuway-an` → **ghuway** 分享
-- `sg-huway-an` → **huway** 慷慨／救恩；拯救
+- `sghuway-an` → **sghuway** 靠…慷慨／靠…慷慨
+- `s-ghuway-an` → **ghuway** 分享／分享／給…慷慨
+- `sg-huway-an` → **huway** 慷慨／慷慨／救恩；拯救
 - his: 謝意－感激。
 
-### khuriq — 1 pair
 
-- under **HURIQ**
-- § Ima msa qmuyux! Tai binaw: Ini khuriq ka lukus mu!
-- 中 誰說在下雨？你看！我的衣服沒濕呀！
-- `k-huriq` → **huriq** 剛出生的動物
-- his: 命令式否定式。
-
-
-## sentence gloss only — 55 types, 63 pairs
+## sentence gloss only — 49 types, 55 pairs
 
 ### ksudan — 3 pairs
 
@@ -619,7 +549,7 @@
 - § Ksudan waray.
 - 中 織布用的梭子。
 - `k-suda-an` → **suda** (no gloss)
-- `k-sudu-an` → **sudu** 人名（男）
+- `k-sudu-an` → **sudu** 人名（男）／人名（男）／垃圾／輕的／阻礙
 - his: 我的日子比織布者的梭子還要快（過得更快）。 ／ 織布用的梭子。
 
 ### slungan — 2 pairs
@@ -627,47 +557,29 @@
 - under **AN**
 - § Ma su rmngaw slungan!
 - 中 你怎麼對著大海說話呢？（Silong=海）
-- `slung-an` → **slung** 毛線
+- `slung-an` → **slung** 毛線／毛線
 - `s-lungu-an` → **lungu** (no gloss)
 - his: 你怎麼對著大海說話呢?(Silong=海) ／ 我對母親說：你冷靜一點，但她卻不肯聽我的！
-
-### kngusan — 2 pairs
-
-- under **KGUS**
-- § Aji manu ka kiya; kngusan ku dha nanak suni.
-- 中 那沒什麼，只不過是剛才抓（刮）的結果罷了。
-- `kgus-an` → **kgus** 完成
-- `k-ngus-an` → **ngus** 牛發怒聲
-- his: 是誰把你的鬍子刮掉的？ ／ 那沒什麼，只不過是剛才抓（刮）的結果罷了。
 
 ### snpsaran — 2 pairs
 
 - under **EMPUSAL**
 - § Snpsaran hngkawas.
 - 中 年的重新開始－新年。
-- `sn-psari-an` → **psari** 是芋頭;大芋頭
-- `snp-sar-an` → **sar** 噴血與噴尿的聲音
+- `sn-psari-an` → **psari** 是芋頭;大芋頭／是芋頭；大芋頭
+- `snp-sar-an` → **sar** 噴血與噴尿的聲音／噴血與噴尿的聲音
 - `snp-sara-an` → **sara** 撒拉
-- `snp-sari-an` → **sari** 芋頭
+- `snp-sari-an` → **sari** 芋頭／芋頭／芋頭（作物名）
 - his: 一次就把它揹去；我們沒時間去兩趟了。 ／ 年的重新開始－新年。
-
-### tnaga — 2 pairs
-
-- under **EMPUSAL**
-- § Tnaga ku pnpusalan su miyah.
-- 中 我等你再次到來（或：我等你再來一次）。
-- `taga` → **taga** (no gloss)
-- `tn-aga` → **aga** 三叉箭
-- his: 我在等天氣（好天氣）好去工作。 ／ 我等你再次到來（或：我等你再來一次）。
 
 ### ptbnuun — 2 pairs
 
 - under **TBNAW**
 - § Nasi su ptbgun Rabay ka wawa rudux su o, ida na ptbnuun balay.
 - 中 如果你讓 Rabay 幫你養小雞，她會把牠們養得非常肥。
-- `p-tbnuun` → **tbnuun** 要堆壓
-- `pt-bnu-un` → **bnu** 大軍壓境
-- `pt-buun` → **buun** 射到；打(獵)到
+- `p-tbnuun` → **tbnuun** 要堆壓／要堆壓
+- `pt-bnu-un` → **bnu** 填土／大軍壓境／大軍壓境／（海）龜
+- `pt-buun` → **buun** 射到；打(獵)到／射到；打（獵）到
 - his: 你的是請誰幫你養肥的？ ／ 如果你讓 Labai 幫你養小雞，她會把牠們養得非常肥。
 
 ### ntlawa — 2 pairs
@@ -675,25 +587,25 @@
 - under **TLAWA**
 - § Usa ntlawa gsilung psrahug qsurux da.
 - 中 那就到深海去撒網捕魚吧。
-- `nt-lawa` → **lawa** 人名（女）
+- `nt-lawa` → **lawa** 人名（女）／人名（女）／呼叫／等一等／籃色棉線
 - his: 他已經沒了氣息，臉都發青（發紫）了！ ／ 那就到深海去撒網捕魚吧。
 
-### empsbiyuq — 1 pair
+### kkdusan — 1 pair
 
-- under **BIYUQ**
-- § Naqih bi ka qusul, empsbiyuq kana dowriq.
-- 中 我不喜歡蒜（蒜很嗆人），它讓人淚流滿眼。
-- `emps-biyuq` → **biyuq** 人名（男;女）
-- his: 我不喜歡蒜(蒜很嗆人),它讓人淚流滿眼。
+- under **BARAH**
+- § Srsi ka nsmudal ni paah bi qsahur emptduwa su malah kingal kkdusan duri.
+- 中 抹去你身上舊的（過去的）一切，全心全意，你就能重建新的人生！
+- `k-kdusan` → **kdusan** 格督尚部落
+- his: 抹去你身上舊的(過去的)一切,全心全意,你就能重建新的人生!
 
 ### mslangan — 1 pair
 
 - under **BMBANG**
 - § Pryuxun mu kana bmbang dnamux da, mhdu mslangan kana da.
 - 中 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
-- `mslangu-an` → **mslangu** 集水
+- `mslangu-an` → **mslangu** 集水／集水
 - `ms-lango-an` → **lango** (no gloss)
-- `ms-langu-an` → **langu** 湖
+- `ms-langu-an` → **langu** 湖／湖
 - his: 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
 
 ### empabgu — 1 pair
@@ -701,7 +613,7 @@
 - under **BGU**
 - § Ana ququ empabgu!
 - 中 （就算變成粥）也沒關係！
-- `empa-bgu` → **bgu** 湯
+- `empa-bgu` → **bgu** 湯／湯
 - his: （就算變成粥）也沒關係！
 
 ### pnsdahung — 1 pair
@@ -709,8 +621,8 @@
 - under **DAHUNG**
 - § Balay bi laqi su nanak ka Pnsdahung dqras laqi mu.
 - 中 在我兒子臉上造成這些瘀傷的，正是你（自己）的兒子。
-- `pn-sdahung` → **sdahung** 很多瘀血
-- `pns-dahung` → **dahung** 吸血草（咬人貓,植物名）
+- `pn-sdahung` → **sdahung** 很多瘀血／很多瘀血
+- `pns-dahung` → **dahung** 吸血草（咬人貓,植物名）／吸血草（咬人貓，植物名）／瘀血
 - his: 在我兒子臉上造成這些瘀傷的，正是你（自己）的兒子。
 
 ### drnai — 1 pair
@@ -718,7 +630,7 @@
 - under **DURUN**
 - § Drnai ta tmaan hu?
 - 中 我們去求爸爸，你同意嗎？
-- `drna-i` → **drna** 鹿鞭
+- `drna-i` → **drna** 鹿鞭／鹿鞭
 - his: 我們去求爸爸，你同意嗎？
 
 ### ggitan — 1 pair
@@ -726,9 +638,9 @@
 - under **GIGIT**
 - § Tayal bi ka ggitan su!
 - 中 你真是纏人！（GIGIT 含有為了要求某事而一再介入、糾纏的意思。）
-- `g-git-an` → **git** 咬牙切齒的聲音
+- `g-git-an` → **git** 咬牙切齒的聲音／咬牙切齒的聲音
 - `g-gito-an` → **gito** (no gloss)
-- `g-gitu-an` → **gitu** 枇杷（果樹名）
+- `g-gitu-an` → **gitu** 枇杷（果樹名）／枇杷（果樹名）
 - his: 你真是纏人!(GIGIT 含有為了要求某事而一再介入、糾纏的意思。)
 
 ### pnmaxan — 1 pair
@@ -736,7 +648,7 @@
 - under **GIMAX**
 - § Pnmaxan dha sinaw gnmaxan pahung.
 - 中 他們給人喝了摻膽汁的酒。
-- `pn-max-an` → **max** 手掌擊打聲（擬聲詞）。
+- `pn-max-an` → **max** 手掌擊打聲（擬聲詞）。／手掌擊打聲（擬聲詞）。
 - his: 他們給人喝了摻膽汁的酒。
 
 ### graqun — 1 pair
@@ -744,7 +656,7 @@
 - under **GRAQ**
 - § Qlhangi bi aji na graqun rklit ka mirit su da!
 - 中 千萬小心，別讓雲豹抓走你的山羊。
-- `g-raq-un` → **raq** 形容講話沒有節制
+- `g-raq-un` → **raq** 形容講話沒有節制／形容講話沒有節制／樹枝斷裂及下大雨的聲音
 - his: 千萬小心，別讓雲豹抓走你的山羊。
 
 ### imai — 1 pair
@@ -752,7 +664,7 @@
 - under **GRIG**
 - § Malu bi grigan imai (= malu bi grigan na ka Imai!)
 - 中 Imai 跳舞的樣子（或：Imai 所跳的舞）非常優美。
-- `ima-i` → **ima** 誰／誰
+- `ima-i` → **ima** 誰／誰／誰
 - his: Imai 跳舞的樣子（或：Imai 所跳的舞）非常優美。
 
 ### kmpstrngun — 1 pair
@@ -769,8 +681,8 @@
 - under **KSLAAN**
 - § Angal cicih hdayu su aji su empkslaan muda elug da.
 - 中 帶點點心吧，免得半路上餓昏了。
-- `emp-kslaan` → **kslaan** (no gloss)
-- `empk-sla-an` → **sla** 大外衣
+- `emp-kslaan` → **kslaan** 缺乏
+- `empk-sla-an` → **sla** 上衣／大外衣／大外衣
 - his: 帶點點心吧，免得半路上餓昏了。
 
 ### shnkan — 1 pair
@@ -778,9 +690,9 @@
 - under **LATAT**
 - § Ga tluung sapah shnkan ka Ibuq; hkawas nanak ka Lntadan na.
 - 中 Ibuq在監獄裡；要到明年他才會出獄（獲釋）。
-- `s-hnkan` → **hnkan** 把…便宜
-- `s-hnka-an` → **hnka** 便宜
-- `s-hnki-an` → **hnki** 讓…便宜
+- `s-hnkan` → **hnkan** 把…便宜／把…便宜
+- `s-hnka-an` → **hnka** 便宜／便宜
+- `s-hnki-an` → **hnki** 讓…便宜／讓…便宜
 - his: 伊博在監獄裡；要到明年他才會出獄（獲釋）。
 
 ### mnpunu — 1 pair
@@ -788,7 +700,7 @@
 - under **RBUNG**
 - § Mnpunu nhuqil ka rudux su; naqih uqun da! Rbngi da!
 - 中 你的雞得霍亂死了，不能再吃了！你得把牠埋掉。
-- `mn-punu` → **punu** 人名（男;女,泛指暱稱或罵人的外號）
+- `mn-punu` → **punu** 人名（男;女,泛指暱稱或罵人的外號）／繩結／膝蓋／膝關節／關節
 - his: 你的雞得霍亂死了，不能再吃了！你得把牠埋掉。
 
 ### nslbu — 1 pair
@@ -796,7 +708,7 @@
 - under **LBU**
 - § Wada nslbu paah bnhuan mu dngdang ka lukus.
 - 中 這件衣服自從我用滾水洗過後就縮水了。
-- `ns-lbu` → **lbu** 不長
+- `ns-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
 - his: 這件衣服自從我用滾水洗過後就縮水了。
 
 ### empslbu — 1 pair
@@ -804,25 +716,16 @@
 - under **LBU**
 - § Mha empslbu ka nisu uri nasi su bhuun dngdang.
 - 中 你的那件如果用滾水洗也會縮水。
-- `em-pslbu` → **pslbu** (no gloss)
-- `emps-lbu` → **lbu** 不長
+- `em-pslbu` → **pslbu** 使短
+- `emps-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
 - his: 你的那件如果用滾水洗也會縮水。
-
-### mtrdu — 1 pair
-
-- under **RDU**
-- § Bsiyaq bi ga mtrdu ka dJiyan.
-- 中 Jiyan（迪讓）的隊伍停下來已經很久了。
-- `m-trdu` → **trdu** (no gloss)
-- `mt-rdu` → **rdu** 地坍方
-- his: Djian（迪讓）的隊伍停下來已經很久了。
 
 ### nruq — 1 pair
 
 - under **LNGU**
 - § Ma su niyah nruq dnamux klngu bi babaw tqian mu?
 - 中 你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？
-- `n-ruq` → **ruq** 吞食聲
+- `n-ruq` → **ruq** 吞食聲／吞食聲／煮滾水聲
 - his: 你為什麼（怎麼想的）跑來在我床鋪的正上方把屋頂戳破呢？
 
 ### kmkmalu — 1 pair
@@ -831,9 +734,9 @@
 - § Mkmalu su bi ka isu o, ini ku kmkmalu ka yaku.
 - 中 你很想康復，我卻不想！
 - `kkmalu` → **kkmalu** (no gloss)
-- `k-mkmalu` → **mkmalu** (no gloss)
-- `km-kmalu` → **kmalu** 正在梳
-- `km-kalu` → **kalu** 梳子
+- `k-mkmalu` → **mkmalu** 友好
+- `km-kmalu` → **kmalu** 會好；要好或痊癒／正在梳／正在梳
+- `km-kalu` → **kalu** 梳子／梳子
 - his: 你很想康復，我卻不想！
 
 ### npnalu — 1 pair
@@ -841,8 +744,8 @@
 - under **NARU**
 - § Skgulun mu dha hiyi npnalu kman musa.
 - 中 我會派兩個人代替我去。
-- `npn-alu` → **alu** 陷阱線
-- `npn-alu` → **alu** 陷阱線
+- `npn-alu` → **alu** 陷阱線／陷阱線
+- `npn-alu` → **alu** 陷阱線／陷阱線
 - his: 我會派兩個人代替我去。
 
 ### empsneanak — 1 pair
@@ -850,9 +753,9 @@
 - under **NANAK**
 - § Naqih bi ntgsa ta da! Hnut empsneanak sjiqun ka hiya.
 - 中 我們的老師不公平；他偏袒某些人——他對人有差別待遇。
-- `emp-sneanak` → **sneanak** 另外保留
-- `emp-seanak` → **seanak** 看輕；輕視；瞧不起
-- `emps-neanak` → **neanak** 應該…分戶
+- `emp-sneanak` → **sneanak** 另外保留／另外保留
+- `emp-seanak` → **seanak** 看輕；輕視；瞧不起／看輕；輕視；瞧不起
+- `emps-neanak` → **neanak** 應該…分戶／應該…分戶
 - his: 我們的老師不公平；他偏袒某些人——他對人有差別待遇。
 
 ### nlbu — 1 pair
@@ -860,7 +763,7 @@
 - under **NGURUQ**
 - § Msnguruq paah nlbu ka laqi.
 - 中 這孩子從今早就開始流鼻血。
-- `n-lbu` → **lbu** 不長
+- `n-lbu` → **lbu** 不長／不長／短命／矮小／謙讓
 - his: 這孩子從今早就開始流鼻血。
 
 ### snguli — 1 pair
@@ -868,7 +771,7 @@
 - under **NEGUL**
 - § Hmuya ka ini su snegul tmaan (ini su snguli ka tama)?
 - 中 你為什麼不像（跟隨）你父親（在外表或品行上）？參見 SNEGUL。
-- `sng-uli` → **uli** 綁住…
+- `sng-uli` → **uli** 綁住…／綁住…
 - his: 你為什麼不像（跟隨）你父親（在外表或品行上）？參見 SNUGUL。
 
 ### kpajiq — 1 pair
@@ -876,7 +779,7 @@
 - under **PAJIQ**
 - § Ini kpajiq ka nisu.
 - 中 你的不是綠色。
-- `k-pajiq` → **pajiq** 人名（女）／蔬菜；青菜
+- `k-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
 - his: 你的不是綠色。
 
 ### spkpajiq — 1 pair
@@ -884,7 +787,7 @@
 - under **PAJIQ**
 - § Ngalun su manu spkpajiq (sppajiq!) galiq su.
 - 中 你用什麼把你的布染成綠色（染成綠色）？
-- `spk-pajiq` → **pajiq** 人名（女）／蔬菜；青菜
+- `spk-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
 - his: 你用什麼把你的布染成綠色（染成綠色）？
 
 ### knpajiq — 1 pair
@@ -892,7 +795,7 @@
 - under **PAJIQ**
 - § Taan ta rnabaw qhuni dgiyaq o, lala bi ini kdka knpajiq dha.
 - 中 觀看山上樹木的葉子時，其綠色的色調差異很大。
-- `kn-pajiq` → **pajiq** 人名（女）／蔬菜；青菜
+- `kn-pajiq` → **pajiq** 人名（女）／人名（女）／水源（地名部落名，在今花蓮縣秀林鄉水源村）。／蔬菜（泛指所有蔬菜）／蔬菜；青菜／青菜
 - his: 觀看山上樹木的葉子時，其綠色的色調差異很大。
 
 ### ppitay — 1 pair
@@ -901,7 +804,7 @@
 - § Ppitay kana shakaw su da.
 - 中 你們整張床（＝當作床用的竹製或木板搭的台子）都是臭蟲。
 - `p-pitay` → **pitay** (no gloss)
-- `p-pit-ay` → **pit** 鳥叫聲（山麻雀;白腰文鳥發出”嗶吱”的叫聲）
+- `p-pit-ay` → **pit** 鳥叫聲（山麻雀;白腰文鳥發出”嗶吱”的叫聲）／鳥叫聲（山麻雀；白腰文鳥發出”嗶吱”的叫聲）
 - his: 你們整張床（＝當作床用的竹製或木板搭的台子）都是臭蟲。
 
 ### pnpnguan — 1 pair
@@ -909,7 +812,7 @@
 - under **PUNGU**
 - § Ya bi pnpnguan ima ka nii?
 - 中 這個結到底是誰打的呢？
-- `pn-pgu-an` → **pgu** 藜
+- `pn-pgu-an` → **pgu** 藜／藜
 - his: 這個結到底是誰打的呢？
 
 ### snpsarun — 1 pair
@@ -917,10 +820,10 @@
 - under **EMPUSAL**
 - § Snpsarun mu ka qabang hhilaw, kika mha meuxul cicih.
 - 中 我要把被子摺成雙層來蓋，這樣會暖和一點。
-- `sn-psari-un` → **psari** 是芋頭;大芋頭
-- `snp-sar-un` → **sar** 噴血與噴尿的聲音
+- `sn-psari-un` → **psari** 是芋頭;大芋頭／是芋頭；大芋頭
+- `snp-sar-un` → **sar** 噴血與噴尿的聲音／噴血與噴尿的聲音
 - `snp-sara-un` → **sara** 撒拉
-- `snp-sari-un` → **sari** 芋頭
+- `snp-sari-un` → **sari** 芋頭／芋頭／芋頭（作物名）
 - his: 我要把被子摺成雙層來蓋，這樣會暖和一點。
 
 ### pspuhaw — 1 pair
@@ -928,7 +831,7 @@
 - under **SAPUH**
 - § Ida bi mnkan sapuh ka Sikat! PSpuhaw ta nhari da!
 - 中 Sikat 可能中毒了！快！我們趕緊去讓她就醫。
-- `ps-puh-aw` → **puh** 心跳
+- `ps-puh-aw` → **puh** 心跳／心跳／打痱子粉的棉包／捶胸的聲音
 - his: Sikat 可能中毒了！快！我們趕緊去讓她就醫。
 
 ### kyuqan — 1 pair
@@ -936,8 +839,8 @@
 - under **SEESU**
 - § Wada na qhduun kyuqan ka bubu na! Seesu bi!
 - 中 他朝母親吐了滿臉口水！真丟臉！
-- `k-yuq-an` → **yuq** 雞叫聲（公雞交配過後的聲音）
-- `k-yuqu-an` → **yuqu** (no gloss)
+- `k-yuq-an` → **yuq** 雞叫聲（公雞交配過後的聲音）／雞叫聲（公雞交配過後的聲音）
+- `k-yuqu-an` → **yuqu** 甕
 - his: 他朝母親吐了滿臉口水！真丟臉！
 
 ### ssbusun — 1 pair
@@ -945,7 +848,7 @@
 - under **SIBUS**
 - § Ssbusun mu idaw ka kiya (vl. Spsbusun mu idaw ka kiya)
 - 中 這個我會用來給飯加糖。
-- `ss-bus-un` → **bus** 蒸氣洩出聲（擬聲詞）
+- `ss-bus-un` → **bus** 蒸氣洩出聲（擬聲詞）／蒸氣洩出聲（擬聲詞）
 - his: 這個我會用來給飯加糖。
 
 ### empslangan — 1 pair
@@ -955,7 +858,7 @@
 - 中 你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！
 - `em-pslangu-an` → **pslangu** (no gloss)
 - `emps-lango-an` → **lango** (no gloss)
-- `emps-langu-an` → **langu** 湖
+- `emps-langu-an` → **langu** 湖／湖
 - his: 你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！
 
 ### sguran — 1 pair
@@ -963,7 +866,7 @@
 - under **SRUHAW**
 - § Sai mita ka kacing sguran aji msruhaw hu.
 - 中 去看看綁水牛的繩子有沒有鬆掉。
-- `s-gur-an` → **gur** 成群來到的聲音（擬聲詞）
+- `s-gur-an` → **gur** 成群來到的聲音（擬聲詞）／成群來到的聲音（擬聲詞）
 - his: 去看看綁水牛的繩子有沒有鬆掉。
 
 ### smaliq — 1 pair
@@ -971,7 +874,7 @@
 - under **SEELIQ**
 - § Sneeliq (smaliq?) tunux.
 - 中 砍某人的頭。
-- `sma-liq` → **liq** 背地裡笑（躲著笑別人）
+- `sma-liq` → **liq** 背地裡笑（躲著笑別人）／背地裡笑（躲著笑別人）
 - his: 砍某人的頭。
 
 ### psmkun — 1 pair
@@ -979,9 +882,9 @@
 - under **SMUK**
 - § Ini tuku! Psmkun mu kingal duri.
 - 中 這不夠；我還要再釘一塊。
-- `p-smka-un` → **smka** 一半／一半
+- `p-smka-un` → **smka** 一半／一半／一半／半（點鐘）；一半
 - `p-smko-un` → **smko** (no gloss)
-- `p-smku-un` → **smku** 放置／放置（收好）
+- `p-smku-un` → **smku** 保存／放置／放置（收好）／放置（收好）
 - his: 這不夠；我還要再釘一塊。
 
 ### snka — 1 pair
@@ -989,7 +892,7 @@
 - under **SPUNG**
 - § Tru bi spngan ni snka.
 - 中 只有三量半（公升、公尺、公斤、其他容器…）。
-- `ska` → **ska** 中間／中間
+- `ska` → **ska** 中間／中間／中間／當中／裡面
 - his: 只有三量半（公升、公尺、公斤、其他容器…）。
 
 ### stmaqun — 1 pair
@@ -997,9 +900,9 @@
 - under **STMAQ**
 - § Stmaqun mu (stmaqun mu) kiya ka bnuwar su.
 - 中 我稍後會把你的李子壓碎。
-- `stmaq-un` → **stmaq** 已爛了（外力）
+- `stmaq-un` → **stmaq** 已爛了（外力）／已爛了（外力）
 - `stmaqi-un` → **stmaqi** (no gloss)
-- `s-tmaq-un` → **tmaq** 水桶樹（樹名）
+- `s-tmaq-un` → **tmaq** 嚼爛／水桶樹（樹名）／水桶樹（樹名）／肥胖
 - `s-tmaqi-un` → **tmaqi** (no gloss)
 - his: 我稍後會把你的李子壓碎。
 
@@ -1008,7 +911,7 @@
 - under **TABUY**
 - § Maisu ka tmabuy! Ya han! Ptbuyun mu ka laqi da!
 - 中 絕不能是你下去！等一下！我要派（讓）我的兒子（孩子）下去。
-- `ma-isu` → **isu** 你／你
+- `ma-isu` → **isu** 你／你／你／你 ／你（對著對方說「你」）
 - his: 絕不能是你下去！等一下！我要派（讓）我的兒子（孩子）下去。
 
 ### sbuwai — 1 pair
@@ -1016,9 +919,9 @@
 - under **TKMU**
 - § Mhdu tnkmu (tmkmu) patas do, sbuwai na mqapah hiya.
 - 中 他闔上書後，把書交給（好放回原處）在旁的僕人。
-- `sbuwa-i` → **sbuwa** 只…泡
-- `s-buwai` → **buwai** 要煮沸
-- `s-buwa-i` → **buwa** 氣泡
+- `sbuwa-i` → **sbuwa** 只…泡／只…泡
+- `s-buwai` → **buwai** 要煮沸／要煮沸
+- `s-buwa-i` → **buwa** 氣泡／氣泡
 - his: 他闔上書後，把書交給（好放回原處）在旁的僕人。
 
 ### nasu — 1 pair
@@ -1026,36 +929,15 @@
 - under **TRU**
 - § Ttrui bi nasu pila gaga.
 - 中 把那筆錢分成三等份（分成公平的三份）。
-- `n-asu` → **asu** 船；槽／阿叔(男)
+- `n-asu` → **asu** 船／船隻／船；容器／船；槽／阿叔(男)／阿叔（男）／飛機／餵家畜的槽
 - his: 把那筆錢分成三等份（分成公平的三份）。
-
-### mtgtmaq — 1 pair
-
-- under **TMAQ**
-- § Kingal kari su ni mha mtgtmaq dxgal kana da.
-- 中 你只要說一句話，他們就會全都趴倒在地。
-- `m-tgtmaq` → **tgtmaq** 俯伏；跪拜
-- `mtg-tmaq` → **tmaq** 水桶樹（樹名）
-- `mtg-taq` → **taq** 刀子砍樹的聲音
-- his: 你只要說一句話，他們就會全都趴倒在地。
-
-### tmukan — 1 pair
-
-- under **TUYUQ**
-- § Knkingal sapah tmukan o, niqan kingal tuyuqan; ungat bi ka sapah truku.
-- 中 每一戶台灣人家裡都有吐痰的容器；太魯閣人家裡則完全沒有。
-- `tuk-an` → **tuk** 雞發出的聲音（吃地上的米聲音、叫喚小雞的聲音等）
-- `tuki-an` → **tuki** 抵銷／點鐘；小時
-- `tuku-an` → **tuku** 足夠／足夠
-- `t-mukan` → **mukan** (no gloss)
-- his: 每一戶台灣人家裡都有吐痰的容器；太魯閣人家裡則完全沒有。
 
 ### muli — 1 pair
 
 - under **UMUL**
 - § Muli binaw! Malu bi uqun!
 - 中 就讓它在你口中融化吧！很好吃！
-- `m-uli` → **uli** 綁住…
+- `m-uli` → **uli** 綁住…／綁住…
 - his: 就讓它在你口中融化吧！很好吃！
 
 ### gnwit — 1 pair
@@ -1063,7 +945,7 @@
 - under **UWIT**
 - § Gnwit na nanak ka sapah nii!
 - 中 這房子完全是他辛勞的代價（是靠他自己的辛勞得來的）。
-- `gn-wit` → **wit** 逃走（旋即就逃）
+- `gn-wit` → **wit** 繩轉聲（旋轉繩子的聲音）／逃走（旋即就逃）／逃走（旋即就逃）
 - his: 這房子完全是他辛勞的代價（是靠他自己的辛勞得來的）。
 
 ### pneydang — 1 pair
@@ -1071,7 +953,7 @@
 - under **HJIYAL**
 - § Wada su hnjiyal ka pneydang su pila hu?
 - 中 你把弄丟的（並在尋找的）錢找回來了嗎？
-- `peydang` → **peydang** 人名（男）
+- `peydang` → **peydang** 人名（男）／人名（男）／迷路
 - his: 你把弄丟的（並在尋找的）錢找回來了嗎？
 
 ### narung — 1 pair
@@ -1079,19 +961,8 @@
 - under **HICI**
 - § Hiya ka mnangal narung, mhici ku bi ka yaku.
 - 中 得獎的是他；我嘛，排在他後面很多。
-- `n-arung` → **arung** 穿山甲
+- `n-arung` → **arung** 愁眉苦臉／穿山甲／穿山甲／穿山甲（動物名）
 - his: 得獎的是他；我嘛，排在他後面很多。
-
-### empnhmadan — 1 pair
-
-- under **HMADAN**
-- § Ana msthiyaq bi ka dhiya o, ida empnhmadan paah seuxal ka dhiya.
-- 中 儘管他們（血緣）很疏遠，但他們自古以來就以親戚相待。
-- `empn-hmadan` → **hmadan** 表堂姊妹
-- `empn-hadan` → **hadan** 送到
-- `empn-hada-an` → **hada** 熟
-- `empn-hmadan` → **hmadan** 表堂姊妹
-- his: 儘管他們（血緣）很疏遠，但他們自古以來就以親戚相待。
 
 ### psnluun — 1 pair
 
@@ -1099,13 +970,13 @@
 - § Psnluun mu kana elealang ka suyang bi kari nii.
 - 中 我想把這個好消息傳遍各處。
 - `p-snluun` → **snluun** (no gloss)
-- `p-sluun` → **sluun** 盼望；希望／要被製作
-- `ps-nlu-un` → **nlu** 從…省下
-- `psn-luun` → **luun** 將會省著用
+- `p-sluun` → **sluun** 盼望；希望／要被製作／要被製作
+- `ps-nlu-un` → **nlu** 從…省下／從…省下
+- `psn-luun` → **luun** 將會省著用／慈恩（地名-部落名）／懶惰／打瞌睡狀
 - his: 我想把這個好消息傳遍各處。
 
 
-## root unglossed — 54 types, 59 pairs
+## root unglossed — 41 types, 45 pairs
 
 ### tnbuyan — 2 pairs, 1 more shared
 
@@ -1139,14 +1010,6 @@
 - `pslhagan` → **pslhagan** (no gloss)
 - his: 牢牢被抓住的。 ／ 看到他們撒一次網的漁獲（魚）數量，大家都讚嘆不已。
 
-### ptudu — 2 pairs
-
-- under **TUDU**
-- § Sai ptudu qmpahan ka isu.
-- 中 你這邊，去築田埂。
-- `p-tudu` → **tudu** (no gloss)
-- his: 你這邊，去築田埂。 ／ 培土－築田埂。 ／ 我呢，我要去給地瓜培土。
-
 ### makai — 1 pair
 
 - under **AKAY**
@@ -1154,63 +1017,6 @@
 - 中 孩子從昨晚起就一直喊痛。
 - `maka-i` → **maka** (no gloss)
 - his: 呻吟-喊痛的人。 ／ 孩子從昨晚起就一直喊痛。
-
-### kkdusan — 1 pair
-
-- under **BARAH**
-- § Srsi ka nsmudal ni paah bi qsahur emptduwa su malah kingal kkdusan duri.
-- 中 抹去你身上舊的（過去的）一切，全心全意，你就能重建新的人生！
-- `k-kdusan` → **kdusan** (no gloss)
-- his: 抹去你身上舊的(過去的)一切,全心全意,你就能重建新的人生!
-
-### kntbrnahan — 1 pair
-
-- under **BRINAH**
-- § Wana kntbrnahan dha ka riqu mu balay!
-- 中 我真正憎惡的只是他們的忘恩負義。
-- `kn-tbrnahan` → **tbrnahan** (no gloss)
-- `kn-tbrnahi-an` → **tbrnahi** (no gloss)
-- his: 忘恩負義。 ／ 我真正憎惡的只是他們的忘恩負義。
-
-### psbrnuxun — 1 pair
-
-- under **BREENUX (BRNUX)**
-- § Psbrnuxun mu hici ka ngangut sapah da.
-- 中 我以後會把房子四周整平。
-- `ps-brnux-un` → **brnux** (no gloss)
-- his: 使平坦。 ／ 我以後會把房子四周整平。
-
-### dmbsrat — 1 pair
-
-- under **BSRAT**
-- § Naqih bi thiyan ka dmbsrat.
-- 中 和吝嗇鬼一起生活很不好受。（或：Mb'so）
-- `dm-bsrat` → **bsrat** (no gloss)
-- his: 和吝嗇鬼一起生活很不好受。（或：Mb'so）
-
-### knbsrat — 1 pair
-
-- under **BSRAT**
-- § Tayal bi knbsrat su!
-- 中 哎呀！你真吝嗇！
-- `kn-bsrat` → **bsrat** (no gloss)
-- his: 吝嗇的程度。 ／ 哎呀！你真吝嗇！
-
-### kbsrat — 1 pair
-
-- under **BSRAT**
-- § Ini kbsrat ka tama mu.
-- 中 我父親並不吝嗇。
-- `k-bsrat` → **bsrat** (no gloss)
-- his: 我父親並不吝嗇。
-
-### dqqrinut — 1 pair
-
-- under **DAYAW**
-- § Mddayaw bi ka dqqrinut.
-- 中 窮人們確實互相幫助。
-- `d-qqrinut` → **qqrinut** (no gloss)
-- his: 窮人們確實互相幫助。
 
 ### ddjilun — 1 pair
 
@@ -1325,14 +1131,6 @@
 - `suwan` → **suwan** (no gloss)
 - his: 你什麼時候來的？……剛剛——不久前。
 
-### empngpung — 1 pair
-
-- under **PNGPUNG**
-- § Ini biyaw empngpung ka bnaqig siyaw gsilung (silung)
-- 中 沿著海邊（在岸上），沙子很快就形成了波紋。
-- `em-pngpung` → **pngpung** (no gloss)
-- his: 沿著海邊（在岸上），沙子很快就形成了波紋。 ／ 起伏的－隆起成小丘、成包。
-
 ### kmpspusu — 1 pair
 
 - under **PUSU**
@@ -1356,24 +1154,6 @@
 - 中 我們不是讀書人，我們只是（勞力）受薪者而已。
 - `n-dmpatas` → **dmpatas** (no gloss)
 - his: 我們不是讀書人，我們只是（勞力）受薪者而已。
-
-### psiisun — 1 pair
-
-- under **SAIS**
-- § Psiisun misu kiya kingal ribul laqi.
-- 中 我等一下要請你替我兒子做一條褲子。
-- `p-siisun` → **siisun** (no gloss)
-- `p-siisi-un` → **siisi** (no gloss)
-- his: 我等一下要請你替我兒子做一條褲子。 ／ 請人縫－請人做衣服。
-
-### psiisan — 1 pair
-
-- under **SAIS**
-- § Smais ku nanak lukus mu ka yaku! Mkray bi ka psiisan!
-- 中 我自己縫我的衣服！請人縫太貴了！
-- `p-siisan` → **siisan** (no gloss)
-- `p-siisi-an` → **siisi** (no gloss)
-- his: 我自己縫我的衣服！請人縫太貴了！ ／ 請人代縫的縫紉活兒－請人縫的動作。 ／ 請人縫－請人做衣服。
 
 ### sshgan — 1 pair
 
@@ -1479,14 +1259,6 @@
 - 中 你在（孩子們的）遊戲場四周築了一道漂亮的柵欄。
 - `tn-qriyi-an` → **qriyi** (no gloss)
 
-### mtudu — 1 pair
-
-- under **TUDU**
-- § Uxay bi slaq ka kiya! Ma mtudu kana ka dxgal!
-- 中 那根本不是水田！整塊地都坑坑窪窪！
-- `m-tudu` → **tudu** (no gloss)
-- his: 凹凸不平的－變成隆起。 ／ 那根本不是水田！整塊地都坑坑窪窪！
-
 ### msthulang — 1 pair
 
 - under **THULANG**
@@ -1518,14 +1290,6 @@
 - 中 日本人心裡不安（害怕）！若太魯閣的年輕人受了教育（＝他們腦袋開了竅），他們便能勝過他們（日本人），不是嗎！
 - `d-tanah` → **tanah** (no gloss)
 - his: 日本人心裡不安（害怕）！若太魯閣的年輕人受了教育（＝他們腦袋開了竅），他們便能勝過他們（日本人），不是嗎！
-
-### psbrnuxi — 1 pair
-
-- under **HRUS**
-- § Kana mshrus qmpahan o, psbrnuxi bi!
-- 中 所有位於斜坡上的田地，把它們弄平吧！
-- `ps-brnux-i` → **brnux** (no gloss)
-- his: 使平坦。 ／ 所有位於斜坡上的田地，把它們弄平吧！
 
 ### ndiyan — 1 pair
 

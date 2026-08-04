@@ -2465,3 +2465,58 @@ word and only the gloss test refused. Both widen `seen`, never `lex`.
 
 **Deliverable pairs 4,955 → 4,956 (91.17% → 91.19%), blocked 480 → 479, pale
 988 → 987, dark types 5,873 → 5,874.** Cards 1,967.
+
+## Batch 182 — a source that attests nothing and settles thirty pairs
+
+`tksaw` first, ruled in by the informant on the shape batch 180 named: two
+analyses, `tk-`+`saw` 像；如此；那樣 and `t-`+`ksaw` 像這樣, both roots listed
+and glossed, and the refusal was gloss agreement alone against his 模仿－假裝－
+裝作. "Make like" and "imitate" are one word and a shared-character test cannot
+see it. THE FAMILY ACQUITTED TWICE: `tksao` was the only pale token in SAO
+(45/46 dark) and the only one in KPOXEL (25/26). 4 pairs.
+
+Then the wide net, and its result is the interesting part.
+
+**Everything local was already mined for attestation.** All eight ILRDF
+datasets feed parquet_truku_freq.json, `ithuan_formosan_text` included with the
+right column (`formosan`, not `transcript`). What is NOT mined is their Mandarin
+side — `translation` at 90–100% across every set, 6,940 Truku sentence pairs in
+the text set alone, and `fb_ilrdf_dict_asr/tts` which are dictionary recordings
+at 96–100%. We take the tokens and throw the Chinese away. Still unread.
+
+**The ILRDF online dictionary is reachable.** web.klokah.tw/multiSearch calls
+`POST e-dictionary.ilrdf.org.tw/wsReDictionary.htm` with FMT/account/TribesCode/
+qw; TribesCode 33 is 太魯閣語. fetch_edictionary.py wraps it: cached including
+misses, sequential, 0.7s apart, a miss never retried. 611 words asked — every
+blocked type and every candidate root.
+
+**It attests nothing.** 165 hits, and not one is a word attested_modern.json
+does not already hold. Zero of the 378 blocked types are in it: `tksaw` and
+`gmquwaq` return 無搜尋結果 while their roots are there in full, because it
+indexes headwords. The derived forms are in the printed Patas pusu kari Truku
+(1,267 roots, 29,788 derived, three volumes) and that is not online. klokah's
+own teaching corpus returns 0 for `tksaw` across all fourteen material types,
+which is consistent — it is where our parquets came from.
+
+**It glosses.** 17 of the 85 glossless roots under the blocked pairs: `bsrat`
+吝嗇, `siisan` 縫補, `qqrinut` 貧窮, `tbrnahi` 忘恩, `brnux` 平地. Wired into
+`_gloss()` on the Bible glossary's exact terms — additive, and deliberately NOT
+into `voices` or `seen`, because there is nothing here to widen them with.
+
+Priced at 8 types / 8 pairs before the build; delivered **37 types and 30
+pairs**, because a root's gloss feeds every rung and not just unglossed_root().
+**0 words lost their verification** — the "adding evidence must never subtract a
+claim" check, run as a set difference over MODERN_VERIFIED.
+
+**It confirmed batch 152 from outside.** The dictionary glosses `paux` as
+翻過來／犁田／腳向上 — both senses, printed side by side. Batch 152 reached
+翻轉 by reading the root's own paradigm (`mknpaux` 反過來, `mspaux` 會翻) after
+four batches of refusing 犁田, and wrote that a citation gloss is one editor's
+choice of sense. Here is a second editor choosing differently. `kpaux`, which
+that batch left pale for carrying one supporter, is now dark. **The SISUN trap
+stays shut**: `sisi` is not in the cache and `sisun`/`sisan`/`ssisun` are all
+still pale.
+
+DOM after: dark 43,993 (97.8775%), pale 920, green 34, total 44,947; types dark
+5,912 / pale 601 / green 25. Blocked pairs 479 → 445, deliverable **4,990 =
+91.81%**. Regressions 16/16, 9/9, 28/28.
