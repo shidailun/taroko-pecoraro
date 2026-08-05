@@ -20,6 +20,7 @@ knsdlaan         knsdraan         sdlaan         sdraan         derived
 knsopu           knsupu           sopu           supu           derived
 kpauçi           kpauxi           kpauxi         kpauxi         derived
 kxebong          khibung          xebong         hibung         derived
+ln'xlax          lnhlah           lxlax          lhlah          derived
 lnagap           rnagak           lagap          ragak          derived
 lnqdo            rnqdug           lqdo           rqdug          derived
 m'ayo            mayug            ayo            ayug           attested

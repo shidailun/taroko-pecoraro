@@ -3976,3 +3976,87 @@ you blame the language.
   5,437 sentences, 4,674 types, a "487 blocked, 462 by a single type" paragraph,
   and a path to a generator that no longer exists. Now 5,315 / 5,429 / 4,654, and
   it names the seven excluded rows and why.
+
+## batch 208 — the training string, and 700 spans that were never Truku
+
+No colour moved. **97.9002% throughout**, 5,315 deliverable of 5,429. This batch
+is about what the export *ships*, not about what the page paints.
+
+### A gloss is not a sentence, and the harvest could not tell
+
+`mt_export.py` collected its per-token colour array with
+
+    e.querySelectorAll('.w-mod,.w-unv,.w-raw')
+
+over the whole `.example`. But the app respells inside the **glosses** too — a
+personal name in the French renders as a word span like any other — so the query
+was counting them as Truku sentence tokens: **700 spans across 256 rows**. One
+row read nine tokens for a four-word sentence, `Iban` six times, because the name
+appears in fr, en and zh as well.
+
+Scoped to `.truku .w-mod,…`. Consequences, measured rather than assumed:
+
+- **Deliverable unchanged at 5,315.** `deliverable` is `spans and not bad_p and
+  not bad_g`, so a *pale name in the French* could have blocked a row whose Truku
+  was entirely dark. None did — every one of the 700 was already `d`. The bug was
+  real and the metric was never wrong; those are two different questions and the
+  second one has to be asked separately.
+- **The word list drops 4,654 → 4,647.** Seven types existed in that file only
+  because they appear in a gloss. The list claims to describe the sentences.
+
+### `truku_train`: the sentence without the apparatus
+
+The TSV's `truku` column now carries a new field. `truku_modern` remains what the
+page shows; `truku_train` is what a model should see, and they differ in **306**
+deliverable rows. Three removals, in order:
+
+1. `.meta-abbr` — his editorial marks (`vl.`, `var.`, the French asides).
+2. `.w-orig` — the superseded word displayed beside its modern replacement.
+3. The **bracketed variant those marks introduced**. Removing `vl.` alone left
+   `Biyuq qhuni (var. qhuni)` as `Biyuq qhuni (qhuni)`, and 295 deliverable rows
+   still carried one: an alternative form (`Snpi (mnspi) ku sunan skeeman.`), an
+   equivalence (`Mha su inu ki (=baki)?`), a fuller phrasing (`Ssbusun mu idaw ka
+   kiya (Spsbusun mu idaw ka kiya)`).
+
+**The gloss is the test.** Sampled against fr/en/zh, the translation covers the
+sentence *without* the bracket every time — so shipping it made the source say
+something the target did not. That is a misaligned pair, not a richer one. The
+French's own parentheses are synonyms, live in the gloss field, and are untouched.
+
+### Two things deliberately left alone
+
+**An unbalanced bracket is page-break damage, not a variant.** `(Ksaw nrikit
+nksa.` (RIKIT) and `… lmhlah (Knhuway ida mu lhlahun.` (LHLAH) open and never
+close. Deleting the `(` would concatenate two clauses into one bad sentence.
+Where the missing half goes is a question for the scan. Both are named in the
+run output so they are not mistaken for clean.
+
+**A target variant is not a source variant.** 190 deliverable rows carry `var.` /
+`vl.` / `n.b.` / `（或：）` / `（註：）` in a gloss, and the symmetry argument says
+strip them too. It is wrong. A source variant is another *form* of one sentence,
+so keeping his headword form loses nothing. A target variant is another
+*meaning* — `Asaw bi isu` is «C'est bien grâce à toi» **and** «C'est bien par ta
+faute» — and dropping one picks a reading he explicitly declined to pick.
+Ambiguity he recorded is data. Counted in the run output, kept in the file.
+
+(Of the ~1,800 gloss parentheses overall, the rest are the translator clarifying
+— «défoncer (retourner, piocher)». That is translation, not apparatus. A rule
+that stripped all 1,800 would have damaged 1,600 good targets to fix 190.)
+
+### The residue check, and why it cried wolf first
+
+`residue` reports any word in `truku_train` that carried no colour span at all —
+running Truku the page never coloured, which **no colour metric can see**. First
+run: 13 rows. Every one was already coloured. The comparison was span-text
+against word, and a span and a word are not the same unit in either direction:
+
+- one span holds two words — `Empaa su`, his `Mpaso`, the clitic join;
+- one hyphenated word holds two spans — `Empa-laqi`, `AJI-KU-MHA`.
+
+Comparing *pieces* (hyphens split, elision marks not, case folded) takes it to
+**0 tokens / 0 types / 0 rows**. The six remaining reports were his spanless
+French demonstration lines, which `nz` already excludes and names; reporting them
+twice under a heading that means something else is how a real hit gets buried.
+
+A detector that cries wolf is worse than no detector. Get it to zero on a corpus
+you have already proven clean, or it will never be believed on the one you have not.

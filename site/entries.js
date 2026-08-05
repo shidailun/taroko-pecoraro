@@ -28966,11 +28966,10 @@ window.ENTRIES = [
             "a": "ex_xmuya_so_bi_pnlikit_nksa_da_ndoa_xali_o"
           },
           {
-            "t": "( Ksao nlikit nksa",
-            "fr": "Simule (pour tromper) un membre estropié pour marcher).",
+            "t": "(Ksao nlikit nksa)",
+            "fr": "(Simule (pour tromper) un membre estropié pour marcher).",
             "en": "Fakes (in order to deceive) a crippled limb in order to walk.",
-            "zh": "（假裝（為了欺騙）肢體殘廢來走路）。",
-            "a": "ex_ksao_nlikit_nksa"
+            "zh": "（假裝（為了欺騙）肢體殘廢來走路）。"
           }
         ]
       }
@@ -33829,7 +33828,7 @@ window.ENTRIES = [
         "zh": "解開－鬆開－拆開。",
         "examples": [
           {
-            "t": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) mo lm'xlax (vl. Knxoai ida mo l'xlaxon (lxlaxon).",
+            "t": "Ana npongo o, ya bi qdani ka gasil so, knxoayun (knxwayun) mo ln'xlax (vl. Knxoai ida mo l'xlaxon (lxlaxon).",
             "fr": "Ne jette pas ta ficelle même si elle est emmêlée (si elle a des noeuds); lentement je la dénouerai (démêlerai).",
             "en": "Don't throw away your string even if it is tangled (if it has knots); slowly I will untie it (untangle it).",
             "zh": "即使繩子纏成一團（打了結）也別扔掉；我會慢慢把它解開（理順）。"

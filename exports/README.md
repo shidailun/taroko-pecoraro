@@ -21,13 +21,39 @@ construction: **5,315 deliverable of 5,429 = 97.90%**.
 ## Files
 
 - **`mt_deliverable.tsv`** — the 5,315 fully-confirmed pairs, `truku ⇥ zh ⇥ en ⇥ fr ⇥ headword`.
-  This is the file to train or translate from.
+  This is the file to train or translate from. Its `truku` column is
+  `truku_train`, not `truku_modern` — see below.
 - **`mt_sentences.jsonl`** — all 5,436 examples, one JSON object per line, with
   `deliverable`, `truku_spans`, per-token `tokens[{w,c}]` (`c` = `d`/`p`/`g`), and
   the `unconfirmed` / `unmapped` token lists broken out. Use this to see *why* a
   sentence is blocked.
-- **`mt_wordlist.tsv`** — 4,654 word types with status, total occurrences, and how
+- **`mt_wordlist.tsv`** — 4,647 word types with status, total occurrences, and how
   many of those occurrences sit inside a deliverable sentence.
+
+## `truku_train` — the sentence without the apparatus
+
+`truku_modern` is what the page shows. `truku_train` is what a model should see,
+and they differ in 306 of the deliverable rows. Removed: his editorial notes
+(`.meta-abbr` — `vl.`, and the French asides he sets in brackets), the superseded
+word shown beside its modern replacement (`.w-orig`), and then the whole bracketed
+variant that those markers introduced — `Lpi (vl. Dpi) nhari!` → `Lpi nhari!`,
+`Snpi (mnspi) ku sunan skeeman.` → `Snpi ku sunan skeeman.`
+
+The test that settles it is the gloss: the French and English translate the
+sentence *without* the bracket, every time. Shipping it made the source say
+something the target did not.
+
+Two things are deliberately NOT removed. **An unbalanced bracket** (RIKIT, LHLAH)
+is his page-break damage; where the missing half goes is a question for the scan.
+And **190 gloss-side variants** marked `var.` / `vl.` / `n.b.` stay: a source
+variant is another *form* of one sentence, so keeping his headword form loses
+nothing, but a target variant is another *meaning* — «thanks to you» / «your
+fault» for `Asaw bi isu` — and dropping one picks a reading he declined to pick.
+
+A companion check, `residue`, reports any word in `truku_train` that carried no
+colour span at all; it currently reads **0 tokens in 0 rows**. It has to compare
+*pieces*, because one span can hold two words (`Mpaso` renders `Empaa su`) and
+one hyphenated word can hold two spans (`Empa-laqi`).
 
 ## Three things to know before using it
 

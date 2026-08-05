@@ -1851,6 +1851,7 @@ window.MODERN_MAP = {
 "lmuxi":"rmuxi",
 "lmuxun":"rmuxun",
 "lmxang":"lmhang",
+"ln'xlax":"lnhlah",
 "lnabao":"rnabaw",
 "lnagap":"rnagak",
 "lnamu":"lnamu",
