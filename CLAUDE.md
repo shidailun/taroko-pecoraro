@@ -271,6 +271,26 @@ These were each learned by breaking something. Evidence for every one is in
 
 ## Testing and measurement
 
+- **Run the suite with `python tools/orthography/suite.py`** (site served at
+  :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
+  what they report against a ledger keyed on the exact failure line. Green reads
+  `54 logs — 23 clean, 181 superseded, 0 REGRESSIONS`.
+- **A frozen measurement is not a test until something adjudicates its
+  failures** (batch 209). The logs are records of what a batch measured; the
+  project moves under them, so failures accumulate that are not regressions. 181
+  of them had, and the sweep before had reported zero by reading a stale
+  `verified.js`. **Never edit a log to make it pass** — that destroys the only
+  evidence anything moved. The supersession goes in the ledger, naming the batch
+  that overturned the pin.
+- **A supersession must re-assert the reason, not excuse the failure** (batch
+  209). `dark` re-checks that the word is dark AND alone; `map` re-reads
+  `modern_map.js` so a drift to a third spelling still fails; `meta` re-derives
+  batch 207's metalinguistic test from `entries.js`. And **run the negative
+  control** — 13 tampered lines fed to `adjudicate()` — because a ledger that
+  cannot fail is a list of excuses.
+- **A pinned occurrence count is a snapshot of a growing book** (batch 209). All
+  eight count drifts were increases, from later pages and from map arrivals.
+  Assert a floor, never equality; a count that FALLS is the news.
 - **Measure from the DOM, not from the map.** Assert against rendered cards.
 - **Rank the pale by occurrence, not only by pair.** `blockers.py` ranks by
   sentence pairs, so a word spent on headwords and crossrefs never reaches it —

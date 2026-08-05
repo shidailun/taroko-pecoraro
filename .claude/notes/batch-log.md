@@ -4139,3 +4139,86 @@ dark-and-right one.
 
 **Metric unmoved at 97.9002%**, 5,436 examples, denominator 5,429. Three record
 fixes and one export fix, no spelling claims.
+
+## batch 209 — 181 failures that were not regressions, and the runner that could tell
+
+Batch 208 left the suite failing 181 assertions across 31 of 54 logs, and the
+commit before it (583fc9c) had claimed zero. Both numbers were produced the same
+way: by running the logs and looking at the output. Nothing adjudicated it.
+
+**Why 583fc9c saw none.** `git show 583fc9c:site/verified.js` has **0** code-16
+entries and 5,883 lines; from 5c43237 on it has 302 and 6,440+. That sweep ran
+against a `verified.js` written before class colouring existed, so every name,
+loan, onomatopoeion and species was still pale — exactly the state the old pins
+assert. The suite did not regress between the two commits; the file it measures
+caught up.
+
+### Every failure classified, none of them a wrong word
+
+`want N pale, got {...}` joined against `verified.js`, and the commit that
+darkened each word found with `git log -S '  "word": N' -- site/verified.js`:
+
+| | |
+|---|---|
+| pin wanted pale, word is dark **and has a code** | 109 |
+| pinned modern string **absent** — a later batch respelled the raw token | 24 |
+| still dark, **count rose** because the book grew behind the pin | 8 |
+| old map-style `BROWN token spelling` assertions | 40 |
+| **dark with no verified code — a real regression** | **0** |
+
+Not one word is dark without a source. The 109 group to 23 commits, every one a
+named batch: 14 to batch 182, 13 to 196, 6 each to 195 and 198, 5 to 203, 4 to
+201, and a tail of ones and twos.
+
+**26 of the 40 map failures are one thing.** dom66 and dom72 both assert 13
+tokens on his AN (3) card — `paro → paru`, `knplaan → knpraan`, `malu → malu`,
+and `grand`, `grandeur`. The map still says all of it. What moved is batch 207,
+which stopped painting the six rows whose Truku field IS its own French
+translation, and all six are on that card. The claim is intact; the span is gone,
+by a decision taken with the reason written down. The other 14 are respellings
+with batches: `dup → eduk` (172), the `"MU` family `m'mu → meemu` and its four
+siblings (201), `qalip → qrib` (199).
+
+**The eight count drifts are all increases**, never a loss: `elug` 91→94, `ita`
+37→39, `xal` 9→12, `eduk` 7→14, `niq` 4→7, `salu` 10→12, `yup` 2→4, `psiling`
+3→4. Two have an arrival to name (`dup` joined `eduk` in 172, `psilin` joined
+`psiling` in 199); the rest are simply later pages. A pin that fixes an
+occurrence count is measuring the corpus, not the spelling.
+
+### tools/orthography/suite.py
+
+The logs are not edited. Each is what a batch measured on the day it measured it,
+and editing one to make it pass destroys the only evidence that anything moved —
+dom57 had already written that down in 2024 and then been ignored 30 files later.
+The supersession goes in a ledger keyed on the exact failure line, carrying the
+batch that overturned the pin, and **it re-asserts the reason instead of
+excusing the failure**:
+
+- `dark` — must still be dark, and dark alone (a pale or green twin fails).
+- `dark>=N` — colour re-checked, and the pinned count is a FLOOR. Occurrences may
+  arrive; they may not leave.
+- `absent` — the respelled-away string must stay off the page. If it comes back
+  the ledger fails, which is how a reverted respelling surfaces.
+- `map` — re-read from `modern_map.js`, so a drift to a THIRD spelling nobody
+  argued for fails here. dom57's own design, generalised.
+- `meta` — the map value must be unchanged AND the card must still test as
+  metalinguistic in `entries.js`. Batch 207's finding is re-derived on every run,
+  not trusted.
+
+Two more properties. A failure with no ledger row is a REGRESSION and prints. A
+ledger row whose failure line stops appearing prints under HEALED — a pin that
+comes back is as much news as one that breaks, and it is the only thing keeping
+the ledger from growing into a permanent list of excuses.
+
+**The negative control is part of the work, not a formality.** 13 cases fed
+straight to `adjudicate()`: the word goes pale again, the word leaves the page, a
+green twin appears beside it, occurrences are LOST rather than gained, the
+respelled-away spelling returns, the map drifts to a third value, the
+metalinguistic card stops being metalinguistic, and a failure with no row at all.
+All 13 refused correctly. A ledger that cannot fail is a list of excuses.
+
+`SUITE 54 logs — 23 clean, 181 superseded, 0 REGRESSIONS, 0 crashed`, four logs
+at a time, ~4 minutes. `python tools/orthography/suite.py dom16` filters.
+
+**No dictionary data changed in this batch.** Metric unmoved at 97.9002%, 5,315
+of 5,429.
