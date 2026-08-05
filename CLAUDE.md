@@ -94,6 +94,20 @@ These were each learned by breaking something. Evidence for every one is in
   invisible to the generated map. Any tool asking "is this still green?" must
   consult the whole chain (`respellable()` reads three tables).
 - **Decide slot by slot when a homophone exists**, not once for the root.
+- **`CITE_SPELL` cannot split a homograph he carded TWICE** (batch 205). The
+  `naru`/`nalu` fix worked on an asymmetry — one sense had a headword, the
+  other only sentences. DIMA heads 竹子 AND 已經, QALO heads 梳子 AND 豬油, and in
+  both his example sentences are the sense the map already renders. A remap
+  would paint four correct sentences wrong to fix three heads. Leave them.
+- **Score a gloss filter against HIS gloss, never a pairing file's abbreviation
+  of it** (batch 205). `omnibus_gloss_pairs.json` carries 腳掌 for LAMIL, which
+  shares no character with `ramil` 拖鞋 and flagged a freeze. His own entry reads
+  腳掌／鞋底－（引申＝）鞋子 and his family is `Mklamil` 穿鞋子. No freeze.
+- **Two gloss-verified sources disagreeing is a freeze detector** (batch 205).
+  Where the map value's register gloss shares no character with his and a
+  second source's value does, the span is dark AND wrong. 29 of 413 flagged;
+  most were the same root inflected, and only 2 survived the different-root
+  test. Run it on any new pairing file before treating the file as absorbed.
 - **Same root in two dialects is not a licence to merge two cards.**
 - **A sibling is only a sibling if it is the same card.** A ruled form one slot
   over licenses its neighbour — but check which headword it comes off first:

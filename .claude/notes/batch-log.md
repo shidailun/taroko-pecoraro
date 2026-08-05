@@ -3777,3 +3777,73 @@ does not exist: the ILRDF e-dictionary answered 1 of 100 pale words asked
 test sends the three biggest cards to roots that are not his. **~99.40% is the
 ceiling reachable by evidence**, and the last stretch of it is single-occurrence
 cards, 108 of them.
+
+## batch 205 — a freeze detector built from two gloss-verified sources
+
+Both metrics sat at their evidence ceiling (batch 204), so the work moved to the
+class of error no colour metric can see: a span that is **dark and wrong**. Batch
+201 found seven of those by hand. This is the instrument that finds them.
+
+**`omnibus_gloss_pairs.json` was consumed by nothing.** 413 rows of
+`[his headword, modern form, edit distance, Chinese gloss]` — gloss-verified
+pairings that had never been run against the live map. 179 agree, 8 have no map
+key, **226 disagree**. Of those, 87 are cases where BOTH values are dark, and the
+freeze signature is: the map value's register gloss shares no character with his,
+while the omnibus value's does. **29 flagged.**
+
+`missing_headwords.json` (2,938 rows) is also unconsumed and is not evidence:
+2,708 are `unknown` with no gloss, and the head of its frequency list is `no`,
+`lu`, `kika` and `vl` — the last being his own abbreviation for *variante*. Zero
+of its glossed tokens map to a sole blocker.
+
+### Most of the 29 are not freezes
+
+The bulk are the omnibus matching his headword to an INFLECTED modern form when
+the bare root is glossed narrowly: `ktuy` 用指甲切斷東西 vs `kmtuy` 收割, `sli`
+vs `mssli`, `bulang` vs `embulang`, `uda` vs `nuda`. Same root, so nothing is
+frozen. The real candidates are the rows where the two are **different roots**.
+
+**LAMIL is the instructive refusal: the omnibus gloss is not his gloss.** Its row
+carries 腳掌, which shares no character with `ramil` 拖鞋, so the filter flagged
+it. His own entry reads 腳掌／鞋底－（引申＝）鞋子 — which shares 鞋 — and his family
+settles it: `Mlamil` 變成鞋子, `Mklamil` 穿鞋子, `Pklamil` 使（某人）穿鞋. Score the
+filter against HIS gloss, never against the pairing file's abbreviation of it.
+
+SIXAL refused on the same instrument pointing the other way: `ixan` 堅持 matches
+the first word of his gloss, but his subs are `Msiçal` 不當地－非法地 and `Psiçal`
+跳過儀式與規範 — the card is about transgression, not insistence.
+
+### Two ruled
+
+- **TLAWAI → `klaway`** 蝴蝶 (register gloss exact, parquet 58). It was rendering
+  `tlaway` 箭步如飛, a real modern word (parquet 28) with nothing to do with
+  butterflies. Two occurrences, both headword.
+- **YUX → `iyux`** 堅持 (register exact, parquet 11, and 7 occurrences in his own
+  text). It was rendering `yuh`, whose only register gloss is the fragment
+  `稱呼）` at parquet 0. His own gloss is the second supporter and says so
+  outright: 參見IYUX，無疑更正確.
+
+`gained []` / `LOST ['tlaway','yuh']` — correct: no token points at those two any
+more. Span total 44,916 → 44,913, which is `collapsed()` dropping brackets that
+would now read `Iyux (iyux?)`, the batch-201 behaviour.
+
+### Two refused, and the rule they teach
+
+**`CITE_SPELL` cannot split a homograph he carded TWICE.** The batch-202
+`naru`/`nalu` fix worked on an asymmetry: 好 in seven sentences, 代替 on his own
+headword — one sense had a card, so refusing the map value on NAME renders hit
+exactly the right span. These two have no such asymmetry:
+
+- **DIMA heads three cards** — 竹子, 在那之前－預先－已經, and 竹子(= DDIMA ?) — and his
+  example sentences are the second sense (`dima wada ka xea da` 他已經走了, ×3).
+  The map's `jima` 已經 is right for the running text and wrong for two heads.
+- **QALO heads two** — ＝梳子（極可能是 KALO 的變體）and 豬油、動物油脂 — and BOTH example
+  sentences are lard (*mqan ana qalo* 連豬油也吃; *toxoi qalo pkkxnuk* 跟豬油一起…更嫩).
+  The map's `qalu` 食油 is right for the text and wrong for one head.
+
+A token-keyed map has one slot and his book needs two, so the global remap would
+have painted four correct sentences wrong to fix three headwords. Both left
+alone. `ddima` → `djima` 竹子 was already correct: the reduplication is bamboo
+only, and the generator had it.
+
+Census 99.3721%, 1967 cards; 74 assertions green across six suites.
