@@ -3612,3 +3612,101 @@ that reads both sides of the seam off the DOM.
 It is 7 + 1, and the 1 is the reason the other 7 could not be taken. Occurrence
 counts hid that; only the gloss did not.
 
+
+## batch 203 — three classes closed: a creeper, fifteen names, and a prefix
+
+Four rulings, none of them a respelling argument. Each is a case where the word
+was pale not because the evidence was thin but because it was the wrong kind of
+evidence to ask for — and the fix in every case was to name the class the word
+belongs to, not to find it in a wordlist.
+
+**KLULU, ruled by class after being refused as a spelling (b202).** His card is
+爬牆虎 / *Vigne vierge*, and he says on it why a creeper is in the wineskin
+verses at all: "Les Taroko ne connaissent pas la vigne, donc pas de «Vin»". So
+the meaning to search from is the creeper, not the grape. The register has no
+爬牆虎 row; `tlulug` 葡萄 is a single unfamilied row and taking it needs k~t AND
+a final -g, neither of them a char rule. Scan-checked p395 — unmistakable capital
+K, between QLOPAS *Pêche* and GAOGAN *Litchi*. So `HAND_SPECIES`, the FOURTH
+settled class beside names, loans and onomatopoeia, emitting the same code 16.
+Attestation is not a test a wild-flora name fails; it is one it cannot sit, and
+the register is a dictionary of everyday speech. +5 pairs.
+
+**The fifteen pale names on p396 were one generator seam, not fifteen problems.**
+All fifteen carry a `jp` tag, and `build_modern_map.py:204` reads
+`re.search(r"\bname\b", tg) and "jp" not in tg.lower()` — the name seed excludes
+anything Japanese *by design*, and the loan population never picked them up
+either, so they fell between two classes. Ruled six from the ILRDF register
+(`ako→aku`, `emi`, `toro→turu`, `kyosi→kiyusi`, `natsö→natu`, `xeumi→humi`) and
+KEPT nine as his own spelling (`miro nuni mati dasi doding eeng mori xalo tero`)
+— the pin there is what stops the Truku char rules from firing on a Japanese
+name. All fifteen into `HAND_NAMES`, never into `name_population.json` (b197).
+
+  *The gender tag is what made the fuzzy match safe.* A closest-string search
+  alone proposed `MORI → morita` (a Japanese surname), `EENG → beege`,
+  `DODING → uing`. Adding his own `(m)`/`(f)` as an INDEPENDENT second test
+  against the register's 男名/女名 refused nine of the fifteen outright. Two
+  supporters that must agree; shape alone is one supporter twice.
+
+  p396: 255 dark / 15 pale → **270 dark / 0 pale**.
+
+**MPA got the prefix treatment.** Measured the `affix137` way over 32,208 modern
+types: `mpa` itself scores **0**, but `emp` scores **689** against a single-letter
+baseline of 16–2,732 and a three-letter noise floor of 1–8 (`mda` 8, `mta` 8,
+`mra` 6 … `tpa` 1). His own siblings had already ruled it — `mpalaqe → empalaqi`
+and `mpsiling → empsiling` are both DARK, and only the bare prefix card was pale.
+Pinned `mpa → empa`; declared `HAND_AFFIX = {"empa": "emp"}` and generalized the
+`affix()` gate, which until now only accepted single letters mapped to themselves.
+gained `['empa']`, LOST none. +3 pairs.
+
+  **A multi-letter affix article scores its MODERN prefix, not his.** `mpa`
+  scoring zero is not evidence against the card; it is the tier-W schwa
+  (`mp-` → `emp-`) showing up as a lookup miss. The gate has to be told which
+  string to count.
+
+**The species seam closed at exactly the seven b202 priced.** The b202 comment
+named KLULU, TYAQONG, PISUX, KDIYONG, Q'MUX plus green DILAM and GAOGAN and said
+the rest wait their turn. Their turn: a token census over all 131 animal/plant
+cards found 115 wholly dark and 6 with a pale or green token — the six named.
+
+  **Census per TOKEN, not per headword.** The first pass keyed the whole
+  headword string and reported twelve greens, of which eight were multi-word
+  heads with no single map key: WA"LO 蜜蜂 and "BAON 南瓜 were already rendering
+  dark as `walu` and `baun`. A test that cannot see a colour reports it as an
+  absence — this time as eight.
+
+  Values: `tyaqung` (o→u), `pisuh` (x→h), `kjiyung`, `qmux` (identity),
+  `jiram`, `gaugan` (o→u). **KDIYONG is not a char rule**: `d+i → j` is Truku's
+  own correspondence (`jiyax`, `jirang`) and his book supports it **11 dark to
+  0** — the only two `di-` words that stay `di-` are the Japanese loans
+  `didensya` and `diku`. DILAM rides the same finding twice over: `dilas → jiras`
+  is already DARK and carries `d+i→j` AND `l→r` together, which is exactly
+  `dilam → jiram`. None of the six is attested, so none can freeze onto a
+  homograph; none blocks a pair, because all six cards carry zero examples. This
+  is a display ruling about his thematic lists, not a metric one.
+
+**The bracket points the other way from tier X.** The user's rule: modernize the
+species name, and where the dictionary has a DIFFERENT word for the creature,
+note it in brackets. Tier X prints the modern word with HIS in brackets; here his
+word IS the entry — settled by class, not overruled — so the page prints HIS with
+the register's beside it. New `SPECIES_ALT` + `.w-dict`, fired only where
+`noLink === true`, the same cited-as-a-name seam `CITE_SPELL` uses (b202). A
+bracket inside a running sentence would be an interruption, and `klulu` is in two.
+
+  **Only two of the seven earn one, and the test is an EXACT gloss.** `pisuh`
+  細腰蜂 gets none although the register has `bnghur` 土蜂 and `srcing` 虎頭蜂 —
+  those are other insects, and bracketing them would be an identification he
+  never made. The register has no 雉, no 斑鳩, no 荔枝, no 麥 row at all. So:
+  KDIYONG → (`srcing`), KLULU → (`tlulug`), and nothing else.
+
+  `bgiya` looked like a third hornet — the corpus has `dmtmbgiya` 都是專捕虎頭蜂人
+  — but its own headword row is glossed 打緯線. **A sentence-corpus gloss is not
+  the headword's gloss**; `srcing` 虎頭蜂（昆蟲名） is the row that carries the
+  meaning.
+
+**Measured.** 5,429 rendered · **5,315 deliverable (97.90%)** · 114 blocked
+(1-blocker 107, 2-blocker 7). Census: dark 43,897 / 6,003 distinct · class 735 /
+302 · pale 259 / 174 · green 25 / 18 · total 44,916. Pale fell 292 → 259 and its
+distinct count 195 → 174 across the batch. Suites: loose179 16/16, cite179 9/9,
+nav178 28/28, dom171 0 failures / 0 page errors / 1967 cards, plus a new
+13-assertion `sp203dom.py` covering all six species, both brackets, the absence
+of a bracket in klulu's sentences, and classic mode showing neither.

@@ -11,7 +11,6 @@ talan            talan            midcap=4    occ=5
 taolan           taulan           midcap=3    occ=5
 akit             akit             midcap=3    occ=4
 imin             imin             midcap=3    occ=4
-mpa              mpa              midcap=1    occ=4
 otun             utun             midcap=3    occ=4
 atox             atuh             midcap=2    occ=3
 atwi             atwi             midcap=2    occ=3

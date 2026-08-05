@@ -811,6 +811,10 @@
    "modern": "aki",
    "tier": "id"
   },
+  "ako": {
+   "modern": "aku",
+   "tier": "M"
+  },
   "alang": {
    "modern": "alang",
    "tier": "id"
@@ -2001,6 +2005,10 @@
    "modern": "dasan",
    "tier": "id"
   },
+  "dasi": {
+   "modern": "dasi",
+   "tier": "M"
+  },
   "dawi": {
    "modern": "dawi",
    "tier": "id"
@@ -2183,6 +2191,10 @@
   },
   "dii": {
    "modern": "jiyi",
+   "tier": "M"
+  },
+  "dilam": {
+   "modern": "jiram",
    "tier": "M"
   },
   "dilas": {
@@ -2542,7 +2554,7 @@
    "tier": "B"
   },
   "doding": {
-   "modern": "duding",
+   "modern": "doding",
    "tier": "M"
   },
   "dole": {
@@ -2911,6 +2923,10 @@
   },
   "gao": {
    "modern": "gaaw",
+   "tier": "M"
+  },
+  "gaogan": {
+   "modern": "gaugan",
    "tier": "M"
   },
   "gaqat": {
@@ -5583,6 +5599,10 @@
    "modern": "khungul",
    "tier": "B"
   },
+  "kyosi": {
+   "modern": "kiyusi",
+   "tier": "M"
+  },
   "kyoxan": {
    "modern": "kuyuhan",
    "tier": "M"
@@ -7786,6 +7806,10 @@
    "modern": "mimah",
    "tier": "A"
   },
+  "miro": {
+   "modern": "miro",
+   "tier": "M"
+  },
   "misan": {
    "modern": "misan",
    "tier": "id"
@@ -8838,6 +8862,10 @@
   },
   "mp'yax": {
    "modern": "empiyax",
+   "tier": "M"
+  },
+  "mpa": {
+   "modern": "empa",
    "tier": "M"
   },
   "mpa'ima": {
@@ -10534,7 +10562,7 @@
    "tier": "B"
   },
   "natsö": {
-   "modern": "natsu",
+   "modern": "natu",
    "tier": "M"
   },
   "nb'xgai": {
@@ -18767,6 +18795,10 @@
    "modern": "cipiq",
    "tier": "M"
   },
+  "tero": {
+   "modern": "tero",
+   "tier": "M"
+  },
   "teumuk": {
    "modern": "teumuk",
    "tier": "M"
@@ -19732,6 +19764,10 @@
    "modern": "teuqu",
    "tier": "M"
   },
+  "toro": {
+   "modern": "turu",
+   "tier": "M"
+  },
   "toting": {
    "modern": "tucing",
    "tier": "A"
@@ -20657,7 +20693,7 @@
    "tier": "T"
   },
   "xeumi": {
-   "modern": "heumi",
+   "modern": "humi",
    "tier": "M"
   },
   "xeyu": {
@@ -26183,10 +26219,6 @@
    "modern": "hngut",
    "tier": "P"
   },
-  "ako": {
-   "modern": "aku",
-   "tier": "R"
-  },
   "aman": {
    "modern": "aman",
    "tier": "R"
@@ -26273,10 +26305,6 @@
   },
   "daman": {
    "modern": "daman",
-   "tier": "R"
-  },
-  "dasi": {
-   "modern": "dasi",
    "tier": "R"
   },
   "dbalae": {
@@ -26671,10 +26699,6 @@
    "modern": "kyuqan",
    "tier": "R"
   },
-  "kyosi": {
-   "modern": "kyusi",
-   "tier": "R"
-  },
   "lidil": {
    "modern": "rijil",
    "tier": "R"
@@ -26787,10 +26811,6 @@
   },
   "mgxal": {
    "modern": "mgxal",
-   "tier": "R"
-  },
-  "miro": {
-   "modern": "miru",
    "tier": "R"
   },
   "miti": {
@@ -28262,10 +28282,6 @@
    "modern": "tensu",
    "tier": "R"
   },
-  "tero": {
-   "modern": "teru",
-   "tier": "R"
-  },
   "tglgli": {
    "modern": "tgrgri",
    "tier": "R"
@@ -28341,10 +28357,6 @@
   },
   "tnninun": {
    "modern": "tnninun",
-   "tier": "R"
-  },
-  "toro": {
-   "modern": "turu",
    "tier": "R"
   },
   "tosi": {
@@ -29062,10 +29074,6 @@
   },
   "morisaka": {
    "modern": "murisaka",
-   "tier": "N"
-  },
-  "mpa": {
-   "modern": "mpa",
    "tier": "N"
   },
   "nati": {
@@ -31094,13 +31102,6 @@
    []
   ],
   [
-   "dilam",
-   2,
-   [
-    "一種鴿子"
-   ]
-  ],
-  [
    "rouge",
    2,
    []
@@ -31200,13 +31201,6 @@
    "faudrait",
    1,
    []
-  ],
-  [
-   "gaogan",
-   1,
-   [
-    "荔枝"
-   ]
   ],
   [
    "hotte",

@@ -506,6 +506,18 @@ body.spelling-modern .gloss .w-raw { color: var(--truku); }
   opacity: 0.8;
 }
 
+/* The same disclosure pointing the other way (batch 203). On a wild-species card
+   HIS word is the entry — it is settled by class, not overruled — and the modern
+   register's different word for the same creature is the note. So the bracket
+   holds a MODERN word here, and wears the modern colour, where .w-orig holds his
+   and wears green. Same size and weight: both are disclosures, not headwords. */
+.w-dict, body.spelling-modern .w-dict, body.spelling-modern .tag .w-dict {
+  color: var(--accent-deep);
+  font-size: 0.85em;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
 /* vr. vl. var. R. — the editor speaking, not the language. They sit in the middle
    of a Truku line, so they must not wear either word colour: green would claim
    they are Truku we have yet to verify, brown that we have respelled them. Muted

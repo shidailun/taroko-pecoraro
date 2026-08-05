@@ -119,6 +119,24 @@ These were each learned by breaking something. Evidence for every one is in
   citation entry can only REFUSE the map's value, never assert a new one, so a
   wrong seam costs a pale headword and not a dark wrong word. That asymmetry is
   the licence; do not use the hook to assert.
+- **A settled class is a fourth kind of answer**, beside ruled, refused and
+  pending (batch 203). Where a word is pale because the register has no reason to
+  carry it — a wild species, a name, a loan, an onomatopoeion, a bare affix —
+  the fix is to name the class, not to hunt harder. Ask which of the four it is
+  BEFORE pricing a respelling: `klulu` was refused twice as a spelling and is
+  correct as a class.
+- **A multi-letter affix article scores its MODERN prefix** (batch 203). `mpa`
+  scores 0 and `emp` scores 689; the zero is the tier-W schwa showing up as a
+  lookup miss, not evidence against his card. `HAND_AFFIX` names the string to
+  count.
+- **Census per TOKEN, never per headword** (batch 203). A multi-word head like
+  WA"LO 蜜蜂 has no single map key, so a headword-keyed census reported eight
+  already-dark cards as green.
+- **A sentence-corpus gloss is not the headword's gloss** (batch 203). `bgiya`
+  appears in 都是專捕虎頭蜂人 but its own row reads 打緯線; `srcing` is the 虎頭蜂.
+- **Two supporters must be INDEPENDENT, not the same test twice** (batch 203).
+  Closest-string alone proposed a Japanese surname for a given name; his own
+  `(m)`/`(f)` tag checked against the register's 男名/女名 refused nine of fifteen.
 - **Ask the scan before you blame the language** (batch 202). His French `m`
   renders n-like at page resolution. Crop the disputed glyph and a known `n` and
   a known `m` **from the same line** at 6×, and count legs.
@@ -128,7 +146,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 97.84%** (5,312). Not token share. A pair is
+  is dark, over 5,429. **Currently 97.90%** (5,315). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
@@ -162,7 +180,8 @@ These were each learned by breaking something. Evidence for every one is in
   since batch 201 — onomatopoeia (`HAND_ONOM`, read off his own gloss) emit code
   **16** and render `w-mod w-cls`, a deeper brown. The class is
   ADDITIVE — the span keeps `w-mod`, so every harness selecting on `w-mod` still
-  counts it dark. Batch 202 added the fourth, `HAND_SPECIES`: his
+  counts it dark. Batch 202 added the fourth, `HAND_SPECIES`, closed at seven in
+  batch 203: his
   KLULU is 爬牆虎, the Virginia creeper he pressed into service for the grapevine
   the Taroko did not have, and a wordlist of everyday speech will not hold wild
   flora. **Price the seam before opening a class** — 512 single-word headwords on
@@ -219,7 +238,7 @@ NOT loaded at session start, deliberately.
 - `.claude/notes/map-history.md` — the modern-spelling map, batches 14–47: tier
   definitions, the idtrap and mirror sweeps, per-class decisions, generator
   invariants.
-- `.claude/notes/batch-log.md` — batches 136–202: the name register, the pale
+- `.claude/notes/batch-log.md` — batches 136–203: the name register, the pale
   census, per-batch adjudications and their DOM measurements.
 - `.claude/notes/app-behaviour.md` — browse/search index, paradigm slot cards,
   display-time typography, crossref collapse, in full.

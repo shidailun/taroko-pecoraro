@@ -74,7 +74,7 @@ Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
 from inflection import (HAND_LOANS, HAND_NAMES, HAND_NOT_NAMES, HAND_ONOM,
-                        HAND_SPECIES,
+                        HAND_AFFIX, HAND_SPECIES,
                         HAND_RULED, HAND_SPOKEN, Inflection)
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
@@ -355,10 +355,15 @@ def main():
         reach this at all — and the threshold is a guard, so that a single-letter
         override added later cannot inherit the verdict for free.
         """
-        if len(p) != 1 or ov.get(p) != p:
-            return False
-        return sum(1 for w in lex if len(w) > 1 and w[0] == p
-                   and w[1:] in lex) >= AFFIX_MIN
+        # A declared multi-letter affix article scores its own modern prefix;
+        # see HAND_AFFIX in inflection.py for why `mpa` needs `emp` scored.
+        q = HAND_AFFIX.get(p)
+        if q is None:
+            if len(p) != 1 or ov.get(p) != p:
+                return False
+            q = p
+        return sum(1 for w in lex if len(w) > len(q) and w.startswith(q)
+                   and w[len(q):] in lex) >= AFFIX_MIN
 
     def word(p):
         """2 listed, 1 regularly inflected, 0.5 vouched by its own paradigm,

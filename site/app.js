@@ -78,6 +78,41 @@
       ? CITE_SPELL[key] : null;
   }
 
+  // A species name he recorded for which the modern register carries a DIFFERENT
+  // word (batch 203). Not a substitution — his word stands, respelled, because a
+  // wild-species name is settled by class and the register is a dictionary of
+  // everyday speech, not a flora. The bracket is the other half of the same
+  // disclosure tier X makes, pointing the other way: tier X prints the modern
+  // word with HIS in brackets, and this prints HIS with the modern one, because
+  // here it is his word that is the entry and the register's that is the note.
+  //
+  // Only two of the seven species earn a bracket. The test is an EXACT gloss, not
+  // a related one: pisuh 細腰蜂 gets none though the register has bnghur 土蜂 and
+  // srcing 虎頭蜂, because those are other insects and bracketing them would be an
+  // identification he never made. `bgiya` looks like a third hornet in the
+  // sentence corpus but its own headword row is glossed 打緯線, so srcing is the
+  // one that carries the meaning. klulu's bracket is licensed by his own card:
+  // "Les Taroko ne connaissent pas la vigne, donc pas de «Vin»" — he pressed the
+  // creeper into service for the grapevine, and tlulug 葡萄 is the word the
+  // reader who wants the grape needs.
+  //
+  // Keyed on HIS token, and fired only where linkifyTruku is rendering a form as
+  // a NAME (noLink === true) — the same seam CITE_SPELL uses. A bracket in the
+  // middle of a running sentence would be an interruption, and klulu appears in
+  // two of them.
+  var SPECIES_ALT = {
+    "kdiyong": "srcing",
+    "klulu": "tlulug"
+  };
+  var ALT_TITLE = "Modern Truku has its own word for this / 現代太魯閣語另有其詞";
+
+  function speciesAlt(word, cite) {
+    if (!cite || !spellingModern) return null;
+    var key = wordKey(word);
+    return Object.prototype.hasOwnProperty.call(SPECIES_ALT, key)
+      ? SPECIES_ALT[key] : null;
+  }
+
   var WORD_OVERRIDES = {
     "klui": "kluwi", "mklui": "mkluwi", "nklui": "nkluwi", "tklui": "tkluwi",
     "sklui": "skluwi", "msklui": "mskluwi", "psklui": "pskluwi",
@@ -1107,6 +1142,11 @@
       if (spellingModern && !cv && lexicalSub(part)) {
         h += ' <span class="w-orig" title="Pecoraro’s word, no longer used">(' +
           esc(part) + ")</span>";
+      }
+      var alt = speciesAlt(part, noLink === true);
+      if (alt) {
+        h += ' <span class="w-dict" title="' + esc(ALT_TITLE) + '">(' +
+          esc(alt) + ")</span>";
       }
     }
     return h;
@@ -3002,7 +3042,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,891 of the 44,916 words on screen, 6,001 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion, a Japanese loan or a wild species — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, <i>klulu</i> the Virginia creeper he pressed into service for the grapevine the Taroko did not have, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (712 words, 283 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (285 words, 194 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (28 words, 20 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,891 詞次，6,001 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞、日語借詞與野生動植物名，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>、<i>klulu</i> 爬牆虎（太魯閣族原無葡萄藤，他借此詞以譯之），以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（712 詞次，283 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（285 詞次，194 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（28 詞次，20 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
+      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,897 of the 44,916 words on screen, 6,003 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion, a Japanese loan or a wild species — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, <i>klulu</i> the Virginia creeper he pressed into service for the grapevine the Taroko did not have, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (735 words, 302 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (259 words, 174 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (25 words, 18 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,897 詞次，6,003 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞、日語借詞與野生動植物名，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>、<i>klulu</i> 爬牆虎（太魯閣族原無葡萄藤，他借此詞以譯之），以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（735 詞次，302 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（259 詞次，174 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（25 詞次，18 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +
