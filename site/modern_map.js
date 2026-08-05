@@ -6007,7 +6007,7 @@ window.MODERN_MAP = {
 "snuan":"snuwan",
 "snugul":"snegul",
 "snuk":"snuk",
-"snulu":"snulu",
+"snulu":"snulug",
 "snunux":"sneunux",
 "snwakat":"snwaqit",
 "snxal":"snxal",

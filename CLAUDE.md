@@ -103,6 +103,12 @@ These were each learned by breaking something. Evidence for every one is in
   of it** (batch 205). `omnibus_gloss_pairs.json` carries 腳掌 for LAMIL, which
   shares no character with `ramil` 拖鞋 and flagged a freeze. His own entry reads
   腳掌／鞋底－（引申＝）鞋子 and his family is `Mklamil` 穿鞋子. No freeze.
+- **A freeze detector needs an OUTSIDE voice to propose the alternative**
+  (batch 206). Run over the whole book with no pairing file, the gloss test
+  flags 827 of 2,420 dark headwords — synonym pairs, not freezes (`tama` 父親
+  vs 上帝). Adding a shape-search second leg leaves 156, still noise, because
+  both legs are then the same test wearing a hat. `logs/freezesweep.py` keeps
+  the negative result reproducible; don't rebuild it.
 - **Two gloss-verified sources disagreeing is a freeze detector** (batch 205).
   Where the map value's register gloss shares no character with his and a
   second source's value does, the span is dark AND wrong. 29 of 413 flagged;

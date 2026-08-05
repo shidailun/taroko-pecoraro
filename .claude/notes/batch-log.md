@@ -3847,3 +3847,52 @@ alone. `ddima` → `djima` 竹子 was already correct: the reduplication is bamb
 only, and the generator had it.
 
 Census 99.3721%, 1967 cards; 74 assertions green across six suites.
+
+## batch 206 — the freeze sweep generalised, and why it does not work
+
+Batch 205's detector found two real freezes from `omnibus_gloss_pairs.json`. The
+obvious next move is to drop the pairing file and ask the whole book: for every
+headword the map renders DARK, does the register's gloss for that value share a
+character with HIS gloss? `tools/orthography/logs/freezesweep.py` does exactly
+that. **It is not a usable instrument, and this is the record of why.**
+
+2,420 dark single-token headwords tested. **827 flagged** — 34%. Nearly all are
+synonym pairs, not freezes: `kana` his 全部－所有 vs register 大家；各位, `sao` his
+多虧－經由 vs 希望，但願, `tama` his 父親－爸爸 vs 上帝. Two glosses of the same word by
+different hands routinely share no character. (The first run also flagged
+`kingal` 一 vs 一個 because the stop-character list wrongly held the numerals —
+in a dictionary, 一 IS a gloss.)
+
+**Adding a second leg does not rescue it.** For each of the 827, search the
+register by MEANING for a different word within edit-distance 2 whose gloss
+shares ≥2 characters with his: **156 survive**, and they are still noise —
+`yami` → `nami` (the same word), `babwi` 豬 → `baki` 外公, `asi` → `nasi`. The
+reason is a rule already in CLAUDE.md: **two supporters must be INDEPENDENT, not
+the same test twice.** Both legs here are shape-proximity scored by gloss
+overlap. Batch 205 worked because the pairing file was an outside voice
+proposing the alternative; a shape search that proposes its own candidate is the
+first test wearing a hat. Do not rebuild this. The script stays in `logs/` so the
+negative result is reproducible.
+
+**KNK'LA refused**, the best-looking survivor. His 知識的廣度、程度 against the map's
+`knkla` 才能, with `kngkla` 知識 sitting there as an exact-character match. Both
+are real forms off `kla` 知道 and the glosses are near-synonyms; the map's value
+runs 452 in the parquets against 43. Overriding evidence costs more than filling
+a hole, and this is a hole that is already filled.
+
+### One additive fix: the SNULU identity, overturned by its own family
+
+`snulu -> snulu` was a tier-M identity — the verdict "no modern form found",
+reached when it was reached. The rule is that such a verdict may be overturned
+when the family turns up attested, and it has: `msnulu -> msnulug` is already in
+the manual map and dark, and the register glosses `msnulug` 恰好 against his SNULU
+恰好發生－同時存在. A root whose own derived form carries a final -g and which drops
+it is the same internal contradiction a stray char rule makes. Pinned
+`snulu -> snulug` AND `snulug -> snulug`, the batch-199 strip trap; the second is
+inert (it is not one of his tokens) and no `snulugg` appeared.
+
+`gained ['snulug']` / `LOST []` — build_verified found its own warrant off the
+attested family, so the span went dark rather than merely consistent. Card now
+reads SNULUG / Msnulug, both dark.
+
+**99.3721% -> 99.3743%**, pale 259 -> 258, 1967 cards, 74 assertions green.
