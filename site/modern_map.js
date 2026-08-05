@@ -3376,7 +3376,7 @@ window.MODERN_MAP = {
 "nali":"narig",
 "nalong":"narung",
 "nalox":"narux",
-"nalu":"naru",
+"nalu":"malu",
 "nama":"nama",
 "nami":"nami",
 "namo":"namu",

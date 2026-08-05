@@ -3552,3 +3552,63 @@ reason.
 dark 43,884 / 6,001 distinct · class 705 / 282 · pale 299 / 195 · green 28 / 20
 total 44,916 · **brown 99.2720%** · deliverable pairs **5,300 / 5,429 = 97.62%**
 Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0 failures, 0 page errors.
+
+## batch 202 — a spelling that holds only where the form is cited
+
+**The word.** `naru` had been refused three times (b114, b198, b199) and every
+refusal gave the same single reason: *a token-keyed map cannot split them*. His
+`nalu` is two words. Seven sentence tokens across six cards — LBAGAN, LENAX, MXA
+×2, NGANGAX, SXEA, XAYA — are glossed 好 every time (明天會是好天氣, 很好吃,
+更多好話, 那會變好), and the eighth occurrence is his own headword **NALU 代替**
+"tenir la place", which 好 does not mean.
+
+**OCR first.** The user asked whether this was a transcription error rather than
+his orthography — a fair challenge, because on `scans/full/page_194.png` the
+French `m` (*manger*, *maison*, *mettre*, *moelleux*) renders n-like at display
+resolution. Segmented the page into 32 text lines by row-ink profile, located the
+words by column-ink runs, and cropped three 6× strips from the same lines: the
+target, the known `n` of *nlata*, the known `m` of *manger*. The disputed glyph
+is **two-legged and narrow**, matching the `n`; the known `m` is three-legged and
+visibly wider. **He wrote `nalu`.** A real homograph, not a slip.
+
+**Which m-form.** The b199 note called the seven "MALU's n-grade paradigm", which
+would point at `nmalu` — but the register glosses `nmalu` 原本是好的, and all
+seven contexts are present or future statives. `malu` 好 passes the gloss test on
+all seven. His own book decides it the same way `milit`/`nilit` was decided in
+b200: **`malu bi` 73× against `nalu bi` 3×**. `nalu` is his minority spelling of
+`malu`.
+
+**The seam.** Enumerated all 24 `linkifyTruku(` call sites. Every one that
+renders a form as a NAME — headword (2179, 2189), slot head (1855–1872),
+crossref label (2264–2298), word-page title (2040), conc key (1669), gloss
+preview (1650) — passes `noLink=true`; no running-text call passes it at all. So
+`CITE_SPELL` (app.js, above `WORD_OVERRIDES`) is consulted only when
+`noLink === true`, and `citeSpell()` returns non-null only there. `manual_map`
+now carries `nalu → malu`; the citation table hands back `naru`, which is what
+those contexts already displayed, so **his NALU card renders byte-identically to
+before**.
+
+**Why this is safe in the direction it can fail.** A citation entry can only
+REFUSE the map's value for one context; it cannot assert a new one. If the cite
+seam is ever wrong about a context, the cost is a pale headword — never a dark
+wrong word. That asymmetry is what makes a render-path exception affordable at
+all, and it is why the table holds one key rather than a policy.
+
+**Rebuild.** `map changes 1` (`nalu naru → malu`), `gained []`, `LOST []` — the
+manual entry pulled no derived forms with it, which mattered here because
+`gnalu`/`knalu`/`mnalu`/`snalu`/`pnalu` are live on both his MALU and his NALU
+cards and one of them (`Mnalu`) is already known to be two different words
+(inflection.py:544).
+
+**Measured.** 5,429 rendered · **5,307 deliverable (97.75%)**, up from 5,300
+(97.62%) · 122 blocked, down from 129. Census: dark 43,891 / 6,001 distinct ·
+class 705 / 282 · pale 292 / 195 · green 28 / 20 · total 44,916 · brown 99.2876%.
+The pale distinct count does not move: `naru` is still on screen, on the one card
+that means 代替. Suites: loose179 16/16, cite179 9/9, nav178 28/28, dom171 0
+failures / 0 page errors / 1967 cards, plus a new 5-assertion `cite202dom.py`
+that reads both sides of the seam off the DOM.
+
+**Correction to a b198 note.** It priced `naru` at "8 occurrences" as one lever.
+It is 7 + 1, and the 1 is the reason the other 7 could not be taken. Occurrence
+counts hid that; only the gloss did not.
+

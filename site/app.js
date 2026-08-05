@@ -39,6 +39,45 @@
   // some (grammatical imperative-mood "-ui", e.g. GTUI = "gtui" in the modern corpus
   // too) don't change at all, and several forms have no confirmed modern counterpart
   // and are left as-is. See conversation log for the full per-root evidence.
+  // [batch 202] A spelling that holds only where the form is being CITED.
+  //
+  // `nalu` is two words in his book. Seven sentence tokens across six cards
+  // (LBAGAN, LENAX, MXA x2, NGANGAX, SXEA, XAYA) are glossed 好 every time --
+  // 明天會是好天氣, 很好吃, 更多好話 -- and three of them read `nalu bi`, against
+  // his own `malu bi` 73 times. That is his minority spelling of malu, the
+  // nilit/milit shape from batch 200. The eighth is his own headword NALU
+  // 代替 "tenir la place", which malu does not mean.
+  //
+  // Checked against OCR first, because the French `m` on page 194 renders
+  // n-like at scan resolution: at 6x the disputed glyph is two-legged and
+  // narrow like the `n` of "nlata" beside it, not three-legged like the `m` of
+  // "manger" on the same line. He wrote it. It is a real homograph, not a
+  // transcription slip.
+  //
+  // The b114/b198/b199 pin refused this three times for one stated reason --
+  // "a token-keyed map cannot split them". This is that reason removed, and
+  // nothing else: the map now carries nalu -> malu for running text, and this
+  // table hands the citation contexts back the naru they already displayed, so
+  // his NALU card renders exactly as it did before. Not nmalu, whose register
+  // gloss is 原本是好的 -- all seven contexts are present or future statives.
+  //
+  // The direction is the safety. A citation entry can only ever REFUSE the
+  // map's value; it cannot assert a new one. If the cite seam is ever wrong
+  // about a context, the cost is a pale headword, never a dark wrong word.
+  var CITE_SPELL = {
+    "nalu": "naru"
+  };
+
+  // Non-null only where a citation overrides the map. `cite` is set by
+  // linkifyTruku from noLink, which every headword, slot head, crossref label
+  // and word-page title passes as true and no running-text call passes at all.
+  function citeSpell(word, cite) {
+    if (!cite || !spellingModern) return null;
+    var key = wordKey(word);
+    return Object.prototype.hasOwnProperty.call(CITE_SPELL, key)
+      ? CITE_SPELL[key] : null;
+  }
+
   var WORD_OVERRIDES = {
     "klui": "kluwi", "mklui": "mkluwi", "nklui": "nkluwi", "tklui": "tkluwi",
     "sklui": "skluwi", "msklui": "mskluwi", "psklui": "pskluwi",
@@ -1043,7 +1082,9 @@
           '" title="' + esc(abbrTitle(meta)) + '">' + esc(part) + "</span>";
         continue;
       }
-      var cls = spellClass(part);
+      // A form rendered as a NAME may keep a spelling running text does not.
+      var cv = citeSpell(part, noLink === true);
+      var cls = cv ? darkClass(cv) : spellClass(part);
       var linked = !noLink && lookupWord(part);
       // A word with no entry of its own can still be a slot he listed on a °
       // line, and that now has a page too. lookupWord wins: a real entry always
@@ -1062,8 +1103,8 @@
         (linked ? ' data-ref="' + esc(part) + '"'
                 : slot ? ' data-slot="' + slot.n + '"'
                 : wp ? ' data-word="' + wp.n + '"' : "") +
-        ">" + esc(dispTruku(part)) + "</span>";
-      if (spellingModern && lexicalSub(part)) {
+        ">" + esc(cv ? matchCase(part, cv) : dispTruku(part)) + "</span>";
+      if (spellingModern && !cv && lexicalSub(part)) {
         h += ' <span class="w-orig" title="Pecoraro’s word, no longer used">(' +
           esc(part) + ")</span>";
       }
@@ -2961,7 +3002,7 @@
         (shown[l.key] ? " checked" : "") + "><span>" + l.label + "</span></label>";
     });
     h += '<h2 style="margin-top:1.1rem">Spelling · 拼寫法</h2>' +
-      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,884 of the 44,916 words on screen, 6,001 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion or a Japanese loan — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (705 words, 282 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (299 words, 195 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (28 words, 20 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,884 詞次，6,001 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞與日語借詞，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>，以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（705 詞次，282 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（299 詞次，195 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（28 詞次，20 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
+      '<p class="fine">Modern spelling is shown in four colours, so you can see what is known and what is only proposed. <b style="color:var(--accent)">Dark brown</b> = a modern Truku source has this exact word, or the word is a regular inflection of one it does have — the actor, patient and locative focus forms, the causative p-, the referential s-, the preterite -n- and the imperatives, which a word list may simply never have recorded (43,891 of the 44,916 words on screen, 6,001 distinct). <b style="color:var(--accent-deep)">A deeper brown</b> = a word no wordlist can settle either way, because it is a personal name, an onomatopoeion or a Japanese loan — <i>abura</i> 油, <i>budosyu</i> 葡萄酒, the noise <i>paaaq</i> a felled tree makes, and the people and places of a 1977 village. Attestation is not a test these can fail; it is one they cannot sit, so the class settles them and the shade says so (705 words, 282 distinct). <b style="color:var(--accent-weak)">Pale brown</b> = we propose this spelling but no modern source lists the word, nor any root it could be inflected from (292 words, 195 distinct). <b style="color:var(--truku)">Green</b> = unconverted, with only the approximate character rules (o→u, l→r, x→h) applied (28 words, 20 distinct). Attestation is measured against 40,760 word forms from a modern Truku dictionary, word list and sentence corpus. Not proofread; Pecoraro\'s original spelling is authoritative. Search accepts either spelling whichever setting is on. / 現代拼寫以四種顏色顯示，以區別已知與推測。<b style="color:var(--accent)">深棕色</b>＝現代太魯閣語文獻確有此詞，或此詞為文獻所收詞根的規則變化形（主事焦點、受事焦點、處所焦點、使役 p-、關聯 s-、過去 -n- 及命令形；詞表未收某一變化形，不代表該形不存在）（43,891 詞次，6,001 詞）。<b style="color:var(--accent-deep)">更深棕色</b>＝辭書無從判定之詞：人名、擬聲詞與日語借詞，如 <i>abura</i> 油、<i>budosyu</i> 葡萄酒、樹木倒下之聲 <i>paaaq</i>，以及1977年部落的人與地。此類詞非未通過查證，而是無從查證，故依其類別判定，並以此色標示（705 詞次，282 詞）。<b style="color:var(--accent-weak)">淺棕色</b>＝本辭典提出的拼寫，但現代文獻既未收錄此詞，亦無可資變化的詞根（292 詞次，195 詞）。<b style="color:var(--truku)">綠色</b>＝尚未轉換，僅套用近似字母規則（o→u、l→r、x→h）（28 詞次，20 詞）。驗證依據為現代太魯閣語詞典、詞表及語料庫共 40,760 個詞形。未經校對，貝科拉羅原文拼寫為準。無論設定為何，搜尋皆可使用兩種拼寫。</p>' +
       '<label class="lang-option"><input type="radio" name="spelling" value="original"' +
       (spellingModern ? "" : " checked") + "><span>Pecoraro's spelling (1977) / 原文拼寫</span></label>" +
       '<label class="lang-option"><input type="radio" name="spelling" value="modern"' +

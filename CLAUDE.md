@@ -111,13 +111,24 @@ These were each learned by breaking something. Evidence for every one is in
   sweep keyed on shape will cross the two cards. The gained/LOST assertion is what
   catches it — `koyox → quyux` broke the 女人 card and was reverted.
 - **A single gloss row is not the register's answer; the family is** (batch 200).
+- **A refusal that names one blocker dies when that blocker is removed** (batch
+  202). `naru` was refused three times for one reason — "a token-keyed map cannot
+  split them" — and his `nalu` really is two words (好 in seven sentences, 代替 on
+  his own headword). `CITE_SPELL` in `app.js` fires only where `noLink === true`,
+  which is every render of a form as a NAME and no render of running text. A
+  citation entry can only REFUSE the map's value, never assert a new one, so a
+  wrong seam costs a pale headword and not a dark wrong word. That asymmetry is
+  the licence; do not use the hook to assert.
+- **Ask the scan before you blame the language** (batch 202). His French `m`
+  renders n-like at page resolution. Crop the disputed glyph and a known `n` and
+  a known `m` **from the same line** at 6×, and count legs.
   `damat`'s only row reads 恢復原狀, which would have refused `pdmati`; the five
   family members are all 菜餚/配菜 and his card agrees with them.
 
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 97.62%** (5,300). Not token share. A pair is
+  is dark, over 5,429. **Currently 97.75%** (5,307). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
@@ -203,7 +214,7 @@ NOT loaded at session start, deliberately.
 - `.claude/notes/map-history.md` — the modern-spelling map, batches 14–47: tier
   definitions, the idtrap and mirror sweeps, per-class decisions, generator
   invariants.
-- `.claude/notes/batch-log.md` — batches 136–201: the name register, the pale
+- `.claude/notes/batch-log.md` — batches 136–202: the name register, the pale
   census, per-batch adjudications and their DOM measurements.
 - `.claude/notes/app-behaviour.md` — browse/search index, paradigm slot cards,
   display-time typography, crossref collapse, in full.

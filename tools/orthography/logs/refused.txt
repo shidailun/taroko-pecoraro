@@ -488,3 +488,22 @@ dmtsapat	b201  2-blocker tier; pairs only with dmtbasyaq
 dmtbasyaq	b201  2-blocker tier; pairs only with dmtsapat
 grand	b201  NOT a spelling question: French metalinguistic text inside a Truku field (his AN card, Paru = Grand)
 grandeur	b201  same -- Knpraan = Grandeur. The denominator keeps these; they are examples that cannot go dark by evidence
+
+# ---- batch 202: the naru pin, overturned by removing its own stated reason ----
+# OVERTURNED  naru  (b114 / b198 / b199, three times refused)
+#	Every one of those refusals gave ONE reason: "a token-keyed map cannot split
+#	them". His nalu is 好 in seven sentences and 代替 as his own headword. That
+#	reason is now false -- linkifyTruku knows when a form is being CITED (every
+#	headword, slot head, crossref label and word-page title passes noLink=true;
+#	no running-text call does), so CITE_SPELL in app.js hands the citation
+#	contexts back the naru they already displayed while the map carries
+#	nalu -> malu for prose. The NALU card renders exactly as before.
+#	The spelling claim itself: all seven contexts gloss 好, and he writes
+#	`malu bi` 73x against `nalu bi` 3x -- his minority spelling of malu, the
+#	nilit/milit shape from b200. NOT nmalu, whose register gloss is 原本是好的;
+#	all seven are present or future statives (明天會是好天氣, 很好吃, 那會變好).
+#	OCR was ruled out on the scan before any of this: on page 194 the French `m`
+#	renders n-like at display resolution, but at 6x the disputed glyph is
+#	two-legged and narrow like the `n` of "nlata" beside it, not three-legged
+#	like the `m` of "manger" on the same line. He wrote nalu.
+#	+7 deliverable pairs. npnalu (b195) is untouched -- that is the 代替 family.
