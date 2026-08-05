@@ -398,6 +398,30 @@ dmikat nmikat pis ndiyan ddliwis""".split()
 # even though all three emit the same code 16.
 HAND_ONOM = """paaaq""".split()
 
+# SPECIES — the fourth class, and it is the same argument as the other three
+# reached from a different direction (batch 202). His KLULU is 爬牆虎, the
+# Virginia creeper, and he says on the card why it is in the wineskin verses at
+# all: "Les Taroko ne connaissent pas la vigne, donc pas de «Vin»". So the word
+# is not a failed respelling of the register's 葡萄 tlulug -- tlulug is a single
+# unfamilied row meaning grape, and taking it needs k~t AND a final -g, neither
+# of them a char rule. It is a native wild-plant name, from the thematic
+# botanical list he collected on pages 393-395, and the register is a dictionary,
+# a wordlist and a sentence corpus of everyday speech: wild flora is exactly what
+# it has no reason to carry. Attestation is not a test this fails; it is one it
+# cannot sit, and that is the whole of the class.
+#
+# Priced before ruling, the b198 way. Of 512 single-word headwords on those
+# thematic pages only 24 are not already dark, and the species among them are
+# five: KLULU 爬牆虎, TYAQONG 雉雞, PISUX 細腰蜂, KDIYONG 虎頭蜂, Q'MUX 毒麥
+# (plus DILAM 斑鳩 and GAOGAN 荔枝, green). So this is a seam of about seven, not
+# a door onto the dictionary. Only klulu is ruled here -- the rest are named in
+# the batch log and wait their turn, one by one.
+#
+# Kept separate from HAND_ONOM/HAND_LOANS/HAND_NAMES for the reason those are
+# kept separate from each other: calling a creeper a man's name or a Japanese
+# borrowing would be false in the code's own vocabulary. Same code 16.
+HAND_SPECIES = """klulu""".split()
+
 HAND_LOANS = """siba handulu
 suntyu kaisia bakuciku armuni ega""".split()
 

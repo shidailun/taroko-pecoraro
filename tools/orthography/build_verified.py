@@ -74,6 +74,7 @@ Run from tools/orthography/ after build_modern_map.py.
 """
 import io, json, os, re
 from inflection import (HAND_LOANS, HAND_NAMES, HAND_NOT_NAMES, HAND_ONOM,
+                        HAND_SPECIES,
                         HAND_RULED, HAND_SPOKEN, Inflection)
 
 H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
@@ -313,7 +314,19 @@ def main():
               % len(onom_vals))
     seen |= onom_vals
 
-    class_only = (named_vals | loaned_vals | onom_vals) - seen_before_class
+    # SPECIES — the fourth class. No population file, for the same reason
+    # onomatopoeia has none: his tagger never had a tier for wild flora and
+    # fauna, so the verdict is read off the gloss he wrote and can only live in
+    # code. A wordlist of everyday speech will not hold 爬牆虎 any more than it
+    # will hold a rain sound. Same code 16.
+    spec_vals = {v.strip().lower() for v in
+                 ({mp.get(t) for t in HAND_SPECIES} | {ov.get(t) for t in HAND_SPECIES}
+                  | set(HAND_SPECIES)) if v}
+    if HAND_SPECIES:
+        print("species: %d values, all hand-read from his own gloss" % len(spec_vals))
+    seen |= spec_vals
+
+    class_only = (named_vals | loaned_vals | onom_vals | spec_vals) - seen_before_class
 
     # Every value a brown span can display. CLITIC_FORMS hands the word back
     # unchanged, so there the key IS the value.

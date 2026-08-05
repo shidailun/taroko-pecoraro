@@ -128,7 +128,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 97.75%** (5,307). Not token share. A pair is
+  is dark, over 5,429. **Currently 97.84%** (5,312). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
@@ -162,7 +162,12 @@ These were each learned by breaking something. Evidence for every one is in
   since batch 201 — onomatopoeia (`HAND_ONOM`, read off his own gloss) emit code
   **16** and render `w-mod w-cls`, a deeper brown. The class is
   ADDITIVE — the span keeps `w-mod`, so every harness selecting on `w-mod` still
-  counts it dark. Emitting them as code 1 said *a source lists this*, and none
+  counts it dark. Batch 202 added the fourth, `HAND_SPECIES`: his
+  KLULU is 爬牆虎, the Virginia creeper he pressed into service for the grapevine
+  the Taroko did not have, and a wordlist of everyday speech will not hold wild
+  flora. **Price the seam before opening a class** — 512 single-word headwords on
+  his thematic lists, only 24 not dark, of which five are species. A class, not a
+  door. Emitting them as code 1 said *a source lists this*, and none
   does.
 
 - **A hand-ruled name goes in `HAND_NAMES`** (`inflection.py`), never in
