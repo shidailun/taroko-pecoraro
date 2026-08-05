@@ -4060,3 +4060,82 @@ twice under a heading that means something else is how a real hit gets buried.
 
 A detector that cries wolf is worse than no detector. Get it to zero on a corpus
 you have already proven clean, or it will never be believed on the one you have not.
+
+---
+
+## batch 208 — the apparatus is not the sentence, and two legs are not three
+
+Batch 207's residue check asked a new question of the export: after removing what
+the page marks as apparatus, is every remaining word a coloured span? It was not,
+and the answer came in three parts.
+
+### The export was shipping apparatus as Truku
+
+`mt_deliverable.tsv` is the file to train from, and its Truku column was the
+rendered `.truku` textContent — which includes everything the page shows beside
+the sentence. `Mapa brunguy (porter la hotte)` went out as a Truku sentence with
+three French words in it. So did `Ga smbu tasil (et plus rarement: Ga smbu
+btunux) ka laqi nii.`, and every `(vl. …)` variant, and every `.w-orig` span —
+the superseded word the app prints beside its modern replacement, `lumak
+(tbako)`, seven times over.
+
+**None of it was ever invisible to the app; it was invisible to the harvester.**
+The DOM already carries the distinction: `.meta-abbr` for his editorial notes and
+French asides, `.w-orig` for the superseded word. The colour metric is right to
+ignore them — they are not Truku claims — and the export was wrong to keep them.
+
+`truku_train` is now a separate field: the rendered string minus `.meta-abbr` and
+`.w-orig`, minus the bracketed variant those markers introduced. The gloss is
+what settles the last step — the French and English translate the sentence
+*without* the bracket every time, so shipping it made the source say something
+the target did not. 418 of the 5,315 deliverable rows differ from
+`truku_modern`. His record is untouched; only the string offered for training.
+
+The residue check now reads **0 tokens in 0 rows**, and it took two corrections
+to get there honestly. It has to compare word PIECES, because a span and a word
+are not the same unit in either direction — one span can hold two words (`Mpaso`
+renders `Empaa su`) and one hyphenated word can hold two spans (`Empa-laqi`);
+comparing them whole cried wolf on thirteen already-coloured rows. And the token
+query had to be scoped to `.truku`: unscoped it counted 700 gloss spans across
+256 rows as sentence tokens, so a pale name in the FRENCH could block a row whose
+Truku was entirely dark.
+
+### Two unbalanced brackets, and only one of them ours
+
+The strip left exactly two deliverable rows with a bracket that never closes.
+Both went to the scan.
+
+**RIKIT is ours.** The book reads `( Ksao nlikit nksa = Simule (pour tromper) un
+membre estropié pour marcher).` — one bracket around the whole gloss line, Truku
+and French together. Splitting the line into `t` and `fr` fields cut the bracket
+in half and left an orphan on each side. Balanced both: `(Ksao nlikit nksa)` and
+`(Simule … pour marcher).` Nothing added that he did not write; the bracket he
+wrote now closes in the field it opens in.
+
+**LHLAH is his.** `… mo ln'xlax (vl; Knxoai ida mo l'xlaxon (lxlaxon). = Ne jette
+pas ta ficelle …` — he opens `(vl;` and never closes it, on a page where the
+parallel card two entries earlier closes the same construction properly
+(`(vl. nii ka sadyaq snlxkaxan namo mita (?))`). Left as found and reported by
+name, which is what the export now does for this class.
+
+### `lm'xlax` was `ln'xlax`
+
+Reading that line for the bracket found a letter wrong. The sub-form is headed
+`Ln'xlax`, its paradigm line reads `°Ln'xlax, l'xlax, lxlaxe, lxlaxan,
+lxlaxon.`, and the example under it was transcribed `mo lm'xlax`. Cropped at 3×
+with `mo` in the same line for comparison: the `m` of `mo` has three legs, the
+letter in question has two. It is `ln'xlax`.
+
+**The wrong reading was the DARK one.** `lm'xlax` char-rules to `lmhlah`, which
+the register lists (code 1) — an attested modern word, correctly spelled, wrong
+sentence. This is the homograph-freeze shape arriving through a transcription
+slip rather than through the map, and no colour metric could see it: the span was
+already dark.
+
+The fix does not cost the colour. `gained ['lnhlah']` — code 2, a regular
+inflection of a root the register lists, glossed as he glosses it. `ln'xlax ->
+lnhlah` entered the map on the same build. One dark-and-wrong span became one
+dark-and-right one.
+
+**Metric unmoved at 97.9002%**, 5,436 examples, denominator 5,429. Three record
+fixes and one export fix, no spelling claims.

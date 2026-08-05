@@ -212,6 +212,24 @@ These were each learned by breaking something. Evidence for every one is in
   way. Check the exclusion COUNT against the rule that predicts it. The orphan
   row was not inert: **a French `t` field is a Truku field to the generator**, and
   the census had mapped his page-break marker's *page* to `pagi` (tier R).
+- **A transcription slip can land on an attested word** (batch 208). His
+  `ln'xlax` was read as `lm'xlax`, which char-rules to `lmhlah` — a word the
+  register lists. Dark, correctly spelled, wrong sentence: the homograph-freeze
+  shape arriving through the scan instead of through the map, and invisible to
+  every colour metric because the span was already dark. Crop the glyph with a
+  known `m` **from the same line** at 3× and count legs. The correct reading cost
+  nothing — `lnhlah` came back code 2 off the same root.
+- **The apparatus is not the sentence** (batch 208). The page marks his editorial
+  notes `.meta-abbr` and the superseded word `.w-orig`; the colour metric ignores
+  both, correctly, because neither is a Truku claim. Anything harvesting
+  `.truku` textContent ships them as Truku — `Mapa brunguy (porter la hotte)`
+  went out as a training pair. Scope span queries to `.truku` too: unscoped they
+  count 700 gloss spans in 256 rows, so a pale name in the FRENCH blocks a row
+  whose Truku is entirely dark.
+- **A span and a word are not the same unit, in either direction** (batch 208).
+  One span can hold two words (`Mpaso` renders `Empaa su`), one hyphenated word
+  can hold two spans (`Empa-laqi`). Any check comparing rendered text against the
+  token list has to break both sides into pieces first.
 - **The gained/LOST check must match the file's own indentation** (batch 207).
   `verified.js` writes keys with two leading spaces, `modern_map.js` with none —
   so `^  "(.+?)":` over the map reports every change as no change. It reported a
