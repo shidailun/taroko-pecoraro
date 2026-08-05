@@ -269,6 +269,39 @@ These were each learned by breaking something. Evidence for every one is in
   the rule strips the final consonant, finds the manual value, re-appends. Pin
   both shapes. The gained/LOST check is what catches it.
 
+## Audio
+
+Clips are TTS (F5-TTS v5, White Dog / Huling Bhgay narrator) on Cloudflare R2 at
+`R2_BASE + id + ".mp3"`, played only in modern spelling — his 1977 orthography
+gets no button, because offering one would put a pronunciation in his mouth that
+his page does not spell.
+
+- **Build the item list from the DOM**: `python tools/build_tts_items.py`
+  (`--write` to emit). The old `ilrdf/build_full_items.py` was a second
+  implementation of `modernize()` and drifted several batches behind the app
+  before dying on `modern_map.js`'s second object. Don't revive it.
+- **His own spelling is the join key.** The page reorders sub-forms within a
+  root, so position cannot pair the render against `entries.js`, and the nodes
+  carry no id. Rendered with the toggle off and normalised to letters, every unit
+  keys back 10,350 for 10,350.
+- **An id is a URL.** A re-minted id silently unhooks a clip already recorded and
+  paid for, so nothing is written unless all 5,134 already-attached ids mint back
+  identically. Assert that before writing, never after.
+- **Compare words, not typography.** `items.json` predates `tidy()`; a raw-string
+  diff calls 4,964 of 5,134 clips stale when the true figure is 3,061, because
+  `da` vs `da.` scores 275 times on its own.
+- **A resumable run cannot see a rewording** — the wav is on disk, it just says
+  the wrong word. `full_sentences_synth.py` reads `tts_full/worklist.json`.
+- **A wav on disk is not evidence that synthesis worked.** `verify_voice.py`
+  re-voices sentences whose wording has NOT changed and compares duration and
+  level against the take already in hand.
+- **Smart App Control is enforced on this machine** and blocks numba's DLLs
+  wherever they sit. It reaches the pipeline through one line —
+  `librosa/filters.py` wants `jit` as a decorator, not as a compiler — so
+  `ilrdf/numba_stub.py` stands in, guarded, and the real numba wins if it loads.
+- **Bump `AUDIO_VER` in `app.js`** whenever clips change under existing keys;
+  they are cached `immutable` for a year.
+
 ## Testing and measurement
 
 - **Run the suite with `python tools/orthography/suite.py`** (site served at

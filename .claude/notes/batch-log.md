@@ -4222,3 +4222,90 @@ at a time, ~4 minutes. `python tools/orthography/suite.py dom16` filters.
 
 **No dictionary data changed in this batch.** Metric unmoved at 97.9002%, 5,315
 of 5,429.
+
+## batch 210 — the audio was three-fifths stale, and the builder that measured it
+
+The user's ask: *"we haven't redeployed and won't until we're in a better
+position. i want to redo the audio for instance."* So: how stale is it, and what
+does redoing it cost?
+
+**The first stage of the audio pipeline was dead.** `ilrdf/build_full_items.py`
+mints the item list that `full_sentences_synth.py` voices. It built that list by
+porting `modernize()`, `WORD_OVERRIDES` and `MODERN_MAP` into Python — a second
+implementation of what `app.js` already does — and it had stopped running at all:
+it takes the first `{` to the last `}` of `modern_map.js`, and that file has held
+a second object, `window.LEXICAL_SUBS`, since tier X. `JSONDecodeError: Extra
+data: line 7374`. It had also drifted several batches behind the app: no clitic
+joins, no `tidy()`, no `.w-orig`/`.meta-abbr` stripping, no batch 207.
+
+**A raw-string comparison measures typography, not words.** The first drift
+figure was 4,964 of 5,134 "changed", which is nearly everything and therefore
+nearly useless. `items.json` predates `tidy()`, so a comma or a final stop scored
+as a rewording — `da` vs `da.` alone, 275 times. Comparing WORD PIECES
+(`[^\W\d_]+`, hyphens split, case folded) gives the real figure. A clip is stale
+when the voice would say a different word, not when the page moved a period.
+
+**The page reorders sub-forms, so position cannot pair the two walks.** The
+consistent-order-within-every-root rule means `entries.js` order is not render
+order, and the nodes carry no id — `article.entry`, `.subentry`, `.sub-form`,
+`.example` all render with `class` and nothing else. First attempt was one unit
+out of step, then 1,436 units out of kind.
+
+**What pairs them is HIS OWN SPELLING.** Rendered with the toggle off, every unit
+is his text again; normalised to letters and digits it keys back into
+`entries.js` **10,350 for 10,350, nothing left over**. So `tools/build_tts_items.py`
+reads the page twice — once in original mode for identity, once in modern mode
+for what the voice should say. 313 keys are not unique, all inside one card and
+rendering identically both times, so the two ids are interchangeable and are
+handed out in file order to keep the run reproducible.
+
+**The counts land on the project's own figures**, which is the check that the
+walk is real: 1,967 cards, 2,948 sub-forms, **5,429 examples** — the metric
+denominator exactly — the six metalinguistic rows dropped, and one blank row.
+That blank is batch 207's: his § followed straight by French, kept in
+`entries.js` as the faithful record, which `add()` has always skipped. It is
+counted and named rather than papered over, because a *second* blank row would
+be news.
+
+**The assertion that licenses writing anything: the id rule has not moved.** A
+clip lives at `R2_BASE + id + ".mp3"`, so a re-minted id silently unhooks audio
+already recorded and already paid for. All **5,134** ids the page carries in
+`data-audio` mint back identically, or nothing is written.
+
+The verdict: **2,101 clips still word-for-word correct, 3,061 reading a word the
+page no longer shows, 267 examples never voiced. 3,328 of 5,429 need a voice
+(61.3%).** Top substitutions behind it: `u>o` 437, `daxa>dha` 240, `pax>paah` 89,
+`lu>elug` 78, `k'la>kla` 55, `suxal>seuxal` 49, `mnsa>mnusa` 48, `mnalux>mnarux`
+44, `d'xgal>dxgal` 41.
+
+**A resumable script cannot see a rewording.** `full_sentences_synth.py` resumes
+by "skip any wav on disk" — and for a reworded sentence the file is there, it
+just says the wrong word. The first run's wavs are gone besides (encoded to MP3
+on the HPC, wavs not kept), so without a worklist it would voice all 5,429 to fix
+3,328. It now reads `tts_full/worklist.json` when one is present.
+
+**Smart App Control, and the one line it reaches through.** The local `f5_env`
+stopped importing on 2026-07-21 and still does not:
+`VerifiedAndReputablePolicyState` is **1**, so the policy is ENFORCED and blocks
+numba's unsigned `_dispatcher`/`_dynfunc` *wherever they sit* — moving or
+reinstalling the 8.3 GB env cannot help, and the HPC was the other route (its
+proxy pings but the SSH banner times out). But the block reaches this pipeline
+through exactly one line: `librosa/filters.py` opens with `from numba import
+jit`, and vocos wants `librosa.filters.mel`. Torch, llvmlite, soundfile and
+librosa itself all load. **What is wanted there is the decorator, not the
+compiler** — the functions it wraps are ordinary NumPy in numba's Python subset,
+and the mel filterbank is built once per run. `numba_stub.py` supplies
+pass-through decorators and installs itself only if the real numba refuses, so
+the genuine article wins the moment the policy lifts.
+
+**A wav on disk is not evidence that synthesis worked.** `verify_voice.py`
+re-voices sentences whose wording has NOT changed and puts each beside the take
+already in hand — same words, same model, same reference clip. 43 chars, 4.95s →
+5.53s, rms 0.026 → 0.032. Same speech rate, same level; a filterbank quietly
+broken by the stub would have shown here.
+
+Local libsndfile is 1.2.2, which writes MP3 natively, so `encode_mp3_local.py`
+replaces the HPC round trip too. Run rate 3.76 s/clip, ETA ~3.5 h for 3,328.
+
+**No dictionary data changed in this batch.** Metric unmoved at 97.9002%, 5,315
+of 5,429.
