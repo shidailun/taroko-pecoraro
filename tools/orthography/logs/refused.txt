@@ -507,3 +507,20 @@ grandeur	b201  same -- Knpraan = Grandeur. The denominator keeps these; they are
 #	two-legged and narrow like the `n` of "nlata" beside it, not three-legged
 #	like the `m` of "manger" on the same line. He wrote nalu.
 #	+7 deliverable pairs. npnalu (b195) is untouched -- that is the 代替 family.
+klulu	b202  5 pairs, the biggest sole blocker on the board; refused a second time, on
+#	his own card rather than on the register's. He glosses KLULU 爬牆虎／野葡萄藤,
+#	Virginia creeper, and says why it is in the Bible verses at all: "Les Taroko ne
+#	connaissent pas la vigne, donc pas de «Vin»". So the meaning to search from is
+#	the CREEPER, not 葡萄 -- and the register has no 爬牆虎 at all. Everything it
+#	holds for a vine is a different plant: qwarux 黃藤, wahir 藤蔓, qamir 蔓草,
+#	bhkaw 藤之內莖部, macyaqung 容易折斷的藤.
+#	The b199 candidate tlulug 葡萄 is a SINGLE register row with no family — no
+#	tlulug-anything else exists — and b200 settled that a single gloss row is not
+#	the register's answer. Taking it would need TWO unexplained changes (k~t, and a
+#	final -g), and k~t is not one of the three char rules.
+#	Scan checked before ruling, the b202 way: page 395, his fruit list, between
+#	QLOPAS Pêche and GAOGAN Litchi — an unmistakable capital K. He wrote KLULU.
+#	KEEP the identity pin `klulu -> klulu`. It is not a no-op: without it charRules
+#	fires l→r twice and puts `kruru` on screen. Pale is the honest state here — a
+#	native wild-plant name a modern wordlist has no reason to carry.
+#	(Page 393 incidentally re-confirms b200: MILIT = Chevreuil, his own thematic list.)
