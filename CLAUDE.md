@@ -5,7 +5,7 @@ Digitization of Ferdinando Pecoraro MEP's *Essai de dictionnaire taroko-françai
 Traditional Chinese (translated from the French, draft pending native review).
 
 - Live: https://pecoraro-taroko.netlify.app (Netlify project `pecoraro-taroko`, site_id `d6e80a1c-405b-4bf9-8977-3630174261c6`)
-- All 398 pages digitized: 1,967 root entries, 2,948 sub-forms, 5,437 examples.
+- All 398 pages digitized: 1,967 root entries, 2,948 sub-forms, 5,436 examples.
 
 ## Layout
 
@@ -199,6 +199,23 @@ These were each learned by breaking something. Evidence for every one is in
   counted DELIVERABLE**: French sentences scoring as Truku pairs. The test is
   `t == fr` modulo punctuation — it finds exactly six, no near misses, because no
   real sentence equals its own translation. Denominator 5,435 → **5,429**.
+- **A zero-span row is a transcription question, not just an exclusion** (batch
+  207). The exclusion list ran to eight, not the six `t == fr` rows — and reading
+  the other two found one real defect. His PARU example `Ini kparo ka muxeng na!`
+  had `fr = "Son…"` because the French runs over the page break, and page 214's
+  leadin carried `…nez n'est pas grand.` as a row of its own with
+  `t = "… (suite de la page précédente)"` where the Truku should be. One sentence
+  filed as two. The other, `Mluxai § Est ce qu'il en aurait pris l'habitude`, is
+  **his** omission — the scan at 1.8× shows the § followed directly by French, so
+  the empty `t` is the faithful record and stays. Examples 5,437 → **5,436**;
+  denominator unchanged at 5,429, because a French `t` renders no spans either
+  way. Check the exclusion COUNT against the rule that predicts it. The orphan
+  row was not inert: **a French `t` field is a Truku field to the generator**, and
+  the census had mapped his page-break marker's *page* to `pagi` (tier R).
+- **The gained/LOST check must match the file's own indentation** (batch 207).
+  `verified.js` writes keys with two leading spaces, `modern_map.js` with none —
+  so `^  "(.+?)":` over the map reports every change as no change. It reported a
+  clean diff while the map had lost an entry.
 - **A homograph freeze paints dark AND wrong** — a raw token mapped onto a
   same-shaped modern word with an unrelated gloss. Batch 201 found **seven**,
   including his KOYOç 雨 head frozen onto `kuyuh` 女人. They are invisible to every

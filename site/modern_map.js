@@ -3720,7 +3720,6 @@ window.MODERN_MAP = {
 "padao":"padaw",
 "padyaq":"pajiq",
 "paga":"paga",
-"page":"pagi",
 "pai":"payi",
 "paidang":"paidang",
 "paipu":"paipu",

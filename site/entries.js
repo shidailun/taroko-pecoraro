@@ -40007,17 +40007,10 @@ window.ENTRIES = [
           },
           {
             "t": "Ini kparo ka muxeng na!",
-            "fr": "Son…",
-            "en": "His…",
-            "zh": "他的……",
+            "fr": "Son nez n'est pas grand.",
+            "en": "His nose is not big.",
+            "zh": "他的鼻子不大。",
             "a": "ex_ini_kparo_ka_muxeng_na"
-          },
-          {
-            "t": "… (suite de la page précédente)",
-            "fr": "…nez n'est pas grand.",
-            "en": "…nose is not big.",
-            "zh": "……鼻子不大。",
-            "a": "ex_suite_de_la_page_pr_c_dente"
           },
           {
             "t": "Mkparo bi blax ssadyaq ka laqe so, ini kparo ka nako",

@@ -3896,3 +3896,83 @@ attested family, so the span went dark rather than merely consistent. Card now
 reads SNULUG / Msnulug, both dark.
 
 **99.3721% -> 99.3743%**, pale 259 -> 258, 1967 cards, 74 assertions green.
+
+---
+
+## batch 207 — the exclusion count as a diagnostic; one sentence filed as two
+
+The MT export excludes rows that render no Truku span, because a pair the metric
+cannot see is not a pair. CLAUDE.md predicts **six** such rows — the AN (3) card
+demonstrations where his `t` repeats his `fr` verbatim. The regenerated export
+reported **eight**. A rule that predicts a count and misses it by two is either
+wrong or looking at something real, so the two extras were read rather than
+absorbed into the exclusion list.
+
+Both are genuine, and they are different kinds of thing.
+
+### PARU — ours. A page break split one sentence into two rows.
+
+`data/batch_210_213.json`, PARO / sub `Kparo`, last example:
+
+    t  = "Ini kparo ka muxeng na!"
+    fr = "Son…"
+
+`data/batch_214_217.json`, `leadin.examples[0]`:
+
+    t  = "… (suite de la page précédente)"
+    fr = "…nez n'est pas grand."
+
+`muxeng` is nose; `Son` + `nez n'est pas grand` is one French clause. The scan
+settles it without inference. Page 213 ends `… § Ini kparo ka muxeng na! = Son`
+and page 214 opens `nez n'est pas grand. § Mkparo bi blax …` — the Truku is
+complete on 213 and only the gloss runs over. The second leadin row is a real §
+and stays; `merge_leadin()` appends leadin examples to `subs[-1]`, which is
+`Kparo`, so it was already landing on the right card.
+
+Merged the gloss halves into the page-213 example (fr/en/zh) and deleted the
+orphan row. `Ini kparo ka muxeng na!` now reads `Son nez n'est pas grand. / His
+nose is not big. / 他的鼻子不大。` and the fragment is gone from the DOM.
+
+**Examples 5,437 → 5,436. Denominator unchanged at 5,429** — a `t` holding French
+renders no spans either way, so the orphan was never in it. Metric unmoved at
+**97.9002%**, which is the correct outcome: this was a record fix, not a colour
+fix.
+
+But it was not inert. **A French `t` field is a Truku field to the generator**,
+and the census had swallowed the page-break marker whole: `modern_map.json` held
+
+    "page": { "modern": "pagi", "tier": "R" }
+
+— the French word *page*, projected onto a Truku spelling, and `suite` and
+`précédente` sat in the unmapped list beside it. `de` and `la` had their counts
+inflated by one each (7→6, 5→4 after the fix). One bad row put one wrong word in
+the map. Nothing downstream had fired on it, because nothing else in the book
+spells `page`, but it is a reminder that the census cannot tell a language from a
+language — it reads the `t` field and believes it.
+
+Method note, because it cost a wrong sentence in this log before it was caught:
+**the gained/LOST check must match the file's own indentation.** `verified.js`
+writes keys with two leading spaces and `modern_map.js` writes them with none, so
+the standard `^  "(.+?)":` pattern reports every map change as no change. It said
+`gained [] / LOST []` and the map had lost an entry.
+
+### LUHAY — his. Not a defect.
+
+`Mluxai` (p. 160 of the book, scan page 181) carries an example with an empty
+`t`: only `Est ce qu'il en aurait pris l'habitude, ce fou ?` survived. The
+instinct was to recover the missing Truku from the scan. Cropped the line at
+1.8× and the § is followed **directly** by French — Pecoraro wrote the gloss and
+no sentence. The empty `t` is the faithful record and stays. The exclusion is
+correct; there is nothing to recover.
+
+Ask the scan before you blame the transcription, the same way you ask it before
+you blame the language.
+
+### Housekeeping
+
+- `tools/mt_export.py`: `HARVEST` made a raw string (the `\s` in its JS was
+  emitting a SyntaxWarning on every run).
+- `exports/README.md` rewritten. It was 29 batches stale — 4,955 deliverable,
+  5,437 sentences, 4,674 types, a "487 blocked, 462 by a single type" paragraph,
+  and a path to a generator that no longer exists. Now 5,315 / 5,429 / 4,654, and
+  it names the seven excluded rows and why.
