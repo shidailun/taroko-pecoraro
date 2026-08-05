@@ -71,6 +71,20 @@ These were each learned by breaking something. Evidence for every one is in
 - **A label is not an argument**, and **a cognate explains a word but never spells
   one**.
 - **A wrong-looking gloss is a question, not a verdict** — the paradigm answers it.
+- **An attestation test over pale words is circular** (batch 204). Pale MEANS not
+  in `attested_modern`, so re-asking it returns 0 of 37 across the top seven
+  cards. The only non-circular question is the meaning test: does a DIFFERENT,
+  attested word spell his? For RNGUT 懷孕 it is `mshjil` and for SNOXEL 嫉妒 it is
+  `hkrig` — different roots, so there is no respelling to find and the pallor is
+  correct.
+- **A lexeme modern Truku replaced is NOT a settled class** (batch 204). The four
+  classes share one property: attestation is a test they cannot SIT. An obsolete
+  verb can sit it and fails it. Naming a fifth class there is the bulk clearance
+  already priced and rejected twice.
+- **A modern homophone is not a freeze** (batch 204). `sgsapat` 姦淫 (2× parquet,
+  1× Bible) acquits his SAPAT 放蕩 head, which the register also lists as 舖床:
+  both roots are real. But the acquitted head still cannot license its family,
+  because it is dark on the OTHER one.
 - **Two independent supporters must agree**; unanimity over one item is not
   unanimity.
 - **A pin comes down when evidence overturns it, not when the rule tires**, and a
@@ -238,7 +252,7 @@ NOT loaded at session start, deliberately.
 - `.claude/notes/map-history.md` — the modern-spelling map, batches 14–47: tier
   definitions, the idtrap and mirror sweeps, per-class decisions, generator
   invariants.
-- `.claude/notes/batch-log.md` — batches 136–203: the name register, the pale
+- `.claude/notes/batch-log.md` — batches 136–204: the name register, the pale
   census, per-batch adjudications and their DOM measurements.
 - `.claude/notes/app-behaviour.md` — browse/search index, paradigm slot cards,
   display-time typography, crossref collapse, in full.

@@ -1962,6 +1962,27 @@ HAND_SPOKEN = """nta""".split()
 # The diacritic is the whole distinction; plain() strips it downstream, which is why a
 # sweep keyed on shape crosses two cards. Assert gained/LOST on every sweep — it is the
 # only thing that caught this.
+# rndah (batch 203) is the one word the ILRDF e-dictionary settled, and it is
+# here rather than in a new tier because a tier of one is a list of one. The
+# comment at self.edg says of that source "there is nothing here to widen it
+# WITH" -- true when written, because every pale word came back a miss. A hundred
+# more were asked this batch and 99 came back 無搜尋結果 again; `rndah` did not:
+# freq 4, glossed 更加的；反而更. A refusal that names one blocker dies when that
+# blocker is removed, and the blocker named there was the emptiness of the answer.
+#
+# Three supporters, two of them independent of each other:
+#   - the e-dictionary headword itself, a published source with its own corpus;
+#   - the register's gloss of `rinah`, which reads 反而更（與rndah 同義） -- it
+#     names rndah by name as the synonym, so the wordlist knows the word even
+#     though it has no row of its own for it;
+#   - his own book. His LENAX card is 更加/變本加厲 and already renders DARK as
+#     `rinah`, and it carries the cross-reference "VR. LN'DAX" in his own hand.
+#     L'NDAX (LNDAX) is the card that renders rndah.
+# The gloss test passes on all three readings: 更加 = 更加的 = 反而更.
+#
+# Still a HIT-only argument. A miss in that cache proves nothing -- `tksaw` and
+# `gmquwaq` come back empty with their roots there in full -- so this list may
+# only ever grow from the answers, never from the silences.
 HAND_RULED = """treura msthulang dtanah empkmalux
                 smhngi snsikan dtduling mtru
                 pnkltudan kmpspusu sshgan ndmpatas
@@ -1988,6 +2009,7 @@ snpusal smpusal spusal spusalan spusali spusalun drci qluhan kmbuyu qdakan psili
 skarabi snpsalan snpsalun npghiyi empaamalu npaamalu
 csgsutun knsdraan nay pdmati
 mtkkrang npaamanu npalaqi kkslabang tslbangi rrulung qqrang
+rndah
 bbuway mqqrang qmilaw wwahir spsdharun rrungay syukay mnkpitu
 gnaliq empkduriq sneuwit nbliqan knnlaan
 gneuwit kkrut

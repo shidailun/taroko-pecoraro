@@ -52,6 +52,7 @@
 },
 "ayuq": null,
 "bakuciku": null,
+"basyaq": null,
 "bboai": null,
 "beyway": {
 "freq": 0,
@@ -69,6 +70,7 @@
 "name": "bgu",
 "note": "詞意：qsiya pnehapuy damat湯\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"bil": null,
 "bili": {
 "freq": 7,
 "glosses": [
@@ -163,6 +165,7 @@
 "name": "brnux",
 "note": ""
 },
+"bsekan": null,
 "bskanun": null,
 "bsqani": null,
 "bsqrul": null,
@@ -177,6 +180,7 @@
 "btlukan": null,
 "btlukun": null,
 "btudun": null,
+"burung": null,
 "bus": {
 "freq": 0,
 "glosses": [
@@ -222,6 +226,7 @@
 "ciyus": null,
 "ciyusun": null,
 "csgsutun": null,
+"curuphun": null,
 "dahu": {
 "freq": 101,
 "glosses": [
@@ -241,6 +246,7 @@
 "note": "詞意：hangan spriq angl dahung吸血草\r\n詞意：spruwan ni tnkuran dara mtmumul ruwan瘀血"
 },
 "daman": null,
+"damu": null,
 "danga": {
 "freq": 5,
 "glosses": [
@@ -261,6 +267,7 @@
 },
 "dbiyang": null,
 "dbsnawan": null,
+"dd": null,
 "ddcristu": null,
 "ddjil": null,
 "ddjilun": null,
@@ -314,6 +321,8 @@
 "dmngus": null,
 "dmpatas": null,
 "dmrut": null,
+"dmtbasyaq": null,
+"dmtsapat": null,
 "dmurisaka": null,
 "dngus": null,
 "dngusa": {
@@ -367,6 +376,7 @@
 "dtanah": null,
 "dtduling": null,
 "dtumi": null,
+"dubut": null,
 "dungus": {
 "freq": 31,
 "glosses": [
@@ -378,6 +388,7 @@
 "name": "dungus",
 "note": "詞意：pneglngug協調、安心、賜予、不能被人加於…、期望、愛慕、目標、適合、專心\r\n詞意：bais夫妻、伴侶"
 },
+"dux": null,
 "ega": null,
 "embbeyway": {
 "freq": 1,
@@ -398,6 +409,7 @@
 "embbuway": null,
 "embqru": null,
 "embuyan": null,
+"emp": null,
 "empaamalu": null,
 "empabgu": null,
 "emphlakuh": null,
@@ -410,6 +422,8 @@
 "empnhmadan": null,
 "empnmu": null,
 "empraqat": null,
+"emprikut": null,
+"emprngut": null,
 "empsbiyuq": null,
 "empsdungus": null,
 "empskkutu": {
@@ -431,7 +445,10 @@
 "name": "enduk",
 "note": ""
 },
+"eydang": null,
+"eysa": null,
 "gaqat": null,
+"ggar": null,
 "ggitan": null,
 "ghuway": {
 "freq": 2,
@@ -479,11 +496,16 @@
 },
 "glaq": null,
 "gmquwaq": null,
+"gmraq": null,
+"gmrup": null,
+"gn": null,
 "gneeliq": null,
 "gnlqan": null,
 "gnwit": null,
+"graka": null,
 "graq": null,
 "graqun": null,
+"gryeq": null,
 "gtgut": {
 "freq": 8,
 "glosses": [
@@ -530,6 +552,7 @@
 "handulu": null,
 "hbugi": null,
 "hhmadan": null,
+"hhtran": null,
 "hlakuh": null,
 "hlingan": null,
 "hmadan": {
@@ -566,6 +589,8 @@
 "name": "hnki",
 "note": ""
 },
+"hnubaw": null,
+"hubaw": null,
 "huriq": {
 "freq": 39,
 "glosses": [
@@ -584,7 +609,9 @@
 "name": "huway",
 "note": "詞意：ini kbsu慷慨\r\n\r\n文化小語： 族人很重視而且很看重部落的互動及關係，所以族人對徃此都很慷慨，特別是重視徃此分享的觀念，因為這是建立連結關係的關鍵。"
 },
+"ihur": null,
 "iisu": null,
+"ikaxa": null,
 "ima": {
 "freq": 1566,
 "glosses": [
@@ -617,6 +644,7 @@
 "name": "iya",
 "note": "詞意：ini sruwa不可以\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"iyak": null,
 "kahui": null,
 "kaisia": null,
 "kakuh": null,
@@ -648,6 +676,7 @@
 "note": "詞意：qngqaya psaan木製湯碗\r\n\r\n以前吃飯的碗或湯匙大都是用木頭做成的。"
 },
 "kbsrat": null,
+"kbui": null,
 "kdusan": {
 "freq": 1,
 "glosses": [
@@ -704,6 +733,7 @@
 "kluh": null,
 "klui": null,
 "klulu": null,
+"klulus": null,
 "kmalu": {
 "freq": 43,
 "glosses": [
@@ -727,8 +757,10 @@
 "name": "kmrawah",
 "note": ""
 },
+"kmrnu": null,
 "kmsul": null,
 "kmubui": null,
+"kmupan": null,
 "kmux": {
 "freq": 15,
 "glosses": [
@@ -738,6 +770,7 @@
 "name": "kmux",
 "note": "詞意：klgan dmuliq稗草\r\n詞意：tluling baga mstkmu握拳\r\n\r\n「kmux稗草」植物名，別稱水田草、水稗草或水稗，生長在水田或溼地處，是常見的雜草。稗草種子的成熟期早於稻子或與稻子同時成熟，使其常會雜在稻穀中，危害稻穀生長。"
 },
+"kn": null,
 "knbsrat": null,
 "kndrgan": null,
 "kndsan": {
@@ -751,6 +784,7 @@
 },
 "kndutu": null,
 "kngusan": null,
+"knhgun": null,
 "knluus": null,
 "knluusan": null,
 "knngnguan": null,
@@ -767,6 +801,7 @@
 "kntdhuan": null,
 "kntglaan": null,
 "kntgmilan": null,
+"knubuy": null,
 "kpajiq": null,
 "kpauxi": null,
 "kran": {
@@ -797,6 +832,7 @@
 },
 "krhu": null,
 "krhun": null,
+"krikut": null,
 "krkran": {
 "freq": 1,
 "glosses": [
@@ -805,6 +841,7 @@
 "name": "krkran",
 "note": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"kruheng": null,
 "ksla": null,
 "kslaan": {
 "freq": 5,
@@ -833,6 +870,7 @@
 "name": "kutu",
 "note": "詞意：hnigan pkkran pnsbili因濕冷而發抖\r\n詞意：hangan seejiq人名（男）"
 },
+"kuy": null,
 "kyuqan": null,
 "lango": null,
 "langu": {
@@ -891,10 +929,12 @@
 "lmuus": null,
 "lngiyan": null,
 "loai": null,
+"lowai": null,
 "lqatan": null,
 "ltudan": null,
 "lungat": null,
 "lungu": null,
+"lungut": null,
 "lutut": {
 "freq": 125,
 "glosses": [
@@ -991,6 +1031,7 @@
 "note": ""
 },
 "mkrhu": null,
+"mkruheng": null,
 "mksiisil": null,
 "mksul": null,
 "mman": null,
@@ -1008,6 +1049,7 @@
 "mpraqat": null,
 "mpsqlul": null,
 "mpyah": null,
+"mqlit": null,
 "mqqlang": null,
 "mqrhu": {
 "freq": 1,
@@ -1028,8 +1070,10 @@
 },
 "mrangah": null,
 "mrbuq": null,
+"mrikut": null,
 "mrit": null,
 "mritan": null,
+"msapat": null,
 "msilung": null,
 "mskutu": null,
 "mskuyuh": null,
@@ -1090,6 +1134,7 @@
 "mtrdu": null,
 "mtrgri": null,
 "mtudu": null,
+"muhung": null,
 "mukan": null,
 "muli": null,
 "mulu": null,
@@ -1171,6 +1216,7 @@
 "name": "ngus",
 "note": "詞意：kari smngusul流鼻涕的聲音\r\n詞意：hnang saang kacing牛發怒聲"
 },
+"nilaq": null,
 "nilit": null,
 "niso": null,
 "nisu": {
@@ -1209,6 +1255,7 @@
 "npnalu": null,
 "nprikut": null,
 "nrangah": null,
+"nrikut": null,
 "nruq": null,
 "nskkuyuh": null,
 "nslbu": null,
@@ -1223,6 +1270,7 @@
 "name": "nuqu",
 "note": "詞意：psdka quri tgmalu更好、比較好"
 },
+"pa": null,
 "paaaq": null,
 "pajiq": {
 "freq": 122,
@@ -1247,6 +1295,7 @@
 "note": "詞意：pqriun baraw ka mnquri lhbun翻過來\r\n詞意：paux slaq犁田\r\n詞意：pqriun baraw ka qaqay腳向上"
 },
 "pauxun": null,
+"pdaqi": null,
 "pdhliqan": null,
 "pdmati": null,
 "pdrut": null,
@@ -1321,6 +1370,7 @@
 "pkrbiyan": null,
 "pkrbiyun": null,
 "pkuxun": null,
+"pndkuh": null,
 "pneydang": null,
 "pngpung": {
 "freq": 21,
@@ -1377,6 +1427,7 @@
 "prjilun": null,
 "prngut": null,
 "prudaw": null,
+"psaanaq": null,
 "psalan": null,
 "psari": {
 "freq": 0,
@@ -1392,6 +1443,7 @@
 "psiisun": null,
 "pskmux": null,
 "pskutu": null,
+"pslangi": null,
 "pslangu": null,
 "pslbu": {
 "freq": 4,
@@ -1414,6 +1466,7 @@
 "psmuk": null,
 "psngurun": null,
 "psnluun": null,
+"psnnai": null,
 "psping": {
 "freq": 12,
 "glosses": [
@@ -1428,9 +1481,14 @@
 "psrijil": null,
 "pstrngun": null,
 "psttuy": null,
+"pstui": null,
+"psuqih": null,
 "ptabi": null,
 "ptaril": null,
 "ptatuy": null,
+"ptbiyan": null,
+"ptbiyi": null,
+"ptbiyun": null,
 "ptbnuun": null,
 "ptdahu": {
 "freq": 1,
@@ -1453,6 +1511,7 @@
 },
 "ptqliyun": null,
 "ptryaun": null,
+"pttui": null,
 "ptudan": null,
 "ptudu": null,
 "puh": {
@@ -1489,6 +1548,7 @@
 },
 "pusal": null,
 "put": null,
+"puxir": null,
 "qadi": null,
 "qapah": {
 "freq": 41,
@@ -1527,6 +1587,7 @@
 "qluhan": null,
 "qluhun": null,
 "qlxan": null,
+"qmalit": null,
 "qmapah": null,
 "qmilaw": null,
 "qnadi": null,
@@ -1590,6 +1651,7 @@
 "note": "詞意：eekan rrngaw seejiq ni mneudus嘴\r\n詞意：hangan damat 龍鬚菜\r\n詞意：lubuy o quri daan tqriun麻袋口\r\n詞意：kayu tluung o quri gmukan蓋口\r\n詞意：bling o quri ltadan洞口\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
 "qyuqan": null,
+"r": null,
 "rabi": {
 "freq": 9,
 "glosses": [
@@ -1647,6 +1709,8 @@
 "name": "rdu",
 "note": "詞意：lmdu napa卸貨\r\n詞意：mslhkah ka mnarux ni saang病情好、情緒穩定\r\n詞意：meelih ka bgihur風停了\r\n詞意：dxgal wada tkumax地坍方\r\n詞意：psangay tdruy停車"
 },
+"remarque": null,
+"req": null,
 "rih": null,
 "rikit": {
 "freq": 6,
@@ -1673,7 +1737,18 @@
 "riyan": null,
 "rmngut": null,
 "rnbaqan": null,
+"rndah": {
+"freq": 4,
+"glosses": [
+"更加的；反而更"
+],
+"name": "rndah",
+"note": ""
+},
+"rngut": null,
 "rngutan": null,
+"rnguti": null,
+"rngutun": null,
 "rqili": null,
 "rramil": null,
 "rranaq": null,
@@ -1703,6 +1778,7 @@
 "name": "ruun",
 "note": ""
 },
+"ryeq": null,
 "sagi": {
 "freq": 0,
 "glosses": [
@@ -1720,6 +1796,7 @@
 "name": "samu",
 "note": "詞意：tdnug pteetu釘子"
 },
+"samul": null,
 "saole": null,
 "sapi": null,
 "sar": {
@@ -1825,6 +1902,7 @@
 "sgulan": null,
 "sguran": null,
 "shgi": null,
+"shmqan": null,
 "shnkan": null,
 "siba": null,
 "sibus": {
@@ -1895,6 +1973,7 @@
 "note": ""
 },
 "skngali": null,
+"skrt": null,
 "sktadaw": null,
 "skutu": null,
 "sla": {
@@ -1906,6 +1985,8 @@
 "name": "sla",
 "note": "詞意：lukus mgbaraw大外衣\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 },
+"slangan": null,
+"sloong": null,
 "slung": {
 "freq": 8,
 "glosses": [
@@ -1925,6 +2006,7 @@
 },
 "sm": null,
 "smaliq": null,
+"smamul": null,
 "smbrangan": {
 "freq": 42,
 "glosses": [
@@ -1986,6 +2068,7 @@
 "note": ""
 },
 "smuwan": null,
+"snanu": null,
 "sneanak": {
 "freq": 1,
 "glosses": [
@@ -2002,10 +2085,14 @@
 "snkrawah": null,
 "snluun": null,
 "snmul": null,
+"snnru": null,
 "snola": null,
+"snoxel": null,
 "snpsaran": null,
 "snpsarun": null,
 "snsikan": null,
+"snuk": null,
+"snulu": null,
 "snuqu": null,
 "snxelan": null,
 "spkpajiq": null,
@@ -2021,6 +2108,8 @@
 "note": ""
 },
 "sqtaqi": null,
+"srhqan": null,
+"srhqi": null,
 "srhqun": null,
 "srijil": null,
 "srngiyun": null,
@@ -2034,7 +2123,9 @@
 "note": ""
 },
 "ssagi": null,
+"ssapat": null,
 "ssbusun": null,
+"ssgsapat": null,
 "sshgan": null,
 "ssiisil": null,
 "ssiyang": null,
@@ -2068,6 +2159,7 @@
 },
 "suntyu": null,
 "supu": null,
+"supyeh": null,
 "suqu": null,
 "suwan": null,
 "syukay": null,
@@ -2082,7 +2174,9 @@
 "name": "taga",
 "note": ""
 },
+"tamux": null,
 "tanah": null,
+"tapak": null,
 "taq": {
 "freq": 0,
 "glosses": [
@@ -2104,6 +2198,8 @@
 "note": "詞意：msbrakaw qmatar跳過\r\n詞意：trajing tmlung開始\r\n詞意：mkraaw yayung渡河"
 },
 "taru": null,
+"tatuy": null,
+"tbasyaq": null,
 "tbilan": null,
 "tbir": null,
 "tbiran": null,
@@ -2115,6 +2211,7 @@
 "name": "tbiyan",
 "note": ""
 },
+"tbiyi": null,
 "tbiyun": null,
 "tblian": {
 "freq": 2,
@@ -2177,9 +2274,11 @@
 "name": "tgtmaq",
 "note": ""
 },
+"thiy": null,
 "thrdu": null,
 "thulang": null,
 "tibasyaq": null,
+"tisapat": null,
 "tkana": {
 "freq": 1,
 "glosses": [
@@ -2215,6 +2314,7 @@
 "note": ""
 },
 "tmabi": null,
+"tmagu": null,
 "tmaq": {
 "freq": 3,
 "glosses": [
@@ -2229,7 +2329,9 @@
 "tmgla": null,
 "tmkumax": null,
 "tmudu": null,
+"tmuhung": null,
 "tmukan": null,
+"tn": null,
 "tnaga": null,
 "tnbiyan": null,
 "tnbuyan": null,
@@ -2241,10 +2343,12 @@
 "tpssagan": null,
 "tqnay": null,
 "tqnayun": null,
+"tqqlang": null,
 "tqriyan": null,
 "trdu": null,
 "treura": null,
 "tsaleh": null,
+"tsapat": null,
 "tslbangi": null,
 "ttui": {
 "freq": 1,
@@ -2297,6 +2401,7 @@
 "note": "詞意：hangan klgan qowlit金毛鼠\r\n詞意：ini ksula完全的"
 },
 "tumi": null,
+"tyapan": null,
 "ubai": null,
 "uli": {
 "freq": 1,
@@ -2306,6 +2411,7 @@
 "name": "uli",
 "note": ""
 },
+"un": null,
 "upskra": null,
 "upu": {
 "freq": 0,
@@ -2337,6 +2443,7 @@
 "note": "詞意：hnang gmtuwit gasil繩轉聲\r\n詞意：kari wada asi qduriq逃走"
 },
 "wwahir": null,
+"xoil": null,
 "yianu": null,
 "yiyah": null,
 "yiyahun": null,

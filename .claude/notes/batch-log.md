@@ -3710,3 +3710,70 @@ distinct count 195 → 174 across the batch. Suites: loose179 16/16, cite179 9/9
 nav178 28/28, dom171 0 failures / 0 page errors / 1967 cards, plus a new
 13-assertion `sp203dom.py` covering all six species, both brackets, the absence
 of a bracket in klulu's sentences, and classic mode showing neither.
+
+## batch 204 — the gloss seam, and what 99.5% actually costs
+
+**`ln'dax` → `rndah`, +2 dark.** His LENAX card cross-refers to `LN'DAX`; his own
+headword is `L'NDAX (LNDAX)`. `wordKey()` folds the two elision-mark CHARACTERS
+together but never their POSITION, so the two are different map keys and the
+gloss token fell to char-rule green. The map cannot take it — the census in
+`build_modern_map.py` reads Truku fields and this token exists only inside a
+French definition; a `manual_map.json` entry for it is silently inert (verified:
+`gained []`, `map ln'dax -> None`). `WORD_OVERRIDES` is the seam that sees it,
+and the value asserts nothing new: `rndah` is already ruled dark on his own card.
+
+**The gloss seam is not a backlog.** Measured before patching, so one word stayed
+one word: of 284 pale+green spans, `example` holds 119, `headword` 111, `tag` 23,
+`paradigm` 19 — and **`gloss` holds 8**. No generator change is worth 8.
+
+### The unit is the card, and the card ran out of answers
+
+99.5% needs pale+green ≤ 224. At 282 that is 58 occurrences — but only **six
+cards**: RNGUT 14, SAPAT 10, RIKUT 9, LUNGUT 8, SAKUR 8, SNOXEL 8. 159 cards hold
+the 282 and 108 of them hold one each, so the head of the distribution is the
+whole of the reachable work. That looked like the batch-199 instrument (a pale
+slot beside dark ones). It is not.
+
+**The attestation test over these cards is circular, and the run proves it: 0 of
+37 tokens across the top seven has ANY source.** That is what pale MEANS. The
+only non-circular question is whether a different, attested modern word is the
+right respelling — the meaning test — and for the top cards the answer is that
+modern Truku uses a different root entirely:
+
+| his card | his gloss | what the register carries |
+|---|---|---|
+| RNGUT / LUNGUT | 使受孕－懷孕 | `mshjil`, `knshjilan`, `empshjil` — a different root |
+| SNOXEL | 嫉妒－羨慕 | `hkrig` and 40+ of its slots — a different root |
+| LIKUT | 藉口－詭計 | nothing of that shape; `rnqdug` 詭計 is unrelated |
+
+**A lexeme modern Truku replaced is NOT a settled class.** The four classes share
+one property: attestation is a test they cannot SIT (no wordlist holds `abura` 油
+or every man in a 1977 village). An obsolete verb can sit it and fails it. Naming
+a fifth class here would emit code 16 over words whose pallor is correct, which
+is the bulk clearance priced and rejected twice before. Pale stays.
+
+### SAPAT: a homograph acquitted, and a ruling refused for want of a second
+
+`sgsapat` 姦淫 is real — 2× parquet, 1× Bible, clearing the universal `>= 2` bar —
+and his sub-form is literally `Ssgsapat` off a head glossed 行為不檢－過著放蕩的生活.
+That **acquits the head**: `sapat` dark is not the eighth homograph freeze
+suspected in batch 203. The register's bare `sapat` 舖（舖床）is a genuine modern
+homophone, and `sgsapat` shows a root `sapat` in HIS sense exists beside it.
+
+The family ruling was still refused. Both dark neighbours are contaminated by
+that same homophone — the head is dark on 舖床, and `dmsapat` carries code 6,
+whose root is a hypothesis resolved against the same 舖床 gloss. Batch 199: a
+card head dark for the wrong reason licenses nothing beside it. That leaves
+`sgsapat` as **one** supporter, and two must agree independently. `basyaq`
+refused outright: the register has `bsyaq` 久 (`qmbsyaqan` 22×), and his
+`dmbasyaq` sits in *sao dmbasyaq mqan ni mimax* beside eating and drinking, not
+beside duration. Six to eight occurrences left pale, on purpose.
+
+### The arithmetic
+
+282 pale+green of 44,916 = **99.3722%**. 99.5% is 58 away and the evidence for it
+does not exist: the ILRDF e-dictionary answered 1 of 100 pale words asked
+(batch 203), 0 of 37 tokens on the top seven cards has a source, and the meaning
+test sends the three biggest cards to roots that are not his. **~99.40% is the
+ceiling reachable by evidence**, and the last stretch of it is single-occurrence
+cards, 108 of them.

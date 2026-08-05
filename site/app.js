@@ -113,7 +113,20 @@
       ? SPECIES_ALT[key] : null;
   }
 
-  var WORD_OVERRIDES = {
+  // His schwa mark moves. The LENAX card's gloss cross-refers to `LN'DAX`,
+// one letter over from his own headword `L'NDAX (LNDAX)` — and wordKey() folds
+// the two mark CHARACTERS together but never their POSITION, so the two are
+// different map keys and the gloss token fell through to char-rule green.
+// The map cannot take it: build_modern_map.py censuses Truku fields, and this
+// token exists only inside a French definition. A manual_map entry for it is
+// silently inert (verified: gained [], map ln'dax -> None). WORD_OVERRIDES is
+// the seam that can see it. The value is not a new claim — `rndah` is already
+// ruled dark on his own headword card; this is the consistency fix his own
+// cross-reference asks for.
+// The gloss seam is not a backlog: of the 284 pale+green spans on the page,
+// 8 are in a gloss. Measured before patching, so the one word stays one word.
+var WORD_OVERRIDES = {
+    "ln'dax": "rndah",
     "klui": "kluwi", "mklui": "mkluwi", "nklui": "nkluwi", "tklui": "tkluwi",
     "sklui": "skluwi", "msklui": "mskluwi", "psklui": "pskluwi",
     "mnsklui": "mnskluwi", "snklui": "snkluwi", "mnklui": "mnkluwi",
