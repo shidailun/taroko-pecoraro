@@ -121,6 +121,15 @@ LEDGER = {
         ('map', 'nneemu', 'batch 201 respelled it'),
     ('dom58.py', 'BROWN pn\'mu pnmu missing on ["MU]'):
         ('map', 'pneemu', 'batch 201 respelled it'),
+    # Batch 229 reverted a homograph freeze and ruled the identity beside it.
+    # `n'gui -> nguy` painted his 偷 card with 哭聲 — dark AND wrong, which the
+    # colour metric scores as a win, so only an assertion keeps it out. `nagui`
+    # was the pre-ruling identity claim on the same SLAP example. Both now go to
+    # `gneeguy` 偷了, which carries his gloss. The failure IS the ruling landing.
+    ('dom58.py', "BROWN n'gui nguy missing on [SLAP]"):
+        ('map', 'gneeguy', 'batch 229 reverted the nguy freeze'),
+    ('dom58.py', 'BROWN nagui nagui missing on [SLAP]'):
+        ('map', 'gneeguy', 'batch 229 ruled the identity beside it'),
     # --- dom59.py
     ('dom59.py', 'BROWN tqliyun tqriyun missing on [QELI]'):
         ('map', 'tqriun', 'batch 213 ruled the TQELI paradigm'),
@@ -526,6 +535,11 @@ LEDGER = {
     # --- dom166.py
     ('dom166.py', 'GAIN salu: want 10 dark'):
         ('dark>=10', '', 'the book grew after this pin'),
+    # Not the book growing this time: batch 229 ruled `sml'lu -> smalu` off his
+    # own parenthetical `Sm"lu (sml'lu)`, so a 17th span went dark. A floor, as
+    # every count pin is — a FALL below 16 is the news (batch 209).
+    ('dom166.py', 'GAIN smalu: want 16 dark'):
+        ('dark>=16', '', "batch 229 ruled sml'lu onto it"),
     ('dom166.py', 'ROAD elug: want 91 dark'):
         ('dark>=91', '', 'the book grew after this pin'),
     # --- dom167.py

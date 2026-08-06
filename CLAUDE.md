@@ -460,11 +460,28 @@ These were each learned by breaking something. Evidence for every one is in
   legs against three, so `psnnai` is what the page carries and `entries.js` is
   untouched. His doubt is then evidence that the form itself is shaky, which is a
   reason not to tidy it into the regular shape his other four slots predict.
+- **A pale-blocker ranking presents every row as a spelling question, and most
+  of them are not** (batch 229). Of nine unworked types, FOUR were glyphs read
+  wrong off the scan (`k'aon`, `mman`, `olo`, `rqeli`) and two more were his own
+  typing the map had to absorb (`iniko` two words, `sml'lu` his parenthetical).
+  One needed an orthographic argument. Batch 213's cheap test — a token
+  appearing once in a book that repeats itself is a candidate for the scan —
+  priced more of that seam than any reasoning about letters did, so **run it
+  first on every row, before opening the register**. The tells that paid: a slip
+  can land one letter from HIS OWN headword (`mman` beside his IMA oblique
+  `Maan`, which he writes five other times), and a correction is checkable
+  against his own frequency (`ole` 67× against `olo` never; `ini ko` spaced 122×
+  against joined once).
+- **His dropped letter can be 21 pages from the card that spells it** (batch
+  229). `pqeli` lacked the `x` that fifteen slots of his XOQEL 死亡 card write,
+  including the `Pxoqel` "Tuer" paradigm — the same fault as batch 219's
+  `tglgli`, but the evidence was not on the card the token sits on. Search the
+  ROOT's slots book-wide, not the neighbouring ones.
 
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.21%** (5,332). Not token share. A pair is
+  is dark, over 5,429. **Currently 98.36%** (5,340). Not token share. A pair is
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
@@ -756,6 +773,26 @@ his page does not spell.
   before believing a level 0**: two words of one paradigm getting opposite
   verdicts locates the gap in the inventory, not in the word.
 - **A greedy algorithm over an unordered input is a sample, not a rule.**
+- **Ask `entries.js` for his TEXT, never for the raw file** (batch 229) — the
+  display-side twin of batch 219's alphabet rule and batch 226's case rule. Two
+  faults, both in one log: `Sm"lu` is JSON-escaped on disk, so a sentence
+  assertion searching the raw string silently never matches; and the raw file
+  carries every corrected-away reading inside the **audio ids** (`ex_ini_ko_bi_
+  stama_ana_mman_ka_yako`), so a "this misreading is gone" check fires on an id
+  that is supposed to keep it. Parse, walk his fields, join. That id fault is
+  itself an assertion worth having — an id is a URL, so pin the stale ones BY
+  NAME, and control the pin with a SWAP rather than a drop, because re-minting
+  holds the count and the count assertion cannot see it.
+- **A different-root refusal written with `startswith` convicts its own
+  morphology** (batch 229). `w.startswith("bkuy")` over the 39 register forms
+  glossed 捆綁 flagged `gmnbkuy`, `mkmbkuy`, `mhhaut` as rival roots — his
+  family's own prefixes. Widening to a substring then showed the claim "all 39
+  are off bkuy/haut" was never true (`pskrut`, `smbbsqur` are other roots), and
+  the refusal never rested on it. **State the negative half as "no carrier
+  spells HIS stem"** — that is what makes it a test rather than a list, and it
+  can honestly fail when evidence arrives.
+- **Word-boundary BOTH sides, or the Truku check fires on his French** (batch
+  229): `\bmman` matched `commandements`.
 - Verifying crossref behaviour needs two taps: first shows the gloss preview,
   second opens the entry (`app.js:1272–1276`). A single `.click()` moves nothing.
 

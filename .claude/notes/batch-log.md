@@ -6301,3 +6301,131 @@ the price changes and the refusal has to be re-argued.
 
 `dom228.py` passes clean; `.scratch/b228/control228.py` runs 19 cases — two
 positive controls pass, seventeen tampers all refuse.
+
+## Batch 229 — nine pale blockers, and four of them were reading mistakes
+
+`blockers.py` handed this batch nine sole-blocker types nobody had worked. It
+read like an orthography seam. It was mostly a **transcription** seam: four of
+the nine were glyphs read wrong off the scan, two more were his own typing that
+the map had to absorb, one needed a spelling argument, one was refused, and one
+had been ruled before the session. Six ruled, one refused, two needed no map
+change.
+
+### 1. `k'aon` → `klaon` — his own spelling, 24 times over
+
+### 2. `nagui` / `n'gui` → `gneeguy`, and the `nguy` freeze reverted
+
+`nguy` is 哭聲 in the register and his card is 偷. Dark AND wrong — the standing
+homograph-freeze shape, invisible to every colour metric. `gneeguy` 偷了 carries
+his gloss. His `nagwi → ngeuyan` slot on the same card is a **different form**
+and did not move; `dom229.py` holds it, because a ruling that spreads to the
+slot next door is the metric deciding a spelling.
+
+### 3. `qntqdan` — REFUSED, both halves asserted
+
+**Negative**: the register spells no `-an` of that syncopated stem. That silence
+counts, because batch 224's test passes — the same `qn-…-an` shape **is** spelled
+for the sister stem, `qntqitan`. **Positive**: his 捆綁 is carried by 39 register
+forms, off `bkuy`, `haut`, `kuy`, `krut`, `bsqur`; not one spells his stem. No
+rival root reachable from his letters, so there is no respelling to find and the
+pallor is correct. A `tqd`/`qtd` carrier of 捆綁 ever appearing re-opens this.
+
+### 4. `iniko` → `ini ku` — the fourth two-word map value
+
+    ... sapax Laotan kika iniko sk'la tdoloi da   = I did not catch the train
+
+`tdoloi → tdruy` 車 was already dark on the same line. `iniko` is TWO words — the
+`Mpaso → Empaa su` shape (batch 208). Page 294 at 8×: the letter pitch inside
+`iniko` matches that inside `kika`, and both inter-word gaps are a full blank
+cell wider. **The page really prints it joined**, so `entries.js` is untouched
+and the map absorbs it (batch 212 decides where the fix goes). He writes `ini ko`
+spaced 122× and joined exactly once. `ini` and `ku` are both code 1 and the
+builder emitted the joined key on its own.
+
+### 5. `mman` → `maan` — a slip that landed one letter from his own headword
+
+Page 300 at 8× shows four cells `m-a-a-n`, both `a`s matching the `a` of `ana` on
+the same line; the second is light-struck, which is what got read into the `m`.
+And `Maan` is **his own headword** — the IMA card's oblique, *"à qui? — pour
+qui?"* — with `ana maan` for *personne* in five other sentences (GALU, LAWA,
+SILING, XLAE, IMA). `maan → emaan` 是誰 was already pinned, so the correction
+cost nothing. The unreachable `mman` identity pin was deleted; batch 227 says
+assert the char rules, and `charRules("mman")` is `mman` unaided, so it was inert
+either way.
+
+### 6. `sml'lu` → `smalu` — batch 200's parenthetical, in his own notation
+
+    Sm"lu (sml'lu) ko musa saman da
+
+Dark side `sm"lu → smalu`, code 1. The precedent is on this same card in this
+same notation — `b55.py:11`, *"he writes the slot twice on the same paradigm
+line, so the two spellings are one word"*. Batch 200's gloss caveat passes
+because the register puts **both** senses on the one root: `sluun` is 要被製作
+and, in the bible, 盼望；希望; `snluan` is 希望/願望, which is his own `Snluwan`.
+Batch 204 finds no rival — across three gloss files only `tddungus` 都在計畫 and
+`psramal` carry 計劃 at all, neither reachable. `smmlalu` refused: listed but
+bare, and it needs an `m` his page does not write.
+
+### 7. `pk'kax` → `pqlqah` — a dropped letter inside a MANUAL pin
+
+Batch 219's fault, this time not in the char rules but in a hand pin. Seven of
+his eight K'KAX slots were pinned onto the QLQAH paradigm carrying the `l`; the
+eighth read `pkkah` with none. `build_verified.py` then derived the fixed value
+on its own at **code 6** — the rung that runs no gloss test by construction — so
+the gloss was checked by hand and asserted in the log: the root `qlqah` is 踏 and
+his sentence is 我被水牛踩到.
+
+### 8. `olo` → `ole` — a faded crossbar
+
+His `olo` occurs twice: his OLO headword (a bare root he posits — batch 223's
+settled class) and one running-text token. He writes `ole` 67× for 也/*aussi* and
+`olo` never. Page 315 at 22×: `mo`'s `o` and the word-initial `o` are closed
+rings; the final glyph is open on the right with a C aperture — an `e` whose
+crossbar faded. Fixed in `entries.js`; `ole → uri` was already code 1. The
+`olo → uru` pin **stays**, now reachable only from his headword, which is
+furniture at 0 pairs by construction — asserted, not assumed (batch 223).
+
+### 9. `rqeli` → `pqeli` → `phqili` — two defects stacked
+
+Page 317 at 26×: the first glyph has a full descender with a serifed foot and a
+bowl — a `p`, not an `r` — and pitch-checked against `bi`/`ka` the word is
+exactly five cells, `p q e l i`. So `entries.js` takes the `p`, and the map key
+`rqeli` became unreachable and was deleted. Then his own dropped `x`: fifteen
+slots of his XOQEL 死亡 card write it, including the `Pxoqel` *"Tuer"* paradigm's
+`pxqeli → phqili`, and this one running-text token 21 pages away lacks it.
+`phqili` is 把…死 / 打個半死；把……打死 against his French *tuer*.
+
+The near-miss `pqlqeli → pqrqili` (QLAQEL 受苦) is **refused** on the gloss — the
+whole `rqil` family is 受虐待/使受苦/辛苦, not 殺, and of the register forms
+glossed 殺 only the `huqil` family is reachable from his letters. His own
+`xqeli(?)` question mark on that very slot (batch 224) predicted a second,
+differently-spelled attempt.
+
+### The standing observation
+
+**Four of nine were reading mistakes and two were his own typing.** A ranking of
+pale blockers presents every row as a spelling question; two-thirds of this seam
+were not. Batch 213's rule — a token appearing once in a book that repeats itself
+is a candidate for the scan — priced more of this batch than any orthographic
+argument did.
+
+### Measured
+
+    pairs 5331/5429 = 98.1949%  ->  5340/5429 = 98.3607%   (+9)
+    pale  235 -> 226 spans, 153 -> 146 types (book-wide)
+    sole-blocked pairs 91 -> 83
+    VERIF 6319 -> 6320   new=['ini ku','pqlqah']  lost=['nguy']   (the freeze)
+    MAP   7372 -> 7370   new=['pqeli']  lost=["k'aon",'mman','rqeli']
+                         chg: iniko, nagui, n'gui, sml'lu, pk'kax
+    audio ids 5134, unchanged; four corrected examples keep the id that spells
+    the OLD reading, on purpose — asserted by name in dom229.py
+
+`dom229.py` passes clean; `.scratch/b229/control229.py` runs 33 cases — one
+positive control passes, thirty-two tampers all refuse. Three of its assertions
+failed on their first run and all three were the instrument: a `startswith`
+different-root test that convicted its own morphology (`gmnbkuy` read as a rival
+root of `bkuy`), a sentence check asking the raw file where `Sm"lu` is escaped,
+and `\bmman` unanchored on the right matching his French *commandements*. The
+last exposed a real assertion worth having: the raw file carries the wrong
+readings inside **audio ids**, which is correct — an id is a URL and a corrected
+example keeps it.

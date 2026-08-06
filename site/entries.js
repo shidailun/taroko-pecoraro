@@ -47030,7 +47030,7 @@ window.ENTRIES = [
         "zh": "錯誤、過失（抽象意義）。",
         "examples": [
           {
-            "t": "Ida ta k'aon balae ka ana manu knqnqoan lqlaqe",
+            "t": "Ida ta klaon balae ka ana manu knqnqoan lqlaqe",
             "fr": "Nous savons parfaitement les fautes que les enfants peuvent commettre (toutes les fautes d'enfant).",
             "en": "We know perfectly well the faults that children can commit (all a child's faults).",
             "zh": "我們非常清楚孩子們可能犯的過錯（一切孩童會犯的過錯）。",
@@ -57698,7 +57698,7 @@ window.ENTRIES = [
     "zh": "依靠－指望、依賴。",
     "examples": [
       {
-        "t": "Ini ko bi stama ana mman ka yako",
+        "t": "Ini ko bi stama ana maan ka yako",
         "fr": "Moi, je ne compte sur personne !",
         "en": "As for me, I count on no one!",
         "zh": "我啊，誰也不依靠！",
@@ -60662,7 +60662,7 @@ window.ENTRIES = [
         "zh": "將要當父親。",
         "examples": [
           {
-            "t": "Adi biyao matama ka Wilang mo olo",
+            "t": "Adi biyao matama ka Wilang mo ole",
             "fr": "Avant peu mon fils Wilang deviendra papa lui aussi.",
             "en": "Before long my son Wilang too will become a dad.",
             "zh": "不久我兒子 Wilang 也要當爸爸了。",
@@ -61186,7 +61186,7 @@ window.ENTRIES = [
     "zh": "小狗──狗的幼崽。",
     "examples": [
       {
-        "t": "Ya bi rqeli ka tatat so! Nasi so smoa (vl. smloa) o, tb'gun (tbugun)mo kingal, ana daxa!",
+        "t": "Ya bi pqeli ka tatat so! Nasi so smoa (vl. smloa) o, tb'gun (tbugun)mo kingal, ana daxa!",
         "fr": "Il ne te faut pas tuer tes petits chiens! Si tu me permets, j'en élèverai un, et même deux !",
         "en": "You must not kill your puppies! If you allow me, I'll raise one, and even two!",
         "zh": "你不可以殺你的小狗！你若允許我，我會養一隻，甚至兩隻！",
