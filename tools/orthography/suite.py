@@ -16,7 +16,7 @@ carries the batch that overturned the pin:
 
     ('dom150.py', 'PIN kpaux: want 3 pale'): ('dark', '', 'batch 182, code 1')
 
-Five kinds, and each one re-asserts something rather than merely excusing it:
+Seven kinds, and each one re-asserts something rather than merely excusing it:
 
   dark     the pin wanted pale; the word is dark now and `verified.js` has a code
            for it. Re-checked: it must still be dark, and dark alone.
@@ -32,6 +32,22 @@ Five kinds, and each one re-asserts something rather than merely excusing it:
            which is all of the AN (3) circumfix card. Re-checked both ways — the
            map value must be unchanged AND the row must still test as
            metalinguistic in `entries.js`.
+  floor    the metric FELL below a log's pin. Batch 218 spent three pairs
+           reverting a homograph freeze, which no colour metric can score as
+           anything but a loss. Re-checked both ways: not fallen further, and
+           the ruling the pairs were spent on still in the map.
+  ruled    a log's written REFUSAL, overturned by a later ruling. Re-checked
+           against both tables — the map must still say what overturned it, and
+           the value must still be verified, since a value that goes pale puts
+           the refusal back in force without anyone deciding to.
+
+**A failure kind with no entry here does not get adjudicated at all — it exits
+rc=1 with a line `failures()` cannot see, and the suite calls the log CRASHED.**
+That has happened twice: the floor in batch 218, and in batch 219 the prose
+`FAIL <word> ... It was refused because ...` line that dom214/216/217 write. Four
+real failures hid behind the second for a batch, three of them overrides of
+those same logs' written refusals. When a log crashes, read its output before
+assuming the log is broken.
 
 An unexplained failure is a regression and is printed. A ledger row whose failure
 line has stopped appearing is printed too, under HEALED: a pin that came back is
@@ -72,6 +88,30 @@ LEDGER = {
         ('map', 'pstutuy', 'batch 201 respelled it'),
     ('dom57.py', 'BROWN mpn\'mu empnmu missing on ["MU]'):
         ('map', 'empneemu', 'batch 201 respelled it'),
+    # Batch 213 ruled his whole TQELI paradigm off the stem the wordlist itself
+    # writes for it — `sistered('tqriyun')` returns `tqrian` and `tqrii`, neither
+    # of which carries the epenthetic `y` the char rule had supplied. These three
+    # rows pin the pre-ruling values, so the failure IS the ruling landing.
+    ('dom57.py', 'BROWN ptqliyun ptqliyun missing on [TQELI]'):
+        ('map', 'ptqriun', 'batch 213 ruled the TQELI paradigm'),
+    # Batch 218 overturned an AGED identity pin. `pslangi -> pslangi` was the
+    # verdict "no modern form found", written when nothing on the SLANGI card
+    # was dark; `srangi`, `msrangi` and `psrngiyan` are dark now, and the
+    # register's `psrngiun` 留一些 carries his 使之有剩餘.
+    ('dom57.py', 'BROWN pslangi pslangi missing on [SLANGI]'):
+        ('map', 'psrangi', 'batch 218 overturned the aged pin'),
+    # Batch 220 finished the same card. The `-rngiy-` shape these two rows pin
+    # was never evidence — batch 215 wrote it in as a stated consistency fix,
+    # "pale before, pale after — a consistency fix, not a claim". The register
+    # spells this root's syncopated stem in exactly four forms and not one
+    # carries a `y`: `psrngiun` 留一些, `psrngion`, `rngii`, `rngiun`. So the
+    # tie-break is retired by attestation, and it is retired in both slots at
+    # once — `srngiun` bought the pair, `psrngiun` (LISTED, code 1) replaced an
+    # inference and bought nothing but coherence.
+    ('dom57.py', 'BROWN slngiyun srngiyun missing on [SLANGI]'):
+        ('map', 'srngiun', 'batch 220 ruled it off the register'),
+    ('dom57.py', 'BROWN pslngiyun psrngiyun missing on [SLANGI]'):
+        ('map', 'psrngiun', 'batch 220 ruled it off the register'),
     # --- dom58.py
     ('dom58.py', 'BROWN m\'mu mmu missing on ["MU]'):
         ('map', 'meemu', 'batch 201 respelled it'),
@@ -81,7 +121,51 @@ LEDGER = {
         ('map', 'nneemu', 'batch 201 respelled it'),
     ('dom58.py', 'BROWN pn\'mu pnmu missing on ["MU]'):
         ('map', 'pneemu', 'batch 201 respelled it'),
+    # --- dom59.py
+    ('dom59.py', 'BROWN tqliyun tqriyun missing on [QELI]'):
+        ('map', 'tqriun', 'batch 213 ruled the TQELI paradigm'),
+    # --- dom63.py
+    # He carded LIDIL twice, and `rijil` is the BEND root (`mrijil` 使彎曲). The
+    # handle root is `rijig` 柄（刀;鋤）, glossed 柄 right through its family. These
+    # two logs pinned the freeze, so the failure IS the fix landing.
+    ('dom63.py', "BROWN lidil rijil missing on [L'BU]"):
+        ('map', 'rijig', 'batch 211 split the LIDIL homograph'),
+    # Batch 214: two identity claims fell. `snola -> snola` blocked charRules()
+    # beside five dark `-eura` slots on his own SOLA card; `kmbyanan` is his own
+    # `Knbyanan` one line up on page 92, three stems against two. Both pinned
+    # rows recorded the pre-ruling value, so the failure IS the ruling landing.
+    ('dom63.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'):
+        ('map', 'knegbiyan', 'batch 214 ruled the GBIYAN example'),
+    ('dom63.py', 'BROWN snola snola missing on [LUUS]'):
+        ('map', 'sneura', 'batch 214 ruled snola off the SEURA family'),
+    # Batch 215 retired a pin two batches had set. dom146 and dom162 each froze
+    # `rih` as SIX PALE renders, and both named the same blocker: length-as-
+    # chance over one ASR hapax plus `krih`, an onomatopoeion. What retired it is
+    # the reduplicated paradigm `inf.roots()` cannot see -- `ririh` 取代 14,
+    # `mririh` 取代者 35, `pririh` 還 17, `rrihan` 被取代 4, `empririh` 賠償 4 --
+    # with five of his own LILEX forms already dark on five of them. So the
+    # failure IS the ruling landing, and the supersession re-asserts it as a
+    # FLOOR: six or more, every one of them dark. A drift of `lex` to some third
+    # spelling is caught in dom215.py, which reads the map directly.
+    ('dom146.py', 'PIN rih: want 6 pale'):
+        ('dark>=6', 'rih', 'batch 215 ruled rih off the reduplicated paradigm'),
+    # --- dom162.py
+    ('dom162.py', 'PIN rih: want 6 pale'):
+        ('dark>=6', 'rih', 'batch 215 ruled rih off the reduplicated paradigm'),
+    # --- dom65.py
+    ('dom65.py', 'BROWN tqliyun tqriyun missing on [QELI]'):
+        ('map', 'tqriun', 'batch 213 ruled the TQELI paradigm'),
+    # Batch 218 reverted a TIER-B freeze: `mqlaq` 發癢 had been awarded `mqraq`
+    # 抓 by the one tier that needs no gloss proof. Zero of the 43 register
+    # words glossing 癢 are q-initial; the modern itch root is krak/ghguh. The
+    # identity pin is load-bearing — charRules('mqlaq') spells mqraq on its own.
+    ('dom65.py', 'BROWN mqlaq mqraq missing on [QLAQ]'):
+        ('map', 'mqlaq', 'batch 218 reverted the mqlaq freeze'),
     # --- dom66.py
+    ('dom66.py', "BROWN lidil rijil missing on [L'BU]"):
+        ('map', 'rijig', 'batch 211 split the LIDIL homograph'),
+    ('dom66.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'):
+        ('map', 'knegbiyan', 'batch 214 ruled the GBIYAN example'),
     ('dom66.py', "BROWN ml'bu mgrbu missing on [AN]"):
         ('meta', 'mgrbu', "batch 207 — the AN card's rows are French"),
     ('dom66.py', 'BROWN grand grand missing on [AN]'):
@@ -203,6 +287,14 @@ LEDGER = {
     # --- dom145.py
     ('dom145.py', 'GAIN psttui: want 1 dark'):
         ('absent', '', 'batch 201 respelled it'),
+    # Batch 218 took his QALIT card off the 溢滿 root. These two pinned the
+    # n-infix slots on the OLD value, so their absence IS the ruling landing —
+    # `qalit` was tier A, gloss-PROVED, and had scored 3 against `qlit` on the
+    # substring 的詞根, which is apparatus and not meaning.
+    ('dom145.py', 'GAIN qnlit: want 1 dark'):
+        ('absent', '', 'batch 218 ruled the QALIT card onto qrib'),
+    ('dom145.py', 'GAIN mnqlit: want 1 dark'):
+        ('absent', '', 'batch 218 ruled the QALIT card onto qrib'),
     ('dom145.py', 'PIN drnai: want 1 pale'):
         ('dark', '', 'batch 195, code 1'),
     ('dom145.py', 'PIN ggitan: want 1 pale'):
@@ -450,6 +542,71 @@ LEDGER = {
         ('dark', '', 'batch 196, code 16'),
     ('dom170.py', 'BLOCKED snbusi: want 1 pale'):
         ('dark', '', 'batch 196, code 16'),
+    # --- the metric floor. The first FALL in the project's history: batch 218
+    # spent three pairs reverting a tier-B homograph freeze, `mqlaq` 發癢 ->
+    # `mqraq` 抓. A freeze paints dark AND wrong, so no colour metric can see
+    # it and removing one can only ever LOOK like a regression. These three
+    # rows carry that cost forward; each re-asserts that the metric has not
+    # fallen FURTHER and that the ruling it was spent on is still in the map.
+    # [retired batch 219] The metric recovered to 5,330, above all three pins,
+    # so dom215/216/217 stopped failing on the floor at all. Reproduced
+    # serially before retiring, per batch 217. The mqlaq revert is still in the
+    # map; what ended was the DEBT, not the ruling.
+    # --- batch 219. Three refusals whose named blocker was a root shape the
+    # analyser could not find -- and the ruling that overturned them spells a
+    # DIFFERENT stem, so the blocker each one named is simply not the question
+    # any more. `trgr`/`tlgl` are empty because the root keeps a final g his own
+    # card writes eight times; `pqluy` is empty because the -un slot of an -uli
+    # root drops the i (13 of 13 in the register) and the stem is `pqlulun`.
+    # Each row re-asserts the ruling itself, so a drift to a third spelling --
+    # or a value that stops being verified -- fails here.
+    ('dom216.py', 'FAIL mtrgri no longer renders anywhere on the page. It was '
+     'refused because tlgl and trgr are both empty in attested_modern.json -- '
+     'if the transcription or the map changed, the refusal needs re-arguing, '
+     'not deleting.'):
+        ('ruled', ('mtlgli', 'mtrgrig'), 'batch 219, code 2 off his G\'LI" card'),
+    ('dom216.py', 'FAIL tgrgri no longer renders anywhere on the page. It was '
+     'refused because tlgl and trgr are both empty in attested_modern.json -- '
+     'if the transcription or the map changed, the refusal needs re-arguing, '
+     'not deleting.'):
+        ('ruled', ('tglgli', 'tgrgrig'), 'batch 219, code 2 off his G\'LI" card'),
+    ('dom216.py', 'FAIL pklluyun no longer renders anywhere on the page. It '
+     'was refused because qluy and pqluy are both empty in '
+     'attested_modern.json -- if the transcription or the map changed, the '
+     'refusal needs re-arguing, not deleting.'):
+        ('ruled', ('pklluyun', 'pqlulun'), 'batch 219, tier-A root plus 13/13'),
+    ('dom217.py', 'FAIL mtrgri no longer renders anywhere on the page. It was '
+     'refused because tlgl and trgr are both empty in attested_modern.json -- '
+     'if the transcription or the map changed, the refusal needs re-arguing, '
+     'not deleting.'):
+        ('ruled', ('mtlgli', 'mtrgrig'), 'batch 219, code 2 off his G\'LI" card'),
+    ('dom217.py', 'FAIL tgrgri no longer renders anywhere on the page. It was '
+     'refused because tlgl and trgr are both empty in attested_modern.json -- '
+     'if the transcription or the map changed, the refusal needs re-arguing, '
+     'not deleting.'):
+        ('ruled', ('tglgli', 'tgrgrig'), 'batch 219, code 2 off his G\'LI" card'),
+    ('dom217.py', 'FAIL pklluyun no longer renders anywhere on the page. It '
+     'was refused because qluy and pqluy are both empty in '
+     'attested_modern.json -- if the transcription or the map changed, the '
+     'refusal needs re-arguing, not deleting.'):
+        ('ruled', ('pklluyun', 'pqlulun'), 'batch 219, tier-A root plus 13/13'),
+    # --- dom60.py. The same G'LI" ruling seen from the map side.
+    ('dom60.py', 'BROWN tglgli tgrgri missing on [QALAS]'):
+        ('map', 'tgrgrig', 'batch 219 restored the final g his card writes'),
+    # --- dom148.py. The book grew by one: batch 219 corrected `drbiyax` to
+    # `dmbiyax` on page 177, a three-legged glyph beside two two-legged n's.
+    ('dom148.py', 'GAIN dmbiyax: want 3 dark'):
+        ('dark>=3', '', 'batch 219 corrected a transcription slip onto it'),
+    # --- dom57.py. The other end of the SIBLING SEAM (inflection.py:1670).
+    # Batch 201 moved his QQ'LANG head from `qqlang` to `qqrang`; the t- slot of
+    # the cross-referenced card was left tracking the OLD head, and `b57.py:116`
+    # says so in its own comment: `"tqq'lang": "tqqlang",  # qq'lang>qqlang;
+    # was TQQRANG`. So this pin is not a refusal being overruled -- it is the
+    # unfinished half of a supersession, and batch 223 finished it. `map`
+    # re-reads the map, so a drift to a third spelling still fails here;
+    # dom223.py carries the assertion that the value renders DARK.
+    ('dom57.py', "BROWN tqq'lang tqqlang missing on [QQ'LANG]"):
+        ('map', 'tqqrang', 'batch 223 finished batch 201\'s head re-ruling'),
 }
 
 
@@ -460,13 +617,32 @@ def sig(line):
     pin CLAIMED, carry what it SAW separately, and a re-run compares like with
     like."""
     s = " ".join(line.split())
+    # [batch 218] The metric floor. The log's own pin is the STABLE half; the
+    # measurement beside it is the volatile one, exactly as for a count. Before
+    # this, a floor failure carried the measured number in the key, so it
+    # crashed the suite instead of reaching the adjudicator -- the one failure
+    # kind batch 209 never wired up, because the metric had only ever risen.
+    m = re.match(r"FAIL deliverable pairs FELL to (\d+), floor is (\d+)$", s)
+    if m:
+        return "FLOOR %s" % m.group(2), m.group(1)
     if ", got " in s:
         head, got = s.split(", got ", 1)
         return head, got
+    # [batch 219] A prose refusal assertion. dom214/216/217 write their pins as
+    # `FAIL <word> ... It was refused because ...`, which carried no recognised
+    # shape at all -- so the log exited rc=1 with nothing `failures()` could see
+    # and the suite called it CRASHED. Four real failures hid behind that for a
+    # whole batch. The numbers inside the sentence are the measurement, exactly
+    # as in a count line, so key on the sentence with them blanked and carry
+    # them beside it.
+    if s.startswith("FAIL "):
+        nums = re.findall(r"\d+", s)
+        return re.sub(r"\d+", "#", s.split(" green there:")[0]), " ".join(nums)
     return s.split(" green there:")[0], ""
 
 
-FAILLINE = re.compile(r"( want \d+ \w+, got )|^(BROWN|GREEN|STALE|WAS) ")
+FAILLINE = re.compile(r"( want \d+ \w+, got )|^(BROWN|GREEN|STALE|WAS) "
+                      r"|^FAIL ")
 
 
 def failures(text):
@@ -479,6 +655,14 @@ def failures(text):
 def load_map():
     s = open(os.path.join(ROOT, "site", "modern_map.js"), encoding="utf-8").read()
     return dict(re.findall(r'^"(.+?)":"(.+?)"', s, re.M))
+
+
+def load_ver():
+    # verified.js writes its keys with TWO leading spaces and modern_map.js with
+    # none (batch 207). A pattern that works on one silently matches nothing on
+    # the other.
+    s = open(os.path.join(ROOT, "site", "verified.js"), encoding="utf-8").read()
+    return dict((k, int(n)) for k, n in re.findall(r'^  "(.+?)": (\d+),?$', s, re.M))
 
 
 def meta_rows():
@@ -522,6 +706,42 @@ def adjudicate(log, line, MAP, META):
         if not seen:
             return rec, ""
         return rec, "ledger says absent, page says %s" % got
+    if kind == "floor":
+        # [batch 218] A floor supersession is the easiest row in this file to
+        # write as an excuse, so it re-asserts TWO things: the metric is still
+        # at or above the floor the overturning batch set (a further fall is
+        # news and fails here), and the ruling that cost the pairs is still in
+        # the map. Removing the ruling without restoring the pairs fails too.
+        new, tok, val = arg
+        now = int(got) if got.isdigit() else -1
+        if now < new:
+            return rec, ("ledger says the floor moved to %d when %s was ruled "
+                         "%s; the page now measures %s, which is a NEW fall "
+                         "and wants its own row" % (new, tok, val, got))
+        if MAP.get(tok) != val:
+            return rec, ("ledger says these pairs were spent ruling %s -> %s, "
+                         "but the map now says %s -- the cost is being carried "
+                         "for a ruling that is no longer there"
+                         % (tok, val, MAP.get(tok)))
+        return rec, ""
+    if kind == "ruled":
+        # [batch 219] A written refusal overturned by a later ruling. The row is
+        # only allowed to stand while that ruling does, so it re-reads BOTH
+        # tables: a drift to a third spelling fails here, and so does a value
+        # that has stopped being verified -- which is the shape a refusal would
+        # take if it were quietly reinstated by a rebuild.
+        tok, val = arg
+        if MAP.get(tok) != val:
+            return rec, ("ledger says the refusal was overturned by %s -> %s, "
+                         "but the map says %s -- the supersession is being "
+                         "carried for a ruling that is no longer there"
+                         % (tok, val, MAP.get(tok)))
+        if val not in load_ver():
+            return rec, ("ledger says %s -> %s overturned the refusal, but %s "
+                         "is not in verified.js, so it renders pale and the "
+                         "refusal it superseded is effectively back"
+                         % (tok, val, val))
+        return rec, ""
     if kind in ("map", "meta"):
         m = re.match(r"^BROWN (\S+) (\S+) missing on \[(.+?)\]$", head)
         tok, claim, card = m.groups()
@@ -575,6 +795,34 @@ def main():
     # Only over the logs this run actually executed — a filtered run must not
     # report every unselected log's rows as healed.
     healed = sorted(k for k in set(LEDGER) - seen_keys if k[0] in set(names))
+    # [batch 217] Healing must be REPRODUCED before it is reported, and
+    # reproduced SERIALLY. A ledger row heals when its exact failure line stops
+    # appearing -- and the line carries the measurement in it, so a log that
+    # under-renders emits `got {}` where it used to emit `got {'dark': 1}` and
+    # the key stops matching. That is indistinguishable from a pin retiring.
+    # It happened: four wiring_score shards from another project saturated the
+    # machine, this pool put four more browsers on it, and dom154 -- a 2026-era
+    # log still waiting 6s where the standard is now 22s -- reported all five of
+    # its COINCIDENCE/PIN rows healed at once. Run alone, it reproduced every
+    # one of them as `got {'dark': N}`: five true pins, and the advice on
+    # screen was `retire them`. Retiring a row destroys the only evidence
+    # anything moved, so the burden of proof belongs on the healing.
+    if healed:
+        rescued = 0
+        reran = sorted({k[0] for k in healed})
+        for f in reran:
+            _, txt, _rc = run(f)
+            for line in failures(txt):
+                key = (f, sig(line)[0])
+                if key in healed:
+                    rescued += 1
+                seen_keys.add(key)
+        healed = sorted(k for k in set(LEDGER) - seen_keys if k[0] in set(names))
+        if rescued:
+            print("re-ran %d log(s) serially: %d apparent healings did NOT "
+                  "reproduce (a contended run under-renders and reports a "
+                  "colour it cannot see as an absence)"
+                  % (len(reran), rescued))
     print("SUITE %d logs — %d clean, %d superseded, %d REGRESSIONS, %d crashed"
           % (len(names), ok, superseded, regressions, crashed))
     for b in bad:

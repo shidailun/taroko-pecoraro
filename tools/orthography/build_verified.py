@@ -100,12 +100,22 @@ PQ_MIN = 2      # ASR hapax is as likely a mis-hearing as a word; see the docstr
 # costing something real — 6 occurrences, the largest single gain left on the
 # page, and his 幾乎－接近－有點像 fits the parquet's `qhuqil kana rih saw
 # psahug dhyaan` ("killed them all, almost as a punishment to them") rather
-# well. It stays pale. Batch 146 pinned it because a three-letter root needs
-# his word-level Chinese and not a sentence gloss, and batch 159 showed the
-# honest way out: `nta` was the fourth pinned member and went dark because **a
-# person spoke for it**, not because a gate moved. One ASR token is not a
-# person. `kn` is refused twice over — two letters, and its single occurrence
-# is inside `Fu-kn-su`, the romanized Japanese 撫墾署 split on its hyphens.
+# well. It stayed pale here for sixteen batches. Batch 146 pinned it because a
+# three-letter root needs his word-level Chinese and not a sentence gloss, and
+# batch 159 showed the honest way out: `nta` was the fourth pinned member and
+# went dark because **a person spoke for it**, not because a gate moved. One ASR
+# token is not a person. `kn` is refused twice over — two letters, and its
+# single occurrence is inside `Fu-kn-su`, the romanized Japanese 撫墾署 split on
+# its hyphens.
+#
+# **`rih` came off the pin in batch 215, and not through this door.** The hapax
+# is still one ASR token and still vouches for nothing; what arrived is the
+# reduplicated paradigm the analyser cannot see — `ririh` 取代, `mririh` 取代者,
+# `pririh`, `rrihan` 被取代, `rrihi`, `empririh` — plus five of his own LILEX
+# forms already dark on five of them, and `ririh tama` 叔叔 standing beside his
+# `Lex mo tama` (= mon oncle). The blocker both pins named was length-as-chance;
+# six inflections of one root in four affix shapes is not chance. Written up in
+# HAND_RULED in inflection.py, which is where the ruling lives.
 #
 # Like every corpus source here this widens `seen` and never `lex`, and like
 # every corpus source it vouches for a SPELLING and not for his gloss:

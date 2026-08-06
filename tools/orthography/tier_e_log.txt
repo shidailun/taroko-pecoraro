@@ -100,7 +100,6 @@ ptx'dyeq         ptthiyaq         xdyeq          thiyaq         derived
 ptxnguli         pthnguli         xngul          hngul          derived
 qlii             krii             qli            kri            derived
 qnadi            qnadi            qadi           qadi           derived
-qnalit           qnlit            qalit          qlit           derived
 skarabe          skarabi          ska            ska            derived
 sm'mul           sm'mul           smul           s'mul          derived
 smbalao          smbaraw          balao          baraw          derived
@@ -120,7 +119,6 @@ tnk'laon         tnklaun          klaon          klaun          derived
 tnklaon          tnklaun          klaon          klaun          derived
 tntmaan          tntmaan          ttmaan         ttmaan         derived
 tpskanun         tpskanun         pskanun        pskanun        derived
-tqliyun          tqriyun          qliyun         qriyun         derived
 tslbangi         tslbangi         lbang          lbang          derived
 xmlisan          hmlisan          xlisan         hlisan         derived
 xndyalan         hnjyalan         xdyalan        hjyalan        derived

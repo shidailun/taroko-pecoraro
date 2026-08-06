@@ -64,8 +64,56 @@
   // The direction is the safety. A citation entry can only ever REFUSE the
   // map's value; it cannot assert a new one. If the cite seam is ever wrong
   // about a context, the cost is a pale headword, never a dark wrong word.
+  // [batch 211] `lidil` is the mirror image of the DIMA/QALO refusal, and the
+  // same instrument gives the opposite answer.
+  //
+  // He carded LIDIL twice: 工具的柄 (a tool handle) and 傾斜的－歪的－扭曲的. Modern
+  // Truku keeps the two apart in the final consonant, and BOTH roots inflect --
+  // `rijig` 柄（刀;鋤） with `emprijig` 要做柄, `prjigi` 讓…做柄, `tmrijig` 專做柄
+  // against `mrijil` 使彎曲, which is his own Plidil 使彎曲－扭 verbatim. Four
+  // glossed forms on the handle root and every one of them says 柄, so this is
+  // the family answering and not a single row.
+  //
+  // The map sent the token to `rijil` for both. That is a homograph freeze --
+  // dark AND wrong -- in four running sentences, all of them the handle: `lidil
+  // poting` 刀柄, `L'bu bi ka lidil na` 它的柄很短, and two more. Every AFFIXED
+  // `*lidil` form in the book is on the 傾斜 card (the handle card has no subs
+  // at all), so the root projection was crossing two cards he kept apart; the
+  // five it moved are pinned back in manual_map.json.
+  //
+  // Batch 205 refused a remap for DIMA and QALO because there his example
+  // sentences were the sense the map already rendered, and a remap would have
+  // painted four correct sentences wrong to fix three heads. Here the sentences
+  // are the WRONG side and one head is the right one, so the remap is the fix
+  // and this table is what protects that head. Both headwords go pale, which is
+  // what `naru` already costs his NALU card -- the seam refuses, and a refusal
+  // that rendered dark would be an assertion.
+  // [batch 215] `ngali` is the third, and the first one his own FAMILY convicted.
+  //
+  // His NGALI (R) is 剩餘－多出的－額外的, and the map leaves the token alone,
+  // because `ngali` is attested -- as 拿走；拿取, 27 speakers. A homograph freeze,
+  // dark AND wrong on the head of the card. What convicts it is not the gloss row
+  // but the four children he wrote under it, every one of which the map already
+  // sends to the OTHER letter and every one of which is gloss-verified there:
+  // `nngali`→`nngari` 剩餘的, `sngali`→`sngari` 剩餘, `msngali`→`msngari` 剩下,
+  // `psngali`→`psngari`. A family that already agrees convicts a head that keeps
+  // its own letters, and `ngari` 剩餘;結餘 (31 speakers) is his head gloss exactly.
+  //
+  // The seam was checked at every render, not sampled: all FIVE running-text
+  // occurrences are the 拿取 sense and correct as they stand -- `Ngali bi ka pila`
+  // 把錢好好拿著, `Ngali ka poting` 拿你的番刀, `ini na ngali` 不肯收, `Ngali ni
+  // spoxe` 拿去敷, and GAO's 要把…視為奉獻. Both citation renders are the 剩餘 card:
+  // the NGALI headword and the `VR. NGALI` crossref on SNGALI. Seven of seven, and
+  // the split falls exactly on the noLink seam -- the same asymmetry as `naru`.
+  //
+  // It still only refuses. `ngari` is in the omnibus but never a map value, so
+  // build_verified.py does not emit it and `darkClass` pales it. That is the
+  // structure doing the work, not a convention: the head goes from dark-and-wrong
+  // to honestly pale, and no sentence moves.
   var CITE_SPELL = {
-    "nalu": "naru"
+    "nalu": "naru",
+    "lidil": "rijil",
+    "ngali": "ngari"
   };
 
   // Non-null only where a citation overrides the map. `cite` is set by

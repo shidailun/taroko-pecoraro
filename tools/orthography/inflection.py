@@ -1983,6 +1983,119 @@ HAND_SPOKEN = """nta""".split()
 # Still a HIT-only argument. A miss in that cache proves nothing -- `tksaw` and
 # `gmquwaq` come back empty with their roots there in full -- so this list may
 # only ever grow from the answers, never from the silences.
+#
+# ptqriun (batch 213) is the -un slot of his Ptqeli 圍住－包圍, and the one slot
+# of the TQELI card the register cannot spell. The card is a paradigm and the
+# other four are settled: TQELI -> `tqiri`, vouched by `mtqiri` whose gloss is
+# 周圍；環繞 in TWO sources, his head verbatim; Ptqeli -> `ptqiri`, listed;
+# Tqliyan -> `tqrian` and Tnqliyan -> `tnqrian`, both listed, spoken 7 and
+# written by the register with no epenthetic y (`tqrian`, `tqrii`).
+#
+# The register DOES list a `ptqiun`, and it is the trap. It has no r, it is
+# glossed 放置；安放, and its one spoken utterance is `suyang bi ptqiun na ka
+# swayi kuyuh gaga kska rawa` -- a sister putting something in a basket. Taking
+# it would have been a dark, correctly-spelled, WRONG word on his 雞舍圍起來
+# sentence: the homograph freeze arriving as a near-miss of one letter.
+#
+# The Bible glossary spells the r and glosses the sense: `ptqriun` 使繞行；巡行,
+# and beside it `ptqrian` 巡繞（次數）；一圈 -- the -an slot of the same stem, from
+# the same source. 繞 is his own character, in 環繞的地點 and 在周圍的－環繞的, and
+# 使…行 is the causative his p- writes. Two slots, one source, so the second
+# supporter is his own card: four dark slots on the tqri- stem, one of them the
+# unsuffixed `ptqiri` this is the -un of.
+#
+# `tqriun` is not in this list and does not need to be -- sistered() reaches it
+# with the same two sisters that reached `tqriyun`, so dropping the y that
+# neither `tqrian` nor `tqrii` writes costs no colour and makes the paradigm
+# render as one word.
+#
+# rih (batch 215) RETIRES A PIN BATCH 146 SET AND BATCH 162 RESTATED. His LEX
+# (R) 幾乎－接近－大約－有點像, 4 occurrences, 3 sentence pairs held by it alone
+# and the largest single gain left on the page. Both earlier refusals named the
+# SAME blocker: a three-letter root is inside everything, so its support has to
+# be more than shape, and all either batch had was one ASR hapax (`qhuqil kana
+# rih saw psahug dhyaan`) plus `krih`, whose only agreement was a sentence gloss
+# about throwing money away -- and `krih` is 工作時敲打的聲音, an onomatopoeion.
+# One ASR token is not a person; that was right, and it is not the argument now.
+#
+# WHAT vouched() SEES, AND WHY IT REFUSES. derived('rih') returns twelve
+# supporters and the anchor is his strongest kind -- `_his(slots_only=True)` is
+# his word-level 幾乎－接近－大約－有點像, not a sentence. So the analysis is
+# clean end to end and the ONE test that refuses is gloss agreement, which is
+# this list's whole criterion. It refuses because those twelve are the wrong
+# family: `krih` the noise, `marih` 嘔氣, `embrih` 會…代價, and six with no gloss
+# at all (`prihan`, `prihi`, `prihun`, `rihan`, `rihay`, `mrih`).
+#
+# THE RIGHT FAMILY IS REDUPLICATED, AND THE ANALYSER CANNOT SEE REDUPLICATION.
+# The register lists `ririh` 取代 14, `mririh` 取代者 35, `pririh` 還 17,
+# `rrihan` 被取代 4, `rrihi` 取代, `empririh` 賠償 4 -- six words that write the
+# string `rih` inside themselves, four distinct affix shapes, one root. Not one
+# of them is prefix+`rih` or `rih`+suffix, so derived() reaches none of them.
+# That is a fact about the analyser and not a verdict about the word.
+#
+# HIS OWN CARD IS THE SECOND SUPPORTER, AND IT IS ALREADY DARK. He carded the
+# reduplication separately -- LILEX ( = R. ? - R. = LEX ?) 頂替位置－相近的－
+# 鄰近的－幾乎 -- and asked, in his tag, whether its root is LEX. The map answers
+# him: Lilex -> `ririh` 1, Lnilex -> `rnirih` 2, Mlilex -> `mririh` 1, Llexon ->
+# `rrihun` 1, Llexan -> `rrihan` 1. Five of his forms on five listed modern ones,
+# and the bare head the only pale slot on the two cards.
+#
+# THE COLLOCATION SETTLES THE SENSE, WHICH IS THE PART CHARACTER OVERLAP CANNOT
+# READ. 頂替 and 取代 share no character; neither do 幾乎 and 取代. But the
+# parquets have `tqian ririh tama ka sapah gaga` 那個房子是叔叔居住的地方 --
+# `ririh tama`, father-substitute, is how modern Truku says UNCLE. His LEX card's
+# second example is `Lex mo tama` "C'est comme mon père (= mon oncle)" and his
+# LILEX card's first is `Lilex tana` "Oncle (presque père ?)". The same two-word
+# idiom, in both orthographies, fifty years apart, with no path between them --
+# and his own LILEX gloss carries 頂替位置 and 幾乎 on one line, which is the
+# polysemy the shared-character instrument is blind to.
+#
+# tqqrang (his Tqq'lang 渾身顫抖不已的) -- batch 223. THE HALF-RULING LINE 1670
+# WARNS ABOUT, CAUGHT FROM THE OTHER END. Batch 201 ruled `qqrang` and `mqqrang`
+# on his QQ'LANG 顫抖 card, riding batch 191's `kkrang`/`mkkrang` because his own
+# gloss line ends 參見 KK'LANG. The t- slot of the cross-referenced card was ruled
+# in the same sweep -- "`kkrang` and `mkkrang`, so `tkkrang`" is written at line
+# 1670. The t- slot of THIS card was not. Six of the seven forms across the two
+# cards render `r`; `tqq'lang -> tqqlang` alone kept the `l`.
+#
+# AND THE RECORD SAYS IT WAS `tqqrang` FIRST. `logs/b57.py:116` carries the entry
+# with its reason beside it: `"tqq'lang": "tqqlang",  # qq'lang>qqlang; was
+# TQQRANG`. Batch 57 changed it to track the head, which then read `qqlang`. The
+# head moved to `qqrang` in batch 201 and this slot was left behind, so restoring
+# it is not overruling batch 57 -- it is finishing the supersession batch 57's own
+# comment predicts. Nothing here is a new attestation claim: `tqqrang` is not
+# listed, exactly as `qqrang` and `mqqrang` are not, and it rests on the same hand
+# ruling they do.
+#
+# FURNITURE, SO IT BUYS NOTHING. His two example sentences use `Qqlang` and
+# `mqq'lang`, both already dark; only the sub-form NAME is pale. Recorded so the
+# next batch does not price this as a pair.
+# graka (his GLAQA ( = R. ? ) 觀察—窺探—監視) -- batch 224. THE LADDER REFUSED IT
+# ON A HOMOGRAPH INSIDE THE ANALYSER, NOT INSIDE THE MAP. `roots('graka')` returns
+# exactly one analysis, `('raka', 'g', '', 'g')` -- it peels the `g` as a prefix and
+# lands on `raka`, which IS listed and is glossed 人名（男）, a male personal name.
+# The gloss test then reads a name against his 觀察／窺探／監視 and refuses, which is
+# correct behaviour on the candidate it was handed and the wrong candidate.
+#
+# THE POSITIVE HALF, NAMED ON THE FORM WHOSE OWN GLOSS CARRIES THE CHARACTER
+# (batch 221): `grkaan` is listed and glossed 監視;埋伏. 監視 is the third word of his
+# own gloss, character for character, on the `-an` form of this very stem. Three
+# more listed forms spell the stem whole -- `empgraka` 要埋伏, `spgraka` 讓…去埋伏,
+# and `gmraka`, which is his own sub-form Gmlaqa and has been dark since long
+# before this batch. `emp-` and `sp-` prefix `graka`, not `raka`: that is what makes
+# the `g` part of the root and the analyser's peel wrong.
+#
+# The different-root test (batch 204) finds no rival. The register's other 監視
+# words are `tmndeeda` and `gdrqani`/`gdrqanay` -- different roots, reachable from
+# his `glaqa` by no correspondence he uses -- so there is nothing to respell toward.
+# The map entry itself is untouched and predates this: `glaqa -> graka` was already
+# there, carried by `gmlaqa -> gmraka` being listed. This batch changes the COLOUR
+# of a value the map has been emitting all along, and claims only that the stem is
+# spelled `graka`, which four listed forms spell.
+#
+# FURNITURE, SO IT BUYS NOTHING. `GLAQA` occurs exactly once in 1,967 entries, as
+# the headword of its own card; no example sentence uses it. Recorded so the next
+# batch does not read the flat pair metric as a failed seam and re-price it.
 HAND_RULED = """treura msthulang dtanah empkmalux
                 smhngi snsikan dtduling mtru
                 pnkltudan kmpspusu sshgan ndmpatas
@@ -1999,7 +2112,7 @@ HAND_RULED = """treura msthulang dtanah empkmalux
                 uuyas llihaw ssiisil klkari iisu kiima qqsahur
                 sktaqi tmtru psnegulan psneguli
                 praqat knluus pknluan psdmatan plilug tkkrang
-                qrib qmrib mqrib pqrib pklhlah pdhriqan snblayan empsqrul
+                qrib qmrib mqrib pqrib qnrib mnqrib pklhlah pdhriqan snblayan empsqrul
                 kmkbahang knngnguan bsqrul rbaqi rbaqan rnbaqan psbui
                 psbuan psbuun hmdu hduun dhuan kntdhuan mnnaxal pnnaxal
                 yiyahun bntudan qtaqi knsblsan lilug emplilug mksiisil
@@ -2014,8 +2127,11 @@ bbuway mqqrang qmilaw wwahir spsdharun rrungay syukay mnkpitu
 gnaliq empkduriq sneuwit nbliqan knnlaan
 gneuwit kkrut
 tluk kmalux mmalux
+tqqrang graka
 npnalu pneemuun npamuxul qdrxun empneemuun ptryaun niyak pthnguli
 dpnaah miq
+ptqriun
+rih
 """.split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
@@ -2716,6 +2832,45 @@ class Inflection(object):
                             slot = "-".join(x for x in (
                                 p, "infix" if infixed else "", sf) if x)
                             out.append((c, p, sf, slot or "bare"))
+        # [batch 217] The swallowed vowel is restored above for `un`, `an` and
+        # their long forms and for nothing else, so a HORTATIVE reaches the lex
+        # only when its base survives suffix-stripping whole. `spngan` and
+        # `spngun` root on the listed `spngi` that way; `spngaw` strips to
+        # `spng`, a string no wordlist holds, and comes back with nothing — so
+        # his § Spngao ta otoç 「我們來抽籤看看這塊田會歸誰」 was pale at a rung
+        # its own sisters clear. That is a fact about the suffix inventory, not
+        # a verdict about the word.
+        #
+        # `aw` and `ay`, and NOT `i`. Adding `i` too buys three promotions of
+        # words already dark and one wrong new value: his QADI 格子架、編織物
+        # card writes `Qnadi`, q⟨n⟩adi off his own weaving root, and restoring a
+        # vowel before `-i` roots it on `qnada` 已丟棄的 — a different word one
+        # final vowel away, admitted through no_chinese(), the one rung that
+        # skips the gloss test. Before `-aw`/`-ay` the suffix REPLACES the base
+        # vowel; before `-i` that vowel is itself the distinction between two
+        # roots, which is the homograph freeze arriving through the analyser.
+        #
+        # Guarded on an empty list for the reason the peel below is guarded: a
+        # value that decomposes today cannot gain a candidate, so no_chinese()
+        # can never be tipped from a clean one-group reading into an ambiguous
+        # one and DE-verify something. Measured: +1 value, 0 lost, 0 relevelled.
+        if not out and _stack:
+            for p in PRE:
+                if not v.startswith(p):
+                    continue
+                b0 = v[len(p):]
+                if len(b0) < 3:
+                    continue
+                for sf in ("aw", "ay"):
+                    if not b0.endswith(sf):
+                        continue
+                    r = b0[:len(b0) - len(sf)]
+                    if len(r) < 3 or not glide_ok(r, sf):
+                        continue
+                    for c in (r + x for x in VOW):
+                        if c in self.lex and c != v:
+                            out.append((c, p, sf, "-".join(
+                                x for x in (p, "", sf) if x) or "bare"))
         if out or not _stack or v in HAND_NOT_STACK:
             return out
         # [batch 164] One prefix, and only one. A value that carries two —

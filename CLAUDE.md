@@ -68,6 +68,17 @@ These were each learned by breaking something. Evidence for every one is in
 - **A pale slot beside three dark ones is the cheapest question on the page**
   (batch 199, the instrument that cleared 99%). His card is a paradigm, so ask
   what every other slot on it says, not what the analyser can say about the word.
+- **A gloss score can land on the apparatus** (batch 218). His QALIT 剪刀 scored 3
+  in tier A — the gloss-PROVED tier — on the substring **的詞根**, "…'s root". His
+  note and `qlit`'s register row were both saying *this is the root of
+  something*, and `gloss_overlap` counted that as agreement about MEANING.
+  `meta_a.py` re-scored all 419 glossed tier-A entries with metalinguistic
+  phrases stripped from both sides: **418 survive, exactly 1 collapses.** The
+  tier is sound; the one hit was a freeze onto 溢滿.
+- **A table-side darkness test misses everything the char rules spell** (batch
+  218). `MM.get(k) in V` reads the map only, and `o` has no map entry —
+  `charRules('o')` = `u` and the span renders DARK. That under-priced the
+  `mqlaq` revert by one pair (predicted 2, cost 3). Price a revert from the DOM.
 - **A label is not an argument**, and **a cognate explains a word but never spells
   one**.
 - **A wrong-looking gloss is a question, not a verdict** — the paradigm answers it.
@@ -90,6 +101,17 @@ These were each learned by breaking something. Evidence for every one is in
 - **A pin comes down when evidence overturns it, not when the rule tires**, and a
   pin naming one cause must be retired when a second cause appears.
 - **Overriding evidence costs more than filling a hole.** Prefer the fix that adds.
+- **A tier-M identity pin is the one map entry that ages** (batch 216). It
+  records a search that FAILED; every other tier records evidence found. When a
+  card's other slots get ruled, its identity pins are the cheapest place to look
+  for a pair — no new evidence needed, only the family that arrived since.
+  `tnoxoi → tnoxoi` sat pale beside six ruled slots on his own TOXOI card.
+- **His initial consonant takes a modern reflex, never zero** (batch 216). When a
+  gloss match requires DELETING a letter his page writes, test that letter
+  against his other heads with the same onset first: his L- surfaces as `r`
+  (`lbagan → rbagan`, `lb'nao → rbnaw`) or stays `l` (`lb'lak → lblak`). `gluq`
+  carries his LG'LOQ 樹脂 gloss verbatim and is still refused, because dropping
+  the L is a lexical substitution wearing a respelling's clothes.
 - **The map is never evidence about colour; only the DOM is.** `WORD_OVERRIDES` is
   invisible to the generated map. Any tool asking "is this still green?" must
   consult the whole chain (`respellable()` reads three tables).
@@ -125,6 +147,21 @@ These were each learned by breaking something. Evidence for every one is in
 - **The analyser cannot see reduplication.** `inf.roots()` has no rule for it, so
   every CC-/VV- form reports no root. That is a fact about the analyser, not a
   verdict about the word — strip the doubled onset by hand before believing it.
+- **Restore a swallowed vowel only where the suffix replaced one** (batch 217).
+  Widening `roots()`' restoration branch to the hortative was right for `-aw`
+  and `-ay`, which displace the base vowel, and WRONG for `-i`, where that vowel
+  is itself what separates two roots: it verifies his `Qnadi` (QADI 編織物) off
+  `qnada` 已丟棄的 through `no_chinese()`, the one rung that skips the gloss
+  test. Three of the four words the `-i` leg touched were already dark, so the
+  count alone read as a bargain. **Price an analyser widening word by word, and
+  guard it on an empty candidate list** — batch 164's peel guard is what makes
+  a widening incapable of DE-verifying anything.
+- **The sister sweep is closed** (batch 217). A pale word whose sisters in the
+  same slot family are verified while it scores level 0 itself is the
+  fingerprint of an analyser gap; over all 174 pale values it returns five, four
+  of them traps already refused in writing (`qadi`/`qnadi`, `tbiyi`/`tbiyun`)
+  and the fifth — `sapi`, his SAPE 小鋤頭 against `parih` — a refusal too. One
+  ruling in the whole seam. Don't widen `roots()` again expecting a second.
 - **His own parenthetical is testimony that two spellings are one word** (batch
   200). Where he writes `X (Y)`, `X (vl. Y)`, `X (Y ?)` and the map sends the two
   to different values of which exactly ONE is dark, the pale side should render
@@ -135,6 +172,93 @@ These were each learned by breaking something. Evidence for every one is in
   of `mirit` 山羊 until the count came in: he writes `milit` 15× and `nilit` 2×.
   His own text spelled it. Same instrument proved `dbsnawan` an ethnonym —
   `dSbnawan ni dTroko` stands it beside the Truku.
+- **His orthography can refuse a candidate the gloss accepts** (batch 215). When
+  a modern word carries his meaning exactly but needs a cluster he doesn't write,
+  ask whether he had a spelling for that cluster and used it elsewhere. In 398
+  pages he never writes `gr` — the only two hits are the French *grand* and
+  *grandeur* — and his correspondence for modern `gr` is `gl`/`g'l`, in 81 map
+  values (`glangan → grangan`, `g'laq → graq`). So `sgrangan` 生銹 would have
+  been `sglangan` in his hand, a shape his book does not contain, and his SLANGAN
+  鏽 is regularly `srangan`, which no source lists. Different root, nothing to
+  respell. The test is cheap and reproducible: count his cluster, count the map's
+  correspondence for it, and check the crossing does not already occur.
+- **A ruling that contradicts a written refusal must cite that refusal and say
+  what new evidence retires it** (batch 219). Four went in without doing so and
+  all four came back out — the suite caught them, not the reasoning. Three were
+  bare `HAND_RULED` additions with **no comment beside them**, in a file where
+  every other addition carries a paragraph; `HAND_RULED` darkens whatever is put
+  in it, so an unargued entry is the metric deciding the spelling. The fourth,
+  `pg'go → pgagu`, followed the dark side of his parenthetical past batch 200's
+  own caveat: `pgagu` is 笛子 in the register, there is no 斑鳩 in it at all, and
+  its 鴿子 is `byutux`. **Before writing a value, grep the logs for the word** —
+  `dom*.py` refusal pins are prose and say why. A batch that can move the metric
+  by overruling its own record is not measuring the book.
+- **A consistency fix labelled "not a claim" is retired by the first
+  attestation** (batch 220) — and the label is what makes it cheap. Batch 215
+  gave the SLANGI card `-rngiy-` because his four siblings agreed, saying in
+  writing "pale before, pale after — a consistency fix, not a claim". The
+  register spells that root's syncopated stem in exactly four forms and not one
+  writes the `y`: `psrngiun` 留一些, `psrngion`, `rngii`, `rngiun`. So
+  `slngiyun → srngiun` (+1) and, in the same breath, `pslngiyun → psrngiun` —
+  which was already dark and bought nothing but coherence, replacing an
+  inference (code 7) with the listed word (code 1). **Repin a dark slot when the
+  same evidence settles its pale sibling**, or the map renders one suffix of his
+  two ways.
+- **The register's SILENCE about a slot refuses the sibling** (batch 220). The
+  same four-form query that ruled `-un` found no `-an` of that root in the
+  syncopated stem, and no `-yan` anywhere on it — its 使留一些 is `pnsngari`,
+  built on the FULL stem, which is his other card's root. So `rngiyan` and
+  `pnsrngiyan` keep the inferred shape and stay pale. Evidence where there is
+  evidence, inference where there is none; inventing `rngian` to tidy the
+  paradigm is the metric deciding the spelling. **Assert the negative half in
+  the log** — if an `-an` form ever enters the register, that is exactly the
+  news that re-opens the two refusals.
+- **Assert the POSITIVE half of a refusal, and name the form whose OWN gloss
+  carries the character** (batch 221). A refusal of the shape "a different root
+  carries this meaning" is only as good as the row it cites, so `dom221.py`
+  re-reads that row — and failed twice on its first run, against the person
+  writing it. Bare `bkiluh` is glossed 苦瓜;釋迦（植物名）, a plant: the 疥癬 is on
+  `embkiluh` 長疥癬 / `knbkiluh` 疥癬的樣子. Bare `bukung` is 校長；首長: the 領袖
+  is on `thowlang` 王、領袖或頭目. Batch 200's "a single gloss row is not the
+  register's answer; the family is", enforced mechanically. Assert the negative
+  half too, as a regex over the register rather than a list — a word matching
+  the refused shape ever appearing is the news that re-opens the refusal.
+- **A gloss instrument that falls back to an example gloss manufactures its own
+  only hit** (batch 221). `logs/tail221.py` runs batch 204's different-root test
+  over the tail: reverse the blocker to his token, take his Chinese, report the
+  register word sharing a Han character that is closest in shape. Twelve of
+  fourteen rows are noise — one common character (著, 子, 一, 人) at 2–4 edits.
+  The one row that looked real, `mqlaq → mqraq` at one edit sharing 抓, is the
+  freeze batch 218 paid three pairs to remove, and the 抓 came from his
+  EXAMPLE's gloss because the token has no headword Chinese. Mark those rows and
+  discount them (batch 203) and the tail has no candidates at all. Keep the
+  negative result, don't rebuild it — as with `freezesweep.py`.
+- **Grep the ranking against the record before working it** (batch 221). The
+  cheapest cut on any tail: for each blocker type, grep the batch log and every
+  `dom2*.py`. Twelve of the sixteen largest already had prior mentions; the four
+  with **none at all** were the whole batch. Costs one command.
+- **A probe must ask the map in the app's own alphabet** (batch 219). `wordKey()`
+  folds ONLY `’ ʼ " ʔ → '` and `ł → l`. It does NOT fold ç→x and does NOT strip
+  ü/ö, and seven map keys (`ilüs`, `iyüs`, `libiç`, `lübak`, `lübaq`, `opiç`,
+  `xatsö`) are reachable in no other spelling. A scratch probe that normalised
+  harder asked for `opix`, missed, fell to `charRules`, and reported PALE — while
+  the live `opiç → upix` renders brown16 twice. **Absence in the wrong alphabet
+  reads as pallor**; that artefact is what made the whole no-gloss bucket look
+  like a seam. Copy `wordKey()` verbatim, and confirm from the DOM.
+- **The DOM blocker ranking reports map VALUES, not his tokens** (batch 219). In
+  modern mode a span's textContent is what the map emitted, so a blocker named
+  `shkun` or `tgrgri` may be a string that appears nowhere in `entries.js`.
+  Reverse it before searching his book: every map key sending to that value, plus
+  every raw token whose `charRules()` output is it.
+- **His own inflected slot spells the stem, and a MANUAL pin can drop a letter
+  too** (batch 219). `tglgli → tgrgri` and `mtlgli → mtrgri` sat pale beside eight
+  dark slots of his G'LI" 舞蹈 card — `grig`, `mgrig`, `rmgrig`, `grigan`,
+  `grigun`, `pgrig`, `trgrig`, `tgrgrigun` — every one carrying a final `g` the
+  two pale ones lacked. His own `Tglgligun → tgrgrigun` is one suffix over from
+  `tglgli` and writes the `g`. Restoring it verified both at code 2 off the
+  ladder, no hand-ruling. Note `mtlgli → mtrgri` was **tier M**: the missing
+  letter was hand-pinned, so batch 201's contradiction test must be run over
+  manual entries too, not only over char-rule output.
 - **A char-rule contradiction inside one root is a bug, not a variant** (batch
   201, three of them: `mp'yax`→`mpyah` beside `iyax`, `upsk'la`→`upskra` beside
   `skla`, and the DLUT crossing). Where `l→r` or `x→h` fires on one slot of a card
@@ -153,6 +277,20 @@ These were each learned by breaking something. Evidence for every one is in
   citation entry can only REFUSE the map's value, never assert a new one, so a
   wrong seam costs a pale headword and not a dark wrong word. That asymmetry is
   the licence; do not use the hook to assert.
+- **The refuse-only asymmetry is structural, not a convention** (batch 215).
+  `build_verified.py` emits colours for MAP VALUES, and a `CITE_SPELL` value is
+  not one — `naru`, `rijil` and now `ngari` are all ABSENT from `verified.js`, so
+  `darkClass` pales them however well attested the word is. `ngari` 剩餘;結餘 has
+  31 speakers and is still pale at the seam. Don't "fix" that; it is what makes a
+  wrong seam cost a pale headword. And **check the seam at every render, not by
+  sampling** — his `ngali` splits 5 running-text (拿取, correct) against 2
+  citations (剩餘, frozen), seven of seven.
+- **The citation seam does not reach a linkified crossref** (batch 215).
+  `crossref-link` is set only where `noLink` is false, so a Truku name inside a
+  gloss takes the running-text path and `citeSpell` never fires on it. Five
+  gloss-internal `NGALI` references stay dark on the wrong sense, and widening
+  the hook to reach them would reach the five correct sentences too. A recorded
+  limit, not an oversight.
 - **A settled class is a fourth kind of answer**, beside ruled, refused and
   pending (batch 203). Where a word is pale because the register has no reason to
   carry it — a wild species, a name, a loan, an onomatopoeion, a bare affix —
@@ -176,11 +314,133 @@ These were each learned by breaking something. Evidence for every one is in
   a known `m` **from the same line** at 6×, and count legs.
   `damat`'s only row reads 恢復原狀, which would have refused `pdmati`; the five
   family members are all 菜餚/配菜 and his card agrees with them.
+- **The scan decides WHERE the fix goes, not whether to act** (batch 212). A slip
+  is corrected in `entries.js` (batch 208's `ln'xlax`); a reading the page really
+  carries is respelled in the map, because the map is display-only and his letter
+  is the record. His Q'NAO `mbuyan` is an `n` at 7× beside `bisol`'s `s` on the
+  same line — and is still his 肚子 word, which his KUI card spells `mbuyas` in
+  the same frame. `mbuyan → nbuyas`, source untouched.
+- **Ask whether the string is even his before pricing a respelling** (batch 213).
+  A token appearing exactly once in a book that repeats itself is a candidate for
+  the scan, not for the register. His NII `smuwan` sat one letter from the listed
+  `snuwan` 問什麼時候 — and the page reads `sknuwan`, a `kn` transcribed as `m`,
+  which his own book spells four other times, all glossed 什麼時候. The blocker
+  cleared by DELETING a map entry.
+- **Measure a queue's COLOUR before working it for pairs** (batch 222). The
+  `twice211.py` twice-carded queue sat open eleven batches as though it were a
+  backlog of pairs. It holds none: **0 of its 51 values renders pale anywhere**,
+  so every remap in it trades one dark value for another and moves the metric by
+  zero. That is the standing homograph-freeze fact ("invisible to every colour
+  metric, because the span is already dark") applied to a whole class at once.
+  The queue is a CORRECTNESS seam — work it if wrongness turns up, never for
+  pairs. Ask this of any list before pricing its items: one DOM pass, and it can
+  close a queue that a per-item walk would have spent weeks on.
+- **A pricing count must exclude his parenthesised apparatus too** (batch 222) —
+  batch 218's rule reaches occurrence COUNTS, not only gloss scoring. `qaya`
+  showed ORPHAN 2 against SERVED 1, and the second occurrence was the string
+  `QAYA` inside his own French sub-form `Pqaya (Est-ce de la R. QAYA ?)`, a
+  cross-reference. Read the occurrences before believing a 2. Unstripped on the
+  gloss side the same fault scored `xalong`'s 松樹 card SERVED against a value
+  glossed 人名（男）, on the 人 of 太魯閣人.
+- **Ask what the value you are REPLACING decomposes to** (batch 223). A pale
+  value is not inert: `pttui` on his PT"TO 豎立 card looked like a dropped-letter
+  artefact, and `ttui` turns out to be a listed root glossed 切、剁 — so the map
+  was spelling his imperative-of-*erect* as an inflection of *cut*, the meaning of
+  his OTHER card, T"TO 切割. That is the positive half of the argument for
+  `pteetui`, and it costs one `roots()` call. **The same fact can refuse the
+  neighbouring fix**: `t"tuan → ttuan` is dark off that same `ttui` 切 and his
+  `T"tuan` is glossed 切成的塊－切割的情況, so it is CORRECT and must not be
+  "made consistent" as `teetuan`. One notational defect, two slots, opposite
+  verdicts.
+- **A slot pinned to TRACK a head goes stale when the head is re-ruled** (batch
+  223). Batch 201 moved his QQ'LANG head from `qqlang` to `qqrang` and the t-
+  slot kept the `l`, leaving six of seven forms across two cross-referenced cards
+  on `r`. This is the other end of `inflection.py:1670`'s SIBLING SEAM — a
+  ruling that stops at the form the map happened to show is half a ruling, and
+  the half left behind is findable from the pale side. **Grep the legacy
+  `logs/b*.py` pin files, not only `dom*.py`**: `b57.py:116` carries
+  `"tqq'lang": "tqqlang",  # qq'lang>qqlang;  was TQQRANG` — the comment records
+  both what it was tracking AND the value it displaced, so restoring it finishes
+  a supersession instead of overruling a refusal.
+- **A zero character-overlap is not a refusal when the candidate is the char
+  rules' own output on HIS OTHER spelling of the same headword** (batch 223). His
+  XOIL (XOWIL ?) 舀小米酒的杓子 shares no character with `huwir` 湯匙, which is
+  why no overlap instrument ever surfaced the card — and `xowil` derives to
+  `huwir` by x→h, o→u, l→r with nothing left over. Batch 204's different-root
+  test is what settles it: the register's ladle family (`isux` 飯瓢, `sahug`
+  水瓢, `wihi` 水瓢、湯匙, `hahug` 舀) contains no word reachable from either of
+  his spellings, so there is no rival root and nothing to respell away from.
+  **The general sweep is now exhausted**: headwords of the shape `X (Y ?)` whose
+  two sides map to different values of which exactly one is dark return ONE row
+  in 1,967 entries, and it was this one.
+- **His TAG SHAPE separates a variant from a posited root** (batch 223). Batch
+  200's parenthetical rule applies to `(KL'ULUS ? - R. = ULUS ?)`, which names
+  another spelling of the headword KLUULUS — his ULUS card confirms it by writing
+  "la R. de KL'ULUS (=disperser)". It does NOT apply to `(R. ? - R. = POXEL ?)`,
+  where he posits a bare ROOT and marks it with his own question mark: KPOXEL is
+  not POXEL, the head is already served by `qpuhir` 耳聾, and there is no
+  inconsistency to fix. Bare roots he posits — `dux`, `eydang`, `eysa`, `ihur`,
+  `iyak`, `kuy`, several marked on the page (IYAQ 這會是 MIYAQ 的詞根嗎？;
+  UKWI 從未單獨出現) — are a settled class in batch 203's sense, and naming the
+  class is not a door to clear it.
+- **The scan question only opens when a rival reading exists** (batch 213). An
+  edit-distance sweep around TMAGO 驕傲 found no proud word at all, so there was
+  nothing for the glyph to be. Refused on batch 204's test instead: `dahu` and
+  `psparu` carry the meaning off different roots.
+- **A name-only register gloss does not convict a dark value** (batch 225). Over
+  all 1,967 entries, 41 dark map values are glossed ONLY as a name in
+  `attested_gloss.json` while their card's Chinese shares no character with it —
+  and they are overwhelmingly CORRECT: `harung` 松樹, `sudu` 雜草, `waray` 線,
+  `pajiq` 蔬菜, `putuh` 截斷, `urung` 角. Truku personal names ARE ordinary words
+  and the gloss file often carries only the name row; four of eight sampled have a
+  second source supplying the everyday meaning. **A negative result — don't sweep
+  it.** What convicted `kubuy` 狗名 on his KUBWI 遮蔽／悶死 was not the name gloss
+  but that it had NO second source (bible 0, parquet 1, under the `>= 2` bar) while
+  its own root was spelled seven other ways in the same book.
+- **The sibling seam can span two CARDS, and `contra223.py` cannot see that**
+  (batch 225). That instrument keys on his `l`/`x` rendering both ways inside ONE
+  entry. His KUBWI head sat on `kubuy` while batch 49 (`Pkbuyo → pkbuyu`) and
+  batch 201 (`Kmubui/kmbui → kmbuyu`) had already put seven spellings of the same
+  root on the `buyu`/`kbuy-` stem — on the BUYO card, which his own tag names as
+  the root. **When a card's tag names a root, rule the head against THAT card's
+  ledger**, not against the head's own shape.
+- **Batch 223's `X (Y ?)` sweep was not exhausted — it read one parenthetical**
+  (batch 225). Ninety-two entries carry a COMPOUND tag; his KUBWI is
+  `(KBUI ?) (R. = BUYO ?)`, and the sweep saw only the second. Re-parsed with
+  every parenthetical and batch 223's tag-shape rule applied, the shape returns
+  **10** rows. Two live pale-side ones remain — PSAANAK `(PSAANAQ ?)` and SA'MUL
+  `(S'MUL ?)`, the latter the mirror shape with his HEAD pale. The other five are
+  GREEN-side, which is a different question: green means no map entry fired, so
+  the fix is itself a new spelling claim.
+- **The analyser's PEEL can land on a homograph, exactly as the map can** (batch
+  224). `roots('graka')` returns one analysis, `('raka', 'g', …)` — it takes the
+  `g` for a prefix and lands on `raka`, listed and glossed 人名（男）. The gloss
+  test then scores a male personal name against his GLAQA 觀察—窺探—監視 and
+  refuses, correctly, on the wrong candidate. **The tell is a pale head beside a
+  dark, LISTED sibling of its own card** (`gmraka`, his Gmlaqa): the project has
+  already accepted which root the card is, so the head has nothing left to prove.
+  The instrument is to ask which listed forms spell the stem WHOLE — `empgraka`
+  要埋伏 and `spgraka` 讓…去埋伏 prefix `graka`, not `raka`, which is what makes
+  the `g` root and not affix. Then name the form whose own gloss carries his
+  character: `grkaan` 監視;埋伏. The map needed no change at all; the ruling
+  changed a COLOUR.
+- **Silence is evidence only where the slot is spelled for OTHER stems** (batch
+  224) — otherwise it is batch 217's empty candidate list wearing batch 220's
+  clothes. His `psnnai (?)` was refused because the register spells **zero**
+  forms of that syncopated stem, and that counts because the register DOES spell
+  the same `-i` slot for its neighbours (`psnani` 要嚼爛, `psnaki` 要區別,
+  `psnangi` 象徵性的做). Check the sisters before calling an absence a refusal.
+- **His own `(?)` is testimony about the FORM, not about the transcription**
+  (batch 224). Where he marks a paradigm slot uncertain, the scan still has to be
+  read — page 196 at 8× against the `m` of `psnmaan` on the same line gave two
+  legs against three, so `psnnai` is what the page carries and `entries.js` is
+  untouched. His doubt is then evidence that the form itself is shaky, which is a
+  reason not to tidy it into the regular shape his other four slots predict.
 
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 97.90%** (5,315). Not token share. A pair is
+  is dark, over 5,429. **Currently 98.19%** (5,331). Not token share. A pair is
   what an MT session can consume; a token percentage is not.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
@@ -276,6 +536,11 @@ Clips are TTS (F5-TTS v5, White Dog / Huling Bhgay narrator) on Cloudflare R2 at
 gets no button, because offering one would put a pronunciation in his mouth that
 his page does not spell.
 
+- **Do not synthesize anything until there is a voice.** The order is: the text
+  to 100, THEN a voice, THEN redo the audio. The White Dog / Huling Bhgay v5
+  narrator voiced the clips now in the bucket; it is not the voice the rebuild
+  will use, so a run started before that is settled is 3,328 clips of the wrong
+  reading. Measuring the staleness is free and worth doing; voicing it is not.
 - **Build the item list from the DOM**: `python tools/build_tts_items.py`
   (`--write` to emit). The old `ilrdf/build_full_items.py` was a second
   implementation of `modernize()` and drifted several batches behind the app
@@ -287,6 +552,19 @@ his page does not spell.
 - **An id is a URL.** A re-minted id silently unhooks a clip already recorded and
   paid for, so nothing is written unless all 5,134 already-attached ids mint back
   identically. Assert that before writing, never after.
+- **`build_entries.py` no longer reproduces `site/entries.js`'s audio wiring**
+  (batch 219). Both HEAD and the working copy carry exactly 5,134 attached ids;
+  a plain rebuild emits **5,427** — 301 minted onto examples that had none, and 7
+  dropped, six of them the `t == fr` French rows the metric already excludes. The
+  entry/sub-form/example counts are identical (1,967 / 2,948 / 5,436), so nothing
+  in the diff looks wrong. **Correcting a transcription slip therefore does NOT
+  mean re-running the builder**: restore, patch the one string in `entries.js`
+  directly, and assert `lost=[] new=[]` on the id set. Fixing the builder is its
+  own job and belongs with the audio rebuild, not inside a spelling batch.
+- **A reworded example keeps its old id on purpose.** `Dludan ni drbiyax` became
+  `dmbiyax`; re-minting to `ex_dludan_ni_dmbiyax` would unhook the clip, so the
+  id stays and the clip joins the known-stale set. Staleness is tracked and the
+  rebuild is pending; an unhooked URL is not recoverable.
 - **Compare words, not typography.** `items.json` predates `tidy()`; a raw-string
   diff calls 4,964 of 5,134 clips stale when the true figure is 3,061, because
   `da` vs `da.` scores 275 times on its own.
@@ -307,7 +585,13 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `54 logs — 23 clean, 181 superseded, 0 REGRESSIONS`.
+  `68 logs — 30 clean, 206 superseded, 0 REGRESSIONS, 0 crashed`.
+- **A batch that finishes an old supersession fails the log that recorded the
+  unfinished half** (batch 223). Ruling `tqq'lang → tqqrang` made `dom57.py`
+  report `BROWN tqq'lang tqqlang missing on [QQ'LANG]` — not a regression, the
+  pin's own comment in `b57.py:116` says it was tracking a head batch 201 had
+  already moved. Ledger kind `map` (precedent: `dom60.py`'s `tglgli` row); the
+  darkness assertion belongs in the new batch's log, not in the ledger row.
 - **A frozen measurement is not a test until something adjudicates its
   failures** (batch 209). The logs are records of what a batch measured; the
   project moves under them, so failures accumulate that are not regressions. 181
@@ -315,19 +599,91 @@ his page does not spell.
   `verified.js`. **Never edit a log to make it pass** — that destroys the only
   evidence anything moved. The supersession goes in the ledger, naming the batch
   that overturned the pin.
+- **Healing must be REPRODUCED before it is reported** (batch 217), and
+  reproduced serially. A ledger row heals when its exact failure line stops
+  appearing — but the line carries the measurement inside it, so a log that
+  under-renders emits `got {}` where it emitted `got {'dark': 1}`, the key stops
+  matching, and the screen says `retire them`. It happened to all five of
+  `dom154.py`'s rows at once: four `wiring_score.py` shards from another project
+  saturated the machine, the suite's own pool added four browsers, and dom154
+  still waits 6s where the standard is now 22s. Run alone it reproduced every
+  one. **Retiring a row destroys the only evidence anything moved, so the burden
+  of proof belongs on the healing** — `suite.py` now re-runs any log with
+  apparent healings, serially, and reports only what survives. Controlled both
+  ways: five artefacts rescued, an injected unreachable row still reported.
+  Not a dom154 quirk — **53 of the 61 logs wait under 15s** (19 at 2.5s, 34 at
+  6s, one at 30s). They pass because the book renders fast on an idle machine.
+  Fix the adjudicator, never the 53 waits.
+- **Check the machine before believing a suite result.** The wall-clock tell is
+  a ~4 min suite taking ~17; `Get-CimInstance Win32_Process` names the culprit,
+  and it may belong to another project entirely.
 - **A supersession must re-assert the reason, not excuse the failure** (batch
   209). `dark` re-checks that the word is dark AND alone; `map` re-reads
   `modern_map.js` so a drift to a third spelling still fails; `meta` re-derives
   batch 207's metalinguistic test from `entries.js`. And **run the negative
   control** — 13 tampered lines fed to `adjudicate()` — because a ledger that
   cannot fail is a list of excuses.
+- **A failure kind `failures()` cannot see is reported as a CRASH, not as a
+  regression** (batch 219). `rc and not fs` sends the log straight to CRASHED, so
+  an unrecognised failure line hides the failure completely. It has happened
+  twice: the floor in batch 218, and the prose `FAIL <word> … It was refused
+  because …` line dom214/216/217 write for their refusal pins — four real
+  failures behind it, three of them overrides of those same logs' refusals.
+  **Read a crashed log's own output before assuming the log is broken.** `sig()`
+  now keys a prose FAIL on the sentence with its digits blanked, and kind
+  `ruled` re-asserts both halves of an overturned refusal: the map still says
+  what overturned it, AND the value is still in `verified.js` — a value that
+  goes pale reinstates the refusal without anyone deciding to.
+- **The metric floor is a ledger kind, and the first FALL was batch 218.** A
+  floor failure used to CRASH the suite instead of reaching `adjudicate()` — the
+  one failure kind batch 209 never wired up, because the metric had only ever
+  risen. `sig()` now keys on the log's pin (`FLOOR 5329`) and carries the
+  measurement beside it, and kind `floor` re-asserts two things: the metric has
+  not fallen FURTHER than the overturning batch's own floor, and the ruling the
+  pairs were spent on is still in the map. Negative control: 7 tampered cases,
+  2 pass, 5 refused, plus the sig()-keys-on-the-pin check.
+- **Removing a freeze can only ever LOOK like a regression.** A homograph freeze
+  paints dark AND wrong, so the colour metric scores it as a win; reverting it
+  costs pairs. Batch 218 paid 3 for `mqlaq`. Budget for that, don't flinch at it.
 - **A pinned occurrence count is a snapshot of a growing book** (batch 209). All
   eight count drifts were increases, from later pages and from map arrivals.
   Assert a floor, never equality; a count that FALLS is the news.
 - **Measure from the DOM, not from the map.** Assert against rendered cards.
+- **A `.truku` prefix on a comma-separated selector scopes only the FIRST
+  alternative** (batch 216). `'.truku ' + 'span.w-mod, span.w-unv, span.w-raw'`
+  means `.truku span.w-mod` OR `span.w-unv` OR `span.w-raw` anywhere in the card,
+  so dark is scoped and pale and green are not. It reported 17 green where there
+  are 2 (`REMARQUE`, `PA`, `R` — a French gloss word and two tags) and 247 pale
+  where there are 107. **The fingerprint: every spurious span is pale or green
+  and none is dark.** Walk the `.truku` boxes and query inside them.
+- **A pallor census is book-wide; only the PAIR metric is `.truku`-scoped**
+  (batch 222). His headword, his sub-form names and his paradigm slots render in
+  `.hw` / `.sub-form` / `.paradigm` — **not** inside any `.truku` box. Scoped,
+  the book shows 87 pale span types; unscoped, **159**. Nearly half the pallor
+  sits on his card furniture, invisible to a probe copied from a pair log. Batch
+  208's scoping rule is right about the metric, where a pale name in a French
+  gloss must not block a row whose Truku is dark, and wrong about a census. Ask
+  each question in its own scope; `dom222.py` collects both dicts in one pass.
+- **A negative control must inject a value that is in the tested state NOW**
+  (batch 222). Controlling the zero-pale assertion meant injecting a known-pale
+  word and requiring a FAIL. `treura` — named in this file as the biggest pale
+  word on the page — passed, because it has since gone dark. A control keyed on
+  the notes rather than on the current measurement proves nothing and reads as
+  proof. Pick it from the run you just did (`rngut`, 9 pale spans, fails
+  correctly).
+- **When two of your own instruments disagree, neither number is reportable**
+  until the disagreement is explained (batch 216). Chasing a 15-span gap between
+  the census and a new log found the bug in the log, not the census.
+- **A furniture ruling buys 0 pairs BY CONSTRUCTION — assert it** (batch 223).
+  His headwords, sub-form names and paradigm slots are in no `.truku` box, so a
+  value ruled there cannot move the denominator. Assert `inTruku == 0` on every
+  such value in the batch's log, or a later batch reads the flat metric as a
+  failed seam and re-prices it. `logs/furniture.py` is the ranker; it is the only
+  instrument in the project that is not `.truku`-scoped.
 - **Rank the pale by occurrence, not only by pair.** `blockers.py` ranks by
   sentence pairs, so a word spent on headwords and crossrefs never reaches it —
-  the biggest pale word on the page (`treura`, 13) was invisible to it.
+  the biggest pale word on the page (`treura`, 13 — dark since, batch 222) was
+  invisible to it.
 - **A green span is not a pale one.** Green means no map entry fired; the fix is
   a map entry, which is itself a spelling claim, not a warrant in `verified.js`.
 - **A test that cannot see a colour reports it as an absence** — check the harness
@@ -335,7 +691,13 @@ his page does not spell.
 - **Assert the replacement COUNT** on any sweep, or you will unhook the audio.
 - **Read a bad row as a diagnosis**, and don't diagnose a missing file from a
   truncated `ls`.
-- **An empty candidate list is not a refusal.**
+- **An empty candidate list is not a refusal.** Batch 217 is the sharpest case:
+  `roots()` restores the swallowed vowel for `un`/`an` and their long forms and
+  for nothing else, so `spngan` and `spngun` reach the listed `spngi` while
+  `spngaw` — the same paradigm, one suffix over — strips to `spng`, matches
+  nothing, and is invisible to all fifteen rungs at once. **Probe the sisters
+  before believing a level 0**: two words of one paradigm getting opposite
+  verdicts locates the gap in the inventory, not in the word.
 - **A greedy algorithm over an unordered input is a sample, not a rule.**
 - Verifying crossref behaviour needs two taps: first shows the gloss preview,
   second opens the entry (`app.js:1272–1276`). A single `.click()` moves nothing.

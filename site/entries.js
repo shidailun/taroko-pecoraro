@@ -32344,7 +32344,7 @@ window.ENTRIES = [
             "a": "ex_dludan"
           },
           {
-            "t": "Dludan ni drbiyax",
+            "t": "Dludan ni dmbiyax",
             "fr": "Les anciens et les jeunes (dans la force de l'âge).",
             "en": "The elders and the young (in the prime of life).",
             "zh": "長者與年輕人（正值壯年者）。",
@@ -37953,11 +37953,11 @@ window.ENTRIES = [
         "zh": "最近——不久前——沒多久以前。",
         "examples": [
           {
-            "t": "Mniyax so smuwan ? ... Snii bi !",
+            "t": "Mniyax so sknuwan ? ... Snii bi !",
             "fr": "Quand es tu venu? ... Tout dernièrement - il n'y a pas longtemps .",
             "en": "When did you come? ... Very recently - not long ago.",
             "zh": "你什麼時候來的？……剛剛——不久前。",
-            "a": "ex_mniyax_so_smuwan_snii_bi"
+            "a": "ex_mniyax_so_sknuwan_snii_bi"
           }
         ]
       },

@@ -114,7 +114,6 @@ mbua             embuwa            mbuwa            M/twin       0     2
 mbudo            embudu            mbudu            P/twin       0     2
 mbukao           embukaw           mbukaw           P/twin       0     2
 mbutul           embutul           mbutul           P/twin       0     2
-mbuyan           embuyan           mbuyan           R/class      0     1
 mp'baki          empbaki           mpbaki           P/class      0     1
 mp'ka'man        empkeeman         mpkeeman         P/class      0     2
 mp'lut           emprut            mprut            P/twin       0     2
@@ -168,7 +167,6 @@ mpl'çan          emplxan           mplxan           E/class      0     2
 mplaqat          empraqat          mpraqat          P/class      0     2
 mplawax          emprawah          mprawah          T/class      0     1
 mpldax           emprdax           mprdax           R/twin       0     1
-mplidil          emprijil          mprijil          R/class      0     1
 mplikut          emprikut          mprikut          P/class      0     1
 mplilu           emplilug          mplilug          P/class      0     1
 mplimu           emprimu           mprimu           P/class      0     3

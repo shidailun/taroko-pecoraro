@@ -33,7 +33,6 @@ mnotoç           mnutux           mn-    otoç             M
 mnpgalup         mnpgealuk        mn-    pgalup           M
 mnpito           mnempitu         mn-    pito             M
 mnplawax         mnprawah         mn-    plawax           B
-mnqalit          mnqlit           mn-    qalit            A
 mnsuai           mnswayi          mn-    suai             M
 mntatoq          mntatuk          mn-    tatoq            L
 mnttatoq         mnttatuk         mn-    mttatoq          P
