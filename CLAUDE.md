@@ -256,6 +256,38 @@ These were each learned by breaking something. Evidence for every one is in
   a refusal's reason as an assertion about the page and re-measure it**, rather
   than treating the whole sentence as settled — the verdict can be right while
   the fact it names has rotted.
+- **When the record refuses a word, check what the refusal SEARCHED, not only
+  what it concluded** (batch 230, the mirror of batch 221's "grep the record").
+  Both of that batch's rulings needed a written refusal retired, and neither
+  refusal was bad reasoning — each was sound over an incomplete search. Two
+  shapes recur, and both are cheap to re-run:
+  - **A zero from ONE gloss file is not a zero from the register.** Batch 201
+    refused the SPUNG card because 試探 and 拯救 "return 0 register rows". 試探
+    returns 0 in `attested_gloss.json` and **4** in `bible_gloss.json`, which
+    existed at that very commit. Search both, always.
+  - **Search his gloss CHARACTER BY CHARACTER, not as a string.** His 嫉妒 returns
+    38 rows of which 34 are the unreachable `hkrig` family; the single character
+    **妒** puts the listed `sneuhir` at 2 edits, top of the list. Gate on carrier
+    rarity (妒 43, vs 子 887 and 為 1569) or the output is batch 221's noise.
+- **A char-rule output a couple of edits from a listed word is not a "fake
+  word"** (batch 230). `b57.py:120` froze `snoxel` to identity to suppress
+  `charRules`' "SNUHER"; `snuher` is two edits from `sneuhir`, the gap being the
+  epenthetic schwa the char rules cannot supply. Before freezing an output as
+  nonsense, measure its distance to the register.
+- **His own ALPHABETICAL ORDER is testimony about a letter** (batch 230), and it
+  is cheaper than the scan. His XUBAO sits between X'TOL and XUGUT among the XU-
+  words, so the vowel cannot be an `i` however well `hibaw` 刀鋒 / `hnibaw` 被割傷
+  fit his XUBAO/XNUBAO pair. Batch 68 had held that card for want of an attested
+  bare form; the bare forms exist now, the premise is repaired, and the verdict
+  stands — because `u → i` occurs **0** times in 7,371 map pairs while `o → u`
+  fires 1,804 (batch 215's instrument, returning zero).
+- **The rare-character meaning sweep is closed** (batch 230). Over all 131 pale
+  values joined to his Chinese, gated at ≤120 carriers and ≤2 edits with batch
+  218's metalinguistic strip, it returns 48 rows; batch 221's record-grep leaves
+  4 with no prior mention and **none is a ruling** — three score on a common
+  character (品, 花, 為 at 1,569 carriers) and the fourth is XUBAO. Positive
+  control: fed the pre-ruling state it finds `snuher → sneuhir`. A negative
+  result, kept — as with `freezesweep.py` and `tail221.py`; don't rebuild it.
 - **A pin that spells what `charRules` already spells is still load-bearing**
   (batch 227, as batch 218's `mqlaq → mqlaq`). Deleting a reverted freeze's map
   entry does not return the word to his letters: `charRules("s'mul")` = `smur`
@@ -481,7 +513,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.36%** (5,340). Not token share. A pair is
+  is dark, over 5,429. **Currently 98.43%** (5,344). Not token share. A pair is
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
@@ -494,6 +526,12 @@ These were each learned by breaking something. Evidence for every one is in
   pair — is ruled or refused item by item. The 130 pairs still blocked are held by
   words with a written refusal, so the next gain has to come from new evidence,
   not from re-ranking what is already priced.
+- **The sole-blocker ranking hides pairs held by TWO types of the same root**
+  (batch 230). A sentence blocked by `pdaqi` and `pstui` at once appears in no
+  sole-blocker list, so the multi-blocker seam sat unworked for thirty batches
+  while every tier above it was declared closed. It had six rows; two were
+  rulings (+4 pairs) and the other four were confirmed refusals. When a ranking
+  reports a tier exhausted, ask what shape of pair the ranking cannot see.
 - **French in a Truku field is not a pair, and was inflating the metric.** Six
   example rows have a `t` identical to their `fr` — his AN (3) card demonstrates
   the circumfix that way (`Paro = Grand; Knplaan = Grandeur`). `metaLine()` in
@@ -628,7 +666,7 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `71 logs — 37 clean, 196 superseded, 0 REGRESSIONS, 0 crashed`.
+  `73 logs — 38 clean, 201 superseded, 0 REGRESSIONS, 0 crashed`.
 - **A CRASH can be the machine, and its five failures go missing with it** (batch
   228). Under two foreign jobs (`align.py`, a 16-thread `screen_solo.py` shard)
   `dom154.py` timed out navigating and the suite read `71 logs — 37 clean, 191
@@ -636,7 +674,10 @@ his page does not spell.
   five ledgered rows — **191 + 5 = 196**, which is the arithmetic that proves the
   crash swallowed a whole log's adjudication rather than the book having moved.
   The same run's serial re-check rescued five apparent healings. Check the
-  superseded count adds up before believing a crash.
+  superseded count adds up before believing a crash. It recurred in batch 230 —
+  `align.py` at 21,708 CPU-seconds, `dom216.py` timing out, three rows missing,
+  `194 + 3 + 4 = 201` — so treat it as the normal reading of a crash, not a
+  one-off.
 - **A batch that finishes an old supersession fails the log that recorded the
   unfinished half** (batch 223). Ruling `tqq'lang → tqqrang` made `dom57.py`
   report `BROWN tqq'lang tqqlang missing on [QQ'LANG]` — not a regression, the
@@ -675,7 +716,11 @@ his page does not spell.
   subtracted in `ABSORBED`: deleting them destroys the record, and a failure that
   comes back still needs its explanation, but a HEALED report standing at 11
   forever masks the next real healing. **Suspect the git-relative logs first
-  whenever healings arrive in a clump right after a commit.**
+  whenever healings arrive in a clump right after a commit.** And the class is
+  not those six: **`dom58.py:53` reads HEAD the same way** (batch 230), so
+  committing batch 229 healed its two SLAP rows over a book that had not moved.
+  The rule is about the git-relative READ — `grep "git show" logs/*.py` — not
+  about the logs batch 226 happened to catch.
 - **The citation seam can FAIL a darkness assertion, and that is by design**
   (batch 226). `CITE_SPELL` pales any form rendered as a NAME, so both his LIDIL
   heads paint `RIJIL` `w-unv` and the bend card — six affixed subs, no example —
@@ -684,6 +729,15 @@ his page does not spell.
   deliberately refused. Ledger kind **`cite`** re-asserts BOTH tables, because a
   re-merge can arrive from either side: drop the app.js key and every citation
   falls back to the map; move the map and the running text leaves the seam.
+- **The DOM is the authority on COLOUR, not on his gloss** (batch 230). There is
+  no `.gloss-zh` class — `app.js:1589` renders `<p class="gloss"><span
+  class="lang-chip zh">中</span>…`, so a probe selecting `.gloss-zh, .zh` returns
+  the string `中` once per card and nothing else. A sweep keyed on his Chinese
+  must take the pale VALUES from the DOM and join the glosses **offline from
+  `entries.js`**, running his tokens through the same three tables the app reads.
+  Eleven of 142 pale values will not join that way — the `CITE_SPELL` seam and
+  the `WORD_OVERRIDES` keys, which are invisible to a map-only lookup; report
+  them rather than letting the join silently drop them.
 - **Ask the DOM in the DOM's own CASE** (batch 226) — the display-side twin of
   batch 219's alphabet rule. `.hw` prints the modern headword UPPERCASE, so a
   probe filtering spans on lowercase `rijil` reported both LIDIL headwords as

@@ -112,6 +112,16 @@ LEDGER = {
         ('map', 'srngiun', 'batch 220 ruled it off the register'),
     ('dom57.py', 'BROWN pslngiyun psrngiyun missing on [SLANGI]'):
         ('map', 'psrngiun', 'batch 220 ruled it off the register'),
+    # Batch 230 ruled his SNOXEL card onto the register's OTHER jealousy root.
+    # These logs pinned the identity freeze b57.py:120 wrote when `charRules`
+    # printed "SNUHER" beside brown siblings and it looked like a fake word. It
+    # is two edits from the listed `sneuhir` 忌妒;吃味;容不下人, the gap being the
+    # epenthetic schwa the char rules cannot supply. The failure IS the ruling
+    # landing; the darkness assertion lives in dom230.py.
+    ('dom57.py', 'BROWN snoxel snoxel missing on [SNOXEL]'):
+        ('map', 'sneuhir', 'batch 230 ruled the uhir jealousy root'),
+    ('dom57.py', 'BROWN msnoxel msnoxel missing on [SNOXEL]'):
+        ('map', 'msneuhir', 'batch 230 ruled the uhir jealousy root'),
     # --- dom58.py
     ('dom58.py', 'BROWN m\'mu mmu missing on ["MU]'):
         ('map', 'meemu', 'batch 201 respelled it'),
@@ -170,7 +180,15 @@ LEDGER = {
     # identity pin is load-bearing — charRules('mqlaq') spells mqraq on its own.
     ('dom65.py', 'BROWN mqlaq mqraq missing on [QLAQ]'):
         ('map', 'mqlaq', 'batch 218 reverted the mqlaq freeze'),
+    # Batch 230. His SPUNG example spells the causative `pstui` once against
+    # `pstutwi` 6× (batch 213's hapax test), and three sibling spellings were
+    # already pinned to `pstutuy` 使扶起身. This is the fourth.
+    ('dom63.py', 'BROWN pstui pstui missing on [SPONG]'):
+        ('map', 'pstutuy', 'batch 230 ruled the fourth spelling to the register'),
     # --- dom66.py
+    # Batch 230, the same SNOXEL ruling reaching his TAKOL example.
+    ('dom66.py', 'BROWN msnoxel msnoxel missing on [TAKOL]'):
+        ('map', 'msneuhir', 'batch 230 ruled the uhir jealousy root'),
     ('dom66.py', "BROWN lidil rijil missing on [L'BU]"):
         ('map', 'rijig', 'batch 211 split the LIDIL homograph'),
     ('dom66.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'):
@@ -661,6 +679,14 @@ ABSORBED = {
     ('dom65.py', 'BROWN tqliyun tqriyun missing on [QELI]'),
     ('dom66.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'),
     ('dom66.py', "BROWN lidil rijil missing on [L'BU]"),
+    # [batch 230] The batch-226 mechanism again, and the first time it has
+    # arrived for a log outside the six named there: dom58.py:12 also reads its
+    # *before* map out of `git show HEAD:site/modern_map.js`. Committing batch
+    # 229 put `n'gui`/`nagui -> gneeguy` into HEAD, so the log's before and
+    # after now agree and the rows stop failing. Nothing about the book moved.
+    # Kept in LEDGER because the explanation is still owed if they come back.
+    ('dom58.py', "BROWN n'gui nguy missing on [SLAP]"),
+    ('dom58.py', 'BROWN nagui nagui missing on [SLAP]'),
 }
 
 

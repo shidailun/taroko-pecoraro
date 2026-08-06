@@ -6429,3 +6429,191 @@ and `\bmman` unanchored on the right matching his French *commandements*. The
 last exposed a real assertion worth having: the raw file carries the wrong
 readings inside **audio ids**, which is correct — an id is a URL and a corrected
 example keeps it.
+
+---
+
+## Batch 230 — the multi-blocker seam, and a meaning sweep that returned nothing
+
+The sole-blocker ranking cannot see a pair held by **two** pale types at once, so
+a pair blocked by two spellings of the same root never reaches it. The
+multi-blocker list had six rows and had never been worked. Two were rulings, and
+each needed a written refusal retired first.
+
+### 1. SPUNG — three defects in one Lord's Prayer sentence
+
+    Ya nami bi pdaai pnspngan ni, pstui nami pax knnaqex
+
+Two transcription slips and one faithful reading, which is exactly the split
+batch 212 legislates: the slips go in `entries.js`, his own letter goes in the
+map.
+
+- **`pdaqi` → `pdaai`.** Page 297 (scan 297) at 18×: two flat-bottomed `a` bowls
+  with no descender, against the obvious descender on `knnaqex`'s `q` on the same
+  line. His own book writes the word twice — `Pdai bi kana biyax lnglongan…`
+  (NDOA) and `Ya bi pdai tnbiyan ka kacing` (TABE), the **same** `Ya … bi pda-i`
+  negative-imperative frame. `pdai` is bible-glossed 使經過；讓……注意到 against his
+  French *"Ne me fais pas passer"*. `pdaay` was rejected — no gloss, one source,
+  spoken 1.
+- **`pspngan` → `pnspngan`.** The page plainly prints `pns-`. `pnspngan` 考驗；試探
+  is listed (spoken 7) and the generator emitted it **at the id tier on its own**,
+  which is the whole point: the word was there all along and only the
+  transcription stood between his page and it. His sub-form NAME `Pspngan` is
+  underlined on the page and stays.
+- **`pstui` → `pstutuy`, in the map.** 22× shows five glyphs, a single `t`, no
+  `w` — his spelling, faithful. `pstutuy` 使扶起身 (spoken 15) answers his French
+  *"relève moi du mal"* and his own TUTWI card, *"Se lever (au physique et au
+  moral)"* 起身. Three sibling spellings (`psttui`, `psttuy`, `pstutwi`) were
+  already pinned to it; this is the fourth. He writes `pstui` **once**, against
+  `pstutwi` 6× — batch 213's hapax test. `pstuy`, `stuy` and `ptuy` are all
+  unlisted, so `pstutuy` is the register's only causative of that root.
+  `sttui → sttui` (STA"TO 斜坡上, a different card) **held**.
+
+**Batch 201 refused this card and the premise it named has gone false.** Its
+reason was that 試探 and 拯救 "return **0** register rows". Today 試探 returns 0 in
+`attested_gloss.json` and **4** in `bible_gloss.json` — `empspung`, `pnspngan`,
+`pspngan`, `pspngi` — and `git show f355b6b:tools/orthography/bible_gloss.json`
+carries 考驗；試探 on `pnspngan` at batch 201's own commit; the file entered at
+753302a (batch 149), an ancestor. The zero came from searching **one** gloss
+file. That is batch 227's shape: read a refusal's reason as an assertion about
+the evidence and re-measure it.
+
+### 2. SNOXEL — the register has a second jealousy root
+
+`snoxel → sneuhir` 忌妒;吃味;容不下人 and `msnoxel → msneuhir`, both code 1, +3
+pairs. Three written refusals go with it:
+
+- `b57.py:120` froze `snoxel`/`snxelan` to identity because `charRules` printed
+  "SNUHER" beside brown siblings — a fake word, so freeze it.
+- `map-history.md:779` and batch 204 (`batch-log.md:3746`) both said his 嫉妒 is
+  `hkrig`, a different root, so there was nothing to respell.
+
+**Why all three missed it, measured.** Searching the STRING of his card, 嫉妒,
+returns 38 rows of which **34** are `hkrig`-family, and the only `uhir` hit is
+`ssneuhir`, which is unattested. Searching the single character **妒** puts
+`sneuhir` at edit distance **2**, top of the list. And `snuher` is not a fake
+word — it is two edits from a listed one, the gap being the epenthetic schwa the
+char rules cannot supply. The family is real and inflects: `uhir` 忌妒（吃味）,
+`sneuhir`, `msneuhir` 互爭不下, `psneuhir` 使容不下人, `smneuhir`, `ssneuhir` 嫉妒.
+His `xel` ↔ modern `hir` is an established correspondence in 12 map values, five
+of them `oxel → uhir` on his own KPOXEL card.
+
+`snxelan` **holds pale**. No `-an` of either stem is listed — not `sneuhiran`,
+not `snuhiran`, not `snhiran` — and batch 224's sister test passes, because the
+`sn-…-an` shape IS spelled for **91** other stems. So the silence is evidence and
+not batch 217's empty candidate list. An `-an` form entering the register is the
+news that re-opens it.
+
+### 3. The meaning sweep the SNOXEL ruling licensed — a NEGATIVE result
+
+The fingerprint that found `sneuhir`: **a pale value whose card's Chinese carries
+a RARE character that some listed word carries, within 2 edits.** Run over all
+131 pale values joined to his Chinese — the values from the DOM, the glosses
+joined offline from `entries.js`, because `.gloss` in the page carries only a 中
+language chip — with batch 218's metalinguistic strip on both sides and gates at
+120 carriers / 2 edits, it yields **48 rows**. Batch 221's grep of the whole
+record leaves **4 with no prior mention**, and not one is a ruling:
+
+- `msapang` 補破舊物品的人 scores on the 品 of his 品行不端的人 (SAPAT 放蕩).
+- `rmuhug` 炒(如炒花生) scores on the 花 of his 花苞 (MOXONG 芽、花苞).
+- `nmanu` 為何 scores on the 為 of his 為了成為什麼 — and 為 has **1,569**
+  carriers, far past any rarity gate. It is also a different SLOT: his is
+  s-prefixed and the register spells no s-form of that root at all.
+- XUBAO, below.
+
+Positive control: fed the pre-ruling state, the sweep returns `snuher → sneuhir`
+d=2 on 妒. The instrument works and the seam is empty. **Keep the negative
+result; don't rebuild it** — as with `freezesweep.py` and `tail221.py`.
+
+### 4. XUBAO — batch 68's premise repaired, its verdict kept
+
+Batch 68 held this card because *"no bare form is attested: the omnibus has
+hbagan 被割傷 spk 5, hnbagan spk 4 and the full paradigm, and no hbag or hmbag"*.
+That premise is now false. `hibaw` 刀鋒, `hnibaw` 被割傷, `hmibaw` 割傷, `hmnibaw`
+割傷過 and `hhibaw` 割傷 are all listed, all bare, and `hibaw`/`hnibaw` match his
+XUBAO / XNUBAO pair slot for slot — same `-n-` infix, and his `-ao` is their
+`-aw`, settled by `longao>lungaw`. The `hbag-` forms are that root's syncopated
+stem with the regular `w~g` alternation before a suffix.
+
+Repairing the premise does not overturn the verdict (batch 227). Two things
+refuse it, and both are cheap:
+
+- His vowel is `u` and theirs is `i`, and **`u → i` occurs 0 times in 7,371 map
+  pairs**, while `o → u` fires 1,804, `e → i` 602, and even `u → e` fires 17 and
+  `i → u` 9. That is batch 215's instrument — count his letter, count the map's
+  correspondence, check the crossing occurs — and it returns zero.
+- **His own alphabetical order settles the letter.** XUBAO sits between X'TOL and
+  XUGUT on the page, among XU- words. An XIBAO could not be there. That argument
+  costs nothing and does not need the scan at all.
+
+Both spans are furniture — his headword and his sub-form name — so the card buys
+0 pairs by construction (batch 223), asserted in the log rather than assumed.
+
+### 5. The other multi-blocker refusals, positive halves named
+
+Each names the form whose OWN gloss carries his character, and each is a
+different root (batch 221):
+
+    snuk     釘子      釘 15 carriers, all samu-family; nearest 3 edits
+    they     釘不牢緊   牢 ONE carrier, hmkan, 5 edits
+    nrikut   藉口詭計   詭 ONE carrier, rnqdug, unreachable
+    basyaq   饕餮      饕 and 餮 have ZERO carriers in either gloss file
+    dmtsapat 放蕩      蕩 4 carriers, nearest tkakak at 5 edits
+
+### The standing observation
+
+**Both rulings needed a written refusal retired, and in both cases the refusal
+was sound reasoning over an incomplete search.** Batch 201 read one gloss file;
+b57 and batch 204 searched his gloss as a STRING and hit the 34-row `hkrig` wall.
+Neither was wrong about what it looked at. Batch 221's "grep the record before
+working it" has a mirror: **when the record refuses a word, check what the
+refusal searched, not only what it concluded.**
+
+### Measured
+
+    pairs 5340/5429 = 98.3607%  ->  5344/5429 = 98.4343%   (+4)
+    pale  226 -> 217 spans, 146 -> 142 types (book-wide)
+    green 17 spans / 15 types, unchanged
+    sole-blocked pairs 83 -> 81
+    MAP   7370 -> 7371   new=['pdaai','pnspngan']  lost=['pdaqi']
+                         chg: msnoxel, pstui, snoxel
+    VERIF 6320 -> 6323   new=['msneuhir','pnspngan','sneuhir'], all code 1
+    audio ids 5134, unchanged; the corrected example keeps the id that spells the
+    OLD reading, asserted by name in dom230.py
+
+`dom230.py` passes clean; `.scratch/b230/control230.py` runs 25 cases — one
+positive control passes, twenty-four tampers all refuse.
+
+### The suite, and a seventh git-relative log
+
+    SUITE 73 logs — 38 clean, 201 superseded, 0 REGRESSIONS, 0 crashed
+
+The first run read `194 superseded, 4 REGRESSIONS, 1 crashed`, and both numbers
+were the machine and the batch respectively.
+
+- **The crash was `dom216.py`, and its three rows went missing with it** — a
+  navigation timeout under `tools/align.py` (21,708 CPU-seconds) and
+  `poetry-readings/tools/locate.py`, batch 228's situation exactly. Run alone it
+  completed rc=1 and emitted all three ledgered rows. The arithmetic proves it:
+  **194 + 3 (the crashed log) + 4 (this batch's new rows) = 201**.
+- **The four regressions were the two rulings landing**, and they had no ledger
+  row because nothing had explained them yet: `snoxel` and `msnoxel` on
+  [SNOXEL] (dom57), `msnoxel` on [TAKOL] (dom66), `pstui` on [SPONG] (dom63).
+  All four went in as kind `map`, which re-reads `modern_map.js`, so a drift to
+  a third spelling still fails. The darkness assertions stay in `dom230.py`.
+- **Two apparent healings in `dom58.py` are batch 226's mechanism, and dom58 is
+  not one of the six logs that rule names.** `dom58.py:53` also reads its
+  *before* map out of `git show HEAD:site/modern_map.js`, so committing batch
+  229 put `n'gui`/`nagui → gneeguy` into HEAD, the log's before and after now
+  agree, and the rows stop failing over a book that has not moved. They go in
+  `ABSORBED` and stay in `LEDGER`. **The rule is about the git-relative READ,
+  not about the six logs batch 226 happened to catch** — grep `git show` across
+  the logs when healings arrive in a clump after a commit.
+
+`.scratch/b230/ledger230.py` is the negative control for the five ledger changes:
+28 cases, four positive controls, and every tamper refuses — the ruling drifted
+to a third spelling, reverted to his own letters, deleted outright, attributed
+to a log that never pinned it, and re-carded. The two absorbed rows are asserted
+present in BOTH tables, and asserted still able to refuse a reverted map.
+
+`logs/blockers.md` regenerated: sole-blocked pairs 83 → **81** over 69 types,
+multi-blocker pairs 6 → **4**.

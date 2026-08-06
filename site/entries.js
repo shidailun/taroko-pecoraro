@@ -57054,7 +57054,7 @@ window.ENTRIES = [
         "zh": "考驗、試探、考試。",
         "examples": [
           {
-            "t": "Ya nami bi pdaqi pspngan ni, pstui nami pax knnaqex",
+            "t": "Ya nami bi pdaai pnspngan ni, pstui nami pax knnaqex",
             "fr": "Ne me fais pas passer par la tentation et relève moi du mal.",
             "en": "Do not lead me into temptation and deliver me from evil.",
             "zh": "不要讓我陷入試探，救我脫離兇惡。",
