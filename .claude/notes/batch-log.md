@@ -6801,3 +6801,235 @@ asserted present in BOTH tables and still able to refuse a reverted map.
 
 `logs/blockers.md` regenerated: sole-blocked pairs 81 → **79** over 69 → **67**
 types, multi-blocker pairs 4, unchanged.
+
+
+---
+
+## batch 232 — three sweeps that came back empty, and a refusal repaired
+
+**0 pairs. The metric HOLDS at 5,346 / 5,429 = 98.4712%.** Sole-blocked pairs
+79 over 67 types, unchanged. Nothing was written to the map, to
+`manual_map.json`, to `verified.js` or to `entries.js`: the whole batch is one
+new log, `logs/dom232.py`, and its controls.
+
+Batch 231 gained two pairs with an instrument no token-keyed test can imitate —
+a query for a MULTI-WORD string in an outside corpus, which found that his
+`Kasayang` is `ka sayang` and his `isuka` is `isu ka`. That instrument was
+hand-aimed at two words. This batch generalises it, builds two more beside it,
+and every one of the three returns nothing. All three are kept with their
+controls so nobody rebuilds them, the same disposal as `freezesweep.py`,
+`tail221.py` and `premise231.py`.
+
+The batch opened by re-running batch 221's cheapest cut — grep the ranking
+against the record — over the whole sole-blocker list. **All 67 types are
+already argued in writing.** There was no ranking work left to do, which is
+what forced the batch to build instruments instead of working a queue.
+
+### 1. The join sweep, generalised — closed at two
+
+Per pale token of his, at every split point: both halves ≥ 2 letters, both
+modernising to words in `attested_modern.json`, both written by HIM standing
+alone, the SPLIT bigram present in the ILRDF parquets, the JOINED string absent
+from them, and the joined token not one he CARDS (batch 231's card exclusion).
+
+Over the 135 of his tokens that render pale: **0 candidates.**
+
+An empty sweep and a broken sweep have exactly the same output, so the number is
+unreadable without the control. Back the two batch-231 rulings out of the map
+and run the same code: `kasayang` (parquet 433) and `isoka` (26) come back as
+its top rows unaided. The sweep can see what it is looking for; there is no
+third.
+
+Widened past the pale list to all 7,378 of his tokens it returns 10, and the
+other eight all render **DARK already** — batch 222's rule, a correctness seam
+worth zero pairs by construction. None is near batch 231's bar either:
+`daxani` (76), `tagaxan` (6), `puda` (4), and five at 1–2 against 403.
+
+### 2. The parallel corpus, read as sentences — 13 proposals, 0 live
+
+Batch 183 read the parquets' Mandarin column for rows whose Truku side is ONE
+word (8,875 of them) and refused the phrase rows **in writing**: `baga bubu`
+母親的雙手 would gloss `baga` 手 and 母親 with equal confidence, and a shared
+character cannot tell which half it matched. That reason is about building a
+WORD → GLOSS file and it is right. It is not a reason against a question that
+never attributes a gloss to a word: take HIS example sentence and ITS Chinese,
+find corpus sentences whose Chinese overlaps his, and ask which Truku word in
+them is close in SHAPE to his pale token. Sentence against sentence is apples to
+apples, and it reaches the eleven cards he could not gloss himself.
+
+50,848 corpus rows carry Chinese; 85 of his example rows contain a pale token,
+over 72 distinct values. **Containment, not Jaccard** — his example glosses are
+whole sentences and the corpus rows are frequently single words, so a union
+denominator scores a perfect sense match at 0.1 and throws it away. That change
+alone took the sweep from 3 raw hits to 13 deduped proposals.
+
+Eleven of the thirteen are the failure mode batch 221 already documented — the
+shared characters are pronouns and function words and the shape match is
+coincidence:
+
+| his value | proposal | the register's gloss |
+|---|---|---|
+| `gnlqan` | `niqan` | 有 |
+| `kakuh` | `naku` | 我的 |
+| `pnnanu` | `nnamu` | 你們的 |
+| `sm` | `su` | 你 |
+| `gaqat` | `gaga` | 正在 |
+| `mqlaq` | `lqlaqi` | 孩子們 |
+| `mqlaq` | `malax` | 要放棄 |
+| `tbiran` | `birat` | 用具的手把 |
+| `rngiyan` | `ngiyaw` | 眼睛睜開 |
+| `smmul` | `sqmu` | 玉米（作物名） |
+| `teumuk` | `tumun` | — |
+
+**And the instrument's strongest-looking hit is a trap already priced**: it
+proposes `yianu → yamu` at containment 1.00, which is precisely the collapse of
+two sub-forms batch 231 refused in writing on his own YAMO card. A new
+instrument's best row being a written refusal is the cheapest possible check
+that the instrument is aimed at the right seam and the seam is empty.
+
+The thirteenth is `gaqat → gakat`, and it is adjudicable.
+
+### 3. GAQAT — the verdict stands, the PREMISE does not
+
+`dom214.py:97` refuses it thus: "`gakat` 起身;站立 shares the SHAPE only, and his
+`Tdoloi gakat (gaqat)` 腳踏車 is a second sense, so one key cannot serve both."
+The second clause is the argument and it is sound. **The first is false.**
+
+His own GAKAT card is glossed 蹲著——彎著——屈著, and its example glosses the
+bicycle 腳踏車（人蹲坐其上的車） — "the vehicle one squats on". The register's
+`gakat` is 起身爲;站立. Both are posture roots and the etymology connecting them
+is his own note. The shape is the least of what they share; scored on meaning
+the pair PASSES the gloss test.
+
+What actually refuses it is the homograph, and that is the stronger ground:
+
+- He cards GAKAT 蹲著 and GAQAT 冰塊、冰柱 **separately**.
+- The register's ice word is `huda`, with a family of its own — `gmnhuda` 製冰塊,
+  `gmhuda` 製冰的, `nhuda` 原來結冰, `smhhuda` 吃冰 — and **nothing at edit
+  distance ≤ 1 from `gaqat` carries 冰 anywhere in the register**. Batch 204's
+  different-root test settles the ice card: the meaning lives elsewhere, so
+  there is nothing to respell.
+- Two of his three `gaqat` tokens are the ice sense and one is the bicycle
+  parenthetical, so a remap would paint two correct renders wrong to fix one.
+  Batch 205's DIMA/QALO verbatim.
+- `CITE_SPELL` cannot rescue the good half: it fires only where `noLink` is
+  true, which is a render as a NAME, and **both** blocked sentences are running
+  text. The refuse-only hook has nothing to refuse here.
+
+So batch 200's parenthetical rule is asked and answered. His `Tdoloi gakat
+(gaqat)` really is testimony that two spellings are one word IN THE BICYCLE
+SENSE — his GAKAT card writes the compound with no parenthesis at all, `Tdloi
+gakat` — and the map still cannot act on it, because the same string is a
+different word two cards away.
+
+This is batch 227's shape with one difference worth recording: there the
+premise had **rotted** (a card went dark after the refusal was written); here it
+was **wrong when written**. The repair is the same either way, and so is the
+discipline — read a refusal's reason as an assertion about the page and
+re-measure it, rather than treating the whole sentence as settled. dom232 pins
+both halves: the map must still refuse the remap, AND `dom214.py` must still
+contain the sentence being repaired, so the repair cannot be quietly orphaned.
+
+### 4. His book as its own spellchecker — 40 shapes, 0 survivors
+
+Batch 213 corrected `smuwan` by asking whether a string appearing once in a book
+that repeats itself is even his. Run as a sweep: a token he writes at most twice
+whose value is PALE, one edit from a token he writes five or more times whose
+value is DARK. It returns **40 shapes, and none survives the gloss test.** A
+near-twin at one edit is what a language with this phonotactics looks like, not
+a typo.
+
+Two guards decide that zero, and both are the record's own rules rather than
+this batch's taste:
+
+- **A bare fragment is not a spelling candidate** (batch 203's settled classes).
+  `sm` scores twice on 你 — a pronoun standing in the sentence, not a meaning —
+  so a candidate must be three letters. Note the sentence sweep in §2 has no
+  such guard and duly proposes `sm → su`; the two instruments disagreeing about
+  `sm` is the guard being visible rather than assumed.
+- **A shared Han character is evidence only if it carries meaning** (batch 218,
+  a gloss score can land on the apparatus; batch 221, one common character is
+  the whole noise mode, naming 著, 子, 一, 人). The stoplist for this is
+  **DERIVED, not hand-picked** — the commonest characters across the register's
+  own glosses — and its DEPTH is set by the record too. `STOP_MUST` requires the
+  derivation to reproduce all six characters the project has already named as
+  noise; that happens at 30, because 著 sits at rank 26 (717 rows) behind 是 at
+  17 and 子 at 18. A hand-picked list would have been fitted to this batch and
+  proved nothing.
+
+The stoplist is load-bearing, and by a measurable amount: withdraw it entirely
+and 3 shapes survive — `ixol`/`mixol` on 不的, `olo`/`ole` on 是, `ubai`/`uxai`
+on 人的. Cut it at 10 and 2 survive. At 30, none. Every one of those three is
+scoring on a function word inside his sentence gloss.
+
+### The measurement, and one trap in the scratch
+
+`.scratch/b232/`'s probes and the log disagreed twice before the log was
+believed: 14 sentence proposals against 13, and 34 spellcheck shapes against 40.
+Both come from the same defect. `measure()`'s `seen` is EVERY span, not the dark
+ones — dark is what is LEFT when the two pale classes come out — and a probe
+that reads `seen` as dark makes a pale word its own supporting evidence. The
+direct measurement: `seen 6477, pale 140, raw 15, strict-dark 6322`; loose and
+without a length guard the spellcheck returns 56, strict with one 40, and there
+is nothing in strict that is not in loose. The log's numbers are the reportable
+ones.
+
+The pale census is unchanged at 215 spans over 140 types, `.truku`-scoped.
+
+### Controls
+
+`.scratch/b232/control232.py` — 38 cases, all behaved. Every pin is moved and
+required to refuse (the metric both ways, the denominator, the audio-id set both
+directions, a sole blocker cleared and a sole blocker gained, all four GAQAT
+colour assertions, both his cards' glosses, the bicycle etymology, his token
+counts, the sense split, and the cited premise leaving `dom214.py`). Beyond the
+pins, three legs are worth naming:
+
+- **The negative half of the GAQAT refusal is a regex, not a list.** Inject a
+  `gaqat`-shaped word glossed 冰 into the register at edit 0 or edit 1 and the
+  log refuses; inject one glossed 跳躍 and it does not. That is the news which
+  would re-open this, expressed so that it arrives on its own.
+- **An emptiness pin is controlled from the DATA side too.** Setting
+  `JOIN_PALE = 1` refuses, but so does feeding the sweep an EMPTY corpus — at
+  which point it can no longer recover `kasayang` either, which is the leg that
+  distinguishes "found nothing" from "cannot see". And parquets **unmounted** is
+  a SKIP: the log prints that sweeps 1 and 2 did not run rather than banking
+  their zeroes.
+- **The stoplist is controlled in both directions.** Cut above the record's own
+  six characters and it refuses; demand a character the register does not lead
+  with and it refuses; at the pinned depth of 30 it explains itself.
+
+### The suite, and a healing that split TARGET from HOLD
+
+`SUITE 75 logs — 40 clean, 200 superseded, 0 REGRESSIONS, 0 crashed`, and the
+arithmetic is the point (batch 228: check the superseded count adds up before
+believing anything). Batch 231 ended at `74 logs — 37 clean, 199 superseded,
+3 REGRESSIONS`; its three `kasayang` regressions became ledger rows, 199 + 3 =
+202. Committing the batch then healed TWO of them, 202 − 2 = **200**, and the
+two logs whose only failure that was became clean: 37 + 2 + dom232 = **40**.
+Every number is accounted for.
+
+The interesting half is which two healed. dom63 and dom67 held `kasayang` as a
+**neighbour** — `val(t, OLD)` off `git show HEAD:site/modern_map.js` — so HEAD
+now carrying `ka sayang` makes their before and after agree and the row stops
+failing with nothing about the book having moved. That is batch 226's mechanism.
+dom57 pins it as its own **target**: `b57.py:127` is the file where
+`"kasayang": "kasayang"` was written, targets are read from the batch's pin file
+and never from HEAD, and so that row can only heal if the map REVERTS. It stays
+live in `LEDGER`, kind `map`.
+
+This refines batch 231's rule rather than repeating it. There the split was
+about the read ORDER — a token in `WORD_OVERRIDES` takes its value from a file
+that is not git-relative at all. Here neither token is in OV; the split is about
+the ROLE the row plays in its log. Ask which of the two a row is before
+explaining why it healed, because one answer is bookkeeping and the other would
+be news.
+
+`.scratch/b232/ledger232.py` — 25 cases, all behaved. It asserts the split from
+the FILES rather than from the comment that explains it: `b57.py` must name the
+token, `b63.py` and `b67.py` must not, and HEAD must carry the two-word value.
+All three rows still refuse a map that drifts, reverts, or drops the entry, and
+the live row is asserted NOT absorbed alongside its twins. (One control failed
+on its first run, against the person writing it: normalising HEAD's text with
+`replace(" ", "")` before the membership test turns `ka sayang` back into
+exactly the join it replaced.)

@@ -723,6 +723,18 @@ ABSORBED = {
     ('dom57.py', 'BROWN msnoxel msnoxel missing on [SNOXEL]'),
     ('dom63.py', 'BROWN pstui pstui missing on [SPONG]'),
     ('dom66.py', 'BROWN msnoxel msnoxel missing on [TAKOL]'),
+    # [batch 232] Committing batch 231 healed the `kasayang` row in TWO of the
+    # three logs that carried it, and the split is not batch 231's OV/map one --
+    # it is TARGET versus HOLD. dom63 and dom67 held the token as a NEIGHBOUR,
+    # `val(t, OLD)` off `git show HEAD:site/modern_map.js`; HEAD now says
+    # `ka sayang`, so before and after agree and the row stops failing with
+    # nothing about the book having moved (batch 226's mechanism). dom57 pins it
+    # as its own TARGET -- `b57.py:127` is where the identity claim was written
+    # -- and a target is read from the batch's pin file, never from HEAD, so
+    # that row can only heal if the map reverts. It stays live in LEDGER, kind
+    # `map`. Ask which of the two a row is BEFORE explaining why it healed.
+    ('dom63.py', 'BROWN kasayang kasayang missing on [SLIYU]'),
+    ('dom67.py', 'BROWN kasayang kasayang missing on [SLIYU]'),
 }
 
 

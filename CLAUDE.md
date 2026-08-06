@@ -281,6 +281,18 @@ These were each learned by breaking something. Evidence for every one is in
   a refusal's reason as an assertion about the page and re-measure it**, rather
   than treating the whole sentence as settled — the verdict can be right while
   the fact it names has rotted.
+- **…and a premise can be wrong from the START, with the verdict still sound**
+  (batch 232). `dom214.py:97` refuses `gaqat → gakat` because "`gakat` 起身;站立
+  shares the SHAPE only". It never did: his own GAKAT card is 蹲著——彎著——屈著
+  and glosses the bicycle 腳踏車（人蹲坐其上的車）, so scored on MEANING the pair
+  passes. What refuses it is the homograph two cards away — he cards GAQAT
+  冰塊、冰柱 separately, the register's ice word is `huda` with a family of its
+  own and nothing within one edit of `gaqat` carries 冰, and 2 of his 3 tokens
+  are that ice sense, so a remap paints two correct renders wrong to fix one
+  (batch 205). `CITE_SPELL` cannot rescue the good half either: both blocked
+  sentences are running text. **Repair the premise in the new log and pin BOTH
+  halves** — the map still refuses the remap, AND the old log still contains the
+  sentence being repaired — or the repair is orphaned the moment the file moves.
 - **When the record refuses a word, check what the refusal SEARCHED, not only
   what it concluded** (batch 230, the mirror of batch 221's "grep the record").
   Both of that batch's rulings needed a written refusal retired, and neither
@@ -771,6 +783,16 @@ his page does not spell.
   its row still fails and stays live. When healings arrive in a clump after a
   commit, **the ones that DON'T heal are the OV-pinned ones** — a fact about the
   read order, not about the word, and not evidence that anything is wrong.
+- **…and ask whether the row is a TARGET or a HOLD before explaining a healing
+  at all** (batch 232). Committing batch 231 healed the same `kasayang` failure
+  line in dom63 and dom67 and left dom57's standing, and OV had nothing to do
+  with it: a HOLD neighbour is `val(t, OLD)` off `git show HEAD:site/
+  modern_map.js`, so HEAD moving re-baselines it, while a TARGET is read from
+  the batch's own pin file — `b57.py:127` is where `kasayang → kasayang` was
+  written — and can only heal if the map REVERTS. One is bookkeeping and the
+  other would be news. Absorb the first kind, keep the second live, and assert
+  the split by READING both the `b*.py` pin files and HEAD, rather than trusting
+  the comment that explains it.
 - **The citation seam can FAIL a darkness assertion, and that is by design**
   (batch 226). `CITE_SPELL` pales any form rendered as a NAME, so both his LIDIL
   heads paint `RIJIL` `w-unv` and the bend card — six affixed subs, no example —
@@ -877,6 +899,41 @@ his page does not spell.
   before believing a level 0**: two words of one paradigm getting opposite
   verdicts locates the gap in the inventory, not in the word.
 - **A greedy algorithm over an unordered input is a sample, not a rule.**
+- **An empty sweep and a broken sweep have the same output — control it from the
+  DATA side** (batch 232). Pinning `found == 0` is refuted by moving the pin,
+  which proves nothing about the instrument. The join sweep's readable leg is
+  the positive one: back batch 231's two rulings out of the map and it recovers
+  `kasayang` and `isoka` unaided. Feed it an empty corpus and it can no longer
+  recover them, which is what separates *found nothing* from *cannot see*. And
+  **an absent source must SKIP, not score zero** — parquets unmounted prints
+  that sweeps did not run rather than banking their emptiness.
+- **`seen` is EVERY span, not the dark ones** (batch 232). Dark is what is left
+  when both pale classes come out: `DARK = seen − unv − raw`. A probe that reads
+  `seen` as dark makes a pale word its own supporting evidence, and the tell is
+  a scratch probe disagreeing with the log by a few rows — 14 proposals against
+  13, 34 shapes against 40. Explain the disagreement before reporting either
+  number (batch 216); the strict count was a subset of the loose one both times.
+- **A stoplist must be DERIVED, and its depth set by the record** (batch 232).
+  Batch 218 and batch 221 both say a shared Han character is evidence only if it
+  carries meaning, so any gloss test needs one — but hand-picking it fits it to
+  the batch it was written for. Take the commonest characters across the
+  register's own glosses, and set the cut where the derivation reproduces every
+  character the project has already NAMED as noise (著 sits at rank 26, so the
+  cut is 30, not 25). Assert that reproduction as the control. It is
+  load-bearing and the amount is measurable: withdrawn entirely, batch 232's
+  spellcheck sweep has 3 survivors, all scoring on 的/不/是/人 inside his
+  sentence gloss; at the pinned depth, none.
+- **Sentence-against-sentence over the parallel corpus is closed at zero**
+  (batch 232). Batch 183 refused the corpus's phrase rows for building a
+  word→gloss file, and rightly; a question that never attributes a gloss to a
+  word escapes that objection — take HIS example and ITS Chinese, find corpus
+  rows whose Chinese overlaps, ask which Truku word there is close in shape. Use
+  CONTAINMENT, not Jaccard, or a single-word corpus row scores a perfect sense
+  match at 0.1. It yields 13 proposals over 50,848 rows: eleven are batch 221's
+  noise mode (有, 我的, 你們的, 正在, 孩子們), the twelfth is `yianu → yamu` —
+  batch 231's written refusal, which is the cheapest confirmation the instrument
+  is aimed right and the seam is empty — and the thirteenth is `gaqat`. Keep the
+  negative result; don't rebuild it, as with `freezesweep.py` and `tail221.py`.
 - **Ask `entries.js` for his TEXT, never for the raw file** (batch 229) — the
   display-side twin of batch 219's alphabet rule and batch 226's case rule. Two
   faults, both in one log: `Sm"lu` is JSON-escaped on disk, so a sentence
