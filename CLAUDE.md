@@ -335,6 +335,30 @@ These were each learned by breaking something. Evidence for every one is in
   so it cannot reach them by construction. There was never a lookup to make.
   `dom234.py` keeps it live as `ASKED_HITS == 0` plus the containment that fires
   when a NEW pale value appears unasked; don't re-open batch 182 by hand.
+- **Rarity does not rank the pale — it defines it** (batch 235). Batch 213's
+  scan-first test is the cheapest question on any single row and paid four times
+  in batch 229, so it reads like a ranking. It is not: **56 of the 67 sole
+  blockers have his tokens totalling ≤2 occurrences**, holding 58 of the 79
+  pairs. A pale blocker is typically a derived slot he wrote once, so sorting by
+  rarity sorts nothing. What discriminates is the CROSSING batch 229 used — a
+  rare token of his one edit, or one glyph, from a token he writes ≥10× — which
+  returns 14 rows in 8 types, every one already refused in writing. (Two of the
+  67 are reached by no map key at all, so a map-only join would have measured 65
+  while reporting 67: count the unjoinable out loud, per batch 230.)
+- **"No card, no candidate" is a claim about the whole book** (batch 235), and it
+  is repaired by searching for the CARD, not for the letter — batch 229's rule
+  one level up. His `nalong` was refused that way; his MALONG card sits 76 pages
+  off, tagged `(R)`, glossed *une rondelle d'ivoire … marquant le mérite … suite
+  à un acte de bravoure*, which is the sentence's own 得獎 verbatim. The verdict
+  survived on three other legs (the scan reads `n`; batch 216 refuses swapping an
+  initial consonant; 象牙 returns 0 register rows and nothing sense-carrying sits
+  within 2 edits) — as in batch 232, a premise wrong from the start with the
+  verdict still sound.
+- **A word he CARDS closes the scan question without a crop** (batch 235, batch
+  231's rule applied to batch 213's test). The class batch 213 catches is a token
+  appearing ONCE; his KAXOI is a headword with a tag, both glosses, a `Mkaxoi`
+  sub-form and a sentence under each — four independent writings of the stem, so
+  there is no glyph to re-read.
 - **A pin that spells what `charRules` already spells is still load-bearing**
   (batch 227, as batch 218's `mqlaq → mqlaq`). Deleting a reverted freeze's map
   entry does not return the word to his letters: `charRules("s'mul")` = `smur`
@@ -595,6 +619,13 @@ These were each learned by breaking something. Evidence for every one is in
   while every tier above it was declared closed. It had six rows; two were
   rulings (+4 pairs) and the other four were confirmed refusals. When a ranking
   reports a tier exhausted, ask what shape of pair the ranking cannot see.
+- **The loss now has a measured SHAPE: 79 + 4 + 0** (batch 235). Of the 83 pairs
+  still blocked, 79 are held by a single pale type, **4 by exactly two — batch
+  230's four confirmed refusals — and none by three or more**. That last figure
+  is the answer to the rule above, pinned rather than assumed: there is no third
+  tier hiding behind the two-type seam. It is a pin that can fail, since a ruling
+  moves a two-type row into the sole list and a third pale type appearing would
+  be the first row of that shape this project has had.
 - **A prior MENTION is not a written refusal** (batch 234) — batch 221's
   record-grep and batch 228's label rule, crossed. "0 of the 67 sole blockers
   have no prior mention" confirms the Target section and is a label; classify
@@ -748,7 +779,7 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `73 logs — 38 clean, 201 superseded, 0 REGRESSIONS, 0 crashed`.
+  `78 logs — 43 clean, 200 superseded, 0 REGRESSIONS, 0 crashed` (batch 235).
 - **A CRASH can be the machine, and its five failures go missing with it** (batch
   228). Under two foreign jobs (`align.py`, a 16-thread `screen_solo.py` shard)
   `dom154.py` timed out navigating and the suite read `71 logs — 37 clean, 191
@@ -907,7 +938,12 @@ his page does not spell.
   as sub-form examples, not on `AN (3)`; and injecting a sole blocker that is
   already one (`mqlaq`) changes no count. **A control leg that does not refuse is
   a claim about the world and has to be read as one** — check the patch reached
-  the field the assertion measures before believing the leg.
+  the field the assertion measures before believing the leg. The mechanical form
+  (batch 235) is to make the patcher itself RAISE when it matched no card, and to
+  PAIR every field-sensitive leg with the same string written to the wrong field,
+  which must not refuse. Take an injected value from the measured data rather
+  than inventing one — an injected join the register happens not to list passes
+  for the same free reason.
 - **A control that can CLEAR its own earlier failure proves nothing** (batch
   233). One leg wanted to check not just that an injection refuses but that it
   refuses with the right MESSAGE, and was written `bad = 0 if ok else 1` — which

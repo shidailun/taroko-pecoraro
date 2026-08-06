@@ -7275,3 +7275,161 @@ naming, each a place the log could have passed for the wrong reason:
   `AN (3)`; and injecting a sole blocker that is already one (`mqlaq`) changes no
   count. A control that cannot move the world it patches reads exactly like a pin
   that cannot fail.
+
+## batch 235 — the loss measured by shape, and the scan-first test does not rank it
+
+**0 pairs.** The metric HOLDS at 5,346 / 5,429 = 98.4712%. No file that ships
+changed: `entries.js`, `modern_map.js` and `verified.js` are untouched and the
+audio id set stands at 5,134.
+
+Batch 234 left a standing test saying every blocked pair is held by a written
+refusal, returning 0. That answers *is anything unworked*, not *what SHAPE is
+what is left*. This batch measures the shape, runs the two instruments that could
+still have found a pair over it, and repairs the premises of three refusals that
+survive the repair.
+
+### 1. The remaining loss, by shape: 79 + 4 + 0
+
+Of the 83 pairs still blocked, **79 are held by a single pale type, 4 by exactly
+two, and none by three or more.** The four two-type rows are batch 230's four
+confirmed refusals (`tbasyaq`+`tibasyaq`, `krikut`+`nrikut`,
+`dmtbasyaq`+`dmtsapat`, `snuk`+`thiy`), unchanged; that batch found six, ruled
+two, and the seam it opened is now empty.
+
+There is no third tier behind it. Worth pinning because the standing warning in
+the Target section is that a ranking hides the pairs it cannot see — batch 230
+paid thirty batches for exactly that, the sole-blocker ranking being blind to a
+sentence blocked by two types of one root. The 3+ pin says there is nothing left
+of that shape to hide, and it is a pin that can fail: a ruling that darkens one
+type of a two-type pair moves it into the sole list, and a *regression* that
+pales a third type would be the first row this project has ever had.
+
+### 2. Rarity is a property of the whole seam, not a signal
+
+Batch 213's test — "a token appearing once in a book that repeats itself is a
+candidate for the scan, not for the register" — is cheap per row and paid four
+times in batch 229, which called it the thing that priced more of that seam than
+any reasoning about letters. So ask it as a RANKING over what is left.
+
+It collapses. **56 of the 67 sole-blocker types have his tokens totalling two
+occurrences or fewer**, holding 58 of the 79 pairs. A pale blocker is typically a
+derived slot he wrote once; being rare is what the class IS, so sorting by it
+sorts nothing.
+
+Two of the 67 are reached by no map key at all — `mngusyeh` and `sruweq`, both
+GREEN, `sruweq` being the one batch 231 named as his unglossable SLOWEQ. A
+map-only join drops those silently and the split would then be measured over 65
+types while reporting 67, so they are counted out loud: batch 230's rule about
+the eleven pale values a map-only lookup cannot reach, arriving in a place where
+it costs a line. (This is also why the log's figure is 56 and a first ad-hoc
+probe said 58: the probe joined through the char-rule fallback as well. Two
+instruments disagreeing means neither number is reportable until the disagreement
+is explained — batch 216 — and the explanation is the join, not the book.)
+
+What DOES discriminate is the crossing batch 229 actually used: a rare token of
+his one edit, or one glyph, from a token he writes ten times or more. Over the
+sole blockers that returns 14 rows in 8 types, and every one already carries a
+written refusal, exactly as batch 234's classifier predicted. Two of those
+refusals were written before batch 213 existed and had never read the page. Those
+are §3 and §4. Both survive.
+
+### 3. `narung` — the refusal said "no candidate", and his own card is one
+
+His `nalong` is a hapax, sole blocker of one pair, on the XETI card:
+
+    Xea ka mnangal nalong, mxeti ko bi ka yako
+    C'est lui qui a obtenu le prix ; moi, je venais bien après.
+    得獎的是他；我嘛，排在他後面很多。
+
+It was refused as "no card, no candidate". **The card exists.** His MALONG, 76
+pages away, is tagged `(R)` and glossed "Décoration (?)" with a note that reads
+like this sentence's own commentary: *une rondelle d'ivoire rare et très prisée
+… marquant le mérite — et donc l'autorité — suite à un acte de bravoure*. That
+IS "le prix". Batch 229's rule about searching the ROOT's slots book-wide rather
+than the neighbouring ones, arriving as a repair instead of as a ruling — and
+batch 227's shape, where a refusal's premise had rotted and the verdict stood.
+
+The premise is false and the verdict holds, on three legs:
+
+- **The page reads `n`.** Scan 364 is book page 343; at 20× the initial of
+  `nalong` has two legs, identical to the `n` of `ngal` in `mnangal` on the same
+  line and unlike its `m`. Batch 212 decides where a fix goes: this is a reading
+  the page really carries, so `entries.js` is untouched.
+- **Darkening it means swapping his initial `n` for an `m`.** Batch 216 refuses
+  exactly that — his initial consonant takes a modern reflex, never another
+  consonant — and batch 234 refused the same move on `kyoqan → tuyuqan`.
+- **There is nothing to swap TO.** `narung` is in no source; the register has
+  **zero** rows glossed 象牙; and of the listed words within two edits of it not
+  one carries the sense — `arung` 穿山甲, `marung` and `harung` 人名（男）,
+  `sarung` 苦瓜臉. His MALONG head is already dark on `marung`, glossed only as a
+  name, which batch 225 says does not convict it; 0 pairs either way, since that
+  card has no examples and its head is furniture.
+
+### 4. `kahui` — a word he CARDS cannot be a slip
+
+His `kaxoi` is the other pre-213 refusal, and here the scan question closes with
+no crop at all. Batch 231: **a word he gives a headword to is a word he asserts
+exists, not a slip.** KAXOI is a headword, tagged `( = R. Taroko ?)`, glossed
+*Fille de joie - prostituée* / 風塵女子－妓女, with a sub-form `Mkaxoi` 淪為妓女
+and a sentence under each. That is four independent writings of the stem; the
+class of thing batch 213 catches is a token appearing once.
+
+The register side is unchanged and is now stated as a property rather than as a
+list (batch 229): 妓, 娼, 嫖, 賣春/賣身/風塵 return **0 rows across all three
+gloss files**, nothing at all sits within one edit of `kahui`, and the two 淫 rows
+are `mngeangal` 淫亂 and `sgsapat` 姦淫 — different roots, so batch 204 leaves
+nothing to respell.
+
+### 5. `shkun` — what the refusal searched, written down
+
+The largest sole blocker (2 pairs) is his `Sl'xqon`/`Slx'qon` 舔. Batch 214
+repointed it to the `-un` slot of `shik` and left it pale because "nothing decides
+between `shkun` and `shikun`". Batch 230 says to check what a refusal SEARCHED,
+and batch 220 shows the search that would decide it: ask the register which forms
+of the syncopated stem it spells.
+
+Run over all three files, the `shik` family is there — `shik` 吻, `pshik` 被…吻,
+`msshik` 互吻, `smhik` 在吻 — and **not one suffixed slot of it is listed, in
+either stem**: `shkun`, `shikun`, `shkan`, `shikan`, `shki`, `shiki` are all
+absent. Batch 224 is why that is a tie and not a verdict: silence is evidence
+only where the slot is spelled for OTHER stems of the same shape, and here it is
+spelled for neither candidate. The refusal stands, with its search on the record
+and both halves assertable — the family leaving would make it batch 217's empty
+candidate list, and either slot arriving is exactly the news that decides it.
+
+### 6. The SPLIT sweep — the mirror of batch 231, closed at zero
+
+Batch 231 found the JOIN direction: his typewriter fusing a clitic to its host
+(`isoka`, `kasayang`), where the map value has to be TWO words. The split
+direction has no mention anywhere in the record — two ADJACENT tokens of his
+whose values, concatenated, are a listed modern word, with at least one side
+pale. If that were real the pale side would not be a spelling question at all.
+
+Over the 5,367 `.truku` boxes holding two or more spans it returns **0**.
+
+That is a controlled zero from the DATA side (batch 232): dropping only the pale
+requirement, the same sweep finds **1,440** adjacent all-dark joins, so the
+instrument sees joins and the emptiness is about the pale, not about the code.
+Kept as a negative result with the standing of `freezesweep.py`, `tail221.py`
+and `premise231.py`; don't rebuild it.
+
+### Controls
+
+`.scratch/b235/control235.py` — 27 cases, all behaved. The legs worth naming:
+
+- **Every patch of an existing card asserts it MATCHED something.** Batch 234
+  found three legs that had patched the wrong field and passed for free, which
+  reads as *explained* rather than as an error. Here `hit()` raises when a patch
+  reaches no card, and the two count legs are each paired with the same string
+  written to `fr` instead of `t` — the wrong-field version must NOT refuse, which
+  is what proves the right one reached the measurement.
+- **The 淫 rival leg had to read all three gloss files, and caught the log's own
+  bug before it shipped.** `carriers()` first iterated `attested_modern` only,
+  and both rivals are bible-only — so the log refused on its own §4 while the
+  register was unchanged. Batch 230's rule biting the log that cites it. The
+  paired control is the point: dropping `sgsapat` from `attested_modern` alone
+  must explain nothing.
+- **The split sweep's injection is taken from the book's own all-dark joins**,
+  not invented, so the leg cannot pass because the word happened not to be
+  listed; the same pair all-dark must not refuse, and emptying the sequence list
+  must trip the positive control BY NAME.
