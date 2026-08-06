@@ -112,6 +112,20 @@ LEDGER = {
         ('map', 'srngiun', 'batch 220 ruled it off the register'),
     ('dom57.py', 'BROWN pslngiyun psrngiyun missing on [SLANGI]'):
         ('map', 'psrngiun', 'batch 220 ruled it off the register'),
+    # [batch 231] His SLIYU example writes `Malu kasayang da` joined and its own
+    # second clause writes `ka xedao` split. `b57.py:127` pinned the join to his
+    # own letters -- a tier-M identity pin, which batch 216 names as the one map
+    # entry that ages. The outside voice retires it: `ka sayang` is 403x in the
+    # ILRDF parquets and the join 0x, fifteen of them in his own frame. The
+    # failure IS the ruling landing. Kind `map` re-reads modern_map.js, so a
+    # drift to a third spelling still fails; the darkness assertion, and the
+    # assertion that BOTH halves are verified, live in dom231.py.
+    ('dom57.py', 'BROWN kasayang kasayang missing on [SLIYU]'):
+        ('map', 'ka sayang', 'batch 231 split his typewriter join'),
+    ('dom63.py', 'BROWN kasayang kasayang missing on [SLIYU]'):
+        ('map', 'ka sayang', 'batch 231 split his typewriter join'),
+    ('dom67.py', 'BROWN kasayang kasayang missing on [SLIYU]'):
+        ('map', 'ka sayang', 'batch 231 split his typewriter join'),
     # Batch 230 ruled his SNOXEL card onto the register's OTHER jealousy root.
     # These logs pinned the identity freeze b57.py:120 wrote when `charRules`
     # printed "SNUHER" beside brown siblings and it looked like a fake word. It
@@ -622,6 +636,19 @@ LEDGER = {
      'attested_modern.json -- if the transcription or the map changed, the '
      'refusal needs re-arguing, not deleting.'):
         ('ruled', ('pklluyun', 'pqlulun'), 'batch 219, tier-A root plus 13/13'),
+    # --- dom219.py. [batch 231] Its refusal of `isuka` rested on the LOBONG
+    # CARD's gloss rather than on the word: the 蓋住 is `Lmobong`, while `isoka`
+    # is a pronoun plus a case marker (batch 203 -- a sentence gloss is not the
+    # word's gloss). The different-root test was run on the wrong left-hand side
+    # and never had a candidate to find. What rules it is his own line, which
+    # writes BOTH spellings -- `iso ka (isoka)`, the running text split and the
+    # parenthesis joined (batch 200). The value is TWO WORDS, so this handler
+    # re-asserts each half as well as the whole string; `attested()` splits on
+    # the space. The darkness assertion lives in dom231.py.
+    ('dom219.py', 'FAIL isuka no longer renders anywhere. It was refused '
+     'because 蓋住 is spuy, 覆蓋 is bbungan; different roots -- if the map '
+     'changed, the refusal needs re-arguing, not deleting.'):
+        ('ruled', ('isoka', 'isu ka'), 'batch 231 split his typewriter join'),
     # --- dom60.py. The same G'LI" ruling seen from the map side.
     ('dom60.py', 'BROWN tglgli tgrgri missing on [QALAS]'):
         ('map', 'tgrgrig', 'batch 219 restored the final g his card writes'),
@@ -687,6 +714,15 @@ ABSORBED = {
     # Kept in LEDGER because the explanation is still owed if they come back.
     ('dom58.py', "BROWN n'gui nguy missing on [SLAP]"),
     ('dom58.py', 'BROWN nagui nagui missing on [SLAP]'),
+    # [batch 231] The same mechanism, and this run explains why batch 230's four
+    # rows split three-and-one. A HOLD value comes from `val(t, OLD)`, and
+    # `val()` reads `WORD_OVERRIDES` BEFORE the map (dom57.py:63) -- so a token
+    # in OV never re-baselines however the map moves. `msnoxel` and `pstui` are
+    # map-only and healed the moment batch 230 went into HEAD; `snoxel` is in
+    # OV, so its row still fails and stays live. Absorbed, not deleted.
+    ('dom57.py', 'BROWN msnoxel msnoxel missing on [SNOXEL]'),
+    ('dom63.py', 'BROWN pstui pstui missing on [SPONG]'),
+    ('dom66.py', 'BROWN msnoxel msnoxel missing on [TAKOL]'),
 }
 
 
@@ -829,11 +865,18 @@ def adjudicate(log, line, MAP, META):
                          "but the map says %s -- the supersession is being "
                          "carried for a ruling that is no longer there"
                          % (tok, val, MAP.get(tok)))
-        if val not in load_ver():
-            return rec, ("ledger says %s -> %s overturned the refusal, but %s "
-                         "is not in verified.js, so it renders pale and the "
-                         "refusal it superseded is effectively back"
-                         % (tok, val, val))
+        # [batch 231] A map value can be TWO WORDS -- his typewriter joined a
+        # clitic to its host, and the ruling splits it. `attested()` splits on
+        # the space and takes the min over the parts, so a single membership
+        # test on the whole string would pass over a value that renders pale
+        # because one half of it is unverified.
+        ver = load_ver()
+        for part in [val] + (val.split() if " " in val else []):
+            if part not in ver:
+                return rec, ("ledger says %s -> %s overturned the refusal, but "
+                             "%s is not in verified.js, so it renders pale and "
+                             "the refusal it superseded is effectively back"
+                             % (tok, val, part))
         return rec, ""
     if kind == "cite":
         # [batch 226] A SPLIT ruling: the map carries one sense and CITE_SPELL

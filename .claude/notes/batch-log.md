@@ -6617,3 +6617,187 @@ present in BOTH tables, and asserted still able to refuse a reverted map.
 
 `logs/blockers.md` regenerated: sole-blocked pairs 83 → **81** over 69 types,
 multi-blocker pairs 6 → **4**.
+
+## Batch 231 — his typewriter joined two words, twice
+
+    pairs 5344/5429 = 98.4343%  ->  5346/5429 = 98.4712%   (+2)
+    pale  217 -> 215 spans, 142 -> 140 types (book-wide, unscoped)
+    sole-blocked pairs 81 -> 79 over 69 -> 67 types
+
+Three unpriced sole blockers were left after batch 230. All three are refusals,
+and the two pairs this batch bought came from somewhere else entirely: a class
+of blocker that is not a spelling question at all.
+
+### 1. KASAYANG — an aged identity pin, retired by an outside voice
+
+His SLIYU example reads `Malu kasayang da; ma" ga smliyu sayang ka xedao da`
+「現在天氣好了；看，太陽出來了！」 — and **his own second clause writes `ka
+xedao` split**. The scan was read first (page 284 = book 263): it plainly writes
+the first one joined, so the transcription is faithful and the fix belongs in
+the map, which is display-only (batch 212).
+
+`b57.py:127` had pinned it to his own letters — `"kasayang": "kasayang",  #
+sayang` — in a block headed "the sibling says leave it alone, and charRules
+disagrees". That is a **tier-M identity pin**, which batch 216 names as the one
+map entry that ages: it records a search that FAILED, where every other tier
+records evidence found.
+
+What retires it is an outside voice. In the ILRDF Truku parquets `ka sayang`
+occurs **403** times and the joined `kasayang` **zero** — fifteen of them in his
+very frame, `Malu karat ka sayang.` 今天是晴朗的天氣 against his `Malu kasayang
+da`. Both halves are listed and verified: `ka` and `sayang` 今天；現在.
+
+**And his own book says it mechanically.** Take every token he writes beginning
+`ka` whose remainder is a word he ALSO writes standing alone at least 20 times,
+**and which he does not CARD**. The answer is a set of size one: `kasayang`, a
+hapax, against `ka` standing alone 3,596 times.
+
+The card exclusion is doing real work and is not a fitted parameter. Without it
+the test also returns `kana` 全部, which he writes 435 times, and `kaya` 蚊帳 —
+a **hapax**, so no frequency guard would have caught it, whose tag reads
+`[emprunt jap./chin.]`. Both are headwords. **A word he gives an entry to is a
+word he is asserting exists, not a slip of the typewriter.**
+
+### 2. ISOKA — he writes BOTH spellings on the one line
+
+    Lmobong ko payai mo sayang, iso ka (isoka) npkoyoç
+
+Batch 200's parenthetical rule with the direction reversed: his **running text**
+is the split form and the **parenthesis** is the join, so there is not even a
+choice of readings to make. The two sides go to map values of which exactly one
+is dark — `iso → isu` and `ka → ka`, both code 1, against a pale `isuka` — and
+the pale side renders what the dark side renders. The same `ka`-shaped join test
+run on `iso` again returns a set of size one.
+
+**This overturns a written refusal and names it** (batch 219): `dom219.py:233`,
+`"isuka": "蓋住 is spuy, 覆蓋 is bbungan; different roots"`. What retires it is
+that the refusal scored the LOBONG **card's** gloss against a token that is not
+the card's word. The 蓋住 is `Lmobong`; `isoka` is a pronoun plus a case marker.
+That is batch 203's rule — a sentence gloss is not the word's gloss — arriving
+as a REFUSAL rather than as a freeze: batch 204's different-root test was run on
+the wrong left-hand side and never had a candidate to find. The verdict is not
+being outvoted, the premise is being corrected (batch 227).
+
+### A map value can be two words, end to end
+
+`attested()` splits on the space, and `build_verified.py:424` takes the min over
+the parts. Four space-valued manual entries already existed (`iniko → ini ku`,
+`ma'iso → ma isu`, `mpaso → empaa su`, `mpiaka → empiya ka`), so nothing in the
+generator needed changing — but **anything asking "is this value verified?" has
+to split too**, and the suite's `ruled` ledger handler did not. It now asserts
+the whole key AND every part.
+
+Neither entry is a no-op (batch 227): `charRules` unaided gives `kasayang` and
+`isuka`, so deleting either key does not return the word to his letters, it
+returns a GREEN span of the same joined string. Both are load-bearing.
+
+    MAP   7371 -> 7371   lost={} new={}   chg: isoka, kasayang
+    VERIF 6323 -> 6325   new=['isu ka','ka sayang'], all code 1
+    audio ids 5134, unchanged — entries.js is untouched, both fixes are
+    display-only
+
+### 3. The three refusals
+
+**`yianu`** — his YAMO card's `Yiano` 為你們—給你們—願它歸你們所有. POSITIVE: the
+register spells that whole paradigm, `yamu` `namu` `nnamu` `munan` `jyamu`
+`knyamu` `empeenamu`. NEGATIVE: the only `y`/`jy`+`amu` shapes it holds are
+`yamu` and `jyamu`, and the map ALREADY sends his `Yamo` to `yamu` — so
+respelling `Yiano` there would collapse two sub-forms his own card distinguishes
+by gloss. The scan was read (batch 213: a shape appearing once in a book that
+repeats itself is a candidate for the glyph): page 383 at 9×, against the `m` of
+`namo` on the SAME LINE, `Yiano` has two legs and `namo` has three. His `n` is
+real and `entries.js` is untouched.
+
+**`urang`** — his ULANG 反覆發生的（？）－週期性的（？）－慣常的（？）. 週期 and
+慣常 have **zero** carriers in any of the three gloss files; 反覆 has eight
+(`bbrih`, `nreeru`, `sreeru`, `ttbrbur`, `nrrui`, `mtbbrih`, `lmnglung`,
+`pspowxun`) and the nearest of them to his letters is four edits away. Batch
+204's different-root test: the meaning lives elsewhere, so there is nothing to
+respell.
+
+**`sruweq`** — his SLOWEQ, and this one is a **limit on the instrument**, not a
+refusal. The card is tagged `(R. = ??)` with `fr = "??"` and `zh = "？？"`: he
+could not gloss it himself. The gloss test needs a gloss on HIS side too, and it
+is the only non-circular question available over an unattested word (batch 204),
+so there is nothing to ask. `sruwaq` 不滿 sits one edit away and there is no
+left-hand side to test it against. The word has no map entry at all and renders
+**GREEN**, where the fix is itself a new spelling claim. It was already priced,
+in this log: "Sruweq has no map entry and no attested neighbour (`sruwaq` 不滿
+differs in the vowel)."
+
+He leaves **11** headwords unglossed (GIGIT, MLAMU, P'DO, PIDA, PNSBUT, SDANGAN,
+SLOWEQ, TBILAN, TEPYAQ, TS'NGIYA, XGUT). Eight already render dark; the three
+that sole-block cost **5 pairs** — SDANGAN 1, SLOWEQ 1, TBILAN 3. That is the
+whole price of the class. Naming the limit is not a door to clear it (batch 203);
+unlike the four settled classes, these words CAN sit an attestation test, they
+just cannot sit the gloss one.
+
+### The premise sweep — a negative result, kept
+
+Batch 230 repaired two false premises by hand — batch 201's "試探 returns 0
+register rows" (it returns 4 in a gloss file that batch did not read) and batch
+68's "no bare form is attested" (`hibaw` and `hnibaw` both are). Two in one
+batch reads like a seam, so `logs/premise231.py` asks the question mechanically.
+An absence claim is re-checkable, and the record holds exactly two kinds: the
+TOKEN is absent, and the CHINESE is absent.
+
+    leg 1   anchored absence claims 132   tokens now listed 31   live 0
+    leg 2   gloss absence claims     34   Han with carriers  7   live 0
+
+**All 38 are false positives with one failure mode: the regex binds the wrong
+side of the sentence.** A refusal of this project's usual shape names the absent
+thing and the present alternative in one breath — "the register has no 淋巴 at
+all, nearest is `biqir` 甲狀腺腫瘤" — so an anchor that catches "no ___" catches
+the word that IS there. Including, aptly, the row about `sruweq`: it binds
+`sruwaq`, while the word the sentence declares absent is `sruweq`, and `sruweq`
+is still absent.
+
+Two artefacts worth recording. The sweep **read its own docstring** and
+manufactured two hits by quoting the claims it was measuring; excluding itself
+took the counts from 133/32 to 132/31 and from 36/8 to 34/7. And `listed()` must
+mean `attested_modern.json` and nothing else — a membership test over the gloss
+files reads a bible-only word as attested and manufactures more.
+
+So batch 230's two premise failures were not a seam. The class is empty, and the
+reason is that this project's refusals are written with their sources named.
+Keep the negative result; don't rebuild the sweep.
+
+### The suite, and why a HOLD row heals for one token and not its neighbour
+
+    SUITE 74 logs — 37 clean, 199 superseded, 3 REGRESSIONS, 0 crashed
+
+The arithmetic ties out: batch 230 stood at 201 superseded, three rows healed on
+this run, and the new `dom219.py` row makes 199. **Three REGRESSIONS is the
+ruling landing**, not a defect — `dom57.py` / `dom63.py` / `dom67.py` all hold
+their neighbours at the value `git show HEAD:site/modern_map.js` carries
+(`dom66.py:51`), so `BROWN kasayang kasayang missing on [SLIYU]` is each of them
+reporting that this batch moved the word. Ledger kind `map`, which re-reads the
+map so a later drift to a third spelling still fails; the darkness assertion
+lives in `dom231.py`, not in the ledger row. They will re-baseline on the commit
+and report as HEALED next run, at which point they get absorbed like any other.
+
+The three healings are batch 226's mechanism arriving on schedule — batch 230's
+rulings are now in HEAD, so the *before* map agrees with the *after* one over a
+book that has not moved. Kept in `LEDGER`, subtracted in `ABSORBED`.
+
+**And this run explains why batch 230's four rows split three-and-one.** A HOLD
+value comes from `val(t, OLD)`, and `val()` reads **`WORD_OVERRIDES` before the
+map** (`dom57.py:63`). So a token pinned in OV takes its value from `app.js`,
+which is not git-relative, and **never re-baselines however the map moves**.
+`msnoxel` and `pstui` are map-only and healed the moment batch 230 went into
+HEAD; `snoxel` is in OV, so its row still fails and stays live. The rule to
+carry: **when healings arrive in a clump after a commit, the ones that DON'T
+heal are the OV-pinned ones** — that is a fact about the read order, not about
+the word.
+
+`.scratch/b231/ledger231.py` is the negative control for the four ledger
+changes: 34 cases, all behaved. The `ruled` widening is tampered three ways (the
+whole two-word key, the part `isu`, the part `ka`) and a single-word row
+(`dom216.py`'s `mtlgli`) is asserted still to explain itself and still to refuse
+an unverified value, so the widening cannot have loosened what it shares. Each
+`kasayang` row refuses a drift, a revert to his own letters and a deletion, and
+cannot be borrowed by another log or another card. The three absorbed rows are
+asserted present in BOTH tables and still able to refuse a reverted map.
+
+`logs/blockers.md` regenerated: sole-blocked pairs 81 → **79** over 69 → **67**
+types, multi-blocker pairs 4, unchanged.

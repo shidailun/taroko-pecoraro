@@ -168,6 +168,31 @@ These were each learned by breaking something. Evidence for every one is in
   what the dark side renders — a consistency fix, not a new attestation claim.
   **The dark side still has to pass the gloss test**: 7 of 17 were refused because
   the dark value is dark on a homograph, and following it would spread a freeze.
+- **His parenthetical can carry the JOINED spelling and his running text the
+  split one** (batch 231). `Lmobong ko payai mo sayang, iso ka (isoka) npkoyoç`
+  writes both, so there is no choice of readings to make: `iso → isu` and
+  `ka → ka` are dark, `isuka` was pale, and the pale side renders what the dark
+  side renders. **A map value may be TWO WORDS** — `attested()` splits on the
+  space and `build_verified.py:424` takes the min over the parts, so both halves
+  must be verified, and anything asking "is this value verified?" has to split
+  too (the suite's `ruled` handler did not, until this batch).
+- **His typewriter joined a clitic to its host, and the join is findable
+  mechanically** (batch 231): take every token beginning with the clitic whose
+  remainder he ALSO writes standing alone ≥20×, **and which he does not CARD**.
+  Over his whole book that returns exactly one token per clitic — `kasayang`,
+  `isoka`, both hapaxes. The card exclusion is doing the work and is not a
+  fitted parameter: without it `ka` also returns `kana` 全部 (435×) and `kaya`
+  蚊帳, whose tag reads `[emprunt jap./chin.]` — a hapax, so no frequency guard
+  would have caught it. **A word he gives a headword to is a word he asserts
+  exists, not a slip.** The outside voice is the corpus: `ka sayang` 403× in the
+  parquets and the join 0×, fifteen of them in his own frame.
+- **A refusal can score the CARD's gloss against a word that is not the card's
+  word** (batch 231) — batch 203's rule, arriving as a refusal instead of as a
+  freeze. `dom219.py:233` refused `isuka` because "蓋住 is spuy, 覆蓋 is
+  bbungan; different roots", but the 蓋住 is `Lmobong`; `isoka` is a pronoun
+  plus a case marker and never had a candidate to find. Batch 204's
+  different-root test is only as good as its LEFT-hand side: check the token
+  being refused is the token the gloss is about.
 - **Search his own book, not only the register.** `nilit` looked like an override
   of `mirit` 山羊 until the count came in: he writes `milit` 15× and `nilit` 2×.
   His own text spelled it. Same instrument proved `dbsnawan` an ethnonym —
@@ -353,6 +378,22 @@ These were each learned by breaking something. Evidence for every one is in
   the fix is to name the class, not to hunt harder. Ask which of the four it is
   BEFORE pricing a respelling: `klulu` was refused twice as a spelling and is
   correct as a class.
+- **A word HE could not gloss is a limit on the instrument, not a fifth class**
+  (batch 231). His SLOWEQ is tagged `(R. = ??)` with `fr = "??"` and
+  `zh = "？？"`, and the gloss test — the only non-circular question to ask of an
+  unattested word (batch 204) — needs a gloss on HIS side too. `sruwaq` 不滿 sits
+  one edit away and there is nothing to test it against. He leaves **11**
+  headwords unglossed and only three of them sole-block: SDANGAN 1, SLOWEQ 1,
+  TBILAN 3, so the whole class costs **5 pairs**. Naming the limit is not a door
+  to clear it, and `sruweq` is GREEN besides — no map entry fires, so the fix
+  would itself be a new spelling claim.
+- **The premise-failure class is EMPTY** (batch 231), and the sweep that proves
+  it is kept in `logs/premise231.py`. Batch 230 repaired two false premises by
+  hand, which reads like a seam; run mechanically over the whole record — 132
+  anchored token-absence claims, 34 gloss-absence claims — every one of the 38
+  candidates is the regex binding the PRESENT alternative rather than the absent
+  word, because this project's refusals name both in one breath. Don't rebuild
+  the sweep; same standing as `freezesweep.py` and `tail221.py`.
 - **A multi-letter affix article scores its MODERN prefix** (batch 203). `mpa`
   scores 0 and `emp` scores 689; the zero is the tier-W schwa showing up as a
   lookup miss, not evidence against his card. `HAND_AFFIX` names the string to
@@ -513,7 +554,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.43%** (5,344). Not token share. A pair is
+  is dark, over 5,429. **Currently 98.47%** (5,346). Not token share. A pair is
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
@@ -721,6 +762,15 @@ his page does not spell.
   committing batch 229 healed its two SLAP rows over a book that had not moved.
   The rule is about the git-relative READ — `grep "git show" logs/*.py` — not
   about the logs batch 226 happened to catch.
+- **An OV-pinned HOLD row never re-baselines, however the map moves** (batch
+  231). A HOLD value comes from `val(t, OLD)`, and `val()` reads
+  **`WORD_OVERRIDES` BEFORE the map** (`dom57.py:63`) — so a token pinned in
+  `app.js` takes its value from a file that is not git-relative at all. That is
+  why batch 230's four rows split three-and-one: `msnoxel` and `pstui` are
+  map-only and healed the moment that batch entered HEAD; `snoxel` is in OV, so
+  its row still fails and stays live. When healings arrive in a clump after a
+  commit, **the ones that DON'T heal are the OV-pinned ones** — a fact about the
+  read order, not about the word, and not evidence that anything is wrong.
 - **The citation seam can FAIL a darkness assertion, and that is by design**
   (batch 226). `CITE_SPELL` pales any form rendered as a NAME, so both his LIDIL
   heads paint `RIJIL` `w-unv` and the bend card — six affixed subs, no example —

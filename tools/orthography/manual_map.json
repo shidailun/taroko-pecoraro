@@ -269,7 +269,7 @@
   "imnglong": "lmnglung",
   "inglongan": "lnglungan",
   "iniko": "ini ku",
-  "isoka": "isuka",
+  "isoka": "isu ka",
   "ixeng": "ihing",
   "iyaq": "iyak",
   "iyup": "iyuk",
@@ -288,7 +288,7 @@
   "kalat": "karat",
   "kalayan": "krayan",
   "kalip": "qrib",
-  "kasayang": "kasayang",
+  "kasayang": "ka sayang",
   "kawit": "keuwit",
   "kaya": "kaya",
   "kayao": "keiyaw",
@@ -1977,5 +1977,7 @@
   "yux": "iyux",
   "yyax": "iiyah",
   "ñilao": "ngiraw",
-  "s'mul": "smul"
+  "s'mul": "smul",
+  "_kasayang_is_two_words": "His SLIYU example Malu kasayang da; ma\" ga smliyu sayang ka xedao da 「現在天氣好了」 writes ka+sayang joined ONCE, and his own second clause writes ka xedao split. b57.py:127 pinned it to his own letters (\"kasayang\": \"kasayang\", # sayang) -- a tier-M identity pin, which batch 216 names as the one map entry that ages, because it records a search that failed. The evidence that retires it is an OUTSIDE voice: in the ILRDF parquets (54,457 rows) `ka sayang` occurs 433x and joined `kasayang` 0x, sixteen of them in his very frame -- Malu karat ka sayang. 今天是晴朗的天氣 against his Malu kasayang da. Both halves are listed and verified, ka 主格標記 and sayang 今天；現在, and a two-word value is supported end to end (attested() splits on the space; build_verified.py takes the min over the parts). His book agrees: in 36,637 running-text tokens `ka` stands alone 3,595x and this is the only ka+word join in the whole dictionary, so the join is a typewriter artefact, not a word. The scan was read first (page 284 = book 263): it plainly writes them joined, so the transcription is faithful and the fix belongs in the map, which is display-only (batch 212). [b231]",
+  "_isoka_is_two_words": "OVERTURNS the written refusal in dom219.py:233, \"isuka\": \"蓋住 is spuy, 覆蓋 is bbungan; different roots\" -- and what retires it is that the refusal scored the LOBONG card's gloss against a token that is not the card's word. His line reads Lmobong ko payai mo sayang, iso ka (isoka) npkoyoç 「我現在把稻穀蓋起來」: the 蓋住 is on Lmobong, and isoka is the pronoun plus the case marker. That is batch 203's rule -- a sentence gloss is not the word's gloss -- so the different-root test was run on the wrong left-hand side and never had a candidate to find. What rules it is batch 200: he writes BOTH spellings on the one line, iso ka (isoka), and the two sides go to different values of which exactly one is dark -- iso->isu verified 1, ka->ka verified 1, against a pale isuka. The pale side renders what the dark side renders. Note the direction: here the PARENTHETICAL is the joined form and his running text is the split one, so this is not even a choice between two readings of his. Same class as the four space-valued entries already in this file (iniko->ini ku, ma'iso->ma isu, mpaso->empaa su, mpiaka->empiya ka). [b231]"
 }
