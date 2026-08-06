@@ -6237,3 +6237,67 @@ one pale span is expected: it can only ever look like a regression.
 
 `dom227.py` passes clean; `.scratch/b227/control227.py` runs 16 cases — two
 positive controls pass, fourteen tampers all refuse.
+
+## Batch 228 — a class the ranking calls unreachable, priced instead of believed
+
+`blockers.py` files 65 types / 74 pairs under **`no root`**, and writes its own
+verdict into the generated page: *"Listed for completeness only. No analysis
+reaches a candidate root at all, so there is nothing to rule on."* It has never
+been worked. That preamble is a label, and labels are not arguments.
+
+**`inf.roots()` has no reduplication rule**, so every doubled onset reports level
+0 whatever the word is — a fact about the analyser, not a verdict about the word.
+Bucketing the 65 by shape and stripping the doubling by hand takes one probe:
+
+    redup+base   3 types   3 spans   1 sole pair   <- hhtran, ggar, ssapat
+    redup        3 types   3 spans   2 sole pairs  <- no base reached at all
+    other      148 types 230 spans  87 sole pairs
+
+### The one pair: his SMUK card, p. 289
+
+    Pnsmuk ko daxa ktinox lex xxtlan mo bgixol
+    = J'ai cloue deux planches pour en faire une protection (pour arreter le
+      vent) contre le vent.  /  我釘了兩塊木板做擋風的屏障（擋住風）。
+
+Strip the doubling and `hhtran` lands on `htran` 阻擋 — listed, glossed, in the
+bible. His French says **arrêter**, his Chinese says **擋住**, the register says
+**阻擋**: the same word in three languages on both sides. That is the test
+attestation cannot substitute for.
+
+**Every part is attested; only their crossing is unlisted.** The bare stem is
+spelled in eight register forms (`htra` 別阻擋 … `htrun` 要阻擋); the `hh-`
+instrumental prefix in 120, glossed 用…／給…／要… (`hhangut` 用來煮, `hhaqul`
+用來…搬運); and — batch 224's slot test — `hh-` co-occurs with `-an` for six
+other stems (`hhraan` 使長出, `hhnian` 被…施術). So the shape is a real slot,
+not one invented to tidy his page. `hhtran` itself is in no wordlist, which is
+why this is `HAND_RULED` and not an attestation claim.
+
+**No rival parse**: `tran` is not a register word in any shape, so `hhtran` can
+only be read as `h-` + `htran`. **No rival root**: 屏障 and 遮擋 return zero, and
+the other 阻擋 root `baat` — whose own instrumental `bbaat` 用…阻擋 is listed —
+is unreachable from his letters.
+
+**The scan was read**, because the token occurs exactly once (batch 213). Page
+289 at 5× shows two distinct `x` glyphs matching the `x` of `ktinox` and `lex` on
+the same line. Faithful. `entries.js` untouched, and the map untouched too —
+`charRules("xxtlan")` gives `hhtran` unaided. This changed a COLOUR, as batch
+224's `graka` did.
+
+### The widening is refused, and that is the finding
+
+Teaching `roots()` reduplication was the obvious move. Priced from the DOM first:
+the entire seam is three types and one pair. One pair does not buy a change to
+the analyser that could de-verify anywhere — batch 217's warning, confirmed by
+measurement rather than assumed. `ggar` and `ssapat` are furniture at 0 pairs and
+`dom228.py` asserts they stay that way, because if either starts blocking a pair
+the price changes and the refusal has to be re-argued.
+
+### Measured
+
+    pairs 5331/5429 = 98.1949%  ->  5332/5429 = 98.2133%   (+1)
+    pale  236 -> 235 spans, 154 -> 153 types (book-wide)
+    sole-blocked pairs 92 -> 91
+    VERIF 6318 -> 6319  lost=[] new=['hhtran']   MAP unchanged
+
+`dom228.py` passes clean; `.scratch/b228/control228.py` runs 19 cases — two
+positive controls pass, seventeen tampers all refuse.

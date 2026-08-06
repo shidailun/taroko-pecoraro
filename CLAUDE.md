@@ -237,6 +237,16 @@ These were each learned by breaking something. Evidence for every one is in
   cheapest cut on any tail: for each blocker type, grep the batch log and every
   `dom2*.py`. Twelve of the sixteen largest already had prior mentions; the four
   with **none at all** were the whole batch. Costs one command.
+- **A generated ranking's own "unreachable" class is a label, not an argument**
+  (batch 228). `blockers.py` writes *"no analysis reaches a candidate root at
+  all, so there is nothing to rule on"* over 65 types / 74 pairs, and that class
+  had never been worked. But `roots()` has no reduplication rule, so every
+  doubled onset lands there regardless of whether it has a root. Bucket by shape
+  and strip the doubling by hand: `hhtran` reaches `htran` 阻擋 and his own
+  French says *arrêter*. **Price the artefact before believing the label** — and
+  price it from the DOM, which put the whole seam at 3 types and 1 pair, so the
+  `roots()` widening it argues for is refused. That negative result IS the
+  finding; don't re-open it.
 - **A written refusal can rest on a premise that later goes false** (batch 227),
   and repairing it is not overturning it. Batch 221 refused `snmul` because "the
   whole card is pale head included — there is no dark sibling to reason from",
@@ -454,8 +464,10 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.19%** (5,331). Not token share. A pair is
-  what an MT session can consume; a token percentage is not.
+  is dark, over 5,429. **Currently 98.21%** (5,332). Not token share. A pair is
+  what an MT session can consume; a token percentage is not. For scale, the same
+  page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
+  book-wide. Those answer a different question; only the pair figure is the target.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
   single type. The occurrence ranking spends effort where the pairs are already
@@ -599,7 +611,15 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `70 logs — 36 clean, 196 superseded, 0 REGRESSIONS, 0 crashed`.
+  `71 logs — 37 clean, 196 superseded, 0 REGRESSIONS, 0 crashed`.
+- **A CRASH can be the machine, and its five failures go missing with it** (batch
+  228). Under two foreign jobs (`align.py`, a 16-thread `screen_solo.py` shard)
+  `dom154.py` timed out navigating and the suite read `71 logs — 37 clean, 191
+  superseded, 0 REGRESSIONS, 1 crashed`. Run alone it completed and emitted its
+  five ledgered rows — **191 + 5 = 196**, which is the arithmetic that proves the
+  crash swallowed a whole log's adjudication rather than the book having moved.
+  The same run's serial re-check rescued five apparent healings. Check the
+  superseded count adds up before believing a crash.
 - **A batch that finishes an old supersession fails the log that recorded the
   unfinished half** (batch 223). Ruling `tqq'lang → tqqrang` made `dom57.py`
   report `BROWN tqq'lang tqqlang missing on [QQ'LANG]` — not a regression, the

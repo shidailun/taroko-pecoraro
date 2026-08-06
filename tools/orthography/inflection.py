@@ -2096,6 +2096,48 @@ HAND_SPOKEN = """nta""".split()
 # FURNITURE, SO IT BUYS NOTHING. `GLAQA` occurs exactly once in 1,967 entries, as
 # the headword of its own card; no example sentence uses it. Recorded so the next
 # batch does not read the flat pair metric as a failed seam and re-price it.
+# Batch 228. `hhtran`, his Psmuk example on p. 289 (printed 268):
+#   Pnsmuk ko daxa ktinox lex xxtlan mo bgixol
+#   = J'ai cloue deux planches pour en faire une protection (pour arreter le
+#     vent) contre le vent.   / 我釘了兩塊木板做擋風的屏障（擋住風）。
+#
+# THE ANALYSER CANNOT SEE REDUPLICATION, so `roots()` reports level 0 on every
+# doubled onset whatever the word is -- a fact about the analyser, not a verdict
+# about the word. Stripping the doubling by hand is what the standing rule asks
+# for, and it lands on `htran` 阻擋, listed and in the bible. His French says
+# "pour arreter le vent" and his Chinese says 擋住風: the gloss agrees verbatim,
+# which is the one test attestation cannot substitute for.
+#
+# EVERY PART IS ATTESTED, which is what this table is for. The root is spelled
+# in eight register forms, all on the bare stem -- htra 別阻擋, htran 阻擋,
+# htranay, htrani 去阻擋, htraw, htray, htri, htrun 要阻擋 -- and the `hh-`
+# instrumental prefix is spelled in 120, glossed 用…/給…/要… : hhangut 用來煮,
+# hhaqul 用來…搬運, hhabuk 給…用腰帶. His `xxtlan mo bgixol` is exactly that
+# derivation, "my thing-for-blocking the wind". Batch 224's test on the SLOT
+# passes too: `hh-` and `-an` co-occur for six other stems (hhraan 使長出,
+# hhnian 被…施術, hhlmadan), so the shape is a real slot and not one invented to
+# tidy his page. Only the crossing of this prefix with this stem is unlisted.
+#
+# The parse has no rival: `tran` is not a register word in any shape, so the only
+# reading of `hhtran` is `h-` + `htran`, the ordinary copy of the root's initial
+# consonant. Batch 204's different-root test finds nothing to respell toward --
+# 屏障 and 遮擋 return zero register words, and the other 阻擋 root, `baat`
+# (bbaat 用…阻擋), is unreachable from his letters by any correspondence he uses.
+#
+# The map is untouched and predates this: `xxtlan -> hhtran` is what charRules
+# gives unaided, x>h and l>r, no letter added or dropped. This batch changes a
+# COLOUR, as batch 224 did for `graka`.
+#
+# THE SCAN WAS READ, because the token occurs exactly ONCE in a book that repeats
+# itself (batch 213). Page 289 at 5x shows two distinct `x` glyphs matching the
+# `x` of `ktinox` and `lex` on the same line. The transcription is faithful and
+# `entries.js` is untouched.
+#
+# NOT A WIDENING. Teaching `roots()` reduplication was priced from the DOM first:
+# of 154 pale types the whole seam is THREE, of which this is the only one that
+# blocks a pair (`ggar` and `ssapat` are furniture at 0). One pair does not buy a
+# change to the analyser that could de-verify anywhere -- batch 217's warning,
+# confirmed by measurement rather than assumed.
 HAND_RULED = """treura msthulang dtanah empkmalux
                 smhngi snsikan dtduling mtru
                 pnkltudan kmpspusu sshgan ndmpatas
@@ -2132,6 +2174,7 @@ npnalu pneemuun npamuxul qdrxun empneemuun ptryaun niyak pthnguli
 dpnaah miq
 ptqriun
 rih
+hhtran
 """.split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and
