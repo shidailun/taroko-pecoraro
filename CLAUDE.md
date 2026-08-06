@@ -871,6 +871,14 @@ his page does not spell.
   the notes rather than on the current measurement proves nothing and reads as
   proof. Pick it from the run you just did (`rngut`, 9 pale spans, fails
   correctly).
+- **A control that can CLEAR its own earlier failure proves nothing** (batch
+  233). One leg wanted to check not just that an injection refuses but that it
+  refuses with the right MESSAGE, and was written `bad = 0 if ok else 1` — which
+  erased a real BAD from the leg above it and printed *all controls behaved* over
+  a failure. Accumulate (`bad = bad or …`). Same shape as the ledger rule: never
+  edit the thing that records that something moved. And **a gloss leg has to
+  patch all THREE sources** — blanking `ptgeanak` in `attested_gloss.json` alone
+  left `bible_gloss.json` carrying 隔開 and the leg passed for the wrong reason.
 - **When two of your own instruments disagree, neither number is reportable**
   until the disagreement is explained (batch 216). Chasing a 15-span gap between
   the census and a new log found the bug in the log, not the census.
@@ -880,6 +888,22 @@ his page does not spell.
   such value in the batch's log, or a later batch reads the flat metric as a
   failed seam and re-prices it. `logs/furniture.py` is the ranker; it is the only
   instrument in the project that is not `.truku`-scoped.
+- **A ruling on a tag VARIANT removes a span; it never darkens one** (batch 233).
+  `tagHtml()` (`app.js:1332`) modernises every variant in a tag and, when they
+  all agree with the modernised headword, returns the root mark ALONE. So ruling
+  `psaanaq → pseanak` did not paint his `(PSAANAQ ?)` brown — it stopped being
+  printed, and the card now reads `√ (= PSANIQ?)`. As colour it is the same win,
+  one pale span off the book, but a log asserting "the value renders dark" FAILS,
+  and a control has to put the span back BOTH pale and dark, because a probe
+  waiting for `w-mod` would pass the dark injection.
+- **A tag with no root mark makes no spelling claim at all** (batch 233).
+  `tagHtml()` line 1324 escapes any tag that does not carry his standalone
+  `R`/`R.` and prints it RAW — no spans, no modernisation. That is 558 of his
+  1,850 tags, and it is why batch 225's five "GREEN-side" compound-tag rows
+  needed no argument: they were never spans. Asking the MAP what those tokens
+  modernise to invents a seam; the DOM says zero. Of the 341 tag spans that DO
+  render, 321 are dark and every non-dark one is a settled class (15 are batch
+  223's posited roots) or a written refusal — the class is closed.
 - **Rank the pale by occurrence, not only by pair.** `blockers.py` ranks by
   sentence pairs, so a word spent on headwords and crossrefs never reaches it —
   the biggest pale word on the page (`treura`, 13 — dark since, batch 222) was

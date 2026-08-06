@@ -4545,7 +4545,7 @@ window.MODERN_MAP = {
 "psa'so":"pseesu",
 "psaan":"psaan",
 "psaanak":"pseanak",
-"psaanaq":"psaanaq",
+"psaanaq":"pseanak",
 "psaang":"psaang",
 "psado":"psadu",
 "psagan":"psagan",

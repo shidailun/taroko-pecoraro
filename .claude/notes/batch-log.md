@@ -7033,3 +7033,115 @@ the live row is asserted NOT absorbed alongside its twins. (One control failed
 on its first run, against the person writing it: normalising HEAD's text with
 `replace(" ", "")` before the membership test turns `ka sayang` back into
 exactly the join it replaced.)
+
+## batch 233 — PSAANAK ruled, and the tag furniture closed as a class
+
+**0 pairs, by construction.** The metric HOLDS at 5,346 / 5,429 = 98.4712%; sole
+blockers 79 over 67 types, unchanged. One map value changed — `psaanaq →
+pseanak`, gained/LOST clean at `lost=[] new=[] changed=[('psaanaq','psaanaq'→
+'pseanak')]` and `verified.js` byte-identical, because the value was already a
+verified map value. `entries.js` untouched; the audio id set stands at 5,134.
+
+Batch 225 left its compound-tag sweep with two live pale-side rows and five it
+called GREEN-side. This batch rules one of the two and then measures the class
+they came from. It closes: **zero live rows in 1,967 entries.**
+
+### 1. PSAANAK — his own parenthetical
+
+    PSAANAK (PSAANAQ ?) (R. = ?? - = R. PSANYAQ ?)  擱置一旁－歧視、隔離
+
+Batch 200: where his two spellings of the headword go to different values of
+which exactly one is dark, the pale side renders what the dark side renders.
+`psaanak → pseanak` is batch 70's tier-M ruling (偏見, 16 speakers); `psaanaq`
+sat on an identity pin. Five things had to hold, and did.
+
+* **Only the FIRST parenthetical is testimony.** The second posits a root and
+  carries his own question mark — batch 223's tag-shape rule excludes it. It
+  renders `PSANIQ` in the same tag and is already dark, correctly: bare `psaniq`
+  is glossed 女人陰部, but `gmpsaniq` and `ppsaniq` carry his SANYAQ card's 禁忌.
+  Batch 221's rule — name the form whose OWN gloss carries the character — run
+  on the neighbour before leaning on it (batch 199).
+* **The dark side passes the gloss test**, which is batch 200's own caveat and
+  refused 7 of its 17 rows. His 擱置一旁－歧視、隔離 against `pseanak` 偏見
+  (parquet 區別), with `seanak` 看輕；輕視；瞧不起 carrying his 視 and `ptgeanak`
+  隔開 carrying his 隔. Batch 70's family, not a homograph.
+* **There is nothing else for his string to be.** It is in none of the four
+  sources — `edictionary_trv.json:1430` carries it explicitly null — and exactly
+  one register word stands within one edit, `psranaq` 促使起火焰, which batch
+  204's different-root test refuses.
+* **The pin it replaces had aged.** Batch 89's green-list re-key (commit
+  586c261), an identity claim with no comment and no argument beside it. Batch
+  216: a tier-M identity pin is the one map entry that ages, because it records
+  a search that FAILED — and his own head was ruled one batch later.
+* **The scan was read before the map was touched.** `scans/full/page_226.png` is
+  book page 205; its bottom half at 1.6× writes `PSAANAK (PSAANAQ ?)` plainly.
+  The `q` is his, `entries.js` is faithful, and the fix belongs in the map
+  (batch 212).
+
+`q↔k` is excluded from the char rules, so only a map entry can carry this, and
+`charRules('psaanaq')` = `psaanaq` unaided — deleting the pin would return the
+span to GREEN rather than to his letters, so it was load-bearing for colour and
+its replacement is too (batch 227).
+
+### 2. A variant ruling REMOVES a span; it does not darken one
+
+The obvious assertion — "the tag span goes dark" — is false, and a log making it
+would fail. `tagHtml()` (`app.js:1332`) modernises every variant in the tag and
+returns the root mark ALONE when they all agree with the modernised headword. So
+`(PSAANAQ ?)` does not turn brown: it stops being printed, and the card now
+reads `√ (= PSANIQ?)`. The app already knew what to do with a variant that agrees
+with the head; the ruling is what let it. As colour that is the same win — one
+pale span off the book — but it arrives as a DELETION, and a probe waiting for
+`w-mod` waits forever. The control tests exactly that: the span is put back both
+pale and DARK, and both must refuse.
+
+### 3. The five "GREEN-side" rows were never a claim
+
+`tagHtml()` line 1324: a tag that does not carry his standalone `R` / `R.` is
+escaped and printed RAW — no spans, no modernisation, no claim. LQBUX, PGDGIT,
+SLAP, XK'LAO and XNU are all that shape and each renders **zero** spans in its
+tag; 558 of his 1,850 tags are in that class. The "green" reading came from
+asking the MAP what those tokens modernise to. Batch 219's standing rule
+arriving somewhere new: the map is never evidence about colour, only the DOM is.
+
+### 4. The class, measured whole
+
+1,850 tags; 1,292 carry the root mark and enter the spelling pipeline; 86
+variant-shape parentheticals sit beside a root mark and so render. After the
+ruling: **321 dark tag spans, 15 pale, 5 green, and `inTruku == 0` for all 341**
+— 0 pairs by construction (batch 223), asserted so a later batch does not read
+the flat metric as a failed seam. Every non-dark row has a class or a written
+refusal:
+
+* **15 are batch 223's posited-root shape** `(R. = X ?)` — BIL, DUX, QLOQ,
+  EYDANG, EYSA, PSUQIH, PUXIR, IKAXA, BASYAQ, TAMUX, IYAK, GGAR, REQ, GRYEQ,
+  RYEQ. Four are already named as that class in CLAUDE.md.
+* **2 are variant-shape and settled**: SAMUL `(SMUL?)`, which batch 227
+  deliberately reverted to pale and explained, and SKRUT `(SKRT)`, vowelless and
+  dropped by the generator's own invariant.
+* **2 are not parentheticals**: LUNGUT's crossref arrow → RNGUT, refused in
+  writing at batch 204 (懷孕 is `mshjil`), and TBNAW's bare `R`, the letter named
+  inside his French *le R étant…* — batch 207's metalinguistic class.
+
+This is batch 222's instrument on a new list: measure the queue before working
+it. One DOM pass priced a seam that a per-item walk would have spent a week on,
+and the answer was that fourteen of its nineteen rows are one settled class.
+
+### Controls
+
+`.scratch/b233/control233.py` — 37 cases, all behaved. Beyond the pins, three
+legs are worth naming:
+
+- **The neighbourhood pin is a FLOOR** (batch 209), so the control shows it
+  discriminating rather than merely failing: `psranaq` LEAVING refuses, a new
+  neighbour glossed 歧視他人 refuses *and with the different-root message*, and
+  one glossed 跳躍 does not refuse at all.
+- **The gloss legs must patch all THREE sources.** Blanking `ptgeanak` in
+  `attested_gloss.json` alone left `bible_gloss.json` carrying 隔開, and the leg
+  passed for the wrong reason — the control's own version of batch 200's "a
+  single gloss row is not the register's answer".
+- **A control that can clear its own earlier failure proves nothing.** The
+  rival-message leg was written `bad = 0 if ok else 1`, which erased a real BAD
+  from the leg above it and printed *all controls behaved* over a failure. It is
+  `bad = bad or …` now. Same shape as the ledger rule: never edit the thing that
+  records that something moved.
