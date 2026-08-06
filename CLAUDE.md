@@ -237,6 +237,20 @@ These were each learned by breaking something. Evidence for every one is in
   cheapest cut on any tail: for each blocker type, grep the batch log and every
   `dom2*.py`. Twelve of the sixteen largest already had prior mentions; the four
   with **none at all** were the whole batch. Costs one command.
+- **A written refusal can rest on a premise that later goes false** (batch 227),
+  and repairing it is not overturning it. Batch 221 refused `snmul` because "the
+  whole card is pale head included — there is no dark sibling to reason from",
+  which was untrue: his bracketed variant `S'MUL` rendered DARK on `smur` 濕冷, a
+  tier-B projection with no second source and no character in common. Reverting
+  it made the stated reason literally true and left the refusal standing. **Read
+  a refusal's reason as an assertion about the page and re-measure it**, rather
+  than treating the whole sentence as settled — the verdict can be right while
+  the fact it names has rotted.
+- **A pin that spells what `charRules` already spells is still load-bearing**
+  (batch 227, as batch 218's `mqlaq → mqlaq`). Deleting a reverted freeze's map
+  entry does not return the word to his letters: `charRules("s'mul")` = `smur`
+  unaided, so the freeze's string comes back as a GREEN span. Assert the char-rule
+  output in the log, or a later tidy-up will read the identity pin as a no-op.
 - **A probe must ask the map in the app's own alphabet** (batch 219). `wordKey()`
   folds ONLY `’ ʼ " ʔ → '` and `ł → l`. It does NOT fold ç→x and does NOT strip
   ü/ö, and seven map keys (`ilüs`, `iyüs`, `libiç`, `lübak`, `lübaq`, `opiç`,
@@ -585,7 +599,7 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `68 logs — 30 clean, 206 superseded, 0 REGRESSIONS, 0 crashed`.
+  `70 logs — 36 clean, 196 superseded, 0 REGRESSIONS, 0 crashed`.
 - **A batch that finishes an old supersession fails the log that recorded the
   unfinished half** (batch 223). Ruling `tqq'lang → tqqrang` made `dom57.py`
   report `BROWN tqq'lang tqqlang missing on [QQ'LANG]` — not a regression, the
@@ -614,6 +628,29 @@ his page does not spell.
   Not a dom154 quirk — **53 of the 61 logs wait under 15s** (19 at 2.5s, 34 at
   6s, one at 30s). They pass because the book renders fast on an idle machine.
   Fix the adjudicator, never the 53 waits.
+- **A HOLD assertion is HEAD-relative, so COMMITTING re-baselines it** (batch
+  226). Six logs (dom57/59/60/63/65/66) read their *before* map from
+  `git show HEAD:site/modern_map.js` (`dom66.py:51`) and hold every neighbour at
+  the value it had there. Committing batches 211–225 in one go made **eleven
+  ledger rows stop failing at once** and re-keyed a twelfth — the batch-217
+  fingerprint exactly, and the serial re-run reproduced all eleven as clean,
+  because nothing about the book had moved. They are kept in `LEDGER` and
+  subtracted in `ABSORBED`: deleting them destroys the record, and a failure that
+  comes back still needs its explanation, but a HEALED report standing at 11
+  forever masks the next real healing. **Suspect the git-relative logs first
+  whenever healings arrive in a clump right after a commit.**
+- **The citation seam can FAIL a darkness assertion, and that is by design**
+  (batch 226). `CITE_SPELL` pales any form rendered as a NAME, so both his LIDIL
+  heads paint `RIJIL` `w-unv` and the bend card — six affixed subs, no example —
+  carries no bare running-text token at all. A HOLD row demanding the
+  running-text `rijig` there is asking for the half of batch 201's split that was
+  deliberately refused. Ledger kind **`cite`** re-asserts BOTH tables, because a
+  re-merge can arrive from either side: drop the app.js key and every citation
+  falls back to the map; move the map and the running text leaves the seam.
+- **Ask the DOM in the DOM's own CASE** (batch 226) — the display-side twin of
+  batch 219's alphabet rule. `.hw` prints the modern headword UPPERCASE, so a
+  probe filtering spans on lowercase `rijil` reported both LIDIL headwords as
+  rendering nothing at all, which reads as the seam having stopped firing.
 - **Check the machine before believing a suite result.** The wall-clock tell is
   a ~4 min suite taking ~17; `Get-CimInstance Win32_Process` names the culprit,
   and it may belong to another project entirely.

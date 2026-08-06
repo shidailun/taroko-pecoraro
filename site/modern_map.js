@@ -5360,7 +5360,7 @@ window.MODERN_MAP = {
 "s'lyeq":"seeliq",
 "s'mai":"smay",
 "s'mpong":"smpung",
-"s'mul":"smur",
+"s'mul":"smul",
 "s'ngan":"snagan",
 "s'ngun":"sngun",
 "s'so":"ssu",

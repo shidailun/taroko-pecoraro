@@ -6077,3 +6077,163 @@ SA'MUL is the mirror shape — his HEAD is the pale one there.
 `lost=[] new=[]`; `verified.js` lost `kubuy` (no longer a map value) and gained
 `kbuyu`, no code changes elsewhere. Audio blocked pending a voice; 5,134 attached
 ids asserted unmoved. Nothing deployed since 205.
+
+---
+
+## Batch 226 — the suite after a commit: eleven healings that were the commit
+
+The batch-225 suite ran green on everything except one line, and reported
+**eleven ledger rows healed at once**. Eleven at once across six logs is the
+batch-217 fingerprint — a contended machine under-renders and the suite reads a
+colour it cannot see as an absence — so the burden of proof went on the healing.
+`suite.py` re-ran all six serially and every one reproduced as clean. So they had
+really stopped failing. The question was why, and the answer is not evidence.
+
+    SUITE 69 logs — 35 clean, 195 superseded, 1 REGRESSIONS, 0 crashed
+      dom66.py      BROWN lidil rijig missing on [LIDIL]  green there: []
+                    no ledger row
+    HEALED 11 ledger rows no longer fail — retire them: …
+
+### The cause was the commit, not the book
+
+`dom66.py:51` — and the same line in dom57/59/60/63/65 — reads its *before* map
+out of git:
+
+    OLD = parse_map(subprocess.run(["git","show","HEAD:site/modern_map.js"], …))
+
+and holds every neighbour of a touched card at `val(t, OLD)`: *this word must
+still paint what it painted before the rebuild*. That is a HEAD-relative
+assertion. Batches 211–225 were committed in one go as `2f377cb`, so HEAD
+absorbed fifteen batches of map changes and every held neighbour re-baselined
+onto the value the batch had already given it. Confirmed on one token:
+
+    583fc9c (old HEAD):  "lidil":"rijil"
+    2f377cb (new HEAD):  "lidil":"rijig"
+
+Nothing about the book moved. Eleven pins stopped firing because the working
+copy and HEAD agree again — which is the *point* of committing, and is not a
+reason to retire a row. The rows and their reasons are kept in `LEDGER`; a new
+`ABSORBED` set subtracts them from the HEALED report only. A returning failure
+still finds its explanation, and the report stops standing at 11 forever, where
+it would have masked the next real healing.
+
+### The one regression is the citation seam, and it is the same fact mirrored
+
+`dom66.py`'s new line is the other end of the same re-baselining: the `lidil`
+neighbour was held at `rijil` on his L'BU card (that row healed — L'BU is running
+text and paints `rijig`) and is now held at `rijig` on a LIDIL card that paints no
+such thing.
+
+He carded LIDIL twice. Batch 211 split the homograph — `rijig` 柄（刀;鋤） for the
+handle, and `CITE_SPELL['lidil'] = 'rijil'` (app.js:115) to refuse the map
+wherever the form renders as a NAME. Measured from the DOM, not from the map:
+
+    card 526  工具的柄       subs 0  ex 1   .hw = RIJIL  (w-unv, PALE)
+                                           one span  dark:rijig   ← the example
+    card 527  傾斜的－歪的－扭曲的  subs 6  ex 0   .hw = RIJIL  (w-unv, PALE)
+                                           15 spans, every one an AFFIXED
+                                           *rijil form; no bare token at all
+
+So the bend card has no running-text `lidil` to paint `rijig` with, and its head
+is paled by the seam exactly as batch 211 intended. A HOLD row demanding the
+running-text value on a card that only CITES the word is asking for the half of
+the split that was deliberately refused. Ledger kind **`cite`**, which re-asserts
+BOTH halves — `MAP['lidil'] == 'rijig'` and `CITE_SPELL['lidil'] == 'rijil'` —
+because a re-merge could arrive from either side: delete the app.js key and every
+citation falls back to the map, change the map and the running text moves out
+from under the seam.
+
+Negative control, `.scratch/b226/control_cite.py`: **7 of 7**. Untouched
+explains; map drifted to `rijil` refuses; CITE_SPELL losing the key refuses;
+CITE_SPELL pointed at `rijig` refuses; the same line on a different card gets
+`no ledger row`; every `ABSORBED` key still has a `LEDGER` row; and an ABSORBED
+failure that comes back is still explained.
+
+### A probe over `.hw` has to case-fold
+
+The first probe filtered spans on the substrings `rijil`/`rijig` and reported
+**neither headword rendering at all** — because `.hw` prints the modern headword
+UPPERCASE, `RIJIL`, and the card's own examples are lowercase. It read as though
+the seam had stopped firing. Batch 219's rule about asking the map in the app's
+own alphabet has a display-side twin: ask the DOM in the DOM's own case.
+
+### Carried
+
+    metric   5331 / 5429 = 98.1949%   unchanged — no map or entries change
+    suite    69 logs — 36 clean, 196 superseded, 0 REGRESSIONS, 0 crashed
+
+No spelling was decided in this batch; `modern_map.js`, `verified.js` and
+`entries.js` are untouched. Audio blocked pending a voice. Nothing deployed
+since 205.
+
+## Batch 227 — the dark sibling batch 221 said the SA'MUL card did not have
+
+His SA'MUL `(S'MUL ?) (R)` is 把（嬰兒）抱在懷裡－抱著孩子, with one sub-form
+`Sn'mul (sma'mul)`. Batch 221 worked its pale side for pairs and refused it in
+writing (`dom221.py:132-133`), the second refusal reading:
+
+    "snmul": same card as smmul, and the whole card is pale head included --
+             there is no dark sibling to reason from
+
+That clause was not true. The card was not pale throughout:
+
+    SA'MUL   -> samul    PALE   tier M
+    S'MUL    -> smur     DARK   tier B   <- 濕冷
+    Sn'mul   -> snmul    PALE   tier P
+    sma'mul  -> smamul   PALE   tier P
+
+### Three independent arguments, all agreeing
+
+**The tier and the bar.** `s'mul → smur` is tier **B**, a shape projection never
+asked for a gloss — the tier batch 218 reverted for `mqlaq` and batch 225 for
+`kubuy`. `smur` is 濕冷 in `attested_gloss.json` and appears in no other source:
+bible 0, parquet 0, edictionary 0, so it stands under the universal `>= 2` bar.
+濕冷 shares no character with his card. Dark AND wrong, batch 201's shape exactly.
+
+**His tag shape.** `(S'MUL ?)` names another spelling of the headword, so batch
+200's parenthetical rule applies and batch 223's tag-shape test lets it in — but
+batch 200 refused 7 of its own 17 because *the dark side still has to pass the
+gloss test*. This is the mirror case, his HEAD being the pale one, so the fix
+runs the other way: the dark side comes down to where the head already is.
+
+**A char-rule contradiction inside one root** (batch 201). `l → r` fires on this
+one slot of a card whose other three slots all keep the `l`, and the siblings are
+unanimous: `samul`, `snmul`, `smamul`.
+
+### The positive half, and the negative half
+
+The register carries his meaning on a different root, so batch 204 says there is
+nothing to respell toward and the pallor is correct: **39 words glossed 抱**, and
+every one is `abuh`/`eabuh` — `kmeabuh` 帶種子袋;挖成窪地;抱在懷裡 is his gloss
+verbatim — plus `duuy` 持, `jijil`, `qrapu` 擁抱, `hiyug`. Nothing shaped like his.
+So the entry is pinned to his own letters: `smul`, unattested, PALE.
+
+**The pin is load-bearing**, as batch 218's `mqlaq → mqlaq` was: `charRules`
+spells `smur` unaided, so DELETING the entry would put the freeze's own string
+back on the page as a green span. `dom227.py` asserts that directly.
+
+Negative half, asserted as a regex over the register: a word of the shape
+`s(m?a|n|ma)?mul` ever turning up glossed 抱 re-opens both this pin and batch
+221's refusal.
+
+### What this does NOT do
+
+It does not overturn `snmul`. It repairs the one false premise in the reason
+batch 221 gave — the card is pale throughout NOW, which it was not then. The
+SNULU sentence `Msnulu bi mstlong xea ludan ka sn'mul madas laqe na` (抱著孩子的
+父母) is still blocked by `snmul` alone, and stays refused.
+
+### Measured
+
+    pairs           5331/5429 = 98.1949%  ->  5331/5429 = 98.1949%  unchanged
+    pale span types 153 -> 154            pale spans 235 -> 236
+    smur  seen=1 pale=0 inTruku=0  ->  seen=0
+    smul  seen=0                   ->  seen=1 pale=1 inTruku=0
+
+`s'mul` occurs exactly once in the book — in his TAG — and a tag is in no
+`.truku` box, so **0 pairs by construction** (batch 223), asserted in the log and
+priced from the DOM rather than the table (batch 218). A freeze removal costing
+one pale span is expected: it can only ever look like a regression.
+
+`dom227.py` passes clean; `.scratch/b227/control227.py` runs 16 cases — two
+positive controls pass, fourteen tampers all refuse.

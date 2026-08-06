@@ -607,6 +607,46 @@ LEDGER = {
     # dom223.py carries the assertion that the value renders DARK.
     ('dom57.py', "BROWN tqq'lang tqqlang missing on [QQ'LANG]"):
         ('map', 'tqqrang', 'batch 223 finished batch 201\'s head re-ruling'),
+    # --- dom66.py. The CITATION SEAM, arriving as a failure for the first time.
+    # He carded LIDIL twice and batch 211 split the homograph: the handle sense
+    # takes `rijig` 柄 in running text, and `CITE_SPELL['lidil'] = 'rijil'`
+    # refuses the map wherever the form renders as a NAME. So BOTH his LIDIL
+    # heads paint `RIJIL` PALE (confirmed from `.hw`, w-unv on cards 526 and
+    # 527), and the bend card -- six affixed subs, no example -- carries no
+    # bare running-text token at all, so there is no `rijig` span on it to find.
+    # A HOLD assertion demanding the running-text value on a card that only
+    # CITES the word is asking for the half of the split that was refused.
+    # Kind `cite` re-asserts both halves, because either one alone would let
+    # this row stand over a book that had quietly re-merged the two senses.
+    ('dom66.py', 'BROWN lidil rijig missing on [LIDIL]'):
+        ('cite', ('lidil', 'rijig', 'rijil'),
+         'batch 211 split the LIDIL homograph; the seam pales the citation'),
+}
+
+# [batch 226] Rows whose failure was HEAD-RELATIVE, and which the commit of
+# batches 211-225 absorbed. Six of these logs (dom57/59/60/63/65/66) hold their
+# neighbours at `val(t, OLD)` where `OLD = git show HEAD:site/modern_map.js`
+# (dom66.py:51). The pin says "this neighbour must still paint what it painted
+# before the rebuild" -- so the moment the rebuild is committed, HEAD carries
+# the new value, the assertion re-baselines onto it, and the row stops firing.
+# That is not a pin retiring on evidence; it is the working copy and HEAD
+# agreeing again, and it fired eleven times at once because one commit carried
+# fifteen batches. The rows and their reasons are KEPT -- deleting them would
+# destroy the record, and a genuine return of any of these failures still finds
+# its explanation in LEDGER -- but they are subtracted from the HEALED report,
+# which would otherwise stand at 11 forever and mask the next real healing.
+ABSORBED = {
+    ('dom57.py', 'BROWN pslangi pslangi missing on [SLANGI]'),
+    ('dom57.py', 'BROWN pslngiyun psrngiyun missing on [SLANGI]'),
+    ('dom59.py', 'BROWN tqliyun tqriyun missing on [QELI]'),
+    ('dom60.py', 'BROWN tglgli tgrgri missing on [QALAS]'),
+    ('dom63.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'),
+    ('dom63.py', "BROWN lidil rijil missing on [L'BU]"),
+    ('dom63.py', 'BROWN snola snola missing on [LUUS]'),
+    ('dom65.py', 'BROWN mqlaq mqraq missing on [QLAQ]'),
+    ('dom65.py', 'BROWN tqliyun tqriyun missing on [QELI]'),
+    ('dom66.py', 'BROWN kmbyanan kmbyanan missing on [GBIYAN]'),
+    ('dom66.py', "BROWN lidil rijil missing on [L'BU]"),
 }
 
 
@@ -663,6 +703,19 @@ def load_ver():
     # the other.
     s = open(os.path.join(ROOT, "site", "verified.js"), encoding="utf-8").read()
     return dict((k, int(n)) for k, n in re.findall(r'^  "(.+?)": (\d+),?$', s, re.M))
+
+
+def load_cite():
+    """`CITE_SPELL` (app.js): the refuse-only seam that pales a citation.
+
+    Read from app.js and nowhere else. It is invisible to the generator, so a
+    value here is absent from verified.js by construction (batch 215) -- which
+    is exactly what makes a wrong seam cost a pale headword and not a dark
+    wrong word, and what makes this table the other half of a split ruling."""
+    s = open(os.path.join(ROOT, "site", "app.js"), encoding="utf-8").read()
+    i = s.index("var CITE_SPELL = {")
+    return dict(re.findall(r'"((?:[^"\\]|\\.)*)"\s*:\s*"((?:[^"\\]|\\.)*)"',
+                           s[i:s.index("\n  };", i)]))
 
 
 def meta_rows():
@@ -742,6 +795,23 @@ def adjudicate(log, line, MAP, META):
                          "refusal it superseded is effectively back"
                          % (tok, val, val))
         return rec, ""
+    if kind == "cite":
+        # [batch 226] A SPLIT ruling: the map carries one sense and CITE_SPELL
+        # refuses it for the other. Re-assert both halves, or the row would go
+        # on excusing this failure over a book that had re-merged the senses --
+        # and the merge could arrive from either side, since deleting the
+        # CITE_SPELL key would send every citation back to the map's value and
+        # changing the map would move the running text out from under the seam.
+        tok, running, cited = arg
+        if MAP.get(tok) != running:
+            return rec, ("ledger says the split sends running text to %s, the "
+                         "map says %s" % (running, MAP.get(tok)))
+        cs = load_cite()
+        if cs.get(tok) != cited:
+            return rec, ("ledger says CITE_SPELL pales the citation to %s, "
+                         "app.js says %s -- the other half of the split is "
+                         "gone, so this is no longer a seam" % (cited, cs.get(tok)))
+        return rec, ""
     if kind in ("map", "meta"):
         m = re.match(r"^BROWN (\S+) (\S+) missing on \[(.+?)\]$", head)
         tok, claim, card = m.groups()
@@ -794,7 +864,8 @@ def main():
                     superseded += 1
     # Only over the logs this run actually executed — a filtered run must not
     # report every unselected log's rows as healed.
-    healed = sorted(k for k in set(LEDGER) - seen_keys if k[0] in set(names))
+    healed = sorted(k for k in set(LEDGER) - seen_keys - ABSORBED
+                    if k[0] in set(names))
     # [batch 217] Healing must be REPRODUCED before it is reported, and
     # reproduced SERIALLY. A ledger row heals when its exact failure line stops
     # appearing -- and the line carries the measurement in it, so a log that
@@ -817,7 +888,8 @@ def main():
                 if key in healed:
                     rescued += 1
                 seen_keys.add(key)
-        healed = sorted(k for k in set(LEDGER) - seen_keys if k[0] in set(names))
+        healed = sorted(k for k in set(LEDGER) - seen_keys - ABSORBED
+                    if k[0] in set(names))
         if rescued:
             print("re-ran %d log(s) serially: %d apparent healings did NOT "
                   "reproduce (a contended run under-renders and reports a "
