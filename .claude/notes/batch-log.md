@@ -7145,3 +7145,133 @@ legs are worth naming:
   from the leg above it and printed *all controls behaved* over a failure. It is
   `bad = bad or …` now. Same shape as the ledger rule: never edit the thing that
   records that something moved.
+
+## batch 234 — the label "every blocker has a written refusal" was 66/67 true
+
+**0 pairs.** The metric HOLDS at 5,346 / 5,429 = 98.4712%; sole blockers 79 over
+67 types, unchanged. No file that ships changed: `entries.js`, `modern_map.js`
+and `verified.js` are untouched, the audio id set stands at 5,134. What the
+batch produces is one refusal, two closed negative results, and one standing
+test the "every tier is closed" claim never had.
+
+The Target section says the pairs still blocked are held by words with a written
+refusal, so the next gain has to come from new evidence. Two things follow and
+this batch does both: measure the one outside instrument that might still hold
+new evidence, and price that claim instead of repeating it.
+
+### 1. The e-dictionary is closed AT THE PALE, by measurement
+
+Batch 182 recorded that the ILRDF online dictionary "attests NOTHING new" over
+611 lookups. That is a statement about the lookups made. Asked of the pale
+specifically — the only place an attestation could still buy a pair — it is
+sharper: of the **146 map values that render on a pale key, 131 have already
+been asked and every one is a miss. Zero hits anywhere in the pale.**
+
+The 15 never asked are not a queue either. Ten are FRENCH (§3). The other five
+are Truku and every one already carries a written record — `knbuyu` (batch 225's
+KUBWI), `mqlaq` (batch 218's reverted freeze, and the three pairs it cost),
+`rngiyan` (batch 220's refusal off the register's silence), `shkun`, `smul`
+(batch 227's reverted freeze). All five are DERIVED forms, and the instrument
+indexes HEADWORDS: `tksaw` and `gmquwaq` come back 無搜尋結果 while their roots
+are there in full. It cannot reach them by construction, so there was never a
+lookup to make.
+
+Kept as a negative result with the standing of `freezesweep.py`, `tail221.py`
+and `premise231.py`. The live assertions are `ASKED_HITS == 0` and that no NEW
+pale value appears unasked — the second is the news that would re-open it.
+
+### 2. `kyuqan` — the one blocker whose only mention was a parenthesis
+
+All 67 sole-blocker types have a prior mention somewhere in the record. That
+reads as "all worked", and it is a LABEL (batch 228). Classify the mentions by
+whether any sits in a refusal-shaped context and exactly one type comes back
+unworked: `kyuqan`, his `kyoqan`, sole blocker of one pair, mentioned once ever
+— inside a list of words a batch had *not* re-derived, as the parenthesis "(his
+crachats; the register spits with halus)".
+
+His row is one sentence, the last on book page 243 (scan 264), on the SA'SO card:
+
+    Wada na kxdoon kyoqan ka bobo na! Sa'so bi !
+    他朝母親吐了滿臉口水！ C'est honteux !
+
+**The scan first** (batch 213/229: a token appearing once in a book that repeats
+itself is a candidate for the scan, and it costs one crop). At 6× the initial is
+the same `k` as `kxdoon` and `ka` on that same line — arms, no crossbar. The page
+carries `kyoqan`; `entries.js` is faithful and is untouched.
+
+**His own book supplies the meaning, so this is not a gloss question.** His TUYOQ
+card is "Salive - cracher" and its sub-form `Tyoqan` is "Crachoir - crachat -
+action de cracher" — the hapax's sense exactly. `tuyuq` is attested and glossed
+痰; `tyoqan → tuyuqan` is already DARK at code 2. Only his `k-` is in doubt, and
+three routes out of it are each refused:
+
+- **`kyoqan → tuyuqan`** — swapping his `k` for a `t` is a lexical substitution
+  wearing a respelling's clothes (batch 216, where dropping the L of `lg'loq` was
+  refused although `gluq` carried his gloss verbatim). His initial consonant takes
+  a modern reflex, never another consonant.
+- **`kyoqan → ktuyuqan`**, restoring the syncopated `tu` as batch 219 restored the
+  `g` of `tglgli` — but that `g` was written by eight dark slots of his own card,
+  and no slot anywhere writes this. `ktuyuqan` is in no source, so the span stays
+  pale: a new spelling claim that buys nothing.
+- **Leaving it and calling the pallor an analyser gap** — refused by batch 224's
+  sister test, which is what makes silence evidence. The register spells the
+  `k…an` slot for other stems (`kbyuan` 讓…雜草叢生, `kyuhan` 已擦傷) and spells
+  no `k-` form of this one. The negative half as a property rather than a list
+  (batch 229): of the 58 register words whose gloss carries 口水/唾/痰, the
+  `tuyuq` family is there in full and **not one member of it takes a `k-`**. What
+  the register has for "covered in saliva" is `khalus` 沾滿唾液, off `halus` — a
+  different root (batch 204), and itself a `k-` word, which is the point. The slot
+  exists; this stem is not in it.
+
+So `kyuqan` stays pale, the pair stays blocked, and the refusal is now where the
+next batch will grep it.
+
+### 3. His French inside a Truku field earns a map entry, and it is INERT
+
+Ten map values are French: `grand`, `grandeur`, `beau`, `savoir`, `vivant`,
+`volant`, and the char rules' own output on his French — `connaissance →
+cunnaissance`, `matin → macin`, `pour → puur`, `rougeur → ruugeur`. They are not
+a defect to clean. Every one renders **zero spans**, and the app already says
+why: six come from the `t == fr` demonstration rows of his AN card (`Paro =
+Grand; Knplaan = Grandeur`), which `metaLine()` renders with no spans at all —
+the six rows the denominator already excludes — and the other two from his
+parentheticals `xandolu (=Volant)` and `Pqboan (= contraction pour: …)`, which
+the page files as apparatus (batch 208).
+
+The consequence is a measurement one, which is why they are pinned: a pale census
+taken from the MAP counts ten values the DOM does not have, so the real pale-value
+seam is **136, not 146**. Batch 219's rule arriving in the cheapest possible
+place — the map is never evidence about colour.
+
+### 4. The classification is left behind as a standing test
+
+`dom234.py:unworked()` re-runs §2's cut at suite time: every sole blocker, every
+map key that reaches it, against CLAUDE.md, the three notes files,
+`manual_map.json` and every log, asking whether any mention sits within six lines
+of refusal-shaped prose. After this batch it returns **0**. It fires when a sole
+blocker turns up whose record contains no refusal — either a new one arriving
+from a ruling elsewhere, or this batch's own refusal being deleted. The log is
+part of the record it reads, and the control proves both directions.
+
+### Controls
+
+`.scratch/b234/control234.py` — 34 cases, all behaved. Four legs are worth
+naming, each a place the log could have passed for the wrong reason:
+
+- **The e-dictionary legs must DISCRIMINATE.** `ASKED_HITS == 0` would also be
+  satisfied by an instrument that had stopped being consulted, so a never-asked
+  value is asked and MISSES (must not refuse) as well as HITS (must refuse), and
+  un-asking a value already asked refuses on the containment leg.
+- **The negative half is a property, not a list** (batch 229): a new 口水 carrier
+  that does not take a `k-` is not news; one that does refuses, and with the
+  register-has-stopped-being-silent message.
+- **The standing test fires on a DELETION as well as on an arrival.** Injecting a
+  blocker nobody has written about refuses; injecting `snoxel`, which carries a
+  refusal, does not; striking this batch's own refusal from the record puts
+  `kyuqan` back on the list.
+- **A control leg that patches the wrong field passes for free.** Three legs did
+  at first — the hapax count reads his Truku `t` fields, so appending to `fr`
+  moved nothing; his demonstration rows sit on the AN card as `SUBEX`, not on
+  `AN (3)`; and injecting a sole blocker that is already one (`mqlaq`) changes no
+  count. A control that cannot move the world it patches reads exactly like a pin
+  that cannot fail.

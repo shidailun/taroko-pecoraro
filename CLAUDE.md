@@ -325,6 +325,16 @@ These were each learned by breaking something. Evidence for every one is in
   character (品, 花, 為 at 1,569 carriers) and the fourth is XUBAO. Positive
   control: fed the pre-ruling state it finds `snuher → sneuhir`. A negative
   result, kept — as with `freezesweep.py` and `tail221.py`; don't rebuild it.
+- **The ILRDF e-dictionary is closed AT THE PALE** (batch 234). Batch 182's
+  "attests nothing new" was a statement about the lookups made; asked of the
+  pale, where an attestation is the only thing that could buy a pair, it is
+  sharper. Of the **146 pale map values, 131 have been asked and every one is a
+  miss — 0 hits**, and the 15 never asked are 10 French plus 5 that each carry a
+  written record. All five are DERIVED forms and the instrument indexes
+  HEADWORDS (`tksaw`, `gmquwaq` return 無搜尋結果 beside roots listed in full),
+  so it cannot reach them by construction. There was never a lookup to make.
+  `dom234.py` keeps it live as `ASKED_HITS == 0` plus the containment that fires
+  when a NEW pale value appears unasked; don't re-open batch 182 by hand.
 - **A pin that spells what `charRules` already spells is still load-bearing**
   (batch 227, as batch 218's `mqlaq → mqlaq`). Deleting a reverted freeze's map
   entry does not return the word to his letters: `charRules("s'mul")` = `smur`
@@ -585,6 +595,16 @@ These were each learned by breaking something. Evidence for every one is in
   while every tier above it was declared closed. It had six rows; two were
   rulings (+4 pairs) and the other four were confirmed refusals. When a ranking
   reports a tier exhausted, ask what shape of pair the ranking cannot see.
+- **A prior MENTION is not a written refusal** (batch 234) — batch 221's
+  record-grep and batch 228's label rule, crossed. "0 of the 67 sole blockers
+  have no prior mention" confirms the Target section and is a label; classify
+  the mentions by whether any sits in refusal-shaped prose and **one** type comes
+  back unworked. `kyuqan` was mentioned exactly once in the whole record, as a
+  parenthesis inside a list of words a batch had NOT re-derived. The
+  classification is left live in `dom234.py:unworked()` and returns 0 now: it
+  fires when a blocker turns up with no refusal anywhere, or when an existing
+  refusal is deleted. **Grep is how you find the record; only reading it is how
+  you price the row.**
 - **French in a Truku field is not a pair, and was inflating the metric.** Six
   example rows have a `t` identical to their `fr` — his AN (3) card demonstrates
   the circumfix that way (`Paro = Grand; Knplaan = Grandeur`). `metaLine()` in
@@ -593,6 +613,15 @@ These were each learned by breaking something. Evidence for every one is in
   counted DELIVERABLE**: French sentences scoring as Truku pairs. The test is
   `t == fr` modulo punctuation — it finds exactly six, no near misses, because no
   real sentence equals its own translation. Denominator 5,435 → **5,429**.
+- **…and those rows left TEN French words in the map, all inert** (batch 234).
+  `grand`, `grandeur`, `beau`, `savoir`, `vivant`, `volant` plus the char rules'
+  own output on his French — `connaissance → cunnaissance`, `matin → macin`,
+  `pour → puur`, `rougeur → ruugeur`. Six come from the `t == fr` rows and two
+  from his parentheticals (`xandolu (=Volant)`, `Pqboan (= contraction pour:`),
+  and **every one renders zero spans**, so there is nothing to clean. The
+  consequence is a measurement one: a pale census taken from the MAP counts ten
+  values the DOM does not have, so the pale-value seam is **136, not 146**.
+  Batch 219's rule in the cheapest possible place.
 - **A zero-span row is a transcription question, not just an exclusion** (batch
   207). The exclusion list ran to eight, not the six `t == fr` rows — and reading
   the other two found one real defect. His PARU example `Ini kparo ka muxeng na!`
@@ -871,6 +900,14 @@ his page does not spell.
   the notes rather than on the current measurement proves nothing and reads as
   proof. Pick it from the run you just did (`rngut`, 9 pale spans, fails
   correctly).
+- **A control leg that patches the wrong field passes for FREE** (batch 234) —
+  the same fault one level up, and it reads as *explained* rather than as an
+  error. Three legs did it at once: the hapax count reads his Truku `t` fields,
+  so appending to `fr` moved nothing; his demonstration rows sit on the AN card
+  as sub-form examples, not on `AN (3)`; and injecting a sole blocker that is
+  already one (`mqlaq`) changes no count. **A control leg that does not refuse is
+  a claim about the world and has to be read as one** — check the patch reached
+  the field the assertion measures before believing the leg.
 - **A control that can CLEAR its own earlier failure proves nothing** (batch
   233). One leg wanted to check not just that an injection refuses but that it
   refuses with the right MESSAGE, and was written `bad = 0 if ok else 1` — which
