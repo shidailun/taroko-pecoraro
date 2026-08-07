@@ -3022,24 +3022,27 @@ var WORD_OVERRIDES = {
   // his office, then the missionary years, then old age, and his grave last. The
   // file numbers are the order they were added, not the order they show in.
   //
-  // 8–13 are a second, larger set painted over the first. Five of them re-do a
-  // beat the earlier set already had and replace it outright; only the portrait
-  // is a beat the sheet did not have:
+  // 8–13 are a second, larger set painted over the first. Three of them re-do a
+  // beat the earlier set already had and replace it outright:
   //   12 ← 5   the priest at his office, purple stole, youngest
   //    9 ← 6   among the people at the village houses
-  //    8 ← 1   the same coat on the same hill path above the same valley
-  //   10 ← 3   garlanded, white-haired, oldest
   //   13 ← 4   the same woman at the same stone — and the old one carried an
   //            English caption burnt into the painting that misspelled him
   //            "Fernando".
-  // 2 and 7 are kept: nothing in the new set re-does the wound or the goat kid.
+  // 8, 10 and 11 are beats the sheet did not have. 10 is NOT a replacement for
+  // 3, however alike the garlands look: 3 is the one with the woman beside him
+  // in the flowers, and both stay.
   var PHOTOS = [
-    "pecoraro12.jpg", // a rite by candlelight, the purple stole — dark beard, youngest
+    "pecoraro8.jpg",  // coming up the hill out of the valley — the arrival, first
+    "pecoraro12.jpg", // a rite by candlelight, the purple stole — dark beard
     "pecoraro9.jpg",  // laughing among the people at the houses — cropped hair, light beard
     "pecoraro2.jpg",  // dressing a wound — the nurse's work, auburn hair and beard
     "pecoraro7.jpg",  // with the goat kid and the boys — fuller beard, beret
-    "pecoraro8.jpg",  // walking down to the valley in the mist — the tan coat
     "pecoraro11.jpg", // the portrait — grey, moustached, a cigarette in his hand
+    // The last three are a send-off, and they only read that way in this order:
+    // they garland him, he waves from the truck as if he were going somewhere,
+    // and then the stone.
+    "pecoraro3.jpg",  // garlanded among the people, the woman beside him
     "pecoraro10.jpg", // garlanded at the wheel, a thumb up — white-haired, oldest
     "pecoraro13.jpg"  // a woman bowed at his grave
   ];
