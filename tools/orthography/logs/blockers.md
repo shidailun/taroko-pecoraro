@@ -2,12 +2,12 @@
 
 # Sole blockers, by what a ruling would buy
 
-79 pairs are blocked by exactly one type; 4 by two or more and are not credited to any single word.
+78 pairs are blocked by exactly one type; 4 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
 | gloss disagrees | 6 | 8 |
-| no root | 53 | 61 |
+| no root | 52 | 60 |
 | root unglossed | 2 | 2 |
 | sentence gloss only | 6 | 8 |
 
@@ -146,8 +146,8 @@
 - his: Tain 正忙著打鐵，製作鎬、鋤和刀。 ／ 小鋤頭（柄長約50或60公分），主要用來鬆土或除草。
 
 
-## no root — 53 types, 61 pairs
+## no root — 52 types, 60 pairs
 
 Listed for completeness only. No analysis reaches a candidate root at all, so there is nothing to rule on.
 
-mqlaq (3), gaqat (2), gnlqan (2), loai (2), shkun (2), qadi (2), ptatuy (2), ayuq (1), kkakuh (1), pggu (1), sm (1), shmqan (1), kahui (1), mkahui (1), kndutu (1), rngiyan (1), pnnanu (1), lgluq (1), rikut (1), nprikut (1), tnrikut (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), nkllu (1), pnnguan (1), mtmuhung (1), mngusyeh (1), ubai (1), kakuh (1), qnadi (1), qlaq (1), sqlaq (1), qntqdan (1), dmbasyaq (1), smmul (1), pnsrngiyan (1), qloq (1), sruweq (1), snxelan (1), snmul (1), syuring (1), msyuring (1), knhgun (1), teumuk (1), tibasyaq (1), qlap (1), urang (1), hbugi (1), hlakuh (1), emphlakuh (1), yianu (1)
+mqlaq (3), gaqat (2), gnlqan (2), loai (2), shkun (2), qadi (2), ptatuy (2), ayuq (1), kkakuh (1), pggu (1), sm (1), shmqan (1), kahui (1), mkahui (1), kndutu (1), rngiyan (1), pnnanu (1), lgluq (1), rikut (1), nprikut (1), tnrikut (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), nkllu (1), pnnguan (1), mtmuhung (1), mngusyeh (1), ubai (1), kakuh (1), qnadi (1), qlaq (1), sqlaq (1), qntqdan (1), dmbasyaq (1), smmul (1), pnsrngiyan (1), qloq (1), sruweq (1), snxelan (1), snmul (1), syuring (1), msyuring (1), knhgun (1), tibasyaq (1), qlap (1), urang (1), hbugi (1), hlakuh (1), emphlakuh (1), yianu (1)

@@ -50,7 +50,6 @@ mpxolyaq         mphuriq          pxolyaq        phuriq         derived
 mslaput          mslaput          slaput         slaput         derived
 msnlima          msnrima          snlima         snrima         derived
 msnsinao         msnsinaw         snsinao        snsinaw        derived
-mstxoulang       msthulang        stxoulang      sthulang       derived
 msxeulis         mshulis          sxeulis        shulis         derived
 mtblenax         mtbrinah         tblenax        tbrinah        derived
 mtgtmaq          mtgtmaq          tgtmaq         tgtmaq         derived

@@ -154,6 +154,15 @@ LEDGER = {
         ('map', 'gneeguy', 'batch 229 reverted the nguy freeze'),
     ('dom58.py', 'BROWN nagui nagui missing on [SLAP]'):
         ('map', 'gneeguy', 'batch 229 ruled the identity beside it'),
+    # [batch 239] dom58 is one of the git-relative HOLD logs (`git show
+    # HEAD:site/modern_map.js`, batch 230), so it holds `bsqan` at the value it
+    # had before batch 238 ruled it. The failure IS that ruling landing, and the
+    # row is kind `map` rather than absorbed: it re-reads modern_map.js, so a
+    # drift to a third spelling still fails. Batch 238 added the dom165 row for
+    # the same ruling and missed this one — the two logs assert it from
+    # different sides, and only one had a ledger entry.
+    ('dom58.py', 'BROWN bsqan bsekan missing on ["QAN]'):
+        ('map', 'pskan', 'batch 238 ruled his parenthetical to the dark side'),
     # --- dom59.py
     ('dom59.py', 'BROWN tqliyun tqriyun missing on [QELI]'):
         ('map', 'tqriun', 'batch 213 ruled the TQELI paradigm'),
@@ -290,6 +299,19 @@ LEDGER = {
         ('dark', '', 'batch 196, code 16'),
     ('dom138.py', 'KEEP tabu: want 5 pale'):
         ('dark', '', 'batch 196, code 16'),
+    # [batch 238] dom138's KEEP holds registered names that are NOT this page's
+    # names, to prove the NAME gate refuses them. The gate still does: `tapaq`
+    # is in neither `name_population.json` nor `loan_population.json`, and it
+    # is code 1 -- LISTED. The darkness is the register's own row arriving
+    # through `manual_map.json`, not a name-population leak, which is why this
+    # is kind `ruled` (re-asserting the ruling) and not kind `dark`.
+    ('dom138.py', 'KEEP tapak: want 1 pale'):
+        ('ruled', ('tapak', 'tapaq'),
+         'batch 238 — his own （TAPAQ？） and `tpaqi` 要拍手、游泳, the only '
+         'register row carrying 拍手 and carrying BOTH his Tmapak example '
+         'glosses; retires the "would merge two of his own cards" refusal at '
+         'batch-log:5143 / dom218.py:96, since 244 modern headword types '
+         'already collide across 520 cards'),
     ('dom138.py', 'KEEP turu: want 1 pale'):
         ('dark', '', 'batch 203, code 16'),
     ('dom138.py', 'JP boro: want 2 pale'):
@@ -532,6 +554,18 @@ LEDGER = {
     ('dom164.py', 'PIN tnaga: want 2 pale'):
         ('dark', '', 'batch 182, code 2'),
     # --- dom165.py
+    # [batch 238] dom165's PIN_SYNONYM refused `bsekan` because his 參見 PSKAN
+    # is a see-also and there is no affix relation between the two. That leg
+    # stays dead -- the ruling does not use the cross-reference. It uses his
+    # sub-form NAME, `Ps"qan (= Psqan ? = Bsqan ?)`, where the other two
+    # spellings render DARK on `pskan` and the pale one is his own
+    # parenthetical (batch 200), with the dark side passing the gloss test
+    # 咀嚼 as batch 200 requires. `bsekan` has stopped being a map value.
+    ('dom165.py', 'PIN bsekan: want 1 pale'):
+        ('ruled', ('bsqan', 'pskan'),
+         'batch 238 — his parenthetical, plus the two b/p pins already on this '
+         'stem (`tbskan → tpskan`, `bsqani → pskani`) and his own prose '
+         '這個詞很常被發成 BSKANUN！'),
     ('dom165.py', 'PIN dup: want 7 pale'):
         ('absent', '', 'batch 172 respelled it'),
     ('dom165.py', 'PIN empsibus: want 1 pale'):
@@ -680,6 +714,148 @@ LEDGER = {
     ('dom66.py', 'BROWN lidil rijig missing on [LIDIL]'):
         ('cite', ('lidil', 'rijig', 'rijil'),
          'batch 211 split the LIDIL homograph; the seam pales the citation'),
+    # --- batch 236. `teumuk -> towmuk`: one ruling, seven failing rows across
+    # four logs. dom221 is the overturned REFUSAL; the other six are the loss
+    # shape moving because a pale type came out of it.
+    #
+    # The refusal read "首領 is bukung and thowlang, neither within reach of
+    # teumuk by any correspondence in the map" (dom221.py:138) -- an
+    # ORTHOGRAPHIC claim, and batch 236 grants it: his `eu` answers `u`
+    # sixteen times against `ow` twice, so `towmuk` takes the minority
+    # correspondence. What retires the refusal is that it searched the three
+    # gloss files, where `towmuk` is glossed in none and cannot be, its single
+    # parquet row having an empty translation column; `towmuk` reaches
+    # `attested_modern` by the corpus-sentence leg instead, and his own
+    # TXOULANG prose names TEUMUK a Japanese import from 頭目. The majority
+    # correspondence has nothing to offer -- `tumuk`, `tmuk`, `tomuk`,
+    # `tuwmuk` are in no source at all. Note dom221's own NO_SHAPE regex for
+    # 領, `^t?[ei]?umuk`, still returns nothing: `towmuk` never matched it, so
+    # the negative half of that refusal is untouched by this ruling and goes
+    # on asserting exactly what it always asserted.
+    ('dom221.py',
+     'FAIL teumuk no longer renders anywhere. It was refused because '
+     '首領 is bukung and thowlang, neither within reach of teumuk by '
+     'any correspondence in the map -- if the map changed, the refusal needs '
+     're-arguing, not deleting.'):
+        ('ruled', ('teumuk', 'towmuk'),
+         'batch 236 overturned it: the refusal searched the gloss files, and '
+         'towmuk is attested by corpus sentence, glossed nowhere'),
+    ('dom232.py', 'FAIL FLOOR 5346 pairs'):
+        ('floor', (5347, 'teumuk', 'towmuk'),
+         'batch 236 RAISED the metric; dom232 pins the pair count by equality, '
+         'so a rise fails it exactly as a fall would'),
+    ('dom232.py', 'FAIL sole-blocked 79/67 pairs/types'):
+        ('shape', ((78, 66), 'teumuk', 'towmuk'),
+         'batch 236 took one type out of the sole-blocker list'),
+    # The sweep iterates over PALE values, so darkening one drops its row. The
+    # lost proposal is `teumuk -> tumun`, one of the eleven batch 232 itself
+    # classed as noise: `tumun` is the root for ROUND (mtumun 很圓, mntumun
+    # 圓的, stumun 為…做成圓形) and all five of its bare parquet tokens are the
+    # personal name Tumun Awi. Neither reading is 首領. The trap row the log
+    # guards separately, `yianu -> yamu`, is untouched.
+    ('dom232.py', 'FAIL the sentence sweep returned # proposals, expected #'):
+        ('shape', ((12, None), 'teumuk', 'towmuk'),
+         'batch 236 darkened teumuk, dropping its noise proposal tumun 圓'),
+    ('dom234.py', 'FAIL sole-blocker types #, pinned #'):
+        ('shape', ((66, None), 'teumuk', 'towmuk'),
+         'batch 236 took one type out of the sole-blocker list'),
+    ('dom235.py', 'FAIL sole-blocker types #, pinned #'):
+        ('shape', ((66, None), 'teumuk', 'towmuk'),
+         'batch 236 took one type out of the sole-blocker list'),
+    ('dom235.py', 'FAIL sole-blocked pairs #, pinned #'):
+        ('shape', ((78, None), 'teumuk', 'towmuk'),
+         'batch 236 freed the pair teumuk was holding'),
+
+    # --- batch 241. ONE sentence, cleared by TWO acts, which is why it sat
+    # unmoved for eleven batches: every instrument that reached it asked one
+    # question of both words. His XNUK example
+    # `§ Mxnuk bi ka qouni, ini na txey ka snuk` was one of batch 230's four
+    # two-type rows.
+    #
+    #   * `snuk` is not his word. It occurred exactly ONCE in a book that
+    #     repeats itself (batch 213) and he CARDS `SMUK` (R) 釘子 with two
+    #     examples and three sub-forms, so there was no glyph left in doubt on
+    #     that side (batch 235). Page 374 at 8x, batch 202's protocol: the `n`
+    #     of `na` four cells earlier has two legs, the `m` of his French
+    #     `(mou)` on the same line has three, and the whole page's French
+    #     carries the same fault -- *neuble*, *narché*, *Comne*. So the fix
+    #     went in `entries.js`, not in the map (batch 212), and `smuk -> smuk`
+    #     was ALREADY dark: the correction cost no map entry at all.
+    #   * `txey` reads cleanly on that line, so it IS his and the question is
+    #     a spelling one. Ruled `thiy` off his TOXOI 與…在一起 card, whose nine
+    #     other family slots already render dark.
+    #
+    # dom230's REFUSAL of `snuk` is NOT overturned -- "釘 is carried by the
+    # `samu` family, a different root" is a correct answer to *what respells
+    # `snuk`?* and it never asked whether the string was his. Its row below is
+    # therefore credited to the CORRECTED reading and re-asserts that reading's
+    # darkness, because that is the fact a rebuild could take away.
+    ('dom217.py',
+     "FAIL thiy renders # time(s) and NONE is pale. It was refused because "
+     "his Txey sits on the XNUK 軟／便宜 card, not on TOXOI; thiyan 和…在一起 "
+     "is TOXOI's word and following it would cross two cards"):
+        ('ruled', ('txey', 'thiy'),
+         'batch 241 retired it: its one leg describes where the token is '
+         'PRINTED, not which headword it belongs to. That sentence is running '
+         'text, and `smuk` and `qouni` in it are dark off two other cards'),
+    ('dom230.py', 'FAIL snuk no longer renders pale; a refused word going dark '
+                  'is a ruling nobody wrote'):
+        ('ruled', ('smuk', 'smuk'),
+         'batch 241 corrected the transcription: `snuk` is a misread `smuk` '
+         'and has left the book entirely, so it renders nothing rather than '
+         'going dark. The refusal stands; what this row re-asserts is that '
+         'the corrected reading is still dark, since a pale `smuk` would mean '
+         'the correction had reintroduced the blocker under a new spelling'),
+    ('dom232.py', 'FAIL the spellcheck sweep returned # shapes, expected #'):
+        ('shape', ((39, None), 'txey', 'thiy'),
+         'batch 241 darkened thiy and deleted snuk from the book; the sweep '
+         'iterates over PALE values, so both rows left it'),
+    ('dom235.py', 'FAIL two-type blocked pairs #, pinned #'):
+        ('shape', ((3, None), 'txey', 'thiy'),
+         'batch 241 cleared BOTH blockers of one two-type row, 4 -> 3'),
+    ('dom235.py', 'FAIL a two-type cluster this batch pinned has left the book '
+                  '(snuk+thiy): batch # confirmed all four as refusals, so one '
+                  'healing is news'):
+        ('shape', ((None,), 'txey', 'thiy'),
+         'batch 241 is that news, argued in writing: dom230 confirmed the four '
+         'as refusals of RESPELLINGS, and snuk needed a transcription instead. '
+         'The only number in this line is the batch it cites, which is source '
+         'code and not a measurement'),
+    ('dom236.py',
+     "FAIL the two-type seam moved: # rows, [('dmtbasyaq', 'dmtsapat'), "
+     "('krikut', 'nrikut'), ('tbasyaq', 'tibasyaq')]. Batch # confirmed all "
+     "four refusals; a NEW row of this shape is a pair the sole-blocker "
+     "ranking cannot see."):
+        ('shape', ((3, None), 'txey', 'thiy'),
+         'batch 241 removed the snuk+thiy row; the three that remain are the '
+         'three this key names, so a NEW row of the shape re-keys and is '
+         'reported, which is what the assertion was for'),
+    # [batch 241] The three rows below move the OTHER way, which is why `grew`
+    # exists. dom238 and dom239 pin `verified.js` by equality and dom238 pins
+    # the pair count by equality beside its own `>= FLOOR` leg; a ruling raises
+    # both. A ceiling would fail on the next ruling and force every future
+    # batch to re-touch these rows -- bookkeeping, which is what `shape` was
+    # written to avoid -- while a floor keeps the assertion that matters: a
+    # verified key DISAPPEARING is the shape a ruling being silently lost would
+    # take, and a pair count falling is the metric regressing.
+    ('dom238.py', 'FAIL VERIFIED keys #, pinned #'):
+        ('grew', ((6327, None), 'txey', 'thiy'),
+         'batch 241 added `thiy`, 6326 -> 6327'),
+    ('dom238.py', 'FAIL pairs moved to # — both rulings are furniture and buy '
+                  '# BY CONSTRUCTION (batch #); a change here means one of '
+                  'them reached a `.truku` box and the pricing was wrong'):
+        ('grew', ((5348, None, None), 'txey', 'thiy'),
+         "batch 241 bought a pair on a DIFFERENT card, so dom238's furniture "
+         'claim is untouched -- its own `inTruku == 0` legs still pass and '
+         'still carry it (batch 223). Only the two constants in the sentence '
+         'are the log\'s own pin'),
+    ('dom239.py', 'FAIL VERIFIED keys #, pinned #'):
+        ('grew', ((6327, None), 'txey', 'thiy'),
+         'batch 241 added `thiy`, 6326 -> 6327'),
+    ('dom239.py', 'FAIL book-wide pale TYPES #, pinned #'):
+        ('shape', ((135, None), 'txey', 'thiy'),
+         'batch 241 took two types off the book: `thiy` went dark and `snuk` '
+         'left the transcription, 137 -> 135'),
 }
 
 # [batch 226] Rows whose failure was HEAD-RELATIVE, and which the commit of
@@ -847,6 +1023,87 @@ def adjudicate(log, line, MAP, META):
         if not seen:
             return rec, ""
         return rec, "ledger says absent, page says %s" % got
+    if kind == "shape":
+        # [batch 236] The LOSS SHAPE -- sole-blocker types, sole-blocked pairs,
+        # and the count of proposals a sweep returns. A ruling removes a pale
+        # type, so every log that pinned the shape fails at once; six did this
+        # batch. The temptation is to key on the new numbers and re-key them
+        # every batch, which is equality by another name and would make these
+        # rows pure bookkeeping. So the assertion is DIRECTIONAL, like `floor`
+        # and for the same reason: a blocker count that FALLS is the project
+        # working, and a count that RISES is news that wants its own row.
+        #
+        # `arg` is (ceilings, tok, val). `ceilings` runs parallel to the
+        # integers in the volatile half, one per number, and `None` marks a
+        # number that is the LOG'S OWN PIN rather than a measurement -- sig()
+        # blanks every digit in a prose FAIL, so the pin and the measurement
+        # arrive side by side and only one of them is a fact about the book.
+        # Asserting the pin would be asserting the log's source code.
+        ceilings, tok, val = arg
+        nums = [int(n) for n in re.findall(r"\d+", got)]
+        if len(nums) != len(ceilings):
+            return rec, ("ledger expects %d number(s) in this failure, the "
+                         "page reports %d (%s) -- the log's wording moved and "
+                         "the row is no longer measuring what it says"
+                         % (len(ceilings), len(nums), got))
+        for n, c in zip(nums, ceilings):
+            if c is not None and n > c:
+                return rec, ("ledger says this count is at or below %d since "
+                             "%s was ruled %s; the page measures %d, which is "
+                             "a RISE and wants its own row" % (c, tok, val, n))
+        if MAP.get(tok) != val:
+            return rec, ("ledger says the shape moved when %s was ruled %s, "
+                         "but the map says %s -- the row is excusing a count "
+                         "change whose cause is gone"
+                         % (tok, val, MAP.get(tok)))
+        ver = load_ver()
+        for part in [val] + (val.split() if " " in val else []):
+            if part not in ver:
+                return rec, ("ledger says %s -> %s moved the shape, but %s is "
+                             "not in verified.js, so it renders pale and the "
+                             "blocker it removed is back" % (tok, val, part))
+        return rec, ""
+    if kind == "grew":
+        # [batch 241] `shape` MIRRORED. Some prose counts move the other way:
+        # `verified.js` keys and the deliverable-pair count RISE when the
+        # project works, so a ceiling on them would fail on the next ruling and
+        # force every future batch to re-touch the row -- bookkeeping, which is
+        # what `shape` was written to avoid. The direction has to be declared by
+        # the row rather than inferred from the wording, so this is a separate
+        # kind and not a sign convention inside `shape`: a count that RISES is
+        # the project working, a FALL is news, and a verified key disappearing
+        # is exactly the shape a ruling being silently lost would take.
+        #
+        # `arg` is (floors, tok, val), floors parallel to the integers in the
+        # volatile half, `None` marking a number that is the LOG'S OWN PIN
+        # rather than a measurement (batch 236) -- for a prose line that is
+        # every constant the sentence happens to contain, including the batch
+        # numbers it cites.
+        floors, tok, val = arg
+        nums = [int(n) for n in re.findall(r"\d+", got)]
+        if len(nums) != len(floors):
+            return rec, ("ledger expects %d number(s) in this failure, the "
+                         "page reports %d (%s) -- the log's wording moved and "
+                         "the row is no longer measuring what it says"
+                         % (len(floors), len(nums), got))
+        for n, c in zip(nums, floors):
+            if c is not None and n < c:
+                return rec, ("ledger says this count is at or above %d since "
+                             "%s was ruled %s; the page measures %d, which is "
+                             "a FALL and wants its own row" % (c, tok, val, n))
+        if MAP.get(tok) != val:
+            return rec, ("ledger says the count moved when %s was ruled %s, "
+                         "but the map says %s -- the row is excusing a count "
+                         "change whose cause is gone"
+                         % (tok, val, MAP.get(tok)))
+        ver = load_ver()
+        for part in [val] + (val.split() if " " in val else []):
+            if part not in ver:
+                return rec, ("ledger says %s -> %s moved the count, but %s is "
+                             "not in verified.js, so it renders pale and the "
+                             "ruling it is credited to is effectively gone"
+                             % (tok, val, part))
+        return rec, ""
     if kind == "floor":
         # [batch 218] A floor supersession is the easiest row in this file to
         # write as an excuse, so it re-asserts TWO things: the metric is still

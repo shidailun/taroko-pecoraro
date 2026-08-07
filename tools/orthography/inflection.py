@@ -407,6 +407,48 @@ miro nuni mati dasi doding eeng mori xalo tero""".split()
 # 我很想去看電影（讓眼睛洗個澡）, where his own gloss for the Truku idiom "wash the eyes"
 # is the loan, and `Mita ega` is 看 eiga. It occurs once in the book and no Truku
 # wordlist will ever hold it — attestation is not a test a Japanese loan can sit.
+# [batch 236] teumuk — 頭目, Japanese tōmoku, the headman. The one borrowing he names in
+# prose on ANOTHER CARD: his TXOULANG note reads 此詞應是由日本人引入，用以指稱負責人、首
+# 領、小頭目…源自漢語複合詞：T'eou＝頭，muk＝目；＝頭目＝負責人, which is his TEUMUK gloss
+# 首領－負責人－小王 verbatim. TEUMUK's own tag says only `(= R. ? - R. = Chinois ?)`, so
+# the tagger reads no loan verdict and the file cannot hold it — the case this list is for.
+# Refused three times (b69:101, chk97:16, dom221:36) on batch 204's different-root test:
+# 首領 is `bukung` 校長；首長 and `thowlang` 王、領袖或頭目, neither within reach of his
+# letters. All three searched the three GLOSS files for 首領／領袖／頭目 — and `towmuk` is
+# glossed in none of them, so it was invisible to that instrument by construction. Batch
+# 230's rule: check what a refusal SEARCHED, not only what it concluded. It IS in
+# attested_modern, and its one corpus row is `towmuk mklawa kngkingal alang ga`,
+# phoneme-annotated t-o-w-m-u-k in formosan_org_train_clean — the towmuk who 侍衛；看守
+# (`mklawa`) each and every 部落 (`kngkingal alang`). A 負責人 for a village, which is his
+# gloss, reached from the meaning and not from the letter.
+# His etymology is checkable on its other half and it holds: TXOULANG ← 頭人 is `thowlang`
+# 王、領袖或頭目 at 552 parquet tokens. (It is not always right — his `?`-marked Chinese
+# guess on WAWA is refuted by PAN *wawa and by `wawa`'s own attestation — but that one
+# posits a Chinese source for an inherited word, where this one names a foreign source for
+# a word with no native pedigree: the register's chief words are `bukung` and a Hokkien
+# loan.) `eu` for the Japanese long ō has a second instance in his book, TEUXU ← 豆腐 tōfu,
+# and the same vowel outside the loan stratum is already gloss-verified in the map at
+# `qeulit → qowlit` 田鼠.
+# State the ORTHOGRAPHIC half against itself, batch 215's instrument run honestly: his `eu`
+# is NOT regularly `ow`. Over his 21 native eu-keys the map answers `u` sixteen times
+# (`xeulis → hulis`, `xeuling → huling`, `qeumi → qumi`) and `ow` twice, both the one root
+# `qeulit`/`sqeulit`. So `towmuk` takes the MINORITY correspondence, and the letter is not
+# what rules it — the meaning and his own etymology are (batch 200: search from the
+# meaning, not from the letter). What closes the objection is that the majority
+# correspondence has nothing to offer: `tumuk` is in no source, no gloss file and no
+# parquet, as are `tmuk`, `tomuk` and `tuwmuk`. There is no rival to weigh, only a word
+# that exists and carries his sense against a shape that does not exist at all.
+# It emits code 1, NOT the class code 16: `class_only` is what no other leg reaches
+# (build_verified.py:339), and `towmuk` is independently in attested_modern, so the
+# ladder settles it before the class is consulted. Say so rather than claiming the
+# deeper brown — but keep the loan entry, because the two warrants have different
+# lifetimes. The omnibus dictionary has `towmuk` nowhere; it is in attested_modern
+# through the corpus-sentence leg, on the strength of one row, and that leg is the one
+# the `>= 2` bar does not gate. The row is a curated text with a full phonemic tier and
+# not raw ASR, which is why it is worth having at all — but if a rebuild ever drops it,
+# the class is what still holds the word, and attestation is not a test a Japanese loan
+# can sit. Batch 227's shape: a pin that duplicates what another table already spells is
+# still load-bearing.
 # ONOMATOPOEIA — the third class, and it is here because the user asked for it in the
 # same breath as names and loans: "names, onomatopoeia, and Japanese loans: i vote for
 # making them dark brown." The argument is identical. § Paaaq, msa ka paru kuyux —
@@ -486,7 +528,7 @@ HAND_SPECIES = """klulu tyaqung pisuh kjiyung qmux jiram gaugan""".split()
 HAND_AFFIX = {"empa": "emp"}   # value -> the prefix string whose process is scored
 
 HAND_LOANS = """siba handulu
-suntyu kaisia bakuciku armuni ega""".split()
+suntyu kaisia bakuciku armuni ega teumuk""".split()
 
 # SPOKEN FOR BY THE INFORMANT — a fifth kind of evidence, and the only one on
 # this page that is not a document (batch 159).
@@ -1708,7 +1750,20 @@ HAND_SPOKEN = """nta""".split()
 # hadur is 貪吃 in the wordlist and 獵首筵席 in the e-dictionary, and mhadur 舉行馘首宴
 # is his XADOL 禮儀性的獻祭. gquwaq < quwaq 199. gmnaliq < gnaliq 取過首級 6, and his one
 # sentence is a beheading. sttui: the paradigm sibling sttuan is listed outright.
-# empathulang/sthulang < thulang, the pride root batch 197 ruled msthulang on.
+# sthulang < thulang, the pride root batch 197 ruled msthulang on. [batch 236: this read
+# `empathulang/sthulang` until his TXOULANG card was decided slot by slot. Batch 197
+# argued the PRIDE slots and argued them well — `psthulang` 自大 is his 自負的 with the
+# other causative — but the chain then carried the two CHIEF slots along with them. His
+# head is 當局－首領們－官員們 and his Mpatxoulang is 將成為當權者、上位者, neither of which
+# is 自負; `thulang` is glossed nowhere at all, while `thowlang` is 王、領袖或頭目 at 552
+# parquet tokens with `thlangan` 主（Thowlang的斜格形式）, `empthowlang` 要作主宰,
+# `sthowlang` 為…做王 and `knthowlang` 尊貴的地位 behind it. The register's own gloss on
+# `thlangan` NAMES Thowlang as its head, and his own Txlangan is glossed 同上詞的斜格形式
+# — the listed sibling identifying the card's stem (batch 224). So the head moved to
+# `thowlang` and Mpatxoulang to `empthowlang`, which is listed where `empathulang` was
+# listed nowhere; `stxoulang`/`mstxoulang` are PINNED at batch 197's values so a head
+# change cannot drag them, and `empathulang` leaves this list because it is no longer a
+# map value. Batch 197 is narrowed, not overturned: his card carries both senses.]
 # pkltudan: batch 197's pnkltudan, one slot over. khngun/knhngun < hng, and mhing 熄火 8
 # is his XENG 熄滅. psqrasaw < qaras 喜樂 46, exact. knkrnaan < mrana 逐漸增多 103 for his
 # LANA 增加. psilung < gsilung 海 420, and he writes the g himself: "SILONG (＝GSILONG).
@@ -2138,6 +2193,54 @@ HAND_SPOKEN = """nta""".split()
 # blocks a pair (`ggar` and `ssapat` are furniture at 0). One pair does not buy a
 # change to the analyser that could de-verify anywhere -- batch 217's warning,
 # confirmed by measurement rather than assumed.
+# Batch 241. `txey -> thiy`, his TOXOI 散步、遊逛－與…在一起 card's bare stem.
+#
+# THIS OVERTURNS A WRITTEN REFUSAL, and batch 219 requires it be cited and
+# retired by name. `dom217.py:203` refused it as
+#
+#     "his Txey sits on the XNUK 軟／便宜 card, not on TOXOI; thiyan 和…在一起
+#      is TOXOI's word and following it would cross two cards"
+#
+# and the same sentence is in the batch log at line 5016. The refusal has ONE
+# leg and that leg is a premise that was wrong from the start (batch 232's
+# shape): it describes where the token is PRINTED, not which headword it belongs
+# to. `Mxnuk bi ka qouni, ini na txey ka smuk` is RUNNING TEXT under his XNUK
+# card, not a paradigm slot on it, and running text is where a book uses words
+# off other cards. Mechanically: `smuk` and `qouni` in that very sentence are
+# dark off SMUK and QOUNI, two other cards, and nobody has ever called that a
+# crossing. What the refusal correctly saw is that `thiyan` is TOXOI's word --
+# and TOXOI is the card this stem comes off, so that is the argument FOR the
+# value, not against it.
+#
+# HIS OWN CARD SPELLS IT. TOXOI (R) carries the sub-form `Txeyan` 陪伴－同伴 and
+# `Ptxeyun`, so `txey` is a form he himself derives on that root. Nine slots of
+# the family already render DARK -- toxoi>tuhuy, txeyan>thiyan, ptxeyun>pthiyun,
+# tgoxoi>tghuy, ttgoxoi>ttguhuy, stgoxoi>stghuy, ptoxoi>ptuhuy, dtxeyan>dthiyan,
+# snxey>snhiyi -- and the bare stem was the only pale one. That is batch 216's
+# tier-M shape (a pale slot beside ruled siblings, needing no new evidence) and
+# batch 219's `tglgli` shape (his own inflected slot spelling the stem).
+#
+# BATCH 224'S TEST: which listed forms spell the stem WHOLE? `thiyan` 和…在一起,
+# `thiyi`, `thiyun`, `thiya`, `kmthiyun`, `pthiyi`, `spthiyi`, `mnegthiyi` -- all
+# eight prefix or suffix `thiy` entire, so `thiy` is the root and not a peeled
+# artefact. BATCH 221'S REQUIREMENT, the form whose OWN gloss carries his
+# character: `thiyan` is glossed 和…在一起, which is his head's 與…在一起 and his
+# `Txeyan` 陪伴 verbatim.
+#
+# THE NEGATIVE HALF, as a property of the carriers (batch 229): of the 59
+# register forms glossed 陪/在一起/同行/相伴/跟隨, exactly three spell his stem --
+# `thiyan`, `tuhuy`, `emptuhuy` -- and `tuhuy` is his own TOXOI head's dark
+# value. Every other carrier is a different root unreachable from his letters
+# (`tqnay`, `tgxalaw`, `snegul`, `msupu`, `gasig`), so batch 204's different-root
+# test finds nothing to respell toward. If a carrier off another root ever spells
+# `thiy`, that is the news that re-opens this.
+#
+# ONE TOKEN, ONE SENTENCE. `txey` is the only token in the book rendering `thiy`,
+# so this darkens exactly one span. The scan was read (batch 213: it occurs
+# once): page 374 at 8x gives four clean cells and `txey` is what he typed --
+# unlike `snuk` on the same line, which is his `smuk` with an n-legged `m` and is
+# corrected in `entries.js` this batch. Together the two clear the example, which
+# is one of batch 230's four two-type rows: 5,347 -> 5,348.
 HAND_RULED = """treura msthulang dtanah empkmalux
                 smhngi snsikan dtduling mtru
                 pnkltudan kmpspusu sshgan ndmpatas
@@ -2149,7 +2252,7 @@ HAND_RULED = """treura msthulang dtanah empkmalux
                 msrahuq empsibus dkaran dkari dkarun mqatar msndngux pqurug psqrinutan
                 ptkanan spdawi tuyuqi tuyuqun tbowyak tslabang psbiyuq sbiyuq pkrikit
                 pqapah pkrci pkrtun pkrtan nsntug mtnring tnring hadurun gquwaq gmnaliq
-                sttui empathulang sthulang pkltudan khngun knhngun psqrasaw knkrnaan
+                sttui sthulang pkltudan khngun knhngun psqrasaw knkrnaan
                 psilung pkpngpung ddjilun nngangah ssiban mglngu emppaya pntudan
                 uuyas llihaw ssiisil klkari iisu kiima qqsahur
                 sktaqi tmtru psnegulan psneguli
@@ -2175,6 +2278,7 @@ dpnaah miq
 ptqriun
 rih
 hhtran
+thiy
 """.split()
 
 # Batch 144. The name POPULATION is his own `name (m/f)` tags plus tier N, and

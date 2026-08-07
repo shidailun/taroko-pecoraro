@@ -600,7 +600,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.47%** (5,346). Not token share. A pair is
+  is dark, over 5,429. **Currently 98.51%** (5,348). Not token share. A pair is
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
@@ -625,7 +625,15 @@ These were each learned by breaking something. Evidence for every one is in
   is the answer to the rule above, pinned rather than assumed: there is no third
   tier hiding behind the two-type seam. It is a pin that can fail, since a ruling
   moves a two-type row into the sole list and a third pale type appearing would
-  be the first row of that shape this project has had.
+  be the first row of that shape this project has had. **Now 78 + 3 + 0 over 81
+  pairs** (batch 241) — and the row that moved did NOT move the way the pin
+  predicted: clearing one blocker of a two-type row would have added a sole
+  blocker, but both of that row's blockers fell at once, so the sole tier did
+  not grow. **A two-type row can need two DIFFERENT KINDS of act**, and every
+  instrument that reached this one asked one question of both words: `snuk` was
+  a misread `smuk` (batch 213, a transcription) and `txey` was a spelling ruled
+  `thiy` off his TOXOI card. Ask of each blocker separately whether it is even
+  his string before pricing either as a respelling.
 - **A prior MENTION is not a written refusal** (batch 234) — batch 221's
   record-grep and batch 228's label rule, crossed. "0 of the 67 sole blockers
   have no prior mention" confirms the Target section and is a label; classify
@@ -779,7 +787,29 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `78 logs — 43 clean, 200 superseded, 0 REGRESSIONS, 0 crashed` (batch 235).
+  `84 logs — 41 clean, 220 superseded, 0 REGRESSIONS, 0 crashed` (batch 241).
+- **A ledger row must declare its DIRECTION, not infer it from the wording**
+  (batch 241). `shape` asserts a ceiling because a blocker count that falls is
+  the project working — but `verified.js` keys and the pair count move the other
+  way, and dom238/dom239 pin both by equality. A ceiling there would fail on the
+  very next ruling and force every future batch to re-touch the row, which is
+  the bookkeeping `shape` exists to avoid. `grew` is `shape` mirrored, a
+  separate kind rather than a sign convention inside it, and it keeps the
+  assertion that matters: **a verified key DISAPPEARING is the shape a ruling
+  being silently lost would take.**
+- **A supersession is credited to the act that caused it, which is not always a
+  ruling** (batch 241). dom230's `snuk` row fails with "a refused word going
+  dark is a ruling nobody wrote" — and no ruling was written; the word left the
+  book through a transcription fix. So the row re-asserts the CORRECTED
+  reading's darkness (`smuk`), because a pale `smuk` would mean the fix had
+  reintroduced the same blocker under a new spelling. Control it with a PAIRED
+  leg: that row must survive the batch's other ruling moving, and vice versa, or
+  nothing is holding the two credits apart.
+- **Take a ledger key from `sig()`, never from the log's format strings** (batch
+  241). A hand-written key that matches nothing is INVISIBLE — the suite prints
+  `no ledger row` and the failure stands, which reads on screen exactly like a
+  row that was never needed. `.scratch/b241/keys.py` runs the log and prints the
+  key the adjudicator will compute.
 - **A CRASH can be the machine, and its five failures go missing with it** (batch
   228). Under two foreign jobs (`align.py`, a 16-thread `screen_solo.py` shard)
   `dom154.py` timed out navigating and the suite read `71 logs — 37 clean, 191

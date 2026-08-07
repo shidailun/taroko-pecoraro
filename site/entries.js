@@ -72914,7 +72914,7 @@ window.ENTRIES = [
             "a": "ex_mxnuk_bi_lnglongan_na"
           },
           {
-            "t": "Mxnuk bi ka qouni, ini na txey ka snuk",
+            "t": "Mxnuk bi ka qouni, ini na txey ka smuk",
             "fr": "Le bois est très tendre (mou), les clous ne tiennent pas.",
             "en": "The wood is very soft (tender), the nails do not hold.",
             "zh": "這木頭很軟（鬆），釘子釘不牢。",

@@ -7,7 +7,6 @@ iwal             iwal                 17     7
 iboq             ibuq                  3     6
 l'çan            lxan                  2     6
 nk'la            nkla                 10     6
-txlangan         thlangan             86     4
 mlmilit          mrmirit               4     3
 pitai            pitay                12     3
 sl'sun           srsun                 4     3

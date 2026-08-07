@@ -1569,6 +1569,10 @@
    "modern": "bsqrul",
    "tier": "M"
   },
+  "bsqan": {
+   "modern": "pskan",
+   "tier": "M"
+  },
   "bsqani": {
    "modern": "pskani",
    "tier": "M"
@@ -8981,6 +8985,10 @@
    "w_was": "mpatas",
    "w_how": "twin"
   },
+  "mpatxoulang": {
+   "modern": "empthowlang",
+   "tier": "M"
+  },
   "mpax": {
    "modern": "empaah",
    "tier": "M"
@@ -9857,6 +9865,10 @@
   "mstoq": {
    "modern": "mstuq",
    "tier": "B"
+  },
+  "mstxoulang": {
+   "modern": "msthulang",
+   "tier": "M"
   },
   "msueq": {
    "modern": "msuwiq",
@@ -14862,8 +14874,8 @@
    "tier": "A"
   },
   "qbolong": {
-   "modern": "qburung",
-   "tier": "B"
+   "modern": "qbolong",
+   "tier": "M"
   },
   "qbulit": {
    "modern": "qbulit",
@@ -18141,6 +18153,10 @@
    "modern": "stukuy",
    "tier": "A"
   },
+  "stxoulang": {
+   "modern": "sthulang",
+   "tier": "M"
+  },
   "su": {
    "modern": "su",
    "tier": "id"
@@ -18535,7 +18551,7 @@
    "tier": "M"
   },
   "tapak": {
-   "modern": "tapak",
+   "modern": "tapaq",
    "tier": "M"
   },
   "tapaq": {
@@ -18863,7 +18879,7 @@
    "tier": "M"
   },
   "teumuk": {
-   "modern": "teumuk",
+   "modern": "towmuk",
    "tier": "M"
   },
   "tg'la": {
@@ -20203,6 +20219,10 @@
    "modern": "thksaw",
    "tier": "B"
   },
+  "txlangan": {
+   "modern": "thlangan",
+   "tier": "M"
+  },
   "txmoqo": {
    "modern": "thmuku",
    "tier": "T"
@@ -20256,7 +20276,7 @@
    "tier": "B"
   },
   "txoulang": {
-   "modern": "thulang",
+   "modern": "thowlang",
    "tier": "M"
   },
   "txungul": {
@@ -21571,10 +21591,6 @@
    "modern": "bnuway",
    "tier": "P"
   },
-  "bsqan": {
-   "modern": "bsekan",
-   "tier": "P"
-  },
   "d'yamo": {
    "modern": "dyamu",
    "tier": "P"
@@ -22578,12 +22594,6 @@
    "modern": "empasnaw",
    "tier": "W",
    "w_was": "mpasnaw",
-   "w_how": "class"
-  },
-  "mpatxoulang": {
-   "modern": "empathulang",
-   "tier": "W",
-   "w_was": "mpathulang",
    "w_how": "class"
   },
   "mpbetak": {
@@ -25872,10 +25882,6 @@
    "modern": "strilan",
    "tier": "P"
   },
-  "stxoulang": {
-   "modern": "sthulang",
-   "tier": "P"
-  },
   "suusa": {
    "modern": "suusa",
    "tier": "P"
@@ -28828,11 +28834,6 @@
    "tier": "S",
    "spoken": 3
   },
-  "txlangan": {
-   "modern": "thlangan",
-   "tier": "S",
-   "spoken": 86
-  },
   "unang": {
    "modern": "unang",
    "tier": "S",
@@ -30219,12 +30220,6 @@
    "tier": "E",
    "e_stem": "snsinao",
    "e_modern": "snsinaw"
-  },
-  "mstxoulang": {
-   "modern": "msthulang",
-   "tier": "E",
-   "e_stem": "stxoulang",
-   "e_modern": "sthulang"
   },
   "msxeulis": {
    "modern": "mshulis",
