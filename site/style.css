@@ -720,13 +720,21 @@ footer {
 
 .intro-block { margin: 0.5rem 0; }
 .intro-block p { margin: 0.35rem 0; font-size: 0.95rem; }
+/* A fixed square mount, because the cycle swaps one painting for another every
+   five seconds and they are not one shape: 0.75 for the portrait against 1.78
+   for the grave. Sized to the image, the sheet's whole text jumped each time.
+   `contain` letterboxes rather than crops -- these are paintings, and a 4:3
+   frame filled by `cover` would take the top off his head. */
 .about-photo {
   display: block;
   width: 100%;
   max-width: 17rem;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
   margin: 0.2rem auto 0.3rem;
   border-radius: 0.6rem;
   border: 1px solid var(--rule);
+  background: var(--paper);
 }
 .photo-caption { text-align: center; margin: 0 0 0.8rem; }
 #sheet p { margin: 0.5rem 0; font-size: 0.95rem; }

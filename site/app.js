@@ -3019,26 +3019,50 @@ var WORD_OVERRIDES = {
   });
 
   // Ordered by his apparent age, so the cycle runs as a life: the young priest at
-  // the altar, then the missionary years, then old age, and the memorial at Wanrong
-  // last. The file numbers are the order they were added, not the order they show in.
+  // his office, then the missionary years, then old age, and his grave last. The
+  // file numbers are the order they were added, not the order they show in.
+  //
+  // 8–13 are a second, larger set painted over the first. Five of them re-do a
+  // beat the earlier set already had and replace it outright; only the portrait
+  // is a beat the sheet did not have:
+  //   12 ← 5   the priest at his office, purple stole, youngest
+  //    9 ← 6   among the people at the village houses
+  //    8 ← 1   the same coat on the same hill path above the same valley
+  //   10 ← 3   garlanded, white-haired, oldest
+  //   13 ← 4   the same woman at the same stone — and the old one carried an
+  //            English caption burnt into the painting that misspelled him
+  //            "Fernando".
+  // 2 and 7 are kept: nothing in the new set re-does the wound or the goat kid.
   var PHOTOS = [
-    "pecoraro5.jpg",  // saying Mass — clean-shaven, youngest
-    "pecoraro6.jpg",  // in the village with the baskets — cropped hair, light beard
+    "pecoraro12.jpg", // a rite by candlelight, the purple stole — dark beard, youngest
+    "pecoraro9.jpg",  // laughing among the people at the houses — cropped hair, light beard
     "pecoraro2.jpg",  // dressing a wound — the nurse's work, auburn hair and beard
     "pecoraro7.jpg",  // with the goat kid and the boys — fuller beard, beret
-    "pecoraro1.jpg",  // on the hillside above the valley — white-haired
-    "pecoraro3.jpg",  // garlanded among the people — oldest
-    "pecoraro4.jpg"   // his memorial in Wanrong Township
+    "pecoraro8.jpg",  // walking down to the valley in the mist — the tan coat
+    "pecoraro11.jpg", // the portrait — grey, moustached, a cigarette in his hand
+    "pecoraro10.jpg", // garlanded at the wheel, a thumb up — white-haired, oldest
+    "pecoraro13.jpg"  // a woman bowed at his grave
   ];
   var PHOTO_CYCLE_MS = 5000;
+  // The grave is the one frame he is not in. The painting it replaced said so
+  // in a caption burnt into the canvas; without one, the woman at the stone
+  // reads as the person the standing caption names.
+  var PHOTO_CAPTION = {
+    "pecoraro13.jpg": "His memorial in Wanrong Township, Hualien · " +
+                      "花蓮萬榮鄉的紀念碑"
+  };
+  function photoCaption(f) {
+    return PHOTO_CAPTION[f] || "Ferdinando Pecoraro MEP";
+  }
 
   document.getElementById("btn-about").addEventListener("click", function () {
     stopPhotoCycle();
     var idx = 0;
     openSheet(
       (
-      '<img class="about-photo" src="' + PHOTOS[idx] + '" alt="Portrait of Ferdinando Pecoraro MEP">' +
-      '<p class="fine photo-caption">Ferdinando Pecoraro MEP</p>' +
+      '<img class="about-photo" src="' + PHOTOS[idx] + '" alt="' +
+      photoCaption(PHOTOS[idx]) + '">' +
+      '<p class="fine photo-caption">' + photoCaption(PHOTOS[idx]) + "</p>" +
       "<p>This digital edition is based on Ferdinando Pecoraro's Taroko–French dictionary, " +
       "<em>Essai de dictionnaire taroko-français</em> (SECMI, Paris, 1977). Pecoraro was a priest of the Paris Foreign Missions Society " +
       "(Missions Étrangères de Paris, M.E.P.), a French Catholic missionary institute; hence the initials after his name.</p>" +
@@ -3060,7 +3084,9 @@ var WORD_OVERRIDES = {
     photoTimer = setInterval(function () {
       idx = (idx + 1) % PHOTOS.length;
       var img = sheetContent.querySelector(".about-photo");
-      if (img) img.src = PHOTOS[idx];
+      if (img) { img.src = PHOTOS[idx]; img.alt = photoCaption(PHOTOS[idx]); }
+      var cap = sheetContent.querySelector(".photo-caption");
+      if (cap) cap.textContent = photoCaption(PHOTOS[idx]);
     }, PHOTO_CYCLE_MS);
   });
 
