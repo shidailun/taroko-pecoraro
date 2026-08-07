@@ -1,4 +1,10 @@
 (function () {
+  // Written by `python tools/stamp.py`, which puts the same id on every asset
+  // URL in index.html. Printed at the foot of the about sheet so you can read
+  // off which build the browser in front of you is actually running -- a deploy
+  // can be live on the CDN and invisible in a browser holding an old app.js.
+  var BUILD = "20260807-0349";
+
   var LANGS = [
     { key: "fr", label: "Français" },
     { key: "en", label: "English" },
@@ -3082,7 +3088,12 @@ var WORD_OVERRIDES = {
       "<p class=\"fine\">Digitized by Darryl Sterk, Associate Professor of Translation, Lingnan University.</p>" +
       "<p class=\"fine\">由嶺南大學翻譯系副教授石岱崙數位化整理。</p>" +
       "<p class=\"fine\">" + window.ENTRIES.length + " entries, digitized from all 398 pages.</p>" +
-      "<p class=\"fine\">共收錄 " + window.ENTRIES.length + " 條詞條,數位化自全書 398 頁。</p>"
+      "<p class=\"fine\">共收錄 " + window.ENTRIES.length + " 條詞條,數位化自全書 398 頁。</p>" +
+      // Which build the browser in front of you is actually running. A deploy
+      // can be live on the CDN and invisible in a browser holding an old
+      // app.js, and until this line there was no way to tell those apart
+      // except by noticing a change you were expecting.
+      "<p class=\"fine build-stamp\">Build " + (BUILD || "dev") + "</p>"
       ), false, true);
     photoTimer = setInterval(function () {
       idx = (idx + 1) % PHOTOS.length;
