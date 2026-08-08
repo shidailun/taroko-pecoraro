@@ -20,3 +20,14 @@ tools/.env.r2
 # would put a snapshot of the colours in the history that the next ruling
 # falsifies. blockers.md is the artefact; this is the scratch behind it.
 tools/orthography/logs/blockers_dom.json
+
+# Scratch instruments. Everything in .scratch/ is disposable EXCEPT the control
+# and ledger scripts, which .claude/notes/batch-log.md cites as the evidence a
+# batch's rows were checked against -- a citation naming a file that exists on
+# one machine is a premise waiting to go false. So: ignore the 43 MB of renders,
+# crops and json dumps, track the .py. (Without a rule here a plain `git add -A`
+# sweeps in the whole 43 MB, which is why every commit so far has had to say
+# `git add -A -- . ':!.scratch'` by hand.)
+.scratch/**
+!.scratch/**/
+!.scratch/**/*.py

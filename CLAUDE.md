@@ -629,6 +629,14 @@ These were each learned by breaking something. Evidence for every one is in
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
+- **Every figure in this file is a SNAPSHOT, not maintained state.** The metric
+  above and the suite's green line are hand-edited at the end of a batch and are
+  stale the moment the next ruling lands. They are re-measured by
+  `python tools/orthography/logs/blockers.py` (the live blocked-pair shape) and
+  `python tools/orthography/suite.py` (the live green line). **Where this file
+  and those commands disagree, the commands are right** — and a batch that finds
+  them disagreeing should fix the file rather than reason from the stale number.
+  The same goes for the loss shape below and the pale-type counts.
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
   single type. The occurrence ranking spends effort where the pairs are already
