@@ -513,9 +513,12 @@ These were each learned by breaking something. Evidence for every one is in
   test is what settles it: the register's ladle family (`isux` 飯瓢, `sahug`
   水瓢, `wihi` 水瓢、湯匙, `hahug` 舀) contains no word reachable from either of
   his spellings, so there is no rival root and nothing to respell away from.
-  **The general sweep is now exhausted**: headwords of the shape `X (Y ?)` whose
-  two sides map to different values of which exactly one is dark return ONE row
-  in 1,967 entries, and it was this one.
+  **The general sweep is now exhausted** — **SUPERSEDED, batch 225**, see "read
+  one parenthetical" below: headwords of the shape `X (Y ?)` whose two sides map
+  to different values of which exactly one is dark returned ONE row in 1,967
+  entries, and it was this one. The sweep read a SINGLE parenthetical per tag and
+  so never saw his 92 compound ones; re-parsed the shape returns **10**. The XOIL
+  ruling stands — only the exhaustion claim fell.
 - **His TAG SHAPE separates a variant from a posited root** (batch 223). Batch
   200's parenthetical rule applies to `(KL'ULUS ? - R. = ULUS ?)`, which names
   another spelling of the headword KLUULUS — his ULUS card confirms it by writing
@@ -607,12 +610,19 @@ These were each learned by breaking something. Evidence for every one is in
 - **Rank by SOLE blockers, not by occurrences** (batch 200). One pale word can
   hold a whole example hostage; 216 of the 227 blocked pairs were blocked by a
   single type. The occurrence ranking spends effort where the pairs are already
-  lost. The 2-or-more-pair tier is now exhausted — ruled or refused in writing.
-- **Every blocker tier is now closed** (batch 201). The sole-blocker tier went to
-  zero open, and the 2-blocker tier behind it — 10 clusters, no recurring word
-  pair — is ruled or refused item by item. The 130 pairs still blocked are held by
-  words with a written refusal, so the next gain has to come from new evidence,
-  not from re-ranking what is already priced.
+  lost. (Its trailing claim that the 2-or-more-pair tier was "exhausted" is
+  **SUPERSEDED, batch 230** — see the multi-blocker rule below. The RANKING rule
+  itself stands and is what this bullet is for.)
+- **Every blocker tier is now closed** (batch 201) — **SUPERSEDED, batches 230
+  and 241; every figure in this bullet is three generations stale.** The
+  sole-blocker tier went to zero open, and the 2-blocker tier behind it — 10
+  clusters, no recurring word pair — was ruled or refused item by item, leaving
+  130 pairs blocked and all held by words with a written refusal. What the claim
+  could not see is the very next rule: a pair blocked by TWO types of one root
+  appears in no sole-blocker list at all. **The live figures are 81 pairs,
+  78 + 3 + 0** (batch 241, below). What survives is the half that was never about
+  the tiers — the next gain has to come from new evidence, not from re-ranking
+  what is already priced.
 - **The sole-blocker ranking hides pairs held by TWO types of the same root**
   (batch 230). A sentence blocked by `pdaqi` and `pstui` at once appears in no
   sole-blocker list, so the multi-blocker seam sat unworked for thirty batches
