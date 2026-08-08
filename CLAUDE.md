@@ -257,7 +257,7 @@ These were each learned by breaking something. Evidence for every one is in
   freeze batch 218 paid three pairs to remove, and the 抓 came from his
   EXAMPLE's gloss because the token has no headword Chinese. Mark those rows and
   discount them (batch 203) and the tail has no candidates at all. Keep the
-  negative result, don't rebuild it — as with `freezesweep.py`.
+  negative result; don't rebuild it (closed-instruments table).
 - **Grep the ranking against the record before working it** (batch 221). The
   cheapest cut on any tail: for each blocker type, grep the batch log and every
   `dom2*.py`. Twelve of the sixteen largest already had prior mentions; the four
@@ -324,7 +324,7 @@ These were each learned by breaking something. Evidence for every one is in
   4 with no prior mention and **none is a ruling** — three score on a common
   character (品, 花, 為 at 1,569 carriers) and the fourth is XUBAO. Positive
   control: fed the pre-ruling state it finds `snuher → sneuhir`. A negative
-  result, kept — as with `freezesweep.py` and `tail221.py`; don't rebuild it.
+  result, kept; don't rebuild it (closed-instruments table).
 - **The ILRDF e-dictionary is closed AT THE PALE** (batch 234). Batch 182's
   "attests nothing new" was a statement about the lookups made; asked of the
   pale, where an attestation is the only thing that could buy a pair, it is
@@ -439,7 +439,7 @@ These were each learned by breaking something. Evidence for every one is in
   anchored token-absence claims, 34 gloss-absence claims — every one of the 38
   candidates is the regex binding the PRESENT alternative rather than the absent
   word, because this project's refusals name both in one breath. Don't rebuild
-  the sweep; same standing as `freezesweep.py` and `tail221.py`.
+  the sweep (closed-instruments table).
 - **A multi-letter affix article scores its MODERN prefix** (batch 203). `mpa`
   scores 0 and `emp` scores 689; the zero is the tier-W schwa showing up as a
   lookup miss, not evidence against his card. `HAND_AFFIX` names the string to
@@ -1070,7 +1070,7 @@ his page does not spell.
   noise mode (有, 我的, 你們的, 正在, 孩子們), the twelfth is `yianu → yamu` —
   batch 231's written refusal, which is the cheapest confirmation the instrument
   is aimed right and the seam is empty — and the thirteenth is `gaqat`. Keep the
-  negative result; don't rebuild it, as with `freezesweep.py` and `tail221.py`.
+  negative result; don't rebuild it (closed-instruments table).
 - **Ask `entries.js` for his TEXT, never for the raw file** (batch 229) — the
   display-side twin of batch 219's alphabet rule and batch 226's case rule. Two
   faults, both in one log: `Sm"lu` is JSON-escaped on disk, so a sentence
@@ -1093,6 +1093,33 @@ his page does not spell.
   229): `\bmman` matched `commandements`.
 - Verifying crossref behaviour needs two taps: first shows the gloss preview,
   second opens the entry (`app.js:1272–1276`). A single `.click()` moves nothing.
+
+### Closed instruments — read this table BEFORE building a sweep
+
+Ten sweeps have been run to a negative result and kept. Each is argued in full at
+the rule that names it; this table exists so "has this already been asked?" costs
+a glance instead of a grep. **A negative result is evidence and rebuilding one
+spends a batch to re-derive nothing** — but note what each actually asked, because
+a genuinely different question escapes the closure (batch 234 re-opened batch
+182's ILRDF result that way, by asking it AT THE PALE).
+
+| instrument | the question it asked | result |
+|---|---|---|
+| `logs/freezesweep.py` (206) | gloss test over the whole book, no pairing file — which dark headwords are freezes? | 827 of 2,420 flagged, all synonym noise (`tama` 父親 vs 上帝); a shape-search second leg leaves 156 and is the same test twice |
+| sister sweep (217) | a pale word whose slot-family sisters are verified while it scores level 0 — an analyser gap? | 5 of 174 pale values; 4 already refused in writing, the 5th (`sapi`) a refusal too |
+| `logs/tail221.py` (221) | batch 204's different-root test over the tail | 14 rows, 12 noise on one common character; the one real-looking row scored off an EXAMPLE gloss |
+| unreachable class (228) | `blockers.py`'s own "no analysis reaches a candidate root" class — 65 types | a `roots()` artefact: reduplication has no rule. Priced from the DOM at 3 types / 1 pair, so the widening it argues for is refused |
+| rare-character meaning sweep (230) | all 131 pale values against his Chinese, ≤120 carriers, ≤2 edits | 48 rows; 4 with no prior mention and none a ruling. Positive control recovers `snuher → sneuhir` |
+| `logs/premise231.py` (231) | 132 token-absence + 34 gloss-absence claims — which refusals rest on a premise gone false? | the class is EMPTY; all 38 candidates are the regex binding the PRESENT alternative |
+| sentence-against-sentence (232) | his example + its Chinese against 50,848 corpus rows, by containment | 13 proposals: 11 noise, 1 a written refusal (`yianu`), 1 `gaqat` |
+| ILRDF at the pale (234) | does the e-dictionary attest any PALE value? | 131 of 146 asked, **0 hits**; the 15 unasked are 10 French plus 5 derived forms a headword index cannot reach |
+| name-only gloss (225) | 41 dark values glossed ONLY as a name, sharing no character with his card | overwhelmingly CORRECT (`harung` 松樹, `sudu` 雜草, `waray` 線) — don't sweep it |
+| `twice211.py` queue (222) | the twice-carded queue — is it a backlog of pairs? | 0 of its 51 values renders pale anywhere. A CORRECTNESS seam, never a pair seam |
+
+Two more closures are not sweeps and live at their own rules: batch 231's
+unglossed-headword class (11 heads, 5 pairs, and his `(R. = ??)` leaves the gloss
+test nothing to score) and batch 233's tag spans (341 render, 321 dark, every
+non-dark one a settled class or a written refusal).
 
 ### Keep the session's context lean
 
