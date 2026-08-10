@@ -2,7 +2,7 @@
 
 # Sole blockers, by what a ruling would buy
 
-78 pairs are blocked by exactly one type; 4 by two or more and are not credited to any single word.
+78 pairs are blocked by exactly one type; 3 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|

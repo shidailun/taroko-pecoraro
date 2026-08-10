@@ -856,6 +856,60 @@ LEDGER = {
         ('shape', ((135, None), 'txey', 'thiy'),
          'batch 241 took two types off the book: `thiy` went dark and `snuk` '
          'left the transcription, 137 -> 135'),
+
+    # [this rebuild] Five logs pin MAP_KEYS at 7371, a number batch 241 itself
+    # never disturbed -- its own dom241.py log says so explicitly: the entry
+    # `snuk -> snuk` is "ORPHANED and left alone... asserted as zero rather
+    # than deleted." That was true of the modern_map.js ON DISK at the moment
+    # batch 241 ran its suite, because the entries.js correction (snuk is a
+    # misread smuk, batch 241 section 1) had landed without anyone re-running
+    # `build_modern_map.py`. This rebuild is the first one since, and the
+    # generator's own DEAD-key accounting (`build_modern_map.py:1622`, "the key
+    # matches no token in entries.js... harmless") is what actually drops it:
+    # no token in entries.js reads `snuk` any more, so the manual_map.json
+    # entry no longer lands. MAP_KEYS 7371 -> 7370, one key, and it is the
+    # same key across all five rows -- so all five are credited to the one
+    # `smuk -> smuk` identity claim (`smuk` is tier `id`, already attested,
+    # confirmed still in both `modern_map.js` and `verified.js`). A further
+    # DEAD key dropping out on some future rebuild is the generator working as
+    # documented; a RISE is news a ceiling here is built to catch.
+    #
+    # dom241.py itself prints this failure TWICE per run -- `main()` does
+    # `fails.extend(fs)` where `fs` is already a copy of the same global
+    # `fails` list `checks()` just populated, so every checks()-sourced
+    # failure doubles. That is a pre-existing bug in a frozen log, not
+    # something this rebuild touched, and one LEDGER row adjudicates both
+    # printed copies since they share one exact failure line.
+    ('dom236.py',
+     'FAIL the map has # keys, pinned #: this batch moved three VALUES and '
+     'no key'):
+        ('shape', ((7370, None), 'smuk', 'smuk'),
+         'this rebuild dropped the DEAD `snuk` key once entries.js no longer '
+         'contained the token; batch 241 corrected the transcription, this '
+         'rebuild is what finally regenerates modern_map.js against it'),
+    ('dom237.py',
+     'FAIL the map has # keys, pinned #: batch # changes no spelling at '
+     'all'):
+        ('shape', ((7370, None, None), 'smuk', 'smuk'),
+         'same event as dom236.py: the DEAD `snuk` key dropped on this '
+         'rebuild, batch 237 itself changed nothing -- sig() blanks EVERY '
+         'digit run, including the "237" inside the message text, so `got` '
+         'carries three numbers (map keys, pinned keys, batch number) and '
+         'the ceilings tuple needs a third None for the batch number, which '
+         'is not a measurement at all'),
+    ('dom238.py', 'FAIL MAP keys #, pinned #'):
+        ('shape', ((7370, None), 'smuk', 'smuk'),
+         'same event: the DEAD `snuk` key dropped on this rebuild'),
+    ('dom239.py', 'FAIL MAP keys #, pinned #'):
+        ('shape', ((7370, None), 'smuk', 'smuk'),
+         'same event: the DEAD `snuk` key dropped on this rebuild'),
+    ('dom241.py', 'FAIL MAP keys #, pinned #'):
+        ('shape', ((7370, None), 'smuk', 'smuk'),
+         'batch 241\'s own ORPHAN check (dom241.py:421) already tolerates '
+         'this: `MM.get(*ORPHAN)` reads `MM.get("snuk", "snuk")`, so a '
+         'missing key and a present identity key are indistinguishable to '
+         'it. This row is the OTHER assertion in the same log, the raw key '
+         'count, which does not have that escape hatch'),
 }
 
 # [batch 226] Rows whose failure was HEAD-RELATIVE, and which the commit of
