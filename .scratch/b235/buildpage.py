@@ -282,7 +282,7 @@ def marked(s):
 ORDER = sorted(GROUPS.values(), key=lambda g: (-g["sole"], -len(g["rows"]),
                                                g["pale"]))
 MAILTO = "shidailun@gmail.com"
-BUILD_DATE = "2026-08-07"
+BUILD_DATE = "2026-08-10"
 NO_OTHER = []
 HIS_SEEN = {}   # data-his -> question number; the answer sheet's join key
 NO_ZH = []
@@ -394,6 +394,12 @@ dl.facts dd b{color:var(--ink);font-weight:600}
 .lbl{font-size:.72rem;letter-spacing:.16em;color:var(--ink3);
  text-transform:uppercase;margin:1.5rem 0 .5rem}
 
+.near-details{margin:1.5rem 0 0}
+.near-details summary.lbl{cursor:pointer;margin:0}
+.near-details summary.lbl::marker{color:var(--ink3)}
+.near-details[open] summary.lbl{margin-bottom:.5rem}
+.near-details .near{margin:0}
+
 .cite{display:grid;grid-template-columns:2.6rem 1fr;gap:.1rem .6rem;
  margin:0 0 1.1rem;font-size:.9rem}
 .cite dt{font-size:.7rem;letter-spacing:.08em;color:var(--ink3);
@@ -487,29 +493,13 @@ A('</header>')
 blocked = len(ROWS)
 tot = 5429
 A('<div class="intro">')
-A('<p>我們把這本 1977 年的辭典逐頁重新謄寫，並且替每一個太魯閣語詞加上'
-  '<b>現代拼寫</b>的對照，好讓它能被今天的人讀、也能拿來做語言模型的訓練資料。'
-  '<b>他書上的拼寫我們一個字母都沒有改</b> ── 那是史料；現代拼寫只是顯示時'
-  '另外套上去的一層，而且必須有現代辭典、聖經或口語語料佐證，我們才敢算數。</p>')
-A('<p>全書 %s 個例句裡，%s 句的每一個詞都已經對上了。剩下的 <b>%d 句</b>'
-  '卡在 <b>%d 個詞</b>上：這些詞我們查遍手上所有語料都找不到，'
-  '所以想請您幫忙看一眼。</p>'
-  % ("{:,}".format(tot), "{:,}".format(tot - blocked), blocked, len(GROUPS)))
-A('<p class="ask-big"><b>每一則只有一個問題：這個詞，現代太魯閣語怎麼寫？</b><br>'
-  '如果這個詞現在已經不用了，或者您也不確定，就直接寫「不用了」「沒聽過」'
-  '「不確定」 ── 那同樣是答案，而且對我們一樣有用。</p>')
-A('<p>怎麼看每一則：</p><ol>'
-  '<li>標題左邊紅色的是<b>他 1977 年的寫法</b>，右邊虛線底的是'
-  '<b>我們目前暫定的現代拼寫</b> ── 那只是猜測，沒有任何來源證實過。'
-  '標著<b>未變動</b>的，是我們連要改哪個字母都看不出來，'
-  '所以原樣照抄 ── 一樣沒有證實。</li>'
-  '<li>每一句列三行：<b>1977</b> 是書上原文，<b>現代</b> 是換成現代拼寫之後的'
-  '樣子，<b>中</b> 是中文意思；<mark>紅底</mark>標出來的就是還沒確定的那個詞。'
-  '（原書是法文的，中文由我們譯出。）</li>'
-  '<li>「形近詞」是我們已經逐一看過、判斷<b>不是</b>同一個詞的現代詞，'
-  '列在那裡只是讓您知道哪些已經排除過，不必再花時間。</li></ol>')
-A('<p>填完之後按頁面最下方的<b>「複製全部回答」</b>，貼回來給我們就好。'
-  '（您填的內容只留在自己的瀏覽器裡，不會送到任何地方。）</p>')
+A('<p>我們把這本 1977 年的辭典逐頁重新謄寫，並加上<b>現代拼寫</b>對照'
+  '（他的原文一個字母都沒改，現代拼寫是另外顯示的一層，需要現代來源佐證才算數）。</p>')
+A('<p class="ask-big"><b>全書 %s 句剩 %d 句、%d 個詞查不到來源</b>，'
+  '想請您幫忙：這個詞，現代太魯閣語怎麼寫？<br>'
+  '不確定或已經不用了，直接寫「不確定」「不用了」就是答案，一樣有用。'
+  '（您填的內容只留在您自己的瀏覽器裡，不會送出。）</p>'
+  % ("{:,}".format(tot), blocked, len(GROUPS)))
 A('</div>')
 A('<div class="stats">'
   '<div><b>%s</b><span>已完成例句</span></div>'
@@ -652,9 +642,11 @@ for n, g in enumerate(ORDER, 1):
 
     nm = near(sorted(set([g["pale"]] + [wordKey(f) for f in forms])))
     if nm:
-        A('<p class="lbl">形近詞 · 已排除</p>')
+        A('<details class="near-details"><summary class="lbl">形近詞 · '
+          '已排除（%d）</summary>' % len(nm))
         A('<p class="near">%s</p>' % "、".join(
             "<code>%s</code> %s" % (esc(c), esc(t)) for c, d, t in nm))
+        A('</details>')
 
     # `data-his` is the LETTER form, not the commonest raw token: the answer
     # sheet that comes back is keyed on it, and `Ksudan` there would be the
