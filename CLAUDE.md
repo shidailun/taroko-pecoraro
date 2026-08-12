@@ -1263,3 +1263,12 @@ start. The Cloudflare worker was briefly `taroko-pecoraro`; renaming it in
 one**, so the old worker and the old hostname stay live until they are deleted
 by hand. Deploy the new name BEFORE shipping the banner change, or
 `legacy-banner.js` points the legacy site at a host that does not resolve yet.
+`taroko-pecoraro` was deleted 2026-08-12 (`wrangler delete taroko-pecoraro`),
+and deleting the worker took its custom domain's **DNS record with it** — the
+authoritative answer for the old hostname is NXDOMAIN, so there is nothing left
+to clean up in the dashboard. The tell that it worked is on the resolver, not
+the wire: for the first minutes the old name still answered **530**, which reads
+like an orphaned record but is the local cache serving the A record it already
+had, to an edge with no worker bound. **Ask 1.1.1.1 before believing a 530**,
+and flush the cache before believing a 200 — the same lag ran the other way
+when the NEW name 404'd locally while resolving fine at authority.
