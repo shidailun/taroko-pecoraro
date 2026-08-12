@@ -2348,7 +2348,18 @@ var WORD_OVERRIDES = {
 
   function entryHtml(e) {
     var h = '<article class="entry">';
-    h += '<div class="hw-line"><span class="hw">' + linkifyTruku(tidyForm(formText(e.hw)), true) + "</span>";
+    // His two `note` cards are not lexical entries: REMARQUE is his prose on
+    // Taroko naming customs, COLOPHON is the printer's imprint at the end of
+    // the book. Neither headword is a Truku word, so modernising one invents
+    // a Truku word out of a French one — `charRules()` turns COLOPHON into
+    // CURUPHUN by o→u and l→r, which is the "Palissade → Parissade" fault
+    // promoted from a gloss to a headword, and it stood long enough that
+    // `edictionary_trv.json` carries a lookup for `curuphun` returning null.
+    // Print them raw, no spans, exactly as `tagHtml()` prints a tag that
+    // carries no root mark. Display-only: `entries.js` keeps both cards.
+    var noteCard = (e.tag || "").trim() === "note";
+    h += '<div class="hw-line"><span class="hw">' +
+      (noteCard ? esc(e.hw) : linkifyTruku(tidyForm(formText(e.hw)), true)) + "</span>";
     h += audioBtn(e.a);
     h += tagHtml(e.tag, e.hw);
     if (e.crossRef) {

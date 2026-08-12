@@ -8575,3 +8575,72 @@ at once and the sole tier did not grow, remains the exception it was described a
   separate from every corpus count, because this is the one attestation on the
   page that is a person and not a document. Eleven types now: the ten above plus
   `nta`.
+
+## Batch 244 — a French word wearing Truku letters, and a census correction
+
+He noticed it on the page: a card reading **CURUPHUN** with the tag `note`, and
+asked whether it really needed to be in the dictionary.
+
+It is the printer's COLOPHON — *Paris, 128 R. du Bac, Octobre 1976 - Juin 1977* —
+and `charRules()` had turned it into a Truku word by `o→u` and `l→r`. That is the
+`Palissade → Parissade` fault the hard-invariants section has warned about since
+the map was built, except promoted from a gloss to a HEADWORD, where nothing was
+watching for it. The tell of how long it stood: `ilrdf/edictionary_trv.json`
+carries a lookup for `curuphun` returning null. The project went and asked a
+Truku e-dictionary about a word it had invented out of French, got 無搜尋結果,
+and filed the miss.
+
+The second `note` card is REMARQUE, his prose paragraph on Taroko naming customs
+— named by CLAUDE.md's own batch-216 rule as one of the two green spans in the
+book, where it had been sitting as though it were an unruled Truku word.
+
+**The fix is batch 233's, one element over.** `tagHtml()` prints a tag carrying
+no root mark with `esc()`, because such a tag makes no spelling claim; a note
+card's headword makes none either. `entryHtml()` (`app.js:2349`) now tests
+`tag == "note"` and escapes the headword instead of calling
+`linkifyTruku(tidyForm(...))`. Display-only: both cards stay in `entries.js`, his
+page is still the record, and the diff is four lines.
+
+**The accounting was the instruction** — *"that curuphun should not make the
+stats look worse than they are"* — and it runs the other way from a ruling.
+Measured from the DOM before and after:
+
+| | before | after |
+|---|---|---|
+| green spans, book-wide | 15 | **13** |
+| green types | 14 | **12** |
+| dark | 44,726 | 44,726 |
+| pale | 165 | 165 |
+| cards | 1,967 | 1,967 |
+| `.truku` spans / green | 36,308 / 1 | 36,308 / 1 |
+
+Nothing but green moved, and the pair metric could not have moved: a headword is
+in no `.truku` box, so this is batch 223's furniture rule with `inTruku == 0`
+asserted in the log. **Two green spans left the book and no word was ruled.** A
+span that was never his word was inflating the pallor rather than measuring it,
+and the honest report of that is a smaller denominator, not a win. `dom244.py`
+pins every unchanged figure beside the changed one, or the next batch reads the
+drop as evidence of a ruling that never happened.
+
+**Controls.** Both legs patch `entries.js` on the wire (`pg.route`) and reload —
+the first attempt mutated `window.ENTRIES` and dispatched `input` on `#search`,
+which re-renders nothing, so it passed for free (batch 234's rule, caught by
+diffing `#results` innerHTML across two searches: identical at 550 chars). Leg A
+removes the `note` tag and requires the headword to span again; leg B patches a
+neighbouring field on the same card and requires NOTHING to change, which is the
+paired wrong-field leg batch 235 asks for. `patched_page()` RAISES when its patch
+string matches no card.
+
+**Seven ledger rows healed and none of them here.** dom57 ×2, dom58, dom59,
+dom65 ×3, all on the commit of batch 242 — batch 226's HEAD-relative class again.
+Proved not mine by running the four logs against HEAD's `app.js` and against the
+patched one: byte-identical failure lines both ways. And the batch-232 TARGET/HOLD
+split shows up here as a clean crossed control, because dom58 and dom59 pin each
+other's tokens: `dmbasyaq` is pinned in `b59.py`, `dmt'basyaq` in `b58.py`, and
+what healed is dom58's `dmbasyaq` row and dom59's `dmt'basyaq` row — each log's
+HOLD on the OTHER's target — while each log's own TARGET row still fails. A HOLD
+re-baselines when HEAD moves; a TARGET can only heal if the map reverts. Absorbed
+with that argument written beside them.
+
+Suite: `85 logs — 32 clean, 279 superseded, 0 REGRESSIONS, 0 crashed`
+(279 + 7 absorbed = 286, batch 242's line; dom244 adds one log and one clean).

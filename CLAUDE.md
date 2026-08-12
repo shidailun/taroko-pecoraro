@@ -875,7 +875,7 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `84 logs — 30 clean, 286 superseded, 0 REGRESSIONS, 0 crashed` (batch 242,
+  `85 logs — 32 clean, 279 superseded, 0 REGRESSIONS, 0 crashed` (batch 244,
   parquets mounted). **The superseded count is environment-dependent by one**:
   with the parquets unmounted dom232's sentence sweep SKIPS, emits no failure
   line, and the green line reads 285. Mounted, the sweep runs and fails
@@ -1053,7 +1053,10 @@ his page does not spell.
   so dark is scoped and pale and green are not. It reported 17 green where there
   are 2 (`REMARQUE`, `PA`, `R` — a French gloss word and two tags) and 247 pale
   where there are 107. **The fingerprint: every spurious span is pale or green
-  and none is dark.** Walk the `.truku` boxes and query inside them.
+  and none is dark.** Walk the `.truku` boxes and query inside them. (Those
+  figures are batch 216's snapshot and the `REMARQUE` in them is gone — it was a
+  note headword, unspanned since batch 244. Live: **13 green spans / 12 types**
+  book-wide, **1** inside `.truku`.)
 - **A pallor census is book-wide; only the PAIR metric is `.truku`-scoped**
   (batch 222). His headword, his sub-form names and his paradigm slots render in
   `.hw` / `.sub-form` / `.paradigm` — **not** inside any `.truku` box. Scoped,
@@ -1115,6 +1118,24 @@ his page does not spell.
   modernise to invents a seam; the DOM says zero. Of the 341 tag spans that DO
   render, 321 are dark and every non-dark one is a settled class (15 are batch
   223's posited roots) or a written refusal — the class is closed.
+- **A card whose HEADWORD is not a Truku word must print raw too** (batch 244),
+  and removing it from the census is a CORRECTION, not a win. His two `note`
+  cards are prose, not lexemes: REMARQUE is his paragraph on Taroko naming
+  customs and COLOPHON is the printer's imprint at the end of the book. Both
+  headwords went through `modernize()`, so `charRules()` fired on French —
+  `colophon` → **`curuphun`** by `o→u` and `l→r`, the "Palissade → Parissade"
+  fault promoted from a gloss to a HEADWORD, and it stood long enough that
+  `edictionary_trv.json` carries a lookup for `curuphun` returning null: the
+  project once went and asked a dictionary about a word it had invented.
+  `entryHtml()` now prints a `tag == "note"` headword with `esc()`, exactly as
+  `tagHtml()` prints a tag with no root mark. Display-only — `entries.js` keeps
+  both cards, per the standing rule that his page is the record.
+  **The accounting is the point**: green falls 15 → 13 spans and 14 → 12 types
+  and NOTHING else moves — dark 44,726, pale 165, cards 1,967, and every
+  `.truku` figure identical, so the pair metric is untouched by construction
+  (batch 223's furniture rule). A green span that was never his word was
+  inflating the pallor, not measuring it; assert the unchanged figures beside
+  the changed one or the next batch reads the drop as a ruling.
 - **Rank the pale by occurrence, not only by pair.** `blockers.py` ranks by
   sentence pairs, so a word spent on headwords and crossrefs never reaches it —
   the biggest pale word on the page (`treura`, 13 — dark since, batch 222) was

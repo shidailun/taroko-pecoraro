@@ -1629,6 +1629,35 @@ ABSORBED = {
     # touched anything -- it is the commit of b43895b, not this batch's work.
     ('dom58.py',
      'BROWN bsqan bsekan missing on ["QAN]'),
+    # [batch 244] Batch 226's mechanism, seven rows at once, on the commit of
+    # batch 242 (6f20558 is where `site/modern_map.js` last moved; the working
+    # tree is clean of it). Nothing about the book moved and this batch did not
+    # cause them: the four logs emit BYTE-IDENTICAL failure lines under HEAD's
+    # `app.js` and under this batch's, so the note-card fix is not what healed
+    # anything.
+    #
+    # What is new is that the TARGET/HOLD split batch 232 argued from the
+    # `kasayang` rows is now visible as a clean control, because dom58 and
+    # dom59 pin each other's tokens. `dmbasyaq` is pinned in `b59.py` and
+    # `dmt'basyaq` in `b58.py` -- and it is dom58's `dmbasyaq` row and dom59's
+    # `dmt'basyaq` row that healed, each log's HOLD on the OTHER's target,
+    # while each log's own TARGET row still fails. A HOLD re-baselines when
+    # HEAD moves; a TARGET is read from the batch's own pin file and can only
+    # heal if the map reverts. The two kinds crossed inside one pair of logs is
+    # as sharp as that assertion is going to get.
+    #
+    # The other five are the same shape on values batch 242 ruled: HEAD now
+    # carries `tbasyaq -> tbsiyak`, `qlaq -> rkrak`, `mqlaq -> mrkrak`,
+    # `sqlaq -> srkrak`, `pnslngiyan -> pnsrngian`, so the identity HOLDs
+    # re-baseline onto the ruled values. Kept in LEDGER: if any of these comes
+    # back it is a ruling being lost, and the explanation is still owed.
+    ('dom57.py', 'BROWN pnslngiyan pnsrngiyan missing on [SLANGI]'),
+    ('dom57.py', 'BROWN tbasyaq tbasyaq missing on [BASYAQ]'),
+    ('dom58.py', 'BROWN dmbasyaq dmbasyaq missing on [SAPAT]'),
+    ('dom59.py', "BROWN dmt'basyaq dmtbasyaq missing on [SAPAT]"),
+    ('dom65.py', 'BROWN mqlaq mqlaq missing on [QLAQ]'),
+    ('dom65.py', 'BROWN qlaq qlaq missing on [QLAQ]'),
+    ('dom65.py', 'BROWN sqlaq sqlaq missing on [QLAQ]'),
 }
 
 
