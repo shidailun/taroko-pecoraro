@@ -1247,11 +1247,19 @@ NOT loaded at session start, deliberately.
 **Two hosts are live and they must not drift** — same `site/`, deploy both.
 
 ```powershell
-npx wrangler deploy                                                                       # taroko-pecoraro.shidailun.com (Cloudflare, wrangler.jsonc)
+npx wrangler deploy                                                                       # pecoraro-taroko.shidailun.com (Cloudflare, wrangler.jsonc)
 netlify deploy --prod --dir site --no-build --site d6e80a1c-405b-4bf9-8977-3630174261c6   # pecoraro-taroko.netlify.app (legacy)
 ```
 
 Cloudflare is the main app; the netlify.app site is the legacy address and
 carries `site/legacy-banner.js`, which prints a "we moved" notice on any host
-that is not `taroko-pecoraro.shidailun.com`. The banner is served from the same
+that is not `pecoraro-taroko.shidailun.com`. The banner is served from the same
 `site/` dir, so it ships to both and stays silent on the new host by design.
+
+**The two hosts carry the same NAME on purpose** — `pecoraro-taroko` in both
+places, matching the netlify.app address the project has answered to since the
+start. The Cloudflare worker was briefly `taroko-pecoraro`; renaming it in
+`wrangler.jsonc` does not rename the deployed worker, it **creates a second
+one**, so the old worker and the old hostname stay live until they are deleted
+by hand. Deploy the new name BEFORE shipping the banner change, or
+`legacy-banner.js` points the legacy site at a host that does not resolve yet.

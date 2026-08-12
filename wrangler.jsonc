@@ -2,7 +2,7 @@
   // Taroko Dictionary (Pecoraro 1977): a hand-built static app, no build step
   // and no backend — site/ is served as-is. Views are query params (?q=, ?l=)
   // on the same pathname, so an unknown *path* really is a mistake: 404 it.
-  "name": "taroko-pecoraro",
+  "name": "pecoraro-taroko",
   "compatibility_date": "2026-08-01",
 
   "assets": {
@@ -11,6 +11,6 @@
   },
 
   "routes": [
-    { "pattern": "taroko-pecoraro.shidailun.com", "custom_domain": true }
+    { "pattern": "pecoraro-taroko.shidailun.com", "custom_domain": true }
   ]
 }
