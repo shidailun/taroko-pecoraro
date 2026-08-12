@@ -850,7 +850,21 @@ var WORD_OVERRIDES = {
   // The clips are a native reading of the MODERN spelling. Offering them beside
   // Pecoraro's 1977 orthography would put a pronunciation in his mouth that his
   // page does not spell, so in his mode there is simply no button to press.
+  // WITHDRAWN pending the voice. Every clip in the bucket is a placeholder
+  // reading, and a button is an assertion that this is how the word sounds --
+  // a stronger claim than any spelling on the page, and the one thing a reader
+  // cannot check against the scan. So the button is not printed until the
+  // rebuild is voiced.
+  //
+  // This is display-only and deliberately the SMALLEST possible removal: the
+  // 5,134 `a` fields stay in entries.js and every object stays in R2. An id is
+  // a URL, so stripping the ids would unhook clips that are already recorded
+  // and paid for, and would fail dom219/220/221's audio-id invariant on the
+  // spot. Restoring the audio is deleting the `return ""` line below.
+  var AUDIO_WITHDRAWN = true;
+
   function audioBtn(id) {
+    if (AUDIO_WITHDRAWN) return "";
     if (!id || !spellingModern) return "";
     return '<button class="audio-btn" data-audio="' + esc(id) +
       '" title="Play audio / 播放" aria-label="Play audio">🔊</button>';

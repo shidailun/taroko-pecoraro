@@ -560,7 +560,57 @@ suntyu kaisia bakuciku armuni ega teumuk""".split()
 #         hortative interjection is exactly what a Bible and a wordlist have no
 #         slot for. The informant says it is Truku. He is the authority the
 #         shortlist was addressed to.
-HAND_SPOKEN = """nta""".split()
+#
+# BATCH 242 — the informant's answer sheet. Eleven words below are spellings he
+# wrote onto a shortlist of 71 pale tokens, one per token, reading his own
+# example sentence. Each is a corpus MISS and each sits in a slot family the
+# register spells for its neighbours, which is batch 224's sister test passing
+# in the positive direction: the gap is a gap, not a refusal.
+#
+#   kusutan     his KSUDAN 織布用的梭子 against `kusut` 線綜棒, the only kusut-
+#               word listed. He wrote "kusut (kusut-an)" — the parenthesis is
+#               him naming the slot, not us deriving it. 0/4 sources.
+#   glkun       his Glaqon (別讓雲豹抓走你的山羊) off `geeluk` 搶奪, which is his
+#               OTHER answer, for gnl'qan on the same root. The syncopated -un
+#               of geeluk is glkun exactly as `rngiun` is of rngi. 0/4.
+#   srkrak      the s- slot of `rkrak` 搔癢. `krkrak` and `prkrak` are listed on
+#               that stem, so the C-prefix slots are spelled and this one is a
+#               hole in the wordlist, not in the language. 0/4.
+#   tbsiyak     the t- slot of `bsiyak`. `tbsiyakaw` is listed, which spells
+#               this exact stem with a suffix on it; `tbbsiyak`, `tmbsiyak`,
+#               `tnbsiyak` surround it. 0/4 bare.
+#   rngian      and
+#   pnsrngian   the -an slots batch 220 refused for want of a listed form, in
+#               writing: "if an -an form ever enters the register, that is
+#               exactly the news that re-opens the two refusals." It has not
+#               entered the register. It has entered from a speaker, which is
+#               the other way that news arrives, and it is the same speaker
+#               whose psrngian answer gives the shape. 0/4.
+#   snhiran     the -an slot of `sneuhir` 忌妒;吃味, the root batch 230 ruled for
+#               his SNOXEL and then left the -an of pale on the identical
+#               argument. He gave `uhir` beside it, which names the root and
+#               rules out the `hir` 氣喘 homograph the shape would otherwise
+#               reach (`msnhir` 為了…氣喘爭執 is a different word). 0/4.
+#   sneemur     the <n> slot of `seemur` 像兩腿交叉擁抱. `msneemur` 為了和…共寢
+#               and `mnsneemur` are listed, so the sn- stem is spelled; only the
+#               bare form is missing. 0/4.
+#   sapi        REFUSED in writing as a spelling — his SAPE 小鋤頭 sits in a
+#               three-hoe system whose other two members are attested, no sap-
+#               word in the register is a hoe, and `sapi` came back one of 644
+#               ILRDF misses. Every one of those facts is still true. What the
+#               refusal also said was that nothing attests the word, and his
+#               answer is 是否為借詞，有在用 — "loanword or not, it IS in use."
+#               That is the one thing a document could not tell us and the one
+#               thing HAND_SPOKEN exists to record. 0/4.
+#   rikut       his LIKUT 藉口－詭計, and the weakest entry here: 口語才部份有，
+#               大都用 rabih, qrbling — "colloquially it partly exists; mostly
+#               people say rabih or qrbling." Partly exists is still exists, and
+#               it is asserted about the bare root only. The derived slots
+#               (nrikut, nprikut, tnrikut, krikut) get nothing and stay pale,
+#               which is what "partly" buys and no more. 0/4.
+HAND_SPOKEN = """nta
+
+kusutan glkun srkrak tbsiyak rngian pnsrngian snhiran sneemur sapi rikut""".split()
 
 # RULED ON BY THE INFORMANT WHERE THE GATE HAD ALREADY AGREED — batch 180. Kept
 # apart from HAND_SPOKEN, which answers a different question. There the corpus is

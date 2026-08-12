@@ -228,6 +228,40 @@ These were each learned by breaking something. Evidence for every one is in
 
 ### His orthography and the char rules
 
+- **A speaker's answer is a RESPELLING only when it is shape-continuous with his
+  token under his own correspondences; otherwise it names the MEANING** (batch
+  242, over a 71-item answer sheet from a Truku informant). Asked how `Kndoto`
+  手鐲 is written today a speaker writes `sirug` 帶項鍊;手鐲 — correct, and it
+  buys nothing: it does not say his KNDOTO survives, it says the modern word for
+  a bracelet is `sirug`, which is a tier-X claim nobody was asked to argue. The
+  test is his own `o→u`, `l→r`, `x→h`, his `'`/`"` schwa, `ç` for `x`, final
+  `-e` for `-i`, `q` for modern `k`. Sorted by it, that sheet was 24 respellings
+  and 47 answers about the world. **The gloss test still runs on the 24** — a
+  speaker lands on homographs exactly as the map does, and four of his answers
+  were listed words with unrelated glosses (`rqraq` 砍倒 for the itch card,
+  `basiq` 石櫟 for the glutton card, `rangi` 犯忌 for the leftovers card, and
+  `pgagu` 笛子, which is the freeze batch 219 already reverted — the sheet
+  reproducing a mistake the project made and undid is the best control on it).
+- **Where two answers about one root disagree, the two that agree win** (batch
+  242) — batch 203's independence requirement, applied to testimony. Name the
+  overruled answer in the log rather than dropping it.
+- **A speaker attests; he does not spell.** `HAND_SPOKEN` (`inflection.py`)
+  widens `seen` and never supplies a value — the spelling must already be
+  reachable through `manual_map.json`, `lexical_map.json` or the char rules.
+  Use it where no corpus holds the word at all and the slot family is spelled
+  for its neighbours (batch 224's sister test, passing positively).
+  `build_verified.py` prints those types on their own line, separate from every
+  corpus count, because this is the one attestation on the page that is a person
+  and not a document.
+- **`lexical_map.json`'s `_`-prefixed comments are written refusals in a data
+  file, and tier X outranks tier M** (batch 242). Two informant answers were
+  inert before they were wrong: `mngusyex → mngasih` hit batch 93's
+  `"mngusyex": null` and the generator printed
+  `curated keys that never landed [BLOCKED]`; `sm → smdalih` hit batch 93's
+  `"sm": "sm"` and landed **silently**, because a lexical null blocks loudly and
+  a lexical identity blocks quietly. `build_modern_map.py` tests `if t in
+  lexical … continue` BEFORE `if t in manual`. Grep that file, not only the
+  logs, before writing a value.
 - **His initial consonant takes a modern reflex, never zero** (batch 216). When a
   gloss match requires DELETING a letter his page writes, test that letter
   against his other heads with the same onset first: his L- surfaces as `r`
@@ -625,7 +659,7 @@ These were each learned by breaking something. Evidence for every one is in
 ## Target
 
 - **The metric is deliverable sentence pairs** — examples whose every Truku span
-  is dark, over 5,429. **Currently 98.51%** (5,348). Not token share. A pair is
+  is dark, over 5,429. **Currently 99.02%** (5,376). Not token share. A pair is
   what an MT session can consume; a token percentage is not. For scale, the same
   page is **99.71%** dark by SPAN inside `.truku` (36,207 of 36,311) and 99.44%
   book-wide. Those answer a different question; only the pair figure is the target.
@@ -649,8 +683,8 @@ These were each learned by breaking something. Evidence for every one is in
   clusters, no recurring word pair — was ruled or refused item by item, leaving
   130 pairs blocked and all held by words with a written refusal. What the claim
   could not see is the very next rule: a pair blocked by TWO types of one root
-  appears in no sole-blocker list at all. **The live figures are 81 pairs,
-  78 + 3 + 0** (batch 241, below). What survives is the half that was never about
+  appears in no sole-blocker list at all. **The live figures are 53 pairs,
+  52 + 1 + 0** (batch 242, below). What survives is the half that was never about
   the tiers — the next gain has to come from new evidence, not from re-ranking
   what is already priced.
 - **The sole-blocker ranking hides pairs held by TWO types of the same root**
@@ -673,7 +707,10 @@ These were each learned by breaking something. Evidence for every one is in
   instrument that reached this one asked one question of both words: `snuk` was
   a misread `smuk` (batch 213, a transcription) and `txey` was a spelling ruled
   `thiy` off his TOXOI card. Ask of each blocker separately whether it is even
-  his string before pricing either as a respelling.
+  his string before pricing either as a respelling. **Now 52 + 1 + 0 over 53
+  pairs** (batch 242), and this time the pin behaved: clearing `dmtbasyaq` moved
+  its co-blocker `dmt'sapat` into the sole list, where it appears for the first
+  time. Still no third tier.
 - **A prior MENTION is not a written refusal** (batch 234) — batch 221's
   record-grep and batch 228's label rule, crossed. "0 of the 67 sole blockers
   have no prior mention" confirms the Target section and is a label; classify
@@ -773,6 +810,15 @@ These were each learned by breaking something. Evidence for every one is in
 
 ## Audio
 
+**The buttons are WITHDRAWN** (`AUDIO_WITHDRAWN` in `app.js`, one line). Every
+clip in the bucket is a placeholder reading, and a 🔊 button asserts *this is how
+the word sounds* — a stronger claim than any spelling on the page, and the one
+claim a reader cannot check against the scan. The removal is display-only and
+the smallest one available: **all 5,134 `a` fields stay in `entries.js` and every
+object stays in R2**, because an id is a URL and stripping ids unhooks clips
+already recorded and paid for (and fails dom219/220/221 on the spot). Restoring
+the audio is deleting one `return ""`.
+
 Clips are TTS (F5-TTS v5, White Dog / Huling Bhgay narrator) on Cloudflare R2 at
 `R2_BASE + id + ".mp3"`, played only in modern spelling — his 1977 orthography
 gets no button, because offering one would put a pronunciation in his mouth that
@@ -827,7 +873,27 @@ his page does not spell.
 - **Run the suite with `python tools/orthography/suite.py`** (site served at
   :8765, ~4 min). It runs every `logs/dom*.py` and `freeze2*.py` and adjudicates
   what they report against a ledger keyed on the exact failure line. Green reads
-  `84 logs — 41 clean, 220 superseded, 0 REGRESSIONS, 0 crashed` (batch 241).
+  `84 logs — 30 clean, 286 superseded, 0 REGRESSIONS, 0 crashed` (batch 242,
+  parquets mounted). **The superseded count is environment-dependent by one**:
+  with the parquets unmounted dom232's sentence sweep SKIPS, emits no failure
+  line, and the green line reads 285. Mounted, the sweep runs and fails
+  (8 proposals against a pin of 13) and is adjudicated by its ledger row.
+  A one-off difference in that number is the drive, not the book.
+- **A count assertion can heal without its subject moving** (batch 242). Five
+  logs pin the map's raw KEY COUNT, and batch 241's transcription fix left them
+  failing at 7370 against a pin of 7371. Batch 242 added exactly one unrelated
+  key — `sloweq`, whose head had no map entry at all, which is why it rendered
+  green — and all five stopped failing while `MAP.get("snuk")` is still None.
+  Nothing they assert was undone: a raw count cannot tell *the lost key came
+  back* from *a different key arrived*. Absorbed, never retired. **Read a
+  healing as a claim about the instrument first** — of batch 242's nine, only
+  one was even caused by this batch, and none was a pin retiring on evidence:
+  one was a re-baselined HEAD read (dom58, batch 226's mechanism, healed by the
+  commit and not by the batch), two were messages carrying a LIST that re-keyed
+  when the list changed, and one was an assertion that did not RUN at all
+  (dom232 prints `parquets not mounted — sweeps 1 and 2 SKIPPED`, and a sweep
+  that does not run emits no failure line, which reads on screen exactly like a
+  pin retiring).
 - **A ledger row must declare its DIRECTION, not infer it from the wording**
   (batch 241). `shape` asserts a ceiling because a blocker count that falls is
   the project working — but `verified.js` keys and the pair count move the other
@@ -1178,6 +1244,14 @@ NOT loaded at session start, deliberately.
 
 ## Deploy
 
+**Two hosts are live and they must not drift** — same `site/`, deploy both.
+
 ```powershell
-netlify deploy --prod --dir site --no-build --site d6e80a1c-405b-4bf9-8977-3630174261c6   # project: pecoraro-taroko
+npx wrangler deploy                                                                       # taroko-pecoraro.shidailun.com (Cloudflare, wrangler.jsonc)
+netlify deploy --prod --dir site --no-build --site d6e80a1c-405b-4bf9-8977-3630174261c6   # pecoraro-taroko.netlify.app (legacy)
 ```
+
+Cloudflare is the main app; the netlify.app site is the legacy address and
+carries `site/legacy-banner.js`, which prints a "we moved" notice on any host
+that is not `taroko-pecoraro.shidailun.com`. The banner is served from the same
+`site/` dir, so it ships to both and stays silent on the new host by design.

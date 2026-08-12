@@ -31,3 +31,6 @@ tools/orthography/logs/blockers_dom.json
 .scratch/**
 !.scratch/**/
 !.scratch/**/*.py
+
+# Local Cloudflare Workers state, as .netlify above
+.wrangler

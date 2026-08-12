@@ -80,7 +80,6 @@ pilyaq           pilyaq           midcap=0    occ=1
 pitong           pitung           midcap=0    occ=1
 pnsdaxong        pnsdahung        midcap=1    occ=1
 pusing           pusing           midcap=0    occ=1
-qlap             qlap             midcap=1    occ=1
 rougeur          ruugeur          midcap=1    occ=1
 sati             sati             midcap=0    occ=1
 segok            seguk            midcap=1    occ=1
@@ -92,7 +91,6 @@ siyal            siyal            midcap=0    occ=1
 sobil            subil            midcap=0    occ=1
 syukang          syukang          midcap=0    occ=1
 tapang           tapang           midcap=0    occ=1
-tbasyaq          tbasyaq          midcap=1    occ=1
 tenong           tenung           midcap=1    occ=1
 tilae            tilay            midcap=0    occ=1
 tiwin            tiwin            midcap=0    occ=1

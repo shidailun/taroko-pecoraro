@@ -2,14 +2,14 @@
 
 # Sole blockers, by what a ruling would buy
 
-78 pairs are blocked by exactly one type; 3 by two or more and are not credited to any single word.
+52 pairs are blocked by exactly one type; 1 by two or more and are not credited to any single word.
 
 | class | types | pairs |
 |---|---|---|
 | gloss disagrees | 6 | 8 |
-| no root | 52 | 60 |
-| root unglossed | 2 | 2 |
-| sentence gloss only | 6 | 8 |
+| no root | 35 | 41 |
+| root unglossed | 1 | 1 |
+| sentence gloss only | 2 | 2 |
 
 `gloss disagrees` and `sentence gloss only` are the adjudicable ones: the gate reached a dark root and refused on the Chinese. `no root` is not reachable by any argument we hold.
 
@@ -70,34 +70,7 @@
 - his: 犁田－使用犁。（註：是否與 TMABUN＝翻鬆土地、深掘土壤使其鬆軟 有親屬關係？）。
 
 
-## sentence gloss only — 6 types, 8 pairs
-
-### ksudan — 3 pairs
-
-- under **KSUDAN**
-- § Ksudan waray.
-- 中 織布用的梭子。
-- `k-suda-an` → **suda** (no gloss)
-- `k-sudu-an` → **sudu** 人名（男）／人名（男）／垃圾／垃圾／輕的／阻礙
-- his: 我的日子比織布者的梭子還要快（過得更快）。 ／ 織布用的梭子。
-
-### mslangan — 1 pair
-
-- under **BMBANG**
-- § Pryuxun mu kana bmbang dnamux da, mhdu mslangan kana da.
-- 中 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
-- `mslangu-an` → **mslangu** 積水／集水／集水
-- `ms-lango-an` → **lango** (no gloss)
-- `ms-langu-an` → **langu** 湖／湖
-- his: 我要把屋頂的鐵皮全部換掉，它們已經完全鏽掉了。
-
-### graqun — 1 pair
-
-- under **GRAQ**
-- § Qlhangi bi aji na graqun rklit ka mirit su da!
-- 中 千萬小心，別讓雲豹抓走你的山羊。
-- `g-raq-un` → **raq** 形容講話沒有節制／形容講話沒有節制／樹枝斷裂及下大雨的聲音
-- his: 千萬小心，別讓雲豹抓走你的山羊。
+## sentence gloss only — 2 types, 2 pairs
 
 ### kyuqan — 1 pair
 
@@ -108,16 +81,6 @@
 - `k-yuqu-an` → **yuqu** 甕
 - his: 他朝母親吐了滿臉口水！真丟臉！
 
-### empslangan — 1 pair
-
-- under **SLANGAN**
-- § Manu bi ka sgutun namu pila! Aji biyaw empslangan ka kiya!
-- 中 你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！
-- `em-pslangu-an` → **pslangu** (no gloss)
-- `emps-lango-an` → **lango** (no gloss)
-- `emps-langu-an` → **langu** 湖／湖
-- his: 你們積聚錢財有什麼用（你們是怎麼了）！那些（你們的積蓄）很快就會被鏽蝕掉！
-
 ### narung — 1 pair
 
 - under **HICI**
@@ -127,7 +90,7 @@
 - his: 得獎的是他；我嘛，排在他後面很多。
 
 
-## root unglossed — 2 types, 2 pairs
+## root unglossed — 1 types, 1 pairs
 
 ### mtmagu — 1 pair
 
@@ -137,17 +100,9 @@
 - `mt-magu` → **magu** (no gloss)
 - his: 那些自命不凡（傲慢）的人，我想把他們扳倒（羞辱他們）。 ／ 驕傲的－自命不凡的－傲慢的人。
 
-### sapi — 1 pair
 
-- under **TUCING**
-- § Ga tmucing sapi ni parih ni pucing ka Tain.
-- 中 Tain 正忙著打鐵，製作鎬、鋤和刀。
-- `s-api` → **api** (no gloss)
-- his: Tain 正忙著打鐵，製作鎬、鋤和刀。 ／ 小鋤頭（柄長約50或60公分），主要用來鬆土或除草。
-
-
-## no root — 52 types, 60 pairs
+## no root — 35 types, 41 pairs
 
 Listed for completeness only. No analysis reaches a candidate root at all, so there is nothing to rule on.
 
-mqlaq (3), gaqat (2), gnlqan (2), loai (2), shkun (2), qadi (2), ptatuy (2), ayuq (1), kkakuh (1), pggu (1), sm (1), shmqan (1), kahui (1), mkahui (1), kndutu (1), rngiyan (1), pnnanu (1), lgluq (1), rikut (1), nprikut (1), tnrikut (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), nkllu (1), pnnguan (1), mtmuhung (1), mngusyeh (1), ubai (1), kakuh (1), qnadi (1), qlaq (1), sqlaq (1), qntqdan (1), dmbasyaq (1), smmul (1), pnsrngiyan (1), qloq (1), sruweq (1), snxelan (1), snmul (1), syuring (1), msyuring (1), knhgun (1), tibasyaq (1), qlap (1), urang (1), hbugi (1), hlakuh (1), emphlakuh (1), yianu (1)
+gaqat (2), gnlqan (2), loai (2), shkun (2), qadi (2), ptatuy (2), ayuq (1), kkakuh (1), pggu (1), sm (1), kahui (1), mkahui (1), kndutu (1), pnnanu (1), lgluq (1), nprikut (1), tnrikut (1), rngutan (1), pnrngut (1), prngut (1), rmngut (1), nkllu (1), pnnguan (1), mtmuhung (1), mngusyeh (1), ubai (1), kakuh (1), qnadi (1), qntqdan (1), dmtsapat (1), syuring (1), msyuring (1), knhgun (1), hbugi (1), yianu (1)

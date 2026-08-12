@@ -218,7 +218,6 @@ mpsklol          empsqrul          mpsqrul          G/class      0     1
 mpsl'bu          empslbu           mpslbu           E/class      0     1
 mpsl'xbun        empslhbun         mpslhbun         R/class      0     2
 mpslago          empslagu          mpslagu          P/class      0     1
-mpslangan        empslangan        mpslangan        E/class      0     1
 mpsliyux         empsriyux         mpsriyux         P/class      0     1
 mpslnabao        empsrnabaw        mpsrnabaw        P/twin       0     2
 mpsloxao         empsruhaw         mpsruhaw         P/twin       0     1
@@ -255,7 +254,6 @@ mpuno            empunu            mpunu            P/twin       0     5
 mpx'lpis         emphlpis          mphlpis          P/class      0     1
 mpxaal           emphaal           mphaal           P/class      0     3
 mpxedao          emphidaw          mphidaw          P/twin       0     1
-mpxlakux         emphlakuh         mphlakuh         R/class      0     2
 mpxlapas         emphrapas         mphrapas         P/twin       0     1
 mpxlenas         emphrinas         mphrinas         P/twin       0     2
 mpxnang          emphnang          mphnang          T/twin       0     3

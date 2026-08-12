@@ -8320,3 +8320,258 @@ its value leaves `verified.js`; and the `None` entries — the log's own pins, i
 The keys themselves were taken from `sig()` rather than typed from the logs'
 format strings (`.scratch/b241/keys.py`), since a hand-written key that matches
 nothing fails silently.
+
+---
+
+## Batch 242 — the informant's answer sheet, and the line between a respelling and a translation
+
+The user put 71 pale tokens to a Truku speaker — `太魯閣語現代拼寫請教單.docx`,
+one row per token with his own example sentence and his own Chinese beside it —
+and got 71 answers back. Every previous speaker ruling in this project has been
+one or two words at a time (`nta`, the SAIS paradigm, `qapah`, the batch-180
+four). Seventy-one at once is a different object, and the first job was to work
+out what kind of evidence it is.
+
+**An answer to "how is this written today" is a RESPELLING only when it is
+shape-continuous with his token under his own correspondences. Otherwise it
+names the MEANING and not the spelling — it is a translation.** This is the
+whole batch. A speaker shown `Kndoto` 手鐲 and asked for the modern word will
+write `sirug` 帶項鍊;手鐲, and that answer is *correct* and buys nothing: it does
+not say his KNDOTO survives as `sirug`, it says the modern word for a bracelet is
+`sirug`. Applied as a map value it would be tier X, a lexical substitution, and
+tier X's bar is a two-part argument this sheet was never asked to make. Sorted
+by that test the 71 fall into 24 respellings and 47 answers about the world.
+
+The test is mechanical enough to state: his `o→u`, `l→r`, `x→h`; his `'`/`"` as
+the schwa, surfacing as a modern vowel or as nothing; `ç` for `x`; his final `-e`
+for `-i`; his `q` where the modern writes `k`. `ulang → ulan` and `xlakux →
+hlakuk` sit inside that. `ayoq → sqduan` does not, and neither does `mtmago →
+psparu`, however exactly 驕傲 matches his 驕傲的－自命不凡的.
+
+**23 map values changed and 10 words went into `HAND_SPOKEN`. 81 blocked pairs
+→ 53; the deliverable figure is 5,376 of 5,429, 99.02%.** The loss shape is now
+**52 + 1 + 0**.
+
+### The rulings
+
+**The itch root — 3 pairs on one card, and the informant overruled on his own
+evidence.** His QLAQ 發癢－搔癢, Mqlaq 發癢者, Sqlaq. For `qlaq` he wrote `rkrak`
+(生芋…引起的搔癢 — 搔癢 verbatim) and for `sqlaq` he wrote `srkrak`; for `mqlaq`
+he wrote **`rqraq`**, which is listed and glossed 砍倒, to fell a tree. All three
+of his QLAQ sentences are about itching — `Ana mqlaq o, ya bi kgusi!` 就算癢，也
+千萬別抓 — so `rqraq` is a slip of the pen or of the eye on one row of a long
+sheet, and the family's own answer is `mrkrak` 很癢／發癢, listed, which carries
+his 發癢 verbatim. **Two answers out of three about one root outvote the third**,
+and this is the shape batch 203 named for supporters: the two are independent of
+each other and of the one they overrule. `mqlaq → mrkrak`, `qlaq → rkrak`,
+`sqlaq → srkrak`, plus `q'loq → rkruk` (his Q'LOQ 煤煙; `rkruk` is listed and
+unglossed, and stands in exact vowel-parallel to the `qlaq`/`rkrak` pair the
+gloss confirmed — the weakest of the four and marked as such). **+5 pairs**, and
+it retires batch 218's `mqlaq → mqraq` seam for good: that freeze cost 3 pairs to
+remove and this is the evidence that was missing when it was removed.
+
+**The gluttony root is `bsiyak`, not the `basiq` the sheet says.** For three of
+the four BASYAQ tokens he wrote `basiq`, which is listed — glossed 太魯閣石櫟
+（樹木名）, a stone-oak tree. That is a homograph landing, the exact shape of the
+`pg'go → pgagu` mistake this project has already made and reverted. The fourth
+answer is the real one: for `tibasyaq` he wrote **`tbsiyak`**, and `bsiyak` heads
+a 40-form family whose senses are 匆匆忙忙, 爭相 and — on `sbsiyak` — **搶著吃**,
+scrambling to eat. His TIBASYAQ is 行為像貪吃鬼的人. `tbsiyakaw` is listed, which
+spells this exact stem with a suffix on it. So `tibasyaq → tbsiyak`, `tbasyaq →
+tbsiyak`, `dmbasyaq → dmbsiyak` (listed, 倉促地…的人) and `dmt'basyaq →
+dmptbsiyak` (listed, 嬉戲的人). **+2 pairs**; the last two are consistency, not
+claims — the card would otherwise say two things about one root.
+
+**`skringan` 生鏽 retires half of batch 215's SLANGAN refusal.** That batch
+refused `srangan → sgrangan` on a clean orthographic count: in 398 pages he
+never writes `gr`, his correspondence for it is `gl`/`g'l`, so `sgrangan` would
+have been `sglangan` in his hand and that shape is not in his book. Every word of
+that is still true and **it was never about `skringan`**, which is a different
+word with a different cluster. `mslangan → skringan` (+1) and `mpslangan →
+empskringan`, which verified at code 2 as a regular `emp-` of a listed word with
+no hand entry at all (+1). Batch 230's rule, one more time: check what a refusal
+SEARCHED, not only what it concluded.
+
+**`glkun`, and the answer that arrived on the neighbouring row.** For `gnl'qan`
+he wrote `geeluk` 搶奪 and for `glaqon` he wrote `glkun`. The second is the
+syncopated `-un` of the first, formed as `rngiun` is of `rngi`, and his G'LAQ
+sentence is 別讓雲豹抓走你的山羊 — don't let the clouded leopard **snatch** your
+goat. `glaqon → glkun` (+1, `HAND_SPOKEN`). **`gnl'qan` is refused**: he gave the
+root, not the slot, and `geeluk` + `<n>` + `-an` could be `gneelukan`, `gnlukan`
+or `gnlkan` with nothing to choose between them. Two pairs left on the table
+rather than invented. If an `-an` of this root ever turns up, that is the news.
+
+**Two `-an` slots the register is silent about.** Batch 220 refused `rngian` and
+`pnsrngian` in writing, and said exactly what would re-open them: *"if an `-an`
+form ever enters the register, that is exactly the news."* It has not entered the
+register. It has entered from a speaker, which is the other way news arrives —
+and it is the same speaker whose answer for `pnslngiyan`, `psrngian`, supplies
+the shape. `lngiyan → rngian`, `pnslngiyan → pnsrngian`, both `HAND_SPOKEN`
+(+2). His own answer for `lngiyan` was `rangi`, listed and glossed 不遵守習俗
+（犯忌）— another homograph landing, overruled by his own other answer, the same
+two-against-one shape as `mqlaq`.
+
+**`snhiran` — the third slot of the jealousy root.** Batch 230 ruled `snoxel →
+sneuhir` and `msnoxel → msneuhir` off the rare character 妒, and left `snxelan`
+pale on the same argument batch 220 used: no `-an` of the stem is listed, and the
+register does spell `sn-…-an` for other stems, so the silence counts. He wrote
+`snhiran`, **and `uhir` beside it**. That second word is what makes the answer
+usable: it names the root and rules out the `hir` 氣喘 homograph the bare shape
+would otherwise reach — `msnhir` 為了…氣喘爭執 is a different word entirely.
+`snxelan → snhiran` (+1, `HAND_SPOKEN`).
+
+**`sruwaq`, and how batch 231's unglossed-headword limit actually retires.** That
+batch closed a class of 11 headwords Pecoraro could not gloss himself — SLOWEQ is
+`(R. = ??)` with `fr = "??"`, `zh = "？？"` — on the ground that the gloss test
+needs a gloss on HIS side too. Four of them are on this sheet and **exactly one
+is ruled**, which is the interesting part. `sloweq → sruwaq` goes in because the
+char rules already print `sruweq` and `sruwaq` is one vowel from it: the answer
+is shape-continuous and needs no gloss on either side. The other three are
+refused because their answers are not — `sdangan → kndeaxan` (s- to kn-),
+`psqgo → sqgu` (deletes the `p` he typed, which is batch 216), `syuling →
+suling`, where his head is unglossed but his SENTENCE reads 皮癬－濕疹－蕁麻疹
+and `suling` is 下流的禁忌語（對親;堂;表姊妹說禁忌的話）, a taboo word, not a rash.
+**The limit batch 231 named is real and it is retired one word at a time by
+SHAPE, never by the informant supplying a meaning** — a meaning is what he was
+always going to supply.
+
+**`sapi` — a refusal whose stated reason the informant answers directly.** The
+SAPE refusal rests on three facts: his 小鋤頭 sits in a three-hoe system whose
+other two members are attested (`parih`, `bkaruh`), no `sap-` word in the
+register is a hoe, and `sapi` came back one of 644 ILRDF misses. All three are
+still true and none of them is retired here. What the refusal ALSO said was that
+nothing attests the word at all — and his answer is **是否為借詞，有在用**,
+"loanword or not, it IS in use." That is the one claim no document could make and
+the one thing `HAND_SPOKEN` exists to record. The map value is unchanged; the
+word went from unattested to attested by a person (+1).
+
+**And the weakest entry in the batch, kept and labelled.** For `nlikut` he wrote
+**`rikut`, 口語才部份有，大都用 rabih, qrbling** — "colloquially it partly exists;
+mostly people say `rabih` or `qrbling`." Partly exists is still exists, and it is
+asserted about the bare root only, so `rikut` goes into `HAND_SPOKEN` (+1) and
+the four derived slots — `nrikut`, `nprikut`, `tnrikut`, `krikut` — get nothing
+and stay pale. That is what "partly" buys and no more.
+
+**The singles.** `ulang → ulan` 久病纏身（被病纏身）against his ULANG 反覆發生的－
+週期性的－慣常的 and his sentence about a chronic disease; batch 230's written
+refusal searched 週期, 慣常 and 反覆 and never searched 久病 or 疾, which is that
+batch's own rule about what a refusal searched (+1). `qlap → qrak` 抓, one edit
+from the char rules' own `qrap`, in a sentence glossed 抓住他 (+1). `sxmqan →
+shmuk` 關著, his sentence 他們進了監獄 (+1). `sm'mul → seemur` 像兩腿交叉擁抱 and
+`sn'mul → sneemur`, the `<n>` slot, which `msneemur` 為了和…共寢 and `mnsneemur`
+spell for this stem (+2). `xlakux → hlakuk` and `mpxlakux → emphlakuk`, both
+listed, against his 盾牌－保護之物 and `hlakuk` 用包狀物包起來 with a 30-form
+covering family behind it (+2). `ksudan → kusutan` — he wrote **`kusut
+(kusut-an)`**, the parenthesis naming the slot himself, against `kusut` 線綜棒,
+the only `kusut-` word listed, on a card glossed 織布用的梭子 (+3, the largest
+single card in the batch).
+
+### The refusals
+
+Forty-seven answers are not respellings and none is applied. Seven are the
+informant declining the word outright — 沒聽過 for `gaqat`, `qnadi`, `msyuling`,
+`tbiyun`, `ubai`, 不用了 for `tbilan` and `ptatwi` — which is worth having: five
+of those seven have a written refusal already and this is a speaker confirming
+them from the other side. The rest name a modern word for the meaning: `loai →
+rahuq`, `qadi → pqbui`, `ayoq → sqduan`, `kaxoi → kuyuh ksyukun` (a phrase),
+`kakox`/`kkakox → ramil`, which his own LAMIL card already owns, `kndoto →
+sirug`, `knxgun → aguh`, `mkaxoi → dburaw sulay`, `mtmoxong → mtangug`,
+`nplikut → mqrbling`, `pnngoan → pungu`, `tnbian → sakur`, `tnlikut`/`klikut →
+psaput`, `snoqo → mqpuji`, `nkl"lu → mkeleelug`, `xbugi`/`sl'xqon → shik`,
+`pnnano → pnmanu`, `qntq'dan → qdqut`, `dmt'sapat → dmtsgsapat`.
+
+Six deserve naming because the record already contains them:
+
+- **`pg'go → pgagu`.** This is the freeze batch 219 reverted. `pgagu` is 笛子, a
+  flute; there is no 斑鳩 in the register at all and its 鴿子 is `byutux`. **The
+  sheet reproducing a wrong answer the project already made and undid is the
+  single best control on the whole document**, and it is why `basiq` and `rangi`
+  and `rqraq` were caught rather than banked.
+- **`mtmago → psparu`.** Batch 213 refused TMAGO after an edit-distance sweep
+  found no proud word at all near it: `dahu` and `psparu` carry the meaning off
+  different roots. The answer is `psparu`. Nothing has changed.
+- **`kyoqan → tuyuq`.** Batch 234 already agreed about the meaning — his own
+  TUYOQ 唾液 card supplies it and `tyoqan → tuyuqan` is dark. The blocker is the
+  initial `k`, and three routes to it were each refused in writing. He named the
+  root, which was never the question.
+- **`lg'loq → gluq`.** Batch 216 conceded in writing that *"`gluq` carries his
+  LG'LOQ 樹脂 gloss verbatim and is still refused"*, because dropping the initial
+  L is a lexical substitution wearing a respelling's clothes. A gloss match was
+  the evidence that batch already had; the answer adds nothing to it.
+- **`nalong → marung`.** Batch 235 ruled this on his own MALONG card 76 pages
+  off, and the verdict rests on the scan reading `n`. His answer writes an `m`,
+  which is the same `m` his MALONG card writes — worth recording as pressure on
+  that crop — but `marung` in the register is glossed only 人名（男）, and batch
+  216 refuses swapping an initial consonant. Refused, and the re-read of that
+  page is now the thing that would re-open it.
+- **`yiano → yamu`.** Refused twice already (batch 231, and again as the twelfth
+  proposal of batch 232's corpus sweep): his YAMO card distinguishes `Yamo`
+  你們 from `Yiano` 為你們－你們的 by gloss, and `yamu` collapses them.
+
+And the **pregnancy family** — `lmngut`, `lngutan`, `plngut`, `pnlngut`,
+answered `shjil`/`mgdurug`/`shjilan`/`pgdurug`. Batch 204 predicted this answer
+in terms: *"For RNGUT 懷孕 it is `mshjil` … different roots, so there is no
+respelling to find and the pallor is correct."* The informant confirms the
+different root. That is a tier-X question — a lexeme modern Truku replaced — and
+tier X's two-part bar is an argument about his whole book that this sheet was not
+asked to make. Four pairs, priced and left.
+
+### Two answers the machinery refused before I could
+
+`mngusyex → mngasih` was written into `manual_map.json` and the generator printed
+**`curated keys that never landed [BLOCKED]: manual mngusyex->mngasih (2x)`**.
+Batch 93 nulled that token in `lexical_map.json` on an explicit argument — the
+NGUSYEX card is tier X to `siras` 兔唇, and the stative was held because `msiras`
+is glossed differently, a different word on the same shape. A null there is a
+human decision and outranks manual curation by design (tier X is tested before
+tier M in `build_modern_map.py`). The answer is 都是掉牙狀, gap-toothed, which is
+not 兔唇 anyway. Backed out.
+
+`sm → smdalih` landed nowhere for the same structural reason: batch 93 filed `sm`
+in `lexical_map.json` as the eighth affix article, explicitly *"rather than in
+manual_map.json … because the generator's vowelless-output gate drops any non-X
+value with no aeiou, and `sm` has none"*. Reading his `Miyax ko sm(?) sunan`
+我來親近你, the answer `smdalih` 靠近 is almost certainly the word he elided — but
+**his `(?)` is his own**, and filling in an elision is not respelling, it is
+writing a word he did not write. Batch 93 ruled on the letters and left the full
+word open on purpose; that stands. `sm` keeps its pair blocked, correctly:
+shipping `Miyax ko sm sunan` as a training pair would ship a fragment.
+
+**Both faults are the same one, and it is batch 219's rule arriving in a new
+place: grep the record before writing a value — including the record kept in
+`lexical_map.json`'s `_`-prefixed comments, which are prose refusals in a data
+file.** The generator caught one of the two and was silent about the other,
+because a lexical `null` blocks loudly and a lexical identity blocks quietly.
+
+### The two-type pin moved exactly as batch 235 said it would
+
+Batch 235 pinned the loss shape at 79 + 4 + 0 and called the last figure a pin
+that can fail, noting *"a ruling moves a two-type row into the sole list."*
+Clearing `dmtbasyaq` did precisely that: `dmt'sapat`, its co-blocker, is now a
+sole blocker in its own right and appears in the ranking for the first time. The
+shape is **52 + 1 + 0** over 53 pairs. Batch 241's row, where both blockers fell
+at once and the sole tier did not grow, remains the exception it was described as.
+
+### Method
+
+- The discriminator is in the first paragraph and is the batch's only new rule.
+  It is falsifiable and it was tested on the sheet itself: `pg'go → pgagu`,
+  `mqlaq → rqraq`, `dmbasyaq → basiq` and `lngiyan → rangi` are four answers
+  that are wrong in a way only this test catches, and all four are homograph
+  landings — a shape the register happens to list, glossed something else.
+- **Where two answers on one root disagree, the two that agree win** (batch 203's
+  independence requirement), and the overruled answer is named in the log rather
+  than dropped. Three roots needed this.
+- `HAND_SPOKEN` took 10 new words — `kusutan glkun srkrak tbsiyak rngian
+  pnsrngian snhiran sneemur sapi rikut` — each a corpus miss in all four sources
+  and each in a slot family the register spells for its neighbours, which is
+  batch 224's sister test passing in the positive direction. `empskringan` needed
+  no entry: it verified at code 2 off the listed `skringan`.
+- Nothing was put in `HAND_RULED`. That table answers batch 180's question — the
+  corpus already agrees and only the gloss instrument refuses — and no row of
+  this sheet had that shape.
+- **A speaker is a fifth kind of evidence and it is recorded as one.**
+  `build_verified.py` prints the informant-attested types on their own line,
+  separate from every corpus count, because this is the one attestation on the
+  page that is a person and not a document. Eleven types now: the ten above plus
+  `nta`.
