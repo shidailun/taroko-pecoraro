@@ -4,7 +4,9 @@ Digitization of Ferdinando Pecoraro MEP's *Essai de dictionnaire taroko-françai
 (SECMI, Paris, 1977). Original is Truku (Taroko) → French; we add English +
 Traditional Chinese (translated from the French, draft pending native review).
 
-- Live: https://pecoraro-taroko.netlify.app (Netlify project `pecoraro-taroko`, site_id `d6e80a1c-405b-4bf9-8977-3630174261c6`)
+- Live: https://pecoraro-taroko.shidailun.com (Cloudflare, `wrangler.jsonc`).
+  The legacy address https://pecoraro-taroko.netlify.app (site_id
+  `d6e80a1c-405b-4bf9-8977-3630174261c6`) is frozen behind a "we moved" banner.
 - All 398 pages digitized: 1,967 root entries, 2,948 sub-forms, 5,436 examples.
 
 ## Layout
