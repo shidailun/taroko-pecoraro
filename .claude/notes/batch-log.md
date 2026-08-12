@@ -8644,3 +8644,56 @@ with that argument written beside them.
 
 Suite: `85 logs — 32 clean, 279 superseded, 0 REGRESSIONS, 0 crashed`
 (279 + 7 absorbed = 286, batch 242's line; dom244 adds one log and one clean).
+
+
+## Batch 245 — the sheet was exhausted, so the QUESTION changed
+
+No ruling, no map entry, no colour moved. This batch built an instrument.
+
+**The b243 sheet has nothing left to ask this informant.** Harvested live
+(`.scratch/b245/harvest.py`): `boxes 5429 | blocked 53 (sole 52, two 1, 3+ 0)`,
+46 pale types. Joined to `published_qset.json` (`price.py`): **all 46 were
+already asked** — 47 of his tokens sit on live blockers, 46 of them were on the
+published sheet and one (`slx'qon`) is new, and **0** rows were asked in b243 and
+have since stopped blocking. So another round of the same sheet is a round of the
+same 46 questions, and the only thing left to change is the question.
+
+**Batch 242's rule, written as code.** `prev.py` folds his letters and today's
+onto one alphabet (`o→u`, `l→r`, `x→h`, `k↔q`, `e↔i`, `ç`→`x`, schwa marks and
+hyphens dropped, his parenthetical gloss stripped) and calls an answer a
+RESPELLING when it is within `max(1, len(fold(his)) // 3)` edits of his token,
+GONE when it is a CJK-only status answer, and a MEANING otherwise. Over the whole
+71-row sheet: **respelling 22 | meaning 42 | gone 7**, against batch 242's hand
+read of 24 respellings and 47 answers about the world. Close enough to be a
+control on that reading and not a reproduction of it — it is stated as such. Over
+the 47 live-blocker tokens with an answer: **9 respellings, 31 meanings, 7 gone**.
+Nine of forty-seven. That ratio is the whole argument for the redesign: the sheet
+asked one question and got the other answer five times in six.
+
+**The split now lives in the question, not in the adjudication.** Each of the 46
+rows carries 問一 (*his word in today's letters* — red rule, the only answer that
+can spell his page) and 問二 (*what would you say instead* — grey rule, recorded,
+never load-bearing). Above them a quiet `.prev` panel says what this informant
+answered last time and which of the two questions it turned out to answer, with
+the register's gloss of his answer word printed beside it as a fact rather than
+as a refusal. Built: **46 words, 53 blocked examples, 54 sentences, 44 near-miss
+rows, 46/47 previous answers printed** — the 47th is `Loai`/`loai`, one row once
+case is folded.
+
+Storage keys are `his|1` / `his|2`; the QSET digest is prefixed `2q|` so a
+returned sheet cannot be mistaken for b243's. A browser holding b243 answers
+migrates them **by column**: a meaning-kind answer moves to `|2`, and a
+respell-kind or gone-kind answer is DROPPED rather than restored into 問一,
+because pre-filling question one with an answer we did not accept would read as
+acceptance.
+
+**Controls** (`control.py`, `0 assertions failed`): page shape (46/46/46 boxes
+and panels, the counter naming both questions, QSET ≠ b243's `91aca4f`);
+separate storage with no bare key written; the returned text carrying each answer
+on its own question's line; the migration by column, idempotent across reloads.
+Three refusal legs — writing 問二 must not fill 問一, a 問二-only row must not
+read `done`, an unknown bare key must not survive — all refuse. `bad` accumulates
+(batch 233); a control that can clear its own earlier failure proves nothing.
+
+Published as an Artifact, round two on its own URL so the b243 sheet and whatever
+is still in the informant's browser survive.
