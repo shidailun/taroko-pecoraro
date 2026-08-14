@@ -1,0 +1,17 @@
+{
+  "name": "Pecoraro Taroko",
+  "short_name": "Pecoraro Taroko",
+  "description": "Ferdinando Pecoraro MEP, Essai de dictionnaire taroko-francais (SECMI, Paris 1977), with English and Chinese added.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f2e8",
+  "theme_color": "#14544a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
