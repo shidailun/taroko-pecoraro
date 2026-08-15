@@ -1267,11 +1267,24 @@ NOT loaded at session start, deliberately.
 
 ## Deploy
 
-**Two hosts are live and they must not drift** — same `site/`, deploy both.
+**Deploying means Cloudflare. It does not mean Netlify.**
 
 ```powershell
-npx wrangler deploy                                                                       # pecoraro-taroko.shidailun.com (Cloudflare, wrangler.jsonc)
-netlify deploy --prod --dir site --no-build --site d6e80a1c-405b-4bf9-8977-3630174261c6   # pecoraro-taroko.netlify.app (legacy)
+npx wrangler deploy   # pecoraro-taroko.shidailun.com (Cloudflare, wrangler.jsonc)
+```
+
+**Do not run the Netlify command** unless the user names Netlify in that same
+message. It is metered — the user pays per deploy — and a "deploy!" answering an
+offer that listed both commands is a yes to the Cloudflare one only. This
+section used to read *"two hosts are live and they must not drift — same
+`site/`, deploy both"*, and that sentence is what shipped an unwanted deploy on
+2026-08-15. **Drift is the intended end state**: the netlify.app address is
+frozen behind a "we moved" banner, so its copy of `site/` falling behind is the
+legacy site behaving as designed, not a fault to correct. The command, for the
+day it is asked for by name:
+
+```powershell
+netlify deploy --prod --dir site --no-build --site d6e80a1c-405b-4bf9-8977-3630174261c6
 ```
 
 Cloudflare is the main app; the netlify.app site is the legacy address and
