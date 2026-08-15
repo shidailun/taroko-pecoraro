@@ -10,6 +10,16 @@ how it is scaled down.
     stilt house's roof, so the palm is alone in it and the trunk bleeds off the
     bottom edge the way it does on the cover.
 
+The frame is the one thing here worth measuring. The crown's ink runs y 306-730
+on the cover and the roof's first pixels are at y 820, so the bottom edge is
+pinned at 815 and every choice is about the TOP. A first crop took the full
+crown width (640) and so had to start at y 170, leaving 136px of headroom above
+the crown against 80px of trunk below it -- the crown's centre 4.4% of the frame
+BELOW the frame's own, which reads as a palm sitting too low in the tile. Pulling
+the top down to 241 puts it 1.7% above centre and enlarges the palm; the cost is
+~37px off each outermost frond tip, which at 19% corner rounding is inside the
+corner arc and never renders. Framing only -- the art is untouched.
+
 Corners are rounded into the PNG at r = 19% of size, the fleet convention; the
 maskable icon stays square because the OS shapes that one itself, and its art is
 inset so a circular launcher mask cannot eat a frond tip.
@@ -26,7 +36,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
 COVER = os.path.join(SITE, "cover.png")
 
-CROP = (0, 170, 640, 810)   # left, top, right, bottom on the 941x1672 cover
+CROP = (38, 241, 612, 815)  # left, top, right, bottom on the 941x1672 cover
+CROWN = (306, 730)          # the crown's ink, top and bottom; see the docstring
+ROOF_TOP = 820              # the stilt house's first pixels -- CROP must clear it
 COVER_SIZE = (941, 1672)    # asserted: a re-rendered cover would move the crop
 PAPER = (247, 236, 211)     # the cover's own paper, sampled at its corner
 
@@ -47,6 +59,11 @@ def art(size):
     assert im.size == COVER_SIZE, "cover.png is %s, not %s -- re-check CROP" % (
         im.size, COVER_SIZE)
     assert CROP[2] - CROP[0] == CROP[3] - CROP[1], "CROP is not square"
+    assert CROP[3] <= ROOF_TOP, "CROP reaches the stilt house's roof"
+    assert CROP[1] < CROWN[0], "CROP starts inside the crown"
+    # The crown must sit at or above the frame's centre -- a crown BELOW it is
+    # the "palm struggling to grow" fault this crop was measured to fix.
+    assert sum(CROWN) / 2.0 <= sum(CROP[1::2]) / 2.0, "the crown sits low in the frame"
     out = im.crop(CROP).resize((size, size), Image.LANCZOS)
     if size <= 64:
         out = ImageEnhance.Contrast(out).enhance(1.15)
