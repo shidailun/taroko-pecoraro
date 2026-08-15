@@ -1,148 +1,97 @@
-"""Render site/favicon.png and site/favicon-32.png.
+"""Render the app icons by cropping the palm off Pecoraro's own cover.
 
-The subject is the palm crown from Pecoraro's own cover (site/cover.png), not a
-generic book: the SECMI cover puts a palm over a stilt house, and the palm is the
-half that survives being shrunk to 32px. Drawn, not cropped -- the cover's
-pinnate fronds turn to mush below ~64px, so the fronds here are solid blades with
-scalloped edges that read as pinnae when large and as a blade when small.
+The icon IS the cover's palm -- site/cover.png, cropped, not redrawn. An earlier
+version of this script drew a stylised palm to survive 32px; it was a redesign,
+and his cover is the record here exactly as his spelling is on the page. So the
+art is a straight crop and the only choices left are where the frame sits and
+how it is scaled down.
 
-Palette is the app's own (style.css): --truku #14544a ground, --paper cream art.
-Corners are rounded into the PNG at r = 19% of size, the fleet convention.
+    CROP is square, sits below the "CAHIER D'ARCHIPEL 7" line and stops above the
+    stilt house's roof, so the palm is alone in it and the trunk bleeds off the
+    bottom edge the way it does on the cover.
 
-    python tools/make_icon.py            # writes site/favicon.png, favicon-32.png
+Corners are rounded into the PNG at r = 19% of size, the fleet convention; the
+maskable icon stays square because the OS shapes that one itself, and its art is
+inset so a circular launcher mask cannot eat a frond tip.
+
+    python tools/make_icon.py            # writes the five site/ icons
     python tools/make_icon.py --preview  # also writes .scratch/icon-preview.png
 """
-import math
 import os
 import sys
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
+COVER = os.path.join(SITE, "cover.png")
 
-GROUND = (20, 84, 74, 255)      # --truku  #14544a
-ART = (247, 242, 232, 255)      # --paper  #f7f2e8
-TRUNK = (201, 184, 146, 255)    # cover-ish tan, so the crown reads first
+CROP = (0, 170, 640, 810)   # left, top, right, bottom on the 941x1672 cover
+COVER_SIZE = (941, 1672)    # asserted: a re-rendered cover would move the crop
+PAPER = (247, 236, 211)     # the cover's own paper, sampled at its corner
 
-SS = 8            # supersample factor
-N = 1024          # nominal art size
-RADIUS = 0.19     # corner radius, fraction of size
-
-CX, CY = 0.500, 0.395   # crown node, fraction of the tile
-# (degrees from +x axis, length, droop) -- droop bends the tip downward
-FRONDS = [
-    (90, 0.270, 0.020),
-    (50, 0.310, 0.100),
-    (130, 0.310, 0.100),
-    (16, 0.340, 0.200),
-    (164, 0.340, 0.200),
-    (-20, 0.295, 0.235),
-    (200, 0.295, 0.235),
-]
-FROND_W = 0.052   # half-width of a frond at its widest
-PINNAE = 9        # scallops per edge
+RADIUS = 0.19    # corner radius, fraction of size
+SS = 4           # supersample factor for the corner mask
+MASK_INSET = 0.80  # maskable art scale, so the crown stays inside the safe zone
 
 
-def bez(p0, p1, p2, t):
-    u = 1 - t
-    return (u * u * p0[0] + 2 * u * t * p1[0] + t * t * p2[0],
-            u * u * p0[1] + 2 * u * t * p1[1] + t * t * p2[1])
+def art(size):
+    """The cover's palm, square, at `size` px.
 
-
-def frond(deg, length, droop):
-    """Outline polygon of one frond, in tile fractions."""
-    a = math.radians(deg)
-    dx, dy = math.cos(a), -math.sin(a)
-    p0 = (CX, CY)
-    p1 = (CX + dx * length * 0.55, CY + dy * length * 0.55 - length * 0.10)
-    p2 = (CX + dx * length, CY + dy * length + droop)
-
-    pts = [bez(p0, p1, p2, i / 120) for i in range(121)]
-    up, dn = [], []
-    for i, (x, y) in enumerate(pts):
-        t = i / 120
-        nx, ny = pts[min(i + 1, 120)]
-        px, py = pts[max(i - 1, 0)]
-        tx, ty = nx - px, ny - py
-        m = math.hypot(tx, ty) or 1
-        tx, ty = tx / m, ty / m
-        # taper: nothing at the node, widest at 45%, a point at the tip
-        taper = math.sin(math.pi * t) ** 0.55 * (1 - t * 0.35)
-        scallop = 0.62 + 0.38 * abs(math.sin(math.pi * PINNAE * t))
-        w = FROND_W * taper * scallop
-        up.append((x - ty * w, y + tx * w))
-        dn.append((x + ty * w, y - tx * w))
-    return up + dn[::-1]
-
-
-def trunk():
-    """Tapered trunk from the crown node off the bottom edge."""
-    p0, p1, p2 = (CX, CY), (CX - 0.012, CY + 0.32), (CX + 0.030, 1.06)
-    up, dn = [], []
-    for i in range(61):
-        t = i / 60
-        x, y = bez(p0, p1, p2, t)
-        w = 0.017 + 0.016 * t          # narrow at the crown, thicker at the base
-        up.append((x - w, y))
-        dn.append((x + w, y))
-    return up + dn[::-1]
-
-
-def render(size, rounded=True):
-    px = size * SS
-    img = Image.new("RGBA", (px, px), (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
-    if rounded:
-        d.rounded_rectangle([0, 0, px - 1, px - 1], radius=RADIUS * px, fill=GROUND)
-    else:
-        d.rectangle([0, 0, px - 1, px - 1], fill=GROUND)   # maskable: the OS shapes it
-
-    def scale(poly):
-        return [(x * px, y * px) for x, y in poly]
-
-    d.polygon(scale(trunk()), fill=TRUNK)
-    for deg, length, droop in FRONDS:
-        d.polygon(scale(frond(deg, length, droop)), fill=ART)
-    # crown node, so seven blades meet in something rather than in a seam
-    r = 0.030 * px
-    d.ellipse([CX * px - r, CY * px - r, CX * px + r, CY * px + r], fill=ART)
-
-    return img.resize((size, size), Image.LANCZOS)
-
-
-def safe_zone():
-    """Maskable icons are cropped to a circle of r = 40% by some launchers.
-
-    The crown has to sit inside it or a launcher eats a frond. The trunk is
-    allowed out -- it bleeds off the bottom edge by design.
+    Below ~64px a plain LANCZOS reduction greys the pinnae into a smudge -- the
+    frame is unchanged, the fronds just stop having enough pixels to be dark. A
+    little unsharp and contrast puts the blades back without altering the art;
+    it is the same palm, printed small.
     """
-    worst = 0.0
-    for deg, length, droop in FRONDS:
-        for x, y in frond(deg, length, droop):
-            worst = max(worst, math.hypot(x - 0.5, y - 0.5))
-    return worst
+    im = Image.open(COVER).convert("RGB")
+    assert im.size == COVER_SIZE, "cover.png is %s, not %s -- re-check CROP" % (
+        im.size, COVER_SIZE)
+    assert CROP[2] - CROP[0] == CROP[3] - CROP[1], "CROP is not square"
+    out = im.crop(CROP).resize((size, size), Image.LANCZOS)
+    if size <= 64:
+        out = ImageEnhance.Contrast(out).enhance(1.15)
+        out = out.filter(ImageFilter.UnsharpMask(radius=1.2, percent=160, threshold=0))
+    return out
+
+
+def render(size, rounded=True, inset=1.0):
+    tile = Image.new("RGB", (size, size), PAPER)
+    if inset >= 1.0:
+        tile = art(size)
+    else:
+        inner = max(1, int(round(size * inset)))
+        off = (size - inner) // 2
+        tile.paste(art(inner), (off, off))
+
+    out = tile.convert("RGBA")
+    if rounded:
+        m = Image.new("L", (size * SS, size * SS), 0)
+        ImageDraw.Draw(m).rounded_rectangle(
+            [0, 0, size * SS - 1, size * SS - 1],
+            radius=RADIUS * size * SS, fill=255)
+        out.putalpha(m.resize((size, size), Image.LANCZOS))
+    return out
 
 
 def main():
-    assert safe_zone() <= 0.40, "crown leaves the maskable safe zone: %.3f" % safe_zone()
-
-    out = [("favicon.png", 180, True), ("favicon-32.png", 32, True),
-           ("icon-192.png", 192, True), ("icon-512.png", 512, True),
-           ("icon-512-maskable.png", 512, False)]
-    for name, size, rounded in out:
-        render(size, rounded).save(os.path.join(SITE, name))
+    out = [("favicon.png", 180, True, 1.0),
+           ("favicon-32.png", 32, True, 1.0),
+           ("icon-192.png", 192, True, 1.0),
+           ("icon-512.png", 512, True, 1.0),
+           ("icon-512-maskable.png", 512, False, MASK_INSET)]
+    for name, size, rounded, inset in out:
+        render(size, rounded, inset).save(os.path.join(SITE, name))
         print("wrote site/%-22s %4dx%-4d %s" % (
-            name, size, size, "rounded" if rounded else "square (maskable)"))
-    print("crown reaches %.3f of the maskable safe zone's 0.400" % safe_zone())
+            name, size, size,
+            "rounded" if rounded else "square (maskable, art at %d%%)" % (inset * 100)))
 
     if "--preview" in sys.argv:
         d = os.path.join(ROOT, ".scratch")
         os.makedirs(d, exist_ok=True)
-        sheet = Image.new("RGBA", (180 + 64 + 32 + 40, 180), (140, 140, 140, 255))
-        sheet.paste(render(180), (0, 0), render(180))
-        sheet.paste(render(64), (196, 58), render(64))
-        sheet.paste(render(32), (276, 74), render(32))
+        sheet = Image.new("RGBA", (180 + 64 + 32 + 60, 180), (140, 140, 140, 255))
+        for im, x, y in ((render(180), 0, 0), (render(64), 196, 58),
+                         (render(32), 276, 74)):
+            sheet.paste(im, (x, y), im)
         sheet.save(os.path.join(d, "icon-preview.png"))
         print("wrote .scratch/icon-preview.png")
 
