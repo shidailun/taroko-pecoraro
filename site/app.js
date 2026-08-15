@@ -3,7 +3,7 @@
   // URL in index.html. Printed at the foot of the about sheet so you can read
   // off which build the browser in front of you is actually running -- a deploy
   // can be live on the CDN and invisible in a browser holding an old app.js.
-  var BUILD = "20260807-0349";
+  var BUILD = "20260815-0510";
 
   var LANGS = [
     { key: "fr", label: "Français" },
@@ -3047,6 +3047,35 @@ var WORD_OVERRIDES = {
     if (!ev.target.classList.contains("alphabet-btn")) return;
     closeSheet();
     showLetter(ev.target.getAttribute("data-letter"));
+  });
+
+  // ⋯ on a phone. Four of the bar's seven buttons only open this same sheet, so
+  // at 390px they were ~140px of chrome doing one job while the search field was
+  // down to 59px. CSS hides them below 600px and lists them here instead. Each
+  // row clicks the real button rather than duplicating its handler: the buttons
+  // are only display:none, so the click still fires, and openSheet swaps this
+  // menu for the chosen panel without the sheet closing in between. One handler
+  // per panel, and a panel added to the bar cannot fall out of step with this
+  // list — it appears by adding a row.
+  var MENU = [
+    ["btn-alpha", "🔤", "Browse A–Z", "依字母瀏覽"],
+    ["btn-intro", "📖", "Introduction", "導言"],
+    ["btn-settings", "⚙", "Languages &amp; spelling", "語言與拼寫法"],
+    ["btn-about", "ⓘ", "About", "關於"]
+  ];
+  document.getElementById("btn-more").addEventListener("click", function () {
+    stopPhotoCycle();
+    var h = "<h2>⋯ Menu · 選單</h2>" + MENU.map(function (r) {
+      return '<button class="menu-row" data-target="' + r[0] + '">' +
+        '<span class="menu-icon">' + r[1] + "</span><span>" + r[2] +
+        ' <span class="group-zh">' + r[3] + "</span></span></button>";
+    }).join("");
+    openSheet(h, false, false);
+  });
+  sheetContent.addEventListener("click", function (ev) {
+    var row = ev.target.closest ? ev.target.closest(".menu-row") : null;
+    if (!row) return;
+    document.getElementById(row.getAttribute("data-target")).click();
   });
 
   // Ordered by his apparent age, so the cycle runs as a life: the young priest at

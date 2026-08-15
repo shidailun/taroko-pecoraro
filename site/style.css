@@ -940,6 +940,39 @@ body:not(.home) .hero-search .icon-btn { flex: 0 0 auto; }
 body:not(.home) .hero-search .search-wrap { flex: 1 1 auto; margin: 0; max-width: none; }
 body:not(.home) .hero-tools { flex: 0 0 auto; display: flex; gap: 0.35rem; }
 
+/* The ⋯ menu. Seven buttons and a search field do not fit a phone: at 390px the
+   field was squeezed to 59px, too narrow to render its own placeholder. Four of
+   the seven (🔤 📖 ⚙ ⓘ) do nothing but open the sheet, so on a narrow screen
+   they collapse into one button that opens a sheet listing them, and the field
+   gets ~227px back. 🎲 stays — it is the only one that acts directly. Above
+   600px nothing changes; there is room, and a visible row is faster than a menu. */
+#btn-more { display: none; }
+@media (max-width: 600px) {
+  body:not(.home) #btn-alpha,
+  body:not(.home) #btn-intro,
+  body:not(.home) #btn-settings,
+  body:not(.home) #btn-about { display: none; }
+  body:not(.home) #btn-more { display: inline-flex; }
+}
+.menu-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.7rem 0.2rem;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+.menu-row:last-of-type { border-bottom: none; }
+.menu-row:hover { color: var(--accent); }
+.menu-row .menu-icon { font-size: 1.15rem; width: 1.6rem; text-align: center; }
+
 /* sheet home icon (Intro / About only) */
 #sheet-home {
   position: absolute;
